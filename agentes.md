@@ -200,3 +200,11 @@ Para reconstruir datos: consultar `docs/SOURCES.md`, `scripts/acquire-history.py
 Siguiente prioridad: **completar excepciones históricas y control efectivo reciente, con mejores fuentes**, y avanzar después en costa contemporánea de alta resolución. No ampliar indiscriminadamente la cronología sin resolver errores concretos. Conservar la distinción entre ambición, cobertura de fuente, contraste focal y validación exhaustiva.
 
 La actualización incremental de fuentes se implementa en source-diff.ts y se comprueba con pruebas de diferencias; sólo se envían entidades modificadas al worker. Las pruebas de navegador usan la compilación de producción en el puerto 5174, con un único worker para no saturar el renderizado por software; compilar antes de ejecutarlas.
+
+## 11. Cierre verificado de 0.3.0
+
+Código publicado: **6952e1baf384bc0c75a59dcf7bf6dc2cff9cc882**. [Quality 39693996198](https://github.com/AlejandroPico/Historicmap/actions/runs/39693996198) correcto: 31 recursos y 11 franjas de letras íntegros, **16 pruebas unitarias y 9 recorridos de navegador** correctos, compilación correcta. [Publish atlas 39694346487](https://github.com/AlejandroPico/Historicmap/actions/runs/39694346487) correcto. Comprobada la web pública: versión 0.3.0, mapa de 1942 con 169 territorios y capa de guerra, manifiesto remoto idéntico a las 31 huellas locales y letras locales disponibles. Detalle en `docs/DELIVERY-0.3.0.md`.
+
+Las estadísticas modifican sólo la pintura mediante `feature-state`; no se reenvían ni teselan costas al cambiar PIB/población. Un índice explícito resuelve códigos Natural Earth/Banco Mundial, evitando fusionar territorios con código desconocido `-99`. Abrir una ficha pausa la reproducción. Los datos preparados usan LF explícito y los archivos PBF son binarios en Git; no eliminar esta protección de integridad entre plataformas.
+
+El último commit de documentación registra el cierre con `[skip ci]`, sin alterar la aplicación validada. La auditoría anual y los contrastes focales no certifican exactitud exhaustiva: completar frentes y control efectivo reciente, detalles territoriales omitidos y resolución de costa sigue siendo la siguiente prioridad.

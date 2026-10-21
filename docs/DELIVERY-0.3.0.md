@@ -24,4 +24,12 @@ Los lugares contemporáneos pasan de un marcador superviviente a 323 capitales y
 
 ## Verificación y publicación
 
-Verificación local: integridad de 31 recursos y 11 franjas de letras, compilación TypeScript/Vite y pruebas unitarias temporales, históricas, estadísticas y de actualizaciones incrementales. Se ha recorrido en navegador cada año 1900–2026, además de cartografía antigua/geológica, reproducción/pausa, carrera de peticiones y controles compactos. La prueba focal de fichas/ciudades/economía/móvil y la de reloj en 2028 pasan tras separar color estadístico de geometría. La ejecución conjunta de los nueve recorridos sobre el commit final se valida en Quality antes de publicar; la confirmación de publicación se registra tras comprobarla.
+Código publicado: **6952e1baf384bc0c75a59dcf7bf6dc2cff9cc882**.
+
+- [Quality 39693996198](https://github.com/AlejandroPico/Historicmap/actions/runs/39693996198): correcto. Integridad de 31 recursos y 11 franjas de letras, **16 pruebas unitarias**, compilación y **9 recorridos de navegador** correctos sobre ese mismo commit. El registro de CI confirma nueve recorridos en 2,5 minutos.
+- Se ha renderizado cada año 1900–2026, además de cartografía antigua/geológica; se comprueban reproducción/pausa, peticiones lentas y fechas obsoletas, controles, fichas, ciudades, economía, móvil y reloj simulado en 2028. El año de referencia contemporánea sigue indicado como 2026 incluso con ese reloj.
+- [Publish atlas 39694346487](https://github.com/AlejandroPico/Historicmap/actions/runs/39694346487): construcción y publicación correctas después de Quality.
+- [Web pública](https://alejandropico.github.io/Historicmap/#year=1942&view=mercator) comprobada: «Acerca de» muestra 0.3.0; 1942 muestra CShapes al 31 de diciembre con 169 territorios y la capa anual de extensión/ocupaciones. El manifiesto público coincide con las 31 huellas locales y el primer paquete de letras responde HTTP 200.
+- Se comprobaron también los bytes preparados para Git, además de los locales: los datos JSON se escriben con LF explícito y los PBF se marcan binarios, evitando alteraciones de huellas entre Windows y Linux.
+
+El cierre documental posterior usa `[skip ci]`: sólo registra estos resultados, sin cambiar la aplicación validada/publicada.
