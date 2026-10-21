@@ -2,7 +2,7 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión inicial: **0.1.0** · 21 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.2.0** · 22 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
@@ -17,15 +17,16 @@ npm run dev
 
 Abrir la dirección local que indique Vite. Para generar la aplicación estática: `npm run build`. El resultado se guarda en `dist/`; `npm run preview` permite revisarlo. Las rutas relativas permiten alojarla bajo `/Historicmap/`.
 
-## Primera versión
+## Funciones
 
 - Mapa vectorial 2D y globo 3D con zoom, selección y búsqueda local.
-- Regla temporal arrastrable: se mueve la regla y el indicador permanece centrado. Teclado, rueda, escala ajustable, reproducción y saltos de época.
+- Regla temporal arrastrable con indicador, fecha y reproducción centrados. La rueda sobre la regla cambia la escala sin desplazar la fecha; sobre el mapa hace zoom geográfico. Las teclas más/menos ajustan la escala y las flechas recorren el tiempo.
+- Mapa a pantalla completa con seis herramientas en la esquina superior derecha, sin cabecera ni franjas de controles alrededor de la regla. Capas en un panel desplegable.
 - Navegación entre 4.540 Ma y 2026 con escala adaptativa no uniforme y fechas exactas introducidas por el usuario.
 - 26 instantáneas incorporadas: una contemporánea, trece históricas y doce tectónicas.
 - Contexto documental, fuentes, fecha de la instantánea y límites de precisión visibles.
 - Relieve contemporáneo opcional, tres lugares de referencia, enlaces compartibles y diseño adaptable.
-- Ventana «Acerca de», versión e historial inicial.
+- Ventana «Acerca de» con favicon, identidad, versión e historial, portfolio del autor y repositorio.
 
 **Esto es una base funcional, no un atlas exhaustivo.** La cartografía contemporánea es Natural Earth 1:10 millones, generalizada para escala mundial; no satisface todavía el objetivo final de máxima definición ni certifica fronteras a fecha de hoy. Las instantáneas históricas son aproximadas y necesitan revisión. No se interpolan fronteras entre años.
 
@@ -41,7 +42,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-GitHub Actions ejecuta validación de datos, seis pruebas de cronología, compilación y tres pruebas de navegador, incluido el renderizado de las 26 instantáneas y el control de límites de vértices. El flujo `Publish atlas` publica en GitHub Pages únicamente tras una ejecución correcta de `Quality` en `main`. Requiere que **Settings → Pages → Source** esté configurado como **GitHub Actions**. No contiene secretos ni necesita un servidor propio. Las acciones están fijadas a su versión mayor; `package-lock.json` fija dependencias de npm.
+GitHub Actions ejecuta validación de datos, seis pruebas de cronología, compilación y cuatro pruebas de navegador, incluido el renderizado de las 26 instantáneas, el control de límites de vértices y el zoom independiente de mapa/regla. El flujo `Publish atlas` publica en GitHub Pages únicamente tras una ejecución correcta de `Quality` en `main`. Requiere que **Settings → Pages → Source** esté configurado como **GitHub Actions**. No contiene secretos ni necesita un servidor propio. Las acciones están fijadas a su versión mayor; `package-lock.json` fija dependencias de npm.
 
 ## Datos y continuidad
 

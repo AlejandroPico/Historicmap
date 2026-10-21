@@ -6,6 +6,10 @@ Aplicación estática distribuida por CDN. El navegador mantiene fecha consultad
 
 `time.ts` es la lógica temporal pura. La posición del eje recorre tramos con distintas escalas, por lo que distancias iguales en pantalla no equivalen a duraciones iguales. La selección de cartografía utiliza instantáneas discretas por dominio. Un periodo sin datos no hereda fronteras contemporáneas.
 
+Desde 0.2.0 la rueda sobre la superficie de la regla sólo modifica su escala, anclada a la fecha central. El arrastre y el teclado recorren fechas. Los eventos de rueda se consumen dentro de esa superficie, mientras MapLibre conserva sus gestos sobre el mapa. Las marcas usan intervalos legibles por tramo y se generan para la ventana visible con margen; durante el arrastre se reutilizan hasta cambiar de bloque visible. El control fijo de fecha y reproducción es hermano del slider, evitando anidar botones interactivos dentro del rol ARIA de slider.
+
+La colección superior contiene búsqueda, proyección, capas, fuentes/base de datos, pantalla completa e información. El panel de capas es no modal, con foco inicial en cerrar, Escape y cierre exterior. Los diálogos completos comparten contenedor; `about.ts` aporta la identidad, ficha e historial del proyecto siguiendo la estructura de las otras aplicaciones del autor. La versión procede de `package.json`.
+
 `main.ts` coordina interfaz, diálogo, búsqueda y mapa. La descarga de cada instantánea es cancelable; un identificador creciente impide que una respuesta antigua reemplace el estado más reciente. Se borra la geometría al iniciar el cambio para evitar mostrar mapas anteriores bajo una fecha nueva. `data-rendered` se actualiza al quedar el mapa inactivo con geometrías visibles y sirve para las pruebas de integración.
 
 Los GeoJSON se importan manteniendo sus coordenadas; se reducen sus propiedades al contrato `{name, group, precision, code, color}`. Los identificadores de entidad de esta versión son locales a cada archivo, no identidades persistentes entre épocas. El importador no realiza simplificación de geometría. El motor sí tesela/recorta para visualizar; no prometer fidelidad catastral.

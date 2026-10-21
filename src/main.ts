@@ -1,15 +1,17 @@
 import * as maplibregl from 'maplibre-gl';
 import { type GeoJSONSource, type ExpressionSpecification, type MapGeoJSONFeature } from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
-import { createIcons, ArrowRight, ArrowUpRight, BookOpen, ChevronDown, Compass, ExternalLink, CodeXml, Globe2, History, Info, LocateFixed, Map as MapIcon, MapPin, Maximize, Minus, Mountain, MousePointer2, Pause, Play, Plus, Search, ShieldCheck, SkipBack, SkipForward, UserRound, X } from 'lucide';
+import { createIcons, ArrowRight, ChevronDown, Compass, Database, ExternalLink, Globe2, Info, Layers, Map as MapIcon, MapPin, Maximize, Minimize, Mountain, Pause, Play, Search, SkipBack, SkipForward, X } from 'lucide';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
 import { anchors, clamp, eraName, formatYear, positionToYear, PRESENT, snapshotFor, yearToPosition, type Snapshot } from './time';
 import { chapterFor, chapters, places } from './catalog';
 import type { FeatureCollection } from 'geojson';
+import packageInfo from '../package.json';
+import { aboutContent } from './about';
 
-const VERSION = '0.1.0';
-const icons = { ArrowRight, ArrowUpRight, BookOpen, ChevronDown, Compass, ExternalLink, CodeXml, Globe2, History, Info, LocateFixed, Map:MapIcon, MapPin, Maximize, Minus, Mountain, MousePointer2, Pause, Play, Plus, Search, ShieldCheck, SkipBack, SkipForward, UserRound, X };
+const VERSION = packageInfo.version;
+const icons = { ArrowRight, ChevronDown, Compass, Database, ExternalLink, Globe2, Info, Layers, Map:MapIcon, MapPin, Maximize, Minimize, Mountain, Pause, Play, Search, SkipBack, SkipForward, X };
 const $ = <T extends HTMLElement = HTMLElement>(selector: string) => document.querySelector<T>(selector)!;
 const icon = (name: string) => `<i data-lucide="${name}" aria-hidden="true"></i>`;
 const app = $('#app');
@@ -18,27 +20,30 @@ app.innerHTML = `
     <div id="map" aria-label="Mapa interactivo de la Tierra"></div>
     <div id="concept" class="concept" hidden><div class="primordial"><div class="planet"></div></div><span id="concept-caption"></span></div>
     <div class="map-shade"></div>
-    <header class="topbar">
-      <a href="./" class="brand" aria-label="Historicmap, inicio"><span class="brand-mark">${icon('globe-2')}</span><span>historic<span class="brand-light">map</span><small>ATLAS DE LA TIERRA A TRAVÉS DEL TIEMPO</small></span></a>
-      <div class="top-divider"></div><span class="edition">EL TIEMPO TIENE UN LUGAR</span>
-      <div class="top-actions"><button id="search-button" class="icon-button" title="Buscar un territorio" aria-label="Buscar un territorio">${icon('search')}</button><span class="separator"></span><div class="projection-switch" aria-label="Proyección"><button id="view-2d" aria-pressed="false">2D</button><button id="view-3d" aria-pressed="true">${icon('globe-2')} 3D</button></div><button id="about-button" class="icon-button" title="Acerca de Historicmap" aria-label="Acerca de Historicmap">${icon('info')}</button></div>
-    </header>
+    <nav class="toolbar" aria-label="Herramientas del atlas">
+      <button id="search-button" class="icon-button" title="Buscar un territorio" aria-label="Buscar un territorio">${icon('search')}</button>
+      <button id="projection-button" class="icon-button" title="Ver mapa 2D" aria-label="Ver mapa 2D" data-view="globe">${icon('map')}</button>
+      <button id="layers-button" class="icon-button" title="Capas del atlas" aria-label="Capas del atlas" aria-controls="layers-panel" aria-expanded="false">${icon('layers')}</button>
+      <button id="sources-button" class="icon-button" title="Base de datos, fuentes y metodología" aria-label="Base de datos, fuentes y metodología">${icon('database')}</button>
+      <button id="fullscreen" class="icon-button" title="Pantalla completa" aria-label="Pantalla completa">${icon('maximize')}</button>
+      <button id="about-button" class="icon-button" title="Acerca de Historicmap" aria-label="Acerca de Historicmap">${icon('info')}</button>
+    </nav>
     <aside class="story-panel" aria-label="Contexto de la época">
       <button id="chapters-button" class="chapter-trigger">${icon('compass')} Explorar épocas ${icon('chevron-down')}</button>
-      <div class="story-content"><div class="eyebrow"><span class="live-dot"></span><span id="era"></span></div><button id="date-button" class="date-heading" title="Ir a una fecha"><span id="year"></span>${icon('chevron-down')}</button><div class="gold-rule"></div><h1 id="story-title"></h1><p id="story-text"></p><a id="story-source" target="_blank" rel="noopener noreferrer" class="source-link">${icon('external-link')}<span></span></a></div>
-      <div class="layers"><span class="section-label">CAPAS DEL ATLAS</span><button id="political-layer" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('map')}</span><span><strong>Territorios</strong><small id="territory-description">Países y fronteras</small></span><span class="layer-indicator"></span></button><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve actual</strong><small>Sombreado topográfico</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Lugares de referencia</strong><small>Selección introductoria</small></span><span class="layer-indicator"></span></button></div>
-      <div class="panel-foot">${icon('mouse-pointer-2')} Selecciona un territorio para explorarlo</div>
+      <div class="story-content"><div class="eyebrow"><span class="live-dot"></span><span id="era"></span></div><h1 id="story-title"></h1><p id="story-text"></p><a id="story-source" target="_blank" rel="noopener noreferrer" class="source-link">${icon('external-link')}<span></span></a></div>
     </aside>
-    <div class="map-label"><span>T E R R A</span><small>UN PLANETA · INCONTABLES HISTORIAS</small></div>
-    <nav class="map-controls" aria-label="Controles del mapa"><button id="zoom-in" class="icon-button" title="Acercar" aria-label="Acercar">${icon('plus')}</button><button id="zoom-out" class="icon-button" title="Alejar" aria-label="Alejar">${icon('minus')}</button><span></span><button id="reset-map" class="icon-button" title="Restablecer vista" aria-label="Restablecer vista">${icon('locate-fixed')}</button><button id="fullscreen" class="icon-button" title="Pantalla completa" aria-label="Pantalla completa">${icon('maximize')}</button></nav>
+    <section id="layers-panel" class="layers-panel" role="dialog" aria-labelledby="layers-title" hidden>
+      <div class="popover-head"><h2 id="layers-title">Capas del atlas</h2><button id="close-layers" class="icon-button" aria-label="Cerrar capas">${icon('x')}</button></div>
+      <div class="layers"><button id="political-layer" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('map')}</span><span><strong>Territorios</strong><small id="territory-description">Países y fronteras</small></span><span class="layer-indicator"></span></button><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve actual</strong><small>Sombreado topográfico</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Lugares de referencia</strong><small>Selección introductoria</small></span><span class="layer-indicator"></span></button></div>
+    </section>
     <div id="selection" class="selection-card" hidden><button id="close-selection" class="icon-button" aria-label="Cerrar selección">${icon('x')}</button><span class="eyebrow">EN EL MAPA</span><h2 id="selection-title"></h2><p id="selection-text"></p></div>
-    <div class="map-status"><span class="status-dot"></span><span id="map-status" role="status" aria-live="polite">Preparando cartografía…</span><button id="retry" hidden>Reintentar</button><button id="sources-button" title="Ver fuentes y límites de precisión" aria-label="Ver fuentes y límites de precisión">${icon('shield-check')}</button></div>
-    <footer class="time-dock">
-      <div class="time-toolbar"><div class="time-title">${icon('history')}<span>VIAJA EN EL TIEMPO</span><span class="time-help">Arrastra la regla para explorar</span></div><div class="time-actions"><button id="time-less" class="icon-button" title="Reducir escala temporal" aria-label="Reducir escala temporal">${icon('minus')}</button><span id="time-scale">ESCALA ADAPTATIVA</span><button id="time-more" class="icon-button" title="Ampliar escala temporal" aria-label="Ampliar escala temporal">${icon('plus')}</button><button id="today" class="today-button">Volver al presente ${icon('arrow-up-right')}</button></div></div>
-      <div id="ruler" class="ruler" role="slider" tabindex="0" aria-label="Fecha del atlas. Usa las flechas o arrastra la regla" aria-valuemin="0" aria-valuemax="1900"><div id="ruler-track"></div><div class="fixed-cursor"><div id="cursor-label"></div><div class="cursor-line"></div></div><div class="ruler-fade left"></div><div class="ruler-fade right"></div></div>
-      <div class="time-bottom"><span class="extent">4.540 MILLONES DE AÑOS <span>—</span> PRESENTE</span><div class="playback"><button id="previous" class="icon-button" aria-label="Época anterior">${icon('skip-back')}</button><button id="play" class="play-button" aria-label="Reproducir recorrido" aria-pressed="false">${icon('play')}</button><button id="next" class="icon-button" aria-label="Época siguiente">${icon('skip-forward')}</button></div><button id="method-button" class="method-button">${icon('book-open')} Fuentes y metodología <span>↗</span></button></div>
-    </footer>
-    <dialog id="modal"><div class="modal-head"><span id="modal-label" class="eyebrow"></span><button id="close-modal" class="icon-button" aria-label="Cerrar ventana">${icon('x')}</button></div><div id="modal-body"></div></dialog>
+    <div class="map-status"><span class="status-dot"></span><span id="map-status" role="status" aria-live="polite">Preparando cartografía…</span><button id="retry" hidden>Reintentar</button></div>
+    <section class="time-dock" aria-label="Navegación temporal">
+      <div id="ruler" class="ruler" role="slider" tabindex="0" aria-label="Fecha del atlas. Arrastra para desplazarte; rueda o teclas más y menos para cambiar la escala" aria-valuemin="0" aria-valuemax="1900"><div id="ruler-track"></div><div class="fixed-cursor"><div class="cursor-line"></div></div><div class="ruler-fade left"></div><div class="ruler-fade right"></div></div>
+      <div class="time-focus"><button id="date-button" class="date-heading" title="Ir a una fecha"><span id="year"></span>${icon('chevron-down')}</button><div class="playback"><button id="previous" class="icon-button" aria-label="Época anterior">${icon('skip-back')}</button><button id="play" class="play-button" aria-label="Reproducir recorrido" aria-pressed="false">${icon('play')}</button><button id="next" class="icon-button" aria-label="Época siguiente">${icon('skip-forward')}</button></div></div>
+      <span id="time-scale" title="Rueda sobre la regla para ampliar o reducir la escala">ESCALA ADAPTATIVA</span>
+    </section>
+    <dialog id="modal" aria-labelledby="modal-label"><div class="modal-head"><span id="modal-label" class="eyebrow"></span><button id="close-modal" class="icon-button" aria-label="Cerrar ventana">${icon('x')}</button></div><div id="modal-body"></div></dialog>
     <div id="toast" role="status" hidden></div>
   </main>`;
 createIcons({icons});
@@ -114,7 +119,6 @@ async function refreshMap(force=false) {
   const concept=snapshot.kind==='concept';
   $('#concept').hidden=!concept;
   $('#map').style.visibility=concept?'hidden':'visible';
-  $('.map-label').classList.toggle('muted',concept);
   $('#physical-layer').toggleAttribute('disabled',snapshot.kind!=='modern');
   $('#political-layer').toggleAttribute('disabled',concept);
   $('#places-layer').toggleAttribute('disabled',year < -10000);
@@ -183,21 +187,39 @@ function updateYear(next:number,save=true){
   renderRuler(); void refreshMap();
   if(save)persistLocation();
 }
-let renderedSpacing=-1;
+let rulerKey='';
 function renderRuler(){
   const track=$('#ruler-track');
-  if(renderedSpacing!==spacing){
-  renderedSpacing=spacing;
-  track.replaceChildren();
-  for(let i=0;i<anchors.length;i++){
-    const tick=document.createElement('div');tick.className='tick major';tick.style.left=`${i*spacing}px`;
-    const label=document.createElement('span');label.textContent=formatYear(anchors[i]);tick.append(label);
-    const sub=document.createElement('small');sub.textContent=eraName(anchors[i]);tick.append(sub);track.append(tick);
-    if(i<anchors.length-1) for(let j=1;j<10;j++){const minor=document.createElement('div');minor.className=`tick minor ${j===5?'medium':''}`;minor.style.left=`${(i+j/10)*spacing}px`;track.append(minor);}
+  const width=$('#ruler').clientWidth;
+  const key=`${spacing}:${Math.floor(position*spacing/120)}:${width}`;
+  if(rulerKey!==key){
+    rulerKey=key;
+    const fragment=document.createDocumentFragment();
+    const left=position-(width/2+240)/spacing, right=position+(width/2+240)/spacing;
+    const tick=(y:number,major:boolean)=>{
+      if(y===0)return;
+      const p=yearToPosition(y);
+      if(p<left||p>right)return;
+      const element=document.createElement('div');element.className=`tick ${major?'major':'minor'}`;element.style.left=`${p*spacing}px`;
+      if(major){const label=document.createElement('span');label.textContent=formatYear(y);element.append(label);}
+      fragment.append(element);
+    };
+    for(let i=Math.max(0,Math.floor(left));i<Math.min(anchors.length-1,Math.ceil(right));i++){
+      const from=anchors[i],to=anchors[i+1];
+      const raw=(to-from)*90/spacing;
+      const magnitude=10**Math.floor(Math.log10(raw));
+      const step=[1,2,5,10].find(n=>n*magnitude>=raw)!*magnitude;
+      const minorStep=Math.max(1,step/5);
+      const visibleFrom=Math.max(from,from+(left-i)*(to-from));
+      const visibleTo=Math.min(to,from+(right-i)*(to-from));
+      for(let y=Math.ceil(visibleFrom/minorStep)*minorStep;y<=visibleTo;y+=minorStep){
+        tick(Math.round(y),Math.abs(y/step-Math.round(y/step))<1e-6);
+      }
+    }
+    track.replaceChildren(fragment);
   }
-  }
-  track.style.transform=`translateX(${$('#ruler').clientWidth/2-position*spacing}px)`;
-  $('#cursor-label').textContent=formatYear(year);
+  track.style.transform=`translateX(${width/2-position*spacing}px)`;
+  $('#ruler').dataset.scale=String(spacing);
   $('#ruler').setAttribute('aria-valuenow',String(Math.round(position*100)));
   $('#ruler').setAttribute('aria-valuetext',`${formatYear(year)}, ${eraName(year)}`);
 }
@@ -206,28 +228,30 @@ const ruler=$('#ruler');
 ruler.addEventListener('pointerdown',event=>{stopPlay();dragging=true;startX=event.clientX;startPosition=position;ruler.setPointerCapture(event.pointerId);ruler.classList.add('dragging');});
 ruler.addEventListener('pointermove',event=>{if(dragging)updateYear(positionToYear(startPosition-(event.clientX-startX)/spacing));});
 for(const type of ['pointerup','pointercancel'])ruler.addEventListener(type,()=>{dragging=false;ruler.classList.remove('dragging');});
-ruler.addEventListener('wheel',event=>{event.preventDefault();stopPlay();updateYear(positionToYear(position+(event.deltaX||event.deltaY)/spacing*0.25));},{passive:false});
-ruler.addEventListener('keydown',event=>{const keys:Record<string,number>={ArrowLeft:-0.1,ArrowRight:0.1,PageUp:-1,PageDown:1};if(event.key in keys){event.preventDefault();stopPlay();updateYear(positionToYear(position+keys[event.key]));}else if(event.key==='Home'){event.preventDefault();updateYear(anchors[0]);}else if(event.key==='End'){event.preventDefault();updateYear(PRESENT);}});
+function zoomRuler(factor:number){stopPlay();spacing=clamp(Math.round(spacing*factor),96,4800);if(dragging){dragging=false;ruler.classList.remove('dragging');}renderRuler();}
+$('.time-dock').addEventListener('wheel',event=>{event.preventDefault();event.stopPropagation();const units=event.deltaMode===1?16:event.deltaMode===2?ruler.clientHeight:1;zoomRuler(Math.exp(-clamp((event.deltaY||event.deltaX)*units,-240,240)*.0025));},{passive:false});
+ruler.addEventListener('keydown',event=>{const keys:Record<string,number>={ArrowLeft:-24/spacing,ArrowRight:24/spacing,PageUp:-ruler.clientWidth*.8/spacing,PageDown:ruler.clientWidth*.8/spacing};if(event.key in keys){event.preventDefault();stopPlay();updateYear(positionToYear(position+keys[event.key]));}else if(event.key==='Home'){event.preventDefault();stopPlay();updateYear(anchors[0]);}else if(event.key==='End'){event.preventDefault();stopPlay();updateYear(PRESENT);}else if(['+','=','-','_'].includes(event.key)){event.preventDefault();zoomRuler(['+','='].includes(event.key)?1.25:1/1.25);}});
 new ResizeObserver(renderRuler).observe(ruler);
 function stopPlay(){cancelAnimationFrame(playFrame);playFrame=0;lastFrame=0;$('#play').setAttribute('aria-pressed','false');$('#play').setAttribute('aria-label','Reproducir recorrido');$('#play').innerHTML=icon('play');createIcons({icons});}
 function play(now:number){if(!lastFrame)lastFrame=now;const next=position+(now-lastFrame)/1000*0.22;lastFrame=now;updateYear(positionToYear(next));if(next>=anchors.length-1)stopPlay();else playFrame=requestAnimationFrame(play);}
 $('#play').onclick=()=>{if(playFrame){stopPlay();return;}if(year===PRESENT)updateYear(anchors[0]);$('#play').setAttribute('aria-pressed','true');$('#play').setAttribute('aria-label','Pausar recorrido');$('#play').innerHTML=icon('pause');createIcons({icons});playFrame=requestAnimationFrame(play);};
 $('#previous').onclick=()=>{stopPlay();updateYear(anchors[Math.max(0,Math.ceil(position)-1)]);};
 $('#next').onclick=()=>{stopPlay();updateYear(anchors[Math.min(anchors.length-1,Math.floor(position)+1)]);};
-$('#today').onclick=()=>{stopPlay();updateYear(PRESENT);};
-$('#time-less').onclick=()=>{spacing=clamp(spacing-60,120,650);renderRuler();};
-$('#time-more').onclick=()=>{spacing=clamp(spacing+60,120,650);renderRuler();};
-function setProjection(value:'globe'|'mercator') {projection=value;if(ready)map.setProjection({type:value});$('#view-2d').setAttribute('aria-pressed',String(value==='mercator'));$('#view-3d').setAttribute('aria-pressed',String(value==='globe'));updateYear(year);}
-$('#view-2d').onclick=()=>setProjection('mercator');$('#view-3d').onclick=()=>setProjection('globe');
-$('#zoom-in').onclick=()=>map.zoomIn({duration:reduced?0:300});$('#zoom-out').onclick=()=>map.zoomOut({duration:reduced?0:300});
-$('#reset-map').onclick=()=>map.flyTo({center:[23,22],zoom:1.65,bearing:0,pitch:0,duration:reduced?0:900});
+function projectionControl(){const label=projection==='globe'?'Ver mapa 2D':'Ver globo 3D';$('#projection-button').dataset.view=projection;$('#projection-button').setAttribute('aria-label',label);$('#projection-button').title=label;$('#projection-button').innerHTML=icon(projection==='globe'?'map':'globe-2');createIcons({icons});}
+function setProjection(value:'globe'|'mercator') {projection=value;if(ready)map.setProjection({type:value});projectionControl();updateYear(year);}
+$('#projection-button').onclick=()=>setProjection(projection==='globe'?'mercator':'globe');
 $('#fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{toast('La pantalla completa no está disponible en esta ventana.');}};
+document.addEventListener('fullscreenchange',()=>{const full=!!document.fullscreenElement;$('#fullscreen').innerHTML=icon(full?'minimize':'maximize');$('#fullscreen').setAttribute('aria-label',full?'Salir de pantalla completa':'Pantalla completa');$('#fullscreen').title=full?'Salir de pantalla completa':'Pantalla completa';createIcons({icons});});
+function closeLayers(focus=false){$('#layers-panel').hidden=true;$('#layers-button').setAttribute('aria-expanded','false');if(focus)$('#layers-button').focus();}
+$('#layers-button').onclick=()=>{const open=$('#layers-panel').hidden;$('#layers-panel').hidden=!open;$('#layers-button').setAttribute('aria-expanded',String(open));if(open)$('#close-layers').focus();};
+$('#close-layers').onclick=()=>closeLayers(true);
+document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!$('#layers-panel').hidden&&!$('#layers-panel').contains(target)&&!$('#layers-button').contains(target))closeLayers();});
 $('#political-layer').onclick=()=>{political=!political;applyLayers();};$('#physical-layer').onclick=()=>{physical=!physical;applyLayers();};$('#places-layer').onclick=()=>{showPlaces=!showPlaces;applyLayers();};
 $('#close-selection').onclick=()=>{$('#selection').hidden=true;if(ready)map.setFilter('territory-selected',['==',['id'],-1]);};
 $('#retry').onclick=()=>void refreshMap(true);
 
 const modal=$<HTMLDialogElement>('#modal');
-function openModal(label:string,html:string){stopPlay();$('#modal-label').textContent=label;$('#modal-body').innerHTML=html;modal.showModal();createIcons({icons});}
+function openModal(label:string,html:string,kind=''){stopPlay();closeLayers();modal.className=kind;$('#modal-label').textContent=label;$('#modal-body').innerHTML=html;modal.showModal();createIcons({icons});}
 $('#close-modal').onclick=()=>modal.close();modal.addEventListener('click',e=>{if(e.target===modal){const r=modal.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)modal.close();}});
 $('#chapters-button').onclick=()=>{
   openModal('EXPLORAR ÉPOCAS','<h2>Una Tierra. Toda su historia.</h2><p class="modal-intro">Elige un punto de partida y continúa tu viaje con la regla temporal.</p><div class="chapters-grid"></div>');
@@ -249,8 +273,8 @@ $('#search-button').onclick=()=>{
   };$('#search-input').oninput=search;search();
 };
 function sources(){openModal('FUENTES Y METODOLOGÍA',`<h2>La precisión también es saber qué desconocemos.</h2><p class="modal-intro">Esta primera versión integra 26 instantáneas. La regla selecciona la más próxima dentro de cada dominio; no interpola fronteras ni simula movimientos entre ellas. La fecha cartográfica está siempre visible junto al mapa.</p><div class="source-item"><h3>01 · El presente</h3><p>Natural Earth Admin 0 a 1:10 millones, 258 entidades cartográficas. Geometrías originales sin simplificación en la importación. Es cartografía global generalizada: el detalle local y la vigencia diaria de fronteras están pendientes.</p><a target="_blank" rel="noopener" href="https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/">Natural Earth · dominio público ↗</a></div><div class="source-item"><h3>02 · Sociedades y territorios</h3><p>13 instantáneas de Historical Basemaps, de 10.000 a. C. a 2010. Incluyen áreas culturales, dependencias y límites aproximados. No representan ocupación humana exhaustiva ni soberanía exclusiva. El relieve moderno se desactiva en el pasado.</p><a target="_blank" rel="noopener" href="https://github.com/aourednik/historical-basemaps">A. Ourednik · GPL-3.0 ↗</a></div><div class="source-item"><h3>03 · Continentes en movimiento</h3><p>12 reconstrucciones de 1 a 1.800 Ma mediante GPlates, modelo CAO2024. Contornos continentales reconstruidos; no son paleocostas exactas ni reconstrucciones de biomas, atmósfera o nivel del mar. La incertidumbre aumenta hacia el pasado.</p><a target="_blank" rel="noopener" href="https://doi.org/10.1016/j.gsf.2024.101922">Cao et al. (2024) · CC BY 4.0 ↗</a></div><div class="source-item"><h3>04 · Más allá de los datos</h3><p>Antes de 1.800 Ma se presenta una escena conceptual sin continentes inventados. Entre 1 Ma y 10.000 a. C. la cartografía está pendiente. Los homininos, las migraciones, las glaciaciones y las batallas requieren capas documentadas adicionales. No se presentan como funciones completadas.</p></div><p class="modal-intro">Escala temporal adaptativa, con intervalos no uniformes. Periodización orientativa; no universal. Cada descarga y su huella SHA-256 figuran en el manifiesto del repositorio.</p>`);}
-$('#sources-button').onclick=sources;$('#method-button').onclick=sources;
-$('#about-button').onclick=()=>openModal('ACERCA DE HISTORICMAP',`<h2>El tiempo tiene un lugar.</h2><p class="modal-intro">Un atlas para explorar la evolución de la Tierra y la historia de las sociedades humanas, con cartografía 2D y 3D, fuentes trazables y límites de conocimiento explícitos.</p><div class="version-row"><span>VERSIÓN</span><strong>${VERSION} · Primera edición</strong></div><p>Proyecto de Alejandro Pico. Interfaz en español. Inicio del proyecto: 21 de octubre de 2026.</p><div class="about-links"><a target="_blank" rel="noopener" href="https://github.com/AlejandroPico/Historicmap">${icon('code-xml')} Repositorio del proyecto ↗</a><a target="_blank" rel="noopener" href="https://github.com/AlejandroPico">${icon('user-round')} Perfil del autor ↗</a></div><p class="modal-intro">El enlace al portfolio personal está pendiente de configurar. Consulta agentes.md para la visión, arquitectura, roadmap y continuidad entre colaboradores.</p><div class="source-item"><h3>Historial de versiones · 0.1.0</h3><p>Motor cartográfico, globo, regla temporal, 26 instantáneas, búsqueda local, capas, lugares de referencia y documentación del proyecto.</p></div>`);
-document.addEventListener('keydown',event=>{if(event.key==='Escape'){$('#selection').hidden=true;stopPlay();}if(event.code==='Space'&&!modal.open&&event.target===document.body){event.preventDefault();$('#play').click();}});
-function restore(){const params=new URLSearchParams(location.hash.slice(1));const y=Number(params.get('year')??PRESENT);if(params.get('view')==='mercator')projection='mercator';else projection='globe';$('#view-2d').setAttribute('aria-pressed',String(projection==='mercator'));$('#view-3d').setAttribute('aria-pressed',String(projection==='globe'));if(ready)map.setProjection({type:projection});updateYear(Number.isFinite(y)?y:PRESENT,false);}
+$('#sources-button').onclick=sources;
+$('#about-button').onclick=()=>openModal('ACERCA DE HISTORICMAP',aboutContent(VERSION,import.meta.env.BASE_URL),'about-dialog');
+document.addEventListener('keydown',event=>{if(event.key==='Escape'){$('#selection').hidden=true;if(!$('#layers-panel').hidden)closeLayers(true);stopPlay();}if(event.code==='Space'&&!modal.open&&event.target===document.body){event.preventDefault();$('#play').click();}});
+function restore(){const params=new URLSearchParams(location.hash.slice(1));const y=Number(params.get('year')??PRESENT);if(params.get('view')==='mercator')projection='mercator';else projection='globe';projectionControl();if(ready)map.setProjection({type:projection});updateYear(Number.isFinite(y)?y:PRESENT,false);}
 window.addEventListener('hashchange',restore);restore();

@@ -1,6 +1,6 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Versión del producto: **0.1.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **22 de octubre de 2026**. Versión del producto: **0.2.0**.
 
 ## 1. Identidad y visión
 
@@ -15,15 +15,15 @@ El horizonte completo incluye evolución continental, océanos, glaciaciones, re
 1. El proyecto comienza desde un repositorio vacío y debe producir versiones utilizables.
 2. La calidad cartográfica contemporánea debe aspirar al máximo detalle disponible. No dibujar costas manualmente ni sustituir datos por siluetas decorativas. El pasado admite reconstrucciones aproximadas, identificadas como tales.
 3. Mapa 2D y globo 3D. En etapas futuras, estudiar relieve tridimensional real y un sistema de iluminación y materiales más avanzado; el globo inicial no equivale a una simulación geológica o atmosférica.
-4. La regla inferior debe ser más ancha que la pantalla. **Se desplaza la regla; el cursor temporal queda fijo en el centro inferior.** Debe poder arrastrarse en ambas direcciones.
+4. La regla inferior debe ser más ancha que la pantalla. **Se desplaza la regla; el cursor temporal queda fijo en el centro inferior.** Debe poder arrastrarse en ambas direcciones. Desde el rediseño del 22/10/2026, la rueda sobre la regla cambia exclusivamente su escala sin cambiar la fecha; la rueda sobre el mapa hace zoom geográfico. La fecha y reproducción/saltos forman un solo grupo central. No restaurar las franjas superior e inferior, «Viaja en el tiempo», «Volver al presente», el texto de extensión temporal o el enlace de metodología al pie.
 5. Cubrir todas las edades humanas y etapas geológicas, no solamente época contemporánea.
 6. Incorporar progresivamente las distintas especies de homininos, incluidos neandertales y Homo floresiensis; diferenciar evidencia fósil, distribución inferida y migración.
-7. Menú superior derecho y herramientas de zoom, proyección, «Acerca de», enlaces al proyecto y al portfolio del autor, versión e historial.
+7. Menú flotante compacto en la esquina superior derecha, sin cabecera permanente: búsqueda, botón único que alterna 2D/3D, capas, base de datos/fuentes, pantalla completa e información. Eliminar los botones laterales de zoom y restablecimiento. Identidad, favicon, enlaces al proyecto/portfolio, versión e historial se integran en «Acerca de». Referencias visuales autorizadas: Sizes y Lector; conservar la paleta del atlas.
 8. Tecnologías actuales: verificar las versiones estables disponibles al adoptarlas; fijarlas y registrar decisiones. No usar versiones experimentales por el simple hecho de ser más nuevas.
 9. SQLite es admisible si ayuda; no es obligatorio ni debe añadirse sin necesidad.
 10. Este archivo debe registrar visión, planes, tecnologías, funciones, decisiones y continuidad entre asistentes. La documentación debe ser profesional, sin comparaciones con productos de entretenimiento ni referencias promocionales a modelos.
 
-## 3. Estado real de la versión 0.1.0
+## 3. Estado real de la versión 0.2.0
 
 ### Implementado
 
@@ -36,12 +36,14 @@ El horizonte completo incluye evolución continental, océanos, glaciaciones, re
 - Clasificación visual por territorios con paleta discreta; líneas de límites, selección resaltada y etiquetas desde determinado nivel de zoom.
 - Relieve mediante hillshade Terrarium de Mapzen/AWS para el presente. No reconstruye altitudes pasadas. Se desactiva en épocas históricas y geológicas.
 - Tres marcadores introductorios con intervalos temporales: Uruk, Roma y Çatalhöyük. No es un catálogo de ciudades completo.
-- Cronología por tramos lineales de escala adaptativa, 20 anclas de densidad deliberadamente desigual. Arrastre por puntero/táctil, rueda, flechas, inicio/fin, saltos, ajuste de escala y reproducción.
+- Cronología por tramos lineales de escala adaptativa, 20 anclas de densidad deliberadamente desigual. Arrastre por puntero/táctil y flechas para desplazamiento; rueda o teclas más/menos para zoom temporal manteniendo fecha y cursor. Inicio/fin, saltos y reproducción. Marcas con intervalos legibles según el zoom, generadas sólo para el área visible y su margen. La escala va de 96 a 4800 píxeles por intervalo de anclas.
 - Introducción de año concreto. No se utiliza año cero civil. Ma/Ga se muestran como antigüedades aproximadas; no son fechas con precisión anual.
 - Fecha consultada separada de la instantánea seleccionada. Se utiliza la instantánea más cercana **dentro del dominio correspondiente**; no se inventan estados intermedios.
 - Buscador local de nombres del archivo cargado. La cartografía contemporánea utiliza nombres españoles cuando existen; el pasado conserva nombres originales.
-- Fuentes y metodología, contexto por época, «Acerca de», versión, enlace al repositorio y al perfil público del autor.
-- Portfolio: **pendiente de URL confirmada**; no inventar un enlace. El perfil de GitHub no se presenta como portfolio.
+- Herramientas superiores compactas; cambio de proyección en un único botón con icono y nombre accesible de la acción siguiente. Capas en panel desplegable, cierre con Escape, pulsación exterior o su botón de cierre.
+- Fuentes y metodología accesibles desde el icono de base de datos superior. Contexto por época a la izquierda, sin las capas ni fecha duplicada.
+- «Acerca de» rediseñado con favicon, identidad, ficha de versión, instrucciones del atlas e historial. Versión obtenida de `package.json` para evitar discrepancias.
+- Portfolio confirmado: https://alejandropico.github.io/Portfolio/ . Recuperado de los proyectos de referencia del autor y comprobado HTTP 200 el 22/10/2026. Enlazado junto al repositorio del proyecto.
 - Estado compartible en fragmento URL `#year=100&view=globe`, pantalla completa cuando el navegador la admite, adaptación a móvil, foco visible, diálogo nativo, teclado y preferencia de movimiento reducido.
 - Importador de datos con reintentos, validación de procedencia y SHA-256; datos distribuidos localmente para no depender de GPlates en cada visita.
 - GitHub Actions: validación, pruebas, compilación y publicación en GitHub Pages tras superar calidad.
@@ -58,7 +60,7 @@ El horizonte completo incluye evolución continental, océanos, glaciaciones, re
 - No hay animación del impacto de Theia, simulación física, formación lunar, atmósferas, evolución oceánica, líquidos alternativos, vida, extinciones visualizadas, batallas o guerras. Theia es un cuerpo hipotético de la hipótesis dominante del gran impacto; no un hecho observado y totalmente determinado.
 - El relieve y las fuentes/etiquetas externas necesitan conexión. No hay service worker, instalación PWA ni garantía de modo offline completo.
 - No hay datos persistidos del usuario, ni SQLite, ni API, ni analítica.
-- Los controles de zoom actúan sobre el mapa. Las escenas conceptuales son ilustraciones sin navegación cartográfica.
+- El zoom del mapa se controla mediante sus gestos nativos; la rueda en la regla nunca lo modifica. Las escenas conceptuales son ilustraciones sin navegación cartográfica.
 
 ## 4. Tecnologías y estructura
 
@@ -66,6 +68,7 @@ Versiones adoptadas el 21/10/2026, contrastadas con registros oficiales: Node.js
 
 ```text
 src/main.ts                interfaz, mapa, interacción y estado de aplicación
+src/about.ts               identidad, ficha del proyecto e historial visible
 src/time.ts                cronología pura y elección de instantánea
 src/catalog.ts             contexto de épocas y lugares introductorios
 src/style.css              sistema visual, disposiciones y adaptación
@@ -84,13 +87,13 @@ CHANGELOG.md               historial del producto
 AGENTS.md                  entrada automática hacia este documento
 ```
 
-La interfaz utiliza una base oscura azul verdosa, acento dorado, tipografía sans para controles y serif para fechas/contexto. El mapa ocupa el área principal, el contexto se superpone a la izquierda, los controles a la derecha y la regla al pie. No degradar la cartografía por comodidad estética. Mantener contraste, foco y accesibilidad.
+La interfaz utiliza una base oscura azul verdosa, acento dorado, tipografía sans para controles y serif para fechas/contexto. El mapa ocupa toda la pantalla. El contexto se superpone a la izquierda, las seis herramientas flotan arriba a la derecha y la regla se superpone al pie sin franjas adicionales. El punto fijo central integra fecha, reproducción y saltos; la etiqueta «Escala adaptativa» se mantiene discretamente a la derecha. No degradar la cartografía por comodidad estética. Mantener contraste, foco y accesibilidad.
 
 MapLibre 6 utiliza módulos ESM y worker externo. El worker se importa explícitamente con `?url` y se configura con `setWorkerUrl` **antes de crear el mapa**. No eliminarlo: el fallo puede dibujar un globo vacío aunque el archivo GeoJSON se haya descargado. Las pruebas esperan evidencia de geometrías renderizadas, no sólo el mensaje de descarga.
 
 El renderizador usa tolerancia de teselación de 0,2 píxeles y zoom de fuente máximo 7. Es una generalización subpíxel para la pantalla, no una modificación de los archivos de origen. La tolerancia cero en geometrías globales muy densas provocaba segmentos por encima del límite de vértices del motor. Las pruebas de navegador detectan ese aviso para evitar regresiones. Mantener el detalle de origen y evaluar teselas de alta resolución en la próxima etapa.
 
-La regla reutiliza sus marcas durante el movimiento y sólo las reconstruye al cambiar la escala. La URL compartible se actualiza como máximo cuatro veces por segundo, con escritura final diferida de la fecha más reciente. No volver a escribir el historial en cada fotograma: durante una reproducción prolongada se observó que el navegador dejaba el enlace desfasado respecto al año visible. La prueba de reproducción comprueba pausa y regreso al presente con URL coherente.
+La regla reutiliza sus marcas durante el movimiento y las reconstruye al cambiar la escala, el tamaño o el bloque visible. Sólo genera marcas del área visible y un margen, evitando miles de nodos al ampliar mucho. La fecha permanece anclada al centro al hacer zoom, independientemente de la posición del ratón. La URL compartible se actualiza como máximo cuatro veces por segundo, con escritura final diferida de la fecha más reciente. No volver a escribir el historial en cada fotograma: durante una reproducción prolongada se observó que el navegador dejaba el enlace desfasado respecto al año visible. La prueba de reproducción comprueba pausa y regreso al presente con URL coherente.
 
 ## 5. Contrato de datos y rigor
 
@@ -104,7 +107,13 @@ No importar imágenes, vídeo, datasets o texturas porque sean accesibles: verif
 
 ## 6. Roadmap priorizado
 
-### 0.2 · Calidad cartográfica contemporánea
+### 0.2 · Interfaz compacta — implementada
+
+- Cabecera y franjas de la cronología eliminadas; menú superior compacto, capas desplegables, identidad en «Acerca de» y controles integrados en el centro fijo.
+- Zoom independiente: rueda sobre mapa para geografía, rueda sobre regla para escala temporal. Arrastre para desplazamiento temporal.
+- Esta entrega no amplía ni modifica la cartografía o sus fuentes. Las prioridades científicas y de resolución siguen pendientes.
+
+### 0.3 · Calidad cartográfica contemporánea
 
 - Evaluar teselas vectoriales abiertas de alta resolución, costa detallada y actualización reproducible, por ejemplo con un paquete PMTiles propio o proveedor documentado.
 - Resolver nombres, etiquetas, detalles costeros, lagos, ríos, países pequeños, antimeridiano y polos, con generalización dependiente del zoom y pruebas geográficas.
@@ -112,21 +121,21 @@ No importar imágenes, vídeo, datasets o texturas porque sean accesibles: verif
 - Mejorar materiales de superficie y relieve, iluminación, batimetría y transiciones, manteniendo legibilidad política y rendimiento.
 - Módulos separados para motor cartográfico, aplicación de capas, UI, cronología y repositorios de datos; el archivo inicial `main.ts` es deliberadamente compacto y debe separarse antes de ampliarlo mucho.
 
-### 0.3 · Historia política verificable
+### 0.4 · Historia política verificable
 
 - Auditoría de las 13 instantáneas actuales; incorporar un segundo conjunto con cobertura y licencia verificadas, comenzando por regiones/periodos acotados.
 - Modelo de entidades persistentes con nombres e identidades históricas, relaciones de dependencia y periodos de validez.
 - Cambios fechados de fronteras, ciudades, capitales, redes comerciales y primeros Estados. Trabajar por entregas geográficas revisadas, no prometer todos los años de todo el planeta de una vez.
 - Fichas de entidad con bibliografía, precisión y alternativas, comparación entre fechas y búsqueda en español.
 
-### 0.4 · Prehistoria y evolución humana
+### 0.5 · Prehistoria y evolución humana
 
 - Catálogo de yacimientos y fósiles con evidencia primaria; especies, rangos temporales inciertos y ocupación documentada.
 - Homo sapiens, neandertales, denisovanos, Homo erectus, Homo floresiensis y otros taxones cuando los datos lo permitan. No homogeneizar «homininos» con «humanos modernos».
 - Migraciones como hipótesis con rutas/áreas de incertidumbre y fechas, nunca como trayectorias GPS exactas.
 - Paleocostas, cambios del nivel del mar y extensión de hielo para el Cuaternario.
 
-### 0.5 · Tierra profunda, clima y vida
+### 0.6 · Tierra profunda, clima y vida
 
 - Ampliar y densificar reconstrucciones tectónicas dentro del alcance de modelos elegidos; ofrecer comparación y trazabilidad del modelo.
 - Incorporar superficies paleogeográficas revisadas, paleoaltitud/batimetría cuando existan, hielo, biomas y evidencia fósil.
@@ -149,7 +158,7 @@ No importar imágenes, vídeo, datasets o texturas porque sean accesibles: verif
 5. Actualizar versión con SemVer cuando corresponda, `CHANGELOG.md`, este archivo y documentación de datos/arquitectura si cambian.
 6. Registrar: realizado, validado, problemas conocidos, siguiente paso, fuentes nuevas y decisiones. Identificar resultados locales, subidos y publicados por separado. No anunciar publicación basándose sólo en un workflow escrito.
 7. No guardar tokens, credenciales, ejecutables locales, node_modules, informes temporales o datos privados en Git. No modificar permisos o audiencias sin autorización.
-8. En `Acerca de`, usar enlaces confirmados. La URL de portfolio puede incorporarse cuando el propietario la facilite. No introducir contenido sobre el proveedor de IA en la experiencia del usuario.
+8. En `Acerca de`, usar enlaces confirmados. El portfolio del autor ya está confirmado en la sección 3; no sustituirlo por el perfil de GitHub. No introducir contenido sobre el proveedor de IA en la experiencia del usuario.
 
 ## 8. Ejecución y despliegue
 
@@ -168,9 +177,11 @@ La compilación no necesita credenciales ni acceso a las fuentes científicas: l
 - **2026-10-21:** comenzar con Natural Earth 1:10m preservando geometrías; reconocer que no alcanza el objetivo final de máxima resolución.
 - **2026-10-21:** escenas conceptuales sin continentes inventados en dominios sin datos; contexto separado de cartografía.
 - **2026-10-21:** `agentes.md` es el documento canónico solicitado; `AGENTS.md` sirve como enlace de entrada automática.
+- **2026-10-22:** por solicitud del propietario, retirar cabecera, franjas y controles laterales. Seguir la colección de iconos de Sizes y la estructura de identidad/ficha de Lector en «Acerca de». Unificar fecha y reproducción en el centro de la regla, y separar zoom geográfico/temporal por la superficie bajo el cursor.
+- **2026-10-22:** mantener los datos intactos. La versión 0.2.0 corresponde a interfaz y navegación; la fase de alta resolución cartográfica pasa a 0.3.
 
 ## 10. Validación y relevo
 
-En la primera entrega se ejecutan validación SHA-256 de las 26 instantáneas, seis pruebas de cronología, compilación TypeScript/Vite y tres recorridos de navegador: búsqueda/selección/proyecciones/épocas; cursor fijo/fecha exacta/móvil/diálogos; y renderizado de las 26 instantáneas sin exceso de vértices GPU. Esta última comprobación usa la vista plana para incluir masas continentales que, en el globo, quedarían en el hemisferio opuesto. Las comprobaciones gráficas incluyen esperar polígonos renderizados, no sólo un canvas presente. Los resultados finales y el estado de publicación se registran en `docs/DELIVERY.md`.
+Las comprobaciones incluyen integridad SHA-256 de las 26 instantáneas, seis pruebas de cronología, compilación TypeScript/Vite y cuatro recorridos de navegador: búsqueda/selección/proyecciones/reproducción; cursor fijo/fecha exacta/móvil/diálogos; renderizado de las 26 instantáneas sin exceso de vértices GPU; y herramientas compactas/zoom independiente de regla y mapa/capas/fuentes. El recorrido de todas las instantáneas usa la vista plana para incluir masas continentales que, en el globo, quedarían en el hemisferio opuesto. Se esperan polígonos renderizados, no sólo un canvas presente. El informe inicial está en `docs/DELIVERY.md`; el del rediseño se registra en `docs/DELIVERY-0.2.0.md`.
 
 Siguiente trabajo recomendado: **alta resolución contemporánea y auditoría de datos históricos**, antes de añadir grandes cantidades de contenido. Mantener explícita la distinción entre la ambición del producto y su cobertura comprobada.

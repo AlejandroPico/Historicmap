@@ -1,13 +1,15 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page } from '@playwright/test';
 import { geologicalMa, historicalYears } from '../../src/time';
+async function disableRelief(page:Page){await page.locator('#layers-button').click();await page.locator('#physical-layer').click();await page.locator('#close-layers').click();}
+async function present(page:Page){await page.locator('#ruler').focus();await page.keyboard.press('End');}
 test('present map, projection, search, historical and geological snapshots',async({page})=>{
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
   page.on('console',message=>{if(message.text().includes('Max vertices per segment'))errors.push(message.text());});
   await page.goto('/');
   await expect(page.locator('#map-status')).toContainText('Natural Earth',{timeout:45000});
   await expect(page.locator('#map')).toHaveAttribute('data-rendered','countries.geojson',{timeout:45000});
-  await page.locator('#physical-layer').click();
-  await page.getByRole('button',{name:'2D',exact:true}).click();
+  await disableRelief(page);
+  await page.getByRole('button',{name:'Ver mapa 2D',exact:true}).click();
   await expect(page).toHaveURL(/view=mercator/);
   await page.getByRole('button',{name:'Buscar un territorio',exact:true}).click();
   await page.getByLabel('Nombre del territorio').fill('España');
@@ -29,18 +31,17 @@ test('present map, projection, search, historical and geological snapshots',asyn
   await page.getByRole('button',{name:'4,54 Ga El origen',exact:true}).click();
   await expect(page.locator('#concept')).toBeVisible();
   await expect(page.locator('#concept-caption')).toContainText('CONCEPTUAL');
-  await page.getByRole('button',{name:'Volver al presente'}).click();
+  await present(page);
   await expect(page.locator('#map-status')).toContainText('Natural Earth');
   await expect(page.locator('#map')).toHaveAttribute('data-rendered','countries.geojson',{timeout:45000});
   await page.screenshot({path:'test-results/present.png'});
-  await page.getByRole('button',{name:'3D',exact:true}).click();
-  await page.locator('#reset-map').click();
+  await page.getByRole('button',{name:'Ver globo 3D',exact:true}).click();
   await expect(page.locator('#map')).toHaveAttribute('data-rendered','countries.geojson');
   await page.screenshot({path:'test-results/globe.png'});
   await page.locator('#play').click();
   await page.waitForTimeout(8000);
   await page.locator('#play').click();
-  await page.locator('#today').click();
+  await present(page);
   await expect(page).toHaveURL(/year=2026&view=globe/);
   await expect(page.locator('#year')).toHaveText('2026 d. C.');
   expect(errors).toEqual([]);
@@ -54,7 +55,9 @@ test('fixed center cursor, keyboard navigation, exact date, about and narrow lay
   const after=await page.locator('.fixed-cursor').boundingBox();expect(after?.x).toBe(cursor?.x);
   await page.locator('#date-button').click();await page.getByLabel('Año (negativo para a. C.)').fill('117');await page.getByRole('button',{name:'Explorar fecha'}).click();
   await expect(page.locator('#year')).toHaveText('117 d. C.');await expect(page.locator('#map-status')).toContainText('100 d. C.');
-  await page.locator('#about-button').click();await expect(page.locator('#modal-body')).toContainText('0.1.0');await page.keyboard.press('Escape');
+  await page.locator('#about-button').click();await expect(page.locator('#modal-body')).toContainText('0.2.0');
+  await expect(page.locator('.about-project-icon img')).toBeVisible();
+  await expect(page.locator('.about-links a').first()).toHaveAttribute('href','https://alejandropico.github.io/Portfolio/');await page.keyboard.press('Escape');
   await page.setViewportSize({width:390,height:844});await page.screenshot({path:'test-results/mobile.png'});
   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
   await page.locator('#chapters-button').click();await expect(page.locator('.chapters-grid')).toBeVisible();
@@ -65,9 +68,9 @@ test('every shipped cartographic snapshot renders without exceeding GPU segments
   page.on('console',message=>{if(message.text().includes('Max vertices per segment'))geometryWarnings.push(message.text());});
   await page.goto('/');
   await expect(page.locator('#map')).toHaveAttribute('data-rendered','countries.geojson',{timeout:45000});
-  await page.locator('#physical-layer').click();
+  await disableRelief(page);
   // A global planar view also covers snapshots whose land lies on the far hemisphere.
-  await page.locator('#view-2d').click();
+  await page.locator('#projection-button').click();
   const samples=[...historicalYears.map(y=>({year:y,file:`world_${y<0?`bc${-y}`:y}.geojson`})),...geologicalMa.map(ma=>({year:ma===1?-1000001:-ma*1e6,file:`coastlines-${ma}.geojson`}))];
   for(const sample of samples){
     await page.locator('#date-button').click();
@@ -76,4 +79,32 @@ test('every shipped cartographic snapshot renders without exceeding GPU segments
     await expect(page.locator('#map')).toHaveAttribute('data-rendered',sample.file,{timeout:45000});
   }
   expect(geometryWarnings).toEqual([]);
+});
+test('compact tools and independent map/timeline wheel zoom',async({page})=>{
+  await page.goto('/#year=1800&view=globe');
+  await expect(page.locator('#map')).toHaveAttribute('data-rendered','world_1800.geojson',{timeout:45000});
+  await expect(page.locator('.topbar,.map-controls,.time-toolbar,.time-bottom,#today,#method-button')).toHaveCount(0);
+  expect(await page.locator('.toolbar>button').evaluateAll(nodes=>nodes.map(n=>n.id))).toEqual(['search-button','projection-button','layers-button','sources-button','fullscreen','about-button']);
+  const ruler=page.locator('#ruler');const bounds=(await ruler.boundingBox())!;
+  const initialScale=Number(await ruler.getAttribute('data-scale'));const date=await page.locator('#year').textContent();
+  const cursor=(await page.locator('.fixed-cursor').boundingBox())!.x;
+  await page.mouse.move(120,bounds.y+15);await page.mouse.wheel(0,-240);
+  await expect.poll(async()=>Number(await ruler.getAttribute('data-scale'))).toBeGreaterThan(initialScale);
+  await expect(page.locator('#year')).toHaveText(date!);
+  expect((await page.locator('.fixed-cursor').boundingBox())!.x).toBe(cursor);
+  const scale=await ruler.getAttribute('data-scale');
+  const mapScale=await page.locator('.maplibregl-ctrl-scale').textContent();
+  await page.mouse.move(900,400);await page.mouse.wheel(0,-600);
+  await expect.poll(()=>page.locator('.maplibregl-ctrl-scale').textContent()).not.toBe(mapScale);
+  await expect(ruler).toHaveAttribute('data-scale',scale!);await expect(page.locator('#year')).toHaveText(date!);
+  await page.locator('#layers-button').click();await expect(page.locator('#layers-panel')).toBeVisible();
+  await page.locator('#political-layer').click();await expect(page.locator('#political-layer')).toHaveAttribute('aria-pressed','false');
+  await page.keyboard.press('Escape');await expect(page.locator('#layers-panel')).toBeHidden();
+  await expect(page.locator('#layers-button')).toBeFocused();
+  await page.locator('#sources-button').click();await expect(page.locator('#modal-label')).toHaveText('FUENTES Y METODOLOGÍA');
+  await page.keyboard.press('Escape');await page.locator('#about-button').click();await page.screenshot({path:'test-results/about.png'});
+  await page.setViewportSize({width:390,height:844});
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
+  await expect(page.locator('.about-project-icon')).toBeVisible();await page.keyboard.press('Escape');
+  await page.screenshot({path:'test-results/compact-mobile.png'});
 });
