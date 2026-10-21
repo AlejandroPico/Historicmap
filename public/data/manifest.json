@@ -1,7 +1,19 @@
 {
-  "importedAt": "2026-10-21T19:28:04.762Z",
-  "transform": "Property selection only; original geometry coordinates retained.",
+  "importedAt": "2026-10-21T23:31:04.465333+00:00",
+  "transform": "Per-entry transformations and licenses; original 26 snapshots unchanged.",
   "entries": [
+    {
+      "file": "cities.geojson",
+      "bytes": 97455,
+      "sha256": "f24580f17f5863b3867fe3fb0e7251f3bd873c32c5ffe1a7ff8565adb149acb2",
+      "source": "Natural Earth · populated places 1:10m",
+      "version": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_populated_places.geojson",
+      "license": "Public domain",
+      "transform": "Select national capitals, world cities, and urban places with POP_MAX >= 2.5 million. Preserve coordinates; city population used only for label ranking, not shown as a dated statistic.",
+      "coverage": "Contemporary reference only; historical capitals come from dated CShapes records.",
+      "features": 323
+    },
     {
       "file": "coastlines-1.geojson",
       "year": -1000000,
@@ -146,6 +158,44 @@
       "sha256": "129acfd04e390989a2a8ac6895a6b10bef297b701d9f84eab4aaa8e7f328f4a7"
     },
     {
+      "file": "history.topojson",
+      "bytes": 7593060,
+      "sha256": "5d147cf28dc83dfc9d032427728c5bccc265cf23f692478506cd0f1d6a325834",
+      "source": "CShapes 2.0 · Schvitz et al. (2022), GW including dependencies",
+      "version": "R package 2.0; 2020-06-07",
+      "url": "https://icr.ethz.ch/data/cshapes/cshapes_2.0.tar.gz",
+      "license": "CC-BY-NC-SA-4.0",
+      "sourceSha256": "6708b263224888c368aab136cdcae8a24c220bd07929af10f8bd69cf53634caa",
+      "transform": "Decode unquantized TopoJSON; keep intervals ending in/after 1900. Coordinates retained; source attributes retained.",
+      "coverage": "1900-01-01/2019-12-31",
+      "format": "unquantized-topology",
+      "records": 640
+    },
+    {
+      "file": "profiles.json",
+      "bytes": 1615074,
+      "sha256": "fe9c8be3bd141cc35f89e11886ed129bff7e440138325586a6a2ef8a2110e462",
+      "source": "World Bank WDI + Natural Earth names",
+      "version": "WDI API v2; source=2; 2026-10-08",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?source=2&date=1960:2026&format=json&per_page=24000",
+      "license": "CC-BY-4.0 with World Bank additional terms; Natural Earth public domain",
+      "format": "country-indicator-series",
+      "transform": "Exclude aggregates/nulls; preserve year/value; join country metadata and Natural Earth names/capital fallback. Map ADM0_A3 to ISO_A3_EH, with KOS to World Bank XKX. Invalid -99 never joins unrelated territories. Embedded sources identify six indicator URLs."
+    },
+    {
+      "file": "territorial-overlays.geojson",
+      "bytes": 39444,
+      "sha256": "1c676788f7ec23ae6121875fc170d4ed4d0f2e5c01a381bb19f36648d2ccb8b0",
+      "source": "CShapes 2.0 · Schvitz et al. (2022), GW including dependencies",
+      "version": "R package 2.0; 2020-06-07",
+      "url": "https://icr.ethz.ch/data/cshapes/cshapes_2.0.tar.gz",
+      "license": "CC-BY-NC-SA-4.0",
+      "sourceSha256": "6708b263224888c368aab136cdcae8a24c220bd07929af10f8bd69cf53634caa",
+      "transform": "Polygon differences of dated CShapes geometries (Crimea, Sinai, Golan); contextual source notes; no invented intermediate withdrawal lines.",
+      "coverage": "1900-01-01/2019-12-31",
+      "features": 5
+    },
+    {
       "file": "world_100.geojson",
       "year": 100,
       "url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson",
@@ -287,6 +337,19 @@
       "features": 189,
       "bytes": 914080,
       "sha256": "cbf048e4e5a56395b2001e1457803df6c139275d1a15dee14c375e9d40f8a082"
+    },
+    {
+      "file": "ww2.geojson",
+      "bytes": 1091897,
+      "sha256": "b53d0b94572a2e7e1802f2d081e2fc7500b3aa6a96150b004f1a2ce53316975b",
+      "source": "Cliopatria · Seshat Global History Databank",
+      "version": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "url": "https://raw.githubusercontent.com/Seshat-Global-History-Databank/cliopatria/5f433377139a6eeaeacbdc894b70f8805b72c8b5/cliopatria.geojson.zip",
+      "sourceSha256": "e10a4e429fca708788ff9e7572a95fce801fae55852d217cffabc1c59cd4eed4",
+      "license": "CC-BY-4.0",
+      "coverage": "1938/1944",
+      "transform": "Select Germany, Japan and Italy polity records for 1938–1944; original coordinates retained, Spanish labels and scope notes added. Annual source has no uniform day of year.",
+      "features": 20
     }
   ]
 }

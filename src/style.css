@@ -58,6 +58,30 @@ h1{font-family:'Libre Caslon Display',Georgia,serif;font-weight:400;font-size:28
 .selection-card>.icon-button{position:absolute;right:6px;top:6px}
 .selection-card h2{font-family:'Libre Caslon Display',Georgia,serif;font-size:32px;font-weight:400;margin:15px 0 10px}
 .selection-card p{font-size:12px;line-height:1.7;color:var(--muted)}
+.selection-card{width:350px;max-height:calc(100dvh - var(--dock-height) - 160px);overflow-y:auto;scrollbar-width:thin}
+.selection-card h2{font-size:30px}
+.country-formal{font-size:11px!important;margin-top:-3px}
+.country-facts{margin:17px 0;border-top:1px solid var(--line)}
+.country-facts>div{padding:9px 0;display:grid;grid-template-columns:1fr 1.25fr;gap:10px;border-bottom:1px solid var(--line)}
+.country-facts dt{color:var(--muted);font-size:10px;line-height:1.6}
+.country-facts dt small{display:block;color:#d4bb85;font-size:9px}
+.country-facts dd{margin:0;text-align:right;font-size:11px;line-height:1.6;color:#e5e3d1;font-variant-numeric:tabular-nums}
+.country-facts dd span{font-size:9px;color:var(--muted)}
+.profile-note,.country-record p{font-size:9px!important;line-height:1.65!important}
+.profile-source,.country-record a{font-size:10px;color:var(--gold);text-decoration:none;line-height:1.6}
+.country-record{border-top:1px solid var(--line);padding-top:10px;margin-top:13px;font-size:10px;color:var(--muted)}
+.country-record summary{cursor:pointer;color:var(--gold);line-height:1.7}
+.theme-control{display:block;border-top:1px solid var(--line);padding:14px 8px 6px;margin-top:7px;font-size:10px;color:#c7cfbf}
+.theme-control select{display:block;width:100%;margin:8px 0;padding:9px;background:#1a3033;border:1px solid #516558;border-radius:3px;color:#e2e3d0;font:inherit;font-size:11px}
+.theme-control small{font-size:9px;color:var(--muted);line-height:1.6}
+.layers-panel{max-height:calc(100dvh - 210px);overflow:auto;scrollbar-width:thin}
+.map-legend{position:absolute;left:20px;bottom:calc(var(--dock-height) + 22px);z-index:4;width:245px;background:#102329eb;border:1px solid var(--line);padding:12px;border-radius:3px;pointer-events:none}
+.map-legend strong{display:block;color:#d6d6bd;font-size:10px;font-weight:500;line-height:1.5}
+.map-legend small{display:block;color:var(--muted);font-size:9px;line-height:1.6;margin-top:6px}
+.legend-ramp{height:6px;background:linear-gradient(90deg,#294b52,#3d777b,#8ab29c,#dac48a,#d98355);margin-top:10px}
+.legend-extremes{display:flex;justify-content:space-between;font-size:8px;color:var(--muted);margin-top:4px}
+.control-legend:not(:first-child){border-top:1px solid var(--line);margin-top:10px;padding-top:10px}
+.control-legend strong:before{content:'';display:inline-block;width:15px;border-top:2px dashed #f4cc88;vertical-align:middle;margin-right:7px}
 
 /* The moving ruler and the fixed date/playback control form a single overlay. */
 .time-dock{position:absolute;bottom:0;width:100%;height:var(--dock-height);z-index:6;pointer-events:none;background:linear-gradient(transparent,#101e22db 28%,#101e22f5);padding-bottom:env(safe-area-inset-bottom)}
@@ -175,6 +199,10 @@ input{width:100%;padding:13px;font:inherit;background:#0e2024;border:1px solid #
   .source-link{font-size:8px}
   .layers-panel{top:58px;right:12px;width:min(290px,calc(100vw - 24px))}
   .selection-card{top:auto;bottom:calc(var(--dock-height) + 90px);right:12px;width:min(270px,calc(100vw - 24px))}
+  .selection-card{max-height:calc(100dvh - var(--dock-height) - 180px);padding:20px}
+  .map-legend{left:12px;bottom:calc(var(--dock-height) + 61px);width:195px;padding:9px}
+  .map-legend strong{font-size:9px}
+  .map-legend small{font-size:8px}
   .map-status{right:12px;bottom:calc(var(--dock-height) + 28px);max-width:calc(100% - 24px);font-size:8px}
   .maplibregl-ctrl-bottom-right{right:6px;bottom:calc(var(--dock-height) + 4px)}
   .maplibregl-ctrl-scale{display:none!important}

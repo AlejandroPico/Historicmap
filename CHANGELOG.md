@@ -1,5 +1,17 @@
 # Historial de versiones
 
+## 0.3.0 · 2026-10-22
+
+- Selección por intervalos de vigencia para 1900–2019, con CShapes 2.0: colonias, protectorados, mandatos, administradores y capitales históricas. 1942 deja de seleccionar el mapa de 1945.
+- Capa anual de extensión territorial de Alemania, Japón e Italia en 1938–1944, a partir de Cliopatria; sin atribuirle una fecha diaria uniforme.
+- Polígonos contextuales de Sinaí, Golán y Crimea que distinguen ocupación y soberanía; límites y fases pendientes explicados.
+- Reproducción reciente anual que espera la carga, comparte descargas y conserva el mapa anterior mientras carga. Pausa invalida la continuación pendiente.
+- Año máximo obtenido del dispositivo; referencia contemporánea desde 2020 identificada como tal, sin inventar verificación anual o conocimiento futuro.
+- Fichas ampliadas: capital, estatus, administración, contexto y seis indicadores WDI con su fecha. Sin cifras actuales proyectadas retrospectivamente.
+- Capas de PIB total, PIB por habitante y población con leyenda y años observados.
+- 323 capitales y grandes ciudades actuales, y capitales históricas por periodo.
+- Informe anual de cobertura, cambios y pendientes, con pruebas históricas y de reproducción.
+
 ## 0.2.0 · 2026-10-22
 
 Rediseño del espacio de exploración y de los controles.

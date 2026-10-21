@@ -1,6 +1,6 @@
 {
   "name": "historicmap",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "description": "Atlas temporal de la Tierra, su geografía y sus sociedades",
@@ -14,7 +14,9 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "data:fetch": "node scripts/fetch-data.mjs",
-    "data:verify": "node scripts/verify-data.mjs"
+    "data:verify": "node scripts/verify-data.mjs",
+    "data:fetch:modern": "node scripts/fetch-modern.mjs",
+    "data:audit": "node scripts/build-review.mjs"
   },
   "dependencies": {
     "lucide": "1.61.0",

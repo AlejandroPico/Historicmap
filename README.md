@@ -2,7 +2,7 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.2.0** · 22 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.3.0** · 22 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
@@ -22,13 +22,16 @@ Abrir la dirección local que indique Vite. Para generar la aplicación estátic
 - Mapa vectorial 2D y globo 3D con zoom, selección y búsqueda local.
 - Regla temporal arrastrable con indicador, fecha y reproducción centrados. La rueda sobre la regla cambia la escala sin desplazar la fecha; sobre el mapa hace zoom geográfico. Las teclas más/menos ajustan la escala y las flechas recorren el tiempo.
 - Mapa a pantalla completa con seis herramientas en la esquina superior derecha, sin cabecera ni franjas de controles alrededor de la regla. Capas en un panel desplegable.
-- Navegación entre 4.540 Ma y 2026 con escala adaptativa no uniforme y fechas exactas introducidas por el usuario.
-- 26 instantáneas incorporadas: una contemporánea, trece históricas y doce tectónicas.
+- Navegación entre 4.540 Ma y el año del dispositivo, con escala adaptativa no uniforme y años introducidos por el usuario.
+- Periodos territoriales fechados para cada año 1900–2019, con dependencias coloniales y capitales históricas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
+- Capa de extensión y ocupaciones de Alemania, Japón e Italia en 1938–1944; contextos de Sinaí, Golán y Crimea. Las síntesis anuales de guerra no se presentan como frentes diarios.
+- Base contemporánea desde 2020 y 26 instantáneas originales conservadas para historia anterior/geología y trazabilidad.
 - Contexto documental, fuentes, fecha de la instantánea y límites de precisión visibles.
-- Relieve contemporáneo opcional, tres lugares de referencia, enlaces compartibles y diseño adaptable.
+- Fichas con capital, situación política, administración y hasta seis indicadores WDI fechados. Colores temáticos de PIB total, PIB por habitante y población.
+- Relieve contemporáneo opcional, 323 capitales/grandes ciudades actuales y capitales históricas por periodo, enlaces compartibles y diseño adaptable.
 - Ventana «Acerca de» con favicon, identidad, versión e historial, portfolio del autor y repositorio.
 
-**Esto es una base funcional, no un atlas exhaustivo.** La cartografía contemporánea es Natural Earth 1:10 millones, generalizada para escala mundial; no satisface todavía el objetivo final de máxima definición ni certifica fronteras a fecha de hoy. Las instantáneas históricas son aproximadas y necesitan revisión. No se interpolan fronteras entre años.
+**La revisión anual no es una certificación exhaustiva de todas las fronteras.** [El informe 1900–año actual](docs/ANNUAL-REVIEW.md) registra cada selección, cambios y límites. CShapes termina en 2019, omite ocupaciones temporales y cambios pequeños. Desde 2020 se utiliza una referencia contemporánea incorporada en 2026, no una reconstrucción independiente de cada año. Faltan los frentes actuales, fases del Sinaí y otros detalles. La costa Natural Earth 1:10m todavía no alcanza el objetivo final de máxima definición. No se interpolan fronteras ni se inventan cambios futuros al avanzar el reloj.
 
 Para etapas anteriores a 1.800 Ma, y para la prehistoria entre 1 Ma y 10.000 a. C., no se inventan mapas. La aplicación indica la ausencia de datos e incluye contexto. El efecto de la Tierra primitiva es conceptual, no una simulación física. Homininos, migraciones, glaciaciones, atmósfera, biomas, impactos y conflictos requieren nuevas capas documentadas.
 
@@ -36,20 +39,21 @@ Para etapas anteriores a 1.800 Ma, y para la prehistoria entre 1 Ma y 10.000 a. 
 
 ```sh
 npm run data:verify
+npm run data:audit
 npm test
 npm run build
 npx playwright install chromium
 npm run test:e2e
 ```
 
-GitHub Actions ejecuta validación de datos, seis pruebas de cronología, compilación y cuatro pruebas de navegador, incluido el renderizado de las 26 instantáneas, el control de límites de vértices y el zoom independiente de mapa/regla. El flujo `Publish atlas` publica en GitHub Pages únicamente tras una ejecución correcta de `Quality` en `main`. Requiere que **Settings → Pages → Source** esté configurado como **GitHub Actions**. No contiene secretos ni necesita un servidor propio. Las acciones están fijadas a su versión mayor; `package-lock.json` fija dependencias de npm.
+GitHub Actions valida datos, pruebas temporales/históricas/estadísticas, compilación y recorridos de navegador: años 1900–actualidad, reproducción y pausa, peticiones lentas, fichas, ciudades, economía, cartografía anterior/geológica, zoom y móvil. `Publish atlas` publica únicamente después de `Quality` correcto en `main`. No contiene secretos ni necesita un servidor propio. Las versiones exactas de dependencias figuran en `package-lock.json`.
 
 ## Datos y continuidad
 
 Consultar **[agentes.md](agentes.md)** antes de modificar el proyecto. Contiene la visión completa, decisiones, arquitectura, roadmap, reglas de colaboración y estado real. [AGENTS.md](AGENTS.md) es el punto de entrada para asistentes que detectan ese nombre automáticamente.
 
-Las fuentes, licencias, atribuciones y límites se documentan en [docs/SOURCES.md](docs/SOURCES.md). `public/data/manifest.json` contiene versiones de origen, URLs, fechas de descarga, número de entidades y huellas SHA-256. Los datos se distribuyen dentro del repositorio; `npm run data:fetch` realiza una **actualización explícita** desde las fuentes y modifica ese manifiesto. No se descarga cartografía nueva durante la compilación.
+Las fuentes, licencias, atribuciones y límites se documentan en [docs/SOURCES.md](docs/SOURCES.md). `public/data/manifest.json` registra los 31 recursos locales, versiones, URLs, transformaciones y SHA-256. `npm run data:fetch` actualiza explícitamente las 26 instantáneas originales, conservando las nuevas capas. La adquisición y reconstrucción de las capas recientes se explica en SOURCES. No se descargan datos nuevos durante la compilación ni desde las fichas.
 
-La cartografía local funciona sin API key. El relieve (AWS), las etiquetas cartográficas (servidor de demostración MapLibre) y las fuentes tipográficas (Google Fonts) requieren conexión. La aplicación no envía búsquedas a servicios externos ni incorpora analítica. No está implementada como aplicación instalable o completamente offline.
+La cartografía funciona sin API key. Las geometrías, perfiles, series y letras del mapa utilizadas son locales. El relieve (AWS) y las fuentes tipográficas de interfaz (Google Fonts) requieren conexión. La aplicación no envía búsquedas a servicios externos ni incorpora analítica. No está implementada como aplicación instalable o completamente offline.
 
 El código original no tiene todavía una licencia de distribución elegida por el titular. Los datos de terceros conservan sus propias licencias; ver [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

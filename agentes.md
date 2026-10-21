@@ -1,6 +1,6 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **22 de octubre de 2026**. Versión del producto: **0.2.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **22 de octubre de 2026**. Versión del producto: **0.3.0**.
 
 ## 1. Identidad y visión
 
@@ -23,44 +23,42 @@ El horizonte completo incluye evolución continental, océanos, glaciaciones, re
 9. SQLite es admisible si ayuda; no es obligatorio ni debe añadirse sin necesidad.
 10. Este archivo debe registrar visión, planes, tecnologías, funciones, decisiones y continuidad entre asistentes. La documentación debe ser profesional, sin comparaciones con productos de entretenimiento ni referencias promocionales a modelos.
 
-## 3. Estado real de la versión 0.2.0
+## 3. Estado real de la versión 0.3.0
 
 ### Implementado
 
-- Aplicación web estática con TypeScript estricto y Vite; sin cuentas, backend ni claves privadas.
-- MapLibre GL JS 6.15.0: proyección Mercator en 2D y globo en 3D. Cambio de proyección conserva la época.
-- Países y territorios de Natural Earth Admin 0 1:10m: 258 entidades, que **no equivalen a 258 Estados soberanos**. Las coordenadas originales se conservan; se seleccionan propiedades y se añaden identificadores y colores. MapLibre realiza teselación y recorte para renderizar.
-- 13 instantáneas de Historical Basemaps: −10000, −3000, −1000, −500, 100, 500, 1000, 1492, 1800, 1914, 1945, 1994 y 2010.
-- 12 reconstrucciones GPlates CAO2024 a 1, 20, 66, 100, 200, 300, 400, 541, 750, 1000, 1500 y 1800 Ma.
-- Total: 26 archivos GeoJSON locales; unos 50 MiB sin comprimir. Carga diferida de una instantánea cada vez.
-- Clasificación visual por territorios con paleta discreta; líneas de límites, selección resaltada y etiquetas desde determinado nivel de zoom.
-- Relieve mediante hillshade Terrarium de Mapzen/AWS para el presente. No reconstruye altitudes pasadas. Se desactiva en épocas históricas y geológicas.
-- Tres marcadores introductorios con intervalos temporales: Uruk, Roma y Çatalhöyük. No es un catálogo de ciudades completo.
-- Cronología por tramos lineales de escala adaptativa, 20 anclas de densidad deliberadamente desigual. Arrastre por puntero/táctil y flechas para desplazamiento; rueda o teclas más/menos para zoom temporal manteniendo fecha y cursor. Inicio/fin, saltos y reproducción. Marcas con intervalos legibles según el zoom, generadas sólo para el área visible y su margen. La escala va de 96 a 4800 píxeles por intervalo de anclas.
-- Introducción de año concreto. No se utiliza año cero civil. Ma/Ga se muestran como antigüedades aproximadas; no son fechas con precisión anual.
-- Fecha consultada separada de la instantánea seleccionada. Se utiliza la instantánea más cercana **dentro del dominio correspondiente**; no se inventan estados intermedios.
-- Buscador local de nombres del archivo cargado. La cartografía contemporánea utiliza nombres españoles cuando existen; el pasado conserva nombres originales.
-- Herramientas superiores compactas; cambio de proyección en un único botón con icono y nombre accesible de la acción siguiente. Capas en panel desplegable, cierre con Escape, pulsación exterior o su botón de cierre.
-- Fuentes y metodología accesibles desde el icono de base de datos superior. Contexto por época a la izquierda, sin las capas ni fecha duplicada.
-- «Acerca de» rediseñado con favicon, identidad, ficha de versión, instrucciones del atlas e historial. Versión obtenida de `package.json` para evitar discrepancias.
-- Portfolio confirmado: https://alejandropico.github.io/Portfolio/ . Recuperado de los proyectos de referencia del autor y comprobado HTTP 200 el 22/10/2026. Enlazado junto al repositorio del proyecto.
-- Estado compartible en fragmento URL `#year=100&view=globe`, pantalla completa cuando el navegador la admite, adaptación a móvil, foco visible, diálogo nativo, teclado y preferencia de movimiento reducido.
-- Importador de datos con reintentos, validación de procedencia y SHA-256; datos distribuidos localmente para no depender de GPlates en cada visita.
-- GitHub Actions: validación, pruebas, compilación y publicación en GitHub Pages tras superar calidad.
+- Aplicación estática TypeScript/Vite/MapLibre con mapa Mercator y globo, worker local explícito, búsqueda y selección. No hay backend, cuentas, claves privadas, analítica ni SQLite.
+- Se conserva el diseño compacto 0.2: herramientas superiores, capas desplegables, contexto izquierdo, regla desplazable con cursor fijo y zoom temporal independiente. No restaurar franjas o controles retirados.
+- Año máximo obtenido mediante `new Date().getFullYear()`; no confundir extremo dinámico con conocimiento de fronteras futuras. La referencia contemporánea se incorporó en 2026.
+- **1900–2019**: periodos activos de CShapes 2.0, edición GW **con dependencias** del paquete R. 640 registros relevantes, conservando coordenadas, estatus, administrador, capital y fechas inclusivas. Se selecciona el **31 de diciembre** de cada año. El GeoJSON directo de ETH pierde propiedades de administración; no sustituir por él la fuente del paquete R.
+- Colores políticos por potencia administradora: las colonias mantienen ficha y entidad propias, compartiendo color con su administrador. Nombres contextuales de imperio ruso/URSS/Rusia, Alemania nazi, zonas de ocupación de 1945 y RFA/RDA desde 1949.
+- **1938–1944**: 20 registros Cliopatria de Alemania, Japón e Italia, superpuestos como extensión territorial/ocupación. La fuente proporciona síntesis anual sin día uniforme; no denominarla frente exacto de fin de año. 1942 ya no utiliza 1945.
+- Ocupaciones/disputas: cinco registros de Crimea desde 2014, Sinaí 1956, Sinaí 1967–1978, zona de retirada parcial 1979–1981 y Golán desde 1967. Geometrías derivadas por diferencias entre registros CShapes. Desde 1967 la base de Egipto/Israel/Siria utiliza sus geometrías de 1966 para no equiparar ocupación a incorporación soberana. Las notas explican alcance y excepciones.
+- **2020–año del dispositivo**: referencia contemporánea Natural Earth 1:10m, 258 entidades; NO instantáneas históricas independientes por año. Se identifica el año de incorporación (2026), sin atribuir vigencia diaria. Las geometrías base de Natural Earth no han cambiado.
+- Fichas ampliadas, iguales al pulsar y buscar: capital/sede, estatus histórico, potencia administradora, registro temporal, contexto focal y datos económicos/demográficos cuando existe correspondencia fiable. Estados Unidos actual incluye información federal y hasta seis indicadores.
+- Banco Mundial WDI local: población, PIB nominal, PIB por habitante, superficie, esperanza de vida y porcentaje urbano, desde 1960. Última observación no posterior al año consultado, retraso máximo cinco años, año mostrado por cifra. Sin extrapolar, ni confundir URSS/Yugoslavia/RDA con estadísticas actuales de sucesores. Las series son de economías publicadas, no de una integración espacial recalculada sobre fronteras pasadas.
+- Capas temáticas de PIB, PIB por habitante y población, con leyenda de fechas realmente presentes y gris para ausencia. Antes de 1960 se restablece el color político; no quedan mapas grises por una selección económica heredada.
+- 323 capitales y grandes ciudades contemporáneas, de Natural Earth. POP_MAX sólo filtra/ordena, no se publica como población urbana fechada. Para 1900–2019, capitales del registro CShapes; para épocas anteriores se conservan los tres lugares introductorios. No llevar capitales modernas al pasado.
+- Conservadas las 13 instantáneas Historical Basemaps y 12 CAO2024 originales. Los años posteriores a 1900 de la colección antigua dejan de elegirse en navegación normal. Antes de 1900 se mantiene selección aproximada; geología y escenas sin cartografía siguen señaladas.
+- Reproducción reciente anual: espera descarga/aplicación antes de avanzar, pausa invalida la continuación y se conserva la geometría anterior mientras carga, con indicador explícito. Las solicitudes comparten caché y descargas en curso; una cola y contador descartan fechas obsoletas. No cancelar/repetir un archivo temporal durante cada paso.
+- La caché conserva el archivo temporal/perfiles/ciudades/capas y limita a tres las instantáneas antiguas/geológicas retenidas. Las geometrías temporales se decodifican/reutilizan por fid. No se reenvía la fuente territorial si su firma no cambia. La URL se actualiza como máximo cuatro veces por segundo.
+- 31 recursos en el manifiesto, con versiones, transformaciones, licencias y SHA-256. Archivos de origen R/zip con huellas verificadas. CShapes y derivados **CC BY-NC-SA 4.0**, Cliopatria **CC BY 4.0**, WDI **CC BY 4.0 con términos adicionales**, recursos originales conservan sus licencias; no atribuir automáticamente estas licencias al código del propietario.
+- `docs/ANNUAL-REVIEW.md`: inventario de cada año 1900–actualidad, cambios de registros, fuentes, huellas y excepciones. Auditoría automática de cobertura/identidad + contrastes focales; **no revisión manual exhaustiva de todas las coordenadas de 127 mapas**.
+- Relieve actual opcional de AWS Terrarium, desactivado en el pasado; no reconstruye altitudes antiguas. Diseño móvil, teclado, foco, diálogos y enlaces compartibles.
+- «Acerca de» mantiene favicon, versión procedente de package.json, historial y enlaces confirmados a repositorio y portfolio: https://alejandropico.github.io/Portfolio/ .
+- GitHub Actions valida e instala la aplicación; Pages publica sólo tras Quality correcto de main. Estado final de esta entrega en `docs/DELIVERY-0.3.0.md`.
 
-### Ausencias y límites que deben seguir visibles
+### Límites y trabajo restante
 
-- No hay continuidad histórica anual, mensual ni diaria. No presentar la cercanía de una instantánea como exactitud para la fecha solicitada. Un año 2025 utiliza la instantánea 2010 y lo indica; 2026 utiliza la referencia contemporánea Natural Earth, que tampoco certifica vigencia diaria.
-- Natural Earth 1:10m es cartografía generalizada para escala mundial. **La exigencia final de máxima definición costera todavía no está satisfecha.** Limitar zoom inicial a 7 evita sugerir detalle de calle. La próxima mejora debe incorporar teselas vectoriales de mayor resolución y gestionar generalización, licencias y actualización.
-- Las fuentes históricas contienen áreas culturales, aproximaciones y posibles errores/anacronismos. No están revisadas de forma exhaustiva por Historicmap.
-- GPlates reconstruye posiciones de geometrías continentales; no demuestra la costa inundada exacta, el relieve, color, bioma ni clima de esa fecha. El modelo debe citarse siempre.
-- Antes de 1.800 Ma se muestra un efecto esférico conceptual sin continentes inventados. La Tierra primitiva no fue necesariamente un océano de lava continuo durante todo el Hádico o Arcaico: el efecto no debe interpretarse así.
-- Entre 1 Ma y 10.000 a. C. se muestra ausencia de cartografía, con contexto documental. Aún no hay reconstrucciones de paleocostas recientes ni capas de hielo.
-- El catálogo menciona el origen humano, pero **no representa áreas, fósiles o rutas de homininos**. No tratar «pendiente» como «implementado».
-- No hay animación del impacto de Theia, simulación física, formación lunar, atmósferas, evolución oceánica, líquidos alternativos, vida, extinciones visualizadas, batallas o guerras. Theia es un cuerpo hipotético de la hipótesis dominante del gran impacto; no un hecho observado y totalmente determinado.
-- El relieve y las fuentes/etiquetas externas necesitan conexión. No hay service worker, instalación PWA ni garantía de modo offline completo.
-- No hay datos persistidos del usuario, ni SQLite, ni API, ni analítica.
-- El zoom del mapa se controla mediante sus gestos nativos; la rueda en la regla nunca lo modifica. Las escenas conceptuales son ilustraciones sin navegación cartográfica.
+- **No afirmar exactitud política exhaustiva 1900–2026.** CShapes omite cambios menores de 10.000 km², algunas ocupaciones temporales, Estados pequeños y límites inciertos; fechas convencionales en algunos registros. 2020–actualidad mantiene una base contemporánea, sin serie global de control efectivo verificada.
+- Faltan frentes diarios de ambas guerras mundiales, delimitación completa de administraciones de ocupación, partición germano-soviética de Polonia de 1939, frentes del Donbás y de la invasión de Ucrania desde 2022, control militar reciente mundial, fases geométricas de retirada del Sinaí y Taba (1982–1989). Los polígonos de extensión de Cliopatria no sustituyen una cartografía militar detallada.
+- Crimea se explica como territorio ucraniano bajo ocupación y anexión reclamada por Rusia desde 2014 conforme al contexto de A/RES/68/262, nunca como transferencia de soberanía reconocida por esa resolución. El contorno discontinuo no actualiza los demás frentes. El Golán no lleva una reconstrucción de cambios de control desde 2024.
+- La base de 1966 para Egipto/Israel/Siria separa ocupación de incorporación, pero no resuelve por sí sola todas las controversias de soberanía, líneas de armisticio, Jerusalén, Gaza y Cisjordania. No denominarla atlas jurídico exhaustivo.
+- Natural Earth 1:10m es generalización mundial; el objetivo de máxima resolución costera sigue pendiente. La teselación de 0,2 píxeles evita desbordes GPU y no modifica las coordenadas base. No aumentar la generalización para ocultar un problema.
+- No hay fronteras históricas continuas antes de 1900; las instantáneas antiguas pueden ser aproximadas/anacrónicas y no están auditadas exhaustivamente.
+- CAO2024 representa reconstrucciones continentales, no paleocostas exactas ni biomas, clima, atmósfera, nivel del mar o relieve. Antes de 1.800 Ma y entre 1 Ma y 10.000 a. C. se sigue indicando falta de geometría y escena conceptual/contexto.
+- No se implementan áreas de homininos, migraciones, glaciaciones, animación de Theia/formación lunar, vida, batallas o simulaciones físicas. No trasladar estas aspiraciones a funciones completadas.
+- Relieve y fuentes tipográficas de interfaz requieren conexión. Las letras del mapa utilizadas se alojan localmente, 11 franjas Noto Sans PBF con licencia OFL y huellas en public/fonts/manifest.json. No PWA ni garantía offline completa. Las fichas/series y geometrías nuevas son locales, sin llamadas al Banco Mundial durante la visita.
 
 ## 4. Tecnologías y estructura
 
@@ -69,7 +67,11 @@ Versiones adoptadas el 21/10/2026, contrastadas con registros oficiales: Node.js
 ```text
 src/main.ts                interfaz, mapa, interacción y estado de aplicación
 src/about.ts               identidad, ficha del proyecto e historial visible
-src/time.ts                cronología pura y elección de instantánea
+src/time.ts                cronología, año del dispositivo y selección por dominio
+src/history.ts             periodos, identidades, dependencias, geometrías y capitales
+src/data.ts                caché compartida, carga temporal y capas
+src/profiles.ts            observaciones fechadas, temas, formato y leyenda
+src/recent-context.ts      contexto focal 1900–actualidad y fuentes
 src/catalog.ts             contexto de épocas y lugares introductorios
 src/style.css              sistema visual, disposiciones y adaptación
 public/data/*.geojson      instantáneas con geometrías de origen
@@ -113,7 +115,11 @@ No importar imágenes, vídeo, datasets o texturas porque sean accesibles: verif
 - Zoom independiente: rueda sobre mapa para geografía, rueda sobre regla para escala temporal. Arrastre para desplazamiento temporal.
 - Esta entrega no amplía ni modifica la cartografía o sus fuentes. Las prioridades científicas y de resolución siguen pendientes.
 
-### 0.3 · Calidad cartográfica contemporánea
+### 0.3 · Datos recientes y reproducción — implementada con límites
+
+Entrega priorizada por solicitud del propietario: intervalos territoriales 1900–2019, revisión anual de cobertura hasta el año del dispositivo, capas de guerra/ocupaciones, fichas, ciudades e indicadores. Los límites de la sección 3 siguen abiertos. La fase anterior de máxima resolución se desplaza, sin considerarla realizada.
+
+### Próxima fase · Calidad cartográfica contemporánea
 
 - Evaluar teselas vectoriales abiertas de alta resolución, costa detallada y actualización reproducible, por ejemplo con un paquete PMTiles propio o proveedor documentado.
 - Resolver nombres, etiquetas, detalles costeros, lagos, ríos, países pequeños, antimeridiano y polos, con generalización dependiente del zoom y pruebas geográficas.
@@ -123,7 +129,7 @@ No importar imágenes, vídeo, datasets o texturas porque sean accesibles: verif
 
 ### 0.4 · Historia política verificable
 
-- Auditoría de las 13 instantáneas actuales; incorporar un segundo conjunto con cobertura y licencia verificadas, comenzando por regiones/periodos acotados.
+- Extender los contrastes focales 0.3 a una revisión historiográfica por regiones y conflictos; completar 2020–actualidad y corregir las excepciones del informe anual. Incorporar fuentes de mayor detalle donde CShapes omite cambios.
 - Modelo de entidades persistentes con nombres e identidades históricas, relaciones de dependencia y periodos de validez.
 - Cambios fechados de fronteras, ciudades, capitales, redes comerciales y primeros Estados. Trabajar por entregas geográficas revisadas, no prometer todos los años de todo el planeta de una vez.
 - Fichas de entidad con bibliografía, precisión y alternativas, comparación entre fechas y búsqueda en español.
@@ -164,7 +170,7 @@ No importar imágenes, vídeo, datasets o texturas porque sean accesibles: verif
 
 Requisitos: Node de `.nvmrc` o posterior compatible y navegador moderno con WebGL. Comandos: `npm ci`, `npm run dev`, `npm run data:verify`, `npm test`, `npm run build`, `npx playwright install chromium`, `npm run test:e2e`.
 
-La compilación no necesita credenciales ni acceso a las fuentes científicas: los GeoJSON se guardan en Git. `data:fetch` sí consulta fuentes, fija sus commits actuales cuando son repositorios, solicita explícitamente CAO2024 y actualiza el manifiesto. El servicio puede cambiar resultados del mismo nombre de modelo: las huellas del snapshot importado permiten detectar cambios.
+La compilación no necesita credenciales ni acceso a las fuentes científicas: GeoJSON, TopoJSON y series se guardan en Git. `data:fetch` sí consulta fuentes, fija sus commits actuales cuando son repositorios, solicita explícitamente CAO2024 y actualiza el manifiesto. El servicio puede cambiar resultados del mismo nombre de modelo: las huellas del snapshot importado permiten detectar cambios.
 
 `Quality` valida pushes y PR. `Publish atlas` sólo responde a `Quality` correcto en `main` tras un push, o a una ejecución manual autorizada. Hace checkout del commit validado, compila y publica en GitHub Pages. Requiere Source=GitHub Actions ya seleccionado en ajustes. La autorización del usuario para iniciar el proyecto no debe confundirse con permitir cambiar visibilidad, dominio, facturación o accesos.
 
@@ -180,8 +186,17 @@ La compilación no necesita credenciales ni acceso a las fuentes científicas: l
 - **2026-10-22:** por solicitud del propietario, retirar cabecera, franjas y controles laterales. Seguir la colección de iconos de Sizes y la estructura de identidad/ficha de Lector en «Acerca de». Unificar fecha y reproducción en el centro de la regla, y separar zoom geográfico/temporal por la superficie bajo el cursor.
 - **2026-10-22:** mantener los datos intactos. La versión 0.2.0 corresponde a interfaz y navegación; la fase de alta resolución cartográfica pasa a 0.3.
 
+- **2026-10-22, 0.3:** priorizar historia reciente y reproducción a petición del propietario. Adoptar CShapes GW con dependencias por intervalos y Cliopatria como capa anual contextual. No confundir síntesis de guerra con día exacto; fecha base histórica al cierre del año.
+- **2026-10-22, 0.3:** separar ocupación/incorporación soberana en Sinaí, Golán y Crimea. Documentar vacíos y no dibujar fases o frentes sin fuente.
+- **2026-10-22, 0.3:** sustituir el máximo hardcodeado por reloj local. Mantener fecha de referencia de la cartografía y observaciones, sin inventar datos futuros. Reproducción con espera y caché compartida, no cancelar por fotograma.
+- **2026-10-22, 0.3:** ampliar fichas y ciudades, añadir seis indicadores WDI y tres temas; mantener licencia NC-SA de CShapes separada de las demás fuentes y del código.
+
 ## 10. Validación y relevo
 
-Las comprobaciones incluyen integridad SHA-256 de las 26 instantáneas, seis pruebas de cronología, compilación TypeScript/Vite y cuatro recorridos de navegador: búsqueda/selección/proyecciones/reproducción; cursor fijo/fecha exacta/móvil/diálogos; renderizado de las 26 instantáneas sin exceso de vértices GPU; y herramientas compactas/zoom independiente de regla y mapa/capas/fuentes. El recorrido de todas las instantáneas usa la vista plana para incluir masas continentales que, en el globo, quedarían en el hemisferio opuesto. Se esperan polígonos renderizados, no sólo un canvas presente. El informe inicial está en `docs/DELIVERY.md`; el del rediseño se registra en `docs/DELIVERY-0.2.0.md`.
+La entrega comprueba los 31 recursos y sus huellas, invariantes temporales y año dinámico, selección de cada año 1900–2019, ausencia de identidades duplicadas, Alemania anterior/posterior a 1945/1949, dependencia/independencia de India y Argelia, Egipto/Siria/Israel, activación de Crimea, ciudades, capitales y ausencia de estadísticas futuras. En navegador se comprueban todos los años 1900–actualidad, reproducción/pausa, peticiones lentas y fechas obsoletas, fichas, economía, móvil, cartografía antigua/geológica, GPU y controles compactos. Registrar resultados finales reales en `docs/DELIVERY-0.3.0.md`, sin dar por superado un test que sólo se ha escrito.
 
-Siguiente trabajo recomendado: **alta resolución contemporánea y auditoría de datos históricos**, antes de añadir grandes cantidades de contenido. Mantener explícita la distinción entre la ambición del producto y su cobertura comprobada.
+Para reconstruir datos: consultar `docs/SOURCES.md`, `scripts/acquire-history.py`, `scripts/fetch-modern.mjs`, `scripts/prepare-history.py` y `scripts/build-review.mjs`. Shapely 2.2.0 es herramienta de preparación, no dependencia del navegador. `.cache/` y `.tools/` son locales ignorados. `npm run data:audit` regenera el inventario hasta el año del sistema; `data:verify` no certifica exactitud histórica.
+
+Siguiente prioridad: **completar excepciones históricas y control efectivo reciente, con mejores fuentes**, y avanzar después en costa contemporánea de alta resolución. No ampliar indiscriminadamente la cronología sin resolver errores concretos. Conservar la distinción entre ambición, cobertura de fuente, contraste focal y validación exhaustiva.
+
+La actualización incremental de fuentes se implementa en source-diff.ts y se comprueba con pruebas de diferencias; sólo se envían entidades modificadas al worker. Las pruebas de navegador usan la compilación de producción en el puerto 5174, con un único worker para no saturar el renderizado por software; compilar antes de ejecutarlas.

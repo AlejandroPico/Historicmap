@@ -1,5 +1,6 @@
 /** Civil years, with no year zero; geological dates are approximate years before 1950. */
-export const PRESENT = 2026;
+export const systemYear = (date = new Date()) => date.getFullYear();
+export const PRESENT = systemYear();
 export const anchors = [-4540000000, -4000000000, -2500000000, -1800000000, -1000000000, -541000000, -300000000, -200000000, -66000000, -2600000, -300000, -10000, -3000, -1000, 100, 1000, 1492, 1800, 1914, PRESENT];
 export const clamp = (n: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, n));
 export function yearToPosition(year: number): number {
@@ -35,7 +36,7 @@ export function eraName(year: number): string {
 }
 export const historicalYears = [-10000, -3000, -1000, -500, 100, 500, 1000, 1492, 1800, 1914, 1945, 1994, 2010];
 export const geologicalMa = [1, 20, 66, 100, 200, 300, 400, 541, 750, 1000, 1500, 1800];
-export type Snapshot = { kind: 'modern' | 'historical' | 'geological' | 'concept'; year: number; file?: string };
+export type Snapshot = { kind: 'modern' | 'annual' | 'historical' | 'geological' | 'concept'; year: number; file?: string };
 export function snapshotFor(year: number): Snapshot {
   if (year < -1800000000) return { kind: 'concept', year };
   if (year < -1000000) {
@@ -43,7 +44,9 @@ export function snapshotFor(year: number): Snapshot {
     return { kind: 'geological', year: -ma * 1e6, file: `coastlines-${ma}.geojson` };
   }
   if (year < -10000) return { kind: 'concept', year };
-  if (year >= PRESENT) return { kind: 'modern', year: PRESENT, file: 'countries.geojson' };
-  const y = historicalYears.reduce((a, b) => Math.abs(a - year) <= Math.abs(b - year) ? a : b);
+  if (year >= 2020) return { kind: 'modern', year, file: 'countries.geojson' };
+  if (year >= 1900) return { kind: 'annual', year, file: 'history.topojson' };
+  const y = historicalYears.filter(y=>y<1900).reduce((a, b) => Math.abs(a - year) <= Math.abs(b - year) ? a : b);
   return { kind: 'historical', year: y, file: `world_${y < 0 ? `bc${-y}` : y}.geojson` };
 }
+export function playbackYear(year:number){return year>=1800?Math.min(PRESENT,year+1):positionToYear(yearToPosition(year)+.075);}

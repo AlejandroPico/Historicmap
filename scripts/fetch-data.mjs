@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, writeFile, readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 const root = new URL('../public/data/', import.meta.url);
 await mkdir(root, { recursive: true });
@@ -16,7 +16,9 @@ async function json(url) {
 }
 const historical = await json('https://api.github.com/repos/aourednik/historical-basemaps/commits/master');
 const natural = await json('https://api.github.com/repos/nvkelso/natural-earth-vector/commits/master');
-const entries = [];
+// This importer owns only the original snapshot collection; retain newer layers.
+const oldManifest = JSON.parse(await readFile(new URL('manifest.json',root)));
+const entries = oldManifest.entries.filter(e=>!e.file.startsWith('coastlines-')&&!e.file.startsWith('world_')&&e.file!=='countries.geojson');
 const historicalYears = [-10000,-3000,-1000,-500,100,500,1000,1492,1800,1914,1945,1994,2010];
 const jobs = [
   {file:'countries.geojson', url:`https://raw.githubusercontent.com/nvkelso/natural-earth-vector/${natural.sha}/geojson/ne_10m_admin_0_countries.geojson`, source:'Natural Earth', version:natural.sha, license:'Public domain', year:2026},

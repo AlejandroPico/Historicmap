@@ -1,5 +1,5 @@
 import { test, expect, type Page } from '@playwright/test';
-import { geologicalMa, historicalYears } from '../../src/time';
+import { geologicalMa, historicalYears, PRESENT } from '../../src/time';
 async function disableRelief(page:Page){await page.locator('#layers-button').click();await page.locator('#physical-layer').click();await page.locator('#close-layers').click();}
 async function present(page:Page){await page.locator('#ruler').focus();await page.keyboard.press('End');}
 test('present map, projection, search, historical and geological snapshots',async({page})=>{
@@ -32,7 +32,7 @@ test('present map, projection, search, historical and geological snapshots',asyn
   await expect(page.locator('#concept')).toBeVisible();
   await expect(page.locator('#concept-caption')).toContainText('CONCEPTUAL');
   await present(page);
-  await expect(page.locator('#map-status')).toContainText('Natural Earth');
+  await expect(page.locator('#map-status')).toContainText('Natural Earth',{timeout:45000});
   await expect(page.locator('#map')).toHaveAttribute('data-rendered','countries.geojson',{timeout:45000});
   await page.screenshot({path:'test-results/present.png'});
   await page.getByRole('button',{name:'Ver globo 3D',exact:true}).click();
@@ -42,8 +42,8 @@ test('present map, projection, search, historical and geological snapshots',asyn
   await page.waitForTimeout(8000);
   await page.locator('#play').click();
   await present(page);
-  await expect(page).toHaveURL(/year=2026&view=globe/);
-  await expect(page.locator('#year')).toHaveText('2026 d. C.');
+  await expect(page).toHaveURL(new RegExp(`year=${PRESENT}&view=globe`));
+  await expect(page.locator('#year')).toHaveText(`${PRESENT} d. C.`);
   expect(errors).toEqual([]);
 });
 test('fixed center cursor, keyboard navigation, exact date, about and narrow layout',async({page})=>{
@@ -55,7 +55,7 @@ test('fixed center cursor, keyboard navigation, exact date, about and narrow lay
   const after=await page.locator('.fixed-cursor').boundingBox();expect(after?.x).toBe(cursor?.x);
   await page.locator('#date-button').click();await page.getByLabel('Año (negativo para a. C.)').fill('117');await page.getByRole('button',{name:'Explorar fecha'}).click();
   await expect(page.locator('#year')).toHaveText('117 d. C.');await expect(page.locator('#map-status')).toContainText('100 d. C.');
-  await page.locator('#about-button').click();await expect(page.locator('#modal-body')).toContainText('0.2.0');
+  await page.locator('#about-button').click();await expect(page.locator('#modal-body')).toContainText('0.3.0');
   await expect(page.locator('.about-project-icon img')).toBeVisible();
   await expect(page.locator('.about-links a').first()).toHaveAttribute('href','https://alejandropico.github.io/Portfolio/');await page.keyboard.press('Escape');
   await page.setViewportSize({width:390,height:844});await page.screenshot({path:'test-results/mobile.png'});
@@ -71,7 +71,7 @@ test('every shipped cartographic snapshot renders without exceeding GPU segments
   await disableRelief(page);
   // A global planar view also covers snapshots whose land lies on the far hemisphere.
   await page.locator('#projection-button').click();
-  const samples=[...historicalYears.map(y=>({year:y,file:`world_${y<0?`bc${-y}`:y}.geojson`})),...geologicalMa.map(ma=>({year:ma===1?-1000001:-ma*1e6,file:`coastlines-${ma}.geojson`}))];
+  const samples=[...historicalYears.map(y=>({year:y,file:y>=1900?`history-${y}`:`world_${y<0?`bc${-y}`:y}.geojson`})),...geologicalMa.map(ma=>({year:ma===1?-1000001:-ma*1e6,file:`coastlines-${ma}.geojson`}))];
   for(const sample of samples){
     await page.locator('#date-button').click();
     await page.getByLabel('Año (negativo para a. C.)').fill(String(sample.year));
