@@ -32,4 +32,11 @@ La versión se obtiene de `package.json`. La arquitectura cartográfica, fuentes
 
 ## Publicación
 
-Preparada mediante el flujo habitual de GitHub Actions, que valida antes de publicar en https://alejandropico.github.io/Historicmap/ . El resultado final se añadirá tras completarse el despliegue.
+Publicada en https://alejandropico.github.io/Historicmap/ .
+
+- Código validado y publicado: `6732a5d4f253b8e57603b4352fe98dd4f7ba842d`.
+- Quality, correcto: https://github.com/AlejandroPico/Historicmap/actions/runs/39685922522
+- Publish atlas, correcto: https://github.com/AlejandroPico/Historicmap/actions/runs/39686176766
+- Comprobado HTTP 200 y presencia del paquete de la nueva versión en el sitio público.
+
+El commit documental de cierre sólo registra estos resultados y no modifica el código publicado, sus datos o dependencias.
