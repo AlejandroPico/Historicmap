@@ -26,7 +26,13 @@ Las capturas de las pruebas locales están en `test-results/`, carpeta ignorada 
 - **Web publicada:** https://alejandropico.github.io/Historicmap/
 - Verificado HTTP 200 y renderizado de territorios con relieve en el navegador desde el origen público, incluidos los recursos bajo `/Historicmap/` y el worker empaquetado.
 
-La corrección de cierre mantiene intactas las coordenadas de los datos y aplica una tolerancia de renderizado de 0,2 píxeles, inferior a la tolerancia predeterminada del motor. Se repitieron las comprobaciones de navegador y compilación tras ese cambio. La ejecución final de GitHub se registra al concluir su publicación.
+Las correcciones de cierre mantienen intactas las coordenadas de los datos, aplican una tolerancia de renderizado de 0,2 píxeles y sincronizan la URL durante la reproducción sin exceder la frecuencia de actualizaciones del navegador. Se repitieron las comprobaciones de navegador y compilación, y se verificó reproducción, pausa y vuelta al presente también en el navegador real.
+
+**Código definitivo de la entrega:** `fc6d723cd0e88e722ae2d79450b5c7adf04cb300`.
+
+- **Validación final: correcta**, con 6 pruebas de cronología y 3 recorridos de navegador: https://github.com/AlejandroPico/Historicmap/actions/runs/39666024795
+- **Publicación final: correcta**: https://github.com/AlejandroPico/Historicmap/actions/runs/39666342828
+- El cierre documental posterior sólo añade este registro y el enlace público al README; no cambia código, datos o dependencias y no repite los flujos ya superados.
 
 ## Prioridades del siguiente relevo
 

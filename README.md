@@ -4,6 +4,8 @@
 
 Versión inicial: **0.1.0** · 21 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
+**[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
+
 ## Empezar
 
 Usar **Node.js 26.12.1 o posterior**; la versión de referencia está en `.nvmrc`.
