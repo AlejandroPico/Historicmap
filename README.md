@@ -39,7 +39,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-GitHub Actions ejecuta validación de datos, pruebas de cronología, compilación y pruebas de navegador. El flujo `Publish atlas` publica en GitHub Pages únicamente tras una ejecución correcta de `Quality` en `main`. Requiere que **Settings → Pages → Source** esté configurado como **GitHub Actions**. No contiene secretos ni necesita un servidor propio. Las acciones están fijadas a su versión mayor; `package-lock.json` fija dependencias de npm.
+GitHub Actions ejecuta validación de datos, seis pruebas de cronología, compilación y tres pruebas de navegador, incluido el renderizado de las 26 instantáneas y el control de límites de vértices. El flujo `Publish atlas` publica en GitHub Pages únicamente tras una ejecución correcta de `Quality` en `main`. Requiere que **Settings → Pages → Source** esté configurado como **GitHub Actions**. No contiene secretos ni necesita un servidor propio. Las acciones están fijadas a su versión mayor; `package-lock.json` fija dependencias de npm.
 
 ## Datos y continuidad
 

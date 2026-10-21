@@ -10,6 +10,8 @@ Aplicación estática distribuida por CDN. El navegador mantiene fecha consultad
 
 Los GeoJSON se importan manteniendo sus coordenadas; se reducen sus propiedades al contrato `{name, group, precision, code, color}`. Los identificadores de entidad de esta versión son locales a cada archivo, no identidades persistentes entre épocas. El importador no realiza simplificación de geometría. El motor sí tesela/recorta para visualizar; no prometer fidelidad catastral.
 
+La teselación utiliza tolerancia de 0,2 píxeles y zoom máximo de fuente 7 para evitar superar límites de segmentos GPU con las costas globales densas. Los datos originales no cambian. Las pruebas de navegador consideran regresión los avisos de exceso de vértices; aumentar la tolerancia arbitrariamente no sustituye incorporar una fuente multirresolución adecuada.
+
 ## Separación futura
 
 Antes de añadir grandes funcionalidades, separar control temporal, repositorio de snapshots, renderizador, catálogo de fuentes y componentes de interfaz. Mantener el motor de renderizado detrás de una interfaz para cambiar proveedores o añadir PMTiles sin acoplar cronología y fuentes.

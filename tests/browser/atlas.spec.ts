@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
+import { geologicalMa, historicalYears } from '../../src/time';
 test('present map, projection, search, historical and geological snapshots',async({page})=>{
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+  page.on('console',message=>{if(message.text().includes('Max vertices per segment'))errors.push(message.text());});
   await page.goto('/');
   await expect(page.locator('#map-status')).toContainText('Natural Earth',{timeout:45000});
   await expect(page.locator('#map')).toHaveAttribute('data-rendered','countries.geojson',{timeout:45000});
@@ -50,4 +52,22 @@ test('fixed center cursor, keyboard navigation, exact date, about and narrow lay
   await page.setViewportSize({width:390,height:844});await page.screenshot({path:'test-results/mobile.png'});
   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
   await page.locator('#chapters-button').click();await expect(page.locator('.chapters-grid')).toBeVisible();
+});
+test('every shipped cartographic snapshot renders without exceeding GPU segments',async({page})=>{
+  test.setTimeout(240000);
+  const geometryWarnings:string[]=[];
+  page.on('console',message=>{if(message.text().includes('Max vertices per segment'))geometryWarnings.push(message.text());});
+  await page.goto('/');
+  await expect(page.locator('#map')).toHaveAttribute('data-rendered','countries.geojson',{timeout:45000});
+  await page.locator('#physical-layer').click();
+  // A global planar view also covers snapshots whose land lies on the far hemisphere.
+  await page.locator('#view-2d').click();
+  const samples=[...historicalYears.map(y=>({year:y,file:`world_${y<0?`bc${-y}`:y}.geojson`})),...geologicalMa.map(ma=>({year:ma===1?-1000001:-ma*1e6,file:`coastlines-${ma}.geojson`}))];
+  for(const sample of samples){
+    await page.locator('#date-button').click();
+    await page.getByLabel('Año (negativo para a. C.)').fill(String(sample.year));
+    await page.getByRole('button',{name:'Explorar fecha'}).click();
+    await expect(page.locator('#map')).toHaveAttribute('data-rendered',sample.file,{timeout:45000});
+  }
+  expect(geometryWarnings).toEqual([]);
 });

@@ -63,7 +63,9 @@ map.addControl(new maplibregl.ScaleControl({maxWidth:100,unit:'metric'}),'bottom
 map.on('load', () => {
   map.setProjection({type:projection});
   map.setSky({'sky-color':'#182c32','horizon-color':'#8fa9a3','fog-color':'#101e22','sky-horizon-blend':0.6,'horizon-fog-blend':0.6,'fog-ground-blend':0.2});
-  map.addSource('territories',{type:'geojson',data:empty,tolerance:0,generateId:true,attribution:'<a href="https://www.naturalearthdata.com/">Natural Earth</a> · <a href="https://github.com/aourednik/historical-basemaps">A. Ourednik · GPL-3.0</a> · <a href="https://doi.org/10.1016/j.gsf.2024.101922">Cao et al. 2024 · CC BY 4.0</a>'});
+  // Subpixel render tolerance avoids overflowing GPU segments on dense coastlines.
+  // The full-resolution source coordinates remain unchanged in public/data.
+  map.addSource('territories',{type:'geojson',data:empty,tolerance:0.2,maxzoom:7,generateId:true,attribution:'<a href="https://www.naturalearthdata.com/">Natural Earth</a> · <a href="https://github.com/aourednik/historical-basemaps">A. Ourednik · GPL-3.0</a> · <a href="https://doi.org/10.1016/j.gsf.2024.101922">Cao et al. 2024 · CC BY 4.0</a>'});
   map.addLayer({id:'territory-fill',type:'fill',source:'territories',paint:{'fill-color':colorExpression,'fill-opacity':0.88}});
   map.addSource('dem',{type:'raster-dem',tiles:['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],tileSize:256,maxzoom:12,encoding:'terrarium',attribution:'Relieve: © Mapzen / AWS Open Data'});
   map.addLayer({id:'relief',type:'hillshade',source:'dem',layout:{visibility:'none'},paint:{'hillshade-shadow-color':'#102c2b','hillshade-highlight-color':'#fff3c8','hillshade-exaggeration':0.6}});

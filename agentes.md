@@ -88,6 +88,8 @@ La interfaz utiliza una base oscura azul verdosa, acento dorado, tipografía san
 
 MapLibre 6 utiliza módulos ESM y worker externo. El worker se importa explícitamente con `?url` y se configura con `setWorkerUrl` **antes de crear el mapa**. No eliminarlo: el fallo puede dibujar un globo vacío aunque el archivo GeoJSON se haya descargado. Las pruebas esperan evidencia de geometrías renderizadas, no sólo el mensaje de descarga.
 
+El renderizador usa tolerancia de teselación de 0,2 píxeles y zoom de fuente máximo 7. Es una generalización subpíxel para la pantalla, no una modificación de los archivos de origen. La tolerancia cero en geometrías globales muy densas provocaba segmentos por encima del límite de vértices del motor. Las pruebas de navegador detectan ese aviso para evitar regresiones. Mantener el detalle de origen y evaluar teselas de alta resolución en la próxima etapa.
+
 ## 5. Contrato de datos y rigor
 
 Toda nueva capa debe registrar al menos: identificador, tipo de fenómeno, fuente primaria o compilación identificada, licencia, versión/DOI, fecha de consulta, ámbito espacial y temporal, escala/resolución, incertidumbre, método de transformación y estado de revisión. No deducir soberanía por ausencia de datos. No colorear áreas sin documentación como si fueran fronteras determinadas.
@@ -167,6 +169,6 @@ La compilación no necesita credenciales ni acceso a las fuentes científicas: l
 
 ## 10. Validación y relevo
 
-En la primera entrega se ejecutan validación SHA-256 de las 26 instantáneas, seis pruebas de cronología, compilación TypeScript/Vite y dos recorridos de navegador: búsqueda/selección/proyecciones/épocas y cursor fijo/fecha exacta/móvil/diálogos. Las comprobaciones gráficas incluyen esperar polígonos renderizados, no sólo un canvas presente. Los resultados finales y el estado de publicación se registran en `docs/DELIVERY.md`.
+En la primera entrega se ejecutan validación SHA-256 de las 26 instantáneas, seis pruebas de cronología, compilación TypeScript/Vite y tres recorridos de navegador: búsqueda/selección/proyecciones/épocas; cursor fijo/fecha exacta/móvil/diálogos; y renderizado de las 26 instantáneas sin exceso de vértices GPU. Esta última comprobación usa la vista plana para incluir masas continentales que, en el globo, quedarían en el hemisferio opuesto. Las comprobaciones gráficas incluyen esperar polígonos renderizados, no sólo un canvas presente. Los resultados finales y el estado de publicación se registran en `docs/DELIVERY.md`.
 
 Siguiente trabajo recomendado: **alta resolución contemporánea y auditoría de datos históricos**, antes de añadir grandes cantidades de contenido. Mantener explícita la distinción entre la ambición del producto y su cobertura comprobada.

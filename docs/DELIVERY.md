@@ -4,7 +4,7 @@ Fecha: 21 de octubre de 2026 (Europe/Madrid).
 
 ## Resultado
 
-Aplicación funcional subida a `main` del repositorio. Commit inicial del producto: `1504220793dc76b77909ce5872de4f2320655f59`. La especificación y el estado de cada función se encuentran en `agentes.md`. Los cambios documentales posteriores no modifican esa versión del producto.
+Aplicación funcional subida a `main` del repositorio. Commit inicial del producto: `1504220793dc76b77909ce5872de4f2320655f59`. La revisión de cierre incorpora además la corrección de teselación subpíxel para costas densas y su prueba sobre todas las instantáneas. La especificación y el estado de cada función se encuentran en `agentes.md`.
 
 ## Validación local completada
 
@@ -12,7 +12,7 @@ Aplicación funcional subida a `main` del repositorio. Commit inicial del produc
 | --- | --- |
 | Integridad y procedencia de datos | 26 instantáneas verificadas por SHA-256 |
 | Pruebas de cronología | 6/6 correctas |
-| Recorridos de navegador | 2/2 correctos; incluye geometrías renderizadas, búsqueda, proyección, instantáneas, fecha exacta, cursor fijo y móvil |
+| Recorridos de navegador | 3/3 correctos; incluye geometrías renderizadas, búsqueda, proyección, instantáneas, fecha exacta, cursor fijo, móvil y las 26 instantáneas sin exceder los segmentos GPU |
 | TypeScript y compilación Vite | Correctos con Node 26.12.1 |
 | Auditoría de dependencias de producción | 0 vulnerabilidades reportadas al realizar la entrega |
 | Revisión visual | Vista contemporánea, globo, mundo antiguo, reconstrucción de 300 Ma y disposición móvil |
@@ -26,7 +26,7 @@ Las capturas de las pruebas locales están en `test-results/`, carpeta ignorada 
 - **Web publicada:** https://alejandropico.github.io/Historicmap/
 - Verificado HTTP 200 y renderizado de territorios con relieve en el navegador desde el origen público, incluidos los recursos bajo `/Historicmap/` y el worker empaquetado.
 
-El commit de cierre incorpora únicamente este informe documental. No cambia código, dependencias ni datos, por lo que se omite repetir la compilación/despliegue ya validados del commit de producto.
+La corrección de cierre mantiene intactas las coordenadas de los datos y aplica una tolerancia de renderizado de 0,2 píxeles, inferior a la tolerancia predeterminada del motor. Se repitieron las comprobaciones de navegador y compilación tras ese cambio. La ejecución final de GitHub se registra al concluir su publicación.
 
 ## Prioridades del siguiente relevo
 
