@@ -165,6 +165,14 @@ function applyLayers(){
   const points:FeatureCollection={type:'FeatureCollection',features:showPlaces&&year>=-10000?places.filter(p=>year>=p.start&&year<=p.end).map(p=>({type:'Feature',geometry:{type:'Point',coordinates:p.coordinates},properties:{name:p.name}})):[]};
   (map.getSource('places') as GeoJSONSource).setData(points);
 }
+let lastLocationWrite = -Infinity;
+let locationTimer: ReturnType<typeof setTimeout>;
+function persistLocation(){
+  clearTimeout(locationTimer);
+  const commit=()=>{lastLocationWrite=performance.now();history.replaceState(null,'',`#year=${year}&view=${projection}`);};
+  const delay=Math.max(0,250-(performance.now()-lastLocationWrite));
+  if(delay===0)commit();else locationTimer=setTimeout(commit,delay);
+}
 function updateYear(next:number,save=true){
   year=clamp(next,anchors[0],PRESENT);if(year===0)year=1;
   position=yearToPosition(year);
@@ -173,16 +181,20 @@ function updateYear(next:number,save=true){
   $('#story-title').textContent=chapter.title;$('#story-text').textContent=chapter.text;
   $('#story-source span').textContent=chapter.sourceLabel;($('#story-source') as HTMLAnchorElement).href=chapter.source;
   renderRuler(); void refreshMap();
-  if(save)history.replaceState(null,'',`#year=${year}&view=${projection}`);
+  if(save)persistLocation();
 }
+let renderedSpacing=-1;
 function renderRuler(){
   const track=$('#ruler-track');
+  if(renderedSpacing!==spacing){
+  renderedSpacing=spacing;
   track.replaceChildren();
   for(let i=0;i<anchors.length;i++){
     const tick=document.createElement('div');tick.className='tick major';tick.style.left=`${i*spacing}px`;
     const label=document.createElement('span');label.textContent=formatYear(anchors[i]);tick.append(label);
     const sub=document.createElement('small');sub.textContent=eraName(anchors[i]);tick.append(sub);track.append(tick);
     if(i<anchors.length-1) for(let j=1;j<10;j++){const minor=document.createElement('div');minor.className=`tick minor ${j===5?'medium':''}`;minor.style.left=`${(i+j/10)*spacing}px`;track.append(minor);}
+  }
   }
   track.style.transform=`translateX(${$('#ruler').clientWidth/2-position*spacing}px)`;
   $('#cursor-label').textContent=formatYear(year);

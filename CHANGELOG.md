@@ -12,5 +12,6 @@ Primera base funcional del atlas temporal.
 - Diseño adaptable, navegación por teclado y enlaces compartibles.
 - Documentación de continuidad y flujos de validación/publicación.
 - Teselación subpíxel para evitar exceder límites GPU en costas densas; comprobación de renderizado de todas las instantáneas.
+- Movimiento de regla con marcas reutilizadas y sincronización limitada del enlace compartible para mantenerlo correcto durante la reproducción.
 
 Cobertura inicial discontinua. Alta resolución local, revisión historiográfica exhaustiva, homininos, hielo, atmósfera y eventos bélicos pendientes. Ver `agentes.md`.

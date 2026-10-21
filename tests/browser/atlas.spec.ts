@@ -37,6 +37,12 @@ test('present map, projection, search, historical and geological snapshots',asyn
   await page.locator('#reset-map').click();
   await expect(page.locator('#map')).toHaveAttribute('data-rendered','countries.geojson');
   await page.screenshot({path:'test-results/globe.png'});
+  await page.locator('#play').click();
+  await page.waitForTimeout(8000);
+  await page.locator('#play').click();
+  await page.locator('#today').click();
+  await expect(page).toHaveURL(/year=2026&view=globe/);
+  await expect(page.locator('#year')).toHaveText('2026 d. C.');
   expect(errors).toEqual([]);
 });
 test('fixed center cursor, keyboard navigation, exact date, about and narrow layout',async({page})=>{
