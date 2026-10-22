@@ -19,7 +19,7 @@ test('opaque control, historical flags and leaders follow the war and occupation
 
 test('civil-war factions, revolutionary chronology and modern authority cards work on mobile',async({page})=>{
  await date(page,1937);await search(page,'zona republicana');
- await expect(page.locator('.leader-name')).toContainText(['Juan Negrín','Manuel Azaña']);await expect(page.locator('#selection-text')).not.toContainText('Francisco Franco');await imagesLoaded(page);
+ await expect(page.locator('.leader-name').filter({hasText:'Juan Negrín'})).toBeVisible();await expect(page.locator('.leader-name').filter({hasText:'Manuel Azaña'})).toBeVisible();await expect(page.locator('.leader-name').filter({hasText:'Largo Caballero'})).toBeVisible();await expect(page.locator('#selection-text')).not.toContainText('Francisco Franco');await imagesLoaded(page);
  await expect(page.locator('#selection-text')).toContainText('octubre de 1937');
  await page.screenshot({path:'test-results/spanish-front-1937.png'});
  await page.locator('#close-selection').click();await search(page,'zona sublevada');await expect(page.locator('.leader-name')).toContainText('Francisco Franco');

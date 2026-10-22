@@ -1,5 +1,16 @@
 # Historial de versiones
 
+## 0.5.0 · 2026-10-22
+
+- Corregida la identidad española que se aplicaba a otros países al comparar identificadores vacíos. Corregida también la sobrescritura de Brasil, Francia, Australia y Kazajistán por metadatos de territorios asociados.
+- Ficha de país a la izquierda, con pestañas Autoridades, Datos, Contexto y Conflictos. Se listan los mandatos que coinciden con el año, incluidos relevos breves y jefaturas de Estado/Gobierno.
+- Ampliación mundial de fotografías locales y contraste de autoridades de 2026 con ONU y fuentes nacionales; cobertura y excepciones auditadas en CURRENT-AUTHORITIES.
+- Mañana, tarde, noche y automático en un botón cíclico; hora local del dispositivo, preferencia conservada y océanos más claros que el fondo.
+- Relieve apagado de inicio y disponible como referencia en periodos históricos desde 10.000 a. C.; excluido de reconstrucciones geológicas.
+- Eliminado Explorar épocas y el rótulo de escala adaptativa. Leyenda a la derecha, atribución/escala a la izquierda y fuentes en un panel compacto sin fondo modal.
+- Capas 2026 de OTAN, UE, BRICS y Tres Mares; categorías separadas y fuentes oficiales. Rampa económica verde y contextos parciales de conflictos con fuentes.
+- Pruebas de regresión con clic cartográfico enBrasil 1947 después de consultar un bando español, claves de territorios, pestañas, temas y alcance temporal de membresías.
+
 ## 0.4.0 · 2026-10-22
 
 - Cronología anual ampliada a 1789: componentes Cliopatria 1789–1885 y todos los registros CShapes desde 1886, sin retrotraer un mapa futuro por cercanía. Inventario de 238 selecciones hasta 2026.

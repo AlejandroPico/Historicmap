@@ -82,3 +82,14 @@ Las consultas del buscador permanecen en memoria del navegador; sólo hay búsqu
 Priorizar organismos científicos, repositorios académicos y conjuntos con licencia inequívoca, resolución y cronología documentadas. Fuentes candidatas **no incorporadas ni auditadas aún**: cartografía vectorial detallada derivada de OSM para costa actual, catálogos arqueológicos/fósiles, modelos de hielo y nivel del mar, Paleobiology Database y modelos paleogeográficos publicados. CShapes, Cliopatria y WDI ya se incorporan con el alcance indicado arriba.
 
 No reutilizar sin licencia mapas de atlas comerciales o imágenes/vídeos de terceros. No equiparar varias representaciones coincidentes con certeza; registrar dependencias entre fuentes y su procedencia original.
+
+
+## Ampliación 0.5 · año 2026
+
+Autoridades actuales y retratos: ver [CURRENT-AUTHORITIES](CURRENT-AUTHORITIES.md), con contraste de Protocolo ONU y fuentes nacionales, mandatos breves, cobertura de medios y vacíos. Fotografías Commons con licencia propia y atribución individual; no se generan imágenes de dirigentes.
+
+Agrupaciones y conflictos: ver [CURRENT-LAYERS](CURRENT-LAYERS.md) para OTAN, UE, BRICS, Tres Mares y siete contextos parciales de conflictos. Las listas sólo se aplican a 2026; no son reconstrucciones de todas las fechas del año ni se proyectan hacia otros años. La cartografía no cambia al seleccionar estos colores.
+
+El relieve Terrarium/Mapzen de AWS puede activarse desde 10.000 a. C. como **topografía contemporánea de referencia**. No se presenta como DEM antiguo ni reconstruye costas, nivel del mar o cambios locales históricos. Se inicia apagado y queda excluido de geología/escenas sin cartografía.
+
+La reparación de perfiles conserva intactas las seis series WDI y corrige exclusivamente la unión de nombres/metadatos: ADM0_A3 con equivalencias explícitas, sin usar ISO_A3_EH como si toda asociación territorial fuera la misma entidad.

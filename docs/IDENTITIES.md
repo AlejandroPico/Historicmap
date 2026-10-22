@@ -8,7 +8,7 @@ Las banderas y retratos se guardan en `public/media/`, con autoría, título, p�
 
 ## Selección temporal
 
-`src/identities.ts` resuelve la identidad a partir de la clave política, el código del territorio, el nombre de origen o Wikidata. Selecciona mandatos y símbolos por intervalos inclusivos. Para años pasados utiliza el 31 de diciembre; para el presente limita la consulta al día del dispositivo y a la fecha de adquisición de los datos. Un reloj futuro amplía la navegación, pero no fabrica titulares o banderas futuras.
+`src/identities.ts` resuelve la identidad a partir de la clave política, el código del territorio, el nombre de origen o Wikidata. Selecciona mandatos y símbolos por intervalos inclusivos. Desde 0.5 los mandatos se seleccionan si intersectan el año completo, hasta el día del dispositivo/adquisición en el presente. El símbolo sigue correspondiendo al 31 de diciembre o fecha de referencia. Se prioriza dentro de cada tipo de autoridad a quien seguía en funciones a esa referencia, con etiqueta explícita; se conservan los anteriores del mismo año. Un reloj futuro amplía la navegación, pero no fabrica titulares o banderas futuras.
 
 Las declaraciones actuales sin fecha inicial sólo se admiten en la fecha de consulta; no se trasladan a todo el pasado. Las declaraciones con precisión de año o mes se conservan como tales. Los mandatos históricos obtenidos de las consultas de cargos conservan las fechas publicadas por la fuente; no se deducen de ciclos electorales. Las fuentes con periodos incompletos pueden dejar vacíos. La ausencia se indica en la ficha.
 
@@ -37,3 +37,12 @@ Después ejecutar `node scripts/register-political-data.mjs` y `npm run data:ver
 Completar gobernadores y autoridades de dependencias, predecesores de Estados modernos, autoridades territoriales rivales y todas las variantes de símbolos; contrastar las declaraciones globales con archivos institucionales por regiones. Los retratos no están disponibles para todos los dirigentes. El atlas mantiene el nombre cuando hay documentación y omite la imagen cuando falta. La fecha de la fotografía puede diferir de la fecha consultada: el retrato identifica a la persona, no pretende mostrarla fotografiada cada año.
 
 La geometría de cuatro zonas aliadas individuales, Berlín y otras administraciones de ocupación sigue pendiente; una ficha correcta no acredita esa geometría. Las fechas de autoridades al cierre del año y los frentes anuales sin día uniforme son evidencias distintas y se explican por separado.
+
+
+## Ampliación 0.5
+
+El inventario se actualiza a **2.858 registros de autoridades** y **830 medios** (342 banderas/símbolos y 488 retratos). Para 2026 hasta el 22 de octubre: 508 registros, 413 personas u órganos y 402 con foto en 231 claves. Son recuentos de fuente antes de consolidar declaraciones repetidas en la ficha. Se añaden 413 retratos respecto a 0.4. Felipe VI, Juan Carlos I y Franco disponen de imagen adjunta en todos sus registros focales.
+
+El procedimiento, contraste primario de actualidad, once personas pendientes de imagen y fuentes figuran en [CURRENT-AUTHORITIES](CURRENT-AUTHORITIES.md). No confundir archivos, personas, cargos y países. Las correcciones cierran declaraciones obsoletas; los ceses conocidos sólo por límite superior se señalan expresamente y no se presentan como dimisiones exactas.
+
+Un QID vacío/no válido no identifica a nadie. Esto corrige la contaminación con España republicana cuando una entidad carecía de código reconocido. La ficha por pestañas utiliza el mismo resolver para clic cartográfico y búsqueda. El índice de perfiles separa además territorios asociados de Estados: Brasil no es Isla Brasilera, ni Francia Clipperton.

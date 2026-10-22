@@ -1,13 +1,45 @@
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {describe,it,expect} from 'vitest';
-import {identityFor,identityMarkup,type IdentityData} from '../src/identities';
+import {identityFor,identityKey,identityMarkup,type IdentityData} from '../src/identities';
+import {historyAt,normalizedName,type HistoryTopology} from '../src/history';
+import {politicalData} from '../src/political';
 const data:IdentityData=JSON.parse(readFileSync(new URL('../public/data/identities.json',import.meta.url),'utf8'));
 const now=new Date(2026,9,22,12);
 const at=(key:string,year:number)=>identityFor({identityKey:key,name:key},year,data,now);
 const names=(key:string,year:number)=>at(key,year).leaders.map(l=>l.name).join(' / ');
 
 describe('dated flags and political authorities',()=>{
+ it('never resolves an empty or unknown identifier to a Spanish faction',()=>{
+  for(const p of [{},{name:'Brazil'},{name:'Unknown territory',wikidata:''},{code:'-99'},{identityKey:'not-a-country',wikidata:'not-a-qid'}]){
+   expect(identityKey(p,1947,data)).toBe('');
+   expect(identityFor(p,1947,data,now).name).toBeUndefined();
+  }
+  const topology:HistoryTopology=JSON.parse(readFileSync(new URL('../public/data/history.topojson',import.meta.url),'utf8'));
+  const profiles=JSON.parse(readFileSync(new URL('../public/data/profiles.json',import.meta.url),'utf8'));
+  const names=new Map<string,string>(Object.entries(profiles.countries).flatMap(([code,p]:[string,any])=>[p.name,p.englishName,p.official].filter(Boolean).map(n=>[normalizedName(n),code] as [string,string])));
+  for(const year of [1937,1947,1976,2000,2026]){
+   const raw=year===2026?JSON.parse(readFileSync(new URL('../public/data/countries.geojson',import.meta.url),'utf8')):historyAt(topology,year,names);
+   const world=politicalData(raw,year);
+   for(const f of world.features){
+    const key=identityKey(f.properties!,year,data);
+    if(key.startsWith('ESP'))expect(String(f.properties!.originalName??f.properties!.name)).toMatch(/Spain|España/);
+   }
+   const brazil=world.features.find(f=>f.properties?.code==='BRA');
+   expect(brazil,`Brazil ${year}`).toBeDefined();
+   expect(identityFor(brazil!.properties!,year,data,now).key).toBe('BRA');
+  }
+ });
+ it('includes short terms, both sides of handovers, and repeat mandates inside one year',()=>{
+  expect(names('USA',2025)).toContain('Biden');expect(names('USA',2025)).toContain('Trump');
+  expect(names('ESP',1981)).toContain('Suárez');expect(names('ESP',1981)).toContain('Calvo-Sotelo');
+  const country={qid:'Q1',name:'Test',flags:[],leaders:[
+   {person:'Q2',name:'First',role:'Primer ministro',start:'2026-01-01',end:'2026-02-01',source:'https://example.org'},
+   {person:'Q3',name:'Second',role:'Primer ministro',start:'2026-02-02',end:'2026-07-01',source:'https://example.org'},
+   {person:'Q2',name:'First',role:'Primer ministro',start:'2026-07-02',end:'2026-10-22',source:'https://example.org'},
+   {person:'Q4',name:'Future',role:'Primer ministro',start:'2026-12-01',end:'2026-12-31',source:'https://example.org'}]};
+  expect(identityFor({code:'TEST'},2026,{...data,countries:{TEST:country}},now).leaders.map(l=>l.start)).toEqual(['2026-07-02','2026-01-01','2026-02-02']);
+ });
  it('follows real US presidential terms across different lengths and repeat presidencies',()=>{
   for(const [year,name] of [[1789,'Washington'],[1865,'Johnson'],[1942,'Roosevelt'],[2006,'Bush'],[2012,'Obama'],[2018,'Trump'],[2023,'Biden'],[2026,'Trump']] as const)expect(names('USA',year),String(year)).toContain(name);
   expect(at('USA',1942).flag?.title).toContain('1912-1959');
@@ -17,6 +49,16 @@ describe('dated flags and political authorities',()=>{
   for(const [year,name] of [[1976,'Suárez'],[1981,'Calvo-Sotelo'],[1990,'González'],[2000,'Aznar'],[2008,'Zapatero'],[2015,'Rajoy'],[2026,'Sánchez']] as const)expect(names('ESP',year),String(year)).toContain(name);
   expect(names('ESP',2015)).not.toContain('Sánchez');
   expect(at('ESP',2026).leaders[0].name).toContain('Sánchez');
+ });
+ it('closes obsolete Nauru mandates and retains the Korean prime-minister handover in 2026',()=>{
+  expect(at('NRU',2026).leaders.map(l=>l.person)).toEqual(['Q58096']);
+  expect(at('NRU',2012).leaders.some(l=>l.person==='Q57543')).toBe(true);
+  const korea=at('KOR',2026).leaders;
+  expect(korea.some(l=>l.person==='Q12587400')).toBe(true);
+  expect(korea.some(l=>l.person==='Q55082182')).toBe(true);
+  expect(korea.find(l=>l.person==='Q12587400')?.portrait).toBeDefined();
+  expect(at('FRA',2026).leaders.find(l=>l.person==='Q20089181')?.start).toBe('2025-10-10');
+  expect(at('FRA',2025).leaders.filter(l=>l.person==='Q20089181')).toHaveLength(2);
  });
  it('preserves authentic historical German flags and leaves the occupation interval without a national flag',()=>{
   expect(at('DEU',1942).flag?.title).toBe('Flag of Germany (1935–1945).svg');
@@ -66,5 +108,5 @@ describe('dated flags and political authorities',()=>{
    expect(createHash('sha256').update(bytes).digest('hex'),m.file).toBe(m.sha256);
    expect(m.license).toBeTruthy();expect(m.url).toMatch(/^https:\/\/commons.wikimedia.org\//);
   }
- });
+ },20000);
 });

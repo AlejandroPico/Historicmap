@@ -1,6 +1,6 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **22 de octubre de 2026**. Versión del producto: **0.4.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **22 de octubre de 2026**. Versión del producto: **0.5.0**.
 
 ## 1. Identidad y visión
 
@@ -23,11 +23,11 @@ El horizonte completo incluye evolución continental, océanos, glaciaciones, re
 9. SQLite es admisible si ayuda; no es obligatorio ni debe añadirse sin necesidad.
 10. Este archivo debe registrar visión, planes, tecnologías, funciones, decisiones y continuidad entre asistentes. La documentación debe ser profesional, sin comparaciones con productos de entretenimiento ni referencias promocionales a modelos.
 
-## 3. Estado real de la versión 0.4.0
+## 3. Base de la versión 0.4.0 y actualización 0.5.0
 
 ### Implementado
 
-- Aplicación estática TypeScript/Vite/MapLibre, mapa Mercator y globo, worker local explícito, selección/búsqueda local. Sin backend, cuentas, claves privadas, analítica ni SQLite. Se conserva toda la interfaz compacta 0.2: seis herramientas superiores, capas desplegables, contexto izquierdo, regla desplazable con cursor fijo y zoom temporal independiente.
+- Aplicación estática TypeScript/Vite/MapLibre, mapa Mercator y globo, worker local explícito, selección/búsqueda local. Sin backend, cuentas, claves privadas, analítica ni SQLite. La actualización 0.5 sustituye el contexto izquierdo por la ficha de país con pestañas y añade la séptima herramienta de apariencia. Se conservan la regla desplazable, cursor fijo y zoom temporal independiente.
 - Año máximo del dispositivo, con referencia contemporánea incorporada en 2026; no se inventan datos al cambiar el reloj. Cronología y saltos/reproducción anuales desde **1789**. La reproducción comparte descargas, espera el mapa y conserva la geometría anterior durante la carga; pausa y contador impiden avances/respuestas obsoletos.
 - **1789–1885:** 1.715 registros componentes Cliopatria, intervalos inclusivos y coordenadas intactas, sin uniones agregadas duplicadas. Síntesis anuales sin día uniforme. Áreas sin entidad en el inventario en gris sobre costa contemporánea de referencia; no equivalen a territorios vacíos de población o sin organización política. Nombre original, Wikidata y MemberOf conservados.
 - **1886–2019:** los **710 registros** CShapes 2.0 GW con dependencias del paquete R, conservando geometrías, administrador, capital, estatus y fechas; selección **31 de diciembre**. No sustituir por el GeoJSON directo que omite estatus/administración.
@@ -37,10 +37,10 @@ El horizonte completo incluye evolución continental, océanos, glaciaciones, re
 - **Colores por régimen:** Alemania nazi gris oscuro, URSS roja, EEUU azul, familias chinas amarillas/ocres y Japón distinguible; Francia monárquica, republicana, napoleónica y restaurada diferenciadas; bandos españoles distintos y cambio al vencedor. Colonias de CShapes comparten color del administrador. Es una convención editorial, no un hecho que se deduzca de la bandera. Otros regímenes aún necesitan curación específica; la arquitectura admite ampliarlos.
 - **Fichas integradas:** bandera/símbolo histórico junto al nombre, dirigente y retrato antes de hechos/contexto; mismas fichas en clic y búsqueda, incluidos bandos/ocupaciones. Catálogo de **267 claves y 2.859 registros de autoridades**, no 267 series completas ni igual número de personas. Se distinguen jefe de Estado/Gobierno, partido y autoridades rivales. Se consolidan duplicados de la misma persona y se prioriza la autoridad principal según el sistema político focal.
 - Banderas auténticas, incluida Alemania 1935–1945; variantes RFA/RDA por fecha, sin bandera nacional inventada en la ocupación anterior a 1949. Francia de 1789 usa **estandarte real** identificado. Presidencias de EEUU con mandatos reales y periodos no consecutivos; sucesión española, incluido Fernando de Santiago en funciones en julio de 1976. Azaña/Negrín o Largo Caballero en la zona republicana, Franco en el otro bando. Autoridades colectivas francesas sin retrato individual inventado.
-- Identidades a cierre anual, limitadas a adquisición/día del dispositivo en presente; un futuro reloj no extrapola dirigentes/símbolos. Declaraciones sin fecha no se proyectan al pasado; colonias sin identidad documentada no heredan dirigentes de la independencia. Imagen ausente se omite conservando el nombre; autoridad no documentada se indica. Metadatos Wikidata CC0 e imágenes con **licencia propia**, locales, sin consultas al proveedor durante la visita. Detalles y fuentes en IDENTITIES.
+- Símbolos al cierre anual y, desde 0.5, autoridades de todos los mandatos del año, limitadas a adquisición/día del dispositivo en presente; un futuro reloj no extrapola dirigentes/símbolos. Declaraciones sin fecha no se proyectan al pasado; colonias sin identidad documentada no heredan dirigentes de la independencia. Imagen ausente se omite conservando el nombre; autoridad no documentada se indica. Metadatos Wikidata CC0 e imágenes con **licencia propia**, locales, sin consultas al proveedor durante la visita. Detalles y fuentes en IDENTITIES.
 - Crimea, Sinaí y Golán mantienen sus cinco registros contextuales y notas; la base egipcia/israelí/siria desde 1967 conserva geometría de 1966 para separar ocupación/incorporación. No resuelve por sí sola todo el Levante. Crimea se contextualiza conforme a A/RES/68/262, no como anexión reconocida.
 - Fichas con capital, estatus, administrador, contexto y seis indicadores WDI desde 1960: población, PIB, PIB/habitante, superficie, esperanza de vida, porcentaje urbano. Último dato no futuro con retraso máximo cinco años y año visible; sin extrapolar ni asignar URSS/Yugoslavia/RDA a sus sucesores. Temas de PIB/PIB-habitante/población aplicados sólo a pintura con feature-state; no se reteselan costas por indicador. Índice de códigos NE/WDI evita fusionar entidades con `-99`.
-- 323 capitales/grandes ciudades actuales desde 2020 y capitales de cada registro CShapes en 1886–2019. Los tres puntos introductorios permanecen sólo en dominios históricos anteriores. Antes de 1886 no se inventan capitales ausentes. Relieve actual opcional AWS Terrarium, inactivo en pasado; no altitudes reconstruidas.
+- 323 capitales/grandes ciudades actuales desde 2020 y capitales de cada registro CShapes en 1886–2019. Los tres puntos introductorios permanecen sólo en dominios históricos anteriores. Antes de 1886 no se inventan capitales ausentes. Relieve AWS Terrarium apagado al abrir; referencia contemporánea disponible desde 10.000 a. C., sin afirmar reconstrucción de altitudes/costas antiguas. Se desactiva en geología y escenas sin cartografía.
 - Datos y medios con versiones, atribución, transformaciones y SHA-256: **35 recursos geográficos/estadísticos/de identidad**, 11 franjas Noto Sans PBF OFL y manifiesto separado de medios. Los SVG/fotografías originales se tratan como binarios en Git para mantener sus huellas; JSON preparado usa LF explícito. CShapes/derivados NC-SA separados de Cliopatria BY y frente 1937 BY-SA; no mezclar licencias en un derivado.
 - Auditoría automática **1789–año del dispositivo**, cambios y excepciones en ANNUAL-REVIEW. No se presenta como cotejo manual exhaustivo. Pruebas geográficas de localidades, bandos, imperios, identidades y periodos, además de navegador. Quality/Pages conservan el flujo y permisos. Estado de entrega final en DELIVERY-0.4.0.
 - About con identidad/favicon/versión/historial y enlaces confirmados al repositorio y https://alejandropico.github.io/Portfolio/ . Sin publicidad de proveedores ni comparaciones de entretenimiento.
@@ -70,7 +70,8 @@ src/profiles.ts            observaciones fechadas, temas, formato y leyenda
 src/political.ts           familias y colores políticos/de control
 src/identities.ts          símbolos, dirigentes y selección temporal
 src/country-card.ts        ficha integrada común a búsqueda y mapa
-src/methodology.ts         fuentes y alcance visibles
+src/appearance.ts          apariencia y reloj local
+src/current-affiliations.ts membresías 2026 y contextos parciales de conflictos
 src/recent-context.ts      contexto focal 1900–actualidad y fuentes
 src/catalog.ts             contexto de épocas y lugares introductorios
 src/style.css              sistema visual, disposiciones y adaptación
@@ -89,7 +90,7 @@ CHANGELOG.md               historial del producto
 AGENTS.md                  entrada automática hacia este documento
 ```
 
-La interfaz utiliza una base oscura azul verdosa, acento dorado, tipografía sans para controles y serif para fechas/contexto. El mapa ocupa toda la pantalla. El contexto se superpone a la izquierda, las seis herramientas flotan arriba a la derecha y la regla se superpone al pie sin franjas adicionales. El punto fijo central integra fecha, reproducción y saltos; la etiqueta «Escala adaptativa» se mantiene discretamente a la derecha. No degradar la cartografía por comodidad estética. Mantener contraste, foco y accesibilidad.
+La interfaz utiliza una base oscura azul verdosa, acento dorado, tipografía sans para controles y serif para fechas/contexto. El mapa ocupa toda la pantalla. La ficha del país se superpone a la izquierda, siete herramientas flotan arriba a la derecha y la regla se superpone al pie sin franjas adicionales. El punto fijo central integra fecha, reproducción y saltos. Se retiran Explorar épocas y la etiqueta «Escala adaptativa» por instrucción del propietario. La leyenda ocupa la derecha sobre la regla; escala geográfica y atribución compacta se sitúan abajo a la izquierda. No degradar la cartografía por comodidad estética. Mantener contraste, foco y accesibilidad.
 
 MapLibre 6 utiliza módulos ESM y worker externo. El worker se importa explícitamente con `?url` y se configura con `setWorkerUrl` **antes de crear el mapa**. No eliminarlo: el fallo puede dibujar un globo vacío aunque el archivo GeoJSON se haya descargado. Las pruebas esperan evidencia de geometrías renderizadas, no sólo el mensaje de descarga.
 
@@ -134,14 +135,18 @@ Entrega priorizada por solicitud del propietario: intervalos territoriales 1900�
 - Cambios fechados de fronteras, ciudades, capitales, redes comerciales y primeros Estados. Trabajar por entregas geográficas revisadas, no prometer todos los años de todo el planeta de una vez.
 - Fichas de entidad con bibliografía, precisión y alternativas, comparación entre fechas y búsqueda en español.
 
-### 0.5 · Prehistoria y evolución humana
+### 0.5 · Actualidad, fichas y apariencia — implementada con límites
+
+Identidades y uniones de metadatos corregidas, fichas por pestañas, ampliación de autoridades/retratos actuales, apariencia por hora y agrupaciones de 2026. Estado, fuentes, cobertura y validación en sección 13 y CURRENT-AUTHORITIES/CURRENT-LAYERS. La siguiente prioridad continúa siendo completar los vacíos del año vigente antes de retroceder.
+
+### Fase posterior · Prehistoria y evolución humana
 
 - Catálogo de yacimientos y fósiles con evidencia primaria; especies, rangos temporales inciertos y ocupación documentada.
 - Homo sapiens, neandertales, denisovanos, Homo erectus, Homo floresiensis y otros taxones cuando los datos lo permitan. No homogeneizar «homininos» con «humanos modernos».
 - Migraciones como hipótesis con rutas/áreas de incertidumbre y fechas, nunca como trayectorias GPS exactas.
 - Paleocostas, cambios del nivel del mar y extensión de hielo para el Cuaternario.
 
-### 0.6 · Tierra profunda, clima y vida
+### Fase posterior · Tierra profunda, clima y vida
 
 - Ampliar y densificar reconstrucciones tectónicas dentro del alcance de modelos elegidos; ofrecer comparación y trazabilidad del modelo.
 - Incorporar superficies paleogeográficas revisadas, paleoaltitud/batimetría cuando existan, hielo, biomas y evidencia fósil.
@@ -226,3 +231,35 @@ Validación local: 35 recursos, 11 franjas de letras y 417 medios íntegros; 31 
 Publicado **681f71e040d8b7d07677f30b3189f50bfdf4f44d**. [Quality 39719656269](https://github.com/AlejandroPico/Historicmap/actions/runs/39719656269) correcto: 35 recursos, 11 franjas y 417 medios íntegros; **31 pruebas unitarias y 11 recorridos de navegador** correctos, incluidos los 238 años. [Publish atlas 39720348133](https://github.com/AlejandroPico/Historicmap/actions/runs/39720348133) correcto, checkout final confirmado en logs. La página pública sirve `assets/index-BSZARU0D.js`, coincide con el build final y conserva versión 0.4.0; manifiesto público idéntico a las 35 huellas locales. Verificación de cuatro medios históricos por HTTP y mapa/ficha pública de 1942 con bandera, retrato y control opaco. Detalles en DELIVERY-0.4.0.
 
 Las últimas correcciones vinculan First Spanish Republic/Spanish Empire con ESP y distinguen Alemania republicana al cierre de 1918, Consulado/Imperio y Francia desde julio de 1830. Mantener semántica de cierre anual frente a reconstrucciones de campaña sin día uniforme. El cierre de documentación se guarda con `[skip ci]`, sin alterar la aplicación. Los pendientes regionales y límites expresos continúan abiertos; no convertir cobertura de fuente, automatización o un retrato en garantía historiográfica mundial.
+
+
+## 13. Actualización 0.5.0 · prioridad al año vigente
+
+Solicitud del propietario: resolver identidades mezcladas y datos contemporáneos antes de seguir retrocediendo por la historia; fotos globales, mandatos de todo el año, ficha por pestañas y una superficie cartográfica más despejada.
+
+### Correcciones de identidad y datos
+
+Dos causas independientes explicaban la contaminación: el resolver de identidades comparaba QID vacío con fichas históricas que también lo tenían vacío, eligiendo ESP-REPUBLIC; además, la unión de metadatos usaba ISO_A3_EH aunque identificara un país distinto del polígono. BRI sobrescribía BRA (Brasil), CLP sobrescribía FRA, KAB a KAZ e IOA/CSI/ATC a AUS. Se rechazan QID vacíos/no válidos y se conserva ADM0_A3 salvo equivalencias explícitas PSX/PSE, SDS/SSD, SAH/ESH, KOS/XKX y ALD/ALA. Dependencias/disputas tienen metadatos propios y no heredan estadísticas estatales. Se corrige la importación normal y se añade reparación incremental reproducible. Las coordenadas no cambian.
+
+La ficha resuelve todos los mandatos que intersectan el año seleccionado, hasta la fecha de adquisición/del dispositivo en el presente. No elimina mandatos no consecutivos de una misma persona. El símbolo corresponde al cierre/fecha de consulta, no a cada uno de los gobiernos listados. Los límites superiores de cese sin día confirmado se etiquetan «hasta, como máximo»; no convertirlos en fechas exactas. Se conservan ocupaciones/autoridades colectivas sin crear personas o retratos ficticios.
+
+La ampliación de retratos y contraste del año vigente se registra en CURRENT-AUTHORITIES. No confundir una foto disponible con validación de cada fecha. Lista ONU y Wikidata también pueden arrastrar errores: las excepciones se contrastan con fuentes nacionales y se documentan. Metadatos e imágenes siguen locales, con licencia/autoría/huella individuales. No volver a ejecutar la adquisición inicial limitada a 80 retratos como si fuera la actualización completa.
+
+### Interfaz actual
+
+- Ficha a la izquierda con Autoridades (predeterminada), Datos, Contexto y Conflictos. Bandera/nombre permanecen sobre las pestañas; navegación por flechas, Home/End, roles ARIA y foco. Datos WDI conservan año de observación; contexto identifica el año y autoridades documentadas. Conflictos es un inventario parcial con fuentes, no garantía de paz si está vacío.
+- Se elimina Explorar épocas y su panel; el acceso a fechas permanece en el control central. Se quita «Escala adaptativa» sin quitar el zoom temporal.
+- Leyenda abajo a la derecha sobre la regla. Escala métrica y atribución abajo a la izquierda; icono de atribución sin caja/relleno, plegado inicialmente y con créditos accesibles.
+- Fuentes deja de usar el diálogo modal: panel pequeño junto al botón de base de datos, sin oscurecer fondo, con referencia cartográfica, adquisición de autoridades, estado, enlaces y metodología completa aparte. Cierre por botón, Escape o exterior. No restaurar la barra flotante de procedencia.
+- Apariencia con botón cíclico mañana/sol, tarde/atardecer, noche/luna y automático/contraste. Preferencia local; automático usa hora local (07–13 mañana, 13–20 tarde, 20–07 noche), revisa cada minuto y al volver a la pestaña. No solicita ubicación. Océano más claro que fondo en las tres paletas, UI y controles con variables coherentes.
+- Relieve desactivado de inicio. Referencia moderna admisible desde 10.000 a. C. en cartografía histórica; excluida de geología/concepto. No representa cambios del nivel del mar ni altitudes antiguas.
+
+### Capas actuales y continuidad
+
+Cuatro agrupaciones con membresía exclusiva de referencia 2026: OTAN 32, UE 27, BRICS 11 miembros + 10 socios y Tres Mares 13 miembros + 4 asociados + 6 países socios estratégicos. Categorías distintas, sin heredar membresía desde un Estado a dependencias. Fuentes/fechas/discrepancias en CURRENT-LAYERS. No se retroproyectan a 2025 ni a un futuro reloj. No son un mapa diario de altas/bajas del propio 2026.
+
+Los temas estadísticos usan rampa verde y conservan WDI/fechas. Al elegir agrupación o estadísticas se oculta la pintura de control territorial para que no tape la lectura; al volver al tema político se respeta el conmutador de ocupaciones. Se añaden siete contextos de conflictos documentados, expresamente parciales. Ranking de capacidad militar, gasto y capa mundial exhaustiva de conflictos requieren fuentes, términos de reutilización y metodología; no inferir capacidad sólo de gasto ni participación bélica de una alianza.
+
+Archivos nuevos: appearance.ts, current-affiliations.ts, reparación del índice de perfiles, enriquecimiento/auditoría de autoridades y pruebas de selección real de mapa, uniones de metadatos, mandatos anuales, apariencia y agrupaciones. Los detalles finales de cobertura/validación/publicación se registrarán en DELIVERY-0.5.0 con resultados y SHA reales.
+
+Cobertura final de 0.5: **2.858 registros**; en 2026, **508 registros/413 personas u órganos/402 con retrato**, en 231 claves. **830 medios** (342 símbolos y 488 retratos); once autoridades sin imagen acreditada se enumeran en CURRENT-AUTHORITIES. Se verifican SHA de los 830 medios y decodificación de 488 fotografías. Nauru pierde dos titulares antiguos incorrectamente abiertos y Corea del Sur conserva el relevo Kim/Han dentro de 2026.

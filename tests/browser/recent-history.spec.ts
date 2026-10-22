@@ -40,7 +40,7 @@ test('WWII playback progresses annually, pauses precisely and opens historical p
 
 test('modern country facts, global cities and economic layers retain observation years',async({page})=>{
  await page.goto('/');await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(PRESENT),{timeout:45000});
- await search(page,'Estados Unidos');
+ await search(page,'Estados Unidos');await page.getByRole('tab',{name:'Datos',exact:true}).click();
  await expect(page.locator('#selection-text')).toContainText('Población');await expect(page.locator('#selection-text')).toContainText('PIB nominal');
  await expect(page.locator('#selection-text')).toContainText('Washington');await expect(page.locator('#selection-text')).not.toContainText('Geometría de Natural Earth');
  await page.screenshot({path:'test-results/country-profile.png'});await page.locator('#close-selection').click();
@@ -69,10 +69,10 @@ test('slow loading preserves the previous cartography and latest requested date 
  await expect(page.locator('#map-status')).toContainText('31 dic 1947');
 });
 
-test('present and chapter endpoint follow the device year without inventing new reference data',async({page})=>{
+test('present endpoint follows the device year without an obsolete epoch panel or invented data',async({page})=>{
  await page.clock.setFixedTime(new Date('2028-06-15T12:00:00Z'));
  await page.goto('/');await expect(page.locator('#year')).toHaveText('2028 d. C.');
  await expect(page.locator('#map-status')).toContainText('referencia contemporánea 2026',{timeout:45000});
  await page.locator('#date-button').click();await expect(page.locator('#date-input')).toHaveAttribute('max','2028');await page.locator('#close-modal').click();
- await page.locator('#chapters-button').click();await expect(page.getByRole('button',{name:'2028 d. C. El presente',exact:true})).toBeVisible();
+ await expect(page.locator('#chapters-button')).toHaveCount(0);await page.locator('#ruler').focus();await page.keyboard.press('End');await expect(page.locator('#year')).toHaveText('2028 d. C.');
 });

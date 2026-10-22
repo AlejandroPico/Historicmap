@@ -199,27 +199,27 @@
     },
     {
       "file": "identities.json",
-      "bytes": 1080055,
-      "sha256": "5d50a17f1f487161bdd3f5de80678e3eb5010024d92c0640b5c41fa8c5abbefe",
+      "bytes": 1499786,
+      "sha256": "2f3b9a4602eb53e1dad6ca2140e98df2f56477f4fb37f29e6210d241e6011074",
       "format": "dated-political-identities",
       "countries": 267,
-      "records": 2859,
-      "source": "Wikidata CC0 statements, focal institutional chronology and Wikimedia Commons media",
-      "version": "Retrieved 2026-10-22; Historicmap curation 0.4",
+      "records": 2858,
+      "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and Wikimedia Commons media",
+      "version": "Retrieved 2026-10-22; Historicmap curation 0.5",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "P6/P35 qualified statements and dated P39 officeholders, with focal authorities. No undated incumbent retrojected. Per-media licenses and checksums in public/media/manifest.json. Past year-end reference; present capped at retrieval date; no future extrapolation."
+      "transform": "P6/P35 qualified statements and dated P39 officeholders, with focal authorities and 2026 UN/national-source corrections. No undated incumbent retrojected. List all terms intersecting the selected year, capped at retrieval/device date. Flags use reference date. Uncertain term end bounds labelled explicitly. Global 2026 portrait acquisition without focal-country cap; per-media licenses/checksums in public/media/manifest.json. Coverage audit in docs/CURRENT-AUTHORITIES.md."
     },
     {
       "file": "profiles.json",
-      "bytes": 1615074,
-      "sha256": "fe9c8be3bd141cc35f89e11886ed129bff7e440138325586a6a2ef8a2110e462",
+      "bytes": 1616480,
+      "sha256": "c61bdb3675823984e1d8ccdf09642b79e99e9789e755280d1d4190d1d9e0ea1d",
       "source": "World Bank WDI + Natural Earth names",
       "version": "WDI API v2; source=2; 2026-10-08",
       "url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?source=2&date=1960:2026&format=json&per_page=24000",
       "license": "CC-BY-4.0 with World Bank additional terms; Natural Earth public domain",
       "format": "country-indicator-series",
-      "transform": "Exclude aggregates/nulls; preserve year/value; join country metadata and Natural Earth names/capital fallback. Map ADM0_A3 to ISO_A3_EH, with KOS to World Bank XKX. Invalid -99 never joins unrelated territories. Embedded sources identify six indicator URLs."
+      "transform": "Preserve dated World Bank series. Join Natural Earth ADM0_A3 using only equivalent-entity aliases PSX/PSE, SDS/SSD, SAH/ESH, KOS/XKX, ALD/ALA. Dependencies and disputed territories retain their own metadata; never overwrite a sovereign profile through ISO_A3_EH."
     },
     {
       "file": "spanish-civil-war.geojson",

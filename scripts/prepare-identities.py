@@ -245,13 +245,12 @@ def commons(filename,kind):
     return dict(file=relative,title=filename,url=ii['descriptionurl'],artist=clean(meta.get('Artist',{}).get('value','')),license=license,attribution=clean(meta.get('Attribution',{}).get('value','')),attributionRequired=meta.get('AttributionRequired',{}).get('value')=='true',licenseUrl=meta.get('LicenseUrl',{}).get('value',''),credit=clean(meta.get('Credit',{}).get('value','')),sha256=hashlib.sha256(path.read_bytes()).hexdigest(),bytes=path.stat().st_size,sourceUrl=url)
 
 # Portraits are best-effort. Missing/unclear licenses never become placeholders.
-portrait_ids={s['person'] for s in focal}|{s['person'] for s in statements if 'USA' in s['keys']}
-# Cap images to focal series and current governments; names retain full data coverage.
+portrait_ids={s['person'] for s in focal}|{s['person'] for s in statements if 'USA' in s['keys'] or s['end']>=TODAY[:4]+'-01-01'}
+# Acquire every documented annual authority; no arbitrary per-country/image cap.
 portrait_candidates=[(q,p['image']) for q,p in persons.items() if q in portrait_ids and p.get('image')]
 portrait_candidates=[(q,file) for q,file in portrait_candidates if q not in {'Q219825','Q219817'}]
 priority={s['person'] for s in focal}|{s['person'] for s in statements if 'USA' in s['keys'] and s['start']>='1900-01-01'}
 portrait_candidates.sort(key=lambda item:(item[0] not in priority,item[0]))
-portrait_candidates=portrait_candidates[:80]
 prewarm_commons([file for _,file in portrait_candidates])
 def portrait(arg):
     q,file=arg; m=commons(file,'portrait');return(q,m)
@@ -353,7 +352,8 @@ for key,c in countries.items():
     c['leaders']=sorted(unique.values(),key=lambda x:(x['start'],x['name']))
 payload=dict(retrieved=TODAY,license='CC0-1.0 (Wikidata metadata); each image retains its own license',source='https://www.wikidata.org/',format='dated-political-identities',reference='31 December of past years; retrieval date for the current or future year; no extrapolation beyond retrieval',countries=countries)
 save(OUT/'data/identities.json',payload)
-used={m['file']:m for m in [*media.values(),*flag_media.values()]}
+existing_media=json.loads((MEDIA/'manifest.json').read_text(encoding='utf8'))['entries'] if (MEDIA/'manifest.json').exists() else []
+used={m['file']:m for m in [*existing_media,*media.values(),*flag_media.values()]}
 save(MEDIA/'manifest.json',dict(retrieved=TODAY,entries=list(used.values())))
 for path in MEDIA.glob('*'):
     if path.is_file() and path.name.startswith(('portrait-','flag-')) and 'media/'+path.name not in used:path.unlink()

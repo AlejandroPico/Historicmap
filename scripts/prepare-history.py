@@ -91,9 +91,10 @@ for code,key in indicator_names.items():
         if iso not in profiles or obs['value'] is None: continue
         profiles[iso]['series'].setdefault(key,[]).append([int(obs['date']),obs['value']])
 for f in natural['features']:
-    p=f['properties']; iso=p.get('ISO_A3_EH')
-    if not iso or iso=='-99': iso=p['ADM0_A3']
-    iso={'KOS':'XKX'}.get(iso,iso)
+    p=f['properties']
+    # An ISO_EH value may refer to another polity (BRI/BRA, CLP/FRA,
+    # KAB/KAZ, IOA/AUS). Only explicit equivalent entity aliases may join.
+    iso={'PSX':'PSE','SDS':'SSD','SAH':'ESH','KOS':'XKX','ALD':'ALA'}.get(p['ADM0_A3'],p['ADM0_A3'])
     country_codes[p['ADM0_A3']]=iso
     profile=profiles.setdefault(iso,dict(name=p.get('NAME_ES') or p['NAME'],capital='',series={}))
     profile.update(name=p.get('NAME_ES') or p['NAME'],englishName=p['ADMIN'],official=p.get('FORMAL_ES') or p.get('FORMAL_EN') or p['ADMIN'],continent=p['CONTINENT'],subregion=p['SUBREGION'],territoryType=p['TYPE'],sovereign=p.get('SOVEREIGNT'))
