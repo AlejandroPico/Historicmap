@@ -2,7 +2,7 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.5.0** · 22 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.6.0** · 23 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
@@ -19,17 +19,18 @@ Abrir la dirección local que indique Vite. Para generar la aplicación estátic
 
 ## Funciones
 
-- Mapa vectorial 2D y globo 3D con zoom, selección y búsqueda local.
+- Mapa vectorial 2D y globo 3D con zoom, selección y búsqueda local en panel compacto sin oscurecer el mapa.
 - Regla temporal arrastrable con indicador, fecha y reproducción centrados. La rueda sobre la regla cambia la escala sin desplazar la fecha; sobre el mapa hace zoom geográfico. Las teclas más/menos ajustan la escala y las flechas recorren el tiempo.
 - Mapa a pantalla completa con siete herramientas en la esquina superior derecha, sin cabecera ni franjas de controles alrededor de la regla. Capas en un panel desplegable.
 - Navegación entre 4.540 Ma y el año del dispositivo, con escala adaptativa no uniforme y años introducidos por el usuario.
 - Cronología anual desde 1789: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
 - Control territorial opaco por potencia; colores específicos de regímenes, clientes y bandos. Primera y Segunda Guerra Mundial, Guerra Civil española 1936–1939 y control comunista chino, además de Sinaí, Golán y Crimea. Fuentes anuales y frente de octubre de 1937 identificados con su precisión.
-- Banderas históricas, autoridades y retratos en las fichas. Catálogo de mandatos para 267 claves de entidad, con series focales y cobertura mundial desigual; cada imagen conserva su licencia y autoría.
+- Banderas históricas, autoridades y retratos en las fichas. Catálogo ampliado de mandatos desde 1990, con Estados predecesores y cobertura mundial desigual; cada imagen conserva su licencia y autoría.
 - Base contemporánea desde 2020 y 26 instantáneas originales conservadas para historia anterior/geología y trazabilidad.
+- Desde 1990, contornos de referencia identificados para pequeños Estados omitidos por CShapes y Sáhara separado de Marruecos; Crimea permanece en la base ucraniana y Kuwait ocupado en 1990 se distingue de su soberanía.
 - Fichas a la izquierda con pestañas Autoridades, Datos, Contexto y Conflictos; todos los mandatos documentados del año. Fuentes en un panel compacto y leyenda a la derecha.
-- Apariencia mañana/tarde/noche/automático según hora local, con preferencia conservada.
-- Agrupaciones2026 de OTAN, UE, BRICS y Tres Mares, con categorías distintas y fuentes oficiales. Contextos de conflictos parciales y fechados.
+- Apariencia mañana/tarde/noche/automático según hora local, con preferencia conservada; tarde en tonos cobre y ámbar.
+- 27 organizaciones regionales e intercontinentales con altas, bajas y categorías fechadas desde 1990: OTAN, CE/UE, BRICS, Tres Mares, Mercosur, CARICOM, OUA/UA, ASEAN y otras. Contextos y conflictos parciales por fases históricas.
 - Fichas con capital, situación política, administración y hasta seis indicadores WDI fechados. Colores temáticos de PIB total, PIB por habitante y población.
 - Relieve contemporáneo de referencia apagado al abrir y disponible desde 10.000 a. C., 323 capitales/grandes ciudades actuales y capitales históricas por periodo, enlaces compartibles y diseño adaptable.
 - Ventana «Acerca de» con favicon, identidad, versión e historial, portfolio del autor y repositorio.

@@ -1,5 +1,5 @@
 import type {FeatureCollection} from 'geojson';
-import {hashColor} from './history';
+import {hashColor,territorialEntityCode} from './history';
 
 const palette=['#78938a','#af9c77','#658e98','#9c887a','#9ba783','#b39c80','#7b929d','#a6a386','#8f9c8d','#9e8883','#819c9f','#b5a48a'];
 const families:Record<string,string>={
@@ -20,6 +20,8 @@ export function entityKey(p:Record<string,unknown>,year:number):string{
   if(p.identityKey)return String(p.identityKey);
   const name=String(p.originalName??p.country_name??p.name??'');
   let key=families[name]??String(p.code||p.wikidata||name);
+  const codes:Record<string,string>={SSD:'SDS',XKX:'KOS',PSE:'PSX',ESH:'SAH'};
+  key=codes[key]??key;
   if((p.gwcode===365||name==='Russia (Soviet Union)')&&year>=1922&&year<=1990)key='USSR';
   if(key==='ESP'&&year>=1931&&year<=1938)key='ESP-REPUBLIC';
   if(key==='CHN'&&year<1949)key=year>=1912?'ROC':'QING';
@@ -52,7 +54,7 @@ export function politicalData(data:FeatureCollection,year:number):FeatureCollect
     const p=f.properties??{};const identityKey=entityKey(p,year);
     const ownerKey=p.status&&p.status!=='independent'?entityKey({name:p.ownerName},year):p.parentName?entityKey({name:p.parentName},year):identityKey;
     const name=identityKey==='FRA'&&(!p.parentName||p.parentName===p.originalName)&&!p.status&&year<1886?frenchName(year):p.name;
-    return {...f,properties:{...p,name,identityKey,politicalColor:regimeColor(ownerKey,year)}};
+    return {...f,properties:{...p,name,identityKey,entityCode:p.entityCode??territorialEntityCode(p,year),politicalColor:regimeColor(ownerKey,year)}};
   })};
 }
 function frenchName(year:number){

@@ -8,7 +8,7 @@ bad=[];rasters=0
 for media in manifest['entries']:
     path=root/media['file']
     if hashlib.sha256(path.read_bytes()).hexdigest()!=media['sha256']:bad.append(media['file']+': hash mismatch')
-    if path.suffix.lower() in ['.jpg','.png']:
+    if path.suffix.lower() in ['.jpg','.png','.webp']:
         rasters+=1
         try:
             with Image.open(path) as image:image.verify()

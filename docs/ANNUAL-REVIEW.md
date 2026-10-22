@@ -9,6 +9,7 @@ Generada con `npm run data:audit`. Cada año se consulta independientemente medi
 - **Control militar: Cliopatria**, potencias centrales de 1914–1918, Alemania/Japón/Italia/URSS, Croacia, Vichy y áreas comunistas chinas. Síntesis anuales sin día uniforme; no frentes de 31 diciembre. Colores opacos por controlador; regímenes dependientes diferenciados y aliados con identidad propia. [Contraste de Europa en 1942, USHMM](https://encyclopedia.ushmm.org/content/en/map/german-administration-of-europe-1942).
 - **Guerra Civil española:** [documentación de frentes](SPANISH-CIVIL-WAR.md). Frente de octubre de 1937 georreferenciado desde cartografía vectorial de Tyk/Té y kriptonita, con incertidumbre documentada. No se denomina frente diario ni de fin de año. Los dos bandos tienen identidad, color y autoridades propias; 1939 refleja al vencedor. Fuentes y licencias separadas de CShapes.
 - **2020–año del dispositivo: [Natural Earth](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/)**, referencia incorporada en 2026, 258 entidades. El máximo dinámico sigue el reloj y no fabrica nuevos datos. Sin cartografía diaria global del control efectivo reciente.
+- **Ampliación 1990–2019:** 23 contornos Natural Earth de referencia para entidades omitidas por CShapes, con fechas y procedencia propias. No se presentan como levantamientos históricos; la mayoría comienza en el límite de cobertura de 1990, no en su independencia. Palau sólo desde su independencia de 1994. El contorno marroquí se separa del Sáhara Occidental, territorio no autónomo de la ONU; no se dibuja una línea de control no documentada. La base de Rusia/Ucrania desde 2014 conserva la geometría de 2013 para mantener Crimea en Ucrania y la ocupación separada. La tabla cuenta suplementos explícitos además de los registros CShapes.
 
 ## Contrastes focales y límites
 
@@ -126,15 +127,15 @@ Completar autoridades, banderas, guerras civiles y regímenes por regiones; fren
 | 1883 | 104 | Cliopatria · síntesis anual · e3ed765fcf4a | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
 | 1884 | 104 | Cliopatria · síntesis anual · e3ed765fcf4a | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
 | 1885 | 100 | Cliopatria · síntesis anual · a9dd670ec818 | Dutch East Indies, Kingdom of Portugal, Kingdom of Belgium, Sultanate of Brunei, Argentine Confederation, British Raj, German Empire, Ottoman Empire, Morocco, Kingdom of Italy, Empire of Brazil, Montenegro, Emirate of Nejd, Kingdom of Spain, Russian Empire, Bornu Empire, Nieuwe Republiek, Kingdom of Luang Phrabang, People's Republic of Zanzibar, Kingdom of Champasak, Republic of Chile, Swaziland, Pahang Sultanate, Bolivia, First Hellenic Republic, Ottoman Tripolitania, Majeerteen Sultanate, Principality of Bulgaria, Rattanakosin Kingdom, Talpur Dynasty, Emirate of Jabal Shammar, French Indochina, Qing Dynasty, South African Republic, Free Orange State, Republic of Liberia, Greenland, Sultanate of Bima, Kingdom of Sarawak, Ashanti Empire, British Gold Coast, French Africa, Serbs, Natalia Republic, Zululand, Republic of Peru, British Colonial Empire, Kingdom of Lunda, British Africa, German Africa  |
-| 1886 | 128 | CShapes · 31 diciembre · 3af7dbe38168 | Estados Unidos, Alaska, Puerto Rico, Canada, Newfoundland, Bahamas, Cuba, Haiti, Dominican Republic, Jamaica, Trinidad and Tobago, Barbados, Guadeloupe, Martinique, Mexico, Belize, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, Colombia, Venezuela, Guyana, Surinam, Guayana Francesa, Ecuador, Peru, Brazil, Bolivia, Paraguay, Chile, Argentina, Uruguay, Reino Unido, Países Bajos, Bélgica, Luxembourg, Francia, Switzerland, España, Portugal, Imperio alemán, Austria-Hungría, Italia, Malta, Serbia, Montenegro, Greece, Bulgaria, Rumanía, Imperio ruso, Sweden, Denmark, Iceland, Cape Verde, Guinea-Bissau, Equatorial Guinea, Senegal, Liberia, Sierra Leone, Ghana, Togo alemán, Camerún alemán, Gabon, Congo, Congo, Democratic Republic of (Zaire), British Somaliland (Somaliland Republic), Djibouti, Ethiopia, Eritrea, Angola, Mozambique, Cape Colony, Natal, Transvaal, Orange Free State, Namibia, Lesotho, Botswana, Madagascar (Malagasy), Reunión, Mauritius, Marruecos, Spanish West Africa, Argelia, Túnez, Irán, Imperio otomano, Egipto, Oman, Afghanistan, China, Korea, Japón, India, Bhutan, Sri Lanka (Ceylon), Nepal, Thailand, Cambodia (Kampuchea), Vietnam (Annam/Cochin China/Tonkin), Unfederated Malay States, Straits Settlements, Philippines, Indonesia, East Timor, New South Wales, Western Australia, South Australia, Victoria, Queensland, Tasmania, Papua, New Guinea (German New Guinea) (Kaiser Wilhelmsland), New Zealand, New Caledonia and Dependencies, Fiji, Bosnia, Herzegovina, Lagos, Oil Rivers Protectorate, British Bechuanaland, Bokhara, Khiva, Perak, Selangore, German Solomon Islands  |
+| 1886 | 128 | CShapes · 31 diciembre · 3af7dbe38168 | Estados Unidos, Alaska, Puerto Rico, Canada, Newfoundland, Bahamas, Cuba, Haiti, Dominican Republic, Jamaica, Trinidad and Tobago, Barbados, Guadeloupe, Martinique, Mexico, Belize, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, Colombia, Venezuela, Guyana, Surinam, Guayana Francesa, Ecuador, Peru, Brazil, Bolivia, Paraguay, Chile, Argentina, Uruguay, Reino Unido, Países Bajos, Bélgica, Luxembourg, Francia, Switzerland, España, Portugal, Imperio alemán, Austria-Hungría, Italia, Malta, Serbia, Montenegro, Greece, Bulgaria, Rumanía, Imperio ruso, Sweden, Denmark, Iceland, Cape Verde, Guinea-Bissau, Equatorial Guinea, Senegal, Liberia, Sierra Leone, Ghana, Togo alemán, Camerún alemán, Gabon, Congo, Zaire, British Somaliland (Somaliland Republic), Djibouti, Ethiopia, Eritrea, Angola, Mozambique, Cape Colony, Natal, Transvaal, Orange Free State, Namibia, Lesotho, Botswana, Madagascar (Malagasy), Reunión, Mauritius, Marruecos, Spanish West Africa, Argelia, Túnez, Irán, Imperio otomano, Egipto, Oman, Afghanistan, China, Korea, Japón, India, Bhutan, Sri Lanka (Ceylon), Nepal, Thailand, Cambodia (Kampuchea), Vietnam (Annam/Cochin China/Tonkin), Unfederated Malay States, Straits Settlements, Philippines, Indonesia, East Timor, New South Wales, Western Australia, South Australia, Victoria, Queensland, Tasmania, Papua, New Guinea (German New Guinea) (Kaiser Wilhelmsland), New Zealand, New Caledonia and Dependencies, Fiji, Bosnia, Herzegovina, Lagos, Oil Rivers Protectorate, British Bechuanaland, Bokhara, Khiva, Perak, Selangore, German Solomon Islands  |
 | 1887 | 129 | CShapes · 31 diciembre · 82ceab6e34e7 | Togo alemán, Maldives, Vietnam (Annam/Cochin China/Tonkin)  |
 | 1888 | 134 | CShapes · 31 diciembre · 7a31e0ecad25 | Ghana, Togo alemán, Kenya, Afghanistan, Sabah (North Borneo), Sarawak, Brunei, Papua, Pahang  |
 | 1889 | 138 | CShapes · 31 diciembre · 4d0c8436e446 | Gambia, Cote D'Ivoire, Sierra Leone, Ethiopia, Eritrea, Zimbabwe (Rhodesia), Sabah (North Borneo), Sarawak, Indonesia, Italian Somaliland  |
 | 1890 | 139 | CShapes · 31 diciembre · 6949748aba89 | Zanzibar, Angola, Botswana, British Bechuanaland  |
-| 1891 | 141 | CShapes · 31 diciembre · ab010f4cf7c4 | Congo, Democratic Republic of (Zaire), Kenya, Tanzania (Tanganyika), Angola, Mozambique, Zimbabwe (Rhodesia), Malawi, New Guinea (German New Guinea) (Kaiser Wilhelmsland)  |
+| 1891 | 141 | CShapes · 31 diciembre · ab010f4cf7c4 | Zaire, Kenya, Tanzania (Tanganyika), Angola, Mozambique, Zimbabwe (Rhodesia), Malawi, New Guinea (German New Guinea) (Kaiser Wilhelmsland)  |
 | 1892 | 142 | CShapes · 31 diciembre · 52c345ace7c7 | Liberia, United Arab Emirates  |
 | 1893 | 144 | CShapes · 31 diciembre · 9fac0072b155 | Cote D'Ivoire, Afghanistan, India, Thailand, Cambodia (Kampuchea), Laos, Vietnam (Annam/Cochin China/Tonkin), Solomon Islands  |
-| 1894 | 146 | CShapes · 31 diciembre · 7a66fb25faa2 | Guinea, Camerún alemán, Congo, Democratic Republic of (Zaire), Uganda, Kenya  |
+| 1894 | 146 | CShapes · 31 diciembre · 7a66fb25faa2 | Guinea, Camerún alemán, Zaire, Uganda, Kenya  |
 | 1895 | 149 | CShapes · 31 diciembre · 6e80118c3a59 | África Occidental Francesa, Benin, Sierra Leone, Zanzibar, Cape Colony, Natal, Botswana, Swaziland (Eswatini), China, Taiwan  |
 | 1896 | 147 | CShapes · 31 diciembre · c27048a9acfa | Madagascar (Malagasy), Laos, Federated Malay States  |
 | 1897 | 147 | CShapes · 31 diciembre · b50a00edb337 | Benin, Togo alemán, British Somaliland (Somaliland Republic), Ethiopia, Italian Somaliland  |
@@ -148,9 +149,9 @@ Completar autoridades, banderas, guerras civiles y regímenes por regiones; fren
 | 1905 | 153 | CShapes · 31 diciembre · 142955f3a809 | Imperio ruso, Sweden, Norway, Mali, Niger, Angola, Papua, Northwestern Rhodesia, Southern Sakhalin Island  |
 | 1906 | 153 | CShapes · 31 diciembre · e5347448a36a | Gabon, Central African Republic, Congo, Southern Nigeria  |
 | 1907 | 153 | CShapes · 31 diciembre · 84b24683ceff | Kenya, Ethiopia, Thailand, Cambodia (Kampuchea), New Zealand  |
-| 1908 | 151 | CShapes · 31 diciembre · 742d9bf9bab2 | Austria-Hungría, Congo, Democratic Republic of (Zaire), Italian Somaliland  |
+| 1908 | 151 | CShapes · 31 diciembre · 742d9bf9bab2 | Austria-Hungría, Zaire, Italian Somaliland  |
 | 1909 | 151 | CShapes · 31 diciembre · b236676dc219 | Peru, Brazil, Bolivia, Thailand, Federated Malay States, Unfederated Malay States  |
-| 1910 | 148 | CShapes · 31 diciembre · 5cdfc528170b | Congo, Democratic Republic of (Zaire), Uganda, South Africa, Sudán, Korea, New Guinea (German New Guinea) (Kaiser Wilhelmsland)  |
+| 1910 | 148 | CShapes · 31 diciembre · 5cdfc528170b | Zaire, Uganda, South Africa, Sudán, Korea, New Guinea (German New Guinea) (Kaiser Wilhelmsland)  |
 | 1911 | 147 | CShapes · 31 diciembre · 541777a785f9 | Zambia  |
 | 1912 | 149 | CShapes · 31 diciembre · 0a0b3635aaf8 | Mauritania, Camerún alemán, Gabon, Central African Republic, Chad, Congo, Madagascar (Malagasy), Marruecos, Spanish Morocco, Spanish West Africa, Libia, Imperio otomano  |
 | 1913 | 151 | CShapes · 31 diciembre · de9439b1516d | Albania, Serbia, Montenegro, Greece, Bulgaria, Rumanía, Mali, Mauritania, Imperio otomano, United Arab Emirates, China, Tibet  |
@@ -200,7 +201,7 @@ Completar autoridades, banderas, guerras civiles y regímenes por regiones; fren
 | 1957 | 168 | CShapes · 31 diciembre · 41c87312ef3b | Ghana, Malaysia  |
 | 1958 | 167 | CShapes · 31 diciembre · c23c0ec7900c | Guinea, Marruecos, Spanish Sahara  |
 | 1959 | 164 | CShapes · 31 diciembre · c8dd2847a8ab | Estados Unidos, Mali, Pakistan  |
-| 1960 | 164 | CShapes · 31 diciembre · b6bded6f9b03 | Brazil, Cyprus, Mali, Senegal, Benin, Mauritania, Niger, Cote D'Ivoire, Burkina Faso (Upper Volta), Togo, Cameroon, Nigeria, Gabon, Central African Republic, Chad, Congo, Congo, Democratic Republic of (Zaire), Somalia, Madagascar (Malagasy)  |
+| 1960 | 164 | CShapes · 31 diciembre · b6bded6f9b03 | Brazil, Cyprus, Mali, Senegal, Benin, Mauritania, Niger, Cote D'Ivoire, Burkina Faso (Upper Volta), Togo, Cameroon, Nigeria, Gabon, Central African Republic, Chad, Congo, Zaire, Somalia, Madagascar (Malagasy)  |
 | 1961 | 164 | CShapes · 31 diciembre · e2b65922f17e | Sierra Leone, Cameroon, Nigeria, Tanzania (Tanganyika), Kuwait  |
 | 1962 | 164 | CShapes · 31 diciembre · 47a7fe1f5ed2 | Jamaica, Trinidad and Tobago, Uganda, Burundi, Rwanda, Argelia, West Irian (Dutch New Guinea), Federation of South Arabia  |
 | 1963 | 161 | CShapes · 31 diciembre · 6d7aa8e52c9e | Kenya, Zanzibar, Malaysia, West Irian (Dutch New Guinea)  |
@@ -230,36 +231,36 @@ Completar autoridades, banderas, guerras civiles y regímenes por regiones; fren
 | 1987 | 159 | CShapes · 31 diciembre · 214ad15b6161 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
 | 1988 | 159 | CShapes · 31 diciembre · 214ad15b6161 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
 | 1989 | 159 | CShapes · 31 diciembre · 214ad15b6161 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 1990 | 157 | CShapes · 31 diciembre · 3a6cb6a80e44 | Alemania, Namibia, Yemen (Arab Republic of Yemen), Oman  |
-| 1991 | 172 | CShapes · 31 diciembre · 6d4db9c943c2 | Macedonia (FYROM/North Macedonia), Yugoslavia, Moldova, Rusia, Estonia, Latvia, Lithuania, Ucrania, Belarus (Byelorussia), Armenia, Georgia, Azerbaijan, Turkmenistan, Tajikistan, Kyrgyz Republic, Uzbekistan, Kazakhstan  |
-| 1992 | 175 | CShapes · 31 diciembre · 92f39bbeb379 | Croatia, Yugoslavia, Bosnia-Herzegovina, Slovenia  |
-| 1993 | 177 | CShapes · 31 diciembre · 00bf9e162941 | Czech Republic, Slovakia, Ethiopia, Eritrea  |
-| 1994 | 177 | CShapes · 31 diciembre · 00bf9e162941 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 1995 | 177 | CShapes · 31 diciembre · 00bf9e162941 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 1996 | 177 | CShapes · 31 diciembre · 00bf9e162941 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 1997 | 177 | CShapes · 31 diciembre · e9fcdd3508b2 | Kazakhstan  |
-| 1998 | 177 | CShapes · 31 diciembre · e9fcdd3508b2 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 1999 | 177 | CShapes · 31 diciembre · e9fcdd3508b2 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2000 | 177 | CShapes · 31 diciembre · 924db18e2e1a | Saudi Arabia, Yemen (Arab Republic of Yemen)  |
-| 2001 | 177 | CShapes · 31 diciembre · 924db18e2e1a | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2002 | 178 | CShapes · 31 diciembre · 8f34c9dd7201 | Indonesia, East Timor  |
-| 2003 | 178 | CShapes · 31 diciembre · 8f34c9dd7201 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2004 | 178 | CShapes · 31 diciembre · 8f34c9dd7201 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2005 | 178 | CShapes · 31 diciembre · 30d1474295c8 | Myanmar (Burma)  |
-| 2006 | 179 | CShapes · 31 diciembre · 583d8cc0bc80 | Serbia, Montenegro  |
-| 2007 | 179 | CShapes · 31 diciembre · 583d8cc0bc80 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2008 | 180 | CShapes · 31 diciembre · 1fd4f0c5f4e2 | Serbia, Kosovo  |
-| 2009 | 180 | CShapes · 31 diciembre · 1fd4f0c5f4e2 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2010 | 180 | CShapes · 31 diciembre · 1fd4f0c5f4e2 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2011 | 181 | CShapes · 31 diciembre · b42fd05f116b | Sudán, Sudán del Sur  |
-| 2012 | 181 | CShapes · 31 diciembre · b42fd05f116b | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2013 | 181 | CShapes · 31 diciembre · b42fd05f116b | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2014 | 181 | CShapes · 31 diciembre · db7509d030e6 | Rusia, Ucrania  |
-| 2015 | 181 | CShapes · 31 diciembre · db7509d030e6 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2016 | 181 | CShapes · 31 diciembre · db7509d030e6 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2017 | 181 | CShapes · 31 diciembre · db7509d030e6 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2018 | 181 | CShapes · 31 diciembre · db7509d030e6 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 2019 | 181 | CShapes · 31 diciembre · db7509d030e6 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 1990 | 179 | CShapes · 31 diciembre + 22 contornos de referencia · 35f77d7d4ae2 | Alemania, Namibia, Yemen, Oman, Andorra · contorno de referencia, Liechtenstein · contorno de referencia, Mónaco · contorno de referencia, San Marino · contorno de referencia, Ciudad del Vaticano · contorno de referencia, Antigua y Barbuda · contorno de referencia, Dominica · contorno de referencia, Granada · contorno de referencia, San Cristóbal y Nieves · contorno de referencia, Santa Lucía · contorno de referencia, San Vicente y las Granadinas · contorno de referencia, Seychelles · contorno de referencia, Santo Tomé y Príncipe · contorno de referencia, Nauru · contorno de referencia, Kiribati · contorno de referencia, Tuvalu · contorno de referencia, Vanuatu · contorno de referencia, Samoa · contorno de referencia, Tonga · contorno de referencia, Islas Marshall · contorno de referencia, Estados Federados de Micronesia · contorno de referencia, Sahara Occidental · contorno de referencia **+ 1 registros de control/guerras civiles.** |
+| 1991 | 194 | CShapes · 31 diciembre + 22 contornos de referencia · 53ee356bc25c | República de Macedonia, Yugoslavia, Moldova, Rusia, Estonia, Latvia, Lithuania, Ucrania, Belarus (Byelorussia), Armenia, Georgia, Azerbaijan, Turkmenistan, Tajikistan, Kyrgyz Republic, Uzbekistan, Kazakhstan  |
+| 1992 | 197 | CShapes · 31 diciembre + 22 contornos de referencia · 586a6ed25c2d | Croatia, República Federal de Yugoslavia, Bosnia-Herzegovina, Slovenia  |
+| 1993 | 199 | CShapes · 31 diciembre + 22 contornos de referencia · 24f2f54e96a5 | Czech Republic, Slovakia, Ethiopia, Eritrea  |
+| 1994 | 200 | CShapes · 31 diciembre + 23 contornos de referencia · 69ba65f29b15 | Palaos · contorno de referencia  |
+| 1995 | 200 | CShapes · 31 diciembre + 23 contornos de referencia · 69ba65f29b15 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 1996 | 200 | CShapes · 31 diciembre + 23 contornos de referencia · 69ba65f29b15 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 1997 | 200 | CShapes · 31 diciembre + 23 contornos de referencia · f3ebcb68c43e | Kazakhstan  |
+| 1998 | 200 | CShapes · 31 diciembre + 23 contornos de referencia · f3ebcb68c43e | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 1999 | 200 | CShapes · 31 diciembre + 23 contornos de referencia · f3ebcb68c43e | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2000 | 200 | CShapes · 31 diciembre + 23 contornos de referencia · eeec3b99a937 | Saudi Arabia, Yemen  |
+| 2001 | 200 | CShapes · 31 diciembre + 23 contornos de referencia · eeec3b99a937 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2002 | 201 | CShapes · 31 diciembre + 23 contornos de referencia · fa84475e070f | Indonesia, East Timor  |
+| 2003 | 201 | CShapes · 31 diciembre + 23 contornos de referencia · fa84475e070f | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2004 | 201 | CShapes · 31 diciembre + 23 contornos de referencia · fa84475e070f | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2005 | 201 | CShapes · 31 diciembre + 23 contornos de referencia · 591d41182474 | Myanmar (Burma)  |
+| 2006 | 202 | CShapes · 31 diciembre + 23 contornos de referencia · cccd67be92fd | Serbia, Montenegro  |
+| 2007 | 202 | CShapes · 31 diciembre + 23 contornos de referencia · cccd67be92fd | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2008 | 203 | CShapes · 31 diciembre + 23 contornos de referencia · c8861a306880 | Serbia, Kosovo  |
+| 2009 | 203 | CShapes · 31 diciembre + 23 contornos de referencia · c8861a306880 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2010 | 203 | CShapes · 31 diciembre + 23 contornos de referencia · c8861a306880 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2011 | 204 | CShapes · 31 diciembre + 23 contornos de referencia · 4fde0fed5887 | Sudán, Sudán del Sur  |
+| 2012 | 204 | CShapes · 31 diciembre + 23 contornos de referencia · 4fde0fed5887 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2013 | 204 | CShapes · 31 diciembre + 23 contornos de referencia · 4fde0fed5887 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2014 | 204 | CShapes · 31 diciembre + 23 contornos de referencia · c0dc7d451bfd | Rusia, Ucrania  |
+| 2015 | 204 | CShapes · 31 diciembre + 23 contornos de referencia · c0dc7d451bfd | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2016 | 204 | CShapes · 31 diciembre + 23 contornos de referencia · c0dc7d451bfd | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2017 | 204 | CShapes · 31 diciembre + 23 contornos de referencia · c0dc7d451bfd | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2018 | 204 | CShapes · 31 diciembre + 23 contornos de referencia · c0dc7d451bfd | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 2019 | 204 | CShapes · 31 diciembre + 23 contornos de referencia · c0dc7d451bfd | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
 | 2020 | 258 | Natural Earth, referencia incorporada en 2026 | Sin serie independiente de control efectivo para este año. |
 | 2021 | 258 | Natural Earth, referencia incorporada en 2026 | Sin serie independiente de control efectivo para este año. |
 | 2022 | 258 | Natural Earth, referencia incorporada en 2026 | Sin serie independiente de control efectivo para este año. |

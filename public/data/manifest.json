@@ -3,6 +3,19 @@
   "transform": "Per-entry transformations and licenses; original 26 snapshots unchanged.",
   "entries": [
     {
+      "file": "affiliations.json",
+      "bytes": 139194,
+      "sha256": "19a8b14e4bd56a87f02abaf5b6c6cef420e7c4d6e49a41b1da050e86c4f4c7ae",
+      "version": "Historicmap 0.6; reference 2026-10-22",
+      "format": "dated-organizations",
+      "source": "Official institutional membership chronologies and declarations",
+      "url": "https://www.nato.int/cps/en/natohq/topics_52044.htm",
+      "license": "Factual membership metadata; sources per interval, original editorial compilation",
+      "transform": "27 regional/intercontinental organizations; dated membership and category intervals, end exclusive. Annual map at Dec 31 capped at acquisition; country card lists every relationship overlapping year. Separate suspension/associate/partner status; historical state codes are not successor statistics. Source-year observations explicitly noted. See docs/HISTORICAL-AFFILIATIONS.md.",
+      "organizations": 27,
+      "records": 474
+    },
+    {
       "file": "cities.geojson",
       "bytes": 97455,
       "sha256": "f24580f17f5863b3867fe3fb0e7251f3bd873c32c5ffe1a7ff8565adb149acb2",
@@ -171,6 +184,18 @@
       "transform": "Select inclusive intervals intersecting 1789–1885. Exclude records with Components (aggregate unions); keep leaf polities and MemberOf relation. Original coordinates, source names and Wikidata IDs retained. Not a uniform December 31 reconstruction; uncovered areas remain uncovered."
     },
     {
+      "file": "historical-context.json",
+      "bytes": 78656,
+      "sha256": "5a346aec887b101322ad80e380a8cc04207ea1c1353dbde5c8816fa2be9a4597",
+      "version": "Historicmap 0.6; reference 2026-10-22",
+      "format": "dated-historical-context",
+      "source": "United Nations, institutional and government historical records",
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "license": "Original editorial summaries; institutional sources linked per event",
+      "transform": "Selected sourced transitions and conflict phases; start inclusive, end exclusive, not a global belligerency classification or front-line geometry. Annual selection by interval; absence is not peace. See docs/HISTORICAL-CONTEXT.md.",
+      "records": 128
+    },
+    {
       "file": "historical-control.geojson",
       "features": 57,
       "bytes": 2471930,
@@ -182,6 +207,17 @@
       "license": "CC-BY-4.0",
       "coverage": "1914/1949",
       "transform": "Central Powers annual WWI extents; Germany, Japan, Italy, USSR annual WWII extents; Croatia client state; Vichy annual extent 1940–1942 (southern occupation from November 1942); Chinese communist controlled areas. Omit composite unions, preserve geometry. Relations documented separately; Romania/Hungary not classified as puppets. No daily-front claim."
+    },
+    {
+      "file": "historical-supplements.geojson",
+      "bytes": 111879,
+      "sha256": "9eb78f9023c4e13e7666de898c55030d91cafded9d17a9d0a774abdc7d073fdc",
+      "version": "Historicmap 0.6; reference 2026-10-22",
+      "source": "Natural Earth pinned country outlines; UN territorial/state chronology and Office of the Historian",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "license": "Public domain (Natural Earth geometry); factual institutional metadata",
+      "transform": "23 explicit contemporary reference outlines for states/territory omitted by CShapes, 1990–2019. Coordinates unchanged. Coverage floor is not independence date. Palau from 1994-10-01. Western Sahara separate UN non-self-governing territory; no invented control line. Each card identifies outline as reference, not historical survey.",
+      "features": 23
     },
     {
       "file": "history.topojson",
@@ -199,16 +235,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 1500820,
-      "sha256": "b968fd1a4803b97fd6a9a5fee006c7b68024387d8d4e0d839d804184dc7f5ad8",
+      "bytes": 4961775,
+      "sha256": "2fb4a80427586ae7f3e264106fc9cbb2eb295da8580f7a05def0b85bd4b4288b",
       "format": "dated-political-identities",
-      "countries": 267,
-      "records": 2858,
+      "countries": 274,
+      "records": 5781,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Retrieved 2026-10-22; Historicmap curation 0.5",
+      "version": "Retrieved 2026-10-22; Historicmap curation 0.6",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "P6/P35 qualified statements and dated P39 officeholders, with focal authorities and 2026 UN/national-source corrections. No undated incumbent retrojected. List all terms intersecting the selected year, capped at retrieval/device date. Flags use reference date. Uncertain term end bounds labelled explicitly. Global 2026 portrait acquisition without focal-country cap; per-media licenses/checksums in public/media/manifest.json. Official no-derivatives photograph retained full-frame without transformations. Coverage audit in docs/CURRENT-AUTHORITIES.md."
+      "transform": "P6/P35 qualified statements and dated P39 officeholders, national P1906/P1313 office-holder series since 1990, with preserved focal authorities and 2026 UN/national-source corrections. No undated incumbent retrojected. List all terms intersecting the selected year, capped at retrieval/device date. Flags use reference date. Uncertain term end bounds labelled explicitly. Global 1990–2026 portrait acquisition without focal-country cap; dated P163 flag identities, predecessor lives and explicit Western Sahara rival authorities; per-media licenses/checksums in public/media/manifest.json. Official no-derivatives photograph retained full-frame without transformations. Coverage audits in docs/HISTORICAL-AUTHORITIES.md and docs/CURRENT-AUTHORITIES.md."
     },
     {
       "file": "profiles.json",
@@ -220,6 +256,17 @@
       "license": "CC-BY-4.0 with World Bank additional terms; Natural Earth public domain",
       "format": "country-indicator-series",
       "transform": "Preserve dated World Bank series. Join Natural Earth ADM0_A3 using only equivalent-entity aliases PSX/PSE, SDS/SSD, SAH/ESH, KOS/XKX, ALD/ALA. Dependencies and disputed territories retain their own metadata; never overwrite a sovereign profile through ISO_A3_EH."
+    },
+    {
+      "file": "recent-control.geojson",
+      "bytes": 6120,
+      "sha256": "020d3cda0f48049c05dec0e61abcf7ba2a1610ed248a591381f88be6861816a7",
+      "version": "Historicmap 0.6; reference 2026-10-22",
+      "source": "CShapes 2.0 GW geometry and United Nations UNIKOM historical account",
+      "url": "https://peacekeeping.un.org/sites/default/files/past/unikom/background.html",
+      "license": "CC-BY-NC-SA-4.0 (CShapes geometry); original factual annotation",
+      "transform": "Kuwait occupation by Iraq at annual close 1990. Exact CShapes outline active in 1990, not the later demarcation. Underlying Kuwaiti territory remains separate; layer toggles occupation paint. Not active at annual close 1991; no interpolated campaign fronts.",
+      "features": 1
     },
     {
       "file": "spanish-civil-war.geojson",

@@ -1,92 +1,5 @@
-/** Factual membership snapshot, researched 2026-10-22. Never project it into another year. */
-export const AFFILIATION_REFERENCE_YEAR = 2026;
-export const AFFILIATION_REFERENCE_DATE = '2026-10-22';
-export const AFFILIATION_KINDS = ['nato', 'eu', 'brics', 'threeSeas'] as const;
-export type AffiliationKind = typeof AFFILIATION_KINDS[number];
-export type AffiliationCategory = 'member' | 'partner' | 'associate' | 'other';
-
-export interface AffiliationLegendEntry {
-  category: AffiliationCategory;
-  label: string;
-  color: string;
-}
-export interface AffiliationValue extends AffiliationLegendEntry {
-  source: string;
-  referenceDate: string;
-}
-export interface AffiliationDefinition {
-  label: string;
-  description: string;
-  source: string;
-  referenceDate: string;
-  categories: ReadonlyArray<AffiliationLegendEntry & { codes: readonly string[] }>;
-}
-
-const other: AffiliationLegendEntry = { category: 'other', label: 'Otros territorios', color: '#68777b' };
-
-/** ISO 3166-1 alpha-3 keys of the states themselves, not of their dependencies. */
-export const AFFILIATIONS: Readonly<Record<AffiliationKind, AffiliationDefinition>> = {
-  nato: {
-    label: 'OTAN',
-    description: '32 Estados miembros. La pertenencia no identifica países en guerra ni extiende el tratado automáticamente a sus dependencias.',
-    source: 'https://www.nato.int/cps/en/natohq/nato_countries.htm',
-    referenceDate: AFFILIATION_REFERENCE_DATE,
-    categories: [{ category: 'member', label: 'Miembro de la OTAN', color: '#4b8fc4', codes: [
-      'ALB', 'BEL', 'BGR', 'CAN', 'HRV', 'CZE', 'DNK', 'EST', 'FIN', 'FRA', 'DEU', 'GRC', 'HUN', 'ISL', 'ITA', 'LVA',
-      'LTU', 'LUX', 'MNE', 'NLD', 'MKD', 'NOR', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'ESP', 'SWE', 'TUR', 'GBR', 'USA',
-    ] }],
-  },
-  eu: {
-    label: 'Unión Europea',
-    description: '27 Estados miembros. Candidaturas, acuerdos de asociación y pertenencia al espacio Schengen son categorías distintas.',
-    source: 'https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=LEGISSUM%3Amember_states',
-    referenceDate: AFFILIATION_REFERENCE_DATE,
-    categories: [{ category: 'member', label: 'Miembro de la UE', color: '#587fc0', codes: [
-      'AUT', 'BEL', 'BGR', 'HRV', 'CYP', 'CZE', 'DNK', 'EST', 'FIN', 'FRA', 'DEU', 'GRC', 'HUN', 'IRL', 'ITA', 'LVA',
-      'LTU', 'LUX', 'MLT', 'NLD', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'ESP', 'SWE',
-    ] }],
-  },
-  brics: {
-    label: 'BRICS',
-    description: '11 miembros y 10 países socios según la presidencia india de septiembre de 2026. Foro de cooperación; no es un pacto de defensa.',
-    source: 'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2308611&lang=2&reg=48',
-    referenceDate: AFFILIATION_REFERENCE_DATE,
-    categories: [
-      { category: 'member', label: 'Miembro de BRICS', color: '#4b9f80', codes: [
-        'BRA', 'CHN', 'EGY', 'ETH', 'IND', 'IDN', 'IRN', 'RUS', 'SAU', 'ZAF', 'ARE',
-      ] },
-      { category: 'partner', label: 'País socio de BRICS', color: '#b2c885', codes: [
-        'BLR', 'BOL', 'CUB', 'KAZ', 'MYS', 'NGA', 'THA', 'UGA', 'UZB', 'VNM',
-      ] },
-    ],
-  },
-  threeSeas: {
-    label: 'Iniciativa de los Tres Mares',
-    description: 'Plataforma regional de infraestructura: 13 miembros, 4 participantes asociados y 6 países socios estratégicos. La Comisión Europea también es socio estratégico; no se asigna a un país.',
-    source: 'https://vlada.gov.hr/UserDocsImages/Vijesti/2026/Travanj/28_travnja/Political_Declaration_of_the_11th_Three_Seas_Initiative_Summit.pdf',
-    referenceDate: AFFILIATION_REFERENCE_DATE,
-    categories: [
-      { category: 'member', label: 'Miembro de Tres Mares', color: '#b58a54', codes: [
-        'AUT', 'BGR', 'HRV', 'CZE', 'EST', 'GRC', 'HUN', 'LVA', 'LTU', 'POL', 'ROU', 'SVK', 'SVN',
-      ] },
-      { category: 'associate', label: 'Participante asociado', color: '#d0b886', codes: ['UKR', 'MDA', 'ALB', 'MNE'] },
-      { category: 'partner', label: 'Socio estratégico', color: '#7f9fb5', codes: ['DEU', 'JPN', 'ESP', 'TUR', 'USA', 'ITA'] },
-    ],
-  },
-};
-
-/** No successor/sovereign inference: e.g. Greenland is not painted as Denmark. */
-export function affiliationFor(code: string, kind: AffiliationKind, year: number): AffiliationValue | undefined {
-  if (year !== AFFILIATION_REFERENCE_YEAR) return undefined;
-  const definition = AFFILIATIONS[kind];
-  const value = definition.categories.find(category => category.codes.includes(code)) ?? other;
-  return { category: value.category, label: value.label, color: value.color, source: definition.source, referenceDate: definition.referenceDate };
-}
-
-export function affiliationLegend(kind: AffiliationKind, year: number): AffiliationLegendEntry[] {
-  if (year !== AFFILIATION_REFERENCE_YEAR) return [];
-  return [...AFFILIATIONS[kind].categories.map(({ category, label, color }) => ({ category, label, color })), { ...other }];
-}
+/** Selected current-year conflict observations; memberships live in historical-affiliations.ts. */
+export const AFFILIATION_REFERENCE_YEAR=2026;
 
 export interface CurrentConflict {
   id: string;
@@ -103,7 +16,7 @@ export const CURRENT_CONFLICTS: readonly CurrentConflict[] = [
   {
     id: 'ukraine-2026', title: 'Guerra de Rusia contra Ucrania', countries: ['UKR', 'RUS'],
     text: 'La declaración de Dubrovnik de abril de 2026 documenta la continuidad de la guerra de Rusia contra Ucrania. Este contexto no reconstruye las líneas del frente ni modifica las fronteras reconocidas.',
-    source: AFFILIATIONS.threeSeas.source, sourceLabel: 'Declaración de Dubrovnik, 28–29 abril 2026', referenceDate: '2026-04-29',
+    source: 'https://vlada.gov.hr/UserDocsImages/Vijesti/2026/Travanj/28_travnja/Political_Declaration_of_the_11th_Three_Seas_Initiative_Summit.pdf', sourceLabel: 'Declaración de Dubrovnik, 28–29 abril 2026', referenceDate: '2026-04-29',
   },
   {
     id: 'iran-2026', title: 'Hostilidades entre Irán, Estados Unidos e Israel', countries: ['IRN', 'USA', 'ISR'],

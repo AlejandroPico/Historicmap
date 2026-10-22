@@ -1,5 +1,16 @@
 # Fuentes y política cartográfica
 
+## Ampliación 0.6 · 1990–2026
+
+- Autoridades, medios y banderas: [HISTORICAL-AUTHORITIES](HISTORICAL-AUTHORITIES.md). Adquisición incremental de cargos nacionales P1906/P1313 y mandatos P39/P35/P6 con fechas; curaciones primarias previas conservadas, sin extender afirmaciones abiertas por defecto. Banderas identificadas por P163 y adopción documentada cuando coincide el archivo. Las licencias de cada medio permanecen en su manifiesto.
+- Organizaciones: [HISTORICAL-AFFILIATIONS](HISTORICAL-AFFILIATIONS.md), 27 organizaciones y 474 intervalos. Cierre anual, fin exclusivo; fechas recortadas o de precisión anual identificadas. No equivale a una lista exhaustiva de organizaciones ni de suspensiones. Fuentes por relación.
+- Contextos: [HISTORICAL-CONTEXT](HISTORICAL-CONTEXT.md), síntesis editoriales de transiciones y conflictos por fases, con fuentes primarias. Índice de fichas asociadas, sin convertirlo en lista formal de beligerantes ni geometría militar.
+- Suplementos cartográficos: `historical-supplements.geojson`, 23 contornos contemporáneos Natural Earth conservados sin cambios para omisiones de CShapes. Uso explícito como referencia 1990–2019; no observación costera de cada año. [Palau independiente desde 01/10/1994](https://history.state.gov/countries/palau); los demás inicios 01/01/1990 son un límite de cobertura. No equiparar fecha de ingreso en la ONU e independencia.
+- Sáhara Occidental: [ONU, territorio no autónomo](https://www.un.org/dppa/decolonization/en/nsgt/western-sahara). Se separa de la geometría marroquí de referencia y se distinguen autoridades con ámbitos diferentes. La membresía UA asociada a ESH corresponde a la RASD, sin afirmar soberanía resuelta ni control de todo el territorio.
+- Crimea: [A/RES/68/262](https://press.un.org/en/2014/ga11493.doc.htm). CShapes incorpora el área a Rusia en 2014; la base del atlas mantiene para ambos países el registro de 2013, con ocupación en capa separada. No reconstruye los frentes posteriores a 2022.
+- Kuwait: [ONU/UNIKOM](https://peacekeeping.un.org/sites/default/files/past/unikom/background.html). `recent-control.geojson` conserva el contorno CShapes vigente en 1990, sin sustituirlo por la demarcación posterior. Ocupación iraquí al cierre de 1990, separada de la base; no se mantiene al cierre de 1991. Licencia geométrica NC-SA explícita.
+- Somalia: [Oficina Política de la ONU, septiembre de 1999](https://press.un.org/en/1999/19990902.stephen.doc.html). Ausencia de Gobierno central efectivo explicada como situación institucional, conservando autoridades regionales/reivindicadas sin atribuirles control nacional. `curate-recent-exceptions.py` registra esa nota y la ventana contextual de 1998–1999.
+
 Fecha de investigación inicial: 21 de octubre de 2026. Ampliación histórica/económica: 22 de octubre de 2026. URLs, revisiones y transformaciones concretas en `public/data/manifest.json`. Se conservan las coordenadas de las bases; los polígonos contextuales derivados se identifican expresamente.
 
 ## Ampliación 0.4

@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.6.0 · 2026-10-23
+
+- Ampliación mundial de mandatos, retratos y banderas de 1990–2026; cargos nacionales e identidades de Yugoslavia, R. F. de Yugoslavia, Serbia y Montenegro, Checoslovaquia y Yemen anterior. Curaciones previas conservadas y límites de cese inciertos identificados.
+- Sáhara Occidental: explicación de territorio no autónomo, autoridades saharauis y marroquíes con ámbitos distintos, sin convertir el símbolo de la RASD en un reconocimiento de soberanía resuelta.
+- 27 organizaciones con 474 intervalos de membresía, altas/bajas y categorías: ampliaciones OTAN/CE-UE, Brexit, acuerdos comerciales y agrupaciones africanas, americanas, asiáticas y de Oriente Medio. No se retroproyecta una lista actual; las suspensiones históricas focales conservan su límite de cobertura.
+- Contextos y conflictos por fases desde 1990, con fuentes por registro y sin inferir beligerancia de una alianza. Hechos del año en Contexto y fechas de relación en Datos.
+- Crimea vuelve a la base territorial ucraniana de referencia anterior a 2014; la ocupación permanece separada. Estados pequeños omitidos por CShapes se incorporan con contornos contemporáneos identificados, y el Sáhara se distingue de Marruecos. Sin líneas militares inventadas.
+- Buscador compacto, sin diálogo modal ni oscurecimiento, con teclado y nombres alternativos. Tema de tarde en cobre/ámbar, conservando océano más claro que fondo.
+- Conservadas las renovaciones consecutivas de un dirigente en la misma fecha de relevo; las jefaturas de Estado y Gobierno coincidentes se identifican conjuntamente.
+
 ## 0.5.0 · 2026-10-22
 
 - Corregida la identidad española que se aplicaba a otros países al comparar identificadores vacíos. Corregida también la sobrescritura de Brasil, Francia, Australia y Kazajistán por metadatos de territorios asociados.

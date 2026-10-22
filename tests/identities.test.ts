@@ -104,9 +104,14 @@ describe('dated flags and political authorities',()=>{
   expect(html).toContain('/Historicmap/media/');
   const media=JSON.parse(readFileSync(new URL('../public/media/manifest.json',import.meta.url),'utf8'));
   for(const m of media.entries){
-   const bytes=readFileSync(new URL('../public/'+m.file,import.meta.url));
-   expect(createHash('sha256').update(bytes).digest('hex'),m.file).toBe(m.sha256);
    expect(m.license).toBeTruthy();expect(m.url).toMatch(/^https:\/\/(commons.wikimedia.org|www.srbija.gov.rs)\//);
+  }
+  // Full-catalogue byte verification runs in data:verify. This unit test
+  // checks the actual card's images, avoiding a second 120 MB disk sweep.
+  const selected=at('DEU',1942);
+  for(const m of [selected.flag,...selected.leaders.map(l=>l.portrait)].filter(Boolean)){
+   const bytes=readFileSync(new URL('../public/'+m!.file,import.meta.url));
+   expect(createHash('sha256').update(bytes).digest('hex'),m!.file).toBe(m!.sha256);
   }
  },20000);
  it('preserves the complete official meeting photograph and links its restrictive license',()=>{

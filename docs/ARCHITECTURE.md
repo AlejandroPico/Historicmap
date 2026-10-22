@@ -1,5 +1,13 @@
 # Arquitectura y evolución
 
+## Ampliación 0.6 · datos temporales
+
+`historical-affiliations.ts` consume el catálogo local `affiliations.json`; `historical-context.ts` consume `historical-context.json`. Se importan como metadatos locales del build; no consultan proveedores al navegar. Membresías y eventos usan fin exclusivo; mandatos mantienen fin inclusivo. Las membresías del mapa se observan al cierre anual y las de Datos conservan todas las relaciones del año. Los eventos son fichas relacionadas, no beligerantes para una pintura automática.
+
+`entityCode` permite unir entidades históricas a relaciones sin reutilizar códigos estadísticos de sucesores. `history.ts` conserva identidades YUG/FRY/SCG/CSK/SUN y selecciona la base de Crimea de 2013 para Rusia/Ucrania desde 2014; la ocupación es independiente. `data.ts` añade los contornos de referencia declarados y la ocupación anual de Kuwait. Cada recurso registra su transformación y licencia separadamente.
+
+El buscador usa un panel no modal como las fuentes; sólo fecha y Acerca de usan el diálogo modal. La disposición, selección común de país, reloj local y control temporal se conservan. La deduplicación prioriza curación, precisión y título, mantiene renovaciones y separa cargos de partido de jefaturas nacionales.
+
 ## Aplicación inicial
 
 Aplicación estática distribuida por CDN. El navegador mantiene fecha consultada, proyección y capas; el fragmento URL permite compartir fecha y vista. No se requiere servidor ni base de datos. Vite empaqueta TypeScript, estilos y worker de MapLibre. El worker se sirve desde el mismo origen que la aplicación.

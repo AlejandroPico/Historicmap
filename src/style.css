@@ -269,7 +269,7 @@ input{width:100%;padding:13px;font:inherit;background:#0e2024;border:1px solid #
    intentionally lighter than the surrounding background in every palette. */
 :root{--text:#e5eced;--background:#080f19;--ocean:#152b3b;--surface:#101d2b;--panel:#101d2bf2;--gold:#d3be8f;--muted:#a0b4bf;--line:#bfd4dd30;--dock:#0d1925;--soft:#192e3b;color:var(--text);background:var(--background)}
 :root[data-appearance=morning]{color-scheme:light;--text:#24383d;--surface:#f4f1e8;--panel:#f4f1e8f2;--gold:#785823;--muted:#4e676d;--line:#344d4930;--dock:#e3e8e5;--soft:#e2e5da;--ocean:#d4e4e8}
-:root[data-appearance=afternoon]{color-scheme:dark;--text:#f4eee2;--surface:#222e34;--panel:#222e34f2;--gold:#e0ba79;--muted:#b2bebd;--line:#e0d7bd30;--dock:#243139;--soft:#34454b;--ocean:#3d515b}
+:root[data-appearance=afternoon]{color-scheme:dark;--text:#fff0de;--surface:#382a25;--panel:#382a25f2;--gold:#f0bb7c;--muted:#d5bba7;--line:#efc49c30;--dock:#33231f;--soft:#503a31;--ocean:#755348}
 #map{background:var(--background)}
 .map-shade{display:none}
 .toolbar{background:var(--panel)}
@@ -357,3 +357,15 @@ label{color:var(--text)}
 .leader-card.full-frame{grid-template-columns:1fr}
 .leader-portrait.full-frame-photo{width:100%;height:auto;object-fit:contain;border-radius:0;background:transparent}
 .photo-caption{font-size:9px!important;line-height:1.6!important;margin:0;color:var(--muted)}
+
+.search-panel{position:absolute;right:16px;top:70px;width:min(340px,calc(100vw - 32px));z-index:10;border:1px solid var(--line);border-radius:4px;background:var(--panel);backdrop-filter:blur(14px);box-shadow:0 10px 30px #0002}
+.search-body{padding:14px}
+.search-body label{font-size:11px}
+.search-body input{width:100%;padding:11px;margin-top:7px;font-size:13px}
+.search-body .profile-note{margin:8px 0;font-size:10px}
+.search-body .search-results{margin:0;max-height:min(34vh,280px);overscroll-behavior:contain}
+.search-results button:focus-visible{outline:2px solid var(--gold);outline-offset:-2px;background:var(--soft)}
+.membership-period{display:block;font-size:9px;line-height:1.6;color:var(--muted);margin-top:4px}
+.annual-highlights{padding-left:17px;font-size:11px;line-height:1.8}
+.annual-highlights a{color:var(--text);text-underline-offset:3px}
+@media(max-width:760px){.search-panel{right:12px;top:58px;width:min(340px,calc(100vw - 24px))}}

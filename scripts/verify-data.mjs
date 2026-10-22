@@ -2,7 +2,7 @@ import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 const root = new URL('../public/data/',import.meta.url);
 const manifest = JSON.parse(await readFile(new URL('manifest.json',root),'utf8'));
-for(const required of ['history.topojson','ww2.geojson','territorial-overlays.geojson','cities.geojson','profiles.json','early-modern.geojson','historical-control.geojson','spanish-civil-war.geojson','identities.json'])if(!manifest.entries.some(e=>e.file===required))throw Error(`Missing ${required}`);
+for(const required of ['history.topojson','ww2.geojson','territorial-overlays.geojson','cities.geojson','profiles.json','early-modern.geojson','historical-control.geojson','spanish-civil-war.geojson','identities.json','affiliations.json','historical-context.json','historical-supplements.geojson','recent-control.geojson'])if(!manifest.entries.some(e=>e.file===required))throw Error(`Missing ${required}`);
 for (const entry of manifest.entries) {
   const bytes = await readFile(new URL(entry.file,root));
   if (createHash('sha256').update(bytes).digest('hex') !== entry.sha256) throw new Error(`Checksum mismatch ${entry.file}`);
@@ -10,6 +10,14 @@ for (const entry of manifest.entries) {
   if (entry.format==='unquantized-topology') {if(data.type!=='Topology'||data.objects.countries.geometries.length!==entry.records)throw Error(`Invalid ${entry.file}`);}
   else if(entry.format==='country-indicator-series'){if(!data.countries.USA?.series.population?.length)throw Error('Missing country indicators');}
   else if(entry.format==='dated-political-identities'){if(Object.keys(data.countries).length!==entry.countries||!data.retrieved)throw Error('Invalid dated identities');}
+  else if(entry.format==='dated-organizations'){
+    if(data.organizations.length!==entry.organizations||!data.referenceDate)throw Error('Invalid organization catalogue');
+    for(const o of data.organizations){if(!o.formed||!o.source||!o.label)throw Error(`Missing organization provenance ${o.id}`);for(const m of o.memberships)if(!m.code||!m.source||!m.start||(m.end&&m.end<=m.start))throw Error(`Invalid membership ${o.id}:${m.code}`);}
+  }
+  else if(entry.format==='dated-historical-context'){
+    if(data.events.length!==entry.records||!data.referenceDate)throw Error('Invalid historical contexts');
+    for(const e of data.events)if(!e.id||!e.source||!e.text||!e.start||!e.countries.length||(e.end&&e.end<=e.start))throw Error(`Invalid event ${e.id}`);
+  }
   else if (data.type !== 'FeatureCollection' || data.features.length !== entry.features) throw new Error(`Invalid ${entry.file}`);
   if (!entry.license || !entry.url || !entry.version) throw new Error(`Missing provenance ${entry.file}`);
 }
@@ -26,8 +34,8 @@ for(const m of media.entries){
  files.add(m.file);
 }
 const identities=JSON.parse(await readFile(new URL('identities.json',root)));
-for(const country of Object.values(identities.countries)){
- for(const f of country.flags){if(f.start>f.end||!files.has(f.media.file))throw Error('Invalid flag interval or image');}
+for(const [key,country] of Object.entries(identities.countries)){
+ for(const f of country.flags){if(f.start>f.end||!files.has(f.media.file))throw Error(`Invalid flag interval or image ${key}: ${f.start}/${f.end} ${f.media.file}`);}
  for(const l of country.leaders){if(l.start>l.end||!l.name||!l.role||!l.source||(l.portrait&&!files.has(l.portrait.file)))throw Error('Invalid leadership interval or image');}
 }
 console.log(`Verified ${manifest.entries.length} data resources, ${fonts.entries.length} glyph ranges and ${files.size} licensed media with SHA-256.`);

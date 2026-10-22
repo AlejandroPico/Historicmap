@@ -1,6 +1,6 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **22 de octubre de 2026**. Versión del producto: **0.5.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **23 de octubre de 2026**. Versión del producto: **0.6.0**.
 
 ## 1. Identidad y visión
 
@@ -23,7 +23,7 @@ El horizonte completo incluye evolución continental, océanos, glaciaciones, re
 9. SQLite es admisible si ayuda; no es obligatorio ni debe añadirse sin necesidad.
 10. Este archivo debe registrar visión, planes, tecnologías, funciones, decisiones y continuidad entre asistentes. La documentación debe ser profesional, sin comparaciones con productos de entretenimiento ni referencias promocionales a modelos.
 
-## 3. Base de la versión 0.4.0 y actualización 0.5.0
+## 3. Base histórica 0.4.0–0.5.0; ampliación vigente en la sección 14
 
 ### Implementado
 
@@ -273,3 +273,43 @@ Publicado **f58550940607362a7c0fa86769ca8edd6097d5ba**. [Quality 39814653054](ht
 Web pública comprobada: `assets/index-BsMTmP3r.js`, `assets/index-DuODX5wW.css`; manifiestos públicos de 35 recursos y 831 medios con huellas idénticas a las locales; bytes de la nueva fotografía de Mozambique íntegros. Ficha pública de España con bandera, Sánchez, Felipe VI y pestañas, imágenes cargadas y nueva disposición verificada. Detalles y evidencia en DELIVERY-0.5.0. El cierre documental usa `[skip ci]` y conserva la aplicación validada.
 
 Prioridad de continuidad: completar los diez retratos acreditados pendientes y contrastar las sucesiones anuales aún no certificadas; no declarar cobertura mundial exhaustiva ni extender automáticamente membresías de referencia 2026 a otro año. El detalle histórico regional y las futuras capas militares/conflictos siguen los límites documentados de CURRENT-AUTHORITIES y CURRENT-LAYERS.
+
+## 14. Actualización 0.6.0 · retroceso hasta 1990
+
+La nueva prioridad del propietario es ampliar mundialmente autoridades, imágenes, banderas, fronteras, contexto y conflictos de 1990–2026, y buscar más organizaciones con sus adhesiones históricas. También solicita una búsqueda menos invasiva y sugiere una tarde más cálida. Esta sección sustituye el alcance exclusivamente 2026 de las capas de 0.5, sin convertir los límites previos en trabajo completado.
+
+### Identidades, mandatos y medios
+
+`enrich-historical-authorities.py` amplía la adquisición desde cargos nacionales P1906/P1313 y mandatos P39, junto a P35/P6 fechados. Conserva curaciones anteriores, precisión, créditos/licencias y la foto íntegra de Mozambique. No mantiene abierto por defecto un cargo antiguo sin prueba de incumbencia. Los límites superiores inferidos se indican y no se publican como ceses exactos. Las banderas históricas nuevas usan identidad P163, fecha documentada y coincidencia del archivo; los rangos incompatibles se rechazan. Se añaden cambios focales de bandera y excepciones institucionales con fuente.
+
+Claves históricas separadas: YUG (R. F. Socialista), FRY (R. F. Yugoslavia 1992–2002), SCG (Serbia y Montenegro 2003–2006), CSK, YAR, YPR y RASD, además de USSR/DDR existentes. En la cartografía, `entityCode` es distinto de `code` estadístico: SUN, CSK y SCG no heredan PIB ni autoridades de un sucesor. Los alias explícitos BIH, KOS y SSD/SDS resuelven nombres/códigos de fuentes sin comparar identificadores vacíos.
+
+El resolver prefiere curación antes que precisión, y después precisión antes que título. No descartar una fecha diaria bien documentada por una afirmación anterior sólo anual. Se conservan renovaciones con la misma fecha de relevo en ambos extremos; las jefaturas de Estado y Gobierno con persona e intervalo idénticos se indican conjuntamente sin repetir la misma foto. Una foto identifica a la persona, no su apariencia exacta en cada año.
+
+Sáhara Occidental mantiene identidad territorial SAH y estatus de territorio no autónomo de la ONU; las autoridades RASD/saharauis y marroquíes se rotulan con su ámbito. Su símbolo se identifica como RASD y no acredita soberanía o control de toda la superficie. `territoryStatus` aporta contexto institucional sin ocultar símbolos ni inventar titulares. También permite explicar la ausencia de Gobierno central efectivo en Somalia en los años noventa. La ausencia institucional documentada es distinta de un hueco de adquisición.
+
+### Organizaciones y contexto temporal
+
+`public/data/affiliations.json` es la única fuente de membresía usada por la interfaz: 27 organizaciones, 474 intervalos y fuentes por relación. `historical-affiliations.ts` resuelve categorías al cierre anual, con fecha máxima de adquisición en 2026. La ficha Datos lista las relaciones que intersectan el año, de modo que el Reino Unido puede figurar con fecha de salida en 2020 mientras el mapa al cierre ya no lo colorea como miembro. Fuera de 1990–2026 no se extrapola. Las dependencias no heredan relaciones de la metrópoli.
+
+Se distinguen miembro, socio, asociado y participación suspendida; las suspensiones históricas UA/CEDEAO siguen siendo focales. Las fechas de resolución anual y los límites recortados se explican en notas. CE/UE, OUA/UA y TLCAN/T-MEC conservan su continuidad o sucesión explícita; Pacto de Varsovia y CAME terminan en 1991. La relación UA de ESH corresponde a la RASD, sin resolver el estatus territorial ante la ONU. Contextos actuales de conflictos permanecen en `current-affiliations.ts`, que ya no contiene un catálogo de membresías paralelo.
+
+`historical-context.json` / `historical-context.ts` seleccionan fases de conflictos y transiciones por intervalos; fin exclusivo en esos eventos y en las membresías, frente al fin inclusivo del catálogo de mandatos. La pestaña Contexto incorpora hechos del año y la de Conflictos los registros asociados a la entidad. Las claves son fichas vinculadas, no un listado formal de beligerantes. Nunca pintar automáticamente una capa de países en guerra a partir de ellas. La cobertura sigue siendo parcial; falta de registro no significa paz ni estabilidad.
+
+### Territorio e interfaz
+
+Desde 2014, Rusia/Ucrania usan la base CShapes de 2013 para mantener Crimea en territorio ucraniano reconocido y su ocupación separada. Se añaden 23 contornos contemporáneos Natural Earth de referencia para omisiones de CShapes en 1990–2019; no se presentan como levantamientos históricos. Palau sólo aparece como independiente desde 1994. Marruecos y Sáhara se separan mediante contornos de referencia, sin inventar el muro o las líneas de control. Los registros y las fichas identifican estas transformaciones.
+
+`recent-control.geojson` representa Kuwait bajo ocupación iraquí al cierre de 1990, con el contorno CShapes de ese año. Al cierre de 1991 ya no se muestra ocupado por Irak. La base y la ocupación se alternan con el control existente; no es una anexión reconocida ni un frente interpolado. Se mantiene la licencia NC-SA de esa geometría separada de los contornos PD de referencia.
+
+El buscador pasa a panel no modal de 340 px junto a la lupa, sin oscurecer el mapa: nombres alternativos, teclado, Escape/exterior y cierre al cambiar fecha. No se altera el diálogo Acerca de/fecha. La tarde usa cobre/ámbar; mañana, noche y reloj automático se conservan. Océano siempre más claro que fondo. Las organizaciones se agrupan por ámbito en el selector, que permanece utilizable al recorrer 1990–2026.
+
+### Preparación, validación y continuidad
+
+Orden incremental: `enrich-historical-authorities.py` → `enrich-historical-flags.py` → `curate-historical-authorities.py` → `curate-recent-exceptions.py` → `prepare-recent-supplements.py` → `prepare-recent-control.py` → registros político/reciente → verificación → auditoría anual → pruebas → compilación → navegador. No ejecutar reconstrucciones iniciales destruyendo curaciones. `register-recent-data.mjs` registra las cuatro nuevas fuentes; `verify-data.mjs` comprueba formatos, referencias y huellas. Las preparaciones requieren acceso a fuentes, nunca la visita ordinaria al atlas.
+
+La prueba de cobertura recorre cada año 1990–2019 con el resolver real de identidades de los Estados independientes CShapes: comprueba una autoridad o una ausencia institucional documentada, no precisión historiográfica completa. Otras pruebas cubren sucesores, Crimea, Kuwait, altas/bajas, huecos de fecha, renovaciones, búsqueda y fichas. Cifras finales, excepciones, resultados y SHA publicado se anotan en HISTORICAL-AUTHORITIES y DELIVERY-0.6.0. No dar por publicado un build local. Siguiente prioridad: los vacíos expresos de fotos/cargos, cobertura regional de conflictos y cartografía de control verificada; no ampliar años ocultando las limitaciones conocidas.
+
+Cobertura final de adquisición 0.6: **274 claves/5.781 mandatos** en todas las épocas; en 1990–22/10/2026, **2.925 personas u órganos, 2.432 con imagen y 493 sin ella**. **2.871 medios**: 376 símbolos SVG y 2.495 fotografías (2.494 retratos y una escena completa). En 2026: 666 registros/437 personas u órganos/422 con imagen en 233 claves. Banderas fechadas en 197 claves de 1990 y 242 de 2026. Las cifras no equivalen a Estados soberanos ni gobiernos simultáneos. Datos y medios adquiridos el 22; cierre de entrega el 23/10/2026.
+
+La validación de bytes de todo el catálogo se mantiene en `data:verify`; la prueba unitaria de la ficha comprueba los archivos que realmente utiliza esa ficha y la procedencia del manifiesto, evitando repetir dentro del test una lectura completa de 120 MB que puede agotar el tiempo en almacenamiento sincronizado. No eliminar por ello la comprobación global SHA del flujo Quality. Las autoridades de facto se priorizan y los alias estadísticos/políticos se normalizan para conservar el color de la misma entidad entre fuentes.

@@ -17,12 +17,14 @@ import { politicalData } from './political';
 import { countryCard } from './country-card';
 import { identityFor, type IdentityData } from './identities';
 import { appearances,appearanceLabels,appearanceIcons,palettes,resolveAppearance,storedAppearance } from './appearance';
-import {AFFILIATION_KINDS,AFFILIATIONS,affiliationLegend,type AffiliationKind} from './current-affiliations';
+import {AFFILIATION_KINDS,AFFILIATIONS,affiliationLegend,affiliationGroups,affiliationSummary,affiliationsAvailable,type AffiliationKind} from './historical-affiliations';
 
 const VERSION = packageInfo.version;
 const icons = { ArrowRight, ChevronDown, Database, Globe2, Info, Layers, Map:MapIcon, MapPin, Maximize, Minimize, Mountain, Pause, Play, Search, SkipBack, SkipForward, Sun, Sunset, Moon, Contrast, X };
 const $ = <T extends HTMLElement = HTMLElement>(selector: string) => document.querySelector<T>(selector)!;
 const icon = (name: string) => `<i data-lucide="${name}" aria-hidden="true"></i>`;
+const organizationSections=[['Defensa y seguridad',['military','cooperation-security']],['Integración y comercio',['economic','trade','political-economic']],['Cooperación política y regional',['political','cooperation','infrastructure']]] as const;
+const organizationOptions=organizationSections.map(([label,types])=>`<optgroup label="${label}">${AFFILIATION_KINDS.filter(kind=>(types as readonly string[]).includes(AFFILIATIONS[kind].type)).map(kind=>`<option value="${kind}" title="${esc(AFFILIATIONS[kind].description)}">${esc(AFFILIATIONS[kind].label)}</option>`).join('')}</optgroup>`).join('');
 const app = $('#app');
 app.innerHTML = `
   <main class="atlas">
@@ -30,7 +32,7 @@ app.innerHTML = `
     <div id="concept" class="concept" hidden><div class="primordial"><div class="planet"></div></div><span id="concept-caption"></span></div>
     <div class="map-shade"></div>
     <nav class="toolbar" aria-label="Herramientas del atlas">
-      <button id="search-button" class="icon-button" title="Buscar un territorio" aria-label="Buscar un territorio">${icon('search')}</button>
+      <button id="search-button" class="icon-button" title="Buscar un territorio" aria-label="Buscar un territorio" aria-controls="search-panel" aria-expanded="false">${icon('search')}</button>
       <button id="projection-button" class="icon-button" title="Ver mapa 2D" aria-label="Ver mapa 2D" data-view="globe">${icon('map')}</button>
       <button id="layers-button" class="icon-button" title="Capas del atlas" aria-label="Capas del atlas" aria-controls="layers-panel" aria-expanded="false">${icon('layers')}</button>
       <button id="sources-button" class="icon-button" title="Base de datos y fuentes" aria-label="Base de datos y fuentes" aria-controls="sources-panel" aria-expanded="false">${icon('database')}</button>
@@ -38,13 +40,17 @@ app.innerHTML = `
       <button id="appearance-button" class="icon-button" aria-label="Tema automático">${icon('contrast')}</button>
       <button id="about-button" class="icon-button" title="Acerca de Historicmap" aria-label="Acerca de Historicmap">${icon('info')}</button>
     </nav>
+    <section id="search-panel" class="search-panel" role="dialog" aria-labelledby="search-title" hidden>
+      <div class="popover-head"><h2 id="search-title">Buscar un territorio</h2><button id="close-search" class="icon-button" aria-label="Cerrar búsqueda">${icon('x')}</button></div>
+      <div class="search-body"><label for="search-input">Nombre del territorio</label><input id="search-input" type="search" placeholder="País o territorio…" autocomplete="off" aria-controls="search-results"><p id="search-scope" class="profile-note"></p><div id="search-results" class="search-results"></div></div>
+    </section>
     <section id="sources-panel" class="sources-panel" role="dialog" aria-labelledby="sources-title" hidden>
       <div class="popover-head"><h2 id="sources-title">Datos y fuentes</h2><button id="close-sources" class="icon-button" aria-label="Cerrar fuentes">${icon('x')}</button></div>
       <div class="source-summary"><div class="map-status"><span class="status-dot"></span><span id="map-status" role="status" aria-live="polite">Preparando cartografía…</span><button id="retry" hidden>Reintentar</button></div><p id="source-reference"></p><div id="source-links"></div><p id="source-scope"></p><a class="profile-source" href="https://github.com/AlejandroPico/Historicmap/blob/main/docs/SOURCES.md" target="_blank" rel="noopener">Catálogo, licencias y metodología ↗</a></div>
     </section>
     <section id="layers-panel" class="layers-panel" role="dialog" aria-labelledby="layers-title" hidden>
       <div class="popover-head"><h2 id="layers-title">Capas del atlas</h2><button id="close-layers" class="icon-button" aria-label="Cerrar capas">${icon('x')}</button></div>
-      <div class="layers"><button id="political-layer" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('map')}</span><span><strong>Territorios</strong><small id="territory-description">Países y fronteras</small></span><span class="layer-indicator"></span></button><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve de referencia</strong><small>Topografía contemporánea · desde 10.000 a. C.</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Capitales y grandes ciudades</strong><small>Capitales fechadas en el pasado</small></span><span class="layer-indicator"></span></button><button id="occupations-layer" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('layers')}</span><span><strong>Ocupaciones y disputas</strong><small>Control territorial y guerras civiles</small></span><span class="layer-indicator"></span></button><label class="theme-control" for="theme-select">Color del mapa<select id="theme-select"><option value="political">Territorios y dependencias</option><option value="gdp">PIB total</option><option value="gdpPerCapita">PIB por habitante</option><option value="population">Población</option></select><small id="theme-help">Indicadores del Banco Mundial desde 1960.</small></label><label class="theme-control" for="affiliation-select">Alianzas y organizaciones<select id="affiliation-select"><option value="">Sin superposición</option>${AFFILIATION_KINDS.map(kind=>`<option value="${kind}">${esc(AFFILIATIONS[kind].label)}</option>`).join('')}</select><small>Membresías documentadas de 2026.</small></label></div>
+      <div class="layers"><button id="political-layer" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('map')}</span><span><strong>Territorios</strong><small id="territory-description">Países y fronteras</small></span><span class="layer-indicator"></span></button><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve de referencia</strong><small>Topografía contemporánea · desde 10.000 a. C.</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Capitales y grandes ciudades</strong><small>Capitales fechadas en el pasado</small></span><span class="layer-indicator"></span></button><button id="occupations-layer" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('layers')}</span><span><strong>Ocupaciones y disputas</strong><small>Control territorial y guerras civiles</small></span><span class="layer-indicator"></span></button><label class="theme-control" for="theme-select">Color del mapa<select id="theme-select"><option value="political">Territorios y dependencias</option><option value="gdp">PIB total</option><option value="gdpPerCapita">PIB por habitante</option><option value="population">Población</option></select><small id="theme-help">Indicadores del Banco Mundial desde 1960.</small></label><label class="theme-control" for="affiliation-select">Alianzas y organizaciones<select id="affiliation-select"><option value="">Sin superposición</option>${organizationOptions}</select><small id="affiliation-help">Altas, bajas y categorías documentadas · 1990–2026.</small></label></div>
     </section>
     <div id="selection" class="selection-card" hidden><button id="close-selection" class="icon-button" aria-label="Cerrar selección">${icon('x')}</button><span class="eyebrow" id="selection-date">EN EL MAPA</span><h2 id="selection-title"></h2><div id="selection-text"></div></div>
     <aside id="map-legend" class="map-legend" aria-label="Leyenda del mapa" hidden></aside>
@@ -164,7 +170,7 @@ function updateSources(){
   if(snapshot.kind==='concept'){source[0]=year < -1800000000?'NASA · formación planetaria':'Smithsonian · evolución humana';source[1]=year < -1800000000?'https://science.nasa.gov/earth/facts/':'https://humanorigins.si.edu/';}
   $('#source-reference').textContent=`Fecha consultada: ${formatYear(year)}.${year>=1789?` Autoridades adquiridas: ${identityData?.retrieved??'cargando'}.`:''}`;
   $('#source-links').innerHTML=`<a href="${source[1]}" target="_blank" rel="noopener">${source[0]} ↗</a> · <a href="https://data.worldbank.org/" target="_blank" rel="noopener">Indicadores WDI ↗</a> · <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Autoridades ↗</a>${affiliation?` · <a href="${esc(AFFILIATIONS[affiliation].source)}" target="_blank" rel="noopener">${esc(AFFILIATIONS[affiliation].label)} ↗</a>`:''}`;
-  $('#source-scope').textContent=snapshot.kind==='modern'?'Cartografía de referencia 2026. Las cifras y las membresías conservan sus propias fechas. Imágenes: autor y licencia en cada ficha.':snapshot.kind==='annual'?'Base territorial al cierre anual; reconstrucciones de control con fecha propia. Las fichas incluyen todos los mandatos documentados del año.':'Reconstrucción según la fecha y el alcance del modelo; no es una observación directa.';
+  $('#source-scope').textContent=snapshot.kind==='modern'?'Cartografía de referencia 2026. Las cifras y las membresías conservan sus propias fechas. Imágenes: autor y licencia en cada ficha.':snapshot.kind==='annual'?'Base territorial al cierre anual; contornos de referencia identificados en las fichas. Control con fecha propia. Mandatos de todo el año y membresías al cierre.':'Reconstrucción según la fecha y el alcance del modelo; no es una observación directa.';
   if(physical&&reliefAvailable())$('#source-scope').textContent+=' Relieve contemporáneo de referencia; no reconstruye altitudes ni costas antiguas.';
   if(snapshot.kind==='concept')$('#source-scope').textContent='Escena conceptual y contexto documental; no hay geometría reconstruida para esta fecha.';
 }
@@ -178,7 +184,7 @@ function refreshMap(force=false):Promise<void> {
   $('#concept').hidden=!concept;
   $('#map').style.visibility=concept?'hidden':'visible';
   $('#physical-layer').toggleAttribute('disabled',!reliefAvailable());
-  $('#affiliation-select').toggleAttribute('disabled',year!==2026);
+  $('#affiliation-select').toggleAttribute('disabled',!affiliationsAvailable(year));
   $('#political-layer').toggleAttribute('disabled',concept);
   $('#places-layer').toggleAttribute('disabled',year < -10000);
   $('#occupations-layer').toggleAttribute('disabled',year<1789);
@@ -244,7 +250,7 @@ function refreshMap(force=false):Promise<void> {
         $('#map').setAttribute('aria-busy','false');
         $('#search-button').toggleAttribute('disabled',false);
         $('#map').dataset.loadStage='ready';
-        const label=target.kind==='modern'?`Natural Earth · referencia contemporánea 2026${targetYear!==2026?` · consulta ${targetYear}`:''}`:target.kind==='annual'?`${targetYear<1886?'Cliopatria · síntesis anual':'CShapes · 31 dic'} ${targetYear} · ${data.features.length} territorios`:`${target.kind==='geological'?'CAO2024 · reconstrucción':'Fronteras aproximadas'} · ${formatYear(target.year)}`;
+        const label=target.kind==='modern'?`Natural Earth · referencia contemporánea 2026${targetYear!==2026?` · consulta ${targetYear}`:''}`:target.kind==='annual'?`${targetYear<1886?'Cliopatria · síntesis anual':'CShapes + referencias · 31 dic'} ${targetYear} · ${data.features.length} territorios`:`${target.kind==='geological'?'CAO2024 · reconstrucción':'Fronteras aproximadas'} · ${formatYear(target.year)}`;
         status(label);
         updateSources();
         // MapLibre initially expands compact attribution. Keep it available
@@ -269,7 +275,8 @@ function applyLayers(){
   if(!ready)return;
   const thresholds=theme==='gdp'?[1e10,1e11,1e12,1e13]:theme==='population'?[1e6,1e7,1e8,1e9]:[1000,5000,15000,50000];
   const thematic:ExpressionSpecification=['case',['==',['feature-state','metric'],null],'#6c7776',['interpolate',['linear'],['coalesce',['feature-state','metric'],0],0,'#d7e9c4',thresholds[0],'#a4c994',thresholds[1],'#6aab7d',thresholds[2],'#398769',thresholds[3],'#15624f']];
-  const membership:ExpressionSpecification=affiliation?['match',['get','code'],...AFFILIATIONS[affiliation].categories.flatMap(c=>[[...c.codes],c.color]),'#68777b'] as unknown as ExpressionSpecification:colorExpression;
+  const groups=affiliation?affiliationGroups(affiliation,year):[];
+  const membership:ExpressionSpecification=affiliation?(groups.length?['match',['coalesce',['get','entityCode'],['get','code']],...groups.flatMap(c=>[[...c.codes],c.color]),'#68777b'] as unknown as ExpressionSpecification:['literal','#68777b']):colorExpression;
   map.setPaintProperty('territory-fill','fill-color',political?(affiliation?membership:theme==='political'?colorExpression:thematic):'#819c88');
   map.setLayoutProperty('territory-line','visibility',political&&snapshot.kind!=='geological'?'visible':'none');
   map.setPaintProperty('territory-fill','fill-opacity',snapshot.kind==='geological'||theme==='political'?1:0.88);
@@ -283,9 +290,9 @@ function applyLayers(){
   $('#map').dataset.places=String(showPlaces?cityData.features.length:0);
   $('#map').dataset.overlays=String(controlVisible?overlayData.features.length:0);
   const controls=[...new Map(overlayData.features.map(f=>[f.properties!.controller,f.properties!])).values()];
-  const labels:Record<string,string>={DEU:'Alemania',JPN:'Japón',ITA:'Italia',USSR:'URSS','CROATIA-CLIENT':'Croacia · cliente','FRA-VICHY':'Vichy · colaboracionista','CHN-COMMUNIST':'China · comunistas','ESP-REPUBLIC':'España · republicanos','ESP-NATIONALIST':'España · sublevados',RUS:'Rusia',ISR:'Israel','AUT-HUN':'Austria-Hungría',OTT:'Imperio otomano'};
+  const labels:Record<string,string>={DEU:'Alemania',JPN:'Japón',ITA:'Italia',USSR:'URSS','CROATIA-CLIENT':'Croacia · cliente','FRA-VICHY':'Vichy · colaboracionista','CHN-COMMUNIST':'China · comunistas','ESP-REPUBLIC':'España · republicanos','ESP-NATIONALIST':'España · sublevados',RUS:'Rusia',ISR:'Israel',IRQ:'Irak','AUT-HUN':'Austria-Hungría',OTT:'Imperio otomano'};
   const controlLegend=controlVisible&&controls.length?`<div class="control-legend"><strong>Control territorial · síntesis anual</strong><div class="control-swatches">${controls.map(p=>`<span><i style="background:${p.controlColor}"></i>${esc(labels[p.controller]??p.name)}</span>`).join('')}</div><small>Colores sólidos por potencia o bando.<br>Fecha y fuentes en cada ficha.</small></div>`:'';
-  const membershipLegend=affiliation?`<strong>${esc(AFFILIATIONS[affiliation].label)} · 2026</strong><div class="control-swatches">${affiliationLegend(affiliation,year).map(c=>`<span><i style="background:${c.color}"></i>${esc(c.label)}</span>`).join('')}</div><small>${esc(AFFILIATIONS[affiliation].description)}</small>`:'';
+  const membershipLegend=affiliation?`<strong>${esc(AFFILIATIONS[affiliation].label)} · ${year}</strong><div class="control-swatches">${affiliationLegend(affiliation,year).map(c=>`<span><i style="background:${c.color}"></i>${esc(c.label)}</span>`).join('')}</div><small>${esc(affiliationSummary(affiliation,year))}</small>`:'';
   $('#map-legend').innerHTML=(political?(membershipLegend||thematicLegend(loaded,theme)):'')+controlLegend+(year>=1789&&year<1886?'<small>Gris: sin entidad en el inventario histórico.<br>Fondo costero de referencia contemporánea.</small>':'');
   $('#map-legend').hidden=!$('#map-legend').innerHTML;
 }
@@ -298,11 +305,12 @@ function persistLocation(){
   if(delay===0)commit();else locationTimer=setTimeout(commit,delay);
 }
 function updateYear(next:number,save=true){
+  closeSearch();
   year=clamp(next,anchors[0],PRESENT);if(year===0)year=1;
   if(year<1960){theme='political';$<HTMLSelectElement>('#theme-select').value=theme;}
   position=yearToPosition(year);
   $('#year').textContent=formatYear(year);
-  if(year!==2026){affiliation='';$<HTMLSelectElement>('#affiliation-select').value='';}
+  if(!affiliationsAvailable(year)){affiliation='';$<HTMLSelectElement>('#affiliation-select').value='';}
   renderRuler(); const refreshed=refreshMap();
   if(save)persistLocation();
   return refreshed;
@@ -373,7 +381,8 @@ $('#fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await docum
 document.addEventListener('fullscreenchange',()=>{const full=!!document.fullscreenElement;$('#fullscreen').innerHTML=icon(full?'minimize':'maximize');$('#fullscreen').setAttribute('aria-label',full?'Salir de pantalla completa':'Pantalla completa');$('#fullscreen').title=full?'Salir de pantalla completa':'Pantalla completa';createIcons({icons});});
 function closeLayers(focus=false){$('#layers-panel').hidden=true;$('#layers-button').setAttribute('aria-expanded','false');if(focus)$('#layers-button').focus();}
 function closeSources(focus=false){$('#sources-panel').hidden=true;$('#sources-button').setAttribute('aria-expanded','false');if(focus)$('#sources-button').focus();}
-$('#layers-button').onclick=()=>{const open=$('#layers-panel').hidden;$('#layers-panel').hidden=!open;$('#layers-button').setAttribute('aria-expanded',String(open));if(open){closeSources();$('#close-layers').focus();}};
+function closeSearch(focus=false){$('#search-panel').hidden=true;$('#search-button').setAttribute('aria-expanded','false');if(focus)$('#search-button').focus();}
+$('#layers-button').onclick=()=>{const open=$('#layers-panel').hidden;$('#layers-panel').hidden=!open;$('#layers-button').setAttribute('aria-expanded',String(open));if(open){closeSources();closeSearch();$('#close-layers').focus();}};
 $('#close-layers').onclick=()=>closeLayers(true);
 document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!$('#layers-panel').hidden&&!$('#layers-panel').contains(target)&&!$('#layers-button').contains(target))closeLayers();});
 document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!$('#sources-panel').hidden&&!$('#sources-panel').contains(target)&&!$('#sources-button').contains(target))closeSources();});
@@ -398,14 +407,16 @@ $('#close-selection').onclick=()=>{$('#selection').hidden=true;if(ready)map.setF
 $('#retry').onclick=()=>void refreshMap(true);
 
 const modal=$<HTMLDialogElement>('#modal');
-function openModal(label:string,html:string,kind=''){stopPlay();closeLayers();closeSources();modal.className=kind;$('#modal-label').textContent=label;$('#modal-body').innerHTML=html;modal.showModal();createIcons({icons});}
+function openModal(label:string,html:string,kind=''){stopPlay();closeLayers();closeSources();closeSearch();modal.className=kind;$('#modal-label').textContent=label;$('#modal-body').innerHTML=html;modal.showModal();createIcons({icons});}
 $('#close-modal').onclick=()=>modal.close();modal.addEventListener('click',e=>{if(e.target===modal){const r=modal.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)modal.close();}});
 $('#date-button').onclick=()=>{openModal('IR A UNA FECHA',`<h2>Encuentra tu momento.</h2><form id="date-form"><label for="date-input">Año (negativo para a. C.)</label><input id="date-input" type="number" min="${anchors[0]}" max="${PRESENT}" value="${year}" required step="1"><p class="modal-intro">Por ejemplo: −3000, 100 o −200000000. Ga = miles de millones de años; Ma = millones de años. El año cero no se utiliza.</p><button class="primary-button" type="submit">Explorar fecha ${icon('arrow-right')}</button></form>`);$('#date-form').onsubmit=e=>{e.preventDefault();const n=Number($<HTMLInputElement>('#date-input').value);if(!Number.isFinite(n)||n===0){$<HTMLInputElement>('#date-input').setCustomValidity('Introduce un año distinto de cero.');$<HTMLInputElement>('#date-input').reportValidity();return;}updateYear(n);modal.close();};$('#date-input').oninput=()=> $<HTMLInputElement>('#date-input').setCustomValidity('');};
 $('#search-button').onclick=()=>{
-  openModal('BUSCAR EN ESTA INSTANTÁNEA','<h2>Todo lugar tiene una historia.</h2><label for="search-input">Nombre del territorio</label><input id="search-input" type="search" placeholder="España, Rome, Han…" autocomplete="off"><div id="search-results" class="search-results"></div>');
+  if(!$('#search-panel').hidden){closeSearch(true);return;}
+  stopPlay();closeLayers();closeSources();$('#search-panel').hidden=false;$('#search-button').setAttribute('aria-expanded','true');
+  $<HTMLInputElement>('#search-input').value='';$('#search-scope').textContent=`Territorios visibles · ${formatYear(year)}`;
   const search=()=>{
     const q=$<HTMLInputElement>('#search-input').value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-    const matches=[...loaded.features,...(showOccupations&&!affiliation&&theme==='political'?overlayData.features:[])].filter(f=>String(f.properties?.name).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,30);
+    const matches=[...loaded.features,...(showOccupations&&!affiliation&&theme==='political'?overlayData.features:[])].filter(f=>[f.properties?.name,f.properties?.originalName,profileFor(profiles,f.properties?.code)?.name,f.properties?.code].filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,q?24:8);
     $('#search-results').replaceChildren();
     if(!matches.length)$('#search-results').textContent='Sin resultados en esta instantánea. Prueba otra fecha o nombre. Los nombres históricos conservan el idioma de la fuente.';
     matches.forEach(feature=>{const button=document.createElement('button');button.textContent=String(feature.properties?.name);button.onclick=()=>{if(feature.geometry.type==='Polygon'||feature.geometry.type==='MultiPolygon'){
@@ -418,12 +429,20 @@ $('#search-button').onclick=()=>{
         const lat=capital?.[1]??valid.reduce((sum,c)=>sum+c[1],0)/valid.length;
         map.flyTo({center:[lng,clamp(lat,-80,80)],zoom:3.5,duration:reduced?0:1000});
       }
-    }selectFeature(feature);modal.close();};$('#search-results').append(button);});
-  };$('#search-input').oninput=search;search();
+    }selectFeature(feature);closeSearch(true);};$('#search-results').append(button);});
+  };$('#search-input').oninput=search;search();$('#search-input').focus();
 };
-$('#sources-button').onclick=()=>{const open=$('#sources-panel').hidden;closeLayers();$('#sources-panel').hidden=!open;$('#sources-button').setAttribute('aria-expanded',String(open));if(open)$('#close-sources').focus();};
+$('#close-search').onclick=()=>closeSearch(true);
+$('#search-panel').addEventListener('keydown',event=>{
+ if(event.key!=='ArrowDown'&&event.key!=='ArrowUp')return;
+ const results=Array.from($('#search-results').querySelectorAll('button'));if(!results.length)return;
+ event.preventDefault();const index=results.indexOf(document.activeElement as HTMLButtonElement);
+ results[event.key==='ArrowDown'?(index+1)%results.length:(index<=0?results.length-1:index-1)].focus();
+});
+document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!$('#search-panel').hidden&&!$('#search-panel').contains(target)&&!$('#search-button').contains(target))closeSearch();});
+$('#sources-button').onclick=()=>{const open=$('#sources-panel').hidden;closeLayers();closeSearch();$('#sources-panel').hidden=!open;$('#sources-button').setAttribute('aria-expanded',String(open));if(open)$('#close-sources').focus();};
 $('#close-sources').onclick=()=>closeSources(true);
 $('#about-button').onclick=()=>openModal('ACERCA DE HISTORICMAP',aboutContent(VERSION,import.meta.env.BASE_URL),'about-dialog');
-document.addEventListener('keydown',event=>{if(event.key==='Escape'){$('#selection').hidden=true;if(!$('#layers-panel').hidden)closeLayers(true);if(!$('#sources-panel').hidden)closeSources(true);stopPlay();}if(event.code==='Space'&&!modal.open&&event.target===document.body){event.preventDefault();$('#play').click();}});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'){if(!$('#search-panel').hidden){closeSearch(true);return;}$('#selection').hidden=true;if(!$('#layers-panel').hidden)closeLayers(true);if(!$('#sources-panel').hidden)closeSources(true);stopPlay();}if(event.code==='Space'&&!modal.open&&event.target===document.body){event.preventDefault();$('#play').click();}});
 function restore(){const params=new URLSearchParams(location.hash.slice(1));const y=Number(params.get('year')??PRESENT);if(params.get('view')==='mercator')projection='mercator';else projection='globe';projectionControl();if(ready)map.setProjection({type:projection});updateYear(Number.isFinite(y)?y:PRESENT,false);}
 window.addEventListener('hashchange',restore);restore();

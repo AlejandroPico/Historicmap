@@ -5,7 +5,7 @@ export const appearanceLabels:Record<Appearance,string>={morning:'Mañana',after
 export const appearanceIcons:Record<Appearance,string>={morning:'sun',afternoon:'sunset',night:'moon',auto:'contrast'};
 export const palettes:Record<ResolvedAppearance,{background:string;ocean:string;horizon:string}>={
   morning:{background:'#b9cbd0',ocean:'#d4e4e8',horizon:'#dbe8e8'},
-  afternoon:{background:'#263139',ocean:'#3d515b',horizon:'#a79d89'},
+  afternoon:{background:'#33231f',ocean:'#755348',horizon:'#e9ac72'},
   night:{background:'#080f19',ocean:'#152b3b',horizon:'#566b7e'},
 };
 /** Device-local time; no location, permission or network clock is required. */
