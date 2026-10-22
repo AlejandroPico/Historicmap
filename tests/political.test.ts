@@ -27,6 +27,9 @@ describe('political regimes and territorial control',()=>{
   expect(entityKey({gwcode:365,originalName:'Russia (Soviet Union)'},1942)).toBe('USSR');
   expect(regimeColor('USSR',1942)).not.toBe(regimeColor('GBR',1942));
   expect(regimeColor('FRA',1789)).not.toBe(regimeColor('FRA',1812));
+  expect(regimeColor('FRA',1829)).not.toBe(regimeColor('FRA',1830));
+  expect(regimeColor('FRA',1803)).not.toBe(regimeColor('FRA',1804));
+  expect(entityKey({originalName:'First Spanish Republic'},1873)).toBe('ESP');
   expect(regimeColor('ESP-REPUBLIC',1936)).not.toBe(regimeColor('ESP-NATIONALIST',1936));
   const topology:HistoryTopology=json('history.topojson');
   const map=politicalData(historyAt(topology,1942),1942);

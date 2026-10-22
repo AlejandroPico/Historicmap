@@ -4,7 +4,7 @@ import {hashColor} from './history';
 const palette=['#78938a','#af9c77','#658e98','#9c887a','#9ba783','#b39c80','#7b929d','#a6a386','#8f9c8d','#9e8883','#819c9f','#b5a48a'];
 const families:Record<string,string>={
   'United States of America':'USA','United States':'USA','Estados Unidos':'USA',
-  'Spain':'ESP','España':'ESP','Kingdom of Spain':'ESP','Francoist Spain':'ESP',
+  'Spain':'ESP','España':'ESP','Kingdom of Spain':'ESP','Spanish Empire':'ESP','First Spanish Republic':'ESP','Francoist Spain':'ESP',
   'Second Spanish Republic':'ESP-REPUBLIC','Spanish Nationalists':'ESP-NATIONALIST',
   'Germany (Prussia)':'DEU','German Federal Republic':'DEU','German Democratic Republic':'DDR','Nazi Germany':'DEU','German Empire':'DEU','Kingdom of Prussia':'PRUSSIA',
   'Russia (Soviet Union)':'RUS','Russian Empire':'RUS','Union of Soviet Socialist Republics':'USSR',
@@ -28,7 +28,7 @@ export function entityKey(p:Record<string,unknown>,year:number):string{
 /** Editorial colors identify political regimes, never inferred solely from a flag. */
 export function regimeColor(key:string,year:number):string{
   switch(key){
-    case 'DEU':return year>=1933&&year<=1944?'#50545a':year<=1918?'#747d89':year<=1932?'#8f886f':'#728b8f';
+    case 'DEU':return year>=1933&&year<=1944?'#50545a':year<=1917?'#747d89':year<=1932?'#8f886f':'#728b8f';
     case 'DDR':return year<1949?'#bd625d':'#a75558';
     case 'USSR':return '#c74743';
     case 'CHN-COMMUNIST':return year>=1949?'#d5b34b':'#a6784d';
@@ -37,7 +37,7 @@ export function regimeColor(key:string,year:number):string{
     case 'GBR':return '#a78baf';
     case 'CHN':return '#d5b34b';case 'ROC':return '#ddbe64';case 'QING':return '#bb9a46';
     case 'JPN':return year<=1945?'#c47b70':'#bd9d91';
-    case 'FRA':return year<=1791?'#b9b4a1':year<=1799?'#789bab':year<=1814?'#387cc1':year<=1830?'#adab91':year<=1847?'#7a9fbc':year<=1851?'#669ab9':year<=1869?'#456fa8':year<=1940?'#6796ad':year<=1945?'#5c91ad':'#6a9db1';
+    case 'FRA':return year<=1791?'#b9b4a1':year<=1794?'#789bab':year<=1799?'#6599ac':year<=1803?'#4b8baa':year<=1814?'#387cc1':year<=1829?'#adab91':year<=1847?'#7a9fbc':year<=1851?'#669ab9':year<=1869?'#456fa8':year<=1940?'#6796ad':year<=1945?'#5c91ad':year<=1957?'#729daa':'#6a9db1';
     case 'FRA-FREE':return '#528fbc';case 'FRA-VICHY':return '#9598a1';
     case 'ESP-REPUBLIC':return '#9b688f';case 'ESP-NATIONALIST':return '#b7914e';
     case 'ESP':return year===1873?'#a57a9c':year>=1923&&year<=1929?'#8f9365':year<=1930?'#b9a365':year<=1975?'#b7914e':'#c2a880';
