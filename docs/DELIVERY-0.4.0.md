@@ -20,4 +20,14 @@ No son fronteras/frentes diarios ni una validación mundial exhaustiva. España 
 
 ## Publicación
 
-Pendiente de registrar SHA, resultados de Quality, ejecución de Pages y comprobación de la web pública. La existencia del código o de un workflow no acredita publicación.
+Código final publicado: **681f71e040d8b7d07677f30b3189f50bfdf4f44d**, tras la entrega principal f62685dc1103aeff443b010c48001522845b8f02. La revisión final ajusta las transiciones republicanas alemanas de 1918, colores franceses (Consulado/Imperio y Monarquía de Julio desde 1830) y el enlace de España/Primera República/imperio colonial con su identidad.
+
+- [Quality 39719656269](https://github.com/AlejandroPico/Historicmap/actions/runs/39719656269): **correcto sobre el SHA final**. Logs del job 119629933286: 35 recursos, 11 franjas y 417 medios íntegros; **31 pruebas unitarias y 11 pruebas de navegador correctas** (6,6 minutos de navegador), compilación correcta.
+- [Publish atlas 39720348133](https://github.com/AlejandroPico/Historicmap/actions/runs/39720348133): **correcto**. El log de build confirma checkout de 681f71e y archivo `assets/index-BSZARU0D.js`.
+- Comprobación pública: la página sirve ese mismo archivo final, versión visible 0.4.0; manifiesto remoto idéntico a las **35 huellas** locales. Comprobadas por HTTP cuatro banderas/retratos históricos, con huellas idénticas, y visualmente el mapa de 1942 con 169 territorios, ocupación opaca, bandera auténtica y retrato acreditado. La revisión de España 1937 y móvil se comprobó localmente y en los recorridos de CI.
+
+La primera publicación de esta entrega usó el commit principal mientras la corrección final terminaba Quality; esta segunda ejecución es la comprobación de cierre. No confundir el `head_sha` del evento de Pages con el checkout validado: los logs y el archivo servido acreditan la revisión final. El commit posterior de documentación usa `[skip ci]`, sin modificar la aplicación validada.
+
+## Continuación
+
+Priorizar contraste regional de fronteras/control y cobertura de autoridades; completar límites concretos antes de anunciar precisión mundial. La futura categoría de guerras y batallas necesitará eventos propios con actores, intervalos y precisión geográfica, sin inferir batallas de cambios de color.
