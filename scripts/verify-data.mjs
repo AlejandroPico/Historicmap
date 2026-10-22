@@ -19,7 +19,8 @@ for(const entry of fonts.entries){const bytes=await readFile(new URL(entry.file,
 const media=JSON.parse(await readFile(new URL('../public/media/manifest.json',import.meta.url)));
 const files=new Set();
 for(const m of media.entries){
- if(!/^media\/[a-z0-9-]+\.(svg|png|jpg)$/.test(m.file)||!m.license||!m.url)throw Error(`Incomplete media provenance ${m.file}`);
+ if(!/^media\/[a-z0-9-]+\.(svg|png|jpg|webp)$/.test(m.file)||!m.license||!m.url)throw Error(`Incomplete media provenance ${m.file}`);
+ if(m.license.includes('ND')&&(m.display!=='full-frame'||!m.licenseUrl||!m.attributionRequired))throw Error(`No-derivatives image requires full-frame display and license ${m.file}`);
  const bytes=await readFile(new URL('../public/'+m.file,import.meta.url));
  if(createHash('sha256').update(bytes).digest('hex')!==m.sha256||bytes.length!==m.bytes)throw Error(`Invalid media ${m.file}`);
  files.add(m.file);

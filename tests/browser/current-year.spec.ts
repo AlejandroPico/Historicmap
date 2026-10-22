@@ -18,12 +18,13 @@ test('an actual map click in Brazil after a Spanish faction selects Brazil, not 
 
 test('current country tabs, dual authorities and portraits share the left card',async({page})=>{
  test.setTimeout(240000);await year(page,2026);
- for(const name of ['España','Francia','Alemania','Japón','Brasil','Australia','Reino Unido','India']){
+ for(const name of ['España','Francia','Alemania','Japón','Brasil','Australia','Reino Unido','India','Mozambique']){
   await search(page,name);await expect(page.getByRole('tab',{name:'Autoridades',exact:true})).toHaveAttribute('aria-selected','true');
   const card=(await page.locator('#selection').boundingBox())!;expect(card.x).toBe(20);
   await expect(page.locator('#pane-authorities .leader-name').first(),name).toBeVisible();
   const portraits=page.locator('#pane-authorities .leader-portrait');expect(await portraits.count(),name).toBeGreaterThan(0);
   await expect.poll(()=>portraits.evaluateAll(images=>images.every(img=>(img as HTMLImageElement).complete&&(img as HTMLImageElement).naturalWidth>0)),{timeout:15000}).toBe(true);
+  if(name==='Mozambique'){await expect(page.locator('.full-frame-photo')).toHaveCSS('object-fit','contain');await expect(page.locator('.photo-caption')).toContainText('Fotografía íntegra');}
   if(name==='España'){await expect(page.locator('#pane-authorities')).toContainText('Felipe');await expect(page.locator('#pane-authorities')).toContainText('Sánchez');}
   await page.getByRole('tab',{name:'Datos',exact:true}).click();await expect(page.locator('#pane-authorities')).toBeHidden();await expect(page.locator('#pane-facts')).toBeVisible();
   await expect(page.locator('#pane-facts')).toContainText('Población');

@@ -76,3 +76,5 @@ Autoridades se filtra por intersección con el año, no sólo por quien termina 
 appearance.ts resuelve una preferencia manual o la hora local. Cambiar aspecto sólo actualiza CSS/pintura/cielo; no reemplaza fuentes ni geometrías. El océano mantiene luminancia mayor que el fondo. El modo automático se revisa cada minuto y al recuperar visibilidad.
 
 current-affiliations.ts es una instantánea de hechos de pertenencia con fuente y fecha por organización, válida únicamente para 2026. El color se aplica mediante expresión de pintura por código, sin redibujar costas ni inferir membresía de dependencias. La leyenda distingue categorías. Las cifras WDI siguen en feature-state; agrupaciones/estadísticas ocultan la pintura de control para no mezclar lecturas. Los conflictos son contextos parciales fechados por país, nunca una clasificación global de guerra/paz.
+
+El medio oficial de Mozambique utiliza `Media.display: full-frame`: la imagen conserva todo su encuadre, con pie identificativo y vínculo directo a la licencia. El verificador exige este modo para medios ND; no aplicarles el recorte visual de los retratos. El archivo WebP se conserva sin transformaciones.

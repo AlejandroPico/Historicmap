@@ -4,6 +4,7 @@
 
 - Corregida la identidad española que se aplicaba a otros países al comparar identificadores vacíos. Corregida también la sobrescritura de Brasil, Francia, Australia y Kazajistán por metadatos de territorios asociados.
 - Ficha de país a la izquierda, con pestañas Autoridades, Datos, Contexto y Conflictos. Se listan los mandatos que coinciden con el año, incluidos relevos breves y jefaturas de Estado/Gobierno.
+- Fotografía oficial completa de la primera ministra de Mozambique, con atribución y licencia no comercial/sin derivados, conservando el encuadre original.
 - Ampliación mundial de fotografías locales y contraste de autoridades de 2026 con ONU y fuentes nacionales; cobertura y excepciones auditadas en CURRENT-AUTHORITIES.
 - Mañana, tarde, noche y automático en un botón cíclico; hora local del dispositivo, preferencia conservada y océanos más claros que el fondo.
 - Relieve apagado de inicio y disponible como referencia en periodos históricos desde 10.000 a. C.; excluido de reconstrucciones geológicas.

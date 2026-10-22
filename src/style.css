@@ -352,3 +352,8 @@ label{color:var(--text)}
 .maplibregl-ctrl-attrib.maplibregl-compact:after{display:none!important}
 
 .term-current{display:inline-block;color:var(--gold);font-size:8px;line-height:1.6;margin:0 0 6px;padding:2px 5px;border:1px solid var(--line);border-radius:2px}
+
+/* Preserve the complete official photograph: no derivatives or visual crop. */
+.leader-card.full-frame{grid-template-columns:1fr}
+.leader-portrait.full-frame-photo{width:100%;height:auto;object-fit:contain;border-radius:0;background:transparent}
+.photo-caption{font-size:9px!important;line-height:1.6!important;margin:0;color:var(--muted)}

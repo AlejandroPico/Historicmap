@@ -41,8 +41,10 @@ La geometría de cuatro zonas aliadas individuales, Berlín y otras administraci
 
 ## Ampliación 0.5
 
-El inventario se actualiza a **2.858 registros de autoridades** y **830 medios** (342 banderas/símbolos y 488 retratos). Para 2026 hasta el 22 de octubre: 508 registros, 413 personas u órganos y 402 con foto en 231 claves. Son recuentos de fuente antes de consolidar declaraciones repetidas en la ficha. Se añaden 413 retratos respecto a 0.4. Felipe VI, Juan Carlos I y Franco disponen de imagen adjunta en todos sus registros focales.
+El inventario se actualiza a **2.858 registros de autoridades** y **831 medios** (342 banderas/símbolos y 489 fotografías (488 retratos y una escena institucional)). Para 2026 hasta el 22 de octubre: 508 registros, 413 personas u órganos y 403 con foto en 231 claves. Son recuentos de fuente antes de consolidar declaraciones repetidas en la ficha. Se añaden 413 retratos respecto a 0.4. Felipe VI, Juan Carlos I y Franco disponen de imagen adjunta en todos sus registros focales.
 
-El procedimiento, contraste primario de actualidad, once personas pendientes de imagen y fuentes figuran en [CURRENT-AUTHORITIES](CURRENT-AUTHORITIES.md). No confundir archivos, personas, cargos y países. Las correcciones cierran declaraciones obsoletas; los ceses conocidos sólo por límite superior se señalan expresamente y no se presentan como dimisiones exactas.
+El procedimiento, contraste primario de actualidad, diez personas pendientes de imagen y fuentes figuran en [CURRENT-AUTHORITIES](CURRENT-AUTHORITIES.md). No confundir archivos, personas, cargos y países. Las correcciones cierran declaraciones obsoletas; los ceses conocidos sólo por límite superior se señalan expresamente y no se presentan como dimisiones exactas.
 
 Un QID vacío/no válido no identifica a nadie. Esto corrige la contaminación con España republicana cuando una entidad carecía de código reconocido. La ficha por pestañas utiliza el mismo resolver para clic cartográfico y búsqueda. El índice de perfiles separa además territorios asociados de Estados: Brasil no es Isla Brasilera, ni Francia Clipperton.
+
+Un recurso fotográfico oficial de Mozambique usa CC BY-NC-ND 3.0 RS; se publica completo y con atribución, sin derivar un retrato recortado. El caso y la preparación se detallan en CURRENT-AUTHORITIES.

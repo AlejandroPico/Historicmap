@@ -106,7 +106,16 @@ describe('dated flags and political authorities',()=>{
   for(const m of media.entries){
    const bytes=readFileSync(new URL('../public/'+m.file,import.meta.url));
    expect(createHash('sha256').update(bytes).digest('hex'),m.file).toBe(m.sha256);
-   expect(m.license).toBeTruthy();expect(m.url).toMatch(/^https:\/\/commons.wikimedia.org\//);
+   expect(m.license).toBeTruthy();expect(m.url).toMatch(/^https:\/\/(commons.wikimedia.org|www.srbija.gov.rs)\//);
   }
  },20000);
+ it('preserves the complete official meeting photograph and links its restrictive license',()=>{
+  const leader=at('MOZ',2026).leaders.find(l=>l.person==='Q6761049');
+  expect(leader?.portrait?.display).toBe('full-frame');
+  expect(leader?.portrait?.license).toBe('CC BY-NC-ND 3.0 RS');
+  const html=identityMarkup({code:'MOZ',name:'Mozambique'},2026,data,'/');
+  expect(html).toContain('full-frame-photo');expect(html).toContain('Fotografía íntegra');
+  expect(html).toContain('https://creativecommons.org/licenses/by-nc-nd/3.0/rs/deed.en');
+  expect(html).toContain('Slobodan Miljević');
+ });
 });

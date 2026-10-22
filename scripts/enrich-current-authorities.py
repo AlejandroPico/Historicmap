@@ -151,7 +151,7 @@ def portrait(q):
     result=dict(file=relative,title=filename,url=ii.get('descriptionurl','https://commons.wikimedia.org/wiki/File:'+urllib.parse.quote(filename)),artist=clean(meta.get('Artist',{}).get('value','')),license=license,licenseUrl=meta.get('LicenseUrl',{}).get('value','') or ii.get('descriptionurl','')+'#Licensing',attribution=clean(meta.get('Attribution',{}).get('value','')),attributionRequired=license=='Attribution' or meta.get('AttributionRequired',{}).get('value')=='true',credit=clean(meta.get('Credit',{}).get('value','')),sha256=hashlib.sha256(path.read_bytes()).hexdigest(),bytes=path.stat().st_size,sourceUrl=url)
     return q,result
 
-portraits={}
+portraits={l['person']:l['portrait'] for c in countries.values() for l in c['leaders'] if l['person'] in targets and l.get('portrait')}
 for q,result in parallel(portrait,sorted(targets),workers=3):
     if result:portraits[q]=result;media_by_file[result['file']]=result
 for country in countries.values():

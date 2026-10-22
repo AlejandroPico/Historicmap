@@ -6,10 +6,10 @@ Adquisición y contraste: **22 de octubre de 2026**. Esta ampliación prioriza e
 
 - **267 claves de identidad** conservadas, incluidas entidades históricas y dependencias; no equivalen a 267 países soberanos actuales.
 - **2.858 registros de autoridades** en todo el catálogo; **508 registros**, correspondientes a **413 personas o autoridades colectivas**, intersectan el intervalo 1 de enero–22 de octubre de 2026 en **231 claves**.
-- **402 de esas 413 identidades personales/colectivas anuales tienen retrato local**. Dos personas adicionales, Juan Carlos I y Francisco Franco, se incluyeron expresamente en la adquisición focal histórica. Felipe VI también tiene retrato.
-- Manifiesto de **830 medios**: **342 símbolos/banderas y 488 retratos**. Incluye retratos anteriores; no confundir número de archivos, personas, mandatos y claves de país.
+- **403 de esas 413 identidades personales/colectivas anuales tienen fotografía local**. Dos personas adicionales, Juan Carlos I y Francisco Franco, se incluyeron expresamente en la adquisición focal histórica. Felipe VI también tiene retrato.
+- Manifiesto de **831 medios**: **342 símbolos/banderas y 489 fotografías** (488 retratos y una escena institucional completa). Incluye retratos anteriores; no confundir número de archivos, personas, mandatos y claves de país.
 - Las 231 claves con autoridades anuales cuentan con alguna fotografía salvo **Baikonur y Pitcairn**. La ausencia de una imagen individual no elimina el nombre ni autoriza una imagen ficticia. La existencia de una foto en un país tampoco implica que todos sus titulares tengan foto.
-- Se comprobaron los bytes locales contra las **830 huellas SHA-256** del manifiesto y la estructura de sus **488 imágenes raster** con Pillow: sin diferencias ni imágenes corruptas. Los archivos son locales; consultar el mapa no solicita fotografías al proveedor.
+- Se comprobaron los bytes locales contra las **831 huellas SHA-256** del manifiesto y la estructura de sus **489 imágenes raster** con Pillow: sin diferencias ni imágenes corruptas. Los archivos son locales; consultar el mapa no solicita fotografías al proveedor.
 
 ## Selección temporal y correcciones
 
@@ -45,7 +45,7 @@ La metadata general de Wikidata es CC0; sus afirmaciones pueden estar incompleta
 
 ## Fotografías pendientes
 
-Después de consultar P18 y las imágenes libres enlazadas a las fichas individuales, permanecen **11 autoridades anuales sin retrato local acreditado**:
+Después de consultar P18 y las imágenes libres enlazadas a las fichas individuales, permanecen **10 autoridades anuales sin retrato local acreditado**:
 
 | QID | Persona | Ámbito |
 | --- | --- | --- |
@@ -59,7 +59,6 @@ Después de consultar P18 y las imágenes libres enlazadas a las fichas individu
 | Q16215208 | Shawn Christian | Pitcairn, administración local |
 | Q19861743 | Konstantín Busygin | Baikonur, administración local |
 | Q24237654 | Haibatulá Ajundzadá | Afganistán, autoridad de facto |
-| Q6761049 | Maria Benvinda Levy | Mozambique |
 
 No se utilizaron fotografías no libres ofrecidas sólo bajo uso legítimo local de Wikipedia, ni imágenes oficiales cuya licencia de redistribución no estuviera acreditada. Las fichas oficiales pueden contener una foto y, aun así, no conceder permiso para redistribuirla. Siguiente paso: localizar originales libres o solicitar licencias concretas; mantener la identidad y el cargo durante esa investigación.
 
@@ -69,10 +68,19 @@ No se utilizaron fotografías no libres ofrecidas sólo bajo uso legítimo local
 
 `scripts/current-portrait-overrides.json` contiene alternativas libres verificadas mediante la ficha individual cuando P18 faltaba o no resolvía una fotografía utilizable. No es una búsqueda difusa de homónimos.
 
-Orden de una reconstrucción completa: `prepare-identities.py` → `curate-current-authorities.py` → `enrich-current-authorities.py` → registro del recurso → verificación. El preparador base también elimina el antiguo tope de 80 retratos y conserva los archivos del manifiesto previo. Una actualización incremental ordinaria sólo ejecuta curación y enriquecimiento. `audit-un-authorities.py` compara nombres con la extracción local del PDF primario; sus diferencias requieren revisión humana antes de modificar datos. Los PDF y respuestas de adquisición se mantienen en `.cache/identities/`, fuera de Git.
+Orden de una reconstrucción completa: `prepare-identities.py` → `curate-current-authorities.py` → `enrich-current-authorities.py` → `fetch-official-portrait.py` → registro del recurso → verificación. El preparador base también elimina el antiguo tope de 80 retratos y conserva los archivos del manifiesto previo. Una actualización incremental ordinaria sólo ejecuta curación y enriquecimiento. `audit-un-authorities.py` compara nombres con la extracción local del PDF primario; sus diferencias requieren revisión humana antes de modificar datos. Los PDF y respuestas de adquisición se mantienen en `.cache/identities/`, fuera de Git.
 
-No afirmar «todos los dirigentes del mundo tienen foto» ni «todas las sucesiones anuales están completas». La ampliación resuelve gran parte del vacío visual detectado, conserva los once faltantes de forma explícita y deja un procedimiento reproducible para completarlos.
+No afirmar «todos los dirigentes del mundo tienen foto» ni «todas las sucesiones anuales están completas». La ampliación resuelve gran parte del vacío visual detectado, conserva los diez faltantes de forma explícita y deja un procedimiento reproducible para completarlos.
 
 Contrastes focales adicionales de la entrega: [jefatura británica actual](https://www.gov.uk/government/ministers/prime-minister), [nombramiento de Andy Burnham el 20/07/2026](https://www.gov.uk/government/speeches/andy-burnhams-first-speech-as-prime-minister-20-july-2026), [Gobierno francés](https://www.info.gouv.fr/composition-du-gouvernement) y [Gabinete japonés](https://www.cao.go.jp/en/minister/index.html).
 
 Francia: el primer nombramiento de Sébastien Lecornu terminó el 6/10/2025; el [decreto de nuevo nombramiento del 10/10/2025](https://www.legifrance.gouv.fr/loda/id/LEGIARTI000052382966) se conserva como periodo separado. La fuente de la dimisión figura en el registro anterior.
+
+
+## Fotografía institucional de Mozambique
+
+La fotografía de Maria Benvinda Levi con Đuro Macut, publicada por el [Gobierno de Serbia el 31/08/2026](https://www.srbija.gov.rs/vest/en/286105/serbia-mozambique-strengthening-bilateral-relations.php), se acredita a Slobodan Miljević. La presentación oficial declara [CC BY-NC-ND 3.0 Serbia](https://creativecommons.org/licenses/by-nc-nd/3.0/rs/deed.en). Se conserva el WebP original completo, con huella, título, fotógrafo, fuente y licencia, sin recortar ni transformar el archivo. La ficha utiliza `display: full-frame`, mantiene toda la imagen y explica quién aparece a la izquierda. No sustituir este modo por un recorte de retrato ni usar este recurso con fines comerciales.
+
+`fetch-official-portrait.py` reproduce la adquisición y adjunta la foto por QID Q6761049; se ejecuta después del enriquecimiento general. El verificador exige marco completo y atribución para imágenes ND. Las fotografías Commons conservan sus propias licencias y no adoptan la licencia de este archivo. Los permisos del código y de otros datasets siguen separados.
+
+Se buscaron también imágenes oficiales y Commons por los nombres de los regentes recientes de San Marino y Lindsay de Sausmarez. La [Regencia](https://www.reggenzadellarepubblica.sm/pub1/ReggenzaSM/Capitani_Reggenti/Capitani_Reggenti_In_Carica.html) identifica copyright institucional sin permiso abierto localizado; las [condiciones del Parlamento de Guernsey](https://parliament.gg/information/terms-and-conditions) permiten estudio privado/investigación/circulación interna y no acreditan una autorización amplia para publicar el retrato en el atlas. No se utilizó ausencia de P18 como único criterio de búsqueda.
