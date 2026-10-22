@@ -10,7 +10,7 @@
 - Relieve apagado de inicio y disponible como referencia en periodos históricos desde 10.000 a. C.; excluido de reconstrucciones geológicas.
 - Eliminado Explorar épocas y el rótulo de escala adaptativa. Leyenda a la derecha, atribución/escala a la izquierda y fuentes en un panel compacto sin fondo modal.
 - Capas 2026 de OTAN, UE, BRICS y Tres Mares; categorías separadas y fuentes oficiales. Rampa económica verde y contextos parciales de conflictos con fuentes.
-- Pruebas de regresión con clic cartográfico enBrasil 1947 después de consultar un bando español, claves de territorios, pestañas, temas y alcance temporal de membresías.
+- Pruebas de regresión con clic cartográfico en Brasil 1947 después de consultar un bando español, claves de territorios, pestañas, temas y alcance temporal de membresías.
 
 ## 0.4.0 · 2026-10-22
 
