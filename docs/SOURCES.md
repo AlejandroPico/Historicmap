@@ -2,13 +2,23 @@
 
 Fecha de investigación inicial: 21 de octubre de 2026. Ampliación histórica/económica: 22 de octubre de 2026. URLs, revisiones y transformaciones concretas en `public/data/manifest.json`. Se conservan las coordenadas de las bases; los polígonos contextuales derivados se identifican expresamente.
 
-## Revisión anual y nuevas capas de 0.3
+## Ampliación 0.4
 
-Ver [ANNUAL-REVIEW.md](ANNUAL-REVIEW.md): inventario de **todos los años 1900–año del dispositivo**, diferencias y excepciones. No se considera certificación manual exhaustiva.
+- `early-modern.geojson`: 1.715 registros componentes de Cliopatria para 1789–1885, coordenadas originales, sin duplicar las uniones agregadas. Intervalos inclusivos y MemberOf conservado; sin fecha diaria uniforme. CC BY 4.0. Las áreas no cubiertas tienen fondo costero contemporáneo gris sin identidad política atribuida.
+- `history.topojson`: incorpora ahora todos los 710 registros CShapes desde 1886; cambia el filtro temporal, no las coordenadas ni la licencia NC-SA.
+- `historical-control.geojson`: 57 registros Cliopatria para potencias centrales en 1914–1918, extensiones de Alemania/Japón/Italia/URSS, Croacia, Vichy y control comunista chino. Colores opacos por potencia, relaciones diferenciadas; aliados no clasificados automáticamente como clientes. CC BY 4.0. Sustituye en navegación a `ww2.geojson`, que se conserva como fuente de la entrega anterior.
+- `spanish-civil-war.geojson`: siete registros 1936–1939. Frentes Cliopatria y vector de octubre de 1937 de Tyk / Té y kriptonita, georreferenciado, con exterior Natural Earth. [Transformación, incertidumbre ≥10 km y atribución](SPANISH-CIVIL-WAR.md). CC BY 4.0 para 1936/1938/1939, CC BY-SA 3.0 para 1937, costa en dominio público. No mezcla con geometrías NC-SA de CShapes.
+- `identities.json` y `media/manifest.json`: [autoridades, banderas y retratos](IDENTITIES.md), con intervalos y licencias por imagen. Wikidata CC0 para metadatos no implica CC0 para las imágenes. Sin sustitutos actuales en épocas no documentadas.
+
+Reconstruir con `scripts/acquire-history.py`, `scripts/prepare-history.py`, `scripts/prepare-extended-history.py`, `scripts/prepare-spanish-fronts.py` y `scripts/prepare-identities.py`; después `node scripts/register-political-data.mjs`, `npm run data:audit` y `npm run data:verify`. La preparación de frentes requiere Shapely 2.2.0, NumPy y pyproj 3.7.2; son herramientas de construcción, no dependencias del navegador. No se consulta ninguna fuente remota al compilar.
+
+## Base de datos conservada y ampliada
+
+Ver [ANNUAL-REVIEW.md](ANNUAL-REVIEW.md): inventario de **todos los años 1789–año del dispositivo**, diferencias y excepciones. No se considera certificación manual exhaustiva.
 
 | Recurso | Origen y alcance | Transformación y licencia |
 | --- | --- | --- |
-| `history.topojson` | [CShapes 2.0, ETH Zürich](https://icr.ethz.ch/data/cshapes/), GW con dependencias, 640 registros que alcanzan 1900–2019 | TopoJSON no cuantizado del paquete R 2.0, coordenadas intactas; se conservan estatus, administrador y capital. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), texto local LICENSE-CShapes.txt. |
+| `history.topojson` | [CShapes 2.0, ETH Zürich](https://icr.ethz.ch/data/cshapes/), GW con dependencias, 710 registros que alcanzan 1886–2019 | TopoJSON no cuantizado del paquete R 2.0, coordenadas intactas; se conservan estatus, administrador y capital. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), texto local LICENSE-CShapes.txt. |
 | `ww2.geojson` | [Cliopatria, Seshat](https://github.com/Seshat-Global-History-Databank/cliopatria), 20 registros de Alemania/Japón/Italia para 1938–1944 | Selección temporal, nombres en español y notas; coordenadas intactas. CC BY 4.0. No fija un día uniforme dentro del año ni distingue exhaustivamente anexión, influencia y ocupación. |
 | `territorial-overlays.geojson` | Diferencias espaciales de CShapes: Ucrania 2013/2014, Egipto 1966/1968 y Siria 1966/1968 | Cinco registros, polígonos calculados con Shapely y notas documentales. Derivados CC BY-NC-SA 4.0. Sin dibujar a mano la costa ni inventar fases de retirada. |
 | `cities.geojson` | [Natural Earth populated places 1:10m](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/), mismo commit de países | 323 capitales nacionales, world cities o lugares con POP_MAX ≥ 2,5 millones. Dominio público. POP_MAX sólo filtra/ordena: **no se publica como población urbana fechada**. Uso contemporáneo desde 2020; antes se extraen capitales históricas del registro CShapes. |

@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.4.0 · 2026-10-22
+
+- Cronología anual ampliada a 1789: componentes Cliopatria 1789–1885 y todos los registros CShapes desde 1886, sin retrotraer un mapa futuro por cercanía. Inventario de 238 selecciones hasta 2026.
+- Control territorial opaco por potencia, con Alemania nazi gris, URSS roja, Estados Unidos azul y familias políticas diferenciadas. Colores de regímenes franceses y españoles; dependencias, aliados, ocupación y gobiernos clientes separados.
+- Extensiones de ambas guerras mundiales, regímenes de Croacia y Vichy y control comunista chino. Hungría aliada no se equipara a Hungría ocupada en 1944.
+- Guerra Civil española: dos bandos en 1936/1937/1938 y resultado de 1939. Frente de octubre de 1937 georreferenciado con fuentes, atribución e incertidumbre; sin interpolación de provincias.
+- Fichas integradas con bandera histórica, nombre, autoridades y retratos reales con licencia. Series focales de EEUU, España, Alemania, URSS y Francia, y catálogo global de mandatos con cobertura desigual. No se asignan dirigentes actuales a periodos sin documentación ni banderas de RFA/RDA a la ocupación anterior a 1949.
+- Búsqueda de bandos y áreas controladas, fichas comunes a búsqueda/clic y tratamiento de mandatos repetidos. Metadatos e imágenes locales, sin llamadas a Wikidata/Commons al navegar.
+- Fuentes y fichas extraídas a módulos propios; pruebas geográficas, de identidades, de periodos, integridad de medios y navegador. Límites y continuación documentados.
+
 ## 0.3.0 · 2026-10-22
 
 - Selección por intervalos de vigencia para 1900–2019, con CShapes 2.0: colonias, protectorados, mandatos, administradores y capitales históricas. 1942 deja de seleccionar el mapa de 1945.

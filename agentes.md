@@ -1,6 +1,6 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **22 de octubre de 2026**. Versión del producto: **0.3.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **22 de octubre de 2026**. Versión del producto: **0.4.0**.
 
 ## 1. Identidad y visión
 
@@ -23,42 +23,38 @@ El horizonte completo incluye evolución continental, océanos, glaciaciones, re
 9. SQLite es admisible si ayuda; no es obligatorio ni debe añadirse sin necesidad.
 10. Este archivo debe registrar visión, planes, tecnologías, funciones, decisiones y continuidad entre asistentes. La documentación debe ser profesional, sin comparaciones con productos de entretenimiento ni referencias promocionales a modelos.
 
-## 3. Estado real de la versión 0.3.0
+## 3. Estado real de la versión 0.4.0
 
 ### Implementado
 
-- Aplicación estática TypeScript/Vite/MapLibre con mapa Mercator y globo, worker local explícito, búsqueda y selección. No hay backend, cuentas, claves privadas, analítica ni SQLite.
-- Se conserva el diseño compacto 0.2: herramientas superiores, capas desplegables, contexto izquierdo, regla desplazable con cursor fijo y zoom temporal independiente. No restaurar franjas o controles retirados.
-- Año máximo obtenido mediante `new Date().getFullYear()`; no confundir extremo dinámico con conocimiento de fronteras futuras. La referencia contemporánea se incorporó en 2026.
-- **1900–2019**: periodos activos de CShapes 2.0, edición GW **con dependencias** del paquete R. 640 registros relevantes, conservando coordenadas, estatus, administrador, capital y fechas inclusivas. Se selecciona el **31 de diciembre** de cada año. El GeoJSON directo de ETH pierde propiedades de administración; no sustituir por él la fuente del paquete R.
-- Colores políticos por potencia administradora: las colonias mantienen ficha y entidad propias, compartiendo color con su administrador. Nombres contextuales de imperio ruso/URSS/Rusia, Alemania nazi, zonas de ocupación de 1945 y RFA/RDA desde 1949.
-- **1938–1944**: 20 registros Cliopatria de Alemania, Japón e Italia, superpuestos como extensión territorial/ocupación. La fuente proporciona síntesis anual sin día uniforme; no denominarla frente exacto de fin de año. 1942 ya no utiliza 1945.
-- Ocupaciones/disputas: cinco registros de Crimea desde 2014, Sinaí 1956, Sinaí 1967–1978, zona de retirada parcial 1979–1981 y Golán desde 1967. Geometrías derivadas por diferencias entre registros CShapes. Desde 1967 la base de Egipto/Israel/Siria utiliza sus geometrías de 1966 para no equiparar ocupación a incorporación soberana. Las notas explican alcance y excepciones.
-- **2020–año del dispositivo**: referencia contemporánea Natural Earth 1:10m, 258 entidades; NO instantáneas históricas independientes por año. Se identifica el año de incorporación (2026), sin atribuir vigencia diaria. Las geometrías base de Natural Earth no han cambiado.
-- Fichas ampliadas, iguales al pulsar y buscar: capital/sede, estatus histórico, potencia administradora, registro temporal, contexto focal y datos económicos/demográficos cuando existe correspondencia fiable. Estados Unidos actual incluye información federal y hasta seis indicadores.
-- Banco Mundial WDI local: población, PIB nominal, PIB por habitante, superficie, esperanza de vida y porcentaje urbano, desde 1960. Última observación no posterior al año consultado, retraso máximo cinco años, año mostrado por cifra. Sin extrapolar, ni confundir URSS/Yugoslavia/RDA con estadísticas actuales de sucesores. Las series son de economías publicadas, no de una integración espacial recalculada sobre fronteras pasadas.
-- Capas temáticas de PIB, PIB por habitante y población, con leyenda de fechas realmente presentes y gris para ausencia. Antes de 1960 se restablece el color político; no quedan mapas grises por una selección económica heredada.
-- 323 capitales y grandes ciudades contemporáneas, de Natural Earth. POP_MAX sólo filtra/ordena, no se publica como población urbana fechada. Para 1900–2019, capitales del registro CShapes; para épocas anteriores se conservan los tres lugares introductorios. No llevar capitales modernas al pasado.
-- Conservadas las 13 instantáneas Historical Basemaps y 12 CAO2024 originales. Los años posteriores a 1900 de la colección antigua dejan de elegirse en navegación normal. Antes de 1900 se mantiene selección aproximada; geología y escenas sin cartografía siguen señaladas.
-- Reproducción reciente anual: espera descarga/aplicación antes de avanzar, pausa invalida la continuación y se conserva la geometría anterior mientras carga, con indicador explícito. Las solicitudes comparten caché y descargas en curso; una cola y contador descartan fechas obsoletas. No cancelar/repetir un archivo temporal durante cada paso.
-- La caché conserva el archivo temporal/perfiles/ciudades/capas y limita a tres las instantáneas antiguas/geológicas retenidas. Las geometrías temporales se decodifican/reutilizan por fid. No se reenvía la fuente territorial si su firma no cambia. La URL se actualiza como máximo cuatro veces por segundo.
-- 31 recursos en el manifiesto, con versiones, transformaciones, licencias y SHA-256. Archivos de origen R/zip con huellas verificadas. CShapes y derivados **CC BY-NC-SA 4.0**, Cliopatria **CC BY 4.0**, WDI **CC BY 4.0 con términos adicionales**, recursos originales conservan sus licencias; no atribuir automáticamente estas licencias al código del propietario.
-- `docs/ANNUAL-REVIEW.md`: inventario de cada año 1900–actualidad, cambios de registros, fuentes, huellas y excepciones. Auditoría automática de cobertura/identidad + contrastes focales; **no revisión manual exhaustiva de todas las coordenadas de 127 mapas**.
-- Relieve actual opcional de AWS Terrarium, desactivado en el pasado; no reconstruye altitudes antiguas. Diseño móvil, teclado, foco, diálogos y enlaces compartibles.
-- «Acerca de» mantiene favicon, versión procedente de package.json, historial y enlaces confirmados a repositorio y portfolio: https://alejandropico.github.io/Portfolio/ .
-- GitHub Actions valida e instala la aplicación; Pages publica sólo tras Quality correcto de main. Estado final de esta entrega en `docs/DELIVERY-0.3.0.md`.
+- Aplicación estática TypeScript/Vite/MapLibre, mapa Mercator y globo, worker local explícito, selección/búsqueda local. Sin backend, cuentas, claves privadas, analítica ni SQLite. Se conserva toda la interfaz compacta 0.2: seis herramientas superiores, capas desplegables, contexto izquierdo, regla desplazable con cursor fijo y zoom temporal independiente.
+- Año máximo del dispositivo, con referencia contemporánea incorporada en 2026; no se inventan datos al cambiar el reloj. Cronología y saltos/reproducción anuales desde **1789**. La reproducción comparte descargas, espera el mapa y conserva la geometría anterior durante la carga; pausa y contador impiden avances/respuestas obsoletos.
+- **1789–1885:** 1.715 registros componentes Cliopatria, intervalos inclusivos y coordenadas intactas, sin uniones agregadas duplicadas. Síntesis anuales sin día uniforme. Áreas sin entidad en el inventario en gris sobre costa contemporánea de referencia; no equivalen a territorios vacíos de población o sin organización política. Nombre original, Wikidata y MemberOf conservados.
+- **1886–2019:** los **710 registros** CShapes 2.0 GW con dependencias del paquete R, conservando geometrías, administrador, capital, estatus y fechas; selección **31 de diciembre**. No sustituir por el GeoJSON directo que omite estatus/administración.
+- **2020–año del dispositivo:** Natural Earth 1:10m, 258 entidades, referencia incorporada en 2026; no serie independiente de cada año ni mapa diario del control militar. Continúan los 26 snapshots originales para trazabilidad y los dominios anteriores/geológicos. Antes de 1789 la selección histórica sigue siendo aproximada.
+- **Control territorial:** 57 registros Cliopatria de potencias centrales 1914–1918, Alemania/Japón/Italia/URSS durante WWII, Croacia, Vichy y control comunista chino. Capas separadas de la base; activadas comparten color opaco por potencia, desactivadas recuperan los territorios. Países aliados no se convierten automáticamente en títeres; Croacia y Vichy se diferencian con tonos claros. Hungría anterior a 1944 no se representa como ocupación alemana de 1944.
+- **Guerra Civil española:** siete registros (dos bandos en 1936, 1937 y 1938; resultado franquista de 1939), península y Baleares. Frentes Cliopatria de 1936/1938 y frente vectorial de **octubre de 1937** de Tyk / Té y kriptonita georreferenciado con 15 puntos, residuo medio 4.954 m, máximo 7.385 m e incertidumbre mínima declarada **10 km**. Exterior Natural Earth PD, particiones complementarias sin solapamientos/huecos. No son frentes diarios/de fin de año. Véase SPANISH-CIVIL-WAR.
+- **Colores por régimen:** Alemania nazi gris oscuro, URSS roja, EEUU azul, familias chinas amarillas/ocres y Japón distinguible; Francia monárquica, republicana, napoleónica y restaurada diferenciadas; bandos españoles distintos y cambio al vencedor. Colonias de CShapes comparten color del administrador. Es una convención editorial, no un hecho que se deduzca de la bandera. Otros regímenes aún necesitan curación específica; la arquitectura admite ampliarlos.
+- **Fichas integradas:** bandera/símbolo histórico junto al nombre, dirigente y retrato antes de hechos/contexto; mismas fichas en clic y búsqueda, incluidos bandos/ocupaciones. Catálogo de **267 claves y 2.859 registros de autoridades**, no 267 series completas ni igual número de personas. Se distinguen jefe de Estado/Gobierno, partido y autoridades rivales. Se consolidan duplicados de la misma persona y se prioriza la autoridad principal según el sistema político focal.
+- Banderas auténticas, incluida Alemania 1935–1945; variantes RFA/RDA por fecha, sin bandera nacional inventada en la ocupación anterior a 1949. Francia de 1789 usa **estandarte real** identificado. Presidencias de EEUU con mandatos reales y periodos no consecutivos; sucesión española, incluido Fernando de Santiago en funciones en julio de 1976. Azaña/Negrín o Largo Caballero en la zona republicana, Franco en el otro bando. Autoridades colectivas francesas sin retrato individual inventado.
+- Identidades a cierre anual, limitadas a adquisición/día del dispositivo en presente; un futuro reloj no extrapola dirigentes/símbolos. Declaraciones sin fecha no se proyectan al pasado; colonias sin identidad documentada no heredan dirigentes de la independencia. Imagen ausente se omite conservando el nombre; autoridad no documentada se indica. Metadatos Wikidata CC0 e imágenes con **licencia propia**, locales, sin consultas al proveedor durante la visita. Detalles y fuentes en IDENTITIES.
+- Crimea, Sinaí y Golán mantienen sus cinco registros contextuales y notas; la base egipcia/israelí/siria desde 1967 conserva geometría de 1966 para separar ocupación/incorporación. No resuelve por sí sola todo el Levante. Crimea se contextualiza conforme a A/RES/68/262, no como anexión reconocida.
+- Fichas con capital, estatus, administrador, contexto y seis indicadores WDI desde 1960: población, PIB, PIB/habitante, superficie, esperanza de vida, porcentaje urbano. Último dato no futuro con retraso máximo cinco años y año visible; sin extrapolar ni asignar URSS/Yugoslavia/RDA a sus sucesores. Temas de PIB/PIB-habitante/población aplicados sólo a pintura con feature-state; no se reteselan costas por indicador. Índice de códigos NE/WDI evita fusionar entidades con `-99`.
+- 323 capitales/grandes ciudades actuales desde 2020 y capitales de cada registro CShapes en 1886–2019. Los tres puntos introductorios permanecen sólo en dominios históricos anteriores. Antes de 1886 no se inventan capitales ausentes. Relieve actual opcional AWS Terrarium, inactivo en pasado; no altitudes reconstruidas.
+- Datos y medios con versiones, atribución, transformaciones y SHA-256: **35 recursos geográficos/estadísticos/de identidad**, 11 franjas Noto Sans PBF OFL y manifiesto separado de medios. Los SVG/fotografías originales se tratan como binarios en Git para mantener sus huellas; JSON preparado usa LF explícito. CShapes/derivados NC-SA separados de Cliopatria BY y frente 1937 BY-SA; no mezclar licencias en un derivado.
+- Auditoría automática **1789–año del dispositivo**, cambios y excepciones en ANNUAL-REVIEW. No se presenta como cotejo manual exhaustivo. Pruebas geográficas de localidades, bandos, imperios, identidades y periodos, además de navegador. Quality/Pages conservan el flujo y permisos. Estado de entrega final en DELIVERY-0.4.0.
+- About con identidad/favicon/versión/historial y enlaces confirmados al repositorio y https://alejandropico.github.io/Portfolio/ . Sin publicidad de proveedores ni comparaciones de entretenimiento.
 
 ### Límites y trabajo restante
 
-- **No afirmar exactitud política exhaustiva 1900–2026.** CShapes omite cambios menores de 10.000 km², algunas ocupaciones temporales, Estados pequeños y límites inciertos; fechas convencionales en algunos registros. 2020–actualidad mantiene una base contemporánea, sin serie global de control efectivo verificada.
-- Faltan frentes diarios de ambas guerras mundiales, delimitación completa de administraciones de ocupación, partición germano-soviética de Polonia de 1939, frentes del Donbás y de la invasión de Ucrania desde 2022, control militar reciente mundial, fases geométricas de retirada del Sinaí y Taba (1982–1989). Los polígonos de extensión de Cliopatria no sustituyen una cartografía militar detallada.
-- Crimea se explica como territorio ucraniano bajo ocupación y anexión reclamada por Rusia desde 2014 conforme al contexto de A/RES/68/262, nunca como transferencia de soberanía reconocida por esa resolución. El contorno discontinuo no actualiza los demás frentes. El Golán no lleva una reconstrucción de cambios de control desde 2024.
-- La base de 1966 para Egipto/Israel/Siria separa ocupación de incorporación, pero no resuelve por sí sola todas las controversias de soberanía, líneas de armisticio, Jerusalén, Gaza y Cisjordania. No denominarla atlas jurídico exhaustivo.
-- Natural Earth 1:10m es generalización mundial; el objetivo de máxima resolución costera sigue pendiente. La teselación de 0,2 píxeles evita desbordes GPU y no modifica las coordenadas base. No aumentar la generalización para ocultar un problema.
-- No hay fronteras históricas continuas antes de 1900; las instantáneas antiguas pueden ser aproximadas/anacrónicas y no están auditadas exhaustivamente.
-- CAO2024 representa reconstrucciones continentales, no paleocostas exactas ni biomas, clima, atmósfera, nivel del mar o relieve. Antes de 1.800 Ma y entre 1 Ma y 10.000 a. C. se sigue indicando falta de geometría y escena conceptual/contexto.
-- No se implementan áreas de homininos, migraciones, glaciaciones, animación de Theia/formación lunar, vida, batallas o simulaciones físicas. No trasladar estas aspiraciones a funciones completadas.
-- Relieve y fuentes tipográficas de interfaz requieren conexión. Las letras del mapa utilizadas se alojan localmente, 11 franjas Noto Sans PBF con licencia OFL y huellas en public/fonts/manifest.json. No PWA ni garantía offline completa. Las fichas/series y geometrías nuevas son locales, sin llamadas al Banco Mundial durante la visita.
+- **No afirmar exactitud política mundial exhaustiva 1789–actualidad ni fichas completas de todos los países/épocas.** Los registros de fuente y los contrastes focales se distinguen de una validación historiográfica integral. El inventario de autoridades tiene vacíos, fechas de precisión desigual y registros globales aún sin contraste primario.
+- CShapes omite cambios pequeños, muchos frentes temporales y Estados; Cliopatria es una reconstrucción con periodización y resolución desiguales. Las extensiones anuales pueden representar momentos distintos dentro del año. La costa contemporánea de máxima resolución sigue pendiente; no degradar coordenadas para ocultar fallos.
+- Guerra Civil: faltan frentes mensuales/diarios, cierre exacto de diciembre de 1936/1938, ofensiva de Cataluña, fases de Teruel, enclaves pequeños, Canarias y control colonial completo. El frente de octubre de 1937 conserva incertidumbre ≥10 km además de la de la fuente.
+- Faltan delimitación completa de administraciones de ocupación, cuatro zonas aliadas individuales y sectores de Berlín; la base occidental sigue agrupada. Faltan partición germano-soviética detallada de Polonia, muchos frentes de ambas guerras mundiales y guerra civil rusa. Las fichas no acreditan geometría ausente.
+- Sin serie verificada de control efectivo mundial desde 2020, frentes Donbás/Ucrania desde 2022, fases geométricas del Sinaí y Taba 1982–1989, ni resolución exhaustiva de armisticios/estatus del Levante y cambios recientes del Golán. No inferirlos de los polígonos existentes.
+- Completar banderas, autoridades coloniales, predecesores y regímenes por regiones con bibliografía; no toda persona tiene retrato ni todo país una serie continua. Los retratos identifican a la persona y no son fotografías correspondientes a cada año.
+- CAO2024 no reconstruye clima, atmósfera, hielo, biomas, relieve ni paleocosta exacta. Antes de 1.800 Ma y en intervalos prehistóricos sin geometría se mantienen escenas/contexto declarados. Homininos, migraciones, glaciaciones, Theia/impactos, vida y simulaciones físicas siguen pendientes.
+- Guerras y batallas como **eventos puntuales con categoría propia**, actores, fechas y precisión, siguen en roadmap para siguiente entrega; los frentes/control no sustituyen batallas documentadas. Relieve y tipografías de UI requieren conexión; medios y datos locales no implican PWA/offline completo.
 
 ## 4. Tecnologías y estructura
 
@@ -71,6 +67,10 @@ src/time.ts                cronología, año del dispositivo y selección por do
 src/history.ts             periodos, identidades, dependencias, geometrías y capitales
 src/data.ts                caché compartida, carga temporal y capas
 src/profiles.ts            observaciones fechadas, temas, formato y leyenda
+src/political.ts           familias y colores políticos/de control
+src/identities.ts          símbolos, dirigentes y selección temporal
+src/country-card.ts        ficha integrada común a búsqueda y mapa
+src/methodology.ts         fuentes y alcance visibles
 src/recent-context.ts      contexto focal 1900–actualidad y fuentes
 src/catalog.ts             contexto de épocas y lugares introductorios
 src/style.css              sistema visual, disposiciones y adaptación
@@ -127,7 +127,7 @@ Entrega priorizada por solicitud del propietario: intervalos territoriales 1900�
 - Mejorar materiales de superficie y relieve, iluminación, batimetría y transiciones, manteniendo legibilidad política y rendimiento.
 - Módulos separados para motor cartográfico, aplicación de capas, UI, cronología y repositorios de datos; el archivo inicial `main.ts` es deliberadamente compacto y debe separarse antes de ampliarlo mucho.
 
-### 0.4 · Historia política verificable
+### 0.4 · Historia política verificable — primera ampliación implementada, contrastes regionales pendientes
 
 - Extender los contrastes focales 0.3 a una revisión historiográfica por regiones y conflictos; completar 2020–actualidad y corregir las excepciones del informe anual. Incorporar fuentes de mayor detalle donde CShapes omite cambios.
 - Modelo de entidades persistentes con nombres e identidades históricas, relaciones de dependencia y periodos de validez.
@@ -193,7 +193,7 @@ La compilación no necesita credenciales ni acceso a las fuentes científicas: G
 
 ## 10. Validación y relevo
 
-La entrega comprueba los 31 recursos y sus huellas, invariantes temporales y año dinámico, selección de cada año 1900–2019, ausencia de identidades duplicadas, Alemania anterior/posterior a 1945/1949, dependencia/independencia de India y Argelia, Egipto/Siria/Israel, activación de Crimea, ciudades, capitales y ausencia de estadísticas futuras. En navegador se comprueban todos los años 1900–actualidad, reproducción/pausa, peticiones lentas y fechas obsoletas, fichas, economía, móvil, cartografía antigua/geológica, GPU y controles compactos. Registrar resultados finales reales en `docs/DELIVERY-0.3.0.md`, sin dar por superado un test que sólo se ha escrito.
+La entrega 0.3 comprobó los 31 recursos y sus huellas, invariantes temporales y año dinámico, selección de cada año 1900–2019, ausencia de identidades duplicadas, Alemania anterior/posterior a 1945/1949, dependencia/independencia de India y Argelia, Egipto/Siria/Israel, activación de Crimea, ciudades, capitales y ausencia de estadísticas futuras. En navegador se comprueban todos los años 1900–actualidad, reproducción/pausa, peticiones lentas y fechas obsoletas, fichas, economía, móvil, cartografía antigua/geológica, GPU y controles compactos. Registrar resultados finales reales en `docs/DELIVERY-0.3.0.md`, sin dar por superado un test que sólo se ha escrito.
 
 Para reconstruir datos: consultar `docs/SOURCES.md`, `scripts/acquire-history.py`, `scripts/fetch-modern.mjs`, `scripts/prepare-history.py` y `scripts/build-review.mjs`. Shapely 2.2.0 es herramienta de preparación, no dependencia del navegador. `.cache/` y `.tools/` son locales ignorados. `npm run data:audit` regenera el inventario hasta el año del sistema; `data:verify` no certifica exactitud histórica.
 
@@ -201,10 +201,21 @@ Siguiente prioridad: **completar excepciones históricas y control efectivo reci
 
 La actualización incremental de fuentes se implementa en source-diff.ts y se comprueba con pruebas de diferencias; sólo se envían entidades modificadas al worker. Las pruebas de navegador usan la compilación de producción en el puerto 5174, con un único worker para no saturar el renderizado por software; compilar antes de ejecutarlas.
 
-## 11. Cierre verificado de 0.3.0
+## 11. Cierre verificado de 0.3.0 (histórico)
 
 Código publicado: **6952e1baf384bc0c75a59dcf7bf6dc2cff9cc882**. [Quality 39693996198](https://github.com/AlejandroPico/Historicmap/actions/runs/39693996198) correcto: 31 recursos y 11 franjas de letras íntegros, **16 pruebas unitarias y 9 recorridos de navegador** correctos, compilación correcta. [Publish atlas 39694346487](https://github.com/AlejandroPico/Historicmap/actions/runs/39694346487) correcto. Comprobada la web pública: versión 0.3.0, mapa de 1942 con 169 territorios y capa de guerra, manifiesto remoto idéntico a las 31 huellas locales y letras locales disponibles. Detalle en `docs/DELIVERY-0.3.0.md`.
 
 Las estadísticas modifican sólo la pintura mediante `feature-state`; no se reenvían ni teselan costas al cambiar PIB/población. Un índice explícito resuelve códigos Natural Earth/Banco Mundial, evitando fusionar territorios con código desconocido `-99`. Abrir una ficha pausa la reproducción. Los datos preparados usan LF explícito y los archivos PBF son binarios en Git; no eliminar esta protección de integridad entre plataformas.
 
 El último commit de documentación registra el cierre con `[skip ci]`, sin alterar la aplicación validada. La auditoría anual y los contrastes focales no certifican exactitud exhaustiva: completar frentes y control efectivo reciente, detalles territoriales omitidos y resolución de costa sigue siendo la siguiente prioridad.
+
+
+## 12. Decisiones y relevo de 0.4.0
+
+Por solicitud del propietario: guerras civiles territoriales, banderas auténticas, régimen/colores de potencia y dirigentes con retratos, cronología anual hasta 1789. El trabajo utiliza fuentes separadas y no convierte mapas anuales de campaña en fronteras exactas de fin de año. Las autoridades se consultan al cierre anual, en presente hasta fecha de adquisición. La ampliación respeta el diseño compacto y los controles del mapa/regla.
+
+Se extraen political, identities, country-card y methodology para no seguir concentrando lógica en main. La firma territorial incluye color/identidad; el ID no cambia por color. Control por potencia se aplica en capa opaca por encima de líneas y relleno base; desactivarla devuelve los territorios. Buscar incluye los bandos y áreas controladas visibles. Los aliados no reciben automáticamente color de ocupación.
+
+Preparación: acquire-history → prepare-history → prepare-extended-history → prepare-spanish-fronts → prepare-identities → register-political-data → data:audit → data:verify. Shapely/NumPy/pyproj son preparación local, no runtime. La compilación y navegación no requieren fuentes remotas. Detalles: SOURCES, IDENTITIES, SPANISH-CIVIL-WAR, REVIEW-METHOD e informe anual.
+
+Validación local: 35 recursos, 11 franjas de letras y 417 medios íntegros; 31 pruebas unitarias y recorrido completo de 11 pruebas de navegador, incluida selección de todos los 238 años. Compilación final y repetición focal posterior de las dos pruebas nuevas correctas. Publicación se registrará con resultados y SHA reales en docs/DELIVERY-0.4.0.md. No dar por publicadas funciones sólo porque se haya creado el código. Prioridad siguiente: contraste regional de frentes/autoridades, completar los vacíos expresos y desarrollar categoría de guerras/batallas documentadas antes de declarar cobertura mundial integral.

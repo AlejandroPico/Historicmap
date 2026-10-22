@@ -55,7 +55,7 @@ test('fixed center cursor, keyboard navigation, exact date, about and narrow lay
   const after=await page.locator('.fixed-cursor').boundingBox();expect(after?.x).toBe(cursor?.x);
   await page.locator('#date-button').click();await page.getByLabel('Año (negativo para a. C.)').fill('117');await page.getByRole('button',{name:'Explorar fecha'}).click();
   await expect(page.locator('#year')).toHaveText('117 d. C.');await expect(page.locator('#map-status')).toContainText('100 d. C.');
-  await page.locator('#about-button').click();await expect(page.locator('#modal-body')).toContainText('0.3.0');
+  await page.locator('#about-button').click();await expect(page.locator('#modal-body')).toContainText('0.4.0');
   await expect(page.locator('.about-project-icon img')).toBeVisible();
   await expect(page.locator('.about-links a').first()).toHaveAttribute('href','https://alejandropico.github.io/Portfolio/');await page.keyboard.press('Escape');
   await page.setViewportSize({width:390,height:844});await page.screenshot({path:'test-results/mobile.png'});
@@ -71,7 +71,7 @@ test('every shipped cartographic snapshot renders without exceeding GPU segments
   await disableRelief(page);
   // A global planar view also covers snapshots whose land lies on the far hemisphere.
   await page.locator('#projection-button').click();
-  const samples=[...historicalYears.map(y=>({year:y,file:y>=1900?`history-${y}`:`world_${y<0?`bc${-y}`:y}.geojson`})),...geologicalMa.map(ma=>({year:ma===1?-1000001:-ma*1e6,file:`coastlines-${ma}.geojson`}))];
+  const samples=[...historicalYears.map(y=>({year:y,file:y>=1789?`history-${y}`:`world_${y<0?`bc${-y}`:y}.geojson`})),...geologicalMa.map(ma=>({year:ma===1?-1000001:-ma*1e6,file:`coastlines-${ma}.geojson`}))];
   for(const sample of samples){
     await page.locator('#date-button').click();
     await page.getByLabel('Año (negativo para a. C.)').fill(String(sample.year));
@@ -82,7 +82,7 @@ test('every shipped cartographic snapshot renders without exceeding GPU segments
 });
 test('compact tools and independent map/timeline wheel zoom',async({page})=>{
   await page.goto('/#year=1800&view=globe');
-  await expect(page.locator('#map')).toHaveAttribute('data-rendered','world_1800.geojson',{timeout:45000});
+  await expect(page.locator('#map')).toHaveAttribute('data-rendered','history-1800',{timeout:45000});
   await expect(page.locator('.topbar,.map-controls,.time-toolbar,.time-bottom,#today,#method-button')).toHaveCount(0);
   expect(await page.locator('.toolbar>button').evaluateAll(nodes=>nodes.map(n=>n.id))).toEqual(['search-button','projection-button','layers-button','sources-button','fullscreen','about-button']);
   const ruler=page.locator('#ruler');const bounds=(await ruler.boundingBox())!;

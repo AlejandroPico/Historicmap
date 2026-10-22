@@ -45,8 +45,8 @@ export function snapshotFor(year: number): Snapshot {
   }
   if (year < -10000) return { kind: 'concept', year };
   if (year >= 2020) return { kind: 'modern', year, file: 'countries.geojson' };
-  if (year >= 1900) return { kind: 'annual', year, file: 'history.topojson' };
-  const y = historicalYears.filter(y=>y<1900).reduce((a, b) => Math.abs(a - year) <= Math.abs(b - year) ? a : b);
+  if (year >= 1789) return { kind: 'annual', year, file: year>=1886?'history.topojson':'early-modern.geojson' };
+  const y = historicalYears.filter(y=>y<1789).reduce((a, b) => Math.abs(a - year) <= Math.abs(b - year) ? a : b);
   return { kind: 'historical', year: y, file: `world_${y < 0 ? `bc${-y}` : y}.geojson` };
 }
-export function playbackYear(year:number){return year>=1800?Math.min(PRESENT,year+1):positionToYear(yearToPosition(year)+.075);}
+export function playbackYear(year:number){return year>=1789?Math.min(PRESENT,year+1):positionToYear(yearToPosition(year)+.075);}

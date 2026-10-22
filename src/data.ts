@@ -1,6 +1,7 @@
 import type {FeatureCollection, MultiPolygon, Polygon} from 'geojson';
 import {historyAt, normalizedName, type HistoryTopology} from './history';
 import type {ProfileData} from './profiles';
+import {regimeColor} from './political';
 const base=import.meta.env.BASE_URL+'data/';
 // Share in-flight requests. Changing the ruler never aborts a reusable download.
 const requests=new Map<string,Promise<unknown>>();
@@ -17,13 +18,21 @@ export function asset<T>(file:string):Promise<T>{
 const geometryCache=new Map<number,Polygon|MultiPolygon>();
 let names:Map<string,string>|undefined;
 export async function annualData(year:number){
+  if(year<1886){
+    const data=await asset<FeatureCollection>('early-modern.geojson');
+    return {...data,features:data.features.filter(f=>f.properties!.start<=year&&f.properties!.end>=year)};
+  }
   const [history,profiles]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json')]);
   names??=new Map(Object.entries(profiles.countries).flatMap(([iso,p])=>[p.name,p.englishName??'',p.official??''].filter(Boolean).map(n=>[normalizedName(n),iso])));
   return historyAt(history,year,names,geometryCache);
 }
 export const modernCities=()=>asset<FeatureCollection>('cities.geojson');
 export async function overlaysFor(year:number):Promise<FeatureCollection>{
-  const files=['territorial-overlays.geojson',...(year>=1938&&year<=1944?['ww2.geojson']:[])];
+  const files=['territorial-overlays.geojson',...(year>=1914&&year<=1949?['historical-control.geojson']:[]),...(year>=1936&&year<=1939?['spanish-civil-war.geojson']:[])];
   const data=await Promise.all(files.map(f=>asset<FeatureCollection>(f)));
-  return {type:'FeatureCollection',features:data.flatMap(d=>d.features).filter(f=>f.properties!.start<=year&&f.properties!.end>=year)};
+  return {type:'FeatureCollection',features:data.flatMap(d=>d.features).filter(f=>f.properties!.start<=year&&f.properties!.end>=year).map(f=>{
+    const p=f.properties!;
+    const controller=p.controller??(p.uid==='crimea'?'RUS':p.kind==='dispute'?'ISR':'');
+    return {...f,properties:{...p,controller,identityKey:p.identityKey??controller,controlColor:p.controlColor??(controller==='ISR'?'#679ab6':regimeColor(controller,year))}};
+  })};
 }

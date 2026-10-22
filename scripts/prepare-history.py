@@ -36,11 +36,11 @@ def geometry(g):
 cs=[]
 for g in topology['objects']['cshapes_2_gw']['geometries']:
     p=g['properties']
-    if p['end']<'1900-01-01': continue
+    if p['end']<'1886-01-01': continue
     cs.append(dict(type='Feature',id=p['fid'],properties=p,geometry=geometry(g)))
-cmeta=dict(source='CShapes 2.0 · Schvitz et al. (2022), GW including dependencies',version='R package 2.0; 2020-06-07',url='https://icr.ethz.ch/data/cshapes/cshapes_2.0.tar.gz',license='CC-BY-NC-SA-4.0',sourceSha256=digest(CACHE/'cshapes.tar.gz'),transform='Decode unquantized TopoJSON; keep intervals ending in/after 1900. Coordinates retained; source attributes retained.',coverage='1900-01-01/2019-12-31')
+cmeta=dict(source='CShapes 2.0 · Schvitz et al. (2022), GW including dependencies',version='R package 2.0; 2020-06-07',url='https://icr.ethz.ch/data/cshapes/cshapes_2.0.tar.gz',license='CC-BY-NC-SA-4.0',sourceSha256=digest(CACHE/'cshapes.tar.gz'),transform='Decode unquantized TopoJSON; keep intervals ending in/after 1886. Coordinates retained; source attributes retained.',coverage='1886-01-01/2019-12-31')
 entries[:]=[e for e in entries if e['file']!='history.geojson']
-history=dict(type='Topology',arcs=topology['arcs'],objects={'countries':dict(type='GeometryCollection',geometries=[g for g in topology['objects']['cshapes_2_gw']['geometries'] if g['properties']['end']>='1900-01-01'])})
+history=dict(type='Topology',arcs=topology['arcs'],objects={'countries':dict(type='GeometryCollection',geometries=[g for g in topology['objects']['cshapes_2_gw']['geometries'] if g['properties']['end']>='1886-01-01'])})
 save('history.topojson',history,**cmeta,format='unquantized-topology',records=len(cs))
 
 # Derived geometries stay separately licensed CC BY-NC-SA; no handmade outlines.

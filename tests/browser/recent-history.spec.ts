@@ -3,15 +3,15 @@ import {PRESENT} from '../../src/time';
 async function date(page:Page,year:number){await page.locator('#date-button').click();await page.locator('#date-input').fill(String(year));await page.locator('#date-form button').click();await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(year),{timeout:45000});}
 async function search(page:Page,name:string){await page.locator('#search-button').click();await page.locator('#search-input').fill(name);await page.locator('#search-results button').first().click();}
 
-test('all annual selections 1900 to system year render; no repeated history downloads',async({page})=>{
- test.setTimeout(300000);
+test('all annual selections 1789 to system year render; no repeated history downloads',async({page})=>{
+ test.setTimeout(480000);
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  page.on('console',m=>{if(m.text().includes('Max vertices per segment'))errors.push(m.text());});
  let historyRequests=0;page.on('request',r=>{if(r.url().endsWith('/data/history.topojson'))historyRequests++;});
- await page.goto('/#year=1900&view=mercator');
- for(let year=1900;year<=PRESENT;year++){
+ await page.goto('/#year=1789&view=mercator');
+ for(let year=1789;year<=PRESENT;year++){
    // Same-document hash navigation exercises the shared-link contract without 381 dialog actions.
-   if(year!==1900)await page.goto(`/#year=${year}&view=mercator`);
+   if(year!==1789)await page.goto(`/#year=${year}&view=mercator`);
    await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(year),{timeout:45000});
    await expect(page.locator('#map')).toHaveAttribute('data-rendered',year<=2019?`history-${year}`:'countries.geojson',{timeout:45000});
    await expect(page.locator('#year')).toHaveText(`${year} d. C.`);
@@ -29,7 +29,7 @@ test('WWII playback progresses annually, pauses precisely and opens historical p
  await page.waitForTimeout(1800);await expect(page.locator('#year')).toHaveText(paused!);
  await date(page,1942);
  await expect(page.locator('#map-legend')).toContainText('síntesis anual');
- await expect(page.locator('#map')).toHaveAttribute('data-overlays','3');
+ await expect(page.locator('#map')).toHaveAttribute('data-overlays','7');
  await search(page,'Alemania nazi');await expect(page.locator('#selection-text')).toContainText('dictadura nacionalsocialista');
  await expect(page.locator('#selection-text')).not.toContainText('PIB nominal');
  await page.screenshot({path:'test-results/1942-profile.png'});
