@@ -15,7 +15,7 @@ import { escapeHtml as esc, thematicData, thematicLegend, profileFor, type Profi
 import { sourceDiff } from './source-diff';
 import { politicalData } from './political';
 import { countryCard } from './country-card';
-import {anchorFor,matchingFeature,type CountryAnchor} from './selection';
+import {anchorFor,matchingFeature,canonicalFeature,type CountryAnchor} from './selection';
 import {emptyIndicators,type IndicatorData} from './country-workspace';
 import {emptyHistory,type CountryHistory} from './country-history';
 import {anchorId,comparisonShell,comparisonMarkup,type ComparisonState} from './country-comparison';
@@ -143,14 +143,15 @@ map.on('error',(event) => {
 map.on('webglcontextlost',()=>toast('Se ha perdido la conexión gráfica. Recarga la página para recuperar el mapa.'));
 map.on('idle',()=>{
   $('#map').dataset.cameraReady='true';
+  if($('#map').getAttribute('aria-busy')==='true')return;
   if(loaded.features.length && map.queryRenderedFeatures({layers:['territory-fill']}).length) $('#map').dataset.rendered=activeKey;
 });
 map.on('movestart',()=>{$('#map').dataset.cameraReady='false';});
 map.on('click',event=>{
-  if(!ready||$('#map').getAttribute('aria-busy')==='true'||$('#map').dataset.loadedYear!==String(year))return;
+  if(!ready||$('#map').getAttribute('aria-busy')==='true'||$('#map').dataset.loadedYear!==String(year)||$('#map').dataset.rendered!==activeKey)return;
   const place=showPlaces?map.queryRenderedFeatures(event.point,{layers:['place-circles']})[0]:undefined;
   const occupation=showOccupations?map.queryRenderedFeatures(event.point,{layers:['occupation-fill']})[0]:undefined;
-  const feature=place??occupation??map.queryRenderedFeatures(event.point,{layers:['territory-fill']})[0];
+  const feature=place?canonicalFeature(place,cityData):occupation?canonicalFeature(occupation,overlayData):canonicalFeature(map.queryRenderedFeatures(event.point,{layers:['territory-fill']})[0],loaded);
   if(feature)selectFeature(feature);
 });
 map.on('mouseenter','territory-fill',()=>{map.getCanvas().style.cursor='pointer';});
@@ -307,12 +308,15 @@ function refreshMap(force=false):Promise<void> {
         // MapLibre initially expands compact attribution. Keep it available
         // behind its icon, without occupying the unobstructed map by default.
         if(!attributionInitialized){const control=document.querySelector('.maplibregl-ctrl-attrib.maplibregl-compact-show');if(control){control.querySelector<HTMLElement>('.maplibregl-ctrl-attrib-button')?.click();attributionInitialized=true;}}
-        // Idle may have fired while committing overlays; rendered means the active source is visible.
-        if(map.queryRenderedFeatures({layers:['territory-fill']}).length)$('#map').dataset.rendered=activeKey;
+        // Source update completion precedes tile replacement. Querying here
+        // can address an old tile against the new feature index. Let the next
+        // idle frame certify rendered geometry before accepting map clicks.
+        map.triggerRepaint();
       };
       renderQueue=renderQueue.then(commit,commit);await renderQueue;
-    } catch {
+    } catch(error) {
       if(current!==requestNumber)return;
+      console.error('Temporal map refresh failed',error);
       desiredKey='';$('#map').setAttribute('aria-busy','false');if(selectedAnchor){$('#selection').setAttribute('aria-busy','false');$('#selection-status').textContent='La fecha no se pudo cargar. La ficha conserva el año indicado en su cabecera.';$('#selection-status').hidden=false;}status('No se ha podido cargar la fecha. Se conserva el mapa anterior.',true);stopPlay();
     }
   })();

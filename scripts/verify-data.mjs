@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 const root = new URL('../public/data/',import.meta.url);
 const manifest = JSON.parse(await readFile(new URL('manifest.json',root),'utf8'));
+if(!manifest.entries.some(e=>e.file==='territorial-administrations.json'))throw Error('Missing territorial administration provenance');
 for(const required of ['history.topojson','ww2.geojson','territorial-overlays.geojson','cities.geojson','profiles.json','early-modern.geojson','historical-control.geojson','spanish-civil-war.geojson','identities.json','affiliations.json','historical-context.json','historical-supplements.geojson','recent-control.geojson'])if(!manifest.entries.some(e=>e.file===required))throw Error(`Missing ${required}`);
 for (const entry of manifest.entries) {
   const bytes = await readFile(new URL(entry.file,root));
@@ -24,6 +25,10 @@ for (const entry of manifest.entries) {
     const ids=new Set();for(const r of [...data.records,...data.relations]){if(!r.id||ids.has(r.id)||!r.source||!r.sourceLabel)throw Error('Invalid country history provenance');ids.add(r.id);}
     for(const r of data.records)if(!r.keys.length||!r.start||(r.end&&r.end<=r.start))throw Error(`Invalid institutional interval ${r.id}`);
     for(const r of data.relations)if(!r.date||!r.from.key||!r.to.key||!Number.isInteger(r.from.year)||!Number.isInteger(r.to.year))throw Error(`Invalid entity relation ${r.id}`);
+  }
+  else if(entry.format==='dated-territorial-administrations'){
+    if(!data.referenceDate||data.records.length!==entry.records)throw Error('Invalid territorial administrations');
+    const ids=new Set();for(const r of data.records){if(ids.has(r.id)||!r.admin||!r.source||!r.note||!r.label||!r.names.length||!r.start||(r.end&&r.start>=r.end))throw Error('Invalid territorial administration '+r.id);ids.add(r.id);}
   }
   else if(entry.format==='dated-political-influence'){
     if(data.records.length!==entry.records||!data.referenceDate)throw Error('Invalid political influence catalogue');

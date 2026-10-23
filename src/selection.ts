@@ -2,6 +2,15 @@ import type {Feature,FeatureCollection} from 'geojson';
 import {identityKey,type IdentityData} from './identities';
 
 export type CountryAnchor={key:string;name:string;originalName:string;code:string;uid:string;place:boolean;country:string;properties:Record<string,any>;year:number};
+/** Tile properties are a rendering projection, never the country record. */
+export function canonicalFeature(hit:{id?:string|number;properties:Record<string,any>|null}|undefined,data:FeatureCollection):Feature|undefined{
+ if(!hit)return;
+ if(hit.id!==undefined)return data.features.find(f=>f.id===hit.id);
+ const p=hit.properties??{};
+ if(p.uid)return data.features.find(f=>f.properties?.uid===p.uid);
+ if(p.name&&p.country)return data.features.find(f=>f.properties?.name===p.name&&f.properties?.country===p.country);
+ return undefined;
+}
 export function anchorFor(p:Record<string,any>,year:number,identities:IdentityData):CountryAnchor{
  return {key:identityKey(p,year,identities),name:p.name??'',originalName:p.originalName??p.name??'',code:p.entityCode??p.code??'',uid:p.uid??'',place:p.rank!==undefined&&Boolean(p.country),country:p.country??'',properties:{...p},year};
 }

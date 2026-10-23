@@ -11,7 +11,11 @@ export function sourceDiff(before:FeatureCollection,after:FeatureCollection):Geo
     const propertiesChanged=JSON.stringify(previous.properties)!==JSON.stringify(f.properties);
     const geometryChanged=previous.geometry!==f.geometry;
     if(!propertiesChanged&&!geometryChanged)continue;
-    diff.update.push({id:f.id!,...(geometryChanged?{newGeometry:f.geometry}:{}),...(propertiesChanged?{removeAllProperties:true,addOrUpdateProperties:Object.entries(f.properties??{}).map(([key,value])=>({key,value}))}:{})});
+    // geojson-vt 6.3 returns immediately on removeAllProperties, ignoring any
+    // additions in that same update. Send explicit deletions instead, keeping
+    // worker tiles and the authoritative GeoJSON in agreement.
+    const removed=Object.keys(previous.properties??{}).filter(key=>!Object.hasOwn(f.properties??{},key));
+    diff.update.push({id:f.id!,...(geometryChanged?{newGeometry:f.geometry}:{}),...(propertiesChanged?{...(removed.length?{removeProperties:removed}:{}),addOrUpdateProperties:Object.entries(f.properties??{}).map(([key,value])=>({key,value}))}:{})});
   }
   return diff;
 }

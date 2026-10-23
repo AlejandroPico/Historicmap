@@ -262,16 +262,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 6179721,
-      "sha256": "0b6ea6ec463ed5ac66ec389f08adc0e3c754f3236218d98bbb4ba437c592847f",
+      "bytes": 6184586,
+      "sha256": "50ae23c78eff3256676f03dc244075a95c2923ecb10862ef005f2cb58d3449c5",
       "format": "dated-political-identities",
       "countries": 278,
-      "records": 6945,
+      "records": 6950,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap 0.8.0; historical preparation 2026-10-23; reference 2026-10-22",
+      "version": "Historicmap 0.8.1; reference 2026-10-22; preparation 2026-10-23",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Incremental dated authorities through 1970–1989, national and dissolved historical offices; existing 1990–2026 curations retained. Formal, party, de facto and rival authorities distinguished. All mandates intersecting selected year; precision and inferred upper bounds retained. Current reference remains 2026-10-22; historical acquisition 2026-10-23 does not extend current incumbents or flags. Separate VDR/RVN/VSR/RHO/YAR/YPR/USSR/DDR identities, no successor statistics. Licensed local portraits and dated symbols with individual media manifest SHA-256; collective authorities have no invented portrait. Sources and limitations in HISTORICAL-AUTHORITIES."
+      "transform": "Incremental dated authorities through 1970–1989, national and dissolved historical offices; existing 1990–2026 curations retained. Formal, party, de facto and rival authorities distinguished. All mandates intersecting selected year; precision and inferred upper bounds retained. Current reference remains 2026-10-22; historical acquisition 2026-10-23 does not extend current incumbents or flags. Separate VDR/RVN/VSR/RHO/YAR/YPR/USSR/DDR identities, no successor statistics. Licensed local portraits and dated symbols with individual media manifest SHA-256; collective authorities have no invented portrait. Sources and limitations in HISTORICAL-AUTHORITIES. Incremental five sourced dependent/local offices; existing acquisition retained."
     },
     {
       "format": "dated-political-influence",
@@ -318,6 +318,18 @@
       "license": "CC-BY-4.0 (1936, 1938, 1939); CC-BY-SA-3.0 (1937); Natural Earth public domain",
       "coverage": "1936/1939",
       "transform": "Dated Spanish factions. Original interior fronts of Cliopatria 1936/1938 joined to Natural Earth European Spain coast. Tyk October 1937 front georeferenced with 15 control points (mean residual 4954m, minimum registration uncertainty 10km). Republic complement; no invented province assignments, overlap or gaps. 1939 victory. Full transformation, SVG checksum and attribution in embedded metadata and docs/SPANISH-CIVIL-WAR.md."
+    },
+    {
+      "file": "territorial-administrations.json",
+      "bytes": 6443,
+      "sha256": "76b12861cfe6ad9d90627d1e97793b2f78218a10f1b483c11421c814c362ace4",
+      "version": "Historicmap 0.8.1; reference 2026-10-22; preparation 2026-10-23",
+      "format": "dated-territorial-administrations",
+      "records": 11,
+      "source": "Primary legal, government and UN sources per relationship",
+      "url": "https://www.un.org/dppa/decolonization/en",
+      "license": "Original factual compilation; individual documentary sources retained.",
+      "transform": "Eleven dated territorial administration relationships; external national offices distinct from local government and sovereignty. Office intervals clipped to relationship; administrative endpoint is not national resignation. Other source-documented dependencies resolve their contemporary administrator; never derive authority from alliances. Coverage 1970–2026 reference, no successor statistics inherited."
     },
     {
       "file": "territorial-overlays.geojson",

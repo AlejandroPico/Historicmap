@@ -1,7 +1,8 @@
 import {escapeHtml as esc} from './profiles';
+import {administrationFor,dayBefore} from './territorial-administrations';
 
 export type Media={file:string;title:string;url:string;artist:string;license:string;licenseUrl?:string;credit?:string;attribution?:string;attributionRequired?:boolean;sha256:string;bytes:number;display?:'full-frame';caption?:string};
-export type Leader={person:string;name:string;role:string;start:string;end:string;source:string;precision?:number;curated?:boolean;note?:string;portrait?:Media;endIsUpperBound?:boolean;startIsCoverageBoundary?:boolean;endIsCoverageBoundary?:boolean};
+export type Leader={person:string;name:string;role:string;start:string;end:string;source:string;precision?:number;curated?:boolean;note?:string;portrait?:Media;endIsUpperBound?:boolean;startIsCoverageBoundary?:boolean;endIsCoverageBoundary?:boolean;authorityScope?:'local'|'external'};
 type Flag={start:string;end:string;media:Media;source:string};
 type Identity={qid:string;name:string;flags:Flag[];leaders:Leader[];notes?:{start:string;end:string;text:string;source:string}[];territoryStatus?:{start:string;end:string;text:string;source:string}};
 export type IdentityData={retrieved:string;license:string;source:string;countries:Record<string,Identity>};
@@ -21,6 +22,8 @@ const aliases:Record<string,string>={
 const focalQids:Record<string,string>={Q30:'USA',Q29:'ESP',Q183:'DEU',Q16957:'DDR',Q15180:'USSR',Q159:'RUS',Q142:'FRA',Q148:'CHN',Q17:'JPN',Q38:'ITA',Q145:'GBR'};
 const identityCodes:Record<string,string>={SSD:'SDS',XKX:'KOS',PSE:'PSX',ESH:'SAH'};
 export function identityKey(p:Properties,year:number,data:IdentityData){
+  const territory=administrationFor(p,year);
+  if(territory?.localKey)return territory.localKey;
   if(['colony','protectorate','mandate'].includes(String(p.status)))return '';
   let key=String(p.identityKey??p.controller??'');
   if(!key||!data.countries[key]){const code=String(p.code??'');key=identityCodes[code]??code;}
@@ -38,7 +41,7 @@ export function referenceDate(year:number,retrieved:string,now=new Date()){
   const today=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
   return [`${year}-12-31`,retrieved,today].sort()[0];
 }
-export function identityFor(p:Properties,year:number,data:IdentityData,now=new Date()){
+function ownIdentityFor(p:Properties,year:number,data:IdentityData,now=new Date()){
   const key=identityKey(p,year,data), identity=data.countries[key];
   const date=referenceDate(year,data.retrieved,now);
   const future=year>Number(data.retrieved.slice(0,4))||year>now.getFullYear();
@@ -86,6 +89,23 @@ export function identityFor(p:Properties,year:number,data:IdentityData,now=new D
   const territoryStatus=identity?.territoryStatus&&valid(identity.territoryStatus)?identity.territoryStatus:undefined;
   return {key,date,flag,leaders,territoryStatus,note:future?'Los titulares y símbolos posteriores a la fecha de consulta todavía no están documentados.':note?.text,noteSource:note?.source,name:key==='ESP-REPUBLIC'||key==='ESP-NATIONALIST'?identity?.name:undefined};
 }
+export function identityFor(p:Properties,year:number,data:IdentityData,now=new Date()){
+ const base=ownIdentityFor(p,year,data,now),administration=administrationFor(p,year);
+ if(!administration)return {...base,administration:undefined,flagContext:undefined as string|undefined};
+ const local=administration.localKey&&data.countries[administration.localKey]?ownIdentityFor({...p,status:'independent',identityKey:administration.localKey},year,data,now):base;
+ const state=ownIdentityFor({identityKey:administration.admin},year,data,now);
+ const first=`${year}-01-01`,last=state.date,relationEnd=administration.end?dayBefore(administration.end):data.retrieved;
+ const external:Leader[]=state.leaders.filter(l=>!administration.headOfStateOnly||/Estado|reina|rey|queen|king/i.test(l.role)).flatMap(l=>{
+  const start=[l.start,administration.start].sort().at(-1)!,end=[l.end,relationEnd,data.retrieved].sort()[0];
+  if(start>end||start>last||end<first)return[];
+  const clippedStart=start!==l.start,clippedEnd=end!==l.end;
+  return [{...l,start,end,authorityScope:'external',role:`${l.role} · ${data.countries[administration.admin]?.name??administration.admin}`,startIsCoverageBoundary:l.startIsCoverageBoundary||clippedStart,endIsCoverageBoundary:l.endIsCoverageBoundary||clippedEnd,note:[l.note,clippedStart||clippedEnd?'Tramo de autoridad sobre este territorio: el límite de relación no es un nombramiento o cese en el Estado administrador.':''].filter(Boolean).join(' ')}];
+ });
+ const localLeaders=local.leaders.map(l=>({...l,authorityScope:'local' as const}));
+ const dependentAtReference=administration.start<=last&&(!administration.end||administration.end>last);
+ const useStateFlag=dependentAtReference&&!local.flag&&!!state.flag;
+ return {...local,name:base.name,flag:local.flag??(useStateFlag?state.flag:undefined),leaders:[...localLeaders,...external],administration,flagContext:useStateFlag?`Símbolo del Estado administrador · ${data.countries[administration.admin]?.name??administration.admin}`:undefined};
+}
 const dateLabel=(date:string,precision=11)=>{
   const [y,m,d]=date.split('-');return precision<10?y:precision===10?`${Number(m)}/${y}`:`${Number(d)}/${Number(m)}/${y}`;
 };
@@ -98,12 +118,13 @@ export function identityMarkup(p:Properties,year:number,data:IdentityData,baseUr
     return `<a class="media-credit" href="${esc(media.url)}" target="_blank" rel="noopener">${esc(author)}${media.attribution?'':` · ${esc(media.license)}`} ↗</a>`;
   };
   const name=identity.name??String(p.name??'');
-  const symbolLabel=identity.key==='SAH'?'Símbolo de la RASD · ':identity.flag?.title.includes('Royal Standard')?'Estandarte real · ':['war','dispute'].includes(String(p.kind))?'Autoridad controladora · ':'';
-  const flag=identity.flag?`<div class="identity-header"><img class="historic-flag" src="${esc(imageUrl(identity.flag))}" alt="Bandera de ${esc(name)} correspondiente a la fecha consultada" width="96" height="64"><span>${esc(name)}<br><small>${esc(symbolLabel)}${esc(`Símbolo al ${dateLabel(identity.date)}`)}</small></span></div><details class="flag-credit"><summary>Fuente de la bandera</summary>${credits(identity.flag)}</details>`:'';
-  const leaders=identity.leaders.map(l=>`<article class="leader-card${l.portrait?.display==='full-frame'?' full-frame':''}">${l.portrait?`<img class="leader-portrait${l.portrait.display==='full-frame'?' full-frame-photo':''}" src="${esc(imageUrl(l.portrait))}" alt="${esc(l.portrait.caption??`Retrato de ${l.name}`)}" width="100" height="128" loading="lazy">${l.portrait.caption?`<p class="photo-caption">${esc(l.portrait.caption)}</p>`:''}`:''}<div class="leader-details"><span class="leader-role">${esc(l.role)}</span><h3 class="leader-name">${esc(l.name)}</h3>${l.end>=identity.date&&!l.endIsUpperBound&&!l.endIsCoverageBoundary&&(l.precision??11)>=11?`<span class="term-current">${year===new Date().getFullYear()?'En funciones a la referencia':'Al cierre del año'}</span>`:''}<span class="leader-term">${l.startIsCoverageBoundary?'Documentado al inicio de '+dateLabel(l.start,l.precision):dateLabel(l.start,l.precision)} — ${l.endIsCoverageBoundary?'documentado hasta el límite de cobertura ':l.endIsUpperBound?'hasta, como máximo, ':''}${l.end===data.retrieved?`referencia ${dateLabel(data.retrieved)}`:dateLabel(l.end,l.precision)}</span>${l.note?`<p>${esc(l.note)}</p>`:''}<a class="profile-source" href="${esc(l.source)}" target="_blank" rel="noopener">Biografía y mandato ↗</a></div>${l.portrait?`<div class="portrait-credit">${credits(l.portrait)}${l.portrait.display==='full-frame'?`<a class="media-credit" href="${esc(l.portrait.licenseUrl)}" target="_blank" rel="noopener">Licencia de la fotografía ↗</a>`:''}</div>`:''}</article>`).join('');
+  const symbolLabel=identity.flagContext?identity.flagContext+' · ':identity.key==='SAH'?'Símbolo de la RASD · ':identity.flag?.title.includes('Royal Standard')?'Estandarte real · ':['war','dispute'].includes(String(p.kind))?'Autoridad controladora · ':'';
+  const flag=identity.flag?`<div class="identity-header"><img class="historic-flag" src="${esc(imageUrl(identity.flag))}" alt="${esc(identity.flagContext??`Bandera de ${name} correspondiente a la fecha consultada`)}" width="96" height="64"><span>${esc(name)}<br><small>${esc(symbolLabel)}${esc(`Símbolo al ${dateLabel(identity.date)}`)}</small></span></div><details class="flag-credit"><summary>Fuente de la bandera</summary>${credits(identity.flag)}</details>`:'';
+  const leaders=identity.leaders.map((l,index)=>`${identity.administration&&(index===0||l.authorityScope!==identity.leaders[index-1].authorityScope)?`<h3 class="authority-group">${l.authorityScope==='external'?'Autoridades del Estado administrador':'Autoridades del territorio'}</h3>`:''}<article class="leader-card${l.portrait?.display==='full-frame'?' full-frame':''}">${l.portrait?`<img class="leader-portrait${l.portrait.display==='full-frame'?' full-frame-photo':''}" src="${esc(imageUrl(l.portrait))}" alt="${esc(l.portrait.caption??`Retrato de ${l.name}`)}" width="100" height="128" loading="lazy">${l.portrait.caption?`<p class="photo-caption">${esc(l.portrait.caption)}</p>`:''}`:''}<div class="leader-details"><span class="leader-role">${esc(l.role)}</span><h3 class="leader-name">${esc(l.name)}</h3>${l.end>=identity.date&&!l.endIsUpperBound&&!l.endIsCoverageBoundary&&(l.precision??11)>=11?`<span class="term-current">${year===new Date().getFullYear()?'En funciones a la referencia':'Al cierre del año'}</span>`:''}<span class="leader-term">${l.startIsCoverageBoundary?'Documentado al inicio de '+dateLabel(l.start,l.precision):dateLabel(l.start,l.precision)} — ${l.endIsCoverageBoundary?'documentado hasta el límite de cobertura ':l.endIsUpperBound?'hasta, como máximo, ':''}${l.end===data.retrieved?`referencia ${dateLabel(data.retrieved)}`:dateLabel(l.end,l.precision)}</span>${l.note?`<p>${esc(l.note)}</p>`:''}<a class="profile-source" href="${esc(l.source)}" target="_blank" rel="noopener">Biografía y mandato ↗</a></div>${l.portrait?`<div class="portrait-credit">${credits(l.portrait)}${l.portrait.display==='full-frame'?`<a class="media-credit" href="${esc(l.portrait.licenseUrl)}" target="_blank" rel="noopener">Licencia de la fotografía ↗</a>`:''}</div>`:''}</article>`).join('');
   const empty=identity.note?`<p class="identity-note">${esc(identity.note)}</p>${identity.noteSource?`<a class="profile-source" href="${esc(identity.noteSource)}" target="_blank" rel="noopener">Contexto institucional y fuente ↗</a>`:''}`:!identity.leaders.length&&!identity.territoryStatus?'<p class="identity-note">Dirigente pendiente de documentación para esta entidad y fecha.</p>':'';
   if(part==='header')return flag;
-  const annualNote=identity.leaders.length?`<p class="mandate-reference">Autoridades con mandato durante ${year}. Consulta hasta ${dateLabel(identity.date)}.</p>`:'';
+  const administrationNote=identity.administration?`<div class="identity-note"><strong>${esc(identity.administration.label)}</strong><p>${esc(identity.administration.note)}</p><p>Los cargos rotulados con el Estado administrador corresponden a su ámbito estatal; las autoridades territoriales conservan su propio cargo.</p><a class="profile-source" href="${esc(identity.administration.source)}" target="_blank" rel="noopener">Relación administrativa y fuente ↗</a></div>`:'';
+  const annualNote=administrationNote+(identity.leaders.length?`<p class="mandate-reference">Autoridades con mandato durante ${year}. Consulta hasta ${dateLabel(identity.date)}.</p>`:'');
   const territoryNote=identity.territoryStatus?`<p class="identity-note">${esc(identity.territoryStatus.text)}</p><a class="profile-source" href="${esc(identity.territoryStatus.source)}" target="_blank" rel="noopener">Estatus del territorio ↗</a>`:'';
   return `<section class="political-identity" aria-label="Bandera y autoridades de la época" data-identity="${esc(identity.key)}">${part==='all'?flag:''}${territoryNote}${annualNote}${leaders}${empty}</section>`;
 }

@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.8.1 · 2026-10-23
+
+- Corregida la pérdida de nombres, identidades y colores tras actualizaciones de año: las diferencias de propiedades usan borrados explícitos compatibles con el índice de teselas. Los clics consultan el registro completo del territorio activo.
+- Autoridades locales y del Estado administrador diferenciadas en dependencias. Once relaciones documentadas y resolución general del administrador de la fuente, con límites temporales y sin heredar estadísticas nacionales.
+- Angola, Mozambique, Guinea-Bisáu, Namibia, Sáhara español, Surinam, Bahamas, Puerto Rico y departamentos franceses dejan de ocultar sus autoridades estatales. Gobiernos autónomos y fechas de independencia conservan su ámbito; Namibia no se presenta como soberanía sudafricana reconocida.
+- Cinco mandatos focales añadidos y dos retratos con licencia, conservando todo el catálogo anterior. Regresiones sobre el motor de teselas y clics reales tras viajar fuera del periodo revisado y volver.
+
 ## 0.8.0 · 2026-10-23
 
 - Ampliación mundial de mandatos fechados y retratos hasta 1970, conservando la adquisición anterior. Curaciones de cargos históricos, juntas, autoridades de facto y sucesiones breves; Vietnam del Norte, República de Vietnam, Gobierno Revolucionario Provisional y Rodesia separados de sucesores.

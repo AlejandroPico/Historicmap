@@ -3,7 +3,8 @@
 Non-human collective authorities retain their names without invented photographs.
 The final merge rereads identities, preserving independent preparation work.
 """
-import importlib.util,pathlib,json,re,hashlib,urllib.parse,html
+import importlib.util,pathlib,json,re,hashlib,urllib.parse,html,argparse
+parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--people',nargs='+',help='Only acquire these existing human identifiers');args=parser.parse_args()
 spec=importlib.util.spec_from_file_location('h',pathlib.Path(__file__).with_name('enrich-1970-authorities.py'))
 h=importlib.util.module_from_spec(spec);spec.loader.exec_module(h)
 excluded={(r['person'],r['title']) for r in json.loads(pathlib.Path(__file__).with_name('media-exclusions.json').read_text(encoding='utf8'))}
@@ -14,6 +15,7 @@ for country in data['countries'].values():
 terms=[l for c in data['countries'].values() for l in c['leaders'] if l['start']<'1990-01-01' and l['end']>='1970-01-01']
 existing={l['person']:l['portrait'] for c in data['countries'].values() for l in c['leaders'] if l.get('portrait')}
 targets=sorted({l['person'] for l in terms if re.fullmatch(r'Q\d+',l['person']) and l['person'] not in existing})
+if args.people:targets=[q for q in targets if q in args.people]
 manifest=json.loads((h.OUT/'media/manifest.json').read_text(encoding='utf8'))
 media={m['file']:m for m in manifest['entries']};portraits={};missing=[]
 def acquire(q):

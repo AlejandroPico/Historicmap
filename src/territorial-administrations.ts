@@ -1,0 +1,10 @@
+import catalogue from '../public/data/territorial-administrations.json';
+export type Administration={id:string;names:string[];codes:string[];admin:string;localKey:string;start:string;end:string|null;label:string;note:string;source:string;headOfStateOnly:boolean};
+export function administrationFor(p:Record<string,any>,year:number):Administration|undefined{
+ if(year<1970||year>Number(catalogue.referenceDate.slice(0,4)))return;
+ const name=String(p.originalName??p.country_name??p.name??''),code=String(p.entityCode||p.code||'');
+ const record=catalogue.records.find(r=>(r.names.includes(name)||r.codes.includes(code))&&r.start<=`${year}-12-31`&&(!r.end||r.end>`${year}-01-01`));
+ if(record)return record;
+ if(p.administratorKey&&p.administratorKey!==p.identityKey)return {id:'source-administration',names:[name],codes:[code],admin:p.administratorKey,localKey:p.code??'',start:catalogue.coverageStart,end:null,label:'Autoridades del Estado administrador',note:'La relación administrativa procede de la cartografía de esta fecha. Los cargos estatales no equivalen a gobernadores territoriales; la serie local todavía puede ser parcial.',source:p.source??'https://icr.ethz.ch/data/cshapes/',headOfStateOnly:false};
+}
+export function dayBefore(date:string){const d=new Date(date+'T12:00:00Z');d.setUTCDate(d.getUTCDate()-1);return d.toISOString().slice(0,10);}
