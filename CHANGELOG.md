@@ -2,6 +2,9 @@
 
 ## 0.9.1 · 2026-10-23
 
+- Cinco retratos de India añadidos con GODL-India: el filtro reconoce la marca ND sin confundirla con parte del nombre de esa licencia. Auditoría final:91 personas/órganos sin imagen y3.793 medios.
+- Publicación protegida frente a comprobaciones de revisiones superadas; concurrencia de Quality por rama y Pages vinculado al commit vigente verificado.
+
 - Los preparadores conservan los retratos antes de regenerar mandatos curados. Recuperados26 retratos ya presentes y acreditados en el inventario de medios; la auditoría1960–1969 queda en96 personas/órganos sin imagen, sin añadir archivos redundantes.
 - Presidencia parlamentaria de Azikiwe y Gobierno de Balewa diferenciados; se elimina una atribución genérica duplicada. Catálogo de7.480 mandatos.
 - La consolidación de autoridades no recupera cargos descartados por una corrección revisada. Adquisición focal admite el original publicado con límite de5MB, conservando filtros de identidad, licencia y exclusiones.

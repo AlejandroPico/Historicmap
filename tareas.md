@@ -1,46 +1,48 @@
-# Pizarra de continuidad · ampliación a 1960
+# Tareas y continuidad
 
-Actualizado: 23/10/2026. Rama actual: `main`. Base del encargo: 0.8.1, `911f7c3c55466e4f757a271ec8f5ee740e5eea1b`.
+Actualizado: 23/10/2026, 21:16 Madrid. Rama: main. Aplicación 0.9.1 subida en c42531df6fafe5fdd9c6fc999a80741aa1829076 (candidato anterior; sustituido por el siguiente commit con cinco retratos adicionales).
 
-No marcar una tarea completada por haber escrito código, descargado registros o pasado una prueba de cobertura. Registrar resultados reales y distinguir trabajo local, subido y publicado. Leer también `agentes.md`.
+Leer también [agentes.md](agentes.md). Esta pizarra distingue implementación, investigación, validación y publicación. Una sesión recuperada no convierte los pendientes en terminados.
 
-## En curso
+## Funcionalidad solicitada
 
-- [x] Revisar fuentes, geometrías, paletas y contratos de selección antes de modificar la representación del control. Fuentes originales separadas; composición geométrica temporal en worker, sin modificar archivos de coordenadas.
-- [ ] Localizar el CSV aportado. La ruta indicada `C:/Users/darim/Downloads/lista_imperios_completa_v3.csv` no existe al comprobarla el 23/10/2026. No afirmar haber integrado el documento hasta recuperar sus bytes. Las propuestas de color verbales sí están disponibles.
+- [x] Paleta editorial de 33 familias, regímenes focales y matices de dependencia, con contraste entre las familias británica y soviética. Exportación propia en docs/POLITICAL-PALETTE.csv; el CSV del propietario sigue pendiente.
+- [x] El control territorial modifica el inventario del mapa y se selecciona como controlador, con las franjas encendidas o apagadas.
+- [x] Franjas opcionales, desactivadas inicialmente: tres cuartos del controlador y un cuarto del territorio ocupado. La incorporación documentada se distingue de ocupación; Viena y Oslo tienen regresiones específicas.
+- [x] Tierra de referencia bajo los huecos del inventario político, incluida África 1889 y Arabia 1918. Separa tierra y mar; no atribuye ausencia de población ni reconstruye costas históricas.
+- [x] Conservar actualizaciones incrementales al recibir geometrías clonadas, sin reprocesar las costas idénticas.
 
-## Cambios solicitados
+## Ampliación a 1960
 
-- [x] Paleta histórica editorial por entidad y régimen:33 familias y CSV exportable, con dependencias en tonos de su potencia y contraste entre rivales. No interpretar colores antiguos como ideologías modernas. Falta conciliar el adjunto original no disponible.
-- [x] Control territorial en el propio mapa y selección del controlador sin depender del interruptor de ocupaciones. Geometría real de1942, clic y búsqueda comprobados en navegador.
-- [x] Ocupaciones opcionales con franjas gruesas del controlador y finas del territorio ocupado; anexiones sin franjas de ocupación. Prueba real distingue Viena de Oslo; captura de franjas revisada.
-- [x] Tierra de referencia visible bajo huecos políticos, especialmente África1889 y Arabia1918; comprobada también en Roma100 y separada del dominio geológico. Ausencia en el inventario no significa territorio deshabitado ni sin organización política.
-- [x] Ampliar autoridades, mandatos, retratos y banderas de 1960–1969, conservando curaciones/créditos. Catálogo final local283 claves/7.480 mandatos,3.788 medios (268 archivos fotográficos y44 símbolos netos nuevos).53 intervalos de bandera curados. No acredita todas las suplencias ni todos los retratos.
-- [x] Revisión focal de dependencias, independencias y fronteras1960–1969: UAR, Yemen, Tanganyika/Zanzíbar, UNTEA, protectorados, Namibia y estados omitidos. Pruebas de datos y navegador correctas; no certifica una revisión exhaustiva mundial de frentes o fechas diarias.
-- [x] Ampliar contexto, conflictos y membresías fechadas a1960:31 organizaciones/549 intervalos,258 fases,59 relaciones/53 registros históricos e institucionales; fuentes y límites explícitos.
-- [x] Auditoría del resolver cada año1960–1969, incluidos suplementos:1.693 país-años, cero huecos de resolución; guardar nombres/años de96 personas/órganos sin imagen y20 país-años sin símbolo en `docs/REVIEW-1960.json`. No equivale a revisión historiográfica exhaustiva.
+- [x] Auditoría de 1.693 país-años de 1960–1969, con suplementos y sin huecos de resolución de autoridad. No certifica todos los cargos, suplencias o días de mandato.
+- [x] Revisión focal de UAR, Yemen, Tanganyika/Zanzíbar, UNTEA, protectorados, Namibia, descolonización y estados omitidos. No equivale a reconstruir todos los frentes del mundo.
+- [x] Ampliar autoridades, banderas, retratos y contexto: 283 claves, 7.480 mandatos, 3.793 medios; 31 organizaciones/549 intervalos, 258 fases y 59 relaciones/53 registros históricos e institucionales.
+- [x] Conservar los medios antes de regenerar mandatos curados. Recuperados 26 retratos acreditados; repetir la curación conserva exactamente los bytes del catálogo.
+- [x] Separar la presidencia parlamentaria de Azikiwe del Gobierno de Balewa y evitar que la consolidación recupere cargos descartados por una corrección revisada.
+- [x] Registrar nombres, años y pistas de los vacíos en docs/REVIEW-1960.json y docs/reference/portrait-1960-pending-research.json.
 
-## Validación y entrega
+## Cierre de la entrega
 
-- [x] Pruebas de partición/control, clic, franjas y anexión frente a ocupación.
-- [x] Pruebas de paleta, régimen y dependencia; contraste de familias británica/soviética.
-- [x] Verificación de carga al retroceder y regresar, conservando arreglos de0.8.1; fichas, relaciones administrativas y sucesiones en los recorridos superados.
-- [ ] Pruebas de datos, integridad de recursos y medios, tipos, compilación y navegador.
-- [x] Actualizar versiones0.9.0/0.9.1, CHANGELOG, agentes, investigación y documentación de fuentes/limitaciones. Cierre de publicación todavía pendiente.
-- [ ] Publicar por el flujo existente y registrar SHA, Quality, Pages y comprobación pública. No está publicado todavía.
+- [x] Publicación 0.9.0: Quality 40005916966, 114 unitarias y 28 recorridos correctos; Pages 40008258279 correcto. Bytes públicos cotejados, con evidencia en docs/reference/public-verification-0.9.0.json.
+- [x] Corrección 0.9.1: 115 unitarias/23 archivos, tipos y build locales correctos. Integridad de 43 recursos, 11 franjas tipográficas y 3.793 medios, incluidos los bytes registrados en Git.
+- [x] Comprobación manual del navegador integrado: Nigeria con retratos y cargos separados; TAN→TZA conserva la ficha; reproducción y franjas. Fallos y límites de las primeras pasadas locales registrados en DELIVERY-0.9.0.
+- [ ] Quality 0.9.1 completo. Run 40009382574: instalación, integridad, unitarias y build superados; navegador en curso.
+- [ ] Pages de 0.9.1 y cotejo de los bytes públicos con c42531df6fafe5fdd9c6fc999a80741aa1829076 (candidato anterior; sustituido por el siguiente commit con cinco retratos adicionales).
+- [ ] Cierre documental con SHA, resultados, evidencia y árbol de trabajo limpio. No afirmar que 0.9.1 está publicada sólo porque lo esté 0.9.0.
 
-## Pendientes previos que no deben desaparecer
+## Pendientes reales de investigación y siguientes etapas
 
-- [ ] Fichas no seleccionables en épocas anteriores a la ventana revisada: inventariar y corregir por etapas; no declararlas resueltas al ampliar una década.
-- [ ] Frentes mensuales, sectores aliados de Alemania, control efectivo mundial reciente y resolución costera superior: ver límites de `agentes.md`.
-- [ ] Vacíos de imágenes y mandatos anteriores: mantener auditorías; un nombre o fotografía no certifica todos los cargos del país.
+- [ ] Recuperar y cotejar el CSV original. La ruta C:/Users/darim/Downloads/lista_imperios_completa_v3.csv no existe en las comprobaciones realizadas; no se ha importado ni reconstruido como si se hubiese leído.
+- [ ] 91 personas u órganos sin retrato: 76 sin P18 en la fuente consultada, 12 candidatos pendientes de identificación/licencia/adquisición y tres órganos o identificadores documentales. No son 96 países ni imágenes aprobadas. Conservar las exclusiones de retratos incorrectos.
+- [ ] Variantes históricas de Andorra y San Marino: 20 país-años de 1960–1969 sin bandera. No rellenar con diseños modernos sin cotejo de la variante.
+- [ ] Relevos diarios, suplencias, gobernadores generales y cargos secundarios identificados en las investigaciones, incluido enero de 1966 en Nigeria. Una ventana documental no es un nombramiento o una dimisión.
+- [ ] Frentes mensuales y control detallado de Congo, Biafra, Vietnam y Levante; sectores aliados de Alemania y control reciente completo. Mantener los límites de resolución de cada fuente.
+- [ ] Fichas tempranas que aún no se abren y ampliación de familias/regímenes fuera de los casos revisados. Revisar por etapas; no declararlo resuelto por ampliar una década.
 
 ## Cómo retomar
 
-Punto de control21:10 Madrid:0.9.0 publicada en ba7eb3b8ab505a277f5fb5f59c6e18eeb06084af. Quality40005916966:114 unitarias y28 navegadores correctos; Pages40008258279 correcto; cotejo público de4 archivos de aplicación,3 manifiestos,7 datos y9 medios. Evidencia en DELIVERY-0.9.0. Las primeras pasadas locales tuvieron fallos de tiempo y un catálogo mixto por cambiar rama durante un build; se documentaron y no sustituyen los resultados finales de CI.
+Consultar primero Git, esta pizarra y docs/DELIVERY-0.9.1.md. El código de aplicación está subido; falta cerrar el flujo de publicación indicado arriba. No repetir adquisiciones ni curaciones a ciegas. La última repetición de la curación de 1960 conservó todos los bytes y retratos; no hay adquisición de medios activa.
 
-Corrección0.9.1 preparada: conserva medios antes de regenerar mandatos y recupera26 retratos acreditados, separa Azikiwe/Balewa y respeta cargos curados al consolidar.115 unitarias/23 archivos, tipos e integridad43/11/3.788 correctos. Catálogo283/7.480; auditoría1.693 país-años,96 sin retrato y20 sin bandera. Siguiente: comprobar bytes staged, commit/push de0.9.1, Quality completo, Pages y bytes públicos. No dar por publicada0.9.1 por estarlo0.9.0. Servidor de preview propio: sesión84360/puerto5174; CUA browser2/tab2 temporal. No cambiar rama ni recompilar durante otra prueba. No hay adquisición activa de medios.
+Servidor de preview propio: sesión 84360, puerto 5174. Navegador CUA: browser 2/tab 2 temporal. La compilación local de 0.9.1 contiene index-B6vtP2_U.js; no cambiar rama ni recompilar mientras otra prueba use ese directorio. La referencia contemporánea sigue siendo 22/10/2026; investigar el pasado no avanza esa referencia.
 
-Pendientes que permanecen: CSV original no disponible,96 retratos/órganos (76 sin P18,17 candidatos, tres órganos/identificadores documentales), variantes AND/SMR, relevos diarios, gobernadores generales y frentes globales. Pistas específicas en docs/reference/portrait-1960-pending-research.json y documentos de investigación. No usar una candidatura como imagen aprobada ni una autoridad resuelta como certificación de todos los cargos.
-
-Comprobar primero el estado de Git y esta pizarra. Continuar por los puntos sin marcar; contrastar los resultados registrados y no repetir adquisiciones destructivas. Si una sesión se interrumpe, anotar aquí el último comando terminado, archivos modificados, procesos activos, siguiente paso y fallos concretos antes de cerrar.
+Si se interrumpe la sesión, registrar el último paso terminado, procesos activos, fallos concretos y siguiente acción antes de cerrar. No confundir el SHA de aplicación publicado con un commit posterior sólo documental.

@@ -30,7 +30,8 @@ def acquire(q):
   info=h.get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params),'commons-'+digest)
   page=next(iter(info.get('query',{}).get('pages',{}).values()),{});ii=page.get('imageinfo',[{}])[0];meta=ii.get('extmetadata',{});lic=meta.get('LicenseShortName',{}).get('value','')
   accepted=any(v in lic.lower() for v in ['public domain','cc0','cc by','cc-by','pd-']) or lic in ['Attribution','OGL 3','OGL v1.0','GODL-India','European Parliament','KOGL Type 1','PDM-owner']
-  if not accepted or 'nd' in lic.lower():continue
+  # Match the NoDerivatives token, not the letters "nd" inside "India".
+  if not accepted or re.search(r'(?<![a-z])nd(?![a-z])',lic,re.I):continue
   url=((ii.get('url') if args.original else ii.get('thumburl') or ii.get('url')) or '').split('?')[0]
   if not url:continue
   relative='media/portrait-'+digest+('.png' if '.png' in url.lower() else '.jpg');dest=h.OUT/relative

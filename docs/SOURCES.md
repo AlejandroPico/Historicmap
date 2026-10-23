@@ -132,3 +132,5 @@ Control integrado: composición temporal con polygon-clipping0.15.7 (MIT, https:
 Natural Earth de referencia bajo todo el dominio histórico separa tierra de océano donde el inventario político está incompleto. No representa una paleocosta ni ausencia de población/organización política. Las familias cromáticas son convenciones editoriales; el CSV propio POLITICAL-PALETTE no se atribuye al adjunto original no disponible del propietario.
 
 REVIEW-1960 conserva auditoría y huecos con nombres y años; DELIVERY-0.9.0 diferencia implementación, contraste focal, validación y publicación. No interpretar una autoridad resuelta como inventario exhaustivo de todos los mandatos, administradores o frentes.
+
+La corrección0.9.1 conserva las referencias de imágenes al regenerar mandatos y distingue el token ND del nombre GODL-India. Los cinco medios incorporados retienen los créditos y declaraciones de licencia de cada archivo; los candidatos pendientes no se consideran autorizados. La separación constitucional de cargos en Nigeria se documenta en AUTHORITIES-1960-RESEARCH, incluida una errata de la fuente institucional.
