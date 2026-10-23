@@ -45,7 +45,7 @@ def acquire(catalog_only=False):
     # not claims of exact adoption days. A later dated design takes precedence.
     historical_files={
       'ZAF':[('Flag of South Africa (1928–1994).svg',1928,1994)],
-      
+
       'SYR':[('Flag of Syria (1980–2024).svg',1980,2024)],
       'COD':[('Flag of Zaire (1971–1997).svg',1971,1997),('Flag of the Democratic Republic of the Congo (1997–2003).svg',1997,2003),('Flag of the Democratic Republic of the Congo (2003–2006).svg',2003,2006)],
       'LBY':[('Flag of Libya (1977–2011).svg',1977,2011)],

@@ -20,6 +20,8 @@ Verificación local final: 42 recursos de datos, 11 franjas de letras y 3.474 me
 
 Los dos recorridos finales de navegador de 1970 y sucesión vietnamita pasan, incluyendo retrato cargado, persistencia de ficha/pestaña, pertenencia al Pacto de Varsovia, entidades extinguidas y vista móvil. Previamente pasaron también las fichas actuales y reproducción de la Segunda Guerra Mundial. Los bytes preparados en Git de los 3.527 recursos de datos/letras/medios coinciden con sus manifiestos. Pendiente de registrar tras ejecución: commit validado, Quality, Pages y verificación pública. Los resultados locales no acreditan publicación.
 
+Primera ejecución completa Quality 39906449176: integridad, 97 pruebas unitarias, compilación y 23/24 recorridos correctos. El recorrido antiguo de ocupaciones esperaba ocultar toda la leyenda al desactivar esa capa; la nueva explicación de familias debe permanecer visible. Se actualiza para verificar ausencia de la leyenda de control, conservación de la explicación de familias y restauración del control al activar de nuevo. El recorrido corregido pasa localmente. La aplicación y los datos son los mismos; además se limpia un espacio final del preparador de símbolos, sin cambio funcional.
+
 ## Límites que se conservan
 
 La cobertura anual comprueba las entidades clasificadas como independientes por CShapes, incluyendo ciertos regímenes de facto; no es un listado de reconocimiento ONU ni revisión manual exhaustiva de todos los gobernantes. Persisten retratos sin fuente reutilizable, cargos secundarios/coloniales, variantes de símbolos, frentes y control efectivo por completar.
