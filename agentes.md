@@ -71,7 +71,9 @@ src/political.ts           familias y colores políticos/de control
 src/identities.ts          símbolos, dirigentes y selección temporal
 src/country-card.ts        ficha integrada común a búsqueda y mapa
 src/appearance.ts          apariencia y reloj local
-src/current-affiliations.ts membresías 2026 y contextos parciales de conflictos
+src/current-affiliations.ts observaciones parciales de conflictos de 2026
+src/historical-affiliations.ts membresías fechadas de organizaciones 1990–2026
+src/historical-context.ts fases históricas, conflictos y transiciones por año
 src/recent-context.ts      contexto focal 1900–actualidad y fuentes
 src/catalog.ts             contexto de épocas y lugares introductorios
 src/style.css              sistema visual, disposiciones y adaptación
@@ -313,3 +315,10 @@ La prueba de cobertura recorre cada año 1990–2019 con el resolver real de ide
 Cobertura final de adquisición 0.6: **274 claves/5.781 mandatos** en todas las épocas; en 1990–22/10/2026, **2.925 personas u órganos, 2.432 con imagen y 493 sin ella**. **2.871 medios**: 376 símbolos SVG y 2.495 fotografías (2.494 retratos y una escena completa). En 2026: 666 registros/437 personas u órganos/422 con imagen en 233 claves. Banderas fechadas en 197 claves de 1990 y 242 de 2026. Las cifras no equivalen a Estados soberanos ni gobiernos simultáneos. Datos y medios adquiridos el 22; cierre de entrega el 23/10/2026.
 
 La validación de bytes de todo el catálogo se mantiene en `data:verify`; la prueba unitaria de la ficha comprueba los archivos que realmente utiliza esa ficha y la procedencia del manifiesto, evitando repetir dentro del test una lectura completa de 120 MB que puede agotar el tiempo en almacenamiento sincronizado. No eliminar por ello la comprobación global SHA del flujo Quality. Las autoridades de facto se priorizan y los alias estadísticos/políticos se normalizan para conservar el color de la misma entidad entre fuentes.
+
+
+### Cierre verificado de 0.6.0
+
+Publicado **085b2d2bcc380c4696a0a64f1518ca02f5d27a1e**. [Quality 39874774724](https://github.com/AlejandroPico/Historicmap/actions/runs/39874774724) correcto: 39 recursos, 11 franjas y 2.871 medios con SHA-256; **51 pruebas unitarias y 18 recorridos de navegador** correctos. [Publish atlas 39875297617](https://github.com/AlejandroPico/Historicmap/actions/runs/39875297617) correcto; checkout real del mismo SHA confirmado en logs. Comprobación pública del 23/10/2026: JS `index-znTYbs7F.js`, CSS `index-CCx2Aqy8.css`, tres manifiestos idénticos byte por byte a los locales y bytes de los nuevos retratos de Collor/Gadafi verificados por HTTP. Revisión visual pública de Brasil 1990 con Collor/Sarney, fechas y fotos cargadas; evidencia local ignorada `.cache/release-0.6.0-public-1990.jpg`. Detalles en DELIVERY-0.6.0.
+
+El commit documental posterior usa `[skip ci]` y no altera la aplicación validada. Mantener separados los resultados de cobertura automática y el contraste historiográfico: faltan 493 imágenes en la ventana 1990–2026 y cobertura regional de cargos, banderas, conflictos y control efectivo. Se observa repetición de algunas etiquetas nacionales al acercar el mapa; pendiente revisar su colocación entre teselas sin reducir el detalle de las geometrías.

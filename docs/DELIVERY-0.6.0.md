@@ -17,7 +17,16 @@ Cobertura final: 274 claves y 5.781 registros de mandatos de todas las épocas. 
 
 Verificación local: 39 recursos de datos, 11 franjas tipográficas y 2.871 medios con SHA-256; las 2.495 fotografías superan la decodificación de Pillow. Auditoría automática de 238 selecciones 1789–2026. Suite de 51 pruebas correcta, incluida la selección real de autoridades o vacío institucional documentado de todos los Estados independientes CShapes en cada año 1990–2019. Recorrido local completo de 18 pruebas de navegador correcto en 15,4 minutos, incluidos todos los años e instantáneas, temas, fichas, relevos, organizaciones y carga lenta. Tras el recorrido se ajustó la prioridad de dirigentes de facto y la continuidad de colores entre códigos estadísticos/equivalentes. La fuente final volvió a superar las 51 pruebas unitarias, la compilación y las tres pruebas de navegador de historical-detail (1,8 minutos). Se verificaron además los bytes ya preparados en Git de los 2.921 recursos de datos, fuentes y medios. La ejecución completa de Quality sobre el commit final se registra al publicar.
 
-Pendiente de publicación: registrar SHA validado, checkout real de Pages y comprobación pública. No considerar publicada la versión sólo por compilar localmente.
+Publicado **085b2d2bcc380c4696a0a64f1518ca02f5d27a1e** en [Historicmap](https://alejandropico.github.io/Historicmap/), comprobado el 23/10/2026 desde las 00:00 UTC.
+
+- [Quality 39874774724](https://github.com/AlejandroPico/Historicmap/actions/runs/39874774724): correcto. Logs: 39 recursos de datos, 11 franjas tipográficas y 2.871 medios verificados, 51 pruebas unitarias en 12 archivos, compilación y **18 recorridos de navegador correctos en 4,3 minutos** sobre el commit publicado.
+- [Publish atlas 39875297617](https://github.com/AlejandroPico/Historicmap/actions/runs/39875297617): compilación y despliegue correctos. Checkout real de **085b2d2bcc380c4696a0a64f1518ca02f5d27a1e** confirmado en logs de build y despliegue.
+- Página pública con `assets/index-znTYbs7F.js` y `assets/index-CCx2Aqy8.css`, coincidentes con la compilación final. Manifiestos públicos de datos (39), tipografías (11) y medios (2.871) idénticos byte por byte a los locales. Descargas HTTP de los nuevos retratos de Collor y Gadafi verificadas por tamaño y SHA-256. Informe local ignorado en `.cache/public-verification-0.6.0.json`.
+
+- Revisión visual pública de Brasil en 1990: bandera, Collor y Sarney con fechas, retratos cargados, ficha izquierda y globo visible. Búsqueda compacta comprobada. Evidencia local ignorada: `.cache/release-0.6.0-public-1990.jpg`. Comprobación visual local adicional de Kuwait ocupado con autoridad controladora iraquí y símbolo/mandato diferenciados de la base kuwaití.
+- La pestaña de entrega vuelve a la web publicada en 1999, proyección globo, conservando la selección temporal del propietario. Se cierra la pestaña temporal de revisión y se detiene el servidor local propio.
+
+El cierre documental usa `[skip ci]` sin modificar la aplicación validada. La repetición de algunas etiquetas nacionales al acercar el mapa queda registrada como pendiente visual; no se reducen coordenadas para ocultarla.
 
 ## Alcance
 
