@@ -14,10 +14,16 @@ Integridad de 41 recursos, 11 franjas tipográficas y 2.871 medios correcta. 58 
 
 ## Publicación
 
-Pendiente de registrar SHA publicado, Quality, checkout real de Pages, manifiestos y comprobación visual pública. Un resultado local no equivale a publicación.
+Publicado **d6a8cfb4119edcf77d50f2133de46111aa5472bb** en [Historicmap](https://alejandropico.github.io/Historicmap/), comprobado el 23/10/2026 desde las 01:08 UTC.
+
+- [Quality 39881593494](https://github.com/AlejandroPico/Historicmap/actions/runs/39881593494): correcto; logs con 41 recursos, 11 franjas y 2.871 medios íntegros, **58 pruebas unitarias en 13 archivos y 22 recorridos de navegador correctos en 4,8 minutos** sobre el SHA final, incluidos todos los años 1789–2026 y los dos contratos actualizados.
+- [Publish atlas 39882159743](https://github.com/AlejandroPico/Historicmap/actions/runs/39882159743): correcto; checkout real y despliegue de **d6a8cfb4119edcf77d50f2133de46111aa5472bb** confirmados en logs. Se canceló la validación intermedia de 864b4d4 para evitar publicar una revisión anterior tras la final; no se eludió la validación de d6a8cfb.
+- Web pública: JS `assets/index-DWRzUWMW.js` y CSS `assets/index-b0OcPlkX.css`, con bytes idénticos al build final. Tres manifiestos idénticos a los locales; descargas completas de `country-indicators.json` (3.567.821 bytes) y `country-history.json` (45.459 bytes) con SHA-256 coincidente. Informe local ignorado: `.cache/public-verification-0.7.0.json`.
+- Revisión visual pública de España: doce apartados; la ficha Economía permanece abierta al cambiar 2026→2000 y muestra bandera/observaciones/fecha de 2000. Evidencia local ignorada: `.cache/release-0.7.0-public-2000.jpg`. Revisión local final de comparación de España 2016/2026 con créditos de ambas banderas, autoridades, tabla y gráfico.
+- La pestaña de entrega se recarga en la web pública conservando 1999 y globo. Se cierra la pestaña temporal y se detiene el servidor local propio. El cierre documental usa `[skip ci]` sin modificar la aplicación validada.
 
 ## Límites
 
 Instituciones, contextos y relaciones siguen siendo inventarios parciales. Las categorías y los campos ampliables no son datos adquiridos de todas las constituciones, idiomas, religiones, sanciones, socios comerciales, bases o lugares históricos. Personal militar sólo hasta 2020; gasto SIPRI no redistribuido. Observaciones de indicadores conservan sus años y ámbito de fuente, no se recalculan sobre polígonos históricos ni son vintages de publicación. Entidades desaparecidas no heredan datos de sucesores. Continúan las carencias de retratos, etiquetas repetidas al ampliar y cartografía documentadas en versiones anteriores.
 
-La última compilación añade créditos de autor/licencia a cada bandera de comparación y proveedor/licencia a los gráficos. Conserva las 58 pruebas unitarias correctas; el SHA final se valida completo en Quality.
+La última compilación añade créditos de autor/licencia a cada bandera de comparación y proveedor/licencia a los gráficos. Conserva las 58 pruebas unitarias correctas; el SHA final supera Quality completo según los resultados anteriores.
