@@ -1,0 +1,53 @@
+{
+  "key": "UMI",
+  "name": "Islas ultramarinas de Estados Unidos",
+  "qid": "Q16645",
+  "aliases": [
+    "Islas ultramarinas de Estados Unidos"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "UMI"
+  },
+  "flags": [
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-c3af5da8a535bc5455fc.svg",
+        "title": "Flag of the United States.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg",
+        "artist": "Uploaded by Dbenbenn; edited by users such as Zscout370, Jacobolus, Indolences, and Technion.",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "Latest version is based from File:Flag of the United States (DoS ECA Color Standard).svg (2023)\nSVG implementation of U. S. Code: Title 4, Chapter 1, Section 1 [1] (the United States Federal \"Flag Law\").",
+        "sha256": "48f0d3e4a7bf2d5c0c8d09cd975696acb2f3af601aaca80c537933ad9ec166ec",
+        "bytes": 823,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg"
+    }
+  ],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 204,
+      "start": null,
+      "end": null,
+      "name": "Islas ultramarinas de Estados Unidos",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

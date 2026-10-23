@@ -1,0 +1,78 @@
+{
+  "key": "SGS",
+  "name": "Islas Georgias del Sur y Sandwich del Sur",
+  "qid": "Q35086",
+  "aliases": [
+    "Islas Georgias del Sur y Sandwich del Sur"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SGS"
+  },
+  "flags": [
+    {
+      "start": "1992-01-01",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-50a37a0673e9511d20d0.svg",
+        "title": "Flag of South Georgia and the South Sandwich Islands.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg",
+        "artist": "",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "credit": "",
+        "sha256": "5d46d746ed08fe386dd9bda3a891e8656c76c4461e0d94a91e947883830b3d1b",
+        "bytes": 52914,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://www.wikidata.org/wiki/Q245213"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3341354",
+      "role": "Jefatura del Gobierno",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q35086",
+      "sourceStatement": "Q35086$1a0d21e5-4867-95a1-4503-59daf7281e2d",
+      "name": "Nigel Haywood",
+      "portrait": {
+        "file": "media/portrait-395e414ce863b4d4e749.jpg",
+        "title": "Hugo Swire visits the Falkland Islands (12524033064).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hugo_Swire_visits_the_Falkland_Islands_(12524033064).jpg",
+        "artist": "Foreign and Commonwealth Office",
+        "license": "OGL v1.0",
+        "licenseUrl": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Flickr",
+        "sha256": "d0add537d32025d926935d1e902058754b5269d0f259fe91a6fbf82273dd62a4",
+        "bytes": 22288,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hugo_Swire_visits_the_Falkland_Islands_%2812524033064%29.jpg/330px-Hugo_Swire_visits_the_Falkland_Islands_%2812524033064%29.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 241,
+      "start": null,
+      "end": null,
+      "name": "Islas Georgias del Sur y Sandwich del Sur",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

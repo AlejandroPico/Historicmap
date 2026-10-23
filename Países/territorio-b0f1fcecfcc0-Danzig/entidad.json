@@ -1,0 +1,30 @@
+{
+  "key": "territorio-b0f1fcecfcc0",
+  "name": "Danzig",
+  "qid": "",
+  "aliases": [
+    "Danzig"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 99,
+      "start": "1919-06-28",
+      "end": "1938-08-31",
+      "name": "Danzig",
+      "status": "mandate"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

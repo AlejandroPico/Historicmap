@@ -1,0 +1,31 @@
+# Países y entidades históricas
+
+Empieza por [el índice legible](INDICE.md). Cada carpeta tiene una clave estable y un nombre: países actuales, entidades históricas, imperios y territorios de los conjuntos incorporados. No se crean carpetas para entidades aún ausentes de las fuentes.
+
+`entidad.json` reúne nombres, banderas, mandatos con retratos y referencias a registros territoriales. Cada medio conserva licencia, autor, origen y ruta local; las imágenes están en `public/media` y los polígonos en `public/data`, sin multiplicar miles de copias ni mezclar licencias geográficas. Los regímenes de una misma identidad mantienen sus intervalos; las identidades históricas distintas conservan carpetas propias. Los registros sin equivalencia contrastada no se fusionan por semejanza.
+
+Este inventario se genera con `npm run entities:prepare`. Las adquisiciones y curaciones siguen escribiendo los conjuntos preparados de `public/data`; después se regenera el inventario. **No editar `entidad.json`: se reemplaza al regenerar.** No es una segunda base de datos independiente. `recursos.json` y `archivos/` son entradas propias y no se sobrescriben. `npm run build` actualiza y valida el inventario antes de compilar.
+
+## Añadir un himno o documento
+
+1. Coloca un archivo autorizado dentro de `archivos/` en la carpeta correspondiente. Se admiten mp3, ogg, wav, m4a y pdf.
+2. Decláralo en `recursos.json` con título, procedencia, licencia y fechas. Si la carpeta histórica no tiene ese archivo, créalo con la clave de `entidad.json`. Ejemplo de estructura (no es una grabación incorporada):
+
+```json
+{
+  "key": "ESP",
+  "resources": [{
+    "file": "himno.ogg",
+    "title": "Título de la grabación",
+    "artist": "Intérprete y autoría",
+    "source": "https://fuente-del-archivo.example/registro",
+    "license": "Licencia comprobada de esta grabación",
+    "start": "2000-01-01",
+    "end": "2026-12-31"
+  }]
+}
+```
+
+3. Ejecuta la preparación/compilación. La aplicación detecta los archivos declarados sin editar código y muestra los recursos vigentes en **Datos**. La vigencia de un himno y los derechos de una interpretación son cuestiones distintas. No se reproducen sonidos automáticamente.
+
+La validación rechaza archivos sin declaración, sin fechas/licencia o que no existen. Las fechas son inclusivas. Si no hay un recurso acreditado no aparece un reproductor vacío. El catálogo no incorpora himnos ni grabaciones por defecto.

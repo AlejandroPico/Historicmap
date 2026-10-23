@@ -1,0 +1,38 @@
+{
+  "key": "territorio-a3ccee54d85b",
+  "name": "Spanish Sahara",
+  "qid": "",
+  "aliases": [
+    "Spanish Sahara"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 448,
+      "start": "1958-10-10",
+      "end": "1975-11-13",
+      "name": "Spanish Sahara",
+      "status": "colony"
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 89,
+      "start": null,
+      "end": null,
+      "name": "Spanish Sahara",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

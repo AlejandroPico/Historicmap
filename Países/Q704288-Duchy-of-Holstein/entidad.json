@@ -1,0 +1,38 @@
+{
+  "key": "Q704288",
+  "name": "Duchy of Holstein",
+  "qid": "Q704288",
+  "aliases": [
+    "Duchy of Holstein"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11471",
+      "start": 1848,
+      "end": 1848,
+      "name": "Duchy of Holstein",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11491",
+      "start": 1849,
+      "end": 1852,
+      "name": "Duchy of Holstein",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

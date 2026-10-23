@@ -1,0 +1,46 @@
+{
+  "key": "territorio-3c3bd7633ee6",
+  "name": "Palestine",
+  "qid": "",
+  "aliases": [
+    "Palestine"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 509,
+      "start": "1923-09-29",
+      "end": "1948-05-13",
+      "name": "Palestine",
+      "status": "mandate"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 510,
+      "start": "1920-04-26",
+      "end": "1920-12-23",
+      "name": "Palestine",
+      "status": "occupied"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 511,
+      "start": "1920-12-24",
+      "end": "1923-09-28",
+      "name": "Palestine",
+      "status": "occupied"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,46 @@
+{
+  "key": "territorio-c821cf93107c",
+  "name": "Sabah (North Borneo)",
+  "qid": "",
+  "aliases": [
+    "Sabah (North Borneo)"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 618,
+      "start": "1946-07-15",
+      "end": "1963-09-15",
+      "name": "Sabah (North Borneo)",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 619,
+      "start": "1888-05-12",
+      "end": "1889-06-19",
+      "name": "Sabah (North Borneo)",
+      "status": "protectorate"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 620,
+      "start": "1889-06-20",
+      "end": "1946-07-14",
+      "name": "Sabah (North Borneo)",
+      "status": "protectorate"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

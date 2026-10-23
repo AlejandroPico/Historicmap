@@ -1,0 +1,33 @@
+{
+  "key": "SPI",
+  "name": "Campo de hielo Patagónico Sur",
+  "qid": "Q1031467",
+  "aliases": [
+    "Campo de hielo Patagónico Sur"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SPI"
+  },
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 173,
+      "start": null,
+      "end": null,
+      "name": "Campo de hielo Patagónico Sur",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

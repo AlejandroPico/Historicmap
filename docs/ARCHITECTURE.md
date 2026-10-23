@@ -1,5 +1,13 @@
 # Arquitectura y evolución
 
+## Catálogo por entidad y ficha fija · 0.10
+
+`Países/` es la vista de consulta por entidad de las colecciones preparadas. `scripts/prepare-country-catalog.mjs` genera `indice.json`, `INDICE.md` y `entidad.json` por carpeta. Las identidades históricas con QID distinto no se fusionan por similitud de nombres. Los datos científicos y sus licencias permanecen separados en `public/data`; las imágenes compartidas se referencian desde `public/media`. No editar el resumen generado ni mantener dos fuentes de verdad independientes. Regenerar después de adquirir/curar y antes de compilar.
+
+Las entradas editables `recursos.json` y `archivos/` permiten incorporar audio/PDF por clave y vigencia. El preparador exige archivo real, fechas, fuente y licencia; el importador de Vite los descubre y `entity-resources.ts` los filtra por año para Datos. No hay reproducción automática ni descargas de proveedores durante la consulta. Las carpetas sin recursos no incorporan reproductores vacíos.
+
+La ficha es una columna de altura limitada: identidad y pestañas quedan fuera de `.country-content`, único desplazamiento vertical interior. `main.ts` conserva/restaura la posición de ese contenedor al cambiar la fecha, no el scroll de toda la tarjeta. Cambiar de pestaña inicia su contenido arriba. Comparaciones permanecen dentro de su panel y conservan la misma delegación de eventos y guardas de solicitudes anteriores.
+
 ## Ampliación 0.6 · datos temporales
 
 `historical-affiliations.ts` consume el catálogo local `affiliations.json`; `historical-context.ts` consume `historical-context.json`. Se importan como metadatos locales del build; no consultan proveedores al navegar. Membresías y eventos usan fin exclusivo; mandatos mantienen fin inclusivo. Las membresías del mapa se observan al cierre anual y las de Datos conservan todas las relaciones del año. Los eventos son fichas relacionadas, no beligerantes para una pintura automática.

@@ -1,0 +1,30 @@
+{
+  "key": "territorio-f51d6b8311bb",
+  "name": "Bosnia",
+  "qid": "",
+  "aliases": [
+    "Bosnia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 677,
+      "start": "1886-01-01",
+      "end": "1908-10-06",
+      "name": "Bosnia",
+      "status": "occupied"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

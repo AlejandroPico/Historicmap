@@ -1,0 +1,78 @@
+/** Human-readable entity inventory; geometry and licensed media stay in their original collections. */
+import {readFileSync,writeFileSync,mkdirSync,existsSync,readdirSync,unlinkSync,rmdirSync} from 'node:fs';
+import {resolve,dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),dir=resolve(root,'Países');
+const read=f=>JSON.parse(readFileSync(resolve(root,'public/data',f),'utf8'));
+const identities=read('identities.json'),profiles=read('profiles.json'),manifest=read('manifest.json');
+const entities=new Map(),qids=new Map(),names=new Map();
+const norm=s=>String(s).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().trim();
+function add(key,name,qid=''){
+ if(!entities.has(key))entities.set(key,{key,name,qid,aliases:new Set([name]),records:[]});
+ return entities.get(key);
+}
+for(const [key,c] of Object.entries(identities.countries)){
+ add(key,c.name,c.qid).identity=c;
+ if(c.qid&&!qids.has(c.qid))qids.set(c.qid,key);
+ for(const name of [c.name,profiles.countries[key]?.englishName])if(name)names.set(norm(name),key);
+}
+function record(p,file,recordId){
+ const name=p.originalName??p.country_name??p.name;
+ if(!name||['Masa continental','Continente','Tierra','Ocean','Land'].includes(name))return;
+ const qid=p.wikidata??'',key=/^Q\d+$/.test(qid)?qids.get(qid)||qid:names.get(norm(name))||'territorio-'+createHash('sha256').update(norm(name)).digest('hex').slice(0,12);
+ const e=add(key,name,qid);e.aliases.add(name);
+ e.records.push({file,recordId,start:p.start??null,end:p.end??null,name,status:p.status??p.politicalStatus??null});
+}
+for(const g of read('history.topojson').objects.countries.geometries)record(g.properties,'history.topojson',g.properties.fid);
+for(const entry of manifest.entries.filter(e=>/^(early-modern|historical-control|spanish-civil-war|recent-control|historical-supplements|countries|world_.*)\.geojson$/.test(e.file))){
+ const d=read(entry.file);for(const [i,f] of d.features.entries())record(f.properties,entry.file,f.id??i);
+}
+mkdirSync(dir,{recursive:true});const index=[];
+for(const e of [...entities.values()].sort((a,b)=>a.key.localeCompare(b.key))){
+ const slug=e.name.normalize('NFD').replace(/\p{Diacritic}/gu,'').replace(/[^a-zA-Z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,65)||'entidad';
+ const folder=e.key+'-'+slug,path=resolve(dir,folder);mkdirSync(path,{recursive:true});
+ const c=e.identity,flags=c?.flags??[],leaders=c?.leaders??[];
+ const output={key:e.key,name:e.name,qid:e.qid,aliases:[...e.aliases].sort(),generatedBy:'scripts/prepare-country-catalog.mjs',
+  scope:'Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.',
+  sourceIdentity:c?{file:'../../public/data/identities.json',key:e.key}:null,
+  flags,leaders,territorialRecords:e.records,
+  relatedData:['../../public/data/country-history.json','../../public/data/historical-context.json','../../public/data/affiliations.json'],
+  mediaRoot:'../../public/',extensionFile:'recursos.json'};
+ writeFileSync(resolve(path,'entidad.json'),JSON.stringify(output,null,2)+'\n');
+ const resourceFile=resolve(path,'recursos.json');
+ if(!c&&existsSync(resourceFile)){
+  const old=JSON.parse(readFileSync(resourceFile,'utf8'));
+  if(old.key===e.key&&old.resources?.length===0&&Object.keys(old).length===2)unlinkSync(resourceFile);
+ }
+ if(c&&!existsSync(resourceFile))writeFileSync(resourceFile,JSON.stringify({key:e.key,resources:[]},null,2)+'\n');
+ const custom=existsSync(resourceFile)?JSON.parse(readFileSync(resourceFile,'utf8')):{key:e.key,resources:[]};
+ if(custom.key!==e.key||!Array.isArray(custom.resources))throw Error('Invalid resources: '+folder);
+ const declared=new Set();
+ for(const r of custom.resources){
+  if(!/^[\w.-]+\.(mp3|ogg|wav|m4a|pdf)$/i.test(r.file)||!r.title||!r.source||!r.license||!r.start||!r.end||r.start>r.end)throw Error('Resource metadata missing/invalid: '+folder);
+  if(declared.has(r.file)||!existsSync(resolve(path,'archivos',r.file)))throw Error('Duplicate/missing resource: '+folder+'/'+r.file);
+  declared.add(r.file);
+ }
+ if(existsSync(resolve(path,'archivos')))for(const f of readdirSync(resolve(path,'archivos')))if(!declared.has(f))throw Error('Resource requires source, license and dates: '+folder+'/'+f);
+ index.push({key:e.key,name:e.name,folder,flags:flags.length,leaders:leaders.length,territorialRecords:e.records.length});
+}
+writeFileSync(resolve(dir,'indice.json'),JSON.stringify({entities:index},null,2)+'\n');
+// Remove only our obsolete generated views after a folder label changes.
+// Any custom file or nonempty extension makes the old directory user-owned.
+const folders=new Set(index.map(e=>e.folder));
+for(const old of readdirSync(dir,{withFileTypes:true}).filter(d=>d.isDirectory()&&!folders.has(d.name))){
+ const path=resolve(dir,old.name),files=readdirSync(path),entityFile=resolve(path,'entidad.json');
+ if(!files.every(f=>['entidad.json','recursos.json'].includes(f))||!existsSync(entityFile))continue;
+ const entity=JSON.parse(readFileSync(entityFile,'utf8'));
+ if(entity.generatedBy!=='scripts/prepare-country-catalog.mjs')continue;
+ const resources=resolve(path,'recursos.json');
+ if(existsSync(resources)){
+  const extension=JSON.parse(readFileSync(resources,'utf8'));
+  if(extension.resources?.length!==0||Object.keys(extension).length!==2)continue;
+  unlinkSync(resources);
+ }
+ unlinkSync(entityFile);rmdirSync(path);
+}
+writeFileSync(resolve(dir,'INDICE.md'),'# Entidades del atlas\n\nInventario generado de países, reinos, imperios y territorios presentes en los conjuntos locales. Una carpeta no acredita una ficha completa. Véase [cómo ampliar](README.md).\n\n| Entidad | Clave | Banderas | Mandatos | Registros territoriales |\n| --- | --- | ---: | ---: | ---: |\n'+index.map(e=>`| [${e.name.replaceAll('|','/')}](./${e.folder}/entidad.json) | ${e.key} | ${e.flags} | ${e.leaders} | ${e.territorialRecords} |`).join('\n')+'\n');
+console.log('Entity folders:',index.length,'; historical identities:',Object.keys(identities.countries).length);

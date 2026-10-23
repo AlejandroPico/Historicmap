@@ -1,0 +1,33 @@
+{
+  "key": "BJN",
+  "name": "Bajo Nuevo",
+  "qid": "Q1257783",
+  "aliases": [
+    "Bajo Nuevo"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "BJN"
+  },
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 255,
+      "start": null,
+      "end": null,
+      "name": "Bajo Nuevo",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

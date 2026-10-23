@@ -1,0 +1,30 @@
+{
+  "key": "territorio-26c1d062cc7a",
+  "name": "Alaska",
+  "qid": "",
+  "aliases": [
+    "Alaska"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 4,
+      "start": "1886-01-01",
+      "end": "1959-01-02",
+      "name": "Alaska",
+      "status": "colony"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

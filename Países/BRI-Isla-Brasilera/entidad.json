@@ -1,0 +1,33 @@
+{
+  "key": "BRI",
+  "name": "Isla Brasilera",
+  "qid": "Q2093778",
+  "aliases": [
+    "Isla Brasilera"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "BRI"
+  },
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 139,
+      "start": null,
+      "end": null,
+      "name": "Isla Brasilera",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

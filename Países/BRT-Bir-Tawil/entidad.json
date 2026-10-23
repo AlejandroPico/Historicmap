@@ -1,0 +1,33 @@
+{
+  "key": "BRT",
+  "name": "Bir Tawil",
+  "qid": "Q620634",
+  "aliases": [
+    "Bir Tawil"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "BRT"
+  },
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 174,
+      "start": null,
+      "end": null,
+      "name": "Bir Tawil",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

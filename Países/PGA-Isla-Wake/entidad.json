@@ -1,0 +1,53 @@
+{
+  "key": "PGA",
+  "name": "Isla Wake",
+  "qid": "Q43296",
+  "aliases": [
+    "Isla Wake"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "PGA"
+  },
+  "flags": [
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-65dc6f0dda0096020944.svg",
+        "title": "Flag of Wake Island.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Wake_Island.svg",
+        "artist": "User:Denelson83",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "from the xrmap flag collection 2.9.  Modifications by Denelson83.",
+        "sha256": "934e1cc6923a9d0295ce4c28a69dc32d3ab1785d27abf75587712aaff41254a8",
+        "bytes": 4901,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Wake_Island.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Wake_Island.svg"
+    }
+  ],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 251,
+      "start": null,
+      "end": null,
+      "name": "Isla Wake",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

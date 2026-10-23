@@ -1,0 +1,86 @@
+{
+  "key": "UNTEA",
+  "name": "Autoridad Ejecutiva Temporal de las Naciones Unidas",
+  "qid": "",
+  "aliases": [
+    "Autoridad Ejecutiva Temporal de las Naciones Unidas"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "UNTEA"
+  },
+  "flags": [
+    {
+      "start": "1962-10-01",
+      "end": "1963-04-30",
+      "media": {
+        "file": "media/flag-05fb817a65d3fd1d747f.svg",
+        "title": "Flag of the United Nations.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Nations.svg",
+        "artist": "See File history below for details.\n Denelson83, Zscout370 ve Madden",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Flag of the United Nations from the Open Clip Art website. Modifications by Denelson83, Zscout370 and Madden. Official construction sheet here.(1946-present\nUnited Nations)  The United Nations flag code and regulations, as amended November 11, 1952, New York. Archived from the original on 13 September 2001. Retrieved on 2 December 2023. OCLC:   7548838.",
+        "sha256": "c15749b8e69f0fbf19aba8e5c0d4213c91b8421214565bc0c6e6bedfe31ff611",
+        "bytes": 33881,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_the_United_Nations.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Nations.svg",
+      "acquisition": "curated-symbols-0.9",
+      "intervalSource": "https://commons.wikimedia.org/wiki/Data:FlagsData.tab",
+      "note": "Ventana histórica de cobertura, generalmente al cierre anual; sus extremos no se presentan como adopción o derogación del diseño. Descripción y procedencia del archivo conservadas."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q19593788",
+      "name": "José Rolz-Bennett",
+      "role": "Administrador de Naciones Unidas · UNTEA",
+      "start": "1962-10-01",
+      "end": "1962-11-14",
+      "precision": 11,
+      "source": "https://digitallibrary.un.org/record/860188/files/1122901-EM.pdf",
+      "curated": true,
+      "acquisition": "curated-1960-0.9",
+      "note": "Intervalo efectivo. Abdoh fue nombrado el 22/10/1962 y asumió en el territorio el 15/11; los extremos finales inclusivos se convierten del relevo y transferencia del día siguiente. La administración se transfiere a Indonesia el 1/5/1963, no en la firma de agosto de 1962."
+    },
+    {
+      "person": "Q5955377",
+      "name": "Djalal Abdoh",
+      "role": "Administrador de Naciones Unidas · UNTEA",
+      "start": "1962-11-15",
+      "end": "1963-04-30",
+      "precision": 11,
+      "source": "https://digitallibrary.un.org/record/860188/files/1122901-EM.pdf",
+      "curated": true,
+      "acquisition": "curated-1960-0.9",
+      "note": "Intervalo efectivo. Abdoh fue nombrado el 22/10/1962 y asumió en el territorio el 15/11; los extremos finales inclusivos se convierten del relevo y transferencia del día siguiente. La administración se transfiere a Indonesia el 1/5/1963, no en la firma de agosto de 1962.",
+      "portrait": {
+        "file": "media/portrait-326c77abe6dc078e02f5.jpg",
+        "title": "VN-bestuurder Nieuw-Guinea, de pers Dr Djalat Abdoh in Nederland om besprekinge, Bestanddeelnr 914-4709 (cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:VN-bestuurder_Nieuw-Guinea,_de_pers_Dr_Djalat_Abdoh_in_Nederland_om_besprekinge,_Bestanddeelnr_914-4709_(cropped).jpg",
+        "artist": "Harry Pot / Anefo",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://proxy.handle.net/10648/aa1db52a-d0b4-102d-bcf8-003048976d84",
+        "sha256": "e9023d8ebe13abbbeba503ff273446a8b3f29115db0358596ffd463eef776e4e",
+        "bytes": 41613,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/VN-bestuurder_Nieuw-Guinea%2C_de_pers_Dr_Djalat_Abdoh_in_Nederland_om_besprekinge%2C_Bestanddeelnr_914-4709_%28cropped%29.jpg/330px-VN-bestuurder_Nieuw-Guinea%2C_de_pers_Dr_Djalat_Abdoh_in_Nederland_om_besprekinge%2C_Bestanddeelnr_914-4709_%28cropped%29.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

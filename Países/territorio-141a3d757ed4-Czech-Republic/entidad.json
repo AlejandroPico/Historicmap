@@ -1,0 +1,46 @@
+{
+  "key": "territorio-141a3d757ed4",
+  "name": "Czech Republic",
+  "qid": "",
+  "aliases": [
+    "Czech Republic"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 115,
+      "start": "1993-01-01",
+      "end": "2019-12-31",
+      "name": "Czech Republic",
+      "status": "independent"
+    },
+    {
+      "file": "world_1994.geojson",
+      "recordId": 123,
+      "start": null,
+      "end": null,
+      "name": "Czech Republic",
+      "status": null
+    },
+    {
+      "file": "world_2010.geojson",
+      "recordId": 122,
+      "start": null,
+      "end": null,
+      "name": "Czech Republic",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,30 @@
+{
+  "key": "territorio-df00cbf42bde",
+  "name": "Lagos",
+  "qid": "",
+  "aliases": [
+    "Lagos"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 679,
+      "start": "1886-01-01",
+      "end": "1906-02-15",
+      "name": "Lagos",
+      "status": "colony"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

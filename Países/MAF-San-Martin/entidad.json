@@ -1,0 +1,86 @@
+{
+  "key": "MAF",
+  "name": "San Martín",
+  "qid": "Q126125",
+  "aliases": [
+    "Saint Martin",
+    "San Martín"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "MAF"
+  },
+  "flags": [
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-03603670a9150d721c99.svg",
+        "title": "Flag of France.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+        "artist": "Original: Unknown Vector:  SKopp",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This SVG flag includes elements that have been taken or adapted from this flag:",
+        "sha256": "e949902c7677422d88137d385b9edbe91323470c7933824cc968aca3965fc37c",
+        "bytes": 193,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
+    }
+  ],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "world_1800.geojson",
+      "recordId": 138,
+      "start": null,
+      "end": null,
+      "name": "Saint Martin",
+      "status": null
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 122,
+      "start": null,
+      "end": null,
+      "name": "Saint Martin",
+      "status": null
+    },
+    {
+      "file": "world_1945.geojson",
+      "recordId": 161,
+      "start": null,
+      "end": null,
+      "name": "Saint Martin",
+      "status": null
+    },
+    {
+      "file": "world_1994.geojson",
+      "recordId": 171,
+      "start": null,
+      "end": null,
+      "name": "Saint Martin",
+      "status": null
+    },
+    {
+      "file": "world_2010.geojson",
+      "recordId": 172,
+      "start": null,
+      "end": null,
+      "name": "Saint Martin",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,46 @@
+{
+  "key": "territorio-a15aaf715b69",
+  "name": "Burkina Faso (Upper Volta)",
+  "qid": "",
+  "aliases": [
+    "Burkina Faso (Upper Volta)"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 269,
+      "start": "1919-03-01",
+      "end": "1932-09-04",
+      "name": "Burkina Faso (Upper Volta)",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 270,
+      "start": "1947-01-04",
+      "end": "1960-08-04",
+      "name": "Burkina Faso (Upper Volta)",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 271,
+      "start": "1960-08-05",
+      "end": "2019-12-31",
+      "name": "Burkina Faso (Upper Volta)",
+      "status": "independent"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

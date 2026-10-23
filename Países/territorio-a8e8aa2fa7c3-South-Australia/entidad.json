@@ -1,0 +1,30 @@
+{
+  "key": "territorio-a8e8aa2fa7c3",
+  "name": "South Australia",
+  "qid": "",
+  "aliases": [
+    "South Australia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 650,
+      "start": "1886-01-01",
+      "end": "1900-12-31",
+      "name": "South Australia",
+      "status": "colony"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

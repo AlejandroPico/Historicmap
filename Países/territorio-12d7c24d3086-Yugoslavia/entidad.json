@@ -1,0 +1,70 @@
+{
+  "key": "territorio-12d7c24d3086",
+  "name": "Yugoslavia",
+  "qid": "",
+  "aliases": [
+    "Yugoslavia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 135,
+      "start": "1918-12-01",
+      "end": "1919-09-09",
+      "name": "Yugoslavia",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 136,
+      "start": "1919-09-10",
+      "end": "1920-06-03",
+      "name": "Yugoslavia",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 137,
+      "start": "1920-06-04",
+      "end": "1991-11-19",
+      "name": "Yugoslavia",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 138,
+      "start": "1991-11-20",
+      "end": "1992-04-26",
+      "name": "Yugoslavia",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 139,
+      "start": "1992-04-27",
+      "end": "2006-06-02",
+      "name": "Yugoslavia",
+      "status": "independent"
+    },
+    {
+      "file": "world_1945.geojson",
+      "recordId": 139,
+      "start": null,
+      "end": null,
+      "name": "Yugoslavia",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

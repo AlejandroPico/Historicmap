@@ -1,0 +1,38 @@
+{
+  "key": "territorio-137805810b2f",
+  "name": "Cape Verde",
+  "qid": "",
+  "aliases": [
+    "Cape Verde"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 215,
+      "start": "1886-01-01",
+      "end": "1975-07-04",
+      "name": "Cape Verde",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 216,
+      "start": "1975-07-05",
+      "end": "2019-12-31",
+      "name": "Cape Verde",
+      "status": "independent"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

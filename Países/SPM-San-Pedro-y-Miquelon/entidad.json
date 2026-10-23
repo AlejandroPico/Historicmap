@@ -1,0 +1,78 @@
+{
+  "key": "SPM",
+  "name": "San Pedro y Miquelón",
+  "qid": "Q34617",
+  "aliases": [
+    "San Pedro y Miquelón"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SPM"
+  },
+  "flags": [
+    {
+      "start": "1982-01-01",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-5d91f5ac16db38226c9d.svg",
+        "title": "Flag of Saint-Pierre and Miquelon.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Saint-Pierre_and_Miquelon.svg",
+        "artist": "André Paturel",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "courtesy an e-mail from the author of xrmap.  Modifications by Denelson83",
+        "sha256": "68bcc0bcf37c135b9fdefd64942d05ec6971516d5bdb189ca3ad8f3caa5a5b90",
+        "bytes": 106016,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_Saint-Pierre_and_Miquelon.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://www.wikidata.org/wiki/Q234956"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3501568",
+      "role": "Jefatura del Gobierno",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q34617",
+      "sourceStatement": "Q34617$3e4b27a4-49d6-45ce-2e10-d3b0d659c801",
+      "name": "Stéphane Artano",
+      "portrait": {
+        "file": "media/portrait-d9f1694ddacba451a113.jpg",
+        "title": "Visit of Stéphane Artano to the EC 2016 Cropped.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Visit_of_St%C3%A9phane_Artano_to_the_EC_2016_Cropped.jpg",
+        "artist": "European Union",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "© European Union, 2026",
+        "attributionRequired": true,
+        "credit": "https://audiovisual.ec.europa.eu/en/media/photo/P-032617",
+        "sha256": "fe2d739ac2a6b9851e5b08b0422511b862f2ca5c612d1f2cc55362ac5683044f",
+        "bytes": 28629,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Visit_of_St%C3%A9phane_Artano_to_the_EC_2016_Cropped.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 190,
+      "start": null,
+      "end": null,
+      "name": "San Pedro y Miquelón",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

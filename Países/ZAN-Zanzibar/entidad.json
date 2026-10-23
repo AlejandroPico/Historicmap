@@ -1,0 +1,124 @@
+{
+  "key": "ZAN",
+  "name": "Zanzíbar",
+  "qid": "",
+  "aliases": [
+    "Zanzibar",
+    "Zanzíbar"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "ZAN"
+  },
+  "flags": [
+    {
+      "start": "1963-12-10",
+      "end": "1964-01-11",
+      "media": {
+        "file": "media/flag-3c1b049884180f1732d9.svg",
+        "title": "Flag of the Sultanate of Zanzibar.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Sultanate_of_Zanzibar.svg",
+        "artist": "Mysid",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Vectorized in vim by Mysid. Based on a PNG by User:Hierakares, who based it on a drawing and description in \"Die Wappen und Flaggen der Herrscher und Staaten der Welt / J. Siebmachers großes Wappenbuch Band 1\", reprinted by Bauer & Raspe, Neustadt an der Aisch (Germany) 1978.",
+        "sha256": "03aebe2ee114c68864f9a04a4eaf2be1a2dc234c9bbd4d565946a1ed9cfd88c3",
+        "bytes": 1001,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_the_Sultanate_of_Zanzibar.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Sultanate_of_Zanzibar.svg",
+      "acquisition": "curated-symbols-0.9",
+      "intervalSource": "https://commons.wikimedia.org/wiki/Data:FlagsData.tab",
+      "note": "Ventana histórica de cobertura, generalmente al cierre anual; sus extremos no se presentan como adopción o derogación del diseño. Descripción y procedencia del archivo conservadas."
+    }
+  ],
+  "leaders": [
+    {
+      "name": "Jamshid bin Abdullah",
+      "role": "Sultán de Zanzíbar",
+      "start": "1963-12-10",
+      "end": "1964-01-11",
+      "precision": 11,
+      "source": "https://thedocs.worldbank.org/en/doc/847831391202110111-0560011970/original/WorldBankGroupArchivesFolder1772531.pdf",
+      "note": "Limites de cobertura documental, no nombramiento ni dimision. Ambito desde independencia hasta antes de revolucion 12 enero; sultan desde julio de 1963 bajo protectorado.",
+      "person": "Q2029666",
+      "curated": true,
+      "acquisition": "curated-1960-0.9",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-8951ec6f4e26216e5809.jpg",
+        "title": "Jamshid bin Abdullah of Zanzibar.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Jamshid_bin_Abdullah_of_Zanzibar.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jamshid_bin_Abdullah_of_Zanzibar.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://johnryle.com/?article=the-lost-library-of-zanzibar",
+        "sha256": "2346040d803cc5c1c8bae160d63ccd50aa5d0c97a5baab95787c76e0b6598d62",
+        "bytes": 23556,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jamshid_bin_Abdullah_of_Zanzibar.jpg"
+      }
+    },
+    {
+      "name": "Muhammad Shamte Hamadi",
+      "role": "Jefatura del Gobierno · Zanzíbar",
+      "start": "1963-12-10",
+      "end": "1964-01-11",
+      "precision": 11,
+      "source": "https://thedocs.worldbank.org/en/doc/847831391202110111-0560011970/original/WorldBankGroupArchivesFolder1772531.pdf",
+      "note": "Limites de cobertura documental, no nombramiento ni dimision. Ventana del Estado independiente; ya gobernaba antes. No reducir su mandato total a esta ventana.",
+      "person": "Q6932724",
+      "curated": true,
+      "acquisition": "curated-1960-0.9",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 361,
+      "start": "1963-12-19",
+      "end": "1964-04-25",
+      "name": "Zanzibar",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 362,
+      "start": "1890-07-01",
+      "end": "1895-06-30",
+      "name": "Zanzibar",
+      "status": "occupied"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 363,
+      "start": "1895-07-01",
+      "end": "1963-12-18",
+      "name": "Zanzibar",
+      "status": "protectorate"
+    },
+    {
+      "file": "world_1800.geojson",
+      "recordId": 114,
+      "start": null,
+      "end": null,
+      "name": "Zanzibar",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

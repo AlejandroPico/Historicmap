@@ -1,0 +1,38 @@
+{
+  "key": "territorio-90e6e00cb0a8",
+  "name": "Korea, People's Republic of",
+  "qid": "",
+  "aliases": [
+    "Korea, People's Republic of"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 560,
+      "start": "1948-09-09",
+      "end": "2019-12-31",
+      "name": "Korea, People's Republic of",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 561,
+      "start": "1945-08-15",
+      "end": "1948-09-08",
+      "name": "Korea, People's Republic of",
+      "status": "occupied"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

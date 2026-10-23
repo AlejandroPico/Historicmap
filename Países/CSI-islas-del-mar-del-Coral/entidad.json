@@ -1,0 +1,33 @@
+{
+  "key": "CSI",
+  "name": "islas del mar del Coral",
+  "qid": "Q172216",
+  "aliases": [
+    "islas del mar del Coral"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CSI"
+  },
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 250,
+      "start": null,
+      "end": null,
+      "name": "islas del mar del Coral",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

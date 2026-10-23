@@ -1,0 +1,54 @@
+{
+  "key": "territorio-f94017533008",
+  "name": "French West Africa",
+  "qid": "",
+  "aliases": [
+    "French West Africa"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 226,
+      "start": "1895-06-16",
+      "end": "1898-06-13",
+      "name": "French West Africa",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 227,
+      "start": "1898-06-14",
+      "end": "1902-12-24",
+      "name": "French West Africa",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 228,
+      "start": "1902-12-25",
+      "end": "1904-04-07",
+      "name": "French West Africa",
+      "status": "colony"
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 95,
+      "start": null,
+      "end": null,
+      "name": "French West Africa",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

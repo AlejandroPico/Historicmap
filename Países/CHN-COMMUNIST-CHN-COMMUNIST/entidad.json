@@ -1,0 +1,50 @@
+{
+  "key": "CHN-COMMUNIST",
+  "name": "CHN-COMMUNIST",
+  "qid": "",
+  "aliases": [
+    "CHN-COMMUNIST"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CHN-COMMUNIST"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q5816",
+      "name": "Mao Zedong",
+      "role": "Dirigente del Partido Comunista de China",
+      "start": "1935-01-15",
+      "end": "1976-09-09",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q5816",
+      "note": "",
+      "curated": true,
+      "portrait": {
+        "file": "media/portrait-b6680b4777a36a0e9369.jpg",
+        "title": "Mao Tse Tung.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mao_Tse_Tung.jpg",
+        "artist": "Chen Zhengqing (1917–1966)",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "https://newsroom.ap.org/editorial-photos-videos/detail?itemid=dfab0b3b1ce5da11af9f0014c2589dfb&mediatype=photo",
+        "sha256": "372ef31ef6beb5b224ba2482fdf082c511bfc0706e826d721ffd069617c9fa21",
+        "bytes": 48573,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mao_Tse_Tung.jpg/330px-Mao_Tse_Tung.jpg",
+        "attribution": "",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

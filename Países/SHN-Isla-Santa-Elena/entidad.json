@@ -1,0 +1,53 @@
+{
+  "key": "SHN",
+  "name": "Isla Santa Elena",
+  "qid": "Q34497",
+  "aliases": [
+    "Isla Santa Elena"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SHN"
+  },
+  "flags": [
+    {
+      "start": "1984-10-04",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-0d2c09fce1603528df24.svg",
+        "title": "Flag of Saint Helena.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Helena.svg",
+        "artist": "Patricia Fidi",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "From the xrmap flag collection 2.9 (gb-sh.svg).",
+        "sha256": "0fc45ec80b5bff889df4c4f01a24efccf72e41f92ceb661d9e227752dfe0a3e7",
+        "bytes": 86263,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Saint_Helena.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://www.wikidata.org/wiki/Q211579"
+    }
+  ],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 217,
+      "start": null,
+      "end": null,
+      "name": "Isla Santa Elena",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,30 @@
+{
+  "key": "territorio-195f33b50fa6",
+  "name": "Hawaii",
+  "qid": "",
+  "aliases": [
+    "Hawaii"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 5,
+      "start": "1898-07-06",
+      "end": "1959-08-20",
+      "name": "Hawaii",
+      "status": "colony"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

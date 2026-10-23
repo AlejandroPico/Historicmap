@@ -1,0 +1,38 @@
+{
+  "key": "territorio-6bdd7a397dce",
+  "name": "Spanish Morocco",
+  "qid": "",
+  "aliases": [
+    "Spanish Morocco"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 447,
+      "start": "1912-11-27",
+      "end": "1956-04-06",
+      "name": "Spanish Morocco",
+      "status": "protectorate"
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 88,
+      "start": null,
+      "end": null,
+      "name": "Spanish Morocco",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

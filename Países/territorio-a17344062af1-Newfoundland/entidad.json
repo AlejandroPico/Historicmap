@@ -1,0 +1,30 @@
+{
+  "key": "territorio-a17344062af1",
+  "name": "Newfoundland",
+  "qid": "",
+  "aliases": [
+    "Newfoundland"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 10,
+      "start": "1886-01-01",
+      "end": "1948-07-21",
+      "name": "Newfoundland",
+      "status": "colony"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

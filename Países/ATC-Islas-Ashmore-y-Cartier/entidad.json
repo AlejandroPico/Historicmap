@@ -1,0 +1,33 @@
+{
+  "key": "ATC",
+  "name": "Islas Ashmore y Cartier",
+  "qid": "Q133888",
+  "aliases": [
+    "Islas Ashmore y Cartier"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "ATC"
+  },
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 254,
+      "start": null,
+      "end": null,
+      "name": "Islas Ashmore y Cartier",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

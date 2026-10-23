@@ -1,0 +1,46 @@
+{
+  "key": "territorio-fecfed458433",
+  "name": "French Guyana",
+  "qid": "",
+  "aliases": [
+    "French Guyana"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 47,
+      "start": "1886-01-01",
+      "end": "1930-07-05",
+      "name": "French Guyana",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 48,
+      "start": "1930-07-06",
+      "end": "1946-03-18",
+      "name": "French Guyana",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 49,
+      "start": "1946-03-19",
+      "end": "2019-12-31",
+      "name": "French Guyana",
+      "status": "colony"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

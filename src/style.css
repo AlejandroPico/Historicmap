@@ -445,3 +445,15 @@ html[data-appearance=morning]{--chart-2:#27677d;--chart-3:#8b4679;--chart-4:#397
 .comparison-table th a{color:var(--gold);text-decoration:none}
 .comparison-table small{display:block;color:var(--muted);margin-top:5px;font-size:9px}
 @media(max-width:760px){.selection-card{width:min(420px,calc(100vw - 24px));max-width:calc(100vw - 24px)}.country-tabs{top:-18px}.country-tabs button{padding:9px 2px;font-size:10px}.country-tools{gap:6px}.comparison-summaries{gap:9px}}
+
+/* Keep identity and tabs stationary; only the selected pane scrolls. */
+.selection-card{display:flex;flex-direction:column;overflow:hidden;min-height:0}
+.selection-card[hidden]{display:none}
+#selection-date,#selection-title,#selection-status{flex-shrink:0}
+#selection-text{display:flex;flex-direction:column;min-height:0;overflow:hidden}
+#selection-text>.identity-header{flex-shrink:0}
+.country-tabs{position:static;flex-shrink:0}
+.country-content{min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;padding-right:2px}
+.country-content::-webkit-scrollbar{display:none}
+.flag-source{display:flex;flex-shrink:0;align-items:center}
+.country-content:focus-within{scroll-behavior:auto}

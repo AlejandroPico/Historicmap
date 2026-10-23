@@ -1,0 +1,53 @@
+{
+  "key": "ATF",
+  "name": "Tierras Australes y Antárticas Francesas",
+  "qid": "Q129003",
+  "aliases": [
+    "Tierras Australes y Antárticas Francesas"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "ATF"
+  },
+  "flags": [
+    {
+      "start": "2007-01-01",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-af080af0d48bb88e82bc.svg",
+        "title": "Flag of the French Southern and Antarctic Lands.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_French_Southern_and_Antarctic_Lands.svg",
+        "artist": "Académie de Grenoble",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "Proportions and colors are taken from the TAAF's official website as seen on 17 January 2023 (archived).",
+        "sha256": "6e37c76343b369550cf4dcad6a44c0f308db36df2e33d1181a59009b33b89827",
+        "bytes": 1685,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Flag_of_the_French_Southern_and_Antarctic_Lands.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://www.wikidata.org/wiki/Q695125"
+    }
+  ],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 194,
+      "start": null,
+      "end": null,
+      "name": "Tierras Australes y Antárticas Francesas",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

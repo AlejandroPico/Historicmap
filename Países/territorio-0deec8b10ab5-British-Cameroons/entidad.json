@@ -1,0 +1,38 @@
+{
+  "key": "territorio-0deec8b10ab5",
+  "name": "British Cameroons",
+  "qid": "",
+  "aliases": [
+    "British Cameroons"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 303,
+      "start": "1922-07-20",
+      "end": "1961-09-30",
+      "name": "British Cameroons",
+      "status": "mandate"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 304,
+      "start": "1919-06-28",
+      "end": "1922-07-19",
+      "name": "British Cameroons",
+      "status": "occupied"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

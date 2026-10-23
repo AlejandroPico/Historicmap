@@ -1,0 +1,38 @@
+{
+  "key": "territorio-319155654143",
+  "name": "Sri Lanka (Ceylon)",
+  "qid": "",
+  "aliases": [
+    "Sri Lanka (Ceylon)"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 585,
+      "start": "1886-01-01",
+      "end": "1948-02-03",
+      "name": "Sri Lanka (Ceylon)",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 586,
+      "start": "1948-02-04",
+      "end": "2019-12-31",
+      "name": "Sri Lanka (Ceylon)",
+      "status": "independent"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

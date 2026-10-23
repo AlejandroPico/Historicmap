@@ -9,9 +9,9 @@ test('country card, tab and reading position persist through date changes and pl
  await expect(page.getByRole('tab')).toHaveCount(12);
  await page.getByRole('tab',{name:'Economía',exact:true}).click();
  await expect(page.locator('#pane-economy')).toContainText('Inflación');await expect(page.locator('#pane-economy svg')).toBeVisible();
- await page.locator('#selection').evaluate(e=>{e.scrollTop=180;});
+ await page.locator('.country-content').evaluate(e=>{e.scrollTop=180;});
  await date(page,2000);await expect(page.locator('#selection')).toBeVisible();await expect(page.locator('#selection')).toHaveAttribute('data-entity','ESP');
- await expect(page.locator('#tab-economy')).toHaveAttribute('aria-selected','true');expect(await page.locator('#selection').evaluate(e=>e.scrollTop)).toBeGreaterThan(50);
+ await expect(page.locator('#tab-economy')).toHaveAttribute('aria-selected','true');expect(await page.locator('.country-content').evaluate(e=>e.scrollTop)).toBeGreaterThan(50);
  await page.getByRole('tab',{name:'Autoridades',exact:true}).click();await expect(page.locator('#pane-authorities')).toContainText('Aznar');await expect(page.locator('#pane-authorities')).not.toContainText('Pedro Sánchez');
  await date(page,1990);await page.locator('#play').click();await expect.poll(async()=>Number(await page.locator('#map').getAttribute('data-loaded-year')),{timeout:45000}).toBeGreaterThan(1991);await page.locator('#play').click();
  await expect(page.locator('#selection')).toBeVisible();await expect.poll(async()=>await page.locator('#selection').getAttribute('data-year')).toBe(await page.locator('#map').getAttribute('data-loaded-year'));
@@ -28,9 +28,9 @@ test('extinct entity remains open and navigates explicitly to a successor',async
 
 test('date and country comparisons use dated data and support map navigation',async({page})=>{
  test.setTimeout(240000);
- await page.goto('/#year=2000&view=mercator');await ready(page,2000);await search(page,'Brasil');await page.locator('#pin-country').click();
+ await page.goto('/#year=2000&view=mercator');await ready(page,2000);await search(page,'Brasil');await page.getByRole('tab',{name:'Comparar',exact:true}).click();await page.locator('#pin-country').click();
  await expect(page.locator('#comparison-results')).toContainText('Brazil · 2000');
- await search(page,'Francia');await page.locator('#pin-country').click();await expect(page.locator('.pinned-countries>span')).toHaveCount(2);await expect(page.locator('#comparison-results')).toContainText('Francia · 2000');
+ await search(page,'Francia');await page.getByRole('tab',{name:'Comparar',exact:true}).click();await page.locator('#pin-country').click();await expect(page.locator('.pinned-countries>span')).toHaveCount(2);await expect(page.locator('#comparison-results')).toContainText('Francia · 2000');
  await page.locator('#comparison-metric').selectOption('gdpGrowth');await expect(page.locator('#comparison-results .trend-chart')).toContainText('Crecimiento');
  await page.locator('#comparison-results circle[data-jump-year="1990"]').first().focus();await page.keyboard.press('Enter');await ready(page,1990);await expect(page.locator('#tab-comparison')).toHaveAttribute('aria-selected','true');
  await page.locator('[data-comparison-mode="dates"]').click();await page.locator('#comparison-a').fill('1990');await page.locator('#comparison-b').fill('2000');await page.locator('#comparison-dates button').click();

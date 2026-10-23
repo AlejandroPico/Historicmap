@@ -1,6 +1,6 @@
 {
   "referenceDate": "2026-10-22",
-  "coverageStart": 1960,
+  "coverageStart": 1950,
   "coverageEnd": 2026,
   "organizations": [
     {
@@ -89,6 +89,42 @@
           "end": "2006-04-22",
           "source": "https://www.comunidadandina.org/StaticFiles/201166191016revista_integracion_4.pdf",
           "note": "Ingreso de Venezuela al Acuerdo de Cartagena; retirada notificada el 22-04-2006, con preferencias comerciales transitorias posteriores."
+        }
+      ]
+    },
+    {
+      "id": "anzus",
+      "label": "Tratado ANZUS",
+      "type": "military",
+      "description": "Tratado Australia–Nueva Zelanda–Estados Unidos, firmado1951 y en vigor1952. La suspensión estadounidense de obligaciones hacia Nueva Zelanda desde1986 se distingue de una expulsión o extinción formal del tratado.",
+      "formed": "1952-04-29",
+      "source": "https://nzhistory.govt.nz/anzus-comes-into-force",
+      "memberships": [
+        {
+          "code": "AUS",
+          "start": "1952-04-29",
+          "category": "member",
+          "source": "https://nzhistory.govt.nz/anzus-comes-into-force"
+        },
+        {
+          "code": "NZL",
+          "start": "1952-04-29",
+          "category": "member",
+          "source": "https://nzhistory.govt.nz/anzus-comes-into-force",
+          "end": "1986-12-31"
+        },
+        {
+          "code": "NZL",
+          "start": "1986-12-31",
+          "category": "suspended",
+          "source": "https://history.state.gov/milestones/1945-1952/anzus",
+          "note": "Observación al cierre de1986, no fecha diaria: Estados Unidos suspende sus obligaciones hacia Nueva Zelanda; no equivale a expulsión del tratado ni a interrupción de la relación Australia–Nueva Zelanda. Esta categoría resume una relación bilateral asimétrica."
+        },
+        {
+          "code": "USA",
+          "start": "1952-04-29",
+          "category": "member",
+          "source": "https://nzhistory.govt.nz/anzus-comes-into-force"
         }
       ]
     },
@@ -295,11 +331,19 @@
         {
           "code": "EGY",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true,
-          "end": "1979-03-26"
+          "end": "1958-02-22"
+        },
+        {
+          "code": "EGY",
+          "start": "1961-09-28",
+          "category": "member",
+          "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
+          "end": "1979-03-26",
+          "note": "Continuidad tras terminar la unión territorial de Egipto y Siria; Egipto conservó el nombre RAU. No es una nueva adhesión a la Liga."
         },
         {
           "code": "EGY",
@@ -319,17 +363,17 @@
         {
           "code": "IRQ",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "JOR",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -342,19 +386,18 @@
         {
           "code": "LBN",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "LBY",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1953-12-31",
           "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
           "end": "2011-02-22",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "note": "Observación al cierre del año documentado; no fecha jurídica diaria de adhesión."
         },
         {
           "code": "LBY",
@@ -374,10 +417,9 @@
         {
           "code": "MAR",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1958-12-31",
           "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "note": "Observación al cierre del año documentado; no fecha jurídica diaria de adhesión."
         },
         {
           "code": "MRT",
@@ -410,18 +452,17 @@
         {
           "code": "SAU",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "SDN",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1956-12-31",
           "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "note": "Observación al cierre del año documentado; no fecha jurídica diaria de adhesión."
         },
         {
           "code": "SOM",
@@ -433,11 +474,19 @@
         {
           "code": "SYR",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
+          "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
+          "end": "1958-02-22",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
+          "startIsCoverageBoundary": true
+        },
+        {
+          "code": "SYR",
+          "start": "1961-09-28",
+          "category": "member",
           "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
           "end": "2011-11-16",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "note": "Continuidad tras terminar la unión territorial de Egipto y Siria; Egipto conservó el nombre RAU. No es una nueva adhesión a la Liga."
         },
         {
           "code": "SYR",
@@ -457,10 +506,17 @@
         {
           "code": "TUN",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1958-12-31",
           "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "note": "Observación al cierre del año documentado; no fecha jurídica diaria de adhesión."
+        },
+        {
+          "code": "UAR",
+          "start": "1958-02-22",
+          "category": "member",
+          "source": "https://unterm.un.org/unterm2/view/38727503-9e12-41bd-9e0b-ccb02590ec3c",
+          "end": "1961-09-28",
+          "note": "Clave cartográfica de la unión Egipto–Siria. No asigna sus relaciones a dos Estados independientes durante la unión ni confunde esta continuidad con la de Naciones Unidas."
         },
         {
           "code": "YAR",
@@ -479,11 +535,11 @@
         },
         {
           "code": "YMK",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "category": "member",
           "source": "https://www.eeas.europa.eu/node/410253_ro",
           "end": "1962-09-26",
-          "note": "Reino de Yemen: identidad anterior a la república, sin proyectar la jefatura republicana al reino.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -1490,6 +1546,57 @@
       ]
     },
     {
+      "id": "cento",
+      "label": "Pacto de Bagdad / CENTO",
+      "type": "military",
+      "description": "Pacto firmado en1955 y renombradoCENTO en1959 tras la retirada iraquí. Estados Unidos apoyó y participó en comités, pero no fue miembro pleno. Fuentes discrepan en alguna fecha iraní: el catálogo sigue la cronología FRUS indicada.",
+      "formed": "1955-02-24",
+      "source": "https://history.state.gov/historicaldocuments/frus1955-57v12/d1",
+      "memberships": [
+        {
+          "code": "GBR",
+          "start": "1955-04-05",
+          "category": "member",
+          "source": "https://history.state.gov/historicaldocuments/frus1955-57v12/d1",
+          "end": "1979-09-26",
+          "note": "Fecha de adhesión según FRUS; Reino Unido adhiere antes del canje bilateral de ratificaciones de15/4."
+        },
+        {
+          "code": "IRN",
+          "start": "1955-11-03",
+          "category": "member",
+          "source": "https://history.state.gov/historicaldocuments/frus1955-57v12/d1",
+          "end": "1979-01-01",
+          "note": "Fecha de adhesión según FRUS; Reino Unido adhiere antes del canje bilateral de ratificaciones de15/4. Fin de cobertura al comenzar1979: no fecha jurídica de retirada, ocurrida durante ese año. Pendiente contraste diario."
+        },
+        {
+          "code": "IRQ",
+          "start": "1955-04-15",
+          "category": "member",
+          "source": "https://history.state.gov/historicaldocuments/frus1955-57v12/d1",
+          "end": "1959-12-31",
+          "note": "Fecha de adhesión según FRUS; Reino Unido adhiere antes del canje bilateral de ratificaciones de15/4. Retirada en1959; observación al cierre anual, no fecha diaria. Al cierre de1959 ya no es miembro."
+        },
+        {
+          "code": "PAK",
+          "start": "1955-09-23",
+          "category": "member",
+          "source": "https://history.state.gov/historicaldocuments/frus1955-57v12/d1",
+          "end": "1979-01-01",
+          "note": "Fecha de adhesión según FRUS; Reino Unido adhiere antes del canje bilateral de ratificaciones de15/4. Fin de cobertura al comenzar1979: no fecha jurídica de retirada, ocurrida durante ese año. Pendiente contraste diario."
+        },
+        {
+          "code": "TUR",
+          "start": "1955-04-15",
+          "category": "member",
+          "source": "https://history.state.gov/historicaldocuments/frus1955-57v12/d1",
+          "end": "1979-09-26",
+          "note": "Fecha de adhesión según FRUS; Reino Unido adhiere antes del canje bilateral de ratificaciones de15/4."
+        }
+      ],
+      "dissolved": "1979-09-26"
+    },
+    {
       "id": "comecon",
       "label": "COMECON / CAME",
       "type": "economic",
@@ -1515,11 +1622,11 @@
         },
         {
           "code": "ALB",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "category": "member",
           "source": "https://www.upn.gov.sk/data/files/upn_letak_os_RVHP_EN_verzia.pdf",
           "end": "1961-12-31",
-          "note": "Actividad anterior a la ruptura de 1961; límite de cobertura inicial. La categoría posterior distingue inactividad, no una expulsión formal.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -1533,19 +1640,19 @@
         {
           "code": "BGR",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "end": "1991-06-28",
           "source": "https://www.upn.gov.sk/data/files/upn_letak_os_RVHP_EN_verzia.pdf",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "CSK",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "end": "1991-06-28",
           "source": "https://www.upn.gov.sk/data/files/upn_letak_os_RVHP_EN_verzia.pdf",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -1559,11 +1666,10 @@
         {
           "code": "DDR",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-12-31",
           "end": "1990-10-03",
-          "source": "https://www.upn.gov.sk/data/files/upn_letak_os_RVHP_EN_verzia.pdf",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "source": "https://www.marxists.org/history/ussr/government/foreign-relations/sovietforeignpolicy-vol2-1945-80.pdf",
+          "note": "La RDA se incorpora en septiembre de 1950; observación al cierre anual, no día jurídico."
         },
         {
           "code": "ETH",
@@ -1584,10 +1690,10 @@
         {
           "code": "HUN",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "end": "1991-06-28",
           "source": "https://www.upn.gov.sk/data/files/upn_letak_os_RVHP_EN_verzia.pdf",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -1641,28 +1747,28 @@
         {
           "code": "POL",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "end": "1991-06-28",
           "source": "https://www.upn.gov.sk/data/files/upn_letak_os_RVHP_EN_verzia.pdf",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "ROU",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "end": "1991-06-28",
           "source": "https://www.upn.gov.sk/data/files/upn_letak_os_RVHP_EN_verzia.pdf",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "SUN",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "end": "1991-06-28",
           "source": "https://www.upn.gov.sk/data/files/upn_letak_os_RVHP_EN_verzia.pdf",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -2163,6 +2269,137 @@
       ]
     },
     {
+      "id": "ecsc",
+      "label": "Comunidad Europea del Carbón y del Acero · CECA",
+      "type": "economic",
+      "description": "Tratado sectorial en vigor desde1952 hasta2002, distinto de la CEE creada en1958. Incluye ampliaciones documentadas de las Comunidades; no convierte toda la UE actual en miembro de1952.",
+      "formed": "1952-07-23",
+      "source": "https://www.consilium.europa.eu/en/schuman-declaration/",
+      "memberships": [
+        {
+          "code": "AUT",
+          "start": "1995-01-01",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "BEL",
+          "start": "1952-07-23",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/schuman-declaration/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "DEU",
+          "start": "1952-07-23",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/schuman-declaration/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "DNK",
+          "start": "1973-01-01",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "ESP",
+          "start": "1986-01-01",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "FIN",
+          "start": "1995-01-01",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "FRA",
+          "start": "1952-07-23",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/schuman-declaration/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "GBR",
+          "start": "1973-01-01",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "GRC",
+          "start": "1981-01-01",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "IRL",
+          "start": "1973-01-01",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "ITA",
+          "start": "1952-07-23",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/schuman-declaration/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "LUX",
+          "start": "1952-07-23",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/schuman-declaration/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "NLD",
+          "start": "1952-07-23",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/schuman-declaration/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "PRT",
+          "start": "1986-01-01",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        },
+        {
+          "code": "SWE",
+          "start": "1995-01-01",
+          "category": "member",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+          "end": "2002-07-23",
+          "note": "Los seis fundadores desde la entrada en vigor del Tratado de París; las ampliaciones posteriores siguen las fechas comunitarias."
+        }
+      ],
+      "dissolved": "2002-07-23"
+    },
+    {
       "id": "efta",
       "label": "AELC / EFTA",
       "type": "economic",
@@ -2397,6 +2634,186 @@
           "category": "member",
           "start": "1958-01-01",
           "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "POL",
+          "category": "member",
+          "start": "2004-05-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "PRT",
+          "category": "member",
+          "start": "1986-01-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "ROU",
+          "category": "member",
+          "start": "2007-01-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "SVK",
+          "category": "member",
+          "start": "2004-05-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "SVN",
+          "category": "member",
+          "start": "2004-05-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "SWE",
+          "category": "member",
+          "start": "1995-01-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        }
+      ]
+    },
+    {
+      "id": "euratom",
+      "label": "Comunidad Europea de la Energía Atómica · Euratom",
+      "type": "economic",
+      "description": "Comunidad para cooperación nuclear civil, en vigor desde1958. Separada de la CECA y de la CEE/UE; compartir miembros no implica una alianza militar.",
+      "formed": "1958-01-01",
+      "source": "https://www.consilium.europa.eu/en/documents/treaties-agreements/agreement/?id=1957003",
+      "memberships": [
+        {
+          "code": "AUT",
+          "category": "member",
+          "start": "1995-01-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "BEL",
+          "category": "member",
+          "start": "1958-01-01",
+          "source": "https://www.consilium.europa.eu/en/documents/treaties-agreements/agreement/?id=1957003"
+        },
+        {
+          "code": "BGR",
+          "category": "member",
+          "start": "2007-01-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "CYP",
+          "category": "member",
+          "start": "2004-05-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "CZE",
+          "category": "member",
+          "start": "2004-05-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "DEU",
+          "category": "member",
+          "start": "1958-01-01",
+          "source": "https://www.consilium.europa.eu/en/documents/treaties-agreements/agreement/?id=1957003"
+        },
+        {
+          "code": "DNK",
+          "category": "member",
+          "start": "1973-01-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "ESP",
+          "category": "member",
+          "start": "1986-01-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "EST",
+          "category": "member",
+          "start": "2004-05-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "FIN",
+          "category": "member",
+          "start": "1995-01-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "FRA",
+          "category": "member",
+          "start": "1958-01-01",
+          "source": "https://www.consilium.europa.eu/en/documents/treaties-agreements/agreement/?id=1957003"
+        },
+        {
+          "code": "GBR",
+          "category": "member",
+          "start": "1973-01-01",
+          "end": "2020-02-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+          "note": "La retirada se hizo efectiva al final del 31 de enero de 2020; fin exclusivo diario 1 de febrero."
+        },
+        {
+          "code": "GRC",
+          "category": "member",
+          "start": "1981-01-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "HRV",
+          "category": "member",
+          "start": "2013-07-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "HUN",
+          "category": "member",
+          "start": "2004-05-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "IRL",
+          "category": "member",
+          "start": "1973-01-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "ITA",
+          "category": "member",
+          "start": "1958-01-01",
+          "source": "https://www.consilium.europa.eu/en/documents/treaties-agreements/agreement/?id=1957003"
+        },
+        {
+          "code": "LTU",
+          "category": "member",
+          "start": "2004-05-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "LUX",
+          "category": "member",
+          "start": "1958-01-01",
+          "source": "https://www.consilium.europa.eu/en/documents/treaties-agreements/agreement/?id=1957003"
+        },
+        {
+          "code": "LVA",
+          "category": "member",
+          "start": "2004-05-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "MLT",
+          "category": "member",
+          "start": "2004-05-01",
+          "source": "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/"
+        },
+        {
+          "code": "NLD",
+          "category": "member",
+          "start": "1958-01-01",
+          "source": "https://www.consilium.europa.eu/en/documents/treaties-agreements/agreement/?id=1957003"
         },
         {
           "code": "POL",
@@ -2894,9 +3311,9 @@
         {
           "code": "ARG",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -2922,17 +3339,17 @@
         {
           "code": "BOL",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "BRA",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -2951,35 +3368,43 @@
         {
           "code": "CHL",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "COL",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "CRI",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
+          "startIsCoverageBoundary": true
+        },
+        {
+          "code": "CUB",
+          "start": "1950-01-01",
+          "category": "member",
+          "source": "https://www.oas.org/en/media_center/press_release.asp?sCodigo=GA-12-09",
+          "end": "1962-01-31",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "CUB",
           "category": "suspended",
-          "start": "1960-01-01",
+          "start": "1962-01-31",
           "end": "2009-06-03",
-          "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "source": "https://www.oas.org/en/media_center/press_release.asp?sCodigo=GA-12-09",
+          "note": "Exclusión del Gobierno cubano de la participación, resolución VI de 31/1/1962; no expulsión del Estado. Resolución dejada sin efecto el 3/6/2009, sin reincorporación automática."
         },
         {
           "code": "CUB",
@@ -2998,17 +3423,17 @@
         {
           "code": "DOM",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "ECU",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -3021,9 +3446,9 @@
         {
           "code": "GTM",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -3035,10 +3460,10 @@
         {
           "code": "HND",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "end": "2009-07-05",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -3057,9 +3482,9 @@
         {
           "code": "HTI",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -3086,50 +3511,50 @@
         {
           "code": "MEX",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "NIC",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "end": "2023-11-19",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "PAN",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "PER",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "PRY",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "SLV",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -3149,17 +3574,17 @@
         {
           "code": "URY",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
           "code": "USA",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         },
         {
@@ -3172,9 +3597,9 @@
         {
           "code": "VEN",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1950-01-01",
           "source": "https://www.oas.org/en/about/member_states.asp",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
+          "note": "Pertenencia anterior al inicio de la revisión de 1950; no fecha jurídica de adhesión.",
           "startIsCoverageBoundary": true
         }
       ]
@@ -3832,6 +4257,75 @@
       ]
     },
     {
+      "id": "seato",
+      "label": "Organización del Tratado del Sudeste Asiático · SEATO",
+      "type": "military",
+      "description": "Ocho partes del Tratado de Manila; firma1954 y entrada en vigor1955. Laos, Camboya y Vietnam protegido por protocolo no se cuentan como miembros. La disolución de la organización en1977 no equivale a extinción del tratado.",
+      "formed": "1955-02-19",
+      "source": "https://www.treaties.mfat.govt.nz/search/details/t/799/2870",
+      "memberships": [
+        {
+          "code": "AUS",
+          "start": "1955-02-19",
+          "category": "member",
+          "source": "https://www.treaties.mfat.govt.nz/search/details/t/799/2870",
+          "end": "1977-07-01"
+        },
+        {
+          "code": "FRA",
+          "start": "1955-02-19",
+          "category": "member",
+          "source": "https://history.state.gov/milestones/1953-1960/seato",
+          "end": "1977-07-01",
+          "note": "La participación militar francesa se redujo antes del cierre de la organización; no se interpreta como otra fecha de adhesión."
+        },
+        {
+          "code": "GBR",
+          "start": "1955-02-19",
+          "category": "member",
+          "source": "https://www.treaties.mfat.govt.nz/search/details/t/799/2870",
+          "end": "1977-07-01"
+        },
+        {
+          "code": "NZL",
+          "start": "1955-02-19",
+          "category": "member",
+          "source": "https://www.treaties.mfat.govt.nz/search/details/t/799/2870",
+          "end": "1977-07-01"
+        },
+        {
+          "code": "PAK",
+          "start": "1955-02-19",
+          "category": "member",
+          "source": "https://history.state.gov/milestones/1953-1960/seato",
+          "end": "1973-12-31",
+          "note": "Salida pakistaní durante1973; cierre anual usado como observación, no día jurídico."
+        },
+        {
+          "code": "PHL",
+          "start": "1955-02-19",
+          "category": "member",
+          "source": "https://www.treaties.mfat.govt.nz/search/details/t/799/2870",
+          "end": "1977-07-01"
+        },
+        {
+          "code": "THA",
+          "start": "1955-02-19",
+          "category": "member",
+          "source": "https://www.treaties.mfat.govt.nz/search/details/t/799/2870",
+          "end": "1977-07-01"
+        },
+        {
+          "code": "USA",
+          "start": "1955-02-19",
+          "category": "member",
+          "source": "https://www.treaties.mfat.govt.nz/search/details/t/799/2870",
+          "end": "1977-07-01"
+        }
+      ],
+      "dissolved": "1977-07-01"
+    },
+    {
       "id": "threeSeas",
       "label": "Iniciativa de los Tres Mares",
       "type": "infrastructure",
@@ -4041,75 +4535,67 @@
       "memberships": [
         {
           "code": "ALB",
-          "start": "1960-01-01",
+          "start": "1955-06-06",
           "category": "member",
-          "source": "https://www.nato.int/cps/en/natohq/declassified_138294.htm",
+          "source": "https://treaties.un.org/pages/showDetails.aspx?objid=08000002801488a3",
           "end": "1968-09-13",
-          "note": "Membresía formal hasta retirada de 13/9/1968; participación inactiva desde 1961. No equivale a tutela soviética después de la ruptura.",
-          "startIsCoverageBoundary": true
+          "note": "Tratado firmado el 14/5/1955, en vigor el 6/6/1955 según el registro depositario de Naciones Unidas. La RDA es signataria; su integración militar posterior no es otra adhesión estatal."
         },
         {
           "code": "BGR",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1955-06-06",
           "end": "1991-07-01",
-          "source": "https://www.nato.int/cps/en/natohq/declassified_138294.htm",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "source": "https://treaties.un.org/pages/showDetails.aspx?objid=08000002801488a3",
+          "note": "Tratado firmado el 14/5/1955, en vigor el 6/6/1955 según el registro depositario de Naciones Unidas. La RDA es signataria; su integración militar posterior no es otra adhesión estatal."
         },
         {
           "code": "CSK",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1955-06-06",
           "end": "1991-07-01",
-          "source": "https://www.nato.int/cps/en/natohq/declassified_138294.htm",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "source": "https://treaties.un.org/pages/showDetails.aspx?objid=08000002801488a3",
+          "note": "Tratado firmado el 14/5/1955, en vigor el 6/6/1955 según el registro depositario de Naciones Unidas. La RDA es signataria; su integración militar posterior no es otra adhesión estatal."
         },
         {
           "code": "DDR",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1955-06-06",
           "end": "1990-09-24",
-          "source": "https://www.nato.int/cps/en/natohq/declassified_138294.htm",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "source": "https://treaties.un.org/pages/showDetails.aspx?objid=08000002801488a3",
+          "note": "Tratado firmado el 14/5/1955, en vigor el 6/6/1955 según el registro depositario de Naciones Unidas. La RDA es signataria; su integración militar posterior no es otra adhesión estatal."
         },
         {
           "code": "HUN",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1955-06-06",
           "end": "1991-07-01",
-          "source": "https://www.nato.int/cps/en/natohq/declassified_138294.htm",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "source": "https://treaties.un.org/pages/showDetails.aspx?objid=08000002801488a3",
+          "note": "Tratado firmado el 14/5/1955, en vigor el 6/6/1955 según el registro depositario de Naciones Unidas. La RDA es signataria; su integración militar posterior no es otra adhesión estatal."
         },
         {
           "code": "POL",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1955-06-06",
           "end": "1991-07-01",
-          "source": "https://www.nato.int/cps/en/natohq/declassified_138294.htm",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "source": "https://treaties.un.org/pages/showDetails.aspx?objid=08000002801488a3",
+          "note": "Tratado firmado el 14/5/1955, en vigor el 6/6/1955 según el registro depositario de Naciones Unidas. La RDA es signataria; su integración militar posterior no es otra adhesión estatal."
         },
         {
           "code": "ROU",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1955-06-06",
           "end": "1991-07-01",
-          "source": "https://www.nato.int/cps/en/natohq/declassified_138294.htm",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "source": "https://treaties.un.org/pages/showDetails.aspx?objid=08000002801488a3",
+          "note": "Tratado firmado el 14/5/1955, en vigor el 6/6/1955 según el registro depositario de Naciones Unidas. La RDA es signataria; su integración militar posterior no es otra adhesión estatal."
         },
         {
           "code": "SUN",
           "category": "member",
-          "start": "1960-01-01",
+          "start": "1955-06-06",
           "end": "1991-07-01",
-          "source": "https://www.nato.int/cps/en/natohq/declassified_138294.htm",
-          "note": "Pertenencia anterior al inicio de la serie de 1960; no fecha jurídica de adhesión.",
-          "startIsCoverageBoundary": true
+          "source": "https://treaties.un.org/pages/showDetails.aspx?objid=08000002801488a3",
+          "note": "Tratado firmado el 14/5/1955, en vigor el 6/6/1955 según el registro depositario de Naciones Unidas. La RDA es signataria; su integración militar posterior no es otra adhesión estatal."
         }
       ],
       "dissolved": "1991-07-01"

@@ -1,0 +1,46 @@
+{
+  "key": "territorio-029be48f50b3",
+  "name": "Sarawak",
+  "qid": "",
+  "aliases": [
+    "Sarawak"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 621,
+      "start": "1946-07-01",
+      "end": "1963-09-15",
+      "name": "Sarawak",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 622,
+      "start": "1888-06-14",
+      "end": "1889-06-19",
+      "name": "Sarawak",
+      "status": "protectorate"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 623,
+      "start": "1889-06-20",
+      "end": "1946-06-30",
+      "name": "Sarawak",
+      "status": "protectorate"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

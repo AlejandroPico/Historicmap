@@ -1,0 +1,38 @@
+{
+  "key": "territorio-8867bff198f1",
+  "name": "Natal",
+  "qid": "",
+  "aliases": [
+    "Natal"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 408,
+      "start": "1886-01-01",
+      "end": "1895-04-22",
+      "name": "Natal",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 409,
+      "start": "1895-04-23",
+      "end": "1910-05-29",
+      "name": "Natal",
+      "status": "colony"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

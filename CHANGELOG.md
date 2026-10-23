@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.10.0 · 2026-10-24
+
+- Ampliación incremental de autoridades y medios a1950–1959; correcciones focales de cargos formales/efectivos, monarquías y órganos colectivos. Estado de Vietnam y Federación de Malaya separados de sus sucesores; sin estadísticas actuales retrotraídas.
+- Banderas históricas, fotografías acreditadas, administraciones dependientes desde1950, contexto y conflictos de la década. Organizaciones fechadas: CECA, Euratom, ANZUS, SEATO y Bagdad/CENTO; Cuba/OEA corregida a1962. Los huecos y límites quedan inventariados.
+- Carpeta Países con índice y un resumen por entidad incorporada; medios y geometrías originales conservados sin copias redundantes. Recursos locales de audio/PDF declarados por entidad y vigencia se detectan al compilar y aparecen en Datos; no se incorporan grabaciones por defecto.
+- Cabecera, bandera y pestañas fijas en la ficha; desplazamiento interior sin barra visible. Acciones de comparación dentro de Comparar. El símbolo enlaza a su procedencia sin el desplegable «Fuente de la bandera».
+- Por instrucción del propietario, las entregas se comprueban localmente y se suben sin esperar ni consultar el despliegue remoto. La revisión pública queda pendiente de su aviso.
+
 ## 0.9.1 · 2026-10-23
 
 - Cinco retratos de India añadidos con GODL-India: el filtro reconoce la marca ND sin confundirla con parte del nombre de esa licencia. Auditoría final:91 personas/órganos sin imagen y3.793 medios.

@@ -1,0 +1,30 @@
+{
+  "key": "territorio-0b3f74fe6cf4",
+  "name": "Perak",
+  "qid": "",
+  "aliases": [
+    "Perak"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 707,
+      "start": "1886-01-01",
+      "end": "1896-06-30",
+      "name": "Perak",
+      "status": "colony"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

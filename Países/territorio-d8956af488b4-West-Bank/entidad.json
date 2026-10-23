@@ -1,0 +1,30 @@
+{
+  "key": "territorio-d8956af488b4",
+  "name": "West Bank",
+  "qid": "",
+  "aliases": [
+    "West Bank"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 699,
+      "start": "1948-05-14",
+      "end": "1967-06-09",
+      "name": "West Bank",
+      "status": "occupied"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

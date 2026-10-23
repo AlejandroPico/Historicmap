@@ -1,0 +1,78 @@
+{
+  "key": "territorio-bf2b268a9954",
+  "name": "Austria-Hungary",
+  "qid": "",
+  "aliases": [
+    "Austria-Hungary"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 100,
+      "start": "1886-01-01",
+      "end": "1908-10-06",
+      "name": "Austria-Hungary",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 101,
+      "start": "1908-10-07",
+      "end": "1918-11-02",
+      "name": "Austria-Hungary",
+      "status": "independent"
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12318",
+      "start": 1914,
+      "end": 1914,
+      "name": "Austria-Hungary",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12382",
+      "start": 1915,
+      "end": 1915,
+      "name": "Austria-Hungary",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12393",
+      "start": 1916,
+      "end": 1916,
+      "name": "Austria-Hungary",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12428",
+      "start": 1917,
+      "end": 1917,
+      "name": "Austria-Hungary",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12471",
+      "start": 1918,
+      "end": 1918,
+      "name": "Austria-Hungary",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

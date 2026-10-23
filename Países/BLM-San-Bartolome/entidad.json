@@ -1,0 +1,94 @@
+{
+  "key": "BLM",
+  "name": "San Bartolomé",
+  "qid": "Q25362",
+  "aliases": [
+    "Saint Barthelemy",
+    "San Bartolomé"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "BLM"
+  },
+  "flags": [
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-05b8a97c7723755ac778.svg",
+        "title": "Flag of Saint Barthélemy (local).svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Barth%C3%A9lemy_(local).svg",
+        "artist": "The arms are from User:Manassas's Image:Blason St Barthélémy TOM entire.svg.",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "credit": "FOTW was used as a reference for the size of the arms in the white field.",
+        "sha256": "0f140288c47edde8dc65fe0f5cbdc254231f945315cdd1b324fa209e8573b4a5",
+        "bytes": 43045,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Saint_Barth%C3%A9lemy_%28local%29.svg",
+        "attribution": "I, Hoshie",
+        "attributionRequired": true
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Barth%C3%A9lemy_%28local%29.svg"
+    }
+  ],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 209,
+      "start": null,
+      "end": null,
+      "name": "San Bartolomé",
+      "status": null
+    },
+    {
+      "file": "world_1800.geojson",
+      "recordId": 139,
+      "start": null,
+      "end": null,
+      "name": "Saint Barthelemy",
+      "status": null
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 123,
+      "start": null,
+      "end": null,
+      "name": "Saint Barthelemy",
+      "status": null
+    },
+    {
+      "file": "world_1945.geojson",
+      "recordId": 162,
+      "start": null,
+      "end": null,
+      "name": "Saint Barthelemy",
+      "status": null
+    },
+    {
+      "file": "world_1994.geojson",
+      "recordId": 172,
+      "start": null,
+      "end": null,
+      "name": "Saint Barthelemy",
+      "status": null
+    },
+    {
+      "file": "world_2010.geojson",
+      "recordId": 173,
+      "start": null,
+      "end": null,
+      "name": "Saint Barthelemy",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,54 @@
+{
+  "key": "territorio-62510549e30c",
+  "name": "Korea, Republic of",
+  "qid": "",
+  "aliases": [
+    "Korea, Republic of"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 562,
+      "start": "1948-08-15",
+      "end": "2019-12-31",
+      "name": "Korea, Republic of",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 563,
+      "start": "1945-08-15",
+      "end": "1948-08-14",
+      "name": "Korea, Republic of",
+      "status": "occupied"
+    },
+    {
+      "file": "world_1994.geojson",
+      "recordId": 238,
+      "start": null,
+      "end": null,
+      "name": "Korea, Republic of",
+      "status": null
+    },
+    {
+      "file": "world_2010.geojson",
+      "recordId": 237,
+      "start": null,
+      "end": null,
+      "name": "Korea, Republic of",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

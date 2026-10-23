@@ -1,0 +1,30 @@
+{
+  "key": "territorio-ab1cb712f2dc",
+  "name": "Victoria",
+  "qid": "",
+  "aliases": [
+    "Victoria"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 651,
+      "start": "1886-01-01",
+      "end": "1900-12-31",
+      "name": "Victoria",
+      "status": "colony"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

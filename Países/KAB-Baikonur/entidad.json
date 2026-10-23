@@ -1,0 +1,64 @@
+{
+  "key": "KAB",
+  "name": "Baikonur",
+  "qid": "Q165413",
+  "aliases": [
+    "Baikonur"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "KAB"
+  },
+  "flags": [
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-34263555d57c67feb1d5.svg",
+        "title": "Флаг города Байконур.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%BB%D0%B0%D0%B3_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80.svg",
+        "artist": "Dalakop",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Own work",
+        "sha256": "e935028e77b94ebf119b6abfcb479bd781209a6b18135db68705ed8a180fa563",
+        "bytes": 18083,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/%D0%A4%D0%BB%D0%B0%D0%B3_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80.svg",
+        "attribution": "",
+        "attributionRequired": true
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%BB%D0%B0%D0%B3_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80.svg"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q19861743",
+      "role": "Jefatura del Gobierno",
+      "start": "2017-05-30",
+      "end": "2026-10-22",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q165413",
+      "sourceStatement": "Q165413$a966762e-42f1-d532-8bac-734733080021",
+      "name": "Konstantín Busygin"
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 171,
+      "start": null,
+      "end": null,
+      "name": "Baikonur",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

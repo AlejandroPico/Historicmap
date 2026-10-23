@@ -1,0 +1,38 @@
+{
+  "key": "territorio-a37f4c064d39",
+  "name": "Southern Nigeria",
+  "qid": "",
+  "aliases": [
+    "Southern Nigeria"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 681,
+      "start": "1899-01-01",
+      "end": "1906-02-15",
+      "name": "Southern Nigeria",
+      "status": "protectorate"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 682,
+      "start": "1906-02-16",
+      "end": "1913-12-31",
+      "name": "Southern Nigeria",
+      "status": "protectorate"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

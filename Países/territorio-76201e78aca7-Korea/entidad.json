@@ -1,0 +1,62 @@
+{
+  "key": "territorio-76201e78aca7",
+  "name": "Korea",
+  "qid": "",
+  "aliases": [
+    "Korea"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 558,
+      "start": "1910-08-23",
+      "end": "1945-08-14",
+      "name": "Korea",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 559,
+      "start": "1886-01-01",
+      "end": "1910-08-22",
+      "name": "Korea",
+      "status": "independent"
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 30,
+      "start": null,
+      "end": null,
+      "name": "Korea",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 1944,
+      "start": null,
+      "end": null,
+      "name": "Korea",
+      "status": null
+    },
+    {
+      "file": "world_1800.geojson",
+      "recordId": 611,
+      "start": null,
+      "end": null,
+      "name": "Korea",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

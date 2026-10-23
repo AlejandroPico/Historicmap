@@ -162,13 +162,13 @@ function selectFeature(feature:{properties:MapGeoJSONFeature['properties']|null;
   if($('#map').getAttribute('aria-busy')==='true'||$('#map').dataset.loadedYear!==String(year))return;
   stopPlay();
   const next=anchorFor(feature.properties??{},year,identityData);
-  if(!selectedAnchor||anchorId(next)!==anchorId(selectedAnchor)){activeCountryTab='authorities';$('#selection').scrollTop=0;timelineExpanded=false;comparison.a=Math.max(-10000,year-10)||-1;comparison.b=Math.max(-10000,year)||-1;}
+  if(!selectedAnchor||anchorId(next)!==anchorId(selectedAnchor)){activeCountryTab='authorities';const content=document.querySelector('.country-content');if(content)content.scrollTop=0;timelineExpanded=false;comparison.a=Math.max(-10000,year-10)||-1;comparison.b=Math.max(-10000,year)||-1;}
   selectedAnchor=next;renderSelection();
 }
 function closeSelection(){selectedAnchor=undefined;selectionGeneration++;$('#selection').hidden=true;if(ready)map.setFilter('territory-selected',['==',['id'],-1]);}
 function renderSelection(){
   if(!selectedAnchor||!identityData||$('#map').getAttribute('aria-busy')==='true')return;
-  const top=$('#selection').scrollTop;
+  const top=document.querySelector('.country-content')?.scrollTop??0;
   selectionGeneration++;
   const feature=matchingFeature(selectedAnchor,selectedAnchor.place?cityData:selectedAnchor.uid?overlayData:loaded,year,identityData);
   const p=feature?.properties??selectedAnchor.properties;
@@ -187,7 +187,7 @@ function renderSelection(){
     if(activeCountryTab==='comparison')void renderComparison();
   }
   if(ready)map.setFilter('territory-selected',['==',['id'],!selectedAnchor.uid&&feature?.id!==undefined?feature.id:-1]);
-  $('#selection').scrollTop=top;
+  const content=document.querySelector('.country-content');if(content)content.scrollTop=top;
 }
 async function featureAt(anchor:CountryAnchor,targetYear:number){
   const target=snapshotFor(targetYear);if(target.kind==='concept'||target.kind==='geological')return undefined;
@@ -456,11 +456,13 @@ $('#occupations-layer').onclick=()=>{showOccupations=!showOccupations;applyLayer
 $('#theme-select').onchange=()=>{stopPlay();political=true;theme=$<HTMLSelectElement>('#theme-select').value as Theme;affiliation='';$<HTMLSelectElement>('#affiliation-select').value='';void refreshMap();};
 $('#affiliation-select').onchange=()=>{stopPlay();affiliation=$<HTMLSelectElement>('#affiliation-select').value as AffiliationKind|'';political=true;theme='political';$<HTMLSelectElement>('#theme-select').value=theme;applyLayers();updateSources();};
 function activateCountryTab(tab:HTMLElement,focus=false){
+  const changed=activeCountryTab!==tab.id.replace('tab-','');
   activeCountryTab=tab.id.replace('tab-','');
   const parent=$('#selection-text');
   parent.querySelectorAll<HTMLElement>('[role=tab]').forEach(t=>{const active=t===tab;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1;});
   parent.querySelectorAll<HTMLElement>('[role=tabpanel]').forEach(p=>p.hidden=p.id!==tab.getAttribute('aria-controls'));
-  if(focus){tab.focus();tab.scrollIntoView({block:'nearest',inline:'nearest'});}
+  if(changed){const content=parent.querySelector('.country-content');if(content)content.scrollTop=0;}
+  if(focus)tab.focus({preventScroll:true});
 }
 function jumpFromControl(control:Element){
  const y=Number(control.getAttribute('data-jump-year'));if(!Number.isInteger(y)||y===0)return;

@@ -1,5 +1,29 @@
 # Tareas y continuidad
 
+## Encargo vigente · 0.10.0 · ampliación a 1950
+
+**Instrucción del propietario:** comprobar localmente y subir una entrega coherente; NO esperar ni consultar Actions/Pages después de subir. El propietario comprobará el despliegue y pedirá la revisión pública cuando corresponda. Una subida correcta no equivale a despliegue confirmado.
+
+- [x] Adquisición incremental de autoridades de 1950–1959 sin perder curaciones ni fotografías posteriores.
+- [x] Contrastes focales de sucesiones, dependencias, independencias, símbolos, fronteras de la fuente, organizaciones y conflictos; auditoría mundial de huecos.
+- [x] Catálogo legible en Países: una carpeta por entidad, resumen y referencias a datos/medios; conservar licencias y evitar copias redundantes.
+- [x] Entrada extensible para archivos propios de entidades (incluidos futuros himnos), con detección y procedencia explícita.
+- [x] Cabecera, bandera y pestañas fijas; contenido interior desplazable sin barra visible; comparación dentro de Comparar y crédito de bandera sin el desplegable anterior.
+- [x] Actualizar documentación, versión y comprobaciones locales para la entrega autorizada a main.
+- [ ] Confirmación del despliegue por el propietario y revisión pública cuando la solicite.
+
+Estado local24/10/2026: rama codex/1950-country-catalog, versión0.10.0. Adquisición y curación guardadas:285 claves/7.985 mandatos,4.062 medios(451 SVG/3.611 fotografías). Auditoría:1.753 territorio-años1950–1959, cero huecos de resolución de autoridad;69 personas/órganos sin retrato y23 territorio-años sin símbolo(AND/SMR y Túnez1956–1958). Fuentes y nombres en RESEARCH-1950 y REVIEW-1950. No equivale a series exhaustivas de todos los cargos ni frentes.
+
+122 pruebas/26 archivos correctos, integridad de43 datos/11 franjas/4.062 medios y tipos correctos; compilación final correcta y5 recorridos de navegador correctos(2,5min), incluida vista móvil y ficha anclada. Revisión visual adicional en navegador integrado: Egipto1952 con retratos, cabecera y pestañas fijas. Catálogo:2.783 entidades de las fuentes,285 con inventario de autoridades; no todas tienen ficha completa. No hay himnos adquiridos. No hay agentes de investigación activos ni adquisiciones pendientes en segundo plano. La investigación interrumpida se ha retomado con contraste y scripts propios; no marcar vacíos bibliográficos como resueltos.
+
+Cierre local en docs/DELIVERY-0.10.0.md. Bytes preparados en Git cotejados:4.116 recursos de datos/fuentes/medios, sin discrepancias; diff sin errores. El commit que contiene este cierre identifica la entrega0.10.0; la subida autorizada a main es el último paso y su resultado se comunica al propietario. Repositorio local preparado sin esperar comprobaciones remotas. Vista local disponible en127.0.0.1:5174; servidor de preview de esta entrega, sesión41362, reutilizar si continúa activo. **No consultar Actions/Pages después de subir.** Publicación pendiente de aviso del propietario.
+
+Idea futura: separar progresivamente módulos y carga de catálogos para reducir el paquete principal, cuya compilación advierte de tamaño; no reducir el detalle geográfico.
+
+Idea futura: incorporar himnos y otros documentos por entidad y periodo; no descargar grabaciones sin revisar derechos. Mantener esta idea y la cobertura pendiente al retomar.
+
+## Registro de la entrega anterior0.9.1
+
 Actualizado: 23/10/2026, 21:48 Madrid. Rama: main. Aplicación 0.9.1 subida en f67f8aecf9acc19e51e7f49648ea81e12008b34d.
 
 Leer también [agentes.md](agentes.md). Esta pizarra distingue implementación, investigación, validación y publicación. Una sesión recuperada no convierte los pendientes en terminados.

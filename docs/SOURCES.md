@@ -1,5 +1,7 @@
 # Fuentes y política cartográfica
 
+Ampliación 0.10 a1950: [fuentes, decisiones y límites](RESEARCH-1950.md), [auditoría nominal](REVIEW-1950.json). Se conservan CShapes, coordenadas y licencias de origen; los suplementos modernos son contornos de referencia identificados. Autoridades, ventanas documentales, imágenes y diseños históricos tienen procedencias individuales. El catálogo [Países](../Países/README.md) referencia esos medios; no cambia sus licencias ni crea una colección cartográfica fusionada.
+
 ## Ampliación 0.6 · 1990–2026
 
 - Autoridades, medios y banderas: [HISTORICAL-AUTHORITIES](HISTORICAL-AUTHORITIES.md). Adquisición incremental de cargos nacionales P1906/P1313 y mandatos P39/P35/P6 con fechas; curaciones primarias previas conservadas, sin extender afirmaciones abiertas por defecto. Banderas identificadas por P163 y adopción documentada cuando coincide el archivo. Las licencias de cada medio permanecen en su manifiesto.

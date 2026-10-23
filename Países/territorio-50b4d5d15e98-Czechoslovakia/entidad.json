@@ -1,0 +1,70 @@
+{
+  "key": "territorio-50b4d5d15e98",
+  "name": "Czechoslovakia",
+  "qid": "",
+  "aliases": [
+    "Czechoslovakia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 110,
+      "start": "1918-11-11",
+      "end": "1938-09-29",
+      "name": "Czechoslovakia",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 111,
+      "start": "1938-09-30",
+      "end": "1938-11-01",
+      "name": "Czechoslovakia",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 112,
+      "start": "1938-11-02",
+      "end": "1945-05-07",
+      "name": "Czechoslovakia",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 113,
+      "start": "1945-05-08",
+      "end": "1947-02-09",
+      "name": "Czechoslovakia",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 114,
+      "start": "1947-02-10",
+      "end": "1992-12-31",
+      "name": "Czechoslovakia",
+      "status": "independent"
+    },
+    {
+      "file": "world_1945.geojson",
+      "recordId": 130,
+      "start": null,
+      "end": null,
+      "name": "Czechoslovakia",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

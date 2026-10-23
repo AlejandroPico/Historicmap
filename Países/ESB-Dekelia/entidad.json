@@ -1,0 +1,53 @@
+{
+  "key": "ESB",
+  "name": "Dekelia",
+  "qid": "Q9206745",
+  "aliases": [
+    "Dekelia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "ESB"
+  },
+  "flags": [
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-6582973002eafb16fbc2.svg",
+        "title": "Flag of the Dhekelia Garrison.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dhekelia_Garrison.svg",
+        "artist": "utriusque",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "Own work",
+        "sha256": "9fd25cc39909ffdaabc7afbb5e68fb55d0e5585fbeea6e041042659099c3c284",
+        "bytes": 30500,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Flag_of_the_Dhekelia_Garrison.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dhekelia_Garrison.svg"
+    }
+  ],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 6,
+      "start": null,
+      "end": null,
+      "name": "Dekelia",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,46 @@
+{
+  "key": "territorio-5c367c90c36c",
+  "name": "Spanish West Africa",
+  "qid": "",
+  "aliases": [
+    "Spanish West Africa"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 449,
+      "start": "1886-01-01",
+      "end": "1900-06-26",
+      "name": "Spanish West Africa",
+      "status": "protectorate"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 450,
+      "start": "1900-06-27",
+      "end": "1912-11-26",
+      "name": "Spanish West Africa",
+      "status": "protectorate"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 451,
+      "start": "1912-11-27",
+      "end": "1958-10-09",
+      "name": "Spanish West Africa",
+      "status": "protectorate"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

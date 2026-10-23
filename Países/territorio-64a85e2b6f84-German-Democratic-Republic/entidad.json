@@ -1,0 +1,38 @@
+{
+  "key": "territorio-64a85e2b6f84",
+  "name": "German Democratic Republic",
+  "qid": "",
+  "aliases": [
+    "German Democratic Republic"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 91,
+      "start": "1949-10-05",
+      "end": "1990-10-02",
+      "name": "German Democratic Republic",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 92,
+      "start": "1945-05-08",
+      "end": "1949-10-04",
+      "name": "German Democratic Republic",
+      "status": "occupied"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

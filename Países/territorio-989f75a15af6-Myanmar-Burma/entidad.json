@@ -1,0 +1,46 @@
+{
+  "key": "territorio-989f75a15af6",
+  "name": "Myanmar (Burma)",
+  "qid": "",
+  "aliases": [
+    "Myanmar (Burma)"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 582,
+      "start": "1937-04-01",
+      "end": "1948-01-03",
+      "name": "Myanmar (Burma)",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 583,
+      "start": "2005-11-06",
+      "end": "2019-12-31",
+      "name": "Myanmar (Burma)",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 584,
+      "start": "1948-01-04",
+      "end": "2005-11-05",
+      "name": "Myanmar (Burma)",
+      "status": "independent"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

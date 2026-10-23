@@ -1,0 +1,46 @@
+{
+  "key": "territorio-a08647d0af7a",
+  "name": "Cape Colony",
+  "qid": "",
+  "aliases": [
+    "Cape Colony"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 406,
+      "start": "1886-01-01",
+      "end": "1895-11-15",
+      "name": "Cape Colony",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 407,
+      "start": "1895-11-16",
+      "end": "1910-05-29",
+      "name": "Cape Colony",
+      "status": "colony"
+    },
+    {
+      "file": "world_1800.geojson",
+      "recordId": 68,
+      "start": null,
+      "end": null,
+      "name": "Cape Colony",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

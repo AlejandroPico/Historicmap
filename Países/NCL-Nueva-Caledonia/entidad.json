@@ -1,0 +1,114 @@
+{
+  "key": "NCL",
+  "name": "Nueva Caledonia",
+  "qid": "Q33788",
+  "aliases": [
+    "New Caledonia",
+    "Nueva Caledonia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NCL"
+  },
+  "flags": [
+    {
+      "start": "1853-05-17",
+      "end": "2026-10-22",
+      "source": "https://www.wikidata.org/wiki/Q43192",
+      "media": {
+        "file": "media/flag-196ee57f868703fbaebd.svg",
+        "title": "Flag of France (1790–1794).svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France_(1790%E2%80%931794).svg",
+        "artist": "Own work.",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "BASED ON THESE IMAGES:\n\n\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n",
+        "sha256": "3f473c1ae5b5812f528df0202011b1ec97784e015638d7e3a9eb19e550ec65f2",
+        "bytes": 265,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_France_%281790%E2%80%931794%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      }
+    },
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-ed1c167ce8cbce8e0450.svg",
+        "title": "Flag of FLNKS.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_FLNKS.svg",
+        "artist": "User:WarX",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "Own work",
+        "sha256": "397c6115361a22cdc00b8841fb847c7731106e05ff699befa7c345d08315dc67",
+        "bytes": 1730,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_FLNKS.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_FLNKS.svg"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3379907",
+      "role": "Jefatura del Gobierno",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q33788",
+      "sourceStatement": "Q33788$1b7968a6-465b-631b-a585-0a06d7015607",
+      "name": "Philippe Germain",
+      "portrait": {
+        "file": "media/portrait-7b0787c9693212d28aa0.jpg",
+        "title": "Philippe Germain, the President of the Government of New Caledonia (cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Philippe_Germain,_the_President_of_the_Government_of_New_Caledonia_(cropped).jpg",
+        "artist": "Office of the Prime Minister of Japan",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "首相官邸ホームページ　リンク、著作権等について",
+        "attributionRequired": true,
+        "credit": "https://www.kantei.go.jp/jp/98_abe/actions/201805/19palm.html",
+        "sha256": "9c4fadd5f2009699be5f3c28700ab998c186310eeb52d941ff0a0c26a9a8e4bc",
+        "bytes": 46005,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Philippe_Germain%2C_the_President_of_the_Government_of_New_Caledonia_%28cropped%29.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 180,
+      "start": null,
+      "end": null,
+      "name": "Nueva Caledonia",
+      "status": null
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11576",
+      "start": 1856,
+      "end": 1858,
+      "name": "New Caledonia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11657",
+      "start": 1859,
+      "end": 1859,
+      "name": "New Caledonia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

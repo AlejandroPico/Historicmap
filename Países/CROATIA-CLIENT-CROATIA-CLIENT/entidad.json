@@ -1,0 +1,70 @@
+{
+  "key": "CROATIA-CLIENT",
+  "name": "CROATIA-CLIENT",
+  "qid": "",
+  "aliases": [
+    "CROATIA-CLIENT"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CROATIA-CLIENT"
+  },
+  "flags": [
+    {
+      "start": "1941-04-10",
+      "end": "1945-05-08",
+      "media": {
+        "file": "media/flag-359ca22db1d42639a5a7.svg",
+        "title": "Flag of Independent State of Croatia.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Croatia_(1941%E2%80%931945).svg",
+        "artist": "public domain by User:Zscout370",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "Zakonska odredba o državnom grbu, državnoj zastavi, Poglavnikovoj zastavi, državnom pečatu, pečatima državnih i samoupravnih ureda, 28. travnja 1941, Nr.XXXVII-53-Z.p.-1941 — 30. travnja 1941.",
+        "sha256": "291ae5a90debef9d22786c145100aa80e7a0f4c072bab5c90564e45861c3d56a",
+        "bytes": 27713,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_Croatia_%281941%E2%80%931945%29.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Independent_State_of_Croatia.svg"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q36965",
+      "name": "Ante Pavelić",
+      "role": "Poglavnik · Estado cliente del Eje",
+      "start": "1941-04-10",
+      "end": "1945-05-08",
+      "precision": 11,
+      "source": "https://encyclopedia.ushmm.org/content/en/article/croatia",
+      "note": "",
+      "curated": true,
+      "portrait": {
+        "file": "media/portrait-074202c8aacf7b30c635.jpg",
+        "title": "Ante Pavelić StAF (3x4 cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ante_Paveli%C4%87_StAF_(3x4_cropped).jpg",
+        "artist": "Willy Pragher",
+        "license": "CC BY 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+        "credit": "Landesarchiv Baden-Württemberg, Staatsarchiv Freiburg, W 134 Nr. 026020, http://www.landesarchiv-bw.de/plink/?f=5-92156",
+        "sha256": "f7df037a75d6742854d29e054b4fcee60ee446ba175fa1960b40ab104b27b5c3",
+        "bytes": 32457,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ante_Paveli%C4%87_StAF_%283x4_cropped%29.jpg/330px-Ante_Paveli%C4%87_StAF_%283x4_cropped%29.jpg",
+        "attribution": "Landesarchiv Baden-Württemberg, Fotograf: Willy Pragher",
+        "attributionRequired": true
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

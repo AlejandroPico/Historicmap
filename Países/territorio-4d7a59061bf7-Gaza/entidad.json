@@ -1,0 +1,30 @@
+{
+  "key": "territorio-4d7a59061bf7",
+  "name": "Gaza",
+  "qid": "",
+  "aliases": [
+    "Gaza"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 698,
+      "start": "1948-05-14",
+      "end": "1967-06-09",
+      "name": "Gaza",
+      "status": "occupied"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

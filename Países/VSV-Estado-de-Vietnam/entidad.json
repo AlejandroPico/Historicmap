@@ -1,0 +1,104 @@
+{
+  "key": "VSV",
+  "name": "Estado de Vietnam",
+  "qid": "Q1193879",
+  "aliases": [
+    "Estado de Vietnam"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "VSV"
+  },
+  "flags": [
+    {
+      "start": "1950-01-01",
+      "end": "1955-10-25",
+      "media": {
+        "file": "media/flag-a6f2202556382265b024.svg",
+        "title": "Flag of South Vietnam.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Vietnam.svg",
+        "artist": "(many, see history)",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "(see history);",
+        "sha256": "20aff916fd3b09925c74e1de95a6312103bf5db72bb6aaf21902588df6a7b743",
+        "bytes": 200,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Flag_of_South_Vietnam.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Vietnam.svg",
+      "acquisition": "curated-symbols-0.10",
+      "intervalSource": "https://commons.wikimedia.org/wiki/Data:FlagsData.tab",
+      "note": "Ventana documental de cobertura, generalmente al cierre anual; no afirma días de adopción o derogación. Los años de diseño y la licencia proceden del archivo acreditado."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q223771",
+      "name": "Bảo Đại",
+      "role": "Jefe del Estado de Vietnam",
+      "start": "1950-01-01",
+      "end": "1955-10-25",
+      "source": "https://avalon.law.yale.edu/20th_century/inch036.asp",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1950-0.10",
+      "note": "Entidad asociada dentro del marco francés antes de la república de26/10/1955. El referéndum fue el23/10; no son la misma fecha. Ventana documental de ejercicio: sus extremos delimitan cobertura, no nombramiento ni dimisión. Los relevos diarios no contrastados siguen pendientes.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-465eff5de273aad9444e.jpg",
+        "title": "Baodai2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Baodai2.jpg",
+        "artist": "không rõ.\n\nThe original uploader was Dongsonvh at Vietnamese Wikipedia.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Baodai2.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Transferred from vi.wikipedia to Commons.\n\n(Original text: không rõ nguồn)",
+        "sha256": "5c064659be29bd0fc72a0067dfbd7d08864d6f89dd3b4a09a83c80b1cf41ad42",
+        "bytes": 57357,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Baodai2.jpg/330px-Baodai2.jpg"
+      }
+    },
+    {
+      "person": "Q192502",
+      "name": "Ngô Đình Diệm",
+      "role": "Primer ministro del Estado de Vietnam",
+      "start": "1954-07-07",
+      "end": "1955-10-25",
+      "source": "https://www.archives.gov/exhibits/remembering-vietnam-online-exhibit-episodes-1-4",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1950-0.10",
+      "note": "Jefatura del Gobierno anterior a la presidencia republicana; no se presenta como presidente en1954. Ventana documental de ejercicio: sus extremos delimitan cobertura, no nombramiento ni dimisión. Los relevos diarios no contrastados siguen pendientes.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-c24e7e9303c27a1885fd.jpg",
+        "title": "Chen Cheng accompanied by Vietnamese President Ngô Đình Diệm on his visit to Dalat (cropped to Ngo).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Chen_Cheng_accompanied_by_Vietnamese_President_Ng%C3%B4_%C4%90%C3%ACnh_Di%E1%BB%87m_on_his_visit_to_Dalat_(cropped_to_Ngo).jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Chen_Cheng_accompanied_by_Vietnamese_President_Ng%C3%B4_%C4%90%C3%ACnh_Di%E1%BB%87m_on_his_visit_to_Dalat_(cropped_to_Ngo).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://memory.culture.tw/Home/Detail?Id=008-030604-00039-003&IndexCode=drnh",
+        "sha256": "9bc6c7bfabd3efde65380c3aec0250ae535e4a4ac3508b3ec72043ca94400ed1",
+        "bytes": 22964,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Chen_Cheng_accompanied_by_Vietnamese_President_Ng%C3%B4_%C4%90%C3%ACnh_Di%E1%BB%87m_on_his_visit_to_Dalat_%28cropped_to_Ngo%29.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

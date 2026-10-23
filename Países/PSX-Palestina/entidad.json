@@ -1,0 +1,82 @@
+{
+  "key": "PSX",
+  "name": "Palestina",
+  "qid": "Q23792",
+  "aliases": [
+    "Palestina"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "PSX"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q127998",
+      "name": "Mahmoud Abbas",
+      "role": "Jefatura del Estado",
+      "start": "2005-01-15",
+      "end": "2026-10-22",
+      "precision": 11,
+      "curated": true,
+      "source": "https://www.un.org/unispal/document/auto-insert-194378/",
+      "portrait": {
+        "file": "media/portrait-6817e1386e711354fb0f.jpg",
+        "title": "Mahmoud Abbas May 2018.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mahmoud_Abbas_May_2018.jpg",
+        "artist": "Gobierno de Chile",
+        "license": "CC BY 3.0 cl",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cl/deed.en",
+        "attribution": "Estado de Chile",
+        "attributionRequired": true,
+        "credit": "https://prensa.presidencia.cl/comunicado.aspx?id=74574",
+        "sha256": "7efbc8d0ee74b38317e941c3e5b925fdca3fe9bf4fe7141d38baea8bef4de148",
+        "bytes": 31019,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Mahmoud_Abbas_May_2018.jpg/330px-Mahmoud_Abbas_May_2018.jpg"
+      }
+    },
+    {
+      "person": "Q20423278",
+      "name": "Mohammad Mustafa",
+      "role": "Jefatura del Gobierno",
+      "start": "2024-03-31",
+      "end": "2026-10-22",
+      "precision": 11,
+      "curated": true,
+      "source": "https://www.un.org/unispal/document/sgreport-assistance-to-the-palestinian-people-20may24/",
+      "portrait": {
+        "file": "media/portrait-7a0e03388feadaf275ab.jpg",
+        "title": "Mohammad Mustafa January 2025.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mohammad_Mustafa_January_2025.jpg",
+        "artist": "European Communities/Photo: Jennifer Jacquemart",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "© European Union, 2026",
+        "attributionRequired": true,
+        "credit": "https://audiovisual.ec.europa.eu/en/media/photo/P-065187/00-17",
+        "sha256": "fbddaa3a2708bb304b80b60a0371a8af08d483b914bd67280f028dca0f4b441d",
+        "bytes": 36887,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Mohammad_Mustafa_January_2025.jpg/330px-Mohammad_Mustafa_January_2025.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 11,
+      "start": null,
+      "end": null,
+      "name": "Palestina",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

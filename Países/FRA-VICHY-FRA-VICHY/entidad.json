@@ -1,0 +1,70 @@
+{
+  "key": "FRA-VICHY",
+  "name": "FRA-VICHY",
+  "qid": "",
+  "aliases": [
+    "FRA-VICHY"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "FRA-VICHY"
+  },
+  "flags": [
+    {
+      "start": "1940-07-11",
+      "end": "1944-08-20",
+      "media": {
+        "file": "media/flag-36b4e3a28b4a42a43886.svg",
+        "title": "Flag of France (1794–1815, 1830–1974).svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+        "artist": "Original: Unknown Vector:  SKopp",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This SVG flag includes elements that have been taken or adapted from this flag:",
+        "sha256": "e949902c7677422d88137d385b9edbe91323470c7933824cc968aca3965fc37c",
+        "bytes": 193,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q5721",
+      "name": "Philippe Pétain",
+      "role": "Jefe del Estado francés · régimen de Vichy",
+      "start": "1940-07-11",
+      "end": "1944-08-20",
+      "precision": 11,
+      "source": "https://encyclopedia.ushmm.org/content/en/article/france",
+      "note": "",
+      "curated": true,
+      "portrait": {
+        "file": "media/portrait-6211a5ceafde760cc94c.jpg",
+        "title": "Pétain - portrait photographique.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:P%C3%A9tain_-_portrait_photographique.jpg",
+        "artist": "\nImprimerie Draeger à Montrouge en région parisienne",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This file comes from Gallica Digital Library and is available under the digital ID btv1b10336769n/f23",
+        "sha256": "5d7d9d51049f8cdd921506969ccbd9a0f57d7903b939fe4e82ca69a0f36c8af8",
+        "bytes": 38790,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/P%C3%A9tain_-_portrait_photographique.jpg/330px-P%C3%A9tain_-_portrait_photographique.jpg",
+        "attribution": "",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

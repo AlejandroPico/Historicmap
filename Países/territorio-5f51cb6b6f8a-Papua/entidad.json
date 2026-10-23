@@ -1,0 +1,54 @@
+{
+  "key": "territorio-5f51cb6b6f8a",
+  "name": "Papua",
+  "qid": "",
+  "aliases": [
+    "Papua"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 656,
+      "start": "1888-01-01",
+      "end": "1905-11-15",
+      "name": "Papua",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 657,
+      "start": "1905-11-16",
+      "end": "1920-12-16",
+      "name": "Papua",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 658,
+      "start": "1920-12-17",
+      "end": "1949-06-30",
+      "name": "Papua",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 659,
+      "start": "1886-01-01",
+      "end": "1887-12-31",
+      "name": "Papua",
+      "status": "protectorate"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

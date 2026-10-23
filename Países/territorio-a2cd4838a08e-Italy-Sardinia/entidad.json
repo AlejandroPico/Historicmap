@@ -1,0 +1,38 @@
+{
+  "key": "territorio-a2cd4838a08e",
+  "name": "Italy/Sardinia",
+  "qid": "",
+  "aliases": [
+    "Italy/Sardinia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 117,
+      "start": "1886-01-01",
+      "end": "1919-09-09",
+      "name": "Italy/Sardinia",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 118,
+      "start": "1919-09-10",
+      "end": "2019-12-31",
+      "name": "Italy/Sardinia",
+      "status": "independent"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

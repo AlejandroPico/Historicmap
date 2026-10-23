@@ -2,7 +2,7 @@
 
 These are explicit modern reference outlines, not newly surveyed historical borders.
 No successor state is retrojected. Dates are independence/Compact commencement,
-not UN admission; the 1960 floor is separately labelled.
+not UN admission; the 1950 floor is separately labelled.
 """
 import copy,json
 from pathlib import Path
@@ -35,8 +35,8 @@ features=[]
 for i,code in enumerate(codes):
     f=copy.deepcopy(next(f for f in world['features'] if f['properties']['code']==code))
     p=f['properties'];profile=profiles.get(code,{})
-    existence,source=dates.get(code,('1960-01-01','https://www.un.org/en/about-us/growth-in-un-membership'))
-    start=max('1960-01-01',existence)
+    existence,source=dates.get(code,('1950-01-01','https://www.un.org/en/about-us/growth-in-un-membership'))
+    start=max('1950-01-01',existence)
     if code=='SAH':
         start='1975-11-14'
         source='https://www.un.org/dppa/decolonization/en/nsgt/western-sahara'
@@ -48,14 +48,14 @@ for i,code in enumerate(codes):
         ownerName='',source=source,territorialReference=True,
         note='Contorno de referencia contemporánea Natural Earth 1:10m; entidad ausente de la selección CShapes. No representa levantamientos históricos ni cambios costeros menores.'+
             (' La condición de territorio no autónomo y las autoridades rivales no equivalen a una atribución de soberanía. En 1975 seguía existiendo administración española transitoria; la retirada española terminó el 26 de febrero de 1976. La RASD no se proclamó hasta 1976.' if code=='SAH' else '')+
-            (' El inicio de 1960 es el límite de cobertura del suplemento, no una fecha de independencia.' if code in ['AND','LIE','MCO','SMR','VAT'] else '')+
+            (' El inicio de 1950 es el límite de cobertura del suplemento, no una fecha de independencia.' if code in ['AND','LIE','MCO','SMR','VAT'] else '')+
             (' La asociación libre con Estados Unidos entró en vigor en 1986; el Consejo de Seguridad terminó formalmente el fideicomiso en 1990 (S/RES/683).' if code in ['MHL','FSM'] else ''),
         geometrySource='https://www.naturalearthdata.com/about/terms-of-use/')
     f['id']=900000+i;features.append(f)
 for index,(code,end,source) in enumerate([('KWT','1961-06-18',state+'kuwait'),('BHR','1971-08-14',state+'bahrain')]):
  f=copy.deepcopy(next(f for f in world['features'] if f['properties']['code']==code));p=f['properties'];profile=profiles[code]
- p.update(code='',entityCode=code,identityKey=code,start='1960-01-01',end=end,status='protectorate',ownerName='Reino Unido',originalName=profile.get('englishName',p['name']),capital=profile.get('capital',''),politicalStatus='Estado protegido por el Reino Unido · gobernante local propio',territorialReference=True,source=source,geometrySource='https://www.naturalearthdata.com/about/terms-of-use/',note='Contorno contemporáneo de referencia para una omisión del inventario histórico. Protección británica anterior a la independencia, distinta de anexión o gobierno interno británico. Inicio 1960: límite de cobertura, no fecha de fundación del Estado o del protectorado.')
+ p.update(code='',entityCode=code,identityKey=code,start='1950-01-01',end=end,status='protectorate',ownerName='Reino Unido',originalName=profile.get('englishName',p['name']),capital=profile.get('capital',''),politicalStatus='Estado protegido por el Reino Unido · gobernante local propio',territorialReference=True,source=source,geometrySource='https://www.naturalearthdata.com/about/terms-of-use/',note='Contorno contemporáneo de referencia para una omisión del inventario histórico. Protección británica anterior a la independencia, distinta de anexión o gobierno interno británico. Inicio 1950: límite de cobertura, no fecha de fundación del Estado o del protectorado.')
  f['id']=901000+index;features.append(f)
-out={'type':'FeatureCollection','metadata':{'prepared':'2026-10-23','scope':'1960–2019; explicit modern reference outline supplements','license':'Natural Earth public domain; institutional factual chronology','notes':'1960-01-01 is the coverage floor for pre-existing states, not independence. Later states begin at documented independence/Compact dates. Western Sahara starts at the CShapes omission in November 1975 and is not equated with the later SADR. Admission to the UN is not used as a universal independence date.'},'features':features}
+out={'type':'FeatureCollection','metadata':{'prepared':'2026-10-23','scope':'1950–2019; explicit modern reference outline supplements','license':'Natural Earth public domain; institutional factual chronology','notes':'1950-01-01 is the coverage floor for pre-existing states, not independence. Later states begin at documented independence/Compact dates. Western Sahara starts at the CShapes omission in November 1975 and is not equated with the later SADR. Admission to the UN is not used as a universal independence date.'},'features':features}
 (ROOT/'public/data/historical-supplements.geojson').write_text(json.dumps(out,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8',newline='\n')
 print(f'Prepared {len(features)} explicit contemporary-reference historical supplements.')

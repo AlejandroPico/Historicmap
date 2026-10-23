@@ -4,16 +4,16 @@
   "entries": [
     {
       "file": "affiliations.json",
-      "bytes": 170169,
-      "sha256": "ce4c581f13f6f410d53afca681c85263287cd9da1b658bbf94b306b9509b4d76",
-      "version": "Historicmap 0.9.1; historical preparation 2026-10-23; current reference 2026-10-22",
+      "bytes": 192653,
+      "sha256": "4b3cb278eb4fcddd142f448ae81909f1d0d508ef17ea7e024834dc03d3118d9b",
+      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "dated-organizations",
       "source": "Official institutional membership chronologies and declarations",
       "url": "https://www.nato.int/cps/en/natohq/topics_52044.htm",
       "license": "Factual membership metadata; sources per interval, original editorial compilation",
-      "transform": "Dated organizations from 1960; preserve later accessions, departures and categories. Coverage boundaries are not accession dates; military alliance never establishes subordination. Albania and earlier COMECON/OAS/Arab League participation distinguished.",
-      "organizations": 31,
-      "records": 549
+      "transform": "Dated organizations from1950, including CECA, Euratom, ANZUS, SEATO and Baghdad/CENTO. Category and legal accession separated from coverage windows; no inference of subordination or belligerency. Cuban Government exclusion dated1962, not1960.",
+      "organizations": 36,
+      "records": 613
     },
     {
       "file": "cities.geojson",
@@ -172,16 +172,16 @@
     },
     {
       "file": "country-history.json",
-      "bytes": 81718,
-      "sha256": "dc4b5c5083b7cc34f79280046b10860cbfcf0810bded7029444946347cea098a",
-      "version": "Historicmap 0.9.1; historical preparation 2026-10-23; current reference 2026-10-22",
+      "bytes": 93055,
+      "sha256": "b1ca2f059dc9a28b9ea6e2b9672a75331fb4a4b33426c34b3667dc2b89c10ab5",
+      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "country-workspace-history",
       "url": "https://www.un.org/en/about-us/member-states",
       "source": "Official institutional histories, constitutional records and state succession references, linked per record",
       "license": "Original editorial summaries and factual metadata; sources linked individually",
-      "transform": "Focal institutions and navigable transitions including UAR separation, Yemen revolution, Tanganyika/Zanzibar union, Singapore separation and selected decolonization. Event date distinct from map-year anchors; no automatic successor inheritance.",
-      "records": 53,
-      "relations": 59
+      "transform": "Focal dated institutions and transitions for1950s independence, political unions and predecessor entities. Context coverage dates are not automatically constitutional inception or termination dates.",
+      "records": 62,
+      "relations": 68
     },
     {
       "file": "country-indicators.json",
@@ -212,15 +212,15 @@
     },
     {
       "file": "historical-context.json",
-      "bytes": 180135,
-      "sha256": "f1c674d8a0a67e1f41f8b15596dcd6e4338f1ab21181c629209b6a0bb10f2875",
-      "version": "Historicmap 0.9.1; historical preparation 2026-10-23; current reference 2026-10-22",
+      "bytes": 195805,
+      "sha256": "f7b704bb0b96534576350a3fcb5eb55bdbd34167fad33356a7fe2319fe4c2fcb",
+      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "dated-historical-context",
       "source": "United Nations, institutional and government historical records",
       "url": "https://www.un.org/en/about-us/history-of-the-un",
       "license": "Original editorial summaries; institutional sources linked per event",
-      "transform": "Focal conflict and transition phases expanded to 1960. Country keys associate a card, not a formal belligerent roster or front geometry. Incomplete worldwide; absence of event never establishes peace.",
-      "records": 258
+      "transform": "Focal1950s conflicts/transitions with source dates and documentary windows, including Korea, Indochina, Suez, Hungary, Taiwan and decolonization. Not a worldwide conflict census or military front reconstruction.",
+      "records": 279
     },
     {
       "file": "historical-control.geojson",
@@ -238,12 +238,12 @@
     {
       "file": "historical-supplements.geojson",
       "bytes": 124625,
-      "sha256": "5a206e1697d82a08123d5981cd1426e4faae1a97215c20d3110c7974cb3c1e9d",
-      "version": "Historicmap 0.9.1; historical preparation 2026-10-23; current reference 2026-10-22",
+      "sha256": "c7c12e39d4664fc5d31d602aca879f74428931ff0cc9b2d7f0db460bc1cd9414",
+      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
       "source": "Natural Earth pinned country outlines; UN territorial/state chronology and Office of the Historian",
       "url": "https://www.naturalearthdata.com/about/terms-of-use/",
       "license": "Public domain (Natural Earth geometry); factual institutional metadata",
-      "transform": "Unchanged contemporary Natural Earth reference outlines for omitted entities from 1960, including pre-independence Kuwait/Bahrain as explicitly protected states. Independence dates distinct from reference geometry, coverage floors and UN admission. Existing Sahara exception retained.",
+      "transform": "Unchanged contemporary Natural Earth reference outlines for source omissions from1950; explicit coverage floors and dates of independence, not UN admission dates or historic coastline reconstruction.",
       "features": 25
     },
     {
@@ -262,16 +262,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 6806715,
-      "sha256": "9378bcd90a9b21559228381e3cf14ae6bae3703e490321da4008a34b633bf55e",
+      "bytes": 7360509,
+      "sha256": "f97c21239a16eaeadf74fa56d8760e9c43d911d821f78d675b9e68e97d4cb9fd",
       "format": "dated-political-identities",
-      "countries": 283,
-      "records": 7480,
+      "countries": 285,
+      "records": 7985,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap 0.9.1; historical preparation 2026-10-23; current reference 2026-10-22",
+      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Incremental 1960–1969 office acquisition and focal reviewed terms/documentary coverage windows; preserve current reference 2026-10-22 and all previous curations. YMK/TAN/ZAN/UAR and UNTEA distinct, inclusive terms and documented boundary flags. Missing portraits remain explicit; licensed local media retain individual credits and hashes."
+      "transform": "Incremental1950–1959 acquisition, focal reviewed terms and documentary windows. State of Vietnam and Federation of Malaya separate from successors; formal and dominant offices distinguished. Earlier curations, current reference2026-10-22, licensed portraits and known gaps preserved."
     },
     {
       "format": "dated-political-influence",
@@ -321,15 +321,15 @@
     },
     {
       "file": "territorial-administrations.json",
-      "bytes": 10383,
-      "sha256": "0e4c58fcd1ec241649a274fbecaf7eb8291c45fb36f22c5131029dc3915a59cf",
-      "version": "Historicmap 0.9.1; historical preparation 2026-10-23; current reference 2026-10-22",
+      "bytes": 11460,
+      "sha256": "25799529d0c8e8f583232dfdd46d7cd23769c371e3f418a2af7cc903b05f9e3e",
+      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "dated-territorial-administrations",
-      "records": 18,
+      "records": 20,
       "source": "Primary legal, government and UN sources per relationship",
       "url": "https://www.un.org/dppa/decolonization/en",
       "license": "Original factual compilation; individual documentary sources retained.",
-      "transform": "Dated external/local authority relationships from coverage floor 1960, with pre/post-1966 Namibia, Bahamian self-government, four protected states and effective UNTEA administration. No successor statistics inherited; national, local and external scope distinguished."
+      "transform": "Dated territorial relationships from1950, including distinct pre/post1952 Puerto Rico and pre/post1954 Surinam constitutional frameworks. External national offices never replace unresearched local governors or transfer successor statistics."
     },
     {
       "file": "territorial-overlays.geojson",

@@ -1,0 +1,54 @@
+{
+  "key": "territorio-c9dcef27282b",
+  "name": "Martinique",
+  "qid": "",
+  "aliases": [
+    "Martinique"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 27,
+      "start": "1886-01-01",
+      "end": "2019-12-31",
+      "name": "Martinique",
+      "status": "colony"
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 113,
+      "start": null,
+      "end": null,
+      "name": "Martinique",
+      "status": null
+    },
+    {
+      "file": "world_1994.geojson",
+      "recordId": 162,
+      "start": null,
+      "end": null,
+      "name": "Martinique",
+      "status": null
+    },
+    {
+      "file": "world_2010.geojson",
+      "recordId": 163,
+      "start": null,
+      "end": null,
+      "name": "Martinique",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

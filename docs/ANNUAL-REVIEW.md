@@ -193,17 +193,17 @@ Completar autoridades, banderas, guerras civiles y regímenes por regiones; fren
 | 1947 | 172 | CShapes · 31 diciembre · 2fbf3014aa8e | Hungría, Checoslovaquia, Mali, Niger, Cote D'Ivoire, Burkina Faso (Upper Volta), China, India, Bhutan, Pakistan, Jammu and Kashmir, Kashmir (North, Azad) **+ 1 registros de control/guerras civiles.** |
 | 1948 | 173 | CShapes · 31 diciembre · 1532c1b9eace | Canada, Israel, Korea, People's Republic of, Korea, Republic of, Myanmar (Burma), Sri Lanka (Ceylon), Philippines, Gaza, Cisjordania **+ 1 registros de control/guerras civiles.** |
 | 1949 | 172 | CShapes · 31 diciembre · a8fad42d01ab | República Federal de Alemania, República Democrática Alemana, Libia, China, Taiwan, India, Bhutan, Pakistan, Indonesia, West Irian (Dutch New Guinea), Papua New Guinea **+ 1 registros de control/guerras civiles.** |
-| 1950 | 171 | CShapes · 31 diciembre · 1b4ae57d6b98 | China, Italian Somaliland  |
-| 1951 | 171 | CShapes · 31 diciembre · d0693c2d39b3 | Libia  |
-| 1952 | 170 | CShapes · 31 diciembre · 8497bc406e36 | Ethiopia, Solomon Islands  |
-| 1953 | 168 | CShapes · 31 diciembre · 21e6c0c5b1ff | Federation of Rhodesia and Nyasaland, Cambodia (Kampuchea)  |
-| 1954 | 169 | CShapes · 31 diciembre · 3cb5b3062aa9 | Surinam, Laos, República Democrática de Vietnam · Vietnam del Norte, República de Vietnam · Vietnam del Sur  |
-| 1955 | 169 | CShapes · 31 diciembre · 3cb5b3062aa9 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 1956 | 168 | CShapes · 31 diciembre · 1a209e4c5548 | Ghana, Marruecos, Túnez, Sudán, Southern zone of Spanish Morocco  |
-| 1957 | 168 | CShapes · 31 diciembre · 41c87312ef3b | Ghana, Malaysia  |
-| 1958 | 167 | CShapes · 31 diciembre · c23c0ec7900c | Guinea, Marruecos, Sáhara Español  |
-| 1959 | 164 | CShapes · 31 diciembre · c8dd2847a8ab | Estados Unidos, Mali, Pakistan  |
-| 1960 | 171 | CShapes · 31 diciembre + 7 contornos de referencia · 4d7ae8adf312 | Brazil, Cyprus, Mali, Senegal, Benin, Mauritania, Niger, Cote D'Ivoire, Burkina Faso (Upper Volta), Togo, Cameroon, Nigeria, Gabon, Central African Republic, Chad, Congo, República Democrática del Congo, Somalia, Madagascar (Malagasy), Andorra · contorno de referencia, Liechtenstein · contorno de referencia, Mónaco · contorno de referencia, San Marino · contorno de referencia, Ciudad del Vaticano · contorno de referencia, Kuwait · contorno de referencia, Baréin · contorno de referencia  |
+| 1950 | 178 | CShapes · 31 diciembre + 7 contornos de referencia · 7707202029b4 | China, Italian Somaliland, Andorra · contorno de referencia, Liechtenstein · contorno de referencia, Mónaco · contorno de referencia, San Marino · contorno de referencia, Ciudad del Vaticano · contorno de referencia, Kuwait · contorno de referencia, Baréin · contorno de referencia  |
+| 1951 | 178 | CShapes · 31 diciembre + 7 contornos de referencia · 41e2c6a7b577 | Libia  |
+| 1952 | 177 | CShapes · 31 diciembre + 7 contornos de referencia · dbf51a9ed67d | Ethiopia, Solomon Islands  |
+| 1953 | 175 | CShapes · 31 diciembre + 7 contornos de referencia · b4fc2dbb7e62 | Federation of Rhodesia and Nyasaland, Cambodia (Kampuchea)  |
+| 1954 | 176 | CShapes · 31 diciembre + 7 contornos de referencia · b18f715a1dfa | Surinam, Laos, República Democrática de Vietnam · Vietnam del Norte, República de Vietnam · Vietnam del Sur  |
+| 1955 | 176 | CShapes · 31 diciembre + 7 contornos de referencia · b18f715a1dfa | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 1956 | 175 | CShapes · 31 diciembre + 7 contornos de referencia · bf4ef94460cb | Ghana, Marruecos, Túnez, Sudán, Southern zone of Spanish Morocco  |
+| 1957 | 175 | CShapes · 31 diciembre + 7 contornos de referencia · a1a73046c5f2 | Ghana, Federación de Malaya  |
+| 1958 | 174 | CShapes · 31 diciembre + 7 contornos de referencia · 1f97b7a92587 | Guinea, Marruecos, Sáhara Español  |
+| 1959 | 171 | CShapes · 31 diciembre + 7 contornos de referencia · 1bb381558d8b | Estados Unidos, Mali, Pakistan  |
+| 1960 | 171 | CShapes · 31 diciembre + 7 contornos de referencia · 4d7ae8adf312 | Brazil, Cyprus, Mali, Senegal, Benin, Mauritania, Niger, Cote D'Ivoire, Burkina Faso (Upper Volta), Togo, Cameroon, Nigeria, Gabon, Central African Republic, Chad, Congo, República Democrática del Congo, Somalia, Madagascar (Malagasy)  |
 | 1961 | 170 | CShapes · 31 diciembre + 6 contornos de referencia · f462c30d1024 | Sierra Leone, Cameroon, Nigeria, Tanzania (Tanganyika), Kuwait  |
 | 1962 | 171 | CShapes · 31 diciembre + 7 contornos de referencia · 9859419c9482 | Jamaica, Trinidad and Tobago, Uganda, Burundi, Rwanda, Argelia, West Irian (Dutch New Guinea), Federation of South Arabia, Samoa · contorno de referencia  |
 | 1963 | 168 | CShapes · 31 diciembre + 7 contornos de referencia · 92897b53cfec | Kenya, Zanzibar, Malaysia, West Irian (Dutch New Guinea)  |

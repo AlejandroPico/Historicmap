@@ -1,10 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **23 de octubre de 2026**. Versión del producto: **0.9.1**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **24 de octubre de 2026**. Versión del producto: **0.10.0**.
 
 **Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado nuevo de0.9 en la sección18 y corrección0.9.1 en la19; las descripciones antiguas del interruptor de control quedan sustituidas por esa decisión posterior del propietario.
 
 ## 1. Identidad y visión
+
+**Encargo vigente 0.10 (23/10/2026):** ampliar a1950, organizar un catálogo por entidad en `Países/` y fijar cabecera/pestañas de la ficha con desplazamiento interior. La nueva instrucción del propietario sustituye el cierre operativo anterior: ejecutar comprobaciones locales, subir y terminar **sin esperar ni sondear Actions/Pages**. El propietario supervisará el despliegue, notificará errores y solicitará una revisión pública posterior. Distinguir siempre «subido» de «publicado». Registrar avances y pendientes en tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -489,3 +491,18 @@ Publicación: Quality limita concurrencia por rama y cancela ejecuciones superad
 Cierre efectivo de0.9.1: aplicación f67f8aecf9acc19e51e7f49648ea81e12008b34d, Quality40011433956 (115 unitarias/23 archivos y28 recorridos), Pages40013402559 con build/deploy correctos y checkout de ese SHA. Bytes públicos cotejados:4 archivos de aplicación,3 manifiestos,7 conjuntos de datos y16 medios, incluidos los5 de India. Evidencia durable en docs/reference/public-verification-0.9.1.json y DELIVERY-0.9.1. Vista pública comprobada: India1966, cuatro retratos cargados y sin errores de consola. El candidato c42531d pasó sus comprobaciones pero Pages40011732004 se omitió correctamente por estar superado.
 
 El cierre posterior conserva documentación y aserciones geográficas adicionales verificadas localmente (4 pruebas), sin cambiar la aplicación ni los datos publicados. Se usa [skip ci] únicamente para ese cierre: no reproducirlo si se modifica código de aplicación, datos, dependencias o flujos de publicación. La web publicada y el último commit documental tienen SHA distintos de forma deliberada. No hay tareas operativas de publicación pendientes; las carencias de investigación permanecen en tareas.md.
+
+
+## 20. Ampliación0.10 · década de1950 y organización por entidades
+
+Encargo del propietario: ampliar a1950, organizar las entidades en carpetas y dejar fija la parte superior de la ficha. **La instrucción vigente de Git sustituye el cierre automático anterior:** comprobar localmente, subir y terminar sin esperar ni consultar Actions/Pages. El propietario notificará despliegue o errores y solicitará revisión pública. No cambiar los controles de Quality/Pages ni presentar una subida como publicación comprobada.
+
+Adquisición incremental con enrich-1950-authorities.py, curación propia con curate-1950-authorities.py, retratos por ventana y curate-1950-symbols.py. Conservar retratos antes de retirar registros regenerables. No ejecutar adquisiciones iniciales destructivas ni avanzar la referencia contemporánea22/10/2026. prepare-1950-dependencies.py extiende relaciones a1950, separando Surinam antes/después de1954 y Puerto Rico antes/después de1952. prepare-1950-context.py añade organismos/contextos conservando lo posterior; las fechas de cobertura no son adhesiones o ceses jurídicos.
+
+VSV es Estado de Vietnam, anterior aRVN; MAL es Federación de Malaya, anterior aMYS. No heredan automáticamente estadísticas sucesoras. Transiciones navegables fechadas en country-history. Se corrigen jefaturas formales/efectivas focales de Corea/Taiwán, presidencia colegiada uruguaya, monarquía/regencia egipcia, independencia de Guinea y confirmación del Gobierno de Grotewohl. La corrección de Kim anterior a1972 conserva su presidencia posterior. Una cobertura resuelta no certifica todas las autoridades locales, suplencias diarias ni frentes.
+
+Países contiene un índice y resumen generado por entidad incorporada en las fuentes. Identidades con QID distintos se mantienen separadas. Los resúmenes incluyen banderas, mandatos y referencias territoriales; los medios y geometrías siguen en sus colecciones originales sin duplicarse ni mezclar licencias. El preparador del catálogo sincroniza esta vista desde public/data, que conserva la adquisición/curación. No editar entidad.json: editar la fuente preparada con su script. recursos.json y archivos/ son entradas manuales que se conservan; la compilación detecta audio/PDF con clave, fechas, autoría/fuente y licencia. No hay himnos adquiridos ni reproducción automática por defecto. Instrucciones en Países/README.md.
+
+La ficha fija identidad/título y pestañas; sólo country-content se desplaza. Conservar/restaurar ese scroll al actualizar el año; no volver a usar el scroll de selection como posición de lectura. Las acciones de comparar quedan dentro de Comparar. Se retira el desplegable de fuente de bandera, manteniendo un enlace accesible desde el símbolo a autoría/licencia. La X permanece. Mantener las pruebas de persistencia y comparación en escritorio/móvil.
+
+Cifras y resultados efectivos se registran en DELIVERY-0.10.0 y tareas.md. Fuentes y limitaciones en RESEARCH-1950 y REVIEW-1950. Mantener pendientes de medios/variantes, autoridades secundarias, fechas diarias, Sarre/Berlín y frentes detallados. El CSV original ausente sigue pendiente; no se ha importado. No borrar esos pendientes por finalizar el código de esta ampliación.

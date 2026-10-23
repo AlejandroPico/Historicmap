@@ -1,0 +1,53 @@
+{
+  "key": "NFK",
+  "name": "Isla Norfolk",
+  "qid": "Q31057",
+  "aliases": [
+    "Isla Norfolk"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NFK"
+  },
+  "flags": [
+    {
+      "start": "1979-06-06",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-be76d1a9b68d620189cc.svg",
+        "title": "Flag of Norfolk Island.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Norfolk_Island.svg",
+        "artist": "",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "credit": "openclipart.org",
+        "sha256": "bb285f1640c03331a9921d85faec51efb11a216b3bd133b06b6dc4dc48be5d09",
+        "bytes": 23635,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Norfolk_Island.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://www.wikidata.org/wiki/Q235445"
+    }
+  ],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 231,
+      "start": null,
+      "end": null,
+      "name": "Isla Norfolk",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

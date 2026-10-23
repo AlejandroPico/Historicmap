@@ -22,7 +22,7 @@ export async function annualData(year:number){
     const data=await asset<FeatureCollection>('early-modern.geojson');
     return {...data,features:data.features.filter(f=>f.properties!.start<=year&&f.properties!.end>=year)};
   }
-  const [history,profiles,supplements]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1960?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined)]);
+  const [history,profiles,supplements]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1950?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined)]);
   names??=new Map(Object.entries(profiles.countries).flatMap(([iso,p])=>[p.name,p.englishName??'',p.official??''].filter(Boolean).map(n=>[normalizedName(n),iso])));
   const data=historyAt(history,year,names,geometryCache);
   if(!supplements)return data;

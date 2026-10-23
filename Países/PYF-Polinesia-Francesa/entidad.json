@@ -1,0 +1,106 @@
+{
+  "key": "PYF",
+  "name": "Polinesia Francesa",
+  "qid": "Q30971",
+  "aliases": [
+    "French Polynesia",
+    "Polinesia Francesa"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "PYF"
+  },
+  "flags": [
+    {
+      "start": "1984-12-04",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-8de5f27cd3f50378a26a.svg",
+        "title": "Flag of French Polynesia.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_French_Polynesia.svg",
+        "artist": "Nightstallion",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "credit": "From the Open Clip Art website",
+        "sha256": "70ea34a7c1684cfde0e06f2a35ba4139ef4e0ea399dec3ded82eabc810f4c095",
+        "bytes": 7332,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_French_Polynesia.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_French_Polynesia.svg"
+    },
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "media": {
+        "file": "media/flag-03603670a9150d721c99.svg",
+        "title": "Flag of France.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+        "artist": "Original: Unknown Vector:  SKopp",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This SVG flag includes elements that have been taken or adapted from this flag:",
+        "sha256": "e949902c7677422d88137d385b9edbe91323470c7933824cc968aca3965fc37c",
+        "bytes": 193,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1106890",
+      "role": "Jefatura del Gobierno",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q30971",
+      "sourceStatement": "Q30971$415ae039-45ba-739a-3c5c-bf8fbd9bb2a0",
+      "name": "Édouard Fritch",
+      "portrait": {
+        "file": "media/portrait-437cf9b3066481321e95.jpg",
+        "title": "Édouard Fritch Marché Papeete.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Fritch_March%C3%A9_Papeete.JPG",
+        "artist": "Denys",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "62f3d31ec80b18fa66d4f38c9e8f7a4a91f5ae65d2b212c44329e6064de7b355",
+        "bytes": 41697,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%C3%89douard_Fritch_March%C3%A9_Papeete.JPG/330px-%C3%89douard_Fritch_March%C3%A9_Papeete.JPG"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 675,
+      "start": "1903-05-19",
+      "end": "2019-12-31",
+      "name": "French Polynesia",
+      "status": "colony"
+    },
+    {
+      "file": "countries.geojson",
+      "recordId": 193,
+      "start": null,
+      "end": null,
+      "name": "Polinesia Francesa",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

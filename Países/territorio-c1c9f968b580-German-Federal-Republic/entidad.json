@@ -1,0 +1,46 @@
+{
+  "key": "territorio-c1c9f968b580",
+  "name": "German Federal Republic",
+  "qid": "",
+  "aliases": [
+    "German Federal Republic"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 88,
+      "start": "1990-10-03",
+      "end": "2019-12-31",
+      "name": "German Federal Republic",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 89,
+      "start": "1949-09-21",
+      "end": "1990-10-02",
+      "name": "German Federal Republic",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 90,
+      "start": "1945-05-08",
+      "end": "1949-09-20",
+      "name": "German Federal Republic",
+      "status": "occupied"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
