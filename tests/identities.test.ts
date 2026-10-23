@@ -10,6 +10,15 @@ const at=(key:string,year:number)=>identityFor({identityKey:key,name:key},year,d
 const names=(key:string,year:number)=>at(key,year).leaders.map(l=>l.name).join(' / ');
 
 describe('dated flags and political authorities',()=>{
+ it('does not recover rejected generic offices when consolidating a reviewed authority',()=>{
+  const leader={person:'TEST',name:'Reviewed president',start:'1963-10-01',end:'1966-01-16',source:'test',precision:11};
+  const fixture:IdentityData={retrieved:'2026-10-22',license:'test',source:'test',countries:{TEST:{qid:'',name:'Test',flags:[],leaders:[{...leader,role:'Jefatura del Estado'},{...leader,role:'Jefatura del Gobierno'},{...leader,role:'Presidente parlamentario',curated:true}]}}};
+  expect(identityFor({identityKey:'TEST'},1964,fixture,now).leaders.map(l=>l.role)).toEqual(['Presidente parlamentario']);
+  const nigeria=at('NGA',1963).leaders;
+  expect(nigeria.find(l=>l.person==='Q181782')?.role).toMatch(/jefatura del Estado/);
+  expect(nigeria.find(l=>l.person==='Q181782')?.role).not.toMatch(/Gobierno/);
+  expect(nigeria.some(l=>l.person==='Q335684'&&/Gobierno/.test(l.role))).toBe(true);
+ });
  it('never resolves an empty or unknown identifier to a Spanish faction',()=>{
   for(const p of [{},{name:'Brazil'},{name:'Unknown territory',wikidata:''},{code:'-99'},{identityKey:'not-a-country',wikidata:'not-a-qid'}]){
    expect(identityKey(p,1947,data)).toBe('');

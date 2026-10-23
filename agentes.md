@@ -1,8 +1,8 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **23 de octubre de 2026**. Versión del producto: **0.9.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **23 de octubre de 2026**. Versión del producto: **0.9.1**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado nuevo de 0.9 en la sección 18; las descripciones antiguas del interruptor de control quedan sustituidas por esa decisión posterior del propietario.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado nuevo de0.9 en la sección18 y corrección0.9.1 en la19; las descripciones antiguas del interruptor de control quedan sustituidas por esa decisión posterior del propietario.
 
 ## 1. Identidad y visión
 
@@ -469,3 +469,15 @@ Organizaciones:31/549 intervalos desde1960; fases contextuales:258; historia/ins
 Orden incremental: adquisición1960 → curación asiática anterior para recortar mandatos vietnamitas a sus entidades → administraciones dependientes → curación1960 → retratos por ventana → importación genérica de símbolos1960 → curación1970 (preserva variantes/exclusiones) → curación de símbolos1960 → suplementos/contexto → pruebas de cobertura → `register-1960-data.mjs` → integridad/tipos/pruebas/build/navegador. Si se repite una curación de autoridades después de símbolos, ejecutar de nuevo la exclusión de la imagen ambigua de Traykov: el test lo exige. Nunca sustituir adquisición incremental por inicialización destructiva ni mover el tope de actualidad por investigar el pasado.
 
 Validación y publicación finales se registran en DELIVERY-0.9.0 y tareas.md con resultados/SHA reales. No dar esta entrega por publicada por tener versión/build local. Los huecos de retratos, variantes, suplencias, regímenes, fronteras y frentes siguen abiertos, con inventario; el CSV original sigue pendiente. Las fichas anteriores a la ventana revisada que no se pueden seleccionar permanecen en backlog explícito, no se declaran corregidas al retroceder una década.
+
+## 19. Corrección0.9.1 · conservación de medios y cargos revisados
+
+0.9.0 publicada en `ba7eb3b8ab505a277f5fb5f59c6e18eeb06084af`; Quality40005916966 superó114 unitarias y28 recorridos, Pages40008258279 terminó correctamente y se verificaron bytes públicos. La corrección0.9.1 se registra aparte; su cierre efectivo corresponde a DELIVERY-0.9.1 y tareas, no a una suposición por haber pasado la versión anterior.
+
+El preparador de1960 ahora obtiene los retratos **antes** de retirar sus mandatos regenerables. De otro modo desaparecía la referencia al medio de personas que sólo figuraban en esos registros. La recuperación focal devuelve26 retratos acreditados que ya existían en el inventario; no son archivos nuevos. Se conserva una regresión para el retrato de Abdoh. El adquiridor permite `--original` para probar el original publicado cuando procede, manteniendo licencia, identificación, exclusiones y lectura limitada a5MB; no se convierten candidatos sin aprobar en retratos válidos.
+
+Azikiwe queda como presidente parlamentario de Nigeria y Balewa como jefe del Gobierno. Una afirmación genérica duplicada de Q500282 no convierte a ambos en primeros ministros. La consolidación utiliza las declaraciones que sobreviven a la curación, evitando recuperar cargos descartados al fusionar duplicados. Las fechas del relevo de enero1966 siguen pendientes de contraste diario; fuente institucional de la distinción en AUTHORITIES-1960-RESEARCH.
+
+Cifras posteriores a esta corrección: **283 claves/7.480 mandatos**, **3.788 medios** (439 SVG/3.349 fotografías); **1.693 país-años1960–1969**, sin huecos de resolución, **96 personas/órganos sin retrato** y**20 país-años sin símbolo**. Sustituyen las cifras de122 vacíos/7.481 mandatos del estado0.9.0. `docs/REVIEW-1960.json` identifica los vacíos; `docs/reference/portrait-1960-pending-research.json` conserva pistas:76 sin P18,17 candidatos pendientes y tres órganos/identificadores documentales. No certificar completitud mundial a partir de cobertura del resolver.
+
+Pendientes obligatorios: recuperar el CSV original ausente y cotejarlo, resolver imágenes/variantes AND-SMR sin inventar diseños, completar relevos diarios y mandatos secundarios, frentes detallados y entidades tempranas. Seguir la pizarra, conservar SHA de aplicación y evidencia de Quality/Pages/publicación separados del último commit documental. No recompilar ni cambiar rama mientras se prueba el directorio servido. Un fallo local por mezcla de archivos no justifica omitir el siguiente recorrido ni atribuirlo sin cotejar los bytes.

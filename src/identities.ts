@@ -51,7 +51,6 @@ function ownIdentityFor(p:Properties,year:number,data:IdentityData,now=new Date(
   // The map is an annual view. Show every mandate that intersects the year,
   // including short governments and both sides of a handover.
   let leaders=identity?.leaders.filter(l=>!future&&l.start<=date&&l.end>=first)??[];
-  const annualStatements=leaders;
   // A curated focal statement takes priority for the same person and office;
   // keep genuinely different offices and heads of state/government separate.
   const curated=leaders.filter(l=>l.curated);
@@ -61,6 +60,9 @@ function ownIdentityFor(p:Properties,year:number,data:IdentityData,now=new Date(
   // intervals may include that day at both ends; do not collapse the renewal.
   const overlaps=(a:Leader,b:Leader)=>(a.start<b.end&&b.start<a.end)||(a.start===b.start&&a.end===b.end);
   leaders=leaders.filter(l=>l.curated||!curated.some(c=>c.person===l.person&&sameOffice(c,l)&&overlaps(c,l)));
+  // Rejected generic statements must not reintroduce offices that a reviewed
+  // record has explicitly separated when the remaining duplicates are merged.
+  const annualStatements=leaders;
   // Consolidate the same officeholder reported by several source properties.
   // Keep distinct authorities (for example Pétain and de Gaulle) separate.
   const authorities:Leader[]=[];

@@ -4,7 +4,7 @@ Non-human collective authorities retain their names without invented photographs
 The final merge rereads identities, preserving independent preparation work.
 """
 import importlib.util,pathlib,json,re,hashlib,urllib.parse,html,argparse
-parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--people',nargs='+',help='Only acquire these existing human identifiers');parser.add_argument('--start',default='1970-01-01');parser.add_argument('--end',default='1990-01-01');parser.add_argument('--image',nargs=2,action='append',metavar=('PERSON','COMMONS_TITLE'),help='Explicitly reviewed alternative photograph; retains the same identity and license checks');args=parser.parse_args()
+parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--people',nargs='+',help='Only acquire these existing human identifiers');parser.add_argument('--start',default='1970-01-01');parser.add_argument('--end',default='1990-01-01');parser.add_argument('--image',nargs=2,action='append',metavar=('PERSON','COMMONS_TITLE'),help='Explicitly reviewed alternative photograph; retains the same identity and license checks');parser.add_argument('--original',action='store_true',help='Try the original published image when thumbnail acquisition failed; retain the 5 MB file limit and license checks');args=parser.parse_args()
 reviewed_images=dict(args.image or [])
 spec=importlib.util.spec_from_file_location('h',pathlib.Path(__file__).with_name('enrich-1970-authorities.py'))
 h=importlib.util.module_from_spec(spec);spec.loader.exec_module(h)
@@ -31,12 +31,12 @@ def acquire(q):
   page=next(iter(info.get('query',{}).get('pages',{}).values()),{});ii=page.get('imageinfo',[{}])[0];meta=ii.get('extmetadata',{});lic=meta.get('LicenseShortName',{}).get('value','')
   accepted=any(v in lic.lower() for v in ['public domain','cc0','cc by','cc-by','pd-']) or lic in ['Attribution','OGL 3','OGL v1.0','GODL-India','European Parliament','KOGL Type 1','PDM-owner']
   if not accepted or 'nd' in lic.lower():continue
-  url=(ii.get('thumburl') or ii.get('url') or '').split('?')[0]
+  url=((ii.get('url') if args.original else ii.get('thumburl') or ii.get('url')) or '').split('?')[0]
   if not url:continue
   relative='media/portrait-'+digest+('.png' if '.png' in url.lower() else '.jpg');dest=h.OUT/relative
   if relative in media and dest.exists():return media[relative]
   if not dest.exists():
-   raw=h.download(url)
+   raw=h.download(url,max_bytes=5_000_000)
    if len(raw)>5_000_000 or not raw.startswith((b'\xff\xd8',b'\x89PNG')):continue
    dest.write_bytes(raw)
   clean=lambda value:html.unescape(re.sub('<[^>]*>','',value))

@@ -31,6 +31,7 @@ describe('1960s territorial and institutional distinctions',()=>{
   expect(a.leaders.find(l=>l.person==='Q5955377')?.start).toBe('1962-11-15');
   const b=at(properties(1963,'West Irian (Dutch New Guinea)'),1963);
   expect(b.leaders.some(l=>l.person==='Q5955377'&&l.end==='1963-04-30')).toBe(true);
+  expect(b.leaders.find(l=>l.person==='Q5955377')?.portrait?.file).toBeDefined();
   expect(b.leaders.some(l=>/Sukarno|Soekarno/.test(l.name)&&l.start==='1963-05-01')).toBe(true);
   expect(b.flag).toBeDefined();
  });

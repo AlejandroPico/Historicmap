@@ -9,8 +9,8 @@ d=json.loads(path.read_text(encoding='utf8'));countries=d['countries'];tag='cura
 read=lambda f:json.loads((root/f).read_text(encoding='utf8'))
 for key,name in [('YMK','Reino Mutawakkilita de Yemen'),('TAN','Tanganica'),('ZAN','Zanzíbar'),('UAR','República Árabe Unida')]:countries.setdefault(key,dict(qid='',name=name,flags=[],leaders=[]))
 countries.setdefault('UNTEA',dict(qid='',name='Autoridad Ejecutiva Temporal de las Naciones Unidas',flags=[],leaders=[]))
-for c in countries.values():c['leaders']=[l for l in c['leaders'] if l.get('acquisition')!=tag]
 portraits={l['person']:l['portrait'] for c in countries.values() for l in c['leaders'] if l.get('portrait')}
+for c in countries.values():c['leaders']=[l for l in c['leaders'] if l.get('acquisition')!=tag]
 proposals=read('docs/reference/authorities-1960-proposals.json')['records']
 accepted=[]
 for index,p in enumerate(proposals):
@@ -42,6 +42,12 @@ for key,start,end,source in [
  term=dict(person='Q9682',name='Isabel II',role='Reina · jefatura del Estado del país independiente',start=start,end=end,precision=11,source=source,curated=True,acquisition=tag,note='Compartir monarca no equivale a seguir bajo administración británica. La monarquía formal se distingue de la autoridad efectiva y del Gobierno local.')
  if 'Q9682' in portraits:term['portrait']=portraits['Q9682']
  countries[key]['leaders'].append(term)
+# Nigeria's First Republic had a parliamentary president and a prime minister.
+# The generic Q500282 office assertions duplicated Azikiwe as head of government.
+countries['NGA']['leaders']=[l for l in countries['NGA']['leaders'] if not (l['person']=='Q181782' and l['role']=='Jefatura del Gobierno' and l.get('office')=='Q500282')]
+for leader in countries['NGA']['leaders']:
+ if leader['person']=='Q181782' and leader['start']=='1963-10-01':
+  leader.update(role='Presidencia parlamentaria · jefatura del Estado',roleSource='https://sccr.gov.ng/?page_id=119',note='Presidente de la Primera República parlamentaria; la jefatura del Gobierno corresponde a Abubakar Tafawa Balewa. La fecha presidencial no debe retrotraerse al mandato de gobernador general. Fechas del catálogo de mandatos; el relevo de enero de 1966 requiere contraste diario específico.')
 # Entity scope: Nasser governed the union; this is not a Syrian presidency.
 for leader in countries['EGY']['leaders']:
  if leader['start']<='1960-12-31' and leader['end']>='1960-01-01':

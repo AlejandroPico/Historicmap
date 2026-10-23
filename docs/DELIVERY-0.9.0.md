@@ -1,6 +1,6 @@
 # Entrega 0.9.0 · control territorial, paleta e historia desde 1960
 
-Estado: preparación local. **Todavía no acredita publicación.** Actualizar al terminar Quality, Pages y comprobación pública. Continuidad operativa en `../tareas.md`.
+Estado: **publicada y comprobada** en ba7eb3b8ab505a277f5fb5f59c6e18eeb06084af. Esta ficha describe0.9.0; la corrección posterior y los pendientes actualizados están en DELIVERY-0.9.1 y ../tareas.md.
 
 ## Cambios
 
@@ -34,3 +34,9 @@ El CSV del propietario `C:/Users/darim/Downloads/lista_imperios_completa_v3.csv`
 - Tres recorridos focales de navegador correctos: selección de controlador con franjas, tierra en 1889/1918, símbolos/autoridades de ambas guerras y Francia revolucionaria/napoleónica, móvil. La revisión visual confirma las franjas; una captura prematura anterior al idle no las mostraba y se corrigió la espera.
 - Auditoría ampliada a suplementos: **1.693 país-años 1960–1969**, sin huecos de resolución de autoridad;122 personas/órganos sin retrato y20 país-años sin bandera (Andorra y San Marino). Lista concreta en `REVIEW-1960.json`. La foto alternativa de De Gaulle se identificó y revisó separadamente; no se flexibiliza el filtro automático de licencias.
 - Suite completa final, integridad, versión final y publicación: pendientes; no considerar esta lista una aprobación de esos pasos.
+
+## Cierre comprobado de0.9.0
+
+[Quality40005916966](https://github.com/AlejandroPico/Historicmap/actions/runs/40005916966):114 pruebas unitarias/23 archivos, integridad43/11/3.788 y28 recorridos de navegador correctos. El recorrido anual1789–2026 tardó3,2min y el caso de reproducción/perfiles40,4s en CI; no confundir el tiempo total del caso con el intervalo de reproducción. [Pages40008258279](https://github.com/AlejandroPico/Historicmap/actions/runs/40008258279) terminó correctamente. Cotejo público de4 archivos de aplicación,3 manifiestos,7 conjuntos de datos y9 medios focales en reference/public-verification-0.9.0.json.
+
+Las pasadas locales iniciales registraron fallos: directorio servido reconstruido durante una prueba, una compilación mezclada durante el cambio de rama y tiempos excedidos en Chromium por software. Se corrigió el reprocesado de geometrías clonadas y se repitió la validación en CI completo. Las pruebas manuales del navegador integrado confirmaron Nigeria1960, TAN→TZA1964 y reproducción1938→1942 en14,3s. No se afirma que todas las pasadas locales fueran correctas.

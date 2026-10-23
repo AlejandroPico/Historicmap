@@ -2,7 +2,7 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.9.0** · 23 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.9.1** · 23 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 

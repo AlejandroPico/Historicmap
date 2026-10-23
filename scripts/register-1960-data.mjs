@@ -1,6 +1,7 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 const root=new URL('../public/data/',import.meta.url),manifest=JSON.parse(await readFile(new URL('manifest.json',root)));
+const version=JSON.parse(await readFile(new URL('../package.json',import.meta.url))).version;
 const notes={
  'identities.json':'Incremental 1960–1969 office acquisition and focal reviewed terms/documentary coverage windows; preserve current reference 2026-10-22 and all previous curations. YMK/TAN/ZAN/UAR and UNTEA distinct, inclusive terms and documented boundary flags. Missing portraits remain explicit; licensed local media retain individual credits and hashes.',
  'territorial-administrations.json':'Dated external/local authority relationships from coverage floor 1960, with pre/post-1966 Namibia, Bahamian self-government, four protected states and effective UNTEA administration. No successor statistics inherited; national, local and external scope distinguished.',
@@ -11,7 +12,7 @@ const notes={
 };
 for(const [file,transform] of Object.entries(notes)){
  const bytes=await readFile(new URL(file,root)),d=JSON.parse(bytes),old=manifest.entries.find(e=>e.file===file);
- const entry={...old,bytes:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex'),version:'Historicmap 0.9.0; historical preparation 2026-10-23; current reference 2026-10-22',transform};
+ const entry={...old,bytes:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex'),version:`Historicmap ${version}; historical preparation 2026-10-23; current reference 2026-10-22`,transform};
  if(d.countries){entry.countries=Object.keys(d.countries).length;entry.records=Object.values(d.countries).reduce((n,c)=>n+c.leaders.length,0);}
  if(d.organizations){entry.organizations=d.organizations.length;entry.records=d.organizations.reduce((n,o)=>n+o.memberships.length,0);}
  if(d.events)entry.records=d.events.length;

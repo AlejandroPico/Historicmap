@@ -120,3 +120,7 @@ Ecuador: Ramón Castro Jijón Q434737 preside la Junta de 11/07/1963–29/03/196
 - Fechas y composición completa de juntas/suplencias indicadas arriba; las ventanas interiores son una medida de precisión, no una solución final a esos mandatos.
 - Siria 1960: corresponde a la República Árabe Unida, no a un presidente sirio independiente. Ver [Office of the Historian](https://history.state.gov/countries/syria); resolver entidad y ámbito antes de añadir a Nasser de forma automática.
 - Contrastar al importar con el catálogo existente: conservar sus curaciones más precisas y no sobreescribir retratos/licencias ya acreditados.
+
+### Precisión añadida en0.9.1: Nigeria parlamentaria
+
+El catálogo genérico atribuía el mismo Q500282 de Azikiwe a Estado y Gobierno. Se conserva su presidencia y se elimina la atribución de Gobierno, que corresponde a Balewa. La [historia constitucional del Senado](https://sccr.gov.ng/?page_id=119) identifica a Balewa como primer ministro en el apartado1960 y a Azikiwe como presidente en1963; el texto explicativo del apartado1960 **transpone los nombres en una frase sobre la dualidad ejecutiva**. No reproducir esa errata ni interpretar la presidencia parlamentaria como la ejecutiva introducida en1979. El contraste diario del relevo de enero1966 y el inventario completo de gobernadores generales siguen abiertos.

@@ -13,14 +13,14 @@ TODAY=datetime.date.today().isoformat(); START='1970-01-01'; PERIOD_END='1989-12
 UA={'User-Agent':'Historicmap/0.8 (https://github.com/AlejandroPico/Historicmap; educational atlas)'}
 EXCLUDED_MEDIA={(r['person'],r['title']) for r in json.loads(pathlib.Path(__file__).with_name('media-exclusions.json').read_text(encoding='utf8'))}
 DOWNLOAD_LOCK=threading.Lock();LAST_DOWNLOAD=0
-def download(url):
+def download(url,max_bytes=None):
     """Pace shared thumbnail acquisition and respect service back pressure."""
     global LAST_DOWNLOAD
     for attempt in range(3):
         with DOWNLOAD_LOCK:
             time.sleep(max(0,1.2-(time.monotonic()-LAST_DOWNLOAD)));LAST_DOWNLOAD=time.monotonic()
         try:
-            with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=60) as response:return response.read()
+            with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=60) as response:return response.read(max_bytes+1) if max_bytes else response.read()
         except urllib.error.HTTPError as error:
             if error.code!=429 or attempt==2:raise
             retry=error.headers.get('Retry-After','60');time.sleep(min(120,int(retry) if retry.isdigit() else 60))
