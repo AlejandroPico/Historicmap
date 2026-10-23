@@ -31,7 +31,7 @@ test('WWII playback progresses annually, pauses precisely and opens historical p
  await expect(page.locator('#map-legend')).toContainText('síntesis anual');
  await expect(page.locator('#map')).toHaveAttribute('data-overlays','7');
  await search(page,'Alemania nazi');await expect(page.locator('#selection-text')).toContainText('dictadura nacionalsocialista');
- await expect(page.locator('#selection-text')).not.toContainText('PIB nominal');
+ await expect(page.locator('#pane-facts')).not.toContainText('PIB nominal');await expect(page.locator('#pane-economy .country-facts small')).toHaveCount(0);await expect(page.locator('#pane-economy')).toContainText('Sin dato para esta fecha');
  await page.screenshot({path:'test-results/1942-profile.png'});
  await page.locator('#close-selection').click();await date(page,1946);
  await search(page,'India');await expect(page.locator('#selection-text')).toContainText('Colonia');await expect(page.locator('#selection-text')).toContainText('Reino Unido');

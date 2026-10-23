@@ -10,6 +10,21 @@ for (const entry of manifest.entries) {
   if (entry.format==='unquantized-topology') {if(data.type!=='Topology'||data.objects.countries.geometries.length!==entry.records)throw Error(`Invalid ${entry.file}`);}
   else if(entry.format==='country-indicator-series'){if(!data.countries.USA?.series.population?.length)throw Error('Missing country indicators');}
   else if(entry.format==='dated-political-identities'){if(Object.keys(data.countries).length!==entry.countries||!data.retrieved)throw Error('Invalid dated identities');}
+  else if(entry.format==='country-workspace-indicators'){
+    if(Object.keys(data.indicators).length!==entry.indicators||Object.keys(data.countries).length!==entry.countries||!data.referenceDate)throw Error('Invalid country workspace indicators');
+    let count=0;
+    for(const [key,m] of Object.entries(data.indicators))if(!m.source||!m.license||!m.unit||!m.description||!['economy','society','defense'].includes(m.section))throw Error(`Missing indicator provenance ${key}`);
+    for(const [code,series] of Object.entries(data.countries))for(const [key,values] of Object.entries(series)){
+      const seen=new Set();for(const [year,value] of values){if(!data.indicators[key]||!Number.isInteger(year)||year<1960||year>Number(data.referenceDate.slice(0,4))||seen.has(year)||!Number.isFinite(value)||(value<0&&!data.indicators[key].allowNegative))throw Error(`Invalid observation ${code}:${key}:${year}`);seen.add(year);count++;}
+    }
+    if(count!==entry.records)throw Error('Indicator record count mismatch');
+  }
+  else if(entry.format==='country-workspace-history'){
+    if(data.records.length!==entry.records||data.relations.length!==entry.relations||!data.referenceDate)throw Error('Invalid country workspace history');
+    const ids=new Set();for(const r of [...data.records,...data.relations]){if(!r.id||ids.has(r.id)||!r.source||!r.sourceLabel)throw Error('Invalid country history provenance');ids.add(r.id);}
+    for(const r of data.records)if(!r.keys.length||!r.start||(r.end&&r.end<=r.start))throw Error(`Invalid institutional interval ${r.id}`);
+    for(const r of data.relations)if(!r.date||!r.from.key||!r.to.key||!Number.isInteger(r.from.year)||!Number.isInteger(r.to.year))throw Error(`Invalid entity relation ${r.id}`);
+  }
   else if(entry.format==='dated-organizations'){
     if(data.organizations.length!==entry.organizations||!data.referenceDate)throw Error('Invalid organization catalogue');
     for(const o of data.organizations){if(!o.formed||!o.source||!o.label)throw Error(`Missing organization provenance ${o.id}`);for(const m of o.memberships)if(!m.code||!m.source||!m.start||(m.end&&m.end<=m.start))throw Error(`Invalid membership ${o.id}:${m.code}`);}

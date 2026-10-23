@@ -2,7 +2,7 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.6.0** · 23 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.7.0** · 23 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
@@ -28,10 +28,12 @@ Abrir la dirección local que indique Vite. Para generar la aplicación estátic
 - Banderas históricas, autoridades y retratos en las fichas. Catálogo ampliado de mandatos desde 1990, con Estados predecesores y cobertura mundial desigual; cada imagen conserva su licencia y autoría.
 - Base contemporánea desde 2020 y 26 instantáneas originales conservadas para historia anterior/geología y trazabilidad.
 - Desde 1990, contornos de referencia identificados para pequeños Estados omitidos por CShapes y Sáhara separado de Marruecos; Crimea permanece en la base ucraniana y Kuwait ocupado en 1990 se distingue de su soberanía.
-- Fichas a la izquierda con pestañas Autoridades, Datos, Contexto y Conflictos; todos los mandatos documentados del año. Fuentes en un panel compacto y leyenda a la derecha.
+- Fichas persistentes a la izquierda: Autoridades, Territorio, Instituciones, Sociedad, Economía, Relaciones, Defensa, Historia, Datos, Contexto, Conflictos y Comparar. Al cambiar de año conservan entidad, apartado y lectura; si la entidad desaparece, se explica sin sustituirla por un sucesor. Fuentes, capas y búsqueda también se conservan al navegar por fechas.
+- Cronología del país con filtros, fuentes y fechas navegables; registros posteriores al año consultado sólo con activación explícita. Relaciones dirigidas entre entidades históricas, con fecha del hecho separada del año de navegación.
+- Comparación entre dos fechas, con autoridades, símbolos y observaciones; botones para alternar los mapas. Comparación de hasta cuatro entidades fijadas en el año del mapa, tabla desplazable y gráficos de evolución accesibles.
 - Apariencia mañana/tarde/noche/automático según hora local, con preferencia conservada; tarde en tonos cobre y ámbar.
 - 27 organizaciones regionales e intercontinentales con altas, bajas y categorías fechadas desde 1990: OTAN, CE/UE, BRICS, Tres Mares, Mercosur, CARICOM, OUA/UA, ASEAN y otras. Contextos y conflictos parciales por fases históricas.
-- Fichas con capital, situación política, administración y hasta seis indicadores WDI fechados. Colores temáticos de PIB total, PIB por habitante y población.
+- Fichas con capital, situación política, administración y 28 indicadores WDI en el catálogo: seis originales y 22 adicionales, con cobertura desigual. Economía, sociedad y personal militar; observaciones, unidades y fuentes visibles, gráficos sin interpolar huecos y sin usar valores futuros. Colores temáticos de PIB total, PIB por habitante y población.
 - Relieve contemporáneo de referencia apagado al abrir y disponible desde 10.000 a. C., 323 capitales/grandes ciudades actuales y capitales históricas por periodo, enlaces compartibles y diseño adaptable.
 - Ventana «Acerca de» con favicon, identidad, versión e historial, portfolio del autor y repositorio.
 
@@ -63,3 +65,5 @@ La cartografía funciona sin API key. Las geometrías, perfiles, series y letras
 El código original no tiene todavía una licencia de distribución elegida por el titular. Los datos de terceros conservan sus propias licencias; ver [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 Cobertura del año vigente y medios: [CURRENT-AUTHORITIES](docs/CURRENT-AUTHORITIES.md). Agrupaciones, conflictos y fuentes: [CURRENT-LAYERS](docs/CURRENT-LAYERS.md).
+
+La ampliación de fichas se describe en [COUNTRY-WORKSPACE](docs/COUNTRY-WORKSPACE.md); datos y licencias en [COUNTRY-INDICATORS](docs/COUNTRY-INDICATORS.md) y [COUNTRY-HISTORY](docs/COUNTRY-HISTORY.md). Los apartados son utilizables para ampliar registros por años; su existencia no acredita que se hayan adquirido todas las constituciones, idiomas, religiones, sanciones, bases militares o lugares patrimoniales del mundo.

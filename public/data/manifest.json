@@ -171,6 +171,33 @@
       "sha256": "129acfd04e390989a2a8ac6895a6b10bef297b701d9f84eab4aaa8e7f328f4a7"
     },
     {
+      "file": "country-history.json",
+      "bytes": 45459,
+      "sha256": "4b6df6dcc1fdf3a8be380d5232429db14f25b15f632820e0201899868469453b",
+      "version": "Historicmap 0.7; reference 2026-10-23",
+      "format": "country-workspace-history",
+      "url": "https://www.un.org/en/about-us/member-states",
+      "source": "Official institutional histories, constitutional records and state succession references, linked per record",
+      "license": "Original editorial summaries and factual metadata; sources linked individually",
+      "transform": "Directed entity relationships with factual event date separate from annual navigation anchors. Dated institutional/history/territory records, end exclusive; coverage floors are not founding dates. No invented worldwide constitutional coverage or new geometries.",
+      "records": 28,
+      "relations": 33
+    },
+    {
+      "file": "country-indicators.json",
+      "bytes": 3567821,
+      "sha256": "d1bc6ab1109b785dac644f52eaad48b5f34a84ba7b5f104dc029ca4dcc91c59e",
+      "version": "Historicmap 0.7; reference 2026-10-23",
+      "format": "country-workspace-indicators",
+      "url": "https://data.worldbank.org/",
+      "source": "World Bank WDI source 2; original providers and individual license verification per indicator",
+      "license": "CC-BY-4.0; World Bank additional dataset terms; per-series attribution preserved",
+      "transform": "22 additional annual series, no regional aggregates, nulls or forecasts. Negative values retained where meaningful, no interpolation. WDI country keys equivalent to profiles.json; no successor inheritance. One unexpected negative central-government debt observation excluded explicitly. SIPRI spending series not redistributed.",
+      "indicators": 22,
+      "countries": 217,
+      "records": 175996
+    },
+    {
       "file": "early-modern.geojson",
       "features": 1715,
       "bytes": 21222262,

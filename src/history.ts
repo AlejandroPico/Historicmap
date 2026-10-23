@@ -67,6 +67,6 @@ export function historicalCapitals(data:FeatureCollection):FeatureCollection{
   return {type:'FeatureCollection',features:data.features.flatMap(f=>{
     const p=f.properties!;const key=`${p.caplong}:${p.caplat}`;
     if(!p.capname||!Number.isFinite(p.caplong)||seen.has(key))return[];
-    seen.add(key);return [{type:'Feature',geometry:{type:'Point',coordinates:[p.caplong,p.caplat]},properties:{name:p.capname,country:p.name,capital:true,rank:p.status==='independent'?1:4,note:`Capital o sede administrativa de ${p.name} en el registro histórico consultado.`,source:p.source}} as Feature];
+    seen.add(key);return [{type:'Feature',geometry:{type:'Point',coordinates:[p.caplong,p.caplat]},properties:{name:p.capname,country:p.name,code:p.code,entityCode:p.entityCode,identityKey:p.identityKey,capital:true,rank:p.status==='independent'?1:4,note:`Capital o sede administrativa de ${p.name} en el registro histórico consultado.`,source:p.source}} as Feature];
   })};
 }

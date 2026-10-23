@@ -106,3 +106,8 @@ El relieve Terrarium/Mapzen de AWS puede activarse desde 10.000 a. C. como **top
 La reparación de perfiles conserva intactas las seis series WDI y corrige exclusivamente la unión de nombres/metadatos: ADM0_A3 con equivalencias explícitas, sin usar ISO_A3_EH como si toda asociación territorial fuera la misma entidad.
 
 Se incorpora una fotografía oficial de Maria Benvinda Levi con Đuro Macut, © Slobodan Miljević / Gobierno serbio, bajo CC BY-NC-ND 3.0 RS: archivo original completo, sin recortes ni transformaciones, para uso no comercial y con atribución/licencia visibles. Procedencia y condiciones en CURRENT-AUTHORITIES.
+
+
+## Fichas de investigación · 0.7
+
+Se añaden `country-indicators.json` (World Bank WDI, licencias CC BY comprobadas individualmente, proveedores y metadatos por indicador; no gasto militar SIPRI) y `country-history.json` (síntesis originales con fuentes institucionales, relaciones dirigidas y vigencia). Integridad/procedencia en el manifiesto. Ver COUNTRY-INDICATORS y COUNTRY-HISTORY para cobertura, transformaciones y límites. El formato de fichas y comparaciones se documenta en COUNTRY-WORKSPACE.

@@ -86,3 +86,10 @@ appearance.ts resuelve una preferencia manual o la hora local. Cambiar aspecto s
 current-affiliations.ts es una instantánea de hechos de pertenencia con fuente y fecha por organización, válida únicamente para 2026. El color se aplica mediante expresión de pintura por código, sin redibujar costas ni inferir membresía de dependencias. La leyenda distingue categorías. Las cifras WDI siguen en feature-state; agrupaciones/estadísticas ocultan la pintura de control para no mezclar lecturas. Los conflictos son contextos parciales fechados por país, nunca una clasificación global de guerra/paz.
 
 El medio oficial de Mozambique utiliza `Media.display: full-frame`: la imagen conserva todo su encuadre, con pie identificativo y vínculo directo a la licencia. El verificador exige este modo para medios ND; no aplicarles el recorte visual de los retratos. El archivo WebP se conserva sin transformaciones.
+
+
+## Espacio de investigación de países · 0.7
+
+La selección conserva un ancla semántica (`selection.ts`), no el ID de un polígono de un periodo. El commit del mapa vuelve a resolverla y renderiza la ficha con pestaña, filtros y lectura anteriores. Una entidad ausente conserva su ficha explicada; no se aproxima a un sucesor. La fecha no controla la visibilidad de paneles; sólo contenido/estado de carga. Comparaciones y cronologías tienen módulos separados y generación de solicitudes para descartar respuestas obsoletas.
+
+Los dos inventarios nuevos se cargan por la caché compartida de assets, sin consultas al proveedor durante la visita. Se separan indicadores numéricos con unidades/definiciones/signos de registros editoriales fechados y relaciones dirigidas. Los gráficos son SVG accesibles con tablas y fechas navegables; no hay biblioteca de gráficos ni backend nuevos. Detalles en COUNTRY-WORKSPACE, COUNTRY-INDICATORS y COUNTRY-HISTORY.

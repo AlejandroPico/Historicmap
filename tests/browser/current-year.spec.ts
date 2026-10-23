@@ -4,7 +4,7 @@ async function search(page:Page,name:string){await page.locator('#search-button'
 
 test('an actual map click in Brazil after a Spanish faction selects Brazil, not Spain',async({page})=>{
  await year(page,1937);await search(page,'zona republicana');await expect(page.locator('.political-identity')).toHaveAttribute('data-identity','ESP-REPUBLIC');
- await year(page,1947);await expect(page.locator('#selection')).toBeHidden();await search(page,'Brazil');
+ await year(page,1947);await expect(page.locator('#selection')).toBeVisible();await expect(page.locator('#selection')).toHaveAttribute('data-entity','ESP-REPUBLIC');await expect(page.locator('#selection-text')).toContainText('no tiene una representación territorial activa');await search(page,'Brazil');
  await expect(page.locator('.political-identity')).toHaveAttribute('data-identity','BRA');
  await expect(page.locator('#selection-title')).toHaveText('Brazil');
  await page.locator('#close-selection').click();

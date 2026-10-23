@@ -2,14 +2,14 @@ import {test,expect,type Page} from '@playwright/test';
 async function date(page:Page,y:number){await page.goto(`/#year=${y}&view=mercator`);await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(y),{timeout:45000});}
 async function search(page:Page,name:string){await page.locator('#search-button').click();await page.locator('#search-input').fill(name);await page.locator('#search-results button').first().click();}
 
-test('compact search has no backdrop, supports keyboard and closes on date changes',async({page})=>{
+test('compact search has no backdrop, supports keyboard and stays open during date changes',async({page})=>{
  await date(page,1990);await page.locator('#search-button').click();
  await expect(page.locator('#search-panel')).toBeVisible();await expect(page.locator('#modal')).toBeHidden();
  expect((await page.locator('#search-panel').boundingBox())!.width).toBeLessThanOrEqual(350);
  await page.locator('#search-input').fill('Brasil');await page.keyboard.press('ArrowDown');await page.keyboard.press('Enter');
  await expect(page.locator('#search-panel')).toBeHidden();await expect(page.locator('.political-identity')).toHaveAttribute('data-identity','BRA');
  await page.locator('#search-button').click();await page.keyboard.press('Escape');await expect(page.locator('#selection')).toBeVisible();
- await page.locator('#search-button').click();await page.locator('#date-button').click();await expect(page.locator('#search-panel')).toBeHidden();await page.keyboard.press('Escape');
+ await page.locator('#search-button').click();await page.locator('#date-button').click();await expect(page.locator('#search-panel')).toBeVisible();await page.keyboard.press('Escape');await page.locator('#close-search').click();
  await page.setViewportSize({width:390,height:844});await page.locator('#search-button').click();
  expect((await page.locator('#search-panel').boundingBox())!.width).toBeLessThan(390);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);

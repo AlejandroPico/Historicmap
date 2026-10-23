@@ -15,6 +15,10 @@ import { escapeHtml as esc, thematicData, thematicLegend, profileFor, type Profi
 import { sourceDiff } from './source-diff';
 import { politicalData } from './political';
 import { countryCard } from './country-card';
+import {anchorFor,matchingFeature,type CountryAnchor} from './selection';
+import {emptyIndicators,type IndicatorData} from './country-workspace';
+import {emptyHistory,type CountryHistory} from './country-history';
+import {anchorId,comparisonShell,comparisonMarkup,type ComparisonState} from './country-comparison';
 import { identityFor, type IdentityData } from './identities';
 import { appearances,appearanceLabels,appearanceIcons,palettes,resolveAppearance,storedAppearance } from './appearance';
 import {AFFILIATION_KINDS,AFFILIATIONS,affiliationLegend,affiliationGroups,affiliationSummary,affiliationsAvailable,type AffiliationKind} from './historical-affiliations';
@@ -52,7 +56,7 @@ app.innerHTML = `
       <div class="popover-head"><h2 id="layers-title">Capas del atlas</h2><button id="close-layers" class="icon-button" aria-label="Cerrar capas">${icon('x')}</button></div>
       <div class="layers"><button id="political-layer" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('map')}</span><span><strong>Territorios</strong><small id="territory-description">Países y fronteras</small></span><span class="layer-indicator"></span></button><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve de referencia</strong><small>Topografía contemporánea · desde 10.000 a. C.</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Capitales y grandes ciudades</strong><small>Capitales fechadas en el pasado</small></span><span class="layer-indicator"></span></button><button id="occupations-layer" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('layers')}</span><span><strong>Ocupaciones y disputas</strong><small>Control territorial y guerras civiles</small></span><span class="layer-indicator"></span></button><label class="theme-control" for="theme-select">Color del mapa<select id="theme-select"><option value="political">Territorios y dependencias</option><option value="gdp">PIB total</option><option value="gdpPerCapita">PIB por habitante</option><option value="population">Población</option></select><small id="theme-help">Indicadores del Banco Mundial desde 1960.</small></label><label class="theme-control" for="affiliation-select">Alianzas y organizaciones<select id="affiliation-select"><option value="">Sin superposición</option>${organizationOptions}</select><small id="affiliation-help">Altas, bajas y categorías documentadas · 1990–2026.</small></label></div>
     </section>
-    <div id="selection" class="selection-card" hidden><button id="close-selection" class="icon-button" aria-label="Cerrar selección">${icon('x')}</button><span class="eyebrow" id="selection-date">EN EL MAPA</span><h2 id="selection-title"></h2><div id="selection-text"></div></div>
+    <div id="selection" class="selection-card" hidden><button id="close-selection" class="icon-button" aria-label="Cerrar selección">${icon('x')}</button><span class="eyebrow" id="selection-date">EN EL MAPA</span><h2 id="selection-title"></h2><p id="selection-status" role="status" hidden></p><div id="selection-text"></div></div>
     <aside id="map-legend" class="map-legend" aria-label="Leyenda del mapa" hidden></aside>
     <section class="time-dock" aria-label="Navegación temporal">
       <div id="ruler" class="ruler" role="slider" tabindex="0" aria-label="Fecha del atlas. Arrastra para desplazarte; rueda o teclas más y menos para cambiar la escala" aria-valuemin="0" aria-valuemax="1900"><div id="ruler-track"></div><div class="fixed-cursor"><div class="cursor-line"></div></div><div class="ruler-fade left"></div><div class="ruler-fade right"></div></div>
@@ -83,6 +87,12 @@ const empty: FeatureCollection = { type:'FeatureCollection', features:[] };
 let snapshot: Snapshot = snapshotFor(year);
 let playing=false, playGeneration=0;
 let identityData:IdentityData;
+let indicatorData:IndicatorData=emptyIndicators,countryHistory:CountryHistory=emptyHistory;
+let selectedAnchor:CountryAnchor|undefined,activeCountryTab='authorities',selectionGeneration=0;
+let timelineFilter='all',timelineFuture=false,timelineExpanded=false;
+const trendSelections:Record<string,string>={};
+const comparison:ComparisonState={mode:'dates',a:Math.max(-10000,year-10)||-1,b:Math.max(-10000,year)||-1,metric:'population',pinned:[]};
+let refreshSearch=()=>{};
 let attributionInitialized=false;
 const colorExpression: ExpressionSpecification = ['coalesce',['get','politicalColor'],'#829c90'];
 const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -148,18 +158,56 @@ map.on('mouseleave','territory-fill',()=>{map.getCanvas().style.cursor='';});
 function selectFeature(feature:{properties:MapGeoJSONFeature['properties']|null;id?:string|number}) {
   if($('#map').getAttribute('aria-busy')==='true'||$('#map').dataset.loadedYear!==String(year))return;
   stopPlay();
-  const p=feature.properties??{};
-  map.setFilter('territory-selected',['==',['id'],-1]);
-  $('#selection').hidden=false;
-  $('#selection-title').textContent=p.name;
-  $('#selection-date').textContent=year>=1789?`${year} · ${snapshot.kind==='modern'?'MUNDO CONTEMPORÁNEO':'CONTEXTO HISTÓRICO'}`:formatYear(year);
-  if(p.rank!==undefined&&p.country){
-    $('#selection-text').innerHTML=`<p>${esc(p.capital?'Capital o sede administrativa':'Gran ciudad')} · ${esc(p.country)}</p><p>${esc(p.note??'Localización urbana de referencia contemporánea. La selección reúne capitales y grandes centros urbanos de todo el mundo.')}</p><a class="profile-source" href="${esc(p.source)}" target="_blank" rel="noopener">Fuente del lugar ↗</a>`;return;
+  const next=anchorFor(feature.properties??{},year,identityData);
+  if(!selectedAnchor||anchorId(next)!==anchorId(selectedAnchor)){activeCountryTab='authorities';$('#selection').scrollTop=0;timelineExpanded=false;comparison.a=Math.max(-10000,year-10)||-1;comparison.b=Math.max(-10000,year)||-1;}
+  selectedAnchor=next;renderSelection();
+}
+function closeSelection(){selectedAnchor=undefined;selectionGeneration++;$('#selection').hidden=true;if(ready)map.setFilter('territory-selected',['==',['id'],-1]);}
+function renderSelection(){
+  if(!selectedAnchor||!identityData||$('#map').getAttribute('aria-busy')==='true')return;
+  const top=$('#selection').scrollTop;
+  selectionGeneration++;
+  const feature=matchingFeature(selectedAnchor,selectedAnchor.place?cityData:selectedAnchor.uid?overlayData:loaded,year,identityData);
+  const p=feature?.properties??selectedAnchor.properties;
+  $('#selection').hidden=false;$('#selection').setAttribute('aria-busy','false');$('#selection-status').hidden=true;
+  $('#selection-title').textContent=feature?(identityFor(p,year,identityData).name??p.name??'Área del mapa'):selectedAnchor.name||'Área del mapa';
+  $('#selection-date').textContent=`${formatYear(year)} · ${feature?'FICHA DEL TERRITORIO':'ENTIDAD SIN REPRESENTACIÓN ACTIVA'}`;
+  $('#selection').dataset.entity=selectedAnchor.key||selectedAnchor.originalName;
+  $('#selection').dataset.year=String(year);
+  if(selectedAnchor.place){
+    $('#selection-text').innerHTML=feature?`<p>${esc(p.capital?'Capital o sede administrativa':'Gran ciudad')} · ${esc(p.country)}</p><p>${esc(p.note??'Localización urbana de referencia contemporánea.')}</p><a class="profile-source" href="${esc(p.source)}" target="_blank" rel="noopener">Fuente del lugar ↗</a>`:`<p>No hay un registro de este lugar en la capa de ${formatYear(year)}. La ficha se conserva para continuar el recorrido.</p>`;
+  }else{
+    $('#selection-text').innerHTML=countryCard(p,year,snapshot,profiles,identityData,import.meta.env.BASE_URL,{indicators:indicatorData,history:countryHistory,available:Boolean(feature),key:selectedAnchor.key,timelineFilter,timelineFuture,timelineExpanded,trends:trendSelections});
+    const tab=document.getElementById('tab-'+activeCountryTab);if(tab)activateCountryTab(tab);
+    const pinned=comparison.pinned.some(a=>anchorId(a)===anchorId(selectedAnchor!));
+    const pin=document.getElementById('pin-country');if(pin){pin.textContent=pinned?'Fijado para comparar':'Fijar para comparar';pin.setAttribute('aria-pressed',String(pinned));}
+    if(activeCountryTab==='comparison')void renderComparison();
   }
-  const identity=identityFor(p,year,identityData);
-  if(identity.name)$('#selection-title').textContent=identity.name;
-  $('#selection-text').innerHTML=countryCard(p,year,snapshot,profiles,identityData,import.meta.env.BASE_URL);
-  map.setFilter('territory-selected',['==',['id'],feature.id ?? -1]);
+  if(ready)map.setFilter('territory-selected',['==',['id'],!selectedAnchor.uid&&feature?.id!==undefined?feature.id:-1]);
+  $('#selection').scrollTop=top;
+}
+async function featureAt(anchor:CountryAnchor,targetYear:number){
+  const target=snapshotFor(targetYear);if(target.kind==='concept'||target.kind==='geological')return undefined;
+  const data=anchor.uid?await overlaysFor(targetYear):target.kind==='annual'?await annualData(targetYear):await asset<FeatureCollection>(target.file!);
+  return matchingFeature(anchor,data,targetYear,identityData);
+}
+async function renderComparison(){
+  if(!selectedAnchor||selectedAnchor.place||$('#map').getAttribute('aria-busy')==='true'||!document.getElementById('country-comparison'))return;
+  const generation=++selectionGeneration,anchor=selectedAnchor;
+  $('#country-comparison').innerHTML=comparisonShell(comparison,year,profiles,indicatorData);
+  const selectedYear=year;
+  const anchors=comparison.mode==='dates'?[anchor,anchor]:[...comparison.pinned,...(comparison.pinned.some(a=>anchorId(a)===anchorId(anchor))?[]:[anchor])].slice(0,4);
+  const dates=comparison.mode==='dates'?[comparison.a,comparison.b]:anchors.map(()=>selectedYear);
+  try{
+    const selections=await Promise.all(anchors.map(async(a,i)=>({anchor:a,year:dates[i],feature:await featureAt(a,dates[i])})));
+    if(generation!==selectionGeneration||!document.getElementById('comparison-results'))return;
+    $('#comparison-results').innerHTML=comparisonMarkup(selections,comparison,profiles,indicatorData,identityData,import.meta.env.BASE_URL,selectedYear);
+  }catch{if(generation===selectionGeneration&&document.getElementById('comparison-results'))$('#comparison-results').innerHTML='<p>No se pudo cargar la comparación. Cambia una fecha o el indicador para reintentar.</p>';}
+}
+async function navigateEntity(key:string,name:string,targetYear:number){
+  stopPlay();
+  selectedAnchor={key,name,originalName:name,code:'',uid:'',place:false,country:'',properties:{name,identityKey:key,workspaceKey:key},year:targetYear};
+  await updateYear(targetYear);renderSelection();
 }
 let toastTimer: ReturnType<typeof setTimeout>;
 function toast(text:string){ $('#toast').textContent=text;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,6000); }
@@ -195,7 +243,7 @@ function refreshMap(force=false):Promise<void> {
   if(!ready) return Promise.resolve();
   // Stop requesting contemporary elevation as soon as the requested era changes.
   map.setLayoutProperty('relief','visibility',physical&&reliefAvailable()?'visible':'none');
-  if(key===desiredKey&&!force){applyLayers();updateSources();return refreshPromise;}
+  if(key===desiredKey&&!force){applyLayers();updateSources();if($('#map').dataset.loadedYear===String(year))renderSelection();return refreshPromise;}
   const current=++requestNumber;
   const previousKind=activeKey.startsWith('coastlines-')?'geological':'other';
   desiredKey=key;
@@ -204,20 +252,22 @@ function refreshMap(force=false):Promise<void> {
   $('#map').dataset.loadStage='fetch';
   $('#search-button').toggleAttribute('disabled',true);
   if(snapshot.kind==='geological'&&previousKind!=='geological')map.jumpTo({center:[0,15],zoom:1.5});
-  $('#selection').hidden=true;
+  if(selectedAnchor){$('#selection').setAttribute('aria-busy','true');$('#selection-status').textContent=`Actualizando a ${formatYear(targetYear)}…`;$('#selection-status').hidden=false;}
+  if(!$('#search-panel').hidden)$('#search-results').textContent='Actualizando territorios…';
   map.setFilter('territory-selected',['==',['id'],-1]);
-  if(concept){activeKey=displayKey;loaded=empty;$('#map-legend').hidden=true;$('#map').setAttribute('aria-busy','false');status('Contexto documental · sin cartografía disponible');updateSources();return Promise.resolve();}
+  if(concept){activeKey=displayKey;loaded=empty;cityData=empty;overlayData=empty;$('#map-legend').hidden=true;$('#map').setAttribute('aria-busy','false');status('Contexto documental · sin cartografía disponible');updateSources();renderSelection();refreshSearch();return Promise.resolve();}
   status(`Cargando ${formatYear(target.year)}…${loaded.features.length?' · se conserva el mapa anterior':''}`);
   updateSources();
   refreshPromise=(async()=>{
     try {
-      const [rawData,profileData,points,overlays,identities,referenceLand]=await Promise.all([
+      const [rawData,profileData,points,overlays,identities,referenceLand,indicators,historyDetails]=await Promise.all([
         target.kind==='annual'?annualData(targetYear):asset<FeatureCollection>(target.file!),
         asset<ProfileData>('profiles.json'),
         target.kind==='modern'?modernCities():Promise.resolve(empty),
         targetYear>=1789?overlaysFor(targetYear):Promise.resolve(empty),
         asset<IdentityData>('identities.json'),
-        targetYear>=1789&&targetYear<1886?asset<FeatureCollection>('countries.geojson'):Promise.resolve(empty)
+        targetYear>=1789&&targetYear<1886?asset<FeatureCollection>('countries.geojson'):Promise.resolve(empty),
+        asset<IndicatorData>('country-indicators.json'),asset<CountryHistory>('country-history.json')
       ]);
       if(current!==requestNumber)return;
       const data=politicalData(rawData,targetYear);
@@ -241,7 +291,7 @@ function refreshMap(force=false):Promise<void> {
         const overlayKey=overlays.features.map(f=>f.properties?.uid).join('|');
         if(overlayKey!==overlaySignature){await (map.getSource('occupations') as GeoJSONSource).setData(overlays);overlaySignature=overlayKey;}
         if(current!==requestNumber)return;
-        loaded=themed;profiles=profileData;identityData=identities;overlayData=overlays;activeKey=displayKey;
+        loaded=themed;profiles=profileData;identityData=identities;indicatorData=indicators;countryHistory=historyDetails;overlayData=overlays;activeKey=displayKey;
         // Statistics change paint only: do not re-index or tessellate coastlines for a new number.
         if(targetTheme!=='political')for(const f of themed.features)if(f.id!==undefined)map.setFeatureState({source:'territories',id:f.id},{metric:f.properties?.metric??null});
         cityData=target.kind==='modern'?points:target.kind==='annual'?historicalCapitals(data):{type:'FeatureCollection',features:places.filter(p=>targetYear>=p.start&&targetYear<=p.end).map(p=>({type:'Feature',geometry:{type:'Point',coordinates:p.coordinates},properties:{name:p.name,note:p.description,country:'Yacimiento / ciudad histórica',rank:1}}))};
@@ -250,6 +300,7 @@ function refreshMap(force=false):Promise<void> {
         $('#map').setAttribute('aria-busy','false');
         $('#search-button').toggleAttribute('disabled',false);
         $('#map').dataset.loadStage='ready';
+        renderSelection();refreshSearch();
         const label=target.kind==='modern'?`Natural Earth · referencia contemporánea 2026${targetYear!==2026?` · consulta ${targetYear}`:''}`:target.kind==='annual'?`${targetYear<1886?'Cliopatria · síntesis anual':'CShapes + referencias · 31 dic'} ${targetYear} · ${data.features.length} territorios`:`${target.kind==='geological'?'CAO2024 · reconstrucción':'Fronteras aproximadas'} · ${formatYear(target.year)}`;
         status(label);
         updateSources();
@@ -262,7 +313,7 @@ function refreshMap(force=false):Promise<void> {
       renderQueue=renderQueue.then(commit,commit);await renderQueue;
     } catch {
       if(current!==requestNumber)return;
-      desiredKey='';$('#map').setAttribute('aria-busy','false');status('No se ha podido cargar la fecha. Se conserva el mapa anterior.',true);stopPlay();
+      desiredKey='';$('#map').setAttribute('aria-busy','false');if(selectedAnchor){$('#selection').setAttribute('aria-busy','false');$('#selection-status').textContent='La fecha no se pudo cargar. La ficha conserva el año indicado en su cabecera.';$('#selection-status').hidden=false;}status('No se ha podido cargar la fecha. Se conserva el mapa anterior.',true);stopPlay();
     }
   })();
   return refreshPromise;
@@ -305,7 +356,6 @@ function persistLocation(){
   if(delay===0)commit();else locationTimer=setTimeout(commit,delay);
 }
 function updateYear(next:number,save=true){
-  closeSearch();
   year=clamp(next,anchors[0],PRESENT);if(year===0)year=1;
   if(year<1960){theme='political';$<HTMLSelectElement>('#theme-select').value=theme;}
   position=yearToPosition(year);
@@ -384,30 +434,67 @@ function closeSources(focus=false){$('#sources-panel').hidden=true;$('#sources-b
 function closeSearch(focus=false){$('#search-panel').hidden=true;$('#search-button').setAttribute('aria-expanded','false');if(focus)$('#search-button').focus();}
 $('#layers-button').onclick=()=>{const open=$('#layers-panel').hidden;$('#layers-panel').hidden=!open;$('#layers-button').setAttribute('aria-expanded',String(open));if(open){closeSources();closeSearch();$('#close-layers').focus();}};
 $('#close-layers').onclick=()=>closeLayers(true);
-document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!$('#layers-panel').hidden&&!$('#layers-panel').contains(target)&&!$('#layers-button').contains(target))closeLayers();});
-document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!$('#sources-panel').hidden&&!$('#sources-panel').contains(target)&&!$('#sources-button').contains(target))closeSources();});
+document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!(target as Element).closest('.time-dock,#modal,[data-jump-year]')&&!$('#layers-panel').hidden&&!$('#layers-panel').contains(target)&&!$('#layers-button').contains(target))closeLayers();});
+document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!(target as Element).closest('.time-dock,#modal,[data-jump-year]')&&!$('#sources-panel').hidden&&!$('#sources-panel').contains(target)&&!$('#sources-button').contains(target))closeSources();});
 $('#political-layer').onclick=()=>{political=!political;applyLayers();};$('#physical-layer').onclick=()=>{physical=!physical;applyLayers();updateSources();};$('#places-layer').onclick=()=>{showPlaces=!showPlaces;applyLayers();};
 $('#occupations-layer').onclick=()=>{showOccupations=!showOccupations;applyLayers();};
 $('#theme-select').onchange=()=>{stopPlay();political=true;theme=$<HTMLSelectElement>('#theme-select').value as Theme;affiliation='';$<HTMLSelectElement>('#affiliation-select').value='';void refreshMap();};
 $('#affiliation-select').onchange=()=>{stopPlay();affiliation=$<HTMLSelectElement>('#affiliation-select').value as AffiliationKind|'';political=true;theme='political';$<HTMLSelectElement>('#theme-select').value=theme;applyLayers();updateSources();};
 function activateCountryTab(tab:HTMLElement,focus=false){
+  activeCountryTab=tab.id.replace('tab-','');
   const parent=$('#selection-text');
   parent.querySelectorAll<HTMLElement>('[role=tab]').forEach(t=>{const active=t===tab;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1;});
   parent.querySelectorAll<HTMLElement>('[role=tabpanel]').forEach(p=>p.hidden=p.id!==tab.getAttribute('aria-controls'));
-  if(focus)tab.focus();
+  if(focus){tab.focus();tab.scrollIntoView({block:'nearest',inline:'nearest'});}
 }
-$('#selection-text').addEventListener('click',e=>{const tab=(e.target as HTMLElement).closest<HTMLElement>('[role=tab]');if(tab)activateCountryTab(tab);});
+function jumpFromControl(control:Element){
+ const y=Number(control.getAttribute('data-jump-year'));if(!Number.isInteger(y)||y===0)return;
+ const key=control.getAttribute('data-entity-key');
+ if(key)void navigateEntity(key,control.getAttribute('data-entity-name')??key,y);else{stopPlay();void updateYear(y);}
+}
+$('#selection-text').addEventListener('click',e=>{
+ const target=e.target as HTMLElement,tab=target.closest<HTMLElement>('[role=tab]');
+ if(tab){activateCountryTab(tab);if(activeCountryTab==='comparison')void renderComparison();return;}
+ const jump=target.closest('[data-jump-year]');if(jump){e.preventDefault();jumpFromControl(jump);return;}
+ const open=target.closest<HTMLElement>('[data-open-country-tab]');if(open){const t=document.getElementById('tab-'+open.dataset.openCountryTab);if(t){activateCountryTab(t,true);void renderComparison();}return;}
+ if(target.closest('#pin-country')&&selectedAnchor){
+  const index=comparison.pinned.findIndex(a=>anchorId(a)===anchorId(selectedAnchor!));
+  if(index<0){if(comparison.pinned.length===4){toast('La comparación admite cuatro entidades. Quita una para fijar otra.');return;}comparison.pinned.push({...selectedAnchor});}
+  comparison.mode='countries';activeCountryTab='comparison';renderSelection();return;
+ }
+ const mode=target.closest<HTMLElement>('[data-comparison-mode]');if(mode){comparison.mode=mode.dataset.comparisonMode as ComparisonState['mode'];void renderComparison();return;}
+ const unpin=target.closest<HTMLElement>('[data-unpin-country]');if(unpin){comparison.pinned.splice(Number(unpin.dataset.unpinCountry),1);void renderComparison();return;}
+ if(target.closest('#clear-comparison')){comparison.pinned=[];void renderComparison();return;}
+ if(target.closest('#timeline-expand')){timelineExpanded=true;renderSelection();return;}
+ const organization=target.closest<HTMLElement>('[data-map-affiliation]');
+ if(organization){const id=organization.dataset.mapAffiliation!;if(!affiliationsAvailable(year)||!AFFILIATIONS[id])return;affiliation=id;political=true;theme='political';$<HTMLSelectElement>('#affiliation-select').value=id;$<HTMLSelectElement>('#theme-select').value=theme;applyLayers();updateSources();}
+});
+$('#selection-text').addEventListener('change',e=>{
+ const target=e.target as HTMLInputElement;
+ if(target.id==='timeline-filter'){timelineFilter=target.value;timelineExpanded=false;renderSelection();$('#timeline-filter').focus({preventScroll:true});}
+ if(target.id==='timeline-future'){timelineFuture=target.checked;renderSelection();$('#timeline-future').focus({preventScroll:true});}
+ if(target.dataset.trendSection){trendSelections[target.dataset.trendSection]=target.value;const section=target.dataset.trendSection;renderSelection();document.querySelector<HTMLElement>(`[data-trend-section="${section}"]`)?.focus({preventScroll:true});}
+ if(target.id==='comparison-metric'){comparison.metric=target.value;void renderComparison();}
+});
+$('#selection-text').addEventListener('input',e=>{const input=e.target as HTMLInputElement;if(input.id==='comparison-a'||input.id==='comparison-b')input.setCustomValidity('');});
+$('#selection-text').addEventListener('submit',e=>{
+ if((e.target as HTMLElement).id!=='comparison-dates')return;e.preventDefault();
+ const a=Number($<HTMLInputElement>('#comparison-a').value),b=Number($<HTMLInputElement>('#comparison-b').value);
+ if(![a,b].every(y=>Number.isInteger(y)&&y>=-10000&&y<=PRESENT&&y!==0)){const input=$<HTMLInputElement>(a===0?'#comparison-a':'#comparison-b');input.setCustomValidity('Introduce un año distinto de cero dentro del intervalo disponible.');input.reportValidity();return;}
+ comparison.a=a;comparison.b=b;void renderComparison();
+});
 $('#selection-text').addEventListener('keydown',e=>{
+  const jump=(e.target as Element).closest('circle[data-jump-year]');if(jump&&(e.key==='Enter'||e.key===' ')){e.preventDefault();jumpFromControl(jump);return;}
   const tab=(e.target as HTMLElement).closest<HTMLElement>('[role=tab]');if(!tab)return;
   const tabs=Array.from($('#selection-text').querySelectorAll<HTMLElement>('[role=tab]')),index=tabs.indexOf(tab);
   const next=e.key==='ArrowRight'?(index+1)%tabs.length:e.key==='ArrowLeft'?(index+tabs.length-1)%tabs.length:e.key==='Home'?0:e.key==='End'?tabs.length-1:-1;
   if(next>=0){e.preventDefault();activateCountryTab(tabs[next],true);}
 });
-$('#close-selection').onclick=()=>{$('#selection').hidden=true;if(ready)map.setFilter('territory-selected',['==',['id'],-1]);};
+$('#close-selection').onclick=closeSelection;
 $('#retry').onclick=()=>void refreshMap(true);
 
 const modal=$<HTMLDialogElement>('#modal');
-function openModal(label:string,html:string,kind=''){stopPlay();closeLayers();closeSources();closeSearch();modal.className=kind;$('#modal-label').textContent=label;$('#modal-body').innerHTML=html;modal.showModal();createIcons({icons});}
+function openModal(label:string,html:string,kind=''){stopPlay();if(label!=='IR A UNA FECHA'){closeLayers();closeSources();closeSearch();}modal.className=kind;$('#modal-label').textContent=label;$('#modal-body').innerHTML=html;modal.showModal();createIcons({icons});}
 $('#close-modal').onclick=()=>modal.close();modal.addEventListener('click',e=>{if(e.target===modal){const r=modal.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)modal.close();}});
 $('#date-button').onclick=()=>{openModal('IR A UNA FECHA',`<h2>Encuentra tu momento.</h2><form id="date-form"><label for="date-input">Año (negativo para a. C.)</label><input id="date-input" type="number" min="${anchors[0]}" max="${PRESENT}" value="${year}" required step="1"><p class="modal-intro">Por ejemplo: −3000, 100 o −200000000. Ga = miles de millones de años; Ma = millones de años. El año cero no se utiliza.</p><button class="primary-button" type="submit">Explorar fecha ${icon('arrow-right')}</button></form>`);$('#date-form').onsubmit=e=>{e.preventDefault();const n=Number($<HTMLInputElement>('#date-input').value);if(!Number.isFinite(n)||n===0){$<HTMLInputElement>('#date-input').setCustomValidity('Introduce un año distinto de cero.');$<HTMLInputElement>('#date-input').reportValidity();return;}updateYear(n);modal.close();};$('#date-input').oninput=()=> $<HTMLInputElement>('#date-input').setCustomValidity('');};
 $('#search-button').onclick=()=>{
@@ -415,6 +502,8 @@ $('#search-button').onclick=()=>{
   stopPlay();closeLayers();closeSources();$('#search-panel').hidden=false;$('#search-button').setAttribute('aria-expanded','true');
   $<HTMLInputElement>('#search-input').value='';$('#search-scope').textContent=`Territorios visibles · ${formatYear(year)}`;
   const search=()=>{
+    $('#search-scope').textContent=`Territorios visibles · ${formatYear(year)}`;
+    if($('#map').getAttribute('aria-busy')==='true'){$('#search-results').textContent='Actualizando territorios…';return;}
     const q=$<HTMLInputElement>('#search-input').value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
     const matches=[...loaded.features,...(showOccupations&&!affiliation&&theme==='political'?overlayData.features:[])].filter(f=>[f.properties?.name,f.properties?.originalName,profileFor(profiles,f.properties?.code)?.name,f.properties?.code].filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,q?24:8);
     $('#search-results').replaceChildren();
@@ -430,7 +519,7 @@ $('#search-button').onclick=()=>{
         map.flyTo({center:[lng,clamp(lat,-80,80)],zoom:3.5,duration:reduced?0:1000});
       }
     }selectFeature(feature);closeSearch(true);};$('#search-results').append(button);});
-  };$('#search-input').oninput=search;search();$('#search-input').focus();
+  };refreshSearch=()=>{if(!$('#search-panel').hidden)search();};$('#search-input').oninput=search;search();$('#search-input').focus();
 };
 $('#close-search').onclick=()=>closeSearch(true);
 $('#search-panel').addEventListener('keydown',event=>{
@@ -439,10 +528,10 @@ $('#search-panel').addEventListener('keydown',event=>{
  event.preventDefault();const index=results.indexOf(document.activeElement as HTMLButtonElement);
  results[event.key==='ArrowDown'?(index+1)%results.length:(index<=0?results.length-1:index-1)].focus();
 });
-document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!$('#search-panel').hidden&&!$('#search-panel').contains(target)&&!$('#search-button').contains(target))closeSearch();});
+document.addEventListener('pointerdown',event=>{const target=event.target as Node;if(!(target as Element).closest('.time-dock,#modal,[data-jump-year]')&&!$('#search-panel').hidden&&!$('#search-panel').contains(target)&&!$('#search-button').contains(target))closeSearch();});
 $('#sources-button').onclick=()=>{const open=$('#sources-panel').hidden;closeLayers();closeSearch();$('#sources-panel').hidden=!open;$('#sources-button').setAttribute('aria-expanded',String(open));if(open)$('#close-sources').focus();};
 $('#close-sources').onclick=()=>closeSources(true);
 $('#about-button').onclick=()=>openModal('ACERCA DE HISTORICMAP',aboutContent(VERSION,import.meta.env.BASE_URL),'about-dialog');
-document.addEventListener('keydown',event=>{if(event.key==='Escape'){if(!$('#search-panel').hidden){closeSearch(true);return;}$('#selection').hidden=true;if(!$('#layers-panel').hidden)closeLayers(true);if(!$('#sources-panel').hidden)closeSources(true);stopPlay();}if(event.code==='Space'&&!modal.open&&event.target===document.body){event.preventDefault();$('#play').click();}});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'){if(modal.open)return;if(!$('#search-panel').hidden){closeSearch(true);return;}closeSelection();if(!$('#layers-panel').hidden)closeLayers(true);if(!$('#sources-panel').hidden)closeSources(true);stopPlay();}if(event.code==='Space'&&!modal.open&&event.target===document.body){event.preventDefault();$('#play').click();}});
 function restore(){const params=new URLSearchParams(location.hash.slice(1));const y=Number(params.get('year')??PRESENT);if(params.get('view')==='mercator')projection='mercator';else projection='globe';projectionControl();if(ready)map.setProjection({type:projection});updateYear(Number.isFinite(y)?y:PRESENT,false);}
 window.addEventListener('hashchange',restore);restore();

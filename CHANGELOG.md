@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.7.0 · 2026-10-23
+
+- Fichas persistentes durante cambios de año, reproducción y cargas: entidad, pestaña y posición de lectura conservadas. Las entidades desaparecidas permanecen abiertas con ausencia explícita y navegación a entidades relacionadas. Capitales enlazadas entre fuentes por identidad y nombre normalizado.
+- Doce apartados: autoridades, territorio, instituciones, sociedad, economía, relaciones, defensa, historia, datos, contexto, conflictos y comparación. Búsqueda, fuentes y capas se mantienen al recorrer fechas.
+- Comparación de dos fechas y de hasta cuatro entidades fijadas, con mandatos, símbolos, cifras fechadas, diferencias y alternancia del mapa. Gráficos con tablas accesibles, magnitudes con signo y huecos sin interpolar.
+- Cronología filtrable y navegable a partir de mandatos, símbolos, organizaciones y acontecimientos; futuros respecto al año consultado sólo bajo opción explícita.
+- 22 indicadores WDI adicionales, 175.996 observaciones de 217 economías (1960–2025), licencias individuales comprobadas. Personal militar con cobertura hasta 2020; gasto SIPRI no redistribuido.
+- 33 relaciones entre entidades y 28 registros institucionales/históricos/territoriales con 36 fuentes oficiales. Modelo ampliable con campos fechados y lugares por apartado; no es cobertura constitucional mundial completa.
+
 ## 0.6.0 · 2026-10-23
 
 - Ampliación mundial de mandatos, retratos y banderas de 1990–2026; cargos nacionales e identidades de Yugoslavia, R. F. de Yugoslavia, Serbia y Montenegro, Checoslovaquia y Yemen anterior. Curaciones previas conservadas y límites de cese inciertos identificados.
