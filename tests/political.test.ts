@@ -1,7 +1,7 @@
 import {readFileSync} from 'node:fs';
 import type {Feature,FeatureCollection} from 'geojson';
 import {describe,it,expect} from 'vitest';
-import {entityKey,politicalData,regimeColor} from '../src/political';
+import {entityKey,politicalData,dependencyColor,regimeColor} from '../src/political';
 import {historyAt,type HistoryTopology} from '../src/history';
 const json=(f:string)=>JSON.parse(readFileSync(new URL('../public/data/'+f,import.meta.url),'utf8'));
 const early:FeatureCollection=json('early-modern.geojson');
@@ -25,7 +25,7 @@ describe('political regimes and territorial control',()=>{
  });
  it('keeps USSR red and distinct from Britain, and changes French and Spanish regimes',()=>{
   expect(entityKey({gwcode:365,originalName:'Russia (Soviet Union)'},1942)).toBe('USSR');
-  expect(regimeColor('USSR',1942)).not.toBe(regimeColor('GBR',1942));
+  expect(regimeColor('USSR',1942)).not.toBe(dependencyColor(regimeColor('GBR',1942),'India'));
   expect(regimeColor('FRA',1789)).not.toBe(regimeColor('FRA',1812));
   expect(regimeColor('FRA',1829)).not.toBe(regimeColor('FRA',1830));
   expect(regimeColor('FRA',1803)).not.toBe(regimeColor('FRA',1804));
@@ -35,7 +35,7 @@ describe('political regimes and territorial control',()=>{
   const map=politicalData(historyAt(topology,1942),1942);
   const germany=map.features.find(f=>f.properties?.country_name==='Germany (Prussia)')!;
   expect(germany.properties?.politicalColor).toBe(regimeColor('DEU',1942));
-  expect(map.features.find(f=>f.properties?.country_name==='India')?.properties?.politicalColor).toBe(regimeColor('GBR',1942));
+  expect(map.features.find(f=>f.properties?.country_name==='India')?.properties?.politicalColor).toBe(dependencyColor(regimeColor('GBR',1942),'India'));
  });
  it('unifies actual German controlled locations, leaving allies distinct until occupied',()=>{
   const german=(year:number)=>controls.features.find(f=>f.properties!.controller==='DEU'&&f.properties!.start<=year&&f.properties!.end>=year)!;

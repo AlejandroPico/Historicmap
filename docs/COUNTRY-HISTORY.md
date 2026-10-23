@@ -1,6 +1,6 @@
 # Relaciones entre entidades e instituciones
 
-Adquisición y referencia: **23 de octubre de 2026**. Catálogo `public/data/country-history.json`, reproducible sin red con `scripts/prepare-country-history.py`. Contiene **33 relaciones dirigidas**, **28 registros** (15 institucionales, 12 históricos y uno territorial), **55 claves de identidad** y **36 fuentes institucionales**. No son 55 Estados con historias completas.
+Adquisición y referencia: **23 de octubre de 2026**. Catálogo `public/data/country-history.json`, reproducible sin red con `scripts/prepare-country-history.py`. Contiene **50 relaciones dirigidas**, **49 registros** (19 institucionales, 29 históricos y uno territorial), **78 claves de identidad** y **58 fuentes institucionales**. No son 78 Estados con historias completas.
 
 Las síntesis en español son redacción original. No se redistribuyen textos extensos, mapas, retratos ni otros medios de las páginas citadas. Los sitios de origen mantienen sus propias condiciones. El catálogo es un índice editorial de navegación y contexto, **no un registro jurídico completo de sucesión de Estados**, una nueva cartografía o un inventario mundial de constituciones.
 
@@ -8,7 +8,7 @@ Las síntesis en español son redacción original. No se redistribuyen textos ex
 
 La raíz contiene `retrieved`, `referenceDate`, `format`, `license`, `coverage`, `intervals`, `sources`, `relations` y `records`.
 
-Una relación tiene `id`, `from`, `to`, `date`, `type`, `label`, `note`, `source` y `sourceLabel`. Cada extremo incluye `key`, `name` y `year`. Las claves corresponden al catálogo de identidades del atlas, incluidos `USSR`, `FRY`, `SCG`, `CSK`, `DDR`, `YAR`, `YPR`, `SDS` y `KOS`. No sustituirlas globalmente por los códigos estadísticos o cartográficos de sus sucesores.
+Una relación tiene `id`, `from`, `to`, `date`, `type`, `label`, `note`, `source` y `sourceLabel`. Cada extremo incluye `key`, `name` y `year`. Las claves corresponden al catálogo de identidades del atlas, incluidos `USSR`, `FRY`, `SCG`, `CSK`, `DDR`, `YAR`, `YPR`, `VDR`, `RVN`, `VSR`, `SDS` y `KOS`. No sustituirlas globalmente por los códigos estadísticos o cartográficos de sus sucesores.
 
 `date` es la fecha del **hecho descrito en la etiqueta y la nota**. `from.year` y `to.year` son destinos de navegación anual elegidos para mostrar la entidad en la cartografía disponible. Pueden diferir del año de la declaración, del reconocimiento, de la admisión en Naciones Unidas o de otro hito del proceso. Por ejemplo, el enlace de Lituania señala su acto de restauración de 1990, pero navega a 1992 para garantizar una entidad separada en la base cartográfica anual. El enlace de la RDA parte de 1989 porque el mapa al cierre de 1990 ya muestra Alemania reunificada.
 
@@ -19,6 +19,7 @@ Tipos de relación incluidos:
 | `dissolution` | Relación territorial tras la disolución; no continuidad jurídica exclusiva. |
 | `continuation` | Continuidad específica señalada en la fuente; no herencia de todos los territorios, datos o instituciones. |
 | `restoration` | Restauración de independencia estatal, distinguida de una creación estatal o sucesión automática. |
+| `regime-change` | Cambio de control o administración documentado, sin inferir una nueva independencia o reconocimiento. |
 | `reconstitution` | Cambio de marco o nombre de una entidad sin deducir nueva membresía internacional. |
 | `accession` | Adhesión, en este catálogo la RDA a la República Federal. |
 | `unification` | Unión de entidades, aquí los dos Yemen. |
@@ -41,16 +42,22 @@ Un registro contiene `id`, `keys`, `start`, `end` opcional, `section`, `title`, 
 - **Namibia:** independencia y fin de la administración sudafricana, sin reconocer soberanía de Sudáfrica sobre Namibia. [UNTAG](https://peacekeeping.un.org/sites/default/files/past/untagFT.htm).
 - **Kosovo:** declaración de 2008 con reconocimiento internacional dividido. La opinión consultiva de la CIJ de 2010 resolvió la cuestión limitada de la declaración, sin imponer reconocimiento ni decidir en general la estatalidad. [CIJ](https://www.icj-cij.org/node/103912).
 
+- **Vietnam:** enlaces desde el Norte a la unión, de la República de Vietnam (RVN) a la República de Vietnam del Sur (VSR) en abril de 1975, y de esta última a la unificación formal del 2/07/1976. VSR tiene identidad y navegación propias aunque la base no delimite una geometría separada en 1975; no es una unión formal de 1975 ni una continuidad automática de sus estadísticas. [Depositario de tratados de la ONU](https://treaties.un.org/pages/HistoricalInfo.aspx).
+- **Bangladesh:** separación vinculada al final de la guerra de diciembre de 1971, con navegación a 1972. Se distinguen proclamación de marzo, rendición de diciembre y admisión a la ONU de 1974. [Crisis surasiática de 1971](https://history.state.gov/milestones/1969-1976/south-asia).
+- **Descolonización 1970–1980:** Angola, Mozambique, Santo Tomé y Príncipe, Yibuti, Papúa Nueva Guinea, Islas Salomón, Vanuatu, Zimbabue, Surinam, Guinea-Bissau y Cabo Verde. Vanuatu tiene enlaces desde las dos potencias del condominio, no dos independencias. Guinea-Bissau distingue proclamación de 1973 y reconocimiento portugués posterior. Las fechas y fuentes aparecen por relación, contrastadas con el [Office of the Historian](https://history.state.gov/countries) y el informe estatal guineano citado.
+
 ## Instituciones y acontecimientos
 
-Hay síntesis constitucionales para España, Francia, Alemania, Japón, India, Brasil, Sudáfrica, Italia, Portugal, Suiza, Estados Unidos, Canadá, México y Argentina, más la fase transitoria de Naciones Unidas en Timor Oriental. Se describen estructuras y distinción entre cargos, no índices de democracia, partidos vigentes, composición parlamentaria o resultados electorales no adquiridos.
+Hay síntesis constitucionales para España, Francia, Alemania, Japón, India, Brasil, Sudáfrica, Italia, Portugal, Suiza, Estados Unidos, Canadá, México y Argentina, más la fase transitoria de Naciones Unidas en Timor Oriental y las fases revisadas de Grecia y Portugal. Se describen estructuras y distinción entre cargos, no índices de democracia, partidos vigentes, composición parlamentaria o resultados electorales no adquiridos.
 
-Los inicios de Estados Unidos, Canadá y México en 1990, y Argentina en 1995, son **límites editoriales de cobertura** declarados en el texto, no fechas de fundación de sus instituciones. El intervalo argentino comienza después de la reforma de 1994 para no trasladar reformas posteriores al año anterior. Las síntesis estables no afirman que todo el articulado constitucional actual haya existido sin cambios desde la fecha inicial. La Ley Fundamental alemana no se aplica a una ficha de la RDA; el texto sudafricano de 1996 no se retrotrae al periodo de apartheid ni al marco interino de 1994.
+Los inicios de Estados Unidos y México en 1970, Canadá en 1990 y Argentina en 1995 son **límites editoriales de cobertura** declarados en el texto, no fechas de fundación de sus instituciones. El intervalo argentino comienza después de la reforma de 1994 para no trasladar reformas posteriores al año anterior. Las síntesis estables no afirman que todo el articulado constitucional actual haya existido sin cambios desde la fecha inicial. La Ley Fundamental alemana no se aplica a una ficha de la RDA; el texto sudafricano de 1996 no se retrotrae al periodo de apartheid ni al marco interino de 1994.
 
-La cronología adicional registra la Segunda República española y su Constitución de 1931, proclamación de Juan Carlos I en 1975, Constitución española de 1978, Quinta República francesa, constituciones brasileña, sudafricana y suiza, admisión ONU de la Yugoslavia federal, UNTAET, referéndum eritreo y opinión consultiva sobre Kosovo. El catálogo existente de autoridades, banderas, afiliaciones y conflictos proporciona otras series; no se duplican sus registros aquí.
+La cronología adicional registra la Segunda República española y su Constitución de 1931, proclamación de Juan Carlos I en 1975, Constitución española de 1978, Quinta República francesa, constituciones brasileña, sudafricana y suiza, admisión ONU de la Yugoslavia federal, UNTAET, referéndum eritreo y opinión consultiva sobre Kosovo. El catálogo existente de autoridades, banderas, afiliaciones y conflictos aporta series complementarias. Los hitos institucionales se presentan como navegación fechada, conservando la procedencia de cada inventario.
+
+La ampliación registra elecciones constituyentes españolas de 1977, Carta canadiense de 1982, recuperación argentina de 1983, plebiscito chileno de 1988 y cambios europeos de 1989. Portugal separa órganos provisionales desde abril de 1974, Constituyente desde abril de 1975 y Constitución de 1976. La revisión griega de marzo de 1986 figura como hito propio; la ficha de 1975 no la presenta como ya ocurrida. Las síntesis generales no trasladan reformas electorales o competencias posteriores al pasado.
 
 ## Validación y ampliación
 
-El generador comprueba identificadores únicos e intervalos ordenados. La revisión focal verificó que las **55 claves existen** en `identities.json`, que las fuentes son URLs institucionales y que los años de navegación no sustituyen las fechas de evento. No modifica geometrías, retratos, banderas ni indicadores económicos.
+El generador comprueba identificadores únicos e intervalos ordenados. La revisión focal verificó que las **78 claves existen** en `identities.json`, que las fuentes son URLs institucionales y que los años de navegación no sustituyen las fechas de evento. No modifica geometrías, retratos, banderas ni indicadores económicos.
 
 Para ampliar: añadir una relación por hecho y destino, usar nombres pertinentes a la época, documentar qué representa su fecha, comprobar que la entidad puede seleccionarse en el año de navegación, citar una fuente primaria y mantener separadas continuidad, independencia, restauración y control efectivo. No resolver países desaparecidos con el primer sucesor disponible. No extender por similitud una estructura constitucional a territorios dependientes o a gobiernos rivales. La ausencia de un enlace expresa cobertura pendiente.

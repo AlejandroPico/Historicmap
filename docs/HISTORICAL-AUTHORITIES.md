@@ -1,6 +1,6 @@
-# Autoridades históricas · 1990–2026
+# Autoridades históricas · 1970–2026
 
-Esta ampliación incorpora mandatos de jefatura de Estado y de Gobierno desde 1990 hasta la fecha de adquisición. Se distingue la cobertura de una compilación de una comprobación primaria mundial: Wikidata puede contener huecos, cargos omitidos, fechas imprecisas y afirmaciones antiguas todavía abiertas. Las curaciones nacionales de la entrega anterior se conservan.
+La ampliación vigente incorpora mandatos de jefatura de Estado y de Gobierno desde 1970. El proceso de 1990–2026 documentado a continuación se conserva como antecedente; la ampliación 0.8 y sus cifras se describen al final. Se distingue la cobertura de una compilación de una comprobación primaria mundial: Wikidata puede contener huecos, cargos omitidos, fechas imprecisas y afirmaciones antiguas todavía abiertas. Las curaciones nacionales de la entrega anterior se conservan.
 
 ## Preparación reproducible
 
@@ -153,3 +153,44 @@ Se comprobaron SHA-256 y tamaño de los 2.871 medios, los 2.495 raster con Pillo
 | OGL-om 1.0 | 2 |
 | PDM-owner | 1 |
 | Public domain | 1002 |
+
+
+## Ampliación 0.8 · 1970–1989
+
+Se conserva íntegramente la adquisición reciente y se incorporan cargos que ya no se corresponden con las oficinas nacionales actuales. El nuevo preparador `enrich-1970-authorities.py` tiene consultas y claves de caché propias desde 1970; `curate-1970-focus.py`, `curate-1970-americas-africa.py --apply` y `curate-1970-asia.py --apply` añaden correcciones documentales. `enrich-1970-portraits.py` amplía medios sin modificar los mandatos; las banderas se preparan y curan por separado. No reconstruir el inventario desde el importador inicial limitado de 0.4.
+
+Las autoridades de facto y del partido se distinguen de las jefaturas formales, por ejemplo Torrijos/Noriega, las presidencias civiles panameñas y las jefaturas búlgaras. Las juntas de Nicaragua y El Salvador se registran como órganos colegiados: no se inventa una fotografía individual del órgano ni se atribuye a todos sus miembros la misma duración. Las fuentes anuales o mensuales conservan esa precisión y explican que sus límites de calendario no son días exactos de nombramiento.
+
+VDR identifica Vietnam del Norte; RVN, el Gobierno de Saigón; VSR, la autoridad revolucionaria sureña; VNM, el Estado unificado. Un mandato continuado se separa en el cambio de entidad con nota, sin afirmar dimisión o nueva elección. La ficha de VSR puede mantener sus propios mandatos aunque falte un contorno independiente en CShapes de 1975. RHO conserva el régimen rodesiano y la transición de 1979, sin heredar estadísticas de Zimbabue.
+
+La comprobación anual con el resolver efectivo encuentra autoridad o ausencia institucional documentada en **136/136 Estados independientes CShapes en 1970, 147/147 en 1975, 149/149 en 1980, 151/151 en 1985 y 151/151 en 1989**, y recorre también todos los años intermedios y 1990–2019. Es cobertura de las entidades representadas por esta fuente, no de todas las administraciones, autoridades rivales o titulares secundarios del mundo.
+
+Se mantienen separadas la referencia contemporánea 22/10/2026 y la adquisición histórica 23/10/2026. Avanzar indiscriminadamente `retrieved` dejaría sin validez las banderas actuales acreditadas al 22 o extrapolaría dirigentes. Los símbolos al cierre anual no son una foto exacta de cada día; un retrato identifica a una persona y no su apariencia en cada año.
+
+La revisión de imagen detectó una identificación conflictiva para Georgi Traykov Q1811651: P18 enlaza un recorte denominado Georgi Traychev, nombre que también figura en la imagen madre, mientras su categoría dice Traykov. No se afirma una reidentificación concluyente. Se omite provisionalmente ese retrato y se conserva el mandato; `scripts/media-exclusions.json` documenta las fuentes y evita que las adquisiciones de 0.8 lo reintroduzcan. No se utilizan imágenes con derechos gestionados como sustituto.
+
+Las banderas con cambios de régimen se contrastan en diseños de Commons con sus propias licencias, evitando proyectar la bandera contemporánea hacia décadas anteriores. Los archivos identificados como diseños ficticios o meras estandarizaciones modernas no sirven para acreditar una variante histórica.
+
+El cierre cuantitativo y la publicación verificada figuran en DELIVERY-0.8.0. Continúan huecos de imágenes, variantes de bandera y administraciones dependientes; cubrir una autoridad de una ficha no certifica toda su historia institucional ni todos los mandatos del año.
+
+
+### Inventario final 0.8
+
+Catálogo completo: **278 claves y 6.945 registros de mandato** en todas las épocas. Ventana nueva 1970–1989: **1.852 registros, 1.144 personas u órganos distintos, 867 con imagen y 277 sin ella**. No equivale a 1.144 gobiernos simultáneos ni a todas las jefaturas documentadas mundialmente. El manifiesto final contiene **3.474 medios: 395 símbolos SVG y 3.079 fotografías**, 150.116.391 bytes. Frente a 0.7 son 603 archivos adicionales netos; se retiró una imagen ambigua adquirida durante el proceso. Las cifras incluyen medios reutilizados por distintos mandatos; no todo medio del catálogo es una persona diferente.
+
+| Año | Claves con mandato | Registros | Personas/órganos | Con imagen | Claves con símbolo al cierre |
+| --- | ---: | ---: | ---: | ---: | ---: |
+|1970|173|383|270|237|140|
+|1975|186|424|309|265|159|
+|1980|199|487|329|274|171|
+|1985|200|486|315|270|191|
+|1989|203|555|360|297|194|
+|1990|215|555|359|300|198|
+|2026|233|677|437|422|242|
+
+La referencia 2026 sigue siendo 22/10. Las claves del catálogo incluyen dependencias, facciones y otras épocas; no son un denominador de países soberanos visibles. La clase cartográfica `independent` procede de CShapes y comprende regímenes de facto como Rodesia: no constituye un listado de reconocimientos ONU. La cobertura automática de autoridades no certifica todos los cargos secundarios, todos los gobernantes rivales o la exactitud de cada afirmación bibliográfica.
+
+Once variantes de símbolos focales y su procedencia se documentan en SYMBOLS-1970. Los símbolos vietnamitas se limitan a la vida de su entidad: no se conserva una bandera de RVN al cierre de 1975 o de VDR al cierre de 1976 por el mero rango anual del nombre de un archivo.
+
+
+La curación de dirigentes de partido añade 25 mandatos de Hungría, Albania, Polonia, Checoslovaquia, China y Vietnam. Se incorporan también Mahendra y Sisavang Vatthana. Los límites documentales de Deng y Heng Samrin a finales de 1989 se marcan como cobertura, no como cese efectivo. Las fechas de precisión anual o mensual se muestran sin inventar día exacto ni acreditar automáticamente una titularidad al cierre del año.

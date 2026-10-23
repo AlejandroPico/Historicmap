@@ -185,6 +185,116 @@
       "id": "argentina",
       "url": "https://www.congreso.gob.ar/constitucionParte1Cap1.php",
       "label": "Congreso de Argentina · Constitución Nacional"
+    },
+    {
+      "id": "vietnam-union",
+      "url": "https://treaties-prod.un.org/pages/HistoricalInfo.aspx?clang=_en",
+      "label": "ONU · Depositario de tratados, unificación vietnamita"
+    },
+    {
+      "id": "bangladesh-1971",
+      "url": "https://history.state.gov/milestones/1969-1976/south-asia",
+      "label": "Departamento de Estado · Crisis surasiática de 1971"
+    },
+    {
+      "id": "guinea-1973",
+      "url": "https://documents.un.org/doc/undoc/gen/n09/387/22/pdf/n0938722.pdf",
+      "label": "Guinea-Bissau · Informe estatal CEDAW/C/GNB/6 ante la ONU"
+    },
+    {
+      "id": "portugal-democracy",
+      "url": "https://www.parlamento.pt/Parlamento/Paginas/democracia.aspx",
+      "label": "Asamblea de Portugal · Estado democrático"
+    },
+    {
+      "id": "greece-history",
+      "url": "https://www.hellenicparliament.gr/en/vouli-ton-ellinon/to-politevma/syntagmatiki-istoria/",
+      "label": "Parlamento heleno · Historia constitucional"
+    },
+    {
+      "id": "greece-law",
+      "url": "https://www.hellenicparliament.gr/userfiles/f3c70a23-7696-49db-9148-f24dce6a27c8/001-156%20aggliko.pdf",
+      "label": "Parlamento heleno · Constitución y evolución de 1975/1986"
+    },
+    {
+      "id": "spain-elections",
+      "url": "https://constitucion.congreso.es/constitucion-1978/elaboracion/cortesconstituyentes",
+      "label": "Congreso de España · Elecciones y Cortes constituyentes"
+    },
+    {
+      "id": "argentina-democracy",
+      "url": "https://www.argentina.gob.ar/node/411931",
+      "label": "Gobierno argentino · Dictadura y recuperación democrática"
+    },
+    {
+      "id": "canada-1982",
+      "url": "https://laws.justice.gc.ca/eng/const/FullText.html",
+      "label": "Ministerio de Justicia de Canadá · Leyes constitucionales de 1867–1982"
+    },
+    {
+      "id": "chile-vote",
+      "url": "https://www.bcn.cl/historiapolitica/elecciones/index.html?periodo=1973-1990",
+      "label": "Biblioteca del Congreso de Chile · Elecciones, 1973–1990"
+    },
+    {
+      "id": "poland-roundtable",
+      "url": "https://www.president.pl/archives/bronislaw-komorowski/freedom-day/1989",
+      "label": "Presidencia de Polonia · Cambios institucionales de 1989"
+    },
+    {
+      "id": "czechoslovakia-1989",
+      "url": "https://mzv.gov.cz/copenhagen/en/news/x2015/twenty_six_years_since_the_velvet.mobi",
+      "label": "Ministerio de Exteriores checo · Revolución de Terciopelo"
+    },
+    {
+      "id": "berlin-1989",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/1989-11-09-mauerfall-337756",
+      "label": "Bundestag · Apertura del Muro de Berlín"
+    },
+    {
+      "id": "decolonization-angola",
+      "url": "https://history.state.gov/countries/angola",
+      "label": "Departamento de Estado · Independencia y reconocimiento de Angola"
+    },
+    {
+      "id": "decolonization-mozambique",
+      "url": "https://history.state.gov/countries/mozambique",
+      "label": "Departamento de Estado · Independencia y reconocimiento de Mozambique"
+    },
+    {
+      "id": "decolonization-sao-tome-and-principe",
+      "url": "https://history.state.gov/countries/sao-tome-and-principe",
+      "label": "Departamento de Estado · Independencia y reconocimiento de Santo Tomé y Príncipe"
+    },
+    {
+      "id": "decolonization-djibouti",
+      "url": "https://history.state.gov/countries/djibouti",
+      "label": "Departamento de Estado · Independencia y reconocimiento de Yibuti"
+    },
+    {
+      "id": "decolonization-papua-new-guinea",
+      "url": "https://history.state.gov/countries/papua-new-guinea",
+      "label": "Departamento de Estado · Independencia y reconocimiento de Papúa Nueva Guinea"
+    },
+    {
+      "id": "decolonization-solomon-islands",
+      "url": "https://history.state.gov/countries/solomon-islands",
+      "label": "Departamento de Estado · Independencia y reconocimiento de Islas Salomón"
+    },
+    {
+      "id": "decolonization-vanuatu",
+      "url": "https://history.state.gov/countries/vanuatu",
+      "label": "Departamento de Estado · Independencia y reconocimiento de Vanuatu"
+    },
+    {
+      "id": "decolonization-zimbabwe",
+      "url": "https://history.state.gov/countries/zimbabwe",
+      "label": "Departamento de Estado · Independencia y reconocimiento de Zimbabue"
+    },
+    {
+      "id": "decolonization-suriname",
+      "url": "https://history.state.gov/countries/suriname",
+      "label": "Departamento de Estado · Independencia y reconocimiento de Surinam"
     }
   ],
   "relations": [
@@ -814,6 +924,329 @@
       "note": "Reconocimiento internacional dividido. La opinión de la CIJ de 2010 sobre la declaración no decidió de forma general la estatalidad ni obligó a reconocerla.",
       "source": "https://www.icj-cij.org/node/103912",
       "sourceLabel": "Corte Internacional de Justicia · Resumen de la opinión consultiva de 2010"
+    },
+    {
+      "id": "vdr-vnm",
+      "from": {
+        "key": "VDR",
+        "name": "República Democrática de Vietnam",
+        "year": 1974
+      },
+      "to": {
+        "key": "VNM",
+        "name": "Vietnam unificado",
+        "year": 1976
+      },
+      "date": "1976-07-02",
+      "type": "unification",
+      "label": "Constitución del Vietnam unificado",
+      "note": "La unificación formal de 1976 se distingue del control militar de 1975. No se heredan automáticamente estadísticas de un sucesor.",
+      "source": "https://treaties-prod.un.org/pages/HistoricalInfo.aspx?clang=_en",
+      "sourceLabel": "ONU · Depositario de tratados, unificación vietnamita"
+    },
+    {
+      "id": "rvn-vnm",
+      "from": {
+        "key": "RVN",
+        "name": "República de Vietnam",
+        "year": 1974
+      },
+      "to": {
+        "key": "VNM",
+        "name": "Vietnam unificado",
+        "year": 1976
+      },
+      "date": "1976-07-02",
+      "type": "unification",
+      "label": "Del Vietnam del Sur al Estado unificado",
+      "note": "Entre la caída de la República de Vietnam en abril de 1975 y la unificación formal existió la República de Vietnam del Sur. La base CShapes agrupa el control de 1975 bajo el Norte y no ofrece una entidad provisional separada navegable.",
+      "source": "https://treaties-prod.un.org/pages/HistoricalInfo.aspx?clang=_en",
+      "sourceLabel": "ONU · Depositario de tratados, unificación vietnamita"
+    },
+    {
+      "id": "pak-bgd",
+      "from": {
+        "key": "PAK",
+        "name": "Pakistán antes de la separación oriental",
+        "year": 1970
+      },
+      "to": {
+        "key": "BGD",
+        "name": "Bangladesh",
+        "year": 1972
+      },
+      "date": "1971-12-16",
+      "type": "independence",
+      "label": "Separación de Bangladesh",
+      "note": "La fecha corresponde a la rendición de diciembre y al final de la guerra de ese año, no a la proclamación de marzo ni a la admisión ONU de 1974. Pakistán continúa existiendo.",
+      "source": "https://history.state.gov/milestones/1969-1976/south-asia",
+      "sourceLabel": "Departamento de Estado · Crisis surasiática de 1971"
+    },
+    {
+      "id": "decolonization-prt-ago",
+      "from": {
+        "key": "PRT",
+        "name": "Portugal",
+        "year": 1970
+      },
+      "to": {
+        "key": "AGO",
+        "name": "Angola",
+        "year": 1975
+      },
+      "date": "1975-11-11",
+      "type": "decolonization",
+      "label": "Descolonización → Angola",
+      "note": "Enlace de la potencia administradora al territorio independiente; no identidad estatal compartida. La independencia no significa fin inmediato de la guerra civil.",
+      "source": "https://history.state.gov/countries/angola",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Angola"
+    },
+    {
+      "id": "decolonization-prt-moz",
+      "from": {
+        "key": "PRT",
+        "name": "Portugal",
+        "year": 1970
+      },
+      "to": {
+        "key": "MOZ",
+        "name": "Mozambique",
+        "year": 1975
+      },
+      "date": "1975-06-25",
+      "type": "decolonization",
+      "label": "Descolonización → Mozambique",
+      "note": "Enlace de la potencia administradora al territorio independiente; no identidad estatal compartida. Fecha de independencia y reconocimiento estadounidense; no cierra los conflictos posteriores.",
+      "source": "https://history.state.gov/countries/mozambique",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Mozambique"
+    },
+    {
+      "id": "decolonization-prt-stp",
+      "from": {
+        "key": "PRT",
+        "name": "Portugal",
+        "year": 1970
+      },
+      "to": {
+        "key": "STP",
+        "name": "Santo Tomé y Príncipe",
+        "year": 1975
+      },
+      "date": "1975-07-12",
+      "type": "decolonization",
+      "label": "Descolonización → Santo Tomé y Príncipe",
+      "note": "Enlace de la potencia administradora al territorio independiente; no identidad estatal compartida. Fecha de independencia, distinguida del establecimiento de relaciones diplomáticas.",
+      "source": "https://history.state.gov/countries/sao-tome-and-principe",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Santo Tomé y Príncipe"
+    },
+    {
+      "id": "decolonization-fra-dji",
+      "from": {
+        "key": "FRA",
+        "name": "Francia",
+        "year": 1970
+      },
+      "to": {
+        "key": "DJI",
+        "name": "Yibuti",
+        "year": 1977
+      },
+      "date": "1977-06-27",
+      "type": "decolonization",
+      "label": "Descolonización → Yibuti",
+      "note": "Enlace de la potencia administradora al territorio independiente; no identidad estatal compartida. El territorio antes administrado por Francia se constituye como Estado independiente.",
+      "source": "https://history.state.gov/countries/djibouti",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Yibuti"
+    },
+    {
+      "id": "decolonization-aus-png",
+      "from": {
+        "key": "AUS",
+        "name": "Australia",
+        "year": 1970
+      },
+      "to": {
+        "key": "PNG",
+        "name": "Papúa Nueva Guinea",
+        "year": 1975
+      },
+      "date": "1975-09-16",
+      "type": "decolonization",
+      "label": "Descolonización → Papúa Nueva Guinea",
+      "note": "Enlace de la potencia administradora al territorio independiente; no identidad estatal compartida. Final de la administración australiana, con territorios de distinta procedencia jurídica.",
+      "source": "https://history.state.gov/countries/papua-new-guinea",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Papúa Nueva Guinea"
+    },
+    {
+      "id": "decolonization-gbr-slb",
+      "from": {
+        "key": "GBR",
+        "name": "Reino Unido",
+        "year": 1970
+      },
+      "to": {
+        "key": "SLB",
+        "name": "Islas Salomón",
+        "year": 1978
+      },
+      "date": "1978-07-07",
+      "type": "decolonization",
+      "label": "Descolonización → Islas Salomón",
+      "note": "Enlace de la potencia administradora al territorio independiente; no identidad estatal compartida. Se distingue independencia de establecimiento posterior de relaciones diplomáticas.",
+      "source": "https://history.state.gov/countries/solomon-islands",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Islas Salomón"
+    },
+    {
+      "id": "decolonization-gbr-vut",
+      "from": {
+        "key": "GBR",
+        "name": "Reino Unido",
+        "year": 1970
+      },
+      "to": {
+        "key": "VUT",
+        "name": "Vanuatu",
+        "year": 1980
+      },
+      "date": "1980-07-30",
+      "type": "decolonization",
+      "label": "Descolonización → Vanuatu",
+      "note": "Enlace de la potencia administradora al territorio independiente; no identidad estatal compartida. Final del condominio anglo-francés; el enlace británico se complementa con el francés.",
+      "source": "https://history.state.gov/countries/vanuatu",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Vanuatu"
+    },
+    {
+      "id": "decolonization-fra-vut",
+      "from": {
+        "key": "FRA",
+        "name": "Francia",
+        "year": 1970
+      },
+      "to": {
+        "key": "VUT",
+        "name": "Vanuatu",
+        "year": 1980
+      },
+      "date": "1980-07-30",
+      "type": "decolonization",
+      "label": "Descolonización → Vanuatu",
+      "note": "Enlace de la potencia administradora al territorio independiente; no identidad estatal compartida. Final del condominio anglo-francés; no dos independencias o dos territorios separados.",
+      "source": "https://history.state.gov/countries/vanuatu",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Vanuatu"
+    },
+    {
+      "id": "decolonization-gbr-zwe",
+      "from": {
+        "key": "GBR",
+        "name": "Reino Unido",
+        "year": 1970
+      },
+      "to": {
+        "key": "ZWE",
+        "name": "Zimbabue",
+        "year": 1980
+      },
+      "date": "1980-04-18",
+      "type": "decolonization",
+      "label": "Descolonización → Zimbabue",
+      "note": "Enlace de la potencia administradora al territorio independiente; no identidad estatal compartida. Se distingue del régimen rodesiano de independencia unilateral no reconocida de 1965.",
+      "source": "https://history.state.gov/countries/zimbabwe",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Zimbabue"
+    },
+    {
+      "id": "decolonization-nld-sur",
+      "from": {
+        "key": "NLD",
+        "name": "Países Bajos",
+        "year": 1970
+      },
+      "to": {
+        "key": "SUR",
+        "name": "Surinam",
+        "year": 1975
+      },
+      "date": "1975-11-25",
+      "type": "decolonization",
+      "label": "Descolonización → Surinam",
+      "note": "Enlace de la potencia administradora al territorio independiente; no identidad estatal compartida. Independencia tras una etapa previa de autonomía; no fecha de fundación de todos sus órganos.",
+      "source": "https://history.state.gov/countries/suriname",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Surinam"
+    },
+    {
+      "id": "prt-gnb",
+      "from": {
+        "key": "PRT",
+        "name": "Portugal",
+        "year": 1970
+      },
+      "to": {
+        "key": "GNB",
+        "name": "Guinea-Bissau",
+        "year": 1974
+      },
+      "date": "1973-09-24",
+      "type": "declaration",
+      "label": "Proclamación de independencia de Guinea-Bissau",
+      "note": "Proclamación del PAIGC en 1973; reconocimiento portugués en 1974. La navegación usa un año con entidad independiente en la fuente.",
+      "source": "https://documents.un.org/doc/undoc/gen/n09/387/22/pdf/n0938722.pdf",
+      "sourceLabel": "Guinea-Bissau · Informe estatal CEDAW/C/GNB/6 ante la ONU"
+    },
+    {
+      "id": "prt-cpv",
+      "from": {
+        "key": "PRT",
+        "name": "Portugal",
+        "year": 1970
+      },
+      "to": {
+        "key": "CPV",
+        "name": "Cabo Verde",
+        "year": 1975
+      },
+      "date": "1975-07-05",
+      "type": "decolonization",
+      "label": "Independencia de Cabo Verde",
+      "note": "Independencia negociada, separada de la proclamación guineana de 1973.",
+      "source": "https://documents.un.org/doc/undoc/gen/n09/387/22/pdf/n0938722.pdf",
+      "sourceLabel": "Guinea-Bissau · Informe estatal CEDAW/C/GNB/6 ante la ONU"
+    },
+    {
+      "id": "rvn-vsr",
+      "from": {
+        "key": "RVN",
+        "name": "República de Vietnam",
+        "year": 1974
+      },
+      "to": {
+        "key": "VSR",
+        "name": "República de Vietnam del Sur · Gobierno Revolucionario Provisional",
+        "year": 1975
+      },
+      "date": "1975-04-30",
+      "type": "regime-change",
+      "label": "Fin del Gobierno de Saigón y administración revolucionaria sureña",
+      "note": "El Gobierno Revolucionario Provisional existía desde 1969 como autoridad rival. El enlace señala el cambio de control de 1975, no su fundación ni la unificación formal de 1976. CShapes no ofrece una geometría separada de esta administración en 1975.",
+      "source": "https://treaties-prod.un.org/pages/HistoricalInfo.aspx?clang=_en",
+      "sourceLabel": "ONU · Depositario de tratados, unificación vietnamita"
+    },
+    {
+      "id": "vsr-vnm",
+      "from": {
+        "key": "VSR",
+        "name": "República de Vietnam del Sur · Gobierno Revolucionario Provisional",
+        "year": 1975
+      },
+      "to": {
+        "key": "VNM",
+        "name": "Vietnam unificado",
+        "year": 1976
+      },
+      "date": "1976-07-02",
+      "type": "unification",
+      "label": "Unificación de las dos administraciones vietnamitas",
+      "note": "La entidad sureña provisional se distingue de la República de Vietnam anterior y de Vietnam del Norte. La unificación formal no se fecha en la caída de Saigón de abril de 1975.",
+      "source": "https://treaties-prod.un.org/pages/HistoricalInfo.aspx?clang=_en",
+      "sourceLabel": "ONU · Depositario de tratados, unificación vietnamita"
     }
   ],
   "records": [
@@ -942,10 +1375,10 @@
       "keys": [
         "USA"
       ],
-      "start": "1990-01-01",
+      "start": "1970-01-01",
       "section": "institutions",
       "title": "Presidencia, Congreso y justicia federal",
-      "text": "La Constitución distribuye el poder federal entre el Congreso bicameral, la Presidencia y los tribunales. Los controles recíprocos y las competencias de los estados forman parte de esta estructura. El inicio de 1990 delimita la cobertura de esta síntesis, no la fecha de fundación de las instituciones.",
+      "text": "La Constitución distribuye el poder federal entre el Congreso bicameral, la Presidencia y los tribunales. Los controles recíprocos y las competencias de los estados forman parte de esta estructura. El inicio de 1970 delimita la cobertura de esta síntesis, no la fecha de fundación de las instituciones.",
       "source": "https://www.archives.gov/founding-docs/constitution/what-does-it-say",
       "sourceLabel": "Archivos Nacionales de EE. UU. · Organización constitucional"
     },
@@ -966,10 +1399,10 @@
       "keys": [
         "MEX"
       ],
-      "start": "1990-01-01",
+      "start": "1970-01-01",
       "section": "institutions",
       "title": "República representativa y federal",
-      "text": "La Constitución de 1917 organiza la república federal y separa los poderes legislativo, ejecutivo y judicial. El Congreso comprende Cámara de Diputados y Senado; la Presidencia encabeza el ejecutivo. La síntesis se aplica desde 1990 y no certifica las mismas reglas electorales para todo el siglo XX.",
+      "text": "La Constitución de 1917 organiza la república federal y separa los poderes legislativo, ejecutivo y judicial. El Congreso comprende Cámara de Diputados y Senado; la Presidencia encabeza el ejecutivo. La síntesis se aplica desde 1970 y no certifica las mismas reglas electorales para todo el siglo XX.",
       "source": "https://ordenjuridico.gob.mx/Documentos/Federal/html/wo14166.html",
       "sourceLabel": "Gobierno de México · Constitución de 1917"
     },
@@ -1171,6 +1604,282 @@
       "source": "https://peacekeeping.un.org/sites/default/files/past/etimor/etimor.htm",
       "sourceLabel": "ONU · Administración transitoria de Timor Oriental, UNTAET",
       "end": "2002-05-20"
+    },
+    {
+      "id": "vnm-unification-1976",
+      "keys": [
+        "VDR",
+        "RVN",
+        "VSR",
+        "VNM"
+      ],
+      "start": "1976-07-02",
+      "section": "history",
+      "title": "Unificación formal vietnamita",
+      "text": "Vietnam del Norte y la República de Vietnam del Sur se unen como República Socialista de Vietnam. El cambio institucional no equivale a una frontera diaria o a heredar las estadísticas de las entidades anteriores.",
+      "source": "https://treaties-prod.un.org/pages/HistoricalInfo.aspx?clang=_en",
+      "sourceLabel": "ONU · Depositario de tratados, unificación vietnamita",
+      "end": "1976-07-03"
+    },
+    {
+      "id": "ago-independence-1975",
+      "keys": [
+        "AGO"
+      ],
+      "start": "1975-11-11",
+      "section": "history",
+      "title": "Independencia de Angola",
+      "text": "La independencia no significa fin inmediato de la guerra civil.",
+      "source": "https://history.state.gov/countries/angola",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Angola",
+      "end": "1975-11-12"
+    },
+    {
+      "id": "moz-independence-1975",
+      "keys": [
+        "MOZ"
+      ],
+      "start": "1975-06-25",
+      "section": "history",
+      "title": "Independencia de Mozambique",
+      "text": "Fecha de independencia y reconocimiento estadounidense; no cierra los conflictos posteriores.",
+      "source": "https://history.state.gov/countries/mozambique",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Mozambique",
+      "end": "1975-06-26"
+    },
+    {
+      "id": "stp-independence-1975",
+      "keys": [
+        "STP"
+      ],
+      "start": "1975-07-12",
+      "section": "history",
+      "title": "Independencia de Santo Tomé y Príncipe",
+      "text": "Fecha de independencia, distinguida del establecimiento de relaciones diplomáticas.",
+      "source": "https://history.state.gov/countries/sao-tome-and-principe",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Santo Tomé y Príncipe",
+      "end": "1975-07-13"
+    },
+    {
+      "id": "dji-independence-1977",
+      "keys": [
+        "DJI"
+      ],
+      "start": "1977-06-27",
+      "section": "history",
+      "title": "Independencia de Yibuti",
+      "text": "El territorio antes administrado por Francia se constituye como Estado independiente.",
+      "source": "https://history.state.gov/countries/djibouti",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Yibuti",
+      "end": "1977-06-28"
+    },
+    {
+      "id": "png-independence-1975",
+      "keys": [
+        "PNG"
+      ],
+      "start": "1975-09-16",
+      "section": "history",
+      "title": "Independencia de Papúa Nueva Guinea",
+      "text": "Final de la administración australiana, con territorios de distinta procedencia jurídica.",
+      "source": "https://history.state.gov/countries/papua-new-guinea",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Papúa Nueva Guinea",
+      "end": "1975-09-17"
+    },
+    {
+      "id": "slb-independence-1978",
+      "keys": [
+        "SLB"
+      ],
+      "start": "1978-07-07",
+      "section": "history",
+      "title": "Independencia de Islas Salomón",
+      "text": "Se distingue independencia de establecimiento posterior de relaciones diplomáticas.",
+      "source": "https://history.state.gov/countries/solomon-islands",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Islas Salomón",
+      "end": "1978-07-08"
+    },
+    {
+      "id": "vut-independence-1980",
+      "keys": [
+        "VUT"
+      ],
+      "start": "1980-07-30",
+      "section": "history",
+      "title": "Independencia de Vanuatu",
+      "text": "Final del condominio anglo-francés; el enlace británico se complementa con el francés.",
+      "source": "https://history.state.gov/countries/vanuatu",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Vanuatu",
+      "end": "1980-07-31"
+    },
+    {
+      "id": "zwe-independence-1980",
+      "keys": [
+        "ZWE"
+      ],
+      "start": "1980-04-18",
+      "section": "history",
+      "title": "Independencia de Zimbabue",
+      "text": "Se distingue del régimen rodesiano de independencia unilateral no reconocida de 1965.",
+      "source": "https://history.state.gov/countries/zimbabwe",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Zimbabue",
+      "end": "1980-04-19"
+    },
+    {
+      "id": "sur-independence-1975",
+      "keys": [
+        "SUR"
+      ],
+      "start": "1975-11-25",
+      "section": "history",
+      "title": "Independencia de Surinam",
+      "text": "Independencia tras una etapa previa de autonomía; no fecha de fundación de todos sus órganos.",
+      "source": "https://history.state.gov/countries/suriname",
+      "sourceLabel": "Departamento de Estado · Independencia y reconocimiento de Surinam",
+      "end": "1975-11-26"
+    },
+    {
+      "id": "prt-revolutionary-transition",
+      "keys": [
+        "PRT"
+      ],
+      "start": "1974-04-25",
+      "section": "institutions",
+      "title": "Instituciones provisionales de la transición",
+      "text": "El derribo de la dictadura abre una transición con órganos y gobiernos provisionales. Se prepara un nuevo orden democrático; esta fase no equivale todavía a una constitución parlamentaria en vigor.",
+      "source": "https://www.parlamento.pt/Parlamento/Paginas/democracia.aspx",
+      "sourceLabel": "Asamblea de Portugal · Estado democrático",
+      "end": "1975-04-25"
+    },
+    {
+      "id": "prt-constituent-institutions",
+      "keys": [
+        "PRT"
+      ],
+      "start": "1975-04-25",
+      "section": "institutions",
+      "title": "Asamblea Constituyente y gobiernos de transición",
+      "text": "Las elecciones de abril de 1975 dan lugar a una Asamblea Constituyente que elabora el nuevo marco institucional. Los gobiernos provisionales continúan durante esta fase; la aprobación y entrada en vigor constitucional son hitos distintos.",
+      "source": "https://www.parlamento.pt/Parlamento/Paginas/democracia.aspx",
+      "sourceLabel": "Asamblea de Portugal · Estado democrático",
+      "end": "1976-04-25"
+    },
+    {
+      "id": "grc-republic-1975",
+      "keys": [
+        "GRC"
+      ],
+      "start": "1975-06-11",
+      "section": "institutions",
+      "title": "República parlamentaria constitucional",
+      "text": "El marco de 1975 establece la república parlamentaria tras la dictadura y el referéndum de 1974. Esta síntesis describe la estructura general, sin atribuirle todas las versiones posteriores del articulado.",
+      "source": "https://www.hellenicparliament.gr/userfiles/f3c70a23-7696-49db-9148-f24dce6a27c8/001-156%20aggliko.pdf",
+      "sourceLabel": "Parlamento heleno · Constitución y evolución de 1975/1986"
+    },
+    {
+      "id": "grc-revision-1986",
+      "keys": [
+        "GRC"
+      ],
+      "start": "1986-03-06",
+      "section": "history",
+      "title": "Resolución de revisión constitucional de 1986",
+      "text": "El Parlamento adopta la resolución de revisión constitucional de marzo de 1986. Cambia el equilibrio entre Presidencia y Gobierno dentro del marco republicano, sin crear por primera vez la república de 1975.",
+      "source": "https://www.hellenicparliament.gr/userfiles/f3c70a23-7696-49db-9148-f24dce6a27c8/001-156%20aggliko.pdf",
+      "sourceLabel": "Parlamento heleno · Constitución y evolución de 1975/1986",
+      "end": "1986-03-07"
+    },
+    {
+      "id": "esp-constituent-1977",
+      "keys": [
+        "ESP"
+      ],
+      "start": "1977-06-15",
+      "section": "institutions",
+      "title": "Elecciones y Cortes constituyentes",
+      "text": "Las elecciones del 15 de junio dan lugar a unas Cortes plurales que elaboran el nuevo marco constitucional. Congreso y Senado inician su actividad en julio; no se aplica todavía la Constitución de 1978.",
+      "source": "https://constitucion.congreso.es/constitucion-1978/elaboracion/cortesconstituyentes",
+      "sourceLabel": "Congreso de España · Elecciones y Cortes constituyentes",
+      "end": "1978-12-29"
+    },
+    {
+      "id": "can-charter-1982",
+      "keys": [
+        "CAN"
+      ],
+      "start": "1982-04-17",
+      "section": "history",
+      "title": "Ley constitucional de 1982",
+      "text": "La Ley constitucional de 1982 incorpora la Carta de Derechos y Libertades y un procedimiento de reforma. El hito modifica el marco constitucional, sin crear por primera vez la federación canadiense.",
+      "source": "https://laws.justice.gc.ca/eng/const/FullText.html",
+      "sourceLabel": "Ministerio de Justicia de Canadá · Leyes constitucionales de 1867–1982",
+      "end": "1982-04-18"
+    },
+    {
+      "id": "arg-return-1983",
+      "keys": [
+        "ARG"
+      ],
+      "start": "1983-12-10",
+      "section": "history",
+      "title": "Recuperación de las instituciones democráticas",
+      "text": "La asunción de autoridades constitucionales cierra la dictadura iniciada en marzo de 1976. Este registro no traslada al año 1983 las reformas constitucionales de 1994.",
+      "source": "https://www.argentina.gob.ar/node/411931",
+      "sourceLabel": "Gobierno argentino · Dictadura y recuperación democrática",
+      "end": "1983-12-11"
+    },
+    {
+      "id": "chl-plebiscite-1988",
+      "keys": [
+        "CHL"
+      ],
+      "start": "1988-10-05",
+      "section": "history",
+      "title": "Plebiscito de 1988",
+      "text": "La opción No rechaza la prolongación de Pinochet en la presidencia. Se abre un proceso electoral de transición; la transferencia presidencial no se produce ese mismo día.",
+      "source": "https://www.bcn.cl/historiapolitica/elecciones/index.html?periodo=1973-1990",
+      "sourceLabel": "Biblioteca del Congreso de Chile · Elecciones, 1973–1990",
+      "end": "1988-10-06"
+    },
+    {
+      "id": "pol-roundtable-1989",
+      "keys": [
+        "POL"
+      ],
+      "start": "1989-02-06",
+      "section": "history",
+      "title": "Apertura de la mesa redonda",
+      "text": "Gobierno y oposición inician negociaciones sobre la apertura del sistema político. El comienzo del diálogo no se confunde con la posterior votación o la toma de posesión de un nuevo gobierno.",
+      "source": "https://www.president.pl/archives/bronislaw-komorowski/freedom-day/1989",
+      "sourceLabel": "Presidencia de Polonia · Cambios institucionales de 1989",
+      "end": "1989-02-07"
+    },
+    {
+      "id": "ddr-wall-1989",
+      "keys": [
+        "DDR",
+        "DEU"
+      ],
+      "start": "1989-11-09",
+      "section": "history",
+      "title": "Apertura del Muro de Berlín",
+      "text": "La apertura de los pasos permite circular entre ambos lados. Los dos Estados alemanes aún no se han reunificado; la adhesión de la RDA se produce en otro año.",
+      "source": "https://www.bundestag.de/dokumente/textarchiv/1989-11-09-mauerfall-337756",
+      "sourceLabel": "Bundestag · Apertura del Muro de Berlín",
+      "end": "1989-11-10"
+    },
+    {
+      "id": "csk-velvet-1989",
+      "keys": [
+        "CSK"
+      ],
+      "start": "1989-11-17",
+      "section": "history",
+      "title": "Movilización de la Revolución de Terciopelo",
+      "text": "La represión de una manifestación estudiantil abre una oleada de protestas y huelgas. El proceso transforma las instituciones de Checoslovaquia, sin separarla todavía en dos Estados.",
+      "source": "https://mzv.gov.cz/copenhagen/en/news/x2015/twenty_six_years_since_the_velvet.mobi",
+      "sourceLabel": "Ministerio de Exteriores checo · Revolución de Terciopelo",
+      "end": "1989-11-18"
     }
   ]
 }

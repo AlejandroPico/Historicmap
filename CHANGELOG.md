@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.8.0 · 2026-10-23
+
+- Ampliación mundial de mandatos fechados y retratos hasta 1970, conservando la adquisición anterior. Curaciones de cargos históricos, juntas, autoridades de facto y sucesiones breves; Vietnam del Norte, República de Vietnam, Gobierno Revolucionario Provisional y Rodesia separados de sucesores.
+- Correcciones de identidad territorial y datos estadísticos para Vietnam, los dos Yemen y Rodesia; capital Salisbury en su periodo. Bangladesh y descolonización con fechas de fuente. Suplementos insulares desde sus fechas documentadas; Sáhara español y posterior territorio no autónomo diferenciados, con contornos marroquí/mauritano de referencia de 1974 identificados.
+- 31 organizaciones y 546 intervalos de participación desde 1970: OCDE, UMA y dos instituciones EAC históricas añadidas, adhesiones y rupturas previas completadas, límites de cobertura explícitos y aplicaciones territoriales distintas de Estados miembros.
+- 205 fases de conflictos/transiciones, 50 relaciones entre entidades y 49 registros institucionales/históricos. Separadas fases que anticipaban hechos posteriores; los registros abiertos no se extrapolan más allá de la referencia.
+- Familias de color para dependencias y tutelas: matices rojos soviéticos, clientes y administradores documentados. Modelo general fechado y fuentes en la ficha; la pertenencia a una alianza no implica dominación. Intervenciones/ocupaciones respetan el control de capa.
+- Se conservan las doce pestañas, fichas abiertas al cambiar de año, cronologías, comparación y gráficos. La referencia contemporánea no avanza por adquirir documentos del pasado.
+- Banderas y fotografías mantienen licencias y atribuciones individuales. Persisten imágenes sin fuente reutilizable, cargos secundarios y frentes/regímenes regionales pendientes de contraste; la auditoría anual no equivale a revisión historiográfica mundial exhaustiva.
+
 ## 0.7.0 · 2026-10-23
 
 - Fichas persistentes durante cambios de año, reproducción y cargas: entidad, pestaña y posición de lectura conservadas. Las entidades desaparecidas permanecen abiertas con ausencia explícita y navegación a entidades relacionadas. Capitales enlazadas entre fuentes por identidad y nombre normalizado.

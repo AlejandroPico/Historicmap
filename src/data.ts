@@ -1,5 +1,5 @@
 import type {FeatureCollection, MultiPolygon, Polygon} from 'geojson';
-import {historyAt, normalizedName, type HistoryTopology} from './history';
+import {historyAt, withHistoricalSupplements, normalizedName, type HistoryTopology} from './history';
 import type {ProfileData} from './profiles';
 import {regimeColor} from './political';
 const base=import.meta.env.BASE_URL+'data/';
@@ -22,17 +22,11 @@ export async function annualData(year:number){
     const data=await asset<FeatureCollection>('early-modern.geojson');
     return {...data,features:data.features.filter(f=>f.properties!.start<=year&&f.properties!.end>=year)};
   }
-  const [history,profiles,supplements,modern]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1990?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined),year>=1990?asset<FeatureCollection>('countries.geojson'):Promise.resolve(undefined)]);
+  const [history,profiles,supplements]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1970?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined)]);
   names??=new Map(Object.entries(profiles.countries).flatMap(([iso,p])=>[p.name,p.englishName??'',p.official??''].filter(Boolean).map(n=>[normalizedName(n),iso])));
   const data=historyAt(history,year,names,geometryCache);
   if(!supplements)return data;
-  // Western Sahara remains a distinct UN non-self-governing territory. Reuse
-  // the separately sourced reference outlines, without inventing a berm/front.
-  const morocco=modern?.features.find(f=>f.properties?.code==='MAR');
-  if(morocco)data.features=data.features.map(f=>f.properties?.code==='MAR'?{...f,geometry:morocco.geometry,properties:{...f.properties,territorialReference:true,geometrySource:'https://www.naturalearthdata.com/',note:'Contorno contemporáneo de referencia, separado del Sáhara Occidental. No reconstruye las líneas de control de cada año.'}}:f);
-  const existing=new Set(data.features.map(f=>f.properties?.entityCode));
-  data.features.push(...supplements.features.filter(f=>f.properties!.start<=`${year}-12-31`&&f.properties!.end>=`${year}-12-31`&&!existing.has(f.properties!.entityCode)));
-  return data;
+  return withHistoricalSupplements(data,year,supplements,historyAt(history,1974,names,geometryCache));
 }
 export const modernCities=()=>asset<FeatureCollection>('cities.geojson');
 export async function overlaysFor(year:number):Promise<FeatureCollection>{

@@ -178,6 +178,108 @@ for id, keys, start, title, text, source in events:
 
 record("sdn-after-2011", ["SDN", "SDS"], "2011-07-09", "territory", "Separación de Sudán del Sur", "Sudán del Sur se constituye como Estado separado; Sudán continúa existiendo. Las estadísticas anteriores de todo Sudán no se reparten automáticamente entre ambos, y el hito no resuelve por sí solo los límites disputados.", "south-sudan")
 record("tls-transition", ["TLS"], "1999-10-25", "institutions", "Administración transitoria de Naciones Unidas", "UNTAET ejerce funciones legislativas y ejecutivas en Timor Oriental durante la transición hacia el autogobierno. El 20 de mayo de 2002 se transfieren las funciones a las instituciones independientes.", "timor", end="2002-05-20")
+
+# Reviewed 1970–1989 extension. Navigation anchors are not assertions that a
+# colonial administrator was the same entity as the territory becoming independent.
+SOURCES.update({
+    "vietnam-union": ("https://treaties-prod.un.org/pages/HistoricalInfo.aspx?clang=_en", "ONU · Depositario de tratados, unificación vietnamita"),
+    "bangladesh-1971": ("https://history.state.gov/milestones/1969-1976/south-asia", "Departamento de Estado · Crisis surasiática de 1971"),
+    "guinea-1973": ("https://documents.un.org/doc/undoc/gen/n09/387/22/pdf/n0938722.pdf", "Guinea-Bissau · Informe estatal CEDAW/C/GNB/6 ante la ONU"),
+    "portugal-democracy": ("https://www.parlamento.pt/Parlamento/Paginas/democracia.aspx", "Asamblea de Portugal · Estado democrático"),
+    "greece-history": ("https://www.hellenicparliament.gr/en/vouli-ton-ellinon/to-politevma/syntagmatiki-istoria/", "Parlamento heleno · Historia constitucional"),
+    "greece-law": ("https://www.hellenicparliament.gr/userfiles/f3c70a23-7696-49db-9148-f24dce6a27c8/001-156%20aggliko.pdf", "Parlamento heleno · Constitución y evolución de 1975/1986"),
+    "spain-elections": ("https://constitucion.congreso.es/constitucion-1978/elaboracion/cortesconstituyentes", "Congreso de España · Elecciones y Cortes constituyentes"),
+    "argentina-democracy": ("https://www.argentina.gob.ar/node/411931", "Gobierno argentino · Dictadura y recuperación democrática"),
+    "canada-1982": ("https://laws.justice.gc.ca/eng/const/FullText.html", "Ministerio de Justicia de Canadá · Leyes constitucionales de 1867–1982"),
+    "chile-vote": ("https://www.bcn.cl/historiapolitica/elecciones/index.html?periodo=1973-1990", "Biblioteca del Congreso de Chile · Elecciones, 1973–1990"),
+    "poland-roundtable": ("https://www.president.pl/archives/bronislaw-komorowski/freedom-day/1989", "Presidencia de Polonia · Cambios institucionales de 1989"),
+    "czechoslovakia-1989": ("https://mzv.gov.cz/copenhagen/en/news/x2015/twenty_six_years_since_the_velvet.mobi", "Ministerio de Exteriores checo · Revolución de Terciopelo"),
+    "berlin-1989": ("https://www.bundestag.de/dokumente/textarchiv/1989-11-09-mauerfall-337756", "Bundestag · Apertura del Muro de Berlín"),
+})
+for slug, label in [("angola", "Angola"), ("mozambique", "Mozambique"), ("sao-tome-and-principe", "Santo Tomé y Príncipe"),
+                    ("djibouti", "Yibuti"), ("papua-new-guinea", "Papúa Nueva Guinea"), ("solomon-islands", "Islas Salomón"),
+                    ("vanuatu", "Vanuatu"), ("zimbabwe", "Zimbabue"), ("suriname", "Surinam")]:
+    SOURCES[f"decolonization-{slug}"] = (f"https://history.state.gov/countries/{slug}", f"Departamento de Estado · Independencia y reconocimiento de {label}")
+
+relation("vdr-vnm", "VDR", "República Democrática de Vietnam", 1974, "VNM", "Vietnam unificado", 1976,
+         "1976-07-02", "unification", "Constitución del Vietnam unificado",
+         "La unificación formal de 1976 se distingue del control militar de 1975. No se heredan automáticamente estadísticas de un sucesor.", "vietnam-union")
+relation("rvn-vnm", "RVN", "República de Vietnam", 1974, "VNM", "Vietnam unificado", 1976,
+         "1976-07-02", "unification", "Del Vietnam del Sur al Estado unificado",
+         "Entre la caída de la República de Vietnam en abril de 1975 y la unificación formal existió la República de Vietnam del Sur. La base CShapes agrupa el control de 1975 bajo el Norte y no ofrece una entidad provisional separada navegable.", "vietnam-union")
+record("vnm-unification-1976", ["VDR", "RVN", "VSR", "VNM"], "1976-07-02", "history", "Unificación formal vietnamita",
+       "Vietnam del Norte y la República de Vietnam del Sur se unen como República Socialista de Vietnam. El cambio institucional no equivale a una frontera diaria o a heredar las estadísticas de las entidades anteriores.", "vietnam-union", end="1976-07-03")
+relation("pak-bgd", "PAK", "Pakistán antes de la separación oriental", 1970, "BGD", "Bangladesh", 1972,
+         "1971-12-16", "independence", "Separación de Bangladesh",
+         "La fecha corresponde a la rendición de diciembre y al final de la guerra de ese año, no a la proclamación de marzo ni a la admisión ONU de 1974. Pakistán continúa existiendo.", "bangladesh-1971")
+
+decolonization = [
+    ("PRT", "Portugal", 1970, "AGO", "Angola", "1975-11-11", "angola", "La independencia no significa fin inmediato de la guerra civil."),
+    ("PRT", "Portugal", 1970, "MOZ", "Mozambique", "1975-06-25", "mozambique", "Fecha de independencia y reconocimiento estadounidense; no cierra los conflictos posteriores."),
+    ("PRT", "Portugal", 1970, "STP", "Santo Tomé y Príncipe", "1975-07-12", "sao-tome-and-principe", "Fecha de independencia, distinguida del establecimiento de relaciones diplomáticas."),
+    ("FRA", "Francia", 1970, "DJI", "Yibuti", "1977-06-27", "djibouti", "El territorio antes administrado por Francia se constituye como Estado independiente."),
+    ("AUS", "Australia", 1970, "PNG", "Papúa Nueva Guinea", "1975-09-16", "papua-new-guinea", "Final de la administración australiana, con territorios de distinta procedencia jurídica."),
+    ("GBR", "Reino Unido", 1970, "SLB", "Islas Salomón", "1978-07-07", "solomon-islands", "Se distingue independencia de establecimiento posterior de relaciones diplomáticas."),
+    ("GBR", "Reino Unido", 1970, "VUT", "Vanuatu", "1980-07-30", "vanuatu", "Final del condominio anglo-francés; el enlace británico se complementa con el francés."),
+    ("FRA", "Francia", 1970, "VUT", "Vanuatu", "1980-07-30", "vanuatu", "Final del condominio anglo-francés; no dos independencias o dos territorios separados."),
+    ("GBR", "Reino Unido", 1970, "ZWE", "Zimbabue", "1980-04-18", "zimbabwe", "Se distingue del régimen rodesiano de independencia unilateral no reconocida de 1965."),
+    ("NLD", "Países Bajos", 1970, "SUR", "Surinam", "1975-11-25", "suriname", "Independencia tras una etapa previa de autonomía; no fecha de fundación de todos sus órganos."),
+]
+for administrator, administrator_name, anchor, key, name, day, source, note in decolonization:
+    relation(f"decolonization-{administrator.lower()}-{key.lower()}", administrator, administrator_name, anchor,
+             key, name, int(day[:4]), day, "decolonization", f"Descolonización → {name}",
+             f"Enlace de la potencia administradora al territorio independiente; no identidad estatal compartida. {note}", f"decolonization-{source}")
+    # The two Vanuatu administrator links share a single independent-state event.
+    if key != "VUT" or administrator == "GBR":
+        record(f"{key.lower()}-independence-{day[:4]}", [key], day, "history", f"Independencia de {name}",
+               note, f"decolonization-{source}", end=(date.fromisoformat(day)+timedelta(days=1)).isoformat())
+relation("prt-gnb", "PRT", "Portugal", 1970, "GNB", "Guinea-Bissau", 1974,
+         "1973-09-24", "declaration", "Proclamación de independencia de Guinea-Bissau",
+         "Proclamación del PAIGC en 1973; reconocimiento portugués en 1974. La navegación usa un año con entidad independiente en la fuente.", "guinea-1973")
+relation("prt-cpv", "PRT", "Portugal", 1970, "CPV", "Cabo Verde", 1975,
+         "1975-07-05", "decolonization", "Independencia de Cabo Verde",
+         "Independencia negociada, separada de la proclamación guineana de 1973.", "guinea-1973")
+
+# These are dated institutional phases. Present-day consolidated law must not be
+# retrojected to a dictatorship or to the other German/Vietnamese state.
+record("prt-revolutionary-transition", ["PRT"], "1974-04-25", "institutions", "Instituciones provisionales de la transición",
+       "El derribo de la dictadura abre una transición con órganos y gobiernos provisionales. Se prepara un nuevo orden democrático; esta fase no equivale todavía a una constitución parlamentaria en vigor.", "portugal-democracy", end="1975-04-25")
+record("prt-constituent-institutions", ["PRT"], "1975-04-25", "institutions", "Asamblea Constituyente y gobiernos de transición",
+       "Las elecciones de abril de 1975 dan lugar a una Asamblea Constituyente que elabora el nuevo marco institucional. Los gobiernos provisionales continúan durante esta fase; la aprobación y entrada en vigor constitucional son hitos distintos.", "portugal-democracy", end="1976-04-25")
+record("grc-republic-1975", ["GRC"], "1975-06-11", "institutions", "República parlamentaria constitucional",
+       "El marco de 1975 establece la república parlamentaria tras la dictadura y el referéndum de 1974. Esta síntesis describe la estructura general, sin atribuirle todas las versiones posteriores del articulado.", "greece-law")
+record("grc-revision-1986", ["GRC"], "1986-03-06", "history", "Resolución de revisión constitucional de 1986",
+       "El Parlamento adopta la resolución de revisión constitucional de marzo de 1986. Cambia el equilibrio entre Presidencia y Gobierno dentro del marco republicano, sin crear por primera vez la república de 1975.", "greece-law", end="1986-03-07")
+record("esp-constituent-1977", ["ESP"], "1977-06-15", "institutions", "Elecciones y Cortes constituyentes",
+       "Las elecciones del 15 de junio dan lugar a unas Cortes plurales que elaboran el nuevo marco constitucional. Congreso y Senado inician su actividad en julio; no se aplica todavía la Constitución de 1978.", "spain-elections", end="1978-12-29")
+record("can-charter-1982", ["CAN"], "1982-04-17", "history", "Ley constitucional de 1982",
+       "La Ley constitucional de 1982 incorpora la Carta de Derechos y Libertades y un procedimiento de reforma. El hito modifica el marco constitucional, sin crear por primera vez la federación canadiense.", "canada-1982", end="1982-04-18")
+record("arg-return-1983", ["ARG"], "1983-12-10", "history", "Recuperación de las instituciones democráticas",
+       "La asunción de autoridades constitucionales cierra la dictadura iniciada en marzo de 1976. Este registro no traslada al año 1983 las reformas constitucionales de 1994.", "argentina-democracy", end="1983-12-11")
+record("chl-plebiscite-1988", ["CHL"], "1988-10-05", "history", "Plebiscito de 1988",
+       "La opción No rechaza la prolongación de Pinochet en la presidencia. Se abre un proceso electoral de transición; la transferencia presidencial no se produce ese mismo día.", "chile-vote", end="1988-10-06")
+record("pol-roundtable-1989", ["POL"], "1989-02-06", "history", "Apertura de la mesa redonda",
+       "Gobierno y oposición inician negociaciones sobre la apertura del sistema político. El comienzo del diálogo no se confunde con la posterior votación o la toma de posesión de un nuevo gobierno.", "poland-roundtable", end="1989-02-07")
+record("ddr-wall-1989", ["DDR", "DEU"], "1989-11-09", "history", "Apertura del Muro de Berlín",
+       "La apertura de los pasos permite circular entre ambos lados. Los dos Estados alemanes aún no se han reunificado; la adhesión de la RDA se produce en otro año.", "berlin-1989", end="1989-11-10")
+record("csk-velvet-1989", ["CSK"], "1989-11-17", "history", "Movilización de la Revolución de Terciopelo",
+       "La represión de una manifestación estudiantil abre una oleada de protestas y huelgas. El proceso transforma las instituciones de Checoslovaquia, sin separarla todavía en dos Estados.", "czechoslovakia-1989", end="1989-11-18")
+
+# Extend only stable summaries whose wording does not import later amendments.
+for item in records:
+    if item["id"] == "usa-constitution":
+        item["start"]="1970-01-01"
+        item["text"]=item["text"].replace("1990", "1970")
+    if item["id"] == "mex-constitution":
+        item["start"]="1970-01-01"
+        item["text"]=item["text"].replace("1990", "1970")
+relation("rvn-vsr", "RVN", "República de Vietnam", 1974, "VSR", "República de Vietnam del Sur · Gobierno Revolucionario Provisional", 1975,
+         "1975-04-30", "regime-change", "Fin del Gobierno de Saigón y administración revolucionaria sureña",
+         "El Gobierno Revolucionario Provisional existía desde 1969 como autoridad rival. El enlace señala el cambio de control de 1975, no su fundación ni la unificación formal de 1976. CShapes no ofrece una geometría separada de esta administración en 1975.", "vietnam-union")
+relation("vsr-vnm", "VSR", "República de Vietnam del Sur · Gobierno Revolucionario Provisional", 1975, "VNM", "Vietnam unificado", 1976,
+         "1976-07-02", "unification", "Unificación de las dos administraciones vietnamitas",
+         "La entidad sureña provisional se distingue de la República de Vietnam anterior y de Vietnam del Norte. La unificación formal no se fecha en la caída de Saigón de abril de 1975.", "vietnam-union")
+
 payload = {
     "retrieved": REFERENCE, "referenceDate": REFERENCE,
     "format": "country-history-relations", "license": "Original Spanish summaries; linked institutional sources retain their own terms. No source media reproduced.",

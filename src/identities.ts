@@ -1,7 +1,7 @@
 import {escapeHtml as esc} from './profiles';
 
 export type Media={file:string;title:string;url:string;artist:string;license:string;licenseUrl?:string;credit?:string;attribution?:string;attributionRequired?:boolean;sha256:string;bytes:number;display?:'full-frame';caption?:string};
-export type Leader={person:string;name:string;role:string;start:string;end:string;source:string;precision?:number;curated?:boolean;note?:string;portrait?:Media;endIsUpperBound?:boolean};
+export type Leader={person:string;name:string;role:string;start:string;end:string;source:string;precision?:number;curated?:boolean;note?:string;portrait?:Media;endIsUpperBound?:boolean;startIsCoverageBoundary?:boolean;endIsCoverageBoundary?:boolean};
 type Flag={start:string;end:string;media:Media;source:string};
 type Identity={qid:string;name:string;flags:Flag[];leaders:Leader[];notes?:{start:string;end:string;text:string;source:string}[];territoryStatus?:{start:string;end:string;text:string;source:string}};
 export type IdentityData={retrieved:string;license:string;source:string;countries:Record<string,Identity>};
@@ -74,6 +74,7 @@ export function identityFor(p:Properties,year:number,data:IdentityData,now=new D
     return l;
   });
   const priority=(l:Leader)=>{
+    if(key==='YUG'&&l.person==='Q9161')return 145;
     if(/dictador|dictadura|partido|de facto|Führer|Poglavnik|SED/i.test(l.role))return 140;
     if(/emperador|rey de Francia/i.test(l.role)&&key==='FRA'&&year<1848)return 130;
     if(['USA','FRA','RUS','CHN'].includes(key)&&(/Jefatura del Estado|Presidente de la República|Presidente de los Estados Unidos/.test(l.role)))return 120;
@@ -88,6 +89,7 @@ export function identityFor(p:Properties,year:number,data:IdentityData,now=new D
 const dateLabel=(date:string,precision=11)=>{
   const [y,m,d]=date.split('-');return precision<10?y:precision===10?`${Number(m)}/${y}`:`${Number(d)}/${Number(m)}/${y}`;
 };
+export {dateLabel as formatMandateDate};
 export function identityMarkup(p:Properties,year:number,data:IdentityData,baseUrl:string,part:'all'|'header'|'authorities'='all'){
   const identity=identityFor(p,year,data);
   const imageUrl=(media:Media)=>baseUrl+media.file;
@@ -98,7 +100,7 @@ export function identityMarkup(p:Properties,year:number,data:IdentityData,baseUr
   const name=identity.name??String(p.name??'');
   const symbolLabel=identity.key==='SAH'?'Símbolo de la RASD · ':identity.flag?.title.includes('Royal Standard')?'Estandarte real · ':['war','dispute'].includes(String(p.kind))?'Autoridad controladora · ':'';
   const flag=identity.flag?`<div class="identity-header"><img class="historic-flag" src="${esc(imageUrl(identity.flag))}" alt="Bandera de ${esc(name)} correspondiente a la fecha consultada" width="96" height="64"><span>${esc(name)}<br><small>${esc(symbolLabel)}${esc(`Símbolo al ${dateLabel(identity.date)}`)}</small></span></div><details class="flag-credit"><summary>Fuente de la bandera</summary>${credits(identity.flag)}</details>`:'';
-  const leaders=identity.leaders.map(l=>`<article class="leader-card${l.portrait?.display==='full-frame'?' full-frame':''}">${l.portrait?`<img class="leader-portrait${l.portrait.display==='full-frame'?' full-frame-photo':''}" src="${esc(imageUrl(l.portrait))}" alt="${esc(l.portrait.caption??`Retrato de ${l.name}`)}" width="100" height="128" loading="lazy">${l.portrait.caption?`<p class="photo-caption">${esc(l.portrait.caption)}</p>`:''}`:''}<div class="leader-details"><span class="leader-role">${esc(l.role)}</span><h3 class="leader-name">${esc(l.name)}</h3>${l.end>=identity.date?`<span class="term-current">${year===new Date().getFullYear()?'En funciones a la referencia':'Al cierre del año'}</span>`:''}<span class="leader-term">${dateLabel(l.start,l.precision)} — ${l.endIsUpperBound?'hasta, como máximo, ':''}${l.end===data.retrieved?`referencia ${dateLabel(data.retrieved)}`:dateLabel(l.end,l.precision)}</span>${l.note?`<p>${esc(l.note)}</p>`:''}<a class="profile-source" href="${esc(l.source)}" target="_blank" rel="noopener">Biografía y mandato ↗</a></div>${l.portrait?`<div class="portrait-credit">${credits(l.portrait)}${l.portrait.display==='full-frame'?`<a class="media-credit" href="${esc(l.portrait.licenseUrl)}" target="_blank" rel="noopener">Licencia de la fotografía ↗</a>`:''}</div>`:''}</article>`).join('');
+  const leaders=identity.leaders.map(l=>`<article class="leader-card${l.portrait?.display==='full-frame'?' full-frame':''}">${l.portrait?`<img class="leader-portrait${l.portrait.display==='full-frame'?' full-frame-photo':''}" src="${esc(imageUrl(l.portrait))}" alt="${esc(l.portrait.caption??`Retrato de ${l.name}`)}" width="100" height="128" loading="lazy">${l.portrait.caption?`<p class="photo-caption">${esc(l.portrait.caption)}</p>`:''}`:''}<div class="leader-details"><span class="leader-role">${esc(l.role)}</span><h3 class="leader-name">${esc(l.name)}</h3>${l.end>=identity.date&&!l.endIsUpperBound&&!l.endIsCoverageBoundary&&(l.precision??11)>=11?`<span class="term-current">${year===new Date().getFullYear()?'En funciones a la referencia':'Al cierre del año'}</span>`:''}<span class="leader-term">${l.startIsCoverageBoundary?'Documentado al inicio de '+dateLabel(l.start,l.precision):dateLabel(l.start,l.precision)} — ${l.endIsCoverageBoundary?'documentado hasta el límite de cobertura ':l.endIsUpperBound?'hasta, como máximo, ':''}${l.end===data.retrieved?`referencia ${dateLabel(data.retrieved)}`:dateLabel(l.end,l.precision)}</span>${l.note?`<p>${esc(l.note)}</p>`:''}<a class="profile-source" href="${esc(l.source)}" target="_blank" rel="noopener">Biografía y mandato ↗</a></div>${l.portrait?`<div class="portrait-credit">${credits(l.portrait)}${l.portrait.display==='full-frame'?`<a class="media-credit" href="${esc(l.portrait.licenseUrl)}" target="_blank" rel="noopener">Licencia de la fotografía ↗</a>`:''}</div>`:''}</article>`).join('');
   const empty=identity.note?`<p class="identity-note">${esc(identity.note)}</p>${identity.noteSource?`<a class="profile-source" href="${esc(identity.noteSource)}" target="_blank" rel="noopener">Contexto institucional y fuente ↗</a>`:''}`:!identity.leaders.length&&!identity.territoryStatus?'<p class="identity-note">Dirigente pendiente de documentación para esta entidad y fecha.</p>':'';
   if(part==='header')return flag;
   const annualNote=identity.leaders.length?`<p class="mandate-reference">Autoridades con mandato durante ${year}. Consulta hasta ${dateLabel(identity.date)}.</p>`:'';

@@ -111,3 +111,8 @@ Se incorpora una fotografía oficial de Maria Benvinda Levi con Đuro Macut, © 
 ## Fichas de investigación · 0.7
 
 Se añaden `country-indicators.json` (World Bank WDI, licencias CC BY comprobadas individualmente, proveedores y metadatos por indicador; no gasto militar SIPRI) y `country-history.json` (síntesis originales con fuentes institucionales, relaciones dirigidas y vigencia). Integridad/procedencia en el manifiesto. Ver COUNTRY-INDICATORS y COUNTRY-HISTORY para cobertura, transformaciones y límites. El formato de fichas y comparaciones se documenta en COUNTRY-WORKSPACE.
+
+
+## Ampliación 0.8 · 1970–1989 y familias de color
+
+Se conservan las fuentes cartográficas originales y se amplían identidades, medios, organizaciones, contexto y registros institucionales desde 1970. Las entidades vietnamitas y Rodesia se separan de sucesores; suplementos insulares y Sáhara llevan fechas y procedencia explícitas. `political-influence.json` añade relaciones de tutela con fuentes, intervalos y una convención de matices sin alterar geometría o soberanía. Ver HISTORICAL-AUTHORITIES, HISTORICAL-AFFILIATIONS, HISTORICAL-CONTEXT, REVIEW-METHOD y POLITICAL-COLORS. La adquisición histórica del 23/10 no amplía la referencia contemporánea del 22/10.

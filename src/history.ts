@@ -12,16 +12,22 @@ export function historicName(p:Period,year:number){
   if(p.country_name==='German Federal Republic')return year<1949?'Alemania · zonas de ocupación occidentales':year>=1990?'Alemania':'República Federal de Alemania';
   if(p.country_name==='Turkey (Ottoman Empire)'&&year<1923)return 'Imperio otomano';
   if(p.country_name==='Yugoslavia'&&year>=1992)return year>=2003?'Serbia y Montenegro':'República Federal de Yugoslavia';
-  if(p.country_name==='Yemen (Arab Republic of Yemen)'&&year>=1990)return 'Yemen';
+  if(p.country_name==='Yemen (Arab Republic of Yemen)'&&year>=1962)return year>=1990?'Yemen':'República Árabe de Yemen · Yemen del Norte';
+  if(p.country_name==="Yemen, People's Republic of")return year<1970?'República Popular de Yemen del Sur':'República Democrática Popular de Yemen · Yemen del Sur';
+  if(p.country_name==='Vietnam, Democratic Republic of')return year<1975?'República Democrática de Vietnam · Vietnam del Norte':year===1975?'Vietnam · control del norte, unificación pendiente':'Vietnam';
+  if(p.country_name==='Vietnam, Republic of')return 'República de Vietnam · Vietnam del Sur';
+  if(p.country_name==='Spanish Sahara')return 'Sáhara Español';
+  if(p.country_name==='Zimbabwe (Rhodesia)'&&year>=1965)return year<1979?'Rodesia · régimen no reconocido':year===1979?'Rodesia del Sur · transición a la independencia':'Zimbabue';
   if(p.country_name==='Macedonia (FYROM/North Macedonia)')return year>=2019?'Macedonia del Norte':'República de Macedonia';
-  if(p.country_name==='Congo, Democratic Republic of (Zaire)')return year<1997?'Zaire':'República Democrática del Congo';
+  if(p.country_name==='Congo, Democratic Republic of (Zaire)')return year>=1971&&year<1997?'Zaire':'República Democrática del Congo';
   return names[p.country_name]??p.country_name;
 }
 export function hashColor(value:string){let n=0;for(const c of value)n=(n*31+c.charCodeAt(0))|0;return Math.abs(n)%12;}
 const norm=(s:string)=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
 export function isoFor(p:Period,year:number,modernNames:Map<string,string>){
   if(p.status!=='independent'||(p.gwcode===365&&year<1991)||p.country_name==='Yugoslavia'||p.country_name==='Czechoslovakia'||p.country_name==='Austria-Hungary'||p.country_name==='German Democratic Republic')return '';
-  if(p.country_name==='Yemen (Arab Republic of Yemen)'&&year>=1990)return 'YEM';
+  if(p.country_name==='Yemen (Arab Republic of Yemen)')return year>=1990?'YEM':'';
+  if(p.country_name==="Yemen, People's Republic of"||p.country_name==='Vietnam, Republic of'||(p.country_name==='Vietnam, Democratic Republic of'&&year<1976)||(p.country_name==='Zimbabwe (Rhodesia)'&&year<1980))return '';
   if(p.country_name==='Bosnia-Herzegovina')return 'BIH';
   if(p.country_name==='Kosovo')return 'KOS';
   return aliases[p.country_name]??modernNames.get(norm(p.country_name))??'';
@@ -33,6 +39,12 @@ export function territorialEntityCode(p:Record<string,any>,year:number):string{
   if(name==='Yugoslavia')return year<=1991?'YUG':'SCG';
   if(name==='Czechoslovakia')return 'CSK';
   if(name==='German Democratic Republic')return 'DDR';
+  if(name==='Yemen (Arab Republic of Yemen)'&&year>=1962&&year<1990)return 'YAR';
+  if(name==="Yemen, People's Republic of")return 'YPR';
+  if(name==='Vietnam, Democratic Republic of'&&year<1976)return 'VDR';
+  if(name==='Vietnam, Republic of')return 'RVN';
+  if(name==='Zimbabwe (Rhodesia)'&&year>=1965&&year<1980)return 'RHO';
+  if(name==='Spanish Sahara')return 'ESH';
   const aliases:Record<string,string>={SAH:'ESH',SDS:'SSD',KOS:'XKX',PSX:'PSE'};
   return aliases[p.code]??p.code??'';
 }
@@ -58,8 +70,11 @@ export function historyAt(topology:HistoryTopology,year:number,modernNames:Map<s
     const name=historicName(p,year);
     const owner=p.status==='independent'?name:byCode.has(p.owner)?historicName(byCode.get(p.owner)!,year):`Potencia ${p.owner}`;
     const code=isoFor(p,year,modernNames),entityCode=territorialEntityCode({...p,code},year);
-    const identityKey=entityCode==='SUN'?'USSR':entityCode==='SCG'&&year<2003?'FRY':['YUG','SCG','CSK','DDR'].includes(entityCode)?entityCode:undefined;
-    return {type:'Feature',id:p.fid,geometry:geometryFor(geometry),properties:{...p,name,originalName:p.country_name,code,entityCode,identityKey,group:owner,color:hashColor(p.owner),capital:p.capname,ownerName:owner,politicalStatus:statuses[p.status]??p.status,source:'https://icr.ethz.ch/data/cshapes/'}} as Feature;
+    const identityKey=entityCode==='SUN'?'USSR':entityCode==='SCG'&&year<2003?'FRY':['YUG','SCG','CSK','DDR','YAR','YPR','VDR','RVN','RHO'].includes(entityCode)?entityCode:undefined;
+    const capital=p.country_name==='Zimbabwe (Rhodesia)'&&year<1982?'Salisbury':p.capname;
+    const temporalNote=p.country_name==='Vietnam, Democratic Republic of'&&year===1975?'CShapes agrupa todo Vietnam desde mayo de 1975 por control territorial. La unificación estatal formal fue el 2 de julio de 1976; este contorno no distingue la administración provisional del sur.':entityCode==='RHO'?(year===1979?'En diciembre de 1979 se restableció la administración británica durante la transición; Zimbabue accedió a la independencia el 18 de abril de 1980. El estatus independiente de CShapes describe el régimen previo de facto, no su reconocimiento internacional.':'Declaración unilateral de independencia de 1965 bajo un régimen de minoría blanca no reconocido por la ONU; no equivale al Estado independiente de Zimbabue de 1980.'):undefined;
+    const politicalStatus=entityCode==='RHO'?(year===1979?'Administración británica de transición al cierre anual':'Régimen de facto no reconocido internacionalmente'):statuses[p.status]??p.status;
+    return {type:'Feature',id:p.fid,geometry:geometryFor(geometry),properties:{...p,name,originalName:p.country_name,code,entityCode,identityKey,group:owner,color:hashColor(p.owner),capital,capname:capital,ownerName:owner,politicalStatus,note:temporalNote,source:'https://icr.ethz.ch/data/cshapes/'}} as Feature;
   })};
 }
 export function historicalCapitals(data:FeatureCollection):FeatureCollection{
@@ -69,4 +84,21 @@ export function historicalCapitals(data:FeatureCollection):FeatureCollection{
     if(!p.capname||!Number.isFinite(p.caplong)||seen.has(key))return[];
     seen.add(key);return [{type:'Feature',geometry:{type:'Point',coordinates:[p.caplong,p.caplat]},properties:{name:p.capname,country:p.name,code:p.code,entityCode:p.entityCode,identityKey:p.identityKey,capital:true,rank:p.status==='independent'?1:4,note:`Capital o sede administrativa de ${p.name} en el registro histórico consultado.`,source:p.source}} as Feature];
   })};
+}
+
+/** Add date-bounded reference contours without extending independent successors backwards. */
+export function withHistoricalSupplements(data:FeatureCollection,year:number,supplements:FeatureCollection,preSaharaPartition:FeatureCollection):FeatureCollection{
+  const date=`${year}-12-31`;
+  const features=data.features.map(f=>{
+    const code=f.properties?.code;
+    // CShapes incorporates claimed Saharan sectors into MAR/MRT in 1975.
+    // Keep the UN territory separate in this base; no berm/front is invented.
+    const separateSahara=year>=1975&&(code==='MAR'||(code==='MRT'&&year<=1978));
+    const reference=separateSahara?preSaharaPartition.features.find(a=>a.properties?.code===code):undefined;
+    if(!reference)return f;
+    return {...f,geometry:reference.geometry,properties:{...f.properties,territorialReference:true,geometrySource:'https://icr.ethz.ch/data/cshapes/',geometrySourceLabel:'CShapes 2.0 · contorno de 1974',referenceYear:1974,territorySource:'https://www.un.org/dppa/decolonization/en/nsgt/western-sahara',note:'Contorno CShapes de 1974 conservado como referencia para separar el Sáhara Occidental, cuyo estatus sigue pendiente ante la ONU. No reconstruye líneas históricas de control ni la partición administrada por Marruecos y Mauritania; las reclamaciones no se convierten en cesiones soberanas.'}};
+  });
+  const existing=new Set(features.map(f=>f.properties?.entityCode));
+  features.push(...supplements.features.filter(f=>f.properties!.start<=date&&f.properties!.end>=date&&!existing.has(f.properties!.entityCode)));
+  return {...data,features};
 }

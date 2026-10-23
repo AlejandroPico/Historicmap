@@ -39,3 +39,8 @@ Esta estructura permite ampliar constituciones, parlamentos, elecciones y coalic
 Hay seis indicadores anteriores y 22 nuevos, 175.996 observaciones adicionales (217 economías, 1960–2025), 33 relaciones y 28 registros nuevos (15 institucionales, 12 históricos y uno territorial). Fuentes y cobertura en COUNTRY-INDICATORS y COUNTRY-HISTORY. El gasto SIPRI no se redistribuye; personal militar termina en 2020. No hay estimación de poder militar actual. Las 493 personas u órganos sin imagen del periodo anterior siguen pendientes.
 
 La extensión de la interfaz no acredita que todos los países y años tengan datos completos. Persisten los límites de geometrías y control efectivo de versiones anteriores. Los mapas comparados conservan las fuentes disponibles para cada fecha; no se dibujan frentes o cambios de frontera para que las comparaciones parezcan más detalladas.
+
+
+## Continuidad en 0.8
+
+Las herramientas permanecen al extender los datos hasta 1970: fichas persistentes, doce apartados, cronología, comparación y gráficos. Los registros institucionales abiertos no se extrapolan a años posteriores a la referencia documental. Una entidad sin geometría activa puede mostrar su bandera todavía vigente y sus mandatos propios del año, bajo una explicación de ausencia cartográfica, con guardia de identidad exacta. No se le asigna la ficha de un sucesor. Territorio y Relaciones explican la familia de color de una tutela documentada y enlazan su fuente. Nuevas cifras y fuentes institucionales en COUNTRY-HISTORY; contratos de pintura en POLITICAL-COLORS.

@@ -8,9 +8,9 @@ const topology:HistoryTopology=read('history.topojson'),profiles=read('profiles.
 const names=new Map<string,string>(Object.entries(profiles.countries).flatMap(([code,p]:[string,any])=>[p.name,p.englishName,p.official].filter(Boolean).map(n=>[normalizedName(n),code] as [string,string])));
 
 describe('country-year authority lookup through the actual map identity resolver',()=>{
- it('resolves an authority or a sourced institutional vacancy for every independent CShapes country in 1990–2019',()=>{
+ it('resolves an authority or a sourced institutional vacancy for every independent CShapes country in 1970–2019',()=>{
   const missing:string[]=[],cache=new Map();
-  for(let year=1990;year<=2019;year++){
+  for(let year=1970;year<=2019;year++){
    const world=politicalData(historyAt(topology,year,names,cache),year);
    for(const f of world.features.filter(f=>f.properties?.status==='independent')){
     const identity=identityFor(f.properties!,year,identities,new Date(2026,9,22));

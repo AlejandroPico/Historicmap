@@ -1,6 +1,6 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **23 de octubre de 2026**. Versión del producto: **0.7.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **23 de octubre de 2026**. Versión del producto: **0.8.0**.
 
 ## 1. Identidad y visión
 
@@ -359,3 +359,42 @@ Publicado **d6a8cfb4119edcf77d50f2133de46111aa5472bb**. [Quality 39881593494](ht
 Verificación pública del 23/10/2026: JS `index-DWRzUWMW.js`, CSS `index-b0OcPlkX.css`, tres manifiestos idénticos byte por byte a los locales y bytes de ambos conjuntos nuevos con SHA-256 correcto. La ficha pública de España conserva Economía al pasar de 2026 a 2000, con contenido/fecha actualizados. Evidencia local ignorada `.cache/release-0.7.0-public-2000.jpg`; informe `.cache/public-verification-0.7.0.json`. Los gráficos y todas las banderas de comparación conservan créditos/proveedores/licencias visibles.
 
 Los resultados locales intermedios, actualización de dos comprobaciones antiguas al nuevo contrato y seis pruebas focales finales se registran en DELIVERY-0.7.0; Quality valida la suite completa sobre la revisión final con créditos. También se verifican los bytes preparados en Git de los 2.923 recursos. El cierre documental usa `[skip ci]` y no cambia la aplicación validada. No confundir apartados disponibles con cobertura completa: siguientes ampliaciones deben rellenar campos/fechas con fuentes, sin perder estas herramientas ni restaurar cierres automáticos de fichas. Las carencias de datos, medios y cartografía previas continúan expresas.
+
+
+## 16. Ampliación 0.8.0 · historia mundial hasta 1970
+
+El propietario pide continuar la ampliación mundial desde 1990 hasta **1970**, manteniendo todas las herramientas de investigación incorporadas en 0.7. Durante esta entrega añade un requisito permanente: los países/territorios bajo dominio, dependencia o tutela de una potencia deben mostrar **matices de su color principal**, fechados y documentados. La URSS conserva rojo y sus satélites tonos rojizos. El criterio debe poder aplicarse a cualquier potencia/conflicto; no se deduce subordinación de una simple alianza ni de compartir ideología.
+
+### Datos e identidades
+
+Adquisición incremental de cargos nacionales e históricos 1970–1989, preservando curaciones anteriores, licencias, fotografías y precisión. Las oficinas actuales no bastan para jefaturas disueltas; las curaciones focales completan Bulgaria, Mongolia, Nepal, Irán, Birmania, Vietnam, Yugoslavia y regímenes/juntas de América y África. No usar el primer resultado de una búsqueda como identificación: se corrigen homónimos de Ian Smith y Georgi Atanasov mediante identidad humana y biografía. Los órganos colectivos conservan nombre, composición cuando está documentada y ausencia de retrato individual inventado.
+
+Claves nuevas VDR (Vietnam del Norte), RVN (República de Vietnam), VSR (Gobierno Revolucionario Provisional/República de Vietnam del Sur) y RHO. VNM sólo identifica la entidad unificada desde 1976; mandatos continuados se parten por cambio de entidad con nota, sin fingir dimisión o nuevo nombramiento. VSR tiene inventario y navegación explícita, pero CShapes no ofrece contorno separado de su administración en 1975. Se conservan sus mandatos propios en una ficha ausente del mapa. RHO no hereda estadísticas de Zimbabue; 1979 explica la administración británica de transición. Los dos Yemen conservan identidades propias y estadísticas sucesoras vacías.
+
+**Referencia contemporánea: 22/10/2026**; adquisición histórica: 23/10/2026. Se guardan separadamente `retrieved`/`currentReferenceDate` y `historicalRetrieved` en identidades. No avanzar el tope de actualidad por investigar el pasado: las banderas y mandatos actuales estaban acreditados al 22, y cambiarlo al 23 los dejaría sin referencia válida o extrapolaría vigencias. Los límites de cobertura de cargos/organizaciones se rotulan como tales; no son fechas reales de nombramiento/adhesión.
+
+### Cartografía, contexto y relaciones
+
+CShapes ya contenía el periodo. Se conservan sus coordenadas y se corrigen nombres, identidad y unión estadística. Vietnam norte/sur separados hasta 1974; el contorno agrupado de 1975 se declara como control anterior a la unificación formal del 2/7/1976. Salisbury se mantiene hasta 1981. Bangladesh, colonias portuguesas y otras independencias se consultan en sus intervalos de fuente.
+
+Los 23 suplementos Natural Earth son referencias contemporáneas explícitas, con fechas individuales: no admitir todos los pequeños Estados desde 1970 ni confundir admisión ONU con independencia. Marruecos y Mauritania usan contornos CShapes de 1974 en los periodos indicados para evitar incluir los sectores reclamados del Sáhara en la base. La ficha identifica CShapes como su fuente, sin atribuirlos a Natural Earth. Sáhara Español previo y territorio no autónomo posterior conservan la distinción; no se dibuja el muro ni el control diario.
+
+Organizaciones: 31/546 intervalos desde 1970; `startIsCoverageBoundary` sustituye la comparación hardcodeada con 1990. Aplicación territorial CE de Groenlandia no se cuenta como otro Estado miembro. EAC original, cooperación intermedia y comunidad actual conservan discontinuidades. Contexto: 205 fases; inventario institucional/histórico: 50 relaciones y 49 registros. Se separan anticipaciones de Alvor, Constituyente portuguesa, retirada española y pronunciamientos posteriores. `recordsFor` no extiende registros abiertos más allá de `referenceDate`. Fuentes y límites en HISTORICAL-AFFILIATIONS, HISTORICAL-CONTEXT, COUNTRY-HISTORY y ANNUAL-REVIEW.
+
+### Color político
+
+`political-influence.json` y `political.ts` añaden relaciones fechadas de satélite, cliente, bloque con autonomía e intervención. Las colonias/protectorados/mandatos usan la identidad real del administrador del mismo inventario, resolviendo nombre frente a código antes de colorear. Mantener fronteras, entidades y datos propios; sólo cambia pintura. La Rumanía autónoma usa un matiz más suave; Albania después de 1961 y Yugoslavia de 1970 no se convierten en satélites soviéticos. Las transiciones de 1989 cierran relaciones según su fuente, sin deducirlas de la extinción posterior del Pacto de Varsovia.
+
+Las relaciones de ocupación/intervención usan `controlInfluenceColor` y siguen «Ocupaciones y disputas»; el color soberano se recupera al desactivar. Los controles territoriales ya documentados conservan color sólido por potencia y matices de cliente. No inventar influencia mundial completa, porcentajes de dominio o frentes por un parentesco cromático. Fuentes visibles en Territorio/Relaciones y explicación en leyenda. Contrato y pendientes en POLITICAL-COLORS.
+
+### Preparación y validación
+
+Orden: `enrich-1970-authorities.py` → `curate-1970-focus.py` → `curate-1970-americas-africa.py --apply` → `curate-1970-asia.py --apply` → `curate-1970-party-leaders.py --apply` → `enrich-1970-portraits.py` → `enrich-1970-flags.py` → `curate-1970-symbols.py` → `prepare-recent-supplements.py` y `prepare-country-history.py` → `register-1970-data.mjs` → verificación/auditoría/pruebas/compilación/navegador. Los scripts de autoridades recientes 0.6 se conservan para trazabilidad; no sustituir esta ampliación por una reconstrucción inicial que elimine curaciones. Las consultas de cargos incluyen el límite temporal en la clave de caché para no reutilizar accidentalmente resultados recortados a 1990.
+
+Estado de entrega y cifras finales se completan en DELIVERY-0.8.0 tras la validación/pública. No presentar código local como ya publicado. Persisten falta de imágenes, variantes de bandera, autoridades coloniales/secundarias, reconstrucción de control y frentes del Levante, entre otros límites previos. Conservar ficha y herramientas al ampliar los datos; la siguiente ampliación anual debe contrastar fuentes por región antes de afirmar exactitud exhaustiva.
+
+
+Inventario final de 0.8: 278 claves/6.945 mandatos; en 1970–1989, 1.852 registros/1.144 personas u órganos, 867 con imagen/277 sin ella. 3.474 medios (395 SVG + 3.079 fotografías), 150.116.391 bytes, 603 medios netos más que 0.7. Se adquirieron once diseños focales de bandera; la identificación ambigua de Traykov se omite y se excluye de posteriores adquisiciones. El símbolo de una entidad no puede superar su existencia por el rango anual de un nombre de archivo. Cifras con denominadores y límites en HISTORICAL-AUTHORITIES/SYMBOLS-1970.
+
+
+La curación adicional de partido incorpora 25 mandatos; los reyes Mahendra y Sisavang Vatthana y el Consejo de Estado de Heng Samrin completan las fichas focales. Los fines de cobertura de Deng y Heng no se presentan como ceses. Mantener precisión anual/mensual en tarjetas, instituciones y cronología; la insignia de titular al cierre sólo procede con fechas diarias acreditadas. Las dependencias actuales clasificadas explícitamente por Natural Earth también reciben matices de su soberano; no aplicar esta regla a simples reclamaciones o territorios disputados, ni retroproyectar perfiles de 2026 al periodo histórico.

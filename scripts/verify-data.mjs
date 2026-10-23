@@ -25,6 +25,15 @@ for (const entry of manifest.entries) {
     for(const r of data.records)if(!r.keys.length||!r.start||(r.end&&r.end<=r.start))throw Error(`Invalid institutional interval ${r.id}`);
     for(const r of data.relations)if(!r.date||!r.from.key||!r.to.key||!Number.isInteger(r.from.year)||!Number.isInteger(r.to.year))throw Error(`Invalid entity relation ${r.id}`);
   }
+  else if(entry.format==='dated-political-influence'){
+    if(data.records.length!==entry.records||!data.referenceDate)throw Error('Invalid political influence catalogue');
+    const ids=new Set();
+    for(const r of data.records){
+      if(ids.has(r.id)||!r.keys.length||!r.power||!r.source||!r.note||r.start>=r.end)throw Error(`Invalid political relationship ${r.id}`);
+      ids.add(r.id);
+      for(const other of data.records)if(r.id!==other.id&&r.keys.some(k=>other.keys.includes(k))&&r.start<other.end&&other.start<r.end)throw Error(`Ambiguous political relationships ${r.id}/${other.id}`);
+    }
+  }
   else if(entry.format==='dated-organizations'){
     if(data.organizations.length!==entry.organizations||!data.referenceDate)throw Error('Invalid organization catalogue');
     for(const o of data.organizations){if(!o.formed||!o.source||!o.label)throw Error(`Missing organization provenance ${o.id}`);for(const m of o.memberships)if(!m.code||!m.source||!m.start||(m.end&&m.end<=m.start))throw Error(`Invalid membership ${o.id}:${m.code}`);}

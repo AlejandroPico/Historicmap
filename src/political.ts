@@ -1,5 +1,19 @@
 import type {FeatureCollection} from 'geojson';
 import {hashColor,territorialEntityCode} from './history';
+import influenceCatalogue from '../public/data/political-influence.json';
+import type {ProfileData} from './profiles';
+
+export type PoliticalInfluence={id:string;keys:string[];power:string;start:string;end:string;kind:string;source:string;note:string};
+export const politicalInfluences=influenceCatalogue.records as PoliticalInfluence[];
+export function influenceFor(key:string,year:number){
+  const date=`${year}-12-31`;
+  return politicalInfluences.find(r=>r.keys.includes(key)&&r.start<=date&&r.end>date);
+}
+/** A stable tint identifies a dependency without erasing its separate identity. */
+export function dependencyColor(color:string,key:string,soft=false){
+  const amount=(soft ? .37 : .18)+(hashColor(key)%5)*.025;
+  return '#'+[1,3,5].map(i=>Math.round(parseInt(color.slice(i,i+2),16)*(1-amount)+255*amount).toString(16).padStart(2,'0')).join('');
+}
 
 const palette=['#78938a','#af9c77','#658e98','#9c887a','#9ba783','#b39c80','#7b929d','#a6a386','#8f9c8d','#9e8883','#819c9f','#b5a48a'];
 const families:Record<string,string>={
@@ -25,6 +39,7 @@ export function entityKey(p:Record<string,unknown>,year:number):string{
   if((p.gwcode===365||name==='Russia (Soviet Union)')&&year>=1922&&year<=1990)key='USSR';
   if(key==='ESP'&&year>=1931&&year<=1938)key='ESP-REPUBLIC';
   if(key==='CHN'&&year<1949)key=year>=1912?'ROC':'QING';
+  if(name==='Turkey (Ottoman Empire)'&&year>=1923)key='TUR';
   return key;
 }
 /** Editorial colors identify political regimes, never inferred solely from a flag. */
@@ -49,12 +64,27 @@ export function regimeColor(key:string,year:number):string{
     default:return palette[hashColor(key)];
   }
 }
-export function politicalData(data:FeatureCollection,year:number):FeatureCollection{
+export function politicalData(data:FeatureCollection,year:number,profiles?:ProfileData):FeatureCollection{
+  const sovereignNames=new Map<string,string>();
+  const sovereignLabels=new Map<string,string>();
+  for(const f of data.features){const p=f.properties??{};if(p.status==='independent'||!p.status){const key=entityKey(p,year);if(p.name)sovereignLabels.set(key,String(p.name));for(const name of [p.name,p.originalName,...(profiles&&year>=2020?[p.group]:[])])if(name)sovereignNames.set(String(name),key);}}
   return {...data,features:data.features.map(f=>{
     const p=f.properties??{};const identityKey=entityKey(p,year);
-    const ownerKey=p.status&&p.status!=='independent'?entityKey({name:p.ownerName},year):p.parentName?entityKey({name:p.parentName},year):identityKey;
+    const profile=profiles&&year>=2020?profiles.countries[profiles.codes?.[p.code]??p.code]:undefined;
+    // Only the source's dependency classification, never a disputed claimant
+    // or the modern sovereign of an unrelated historical territory.
+    const modernOwner=profile?.territoryType==='Dependency'&&profile.sovereign?sovereignNames.get(profile.sovereign):undefined;
+    const modernDependency=!!modernOwner&&modernOwner!==identityKey;
+    const ownerKey=modernDependency?modernOwner!:p.status&&p.status!=='independent'&&p.ownerName?sovereignNames.get(String(p.ownerName))??entityKey({name:p.ownerName},year):p.parentName?sovereignNames.get(String(p.parentName))??entityKey({name:p.parentName},year):identityKey;
     const name=identityKey==='FRA'&&(!p.parentName||p.parentName===p.originalName)&&!p.status&&year<1886?frenchName(year):p.name;
-    return {...f,properties:{...p,name,identityKey,entityCode:p.entityCode??territorialEntityCode(p,year),politicalColor:regimeColor(ownerKey,year)}};
+    const influence=influenceFor(identityKey,year);
+    const dependent=modernDependency||!!(p.status&&p.status!=='independent'&&p.ownerName)||!!p.parentName&&p.parentName!==p.originalName;
+    const power=influence?.power??ownerKey;
+    const baseColor=regimeColor(power,year);
+    const controlInfluence=!!influence&&['occupation','intervention'].includes(influence.kind);
+    const tinted=influence?dependencyColor(baseColor,identityKey,influence.kind==='bloc'):dependent?dependencyColor(baseColor,identityKey):baseColor;
+    const politicalColor=controlInfluence?regimeColor(ownerKey,year):tinted;
+    return {...f,properties:{...p,name,identityKey,entityCode:p.entityCode??territorialEntityCode(p,year),politicalColor,...(controlInfluence?{controlInfluenceColor:tinted}:{}),...(influence?{dominantPower:power,influenceKind:influence.kind,influenceNote:influence.note,influenceSource:influence.source}:modernDependency?{dominantPower:ownerKey,influenceKind:'dependency',influenceNote:`Dependencia vinculada a ${sovereignLabels.get(ownerKey)??profile!.sovereign} según la referencia contemporánea de Natural Earth incorporada en 2026. El matiz indica vinculación administrativa; conserva identidad y datos propios.`,influenceSource:'https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/'}:{})}};
   })};
 }
 function frenchName(year:number){
