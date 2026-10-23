@@ -22,7 +22,7 @@ export async function annualData(year:number){
     const data=await asset<FeatureCollection>('early-modern.geojson');
     return {...data,features:data.features.filter(f=>f.properties!.start<=year&&f.properties!.end>=year)};
   }
-  const [history,profiles,supplements]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1970?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined)]);
+  const [history,profiles,supplements]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1960?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined)]);
   names??=new Map(Object.entries(profiles.countries).flatMap(([iso,p])=>[p.name,p.englishName??'',p.official??''].filter(Boolean).map(n=>[normalizedName(n),iso])));
   const data=historyAt(history,year,names,geometryCache);
   if(!supplements)return data;
@@ -32,9 +32,15 @@ export const modernCities=()=>asset<FeatureCollection>('cities.geojson');
 export async function overlaysFor(year:number):Promise<FeatureCollection>{
   const files=['territorial-overlays.geojson',...(year>=1990?['recent-control.geojson']:[]),...(year>=1914&&year<=1949?['historical-control.geojson']:[]),...(year>=1936&&year<=1939?['spanish-civil-war.geojson']:[])];
   const data=await Promise.all(files.map(f=>asset<FeatureCollection>(f)));
-  return {type:'FeatureCollection',features:data.flatMap(d=>d.features).filter(f=>f.properties!.start<=year&&f.properties!.end>=year).map(f=>{
+  const all=data.flatMap(d=>d.features);
+  const features:FeatureCollection['features']=all.filter(f=>f.properties!.start<=year&&f.properties!.end>=year).map(f=>{
     const p=f.properties!;
     const controller=p.controller??(p.uid==='crimea'?'RUS':p.kind==='dispute'?'ISR':'');
-    return {...f,properties:{...p,controller,identityKey:p.identityKey??controller,controlColor:p.controlColor??(controller==='ISR'?'#679ab6':regimeColor(controller,year))}};
-  })};
+    const occupiedKey=p.uid==='crimea'?'UKR':p.uid==='golan'?'SYR':String(p.uid).startsWith('sinai')?'EGY':p.uid==='kuwait-1990'?'KWT':undefined;
+    return {...f,properties:{...p,controller,occupiedKey:p.occupiedKey??occupiedKey,identityKey:p.identityKey??controller,controlColor:p.controlColor??(controller==='ISR'?'#679ab6':regimeColor(controller,year))}};
+  });
+  // The 1938 extent documents incorporation of Austria/Sudeten areas before
+  // wartime occupation. It is a mask for hatching, not another control country.
+  if(year>=1939&&year<=1944){const incorporation=all.find(f=>f.properties?.controller==='DEU'&&f.properties?.start===1938);if(incorporation)features.push({...incorporation,properties:{...incorporation.properties,kind:'annexation-mask',controller:'DEU'}});}
+  return {type:'FeatureCollection',features};
 }

@@ -52,7 +52,8 @@ describe('1970–1989 source boundaries and dated territorial identities',()=>{
    const f=entity(year,code)!;expect(f.properties?.territorialReference,code).toBe(true);
    expect(f.geometry,`${code} original reference coordinates`).toEqual(modern.features.find(a=>a.properties?.code===code)!.geometry);
   }
-  for(const code of ['AND','LIE','MCO','SMR','VAT','NRU','WSM'])expect(entity(1970,code)?.properties?.coverageStartIsFloor).toBe(true);
+  for(const code of ['AND','LIE','MCO','SMR','VAT'])expect(entity(1970,code)?.properties?.coverageStartIsFloor).toBe(true);
+  for(const code of ['NRU','WSM'])expect(entity(1970,code)?.properties?.coverageStartIsFloor).toBe(false);
   expect(entity(1970,'TON')).toBeDefined();
  });
  it('keeps Spanish Sahara colonial before withdrawal and separates later claimed sectors',()=>{

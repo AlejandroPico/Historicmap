@@ -1,5 +1,13 @@
 # Familias de color político
 
+**Contrato vigente desde 0.9:** el control territorial se integra en la geometría seleccionable. El botón de ocupaciones añade franjas opcionales y ya no alterna entre control y soberanía. La explicación original de ese interruptor más abajo queda sustituida por esta decisión posterior del propietario. Más detalle en DELIVERY-0.9.0 y sección18 de agentes.md.
+
+`src/historical-palette.ts` contiene33 familias editoriales y `docs/POLITICAL-PALETTE.csv` permite revisarlas. Roma y Bizancio tienen púrpuras distintos; España imperial, dorado; Francia napoleónica, azul; Alemania nazi, gris; URSS, rojo; Reino Unido, rosa malva. Francia, España, Alemania, Italia y Portugal tienen etapas de régimen diferenciadas; otros casos siguen necesitando curación. Ninguna tinta constituye una clasificación ideológica universal ni un color oficial acreditado de todos los imperios.
+
+Las franjas son3:1, controlador en ancho mayor y territorio ocupado en ancho menor. Las incorporaciones documentadas en la base y el ámbito alemán de1938 no se tratan como simples ocupaciones posteriores. Las reclamaciones actuales no se reconocen como cesiones por esta regla. El inventario geométrico es parcial y no contiene todos los frentes/anexiones.
+
+El CSV original del propietario **no estaba disponible en la ruta indicada**. No se presenta este catálogo propio como importación de ese documento; conciliación pendiente al recuperarlo.
+
 El propietario solicita que los territorios dependientes, Estados satélite y países sometidos a tutela compartan una familia de color con la potencia dominante, con matices que permitan distinguirlos. La URSS conserva el rojo, Estados Unidos el azul y Alemania nazi el gris oscuro. Esta convención es editorial; nunca transforma por sí sola una relación de influencia en soberanía o una alianza en subordinación.
 
 ## Aplicación

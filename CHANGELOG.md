@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.9.0 · 2026-10-23
+
+- Control territorial integrado en la geometría seleccionable; el interruptor de ocupaciones activa franjas, apagadas inicialmente, con color fino del territorio ocupado y grueso del controlador. Incorporación y ocupación diferenciadas dentro de la cobertura documental.
+- Fondo terrestre de referencia en todo el dominio histórico para evitar huecos políticos del color del océano; no implica territorios deshabitados ni costas históricas reconstruidas.
+- Familias cromáticas históricas, matices de dependencia, contraste británico/soviético y cambios de régimen. Paleta editorial exportada en CSV, separada de ideologías modernas.
+- Ampliación de autoridades, símbolos y contexto a 1960–1969, con entidades históricas propias, República Árabe Unida, Tanganica/Zanzíbar, Yemen monárquico y administradores UNTEA. Ventanas de cobertura y mandatos exactos conservan su distinción.
+- Membresías desde 1960, nuevas relaciones navegables e instituciones focales. Auditoría durable por país-año y pizarra `tareas.md`; fotos, símbolos, frentes y suplencias pendientes expresos.
+- El CSV adjunto del propietario no estaba disponible en la ruta indicada: no se declara importado. Investigación, validación y estado de entrega en DELIVERY-0.9.0.
+
 ## 0.8.1 · 2026-10-23
 
 - Corregida la pérdida de nombres, identidades y colores tras actualizaciones de año: las diferencias de propiedades usan borrados explícitos compatibles con el índice de teselas. Los clics consultan el registro completo del territorio activo.

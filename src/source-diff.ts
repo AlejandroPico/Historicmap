@@ -9,7 +9,9 @@ export function sourceDiff(before:FeatureCollection,after:FeatureCollection):Geo
     const previous=old.get(f.id!);
     if(!previous){diff.add.push(f);continue;}
     const propertiesChanged=JSON.stringify(previous.properties)!==JSON.stringify(f.properties);
-    const geometryChanged=previous.geometry!==f.geometry;
+    // Worker messages clone objects, including coastlines that did not change.
+    // Object identity alone would retessellate the entire world for each year.
+    const geometryChanged=previous.geometry!==f.geometry&&JSON.stringify(previous.geometry)!==JSON.stringify(f.geometry);
     if(!propertiesChanged&&!geometryChanged)continue;
     // geojson-vt 6.3 returns immediately on removeAllProperties, ignoring any
     // additions in that same update. Send explicit deletions instead, keeping

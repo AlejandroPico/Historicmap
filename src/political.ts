@@ -2,6 +2,7 @@ import type {FeatureCollection} from 'geojson';
 import {hashColor,territorialEntityCode} from './history';
 import influenceCatalogue from '../public/data/political-influence.json';
 import type {ProfileData} from './profiles';
+import {historicalFamily,historicalColor} from './historical-palette';
 
 export type PoliticalInfluence={id:string;keys:string[];power:string;start:string;end:string;kind:string;source:string;note:string};
 export const politicalInfluences=influenceCatalogue.records as PoliticalInfluence[];
@@ -18,6 +19,7 @@ export function dependencyColor(color:string,key:string,soft=false){
 const palette=['#78938a','#af9c77','#658e98','#9c887a','#9ba783','#b39c80','#7b929d','#a6a386','#8f9c8d','#9e8883','#819c9f','#b5a48a'];
 const families:Record<string,string>={
   'United States of America':'USA','United States':'USA','Estados Unidos':'USA',
+  'Egypt':'EGY','Egipto':'EGY',
   'Spain':'ESP','España':'ESP','Kingdom of Spain':'ESP','Spanish Empire':'ESP','First Spanish Republic':'ESP','Francoist Spain':'ESP',
   'Second Spanish Republic':'ESP-REPUBLIC','Spanish Nationalists':'ESP-NATIONALIST',
   'Germany (Prussia)':'DEU','German Federal Republic':'DEU','German Democratic Republic':'DDR','Nazi Germany':'DEU','German Empire':'DEU','Kingdom of Prussia':'PRUSSIA',
@@ -33,13 +35,14 @@ const families:Record<string,string>={
 export function entityKey(p:Record<string,unknown>,year:number):string{
   if(p.identityKey)return String(p.identityKey);
   const name=String(p.originalName??p.country_name??p.name??'');
-  let key=families[name]??String(p.code||p.wikidata||name);
+  let key=families[name]??historicalFamily(name)??String(p.code||p.wikidata||name);
   const codes:Record<string,string>={SSD:'SDS',XKX:'KOS',PSE:'PSX',ESH:'SAH'};
   key=codes[key]??key;
   if((p.gwcode===365||name==='Russia (Soviet Union)')&&year>=1922&&year<=1990)key='USSR';
   if(key==='ESP'&&year>=1931&&year<=1938)key='ESP-REPUBLIC';
   if(key==='CHN'&&year<1949)key=year>=1912?'ROC':'QING';
   if(name==='Turkey (Ottoman Empire)'&&year>=1923)key='TUR';
+  if(key==='EGY'&&year>=1958&&year<=1960)key='UAR';
   return key;
 }
 /** Editorial colors identify political regimes, never inferred solely from a flag. */
@@ -51,17 +54,18 @@ export function regimeColor(key:string,year:number):string{
     case 'CHN-COMMUNIST':return year>=1949?'#d5b34b':'#a6784d';
     case 'RUS':return year<=1916?'#74966e':year<=1921?'#b95c54':'#9c7b9f';
     case 'USA':return '#4e89bd';
-    case 'GBR':return '#a78baf';
+    case 'PRT':return year<=1909?'#5b8596':year<=1925?'#5b9b7c':year<=1973?'#638d73':'#71a895';
+    case 'GBR':return '#b2789b';
     case 'CHN':return '#d5b34b';case 'ROC':return '#ddbe64';case 'QING':return '#bb9a46';
     case 'JPN':return year<=1945?'#c47b70':'#bd9d91';
     case 'FRA':return year<=1791?'#b9b4a1':year<=1794?'#789bab':year<=1799?'#6599ac':year<=1803?'#4b8baa':year<=1814?'#387cc1':year<=1829?'#adab91':year<=1847?'#7a9fbc':year<=1851?'#669ab9':year<=1869?'#456fa8':year<=1940?'#6796ad':year<=1945?'#5c91ad':year<=1957?'#729daa':'#6a9db1';
     case 'FRA-FREE':return '#528fbc';case 'FRA-VICHY':return '#9598a1';
     case 'ESP-REPUBLIC':return '#9b688f';case 'ESP-NATIONALIST':return '#b7914e';
-    case 'ESP':return year===1873?'#a57a9c':year>=1923&&year<=1929?'#8f9365':year<=1930?'#b9a365':year<=1975?'#b7914e':'#c2a880';
-    case 'ITA':return year>=1922&&year<=1943?'#788b65':'#8daa8c';
+    case 'ESP':return year===1873?'#a57a9c':year>=1923&&year<=1929?'#8f9365':year<=1930?'#c3a04f':year<=1975?'#b7914e':'#c2a880';
+    case 'ITA':return year>=1922&&year<=1943?'#646f5d':year<=1945?'#8daa8c':'#75a38e';
     case 'PRUSSIA':return '#6f8290';case 'CROATIA-CLIENT':return '#96999d';
-    case 'AUT-HUN':return '#ac8c64';case 'OTT':return '#8f9b6c';
-    default:return palette[hashColor(key)];
+    case 'AUT-HUN':return '#ac8c64';case 'OTT':return '#9b5b64';
+    default:return historicalColor(key)??palette[hashColor(key)];
   }
 }
 export function politicalData(data:FeatureCollection,year:number,profiles?:ProfileData):FeatureCollection{
@@ -75,10 +79,11 @@ export function politicalData(data:FeatureCollection,year:number,profiles?:Profi
     // or the modern sovereign of an unrelated historical territory.
     const modernOwner=profile?.territoryType==='Dependency'&&profile.sovereign?sovereignNames.get(profile.sovereign):undefined;
     const modernDependency=!!modernOwner&&modernOwner!==identityKey;
-    const ownerKey=modernDependency?modernOwner!:p.status&&p.status!=='independent'&&p.ownerName?sovereignNames.get(String(p.ownerName))??entityKey({name:p.ownerName},year):p.parentName?sovereignNames.get(String(p.parentName))??entityKey({name:p.parentName},year):identityKey;
+    const parent=p.parentName??(year<1789&&!p.status&&p.group&&p.group!==p.name?p.group:undefined);
+    const ownerKey=modernDependency?modernOwner!:p.status&&p.status!=='independent'&&p.ownerName?sovereignNames.get(String(p.ownerName))??entityKey({name:p.ownerName},year):parent?sovereignNames.get(String(parent))??entityKey({name:parent},year):identityKey;
     const name=identityKey==='FRA'&&(!p.parentName||p.parentName===p.originalName)&&!p.status&&year<1886?frenchName(year):p.name;
     const influence=influenceFor(identityKey,year);
-    const dependent=modernDependency||!!(p.status&&p.status!=='independent'&&p.ownerName)||!!p.parentName&&p.parentName!==p.originalName;
+    const dependent=modernDependency||!!(p.status&&p.status!=='independent'&&p.ownerName)||!!parent&&parent!==p.originalName;
     const power=influence?.power??ownerKey;
     const baseColor=regimeColor(power,year);
     const controlInfluence=!!influence&&['occupation','intervention'].includes(influence.kind);

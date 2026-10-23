@@ -203,17 +203,17 @@ Completar autoridades, banderas, guerras civiles y regímenes por regiones; fren
 | 1957 | 168 | CShapes · 31 diciembre · 41c87312ef3b | Ghana, Malaysia  |
 | 1958 | 167 | CShapes · 31 diciembre · c23c0ec7900c | Guinea, Marruecos, Sáhara Español  |
 | 1959 | 164 | CShapes · 31 diciembre · c8dd2847a8ab | Estados Unidos, Mali, Pakistan  |
-| 1960 | 164 | CShapes · 31 diciembre · b6bded6f9b03 | Brazil, Cyprus, Mali, Senegal, Benin, Mauritania, Niger, Cote D'Ivoire, Burkina Faso (Upper Volta), Togo, Cameroon, Nigeria, Gabon, Central African Republic, Chad, Congo, República Democrática del Congo, Somalia, Madagascar (Malagasy)  |
-| 1961 | 164 | CShapes · 31 diciembre · e2b65922f17e | Sierra Leone, Cameroon, Nigeria, Tanzania (Tanganyika), Kuwait  |
-| 1962 | 164 | CShapes · 31 diciembre · 47a7fe1f5ed2 | Jamaica, Trinidad and Tobago, Uganda, Burundi, Rwanda, Argelia, West Irian (Dutch New Guinea), Federation of South Arabia  |
-| 1963 | 161 | CShapes · 31 diciembre · 6d7aa8e52c9e | Kenya, Zanzibar, Malaysia, West Irian (Dutch New Guinea)  |
-| 1964 | 162 | CShapes · 31 diciembre · 50ba36fead61 | Malta, Tanzania (Tanganyika), Zambia, Zimbabwe (Rhodesia), Malawi  |
-| 1965 | 163 | CShapes · 31 diciembre · 836dfe852a37 | Gambia, Rodesia · régimen no reconocido, Maldives, Malaysia, Singapore  |
-| 1966 | 163 | CShapes · 31 diciembre · 797a3bc67d80 | Barbados, Guyana, Namibia, Lesotho, Botswana  |
-| 1967 | 161 | CShapes · 31 diciembre · 9df110e42c0b | Egipto, Siria, Israel, República Popular de Yemen del Sur, Pakistan  |
-| 1968 | 161 | CShapes · 31 diciembre · 808357175506 | Equatorial Guinea, Swaziland (Eswatini), Mauritius  |
-| 1969 | 160 | CShapes · 31 diciembre · d97864153fa2 | Indonesia  |
-| 1970 | 168 | CShapes · 31 diciembre + 8 contornos de referencia · b6244b405184 | Belize, Fiji, Andorra · contorno de referencia, Liechtenstein · contorno de referencia, Mónaco · contorno de referencia, San Marino · contorno de referencia, Ciudad del Vaticano · contorno de referencia, Nauru · contorno de referencia, Samoa · contorno de referencia, Tonga · contorno de referencia  |
+| 1960 | 171 | CShapes · 31 diciembre + 7 contornos de referencia · 4d7ae8adf312 | Brazil, Cyprus, Mali, Senegal, Benin, Mauritania, Niger, Cote D'Ivoire, Burkina Faso (Upper Volta), Togo, Cameroon, Nigeria, Gabon, Central African Republic, Chad, Congo, República Democrática del Congo, Somalia, Madagascar (Malagasy), Andorra · contorno de referencia, Liechtenstein · contorno de referencia, Mónaco · contorno de referencia, San Marino · contorno de referencia, Ciudad del Vaticano · contorno de referencia, Kuwait · contorno de referencia, Baréin · contorno de referencia  |
+| 1961 | 170 | CShapes · 31 diciembre + 6 contornos de referencia · f462c30d1024 | Sierra Leone, Cameroon, Nigeria, Tanzania (Tanganyika), Kuwait  |
+| 1962 | 171 | CShapes · 31 diciembre + 7 contornos de referencia · 9859419c9482 | Jamaica, Trinidad and Tobago, Uganda, Burundi, Rwanda, Argelia, West Irian (Dutch New Guinea), Federation of South Arabia, Samoa · contorno de referencia  |
+| 1963 | 168 | CShapes · 31 diciembre + 7 contornos de referencia · 92897b53cfec | Kenya, Zanzibar, Malaysia, West Irian (Dutch New Guinea)  |
+| 1964 | 169 | CShapes · 31 diciembre + 7 contornos de referencia · 31ced973715a | Malta, Tanzania (Tanganyika), Zambia, Zimbabwe (Rhodesia), Malawi  |
+| 1965 | 170 | CShapes · 31 diciembre + 7 contornos de referencia · 784581342ee2 | Gambia, Rodesia · régimen no reconocido, Maldives, Malaysia, Singapore  |
+| 1966 | 170 | CShapes · 31 diciembre + 7 contornos de referencia · 9f03322336ac | Barbados, Guyana, Namibia, Lesotho, Botswana  |
+| 1967 | 168 | CShapes · 31 diciembre + 7 contornos de referencia · 4cd391787db5 | Egipto, Siria, Israel, República Popular de Yemen del Sur, Pakistan  |
+| 1968 | 169 | CShapes · 31 diciembre + 8 contornos de referencia · bd59c3dff5d9 | Equatorial Guinea, Swaziland (Eswatini), Mauritius, Nauru · contorno de referencia  |
+| 1969 | 168 | CShapes · 31 diciembre + 8 contornos de referencia · 28089a907911 | Indonesia  |
+| 1970 | 169 | CShapes · 31 diciembre + 9 contornos de referencia · 366724ece570 | Belize, Fiji, Tonga · contorno de referencia  |
 | 1971 | 170 | CShapes · 31 diciembre + 8 contornos de referencia · d47c9b1d68f2 | Bahrain, Qatar, United Arab Emirates, Pakistan, Bangladesh  |
 | 1972 | 170 | CShapes · 31 diciembre + 8 contornos de referencia · d47c9b1d68f2 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
 | 1973 | 170 | CShapes · 31 diciembre + 8 contornos de referencia · f58d28edf297 | Bahamas  |

@@ -9,7 +9,7 @@ import argparse, concurrent.futures, datetime, hashlib, html, json, pathlib, re,
 import urllib.request, urllib.parse
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]; OUT=ROOT/'public'; CACHE=ROOT/'.cache/identities'
-TODAY=datetime.date.today().isoformat(); START='1970-01-01'; PERIOD_END='1989-12-31'
+TODAY=datetime.date.today().isoformat(); START='1970-01-01'; PERIOD_END='1989-12-31'; ACQUISITION='historical-0.8'
 UA={'User-Agent':'Historicmap/0.8 (https://github.com/AlejandroPico/Historicmap; educational atlas)'}
 EXCLUDED_MEDIA={(r['person'],r['title']) for r in json.loads(pathlib.Path(__file__).with_name('media-exclusions.json').read_text(encoding='utf8'))}
 DOWNLOAD_LOCK=threading.Lock();LAST_DOWNLOAD=0
@@ -62,7 +62,7 @@ def acquire(skip_media=False):
     additions={'VDR':('Q172640','República Democrática de Vietnam'),'RVN':('Q180573','República de Vietnam'),'YUG':('Q83286','República Federativa Socialista de Yugoslavia'),'FRY':('Q838261','República Federal de Yugoslavia'),'SCG':('Q37024','Serbia y Montenegro'),'CSK':('Q33946','Checoslovaquia'),'YAR':('Q267584','República Árabe de Yemen'),'YPR':('Q199841','República Democrática Popular del Yemen'),'RASD':('Q40362','República Árabe Saharaui Democrática')}
     for key,(q,name) in additions.items():countries.setdefault(key,dict(qid=q,name=name,flags=[],leaders=[]))
     countries['YUG']['qid']='Q83286'
-    for country in countries.values():country['leaders']=[l for l in country['leaders'] if l.get('acquisition') not in ['historical-0.8','sahara-parties-0.8']]
+    for country in countries.values():country['leaders']=[l for l in country['leaders'] if l.get('acquisition') not in [ACQUISITION,'sahara-parties-0.8']]
     entities={q:e for q,e in parallel(entity,sorted({c['qid'] for c in countries.values() if re.fullmatch(r'Q\d+',c.get('qid',''))})) if e}
     office_map={}; current={}; unresolved=[]; fixes=[]; candidates=[]
     for key,country in countries.items():
@@ -79,7 +79,7 @@ def acquire(skip_media=False):
                 if not end and (s.get('rank')=='preferred' or not preferred and start and start[0]==latest):current[key].add(person)
                 effective_end=end or ((TODAY,11) if person in current[key] else None)
                 if start and effective_end and effective_end[0]>=START and start[0]<=PERIOD_END:
-                    candidates.append(dict(key=key,person=person,role='Jefatura del Gobierno' if prop=='P6' else 'Jefatura del Estado',start=start[0],end=min(effective_end[0],TODAY),precision=min(start[1],effective_end[1]),source='https://www.wikidata.org/wiki/'+country['qid'],sourceStatement=s.get('id',''),acquisition='historical-0.8'))
+                    candidates.append(dict(key=key,person=person,role='Jefatura del Gobierno' if prop=='P6' else 'Jefatura del Estado',start=start[0],end=min(effective_end[0],TODAY),precision=min(start[1],effective_end[1]),source='https://www.wikidata.org/wiki/'+country['qid'],sourceStatement=s.get('id',''),acquisition=ACQUISITION))
         for prop,role in [('P1906','Jefatura del Estado'),('P1313','Jefatura del Gobierno')]:
             for v in values(e,prop):
                 if isinstance(v,dict) and v.get('id'):office_map.setdefault(v['id'],[]).append((key,role))
@@ -106,7 +106,7 @@ def acquire(skip_media=False):
                 elif person in current[key] or any(l['person']==person and l.get('curated') and l['end']>=TODAY for l in countries[key]['leaders']):actual_end=TODAY
                 else:unresolved.append(dict(country=key,person=person,office=office,start=start,reason='Undated end without documented current country assertion; not extended to acquisition.'));continue
             if actual_end<START or start>PERIOD_END or start>actual_end:continue
-            term=dict(key=key,person=person,role=role,start=start,end=min(actual_end,TODAY),precision=int(row.get('precision',{}).get('value',11)),source='https://www.wikidata.org/wiki/'+person,sourceStatement=row['statement']['value'].rsplit('/',1)[-1],office=office,acquisition='historical-0.8')
+            term=dict(key=key,person=person,role=role,start=start,end=min(actual_end,TODAY),precision=int(row.get('precision',{}).get('value',11)),source='https://www.wikidata.org/wiki/'+person,sourceStatement=row['statement']['value'].rsplit('/',1)[-1],office=office,acquisition=ACQUISITION)
             if upper:term.update(endIsUpperBound=True,note='La fuente no fecha el cese. Se limita, como máximo, al inicio del siguiente titular documentado del mismo cargo; puede existir un intervalo sin documentar.')
             candidates.append(term)
     # Two federal Yugoslav prime ministers lack dated P39 statements. Their
@@ -218,12 +218,12 @@ def acquire(skip_media=False):
         c['leaders'].sort(key=lambda l:(l['start'],l['name'],l['role']))
     save(OUT/'data/identities.json',data);manifest['retrieved']=TODAY;manifest['entries']=sorted(media.values(),key=lambda m:m['file']);save(OUT/'media/manifest.json',manifest)
     annual=[]
-    for year in range(1970,1990):
+    for year in range(int(START[:4]),int(PERIOD_END[:4])+1):
         first=f'{year}-01-01';last=min(f'{year}-12-31',TODAY);terms=[l for c in countries.values() for l in c['leaders'] if l['start']<=last and l['end']>=first];persons={l['person'] for l in terms};withphoto={l['person'] for l in terms if l.get('portrait')}
         annual.append(dict(year=year,countryKeys=sum(any(l['start']<=last and l['end']>=first for l in c['leaders']) for c in countries.values()),terms=len(terms),people=len(persons),peopleWithPortrait=len(withphoto)))
     unverified=[dict(country=key,person=l['person'],name=l['name'],start=l['start'],role=l['role']) for key,c in countries.items() for l in c['leaders'] if l['end']==TODAY and not l.get('curated') and l['person'] not in current.get(key,set()) and l.get('acquisition')!='sahara-parties-0.8']
     audit=dict(retrieved=TODAY,countryKeys=len(countries),terms=sum(len(c['leaders']) for c in countries.values()),people=len(targets),media=len(media),annual=annual,corrections=fixes,unresolvedOpenTerms=unresolved,unverifiedCurrentTerms=unverified,missingPortraits=[dict(person=q,name=people.get(q,q),hasP18=q in images) for q in sorted(targets) if q not in portraits],licenseCounts=dict(__import__('collections').Counter(m['license'] for m in media.values())))
-    save(CACHE/'authorities-1970-audit.json',audit);print(json.dumps({k:v for k,v in audit.items() if k not in ['annual','unresolvedOpenTerms','missingPortraits','corrections']},ensure_ascii=False),flush=True)
+    save(CACHE/('authorities-'+START[:4]+'-audit.json'),audit);print(json.dumps({k:v for k,v in audit.items() if k not in ['annual','unresolvedOpenTerms','missingPortraits','corrections']},ensure_ascii=False),flush=True)
     return audit
 
 if __name__=='__main__':

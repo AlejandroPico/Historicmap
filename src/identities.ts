@@ -101,10 +101,22 @@ export function identityFor(p:Properties,year:number,data:IdentityData,now=new D
   const clippedStart=start!==l.start,clippedEnd=end!==l.end;
   return [{...l,start,end,authorityScope:'external',role:`${l.role} · ${data.countries[administration.admin]?.name??administration.admin}`,startIsCoverageBoundary:l.startIsCoverageBoundary||clippedStart,endIsCoverageBoundary:l.endIsCoverageBoundary||clippedEnd,note:[l.note,clippedStart||clippedEnd?'Tramo de autoridad sobre este territorio: el límite de relación no es un nombramiento o cese en el Estado administrador.':''].filter(Boolean).join(' ')}];
  });
+ // A transfer between external administrations within the year must not keep
+ // only the earlier administration, or its flag, at the annual close.
+ let flagState=state,flagAdmin=administration.admin;
+ const successor=String(p.administratorKey??'');
+ if(administration.end&&administration.end<=last&&successor&&successor!==administration.admin&&p.status!=='independent'){
+  const next=ownIdentityFor({identityKey:successor},year,data,now);
+  for(const l of next.leaders){
+   const start=[l.start,administration.end].sort().at(-1)!,end=[l.end,data.retrieved].sort()[0];
+   if(start<=end&&start<=last&&end>=first)external.push({...l,start,end,authorityScope:'external',role:`${l.role} · ${data.countries[successor]?.name??successor}`,startIsCoverageBoundary:true,note:[l.note,'Tramo posterior a la transferencia administrativa documentada; no nuevo nombramiento ni atribución de soberanía.'].filter(Boolean).join(' ')});
+  }
+  flagState=next;flagAdmin=successor;
+ }
  const localLeaders=local.leaders.map(l=>({...l,authorityScope:'local' as const}));
- const dependentAtReference=administration.start<=last&&(!administration.end||administration.end>last);
- const useStateFlag=dependentAtReference&&!local.flag&&!!state.flag;
- return {...local,name:base.name,flag:local.flag??(useStateFlag?state.flag:undefined),leaders:[...localLeaders,...external],administration,flagContext:useStateFlag?`Símbolo del Estado administrador · ${data.countries[administration.admin]?.name??administration.admin}`:undefined};
+ const dependentAtReference=flagAdmin!==administration.admin||administration.start<=last&&(!administration.end||administration.end>last);
+ const useStateFlag=dependentAtReference&&!local.flag&&!!flagState.flag;
+ return {...local,name:base.name,flag:local.flag??(useStateFlag?flagState.flag:undefined),leaders:[...localLeaders,...external],administration,flagContext:useStateFlag?`Símbolo ${flagAdmin==='UNTEA'?'de la administración de Naciones Unidas':'del Estado administrador'} · ${data.countries[flagAdmin]?.name??flagAdmin}`:undefined};
 }
 const dateLabel=(date:string,precision=11)=>{
   const [y,m,d]=date.split('-');return precision<10?y:precision===10?`${Number(m)}/${y}`:`${Number(d)}/${Number(m)}/${y}`;

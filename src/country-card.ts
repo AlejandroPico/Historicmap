@@ -30,7 +30,8 @@ export function countryCard(p:Record<string,any>,year:number,snapshot:Snapshot,p
   if(snapshot.kind==='geological')return '<p>Masas continentales reconstruidas con el modelo CAO2024.</p>';
   const profile=profileFor(profiles,p.code),modern=snapshot.kind==='modern',dated=snapshot.kind==='annual';
   const rows=factRows(profile,year),context=entityContext(p.originalName??p.name,year),period=recentContext(year)??chapterFor(year);
-  const control=['war','dispute','civil-war'].includes(p.kind),identity=identityFor(p,year,identities);
+  const control=['war','dispute','civil-war'].includes(p.kind)||p.controlComponent,identity=identityFor(p,year,identities);
+  if(p.controlComponent)p={...p,note:[p.note,p.controlNote].filter(Boolean).join(' '),source:p.controlSource??p.source};
   const administration=identity.administration;
   const statusText=administration&&administration.id!=='source-administration'&&administration.start<=identity.date&&(!administration.end||administration.end>identity.date)?administration.label:p.politicalStatus;
   const entityCode=territorialEntityCode(p,year);

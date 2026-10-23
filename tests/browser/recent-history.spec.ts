@@ -28,8 +28,10 @@ test('WWII playback progresses annually, pauses precisely and opens historical p
  const paused=await page.locator('#year').textContent();
  await page.waitForTimeout(1800);await expect(page.locator('#year')).toHaveText(paused!);
  await date(page,1942);
+ await expect(page.locator('#map')).toHaveAttribute('data-overlays','0');
+ await page.locator('#layers-button').click();await page.locator('#occupations-layer').click();
  await expect(page.locator('#map-legend')).toContainText('síntesis anual');
- await expect(page.locator('#map')).toHaveAttribute('data-overlays','7');
+ await expect(page.locator('#map')).not.toHaveAttribute('data-overlays','0');await page.locator('#close-layers').click();
  await search(page,'Alemania nazi');await expect(page.locator('#selection-text')).toContainText('dictadura nacionalsocialista');
  await expect(page.locator('#pane-facts')).not.toContainText('PIB nominal');await expect(page.locator('#pane-economy .country-facts small')).toHaveCount(0);await expect(page.locator('#pane-economy')).toContainText('Sin dato para esta fecha');
  await page.screenshot({path:'test-results/1942-profile.png'});

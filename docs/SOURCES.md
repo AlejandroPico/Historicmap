@@ -121,3 +121,14 @@ Se conservan las fuentes cartográficas originales y se amplían identidades, me
 ## Autoridades territoriales 0.8.1
 
 Once relaciones de administración, gobiernos autónomos y cierres de independencia se documentan en DEPENDENCY-AUTHORITIES-RESEARCH. Los mandatos estatales existentes se reutilizan con su ámbito y se añaden cinco cargos focales de fuente primaria. Dos retratos nuevos conservan autor, licencia, origen y SHA en el manifiesto de medios. La relación no equivale a soberanía reconocida, control diario ni serie completa de gobernadores.
+
+
+## Ampliación 0.9 · 1960 y representación del control
+
+Las fuentes primarias de la ampliación, sus discrepancias y las propuestas revisadas figuran en RESEARCH-1960 y AUTHORITIES-1960-RESEARCH. Los nuevos registros conservan fuente, fechas y precisión. Los inventarios anteriores permanecen; no se avanza la referencia contemporánea por investigar el pasado. Los medios nuevos conservan autor, licencia, URL y SHA individual.
+
+Control integrado: composición temporal con polygon-clipping0.15.7 (MIT, https://github.com/mfogel/polygon-clipping), en worker; las entradas originales permanecen separadas por licencia. La Guerra Civil española usa una colección de sus particiones independientes para no recortar CShapes NC-SA con un derivado BY-SA3 incompatible. El mapa no ofrece un nuevo archivo global sin restricciones de licencia. Los contornos de retirada sin fases acreditadas no se convierten en frentes.
+
+Natural Earth de referencia bajo todo el dominio histórico separa tierra de océano donde el inventario político está incompleto. No representa una paleocosta ni ausencia de población/organización política. Las familias cromáticas son convenciones editoriales; el CSV propio POLITICAL-PALETTE no se atribuye al adjunto original no disponible del propietario.
+
+REVIEW-1960 conserva auditoría y huecos con nombres y años; DELIVERY-0.9.0 diferencia implementación, contraste focal, validación y publicación. No interpretar una autoridad resuelta como inventario exhaustivo de todos los mandatos, administradores o frentes.

@@ -13,6 +13,8 @@ it('removes obsolete periods and sends only changed entity properties or geometr
  expect(diff.remove).toEqual([3]);expect(diff.add).toEqual([added]);
  expect(diff.update).toEqual([{id:1,addOrUpdateProperties:[{key:'name',value:'updated'}]}]);
  expect(sourceDiff(after,after)).toEqual({remove:[],add:[],update:[]});
+ // A control worker's structured clone is not a change to a coastline.
+ expect(sourceDiff(after,structuredClone(after))).toEqual({remove:[],add:[],update:[]});
 });
 it('preserves name, identity and colour in the actual tile index through reversals and removes obsolete metadata',()=>{
  const geometry:Feature['geometry']={type:'Point',coordinates:[2,48]};

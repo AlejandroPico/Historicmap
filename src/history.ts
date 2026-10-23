@@ -35,6 +35,9 @@ export function isoFor(p:Period,year:number,modernNames:Map<string,string>){
 /** Historical identity is separate from a successor's statistical ISO code. */
 export function territorialEntityCode(p:Record<string,any>,year:number):string{
   const name=p.originalName??p.country_name??p.name;
+  if(name==='Yemen (Arab Republic of Yemen)'&&year<1962)return 'YMK';
+  if(name==='Tanzania (Tanganyika)'&&year<1964)return 'TAN';
+  if(name==='Zanzibar')return 'ZAN';
   if(name==='Russia (Soviet Union)'&&year>=1922&&year<=1990)return 'SUN';
   if(name==='Yugoslavia')return year<=1991?'YUG':'SCG';
   if(name==='Czechoslovakia')return 'CSK';
@@ -59,7 +62,7 @@ export function historyAt(topology:HistoryTopology,year:number,modernNames:Map<s
   const active=periodsAt(topology,year);
   const byCode=new Map(active.map(g=>[String(g.properties.gwcode),g.properties]));
   const geometryFor=(g:TopologyGeometry)=>{let geometry=geometryCache.get(g.properties.fid);if(!geometry){geometry=decodeGeometry(topology,g);geometryCache.set(g.properties.fid,geometry);}return geometry;};
-  return {type:'FeatureCollection',features:active.map(g=>{
+  const result:FeatureCollection={type:'FeatureCollection',features:active.map(g=>{
     const p=g.properties;
     // Sinai and Golan occupation is represented separately, not as sovereign incorporation.
     let geometry=g;
@@ -70,12 +73,23 @@ export function historyAt(topology:HistoryTopology,year:number,modernNames:Map<s
     const name=historicName(p,year);
     const owner=p.status==='independent'?name:byCode.has(p.owner)?historicName(byCode.get(p.owner)!,year):`Potencia ${p.owner}`;
     const code=isoFor(p,year,modernNames),entityCode=territorialEntityCode({...p,code},year);
-    const identityKey=entityCode==='SUN'?'USSR':entityCode==='SCG'&&year<2003?'FRY':['YUG','SCG','CSK','DDR','YAR','YPR','VDR','RVN','RHO'].includes(entityCode)?entityCode:undefined;
-    const capital=p.country_name==='Zimbabwe (Rhodesia)'&&year<1982?'Salisbury':p.capname;
+    const identityKey=entityCode==='SUN'?'USSR':entityCode==='SCG'&&year<2003?'FRY':['YUG','SCG','CSK','DDR','YAR','YPR','VDR','RVN','RHO','YMK','TAN','ZAN'].includes(entityCode)?entityCode:undefined;
+    const capital=p.country_name==='Zimbabwe (Rhodesia)'&&year<1982||p.country_name==='Federation of Rhodesia and Nyasaland'?'Salisbury':p.country_name==='Tanzania (Tanganyika)'&&year<1974?'Dar es Salaam':p.country_name==='Equatorial Guinea'&&year<1973?'Santa Isabel':p.capname;
     const temporalNote=p.country_name==='Vietnam, Democratic Republic of'&&year===1975?'CShapes agrupa todo Vietnam desde mayo de 1975 por control territorial. La unificación estatal formal fue el 2 de julio de 1976; este contorno no distingue la administración provisional del sur.':entityCode==='RHO'?(year===1979?'En diciembre de 1979 se restableció la administración británica durante la transición; Zimbabue accedió a la independencia el 18 de abril de 1980. El estatus independiente de CShapes describe el régimen previo de facto, no su reconocimiento internacional.':'Declaración unilateral de independencia de 1965 bajo un régimen de minoría blanca no reconocido por la ONU; no equivale al Estado independiente de Zimbabue de 1980.'):undefined;
     const politicalStatus=entityCode==='RHO'?(year===1979?'Administración británica de transición al cierre anual':'Régimen de facto no reconocido internacionalmente'):statuses[p.status]??p.status;
-    return {type:'Feature',id:p.fid,geometry:geometryFor(geometry),properties:{...p,name,originalName:p.country_name,code,entityCode,identityKey,group:owner,color:hashColor(p.owner),capital,capname:capital,ownerName:owner,politicalStatus,note:temporalNote,source:'https://icr.ethz.ch/data/cshapes/'}} as Feature;
+    return {type:'Feature',id:p.fid,geometry:geometryFor(geometry),properties:{...p,name:entityCode==='YMK'?'Reino Mutawakkilita de Yemen':entityCode==='TAN'?'Tanganica':entityCode==='ZAN'?'Zanzíbar':name,originalName:p.country_name,code:['YMK','TAN','ZAN'].includes(entityCode)?'':code,entityCode,identityKey,group:owner,color:hashColor(p.owner),capital,capname:capital,...(p.country_name==='Tanzania (Tanganyika)'&&year<1974?{caplong:39.28,caplat:-6.81}:{}),ownerName:owner,politicalStatus,note:temporalNote,source:'https://icr.ethz.ch/data/cshapes/'}} as Feature;
   })};
+  // CShapes keeps two components during the union. Render a single dated entity;
+  // the unchanged source polygons remain available in history.topojson.
+  if(year>=1958&&year<=1960){
+    const egypt=result.features.find(f=>f.properties?.originalName==='Egypt'),syria=result.features.find(f=>f.properties?.originalName==='Syria');
+    if(egypt&&syria){
+      const polygons=(f:Feature)=>f.geometry.type==='Polygon'?[f.geometry.coordinates]:f.geometry.type==='MultiPolygon'?f.geometry.coordinates:[];
+      result.features=result.features.filter(f=>f!==egypt&&f!==syria);
+      result.features.push({...egypt,geometry:{type:'MultiPolygon',coordinates:[...polygons(egypt),...polygons(syria)]},properties:{...egypt.properties,name:'República Árabe Unida',identityKey:'UAR',entityCode:'UAR',code:'',note:'Unión de Egipto y Siria de 1958 a septiembre de 1961. Componentes CShapes agrupados para representar la entidad común; no se heredan estadísticas del Egipto o Siria actuales.',territorySource:'https://untreaty.un.org/ilc/documentation/english/a_cn4_210.pdf'}});
+    }
+  }
+  return result;
 }
 export function historicalCapitals(data:FeatureCollection):FeatureCollection{
   const seen=new Set<string>();

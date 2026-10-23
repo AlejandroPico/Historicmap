@@ -4,16 +4,16 @@
   "entries": [
     {
       "file": "affiliations.json",
-      "bytes": 170772,
-      "sha256": "253c51c1ce68aeb62fbffa141383b97411d201dcb8608b355609f75380f05ac2",
-      "version": "Historicmap 0.8.0; historical preparation 2026-10-23; reference 2026-10-22",
+      "bytes": 170169,
+      "sha256": "ce4c581f13f6f410d53afca681c85263287cd9da1b658bbf94b306b9509b4d76",
+      "version": "Historicmap 0.9.0; historical preparation 2026-10-23; current reference 2026-10-22",
       "format": "dated-organizations",
       "source": "Official institutional membership chronologies and declarations",
       "url": "https://www.nato.int/cps/en/natohq/topics_52044.htm",
       "license": "Factual membership metadata; sources per interval, original editorial compilation",
-      "transform": "31 regional/intercontinental organizations, dated participation and category intervals, 1970–2026. End exclusive; annual map at Dec 31 capped at reference. Explicit coverage-floor flag, territorial applications and discontinuous EAC organizations; membership is not political subordination. Sources/precision per record; historical suspensions remain partial.",
+      "transform": "Dated organizations from 1960; preserve later accessions, departures and categories. Coverage boundaries are not accession dates; military alliance never establishes subordination. Albania and earlier COMECON/OAS/Arab League participation distinguished.",
       "organizations": 31,
-      "records": 546
+      "records": 549
     },
     {
       "file": "cities.geojson",
@@ -172,16 +172,16 @@
     },
     {
       "file": "country-history.json",
-      "bytes": 74072,
-      "sha256": "87fddc0f74e66f4ddae43f7d026556d6d2ae5265ac79abcc919ce160ccaef1c3",
-      "version": "Historicmap 0.8.0; historical preparation 2026-10-23; reference 2026-10-23",
+      "bytes": 81718,
+      "sha256": "dc4b5c5083b7cc34f79280046b10860cbfcf0810bded7029444946347cea098a",
+      "version": "Historicmap 0.9.0; historical preparation 2026-10-23; current reference 2026-10-22",
       "format": "country-workspace-history",
       "url": "https://www.un.org/en/about-us/member-states",
       "source": "Official institutional histories, constitutional records and state succession references, linked per record",
       "license": "Original editorial summaries and factual metadata; sources linked individually",
-      "transform": "Curated dated institutions/history and directed entity-navigation relations. Expanded decolonization, constitutional transitions and Vietnamese identities through 1970. Record end exclusive, source/event date distinct from navigable annual map anchor. No automatic successor data inheritance or claim of complete institutional history.",
-      "records": 49,
-      "relations": 50
+      "transform": "Focal institutions and navigable transitions including UAR separation, Yemen revolution, Tanganyika/Zanzibar union, Singapore separation and selected decolonization. Event date distinct from map-year anchors; no automatic successor inheritance.",
+      "records": 53,
+      "relations": 59
     },
     {
       "file": "country-indicators.json",
@@ -212,15 +212,15 @@
     },
     {
       "file": "historical-context.json",
-      "bytes": 146133,
-      "sha256": "c5cc2d93c907c1f18f84de715c926a7d954f848ab84837242b0af172345bff1a",
-      "version": "Historicmap 0.8.0; historical preparation 2026-10-23; reference 2026-10-22",
+      "bytes": 180135,
+      "sha256": "f1c674d8a0a67e1f41f8b15596dcd6e4338f1ab21181c629209b6a0bb10f2875",
+      "version": "Historicmap 0.9.0; historical preparation 2026-10-23; current reference 2026-10-22",
       "format": "dated-historical-context",
       "source": "United Nations, institutional and government historical records",
       "url": "https://www.un.org/en/about-us/history-of-the-un",
       "license": "Original editorial summaries; institutional sources linked per event",
-      "transform": "Selected sourced conflict/transition phases since 1970, start inclusive/end exclusive. Separate phases prevent later outcomes being brought backwards. Codes associate relevant country cards, not a formal belligerent register; no front geometry or peace inference from absent events.",
-      "records": 205
+      "transform": "Focal conflict and transition phases expanded to 1960. Country keys associate a card, not a formal belligerent roster or front geometry. Incomplete worldwide; absence of event never establishes peace.",
+      "records": 258
     },
     {
       "file": "historical-control.geojson",
@@ -237,14 +237,14 @@
     },
     {
       "file": "historical-supplements.geojson",
-      "bytes": 114335,
-      "sha256": "01125337b13bb5a2e59f375e2943a6aab52819400bb3224c931dfe9a817a5552",
-      "version": "Historicmap 0.8.0; historical preparation 2026-10-23; reference per record",
+      "bytes": 124625,
+      "sha256": "5a206e1697d82a08123d5981cd1426e4faae1a97215c20d3110c7974cb3c1e9d",
+      "version": "Historicmap 0.9.0; historical preparation 2026-10-23; current reference 2026-10-22",
       "source": "Natural Earth pinned country outlines; UN territorial/state chronology and Office of the Historian",
       "url": "https://www.naturalearthdata.com/about/terms-of-use/",
       "license": "Public domain (Natural Earth geometry); factual institutional metadata",
-      "transform": "23 unchanged Natural Earth contemporary reference contours for omitted small states and Western Sahara, 1970–2019 with individual documented independence/association starts. Coverage floor is not independence or UN admission. Pre-independence successors not retrojected. Morocco 1975+ and Mauritania 1975–1978 separately use intact CShapes 1974 source contours at runtime, with explicit source labels, to avoid claimed Sahara sectors in the recognized base.",
-      "features": 23
+      "transform": "Unchanged contemporary Natural Earth reference outlines for omitted entities from 1960, including pre-independence Kuwait/Bahrain as explicitly protected states. Independence dates distinct from reference geometry, coverage floors and UN admission. Existing Sahara exception retained.",
+      "features": 25
     },
     {
       "file": "history.topojson",
@@ -262,16 +262,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 6184586,
-      "sha256": "50ae23c78eff3256676f03dc244075a95c2923ecb10862ef005f2cb58d3449c5",
+      "bytes": 6779094,
+      "sha256": "be1a134e1ac1f49119416155edac53e424d46f709962fa35acc1d7350ad1ad11",
       "format": "dated-political-identities",
-      "countries": 278,
-      "records": 6950,
+      "countries": 283,
+      "records": 7481,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap 0.8.1; reference 2026-10-22; preparation 2026-10-23",
+      "version": "Historicmap 0.9.0; historical preparation 2026-10-23; current reference 2026-10-22",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Incremental dated authorities through 1970–1989, national and dissolved historical offices; existing 1990–2026 curations retained. Formal, party, de facto and rival authorities distinguished. All mandates intersecting selected year; precision and inferred upper bounds retained. Current reference remains 2026-10-22; historical acquisition 2026-10-23 does not extend current incumbents or flags. Separate VDR/RVN/VSR/RHO/YAR/YPR/USSR/DDR identities, no successor statistics. Licensed local portraits and dated symbols with individual media manifest SHA-256; collective authorities have no invented portrait. Sources and limitations in HISTORICAL-AUTHORITIES. Incremental five sourced dependent/local offices; existing acquisition retained."
+      "transform": "Incremental 1960–1969 office acquisition and focal reviewed terms/documentary coverage windows; preserve current reference 2026-10-22 and all previous curations. YMK/TAN/ZAN/UAR and UNTEA distinct, inclusive terms and documented boundary flags. Missing portraits remain explicit; licensed local media retain individual credits and hashes."
     },
     {
       "format": "dated-political-influence",
@@ -321,15 +321,15 @@
     },
     {
       "file": "territorial-administrations.json",
-      "bytes": 6443,
-      "sha256": "76b12861cfe6ad9d90627d1e97793b2f78218a10f1b483c11421c814c362ace4",
-      "version": "Historicmap 0.8.1; reference 2026-10-22; preparation 2026-10-23",
+      "bytes": 10383,
+      "sha256": "0e4c58fcd1ec241649a274fbecaf7eb8291c45fb36f22c5131029dc3915a59cf",
+      "version": "Historicmap 0.9.0; historical preparation 2026-10-23; current reference 2026-10-22",
       "format": "dated-territorial-administrations",
-      "records": 11,
+      "records": 18,
       "source": "Primary legal, government and UN sources per relationship",
       "url": "https://www.un.org/dppa/decolonization/en",
       "license": "Original factual compilation; individual documentary sources retained.",
-      "transform": "Eleven dated territorial administration relationships; external national offices distinct from local government and sovereignty. Office intervals clipped to relationship; administrative endpoint is not national resignation. Other source-documented dependencies resolve their contemporary administrator; never derive authority from alliances. Coverage 1970–2026 reference, no successor statistics inherited."
+      "transform": "Dated external/local authority relationships from coverage floor 1960, with pre/post-1966 Namibia, Bahamian self-government, four protected states and effective UNTEA administration. No successor statistics inherited; national, local and external scope distinguished."
     },
     {
       "file": "territorial-overlays.geojson",

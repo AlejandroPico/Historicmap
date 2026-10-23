@@ -51,7 +51,8 @@ describe('dated regional and intercontinental organizations',()=>{
   }
  });
  it('extends acquired coverage to1970 without backdating subsequent institutions',()=>{
-  expect(affiliationsAvailable(1969)).toBe(false);
+  expect(affiliationsAvailable(1959)).toBe(false);
+  expect(affiliationsAvailable(1960)).toBe(true);
   expect(affiliationsAvailable(1970)).toBe(true);
   expect(affiliationGroups('nato',1970)[0].codes).toHaveLength(15);
   expect(affiliationFor('ESP','nato',1981)?.category).toBe('other');
