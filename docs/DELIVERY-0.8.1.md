@@ -26,11 +26,19 @@ Preparación: `prepare-dependent-authorities.py`, adquisición acotada `enrich-1
 
 ## Verificación y publicación
 
-Pendiente de cerrar con resultados reales, SHA, Quality, Pages, revisión visual y comprobación de archivos públicos. El primer recorrido de reproducción falla contra 0.8.0 y pasa después de corregir la actualización. No confundir la implementación local con publicación completada.
+El primer recorrido de reproducción falla contra 0.8.0 y pasa después de corregir la actualización. El cierre público comprobado se detalla a continuación; no confundir resultados locales intermedios con la publicación.
 
 Verificaciones locales de datos: 43 recursos, 11 franjas y 3.476 medios íntegros por SHA-256; 103 pruebas en 19 archivos y tipos correctos. La auditoría de autoridades comprueba también todas las colonias/protectorados/mandatos CShapes, año por año en 1970–2019. Esto acredita resolución de una autoridad estatal o local, no una serie completa de prefectos, gobernadores o autoridades rivales.
 
 Los dos recorridos reforzados pasan tras corregir la consulta prematura: fichas dependientes/independencia y clics Francia/España de ida y vuelta. El refinamiento final conserva el fin documental completo de cada mandato, sin recortarlo innecesariamente al año consultado: pasan las cinco pruebas de dependencias y se repite correctamente su recorrido de navegador sobre la compilación final. Tipos/compilación correctos; 3.530 recursos preparados en Git verificados por SHA-256. La captura local de Angola ya no muestra aviso de carga fallida.
+
+### Publicación verificada · 23/10/2026
+
+Publicado **911f7c3c55466e4f757a271ec8f5ee740e5eea1b**. [Quality 39984546199](https://github.com/AlejandroPico/Historicmap/actions/runs/39984546199) correcto: 103 pruebas unitarias en 19 archivos, integridad, compilación y **26 recorridos de navegador** (12 minutos), incluidos los dos nuevos. [Publish atlas 39986404919](https://github.com/AlejandroPico/Historicmap/actions/runs/39986404919) correcto, checkout real del mismo SHA confirmado en el log de build.
+
+Verificación pública a las 18:25 (Madrid): JS `index-BA5eVcf8.js`, CSS `index-b0OcPlkX.css`, tres manifiestos idénticos byte por byte, siete conjuntos históricos y cinco retratos más el símbolo portugués de referencia comprobados por SHA-256. Informe local ignorado `.cache/public-verification-0.8.1.json`. Incluye los dos retratos nuevos y la relación territorial que utiliza la ficha.
+
+Revisión visual pública: Francia abierta en 1970 → 1954 → 1970 recupera Pompidou/Chaban-Delmas; cerrar y hacer clic real sobre Francia abre de nuevo su ficha completa y conserva color/nombre. Sin aviso de error. Surinam muestra Sedney/Ferrier y Juliana con ámbitos distintos; Angola muestra Caetano/Tomás como autoridades portuguesas. Evidencias reales `.cache/release-0.8.1-public-france-return.png` y `.cache/release-0.8.1-public-angola-1970.png`. La pestaña queda preparada con Angola en 1970. El cierre documental `[skip ci]` no modifica la aplicación o los datos validados.
 
 ## Límites
 
