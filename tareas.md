@@ -1,6 +1,6 @@
 # Tareas y continuidad
 
-Actualizado: 23/10/2026, 21:16 Madrid. Rama: main. Aplicación 0.9.1 subida en c42531df6fafe5fdd9c6fc999a80741aa1829076 (candidato anterior; sustituido por el siguiente commit con cinco retratos adicionales).
+Actualizado: 23/10/2026, 21:48 Madrid. Rama: main. Aplicación 0.9.1 subida en f67f8aecf9acc19e51e7f49648ea81e12008b34d.
 
 Leer también [agentes.md](agentes.md). Esta pizarra distingue implementación, investigación, validación y publicación. Una sesión recuperada no convierte los pendientes en terminados.
 
@@ -26,9 +26,9 @@ Leer también [agentes.md](agentes.md). Esta pizarra distingue implementación, 
 - [x] Publicación 0.9.0: Quality 40005916966, 114 unitarias y 28 recorridos correctos; Pages 40008258279 correcto. Bytes públicos cotejados, con evidencia en docs/reference/public-verification-0.9.0.json.
 - [x] Corrección 0.9.1: 115 unitarias/23 archivos, tipos y build locales correctos. Integridad de 43 recursos, 11 franjas tipográficas y 3.793 medios, incluidos los bytes registrados en Git.
 - [x] Comprobación manual del navegador integrado: Nigeria con retratos y cargos separados; TAN→TZA conserva la ficha; reproducción y franjas. Fallos y límites de las primeras pasadas locales registrados en DELIVERY-0.9.0.
-- [ ] Quality 0.9.1 completo. Run 40009382574: instalación, integridad, unitarias y build superados; navegador en curso.
-- [ ] Pages de 0.9.1 y cotejo de los bytes públicos con c42531df6fafe5fdd9c6fc999a80741aa1829076 (candidato anterior; sustituido por el siguiente commit con cinco retratos adicionales).
-- [ ] Cierre documental con SHA, resultados, evidencia y árbol de trabajo limpio. No afirmar que 0.9.1 está publicada sólo porque lo esté 0.9.0.
+- [x] Quality definitivo 40011433956 para f67f8ae: integridad, 115 unitarias/23 archivos, tipos, build y 28 recorridos de navegador correctos.
+- [x] Pages 40013402559: build y deploy correctos, checkout f67f8ae confirmado. Cotejo público de cuatro archivos de aplicación, tres manifiestos, siete conjuntos de datos y 16 medios; evidencia en docs/reference/public-verification-0.9.1.json.
+- [x] Registrar cierre, SHA y pendientes; commit posterior de documentación y aserciones focales con [skip ci]. El SHA de aplicación publicado es f67f8ae, separado de ese cierre.
 
 ## Pendientes reales de investigación y siguientes etapas
 
@@ -41,8 +41,10 @@ Leer también [agentes.md](agentes.md). Esta pizarra distingue implementación, 
 
 ## Cómo retomar
 
-Consultar primero Git, esta pizarra y docs/DELIVERY-0.9.1.md. El código de aplicación está subido; falta cerrar el flujo de publicación indicado arriba. No repetir adquisiciones ni curaciones a ciegas. La última repetición de la curación de 1960 conservó todos los bytes y retratos; no hay adquisición de medios activa.
+La entrega 0.9.1 está publicada y comprobada. Aplicación: f67f8aecf9acc19e51e7f49648ea81e12008b34d. Evidencia de Quality, Pages, bytes y vista pública en docs/DELIVERY-0.9.1.md. El candidato c42531d también pasó 115 unitarias y 28 recorridos, pero Pages 40011732004 se omitió por estar superado: no se publicó como entrega final.
 
-Servidor de preview propio: sesión 84360, puerto 5174. Navegador CUA: browser 2/tab 2 temporal. La compilación local de 0.9.1 contiene index-B6vtP2_U.js; no cambiar rama ni recompilar mientras otra prueba use ese directorio. La referencia contemporánea sigue siendo 22/10/2026; investigar el pasado no avanza esa referencia.
+Continuar por los pendientes de investigación anteriores o por el siguiente encargo del propietario. No repetir adquisiciones ni curaciones a ciegas. La última repetición del preparador conservó los bytes y retratos. No hay adquisición activa de medios. El servidor de preview de esta entrega se cierra al terminar; la pestaña de salida usa la web pública (browser 2/tab 2). La referencia contemporánea sigue siendo 22/10/2026.
+
+El cierre añade comprobaciones locales de París, Viena, Innsbruck, Salzburgo, Graz y Linz a la regresión de control de 1942; cuatro pruebas focales correctas, sin modificar el código de aplicación ni sus datos publicados. El cierre con [skip ci] no sustituye Quality cuando cambien código, datos o publicación.
 
 Si se interrumpe la sesión, registrar el último paso terminado, procesos activos, fallos concretos y siguiente acción antes de cerrar. No confundir el SHA de aplicación publicado con un commit posterior sólo documental.

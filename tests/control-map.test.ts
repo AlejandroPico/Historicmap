@@ -46,6 +46,9 @@ describe('control is part of the territory inventory',()=>{
    return polygons.some(p=>ring(p[0])&&!p.slice(1).some(ring));
   };
   expect(result.occupations.features.some(f=>contains(f,[16.37,48.21])),'Vienna is in the documented incorporation extent').toBe(false);
+  expect(result.territories.features.find(f=>contains(f,[16.37,48.21]))?.properties?.identityKey,'Vienna belongs to the controller inventory').toBe('DEU');
+  expect(result.territories.features.find(f=>contains(f,[2.35,48.86]))?.properties?.identityKey,'Paris belongs to the controller inventory').toBe('DEU');
+  for(const [city,point] of Object.entries({Innsbruck:[11.40,47.27],Salzburg:[13.04,47.80],Graz:[15.44,47.07],Linz:[14.28,48.30]}))expect(result.territories.features.find(f=>contains(f,point))?.properties?.identityKey,city).toBe('DEU');
   expect(result.occupations.features.some(f=>contains(f,[10.75,59.91])),'Oslo is occupied, not incorporated').toBe(true);
  },60000);
 });

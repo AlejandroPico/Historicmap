@@ -1,31 +1,43 @@
-# Entrega0.9.1 · cierre de la ampliación a1960
+# Entrega 0.9.1 · cierre de la ampliación a 1960
 
-Estado: 0.9.1 subida a main en c42531df6fafe5fdd9c6fc999a80741aa1829076 (candidato anterior; sustituido por el siguiente commit con cinco retratos adicionales). Quality 40009382574 en curso; todavía no acredita publicación de 0.9.1.
+Estado: **publicada y comprobada** en https://alejandropico.github.io/Historicmap/. Aplicación: **f67f8aecf9acc19e51e7f49648ea81e12008b34d**. El commit posterior de cierre documental y aserciones no cambia la aplicación publicada.
 
-La0.9.0 ya pasó114 unitarias y28 recorridos de navegador en [Quality40005916966](https://github.com/AlejandroPico/Historicmap/actions/runs/40005916966). [Pages40008258279](https://github.com/AlejandroPico/Historicmap/actions/runs/40008258279) publicó `ba7eb3b8ab505a277f5fb5f59c6e18eeb06084af`. Se cotejaron públicamente los bytes de cuatro archivos de aplicación, tres manifiestos, siete conjuntos de datos y nueve medios focales con la compilación correspondiente.
+## Cambios de la entrega
 
-## Corrección
+La base 0.9.0 integra el control en la geometría seleccionable, franjas opcionales de ocupación, tierra de referencia y una paleta editorial de 33 familias. La ampliación documental llega a 1960, con Estados históricos, dependencias, autoridades, símbolos, membresías, contexto y relaciones navegables. Detalle y comprobación de la primera publicación en DELIVERY-0.9.0.
 
-El preparador de1960 recogía los retratos después de eliminar los mandatos que debía regenerar. Ahora recoge primero los medios acreditados. La revisión recuperó26 retratos que ya estaban en el inventario y añade una regresión sobre Abdoh. No se crean26 archivos nuevos ni se sustituyen imágenes sin licencia.
+La corrección 0.9.1 conserva los retratos antes de regenerar mandatos curados. Recupera 26 retratos ya acreditados en el inventario y añade una regresión para Abdoh. Repetir la preparación conserva exactamente los bytes del catálogo. No son 26 archivos nuevos.
 
-La Nigeria de1963 distingue la presidencia parlamentaria de Azikiwe del Gobierno de Balewa. Se elimina el cargo genérico duplicado y la consolidación respeta las correcciones revisadas. Los extremos de mandato de enero1966 siguen identificados como pendientes de contraste diario.
+Se distingue la presidencia parlamentaria de Azikiwe del Gobierno de Balewa. La consolidación no recupera cargos descartados por una corrección revisada. Los extremos de enero de 1966 siguen pendientes de contraste diario.
 
-Catálogo final:283 claves y7.480 mandatos,3.793 medios (439 SVG y3.354 fotografías). Auditoría1960–1969:1.693 país-años sin huecos de resolución de autoridad,91 personas/órganos sin retrato y20 país-años sin bandera (Andorra/San Marino). No acredita todos los cargos ni una reconstrucción exhaustiva mundial.
+El filtro de licencias confundía las letras «nd» de India con la marca NoDerivatives. Ahora distingue el token ND e incorpora cinco archivos históricos con GODL-India, conservando créditos, exclusiones y el límite de lectura. No se amplía la lista de licencias aceptadas.
 
-Las pistas de investigación están en `reference/portrait-1960-pending-research.json`:76 personas sin fotografía P18 en la fuente consultada,12 candidatos pendientes de identificación/licencia/adquisición y tres órganos o identificadores documentales. Una candidatura no equivale a una imagen aprobada. Las listas anteriores de122 se refieren al estado publicado en0.9.0, no al resultado de esta corrección.
+Quality limita concurrencia por rama. Pages sólo publica el éxito de push correspondiente al commit vigente y mantiene el checkout fijado a la revisión verificada. El candidato c42531d queda sustituido por f67f8ae; un resultado de la revisión anterior no acredita publicar la actual.
 
-## Pendientes que continúan
+## Cobertura y pendientes reales
 
-- CSV original del propietario no disponible; cotejarlo cuando se vuelva a aportar. `POLITICAL-PALETTE.csv` es la exportación editorial propia de33 familias.
-- Los91 registros sin retrato, variantes de bandera de AND/SMR, suplencias y extremos diarios que identifican las investigaciones.
-- Frentes y control detallado fuera de los contornos documentados, sectores aliados de Alemania y fichas tempranas fuera de la ventana revisada.
+Catálogo: **283 claves y 7.480 mandatos**, **3.793 medios** (439 SVG y 3.354 fotografías). Auditoría de **1.693 país-años de 1960–1969**, sin huecos de resolución de autoridad. No certifica todos los cargos, suplencias, retratos, días de mandato ni frentes del mundo.
 
-## Validación y publicación
+Quedan **91 personas u órganos sin retrato**: 76 sin P18 en la fuente consultada, 12 candidatos pendientes y tres órganos o identificadores documentales. Nombres, años y pistas en REVIEW-1960.json y reference/portrait-1960-pending-research.json. Una candidatura no equivale a una imagen aprobada.
 
-115 pruebas unitarias locales correctas tras la corrección de cargos;17 comprobaciones focales correctas tras recuperar imágenes. Verificación final, Quality, Pages y comprobación pública de0.9.1 pendientes. Mantener `tareas.md` actualizado hasta cerrar esos pasos.
+También quedan 20 país-años sin bandera (Andorra y San Marino), relevos diarios y cargos secundarios identificados en las investigaciones, frentes detallados, sectores aliados de Alemania y fichas tempranas fuera de la ventana revisada.
 
-La repetición íntegra del preparador de 1960 conserva exactamente los bytes del catálogo, incluidos los retratos. La comprobación manual de 0.9.1 muestra Nigeria con Balewa y Azikiwe, imágenes y funciones separadas. La compilación local y los datos servidos se cotejan antes de probar para evitar mezclar versiones.
+El CSV original C:/Users/darim/Downloads/lista_imperios_completa_v3.csv no estaba disponible y no se ha importado ni reconstruido como si se hubiese leído. POLITICAL-PALETTE.csv es una exportación editorial propia de las 33 familias implementadas.
 
-La auditoría final descubre y corrige la falsa coincidencia ND en GODL-India. Se incorporan cinco archivos adicionales de autoridades de India, con sus fuentes y licencias; las26 recuperaciones anteriores eran referencias a medios ya existentes. El total final es3.793 medios y91 personas/órganos sin retrato (76 sin P18,12 candidatos pendientes y tres órganos/identificadores). El filtro de NoDerivatives se mantiene y no se amplía la lista de licencias aceptadas. La entrega definitiva debe cotejar el siguiente commit, no el candidato c42531d.
+## Verificación
 
-Quality/Pages evitan que una revisión superada publique después de la vigente. No hay que interpretar un Pages omitido por ese control como una publicación de su candidato antiguo.
+115 pruebas unitarias locales en 23 archivos, tipos y compilación correctos. Integridad de 43 recursos, 11 franjas tipográficas y 3.793 medios, incluidos los bytes registrados en Git. Los cinco retratos de India y los 26 recuperados conservan licencia/crédito individual.
+
+La comprobación manual del navegador muestra Nigeria con imágenes y funciones separadas, la transición TAN→TZA con la ficha abierta y reproducción con franjas. Los fallos de las primeras pasadas locales se documentan en DELIVERY-0.9.0; no se declaran correctas todas las ejecuciones locales.
+
+La 0.9.0 superó [Quality 40005916966](https://github.com/AlejandroPico/Historicmap/actions/runs/40005916966): 114 unitarias y 28 recorridos. [Pages 40008258279](https://github.com/AlejandroPico/Historicmap/actions/runs/40008258279) publicó ba7eb3b8ab505a277f5fb5f59c6e18eeb06084af. Se cotejaron cuatro archivos de aplicación, tres manifiestos, siete conjuntos de datos y nueve medios focales en reference/public-verification-0.9.0.json. Ese cierre no sustituye al pendiente de f67f8ae.
+
+## Cierre comprobado
+
+- [Quality 40011433956](https://github.com/AlejandroPico/Historicmap/actions/runs/40011433956): integridad de 43 recursos, 11 franjas y 3.793 medios; 115 pruebas unitarias/23 archivos y 28 recorridos de navegador correctos. El recorrido anual 1789–2026 tardó 2,6 minutos; la suite de navegador, 13,5 minutos.
+- [Pages 40013402559](https://github.com/AlejandroPico/Historicmap/actions/runs/40013402559): build y deploy correctos; el log confirma checkout de f67f8ae.
+- Cotejo público de cuatro archivos de aplicación, tres manifiestos, siete conjuntos de datos y 16 medios focales, incluidos los cinco nuevos retratos de India. Huellas en reference/public-verification-0.9.1.json.
+- Prueba del sitio público en el navegador integrado: India de 1966 muestra Indira Gandhi, Shastri, Nanda y Radhakrishnan con sus cargos, fechas y cuatro imágenes cargadas de 330 px. Sin errores de consola; script index-B6vtP2_U.js. Captura local: .cache/public-0.9.1-india1966.png.
+- Regresión geográfica suplementaria local: París, Viena, Innsbruck, Salzburgo, Graz y Linz pertenecen al inventario controlador de 1942; Viena sin franjas de ocupación y Oslo con ellas. Cuatro pruebas focales correctas. Estas aserciones se conservan en el cierre posterior con [skip ci], sin cambiar aplicación o datos.
+
+El candidato anterior c42531d superó sus 115 unitarias y 28 recorridos, pero [Pages 40011732004](https://github.com/AlejandroPico/Historicmap/actions/runs/40011732004) se omitió al existir f67f8ae. La protección evita publicar esa revisión superada. Continuidad y pendientes en ../tareas.md.
