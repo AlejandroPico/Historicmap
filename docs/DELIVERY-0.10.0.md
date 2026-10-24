@@ -30,3 +30,14 @@ La auditoría no demuestra exactitud historiográfica mundial de todas las front
 Orden incremental: enrich-1950-authorities → curate-1950-authorities → prepare-1950-dependencies → retratos por ventana → curate-1950-symbols → prepare-1950-context → prepare-recent-supplements → pruebas de cobertura → register-1950-data → prepare-country-catalog → integridad/tipos/pruebas/build → navegador. No reemplazarlo por una inicialización destructiva; mantener curaciones, exclusiones y la fotografía íntegra de Mozambique. `npm run build` regenera/valida el catálogo por entidad. Los recursos manuales se conservan.
 
 Siguiente paso operativo: el propietario confirma el despliegue o comunica su error. Sólo entonces se revisa la versión publicada. No iniciar sondeos automáticos ni cambiar el sitio público para simular una comprobación.
+
+
+## Cierre público tras confirmación del propietario
+
+Aplicación fe3676cb8f2dfa164466eae5f4050b2006b54492 publicada y comprobada el24/10/2026. Se verificó directamente GitHub Pages después del aviso del propietario; no se esperó ni se sondeó Actions/Pages.
+
+Coincidencia byte a byte de26 archivos: HTML, JS index-d0m4K2SJ.js, CSS index-Db46iPrh.css, tres manifiestos, seis conjuntos revisados y14 medios de Egipto/Vietnam/Malaya. Registro completo de URL, huellas y resultados en [public-verification-0.10.0.json](reference/public-verification-0.10.0.json).
+
+En navegador público: Acerca de muestra0.10.0; Egipto1952 carga las nueve referencias a retratos y el símbolo; desplazamiento interior conserva la posición de la cabecera/pestañas. Al cambiar a1953 se conserva EGY y se acredita history-1953 renderizado. Acciones de comparación presentes dentro de Comparar. Sin errores de consola observados. Captura local .cache/public-0.10.0-egypt1953.png. No se repitió toda la suite ni se validan todos los hechos históricos con este recorrido.
+
+Detalle cosmético pendiente: la etiqueta Actualización de Acerca de conserva23/10, aunque el historial de0.10.0 corresponde al24/10. Se registra para la siguiente entrega; no afecta a la identidad de los archivos publicados. El cierre se guarda aparte, sólo documentación con[skip ci]; no cambia la aplicación verificada.
