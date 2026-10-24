@@ -4,16 +4,29 @@
   "entries": [
     {
       "file": "affiliations.json",
-      "bytes": 264619,
-      "sha256": "6cfb7e97dbf0f6e6b557a99c39540318f90f23a48d6e62c0ed4de40b584d0227",
-      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 273142,
+      "sha256": "7bdc72932b7523ec79bf8c36b65e09efab562c22489f6b4963fe52f8c1d3f54e",
+      "version": "Historicmap 0.12.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "dated-organizations",
       "source": "Official institutional membership chronologies and declarations",
       "url": "https://www.nato.int/cps/en/natohq/topics_52044.htm",
       "license": "Factual membership metadata; sources per interval, original editorial compilation",
-      "transform": "38 dated organizations including League of Nations and UN succession/representation. Legal accessions, foundation/signature, entry into force, withdrawals and coverage boundaries are explicit. No automatic inference of subordination or belligerency.",
-      "organizations": 38,
-      "records": 887
+      "transform": "41 dated organizations/groupings; Triple Alliance and WWI Central/Allied-associated powers added to prior memberships. Legal dates, categories and coverage boundaries explicit; neutral treaty partners are not automatically active belligerents or dependencies.",
+      "organizations": 41,
+      "records": 903
+    },
+    {
+      "file": "central-europe-1939.geojson",
+      "features": 2,
+      "bytes": 16879,
+      "sha256": "000574cce08be157112f6c5f536631eb4d8f58e31da854e280878e271bc9e718",
+      "source": "Cliopatria and Natural Earth, with explicit reference/derivation metadata",
+      "version": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "url": "https://raw.githubusercontent.com/Seshat-Global-History-Databank/cliopatria/5f433377139a6eeaeacbdc894b70f8805b72c8b5/cliopatria.geojson.zip",
+      "sourceSha256": "e10a4e429fca708788ff9e7572a95fce801fae55852d217cffabc1c59cd4eed4",
+      "license": "CC-BY-4.0 (Cliopatria); public domain (Natural Earth)",
+      "coverage": "1939",
+      "transform": "Unchanged Hungarian1939 source and contemporary Slovak reference input. Runtime clipping uses separately licensed CShapes baseline, German1938 incorporation and Hungarian1939 extent. Not a surveyed Slovak1939 boundary; no current statistics transferred."
     },
     {
       "file": "cities.geojson",
@@ -172,16 +185,16 @@
     },
     {
       "file": "country-history.json",
-      "bytes": 111259,
-      "sha256": "fa8e2cb13a2422a1ff7ec6da35c3f337269f237348aeb6229822190631a06489",
-      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 131791,
+      "sha256": "247c89b9075d223e5ee56a07eede2b86de0fe9e0bfcea36a4c58430c6955eb1a",
+      "version": "Historicmap 0.12.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "country-workspace-history",
       "url": "https://www.un.org/en/about-us/member-states",
       "source": "Official institutional histories, constitutional records and state succession references, linked per record",
       "license": "Original editorial summaries and factual metadata; sources linked individually",
-      "transform": "Dated institutions and links for interwar predecessor entities, League/UN, partitions and occupation transitions. Documentary windows do not assert exact constitutional inception or termination dates.",
-      "records": 80,
-      "relations": 76
+      "transform": "Dated institutions and predecessor links from1900, including imperial transitions, WWI treaties and early international institutions. Documentary windows are not exact constitutional inception dates; PCA/ITU/UPU records are not fabricated historical member rosters.",
+      "records": 97,
+      "relations": 86
     },
     {
       "file": "country-indicators.json",
@@ -212,15 +225,15 @@
     },
     {
       "file": "historical-context.json",
-      "bytes": 234967,
-      "sha256": "e0b69e7ee788aea9bdc526be414291a66b0a59a105cc21463b96f61870c939ad",
-      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 278616,
+      "sha256": "2f4f84124d311447dd4bb81d9ece3aa858cce82b5eca84b522bc2db8f8e91a44",
+      "version": "Historicmap 0.12.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "dated-historical-context",
       "source": "United Nations, institutional and government historical records",
       "url": "https://www.un.org/en/about-us/history-of-the-un",
       "license": "Original editorial summaries; institutional sources linked per event",
-      "transform": "Fifty additional sourced phases1920–1949, including interwar regimes, WWII, occupation, independence and civil wars. Not a worldwide daily military-front or conflict census.",
-      "records": 329
+      "transform": "48 additional sourced phases1900–1919, including imperial regimes, revolutions, colonial transitions and WWI. Not a worldwide daily front-line or conflict census.",
+      "records": 378
     },
     {
       "file": "historical-control.geojson",
@@ -237,14 +250,14 @@
     },
     {
       "file": "historical-supplements.geojson",
-      "bytes": 124565,
-      "sha256": "8fce1e2d002ea25f2162e51404e1408ddf01e2d3a9149f032c7ec3ca1066cd5f",
-      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 130995,
+      "sha256": "3e0edf7dfba66ecaa525450c51f0aef6fa311eb67f8635107eb1c78f467c756b",
+      "version": "Historicmap 0.12.0; historical preparation2026-10-24; current reference2026-10-22",
       "source": "Natural Earth pinned country outlines; UN territorial/state chronology and Office of the Historian",
       "url": "https://www.naturalearthdata.com/about/terms-of-use/",
       "license": "Public domain (Natural Earth geometry); factual institutional metadata",
-      "transform": "Unchanged Natural Earth contemporary reference outlines for source omissions from1920, including Vatican only from7June1929. Coverage floors and statehood dates are distinct from UN admission; not a reconstructed historical coastline.",
-      "features": 25
+      "transform": "26 unchanged Natural Earth contemporary reference contours for source omissions from1900, including protected Tonga before1970 and Vatican only from7June1929. Coverage floors and statehood dates are distinct; not reconstructed historical coastlines.",
+      "features": 26
     },
     {
       "file": "history.topojson",
@@ -262,16 +275,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 9014632,
-      "sha256": "0e55e133e345081f683dc0753da6919358fd59e3dfdc2c991a0826fc3831d3e8",
+      "bytes": 9911148,
+      "sha256": "5ee3687dd822fe453b6a4b826205a03833377b92e74be3c35980881459ffa177",
       "format": "dated-political-identities",
-      "countries": 290,
-      "records": 9485,
+      "countries": 302,
+      "records": 10244,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
+      "version": "Historicmap 0.12.0; historical preparation2026-10-24; current reference2026-10-22",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Incremental worldwide1920–1949 acquisition and sourced documentary windows; RSR/ROC/YKM/DAN/TIB/RSI historical keys, formal/dominant offices and collective occupation administrations. Licensed media, later curations, missing portraits and current reference2026-10-22 preserved. Resolver coverage is not an exhaustive daily census."
+      "transform": "Isolated incremental worldwide1900–1919 acquisition and sourced focal authority windows. Imperial, republican, local/protector and collective offices distinguished; licensed media and later curations preserved. Contemporary reference2026-10-22 unchanged. Resolver coverage is not an exhaustive daily census."
     },
     {
       "format": "dated-political-influence",
@@ -321,15 +334,15 @@
     },
     {
       "file": "territorial-administrations.json",
-      "bytes": 13826,
-      "sha256": "effb0be39c9f5475893ceef68057575dca310e12a52e943e74be351cd6562d5d",
-      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 20065,
+      "sha256": "88afbd1d0adac4df37050a1af42c869f5520a501f1dca4e0b834c155f5415150",
+      "version": "Historicmap 0.12.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "dated-territorial-administrations",
-      "records": 24,
+      "records": 32,
       "source": "Primary legal, government and UN sources per relationship",
       "url": "https://www.un.org/dppa/decolonization/en",
       "license": "Original factual compilation; individual documentary sources retained.",
-      "transform": "Dated administrative relationships from1920; French colonies/departments distinguished in1946 and Austria under German control1938–1945. External national offices do not substitute a complete local-governor series or transfer statistics."
+      "transform": "Dated administrative coverage from1900, including Korean protection/annexation, Boer colonies, Moroccan protectorate, Tonga and Congo1908 transfer. Coverage boundaries differ from legal inception. External national offices do not substitute complete local governor series."
     },
     {
       "file": "territorial-overlays.geojson",

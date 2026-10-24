@@ -1,6 +1,7 @@
 import clipping, {type MultiPolygon as ClipMultiPolygon, type Polygon as ClipPolygon} from 'polygon-clipping';
 import type {Feature, FeatureCollection, Polygon, MultiPolygon} from 'geojson';
 import {regimeColor} from './political';
+import {centralEuropeanControls} from './central-europe';
 
 type Area=Feature<Polygon|MultiPolygon>;
 const area=(f:Feature):f is Area=>f.geometry.type==='Polygon'||f.geometry.type==='MultiPolygon';
@@ -34,6 +35,7 @@ function correctDanzig(base:FeatureCollection,territories:FeatureCollection,occu
  * Each hatch retains the documentary territory and controller, not a claim of sovereignty.
  */
 export function composeControl(base:FeatureCollection,controls:FeatureCollection,year:number){
+ controls=centralEuropeanControls(base,controls,year);
  if(!controls.features.length)return correctDanzig(base,base,empty());
  let territories=base.features.slice();const occupations=empty();
  const annexations=controls.features.filter(f=>area(f)&&f.properties?.kind==='annexation-mask') as Area[];
@@ -74,7 +76,7 @@ export function composeControl(base:FeatureCollection,controls:FeatureCollection
    if(same)continue; // Its original geometry is merged into the controller below.
    const overlap=clipping.intersection(coords(f),coords(control));
    if(!overlap.length){remaining.push(f);continue;}
-   if(!p.occupiedKey&&!same&&!['client','civil-war'].includes(String(p.relation))&&p.kind!=='civil-war'&&(q.administratorKey!==controller||q.status==='occupied')){
+   if(!p.occupiedKey&&!same&&!['client','civil-war','incorporation'].includes(String(p.relation))&&p.kind!=='civil-war'&&(q.administratorKey!==controller||q.status==='occupied')){
     let intersection=overlap;
     for(const annexation of annexations.filter(a=>a.properties?.controller===controller))if(intersection.length)intersection=clipping.difference(intersection,coords(annexation));
     const occupiedColor=q.status==='occupied'?regimeColor(q.identityKey,year):q.politicalColor??'#a5a092';
@@ -92,5 +94,9 @@ export function composeControl(base:FeatureCollection,controls:FeatureCollection
   delete (properties as Record<string,unknown>).uid;
   territories.push(feature({type:'Feature',id:root?.id??6000000+index,geometry:control.geometry,properties},geometry));
  }
+ // The dated1939 replacement partitions the old Czechoslovak component into
+ // occupied Czech lands, the Slovak client and Hungarian incorporation. Do not
+ // leave a selectable predecessor made of numerical clipping remnants.
+ if(year===1939&&controls.features.some(f=>f.properties?.uid==='central-slovakia-reference-1939'))territories=territories.filter(f=>f.properties?.identityKey!=='CSK');
  return correctDanzig(base,{...base,features:territories},occupations);
 }

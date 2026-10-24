@@ -43,7 +43,8 @@ describe('persistent country workspace',()=>{
  });
  it('offers sourced successor navigation and institutional records with exclusive ends',()=>{
   expect(relatedEntities('USSR',history)).toHaveLength(15);
-  expect(relatedEntities('CSK',history).map(r=>r.to.key).sort()).toEqual(['CZE','SVK']);
+  expect(relatedEntities('CSK',history).filter(r=>r.from.key==='CSK').map(r=>r.to.key).sort()).toEqual(['CZE','SVK','SVK-1939']);
+  expect(relatedEntities('CSK',history).some(r=>r.from.key==='AUT-HUN'&&r.to.key==='CSK')).toBe(true);
   expect(history.relations.every(r=>identities.countries[r.from.key]&&identities.countries[r.to.key])).toBe(true);
   for(const r of history.records.filter(r=>r.end))expect(recordsFor(r.keys[0],r.section,Number(r.end!.slice(0,4))+1,history)).not.toContain(r);
  });

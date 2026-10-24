@@ -1,0 +1,101 @@
+{
+  "key": "KEM",
+  "name": "Imperio de Corea",
+  "qid": "Q28233",
+  "aliases": [
+    "Imperio de Corea"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "KEM"
+  },
+  "flags": [
+    {
+      "start": "1900-01-01",
+      "end": "1909-12-31",
+      "media": {
+        "file": "media/flag-78bfe145fbe6ae4b6393.svg",
+        "title": "Flag of Korea (1899).svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Korea_(1899).svg",
+        "artist": "Lumia1234",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "[1], File:Flags of Maritime Nations (1899).djvu",
+        "sha256": "97e0df8cfbe2d3eeedaad0454cfb4896845663402e33e3cd7477dd56f5c2873e",
+        "bytes": 3652,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_Korea_%281899%29.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Korea_(1899).svg",
+      "acquisition": "curated-symbols-1900-0.12",
+      "intervalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Korea_(1899).svg",
+      "note": "Ventana documental para la selección al cierre anual, no fecha exacta de adopción o derogación. El símbolo no acredita fronteras, control efectivo ni reconocimiento diplomático. Ilustración delTaegeukgi de laépoca imperial, basada enFlags of Maritime Nations1899,atlasnaval contemporáneo. Existían variantes y no se impone la normalización surcoreana de1949; no se extiende a laanexión japonesa de1910."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q257425",
+      "name": "Gojong",
+      "role": "Emperador de Corea · jefatura formal del Estado",
+      "start": "1900-01-01",
+      "end": "1907-07-20",
+      "source": "https://contents.history.go.kr/resources/common/pdf/A%20History%20of%20Korea_The%20Understanding%20Korea%20Series.pdf",
+      "note": "Abdicación forzada20/7/1907, distinta de la proclamación de sustitución del príncipe19/7. El protectorado impuesto en1905 limita su soberanía sin convertirlo aún en una colonia anexionada. Los límites de cobertura delimitan el tramo documentado por esta revisión, no un nombramiento o una dimisión.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1900-asia-0.12",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-0585c9bb088cf6009507.jpg",
+        "title": "Gojong of the Korean Empire 02.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Gojong_of_the_Korean_Empire_02.jpg",
+        "artist": "This photo was taken in 1907.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gojong_of_the_Korean_Empire_02.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://m.post.naver.com/viewer/postView.nhn?volumeNo=16538194",
+        "sha256": "135e795d93c67c66fb43afc7e6571a53671fd6b8faa903e08e26542d106b510d",
+        "bytes": 50268,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Gojong_of_the_Korean_Empire_02.jpg/330px-Gojong_of_the_Korean_Empire_02.jpg"
+      }
+    },
+    {
+      "person": "Q334111",
+      "name": "Sunjong",
+      "role": "Emperador de Corea · jefatura formal bajo protectorado japonés",
+      "start": "1907-07-20",
+      "end": "1910-08-28",
+      "source": "https://contents.history.go.kr/resources/common/pdf/A%20History%20of%20Korea_The%20Understanding%20Korea%20Series.pdf",
+      "note": "Sucesión forzada en julio1907; ceremonia de entronización27/8 posterior. Firma del tratado22/8/1910 y promulgación de la anexión29/8 son hechos distintos. No se prolonga su autoridad estatal hasta su muerte1926.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1900-asia-0.12",
+      "portrait": {
+        "file": "media/portrait-4784b6ec412c7de6bbb4.jpg",
+        "title": "Sunjong of the Korean Empire.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Sunjong_of_the_Korean_Empire.jpg",
+        "artist": "Photography by 岩田鼎",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sunjong_of_the_Korean_Empire.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "독립기념관 한국독립운동사정보시스템",
+        "sha256": "4987a8270eeec886f86aabf4e22e35b2071b4ce9802454db57e1ed6e5b7bb3da",
+        "bytes": 38406,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sunjong_of_the_Korean_Empire.jpg/330px-Sunjong_of_the_Korean_Empire.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

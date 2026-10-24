@@ -53,6 +53,8 @@ export function regimeColor(key:string,year:number):string{
     case 'USSR':return '#c74743';
     case 'CHN-COMMUNIST':return year>=1949?'#d5b34b':'#a6784d';
     case 'RUS':return year<=1916?'#74966e':year<=1921?'#b95c54':'#9c7b9f';
+    case 'RUE':return '#74966e';
+    case 'RPR':return '#8d9c82';
     case 'RSR':return regimeColor('USSR',year);
     case 'YKM':return '#718db5';
     case 'USA':return '#4e89bd';
@@ -67,6 +69,7 @@ export function regimeColor(key:string,year:number):string{
     case 'ITA':return year>=1922&&year<=1943?'#646f5d':year<=1945?'#8daa8c':'#75a38e';
     case 'PRUSSIA':return '#6f8290';case 'CROATIA-CLIENT':return '#96999d';
     case 'AUT-HUN':return '#ac8c64';case 'OTT':return '#9b5b64';
+    case 'SVK-1939':return '#999ca1';
     default:return historicalColor(key)??palette[hashColor(key)];
   }
 }

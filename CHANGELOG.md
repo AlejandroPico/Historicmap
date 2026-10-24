@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.12.0 · 2026-10-24
+
+- Ampliación documental mundial de1900–1919 mediante adquisición aislada y curaciones regionales, conservando las afirmaciones posteriores. Imperios ruso, Qing, otomano y austrohúngaro, monarquías balcánicas y coreana con claves históricas propias; regencias, autoridades rivales y órganos colectivos diferenciados.
+- 76 ventanas adicionales de símbolos1900–1919, otra paraEslovaquia1939 y378 nuevas fotografías acreditadas; imágenes locales con autoría, licencia y huella. El pabellón mercante austrohúngaro se identifica como tal, sin inventar una bandera nacional común.
+- Correcciones de estatus para Corea1905–1909, antiguas repúblicas bóeres desde1902, Estado Libre del Congo antes de1908 y Marruecos antes del protectorado. Tonga protegido se incorpora como contorno contemporáneo de referencia; sin alterar la topología original ni inventar frentes diarios.
+- Tres agrupaciones y48 fases contextuales nuevas, instituciones y sucesiones fechadas. Firma, vigencia, proclamación, reconocimiento y límites de revisión se distinguen. La Triple Alianza no convierte automáticamente a Italia neutral en potencia beligerante en1914.
+- Catálogo Países, manifiestos, documentación, auditoría anual y expectativas antiguas de cobertura sincronizados. Se conservan las carencias nominales; disponibilidad de alguna autoridad no equivale a censo exhaustivo mundial de cargos o fronteras.
+- Corrección adicional solicitada deAlemania1938–1939: componentes remotos descartados por ámbito territorial, fronteras de vecinos protegidas y territorio alemán disuelto en una entidad seleccionable. Praga1938 sigue checoslovaca; en1939 se separan tierras checas ocupadas, Estado eslovaco cliente y extensión húngara. El apoyo eslovaco es una referencia recortada explícita, con autoridades y bandera propias; no una frontera exacta de1939 ni una corrección mundial de1940–1944.
+
 ## 0.11.1 · 2026-10-24
 
 - Corregidas tres expectativas de navegador que quedaron desactualizadas tras ampliar la documentación a1920: organizaciones disponibles en1947, administración aliada colectiva de1946 y varios titulares durante1939.

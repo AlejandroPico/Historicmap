@@ -1,0 +1,86 @@
+{
+  "key": "RPR",
+  "name": "Gobierno Provisional / República Rusa",
+  "qid": "Q139319",
+  "aliases": [
+    "Gobierno Provisional / República Rusa"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "RPR"
+  },
+  "flags": [
+    {
+      "start": "1917-03-15",
+      "end": "1917-11-07",
+      "media": {
+        "file": "media/flag-0678d2508ffaab9fffcb.svg",
+        "title": "Flag of Russia.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+        "artist": "Peter the Great",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "Государственный флаг Российской Федерации. Цвета флага: (Blue - Pantone 286 C, Red - Pantone 485 C) взяты из [1][2][3][4]",
+        "sha256": "eb1dbd977fdb824dcae7767ce9ec3a023e41158e81b5f524772609ddcb622025",
+        "bytes": 200,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+      "acquisition": "curated-symbols-1900-0.12",
+      "intervalSource": "https://ivarh.ru/vse-novosti-i-publikacii/den-flaga-1223",
+      "note": "Ventana documental para la selección al cierre anual, no fecha exacta de adopción o derogación. El símbolo no acredita fronteras, control efectivo ni reconocimiento diplomático. Tricolor conservado durante elGobiernoProvisional, separado delestandarte zarista; no se inventa un nuevo decreto de adopción. Antes de la proclamación republicana de14/9/1917 se identifica elGobiernoProvisional, sin retrotraer elnombreRepúblicaRusa ni prolongar elImperio. Fechasgregorianas coordinadas con laidentidad deautoridades."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q297032",
+      "name": "Gueorgui Lvov",
+      "role": "Ministro-presidente del Gobierno Provisional de Rusia",
+      "start": "1917-03-15",
+      "end": "1917-07-20",
+      "source": "https://statearchive.ru/1016",
+      "note": "Gobierno Provisional desde2/3juliano. Dimisión7/7juliano y sucesión de Kerenski8/7juliano; la composición del gabinete cambia también el24/7juliano. Antes14/9gregoriano no se titula presidente de una república ya proclamada.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1900-0.12"
+    },
+    {
+      "person": "Q48211",
+      "name": "Aleksandr Kerenski",
+      "role": "Ministro-presidente del Gobierno Provisional / República Rusa",
+      "start": "1917-07-21",
+      "end": "1917-11-07",
+      "source": "https://www.prlib.ru/history/619540",
+      "note": "Comienza8/7juliano=21/7gregoriano. Proclamación republicana1/9juliano=14/9gregoriano. El Gobierno es derrocado25/10juliano=7/11gregoriano; no se confunde este hito con la constitución del Sovnarkom al día siguiente.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1900-0.12",
+      "portrait": {
+        "file": "media/portrait-f2a02a3cde28bfb981f1.png",
+        "title": "Kerensky--russianrevolutio00leviuoft.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Kerensky--russianrevolutio00leviuoft.png",
+        "artist": "I.F.S.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kerensky--russianrevolutio00leviuoft.png#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://archive.org/details/russianrevolutio00leviuoft/page/256/mode/2up",
+        "sha256": "1be6e23729f8b3c61af6ea392fc2a83d0ee4fd4af72678de828f9e4e7684d219",
+        "bytes": 85271,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Kerensky--russianrevolutio00leviuoft.png/330px-Kerensky--russianrevolutio00leviuoft.png"
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1741,6 +1741,196 @@
       "note": "La proclamación indonesia fue en1945. La transferencia de1949 deja fuera Nueva Guinea occidental y no unifica por sí sola todas las fases administrativas.",
       "source": "https://history.state.gov/historicaldocuments/frus1949v07p1/d413",
       "sourceLabel": "Documento de la transición"
+    },
+    {
+      "id": "extension-1900-qing-republic",
+      "from": {
+        "key": "QING",
+        "name": "Imperio Qing",
+        "year": 1911
+      },
+      "to": {
+        "key": "ROC",
+        "name": "República de China",
+        "year": 1912
+      },
+      "date": "1912-01-01",
+      "type": "transition",
+      "label": "Proclamación republicana",
+      "note": "La proclamación republicana precede a la abdicación de 12/2/1912; no se transfiere retrospectivamente a la República Popular toda la historia de China.",
+      "source": "https://history.state.gov/milestones/1899-1913/chinese-rev",
+      "sourceLabel": "Fuente institucional o documento de la transición"
+    },
+    {
+      "id": "extension-1900-russia-provisional",
+      "from": {
+        "key": "RUE",
+        "name": "Imperio ruso",
+        "year": 1916
+      },
+      "to": {
+        "key": "RPR",
+        "name": "Gobierno provisional ruso",
+        "year": 1917
+      },
+      "date": "1917-03-15",
+      "type": "transition",
+      "label": "Abdicación y Gobierno provisional",
+      "note": "Las fechas rusas se expresan en calendario gregoriano; febrero y octubre son los nombres históricos según el calendario juliano. El relevo de autoridad no significa independencia de todos los territorios imperiales ni retirada de la guerra.",
+      "source": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg/kriegsverlauf/russische-revolution",
+      "sourceLabel": "Fuente institucional o documento de la transición"
+    },
+    {
+      "id": "extension-1900-russia-soviet",
+      "from": {
+        "key": "RPR",
+        "name": "Gobierno provisional ruso",
+        "year": 1917
+      },
+      "to": {
+        "key": "RSR",
+        "name": "Rusia soviética",
+        "year": 1918
+      },
+      "date": "1917-11-07",
+      "type": "transition",
+      "label": "Toma de poder bolchevique",
+      "note": "Las fechas rusas se expresan en calendario gregoriano; febrero y octubre son los nombres históricos según el calendario juliano. No es la creación de la URSS; el año del enlace permite navegar a una representación posterior al relevo.",
+      "source": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg/kriegsverlauf/russische-revolution",
+      "sourceLabel": "Fuente institucional o documento de la transición"
+    },
+    {
+      "id": "extension-1900-austria-hungary-austria",
+      "from": {
+        "key": "AUT-HUN",
+        "name": "Austria-Hungría",
+        "year": 1917
+      },
+      "to": {
+        "key": "AUT",
+        "name": "República de Austria",
+        "year": 1919
+      },
+      "date": "1918-11-12",
+      "type": "transition",
+      "label": "Proclamación de la república austríaca",
+      "note": "El Estado austríaco sucesor no equivale al imperio multinacional completo ni hereda automáticamente sus estadísticas o cargos.",
+      "source": "https://www.parlament.gv.at/verstehen/historisches/1918-1945/ausrufung-republik",
+      "sourceLabel": "Fuente institucional o documento de la transición"
+    },
+    {
+      "id": "extension-1900-austria-hungary-csk",
+      "from": {
+        "key": "AUT-HUN",
+        "name": "Austria-Hungría",
+        "year": 1917
+      },
+      "to": {
+        "key": "CSK",
+        "name": "Checoslovaquia",
+        "year": 1919
+      },
+      "date": "1918-10-28",
+      "type": "transition",
+      "label": "Proclamación de Checoslovaquia",
+      "note": "La proclamación, el reconocimiento y la fijación posterior de fronteras son hechos distintos.",
+      "source": "https://vlada.gov.cz/cz/urad-vlady/historie/kalendarium-1918---1989-50555",
+      "sourceLabel": "Fuente institucional o documento de la transición"
+    },
+    {
+      "id": "extension-1900-serbia-yugoslavia",
+      "from": {
+        "key": "SRK",
+        "name": "Reino de Serbia",
+        "year": 1917
+      },
+      "to": {
+        "key": "YKM",
+        "name": "Reino de los Serbios, Croatas y Eslovenos",
+        "year": 1919
+      },
+      "date": "1918-12-01",
+      "type": "transition",
+      "label": "Unión sudeslava",
+      "note": "Enlace entre entidades separadas. Las funciones dinásticas continúan, sin convertir la unión en una anexión de todos los territorios por un Estado moderno.",
+      "source": "https://www.parlament.gov.rs/narodna-skupstina-/istorijat/istorijat-1804---1918.937.html",
+      "sourceLabel": "Fuente institucional o documento de la transición"
+    },
+    {
+      "id": "extension-1900-panama",
+      "from": {
+        "key": "COL",
+        "name": "Colombia",
+        "year": 1902
+      },
+      "to": {
+        "key": "PAN",
+        "name": "Panamá",
+        "year": 1904
+      },
+      "date": "1903-11-03",
+      "type": "transition",
+      "label": "Separación de Panamá",
+      "note": "El reconocimiento estadounidense del 6/11 y el régimen de la Zona del Canal son hechos posteriores y distintos.",
+      "source": "https://history.state.gov/countries/panama",
+      "sourceLabel": "Fuente institucional o documento de la transición"
+    },
+    {
+      "id": "extension-1900-australia",
+      "from": {
+        "key": "GBR",
+        "name": "Imperio británico",
+        "year": 1900
+      },
+      "to": {
+        "key": "AUS",
+        "name": "Commonwealth of Australia",
+        "year": 1901
+      },
+      "date": "1901-01-01",
+      "type": "transition",
+      "label": "Federación australiana",
+      "note": "Enlace al marco imperial anterior, sin afirmar que todas las colonias fueran un mismo territorio metropolitano o que la federación otorgara soberanía exterior plena.",
+      "source": "https://peo.gov.au/understand-our-parliament/history-of-parliament/federation/federation",
+      "sourceLabel": "Fuente institucional o documento de la transición"
+    },
+    {
+      "id": "extension-1900-finland",
+      "from": {
+        "key": "RUE",
+        "name": "Imperio ruso",
+        "year": 1916
+      },
+      "to": {
+        "key": "FIN",
+        "name": "Finlandia",
+        "year": 1918
+      },
+      "date": "1917-12-06",
+      "type": "transition",
+      "label": "Declaración de independencia de Finlandia",
+      "note": "La declaración parlamentaria y el reconocimiento soviético del 31/12 son distintos. El enlace no acredita la posterior cartografía de la guerra civil.",
+      "source": "https://valtioneuvosto.fi/en/-/finland-s-centenary-is-filled-with-joy-and-dignity",
+      "sourceLabel": "Fuente institucional o documento de la transición"
+    },
+    {
+      "id": "central-europe-1939-csk-slovakia",
+      "from": {
+        "key": "CSK",
+        "name": "Checoslovaquia",
+        "year": 1938
+      },
+      "to": {
+        "key": "SVK-1939",
+        "name": "Eslovaquia · República Eslovaca",
+        "year": 1939
+      },
+      "date": "1939-03-14",
+      "type": "secession",
+      "label": "Proclamación eslovaca y desmembración deChecoslovaquia",
+      "note": "Separación bajo tutela alemana, distinta del protectorado deBohemia yMoravia. El contorno eslovaco de apoyo es una referencia recortada, no una frontera diaria certificada.",
+      "source": "https://encyclopedia.ushmm.org/content/en/article/jozef-tiso-1",
+      "sourceLabel": "USHMM · historia deTiso y del Estado eslovaco"
     }
   ],
   "records": [
@@ -2825,6 +3015,288 @@
       "text": "El pacto se firma el22/3/1945 y entra en vigor el10/5. El registro depositario distingue efectos para Líbano1/6, Siria4/6 y Yemen24/2/1946; no se proyecta el Yemen unificado ni el Yemen meridional a los fundadores.",
       "source": "https://treaties.un.org/pages/showDetails.aspx?objid=080000028015a44b",
       "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1900-pca",
+      "keys": [
+        "DEU",
+        "AUT-HUN",
+        "RUE",
+        "QING",
+        "ROC",
+        "GBR",
+        "FRA",
+        "USA",
+        "ITA",
+        "JPN"
+      ],
+      "section": "relations",
+      "title": "La Haya y la Corte Permanente de Arbitraje",
+      "start": "1900-09-04",
+      "end": "1920-01-01",
+      "text": "La Convención de 1899, firmada el 29/7, entra en vigor el 4/9/1900. La de 1907 es otro instrumento, no una nueva admisión idéntica para todos. Las claves señalan fichas relacionadas, no certifican que todas sean partes desde 1900. El listado actual contiene continuidades y fechas distintas de informes antiguos; falta una serie histórica completa por entidad.",
+      "source": "https://www.ministeriopublico.pt/instrumento/convencao-para-solucao-pacifica-dos-conflitos-internacionais-1899-0",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-itu",
+      "keys": [
+        "AUT-HUN",
+        "DEU",
+        "RUE",
+        "OTT",
+        "GBR",
+        "FRA",
+        "ITA",
+        "BEL",
+        "DNK",
+        "ESP",
+        "GRC",
+        "NLD",
+        "PRT",
+        "SWE",
+        "NOR",
+        "CHE"
+      ],
+      "section": "relations",
+      "title": "Unión Telegráfica Internacional",
+      "start": "1900-01-01",
+      "end": "1920-01-01",
+      "text": "La cooperación telegráfica creada en 1865 continúa durante este periodo. Los participantes fundadores incluyen imperios y Estados distintos de sus sucesores actuales. Inicio 1900 y fin 1920 son límites de revisión; las claves no afirman adhesiones ni un roster completo en cada año.",
+      "source": "https://www.itu.int/en/history/Pages/ITUBorn1865.aspx",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-upu",
+      "keys": [
+        "GBR",
+        "FRA",
+        "DEU",
+        "RUE",
+        "AUT-HUN",
+        "OTT",
+        "ITA",
+        "USA"
+      ],
+      "section": "relations",
+      "title": "Unión Postal Universal y convenios postales",
+      "start": "1900-01-01",
+      "end": "1920-01-01",
+      "text": "El Tratado de Berna se firma el 9/10/1874 y entra en vigor el 1/7/1875; la denominación Unión Postal Universal se adopta en 1878. Las reformas de 1906 no son una fundación nueva. Las claves vinculan la cooperación postal sin atribuir a sucesores las adhesiones imperiales ni cerrar la vigencia en 1920.",
+      "source": "https://www.upu.int/UPU/media/upu/files/UPU/aboutUpu/acts/manualsInThreeVolumes/actInThreeVolumesConstitutionAndGeneralRegulationsEn.pdf",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-entente",
+      "keys": [
+        "GBR",
+        "FRA",
+        "RUE",
+        "RPR"
+      ],
+      "section": "relations",
+      "title": "Entente: entendimientos y alianzas diferentes",
+      "start": "1907-08-31",
+      "end": "1918-01-01",
+      "text": "Los acuerdos franco-británicos de 1904 y anglo-rusos de 1907 completan un entendimiento diplomático, junto a compromisos franco-rusos previos. No existe un único tratado tripartito de 1907 con adhesiones homogéneas. Firma y ratificación de cada convenio deben distinguirse.",
+      "source": "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/yourcountry/collections/the-outbreak-of-the-first-world-war/anglo-french-relations/",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-triple",
+      "keys": [
+        "DEU",
+        "AUT-HUN",
+        "ITA"
+      ],
+      "section": "defense",
+      "title": "Triple Alianza y neutralidad italiana",
+      "start": "1900-01-01",
+      "end": "1915-05-03",
+      "text": "El tratado impone obligaciones condicionadas y prevé también neutralidad benévola. Su existencia no obliga a pintar a Italia como beligerante con Alemania en 1914. La denuncia del 3/5/1915 precede a la guerra italiana contra Austria-Hungría.",
+      "source": "https://worldjpn.net/documents/texts/docs/18820520.T1E.html",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-us-associated",
+      "keys": [
+        "USA"
+      ],
+      "section": "relations",
+      "title": "Potencia asociada en la guerra mundial",
+      "start": "1917-04-06",
+      "end": "1919-01-01",
+      "text": "Estados Unidos combate junto a los Aliados como potencia asociada y conserva una posición distinta frente a sus compromisos previos. La categoría del mapa no constituye una adhesión a todos los tratados secretos.",
+      "source": "https://www.abmc.gov/wordpress-uploads/Section14.pdf",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-russia-calendars",
+      "keys": [
+        "RUE",
+        "RPR",
+        "RSR"
+      ],
+      "section": "institutions",
+      "title": "Monarquía, Gobierno provisional y poder soviético",
+      "start": "1917-03-08",
+      "end": "1920-01-01",
+      "text": "Las fechas rusas se expresan en calendario gregoriano; febrero y octubre son los nombres históricos según el calendario juliano. La abdicación de Nicolás II precede al Gobierno provisional, y el relevo bolchevique es en noviembre gregoriano. Rusia soviética no equivale todavía a la URSS fundada en 1922. Fin 1920: cobertura.",
+      "source": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg/kriegsverlauf/russische-revolution",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-china-regimes",
+      "keys": [
+        "QING",
+        "ROC"
+      ],
+      "section": "institutions",
+      "title": "Imperio Qing y República de China",
+      "start": "1911-10-01",
+      "end": "1920-01-01",
+      "text": "El Gobierno republicano se proclama antes de la abdicación Qing. La concentración de poder de Yuan y su ensayo monárquico no justifican proyectar la presidencia de la República Popular al periodo. El control provincial exige datos propios.",
+      "source": "https://history.state.gov/milestones/1899-1913/chinese-rev",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-mexico-law",
+      "keys": [
+        "MEX"
+      ],
+      "section": "institutions",
+      "title": "Promulgación y vigencia de la Constitución mexicana",
+      "start": "1917-02-05",
+      "end": "1920-01-01",
+      "text": "El artículo primero transitorio distingue publicación y protesta del texto de su vigencia general desde 1/5/1917. Las disposiciones electorales son una excepción expresamente inmediata. No se infiere estabilidad territorial o fin de todas las facciones.",
+      "source": "https://www.ordenjuridico.gob.mx/Documentos/Federal/html/wo14166.html",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-austrian-republic",
+      "keys": [
+        "AUT-HUN",
+        "AUT"
+      ],
+      "section": "institutions",
+      "title": "Disolución imperial y república austríaca",
+      "start": "1918-11-11",
+      "end": "1920-01-01",
+      "text": "Carlos renuncia a participar en los asuntos de Estado, sin abdicar formalmente. La república se proclama el 12/11. La Austria sucesora no se confunde con la totalidad de Austria-Hungría ni con un Gobierno imperial conservado después de 1918.",
+      "source": "https://www.parlament.gv.at/verstehen/historisches/1918-1945/ausrufung-republik",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-germany-law",
+      "keys": [
+        "DEU"
+      ],
+      "section": "institutions",
+      "title": "Revolución, Constituyente y Constitución",
+      "start": "1918-11-09",
+      "end": "1920-01-01",
+      "text": "La proclamación de 1918 precede al proceso constituyente. La Constitución de 1919 se firma el 11/8 y entra en vigor al promulgarse el 14/8. Los cargos de presidente del Reich y canciller deben mantenerse separados.",
+      "source": "https://weimar.bundesarchiv.de/WEIMAR/DE/Content/Dokumente-zur-Zeitgeschichte/1919-08-11_Verfassung.html",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-colonial-cuts",
+      "keys": [
+        "NAM",
+        "COD",
+        "LBY",
+        "PHL",
+        "HTI",
+        "DOM"
+      ],
+      "section": "territory",
+      "title": "Conquista, ocupación y administración colonial",
+      "start": "1900-01-01",
+      "end": "1920-01-01",
+      "text": "Las independencias posteriores no se retrotraen a 1900. Declarar una anexión, administrar una colonia, ocupar militarmente y ejercer control local son hechos distintos. Los cortes 1900/1920 delimitan esta revisión, no una cronología jurídica uniforme.",
+      "source": "https://www.archives.gov/files/research/foreign-policy/related-records/rg-256-inventory.pdf",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-postwar-treaties",
+      "keys": [
+        "DEU",
+        "AUT",
+        "HUN",
+        "OTT",
+        "YKM",
+        "CSK",
+        "POL"
+      ],
+      "section": "territory",
+      "title": "Armisticios y tratados después de 1918",
+      "start": "1918-11-11",
+      "end": "1920-01-01",
+      "text": "Los armisticios no fijan definitivamente todas las fronteras. Versalles, Saint-Germain y Neuilly se firman en 1919; sus fechas de entrada en vigor y los tratados húngaro y otomano son posteriores. No se aplica en 1918 una configuración de fronteras de 1920.",
+      "source": "https://www.archives.gov/files/research/foreign-policy/related-records/rg-256-inventory.pdf",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-british-vote",
+      "keys": [
+        "GBR"
+      ],
+      "section": "society",
+      "title": "Reforma del sufragio de 1918",
+      "start": "1918-02-06",
+      "end": "1920-01-01",
+      "text": "La ley recibe asentimiento el 6/2/1918 y amplía el sufragio masculino y el femenino bajo condiciones de edad y propiedad. No establece todavía igualdad completa del sufragio entre hombres y mujeres.",
+      "source": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/parliamentary-collections/speakers-conference/representation-of-the-people-act/",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-pandemic",
+      "keys": [
+        "USA",
+        "GBR",
+        "FRA",
+        "ESP",
+        "DEU",
+        "IND"
+      ],
+      "section": "society",
+      "title": "Gripe de 1918: documentos y alcance",
+      "start": "1918-01-01",
+      "end": "1920-01-01",
+      "text": "Las fuentes documentan medidas sanitarias y varias oleadas de pandemia. La denominación gripe española no demuestra origen español; no se añaden indicadores o cifras nacionales sin procedencia específica. Ventana editorial hasta 1919.",
+      "source": "https://www.archives.gov/news/topics/flu-pandemic-1918",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "extension-1900-ilo",
+      "keys": [
+        "GBR",
+        "FRA",
+        "ITA",
+        "USA"
+      ],
+      "section": "institutions",
+      "title": "OIT: constitución y primeras sesiones",
+      "start": "1919-04-01",
+      "end": "1920-01-01",
+      "text": "La organización se establece en el marco de los acuerdos de paz de 1919 y celebra su primera Conferencia Internacional del Trabajo en Washington. El intervalo comienza por cobertura mensual; no atribuye a todas las fichas igual día de adhesión ni vigencia anticipada de Versalles.",
+      "source": "https://www.ilo.org/static/english/lib/century/sources/sources1919.htm",
+      "sourceLabel": "Archivo o institución responsable · investigación 1900–1919"
+    },
+    {
+      "id": "central-europe-1939-slovak-state",
+      "keys": [
+        "SVK-1939",
+        "CSK"
+      ],
+      "start": "1939-03-14",
+      "end": "1940-01-01",
+      "section": "history",
+      "title": "Desmembración checoslovaca y Estado eslovaco",
+      "text": "Los Sudetes se incorporaron aAlemania en1938. En marzo1939 el Estado eslovaco se separó bajo tutela alemana, mientras Bohemia yMoravia quedaron bajo ocupación alemana y régimen de protectorado. La Constitución eslovaca se aprobó21/7; Tiso asumió la presidencia en octubre yTuka el nuevo gabinete28/10. No equivale a anexión alemana deEslovaquia ni a continuidad territorial deChecoslovaquia en el cierre1939.",
+      "source": "https://www.nrsr.sk/dl/Browser/Document?documentId=135154",
+      "sourceLabel": "Parlamento eslovaco · acta constitucional21/7/1939"
     }
-  ]
+  ],
+  "coverageStart": 1900
 }

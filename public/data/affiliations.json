@@ -1,8 +1,91 @@
 {
   "referenceDate": "2026-10-22",
-  "coverageStart": 1920,
+  "coverageStart": 1900,
   "coverageEnd": 2026,
   "organizations": [
+    {
+      "id": "alliesWW1",
+      "label": "Aliados y asociados · Primera Guerra Mundial (focal)",
+      "type": "military",
+      "formed": "1914-07-28",
+      "dissolved": "1918-11-11",
+      "source": "https://ww1.nam.ac.uk/timeline/",
+      "description": "Cobertura parcial de siete potencias principales y las autoridades rusas sucesivas. Coalición operativa, no adhesión a una organización ni lista mundial completa: faltan aquí Japón, China, Portugal, Rumanía, Grecia y otros participantes. Reino Unido representa su entrada imperial; los dominios no se duplican como miembros de un tratado. Estados Unidos es potencia asociada, no parte de los acuerdos aliados previos.",
+      "memberships": [
+        {
+          "code": "BEL",
+          "start": "1914-08-04",
+          "end": "1918-11-11",
+          "category": "member",
+          "note": "La invasión alemana incorpora a Bélgica a la guerra; el Gobierno conserva una condición distinta de país totalmente anexionado.",
+          "source": "https://ww1.nam.ac.uk/timeline/"
+        },
+        {
+          "code": "FRA",
+          "start": "1914-08-03",
+          "end": "1918-11-11",
+          "category": "member",
+          "note": "Entrada tras la declaración alemana de guerra; fin operativo por armisticio con Alemania, no tratado de paz.",
+          "source": "https://ww1.nam.ac.uk/timeline/"
+        },
+        {
+          "code": "GBR",
+          "start": "1914-08-04",
+          "end": "1918-11-11",
+          "category": "member",
+          "note": "Entrada del Imperio británico: no se atribuye a cada dominio una adhesión independiente al mismo acuerdo.",
+          "source": "https://ww1.nam.ac.uk/timeline/"
+        },
+        {
+          "code": "ITA",
+          "start": "1915-05-24",
+          "end": "1918-11-11",
+          "category": "member",
+          "note": "La denuncia de la Triple Alianza el 3/5 precede a la declaración contra Austria-Hungría de 23/5 y al estado de guerra desde 24/5. No era beligerante en 1914.",
+          "source": "https://www.senato.it/application/xmanager/projects/leg18/file/repository/relazioni/biblioteca/emeroteca/Il_Giornale_dei_giornali/0009GdG.pdf"
+        },
+        {
+          "code": "RPR",
+          "start": "1917-03-15",
+          "end": "1917-11-07",
+          "category": "member",
+          "note": "El Gobierno provisional continúa la guerra; no nueva adhesión. Fecha gregoriana de relevo, distinta de la proclamación republicana formal de septiembre.",
+          "source": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg/kriegsverlauf/russische-revolution"
+        },
+        {
+          "code": "RSR",
+          "start": "1917-11-07",
+          "end": "1917-12-15",
+          "category": "member",
+          "note": "Autoridad soviética hasta el armisticio de 15/12/1917. Este fin indica cese operativo; la paz de Brest-Litovsk se firma el 3/3/1918 y no se anticipa a 1917.",
+          "source": "https://nzhistory.govt.nz/war/russian-empire-facts"
+        },
+        {
+          "code": "RUE",
+          "start": "1914-08-01",
+          "end": "1917-03-15",
+          "category": "member",
+          "note": "Rusia imperial, no Federación de Rusia actual. Fin por cambio de autoridad tras la abdicación, no retirada rusa de la guerra en marzo.",
+          "source": "https://nzhistory.govt.nz/war/russian-empire-facts"
+        },
+        {
+          "code": "SRK",
+          "start": "1914-07-28",
+          "end": "1918-11-11",
+          "category": "member",
+          "note": "Serbia entra tras la declaración austrohúngara. La ocupación posterior no extingue automáticamente al Gobierno o la participación serbia.",
+          "source": "https://ww1.nam.ac.uk/timeline/"
+        },
+        {
+          "code": "USA",
+          "start": "1917-04-06",
+          "end": "1918-11-11",
+          "category": "associate",
+          "note": "Potencia asociada desde su declaración contra Alemania de 6/4/1917; no se obliga automáticamente por los acuerdos secretos anteriores de los Aliados.",
+          "source": "https://history.state.gov/milestones/1914-1920/paris-peace"
+        }
+      ]
+    },
     {
       "id": "andean",
       "label": "Comunidad Andina / Pacto Andino",
@@ -1588,6 +1671,49 @@
         }
       ],
       "dissolved": "1979-09-26"
+    },
+    {
+      "id": "centralPowersWW1",
+      "label": "Potencias Centrales · coalición de guerra",
+      "type": "military",
+      "formed": "1914-07-28",
+      "dissolved": "1918-11-11",
+      "source": "https://ww1.nam.ac.uk/timeline/",
+      "description": "Coalición de guerra, distinta del tratado de la Triple Alianza. Cuatro potencias documentadas; los intervalos siguen entrada y cese operativo por armisticio, no un registro completo del estado jurídico de guerra. Las fechas no codifican horas dentro del día ni fronteras de ocupación.",
+      "memberships": [
+        {
+          "code": "AUH",
+          "start": "1914-07-28",
+          "end": "1918-11-04",
+          "category": "member",
+          "note": "Declaración contra Serbia el 28/7/1914. Armisticio de Villa Giusti firmado el 3/11/1918 y efectivo el 4/11; no fecha única de disolución territorial de la monarquía.",
+          "source": "https://nationalarchives.gov.fk/jdownloads/Gazettes%20Proclamations%20Notices/1918%20to%201921.%20R27%20to%20R30.pdf"
+        },
+        {
+          "code": "BGR",
+          "start": "1915-10-14",
+          "end": "1918-09-30",
+          "category": "member",
+          "note": "Declaración contra Serbia el 14/10/1915. Armisticio de Salónica firmado el 29/9/1918 y efectivo el 30/9; el tratado de paz es posterior.",
+          "source": "https://nzhistory.govt.nz/war/bulgaria-facts"
+        },
+        {
+          "code": "DEU",
+          "start": "1914-08-01",
+          "end": "1918-11-11",
+          "category": "member",
+          "note": "Entrada contra Rusia el 1/8/1914; armisticio con los Aliados efectivo el 11/11/1918. No tratado de paz.",
+          "source": "https://ww1.nam.ac.uk/timeline/"
+        },
+        {
+          "code": "OTT",
+          "start": "1914-11-02",
+          "end": "1918-10-31",
+          "category": "member",
+          "note": "Se sigue la declaración rusa de 2/11/1914, posterior al ataque naval otomano de octubre; no firma de la alianza germano-otomana. Mudros se firma el 30/10/1918 y el cese es efectivo el 31/10.",
+          "source": "https://nzhistory.govt.nz/war/ottoman-empire-facts"
+        }
+      ]
     },
     {
       "id": "comecon",
@@ -4986,6 +5112,44 @@
           "start": "2022-06-20",
           "source": "https://www.president.pl/archives/andrzej-duda/news/declaration-of-the-seventh-three-seas-initiative-summit%2C55642",
           "note": "Socio estratégico confirmado por declaración de Riga de 2022; el inicio es fecha de constatación en la serie, no fecha exacta original del estatus. No se infiere la categoría a partir de asistencias anteriores."
+        }
+      ]
+    },
+    {
+      "id": "tripleAlliance",
+      "label": "Triple Alianza · tratado defensivo",
+      "type": "military",
+      "formed": "1882-05-20",
+      "dissolved": "1915-05-03",
+      "source": "https://worldjpn.net/documents/texts/docs/18820520.T1E.html",
+      "description": "Tratado defensivo firmado en 1882 y renovado sucesivamente; observaciones desde 1900. Italia sigue vinculada durante su neutralidad de 1914 y denuncia la alianza el 3/5/1915. La firma original no se confunde con un día de ratificación aquí no contrastado. Termina esta configuración tripartita, no toda relación austro-alemana.",
+      "memberships": [
+        {
+          "code": "AUH",
+          "start": "1900-01-01",
+          "end": "1915-05-03",
+          "category": "member",
+          "note": "En vigor al inicio de la revisión de 1900; no fecha de adhesión. El tratado se firmó el 20/5/1882. La neutralidad italiana de 1914 no equivale a retirada ni beligerancia automática. Fin: denuncia italiana de 3/5/1915.",
+          "source": "https://goriziagrandeguerra.cultura.gov.it/timeline-1915/",
+          "startIsCoverageBoundary": true
+        },
+        {
+          "code": "DEU",
+          "start": "1900-01-01",
+          "end": "1915-05-03",
+          "category": "member",
+          "note": "En vigor al inicio de la revisión de 1900; no fecha de adhesión. El tratado se firmó el 20/5/1882. La neutralidad italiana de 1914 no equivale a retirada ni beligerancia automática. Fin: denuncia italiana de 3/5/1915.",
+          "source": "https://goriziagrandeguerra.cultura.gov.it/timeline-1915/",
+          "startIsCoverageBoundary": true
+        },
+        {
+          "code": "ITA",
+          "start": "1900-01-01",
+          "end": "1915-05-03",
+          "category": "member",
+          "note": "En vigor al inicio de la revisión de 1900; no fecha de adhesión. El tratado se firmó el 20/5/1882. La neutralidad italiana de 1914 no equivale a retirada ni beligerancia automática. Fin: denuncia italiana de 3/5/1915.",
+          "source": "https://goriziagrandeguerra.cultura.gov.it/timeline-1915/",
+          "startIsCoverageBoundary": true
         }
       ]
     },

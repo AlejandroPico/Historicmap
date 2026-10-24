@@ -22,7 +22,7 @@ export async function annualData(year:number){
     const data=await asset<FeatureCollection>('early-modern.geojson');
     return {...data,features:data.features.filter(f=>f.properties!.start<=year&&f.properties!.end>=year)};
   }
-  const [history,profiles,supplements]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1920?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined)]);
+  const [history,profiles,supplements]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1900?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined)]);
   names??=new Map(Object.entries(profiles.countries).flatMap(([iso,p])=>[p.name,p.englishName??'',p.official??''].filter(Boolean).map(n=>[normalizedName(n),iso])));
   const data=historyAt(history,year,names,geometryCache);
   if(!supplements)return data;
@@ -30,7 +30,7 @@ export async function annualData(year:number){
 }
 export const modernCities=()=>asset<FeatureCollection>('cities.geojson');
 export async function overlaysFor(year:number):Promise<FeatureCollection>{
-  const files=['territorial-overlays.geojson',...(year>=1990?['recent-control.geojson']:[]),...(year>=1914&&year<=1949?['historical-control.geojson']:[]),...(year>=1936&&year<=1939?['spanish-civil-war.geojson']:[])];
+  const files=['territorial-overlays.geojson',...(year>=1990?['recent-control.geojson']:[]),...(year>=1914&&year<=1949?['historical-control.geojson']:[]),...(year===1939?['central-europe-1939.geojson']:[]),...(year>=1936&&year<=1939?['spanish-civil-war.geojson']:[])];
   const data=await Promise.all(files.map(f=>asset<FeatureCollection>(f)));
   const all=data.flatMap(d=>d.features);
   const features:FeatureCollection['features']=all.filter(f=>f.properties!.start<=year&&f.properties!.end>=year).map(f=>{

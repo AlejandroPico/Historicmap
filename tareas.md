@@ -1,6 +1,42 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.11.1 · corrección de pruebas de publicación
+## Encargo vigente · 0.12.0 · ampliación hasta1900
+
+Ampliar mundialmente1900–1919 y conservar1920–actualidad. Comprobar localmente, subir y terminar sin esperar ni consultar Actions/Pages; el propietario notificará despliegue o errores.
+
+- [x] Adquisición incremental aislada y fusión exclusiva de1900–1919, sin reintroducir afirmaciones rechazadas de años posteriores.
+- [x] Autoridades, retratos y símbolos; separar imperios, repúblicas y sucesores sin estadísticas anacrónicas.
+- [x] Dependencias, transiciones, Primera Guerra Mundial, revoluciones y contexto institucional con fechas/fuentes.
+- [x] Auditoría nominal por décadas y conservación de los huecos reales; sincronizar Países y manifiestos.
+- [x] Actualizar versión/documentación y todas las expectativas temporales afectadas, incluidas las pruebas antiguas.
+- [x] Pruebas locales apropiadas y navegador; preparar la entrega autorizada a main, sin sondeos remotos.
+
+Estado: rama codex/1900-history desde d7f683c. Adquisición y cinco curadores1900 integrados, más corrección adicional1939:302 claves/10.244 mandatos;5.262 medios(499SVG/4.763 fotografías),378 fotografías y21SVG netos adicionales. 76 ventanas de símbolos1900 y una adicional1939,41 agrupaciones/903 membresías,378 fases y97 registros/86 enlaces. Catálogo:2.792 carpetas. Se comprobó pureza/idempotencia de los cinco curadores y conservación de todas las afirmaciones1920+ previas, permitiendo añadir retratos acreditados. La referencia contemporánea sigue en22/10/2026.
+
+Auditoría1900–1919:3.167 entidades/año y15 controles/año. Sin huecos de resolución de alguna autoridad o ausencia central documentada(Albania1917);66 personas/órganos sin imagen(63personas y3órganos),165 casos anuales sin símbolo después de corregir Corea1910. Listas nominales en REVIEW-1900-1919.json. No equivale a un censo completo de todos los cargos, regencias, gobernadores o frentes. Las correcciones de estatus no modifican history.topojson.
+
+Comprobaciones:137 pruebas/31 archivos correctos, integridad de44 datos/11 franjas/5.262 medios y tipos correctos. La primera suite detectó claves monárquicas aplicadas a Serbia/Montenegro modernos y una expectativa de sucesores que no contemplaba el nuevo predecesor deChecoslovaquia; corregidos con aserciones positivas. Regresión adicional deCorea1910: mismo administrador al cambiar el régimen de dependencia mantiene su símbolo al cierre. Compilación final correcta en `.cache/build-012-final-map`; Windows bloqueó el vaciado de `dist/media`, por lo que el navegador usa exclusivamente la carpeta nueva y un preview propio en5174. No servir el `dist` incompleto sin regenerarlo. Cinco recorridos iniciales correctos(5,2min), cuatro tras la corrección central(3,9min) y repeticiones finales de1920–1949 y1939 correctas después deMoravia. La prueba nueva espera cámara quieta hasta30s en vez de los5s predeterminados, sin quitar renderizado, clic real ni control de errores. Revisadas capturas de móvil y1939;5.317 recursos preparados enGit íntegros. Entrega local lista para main; la confirmación del envío corresponde al resultado deGit y al mensaje final. No confundirla con despliegue. No hay investigadores ni adquisiciones de medios activos.
+
+### Petición adicional · Alemania1939 y desmembración checoslovaca
+
+- [x] Diagnosticar geometría fuente: componentes aislados e intrusiones vecinas, no sólo pintura/GPU.
+- [x] Composición acotada1938–1939: país alemán único, vecinos protegidos, islas reales conservadas, Austria incorporada completa yBohemia/Moravia separadas del cliente eslovaco.
+- [x] IdentidadSVK-1939, símbolo, autoridades/retrato, contexto, fuente/referencia y catálogo; sin estadísticas actuales.
+- [x] Regresiones de puntos negativos/positivos, fases1938/1939, ocupación/incorporación, identificadores y fuentes inmutables.
+- [x] Navegador y revisión visual de la compilación nueva; preparar su envío junto con1900 sin sondeos deActions/Pages.
+- [ ] Investigación futura: frontera eslovaca1939 de fuente propia, detalles dePetržalka/Devín y franja oriental de marzo; extender la corrección a1940–1944 y distinguir la ocupación alemana desde1944. No presentar la referencia recortada como delimitación exacta.
+
+### Pendientes documentales de1900–1919
+
+- [ ] Contrastar los63 titulares sin fotografía y los165 casos anuales sin símbolo; conservar los3 órganos sin retrato individual inventado. Algunos vacíos son exclusiones históricas justificadas, otros faltas de investigación.
+- [ ] Completar gabinetes secundarios, regencias y gobernadores locales; crisis de1907–1908 en Marruecos, mandatos y Gobiernos chinos meridionales, fragmentación albanesa, regencias etíopes y suplencias breves americanas.
+- [ ] Incorporar geometría acreditada de frentes diarios/mensuales de la Primera Guerra Mundial y guerra civil rusa, concesiones, zonas coloniales y Estados efímeros omitidos; las fases contextuales no dibujan esos frentes.
+- [ ] Reconstruir membresías históricas dePCA/ITU/UPU/OIT antes de ofrecer capas mundiales; sus fichas institucionales no son listas de miembros.
+- [ ] Recuperar el CSV original aún ausente; mantener pendientes de entregas anteriores y revisar errores de metadatos de las fuentes tempranas sin fusionar identidades por un QID mal atribuido.
+- [ ] Revisar la publicación sólo tras aviso del propietario; terminar el flujo operativo al confirmar el push.
+
+
+## Registro · 0.11.1 · corrección de pruebas de publicación
 
 El propietario comunica tres fallos de los 30 recorridos de Quality de0.11.0; los otros27 han pasado según el registro aportado. Corregir y subir sin esperar ni consultar Actions/Pages. No retirar datos históricos válidos para satisfacer expectativas antiguas.
 

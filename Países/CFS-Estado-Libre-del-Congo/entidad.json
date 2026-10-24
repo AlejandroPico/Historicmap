@@ -1,0 +1,75 @@
+{
+  "key": "CFS",
+  "name": "Estado Libre del Congo",
+  "qid": "Q76048",
+  "aliases": [
+    "Estado Libre del Congo"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CFS"
+  },
+  "flags": [
+    {
+      "start": "1900-01-01",
+      "end": "1908-11-14",
+      "media": {
+        "file": "media/flag-72e545d90a49135e67d2.svg",
+        "title": "Flag of the Congo Free State.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Congo_Free_State.svg",
+        "artist": "See file history below for details.",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Own work.",
+        "sha256": "c2982fda4448981a610609461c8c8149232dbc8c3455b76ce555e7d395a021c9",
+        "bytes": 214,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Flag_of_the_Congo_Free_State.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Congo_Free_State.svg",
+      "acquisition": "curated-symbols-1900-0.12",
+      "intervalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Congo_Free_State.svg",
+      "note": "Ventana documental para la selección al cierre anual, no fecha exacta de adopción o derogación. El símbolo no acredita fronteras, control efectivo ni reconocimiento diplomático. Campo azul con estrella dorada central, anterior a la anexión belga. La declaración original de1884 se reproduce en Belgian Congo, Foreign Office, apéndiceI; la imagen no acredita legitimidad del régimen ni una costa histórica exacta."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q12967",
+      "name": "Leopoldo II",
+      "role": "Soberano del Estado Libre del Congo · unión personal con la Corona belga",
+      "start": "1900-01-01",
+      "end": "1908-11-14",
+      "source": "https://www.arch.be/index.php?a=2022-09-26-opnieuw-op-zijn-plaats-het-verdrag-tot-afstand-van-de-onafhankelijke-congostaat-aan-belgie&l=nl&m=nieuws&r=alle-nieuwsberichten",
+      "note": "Entidad separada del Estado belga, bajo soberanía personal de LeopoldoII. La ley colonial entró en vigor15/11/1908; no se atribuye el Gobierno del Congo a los ministros belgas antes de la anexión.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1900-regions-0.12",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-bc637d4f9fdedfa814cd.jpg",
+        "title": "Leopold ii garter knight.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Leopold_ii_garter_knight.jpg",
+        "artist": "London Stereoscopic and Photographic Company",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Leopold_ii_garter_knight.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Self-scanned by Carolus",
+        "sha256": "4c2f5fc15b88252889b64b7675b04eb2f0afb06c25bc4daa1f83a6dee94c2d08",
+        "bytes": 47256,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Leopold_ii_garter_knight.jpg/330px-Leopold_ii_garter_knight.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

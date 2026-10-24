@@ -25,7 +25,7 @@ function record(p,file,recordId){
  e.records.push({file,recordId,start:p.start??null,end:p.end??null,name,status:p.status??p.politicalStatus??null});
 }
 for(const g of read('history.topojson').objects.countries.geometries)record(g.properties,'history.topojson',g.properties.fid);
-for(const entry of manifest.entries.filter(e=>/^(early-modern|historical-control|spanish-civil-war|recent-control|historical-supplements|countries|world_.*)\.geojson$/.test(e.file))){
+for(const entry of manifest.entries.filter(e=>/^(early-modern|historical-control|central-europe-1939|spanish-civil-war|recent-control|historical-supplements|countries|world_.*)\.geojson$/.test(e.file))){
  const d=read(entry.file);for(const [i,f] of d.features.entries())record(f.properties,entry.file,f.id??i);
 }
 mkdirSync(dir,{recursive:true});const index=[];

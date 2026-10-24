@@ -1,0 +1,448 @@
+{
+  "key": "RUE",
+  "name": "Imperio ruso",
+  "qid": "Q34266",
+  "aliases": [
+    "Imperio ruso",
+    "Russian Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "RUE"
+  },
+  "flags": [
+    {
+      "start": "1900-01-01",
+      "end": "1917-03-14",
+      "media": {
+        "file": "media/flag-0678d2508ffaab9fffcb.svg",
+        "title": "Flag of Russia.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+        "artist": "Peter the Great",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "Государственный флаг Российской Федерации. Цвета флага: (Blue - Pantone 286 C, Red - Pantone 485 C) взяты из [1][2][3][4]",
+        "sha256": "eb1dbd977fdb824dcae7767ce9ec3a023e41158e81b5f524772609ddcb622025",
+        "bytes": 200,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+      "acquisition": "curated-symbols-1900-0.12",
+      "intervalSource": "https://www.prlib.ru/node/659469",
+      "note": "Ventana documental para la selección al cierre anual, no fecha exacta de adopción o derogación. El símbolo no acredita fronteras, control efectivo ni reconocimiento diplomático. Tricolor blanco-azul-rojo del Imperio, confirmado como nacional en1896. No se sustituye por el estandarte del zar ni por el distintivo de uso privado de1914. Los tonos digitales ilustran la familia; no equivalen a una norma Pantone imperial."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q40787",
+      "name": "Nicolás II",
+      "role": "Emperador de Rusia · monarquía imperial",
+      "start": "1900-01-01",
+      "end": "1917-03-15",
+      "source": "https://lenin.rusarchives.ru/fevralskaya-revolyuciya-v-rossii",
+      "note": "Acta original de abdicación2/3juliano=15/3gregoriano. El asesinato de1918 no es el final de su reinado. Miguel condicionó la aceptación del trono a una futura decisión constituyente; no se inventa un reinado efectivo posterior. Los extremos señalados como cobertura delimitan esta revisión o entidad; no son nombramientos ni dimisiones.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1900-0.12",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-61640034d57c49e38b7c.jpg",
+        "title": "Nicolas II de russie.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Nicolas_II_de_russie.jpg",
+        "artist": "Boissonnas & Eggler",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nicolas_II_de_russie.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Gettyimages\nhttp://avaxnews.net/educative/Last_Emperor_Of_Russia_2.html\nhttp://process.portsmouthpeacetreaty.org/process/causes/causes3.html",
+        "sha256": "e98c30a8edce7456864b79a472745198359527e8de53678c7e4168bdd312a904",
+        "bytes": 48146,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Nicolas_II_de_russie.jpg/330px-Nicolas_II_de_russie.jpg"
+      }
+    },
+    {
+      "person": "Q2027257",
+      "role": "Jefatura del Gobierno",
+      "start": "1917-01-01",
+      "end": "1917-03-01",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q34266",
+      "sourceStatement": "Q34266$B7ECC00A-5FC1-4B47-9EE9-A6F7D7D5EBF6",
+      "acquisition": "historical-0.12",
+      "name": "Ivan Shcheglovitov",
+      "portrait": {
+        "file": "media/portrait-12fa2d620652710b9dc6.jpg",
+        "title": "Ivan Shcheglovitov.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ivan_Shcheglovitov.jpg",
+        "artist": "Фотография ателье Буллы",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ivan_Shcheglovitov.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://photoarchive.spb.ru:9090/www/showObject.do?object=2500540122",
+        "sha256": "fdaee5f49f9af181c2f4e597d4b7000256e11fe87e299ddb15b9e4754a1cdec2",
+        "bytes": 20211,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Ivan_Shcheglovitov.jpg/330px-Ivan_Shcheglovitov.jpg"
+      }
+    },
+    {
+      "person": "Q154444",
+      "role": "Jefatura del Estado",
+      "start": "1917-03-15",
+      "end": "1917-03-15",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q154444",
+      "sourceStatement": "Q154444-9c80a2d8-4c0d-cd70-8f97-4ba1e03613a8",
+      "office": "Q2618625",
+      "acquisition": "historical-0.12",
+      "name": "Miguel Románov",
+      "portrait": {
+        "file": "media/portrait-e43de8db74178bd052e2.jpg",
+        "title": "Россия. Великий князь Михаил Александрович Романов. кон.1890-х(ф.Левицкий и сын) ГИМ e1t3.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F._%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2._%D0%BA%D0%BE%D0%BD.1890-%D1%85(%D1%84.%D0%9B%D0%B5%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D0%B8_%D1%81%D1%8B%D0%BD)_%D0%93%D0%98%D0%9C_e1t3.jpg",
+        "artist": "Левицкий С.Л. и сын.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F._%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2._%D0%BA%D0%BE%D0%BD.1890-%D1%85(%D1%84.%D0%9B%D0%B5%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D0%B8_%D1%81%D1%8B%D0%BD)_%D0%93%D0%98%D0%9C_e1t3.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://catalog.shm.ru/entity/OBJECT/2376055",
+        "sha256": "4fb6dab1f14ad2d4951a9d4920fe51aace813a4eeb7634ddece64aa9f44672c0",
+        "bytes": 37104,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F._%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2._%D0%BA%D0%BE%D0%BD.1890-%D1%85%28%D1%84.%D0%9B%D0%B5%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D0%B8_%D1%81%D1%8B%D0%BD%29_%D0%93%D0%98%D0%9C_e1t3.jpg/330px-%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F._%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BD%D1%8F%D0%B7%D1%8C_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2._%D0%BA%D0%BE%D0%BD.1890-%D1%85%28%D1%84.%D0%9B%D0%B5%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D0%B8_%D1%81%D1%8B%D0%BD%29_%D0%93%D0%98%D0%9C_e1t3.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10252",
+      "start": 1789,
+      "end": 1790,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10298",
+      "start": 1791,
+      "end": 1791,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10349",
+      "start": 1792,
+      "end": 1793,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10392",
+      "start": 1794,
+      "end": 1795,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10418",
+      "start": 1796,
+      "end": 1796,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10453",
+      "start": 1797,
+      "end": 1798,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10509",
+      "start": 1799,
+      "end": 1802,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10581",
+      "start": 1803,
+      "end": 1804,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10641",
+      "start": 1805,
+      "end": 1805,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10695",
+      "start": 1806,
+      "end": 1806,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10741",
+      "start": 1807,
+      "end": 1808,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10759",
+      "start": 1809,
+      "end": 1810,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10822",
+      "start": 1811,
+      "end": 1811,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10872",
+      "start": 1812,
+      "end": 1813,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10921",
+      "start": 1814,
+      "end": 1814,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10997",
+      "start": 1815,
+      "end": 1823,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11131",
+      "start": 1824,
+      "end": 1827,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11172",
+      "start": 1828,
+      "end": 1829,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11217",
+      "start": 1830,
+      "end": 1833,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11265",
+      "start": 1834,
+      "end": 1835,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11293",
+      "start": 1836,
+      "end": 1839,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11320",
+      "start": 1840,
+      "end": 1845,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11415",
+      "start": 1846,
+      "end": 1847,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11473",
+      "start": 1848,
+      "end": 1848,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11493",
+      "start": 1849,
+      "end": 1852,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11524",
+      "start": 1853,
+      "end": 1855,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11584",
+      "start": 1856,
+      "end": 1856,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11619",
+      "start": 1857,
+      "end": 1858,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11621",
+      "start": 1859,
+      "end": 1859,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11665",
+      "start": 1860,
+      "end": 1861,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11711",
+      "start": 1862,
+      "end": 1862,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11720",
+      "start": 1863,
+      "end": 1863,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11753",
+      "start": 1864,
+      "end": 1867,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11831",
+      "start": 1868,
+      "end": 1869,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11887",
+      "start": 1870,
+      "end": 1870,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11903",
+      "start": 1871,
+      "end": 1872,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11915",
+      "start": 1873,
+      "end": 1876,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11955",
+      "start": 1877,
+      "end": 1879,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11988",
+      "start": 1880,
+      "end": 1884,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-12014",
+      "start": 1885,
+      "end": 1885,
+      "name": "Russian Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

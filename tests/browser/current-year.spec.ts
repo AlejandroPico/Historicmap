@@ -57,11 +57,11 @@ test('compact sources, relief and dated memberships preserve space and temporal 
  await page.locator('#theme-select').selectOption('gdp');await expect(page.locator('#map-legend')).toContainText('PIB total');await expect(page.locator('#map-legend')).not.toContainText('OTAN');
  await page.locator('#close-layers').click();const legend=(await page.locator('#map-legend').boundingBox())!;expect(legend.x).toBeGreaterThan(900);expect(legend.y+legend.height).toBeLessThan(784);
  await year(page,1947);await page.locator('#layers-button').click();await expect(page.locator('#affiliation-select')).toBeEnabled();await expect(page.locator('#affiliation-select')).toHaveValue('');await expect(page.locator('#physical-layer')).toBeEnabled();
- await expect(page.locator('#affiliation-help')).toContainText('1920');
+ await expect(page.locator('#affiliation-help')).toContainText('1900');
  await page.locator('#affiliation-select').selectOption('un');await expect(page.locator('#map-legend')).toContainText('57 miembros');await expect(page.locator('#map-legend')).toContainText('1947');
  await page.locator('#affiliation-select').selectOption('nato');await expect(page.locator('#map-legend')).toContainText('no está activa');
  await page.locator('#physical-layer').click();await expect(page.locator('#physical-layer')).toHaveAttribute('aria-pressed','true');await page.locator('#physical-layer').click();await page.locator('#close-layers').click();
- await year(page,1919);await page.locator('#layers-button').click();await expect(page.locator('#affiliation-select')).toBeDisabled();await expect(page.locator('#affiliation-select')).toHaveValue('');await page.locator('#close-layers').click();
+ await year(page,1899);await page.locator('#layers-button').click();await expect(page.locator('#affiliation-select')).toBeDisabled();await expect(page.locator('#affiliation-select')).toHaveValue('');await page.locator('#close-layers').click();
  await year(page,-300000000);await page.locator('#layers-button').click();await expect(page.locator('#physical-layer')).toBeDisabled();
  await page.setViewportSize({width:390,height:844});await expect(page.locator('.maplibregl-ctrl-scale')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
 });
