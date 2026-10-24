@@ -1,5 +1,31 @@
 # Tareas y continuidad
 
+## Encargo vigente · 0.11.0 · ampliación hasta1920
+
+Petición24/10/2026: ampliar globalmente1920–1949 conservando1950–actualidad, la organización Países y la ficha fija. Mantener el flujo: comprobaciones locales y subida; NO esperar ni consultar el despliegue hasta aviso del propietario.
+
+- [x] Adquisición incremental mundial y auditoría nominal por década1920/1930/1940.
+- [x] Curaciones focales de autoridades, regímenes, símbolos, fuentes y retratos; conservar los vacíos reales. Cuatro preparadores de mandatos aplicados, 774 fotografías netas y 87 ventanas de símbolo contrastadas.
+- [x] Revisar identidades predecesoras, dependencias y fronteras de la fuente; no inventar frentes diarios.
+- [x] Organizaciones, instituciones, conflictos y contexto fechados; no retrotraer datos actuales ni membresías posteriores.
+- [x] Sincronizar Países, documentación, manifiestos y versión; corregir fecha visible de Acerca de.
+- [x] Pruebas locales apropiadas, compilación y navegador; entrega comprobada para subir y terminar sin espera de Actions/Pages.
+
+Estado inicial: rama codex/1920-history desde45721b4, aplicación publicada0.10.0(fe3676c). Investigación acotada de autoridades y contexto en curso; root gestiona adquisición, medios, aplicación, validación y subida. No considerar esta ampliación terminada por reanudar sesión.
+
+Punto de continuidad del 24/10: 290 claves, 9.485 mandatos; 4.863 medios. Auditoría de 5.294 entidades/año y 70 controles/año: cero huecos de resolución de alguna autoridad; quedan 122 personas/órganos sin retrato y 165 casos anuales sin símbolo, incluidos cuatro cierres alemanes de ocupación sin bandera nacional. No son series diarias completas. Tipos, 129 pruebas/28 archivos, integridad de 43 datos/11 franjas/4.863 medios y compilación correctos; bytes preparados en Git de 4.917 recursos comprobados. La primera suite detectó expectativas antiguas sobre símbolos/ocupación, un límite de tiempo del inventario y una afirmación genérica de Yan que reaparecía en 1950; corrección documentada y suite completa posterior correcta. Danzig1938 comprobado con punto real único, ficha visual y topología original intacta. La prueba de navegador reprodujo un atasco de resaltado Rusia1920→1921, corregido mediante estado de pintura; también se evita representar las tres zonas occidentales alemanas como administradas sólo por Estados Unidos. Los cuatro recorridos finales son correctos (3,3 minutos), incluida la regresión de1950 y la vista móvil. Entrega lista para main, sin sondeos remotos. Siguiente tras confirmar el envío: esperar el aviso del propietario para revisar la publicación.
+
+### Pendientes documentales de esta ampliación
+
+- [ ] Revisar las 118 personas sin fotografía; cuatro órganos colectivos no requieren retrato personal. Lista exacta en docs/REVIEW-1920-1949.json.
+- [ ] Revisar los 165 casos anuales sin símbolo y variantes diarias de las banderas ya inventariadas, distinguiendo ausencias correctas de faltas documentales; no inventar una bandera alemana para la ocupación ni usar diseños posteriores.
+- [ ] Completar suplencias y regencias diarias, autoridades coloniales locales y gobiernos breves, incluido Yemen1948 y Forster en Danzig1939.
+- [ ] Contrastar frentes y fases territoriales omitidas por los inventarios, incluyendo la geometría propia de laRSI; una ficha de conflicto no proporciona un frente.
+- [ ] Recuperar y conciliar el CSV original del propietario, aún ausente. Mantener los pendientes de entregas anteriores.
+- [ ] Revisar la publicación de0.11.0 cuando el propietario avise de que el despliegue terminó; no consultar Actions/Pages entretanto.
+
+## Registro de la entrega0.10.0
+
 ## Encargo vigente · 0.10.0 · ampliación a 1950
 
 **Instrucción del propietario:** comprobar localmente y subir una entrega coherente; NO esperar ni consultar Actions/Pages después de subir. El propietario comprobará el despliegue y pedirá la revisión pública cuando corresponda. Una subida correcta no equivale a despliegue confirmado.

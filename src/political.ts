@@ -53,6 +53,8 @@ export function regimeColor(key:string,year:number):string{
     case 'USSR':return '#c74743';
     case 'CHN-COMMUNIST':return year>=1949?'#d5b34b':'#a6784d';
     case 'RUS':return year<=1916?'#74966e':year<=1921?'#b95c54':'#9c7b9f';
+    case 'RSR':return regimeColor('USSR',year);
+    case 'YKM':return '#718db5';
     case 'USA':return '#4e89bd';
     case 'PRT':return year<=1909?'#5b8596':year<=1925?'#5b9b7c':year<=1973?'#638d73':'#71a895';
     case 'GBR':return '#b2789b';
@@ -80,10 +82,10 @@ export function politicalData(data:FeatureCollection,year:number,profiles?:Profi
     const modernOwner=profile?.territoryType==='Dependency'&&profile.sovereign?sovereignNames.get(profile.sovereign):undefined;
     const modernDependency=!!modernOwner&&modernOwner!==identityKey;
     const parent=p.parentName??(year<1789&&!p.status&&p.group&&p.group!==p.name?p.group:undefined);
-    const ownerKey=modernDependency?modernOwner!:p.status&&p.status!=='independent'&&p.ownerName?sovereignNames.get(String(p.ownerName))??entityKey({name:p.ownerName},year):parent?sovereignNames.get(String(parent))??entityKey({name:parent},year):identityKey;
+    const ownerKey=p.collectiveAdministration?identityKey:modernDependency?modernOwner!:p.status&&p.status!=='independent'&&p.ownerName?sovereignNames.get(String(p.ownerName))??entityKey({name:p.ownerName},year):parent?sovereignNames.get(String(parent))??entityKey({name:parent},year):identityKey;
     const name=identityKey==='FRA'&&(!p.parentName||p.parentName===p.originalName)&&!p.status&&year<1886?frenchName(year):p.name;
     const influence=influenceFor(identityKey,year);
-    const dependent=modernDependency||!!(p.status&&p.status!=='independent'&&p.ownerName)||!!parent&&parent!==p.originalName;
+    const dependent=!p.collectiveAdministration&&(modernDependency||!!(p.status&&p.status!=='independent'&&p.ownerName)||!!parent&&parent!==p.originalName);
     const power=influence?.power??ownerKey;
     const baseColor=regimeColor(power,year);
     const controlInfluence=!!influence&&['occupation','intervention'].includes(influence.kind);

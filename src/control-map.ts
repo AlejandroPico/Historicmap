@@ -14,12 +14,27 @@ function bounds(f:Area){
  return box;
 }
 function overlaps(a:number[],b:number[]){return a[0]<=b[2]&&a[2]>=b[0]&&a[1]<=b[3]&&a[3]>=b[1];}
+/** Documentary correction: the original CShapes record ends Danzig a year early.
+ * Apply its unchanged source contour after control composition so the1938
+ * German outline cannot also own the city. This is not an occupation overlay.
+ */
+function correctDanzig(base:FeatureCollection,territories:FeatureCollection,occupations:FeatureCollection){
+ const reference=base.features.find(f=>f.properties?.boundaryCorrection==='danzig-1938');
+ if(!reference||!area(reference))return {territories,occupations};
+ const box=bounds(reference);
+ const subtract=(features:Feature[])=>features.flatMap(f=>{
+  if(!area(f)||!overlaps(bounds(f),box))return [f];
+  const intersection=clipping.intersection(coords(f),coords(reference));if(!intersection.length)return [f];
+  const remaining=clipping.difference(coords(f),coords(reference));return remaining.length?[feature(f,remaining)]:[];
+ });
+ return {territories:{...territories,features:[...subtract(territories.features.filter(f=>f.properties?.identityKey!=='DAN')),reference]},occupations:{...occupations,features:subtract(occupations.features)}};
+}
 /** Compose the displayed control map, without mutating or redistributing source geometries.
  * Boolean geometry runs in a worker. Optional hatching never changes this inventory.
  * Each hatch retains the documentary territory and controller, not a claim of sovereignty.
  */
 export function composeControl(base:FeatureCollection,controls:FeatureCollection,year:number){
- if(!controls.features.length)return {territories:base,occupations:empty()};
+ if(!controls.features.length)return correctDanzig(base,base,empty());
  let territories=base.features.slice();const occupations=empty();
  const annexations=controls.features.filter(f=>area(f)&&f.properties?.kind==='annexation-mask') as Area[];
  const civil=controls.features.filter(f=>f.properties?.kind==='civil-war'&&area(f)) as Area[];
@@ -77,5 +92,5 @@ export function composeControl(base:FeatureCollection,controls:FeatureCollection
   delete (properties as Record<string,unknown>).uid;
   territories.push(feature({type:'Feature',id:root?.id??6000000+index,geometry:control.geometry,properties},geometry));
  }
- return {territories:{...base,features:territories},occupations};
+ return correctDanzig(base,{...base,features:territories},occupations);
 }

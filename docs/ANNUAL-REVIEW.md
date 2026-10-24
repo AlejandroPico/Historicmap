@@ -156,44 +156,44 @@ Completar autoridades, banderas, guerras civiles y regímenes por regiones; fren
 | 1910 | 148 | CShapes · 31 diciembre · 5cdfc528170b | República Democrática del Congo, Uganda, South Africa, Sudán, Korea, New Guinea (German New Guinea) (Kaiser Wilhelmsland)  |
 | 1911 | 147 | CShapes · 31 diciembre · 541777a785f9 | Zambia  |
 | 1912 | 149 | CShapes · 31 diciembre · 0a0b3635aaf8 | Mauritania, Camerún alemán, Gabon, Central African Republic, Chad, Congo, Madagascar (Malagasy), Marruecos, Spanish Morocco, Spanish West Africa, Libia, Imperio otomano  |
-| 1913 | 151 | CShapes · 31 diciembre · de9439b1516d | Albania, Serbia, Montenegro, Greece, Bulgaria, Rumanía, Mali, Mauritania, Imperio otomano, United Arab Emirates, China, Tibet  |
-| 1914 | 151 | CShapes · 31 diciembre · 43dea998a7df | Albania, Cyprus, Imperio ruso, Togo alemán, Nigeria, Uganda, Kenya, Sudán, Imperio otomano, Egipto, China, Tibet, India, New Guinea (German New Guinea) (Kaiser Wilhelmsland) **+ 3 registros de control/guerras civiles.** |
+| 1913 | 151 | CShapes · 31 diciembre · de9439b1516d | Albania, Serbia, Montenegro, Greece, Bulgaria, Rumanía, Mali, Mauritania, Imperio otomano, United Arab Emirates, República de China, Tibet  |
+| 1914 | 151 | CShapes · 31 diciembre · 43dea998a7df | Albania, Cyprus, Imperio ruso, Togo alemán, Nigeria, Uganda, Kenya, Sudán, Imperio otomano, Egipto, República de China, Tibet, India, New Guinea (German New Guinea) (Kaiser Wilhelmsland) **+ 3 registros de control/guerras civiles.** |
 | 1915 | 151 | CShapes · 31 diciembre · 03ecdb897c69 | Haiti, Serbia, Montenegro, Namibia **+ 3 registros de control/guerras civiles.** |
 | 1916 | 152 | CShapes · 31 diciembre · 8bf50e3e417d | Rumanía, Camerún alemán, Tanzania (Tanganyika), Qatar **+ 3 registros de control/guerras civiles.** |
 | 1917 | 153 | CShapes · 31 diciembre · 3393b41ba538 | Rusia soviética, Finland **+ 3 registros de control/guerras civiles.** |
-| 1918 | 159 | CShapes · 31 diciembre · db134139540e | Polonia, Austria, Hungría, Checoslovaquia, Yugoslavia, Bulgaria, Rumanía, Rusia soviética, Estonia, Latvia, Lithuania, Iceland, Imperio otomano, Yemen (Arab Republic of Yemen) **+ 3 registros de control/guerras civiles.** |
-| 1919 | 162 | CShapes · 31 diciembre · 285fce8254d0 | Francia, Alemania · República de Weimar, Polonia, Danzig, Austria, Hungría, Italia, Yugoslavia, Greece, Bulgaria, Rumanía, Mali, Burkina Faso (Upper Volta), Togo alemán, Cameroon, Camerún británico, Gabon, Central African Republic, Chad, Congo, Tanzania (Tanganyika), Argelia, Libia, Afghanistan  |
-| 1920 | 166 | CShapes · 31 diciembre · f80c2e3b64f9 | Alemania · República de Weimar, Polonia, Hungría, Albania, Yugoslavia, Rumanía, Rusia soviética, Lithuania, Denmark, Mauritania, Chad, Kenya, Tanzania (Tanganyika), Rwanda-Urundi, Namibia, Imperio otomano, Iraq, Siria, Lebanon, Jordan, Palestina, Papua, New Guinea (German New Guinea) (Kaiser Wilhelmsland)  |
-| 1921 | 168 | CShapes · 31 diciembre · 525d9889e6b5 | Reino Unido, Irlanda, Polonia, Rusia soviética, China, Mongolia  |
-| 1922 | 169 | CShapes · 31 diciembre · c288ad47bad6 | Colombia, Peru, Lithuania, Togo, Togo británico, Cameroon, Camerún británico, Tanzania (Tanganyika), Rwanda-Urundi, Iraq, Egipto, Siria  |
-| 1923 | 169 | CShapes · 31 diciembre · ee4852b4058b | Turquía, Jordan, Palestina  |
-| 1924 | 169 | CShapes · 31 diciembre · f2b16e2a2155 | Kenya, Italian Somaliland  |
-| 1925 | 169 | CShapes · 31 diciembre · f63d682359b4 | Libia, Egipto, Jordan  |
-| 1926 | 169 | CShapes · 31 diciembre · 226ddd8ae2f9 | Niger, Uganda, Kenya  |
-| 1927 | 169 | CShapes · 31 diciembre · e59953840bc0 | Australia  |
-| 1928 | 169 | CShapes · 31 diciembre · e59953840bc0 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 1929 | 169 | CShapes · 31 diciembre · e59953840bc0 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
-| 1930 | 170 | CShapes · 31 diciembre · 3f53f8d9d1f2 | Guayana Francesa, Inini  |
-| 1931 | 170 | CShapes · 31 diciembre · 36a3606cf207 | India **+ 1 registros de control/guerras civiles.** |
-| 1932 | 170 | CShapes · 31 diciembre · 7cd7793cfceb | Mali, Niger, Cote D'Ivoire, Iraq, Saudi Arabia **+ 2 registros de control/guerras civiles.** |
-| 1933 | 170 | CShapes · 31 diciembre · a40798897448 | Cote D'Ivoire **+ 2 registros de control/guerras civiles.** |
-| 1934 | 170 | CShapes · 31 diciembre · ff5474637fa2 | Haiti, Libia, Sudán, Yemen (Arab Republic of Yemen) **+ 2 registros de control/guerras civiles.** |
-| 1935 | 170 | CShapes · 31 diciembre · da40515cb955 | Saudi Arabia **+ 3 registros de control/guerras civiles.** |
-| 1936 | 170 | CShapes · 31 diciembre · da40515cb955 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos **+ 5 registros de control/guerras civiles.** |
-| 1937 | 173 | CShapes · 31 diciembre · 2fca8bb298e6 | Aden, India, Myanmar (Burma), East Aden Protectorate **+ 5 registros de control/guerras civiles.** |
-| 1938 | 172 | CShapes · 31 diciembre · 01806cea4771 | Bolivia, Paraguay, Alemania nazi, Hungría, Checoslovaquia **+ 6 registros de control/guerras civiles.** |
-| 1939 | 172 | CShapes · 31 diciembre · 1079d90b27d9 | Lithuania **+ 6 registros de control/guerras civiles.** |
-| 1940 | 169 | CShapes · 31 diciembre · d9544d2e3123 | Bulgaria, Rumanía, Unión Soviética, Finland **+ 6 registros de control/guerras civiles.** |
-| 1941 | 169 | CShapes · 31 diciembre · 32d43512d9c6 | Eritrea, Italian Somaliland **+ 7 registros de control/guerras civiles.** |
-| 1942 | 169 | CShapes · 31 diciembre · 50ff237b0190 | Ecuador, Peru, Iceland, Guinea-Bissau **+ 7 registros de control/guerras civiles.** |
-| 1943 | 169 | CShapes · 31 diciembre · 81b47fd1d5af | Libia **+ 6 registros de control/guerras civiles.** |
-| 1944 | 169 | CShapes · 31 diciembre · 52c76c8978e7 | Iceland, Mali, Mauritania, Lebanon **+ 5 registros de control/guerras civiles.** |
-| 1945 | 169 | CShapes · 31 diciembre · 2474afff6489 | Alemania · zonas de ocupación occidentales, Alemania · zona de ocupación soviética, Polonia, Checoslovaquia, Unión Soviética, China, Korea, People's Republic of, Korea, Republic of, Indonesia **+ 3 registros de control/guerras civiles.** |
-| 1946 | 168 | CShapes · 31 diciembre · 62952413ea92 | Guayana Francesa, Madagascar (Malagasy), Comoros, Siria, Jordan, Malaysia, Sabah (North Borneo), Sarawak, Singapore, Philippines **+ 1 registros de control/guerras civiles.** |
-| 1947 | 172 | CShapes · 31 diciembre · 2fbf3014aa8e | Hungría, Checoslovaquia, Mali, Niger, Cote D'Ivoire, Burkina Faso (Upper Volta), China, India, Bhutan, Pakistan, Jammu and Kashmir, Kashmir (North, Azad) **+ 1 registros de control/guerras civiles.** |
-| 1948 | 173 | CShapes · 31 diciembre · 1532c1b9eace | Canada, Israel, Korea, People's Republic of, Korea, Republic of, Myanmar (Burma), Sri Lanka (Ceylon), Philippines, Gaza, Cisjordania **+ 1 registros de control/guerras civiles.** |
-| 1949 | 172 | CShapes · 31 diciembre · a8fad42d01ab | República Federal de Alemania, República Democrática Alemana, Libia, China, Taiwan, India, Bhutan, Pakistan, Indonesia, West Irian (Dutch New Guinea), Papua New Guinea **+ 1 registros de control/guerras civiles.** |
-| 1950 | 178 | CShapes · 31 diciembre + 7 contornos de referencia · 7707202029b4 | China, Italian Somaliland, Andorra · contorno de referencia, Liechtenstein · contorno de referencia, Mónaco · contorno de referencia, San Marino · contorno de referencia, Ciudad del Vaticano · contorno de referencia, Kuwait · contorno de referencia, Baréin · contorno de referencia  |
+| 1918 | 159 | CShapes · 31 diciembre · db134139540e | Polonia, Austria, Hungría, Checoslovaquia, Reino de los serbios, croatas y eslovenos, Bulgaria, Rumanía, Rusia soviética, Estonia, Latvia, Lithuania, Iceland, Imperio otomano, Yemen (Arab Republic of Yemen) **+ 3 registros de control/guerras civiles.** |
+| 1919 | 161 | CShapes · 31 diciembre · 026775501626 | Francia, Alemania · República de Weimar, Polonia, Austria, Hungría, Italia, Reino de los serbios, croatas y eslovenos, Greece, Bulgaria, Rumanía, Mali, Burkina Faso (Upper Volta), Togo alemán, Cameroon, Camerún británico, Gabon, Central African Republic, Chad, Congo, Tanzania (Tanganyika), Argelia, Libia, Afghanistan  |
+| 1920 | 172 | CShapes · 31 diciembre + 6 contornos de referencia · 24270a40ed3f | Alemania · República de Weimar, Polonia, Ciudad Libre de Danzig, Hungría, Albania, Reino de los serbios, croatas y eslovenos, Rumanía, Rusia soviética, Lithuania, Denmark, Mauritania, Chad, Kenya, Tanzania (Tanganyika), Rwanda-Urundi, Namibia, Imperio otomano, Iraq, Siria, Lebanon, Jordan, Palestina, Papua, New Guinea (German New Guinea) (Kaiser Wilhelmsland), Andorra · contorno de referencia, Liechtenstein · contorno de referencia, Mónaco · contorno de referencia, San Marino · contorno de referencia, Kuwait · contorno de referencia, Baréin · contorno de referencia  |
+| 1921 | 174 | CShapes · 31 diciembre + 6 contornos de referencia · c00caac81ee9 | Reino Unido, Irlanda, Polonia, Rusia soviética, República de China, Mongolia  |
+| 1922 | 175 | CShapes · 31 diciembre + 6 contornos de referencia · dfcb3ed2edf5 | Colombia, Peru, Lithuania, Togo, Togo británico, Cameroon, Camerún británico, Tanzania (Tanganyika), Rwanda-Urundi, Iraq, Egipto, Siria  |
+| 1923 | 175 | CShapes · 31 diciembre + 6 contornos de referencia · 960d3a8b81a9 | Turquía, Jordan, Palestina  |
+| 1924 | 175 | CShapes · 31 diciembre + 6 contornos de referencia · 0c9237637947 | Kenya, Italian Somaliland  |
+| 1925 | 175 | CShapes · 31 diciembre + 6 contornos de referencia · 0b71cd021d23 | Libia, Egipto, Jordan  |
+| 1926 | 175 | CShapes · 31 diciembre + 6 contornos de referencia · 8ca91509a7fd | Niger, Uganda, Kenya  |
+| 1927 | 175 | CShapes · 31 diciembre + 6 contornos de referencia · eded047132a9 | Australia  |
+| 1928 | 175 | CShapes · 31 diciembre + 6 contornos de referencia · eded047132a9 | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos  |
+| 1929 | 176 | CShapes · 31 diciembre + 7 contornos de referencia · 43c268647382 | Ciudad del Vaticano · contorno de referencia  |
+| 1930 | 177 | CShapes · 31 diciembre + 7 contornos de referencia · e9c4a639237c | Guayana Francesa, Inini  |
+| 1931 | 177 | CShapes · 31 diciembre + 7 contornos de referencia · 29f68140c983 | India **+ 1 registros de control/guerras civiles.** |
+| 1932 | 177 | CShapes · 31 diciembre + 7 contornos de referencia · 527663e58ecb | Mali, Niger, Cote D'Ivoire, Iraq, Saudi Arabia **+ 2 registros de control/guerras civiles.** |
+| 1933 | 177 | CShapes · 31 diciembre + 7 contornos de referencia · 7fb5fe8ca6fb | Cote D'Ivoire **+ 2 registros de control/guerras civiles.** |
+| 1934 | 177 | CShapes · 31 diciembre + 7 contornos de referencia · 7411707123ae | Haiti, Libia, Sudán, Yemen (Arab Republic of Yemen) **+ 2 registros de control/guerras civiles.** |
+| 1935 | 177 | CShapes · 31 diciembre + 7 contornos de referencia · c1a7a775b73c | Saudi Arabia **+ 3 registros de control/guerras civiles.** |
+| 1936 | 177 | CShapes · 31 diciembre + 7 contornos de referencia · c1a7a775b73c | Sin cambio de registro en la fuente; no prueba ausencia de cambios históricos **+ 5 registros de control/guerras civiles.** |
+| 1937 | 180 | CShapes · 31 diciembre + 7 contornos de referencia · dc33272f4271 | Aden, India, Myanmar (Burma), East Aden Protectorate **+ 5 registros de control/guerras civiles.** |
+| 1938 | 180 | CShapes · 31 diciembre + 7 contornos de referencia · 2e5f8d090562 | Bolivia, Paraguay, Alemania nazi, Hungría, Checoslovaquia **+ 6 registros de control/guerras civiles.** |
+| 1939 | 179 | CShapes · 31 diciembre + 7 contornos de referencia · 601a348b8994 | Lithuania **+ 6 registros de control/guerras civiles.** |
+| 1940 | 176 | CShapes · 31 diciembre + 7 contornos de referencia · fdd51b0c8c3b | Bulgaria, Rumanía, Unión Soviética, Finland **+ 6 registros de control/guerras civiles.** |
+| 1941 | 176 | CShapes · 31 diciembre + 7 contornos de referencia · 331d8d3260d8 | Eritrea, Italian Somaliland **+ 7 registros de control/guerras civiles.** |
+| 1942 | 176 | CShapes · 31 diciembre + 7 contornos de referencia · 6b151983f68c | Ecuador, Peru, Iceland, Guinea-Bissau **+ 7 registros de control/guerras civiles.** |
+| 1943 | 176 | CShapes · 31 diciembre + 7 contornos de referencia · b23c88943904 | Libia **+ 6 registros de control/guerras civiles.** |
+| 1944 | 176 | CShapes · 31 diciembre + 7 contornos de referencia · 56e8bcc2ea3f | Iceland, Mali, Mauritania, Lebanon **+ 5 registros de control/guerras civiles.** |
+| 1945 | 176 | CShapes · 31 diciembre + 7 contornos de referencia · 784d1a4e0838 | Alemania · zonas de ocupación occidentales, Alemania · zona de ocupación soviética, Polonia, Checoslovaquia, Unión Soviética, República de China, Korea, People's Republic of, Korea, Republic of, Indonesia **+ 3 registros de control/guerras civiles.** |
+| 1946 | 175 | CShapes · 31 diciembre + 7 contornos de referencia · da33ccfd5e9c | Guayana Francesa, Madagascar (Malagasy), Comoros, Siria, Jordan, Malaysia, Sabah (North Borneo), Sarawak, Singapore, Philippines **+ 1 registros de control/guerras civiles.** |
+| 1947 | 179 | CShapes · 31 diciembre + 7 contornos de referencia · 20edb33b721a | Hungría, Checoslovaquia, Mali, Niger, Cote D'Ivoire, Burkina Faso (Upper Volta), República de China, India, Bhutan, Pakistan, Jammu and Kashmir, Kashmir (North, Azad) **+ 1 registros de control/guerras civiles.** |
+| 1948 | 180 | CShapes · 31 diciembre + 7 contornos de referencia · e7c4f7a22fe3 | Canada, Israel, Korea, People's Republic of, Korea, Republic of, Myanmar (Burma), Sri Lanka (Ceylon), Philippines, Gaza, Cisjordania **+ 1 registros de control/guerras civiles.** |
+| 1949 | 179 | CShapes · 31 diciembre + 7 contornos de referencia · 19789d6364dc | República Federal de Alemania, República Democrática Alemana, Libia, China, Taiwan, India, Bhutan, Pakistan, Indonesia, West Irian (Dutch New Guinea), Papua New Guinea **+ 1 registros de control/guerras civiles.** |
+| 1950 | 178 | CShapes · 31 diciembre + 7 contornos de referencia · 7707202029b4 | China, Italian Somaliland  |
 | 1951 | 178 | CShapes · 31 diciembre + 7 contornos de referencia · 41e2c6a7b577 | Libia  |
 | 1952 | 177 | CShapes · 31 diciembre + 7 contornos de referencia · dbf51a9ed67d | Ethiopia, Solomon Islands  |
 | 1953 | 175 | CShapes · 31 diciembre + 7 contornos de referencia · b4fc2dbb7e62 | Federation of Rhodesia and Nyasaland, Cambodia (Kampuchea)  |

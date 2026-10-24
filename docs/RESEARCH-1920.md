@@ -1,0 +1,78 @@
+# Investigación de contexto e instituciones · 1920–1949
+
+Revisión: **24 de octubre de 2026**. Preparación reproducible y sin conexión: `python scripts/prepare-1920-context.py`, después de `prepare-1950-context.py` si se reconstruyen etapas anteriores. Sólo escribe `affiliations.json`, `historical-context.json` y `country-history.json`. La referencia contemporánea de los conjuntos sigue siendo la ya acreditada; investigar el pasado no actualiza autoridades actuales.
+
+## Alcance efectivo
+
+El preparador añade **50 fases**, **8 enlaces entre entidades** y **18 registros de ficha**, además de las organizaciones Sociedad de Naciones y ONU. Resultado sobre la base 0.10: **38 organizaciones, 887 intervalos de membresía, 329 fases de contexto, 76 relaciones y 80 registros de ficha**. Son inventarios documentados, no un censo de conflictos, instituciones o autoridades del planeta.
+
+Se conservan todos los registros anteriores. La única fase existente cuyo contenido se amplía es `extension-1950-indochina`: comienza ahora el **19/12/1946**, conserva su final de 1954 e incluye al Estado de Vietnam, anterior a la República de Vietnam. Se evita crear otra copia para 1950–1954. Ninguna geometría, frente o indicador estadístico se crea o altera.
+
+Las claves de contexto vinculan fichas; no son listas exhaustivas de beligerantes. Las relaciones usan claves existentes: ROC/CHN/TWN, DEU/DDR y los administradores y entidades de las independencias. La ficha usa USSR; los códigos territoriales y membresías usan SUN. Palestina usa PSX en registros de ficha y PSE en el contexto territorial normalizado; **PGA es Isla Wake**, no el mandato de Palestina.
+
+## Organizaciones y fechas
+
+| Organización | Decisión documentada |
+| --- | --- |
+| Sociedad de Naciones | 63 intervalos. Inicio institucional 10/1/1920; cierre 18/4/1946. Se conservan fechas diferentes de ingreso, retirada y expulsión. Estados Unidos no recibe membresía. |
+| Alemania y Japón en la Sociedad | Alemania: 8/9/1926–19/10/1935. Japón: 10/1/1920–27/3/1935. Las notificaciones de 1933 no se convierten en ceses efectivos ese mismo año. |
+| URSS en la Sociedad | 18/9/1934–14/12/1939. Expulsión tras la invasión de Finlandia, distinta de retirada voluntaria; no se asigna al Estado ruso sucesor. |
+| China en la Sociedad | Ingreso de China el 16/7/1920, bajo representación de la República de China. No se atribuye a la República Popular proclamada en 1949. |
+| ONU | 211 intervalos con admisiones y cambios de clave; 193 miembros al cierre de 2026. La fecha institucional es 24/10/1945; los miembros originales que ratifican después empiezan en su fecha individual. |
+| OTAN | Los doce fundadores pasan de la fecha de firma, 4/4/1949, a la entrada en vigor del tratado, **24/8/1949**. Las ampliaciones posteriores se conservan. |
+| OEA | Miembros signatarios fundadores desde 30/4/1948; una nota y un registro específico separan la entrada en vigor de la Carta el **13/12/1951**. No se finge que todos ratificaron en 1948 o 1951. Se conservan suspensiones y retiradas posteriores. |
+| Liga Árabe | Formación por firma el 22/3/1945; efectos de ratificación según el depositario: Egipto, Irak, Arabia Saudí y Transjordania 10/5/1945; Líbano 1/6; Siria 4/6; Yemen monárquico 24/2/1946. Se conserva la unión egipcio-siria y las etapas posteriores. |
+| CAME | Seis fundadores desde el comunicado de 25/1/1949. Albania desde el anuncio de admisión publicado el 25/2/1949, identificado como observación publicada, no día jurídico supuesto. La RDA conserva su observación de 1950. |
+
+Fuentes institucionales y primarias verificadas:
+
+- [UN Treaty Collection · información histórica y roster de la Sociedad](https://treaties.un.org/Pages/Content.aspx?path=DB/LoNOnline/pageIntro_en.xml) y [ONU Ginebra · fundación](https://www.ungeneva.org/en/about/league-of-nations/background).
+- [Informe de la delegación irlandesa, septiembre de 1923](https://www.difp.ie/volume-2/1923/outlines-events-at-the-1923-league-of-nations-assembly/470/) y [informe parlamentario neozelandés de la sesión extraordinaria de 1937](https://paperspast.natlib.govt.nz/parliamentary/AJHR1937-I.2.1.2.4). Corrigen dos erratas de la tabla web de UNTC: Irlanda ingresó el **10/9/1923**, no en 1920; Egipto el **26/5/1937**, no en marzo.
+- [ONU · miembros originales y depósitos](https://research.un.org/en/unmembers/founders), [miembros actuales y resoluciones](https://research.un.org/en/unmembers/currentmembers), [crecimiento y continuidades](https://www.un.org/en/about-us/growth-in-un-membership) y [depositario de la Carta](https://treaties.un.org/pages/ViewDetails.aspx?chapter=1&clang=_en&mtdsg_no=I-1&src=IND).
+- [Tratado del Atlántico Norte, nota de entrada en vigor](https://nato.int/en/about-us/official-texts-and-resources/official-texts/1949/04/04/the-north-atlantic-treaty) y [registro neerlandés de las partes](https://verdragenbank.overheid.nl/en/Treaty/Details/007281_p).
+- [OEA · firma, depósito y ratificaciones de la Carta](https://cidh.oas.org/Basicos/English/Basic22b.CharterOAS_ratif.htm).
+- [UNTC · Pacto de la Liga Árabe, efectos individuales](https://treaties.un.org/pages/showDetails.aspx?objid=080000028015a44b).
+- [FRUS 1949, documento 2 · comunicado del CAME y admisión albanesa](https://history.state.gov/historicaldocuments/frus1949v05/d2).
+
+### Continuidades y cautelas de la ONU
+
+El listado actual no se proyecta hacia 1945. Se separan URSS/Rusia, Checoslovaquia/repúblicas sucesoras, RFA/RDA, Yugoslavia original/RFY/Serbia y Montenegro/Serbia, Malaya/Malasia, dos Yemen y su unificación, Tanganyika/Zanzíbar/Tanzania y Egipto/Siria/RAU. Indonesia conserva la interrupción de participación de 1965–1966. Las claves pueden cambiar sin una adhesión nueva.
+
+La República de China representa al miembro China hasta la resolución 2758 de **25/10/1971**; el corte cartográfico de 1949 no le transfiere el asiento a la República Popular. TWN es aquí una referencia al Gobierno de la República de China, **no una membresía independiente de Taiwán**. La India es miembro original desde **30/10/1945**; Pakistán ingresa el **30/9/1947**. Ucrania y Bielorrusia son miembros originales como repúblicas soviéticas: membresía no implica independencia de la URSS.
+
+Se cotejaron los recuadros individuales del directorio con su tabla separada de fundadores. Los recuadros contienen erratas, incluido un imposible 31/11/1945 para Perú: se usa **31/10/1945**. También se corrigen las fechas transcritas de Filipinas, Polonia, Arabia Saudí, Siria, Turquía, Ucrania, URSS y Honduras mediante la tabla de fundadores. Malawi, Malta y Zambia se verifican en el [registro de diciembre de 1964 del depositario](https://treaties.un.org/Pages/treaties.un.org/doc/Publication/Monthly%20Statement/1964/12/monstate.pdf).
+
+El caso yugoslavo conserva la retirada del miembro original del registro oficial en 2000 y explica la controversia desde 1992; no afirma existencia territorial continua ni participación regular de la antigua federación hasta 2000. El tramo RAU termina en septiembre de 1961 por el cambio de clave territorial; Siria reanuda su membresía separada el 13/10/1961. Las notas separan ambos hechos.
+
+## Fases e instituciones focales
+
+Las 50 fases cubren entreguerras, depresión internacional, dictaduras italiana y alemana, Manchuria, guerra chino-japonesa, España, Etiopía, expansión nazi, invasiones de Polonia, guerra de Invierno, campañas de 1940–1944, exterminio nazi, capitulaciones, ocupación y reconstrucción, constituciones de posguerra, independencia y partición del sur de Asia, Filipinas, Birmania, Ceilán, Indonesia, guerra civil china, Corea, Palestina, ONU, Plan Marshall, doctrina Truman y Berlín. La fase existente de Indochina se extiende a 1946. No todos los conflictos de cada región están inventariados.
+
+Fuentes principales del contraste:
+
+- [Congreso · Constitución española de 1931](https://www.congreso.es/docu/constituciones/1931/1931_cd.pdf), [Gaceta de Madrid, 9/12/1931](https://www.boe.es/gazeta/dias/1931/12/09/pdfs/D00001-00014.pdf), [CDMH · proclamación y proceso constituyente](https://www.cultura.gob.es/gl/cultura/areas/archivos/mc/archivos/cdmh/exposiciones-y-actividades/echa-un-vistazo/constitucion-1931.html) y [Ministerio de Cultura · guerra y posguerra](https://www.cultura.gob.es/cultura/mc/incautaciones-guerra-civil/guerra-civil.html).
+- [Bundestag · Weimar](https://www.bundestag.de/en/parliament/history/parliamentarism/weimar), [destrucción de la república](https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/machtuebergabe-972588) y [Cámara del Pueblo de la RDA](https://www.bundestag.de/en/parliament/history/parliamentarism/gdr).
+- [Senado italiano · 1922](https://www.senato.it/legislature/regno/italia/26/resoconti-elenco-cronologico), [invasión de Etiopía](https://www.senato.it/legislature/regno/italia/29/resoconti-elenco-cronologico), [caída de Mussolini](https://www.senato.it/legislature/regno/italia/30/resoconti-elenco-cronologico), [referéndum republicano](https://www.senato.it/CESUS/2026/2giugno/) y [Gazzetta · Constitución](https://www.gazzettaufficiale.it/dettaglio/codici/costituzione).
+- [Asamblea Nacional francesa · 1940 y posguerra](https://www.assemblee-nationale.fr/histoire/7da.asp), [Élysée · Constitución de 1946](https://www.elysee.fr/la-presidence/la-constitution-du-27-octobre-1946) y [Constitución japonesa, Cámara de Representantes](https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/english/constitution_e.htm).
+- [USHMM · cronología de la guerra](https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates), [invasión de Polonia](https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939), [frente oriental](https://encyclopedia.ushmm.org/content/en/article/the-soviet-union-and-the-eastern-front) y [Museo de Auschwitz · exterminio](https://www.auschwitz.org/en/history/before-the-extermination/the-final-solution).
+- [NARA · Normandía](https://www.archives.gov/research/military/ww2/d-day), [instrumento de capitulación alemana](https://www.archives.gov/milestone-documents/surrender-of-germany), [rendición japonesa](https://www.archives.gov/milestone-documents/surrender-of-japan), [mensaje de Truman](https://www.archives.gov/milestone-documents/truman-doctrine), [ley del Plan Marshall](https://www.archives.gov/milestone-documents/marshall-plan) y [documentos y cronología de Indochina](https://www.archives.gov/exhibits/remembering-vietnam-online-exhibit-episodes-1-4).
+- [US Navy · informe operativo de Pearl Harbor](https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/c/cincpac-report.html), [ley de independencia india](https://www.legislation.gov.uk/ukpga/Geo6/10-11/30), [informe económico ONU de 1948 con independencias asiáticas](https://digitallibrary.un.org/record/3940161/files/Survey1948.pdf) y [FRUS · transferencia de soberanía indonesia](https://history.state.gov/historicaldocuments/frus1949v07p1/d413).
+- [Embajada iraquí · documentos de admisión de 1932](https://iraqiembassy.us/press-statement-16/), [CIJ · estatuto de África Sudoccidental](https://www.icj-cij.org/case/10), [mandato de Palestina, documento A/292](https://digitallibrary.un.org/record/829707), [ONU · precedentes y resolución 181](https://www.un.org/unispal/document/auto-insert-179951/).
+
+Se usan también síntesis institucionales del Office of the Historian como guía contextual: [depresión](https://history.state.gov/milestones/1921-1936/great-depression), [Mukden](https://history.state.gov/milestones/1921-1936/mukden-incident), [guerra chino-japonesa](https://history.state.gov/milestones/1937-1945/pearl-harbor), [revolución china](https://history.state.gov/milestones/1945-1952/chinese-rev), [ocupación japonesa](https://history.state.gov/milestones/1945-1952/japan-reconstruction), [Berlín](https://history.state.gov/milestones/1945-1952/berlin-airlift), [guerra de 1948](https://history.state.gov/milestones/1945-1952/arab-israeli-war) y [Birmania](https://history.state.gov/countries/burma). Son síntesis retrospectivas institucionales, no documentos contemporáneos por el mero hecho de estar en un sitio oficial. Los instrumentos, leyes, informes y actas anteriores aportan el contraste primario focal.
+
+## Precisión y pendientes
+
+Los finales son exclusivos. Cierres de año y los límites 1920/1950 delimitan ventanas editoriales cuando se declara así: no simulan nombramientos, cese de guerras o adhesiones. La crisis de 1929 comienza por ventana mensual; no se inventa una recuperación mundial uniforme ni estadísticas. La guerra civil china de 1946 usa un inicio de cobertura anual. Algunas altas de la Sociedad retiradas antes de 1946 sólo están fechadas por año en la tabla: Costa Rica, Haití, El Salvador y Venezuela se observan al cierre de 1920, con nota explícita; el día jurídico de ingreso sigue pendiente.
+
+España conserva los frentes existentes y la fecha de **octubre de 1937**, con su incertidumbre. Faltan frentes mensuales, enclaves y control colonial completo. Para Alemania siguen pendientes geometrías separadas de las cuatro zonas y los sectores de Berlín. Polonia, China, Indochina y Palestina no reciben frentes inventados a partir de textos, instrumentos de rendición, recomendaciones o líneas modernas. Las fases no corrigen por sí solas la cartografía de las fuentes.
+
+Hallazgos territoriales enviados a la integración principal, sin alterar geometrías en este preparador: [Bundesarchiv, con reproducción de la ley de 1939](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/die-stadt-danzig-im-nationalsozialismus/) fecha la Ciudad Libre de Danzig el **15/11/1920** y su anexión alemana el **1/9/1939**; [ONU Ginebra](https://www.ungeneva.org/en/about/league-of-nations/overview) distingue la supervisión constitucional de Danzig de la administración de Sarre. Para Austria, [Österreichisches Staatsarchiv](https://www.oesta.gv.at/veroeffentlichungen/archivale-des-monats/volksbefragung-und-anschluss-im-marz-1938.html) documenta la entrada alemana el **12/3/1938** y [el Parlamento austríaco](https://www.parlament.gv.at/erleben/parlamentsgebaeude/geschichte) la declaración de independencia del **27/4/1945** y primera reunión del Gobierno provisional del **29/4**. Estos hechos requieren corregir la lectura de metadatos históricos de CShapes sin reescribir su archivo original; no prueban control militar uniforme durante las campañas de 1945.
+
+La cobertura de autoridades, imágenes, mandatos coloniales, constituciones y procesos de independencia sigue siendo desigual. No se ha recuperado el CSV original del propietario ni se resuelven por este inventario sus pendientes. Los observadores de la ONU y las ratificaciones individuales de la Carta de la OEA no se convierten en una serie adicional completa. El catálogo conserva explícitamente esa distinción.
+
+## Verificación reproducida
+
+Dos ejecuciones consecutivas del preparador conservaron exactamente los bytes de los tres JSON. Se validaron todas las fechas ISO e intervalos con final posterior al inicio; no se encontraron solapamientos de membresía por organización y código. El cotejo con la base Git confirmó que ningún enlace o registro anterior fue retirado o modificado; sólo se extendió la fase de Indochina indicada arriba.
+
+Conteos ONU al cierre, comparados con la serie oficial: **1945: 51; 1946: 55; 1947: 57; 1948: 58; 1949: 59; 1950: 60; 1955: 76; 1960: 99; 1990: 159; 2000: 189; 2026: 193**. Los intervalos también distinguen suspensión de participación, continuidad y admisión. Estas comprobaciones no certifican exhaustividad historiográfica de cada día o frontera.

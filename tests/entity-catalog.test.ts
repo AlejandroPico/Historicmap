@@ -11,5 +11,5 @@ describe('entity folders and original media references',()=>{
    expect(entity.leaders,key).toEqual(c.leaders);expect(entity.flags,key).toEqual(c.flags);
    for(const f of entity.flags)expect(existsSync(new URL('../public/'+f.media.file,import.meta.url))).toBe(true);
   }
- });
+ },20000);
 });

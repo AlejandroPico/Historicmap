@@ -10,7 +10,7 @@ for(let year=1789;year<=currentYear;year++){
  if(year>2019){rows.push(`| ${year} | 258 | Natural Earth, referencia incorporada en 2026 | Sin serie independiente de control efectivo para este año. |`);continue;}
  const clio=year<1886;
  const active=clio?early.features.filter(f=>f.properties.start<=year&&f.properties.end>=year).map(f=>({id:f.id,name:f.properties.name})):periodsAt(topology,year).map(g=>({id:g.properties.fid,name:historicName(g.properties,year)}));
- const reference=year>=1950?supplements.features.filter(f=>f.properties.start<=`${year}-12-31`&&f.properties.end>=`${year}-12-31`):[];
+ const reference=year>=1920?supplements.features.filter(f=>f.properties.start<=`${year}-12-31`&&f.properties.end>=`${year}-12-31`):[];
  active.push(...reference.map(f=>({id:f.id,name:f.properties.name+' · contorno de referencia'})));
  if(!active.length||new Set(active.map(p=>p.id)).size!==active.length)throw Error(`Missing or duplicate records in ${year}`);
  const changed=active.filter(p=>!previous.has(p.id));

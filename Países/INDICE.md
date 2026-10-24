@@ -5,30 +5,30 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | Entidad | Clave | Banderas | Mandatos | Registros territoriales |
 | --- | --- | ---: | ---: | ---: |
 | [Aruba](./ABW-Aruba/entidad.json) | ABW | 1 | 8 | 1 |
-| [Afganistán](./AFG-Afganistan/entidad.json) | AFG | 23 | 35 | 10 |
+| [Afganistán](./AFG-Afganistan/entidad.json) | AFG | 23 | 39 | 10 |
 | [Angola](./AGO-Angola/entidad.json) | AGO | 1 | 9 | 9 |
 | [Anguila](./AIA-Anguila/entidad.json) | AIA | 1 | 7 | 6 |
-| [Albania](./ALB-Albania/entidad.json) | ALB | 3 | 28 | 8 |
-| [Åland](./ALD-Aland/entidad.json) | ALD | 1 | 10 | 1 |
-| [Andorra](./AND-Andorra/entidad.json) | AND | 1 | 30 | 6 |
+| [Albania](./ALB-Albania/entidad.json) | ALB | 9 | 49 | 8 |
+| [Åland](./ALD-Aland/entidad.json) | ALD | 1 | 11 | 1 |
+| [Andorra](./AND-Andorra/entidad.json) | AND | 1 | 43 | 6 |
 | [Emiratos Árabes Unidos](./ARE-Emiratos-Arabes-Unidos/entidad.json) | ARE | 1 | 8 | 7 |
-| [Argentina](./ARG-Argentina/entidad.json) | ARG | 3 | 66 | 8 |
-| [Armenia](./ARM-Armenia/entidad.json) | ARM | 1 | 26 | 7 |
-| [Samoa Americana](./ASM-Samoa-Americana/entidad.json) | ASM | 2 | 24 | 4 |
+| [Argentina](./ARG-Argentina/entidad.json) | ARG | 4 | 86 | 8 |
+| [Armenia](./ARM-Armenia/entidad.json) | ARM | 1 | 32 | 7 |
+| [Samoa Americana](./ASM-Samoa-Americana/entidad.json) | ASM | 2 | 49 | 4 |
 | [Antártida](./ATA-Antartida/entidad.json) | ATA | 0 | 0 | 2 |
 | [Islas Ashmore y Cartier](./ATC-Islas-Ashmore-y-Cartier/entidad.json) | ATC | 0 | 0 | 1 |
 | [Tierras Australes y Antárticas Francesas](./ATF-Tierras-Australes-y-Antarticas-Francesas/entidad.json) | ATF | 1 | 0 | 1 |
 | [Antigua y Barbuda](./ATG-Antigua-y-Barbuda/entidad.json) | ATG | 1 | 8 | 6 |
-| [Australia](./AUS-Australia/entidad.json) | AUS | 1 | 58 | 7 |
-| [Austria](./AUT-Austria/entidad.json) | AUT | 2 | 39 | 6 |
+| [Australia](./AUS-Australia/entidad.json) | AUS | 3 | 58 | 7 |
+| [Austria](./AUT-Austria/entidad.json) | AUT | 2 | 53 | 6 |
 | [Azerbaiyán](./AZE-Azerbaiyan/entidad.json) | AZE | 1 | 18 | 5 |
 | [Burundi](./BDI-Burundi/entidad.json) | BDI | 3 | 39 | 5 |
-| [Bélgica](./BEL-Belgica/entidad.json) | BEL | 2 | 38 | 11 |
+| [Bélgica](./BEL-Belgica/entidad.json) | BEL | 2 | 57 | 11 |
 | [Benín](./BEN-Benin/entidad.json) | BEN | 1 | 31 | 9 |
 | [Burkina Faso](./BFA-Burkina-Faso/entidad.json) | BFA | 2 | 48 | 4 |
 | [Bangladés](./BGD-Banglades/entidad.json) | BGD | 1 | 44 | 5 |
-| [Bulgaria](./BGR-Bulgaria/entidad.json) | BGR | 7 | 53 | 10 |
-| [Baréin](./BHR-Barein/entidad.json) | BHR | 2 | 6 | 6 |
+| [Bulgaria](./BGR-Bulgaria/entidad.json) | BGR | 12 | 80 | 10 |
+| [Baréin](./BHR-Barein/entidad.json) | BHR | 2 | 8 | 6 |
 | [Bahamas](./BHS-Bahamas/entidad.json) | BHS | 1 | 13 | 7 |
 | [Bosnia y Herzegovina](./BIH-Bosnia-y-Herzegovina/entidad.json) | BIH | 1 | 53 | 3 |
 | [Bajo Nuevo](./BJN-Bajo-Nuevo/entidad.json) | BJN | 0 | 0 | 1 |
@@ -36,140 +36,141 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Bielorrusia](./BLR-Bielorrusia/entidad.json) | BLR | 3 | 12 | 1 |
 | [Belice](./BLZ-Belice/entidad.json) | BLZ | 1 | 12 | 8 |
 | [Bermudas](./BMU-Bermudas/entidad.json) | BMU | 2 | 13 | 1 |
-| [Bolivia](./BOL-Bolivia/entidad.json) | BOL | 2 | 74 | 17 |
-| [Brasil](./BRA-Brasil/entidad.json) | BRA | 6 | 60 | 9 |
+| [Bolivia](./BOL-Bolivia/entidad.json) | BOL | 2 | 106 | 17 |
+| [Brasil](./BRA-Brasil/entidad.json) | BRA | 8 | 72 | 9 |
 | [Barbados](./BRB-Barbados/entidad.json) | BRB | 1 | 16 | 7 |
 | [Isla Brasilera](./BRI-Isla-Brasilera/entidad.json) | BRI | 0 | 0 | 1 |
-| [Brunéi](./BRN-Brunei/entidad.json) | BRN | 1 | 8 | 8 |
+| [Brunéi](./BRN-Brunei/entidad.json) | BRN | 1 | 10 | 8 |
 | [Bir Tawil](./BRT-Bir-Tawil/entidad.json) | BRT | 0 | 0 | 1 |
-| [Bután](./BTN-Butan/entidad.json) | BTN | 4 | 22 | 15 |
+| [Bután](./BTN-Butan/entidad.json) | BTN | 4 | 23 | 15 |
 | [Botsuana](./BWA-Botsuana/entidad.json) | BWA | 1 | 14 | 9 |
 | [República Centroafricana](./CAF-Republica-Centroafricana/entidad.json) | CAF | 1 | 43 | 8 |
-| [Canadá](./CAN-Canada/entidad.json) | CAN | 4 | 39 | 7 |
-| [Suiza](./CHE-Suiza/entidad.json) | CHE | 4 | 132 | 18 |
-| [Chile](./CHL-Chile/entidad.json) | CHL | 1 | 32 | 15 |
-| [República Popular China](./CHN-Republica-Popular-China/entidad.json) | CHN | 2 | 47 | 14 |
-| [CHN-COMMUNIST](./CHN-COMMUNIST-CHN-COMMUNIST/entidad.json) | CHN-COMMUNIST | 0 | 1 | 0 |
+| [Canadá](./CAN-Canada/entidad.json) | CAN | 6 | 40 | 7 |
+| [Suiza](./CHE-Suiza/entidad.json) | CHE | 4 | 170 | 18 |
+| [Chile](./CHL-Chile/entidad.json) | CHL | 1 | 62 | 15 |
+| [República Popular China](./CHN-Republica-Popular-China/entidad.json) | CHN | 2 | 44 | 14 |
+| [CHN-COMMUNIST](./CHN-COMMUNIST-CHN-COMMUNIST/entidad.json) | CHN-COMMUNIST | 0 | 2 | 0 |
 | [Costa de Marfil](./CIV-Costa-de-Marfil/entidad.json) | CIV | 1 | 25 | 4 |
 | [Isla Clipperton](./CLP-Isla-Clipperton/entidad.json) | CLP | 1 | 0 | 1 |
 | [Camerún](./CMR-Camerun/entidad.json) | CMR | 3 | 16 | 8 |
 | [Línea Verde](./CNM-Linea-Verde/entidad.json) | CNM | 0 | 0 | 1 |
 | [República Democrática del Congo](./COD-Republica-Democratica-del-Congo/entidad.json) | COD | 8 | 29 | 1 |
 | [Congo](./COG-Congo/entidad.json) | COG | 1 | 26 | 12 |
-| [Islas Cook](./COK-Islas-Cook/entidad.json) | COK | 1 | 10 | 1 |
-| [Colombia](./COL-Colombia/entidad.json) | COL | 1 | 43 | 9 |
+| [Islas Cook](./COK-Islas-Cook/entidad.json) | COK | 1 | 11 | 1 |
+| [Colombia](./COL-Colombia/entidad.json) | COL | 1 | 56 | 9 |
 | [Comoras](./COM-Comoras/entidad.json) | COM | 1 | 46 | 3 |
 | [Cabo Verde](./CPV-Cabo-Verde/entidad.json) | CPV | 2 | 13 | 1 |
-| [Costa Rica](./CRI-Costa-Rica/entidad.json) | CRI | 2 | 40 | 7 |
+| [Costa Rica](./CRI-Costa-Rica/entidad.json) | CRI | 2 | 57 | 7 |
 | [CROATIA-CLIENT](./CROATIA-CLIENT-CROATIA-CLIENT/entidad.json) | CROATIA-CLIENT | 1 | 1 | 0 |
 | [islas del mar del Coral](./CSI-islas-del-mar-del-Coral/entidad.json) | CSI | 0 | 0 | 1 |
-| [Checoslovaquia](./CSK-Checoslovaquia/entidad.json) | CSK | 1 | 17 | 0 |
-| [Cuba](./CUB-Cuba/entidad.json) | CUB | 1 | 23 | 8 |
-| [Curazao](./CUW-Curazao/entidad.json) | CUW | 1 | 11 | 1 |
-| [Islas Caimán](./CYM-Islas-Caiman/entidad.json) | CYM | 2 | 13 | 1 |
+| [Checoslovaquia](./CSK-Checoslovaquia/entidad.json) | CSK | 3 | 35 | 0 |
+| [Cuba](./CUB-Cuba/entidad.json) | CUB | 1 | 36 | 8 |
+| [Curazao](./CUW-Curazao/entidad.json) | CUW | 1 | 12 | 1 |
+| [Islas Caimán](./CYM-Islas-Caiman/entidad.json) | CYM | 2 | 15 | 1 |
 | [Chipre del Norte](./CYN-Chipre-del-Norte/entidad.json) | CYN | 1 | 31 | 0 |
 | [Chipre](./CYP-Chipre/entidad.json) | CYP | 2 | 28 | 7 |
 | [República Checa](./CZE-Republica-Checa/entidad.json) | CZE | 1 | 22 | 1 |
-| [Alemania Oriental](./DDR-Alemania-Oriental/entidad.json) | DDR | 2 | 21 | 0 |
-| [Alemania](./DEU-Alemania/entidad.json) | DEU | 5 | 48 | 3 |
+| [Ciudad Libre de Danzig](./DAN-Ciudad-Libre-de-Danzig/entidad.json) | DAN | 1 | 4 | 1 |
+| [Alemania Oriental](./DDR-Alemania-Oriental/entidad.json) | DDR | 3 | 23 | 0 |
+| [Alemania](./DEU-Alemania/entidad.json) | DEU | 11 | 49 | 3 |
 | [Yibuti](./DJI-Yibuti/entidad.json) | DJI | 1 | 9 | 8 |
 | [Dominica](./DMA-Dominica/entidad.json) | DMA | 2 | 17 | 7 |
-| [Dinamarca](./DNK-Dinamarca/entidad.json) | DNK | 1 | 80 | 7 |
-| [República Dominicana](./DOM-Republica-Dominicana/entidad.json) | DOM | 1 | 36 | 8 |
+| [Dinamarca](./DNK-Dinamarca/entidad.json) | DNK | 1 | 84 | 7 |
+| [República Dominicana](./DOM-Republica-Dominicana/entidad.json) | DOM | 1 | 44 | 8 |
 | [Argelia](./DZA-Argelia/entidad.json) | DZA | 1 | 43 | 10 |
-| [Ecuador](./ECU-Ecuador/entidad.json) | ECU | 4 | 47 | 8 |
-| [Egipto](./EGY-Egipto/entidad.json) | EGY | 5 | 55 | 14 |
+| [Ecuador](./ECU-Ecuador/entidad.json) | ECU | 5 | 77 | 8 |
+| [Egipto](./EGY-Egipto/entidad.json) | EGY | 7 | 90 | 14 |
 | [Eritrea](./ERI-Eritrea/entidad.json) | ERI | 1 | 4 | 10 |
 | [Dekelia](./ESB-Dekelia/entidad.json) | ESB | 1 | 0 | 1 |
-| [España](./ESP-Espana/entidad.json) | ESP | 8 | 47 | 25 |
-| [España · bando sublevado](./ESP-NATIONALIST-Espana-bando-sublevado/entidad.json) | ESP-NATIONALIST | 2 | 1 | 0 |
-| [España · zona republicana](./ESP-REPUBLIC-Espana-zona-republicana/entidad.json) | ESP-REPUBLIC | 1 | 3 | 0 |
-| [Estonia](./EST-Estonia/entidad.json) | EST | 1 | 29 | 5 |
-| [Etiopía](./ETH-Etiopia/entidad.json) | ETH | 5 | 26 | 13 |
-| [Finlandia](./FIN-Finlandia/entidad.json) | FIN | 1 | 53 | 7 |
+| [España](./ESP-Espana/entidad.json) | ESP | 13 | 55 | 25 |
+| [España · bando sublevado](./ESP-NATIONALIST-Espana-bando-sublevado/entidad.json) | ESP-NATIONALIST | 3 | 1 | 0 |
+| [España · zona republicana](./ESP-REPUBLIC-Espana-zona-republicana/entidad.json) | ESP-REPUBLIC | 3 | 9 | 0 |
+| [Estonia](./EST-Estonia/entidad.json) | EST | 1 | 54 | 5 |
+| [Etiopía](./ETH-Etiopia/entidad.json) | ETH | 5 | 29 | 13 |
+| [Finlandia](./FIN-Finlandia/entidad.json) | FIN | 1 | 82 | 7 |
 | [Fiyi](./FJI-Fiyi/entidad.json) | FJI | 1 | 22 | 7 |
-| [Islas Malvinas](./FLK-Islas-Malvinas/entidad.json) | FLK | 1 | 22 | 1 |
-| [Francia](./FRA-Francia/entidad.json) | FRA | 7 | 149 | 9 |
-| [FRA-FREE](./FRA-FREE-FRA-FREE/entidad.json) | FRA-FREE | 2 | 2 | 0 |
+| [Islas Malvinas](./FLK-Islas-Malvinas/entidad.json) | FLK | 1 | 30 | 1 |
+| [Francia](./FRA-Francia/entidad.json) | FRA | 9 | 202 | 9 |
+| [FRA-FREE](./FRA-FREE-FRA-FREE/entidad.json) | FRA-FREE | 3 | 2 | 0 |
 | [FRA-VICHY](./FRA-VICHY-FRA-VICHY/entidad.json) | FRA-VICHY | 1 | 1 | 0 |
 | [Islas Feroe](./FRO-Islas-Feroe/entidad.json) | FRO | 1 | 23 | 1 |
 | [República Federal de Yugoslavia](./FRY-Republica-Federal-de-Yugoslavia/entidad.json) | FRY | 1 | 10 | 0 |
 | [Estados Federados de Micronesia](./FSM-Estados-Federados-de-Micronesia/entidad.json) | FSM | 1 | 26 | 2 |
 | [Gabón](./GAB-Gabon/entidad.json) | GAB | 1 | 24 | 10 |
-| [Reino Unido](./GBR-Reino-Unido/entidad.json) | GBR | 1 | 111 | 8 |
-| [Georgia](./GEO-Georgia/entidad.json) | GEO | 1 | 34 | 7 |
-| [Guernsey](./GGY-Guernsey/entidad.json) | GGY | 1 | 11 | 1 |
+| [Reino Unido](./GBR-Reino-Unido/entidad.json) | GBR | 3 | 119 | 8 |
+| [Georgia](./GEO-Georgia/entidad.json) | GEO | 1 | 35 | 7 |
+| [Guernsey](./GGY-Guernsey/entidad.json) | GGY | 1 | 13 | 1 |
 | [Ghana](./GHA-Ghana/entidad.json) | GHA | 4 | 37 | 9 |
-| [Gibraltar](./GIB-Gibraltar/entidad.json) | GIB | 1 | 7 | 1 |
+| [Gibraltar](./GIB-Gibraltar/entidad.json) | GIB | 1 | 9 | 1 |
 | [Guinea](./GIN-Guinea/entidad.json) | GIN | 1 | 24 | 6 |
 | [Gambia](./GMB-Gambia/entidad.json) | GMB | 1 | 11 | 3 |
 | [Guinea-Bisáu](./GNB-Guinea-Bisau/entidad.json) | GNB | 1 | 73 | 7 |
 | [Guinea Ecuatorial](./GNQ-Guinea-Ecuatorial/entidad.json) | GNQ | 4 | 15 | 8 |
-| [Grecia](./GRC-Grecia/entidad.json) | GRC | 4 | 67 | 8 |
+| [Grecia](./GRC-Grecia/entidad.json) | GRC | 5 | 118 | 8 |
 | [Granada](./GRD-Granada/entidad.json) | GRD | 1 | 20 | 6 |
 | [Groenlandia](./GRL-Groenlandia/entidad.json) | GRL | 1 | 13 | 9 |
-| [Guatemala](./GTM-Guatemala/entidad.json) | GTM | 1 | 59 | 8 |
-| [Guam](./GUM-Guam/entidad.json) | GUM | 1 | 17 | 1 |
+| [Guatemala](./GTM-Guatemala/entidad.json) | GTM | 1 | 81 | 8 |
+| [Guam](./GUM-Guam/entidad.json) | GUM | 1 | 34 | 1 |
 | [Guyana](./GUY-Guyana/entidad.json) | GUY | 1 | 22 | 7 |
 | [Hong Kong](./HKG-Hong-Kong/entidad.json) | HKG | 1 | 6 | 6 |
 | [Islas Heard y McDonald](./HMD-Islas-Heard-y-McDonald/entidad.json) | HMD | 1 | 0 | 1 |
-| [Honduras](./HND-Honduras/entidad.json) | HND | 2 | 42 | 10 |
+| [Honduras](./HND-Honduras/entidad.json) | HND | 5 | 58 | 10 |
 | [Croacia](./HRV-Croacia/entidad.json) | HRV | 1 | 24 | 5 |
-| [Haití](./HTI-Haiti/entidad.json) | HTI | 3 | 63 | 8 |
-| [Hungría](./HUN-Hungria/entidad.json) | HUN | 4 | 45 | 10 |
-| [Indonesia](./IDN-Indonesia/entidad.json) | IDN | 1 | 19 | 12 |
+| [Haití](./HTI-Haiti/entidad.json) | HTI | 3 | 69 | 8 |
+| [Hungría](./HUN-Hungria/entidad.json) | HUN | 7 | 64 | 10 |
+| [Indonesia](./IDN-Indonesia/entidad.json) | IDN | 2 | 22 | 12 |
 | [Isla de Man](./IMN-Isla-de-Man/entidad.json) | IMN | 1 | 10 | 1 |
-| [India](./IND-India/entidad.json) | IND | 2 | 56 | 12 |
+| [India](./IND-India/entidad.json) | IND | 6 | 58 | 12 |
 | [Territorios Australianos del Océano Índico](./IOA-Territorios-Australianos-del-Oceano-Indico/entidad.json) | IOA | 0 | 0 | 1 |
 | [Territorio Británico del Océano Índico](./IOT-Territorio-Britanico-del-Oceano-Indico/entidad.json) | IOT | 2 | 0 | 1 |
-| [Irlanda](./IRL-Irlanda/entidad.json) | IRL | 1 | 32 | 5 |
-| [Irán](./IRN-Iran/entidad.json) | IRN | 5 | 32 | 4 |
-| [Irak](./IRQ-Irak/entidad.json) | IRQ | 7 | 67 | 9 |
-| [Islandia](./ISL-Islandia/entidad.json) | ISL | 1 | 36 | 9 |
-| [Israel](./ISR-Israel/entidad.json) | ISR | 1 | 45 | 7 |
-| [Italia](./ITA-Italia/entidad.json) | ITA | 2 | 152 | 14 |
+| [Irlanda](./IRL-Irlanda/entidad.json) | IRL | 3 | 42 | 5 |
+| [Irán](./IRN-Iran/entidad.json) | IRN | 6 | 34 | 4 |
+| [Irak](./IRQ-Irak/entidad.json) | IRQ | 8 | 100 | 9 |
+| [Islandia](./ISL-Islandia/entidad.json) | ISL | 1 | 48 | 9 |
+| [Israel](./ISR-Israel/entidad.json) | ISR | 1 | 47 | 7 |
+| [Italia](./ITA-Italia/entidad.json) | ITA | 6 | 159 | 14 |
 | [Jamaica](./JAM-Jamaica/entidad.json) | JAM | 1 | 21 | 5 |
-| [Jersey](./JEY-Jersey/entidad.json) | JEY | 1 | 10 | 1 |
-| [Jordania](./JOR-Jordania/entidad.json) | JOR | 1 | 57 | 9 |
-| [Japón](./JPN-Japon/entidad.json) | JPN | 1 | 183 | 6 |
+| [Jersey](./JEY-Jersey/entidad.json) | JEY | 1 | 12 | 1 |
+| [Jordania](./JOR-Jordania/entidad.json) | JOR | 1 | 60 | 9 |
+| [Japón](./JPN-Japon/entidad.json) | JPN | 3 | 214 | 6 |
 | [Baikonur](./KAB-Baikonur/entidad.json) | KAB | 1 | 1 | 1 |
 | [Glaciar de Siachen](./KAS-Glaciar-de-Siachen/entidad.json) | KAS | 0 | 0 | 1 |
 | [Kazajistán](./KAZ-Kazajistan/entidad.json) | KAZ | 1 | 15 | 5 |
 | [Kenia](./KEN-Kenia/entidad.json) | KEN | 1 | 13 | 15 |
 | [Kirguistán](./KGZ-Kirguistan/entidad.json) | KGZ | 2 | 69 | 3 |
-| [Camboya](./KHM-Camboya/entidad.json) | KHM | 9 | 60 | 8 |
+| [Camboya](./KHM-Camboya/entidad.json) | KHM | 9 | 70 | 8 |
 | [Kiribati](./KIR-Kiribati/entidad.json) | KIR | 1 | 18 | 2 |
 | [San Cristóbal y Nieves](./KNA-San-Cristobal-y-Nieves/entidad.json) | KNA | 1 | 15 | 6 |
 | [Corea del Sur](./KOR-Corea-del-Sur/entidad.json) | KOR | 3 | 44 | 1 |
 | [Kosovo](./KOS-Kosovo/entidad.json) | KOS | 1 | 27 | 2 |
-| [Kuwait](./KWT-Kuwait/entidad.json) | KWT | 2 | 24 | 11 |
+| [Kuwait](./KWT-Kuwait/entidad.json) | KWT | 2 | 25 | 11 |
 | [Laos](./LAO-Laos/entidad.json) | LAO | 2 | 26 | 9 |
-| [Líbano](./LBN-Libano/entidad.json) | LBN | 1 | 57 | 7 |
-| [Liberia](./LBR-Liberia/entidad.json) | LBR | 1 | 33 | 9 |
+| [Líbano](./LBN-Libano/entidad.json) | LBN | 1 | 76 | 7 |
+| [Liberia](./LBR-Liberia/entidad.json) | LBR | 1 | 39 | 9 |
 | [Libia](./LBY-Libia/entidad.json) | LBY | 4 | 37 | 11 |
 | [Santa Lucía](./LCA-Santa-Lucia/entidad.json) | LCA | 2 | 18 | 6 |
-| [Liechtenstein](./LIE-Liechtenstein/entidad.json) | LIE | 1 | 18 | 6 |
-| [Sri Lanka](./LKA-Sri-Lanka/entidad.json) | LKA | 4 | 49 | 4 |
-| [Lesoto](./LSO-Lesoto/entidad.json) | LSO | 4 | 18 | 7 |
-| [Lituania](./LTU-Lituania/entidad.json) | LTU | 1 | 37 | 8 |
-| [Luxemburgo](./LUX-Luxemburgo/entidad.json) | LUX | 3 | 18 | 7 |
-| [Letonia](./LVA-Letonia/entidad.json) | LVA | 1 | 28 | 5 |
+| [Liechtenstein](./LIE-Liechtenstein/entidad.json) | LIE | 1 | 27 | 6 |
+| [Sri Lanka](./LKA-Sri-Lanka/entidad.json) | LKA | 5 | 49 | 4 |
+| [Lesoto](./LSO-Lesoto/entidad.json) | LSO | 4 | 21 | 7 |
+| [Lituania](./LTU-Lituania/entidad.json) | LTU | 2 | 50 | 8 |
+| [Luxemburgo](./LUX-Luxemburgo/entidad.json) | LUX | 4 | 21 | 7 |
+| [Letonia](./LVA-Letonia/entidad.json) | LVA | 1 | 49 | 5 |
 | [Macao](./MAC-Macao/entidad.json) | MAC | 1 | 4 | 1 |
 | [San Martín](./MAF-San-Martin/entidad.json) | MAF | 1 | 0 | 5 |
 | [Federación de Malaya](./MAL-Federacion-de-Malaya/entidad.json) | MAL | 1 | 5 | 0 |
 | [Marruecos](./MAR-Marruecos/entidad.json) | MAR | 1 | 24 | 22 |
-| [Mónaco](./MCO-Monaco/entidad.json) | MCO | 1 | 27 | 6 |
+| [Mónaco](./MCO-Monaco/entidad.json) | MCO | 1 | 35 | 6 |
 | [Moldavia](./MDA-Moldavia/entidad.json) | MDA | 2 | 44 | 4 |
 | [Madagascar](./MDG-Madagascar/entidad.json) | MDG | 1 | 35 | 6 |
 | [Maldivas](./MDV-Maldivas/entidad.json) | MDV | 1 | 21 | 3 |
-| [México](./MEX-Mexico/entidad.json) | MEX | 7 | 50 | 6 |
+| [México](./MEX-Mexico/entidad.json) | MEX | 9 | 67 | 6 |
 | [Islas Marshall](./MHL-Islas-Marshall/entidad.json) | MHL | 1 | 27 | 2 |
 | [Macedonia del Norte](./MKD-Macedonia-del-Norte/entidad.json) | MKD | 1 | 28 | 1 |
 | [Mali](./MLI-Mali/entidad.json) | MLI | 2 | 36 | 15 |
-| [Malta](./MLT-Malta/entidad.json) | MLT | 1 | 33 | 6 |
-| [Birmania](./MMR-Birmania/entidad.json) | MMR | 4 | 38 | 9 |
-| [Montenegro](./MNE-Montenegro/entidad.json) | MNE | 1 | 37 | 11 |
-| [Mongolia](./MNG-Mongolia/entidad.json) | MNG | 3 | 40 | 6 |
+| [Malta](./MLT-Malta/entidad.json) | MLT | 1 | 38 | 6 |
+| [Birmania](./MMR-Birmania/entidad.json) | MMR | 5 | 38 | 9 |
+| [Montenegro](./MNE-Montenegro/entidad.json) | MNE | 1 | 41 | 11 |
+| [Mongolia](./MNG-Mongolia/entidad.json) | MNG | 3 | 51 | 6 |
 | [Islas Marianas del Norte](./MNP-Islas-Marianas-del-Norte/entidad.json) | MNP | 1 | 11 | 1 |
 | [Mozambique](./MOZ-Mozambique/entidad.json) | MOZ | 1 | 19 | 7 |
 | [Mauritania](./MRT-Mauritania/entidad.json) | MRT | 2 | 41 | 13 |
@@ -182,27 +183,27 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Níger](./NER-Niger/entidad.json) | NER | 1 | 34 | 9 |
 | [Isla Norfolk](./NFK-Isla-Norfolk/entidad.json) | NFK | 1 | 0 | 1 |
 | [Nigeria](./NGA-Nigeria/entidad.json) | NGA | 1 | 36 | 8 |
-| [Nicaragua](./NIC-Nicaragua/entidad.json) | NIC | 3 | 36 | 13 |
-| [Niue](./NIU-Niue/entidad.json) | NIU | 1 | 10 | 5 |
-| [Países Bajos](./NLD-Paises-Bajos/entidad.json) | NLD | 1 | 34 | 13 |
-| [Noruega](./NOR-Noruega/entidad.json) | NOR | 1 | 33 | 7 |
-| [Nepal](./NPL-Nepal/entidad.json) | NPL | 3 | 56 | 24 |
+| [Nicaragua](./NIC-Nicaragua/entidad.json) | NIC | 4 | 66 | 13 |
+| [Niue](./NIU-Niue/entidad.json) | NIU | 1 | 11 | 5 |
+| [Países Bajos](./NLD-Paises-Bajos/entidad.json) | NLD | 1 | 35 | 13 |
+| [Noruega](./NOR-Noruega/entidad.json) | NOR | 1 | 46 | 7 |
+| [Nepal](./NPL-Nepal/entidad.json) | NPL | 4 | 61 | 24 |
 | [Nauru](./NRU-Nauru/entidad.json) | NRU | 1 | 78 | 2 |
-| [Nueva Zelanda](./NZL-Nueva-Zelanda/entidad.json) | NZL | 1 | 23 | 7 |
-| [Omán](./OMN-Oman/entidad.json) | OMN | 1 | 6 | 19 |
-| [Pakistán](./PAK-Pakistan/entidad.json) | PAK | 1 | 47 | 9 |
-| [Panamá](./PAN-Panama/entidad.json) | PAN | 1 | 35 | 6 |
+| [Nueva Zelanda](./NZL-Nueva-Zelanda/entidad.json) | NZL | 3 | 31 | 7 |
+| [Omán](./OMN-Oman/entidad.json) | OMN | 1 | 8 | 19 |
+| [Pakistán](./PAK-Pakistan/entidad.json) | PAK | 3 | 48 | 9 |
+| [Panamá](./PAN-Panama/entidad.json) | PAN | 1 | 58 | 6 |
 | [Islas Pitcairn](./PCN-Islas-Pitcairn/entidad.json) | PCN | 1 | 9 | 1 |
-| [Perú](./PER-Peru/entidad.json) | PER | 2 | 81 | 17 |
+| [Perú](./PER-Peru/entidad.json) | PER | 2 | 102 | 17 |
 | [Isla Wake](./PGA-Isla-Wake/entidad.json) | PGA | 1 | 0 | 1 |
-| [Filipinas](./PHL-Filipinas/entidad.json) | PHL | 4 | 30 | 12 |
+| [Filipinas](./PHL-Filipinas/entidad.json) | PHL | 4 | 35 | 12 |
 | [Palaos](./PLW-Palaos/entidad.json) | PLW | 1 | 24 | 2 |
 | [Papúa Nueva Guinea](./PNG-Papua-Nueva-Guinea/entidad.json) | PNG | 1 | 16 | 9 |
-| [Polonia](./POL-Polonia/entidad.json) | POL | 3 | 47 | 11 |
-| [Puerto Rico](./PRI-Puerto-Rico/entidad.json) | PRI | 1 | 21 | 7 |
-| [Corea del Norte](./PRK-Corea-del-Norte/entidad.json) | PRK | 1 | 21 | 1 |
-| [Portugal](./PRT-Portugal/entidad.json) | PRT | 1 | 32 | 8 |
-| [Paraguay](./PRY-Paraguay/entidad.json) | PRY | 7 | 25 | 16 |
+| [Polonia](./POL-Polonia/entidad.json) | POL | 5 | 81 | 11 |
+| [Puerto Rico](./PRI-Puerto-Rico/entidad.json) | PRI | 1 | 39 | 7 |
+| [Corea del Norte](./PRK-Corea-del-Norte/entidad.json) | PRK | 1 | 22 | 1 |
+| [Portugal](./PRT-Portugal/entidad.json) | PRT | 1 | 67 | 8 |
+| [Paraguay](./PRY-Paraguay/entidad.json) | PRY | 8 | 61 | 16 |
 | [Palestina](./PSX-Palestina/entidad.json) | PSX | 0 | 2 | 1 |
 | [Polinesia Francesa](./PYF-Polinesia-Francesa/entidad.json) | PYF | 2 | 1 | 2 |
 | [Poles](./Q1026-Poles/entidad.json) | Q1026 | 0 | 0 | 1 |
@@ -328,7 +329,6 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Kedah-Perlis District](./Q213467-Kedah-Perlis-District/entidad.json) | Q213467 | 0 | 0 | 1 |
 | [Negeri Sembilan](./Q213893-Negeri-Sembilan/entidad.json) | Q213893 | 0 | 0 | 3 |
 | [Swedish Empire](./Q215443-Swedish-Empire/entidad.json) | Q215443 | 0 | 0 | 3 |
-| [Free City of Danzig](./Q216173-Free-City-of-Danzig/entidad.json) | Q216173 | 0 | 0 | 1 |
 | [Empire of Brazil](./Q217230-Empire-of-Brazil/entidad.json) | Q217230 | 0 | 0 | 15 |
 | [Electorate of Württemberg](./Q2172530-Electorate-of-Wurttemberg/entidad.json) | Q2172530 | 0 | 0 | 2 |
 | [Free Orange State](./Q218023-Free-Orange-State/entidad.json) | Q218023 | 0 | 0 | 3 |
@@ -474,16 +474,18 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Free City of Lübeck](./Q950240-Free-City-of-Lubeck/entidad.json) | Q950240 | 0 | 0 | 5 |
 | [United Principalities of Moldavia and Wallachia](./Q958291-United-Principalities-of-Moldavia-and-Wallachia/entidad.json) | Q958291 | 0 | 0 | 2 |
 | [Zand Dynasty](./Q97629053-Zand-Dynasty/entidad.json) | Q97629053 | 0 | 0 | 3 |
-| [Catar](./QAT-Catar/entidad.json) | QAT | 1 | 15 | 10 |
+| [Catar](./QAT-Catar/entidad.json) | QAT | 1 | 16 | 10 |
 | [República Árabe Saharaui Democrática](./RASD-Republica-Arabe-Saharaui-Democratica/entidad.json) | RASD | 1 | 11 | 0 |
 | [Rodesia · régimen no reconocido](./RHO-Rodesia-regimen-no-reconocido/entidad.json) | RHO | 2 | 3 | 0 |
-| [ROC](./ROC-ROC/entidad.json) | ROC | 1 | 4 | 0 |
-| [Rumania](./ROU-Rumania/entidad.json) | ROU | 6 | 128 | 16 |
+| [República de China · etapa continental](./ROC-Republica-de-China-etapa-continental/entidad.json) | ROC | 3 | 40 | 0 |
+| [Rumania](./ROU-Rumania/entidad.json) | ROU | 8 | 152 | 16 |
+| [República Social Italiana](./RSI-Republica-Social-Italiana/entidad.json) | RSI | 1 | 1 | 0 |
+| [Rusia soviética · RSFSR](./RSR-Rusia-sovietica-RSFSR/entidad.json) | RSR | 1 | 1 | 0 |
 | [Rusia](./RUS-Rusia/entidad.json) | RUS | 2 | 34 | 4 |
 | [República de Vietnam](./RVN-Republica-de-Vietnam/entidad.json) | RVN | 1 | 16 | 0 |
 | [Ruanda](./RWA-Ruanda/entidad.json) | RWA | 2 | 19 | 5 |
 | [Sahara Occidental](./SAH-Sahara-Occidental/entidad.json) | SAH | 0 | 49 | 2 |
-| [Arabia Saudí](./SAU-Arabia-Saudi/entidad.json) | SAU | 3 | 17 | 6 |
+| [Arabia Saudí](./SAU-Arabia-Saudi/entidad.json) | SAU | 4 | 17 | 6 |
 | [Serbia y Montenegro](./SCG-Serbia-y-Montenegro/entidad.json) | SCG | 1 | 3 | 0 |
 | [Bajo de Masinloc](./SCR-Bajo-de-Masinloc/entidad.json) | SCR | 0 | 0 | 1 |
 | [Sudán](./SDN-Sudan/entidad.json) | SDN | 4 | 29 | 11 |
@@ -495,22 +497,22 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Isla Santa Elena](./SHN-Isla-Santa-Elena/entidad.json) | SHN | 1 | 0 | 1 |
 | [Islas Salomón](./SLB-Islas-Salomon/entidad.json) | SLB | 1 | 24 | 5 |
 | [Sierra Leona](./SLE-Sierra-Leona/entidad.json) | SLE | 1 | 31 | 9 |
-| [El Salvador](./SLV-El-Salvador/entidad.json) | SLV | 2 | 34 | 7 |
-| [San Marino](./SMR-San-Marino/entidad.json) | SMR | 1 | 316 | 4 |
+| [El Salvador](./SLV-El-Salvador/entidad.json) | SLV | 2 | 52 | 7 |
+| [San Marino](./SMR-San-Marino/entidad.json) | SMR | 1 | 434 | 4 |
 | [Somalilandia](./SOL-Somalilandia/entidad.json) | SOL | 1 | 13 | 1 |
 | [Somalia](./SOM-Somalia/entidad.json) | SOM | 1 | 49 | 5 |
 | [Campo de hielo Patagónico Sur](./SPI-Campo-de-hielo-Patagonico-Sur/entidad.json) | SPI | 0 | 0 | 1 |
 | [San Pedro y Miquelón](./SPM-San-Pedro-y-Miquelon/entidad.json) | SPM | 1 | 1 | 1 |
-| [Serbia](./SRB-Serbia/entidad.json) | SRB | 2 | 30 | 10 |
+| [Serbia](./SRB-Serbia/entidad.json) | SRB | 2 | 31 | 10 |
 | [Santo Tomé y Príncipe](./STP-Santo-Tome-y-Principe/entidad.json) | STP | 1 | 32 | 2 |
 | [Surinam](./SUR-Surinam/entidad.json) | SUR | 1 | 26 | 8 |
-| [Eslovaquia](./SVK-Eslovaquia/entidad.json) | SVK | 2 | 31 | 4 |
+| [Eslovaquia](./SVK-Eslovaquia/entidad.json) | SVK | 2 | 32 | 4 |
 | [Eslovenia](./SVN-Eslovenia/entidad.json) | SVN | 1 | 34 | 4 |
-| [Suecia](./SWE-Suecia/entidad.json) | SWE | 1 | 25 | 11 |
+| [Suecia](./SWE-Suecia/entidad.json) | SWE | 1 | 41 | 11 |
 | [Suazilandia](./SWZ-Suazilandia/entidad.json) | SWZ | 1 | 22 | 2 |
 | [San Martín](./SXM-San-Martin/entidad.json) | SXM | 1 | 7 | 2 |
 | [Seychelles](./SYC-Seychelles/entidad.json) | SYC | 1 | 14 | 2 |
-| [Siria](./SYR-Siria/entidad.json) | SYR | 6 | 18 | 9 |
+| [Siria](./SYR-Siria/entidad.json) | SYR | 6 | 22 | 9 |
 | [Tanganica](./TAN-Tanganica/entidad.json) | TAN | 1 | 4 | 0 |
 | [Islas Turcas y Caicos](./TCA-Islas-Turcas-y-Caicos/entidad.json) | TCA | 1 | 14 | 5 |
 | [Chad](./TCD-Chad/entidad.json) | TCD | 1 | 36 | 9 |
@@ -2744,46 +2746,48 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Achires](./territorio-fff1c874e849-Achires/entidad.json) | territorio-fff1c874e849 | 0 | 0 | 1 |
 | [Chorotega](./territorio-fff8f1dd7407-Chorotega/entidad.json) | territorio-fff8f1dd7407 | 0 | 0 | 1 |
 | [Togo](./TGO-Togo/entidad.json) | TGO | 2 | 23 | 6 |
-| [Tailandia](./THA-Tailandia/entidad.json) | THA | 3 | 47 | 9 |
+| [Tailandia](./THA-Tailandia/entidad.json) | THA | 4 | 58 | 9 |
+| [Gobierno tibetano de facto](./TIB-Gobierno-tibetano-de-facto/entidad.json) | TIB | 1 | 3 | 0 |
 | [Tayikistán](./TJK-Tayikistan/entidad.json) | TJK | 1 | 12 | 4 |
 | [Turkmenistán](./TKM-Turkmenistan/entidad.json) | TKM | 1 | 8 | 4 |
 | [Timor Oriental](./TLS-Timor-Oriental/entidad.json) | TLS | 1 | 16 | 3 |
-| [Tonga](./TON-Tonga/entidad.json) | TON | 1 | 16 | 6 |
+| [Tonga](./TON-Tonga/entidad.json) | TON | 1 | 18 | 6 |
 | [Trinidad y Tobago](./TTO-Trinidad-y-Tobago/entidad.json) | TTO | 1 | 16 | 3 |
 | [Túnez](./TUN-Tunez/entidad.json) | TUN | 3 | 34 | 7 |
-| [Turquía](./TUR-Turquia/entidad.json) | TUR | 1 | 87 | 4 |
+| [Turquía](./TUR-Turquia/entidad.json) | TUR | 1 | 98 | 4 |
 | [Tuvalu](./TUV-Tuvalu/entidad.json) | TUV | 2 | 21 | 2 |
-| [República de China](./TWN-Republica-de-China/entidad.json) | TWN | 1 | 64 | 7 |
+| [República de China](./TWN-Republica-de-China/entidad.json) | TWN | 2 | 85 | 7 |
 | [Tanzania](./TZA-Tanzania/entidad.json) | TZA | 1 | 14 | 1 |
 | [República Árabe Unida](./UAR-Republica-Arabe-Unida/entidad.json) | UAR | 2 | 6 | 0 |
 | [Uganda](./UGA-Uganda/entidad.json) | UGA | 1 | 22 | 11 |
-| [Ucrania](./UKR-Ucrania/entidad.json) | UKR | 2 | 57 | 5 |
+| [Ucrania](./UKR-Ucrania/entidad.json) | UKR | 2 | 58 | 5 |
 | [Islas ultramarinas de Estados Unidos](./UMI-Islas-ultramarinas-de-Estados-Unidos/entidad.json) | UMI | 1 | 0 | 1 |
 | [Autoridad Ejecutiva Temporal de las Naciones Unidas](./UNTEA-Autoridad-Ejecutiva-Temporal-de-las-Naciones-Unidas/entidad.json) | UNTEA | 1 | 2 | 0 |
-| [Uruguay](./URY-Uruguay/entidad.json) | URY | 1 | 62 | 9 |
-| [Estados Unidos](./USA-Estados-Unidos/entidad.json) | USA | 27 | 111 | 50 |
+| [Uruguay](./URY-Uruguay/entidad.json) | URY | 1 | 73 | 9 |
+| [Estados Unidos](./USA-Estados-Unidos/entidad.json) | USA | 29 | 116 | 50 |
 | [Base Naval de la Bahía de Guantánamo](./USG-Base-Naval-de-la-Bahia-de-Guantanamo/entidad.json) | USG | 0 | 0 | 1 |
-| [Unión Soviética](./USSR-Union-Sovietica/entidad.json) | USSR | 2 | 44 | 0 |
+| [Unión Soviética](./USSR-Union-Sovietica/entidad.json) | USSR | 5 | 48 | 0 |
 | [Uzbekistán](./UZB-Uzbekistan/entidad.json) | UZB | 1 | 11 | 4 |
-| [Ciudad del Vaticano](./VAT-Ciudad-del-Vaticano/entidad.json) | VAT | 2 | 13 | 2 |
+| [Ciudad del Vaticano](./VAT-Ciudad-del-Vaticano/entidad.json) | VAT | 2 | 15 | 2 |
 | [San Vicente y las Granadinas](./VCT-San-Vicente-y-las-Granadinas/entidad.json) | VCT | 1 | 6 | 6 |
 | [República Democrática de Vietnam](./VDR-Republica-Democratica-de-Vietnam/entidad.json) | VDR | 2 | 5 | 0 |
-| [Venezuela](./VEN-Venezuela/entidad.json) | VEN | 6 | 37 | 11 |
+| [Venezuela](./VEN-Venezuela/entidad.json) | VEN | 8 | 53 | 11 |
 | [Islas Vírgenes Británicas](./VGB-Islas-Virgenes-Britanicas/entidad.json) | VGB | 1 | 6 | 1 |
-| [Islas Vírgenes de los Estados Unidos](./VIR-Islas-Virgenes-de-los-Estados-Unidos/entidad.json) | VIR | 1 | 16 | 5 |
+| [Islas Vírgenes de los Estados Unidos](./VIR-Islas-Virgenes-de-los-Estados-Unidos/entidad.json) | VIR | 1 | 28 | 5 |
 | [Vietnam](./VNM-Vietnam/entidad.json) | VNM | 1 | 33 | 3 |
 | [República de Vietnam del Sur · Gobierno Revolucionario Provisional](./VSR-Republica-de-Vietnam-del-Sur-Gobierno-Revolucionario-Provisional/entidad.json) | VSR | 1 | 2 | 0 |
-| [Estado de Vietnam](./VSV-Estado-de-Vietnam/entidad.json) | VSV | 1 | 2 | 0 |
+| [Estado de Vietnam](./VSV-Estado-de-Vietnam/entidad.json) | VSV | 1 | 3 | 0 |
 | [Vanuatu](./VUT-Vanuatu/entidad.json) | VUT | 1 | 44 | 2 |
-| [Wallis y Futuna](./WLF-Wallis-y-Futuna/entidad.json) | WLF | 1 | 11 | 1 |
+| [Wallis y Futuna](./WLF-Wallis-y-Futuna/entidad.json) | WLF | 1 | 19 | 1 |
 | [Akrotiri Sovereign Base Area](./WSB-Akrotiri-Sovereign-Base-Area/entidad.json) | WSB | 0 | 0 | 0 |
 | [Samoa](./WSM-Samoa/entidad.json) | WSM | 1 | 12 | 6 |
 | [República Árabe de Yemen](./YAR-Republica-Arabe-de-Yemen/entidad.json) | YAR | 1 | 6 | 0 |
 | [Yemen](./YEM-Yemen/entidad.json) | YEM | 2 | 35 | 7 |
-| [Reino Mutawakkilita de Yemen](./YMK-Reino-Mutawakkilita-de-Yemen/entidad.json) | YMK | 2 | 3 | 0 |
+| [Monarquía serbocroataeslovena / Reino de Yugoslavia](./YKM-Monarquia-serbocroataeslovena-Reino-de-Yugoslavia/entidad.json) | YKM | 2 | 4 | 0 |
+| [Reino Mutawakkilita de Yemen](./YMK-Reino-Mutawakkilita-de-Yemen/entidad.json) | YMK | 3 | 5 | 0 |
 | [República Democrática Popular del Yemen](./YPR-Republica-Democratica-Popular-del-Yemen/entidad.json) | YPR | 1 | 13 | 0 |
-| [República Federativa Socialista de Yugoslavia](./YUG-Republica-Federativa-Socialista-de-Yugoslavia/entidad.json) | YUG | 1 | 19 | 0 |
-| [Sudáfrica](./ZAF-Sudafrica/entidad.json) | ZAF | 2 | 27 | 6 |
+| [República Federativa Socialista de Yugoslavia](./YUG-Republica-Federativa-Socialista-de-Yugoslavia/entidad.json) | YUG | 2 | 19 | 0 |
+| [Sudáfrica](./ZAF-Sudafrica/entidad.json) | ZAF | 5 | 30 | 6 |
 | [Zanzíbar](./ZAN-Zanzibar/entidad.json) | ZAN | 1 | 2 | 4 |
 | [Zambia](./ZMB-Zambia/entidad.json) | ZMB | 3 | 26 | 5 |
 | [Zimbabue](./ZWE-Zimbabue/entidad.json) | ZWE | 2 | 10 | 3 |

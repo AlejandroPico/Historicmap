@@ -6,6 +6,9 @@ export const statuses:Record<string,string>={independent:'Estado independiente',
 const names:Record<string,string>={'United States of America':'Estados Unidos','United Kingdom':'Reino Unido','France':'Francia','India':'India','Egypt':'Egipto','Israel':'Israel','Palestine':'Palestina','Gaza':'Gaza','West Bank':'Cisjordania','Syria':'Siria','Japan':'Japón','Italy/Sardinia':'Italia','China':'China','French West Africa':'África Occidental Francesa','Algeria':'Argelia','French Guyana':'Guayana Francesa','French Polynesia':'Polinesia Francesa','Reunion':'Reunión','Germany (Prussia)':'Alemania','German Federal Republic':'República Federal de Alemania','German Democratic Republic':'República Democrática Alemana','Austria-Hungary':'Austria-Hungría','Austria':'Austria','Hungary':'Hungría','Czechoslovakia':'Checoslovaquia','Poland':'Polonia','Spain':'España','Portugal':'Portugal','Netherlands':'Países Bajos','Belgium':'Bélgica','Ireland':'Irlanda','Rumania':'Rumanía','Russia (Soviet Union)':'Rusia','Ukraine':'Ucrania','Yugoslavia':'Yugoslavia','South Sudan':'Sudán del Sur','Sudan':'Sudán','Turkey (Ottoman Empire)':'Turquía','Iran (Persia)':'Irán','Morocco':'Marruecos','Tunisia':'Túnez','Libya':'Libia','German Togoland':'Togo alemán','Kamerun':'Camerún alemán','British Togoland':'Togo británico','British Cameroons':'Camerún británico'};
 const aliases:Record<string,string>={'United States of America':'USA','United Kingdom':'GBR','Germany (Prussia)':'DEU','German Federal Republic':'DEU','German Democratic Republic':'DDR','Italy/Sardinia':'ITA','Russia (Soviet Union)':'RUS','Rumania':'ROU','Macedonia (FYROM/North Macedonia)':'MKD','Congo':'COG','Congo, Democratic Republic of (Zaire)':'COD','Iran (Persia)':'IRN','Turkey (Ottoman Empire)':'TUR','Egypt':'EGY','Gambia':'GMB','Cote D\'Ivoire':'CIV','Burkina Faso (Upper Volta)':'BFA','Tanzania (Tanganyika)':'TZA','Swaziland (Eswatini)':'SWZ','Madagascar (Malagasy)':'MDG','Zimbabwe (Rhodesia)':'ZWE','Korea, Republic of':'KOR','Korea, People\'s Republic of':'PRK','Kyrgyz Republic':'KGZ','Laos':'LAO','Vietnam (Annam/Cochin China/Tonkin)':'VNM','Vietnam, Democratic Republic of':'VNM','Myanmar (Burma)':'MMR','Sri Lanka (Ceylon)':'LKA','Cambodia (Kampuchea)':'KHM','East Timor':'TLS','Surinam':'SUR','French Guyana':'GUF','Palestine':'PSE','West Bank':'PSE','Gaza':'PSE','Taiwan':'TWN','Bahamas':'BHS','Venezuela':'VEN','Bolivia':'BOL','Belarus (Byelorussia)':'BLR','Cape Verde':'CPV','Brunei':'BRN','New Zealand':'NZL'};
 export function historicName(p:Period,year:number){
+  if(p.country_name==='Danzig')return 'Ciudad Libre de Danzig';
+  if(p.country_name==='China'&&year>=1912&&year<1949)return 'República de China';
+  if(p.country_name==='Yugoslavia'&&year<1945)return year<1929?'Reino de los serbios, croatas y eslovenos':'Reino de Yugoslavia';
   if(p.country_name==='Malaysia'&&year>=1957&&year<1963)return 'Federación de Malaya';
   if(p.gwcode===365)return year<=1916?'Imperio ruso':year<1922?'Rusia soviética':year<=1990?'Unión Soviética':'Rusia';
   if(p.country_name==='Germany (Prussia)')return year<=1917?'Imperio alemán':year===1918?'Alemania · transición republicana':year<=1932?'Alemania · República de Weimar':'Alemania nazi';
@@ -26,6 +29,7 @@ export function historicName(p:Period,year:number){
 export function hashColor(value:string){let n=0;for(const c of value)n=(n*31+c.charCodeAt(0))|0;return Math.abs(n)%12;}
 const norm=(s:string)=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
 export function isoFor(p:Period,year:number,modernNames:Map<string,string>){
+  if(p.country_name==='China'&&year<1949)return '';
   if(p.status!=='independent'||(p.gwcode===365&&year<1991)||p.country_name==='Yugoslavia'||p.country_name==='Czechoslovakia'||p.country_name==='Austria-Hungary'||p.country_name==='German Democratic Republic')return '';
   if(p.country_name==='Yemen (Arab Republic of Yemen)')return year>=1990?'YEM':'';
   if(p.country_name==="Yemen, People's Republic of"||p.country_name==='Vietnam, Republic of'||(p.country_name==='Vietnam, Democratic Republic of'&&year<1976)||(p.country_name==='Zimbabwe (Rhodesia)'&&year<1980))return '';
@@ -36,6 +40,11 @@ export function isoFor(p:Period,year:number,modernNames:Map<string,string>){
 /** Historical identity is separate from a successor's statistical ISO code. */
 export function territorialEntityCode(p:Record<string,any>,year:number):string{
   const name=p.originalName??p.country_name??p.name;
+  if(name==='Danzig')return 'DAN';
+  if(name==='Tibet')return 'TIB';
+  if(name==='China'&&year>=1912&&year<1949)return 'ROC';
+  if(name==='Russia (Soviet Union)'&&year>=1917&&year<1922)return 'RSR';
+  if(name==='Yugoslavia'&&year<1945)return 'YKM';
   if(name==='Malaysia'&&year>=1957&&year<1963)return 'MAL';
   if(name==='Yemen (Arab Republic of Yemen)'&&year<1962)return 'YMK';
   if(name==='Tanzania (Tanganyika)'&&year<1964)return 'TAN';
@@ -54,7 +63,13 @@ export function territorialEntityCode(p:Record<string,any>,year:number):string{
   return aliases[p.code]??p.code??'';
 }
 export const normalizedName=norm;
-export function periodsAt(topology:HistoryTopology,year:number){const date=`${year}-12-31`;return topology.objects.countries.geometries.filter(g=>g.properties.start<=date&&g.properties.end>=date);}
+export function periodsAt(topology:HistoryTopology,year:number){const date=`${year}-12-31`;return topology.objects.countries.geometries.filter(g=>{
+  const p=g.properties;
+  // Retain the original record and correct only its observed validity. The
+  // treaty was implemented in1920 and annexation occurred in1939, not1938.
+  const start=p.country_name==='Danzig'?'1920-11-15':p.start,end=p.country_name==='Danzig'?'1939-08-31':p.end;
+  return start<=date&&end>=date;
+});}
 export function decodeGeometry(topology:HistoryTopology,g:TopologyGeometry):Polygon|MultiPolygon{
   const arc=(n:number)=>{const coordinates=topology.arcs[n<0?~n:n];return n<0?[...coordinates].reverse():coordinates;};
   const ring=(indices:number[])=>indices.flatMap((n,i)=>i?arc(n).slice(1):arc(n));
@@ -75,12 +90,16 @@ export function historyAt(topology:HistoryTopology,year:number,modernNames:Map<s
     const name=historicName(p,year);
     const owner=p.status==='independent'?name:byCode.has(p.owner)?historicName(byCode.get(p.owner)!,year):`Potencia ${p.owner}`;
     const code=isoFor(p,year,modernNames),entityCode=territorialEntityCode({...p,code},year);
-    const identityKey=entityCode==='SUN'?'USSR':entityCode==='SCG'&&year<2003?'FRY':['YUG','SCG','CSK','DDR','YAR','YPR','VDR','RVN','VSV','MAL','RHO','YMK','TAN','ZAN'].includes(entityCode)?entityCode:undefined;
+    const identityKey=entityCode==='SUN'?'USSR':entityCode==='SCG'&&year<2003?'FRY':['YUG','YKM','RSR','ROC','DAN','TIB','SCG','CSK','DDR','YAR','YPR','VDR','RVN','VSV','MAL','RHO','YMK','TAN','ZAN'].includes(entityCode)?entityCode:undefined;
     const capital=p.country_name==='Zimbabwe (Rhodesia)'&&year<1982||p.country_name==='Federation of Rhodesia and Nyasaland'?'Salisbury':p.country_name==='Tanzania (Tanganyika)'&&year<1974?'Dar es Salaam':p.country_name==='Equatorial Guinea'&&year<1973?'Santa Isabel':p.capname;
     const temporalNote=p.country_name==='Vietnam, Democratic Republic of'&&year===1975?'CShapes agrupa todo Vietnam desde mayo de 1975 por control territorial. La unificación estatal formal fue el 2 de julio de 1976; este contorno no distingue la administración provisional del sur.':entityCode==='RHO'?(year===1979?'En diciembre de 1979 se restableció la administración británica durante la transición; Zimbabue accedió a la independencia el 18 de abril de 1980. El estatus independiente de CShapes describe el régimen previo de facto, no su reconocimiento internacional.':'Declaración unilateral de independencia de 1965 bajo un régimen de minoría blanca no reconocido por la ONU; no equivale al Estado independiente de Zimbabue de 1980.'):undefined;
-    const politicalStatus=entityCode==='RHO'?(year===1979?'Administración británica de transición al cierre anual':'Régimen de facto no reconocido internacionalmente'):statuses[p.status]??p.status;
+    const politicalStatus=entityCode==='DAN'?'Ciudad libre autónoma bajo protección de la Sociedad de Naciones':entityCode==='TIB'?'Gobierno tibetano de facto · soberanía disputada':entityCode==='RHO'?(year===1979?'Administración británica de transición al cierre anual':'Régimen de facto no reconocido internacionalmente'):statuses[p.status]??p.status;
     return {type:'Feature',id:p.fid,geometry:geometryFor(geometry),properties:{...p,name:entityCode==='VSV'?'Estado de Vietnam':entityCode==='YMK'?'Reino Mutawakkilita de Yemen':entityCode==='TAN'?'Tanganica':entityCode==='ZAN'?'Zanzíbar':name,originalName:p.country_name,code:['YMK','TAN','ZAN','MAL'].includes(entityCode)?'':code,entityCode,identityKey,group:owner,color:hashColor(p.owner),capital,capname:capital,...(p.country_name==='Tanzania (Tanganyika)'&&year<1974?{caplong:39.28,caplat:-6.81}:{}),ownerName:owner,politicalStatus,note:temporalNote,source:'https://icr.ethz.ch/data/cshapes/'}} as Feature;
   })};
+  for(const f of result.features)if(f.properties?.entityCode==='DAN')Object.assign(f.properties,{identityKey:'DAN',status:'free-city',ownerName:'',group:'Ciudad Libre de Danzig',start:'1920-11-15',end:'1939-08-31',sourceStart:f.properties.start,sourceEnd:'1938-08-31',...(year===1938?{boundaryCorrection:'danzig-1938'}:{}),note:'Ciudad libre desde15/11/1920; ocupación e incorporación alemana en septiembre1939. Se corrige la terminación1938 del registro de fuente, conservando su polígono. La tutela de la Sociedad de Naciones no equivale a soberanía alemana o polaca.',territorySource:'https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/die-stadt-danzig-im-nationalsozialismus/'});
+  // CShapes aggregates the western zones under one owner code. That must not
+  // turn joint occupation into sole US administration or a US national flag.
+  if(year>=1945&&year<=1948)for(const f of result.features)if(f.properties?.originalName==='German Federal Republic')Object.assign(f.properties,{sourceOwnerName:f.properties.ownerName,collectiveAdministration:true,status:'occupation-zones',ownerName:'Estados Unidos, Reino Unido y Francia · administraciones de ocupación',group:'Administraciones aliadas de ocupación',politicalStatus:'Zonas occidentales de ocupación aliada',territorySource:'https://digitallibrary.un.org/record/669294/files/E_CN.4_W.19-EN.pdf?ln=en'});
   // CShapes keeps two components during the union. Render a single dated entity;
   // the unchanged source polygons remain available in history.topojson.
   if(year>=1958&&year<=1960){

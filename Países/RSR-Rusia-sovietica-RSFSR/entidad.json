@@ -1,0 +1,76 @@
+{
+  "key": "RSR",
+  "name": "Rusia soviética · RSFSR",
+  "qid": "Q2184",
+  "aliases": [
+    "Rusia soviética · RSFSR"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "RSR"
+  },
+  "flags": [
+    {
+      "start": "1920-01-01",
+      "end": "1922-12-29",
+      "media": {
+        "file": "media/flag-f6feb7a68aea55947a2d.svg",
+        "title": "Flag of the Russian Soviet Federative Socialist Republic (1918–1925).svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Russian_Soviet_Federative_Socialist_Republic_(1918%E2%80%931925).svg",
+        "artist": "Sergey Chekhonin",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Own work",
+        "sha256": "f80f5334b65312118e3509141cd44a91464093a196404efbe11d1bb791c72903",
+        "bytes": 6229,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Flag_of_the_Russian_Soviet_Federative_Socialist_Republic_%281918%E2%80%931925%29.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Russian_Soviet_Federative_Socialist_Republic_(1918%E2%80%931925).svg",
+      "acquisition": "curated-symbols-0.11",
+      "intervalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Russian_Soviet_Federative_Socialist_Republic_(1918%E2%80%931925).svg",
+      "note": "Ventana documental para la selección al cierre anual, no fecha exacta de adopción o derogación. El símbolo no acredita fronteras, control efectivo ni reconocimiento diplomático. Rusia soviética anterior a la URSS; la inscripción RSFSR no se cambia por el símbolo de1954."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1394",
+      "name": "Vladímir Lenin",
+      "role": "Presidente del Consejo de Comisarios del Pueblo de la RSFSR",
+      "start": "1920-01-01",
+      "end": "1922-12-29",
+      "source": "https://docs.historyrussia.org/ru/indexes/values/973636",
+      "note": "Cobertura de la Rusia soviética antes del tratado de30/12/1922; no fecha de cese personal en el cargo de la república rusa. Los extremos señalados como cobertura delimitan esta revisión o entidad; no son nombramientos ni dimisiones.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1920-0.11",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-cc15541e156128bc0e71.jpg",
+        "title": "Vladímir Lenin (fotografía coloreada).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Vlad%C3%ADmir_Lenin_(fotograf%C3%ADa_coloreada).jpg",
+        "artist": "Pavel Zhukov",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This file was derived from:  Vladimir Lenin in July 1920 by Pavel Zhukov.jpg, https://pbs.twimg.com/media/DTeBvwXVoAEMjMW?format=jpg https://cdn.nwmgroups.hu/s/img/i/1902/20190219lenin-hires-tortenelmi-alakok-es.jpg?w=800&h=800&t=5",
+        "sha256": "30d2a74987a856de624391d368e607b9e440b07d310a3f4d869c1174932d4d1f",
+        "bytes": 30781,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Vlad%C3%ADmir_Lenin_%28fotograf%C3%ADa_coloreada%29.jpg/330px-Vlad%C3%ADmir_Lenin_%28fotograf%C3%ADa_coloreada%29.jpg",
+        "attribution": "",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

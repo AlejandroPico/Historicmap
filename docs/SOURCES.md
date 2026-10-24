@@ -1,5 +1,7 @@
 # Fuentes y política cartográfica
 
+Ampliación0.11 a1920: [contexto y organismos](RESEARCH-1920.md), [autoridades focales y Europa/Asia](AUTHORITIES-1920-RESEARCH.md), [Américas](AUTHORITIES-1920-AMERICAS.md), [monarquías y territorios](AUTHORITIES-1920-REGIONS.md), [símbolos](SYMBOLS-1920.md) y [auditoría nominal](REVIEW-1920-1949.json). La corrección documental de Danzig conserva el contorno CShapes y corrige su validez observada; no modifica la topología original ni acredita todas las fronteras de entreguerras. Vaticano sólo desde7/6/1929. Las fotografías mantienen sus licencias individuales. Las fuentes de compilación e investigación se identifican como tales, separadas de actas, tratados y registros contemporáneos.
+
 Ampliación 0.10 a1950: [fuentes, decisiones y límites](RESEARCH-1950.md), [auditoría nominal](REVIEW-1950.json). Se conservan CShapes, coordenadas y licencias de origen; los suplementos modernos son contornos de referencia identificados. Autoridades, ventanas documentales, imágenes y diseños históricos tienen procedencias individuales. El catálogo [Países](../Países/README.md) referencia esos medios; no cambia sus licencias ni crea una colección cartográfica fusionada.
 
 ## Ampliación 0.6 · 1990–2026

@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.11.0 · 2026-10-24
+
+- Ampliación mundial de autoridades a1920–1949 con adquisición incremental, retratos acreditados y curaciones documentales de sucesiones, monarquías, gobiernos en el exilio y administraciones de ocupación. Rusia soviética, República de China, monarquía yugoslava, Danzig, Tíbet y República Social Italiana tienen identidades propias; no heredan estadísticas de sucesores.
+- Símbolos históricos fechados y administraciones dependientes desde1920, distinguiendo colonias/departamentos franceses y Austria bajo control alemán. Se conservan los intervalos posteriores y la referencia contemporánea22/10/2026; las ventanas de revisión no se presentan como nombramientos o dimisiones exactas.
+- Sociedad de Naciones y ONU con membresías/representaciones históricas; acceso gradual, retirada, sustitución de entidades y entrada en vigor separados de la firma. Contexto y navegación institucional ampliados; no se inventan frentes militares a partir de textos.
+- Corrección documental de Danzig1938: el polígono original se mantiene y se excluye del control alemán un año antes de la anexión real. La topología incorporada no se modifica. Vaticano sólo aparece desde la entrada en vigor de los acuerdos de1929.
+- Resaltado de selección mediante estado de pintura, evitando reanalizar las teselas al mismo tiempo que cambian las fronteras. Conserva la actualización incremental y las guardas; corrige el atasco reproducido al mantener Rusia abierta entre1920y1921.
+- Catálogo Países y manifiestos sincronizados; fecha visible de Acerca de corregida. Auditoría nominal por décadas, carencias y límites de la ampliación registrados para continuidad.
+- Comprobación local y subida sin esperar ni sondear el despliegue, por instrucción del propietario. Validación pública pendiente de su aviso.
+
 ## 0.10.0 · 2026-10-24
 
 - Ampliación incremental de autoridades y medios a1950–1959; correcciones focales de cargos formales/efectivos, monarquías y órganos colectivos. Estado de Vietnam y Federación de Malaya separados de sus sucesores; sin estadísticas actuales retrotraídas.

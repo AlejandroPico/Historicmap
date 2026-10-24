@@ -4,16 +4,16 @@
   "entries": [
     {
       "file": "affiliations.json",
-      "bytes": 192653,
-      "sha256": "4b3cb278eb4fcddd142f448ae81909f1d0d508ef17ea7e024834dc03d3118d9b",
-      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 264619,
+      "sha256": "6cfb7e97dbf0f6e6b557a99c39540318f90f23a48d6e62c0ed4de40b584d0227",
+      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "dated-organizations",
       "source": "Official institutional membership chronologies and declarations",
       "url": "https://www.nato.int/cps/en/natohq/topics_52044.htm",
       "license": "Factual membership metadata; sources per interval, original editorial compilation",
-      "transform": "Dated organizations from1950, including CECA, Euratom, ANZUS, SEATO and Baghdad/CENTO. Category and legal accession separated from coverage windows; no inference of subordination or belligerency. Cuban Government exclusion dated1962, not1960.",
-      "organizations": 36,
-      "records": 613
+      "transform": "38 dated organizations including League of Nations and UN succession/representation. Legal accessions, foundation/signature, entry into force, withdrawals and coverage boundaries are explicit. No automatic inference of subordination or belligerency.",
+      "organizations": 38,
+      "records": 887
     },
     {
       "file": "cities.geojson",
@@ -172,16 +172,16 @@
     },
     {
       "file": "country-history.json",
-      "bytes": 93055,
-      "sha256": "b1ca2f059dc9a28b9ea6e2b9672a75331fb4a4b33426c34b3667dc2b89c10ab5",
-      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 111259,
+      "sha256": "fa8e2cb13a2422a1ff7ec6da35c3f337269f237348aeb6229822190631a06489",
+      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "country-workspace-history",
       "url": "https://www.un.org/en/about-us/member-states",
       "source": "Official institutional histories, constitutional records and state succession references, linked per record",
       "license": "Original editorial summaries and factual metadata; sources linked individually",
-      "transform": "Focal dated institutions and transitions for1950s independence, political unions and predecessor entities. Context coverage dates are not automatically constitutional inception or termination dates.",
-      "records": 62,
-      "relations": 68
+      "transform": "Dated institutions and links for interwar predecessor entities, League/UN, partitions and occupation transitions. Documentary windows do not assert exact constitutional inception or termination dates.",
+      "records": 80,
+      "relations": 76
     },
     {
       "file": "country-indicators.json",
@@ -212,15 +212,15 @@
     },
     {
       "file": "historical-context.json",
-      "bytes": 195805,
-      "sha256": "f7b704bb0b96534576350a3fcb5eb55bdbd34167fad33356a7fe2319fe4c2fcb",
-      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 234967,
+      "sha256": "e0b69e7ee788aea9bdc526be414291a66b0a59a105cc21463b96f61870c939ad",
+      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "dated-historical-context",
       "source": "United Nations, institutional and government historical records",
       "url": "https://www.un.org/en/about-us/history-of-the-un",
       "license": "Original editorial summaries; institutional sources linked per event",
-      "transform": "Focal1950s conflicts/transitions with source dates and documentary windows, including Korea, Indochina, Suez, Hungary, Taiwan and decolonization. Not a worldwide conflict census or military front reconstruction.",
-      "records": 279
+      "transform": "Fifty additional sourced phases1920–1949, including interwar regimes, WWII, occupation, independence and civil wars. Not a worldwide daily military-front or conflict census.",
+      "records": 329
     },
     {
       "file": "historical-control.geojson",
@@ -237,13 +237,13 @@
     },
     {
       "file": "historical-supplements.geojson",
-      "bytes": 124625,
-      "sha256": "c7c12e39d4664fc5d31d602aca879f74428931ff0cc9b2d7f0db460bc1cd9414",
-      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 124565,
+      "sha256": "8fce1e2d002ea25f2162e51404e1408ddf01e2d3a9149f032c7ec3ca1066cd5f",
+      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
       "source": "Natural Earth pinned country outlines; UN territorial/state chronology and Office of the Historian",
       "url": "https://www.naturalearthdata.com/about/terms-of-use/",
       "license": "Public domain (Natural Earth geometry); factual institutional metadata",
-      "transform": "Unchanged contemporary Natural Earth reference outlines for source omissions from1950; explicit coverage floors and dates of independence, not UN admission dates or historic coastline reconstruction.",
+      "transform": "Unchanged Natural Earth contemporary reference outlines for source omissions from1920, including Vatican only from7June1929. Coverage floors and statehood dates are distinct from UN admission; not a reconstructed historical coastline.",
       "features": 25
     },
     {
@@ -262,16 +262,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 7360509,
-      "sha256": "f97c21239a16eaeadf74fa56d8760e9c43d911d821f78d675b9e68e97d4cb9fd",
+      "bytes": 9014632,
+      "sha256": "0e55e133e345081f683dc0753da6919358fd59e3dfdc2c991a0826fc3831d3e8",
       "format": "dated-political-identities",
-      "countries": 285,
-      "records": 7985,
+      "countries": 290,
+      "records": 9485,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
+      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Incremental1950–1959 acquisition, focal reviewed terms and documentary windows. State of Vietnam and Federation of Malaya separate from successors; formal and dominant offices distinguished. Earlier curations, current reference2026-10-22, licensed portraits and known gaps preserved."
+      "transform": "Incremental worldwide1920–1949 acquisition and sourced documentary windows; RSR/ROC/YKM/DAN/TIB/RSI historical keys, formal/dominant offices and collective occupation administrations. Licensed media, later curations, missing portraits and current reference2026-10-22 preserved. Resolver coverage is not an exhaustive daily census."
     },
     {
       "format": "dated-political-influence",
@@ -321,15 +321,15 @@
     },
     {
       "file": "territorial-administrations.json",
-      "bytes": 11460,
-      "sha256": "25799529d0c8e8f583232dfdd46d7cd23769c371e3f418a2af7cc903b05f9e3e",
-      "version": "Historicmap 0.10.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 13826,
+      "sha256": "effb0be39c9f5475893ceef68057575dca310e12a52e943e74be351cd6562d5d",
+      "version": "Historicmap 0.11.0; historical preparation2026-10-24; current reference2026-10-22",
       "format": "dated-territorial-administrations",
-      "records": 20,
+      "records": 24,
       "source": "Primary legal, government and UN sources per relationship",
       "url": "https://www.un.org/dppa/decolonization/en",
       "license": "Original factual compilation; individual documentary sources retained.",
-      "transform": "Dated territorial relationships from1950, including distinct pre/post1952 Puerto Rico and pre/post1954 Surinam constitutional frameworks. External national offices never replace unresearched local governors or transfer successor statistics."
+      "transform": "Dated administrative relationships from1920; French colonies/departments distinguished in1946 and Austria under German control1938–1945. External national offices do not substitute a complete local-governor series or transfer statistics."
     },
     {
       "file": "territorial-overlays.geojson",

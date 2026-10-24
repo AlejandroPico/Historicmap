@@ -128,7 +128,7 @@ map.on('load', () => {
   map.addSource('dem',{type:'raster-dem',tiles:['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],tileSize:256,maxzoom:12,encoding:'terrarium',attribution:'Relieve: © Mapzen / AWS Open Data'});
   map.addLayer({id:'relief',type:'hillshade',source:'dem',layout:{visibility:'none'},paint:{'hillshade-shadow-color':'#102c2b','hillshade-highlight-color':'#fff3c8','hillshade-exaggeration':0.6}});
   map.addLayer({id:'territory-line',type:'line',source:'territories',paint:{'line-color':'#182b2b','line-width':['interpolate',['linear'],['zoom'],0,0.35,5,1.2],'line-opacity':0.85}});
-  map.addLayer({id:'territory-selected',type:'line',source:'territories',filter:['==',['id'],-1],paint:{'line-color':'#f6d99c','line-width':2}});
+  map.addLayer({id:'territory-selected',type:'line',source:'territories',paint:{'line-color':'#f6d99c','line-width':2,'line-opacity':['case',['boolean',['feature-state','selected'],false],1,0]}});
   map.addSource('occupations',{type:'geojson',data:empty,tolerance:0.2,maxzoom:7,attribution:'<a href="https://github.com/Seshat-Global-History-Databank/cliopatria">Cliopatria · CC BY 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:GCE-Frente_en_oct_1937.svg">Tyk / Té y kriptonita · CC BY-SA 3.0</a>'});
   map.addLayer({id:'occupation-fill',type:'fill',source:'occupations',paint:{'fill-pattern':['get','patternKey'],'fill-opacity':1}});
   map.addLayer({id:'occupation-line',type:'line',source:'occupations',paint:{'line-color':'#c6c8ba','line-width':0.85,'line-opacity':0.75}});
@@ -165,7 +165,17 @@ function selectFeature(feature:{properties:MapGeoJSONFeature['properties']|null;
   if(!selectedAnchor||anchorId(next)!==anchorId(selectedAnchor)){activeCountryTab='authorities';const content=document.querySelector('.country-content');if(content)content.scrollTop=0;timelineExpanded=false;comparison.a=Math.max(-10000,year-10)||-1;comparison.b=Math.max(-10000,year)||-1;}
   selectedAnchor=next;renderSelection();
 }
-function closeSelection(){selectedAnchor=undefined;selectionGeneration++;$('#selection').hidden=true;if(ready)map.setFilter('territory-selected',['==',['id'],-1]);}
+let highlightedId:string|number|undefined;
+function highlightFeature(id?:string|number){
+  if(!ready||id===highlightedId)return;
+  // A filter change reparses source tiles. During an incremental date update
+  // that can pair a new feature index with an older tile payload. Selection is
+  // paint state only: it must not trigger another geometry/layout update.
+  if(highlightedId!==undefined)map.removeFeatureState({source:'territories',id:highlightedId},'selected');
+  highlightedId=id;
+  if(id!==undefined)map.setFeatureState({source:'territories',id},{selected:true});
+}
+function closeSelection(){selectedAnchor=undefined;selectionGeneration++;$('#selection').hidden=true;highlightFeature();}
 function renderSelection(){
   if(!selectedAnchor||!identityData||$('#map').getAttribute('aria-busy')==='true')return;
   const top=document.querySelector('.country-content')?.scrollTop??0;
@@ -186,7 +196,7 @@ function renderSelection(){
     const pin=document.getElementById('pin-country');if(pin){pin.textContent=pinned?'Fijado para comparar':'Fijar para comparar';pin.setAttribute('aria-pressed',String(pinned));}
     if(activeCountryTab==='comparison')void renderComparison();
   }
-  if(ready)map.setFilter('territory-selected',['==',['id'],!selectedAnchor.uid&&feature?.id!==undefined?feature.id:-1]);
+  highlightFeature(!selectedAnchor.uid?feature?.id:undefined);
   const content=document.querySelector('.country-content');if(content)content.scrollTop=top;
 }
 async function featureAt(anchor:CountryAnchor,targetYear:number){
@@ -258,7 +268,7 @@ function refreshMap(force=false):Promise<void> {
   if(snapshot.kind==='geological'&&previousKind!=='geological')map.jumpTo({center:[0,15],zoom:1.5});
   if(selectedAnchor){$('#selection').setAttribute('aria-busy','true');$('#selection-status').textContent=`Actualizando a ${formatYear(targetYear)}…`;$('#selection-status').hidden=false;}
   if(!$('#search-panel').hidden)$('#search-results').textContent='Actualizando territorios…';
-  map.setFilter('territory-selected',['==',['id'],-1]);
+  highlightFeature();
   if(concept){activeKey=displayKey;loaded=empty;cityData=empty;overlayData=empty;$('#map-legend').hidden=true;$('#map').setAttribute('aria-busy','false');status('Contexto documental · sin cartografía disponible');updateSources();renderSelection();refreshSearch();return Promise.resolve();}
   status(`Cargando ${formatYear(target.year)}…${loaded.features.length?' · se conserva el mapa anterior':''}`);
   updateSources();

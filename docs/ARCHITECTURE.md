@@ -1,5 +1,15 @@
 # Arquitectura y evolución
 
+## Ampliación1920–1949 · 0.11
+
+Adquisición incremental `enrich-1920-authorities.py`; curaciones puras y reproducibles en `curate-1920-authorities.py`, `curate-1920-europe-asia.py`, `curate-1920-americas.py` y `curate-1920-regions.py`. Guardan retratos antes de regenerar sus registros; sus ventanas no alteran automáticamente mandatos fuera del intervalo revisado. RSR/ROC/YKM/DAN/TIB/RSI distinguen entidades, no sólo etiquetas. La retirada de una afirmación genérica falsa de doble cargo no elimina el cargo presidencial real.
+
+`periodsAt` corrige la validez observada de Danzig sin cambiar el archivo original CShapes. En1938 `composeControl` resta el contorno documental de Danzig a los demás componentes, después de integrar controles, y lo añade una sola vez como DAN. Sin esa partición, extender la fecha produciría dos propietarios superpuestos. Se conserva la atribución y licencia original; no hay un mapa mundial fusionado redistribuido con una licencia inventada. La corrección no certifica todas las fronteras de1938 ni otras omisiones del inventario.
+
+Administraciones desde1920, suplementos contemporáneos con fecha de cobertura explícita y Vaticano desde7/6/1929. Auditoría `coverage-1920.test.ts`: cada entidad/año de fuente, suplemento y control activo; no sustituye la prueba puntual de geometría compuesta, ni es censo de todos los cargos. Registra símbolos y personas/órganos sin retrato, deduplicados entre décadas en `REVIEW-1920-1949.json`. El registrador actualiza huellas de seis recursos; después se sincroniza Países. El constructor no consulta servicios históricos en tiempo real.
+
+El resaltado de selección utiliza `feature-state.selected` y opacidad de pintura. No aplicar `setFilter` al contorno seleccionado al cambiar de fecha: provoca reanálisis de la fuente compartida y el recorrido Rusia1920→1921 reprodujo índices de tesela incoherentes durante esa transición. La pintura por estado evita esa segunda actualización de geometría; el estado anterior se limpia al cerrar o cambiar el año. Se mantienen los diffs incrementales y las guardas de renderizado/clic existentes.
+
 ## Catálogo por entidad y ficha fija · 0.10
 
 `Países/` es la vista de consulta por entidad de las colecciones preparadas. `scripts/prepare-country-catalog.mjs` genera `indice.json`, `INDICE.md` y `entidad.json` por carpeta. Las identidades históricas con QID distinto no se fusionan por similitud de nombres. Los datos científicos y sus licencias permanecen separados en `public/data`; las imágenes compartidas se referencian desde `public/media`. No editar el resumen generado ni mantener dos fuentes de verdad independientes. Regenerar después de adquirir/curar y antes de compilar.

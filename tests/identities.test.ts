@@ -73,7 +73,7 @@ describe('dated flags and political authorities',()=>{
   expect(at('DEU',1942).flag?.title).toBe('Flag of Germany (1935–1945).svg');
   expect(names('DEU',1942)).toContain('Hitler');
   expect(at('DEU',1946).flag).toBeUndefined();
-  expect(at('DEU',1946).leaders).toHaveLength(0);
+  expect(at('DEU',1946).leaders.map(l=>l.person)).toEqual(['COLLECTIVE-DEU-ALLIED-OCCUPATION']);
   expect(at('DEU',1946).note).toContain('Administración militar');
   expect(at('DDR',1948).flag).toBeUndefined();
   expect(at('DDR',1958).flag?.title).toBe('Flag of Germany.svg');
@@ -86,7 +86,7 @@ describe('dated flags and political authorities',()=>{
   expect(names('ESP-NATIONALIST',1936)).toContain('Franco');
   expect(names('ESP-REPUBLIC',1938)).not.toContain('Franco');
   expect(at('ESP-REPUBLIC',1938).flag?.title).toContain('1931');
-  expect(at('ESP-NATIONALIST',1936).flag?.title).toContain('1785');
+  expect(at('ESP-NATIONALIST',1936).flag?.title).toBe('Bandera del bando sublevado (1936-1938).svg');
   expect(at('ESP-NATIONALIST',1938).flag?.title).toContain('1938');
  });
  it('distinguishes collective revolutionary authority, Napoleon, Stalin and rival French authorities',()=>{

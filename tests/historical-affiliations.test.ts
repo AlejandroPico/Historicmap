@@ -51,7 +51,7 @@ describe('dated regional and intercontinental organizations',()=>{
   }
  });
  it('extends acquired coverage to1970 without backdating subsequent institutions',()=>{
-  expect(affiliationsAvailable(1949)).toBe(false);
+  expect(affiliationsAvailable(1919)).toBe(false);expect(affiliationsAvailable(1920)).toBe(true);expect(affiliationsAvailable(1949)).toBe(true);
   expect(affiliationsAvailable(1960)).toBe(true);
   expect(affiliationsAvailable(1970)).toBe(true);
   expect(affiliationGroups('nato',1970)[0].codes).toHaveLength(15);
@@ -128,7 +128,8 @@ describe('dated regional and intercontinental organizations',()=>{
   expect(affiliationFor('CAN','oas',1989)?.category).toBe('other');
   expect(affiliationFor('CAN','oas',1990)?.category).toBe('member');
   expect(affiliationFor('CUB','oas',1970)?.category).toBe('suspended');
-  expect(affiliationFor('ARG','oas',1970)?.startIsCoverageBoundary).toBe(true);
+  expect(affiliationFor('ARG','oas',1970)?.start).toBe('1948-04-30');
+  expect(affiliationFor('ARG','oas',1970)?.note).toContain('13/12/1951');
  });
  it('keeps the two Yemens and Egyptian suspension distinct from later membership',()=>{
   expect(affiliationFor('YAR','arabLeague',1970)?.category).toBe('member');

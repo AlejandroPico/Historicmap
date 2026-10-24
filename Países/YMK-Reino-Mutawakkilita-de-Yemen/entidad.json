@@ -13,8 +13,8 @@
   },
   "flags": [
     {
-      "start": "1960-01-01",
-      "end": "1961-12-31",
+      "start": "1927-12-31",
+      "end": "1949-12-31",
       "media": {
         "file": "media/flag-3bc5d8325794199af3a0.svg",
         "title": "Flag of the Mutawakkilite Kingdom of Yemen.svg",
@@ -30,9 +30,9 @@
         "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Flag_of_the_Mutawakkilite_Kingdom_of_Yemen.svg"
       },
       "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mutawakkilite_Kingdom_of_Yemen.svg",
-      "acquisition": "curated-symbols-0.9",
-      "intervalSource": "https://commons.wikimedia.org/wiki/Data:FlagsData.tab",
-      "note": "Ventana histórica de cobertura, generalmente al cierre anual; sus extremos no se presentan como adopción o derogación del diseño. Descripción y procedencia del archivo conservadas."
+      "acquisition": "curated-symbols-0.11",
+      "intervalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mutawakkilite_Kingdom_of_Yemen.svg",
+      "note": "Ventana documental para la selección al cierre anual, no fecha exacta de adopción o derogación. El símbolo no acredita fronteras, control efectivo ni reconocimiento diplomático. Reino de Yemen, diseño con cinco estrellas; no se retrotrae a su diseño rojo anterior."
     },
     {
       "start": "1950-01-01",
@@ -55,9 +55,86 @@
       "acquisition": "curated-symbols-0.10",
       "intervalSource": "https://commons.wikimedia.org/wiki/Data:FlagsData.tab",
       "note": "Ventana documental de cobertura, generalmente al cierre anual; no afirma días de adopción o derogación. Los años de diseño y la licencia proceden del archivo acreditado."
+    },
+    {
+      "start": "1960-01-01",
+      "end": "1961-12-31",
+      "media": {
+        "file": "media/flag-3bc5d8325794199af3a0.svg",
+        "title": "Flag of the Mutawakkilite Kingdom of Yemen.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mutawakkilite_Kingdom_of_Yemen.svg",
+        "artist": "Urmas (SVG file)",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+        "sha256": "4505bdcaddd1fc07c1abb9436f01672655d5194fae9a16d9be854c9aa40a9e6a",
+        "bytes": 1546,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Flag_of_the_Mutawakkilite_Kingdom_of_Yemen.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mutawakkilite_Kingdom_of_Yemen.svg",
+      "acquisition": "curated-symbols-0.9",
+      "intervalSource": "https://commons.wikimedia.org/wiki/Data:FlagsData.tab",
+      "note": "Ventana histórica de cobertura, generalmente al cierre anual; sus extremos no se presentan como adopción o derogación del diseño. Descripción y procedencia del archivo conservadas."
     }
   ],
   "leaders": [
+    {
+      "person": "Q163945",
+      "name": "Yahya Muhammad Hamid ed-Din",
+      "role": "Imán del Yemen · posteriormente rey",
+      "start": "1920-01-01",
+      "end": "1948-02-17",
+      "source": "https://history.state.gov/historicaldocuments/frus1950v05/d755",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1920-regions-0.11",
+      "note": "La fuente diplomática fecha su asesinato17/2/1948. El título regio no se retroproyecta a toda la etapa del imanato.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-fce525d3d7b42efe5605.png",
+        "title": "Imam yahya cropped.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Imam_yahya_cropped.png",
+        "artist": "Aamen Rihani",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Imam_yahya_cropped.png#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://commons.wikimedia.org/wiki/File:Yahya_Muhammad_Hamid_ed-Din.jpg",
+        "sha256": "a373ba10936bfad25b0f6b46fd1762730e57d362185e2d03051ce792362860cc",
+        "bytes": 267919,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Imam_yahya_cropped.png/330px-Imam_yahya_cropped.png"
+      }
+    },
+    {
+      "person": "Q400961",
+      "name": "Ahmad bin Yahya",
+      "role": "Imán y rey del Yemen",
+      "start": "1948-04-01",
+      "end": "1949-12-31",
+      "source": "https://history.state.gov/historicaldocuments/frus1950v05/d755",
+      "precision": 10,
+      "curated": true,
+      "acquisition": "curated-1920-regions-0.11",
+      "note": "La fuente confirma sucesión tras una breve guerra civil, pero no fija aquí el día de acceso. Abril es comienzo conservador de cobertura, no investidura; el gobierno revolucionario intermedio de1948 queda pendiente de ficha propia.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-5cfa16b58b2807bde279.jpg",
+        "title": "YemenAhmad.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:YemenAhmad.jpg",
+        "artist": "نجيب",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:YemenAhmad.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://www.royalark.net/Yemen/yemen5.htm",
+        "sha256": "52097fa95d48a6a831c8f4057f07818f79f06d1c63e46d3fe43cc3dca8916a1f",
+        "bytes": 127963,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/YemenAhmad.jpg"
+      }
+    },
     {
       "person": "Q400961",
       "name": "Ahmad bin Yahya",

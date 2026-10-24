@@ -1,6 +1,7 @@
 import catalogue from '../public/data/territorial-administrations.json';
 export type Administration={id:string;names:string[];codes:string[];admin:string;localKey:string;start:string;end:string|null;label:string;note:string;source:string;headOfStateOnly:boolean};
 export function administrationFor(p:Record<string,any>,year:number):Administration|undefined{
+ if(p.collectiveAdministration)return; // A grouped occupation is not a single national administrator.
  if(year<Number(catalogue.coverageStart.slice(0,4))||year>Number(catalogue.referenceDate.slice(0,4)))return;
  const name=String(p.originalName??p.country_name??p.name??''),code=String(p.entityCode||p.code||'');
  const record=catalogue.records.find(r=>(r.names.includes(name)||(r.codes as string[]).includes(code))&&r.start<=`${year}-12-31`&&(!r.end||r.end>`${year}-01-01`));

@@ -1589,6 +1589,158 @@
       "note": "Transición entre entidades, sin transferir automáticamente estadísticas ni todos los cargos de una a otra.",
       "source": "https://avalon.law.yale.edu/20th_century/inch036.asp",
       "sourceLabel": "Fuente de la transición"
+    },
+    {
+      "id": "extension-1920-republic-to-prc",
+      "from": {
+        "key": "ROC",
+        "name": "República de China",
+        "year": 1948
+      },
+      "to": {
+        "key": "CHN",
+        "name": "República Popular China",
+        "year": 1949
+      },
+      "date": "1949-10-01",
+      "type": "transition",
+      "label": "Proclamación de la República Popular",
+      "note": "Autoridades rivales: no implica extinción de la República de China, cesión jurídica de todo el territorio ni transferencia de representación ONU en1949.",
+      "source": "https://history.state.gov/milestones/1945-1952/chinese-rev",
+      "sourceLabel": "Documento de la transición"
+    },
+    {
+      "id": "extension-1920-roc-taiwan",
+      "from": {
+        "key": "ROC",
+        "name": "República de China en el continente",
+        "year": 1948
+      },
+      "to": {
+        "key": "TWN",
+        "name": "República de China en Taiwán",
+        "year": 1949
+      },
+      "date": "1949-12-31",
+      "type": "transition",
+      "label": "Repliegue de las autoridades de la República de China",
+      "note": "Observación al cierre de1949, no día de traslado de todas las oficinas; continuidad de autoridades, no creación de un miembro independiente nuevo de la ONU.",
+      "source": "https://history.state.gov/milestones/1945-1952/chinese-rev",
+      "sourceLabel": "Documento de la transición"
+    },
+    {
+      "id": "extension-1920-germany-east",
+      "from": {
+        "key": "DEU",
+        "name": "Alemania bajo ocupación",
+        "year": 1948
+      },
+      "to": {
+        "key": "DDR",
+        "name": "República Democrática Alemana",
+        "year": 1949
+      },
+      "date": "1949-10-07",
+      "type": "transition",
+      "label": "Constitución de la RDA",
+      "note": "La fecha del evento es distinta del año de navegación; no se atribuyen a la RDA todos los territorios o autoridades de Alemania anterior.",
+      "source": "https://www.bundestag.de/en/parliament/history/parliamentarism/gdr",
+      "sourceLabel": "Documento de la transición"
+    },
+    {
+      "id": "extension-1920-independence-PAK",
+      "from": {
+        "key": "GBR",
+        "name": "Reino Unido",
+        "year": 1946
+      },
+      "to": {
+        "key": "PAK",
+        "name": "Pakistán",
+        "year": 1947
+      },
+      "date": "1947-08-15",
+      "type": "transition",
+      "label": "Independencia de Pakistán",
+      "note": "Enlace al administrador colonial: no supone que el territorio fuese parte metropolitana ni transfiere estadísticas o autoridades sucesoras al pasado.",
+      "source": "https://www.legislation.gov.uk/ukpga/Geo6/10-11/30",
+      "sourceLabel": "Documento de la transición"
+    },
+    {
+      "id": "extension-1920-independence-MMR",
+      "from": {
+        "key": "GBR",
+        "name": "Reino Unido",
+        "year": 1947
+      },
+      "to": {
+        "key": "MMR",
+        "name": "Unión de Birmania",
+        "year": 1948
+      },
+      "date": "1948-01-04",
+      "type": "transition",
+      "label": "Independencia de Unión de Birmania",
+      "note": "Enlace al administrador colonial: no supone que el territorio fuese parte metropolitana ni transfiere estadísticas o autoridades sucesoras al pasado.",
+      "source": "https://history.state.gov/countries/burma",
+      "sourceLabel": "Documento de la transición"
+    },
+    {
+      "id": "extension-1920-independence-LKA",
+      "from": {
+        "key": "GBR",
+        "name": "Reino Unido",
+        "year": 1947
+      },
+      "to": {
+        "key": "LKA",
+        "name": "Ceilán",
+        "year": 1948
+      },
+      "date": "1948-02-04",
+      "type": "transition",
+      "label": "Independencia de Ceilán",
+      "note": "Enlace al administrador colonial: no supone que el territorio fuese parte metropolitana ni transfiere estadísticas o autoridades sucesoras al pasado.",
+      "source": "https://digitallibrary.un.org/record/3940161/files/Survey1948.pdf",
+      "sourceLabel": "Documento de la transición"
+    },
+    {
+      "id": "extension-1920-philippine-independence",
+      "from": {
+        "key": "USA",
+        "name": "Estados Unidos",
+        "year": 1945
+      },
+      "to": {
+        "key": "PHL",
+        "name": "Filipinas",
+        "year": 1946
+      },
+      "date": "1946-07-04",
+      "type": "transition",
+      "label": "Independencia de Filipinas",
+      "note": "Independencia posterior a su condición de miembro original de la ONU; no fecha de adhesión a esa organización.",
+      "source": "https://digitallibrary.un.org/record/3940161/files/Survey1948.pdf",
+      "sourceLabel": "Documento de la transición"
+    },
+    {
+      "id": "extension-1920-indonesian-sovereignty",
+      "from": {
+        "key": "NLD",
+        "name": "Países Bajos",
+        "year": 1948
+      },
+      "to": {
+        "key": "IDN",
+        "name": "Estados Unidos de Indonesia",
+        "year": 1949
+      },
+      "date": "1949-12-27",
+      "type": "transition",
+      "label": "Transferencia neerlandesa de soberanía",
+      "note": "La proclamación indonesia fue en1945. La transferencia de1949 deja fuera Nueva Guinea occidental y no unifica por sí sola todas las fases administrativas.",
+      "source": "https://history.state.gov/historicaldocuments/frus1949v07p1/d413",
+      "sourceLabel": "Documento de la transición"
     }
   ],
   "records": [
@@ -2391,6 +2543,288 @@
       "text": "Durante1959 cambian las presidencias y la jefatura del Gobierno. La caída de Batista no hace de Castro presidente de la República; las fechas de cada cargo deben mantenerse separadas.",
       "source": "https://1997-2001.state.gov/regions/wha/cuba_chronology.html",
       "sourceLabel": "Fuente institucional del marco político"
+    },
+    {
+      "id": "extension-1920-soviet-federation",
+      "keys": [
+        "USSR"
+      ],
+      "section": "institutions",
+      "title": "Unión soviética y repúblicas constituyentes",
+      "start": "1922-12-31",
+      "end": "1950-01-01",
+      "text": "La URSS se forma en1922. El inicio es una observación al cierre de ese año, no la fecha jurídica diaria de constitución. Rusia no equivale al conjunto de la federación; Ucrania y Bielorrusia tienen membresía propia en la ONU desde1945 sin dejar por ello de ser repúblicas soviéticas. Fin1950: límite de esta revisión.",
+      "source": "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-weimar",
+      "keys": [
+        "DEU"
+      ],
+      "section": "institutions",
+      "title": "Weimar, presidencia y cancillería",
+      "start": "1920-01-01",
+      "end": "1933-01-30",
+      "text": "Inicio1920: límite de revisión de una república fundada antes. El presidente del Reich y el canciller son jefaturas distintas; desde1930 los gabinetes presidenciales debilitan el funcionamiento parlamentario.",
+      "source": "https://www.bundestag.de/en/parliament/history/parliamentarism/weimar",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-german-dictatorship",
+      "keys": [
+        "DEU"
+      ],
+      "section": "institutions",
+      "title": "Cancillería y dictadura nazi",
+      "start": "1933-01-30",
+      "end": "1945-05-09",
+      "text": "El nombramiento de Hitler precede al desmantelamiento democrático de1933. La concentración posterior de funciones no convierte la presidencia de Hindenburg en cancillería ni anticipa la ocupación de1945.",
+      "source": "https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/machtuebergabe-972588",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-german-occupation",
+      "keys": [
+        "DEU",
+        "DDR"
+      ],
+      "section": "territory",
+      "title": "Zonas aliadas y derechos de ocupación",
+      "start": "1945-05-08",
+      "end": "1950-01-01",
+      "text": "La ocupación se organiza en cuatro zonas y Berlín en sectores. Los Estados creados en1949 no obtienen inmediatamente soberanía plena. Este inventario contextual no acredita que los cuatro polígonos de las zonas o sectores estén disponibles.",
+      "source": "https://history.state.gov/milestones/1945-1952/berlin-airlift",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-italy-kingdom",
+      "keys": [
+        "ITA"
+      ],
+      "section": "institutions",
+      "title": "Monarquía italiana y Gobierno fascista",
+      "start": "1922-10-31",
+      "end": "1943-07-26",
+      "text": "Durante el Gobierno de Mussolini continúa la monarquía de Víctor Manuel III. Rey y jefe del Gobierno son autoridades diferentes; la destitución de julio1943 no termina por sí sola la monarquía.",
+      "source": "https://www.senato.it/legislature/regno/italia/30/resoconti-elenco-cronologico",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-italy-republic",
+      "keys": [
+        "ITA"
+      ],
+      "section": "institutions",
+      "title": "Transición republicana y Constitución",
+      "start": "1946-06-02",
+      "end": "1950-01-01",
+      "text": "El voto de junio1946 precede a la proclamación de resultados y al jefe provisional del Estado. La Constitución entra en vigor el1/1/1948. La ventana1950 sólo limita esta revisión.",
+      "source": "https://www.senato.it/CESUS/2026/2giugno/",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-france-rival",
+      "keys": [
+        "FRA",
+        "FRA-VICHY",
+        "FRA-FREE"
+      ],
+      "section": "institutions",
+      "title": "Vichy y autoridades de la Francia Libre",
+      "start": "1940-07-10",
+      "end": "1944-08-26",
+      "text": "El régimen de Vichy y las autoridades de la Francia Libre mantienen pretensiones de legitimidad rivales. Las claves separadas conservan mandatos propios; no se atribuye a Pétain la presidencia republicana de posguerra.",
+      "source": "https://www.assemblee-nationale.fr/histoire/7da.asp",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-france-fourth",
+      "keys": [
+        "FRA"
+      ],
+      "section": "institutions",
+      "title": "De Gobierno provisional a Cuarta República",
+      "start": "1944-08-25",
+      "end": "1950-01-01",
+      "text": "La Liberación y el Gobierno provisional preceden a la Constitución de1946 y a la elección presidencial de1947. Fin1950: corte de cobertura, no final del régimen.",
+      "source": "https://www.elysee.fr/la-presidence/la-constitution-du-27-octobre-1946",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-spain-republic",
+      "keys": [
+        "ESP",
+        "ESP-REPUBLIC"
+      ],
+      "section": "institutions",
+      "title": "Constitución republicana de1931",
+      "start": "1931-12-09",
+      "end": "1939-04-02",
+      "text": "La Constitución distingue presidencia de la República y presidencia del Gobierno. Durante la guerra su autoridad territorial está disputada. La derrota militar no elimina la existencia posterior de instituciones republicanas en el exilio.",
+      "source": "https://www.boe.es/gazeta/dias/1931/12/09/pdfs/D00001-00014.pdf",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-spain-control",
+      "keys": [
+        "ESP",
+        "ESP-REPUBLIC",
+        "ESP-NATIONALIST"
+      ],
+      "section": "territory",
+      "title": "Guerra Civil: resolución y fechas de los frentes",
+      "start": "1936-07-17",
+      "end": "1939-04-02",
+      "text": "El atlas conserva las particiones documentadas existentes;1937 corresponde a octubre, no al cierre anual. Este contexto no añade frentes, enclaves ni control colonial que las fuentes geométricas no proporcionan.",
+      "source": "https://www.cultura.gob.es/cultura/mc/incautaciones-guerra-civil/guerra-civil.html",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-japan-parliament",
+      "keys": [
+        "JPN"
+      ],
+      "section": "institutions",
+      "title": "Emperador simbólico y gabinete parlamentario",
+      "start": "1947-05-03",
+      "end": "1950-01-01",
+      "text": "La Constitución establece soberanía popular y un emperador sin poderes de gobierno. La Dieta designa al primer ministro. El mando aliado conserva autoridad de ocupación; la ventana1950 no lo extingue.",
+      "source": "https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/english/constitution_e.htm",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-china-representation",
+      "keys": [
+        "ROC",
+        "CHN",
+        "TWN",
+        "CHN-COMMUNIST"
+      ],
+      "section": "relations",
+      "title": "China: autoridades rivales y representación internacional",
+      "start": "1945-10-24",
+      "end": "1950-01-01",
+      "text": "La República de China es miembro original de la ONU. Proclamar la República Popular en1949 no le transfiere entonces el asiento: la representación cambia con la resolución2758 de1971. La clave cartográfica no resuelve por sí sola legitimidad, control o reconocimiento.",
+      "source": "https://history.state.gov/milestones/1945-1952/chinese-rev",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-india-dominion",
+      "keys": [
+        "IND",
+        "PAK"
+      ],
+      "section": "institutions",
+      "title": "Dominios de India y Pakistán",
+      "start": "1947-08-15",
+      "end": "1950-01-01",
+      "text": "La independencia establece dos dominios. La India continúa la membresía original de1945; Pakistán ingresa el30/9/1947. Los jefes de Estado, gobernadores generales y primeros ministros se conservan como funciones distintas.",
+      "source": "https://www.legislation.gov.uk/ukpga/Geo6/10-11/30",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-mandates",
+      "keys": [
+        "PSX",
+        "JOR",
+        "IRQ",
+        "SYR",
+        "LBN",
+        "NAM",
+        "TAN"
+      ],
+      "section": "territory",
+      "title": "Mandatos: administración y soberanía",
+      "start": "1920-01-01",
+      "end": "1947-01-01",
+      "text": "Inicio1920: cobertura temática, no fecha uniforme de creación de los mandatos. Cada territorio requiere su instrumento y administrador. Un mandato de la Sociedad y una tutela de la ONU no son categorías intercambiables; no todos los mandatos pasaron al régimen de tutela.",
+      "source": "https://www.icj-cij.org/case/10",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-palestine-status",
+      "keys": [
+        "PSX",
+        "ISR",
+        "JOR"
+      ],
+      "section": "territory",
+      "title": "Palestina: mandato, partición propuesta y armisticios",
+      "start": "1923-09-29",
+      "end": "1950-01-01",
+      "text": "El mandato es administración, sin transferencia de soberanía al mandatario. La resolución181 recomienda una organización territorial; las líneas de1949 son de armisticio. Las referencias a entidades actuales no las convierten en Estados existentes durante todo el mandato.",
+      "source": "https://www.un.org/unispal/document/auto-insert-179951/",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-depression-economy",
+      "keys": [
+        "USA",
+        "DEU",
+        "GBR",
+        "FRA",
+        "JPN"
+      ],
+      "section": "economy",
+      "title": "Gran Depresión sin series inventadas",
+      "start": "1929-10-01",
+      "end": "1940-01-01",
+      "text": "Crisis financiera y contracción internacional, con políticas y recuperaciones desiguales. El registro es cualitativo: no asigna PIB, desempleo o población sin fuente estadística propia. Octubre1929 y el fin1939 delimitan esta fase editorial; no son límites universales del fenómeno.",
+      "source": "https://history.state.gov/milestones/1921-1936/great-depression",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-oas-charter",
+      "keys": [
+        "ARG",
+        "BOL",
+        "BRA",
+        "CHL",
+        "COL",
+        "CRI",
+        "CUB",
+        "DOM",
+        "ECU",
+        "SLV",
+        "GTM",
+        "HTI",
+        "HND",
+        "MEX",
+        "NIC",
+        "PAN",
+        "PRY",
+        "PER",
+        "USA",
+        "URY",
+        "VEN"
+      ],
+      "section": "relations",
+      "title": "OEA: firma constitutiva y vigencia de la Carta",
+      "start": "1948-04-30",
+      "end": "1952-01-01",
+      "text": "La OEA se constituye mediante la firma de Bogotá de30/4/1948. La Carta entra en vigor el13/12/1951 y las ratificaciones estatales tienen fechas diferentes. El intervalo de fundador del catálogo no afirma ratificación individual en1948.",
+      "source": "https://cidh.oas.org/Basicos/English/Basic22b.CharterOAS_ratif.htm",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
+    },
+    {
+      "id": "extension-1920-arab-pact",
+      "keys": [
+        "EGY",
+        "IRQ",
+        "LBN",
+        "JOR",
+        "SAU",
+        "SYR",
+        "YMK"
+      ],
+      "section": "relations",
+      "title": "Liga Árabe: firma y ratificaciones",
+      "start": "1945-03-22",
+      "end": "1947-01-01",
+      "text": "El pacto se firma el22/3/1945 y entra en vigor el10/5. El registro depositario distingue efectos para Líbano1/6, Siria4/6 y Yemen24/2/1946; no se proyecta el Yemen unificado ni el Yemen meridional a los fundadores.",
+      "source": "https://treaties.un.org/pages/showDetails.aspx?objid=080000028015a44b",
+      "sourceLabel": "Archivo o institución responsable · investigación1920–1949"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.10.0** · 24 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.11.0** · 24 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
@@ -27,9 +27,9 @@ Abrir la dirección local que indique Vite. Para generar la aplicación estátic
 - Navegación entre 4.540 Ma y el año del dispositivo, con escala adaptativa no uniforme y años introducidos por el usuario.
 - Cronología anual desde 1789: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
 - Control territorial opaco por potencia; colores específicos de regímenes, clientes y bandos. Primera y Segunda Guerra Mundial, Guerra Civil española 1936–1939 y control comunista chino, además de Sinaí, Golán y Crimea. Fuentes anuales y frente de octubre de 1937 identificados con su precisión.
-- Banderas históricas, autoridades y retratos en las fichas. Catálogo ampliado de mandatos desde 1950, con Estados predecesores y cobertura mundial desigual; cada imagen conserva su licencia y autoría. [Alcance y fuentes de los años cincuenta](docs/RESEARCH-1950.md).
+- Banderas históricas, autoridades y retratos en las fichas. Catálogo ampliado de mandatos desde1920, con Estados predecesores, administraciones coloniales y cobertura mundial desigual; cada imagen conserva su licencia y autoría. [Alcance y fuentes1920–1949](docs/RESEARCH-1920.md) y [auditoría nominal de carencias](docs/REVIEW-1920-1949.json).
 - Base contemporánea desde 2020 y 26 instantáneas originales conservadas para historia anterior/geología y trazabilidad.
-- Desde 1950, contornos de referencia identificados para pequeños Estados omitidos por CShapes y Sáhara separado de Marruecos; Crimea permanece en la base ucraniana y Kuwait ocupado en 1990 se distingue de su soberanía.
+- Desde1920, contornos de referencia identificados para pequeños Estados omitidos por CShapes —el Vaticano sólo desde1929— y Sáhara separado de Marruecos; Crimea permanece en la base ucraniana y Kuwait ocupado en1990 se distingue de su soberanía. Danzig conserva su contorno de fuente en1938, corrigiendo un final de vigencia un año anticipado.
 - Fichas persistentes a la izquierda: Autoridades, Territorio, Instituciones, Sociedad, Economía, Relaciones, Defensa, Historia, Datos, Contexto, Conflictos y Comparar. Al cambiar de año conservan entidad, apartado y lectura; si la entidad desaparece, se explica sin sustituirla por un sucesor. Fuentes, capas y búsqueda también se conservan al navegar por fechas.
 - Cronología del país con filtros, fuentes y fechas navegables; registros posteriores al año consultado sólo con activación explícita. Relaciones dirigidas entre entidades históricas, con fecha del hecho separada del año de navegación.
 - Comparación entre dos fechas, con autoridades, símbolos y observaciones; botones para alternar los mapas. Comparación de hasta cuatro entidades fijadas en el año del mapa, tabla desplazable y gráficos de evolución accesibles.

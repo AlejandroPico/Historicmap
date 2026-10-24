@@ -1,0 +1,76 @@
+{
+  "key": "RSI",
+  "name": "República Social Italiana",
+  "qid": "Q153660",
+  "aliases": [
+    "República Social Italiana"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "RSI"
+  },
+  "flags": [
+    {
+      "start": "1943-12-31",
+      "end": "1945-04-25",
+      "media": {
+        "file": "media/flag-c0298ae62ebdc0a2700e.svg",
+        "title": "War flag of the Italian Social Republic.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:War_flag_of_the_Italian_Social_Republic.svg",
+        "artist": "F l a n k e r",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "www.axishistory.com\n\n  green\nPantone textile 17-6153TC (Fern Green);\n  white\nPantone tessile 11-0601 TCX (Bright White);\n  red\nPantone tessile 18-1662TC (Scarlet Red).\nUsed colors:\n     green\nrendered as RGB 000 140 069Pantone 17-6153\n\n     white\nrendered as RGB 244 245 240Pantone 11-0601\n\n     red\nrendered as RGB 205 033 042Pantone 18-1662",
+        "sha256": "8b4d4cd1c34e778f25a928d57b5bd5d2f0e35592f2ec6650c84d0c2a8430d150",
+        "bytes": 43727,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/War_flag_of_the_Italian_Social_Republic.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:War_flag_of_the_Italian_Social_Republic.svg",
+      "acquisition": "curated-symbols-0.11",
+      "intervalSource": "https://commons.wikimedia.org/wiki/File:War_flag_of_the_Italian_Social_Republic.svg",
+      "note": "Ventana documental para la selección al cierre anual, no fecha exacta de adopción o derogación. El símbolo no acredita fronteras, control efectivo ni reconocimiento diplomático. Bandera DE GUERRA de la República Social Italiana, identificada como tal; no bandera civil ni prueba de geometría independiente."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q23559",
+      "name": "Benito Mussolini",
+      "role": "Jefe de la República Social Italiana · régimen dependiente de Alemania",
+      "start": "1943-12-31",
+      "end": "1944-12-31",
+      "source": "https://dgagaeta.cultura.gov.it/public/uploads/documents/Fonti/54e34c352130a.pdf",
+      "precision": 9,
+      "curated": true,
+      "acquisition": "curated-1920-regions-0.11",
+      "note": "Ventana interior de la entidad1943–1945. La creación institucional se distingue del frente militar: no hay un contorno propio de laRSI validado en esta entrega.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-00adaa90f78f6628fafe.jpg",
+        "title": "Mussolini mezzobusto.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mussolini_mezzobusto.jpg",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "",
+        "sha256": "6e9e31242ab3917662dbb82470df9af37c64097fe360e33660d75b44f63dfacd",
+        "bytes": 35430,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Mussolini_mezzobusto.jpg/330px-Mussolini_mezzobusto.jpg",
+        "attribution": "",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
