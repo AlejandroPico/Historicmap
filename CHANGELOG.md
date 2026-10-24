@@ -1,5 +1,10 @@
 # Historial de versiones
 
+## 0.11.1 · 2026-10-24
+
+- Corregidas tres expectativas de navegador que quedaron desactualizadas tras ampliar la documentación a1920: organizaciones disponibles en1947, administración aliada colectiva de1946 y varios titulares durante1939.
+- Las pruebas verifican ahora ONU/OTAN con su ámbito temporal, desactivación antes de1920, órgano de ocupación sin bandera nacional ni retrato personal inventados, y presencia de Franco/Azaña con el fin del mandato republicano. No se eliminan datos ni se omiten recorridos para superar Quality.
+- Ayuda de la capa de organizaciones corregida de1960 a1920. Conservadas las guardas de renderizado, datos, fronteras y configuración de publicación; subida sin espera del despliegue.
 ## 0.11.0 · 2026-10-24
 
 - Ampliación mundial de autoridades a1920–1949 con adquisición incremental, retratos acreditados y curaciones documentales de sucesiones, monarquías, gobiernos en el exilio y administraciones de ocupación. Rusia soviética, República de China, monarquía yugoslava, Danzig, Tíbet y República Social Italiana tienen identidades propias; no heredan estadísticas de sucesores.

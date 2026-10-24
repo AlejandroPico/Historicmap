@@ -1,5 +1,5 @@
 import {test,expect,type Page} from '@playwright/test';
-async function year(page:Page,y:number){await page.goto(`/#year=${y}&view=mercator`);await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(y),{timeout:45000});}
+async function year(page:Page,y:number){await page.goto(`/#year=${y}&view=mercator`);await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(y),{timeout:45000});if(y>=1789)await expect(page.locator('#map')).toHaveAttribute('data-rendered',y>=2020?'countries.geojson':`history-${y}`,{timeout:45000});}
 async function search(page:Page,name:string){await page.locator('#search-button').click();await page.locator('#search-input').fill(name);await page.locator('#search-results button').first().click();}
 
 test('an actual map click in Brazil after a Spanish faction selects Brazil, not Spain',async({page})=>{
@@ -44,7 +44,7 @@ test('appearance cycles without a menu and automatic mode uses the local clock',
  await expect(page.locator('#modal')).toBeHidden();
 });
 
-test('compact sources, relief and 2026 memberships preserve space and temporal scope',async({page})=>{
+test('compact sources, relief and dated memberships preserve space and temporal scope',async({page})=>{
  await year(page,2026);await expect(page.locator('#chapters-button,.story-panel,#time-scale')).toHaveCount(0);
  await expect(page.locator('.maplibregl-ctrl-attrib')).not.toHaveClass(/maplibregl-compact-show/);
  await page.locator('#sources-button').click();await expect(page.locator('#sources-panel')).toBeVisible();await expect(page.locator('#modal')).toBeHidden();
@@ -56,8 +56,12 @@ test('compact sources, relief and 2026 memberships preserve space and temporal s
  await page.locator('#affiliation-select').selectOption('nato');await expect(page.locator('#map-legend')).toContainText('OTAN');
  await page.locator('#theme-select').selectOption('gdp');await expect(page.locator('#map-legend')).toContainText('PIB total');await expect(page.locator('#map-legend')).not.toContainText('OTAN');
  await page.locator('#close-layers').click();const legend=(await page.locator('#map-legend').boundingBox())!;expect(legend.x).toBeGreaterThan(900);expect(legend.y+legend.height).toBeLessThan(784);
- await year(page,1947);await page.locator('#layers-button').click();await expect(page.locator('#affiliation-select')).toBeDisabled();await expect(page.locator('#affiliation-select')).toHaveValue('');await expect(page.locator('#physical-layer')).toBeEnabled();
+ await year(page,1947);await page.locator('#layers-button').click();await expect(page.locator('#affiliation-select')).toBeEnabled();await expect(page.locator('#affiliation-select')).toHaveValue('');await expect(page.locator('#physical-layer')).toBeEnabled();
+ await expect(page.locator('#affiliation-help')).toContainText('1920');
+ await page.locator('#affiliation-select').selectOption('un');await expect(page.locator('#map-legend')).toContainText('57 miembros');await expect(page.locator('#map-legend')).toContainText('1947');
+ await page.locator('#affiliation-select').selectOption('nato');await expect(page.locator('#map-legend')).toContainText('no está activa');
  await page.locator('#physical-layer').click();await expect(page.locator('#physical-layer')).toHaveAttribute('aria-pressed','true');await page.locator('#physical-layer').click();await page.locator('#close-layers').click();
+ await year(page,1919);await page.locator('#layers-button').click();await expect(page.locator('#affiliation-select')).toBeDisabled();await expect(page.locator('#affiliation-select')).toHaveValue('');await page.locator('#close-layers').click();
  await year(page,-300000000);await page.locator('#layers-button').click();await expect(page.locator('#physical-layer')).toBeDisabled();
  await page.setViewportSize({width:390,height:844});await expect(page.locator('.maplibregl-ctrl-scale')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
 });

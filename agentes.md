@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **24 de octubre de 2026**. Versión del producto: **0.10.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **24 de octubre de 2026**. Versión del producto: **0.11.1**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado nuevo de0.9 en la sección18 y corrección0.9.1 en la19; las descripciones antiguas del interruptor de control quedan sustituidas por esa decisión posterior del propietario.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de0.11 en la sección21 y corrección0.11.1 en la22; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente 0.10 (23/10/2026):** ampliar a1950, organizar un catálogo por entidad en `Países/` y fijar cabecera/pestañas de la ficha con desplazamiento interior. La nueva instrucción del propietario sustituye el cierre operativo anterior: ejecutar comprobaciones locales, subir y terminar **sin esperar ni sondear Actions/Pages**. El propietario supervisará el despliegue, notificará errores y solicitará una revisión pública posterior. Distinguir siempre «subido» de «publicado». Registrar avances y pendientes en tareas.md.
+**Encargo vigente 0.11.1 (24/10/2026):** corregir los tres fallos de navegador comunicados por el propietario tras0.11.0, conservar los datos históricos válidos y subir la corrección sin esperar ni consultar Actions/Pages. El propietario notificará despliegue o errores; distinguir subida de publicación comprobada. Detalle en sección22 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -533,3 +533,14 @@ Catálogo local: 290 claves y 9.485 mandatos; 4.863 medios (478 SVG y 4.385 foto
 Auditoría: 5.294 entidades/año de fuente y suplementos, más 70 controles/año activos. Cero huecos de **resolución de alguna autoridad**; quedan 122 personas/órganos sin retrato (118 personas y cuatro órganos) y 165 casos anuales sin símbolo, incluidos cuatro cierres de ocupación alemana sin bandera nacional. No es un censo exhaustivo de cargos, suplencias, administradores locales o frentes. Listas nominales en REVIEW-1920-1949.json, fuentes en RESEARCH-1920 y los tres documentos de autoridades. Mantener pendientes de regímenes breves, fechas diarias, regencias, símbolos, fronteras detalladas y CSV original ausente. Cifras de pruebas, compilación, navegador y entrega efectiva en DELIVERY-0.11.0 y tareas.md.
 
 La agrupación occidental alemana de CShapes1945–1948 no se interpreta como administración exclusiva de Estados Unidos: `collectiveAdministration` conserva el propietario original en sourceOwnerName y documenta las tres potencias; se excluye el fallback a un único Gobierno/bandera. Los cargos de ocupación conjuntos se mantienen en la identidad alemana; no se crea una bandera nacional común.
+
+
+## 22. Corrección0.11.1 · coherencia de pruebas y cobertura
+
+El registro de Quality aportado por el propietario para0.11.0 muestra27 recorridos correctos y tres fallidos. Las tres aserciones suponían la cobertura anterior: selector desactivado en1947, ausencia de cualquier autoridad alemana en1946 y una única persona en España1939. El contrato actual exige organizaciones desde1920, administraciones colectivas documentadas y todos los mandatos que intersectan el año. No alterar datos válidos para recuperar esos supuestos.
+
+Los recorridos comprueban ONU1947 con57miembros, OTAN todavía inactiva y selector desactivado en1919; autoridad aliada colectiva sin bandera alemana ni retrato personal ficticio o atribución exclusiva aTruman; Franco yAzaña en1939 con fin del mandato deAzaña27/2/1939. Los selectores personales son explícitos y no presuponen una única jefatura. Se espera renderizado además de descarga en los dos archivos de pruebas afectados. No se omiten pruebas, no se activan reintentos ni se modifican los flujos deQuality/Pages.
+
+La ayuda visible de organizaciones todavía indicaba1960 y se corrige a1920. Los datos históricos, sus manifiestos, geometrías y medios no cambian. Versión0.11.1, resultados efectivos y continuidad en DELIVERY-0.11.1 y tareas.md. Comprobar localmente, subir y terminar sin esperar ni sondear el despliegue; revisión pública sólo tras aviso del propietario.
+
+Validación local de0.11.1:129 pruebas/28 archivos, tipos y compilación correctos; los tres recorridos afectados pasan en2,6min, incluida la parte móvil. Los otros27 recorridos constan como correctos únicamente en el registro de0.11.0 que aportó el propietario; no se han repetido localmente. `public/`, `Países/` y `.github/` idénticos respecto a8990dcc. Entrega preparada a main; el flujo termina al confirmar el envío, con revisión pública pendiente del aviso del propietario.

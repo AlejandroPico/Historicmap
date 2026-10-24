@@ -1,5 +1,5 @@
 import {test,expect,type Page} from '@playwright/test';
-async function date(page:Page,year:number){await page.goto(`/#year=${year}&view=mercator`);await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(year),{timeout:45000});}
+async function date(page:Page,year:number){await page.goto(`/#year=${year}&view=mercator`);await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(year),{timeout:45000});await expect(page.locator('#map')).toHaveAttribute('data-rendered',year>=2020?'countries.geojson':`history-${year}`,{timeout:45000});}
 async function search(page:Page,name:string){await page.locator('#search-button').click();await page.locator('#search-input').fill(name);await page.locator('#search-results button').first().click();}
 async function imagesLoaded(page:Page){await expect.poll(()=>page.locator('#selection img').evaluateAll(nodes=>nodes.every(n=>(n as HTMLImageElement).complete&&(n as HTMLImageElement).naturalWidth>0))).toBe(true);}
 
@@ -16,7 +16,9 @@ test('integrated control, optional hatching, historical flags and leaders follow
  await expect(page.locator('#map-legend .control-legend')).toHaveCount(0);await expect(page.locator('#map-legend')).toContainText('familia de color');
  await page.locator('#occupations-layer').click();await expect(page.locator('#map')).not.toHaveAttribute('data-overlays','0');await expect(page.locator('#map-legend .control-legend')).toBeVisible();await page.locator('#close-layers').click();
  await date(page,1946);await search(page,'zonas de ocupación occidentales');
- await expect(page.locator('#selection-text')).toContainText('Administración militar aliada');await expect(page.locator('.historic-flag')).toHaveCount(0);await expect(page.locator('.leader-name')).toHaveCount(0);
+ await expect(page.locator('#selection-text')).toContainText('Administración militar aliada');await expect(page.locator('.historic-flag')).toHaveCount(0);
+ await expect(page.locator('#pane-authorities .leader-name')).toHaveText(['Potencias aliadas · administraciones de ocupación']);
+ await expect(page.locator('#pane-authorities .leader-portrait')).toHaveCount(0);await expect(page.locator('#pane-authorities')).not.toContainText('Harry S. Truman');
  await date(page,1960);await search(page,'República Democrática Alemana');await expect(page.locator('.historic-flag')).toBeVisible();await imagesLoaded(page);
 });
 
@@ -26,7 +28,7 @@ test('civil-war factions, revolutionary chronology and modern authority cards wo
  await expect(page.locator('#selection-text')).toContainText('octubre de 1937');
  await page.screenshot({path:'test-results/spanish-front-1937.png'});
  await page.locator('#close-selection').click();await search(page,'zona sublevada');await expect(page.locator('.leader-name')).toContainText('Francisco Franco');
- await date(page,1939);await search(page,'victoria franquista');await expect(page.locator('.leader-name')).toContainText('Francisco Franco');await expect(page.locator('.historic-flag')).toBeVisible();
+ await date(page,1939);await search(page,'victoria franquista');await expect(page.locator('.leader-name').filter({hasText:/^Francisco Franco$/})).toBeVisible();await expect(page.locator('.leader-name').filter({hasText:/^Manuel Azaña$/})).toBeVisible();await expect(page.locator('.leader-card').filter({has:page.getByRole('heading',{name:'Manuel Azaña',exact:true})})).toContainText('27/2/1939');await expect(page.locator('.historic-flag')).toBeVisible();
  await date(page,1789);await search(page,'Francia');await expect(page.locator('.leader-name')).toContainText('Luis XVI');
  await date(page,1812);await search(page,'Francia');await expect(page.locator('.leader-name')).toContainText('Napoleón');await imagesLoaded(page);
  await page.screenshot({path:'test-results/france-1812.png'});

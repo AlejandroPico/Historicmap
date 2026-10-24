@@ -1,6 +1,18 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.11.0 · ampliación hasta1920
+## Encargo vigente · 0.11.1 · corrección de pruebas de publicación
+
+El propietario comunica tres fallos de los 30 recorridos de Quality de0.11.0; los otros27 han pasado según el registro aportado. Corregir y subir sin esperar ni consultar Actions/Pages. No retirar datos históricos válidos para satisfacer expectativas antiguas.
+
+- [x] Revisar las tres causas: organizaciones disponibles en1947, autoridad colectiva alemana en1946 y varios mandatos españoles en1939.
+- [x] Actualizar las comprobaciones con condiciones positivas y negativas: ONU1947/OTAN aún inactiva, límite1919, órgano aliado sin bandera/retrato personal ficticios y Franco/Azaña con fecha del mandato.
+- [x] Corregir la ayuda de cobertura de organizaciones a1920; versión0.11.1 y documentación.
+- [x] Ejecutar las comprobaciones locales y los tres recorridos afectados; registrar resultados reales y preparar entrega a main.
+- [ ] Revisar despliegue únicamente cuando el propietario confirme su terminación o aporte otro error.
+
+Estado: corrección preparada desde 8990dcc en codex/fix-011-e2e para entrega a main. 129 pruebas unitarias/28 archivos, tipos y compilación correctos; los tres recorridos afectados pasan en 2,6 minutos. Confirmado que datos, catálogo Países y flujos de CI no cambian. Detalle en docs/DELIVERY-0.11.1.md. Tras confirmar el envío, el único siguiente paso operativo es el aviso del propietario sobre el despliegue; no afirmar que esté publicado por adelantado.
+
+## Registro de la entrega · 0.11.0 · ampliación hasta1920
 
 Petición24/10/2026: ampliar globalmente1920–1949 conservando1950–actualidad, la organización Países y la ficha fija. Mantener el flujo: comprobaciones locales y subida; NO esperar ni consultar el despliegue hasta aviso del propietario.
 
