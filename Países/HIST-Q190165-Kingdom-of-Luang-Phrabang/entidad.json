@@ -1,0 +1,102 @@
+{
+  "key": "HIST-Q190165",
+  "name": "Kingdom of Luang Phrabang",
+  "qid": "Q190165",
+  "aliases": [
+    "Kingdom of Luang Phrabang"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q190165"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q962950",
+      "name": "Oun Kham",
+      "role": "Rey de Luang Prabang · relación tributaria con Siam",
+      "start": "1880-01-01",
+      "end": "1885-12-31",
+      "source": "https://archive.lib.cmu.ac.th/full/T/2011/sudev21111cl_ch2.pdf",
+      "note": "La investigación deChiangMai sitúa al rey en el período anterior al saqueo de1887 y a las intervenciones francesas. Se usa sólo la ventana estable1880–1885: las fuentes discrepan en los años iniciales y la relación entre regencia y reinado posterior. No atribuye independencia exterior plena. Los extremos de cobertura delimitan esta observación o revisión; no representan un nombramiento ni un cese.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-audit-gaps-0.13",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-0661646b6284857a76f7.jpg",
+        "title": "OunKam par H D Saint-Jean 5147.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:OunKam_par_H_D_Saint-Jean_5147.jpg",
+        "artist": "G.Garitan",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "323f3cba93c78158a99bda515350e2435a2009758d80326c22b42988957a2593",
+        "bytes": 43834,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/OunKam_par_H_D_Saint-Jean_5147.jpg/330px-OunKam_par_H_D_Saint-Jean_5147.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10228",
+      "start": 1789,
+      "end": 1790,
+      "name": "Kingdom of Luang Phrabang",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10294",
+      "start": 1791,
+      "end": 1827,
+      "name": "Kingdom of Luang Phrabang",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11171",
+      "start": 1828,
+      "end": 1855,
+      "name": "Kingdom of Luang Phrabang",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11581",
+      "start": 1856,
+      "end": 1872,
+      "name": "Kingdom of Luang Phrabang",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11912",
+      "start": 1873,
+      "end": 1884,
+      "name": "Kingdom of Luang Phrabang",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-12018",
+      "start": 1885,
+      "end": 1885,
+      "name": "Kingdom of Luang Phrabang",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,94 @@
+{
+  "key": "HIST-Q1658411",
+  "name": "Kingdom of Sarawak",
+  "qid": "Q1658411",
+  "aliases": [
+    "Kingdom of Sarawak"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1658411"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q1065104",
+      "name": "Charles Brooke",
+      "role": "Rajá de Sarawak",
+      "start": "1880-01-01",
+      "end": "1885-12-31",
+      "source": "https://museum.sarawak.gov.my/web/subpage/webpage_view/290",
+      "note": "El Museo de Sarawak acredita el Gobierno1868–1917. Ventana de observación1880–1885; no significa que abandonara el cargo en1885 ni que todo el contorno posterior ya estuviese incorporado. Las ampliaciones de Baram y Limbang tienen cronologías propias. Los extremos de cobertura delimitan esta observación o revisión; no representan un nombramiento ni un cese.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-audit-gaps-0.13",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-b53212487c716c168c53.jpg",
+        "title": "Charles Brooke.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Charles_Brooke.jpg",
+        "artist": "Unknown authorUnknown author; probably Alexander Bassano (10 May 1829 – 21 October 1913",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Brooke.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://ghosteater.com/images/charlesbrooke.jpg",
+        "sha256": "5966a6d7761ed5f6be8f651a3d827c41b84e040d6de4c8491ac2e7512a5509e3",
+        "bytes": 15543,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Charles_Brooke.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11373",
+      "start": 1842,
+      "end": 1858,
+      "name": "Kingdom of Sarawak",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11641",
+      "start": 1859,
+      "end": 1867,
+      "name": "Kingdom of Sarawak",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11817",
+      "start": 1868,
+      "end": 1869,
+      "name": "Kingdom of Sarawak",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11864",
+      "start": 1870,
+      "end": 1884,
+      "name": "Kingdom of Sarawak",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-12042",
+      "start": 1885,
+      "end": 1885,
+      "name": "Kingdom of Sarawak",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

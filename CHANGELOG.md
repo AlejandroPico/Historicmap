@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.13.0 · 25/10/2026
+
+- Ampliación documental1880–1899 con autoridades regionales, símbolos, dependencias, contexto y transiciones. Identidades corregidas entreCliopatria yCShapes, conservando las fuentes originales y las particiones bélicas anteriores.
+- Groenlandia seleccionable1886–2019 mediante referencia explícita; fases deHawái y transferencia territorial exacta desde1898, sin restos entre costas de distintas fuentes.
+- Retratos notificados deIrak,Tayikistán,Bután,Bangladesh,Vietnam,Francia1900,India yNepal. Retirada de personajes ficticios asociados a cargos reales y filtro de adquisición para impedir su regreso.
+- Auditoría nominal, catálogoPaíses y pizarra de pendientes actualizados. Conservadas las carencias regionales, el retrato individual pendiente deMariaLevi y la procedencia pendiente deRijal; no se presentan como tareas completadas.
+
 ## 0.12.1 · 25/10/2026
 
 - Sustitución de territorios1940–1944 sobre una malla terrestre compartida: se eliminan piezas alemanas remotas, se protegen países neutrales y se conservan las costas de la base fechada. Una sola geometría política para pintura, fronteras, búsqueda y clic.

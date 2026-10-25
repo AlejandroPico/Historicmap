@@ -1931,6 +1931,120 @@
       "note": "Separación bajo tutela alemana, distinta del protectorado deBohemia yMoravia. El contorno eslovaco de apoyo es una referencia recortada, no una frontera diaria certificada.",
       "source": "https://encyclopedia.ushmm.org/content/en/article/jozef-tiso-1",
       "sourceLabel": "USHMM · historia deTiso y del Estado eslovaco"
+    },
+    {
+      "id": "extension-1880-relation-brazil",
+      "from": {
+        "key": "BRA-EMPIRE",
+        "name": "Imperio del Brasil",
+        "year": 1888
+      },
+      "to": {
+        "key": "BRA",
+        "name": "República del Brasil",
+        "year": 1890
+      },
+      "date": "1889-11-15",
+      "type": "transition",
+      "label": "Proclamación republicana",
+      "source": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1-15-novembro-1889-532625-norma-pe.html",
+      "note": "Enlace entre regímenes del mismo país; decreto provisional15/11, distinto de la Constitución posterior. Los años ancla permiten navegar a ambos lados del cambio.",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-relation-korea",
+      "from": {
+        "key": "JOS",
+        "name": "Reino de Joseon",
+        "year": 1896
+      },
+      "to": {
+        "key": "KEM",
+        "name": "Imperio de Corea",
+        "year": 1898
+      },
+      "date": "1897-10-12",
+      "type": "transition",
+      "label": "Proclamación del Imperio de Corea",
+      "source": "https://www.korea.net/Events/Exhibitions/view?articleId=7830",
+      "note": "Cambio institucional y de título de Gojong; no anexión japonesa ni división en dos repúblicas modernas.",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-relation-hawaii-provisional",
+      "from": {
+        "key": "HAW-KINGDOM",
+        "name": "Reino de Hawái",
+        "year": 1892
+      },
+      "to": {
+        "key": "HAW-PROVISIONAL",
+        "name": "Gobierno provisional de Hawái",
+        "year": 1893
+      },
+      "date": "1893-01-17",
+      "type": "transition",
+      "label": "Derrocamiento de la monarquía",
+      "source": "https://ags.hawaii.gov/archives/online-exhibitions/1894-constitutional-convention/",
+      "note": "Se registra la sustitución administrativa y su carácter controvertido; el proyecto de anexión no equivale a anexión efectiva en1893.",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-relation-hawaii-republic",
+      "from": {
+        "key": "HAW-PROVISIONAL",
+        "name": "Gobierno provisional de Hawái",
+        "year": 1893
+      },
+      "to": {
+        "key": "HAW-REPUBLIC",
+        "name": "República de Hawái",
+        "year": 1895
+      },
+      "date": "1894-07-04",
+      "type": "transition",
+      "label": "Proclamación republicana",
+      "source": "https://libweb.hawaii.edu/digicoll/annexation/blount/br1374.php",
+      "note": "La nota diplomática distingue la nueva República del Gobierno provisional y la fecha de su proclamación.",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-relation-hawaii-annexation",
+      "from": {
+        "key": "HAW-REPUBLIC",
+        "name": "República de Hawái",
+        "year": 1897
+      },
+      "to": {
+        "key": "HAW",
+        "name": "Hawái bajo administración estadounidense",
+        "year": 1899
+      },
+      "date": "1898-08-12",
+      "type": "transition",
+      "label": "Transferencia formal tras la resolución de anexión",
+      "source": "https://digitalarchives.hawaii.gov/item/ark:70111/1zSZ",
+      "note": "La ceremonia12/8 es distinta de la resolución de julio y de la ley orgánica territorial posterior; no demuestra consentimiento general hawaiano.",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-relation-hawaii-us",
+      "from": {
+        "key": "HAW",
+        "name": "Hawái bajo administración estadounidense",
+        "year": 1899
+      },
+      "to": {
+        "key": "USA",
+        "name": "Estados Unidos",
+        "year": 1899
+      },
+      "date": "1898-08-12",
+      "type": "transition",
+      "label": "Vínculo con la administración estadounidense",
+      "source": "https://history.state.gov/countries/hawaii",
+      "note": "Es el vínculo de dependencia tras la misma transferencia, no una segunda anexión posterior ni la admisión de un Estado federado.",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
     }
   ],
   "records": [
@@ -3296,7 +3410,290 @@
       "text": "Los Sudetes se incorporaron aAlemania en1938. En marzo1939 el Estado eslovaco se separó bajo tutela alemana, mientras Bohemia yMoravia quedaron bajo ocupación alemana y régimen de protectorado. La Constitución eslovaca se aprobó21/7; Tiso asumió la presidencia en octubre yTuka el nuevo gabinete28/10. No equivale a anexión alemana deEslovaquia ni a continuidad territorial deChecoslovaquia en el cierre1939.",
       "source": "https://www.nrsr.sk/dl/Browser/Document?documentId=135154",
       "sourceLabel": "Parlamento eslovaco · acta constitucional21/7/1939"
+    },
+    {
+      "id": "extension-1880-triple",
+      "keys": [
+        "DEU",
+        "AUT-HUN",
+        "ITA"
+      ],
+      "section": "defense",
+      "title": "Triple Alianza · signatarios y obligaciones condicionadas",
+      "start": "1882-05-20",
+      "end": "1900-01-01",
+      "text": "Alemania, Austria-Hungría e Italia firman el tratado defensivo20/5/1882. Los artículos diferencian asistencia y neutralidad según el ataque y fijan la vigencia desde el canje de ratificaciones. La capa usa30/5/1882, fecha del canje documentada por Pribram; esta ficha incluye la firma anterior. Las renovaciones no convierten a estos Estados en beligerantes permanentes.",
+      "source": "https://worldjpn.net/documents/texts/docs/18820520.T1E.html",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-dual",
+      "keys": [
+        "DEU",
+        "AUT-HUN"
+      ],
+      "section": "defense",
+      "title": "Doble Alianza austro-alemana",
+      "start": "1880-01-01",
+      "end": "1900-01-01",
+      "text": "El tratado7/10/1879 obliga a asistencia en caso de ataque ruso y contempla neutralidad benévola frente a otras potencias bajo determinadas condiciones. Inicio1880 y cierre1900 delimitan esta revisión, no firma o extinción. No se transforma la alianza en anexión ni se asigna a Rusia una membresía inexistente.",
+      "source": "https://avalon.law.yale.edu/19th_century/dualalli.asp",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-franco-russian",
+      "keys": [
+        "FRA",
+        "RUE"
+      ],
+      "section": "defense",
+      "title": "Acercamiento franco-ruso, convención y ratificación",
+      "start": "1894-02-01",
+      "end": "1900-01-01",
+      "text": "La convención militar se negocia en1892 y ambas partes completan su aprobación entre diciembre1893 y enero1894, según el catálogo de la BnF. El inicio1/2/1894 es cobertura posterior a ese intervalo; no una fecha de firma inventada. Las cláusulas de asistencia están en el documento militar. No se incluye al Reino Unido ni se crea anticipadamente una Triple Entente.",
+      "source": "https://catalogue.bnf.fr/ark:/12148/cb11979428z",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-berlin",
+      "keys": [
+        "DEU",
+        "AUT-HUN",
+        "BEL",
+        "FRA",
+        "GBR",
+        "PRT",
+        "ESP",
+        "COD"
+      ],
+      "section": "territory",
+      "title": "Berlín y el marco de expansión colonial",
+      "start": "1884-11-15",
+      "end": "1900-01-01",
+      "text": "La conferencia de1884–1885 establece un marco de comercio, navegación y reclamaciones coloniales. Su Acta General no aporta una delimitación completa de África; los acuerdos bilaterales, conquistas y resistencias requieren cronologías y cartografía propias. Las entidades africanas actuales son enlaces geográficos de contexto, no partes consentidoras de ese reparto.",
+      "source": "https://archiv.diplo.de/arc-en/the-political-archive/general-act-2684414",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-pacific",
+      "keys": [
+        "CHL",
+        "PER",
+        "BOL"
+      ],
+      "section": "territory",
+      "title": "Guerra del Pacífico y acuerdos territoriales diferentes",
+      "start": "1880-01-01",
+      "end": "1885-01-01",
+      "text": "Las campañas iniciadas en1879 incluyen la ocupación de Lima y resistencia peruana. Ancón1883 y la tregua con Bolivia1884 no resuelven a la vez todos los desacuerdos fronterizos. No se aplican los tratados bilaterales posteriores como si ya estuvieran vigentes en1880.",
+      "source": "https://www.memoriachilena.gob.cl/602/w3-article-693.html",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-chile",
+      "keys": [
+        "CHL"
+      ],
+      "section": "institutions",
+      "title": "Ruptura entre Ejecutivo y Congreso en1891",
+      "start": "1891-01-07",
+      "end": "1892-01-01",
+      "text": "El enfrentamiento por presupuesto y facultades públicas deriva en dos autoridades rivales y guerra civil. Tras la derrota militar, Balmaceda entrega el mando29/8/1891. La sucesión constitucional y la distribución territorial de cada facción se investigan de forma independiente.",
+      "source": "https://www.memoriachilena.gob.cl/602/w3-article-706.html",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-egypt",
+      "keys": [
+        "EGY",
+        "GBR",
+        "OTT"
+      ],
+      "section": "institutions",
+      "title": "Jedivato, ocupación y soberanía nominal",
+      "start": "1882-07-01",
+      "end": "1900-01-01",
+      "text": "La presencia militar británica posterior a la campaña de1882 coexiste con el jedivato y el vínculo nominal otomano. Esas funciones no se reducen a un único presidente nacional ni prueban una anexión británica formal en1882.",
+      "source": "https://www.nam.ac.uk/explore/egypt-and-sudan",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-sudan",
+      "keys": [
+        "SDN",
+        "EGY",
+        "GBR"
+      ],
+      "section": "institutions",
+      "title": "Autoridad mahdista e intervención anglo-egipcia",
+      "start": "1881-01-01",
+      "end": "1900-01-01",
+      "text": "El levantamiento mahdista altera el dominio egipcio y crea una autoridad propia. La reconquista anglo-egipcia de finales de siglo y sus operaciones de1899 no autorizan a representar un Estado sudanés contemporáneo ni control extranjero homogéneo durante todo el intervalo. Cobertura anual, no duración jurídica de un solo régimen.",
+      "source": "https://www.nam.ac.uk/explore/egypt-and-sudan",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-madagascar",
+      "keys": [
+        "MDG",
+        "FRA"
+      ],
+      "section": "institutions",
+      "title": "Monarquía merina, protectorado y colonia",
+      "start": "1885-12-17",
+      "end": "1900-01-01",
+      "text": "El tratado de1885 y la ley francesa de aprobación6/3/1886 preceden a la declaración colonial6/8/1896. La monarquía merina y las administraciones impuestas no desaparecen por una supuesta fecha colonial única. La normativa se distingue de la imposición militar y de la resistencia local.",
+      "source": "https://mjp.univ-perp.fr/constit/mg1896.htm",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-ethiopia",
+      "keys": [
+        "ETH",
+        "ITA"
+      ],
+      "section": "defense",
+      "title": "Adwa y soberanía etíope",
+      "start": "1896-03-01",
+      "end": "1900-01-01",
+      "text": "La derrota italiana en Adwa1/3/1896 y el posterior acuerdo de Addis Abeba desmienten la aplicación unilateral de un protectorado italiano sobre toda Etiopía. No se trasladan a esta época las conquistas italianas posteriores. Cierre1900: cobertura.",
+      "source": "https://archivio.quirinale.it/aspr/gianni-bisiach/AV-002-000186/1-marzo-1896-battaglia-adua",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-shimonoseki",
+      "keys": [
+        "QING",
+        "JPN",
+        "JOS",
+        "KEM"
+      ],
+      "section": "territory",
+      "title": "Shimonoseki y la Triple Intervención",
+      "start": "1895-04-17",
+      "end": "1900-01-01",
+      "text": "Shimonoseki se firma17/4/1895 y se ratifica8/5. Alemania, Rusia y Francia presionan por la retrocesión de Liaodong, ejecutada mediante otro acuerdo en noviembre. La guerra, la cesión y la devolución no constituyen un solo cambio territorial ni la anexión de toda Corea.",
+      "source": "https://www.jacar.go.jp/english/exhibition/jacarbl-fsjwar-e/glossary/g004.html",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-china-reform",
+      "keys": [
+        "QING"
+      ],
+      "section": "institutions",
+      "title": "Reformas imperiales y poder efectivo de Cixi",
+      "start": "1898-06-11",
+      "end": "1900-01-01",
+      "text": "El edicto de junio abre el programa reformista de Guangxu; el golpe21/9/1898 impone el confinamiento del emperador y restablece el control efectivo de Cixi. No se extingue por ello la dinastía Qing. La fecha del golpe procede de informes diplomáticos conservados por JACAR.",
+      "source": "https://www.jacar.go.jp/english/exhibition/nichiro/18980921.htm",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-brazil-monarchy",
+      "keys": [
+        "BRA-EMPIRE"
+      ],
+      "section": "institutions",
+      "title": "Monarquía constitucional antes de la ruptura republicana",
+      "start": "1880-01-01",
+      "end": "1889-11-15",
+      "text": "El decreto republicano15/11/1889 pone término al régimen imperial y anuncia un Gobierno provisional. Esta ventana identifica la entidad precedente sin convertir1880 en su fecha de fundación ni proyectar cargos republicanos sobre PedroII.",
+      "source": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1-15-novembro-1889-532625-norma-pe.html",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-brazil-republic",
+      "keys": [
+        "BRA"
+      ],
+      "section": "institutions",
+      "title": "Gobierno provisional y república federativa",
+      "start": "1889-11-15",
+      "end": "1900-01-01",
+      "text": "El decreto1 proclama provisionalmente la república federativa y regula la transición de las provincias a Estados. No es la Constitución definitiva ni prueba continuidad personal del emperador en la jefatura republicana. Los gobiernos y constituciones posteriores necesitan fechas propias.",
+      "source": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1-15-novembro-1889-532625-norma-pe.html",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-joseon",
+      "keys": [
+        "JOS"
+      ],
+      "section": "institutions",
+      "title": "Reino de Joseon y cambio de título de Gojong",
+      "start": "1880-01-01",
+      "end": "1897-10-12",
+      "text": "El reino precede a la proclamación imperial12/10/1897. El cambio de título y denominación del Estado se distingue de la posterior imposición de un protectorado japonés. No se asignan al período los gobiernos de Corea del Norte o del Sur.",
+      "source": "https://www.korea.net/Events/Exhibitions/view?articleId=7830",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-korean-empire",
+      "keys": [
+        "KEM"
+      ],
+      "section": "institutions",
+      "title": "Imperio de Corea",
+      "start": "1897-10-12",
+      "end": "1900-01-01",
+      "text": "Gojong declara el Imperio de Corea y asume el rango imperial12/10/1897, según el Museo Nacional del Palacio. Joseon y el Imperio mantienen una sucesión institucional; no son territorios modernos distintos con fronteras inventadas para esa fecha.",
+      "source": "https://www.korea.net/Events/Exhibitions/view?articleId=7830",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-hawaii-monarchy",
+      "keys": [
+        "HAW-KINGDOM"
+      ],
+      "section": "institutions",
+      "title": "Monarquía hawaiana y derrocamiento de1893",
+      "start": "1880-01-01",
+      "end": "1893-01-17",
+      "text": "La monarquía es derrocada17/1/1893 y sustituida por un Gobierno provisional. La nueva autoridad busca una anexión que no se consuma ese año; sus proclamaciones no demuestran consentimiento de toda la población hawaiana.",
+      "source": "https://ags.hawaii.gov/archives/online-exhibitions/1894-constitutional-convention/",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-hawaii-provisional",
+      "keys": [
+        "HAW-PROVISIONAL"
+      ],
+      "section": "institutions",
+      "title": "Gobierno provisional de Hawái",
+      "start": "1893-01-17",
+      "end": "1894-07-04",
+      "text": "El régimen provisional pretende mantenerse hasta una anexión estadounidense; al no completarse el tratado inicial, convoca una convención constitucional. Es una autoridad distinta del Reino derrocado y de la República proclamada4/7/1894.",
+      "source": "https://ags.hawaii.gov/archives/online-exhibitions/1894-constitutional-convention/",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-hawaii-republic",
+      "keys": [
+        "HAW-REPUBLIC"
+      ],
+      "section": "institutions",
+      "title": "República de Hawái y proyecto de anexión",
+      "start": "1894-07-04",
+      "end": "1898-08-12",
+      "text": "La comunicación diplomática4/7/1894 declara que la República sucede al Gobierno provisional, con Sanford Dole como presidente. Se diferencia de la administración estadounidense que sigue a la transferencia formal12/8/1898.",
+      "source": "https://libweb.hawaii.edu/digicoll/annexation/blount/br1374.php",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1880-hawaii-annexed",
+      "keys": [
+        "HAW",
+        "USA"
+      ],
+      "section": "institutions",
+      "title": "Hawái tras la transferencia de1898",
+      "start": "1898-08-12",
+      "end": "1900-01-01",
+      "text": "Tras la resolución estadounidense de julio, la transferencia formal ocurre12/8/1898. La organización territorial posterior por una ley orgánica es un acto distinto. La fichaHAW conserva la identidad del archipiélago bajo esta administración sin fingir un Estado independiente nuevo ni un Estado federado en1898.",
+      "source": "https://history.state.gov/countries/hawaii",
+      "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
     }
   ],
-  "coverageStart": 1900
+  "coverageStart": 1880
 }

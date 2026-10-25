@@ -3,7 +3,8 @@
   "name": "España · bando sublevado",
   "qid": "",
   "aliases": [
-    "España · bando sublevado"
+    "España · bando sublevado",
+    "Spanish Nationalists"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -103,7 +104,32 @@
       }
     }
   ],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "spanish-civil-war.geojson",
+      "recordId": 800000,
+      "start": 1936,
+      "end": 1936,
+      "name": "Spanish Nationalists",
+      "status": null
+    },
+    {
+      "file": "spanish-civil-war.geojson",
+      "recordId": 800002,
+      "start": 1937,
+      "end": 1937,
+      "name": "Spanish Nationalists",
+      "status": null
+    },
+    {
+      "file": "spanish-civil-war.geojson",
+      "recordId": 800004,
+      "start": 1938,
+      "end": 1938,
+      "name": "Spanish Nationalists",
+      "status": null
+    }
+  ],
   "relatedData": [
     "../../public/data/country-history.json",
     "../../public/data/historical-context.json",

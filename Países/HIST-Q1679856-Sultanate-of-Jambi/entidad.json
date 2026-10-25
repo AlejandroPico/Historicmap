@@ -1,0 +1,70 @@
+{
+  "key": "HIST-Q1679856",
+  "name": "Sultanate of Jambi",
+  "qid": "Q1679856",
+  "aliases": [
+    "Sultanate of Jambi"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1679856"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q12521177",
+      "name": "Thaha Syaifuddin",
+      "role": "Sultán depuesto de Jambi · resistencia del interior",
+      "start": "1880-01-01",
+      "end": "1885-12-31",
+      "source": "https://portalbpsdm.jambiprov.go.id/artikel/buku-sastra/sejarah-sultan-thaha-saifuddin-pahlawan-nasional-jambi/",
+      "note": "Tras la toma neerlandesa del palacio en1858 ejerce resistencia y Gobierno del interior hasta1904. No equivale a control uniforme deJambi ni se borra la existencia de sultanes reconocidos por los neerlandeses. La serie de estos últimos sigue pendiente. Los extremos de cobertura delimitan esta observación o revisión; no representan un nombramiento ni un cese.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-audit-gaps-0.13",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-8a71e0c76c0c3515da98.jpg",
+        "title": "Sultan Thaha Syaifuddin.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Sultan_Thaha_Syaifuddin.jpg",
+        "artist": "Government of Indonesia",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sultan_Thaha_Syaifuddin.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://direktoratk2krs.kemsos.go.id/datapahlawan",
+        "sha256": "9ad9be5fd960ed46bef34a4890c97d373ec9f197cc603860a5b84f98df6f1b4a",
+        "bytes": 28953,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Sultan_Thaha_Syaifuddin.jpg/330px-Sultan_Thaha_Syaifuddin.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-9133",
+      "start": 1789,
+      "end": 1821,
+      "name": "Sultanate of Jambi",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11102",
+      "start": 1822,
+      "end": 1885,
+      "name": "Sultanate of Jambi",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

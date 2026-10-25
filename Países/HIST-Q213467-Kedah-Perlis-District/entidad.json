@@ -1,0 +1,63 @@
+{
+  "key": "HIST-Q213467",
+  "name": "Kedah-Perlis District",
+  "qid": "Q213467",
+  "aliases": [
+    "Kedah-Perlis District"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q213467"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q12710154",
+      "name": "Syed Ahmad Jamalullail",
+      "role": "Rajá de Perlis",
+      "start": "1880-01-01",
+      "end": "1885-12-31",
+      "source": "https://dymm.perlis.gov.my/index.php/info-diraja/salasilah-diraja?start=2",
+      "note": "La Casa Real de Perlis documenta el reinado1873–1897. Se limita la observación a1880–1885; no implica cese en1885. La relación tributaria conSiam y la coronación enBangkok no eliminan la autoridad local. Los extremos de cobertura delimitan esta observación o revisión; no representan un nombramiento ni un cese.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-audit-gaps-0.13",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q12710154",
+      "role": "Jefatura del Estado",
+      "start": "1880-01-01",
+      "end": "1897-02-15",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q12710154",
+      "sourceStatement": "Q12710154-1495C5AF-4CE2-40B8-B9D4-432EB41024B6",
+      "office": "Q28379750",
+      "acquisition": "historical-0.13",
+      "name": "Syed Ahmad ibni Syed Hussain Jamalullail",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1873-11-22",
+      "note": "Ventana de adquisición1880–1899; los extremos de cobertura no son nombramientos ni dimisiones."
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11393",
+      "start": 1842,
+      "end": 1885,
+      "name": "Kedah-Perlis District",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

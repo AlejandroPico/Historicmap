@@ -4,8 +4,10 @@
   "qid": "Q183",
   "aliases": [
     "Alemania",
+    "German Empire",
     "Germany",
-    "Germany (Prussia)"
+    "Germany (Prussia)",
+    "Nazi Germany"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -16,7 +18,7 @@
   "flags": [
     {
       "start": "1871-01-18",
-      "end": "1899-12-31",
+      "end": "1879-12-31",
       "media": {
         "file": "media/flag-cdac83e64dc4a64a7817.svg",
         "title": "Flag of the German Empire.svg",
@@ -32,6 +34,28 @@
         "attributionRequired": false
       },
       "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Empire.svg"
+    },
+    {
+      "start": "1880-01-01",
+      "end": "1899-12-31",
+      "media": {
+        "file": "media/flag-cdac83e64dc4a64a7817.svg",
+        "title": "Flag of the German Empire.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1867%E2%80%931918).svg",
+        "artist": "Original: Adolf Soetbeer, Otto von Bismarck Vector:  B1mbo, Madden",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "Recoloured Image:Flag of the Germans (2-3).svg",
+        "sha256": "6571eb6423bfe57942c89f989cf95238dc56e90a4072580750160552f4d9150d",
+        "bytes": 180,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Flag_of_Germany_%281867%E2%80%931918%29.svg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1867%E2%80%931918).svg",
+      "acquisition": "curated-symbols-1880-0.13",
+      "intervalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1867%E2%80%931918).svg",
+      "note": "Ventana documental para la selección al cierre anual, no fecha exacta de adopción o derogación. El símbolo no acredita fronteras, control efectivo ni reconocimiento diplomático. Tricolor imperial negro-blanco-rojo; no símbolos del régimen nazi posterior."
     },
     {
       "start": "1900-01-01",
@@ -286,7 +310,7 @@
       "name": "Guillermo I",
       "role": "Emperador alemán",
       "start": "1871-01-18",
-      "end": "1888-03-09",
+      "end": "1879-12-31",
       "precision": 11,
       "source": "https://www.dhm.de/lemo/biografie/wilhelm-i",
       "note": "",
@@ -304,18 +328,74 @@
         "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Kaiser_Wilhelm_I._.JPG/330px-Kaiser_Wilhelm_I._.JPG",
         "attribution": "",
         "attributionRequired": false
+      },
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q150652",
+      "name": "Guillermo I",
+      "role": "Emperador alemán · jefatura imperial",
+      "start": "1880-01-01",
+      "end": "1888-03-09",
+      "source": "https://www.dhm.de/lemo/bestand/objekt/tragbare-medaille-auf-das-dreikaiserjahr-1888",
+      "note": "La sucesión por fallecimiento se distingue de una coronación;1888 tuvo tres emperadores. Los límites marcados como cobertura delimitan la ventana documental; no son nombramientos ni dimisiones.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-europe-0.13",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-d681ecf146cce93403d0.jpg",
+        "title": "Kaiser Wilhelm I. .JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_I._.JPG",
+        "artist": "Wilhelm Kuntzemüller",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ggbain.28199.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "c9bc99ee6f6b3f235760ea8e66bdce799250d322550c2dd0e782a56e7427ddf7",
+        "bytes": 41462,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Kaiser_Wilhelm_I._.JPG/330px-Kaiser_Wilhelm_I._.JPG",
+        "attribution": "",
+        "attributionRequired": false
+      }
+    },
+    {
+      "person": "Q8442",
+      "name": "Otto von Bismarck",
+      "role": "Canciller del Imperio alemán",
+      "start": "1880-01-01",
+      "end": "1890-03-20",
+      "source": "https://www.dhm.de/lemo/biografie/otto-bismarck",
+      "note": "La solicitud de dimisión de18/3 se distingue de la destitución de20/3/1890. Los límites marcados como cobertura delimitan la ventana documental; no son nombramientos ni dimisiones.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-europe-0.13",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-4e48d6c64f85da4e88b5.jpg",
+        "title": "BismarckArbeitszimmer1886.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:BismarckArbeitszimmer1886.jpg",
+        "artist": "André Bockmann",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:BismarckArbeitszimmer1886.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Bismarck. Des eisernen Kanzlers Leben in annähernd 200 seltenen Bildern nebst einer Einführung. Herausgegeben von Walter Stein. Im Jahre des 100. Geburtstags Bismarcks und des großen Krieges 1915. Hermann Montanus Verlagsbuchhandlung, Siegen und Leipzig 1915",
+        "sha256": "86382eed32a01c21bc363e4c0be5725299ee044503b6dd44f7fdd53bb5a28e47",
+        "bytes": 35864,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BismarckArbeitszimmer1886.jpg/330px-BismarckArbeitszimmer1886.jpg"
       }
     },
     {
       "person": "Q58600",
       "name": "Federico III",
-      "role": "Emperador alemán",
+      "role": "Emperador alemán · jefatura imperial",
       "start": "1888-03-09",
       "end": "1888-06-15",
+      "source": "https://www.dhm.de/lemo/bestand/objekt/tragbare-medaille-auf-das-dreikaiserjahr-1888",
+      "note": "La sucesión por fallecimiento se distingue de una coronación;1888 tuvo tres emperadores.",
       "precision": 11,
-      "source": "https://www.dhm.de/lemo/biografie/friedrich-iii",
-      "note": "",
       "curated": true,
+      "acquisition": "curated-1880-europe-0.13",
       "portrait": {
         "file": "media/portrait-a05cfbba8dc39d7fa33c.png",
         "title": "Emperor Friedrich III.png",
@@ -334,13 +414,15 @@
     {
       "person": "Q2677",
       "name": "Guillermo II",
-      "role": "Emperador alemán",
+      "role": "Emperador alemán · jefatura imperial",
       "start": "1888-06-15",
       "end": "1899-12-31",
+      "source": "https://www.dhm.de/lemo/bestand/objekt/tragbare-medaille-auf-das-dreikaiserjahr-1888",
+      "note": "La sucesión por fallecimiento se distingue de una coronación;1888 tuvo tres emperadores. Los límites marcados como cobertura delimitan la ventana documental; no son nombramientos ni dimisiones.",
       "precision": 11,
-      "source": "https://www.dhm.de/lemo/biografie/wilhelm-ii",
-      "note": "",
       "curated": true,
+      "acquisition": "curated-1880-europe-0.13",
+      "endIsCoverageBoundary": true,
       "portrait": {
         "file": "media/portrait-e2e5e2a3096133e2a76f.jpg",
         "title": "Kaiser Wilhelm II of Germany - 1902.jpg",
@@ -354,8 +436,60 @@
         "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Kaiser_Wilhelm_II_of_Germany_-_1902.jpg/330px-Kaiser_Wilhelm_II_of_Germany_-_1902.jpg",
         "attribution": "",
         "attributionRequired": false
-      },
-      "endIsCoverageBoundary": true
+      }
+    },
+    {
+      "person": "Q10873",
+      "name": "Leo von Caprivi",
+      "role": "Canciller del Imperio alemán",
+      "start": "1890-03-20",
+      "end": "1894-10-28",
+      "source": "https://artsandculture.google.com/story/lQWRwGN7YRIA8A?hl=de",
+      "note": "Serie de cancilleres de la exposición del Bundesarchiv. El relevo de octubre se fecha según esa serie; véase la nota documental sobre dimisión y nombramiento sucesor.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-europe-0.13",
+      "portrait": {
+        "file": "media/portrait-1c5f5b3ad7658e0b16ab.jpg",
+        "title": "Graf Leopold von Caprivi cropped2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Graf_Leopold_von_Caprivi_cropped2.jpg",
+        "artist": "not specified",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Graf_Leopold_von_Caprivi_cropped2.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "cropped and hor. flipped image of Image:Graf Leopold von Caprivi.jpg",
+        "sha256": "f3f934e1e687ffe6dd7c4a5eccf4237283820b383878cf8f63cf088d966e6e8c",
+        "bytes": 35286,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Graf_Leopold_von_Caprivi_cropped2.jpg"
+      }
+    },
+    {
+      "person": "Q77166",
+      "name": "Chlodwig zu Hohenlohe-Schillingsfürst",
+      "role": "Canciller del Imperio alemán",
+      "start": "1894-10-29",
+      "end": "1899-12-31",
+      "source": "https://artsandculture.google.com/story/lQWRwGN7YRIA8A?hl=de",
+      "note": " Los límites marcados como cobertura delimitan la ventana documental; no son nombramientos ni dimisiones.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-europe-0.13",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-b1d10789818d8b91574a.jpg",
+        "title": "Hohenlohe-Schillingsfürst, Chlodwig Fürst zu 1899.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hohenlohe-Schillingsf%C3%BCrst,_Chlodwig_F%C3%BCrst_zu_1899.jpg",
+        "artist": "Philip de László",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hohenlohe-Schillingsf%C3%BCrst,_Chlodwig_F%C3%BCrst_zu_1899.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "www.delaszlocatalogueraisonne.com",
+        "sha256": "bc8e9ff11f6a561ef183b68a9559eafc4a16a599b65452ac161a6baac82bed9e",
+        "bytes": 23773,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Hohenlohe-Schillingsf%C3%BCrst%2C_Chlodwig_F%C3%BCrst_zu_1899.jpg/330px-Hohenlohe-Schillingsf%C3%BCrst%2C_Chlodwig_F%C3%BCrst_zu_1899.jpg"
+      }
     },
     {
       "person": "Q2677",
@@ -1577,6 +1711,102 @@
       "start": null,
       "end": null,
       "name": "Alemania",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12249",
+      "start": 1914,
+      "end": 1914,
+      "name": "German Empire",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12366",
+      "start": 1915,
+      "end": 1915,
+      "name": "German Empire",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12410",
+      "start": 1916,
+      "end": 1916,
+      "name": "German Empire",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12436",
+      "start": 1917,
+      "end": 1917,
+      "name": "German Empire",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12446",
+      "start": 1918,
+      "end": 1918,
+      "name": "German Empire",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12790",
+      "start": 1938,
+      "end": 1938,
+      "name": "Nazi Germany",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12807",
+      "start": 1939,
+      "end": 1939,
+      "name": "Nazi Germany",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12852",
+      "start": 1940,
+      "end": 1940,
+      "name": "Nazi Germany",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12870",
+      "start": 1941,
+      "end": 1941,
+      "name": "Nazi Germany",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12882",
+      "start": 1942,
+      "end": 1942,
+      "name": "Nazi Germany",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12902",
+      "start": 1943,
+      "end": 1943,
+      "name": "Nazi Germany",
+      "status": null
+    },
+    {
+      "file": "historical-control.geojson",
+      "recordId": "control-12928",
+      "start": 1944,
+      "end": 1944,
+      "name": "Nazi Germany",
       "status": null
     },
     {

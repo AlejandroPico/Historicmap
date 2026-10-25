@@ -5,7 +5,7 @@ kept distinct from sovereignty and territorial control. Missing resignation date
 are never silently promoted to incumbency. Existing curated records and licensed
 media (including the unchanged Mozambique full-frame photograph) are preserved.
 """
-import argparse, concurrent.futures, datetime, hashlib, html, json, pathlib, re, time, threading
+import argparse, concurrent.futures, datetime, hashlib, html, json, pathlib, re, time, threading, importlib.util
 import urllib.request, urllib.parse
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]; OUT=ROOT/'public'; CACHE=ROOT/'.cache/identities'
@@ -13,6 +13,16 @@ TODAY=datetime.date.today().isoformat(); START='1970-01-01'; PERIOD_END='1989-12
 UA={'User-Agent':'Historicmap/0.8 (https://github.com/AlejandroPico/Historicmap; educational atlas)'}
 EXCLUDED_MEDIA={(r['person'],r['title']) for r in json.loads(pathlib.Path(__file__).with_name('media-exclusions.json').read_text(encoding='utf8'))}
 DOWNLOAD_LOCK=threading.Lock();LAST_DOWNLOAD=0
+_eligibility_spec=importlib.util.spec_from_file_location('authority_eligibility',pathlib.Path(__file__).with_name('authority-eligibility.py'))
+_eligibility=importlib.util.module_from_spec(_eligibility_spec);_eligibility_spec.loader.exec_module(_eligibility)
+_eligible_cache={}
+_excluded_people={e['person'] for e in json.loads(pathlib.Path(__file__).with_name('authority-exclusions.json').read_text(encoding='utf8'))}
+
+def eligible_person(q):
+    if q in _excluded_people:return False
+    if q not in _eligible_cache:
+        _eligible_cache[q]=_eligibility.real_authority(entity(q))
+    return _eligible_cache[q]
 def download(url,max_bytes=None):
     """Pace shared thumbnail acquisition and respect service back pressure."""
     global LAST_DOWNLOAD
@@ -75,7 +85,7 @@ def acquire(skip_media=False):
                 if s.get('rank')=='deprecated':continue
                 person=s.get('mainsnak',{}).get('datavalue',{}).get('value',{}).get('id')
                 start=qual(s,'P580');end=qual(s,'P582')
-                if not person:continue
+                if not person or not eligible_person(person):continue
                 if not end and (s.get('rank')=='preferred' or not preferred and start and start[0]==latest):current[key].add(person)
                 effective_end=end or ((TODAY,11) if person in current[key] else None)
                 if start and effective_end and effective_end[0]>=START and start[0]<=PERIOD_END:
@@ -93,6 +103,11 @@ def acquire(skip_media=False):
         try:rows.extend(query(q,'historical-offices-'+START+'-'+digest))
         except Exception as error:unresolved.append(dict(offices=group,reason='Office query unavailable: '+str(error)))
         print('Office batch',offset+len(group),'/',len(offices),'terms',len(rows),flush=True)
+    # Queries/caches may contain fictional holders of otherwise real offices.
+    # Filter before successor-bound inference as well as before insertion.
+    scoped=[r for r in rows if r['start']['value'][:10]<=PERIOD_END]
+    eligible=dict(parallel(eligible_person,sorted({r['person']['value'].rsplit('/',1)[-1] for r in scoped})))
+    rows=[r for r in scoped if eligible.get(r['person']['value'].rsplit('/',1)[-1])]
     starts={}
     for row in rows:starts.setdefault(row['office']['value'].rsplit('/',1)[-1],set()).add(row['start']['value'][:10])
     for row in rows:

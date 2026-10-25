@@ -1,0 +1,100 @@
+{
+  "key": "HAW-PROVISIONAL",
+  "name": "Hawái · Gobierno provisional",
+  "qid": "",
+  "aliases": [
+    "Hawái · Gobierno provisional"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HAW-PROVISIONAL"
+  },
+  "flags": [
+    {
+      "start": "1893-01-01",
+      "end": "1893-12-31",
+      "media": {
+        "file": "media/flag-20ddbcac010f9f0389a4.svg",
+        "title": "Flag of Hawaii.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Hawaii.svg",
+        "artist": "Dbenbenn",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "This SVG flag includes elements that have been taken or adapted from this flag:",
+        "sha256": "d13c98a92833e8b72d46d171b76c46a94844890daec822771c8177ad6424f31a",
+        "bytes": 701,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Hawaii.svg",
+      "acquisition": "curated-symbols-1880-0.13",
+      "intervalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Hawaii.svg",
+      "note": "Ventana documental para la selección al cierre anual, no fecha exacta de adopción o derogación. El símbolo no acredita fronteras, control efectivo ni reconocimiento diplomático. Continuidad de la familia gráfica bajo el Gobierno provisional; no continuidad de la monarquía."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q107288",
+      "name": "Liliʻuokalani",
+      "role": "Autoridad predecesora · Reina de Hawái",
+      "start": "1891-01-20",
+      "end": "1893-01-17",
+      "source": "https://www.iolanipalace.org/history/",
+      "note": "ElPalacioIolani fecha la sucesión en la muerte de su hermano20/1; la proclamación pública29/1 es distinta. Derrocada17/1/1893; protesta, reclamación posterior y abdicación forzada1895 no prolongan su Gobierno efectivo. Autoridad de la entidad predecesora durante este año, no integrante del Gobierno sucesor.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-predecessors-0.13",
+      "portrait": {
+        "file": "media/portrait-1fddcb70bbe608c56d2a.jpg",
+        "title": "Liliʻuokalani.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Lili%CA%BBuokalani.jpg",
+        "artist": "James J. Williams / Adam Cuerden",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lili%CA%BBuokalani.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "[1]",
+        "sha256": "2a026e29d4426527585ba83c2c1523ee76156fdbd76e653ae6c1c75388a5ba52",
+        "bytes": 43580,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Lili%CA%BBuokalani.jpg/330px-Lili%CA%BBuokalani.jpg"
+      }
+    },
+    {
+      "person": "Q333691",
+      "name": "Sanford B. Dole",
+      "role": "Presidente del Gobierno Provisional de Hawái",
+      "start": "1893-01-17",
+      "end": "1894-07-03",
+      "source": "https://www.archives.gov/milestone-documents/joint-resolution-for-annexing-the-hawaiian-islands",
+      "note": "Gobierno surgido del derrocamiento apoyado por representantes estadounidenses. El reconocimiento unilateral del ministroStevens no convirtió automáticamenteHawái en Estado federado ni anuló la controversia por la restauración de la reina.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-asia-africa-0.13",
+      "portrait": {
+        "file": "media/portrait-c45d0ee592c542bc9ec0.jpg",
+        "title": "Sanford Ballard Dole.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Sanford_Ballard_Dole.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sanford_Ballard_Dole.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "US Library of Congress (as credited at http://www.britannica.com/EBchecked/topic-art/168157/97074/Sanford-Ballard-Dole)",
+        "sha256": "d9e8c347d4b079011d1c1872530e988c7fb7441e59866e9643beb5ba5cb14c50",
+        "bytes": 36422,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Sanford_Ballard_Dole.jpg/330px-Sanford_Ballard_Dole.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

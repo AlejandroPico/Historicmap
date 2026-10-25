@@ -1,0 +1,49 @@
+{
+  "key": "HIST-Q1796223",
+  "name": "Kingdom of Lunda",
+  "qid": "Q1796223",
+  "aliases": [
+    "Kingdom of Lunda"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1796223"
+  },
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-9517",
+      "start": 1789,
+      "end": 1855,
+      "name": "Kingdom of Lunda",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11560",
+      "start": 1856,
+      "end": 1884,
+      "name": "Kingdom of Lunda",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-12052",
+      "start": 1885,
+      "end": 1885,
+      "name": "Kingdom of Lunda",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

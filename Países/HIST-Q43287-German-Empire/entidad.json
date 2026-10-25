@@ -1,0 +1,140 @@
+{
+  "key": "HIST-Q43287",
+  "name": "German Empire",
+  "qid": "Q43287",
+  "aliases": [
+    "German Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q43287"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q150652",
+      "role": "Jefatura del Estado",
+      "start": "1880-01-01",
+      "end": "1888-03-09",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q150652",
+      "sourceStatement": "Q150652-f84454e6-4e23-b634-6850-65f38ee15ac1",
+      "office": "Q3240735",
+      "acquisition": "historical-0.13",
+      "name": "Guillermo I de Alemania",
+      "portrait": {
+        "file": "media/portrait-d681ecf146cce93403d0.jpg",
+        "title": "Kaiser Wilhelm I. .JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_I._.JPG",
+        "artist": "Wilhelm Kuntzemüller",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ggbain.28199.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "c9bc99ee6f6b3f235760ea8e66bdce799250d322550c2dd0e782a56e7427ddf7",
+        "bytes": 41462,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Kaiser_Wilhelm_I._.JPG/330px-Kaiser_Wilhelm_I._.JPG",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1861-01-02",
+      "note": "Ventana de adquisición1880–1899; los extremos de cobertura no son nombramientos ni dimisiones."
+    },
+    {
+      "person": "Q58600",
+      "role": "Jefatura del Estado",
+      "start": "1888-03-09",
+      "end": "1888-06-15",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q43287",
+      "sourceStatement": "q43287$b319b13a-406f-9e0f-7cc6-c3e13dc3b8af",
+      "acquisition": "historical-0.13",
+      "name": "Federico III de Alemania",
+      "portrait": {
+        "file": "media/portrait-a05cfbba8dc39d7fa33c.png",
+        "title": "Emperor Friedrich III.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Emperor_Friedrich_III.png",
+        "artist": "Reichard & Lindener",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "Royal Collection",
+        "sha256": "727f2b0ffabd8620b81c8a6fcf2bb9f3074f1cf65d74ca4f09ac771b88f2ce78",
+        "bytes": 96921,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Emperor_Friedrich_III.png/330px-Emperor_Friedrich_III.png",
+        "attribution": "",
+        "attributionRequired": false
+      }
+    },
+    {
+      "person": "Q2677",
+      "role": "Jefatura del Estado",
+      "start": "1888-06-15",
+      "end": "1899-12-31",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q43287",
+      "sourceStatement": "q43287$ca88eaa6-4005-8414-4189-e29b798f16c6",
+      "acquisition": "historical-0.13",
+      "name": "Guillermo II de Alemania",
+      "portrait": {
+        "file": "media/portrait-e2e5e2a3096133e2a76f.jpg",
+        "title": "Kaiser Wilhelm II of Germany - 1902.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902.jpg",
+        "artist": "Studio of Thomas Heinrich Voigt",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "http://media.iwm.org.uk/iwm/mediaLib//20/media-20612/large.jpg\n\n\n\n\n\nThis photograph HU 68367 comes from the collections of the Imperial War Museums.\n\n\n",
+        "sha256": "d8891238e007aebaf474c9b7b67c915e33f9088c96356267026d99387bc8819c",
+        "bytes": 35286,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Kaiser_Wilhelm_II_of_Germany_-_1902.jpg/330px-Kaiser_Wilhelm_II_of_Germany_-_1902.jpg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "endIsCoverageBoundary": true,
+      "sourceEnd": "1918-11-09",
+      "note": "Ventana de adquisición1880–1899; los extremos de cobertura no son nombramientos ni dimisiones."
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11906",
+      "start": 1871,
+      "end": 1872,
+      "name": "German Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11917",
+      "start": 1873,
+      "end": 1884,
+      "name": "German Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-12006",
+      "start": 1885,
+      "end": 1885,
+      "name": "German Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 168,
+      "start": null,
+      "end": null,
+      "name": "German Empire",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

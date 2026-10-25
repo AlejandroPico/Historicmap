@@ -1,0 +1,70 @@
+{
+  "key": "JOS",
+  "name": "Reino de Joseon",
+  "qid": "Q28405",
+  "aliases": [
+    "Joseon",
+    "Reino de Joseon"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "JOS"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q257425",
+      "name": "Gojong",
+      "role": "Rey de Joseon",
+      "start": "1880-01-01",
+      "end": "1897-10-11",
+      "source": "https://museum.seoul.go.kr/eng/board/NR_boardView.do?bbsCd=1044&seq=20170222133346596",
+      "note": "Rey desde1863. El título imperial corresponde al12/10/1897; no se denomina emperador aGojong en1880 ni se retrotrae el protectorado japonés de1905. Los extremos de cobertura delimitan la evidencia o la revisión; no son un nombramiento ni una dimisión.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-asia-africa-0.13",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-0585c9bb088cf6009507.jpg",
+        "title": "Gojong of the Korean Empire 02.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Gojong_of_the_Korean_Empire_02.jpg",
+        "artist": "This photo was taken in 1907.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gojong_of_the_Korean_Empire_02.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://m.post.naver.com/viewer/postView.nhn?volumeNo=16538194",
+        "sha256": "135e795d93c67c66fb43afc7e6571a53671fd6b8faa903e08e26542d106b510d",
+        "bytes": 50268,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Gojong_of_the_Korean_Empire_02.jpg/330px-Gojong_of_the_Korean_Empire_02.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-8854",
+      "start": 1789,
+      "end": 1859,
+      "name": "Joseon",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11661",
+      "start": 1860,
+      "end": 1885,
+      "name": "Joseon",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

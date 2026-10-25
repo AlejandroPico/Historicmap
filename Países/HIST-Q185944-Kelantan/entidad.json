@@ -1,0 +1,46 @@
+{
+  "key": "HIST-Q185944",
+  "name": "Kelantan",
+  "qid": "Q185944",
+  "aliases": [
+    "Kelantan"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q185944"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q20447773",
+      "role": "Jefatura del Gobierno",
+      "start": "1886-01-01",
+      "end": "1890-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q20447773",
+      "sourceStatement": "Q20447773-9010b1fa-4da1-2af4-850e-9632410aa938",
+      "office": "Q3496104",
+      "acquisition": "historical-0.13",
+      "name": "Sultan Ahmad, Kelantan"
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-9955",
+      "start": 1789,
+      "end": 1885,
+      "name": "Kelantan",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -145,3 +145,8 @@ La corrección0.9.1 conserva las referencias de imágenes al regenerar mandatos 
 Nuevo derivado [particiones compartidas](WWII-PARTITIONS.md),CShapesNC-SA con atribuciónCliopatriaBY4.0 y cortes de referenciaNaturalEarthPD. No incorpora frentes españolesBY-SA3.0. Fuentes originales inalteradas y huellas de insumos registradas. Las reglas de saneamiento y las áreas protegidas no certifican frentes diarios.
 
 [Retratos suizos y permisos](PORTRAITS-0.12.1-RESEARCH.md):34 originales individualmente identificados,33GIF/1PNG;HauserPD y33 permisosCFU/VRT exactos. Etiquetas institucionales verificadas conFederalCouncil; no se infieren fechas del retrato ni se da por completa la serie colegiada.
+
+
+## Ampliación1880 y correcciones0.13
+
+Fuentes, licencias, resolución de identidades, referencias geográficas y límites en[RESEARCH-1880](RESEARCH-1880.md), documentos regionales y[revisión de imágenes](MEDIA-CORRECTIONS-0.13.md). Los originales cartográficos y las particiones1940–1944 permanecen intactos. Groenlandia usa referenciaNaturalEarth; Hawái anterior a1898 referenciaCliopatria y desde1898 geometría exactaCShapes. No mezclar ambas costas ni sus condiciones de reutilización en una geometría nueva sin declaración. Fichas de los medios conservan autor, licencia, fuente ySHA. Auditoría nominal enREVIEW-1880-1899.json.

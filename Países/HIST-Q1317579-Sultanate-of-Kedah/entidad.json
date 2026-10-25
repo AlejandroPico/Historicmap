@@ -1,0 +1,78 @@
+{
+  "key": "HIST-Q1317579",
+  "name": "Sultanate of Kedah",
+  "qid": "Q1317579",
+  "aliases": [
+    "Sultanate of Kedah"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1317579"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q4207009",
+      "name": "Abdul Hamid Halim Shah",
+      "role": "Sultán de Kedah",
+      "start": "1882-01-01",
+      "end": "1885-12-31",
+      "source": "https://mmk.kedah.gov.my/sejarah/",
+      "note": "La asamblea de Kedah fecha el reinado1882–1943, mientras el consejo religioso da1881–1943. La observación empieza en1882 para no inventar el día del relevo. El sultán anteriorZainalRashidII de1879–1881 requiere completar su identidad y cronología. Los extremos de cobertura delimitan esta observación o revisión; no representan un nombramiento ni un cese.",
+      "precision": 9,
+      "curated": true,
+      "acquisition": "curated-1880-audit-gaps-0.13",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-23fddf4dd0253d436183.jpg",
+        "title": "Abdul Hamid Halim.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Abdul_Hamid_Halim.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Abdul_Hamid_Halim.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "geni.com",
+        "sha256": "5c7211f822f2acac6e2720ff1204a9581df508c71f6ebe3c364e77cab5dde393",
+        "bytes": 48509,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Abdul_Hamid_Halim.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-9331",
+      "start": 1789,
+      "end": 1799,
+      "name": "Sultanate of Kedah",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10542",
+      "start": 1800,
+      "end": 1821,
+      "name": "Sultanate of Kedah",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11390",
+      "start": 1842,
+      "end": 1885,
+      "name": "Sultanate of Kedah",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

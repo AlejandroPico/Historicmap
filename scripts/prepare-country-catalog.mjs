@@ -20,12 +20,12 @@ for(const [key,c] of Object.entries(identities.countries)){
 function record(p,file,recordId){
  const name=p.originalName??p.country_name??p.name;
  if(!name||['Masa continental','Continente','Tierra','Ocean','Land'].includes(name))return;
- const qid=p.wikidata??'',key=p.controlCorrection==='shared-land-partition-0.12.1'&&entities.has(p.identityKey)?p.identityKey:/^Q\d+$/.test(qid)?qids.get(qid)||qid:names.get(norm(name))||'territorio-'+createHash('sha256').update(norm(name)).digest('hex').slice(0,12);
+ const qid=p.wikidata??'',key=entities.has(p.identityKey)?p.identityKey:/^Q\d+$/.test(qid)?qids.get(qid)||qid:names.get(norm(name))||'territorio-'+createHash('sha256').update(norm(name)).digest('hex').slice(0,12);
  const e=add(key,name,qid);e.aliases.add(name);
  e.records.push({file,recordId,start:p.start??null,end:p.end??null,name,status:p.status??p.politicalStatus??null});
 }
 for(const g of read('history.topojson').objects.countries.geometries)record(g.properties,'history.topojson',g.properties.fid);
-for(const entry of manifest.entries.filter(e=>/^(early-modern|historical-control|central-europe-1939|spanish-civil-war|recent-control|historical-supplements|countries|world_.*)\.geojson$/.test(e.file))){
+for(const entry of manifest.entries.filter(e=>/^(early-modern|historical-control|historical-1880-control|historical-1880-supplements|central-europe-1939|spanish-civil-war|recent-control|historical-supplements|countries|world_.*)\.geojson$/.test(e.file))){
  const d=read(entry.file);for(const [i,f] of d.features.entries())record(f.properties,entry.file,f.id??i);
 }
 if(manifest.entries.some(e=>e.file==='wartime-partitions.json'))for(const [year,p] of Object.entries(read('wartime-partitions.json').years))for(const f of p.territories.features)record({...f.properties,start:year+'-01-01',end:year+'-12-31'},'wartime-partitions.json',`${year}:${f.id}`);

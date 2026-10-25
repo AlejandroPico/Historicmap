@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **25 de octubre de 2026**. Versión del producto: **0.12.1**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **25 de octubre de 2026**. Versión del producto: **0.13.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de0.12.1 en la sección24; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de0.13 en la sección25; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente0.12.1 (25/10/2026):** corregir manchas y particiones1940–1944, formato de autoridades y retratos suizos antes de ampliar a1880. El propietario confirma publicación0.12.0; comprobar localmente y subir sin esperar ni consultar Actions/Pages. Distinguir subida de publicación comprobada. Detalle en sección24 y tareas.md.
+**Encargo vigente0.13 (25/10/2026):** ampliar hasta1880 y corregir los retratos/identidades notificados por el propietario, incluida la selección histórica deGroenlandia. El propietario confirma la publicación anterior y la considera válida. Comprobar localmente y subir sin esperar ni consultar Actions/Pages; distinguir subida de publicación comprobada. Detalle en sección25 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -599,3 +599,24 @@ La prueba de navegador0.12.1 detectó un hueco no cubierto por la revisión geom
 
 
 Cierre local0.12.1:147 pruebas/33 archivos y siete recorridos distintos de navegador correctos; tipos, compilación,45 datos/11 franjas/5.297 medios íntegros y5.353 recursos preparados enGit comprobados. Se revisaron capturas deEuropa1942. Se corrigieron el hueco eslovaco descubierto en navegador y una expectativa de búsqueda incompatible con su ocupación1944, conservando la ficha desde1943. Detalle en DELIVERY-0.12.1. Tras confirmar el push, terminar sin sondear Actions/Pages; la revisión pública depende del aviso del propietario.
+
+
+## 25. Ampliación 0.13 · 1880–1899 y correcciones notificadas
+
+El propietario confirma la entrega anterior y autoriza continuar hasta1880. Se integra adquisición aislada, tres curadores regionales y dos curadores de huecos, todos puros/idempotentes. Se preservan10.016 registros que alcanzan1900+, salvo las correcciones notificadas expresamente. La referencia contemporánea permanece22/10/2026. Catálogo final:366 claves/10.916 mandatos y5.613 medios(507SVG/5.106 raster). Países tiene2.779 carpetas,366 con inventario de autoridades; la menor cifra de carpetas refleja resolución de referencias a identidades existentes, no pérdida de archivos manuales.
+
+`historical-1880.ts` resuelve identidades antes de la pintura y selección: Cliopatria1880–1885 yCShapes1886–1899 son inventarios distintos. Corrige nombres/QID anacrónicos, sin cambiar geometría ni asignar indicadores de sucesores. Estados regionales y contornos ambiguos conservan sus límites de investigación. Originales `history.topojson`, `early-modern.geojson`, controles previos, suplementos previos y particiones1940–1944 no cambian.
+
+Los nuevos suplementos/administraciones están separados para no invalidar las huellas de preparación bélica. Groenlandia usa una referencia NaturalEarth1886–2019 por omisión deCShapes; mantiene identidad propia, autoridades danesas/locales y etapas1953/1979/2009. No hereda ocupación alemana al ocuparseDinamarca. Hawái usa una referenciaCliopatria1885 hasta1897 y exclusivamenteCShapes desde1898. Su incorporación aEEUU se compone con el contornoCShapes exacto: usar la costa anterior creaba restos, detectados y corregidos por las nuevas regresiones. No hay sobrecapa opaca ni franjas de ocupación para esa incorporación. No confundir anexión1898 con estatalidad1959.
+
+Brasil imperial/republicano, fases hawaianas yJoseon/ImperioCoreano tienen identidades y colores fechados. Las autoridades predecesoras aparecen etiquetadas en el año de transición, con sus fechas propias. No son integrantes de un Gobierno sucesor. Contexto añade23 fases,20 registros/seis enlaces;41 agrupaciones/906 membresías con tres intervalos tempranos de laTripleAlianza. Los IDs de registros y enlaces deben ser únicos entre ambas colecciones, no sólo dentro de cada una.52 ventanas conservadoras de símbolos con archivos/licencias individualmente comprobados; no confundir enseña mercante con bandera nacional única.
+
+Correcciones independientes solicitadas: se eliminanPhilBaker(EEUU) yDavid(ReinoUnido), personajes ficticios asociados porP39 a cargos reales. La adquisición exige entidad humana y rechaza personajes ficticios antes de inferir el siguiente titular; las exclusiones se conservan para impedir reintroducción. Se sustituyen imagen ajena/generada deAliAlZaidi, billete deBután y retrato deRasulzoda. Se incorporan retratos deFrancia1900, Bangladesh/Vietnam2016,12 personas deIndia y siete deNepal. India no tiene titulares sin foto en el catálogo disponible, sin que ello certifique un censo completo de todos los cargos. Las imágenes rechazadas sin referencias se retiran del manifiesto; no reaparecerán al regenerar.
+
+Pendientes precisos: el presidenteDanielChapo ya tiene retrato individual correcto; la escena con dos personas corresponde a la primera ministraMariaLevi. Su fotografíaND permanece íntegra y rotulada mientras no se disponga de retrato individual autorizado. Rijal tiene candidato con procedencia institucional exacta aún no confirmada. No recortarND ni generar una cara para cubrirlos. Adquisición de imágenes admiteLicenceOuverte sólo con etiqueta exacta y URL oficial, crédito/atribución conservados. Fotos identifican personas, no su aspecto en cada fecha histórica.
+
+Auditoría de la ruta real:2.723 entidades/año,123 sin autoridad resuelta,40 personas/órganos sin imagen y530 casos anuales sin símbolo. Las listas nominales y límites están enREVIEW-1880-1899.json yRESEARCH-1880.md; las lagunas regionales investigables continúan en tareas.md. No ocultarlas mediante jefes ficticios ni presentar disponibilidad como completitud diaria mundial.
+
+Orden reproducible: adquisición aislada → curadores regionales → curadores de huecos → correcciones notificadas → retratos/símbolos → predecesores → prepare-1880-entities/references/context → prepare-1880-islands.ts → audit-1880.ts → register-1880-data.mjs → catálogoPaíses → integridad/tipos/pruebas/compilación/navegador. Un solo escritor de identidades/medios a la vez. El preparador de símbolos1880 reutiliza el curador genérico, sin ejecutar la exclusión checoslovaca exclusiva de1900. No regenerar todo con preparadores iniciales destructivos.
+
+Validación local:154 pruebas/35 archivos, cinco regresiones del filtro humano, siete curadores puros/idempotentes,49 datos/11 franjas/5.613 medios porSHA y compilación correcta. Navegador y envío efectivos enDELIVERY-0.13.0 y tareas.md. Usar el build nuevo `.cache/build-013-final`; no recompilar ni mezclar el directorio servido mientras se comprueba. Terminar tras confirmar push, sin esperar ni sondearActions/Pages.

@@ -1,0 +1,93 @@
+{
+  "key": "HIST-Q722071",
+  "name": "Ashanti Empire",
+  "qid": "Q722071",
+  "aliases": [
+    "Ashanti Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q722071"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q1920707",
+      "name": "Mensa Bonsu",
+      "role": "Asantehene · soberano ashanti",
+      "start": "1880-01-01",
+      "end": "1883-03-08",
+      "source": "https://encyclopaediaafricana.com/mensa-bonsu/",
+      "note": "La investigación biográfica deIvorWilks documenta la deposición8/3/1883. No se prolonga el mandato hasta su fallecimiento1896. La inestabilidad de1883–1885 requiere registrar autoridades y consejos propios, no un sucesor ficticio continuo. Los extremos de cobertura delimitan esta observación o revisión; no representan un nombramiento ni un cese.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-audit-gaps-0.13",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-e6b0cd46c2b86851769a.jpg",
+        "title": "Mensa Bonsu.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mensa_Bonsu.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mensa_Bonsu.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Pinterest",
+        "sha256": "74e3fb8e0c5ace36a9c061a6937c5e8d000609d9442217b9b1605179d57f8b29",
+        "bytes": 55579,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Mensa_Bonsu.jpg/330px-Mensa_Bonsu.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10043",
+      "start": 1789,
+      "end": 1835,
+      "name": "Ashanti Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11310",
+      "start": 1836,
+      "end": 1867,
+      "name": "Ashanti Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11818",
+      "start": 1868,
+      "end": 1872,
+      "name": "Ashanti Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11927",
+      "start": 1873,
+      "end": 1884,
+      "name": "Ashanti Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-12043",
+      "start": 1885,
+      "end": 1885,
+      "name": "Ashanti Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

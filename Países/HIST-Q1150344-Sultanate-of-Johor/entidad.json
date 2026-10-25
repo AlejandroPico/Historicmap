@@ -1,0 +1,112 @@
+{
+  "key": "HIST-Q1150344",
+  "name": "Sultanate of Johor",
+  "qid": "Q1150344",
+  "aliases": [
+    "Sultanate of Johor"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1150344"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q2637695",
+      "name": "Abu Bakar",
+      "role": "Maharajá de Johor",
+      "start": "1880-01-01",
+      "end": "1885-12-10",
+      "source": "https://royal.johor.my/salasilah-kesultanan-johor/",
+      "note": "Gobierna desde1862 como temenggong y desde1868 como maharajá. La genealogía de la Casa Real distingue reconocimiento del título sultánico11/12/1885, proclamación13/2/1886 y coronación29/7/1886. No se llama sultán a su cargo de1880. Los extremos de cobertura delimitan esta observación o revisión; no representan un nombramiento ni un cese.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-audit-gaps-0.13",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-45247d06850183e70c7e.jpg",
+        "title": "Johor-AbuBakar.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Johor-AbuBakar.jpg",
+        "artist": "The original uploader was Mr Tan at English Wikipedia.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Johor-AbuBakar.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Transferred from en.wikipedia to Commons.",
+        "sha256": "faae46c50db6ad20af10f8339bb36b388f7c6f6289de1ee27a621d52449d3d30",
+        "bytes": 92126,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Johor-AbuBakar.jpg"
+      }
+    },
+    {
+      "person": "Q2637695",
+      "name": "Abu Bakar",
+      "role": "Gobernante de Johor · título sultánico reconocido",
+      "start": "1885-12-11",
+      "end": "1885-12-31",
+      "source": "https://royal.johor.my/salasilah-kesultanan-johor/",
+      "note": "El título reconocido en diciembre1885 precede a la proclamación y coronación de1886. La observación se limita al tramo cartográfico temprano; no afirma fin del reinado. Los extremos de cobertura delimitan esta observación o revisión; no representan un nombramiento ni un cese.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-audit-gaps-0.13",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-45247d06850183e70c7e.jpg",
+        "title": "Johor-AbuBakar.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Johor-AbuBakar.jpg",
+        "artist": "The original uploader was Mr Tan at English Wikipedia.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Johor-AbuBakar.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Transferred from en.wikipedia to Commons.",
+        "sha256": "faae46c50db6ad20af10f8339bb36b388f7c6f6289de1ee27a621d52449d3d30",
+        "bytes": 92126,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Johor-AbuBakar.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-9659",
+      "start": 1789,
+      "end": 1819,
+      "name": "Sultanate of Johor",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11074",
+      "start": 1820,
+      "end": 1852,
+      "name": "Sultanate of Johor",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11517",
+      "start": 1853,
+      "end": 1879,
+      "name": "Sultanate of Johor",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11983",
+      "start": 1880,
+      "end": 1884,
+      "name": "Sultanate of Johor",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -4,16 +4,16 @@
   "entries": [
     {
       "file": "affiliations.json",
-      "bytes": 273142,
-      "sha256": "7bdc72932b7523ec79bf8c36b65e09efab562c22489f6b4963fe52f8c1d3f54e",
-      "version": "Historicmap 0.12.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 275191,
+      "sha256": "451fc7e5f0c24e8fb68b3a9a8f3c5b6c5aef99ae7c90684746bc144cb336dcc4",
+      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
       "format": "dated-organizations",
       "source": "Official institutional membership chronologies and declarations",
       "url": "https://www.nato.int/cps/en/natohq/topics_52044.htm",
       "license": "Factual membership metadata; sources per interval, original editorial compilation",
-      "transform": "41 dated organizations/groupings; Triple Alliance and WWI Central/Allied-associated powers added to prior memberships. Legal dates, categories and coverage boundaries explicit; neutral treaty partners are not automatically active belligerents or dependencies.",
+      "transform": "Dated coverage from1880; three earlier Triple Alliance membership windows added, preserving later903 memberships and organization metadata. Ratification exchange30May1882 distinct from signature20May. Membership does not establish dependency or belligerency.",
       "organizations": 41,
-      "records": 903
+      "records": 906
     },
     {
       "file": "central-europe-1939.geojson",
@@ -185,16 +185,16 @@
     },
     {
       "file": "country-history.json",
-      "bytes": 131791,
-      "sha256": "247c89b9075d223e5ee56a07eede2b86de0fe9e0bfcea36a4c58430c6955eb1a",
-      "version": "Historicmap 0.12.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 151034,
+      "sha256": "22ec72224a03ccec82cdb539135a038d7de7a6a8c4cdc9b200b5d3c931c63ec9",
+      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
       "format": "country-workspace-history",
       "url": "https://www.un.org/en/about-us/member-states",
       "source": "Official institutional histories, constitutional records and state succession references, linked per record",
       "license": "Original editorial summaries and factual metadata; sources linked individually",
-      "transform": "Dated institutions and predecessor links from1900, including imperial transitions, WWI treaties and early international institutions. Documentary windows are not exact constitutional inception dates; PCA/ITU/UPU records are not fabricated historical member rosters.",
-      "records": 97,
-      "relations": 86
+      "transform": "Institutions, events and predecessor navigation extended1880–1899 with dated sources; existing records preserved.",
+      "records": 117,
+      "relations": 92
     },
     {
       "file": "country-indicators.json",
@@ -224,16 +224,64 @@
       "transform": "Select inclusive intervals intersecting 1789–1885. Exclude records with Components (aggregate unions); keep leaf polities and MemberOf relation. Original coordinates, source names and Wikidata IDs retained. Not a uniform December 31 reconstruction; uncovered areas remain uncovered."
     },
     {
+      "file": "historical-1880-administrations.json",
+      "format": "dated-territorial-administrations",
+      "source": "Institutional administrative history",
+      "url": "https://stm.dk/statsministeriet/rigsfaellesskabet/groenland/?embed=true",
+      "license": "CC0 editorial factual metadata",
+      "bytes": 9598,
+      "sha256": "86b6934de631001cd40268fb158370ec643510fa9762632423b1683637b7f31c",
+      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
+      "transform": "Seventeen bounded relationships including local/native institutions and external national offices. Greenland omission correction extends through2019 and distinguishes1953,1979,2009; not a fabricated independence or complete governor series.",
+      "records": 17
+    },
+    {
+      "file": "historical-1880-control.geojson",
+      "format": "geojson",
+      "source": "CShapes unchanged dated Hawaii; US National Archives annexation resolution",
+      "url": "https://www.archives.gov/milestone-documents/joint-resolution-for-annexing-the-hawaiian-islands",
+      "license": "CShapes2.0 CC BY-NC-SA4.0",
+      "bytes": 21823,
+      "sha256": "7982de0623b6d4d0a9a523847bcc5e071f860db97a460ffd942d14fcd71e052a",
+      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
+      "transform": "Hawaii incorporation1898–1899 uses the exact dated CShapes island contour, avoiding fragments from different coastlines. Integrated in the USA selectable territory; not an opaque visual overlay and not statehood in1898.",
+      "features": 2
+    },
+    {
+      "file": "historical-1880-entities.json",
+      "format": "dated-entity-resolution",
+      "source": "Editorial identity resolution; Cliopatria and institutional historical sources",
+      "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+      "license": "CC0 identity metadata; editorial corrections",
+      "bytes": 39426,
+      "sha256": "c3f01f15856e505143ef9c409b392ae46c7fb743c3c279e26e096fb8080ce243",
+      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
+      "transform": "Date-scoped correction of anachronistic source names and QIDs over unchanged source contours. Cliopatria1880–1885 and CShapes1886–1899 are different geographic inventories. Unresolved source references remain explicitly unassigned.",
+      "records": 86
+    },
+    {
+      "file": "historical-1880-supplements.geojson",
+      "format": "geojson",
+      "source": "Natural Earth contemporary reference; Cliopatria Hawaii1885",
+      "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
+      "license": "Natural Earth public domain; Hawaii Cliopatria CC BY4.0",
+      "bytes": 486639,
+      "sha256": "eb27be7fb2873474ad5013ca3c86a14f61c09390875a5f58a63ce4eeaf940082",
+      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
+      "transform": "Nine unchanged reference features for omitted entities. Natural Earth contemporary contours explicitly labelled as references, plus Cliopatria1885 Hawaii. Greenland1886–2019 is an omission correction; other additions stop before1900.",
+      "features": 9
+    },
+    {
       "file": "historical-context.json",
-      "bytes": 278616,
-      "sha256": "2f4f84124d311447dd4bb81d9ece3aa858cce82b5eca84b522bc2db8f8e91a44",
-      "version": "Historicmap 0.12.0; historical preparation2026-10-24; current reference2026-10-22",
+      "bytes": 302042,
+      "sha256": "bf648d76c50a7fde0e02cecb94d8934e4c861112143b5c8532c7a60b289fa9c0",
+      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
       "format": "dated-historical-context",
       "source": "United Nations, institutional and government historical records",
       "url": "https://www.un.org/en/about-us/history-of-the-un",
       "license": "Original editorial summaries; institutional sources linked per event",
-      "transform": "48 additional sourced phases1900–1919, including imperial regimes, revolutions, colonial transitions and WWI. Not a worldwide daily front-line or conflict census.",
-      "records": 378
+      "transform": "Sourced phases1880–1899 appended without changing earlier contemporary reference or prior events. Documentary phases do not supply geographic fronts.",
+      "records": 401
     },
     {
       "file": "historical-control.geojson",
@@ -275,16 +323,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 10020782,
-      "sha256": "e743352b5a289707c6553d1058e2f20da81aefd82ac9dd82af0a4fa7092227e1",
+      "bytes": 10863215,
+      "sha256": "3845dfb290c481c42370caea708574d4f13e9cb0937c8f1ce48fb3b71c26602f",
       "format": "dated-political-identities",
-      "countries": 302,
-      "records": 10246,
+      "countries": 366,
+      "records": 10916,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap0.12.1 shared wartime partitions, Swiss offices/portraits and Slovak continuity; contemporary reference2026-10-22 unchanged",
+      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Isolated incremental worldwide1900–1919 acquisition and sourced focal authority windows. Imperial, republican, local/protector and collective offices distinguished; licensed media and later curations preserved. Contemporary reference2026-10-22 unchanged. Resolver coverage is not an exhaustive daily census. Swiss office labels resolved by explicit office IDs and Federal Council institutional sources;34 reviewed original portraits, including33GIF, with exact Commons permission provenance. Dates and other countries unchanged. Slovak client identity continued1940–1944 with USHMM/UPN institutional chronology, dated Tuka/Stefan Tiso handover and preserved1939 statements; coverage boundaries explicit."
+      "transform": "Isolated1880–1899 acquisition, sourced regional curations and explicitly reported later identity/portrait corrections. Real-human eligibility rejects fictional holders of real offices. Original1900+ curations preserved apart from documented requested corrections; current reference2026-10-22 unchanged. Availability is not an exhaustive daily office census."
     },
     {
       "format": "dated-political-influence",

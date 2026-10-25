@@ -1,5 +1,41 @@
 # Tareas y continuidad
 
+## Encargo vigente · 0.13.0 · ampliación hasta 1880 y correcciones notificadas
+
+El propietario confirma la publicación anterior y la considera válida. Ampliar1880–1899, conservar1900–actualidad y las particiones1940–1944. Añade errores de retratos/identidades y selección histórica deGroenlandia. Comprobar localmente, subir y terminar sin esperar ni sondearActions/Pages.
+
+- [x] Adquisición aislada1880–1899 y tres curadores regionales; dos curadores adicionales de huecos, fuentes y precisión explícitas. No equivale a un censo completo de autoridades mundiales.
+- [x] Resolver el cambio de fuente1885/1886, nombres/QID anacrónicos, imperios y colonias; no heredar estadísticas actuales ni políticos sucesores.
+- [x] Símbolos acreditados:52 ventanas conservadoras. Transiciones deBrasil, Hawái yCorea con autoridades predecesoras rotuladas. Contexto23 fases,20 registros/seis enlaces y tres membresías tempranas deTripleAlianza.
+- [x] Auditar la ruta real por año y conservar las carencias nominales:2.723 entidades/año,123 casos anuales sin autoridad,40 personas/órganos sin foto y530 casos anuales sin símbolo. Documentación enRESEARCH-1880 yREVIEW-1880-1899.json.
+- [x] Francia1900:ÉmileLoubet con retrato acreditado; comprobado en la ficha real.
+- [x] Irak2026: retiradoPopeTrump y adquirido retrato real deAliAlZaidi; elección deNizar y acceso deAli fechados por fuentes parlamentarias.
+- [x] Tayikistán2026: retrato individual de mayor resolución deRasulzoda, comprobado en navegador.
+- [x] Bután1970: billete sustituido por reproducción acreditada del retrato deJigmeDorjiWangchuck; no se presenta la foto del objeto2013 como foto del soberano vivo.
+- [x] EEUU2020: eliminadoPhilBaker ficticio, preservadoTrump con foto; también retiradoDavid ficticio deGBR. Filtro humano/exclusiones antes de inferir sucesores; cinco regresiones sin conexión correctas.
+- [x] Bangladesh/Vietnam2016: retratos acreditados, ambos presidentes vietnamitas y cese deSang2/4/2016; comprobados en ficha real.
+- [x] Groenlandia: referenciaNaturalEarth1886–2019 por omisión deCShapes, ámbitos/etapas danesas diferenciados. Clic real2016→1970→1942→2016 correcto; no se atribuye al controlador alemán.
+- [x] India:12 personas antes sin retrato ya incorporadas, incluidosSingh/Patil2011. Ningún titular sin imagen en el catálogo disponible; no acredita que estén todos los cargos posibles.
+- [x] Nepal: siete personas antes sin retrato incorporadas, incluyendo la nueva ventana1880; comprobadas las fichas actuales/históricas focales.
+- [x] Mozambique: comprobado visualmente queDanielChapo ya tiene retrato individual correcto; la imagen grupal corresponde aMariaLevi. Fecha de nombramiento deLevi corregida17/1/2025 con posesión18/1 explicada.
+- [ ] Mozambique: conseguir un retrato individual deMariaBenvindaLevi con licencia reutilizable acreditada. Se conserva la escenaND íntegra y rotulada conMacut; no recortarla ni darla por solución individual. Investigación enMEDIA-CORRECTIONS-0.13.
+- [ ] Nepal:Rijal continúa sin integrar. CandidatoCommons con atribución genérica aOficina delPrimerMinistro, procedencia institucional exacta aún no confirmada. No reintroducirlo automáticamente como candidato verificado.
+- [x] Manifiestos, versión0.13.0, catálogoPaíses, fuentes, manual yregistro de continuidad actualizados.366 claves/10.916 mandatos;5.613 medios(507SVG/5.106 raster),2.779 carpetas.
+- [x] Tipos,154 pruebas/35 archivos, siete curadores puros/idempotentes y conservación de10.016 registros1900+ salvo correcciones explícitas. Originales cartográficos y particiones bélicas idénticos byte a byte.
+- [x] Integridad49 datos/11 franjas/5.613 medios y compilación correcta en.cache/build-013-final.
+- [x] Navegador: cuatro recorridos distintos correctos, repetición final1880 con bandera decodificada y captura móvil revisada. Entrega preparada para main; confirmar envío efectivo en el registro de cierre.
+- [ ] Revisión pública sólo tras aviso del propietario. No esperar ni consultarActions/Pages al terminar la subida.
+
+Continuidad: tres de los cuatro recorridos focales iniciales correctos: fuentes/capas, todos los retratos solicitados disponibles y clic real deGroenlandia. El recorrido1880 eligióBrasil al buscar«EstadosUnidos», contenido también en su nombre histórico; selector de prueba corregido para elegir el resultado exacto, sin alterar los nombres válidos. Repeticiones correctas, incluida decodificación de la bandera. No recompilar ni mezclar el directorio servido mientras se comprueba. La primera suite detectó expectativas anteriores a1880 y el verificador detectóIDs compartidos entre relaciones/registros deHawái; corregidos y repetición completa154/154 correcta. La regresión territorial detectó doble referencia deHawái1898: ahora sóloCShapes y transferencia exacta; no sobrecapas de costas diferentes.
+
+### Investigación pendiente de1880–1899
+
+- [ ] Completar los123 huecos anuales nominales. Entre ellos: Wadai, Sokoto, Champasak, JabalShammar, Terengganu, Kelantan, Bornu, Lunda, Bima, Aceh yotras entidades;Bhután con gobierno dual anterior a1907. No inventar monarquía hereditaria ni Estado unitario para rellenar una celda.
+- [ ] Resolver contornos ambiguos de«GermanAfrica» anterior a1884 y«TalpurDynasty»/Sindh-Khairpur. Son referencias de fuente, no territorios sin habitantes ni prueba de un soberano uniforme.
+- [ ] Completar las40 imágenes y530 casos anuales sin símbolo del inventario, variantesQing anteriores a1889 y usos imperiales/civiles rusos diferenciados.
+- [ ] Contrastar regencias, gobernadores y mandatos breves; regencia suazi, otros integrantes del triunviratoTRV, relevos deKedah yfechas americanas de precisión aún anual/mensual. Fuentes y límites enAUTHORITIES-1880-*.md.
+- [ ] Fronteras propias de Estados omitidos, frentes coloniales/bélicos ylas carencias documentadas de entregas previas; los contextos nuevos no dibujan esos frentes.
+
 ## Encargo vigente · 0.12.1 · correcciones antes de ampliar fechas
 
 El propietario confirma la publicación de0.12.0 y reproduce artefactos alemanes en1941–1944. Corregir primero particiones, fichas y retratos; **1880 queda aplazado**. Comprobar localmente, subir y terminar sin esperar Actions/Pages.

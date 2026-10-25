@@ -19,6 +19,10 @@ for (const entry of manifest.entries) {
     }
   }
   else if(entry.format==='country-indicator-series'){if(!data.countries.USA?.series.population?.length)throw Error('Missing country indicators');}
+  else if(entry.format==='dated-entity-resolution'){
+    if(data.format!==entry.format||data.records.length!==entry.records||!data.referenceDate||data.coverageStart!==1880||data.coverageEnd!==1899)throw Error('Invalid1880 entity resolution');
+    for(const r of data.records)if(!r.names.length||!r.key||!r.source||!r.label||r.start<1880||r.end>1899||r.start>r.end)throw Error('Invalid dated identity rule');
+  }
   else if(entry.format==='dated-political-identities'){if(Object.keys(data.countries).length!==entry.countries||Object.values(data.countries).reduce((n,c)=>n+c.leaders.length,0)!==entry.records||!data.retrieved)throw Error('Invalid dated identities');}
   else if(entry.format==='country-workspace-indicators'){
     if(Object.keys(data.indicators).length!==entry.indicators||Object.keys(data.countries).length!==entry.countries||!data.referenceDate)throw Error('Invalid country workspace indicators');

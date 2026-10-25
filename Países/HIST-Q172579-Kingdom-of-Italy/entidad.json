@@ -1,0 +1,104 @@
+{
+  "key": "HIST-Q172579",
+  "name": "Kingdom of Italy",
+  "qid": "Q172579",
+  "aliases": [
+    "Kingdom of Italy"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q172579"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q153688",
+      "role": "Jefatura del Estado",
+      "start": "1880-01-01",
+      "end": "1899-12-31",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q172579",
+      "sourceStatement": "Q172579$d1bc88a4-4613-7d39-91ba-957a077bb741",
+      "acquisition": "historical-0.13",
+      "name": "Humberto I de Italia",
+      "portrait": {
+        "file": "media/portrait-4f3a52b74024645f32ba.jpg",
+        "title": "Fratelli Vianelli (Giuseppe e Luigi, flor. 1860-1890 ca) - VE - Umberto I di Savoia 1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Fratelli_Vianelli_(Giuseppe_e_Luigi,_flor._1860-1890_ca)_-_VE_-_Umberto_I_di_Savoia_1.jpg",
+        "artist": "Fratelli Vianelli",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fratelli_Vianelli_(Giuseppe_e_Luigi,_flor._1860-1890_ca)_-_VE_-_Umberto_I_di_Savoia_1.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Scan of the original photograph",
+        "sha256": "73bec6d1cd5c1df0384d89e5fc7971d52be325760812331ae135746413ad4b66",
+        "bytes": 43042,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Fratelli_Vianelli_%28Giuseppe_e_Luigi%2C_flor._1860-1890_ca%29_-_VE_-_Umberto_I_di_Savoia_1.jpg/330px-Fratelli_Vianelli_%28Giuseppe_e_Luigi%2C_flor._1860-1890_ca%29_-_VE_-_Umberto_I_di_Savoia_1.jpg"
+      },
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1878-01-09",
+      "endIsCoverageBoundary": true,
+      "sourceEnd": "1900-07-29",
+      "note": "Ventana de adquisición1880–1899; los extremos de cobertura no son nombramientos ni dimisiones."
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11710",
+      "start": 1862,
+      "end": 1865,
+      "name": "Kingdom of Italy",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11776",
+      "start": 1866,
+      "end": 1867,
+      "name": "Kingdom of Italy",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11838",
+      "start": 1868,
+      "end": 1870,
+      "name": "Kingdom of Italy",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11904",
+      "start": 1871,
+      "end": 1884,
+      "name": "Kingdom of Italy",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-12009",
+      "start": 1885,
+      "end": 1885,
+      "name": "Kingdom of Italy",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 78,
+      "start": null,
+      "end": null,
+      "name": "Kingdom of Italy",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

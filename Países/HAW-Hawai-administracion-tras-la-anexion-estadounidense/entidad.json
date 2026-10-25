@@ -1,0 +1,52 @@
+{
+  "key": "HAW",
+  "name": "Hawái · administración tras la anexión estadounidense",
+  "qid": "",
+  "aliases": [
+    "Hawái · administración tras la anexión estadounidense"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HAW"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q333691",
+      "name": "Sanford B. Dole",
+      "role": "Presidente del Gobierno local de Hawái · transición bajo Estados Unidos",
+      "start": "1898-08-12",
+      "end": "1899-12-31",
+      "source": "https://www.archives.gov/milestone-documents/joint-resolution-for-annexing-the-hawaiian-islands",
+      "note": "Tras la ceremonia de transferencia12/8/1898 continúa la administración provisional local. ElOrganicAct y el cargo de gobernador territorial corresponden a1900. Esta continuidad administrativa no afirma independencia soberana después de la anexión. Los extremos de cobertura delimitan la evidencia o la revisión; no son un nombramiento ni una dimisión.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1880-asia-africa-0.13",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-c45d0ee592c542bc9ec0.jpg",
+        "title": "Sanford Ballard Dole.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Sanford_Ballard_Dole.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sanford_Ballard_Dole.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "US Library of Congress (as credited at http://www.britannica.com/EBchecked/topic-art/168157/97074/Sanford-Ballard-Dole)",
+        "sha256": "d9e8c347d4b079011d1c1872530e988c7fb7441e59866e9643beb5ba5cb14c50",
+        "bytes": 36422,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Sanford_Ballard_Dole.jpg/330px-Sanford_Ballard_Dole.jpg"
+      }
+    }
+  ],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

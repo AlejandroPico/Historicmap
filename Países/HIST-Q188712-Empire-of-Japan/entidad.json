@@ -1,0 +1,97 @@
+{
+  "key": "HIST-Q188712",
+  "name": "Empire of Japan",
+  "qid": "Q188712",
+  "aliases": [
+    "Empire of Japan"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q188712"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q174231",
+      "role": "Jefatura del Estado",
+      "start": "1880-01-01",
+      "end": "1899-12-31",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q174231",
+      "sourceStatement": "Q174231-5DEF8B0C-E6BE-4757-A4DE-7C700F6A6900",
+      "office": "Q208233",
+      "acquisition": "historical-0.13",
+      "name": "Emperador Meiji",
+      "portrait": {
+        "file": "media/portrait-3eeefbde1279593d0d85.jpg",
+        "title": "Meiji Emperor.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Meiji_Emperor.jpg",
+        "artist": "Uchida Kuichi",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Meiji_Emperor.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "The Cleveland Museum of Art(Kinoshita). Published in the Japanese book, Meiji Tenno gyoden (Tokyo:  Kaneo Bun'endo, 1912)",
+        "sha256": "d68e6debb9f20a0ade90e2458362fd43e00cc20ff3f2c0e1f4f0569858f36c09",
+        "bytes": 62070,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Meiji_Emperor.jpg/330px-Meiji_Emperor.jpg"
+      },
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1867-02-03",
+      "endIsCoverageBoundary": true,
+      "sourceEnd": "1912-07-30",
+      "note": "Ventana de adquisición1880–1899; los extremos de cobertura no son nombramientos ni dimisiones."
+    }
+  ],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11828",
+      "start": 1868,
+      "end": 1869,
+      "name": "Empire of Japan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11882",
+      "start": 1870,
+      "end": 1876,
+      "name": "Empire of Japan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11959",
+      "start": 1877,
+      "end": 1879,
+      "name": "Empire of Japan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11980",
+      "start": 1880,
+      "end": 1885,
+      "name": "Empire of Japan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 154,
+      "start": null,
+      "end": null,
+      "name": "Empire of Japan",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

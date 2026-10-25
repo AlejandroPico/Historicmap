@@ -1,0 +1,49 @@
+{
+  "key": "HIST-Q127861",
+  "name": "Khedivate of Egypt",
+  "qid": "Q127861",
+  "aliases": [
+    "Khedivate of Egypt"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q127861"
+  },
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11789",
+      "start": 1866,
+      "end": 1876,
+      "name": "Khedivate of Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11960",
+      "start": 1877,
+      "end": 1879,
+      "name": "Khedivate of Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11981",
+      "start": 1880,
+      "end": 1884,
+      "name": "Khedivate of Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

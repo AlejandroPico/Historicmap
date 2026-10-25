@@ -54,6 +54,13 @@ export function regimeColor(key:string,year:number):string{
     case 'CHN-COMMUNIST':return year>=1949?'#d5b34b':'#a6784d';
     case 'RUS':return year<=1916?'#74966e':year<=1921?'#b95c54':'#9c7b9f';
     case 'RUE':return '#74966e';
+    case 'BRA-EMPIRE':return '#b69852';
+    case 'BRA':return year>=1889&&year<=1899?'#659a7e':historicalColor(key)??palette[hashColor(key)];
+    case 'JOS':return '#bfa76a';
+    case 'HAW-KINGDOM':return '#9b7b9e';
+    case 'HAW-PROVISIONAL':return '#9c9281';
+    case 'HAW-REPUBLIC':return '#a38b61';
+    case 'HAW':return '#749aba';
     case 'RPR':return '#8d9c82';
     case 'RSR':return regimeColor('USSR',year);
     case 'YKM':return '#718db5';
@@ -85,7 +92,7 @@ export function politicalData(data:FeatureCollection,year:number,profiles?:Profi
     const modernOwner=profile?.territoryType==='Dependency'&&profile.sovereign?sovereignNames.get(profile.sovereign):undefined;
     const modernDependency=!!modernOwner&&modernOwner!==identityKey;
     const parent=p.parentName??(year<1789&&!p.status&&p.group&&p.group!==p.name?p.group:undefined);
-    const ownerKey=p.collectiveAdministration?identityKey:modernDependency?modernOwner!:p.status&&p.status!=='independent'&&p.ownerName?sovereignNames.get(String(p.ownerName))??entityKey({name:p.ownerName},year):parent?sovereignNames.get(String(parent))??entityKey({name:parent},year):identityKey;
+    const ownerKey=p.collectiveAdministration?identityKey:modernDependency?modernOwner!:p.administratorKey?String(p.administratorKey):p.status&&p.status!=='independent'&&p.ownerName?sovereignNames.get(String(p.ownerName))??entityKey({name:p.ownerName},year):parent?sovereignNames.get(String(parent))??entityKey({name:parent},year):identityKey;
     const name=identityKey==='FRA'&&(!p.parentName||p.parentName===p.originalName)&&!p.status&&year<1886?frenchName(year):p.name;
     const influence=influenceFor(identityKey,year);
     const dependent=!p.collectiveAdministration&&(modernDependency||!!(p.status&&p.status!=='independent'&&p.ownerName)||!!parent&&parent!==p.originalName);
@@ -93,7 +100,7 @@ export function politicalData(data:FeatureCollection,year:number,profiles?:Profi
     const baseColor=regimeColor(power,year);
     const controlInfluence=!!influence&&['occupation','intervention'].includes(influence.kind);
     const tinted=influence?dependencyColor(baseColor,identityKey,influence.kind==='bloc'):dependent?dependencyColor(baseColor,identityKey):baseColor;
-    const politicalColor=controlInfluence?regimeColor(ownerKey,year):tinted;
+    const politicalColor=p.status==='source-reference'?'#8b9188':controlInfluence?regimeColor(ownerKey,year):tinted;
     return {...f,properties:{...p,name,identityKey,entityCode:p.entityCode??territorialEntityCode(p,year),politicalColor,...(dependent&&ownerKey!==identityKey?{administratorKey:ownerKey}:{}),...(controlInfluence?{controlInfluenceColor:tinted}:{}),...(influence?{dominantPower:power,influenceKind:influence.kind,influenceNote:influence.note,influenceSource:influence.source}:modernDependency?{dominantPower:ownerKey,influenceKind:'dependency',influenceNote:`Dependencia vinculada a ${sovereignLabels.get(ownerKey)??profile!.sovereign} según la referencia contemporánea de Natural Earth incorporada en 2026. El matiz indica vinculación administrativa; conserva identidad y datos propios.`,influenceSource:'https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/'}:{})}};
   })};
 }

@@ -53,6 +53,76 @@
   ],
   "leaders": [
     {
+      "person": "Q3269504",
+      "role": "Jefatura del Estado",
+      "start": "1880-01-01",
+      "end": "1892-01-01",
+      "precision": 10,
+      "source": "https://www.wikidata.org/wiki/Q3269504",
+      "sourceStatement": "Q3269504-5e268ffa-4204-fa98-e3a7-893989faf136",
+      "office": "Q100877419",
+      "acquisition": "historical-0.13",
+      "name": "Abdullah II Al-Sabah",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1866-11-01",
+      "note": "Ventana de adquisición1880–1899; los extremos de cobertura no son nombramientos ni dimisiones."
+    },
+    {
+      "person": "Q26926",
+      "role": "Jefatura del Estado",
+      "start": "1892-05-29",
+      "end": "1896-05-07",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q26926",
+      "sourceStatement": "Q26926-5d251020-40ff-8ab9-88f4-8fa66220f347",
+      "office": "Q100877419",
+      "acquisition": "historical-0.13",
+      "name": "Muhammad Al-Sabah",
+      "portrait": {
+        "file": "media/portrait-47387f55b76c4573b30d.jpg",
+        "title": "الشيخ محمد بن صباح الصباح.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D9%85%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%B5%D8%A8%D8%A7%D8%AD_%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD.jpg",
+        "artist": "سعاد المحمد الصباح",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "كتاب محمد بن صباح",
+        "sha256": "2b52504ffb4eb21b7b4d170e9da7c42a39bb6089903be4f07cb321091236a8c6",
+        "bytes": 41100,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D9%85%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%B5%D8%A8%D8%A7%D8%AD_%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD.jpg/330px-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D9%85%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%B5%D8%A8%D8%A7%D8%AD_%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD.jpg"
+      }
+    },
+    {
+      "person": "Q388730",
+      "role": "Jefatura del Estado",
+      "start": "1896-05-08",
+      "end": "1899-12-31",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q388730",
+      "sourceStatement": "Q388730-6ab13ed1-451a-7afc-1c82-d4705d2f8833",
+      "office": "Q100877419",
+      "acquisition": "historical-0.13",
+      "name": "Mubarak Al-Sabah",
+      "portrait": {
+        "file": "media/portrait-10335f45a7a20bc0ef7c.jpg",
+        "title": "Mubarak Al-Sabah of Kuwait.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mubarak_Al-Sabah_of_Kuwait.jpg",
+        "artist": "Hermann Burchardt",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mubarak_Al-Sabah_of_Kuwait.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://ar.wikipedia.org/wiki/ملف:Kuwait-MubarakI.jpg",
+        "sha256": "67977082f8de6366e4a227fa5bb9002e30c2308d8207cdeb9923b5097d6aeb3c",
+        "bytes": 36965,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Mubarak_Al-Sabah_of_Kuwait.jpg/330px-Mubarak_Al-Sabah_of_Kuwait.jpg"
+      },
+      "endIsCoverageBoundary": true,
+      "sourceEnd": "1915-11-28",
+      "note": "Ventana de adquisición1880–1899; los extremos de cobertura no son nombramientos ni dimisiones."
+    },
+    {
       "person": "Q388730",
       "role": "Jefatura del Estado",
       "start": "1900-01-01",
@@ -748,20 +818,20 @@
       "status": "Entidad histórica · reconstrucción anual"
     },
     {
+      "file": "historical-1880-supplements.geojson",
+      "recordId": 925005,
+      "start": "1886-01-01",
+      "end": "1899-12-31",
+      "name": "Kuwait",
+      "status": "protected-monarchy"
+    },
+    {
       "file": "historical-supplements.geojson",
       "recordId": 901000,
       "start": "1900-01-01",
       "end": "1961-06-18",
       "name": "Kuwait",
       "status": "protectorate"
-    },
-    {
-      "file": "recent-control.geojson",
-      "recordId": 910000,
-      "start": 1990,
-      "end": 1990,
-      "name": "Kuwait",
-      "status": null
     },
     {
       "file": "world_1914.geojson",

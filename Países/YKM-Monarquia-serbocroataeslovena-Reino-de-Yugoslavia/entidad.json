@@ -3,7 +3,8 @@
   "name": "Monarquía serbocroataeslovena / Reino de Yugoslavia",
   "qid": "Q191077",
   "aliases": [
-    "Monarquía serbocroataeslovena / Reino de Yugoslavia"
+    "Monarquía serbocroataeslovena / Reino de Yugoslavia",
+    "Yugoslavia"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -242,7 +243,48 @@
       }
     }
   ],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1940:137",
+      "start": "1940-01-01",
+      "end": "1940-12-31",
+      "name": "Yugoslavia",
+      "status": "independent"
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1941:137",
+      "start": "1941-01-01",
+      "end": "1941-12-31",
+      "name": "Yugoslavia",
+      "status": "independent"
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1942:137",
+      "start": "1942-01-01",
+      "end": "1942-12-31",
+      "name": "Yugoslavia",
+      "status": "independent"
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1943:137",
+      "start": "1943-01-01",
+      "end": "1943-12-31",
+      "name": "Yugoslavia",
+      "status": "independent"
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1944:137",
+      "start": "1944-01-01",
+      "end": "1944-12-31",
+      "name": "Yugoslavia",
+      "status": "independent"
+    }
+  ],
   "relatedData": [
     "../../public/data/country-history.json",
     "../../public/data/historical-context.json",

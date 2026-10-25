@@ -1,0 +1,73 @@
+{
+  "key": "HIST-Q185682",
+  "name": "French Indochina",
+  "qid": "Q185682",
+  "aliases": [
+    "French Indochina"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q185682"
+  },
+  "flags": [],
+  "leaders": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11671",
+      "start": 1860,
+      "end": 1867,
+      "name": "French Indochina",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11819",
+      "start": 1868,
+      "end": 1869,
+      "name": "French Indochina",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11848",
+      "start": 1870,
+      "end": 1870,
+      "name": "French Indochina",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11898",
+      "start": 1871,
+      "end": 1884,
+      "name": "French Indochina",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-12034",
+      "start": 1885,
+      "end": 1885,
+      "name": "French Indochina",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 81,
+      "start": null,
+      "end": null,
+      "name": "French Indochina",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

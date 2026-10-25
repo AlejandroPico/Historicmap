@@ -3,7 +3,8 @@
   "name": "Gobierno tibetano de facto",
   "qid": "Q2444884",
   "aliases": [
-    "Gobierno tibetano de facto"
+    "Gobierno tibetano de facto",
+    "Tibet"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -148,7 +149,24 @@
       }
     }
   ],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1943:554",
+      "start": "1943-01-01",
+      "end": "1943-12-31",
+      "name": "Tibet",
+      "status": "independent"
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1944:554",
+      "start": "1944-01-01",
+      "end": "1944-12-31",
+      "name": "Tibet",
+      "status": "independent"
+    }
+  ],
   "relatedData": [
     "../../public/data/country-history.json",
     "../../public/data/historical-context.json",
