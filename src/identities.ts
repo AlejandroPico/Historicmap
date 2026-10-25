@@ -2,7 +2,7 @@ import {escapeHtml as esc} from './profiles';
 import {administrationFor,dayBefore} from './territorial-administrations';
 
 export type Media={file:string;title:string;url:string;artist:string;license:string;licenseUrl?:string;credit?:string;attribution?:string;attributionRequired?:boolean;sha256:string;bytes:number;display?:'full-frame';caption?:string};
-export type Leader={person:string;name:string;role:string;start:string;end:string;source:string;precision?:number;curated?:boolean;note?:string;portrait?:Media;endIsUpperBound?:boolean;startIsCoverageBoundary?:boolean;endIsCoverageBoundary?:boolean;authorityScope?:'local'|'external'};
+export type Leader={person:string;name:string;role:string;start:string;end:string;source:string;precision?:number;curated?:boolean;note?:string;portrait?:Media;endIsUpperBound?:boolean;startIsCoverageBoundary?:boolean;endIsCoverageBoundary?:boolean;authorityScope?:'local'|'external';office?:string;authorityClass?:string;roleSource?:string};
 type Flag={start:string;end:string;media:Media;source:string};
 type Identity={qid:string;name:string;flags:Flag[];leaders:Leader[];notes?:{start:string;end:string;text:string;source:string}[];territoryStatus?:{start:string;end:string;text:string;source:string}};
 export type IdentityData={retrieved:string;license:string;source:string;countries:Record<string,Identity>};
@@ -55,7 +55,8 @@ function ownIdentityFor(p:Properties,year:number,data:IdentityData,now=new Date(
   // keep genuinely different offices and heads of state/government separate.
   const curated=leaders.filter(l=>l.curated);
   const partyOffice=(l:Leader)=>/partido|PCUS|PCCh|SED|secretario general/i.test(l.role);
-  const sameOffice=(a:Leader,b:Leader)=>partyOffice(a)===partyOffice(b);
+  const swissOffice=(l:Leader)=>l.authorityClass??(l.office==='Q11811941'?'council-member':l.office==='Q688230'||/Presidente de la Confederación/i.test(l.role)?'annual-presidency':l.person==='Q30917'?'collective':l.role);
+  const sameOffice=(a:Leader,b:Leader)=>key==='CHE'?swissOffice(a)===swissOffice(b):partyOffice(a)===partyOffice(b);
   // A renewal on a shared handover date is a separate mandate. Source date
   // intervals may include that day at both ends; do not collapse the renewal.
   const overlaps=(a:Leader,b:Leader)=>(a.start<b.end&&b.start<a.end)||(a.start===b.start&&a.end===b.end);
@@ -74,11 +75,12 @@ function ownIdentityFor(p:Properties,year:number,data:IdentityData,now=new Date(
     else if(score(leader)>score(authorities[index]))authorities[index]=leader;
   }
   leaders=authorities.map(l=>{
-    const simultaneous=annualStatements.filter(a=>a.person===l.person&&a.start===l.start&&a.end===l.end);
+    const simultaneous=annualStatements.filter(a=>a.person===l.person&&a.start===l.start&&a.end===l.end&&(key!=='CHE'||sameOffice(a,l)));
     if(simultaneous.some(a=>a.role==='Jefatura del Estado')&&simultaneous.some(a=>a.role==='Jefatura del Gobierno'))return {...l,role:l.role.startsWith('Jefatura')?'Jefatura del Estado y del Gobierno':`${l.role} · Estado y Gobierno`};
     return l;
   });
   const priority=(l:Leader)=>{
+    if(key==='CHE')return swissOffice(l)==='annual-presidency'?115:swissOffice(l)==='collective'?85:60;
     if(key==='YUG'&&l.person==='Q9161')return 145;
     if(/dictador|dictadura|partido|de facto|Führer|Poglavnik|SED/i.test(l.role))return 140;
     if(/emperador|rey de Francia/i.test(l.role)&&key==='FRA'&&year<1848)return 130;
@@ -127,6 +129,18 @@ const dateLabel=(date:string,precision=11)=>{
   const [y,m,d]=date.split('-');return precision<10?y:precision===10?`${Number(m)}/${y}`:`${Number(d)}/${Number(m)}/${y}`;
 };
 export {dateLabel as formatMandateDate};
+function mandateQualifier(l:Leader,retrieved:string){
+ const labels=[l.startIsCoverageBoundary?'Inicio de cobertura':null,l.endIsCoverageBoundary?'Fin de cobertura':l.endIsUpperBound?'Fin: límite máximo':l.end===retrieved?'Hasta la referencia':null].filter(Boolean);
+ return labels.length?`<small class="term-qualifier">${labels.join(' · ')}</small>`:'';
+}
+/** Documentary commentary belongs to Context, preserving notes and provenance
+ * without changing the common portrait/office/date format of Authorities. */
+export function identityNotesMarkup(p:Properties,year:number,data:IdentityData){
+ const identity=identityFor(p,year,data);
+ const notes=identity.leaders.filter(l=>l.note||l.roleSource).map(l=>`<article class="authority-document"><h3>${esc(l.name)}</h3><small>${esc(l.role)} · ${dateLabel(l.start,l.precision)} — ${dateLabel(l.end,l.precision)}</small>${l.note?`<p>${esc(l.note)}</p>`:''}${l.roleSource?`<a class="profile-source" href="${esc(l.roleSource)}" target="_blank" rel="noopener">Fuente del cargo ↗</a> `:''}<a class="profile-source" href="${esc(l.source)}" target="_blank" rel="noopener">Fuente del mandato ↗</a></article>`).join('');
+ const administration=identity.administration?`<article class="authority-document"><h3>${esc(identity.administration.label)}</h3><p>${esc(identity.administration.note)}</p><p>Los cargos del Estado administrador y los cargos territoriales conservan su ámbito propio.</p><a class="profile-source" href="${esc(identity.administration.source)}" target="_blank" rel="noopener">Relación administrativa ↗</a></article>`:'';
+ return notes||administration?`<details class="country-record authority-notes"><summary>Notas de las autoridades</summary>${administration}${notes}</details>`:'';
+}
 export function identityMarkup(p:Properties,year:number,data:IdentityData,baseUrl:string,part:'all'|'header'|'authorities'='all'){
   const identity=identityFor(p,year,data);
   const imageUrl=(media:Media)=>baseUrl+media.file;
@@ -137,10 +151,10 @@ export function identityMarkup(p:Properties,year:number,data:IdentityData,baseUr
   const name=identity.name??String(p.name??'');
   const symbolLabel=identity.flagContext?identity.flagContext+' · ':identity.key==='SAH'?'Símbolo de la RASD · ':/civil fleet|civil ensign/i.test(identity.flag?.title??'')?'Pabellón mercante · ':identity.flag?.title.includes('Royal Standard')?'Estandarte real · ':['war','dispute'].includes(String(p.kind))?'Autoridad controladora · ':'';
   const flag=identity.flag?`<div class="identity-header"><a class="flag-source" href="${esc(identity.flag.url)}" target="_blank" rel="noopener" aria-label="${esc(`Procedencia y licencia del símbolo de ${name}`)}" title="${esc(identity.flag.artist)} · ${esc(identity.flag.license)}"><img class="historic-flag" src="${esc(imageUrl(identity.flag))}" alt="${esc(identity.flagContext??`Bandera de ${name} correspondiente a la fecha consultada`)}" width="96" height="64"></a><span>${esc(name)}<br><small>${esc(symbolLabel)}${esc(`Símbolo al ${dateLabel(identity.date)}`)}</small></span></div>`:'';
-  const leaders=identity.leaders.map((l,index)=>`${identity.administration&&(index===0||l.authorityScope!==identity.leaders[index-1].authorityScope)?`<h3 class="authority-group">${l.authorityScope==='external'?'Autoridades del Estado administrador':'Autoridades del territorio'}</h3>`:''}<article class="leader-card${l.portrait?.display==='full-frame'?' full-frame':''}">${l.portrait?`<img class="leader-portrait${l.portrait.display==='full-frame'?' full-frame-photo':''}" src="${esc(imageUrl(l.portrait))}" alt="${esc(l.portrait.caption??`Retrato de ${l.name}`)}" width="100" height="128" loading="lazy">${l.portrait.caption?`<p class="photo-caption">${esc(l.portrait.caption)}</p>`:''}`:''}<div class="leader-details"><span class="leader-role">${esc(l.role)}</span><h3 class="leader-name">${esc(l.name)}</h3>${l.end>=identity.date&&!l.endIsUpperBound&&!l.endIsCoverageBoundary&&(l.precision??11)>=11?`<span class="term-current">${year===new Date().getFullYear()?'En funciones a la referencia':'Al cierre del año'}</span>`:''}<span class="leader-term">${l.startIsCoverageBoundary?'Documentado al inicio de '+dateLabel(l.start,l.precision):dateLabel(l.start,l.precision)} — ${l.endIsCoverageBoundary?'documentado hasta el límite de cobertura ':l.endIsUpperBound?'hasta, como máximo, ':''}${l.end===data.retrieved?`referencia ${dateLabel(data.retrieved)}`:dateLabel(l.end,l.precision)}</span>${l.note?`<p>${esc(l.note)}</p>`:''}<a class="profile-source" href="${esc(l.source)}" target="_blank" rel="noopener">Biografía y mandato ↗</a></div>${l.portrait?`<div class="portrait-credit">${credits(l.portrait)}${l.portrait.display==='full-frame'?`<a class="media-credit" href="${esc(l.portrait.licenseUrl)}" target="_blank" rel="noopener">Licencia de la fotografía ↗</a>`:''}</div>`:''}</article>`).join('');
+  const leaders=identity.leaders.map((l,index)=>`${identity.administration&&(index===0||l.authorityScope!==identity.leaders[index-1].authorityScope)?`<h3 class="authority-group">${l.authorityScope==='external'?'Autoridades del Estado administrador':'Autoridades del territorio'}</h3>`:''}<article class="leader-card${l.portrait?.display==='full-frame'?' full-frame':''}">${l.portrait?`<img class="leader-portrait${l.portrait.display==='full-frame'?' full-frame-photo':''}" src="${esc(imageUrl(l.portrait))}" alt="${esc(l.portrait.caption??`Retrato de ${l.name}`)}" width="100" height="128" loading="lazy">${l.portrait.caption?`<p class="photo-caption">${esc(l.portrait.caption)}</p>`:''}`:''}<div class="leader-details"><span class="leader-role">${esc(l.role)}</span><h3 class="leader-name">${esc(l.name)}</h3>${l.end>=identity.date&&!l.endIsUpperBound&&!l.endIsCoverageBoundary&&(l.precision??11)>=11?`<span class="term-current">${year===new Date().getFullYear()?'En funciones a la referencia':'Al cierre del año'}</span>`:''}<span class="leader-term">${dateLabel(l.start,l.precision)} — ${dateLabel(l.end,l.precision)}</span>${mandateQualifier(l,data.retrieved)}<a class="profile-source" href="${esc(l.source)}" target="_blank" rel="noopener">Fuente del mandato ↗</a></div>${l.portrait?`<div class="portrait-credit">${credits(l.portrait)}${l.portrait.display==='full-frame'?`<a class="media-credit" href="${esc(l.portrait.licenseUrl)}" target="_blank" rel="noopener">Licencia de la fotografía ↗</a>`:''}</div>`:''}</article>`).join('');
   const empty=identity.note?`<p class="identity-note">${esc(identity.note)}</p>${identity.noteSource?`<a class="profile-source" href="${esc(identity.noteSource)}" target="_blank" rel="noopener">Contexto institucional y fuente ↗</a>`:''}`:!identity.leaders.length&&!identity.territoryStatus?'<p class="identity-note">Dirigente pendiente de documentación para esta entidad y fecha.</p>':'';
   if(part==='header')return flag;
-  const administrationNote=identity.administration?`<div class="identity-note"><strong>${esc(identity.administration.label)}</strong><p>${esc(identity.administration.note)}</p><p>Los cargos rotulados con el Estado administrador corresponden a su ámbito estatal; las autoridades territoriales conservan su propio cargo.</p><a class="profile-source" href="${esc(identity.administration.source)}" target="_blank" rel="noopener">Relación administrativa y fuente ↗</a></div>`:'';
+  const administrationNote=identity.administration?`<div class="identity-note"><strong>${esc(identity.administration.label)}</strong><a class="profile-source" href="${esc(identity.administration.source)}" target="_blank" rel="noopener">Relación administrativa y fuente ↗</a></div>`:'';
   const annualNote=administrationNote+(identity.leaders.length?`<p class="mandate-reference">Autoridades con mandato durante ${year}. Consulta hasta ${dateLabel(identity.date)}.</p>`:'');
   const territoryNote=identity.territoryStatus?`<p class="identity-note">${esc(identity.territoryStatus.text)}</p><a class="profile-source" href="${esc(identity.territoryStatus.source)}" target="_blank" rel="noopener">Estatus del territorio ↗</a>`:'';
   return `<section class="political-identity" aria-label="Bandera y autoridades de la época" data-identity="${esc(identity.key)}">${part==='all'?flag:''}${territoryNote}${annualNote}${leaders}${empty}</section>`;

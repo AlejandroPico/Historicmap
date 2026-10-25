@@ -275,16 +275,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 9911148,
-      "sha256": "5ee3687dd822fe453b6a4b826205a03833377b92e74be3c35980881459ffa177",
+      "bytes": 10020782,
+      "sha256": "e743352b5a289707c6553d1058e2f20da81aefd82ac9dd82af0a4fa7092227e1",
       "format": "dated-political-identities",
       "countries": 302,
-      "records": 10244,
+      "records": 10246,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap 0.12.0; historical preparation2026-10-24; current reference2026-10-22",
+      "version": "Historicmap0.12.1 shared wartime partitions, Swiss offices/portraits and Slovak continuity; contemporary reference2026-10-22 unchanged",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Isolated incremental worldwide1900–1919 acquisition and sourced focal authority windows. Imperial, republican, local/protector and collective offices distinguished; licensed media and later curations preserved. Contemporary reference2026-10-22 unchanged. Resolver coverage is not an exhaustive daily census."
+      "transform": "Isolated incremental worldwide1900–1919 acquisition and sourced focal authority windows. Imperial, republican, local/protector and collective offices distinguished; licensed media and later curations preserved. Contemporary reference2026-10-22 unchanged. Resolver coverage is not an exhaustive daily census. Swiss office labels resolved by explicit office IDs and Federal Council institutional sources;34 reviewed original portraits, including33GIF, with exact Commons permission provenance. Dates and other countries unchanged. Slovak client identity continued1940–1944 with USHMM/UPN institutional chronology, dated Tuka/Stefan Tiso handover and preserved1939 statements; coverage boundaries explicit."
     },
     {
       "format": "dated-political-influence",
@@ -356,6 +356,32 @@
       "transform": "Polygon differences of dated CShapes geometries (Crimea, Sinai, Golan); contextual source notes; no invented intermediate withdrawal lines.",
       "coverage": "1886-01-01/2019-12-31",
       "features": 5
+    },
+    {
+      "file": "wartime-partitions.json",
+      "format": "dated-control-partitions",
+      "years": [
+        1940,
+        1941,
+        1942,
+        1943,
+        1944
+      ],
+      "records": 211,
+      "bytes": 18322515,
+      "sha256": "d59394140427d614c84b102135aec9a8f234e8dd3a3f208eb5a53d71b37acde4",
+      "source": "CShapes2.0 GW, Cliopatria, Natural Earth reference cuts",
+      "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+      "version": "shared-land-partition-0.12.1",
+      "license": "CC BY-NC-SA 4.0 (CShapes derivative); Cliopatria attribution CC BY 4.0; Natural Earth public domain",
+      "coverage": "1940/1944",
+      "inputSha256": {
+        "history.topojson": "aaa6365f9d682658823656cc7078e66617475c5f833a9b391b295ab4fe152288",
+        "historical-control.geojson": "b22616faaa36ac5c39908ab13f3b6aedafca02bff4bb823932bcdc018755e682",
+        "historical-supplements.geojson": "3e0edf7dfba66ecaa525450c51f0aef6fa311eb67f8635107eb1c78f467c756b",
+        "central-europe-1939.geojson": "000574cce08be157112f6c5f536631eb4d8f58e31da854e280878e271bc9e718"
+      },
+      "transform": "Shared dated land mesh; source interior cuts; bounded remote-component rejection; final-owner hatching. Annual synthesis, not daily fronts. Original sources immutable; excludes independently licensed Spanish civil-war fronts. Details/audit: docs/WWII-PARTITIONS.md and docs/WWII-PARTITIONS-AUDIT.json."
     },
     {
       "file": "world_100.geojson",

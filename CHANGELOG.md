@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.12.1 · 25/10/2026
+
+- Sustitución de territorios1940–1944 sobre una malla terrestre compartida: se eliminan piezas alemanas remotas, se protegen países neutrales y se conservan las costas de la base fechada. Una sola geometría política para pintura, fronteras, búsqueda y clic.
+- Franjas opcionales calculadas contra el controlador final; clientes y control comunista chino dejan de solaparse con un inventario anterior. Continuidad del cliente eslovaco1939 sin reponerChecoslovaquia ficticia.
+- Autoridades con formato uniforme de nombre, cargo y fechas; notas documentales extensas dentro deContexto, manteniendo fuentes e incertidumbre.
+-34 retratos suizos originales recuperados(33GIF y1PNG), permisos individualizados y etiquetas delConsejoFederal/presidencia anual diferenciadas. No se alteran fechas ni otros países.
+- Continuidad documental de la entidad eslovaca1940–1944: símbolo, presidente, cambioTuka/ŠtefanTiso y un retrato adicional. La ficha abierta conserva autoridades cuando desaparece su geometría independiente.
+- Preparación geográfica y auditoría reproducibles, manifiestos con huellas de insumos y catálogoPaíses sincronizado. Se mantienen los límites de las síntesis anuales y los frentes aún pendientes; no se amplía a1880.
+
 ## 0.12.0 · 2026-10-24
 
 - Ampliación documental mundial de1900–1919 mediante adquisición aislada y curaciones regionales, conservando las afirmaciones posteriores. Imperios ruso, Qing, otomano y austrohúngaro, monarquías balcánicas y coreana con claves históricas propias; regencias, autoridades rivales y órganos colectivos diferenciados.

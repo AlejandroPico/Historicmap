@@ -2,6 +2,7 @@ import type {FeatureCollection, MultiPolygon, Polygon} from 'geojson';
 import {historyAt, withHistoricalSupplements, normalizedName, type HistoryTopology} from './history';
 import type {ProfileData} from './profiles';
 import {regimeColor} from './political';
+import type {PartitionControls,WartimePartitions} from './wartime-partition';
 const base=import.meta.env.BASE_URL+'data/';
 // Share in-flight requests. Changing the ruler never aborts a reusable download.
 const requests=new Map<string,Promise<unknown>>();
@@ -29,7 +30,13 @@ export async function annualData(year:number){
   return withHistoricalSupplements(data,year,supplements,historyAt(history,1974,names,geometryCache));
 }
 export const modernCities=()=>asset<FeatureCollection>('cities.geojson');
-export async function overlaysFor(year:number):Promise<FeatureCollection>{
+export async function overlaysFor(year:number):Promise<PartitionControls>{
+  if(year>=1940&&year<=1944){
+    const prepared=await asset<WartimePartitions>('wartime-partitions.json');
+    const partition=prepared.years[String(year)];
+    if(!partition)throw Error(`Missing dated control partition ${year}`);
+    return {type:'FeatureCollection',features:[],partition};
+  }
   const files=['territorial-overlays.geojson',...(year>=1990?['recent-control.geojson']:[]),...(year>=1914&&year<=1949?['historical-control.geojson']:[]),...(year===1939?['central-europe-1939.geojson']:[]),...(year>=1936&&year<=1939?['spanish-civil-war.geojson']:[])];
   const data=await Promise.all(files.map(f=>asset<FeatureCollection>(f)));
   const all=data.flatMap(d=>d.features);

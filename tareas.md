@@ -1,5 +1,29 @@
 # Tareas y continuidad
 
+## Encargo vigente · 0.12.1 · correcciones antes de ampliar fechas
+
+El propietario confirma la publicación de0.12.0 y reproduce artefactos alemanes en1941–1944. Corregir primero particiones, fichas y retratos; **1880 queda aplazado**. Comprobar localmente, subir y terminar sin esperar Actions/Pages.
+
+- [x] Verificar que los datos publicados coinciden con0.12.0: manifiesto y controles idénticos por SHA-256; no es una caché antigua.
+- [x] Diagnosticar componentes remotos, costas independientes y franjas generadas antes de resolver el controlador final. Investigación en docs/WWII-CONTROL-RESEARCH.md.
+- [x] Preparar instrucciones de transferencia1940–1944 sobre la misma tierra fechada; descartar celdas remotas y proteger países neutrales, conservar islas reales y estados clientes.
+- [x] Garantizar una sola partición política y franjas recortadas al control final; regresiones geográficas. Navegador en curso, no marcado como terminado.
+- [x] Unificar Autoridades: retrato, cargo, nombre y fechas; trasladar notas documentales extensas a Contexto sin perder fuentes ni incertidumbre.
+- [x] Integrar los34 retratos suizos contrastados y corregir etiquetas de cargos colegiados/presidencia anual sin alterar mandatos.
+- [x] Regenerar manifiestos/catálogo, actualizar versión/documentación y comprobaciones locales.
+- [x] Preparar entrega a main con comprobaciones locales y registro de continuidad. La confirmación del envío corresponde al resultado de Git y al mensaje final.
+- [ ] Revisar la publicación de0.12.1 sólo cuando el propietario confirme el despliegue o aporte un error; no sondear Actions/Pages.
+
+Continuidad: rama codex/fix-wwii-partitions. Particiones generadas y conectadas a la ruta real del cargador, sin recalcular booleanas durante la visita. Auditoría GEOS: tierra conservada, sin nuevas áreas/solapamientos y franjas dentro de su controlador; regresiones1940–1944 incluidas.147 pruebas/33 archivos correctos y compilación correcta en .cache/build-0121-verified.34/34 retratos suizos adquiridos,194 etiquetas corregidas; fechas suizas conservadas. El navegador detectó la falta de autoridades1940+ en la nueva entidad eslovaca: corregida continuidadTiso/Tuka y sucesiónŠtefanTiso5/9/1944, con otro retrato acreditado y fuentesUSHMM/UPN. En total302 claves/10.246 mandatos/5.297 medios; sóloCHE ySVK-1939 cambian identidades. CatálogoPaíses generado; siete recorridos distintos correctos, incluida repetición final1940–1944(1,3min), datos/medios íntegros y5.353 recursos preparados enGit verificados. Revisadas capturas1942 con fronteras compartidas. Entrega local preparada para main; confirmar el resultado de Git en el mensaje final, sin confundirlo con despliegue. La suite inicial precedió a la regeneración del catálogo; una repetición simultánea a la compilación excedió5s en una prueba antigua de suplementos. Repetición completa posterior, sin esa competencia de recursos:147/147 correctas. Seis recorridos iniciales pasaron y uno detectó el hueco eslovaco; no se dio por terminado.
+
+### Pendientes que esta corrección no convierte en completados
+
+- [ ]1880: aplazado expresamente hasta corregir los errores actuales.
+- [ ] Frentes con fecha propia1942–1944: invasión de la zonaVichy, liberación deFrancia/Benelux/Finnmark,RSI y control partisano. Las particiones corrigen artefactos, no la periodización desigual del inventario anual.
+- [ ] Fuente propia para la frontera eslovaca, municipios/enclaves y corte1944; se mantiene la referencia1939 recortada y declarada.
+- [ ] Completar series diarias suizas: faltan miembros en algunos años(por ejemplo, el mandato colegiado deMaxPetitpierre1950 en el inventario) y hay un intervalo genérico de presidenciaSchulthess1921–1931 que exige contraste y desglose. Los retratos y las etiquetas no validan esas fechas; no se han modificado sin fuente.
+- [ ] Aplicar saneamiento equivalente a otros controles fuera de1940–1944 cuando se revisen; no afirmar corrección global de todos los conflictos.
+
 ## Encargo vigente · 0.12.0 · ampliación hasta1900
 
 Ampliar mundialmente1900–1919 y conservar1920–actualidad. Comprobar localmente, subir y terminar sin esperar ni consultar Actions/Pages; el propietario notificará despliegue o errores.
@@ -150,3 +174,6 @@ Continuar por los pendientes de investigación anteriores o por el siguiente enc
 El cierre añade comprobaciones locales de París, Viena, Innsbruck, Salzburgo, Graz y Linz a la regresión de control de 1942; cuatro pruebas focales correctas, sin modificar el código de aplicación ni sus datos publicados. El cierre con [skip ci] no sustituye Quality cuando cambien código, datos o publicación.
 
 Si se interrumpe la sesión, registrar el último paso terminado, procesos activos, fallos concretos y siguiente acción antes de cerrar. No confundir el SHA de aplicación publicado con un commit posterior sólo documental.
+
+
+Cierre local0.12.1:147 pruebas/33 archivos, siete recorridos de navegador distintos correctos, tipos/compilación e integridad de45 datos/11 franjas/5.297 medios. La segunda pasada detectó una expectativa nueva de buscarEslovaquia como territorio activo1944; se comprueba correctamente persistencia desde1943 y autoridades1944, sin volver a introducir una geometría independiente ficticia. La ruta final pasa con clics neutrales, franjas y una sola descarga compartida. El siguiente paso operativo es confirmar el envío, no esperar un despliegue.

@@ -321,7 +321,7 @@ function refreshMap(force=false):Promise<void> {
         $('#search-button').toggleAttribute('disabled',false);
         $('#map').dataset.loadStage='ready';
         renderSelection();refreshSearch();
-        const label=target.kind==='modern'?`Natural Earth · referencia contemporánea 2026${targetYear!==2026?` · consulta ${targetYear}`:''}`:target.kind==='annual'?`${targetYear<1886?'Cliopatria · síntesis anual':'CShapes + referencias · 31 dic'} ${targetYear} · ${data.features.length} territorios`:`${target.kind==='geological'?'CAO2024 · reconstrucción':'Fronteras aproximadas'} · ${formatYear(target.year)}`;
+        const label=target.kind==='modern'?`Natural Earth · referencia contemporánea 2026${targetYear!==2026?` · consulta ${targetYear}`:''}`:target.kind==='annual'?`${targetYear<1886?'Cliopatria · síntesis anual':targetYear>=1940&&targetYear<=1944?'CShapes + control · síntesis anual':'CShapes + referencias · 31 dic'} ${targetYear} · ${data.features.length} territorios`:`${target.kind==='geological'?'CAO2024 · reconstrucción':'Fronteras aproximadas'} · ${formatYear(target.year)}`;
         status(label);
         updateSources();
         // MapLibre initially expands compact attribution. Keep it available

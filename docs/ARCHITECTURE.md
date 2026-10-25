@@ -111,3 +111,10 @@ El medio oficial de Mozambique utiliza `Media.display: full-frame`: la imagen co
 La selección conserva un ancla semántica (`selection.ts`), no el ID de un polígono de un periodo. El commit del mapa vuelve a resolverla y renderiza la ficha con pestaña, filtros y lectura anteriores. Una entidad ausente conserva su ficha explicada; no se aproxima a un sucesor. La fecha no controla la visibilidad de paneles; sólo contenido/estado de carga. Comparaciones y cronologías tienen módulos separados y generación de solicitudes para descartar respuestas obsoletas.
 
 Los dos inventarios nuevos se cargan por la caché compartida de assets, sin consultas al proveedor durante la visita. Se separan indicadores numéricos con unidades/definiciones/signos de registros editoriales fechados y relaciones dirigidas. Los gráficos son SVG accesibles con tablas y fechas navegables; no hay biblioteca de gráficos ni backend nuevos. Detalles en COUNTRY-WORKSPACE, COUNTRY-INDICATORS y COUNTRY-HISTORY.
+
+
+## Particiones de control0.12.1
+
+1940–1944 usa sustituciones preparadas del inventario político mediante wartime-partition.ts. CShapes aporta la tierra compartida; Cliopatria sólo cortes interiores. Una sola propiedad/control final alimenta mapa, fronteras, clic y búsqueda. Las franjas se recortan después de todas las transferencias, sin cambiar geometrías al activarlas. El loader atiende la partición antes de su atajo de controles vacíos; las visitas no hacen booleanas en ese tramo. Preparación y límites en [WWII-PARTITIONS](WWII-PARTITIONS.md).
+
+Las notas largas de mandatos están enContexto, conservando una plantilla común de Autoridades. Suiza distingue office/authorityClass para colegio y presidencia anual; no fusionar esos cargos aunque coincida la persona. LosGIF originales son medios acreditados locales, verificados igual que los otros formatos.

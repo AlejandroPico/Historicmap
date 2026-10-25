@@ -2,6 +2,7 @@ import clipping, {type MultiPolygon as ClipMultiPolygon, type Polygon as ClipPol
 import type {Feature, FeatureCollection, Polygon, MultiPolygon} from 'geojson';
 import {regimeColor} from './political';
 import {centralEuropeanControls} from './central-europe';
+import {applyControlPartition,type PartitionControls} from './wartime-partition';
 
 type Area=Feature<Polygon|MultiPolygon>;
 const area=(f:Feature):f is Area=>f.geometry.type==='Polygon'||f.geometry.type==='MultiPolygon';
@@ -34,7 +35,8 @@ function correctDanzig(base:FeatureCollection,territories:FeatureCollection,occu
  * Boolean geometry runs in a worker. Optional hatching never changes this inventory.
  * Each hatch retains the documentary territory and controller, not a claim of sovereignty.
  */
-export function composeControl(base:FeatureCollection,controls:FeatureCollection,year:number){
+export function composeControl(base:FeatureCollection,controls:PartitionControls,year:number){
+ if(controls.partition)return applyControlPartition(base,controls.partition,year);
  controls=centralEuropeanControls(base,controls,year);
  if(!controls.features.length)return correctDanzig(base,base,empty());
  let territories=base.features.slice();const occupations=empty();

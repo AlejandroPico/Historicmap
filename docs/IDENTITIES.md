@@ -48,3 +48,10 @@ El procedimiento, contraste primario de actualidad, diez personas pendientes de 
 Un QID vacío/no válido no identifica a nadie. Esto corrige la contaminación con España republicana cuando una entidad carecía de código reconocido. La ficha por pestañas utiliza el mismo resolver para clic cartográfico y búsqueda. El índice de perfiles separa además territorios asociados de Estados: Brasil no es Isla Brasilera, ni Francia Clipperton.
 
 Un recurso fotográfico oficial de Mozambique usa CC BY-NC-ND 3.0 RS; se publica completo y con atribución, sin derivar un retrato recortado. El caso y la preparación se detallan en CURRENT-AUTHORITIES.
+
+
+## Corrección0.12.1
+
+Autoridades usa la misma plantilla compacta en todas las épocas. Las notas documentales de cada mandato y las relaciones administrativas extensas se conservan enContexto, dentro de Notas de las autoridades; inicio/fin de cobertura y máximo de cese permanecen etiquetados junto a las fechas.
+
+Suiza distingue miembro delConsejoFederal y presidente anual mediante identificadores explícitos de cargo. Se conservan ambos intervalos aunque coincida la persona; no se deduce un cargo por duración ni se alteran fechas sin fuente. Se añaden34 originales(33GIF/1PNG), con permisos individualizados y huellas locales. [Investigación y límites](PORTRAITS-0.12.1-RESEARCH.md).

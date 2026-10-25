@@ -7,10 +7,19 @@ for(const required of ['history.topojson','ww2.geojson','territorial-overlays.ge
 for (const entry of manifest.entries) {
   const bytes = await readFile(new URL(entry.file,root));
   if (createHash('sha256').update(bytes).digest('hex') !== entry.sha256) throw new Error(`Checksum mismatch ${entry.file}`);
+  for(const [input,expected] of Object.entries(entry.inputSha256??{}))if(createHash('sha256').update(await readFile(new URL(input,root))).digest('hex')!==expected)throw Error(`Stale prepared input ${entry.file}: ${input}`);
   const data = JSON.parse(bytes);
   if (entry.format==='unquantized-topology') {if(data.type!=='Topology'||data.objects.countries.geometries.length!==entry.records)throw Error(`Invalid ${entry.file}`);}
+  else if(entry.format==='dated-control-partitions'){
+    if(data.format!==entry.format||Object.keys(data.years).join(',')!=='1940,1941,1942,1943,1944')throw Error('Invalid wartime partition coverage');
+    for(const [year,p] of Object.entries(data.years)){
+      const ids=new Set();
+      for(const f of p.territories.features){if(f.id===undefined||ids.has(f.id)||!f.properties.identityKey||f.properties.uid||!['Polygon','MultiPolygon'].includes(f.geometry.type))throw Error('Invalid partition territory '+year);ids.add(f.id);}
+      for(const f of p.occupations.features)if(!f.properties.controller||!f.properties.occupiedKey||!f.properties.occupiedColor)throw Error('Invalid final-owner hatching '+year);
+    }
+  }
   else if(entry.format==='country-indicator-series'){if(!data.countries.USA?.series.population?.length)throw Error('Missing country indicators');}
-  else if(entry.format==='dated-political-identities'){if(Object.keys(data.countries).length!==entry.countries||!data.retrieved)throw Error('Invalid dated identities');}
+  else if(entry.format==='dated-political-identities'){if(Object.keys(data.countries).length!==entry.countries||Object.values(data.countries).reduce((n,c)=>n+c.leaders.length,0)!==entry.records||!data.retrieved)throw Error('Invalid dated identities');}
   else if(entry.format==='country-workspace-indicators'){
     if(Object.keys(data.indicators).length!==entry.indicators||Object.keys(data.countries).length!==entry.countries||!data.referenceDate)throw Error('Invalid country workspace indicators');
     let count=0;
@@ -56,7 +65,7 @@ for(const entry of fonts.entries){const bytes=await readFile(new URL(entry.file,
 const media=JSON.parse(await readFile(new URL('../public/media/manifest.json',import.meta.url)));
 const files=new Set();
 for(const m of media.entries){
- if(!/^media\/[a-z0-9-]+\.(svg|png|jpg|webp)$/.test(m.file)||!m.license||!m.url)throw Error(`Incomplete media provenance ${m.file}`);
+ if(!/^media\/[a-z0-9-]+\.(svg|png|jpg|webp|gif)$/.test(m.file)||!m.license||!m.url)throw Error(`Incomplete media provenance ${m.file}`);
  if(m.license.includes('ND')&&(m.display!=='full-frame'||!m.licenseUrl||!m.attributionRequired))throw Error(`No-derivatives image requires full-frame display and license ${m.file}`);
  const bytes=await readFile(new URL('../public/'+m.file,import.meta.url));
  if(createHash('sha256').update(bytes).digest('hex')!==m.sha256||bytes.length!==m.bytes)throw Error(`Invalid media ${m.file}`);

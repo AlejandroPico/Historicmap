@@ -3,7 +3,8 @@
   "name": "CHN-COMMUNIST",
   "qid": "",
   "aliases": [
-    "CHN-COMMUNIST"
+    "CHN-COMMUNIST",
+    "Communist Party of China"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -67,7 +68,48 @@
       }
     }
   ],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1940:6200179",
+      "start": "1940-01-01",
+      "end": "1940-12-31",
+      "name": "Communist Party of China",
+      "status": null
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1941:6200180",
+      "start": "1941-01-01",
+      "end": "1941-12-31",
+      "name": "Communist Party of China",
+      "status": null
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1942:6200180",
+      "start": "1942-01-01",
+      "end": "1942-12-31",
+      "name": "Communist Party of China",
+      "status": null
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1943:6200179",
+      "start": "1943-01-01",
+      "end": "1943-12-31",
+      "name": "Communist Party of China",
+      "status": null
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1944:6200179",
+      "start": "1944-01-01",
+      "end": "1944-12-31",
+      "name": "Communist Party of China",
+      "status": null
+    }
+  ],
   "relatedData": [
     "../../public/data/country-history.json",
     "../../public/data/historical-context.json",

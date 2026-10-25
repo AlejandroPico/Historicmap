@@ -1,0 +1,18 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const root=new URL('../public/data/',import.meta.url),manifest=JSON.parse(await readFile(new URL('manifest.json',root)));
+const sha=b=>createHash('sha256').update(b).digest('hex');
+const bytes=await readFile(new URL('wartime-partitions.json',root)),data=JSON.parse(bytes);
+const inputs=['history.topojson','historical-control.geojson','historical-supplements.geojson','central-europe-1939.geojson'];
+const inputSha256=Object.fromEntries(await Promise.all(inputs.map(async file=>[file,sha(await readFile(new URL(file,root)))])));
+const entry={file:'wartime-partitions.json',format:data.format,years:Object.keys(data.years).map(Number),records:Object.values(data.years).reduce((n,p)=>n+p.territories.features.length,0),bytes:bytes.length,sha256:sha(bytes),source:'CShapes2.0 GW, Cliopatria, Natural Earth reference cuts',url:data.source,version:data.version,license:data.license,coverage:'1940/1944',inputSha256,transform:data.method+' Original sources immutable; excludes independently licensed Spanish civil-war fronts. Details/audit: docs/WWII-PARTITIONS.md and docs/WWII-PARTITIONS-AUDIT.json.'};
+manifest.entries=manifest.entries.filter(e=>e.file!==entry.file);manifest.entries.push(entry);
+const identityBytes=await readFile(new URL('identities.json',root)),identities=JSON.parse(identityBytes),identityEntry=manifest.entries.find(e=>e.file==='identities.json');
+const identityCorrection='Swiss office labels resolved by explicit office IDs and Federal Council institutional sources;34 reviewed original portraits, including33GIF, with exact Commons permission provenance. Dates and other countries unchanged.';
+const slovakCorrection='Slovak client identity continued1940–1944 with USHMM/UPN institutional chronology, dated Tuka/Stefan Tiso handover and preserved1939 statements; coverage boundaries explicit.';
+let identityTransform=identityEntry.transform.includes(identityCorrection)?identityEntry.transform:identityEntry.transform+' '+identityCorrection;
+if(!identityTransform.includes(slovakCorrection))identityTransform+=' '+slovakCorrection;
+Object.assign(identityEntry,{bytes:identityBytes.length,sha256:sha(identityBytes),countries:Object.keys(identities.countries).length,records:Object.values(identities.countries).reduce((n,c)=>n+c.leaders.length,0),version:'Historicmap0.12.1 shared wartime partitions, Swiss offices/portraits and Slovak continuity; contemporary reference2026-10-22 unchanged',transform:identityTransform});
+manifest.entries.sort((a,b)=>a.file.localeCompare(b.file));
+await writeFile(new URL('manifest.json',root),JSON.stringify(manifest,null,2)+'\n');
+console.log('Registered shared wartime partitions and Swiss identity correction.');

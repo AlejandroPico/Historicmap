@@ -138,3 +138,10 @@ Natural Earth de referencia bajo todo el dominio histórico separa tierra de oc�
 REVIEW-1960 conserva auditoría y huecos con nombres y años; DELIVERY-0.9.0 diferencia implementación, contraste focal, validación y publicación. No interpretar una autoridad resuelta como inventario exhaustivo de todos los mandatos, administradores o frentes.
 
 La corrección0.9.1 conserva las referencias de imágenes al regenerar mandatos y distingue el token ND del nombre GODL-India. Los cinco medios incorporados retienen los créditos y declaraciones de licencia de cada archivo; los candidatos pendientes no se consideran autorizados. La separación constitucional de cargos en Nigeria se documenta en AUTHORITIES-1960-RESEARCH, incluida una errata de la fuente institucional.
+
+
+## Corrección1940–1944 y retratos suizos ·0.12.1
+
+Nuevo derivado [particiones compartidas](WWII-PARTITIONS.md),CShapesNC-SA con atribuciónCliopatriaBY4.0 y cortes de referenciaNaturalEarthPD. No incorpora frentes españolesBY-SA3.0. Fuentes originales inalteradas y huellas de insumos registradas. Las reglas de saneamiento y las áreas protegidas no certifican frentes diarios.
+
+[Retratos suizos y permisos](PORTRAITS-0.12.1-RESEARCH.md):34 originales individualmente identificados,33GIF/1PNG;HauserPD y33 permisosCFU/VRT exactos. Etiquetas institucionales verificadas conFederalCouncil; no se infieren fechas del retrato ni se da por completa la serie colegiada.

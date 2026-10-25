@@ -3,7 +3,8 @@
   "name": "FRA-VICHY",
   "qid": "",
   "aliases": [
-    "FRA-VICHY"
+    "FRA-VICHY",
+    "Vichy France"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -63,7 +64,32 @@
       }
     }
   ],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1940:6200178",
+      "start": "1940-01-01",
+      "end": "1940-12-31",
+      "name": "Vichy France",
+      "status": null
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1941:6200178",
+      "start": "1941-01-01",
+      "end": "1941-12-31",
+      "name": "Vichy France",
+      "status": null
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1942:6200178",
+      "start": "1942-01-01",
+      "end": "1942-12-31",
+      "name": "Vichy France",
+      "status": null
+    }
+  ],
   "relatedData": [
     "../../public/data/country-history.json",
     "../../public/data/historical-context.json",

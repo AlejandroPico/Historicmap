@@ -1,9 +1,11 @@
 import type {FeatureCollection} from 'geojson';
+import {applyControlPartition,type PartitionControls} from './wartime-partition';
 type Result={territories:FeatureCollection;occupations:FeatureCollection};
 let worker:Worker|undefined,sequence=0;
 const pending=new Map<number,{resolve:(r:Result)=>void;reject:(e:Error)=>void}>();
 const cache=new Map<number,Promise<Result>>();
-export function controlledMap(base:FeatureCollection,controls:FeatureCollection,year:number):Promise<Result>{
+export function controlledMap(base:FeatureCollection,controls:PartitionControls,year:number):Promise<Result>{
+ if(controls.partition)return Promise.resolve(applyControlPartition(base,controls.partition,year));
  if(!controls.features.length)return Promise.resolve({territories:base,occupations:{type:'FeatureCollection',features:[]}});
  const previous=cache.get(year);if(previous)return previous;
  if(!worker){
