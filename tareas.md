@@ -28,6 +28,8 @@ El propietario confirma la publicación anterior y la considera válida. Ampliar
 
 Continuidad: tres de los cuatro recorridos focales iniciales correctos: fuentes/capas, todos los retratos solicitados disponibles y clic real deGroenlandia. El recorrido1880 eligióBrasil al buscar«EstadosUnidos», contenido también en su nombre histórico; selector de prueba corregido para elegir el resultado exacto, sin alterar los nombres válidos. Repeticiones correctas, incluida decodificación de la bandera. No recompilar ni mezclar el directorio servido mientras se comprueba. La primera suite detectó expectativas anteriores a1880 y el verificador detectóIDs compartidos entre relaciones/registros deHawái; corregidos y repetición completa154/154 correcta. La regresión territorial detectó doble referencia deHawái1898: ahora sóloCShapes y transferencia exacta; no sobrecapas de costas diferentes.
 
+Cierre: aplicación0.13.0 enviada correctamente aorigin/main en33637c5.5673 recursos de datos/fuentes/medios preparados enGit verificados porSHA antes del envío. No se ha esperado ni consultado el despliegue; pendiente únicamente el aviso del propietario. Los huecos documentales anteriores permanecen abiertos.
+
 ### Investigación pendiente de1880–1899
 
 - [ ] Completar los123 huecos anuales nominales. Entre ellos: Wadai, Sokoto, Champasak, JabalShammar, Terengganu, Kelantan, Bornu, Lunda, Bima, Aceh yotras entidades;Bhután con gobierno dual anterior a1907. No inventar monarquía hereditaria ni Estado unitario para rellenar una celda.
