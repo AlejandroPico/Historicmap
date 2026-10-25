@@ -164,3 +164,7 @@ Primera base funcional del atlas temporal.
 - Movimiento de regla con marcas reutilizadas y sincronización limitada del enlace compartible para mantenerlo correcto durante la reproducción.
 
 Cobertura inicial discontinua. Alta resolución local, revisión historiográfica exhaustiva, homininos, hielo, atmósfera y eventos bélicos pendientes. Ver `agentes.md`.
+
+
+Corrección de publicación25/10/2026: Quality40208104708 pasó para33637c5; Publish40209978935 se omitió porque el cierre documental3f2c2f5 adelantómain y la condición comparaba ambosSHA. Se elimina esa igualdad y se conserva checkout delSHA validado, con éxito/push/main/mismo repositorio. Reejecutar un workflow_run conserva su evento antiguo; usar una ejecución manual nueva. No se cambian datos ni aplicación. No esperar despliegue.
+

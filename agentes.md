@@ -620,3 +620,7 @@ Auditoría de la ruta real:2.723 entidades/año,123 sin autoridad resuelta,40 pe
 Orden reproducible: adquisición aislada → curadores regionales → curadores de huecos → correcciones notificadas → retratos/símbolos → predecesores → prepare-1880-entities/references/context → prepare-1880-islands.ts → audit-1880.ts → register-1880-data.mjs → catálogoPaíses → integridad/tipos/pruebas/compilación/navegador. Un solo escritor de identidades/medios a la vez. El preparador de símbolos1880 reutiliza el curador genérico, sin ejecutar la exclusión checoslovaca exclusiva de1900. No regenerar todo con preparadores iniciales destructivos.
 
 Validación local:154 pruebas/35 archivos, cinco regresiones del filtro humano, siete curadores puros/idempotentes,49 datos/11 franjas/5.613 medios porSHA y compilación correcta. Navegador y envío efectivos enDELIVERY-0.13.0 y tareas.md. Usar el build nuevo `.cache/build-013-final`; no recompilar ni mezclar el directorio servido mientras se comprueba. Terminar tras confirmar push, sin esperar ni sondearActions/Pages.
+
+
+Corrección de publicación25/10/2026: Quality40208104708 pasó para33637c5; Publish40209978935 se omitió porque el cierre documental3f2c2f5 adelantómain y la condición comparaba ambosSHA. Se elimina esa igualdad y se conserva checkout delSHA validado, con éxito/push/main/mismo repositorio. Reejecutar un workflow_run conserva su evento antiguo; usar una ejecución manual nueva. No se cambian datos ni aplicación. No esperar despliegue.
+

@@ -215,3 +215,7 @@ Si se interrumpe la sesión, registrar el último paso terminado, procesos activ
 
 
 Cierre local0.12.1:147 pruebas/33 archivos, siete recorridos de navegador distintos correctos, tipos/compilación e integridad de45 datos/11 franjas/5.297 medios. La segunda pasada detectó una expectativa nueva de buscarEslovaquia como territorio activo1944; se comprueba correctamente persistencia desde1943 y autoridades1944, sin volver a introducir una geometría independiente ficticia. La ruta final pasa con clics neutrales, franjas y una sola descarga compartida. El siguiente paso operativo es confirmar el envío, no esperar un despliegue.
+
+
+Corrección de publicación25/10/2026: Quality40208104708 pasó para33637c5; Publish40209978935 se omitió porque el cierre documental3f2c2f5 adelantómain y la condición comparaba ambosSHA. Se elimina esa igualdad y se conserva checkout delSHA validado, con éxito/push/main/mismo repositorio. Reejecutar un workflow_run conserva su evento antiguo; usar una ejecución manual nueva. No se cambian datos ni aplicación. No esperar despliegue.
+
