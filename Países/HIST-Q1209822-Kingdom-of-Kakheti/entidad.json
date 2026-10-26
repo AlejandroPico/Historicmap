@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q1209822",
+  "name": "Kingdom of Kakheti",
+  "qid": "Q1209822",
+  "aliases": [
+    "Kingdom of Kakheti"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1209822"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9463",
+      "start": 1706,
+      "end": 1737,
+      "name": "Kingdom of Kakheti",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9818",
+      "start": 1744,
+      "end": 1761,
+      "name": "Kingdom of Kakheti",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9989",
+      "start": 1762,
+      "end": 1762,
+      "name": "Kingdom of Kakheti",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

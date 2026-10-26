@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.19.0 · 26/10/2026
+
+- Cronología anual hasta1700,853 intervalos adicionales con coordenadas originales y58 reglas de identidad fechadas. Los archivos geográficos anteriores se conservan.
+-275 intervalos de autoridades revisados, ampliación de retratos y39 ventanas de símbolos. Sellos, mon, armas, estandartes y pabellones identificados; no se retrotraen banderas nacionales posteriores ni diseños ficticios.
+- Filtros en un nuevo botón de embudo a la izquierda deCapas: forma política/régimen, color del mapa y organizaciones. Opciones sin entidades ocultas; filtro activo vacío conservado con aviso y acción para quitarlo.
+- Sedes seleccionables para Estados germanos agrupados en la cartografía, sin inventar sus fronteras.32 referencias urbanas,29 registros institucionales y15 fases documentales adicionales, con puntos regionales de conflictos.
+- Auditoría anual1700–1799 y carencias nominales conservadas. Fragmento deSunjo retirado como retrato identificativo porque no conserva un rostro reconocible. [Fuentes, alcance y continuidad](docs/RESEARCH-1700.md).
+
 ## 0.18.0 · 26/10/2026
 
 - Revisión de autoridades y símbolos1800–1900; Habsburgo y Río de la Plata dejan de apuntar a identificadores ajenos a la entidad histórica. República Helvética, colonias, títulos soberanos y sucesiones diferenciados.60 retratos y47 ventanas de símbolos revisadas.

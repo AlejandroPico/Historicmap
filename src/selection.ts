@@ -19,7 +19,7 @@ export function canonicalFeature(hit:{id?:string|number;properties:Record<string
  return undefined;
 }
 export function anchorFor(p:Record<string,any>,year:number,identities:IdentityData):CountryAnchor{
- return {key:identityKey(p,year,identities),name:p.name??'',originalName:p.originalName??p.name??'',code:p.entityCode??p.code??'',uid:p.uid??'',place:p.rank!==undefined&&Boolean(p.country),country:p.country??'',properties:{...p},year};
+ return {key:identityKey(p,year,identities),name:p.name??'',originalName:p.originalName??p.name??'',code:p.entityCode??p.code??'',uid:p.uid??'',place:!p.sovereignSeat&&p.rank!==undefined&&Boolean(p.country),country:p.country??'',properties:{...p},year};
 }
 /** Match the entity, never an arbitrary nearest polygon or one of its successors. */
 export function matchingFeature(anchor:CountryAnchor,data:FeatureCollection,year:number,identities:IdentityData):Feature|undefined{

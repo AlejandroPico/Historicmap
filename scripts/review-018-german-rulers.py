@@ -35,7 +35,8 @@ def fetch(row):
  infobox=re.search(r'<table\b[^>]*class="[^"]*infobox[^>]*>(.*?)</table>',raw,re.S)
  fields=[]
  for fragment in re.findall(r'<tr\b[^>]*>(.*?)</tr>',infobox.group(1) if infobox else '',re.S):
-  if not re.search(r'<th[^>]*>\s*Reign\s*</th>',fragment,re.I):continue
+  heading=re.search(r'<th[^>]*>(.*?)</th>',fragment,re.S)
+  if not heading or clean(heading.group(1))!='Reign':continue
   td=re.search(r'<td[^>]*>(.*?)</td>',fragment,re.S)
   if td:fields.append(clean(td.group(1)))
  parsed=[]

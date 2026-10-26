@@ -1,3 +1,4 @@
+import {openFilters,closeTools,selectFilter} from './tools';
 import {test,expect,type Page} from '@playwright/test';
 async function year(page:Page,y:number){await page.goto(`/#year=${y}&view=mercator`);await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(y),{timeout:45000});if(y>=1789)await expect(page.locator('#map')).toHaveAttribute('data-rendered',y>=2020?'countries.geojson':`history-${y}`,{timeout:45000});}
 async function search(page:Page,name:string){await page.locator('#search-button').click();await page.locator('#search-input').fill(name);await page.locator('#search-results button').first().click();}
@@ -51,17 +52,17 @@ test('compact sources, relief and dated memberships preserve space and temporal 
  await expect(page.locator('#sources-panel')).toContainText('Natural Earth');
  const sources=await page.locator('#sources-panel').evaluate(e=>({height:e.clientHeight,scroll:e.scrollHeight}));expect(sources.scroll).toBeLessThanOrEqual(sources.height);
  await page.keyboard.press('Escape');await page.locator('#layers-button').click();await expect(page.locator('#physical-layer')).toHaveAttribute('aria-pressed','false');
- for(const [value,label] of [['nato','OTAN'],['eu','Unión Europea'],['brics','BRICS'],['threeSeas','Tres Mares']]){await page.locator('#affiliation-select').selectOption(value);await expect(page.locator('#map-legend')).toContainText(label);}
- await page.locator('#theme-select').selectOption('gdp');await expect(page.locator('#map-legend')).toContainText('PIB total');
- await page.locator('#affiliation-select').selectOption('nato');await expect(page.locator('#map-legend')).toContainText('OTAN');
- await page.locator('#theme-select').selectOption('gdp');await expect(page.locator('#map-legend')).toContainText('PIB total');await expect(page.locator('#map-legend')).not.toContainText('OTAN');
- await page.locator('#close-layers').click();const legend=(await page.locator('#map-legend').boundingBox())!;expect(legend.x).toBeGreaterThan(900);expect(legend.y+legend.height).toBeLessThan(784);
+ for(const [value,label] of [['nato','OTAN'],['eu','Unión Europea'],['brics','BRICS'],['threeSeas','Tres Mares']]){await selectFilter(page,'#affiliation-select',value);await expect(page.locator('#map-legend')).toContainText(label);}
+ await selectFilter(page,'#theme-select','gdp');await expect(page.locator('#map-legend')).toContainText('PIB total');
+ await selectFilter(page,'#affiliation-select','nato');await expect(page.locator('#map-legend')).toContainText('OTAN');
+ await selectFilter(page,'#theme-select','gdp');await expect(page.locator('#map-legend')).toContainText('PIB total');await expect(page.locator('#map-legend')).not.toContainText('OTAN');
+ await closeTools(page);const legend=(await page.locator('#map-legend').boundingBox())!;expect(legend.x).toBeGreaterThan(900);expect(legend.y+legend.height).toBeLessThan(784);
  await year(page,1947);await page.locator('#layers-button').click();await expect(page.locator('#affiliation-select')).toBeEnabled();await expect(page.locator('#affiliation-select')).toHaveValue('');await expect(page.locator('#physical-layer')).toBeEnabled();
  await expect(page.locator('#affiliation-help')).toContainText('1880');
- await page.locator('#affiliation-select').selectOption('un');await expect(page.locator('#map-legend')).toContainText('57 miembros');await expect(page.locator('#map-legend')).toContainText('1947');
- await page.locator('#affiliation-select').selectOption('nato');await expect(page.locator('#map-legend')).toContainText('no está activa');
- await page.locator('#physical-layer').click();await expect(page.locator('#physical-layer')).toHaveAttribute('aria-pressed','true');await page.locator('#physical-layer').click();await page.locator('#close-layers').click();
- await year(page,1879);await page.locator('#layers-button').click();await expect(page.locator('#affiliation-select')).toBeDisabled();await expect(page.locator('#affiliation-select')).toHaveValue('');await page.locator('#close-layers').click();
+ await selectFilter(page,'#affiliation-select','un');await expect(page.locator('#map-legend')).toContainText('57 miembros');await expect(page.locator('#map-legend')).toContainText('1947');
+ await selectFilter(page,'#affiliation-select','nato');await expect(page.locator('#map-legend')).toContainText('no está activa');
+ await page.locator('#layers-button').click();await page.locator('#physical-layer').click();await expect(page.locator('#physical-layer')).toHaveAttribute('aria-pressed','true');await page.locator('#physical-layer').click();await closeTools(page);
+ await year(page,1879);await page.locator('#layers-button').click();await expect(page.locator('#affiliation-select')).toBeDisabled();await expect(page.locator('#affiliation-select')).toHaveValue('');await closeTools(page);
  await year(page,-300000000);await page.locator('#layers-button').click();await expect(page.locator('#physical-layer')).toBeDisabled();
  await page.setViewportSize({width:390,height:844});await expect(page.locator('.maplibregl-ctrl-scale')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
 });

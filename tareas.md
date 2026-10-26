@@ -1,6 +1,30 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.18.0 · revisión de1800–1900 y formas de gobierno
+## Encargo vigente · 0.19.0 · ampliación hasta 1700 y filtros separados
+
+El propietario solicita ampliar 1700–1799, priorizando símbolos y soberanos de los Estados germanos y de Asia, y corregir huecos de símbolos todavía presentes en1800. Añadir un botón de embudo a la izquierda deCapas; trasladar allí forma política/régimen, alianzas/organizaciones y color del mapa. Ocultar categorías con cero entidades en el año consultado. Conservar el filtro activo entre fechas mediante un aviso y opción de quitarlo si deja de tener resultados, sin llenar el selector de opciones vacías. Mantener comprobaciones locales y envío sin esperarActions/Pages.
+
+- [x] Separar Filtros yCapas; opciones positivas, aviso/reset del filtro vacío, foco y móvil comprobados.
+- [x] Geometría anual1700–1799:853 intervalos adicionales y58 reglas de identidad; conservación de los archivos anteriores comprobada.
+- [x] Ampliar autoridades:242 intervalos revisados más33 deIndia/Siam, adquisición general y retratos disponibles. Títulos y precisión explícitos; no un censo mundial completo.
+- [x]39 ventanas de símbolos;6.540 medios totales,236 adicionales. Mon, sellos, armas y pabellones identificados; nueve candidatos pendientes/rechazados. Fragmento deSunjo sin rostro excluido como retrato identificativo, con fuente.
+- [x]29 formas institucionales,32 referencias urbanas y15 contextos nuevos; seis puntos regionales de conflictos.16 sedes soberanas de Estados germanos agrupados son buscables y abren ficha; no aportan fronteras individuales.
+- [x] Auditoría anual por ruta real en[REVIEW-1700-1799.json](docs/REVIEW-1700-1799.json):12.659 entidades/año;8.747 casos sin autoridad,9.945 sin símbolo y81 personas/órganos sin retrato.
+- [x]182 pruebas/43 archivos y tipos correctos. Cuatro recorridos de navegador correctos en3,8min: filtros, cero resultados, móvil, sedes germanas, fichas persistentes, autoridades y símbolos; revisión visual. La prueba antigua de inicio1800 se actualizó a1700 y el recorrido completo final pasó.
+- [x] Integridad local:63 recursos de datos,11 franjas tipográficas y6.540 medios conSHA-256 correctos. Compilación final correcta. Repetición focal del nuevo siglo después del ajuste documental de imágenes:1 recorrido correcto en45,7s.
+- [x]6.614 recursos de datos, tipografías y medios preparados enGit comprobados byte a byte. Entrega0.19.0 preparada paraorigin/main; el resultado del envío se confirma al cerrar. Publicación pendiente del aviso del propietario; no esperarActions/Pages.
+
+### Pendientes de investigación que siguen abiertos
+
+- [ ] Completar el inventario mundial1700–1799: autoridades regionales, regencias, banderas/estandartes documentados, fechas intranuales y calendarios. Un hueco no demuestra ausencia de gobernante o de símbolo.
+- [ ] Obtener contornos individuales fechados para los Estados germanos agrupados. No convertir las sedes en fronteras ni extrapolar un mapa de1783 a todo el siglo.
+- [ ] Cotejar símbolos safávidas/afsháridas/zand, mogoles y dekanatos, así como numerosos Estados africanos. No aceptar categorías ficticias, archivos con fecha sólo en el título o diseños posteriores sin prueba de continuidad.
+- [ ] Completar control territorial de guerras delXVIII con fuentes geométricas; los puntos regionales no sustituyen frentes. Mantener las carencias previas1800–1900.
+- [ ] Revisar la publicación sólo cuando el propietario confirme el despliegue.
+
+Preparadores, fuentes y límites en[RESEARCH-1700.md](docs/RESEARCH-1700.md); continuidad en sección31 deagentes.md.
+
+## Entrega anterior · 0.18.0 · revisión de1800–1900 y formas de gobierno
 
 Revisar banderas y autoridades, especialmente los ejemplos señalados de Europa, América y África. Incorporar clasificación política fechada y filtro de capas, y corregir/ampliar capitales, ciudades y presentación de ocupaciones/conflictos. No dar por completados huecos no investigados. Mantener la instrucción de subir tras comprobar localmente sin esperar Actions/Pages.
 

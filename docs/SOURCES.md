@@ -167,3 +167,7 @@ Adquisición aislada, cargos explícitos y52 medios nuevos con licencia propia. 
 ## Revisión0.18 ·1800–1900 y formas de gobierno
 
 Autoridades y símbolos revisados con fuentes por intervalo. Taxonomía institucional CC0 y serie separada V-Dem2026v16/OWID,1789–2025,CCBY-SA4.0, DOI10.23696/vdemds26. La serie no se extrapola a2026 ni se atribuye a colonias a través de sus administradores.68 referencias urbanas y32 puntos de conflictos; estos puntos no son frentes. [Fuentes, transformaciones y límites](REVIEW-0.18.md); [licencia de la serie](../public/data/LICENSE-REGIMES-CC-BY-SA-4.0.txt).
+
+## Ampliación1700–1799 ·0.19
+
+853 intervalos Cliopatria adicionales con los mismos identificadores y coordenadas de origen, sin sustituir los archivos anteriores.275 intervalos de cargos revisados,39 ventanas de símbolos con tipo explícito y referencias seleccionables de sedes germanas agrupadas. Las enseñas institucionales Qing, el mon Tokugawa y los sellos Joseon no se presentan como banderas nacionales modernas. Los diseños posteriores y ficticios se rechazan. [Investigación y licencias individuales](RESEARCH-1700.md), [auditoría anual y huecos nominales](REVIEW-1700-1799.json). La evaluación política V-Dem conserva su cobertura1789–2025.

@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q582779",
+  "name": "Sikhs",
+  "qid": "Q582779",
+  "aliases": [
+    "Sikhs"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q582779"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9500",
+      "start": 1709,
+      "end": 1712,
+      "name": "Sikhs",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9542",
+      "start": 1713,
+      "end": 1717,
+      "name": "Sikhs",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1800.geojson",
+      "recordId": 620,
+      "start": null,
+      "end": null,
+      "name": "Sikhs",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

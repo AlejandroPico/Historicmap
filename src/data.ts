@@ -22,9 +22,9 @@ const geometryCache=new Map<number,Polygon|MultiPolygon>();
 let names:Map<string,string>|undefined;
 export async function annualData(year:number){
   if(year<1886){
-    const data=await asset<FeatureCollection>('early-modern.geojson');
+    const data=await asset<FeatureCollection>(year<1789?'early-modern-1700.geojson':'early-modern.geojson');
     let selected=pacificComponents({...data,features:data.features.filter(f=>f.properties!.start<=year&&f.properties!.end>=year)},year);
-    if(year>=1800)selected=resolve1880(selected,year,await asset<EntityResolution>(year>=1880?'historical-1880-entities.json':year>=1860?'historical-1860-entities.json':year>=1840?'historical-1840-entities.json':year>=1820?'historical-1820-entities.json':'historical-1800-entities.json'));
+    if(year>=1700)selected=resolve1880(selected,year,await asset<EntityResolution>(year>=1880?'historical-1880-entities.json':year>=1860?'historical-1860-entities.json':year>=1840?'historical-1840-entities.json':year>=1820?'historical-1820-entities.json':year>=1800?'historical-1800-entities.json':'historical-1700-entities.json'));
     return year>=1800?pacificReferences(selected,year,await asset<FeatureCollection>('pacific-references.geojson')):selected;
   }
   const [history,profiles,supplements]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1900?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined)]);

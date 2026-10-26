@@ -1,0 +1,68 @@
+{
+  "key": "HIST-Q71234",
+  "name": "Corsican Republic",
+  "qid": "Q71234",
+  "aliases": [
+    "Corsican Republic"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q71234"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q152346",
+      "role": "Jefatura del Gobierno",
+      "start": "1755-11-01",
+      "end": "1769-05-01",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q71234",
+      "sourceStatement": "Q71234$40e938d0-402f-5331-ffd9-711db4e494e5",
+      "acquisition": "historical-0.19",
+      "name": "Pasquale Paoli",
+      "portrait": {
+        "file": "media/portrait-e5ff1f5f8436c536d22e.jpg",
+        "title": "Musée de Bastia Pascal Paoli Varese MEC 84 2 2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Bastia_Pascal_Paoli_Varese_MEC_84_2_2.jpg",
+        "artist": "\nIgnace-Louis Varese",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Bastia_Pascal_Paoli_Varese_MEC_84_2_2.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Christelle Molinié",
+        "sha256": "7a2ea6b477e1791c830c6718081a0012616f8fa4b8f91ff28efe1f1b259cf073",
+        "bytes": 41511,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Mus%C3%A9e_de_Bastia_Pascal_Paoli_Varese_MEC_84_2_2.jpg/330px-Mus%C3%A9e_de_Bastia_Pascal_Paoli_Varese_MEC_84_2_2.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9904",
+      "start": 1757,
+      "end": 1762,
+      "name": "Corsican Republic",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-10012",
+      "start": 1763,
+      "end": 1768,
+      "name": "Corsican Republic",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

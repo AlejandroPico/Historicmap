@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q195972",
+  "name": "Kingdom of Kartli",
+  "qid": "Q195972",
+  "aliases": [
+    "Kingdom of Kartli"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q195972"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-8614",
+      "start": 1700,
+      "end": 1701,
+      "name": "Kingdom of Kartli",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9427",
+      "start": 1702,
+      "end": 1705,
+      "name": "Kingdom of Kartli",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

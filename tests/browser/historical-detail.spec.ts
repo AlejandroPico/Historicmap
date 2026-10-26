@@ -1,3 +1,4 @@
+import {openFilters,closeTools,selectFilter} from './tools';
 import {test,expect,type Page} from '@playwright/test';
 async function date(page:Page,y:number){await page.goto(`/#year=${y}&view=mercator`);await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(y),{timeout:45000});}
 async function search(page:Page,name:string){await page.locator('#search-button').click();await page.locator('#search-input').fill(name);await page.locator('#search-results button').first().click();}
@@ -16,13 +17,13 @@ test('compact search has no backdrop, supports keyboard and stays open during da
 });
 
 test('organizations remain selected through historical years and respect formation and dissolution',async({page})=>{
- await date(page,1990);await page.locator('#layers-button').click();
+ await date(page,1990);await openFilters(page);
  expect(await page.locator('#affiliation-select option').count()).toBeGreaterThanOrEqual(28);
- await page.locator('#affiliation-select').selectOption('warsaw');await expect(page.locator('#map-legend')).toContainText('1990');
- await page.locator('#close-layers').click();await page.goto('/#year=1991&view=mercator');
+ await selectFilter(page,'#affiliation-select','warsaw');await expect(page.locator('#map-legend')).toContainText('1990');
+ await closeTools(page);await page.goto('/#year=1991&view=mercator');
  await expect(page.locator('#map')).toHaveAttribute('data-loaded-year','1991',{timeout:45000});
  await expect(page.locator('#affiliation-select')).toHaveValue('warsaw');await expect(page.locator('#map-legend')).toContainText('no está activa');
- await page.locator('#layers-button').click();await page.locator('#affiliation-select').selectOption('eu');await page.locator('#close-layers').click();
+ await openFilters(page);await selectFilter(page,'#affiliation-select','eu');await closeTools(page);
  await page.goto('/#year=2020&view=mercator');await expect(page.locator('#map')).toHaveAttribute('data-loaded-year','2020',{timeout:45000});
  await expect(page.locator('#map-legend')).toContainText('2020');await search(page,'Reino Unido');
  await page.getByRole('tab',{name:'Datos',exact:true}).click();await expect(page.locator('#pane-facts')).toContainText('Unión Europea');

@@ -1,3 +1,4 @@
+import {openFilters,closeTools,selectFilter} from './tools';
 import {test,expect,type Page} from '@playwright/test';
 async function ready(page:Page,y:number){await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(y),{timeout:60000});}
 async function search(page:Page,name:string){await page.locator('#search-button').click();await page.locator('#search-input').fill(name);await page.locator('#search-results button').first().click();}
@@ -13,7 +14,7 @@ test('1970 authorities, dated organisations and Soviet colour-family context sta
  await date(page,1989);await expect(page.locator('#selection')).toHaveAttribute('data-entity','BGR');await expect(page.locator('#tab-territory')).toHaveAttribute('aria-selected','true');await expect(page.locator('#pane-territory')).not.toContainText('Vinculación política y color');
  await date(page,1970);await page.getByRole('tab',{name:'Relaciones',exact:true}).click();await expect(page.locator('#pane-relations')).toContainText('Varsovia');
  await page.locator('#pane-relations [data-map-affiliation="warsaw"]').click();await expect(page.locator('#map-legend')).toContainText('1970');
- await page.locator('#layers-button').click();await expect(page.locator('#affiliation-select')).toBeEnabled();await page.locator('#affiliation-select').selectOption('');await page.locator('#close-layers').click();
+ await openFilters(page);await expect(page.locator('#affiliation-select')).toBeEnabled();await selectFilter(page,'#affiliation-select','');await closeTools(page);
  await page.screenshot({path:'test-results/1970-authorities-and-relations.png'});
 });
 

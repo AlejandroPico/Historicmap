@@ -1,0 +1,96 @@
+{
+  "key": "HIST-Q157367",
+  "name": "Brandenburg-Prussia",
+  "qid": "Q157367",
+  "aliases": [
+    "Brandenburg-Prussia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q157367"
+  },
+  "flags": [
+    {
+      "start": "1700-01-01",
+      "end": "1700-12-31",
+      "media": {
+        "file": "media/flag-e56de76bdce0f416131b.svg",
+        "title": "Flag of Brandenburg (1657-1701).svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Brandenburg_(1657-1701).svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Brandenburg_%281657-1701%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Armoiries_électeur_Brandebourg.svg: Odejea\nderivative work: Amber and Black (talk)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Armoiries_électeur_Brandebourg.svg\nhttps://www.fotw.info/flags/de-br_hi.html",
+        "attribution": "",
+        "attributionRequired": true,
+        "sha256": "949b3943e1e76fa0c2934b2798c5615c31afbbc07a577de5dff9e708c3d32421",
+        "bytes": 35056,
+        "symbolLabel": "Enseña electoral",
+        "presentationNote": "Gorro electoral, sin anticipar la corona real y los atributos de1701.",
+        "symbolEvidenceURL": "https://commons.wikimedia.org/wiki/File:Flag_of_Brandenburg_(1657-1701).svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Brandenburg_(1657-1701).svg",
+      "note": "Gorro electoral, sin anticipar la corona real y los atributos de1701.",
+      "acquisition": "symbols-review-0.19"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q151826",
+      "name": "Federico III",
+      "role": "Elector de Brandeburgo y duque de Prusia",
+      "start": "1700-01-01",
+      "end": "1701-01-18",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Frederick_I_of_Prussia",
+      "curated": true,
+      "note": "Ventana del cargo indicada; precisión anual cuando el día o el calendario no están contrastados. Los reinados rivales no implican control uniforme.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1700-0.19",
+      "portrait": {
+        "file": "media/portrait-df809552f50d89878114.jpg",
+        "title": "Antoine Pesne; Frederik I von Preußen.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Antoine_Pesne;_Frederik_I_von_Preu%C3%9Fen.jpg",
+        "artist": "Antoine Pesne",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Antoine_Pesne;_Frederik_I_von_Preu%C3%9Fen.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Unknown sourceUnknown source",
+        "sha256": "a5aa74ef5f9dd73a5af1d98abde74e34fe7cb48e49726441e18366c04598e56b",
+        "bytes": 49406,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Antoine_Pesne%3B_Frederik_I_von_Preu%C3%9Fen.jpg/330px-Antoine_Pesne%3B_Frederik_I_von_Preu%C3%9Fen.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9393",
+      "start": 1700,
+      "end": 1717,
+      "name": "Brandenburg-Prussia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9589",
+      "start": 1718,
+      "end": 1720,
+      "name": "Brandenburg-Prussia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

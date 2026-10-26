@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q598570",
+  "name": "Sloboda Ukraine",
+  "qid": "Q598570",
+  "aliases": [
+    "Sloboda Ukraine"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q598570"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9092",
+      "start": 1700,
+      "end": 1751,
+      "name": "Sloboda Ukraine",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9886",
+      "start": 1752,
+      "end": 1762,
+      "name": "Sloboda Ukraine",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-10035",
+      "start": 1763,
+      "end": 1768,
+      "name": "Sloboda Ukraine",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

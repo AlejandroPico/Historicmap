@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.18.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.19.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.18 en la sección 30; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de0.19 en la sección31; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente 0.18 (26/10/2026):** revisar banderas y autoridades de 1800–1900, incorporar formas de gobierno fechadas y filtro, y mejorar ciudades y conflictos. No ampliar otra franja ni declarar cerrado el inventario mundial. Verificar localmente y subir sin esperar Actions/Pages; detalle en sección 30 y tareas.md.
+**Encargo vigente0.19 (26/10/2026):** ampliar hasta1700, priorizar autoridades y símbolos germanos/asiáticos y separar filtros deCapas mediante un embudo. Ocultar categorías sin entidades en el año; conservar filtros activos con aviso si quedan vacíos. Esta petición sustituye el límite de1800 de la entrega anterior; no declara cerrados los huecos mundiales. Verificar localmente y subir sin esperarActions/Pages; detalle en sección31 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -717,3 +717,20 @@ El propietario pide revisar1800–1900 mundialmente, incluidos Estados germanos,
 - Comprobaciones locales y envío en tareas.md. Mantener la instrucción de terminar al confirmar el push; el propietario revisaráActions/Pages.
 
 Validación de entrega: 179 pruebas en 42 archivos correctas; siete comprobaciones focales después de precisar límites de cobertura. Tipos, compilación y tres recorridos de navegador correctos, con revisión visual móvil y de escritorio. Integridad de 61 recursos de datos, 11 franjas tipográficas y 6.304 medios; 6.376 recursos preparados en Git comprobados byte a byte. Catálogo: 546 claves de autoridades, 12.978 registros de mandatos y 2.782 carpetas. El resultado del envío se confirma al cerrar, sin esperar el despliegue.
+
+
+## 31. Ampliación1700–1799 y Filtros separados ·0.19.0
+
+El propietario solicita ampliar cien años y priorizar Estados germanos y símbolos asiáticos, corrigiendo también huecos de1800. Se sustituye el límite anterior de1800 por navegación anual desde1700. Fuentes, preparación y carencias en[RESEARCH-1700.md](docs/RESEARCH-1700.md); auditoría nominal en[REVIEW-1700-1799.json](docs/REVIEW-1700-1799.json). No llamar a esta cobertura una revisión mundial completa.
+
+- Nuevo embudo inmediatamente a la izquierda deCapas. Forma política/régimen, color y organizaciones se trasladan aFiltros. Las opciones se calculan antes del filtrado y sólo aparecen con recuento positivo. Si una selección pierde coincidencias, se conserva con aviso y acciónQuitar filtro fuera del selector. No reintroducir opciones de cero entidades. Escape conserva la ficha y devuelve el foco al embudo.
+-853 intervalos adicionales deCliopatria1700–1788 con índices y coordenadas originales; archivos anteriores intactos.58 reglas de identidad fechadas. Los IDs corrigidos y las administraciones no se deducen de países contemporáneos.
+-242 intervalos de cargos revisados más33 deIndia/Siam. Conservar títulos, regencias, precisiones y ámbito. El estatúder no es rey; el vakil deKarimKhan no se convierte en shah; los cargos peshwa/chhatrapati y emperador/shogun permanecen distintos. No aceptar el homónimoRajaram deKolhapur del sigloXIX como RajaramIIdeSatara. Los calendarios rusos divergentes y varios británicos se publican como observaciones anuales, no como días gregorianos supuestamente exactos.
+-39 ventanas de símbolos y6.540 medios acreditados. Mon Tokugawa, enseña institucional Qing y sellos Joseon no son banderas nacionales modernas. No retrotraer las banderas Qing/Corea delXIX ni la atribución navalTokugawa de1860. Nueve candidatos rechazados/pendientes quedan registrados. El fragmento deSunjo sin rostro reconocible queda excluido como retrato identificativo, con fuente delMuseo delPalacio; sus fechas y nombre permanecen.
+-16 referencias de sedes soberanas permiten consultar Estados germanos que la fuente agrupa. Son puntos seleccionables y buscables, con ficha persistente y comparación. No les atribuir el contorno imperial ni inventar polígonos. Mantener canonicalFeature para puntos y selección territorial exacta por ID; no reintroducir la contaminación deEspaña en países ajenos.
+-29 registros de formas,32 referencias urbanas y15 fases documentales adicionales. Seis puntos regionales de conflictos no son frentes. V-Dem/OWID conserva inicio1789, sin puntuaciones inventadas para1700.
+- Catálogo629 claves/13.881 registros/2.841 carpetas. Auditoría12.659 entidades/año;8.747 casos sin autoridad,9.945 sin símbolo y81 personas/órganos sin retrato en los registros disponibles. Los puntos de Estados agrupados se cuentan aparte. Completar estas carencias, geometrías individuales, regencias, símbolos y frentes sigue pendiente.
+
+Un solo escritor deidentidades/medios; preparadores y candidatos congelados descritos enRESEARCH-1700. RegenerarPaíses después de todas las escrituras. La compilación no consulta proveedores históricos. Mantener comprobaciones locales, registrar resultados y subir; terminar al confirmar el envío sin esperar ni sondearActions/Pages. El propietario verifica la publicación.
+
+Cierre local0.19:182 pruebas/43 archivos, tipos y compilación correctos; cuatro recorridos de navegador y una repetición focal final correctos.63 datos,11 franjas y6.540 medios íntegros;6.614 recursos preparados enGit comprobados byte a byte. La publicación no se ha comprobado. Confirmar el resultado del envío al cerrar el turno y conservar los pendientes nominales.

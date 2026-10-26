@@ -1,0 +1,129 @@
+{
+  "key": "RUSSIA-TSARDOM",
+  "name": "Zarato de Rusia",
+  "qid": "Q186096",
+  "aliases": [
+    "Tsardom of Russia",
+    "Zarato de Rusia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "RUSSIA-TSARDOM"
+  },
+  "flags": [
+    {
+      "start": "1705-01-01",
+      "end": "1720-12-31",
+      "media": {
+        "file": "media/flag-0678d2508ffaab9fffcb.svg",
+        "title": "Flag of Russia.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+        "artist": "Peter the Great",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "Государственный флаг Российской Федерации. Цвета флага: (Blue - Pantone 286 C, Red - Pantone 485 C) взяты из [1][2][3][4]",
+        "sha256": "eb1dbd977fdb824dcae7767ce9ec3a023e41158e81b5f524772609ddcb622025",
+        "bytes": 200,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg",
+        "attribution": "",
+        "attributionRequired": false,
+        "symbolLabel": "Pabellón mercante ruso",
+        "presentationNote": "Tricolor blanco, azul y rojo prescrito por PedroI para buques mercantes en1705. No es la bandera imperial negra, amarilla y blanca del sigloXIX.",
+        "symbolEvidenceURL": "https://www.prlib.ru/news/1163137"
+      },
+      "source": "https://www.prlib.ru/news/1163137",
+      "note": "Tricolor blanco, azul y rojo prescrito por PedroI para buques mercantes en1705. No es la bandera imperial negra, amarilla y blanca del sigloXIX.",
+      "acquisition": "symbols-review-0.19"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q8479",
+      "name": "Pedro I de Rusia",
+      "role": "Zar de Rusia",
+      "start": "1700-01-01",
+      "end": "1721-11-02",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Peter_the_Great",
+      "curated": true,
+      "note": "Cargo histórico contrastado por su reinado; no derivado de una institución moderna.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1700-0.19",
+      "portrait": {
+        "file": "media/portrait-fe5360fd4ec3e8bdaddd.jpg",
+        "title": "Inconnu d'après J.-M. Nattier, Portrait de Pierre Ier (musée de l’Ermitage).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Inconnu_d%27apr%C3%A8s_J.-M._Nattier,_Portrait_de_Pierre_Ier_(mus%C3%A9e_de_l%E2%80%99Ermitage).jpg",
+        "artist": "Attributed to Jean-Marc Nattier",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Inconnu_d%27apr%C3%A8s_J.-M._Nattier,_Portrait_de_Pierre_Ier_(mus%C3%A9e_de_l%E2%80%99Ermitage).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "4. The Hermitage, St. Petersburg3. Unknown sourceUnknown source2. http://img15.nnm.ru/3/c/9/6/9/3223e6d548f3dff6bc0cb50f947.jpg1. The Hermitage, St. Petersburg",
+        "sha256": "cc8989192f7747e8aa47699612f8fe40319f424c89c2b1faaf515cbcb7cc8862",
+        "bytes": 37321,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Inconnu_d%27apr%C3%A8s_J.-M._Nattier%2C_Portrait_de_Pierre_Ier_%28mus%C3%A9e_de_l%E2%80%99Ermitage%29.jpg/330px-Inconnu_d%27apr%C3%A8s_J.-M._Nattier%2C_Portrait_de_Pierre_Ier_%28mus%C3%A9e_de_l%E2%80%99Ermitage%29.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9356",
+      "start": 1700,
+      "end": 1701,
+      "name": "Tsardom of Russia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9406",
+      "start": 1702,
+      "end": 1705,
+      "name": "Tsardom of Russia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9461",
+      "start": 1706,
+      "end": 1708,
+      "name": "Tsardom of Russia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9484",
+      "start": 1709,
+      "end": 1712,
+      "name": "Tsardom of Russia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9557",
+      "start": 1713,
+      "end": 1717,
+      "name": "Tsardom of Russia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9586",
+      "start": 1718,
+      "end": 1720,
+      "name": "Tsardom of Russia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -25,9 +25,9 @@ Abrir la dirección local que indique Vite. Para generar la aplicación estátic
 
 - Mapa vectorial 2D y globo 3D con zoom, selección y búsqueda local en panel compacto sin oscurecer el mapa.
 - Regla temporal arrastrable con indicador, fecha y reproducción centrados. La rueda sobre la regla cambia la escala sin desplazar la fecha; sobre el mapa hace zoom geográfico. Las teclas más/menos ajustan la escala y las flechas recorren el tiempo.
-- Mapa a pantalla completa con siete herramientas en la esquina superior derecha, sin cabecera ni franjas de controles alrededor de la regla. Capas en un panel desplegable.
+- Mapa a pantalla completa con ocho herramientas en la esquina superior derecha, sin cabecera ni franjas de controles alrededor de la regla. Filtros y Capas en paneles separados.
 - Navegación entre 4.540 Ma y el año del dispositivo, con escala adaptativa no uniforme y años introducidos por el usuario.
-- Cronología anual desde 1789: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
+- Cronología anual desde 1700: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
 - Control territorial opaco por potencia; colores específicos de regímenes, clientes y bandos. Primera y Segunda Guerra Mundial, Guerra Civil española 1936–1939 y control comunista chino, además de Sinaí, Golán y Crimea. Fuentes anuales y frente de octubre de 1937 identificados con su precisión.
 - [Corrección deEuropaCentral1938–1939](docs/CENTRAL-EUROPE-1939.md): sin manchas alemanas remotas, territorio integrado y Estado eslovaco cliente separado. El contorno eslovaco es una referencia recortada, no un levantamiento exacto de1939.
 - Banderas históricas, autoridades y retratos en las fichas. Catálogo ampliado de mandatos desde1880, con Estados predecesores, administraciones coloniales y cobertura mundial desigual; cada imagen conserva su licencia y autoría. [Alcance y fuentes1900–1919](docs/RESEARCH-1900.md) y [auditoría nominal de carencias](docs/REVIEW-1900-1919.json).
@@ -63,7 +63,7 @@ GitHub Actions valida datos, pruebas temporales/históricas/estadísticas, compi
 
 Consultar **[agentes.md](agentes.md)** antes de modificar el proyecto. Contiene la visión completa, decisiones, arquitectura, roadmap, reglas de colaboración y estado real. [AGENTS.md](AGENTS.md) es el punto de entrada para asistentes que detectan ese nombre automáticamente.
 
-Las fuentes, licencias, atribuciones y límites se documentan en [docs/SOURCES.md](docs/SOURCES.md). `public/data/manifest.json` registra los 35 recursos locales, versiones, URLs, transformaciones y SHA-256. `npm run data:fetch` actualiza explícitamente las 26 instantáneas originales, conservando las nuevas capas. La adquisición y reconstrucción de las capas recientes se explica en SOURCES. No se descargan datos nuevos durante la compilación ni desde las fichas.
+Las fuentes, licencias, atribuciones y límites se documentan en [docs/SOURCES.md](docs/SOURCES.md). `public/data/manifest.json` registra63 recursos locales, versiones, URLs, transformaciones y SHA-256. `npm run data:fetch` actualiza explícitamente las 26 instantáneas originales, conservando las nuevas capas. La adquisición y reconstrucción de las capas recientes se explica en SOURCES. No se descargan datos nuevos durante la compilación ni desde las fichas.
 
 La cartografía funciona sin API key. Las geometrías, perfiles, series y letras del mapa utilizadas son locales. El relieve (AWS) y las fuentes tipográficas de interfaz (Google Fonts) requieren conexión. La aplicación no envía búsquedas a servicios externos ni incorpora analítica. No está implementada como aplicación instalable o completamente offline.
 
@@ -84,3 +84,5 @@ Actualización0.16.0: ampliación documental1820–1839. [Alcance, fuentes y pen
 Actualización0.17.0: ampliación documental1800–1819. [Alcance, fuentes y pendientes](docs/DELIVERY-0.17.0.md).
 
 Actualización0.18.0: revisión de símbolos y soberanos, clasificación política fechada y filtros, ciudades históricas y episodios de conflictos. [Alcance y carencias](docs/REVIEW-0.18.md).
+
+Actualización0.19.0: navegación anual hasta1700, símbolos y soberanos fechados, sedes de Estados germanos agrupados y nuevo panel deFiltros con opciones vacías ocultas. [Fuentes, cobertura y carencias](docs/RESEARCH-1700.md).

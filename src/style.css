@@ -466,3 +466,5 @@ html[data-appearance=morning]{--chart-2:#27677d;--chart-3:#8b4679;--chart-4:#397
 @media(max-width:760px){.portrait-frame{width:82px;height:108px}}
 
 .government-tags{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.government-tags .secondary-button{font-size:11px;padding:6px 8px}.government-record{padding-bottom:12px;border-bottom:1px solid var(--line)}.government-legend{padding-bottom:8px}.government-legend small{display:block}
+
+.filters-panel{position:absolute;right:16px;top:70px;width:310px;z-index:9;border:1px solid var(--line);border-radius:4px;background:var(--panel);backdrop-filter:blur(14px);box-shadow:0 10px 30px #0002;max-height:calc(100dvh - 210px);overflow:auto;scrollbar-width:thin}.filters-panel .layers{padding:4px 14px 14px}.active-filter-note{font-size:11px;line-height:1.6;padding:8px 0}.active-filter-note p{margin:0 0 8px}@media(max-width:760px){.filters-panel{right:12px;top:58px;width:min(330px,calc(100vw - 24px))}}

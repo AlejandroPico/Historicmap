@@ -1,3 +1,4 @@
+import {openFilters,closeTools,selectFilter} from './tools';
 import {test,expect,type Page} from '@playwright/test';
 import {PRESENT} from '../../src/time';
 async function date(page:Page,year:number){await page.locator('#date-button').click();await page.locator('#date-input').fill(String(year));await page.locator('#date-form button').click();await expect(page.locator('#map')).toHaveAttribute('data-loaded-year',String(year),{timeout:45000});}
@@ -31,7 +32,7 @@ test('WWII playback progresses annually, pauses precisely and opens historical p
  await expect(page.locator('#map')).toHaveAttribute('data-overlays','0');
  await page.locator('#layers-button').click();await page.locator('#occupations-layer').click();
  await expect(page.locator('#map-legend')).toContainText('síntesis anual');
- await expect(page.locator('#map')).not.toHaveAttribute('data-overlays','0');await page.locator('#close-layers').click();
+ await expect(page.locator('#map')).not.toHaveAttribute('data-overlays','0');await closeTools(page);
  await search(page,'Alemania nazi');await expect(page.locator('#selection-text')).toContainText('dictadura nacionalsocialista');
  await expect(page.locator('#pane-facts')).not.toContainText('PIB nominal');await expect(page.locator('#pane-economy .country-facts small')).toHaveCount(0);await expect(page.locator('#pane-economy')).toContainText('Sin dato para esta fecha');
  await page.screenshot({path:'test-results/1942-profile.png'});
@@ -48,11 +49,11 @@ test('modern country facts, global cities and economic layers retain observation
  await page.screenshot({path:'test-results/country-profile.png'});await page.locator('#close-selection').click();
  await page.locator('#layers-button').click();await page.locator('#places-layer').click();
  await expect(page.locator('#map')).toHaveAttribute('data-places','323');
- await page.locator('#theme-select').selectOption('gdpPerCapita');
+ await selectFilter(page,'#theme-select','gdpPerCapita');
  await expect(page.locator('#map-legend')).toContainText('PIB por habitante',{timeout:45000});await expect(page.locator('#map-legend')).toContainText('Banco Mundial');
- await page.locator('#close-layers').click();await page.screenshot({path:'test-results/economy.png'});
+ await closeTools(page);await page.screenshot({path:'test-results/economy.png'});
  await date(page,1942);await page.locator('#layers-button').click();await expect(page.locator('#theme-select')).toHaveValue('political');await expect(page.locator('#theme-select')).toBeDisabled();
- await page.locator('#close-layers').click();expect(Number(await page.locator('#map').getAttribute('data-places'))).toBeGreaterThan(120);
+ await closeTools(page);expect(Number(await page.locator('#map').getAttribute('data-places'))).toBeGreaterThan(120);
  await page.setViewportSize({width:390,height:844});await search(page,'India');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
  const box=await page.locator('#selection').boundingBox();expect(box!.y).toBeGreaterThanOrEqual(0);expect(box!.y+box!.height).toBeLessThan(844);

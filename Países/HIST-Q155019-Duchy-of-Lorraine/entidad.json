@@ -1,0 +1,58 @@
+{
+  "key": "HIST-Q155019",
+  "name": "Duchy of Lorraine",
+  "qid": "Q155019",
+  "aliases": [
+    "Duchy of Lorraine"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q155019"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9373",
+      "start": 1700,
+      "end": 1701,
+      "name": "Duchy of Lorraine",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9535",
+      "start": 1713,
+      "end": 1733,
+      "name": "Duchy of Lorraine",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9839",
+      "start": 1748,
+      "end": 1756,
+      "name": "Duchy of Lorraine",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-10003",
+      "start": 1763,
+      "end": 1768,
+      "name": "Duchy of Lorraine",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

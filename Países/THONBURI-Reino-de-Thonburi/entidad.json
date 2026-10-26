@@ -1,0 +1,105 @@
+{
+  "key": "THONBURI",
+  "name": "Reino de Thonburi",
+  "qid": "Q1115291",
+  "aliases": [
+    "Reino de Thonburi",
+    "Thonburi Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "THONBURI"
+  },
+  "flags": [
+    {
+      "start": "1767-01-01",
+      "end": "1781-12-31",
+      "media": {
+        "file": "media/flag-352a44c3efe7ccd3d47b.svg",
+        "title": "Flag of Thailand (Ayutthaya period).svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Thailand_(Ayutthaya_period).svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Thailand_%28Ayutthaya_period%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Xiengyod",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Thailand_(Ayutthaya_period).svg#Licensing",
+        "credit": "Own work",
+        "attribution": "",
+        "attributionRequired": true,
+        "sha256": "a872d30a63a7e3b0545704254091a3eafe227f481a17613e9ba14577f4488023",
+        "bytes": 161,
+        "symbolLabel": "Pabellón marítimo rojo",
+        "presentationNote": "Enseña roja lisa de la navegación siamesa, documentada desde Ayutthaya. No significa que todos los estandartes reales fueran idénticos.",
+        "symbolEvidenceURL": "https://commons.wikimedia.org/wiki/File:Flag_of_Thailand_(Ayutthaya_period).svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Thailand_(Ayutthaya_period).svg",
+      "note": "Enseña roja lisa de la navegación siamesa, documentada desde Ayutthaya. No significa que todos los estandartes reales fueran idénticos.",
+      "acquisition": "symbols-review-0.19"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q320097",
+      "name": "Taksin",
+      "role": "Rey de Thonburi",
+      "start": "1767-12-28",
+      "end": "1782-04-01",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Taksin",
+      "curated": true,
+      "note": "Cargo histórico contrastado por su reinado; no derivado de una institución moderna.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1700-0.19",
+      "portrait": {
+        "file": "media/portrait-f6eaa9b83811ffe3f4e2.png",
+        "title": "King Taksin of Thonburi Portrait Painting.png",
+        "url": "https://commons.wikimedia.org/wiki/File:King_Taksin_of_Thonburi_Portrait_Painting.png",
+        "artist": "Italian artist or a disciple of a Jesuit.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_Taksin_of_Thonburi_Portrait_Painting.png#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Scan of old portrait",
+        "sha256": "51aed2f95aa63f23d2d7ea0af92360133b72b181b9ec46dfb5da33c3302300cc",
+        "bytes": 286368,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/King_Taksin_of_Thonburi_Portrait_Painting.png/330px-King_Taksin_of_Thonburi_Portrait_Painting.png"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-10080",
+      "start": 1769,
+      "end": 1774,
+      "name": "Thonburi Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-10116",
+      "start": 1775,
+      "end": 1780,
+      "name": "Thonburi Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-10224",
+      "start": 1781,
+      "end": 1782,
+      "name": "Thonburi Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
