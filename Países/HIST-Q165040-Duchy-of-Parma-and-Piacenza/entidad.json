@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q165040",
+  "name": "Duchy of Parma and Piacenza",
+  "qid": "Q165040",
+  "aliases": [
+    "Duchy of Parma and Piacenza"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q165040"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10987",
+      "start": 1815,
+      "end": 1847,
+      "name": "Duchy of Parma and Piacenza",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11498",
+      "start": 1849,
+      "end": 1858,
+      "name": "Duchy of Parma and Piacenza",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11638",
+      "start": 1859,
+      "end": 1859,
+      "name": "Duchy of Parma and Piacenza",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

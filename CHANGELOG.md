@@ -1,5 +1,16 @@
 # Historial de versiones
 
+## 0.15.0 · 2026-10-26
+
+- Ampliación documental de1840 a1859 y recuperación de cargos monárquicos de1840–1879. Corregida la identidad Joseon/Gojoseon y separadas las autoridadesTaiping de la corteQing.
+- Regencias españolas y brasileña, Ejecutivo provisional francés, sucesiones hawaianas y fechas gregorianas del relevo ruso de1855. Contextos y enlaces de navegación con precisión explícita.
+- Doce ventanas adicionales de símbolos, sieteSVG acreditados y180 imágenes raster adicionales, incluidos dos retratos deVictoria por etapas.
+- Auditorías nominales: nueva franja1840–1859 y reducción de huecos anteriores1860–1879. Las carencias de Estados menores, gobiernos y geometrías agregadas permanecen documentadas.
+- Verificación de datos con55 recursos y6.054 medios; pruebas limitadas a un proceso para evitar contención de memoria y disco en los conjuntos geográficos grandes.
+- Enlace de contexto mediante la entidad histórica aunque carezca de código estadístico. Crimea distingue la incorporación gradual de los aliados; añadido contexto Taiping. Límites de observación diferenciados del cese del cargo.
+- Fuentes y límites: docs/RESEARCH-1840.md; comprobaciones en docs/DELIVERY-0.15.0.md; continuidad en tareas.md.
+
+
 ## 0.14.0 · 2026-10-26
 
 - Corregida la selección de identificadores históricos de texto; no se alteran las costas de origen.

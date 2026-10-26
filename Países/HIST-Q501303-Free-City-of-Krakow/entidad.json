@@ -1,0 +1,58 @@
+{
+  "key": "HIST-Q501303",
+  "name": "Free City of Krakow",
+  "qid": "Q501303",
+  "aliases": [
+    "Free City of Krakow"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q501303"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10981",
+      "start": 1815,
+      "end": 1829,
+      "name": "Free City of Krakow",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11209",
+      "start": 1830,
+      "end": 1833,
+      "name": "Free City of Krakow",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11254",
+      "start": 1834,
+      "end": 1841,
+      "name": "Free City of Krakow",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11400",
+      "start": 1842,
+      "end": 1845,
+      "name": "Free City of Krakow",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

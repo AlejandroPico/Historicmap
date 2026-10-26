@@ -57,6 +57,12 @@ export function regimeColor(key:string,year:number):string{
     case 'BRA-EMPIRE':return '#b69852';
     case 'BRA':return year>=1889&&year<=1899?'#659a7e':historicalColor(key)??palette[hashColor(key)];
     case 'JOS':return '#bfa76a';
+    case 'PRUSSIA':return '#627d9b';
+    case 'AUSTRIAN-EMPIRE':return '#b8a367';
+    case 'TWO-SICILIES':return '#b1a786';
+    case 'PAPAL-STATES':return '#c7b777';
+    case 'TEXAS':return '#709bab';
+    case 'HTI':return year>=1849&&year<=1858?'#9c7188':historicalColor(key)??palette[hashColor(key)];
     case 'HAW-KINGDOM':return '#9b7b9e';
     case 'HAW-PROVISIONAL':return '#9c9281';
     case 'HAW-REPUBLIC':return '#a38b61';

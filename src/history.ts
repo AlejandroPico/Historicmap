@@ -81,6 +81,10 @@ export function territorialEntityCode(p:Record<string,any>,year:number):string{
   if(name==='Zimbabwe (Rhodesia)'&&year>=1965&&year<1980)return 'RHO';
   if(name==='Spanish Sahara')return 'ESH';
   const aliases:Record<string,string>={SAH:'ESH',SDS:'SSD',KOS:'XKX',PSX:'PSE'};
+  // A dated historical identity can have no statistical ISO code. Context and
+  // institutions still use its explicit entity code; this does not assign any
+  // observations of a modern successor to the historical polity.
+  if(p.entityCode)return aliases[p.entityCode]??String(p.entityCode);
   return aliases[p.code]??p.code??'';
 }
 export const normalizedName=norm;

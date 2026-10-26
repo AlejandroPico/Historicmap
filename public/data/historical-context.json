@@ -1,6 +1,6 @@
 {
   "referenceDate": "2026-10-22",
-  "startYear": 1860,
+  "startYear": 1840,
   "endYear": 2026,
   "events": [
     {
@@ -6378,6 +6378,307 @@
       "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
       "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
       "precision": 11
+    },
+    {
+      "id": "extension-1840-france-july",
+      "title": "Francia · Monarquía de Julio",
+      "type": "transition",
+      "start": "1840-01-01",
+      "end": "1848-02-24",
+      "countries": [
+        "FRA"
+      ],
+      "text": "Luis Felipe de Orleans gobierna antes de la revolución de febrero de 1848. La denominación borbónica del contorno de fuente no identifica correctamente este régimen.",
+      "source": "https://www.elysee.fr/louis-napoleon-bonaparte",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "id": "extension-1840-france-republic",
+      "title": "Francia · Segunda República",
+      "type": "transition",
+      "start": "1848-02-24",
+      "end": "1852-12-02",
+      "countries": [
+        "FRA"
+      ],
+      "text": "El Gobierno provisional y el Poder Ejecutivo de Cavaignac preceden a la presidencia constitucional. Luis Napoleón es elegido el 10 de diciembre y jura el 20 de diciembre de 1848. El golpe de 1851 y el Imperio de 1852 son cambios distintos.",
+      "source": "https://www.elysee.fr/louis-napoleon-bonaparte",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "id": "extension-1840-france-empire",
+      "title": "Francia · Segundo Imperio",
+      "type": "transition",
+      "start": "1852-12-02",
+      "end": "1860-01-01",
+      "countries": [
+        "FRA"
+      ],
+      "text": "La proclamación imperial transforma el régimen desde diciembre de 1852; el mismo protagonista conserva fases de cargo diferentes. El corte 1860 delimita esta observación, no el fin del Imperio.",
+      "source": "https://www.elysee.fr/louis-napoleon-bonaparte",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1840-spain-regencies",
+      "title": "España · fin de la regencia de María Cristina y transición",
+      "type": "transition",
+      "start": "1840-01-01",
+      "end": "1841-05-10",
+      "countries": [
+        "ESP"
+      ],
+      "text": "La renuncia de María Cristina en octubre de 1840 abre un ministerio-regencia. La elección parlamentaria de Espartero en 1841 se distingue de su influencia política en 1840.",
+      "source": "https://ocw.uc3m.es/pluginfile.php/7622/mod_page/content/25/T2-1-1-6_Regencia-Espartero.pdf",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "id": "extension-1840-spain-espartero",
+      "title": "España · regencia de Espartero",
+      "type": "transition",
+      "start": "1841-05-10",
+      "end": "1844-01-01",
+      "countries": [
+        "ESP"
+      ],
+      "text": "La regencia termina durante la crisis de 1843, seguida de la mayoría de edad de Isabel II. El corte de este resumen es anual; no fecha un cese el 1 de enero de 1844.",
+      "source": "https://www.congreso.es/ca/cem/regespartero",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1840-spain-biennium",
+      "title": "España · Bienio Progresista",
+      "type": "transition",
+      "start": "1854-01-01",
+      "end": "1857-01-01",
+      "countries": [
+        "ESP"
+      ],
+      "text": "La revolución de 1854 abre un proceso constituyente y reformas como la desamortización de 1855. La Constitución de 1856 no llega a regir; esta observación anual no la presenta como constitución promulgada.",
+      "source": "https://www.congreso.es/en/web/guest/cem/bieprog",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1840-brazil-majority",
+      "title": "Brasil · fin de la regencia",
+      "type": "transition",
+      "start": "1840-01-01",
+      "end": "1841-01-01",
+      "countries": [
+        "BRA-EMPIRE"
+      ],
+      "text": "La mayoría anticipada de Pedro II se declara el 23 de julio de 1840 y termina la regencia. No se confunde con la coronación posterior.",
+      "source": "https://www.senado.leg.br/senado/hotsites/histsf/O-Senado-no-2o-Reinado.asp",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1840-german-revolution",
+      "title": "Revoluciones de 1848 y Asamblea de Fráncfort",
+      "type": "transition",
+      "start": "1848-01-01",
+      "end": "1850-01-01",
+      "countries": [
+        "HIST-Q151624",
+        "PRUSSIA",
+        "HIST-Q154195",
+        "AUSTRIAN-EMPIRE"
+      ],
+      "text": "Las revoluciones y la Asamblea de Fráncfort no convierten la Confederación Germánica en un Estado nacional unificado. Prusia sigue siendo una monarquía separada donde la fuente permite representarla.",
+      "source": "https://www.dhm.de/lemo/kapitel/vormaerz-und-revolution/revolution-1848",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1840-crimea",
+      "title": "Guerra de Crimea",
+      "type": "conflict",
+      "start": "1853-01-01",
+      "end": "1856-03-31",
+      "countries": [
+        "RUE",
+        "OTT"
+      ],
+      "text": "La guerra enfrenta a Rusia con el Imperio otomano y potencias aliadas. Las operaciones en Crimea son una parte del conflicto; el tratado de París se firma el 30 de marzo de 1856. No se inventa un frente a partir de esta ficha.",
+      "source": "https://www.nam.ac.uk/explore/crimean-war",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "id": "extension-1840-crimea-west",
+      "title": "Guerra de Crimea · intervención franco-británica",
+      "type": "conflict",
+      "start": "1854-01-01",
+      "end": "1856-03-31",
+      "countries": [
+        "GBR",
+        "FRA"
+      ],
+      "text": "Francia y el Reino Unido entran en guerra en 1854. Esta observación anual no atribuye su beligerancia al inicio ruso-otomano de 1853 ni convierte el 1 de enero en una declaración de guerra.",
+      "source": "https://www.thegazette.co.uk/all-notices/content/100497",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "id": "extension-1840-crimea-sardinia",
+      "title": "Guerra de Crimea · participación sarda",
+      "type": "conflict",
+      "start": "1855-01-01",
+      "end": "1856-03-31",
+      "countries": [
+        "SAR"
+      ],
+      "text": "El Reino de Cerdeña se suma a la alianza en 1855 y envía un cuerpo expedicionario. La ventana anual no atribuye su participación a 1853 ni a 1854.",
+      "source": "https://www.carabinieri.it/arma/arma-all%27estero/proiezione-internazionale/vol-i-1855---1935/1855---1856/in-crimea",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "id": "extension-1840-taiping",
+      "title": "Guerra civil Taiping · fase 1851–1859",
+      "type": "conflict",
+      "start": "1851-01-01",
+      "end": "1860-01-01",
+      "countries": [
+        "QNG",
+        "HIST-Q3486676"
+      ],
+      "text": "El Reino Celestial Taiping disputa el poder a la dinastía Qing, con instituciones y autoridades propias. El corte de 1859 delimita esta ampliación; la guerra continúa hasta 1864. No se deducen frentes anuales de esta síntesis documental.",
+      "source": "https://www.britishmuseum.org/sites/default/files/2023-09/Chinas_hidden_century_large_print_guide.pdf",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1840-opium-one",
+      "title": "Primera guerra del Opio · fase 1840–1842",
+      "type": "conflict",
+      "start": "1840-01-01",
+      "end": "1843-01-01",
+      "countries": [
+        "QNG",
+        "GBR",
+        "IND"
+      ],
+      "text": "Conflicto iniciado en 1839, observado aquí desde 1840. Los intereses comerciales británicos y la resistencia Qing son parte del contexto; el recorte temporal no mueve el inicio de la guerra a 1840.",
+      "source": "https://www.nam.ac.uk/explore/first-china-war-1839-1842",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1840-mexico-war",
+      "title": "Guerra entre México y Estados Unidos",
+      "type": "conflict",
+      "start": "1846-01-01",
+      "end": "1848-05-31",
+      "countries": [
+        "USA",
+        "MEX"
+      ],
+      "text": "La guerra y el tratado de Guadalupe Hidalgo transforman la frontera. Firma del tratado 2/2/1848 y ratificaciones son fases distintas; el resumen no convierte cada reclamación territorial en control efectivo.",
+      "source": "https://www.archives.gov/milestone-documents/treaty-of-guadalupe-hidalgo",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "id": "extension-1840-oregon",
+      "title": "Acuerdo sobre el territorio de Oregón",
+      "type": "transition",
+      "start": "1846-01-01",
+      "end": "1847-01-01",
+      "countries": [
+        "USA",
+        "GBR",
+        "CAN"
+      ],
+      "text": "El acuerdo angloestadounidense lleva la frontera al paralelo 49, con la excepción de la isla de Vancouver. La síntesis anual del inventario no es un levantamiento diario de la frontera.",
+      "source": "https://history.state.gov/milestones/1830-1860/oregon-territory",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1840-india-rebellion",
+      "title": "India · rebelión y cambio de gobierno",
+      "type": "conflict",
+      "start": "1857-01-01",
+      "end": "1860-01-01",
+      "countries": [
+        "IND",
+        "GBR"
+      ],
+      "text": "La rebelión de 1857 precede al traspaso del gobierno de la Compañía a la Corona en 1858. Victoria todavía no ostenta el título imperial indio de 1877. No se trazan frentes regionales no documentados.",
+      "source": "https://www.royal.uk/encyclopedia/victoria-r-1837-1901",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1840-hawaii-succession",
+      "title": "Hawái · sucesión de 1854",
+      "type": "transition",
+      "start": "1854-12-15",
+      "end": "1855-01-01",
+      "countries": [
+        "HAW-KINGDOM"
+      ],
+      "text": "La proclamación contemporánea del 15 de diciembre anuncia la muerte de Kamehameha III y la sucesión de Kamehameha IV; se distingue de ceremonias posteriores.",
+      "source": "https://digitalarchives.hawaii.gov/item/ark%3A70111/51NQ",
+      "sourceLabel": "Fuente institucional · investigación1840–1859",
+      "note": "Observación documental. No proporciona una geometría de frentes ni una lista exhaustiva de beligerantes. Los límites de cobertura no son fechas de inicio o paz.",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true
     }
   ],
   "retrieved": "2026-10-24",

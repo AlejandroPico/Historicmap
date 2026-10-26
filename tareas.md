@@ -1,5 +1,30 @@
 # Tareas y continuidad
 
+## Encargo vigente · 0.15.0 · ampliación hasta 1840
+
+El propietario solicita avanzar hasta 1840 con el uso de sesión disponible. Esta petición sustituye la recomendación previa de cerrar primero todos los huecos de 1860, sin convertirlos en completados. Subir tras comprobaciones locales, sin esperar Actions/Pages.
+
+- [x] Adquisición aislada de 1840–1859 y consultas de cargos históricos para recuperar monarquías de 1840–1879. Se conservan candidatos y declaraciones en scripts/historical-offices-015-research.json; 101 observaciones revisadas.
+- [x] Joseon corregido a Q28179; el Q28405 original se conserva como dato erróneo de fuente, referido a Gojoseon antiguo. Hong Xiuquan asignado al Taiping, no al Qing.
+- [x] Ventanas de identidad de Francia, España, Cerdeña, Dos Sicilias, Estados Pontificios, India, Egipto, Haití y otras entidades. Hungría revolucionaria separada del QID anacrónico austrohúngaro, con autoridades todavía pendientes.
+- [x] Regencias, Ejecutivo provisional francés, sucesiones hawaianas y fechas gregorianas rusas distinguidas. Precisión anual/mensual respetada también en la cronología.
+- [x] Doce ventanas de símbolos, siete SVG nuevos y 180 imágenes raster adicionales, incluidos dos retratos fechados de Victoria. 6.054 medios acreditados en total.
+- [x] Diecisiete fases de contexto, diecisiete registros históricos y cuatro enlaces completos de navegación. No se inventan frentes de guerras o rebeliones ausentes en la fuente.
+- [x] Referencias del Pacífico y trece periodos de separación de componentes desde 1840; mismas coordenadas, sin duplicación ni atribuir colonizadores posteriores a los tramos locales anteriores.
+- [x] Auditoría nominal por la ruta real: 1840–1859 incluye 3.308 entidades/año, 2.003 casos anuales sin autoridad documentada, 18 personas/órganos sin retrato y 2.637 casos anuales sin símbolo. Ver docs/REVIEW-1840-1859.json.
+- [x] Nueva auditoría de 1860–1879: casos anuales sin autoridad reducidos de 1.646 a 1.467. No equivale a una revisión mundial cerrada.
+- [x] Tipos, 167 pruebas, sintaxis de preparadores y conservación de los hechos de mandatos/símbolos de 1880+ verificados. 55 recursos, 11 franjas tipográficas y 6.054 medios con huellas comprobadas. Compilación correcta en .cache/build-015-final.
+- [x] Dos recorridos finales de navegador correctos: Francia1840–1855, regímenes, conflictos, Joseon, globo, retratos fechados, regencias, Hawái y Rusia; revisión visual móvil.
+- [x] Límites de observación1859 señalados en los tres mandatos manuales que continúan fuera de esa ventana.
+- [x] Comprobaciones cerradas y entrega preparada para origin/main. Confirmación del push en el cierre de la entrega; no esperar al despliegue.
+- [ ] Revisar el despliegue público cuando el propietario confirme Actions/Pages.
+- [ ] Completar los huecos nominales de Estados germanos, gobiernos locales, regentes, África y Asia; no sustituirlos automáticamente por el jefe de un país actual.
+- [ ] Completar variantes de símbolos y retratos por etapas de los soberanos incorporados; las imágenes disponibles no acreditan cobertura visual de cada lustro.
+- [ ] Contrastar fechas intranuales texanas, proclamación imperial haitiana y calendarios orientales. Las observaciones conservadoras no son fechas de acceso completas.
+- [ ] Resolver geometrías de Prusia y otros Estados agrupados, frentes bélicos y de rebeliones y pueblos omitidos. No dibujar un contorno moderno superpuesto para simular una solución.
+
+El catálogo contiene 465 claves y 12.170 registros de mandatos, no 465 fichas completas. Fuentes, preparación y límites en docs/RESEARCH-1840.md. Los pendientes de Mozambique, variantes tempranas de Franco y actualización del frente ucraniano siguen abiertos en el encargo anterior.
+
 ## Encargo vigente · 0.14.0 · correcciones y ampliación parcial hasta 1860
 
 Cierre preparado el 26/10/2026. Comprobar localmente, enviar y terminar sin esperar ni consultar Actions/Pages. El propietario verificará la publicación.

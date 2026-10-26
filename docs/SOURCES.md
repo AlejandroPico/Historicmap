@@ -150,3 +150,8 @@ Nuevo derivado [particiones compartidas](WWII-PARTITIONS.md),CShapesNC-SA con at
 ## Ampliación1880 y correcciones0.13
 
 Fuentes, licencias, resolución de identidades, referencias geográficas y límites en[RESEARCH-1880](RESEARCH-1880.md), documentos regionales y[revisión de imágenes](MEDIA-CORRECTIONS-0.13.md). Los originales cartográficos y las particiones1940–1944 permanecen intactos. Groenlandia usa referenciaNaturalEarth; Hawái anterior a1898 referenciaCliopatria y desde1898 geometría exactaCShapes. No mezclar ambas costas ni sus condiciones de reutilización en una geometría nueva sin declaración. Fichas de los medios conservan autor, licencia, fuente ySHA. Auditoría nominal enREVIEW-1880-1899.json.
+
+
+## Ampliación1840–1859 · 0.15
+
+Cargos históricos explícitos, metadatosWikidataCC0 y curaciones institucionales complementan la geometríaCliopatria sin modificar sus coordenadas. Símbolos e imágenes conservan licencia propia, autoría y huellas en el manifiesto. [Investigación, enlaces primarios y limitaciones](RESEARCH-1840.md). No se afirma cobertura mundial exhaustiva ni reconstrucción diaria de frentes.

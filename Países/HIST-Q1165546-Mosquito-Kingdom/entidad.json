@@ -1,0 +1,87 @@
+{
+  "key": "HIST-Q1165546",
+  "name": "Mosquito Kingdom",
+  "qid": "Q1165546",
+  "aliases": [
+    "Mosquito Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1165546"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q17145470",
+      "role": "Jefatura del Estado",
+      "start": "1840-01-01",
+      "end": "1841-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q17145470",
+      "sourceStatement": "Q17145470-c8658dc2-4171-221a-8098-1d11aef90200",
+      "office": "Q113244809",
+      "acquisition": "historical-0.15",
+      "name": "Roberto Carlos Federico",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1824-01-01",
+      "note": "Ventana de adquisición1840–1859; los extremos de cobertura no son nombramientos ni dimisiones."
+    },
+    {
+      "person": "Q5536498",
+      "role": "Jefatura del Estado",
+      "start": "1841-01-01",
+      "end": "1859-12-31",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q5536498",
+      "sourceStatement": "Q5536498-10D98886-4028-46BA-B853-5A2777B1DDC4",
+      "office": "Q113244809",
+      "acquisition": "historical-0.15",
+      "name": "Jorge Augusto Federico",
+      "endIsCoverageBoundary": true,
+      "sourceEnd": "1865-01-01",
+      "note": "Ventana de adquisición1840–1859; los extremos de cobertura no son nombramientos ni dimisiones.",
+      "portrait": {
+        "file": "media/portrait-a52d0b725284d57fba4d.png",
+        "title": "George Augustus Frederic oval portrait.png",
+        "url": "https://commons.wikimedia.org/wiki/File:George_Augustus_Frederic_oval_portrait.png",
+        "artist": "AnonymousUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Augustus_Frederic_oval_portrait.png#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://anthrosource.onlinelibrary.wiley.com/doi/pdf/10.1525/ae.1984.11.4.02a00060",
+        "sha256": "9a230d1acfa95ea1cd31dd5b250dd6c6e6e27b9273be589e6392ba16d2376d0d",
+        "bytes": 86243,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/George_Augustus_Frederic_oval_portrait.png/330px-George_Augustus_Frederic_oval_portrait.png"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11544",
+      "start": 1853,
+      "end": 1858,
+      "name": "Mosquito Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11647",
+      "start": 1859,
+      "end": 1859,
+      "name": "Mosquito Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

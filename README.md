@@ -75,3 +75,6 @@ La ampliación de fichas se describe en [COUNTRY-WORKSPACE](docs/COUNTRY-WORKSPA
 
 
 Actualización0.14.0: correcciones de selección histórica, retratos por etapas y referencias delPacífico; incorporación documental parcial hasta1860. El frente deUcrania conserva fechas de observación explícitas. Véase [alcance y pendientes](docs/DELIVERY-0.14.0.md).
+
+
+Actualización0.15.0: documentación ampliada hasta1840, recuperación de oficios monárquicos, regencias y transiciones, símbolos y retratos deVictoria por etapas. [Fuentes y carencias nominales](docs/RESEARCH-1840.md).

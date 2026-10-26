@@ -12,7 +12,29 @@
     "file": "../../public/data/identities.json",
     "key": "PRUSSIA"
   },
-  "flags": [],
+  "flags": [
+    {
+      "start": "1840-01-01",
+      "end": "1859-12-31",
+      "media": {
+        "file": "media/flag-3a37d52809a358c237ed.svg",
+        "title": "Flag of the Kingdom of Prussia (1803-1892).svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Prussia_(1803-1892).svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_the_Kingdom_of_Prussia_%281803-1892%29.svg",
+        "artist": "Drawing created by David Liuzzo",
+        "license": "Attribution",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Prussia_(1803-1892).svg#Licensing",
+        "attribution": "David Liuzzo",
+        "attributionRequired": true,
+        "credit": "Own Work, Custom Creation according design specifications of the previous file",
+        "sha256": "de9dad44237ce7d99df6233314f72f04fec7e0c1b018d63eb37e0ef51c32b18c",
+        "bytes": 395799
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Prussia_(1803-1892).svg",
+      "acquisition": "curated-symbols-1840-0.15",
+      "note": "Familia gráfica histórica representativa con ventana anual conservadora; no acredita uniformidad de cada ejemplar o una norma digital de colores."
+    }
+  ],
   "leaders": [
     {
       "person": "Q57180",
@@ -94,6 +116,120 @@
         "attribution": "",
         "attributionRequired": false
       }
+    },
+    {
+      "person": "Q150652",
+      "name": "Guillermo I de Alemania",
+      "role": "Rey de Prusia",
+      "start": "1861-01-02",
+      "end": "1879-12-31",
+      "precision": 11,
+      "office": "Q3240735",
+      "source": "https://www.wikidata.org/wiki/Q150652",
+      "sourceStatement": "http://www.wikidata.org/entity/statement/Q150652-f84454e6-4e23-b634-6850-65f38ee15ac1",
+      "acquisition": "curated-1840-0.15",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true,
+      "note": "Mandato de un cargo histórico explícito; no se deriva de la jefatura contemporánea del país. Los límites de cobertura no son nombramientos o dimisiones.",
+      "portrait": {
+        "file": "media/portrait-d681ecf146cce93403d0.jpg",
+        "title": "Kaiser Wilhelm I. .JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_I._.JPG",
+        "artist": "Wilhelm Kuntzemüller",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ggbain.28199.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "c9bc99ee6f6b3f235760ea8e66bdce799250d322550c2dd0e782a56e7427ddf7",
+        "bytes": 41462,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Kaiser_Wilhelm_I._.JPG/330px-Kaiser_Wilhelm_I._.JPG",
+        "attribution": "",
+        "attributionRequired": false
+      }
+    },
+    {
+      "person": "Q37134",
+      "name": "Federico Guillermo III de Prusia",
+      "role": "Rey de Prusia",
+      "start": "1840-01-01",
+      "end": "1840-06-07",
+      "precision": 11,
+      "office": "Q3240735",
+      "source": "https://www.dhm.de/lemo/biografie/friedrich-wilhelm-iv",
+      "sourceStatement": "http://www.wikidata.org/entity/statement/Q37134-2e9e15e4-4ccd-6da1-52c5-7e5ff2c61812",
+      "acquisition": "curated-1840-0.15",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "note": "Fallecimiento de Federico Guillermo III el7/6/1840; no el1de enero del dato de precisión anual.",
+      "portrait": {
+        "file": "media/portrait-5154798ab3817c542012.jpg",
+        "title": "Friedrich Wilhelm III of Prussia - Lawrence 1814-18.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_III_of_Prussia_-_Lawrence_1814-18.jpg",
+        "artist": "Thomas Lawrence",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_III_of_Prussia_-_Lawrence_1814-18.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "The Royal Collection",
+        "sha256": "a7f2de831e5b50db04d0b6769c62e7e37a38804102007acfc425b9c37ce64f75",
+        "bytes": 49211,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Friedrich_Wilhelm_III_of_Prussia_-_Lawrence_1814-18.jpg/330px-Friedrich_Wilhelm_III_of_Prussia_-_Lawrence_1814-18.jpg"
+      }
+    },
+    {
+      "person": "Q57180",
+      "name": "Federico Guillermo IV",
+      "role": "Rey de Prusia",
+      "start": "1840-06-07",
+      "end": "1861-01-02",
+      "precision": 11,
+      "office": "Q3240735",
+      "source": "https://www.wikidata.org/wiki/Q57180",
+      "sourceStatement": "http://www.wikidata.org/entity/statement/Q57180-da4a1962-42f9-607b-a7b1-0eccc6be19a3",
+      "acquisition": "curated-1840-0.15",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "note": "Mandato de un cargo histórico explícito; no se deriva de la jefatura contemporánea del país. Los límites de cobertura no son nombramientos o dimisiones.",
+      "portrait": {
+        "file": "media/portrait-f2c820ef61ea5cec0f7a.jpg",
+        "title": "Friedrich Wilhelm IV of Prussia (1847).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_IV_of_Prussia_(1847).jpg",
+        "artist": "Hermann Biow",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_IV_of_Prussia_(1847).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Zeno.org, ID number 20001853716",
+        "sha256": "a88a450aeaab3405033880b5e88ece4076d5bf50224cc17aeafab2a08196c7dc",
+        "bytes": 32506,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Friedrich_Wilhelm_IV_of_Prussia_%281847%29.jpg/330px-Friedrich_Wilhelm_IV_of_Prussia_%281847%29.jpg"
+      }
+    },
+    {
+      "person": "Q150652",
+      "name": "Guillermo de Prusia",
+      "role": "Príncipe regente",
+      "start": "1858-10-07",
+      "end": "1859-12-31",
+      "source": "https://www.dhm.de/lemo/biografie/friedrich-wilhelm-iv",
+      "note": "Delegación del Gobierno por enfermedad de Federico Guillermo IV; no acceso de Guillermo al trono en1858.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1840-0.15",
+      "portrait": {
+        "file": "media/portrait-d681ecf146cce93403d0.jpg",
+        "title": "Kaiser Wilhelm I. .JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_I._.JPG",
+        "artist": "Wilhelm Kuntzemüller",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ggbain.28199.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "c9bc99ee6f6b3f235760ea8e66bdce799250d322550c2dd0e782a56e7427ddf7",
+        "bytes": 41462,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Kaiser_Wilhelm_I._.JPG/330px-Kaiser_Wilhelm_I._.JPG",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "endIsCoverageBoundary": true
     }
   ],
   "portraitVariants": [],

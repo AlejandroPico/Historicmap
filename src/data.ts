@@ -24,8 +24,8 @@ export async function annualData(year:number){
   if(year<1886){
     const data=await asset<FeatureCollection>('early-modern.geojson');
     let selected=pacificComponents({...data,features:data.features.filter(f=>f.properties!.start<=year&&f.properties!.end>=year)},year);
-    if(year>=1860)selected=resolve1880(selected,year,await asset<EntityResolution>(year>=1880?'historical-1880-entities.json':'historical-1860-entities.json'));
-    return year>=1860?pacificReferences(selected,year,await asset<FeatureCollection>('pacific-references.geojson')):selected;
+    if(year>=1840)selected=resolve1880(selected,year,await asset<EntityResolution>(year>=1880?'historical-1880-entities.json':year>=1860?'historical-1860-entities.json':'historical-1840-entities.json'));
+    return year>=1840?pacificReferences(selected,year,await asset<FeatureCollection>('pacific-references.geojson')):selected;
   }
   const [history,profiles,supplements]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1900?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined)]);
   names??=new Map(Object.entries(profiles.countries).flatMap(([iso,p])=>[p.name,p.englishName??'',p.official??''].filter(Boolean).map(n=>[normalizedName(n),iso])));

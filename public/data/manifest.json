@@ -185,16 +185,16 @@
     },
     {
       "file": "country-history.json",
-      "bytes": 171677,
-      "sha256": "68baa3979ba0a6e996445c4db76cebfbe859babfc18a48dde6181471fc5d53ec",
-      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
+      "bytes": 189755,
+      "sha256": "1b6cb37261f3e9c09633a0ce4a4b82acb2e4797356fadbe20de2b9b4f8ccd0a8",
+      "version": "Historicmap0.15.0; preparation2026-10-26; current office reference2026-10-22 preserved",
       "format": "country-workspace-history",
       "url": "https://www.un.org/en/about-us/member-states",
       "source": "Official institutional histories, constitutional records and state succession references, linked per record",
       "license": "Original editorial summaries and factual metadata; sources linked individually",
-      "transform": "Sourced1860–1879 phases, institutional events and predecessor navigation appended idempotently. Earlier records unchanged; documentary context is not geometric front data.",
-      "records": 132,
-      "relations": 98
+      "transform": "Seventeen sourced records and four fully named regime/administration navigation links. Existing observations preserved; coverage metadata extended to1840.",
+      "records": 149,
+      "relations": 102
     },
     {
       "file": "country-indicators.json",
@@ -222,6 +222,18 @@
       "license": "CC-BY-4.0",
       "coverage": "1789/1885",
       "transform": "Select inclusive intervals intersecting 1789–1885. Exclude records with Components (aggregate unions); keep leaf polities and MemberOf relation. Original coordinates, source names and Wikidata IDs retained. Not a uniform December 31 reconstruction; uncovered areas remain uncovered."
+    },
+    {
+      "file": "historical-1840-entities.json",
+      "format": "dated-entity-resolution",
+      "source": "Cliopatria and dated editorial identity corrections",
+      "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+      "license": "CC0 factual identity metadata",
+      "sha256": "bd993f06886f32fd3a6fd70794b139f93dfa6efacc1e1f3fc107c3ce0235bc0d",
+      "bytes": 49034,
+      "version": "Historicmap0.15.0; preparation2026-10-26; current office reference2026-10-22 preserved",
+      "transform": "Dated1840–1859 name/regime corrections over unchanged Cliopatria contours. French1848/1852 changes, Sardinia not Italy, Company India before1858, and source anachronisms explicitly repaired. Source labels/QIDs retained as provenance, not accepted as political fact.",
+      "records": 86
     },
     {
       "file": "historical-1860-entities.json",
@@ -285,15 +297,15 @@
     },
     {
       "file": "historical-context.json",
-      "bytes": 319370,
-      "sha256": "f5200108d1a6efb82b627bc3ee88efcfcab11c87a528eb1e5c711ae33bd614d0",
-      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
+      "bytes": 334649,
+      "sha256": "d7b3124a413508c056fae0fb98fbed357eb4d6cc9acd64499d16b1ffcf0dcaa7",
+      "version": "Historicmap0.15.0; preparation2026-10-26; current office reference2026-10-22 preserved",
       "format": "dated-historical-context",
       "source": "United Nations, institutional and government historical records",
       "url": "https://www.un.org/en/about-us/history-of-the-un",
       "license": "Original editorial summaries; institutional sources linked per event",
-      "transform": "Sourced1860–1879 phases, institutional events and predecessor navigation appended idempotently. Earlier records unchanged; documentary context is not geometric front data.",
-      "records": 417
+      "transform": "Seventeen sourced1840–1859 documentary phases appended idempotently, with preserved precision and observation boundaries. No geometric fronts inferred from event descriptions.",
+      "records": 434
     },
     {
       "file": "historical-control.geojson",
@@ -335,16 +347,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 11500166,
-      "sha256": "e811018f4be657c502ea5c959530361d45fcb27ff85d60459ae01847345499e1",
+      "bytes": 12108594,
+      "sha256": "a2b769227a706a4dd0999a8b434e72af6c622c644409123c72784a08586dd249",
       "format": "dated-political-identities",
-      "countries": 425,
-      "records": 11555,
+      "countries": 465,
+      "records": 12170,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
+      "version": "Historicmap0.15.0; preparation2026-10-26; current office reference2026-10-22 preserved",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Isolated1860–1879 acquisition plus bounded sourced curator; earlier published1880+ offices preserved.225 newly acquired portraits and reused earlier media; availability does not establish a complete worldwide census. See REVIEW-1860-1879."
+      "transform": "Isolated1840–1859 acquisition, explicit historical office queries1840–1879 and101 reviewed observations. Joseon corrected toQ28179, Taiping ruler separated from Qing, regencies and collegial offices distinguished. All previous1880+ mandate facts preserved; images may be added to previously empty portraits. Current reference2026-10-22 unchanged. Nominal gaps remain in REVIEW files."
     },
     {
       "file": "pacific-components.json",
@@ -352,11 +364,11 @@
       "source": "Cliopatria components identified with Natural Earth envelopes",
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC BY4.0",
-      "transform": "Indexes split Guam and New Caledonia from colonial aggregates without changing or duplicating source polygon coordinates.",
-      "sha256": "6df5cb897fbe7cf9b6fc8acf7023ab0d65c22494898eeb3200969a34f2175fe7",
-      "bytes": 2052,
-      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
-      "records": 11
+      "transform": "Thirteen original-component index periods covering1840–1885. Source polygons removed from aggregates before local selection, preserving every coordinate and component multiplicity.",
+      "sha256": "d18c3a7a22d20e2fe9197b9203c7c2a27a9ba6f6709d96a4be14dc7643a582c7",
+      "bytes": 2404,
+      "version": "Historicmap0.15.0; preparation2026-10-26; current office reference2026-10-22 preserved",
+      "records": 13
     },
     {
       "file": "pacific-references.geojson",
@@ -364,10 +376,10 @@
       "source": "Natural Earth reference land and sourced territorial status metadata",
       "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
       "license": "Natural Earth public domain; CC0 factual metadata",
-      "transform": "Date-bounded reference contours for omitted Pacific islands. Present contours are not reconstructed historic coastlines; uncertain local and joint governments explicitly remain unresolved.",
-      "sha256": "f7fa49384e8ce11a0e3e367502fc23b08463a869bc014bdaa813854d56e42e50",
+      "transform": "Earlier local-authority reference windows extended to1840 without assigning later colonizers retrospectively. Contemporary Natural Earth reference contours remain labelled; existing independent-state supplements take priority.",
+      "sha256": "a5b75b6eea05d9e4b782c19b21451d41181f4ccf316f5798e59347f5e382bb45",
       "bytes": 410931,
-      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
+      "version": "Historicmap0.15.0; preparation2026-10-26; current office reference2026-10-22 preserved",
       "features": 61
     },
     {
@@ -388,11 +400,11 @@
       "source": "Individually licensed Wikimedia Commons images",
       "url": "https://commons.wikimedia.org/",
       "license": "CC0 factual windows; images each retain their own recorded license",
-      "transform": "32 representative portrait windows after office resolution. Photo dates remain separate from selection year; unknown date labelled. Original bytes preserved; licensed framing declared.",
-      "sha256": "5f9a32140fc42832bf5705705d9c571f9b897e6f4851c705a0c151cef9c60be2",
-      "bytes": 32813,
-      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
-      "records": 32
+      "transform": "Thirty-four dated representative portrait windows, including Victoria1838 painting and1854 photograph. Image dates remain independent of office dates; no painting is labelled as a photograph.",
+      "sha256": "ed0aaaabfa6f2aa7f16322bbf0aee5f8478d5c740d8af02511c61550dc8e155c",
+      "bytes": 34809,
+      "version": "Historicmap0.15.0; preparation2026-10-26; current office reference2026-10-22 preserved",
+      "records": 34
     },
     {
       "file": "profiles.json",

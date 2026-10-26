@@ -5,7 +5,7 @@ import {AFFILIATIONS,AFFILIATION_KINDS} from './historical-affiliations';
 import {territorialEntityCode} from './history';
 
 export type EntityLink={id:string;from:{key:string;name:string;year:number};to:{key:string;name:string;year:number};date:string;type:string;label:string;note?:string;source:string;sourceLabel:string};
-export type CountryRecord={id:string;keys:string[];start:string;end?:string;section:'institutions'|'history'|'territory'|'society'|'economy'|'defense'|'relations';title:string;text:string;source:string;sourceLabel:string;fields?:{label:string;value:string;unit?:string;referenceDate?:string;source?:string}[];places?:{name:string;longitude:number;latitude:number;source:string;note?:string}[]};
+export type CountryRecord={id:string;keys:string[];start:string;end?:string;precision?:number;section:'institutions'|'history'|'territory'|'society'|'economy'|'defense'|'relations';title:string;text:string;source:string;sourceLabel:string;fields?:{label:string;value:string;unit?:string;referenceDate?:string;source?:string}[];places?:{name:string;longitude:number;latitude:number;source:string;note?:string}[]};
 export type CountryHistory={retrieved:string;referenceDate:string;relations:EntityLink[];records:CountryRecord[]};
 export const emptyHistory:CountryHistory={retrieved:'',referenceDate:'',relations:[],records:[]};
 export function relatedEntities(key:string,data:CountryHistory){return data.relations.filter(r=>r.from.key===key||r.to.key===key);}
@@ -29,7 +29,7 @@ export function countryTimeline(p:Record<string,any>,year:number,identities:Iden
  const result:TimelineEntry[]=[];
  for(const l of country?.leaders??[])result.push({id:`leader:${l.person}:${l.role}:${l.start}`,date:l.start,type:'authorities',precision:l.precision,title:`${l.name} · ${l.role}`,detail:`${l.startIsCoverageBoundary?'En ejercicio al inicio de la cobertura '+l.start:l.start} — ${l.end}${l.endIsCoverageBoundary?' (límite de cobertura; no cese)':l.endIsUpperBound?' (cese máximo documentado)':''}`,source:l.source});
  for(const f of country?.flags??[])result.push({id:`flag:${f.start}:${f.media.file}`,date:f.start,type:'symbols',title:'Símbolo o bandera documentada',detail:f.media.title,source:f.source});
- for(const e of historicalEvents.filter(e=>e.countries.includes(code)))result.push({id:e.id,date:e.start,type:e.type==='conflict'?'conflicts':'history',title:e.title,detail:e.text,source:e.source});
+ for(const e of historicalEvents.filter(e=>e.countries.includes(code)))result.push({id:e.id,date:e.start,precision:e.precision,type:e.type==='conflict'?'conflicts':'history',title:e.title,detail:e.text,source:e.source});
  for(const kind of AFFILIATION_KINDS){
   const org=AFFILIATIONS[kind];
   for(const m of org.memberships.filter(m=>m.code===code)){
@@ -39,7 +39,7 @@ export function countryTimeline(p:Record<string,any>,year:number,identities:Iden
   }
  }
  for(const r of relatedEntities(key,history))result.push({id:r.id,date:r.date,type:'territory',title:r.label,detail:r.note,source:r.source});
- for(const r of history.records.filter(r=>r.keys.includes(key)))result.push({id:r.id,date:r.start,type:r.section==='institutions'?'history':r.section,title:r.title,detail:r.text,source:r.source});
+ for(const r of history.records.filter(r=>r.keys.includes(key)))result.push({id:r.id,date:r.start,precision:r.precision,type:r.section==='institutions'?'history':r.section,title:r.title,detail:r.text,source:r.source});
  const limit=[identities.retrieved,history.referenceDate||identities.retrieved].sort().at(-1)!;
  return [...new Map(result.filter(e=>/^\d{4}-\d{2}-\d{2}$/.test(e.date)&&e.date<=limit).map(e=>[e.id,e])).values()].sort((a,b)=>b.date.localeCompare(a.date)||a.title.localeCompare(b.title));
 }

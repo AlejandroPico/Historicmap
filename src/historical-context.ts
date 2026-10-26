@@ -1,7 +1,7 @@
 import catalogue from '../public/data/historical-context.json';
 import {territorialEntityCode} from './history';
 
-export type HistoricalEvent={id:string;title:string;type:'conflict'|'transition';start:string;end?:string;countries:string[];text:string;source:string;sourceLabel:string;note?:string};
+export type HistoricalEvent={id:string;title:string;type:'conflict'|'transition';start:string;end?:string;countries:string[];text:string;source:string;sourceLabel:string;note?:string;precision?:number};
 export const historicalEvents=catalogue.events as HistoricalEvent[];
 export function eventsInYear(year:number,type?:HistoricalEvent['type']):HistoricalEvent[]{
  if(year<catalogue.startYear||year>catalogue.endYear)return [];

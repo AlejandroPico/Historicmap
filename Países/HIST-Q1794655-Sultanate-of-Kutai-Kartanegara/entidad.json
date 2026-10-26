@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q1794655",
+  "name": "Sultanate of Kutai Kartanegara",
+  "qid": "Q1794655",
+  "aliases": [
+    "Sultanate of Kutai Kartanegara"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1794655"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-9707",
+      "start": 1789,
+      "end": 1841,
+      "name": "Sultanate of Kutai Kartanegara",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11401",
+      "start": 1842,
+      "end": 1845,
+      "name": "Sultanate of Kutai Kartanegara",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

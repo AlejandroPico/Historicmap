@@ -55,12 +55,12 @@ def split_source_components(data: dict, year: int | None, refs: dict[str, dict])
     """Return a deep copy with GUM/NCL source components assigned local identity.
 
     `refs` maps GUM/NCL to contemporary NE GeoJSON features. `year` is the active
-    year (1860–1885); None prepares all source snapshots intersecting this range.
+    year (1840–1885); None prepares all source snapshots intersecting this range.
     The feature collection may be a single active snapshot or the full source.
     Derived feature IDs are unique; sourceFeatureId retains the exact source ID.
     """
     result = deepcopy(data)
-    if year is not None and not 1860 <= year <= 1885:
+    if year is not None and not 1840 <= year <= 1885:
         return result
     envelopes = {}
     for code, spec in SPLITS.items():
@@ -74,7 +74,7 @@ def split_source_components(data: dict, year: int | None, refs: dict[str, dict])
     for feature in result['features']:
         p = feature.get('properties') or {}
         start, end = int(p.get('start', -999999)), int(p.get('end', 999999))
-        active = start <= year <= end if year is not None else end >= 1860 and start <= 1885
+        active = start <= year <= end if year is not None else end >= 1840 and start <= 1885
         if not active or p.get('sourceComponentExtraction'):
             out.append(feature)
             continue

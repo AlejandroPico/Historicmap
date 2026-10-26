@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.14.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.15.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de0.13 en la sección25; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.15 en la sección 27; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente0.13 (25/10/2026):** ampliar hasta1880 y corregir los retratos/identidades notificados por el propietario, incluida la selección histórica deGroenlandia. El propietario confirma la publicación anterior y la considera válida. Comprobar localmente y subir sin esperar ni consultar Actions/Pages; distinguir subida de publicación comprobada. Detalle en sección25 y tareas.md.
+**Encargo vigente 0.15 (26/10/2026):** ampliar hasta 1840 y recuperar cargos históricos omitidos de 1860–1879, conservando las carencias nominales y los hechos posteriores ya publicados. Comprobar localmente y subir sin esperar Actions/Pages. Detalle en la sección 27 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -643,3 +643,28 @@ La incorporación1860 usa adquisición aislada y curadores idempotentes; conserv
 Preparadores en scripts/enrich-1860-authorities.py, curate-1860-authorities.py, recover-1860-coverage.py, curate-1860-symbols.py, prepare-1860-context.py, prepare-1860-entities-pacific.py y register-014-data.mjs. La investigación original se prepara en.cache y la integración es explícita; no descargar en la compilación ni ejecutar todos los curadores antiguos indiscriminadamente. El catálogoPaíses se regenera después de las escrituras deidentidades ymedios, antes de probar su igualdad. No ejecutar su prueba mientras se está regenerando.
 
 Continuar desde tareas.md. Comprobaciones locales antes de enviar. El propietario verificaActions/Pages; terminar tras la subida sin esperar ni sondear el despliegue.
+
+
+## 27. Ampliación hasta1840 y recuperación de oficios históricos · 0.15.0
+
+El propietario solicita bajar hasta1840 aun con las carencias registradas de1860. Esta petición prevalece sobre la recomendación anterior de cerrar esa franja primero; no convierte los pendientes en completados. Subir tras comprobaciones locales y terminar sin esperar ni consultarActions/Pages.
+
+La adquisición1840–1859 es aislada. Se conservan hechos de mandatos y símbolos que alcanzan1880 o después. El catálogo contiene465 claves y12.170 registros de mandatos, no una serie completa para cada entidad. Se añaden180 imágenes raster y sieteSVG acreditados respecto a0.14, con6.054 medios totales. Doce ventanas conservadoras de símbolos y dos retratos fechados deVictoria; el de1838 es pintura, no fotografía. La referencia contemporánea de autoridades permanece22/10/2026.
+
+Se detectó que depender sólo de los cargos actualesP1906/P1313 pierde muchas monarquías. scripts/discover-historical-offices.py descubre cargos, exige revisión de homónimos y scripts/acquire-historical-offices.py consulta titulares fechados. scripts/historical-offices-015-research.json conserva candidatos y fuentes. Los cargos genéricos requieren ámbito: rey con ciudadanía hawaiana, shah con vínculo iraní. HongXiuquan se asigna alTaiping, no alQing. No aceptar resultados por parecido del nombre ni derivar un cargo de la foto.
+
+Corrección sustantiva: Q28405 esGojoseon antiguo. El reinoJoseon1392–1897 esQ28179. Los registros de fuente erróneos permanecen trazables, pero la identidadJOS usa la entidad correcta. Las ventanas de resolución se amplían con historical-1840-entities.json. No se proyectan Italia, Austria-Hungría o elRaj de la Corona sobre sus etapas anteriores. Hungría revolucionaria dispone de identidad separada para evitar caer en elQID anacrónico austrohúngaro, pero su serie de autoridades sigue pendiente.
+
+Francia1848 distingue Gobierno provisional, Comisión Ejecutiva y Poder Ejecutivo deCavaignac de la presidencia constitucional deLuisNapoleón. El golpe de1851 y la proclamación imperial de1852 son eventos diferentes. España distingue renuncia deMaríaCristina, ministerio-regencia y nombramiento parlamentario deEspartero. Brasil distingue soberano menor, regente y mayoría anticipada de1840. Hawái diferencia proclamación de sucesión, vacancia, elección y ceremonia. Rusia1855 usa fechas gregorianas y evita duplicar la fecha juliana como otro relevo. La cronología respeta la precisión anual/mensual de los registros.
+
+Diecisiete fases y diecisiete registros históricos nuevos, con cuatro enlaces completos y nombres de origen/destino. Los contextos no aportan frentes geométricos ausentes. Las relaciones deben conservar label,type,from.name yto.name; la validación básica deJSON no reemplaza ese contrato de interfaz. Los componentes originales deGuam/NuevaCaledonia se separan desde1840, sin nuevos contornos superpuestos. Las referencias contemporáneas de islas siguen etiquetadas.
+
+Los inventariosREVIEW-1840-1859.json yREVIEW-1860-1879.json miden disponibilidad por la ruta de producción. Sigue habiendo muchos huecos nominales y símbolos pendientes; no decir que cada país, gabinete, regente o frontera está revisado. Fuentes, incertidumbres y siguientes pasos en docs/RESEARCH-1840.md y tareas.md. Prusia sigue ausente como geometría independiente en algunas fases de la Confederación; no rellenar con un país moderno ni asignar todo el agregado a su rey.
+
+Evitar simultanear compilación/copia completa depublic, huellas de todos los medios y pruebas geográficas en este entornoOneDrive: se produjo contención con agotamiento de plazos pese a datos correctos. Vitest queda limitado a un proceso y30s por defecto; las pruebas geográficas conservan sus límites propios mayores y todas sus aserciones. RegenerarPaíses antes de probar su igualdad. No reconstruir el directorio servido mientras se comprueba en navegador.
+
+Preparadores0.15 en scripts/enrich-1840-authorities.py,curate-1840-authorities.py,prepare-1840-entities.py,prepare-1840-context.py,curate-1840-media.py yregister-015-data.mjs. Las nuevas adquisiciones deben seguir aisladas y un solo proceso debe escribiridentidades/medios a la vez. No ejecutar todos los curadores históricos indiscriminadamente.
+
+Corrección de cierre0.15: territorialEntityCode respeta entityCode explícito cuando el código estadístico está vacío, después de las reglas históricas específicas. Las fichas antiguas vuelven a enlazar contexto sin recibir estadísticas del sucesor. Eventos Qing usan QNG y registros de identidad QING. Crimea separa participación ruso-otomana1853, franco-británica1854 y sarda1855; Taiping1851–1859 se incorpora como ventana de observación, no como fin de la guerra.
+
+Cierre local0.15:167 pruebas/39 archivos correctos; dos recorridos de navegador correctos (1,4min), tipos, compilación y55 datos/11 franjas/6.054 medios íntegros. La revisión visual detectó tres extremos1859 de observación sin etiqueta: se marca endIsCoverageBoundary en el curador y los registros; los hechos del mandato y las fotos no cambian. Catálogo regenerado antes de su prueba de igualdad. No se ejecutó de nuevo la batería completa de navegador ni se verificó aún el despliegue público. Detalle en docs/DELIVERY-0.15.0.md.

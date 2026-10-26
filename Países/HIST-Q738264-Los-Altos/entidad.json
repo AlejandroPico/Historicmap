@@ -1,0 +1,100 @@
+{
+  "key": "HIST-Q738264",
+  "name": "Los Altos",
+  "qid": "Q738264",
+  "aliases": [
+    "Los Altos"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q738264"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q78025794",
+      "role": "Jefatura del Gobierno",
+      "start": "1840-01-01",
+      "end": "1840-01-01",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q78025794",
+      "sourceStatement": "Q78025794-5c569c53-4c44-7540-c921-8b300adcc309",
+      "office": "Q21175444",
+      "acquisition": "historical-0.15",
+      "name": "José María Marcelo Molina Mata",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1838-12-27",
+      "note": "Ventana de adquisición1840–1859; los extremos de cobertura no son nombramientos ni dimisiones.",
+      "portrait": {
+        "file": "media/portrait-1458ea33f106beb191be.jpg",
+        "title": "Marcelo Molina Matta.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Marcelo_Molina_Matta.jpg",
+        "artist": "DImi The Online",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "fd3934735587b73503c5f968f18d3600779742e35671286f362378c5156ac4a3",
+        "bytes": 19738,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Marcelo_Molina_Matta.jpg/330px-Marcelo_Molina_Matta.jpg"
+      }
+    },
+    {
+      "person": "Q78038346",
+      "role": "Jefatura del Gobierno",
+      "start": "1848-09-05",
+      "end": "1848-12-25",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q78038346",
+      "sourceStatement": "Q78038346-e0cda931-4381-cedb-8fd3-e1e1448c2ab2",
+      "office": "Q78037968",
+      "acquisition": "historical-0.15",
+      "name": "Fernando Antonio Dávila"
+    },
+    {
+      "person": "Q67968253",
+      "role": "Jefatura del Gobierno",
+      "start": "1848-09-05",
+      "end": "1848-12-25",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q67968253",
+      "sourceStatement": "Q67968253-91cb2f60-443d-92f3-af2c-592279018462",
+      "office": "Q78037968",
+      "acquisition": "historical-0.15",
+      "name": "José Velasco"
+    },
+    {
+      "person": "Q78038893",
+      "role": "Jefatura del Gobierno",
+      "start": "1848-09-05",
+      "end": "1848-12-25",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q78038893",
+      "sourceStatement": "Q78038893-a7d3fc69-49b9-af14-262a-26c59ff7a16f",
+      "office": "Q78037968",
+      "acquisition": "historical-0.15",
+      "name": "Rafael de la Torre"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11368",
+      "start": 1840,
+      "end": 1841,
+      "name": "Los Altos",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
