@@ -1,0 +1,76 @@
+{
+  "key": "HIST-Q153943",
+  "name": "Kingdom of Westphalia",
+  "qid": "Q153943",
+  "aliases": [
+    "Kingdom of Westphalia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q153943"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q151087",
+      "role": "Jefatura del Estado",
+      "start": "1807-01-01",
+      "end": "1813-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q153943",
+      "sourceStatement": "Q153943$d0ee1e27-45b8-d05e-a90c-fc65324ad477",
+      "acquisition": "historical-0.17",
+      "name": "Jerónimo Bonaparte",
+      "portrait": {
+        "file": "media/portrait-9f8d60b44d9b05b780eb.jpg",
+        "title": "King Jerome Bonaparte.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:King_Jerome_Bonaparte.jpg",
+        "artist": "François Gérard",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_Jerome_Bonaparte.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "bridgemanartondemand.com",
+        "sha256": "7f7d97ce3c93fdd7f7b93b7cb945270bef9bcf53ae4378fdb6e947217bf5b136",
+        "bytes": 57945,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/King_Jerome_Bonaparte.jpg/330px-King_Jerome_Bonaparte.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10790",
+      "start": 1809,
+      "end": 1810,
+      "name": "Kingdom of Westphalia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10825",
+      "start": 1811,
+      "end": 1811,
+      "name": "Kingdom of Westphalia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10863",
+      "start": 1812,
+      "end": 1813,
+      "name": "Kingdom of Westphalia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

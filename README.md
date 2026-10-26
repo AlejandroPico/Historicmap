@@ -80,3 +80,5 @@ Actualización0.14.0: correcciones de selección histórica, retratos por etapas
 Actualización0.15.0: documentación ampliada hasta1840, recuperación de oficios monárquicos, regencias y transiciones, símbolos y retratos deVictoria por etapas. [Fuentes y carencias nominales](docs/RESEARCH-1840.md).
 
 Actualización0.16.0: ampliación documental1820–1839. [Alcance, fuentes y pendientes](docs/DELIVERY-0.16.0.md).
+
+Actualización0.17.0: ampliación documental1800–1819. [Alcance, fuentes y pendientes](docs/DELIVERY-0.17.0.md).

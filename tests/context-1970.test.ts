@@ -12,7 +12,7 @@ const dateIsValid=(s:string)=>/^\d{4}-\d{2}-\d{2}$/.test(s)&&new Date(s+'T00:00:
 
 describe('1970–1989 contextual phases and institutional chronology',()=>{
  it('preserves dated, sourced records and the acquisition horizon',()=>{
-  expect(context.startYear).toBe(1820);
+  expect(context.startYear).toBe(1800);
   expect(new Set(historicalEvents.map(e=>e.id)).size).toBe(historicalEvents.length);
   for(const e of historicalEvents){
    expect(dateIsValid(e.start),e.id).toBe(true);
@@ -21,7 +21,7 @@ describe('1970–1989 contextual phases and institutional chronology',()=>{
    expect(e.countries.length,e.id).toBeGreaterThan(0);expect(new Set(e.countries).size,e.id).toBe(e.countries.length);
    expect(e.source,e.id).toMatch(/^https:\/\//);expect(e.sourceLabel.length,e.id).toBeGreaterThan(4);
   }
-  expect(eventsInYear(1819)).toEqual([]);expect(eventsInYear(1879).length).toBeGreaterThan(0);expect(eventsInYear(1899).length).toBeGreaterThan(0);expect(eventsInYear(1949).length).toBeGreaterThan(0);expect(eventsInYear(1969).length).toBeGreaterThan(0);expect(eventsInYear(2027)).toEqual([]);
+  expect(eventsInYear(1799)).toEqual([]);expect(eventsInYear(1879).length).toBeGreaterThan(0);expect(eventsInYear(1899).length).toBeGreaterThan(0);expect(eventsInYear(1949).length).toBeGreaterThan(0);expect(eventsInYear(1969).length).toBeGreaterThan(0);expect(eventsInYear(2027)).toEqual([]);
   expect(recordsFor('USA','institutions',2027,history)).toEqual([]);
  });
  it('distinguishes the fall of Saigon in 1975 from formal unification in 1976',()=>{

@@ -75,7 +75,7 @@ export function regimeColor(key:string,year:number):string{
     case 'GBR':return '#b2789b';
     case 'CHN':return '#d5b34b';case 'ROC':return '#ddbe64';case 'QING':return '#bb9a46';
     case 'JPN':return year<=1945?'#c47b70':'#bd9d91';
-    case 'FRA':return year<=1791?'#b9b4a1':year<=1794?'#789bab':year<=1799?'#6599ac':year<=1803?'#4b8baa':year<=1814?'#387cc1':year<=1829?'#adab91':year<=1847?'#7a9fbc':year<=1851?'#669ab9':year<=1869?'#456fa8':year<=1940?'#6796ad':year<=1945?'#5c91ad':year<=1957?'#729daa':'#6a9db1';
+    case 'FRA':return year<=1791?'#b9b4a1':year<=1794?'#789bab':year<=1799?'#6599ac':year<=1803?'#4b8baa':year<=1813?'#387cc1':year<=1829?'#adab91':year<=1847?'#7a9fbc':year<=1851?'#669ab9':year<=1869?'#456fa8':year<=1940?'#6796ad':year<=1945?'#5c91ad':year<=1957?'#729daa':'#6a9db1';
     case 'FRA-FREE':return '#528fbc';case 'FRA-VICHY':return '#9598a1';
     case 'ESP-REPUBLIC':return '#9b688f';case 'ESP-NATIONALIST':return '#b7914e';
     case 'ESP':return year>=1820&&year<=1822?'#b7a966':year>=1823&&year<=1832?'#a78a53':year===1873?'#a57a9c':year>=1923&&year<=1929?'#8f9365':year<=1930?'#c3a04f':year<=1975?'#b7914e':'#c2a880';
@@ -111,5 +111,5 @@ export function politicalData(data:FeatureCollection,year:number,profiles?:Profi
   })};
 }
 function frenchName(year:number){
-  return `Francia · ${year<=1791?'monarquía':year<=1794?'Primera República':year<=1799?'Directorio':year<=1803?'Consulado':year<=1814?'Primer Imperio':year<=1829?'Restauración':year<=1847?'Monarquía de Julio':year<=1851?'Segunda República':year<=1869?'Segundo Imperio':'Tercera República'}`;
+  return `Francia · ${year<=1791?'monarquía':year<=1794?'Primera República':year<=1799?'Directorio':year<=1803?'Consulado':year<=1813?'Primer Imperio':year<=1829?'Restauración':year<=1847?'Monarquía de Julio':year<=1851?'Segunda República':year<=1869?'Segundo Imperio':'Tercera República'}`;
 }

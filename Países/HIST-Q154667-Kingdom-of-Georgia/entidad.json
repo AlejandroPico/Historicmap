@@ -1,0 +1,66 @@
+{
+  "key": "HIST-Q154667",
+  "name": "Kingdom of Georgia",
+  "qid": "Q154667",
+  "aliases": [
+    "Kingdom of Georgia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q154667"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10150",
+      "start": 1789,
+      "end": 1795,
+      "name": "Kingdom of Georgia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10439",
+      "start": 1796,
+      "end": 1796,
+      "name": "Kingdom of Georgia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10467",
+      "start": 1797,
+      "end": 1799,
+      "name": "Kingdom of Georgia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10523",
+      "start": 1800,
+      "end": 1802,
+      "name": "Kingdom of Georgia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 236,
+      "start": null,
+      "end": null,
+      "name": "Kingdom of Georgia",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

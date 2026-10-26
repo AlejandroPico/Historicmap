@@ -185,16 +185,16 @@
     },
     {
       "file": "country-history.json",
-      "bytes": 202574,
-      "sha256": "f8918b9737371fc79c5ae1bee88174bfc5c440f2a72089b7c5e0321a44fa69a8",
-      "version": "Historicmap0.16.0; preparation2026-10-26; contemporary reference unchanged",
+      "bytes": 213766,
+      "sha256": "12a1d1c222be7d657e8764aa94ccb503a7fe73268084c7c751b5ff6c03335749",
+      "version": "Historicmap0.17.0; preparation2026-10-26; contemporary reference unchanged",
       "format": "country-workspace-history",
       "url": "https://www.un.org/en/about-us/member-states",
       "source": "Official institutional histories, constitutional records and state succession references, linked per record",
       "license": "Original editorial summaries and factual metadata; sources linked individually",
-      "transform": "Fourteen records and three fully named regime-transition links for1820–1839. Coverage begins1820; existing observations retained.",
-      "records": 163,
-      "relations": 105
+      "transform": "Twelve dated records and three fully named French regime-transition links. Earlier observations retained, coverage extended to1800.",
+      "records": 175,
+      "relations": 108
     },
     {
       "file": "country-indicators.json",
@@ -222,6 +222,18 @@
       "license": "CC-BY-4.0",
       "coverage": "1789/1885",
       "transform": "Select inclusive intervals intersecting 1789–1885. Exclude records with Components (aggregate unions); keep leaf polities and MemberOf relation. Original coordinates, source names and Wikidata IDs retained. Not a uniform December 31 reconstruction; uncovered areas remain uncovered."
+    },
+    {
+      "file": "historical-1800-entities.json",
+      "format": "dated-entity-resolution",
+      "source": "Cliopatria and dated editorial identity corrections",
+      "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+      "license": "CC0 factual identity metadata",
+      "sha256": "c7e33ef647ba3dee30b28d1fcfdc709fd86e304a42aeddf5587d037b8633b9eb",
+      "bytes": 54523,
+      "version": "Historicmap0.17.0; preparation2026-10-26; contemporary reference unchanged",
+      "transform": "Dated1800–1819 identity resolution over unchanged Cliopatria contours. Consulate, Empire and Restorations; separate Italian states, British crowns/union and Haitian powers. No reconstructed internal military fronts.",
+      "records": 88
     },
     {
       "file": "historical-1820-entities.json",
@@ -309,15 +321,15 @@
     },
     {
       "file": "historical-context.json",
-      "bytes": 345884,
-      "sha256": "14bc57f02f0f7383932f9d1369970f460ff50d79b4d43c235a98ddb893bb2a94",
-      "version": "Historicmap0.16.0; preparation2026-10-26; contemporary reference unchanged",
+      "bytes": 355501,
+      "sha256": "2dd302a2bb63357313b062111c65f33385c8fe45779833918fa6fa794e7f6d17",
+      "version": "Historicmap0.17.0; preparation2026-10-26; contemporary reference unchanged",
       "format": "dated-historical-context",
       "source": "United Nations, institutional and government historical records",
       "url": "https://www.un.org/en/about-us/history-of-the-un",
       "license": "Original editorial summaries; institutional sources linked per event",
-      "transform": "Fourteen sourced1820–1839 documentary phases appended idempotently. Existing observations preserved; no military front inferred from prose.",
-      "records": 448
+      "transform": "Twelve documentary phases1800–1819 appended idempotently; annual precision and coverage boundaries preserved. No geometric fronts inferred from texts.",
+      "records": 460
     },
     {
       "file": "historical-control.geojson",
@@ -359,16 +371,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 12535260,
-      "sha256": "ffc738a8cd7f33784f5d3f9479a27e8cdd6dee9feaa9d924fc7f7e7cb6aad640",
+      "bytes": 12763963,
+      "sha256": "fb7c51da229debd37bbd01f4c792671c21f1d037718f71c2d977773c1b7c81f6",
       "format": "dated-political-identities",
-      "countries": 492,
-      "records": 12621,
+      "countries": 543,
+      "records": 12879,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap0.16.0; preparation2026-10-26; contemporary reference unchanged",
+      "version": "Historicmap0.17.0; preparation2026-10-26; contemporary reference unchanged",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Isolated1820–1839 acquisition and explicit historical offices. Sovereigns, regents and collegial authorities distinguished; honorary titles and a Sardinian source-date typo rejected. All1840+ mandate facts preserved. Nominal gaps remain in REVIEW-1820-1839."
+      "transform": "Isolated1800–1819 acquisition and historical offices; Gregorian Russian succession, British regency and distinct Italian offices. Previous mandate facts and symbols retained; missing portraits may be filled. Nominal gaps remain in REVIEW-1800-1819."
     },
     {
       "file": "pacific-components.json",
@@ -376,11 +388,11 @@
       "source": "Cliopatria components identified with Natural Earth envelopes",
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC BY4.0",
-      "transform": "Original island-component index extended to1820, with coordinate/component-multiplicity conservation. No replacement modern coastline.",
-      "sha256": "206dffb457ba28d52e4f4132eade543246c71a513acd152ba11ee9310cacce0d",
-      "bytes": 2756,
-      "version": "Historicmap0.16.0; preparation2026-10-26; contemporary reference unchanged",
-      "records": 15
+      "transform": "Original island-component index from1800; coordinates and component multiplicity conserved.",
+      "sha256": "bfb5e25d848f4de84a9ad75871f81836a06237d5ef13268982fbf9dc6c8283e5",
+      "bytes": 4340,
+      "version": "Historicmap0.17.0; preparation2026-10-26; contemporary reference unchanged",
+      "records": 24
     },
     {
       "file": "pacific-references.geojson",
@@ -388,10 +400,10 @@
       "source": "Natural Earth reference land and sourced territorial status metadata",
       "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
       "license": "Natural Earth public domain; CC0 factual metadata",
-      "transform": "Unadministered local-reference windows extended to1820. Dated colonial windows remain unchanged; no British New Zealand projected before1840.",
-      "sha256": "19975063146a64cec078dc819f715a014e24c7cc649232833778d9830a5ca8cf",
+      "transform": "Only unadministered local-reference windows extended to1800; later colonial relations not backdated.",
+      "sha256": "602c7718a54d9e19af43b33760e0ecf7e96edfed536e69e5200fdf34ff9f6dff",
       "bytes": 410931,
-      "version": "Historicmap0.16.0; preparation2026-10-26; contemporary reference unchanged",
+      "version": "Historicmap0.17.0; preparation2026-10-26; contemporary reference unchanged",
       "features": 61
     },
     {
@@ -399,12 +411,12 @@
       "source": "Official historical and archival accounts; national institutions and ECCC",
       "url": "https://history.state.gov/milestones/1989-1992/fall-of-communism",
       "license": "Original factual compilation and editorial colour convention; sources per relationship",
-      "transform": "Dated selected satellite, client, bloc and military-intervention relationships. Tint dominant power colour without merging boundaries or sovereignty. Colonial administrator colours resolved from contemporaneous source entities. Occupation/intervention tint follows the occupations toggle. Alliances alone never imply subordination; incomplete worldwide inventory.",
+      "transform": "Three bounded French-client relationships for Italian states, with distinct identities and authorities. Colour affinity does not assign colonial administration or annexation.",
       "file": "political-influence.json",
-      "bytes": 6932,
-      "sha256": "1d48ccfbba1af0ac52ad57ac546af41f391c6334ec61f6660dbc50e12aad3608",
-      "version": "Historicmap 0.8.0; historical preparation 2026-10-23; reference 2026-10-23",
-      "records": 12
+      "bytes": 8249,
+      "sha256": "3c10e1b71730a7d8361ac4e32609df144a33e14aea8a8edcb7840cad6a3ac775",
+      "version": "Historicmap0.17.0; preparation2026-10-26; contemporary reference unchanged",
+      "records": 15
     },
     {
       "file": "portrait-series.json",

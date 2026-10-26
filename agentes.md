@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.16.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.17.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.16 en la sección 28; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.17 en la sección 29; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente 0.16 (26/10/2026):** ampliar hasta 1820 con uso mínimo de sesión, aplazando los huecos anteriores por decisión del propietario. Verificar localmente y subir sin esperar Actions/Pages. Detalle en sección 28 y tareas.md.
+**Encargo vigente 0.17 (26/10/2026):** ampliar hasta 1800 reduciendo uso de sesión. Mantener pendiente la corrección transversal de fotos y banderas de distintas épocas. Verificar localmente y subir sin esperar Actions/Pages; detalle en sección 29 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -684,3 +684,19 @@ Auditoría nominal docs/REVIEW-1820-1839.json:3234 entidades/año,2183 casos anu
 Cierre local0.16:170 pruebas/40 archivos, tipos y compilación con la configuración vigente correctos; un recorrido de navegador correcto (1,1min) con globo/móvil y salto1839→1840. Se evita repetir la copia completa de estáticos: se compila el programa y se sincronizan sólo recursos modificados para la vista previa; la integridad de todo public se verifica separadamente. Todos los hechos anteriores de mandatos/símbolos se conservan; nuevas imágenes pueden rellenar retratos antes ausentes. 95 medios adicionales y6149 totales. No repetir toda la batería de navegador ni esperar Actions/Pages.
 
 Integridad de cierre0.16:56 datos,11 franjas y6149 medios verificados por SHA;6216 recursos preparados en Git comprobados. Para reconstruir las consultas de oficios desde una copia limpia, ejecutar primero scripts/discover-historical-offices.py, que prepara el registro de cargos usado por acquire-1820-offices.py. La adquisición de retratos se ejecuta después de la curation y antes del catálogo Países; un solo escritor de identidades/medios a la vez.
+
+## 29. Ampliación documental hasta 1800 · 0.17.0
+
+El propietario insiste en fotos y banderas que faltan en varias épocas, pero solicita ahora ampliar1800–1819 con uso mínimo de sesión. No convertir esas carencias en completadas al bajar la fecha. Preparadores específicos de1800, registro register-017-data.mjs y candidatos historical-offices-017-research.json; la adquisición sigue aislada y sin escritores simultáneos de identidades/medios.
+
+543 claves y12879 registros de mandatos, no fichas completas. 49 imágenes raster y3SVG nuevos;6201 medios totales. Los símbolos se buscan por título real del catálogo deCommons: dos nombres inicialmente supuestos no existían; se resuelven mediante búsqueda y se aplican los mismos controles de revisión/licencia/SVG. Se corrige además la omisión de la bandera prusiana1820–1839 por una discrepancia de título. La variante británica anterior a1801 es distinta de la del Reino Unido.
+
+Doce fases documentales y sus registros, tres enlaces franceses. Consulado/Imperio/Restauraciones, regencia británica, autoridades españolas rivales y funciones italianas se distinguen. Tres relaciones italianas de tipo client dan tonos franceses sin administratorKey ni anexión. Las fronteras originales no cambian. Haití conserva un agregado sin partición norte-sur acreditada y autoridades por ámbito. La documentación de1804 no acredita por sí sola las fases posteriores.
+
+Se rechazan fechas rusas divergentes en favor de las gregorianas. Excepción explícita de conservación: se elimina un intervalo dePitt1783–1806 que englobaba indebidamente Addington; se mantienen los dos mandatos reales y se contrasta GOV.UK. No altera mandatos1820+. Se añade el rey ausente y Regencia de la Constitución deCádiz con ámbito explícito, sin atribuirles control uniforme del territorio josefino. Los límites de observación no son ceses.
+
+Auditoría REVIEW-1800-1819.json:2958 entidades/año,2116 casos anuales sin autoridad,20 personas/órganos sin retrato y2668 sin símbolo. Los órganos colectivos no requieren una foto personal inventada. 173 pruebas/41 archivos y tipos correctos; compilación, navegador e integridad se cierran en tareas.md y DELIVERY-0.17.0.md. Se reutiliza la compilación configurada sin recopia completa de estáticos para la vista previa. No esperar Actions/Pages.
+
+Cierre local0.17:173 pruebas/41 archivos, tipos, compilación y recorrido focal de navegador (1,2min) correctos. Se comprueba Consulado/Imperio/Restauraciones, símbolos y autoridades italianas, autoridades españolas1812 y persistencia hasta1820 con globo/móvil. Los hechos anteriores y símbolos se conservan salvo el intervalo condensado erróneo dePitt, excepción documentada y probada. No se ha repetido toda la batería de navegador ni se ha comprobado el despliegue público.
+
+Integridad0.17:57 datos,11 franjas y6201 medios con SHA comprobado;6269 recursos preparados en Git verificados. Entregar a main y terminar al confirmar push.

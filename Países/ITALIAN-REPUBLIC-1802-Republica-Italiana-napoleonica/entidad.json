@@ -1,0 +1,76 @@
+{
+  "key": "ITALIAN-REPUBLIC-1802",
+  "name": "República Italiana napoleónica",
+  "qid": "",
+  "aliases": [
+    "República Italiana napoleónica"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "ITALIAN-REPUBLIC-1802"
+  },
+  "flags": [
+    {
+      "start": "1803-12-31",
+      "end": "1804-12-31",
+      "media": {
+        "file": "media/flag-3f8385a8977cc9905b4c.svg",
+        "title": "Flag of the Italian Republic (1802).svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Italian_Republic_(1802).svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_the_Italian_Republic_%281802%29.svg",
+        "artist": "Gennaro Prota",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Italian_Republic_(1802).svg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "2200e31094a0ef942e5e70be0ab499401b50681fb5cd8d3a35cb6db45a075937",
+        "bytes": 323
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Italian_Republic_(1802).svg",
+      "acquisition": "curated-symbols-1800-0.17",
+      "note": "Familia gráfica histórica representativa con ventana anual conservadora; no acredita uniformidad de cada ejemplar o una norma digital de colores."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q517",
+      "name": "Napoleón Bonaparte",
+      "role": "Presidente de la República Italiana",
+      "start": "1803-01-01",
+      "end": "1804-12-31",
+      "source": "https://www.wikidata.org/wiki/Q517",
+      "precision": 9,
+      "curated": true,
+      "acquisition": "curated-1800-0.17",
+      "note": "Ventana anual interior; presidencia distinta del consulado francés.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-37ae1787f7ede54033f4.jpg",
+        "title": "Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+        "artist": "Jacques-Louis David",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "zQEbF0AA9NhCXQ at Google Cultural Institute maximum zoom level",
+        "sha256": "17ae71b208130a68ce33c187caf7a1076261dd1eefc14d89daebfd401e2ed4fd",
+        "bytes": 48253,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/330px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+        "attribution": "",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

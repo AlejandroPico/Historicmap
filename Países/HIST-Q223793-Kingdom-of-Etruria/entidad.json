@@ -1,0 +1,93 @@
+{
+  "key": "HIST-Q223793",
+  "name": "Kingdom of Etruria",
+  "qid": "Q223793",
+  "aliases": [
+    "Kingdom of Etruria"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q223793"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q444290",
+      "role": "Jefatura del Estado",
+      "start": "1801-01-01",
+      "end": "1803-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q223793",
+      "sourceStatement": "q223793$4ea6dee5-4006-6584-97fb-f6ba322bf50f",
+      "acquisition": "historical-0.17",
+      "name": "Luis de Etruria",
+      "portrait": {
+        "file": "media/portrait-cc0b1a37e61b7458d42e.jpg",
+        "title": "Luis de Etruria.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Luis_de_Etruria.jpg",
+        "artist": "Francisco Goya",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Luis_de_Etruria.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "[1]",
+        "sha256": "8cb7621b33cf1c9ed833db9471ebb2082f39f767d014702111fb504b33c91f20",
+        "bytes": 23928,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Luis_de_Etruria.jpg/330px-Luis_de_Etruria.jpg"
+      }
+    },
+    {
+      "person": "Q352200",
+      "role": "Jefatura del Estado",
+      "start": "1803-01-01",
+      "end": "1807-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q223793",
+      "sourceStatement": "q223793$30bb2801-479c-f084-0b3e-95af68797282",
+      "acquisition": "historical-0.17",
+      "name": "Carlos II de Parma",
+      "portrait": {
+        "file": "media/portrait-fe061fde51a6dccc3916.jpg",
+        "title": "Ritratto di Carlo Ludovico di Borbone.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ritratto_di_Carlo_Ludovico_di_Borbone.jpg",
+        "artist": "Unidentified painter",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ritratto_di_Carlo_Ludovico_di_Borbone.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Palazzo Mansi National Museum\n",
+        "sha256": "a7ef5926dbd779e38f2ed50ae9ac75b5cdfa130b22c45b8c7eb0e75df8bb8ff4",
+        "bytes": 38177,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Ritratto_di_Carlo_Ludovico_di_Borbone.jpg/330px-Ritratto_di_Carlo_Ludovico_di_Borbone.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10614",
+      "start": 1803,
+      "end": 1805,
+      "name": "Kingdom of Etruria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10675",
+      "start": 1806,
+      "end": 1806,
+      "name": "Kingdom of Etruria",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

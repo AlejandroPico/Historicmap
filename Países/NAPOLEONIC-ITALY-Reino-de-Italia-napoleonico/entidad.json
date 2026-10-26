@@ -1,0 +1,76 @@
+{
+  "key": "NAPOLEONIC-ITALY",
+  "name": "Reino de Italia napoleónico",
+  "qid": "",
+  "aliases": [
+    "Reino de Italia napoleónico"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NAPOLEONIC-ITALY"
+  },
+  "flags": [
+    {
+      "start": "1806-12-31",
+      "end": "1813-12-31",
+      "media": {
+        "file": "media/flag-1a79939a8c85f3ebe3b9.svg",
+        "title": "Flag of the Napoleonic Kingdom of Italy.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Napoleonic_Kingdom_of_Italy.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_the_Napoleonic_Kingdom_of_Italy.svg",
+        "artist": "Sodacan",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "882673420eddb510af565ca4546b52007586b7d4bfeaea418c1bc5f25a98ecc8",
+        "bytes": 459432
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Napoleonic_Kingdom_of_Italy.svg",
+      "acquisition": "curated-symbols-1800-0.17",
+      "note": "Familia gráfica histórica representativa con ventana anual conservadora; no acredita uniformidad de cada ejemplar o una norma digital de colores."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q517",
+      "name": "Napoleón I",
+      "role": "Rey de Italia",
+      "start": "1805-12-31",
+      "end": "1813-12-31",
+      "source": "https://www.wikidata.org/wiki/Q517",
+      "precision": 9,
+      "curated": true,
+      "acquisition": "curated-1800-0.17",
+      "note": "Reino napoleónico, distinto del Estado italiano de1861. Ventana conservadora; falta detallar virreinato y disolución.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-37ae1787f7ede54033f4.jpg",
+        "title": "Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+        "artist": "Jacques-Louis David",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "zQEbF0AA9NhCXQ at Google Cultural Institute maximum zoom level",
+        "sha256": "17ae71b208130a68ce33c187caf7a1076261dd1eefc14d89daebfd401e2ed4fd",
+        "bytes": 48253,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/330px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+        "attribution": "",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

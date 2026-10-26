@@ -159,3 +159,7 @@ Cargos históricos explícitos, metadatosWikidataCC0 y curaciones institucionale
 ## Ampliación1820–1839 · 0.16
 
 Consultas históricas aisladas, símbolos ya acreditados, nuevos retratos con licencia propia y14 fases documentales institucionales. No se adquieren datos durante la compilación. Fuentes y límites en [DELIVERY-0.16.0.md](DELIVERY-0.16.0.md); candidatos y declaraciones en scripts/historical-offices-016-research.json.
+
+## Ampliación1800–1819 · 0.17
+
+Adquisición aislada, cargos explícitos y52 medios nuevos con licencia propia. Doce fases documentales; originales geográficos intactos. Fuentes, correcciones y límites en [DELIVERY-0.17.0.md](DELIVERY-0.17.0.md). Los estados clientes no se convierten en colonias por compartir familia de color.

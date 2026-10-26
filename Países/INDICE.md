@@ -10,9 +10,9 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Anguila](./AIA-Anguila/entidad.json) | AIA | 1 | 7 | 6 |
 | [Albania](./ALB-Albania/entidad.json) | ALB | 9 | 53 | 12 |
 | [Åland](./ALD-Aland/entidad.json) | ALD | 1 | 11 | 1 |
-| [Andorra](./AND-Andorra/entidad.json) | AND | 1 | 73 | 12 |
+| [Andorra](./AND-Andorra/entidad.json) | AND | 1 | 81 | 12 |
 | [Emiratos Árabes Unidos](./ARE-Emiratos-Arabes-Unidos/entidad.json) | ARE | 1 | 8 | 7 |
-| [Argentina](./ARG-Argentina/entidad.json) | ARG | 6 | 119 | 8 |
+| [Argentina](./ARG-Argentina/entidad.json) | ARG | 6 | 121 | 8 |
 | [Armenia](./ARM-Armenia/entidad.json) | ARM | 1 | 33 | 7 |
 | [Samoa Americana](./ASM-Samoa-Americana/entidad.json) | ASM | 2 | 61 | 6 |
 | [Antártida](./ATA-Antartida/entidad.json) | ATA | 0 | 0 | 2 |
@@ -20,7 +20,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Tierras Australes y Antárticas Francesas](./ATF-Tierras-Australes-y-Antarticas-Francesas/entidad.json) | ATF | 1 | 0 | 1 |
 | [Antigua y Barbuda](./ATG-Antigua-y-Barbuda/entidad.json) | ATG | 1 | 8 | 6 |
 | [Australia](./AUS-Australia/entidad.json) | AUS | 6 | 59 | 7 |
-| [Imperio austríaco](./AUSTRIAN-EMPIRE-Imperio-austriaco/entidad.json) | AUSTRIAN-EMPIRE | 1 | 11 | 22 |
+| [Imperio austríaco](./AUSTRIAN-EMPIRE-Imperio-austriaco/entidad.json) | AUSTRIAN-EMPIRE | 2 | 13 | 22 |
 | [Austria](./AUT-Austria/entidad.json) | AUT | 4 | 58 | 6 |
 | [Austria-Hungría · monarquía dual](./AUT-HUN-Austria-Hungria-monarquia-dual/entidad.json) | AUT-HUN | 3 | 7 | 10 |
 | [Azerbaiyán](./AZE-Azerbaiyan/entidad.json) | AZE | 1 | 18 | 5 |
@@ -30,7 +30,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Burkina Faso](./BFA-Burkina-Faso/entidad.json) | BFA | 2 | 48 | 4 |
 | [Bangladés](./BGD-Banglades/entidad.json) | BGD | 1 | 44 | 5 |
 | [Bulgaria](./BGR-Bulgaria/entidad.json) | BGR | 14 | 124 | 14 |
-| [Baréin](./BHR-Barein/entidad.json) | BHR | 2 | 14 | 7 |
+| [Baréin](./BHR-Barein/entidad.json) | BHR | 2 | 15 | 7 |
 | [Bahamas](./BHS-Bahamas/entidad.json) | BHS | 1 | 13 | 7 |
 | [Bosnia y Herzegovina](./BIH-Bosnia-y-Herzegovina/entidad.json) | BIH | 1 | 53 | 3 |
 | [Bajo Nuevo](./BJN-Bajo-Nuevo/entidad.json) | BJN | 0 | 0 | 1 |
@@ -43,7 +43,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Imperio del Brasil](./BRA-EMPIRE-Imperio-del-Brasil/entidad.json) | BRA-EMPIRE | 5 | 23 | 15 |
 | [Barbados](./BRB-Barbados/entidad.json) | BRB | 1 | 16 | 7 |
 | [Isla Brasilera](./BRI-Isla-Brasilera/entidad.json) | BRI | 0 | 0 | 1 |
-| [Brunéi](./BRN-Brunei/entidad.json) | BRN | 1 | 28 | 11 |
+| [Brunéi](./BRN-Brunei/entidad.json) | BRN | 1 | 30 | 11 |
 | [Bir Tawil](./BRT-Bir-Tawil/entidad.json) | BRT | 0 | 0 | 1 |
 | [Bután](./BTN-Butan/entidad.json) | BTN | 4 | 23 | 15 |
 | [Botsuana](./BWA-Botsuana/entidad.json) | BWA | 1 | 14 | 9 |
@@ -61,7 +61,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [República Democrática del Congo](./COD-Republica-Democratica-del-Congo/entidad.json) | COD | 9 | 29 | 1 |
 | [Congo](./COG-Congo/entidad.json) | COG | 1 | 26 | 12 |
 | [Islas Cook](./COK-Islas-Cook/entidad.json) | COK | 1 | 11 | 5 |
-| [Colombia](./COL-Colombia/entidad.json) | COL | 3 | 141 | 9 |
+| [Colombia](./COL-Colombia/entidad.json) | COL | 3 | 149 | 9 |
 | [Comoras](./COM-Comoras/entidad.json) | COM | 1 | 46 | 3 |
 | [Cabo Verde](./CPV-Cabo-Verde/entidad.json) | CPV | 2 | 13 | 1 |
 | [Costa Rica](./CRI-Costa-Rica/entidad.json) | CRI | 3 | 98 | 7 |
@@ -70,7 +70,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [islas del mar del Coral](./CSI-islas-del-mar-del-Coral/entidad.json) | CSI | 0 | 0 | 1 |
 | [Checoslovaquia](./CSK-Checoslovaquia/entidad.json) | CSK | 4 | 36 | 0 |
 | [Cuba](./CUB-Cuba/entidad.json) | CUB | 3 | 40 | 8 |
-| [Curazao](./CUW-Curazao/entidad.json) | CUW | 1 | 18 | 1 |
+| [Curazao](./CUW-Curazao/entidad.json) | CUW | 1 | 19 | 1 |
 | [Islas Caimán](./CYM-Islas-Caiman/entidad.json) | CYM | 2 | 15 | 1 |
 | [Chipre del Norte](./CYN-Chipre-del-Norte/entidad.json) | CYN | 1 | 31 | 0 |
 | [Chipre](./CYP-Chipre/entidad.json) | CYP | 2 | 28 | 7 |
@@ -80,18 +80,18 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Alemania](./DEU-Alemania/entidad.json) | DEU | 15 | 59 | 20 |
 | [Yibuti](./DJI-Yibuti/entidad.json) | DJI | 1 | 9 | 8 |
 | [Dominica](./DMA-Dominica/entidad.json) | DMA | 2 | 17 | 7 |
-| [Dinamarca](./DNK-Dinamarca/entidad.json) | DNK | 1 | 95 | 7 |
+| [Dinamarca](./DNK-Dinamarca/entidad.json) | DNK | 1 | 98 | 7 |
 | [República Dominicana](./DOM-Republica-Dominicana/entidad.json) | DOM | 1 | 76 | 8 |
 | [Argelia](./DZA-Argelia/entidad.json) | DZA | 1 | 43 | 10 |
 | [Ecuador](./ECU-Ecuador/entidad.json) | ECU | 9 | 124 | 8 |
-| [Egipto](./EGY-Egipto/entidad.json) | EGY | 9 | 121 | 14 |
+| [Egipto](./EGY-Egipto/entidad.json) | EGY | 9 | 122 | 14 |
 | [Eritrea](./ERI-Eritrea/entidad.json) | ERI | 1 | 4 | 10 |
 | [Dekelia](./ESB-Dekelia/entidad.json) | ESB | 1 | 0 | 1 |
-| [España](./ESP-Espana/entidad.json) | ESP | 15 | 80 | 31 |
+| [España](./ESP-Espana/entidad.json) | ESP | 15 | 87 | 31 |
 | [España · bando sublevado](./ESP-NATIONALIST-Espana-bando-sublevado/entidad.json) | ESP-NATIONALIST | 3 | 1 | 3 |
 | [España · zona republicana](./ESP-REPUBLIC-Espana-zona-republicana/entidad.json) | ESP-REPUBLIC | 3 | 9 | 3 |
 | [Estonia](./EST-Estonia/entidad.json) | EST | 1 | 56 | 5 |
-| [Etiopía](./ETH-Etiopia/entidad.json) | ETH | 7 | 51 | 13 |
+| [Etiopía](./ETH-Etiopia/entidad.json) | ETH | 7 | 56 | 13 |
 | [Finlandia](./FIN-Finlandia/entidad.json) | FIN | 3 | 86 | 12 |
 | [Fiyi](./FJI-Fiyi/entidad.json) | FJI | 1 | 22 | 8 |
 | [Islas Malvinas](./FLK-Islas-Malvinas/entidad.json) | FLK | 1 | 44 | 1 |
@@ -102,7 +102,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [República Federal de Yugoslavia](./FRY-Republica-Federal-de-Yugoslavia/entidad.json) | FRY | 1 | 10 | 0 |
 | [Estados Federados de Micronesia](./FSM-Estados-Federados-de-Micronesia/entidad.json) | FSM | 1 | 26 | 8 |
 | [Gabón](./GAB-Gabon/entidad.json) | GAB | 1 | 24 | 10 |
-| [Reino Unido](./GBR-Reino-Unido/entidad.json) | GBR | 5 | 163 | 8 |
+| [Reino Unido](./GBR-Reino-Unido/entidad.json) | GBR | 6 | 171 | 8 |
 | [Georgia](./GEO-Georgia/entidad.json) | GEO | 1 | 36 | 7 |
 | [Guernsey](./GGY-Guernsey/entidad.json) | GGY | 1 | 13 | 1 |
 | [Ghana](./GHA-Ghana/entidad.json) | GHA | 4 | 37 | 9 |
@@ -118,17 +118,21 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Guam](./GUM-Guam/entidad.json) | GUM | 1 | 66 | 5 |
 | [Guyana](./GUY-Guyana/entidad.json) | GUY | 1 | 22 | 7 |
 | [Hawái · administración tras la anexión estadounidense](./HAW-Hawai-administracion-tras-la-anexion-estadounidense/entidad.json) | HAW | 0 | 1 | 0 |
-| [Reino de Hawái](./HAW-KINGDOM-Reino-de-Hawai/entidad.json) | HAW-KINGDOM | 3 | 9 | 5 |
+| [Reino de Hawái](./HAW-KINGDOM-Reino-de-Hawai/entidad.json) | HAW-KINGDOM | 3 | 11 | 5 |
 | [Hawái · Gobierno provisional](./HAW-PROVISIONAL-Hawai-Gobierno-provisional/entidad.json) | HAW-PROVISIONAL | 1 | 2 | 0 |
 | [República de Hawái](./HAW-REPUBLIC-Republica-de-Hawai/entidad.json) | HAW-REPUBLIC | 1 | 2 | 0 |
 | [Hungría · Gobierno revolucionario](./HIST-HUNGARY-1848-Hungria-Gobierno-revolucionario/entidad.json) | HIST-HUNGARY-1848 | 0 | 0 | 0 |
 | [Poles](./HIST-Q1026-Poles/entidad.json) | HIST-Q1026 | 0 | 0 | 1 |
+| [Tây Sơn dynasty](./HIST-Q1034173-Tay-Son-dynasty/entidad.json) | HIST-Q1034173 | 0 | 0 | 7 |
 | [Imamate of Yemen](./HIST-Q1042069-Imamate-of-Yemen/entidad.json) | HIST-Q1042069 | 0 | 0 | 4 |
 | [Sultan of Yogyakarta](./HIST-Q1050326-Sultan-of-Yogyakarta/entidad.json) | HIST-Q1050326 | 0 | 0 | 2 |
 | [Free City of Hamburg](./HIST-Q1055-Free-City-of-Hamburg/entidad.json) | HIST-Q1055 | 0 | 0 | 8 |
 | [Sultanate of Aceh](./HIST-Q1061057-Sultanate-of-Aceh/entidad.json) | HIST-Q1061057 | 0 | 0 | 3 |
 | [United States of Colombia](./HIST-Q1061488-United-States-of-Colombia/entidad.json) | HIST-Q1061488 | 0 | 0 | 2 |
-| [Merina Kingdom](./HIST-Q1071439-Merina-Kingdom/entidad.json) | HIST-Q1071439 | 0 | 12 | 14 |
+| [Konbaung Dynasty](./HIST-Q1062422-Konbaung-Dynasty/entidad.json) | HIST-Q1062422 | 0 | 0 | 3 |
+| [Kingdom of Imereti](./HIST-Q1069959-Kingdom-of-Imereti/entidad.json) | HIST-Q1069959 | 0 | 0 | 3 |
+| [Merina Kingdom](./HIST-Q1071439-Merina-Kingdom/entidad.json) | HIST-Q1071439 | 0 | 16 | 14 |
+| [Septinsular Republic](./HIST-Q1077630-Septinsular-Republic/entidad.json) | HIST-Q1077630 | 0 | 0 | 2 |
 | [Duchy of Mecklenburg](./HIST-Q109252949-Duchy-of-Mecklenburg/entidad.json) | HIST-Q109252949 | 0 | 0 | 11 |
 | [Principality of Moldavia](./HIST-Q10957559-Principality-of-Moldavia/entidad.json) | HIST-Q10957559 | 0 | 0 | 7 |
 | [Federated Republic of Mexico](./HIST-Q1109279-Federated-Republic-of-Mexico/entidad.json) | HIST-Q1109279 | 0 | 0 | 13 |
@@ -138,8 +142,10 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Sultanate of Johor](./HIST-Q1150344-Sultanate-of-Johor/entidad.json) | HIST-Q1150344 | 0 | 2 | 4 |
 | [Rattanakosin Kingdom](./HIST-Q1155700-Rattanakosin-Kingdom/entidad.json) | HIST-Q1155700 | 0 | 0 | 10 |
 | [House of Khalifa](./HIST-Q1158126-House-of-Khalifa/entidad.json) | HIST-Q1158126 | 0 | 0 | 2 |
-| [Mosquito Kingdom](./HIST-Q1165546-Mosquito-Kingdom/entidad.json) | HIST-Q1165546 | 0 | 4 | 2 |
+| [Mosquito Kingdom](./HIST-Q1165546-Mosquito-Kingdom/entidad.json) | HIST-Q1165546 | 0 | 6 | 2 |
+| [Mexicans](./HIST-Q1209676-Mexicans/entidad.json) | HIST-Q1209676 | 0 | 0 | 4 |
 | [Panthay Rebellion](./HIST-Q1230569-Panthay-Rebellion/entidad.json) | HIST-Q1230569 | 0 | 0 | 4 |
+| [Holy Roman Empire Minor States](./HIST-Q12548-Holy-Roman-Empire-Minor-States/entidad.json) | HIST-Q12548 | 0 | 1 | 8 |
 | [Khedivate of Egypt](./HIST-Q127861-Khedivate-of-Egypt/entidad.json) | HIST-Q127861 | 0 | 0 | 3 |
 | [British Raj](./HIST-Q129286-British-Raj/entidad.json) | HIST-Q129286 | 0 | 0 | 6 |
 | [Sultanate of Kedah](./HIST-Q1317579-Sultanate-of-Kedah/entidad.json) | HIST-Q1317579 | 0 | 1 | 3 |
@@ -149,30 +155,38 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Kazakh Khanate](./HIST-Q1433867-Kazakh-Khanate/entidad.json) | HIST-Q1433867 | 0 | 0 | 8 |
 | [Principality of Lippe](./HIST-Q14551680-Principality-of-Lippe/entidad.json) | HIST-Q14551680 | 0 | 0 | 8 |
 | [Emirate of Nejd](./HIST-Q146862-Emirate-of-Nejd/entidad.json) | HIST-Q146862 | 0 | 0 | 12 |
+| [Emirate of Diriyah](./HIST-Q146871-Emirate-of-Diriyah/entidad.json) | HIST-Q146871 | 0 | 3 | 13 |
 | [Sultanate of Darfur](./HIST-Q1474791-Sultanate-of-Darfur/entidad.json) | HIST-Q1474791 | 0 | 0 | 3 |
-| [Funj Sultanate](./HIST-Q1475713-Funj-Sultanate/entidad.json) | HIST-Q1475713 | 0 | 1 | 2 |
+| [Funj Sultanate](./HIST-Q1475713-Funj-Sultanate/entidad.json) | HIST-Q1475713 | 0 | 4 | 2 |
+| [County of Urgell](./HIST-Q1514510-County-of-Urgell/entidad.json) | HIST-Q1514510 | 0 | 0 | 5 |
 | [German Confederation](./HIST-Q151624-German-Confederation/entidad.json) | HIST-Q151624 | 0 | 0 | 11 |
+| [Duchy of Warsaw](./HIST-Q152115-Duchy-of-Warsaw/entidad.json) | HIST-Q152115 | 0 | 0 | 3 |
 | [Ottoman Tripolitania](./HIST-Q1529261-Ottoman-Tripolitania/entidad.json) | HIST-Q1529261 | 0 | 0 | 3 |
-| [Kingdom of Saxony](./HIST-Q153015-Kingdom-of-Saxony/entidad.json) | HIST-Q153015 | 0 | 2 | 8 |
-| [Kingdom of Bavaria](./HIST-Q154195-Kingdom-of-Bavaria/entidad.json) | HIST-Q154195 | 0 | 11 | 17 |
+| [Kingdom of Saxony](./HIST-Q153015-Kingdom-of-Saxony/entidad.json) | HIST-Q153015 | 0 | 3 | 8 |
+| [Kingdom of Westphalia](./HIST-Q153943-Kingdom-of-Westphalia/entidad.json) | HIST-Q153943 | 0 | 1 | 3 |
+| [Kingdom of Bavaria](./HIST-Q154195-Kingdom-of-Bavaria/entidad.json) | HIST-Q154195 | 0 | 13 | 17 |
+| [Kingdom of Georgia](./HIST-Q154667-Kingdom-of-Georgia/entidad.json) | HIST-Q154667 | 0 | 0 | 5 |
+| [Confederation of the Rhine](./HIST-Q154741-Confederation-of-the-Rhine/entidad.json) | HIST-Q154741 | 0 | 0 | 2 |
 | [Grand Duchy of Tuscany](./HIST-Q154849-Grand-Duchy-of-Tuscany/entidad.json) | HIST-Q154849 | 0 | 0 | 6 |
 | [Grand Duchy of Saxe-Weimar-Eisenach](./HIST-Q155570-Grand-Duchy-of-Saxe-Weimar-Eisenach/entidad.json) | HIST-Q155570 | 0 | 0 | 10 |
+| [Electorate of Saxony](./HIST-Q156199-Electorate-of-Saxony/entidad.json) | HIST-Q156199 | 0 | 0 | 4 |
 | [Principality of Hohenzollern-Sigmaringen](./HIST-Q157013-Principality-of-Hohenzollern-Sigmaringen/entidad.json) | HIST-Q157013 | 0 | 0 | 3 |
 | [Saxe-Meiningen](./HIST-Q157710-Saxe-Meiningen/entidad.json) | HIST-Q157710 | 0 | 0 | 7 |
 | [Saxe-Altenburg](./HIST-Q158151-Saxe-Altenburg/entidad.json) | HIST-Q158151 | 0 | 0 | 11 |
 | [Kingdom of Württemberg](./HIST-Q159631-Kingdom-of-Wurttemberg/entidad.json) | HIST-Q159631 | 0 | 0 | 3 |
 | [Mexican Monarchists](./HIST-Q15984928-Mexican-Monarchists/entidad.json) | HIST-Q15984928 | 0 | 0 | 1 |
 | [Riograndense Republic](./HIST-Q162192-Riograndense-Republic/entidad.json) | HIST-Q162192 | 0 | 0 | 2 |
-| [Kingdom of Hanover](./HIST-Q164079-Kingdom-of-Hanover/entidad.json) | HIST-Q164079 | 0 | 6 | 5 |
+| [Kingdom of Hanover](./HIST-Q164079-Kingdom-of-Hanover/entidad.json) | HIST-Q164079 | 0 | 8 | 5 |
 | [Duchy of Parma and Piacenza](./HIST-Q165040-Duchy-of-Parma-and-Piacenza/entidad.json) | HIST-Q165040 | 0 | 0 | 3 |
 | [Duchy of Anhalt](./HIST-Q16550783-Duchy-of-Anhalt/entidad.json) | HIST-Q16550783 | 0 | 0 | 8 |
-| [Principality of Waldeck and Pyrmont](./HIST-Q165763-Principality-of-Waldeck-and-Pyrmont/entidad.json) | HIST-Q165763 | 0 | 3 | 6 |
+| [Principality of Waldeck and Pyrmont](./HIST-Q165763-Principality-of-Waldeck-and-Pyrmont/entidad.json) | HIST-Q165763 | 0 | 6 | 6 |
 | [Kingdom of Sarawak](./HIST-Q1658411-Kingdom-of-Sarawak/entidad.json) | HIST-Q1658411 | 0 | 1 | 5 |
 | [Sultanate of Banjar](./HIST-Q1660566-Sultanate-of-Banjar/entidad.json) | HIST-Q1660566 | 0 | 0 | 2 |
 | [Sultanate of Jambi](./HIST-Q1679856-Sultanate-of-Jambi/entidad.json) | HIST-Q1679856 | 0 | 1 | 2 |
 | [Papal States](./HIST-Q170174-Papal-States/entidad.json) | HIST-Q170174 | 0 | 0 | 16 |
 | [Principality of Wallachia](./HIST-Q171393-Principality-of-Wallachia/entidad.json) | HIST-Q171393 | 0 | 0 | 8 |
 | [Kingdom of Italy](./HIST-Q172579-Kingdom-of-Italy/entidad.json) | HIST-Q172579 | 0 | 3 | 6 |
+| [Bessarabia](./HIST-Q174994-Bessarabia/entidad.json) | HIST-Q174994 | 0 | 0 | 1 |
 | [Kingdom of Fiji](./HIST-Q17515160-Kingdom-of-Fiji/entidad.json) | HIST-Q17515160 | 0 | 0 | 2 |
 | [California Republic](./HIST-Q17557-California-Republic/entidad.json) | HIST-Q17557 | 0 | 0 | 1 |
 | [Principality of Abkhazia](./HIST-Q1760473-Principality-of-Abkhazia/entidad.json) | HIST-Q1760473 | 0 | 0 | 4 |
@@ -186,7 +200,8 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Grand Duchy of Baden](./HIST-Q186320-Grand-Duchy-of-Baden/entidad.json) | HIST-Q186320 | 0 | 0 | 7 |
 | [New Granada](./HIST-Q1863715-New-Granada/entidad.json) | HIST-Q1863715 | 0 | 0 | 5 |
 | [Dutch East Indies](./HIST-Q188161-Dutch-East-Indies/entidad.json) | HIST-Q188161 | 0 | 9 | 24 |
-| [Empire of Japan](./HIST-Q188712-Empire-of-Japan/entidad.json) | HIST-Q188712 | 0 | 6 | 5 |
+| [Batavian Republic](./HIST-Q188553-Batavian-Republic/entidad.json) | HIST-Q188553 | 0 | 0 | 5 |
+| [Empire of Japan](./HIST-Q188712-Empire-of-Japan/entidad.json) | HIST-Q188712 | 0 | 8 | 5 |
 | [Qajar Dynasty](./HIST-Q189326-Qajar-Dynasty/entidad.json) | HIST-Q189326 | 0 | 0 | 18 |
 | [United Provinces of Central America](./HIST-Q190025-United-Provinces-of-Central-America/entidad.json) | HIST-Q190025 | 0 | 22 | 3 |
 | [Kingdom of Luang Phrabang](./HIST-Q190165-Kingdom-of-Luang-Phrabang/entidad.json) | HIST-Q190165 | 0 | 1 | 6 |
@@ -194,20 +209,25 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Sultanate of Sambaliung](./HIST-Q19727688-Sultanate-of-Sambaliung/entidad.json) | HIST-Q19727688 | 0 | 0 | 2 |
 | [Sultanate of Mempawah](./HIST-Q19746028-Sultanate-of-Mempawah/entidad.json) | HIST-Q19746028 | 0 | 0 | 2 |
 | [French Africa](./HIST-Q19951607-French-Africa/entidad.json) | HIST-Q19951607 | 0 | 0 | 11 |
-| [Gran Colombia](./HIST-Q199821-Gran-Colombia/entidad.json) | HIST-Q199821 | 0 | 5 | 3 |
+| [Gran Colombia](./HIST-Q199821-Gran-Colombia/entidad.json) | HIST-Q199821 | 0 | 10 | 3 |
 | [Portuguese Colonies](./HIST-Q200464-Portuguese-Colonies/entidad.json) | HIST-Q200464 | 0 | 0 | 19 |
 | [Grand Duchy of Hesse](./HIST-Q20135-Grand-Duchy-of-Hesse/entidad.json) | HIST-Q20135 | 0 | 0 | 11 |
 | [Republic of the Rio Grande](./HIST-Q2014442-Republic-of-the-Rio-Grande/entidad.json) | HIST-Q2014442 | 0 | 0 | 1 |
 | [Khmer Empire](./HIST-Q201705-Khmer-Empire/entidad.json) | HIST-Q201705 | 0 | 0 | 6 |
 | [Tokugawa Shogunate](./HIST-Q205662-Tokugawa-Shogunate/entidad.json) | HIST-Q205662 | 0 | 0 | 8 |
+| [Helvetic Republic](./HIST-Q206696-Helvetic-Republic/entidad.json) | HIST-Q206696 | 0 | 0 | 7 |
 | [Bourbon Kingdom of France](./HIST-Q207162-Bourbon-Kingdom-of-France/entidad.json) | HIST-Q207162 | 0 | 0 | 10 |
 | [Ethiopian Empire](./HIST-Q207521-Ethiopian-Empire/entidad.json) | HIST-Q207521 | 0 | 0 | 1 |
+| [Republic of Ragusa](./HIST-Q208169-Republic-of-Ragusa/entidad.json) | HIST-Q208169 | 0 | 4 | 2 |
 | [Caucasian Imamate](./HIST-Q2088141-Caucasian-Imamate/entidad.json) | HIST-Q2088141 | 0 | 0 | 3 |
 | [Surakarta Sunanate](./HIST-Q2122499-Surakarta-Sunanate/entidad.json) | HIST-Q2122499 | 0 | 0 | 2 |
 | [Kedah-Perlis District](./HIST-Q213467-Kedah-Perlis-District/entidad.json) | HIST-Q213467 | 0 | 5 | 1 |
 | [Negeri Sembilan](./HIST-Q213893-Negeri-Sembilan/entidad.json) | HIST-Q213893 | 0 | 0 | 3 |
+| [Swedish Empire](./HIST-Q215443-Swedish-Empire/entidad.json) | HIST-Q215443 | 0 | 0 | 3 |
+| [Electorate of Württemberg](./HIST-Q2172530-Electorate-of-Wurttemberg/entidad.json) | HIST-Q2172530 | 0 | 0 | 2 |
 | [French Algeria](./HIST-Q218272-French-Algeria/entidad.json) | HIST-Q218272 | 0 | 0 | 5 |
 | [Principality of Guria](./HIST-Q2195101-Principality-of-Guria/entidad.json) | HIST-Q2195101 | 0 | 0 | 3 |
+| [Kingdom of Etruria](./HIST-Q223793-Kingdom-of-Etruria/entidad.json) | HIST-Q223793 | 0 | 2 | 2 |
 | [Majeerteen Sultanate](./HIST-Q2257830-Majeerteen-Sultanate/entidad.json) | HIST-Q2257830 | 0 | 0 | 3 |
 | [Sultanate of Maguindanao](./HIST-Q248572-Sultanate-of-Maguindanao/entidad.json) | HIST-Q248572 | 0 | 0 | 2 |
 | [Grand Duchy of Berg](./HIST-Q249428-Grand-Duchy-of-Berg/entidad.json) | HIST-Q249428 | 0 | 0 | 8 |
@@ -215,9 +235,13 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Duchy of Modena and Reggio](./HIST-Q252580-Duchy-of-Modena-and-Reggio/entidad.json) | HIST-Q252580 | 0 | 0 | 3 |
 | [Kashmir and Jammu](./HIST-Q2571484-Kashmir-and-Jammu/entidad.json) | HIST-Q2571484 | 0 | 2 | 6 |
 | [Kingdom of Sardinia](./HIST-Q2577303-Kingdom-of-Sardinia/entidad.json) | HIST-Q2577303 | 0 | 0 | 16 |
+| [Sikh Confederacy](./HIST-Q2578028-Sikh-Confederacy/entidad.json) | HIST-Q2578028 | 0 | 0 | 5 |
+| [Nawab of Awadh](./HIST-Q2614237-Nawab-of-Awadh/entidad.json) | HIST-Q2614237 | 0 | 0 | 4 |
+| [Federal League](./HIST-Q2625228-Federal-League/entidad.json) | HIST-Q2625228 | 0 | 0 | 2 |
 | [Sultanate of Perak](./HIST-Q2649311-Sultanate-of-Perak/entidad.json) | HIST-Q2649311 | 0 | 0 | 3 |
 | [Sultanate of Bima](./HIST-Q2817348-Sultanate-of-Bima/entidad.json) | HIST-Q2817348 | 0 | 0 | 3 |
 | [Primer Imperio mexicano](./HIST-Q285658-Primer-Imperio-mexicano/entidad.json) | HIST-Q285658 | 0 | 1 | 1 |
+| [Principality of Mingrelia](./HIST-Q2907860-Principality-of-Mingrelia/entidad.json) | HIST-Q2907860 | 0 | 0 | 2 |
 | [Principality of Svaneti](./HIST-Q2919545-Principality-of-Svaneti/entidad.json) | HIST-Q2919545 | 0 | 0 | 3 |
 | [Regency of Algiers](./HIST-Q3045696-Regency-of-Algiers/entidad.json) | HIST-Q3045696 | 0 | 0 | 7 |
 | [Pontianak Kadriyah Sultanate](./HIST-Q3048747-Pontianak-Kadriyah-Sultanate/entidad.json) | HIST-Q3048747 | 0 | 0 | 2 |
@@ -226,6 +250,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Sultanate of Sambas](./HIST-Q3109927-Sultanate-of-Sambas/entidad.json) | HIST-Q3109927 | 0 | 0 | 2 |
 | [Bali](./HIST-Q3125978-Bali/entidad.json) | HIST-Q3125978 | 0 | 0 | 2 |
 | [Duchy of Brunswick](./HIST-Q326029-Duchy-of-Brunswick/entidad.json) | HIST-Q326029 | 0 | 0 | 6 |
+| [Carnatic Sultanate](./HIST-Q3277580-Carnatic-Sultanate/entidad.json) | HIST-Q3277580 | 0 | 0 | 2 |
 | [Mughal Empire](./HIST-Q33296-Mughal-Empire/entidad.json) | HIST-Q33296 | 0 | 0 | 11 |
 | [Sultanate of Sukadana](./HIST-Q3446232-Sultanate-of-Sukadana/entidad.json) | HIST-Q3446232 | 0 | 0 | 2 |
 | [Saxe-Coburg and Gotha](./HIST-Q3462133-Saxe-Coburg-and-Gotha/entidad.json) | HIST-Q3462133 | 0 | 0 | 1 |
@@ -234,25 +259,34 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Sultanate of Palembang](./HIST-Q3503555-Sultanate-of-Palembang/entidad.json) | HIST-Q3503555 | 0 | 0 | 3 |
 | [Río de la Plata](./HIST-Q35827-Rio-de-la-Plata/entidad.json) | HIST-Q35827 | 0 | 0 | 8 |
 | [British Cape Colony](./HIST-Q370736-British-Cape-Colony/entidad.json) | HIST-Q370736 | 0 | 0 | 16 |
+| [New Netherland](./HIST-Q382593-New-Netherland/entidad.json) | HIST-Q382593 | 0 | 0 | 3 |
 | [Kingdom of Champasak](./HIST-Q403369-Kingdom-of-Champasak/entidad.json) | HIST-Q403369 | 0 | 0 | 5 |
 | [Sultanate of Sulu](./HIST-Q422065-Sultanate-of-Sulu/entidad.json) | HIST-Q422065 | 0 | 0 | 3 |
-| [German Empire](./HIST-Q43287-German-Empire/entidad.json) | HIST-Q43287 | 0 | 9 | 4 |
+| [German Empire](./HIST-Q43287-German-Empire/entidad.json) | HIST-Q43287 | 0 | 10 | 4 |
 | [Sultanate of Bone](./HIST-Q43292-Sultanate-of-Bone/entidad.json) | HIST-Q43292 | 0 | 0 | 2 |
 | [Omani Slave Coast](./HIST-Q4334533-Omani-Slave-Coast/entidad.json) | HIST-Q4334533 | 0 | 0 | 5 |
-| [Kingdom of Portugal](./HIST-Q45670-Kingdom-of-Portugal/entidad.json) | HIST-Q45670 | 0 | 21 | 10 |
+| [Kingdom of Portugal](./HIST-Q45670-Kingdom-of-Portugal/entidad.json) | HIST-Q45670 | 0 | 23 | 10 |
+| [Cispadane Republic](./HIST-Q463289-Cispadane-Republic/entidad.json) | HIST-Q463289 | 0 | 0 | 1 |
 | [Sultanate of Malacca](./HIST-Q46652-Sultanate-of-Malacca/entidad.json) | HIST-Q46652 | 0 | 0 | 4 |
 | [Durrani Empire](./HIST-Q467627-Durrani-Empire/entidad.json) | HIST-Q467627 | 0 | 0 | 12 |
+| [Duchy of Bavaria](./HIST-Q47261-Duchy-of-Bavaria/entidad.json) | HIST-Q47261 | 0 | 0 | 7 |
 | [Free City of Bremen](./HIST-Q474779-Free-City-of-Bremen/entidad.json) | HIST-Q474779 | 0 | 0 | 5 |
+| [Napoleonic Batavia Republic](./HIST-Q4807130-Napoleonic-Batavia-Republic/entidad.json) | HIST-Q4807130 | 0 | 0 | 4 |
+| [Kingdom of Naples (Napoleonic)](./HIST-Q48779892-Kingdom-of-Naples-Napoleonic/entidad.json) | HIST-Q48779892 | 0 | 1 | 7 |
 | [Beylik of Tunis](./HIST-Q4899891-Beylik-of-Tunis/entidad.json) | HIST-Q4899891 | 0 | 0 | 9 |
 | [Khanate of Khiva](./HIST-Q491106-Khanate-of-Khiva/entidad.json) | HIST-Q491106 | 0 | 0 | 8 |
 | [First Spanish Republic](./HIST-Q497777-First-Spanish-Republic/entidad.json) | HIST-Q497777 | 0 | 6 | 1 |
 | [Free City of Krakow](./HIST-Q501303-Free-City-of-Krakow/entidad.json) | HIST-Q501303 | 0 | 0 | 4 |
 | [British Gold Coast](./HIST-Q503623-British-Gold-Coast/entidad.json) | HIST-Q503623 | 0 | 0 | 2 |
+| [Cundinamarca](./HIST-Q5194225-Cundinamarca/entidad.json) | HIST-Q5194225 | 0 | 0 | 1 |
 | [Chiangmai](./HIST-Q52028-Chiangmai/entidad.json) | HIST-Q52028 | 0 | 0 | 3 |
+| [Qasimids](./HIST-Q5261548-Qasimids/entidad.json) | HIST-Q5261548 | 0 | 0 | 4 |
 | [Electorate of Hesse](./HIST-Q529605-Electorate-of-Hesse/entidad.json) | HIST-Q529605 | 0 | 0 | 7 |
 | [Durrani Dynasty](./HIST-Q5316729-Durrani-Dynasty/entidad.json) | HIST-Q5316729 | 0 | 0 | 2 |
+| [Guayaquil Junta](./HIST-Q5334383-Guayaquil-Junta/entidad.json) | HIST-Q5334383 | 0 | 0 | 1 |
 | [Emirate of Jabal Shammar](./HIST-Q5362837-Emirate-of-Jabal-Shammar/entidad.json) | HIST-Q5362837 | 0 | 0 | 6 |
 | [Principality of Lichtenberg](./HIST-Q547629-Principality-of-Lichtenberg/entidad.json) | HIST-Q547629 | 0 | 0 | 2 |
+| [French Louisiana](./HIST-Q5501836-French-Louisiana/entidad.json) | HIST-Q5501836 | 0 | 0 | 2 |
 | [Nieuwe Republiek](./HIST-Q552157-Nieuwe-Republiek/entidad.json) | HIST-Q552157 | 0 | 0 | 1 |
 | [Sultanate of Terengganu](./HIST-Q5769444-Sultanate-of-Terengganu/entidad.json) | HIST-Q5769444 | 0 | 0 | 1 |
 | [French Second Republic](./HIST-Q58326-French-Second-Republic/entidad.json) | HIST-Q58326 | 0 | 0 | 2 |
@@ -261,27 +295,37 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [United Kingdoms of Sweden and Norway](./HIST-Q62589-United-Kingdoms-of-Sweden-and-Norway/entidad.json) | HIST-Q62589 | 0 | 0 | 2 |
 | [Republic of New Granada](./HIST-Q630882-Republic-of-New-Granada/entidad.json) | HIST-Q630882 | 0 | 0 | 3 |
 | [Massina Empire](./HIST-Q635394-Massina-Empire/entidad.json) | HIST-Q635394 | 0 | 0 | 3 |
+| [Electorate of Baden](./HIST-Q637238-Electorate-of-Baden/entidad.json) | HIST-Q637238 | 0 | 0 | 2 |
 | [Principality of Reuss-Gera](./HIST-Q639100-Principality-of-Reuss-Gera/entidad.json) | HIST-Q639100 | 0 | 0 | 8 |
 | [French India](./HIST-Q646374-French-India/entidad.json) | HIST-Q646374 | 0 | 0 | 5 |
+| [Electorate of Salzburg](./HIST-Q646390-Electorate-of-Salzburg/entidad.json) | HIST-Q646390 | 0 | 0 | 2 |
 | [Nguyễn dynasty](./HIST-Q6500483-Nguyen-dynasty/entidad.json) | HIST-Q6500483 | 0 | 6 | 11 |
 | [State of Buenos Aires](./HIST-Q6553448-State-of-Buenos-Aires/entidad.json) | HIST-Q6553448 | 0 | 0 | 3 |
+| [Ligurian Republic](./HIST-Q659312-Ligurian-Republic/entidad.json) | HIST-Q659312 | 0 | 0 | 4 |
+| [Habsburg Monarchy](./HIST-Q66504140-Habsburg-Monarchy/entidad.json) | HIST-Q66504140 | 0 | 0 | 10 |
 | [Kamerun](./HIST-Q668294-Kamerun/entidad.json) | HIST-Q668294 | 0 | 0 | 8 |
 | [Republic of Baden](./HIST-Q690821-Republic-of-Baden/entidad.json) | HIST-Q690821 | 0 | 0 | 1 |
 | [Khanate of Kokand](./HIST-Q696241-Khanate-of-Kokand/entidad.json) | HIST-Q696241 | 0 | 0 | 10 |
 | [Duchy of Oldenburg](./HIST-Q697084-Duchy-of-Oldenburg/entidad.json) | HIST-Q697084 | 0 | 0 | 8 |
+| [Grand Duchy of Würzburg](./HIST-Q698089-Grand-Duchy-of-Wurzburg/entidad.json) | HIST-Q698089 | 0 | 0 | 4 |
+| [Principality of Regensberg](./HIST-Q701969-Principality-of-Regensberg/entidad.json) | HIST-Q701969 | 0 | 0 | 4 |
 | [Duchy of Holstein](./HIST-Q704288-Duchy-of-Holstein/entidad.json) | HIST-Q704288 | 0 | 0 | 2 |
 | [Free City of Frankfurt](./HIST-Q704300-Free-City-of-Frankfurt/entidad.json) | HIST-Q704300 | 0 | 0 | 2 |
+| [Electorate of Hanover](./HIST-Q706018-Electorate-of-Hanover/entidad.json) | HIST-Q706018 | 0 | 0 | 4 |
 | [French Third Republic](./HIST-Q70802-French-Third-Republic/entidad.json) | HIST-Q70802 | 0 | 0 | 2 |
 | [Principality of Schwarzburg-Sonderhausen](./HIST-Q708821-Principality-of-Schwarzburg-Sonderhausen/entidad.json) | HIST-Q708821 | 0 | 0 | 4 |
+| [First French colonial empire](./HIST-Q71084-First-French-colonial-empire/entidad.json) | HIST-Q71084 | 0 | 4 | 9 |
 | [Second French Empire](./HIST-Q71092-Second-French-Empire/entidad.json) | HIST-Q71092 | 0 | 2 | 6 |
 | [Ashanti Empire](./HIST-Q722071-Ashanti-Empire/entidad.json) | HIST-Q722071 | 0 | 1 | 5 |
 | [Republic of Baja California](./HIST-Q7314427-Republic-of-Baja-California/entidad.json) | HIST-Q7314427 | 0 | 0 | 2 |
+| [Sultanate of Banten](./HIST-Q734867-Sultanate-of-Banten/entidad.json) | HIST-Q734867 | 0 | 0 | 2 |
 | [Los Altos](./HIST-Q738264-Los-Altos/entidad.json) | HIST-Q738264 | 0 | 8 | 1 |
 | [Emirate of Bukhara](./HIST-Q746558-Emirate-of-Bukhara/entidad.json) | HIST-Q746558 | 0 | 0 | 8 |
 | [Bamana Empire](./HIST-Q762084-Bamana-Empire/entidad.json) | HIST-Q762084 | 0 | 0 | 4 |
 | [Sultanate of Selangor](./HIST-Q7636765-Sultanate-of-Selangor/entidad.json) | HIST-Q7636765 | 0 | 0 | 2 |
 | [Dutch Gold Coast](./HIST-Q770776-Dutch-Gold-Coast/entidad.json) | HIST-Q770776 | 0 | 0 | 6 |
 | [Danish Gold Coast](./HIST-Q770833-Danish-Gold-Coast/entidad.json) | HIST-Q770833 | 0 | 0 | 2 |
+| [Sovereign Principality of the United Netherlands](./HIST-Q774783-Sovereign-Principality-of-the-United-Netherlands/entidad.json) | HIST-Q774783 | 0 | 0 | 1 |
 | [Spanish Empire](./HIST-Q80702-Spanish-Empire/entidad.json) | HIST-Q80702 | 0 | 0 | 22 |
 | [Principality of Bulgaria](./HIST-Q815731-Principality-of-Bulgaria/entidad.json) | HIST-Q815731 | 0 | 0 | 2 |
 | [Sikh Empire](./HIST-Q83572-Sikh-Empire/entidad.json) | HIST-Q83572 | 0 | 0 | 15 |
@@ -290,8 +334,11 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Oyo Empire](./HIST-Q849623-Oyo-Empire/entidad.json) | HIST-Q849623 | 0 | 0 | 3 |
 | [Sultanate of Hobyo](./HIST-Q862404-Sultanate-of-Hobyo/entidad.json) | HIST-Q862404 | 0 | 2 | 1 |
 | [British Colonial Empire](./HIST-Q8680-British-Colonial-Empire/entidad.json) | HIST-Q8680 | 0 | 0 | 75 |
+| [French Consulate](./HIST-Q877619-French-Consulate/entidad.json) | HIST-Q877619 | 0 | 3 | 2 |
 | [Sultanate of Brunei](./HIST-Q887803-Sultanate-of-Brunei/entidad.json) | HIST-Q887803 | 0 | 0 | 6 |
 | [Peru-Bolivian Confederation](./HIST-Q899706-Peru-Bolivian-Confederation/entidad.json) | HIST-Q899706 | 0 | 0 | 1 |
+| [Danish India](./HIST-Q912382-Danish-India/entidad.json) | HIST-Q912382 | 0 | 0 | 4 |
+| [British Ceylon](./HIST-Q918153-British-Ceylon/entidad.json) | HIST-Q918153 | 0 | 4 | 2 |
 | [Vientiane](./HIST-Q9326-Vientiane/entidad.json) | HIST-Q9326 | 0 | 0 | 3 |
 | [Free City of Lübeck](./HIST-Q950240-Free-City-of-Lubeck/entidad.json) | HIST-Q950240 | 0 | 0 | 5 |
 | [United Principalities of Moldavia and Wallachia](./HIST-Q958291-United-Principalities-of-Moldavia-and-Wallachia/entidad.json) | HIST-Q958291 | 0 | 0 | 2 |
@@ -299,7 +346,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Islas Heard y McDonald](./HMD-Islas-Heard-y-McDonald/entidad.json) | HMD | 1 | 0 | 1 |
 | [Honduras](./HND-Honduras/entidad.json) | HND | 8 | 154 | 10 |
 | [Croacia](./HRV-Croacia/entidad.json) | HRV | 1 | 24 | 5 |
-| [Haití](./HTI-Haiti/entidad.json) | HTI | 6 | 98 | 8 |
+| [Haití](./HTI-Haiti/entidad.json) | HTI | 6 | 103 | 8 |
 | [Hungría](./HUN-Hungria/entidad.json) | HUN | 11 | 97 | 16 |
 | [Indonesia](./IDN-Indonesia/entidad.json) | IDN | 2 | 22 | 15 |
 | [Isla de Man](./IMN-Isla-de-Man/entidad.json) | IMN | 1 | 10 | 1 |
@@ -307,43 +354,44 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Territorios Australianos del Océano Índico](./IOA-Territorios-Australianos-del-Oceano-Indico/entidad.json) | IOA | 0 | 0 | 1 |
 | [Territorio Británico del Océano Índico](./IOT-Territorio-Britanico-del-Oceano-Indico/entidad.json) | IOT | 2 | 0 | 1 |
 | [Irlanda](./IRL-Irlanda/entidad.json) | IRL | 3 | 42 | 5 |
-| [Irán](./IRN-Iran/entidad.json) | IRN | 7 | 45 | 9 |
+| [Irán](./IRN-Iran/entidad.json) | IRN | 7 | 46 | 9 |
 | [Irak](./IRQ-Irak/entidad.json) | IRQ | 8 | 96 | 10 |
 | [Islandia](./ISL-Islandia/entidad.json) | ISL | 1 | 52 | 9 |
 | [Israel](./ISR-Israel/entidad.json) | ISR | 1 | 47 | 7 |
 | [Italia](./ITA-Italia/entidad.json) | ITA | 8 | 166 | 27 |
+| [República Italiana napoleónica](./ITALIAN-REPUBLIC-1802-Republica-Italiana-napoleonica/entidad.json) | ITALIAN-REPUBLIC-1802 | 1 | 1 | 0 |
 | [Jamaica](./JAM-Jamaica/entidad.json) | JAM | 1 | 21 | 5 |
 | [Jersey](./JEY-Jersey/entidad.json) | JEY | 1 | 12 | 1 |
 | [Jordania](./JOR-Jordania/entidad.json) | JOR | 1 | 60 | 9 |
-| [Reino de Joseon](./JOS-Reino-de-Joseon/entidad.json) | JOS | 0 | 10 | 0 |
-| [Japón](./JPN-Japon/entidad.json) | JPN | 5 | 241 | 21 |
+| [Reino de Joseon](./JOS-Reino-de-Joseon/entidad.json) | JOS | 0 | 14 | 0 |
+| [Japón](./JPN-Japon/entidad.json) | JPN | 5 | 244 | 21 |
 | [Baikonur](./KAB-Baikonur/entidad.json) | KAB | 1 | 1 | 1 |
 | [Glaciar de Siachen](./KAS-Glaciar-de-Siachen/entidad.json) | KAS | 0 | 0 | 1 |
 | [Kazajistán](./KAZ-Kazajistan/entidad.json) | KAZ | 1 | 15 | 5 |
 | [Imperio de Corea](./KEM-Imperio-de-Corea/entidad.json) | KEM | 2 | 4 | 0 |
 | [Kenia](./KEN-Kenia/entidad.json) | KEN | 1 | 13 | 15 |
 | [Kirguistán](./KGZ-Kirguistan/entidad.json) | KGZ | 2 | 69 | 3 |
-| [Camboya](./KHM-Camboya/entidad.json) | KHM | 9 | 71 | 8 |
+| [Camboya](./KHM-Camboya/entidad.json) | KHM | 9 | 72 | 8 |
 | [Kiribati](./KIR-Kiribati/entidad.json) | KIR | 1 | 18 | 5 |
 | [San Cristóbal y Nieves](./KNA-San-Cristobal-y-Nieves/entidad.json) | KNA | 1 | 15 | 6 |
 | [Corea del Sur](./KOR-Corea-del-Sur/entidad.json) | KOR | 3 | 44 | 1 |
 | [Kosovo](./KOS-Kosovo/entidad.json) | KOS | 1 | 27 | 2 |
-| [Kuwait](./KWT-Kuwait/entidad.json) | KWT | 2 | 35 | 11 |
+| [Kuwait](./KWT-Kuwait/entidad.json) | KWT | 2 | 37 | 11 |
 | [Laos](./LAO-Laos/entidad.json) | LAO | 2 | 26 | 11 |
 | [Líbano](./LBN-Libano/entidad.json) | LBN | 1 | 76 | 7 |
 | [Liberia](./LBR-Liberia/entidad.json) | LBR | 3 | 81 | 9 |
 | [Libia](./LBY-Libia/entidad.json) | LBY | 4 | 37 | 14 |
 | [Santa Lucía](./LCA-Santa-Lucia/entidad.json) | LCA | 2 | 18 | 6 |
-| [Liechtenstein](./LIE-Liechtenstein/entidad.json) | LIE | 1 | 40 | 7 |
+| [Liechtenstein](./LIE-Liechtenstein/entidad.json) | LIE | 1 | 41 | 7 |
 | [Sri Lanka](./LKA-Sri-Lanka/entidad.json) | LKA | 5 | 49 | 4 |
 | [Lesoto](./LSO-Lesoto/entidad.json) | LSO | 4 | 29 | 7 |
 | [Lituania](./LTU-Lituania/entidad.json) | LTU | 3 | 53 | 8 |
-| [Luxemburgo](./LUX-Luxemburgo/entidad.json) | LUX | 6 | 48 | 7 |
+| [Luxemburgo](./LUX-Luxemburgo/entidad.json) | LUX | 6 | 49 | 7 |
 | [Letonia](./LVA-Letonia/entidad.json) | LVA | 1 | 49 | 5 |
 | [Macao](./MAC-Macao/entidad.json) | MAC | 1 | 4 | 1 |
 | [San Martín](./MAF-San-Martin/entidad.json) | MAF | 1 | 0 | 5 |
 | [Federación de Malaya](./MAL-Federacion-de-Malaya/entidad.json) | MAL | 1 | 5 | 0 |
-| [Marruecos](./MAR-Marruecos/entidad.json) | MAR | 1 | 35 | 22 |
+| [Marruecos](./MAR-Marruecos/entidad.json) | MAR | 1 | 37 | 22 |
 | [Mónaco](./MCO-Monaco/entidad.json) | MCO | 1 | 39 | 8 |
 | [Moldavia](./MDA-Moldavia/entidad.json) | MDA | 2 | 44 | 4 |
 | [Madagascar](./MDG-Madagascar/entidad.json) | MDG | 1 | 43 | 6 |
@@ -354,7 +402,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Macedonia del Norte](./MKD-Macedonia-del-Norte/entidad.json) | MKD | 1 | 28 | 1 |
 | [Mali](./MLI-Mali/entidad.json) | MLI | 2 | 36 | 15 |
 | [Malta](./MLT-Malta/entidad.json) | MLT | 1 | 38 | 6 |
-| [Birmania](./MMR-Birmania/entidad.json) | MMR | 5 | 45 | 9 |
+| [Birmania](./MMR-Birmania/entidad.json) | MMR | 5 | 47 | 9 |
 | [Montenegro](./MNE-Montenegro/entidad.json) | MNE | 1 | 56 | 11 |
 | [Mongolia](./MNG-Mongolia/entidad.json) | MNG | 3 | 52 | 11 |
 | [Montenegro · principado y reino](./MNK-Montenegro-principado-y-reino/entidad.json) | MNK | 1 | 3 | 0 |
@@ -366,6 +414,9 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Malaui](./MWI-Malaui/entidad.json) | MWI | 3 | 18 | 7 |
 | [Malasia](./MYS-Malasia/entidad.json) | MYS | 2 | 35 | 8 |
 | [Namibia](./NAM-Namibia/entidad.json) | NAM | 1 | 13 | 10 |
+| [Reino de Nápoles borbónico](./NAPLES-BOURBON-Reino-de-Napoles-borbonico/entidad.json) | NAPLES-BOURBON | 0 | 1 | 0 |
+| [Reino de Italia napoleónico](./NAPOLEONIC-ITALY-Reino-de-Italia-napoleonico/entidad.json) | NAPOLEONIC-ITALY | 1 | 1 | 0 |
+| [Reino de Nápoles napoleónico](./NAPOLEONIC-NAPLES-Reino-de-Napoles-napoleonico/entidad.json) | NAPOLEONIC-NAPLES | 0 | 2 | 0 |
 | [Nueva Caledonia](./NCL-Nueva-Caledonia/entidad.json) | NCL | 2 | 1 | 3 |
 | [Níger](./NER-Niger/entidad.json) | NER | 1 | 34 | 9 |
 | [Isla Norfolk](./NFK-Isla-Norfolk/entidad.json) | NFK | 1 | 0 | 1 |
@@ -373,17 +424,17 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Confederación Alemana del Norte](./NGC-Confederacion-Alemana-del-Norte/entidad.json) | NGC | 0 | 3 | 2 |
 | [Nicaragua](./NIC-Nicaragua/entidad.json) | NIC | 6 | 126 | 13 |
 | [Niue](./NIU-Niue/entidad.json) | NIU | 1 | 11 | 9 |
-| [Países Bajos](./NLD-Paises-Bajos/entidad.json) | NLD | 4 | 74 | 14 |
-| [Noruega](./NOR-Noruega/entidad.json) | NOR | 3 | 74 | 8 |
-| [Nepal](./NPL-Nepal/entidad.json) | NPL | 6 | 82 | 24 |
+| [Países Bajos](./NLD-Paises-Bajos/entidad.json) | NLD | 4 | 75 | 14 |
+| [Noruega](./NOR-Noruega/entidad.json) | NOR | 3 | 79 | 8 |
+| [Nepal](./NPL-Nepal/entidad.json) | NPL | 6 | 87 | 24 |
 | [Nauru](./NRU-Nauru/entidad.json) | NRU | 1 | 78 | 8 |
 | [Nueva Zelanda](./NZL-Nueva-Zelanda/entidad.json) | NZL | 4 | 63 | 7 |
 | [Omán](./OMN-Oman/entidad.json) | OMN | 1 | 13 | 19 |
 | [Estado Libre de Orange / colonia del río Orange](./ORF-Estado-Libre-de-Orange-colonia-del-rio-Orange/entidad.json) | ORF | 0 | 9 | 3 |
-| [Imperio otomano](./OTT-Imperio-otomano/entidad.json) | OTT | 4 | 14 | 45 |
+| [Imperio otomano](./OTT-Imperio-otomano/entidad.json) | OTT | 4 | 17 | 45 |
 | [Pakistán](./PAK-Pakistan/entidad.json) | PAK | 3 | 48 | 9 |
 | [Panamá](./PAN-Panama/entidad.json) | PAN | 1 | 72 | 6 |
-| [Estados Pontificios](./PAPAL-STATES-Estados-Pontificios/entidad.json) | PAPAL-STATES | 2 | 6 | 0 |
+| [Estados Pontificios](./PAPAL-STATES-Estados-Pontificios/entidad.json) | PAPAL-STATES | 2 | 7 | 0 |
 | [Islas Pitcairn](./PCN-Islas-Pitcairn/entidad.json) | PCN | 1 | 9 | 3 |
 | [Perú](./PER-Peru/entidad.json) | PER | 2 | 156 | 17 |
 | [Isla Wake](./PGA-Isla-Wake/entidad.json) | PGA | 1 | 0 | 1 |
@@ -393,93 +444,46 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Polonia](./POL-Polonia/entidad.json) | POL | 6 | 84 | 16 |
 | [Puerto Rico](./PRI-Puerto-Rico/entidad.json) | PRI | 1 | 49 | 7 |
 | [Corea del Norte](./PRK-Corea-del-Norte/entidad.json) | PRK | 1 | 22 | 1 |
-| [Portugal](./PRT-Portugal/entidad.json) | PRT | 7 | 110 | 8 |
-| [Reino de Prusia](./PRUSSIA-Reino-de-Prusia/entidad.json) | PRUSSIA | 1 | 8 | 14 |
-| [Paraguay](./PRY-Paraguay/entidad.json) | PRY | 10 | 121 | 16 |
+| [Portugal](./PRT-Portugal/entidad.json) | PRT | 7 | 112 | 8 |
+| [Reino de Prusia](./PRUSSIA-Reino-de-Prusia/entidad.json) | PRUSSIA | 3 | 9 | 14 |
+| [Paraguay](./PRY-Paraguay/entidad.json) | PRY | 10 | 123 | 16 |
 | [Palestina](./PSX-Palestina/entidad.json) | PSX | 0 | 2 | 1 |
 | [Polinesia Francesa](./PYF-Polinesia-Francesa/entidad.json) | PYF | 2 | 1 | 4 |
 | [Natalia Republic](./Q1029847-Natalia-Republic/entidad.json) | Q1029847 | 0 | 0 | 5 |
-| [Tây Sơn dynasty](./Q1034173-Tay-Son-dynasty/entidad.json) | Q1034173 | 0 | 0 | 7 |
-| [Konbaung Dynasty](./Q1062422-Konbaung-Dynasty/entidad.json) | Q1062422 | 0 | 0 | 3 |
-| [Kingdom of Imereti](./Q1069959-Kingdom-of-Imereti/entidad.json) | Q1069959 | 0 | 0 | 3 |
-| [Septinsular Republic](./Q1077630-Septinsular-Republic/entidad.json) | Q1077630 | 0 | 0 | 2 |
 | [Comtat Venaissin](./Q1122980-Comtat-Venaissin/entidad.json) | Q1122980 | 0 | 0 | 1 |
-| [Mexicans](./Q1209676-Mexicans/entidad.json) | Q1209676 | 0 | 0 | 4 |
 | [Hyderabad State](./Q1240096-Hyderabad-State/entidad.json) | Q1240096 | 0 | 0 | 3 |
-| [Holy Roman Empire Minor States](./Q12548-Holy-Roman-Empire-Minor-States/entidad.json) | Q12548 | 0 | 0 | 8 |
 | [Serbs](./Q127885-Serbs/entidad.json) | Q127885 | 0 | 0 | 9 |
-| [Emirate of Diriyah](./Q146871-Emirate-of-Diriyah/entidad.json) | Q146871 | 0 | 0 | 13 |
-| [County of Urgell](./Q1514510-County-of-Urgell/entidad.json) | Q1514510 | 0 | 0 | 5 |
-| [Duchy of Warsaw](./Q152115-Duchy-of-Warsaw/entidad.json) | Q152115 | 0 | 0 | 3 |
-| [Kingdom of Westphalia](./Q153943-Kingdom-of-Westphalia/entidad.json) | Q153943 | 0 | 0 | 3 |
-| [Kingdom of Georgia](./Q154667-Kingdom-of-Georgia/entidad.json) | Q154667 | 0 | 0 | 4 |
-| [Confederation of the Rhine](./Q154741-Confederation-of-the-Rhine/entidad.json) | Q154741 | 0 | 0 | 2 |
 | [Duchy of Courland](./Q156038-Duchy-of-Courland/entidad.json) | Q156038 | 0 | 0 | 2 |
-| [Electorate of Saxony](./Q156199-Electorate-of-Saxony/entidad.json) | Q156199 | 0 | 0 | 4 |
 | [People's Republic of Zanzibar](./Q157535-People-s-Republic-of-Zanzibar/entidad.json) | Q157535 | 0 | 0 | 2 |
 | [Vermont Republic](./Q1649602-Vermont-Republic/entidad.json) | Q1649602 | 0 | 0 | 1 |
 | [Dutch Republic](./Q170072-Dutch-Republic/entidad.json) | Q170072 | 0 | 0 | 3 |
 | [New France](./Q170604-New-France/entidad.json) | Q170604 | 0 | 0 | 2 |
 | [Polish-Lithuanian Commonwealth](./Q172107-Polish-Lithuanian-Commonwealth/entidad.json) | Q172107 | 0 | 0 | 3 |
 | [Republic of Genoa](./Q174306-Republic-of-Genoa/entidad.json) | Q174306 | 0 | 0 | 2 |
-| [Bessarabia](./Q174994-Bessarabia/entidad.json) | Q174994 | 0 | 0 | 1 |
 | [Revolutionary Roman Republic](./Q175881-Revolutionary-Roman-Republic/entidad.json) | Q175881 | 0 | 0 | 1 |
 | [Dutch Ceylon](./Q1841483-Dutch-Ceylon/entidad.json) | Q1841483 | 0 | 0 | 2 |
-| [Batavian Republic](./Q188553-Batavian-Republic/entidad.json) | Q188553 | 0 | 0 | 4 |
 | [Talpur Dynasty](./Q19569014-Talpur-Dynasty/entidad.json) | Q19569014 | 0 | 0 | 14 |
 | [Haiti](./Q2006756-Haiti/entidad.json) | Q2006756 | 0 | 0 | 8 |
-| [Helvetic Republic](./Q206696-Helvetic-Republic/entidad.json) | Q206696 | 0 | 0 | 6 |
-| [Republic of Ragusa](./Q208169-Republic-of-Ragusa/entidad.json) | Q208169 | 0 | 0 | 2 |
 | [Cisalpine Republic](./Q213353-Cisalpine-Republic/entidad.json) | Q213353 | 0 | 0 | 2 |
-| [Swedish Empire](./Q215443-Swedish-Empire/entidad.json) | Q215443 | 0 | 0 | 3 |
-| [Electorate of Württemberg](./Q2172530-Electorate-of-Wurttemberg/entidad.json) | Q2172530 | 0 | 0 | 2 |
 | [French Directory](./Q219817-French-Directory/entidad.json) | Q219817 | 0 | 0 | 3 |
-| [Kingdom of Etruria](./Q223793-Kingdom-of-Etruria/entidad.json) | Q223793 | 0 | 0 | 2 |
 | [Kingdom of Great Britain](./Q23666-Kingdom-of-Great-Britain/entidad.json) | Q23666 | 0 | 0 | 13 |
-| [Sikh Confederacy](./Q2578028-Sikh-Confederacy/entidad.json) | Q2578028 | 0 | 0 | 5 |
-| [Nawab of Awadh](./Q2614237-Nawab-of-Awadh/entidad.json) | Q2614237 | 0 | 0 | 4 |
-| [Federal League](./Q2625228-Federal-League/entidad.json) | Q2625228 | 0 | 0 | 2 |
 | [Kingdom of Mysore](./Q266923-Kingdom-of-Mysore/entidad.json) | Q266923 | 0 | 0 | 2 |
 | [Joseon](./Q28405-Joseon/entidad.json) | Q28405 | 0 | 0 | 2 |
-| [Principality of Mingrelia](./Q2907860-Principality-of-Mingrelia/entidad.json) | Q2907860 | 0 | 0 | 2 |
-| [Carnatic Sultanate](./Q3277580-Carnatic-Sultanate/entidad.json) | Q3277580 | 0 | 0 | 2 |
 | [Thanjavur Maratha Kingdom](./Q3530610-Thanjavur-Maratha-Kingdom/entidad.json) | Q3530610 | 0 | 0 | 2 |
 | [French Colony of Guiana](./Q3769-French-Colony-of-Guiana/entidad.json) | Q3769 | 0 | 0 | 1 |
 | [Freetown Colony](./Q3780-Freetown-Colony/entidad.json) | Q3780 | 0 | 0 | 2 |
-| [New Netherland](./Q382593-New-Netherland/entidad.json) | Q382593 | 0 | 0 | 3 |
 | [Khanates of the Caucasus](./Q406684-Khanates-of-the-Caucasus/entidad.json) | Q406684 | 0 | 0 | 3 |
-| [Cispadane Republic](./Q463289-Cispadane-Republic/entidad.json) | Q463289 | 0 | 0 | 1 |
-| [Duchy of Bavaria](./Q47261-Duchy-of-Bavaria/entidad.json) | Q47261 | 0 | 0 | 7 |
-| [Dutch Cape Colony](./Q4807130-Dutch-Cape-Colony/entidad.json) | Q4807130 | 0 | 0 | 4 |
-| [Kingdom of Naples (Napoleonic)](./Q48779892-Kingdom-of-Naples-Napoleonic/entidad.json) | Q48779892 | 0 | 0 | 7 |
 | [Republic of Venice](./Q4948-Republic-of-Venice/entidad.json) | Q4948 | 0 | 0 | 2 |
 | [Centralist Mexico](./Q5062192-Centralist-Mexico/entidad.json) | Q5062192 | 0 | 0 | 7 |
-| [Cundinamarca](./Q5194225-Cundinamarca/entidad.json) | Q5194225 | 0 | 0 | 1 |
 | [Tibet](./Q521263-Tibet/entidad.json) | Q521263 | 0 | 0 | 3 |
-| [Qasimids](./Q5261548-Qasimids/entidad.json) | Q5261548 | 0 | 0 | 4 |
 | [First Hellenic Republic](./Q528546-First-Hellenic-Republic/entidad.json) | Q528546 | 0 | 0 | 10 |
-| [Guayaquil Junta](./Q5334383-Guayaquil-Junta/entidad.json) | Q5334383 | 0 | 0 | 1 |
-| [French Louisiana](./Q5501836-French-Louisiana/entidad.json) | Q5501836 | 0 | 0 | 2 |
 | [German Africa](./Q5551337-German-Africa/entidad.json) | Q5551337 | 0 | 0 | 2 |
 | [French First Republic](./Q58296-French-First-Republic/entidad.json) | Q58296 | 0 | 0 | 2 |
 | [Denmark-Norway](./Q62651-Denmark-Norway/entidad.json) | Q62651 | 0 | 0 | 8 |
-| [Electorate of Baden](./Q637238-Electorate-of-Baden/entidad.json) | Q637238 | 0 | 0 | 2 |
-| [Electorate of Salzburg](./Q646390-Electorate-of-Salzburg/entidad.json) | Q646390 | 0 | 0 | 2 |
-| [Ligurian Republic](./Q659312-Ligurian-Republic/entidad.json) | Q659312 | 0 | 0 | 4 |
-| [Habsburg Monarchy](./Q66504140-Habsburg-Monarchy/entidad.json) | Q66504140 | 0 | 0 | 10 |
-| [Grand Duchy of Würzburg](./Q698089-Grand-Duchy-of-Wurzburg/entidad.json) | Q698089 | 0 | 0 | 4 |
-| [Principality of Regensberg](./Q701969-Principality-of-Regensberg/entidad.json) | Q701969 | 0 | 0 | 4 |
-| [Electorate of Hanover](./Q706018-Electorate-of-Hanover/entidad.json) | Q706018 | 0 | 0 | 4 |
-| [First French colonial empire](./Q71084-First-French-colonial-empire/entidad.json) | Q71084 | 0 | 0 | 9 |
-| [Sultanate of Banten](./Q734867-Sultanate-of-Banten/entidad.json) | Q734867 | 0 | 0 | 2 |
-| [Sovereign Principality of the United Netherlands](./Q774783-Sovereign-Principality-of-the-United-Netherlands/entidad.json) | Q774783 | 0 | 0 | 1 |
 | [Argentine Confederation](./Q832554-Argentine-Confederation/entidad.json) | Q832554 | 0 | 0 | 13 |
-| [French Consulate](./Q877619-French-Consulate/entidad.json) | Q877619 | 0 | 0 | 2 |
-| [Danish India](./Q912382-Danish-India/entidad.json) | Q912382 | 0 | 0 | 4 |
-| [British Ceylon](./Q918153-British-Ceylon/entidad.json) | Q918153 | 0 | 0 | 2 |
 | [Zand Dynasty](./Q97629053-Zand-Dynasty/entidad.json) | Q97629053 | 0 | 0 | 3 |
 | [Catar](./QAT-Catar/entidad.json) | QAT | 1 | 24 | 10 |
-| [Imperio de la dinastía Qing](./QING-Imperio-de-la-dinastia-Qing/entidad.json) | QING | 2 | 18 | 31 |
+| [Imperio de la dinastía Qing](./QING-Imperio-de-la-dinastia-Qing/entidad.json) | QING | 2 | 19 | 31 |
 | [República Árabe Saharaui Democrática](./RASD-Republica-Arabe-Saharaui-Democratica/entidad.json) | RASD | 1 | 11 | 0 |
 | [Rodesia · régimen no reconocido](./RHO-Rodesia-regimen-no-reconocido/entidad.json) | RHO | 2 | 3 | 0 |
 | [República de China · etapa continental](./ROC-Republica-de-China-etapa-continental/entidad.json) | ROC | 4 | 56 | 5 |
@@ -487,12 +491,12 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Gobierno Provisional / República Rusa](./RPR-Gobierno-Provisional-Republica-Rusa/entidad.json) | RPR | 1 | 2 | 0 |
 | [República Social Italiana](./RSI-Republica-Social-Italiana/entidad.json) | RSI | 1 | 1 | 0 |
 | [Rusia soviética · RSFSR](./RSR-Rusia-sovietica-RSFSR/entidad.json) | RSR | 2 | 5 | 0 |
-| [Imperio ruso](./RUE-Imperio-ruso/entidad.json) | RUE | 2 | 17 | 40 |
-| [Rusia](./RUS-Rusia/entidad.json) | RUS | 2 | 44 | 9 |
+| [Imperio ruso](./RUE-Imperio-ruso/entidad.json) | RUE | 2 | 20 | 40 |
+| [Rusia](./RUS-Rusia/entidad.json) | RUS | 2 | 45 | 9 |
 | [República de Vietnam](./RVN-Republica-de-Vietnam/entidad.json) | RVN | 1 | 16 | 0 |
 | [Ruanda](./RWA-Ruanda/entidad.json) | RWA | 2 | 19 | 5 |
 | [Sahara Occidental](./SAH-Sahara-Occidental/entidad.json) | SAH | 0 | 49 | 2 |
-| [Reino de Cerdeña](./SAR-Reino-de-Cerdena/entidad.json) | SAR | 1 | 6 | 0 |
+| [Reino de Cerdeña](./SAR-Reino-de-Cerdena/entidad.json) | SAR | 1 | 8 | 0 |
 | [Arabia Saudí](./SAU-Arabia-Saudi/entidad.json) | SAU | 4 | 17 | 6 |
 | [Serbia y Montenegro](./SCG-Serbia-y-Montenegro/entidad.json) | SCG | 1 | 3 | 0 |
 | [Bajo de Masinloc](./SCR-Bajo-de-Masinloc/entidad.json) | SCR | 0 | 0 | 1 |
@@ -506,20 +510,20 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Islas Salomón](./SLB-Islas-Salomon/entidad.json) | SLB | 1 | 24 | 7 |
 | [Sierra Leona](./SLE-Sierra-Leona/entidad.json) | SLE | 1 | 31 | 9 |
 | [El Salvador](./SLV-El-Salvador/entidad.json) | SLV | 3 | 144 | 7 |
-| [San Marino](./SMR-San-Marino/entidad.json) | SMR | 1 | 842 | 10 |
+| [San Marino](./SMR-San-Marino/entidad.json) | SMR | 1 | 924 | 10 |
 | [Somalilandia](./SOL-Somalilandia/entidad.json) | SOL | 1 | 13 | 1 |
 | [Somalia](./SOM-Somalia/entidad.json) | SOM | 1 | 49 | 5 |
 | [Campo de hielo Patagónico Sur](./SPI-Campo-de-hielo-Patagonico-Sur/entidad.json) | SPI | 0 | 0 | 1 |
 | [San Pedro y Miquelón](./SPM-San-Pedro-y-Miquelon/entidad.json) | SPM | 1 | 1 | 1 |
-| [Serbia](./SRB-Serbia/entidad.json) | SRB | 2 | 48 | 10 |
+| [Serbia](./SRB-Serbia/entidad.json) | SRB | 2 | 49 | 10 |
 | [Reino de Serbia](./SRK-Reino-de-Serbia/entidad.json) | SRK | 2 | 6 | 1 |
 | [Santo Tomé y Príncipe](./STP-Santo-Tome-y-Principe/entidad.json) | STP | 1 | 32 | 2 |
 | [Surinam](./SUR-Surinam/entidad.json) | SUR | 1 | 26 | 11 |
 | [Eslovaquia](./SVK-Eslovaquia/entidad.json) | SVK | 2 | 32 | 4 |
 | [Eslovaquia · República Eslovaca de1939](./SVK-1939-Eslovaquia-Republica-Eslovaca-de1939/entidad.json) | SVK-1939 | 1 | 4 | 5 |
 | [Eslovenia](./SVN-Eslovenia/entidad.json) | SVN | 1 | 34 | 4 |
-| [Suecia](./SWE-Suecia/entidad.json) | SWE | 6 | 68 | 16 |
-| [Suazilandia](./SWZ-Suazilandia/entidad.json) | SWZ | 1 | 28 | 2 |
+| [Suecia](./SWE-Suecia/entidad.json) | SWE | 6 | 73 | 16 |
+| [Suazilandia](./SWZ-Suazilandia/entidad.json) | SWZ | 1 | 30 | 2 |
 | [San Martín](./SXM-San-Martin/entidad.json) | SXM | 1 | 7 | 2 |
 | [Seychelles](./SYC-Seychelles/entidad.json) | SYC | 1 | 14 | 2 |
 | [Siria](./SYR-Siria/entidad.json) | SYR | 6 | 22 | 9 |
@@ -953,7 +957,6 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Santiam](./territorio-3508c689e5d0-Santiam/entidad.json) | territorio-3508c689e5d0 | 0 | 0 | 1 |
 | [Djirbalngan](./territorio-350a9ae892a3-Djirbalngan/entidad.json) | territorio-350a9ae892a3 | 0 | 0 | 1 |
 | [Pitta-Pitta](./territorio-350c7a887085-Pitta-Pitta/entidad.json) | territorio-350c7a887085 | 0 | 0 | 1 |
-| [Kingdom of Georgia](./territorio-355b4ddc8afc-Kingdom-of-Georgia/entidad.json) | territorio-355b4ddc8afc | 0 | 0 | 1 |
 | [Seminole Tribe of Florida (Big Cypress Reservation)](./territorio-359368ef768d-Seminole-Tribe-of-Florida-Big-Cypress-Reservation/entidad.json) | territorio-359368ef768d | 0 | 0 | 1 |
 | [Cuitlatec](./territorio-35a461bfc17f-Cuitlatec/entidad.json) | territorio-35a461bfc17f | 0 | 0 | 1 |
 | [Nhanta](./territorio-35d596d4d924-Nhanta/entidad.json) | territorio-35d596d4d924 | 0 | 0 | 1 |
@@ -1830,7 +1833,6 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Muwekma](./territorio-94dd520e5d23-Muwekma/entidad.json) | territorio-94dd520e5d23 | 0 | 0 | 1 |
 | [Yirandali](./territorio-94fc0dbec723-Yirandali/entidad.json) | territorio-94fc0dbec723 | 0 | 0 | 1 |
 | [Kuril Islands](./territorio-951724f881fe-Kuril-Islands/entidad.json) | territorio-951724f881fe | 0 | 0 | 1 |
-| [Helvetic Republic](./territorio-951818d6cdfd-Helvetic-Republic/entidad.json) | territorio-951818d6cdfd | 0 | 0 | 1 |
 | [Chaná](./territorio-9549fa0e5e18-Chana/entidad.json) | territorio-9549fa0e5e18 | 0 | 0 | 1 |
 | [Kantaruré](./territorio-95778995d10e-Kantarure/entidad.json) | territorio-95778995d10e | 0 | 0 | 1 |
 | [Vakataka](./territorio-95872d034ce4-Vakataka/entidad.json) | territorio-95872d034ce4 | 0 | 0 | 1 |
@@ -2266,7 +2268,6 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Antakarinja](./territorio-c606bdb957d5-Antakarinja/entidad.json) | territorio-c606bdb957d5 | 0 | 0 | 1 |
 | [Burgundians](./territorio-c61232c19772-Burgundians/entidad.json) | territorio-c61232c19772 | 0 | 0 | 1 |
 | [West African cereal farmers](./territorio-c62cb14f057a-West-African-cereal-farmers/entidad.json) | territorio-c62cb14f057a | 0 | 0 | 6 |
-| [Batavian Republic](./territorio-c648e6420412-Batavian-Republic/entidad.json) | territorio-c648e6420412 | 0 | 0 | 1 |
 | [Lule](./territorio-c64d48e6959c-Lule/entidad.json) | territorio-c64d48e6959c | 0 | 0 | 1 |
 | [Hunkpapa](./territorio-c6c6550c850a-Hunkpapa/entidad.json) | territorio-c6c6550c850a | 0 | 0 | 1 |
 | [Eastern Mono/Monache](./territorio-c713cc84a01e-Eastern-Mono-Monache/entidad.json) | territorio-c713cc84a01e | 0 | 0 | 1 |
@@ -2734,12 +2735,12 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Chorotega](./territorio-fff8f1dd7407-Chorotega/entidad.json) | territorio-fff8f1dd7407 | 0 | 0 | 1 |
 | [República de Texas](./TEXAS-Republica-de-Texas/entidad.json) | TEXAS | 1 | 6 | 2 |
 | [Togo](./TGO-Togo/entidad.json) | TGO | 2 | 23 | 6 |
-| [Tailandia](./THA-Tailandia/entidad.json) | THA | 8 | 66 | 12 |
+| [Tailandia](./THA-Tailandia/entidad.json) | THA | 8 | 68 | 12 |
 | [Gobierno tibetano de facto](./TIB-Gobierno-tibetano-de-facto/entidad.json) | TIB | 1 | 4 | 2 |
 | [Tayikistán](./TJK-Tayikistan/entidad.json) | TJK | 1 | 12 | 4 |
 | [Turkmenistán](./TKM-Turkmenistan/entidad.json) | TKM | 1 | 8 | 4 |
 | [Timor Oriental](./TLS-Timor-Oriental/entidad.json) | TLS | 1 | 16 | 5 |
-| [Tonga](./TON-Tonga/entidad.json) | TON | 5 | 29 | 8 |
+| [Tonga](./TON-Tonga/entidad.json) | TON | 5 | 30 | 8 |
 | [República Sudafricana / Transvaal](./TRV-Republica-Sudafricana-Transvaal/entidad.json) | TRV | 0 | 6 | 2 |
 | [Trinidad y Tobago](./TTO-Trinidad-y-Tobago/entidad.json) | TTO | 1 | 16 | 3 |
 | [Túnez](./TUN-Tunez/entidad.json) | TUN | 3 | 34 | 10 |
@@ -2754,14 +2755,14 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Islas ultramarinas de Estados Unidos](./UMI-Islas-ultramarinas-de-Estados-Unidos/entidad.json) | UMI | 1 | 0 | 1 |
 | [Autoridad Ejecutiva Temporal de las Naciones Unidas](./UNTEA-Autoridad-Ejecutiva-Temporal-de-las-Naciones-Unidas/entidad.json) | UNTEA | 1 | 2 | 0 |
 | [Uruguay](./URY-Uruguay/entidad.json) | URY | 1 | 140 | 9 |
-| [Estados Unidos](./USA-Estados-Unidos/entidad.json) | USA | 35 | 136 | 52 |
+| [Estados Unidos](./USA-Estados-Unidos/entidad.json) | USA | 35 | 140 | 52 |
 | [Base Naval de la Bahía de Guantánamo](./USG-Base-Naval-de-la-Bahia-de-Guantanamo/entidad.json) | USG | 0 | 0 | 1 |
 | [Unión Soviética](./USSR-Union-Sovietica/entidad.json) | USSR | 5 | 48 | 12 |
 | [Uzbekistán](./UZB-Uzbekistan/entidad.json) | UZB | 1 | 11 | 4 |
-| [Ciudad del Vaticano](./VAT-Ciudad-del-Vaticano/entidad.json) | VAT | 2 | 26 | 2 |
+| [Ciudad del Vaticano](./VAT-Ciudad-del-Vaticano/entidad.json) | VAT | 2 | 27 | 2 |
 | [San Vicente y las Granadinas](./VCT-San-Vicente-y-las-Granadinas/entidad.json) | VCT | 1 | 6 | 6 |
 | [República Democrática de Vietnam](./VDR-Republica-Democratica-de-Vietnam/entidad.json) | VDR | 2 | 5 | 0 |
-| [Venezuela](./VEN-Venezuela/entidad.json) | VEN | 10 | 135 | 11 |
+| [Venezuela](./VEN-Venezuela/entidad.json) | VEN | 10 | 141 | 11 |
 | [Islas Vírgenes Británicas](./VGB-Islas-Virgenes-Britanicas/entidad.json) | VGB | 1 | 6 | 1 |
 | [Islas Vírgenes de los Estados Unidos](./VIR-Islas-Virgenes-de-los-Estados-Unidos/entidad.json) | VIR | 1 | 30 | 5 |
 | [Vietnam](./VNM-Vietnam/entidad.json) | VNM | 1 | 40 | 3 |

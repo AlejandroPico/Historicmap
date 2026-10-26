@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.17.0 · 2026-10-26
+
+- Ampliación documental1800–1819; regímenes franceses, regencia británica, autoridades españolas e identidades italianas diferenciadas.
+- 49 imágenes raster y3 símbolos SVG nuevos; corregida también la ventana prusiana1820–1839.
+- Doce fases documentales, tres enlaces y relaciones de colores de estados clientes sin anexión. Se corrige el intervalo condensado dePitt que abarcaba el gobierno deAddington.
+- Fronteras originales conservadas; auditoría nominal y pendientes transversales en tareas.md y docs/DELIVERY-0.17.0.md.
+
 ## 0.16.0 · 2026-10-26
 
 - Ampliación documental1820–1839 conservando mandatos posteriores y coordenadas de origen.

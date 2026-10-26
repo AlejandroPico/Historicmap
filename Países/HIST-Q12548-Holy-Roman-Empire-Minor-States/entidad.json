@@ -1,0 +1,120 @@
+{
+  "key": "HIST-Q12548",
+  "name": "Holy Roman Empire Minor States",
+  "qid": "Q12548",
+  "aliases": [
+    "Holy Roman Empire Minor States"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q12548"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q130834",
+      "role": "Emperador del Sacro Imperio",
+      "start": "1800-01-01",
+      "end": "1806-08-06",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q130834",
+      "sourceStatement": "q130834-83F9CD5D-335F-42DF-998F-955371D2E565",
+      "office": "Q181765",
+      "acquisition": "historical-0.17",
+      "name": "Francisco II",
+      "portrait": {
+        "file": "media/portrait-c19f2cd552a8509439c0.jpg",
+        "title": "Francis II, Holy Roman Emperor by Friedrich von Amerling 003.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Francis_II,_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg",
+        "artist": "Friedrich von Amerling",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Francis_II,_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Kunsthistorisches Museum Wien also http://www.wga.hu/frames-e.html?/html/v/vivien/",
+        "sha256": "d43d4534104da6a0df03512a708c21fe342339a6c0f6ecf02336df31ab1e31cd",
+        "bytes": 44541,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg/330px-Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg"
+      },
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1792-07-05",
+      "note": "Ventana de adquisición1800–1819; los extremos de cobertura no son nombramientos ni dimisiones."
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10196",
+      "start": 1789,
+      "end": 1790,
+      "name": "Holy Roman Empire Minor States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10321",
+      "start": 1791,
+      "end": 1793,
+      "name": "Holy Roman Empire Minor States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10362",
+      "start": 1794,
+      "end": 1795,
+      "name": "Holy Roman Empire Minor States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10432",
+      "start": 1796,
+      "end": 1796,
+      "name": "Holy Roman Empire Minor States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10479",
+      "start": 1797,
+      "end": 1802,
+      "name": "Holy Roman Empire Minor States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10599",
+      "start": 1803,
+      "end": 1804,
+      "name": "Holy Roman Empire Minor States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10651",
+      "start": 1805,
+      "end": 1805,
+      "name": "Holy Roman Empire Minor States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10684",
+      "start": 1806,
+      "end": 1806,
+      "name": "Holy Roman Empire Minor States",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

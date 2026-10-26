@@ -1,0 +1,82 @@
+{
+  "key": "NAPOLEONIC-NAPLES",
+  "name": "Reino de Nápoles napoleónico",
+  "qid": "",
+  "aliases": [
+    "Reino de Nápoles napoleónico"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NAPOLEONIC-NAPLES"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q7726",
+      "name": "José Bonaparte",
+      "role": "Rey de Nápoles",
+      "start": "1806-12-31",
+      "end": "1808-01-01",
+      "source": "https://www.wikidata.org/wiki/Q7726",
+      "precision": 9,
+      "curated": true,
+      "acquisition": "curated-1800-0.17",
+      "note": "Ventana interior de su gobierno napolitano, distinta de su posterior reinado español.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-fa1eaed7baa472b2918b.jpg",
+        "title": "Joseph Bonaparte (by Wicar).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Joseph_Bonaparte_(by_Wicar).jpg",
+        "artist": "Jean-Baptiste Wicar",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Bonaparte_(by_Wicar).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "bridgemanartondemand.com",
+        "sha256": "b81dd09f530648497f84e6d590a0d0108fef984e62b151ddc7f6d247bc22692c",
+        "bytes": 42082,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Joseph_Bonaparte_%28by_Wicar%29.jpg/330px-Joseph_Bonaparte_%28by_Wicar%29.jpg"
+      }
+    },
+    {
+      "person": "Q151173",
+      "name": "Joaquín Murat",
+      "role": "Rey de Nápoles",
+      "start": "1808-12-31",
+      "end": "1814-12-31",
+      "source": "https://www.wikidata.org/wiki/Q151173",
+      "precision": 9,
+      "curated": true,
+      "acquisition": "curated-1800-0.17",
+      "note": "Observación interior; la caída y restauración de1815 requieren una fase propia.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-84277f7fe55185a4f48e.jpg",
+        "title": "Murat2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Murat2.jpg",
+        "artist": "François Gérard",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Murat2.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "[1] See full portrait:[2]",
+        "sha256": "646b92e8ba0e22376401222abd2bca9907731a1b29142bd22fd3f27fbba1ba44",
+        "bytes": 54327,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Murat2.jpg/330px-Murat2.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

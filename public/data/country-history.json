@@ -2297,6 +2297,60 @@
       },
       "source": "https://www.congreso.es/en/web/guest/cem/regmcris",
       "sourceLabel": "Fuente institucional"
+    },
+    {
+      "id": "extension-1800-1804",
+      "type": "regime-transition",
+      "label": "Del Consulado al Imperio",
+      "date": "1804-05-18",
+      "from": {
+        "key": "FRA",
+        "name": "Francia",
+        "year": 1803
+      },
+      "to": {
+        "key": "FRA",
+        "name": "Francia",
+        "year": 1804
+      },
+      "source": "https://www.assemblee-nationale.fr/gouv_parl/fiches_personnalites/Bonaparte.asp",
+      "sourceLabel": "Asamblea Nacional francesa"
+    },
+    {
+      "id": "extension-1800-1814",
+      "type": "regime-transition",
+      "label": "Del Imperio a la Primera Restauración",
+      "date": "1814-04-06",
+      "from": {
+        "key": "FRA",
+        "name": "Francia",
+        "year": 1813
+      },
+      "to": {
+        "key": "FRA",
+        "name": "Francia",
+        "year": 1814
+      },
+      "source": "https://www.assemblee-nationale.fr/gouv_parl/fiches_personnalites/Bonaparte.asp",
+      "sourceLabel": "Asamblea Nacional francesa"
+    },
+    {
+      "id": "extension-1800-1815",
+      "type": "regime-transition",
+      "label": "Regreso de Napoleón y sucesiones de1815",
+      "date": "1815-03-20",
+      "from": {
+        "key": "FRA",
+        "name": "Francia",
+        "year": 1814
+      },
+      "to": {
+        "key": "FRA",
+        "name": "Francia",
+        "year": 1815
+      },
+      "source": "https://www.assemblee-nationale.fr/gouv_parl/fiches_personnalites/Bonaparte.asp",
+      "sourceLabel": "Asamblea Nacional francesa"
     }
   ],
   "records": [
@@ -4758,7 +4812,223 @@
       "startIsCoverageBoundary": true,
       "endIsCoverageBoundary": true,
       "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1800-record-consulate",
+      "keys": [
+        "FRA"
+      ],
+      "section": "institutions",
+      "title": "Francia · Consulado",
+      "start": "1800-01-01",
+      "end": "1804-05-18",
+      "text": "Napoleón es primer cónsul antes de la proclamación imperial. El consulado vitalicio de1802 no es todavía una monarquía imperial.",
+      "source": "https://www.assemblee-nationale.fr/gouv_parl/fiches_personnalites/Bonaparte.asp",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
+    },
+    {
+      "id": "extension-1800-record-empire",
+      "keys": [
+        "FRA"
+      ],
+      "section": "institutions",
+      "title": "Francia · Primer Imperio",
+      "start": "1804-05-18",
+      "end": "1814-04-06",
+      "text": "Proclamación imperial de mayo1804 y coronación de diciembre son hitos distintos; el primer reinado termina en1814.",
+      "source": "https://www.assemblee-nationale.fr/gouv_parl/fiches_personnalites/Bonaparte.asp",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
+    },
+    {
+      "id": "extension-1800-record-restoration-one",
+      "keys": [
+        "FRA"
+      ],
+      "section": "institutions",
+      "title": "Francia · Primera Restauración",
+      "start": "1814-04-06",
+      "end": "1815-03-20",
+      "text": "La primera restauración borbónica queda interrumpida por el regreso de Napoleón; no es una continuidad imperial.",
+      "source": "https://www.servicehistorique.sga.defense.gouv.fr/ark/41452",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
+    },
+    {
+      "id": "extension-1800-record-hundred-days",
+      "keys": [
+        "FRA"
+      ],
+      "section": "institutions",
+      "title": "Francia · Cien Días",
+      "start": "1815-03-20",
+      "end": "1815-06-22",
+      "text": "Regreso y segunda abdicación de Napoleón. Las fases del año no se convierten en una única persona o un único frente anual.",
+      "source": "https://www.assemblee-nationale.fr/gouv_parl/fiches_personnalites/Bonaparte.asp",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
+    },
+    {
+      "id": "extension-1800-record-restoration-two",
+      "keys": [
+        "FRA"
+      ],
+      "section": "institutions",
+      "title": "Francia · Segunda Restauración",
+      "start": "1815-07-08",
+      "end": "1820-01-01",
+      "text": "El retorno de Luis XVIII es posterior a la segunda abdicación. El corte de cobertura no es el fin de su reinado.",
+      "source": "https://www.servicehistorique.sga.defense.gouv.fr/ark/41452",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
+    },
+    {
+      "id": "extension-1800-record-peninsular",
+      "keys": [
+        "ESP",
+        "PRT",
+        "GBR",
+        "FRA"
+      ],
+      "section": "defense",
+      "title": "Guerra de la Independencia · campaña peninsular",
+      "start": "1808-01-01",
+      "end": "1815-01-01",
+      "text": "La invasión francesa y la resistencia española y portuguesa se combinan con la intervención británica. Los combates peninsulares de1808–1814 no justifican colorear todo el territorio como control uniforme.",
+      "source": "https://www.nam.ac.uk/explore/peninsular-war",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
+    },
+    {
+      "id": "extension-1800-record-cadiz",
+      "keys": [
+        "ESP"
+      ],
+      "section": "institutions",
+      "title": "España · Constitución de Cádiz",
+      "start": "1812-03-19",
+      "end": "1814-05-04",
+      "text": "La Constitución reconoce a Fernando VII ausente y a la Regencia. La monarquía josefina y las instituciones fernandinas representan poderes rivales.",
+      "source": "https://www.congreso.es/constitucion/ficheros/historicas/cons_1812.pdf",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
+    },
+    {
+      "id": "extension-1800-record-louisiana",
+      "keys": [
+        "USA",
+        "FRA"
+      ],
+      "section": "territory",
+      "title": "Compra de Luisiana",
+      "start": "1803-04-30",
+      "end": "1804-01-01",
+      "text": "Tratado de compra y transferencia territorial no son el mismo acto. La ausencia de pueblos indígenas en el inventario no implica tierra deshabitada.",
+      "source": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
+    },
+    {
+      "id": "extension-1800-record-war1812",
+      "keys": [
+        "USA",
+        "GBR",
+        "CAN"
+      ],
+      "section": "defense",
+      "title": "Guerra angloestadounidense de1812",
+      "start": "1812-01-01",
+      "end": "1816-01-01",
+      "text": "Conflicto iniciado en1812; paz de Gante firmada en diciembre1814 y ratificaciones en1815. Los extremos anuales son cobertura, no fechas diarias de declaración o paz.",
+      "source": "https://www.archives.gov/milestone-documents/treaty-of-ghent",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
+    },
+    {
+      "id": "extension-1800-record-vienna",
+      "keys": [
+        "FRA",
+        "GBR",
+        "RUE",
+        "AUSTRIAN-EMPIRE",
+        "PRUSSIA"
+      ],
+      "section": "relations",
+      "title": "Congreso de Viena",
+      "start": "1814-01-01",
+      "end": "1816-01-01",
+      "text": "En1814–1815 las potencias negocian el orden europeo. La participación diplomática no equivale a un bloque militar permanente ni aporta por sí misma geometría para cada Estado.",
+      "source": "https://www.bundeskanzleramt.gv.at/en/federal-chancellery/visit-us/history/the-congress-of-vienna.html",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
+    },
+    {
+      "id": "extension-1800-record-haiti",
+      "keys": [
+        "HTI",
+        "FRA"
+      ],
+      "section": "institutions",
+      "title": "Haití · independencia y división política",
+      "start": "1804-01-01",
+      "end": "1820-01-01",
+      "text": "La declaración de independencia de1804 no es la proclamación imperial posterior. Tras Dessalines existen poderes del norte y del sur; la geometría de fuente no resuelve esa partición.",
+      "source": "https://pegasus.law.columbia.edu/record/127791",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
+    },
+    {
+      "id": "extension-1800-record-egypt",
+      "keys": [
+        "EGY",
+        "OTT"
+      ],
+      "section": "institutions",
+      "title": "Egipto · gobierno de Muhammad Alí",
+      "start": "1805-01-01",
+      "end": "1820-01-01",
+      "text": "Desde1805 Muhammad Alí establece su gobierno en Egipto. La autonomía efectiva no equivale a una república moderna ni elimina automáticamente la soberanía nominal otomana.",
+      "source": "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/",
+      "sourceLabel": "Fuente documental · investigación1800–1819",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Observación documental. No reconstruye frentes; los límites de cobertura no son fechas de acceso, cese o paz."
     }
   ],
-  "coverageStart": "1820-01-01"
+  "coverageStart": "1800-01-01"
 }

@@ -1,0 +1,109 @@
+{
+  "key": "HIST-Q48779892",
+  "name": "Kingdom of Naples (Napoleonic)",
+  "qid": "Q48779892",
+  "aliases": [
+    "Kingdom of Naples (Napoleonic)"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q48779892"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q7726",
+      "role": "Jefatura del Estado",
+      "start": "1806-03-30",
+      "end": "1808-07-05",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q7726",
+      "sourceStatement": "Q7726-f9e9d3f7-4209-8da3-3076-2f0bf62b8fd9",
+      "office": "Q21096118",
+      "acquisition": "historical-0.17",
+      "name": "José I de España",
+      "portrait": {
+        "file": "media/portrait-fa1eaed7baa472b2918b.jpg",
+        "title": "Joseph Bonaparte (by Wicar).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Joseph_Bonaparte_(by_Wicar).jpg",
+        "artist": "Jean-Baptiste Wicar",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Bonaparte_(by_Wicar).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "bridgemanartondemand.com",
+        "sha256": "b81dd09f530648497f84e6d590a0d0108fef984e62b151ddc7f6d247bc22692c",
+        "bytes": 42082,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Joseph_Bonaparte_%28by_Wicar%29.jpg/330px-Joseph_Bonaparte_%28by_Wicar%29.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-9986",
+      "start": 1789,
+      "end": 1798,
+      "name": "Kingdom of Naples (Napoleonic)",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10507",
+      "start": 1799,
+      "end": 1799,
+      "name": "Kingdom of Naples (Napoleonic)",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10549",
+      "start": 1800,
+      "end": 1802,
+      "name": "Kingdom of Naples (Napoleonic)",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10594",
+      "start": 1803,
+      "end": 1805,
+      "name": "Kingdom of Naples (Napoleonic)",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10690",
+      "start": 1806,
+      "end": 1810,
+      "name": "Kingdom of Naples (Napoleonic)",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10816",
+      "start": 1811,
+      "end": 1813,
+      "name": "Kingdom of Naples (Napoleonic)",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-10936",
+      "start": 1814,
+      "end": 1814,
+      "name": "Kingdom of Naples (Napoleonic)",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

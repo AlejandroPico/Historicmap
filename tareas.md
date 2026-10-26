@@ -1,6 +1,18 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.16.0 · ampliación hasta 1820
+## Encargo vigente · 0.17.0 · ampliación hasta 1800
+
+Se solicita ampliar 1800–1819 reduciendo uso de sesión. El propietario insiste en que siguen faltando fotos y banderas fácilmente localizables en diversas épocas: no dar por resuelto ese trabajo pendiente. Mantener las comprobaciones locales y terminar al confirmar el push, sin esperar Actions/Pages.
+
+- [x] Adquisición aislada,543 claves y12879 registros; resolución anual1800–1819 y estados italianos propios. Conservados los hechos anteriores salvo el intervalo condensado erróneo dePitt, corregido con fuente institucional.
+- [x] 49 imágenes raster y3SVG nuevos; símbolos reutilizados y omisión prusiana1820–1839 corregida. Doce fases de contexto, tres enlaces y colores franceses para estados clientes, sin convertirlos en colonias.
+- [x] Auditoría nominal REVIEW-1800-1819.json:2958 entidades/año;2116 casos anuales sin autoridad,20 personas/órganos sin retrato y2668 sin símbolo.
+- [x] 173 pruebas/41 archivos, tipos y compilación correctos. Un recorrido de navegador correcto en1,2min: Consulado/Imperio/Restauraciones, Italia y símbolos, España1812, ficha persistente hasta1820; globo y móvil.
+- [x] Integridad de57 datos,11 franjas tipográficas y6201 medios verificada;6269 recursos preparados en Git comprobados. Entrega0.17 preparada para main; confirmar push al cerrar, sin esperar Actions/Pages.
+- [ ] Revisar publicación cuando el propietario confirme el despliegue.
+- [ ] Corrección transversal posterior de fotos y banderas de todas las épocas, incluidos casos fácilmente localizables. No limitarla a la última franja.
+
+## Entrega anterior · 0.16.0 · ampliación hasta 1820
 
 El propietario acepta posponer correcciones de huecos anteriores y solicita ampliar 1820–1839 con uso mínimo de sesión. Reutilizar los preparadores, documentar carencias reales y verificar localmente antes de subir. No esperar Actions/Pages.
 

@@ -1,0 +1,54 @@
+{
+  "key": "NAPLES-BOURBON",
+  "name": "Reino de Nápoles borbónico",
+  "qid": "",
+  "aliases": [
+    "Reino de Nápoles borbónico"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NAPLES-BOURBON"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q312325",
+      "name": "Fernando IV de Nápoles",
+      "role": "Rey de Nápoles",
+      "start": "1800-01-01",
+      "end": "1805-12-31",
+      "source": "https://www.wikidata.org/wiki/Q312325",
+      "precision": 9,
+      "curated": true,
+      "acquisition": "curated-1800-0.17",
+      "note": "El mismo protagonista será Fernando I de las Dos Sicilias desde1816; no anticipar ese Estado.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-fd5a34a62997ca309367.jpg",
+        "title": "Mengs - Ferdinand IV of Naples, Royal Palace of Madrid.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mengs_-_Ferdinand_IV_of_Naples,_Royal_Palace_of_Madrid.jpg",
+        "artist": "Anton Raphael Mengs",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mengs_-_Ferdinand_IV_of_Naples,_Royal_Palace_of_Madrid.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://retratosdelahistoria.blogspot.com/2011/06/lucia-migliaccio-duquesa-de-floridia.html\n\nhttp://www.lessing-photo.com/dispimg.asp?i=391905+5+&cr=3&cl=1",
+        "sha256": "5f2d2ee56580c2b4aaabcc49a8a074f60436cd8a51d14c4cc47f3f0b35803b8c",
+        "bytes": 42940,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Mengs_-_Ferdinand_IV_of_Naples%2C_Royal_Palace_of_Madrid.jpg/330px-Mengs_-_Ferdinand_IV_of_Naples%2C_Royal_Palace_of_Madrid.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
