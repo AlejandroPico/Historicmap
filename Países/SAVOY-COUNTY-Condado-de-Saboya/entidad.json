@@ -1,0 +1,54 @@
+{
+  "key": "SAVOY-COUNTY",
+  "name": "Condado de Saboya",
+  "qid": "Q1232887",
+  "aliases": [
+    "Condado de Saboya"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SAVOY-COUNTY"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q312636",
+      "name": "Amadeo VIII de Saboya",
+      "role": "Conde de Saboya",
+      "start": "1400-01-01",
+      "end": "1415-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Amadeus_VIII,_Duke_of_Savoy",
+      "curated": true,
+      "note": "Elevación a ducado en1416, no antes. Observación anual; calendario histórico y control regional no acreditados día a día.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1400-0.22",
+      "portrait": {
+        "file": "media/portrait-0061242777909099cd38.jpg",
+        "title": "Ritratto di Amedeo VIII - Google Art Project (cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ritratto_di_Amedeo_VIII_-_Google_Art_Project_(cropped).jpg",
+        "artist": "\nUnknown authorUnknown author\n\n(1700/1799)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ritratto_di_Amedeo_VIII_-_Google_Art_Project_(cropped).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "8QEjp9xVhYKt1Q at Google Cultural Institute, zoom level maximum",
+        "sha256": "910dc7ca0d6898e3d3644754bc2cc70f5b5ae72bff4afea2c7eb5aa1cc0cf823",
+        "bytes": 27390,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Ritratto_di_Amedeo_VIII_-_Google_Art_Project_%28cropped%29.jpg/330px-Ritratto_di_Amedeo_VIII_-_Google_Art_Project_%28cropped%29.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

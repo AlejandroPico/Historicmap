@@ -1,0 +1,34 @@
+{
+  "key": "HIST-Q746443",
+  "name": "Ambrosian Republic",
+  "qid": "Q746443",
+  "aliases": [
+    "Ambrosian Republic"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q746443"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7240",
+      "start": 1450,
+      "end": 1452,
+      "name": "Ambrosian Republic",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

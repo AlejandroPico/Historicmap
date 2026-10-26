@@ -1,0 +1,51 @@
+{
+  "key": "MARINID",
+  "name": "Sultanato meriní",
+  "qid": "Q582861",
+  "aliases": [
+    "Marinid Sultanate",
+    "Sultanato meriní"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "MARINID"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6516",
+      "start": 1400,
+      "end": 1414,
+      "name": "Marinid Sultanate",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6977",
+      "start": 1415,
+      "end": 1462,
+      "name": "Marinid Sultanate",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7376",
+      "start": 1463,
+      "end": 1467,
+      "name": "Marinid Sultanate",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

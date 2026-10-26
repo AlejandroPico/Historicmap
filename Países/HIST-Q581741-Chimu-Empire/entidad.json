@@ -1,0 +1,51 @@
+{
+  "key": "HIST-Q581741",
+  "name": "Chimu Empire",
+  "qid": "Q581741",
+  "aliases": [
+    "Chimu Empire",
+    "Chimú Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q581741"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6587",
+      "start": 1400,
+      "end": 1474,
+      "name": "Chimu Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7492",
+      "start": 1475,
+      "end": 1481,
+      "name": "Chimu Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 54,
+      "start": null,
+      "end": null,
+      "name": "Chimú Empire",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

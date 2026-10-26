@@ -1,0 +1,34 @@
+{
+  "key": "HIST-Q19336869",
+  "name": "County of Blôis",
+  "qid": "Q19336869",
+  "aliases": [
+    "County of Blôis"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q19336869"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6759",
+      "start": 1400,
+      "end": 1401,
+      "name": "County of Blôis",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

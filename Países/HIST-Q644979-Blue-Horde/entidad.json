@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q644979",
+  "name": "Blue Horde",
+  "qid": "Q644979",
+  "aliases": [
+    "Blue Horde"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q644979"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6608",
+      "start": 1400,
+      "end": 1401,
+      "name": "Blue Horde",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6844",
+      "start": 1402,
+      "end": 1439,
+      "name": "Blue Horde",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7164",
+      "start": 1440,
+      "end": 1449,
+      "name": "Blue Horde",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

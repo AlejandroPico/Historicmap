@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q1124402",
+  "name": "Tughlaq Dynasty",
+  "qid": "Q1124402",
+  "aliases": [
+    "Tughlaq Dynasty"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1124402"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6769",
+      "start": 1400,
+      "end": 1401,
+      "name": "Tughlaq Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6831",
+      "start": 1402,
+      "end": 1406,
+      "name": "Tughlaq Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6900",
+      "start": 1407,
+      "end": 1414,
+      "name": "Tughlaq Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

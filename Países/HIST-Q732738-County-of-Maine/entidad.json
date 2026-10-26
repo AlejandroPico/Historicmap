@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q732738",
+  "name": "County of Maine",
+  "qid": "Q732738",
+  "aliases": [
+    "County of Maine"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q732738"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7241",
+      "start": 1450,
+      "end": 1452,
+      "name": "County of Maine",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7259",
+      "start": 1453,
+      "end": 1474,
+      "name": "County of Maine",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7472",
+      "start": 1475,
+      "end": 1481,
+      "name": "County of Maine",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

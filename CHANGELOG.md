@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.22.0 · 26/10/2026
+
+- Navegación anual hasta 1400: 880 intervalos adicionales y 60 reglas fechadas de identidad, con coordenadas originales y cartografía posterior conservadas.
+- 206 intervalos de cargos revisados, adquisición regional y 147 retratos adicionales. Reinados interrumpidos, coronas separadas, títulos nobiliarios y poderes rivales diferenciados.
+- 13 ventanas de símbolos; enseñas paleóloga y nazarí documentadas, sin retrotraer banderas nacionales posteriores.
+- 30 registros institucionales, 33 sedes/cortes y 16 contextos con diez puntos regionales de conflictos. Referencias anacrónicas de fuente identificadas sin importar sus dirigentes al siglo XV.
+- Auditoría anual y carencias documentadas en [RESEARCH-1400.md](docs/RESEARCH-1400.md).
+
 ## 0.21.0 · 26/10/2026
 
 - Navegación anual hasta 1500: 826 intervalos adicionales y 65 reglas de identidad; coordenadas originales y cartografía posterior conservadas.

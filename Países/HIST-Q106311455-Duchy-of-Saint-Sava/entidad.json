@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q106311455",
+  "name": "Duchy of Saint Sava",
+  "qid": "Q106311455",
+  "aliases": [
+    "Duchy of Saint Sava"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q106311455"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7274",
+      "start": 1453,
+      "end": 1467,
+      "name": "Duchy of Saint Sava",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7427",
+      "start": 1468,
+      "end": 1474,
+      "name": "Duchy of Saint Sava",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

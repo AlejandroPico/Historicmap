@@ -1,0 +1,69 @@
+{
+  "key": "HIST-Q332005",
+  "name": "Principality of Achaea",
+  "qid": "Q332005",
+  "aliases": [
+    "Principality of Achaea"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q332005"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q1410950",
+      "role": "Jefatura del Estado",
+      "start": "1400-01-01",
+      "end": "1402-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q1410950",
+      "sourceStatement": "Q1410950-B920D42F-9272-41CE-BF5D-73422B8B16D0",
+      "office": "Q42724549",
+      "acquisition": "historical-0.22",
+      "name": "Pedro de San Superano",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1396-01-01"
+    },
+    {
+      "person": "Q4965723",
+      "role": "Jefatura del Estado",
+      "start": "1402-01-01",
+      "end": "1404-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q4965723",
+      "sourceStatement": "Q4965723-F5EFF40D-EC8E-4169-B4DB-6F136C81FE16",
+      "office": "Q42724549",
+      "acquisition": "historical-0.22",
+      "name": "María II Zaccaria"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6788",
+      "start": 1400,
+      "end": 1430,
+      "name": "Principality of Achaea",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7113",
+      "start": 1431,
+      "end": 1439,
+      "name": "Principality of Achaea",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

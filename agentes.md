@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.20.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.22.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.20 en la sección 32; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.22 en la sección 34; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente 0.20 (26/10/2026):** ampliar hasta 1600, manteniendo fichas y filtros, con autoridades, símbolos y contexto fechados. Esta petición amplía la franja anterior sin cerrar sus carencias. Verificar localmente y subir sin esperar Actions/Pages; detalle en sección 32 y tareas.md.
+**Encargo vigente 0.22 (26/10/2026):** ampliar hasta 1400, manteniendo fichas y filtros, con autoridades, símbolos y contexto fechados. Esta petición amplía la franja anterior sin cerrar sus carencias. Verificar localmente y subir sin esperar Actions/Pages; detalle en sección 34 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -772,3 +772,22 @@ Preparadores específicos de1500/021 y evidencia congelada; la compilación no c
 Cierre local0.21: 190 pruebas en45archivos, tipos y compilación correctos. Dos recorridos de navegador correctos, con repetición de una prueba cuya fecha no contenía el filtro solicitado. Revisión visual en2D y globo móvil, imágenes cargadas y ficha persistente. Integridad de67datos,11franjas y6.893medios porSHA-256; 2.961carpetas regeneradas. Todos los hechos previos conservados y ocho geometrías previas idénticas. Confirmar el envío al cerrar, sin dar por revisada la publicación.
 
 Entrega preparada: 6.971 recursos de datos, tipografías y medios comprobados en los bytes de Git. No reconstruir ni sustituir los datos posteriores al reanudar; revisar primero tareas y el inventario nominal. Terminar al confirmar el envío a main y conservar la publicación como pendiente del aviso del propietario.
+
+## 34. Ampliación 1400–1499 · 0.22.0
+
+El propietario solicita continuar hasta1400. Navegación, saltos y reproducción anuales desde1400; etapas previas conservan instantáneas. [RESEARCH-1400.md](docs/RESEARCH-1400.md), [REVIEW-1400-1499.json](docs/REVIEW-1400-1499.json) y tareas.md son la continuidad vigente. Los pendientes anteriores siguen abiertos; esta entrega no certifica todas las fronteras y autoridades mundiales.
+
+- 880 intervalos adicionales de Cliopatria en archivo independiente y60 reglas fechadas. Coordenadas e índices originales conservados; nueve recursos geográficos previos idénticos byte a byte. Las referencias grises no equivalen a agua o territorios despoblados.
+- Bizancio y Trebisonda separados; Constantinopla1453 no prolonga a su emperador sobre gobiernos residuales. Coronas ibéricas, Kalmar, Polonia/Lituania y Saboya condado/ducado mantienen ámbitos e intervalos propios. Las casas dinásticas son agregados, no personas ni Estados nacionales uniformes.
+- Corregido el uso de la persona MargaritaI Q202266 como antiguo reino noruego: entidad Q2196956 y cargos noruegos propios. «Hashemite Arab Federation» y «Ngô Dynasty» en este siglo quedan como referencias de fuente sin identidad resuelta, sin importar autoridades de otras épocas. Resolver metadatos no corrige por sí solo un contorno regional incierto.
+- 206 intervalos seleccionados y congelados, más94 de adquisición regional. Se distinguen cargosP39 y títulosP97 fechados. 147 retratos nuevos y dos símbolos nuevos; catálogo total832 claves/14.892 mandatos/7.042medios, con3.050 carpetas regeneradas. Todos los hechos previos de mandatos y símbolos se conservan, permitiendo completar retratos.
+- EnriqueVI yEduardoIV tienen reinados interrumpidos; no usar la pretensión francesa deEnriqueVI como su reinado inglés. MuradII,MehmedII yYingzong tienen intervalos separados. Pretendientes otomanos y moscovitas no acreditan control uniforme. Rey deRomanos y emperador coronado son títulos distintos. Eskender accede en1478, no en su nacimiento de1471. Las cronologías incas tradicionales tienen alternativas historiográficas y arqueológicas explícitas.
+- 13 ventanas de símbolos; enseña paleóloga basada enAtlas catalán y estandarte nazarí respaldado por bibliografía institucional. Son reproducciones representativas, no normas textiles uniformes. No anticipar la bandera portuguesa de1495 ni la enseña ducal deWurtemberg anterior a su elevación. Siete casos no adoptados/pendientes conservados, incluidos estandartes navarros con aviso de fuente insuficiente. No rellenar huecos con banderas contemporáneas.
+- 30 formas institucionales,33 sedes/cortes y16 contextos con10 puntos regionales de conflictos. Sedes germanas seleccionables sin fronteras propias inventadas; puntos no equivalen a frentes ni superficies ocupadas. V-Dem/OWID mantiene inicio1789 y organizaciones mantienen sus cronologías.
+- Auditoría real de100años:13.350 entidades/año,10.075 casos sin autoridad,12.288 sin símbolo y38personas/órganos sin retrato entre los registros activos. Sedes agrupadas aparte. Completar esas carencias, autoridades rivales y regionales, cartografías individuales y variantes de retratos sigue pendiente.
+
+Un solo escritor deidentidades/medios. Preparadores1400/022 con evidencia congelada; compilación sin consultas históricas remotas. RegenerarPaíses tras todas las escrituras. Comprobar localmente y confirmar el envío amain; terminar sin esperar ni sondearActions/Pages. El propietario comprueba la publicación.
+
+Cierre local0.22:194 pruebas en46archivos, tipos y compilación correctos; dos recorridos de navegador correctos y revisión visual2D/globo móvil, con imágenes cargadas. Esperar la cámara en reposo antes de interpretar una captura del globo: la transición puede mostrar sólo el fondo antes del dibujo. Integridad de69datos,11franjas y7.042medios porSHA-256; hechos previos y nueve geografías previas conservados. El resultado del envío se confirma al cerrar, sin afirmar publicación revisada.
+
+Entrega preparada:7.122 recursos comprobados en los bytes preparados enGit. Repeticiones focales finales de ambos recorridos de navegador correctas con espera explícita de cámara. Terminar al confirmar el envío; no sondearActions/Pages y mantener los inventarios nominales como pendientes.

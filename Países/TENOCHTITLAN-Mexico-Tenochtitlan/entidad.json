@@ -1,0 +1,43 @@
+{
+  "key": "TENOCHTITLAN",
+  "name": "México-Tenochtitlan",
+  "qid": "Q13695",
+  "aliases": [
+    "México-Tenochtitlan",
+    "Tenochtitlan"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "TENOCHTITLAN"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6187",
+      "start": 1400,
+      "end": 1421,
+      "name": "Tenochtitlan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7006",
+      "start": 1422,
+      "end": 1428,
+      "name": "Tenochtitlan",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

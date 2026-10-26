@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q2719360",
+  "name": "Duchy of Luxembourg",
+  "qid": "Q2719360",
+  "aliases": [
+    "Duchy of Luxembourg"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2719360"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7085",
+      "start": 1429,
+      "end": 1430,
+      "name": "Duchy of Luxembourg",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7133",
+      "start": 1431,
+      "end": 1439,
+      "name": "Duchy of Luxembourg",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7185",
+      "start": 1440,
+      "end": 1449,
+      "name": "Duchy of Luxembourg",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

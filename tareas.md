@@ -1,6 +1,29 @@
 # Tareas y continuidad
 
-## Encargo vigente ·0.21.0 · ampliación hasta 1500
+## Encargo vigente · 0.22.0 · ampliación hasta 1400
+
+Continuar con1400–1499, conservando los datos posteriores. Autoridades y símbolos fechados, formas políticas, sedes y contexto; auditar carencias. Comprobar localmente y subir sin esperar Actions/Pages.
+
+- [x] Geometría e identidades anuales:880 intervalos originales y60 reglas; nueve geografías previas idénticas.
+- [x] 206 intervalos seleccionados,94 de adquisición regional y147 retratos nuevos.13 ventanas de símbolos, dos archivos nuevos y siete casos no adoptados/pendientes.
+- [x] 30 registros institucionales,33 sedes/cortes y16 contextos con10 puntos regionales de conflictos.
+- [x] Auditoría, conservación, pruebas y documentación:194 pruebas/46archivos, tipos y compilación correctos. Dos recorridos de navegador correctos; repetición móvil esperando a la cámara en reposo para revisar el territorio visible.
+- [x] Integridad SHA-256 de69datos,11franjas tipográficas y7.042medios. Hechos previos conservados y nueve geografías anteriores idénticas. Catálogo regenerado:3.050carpetas.
+- [x] 7.122 recursos de datos, tipografías y medios preparados en Git comprobados byte a byte. Entrega0.22.0 preparada para origin/main; confirmar el resultado del envío al cerrar, sin esperar Actions/Pages.
+
+Los pendientes anteriores continúan abiertos.
+
+Auditoría: [REVIEW-1400-1499.json](docs/REVIEW-1400-1499.json),13.350 entidades/año,10.075 casos sin autoridad,12.288 sin símbolo y38personas/órganos sin retrato entre las fichas disponibles. No equivale a un censo mundial exhaustivo. Fuentes y preparación en [RESEARCH-1400.md](docs/RESEARCH-1400.md).
+
+### Pendientes explícitos del siglo XV
+
+- [ ] Completar el inventario nominal de autoridades y símbolos; regencias, obediencias pontificias rivales, ramas germanas y administraciones locales todavía parciales.
+- [ ] Obtener contornos regionales y frentes; resolver agregados dinásticos, persistencias de fuente y etiquetas anacrónicas sin fabricar límites. Los puntos y sedes no son superficies.
+- [ ] Acreditar los siete casos de símbolos no adoptados/pendientes; no quitar avisos de fuente insuficiente para forzar una bandera.
+- [ ] Completar retratos y variantes por edades. Las51 personas no recuperadas en la adquisición y las38referencias finales del mapa son inventarios distintos.
+- [ ] Revisar la publicación cuando el propietario avise; no esperar Actions/Pages.
+
+## Entrega anterior ·0.21.0 · ampliación hasta 1500
 
 El propietario solicita continuar con 1500–1599. Mantener datos y funciones posteriores, ampliar autoridades y símbolos con fechas y fuentes, contexto y formas políticas, y auditar los huecos. Comprobar localmente y subir sin esperar Actions/Pages.
 

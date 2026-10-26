@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q7245121",
+  "name": "Principality of Valona and Kanina",
+  "qid": "Q7245121",
+  "aliases": [
+    "Principality of Valona and Kanina"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q7245121"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6794",
+      "start": 1400,
+      "end": 1414,
+      "name": "Principality of Valona and Kanina",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6927",
+      "start": 1415,
+      "end": 1421,
+      "name": "Principality of Valona and Kanina",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

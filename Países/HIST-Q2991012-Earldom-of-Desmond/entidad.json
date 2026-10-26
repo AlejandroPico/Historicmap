@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q2991012",
+  "name": "Earldom of Desmond",
+  "qid": "Q2991012",
+  "aliases": [
+    "Earldom of Desmond"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2991012"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-6738",
+      "start": 1400,
+      "end": 1421,
+      "name": "Earldom of Desmond",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7013",
+      "start": 1422,
+      "end": 1452,
+      "name": "Earldom of Desmond",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1400.geojson",
+      "recordId": "clio-7280",
+      "start": 1453,
+      "end": 1458,
+      "name": "Earldom of Desmond",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
