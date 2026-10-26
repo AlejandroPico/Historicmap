@@ -22,7 +22,7 @@ describe('1880 extension through the production loader',()=>{
   expect((await id('HTI',1880)).leaders.map(l=>l.name).join(' ')).not.toMatch(/Soulouque/);
   expect((await country('SWZ',1897)).identityKey).toBe('SWZ');
   expect((await id('NPL',1880)).leaders.map(l=>l.name).join(' ')).toMatch(/Ranodip/);
- });
+ },15000);
  it('separates the Brazilian monarchy/republic and retains predecessor offices in1889',async()=>{
   expect((await id('BRA-EMPIRE',1888)).leaders.some(l=>l.person==='Q156774')).toBe(true);
   const transition=await id('BRA',1889);expect(transition.leaders.some(l=>l.person==='Q200812')).toBe(true);

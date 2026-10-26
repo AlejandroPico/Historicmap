@@ -461,3 +461,6 @@ html[data-appearance=morning]{--chart-2:#27677d;--chart-3:#8b4679;--chart-4:#397
 .country-content::-webkit-scrollbar{display:none}
 .flag-source{display:flex;flex-shrink:0;align-items:center}
 .country-content:focus-within{scroll-behavior:auto}
+
+.portrait-frame{display:block;width:96px;height:124px;overflow:hidden;border-radius:2px}.portrait-frame .leader-portrait{width:100%;height:100%;border-radius:0}.portrait-date,.portrait-framing{display:block;margin-bottom:5px;color:var(--muted)}
+@media(max-width:760px){.portrait-frame{width:82px;height:108px}}

@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q6553448",
+  "name": "State of Buenos Aires",
+  "qid": "Q6553448",
+  "aliases": [
+    "State of Buenos Aires"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q6553448"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11546",
+      "start": 1853,
+      "end": 1856,
+      "name": "State of Buenos Aires",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11608",
+      "start": 1857,
+      "end": 1859,
+      "name": "State of Buenos Aires",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11681",
+      "start": 1860,
+      "end": 1860,
+      "name": "State of Buenos Aires",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

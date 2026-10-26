@@ -20,8 +20,17 @@ for (const entry of manifest.entries) {
   }
   else if(entry.format==='country-indicator-series'){if(!data.countries.USA?.series.population?.length)throw Error('Missing country indicators');}
   else if(entry.format==='dated-entity-resolution'){
-    if(data.format!==entry.format||data.records.length!==entry.records||!data.referenceDate||data.coverageStart!==1880||data.coverageEnd!==1899)throw Error('Invalid1880 entity resolution');
-    for(const r of data.records)if(!r.names.length||!r.key||!r.source||!r.label||r.start<1880||r.end>1899||r.start>r.end)throw Error('Invalid dated identity rule');
+    if(data.format!==entry.format||data.records.length!==entry.records||!data.referenceDate||![[1860,1879],[1880,1899]].some(([a,b])=>data.coverageStart===a&&data.coverageEnd===b))throw Error('Invalid dated entity resolution');
+    for(const r of data.records)if(!r.names.length||!r.key||!r.source||!r.label||r.start<data.coverageStart||r.end>data.coverageEnd||r.start>r.end)throw Error('Invalid dated identity rule');
+  }
+  else if(entry.format==='dated-portrait-series'){
+    if(!data.referenceDate||data.records.length!==entry.records)throw Error('Invalid dated portrait series');
+    for(const r of data.records)if(!r.person||r.start>r.end||!r.source||!r.media.file||!r.dateLabel)throw Error('Invalid portrait interval');
+  }
+  else if(entry.format==='source-component-index'){
+    if(!data.referenceDate||data.records.length!==entry.records)throw Error('Invalid source component index');
+    const source=JSON.parse(await readFile(new URL('early-modern.geojson',root)));
+    for(const r of data.records){const f=source.features.find(f=>f.id===r.sourceFeatureId),polys=f?.geometry.type==='Polygon'?[f.geometry.coordinates]:f?.geometry.coordinates;if(!polys||r.sourceComponentIndexes.some(i=>!polys[i]))throw Error('Missing source island component');}
   }
   else if(entry.format==='dated-political-identities'){if(Object.keys(data.countries).length!==entry.countries||Object.values(data.countries).reduce((n,c)=>n+c.leaders.length,0)!==entry.records||!data.retrieved)throw Error('Invalid dated identities');}
   else if(entry.format==='country-workspace-indicators'){
@@ -76,6 +85,8 @@ for(const m of media.entries){
  files.add(m.file);
 }
 const identities=JSON.parse(await readFile(new URL('identities.json',root)));
+const portraits=JSON.parse(await readFile(new URL('portrait-series.json',root)));
+for(const r of portraits.records)if(!files.has(r.media.file))throw Error('Unregistered dated portrait '+r.media.file);
 for(const [key,country] of Object.entries(identities.countries)){
  for(const f of country.flags){if(f.start>f.end||!files.has(f.media.file))throw Error(`Invalid flag interval or image ${key}: ${f.start}/${f.end} ${f.media.file}`);}
  for(const l of country.leaders){if(l.start>l.end||!l.name||!l.role||!l.source||(l.portrait&&!files.has(l.portrait.file)))throw Error('Invalid leadership interval or image');}

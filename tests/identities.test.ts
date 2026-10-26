@@ -47,7 +47,7 @@ describe('dated flags and political authorities',()=>{
    {person:'Q3',name:'Second',role:'Primer ministro',start:'2026-02-02',end:'2026-07-01',source:'https://example.org'},
    {person:'Q2',name:'First',role:'Primer ministro',start:'2026-07-02',end:'2026-10-22',source:'https://example.org'},
    {person:'Q4',name:'Future',role:'Primer ministro',start:'2026-12-01',end:'2026-12-31',source:'https://example.org'}]};
-  expect(identityFor({code:'TEST'},2026,{...data,countries:{TEST:country}},now).leaders.map(l=>l.start)).toEqual(['2026-07-02','2026-01-01','2026-02-02']);
+  expect(identityFor({code:'TEST'},2026,{...data,countries:{TEST:country}},now).leaders.map(l=>l.start)).toEqual(['2026-07-02','2026-02-02','2026-01-01']);
  });
  it('follows real US presidential terms across different lengths and repeat presidencies',()=>{
   for(const [year,name] of [[1789,'Washington'],[1865,'Johnson'],[1942,'Roosevelt'],[2006,'Bush'],[2012,'Obama'],[2018,'Trump'],[2023,'Biden'],[2026,'Trump']] as const)expect(names('USA',year),String(year)).toContain(name);

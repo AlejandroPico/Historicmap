@@ -1,0 +1,70 @@
+{
+  "key": "MEX-EMPIRE",
+  "name": "Segundo Imperio mexicano",
+  "qid": "Q371334",
+  "aliases": [
+    "Second Mexican Empire",
+    "Segundo Imperio mexicano"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "MEX-EMPIRE"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q84192",
+      "name": "Maximiliano I",
+      "role": "Emperador de México · gobierno imperial",
+      "start": "1864-04-10",
+      "end": "1867-06-19",
+      "source": "https://www.gob.mx/cultura/prensa/reflexionaran-en-torno-al-segundo-imperio-a-160-anos-de-la-llegada-de-maximiliano-de-habsburgo-a-mexico?idiom=es-MX",
+      "note": "Aceptación de la Corona en Miramar, anterior a su llegada a Veracruz; el fin se vincula a su ejecución. Gobierno concurrente con la República de Juárez, sin afirmar control territorial uniforme.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1860-authorities-0.14",
+      "portrait": {
+        "file": "media/portrait-1cd4a83d17d9e70ed31f.jpg",
+        "title": "Maximilian of Mexico bw.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Maximilian_of_Mexico_bw.jpg",
+        "artist": "\nOriginal glass negative (LC-BH824-4754) made by Andrew Burgess, one of Mathew Brady's operators, on a trip to Mexico City.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Maximilian_of_Mexico_bw.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID cph.3a16880.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "37dbaabff699dd0bb8b1115cf284e34490d43be7ba0d5acaf54e09b9e346ffb9",
+        "bytes": 44738,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Maximilian_of_Mexico_bw.jpg/330px-Maximilian_of_Mexico_bw.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11765",
+      "start": 1865,
+      "end": 1865,
+      "name": "Second Mexican Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11790",
+      "start": 1866,
+      "end": 1867,
+      "name": "Second Mexican Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

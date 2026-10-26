@@ -91,7 +91,7 @@ export function composeControl(base:FeatureCollection,controls:PartitionControls
   // Remove its remaining component before inserting the unified feature.
   territories=remaining.filter(f=>f!==root&&!(root&&f.id===root.id));
   const geometry=own?clipping.union(own,coords(control)):clipping.union(coords(control));
-  const properties={...(root?.properties??p),identityKey:controller,controller,politicalColor:regimeColor(controller,year),controlComponent:true,controlName:p.name,controlNote:p.note,controlSource:p.source,controlRecord:p.uid};
+  const properties={...(root?.properties??p),identityKey:controller,controller,politicalColor:regimeColor(controller,year),controlComponent:true,controlName:p.name,controlNote:p.note,controlSource:p.source,controlRecord:p.uid,...(p.observationDate?{controlObservationDate:p.observationDate,controlUncertaintyMetres:p.registrationUncertaintyMetres}: {})};
   // A controller has a persistent country anchor rather than an overlay UID.
   delete (properties as Record<string,unknown>).uid;
   territories.push(feature({type:'Feature',id:root?.id??6000000+index,geometry:control.geometry,properties},geometry));

@@ -429,6 +429,7 @@
       }
     }
   ],
+  "portraitVariants": [],
   "territorialRecords": [
     {
       "file": "countries.geojson",
@@ -442,6 +443,30 @@
       "file": "historical-supplements.geojson",
       "recordId": 900014,
       "start": "1979-07-12",
+      "end": "2019-12-31",
+      "name": "Kiribati",
+      "status": "independent"
+    },
+    {
+      "file": "pacific-references.geojson",
+      "recordId": "pacific-KIR-1860",
+      "start": "1860-01-01",
+      "end": "1891-12-31",
+      "name": "Kiribati",
+      "status": "source-reference"
+    },
+    {
+      "file": "pacific-references.geojson",
+      "recordId": "pacific-KIR-1892",
+      "start": "1892-01-01",
+      "end": "1978-12-31",
+      "name": "Kiribati",
+      "status": "dependency"
+    },
+    {
+      "file": "pacific-references.geojson",
+      "recordId": "pacific-KIR-1979",
+      "start": "1979-01-01",
       "end": "2019-12-31",
       "name": "Kiribati",
       "status": "independent"

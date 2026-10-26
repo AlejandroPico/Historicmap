@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),dir=resolve(root,'Países');
 const read=f=>JSON.parse(readFileSync(resolve(root,'public/data',f),'utf8'));
-const identities=read('identities.json'),profiles=read('profiles.json'),manifest=read('manifest.json');
+const identities=read('identities.json'),profiles=read('profiles.json'),manifest=read('manifest.json'),portraitSeries=read('portrait-series.json');
 const entities=new Map(),qids=new Map(),names=new Map();
 const norm=s=>String(s).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().trim();
 function add(key,name,qid=''){
@@ -25,7 +25,7 @@ function record(p,file,recordId){
  e.records.push({file,recordId,start:p.start??null,end:p.end??null,name,status:p.status??p.politicalStatus??null});
 }
 for(const g of read('history.topojson').objects.countries.geometries)record(g.properties,'history.topojson',g.properties.fid);
-for(const entry of manifest.entries.filter(e=>/^(early-modern|historical-control|historical-1880-control|historical-1880-supplements|central-europe-1939|spanish-civil-war|recent-control|historical-supplements|countries|world_.*)\.geojson$/.test(e.file))){
+for(const entry of manifest.entries.filter(e=>/^(early-modern|historical-control|historical-1880-control|historical-1880-supplements|pacific-references|ukraine-control-2022|central-europe-1939|spanish-civil-war|recent-control|historical-supplements|countries|world_.*)\.geojson$/.test(e.file))){
  const d=read(entry.file);for(const [i,f] of d.features.entries())record(f.properties,entry.file,f.id??i);
 }
 if(manifest.entries.some(e=>e.file==='wartime-partitions.json'))for(const [year,p] of Object.entries(read('wartime-partitions.json').years))for(const f of p.territories.features)record({...f.properties,start:year+'-01-01',end:year+'-12-31'},'wartime-partitions.json',`${year}:${f.id}`);
@@ -37,7 +37,7 @@ for(const e of [...entities.values()].sort((a,b)=>a.key.localeCompare(b.key))){
  const output={key:e.key,name:e.name,qid:e.qid,aliases:[...e.aliases].sort(),generatedBy:'scripts/prepare-country-catalog.mjs',
   scope:'Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.',
   sourceIdentity:c?{file:'../../public/data/identities.json',key:e.key}:null,
-  flags,leaders,territorialRecords:e.records,
+  flags,leaders,portraitVariants:portraitSeries.records.filter(r=>leaders.some(l=>l.person===r.person)),territorialRecords:e.records,
   relatedData:['../../public/data/country-history.json','../../public/data/historical-context.json','../../public/data/affiliations.json'],
   mediaRoot:'../../public/',extensionFile:'recursos.json'};
  writeFileSync(resolve(path,'entidad.json'),JSON.stringify(output,null,2)+'\n');

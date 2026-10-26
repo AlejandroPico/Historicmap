@@ -1,0 +1,118 @@
+{
+  "key": "CSA",
+  "name": "Estados Confederados de América",
+  "qid": "Q81931",
+  "aliases": [
+    "Confederate States of America",
+    "Estados Confederados de América"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CSA"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q162269",
+      "role": "Jefatura del Estado",
+      "start": "1861-02-18",
+      "end": "1865-05-10",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q81931",
+      "sourceStatement": "Q81931$842e8578-44de-6e8e-6a74-9442dda583af",
+      "acquisition": "historical-0.14",
+      "name": "Jefferson Davis",
+      "portrait": {
+        "file": "media/portrait-a1d45b5bd6b52b26844a.jpg",
+        "title": "President-Jefferson-Davis.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:President-Jefferson-Davis.jpg",
+        "artist": "Mathew Benjamin Brady",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:President-Jefferson-Davis.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "e5d2b9b2f5f90221e4fe9dbb349c6c2cebe348bb11ea419f3cd914e852022f51",
+        "bytes": 29033,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/President-Jefferson-Davis.jpg/330px-President-Jefferson-Davis.jpg"
+      }
+    },
+    {
+      "person": "Q162269",
+      "role": "Jefatura del Gobierno",
+      "start": "1861-02-18",
+      "end": "1865-05-10",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q81931",
+      "sourceStatement": "Q81931$b594bbf1-4d98-3590-9fb7-b95e8654e317",
+      "acquisition": "historical-0.14",
+      "name": "Jefferson Davis",
+      "portrait": {
+        "file": "media/portrait-a1d45b5bd6b52b26844a.jpg",
+        "title": "President-Jefferson-Davis.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:President-Jefferson-Davis.jpg",
+        "artist": "Mathew Benjamin Brady",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:President-Jefferson-Davis.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "e5d2b9b2f5f90221e4fe9dbb349c6c2cebe348bb11ea419f3cd914e852022f51",
+        "bytes": 29033,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/President-Jefferson-Davis.jpg/330px-President-Jefferson-Davis.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11688",
+      "start": 1861,
+      "end": 1861,
+      "name": "Confederate States of America",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11702",
+      "start": 1862,
+      "end": 1862,
+      "name": "Confederate States of America",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11713",
+      "start": 1863,
+      "end": 1863,
+      "name": "Confederate States of America",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11740",
+      "start": 1864,
+      "end": 1864,
+      "name": "Confederate States of America",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11757",
+      "start": 1865,
+      "end": 1865,
+      "name": "Confederate States of America",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

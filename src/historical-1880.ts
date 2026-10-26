@@ -10,7 +10,7 @@ export function resolve1880(data:FeatureCollection,year:number,catalogue:EntityR
   const p=f.properties??{},sourceName=String(p.originalName??p.name??''),early=year<1886;
   const rule=catalogue.records.find(r=>r.names.includes(sourceName)&&r.start<=year&&r.end>=year);
   if(!early&&!rule)return f;
-  const key=rule?.key??catalogue.qidKeys[String(p.wikidata??'')];
+  const key=rule?.key??p.identityKey??catalogue.qidKeys[String(p.wikidata??'')];
   const label=rule?.label??catalogue.names[key]??p.name;
   const status=rule?.status??p.status??'source-polity';
   const owner=rule?.admin?catalogue.names[rule.admin]??rule.admin:undefined;
@@ -19,7 +19,7 @@ export function resolve1880(data:FeatureCollection,year:number,catalogue:EntityR
    name:label,identityKey:key??p.identityKey,entityCode:rule?.entityCode??(early?key:p.entityCode),
    code:early||['BRA-EMPIRE','JOS','HAW-KINGDOM','HAW-PROVISIONAL','HAW-REPUBLIC','HAW'].includes(key)?'':p.code,
    ...(early?{status}:{}),...(rule?.admin?{status,administratorKey:rule.admin,localAuthorityKey:key,ownerName:owner,group:owner}:{}),
-   ...(rule?{identityCorrection:'dated-1880-1899',identitySource:rule.source}:{}),
+   ...(rule?{identityCorrection:`dated-${catalogue.coverageStart}-${catalogue.coverageEnd}`,identitySource:rule.source}:{}),
    ...(status==='source-reference'?{politicalStatus:'Contorno de fuente con cronología sin resolver'}:{}),note,
    ...(early&&!rule?.admin?{parentName:''}:{}),
   }};

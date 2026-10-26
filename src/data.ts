@@ -4,6 +4,7 @@ import type {ProfileData} from './profiles';
 import {regimeColor} from './political';
 import type {PartitionControls,WartimePartitions} from './wartime-partition';
 import {resolve1880,type EntityResolution} from './historical-1880';
+import {pacificComponents,pacificReferences} from './pacific';
 const base=import.meta.env.BASE_URL+'data/';
 // Share in-flight requests. Changing the ruler never aborts a reusable download.
 const requests=new Map<string,Promise<unknown>>();
@@ -22,19 +23,20 @@ let names:Map<string,string>|undefined;
 export async function annualData(year:number){
   if(year<1886){
     const data=await asset<FeatureCollection>('early-modern.geojson');
-    const selected={...data,features:data.features.filter(f=>f.properties!.start<=year&&f.properties!.end>=year)};
-    return year>=1880?resolve1880(selected,year,await asset<EntityResolution>('historical-1880-entities.json')):selected;
+    let selected=pacificComponents({...data,features:data.features.filter(f=>f.properties!.start<=year&&f.properties!.end>=year)},year);
+    if(year>=1860)selected=resolve1880(selected,year,await asset<EntityResolution>(year>=1880?'historical-1880-entities.json':'historical-1860-entities.json'));
+    return year>=1860?pacificReferences(selected,year,await asset<FeatureCollection>('pacific-references.geojson')):selected;
   }
   const [history,profiles,supplements]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1900?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined)]);
   names??=new Map(Object.entries(profiles.countries).flatMap(([iso,p])=>[p.name,p.englishName??'',p.official??''].filter(Boolean).map(n=>[normalizedName(n),iso])));
   const raw=historyAt(history,year,names,geometryCache);
   const reference=await asset<FeatureCollection>('historical-1880-supplements.geojson');
-  const data=withHistoricalSupplements(raw,year,reference,historyAt(history,1974,names,geometryCache));
+  let data=withHistoricalSupplements(raw,year,reference,historyAt(history,1974,names,geometryCache));
   if(year>=1886&&year<1900){
-    return resolve1880(data,year,await asset<EntityResolution>('historical-1880-entities.json'));
+    data=resolve1880(data,year,await asset<EntityResolution>('historical-1880-entities.json'));
   }
-  if(!supplements)return data;
-  return withHistoricalSupplements(data,year,supplements,historyAt(history,1974,names,geometryCache));
+  if(supplements)data=withHistoricalSupplements(data,year,supplements,historyAt(history,1974,names,geometryCache));
+  return pacificReferences(data,year,await asset<FeatureCollection>('pacific-references.geojson'));
 }
 export const modernCities=()=>asset<FeatureCollection>('cities.geojson');
 export async function overlaysFor(year:number):Promise<PartitionControls>{
@@ -46,7 +48,8 @@ export async function overlaysFor(year:number):Promise<PartitionControls>{
   }
   const files=['territorial-overlays.geojson',...(year>=1898&&year<=1899?['historical-1880-control.geojson']:[]),...(year>=1990?['recent-control.geojson']:[]),...(year>=1914&&year<=1949?['historical-control.geojson']:[]),...(year===1939?['central-europe-1939.geojson']:[]),...(year>=1936&&year<=1939?['spanish-civil-war.geojson']:[])];
   const data=await Promise.all(files.map(f=>asset<FeatureCollection>(f)));
-  const all=data.flatMap(d=>d.features);
+  const all=data.flatMap(d=>d.features).filter(f=>!(year>=2022&&year<=2026&&f.properties?.uid==='crimea'));
+  if(year>=2022&&year<=2026)all.push(...(await asset<FeatureCollection>('ukraine-control-2022.geojson')).features);
   const features:FeatureCollection['features']=all.filter(f=>f.properties!.start<=year&&f.properties!.end>=year).map(f=>{
     const p=f.properties!;
     const controller=p.controller??(p.uid==='crimea'?'RUS':p.kind==='dispute'?'ISR':'');

@@ -57,9 +57,60 @@
       "acquisition": "curated-symbols-1900-0.12",
       "intervalSource": "https://commons.wikimedia.org/wiki/File:Ensign_of_Austro-Hungarian_civil_fleet_(1869-1918).svg",
       "note": "Ventana documental para la selección al cierre anual, no fecha exacta de adopción o derogación. El símbolo no acredita fronteras, control efectivo ni reconocimiento diplomático. PABELLÓN MERCANTE común de la monarquía dual, no bandera nacional única inventada ni estandarte del emperador. Archivo distinto de las reconstrucciones marcadasInaccurate. Su uso no hace de Austria y Hungría un único sistema interno de Gobierno."
+    },
+    {
+      "start": "1869-12-31",
+      "end": "1879-12-31",
+      "media": {
+        "file": "media/flag-5f3dab08ad006d079ebf.svg",
+        "title": "Ensign of Austro-Hungarian civil fleet (1869-1918).svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ensign_of_Austro-Hungarian_civil_fleet_(1869-1918).svg",
+        "artist": "Vectorization:  Sgt_bilko / Original:  Željko Heimer",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Own work based on: https://www.crwflags.com/fotw/flags/ah~war.html#war1915 (Die Symbole Österreichs, Wien\n\nŽeljko Heimer)",
+        "sha256": "2f763ad15e8166e18d8a179c3783b1bd1af92c941e0c76a604eeefa16e5c5960",
+        "bytes": 7158,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ensign_of_Austro-Hungarian_civil_fleet_%281869-1918%29.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Ensign_of_Austro-Hungarian_civil_fleet_(1869-1918).svg",
+      "intervalSource": "https://commons.wikimedia.org/wiki/File:Ensign_of_Austro-Hungarian_civil_fleet_(1869-1918).svg",
+      "acquisition": "curated-symbols-1860-0.14",
+      "note": "Familia histórica representativa reutilizada del archivo acreditado, con ventana anterior explícita. El pabellón austrohúngaro es mercante, no una bandera nacional unitaria."
     }
   ],
   "leaders": [
+    {
+      "person": "Q51056",
+      "role": "Jefatura del Estado",
+      "start": "1867-05-29",
+      "end": "1867-12-30",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q51056",
+      "sourceStatement": "Q51056-9c5c5047-44f4-95a0-126c-c852ab801e81",
+      "office": "Q166877",
+      "acquisition": "historical-0.14",
+      "name": "Francisco José I de Austria",
+      "portrait": {
+        "file": "media/portrait-fe4fea94cdf7377f3cc2.jpg",
+        "title": "Franz Joseph I of Austria.1910 (cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Franz_Joseph_I_of_Austria.1910_(cropped).jpg",
+        "artist": "Carl Pietzner",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Franz_Joseph_I_of_Austria.1910_(cropped).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Österreichische Nationalbibliothek - ÖNB",
+        "sha256": "8c61624728b64a9980b621db602a993f25c18d0ca1ac51e4c8d57afd1ca5d4c9",
+        "bytes": 40607,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Franz_Joseph_I_of_Austria.1910_%28cropped%29.jpg/330px-Franz_Joseph_I_of_Austria.1910_%28cropped%29.jpg"
+      },
+      "endIsCoverageBoundary": true,
+      "sourceEnd": "1916-11-21",
+      "note": "Ventana de adquisición1860–1879; los extremos de cobertura no son nombramientos ni dimisiones."
+    },
     {
       "person": "Q550748",
       "name": "Eduard Taaffe",
@@ -194,8 +245,37 @@
         "bytes": 82795,
         "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Emperor_karl_of_austria-hungary_1917.png/330px-Emperor_karl_of_austria-hungary_1917.png"
       }
+    },
+    {
+      "person": "Q51056",
+      "name": "Francisco José I",
+      "role": "Emperador de Austria y rey de Hungría · soberano común",
+      "start": "1867-12-31",
+      "end": "1879-12-31",
+      "source": "https://www.habsburger.net/de/kapitel/franz-josephs-kroenung-zum-koenig-von-ungarn",
+      "note": "Observación desde el cierre de 1867. Coronación húngara el 8 de junio; Austria y Hungría tienen gobiernos propios, no un primer ministro único. Los límites de cobertura delimitan una observación documental; no representan un nombramiento ni una dimisión.",
+      "precision": 9,
+      "curated": true,
+      "acquisition": "curated-1860-authorities-0.14",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-fe4fea94cdf7377f3cc2.jpg",
+        "title": "Franz Joseph I of Austria.1910 (cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Franz_Joseph_I_of_Austria.1910_(cropped).jpg",
+        "artist": "Carl Pietzner",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Franz_Joseph_I_of_Austria.1910_(cropped).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Österreichische Nationalbibliothek - ÖNB",
+        "sha256": "8c61624728b64a9980b621db602a993f25c18d0ca1ac51e4c8d57afd1ca5d4c9",
+        "bytes": 40607,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Franz_Joseph_I_of_Austria.1910_%28cropped%29.jpg/330px-Franz_Joseph_I_of_Austria.1910_%28cropped%29.jpg"
+      }
     }
   ],
+  "portraitVariants": [],
   "territorialRecords": [
     {
       "file": "early-modern.geojson",

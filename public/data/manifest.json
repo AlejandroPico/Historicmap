@@ -185,16 +185,16 @@
     },
     {
       "file": "country-history.json",
-      "bytes": 151034,
-      "sha256": "22ec72224a03ccec82cdb539135a038d7de7a6a8c4cdc9b200b5d3c931c63ec9",
-      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
+      "bytes": 171677,
+      "sha256": "68baa3979ba0a6e996445c4db76cebfbe859babfc18a48dde6181471fc5d53ec",
+      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
       "format": "country-workspace-history",
       "url": "https://www.un.org/en/about-us/member-states",
       "source": "Official institutional histories, constitutional records and state succession references, linked per record",
       "license": "Original editorial summaries and factual metadata; sources linked individually",
-      "transform": "Institutions, events and predecessor navigation extended1880–1899 with dated sources; existing records preserved.",
-      "records": 117,
-      "relations": 92
+      "transform": "Sourced1860–1879 phases, institutional events and predecessor navigation appended idempotently. Earlier records unchanged; documentary context is not geometric front data.",
+      "records": 132,
+      "relations": 98
     },
     {
       "file": "country-indicators.json",
@@ -222,6 +222,18 @@
       "license": "CC-BY-4.0",
       "coverage": "1789/1885",
       "transform": "Select inclusive intervals intersecting 1789–1885. Exclude records with Components (aggregate unions); keep leaf polities and MemberOf relation. Original coordinates, source names and Wikidata IDs retained. Not a uniform December 31 reconstruction; uncovered areas remain uncovered."
+    },
+    {
+      "file": "historical-1860-entities.json",
+      "format": "dated-entity-resolution",
+      "source": "Cliopatria and dated editorial identity corrections",
+      "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+      "license": "CC0 factual identity metadata",
+      "transform": "Bounded1860–1879 names and regimes over unchanged source contours; annual synthesis, not monthly frontier reconstruction.",
+      "sha256": "8bcea5cbc052265778e5065b0353b40e88005dd198f7274c1424307adc01a36b",
+      "bytes": 42580,
+      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
+      "records": 81
     },
     {
       "file": "historical-1880-administrations.json",
@@ -273,15 +285,15 @@
     },
     {
       "file": "historical-context.json",
-      "bytes": 302042,
-      "sha256": "bf648d76c50a7fde0e02cecb94d8934e4c861112143b5c8532c7a60b289fa9c0",
-      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
+      "bytes": 319370,
+      "sha256": "f5200108d1a6efb82b627bc3ee88efcfcab11c87a528eb1e5c711ae33bd614d0",
+      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
       "format": "dated-historical-context",
       "source": "United Nations, institutional and government historical records",
       "url": "https://www.un.org/en/about-us/history-of-the-un",
       "license": "Original editorial summaries; institutional sources linked per event",
-      "transform": "Sourced phases1880–1899 appended without changing earlier contemporary reference or prior events. Documentary phases do not supply geographic fronts.",
-      "records": 401
+      "transform": "Sourced1860–1879 phases, institutional events and predecessor navigation appended idempotently. Earlier records unchanged; documentary context is not geometric front data.",
+      "records": 417
     },
     {
       "file": "historical-control.geojson",
@@ -323,16 +335,40 @@
     },
     {
       "file": "identities.json",
-      "bytes": 10863215,
-      "sha256": "3845dfb290c481c42370caea708574d4f13e9cb0937c8f1ce48fb3b71c26602f",
+      "bytes": 11500166,
+      "sha256": "e811018f4be657c502ea5c959530361d45fcb27ff85d60459ae01847345499e1",
       "format": "dated-political-identities",
-      "countries": 366,
-      "records": 10916,
+      "countries": 425,
+      "records": 11555,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
+      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Isolated1880–1899 acquisition, sourced regional curations and explicitly reported later identity/portrait corrections. Real-human eligibility rejects fictional holders of real offices. Original1900+ curations preserved apart from documented requested corrections; current reference2026-10-22 unchanged. Availability is not an exhaustive daily office census."
+      "transform": "Isolated1860–1879 acquisition plus bounded sourced curator; earlier published1880+ offices preserved.225 newly acquired portraits and reused earlier media; availability does not establish a complete worldwide census. See REVIEW-1860-1879."
+    },
+    {
+      "file": "pacific-components.json",
+      "format": "source-component-index",
+      "source": "Cliopatria components identified with Natural Earth envelopes",
+      "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+      "license": "CC BY4.0",
+      "transform": "Indexes split Guam and New Caledonia from colonial aggregates without changing or duplicating source polygon coordinates.",
+      "sha256": "6df5cb897fbe7cf9b6fc8acf7023ab0d65c22494898eeb3200969a34f2175fe7",
+      "bytes": 2052,
+      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
+      "records": 11
+    },
+    {
+      "file": "pacific-references.geojson",
+      "format": "geojson",
+      "source": "Natural Earth reference land and sourced territorial status metadata",
+      "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
+      "license": "Natural Earth public domain; CC0 factual metadata",
+      "transform": "Date-bounded reference contours for omitted Pacific islands. Present contours are not reconstructed historic coastlines; uncertain local and joint governments explicitly remain unresolved.",
+      "sha256": "f7fa49384e8ce11a0e3e367502fc23b08463a869bc014bdaa813854d56e42e50",
+      "bytes": 410931,
+      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
+      "features": 61
     },
     {
       "format": "dated-political-influence",
@@ -345,6 +381,18 @@
       "sha256": "1d48ccfbba1af0ac52ad57ac546af41f391c6334ec61f6660dbc50e12aad3608",
       "version": "Historicmap 0.8.0; historical preparation 2026-10-23; reference 2026-10-23",
       "records": 12
+    },
+    {
+      "file": "portrait-series.json",
+      "format": "dated-portrait-series",
+      "source": "Individually licensed Wikimedia Commons images",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC0 factual windows; images each retain their own recorded license",
+      "transform": "32 representative portrait windows after office resolution. Photo dates remain separate from selection year; unknown date labelled. Original bytes preserved; licensed framing declared.",
+      "sha256": "5f9a32140fc42832bf5705705d9c571f9b897e6f4851c705a0c151cef9c60be2",
+      "bytes": 32813,
+      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
+      "records": 32
     },
     {
       "file": "profiles.json",
@@ -403,6 +451,18 @@
       "sourceSha256": "6708b263224888c368aab136cdcae8a24c220bd07929af10f8bd69cf53634caa",
       "transform": "Polygon differences of dated CShapes geometries (Crimea, Sinai, Golan); contextual source notes; no invented intermediate withdrawal lines.",
       "coverage": "1886-01-01/2019-12-31",
+      "features": 5
+    },
+    {
+      "file": "ukraine-control-2022.geojson",
+      "format": "geojson",
+      "source": "Viewsridge and Wikimedia Commons contributors; Historicmap georeferencing",
+      "url": "https://commons.wikimedia.org/wiki/File:2022_Russian_invasion_of_Ukraine.svg",
+      "license": "CC BY-SA4.0; Natural Earth land public domain",
+      "transform": "Five archived observations2022–2026, affine georeferencing with16 city controls and minimum7km uncertainty. Solid occupation fills only, clipped to Natural Earth land, no CShapes inputs. The2026 observation remains17December2025; source revisionApril2026 is not a new territorial assessment. Full attribution and archival source checksums in the data and research document.",
+      "sha256": "85956706e286c37513fc80b9cfcfb703889e7f672ad25a9b8e412f54854d14d6",
+      "bytes": 2398858,
+      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
       "features": 5
     },
     {

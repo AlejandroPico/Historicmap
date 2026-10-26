@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.14.0 · 2026-10-26
+
+- Corregida la selección de identificadores históricos de texto; no se alteran las costas de origen.
+- Autoridades más recientes primero y32 ventanas acreditadas de retratos por etapa, incluidos los casosVietnam2007, India1992 yFrancia1888.
+- Control ruso enUcrania desde2022 con observaciones fechadas e incertidumbre visible. La referencia2026 sigue siendo17/12/2025.
+- Referencias e identidades delPacífico anteriores a2020 sin duplicar componentes deGuam yNuevaCaledonia.
+- Incorporación documental parcial1860–1879: autoridades,225 retratos adquiridos, símbolos, contexto y navegación histórica. Los huecos nominales y el retrato individual pendiente deMariaLevi permanecen explícitos.
+- Detalle, límites y comprobaciones: docs/DELIVERY-0.14.0.md y tareas.md.
+
+
 ## 0.13.0 · 25/10/2026
 
 - Ampliación documental1880–1899 con autoridades regionales, símbolos, dependencias, contexto y transiciones. Identidades corregidas entreCliopatria yCShapes, conservando las fuentes originales y las particiones bélicas anteriores.

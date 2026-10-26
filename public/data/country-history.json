@@ -2045,6 +2045,128 @@
       "source": "https://history.state.gov/countries/hawaii",
       "note": "Es el vínculo de dependencia tras la misma transferencia, no una segunda anexión posterior ni la admisión de un Estado federado.",
       "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1860-relation-sardinia-italy",
+      "from": {
+        "key": "SAR",
+        "name": "Reino de Cerdeña",
+        "year": 1860
+      },
+      "to": {
+        "key": "ITA",
+        "name": "Reino de Italia",
+        "year": 1862
+      },
+      "date": "1861-03-17",
+      "type": "transition",
+      "label": "Cambio de título estatal: Reino de Italia",
+      "source": "https://archiviodistatotorino.cultura.gov.it/iorestoacasa-nascita-regno-italia/",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Enlace institucional y de navegación; no afirma que todos los territorios italianos se incorporen en esta fecha.",
+      "precision": 11
+    },
+    {
+      "id": "extension-1860-relation-austrian-dual",
+      "from": {
+        "key": "AUSTRIAN-EMPIRE",
+        "name": "Imperio austríaco",
+        "year": 1866
+      },
+      "to": {
+        "key": "AUT-HUN",
+        "name": "Monarquía austrohúngara",
+        "year": 1868
+      },
+      "date": "1867-12-31",
+      "type": "transition",
+      "label": "Reorganización dual de 1867 · referencia anual",
+      "source": "https://www.parlament.gv.at/verstehen/historisches/1848-1918/abschied-kaiserreich",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Fecha de observación al cierre de 1867, no supuesto día único de creación. Se distinguen negociación, coronación y legislación.",
+      "precision": 9,
+      "dateIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-relation-prussia-german-empire",
+      "from": {
+        "key": "PRUSSIA",
+        "name": "Reino de Prusia",
+        "year": 1870
+      },
+      "to": {
+        "key": "DEU",
+        "name": "Imperio alemán",
+        "year": 1872
+      },
+      "date": "1871-01-18",
+      "type": "transition",
+      "label": "Prusia como núcleo del nuevo Imperio",
+      "source": "https://www.dhm.de/lemo/biografie/wilhelm-i",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Prusia no se extingue: el enlace permite pasar del reino al ámbito imperial, sin fingir una sustitución territorial completa.",
+      "precision": 11
+    },
+    {
+      "id": "extension-1860-relation-north-german-empire",
+      "from": {
+        "key": "NGC",
+        "name": "Confederación Alemana del Norte",
+        "year": 1870
+      },
+      "to": {
+        "key": "DEU",
+        "name": "Imperio alemán",
+        "year": 1872
+      },
+      "date": "1871-01-18",
+      "type": "transition",
+      "label": "De la federación septentrional al ámbito imperial",
+      "source": "https://www.dhm.de/lemo/biografie/wilhelm-i",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Se ancla la navegación en la proclamación imperial. La entrada en vigor de los acuerdos constitucionales es un acto distinto.",
+      "precision": 11
+    },
+    {
+      "id": "extension-1860-relation-mexican-republic",
+      "from": {
+        "key": "MEX-EMPIRE",
+        "name": "Segundo Imperio mexicano",
+        "year": 1866
+      },
+      "to": {
+        "key": "MEX",
+        "name": "República mexicana",
+        "year": 1868
+      },
+      "date": "1867-06-19",
+      "type": "transition",
+      "label": "Caída del régimen imperial y continuidad republicana",
+      "source": "https://www.gob.mx/defensa/documentos/19-de-junio-de-1867-fusilamiento-de-maximiliano-de-habsburgo-y-los-generales-miramon-y-mejia",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Ancla documental: ejecución de Maximiliano. No supone que la República dejara de existir antes ni que su control de todo México cambiara ese mismo día.",
+      "precision": 11
+    },
+    {
+      "id": "extension-1860-relation-confederacy-union",
+      "from": {
+        "key": "CSA",
+        "name": "Confederación secesionista",
+        "year": 1864
+      },
+      "to": {
+        "key": "USA",
+        "name": "Estados Unidos",
+        "year": 1866
+      },
+      "date": "1865-12-31",
+      "type": "transition",
+      "label": "Derrota confederada de 1865 · enlace anual",
+      "source": "https://www.archives.gov/publications/prologue/2015/spring/images/cw-surrenders.html",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Observación anual de rendiciones sucesivas, no fecha legal única de disolución ni nueva fundación de Estados Unidos. La declaración presidencial de paz es de 1866.",
+      "precision": 9,
+      "dateIsCoverageBoundary": true
     }
   ],
   "records": [
@@ -3693,7 +3815,273 @@
       "text": "Tras la resolución estadounidense de julio, la transferencia formal ocurre12/8/1898. La organización territorial posterior por una ley orgánica es un acto distinto. La fichaHAW conserva la identidad del archipiélago bajo esta administración sin fingir un Estado independiente nuevo ni un Estado federado en1898.",
       "source": "https://history.state.gov/countries/hawaii",
       "sourceLabel": "Fuente institucional o documento primario · investigación1880–1899"
+    },
+    {
+      "id": "extension-1860-record-us-federal-continuity",
+      "keys": [
+        "USA",
+        "CSA"
+      ],
+      "section": "institutions",
+      "title": "Unión federal y Confederación secesionista",
+      "start": "1861-01-01",
+      "end": "1866-01-01",
+      "text": "La Confederación se constituye por secesión de Estados; no sustituye al Gobierno federal estadounidense en todo el territorio. La derrota militar tiene rendiciones sucesivas en 1865. El país federal no vuelve a fundarse después de la guerra.",
+      "source": "https://www.archives.gov/publications/prologue/2015/spring/images/cw-surrenders.html",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-us-war-end",
+      "keys": [
+        "USA"
+      ],
+      "section": "defense",
+      "title": "Fin militar y declaración formal de paz",
+      "start": "1865-04-09",
+      "end": "1867-01-01",
+      "text": "Appomattox no termina todas las hostilidades ni todas las rendiciones confederadas. La declaración presidencial de fin de guerra se produce el 20 de agosto de 1866. Se distinguen ese acto y la posterior Reconstrucción.",
+      "source": "https://www.archives.gov/publications/prologue/2015/spring/images/cw-surrenders.html",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 11,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-italian-institutions",
+      "keys": [
+        "SAR",
+        "ITA"
+      ],
+      "section": "institutions",
+      "title": "Del Reino de Cerdeña al Reino de Italia",
+      "start": "1861-03-17",
+      "end": "1880-01-01",
+      "text": "La nueva denominación institucional conserva al soberano y su ordinal, Víctor Manuel II. La unificación territorial y la integración administrativa son procesos graduales; la ley del título real no incorpora de una vez todos los territorios pretendidos.",
+      "source": "https://archiviodistatotorino.cultura.gov.it/iorestoacasa-nascita-regno-italia/",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 11,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-prussian-continuity",
+      "keys": [
+        "PRUSSIA",
+        "NGC",
+        "DEU"
+      ],
+      "section": "institutions",
+      "title": "Prusia, federación e Imperio son ámbitos distintos",
+      "start": "1867-01-01",
+      "end": "1880-01-01",
+      "text": "La Confederación Alemana del Norte precede al Imperio. La proclamación de 1871 cambia el ámbito federal, mientras Prusia subsiste como reino integrante. El rey de Prusia, la presidencia federal y el título imperial no se confunden en un único cargo retrospectivo.",
+      "source": "https://www.dhm.de/lemo/biografie/wilhelm-i",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-dual-monarchy",
+      "keys": [
+        "AUSTRIAN-EMPIRE",
+        "AUT-HUN",
+        "HUN"
+      ],
+      "section": "institutions",
+      "title": "Dos mitades, gobiernos propios y asuntos comunes",
+      "start": "1867-01-01",
+      "end": "1880-01-01",
+      "text": "El compromiso de 1867 reorganiza la monarquía en las mitades austríaca y húngara. Las instituciones compartidas no crean un primer ministro único de todo el conjunto. La legislación de diciembre y la coronación húngara son fases del proceso, no fechas intercambiables.",
+      "source": "https://www.parlament.gv.at/verstehen/historisches/1848-1918/abschied-kaiserreich",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-mexican-parallel-governments",
+      "keys": [
+        "MEX",
+        "MEX-EMPIRE"
+      ],
+      "section": "institutions",
+      "title": "República e Imperio: gobiernos concurrentes",
+      "start": "1864-01-01",
+      "end": "1868-01-01",
+      "text": "La autoridad imperial apoyada por Francia coexiste con el Gobierno republicano de Juárez y resistencias regionales. No se presenta a Juárez como inexistente durante la intervención ni se asigna control uniforme a Maximiliano. Tras la derrota imperial continúa la República, que no se funda en 1867.",
+      "source": "https://history.state.gov/milestones/1861-1865/french-intervention",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-spanish-regimes",
+      "keys": [
+        "ESP"
+      ],
+      "section": "institutions",
+      "title": "Gobierno provisional, regencia, monarquía y República",
+      "start": "1868-09-18",
+      "end": "1874-12-30",
+      "text": "Cada etapa del Sexenio mantiene instituciones y titulares propios. La regencia de Serrano no es un reinado; Amadeo jura en enero de 1871; la Primera República comienza en febrero de 1873. La fase de Serrano de 1874 se distingue de los cuatro presidentes del Ejecutivo de 1873.",
+      "source": "https://www.congreso.es/es/web/guest/cem/sexrevol",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 11
+    },
+    {
+      "id": "extension-1860-record-spanish-restoration",
+      "keys": [
+        "ESP"
+      ],
+      "section": "institutions",
+      "title": "Restauración de la monarquía de Alfonso XII",
+      "start": "1874-12-29",
+      "end": "1880-01-01",
+      "text": "La restauración monárquica de diciembre de 1874 pone fin al régimen republicano. No es una independencia nueva del territorio español ni convierte a sus jefes anteriores en titulares del nuevo régimen.",
+      "source": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/autoridad/101210",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 11,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-japanese-transformation",
+      "keys": [
+        "JPN"
+      ],
+      "section": "institutions",
+      "title": "Devolución de autoridad y reorganización Meiji",
+      "start": "1867-01-01",
+      "end": "1880-01-01",
+      "text": "La devolución formal de poder de 1867, la guerra Boshin y las reformas imperiales tienen cronologías distintas. El Juramento de 1868 enuncia principios del nuevo gobierno, sin equivaler al parlamentarismo posterior. No se llama primer ministro a todos los cargos del Daijō-kan.",
+      "source": "https://www.ndl.go.jp/modern/e/cha1/index.html",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-paraguay-alliance",
+      "keys": [
+        "BRA-EMPIRE",
+        "ARG",
+        "URY",
+        "PRY"
+      ],
+      "section": "defense",
+      "title": "Tratado de la Triple Alianza de 1865",
+      "start": "1865-05-01",
+      "end": "1871-01-01",
+      "text": "El tratado reúne al Imperio del Brasil, Argentina y Uruguay contra el Gobierno paraguayo. El protocolo y los compromisos de la alianza no constituyen la Triple Alianza europea de 1882. La cobertura de la guerra no acredita automáticamente la duración de cada obligación posterior del tratado.",
+      "source": "https://www.senado.leg.br/publicacoes/anais/pdf/ACE/ATAS7-Terceiro_Conselho_de_Estado_1867-1868.pdf",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 11,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-brazil-slavery",
+      "keys": [
+        "BRA-EMPIRE"
+      ],
+      "section": "institutions",
+      "title": "Emancipación parcial y persistencia de la esclavitud",
+      "start": "1871-09-28",
+      "end": "1880-01-01",
+      "text": "La Ley del Vientre Libre declara libres a los hijos nacidos desde su fecha, con condiciones sobre tutela, indemnización y servicios. La esclavitud de sus madres y la de gran parte de la población esclavizada no desaparece con esa ley. No se anticipa a 1871 la abolición general.",
+      "source": "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-2040-28-setembro-1871-538828-norma-pl.html",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 11,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-fiji-colonial",
+      "keys": [
+        "FJI",
+        "GBR"
+      ],
+      "section": "institutions",
+      "title": "Cesión de Fiyi y administración colonial",
+      "start": "1874-10-10",
+      "end": "1880-01-01",
+      "text": "La cesión a la Corona británica de 1874 se distingue de la independencia de 1970. La autoridad británica y las instituciones locales tienen ámbitos diferentes; esta ventana no proporciona una serie completa de gobernadores o jefes locales.",
+      "source": "https://www.foreignaffairs.gov.fj/fiji-high-commission-new-zealand/history/",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 11,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-zulu-war",
+      "keys": [
+        "ZAF",
+        "GBR"
+      ],
+      "section": "defense",
+      "title": "Reino zulú y expansión imperial británica",
+      "start": "1879-01-01",
+      "end": "1880-01-01",
+      "text": "El reino zulú de Cetshwayo es el adversario de la invasión británica, no la Sudáfrica contemporánea. Las campañas de 1879 y la reorganización posterior del territorio requieren fechas propias; la victoria militar no se presenta como incorporación administrativa instantánea.",
+      "source": "https://www.nam.ac.uk/explore/zulu-war",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-afghan-relations",
+      "keys": [
+        "AFG",
+        "IND",
+        "GBR"
+      ],
+      "section": "defense",
+      "title": "Invasión, Gandamak y continuación de la guerra",
+      "start": "1878-11-01",
+      "end": "1880-01-01",
+      "text": "La campaña británico-india intenta imponer influencia sobre la política exterior afgana. El tratado de 1879 y el ataque posterior a la residencia abren fases distintas. El registro se interrumpe al terminar 1879 y no adelanta las campañas y acuerdos posteriores.",
+      "source": "https://www.nam.ac.uk/explore/second-afghan-war",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 10,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1860-record-berlin-territories",
+      "keys": [
+        "BGR",
+        "ROU",
+        "SRK",
+        "MNK",
+        "OTT",
+        "AUT-HUN",
+        "RUE"
+      ],
+      "section": "territory",
+      "title": "Estatutos balcánicos después del Tratado de Berlín",
+      "start": "1878-07-13",
+      "end": "1880-01-01",
+      "text": "Serbia, Montenegro, Rumanía y Bulgaria reciben tratamientos jurídicos diferentes. Bulgaria queda como principado autónomo bajo soberanía otomana; Bosnia-Herzegovina se coloca bajo ocupación y administración austrohúngaras. No se adelantan a 1878 la anexión de Bosnia ni la independencia y el rango real búlgaros de 1908.",
+      "source": "https://www.dhm.de/lemo/kapitel/kaiserreich/aussenpolitik/berliner-kongress-1878",
+      "sourceLabel": "Fuente institucional o documento primario · investigación 1860–1879",
+      "note": "Inicio inclusivo y fin exclusivo. Las fronteras de cobertura no son fechas de fundación, paz o disolución. El registro no proporciona geometrías de frentes ni una lista completa de beligerantes o instituciones.",
+      "precision": 11,
+      "endIsCoverageBoundary": true
     }
   ],
-  "coverageStart": 1880
+  "coverageStart": 1860
 }

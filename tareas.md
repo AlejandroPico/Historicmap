@@ -1,5 +1,31 @@
 # Tareas y continuidad
 
+## Encargo vigente · 0.14.0 · correcciones y ampliación parcial hasta 1860
+
+Cierre preparado el 26/10/2026. Comprobar localmente, enviar y terminar sin esperar ni consultar Actions/Pages. El propietario verificará la publicación.
+
+- [x] Identificadores históricos de texto conservados con promoción en el renderizador. Clic real sobre Francia en 1885 y cambio 1885/1886; no se simplifican coordenadas.
+- [x] Autoridades ordenadas por inicio más reciente; cargos y presidencia anual suiza conservados.
+- [x] 32 ventanas de retratos por etapas: Franco desde 1950, Putin, Isabel II, Trump y mandatos no consecutivos. Fechas y licencias visibles; cobertura ausente rotulada.
+- [x] Retratos de Vietnam 2007 y Sadi Carnot en Francia 1888. Sharma 1992 con encuadre de su juramento y retrato individual desde 1993, sin el sello postal.
+- [x] Cinco observaciones de control ruso en Ucrania desde 2022, integradas en el mapa seleccionable; franjas opcionales, costa compartida Natural Earth, sin la antigua máscara CShapes Crimea en esa ventana. Fecha e incertidumbre visibles.
+- [ ] Actualizar la observación de Ucrania a una fuente de control más reciente con licencia reutilizable. La referencia de 2026 es 17/12/2025; no afirmar que es el frente de octubre de 2026. Kherson 2022 está dentro de la incertidumbre mínima de 7 km; no inferir su control municipal del polígono.
+- [x] Referencias fechadas del Pacífico y nombres históricos canónicos. Guam y Nueva Caledonia separados del agregado sin duplicar ni modificar componentes. Los suplementos de independencia ya disponibles tienen prioridad sobre referencias de omisiones.
+- [ ] Completar autoridades locales, condominios, fechas intranuales y referencias de otros archipiélagos. La selección de una referencia contemporánea no acredita fronteras insulares históricas exactas.
+- [ ] Mozambique: continúa pendiente un retrato individual reutilizable de Maria Benvinda Levi. No recortar la escena ND con Macut. Daniel Chapo ya tiene imagen individual.
+- [ ] Acreditar variantes tempranas de Franco, especialmente 1936–1949. Las dos candidatas investigadas con advertencias de derechos no se incorporan automáticamente.
+- [x] Incorporación aislada 1860–1879: 425 claves y 11.555 mandatos totales del catálogo, curador inicial, recuperación de inicios explícitos, 225 retratos adquiridos y siete ventanas adicionales de símbolos. Preservados mandatos 1880+.
+- [x] Contexto: 16 fases, 15 registros históricos y seis relaciones, sin modificar eventos anteriores ni inventar geometrías de frentes.
+- [ ] **La revisión mundial 1860–1879 sigue incompleta.** Auditoría nominal en docs/REVIEW-1860-1879.json: 2804 entidades/año; 1646 casos anuales sin autoridad; 17 personas u órganos sin imagen; 2023 casos anuales sin símbolo.
+- [ ] Prusia 1860: la fuente Clio la agrupa en la Confederación Germánica; no existe un polígono prusiano separado en esa fecha. Tener autoridades PRUSSIA no resuelve la frontera. No asignar toda la Confederación a Prusia ni superponer un contorno moderno. Investigación CShapes Europa en docs/EUROPE-1860-GEOMETRY-RESEARCH.md; no autoriza una sustitución global automática.
+- [ ] Completar las monarquías y autoridades locales pendientes de África, Asia, América y Oceanía; entre otros, las ventanas anteriores a 1880 de Irán, Etiopía, Joseon, Hawái y Nepal. No bajar todavía otra tanda dando esta por cerrada mundialmente.
+- [x] Versión 0.14.0, manifiestos, catálogo Países con variantes de retratos, documentación y preparadores registrados. 54 recursos, 11 franjas tipográficas y 5.867 medios con huellas comprobadas.
+- [x] Tipos y 160 pruebas correctas. Scripts de preparación analizados sin errores de sintaxis. Compilación local correcta en .cache/build-014-final.
+- [x] Navegador: clic real1885, inversión1885/1886, globo, selecciónGuam2016, autoridadesUSA1860/Francia1871 y retratosCarnot/Vietnam/Sharma/Trump; fecha deUcrania y franjas verificadas. Dos recorridos focales correctos.
+- [x] Cambios preparados y verificados para su envío a origin/main en esta entrega; el resultado de Git se confirma en el mensaje de cierre. La publicación sigue pendiente del aviso del propietario.
+
+La mejora de selección no transforma la geometría Clio anterior a 1886 en una costa más detallada. Mantener separados fallo de identificación, resolución de la fuente y falta de un territorio en el inventario. Las carencias no se convierten en completadas al reanudar una sesión. Detalle: docs/DELIVERY-0.14.0.md.
+
 ## Encargo vigente · 0.13.0 · ampliación hasta 1880 y correcciones notificadas
 
 El propietario confirma la publicación anterior y la considera válida. Ampliar1880–1899, conservar1900–actualidad y las particiones1940–1944. Añade errores de retratos/identidades y selección histórica deGroenlandia. Comprobar localmente, subir y terminar sin esperar ni sondearActions/Pages.

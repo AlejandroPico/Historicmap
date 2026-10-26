@@ -1,0 +1,123 @@
+{
+  "key": "NGC",
+  "name": "Confederación Alemana del Norte",
+  "qid": "Q150981",
+  "aliases": [
+    "Confederación Alemana del Norte",
+    "North German Confederation"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NGC"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q150652",
+      "role": "Jefatura del Estado",
+      "start": "1867-07-01",
+      "end": "1867-12-30",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q150981",
+      "sourceStatement": "Q150981$e215ee00-4ebe-cbc9-950c-606bf804318c",
+      "acquisition": "historical-0.14",
+      "name": "Guillermo I de Alemania",
+      "portrait": {
+        "file": "media/portrait-d681ecf146cce93403d0.jpg",
+        "title": "Kaiser Wilhelm I. .JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_I._.JPG",
+        "artist": "Wilhelm Kuntzemüller",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ggbain.28199.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "c9bc99ee6f6b3f235760ea8e66bdce799250d322550c2dd0e782a56e7427ddf7",
+        "bytes": 41462,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Kaiser_Wilhelm_I._.JPG/330px-Kaiser_Wilhelm_I._.JPG",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q8442",
+      "role": "Jefatura del Gobierno",
+      "start": "1867-07-14",
+      "end": "1870-12-31",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q150981",
+      "sourceStatement": "Q150981$9730a590-4a52-3d1b-6727-8bc23267b0f3",
+      "acquisition": "historical-0.14",
+      "name": "Otto von Bismarck",
+      "portrait": {
+        "file": "media/portrait-4e48d6c64f85da4e88b5.jpg",
+        "title": "BismarckArbeitszimmer1886.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:BismarckArbeitszimmer1886.jpg",
+        "artist": "André Bockmann",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:BismarckArbeitszimmer1886.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Bismarck. Des eisernen Kanzlers Leben in annähernd 200 seltenen Bildern nebst einer Einführung. Herausgegeben von Walter Stein. Im Jahre des 100. Geburtstags Bismarcks und des großen Krieges 1915. Hermann Montanus Verlagsbuchhandlung, Siegen und Leipzig 1915",
+        "sha256": "86382eed32a01c21bc363e4c0be5725299ee044503b6dd44f7fdd53bb5a28e47",
+        "bytes": 35864,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BismarckArbeitszimmer1886.jpg/330px-BismarckArbeitszimmer1886.jpg"
+      }
+    },
+    {
+      "person": "Q150652",
+      "name": "Guillermo I",
+      "role": "Titular de la Presidencia federal",
+      "start": "1867-12-31",
+      "end": "1870-12-31",
+      "source": "https://www.dhm.de/lemo/biografie/wilhelm-i",
+      "note": "Confederación Alemana del Norte desde 1867; observación anual, no un nombramiento el 31 de diciembre. Los límites de cobertura delimitan una observación documental; no representan un nombramiento ni una dimisión.",
+      "precision": 9,
+      "curated": true,
+      "acquisition": "curated-1860-authorities-0.14",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-d681ecf146cce93403d0.jpg",
+        "title": "Kaiser Wilhelm I. .JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_I._.JPG",
+        "artist": "Wilhelm Kuntzemüller",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ggbain.28199.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "c9bc99ee6f6b3f235760ea8e66bdce799250d322550c2dd0e782a56e7427ddf7",
+        "bytes": 41462,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Kaiser_Wilhelm_I._.JPG/330px-Kaiser_Wilhelm_I._.JPG",
+        "attribution": "",
+        "attributionRequired": false
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11832",
+      "start": 1868,
+      "end": 1869,
+      "name": "North German Confederation",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11885",
+      "start": 1870,
+      "end": 1870,
+      "name": "North German Confederation",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

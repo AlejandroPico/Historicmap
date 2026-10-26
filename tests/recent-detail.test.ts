@@ -68,6 +68,8 @@ describe('1990–2026 territorial and contextual continuity',()=>{
   const china=identityFor({code:'CHN'},2000,data,new Date(2026,9,22)).leaders;
   expect(china.some(l=>/Jiang/.test(l.name)&&/partido|secretario/i.test(l.role))).toBe(true);
   expect(china.some(l=>/Jiang/.test(l.name)&&/Estado|Presidente/.test(l.role))).toBe(true);
-  expect(identityFor({code:'LBY'},1995,data,new Date(2026,9,22)).leaders[0].person).toBe('Q19878');
+  const libya=identityFor({code:'LBY'},1995,data,new Date(2026,9,22)).leaders;
+  expect(libya.some(l=>l.person==='Q19878')).toBe(true);
+  expect(libya.map(l=>l.start)).toEqual(libya.map(l=>l.start).sort().reverse());
  });
 });

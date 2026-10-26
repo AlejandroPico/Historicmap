@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q422065",
+  "name": "Sultanate of Sulu",
+  "qid": "Q422065",
+  "aliases": [
+    "Sultanate of Sulu"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q422065"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-9872",
+      "start": 1789,
+      "end": 1829,
+      "name": "Sultanate of Sulu",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11208",
+      "start": 1830,
+      "end": 1876,
+      "name": "Sultanate of Sulu",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11961",
+      "start": 1877,
+      "end": 1879,
+      "name": "Sultanate of Sulu",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,6 +1,6 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **25 de octubre de 2026**. Versión del producto: **0.13.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.14.0**.
 
 **Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de0.13 en la sección25; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
@@ -624,3 +624,22 @@ Validación local:154 pruebas/35 archivos, cinco regresiones del filtro humano, 
 
 Corrección de publicación25/10/2026: Quality40208104708 pasó para33637c5; Publish40209978935 se omitió porque el cierre documental3f2c2f5 adelantómain y la condición comparaba ambosSHA. Se elimina esa igualdad y se conserva checkout delSHA validado, con éxito/push/main/mismo repositorio. Reejecutar un workflow_run conserva su evento antiguo; usar una ejecución manual nueva. No se cambian datos ni aplicación. No esperar despliegue.
 
+
+
+## 26. Correcciones y ampliación documental parcial hasta1860 · 0.14.0
+
+El encargo incluye retratos por etapas, ocupación rusa desde2022, orden de relevos, selección1885, Pacífico y ampliación1860–1879. **No declarar terminada la revisión mundial1860–1879:** quedan huecos nominales explícitos en docs/REVIEW-1860-1879.json. Fuentes, arquitectura y límites en docs/DELIVERY-0.14.0.md, AUTHORITIES-1860-RESEARCH.md, PORTRAIT-SERIES-014-RESEARCH.md y UKRAINE-2022-RESEARCH.md. Las decisiones de esta sección prevalecen sobre descripciones antiguas de coberturas anteriores.
+
+El renderizador conserva los IDs originales en `__atlasId`, con `promoteId` para territorios. El teselador serializaba IDsClio de texto como números no válidos. No eliminar la promoción ni sustituir IDs por índices inestables entre años. Las coordenadas de origen quedan intactas; la menor resoluciónClio anterior a1886 es una limitación distinta del fallo de clic.
+
+`portrait-series.json` y `src/portrait-series.ts` seleccionan32 variantes después de resolver el mandato. Fecha de toma y ventana editorial son conceptos separados. El encuadre visual deSharma1992 eIsabelII1999 se documenta y conserva el archivo original; nunca aplicar a una imagenND. Faltan variantes tempranas deFranco y un retrato individual reutilizable deMariaLevi. El sello deSharma no se usa como variante1992. Los relevos se ordenan por inicio descendente; Suiza mantiene su distinción institucional.
+
+`pacific-components.json` separa componentesGuam/NuevaCaledonia y los retira del agregadoClio sin alterar coordenadas. `pacific-references.geojson` incorpora61 fases para omisiones, con contornos contemporáneos expresamente rotulados. No añadir otra referencia sobre un territorio ya presente ni convertir un condominio o una autoridad local no documentada en una colonia de una sola potencia. Resolver NuevaCaledonia yPolinesia por nombreCShapes conservando sus contornos.
+
+`ukraine-control-2022.geojson` deriva de archivosCommonsCCBY-SA4.0 y tierraNaturalEarthPD. No usar ISW/DeepState sin permiso o licencia de geodatos demostrada. No mezclar el viejo polígonoCrimeaCShapes con el nuevo derivadoBY-SA. El control se integra en la propiedad seleccionable y las franjas sólo lo explican. Incertidumbre mínima7km. En2026 la observación sigue siendo17/12/2025, visible en la leyenda; una revisión de abril delSVG no es una nueva fecha del frente. Kherson2022 está dentro de la incertidumbre del ajuste: no atribuir su control municipal desde ese polígono.
+
+La incorporación1860 usa adquisición aislada y curadores idempotentes; conserva los mandatos1880+ y el horizonte contemporáneo22/10/2026. Contiene fuentes de precisión desigual y muchos vacíos. Recuperar `sourceStart` únicamente si estaba conservado explícitamente junto al indicador de límite de cobertura; nunca deducir un inicio de un nombre, nacimiento, fotografía o ausencia de sucesor. Siete familias adicionales de símbolos reutilizan archivos acreditados sin retrotraer variantes posteriores. Los contextos y relaciones nuevos no suministran frentes geométricos ausentes.
+
+Preparadores en scripts/enrich-1860-authorities.py, curate-1860-authorities.py, recover-1860-coverage.py, curate-1860-symbols.py, prepare-1860-context.py, prepare-1860-entities-pacific.py y register-014-data.mjs. La investigación original se prepara en.cache y la integración es explícita; no descargar en la compilación ni ejecutar todos los curadores antiguos indiscriminadamente. El catálogoPaíses se regenera después de las escrituras deidentidades ymedios, antes de probar su igualdad. No ejecutar su prueba mientras se está regenerando.
+
+Continuar desde tareas.md. Comprobaciones locales antes de enviar. El propietario verificaActions/Pages; terminar tras la subida sin esperar ni sondear el despliegue.

@@ -72,3 +72,6 @@ El código original no tiene todavía una licencia de distribución elegida por 
 Cobertura del año vigente y medios: [CURRENT-AUTHORITIES](docs/CURRENT-AUTHORITIES.md). Agrupaciones, conflictos y fuentes: [CURRENT-LAYERS](docs/CURRENT-LAYERS.md).
 
 La ampliación de fichas se describe en [COUNTRY-WORKSPACE](docs/COUNTRY-WORKSPACE.md); datos y licencias en [COUNTRY-INDICATORS](docs/COUNTRY-INDICATORS.md) y [COUNTRY-HISTORY](docs/COUNTRY-HISTORY.md). Los apartados son utilizables para ampliar registros por años; su existencia no acredita que se hayan adquirido todas las constituciones, idiomas, religiones, sanciones, bases militares o lugares patrimoniales del mundo.
+
+
+Actualización0.14.0: correcciones de selección histórica, retratos por etapas y referencias delPacífico; incorporación documental parcial hasta1860. El frente deUcrania conserva fechas de observación explícitas. Véase [alcance y pendientes](docs/DELIVERY-0.14.0.md).

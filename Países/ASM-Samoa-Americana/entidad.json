@@ -4,7 +4,8 @@
   "qid": "Q16641",
   "aliases": [
     "American Samoa",
-    "Samoa Americana"
+    "Samoa Americana",
+    "Samoa Estadounidense"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -1400,7 +1401,24 @@
       }
     }
   ],
+  "portraitVariants": [],
   "territorialRecords": [
+    {
+      "file": "pacific-references.geojson",
+      "recordId": "pacific-ASM-1860",
+      "start": "1860-01-01",
+      "end": "1899-12-31",
+      "name": "Samoa Estadounidense",
+      "status": "source-reference"
+    },
+    {
+      "file": "pacific-references.geojson",
+      "recordId": "pacific-ASM-1900",
+      "start": "1900-01-01",
+      "end": "2019-12-31",
+      "name": "Samoa Estadounidense",
+      "status": "dependency"
+    },
     {
       "file": "world_1914.geojson",
       "recordId": 169,

@@ -333,6 +333,7 @@
       }
     }
   ],
+  "portraitVariants": [],
   "territorialRecords": [
     {
       "file": "countries.geojson",
@@ -345,6 +346,38 @@
     {
       "file": "historical-supplements.geojson",
       "recordId": 900017,
+      "start": "1962-01-01",
+      "end": "2019-12-31",
+      "name": "Samoa",
+      "status": "independent"
+    },
+    {
+      "file": "pacific-references.geojson",
+      "recordId": "pacific-WSM-1860",
+      "start": "1860-01-01",
+      "end": "1899-12-31",
+      "name": "Samoa",
+      "status": "source-reference"
+    },
+    {
+      "file": "pacific-references.geojson",
+      "recordId": "pacific-WSM-1900",
+      "start": "1900-01-01",
+      "end": "1913-12-31",
+      "name": "Samoa",
+      "status": "dependency"
+    },
+    {
+      "file": "pacific-references.geojson",
+      "recordId": "pacific-WSM-1914",
+      "start": "1914-01-01",
+      "end": "1961-12-31",
+      "name": "Samoa",
+      "status": "dependency"
+    },
+    {
+      "file": "pacific-references.geojson",
+      "recordId": "pacific-WSM-1962",
       "start": "1962-01-01",
       "end": "2019-12-31",
       "name": "Samoa",

@@ -78,6 +78,7 @@
       }
     }
   ],
+  "portraitVariants": [],
   "territorialRecords": [
     {
       "file": "history.topojson",
@@ -94,6 +95,22 @@
       "end": null,
       "name": "Polinesia Francesa",
       "status": null
+    },
+    {
+      "file": "pacific-references.geojson",
+      "recordId": "pacific-PYF-1860",
+      "start": "1860-01-01",
+      "end": "1900-12-31",
+      "name": "Polinesia Francesa",
+      "status": "source-reference"
+    },
+    {
+      "file": "pacific-references.geojson",
+      "recordId": "pacific-PYF-1901",
+      "start": "1901-01-01",
+      "end": "1903-12-31",
+      "name": "Polinesia Francesa",
+      "status": "dependency"
     }
   ],
   "relatedData": [

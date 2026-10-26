@@ -13,6 +13,7 @@ import { annualData, asset, modernCities, overlaysFor } from './data';
 import { historicalCapitals } from './history';
 import { escapeHtml as esc, thematicData, thematicLegend, profileFor, type ProfileData, type Theme } from './profiles';
 import { sourceDiff } from './source-diff';
+import {withRenderIds,RENDER_ID} from './render-feature-id';
 import { politicalData } from './political';
 import {controlledMap} from './control-loader';
 import {occupationPattern} from './occupation-pattern';
@@ -123,7 +124,7 @@ map.on('load', () => {
   map.addLayer({id:'reference-land',type:'fill',source:'reference-land',paint:{'fill-color':'#6c7776','fill-opacity':1}});
   // Subpixel render tolerance avoids overflowing GPU segments on dense coastlines.
   // The full-resolution source coordinates remain unchanged in public/data.
-  map.addSource('territories',{type:'geojson',data:empty,tolerance:0.2,maxzoom:7,attribution:'<a href="https://www.naturalearthdata.com/">Natural Earth</a> · <a href="https://icr.ethz.ch/data/cshapes/">CShapes · CC BY-NC-SA 4.0</a> · <a href="https://github.com/aourednik/historical-basemaps">A. Ourednik · GPL-3.0</a> · <a href="https://doi.org/10.1016/j.gsf.2024.101922">Cao et al. 2024 · CC BY 4.0</a>'});
+  map.addSource('territories',{type:'geojson',data:empty,promoteId:RENDER_ID,tolerance:0.2,maxzoom:7,attribution:'<a href="https://www.naturalearthdata.com/">Natural Earth</a> · <a href="https://icr.ethz.ch/data/cshapes/">CShapes · CC BY-NC-SA 4.0</a> · <a href="https://github.com/aourednik/historical-basemaps">A. Ourednik · GPL-3.0</a> · <a href="https://doi.org/10.1016/j.gsf.2024.101922">Cao et al. 2024 · CC BY 4.0</a>'});
   map.addLayer({id:'territory-fill',type:'fill',source:'territories',paint:{'fill-color':colorExpression,'fill-opacity':0.88}});
   map.addSource('dem',{type:'raster-dem',tiles:['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],tileSize:256,maxzoom:12,encoding:'terrarium',attribution:'Relieve: © Mapzen / AWS Open Data'});
   map.addLayer({id:'relief',type:'hillshade',source:'dem',layout:{visibility:'none'},paint:{'hillshade-shadow-color':'#102c2b','hillshade-highlight-color':'#fff3c8','hillshade-exaggeration':0.6}});
@@ -286,7 +287,7 @@ function refreshMap(force=false):Promise<void> {
       if(current!==requestNumber)return;
       const composed=await controlledMap(politicalData(rawData,targetYear,target.kind==='modern'?profileData:undefined),overlays,targetYear);
       if(current!==requestNumber)return;
-      const data=composed.territories,hatching=composed.occupations;
+      const data=withRenderIds(composed.territories,displayKey),hatching=composed.occupations;
       const themed=thematicData(data,profileData,targetTheme,targetYear);
       const signature=target.kind==='annual'||target.kind==='modern'?data.features.map(f=>`${f.id}:${f.properties?.name}:${f.properties?.politicalColor}:${f.properties?.controlInfluenceColor}:${f.properties?.identityKey}:${f.properties?.controlRecord}`).join('|'):target.file!;
       const commit=async()=>{
@@ -369,7 +370,9 @@ function applyLayers(){
   const controlLegend=controlVisible&&controls.length?`<div class="control-legend"><strong>Ocupación · síntesis anual</strong><div class="control-swatches">${controls.map(p=>`<span><i style="background:${p.controlColor}"></i>${esc(labels[p.controller]??p.name)}</span>`).join('')}</div><small>Franja gruesa: controlador.<br>Franja fina: territorio ocupado.<br>El control no acredita soberanía.</small></div>`:'';
   const membershipLegend=affiliation?`<strong>${esc(AFFILIATIONS[affiliation].label)} · ${year}</strong><div class="control-swatches">${affiliationLegend(affiliation,year).map(c=>`<span><i style="background:${c.color}"></i>${esc(c.label)}</span>`).join('')}</div><small>${esc(affiliationSummary(affiliation,year))}</small>`:'';
   const familyLegend=political&&!affiliation&&theme==='political'&&loaded.features.some(f=>f.properties?.influenceKind||['colony','protectorate','mandate'].includes(f.properties?.status))?'<small>Los matices de una familia de color indican dependencia o tutela documentada; no anexión.</small>':'';
-  $('#map-legend').innerHTML=familyLegend+(political?(membershipLegend||thematicLegend(loaded,theme)):'')+controlLegend+(referenceLandOn?'<small>Gris: tierra sin entidad en el inventario.<br>Costa contemporánea de referencia.</small>':'');
+  const front=loaded.features.find(f=>f.properties?.controlObservationDate)?.properties;
+  const frontLegend=front?`<small class="control-observation">Ucrania · referencia cartográfica ${esc(String(front.controlObservationDate).split('-').reverse().join('/'))}<br>Incertidumbre mínima del frente: 7 km.</small>`:'';
+  $('#map-legend').innerHTML=frontLegend+familyLegend+(political?(membershipLegend||thematicLegend(loaded,theme)):'')+controlLegend+(referenceLandOn?'<small>Gris: tierra sin entidad en el inventario.<br>Costa contemporánea de referencia.</small>':'');
   $('#map-legend').hidden=!$('#map-legend').innerHTML;
 }
 let lastLocationWrite = -Infinity;
@@ -532,7 +535,7 @@ $('#search-button').onclick=()=>{
     $('#search-scope').textContent=`Territorios visibles · ${formatYear(year)}`;
     if($('#map').getAttribute('aria-busy')==='true'){$('#search-results').textContent='Actualizando territorios…';return;}
     const q=$<HTMLInputElement>('#search-input').value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-    const matches=loaded.features.filter(f=>[f.properties?.name,f.properties?.originalName,f.properties?.controlName,profileFor(profiles,f.properties?.code)?.name,f.properties?.code].filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,q?24:8);
+    const matches=loaded.features.filter(f=>[f.properties?.name,f.properties?.originalName,f.properties?.controlName,profileFor(profiles,f.properties?.code||f.properties?.identityKey)?.name,f.properties?.code].filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,q?24:8);
     $('#search-results').replaceChildren();
     if(!matches.length)$('#search-results').textContent='Sin resultados en esta instantánea. Prueba otra fecha o nombre. Los nombres históricos conservan el idioma de la fuente.';
     matches.forEach(feature=>{const button=document.createElement('button');button.textContent=String(feature.properties?.name);button.onclick=()=>{if(feature.geometry.type==='Polygon'||feature.geometry.type==='MultiPolygon'){

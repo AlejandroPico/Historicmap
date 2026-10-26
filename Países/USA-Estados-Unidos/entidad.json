@@ -1339,7 +1339,7 @@
       "person": "Q12325",
       "role": "Jefatura del Gobierno",
       "start": "1857-03-04",
-      "end": "1861-03-04",
+      "end": "1859-12-31",
       "precision": 11,
       "source": "https://www.wikidata.org/wiki/Q30",
       "sourceStatement": "Q30$9B9463EF-39D2-45C0-9E7C-6BE95D1282EB",
@@ -1357,13 +1357,14 @@
         "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/James_Buchanan_%28cropped%29.jpg/330px-James_Buchanan_%28cropped%29.jpg",
         "attribution": "",
         "attributionRequired": false
-      }
+      },
+      "endIsCoverageBoundary": true
     },
     {
       "person": "Q12325",
       "role": "Presidente de los Estados Unidos",
       "start": "1857-03-04",
-      "end": "1861-03-04",
+      "end": "1859-12-31",
       "precision": 11,
       "source": "https://www.wikidata.org/wiki/Q11696",
       "name": "James Buchanan",
@@ -1380,64 +1381,8 @@
         "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/James_Buchanan_%28cropped%29.jpg/330px-James_Buchanan_%28cropped%29.jpg",
         "attribution": "",
         "attributionRequired": false
-      }
-    },
-    {
-      "person": "Q91",
-      "role": "Jefatura del Gobierno",
-      "start": "1861-03-04",
-      "end": "1865-04-15",
-      "precision": 11,
-      "source": "https://www.wikidata.org/wiki/Q30",
-      "sourceStatement": "Q30$68DC8FBE-A13C-4265-82F7-94B24AE9159A",
-      "name": "Abraham Lincoln"
-    },
-    {
-      "person": "Q91",
-      "role": "Presidente de los Estados Unidos",
-      "start": "1861-03-04",
-      "end": "1865-04-15",
-      "precision": 11,
-      "source": "https://www.wikidata.org/wiki/Q11696",
-      "name": "Abraham Lincoln"
-    },
-    {
-      "person": "Q8612",
-      "role": "Jefatura del Gobierno",
-      "start": "1865-04-15",
-      "end": "1869-03-04",
-      "precision": 11,
-      "source": "https://www.wikidata.org/wiki/Q30",
-      "sourceStatement": "Q30$BD8E6CBC-9485-4633-8F6A-EF41E5BA5F5F",
-      "name": "Andrew Johnson"
-    },
-    {
-      "person": "Q8612",
-      "role": "Presidente de los Estados Unidos",
-      "start": "1865-04-15",
-      "end": "1869-03-04",
-      "precision": 11,
-      "source": "https://www.wikidata.org/wiki/Q11696",
-      "name": "Andrew Johnson"
-    },
-    {
-      "person": "Q34836",
-      "role": "Jefatura del Gobierno",
-      "start": "1869-03-04",
-      "end": "1877-03-04",
-      "precision": 11,
-      "source": "https://www.wikidata.org/wiki/Q30",
-      "sourceStatement": "Q30$F4084C7A-67AF-4FCB-B30A-CFD5B3EB8909",
-      "name": "Ulysses S. Grant"
-    },
-    {
-      "person": "Q34836",
-      "role": "Presidente de los Estados Unidos",
-      "start": "1869-03-04",
-      "end": "1877-03-04",
-      "precision": 11,
-      "source": "https://www.wikidata.org/wiki/Q11696",
-      "name": "Ulysses S. Grant"
+      },
+      "endIsCoverageBoundary": true
     },
     {
       "person": "Q35686",
@@ -3588,6 +3533,216 @@
         "attribution": "",
         "attributionRequired": false
       }
+    },
+    {
+      "person": "Q12325",
+      "name": "James Buchanan",
+      "role": "Presidente de los Estados Unidos · jefatura del Estado y del Gobierno",
+      "start": "1860-01-01",
+      "end": "1861-03-04",
+      "source": "https://www.archives.gov/research/census/presidents",
+      "note": " Los límites de cobertura delimitan una observación documental; no representan un nombramiento ni una dimisión.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1860-authorities-0.14",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-a579763d151c8d88603b.jpg",
+        "title": "James Buchanan (cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:James_Buchanan_(cropped).jpg",
+        "artist": "From Brady daguerreotype (Mathew Brady) (1822-1896)",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ppmsc.00051.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "3bf0b3bca8df64c03ee3362cfd24df19bf5e9575c25313e2f4582c5d512f83d4",
+        "bytes": 35252,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/James_Buchanan_%28cropped%29.jpg/330px-James_Buchanan_%28cropped%29.jpg",
+        "attribution": "",
+        "attributionRequired": false
+      }
+    },
+    {
+      "person": "Q91",
+      "name": "Abraham Lincoln",
+      "role": "Presidente de los Estados Unidos · jefatura del Estado y del Gobierno",
+      "start": "1861-03-04",
+      "end": "1865-04-15",
+      "source": "https://www.archives.gov/research/census/presidents",
+      "note": "",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1860-authorities-0.14",
+      "portrait": {
+        "file": "media/portrait-fa664c19249272704c11.jpg",
+        "title": "Abraham Lincoln O-77 matte collodion print.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+        "artist": "Alexander Gardner",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "museums.fivecolleges.edu",
+        "sha256": "9ae57a80b8398fbb4fa2427d5d66a038ef276b24807d279aeed3687d160dc22c",
+        "bytes": 32332,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/330px-Abraham_Lincoln_O-77_matte_collodion_print.jpg"
+      }
+    },
+    {
+      "person": "Q8612",
+      "name": "Andrew Johnson",
+      "role": "Presidente de los Estados Unidos · jefatura del Estado y del Gobierno",
+      "start": "1865-04-15",
+      "end": "1869-03-04",
+      "source": "https://www.archives.gov/research/census/presidents",
+      "note": "",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1860-authorities-0.14",
+      "portrait": {
+        "file": "media/portrait-2d256006395c202657a6.jpg",
+        "title": "President Andrew Johnson.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:President_Andrew_Johnson.jpg",
+        "artist": "Mathew Brady, Retouched by Mmxx",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:President_Andrew_Johnson.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID cwpbh.03751.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "2a9e7911e2a958d5816943de56c4bac5323cf04d11adfad6d36299feba0fbe88",
+        "bytes": 36302,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/President_Andrew_Johnson.jpg/330px-President_Andrew_Johnson.jpg"
+      }
+    },
+    {
+      "person": "Q34836",
+      "name": "Ulysses S. Grant",
+      "role": "Presidente de los Estados Unidos · jefatura del Estado y del Gobierno",
+      "start": "1869-03-04",
+      "end": "1877-03-04",
+      "source": "https://www.archives.gov/research/census/presidents",
+      "note": "",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1860-authorities-0.14",
+      "portrait": {
+        "file": "media/portrait-82bb8d4b034df42a0093.jpg",
+        "title": "Ugrant.jpeg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ugrant.jpeg",
+        "artist": "Henry Ulke",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ugrant.jpeg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://www.whitehouseresearch.org/assetbank-whha/action/viewAsset?id=106",
+        "sha256": "63efa3cbcc881ac739186c8e16a28543475ce2100dfa109f17c9e66eda31e92c",
+        "bytes": 26427,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Ugrant.jpeg/330px-Ugrant.jpeg"
+      }
+    },
+    {
+      "person": "Q35686",
+      "name": "Rutherford B. Hayes",
+      "role": "Presidente de los Estados Unidos · jefatura del Estado y del Gobierno",
+      "start": "1877-03-04",
+      "end": "1879-12-31",
+      "source": "https://www.archives.gov/research/census/presidents",
+      "note": " Los límites de cobertura delimitan una observación documental; no representan un nombramiento ni una dimisión.",
+      "precision": 11,
+      "curated": true,
+      "acquisition": "curated-1860-authorities-0.14",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-46a46cc8c110c9dc2f3a.jpg",
+        "title": "President Rutherford Hayes 1870 - 1880 Restored.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg",
+        "artist": "Mathew Benjamin Brady",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID cwpbh.03606.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "57c31347c101fb2722db8954a584ab6cc0687057a0aac0cba976211b2c35e6e4",
+        "bytes": 26577,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/President_Rutherford_Hayes_1870_-_1880_Restored.jpg/330px-President_Rutherford_Hayes_1870_-_1880_Restored.jpg"
+      }
+    },
+    {
+      "person": "Q35686",
+      "role": "Jefatura del Estado",
+      "start": "1877-03-04",
+      "end": "1879-12-31",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q35686",
+      "sourceStatement": "q35686-698DEF01-4F17-4444-B87B-2FD86063AA03",
+      "office": "Q11696",
+      "acquisition": "recovered-source-start-0.14",
+      "name": "Rutherford B. Hayes",
+      "startIsCoverageBoundary": false,
+      "sourceStart": "1877-03-04",
+      "note": "Inicio real conservado explícitamente como sourceStart en la adquisición anterior. Ventana recuperada antes de1880; el final1879 es cobertura, no un cese. Ventana de adquisición1880–1899; los extremos de cobertura no son nombramientos ni dimisiones.",
+      "portrait": {
+        "file": "media/portrait-46a46cc8c110c9dc2f3a.jpg",
+        "title": "President Rutherford Hayes 1870 - 1880 Restored.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg",
+        "artist": "Mathew Benjamin Brady",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID cwpbh.03606.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+        "sha256": "57c31347c101fb2722db8954a584ab6cc0687057a0aac0cba976211b2c35e6e4",
+        "bytes": 26577,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/President_Rutherford_Hayes_1870_-_1880_Restored.jpg/330px-President_Rutherford_Hayes_1870_-_1880_Restored.jpg"
+      },
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "portraitVariants": [
+    {
+      "person": "Q22686",
+      "start": 2017,
+      "end": 2021,
+      "media": {
+        "file": "media/portrait-fc1a633cc8f9a2af795e.jpg",
+        "title": "Donald Trump official portrait.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/330px-Donald_Trump_official_portrait.jpg",
+        "artist": "Shealeah Craighead",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[https://www.whitehouse.gov/people/donald-j-trump/ The White House] ([https://trumpwhitehouse.archives.gov/people/donald-j-trump/ archived])\n{{LOC-image|id=ppbd.00608|division=pnp}}",
+        "sha256": "63577777e93e2b21d8b0ab5cca666c15022cf5553aab5146c7425c690366c3b4",
+        "bytes": 32828
+      },
+      "photoDate": "2017-10-06",
+      "dateLabel": "Fotografía de 2017-10-06",
+      "source": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+      "note": "Primer mandato, 20-01-2017 a 20-01-2021. La fotografía es de octubre de 2017, no de la investidura. Original mayor de 5 MB: reutilizar la copia ya acreditada o descargar miniatura oficial de Commons."
+    },
+    {
+      "person": "Q22686",
+      "start": 2025,
+      "end": 9999,
+      "media": {
+        "file": "media/portrait-2e81285cdb6f20dde9e0.jpg",
+        "title": "Official Presidential Portrait of President Donald J. Trump (2025) (3x4).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025)_(3x4).jpg",
+        "artist": "Daniel Torok",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "credit": "White HouseFacebook",
+        "sha256": "d5b96fc36a8ff099af5ed21eedc1e238f45c5d88ce3dda8e52deef30769678bf",
+        "bytes": 25936,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg/330px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg",
+        "attribution": "",
+        "attributionRequired": false
+      },
+      "photoDate": "2025-06-02",
+      "dateLabel": "Fotografía de 2025-06-02",
+      "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025)_(3x4).jpg",
+      "note": "Segundo mandato. Retrato tomado/publicado el 2 de junio de 2025, no la toma previa a la investidura de enero."
     }
   ],
   "territorialRecords": [
