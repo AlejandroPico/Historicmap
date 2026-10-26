@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q1734616",
+  "name": "Kartids",
+  "qid": "Q1734616",
+  "aliases": [
+    "Kartids"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1734616"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6334",
+      "start": 1344,
+      "end": 1351,
+      "name": "Kartids",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6447",
+      "start": 1352,
+      "end": 1374,
+      "name": "Kartids",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6633",
+      "start": 1375,
+      "end": 1384,
+      "name": "Kartids",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

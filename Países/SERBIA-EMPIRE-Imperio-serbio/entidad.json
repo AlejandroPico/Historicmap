@@ -1,0 +1,82 @@
+{
+  "key": "SERBIA-EMPIRE",
+  "name": "Imperio serbio",
+  "qid": "Q1406298",
+  "aliases": [
+    "Imperio serbio"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SERBIA-EMPIRE"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q207303",
+      "name": "Esteban Dušan",
+      "role": "Emperador serbio",
+      "start": "1346-04-16",
+      "end": "1355-12-20",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Stefan_Du%C5%A1an",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente.Realeza y título imperial serbio tienen fechas distintas; no se prolonga una soberanía nacional uniforme después de1371. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1300-0.23",
+      "portrait": {
+        "file": "media/portrait-9e6b165cd0dfb1cdd81d.jpg",
+        "title": "Car Dušan, Manastir Lesnovo, XIV vek.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Car_Du%C5%A1an,_Manastir_Lesnovo,_XIV_vek.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Car_Du%C5%A1an,_Manastir_Lesnovo,_XIV_vek.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "From this page, this image.",
+        "sha256": "a17a0a7486d6f523d77c5444d593ed2d40d7333b484aac42d497cd3b783a544d",
+        "bytes": 56018,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Car_Du%C5%A1an%2C_Manastir_Lesnovo%2C_XIV_vek.jpg"
+      }
+    },
+    {
+      "person": "Q279693",
+      "name": "Esteban Uroš V",
+      "role": "Emperador serbio",
+      "start": "1355-01-01",
+      "end": "1371-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Stefan_Uro%C5%A1_V",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente.Realeza y título imperial serbio tienen fechas distintas; no se prolonga una soberanía nacional uniforme después de1371. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1300-0.23",
+      "portrait": {
+        "file": "media/portrait-1a93a20fe5921814b77c.jpg",
+        "title": "UrosV.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:UrosV.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:UrosV.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "unknown (originally uploaded as sr:Слика:UrosV.jpg)",
+        "sha256": "a88d03733de6e3a63bbfd35f6d9cd556d4ca24f06ccf1d23d8d627bea2211ff7",
+        "bytes": 70307,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/UrosV.jpg/330px-UrosV.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

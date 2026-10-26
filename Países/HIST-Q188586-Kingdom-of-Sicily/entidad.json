@@ -1,0 +1,71 @@
+{
+  "key": "HIST-Q188586",
+  "name": "Kingdom of Sicily",
+  "qid": "Q188586",
+  "aliases": [
+    "Kingdom of Sicily"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q188586"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q367226",
+      "role": "Jefatura del Estado",
+      "start": "1300-01-01",
+      "end": "1337-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q367226",
+      "sourceStatement": "Q367226-3f10e256-5f6f-447b-ae08-3fcceabb5740",
+      "office": "Q3930923",
+      "acquisition": "historical-0.23",
+      "name": "Federico II de Sicilia",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1295-01-01",
+      "portrait": {
+        "file": "media/portrait-5f60d48c0f041e3eb174.jpg",
+        "title": "Federico III.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Federico_III.jpg",
+        "artist": "Unknown Master",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Federico_III.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "book: C.R. Backman, Declino e Caduta della Sicilia Medievale, 2007, Officina di Studi Medievali",
+        "sha256": "e18862281127e644041de6851f5415d794f342154429340ce2a154e9212d5f90",
+        "bytes": 15068,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Federico_III.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6103",
+      "start": 1305,
+      "end": 1374,
+      "name": "Kingdom of Sicily",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6641",
+      "start": 1375,
+      "end": 1384,
+      "name": "Kingdom of Sicily",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

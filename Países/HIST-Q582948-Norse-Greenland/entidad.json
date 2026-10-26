@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q582948",
+  "name": "Norse Greenland",
+  "qid": "Q582948",
+  "aliases": [
+    "Norse Greenland"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q582948"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6493",
+      "start": 1363,
+      "end": 1374,
+      "name": "Norse Greenland",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6631",
+      "start": 1375,
+      "end": 1384,
+      "name": "Norse Greenland",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

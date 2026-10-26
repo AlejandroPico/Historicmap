@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q12567",
+  "name": "Viking settlements",
+  "qid": "Q12567",
+  "aliases": [
+    "Viking settlements"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q12567"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-4253",
+      "start": 1300,
+      "end": 1325,
+      "name": "Viking settlements",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6249",
+      "start": 1326,
+      "end": 1332,
+      "name": "Viking settlements",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,58 @@
+{
+  "key": "HIST-Q466581",
+  "name": "Hoysala Kingdom",
+  "qid": "Q466581",
+  "aliases": [
+    "Hoysala Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q466581"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-5915",
+      "start": 1300,
+      "end": 1325,
+      "name": "Hoysala Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6193",
+      "start": 1326,
+      "end": 1332,
+      "name": "Hoysala Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6280",
+      "start": 1333,
+      "end": 1343,
+      "name": "Hoysala Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6358",
+      "start": 1344,
+      "end": 1351,
+      "name": "Hoysala Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

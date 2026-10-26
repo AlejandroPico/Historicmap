@@ -1,0 +1,96 @@
+{
+  "key": "BOSNIA-KINGDOM",
+  "name": "Reino de Bosnia",
+  "qid": "Q2980623",
+  "aliases": [
+    "Reino de Bosnia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "BOSNIA-KINGDOM"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q319605",
+      "name": "Tvrtko I de Bosnia",
+      "role": "Rey de Bosnia",
+      "start": "1377-10-01",
+      "end": "1391-03-10",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tvrtko_I_of_Bosnia",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1300-0.23",
+      "portrait": {
+        "file": "media/portrait-45270b0c04796deae7e0.png",
+        "title": "Tvrtko and his brother Vuk.PNG",
+        "url": "https://commons.wikimedia.org/wiki/File:Tvrtko_and_his_brother_Vuk.PNG",
+        "artist": "Francesco of Milano",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tvrtko_and_his_brother_Vuk.PNG#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://upload.wikimedia.org/wikipedia/commons/5/52/Stephenkotromanicthesecond.PNG",
+        "sha256": "dc1b88fe120a1d4ddecf40664221cadef4c1ccd7f2fde741866aa4df401cbfd1",
+        "bytes": 122917,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Tvrtko_and_his_brother_Vuk.PNG"
+      }
+    },
+    {
+      "person": "Q474769",
+      "name": "Dabiša de Bosnia",
+      "role": "Rey de Bosnia",
+      "start": "1391-03-01",
+      "end": "1395-09-08",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Stephen_Dabi%C5%A1a",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1300-0.23"
+    },
+    {
+      "person": "Q1028310",
+      "name": "Helena I de Bosnia",
+      "role": "Rey de Bosnia",
+      "start": "1395-09-01",
+      "end": "1398-04-01",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Helen_of_Bosnia",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1300-0.23"
+    },
+    {
+      "person": "Q2578848",
+      "name": "Ostoja de Bosnia",
+      "role": "Rey de Bosnia",
+      "start": "1398-01-01",
+      "end": "1399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ostoja_of_Bosnia",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1300-0.23"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,110 @@
+{
+  "key": "SERBIA-KINGDOM",
+  "name": "Reino de Serbia",
+  "qid": "Q241748",
+  "aliases": [
+    "Reino de Serbia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SERBIA-KINGDOM"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q319597",
+      "name": "Esteban Uroš II Milutin",
+      "role": "Rey de Serbia",
+      "start": "1300-01-01",
+      "end": "1321-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Stefan_Milutin",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1300-0.23",
+      "portrait": {
+        "file": "media/portrait-64544af8b2dd63828a7c.jpg",
+        "title": "Ljevis31.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ljevis31.jpg",
+        "artist": "Unknown Serbian painter",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ljevis31.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "From www.srbija.gov.rs, this picture",
+        "sha256": "1082cf0bdf97fc9c1a5fac4f1a7cd569a9f4b9ead286b288f22bd08957ae0be8",
+        "bytes": 66482,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Ljevis31.jpg/330px-Ljevis31.jpg"
+      }
+    },
+    {
+      "person": "Q314346",
+      "name": "Esteban Uroš III Dečanski",
+      "role": "Rey de Serbia",
+      "start": "1322-01-01",
+      "end": "1331-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Stefan_De%C4%8Danski",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1300-0.23",
+      "portrait": {
+        "file": "media/portrait-22eae329de0a62feb0ba.jpg",
+        "title": "Stefan Decanski ktitor.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Stefan_Decanski_ktitor.jpg",
+        "artist": "Unknown Serbian painter",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stefan_Decanski_ktitor.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://www.srpskoblago.org/Archives/Decani/exhibits/Frescoes/UndertheDome/web/CX4K2935.jpg",
+        "sha256": "f0ffa2f5e45b983635fdb7073d2b8efe9dcba3587fcfd3134e05202382d70eef",
+        "bytes": 71974,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Stefan_Decanski_ktitor.jpg/330px-Stefan_Decanski_ktitor.jpg"
+      }
+    },
+    {
+      "person": "Q207303",
+      "name": "Esteban Dušan",
+      "role": "Rey de Serbia",
+      "start": "1331-09-08",
+      "end": "1346-04-15",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Stefan_Du%C5%A1an",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1300-0.23",
+      "portrait": {
+        "file": "media/portrait-9e6b165cd0dfb1cdd81d.jpg",
+        "title": "Car Dušan, Manastir Lesnovo, XIV vek.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Car_Du%C5%A1an,_Manastir_Lesnovo,_XIV_vek.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Car_Du%C5%A1an,_Manastir_Lesnovo,_XIV_vek.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "From this page, this image.",
+        "sha256": "a17a0a7486d6f523d77c5444d593ed2d40d7333b484aac42d497cd3b783a544d",
+        "bytes": 56018,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Car_Du%C5%A1an%2C_Manastir_Lesnovo%2C_XIV_vek.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

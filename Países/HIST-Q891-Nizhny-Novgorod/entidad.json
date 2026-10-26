@@ -1,0 +1,125 @@
+{
+  "key": "HIST-Q891",
+  "name": "Nizhny Novgorod",
+  "qid": "Q891",
+  "aliases": [
+    "Nizhny Novgorod"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q891"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q141505515",
+      "role": "Jefatura del Gobierno",
+      "start": "1300-01-01",
+      "end": "1312-12-31",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q141505515",
+      "sourceStatement": "Q141505515-bc43412e-4aa9-ef56-c2d9-de97bffb0cf3",
+      "office": "Q30185",
+      "acquisition": "historical-0.23",
+      "endIsUpperBound": true,
+      "note": "La fuente no fecha el cese. Se limita, como máximo, al inicio del siguiente titular documentado del mismo cargo; puede existir un intervalo sin documentar.",
+      "name": "Q141505515",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "0594-01-01"
+    },
+    {
+      "person": "Q132800627",
+      "role": "Jefatura del Gobierno",
+      "start": "1313-01-01",
+      "end": "1372-12-31",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q132800627",
+      "sourceStatement": "Q132800627-798bdf1a-4b03-c859-9cea-370dbcb2974a",
+      "office": "Q30185",
+      "acquisition": "historical-0.23",
+      "endIsUpperBound": true,
+      "note": "La fuente no fecha el cese. Se limita, como máximo, al inicio del siguiente titular documentado del mismo cargo; puede existir un intervalo sin documentar.",
+      "name": "Wigel Frosch"
+    },
+    {
+      "person": "Q1599064",
+      "role": "Jefatura del Gobierno",
+      "start": "1373-01-01",
+      "end": "1373-12-31",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q1599064",
+      "sourceStatement": "Q1599064-6790CE8D-2976-402C-9893-C0FE6A7E498D",
+      "office": "Q30185",
+      "acquisition": "historical-0.23",
+      "endIsUpperBound": true,
+      "note": "La fuente no fecha el cese. Se limita, como máximo, al inicio del siguiente titular documentado del mismo cargo; puede existir un intervalo sin documentar.",
+      "name": "Heinrich Toppler"
+    },
+    {
+      "person": "Q96082325",
+      "role": "Jefatura del Gobierno",
+      "start": "1374-01-01",
+      "end": "1377-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q96082325",
+      "sourceStatement": "Q96082325-4B422827-64AD-4FD5-B74C-303638111EFF",
+      "office": "Q30185",
+      "acquisition": "historical-0.23",
+      "name": "Claus von Rinckenberg"
+    },
+    {
+      "person": "Q81729925",
+      "role": "Jefatura del Gobierno",
+      "start": "1392-01-01",
+      "end": "1392-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q81729925",
+      "sourceStatement": "Q81729925-70df2e9e-4be4-c467-64de-af65d6cf3a51",
+      "office": "Q30185",
+      "acquisition": "historical-0.23",
+      "name": "Lorenz Busmann",
+      "portrait": {
+        "file": "media/portrait-4ad12ceef687e0e766b5.jpg",
+        "title": "Konsolbüsten Sophienkirche Dresden Lorenz Busmann.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Konsolb%C3%BCsten_Sophienkirche_Dresden_Lorenz_Busmann.jpg",
+        "artist": "Paulae",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "84ffc6f0b198486aebc5be0788eeffbdbc9967e6ed477dc1f4aed9d1624737d2",
+        "bytes": 33084,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Konsolb%C3%BCsten_Sophienkirche_Dresden_Lorenz_Busmann.jpg/330px-Konsolb%C3%BCsten_Sophienkirche_Dresden_Lorenz_Busmann.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-5977",
+      "start": 1300,
+      "end": 1384,
+      "name": "Nizhny Novgorod",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6681",
+      "start": 1385,
+      "end": 1394,
+      "name": "Nizhny Novgorod",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

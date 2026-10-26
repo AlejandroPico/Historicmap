@@ -1,6 +1,32 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.22.0 · ampliación hasta 1400
+## Encargo vigente · 0.23.0 · ampliación hasta 1300
+
+Continuar con 1300–1399, conservando datos y funciones posteriores. Autoridades, símbolos y contexto fechados; auditar huecos. Comprobar localmente y subir sin esperar Actions/Pages.
+
+- [x] Geometría e identidades anuales: 774 intervalos originales y 70 reglas; diez geografías previas idénticas.
+- [x] 241 intervalos de cargos seleccionados, 154 de adquisición regional y 192 retratos adicionales. 11 ventanas de símbolos, tres archivos nuevos y nueve casos pendientes/no adoptados.
+- [x] 34 registros institucionales, 35 sedes/cortes, 16 contextos y siete puntos regionales de conflictos. Ming y Goryeo seleccionables por sede sin inventar contornos ausentes.
+- [x] Auditoría nominal de los cien años y conservación de todos los hechos previos de mandatos y símbolos. Alias de artículos resueltos antes de verificar identidades humanas.
+- [x] 198 pruebas/47 archivos correctos, con repeticiones focales; tipos y compilación correctos. Dos recorridos de navegador en 2D/globo móvil correctos y capturas revisadas con retratos cargados y cámara en reposo.
+- [x] Integridad SHA-256 de 71 datos, 11 franjas tipográficas y 7.237 medios. Límites de cobertura de los mandatos nuevos diferenciados de fechas documentadas de acceso o cese.
+- [x] 7.319 recursos de datos, tipografías y medios comprobados byte a byte en Git. Entrega 0.23.0 preparada para origin/main; confirmar coincidencia del envío al cerrar, sin esperar Actions/Pages.
+
+Auditoría: [REVIEW-1300-1399.json](docs/REVIEW-1300-1399.json), 14.747 entidades/año, 10.961 casos sin autoridad, 13.984 sin símbolo y 65 personas/órganos sin retrato entre los registros activos. Sedes adicionales contadas aparte. No equivale a un censo mundial exhaustivo. Fuentes y preparación: [RESEARCH-1300.md](docs/RESEARCH-1300.md).
+
+### Pendientes explícitos del siglo XIV
+
+- [ ] Completar los inventarios nominales de autoridades, símbolos y retratos; regencias, poderes locales, ramas germanas y obediencias pontificias rivales todavía parciales.
+- [ ] Acreditar los nueve casos de símbolos pendientes/no adoptados; no quitar avisos para forzar una bandera.
+- [ ] Obtener contornos regionales y frentes propios. Fuente Yuan prolongada hasta 1374, Goryeo sin contorno separado antes de 1363 y etiqueta Kenmu prolongada hasta 1343: sedes y resolución de identidad no corrigen por sí solas toda la geografía.
+- [ ] Completar variantes cronológicas de retratos, regencias, sedes itinerantes y fuentes divergentes de fechas; no tratar un retrato de época como imagen exacta de cada edad.
+- [ ] Resolver agregados dinásticos, mayas, nórdicos y arqueológicos; no convertirlos en un país de un solo gobernante ni interpretar el nombre Aztec Regional System como imperio mexica.
+- [ ] Continuar hacia 1200 sólo por nuevo encargo; no presentar las instantáneas anteriores a 1300 como revisión anual completada.
+- [ ] Publicación remota pendiente del aviso del propietario; no esperar ni sondear Actions/Pages.
+
+Los pendientes anteriores continúan abiertos.
+
+## Entrega anterior · 0.22.0 · ampliación hasta 1400
 
 Continuar con1400–1499, conservando los datos posteriores. Autoridades y símbolos fechados, formas políticas, sedes y contexto; auditar carencias. Comprobar localmente y subir sin esperar Actions/Pages.
 

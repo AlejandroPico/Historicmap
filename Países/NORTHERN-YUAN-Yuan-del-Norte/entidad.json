@@ -1,0 +1,54 @@
+{
+  "key": "NORTHERN-YUAN",
+  "name": "Yuan del Norte",
+  "qid": "Q8959",
+  "aliases": [
+    "Yuan del Norte"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NORTHERN-YUAN"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q8666",
+      "name": "Huizong",
+      "role": "Emperador Yuan · poder norteño",
+      "start": "1368-09-10",
+      "end": "1370-05-23",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Toghon_Tem%C3%BCr",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente.Imperio Yuan en China; el título de gran khan no demuestra gobierno administrativo uniforme de todos los poderes mongoles. La sucesión norteña posterior a1368 tiene ficha propia.No se le atribuye por este título el gobierno de China Ming. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1300-0.23",
+      "portrait": {
+        "file": "media/portrait-6043312667bf97990b91.png",
+        "title": "Toghon Temur.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Toghon_Temur.png",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Toghon_Temur.png#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://realrareantiques.com/yuan-dynasty-emperors/toghon-temur/",
+        "sha256": "baa19d2eed5b8870fe455ae2924d3d9e662ee52a1614b0865ff5b6216626ed81",
+        "bytes": 214307,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Toghon_Temur.png/330px-Toghon_Temur.png"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

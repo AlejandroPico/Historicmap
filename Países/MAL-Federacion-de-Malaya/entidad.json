@@ -3,7 +3,8 @@
   "name": "Federación de Malaya",
   "qid": "Q1479726",
   "aliases": [
-    "Federación de Malaya"
+    "Federación de Malaya",
+    "Malaya"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -153,7 +154,32 @@
     }
   ],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-5976",
+      "start": 1300,
+      "end": 1304,
+      "name": "Malaya",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6074",
+      "start": 1305,
+      "end": 1343,
+      "name": "Malaya",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6394",
+      "start": 1344,
+      "end": 1351,
+      "name": "Malaya",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
   "relatedData": [
     "../../public/data/country-history.json",
     "../../public/data/historical-context.json",

@@ -1,24 +1,27 @@
 {
-  "key": "territorio-c1288ab4787b",
-  "name": "White Horde",
-  "qid": "",
+  "key": "HIST-Q700117",
+  "name": "Duchy of Racibórz",
+  "qid": "Q700117",
   "aliases": [
-    "White Horde"
+    "Duchy of Racibórz"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
-  "sourceIdentity": null,
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q700117"
+  },
   "flags": [],
   "leaders": [],
   "portraitVariants": [],
   "territorialRecords": [
     {
-      "file": "world_1492.geojson",
-      "recordId": 1926,
-      "start": null,
-      "end": null,
-      "name": "White Horde",
-      "status": null
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6007",
+      "start": 1300,
+      "end": 1304,
+      "name": "Duchy of Racibórz",
+      "status": "Entidad histórica · reconstrucción anual"
     }
   ],
   "relatedData": [

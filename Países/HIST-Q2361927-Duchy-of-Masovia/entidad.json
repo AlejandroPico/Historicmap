@@ -1,0 +1,66 @@
+{
+  "key": "HIST-Q2361927",
+  "name": "Duchy of Masovia",
+  "qid": "Q2361927",
+  "aliases": [
+    "Duchy of Masovia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2361927"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-5883",
+      "start": 1300,
+      "end": 1304,
+      "name": "Duchy of Masovia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6095",
+      "start": 1305,
+      "end": 1325,
+      "name": "Duchy of Masovia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6195",
+      "start": 1326,
+      "end": 1332,
+      "name": "Duchy of Masovia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6284",
+      "start": 1333,
+      "end": 1343,
+      "name": "Duchy of Masovia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6371",
+      "start": 1344,
+      "end": 1351,
+      "name": "Duchy of Masovia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

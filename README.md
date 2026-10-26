@@ -2,13 +2,13 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.13.0** · 25 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.23.0** · 26 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
-Ampliación vigente: **1880–1899**, correcciones de retratos y selección histórica de Groenlandia. Fuentes, alcance y huecos concretos en [investigación de 1880](docs/RESEARCH-1880.md); continuidad en [tareas.md](tareas.md).
+Ampliación vigente: **1300–1399**, con autoridades, retratos, símbolos, instituciones y contexto fechados. Fuentes, alcance y huecos concretos en [investigación de 1300](docs/RESEARCH-1300.md) y [auditoría anual](docs/REVIEW-1300-1399.json); continuidad en [tareas.md](tareas.md).
 
 ## Empezar
 
@@ -27,7 +27,7 @@ Abrir la dirección local que indique Vite. Para generar la aplicación estátic
 - Regla temporal arrastrable con indicador, fecha y reproducción centrados. La rueda sobre la regla cambia la escala sin desplazar la fecha; sobre el mapa hace zoom geográfico. Las teclas más/menos ajustan la escala y las flechas recorren el tiempo.
 - Mapa a pantalla completa con ocho herramientas en la esquina superior derecha, sin cabecera ni franjas de controles alrededor de la regla. Filtros y Capas en paneles separados.
 - Navegación entre 4.540 Ma y el año del dispositivo, con escala adaptativa no uniforme y años introducidos por el usuario.
-- Cronología anual desde 1400: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
+- Cronología anual desde 1300: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
 - Control territorial opaco por potencia; colores específicos de regímenes, clientes y bandos. Primera y Segunda Guerra Mundial, Guerra Civil española 1936–1939 y control comunista chino, además de Sinaí, Golán y Crimea. Fuentes anuales y frente de octubre de 1937 identificados con su precisión.
 - [Corrección deEuropaCentral1938–1939](docs/CENTRAL-EUROPE-1939.md): sin manchas alemanas remotas, territorio integrado y Estado eslovaco cliente separado. El contorno eslovaco es una referencia recortada, no un levantamiento exacto de1939.
 - Banderas históricas, autoridades y retratos en las fichas. Catálogo ampliado de mandatos desde1880, con Estados predecesores, administraciones coloniales y cobertura mundial desigual; cada imagen conserva su licencia y autoría. [Alcance y fuentes1900–1919](docs/RESEARCH-1900.md) y [auditoría nominal de carencias](docs/REVIEW-1900-1919.json).
@@ -88,3 +88,5 @@ Actualización0.18.0: revisión de símbolos y soberanos, clasificación políti
 Actualización0.19.0: navegación anual hasta1700, símbolos y soberanos fechados, sedes de Estados germanos agrupados y nuevo panel deFiltros con opciones vacías ocultas. [Fuentes, cobertura y carencias](docs/RESEARCH-1700.md).
 
 Actualización 0.22.0: navegación anual hasta 1400, autoridades y símbolos fechados, poderes bizantinos, sucesiones inglesas, interregno otomano y coronas separadas. [Fuentes y pendientes](docs/RESEARCH-1400.md).
+
+Actualización 0.23.0: navegación anual hasta 1300, autoridades y símbolos fechados, sucesiones Yuan/Ming y Goryeo/Joseon, poderes mongoles y cortes japonesas. Sedes seleccionables donde faltan contornos propios y desfases de fuente identificados sin inventar fronteras. [Fuentes y pendientes](docs/RESEARCH-1300.md).

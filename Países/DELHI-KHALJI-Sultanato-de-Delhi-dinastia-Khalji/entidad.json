@@ -1,0 +1,94 @@
+{
+  "key": "DELHI-KHALJI",
+  "name": "Sultanato de Delhi · dinastía Khalji",
+  "qid": "Q919071",
+  "aliases": [
+    "Khalji Dynasty",
+    "Sultanato de Delhi · dinastía Khalji"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "DELHI-KHALJI"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q335362",
+      "name": "Alaudín",
+      "role": "Sultán de Delhi",
+      "start": "1300-01-01",
+      "end": "1316-01-04",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Alauddin_Khalji",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1300-0.23",
+      "portrait": {
+        "file": "media/portrait-6ff28460b8477be09ec7.jpg",
+        "title": "Portrait of Sultan 'Ala-ud-Din, Padshah of Delhi.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sultan_%27Ala-ud-Din,_Padshah_of_Delhi.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sultan_%27Ala-ud-Din,_Padshah_of_Delhi.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://www.metmuseum.org/Collections/search-the-collections/445976?rpp=60&pg=27&ao=on&ft=india&pos=1612",
+        "sha256": "751b5d3509f42a82fcbdb3c2abcabf3f7afc9622f8c973d60f77b02cca0c0cfa",
+        "bytes": 62968,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Portrait_of_Sultan_%27Ala-ud-Din%2C_Padshah_of_Delhi.jpg/330px-Portrait_of_Sultan_%27Ala-ud-Din%2C_Padshah_of_Delhi.jpg"
+      }
+    },
+    {
+      "person": "Q3179907",
+      "name": "Qutb ud din Mubarak Shah",
+      "role": "Sultán de Delhi",
+      "start": "1316-04-14",
+      "end": "1320-07-09",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qutbuddin_Mubarak_Shah",
+      "curated": true,
+      "note": "El título no acredita control uniforme de toda la geometría de fuente. Observación anual; calendario histórico y control territorial no acreditados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1300-0.23"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-5992",
+      "start": 1300,
+      "end": 1304,
+      "name": "Khalji Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6066",
+      "start": 1305,
+      "end": 1313,
+      "name": "Khalji Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1300.geojson",
+      "recordId": "clio-6173",
+      "start": 1314,
+      "end": 1325,
+      "name": "Khalji Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

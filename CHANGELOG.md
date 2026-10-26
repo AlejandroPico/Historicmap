@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.23.0 · 26/10/2026
+
+- Navegación anual hasta 1300: 774 intervalos adicionales y 70 reglas fechadas; coordenadas originales y cartografía posterior conservadas.
+- 241 intervalos de cargos revisados, 154 de adquisición regional y 192 retratos. Reinados interrumpidos, coronas separadas, regencias y cortes rivales diferenciados.
+- 11 ventanas de símbolos y tres archivos nuevos: armas francesas antiguas, enseña castellana temprana y águila imperial monocéfala, con límites documentales explícitos.
+- 34 registros institucionales, 35 sedes/cortes y 16 contextos con siete puntos regionales de conflictos. Ming y Goryeo disponen de sedes seleccionables cuando falta contorno propio; el agregado Yuan posterior a 1368 no se asigna entero al Yuan del Norte.
+- Resolución explícita de alias de artículos para recuperar autoridades verificadas. Auditoría y carencias en [RESEARCH-1300.md](docs/RESEARCH-1300.md).
+
 ## 0.22.0 · 26/10/2026
 
 - Navegación anual hasta 1400: 880 intervalos adicionales y 60 reglas fechadas de identidad, con coordenadas originales y cartografía posterior conservadas.
