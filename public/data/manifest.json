@@ -178,11 +178,11 @@
       "license": "CC0 factual coordinate/date references and editorial compilation",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/REVIEW-0.18.md",
       "source": "Per-record dated documentary sources",
-      "version": "Historicmap0.19.0; reference2026-10-26",
+      "version": "Historicmap0.20.0; reference2026-10-26",
       "transform": "Battle sites and explicitly labelled regional conflict references; approximate point anchors, never occupation polygons or reconstructed fronts.",
-      "features": 38,
-      "bytes": 24255,
-      "sha256": "f3ca4e6024bb70b9880ab2160c8ecd31ef33ce3ed6064634d2c3ae733baf0c63"
+      "features": 45,
+      "bytes": 29160,
+      "sha256": "96668566e3f9b800f3ae0b95b6258968c1634e4c6285235be44714bda09fbc2e"
     },
     {
       "file": "countries.geojson",
@@ -197,15 +197,15 @@
     },
     {
       "file": "country-history.json",
-      "bytes": 184528,
-      "sha256": "c32c445ca1fdb9796cdc2c4d71224969bfe567025e1b9779b2773ba9c3fafc38",
-      "version": "Historicmap0.19.0; reference2026-10-26",
+      "bytes": 194678,
+      "sha256": "5cea649d26f1990d148070ef1482dd05825de8f1e1348f806fe6140c706d39ab",
+      "version": "Historicmap0.20.0; reference2026-10-26",
       "format": "country-workspace-history",
       "url": "https://www.un.org/en/about-us/member-states",
       "source": "Official institutional histories, constitutional records and state succession references, linked per record",
       "license": "Original editorial summaries and factual metadata; sources linked individually",
       "transform": "Twelve dated records and three fully named French regime-transition links. Earlier observations retained, coverage extended to1800.",
-      "records": 190,
+      "records": 205,
       "relations": 108
     },
     {
@@ -221,6 +221,19 @@
       "indicators": 22,
       "countries": 217,
       "records": 175996
+    },
+    {
+      "source": "Cliopatria · Seshat Global History Databank",
+      "version": "Historicmap0.20.0; reference2026-10-26",
+      "url": "https://raw.githubusercontent.com/Seshat-Global-History-Databank/cliopatria/5f433377139a6eeaeacbdc894b70f8805b72c8b5/cliopatria.geojson.zip",
+      "sourceSha256": "e10a4e429fca708788ff9e7572a95fce801fae55852d217cffabc1c59cd4eed4",
+      "license": "CC-BY-4.0",
+      "file": "early-modern-1600.geojson",
+      "features": 783,
+      "bytes": 8210420,
+      "sha256": "e10756c3e1ecaf8f7af54a110a6df6c3450565cf0cd60ca1a752aea484394022",
+      "coverage": "1600/1699",
+      "transform": "Select leaf intervals intersecting1600–1699 from pinned Cliopatria; original coordinate arrays and source-index IDs preserved. Annual synthesis without uniform day. Existing1700+ geometry files untouched."
     },
     {
       "source": "Cliopatria · Seshat Global History Databank",
@@ -254,12 +267,26 @@
       "license": "CC0 factual metadata and editorial taxonomy",
       "url": "https://www.wikidata.org/",
       "source": "Per-record dated documentary sources",
-      "version": "Historicmap0.19.0; reference2026-10-26",
+      "version": "Historicmap0.20.0; reference2026-10-26",
       "transform": "Dated P122/P31 claims, broad historical forms bounded by entity lifetime, reviewed constitutional phases; unknown retained explicitly. Institutional form is distinct from regime assessment.",
-      "records": 538,
+      "records": 575,
       "categories": 62,
-      "bytes": 173765,
-      "sha256": "fa391f1524f2c2ad6486ae8c8c9f532573af23732e9e7be3fcc877b431f9d7dd"
+      "bytes": 186737,
+      "sha256": "f535efca1e9606638139fbd75713b545871cb4018d21d77777fafac42fdace80"
+    },
+    {
+      "file": "historical-1600-entities.json",
+      "format": "dated-entity-resolution",
+      "source": "Date-scoped identity and administration rules over original Cliopatria geometry",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1600.md",
+      "license": "CC0 factual metadata and editorial compilation",
+      "coverageStart": 1600,
+      "coverageEnd": 1699,
+      "sha256": "8d50fafbf72039529884135457bb0255ea3184ae16e766b0823a4e88bff14704",
+      "bytes": 58892,
+      "version": "Historicmap0.20.0; reference2026-10-26",
+      "records": 67,
+      "transform": "Canonical date-scoped identities1600–1699, dynastic unions, Ming/Qing and interregnum, with source defects disclosed; original coordinate arrays unchanged."
     },
     {
       "file": "historical-1700-entities.json",
@@ -373,16 +400,15 @@
     },
     {
       "file": "historical-context.json",
-      "bytes": 310752,
-      "sha256": "2f7bcd4ef99fc4947b8160126c1ce6f992ad30f8d1f7f07e68b9b8b8296fe2ef",
-      "version": "Historicmap0.19.0; reference2026-10-26",
+      "bytes": 320923,
+      "sha256": "7b3e02a7403e64b1074d14640f5a85d9368bb9f54da9d2d8423b4864b60652d7",
+      "version": "Historicmap0.20.0; reference2026-10-26",
       "format": "dated-historical-context",
       "source": "United Nations, institutional and government historical records",
       "url": "https://www.un.org/en/about-us/history-of-the-un",
       "license": "Original editorial summaries; institutional sources linked per event",
       "transform": "Twelve documentary phases1800–1819 appended idempotently; annual precision and coverage boundaries preserved. No geometric fronts inferred from texts.",
-      "records": 475,
-      "events": 475
+      "records": 490
     },
     {
       "file": "historical-control.geojson",
@@ -403,11 +429,11 @@
       "license": "CC0 factual coordinate/date references and editorial compilation",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/REVIEW-0.18.md",
       "source": "Per-record dated documentary sources",
-      "version": "Historicmap0.19.0; reference2026-10-26",
+      "version": "Historicmap0.20.0; reference2026-10-26",
       "transform": "Dated capitals, courts, regional colonial seats and selected cities, matched only to active identities; no historical population or city footprint inferred.",
-      "records": 100,
-      "bytes": 42309,
-      "sha256": "9133049d60c6c8a000e03d9446252e3cad5ac3ae7a2ab798ab81209dc71e6e6d"
+      "records": 130,
+      "bytes": 55436,
+      "sha256": "ac3b9d560daa99b831dad697ee046a0197e3e4c4c6493f6dda85efb820626ea0"
     },
     {
       "file": "historical-supplements.geojson",
@@ -436,16 +462,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 13611317,
-      "sha256": "275bc662503f67052eb2d7ec24b329259afde91ba359eba2b32c188d2a54d983",
+      "bytes": 13964680,
+      "sha256": "718edd9a0760057459d54ebcb05b688f22f19f6e5a4a969460a0b3732a6462a3",
       "format": "dated-political-identities",
-      "countries": 629,
-      "records": 13881,
+      "countries": 672,
+      "records": 14213,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap0.19.0; reference2026-10-26",
+      "version": "Historicmap0.20.0; reference2026-10-26",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "1700–1799 acquisition, reviewed sovereign titles and calendar-precision corrections; dated representative symbols with explicit type. Previous mandate facts conserved; images filled separately, unidentifiable Sunjo fragment excluded with museum source. Not a complete office census."
+      "transform": "Isolated1600–1699 acquisition and reviewed sovereign titles, rival claims, regencies and calendars. Dated symbols distinguish ensigns, seals and dynastic devices; earlier mandate facts and symbol windows conserved. Not a complete world census."
     },
     {
       "file": "pacific-components.json",

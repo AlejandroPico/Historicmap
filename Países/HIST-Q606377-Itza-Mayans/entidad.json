@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q606377",
+  "name": "Itza Mayans",
+  "qid": "Q606377",
+  "aliases": [
+    "Itza Mayans"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q606377"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8291",
+      "start": 1600,
+      "end": 1669,
+      "name": "Itza Mayans",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-9120",
+      "start": 1670,
+      "end": 1695,
+      "name": "Itza Mayans",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-9350",
+      "start": 1696,
+      "end": 1699,
+      "name": "Itza Mayans",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

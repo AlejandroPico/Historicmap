@@ -1,0 +1,67 @@
+{
+  "key": "HIST-Q216786",
+  "name": "Chámpa",
+  "qid": "Q216786",
+  "aliases": [
+    "Champa",
+    "Chámpa"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q216786"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8051",
+      "start": 1600,
+      "end": 1647,
+      "name": "Chámpa",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8964",
+      "start": 1648,
+      "end": 1652,
+      "name": "Chámpa",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 28,
+      "start": null,
+      "end": null,
+      "name": "Champa",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 65,
+      "start": null,
+      "end": null,
+      "name": "Champa",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 24,
+      "start": null,
+      "end": null,
+      "name": "Champa",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

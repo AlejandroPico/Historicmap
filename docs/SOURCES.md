@@ -171,3 +171,7 @@ Autoridades y símbolos revisados con fuentes por intervalo. Taxonomía instituc
 ## Ampliación1700–1799 ·0.19
 
 853 intervalos Cliopatria adicionales con los mismos identificadores y coordenadas de origen, sin sustituir los archivos anteriores.275 intervalos de cargos revisados,39 ventanas de símbolos con tipo explícito y referencias seleccionables de sedes germanas agrupadas. Las enseñas institucionales Qing, el mon Tokugawa y los sellos Joseon no se presentan como banderas nacionales modernas. Los diseños posteriores y ficticios se rechazan. [Investigación y licencias individuales](RESEARCH-1700.md), [auditoría anual y huecos nominales](REVIEW-1700-1799.json). La evaluación política V-Dem conserva su cobertura1789–2025.
+
+## Ampliación 1600–1699 ·0.20
+
+783 intervalos componentes de la misma revisión fijada de Cliopatria, CCBY4.0, sin modificar coordenadas ni archivos posteriores. 196 intervalos de autoridades revisados y 31 ventanas de símbolos con licencia individual. Calendarios y regencias explícitos; los diseños modernos o sin testimonio histórico no se convierten en banderas nacionales antiguas. [Investigación, preparación y límites](RESEARCH-1600.md); [auditoría anual](REVIEW-1600-1699.json). Los puntos regionales de conflictos no son geometrías de control militar.

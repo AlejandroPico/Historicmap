@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q669317",
+  "name": "Bidar Sultanate",
+  "qid": "Q669317",
+  "aliases": [
+    "Bidar Sultanate"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q669317"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8364",
+      "start": 1600,
+      "end": 1611,
+      "name": "Bidar Sultanate",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8600",
+      "start": 1612,
+      "end": 1618,
+      "name": "Bidar Sultanate",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q2077648",
+  "name": "Sultanate of Cirebon",
+  "qid": "Q2077648",
+  "aliases": [
+    "Sultanate of Cirebon"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2077648"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8352",
+      "start": 1600,
+      "end": 1618,
+      "name": "Sultanate of Cirebon",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8646",
+      "start": 1619,
+      "end": 1672,
+      "name": "Sultanate of Cirebon",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-9148",
+      "start": 1673,
+      "end": 1676,
+      "name": "Sultanate of Cirebon",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.19.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.20.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de0.19 en la sección31; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.20 en la sección 32; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente0.19 (26/10/2026):** ampliar hasta1700, priorizar autoridades y símbolos germanos/asiáticos y separar filtros deCapas mediante un embudo. Ocultar categorías sin entidades en el año; conservar filtros activos con aviso si quedan vacíos. Esta petición sustituye el límite de1800 de la entrega anterior; no declara cerrados los huecos mundiales. Verificar localmente y subir sin esperarActions/Pages; detalle en sección31 y tareas.md.
+**Encargo vigente 0.20 (26/10/2026):** ampliar hasta 1600, manteniendo fichas y filtros, con autoridades, símbolos y contexto fechados. Esta petición amplía la franja anterior sin cerrar sus carencias. Verificar localmente y subir sin esperar Actions/Pages; detalle en sección 32 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -734,3 +734,22 @@ El propietario solicita ampliar cien años y priorizar Estados germanos y símbo
 Un solo escritor deidentidades/medios; preparadores y candidatos congelados descritos enRESEARCH-1700. RegenerarPaíses después de todas las escrituras. La compilación no consulta proveedores históricos. Mantener comprobaciones locales, registrar resultados y subir; terminar al confirmar el envío sin esperar ni sondearActions/Pages. El propietario verifica la publicación.
 
 Cierre local0.19:182 pruebas/43 archivos, tipos y compilación correctos; cuatro recorridos de navegador y una repetición focal final correctos.63 datos,11 franjas y6.540 medios íntegros;6.614 recursos preparados enGit comprobados byte a byte. La publicación no se ha comprobado. Confirmar el resultado del envío al cerrar el turno y conservar los pendientes nominales.
+
+
+## 32. Ampliación 1600–1699 ·0.20.0
+
+El propietario pide continuar hasta 1600. La navegación anual comienza en ese año; no se presenta el nuevo siglo como una revisión mundial exhaustiva. Ver [RESEARCH-1600.md](docs/RESEARCH-1600.md) y [REVIEW-1600-1699.json](docs/REVIEW-1600-1699.json). Los pendientes de 0.19 y anteriores continúan abiertos.
+
+- 783 intervalos Cliopatria adicionales, con coordenadas e índices originales. Archivo separado y 67 reglas de identidad. Ming/Ming del Sur/Jin/Qing/Shun, Commonwealth/Restauración, unión ibérica, fases bávaras, Brandeburgo y administraciones distinguidos. Ninguna geometría anterior se reconstruye.
+- 196 intervalos de oficios revisados, además de adquisición regional, y 143 retratos. Mantener títulos, regencias, minorías, reinados no consecutivos y precisión. La realeza escocesa de Carlos II no implica gobierno efectivo inglés durante todo el interregno. Los títulos portugueses de los Felipes tienen numeración propia. No convertir a Cromwell en rey ni a un estatúder en monarca nacional.
+- Se rechazan Q1463281 y Q2364427, desambiguaciones homónimas; las personas verificadas son Q152727 y Q172061. Li Zicheng es una persona; el régimen Shun tiene entidad Q2370784. Mogulistán oriental/occidental conservan referencias distintas frente al QID compartido de fuente, sin un khan común inventado.
+- 31 ventanas de símbolos; 6.694 medios acreditados totales. Tipos y licencias explícitos, sin retrotraer tricolor ruso de 1705, armas hessianas de 1736 o banderas nacionales Qing/Corea posteriores. La enseña Ming sin testimonio de uso y el alam mogol ficticio no se incorporan. Seis candidatos pendientes/no adoptados registrados.
+- 37 formas institucionales, 30 referencias urbanas/sedes y 15 contextos nuevos. Siete puntos regionales no son frentes. V-Dem/OWID sigue desde 1789, las organizaciones mantienen fechas propias y los agregados germanos no se convierten en límites individuales inventados.
+- La administración de respaldo de una ficha retenida se limita al intervalo numérico del registro de fuente. Una ficha de colonia posterior no adquiere retrospectivamente gobernador o soberano administrador antes de su observación. Las relaciones documentales explícitas conservan prioridad.
+- Auditoría de 11.079 entidades/año: 7.540 casos sin autoridad documentada, 8.643 sin símbolo y 58 personas/órganos sin retrato entre los registros disponibles. Las referencias de sedes agrupadas se cuentan aparte. Catálogo: 672 claves y 14.213 registros de mandatos, no fichas completas.
+
+Preparadores y candidatos congelados en scripts específicos de 1600/020. Un solo escritor de identidades/medios; regenerar Países después de todas las escrituras. La compilación no consulta proveedores históricos. Seguir tareas.md, comprobar localmente y terminar al confirmar el envío a main, sin esperar ni sondear Actions/Pages. El propietario verifica la publicación.
+
+Cierre local: 186 pruebas/44 archivos, tipos y compilación correctos; dos recorridos de navegador y repetición focal final correctos, con verificación de carga real de retrato y pabellón portugués. Todos los hechos anteriores de mandatos y símbolos se conservan, permitiendo añadir retratos; siete archivos geográficos anteriores son idénticos byte a byte. Integridad de 65 datos, 11 franjas y 6.694 medios correcta. El resultado del envío se confirma al cerrar; no se ha comprobado la publicación.
+
+Entrega preparada: 6.770 recursos de datos, tipografías y medios comprobados en los bytes de Git. Terminar tras confirmar el envío; mantener abiertos los pendientes nominales y no esperar el despliegue.

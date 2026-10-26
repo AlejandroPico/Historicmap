@@ -1,0 +1,198 @@
+{
+  "key": "MING",
+  "name": "Imperio Ming",
+  "qid": "Q9903",
+  "aliases": [
+    "Imperio Ming",
+    "Ming Dynasty"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "MING"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q10061",
+      "name": "Wanli",
+      "role": "Emperador Ming",
+      "start": "1600-01-01",
+      "end": "1620-08-18",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Wanli_Emperor",
+      "curated": true,
+      "note": "Cargo histórico fechado; las autoridades rivales y las regencias no implican control uniforme de toda la geometría anual.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1600-0.20",
+      "portrait": {
+        "file": "media/portrait-868ff36fed97e1163802.jpg",
+        "title": "明神宗.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E7%A5%9E%E5%AE%97.jpg",
+        "artist": "Ming Dynasty Imperial Painter",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E7%A5%9E%E5%AE%97.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://www.ming-yiguan.com/viewthread.php?tid=10849&extra=page%3D1",
+        "sha256": "90cd40f1d0e92eed51f6708eded7efe3aabb3040b8658a17015aefd713199b30",
+        "bytes": 35953,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/%E6%98%8E%E7%A5%9E%E5%AE%97.jpg/330px-%E6%98%8E%E7%A5%9E%E5%AE%97.jpg"
+      }
+    },
+    {
+      "person": "Q10065",
+      "name": "Taichang",
+      "role": "Emperador Ming",
+      "start": "1620-08-28",
+      "end": "1620-09-26",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Taichang_Emperor",
+      "curated": true,
+      "note": "Cargo histórico fechado; las autoridades rivales y las regencias no implican control uniforme de toda la geometría anual.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1600-0.20",
+      "portrait": {
+        "file": "media/portrait-3e1d7b2ccd1b4022d189.jpg",
+        "title": "明光宗.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E5%85%89%E5%AE%97.jpg",
+        "artist": "\nMing Dynasty Palace Painter",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E5%85%89%E5%AE%97.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://www.ming-yiguan.com/viewthread.php?tid=10849&extra=page%3D1",
+        "sha256": "da77186bdd609880bdee2357aac667b5890e362b8d13e265a0443395c7f22e76",
+        "bytes": 238814,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/%E6%98%8E%E5%85%89%E5%AE%97.jpg"
+      }
+    },
+    {
+      "person": "Q10066",
+      "name": "Tianqi",
+      "role": "Emperador Ming",
+      "start": "1620-10-01",
+      "end": "1627-09-30",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Tianqi_Emperor",
+      "curated": true,
+      "note": "Cargo histórico fechado; las autoridades rivales y las regencias no implican control uniforme de toda la geometría anual.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1600-0.20",
+      "portrait": {
+        "file": "media/portrait-bcd3114f070e074b0f57.jpg",
+        "title": "明熹宗像.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E7%86%B9%E5%AE%97%E5%83%8F.jpg",
+        "artist": "明朝画师",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E7%86%B9%E5%AE%97%E5%83%8F.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "国立故宫博物院 (?)",
+        "sha256": "bab994f93bfc24e616bfaea262ca1cb9f71f957e669fc79543766f064689fb58",
+        "bytes": 34802,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/%E6%98%8E%E7%86%B9%E5%AE%97%E5%83%8F.jpg"
+      }
+    },
+    {
+      "person": "Q10069",
+      "name": "Chongzhen",
+      "role": "Emperador Ming",
+      "start": "1627-10-02",
+      "end": "1644-04-25",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Chongzhen_Emperor",
+      "curated": true,
+      "note": "Cargo histórico fechado; las autoridades rivales y las regencias no implican control uniforme de toda la geometría anual.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1600-0.20"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8531",
+      "start": 1600,
+      "end": 1618,
+      "name": "Ming Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8650",
+      "start": 1619,
+      "end": 1621,
+      "name": "Ming Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8673",
+      "start": 1622,
+      "end": 1625,
+      "name": "Ming Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8716",
+      "start": 1626,
+      "end": 1628,
+      "name": "Ming Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8722",
+      "start": 1629,
+      "end": 1631,
+      "name": "Ming Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8776",
+      "start": 1632,
+      "end": 1635,
+      "name": "Ming Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8803",
+      "start": 1636,
+      "end": 1639,
+      "name": "Ming Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8839",
+      "start": 1640,
+      "end": 1641,
+      "name": "Ming Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8896",
+      "start": 1642,
+      "end": 1644,
+      "name": "Ming Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

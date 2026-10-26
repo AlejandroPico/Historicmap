@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.20.0 · 26/10/2026
+
+- Navegación anual hasta 1600: 783 intervalos adicionales, coordenadas intactas y 67 reglas de identidad fechadas; los archivos geográficos anteriores se conservan.
+- 196 intervalos de cargos revisados, adquisición regional y 143 retratos. Títulos, regencias, coronas compartidas y autoridades rivales diferenciados.
+- 31 ventanas de símbolos documentados. Commonwealth, Portugal y enseñas dinásticas/imperiales fechadas; no se retrotraen banderas posteriores ni diseños ficticios.
+- 37 registros institucionales, 30 referencias de sedes y 15 contextos nuevos, con siete puntos regionales de conflictos. Se conserva la separación entre puntos y frentes.
+- Fichas coloniales sin extrapolación automática de administradores fuera del intervalo de fuente. Auditoría anual y carencias documentadas en [RESEARCH-1600.md](docs/RESEARCH-1600.md).
+
+
 ## 0.19.0 · 26/10/2026
 
 - Cronología anual hasta1700,853 intervalos adicionales con coordenadas originales y58 reglas de identidad fechadas. Los archivos geográficos anteriores se conservan.

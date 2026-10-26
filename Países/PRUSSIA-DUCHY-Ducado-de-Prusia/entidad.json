@@ -1,0 +1,43 @@
+{
+  "key": "PRUSSIA-DUCHY",
+  "name": "Ducado de Prusia",
+  "qid": "Q153091",
+  "aliases": [
+    "Ducado de Prusia",
+    "Duchy of Prussia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "PRUSSIA-DUCHY"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-7972",
+      "start": 1600,
+      "end": 1611,
+      "name": "Duchy of Prussia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8621",
+      "start": 1612,
+      "end": 1618,
+      "name": "Duchy of Prussia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

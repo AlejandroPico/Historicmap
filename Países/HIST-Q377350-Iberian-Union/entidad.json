@@ -1,0 +1,143 @@
+{
+  "key": "HIST-Q377350",
+  "name": "Iberian Union",
+  "qid": "Q377350",
+  "aliases": [
+    "Iberian Union"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q377350"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q34464",
+      "role": "Jefatura del Estado",
+      "start": "1600-01-01",
+      "end": "1621-03-31",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q377350",
+      "sourceStatement": "Q377350$4b5f5b1c-47c3-d736-45d5-d0f1f19aa29e",
+      "acquisition": "historical-0.20",
+      "name": "Felipe III de España",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1598-09-13",
+      "portrait": {
+        "file": "media/portrait-5f35789a6d02d3f69231.jpg",
+        "title": "Felipe-III-de-Espana A-Vidal.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Felipe-III-de-Espana_A-Vidal.jpg",
+        "artist": "Pedro Antonio Vidal",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Felipe-III-de-Espana_A-Vidal.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Colección, Museo del Prado.",
+        "sha256": "a782817ea3ed97f3335834e069a356346b993b097820bad465f00cf79f74caa7",
+        "bytes": 27065,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Felipe-III-de-Espana_A-Vidal.jpg/330px-Felipe-III-de-Espana_A-Vidal.jpg"
+      }
+    },
+    {
+      "person": "Q691402",
+      "role": "Jefatura del Estado",
+      "start": "1621-03-31",
+      "end": "1640-12-01",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q377350",
+      "sourceStatement": "Q377350$ffffdf2a-4ed7-cfbf-bbc7-50782dc71751",
+      "acquisition": "historical-0.20",
+      "name": "Felipe IV de España",
+      "portrait": {
+        "file": "media/portrait-811aada556ac155a89ae.jpg",
+        "title": "Philip IV of Spain.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Philip_IV_of_Spain.jpg",
+        "artist": "Diego Velázquez",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Philip_IV_of_Spain.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "National Gallery, London - online catalogue.",
+        "sha256": "4fc7cf27730613c275c9ff3a425e845736f96166894627a61a0c5bfa1866b29f",
+        "bytes": 22007,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Philip_IV_of_Spain.jpg/330px-Philip_IV_of_Spain.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8539",
+      "start": 1600,
+      "end": 1601,
+      "name": "Iberian Union",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8546",
+      "start": 1602,
+      "end": 1608,
+      "name": "Iberian Union",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8572",
+      "start": 1609,
+      "end": 1618,
+      "name": "Iberian Union",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8662",
+      "start": 1619,
+      "end": 1621,
+      "name": "Iberian Union",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8667",
+      "start": 1622,
+      "end": 1625,
+      "name": "Iberian Union",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8707",
+      "start": 1626,
+      "end": 1631,
+      "name": "Iberian Union",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8768",
+      "start": 1632,
+      "end": 1635,
+      "name": "Iberian Union",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8790",
+      "start": 1636,
+      "end": 1639,
+      "name": "Iberian Union",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

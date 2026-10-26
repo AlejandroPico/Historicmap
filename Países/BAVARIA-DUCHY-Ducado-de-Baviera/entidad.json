@@ -1,0 +1,54 @@
+{
+  "key": "BAVARIA-DUCHY",
+  "name": "Ducado de Baviera",
+  "qid": "Q47261",
+  "aliases": [
+    "Ducado de Baviera"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "BAVARIA-DUCHY"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q57206",
+      "name": "Maximiliano I",
+      "role": "Duque de Baviera",
+      "start": "1600-01-01",
+      "end": "1623-02-25",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Maximilian_I,_Elector_of_Bavaria",
+      "curated": true,
+      "note": "Dignidad ducal anterior a la elevación electoral de1623.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1600-0.20",
+      "portrait": {
+        "file": "media/portrait-109f053dccb41bd850c4.jpg",
+        "title": "Joachim von Sandrart - Maximilian I, Elector of Bavaria.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Joachim_von_Sandrart_-_Maximilian_I,_Elector_of_Bavaria.jpg",
+        "artist": "Joachim von Sandrart the Elder",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joachim_von_Sandrart_-_Maximilian_I,_Elector_of_Bavaria.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Kunsthistorisches Museum Wien, Bilddatenbank.",
+        "sha256": "fb45f589fe93e0b3f311eccc17003362638f00e51bc7059c04c37bdf6ab32054",
+        "bytes": 26886,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Joachim_von_Sandrart_-_Maximilian_I%2C_Elector_of_Bavaria.jpg/330px-Joachim_von_Sandrart_-_Maximilian_I%2C_Elector_of_Bavaria.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

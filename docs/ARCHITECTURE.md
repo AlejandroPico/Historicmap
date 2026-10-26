@@ -30,7 +30,7 @@ El buscador usa un panel no modal como las fuentes; sólo fecha y Acerca de usan
 
 Aplicación estática distribuida por CDN. El navegador mantiene fecha consultada, proyección y capas; el fragmento URL permite compartir fecha y vista. No se requiere servidor ni base de datos. Vite empaqueta TypeScript, estilos y worker de MapLibre. El worker se sirve desde el mismo origen que la aplicación.
 
-`time.ts` es la lógica temporal pura. La posición del eje recorre tramos con distintas escalas, por lo que distancias iguales en pantalla no equivalen a duraciones iguales. La selección utiliza intervalos Cliopatria1700–1885, CShapes 1886–2019, referencia contemporánea desde 2020 e instantáneas discretas antes de1700. El máximo temporal procede del reloj del dispositivo; la fecha de referencia de los datos se conserva. Un periodo sin datos no hereda fronteras contemporáneas.
+`time.ts` es la lógica temporal pura. La posición del eje recorre tramos con distintas escalas, por lo que distancias iguales en pantalla no equivalen a duraciones iguales. La selección utiliza intervalos Cliopatria1600–1885, CShapes 1886–2019, referencia contemporánea desde 2020 e instantáneas discretas antes de1600. El máximo temporal procede del reloj del dispositivo; la fecha de referencia de los datos se conserva. Un periodo sin datos no hereda fronteras contemporáneas.
 
 Desde 0.2.0 la rueda sobre la superficie de la regla sólo modifica su escala, anclada a la fecha central. El arrastre y el teclado recorren fechas. Los eventos de rueda se consumen dentro de esa superficie, mientras MapLibre conserva sus gestos sobre el mapa. Las marcas usan intervalos legibles por tramo y se generan para la ventana visible con margen; durante el arrastre se reutilizan hasta cambiar de bloque visible. El control fijo de fecha y reproducción es hermano del slider, evitando anidar botones interactivos dentro del rol ARIA de slider.
 
@@ -124,3 +124,7 @@ Las notas largas de mandatos están enContexto, conservando una plantilla común
 Filtros reúne forma/régimen, color y organizaciones, separado de Capas. Las opciones se derivan del inventario completo del año, antes de aplicar el filtro, y omiten recuentos cero. Un filtro activo sin coincidencias se conserva en el estado, con aviso externo al selector y acción de quitarlo. Los paneles conservan la fecha y accesibilidad de teclado.
 
 `historical-places.ts` incorpora sedes soberanas cuando la fuente sólo ofrece un agregado imperial. Son puntos documentales separados de los polígonos; `sovereignSeat` permite abrir una ficha de entidad, comparar fechas y persistir al navegar. Su posición no se envía como geometría territorial ni como resaltado de polígono. Búsqueda y recuentos incorporan estas referencias sin duplicar una entidad con contorno propio.
+
+## Extensión 1600–1699 ·0.20
+
+La selección anual usa un tercer archivo Cliopatria con los mismos IDs y coordenadas de origen. La resolución fechada distingue uniones dinásticas, administraciones y regímenes rivales antes de componer la pintura y el filtro. Una ficha colonial conservada no puede heredar su administrador de respaldo fuera del intervalo numérico del registro de fuente. Las relaciones documentales explícitas mantienen prioridad.

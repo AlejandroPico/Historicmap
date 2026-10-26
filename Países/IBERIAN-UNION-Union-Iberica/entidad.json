@@ -1,0 +1,82 @@
+{
+  "key": "IBERIAN-UNION",
+  "name": "Unión Ibérica",
+  "qid": "Q377350",
+  "aliases": [
+    "Unión Ibérica"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "IBERIAN-UNION"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q34464",
+      "name": "Felipe III de España",
+      "role": "Soberano de la unión dinástica",
+      "start": "1600-01-01",
+      "end": "1621-03-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Philip_III_of_Spain",
+      "curated": true,
+      "note": "Coronas deEspaña yPortugal con instituciones distintas; FelipeII yIIIdePortugal son FelipeIII yIVdeEspaña.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1600-0.20",
+      "portrait": {
+        "file": "media/portrait-5f35789a6d02d3f69231.jpg",
+        "title": "Felipe-III-de-Espana A-Vidal.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Felipe-III-de-Espana_A-Vidal.jpg",
+        "artist": "Pedro Antonio Vidal",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Felipe-III-de-Espana_A-Vidal.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Colección, Museo del Prado.",
+        "sha256": "a782817ea3ed97f3335834e069a356346b993b097820bad465f00cf79f74caa7",
+        "bytes": 27065,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Felipe-III-de-Espana_A-Vidal.jpg/330px-Felipe-III-de-Espana_A-Vidal.jpg"
+      }
+    },
+    {
+      "person": "Q691402",
+      "name": "Felipe IV de España",
+      "role": "Soberano de la unión dinástica",
+      "start": "1621-03-31",
+      "end": "1640-12-01",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Philip_IV_of_Spain",
+      "curated": true,
+      "note": "Coronas deEspaña yPortugal con instituciones distintas; FelipeII yIIIdePortugal son FelipeIII yIVdeEspaña.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "acquisition": "curated-1600-0.20",
+      "portrait": {
+        "file": "media/portrait-811aada556ac155a89ae.jpg",
+        "title": "Philip IV of Spain.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Philip_IV_of_Spain.jpg",
+        "artist": "Diego Velázquez",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Philip_IV_of_Spain.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "National Gallery, London - online catalogue.",
+        "sha256": "4fc7cf27730613c275c9ff3a425e845736f96166894627a61a0c5bfa1866b29f",
+        "bytes": 22007,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Philip_IV_of_Spain.jpg/330px-Philip_IV_of_Spain.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

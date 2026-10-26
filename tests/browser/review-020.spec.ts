@@ -1,0 +1,23 @@
+import{test,expect,type Page}from'@playwright/test';import{openFilters,closeTools}from'./tools';
+async function ready(p:Page,y:number){await expect(p.locator('#map')).toHaveAttribute('data-rendered',`history-${y}`,{timeout:90000});}
+async function year(p:Page,y:number){await p.locator('#date-button').click();await p.locator('#date-input').fill(String(y));await p.locator('#date-form button[type=submit]').click();await ready(p,y);}
+async function search(p:Page,s:string,key:string){await p.locator('#search-button').click();await p.locator('#search-input').fill(s);await p.locator('#search-results button').first().click();await expect(p.locator('#selection')).toHaveAttribute('data-entity',key);}
+test('1600 century, interregnum, restoration, dynastic crowns and dated filters',async({page})=>{
+ test.setTimeout(240000);const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/#year=1600&view=mercator');await ready(page,1600);
+ await search(page,'Francia','FRA');await expect(page.locator('#pane-authorities')).toContainText('Enrique IV');await expect(page.locator('.historic-flag')).toBeVisible();
+ await search(page,'Unión Ibérica','IBERIAN-UNION');await expect(page.locator('#pane-authorities')).toContainText('Felipe III');
+ await year(page,1655);await search(page,'Commonwealth','ENGLISH-COMMONWEALTH');await expect(page.locator('#pane-authorities')).toContainText('Oliver Cromwell');await expect(page.locator('.historic-flag')).toBeVisible();await expect.poll(()=>page.locator('.leader-portrait').first().evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth>0)).toBe(true);
+ await openFilters(page);await page.locator('#government-select').selectOption('military-administration');await year(page,1600);await expect(page.locator('#government-empty')).toBeVisible();await expect(page.locator('#government-select option[value="military-administration"]')).toHaveCount(0);await page.locator('#government-empty button').click();await closeTools(page);
+ await year(page,1660);await search(page,'Inglaterra','ENGLAND');await expect(page.locator('#pane-authorities')).toContainText('Carlos II');await year(page,1689);await expect(page.locator('#selection')).toHaveAttribute('data-entity','ENGLAND');await expect(page.locator('#pane-authorities')).toContainText('María II');
+ await year(page,1645);await search(page,'Monarquía portuguesa','PRT');await expect(page.locator('#pane-authorities')).toContainText('Juan IV');
+ await expect.poll(()=>page.locator('.historic-flag').evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth>0)).toBe(true);await expect.poll(()=>page.locator('.leader-portrait').first().evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth>0)).toBe(true);
+ await page.screenshot({path:'test-results/review-020-europe.png'});expect(errors).toEqual([]);
+});
+test('Ming and Qing, German seats, local symbols, conflicts and continuity to1700 on mobile globe',async({page})=>{
+ test.setTimeout(240000);const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/#year=1600&view=globe');await ready(page,1600);await search(page,'Ming','MING');await expect(page.locator('#pane-authorities')).toContainText('Wanli');
+ await year(page,1645);await search(page,'Qing','QING');await expect(page.locator('#pane-authorities')).toContainText('Shunzhi');await expect(page.locator('.identity-header')).toContainText('Enseña institucional');
+ await search(page,'Hesse-Darmstadt','HESSE-DARMSTADT');await expect(page.locator('#pane-authorities')).toContainText('Jorge II');await page.getByRole('tab',{name:'Territorio',exact:true}).click();await expect(page.locator('#pane-territory')).toContainText('agrupa');
+ await page.locator('#close-selection').click();await page.locator('#layers-button').click();await expect(page.locator('#occupations-layer')).toBeEnabled();await page.locator('#occupations-layer').click();await expect(page.locator('#map')).not.toHaveAttribute('data-conflict-events','0');await page.locator('#places-layer').click();await closeTools(page);
+ await search(page,'Japón','JPN');await expect(page.locator('#pane-authorities')).toContainText('Shogun');await expect(page.locator('.identity-header')).toContainText('Mon de los Tokugawa');await year(page,1699);await year(page,1700);await expect(page.locator('#selection')).toHaveAttribute('data-entity','JPN');
+ await page.setViewportSize({width:390,height:844});await year(page,1600);expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);await page.screenshot({path:'test-results/review-020-mobile-globe.png'});expect(errors).toEqual([]);
+});

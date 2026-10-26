@@ -1,0 +1,40 @@
+{
+  "key": "SHUN",
+  "name": "Régimen Shun · Li Zicheng",
+  "qid": "Q2370784",
+  "aliases": [
+    "Régimen Shun · Li Zicheng"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SHUN"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q333567",
+      "name": "Li Zicheng",
+      "role": "Emperador Shun · pretensión rival",
+      "start": "1644-01-01",
+      "end": "1645-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shun_dynasty",
+      "curated": true,
+      "acquisition": "curated-1600-0.20",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "No se convierte aLiZicheng en una entidad territorial personal ni se le atribuye todaChina."
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

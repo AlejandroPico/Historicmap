@@ -1,6 +1,32 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.19.0 · ampliación hasta 1700 y filtros separados
+## Encargo vigente ·0.20.0 · ampliación hasta1600
+
+El propietario solicita continuar con1600–1699. Mantener filtros, fichas persistentes y datos posteriores. Incorporar cartografía anual, identidades, autoridades con títulos y retratos, símbolos documentados, contexto y formas políticas; registrar carencias reales. Comprobar localmente y subir sin esperarActions/Pages.
+
+- [x] Navegación anual 1600–1699: 783 intervalos componentes originales y 67 reglas de resolución; archivos anteriores conservados.
+- [x] 196 intervalos de cargos revisados, adquisición regional y 143 retratos acreditados. Títulos, regencias, autoridades rivales y precisión explícitos; no censo mundial completo.
+- [x] 31 ventanas de símbolos, 37 registros institucionales, 30 sedes/capitales y 15 contextos, con siete puntos regionales de conflictos. No se inventan frentes ni símbolos nacionales.
+- [x] Auditoría nominal [REVIEW-1600-1699.json](docs/REVIEW-1600-1699.json): 11.079 entidades/año, 7.540 casos sin autoridad, 8.643 sin símbolo y 58 personas/órganos sin retrato entre los registros disponibles.
+- [x] Conservación de todos los hechos previos de mandatos y símbolos, permitiendo completar imágenes; siete recursos geográficos anteriores idénticos. Administradores de respaldo limitados al intervalo de fuente, sin retroyección colonial.
+- [x] 186 pruebas en 44 archivos, tipos y compilación correctos. Dos recorridos de navegador correctos en 1,9 min; repetición focal final de 42 s tras limitar administradores, con imágenes portuguesas cargadas y revisión visual.
+- [x] Integridad local: 65 datos, 11 franjas tipográficas y 6.694 medios verificados por SHA-256. Documentación y versión 0.20.0 preparadas.
+- [x] 6.770 recursos de datos, tipografías y medios preparados en Git comprobados byte a byte. Entrega 0.20.0 preparada para origin/main; el resultado del envío se confirma al cerrar. No esperar Actions/Pages; publicación pendiente del aviso del propietario.
+
+### Pendientes que no se dan por completados
+
+- [ ] Completar inventario mundial 1600–1699, gobiernos regionales y administraciones locales; regencias, calendarios y fechas intranuales aún parciales.
+- [ ] Acreditar símbolos Ming, safávidas, mogoles, africanos y otros diseños pendientes. No sustituirlos por banderas posteriores ni aceptar obras propias sin testimonio de uso.
+- [ ] Obtener fronteras individuales de Estados germanos, frentes de guerras y facciones del Kongo, y resolver identificadores/cronologías compartidos como Mogulistán. Los puntos no son frentes.
+- [ ] Ampliar retratos por edades/décadas y completar ausencias. Un retrato representativo no acredita apariencia exacta en cada año.
+- [ ] Revisar publicación cuando el propietario confirme el despliegue.
+
+Fuentes y preparación en [RESEARCH-1600.md](docs/RESEARCH-1600.md); continuidad en sección 32 de agentes.md.
+
+Los pendientes de0.19 y anteriores continúan abiertos.
+
+
+## Entrega anterior · 0.19.0 · ampliación hasta 1700 y filtros separados
 
 El propietario solicita ampliar 1700–1799, priorizando símbolos y soberanos de los Estados germanos y de Asia, y corregir huecos de símbolos todavía presentes en1800. Añadir un botón de embudo a la izquierda deCapas; trasladar allí forma política/régimen, alianzas/organizaciones y color del mapa. Ocultar categorías con cero entidades en el año consultado. Conservar el filtro activo entre fechas mediante un aviso y opción de quitarlo si deja de tener resultados, sin llenar el selector de opciones vacías. Mantener comprobaciones locales y envío sin esperarActions/Pages.
 
