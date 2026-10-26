@@ -1,0 +1,78 @@
+{
+  "key": "HABSBURG-MONARCHY",
+  "name": "Monarquía de Habsburgo",
+  "qid": "Q153136",
+  "aliases": [
+    "Monarquía de Habsburgo"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HABSBURG-MONARCHY"
+  },
+  "flags": [
+    {
+      "start": "1800-01-01",
+      "end": "1804-08-10",
+      "media": {
+        "file": "media/flag-7ee223af910364c4f69a.svg",
+        "title": "Flag of the Habsburg Monarchy.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Habsburg_Monarchy.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_the_Habsburg_Monarchy.svg",
+        "artist": "ThrashedParanoid and Peregrine981.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Habsburg_Monarchy.svg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work based on: The Flags & Arms of the Modern Era.",
+        "sha256": "90526cda3e3240f189c776274108f49fe46a4bc83af28317793759e00f4d6549",
+        "bytes": 164,
+        "symbolLabel": "Colores dinásticos",
+        "presentationNote": "Símbolo de los dominios de los Habsburgo; no bandera nacional moderna.",
+        "symbolEvidenceURL": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Habsburg_Monarchy.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Habsburg_Monarchy.svg",
+      "note": "Símbolo de los dominios de los Habsburgo; no bandera nacional moderna.",
+      "acquisition": "symbols-review-0.18"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q130834",
+      "name": "Francisco II",
+      "role": "Soberano de los dominios de los Habsburgo",
+      "start": "1800-01-01",
+      "end": "1804-08-10",
+      "precision": 11,
+      "source": "https://www.habsburger.net/en/persons/habsburg-emperor/franz-ii-i",
+      "curated": true,
+      "acquisition": "review-1800-1900-0.18",
+      "note": "Emperador del Sacro Imperio hasta1806 y emperador de Austria desde11/8/1804; cargos y conjuntos territoriales distintos.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-c19f2cd552a8509439c0.jpg",
+        "title": "Francis II, Holy Roman Emperor by Friedrich von Amerling 003.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Francis_II,_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg",
+        "artist": "Friedrich von Amerling",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Francis_II,_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Kunsthistorisches Museum Wien also http://www.wga.hu/frames-e.html?/html/v/vivien/",
+        "sha256": "d43d4534104da6a0df03512a708c21fe342339a6c0f6ecf02336df31ab1e31cd",
+        "bytes": 44541,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg/330px-Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

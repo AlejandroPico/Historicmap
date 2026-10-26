@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.17.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.18.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.17 en la sección 29; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.18 en la sección 30; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente 0.17 (26/10/2026):** ampliar hasta 1800 reduciendo uso de sesión. Mantener pendiente la corrección transversal de fotos y banderas de distintas épocas. Verificar localmente y subir sin esperar Actions/Pages; detalle en sección 29 y tareas.md.
+**Encargo vigente 0.18 (26/10/2026):** revisar banderas y autoridades de 1800–1900, incorporar formas de gobierno fechadas y filtro, y mejorar ciudades y conflictos. No ampliar otra franja ni declarar cerrado el inventario mundial. Verificar localmente y subir sin esperar Actions/Pages; detalle en sección 30 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -700,3 +700,20 @@ Auditoría REVIEW-1800-1819.json:2958 entidades/año,2116 casos anuales sin auto
 Cierre local0.17:173 pruebas/41 archivos, tipos, compilación y recorrido focal de navegador (1,2min) correctos. Se comprueba Consulado/Imperio/Restauraciones, símbolos y autoridades italianas, autoridades españolas1812 y persistencia hasta1820 con globo/móvil. Los hechos anteriores y símbolos se conservan salvo el intervalo condensado erróneo dePitt, excepción documentada y probada. No se ha repetido toda la batería de navegador ni se ha comprobado el despliegue público.
 
 Integridad0.17:57 datos,11 franjas y6201 medios con SHA comprobado;6269 recursos preparados en Git verificados. Entregar a main y terminar al confirmar push.
+
+## 30. Revisión de símbolos, autoridades y formas de gobierno ·0.18.0
+
+El propietario pide revisar1800–1900 mundialmente, incluidos Estados germanos, América y África, recuperar soberanos con su título real y añadir etiquetas políticas fechadas con filtros. También pide corregir la escasa utilidad de ciudades y ocupaciones/conflictos. Esta entrega amplía la cobertura, **sin cerrar el censo mundial**. Ver[REVIEW-0.18.md](docs/REVIEW-0.18.md) y[tareas.md](tareas.md).
+
+- Corrección de identificadores fuente: HabsburgoQ66504140 es una desambiguación, resuelto aQ153136; Río de la PlataQ35827 es el río, resuelto aProvincias UnidasQ738144. Helvética termina en1803 aunque el nombre de la fuente continúe; después se resuelve aCHE. Los polígonos originales permanecen intactos.
+-70 intervalos de cargos europeos/americanos y23 observaciones africanas, más correcciones focales y relaciones administrativas. Los Estados germanos usan príncipe, duque, elector o rey según corresponda. No aceptar sin revisión fechas que mezclan regencia con soberanía: Baden1856 y Hesse1848 son ejemplos corregidos. En1824 Las Heras es autoridad provincial, no presidente nacional. Fuentes y candidatos rechazados conservados en scripts/review-018-authorities.json.
+-60 retratos añadidos y47 ventanas de símbolos revisadas. Tipos de símbolo explícitos en el encabezado, notas enContexto y licencias individuales. No importar Wadai sin testimonio histórico, Bornu1439 como si fuera delXIX, ni candidatos marcados como ficticios. El paño verde uniforme deSokoto sigue sin referencia material suficiente. No copiar banderas de vecinos.
+- Nuevos módulos src/governance.ts, historical-places.ts y conflict-points.ts; clasificación añadida **después** de componer control territorial. Forma, organización, orientación y evaluación del régimen son dimensiones distintas. El filtro persiste entre años, admite cero resultados y no debe atascar la reproducción cuando no haya coincidencias visibles. Las categorías sin documentación se mantienen explícitas. No inferir ideología del color o democracia de la palabra república.
+- V-Dem2026v16/OWID se conserva separado de geometrías y de formas institucionales, conCCBY-SA4.0 y metadatos originales.209 claves,30.851 observaciones anuales1789–2025 comprimidas sin pérdida; no extrapolar2026 ni heredar evaluación democrática sobre colonias. Los cruces históricos no convierten las fronteras deOWID en la geometría del atlas.
+-68 referencias urbanas complementan las capitalesCShapes y ciudades presentes: capitales, cortes y sedes regionales sólo cuando la entidad está activa.32 puntos representan episodios o referencias regionales de conflictos; no son polígonos de ocupación. Las franjas siguen usando geometría ya documentada y permanecen visibles con colores económicos u organizaciones.
+- Puntos seleccionables: el renderizador puede transformar sus IDs. src/selection.ts resuelve las identidades documentales de puntos antes de sus IDs de tesela. Mantener la selección de polígonos por coincidencia exacta para no reintroducir el error deEspaña en países ajenos.
+- Preparadores y registros de investigación conservados; la compilación no consulta fuentes externas. CSV y metadatosV-Dem fijados en scripts/research/, con atribución. No modificar medios de otros países al regenerar cargos.
+- Auditoría docs/REVIEW-1800-1900.json:101 años por la ruta real. Es comprobación de disponibilidad, no validación historiográfica completa. Las faltas no quedan completadas al reanudar.
+- Comprobaciones locales y envío en tareas.md. Mantener la instrucción de terminar al confirmar el push; el propietario revisaráActions/Pages.
+
+Validación de entrega: 179 pruebas en 42 archivos correctas; siete comprobaciones focales después de precisar límites de cobertura. Tipos, compilación y tres recorridos de navegador correctos, con revisión visual móvil y de escritorio. Integridad de 61 recursos de datos, 11 franjas tipográficas y 6.304 medios; 6.376 recursos preparados en Git comprobados byte a byte. Catálogo: 546 claves de autoridades, 12.978 registros de mandatos y 2.782 carpetas. El resultado del envío se confirma al cerrar, sin esperar el despliegue.

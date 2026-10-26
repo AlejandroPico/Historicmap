@@ -1,6 +1,34 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.17.0 · ampliación hasta 1800
+## Encargo vigente · 0.18.0 · revisión de1800–1900 y formas de gobierno
+
+Revisar banderas y autoridades, especialmente los ejemplos señalados de Europa, América y África. Incorporar clasificación política fechada y filtro de capas, y corregir/ampliar capitales, ciudades y presentación de ocupaciones/conflictos. No dar por completados huecos no investigados. Mantener la instrucción de subir tras comprobar localmente sin esperar Actions/Pages.
+
+- [x] Corregir Habsburgo, Río de la Plata y prolongación de Helvética; relaciones administrativas de agregados coloniales.47 ventanas de símbolos revisadas con su tipo, fechas, autor y licencia. No equivale a completar todas las banderas.
+- [x]70 intervalos revisados europeos/americanos y23 observaciones africanas, más correcciones focales y autoridades administrativas. Títulos soberanos, regencias y poder provincial diferenciados.60 retratos añadidos;546 claves y12.978 registros totales, no fichas completas.
+- [x]62 categorías,509 registros de formas institucionales y filtro persistente deCapas/Instituciones. Serie separada V-Dem/OWID:209 claves y30.851 observaciones anuales1789–2025; no extrapolación2026 ni evaluación colonial heredada.
+- [x]68 referencias urbanas fechadas anteriores a1886 y sedes regionales, además de las fuentes existentes. Corregida la selección de puntos con IDs transformados por el renderizador.
+- [x]32 puntos de episodios y referencias regionales de conflictos; selección y ficha persistente. Franjas existentes disponibles también con organizaciones o colores económicos. No se han inventado frentes nuevos.
+- [x] Auditoría anual1800–1900, catálogoPaíses, procedencia y documentación.61 recursos de datos,11 franjas tipográficas y6.304 medios verificados conSHA-256.
+- [x] Tipos y compilación local correctos. Tres recorridos finales de navegador correctos en2,5min: móvil/globo, símbolos y títulos, filtro sin resultados y persistencia, clic real de ciudad y batalla, episodio inactivo, fuentes compactas y combinación de capas. Las comprobaciones se corrigieron para respetar queWDI empieza en1960.
+- [x]179 pruebas en42 archivos correctas en el recorrido final completo. Siete comprobaciones focales adicionales correctas después de precisar límites de cobertura de mandatos. Tipos y compilación final correctos.
+- [x]6.376 recursos de datos, tipografías y medios preparados enGit comprobados byte a byte. Entrega preparada paraorigin/main; confirmar el resultado delpush al cerrar, sin esperarActions/Pages. La publicación permanece pendiente del aviso del propietario.
+- [ ] Revisar la publicación cuando el propietario confirme el despliegue.
+
+### Revisión documental que continúa abierta
+
+La disponibilidad anual está en[docs/REVIEW-1800-1900.json](docs/REVIEW-1800-1900.json). En1800 hay139 componentes/territorios,29 con símbolo y42 con autoridad; en1824 son164,36 y64; en1900 son176,164 y174. Los agregados de fuente no son un censo de Estados independientes. No llamar a estos años «completos».
+
+- [ ] Completar el inventario mundial1800–1900 por regiones, priorizando los huecos nominales de la auditoría. Persisten7.362 casos anuales sin autoridad,9.914 sin símbolo y118 personas/órganos sin retrato dentro de los registros disponibles. Un retrato ausente no acredita inexistencia de imágenes históricas.
+- [ ] Contrastar Wadai con bibliografía independiente: las fechas de varias sucesiones difieren, especialmente1834–1843. Se añadieron observaciones interiores sin rellenar años dudosos. Conseguir prueba histórica del diseñoWadai.png antes de incorporarlo.
+- [ ] Bornu: no retrotraer al sigloXIX el símbolo descrito para1439. Sokoto: conseguir ejemplares militares documentados y distinguirlos de la bandera uniforme sin fuente. Valáquia anterior a1834: candidata ficticia rechazada. Registros de símbolos aceptados/rechazados en scripts/review-018-symbols.json.
+- [ ] Completar otros Estados germanos, regentes y administraciones territoriales. Las fechas importadas de Moldavia/Valaquia requieren más contraste intranual y de calendarios; las fuentes de observaciones secundarias conservan su condición.
+- [ ] Ampliar fases institucionales de las entidades todavía sin clasificación documentada y revisar los cruces no emparejados deV-Dem; no deducir ideología de colores ni usar etiquetas actuales retrospectivamente. La taxonomía es ampliable, no un listado exhaustivo de toda forma histórica.
+- [ ] Ampliar capitales, ciudades y conflictos por época/región, con fuentes y precisión. Los32 puntos no cubren todas las guerras y no sustituyen geometría de control militar ausente. Completar frentes y ocupaciones sólo con límites acreditados.
+
+Preparadores y alcance en[docs/REVIEW-0.18.md](docs/REVIEW-0.18.md); continuidad en sección30 deagentes.md. Las tareas anteriores abiertas siguen vigentes.
+
+## Entrega anterior · 0.17.0 · ampliación hasta 1800
 
 Se solicita ampliar 1800–1819 reduciendo uso de sesión. El propietario insiste en que siguen faltando fotos y banderas fácilmente localizables en diversas épocas: no dar por resuelto ese trabajo pendiente. Mantener las comprobaciones locales y terminar al confirmar el push, sin esperar Actions/Pages.
 

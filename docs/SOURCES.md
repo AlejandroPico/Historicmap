@@ -163,3 +163,7 @@ Consultas históricas aisladas, símbolos ya acreditados, nuevos retratos con li
 ## Ampliación1800–1819 · 0.17
 
 Adquisición aislada, cargos explícitos y52 medios nuevos con licencia propia. Doce fases documentales; originales geográficos intactos. Fuentes, correcciones y límites en [DELIVERY-0.17.0.md](DELIVERY-0.17.0.md). Los estados clientes no se convierten en colonias por compartir familia de color.
+
+## Revisión0.18 ·1800–1900 y formas de gobierno
+
+Autoridades y símbolos revisados con fuentes por intervalo. Taxonomía institucional CC0 y serie separada V-Dem2026v16/OWID,1789–2025,CCBY-SA4.0, DOI10.23696/vdemds26. La serie no se extrapola a2026 ni se atribuye a colonias a través de sus administradores.68 referencias urbanas y32 puntos de conflictos; estos puntos no son frentes. [Fuentes, transformaciones y límites](REVIEW-0.18.md); [licencia de la serie](../public/data/LICENSE-REGIMES-CC-BY-SA-4.0.txt).

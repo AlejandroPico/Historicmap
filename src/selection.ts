@@ -5,8 +5,15 @@ export type CountryAnchor={key:string;name:string;originalName:string;code:strin
 /** Tile properties are a rendering projection, never the country record. */
 export function canonicalFeature(hit:{id?:string|number;properties:Record<string,any>|null}|undefined,data:FeatureCollection):Feature|undefined{
  if(!hit)return;
- if(hit.id!==undefined)return data.features.find(f=>f.id===hit.id);
  const p=hit.properties??{};
+ // Point IDs can be rewritten by the vector-tile worker (especially string
+ // GeoJSON IDs). Resolve their immutable documentary identity before IDs.
+ // Polygon selection still requires an exact renderer/source match.
+ if(p.rank!==undefined&&p.country&&data.features.every(f=>f.geometry.type==='Point')){
+  if(p.uid)return data.features.find(f=>f.properties?.uid===p.uid);
+  return data.features.find(f=>f.properties?.name===p.name&&f.properties?.country===p.country);
+ }
+ if(hit.id!==undefined)return data.features.find(f=>f.id===hit.id);
  if(p.uid)return data.features.find(f=>f.properties?.uid===p.uid);
  if(p.name&&p.country)return data.features.find(f=>f.properties?.name===p.name&&f.properties?.country===p.country);
  return undefined;

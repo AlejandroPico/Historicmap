@@ -173,6 +173,18 @@
       "sha256": "b85739d67f0deaa503c2ce61d3d25db065a047abe8fc6a942f2cc728f4add302"
     },
     {
+      "file": "conflict-points.geojson",
+      "format": "geojson",
+      "license": "CC0 factual coordinate/date references and editorial compilation",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/REVIEW-0.18.md",
+      "source": "Per-record dated documentary sources",
+      "version": "Historicmap0.18.0; reference2026-10-26",
+      "transform": "Battle sites and explicitly labelled regional conflict references; approximate point anchors, never occupation polygons or reconstructed fronts.",
+      "features": 32,
+      "bytes": 29702,
+      "sha256": "112cfedc8134bfad26ba34ef35d4dffe8d0c40ed3d2083b6526e337e536237b1"
+    },
+    {
       "file": "countries.geojson",
       "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_admin_0_countries.geojson",
       "source": "Natural Earth",
@@ -224,16 +236,29 @@
       "transform": "Select inclusive intervals intersecting 1789–1885. Exclude records with Components (aggregate unions); keep leaf polities and MemberOf relation. Original coordinates, source names and Wikidata IDs retained. Not a uniform December 31 reconstruction; uncovered areas remain uncovered."
     },
     {
+      "file": "governance.json",
+      "format": "dated-government-forms",
+      "license": "CC0 factual metadata and editorial taxonomy",
+      "url": "https://www.wikidata.org/",
+      "source": "Per-record dated documentary sources",
+      "version": "Historicmap0.18.0; reference2026-10-26",
+      "transform": "Dated P122/P31 claims, broad historical forms bounded by entity lifetime, reviewed constitutional phases; unknown retained explicitly. Institutional form is distinct from regime assessment.",
+      "records": 509,
+      "categories": 62,
+      "bytes": 163120,
+      "sha256": "1fc22f5a991ca4be20f3e8646c33518f767c1097603f4a8d4096a87f5431a0fa"
+    },
+    {
       "file": "historical-1800-entities.json",
       "format": "dated-entity-resolution",
       "source": "Cliopatria and dated editorial identity corrections",
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC0 factual identity metadata",
-      "sha256": "c7e33ef647ba3dee30b28d1fcfdc709fd86e304a42aeddf5587d037b8633b9eb",
-      "bytes": 54523,
-      "version": "Historicmap0.17.0; preparation2026-10-26; contemporary reference unchanged",
+      "sha256": "e01b30f84bb6d900a1ac15803391da858ab52a51e5f1cd81f30222e24a18c869",
+      "bytes": 57479,
+      "version": "Historicmap0.18.0; reference2026-10-26",
       "transform": "Dated1800–1819 identity resolution over unchanged Cliopatria contours. Consulate, Empire and Restorations; separate Italian states, British crowns/union and Haitian powers. No reconstructed internal military fronts.",
-      "records": 88
+      "records": 95
     },
     {
       "file": "historical-1820-entities.json",
@@ -241,11 +266,11 @@
       "source": "Cliopatria and dated editorial identity corrections",
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC0 factual identity metadata",
-      "sha256": "1e2c726aab047bf004c0d550915f2813baa52c808fb3fee6d9cec11caa22c355",
-      "bytes": 50156,
-      "version": "Historicmap0.16.0; preparation2026-10-26; contemporary reference unchanged",
+      "sha256": "6bbcfd843fd2bdf524395eb126d85bd118c7afec79c54cb7d4e79f905357735a",
+      "bytes": 51660,
+      "version": "Historicmap0.18.0; reference2026-10-26",
       "transform": "Dated1820–1839 identity resolution over unchanged Cliopatria geometry. Restoration and July Monarchy, Spanish regimes, Company India, First Mexican Empire, Haiti and Gran Colombia distinguished. Defective Gran Colombia persistence1831–1833 explicitly flagged, not asserted as continued union.",
-      "records": 86
+      "records": 89
     },
     {
       "file": "historical-1840-entities.json",
@@ -253,11 +278,11 @@
       "source": "Cliopatria and dated editorial identity corrections",
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC0 factual identity metadata",
-      "sha256": "bd993f06886f32fd3a6fd70794b139f93dfa6efacc1e1f3fc107c3ce0235bc0d",
-      "bytes": 49034,
-      "version": "Historicmap0.15.0; preparation2026-10-26; current office reference2026-10-22 preserved",
+      "sha256": "6037c72cc56192640b832ea32ba326ff16da42f579c9cffd782ce12826b1da45",
+      "bytes": 50160,
+      "version": "Historicmap0.18.0; reference2026-10-26",
       "transform": "Dated1840–1859 name/regime corrections over unchanged Cliopatria contours. French1848/1852 changes, Sardinia not Italy, Company India before1858, and source anachronisms explicitly repaired. Source labels/QIDs retained as provenance, not accepted as political fact.",
-      "records": 86
+      "records": 88
     },
     {
       "file": "historical-1860-entities.json",
@@ -266,10 +291,10 @@
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC0 factual identity metadata",
       "transform": "Bounded1860–1879 names and regimes over unchanged source contours; annual synthesis, not monthly frontier reconstruction.",
-      "sha256": "8bcea5cbc052265778e5065b0353b40e88005dd198f7274c1424307adc01a36b",
-      "bytes": 42580,
-      "version": "Historicmap0.14.0; preparation2026-10-26; contemporary office reference2026-10-22 unchanged",
-      "records": 81
+      "sha256": "6ce6a82ebfe2308001c5e5878a96e109bf947a4e2ef4c40f9e212583a1800169",
+      "bytes": 43706,
+      "version": "Historicmap0.18.0; reference2026-10-26",
+      "records": 83
     },
     {
       "file": "historical-1880-administrations.json",
@@ -301,11 +326,11 @@
       "source": "Editorial identity resolution; Cliopatria and institutional historical sources",
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC0 identity metadata; editorial corrections",
-      "bytes": 39426,
-      "sha256": "c3f01f15856e505143ef9c409b392ae46c7fb743c3c279e26e096fb8080ce243",
-      "version": "Historicmap 0.13.0; preparation2026-10-25; current reference2026-10-22",
+      "bytes": 40552,
+      "sha256": "e212192a6dd73396cd18610b86b7bc2bff04d67ad8198e9a2695c9705b28faca",
+      "version": "Historicmap0.18.0; reference2026-10-26",
       "transform": "Date-scoped correction of anachronistic source names and QIDs over unchanged source contours. Cliopatria1880–1885 and CShapes1886–1899 are different geographic inventories. Unresolved source references remain explicitly unassigned.",
-      "records": 86
+      "records": 88
     },
     {
       "file": "historical-1880-supplements.geojson",
@@ -345,6 +370,18 @@
       "transform": "Central Powers annual WWI extents; Germany, Japan, Italy, USSR annual WWII extents; Croatia client state; Vichy annual extent 1940–1942 (southern occupation from November 1942); Chinese communist controlled areas. Omit composite unions, preserve geometry. Relations documented separately; Romania/Hungary not classified as puppets. No daily-front claim."
     },
     {
+      "file": "historical-places.json",
+      "format": "dated-urban-references",
+      "license": "CC0 factual coordinate/date references and editorial compilation",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/REVIEW-0.18.md",
+      "source": "Per-record dated documentary sources",
+      "version": "Historicmap0.18.0; reference2026-10-26",
+      "transform": "Dated capitals, courts, regional colonial seats and selected cities, matched only to active identities; no historical population or city footprint inferred.",
+      "records": 68,
+      "bytes": 37207,
+      "sha256": "f28b1878f2563b70c78e5181910efd879dcda47abc3c34bc5728267445328be6"
+    },
+    {
       "file": "historical-supplements.geojson",
       "bytes": 130995,
       "sha256": "3e0edf7dfba66ecaa525450c51f0aef6fa311eb67f8635107eb1c78f467c756b",
@@ -371,16 +408,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 12763963,
-      "sha256": "fb7c51da229debd37bbd01f4c792671c21f1d037718f71c2d977773c1b7c81f6",
+      "bytes": 12928684,
+      "sha256": "6a6e323ee4e594808e83120e6e9d65ecedfd329fbb801a44e99ae9f1ef903510",
       "format": "dated-political-identities",
-      "countries": 543,
-      "records": 12879,
+      "countries": 546,
+      "records": 12978,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap0.17.0; preparation2026-10-26; contemporary reference unchanged",
+      "version": "Historicmap0.18.0; reference2026-10-26",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Isolated1800–1819 acquisition and historical offices; Gregorian Russian succession, British regency and distinct Italian offices. Previous mandate facts and symbols retained; missing portraits may be filled. Nominal gaps remain in REVIEW-1800-1819."
+      "transform": "Reviewed1800–1900 sovereign offices, source identity repairs and dated symbol variants; prior authorities and images preserved except documented duplicate corrections. Original geometry unchanged."
     },
     {
       "file": "pacific-components.json",
@@ -451,6 +488,19 @@
       "license": "CC-BY-NC-SA-4.0 (CShapes geometry); original factual annotation",
       "transform": "Kuwait occupation by Iraq at annual close 1990. Exact CShapes outline active in 1990, not the later demarcation. Underlying Kuwaiti territory remains separate; layer toggles occupation paint. Not active at annual close 1991; no interpolated campaign fronts.",
       "features": 1
+    },
+    {
+      "file": "regimes-of-world.json",
+      "format": "dated-regime-observations",
+      "license": "CC BY-SA 4.0; V-Dem2026 v16, OWID processing",
+      "url": "https://ourworldindata.org/grapher/political-regime",
+      "source": "Coppedge et al.2026, V-Dem Dataset v16, DOI10.23696/vdemds26; Lührmann, Tannenberg and Lindberg2018; processing Our World in Data.",
+      "version": "Historicmap0.18.0; reference2026-10-26",
+      "transform": "Annual Regimes of the World observations1789–2025 compressed losslessly into intervals; explicit historical crosswalks, no extrapolation2026, no colonial democratic assessment inherited from administrator.",
+      "records": 1424,
+      "countries": 209,
+      "bytes": 25726,
+      "sha256": "a742ba5f6e29a7b746fdfe518940dcf13ee4fcf34ac65917bbdf7cc4112235ee"
     },
     {
       "file": "spanish-civil-war.geojson",

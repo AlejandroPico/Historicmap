@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.18.0 · 26/10/2026
+
+- Revisión de autoridades y símbolos1800–1900; Habsburgo y Río de la Plata dejan de apuntar a identificadores ajenos a la entidad histórica. República Helvética, colonias, títulos soberanos y sucesiones diferenciados.60 retratos y47 ventanas de símbolos revisadas.
+- Clasificación institucional fechada, taxonomía jerárquica y filtro persistente enCapas eInstituciones. Evaluación V-Dem/OWID1789–2025 separada y atribuida; no extrapolación al presente.
+-68 referencias urbanas y32 puntos de conflictos, separados de las superficies de ocupación. Selección de puntos corregida; capas de control disponibles también con indicadores económicos y organizaciones.
+- Catálogo y auditoría anual con huecos nominales; revisión mundial todavía abierta. Alcance y fuentes en[REVIEW-0.18.md](docs/REVIEW-0.18.md).
+
 ## 0.17.0 · 2026-10-26
 
 - Ampliación documental1800–1819; regímenes franceses, regencia británica, autoridades españolas e identidades italianas diferenciadas.

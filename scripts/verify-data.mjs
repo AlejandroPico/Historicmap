@@ -18,6 +18,22 @@ for (const entry of manifest.entries) {
       for(const f of p.occupations.features)if(!f.properties.controller||!f.properties.occupiedKey||!f.properties.occupiedColor)throw Error('Invalid final-owner hatching '+year);
     }
   }
+  else if(entry.format==='dated-government-forms'){
+    if(data.records.length!==entry.records||data.taxonomy.length!==entry.categories||!data.referenceDate)throw Error('Invalid governance catalogue');
+    const tags=new Map(data.taxonomy.map(t=>[t.id,t]));if(tags.size!==data.taxonomy.length)throw Error('Duplicate government tag');
+    const visit=(id,chain=[])=>{if(!tags.has(id)||chain.includes(id))throw Error('Invalid government hierarchy '+id);for(const p of tags.get(id).parents)visit(p,[...chain,id]);};
+    for(const id of tags.keys())visit(id);
+    for(const r of data.records)if(!r.keys.length||r.start>r.end||!r.source||r.tags.some(t=>!tags.has(t)))throw Error('Invalid government record');
+  }
+  else if(entry.format==='dated-regime-observations'){
+    if(Object.keys(data.series).length!==entry.countries||!data.citation||!data.license||!data.source)throw Error('Missing regime provenance');let count=0;
+    for(const runs of Object.values(data.series)){let last=-Infinity;for(const [a,b,v] of runs){if(a> b||a<=last||a<data.startYear||b>data.endYear||![0,1,2,3].includes(v))throw Error('Invalid regime interval');last=b;count++;}}
+    if(count!==entry.records)throw Error('Regime interval count mismatch');
+  }
+  else if(entry.format==='dated-urban-references'){
+    if(data.records.length!==entry.records||!data.referenceDate)throw Error('Invalid urban catalogue');const ids=new Set();
+    for(const r of data.records){if(ids.has(r.id)||!r.keys.length||r.start>r.end||!r.source||!r.role||r.coordinates.length!==2||r.coordinates.some(n=>!Number.isFinite(n)))throw Error('Invalid urban reference '+r.id);ids.add(r.id);}
+  }
   else if(entry.format==='country-indicator-series'){if(!data.countries.USA?.series.population?.length)throw Error('Missing country indicators');}
   else if(entry.format==='dated-entity-resolution'){
     if(data.format!==entry.format||data.records.length!==entry.records||!data.referenceDate||![[1800,1819],[1820,1839],[1840,1859],[1860,1879],[1880,1899]].some(([a,b])=>data.coverageStart===a&&data.coverageEnd===b))throw Error('Invalid dated entity resolution');

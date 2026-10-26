@@ -10,11 +10,13 @@ import type { FeatureCollection } from 'geojson';
 import packageInfo from '../package.json';
 import { aboutContent } from './about';
 import { annualData, asset, modernCities, overlaysFor } from './data';
-import { historicalCapitals } from './history';
+import { datedPlaces } from './historical-places';
 import { escapeHtml as esc, thematicData, thematicLegend, profileFor, type ProfileData, type Theme } from './profiles';
 import { sourceDiff } from './source-diff';
 import {withRenderIds,RENDER_ID} from './render-feature-id';
 import { politicalData } from './political';
+import {withGovernance,governmentTags,governmentCounts} from './governance';
+import {conflictPointsFor} from './conflict-points';
 import {controlledMap} from './control-loader';
 import {occupationPattern} from './occupation-pattern';
 import { countryCard } from './country-card';
@@ -57,7 +59,7 @@ app.innerHTML = `
     </section>
     <section id="layers-panel" class="layers-panel" role="dialog" aria-labelledby="layers-title" hidden>
       <div class="popover-head"><h2 id="layers-title">Capas del atlas</h2><button id="close-layers" class="icon-button" aria-label="Cerrar capas">${icon('x')}</button></div>
-      <div class="layers"><button id="political-layer" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('map')}</span><span><strong>Territorios</strong><small id="territory-description">Países y fronteras</small></span><span class="layer-indicator"></span></button><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve de referencia</strong><small>Topografía contemporánea · desde 10.000 a. C.</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Capitales y grandes ciudades</strong><small>Capitales fechadas en el pasado</small></span><span class="layer-indicator"></span></button><button id="occupations-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('layers')}</span><span><strong>Ocupaciones y disputas</strong><small>Franjas de control sobre territorios ocupados</small></span><span class="layer-indicator"></span></button><label class="theme-control" for="theme-select">Color del mapa<select id="theme-select"><option value="political">Territorios y dependencias</option><option value="gdp">PIB total</option><option value="gdpPerCapita">PIB por habitante</option><option value="population">Población</option></select><small id="theme-help">Indicadores del Banco Mundial desde 1960.</small></label><label class="theme-control" for="affiliation-select">Alianzas y organizaciones<select id="affiliation-select"><option value="">Sin superposición</option>${organizationOptions}</select><small id="affiliation-help">Altas, bajas y categorías documentadas · 1880–2026.</small></label></div>
+      <div class="layers"><button id="political-layer" class="layer-button active" aria-pressed="true"><span class="layer-icon">${icon('map')}</span><span><strong>Territorios</strong><small id="territory-description">Países y fronteras</small></span><span class="layer-indicator"></span></button><button id="physical-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('mountain')}</span><span><strong>Relieve de referencia</strong><small>Topografía contemporánea · desde 10.000 a. C.</small></span><span class="layer-indicator"></span></button><button id="places-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('map-pin')}</span><span><strong>Capitales y grandes ciudades</strong><small id="places-help">Capitales, cortes y sedes fechadas</small></span><span class="layer-indicator"></span></button><button id="occupations-layer" class="layer-button" aria-pressed="false"><span class="layer-icon">${icon('layers')}</span><span><strong>Ocupaciones y disputas</strong><small id="occupations-help">Franjas y puntos de conflictos documentados</small></span><span class="layer-indicator"></span></button><label class="theme-control" for="government-select">Forma política y régimen<select id="government-select"><option value="">Todas las formas</option></select><small id="government-help">Clasificaciones fechadas; las categorías no documentadas se indican.</small></label><label class="theme-control" for="theme-select">Color del mapa<select id="theme-select"><option value="political">Territorios y dependencias</option><option value="gdp">PIB total</option><option value="gdpPerCapita">PIB por habitante</option><option value="population">Población</option></select><small id="theme-help">Indicadores del Banco Mundial desde 1960.</small></label><label class="theme-control" for="affiliation-select">Alianzas y organizaciones<select id="affiliation-select"><option value="">Sin superposición</option>${organizationOptions}</select><small id="affiliation-help">Altas, bajas y categorías documentadas · 1880–2026.</small></label></div>
     </section>
     <div id="selection" class="selection-card" hidden><button id="close-selection" class="icon-button" aria-label="Cerrar selección">${icon('x')}</button><span class="eyebrow" id="selection-date">EN EL MAPA</span><h2 id="selection-title"></h2><p id="selection-status" role="status" hidden></p><div id="selection-text"></div></div>
     <aside id="map-legend" class="map-legend" aria-label="Leyenda del mapa" hidden></aside>
@@ -84,6 +86,8 @@ let profiles:ProfileData={retrieved:'',countries:{}};
 let cityData:FeatureCollection={type:'FeatureCollection',features:[]}, overlayData:FeatureCollection={type:'FeatureCollection',features:[]};
 let territorySignature='', citySignature='';
 let referenceLandOn=false;
+let conflictData:FeatureCollection={type:'FeatureCollection',features:[]},conflictSignature='';
+let governmentFilter='',governmentOptionsSignature='';
 let committedData:FeatureCollection={type:'FeatureCollection',features:[]}, committedDomain='', overlaySignature='';
 let loaded: FeatureCollection = { type:'FeatureCollection', features:[] };
 const empty: FeatureCollection = { type:'FeatureCollection', features:[] };
@@ -135,8 +139,11 @@ map.on('load', () => {
   map.addLayer({id:'occupation-line',type:'line',source:'occupations',paint:{'line-color':'#c6c8ba','line-width':0.85,'line-opacity':0.75}});
   map.addLayer({id:'territory-labels',type:'symbol',source:'territories',minzoom:2.5,layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':['interpolate',['linear'],['zoom'],2,10,5,13],'text-max-width':7,'text-padding':12},paint:{'text-color':'#e5e5ce','text-halo-color':'#24413c','text-halo-width':1}});
   map.addSource('places',{type:'geojson',data:empty});
-  map.addLayer({id:'place-circles',type:'circle',source:'places',minzoom:1.4,paint:{'circle-radius':['case',['==',['get','capital'],true],4,2.5],'circle-color':'#f2d394','circle-stroke-color':'#152b30','circle-stroke-width':1.5}});
-  map.addLayer({id:'place-labels',type:'symbol',source:'places',minzoom:1.4,layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':11,'text-offset':[0,1.1],'symbol-sort-key':['coalesce',['get','rank'],5],'text-padding':8},paint:{'text-color':'#fff1cf','text-halo-color':'#102329','text-halo-width':1.5}});
+  map.addLayer({id:'place-circles',type:'circle',source:'places',minzoom:0,paint:{'circle-radius':['case',['==',['get','capital'],true],4,2.5],'circle-color':'#f2d394','circle-stroke-color':'#152b30','circle-stroke-width':1.5}});
+  map.addLayer({id:'place-labels',type:'symbol',source:'places',minzoom:1,layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':11,'text-offset':[0,1.1],'symbol-sort-key':['coalesce',['get','rank'],5],'text-padding':8},paint:{'text-color':'#fff1cf','text-halo-color':'#102329','text-halo-width':1.5}});
+  map.addSource('conflict-points',{type:'geojson',data:empty});
+  map.addLayer({id:'conflict-circles',type:'circle',source:'conflict-points',paint:{'circle-radius':['case',['==',['get','kind'],'battle'],4.5,6],'circle-color':['case',['==',['get','kind'],'battle'],'#e39675','#bda1e5'],'circle-stroke-color':'#172932','circle-stroke-width':1.7}});
+  map.addLayer({id:'conflict-labels',type:'symbol',source:'conflict-points',minzoom:2,layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':11,'text-offset':[0,1.15],'text-max-width':17},paint:{'text-color':'#ffe3ce','text-halo-color':'#182b31','text-halo-width':1.6}});
   ready = true; applyAppearance();void refreshMap(true);
 });
 map.on('error',(event) => {
@@ -147,14 +154,17 @@ map.on('webglcontextlost',()=>toast('Se ha perdido la conexión gráfica. Recarg
 map.on('idle',()=>{
   $('#map').dataset.cameraReady='true';
   if($('#map').getAttribute('aria-busy')==='true')return;
-  if(loaded.features.length && map.queryRenderedFeatures({layers:['territory-fill']}).length) $('#map').dataset.rendered=activeKey;
+  if(loaded.features.length && (map.queryRenderedFeatures({layers:['territory-fill']}).length||governmentFilter&&map.isSourceLoaded('territories'))) $('#map').dataset.rendered=activeKey;
   $('#map').dataset.hatchingRendered=String(showOccupations?map.queryRenderedFeatures({layers:['occupation-fill']}).length:0);
+  $('#map').dataset.placesRendered=String(showPlaces?map.queryRenderedFeatures({layers:['place-circles']}).length:0);
+  $('#map').dataset.conflictsRendered=String(showOccupations?map.queryRenderedFeatures({layers:['conflict-circles']}).length:0);
 });
 map.on('movestart',()=>{$('#map').dataset.cameraReady='false';});
 map.on('click',event=>{
   if(!ready||$('#map').getAttribute('aria-busy')==='true'||$('#map').dataset.loadedYear!==String(year)||$('#map').dataset.rendered!==activeKey)return;
+  const conflict=showOccupations?map.queryRenderedFeatures(event.point,{layers:['conflict-circles']})[0]:undefined;
   const place=showPlaces?map.queryRenderedFeatures(event.point,{layers:['place-circles']})[0]:undefined;
-  const feature=place?canonicalFeature(place,cityData):canonicalFeature(map.queryRenderedFeatures(event.point,{layers:['territory-fill']})[0],loaded);
+  const feature=conflict?canonicalFeature(conflict,conflictData):place?canonicalFeature(place,cityData):canonicalFeature(map.queryRenderedFeatures(event.point,{layers:['territory-fill']})[0],loaded);
   if(feature)selectFeature(feature);
 });
 map.on('mouseenter','territory-fill',()=>{map.getCanvas().style.cursor='pointer';});
@@ -181,14 +191,17 @@ function renderSelection(){
   if(!selectedAnchor||!identityData||$('#map').getAttribute('aria-busy')==='true')return;
   const top=document.querySelector('.country-content')?.scrollTop??0;
   selectionGeneration++;
-  const feature=matchingFeature(selectedAnchor,selectedAnchor.place?cityData:selectedAnchor.uid?overlayData:loaded,year,identityData);
+  const feature=matchingFeature(selectedAnchor,selectedAnchor.place?{type:'FeatureCollection',features:[...cityData.features,...conflictData.features]}:selectedAnchor.uid?overlayData:loaded,year,identityData);
   const p=feature?.properties??selectedAnchor.properties;
   $('#selection').hidden=false;$('#selection').setAttribute('aria-busy','false');$('#selection-status').hidden=true;
   $('#selection-title').textContent=feature?(identityFor(p,year,identityData).name??p.name??'Área del mapa'):selectedAnchor.name||'Área del mapa';
   $('#selection-date').textContent=`${formatYear(year)} · ${feature?'FICHA DEL TERRITORIO':'ENTIDAD SIN REPRESENTACIÓN ACTIVA'}`;
   $('#selection').dataset.entity=selectedAnchor.key||selectedAnchor.originalName;
   $('#selection').dataset.year=String(year);
-  if(selectedAnchor.place){
+  if(selectedAnchor.place&&p.conflictId){
+    $('#selection-date').textContent=`${formatYear(year)} · EPISODIO DOCUMENTADO`;
+    $('#selection-text').innerHTML=`<h3>${esc(p.kind==='battle'?'Batalla o episodio localizado':'Referencia regional de un conflicto')}</h3><p>${esc(p.precision===9?String(p.start).slice(0,4)+'–'+String(p.end).slice(0,4):String(p.start).split('-').reverse().join('/')+' — '+String(p.end).split('-').reverse().join('/'))}</p><p>${esc(p.note)}</p>${!feature?'<p class="profile-note">El episodio no está activo en el año consultado; se conserva su ficha.</p>':''}<a class="profile-source" href="${esc(p.source)}" target="_blank" rel="noopener">${esc(p.sourceLabel)} ↗</a>`;
+  }else if(selectedAnchor.place){
     $('#selection-text').innerHTML=feature?`<p>${esc(p.capital?'Capital o sede administrativa':'Gran ciudad')} · ${esc(p.country)}</p><p>${esc(p.note??'Localización urbana de referencia contemporánea.')}</p><a class="profile-source" href="${esc(p.source)}" target="_blank" rel="noopener">Fuente del lugar ↗</a>`:`<p>No hay un registro de este lugar en la capa de ${formatYear(year)}. La ficha se conserva para continuar el recorrido.</p>`;
   }else{
     $('#selection-text').innerHTML=countryCard(p,year,snapshot,profiles,identityData,import.meta.env.BASE_URL,{indicators:indicatorData,history:countryHistory,available:Boolean(feature),key:selectedAnchor.key,timelineFilter,timelineFuture,timelineExpanded,trends:trendSelections});
@@ -197,7 +210,7 @@ function renderSelection(){
     const pin=document.getElementById('pin-country');if(pin){pin.textContent=pinned?'Fijado para comparar':'Fijar para comparar';pin.setAttribute('aria-pressed',String(pinned));}
     if(activeCountryTab==='comparison')void renderComparison();
   }
-  highlightFeature(!selectedAnchor.uid?feature?.id:undefined);
+  highlightFeature(!selectedAnchor.uid&&!selectedAnchor.place?feature?.id:undefined);
   const content=document.querySelector('.country-content');if(content)content.scrollTop=top;
 }
 async function featureAt(anchor:CountryAnchor,targetYear:number){
@@ -235,6 +248,7 @@ function updateSources(){
   $('#source-links').innerHTML=`<a href="${source[1]}" target="_blank" rel="noopener">${source[0]} ↗</a> · <a href="https://data.worldbank.org/" target="_blank" rel="noopener">Indicadores WDI ↗</a> · <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Autoridades ↗</a>${affiliation?` · <a href="${esc(AFFILIATIONS[affiliation].source)}" target="_blank" rel="noopener">${esc(AFFILIATIONS[affiliation].label)} ↗</a>`:''}`;
   $('#source-scope').textContent=snapshot.kind==='modern'?'Cartografía de referencia 2026. Las cifras y las membresías conservan sus propias fechas. Imágenes: autor y licencia en cada ficha.':snapshot.kind==='annual'?'Base territorial al cierre anual; contornos de referencia identificados en las fichas. Control con fecha propia. Mandatos de todo el año y membresías al cierre.':'Reconstrucción según la fecha y el alcance del modelo; no es una observación directa.';
   if(physical&&reliefAvailable())$('#source-scope').textContent+=' Relieve contemporáneo de referencia; no reconstruye altitudes ni costas antiguas.';
+  if(governmentFilter)$('#source-links').innerHTML+=' · <a href="https://ourworldindata.org/grapher/political-regime" target="_blank" rel="noopener">Formas políticas / V-Dem ↗</a>';
   if(snapshot.kind==='concept')$('#source-scope').textContent='Escena conceptual y contexto documental; no hay geometría reconstruida para esta fecha.';
 }
 
@@ -287,9 +301,9 @@ function refreshMap(force=false):Promise<void> {
       if(current!==requestNumber)return;
       const composed=await controlledMap(politicalData(rawData,targetYear,target.kind==='modern'?profileData:undefined),overlays,targetYear);
       if(current!==requestNumber)return;
-      const data=withRenderIds(composed.territories,displayKey),hatching=composed.occupations;
+      const data=withRenderIds(withGovernance(composed.territories,targetYear),displayKey),hatching=withGovernance(composed.occupations,targetYear);
       const themed=thematicData(data,profileData,targetTheme,targetYear);
-      const signature=target.kind==='annual'||target.kind==='modern'?data.features.map(f=>`${f.id}:${f.properties?.name}:${f.properties?.politicalColor}:${f.properties?.controlInfluenceColor}:${f.properties?.identityKey}:${f.properties?.controlRecord}`).join('|'):target.file!;
+      const signature=target.kind==='annual'||target.kind==='modern'?data.features.map(f=>`${f.id}:${f.properties?.name}:${f.properties?.politicalColor}:${f.properties?.controlInfluenceColor}:${f.properties?.identityKey}:${f.properties?.controlRecord}:${f.properties?.governmentTags}`).join('|'):target.file!;
       const commit=async()=>{
         if(current!==requestNumber)return;
         $('#map').dataset.loadStage='territories';
@@ -315,7 +329,8 @@ function refreshMap(force=false):Promise<void> {
         loaded=themed;profiles=profileData;identityData=identities;indicatorData=indicators;countryHistory=historyDetails;overlayData=hatching;activeKey=displayKey;
         // Statistics change paint only: do not re-index or tessellate coastlines for a new number.
         if(targetTheme!=='political')for(const f of themed.features)if(f.id!==undefined)map.setFeatureState({source:'territories',id:f.id},{metric:f.properties?.metric??null});
-        cityData=target.kind==='modern'?points:target.kind==='annual'?historicalCapitals(data):{type:'FeatureCollection',features:places.filter(p=>targetYear>=p.start&&targetYear<=p.end).map(p=>({type:'Feature',geometry:{type:'Point',coordinates:p.coordinates},properties:{name:p.name,note:p.description,country:'Yacimiento / ciudad histórica',rank:1}}))};
+        cityData=target.kind==='modern'?points:target.kind==='annual'?datedPlaces(data,targetYear):{type:'FeatureCollection',features:places.filter(p=>targetYear>=p.start&&targetYear<=p.end).map(p=>({type:'Feature',geometry:{type:'Point',coordinates:p.coordinates},properties:{name:p.name,note:p.description,country:'Yacimiento / ciudad histórica',rank:1}}))};
+        cityData=withGovernance(cityData,targetYear);
         applyLayers();
         $('#map').dataset.loadedYear=String(targetYear);
         $('#map').setAttribute('aria-busy','false');
@@ -342,12 +357,32 @@ function refreshMap(force=false):Promise<void> {
   })();
   return refreshPromise;
 }
+function applyGovernmentFilter(){
+ const counts=governmentCounts(loaded),signature=String(year)+JSON.stringify([...counts]);
+ const select=$<HTMLSelectElement>('#government-select');
+ if(signature!==governmentOptionsSignature){
+  governmentOptionsSignature=signature;
+  const groups=[...new Set(governmentTags.map(t=>t.group))];
+  select.innerHTML='<option value="">Todas las formas</option>'+groups.map(group=>`<optgroup label="${esc(group)}">${governmentTags.filter(t=>t.group===group).map(t=>`<option value="${t.id}">${esc(t.label)} · ${counts.get(t.id)??0}</option>`).join('')}</optgroup>`).join('');select.value=governmentFilter;
+ }
+ const active=!!governmentFilter&&political&&snapshot.kind!=='geological';
+ select.disabled=snapshot.kind==='geological'||snapshot.kind==='concept';
+ const filter:ExpressionSpecification|undefined=active?['in',governmentFilter,['coalesce',['get','governmentTags'],['literal',[]]]]:undefined;
+ const signatureFilter=active?governmentFilter:'';
+ if($('#map').dataset.governmentFilter!==signatureFilter){
+  for(const layer of ['territory-fill','territory-line','territory-labels','occupation-fill','occupation-line','place-circles','place-labels'])map.setFilter(layer,filter);
+  $('#map').dataset.governmentFilter=signatureFilter;
+ }
+ $('#map').dataset.governmentMatches=String(governmentFilter?counts.get(governmentFilter)??0:new Set(loaded.features.map(f=>f.properties?.identityKey??f.properties?.entityCode??f.id)).size);
+ $('#government-help').textContent=governmentFilter?`${counts.get(governmentFilter)??0} entidades con esta clasificación en ${year}. Se conserva el filtro al cambiar de fecha.`:'Forma institucional y evaluación política son dimensiones distintas. Las fechas y fuentes se consultan en Instituciones.';
+}
 function applyLayers(){
   $('#political-layer').classList.toggle('active',political);$('#political-layer').setAttribute('aria-pressed',String(political));
   $('#physical-layer').classList.toggle('active',physical&&reliefAvailable());$('#physical-layer').setAttribute('aria-pressed',String(physical&&reliefAvailable()));
   $('#places-layer').classList.toggle('active',showPlaces);$('#places-layer').setAttribute('aria-pressed',String(showPlaces));
   $('#occupations-layer').classList.toggle('active',showOccupations);$('#occupations-layer').setAttribute('aria-pressed',String(showOccupations));
   if(!ready)return;
+  applyGovernmentFilter();
   const thresholds=theme==='gdp'?[1e10,1e11,1e12,1e13]:theme==='population'?[1e6,1e7,1e8,1e9]:[1000,5000,15000,50000];
   const thematic:ExpressionSpecification=['case',['==',['feature-state','metric'],null],'#6c7776',['interpolate',['linear'],['coalesce',['feature-state','metric'],0],0,'#d7e9c4',thresholds[0],'#a4c994',thresholds[1],'#6aab7d',thresholds[2],'#398769',thresholds[3],'#15624f']];
   const groups=affiliation?affiliationGroups(affiliation,year):[];
@@ -359,11 +394,17 @@ function applyLayers(){
   map.setPaintProperty('territory-fill','fill-antialias',snapshot.kind!=='geological');
   map.setLayoutProperty('territory-labels','visibility',political&&snapshot.kind!=='geological'?'visible':'none');
   map.setLayoutProperty('relief','visibility',physical&&reliefAvailable()?'visible':'none');
-  const controlVisible=political&&showOccupations&&year>=1789&&!affiliation&&theme==='political';
+  const controlVisible=showOccupations&&year>=1789;
   for(const id of ['occupation-fill','occupation-line'])map.setLayoutProperty(id,'visibility',controlVisible?'visible':'none');
+  const nextConflicts=year>=1789?conflictPointsFor(year):empty;const nextConflictSignature=showOccupations?JSON.stringify(nextConflicts):'';
+  conflictData=nextConflicts;
+  if(nextConflictSignature!==conflictSignature){conflictSignature=nextConflictSignature;void (map.getSource('conflict-points') as GeoJSONSource).setData(controlVisible?conflictData:empty);}
+  for(const layer of ['conflict-circles','conflict-labels'])map.setLayoutProperty(layer,'visibility',controlVisible?'visible':'none');
+  $('#map').dataset.conflictEvents=String(controlVisible?conflictData.features.length:0);
+  $('#occupations-help').textContent=`${overlayData.features.length} franjas y ${conflictData.features.length} puntos documentados en ${year}`;
   const nextCitySignature=showPlaces?JSON.stringify(cityData):'';
   if(nextCitySignature!==citySignature){citySignature=nextCitySignature;void (map.getSource('places') as GeoJSONSource).setData(showPlaces?cityData:empty);}
-  $('#map').dataset.places=String(showPlaces?cityData.features.length:0);
+  $('#map').dataset.places=String(showPlaces?cityData.features.length:0);$('#places-help').textContent=`${cityData.features.length} capitales, sedes y ciudades documentadas en ${year}`;
   $('#map').dataset.overlays=String(controlVisible?overlayData.features.length:0);
   const controls=[...new Map(overlayData.features.map(f=>[f.properties!.controller,f.properties!])).values()];
   const labels:Record<string,string>={DEU:'Alemania',JPN:'Japón',ITA:'Italia',USSR:'URSS','CROATIA-CLIENT':'Croacia · cliente','FRA-VICHY':'Vichy · colaboracionista','CHN-COMMUNIST':'China · comunistas','ESP-REPUBLIC':'España · republicanos','ESP-NATIONALIST':'España · sublevados',RUS:'Rusia',ISR:'Israel',IRQ:'Irak','AUT-HUN':'Austria-Hungría',OTT:'Imperio otomano'};
@@ -372,7 +413,7 @@ function applyLayers(){
   const familyLegend=political&&!affiliation&&theme==='political'&&loaded.features.some(f=>f.properties?.influenceKind||['colony','protectorate','mandate'].includes(f.properties?.status))?'<small>Los matices de una familia de color indican dependencia o tutela documentada; no anexión.</small>':'';
   const front=loaded.features.find(f=>f.properties?.controlObservationDate)?.properties;
   const frontLegend=front?`<small class="control-observation">Ucrania · referencia cartográfica ${esc(String(front.controlObservationDate).split('-').reverse().join('/'))}<br>Incertidumbre mínima del frente: 7 km.</small>`:'';
-  $('#map-legend').innerHTML=frontLegend+familyLegend+(political?(membershipLegend||thematicLegend(loaded,theme)):'')+controlLegend+(referenceLandOn?'<small>Gris: tierra sin entidad en el inventario.<br>Costa contemporánea de referencia.</small>':'');
+  $('#map-legend').innerHTML=(governmentFilter?`<div class="government-legend"><strong>${esc(governmentTags.find(t=>t.id===governmentFilter)?.label??governmentFilter)}</strong><small>${$('#map').dataset.governmentMatches??0} entidades · ${year}</small></div>`:'')+frontLegend+familyLegend+(political?(membershipLegend||thematicLegend(loaded,theme)):'')+controlLegend+(controlVisible?`<div class="conflict-points-legend"><strong>${conflictData.features.length} conflictos y episodios localizados</strong><small>Coral: batalla o episodio. Violeta: referencia regional.<br>Los puntos no representan frentes ni ocupación. Las franjas sólo aparecen donde hay límites documentados.</small></div>`:'')+(referenceLandOn?'<small>Gris: tierra sin entidad en el inventario.<br>Costa contemporánea de referencia.</small>':'');
   $('#map-legend').hidden=!$('#map-legend').innerHTML;
 }
 let lastLocationWrite = -Infinity;
@@ -467,6 +508,8 @@ document.addEventListener('pointerdown',event=>{const target=event.target as Nod
 $('#political-layer').onclick=()=>{political=!political;applyLayers();};$('#physical-layer').onclick=()=>{physical=!physical;applyLayers();updateSources();};$('#places-layer').onclick=()=>{showPlaces=!showPlaces;applyLayers();};
 $('#occupations-layer').onclick=()=>{showOccupations=!showOccupations;applyLayers();};
 $('#theme-select').onchange=()=>{stopPlay();political=true;theme=$<HTMLSelectElement>('#theme-select').value as Theme;affiliation='';$<HTMLSelectElement>('#affiliation-select').value='';void refreshMap();};
+$('#government-select').onchange=()=>{stopPlay();governmentFilter=$<HTMLSelectElement>('#government-select').value;applyLayers();refreshSearch();updateSources();};
+app.addEventListener('click',e=>{const b=(e.target as Element).closest<HTMLElement>('[data-government-filter]');if(!b)return;governmentFilter=b.dataset.governmentFilter??'';political=true;$<HTMLSelectElement>('#government-select').value=governmentFilter;applyLayers();refreshSearch();});
 $('#affiliation-select').onchange=()=>{stopPlay();affiliation=$<HTMLSelectElement>('#affiliation-select').value as AffiliationKind|'';political=true;theme='political';$<HTMLSelectElement>('#theme-select').value=theme;applyLayers();updateSources();};
 function activateCountryTab(tab:HTMLElement,focus=false){
   const changed=activeCountryTab!==tab.id.replace('tab-','');
@@ -535,7 +578,7 @@ $('#search-button').onclick=()=>{
     $('#search-scope').textContent=`Territorios visibles · ${formatYear(year)}`;
     if($('#map').getAttribute('aria-busy')==='true'){$('#search-results').textContent='Actualizando territorios…';return;}
     const q=$<HTMLInputElement>('#search-input').value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-    const matches=loaded.features.filter(f=>[f.properties?.name,f.properties?.originalName,f.properties?.controlName,profileFor(profiles,f.properties?.code||f.properties?.identityKey)?.name,f.properties?.code].filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,q?24:8);
+    const matches=loaded.features.filter(f=>!governmentFilter||(f.properties?.governmentTags??[]).includes(governmentFilter)).filter(f=>[f.properties?.name,f.properties?.originalName,f.properties?.controlName,profileFor(profiles,f.properties?.code||f.properties?.identityKey)?.name,f.properties?.code].filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)).slice(0,q?24:8);
     $('#search-results').replaceChildren();
     if(!matches.length)$('#search-results').textContent='Sin resultados en esta instantánea. Prueba otra fecha o nombre. Los nombres históricos conservan el idioma de la fuente.';
     matches.forEach(feature=>{const button=document.createElement('button');button.textContent=String(feature.properties?.name);button.onclick=()=>{if(feature.geometry.type==='Polygon'||feature.geometry.type==='MultiPolygon'){

@@ -82,3 +82,5 @@ Actualización0.15.0: documentación ampliada hasta1840, recuperación de oficio
 Actualización0.16.0: ampliación documental1820–1839. [Alcance, fuentes y pendientes](docs/DELIVERY-0.16.0.md).
 
 Actualización0.17.0: ampliación documental1800–1819. [Alcance, fuentes y pendientes](docs/DELIVERY-0.17.0.md).
+
+Actualización0.18.0: revisión de símbolos y soberanos, clasificación política fechada y filtros, ciudades históricas y episodios de conflictos. [Alcance y carencias](docs/REVIEW-0.18.md).
