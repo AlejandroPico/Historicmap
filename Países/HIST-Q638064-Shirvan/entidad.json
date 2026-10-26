@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q638064",
+  "name": "Shirvan",
+  "qid": "Q638064",
+  "aliases": [
+    "Shirvan"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q638064"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7438",
+      "start": 1500,
+      "end": 1533,
+      "name": "Shirvan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8023",
+      "start": 1534,
+      "end": 1539,
+      "name": "Shirvan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 238,
+      "start": null,
+      "end": null,
+      "name": "Shirvan",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

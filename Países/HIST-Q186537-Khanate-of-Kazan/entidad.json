@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q186537",
+  "name": "Khanate of Kazan",
+  "qid": "Q186537",
+  "aliases": [
+    "Khanate of Kazan"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q186537"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7612",
+      "start": 1500,
+      "end": 1501,
+      "name": "Khanate of Kazan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7694",
+      "start": 1502,
+      "end": 1546,
+      "name": "Khanate of Kazan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8108",
+      "start": 1547,
+      "end": 1551,
+      "name": "Khanate of Kazan",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

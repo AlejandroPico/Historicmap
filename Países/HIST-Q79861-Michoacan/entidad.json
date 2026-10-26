@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q79861",
+  "name": "Michoacán",
+  "qid": "Q79861",
+  "aliases": [
+    "Michoacán"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q79861"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7656",
+      "start": 1500,
+      "end": 1520,
+      "name": "Michoacán",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7902",
+      "start": 1521,
+      "end": 1528,
+      "name": "Michoacán",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8010",
+      "start": 1529,
+      "end": 1533,
+      "name": "Michoacán",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

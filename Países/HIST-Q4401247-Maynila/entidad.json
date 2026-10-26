@@ -1,0 +1,58 @@
+{
+  "key": "HIST-Q4401247",
+  "name": "Maynila",
+  "qid": "Q4401247",
+  "aliases": [
+    "Maynila"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q4401247"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7906",
+      "start": 1521,
+      "end": 1525,
+      "name": "Maynila",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7947",
+      "start": 1526,
+      "end": 1571,
+      "name": "Maynila",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8334",
+      "start": 1572,
+      "end": 1594,
+      "name": "Maynila",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8469",
+      "start": 1595,
+      "end": 1599,
+      "name": "Maynila",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

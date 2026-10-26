@@ -1,0 +1,82 @@
+{
+  "key": "FLORENCE-DUCHY",
+  "name": "Ducado de Florencia",
+  "qid": "Q2252973",
+  "aliases": [
+    "Ducado de Florencia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "FLORENCE-DUCHY"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q378232",
+      "name": "Alejandro de Médici",
+      "role": "Duque de Florencia",
+      "start": "1532-05-01",
+      "end": "1537-01-06",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Alessandro_de_Medici",
+      "curated": true,
+      "note": "Observación anual del cargo; no certifica fechas diarias ni control territorial uniforme.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21",
+      "portrait": {
+        "file": "media/portrait-72de31ab5c512138a645.jpg",
+        "title": "Jacopo Pontormo 056.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Jacopo_Pontormo_056.jpg",
+        "artist": "Pontormo",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jacopo_Pontormo_056.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "current image: Philadelphia Museum of Arts\noriginal image: The Yorck Project (2002)       10.000 Meisterwerke der Malerei (DVD-ROM), distributed by DIRECTMEDIA Publishing GmbH.  ISBN:  3936122202. ",
+        "sha256": "2ca5cbc87b02aff75fc7da9b6e0fa4d7376abef09da5fa53b7079e74f6e5c9d8",
+        "bytes": 20001,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Jacopo_Pontormo_056.jpg/330px-Jacopo_Pontormo_056.jpg"
+      }
+    },
+    {
+      "person": "Q48547",
+      "name": "Cosme I de Médici",
+      "role": "Duque de Florencia",
+      "start": "1537-01-06",
+      "end": "1569-08-21",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cosimo_I_de_Medici",
+      "curated": true,
+      "note": "Observación anual del cargo; no certifica fechas diarias ni control territorial uniforme.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21",
+      "portrait": {
+        "file": "media/portrait-16498df2f524da1e38e5.jpg",
+        "title": "Agnolo Bronzino - Cosimo I de' Medici in armour - Google Art Project.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Agnolo_Bronzino_-_Cosimo_I_de%27_Medici_in_armour_-_Google_Art_Project.jpg",
+        "artist": "Bronzino",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Agnolo_Bronzino_-_Cosimo_I_de%27_Medici_in_armour_-_Google_Art_Project.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Google Arts & Culture  — BgE-KxM-dl89lg",
+        "sha256": "296a4b477ceb78def376f074a8a8d80244996fbb7502f8455144a90441765f85",
+        "bytes": 32865,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Agnolo_Bronzino_-_Cosimo_I_de%27_Medici_in_armour_-_Google_Art_Project.jpg/330px-Agnolo_Bronzino_-_Cosimo_I_de%27_Medici_in_armour_-_Google_Art_Project.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

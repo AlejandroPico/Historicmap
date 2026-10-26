@@ -1,0 +1,67 @@
+{
+  "key": "HIST-Q27260",
+  "name": "Sind-Samma Dynasty",
+  "qid": "Q27260",
+  "aliases": [
+    "Sind-Samma Dynasty"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q27260"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q16849387",
+      "role": "Jefatura del Estado",
+      "start": "1500-01-01",
+      "end": "1508-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q27260",
+      "sourceStatement": "Q27260$6ebaa3f5-48fb-57e3-fd15-9533538aca58",
+      "acquisition": "historical-0.21",
+      "name": "Jam Nizamuddin II",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "1461-01-01"
+    },
+    {
+      "person": "Q6127060",
+      "role": "Jefatura del Estado",
+      "start": "1508-01-01",
+      "end": "1524-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q27260",
+      "sourceStatement": "Q27260$da5eaea9-47eb-061b-2475-a9f4c8df7893",
+      "acquisition": "historical-0.21",
+      "name": "Jam Feruzudin"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-6426",
+      "start": 1500,
+      "end": 1520,
+      "name": "Sind-Samma Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7928",
+      "start": 1521,
+      "end": 1525,
+      "name": "Sind-Samma Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

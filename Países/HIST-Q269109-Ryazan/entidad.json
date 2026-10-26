@@ -1,0 +1,66 @@
+{
+  "key": "HIST-Q269109",
+  "name": "Ryazan",
+  "qid": "Q269109",
+  "aliases": [
+    "Ryazan"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q269109"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7260",
+      "start": 1500,
+      "end": 1501,
+      "name": "Ryazan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7723",
+      "start": 1502,
+      "end": 1506,
+      "name": "Ryazan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7743",
+      "start": 1507,
+      "end": 1518,
+      "name": "Ryazan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7864",
+      "start": 1519,
+      "end": 1520,
+      "name": "Ryazan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 27,
+      "start": null,
+      "end": null,
+      "name": "Ryazan",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

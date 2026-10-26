@@ -54,7 +54,7 @@ export function regimeColor(key:string,year:number):string{
     case 'CHN-COMMUNIST':return year>=1949?'#d5b34b':'#a6784d';
     case 'RUS':return year<=1916?'#74966e':year<=1921?'#b95c54':'#9c7b9f';
     case 'RUE':return '#74966e';
-    case 'MING':return '#b16b55';case 'SOUTHERN-MING':return '#c68b70';case 'LATER-JIN':return '#a88a4d';case 'ENGLISH-COMMONWEALTH':return '#82936b';case 'SAADI':return '#aa775b';
+    case 'CASTILE':return '#c3a04f';case 'ARAGON':return '#c9ab62';case 'MUSCOVY':return '#7d9b72';case 'AZTEC':return '#8f7d53';case 'INCA':case 'NEO-INCA':return '#ad815f';case 'SUR':return '#9c8b62';case 'MING':return '#b16b55';case 'SOUTHERN-MING':return '#c68b70';case 'LATER-JIN':return '#a88a4d';case 'ENGLISH-COMMONWEALTH':return '#82936b';case 'SAADI':return '#aa775b';
     case 'BRA-EMPIRE':return '#b69852';
     case 'BRA':return year>=1889&&year<=1899?'#659a7e':historicalColor(key)??palette[hashColor(key)];
     case 'JOS':return '#bfa76a';

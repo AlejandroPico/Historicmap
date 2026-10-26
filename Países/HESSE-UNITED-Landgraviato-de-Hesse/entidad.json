@@ -1,0 +1,82 @@
+{
+  "key": "HESSE-UNITED",
+  "name": "Landgraviato de Hesse",
+  "qid": "Q695322",
+  "aliases": [
+    "Landgraviato de Hesse"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HESSE-UNITED"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q567043",
+      "name": "Guillermo II de Hesse",
+      "role": "Landgrave de Hesse",
+      "start": "1500-01-01",
+      "end": "1509-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/William_II,_Landgrave_of_Hesse",
+      "curated": true,
+      "note": "Observación anual; conversión de calendarios históricos no acreditada día a día. ",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21",
+      "portrait": {
+        "file": "media/portrait-ea01a8951331b099f7db.jpg",
+        "title": "Wilhelm II. von Hessen.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Wilhelm_II._von_Hessen.JPG",
+        "artist": "Schuber2",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "982e64c1977471f420922543020a65a58588c21c30cd7e0441e9175f970004f4",
+        "bytes": 53331,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Wilhelm_II._von_Hessen.JPG/330px-Wilhelm_II._von_Hessen.JPG"
+      }
+    },
+    {
+      "person": "Q169319",
+      "name": "Felipe I de Hesse",
+      "role": "Landgrave de Hesse",
+      "start": "1509-07-11",
+      "end": "1567-03-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Philip_I,_Landgrave_of_Hesse",
+      "curated": true,
+      "note": "Observación anual; conversión de calendarios históricos no acreditada día a día. ",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21",
+      "portrait": {
+        "file": "media/portrait-8660a0d73a3b7c22d092.jpg",
+        "title": "Wartburg-Philipp.von.Hessen.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Wartburg-Philipp.von.Hessen.JPG",
+        "artist": "Hans Krell",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wartburg-Philipp.von.Hessen.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "1. Self-photographed, Ingersoll, 26 August 20052. artprintimages.com",
+        "sha256": "359893c426a037e98e14feb6f85b97d931620d65bf4ba4ab7181d2647a3dcf75",
+        "bytes": 25501,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Wartburg-Philipp.von.Hessen.JPG"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

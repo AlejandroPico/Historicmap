@@ -1,0 +1,124 @@
+{
+  "key": "FLORENCE-REPUBLIC",
+  "name": "República de Florencia",
+  "qid": "Q148540",
+  "aliases": [
+    "Republic of Florence",
+    "República de Florencia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "FLORENCE-REPUBLIC"
+  },
+  "flags": [
+    {
+      "start": "1500-01-01",
+      "end": "1531-12-31",
+      "media": {
+        "file": "media/flag-ce1a2a7f85626f532a48.svg",
+        "title": "Flag of Florence.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Florence.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_Florence.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Kanchelskis",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Florence.svg#Licensing",
+        "credit": "This vector image includes elements that have been taken or adapted from this file:",
+        "attribution": "",
+        "attributionRequired": true,
+        "sha256": "254e6695b22153c09961922aad4a5aed9937c9bb33a455afb03ae36d0e38c726",
+        "bytes": 12479,
+        "symbolLabel": "Giglio · enseña cívica florentina",
+        "presentationNote": "Lirio rojo en blanco como referencia cívica deFlorencia; no se confunde con las armasMédici ni se afirma adopción nacional moderna.",
+        "symbolEvidenceURL": "https://commons.wikimedia.org/wiki/File:Flag_of_Florence.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Florence.svg",
+      "note": "Lirio rojo en blanco como referencia cívica deFlorencia; no se confunde con las armasMédici ni se afirma adopción nacional moderna.",
+      "acquisition": "symbols-review-0.21"
+    }
+  ],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7587",
+      "start": 1500,
+      "end": 1506,
+      "name": "Republic of Florence",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7746",
+      "start": 1507,
+      "end": 1546,
+      "name": "Republic of Florence",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8137",
+      "start": 1547,
+      "end": 1555,
+      "name": "Republic of Florence",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8201",
+      "start": 1556,
+      "end": 1571,
+      "name": "Republic of Florence",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8335",
+      "start": 1572,
+      "end": 1599,
+      "name": "Republic of Florence",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1600.geojson",
+      "recordId": "clio-8512",
+      "start": 1600,
+      "end": 1699,
+      "name": "Republic of Florence",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-8512",
+      "start": 1700,
+      "end": 1708,
+      "name": "Republic of Florence",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9489",
+      "start": 1709,
+      "end": 1733,
+      "name": "Republic of Florence",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1700.geojson",
+      "recordId": "clio-9702",
+      "start": 1734,
+      "end": 1737,
+      "name": "Republic of Florence",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q1074947",
+  "name": "Kingdom of Pajana",
+  "qid": "Q1074947",
+  "aliases": [
+    "Kingdom of Pajana"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1074947"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8319",
+      "start": 1572,
+      "end": 1578,
+      "name": "Kingdom of Pajana",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8369",
+      "start": 1579,
+      "end": 1581,
+      "name": "Kingdom of Pajana",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8403",
+      "start": 1582,
+      "end": 1587,
+      "name": "Kingdom of Pajana",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

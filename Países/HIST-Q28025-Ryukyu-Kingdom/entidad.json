@@ -1,0 +1,97 @@
+{
+  "key": "HIST-Q28025",
+  "name": "Ryukyu Kingdom",
+  "qid": "Q28025",
+  "aliases": [
+    "Ryukyu Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q28025"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q1139907",
+      "role": "Jefatura del Estado",
+      "start": "1527-01-01",
+      "end": "1555-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q1139907",
+      "sourceStatement": "Q1139907-cd0a64c3-4abe-f979-fc5b-37cd24ad436e",
+      "office": "Q56230659",
+      "acquisition": "historical-0.21",
+      "name": "Shō Sei",
+      "portrait": {
+        "file": "media/portrait-6a311b78d58089dff5e8.jpg",
+        "title": "Sho-Sei-color.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Sho-Sei-color.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sho-Sei-color.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://apjjf.org/2024/8/seifman",
+        "sha256": "f5e0b724dcf139542640fe508cf50d8e33ac33a74310ac41af7846e145e47ca0",
+        "bytes": 45261,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Sho-Sei-color.jpg/330px-Sho-Sei-color.jpg"
+      }
+    },
+    {
+      "person": "Q907317",
+      "role": "Jefatura del Estado",
+      "start": "1589-01-01",
+      "end": "1599-12-31",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q907317",
+      "sourceStatement": "Q907317-0d3c65aa-4662-cedb-acd1-8a908d8b723a",
+      "office": "Q56230659",
+      "acquisition": "historical-0.21",
+      "name": "Shō Nei",
+      "endIsCoverageBoundary": true,
+      "sourceEnd": "1620-01-01",
+      "portrait": {
+        "file": "media/portrait-5eacfc459b53b5991d89.jpg",
+        "title": "King Sho Nei.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:King_Sho_Nei.jpg",
+        "artist": "Shō Genko, 1748-1841",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_Sho_Nei.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Unknown sourceUnknown source",
+        "sha256": "04d5fb67522544d2f6b83133b186f10d771f1fcbd45c8ff66bfd91da4715c563",
+        "bytes": 49065,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/King_Sho_Nei.jpg/330px-King_Sho_Nei.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7657",
+      "start": 1500,
+      "end": 1518,
+      "name": "Ryukyu Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7860",
+      "start": 1519,
+      "end": 1520,
+      "name": "Ryukyu Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

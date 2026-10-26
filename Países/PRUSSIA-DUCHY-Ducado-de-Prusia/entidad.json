@@ -12,10 +12,100 @@
     "file": "../../public/data/identities.json",
     "key": "PRUSSIA-DUCHY"
   },
-  "flags": [],
-  "leaders": [],
+  "flags": [
+    {
+      "start": "1525-01-01",
+      "end": "1599-12-31",
+      "media": {
+        "file": "media/flag-b77db55ebfc2c0442f44.svg",
+        "title": "Flag of Ducal Prussia.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Ducal_Prussia.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Ducal_Prussia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Orange Tuesday",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Ducal_Prussia.svg#Licensing",
+        "credit": "Own work based on: POL Prusy książęce COA.svg",
+        "attribution": "",
+        "attributionRequired": true,
+        "sha256": "1ff4b94ee5e6f5364e79040a41cd9389bb3845d054ea6df078feff45973626d8",
+        "bytes": 443883,
+        "symbolLabel": "Enseña heráldica ducal",
+        "presentationNote": "Águila prusiana con inicialS y corona en el cuello. No se anticipa a la secularización de1525 ni se convierte en bandera del reino de1701.",
+        "symbolEvidenceURL": "https://commons.wikimedia.org/wiki/File:Flag_of_Ducal_Prussia.svg"
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Ducal_Prussia.svg",
+      "note": "Águila prusiana con inicialS y corona en el cuello. No se anticipa a la secularización de1525 ni se convierte en bandera del reino de1701.",
+      "acquisition": "symbols-review-0.21"
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q40433",
+      "name": "Alberto I de Prusia",
+      "role": "Duque de Prusia",
+      "start": "1525-04-10",
+      "end": "1568-03-20",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Albert,_Duke_of_Prussia",
+      "curated": true,
+      "note": "Observación anual; conversión de calendarios históricos no acreditada día a día. ",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21",
+      "portrait": {
+        "file": "media/portrait-01c9c1fcd06d313d5c37.jpg",
+        "title": "Albrecht von Hohenzollern.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Albrecht_von_Hohenzollern.jpg",
+        "artist": "Hans Krell",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Albrecht_von_Hohenzollern.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "scan from A. Bumblauskas Senosios Lietuvos istorija 1009-1795",
+        "sha256": "1a224d898e220acb6894aa194e41cecf331ce5ff4b6712804fe5273a9100ecb2",
+        "bytes": 35551,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Albrecht_von_Hohenzollern.jpg/330px-Albrecht_von_Hohenzollern.jpg"
+      }
+    },
+    {
+      "person": "Q40647",
+      "name": "Albert Frederick",
+      "role": "Duque de Prusia",
+      "start": "1568-03-20",
+      "end": "1599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Albert_Frederick,_Duke_of_Prussia",
+      "curated": true,
+      "note": "Observación anual; conversión de calendarios históricos no acreditada día a día. ",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21",
+      "portrait": {
+        "file": "media/portrait-20796b8a604b958be7d8.jpg",
+        "title": "AlbrechtFriedrichPreußen.1612.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:AlbrechtFriedrichPreu%C3%9Fen.1612.JPG",
+        "artist": "\nanonymous ",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:AlbrechtFriedrichPreu%C3%9Fen.1612.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": " Cranach und die Kunst der Renaissance unter den Hohenzollern: Kirche, Hof und Stadtkultur  ISBN:  3422069100. ",
+        "sha256": "d16f027bad23a6f51621f14d9c90ba53ae397e3d4c9d058f0c7b498df6d26e8d",
+        "bytes": 38383,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/AlbrechtFriedrichPreu%C3%9Fen.1612.JPG/330px-AlbrechtFriedrichPreu%C3%9Fen.1612.JPG"
+      }
+    }
+  ],
   "portraitVariants": [],
   "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7972",
+      "start": 1526,
+      "end": 1599,
+      "name": "Duchy of Prussia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
     {
       "file": "early-modern-1600.geojson",
       "recordId": "clio-7972",

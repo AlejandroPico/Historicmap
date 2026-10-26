@@ -1,6 +1,30 @@
 # Tareas y continuidad
 
-## Encargo vigente ·0.20.0 · ampliación hasta1600
+## Encargo vigente ·0.21.0 · ampliación hasta 1500
+
+El propietario solicita continuar con 1500–1599. Mantener datos y funciones posteriores, ampliar autoridades y símbolos con fechas y fuentes, contexto y formas políticas, y auditar los huecos. Comprobar localmente y subir sin esperar Actions/Pages.
+
+- [x] Geometría e identidades 1500–1599: 826 intervalos originales y 65 reglas; ocho recursos geográficos anteriores idénticos.
+- [x] 224 intervalos de cargos revisados, otros 153 de adquisición regional y 192 retratos nuevos. No censo mundial exhaustivo.
+- [x] 21 ventanas de símbolos, 39 registros institucionales, 37 sedes/cortes y 17 contextos con 11 puntos regionales de conflictos.
+- [x] Auditoría, conservación, pruebas y documentación. 190 pruebas en 45 archivos, tipos y compilación correctos; dos recorridos de navegador correctos tras ajustar la fecha de una prueba de filtros. Revisión visual de mapa y globo móvil, con imágenes cargadas.
+- [x] Integridad de 67 datos, 11 franjas tipográficas y 6.893 medios por SHA-256; hechos anteriores de mandatos/símbolos conservados y ocho geografías anteriores idénticas. Catálogo regenerado: 2.961 carpetas.
+- [x] 6.971 recursos preparados en Git comprobados byte a byte. Entrega 0.21.0 preparada para origin/main; confirmar el resultado del envío al cerrar. Publicación pendiente del aviso del propietario, sin esperar Actions/Pages.
+
+Auditoría: [REVIEW-1500-1599.json](docs/REVIEW-1500-1599.json), 11.630 entidades/año, 7.611 casos sin autoridad, 9.955 sin símbolo y 60 personas/órganos sin retrato en los registros disponibles. Catálogo: 752 claves y 14.592 mandatos. Fuentes y procedimientos en [RESEARCH-1500.md](docs/RESEARCH-1500.md).
+
+### Pendientes explícitos del siglo XVI
+
+- [ ] Completar autoridades y símbolos del inventario nominal; más regentes, ramas germanas, gobiernos locales y cronologías intranuales. No asumir ausencia histórica por ausencia de datos.
+- [ ] Geometrías individuales de Estados agrupados, reino de Vilcabamba y poderes sucesores de Songhai; cortes itinerantes y exilios. Las notas no sustituyen fronteras regionales que faltan.
+- [ ] Resolver los nueve casos de símbolos no adoptados/pendientes; no retrotraer banderas Qing, coreanas, rusas, mexicanas o municipales modernas.
+- [ ] Completar retratos y variantes por etapas; las 86 personas no recuperadas por la adquisición no equivalen al inventario final de 60 referencias sin retrato en las fichas activas del mapa.
+- [ ] Comprobar la publicación solamente cuando el propietario avise del despliegue. No esperar ni sondear Actions/Pages.
+
+Los pendientes de versiones anteriores siguen abiertos.
+
+
+## Entrega anterior ·0.20.0 · ampliación hasta1600
 
 El propietario solicita continuar con1600–1699. Mantener filtros, fichas persistentes y datos posteriores. Incorporar cartografía anual, identidades, autoridades con títulos y retratos, símbolos documentados, contexto y formas políticas; registrar carencias reales. Comprobar localmente y subir sin esperarActions/Pages.
 

@@ -27,7 +27,7 @@ Abrir la dirección local que indique Vite. Para generar la aplicación estátic
 - Regla temporal arrastrable con indicador, fecha y reproducción centrados. La rueda sobre la regla cambia la escala sin desplazar la fecha; sobre el mapa hace zoom geográfico. Las teclas más/menos ajustan la escala y las flechas recorren el tiempo.
 - Mapa a pantalla completa con ocho herramientas en la esquina superior derecha, sin cabecera ni franjas de controles alrededor de la regla. Filtros y Capas en paneles separados.
 - Navegación entre 4.540 Ma y el año del dispositivo, con escala adaptativa no uniforme y años introducidos por el usuario.
-- Cronología anual desde 1600: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
+- Cronología anual desde 1500: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
 - Control territorial opaco por potencia; colores específicos de regímenes, clientes y bandos. Primera y Segunda Guerra Mundial, Guerra Civil española 1936–1939 y control comunista chino, además de Sinaí, Golán y Crimea. Fuentes anuales y frente de octubre de 1937 identificados con su precisión.
 - [Corrección deEuropaCentral1938–1939](docs/CENTRAL-EUROPE-1939.md): sin manchas alemanas remotas, territorio integrado y Estado eslovaco cliente separado. El contorno eslovaco es una referencia recortada, no un levantamiento exacto de1939.
 - Banderas históricas, autoridades y retratos en las fichas. Catálogo ampliado de mandatos desde1880, con Estados predecesores, administraciones coloniales y cobertura mundial desigual; cada imagen conserva su licencia y autoría. [Alcance y fuentes1900–1919](docs/RESEARCH-1900.md) y [auditoría nominal de carencias](docs/REVIEW-1900-1919.json).
@@ -87,4 +87,4 @@ Actualización0.18.0: revisión de símbolos y soberanos, clasificación políti
 
 Actualización0.19.0: navegación anual hasta1700, símbolos y soberanos fechados, sedes de Estados germanos agrupados y nuevo panel deFiltros con opciones vacías ocultas. [Fuentes, cobertura y carencias](docs/RESEARCH-1700.md).
 
-Actualización 0.20.0: navegación anual hasta 1600, autoridades y símbolos fechados, uniones dinásticas, regencias, Commonwealth y transición Ming–Qing. [Fuentes y pendientes](docs/RESEARCH-1600.md).
+Actualización 0.21.0: navegación anual hasta 1500, autoridades y símbolos fechados, coronas hispánicas, regencias, poderes americanos y sucesiones del siglo XVI. [Fuentes y pendientes](docs/RESEARCH-1500.md).

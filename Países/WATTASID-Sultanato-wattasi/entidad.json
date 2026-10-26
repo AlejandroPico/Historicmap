@@ -1,0 +1,130 @@
+{
+  "key": "WATTASID",
+  "name": "Sultanato wattasí",
+  "qid": "Q970799",
+  "aliases": [
+    "Sultanato wattasí",
+    "Wattasid dynasty"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WATTASID"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q508985",
+      "name": "Abu Abd Allah al-Sheikh Muhammad ibn Yahya",
+      "role": "Sultán wattasí",
+      "start": "1500-01-01",
+      "end": "1504-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abu_Abd_Allah_al-Sheikh_Muhammad_ibn_Yahya",
+      "curated": true,
+      "note": "Observación anual del cargo; no certifica fechas diarias ni control territorial uniforme.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21"
+    },
+    {
+      "person": "Q307599",
+      "name": "Abu Abd Allah al-Burtuqali Muhammad ben Muhammad",
+      "role": "Sultán wattasí",
+      "start": "1504-01-01",
+      "end": "1526-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abu_Abd_Allah_al-Burtuqali_Muhammad_ibn_Muhammad",
+      "curated": true,
+      "note": "Observación anual del cargo; no certifica fechas diarias ni control territorial uniforme.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21",
+      "portrait": {
+        "file": "media/portrait-750bc2b30d33260057c6.jpg",
+        "title": "Muhammad al-Burtugali coin.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Muhammad_al-Burtugali_coin.jpg",
+        "artist": "9af9af",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "d77ca263a884bd7663eccaeaa09a03d3d40a928ab6cc96406a3523fc5417020b",
+        "bytes": 19711,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Muhammad_al-Burtugali_coin.jpg/330px-Muhammad_al-Burtugali_coin.jpg"
+      }
+    },
+    {
+      "person": "Q335546",
+      "name": "Abu al-Abbas Ahmad ibn Muhammad",
+      "role": "Sultán wattasí",
+      "start": "1526-01-01",
+      "end": "1545-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abu_al-Abbas_Ahmad_ibn_Muhammad",
+      "curated": true,
+      "note": "Observación anual del cargo; no certifica fechas diarias ni control territorial uniforme.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21"
+    },
+    {
+      "person": "Q335546",
+      "name": "Abu al-Abbas Ahmad ibn Muhammad",
+      "role": "Sultán wattasí",
+      "start": "1547-01-01",
+      "end": "1549-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abu_al-Abbas_Ahmad_ibn_Muhammad",
+      "curated": true,
+      "note": "Observación anual del cargo; no certifica fechas diarias ni control territorial uniforme.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7640",
+      "start": 1500,
+      "end": 1501,
+      "name": "Wattasid dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7715",
+      "start": 1502,
+      "end": 1546,
+      "name": "Wattasid dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8131",
+      "start": 1547,
+      "end": 1551,
+      "name": "Wattasid dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8186",
+      "start": 1552,
+      "end": 1555,
+      "name": "Wattasid dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

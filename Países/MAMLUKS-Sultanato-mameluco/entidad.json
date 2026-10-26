@@ -1,0 +1,100 @@
+{
+  "key": "MAMLUKS",
+  "name": "Sultanato mameluco",
+  "qid": "Q282428",
+  "aliases": [
+    "Mamluk Sultanate",
+    "Sultanato mameluco"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "MAMLUKS"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q286337",
+      "name": "al-Ashraf Qansuh al-Ghawri",
+      "role": "Sultán mameluco",
+      "start": "1501-04-20",
+      "end": "1516-08-24",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qansuh_al-Ghawri",
+      "curated": true,
+      "note": "Observación anual del cargo; no certifica fechas diarias ni control territorial uniforme.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21",
+      "portrait": {
+        "file": "media/portrait-5cb1ef4e03df4d9f8105.jpg",
+        "title": "Mamluk Sultan Al-Ashraf Qansuh al-Ghuri by Florentine painter Cristofano dell'Altissimo Galleria degli Uffizi.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mamluk_Sultan_Al-Ashraf_Qansuh_al-Ghuri_by_Florentine_painter_Cristofano_dell%27Altissimo_Galleria_degli_Uffizi.jpg",
+        "artist": "Florentine painter Cristofano dell'Altissimo, 16th century",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mamluk_Sultan_Al-Ashraf_Qansuh_al-Ghuri_by_Florentine_painter_Cristofano_dell%27Altissimo_Galleria_degli_Uffizi.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "[1]",
+        "sha256": "521d647a53a50986e07fb4c5a1424903149e057f57ff4e2e3fa2ecb2cb0d937c",
+        "bytes": 38483,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Mamluk_Sultan_Al-Ashraf_Qansuh_al-Ghuri_by_Florentine_painter_Cristofano_dell%27Altissimo_Galleria_degli_Uffizi.jpg/330px-Mamluk_Sultan_Al-Ashraf_Qansuh_al-Ghuri_by_Florentine_painter_Cristofano_dell%27Altissimo_Galleria_degli_Uffizi.jpg"
+      }
+    },
+    {
+      "person": "Q557896",
+      "name": "Tuman bay II",
+      "role": "Sultán mameluco",
+      "start": "1516-10-17",
+      "end": "1517-04-15",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tuman_bay_II",
+      "curated": true,
+      "note": "Observación anual del cargo; no certifica fechas diarias ni control territorial uniforme.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21",
+      "portrait": {
+        "file": "media/portrait-9f8eaab046be2e276264.jpg",
+        "title": "Tumanbay II (81651932).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Tumanbay_II_(81651932).jpg",
+        "artist": "Paolo Giovio",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tumanbay_II_(81651932).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "National Library of Poland\n",
+        "sha256": "0f8cc8dab2d0fdbb82e8723f64feab547514469edf9314940b788a05247d164e",
+        "bytes": 82639,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Tumanbay_II_%2881651932%29.jpg/330px-Tumanbay_II_%2881651932%29.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7434",
+      "start": 1500,
+      "end": 1515,
+      "name": "Mamluk Sultanate",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7838",
+      "start": 1516,
+      "end": 1518,
+      "name": "Mamluk Sultanate",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

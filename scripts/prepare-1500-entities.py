@@ -1,0 +1,56 @@
+"""Date-scoped1500–1599 identities over unaltered source coordinates."""
+import pathlib,json
+ROOT=pathlib.Path(__file__).resolve().parents[1];OUT=ROOT/'public/data'
+read=lambda f:json.loads((OUT/f).read_text(encoding='utf8'))
+def prepare(ids):
+ cs=ids['countries'];d=dict(format='dated-entity-resolution',coverageStart=1500,coverageEnd=1599,referenceDate='2026-10-26',qidKeys={},names={k:c['name'] for k,c in cs.items()},records=[])
+ for k,c in cs.items():
+  if c.get('qid'):d['qidKeys'].setdefault(c['qid'],k)
+ for k in ['CASTILE','ARAGON','MUSCOVY','AZTEC','INCA','SUR','KALMAR','WATTASID','MAMLUKS','LODI','TIMURID','MING','JOS','RUSSIA-TSARDOM','BAVARIA-DUCHY','SAXONY-ELECTORATE','ELECTORATE-BRANDENBURG','PRUSSIA-DUCHY','IBERIAN-UNION','SAADI','DUTCH-REPUBLIC','POLISH-LITHUANIAN','HUNGARY-KINGDOM','EAST-HUNGARY','BOHEMIA','FLORENCE-REPUBLIC','FLORENCE-DUCHY','HABSBURG-MONARCHY']:
+  d['qidKeys'][cs[k]['qid']]=k
+ def rule(names,key,a=1500,b=1599,label=None,admin='',status='independent',note=''):
+  d['records'].append(dict(names=names.split('|'),key=key,label=label or cs[key]['name'],entityCode=key,start=a,end=b,admin=admin,status=status,source='https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1500.md',note=note+' Geometría de síntesis anual; no acredita contornos diarios de control.'))
+ rule('Holy Roman Empire|Holy Roman Empire Minor States','HIST-Q12548',label='Estados agrupados del Sacro Imperio',note='Múltiples soberanías. La dignidad imperial no convierte cada miembro en territorio nacional de un mismo Estado.')
+ rule('Habsburg Monarchy|House of Habsburg','HABSBURG-MONARCHY',note='Casa y dominios de distintas ramas. El identificador familiar no es un gobernante; no se asigna aCarlosV todaAustria hasta1556 por su título imperial.')
+ rule('House of Bourbon','BOURBON-DUCHY',b=1526,note='La familia no es un país único; aquí se conserva el pequeño dominio ducal de fuente, no todaFrancia.')
+ rule('House of Bourbon','FRA',a=1527,label='Borbón · dominio incorporado a la corona francesa',note='La confiscación de1527 no significa que la dinastía borbónica gobierne todaFrancia antes de1589.')
+ rule('Duchy of Bavaria','BAVARIA-DUCHY',note='Baviera-Múnich y otras ramas antes de la reunificación de1505; no se inventan sus fronteras internas.')
+ rule('Electorate of Saxony','SAXONY-ELECTORATE')
+ rule('Electorate of Brandenburg','ELECTORATE-BRANDENBURG')
+ rule('Duchy of Prussia','PRUSSIA-DUCHY',a=1525,note='Ducado secular desde1525, no reino desde1500.')
+ rule('House of Savoy|Duchy of Savoy|County of Savoy','SAVOY-DUCHY',note='Dignidad ducal desde1416; la etiqueta de condado no se prolonga institucionalmente.')
+ rule('Republic of Florence','FLORENCE-REPUBLIC',b=1531,note='Incluye períodos de predominio Médici y restauraciones republicanas; gobierno personal y constitución no son equivalentes.')
+ rule('Republic of Florence|Duchy of Florence','FLORENCE-DUCHY',a=1532,b=1568)
+ rule('Republic of Florence|Grand Duchy of Tuscany','HIST-Q154849',a=1569,label='Gran Ducado de Toscana')
+ rule('Papal States|Comtat Venaissin','PAPAL-STATES')
+ for n,k in [('Republic of Venice','HIST-Q4948'),('Republic of Genoa','HIST-Q174306'),('Republic of Ragusa','HIST-Q208169'),('Kingdom of England','ENGLAND'),('Kingdom of Scotland','SCOTLAND'),('Crown of Castile','CASTILE'),('Crown of Aragon','ARAGON'),('Grand Principality of Moscow','MUSCOVY'),('Tsardom of Russia','RUSSIA-TSARDOM'),('Kalmar Union','KALMAR'),('Denmark-Norway','DENMARK-NORWAY'),('Kingdom of Hungary','HUNGARY-KINGDOM'),('Kingdom of Bohemia','BOHEMIA'),('Eastern Hungarian Kingdom','EAST-HUNGARY'),('Ottoman Empire','OTT'),('Mamluk Sultanate','MAMLUKS'),('Wattasid dynasty','WATTASID'),('Saadi Sultanate','SAADI'),('Lodi Dynasty','LODI'),('Sur Empire','SUR'),('Ming Dynasty','MING'),('Safavid Dynasty','SAFAVID'),('Timurid Empire','TIMURID'),('Aztec Triple Alliance','AZTEC')]:rule(n,k)
+ rule('Kingdom of France','FRA',b=1588,label='Francia · monarquía Valois')
+ rule('Kingdom of France','FRA',a=1589,label='Francia · monarquía borbónica')
+ rule('Kingdom of Spain|Spanish Empire','CASTILE',b=1515,label='Dominios castellanos · expansión ultramarina',note='Las coronas deCastilla yAragón conservan instituciones propias; no se anticipa el gobierno deCarlosI a1500.')
+ rule('Kingdom of Spain|Spanish Empire','ESP',a=1516,label='Monarquía hispánica · unión de coronas')
+ rule('Iberian Union','IBERIAN-UNION',a=1580,note='Unión dinástica; Portugal conserva instituciones propias. No es una anexión administrativa uniforme.')
+ rule('Kingdom of Portugal|Portuguese Empire','PRT',label='Monarquía portuguesa')
+ rule('Portuguese Colonies|Portuguese Africa','HIST-Q200464',admin='PRT',status='colony',label='Establecimientos y dominios portugueses',note='Los titulares de la corona no equivalen a los gobernadores locales.')
+ rule('Portuguese Ceylon','HIST-Q1709007',admin='PRT',status='colony')
+ rule('France Antarctique','HIST-Q1353951',a=1555,b=1567,admin='FRA',status='colony')
+ rule('Dutch Republic|Union of Utrecht','DUTCH-REPUBLIC',a=1579,note='Unión confederal de1579 y abjuración de1581 son hechos distintos; reconocimiento internacional posterior.')
+ rule('Kingdom of Sweden','SWE',note='Regencias y unión danesa anteriores a1523 no se sustituyen por un reyVasa permanente.')
+ rule('House of Jagiellon','JAGIELLON-DOMAINS',status='source-reference',label='Dominios jagellones · agregado de fuente',note='Ramas y coronas distintas enPolonia-Lituania,Hungría yBohemia. No se presenta a un rey polaco como soberano de todas ellas.')
+ rule('Polish-Lithuanian Commonwealth','POLAND-KINGDOM',b=1568,label='Polonia y Lituania · unión anterior aLublin',note='No es laRepública de lasDosNaciones hasta1569. El contorno agregado no separa el gran ducado; el rey dePolonia no acredita el mismo cargo en todos los años deLituania.')
+ rule('Polish-Lithuanian Commonwealth','POLISH-LITHUANIAN',a=1569)
+ rule('Joseon','JOS',note='Se corrige elQIDantiguoGojoseon de la fuente; no es Corea prehistórica.')
+ rule('Ashikaga Shogunate|Warring States Japan','JPN',label='Japón · poderes regionales y corte imperial',note='No se atribuye al shogun control uniforme de todos los dominios; Oda yToyotomi no son shogunes.')
+ rule('Khmer Empire','KHM',label='Reino de Camboya',note='No se prolonga el imperio medieval por conservar su etiqueta en la fuente.')
+ rule('Ayutthaya Kingdom','AYUTTHAYA')
+ rule('Inca Empire','INCA',b=1536,note='La conquista y los gobernantes inicialmente reconocidos por los españoles se distinguen deVilcabamba.')
+ rule('Inca Empire','NEO-INCA',a=1537,b=1572,note='El contorno heredado de fuente NO reconstruye el reducido reino deVilcabamba; se advierte el cambio de ámbito en vez de inventar un polígono preciso.')
+ rule('Inca Empire','NEO-INCA',a=1573,status='source-reference',label='Antiguos dominios incas · referencia de fuente',note='Vilcabamba cae en1572; cualquier persistencia de la geometría no acredita independencia posterior.')
+ rule('County of Urgell','ARAGON',b=1515,label='Urgell · Corona deAragón',note='El condado independiente terminó en1413.')
+ rule('County of Urgell','ESP',a=1516,label='Urgell · monarquía hispánica')
+ rule('Sultanate of Malacca','HIST-Q46652',b=1510,label='Sultanato deMalaca')
+ rule('Sultanate of Malacca','HIST-Q46652',a=1511,admin='PRT',status='colony',label='Malaca · administración portuguesa',note='No se prolonga el sultanato independiente tras la conquista portuguesa.')
+ for n,k in [('Eastern Moghulistan','EASTERN-MOGHULISTAN'),('Western Moghulistan','WESTERN-MOGHULISTAN')]:rule(n,k,status='source-reference',note='UnQIDcompartido no acredita un khan único de ámbitos separados; serie local pendiente.')
+ rule('Later Mayan City-States','HIST-Q28567',status='source-reference',label='Estados mayas · agregado de fuente',note='Civilización y múltiples ciudades, no un solo país ni una sola autoridad.')
+ return d
+if __name__=='__main__':
+ d=prepare(read('identities.json'));(OUT/'historical-1500-entities.json').write_text(json.dumps(d,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf8',newline='\n');print('Dated rules',len(d['records']))

@@ -221,7 +221,7 @@ function renderSelection(){
 async function featureAt(anchor:CountryAnchor,targetYear:number){
   const target=snapshotFor(targetYear);if(target.kind==='concept'||target.kind==='geological')return undefined;
   const raw=target.kind==='annual'?await annualData(targetYear):await asset<FeatureCollection>(target.file!);
-  const data=anchor.uid?await overlaysFor(targetYear):(await controlledMap(politicalData(raw,targetYear,target.kind==='modern'?profiles:undefined),targetYear>=1600?await overlaysFor(targetYear):empty,targetYear)).territories;
+  const data=anchor.uid?await overlaysFor(targetYear):(await controlledMap(politicalData(raw,targetYear,target.kind==='modern'?profiles:undefined),targetYear>=1500?await overlaysFor(targetYear):empty,targetYear)).territories;
   return matchingFeature(anchor,{type:'FeatureCollection',features:[...data.features,...datedPlaces(data,targetYear).features.filter(f=>f.properties?.sovereignSeat)]},targetYear,identityData);
 }
 async function renderComparison(){
@@ -249,7 +249,7 @@ function reliefAvailable(){return year>=-10000&&snapshot.kind!=='concept'&&snaps
 function updateSources(){
   const source=snapshot.kind==='modern'?['Natural Earth','https://www.naturalearthdata.com/']:snapshot.kind==='annual'?(year<1886?['Cliopatria','https://github.com/Seshat-Global-History-Databank/cliopatria']:['CShapes 2.0','https://icr.ethz.ch/data/cshapes/']):snapshot.kind==='geological'?['Cao et al. 2024','https://doi.org/10.1016/j.gsf.2024.101922']:['Atlas histórico · A. Ourednik','https://github.com/aourednik/historical-basemaps'];
   if(snapshot.kind==='concept'){source[0]=year < -1800000000?'NASA · formación planetaria':'Smithsonian · evolución humana';source[1]=year < -1800000000?'https://science.nasa.gov/earth/facts/':'https://humanorigins.si.edu/';}
-  $('#source-reference').textContent=`Fecha consultada: ${formatYear(year)}.${year>=1600?` Autoridades adquiridas: ${identityData?.retrieved??'cargando'}.`:''}`;
+  $('#source-reference').textContent=`Fecha consultada: ${formatYear(year)}.${year>=1500?` Autoridades adquiridas: ${identityData?.retrieved??'cargando'}.`:''}`;
   $('#source-links').innerHTML=`<a href="${source[1]}" target="_blank" rel="noopener">${source[0]} ↗</a> · <a href="https://data.worldbank.org/" target="_blank" rel="noopener">Indicadores WDI ↗</a> · <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Autoridades ↗</a>${affiliation?` · <a href="${esc(AFFILIATIONS[affiliation].source)}" target="_blank" rel="noopener">${esc(AFFILIATIONS[affiliation].label)} ↗</a>`:''}`;
   $('#source-scope').textContent=snapshot.kind==='modern'?'Cartografía de referencia 2026. Las cifras y las membresías conservan sus propias fechas. Imágenes: autor y licencia en cada ficha.':snapshot.kind==='annual'?'Base territorial al cierre anual; contornos de referencia identificados en las fichas. Control con fecha propia. Mandatos de todo el año y membresías al cierre.':'Reconstrucción según la fecha y el alcance del modelo; no es una observación directa.';
   if(physical&&reliefAvailable())$('#source-scope').textContent+=' Relieve contemporáneo de referencia; no reconstruye altitudes ni costas antiguas.';
@@ -269,7 +269,7 @@ function refreshMap(force=false):Promise<void> {
   $('#affiliation-select').toggleAttribute('disabled',!affiliationsAvailable(year));
   $('#political-layer').toggleAttribute('disabled',concept);
   $('#places-layer').toggleAttribute('disabled',year < -10000);
-  $('#occupations-layer').toggleAttribute('disabled',year<1600);
+  $('#occupations-layer').toggleAttribute('disabled',year<1500);
   $('#theme-select').toggleAttribute('disabled',year<1960||snapshot.kind==='geological');
   $('#territory-description').textContent=snapshot.kind==='geological'?'Masas continentales reconstruidas':snapshot.kind==='modern'?'Países y fronteras':snapshot.kind==='annual'?'Territorios y dependencias fechados':'Áreas políticas y culturales';
   $('#concept').classList.toggle('human-era',year > -1800000000);
@@ -298,7 +298,7 @@ function refreshMap(force=false):Promise<void> {
         target.kind==='annual'?annualData(targetYear):asset<FeatureCollection>(target.file!),
         asset<ProfileData>('profiles.json'),
         target.kind==='modern'?modernCities():Promise.resolve(empty),
-        targetYear>=1600?overlaysFor(targetYear):Promise.resolve(empty),
+        targetYear>=1500?overlaysFor(targetYear):Promise.resolve(empty),
         asset<IdentityData>('identities.json'),
         target.kind==='annual'||target.kind==='historical'?asset<FeatureCollection>('countries.geojson'):Promise.resolve(empty),
         asset<IndicatorData>('country-indicators.json'),asset<CountryHistory>('country-history.json')
@@ -402,9 +402,9 @@ function applyLayers(){
   map.setPaintProperty('territory-fill','fill-antialias',snapshot.kind!=='geological');
   map.setLayoutProperty('territory-labels','visibility',political&&snapshot.kind!=='geological'?'visible':'none');
   map.setLayoutProperty('relief','visibility',physical&&reliefAvailable()?'visible':'none');
-  const controlVisible=showOccupations&&year>=1600;
+  const controlVisible=showOccupations&&year>=1500;
   for(const id of ['occupation-fill','occupation-line'])map.setLayoutProperty(id,'visibility',controlVisible?'visible':'none');
-  const nextConflicts=year>=1600?conflictPointsFor(year):empty;const nextConflictSignature=showOccupations?JSON.stringify(nextConflicts):'';
+  const nextConflicts=year>=1500?conflictPointsFor(year):empty;const nextConflictSignature=showOccupations?JSON.stringify(nextConflicts):'';
   conflictData=nextConflicts;
   if(nextConflictSignature!==conflictSignature){conflictSignature=nextConflictSignature;void (map.getSource('conflict-points') as GeoJSONSource).setData(controlVisible?conflictData:empty);}
   for(const layer of ['conflict-circles','conflict-labels'])map.setLayoutProperty(layer,'visibility',controlVisible?'visible':'none');
@@ -491,7 +491,7 @@ function stopPlay(){playing=false;playGeneration++;$('#play').setAttribute('aria
 async function play(generation:number){
   await refreshMap();
   while(playing&&generation===playGeneration){
-    await new Promise(resolve=>setTimeout(resolve,year>=1600?850:350));
+    await new Promise(resolve=>setTimeout(resolve,year>=1500?850:350));
     if(!playing||generation!==playGeneration)return;
     if(year>=PRESENT){stopPlay();return;}
     // Advance only after the previous map has finished committing to the renderer.
@@ -499,8 +499,8 @@ async function play(generation:number){
   }
 }
 $('#play').onclick=()=>{if(playing){stopPlay();return;}if(year===PRESENT)void updateYear(1900);playing=true;const generation=++playGeneration;$('#play').setAttribute('aria-pressed','true');$('#play').setAttribute('aria-label','Pausar recorrido');$('#play').innerHTML=icon('pause');createIcons({icons});void play(generation);};
-$('#previous').onclick=()=>{stopPlay();void updateYear(year>=1600?year-1:anchors[Math.max(0,Math.ceil(position)-1)]);};
-$('#next').onclick=()=>{stopPlay();void updateYear(year>=1600?Math.min(PRESENT,year+1):anchors[Math.min(anchors.length-1,Math.floor(position)+1)]);};
+$('#previous').onclick=()=>{stopPlay();void updateYear(year>=1500?year-1:anchors[Math.max(0,Math.ceil(position)-1)]);};
+$('#next').onclick=()=>{stopPlay();void updateYear(year>=1500?Math.min(PRESENT,year+1):anchors[Math.min(anchors.length-1,Math.floor(position)+1)]);};
 function projectionControl(){const label=projection==='globe'?'Ver mapa 2D':'Ver globo 3D';$('#projection-button').dataset.view=projection;$('#projection-button').setAttribute('aria-label',label);$('#projection-button').title=label;$('#projection-button').innerHTML=icon(projection==='globe'?'map':'globe-2');createIcons({icons});}
 function setProjection(value:'globe'|'mercator') {projection=value;if(ready)map.setProjection({type:value});projectionControl();updateYear(year);}
 $('#projection-button').onclick=()=>setProjection(projection==='globe'?'mercator':'globe');

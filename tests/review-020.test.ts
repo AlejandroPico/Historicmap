@@ -17,7 +17,7 @@ describe('1600–1699 extension and temporal continuity',()=>{
    years.push({year:y,territories:d.features.length,withAuthorities:authorities,withSymbols:symbols,additionalGroupedStateSeats:datedPlaces(d,y).features.filter(f=>f.properties?.sovereignSeat).length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-1600-1699.json',JSON.stringify({scope:'Production-path availability, not a complete state census, daily front reconstruction or historiographic certification. Grouped-state seat references counted separately.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()]},null,2)+'\n');
-  expect(snapshotFor(1599).kind).toBe('historical');expect(snapshotFor(1700).file).toBe('early-modern-1700.geojson');
+  expect(snapshotFor(1599).file).toBe('early-modern-1500.geojson');expect(snapshotFor(1700).file).toBe('early-modern-1700.geojson');
  },90000);
  it('separates interregnum and restoration, Ming/Qing and dynastic unions without future rulers',async()=>{
   const key=(d:any,n:string)=>d.features.find((f:any)=>f.properties.originalName===n)?.properties.identityKey;

@@ -1,0 +1,70 @@
+{
+  "key": "HIST-Q1572529",
+  "name": "Hanthawaddy Kingdom",
+  "qid": "Q1572529",
+  "aliases": [
+    "Hanthawaddy Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1572529"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q3514244",
+      "role": "Jefatura del Estado",
+      "start": "1526-01-01",
+      "end": "1539-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q1572529",
+      "sourceStatement": "Q1572529$ff874402-4123-c22f-65e3-d61220e6e500",
+      "acquisition": "historical-0.21",
+      "name": "Takayutpi"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7584",
+      "start": 1500,
+      "end": 1506,
+      "name": "Hanthawaddy Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7738",
+      "start": 1507,
+      "end": 1511,
+      "name": "Hanthawaddy Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7791",
+      "start": 1512,
+      "end": 1539,
+      "name": "Hanthawaddy Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-8084",
+      "start": 1540,
+      "end": 1546,
+      "name": "Hanthawaddy Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

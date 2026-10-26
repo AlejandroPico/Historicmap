@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.21.0 · 26/10/2026
+
+- Navegación anual hasta 1500: 826 intervalos adicionales y 65 reglas de identidad; coordenadas originales y cartografía posterior conservadas.
+- 224 intervalos de cargos revisados, adquisición regional y 192 retratos adicionales. Coronas hispánicas, regencias, pontificados, sucesiones americanas y reinados interrumpidos diferenciados.
+- 21 ventanas de símbolos fechados: armas Valois, enseñas castellanas y aragonesas, pabellones portugueses y mon Ashikaga. No se retrotraen banderas nacionales posteriores.
+- 39 registros institucionales, 37 sedes/cortes y 17 contextos, con 11 puntos regionales de conflictos. Los agregados cartográficos y las fronteras regionales pendientes quedan señalados.
+- Auditoría de los cien años y carencias documentadas en [RESEARCH-1500.md](docs/RESEARCH-1500.md).
+
 ## 0.20.0 · 26/10/2026
 
 - Navegación anual hasta 1600: 783 intervalos adicionales, coordenadas intactas y 67 reglas de identidad fechadas; los archivos geográficos anteriores se conservan.

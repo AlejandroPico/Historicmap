@@ -1,0 +1,116 @@
+{
+  "key": "LODI",
+  "name": "Sultanato de Delhi · dinastía Lodi",
+  "qid": "Q11709",
+  "aliases": [
+    "Lodi Dynasty",
+    "Sultanato de Delhi · dinastía Lodi"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "LODI"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q2597227",
+      "name": "Sikandar Lodi",
+      "role": "Sultán de Delhi",
+      "start": "1500-01-01",
+      "end": "1517-11-21",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sikandar_Lodi",
+      "curated": true,
+      "note": "Observación anual del cargo; no certifica fechas diarias ni control territorial uniforme.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21",
+      "portrait": {
+        "file": "media/portrait-d90031863336b9f52894.jpg",
+        "title": "Lodhi Gardens Tombs 092.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Lodhi_Gardens_Tombs_092.jpg",
+        "artist": "Anupamg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "91b05d0c824f36516aac611ea14b203d2c70653eacc02f0ba0b0b3d8ae563a77",
+        "bytes": 29201,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Lodhi_Gardens_Tombs_092.jpg/330px-Lodhi_Gardens_Tombs_092.jpg"
+      }
+    },
+    {
+      "person": "Q381754",
+      "name": "Ibrahim Khan Lodi",
+      "role": "Sultán de Delhi",
+      "start": "1517-11-21",
+      "end": "1526-04-21",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ibrahim_Lodi",
+      "curated": true,
+      "note": "Observación anual del cargo; no certifica fechas diarias ni control territorial uniforme.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "acquisition": "curated-1500-0.21",
+      "portrait": {
+        "file": "media/portrait-92fbab0cddad069c0922.jpg",
+        "title": "Ibrahim Lodi at the Battle of Panipat (1526).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ibrahim_Lodi_at_the_Battle_of_Panipat_(1526).jpg",
+        "artist": "c.1590 artist",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ibrahim_Lodi_at_the_Battle_of_Panipat_(1526).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "This image has been extracted from another file",
+        "sha256": "ea4da02874f2bd175a2e89456f71be5a61e6af1c099aee65b5c2f932a10b3057",
+        "bytes": 68210,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Ibrahim_Lodi_at_the_Battle_of_Panipat_%281526%29.jpg/330px-Ibrahim_Lodi_at_the_Battle_of_Panipat_%281526%29.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7635",
+      "start": 1500,
+      "end": 1518,
+      "name": "Lodi Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7863",
+      "start": 1519,
+      "end": 1520,
+      "name": "Lodi Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7913",
+      "start": 1521,
+      "end": 1525,
+      "name": "Lodi Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1500.geojson",
+      "recordId": "clio-7943",
+      "start": 1526,
+      "end": 1528,
+      "name": "Lodi Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
