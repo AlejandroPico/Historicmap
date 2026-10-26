@@ -1,6 +1,6 @@
 {
   "referenceDate": "2026-10-22",
-  "startYear": 1840,
+  "startYear": 1820,
   "endYear": 2026,
   "events": [
     {
@@ -6679,6 +6679,252 @@
       "precision": 11,
       "startIsCoverageBoundary": false,
       "endIsCoverageBoundary": true
+    },
+    {
+      "id": "extension-1820-france-restoration",
+      "type": "transition",
+      "countries": [
+        "FRA"
+      ],
+      "title": "Francia · Restauración borbónica",
+      "start": "1820-01-01",
+      "end": "1830-08-09",
+      "text": "Luis XVIII y Carlos X preceden a Luis Felipe. Las jornadas de julio y el juramento de agosto de 1830 son fases distintas.",
+      "source": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/monarchie-de-juillet/l-insurrection-des-trois-glorieuses",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-france-july",
+      "type": "transition",
+      "countries": [
+        "FRA"
+      ],
+      "title": "Francia · Monarquía de Julio",
+      "start": "1830-08-09",
+      "end": "1840-01-01",
+      "text": "Luis Felipe jura la Carta revisada. El cambio de dinastía y régimen no constituye una república.",
+      "source": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/monarchie-de-juillet/l-insurrection-des-trois-glorieuses",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-triennium",
+      "type": "transition",
+      "countries": [
+        "ESP"
+      ],
+      "title": "España · Trienio Liberal",
+      "start": "1820-01-01",
+      "end": "1824-01-01",
+      "text": "Fernando VII conserva el trono bajo la Constitución restaurada. La intervención francesa termina el periodo constitucional durante 1823.",
+      "source": "https://www.congreso.es/en/web/guest/cem/trielib",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-spain-intervention",
+      "type": "conflict",
+      "countries": [
+        "ESP",
+        "FRA"
+      ],
+      "title": "Intervención francesa en España de 1823",
+      "start": "1823-01-01",
+      "end": "1824-01-01",
+      "text": "Los Cien Mil Hijos de San Luis restauran el absolutismo. No se convierte todo el país en una anexión francesa.",
+      "source": "https://www.congreso.es/en/web/guest/cem/trielib",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-spain-regency",
+      "type": "transition",
+      "countries": [
+        "ESP"
+      ],
+      "title": "España · sucesión y regencia de 1833",
+      "start": "1833-01-01",
+      "end": "1840-01-01",
+      "text": "Tras la muerte de Fernando VII, Isabel II es soberana menor y María Cristina regente. Estatuto Real de 1834 y Constitución de 1837 son instrumentos distintos. Falta completar las autoridades carlistas.",
+      "source": "https://www.congreso.es/en/web/guest/cem/regmcris",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-portugal-war",
+      "type": "conflict",
+      "countries": [
+        "PRT"
+      ],
+      "title": "Portugal · guerra civil liberal",
+      "start": "1832-01-01",
+      "end": "1835-01-01",
+      "text": "Liberales y absolutistas combaten entre 1832 y 1834. La paz de Évora-Monte no proporciona por sí misma un frente militar anual.",
+      "source": "https://app.parlamento.pt/publicacoesonline/palacio.pdf",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-brazil-independence",
+      "type": "transition",
+      "countries": [
+        "BRA-EMPIRE",
+        "PRT"
+      ],
+      "title": "Brasil · independencia y Primer Reinado",
+      "start": "1822-01-01",
+      "end": "1831-04-07",
+      "text": "Independencia de 1822, Constitución de 1824 y abdicación de 1831 son momentos distintos. El título honorífico de Juan VI no es gobierno efectivo del Brasil.",
+      "source": "https://www12.senado.leg.br/senado200anos/passado",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-brazil-regencies",
+      "type": "transition",
+      "countries": [
+        "BRA-EMPIRE"
+      ],
+      "title": "Brasil · periodo de regencias",
+      "start": "1831-04-07",
+      "end": "1840-01-01",
+      "text": "Durante la minoría de Pedro II gobiernan regencias colegiadas y unipersonales. El corte de cobertura precede a la mayoría anticipada de 1840.",
+      "source": "https://www12.senado.leg.br/senado200anos/passado",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-belgium",
+      "type": "transition",
+      "countries": [
+        "BEL",
+        "NLD"
+      ],
+      "title": "Bélgica · independencia y Constitución",
+      "start": "1830-01-01",
+      "end": "1832-01-01",
+      "text": "Independencia proclamada el 4 de octubre de 1830; Constitución y acceso de Leopoldo I en 1831. No se asigna su reinado al Gobierno provisional de 1830.",
+      "source": "https://www.belgium.be/en/about_belgium/country/history/belgium_from_1830",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-mexico",
+      "type": "transition",
+      "countries": [
+        "HIST-Q285658",
+        "MEX"
+      ],
+      "title": "México · Primer Imperio y transición federal",
+      "start": "1822-01-01",
+      "end": "1825-01-01",
+      "text": "Iturbide es proclamado en 1822; la caída de 1823 precede a la Constitución federal de 1824. No se confunde este Imperio con el de Maximiliano.",
+      "source": "https://www.gob.mx/agn/articulos/agnrecuerda-al-primer-imperio-mexicano",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-monroe",
+      "type": "transition",
+      "countries": [
+        "USA"
+      ],
+      "title": "Doctrina Monroe · declaración de 1823",
+      "start": "1823-12-02",
+      "end": "1824-01-01",
+      "text": "El mensaje presidencial advierte contra nuevas intervenciones europeas. Es una posición diplomática, no una alianza ni una anexión continental.",
+      "source": "https://www.archives.gov/milestone-documents/monroe-doctrine",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 11,
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-removal",
+      "type": "transition",
+      "countries": [
+        "USA"
+      ],
+      "title": "Estados Unidos · desplazamiento forzoso indígena",
+      "start": "1830-01-01",
+      "end": "1840-01-01",
+      "text": "La Indian Removal Act de 1830 y los desplazamientos posteriores afectan a pueblos indígenas. La ausencia de entidades en la geometría no significa tierra deshabitada.",
+      "source": "https://www.archives.gov/milestone-documents/jacksons-message-to-congress-on-indian-removal",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-afghan",
+      "type": "conflict",
+      "countries": [
+        "AFG",
+        "GBR",
+        "IND"
+      ],
+      "title": "Primera guerra anglo-afgana · fase de 1839",
+      "start": "1839-01-01",
+      "end": "1840-01-01",
+      "text": "La expedición británico-india instala a Shah Shuja tras la salida de Dost Mohammad. La guerra continúa hasta 1842; esta ventana sólo cubre su primera fase.",
+      "source": "https://www.nam.ac.uk/explore/first-afghan-war",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
+    },
+    {
+      "id": "extension-1820-opium",
+      "type": "conflict",
+      "countries": [
+        "QNG",
+        "GBR",
+        "IND"
+      ],
+      "title": "Primera guerra del Opio · inicio de 1839",
+      "start": "1839-01-01",
+      "end": "1840-01-01",
+      "text": "Las confiscaciones y los primeros combates preceden a las campañas de 1840. El corte documental no es el final de la guerra.",
+      "source": "https://www.nam.ac.uk/explore/first-china-war-1839-1842",
+      "sourceLabel": "Fuente institucional · investigación 1820–1839",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "note": "Ventana documental; los límites de cobertura no son fechas de acceso, cese o paz. No aporta geometría de frentes."
     }
   ],
   "retrieved": "2026-10-24",

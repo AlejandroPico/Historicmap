@@ -3,7 +3,7 @@ import components from '../public/data/pacific-components.json';
 /** Split named island components out of source aggregates. Coordinates are
  * reused verbatim and removed from the aggregate, so there is one owner. */
 export function pacificComponents(data:FeatureCollection,year:number):FeatureCollection{
- if(year<1840||year>1885)return data;
+ if(year<1820||year>1885)return data;
  return {...data,features:data.features.flatMap(f=>{
   const rows=components.records.filter(r=>r.sourceFeatureId===f.id&&r.start<=year&&r.end>=year);
   if(!rows.length||!['Polygon','MultiPolygon'].includes(f.geometry.type))return [f];
@@ -17,7 +17,7 @@ export function pacificComponents(data:FeatureCollection,year:number):FeatureCol
 }
 /** Add only reference islands omitted by the dated source or older supplements. */
 export function pacificReferences(data:FeatureCollection,year:number,references:FeatureCollection):FeatureCollection{
- if(year<1840||year>2019)return data;
+ if(year<1820||year>2019)return data;
  const aliases:Record<string,string>={'New Caledonia and Dependencies':'NCL','French Polynesia':'PYF','Fiji':'FJI'};
  const features=data.features.map(f=>{const key=aliases[String(f.properties?.originalName??f.properties?.country_name??'')];return key?{...f,properties:{...f.properties,identityKey:key,entityCode:key,localAuthorityKey:key}}:f;});
  const existing=new Set(features.flatMap(f=>[f.properties?.identityKey,f.properties?.entityCode,f.properties?.code]));

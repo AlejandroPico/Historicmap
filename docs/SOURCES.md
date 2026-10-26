@@ -155,3 +155,7 @@ Fuentes, licencias, resolución de identidades, referencias geográficas y lími
 ## Ampliación1840–1859 · 0.15
 
 Cargos históricos explícitos, metadatosWikidataCC0 y curaciones institucionales complementan la geometríaCliopatria sin modificar sus coordenadas. Símbolos e imágenes conservan licencia propia, autoría y huellas en el manifiesto. [Investigación, enlaces primarios y limitaciones](RESEARCH-1840.md). No se afirma cobertura mundial exhaustiva ni reconstrucción diaria de frentes.
+
+## Ampliación1820–1839 · 0.16
+
+Consultas históricas aisladas, símbolos ya acreditados, nuevos retratos con licencia propia y14 fases documentales institucionales. No se adquieren datos durante la compilación. Fuentes y límites en [DELIVERY-0.16.0.md](DELIVERY-0.16.0.md); candidatos y declaraciones en scripts/historical-offices-016-research.json.

@@ -1,0 +1,64 @@
+{
+  "key": "HIST-Q285658",
+  "name": "Primer Imperio mexicano",
+  "qid": "Q285658",
+  "aliases": [
+    "First Mexican Empire",
+    "Primer Imperio mexicano"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q285658"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q133808",
+      "name": "Agustín de Iturbide",
+      "role": "Emperador de México",
+      "start": "1822-12-31",
+      "end": "1823-01-01",
+      "source": "https://www.gob.mx/agn/articulos/agnrecuerda-al-primer-imperio-mexicano",
+      "precision": 9,
+      "curated": true,
+      "acquisition": "curated-1820-0.16",
+      "note": "Observación interior del reinado; elección, proclamación, coronación y abdicación son hitos diferentes.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-843c84673fdc826e0394.jpg",
+        "title": "Agustin I of Mexico.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Agustin_I_of_Mexico.jpg",
+        "artist": "Primitivo Miranda",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Agustin_I_of_Mexico.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Ruiz~commonswiki",
+        "sha256": "d767faedb8807bef23bf2910f8290825e2a03796b561cc4fd66c83dc8c6482ec",
+        "bytes": 42352,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Agustin_I_of_Mexico.jpg/330px-Agustin_I_of_Mexico.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11091",
+      "start": 1822,
+      "end": 1823,
+      "name": "First Mexican Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.16.0 · 2026-10-26
+
+- Ampliación documental1820–1839 conservando mandatos posteriores y coordenadas de origen.
+- Sucesiones británicas, regencia española, regencias brasileñas y Primer Imperio mexicano. Colores de los regímenes españoles diferenciados.
+- Catorce fases de contexto, tres enlaces y referencias locales del Pacífico desde1820. Retratos disponibles con licencia y auditoría nominal de carencias.
+- Límites y preparación en docs/DELIVERY-0.16.0.md; continuidad en tareas.md.
+
 ## 0.15.0 · 2026-10-26
 
 - Ampliación documental de1840 a1859 y recuperación de cargos monárquicos de1840–1879. Corregida la identidad Joseon/Gojoseon y separadas las autoridadesTaiping de la corteQing.

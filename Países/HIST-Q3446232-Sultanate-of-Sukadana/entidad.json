@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q3446232",
+  "name": "Sultanate of Sukadana",
+  "qid": "Q3446232",
+  "aliases": [
+    "Sultanate of Sukadana"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q3446232"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-8633",
+      "start": 1789,
+      "end": 1829,
+      "name": "Sultanate of Sukadana",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern.geojson",
+      "recordId": "clio-11206",
+      "start": 1830,
+      "end": 1833,
+      "name": "Sultanate of Sukadana",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

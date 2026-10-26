@@ -1,6 +1,18 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.15.0 · ampliación hasta 1840
+## Encargo vigente · 0.16.0 · ampliación hasta 1820
+
+El propietario acepta posponer correcciones de huecos anteriores y solicita ampliar 1820–1839 con uso mínimo de sesión. Reutilizar los preparadores, documentar carencias reales y verificar localmente antes de subir. No esperar Actions/Pages.
+
+- [x] Adquisición aislada, cargos históricos y comprobación de todos los hechos anteriores de mandatos/símbolos. 492 claves y12.621 registros; series parciales.
+- [x] Resolución anual1820–1839, regímenes, sucesiones y regencias. Gran Colombia1831–1833 y Grecia conservan advertencias de geometría/denominación pendiente.
+- [x] Símbolos disponibles,95 imágenes adicionales,14 fases documentales y3 enlaces. Pacífico: componentes originales y ventanas locales desde1820; sin anticipar administradores.
+- [x] Auditoría nominal docs/REVIEW-1820-1839.json;170 pruebas/40 archivos, tipos y compilación correctos. Un recorrido de navegador correcto en1,1min: Francia1820/1830, España1833, México1822 yQing1839→1840; globo y móvil.
+- [x] Integridad de56 datos,11 franjas tipográficas y6149 medios verificada;6216 recursos preparados en Git comprobados. Entrega preparada para main; confirmar push al cerrar y no esperar Actions/Pages.
+- [ ] Completar los huecos nominales después, como ha indicado el propietario.
+- [ ] Revisar publicación cuando el propietario confirme el despliegue.
+
+## Entrega anterior · 0.15.0 · ampliación hasta 1840
 
 El propietario solicita avanzar hasta 1840 con el uso de sesión disponible. Esta petición sustituye la recomendación previa de cerrar primero todos los huecos de 1860, sin convertirlos en completados. Subir tras comprobaciones locales, sin esperar Actions/Pages.
 

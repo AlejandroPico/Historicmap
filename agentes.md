@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.15.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **26 de octubre de 2026**. Versión del producto: **0.16.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.15 en la sección 27; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.16 en la sección 28; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente 0.15 (26/10/2026):** ampliar hasta 1840 y recuperar cargos históricos omitidos de 1860–1879, conservando las carencias nominales y los hechos posteriores ya publicados. Comprobar localmente y subir sin esperar Actions/Pages. Detalle en la sección 27 y tareas.md.
+**Encargo vigente 0.16 (26/10/2026):** ampliar hasta 1820 con uso mínimo de sesión, aplazando los huecos anteriores por decisión del propietario. Verificar localmente y subir sin esperar Actions/Pages. Detalle en sección 28 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -668,3 +668,19 @@ Preparadores0.15 en scripts/enrich-1840-authorities.py,curate-1840-authorities.p
 Corrección de cierre0.15: territorialEntityCode respeta entityCode explícito cuando el código estadístico está vacío, después de las reglas históricas específicas. Las fichas antiguas vuelven a enlazar contexto sin recibir estadísticas del sucesor. Eventos Qing usan QNG y registros de identidad QING. Crimea separa participación ruso-otomana1853, franco-británica1854 y sarda1855; Taiping1851–1859 se incorpora como ventana de observación, no como fin de la guerra.
 
 Cierre local0.15:167 pruebas/39 archivos correctos; dos recorridos de navegador correctos (1,4min), tipos, compilación y55 datos/11 franjas/6.054 medios íntegros. La revisión visual detectó tres extremos1859 de observación sin etiqueta: se marca endIsCoverageBoundary en el curador y los registros; los hechos del mandato y las fotos no cambian. Catálogo regenerado antes de su prueba de igualdad. No se ejecutó de nuevo la batería completa de navegador ni se verificó aún el despliegue público. Detalle en docs/DELIVERY-0.15.0.md.
+
+## 28. Ampliación documental hasta 1820 · 0.16.0
+
+El propietario acepta corregir huecos de gobernantes más adelante y solicita ampliar1820–1839 con uso mínimo de sesión. Se reutiliza el motor de adquisición en copia aislada y consultas de cargos históricos, preservando los hechos de mandatos1840+ y todas las geometrías originales. Preparadores específicos en enrich-1820-authorities.py, acquire-1820-offices.py, prepare-1820-authorities.py, prepare-1820-entities.py, prepare-1820-context.py, prepare-1820-support.py y register-016-data.mjs. historical-offices-016-research.json conserva candidatos rechazados y aceptados; no ejecutarlos automáticamente como si todos fueran autoridades válidas.
+
+Rechazos sustantivos: fecha1839 equivocada para Víctor Manuel II en Cerdeña; título honorífico brasileño de Juan VI; dirigentes posteriores a la disolución en Gran Colombia. Sucesión británica, soberanía menor y regencia española, regencias brasileñas y fechas gregorianas rusas se distinguen. Alejandro I usa Q15193; Isabel II Q183085. No aceptar identificadores recordados sin contrastar etiqueta. Las observaciones interiores anuales no son fechas exactas de acceso o cese.
+
+La resolución histórica comienza1820 y añade el Primer Imperio mexicano, Gran Colombia y las transiciones francesas/españolas. El contorno GranColombia que persiste1831–1833 se rotula pendiente; no acredita continuidad de la unión. Grecia conserva la advertencia de la etiqueta republicana de la fuente tras las transiciones monárquicas. No inventar polígonos modernos para ocultar estas carencias.
+
+Catorce fases documentales y sus registros de ficha, tres enlaces completos. Los eventos Qing conservan QNG, la identidad QING. Pacífico: índices de componentes originales desde1820; sólo se amplían ventanas locales sin administrador. Nunca extender automáticamente la relación británica de Nueva Zelanda anterior a1840. Retrato pintado de Victoria1838 disponible desde1838, con fecha de imagen distinta de acceso al trono.
+
+Auditoría nominal docs/REVIEW-1820-1839.json:3234 entidades/año,2183 casos anuales sin autoridad documentada,20 personas/órganos sin retrato y2799 sin símbolo. No afirmar revisión mundial exhaustiva. Fuentes, comprobaciones y límites en docs/DELIVERY-0.16.0.md. Mantener abiertos los pendientes anteriores. Los órganos colectivos no requieren una fotografía individual ficticia.
+
+Cierre local0.16:170 pruebas/40 archivos, tipos y compilación con la configuración vigente correctos; un recorrido de navegador correcto (1,1min) con globo/móvil y salto1839→1840. Se evita repetir la copia completa de estáticos: se compila el programa y se sincronizan sólo recursos modificados para la vista previa; la integridad de todo public se verifica separadamente. Todos los hechos anteriores de mandatos/símbolos se conservan; nuevas imágenes pueden rellenar retratos antes ausentes. 95 medios adicionales y6149 totales. No repetir toda la batería de navegador ni esperar Actions/Pages.
+
+Integridad de cierre0.16:56 datos,11 franjas y6149 medios verificados por SHA;6216 recursos preparados en Git comprobados. Para reconstruir las consultas de oficios desde una copia limpia, ejecutar primero scripts/discover-historical-offices.py, que prepara el registro de cargos usado por acquire-1820-offices.py. La adquisición de retratos se ejecuta después de la curation y antes del catálogo Países; un solo escritor de identidades/medios a la vez.
