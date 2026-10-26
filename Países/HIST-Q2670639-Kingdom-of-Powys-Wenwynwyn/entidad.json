@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q2670639",
+  "name": "Kingdom of Powys Wenwynwyn",
+  "qid": "Q2670639",
+  "aliases": [
+    "Kingdom of Powys Wenwynwyn"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2670639"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5042",
+      "start": 1200,
+      "end": 1205,
+      "name": "Kingdom of Powys Wenwynwyn",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5334",
+      "start": 1206,
+      "end": 1209,
+      "name": "Kingdom of Powys Wenwynwyn",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -11,7 +11,7 @@ describe('1300–1399 annual extension',()=>{
    years.push({year:y,territories:d.features.length,withAuthorities:authorities,withSymbols:symbols,additionalGroupedStateSeats:datedPlaces(d,y).features.filter(f=>f.properties?.sovereignSeat).length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-1300-1399.json',JSON.stringify({scope:'Production-path availability, not an exhaustive world census, independent verification of all source borders or a daily-front reconstruction. Grouped-state seats counted separately.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()]},null,2)+'\n');
-  expect(snapshotFor(1299).kind).toBe('historical');expect(snapshotFor(1400).file).toBe('early-modern-1400.geojson');
+  expect(snapshotFor(1199).kind).toBe('historical');expect(snapshotFor(1400).file).toBe('early-modern-1400.geojson');
  },90000);
  it('separates Yuan/Ming, Goryeo/Joseon, Serbian and Bosnian changes of title',async()=>{
   const key=(d:any,n:string)=>d.features.find((f:any)=>f.properties.originalName===n)?.properties.identityKey;

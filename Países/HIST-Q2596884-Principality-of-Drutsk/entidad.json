@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q2596884",
+  "name": "Principality of Drutsk",
+  "qid": "Q2596884",
+  "aliases": [
+    "Principality of Drutsk"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2596884"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5127",
+      "start": 1200,
+      "end": 1201,
+      "name": "Principality of Drutsk",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5213",
+      "start": 1202,
+      "end": 1240,
+      "name": "Principality of Drutsk",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5639",
+      "start": 1241,
+      "end": 1249,
+      "name": "Principality of Drutsk",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

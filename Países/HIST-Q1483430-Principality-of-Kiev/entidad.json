@@ -1,0 +1,77 @@
+{
+  "key": "HIST-Q1483430",
+  "name": "Principality of Kiev",
+  "qid": "Q1483430",
+  "aliases": [
+    "Principality of Kiev"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1483430"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q174044",
+      "role": "Jefatura del Estado",
+      "start": "1249-01-01",
+      "end": "1263-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q174044",
+      "sourceStatement": "Q174044-9B9C60D9-0D33-49F1-922F-EEC51D2203C9",
+      "office": "Q26943762",
+      "acquisition": "historical-0.24",
+      "name": "Alejandro Nevski",
+      "portrait": {
+        "file": "media/portrait-ba5d8e0253b81b04a7e6.jpg",
+        "title": "AlexanderNevskyTitul.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:AlexanderNevskyTitul.jpg",
+        "artist": "Collective of Kremlin Armory artists",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:AlexanderNevskyTitul.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://kotlovka.ru/pgalery/albums/userpics/10002/normal_486.jpg",
+        "sha256": "d02a54ace4cc9e952716e6fae5d02c1a5b1b50d5d528d6486fe8a5d7eb100429",
+        "bytes": 71494,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/AlexanderNevskyTitul.jpg/330px-AlexanderNevskyTitul.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5113",
+      "start": 1200,
+      "end": 1201,
+      "name": "Principality of Kiev",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5222",
+      "start": 1202,
+      "end": 1235,
+      "name": "Principality of Kiev",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5570",
+      "start": 1236,
+      "end": 1240,
+      "name": "Principality of Kiev",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

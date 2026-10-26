@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q235030",
+  "name": "Principality of Antioch",
+  "qid": "Q235030",
+  "aliases": [
+    "Principality of Antioch"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q235030"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5153",
+      "start": 1200,
+      "end": 1259,
+      "name": "Principality of Antioch",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5798",
+      "start": 1260,
+      "end": 1271,
+      "name": "Principality of Antioch",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

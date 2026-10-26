@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.24.0 · 27/10/2026
+
+- Navegación anual hasta 1200: 862 intervalos originales y 84 reglas fechadas; once geografías anteriores conservadas byte a byte.
+- 336 intervalos de cargos seleccionados y 118 de adquisición regional. 237 retratos adicionales adoptados, incluidas dos efigies numismáticas rotuladas; diez monedas sin retrato individual acreditado retiradas de las fichas.
+- Diez ventanas de símbolos, 44 registros institucionales, 45 sedes/cortes y 19 contextos con 13 puntos regionales. Coronas castellana y leonesa, poderes bizantinos, regencias mongolas y proclamación Yuan diferenciados.
+- Aro animado en el botón de reproducción durante descarga y dibujo del mapa, tanto en reproducción como en saltos manuales. Conserva la ficha durante la espera, sigue la última fecha y se limpia tras errores; compatible con movimiento reducido.
+- Comprobación del catálogo por lotes para evitar agotar el tiempo al crecer el número de carpetas, conservando todas las verificaciones. Fuentes y carencias en [RESEARCH-1200.md](docs/RESEARCH-1200.md).
+
 ## 0.23.0 · 26/10/2026
 
 - Navegación anual hasta 1300: 774 intervalos adicionales y 70 reglas fechadas; coordenadas originales y cartografía posterior conservadas.

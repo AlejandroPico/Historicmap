@@ -104,8 +104,11 @@ h1{font-family:'Libre Caslon Display',Georgia,serif;font-weight:400;font-size:28
 .playback{display:flex;align-items:center;justify-content:center;gap:12px}
 .playback svg{width:13px;height:13px}
 .playback .icon-button{width:30px;height:30px;color:#aabbab}
-.play-button{border:1px solid #c6b37d70;border-radius:50%;width:30px;height:30px;display:grid;place-items:center;color:#ddc58a;background:#d4bb8508}
+.play-button{position:relative;border:1px solid #c6b37d70;border-radius:50%;width:30px;height:30px;display:grid;place-items:center;color:#ddc58a;background:#d4bb8508}
 .play-button[aria-pressed=true]{background:#d4bb8525}
+.play-button[aria-busy=true]::after{content:'';position:absolute;inset:-1px;border:2px solid transparent;border-top-color:currentColor;border-right-color:currentColor;border-radius:inherit;pointer-events:none;animation:playback-loading .9s linear infinite}
+@keyframes playback-loading{to{transform:rotate(360deg)}}
+.playback-status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 #time-scale{position:absolute;right:20px;bottom:14px;font-size:7px;letter-spacing:1.3px;color:#819b8d;pointer-events:auto;cursor:zoom-in}
 .maplibregl-ctrl-bottom-right{bottom:calc(var(--dock-height) + 5px);right:13px}
 .maplibregl-ctrl-attrib{font-size:8px!important;background:#11272bcc!important;color:#99ada2!important}

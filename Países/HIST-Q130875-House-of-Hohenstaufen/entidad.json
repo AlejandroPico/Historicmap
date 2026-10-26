@@ -1,0 +1,34 @@
+{
+  "key": "HIST-Q130875",
+  "name": "House of Hohenstaufen",
+  "qid": "Q130875",
+  "aliases": [
+    "House of Hohenstaufen"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q130875"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5777",
+      "start": 1260,
+      "end": 1271,
+      "name": "House of Hohenstaufen",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

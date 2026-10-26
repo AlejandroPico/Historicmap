@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q234197",
+  "name": "Srivijaya",
+  "qid": "Q234197",
+  "aliases": [
+    "Srivijaya"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q234197"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-4851",
+      "start": 1200,
+      "end": 1201,
+      "name": "Srivijaya",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5240",
+      "start": 1202,
+      "end": 1284,
+      "name": "Srivijaya",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5956",
+      "start": 1285,
+      "end": 1293,
+      "name": "Srivijaya",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

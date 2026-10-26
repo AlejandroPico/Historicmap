@@ -1,0 +1,99 @@
+{
+  "key": "HIST-Q140446",
+  "name": "Zagwe dynasty",
+  "qid": "Q140446",
+  "aliases": [
+    "Zagwe dynasty"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q140446"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q471332",
+      "name": "Gebre Mesqel Lalibela",
+      "role": "Soberano de la dinastía Zagüe",
+      "start": "1200-01-01",
+      "end": "1212-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gebre_Mesqel_Lalibela",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "Cronología Zagüe con variantes importantes; las fechas de esta serie son una tradición documental, no una datación absoluta independiente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false,
+      "portrait": {
+        "file": "media/portrait-110aef3f7acc77117d07.png",
+        "title": "Gebre Mesqel Lalibela.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Gebre_Mesqel_Lalibela.png",
+        "artist": "unknown artist, originally made in Lalibela area, Ethiopia",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gebre_Mesqel_Lalibela.png#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Stanislaw Chojnacki, Ethiopian Icons: Catalogue of the Collection of the Institute of Ethiopian Studies (Milan: Skira, 2000), cat. 17",
+        "sha256": "3ab4e83a38a98870f21480fff129a7607c7f7b1d339a884f64b390536e12842e",
+        "bytes": 406953,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Gebre_Mesqel_Lalibela.png"
+      }
+    },
+    {
+      "person": "Q736179",
+      "name": "Na'akueto La'ab",
+      "role": "Soberano de la dinastía Zagüe",
+      "start": "1212-01-01",
+      "end": "1260-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Na%27akueto_La%27ab",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "Cronología Zagüe con variantes importantes; las fechas de esta serie son una tradición documental, no una datación absoluta independiente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q342847",
+      "name": "Yetbarak",
+      "role": "Soberano de la dinastía Zagüe",
+      "start": "1260-01-01",
+      "end": "1268-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yetbarak",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "Cronología Zagüe con variantes importantes; las fechas de esta serie son una tradición documental, no una datación absoluta independiente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-4888",
+      "start": 1200,
+      "end": 1259,
+      "name": "Zagwe dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5764",
+      "start": 1260,
+      "end": 1271,
+      "name": "Zagwe dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

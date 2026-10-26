@@ -1,0 +1,130 @@
+{
+  "key": "JIN-JURCHEN",
+  "name": "Imperio Jin · yurchen",
+  "qid": "Q5066",
+  "aliases": [
+    "Great Jin",
+    "Imperio Jin · yurchen"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "JIN-JURCHEN"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q5074",
+      "name": "Emperador Zhangzong",
+      "role": "Emperador Jin",
+      "start": "1200-01-01",
+      "end": "1208-12-29",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Zhangzong_of_Jin",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q5076",
+      "name": "Emperador Wèishàowáng",
+      "role": "Emperador Jin",
+      "start": "1208-12-29",
+      "end": "1213-09-11",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wanyan_Yongji",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q5080",
+      "name": "Emperador Xuanzong",
+      "role": "Emperador Jin",
+      "start": "1213-09-22",
+      "end": "1224-01-14",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xuanzong_of_Jin",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q5081",
+      "name": "Emperador Aizong",
+      "role": "Emperador Jin",
+      "start": "1224-01-15",
+      "end": "1234-02-09",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Aizong_of_Jin",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q5069",
+      "name": "Emperador Modi",
+      "role": "Emperador Jin",
+      "start": "1234-02-09",
+      "end": "1234-02-09",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Mo_of_Jin",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-4855",
+      "start": 1200,
+      "end": 1205,
+      "name": "Great Jin",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5293",
+      "start": 1206,
+      "end": 1215,
+      "name": "Great Jin",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5434",
+      "start": 1216,
+      "end": 1226,
+      "name": "Great Jin",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5520",
+      "start": 1227,
+      "end": 1235,
+      "name": "Great Jin",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

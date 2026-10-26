@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q688918",
+  "name": "Grand Duchy of Kraków",
+  "qid": "Q688918",
+  "aliases": [
+    "Grand Duchy of Kraków"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q688918"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5902",
+      "start": 1279,
+      "end": 1284,
+      "name": "Grand Duchy of Kraków",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5951",
+      "start": 1285,
+      "end": 1293,
+      "name": "Grand Duchy of Kraków",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

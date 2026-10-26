@@ -1,6 +1,33 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.23.0 · ampliación hasta 1300
+## Encargo vigente · 0.24.0 · ampliación hasta 1200 y aro de carga
+
+- [x] 862 intervalos originales y 84 reglas de identidad; navegación anual hasta 1200. Once geografías anteriores idénticas byte a byte.
+- [x] 336 intervalos de cargos seleccionados, 118 de adquisición regional y 237 retratos/efigies adoptados. Diez monedas sin retrato individual acreditado retiradas; dos efigies suecas rotuladas como numismáticas.
+- [x] Diez ventanas de símbolos, tres archivos nuevos y nueve candidatos pendientes/no adoptados.
+- [x] 44 registros institucionales, 45 sedes/cortes y 19 contextos con 13 puntos regionales.
+- [x] Auditoría nominal del siglo y conservación de hechos anteriores. Catálogo regenerado: 1.020 claves, 15.741 mandatos y 3.232 carpetas.
+- [x] Aro de carga en reproducción, incluso para saltos manuales; ficha estable durante la espera, última petición prioritaria, pausa y recuperación tras error comprobadas. Movimiento reducido y anuncio accesible.
+- [x] 202 pruebas/48 archivos correctos, tipos y compilación correctos. Cinco recorridos de navegador: dos históricos, dos de carga/errores y uno de persistencia durante reproducción. Capturas de escritorio, globo móvil y aro revisadas.
+- [x] Integridad SHA-256 de 73 datos, 11 franjas tipográficas y 7.487 medios. Hechos anteriores conservados y once geografías previas idénticas byte a byte; documentación actualizada.
+- [x] 7.571 recursos de datos, tipografías y medios comprobados byte a byte en Git. Entrega 0.24.0 preparada para origin/main; confirmar la coincidencia del envío al cerrar, sin esperar Actions/Pages.
+
+Fuentes y alcance: [RESEARCH-1200.md](docs/RESEARCH-1200.md). Auditoría [REVIEW-1200-1299.json](docs/REVIEW-1200-1299.json): 13.172 entidades/año, 9.283 sin autoridad, 12.458 sin símbolo y 95 personas/órganos sin retrato entre los activos del mapa. Inventario ampliado del catálogo: 109 personas sin retrato. Sedes adicionales aparte; no es un censo mundial exhaustivo.
+
+### Pendientes explícitos del siglo XIII
+
+- [ ] Completar inventarios nominales de autoridades, símbolos y retratos; regencias, ramas locales, obediencias y candidatos rivales todavía parciales. No sustituir imágenes ausentes por objetos sin un retrato individual acreditado.
+- [ ] Obtener contornos propios y frentes: agregado mongol tardío, etiquetas latinas/nicenas prolongadas hasta 1278, transiciones Jin/Jorezm y Sicilia/Nápoles siguen condicionados por la periodización de fuente. Sedes y reglas de identidad no inventan sus superficies.
+- [ ] Resolver los nueve casos de símbolos pendientes/no adoptados, con testimonio temporal y función; no retrotraer diseños nacionales o emblemas tardíos.
+- [ ] Contrastar variantes cronológicas Zagüe, Malí, Sukhothai y primeros poderes americanos; completar Goryeo y su gobierno rival de 1269. No deducir mandatos de fechas de nacimiento/muerte.
+- [ ] Afinar puntos de conflicto y fases: referencias regionales no significan batalla continua ni frente exacto durante todo el intervalo del contexto.
+- [ ] Completar variantes por edad de los retratos e identificar materialmente sellos, efigies y pinturas posteriores.
+- [ ] Continuar hacia 1100 sólo por nuevo encargo; las instantáneas previas a 1200 no constituyen una revisión anual completada.
+- [ ] Publicación remota pendiente del aviso del propietario; no esperar ni sondear Actions/Pages.
+
+Los pendientes anteriores continúan abiertos.
+
+## Entrega anterior · 0.23.0 · ampliación hasta 1300
 
 Continuar con 1300–1399, conservando datos y funciones posteriores. Autoridades, símbolos y contexto fechados; auditar huecos. Comprobar localmente y subir sin esperar Actions/Pages.
 
@@ -21,7 +48,7 @@ Auditoría: [REVIEW-1300-1399.json](docs/REVIEW-1300-1399.json), 14.747 entidade
 - [ ] Obtener contornos regionales y frentes propios. Fuente Yuan prolongada hasta 1374, Goryeo sin contorno separado antes de 1363 y etiqueta Kenmu prolongada hasta 1343: sedes y resolución de identidad no corrigen por sí solas toda la geografía.
 - [ ] Completar variantes cronológicas de retratos, regencias, sedes itinerantes y fuentes divergentes de fechas; no tratar un retrato de época como imagen exacta de cada edad.
 - [ ] Resolver agregados dinásticos, mayas, nórdicos y arqueológicos; no convertirlos en un país de un solo gobernante ni interpretar el nombre Aztec Regional System como imperio mexica.
-- [ ] Continuar hacia 1200 sólo por nuevo encargo; no presentar las instantáneas anteriores a 1300 como revisión anual completada.
+- [x] Nuevo encargo hasta 1200 atendido en 0.24; las instantáneas anteriores a 1200 siguen fuera de la revisión anual.
 - [ ] Publicación remota pendiente del aviso del propietario; no esperar ni sondear Actions/Pages.
 
 Los pendientes anteriores continúan abiertos.

@@ -1,0 +1,117 @@
+{
+  "key": "HIST-Q6806806",
+  "name": "Chola Empire",
+  "qid": "Q6806806",
+  "aliases": [
+    "Chola Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q6806806"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q7285985",
+      "name": "Rajendra Chola III",
+      "role": "Rey chola",
+      "start": "1246-01-01",
+      "end": "1279-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rajendra_III",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q335836",
+      "name": "Kulothunga Chola III",
+      "role": "Rey chola",
+      "start": "1200-01-01",
+      "end": "1218-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kulothunga_III",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q7285774",
+      "name": "Rajaraja III",
+      "role": "Rey chola",
+      "start": "1216-01-01",
+      "end": "1256-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rajaraja_III",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5058",
+      "start": 1200,
+      "end": 1215,
+      "name": "Chola Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5431",
+      "start": 1216,
+      "end": 1235,
+      "name": "Chola Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5599",
+      "start": 1236,
+      "end": 1240,
+      "name": "Chola Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5666",
+      "start": 1241,
+      "end": 1249,
+      "name": "Chola Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5719",
+      "start": 1250,
+      "end": 1259,
+      "name": "Chola Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 23,
+      "start": null,
+      "end": null,
+      "name": "Chola Empire",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

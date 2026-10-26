@@ -25,7 +25,7 @@ function record(p,file,recordId){
  e.records.push({file,recordId,start:p.start??null,end:p.end??null,name,status:p.status??p.politicalStatus??null});
 }
 for(const g of read('history.topojson').objects.countries.geometries)record(g.properties,'history.topojson',g.properties.fid);
-for(const entry of manifest.entries.filter(e=>/^(early-modern-1300|early-modern-1400|early-modern-1500|early-modern-1600|early-modern-1700|early-modern|historical-control|historical-1880-control|historical-1880-supplements|pacific-references|ukraine-control-2022|central-europe-1939|spanish-civil-war|recent-control|historical-supplements|countries|world_.*)\.geojson$/.test(e.file))){
+for(const entry of manifest.entries.filter(e=>/^(early-modern-1200|early-modern-1300|early-modern-1400|early-modern-1500|early-modern-1600|early-modern-1700|early-modern|historical-control|historical-1880-control|historical-1880-supplements|pacific-references|ukraine-control-2022|central-europe-1939|spanish-civil-war|recent-control|historical-supplements|countries|world_.*)\.geojson$/.test(e.file))){
  const d=read(entry.file);for(const [i,f] of d.features.entries())record(f.properties,entry.file,f.id??i);
 }
 if(manifest.entries.some(e=>e.file==='wartime-partitions.json'))for(const [year,p] of Object.entries(read('wartime-partitions.json').years))for(const f of p.territories.features)record({...f.properties,start:year+'-01-01',end:year+'-12-31'},'wartime-partitions.json',`${year}:${f.id}`);

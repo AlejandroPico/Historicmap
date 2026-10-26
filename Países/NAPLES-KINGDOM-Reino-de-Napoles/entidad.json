@@ -1,0 +1,54 @@
+{
+  "key": "NAPLES-KINGDOM",
+  "name": "Reino de Nápoles",
+  "qid": "Q173065",
+  "aliases": [
+    "Reino de Nápoles"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NAPLES-KINGDOM"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q314331",
+      "name": "Carlos II de Anjou",
+      "role": "Rey de Nápoles",
+      "start": "1285-01-01",
+      "end": "1299-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Charles_II_of_Naples",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "Fase continental después de las Vísperas Sicilianas; no implica gobierno sobre la isla disputada. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-a349422c98e1be82afca.jpg",
+        "title": "Charles II of Naples.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Charles_II_of_Naples.jpg",
+        "artist": "unknown, ancient",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_II_of_Naples.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "IlPortaldelSud.org",
+        "sha256": "2cea1ac9ebc99e829f4ac0e9ff13e644382383c762470af3268c435a7310a1b7",
+        "bytes": 35950,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Charles_II_of_Naples.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

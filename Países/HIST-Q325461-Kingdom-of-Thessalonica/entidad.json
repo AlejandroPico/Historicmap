@@ -1,0 +1,58 @@
+{
+  "key": "HIST-Q325461",
+  "name": "Kingdom of Thessalonica",
+  "qid": "Q325461",
+  "aliases": [
+    "Kingdom of Thessalonica"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q325461"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5309",
+      "start": 1206,
+      "end": 1209,
+      "name": "Kingdom of Thessalonica",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5344",
+      "start": 1210,
+      "end": 1215,
+      "name": "Kingdom of Thessalonica",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5387",
+      "start": 1216,
+      "end": 1219,
+      "name": "Kingdom of Thessalonica",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5488",
+      "start": 1220,
+      "end": 1226,
+      "name": "Kingdom of Thessalonica",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

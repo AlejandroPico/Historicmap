@@ -70,7 +70,7 @@ app.innerHTML = `
     <aside id="map-legend" class="map-legend" aria-label="Leyenda del mapa" hidden></aside>
     <section class="time-dock" aria-label="Navegación temporal">
       <div id="ruler" class="ruler" role="slider" tabindex="0" aria-label="Fecha del atlas. Arrastra para desplazarte; rueda o teclas más y menos para cambiar la escala" aria-valuemin="0" aria-valuemax="1900"><div id="ruler-track"></div><div class="fixed-cursor"><div class="cursor-line"></div></div><div class="ruler-fade left"></div><div class="ruler-fade right"></div></div>
-      <div class="time-focus"><button id="date-button" class="date-heading" title="Ir a una fecha"><span id="year"></span>${icon('chevron-down')}</button><div class="playback"><button id="previous" class="icon-button" aria-label="Época anterior">${icon('skip-back')}</button><button id="play" class="play-button" aria-label="Reproducir recorrido" aria-pressed="false">${icon('play')}</button><button id="next" class="icon-button" aria-label="Época siguiente">${icon('skip-forward')}</button></div></div>
+      <div class="time-focus"><button id="date-button" class="date-heading" title="Ir a una fecha"><span id="year"></span>${icon('chevron-down')}</button><div class="playback"><button id="previous" class="icon-button" aria-label="Época anterior">${icon('skip-back')}</button><button id="play" class="play-button" aria-label="Reproducir recorrido" aria-pressed="false" aria-busy="true">${icon('play')}</button><button id="next" class="icon-button" aria-label="Época siguiente">${icon('skip-forward')}</button><span id="playback-status" class="playback-status" role="status" aria-live="polite" aria-atomic="true"></span></div></div>
     </section>
     <dialog id="modal" aria-labelledby="modal-label"><div class="modal-head"><span id="modal-label" class="eyebrow"></span><button id="close-modal" class="icon-button" aria-label="Cerrar ventana">${icon('x')}</button></div><div id="modal-body"></div></dialog>
     <div id="toast" role="status" hidden></div>
@@ -160,6 +160,8 @@ map.on('idle',()=>{
   $('#map').dataset.cameraReady='true';
   if($('#map').getAttribute('aria-busy')==='true')return;
   if(loaded.features.length && (map.queryRenderedFeatures({layers:['territory-fill']}).length||governmentFilter&&map.isSourceLoaded('territories'))) $('#map').dataset.rendered=activeKey;
+  // Keep the indicator through tile replacement, not only the JSON download.
+  if($('#map').dataset.loadedYear===String(year))setPlaybackLoading(false,year);
   $('#map').dataset.hatchingRendered=String(showOccupations?map.queryRenderedFeatures({layers:['occupation-fill']}).length:0);
   $('#map').dataset.placesRendered=String(showPlaces?map.queryRenderedFeatures({layers:['place-circles']}).length:0);
   $('#map').dataset.conflictsRendered=String(showOccupations?map.queryRenderedFeatures({layers:['conflict-circles']}).length:0);
@@ -221,7 +223,7 @@ function renderSelection(){
 async function featureAt(anchor:CountryAnchor,targetYear:number){
   const target=snapshotFor(targetYear);if(target.kind==='concept'||target.kind==='geological')return undefined;
   const raw=target.kind==='annual'?await annualData(targetYear):await asset<FeatureCollection>(target.file!);
-  const data=anchor.uid?await overlaysFor(targetYear):(await controlledMap(politicalData(raw,targetYear,target.kind==='modern'?profiles:undefined),targetYear>=1300?await overlaysFor(targetYear):empty,targetYear)).territories;
+  const data=anchor.uid?await overlaysFor(targetYear):(await controlledMap(politicalData(raw,targetYear,target.kind==='modern'?profiles:undefined),targetYear>=1200?await overlaysFor(targetYear):empty,targetYear)).territories;
   return matchingFeature(anchor,{type:'FeatureCollection',features:[...data.features,...datedPlaces(data,targetYear).features.filter(f=>f.properties?.sovereignSeat)]},targetYear,identityData);
 }
 async function renderComparison(){
@@ -245,11 +247,19 @@ async function navigateEntity(key:string,name:string,targetYear:number){
 let toastTimer: ReturnType<typeof setTimeout>;
 function toast(text:string){ $('#toast').textContent=text;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,6000); }
 function status(text:string,error=false){$('#map-status').textContent=text;$('.status-dot').classList.toggle('error',error);$('#retry').hidden=!error;$('#sources-button').classList.toggle('has-error',error);}
+function setPlaybackLoading(busy:boolean,targetYear=year,error=false){
+  const button=$('#play');
+  if(button.getAttribute('aria-busy')===String(busy)&&(!busy||button.dataset.loadingYear===String(targetYear)))return;
+  button.setAttribute('aria-busy',String(busy));
+  if(busy)button.dataset.loadingYear=String(targetYear);else delete button.dataset.loadingYear;
+  button.title=busy?`Cargando mapa de ${formatYear(targetYear)}…`:error?'No se pudo cargar la fecha solicitada':playing?'Pausar recorrido':'Reproducir recorrido';
+  $('#playback-status').textContent=busy?`Cargando mapa de ${formatYear(targetYear)}…`:error?'No se pudo cargar la fecha. Se conserva el mapa anterior.':`Mapa actualizado a ${formatYear(targetYear)}.`;
+}
 function reliefAvailable(){return year>=-10000&&snapshot.kind!=='concept'&&snapshot.kind!=='geological';}
 function updateSources(){
   const source=snapshot.kind==='modern'?['Natural Earth','https://www.naturalearthdata.com/']:snapshot.kind==='annual'?(year<1886?['Cliopatria','https://github.com/Seshat-Global-History-Databank/cliopatria']:['CShapes 2.0','https://icr.ethz.ch/data/cshapes/']):snapshot.kind==='geological'?['Cao et al. 2024','https://doi.org/10.1016/j.gsf.2024.101922']:['Atlas histórico · A. Ourednik','https://github.com/aourednik/historical-basemaps'];
   if(snapshot.kind==='concept'){source[0]=year < -1800000000?'NASA · formación planetaria':'Smithsonian · evolución humana';source[1]=year < -1800000000?'https://science.nasa.gov/earth/facts/':'https://humanorigins.si.edu/';}
-  $('#source-reference').textContent=`Fecha consultada: ${formatYear(year)}.${year>=1300?` Autoridades adquiridas: ${identityData?.retrieved??'cargando'}.`:''}`;
+  $('#source-reference').textContent=`Fecha consultada: ${formatYear(year)}.${year>=1200?` Autoridades adquiridas: ${identityData?.retrieved??'cargando'}.`:''}`;
   $('#source-links').innerHTML=`<a href="${source[1]}" target="_blank" rel="noopener">${source[0]} ↗</a> · <a href="https://data.worldbank.org/" target="_blank" rel="noopener">Indicadores WDI ↗</a> · <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Autoridades ↗</a>${affiliation?` · <a href="${esc(AFFILIATIONS[affiliation].source)}" target="_blank" rel="noopener">${esc(AFFILIATIONS[affiliation].label)} ↗</a>`:''}`;
   $('#source-scope').textContent=snapshot.kind==='modern'?'Cartografía de referencia 2026. Las cifras y las membresías conservan sus propias fechas. Imágenes: autor y licencia en cada ficha.':snapshot.kind==='annual'?'Base territorial al cierre anual; contornos de referencia identificados en las fichas. Control con fecha propia. Mandatos de todo el año y membresías al cierre.':'Reconstrucción según la fecha y el alcance del modelo; no es una observación directa.';
   if(physical&&reliefAvailable())$('#source-scope').textContent+=' Relieve contemporáneo de referencia; no reconstruye altitudes ni costas antiguas.';
@@ -269,12 +279,12 @@ function refreshMap(force=false):Promise<void> {
   $('#affiliation-select').toggleAttribute('disabled',!affiliationsAvailable(year));
   $('#political-layer').toggleAttribute('disabled',concept);
   $('#places-layer').toggleAttribute('disabled',year < -10000);
-  $('#occupations-layer').toggleAttribute('disabled',year<1300);
+  $('#occupations-layer').toggleAttribute('disabled',year<1200);
   $('#theme-select').toggleAttribute('disabled',year<1960||snapshot.kind==='geological');
   $('#territory-description').textContent=snapshot.kind==='geological'?'Masas continentales reconstruidas':snapshot.kind==='modern'?'Países y fronteras':snapshot.kind==='annual'?'Territorios y dependencias fechados':'Áreas políticas y culturales';
   $('#concept').classList.toggle('human-era',year > -1800000000);
   $('#concept-caption').textContent=year < -1800000000?'ESCENA CONCEPTUAL · SIN GEOMETRÍA RECONSTRUIDA':'CARTOGRAFÍA PREHISTÓRICA PENDIENTE · SIN ÁREAS HUMANAS INFERIDAS';
-  if(!ready) return Promise.resolve();
+  if(!ready){setPlaybackLoading(true,targetYear);return Promise.resolve();}
   // Stop requesting contemporary elevation as soon as the requested era changes.
   map.setLayoutProperty('relief','visibility',physical&&reliefAvailable()?'visible':'none');
   if(key===desiredKey&&!force){applyLayers();updateSources();if($('#map').dataset.loadedYear===String(year))renderSelection();return refreshPromise;}
@@ -283,13 +293,14 @@ function refreshMap(force=false):Promise<void> {
   desiredKey=key;
   delete $('#map').dataset.rendered;
   $('#map').setAttribute('aria-busy','true');
+  setPlaybackLoading(true,targetYear);
   $('#map').dataset.loadStage='fetch';
   $('#search-button').toggleAttribute('disabled',true);
   if(snapshot.kind==='geological'&&previousKind!=='geological')map.jumpTo({center:[0,15],zoom:1.5});
-  if(selectedAnchor){$('#selection').setAttribute('aria-busy','true');$('#selection-status').textContent=`Actualizando a ${formatYear(targetYear)}…`;$('#selection-status').hidden=false;}
+  if(selectedAnchor){$('#selection').setAttribute('aria-busy','true');$('#selection-status').hidden=true;}
   if(!$('#search-panel').hidden)$('#search-results').textContent='Actualizando territorios…';
   highlightFeature();
-  if(concept){activeKey=displayKey;loaded=empty;cityData=empty;overlayData=empty;$('#map-legend').hidden=true;$('#map').setAttribute('aria-busy','false');status('Contexto documental · sin cartografía disponible');updateSources();renderSelection();refreshSearch();return Promise.resolve();}
+  if(concept){activeKey=displayKey;loaded=empty;cityData=empty;overlayData=empty;$('#map-legend').hidden=true;$('#map').setAttribute('aria-busy','false');setPlaybackLoading(false,targetYear);status('Contexto documental · sin cartografía disponible');updateSources();renderSelection();refreshSearch();return Promise.resolve();}
   status(`Cargando ${formatYear(target.year)}…${loaded.features.length?' · se conserva el mapa anterior':''}`);
   updateSources();
   refreshPromise=(async()=>{
@@ -298,7 +309,7 @@ function refreshMap(force=false):Promise<void> {
         target.kind==='annual'?annualData(targetYear):asset<FeatureCollection>(target.file!),
         asset<ProfileData>('profiles.json'),
         target.kind==='modern'?modernCities():Promise.resolve(empty),
-        targetYear>=1300?overlaysFor(targetYear):Promise.resolve(empty),
+        targetYear>=1200?overlaysFor(targetYear):Promise.resolve(empty),
         asset<IdentityData>('identities.json'),
         target.kind==='annual'||target.kind==='historical'?asset<FeatureCollection>('countries.geojson'):Promise.resolve(empty),
         asset<IndicatorData>('country-indicators.json'),asset<CountryHistory>('country-history.json')
@@ -357,7 +368,7 @@ function refreshMap(force=false):Promise<void> {
     } catch(error) {
       if(current!==requestNumber)return;
       console.error('Temporal map refresh failed',error);
-      desiredKey='';$('#map').setAttribute('aria-busy','false');if(selectedAnchor){$('#selection').setAttribute('aria-busy','false');$('#selection-status').textContent='La fecha no se pudo cargar. La ficha conserva el año indicado en su cabecera.';$('#selection-status').hidden=false;}status('No se ha podido cargar la fecha. Se conserva el mapa anterior.',true);stopPlay();
+      desiredKey='';$('#map').setAttribute('aria-busy','false');setPlaybackLoading(false,targetYear,true);if(selectedAnchor){$('#selection').setAttribute('aria-busy','false');$('#selection-status').textContent='La fecha no se pudo cargar. La ficha conserva el año indicado en su cabecera.';$('#selection-status').hidden=false;}status('No se ha podido cargar la fecha. Se conserva el mapa anterior.',true);stopPlay();
     }
   })();
   return refreshPromise;
@@ -402,9 +413,9 @@ function applyLayers(){
   map.setPaintProperty('territory-fill','fill-antialias',snapshot.kind!=='geological');
   map.setLayoutProperty('territory-labels','visibility',political&&snapshot.kind!=='geological'?'visible':'none');
   map.setLayoutProperty('relief','visibility',physical&&reliefAvailable()?'visible':'none');
-  const controlVisible=showOccupations&&year>=1300;
+  const controlVisible=showOccupations&&year>=1200;
   for(const id of ['occupation-fill','occupation-line'])map.setLayoutProperty(id,'visibility',controlVisible?'visible':'none');
-  const nextConflicts=year>=1300?conflictPointsFor(year):empty;const nextConflictSignature=showOccupations?JSON.stringify(nextConflicts):'';
+  const nextConflicts=year>=1200?conflictPointsFor(year):empty;const nextConflictSignature=showOccupations?JSON.stringify(nextConflicts):'';
   conflictData=nextConflicts;
   if(nextConflictSignature!==conflictSignature){conflictSignature=nextConflictSignature;void (map.getSource('conflict-points') as GeoJSONSource).setData(controlVisible?conflictData:empty);}
   for(const layer of ['conflict-circles','conflict-labels'])map.setLayoutProperty(layer,'visibility',controlVisible?'visible':'none');
@@ -487,20 +498,20 @@ function zoomRuler(factor:number){stopPlay();spacing=clamp(Math.round(spacing*fa
 $('.time-dock').addEventListener('wheel',event=>{event.preventDefault();event.stopPropagation();const units=event.deltaMode===1?16:event.deltaMode===2?ruler.clientHeight:1;zoomRuler(Math.exp(-clamp((event.deltaY||event.deltaX)*units,-240,240)*.0025));},{passive:false});
 ruler.addEventListener('keydown',event=>{const keys:Record<string,number>={ArrowLeft:-24/spacing,ArrowRight:24/spacing,PageUp:-ruler.clientWidth*.8/spacing,PageDown:ruler.clientWidth*.8/spacing};if(event.key in keys){event.preventDefault();stopPlay();updateYear(positionToYear(position+keys[event.key]));}else if(event.key==='Home'){event.preventDefault();stopPlay();updateYear(anchors[0]);}else if(event.key==='End'){event.preventDefault();stopPlay();updateYear(PRESENT);}else if(['+','=','-','_'].includes(event.key)){event.preventDefault();zoomRuler(['+','='].includes(event.key)?1.25:1/1.25);}});
 new ResizeObserver(renderRuler).observe(ruler);
-function stopPlay(){playing=false;playGeneration++;$('#play').setAttribute('aria-pressed','false');$('#play').setAttribute('aria-label','Reproducir recorrido');$('#play').innerHTML=icon('play');createIcons({icons});}
+function stopPlay(){playing=false;playGeneration++;$('#play').setAttribute('aria-pressed','false');$('#play').setAttribute('aria-label','Reproducir recorrido');if($('#play').getAttribute('aria-busy')!=='true')$('#play').title='Reproducir recorrido';$('#play').innerHTML=icon('play');createIcons({icons});}
 async function play(generation:number){
   await refreshMap();
   while(playing&&generation===playGeneration){
-    await new Promise(resolve=>setTimeout(resolve,year>=1300?850:350));
+    await new Promise(resolve=>setTimeout(resolve,year>=1200?850:350));
     if(!playing||generation!==playGeneration)return;
     if(year>=PRESENT){stopPlay();return;}
     // Advance only after the previous map has finished committing to the renderer.
     await updateYear(playbackYear(year));
   }
 }
-$('#play').onclick=()=>{if(playing){stopPlay();return;}if(year===PRESENT)void updateYear(1900);playing=true;const generation=++playGeneration;$('#play').setAttribute('aria-pressed','true');$('#play').setAttribute('aria-label','Pausar recorrido');$('#play').innerHTML=icon('pause');createIcons({icons});void play(generation);};
-$('#previous').onclick=()=>{stopPlay();void updateYear(year>=1300?year-1:anchors[Math.max(0,Math.ceil(position)-1)]);};
-$('#next').onclick=()=>{stopPlay();void updateYear(year>=1300?Math.min(PRESENT,year+1):anchors[Math.min(anchors.length-1,Math.floor(position)+1)]);};
+$('#play').onclick=()=>{if(playing){stopPlay();return;}if(year===PRESENT)void updateYear(1900);playing=true;const generation=++playGeneration;$('#play').setAttribute('aria-pressed','true');$('#play').setAttribute('aria-label','Pausar recorrido');if($('#play').getAttribute('aria-busy')!=='true')$('#play').title='Pausar recorrido';$('#play').innerHTML=icon('pause');createIcons({icons});void play(generation);};
+$('#previous').onclick=()=>{stopPlay();void updateYear(year>=1200?year-1:anchors[Math.max(0,Math.ceil(position)-1)]);};
+$('#next').onclick=()=>{stopPlay();void updateYear(year>=1200?Math.min(PRESENT,year+1):anchors[Math.min(anchors.length-1,Math.floor(position)+1)]);};
 function projectionControl(){const label=projection==='globe'?'Ver mapa 2D':'Ver globo 3D';$('#projection-button').dataset.view=projection;$('#projection-button').setAttribute('aria-label',label);$('#projection-button').title=label;$('#projection-button').innerHTML=icon(projection==='globe'?'map':'globe-2');createIcons({icons});}
 function setProjection(value:'globe'|'mercator') {projection=value;if(ready)map.setProjection({type:value});projectionControl();updateYear(year);}
 $('#projection-button').onclick=()=>setProjection(projection==='globe'?'mercator':'globe');

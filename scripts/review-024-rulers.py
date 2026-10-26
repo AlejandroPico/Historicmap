@@ -1,0 +1,48 @@
+"""Thirteenth-century named office candidates; explicit selection required."""
+import pathlib,importlib.util
+ROOT=pathlib.Path(__file__).resolve().parents[1]
+s=importlib.util.spec_from_file_location('r',ROOT/'scripts/review-019-core-rulers.py');r=importlib.util.module_from_spec(s);s.loader.exec_module(r)
+r.GROUPS=[
+ ('FRA','Rey de Francia',['Philip II of France','Louis VIII of France','Louis IX of France','Philip III of France','Philip IV of France']),
+ ('CASTILE-KINGDOM','Rey / reina de Castilla',['Alfonso VIII of Castile','Henry I of Castile','Berengaria of Castile','Ferdinand III of Castile']),
+ ('LEON-KINGDOM','Rey de León',['Alfonso IX of León','Ferdinand III of Castile']),
+ ('CASTILE','Rey de Castilla y León',['Ferdinand III of Castile','Alfonso X of Castile','Sancho IV of Castile','Ferdinand IV of Castile']),
+ ('ARAGON','Rey de Aragón',['Peter II of Aragon','James I of Aragon','Peter III of Aragon','Alfonso III of Aragon','James II of Aragon']),
+ ('PRT','Rey de Portugal',['Sancho I of Portugal','Afonso II of Portugal','Sancho II of Portugal','Afonso III of Portugal','Denis of Portugal']),
+ ('ENGLAND','Rey de Inglaterra',['John, King of England','Henry III of England','Edward I of England']),
+ ('SCOTLAND','Rey de Escocia',['William the Lion','Alexander II of Scotland','Alexander III of Scotland','Margaret, Maid of Norway','John Balliol']),
+ ('NAVARRE-KINGDOM','Rey / reina de Navarra',['Sancho VII of Navarre','Theobald I of Navarre','Theobald II of Navarre','Henry I of Navarre','Joan I of Navarre']),
+ ('BYZANTINE','Emperador bizantino en Constantinopla',['Alexios III Angelos','Isaac II Angelos','Alexios IV Angelos','Alexios V Doukas','Michael VIII Palaiologos','Andronikos II Palaiologos']),
+ ('NICAEA','Emperador en Nicea',['Theodore I Laskaris','John III Doukas Vatatzes','Theodore II Laskaris','John IV Laskaris','Michael VIII Palaiologos']),
+ ('LATIN-EMPIRE','Emperador latino de Constantinopla',['Baldwin I, Latin Emperor','Henry of Flanders','Peter of Courtenay','Yolanda of Flanders','Robert of Courtenay','Baldwin II, Latin Emperor','John of Brienne']),
+ ('TREBIZOND','Emperador de Trebisonda',['Alexios I of Trebizond','Andronikos I of Trebizond','John I of Trebizond','Manuel I of Trebizond','Andronikos II of Trebizond','George of Trebizond (emperor)','John II of Trebizond','Theodora of Trebizond','Alexios II of Trebizond']),
+ ('SECOND-BULGARIA','Zar de Bulgaria',['Kaloyan of Bulgaria','Boril of Bulgaria','Ivan Asen II','Kaliman I of Bulgaria','Michael II Asen','Konstantin Tih','Ivaylo of Bulgaria','Ivan Asen III','George I of Bulgaria']),
+ ('SERBIA-KINGDOM','Rey de Serbia',['Stefan the First-Crowned','Stefan Radoslav','Stefan Vladislav','Stefan Uroš I','Stefan Dragutin','Stefan Milutin']),
+ ('HUNGARY-KINGDOM','Rey de Hungría',['Emeric, King of Hungary','Ladislaus III of Hungary','Andrew II of Hungary','Béla IV of Hungary','Stephen V of Hungary','Ladislaus IV of Hungary','Andrew III of Hungary']),
+ ('HIST-Q12548','Rey de Romanos / dignidad imperial',['Otto IV, Holy Roman Emperor','Frederick II, Holy Roman Emperor','Conrad IV of Germany','William II of Holland','Richard of Cornwall','Alfonso X of Castile','Rudolf I of Germany','Adolf of Germany','Albert I of Germany']),
+ ('MONGOL-EMPIRE','Gran khan mongol',['Genghis Khan','Ögedei Khan','Töregene Khatun','Güyük Khan','Oghul Qaimish','Möngke Khan','Kublai Khan','Ariq Böke']),
+ ('YUAN','Emperador Yuan',['Kublai Khan','Temür Khan']),
+ ('SOUTHERN-SONG','Emperador Song del Sur',['Emperor Ningzong','Emperor Lizong','Emperor Duzong','Emperor Gong of Song','Emperor Duanzong','Emperor Bing']),
+ ('JIN-JURCHEN','Emperador Jin',['Emperor Zhangzong of Jin','Wanyan Yongji','Emperor Xuanzong of Jin','Emperor Aizong of Jin','Emperor Mo of Jin']),
+ ('WESTERN-XIA','Emperador de Xia Occidental',['Emperor Huanzong of Western Xia','Emperor Xiangzong of Western Xia','Emperor Shenzong of Western Xia','Emperor Xianzong of Western Xia','Emperor Mozhu of Western Xia']),
+ ('GOLDEN-HORDE','Khan de la Horda de Oro',['Batu Khan','Sartaq Khan','Ulaghchi','Berke','Mengu-Timur','Tuda Mengu','Talabuga','Tokhta']),
+ ('ILKHANATE','Ilkan de Persia',['Hulagu Khan','Abaqa Khan','Tekuder','Arghun','Gaykhatu','Baydu','Ghazan']),
+ ('DELHI-MAMLUK','Sultán / sultana de Delhi',['Qutb ud-Din Aibak','Aram Shah','Iltutmish','Ruknuddin Firuz','Razia Sultana','Muiz ud din Bahram','Ala ud din Masud','Nasiruddin Mahmud (son of Iltutmish)','Ghiyas ud din Balban','Muiz ud din Qaiqabad','Shamsuddin Kayumars']),
+ ('DELHI-KHALJI','Sultán de Delhi',['Jalaluddin Khalji','Alauddin Khalji']),
+ ('AYYUBID','Sultán ayubí de Egipto',['Al-Adil I','Al-Kamil','Al-Adil II','As-Salih Ayyub','Al-Muazzam Turanshah']),
+ ('MAMLUKS','Sultán / sultana de Egipto',['Shajar al-Durr','Aybak','Qutuz','Baybars','Al-Said Barakah','Solamish','Qalawun','Al-Ashraf Khalil','Al-Nasir Muhammad','Kitbugha','Lajin']),
+ ('KHWAREZM','Shah jorezmita',['Ala ad-Din Tekish','Muhammad II of Khwarazm','Jalal al-Din Mangburni']),
+ ('ALMOHAD','Califa almohade',['Muhammad al-Nasir','Yusuf II, Almohad Caliph','Abd al-Wahid I','Abdallah al-Adil','Idris al-Ma\'mun','Abd al-Wahid II','Ali al-Said','Umar al-Murtada','Idris al-Wathiq']),
+ ('HIST-Q184536','Mansa de Mali',['Sundiata Keita','Mansa Uli I','Mansa Sakura']),
+ ('GORYEO','Rey de Goryeo',['Sinjong of Goryeo','Huijong of Goryeo','Gangjong of Goryeo','Gojong of Goryeo','Wonjong of Goryeo','Chungnyeol of Goryeo','Chungseon of Goryeo']),
+ ('JPN','Emperador · corte imperial',['Emperor Tsuchimikado','Emperor Juntoku','Emperor Chūkyō','Emperor Go-Horikawa','Emperor Shijō','Emperor Go-Saga','Emperor Go-Fukakusa','Emperor Kameyama','Emperor Go-Uda','Emperor Fushimi','Emperor Go-Fushimi']),
+ ('JPN','Shogun de Kamakura',['Minamoto no Yoriie','Minamoto no Sanetomo','Kujō Yoritsune','Kujō Yoritsugu','Prince Munetaka','Prince Koreyasu','Prince Hisaaki']),
+ ('ETH','Emperador de Etiopía',['Yekuno Amlak','Yagbe\'u Seyon','Wedem Arad']),
+ ('HIST-Q140446','Soberano de la dinastía Zagüe',['Gebre Mesqel Lalibela','Na\'akueto La\'ab','Yetbarak']),
+ ('KHM','Rey jemer',['Jayavarman VII','Indravarman II','Jayavarman VIII','Indravarman III']),
+ ('HIST-Q863279','Rey de Sukhothai',['Si Inthrathit','Ban Mueang','Ram Khamhaeng']),
+ ('HIST-Q6806806','Rey chola',['Kulothunga III','Rajaraja III','Rajendra III']),
+ ('HIST-Q844910','Rey pandya',['Maravarman Sundara Pandyan I','Jatavarman Sundara Pandyan I','Maravarman Kulasekara Pandyan I']),
+ ('SAVOY-COUNTY','Conde de Saboya',['Thomas I, Count of Savoy','Amadeus IV, Count of Savoy','Boniface, Count of Savoy','Peter II, Count of Savoy','Philip I, Count of Savoy','Amadeus V, Count of Savoy'])]
+code=(ROOT/'scripts/review-019-core-rulers.py').read_text(encoding='utf8');code=code[code.index('def main():'):code.index('if __name__')].replace('core019-rulers.json','rulers024-candidates.json').replace('core019meta-','rulers024meta-');exec(compile(code,'rulers024','exec'),r.__dict__)
+if __name__=='__main__':r.main()

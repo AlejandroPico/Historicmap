@@ -1,0 +1,130 @@
+{
+  "key": "WESTERN-XIA",
+  "name": "Xia Occidental",
+  "qid": "Q7427",
+  "aliases": [
+    "Western Xia",
+    "Xia Occidental"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WESTERN-XIA"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q7454",
+      "name": "Huánzōng",
+      "role": "Emperador de Xia Occidental",
+      "start": "1200-01-01",
+      "end": "1206-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Huanzong_of_Western_Xia",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q7456",
+      "name": "Xiāngzōng",
+      "role": "Emperador de Xia Occidental",
+      "start": "1206-01-01",
+      "end": "1211-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xiangzong_of_Western_Xia",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q7457",
+      "name": "Shénzōng",
+      "role": "Emperador de Xia Occidental",
+      "start": "1211-01-01",
+      "end": "1223-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Shenzong_of_Western_Xia",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q7458",
+      "name": "Xiànzōng",
+      "role": "Emperador de Xia Occidental",
+      "start": "1223-01-01",
+      "end": "1226-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xianzong_of_Western_Xia",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q7459",
+      "name": "Mòdi",
+      "role": "Emperador de Xia Occidental",
+      "start": "1226-01-01",
+      "end": "1227-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Mozhu_of_Western_Xia",
+      "curated": true,
+      "acquisition": "curated-1200-0.24",
+      "note": "La dignidad no acredita control uniforme de toda la geometría de fuente. Síntesis anual; calendario histórico y dominio territorial no certificados día a día.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-4847",
+      "start": 1200,
+      "end": 1205,
+      "name": "Western Xia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5277",
+      "start": 1206,
+      "end": 1215,
+      "name": "Western Xia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5417",
+      "start": 1216,
+      "end": 1219,
+      "name": "Western Xia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5454",
+      "start": 1220,
+      "end": 1226,
+      "name": "Western Xia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

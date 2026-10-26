@@ -1,0 +1,66 @@
+{
+  "key": "HIST-Q816814",
+  "name": "Kingdom of Gwynedd",
+  "qid": "Q816814",
+  "aliases": [
+    "Kingdom of Gwynedd"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q816814"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5041",
+      "start": 1200,
+      "end": 1209,
+      "name": "Kingdom of Gwynedd",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5358",
+      "start": 1210,
+      "end": 1215,
+      "name": "Kingdom of Gwynedd",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5404",
+      "start": 1216,
+      "end": 1235,
+      "name": "Kingdom of Gwynedd",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5558",
+      "start": 1236,
+      "end": 1278,
+      "name": "Kingdom of Gwynedd",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5877",
+      "start": 1279,
+      "end": 1284,
+      "name": "Kingdom of Gwynedd",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

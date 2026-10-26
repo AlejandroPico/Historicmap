@@ -1,0 +1,47 @@
+{
+  "key": "HIST-Q3403551",
+  "name": "Principality of Halych",
+  "qid": "Q3403551",
+  "aliases": [
+    "Principality of Halych"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q3403551"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q376190",
+      "role": "Jefatura del Gobierno",
+      "start": "1226-01-01",
+      "end": "1229-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q376190",
+      "sourceStatement": "Q376190-d01db0cd-4de9-34ea-8211-dbc3bae14a93",
+      "office": "Q100709407",
+      "acquisition": "historical-0.24",
+      "name": "Andrés de Galitzia"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5172",
+      "start": 1200,
+      "end": 1201,
+      "name": "Principality of Halych",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

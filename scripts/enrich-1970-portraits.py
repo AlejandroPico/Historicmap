@@ -15,6 +15,8 @@ swiss_reviews={(r['qid'],r['title']):r for r in swiss_reviews}
 spec=importlib.util.spec_from_file_location('h',pathlib.Path(__file__).with_name('enrich-1970-authorities.py'))
 h=importlib.util.module_from_spec(spec);spec.loader.exec_module(h)
 excluded={(r['person'],r['title']) for r in json.loads(pathlib.Path(__file__).with_name('media-exclusions.json').read_text(encoding='utf8'))}
+numismatic_file=pathlib.Path(__file__).with_name('media-corrections-024.json')
+numismatic={(r['person'],r['title']):r for r in json.loads(numismatic_file.read_text(encoding='utf8')).get('accepted',[])} if numismatic_file.exists() else {}
 data=json.loads((h.OUT/'data/identities.json').read_text(encoding='utf8'))
 def selected_countries(data):
  return [c for key,c in data['countries'].items() if not args.countries or key in args.countries]
@@ -47,6 +49,7 @@ def acquire(q):
   if (q,filename) in excluded:continue
   if not isinstance(filename,str) or filename.lower().endswith('.svg'):continue
   if re.search(r'AI.generated|Pope Trump AI|Ngultrum|banknote',filename,re.I):continue
+  if re.search(r'\bcoins?\b|\bdinars?\b|\bdirhams?\b|currency',filename,re.I) and (q,filename) not in numismatic:continue
   digest=hashlib.sha256(filename.encode()).hexdigest()[:20]
   params=dict(action='query',titles='File:'+filename,redirects=1,prop='imageinfo',iiprop='url|extmetadata',iiurlwidth=320,format='json')
   info=h.get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params),'commons-'+digest)
@@ -82,6 +85,7 @@ def acquire(q):
   clean=lambda value:html.unescape(re.sub('<[^>]*>','',value))
   result=dict(file=relative,title=filename,url=ii.get('descriptionurl',''),artist=clean(meta.get('Artist',{}).get('value','')),license=lic,licenseUrl=meta.get('LicenseUrl',{}).get('value','') or ii.get('descriptionurl','')+'#Licensing',attribution=clean(meta.get('Attribution',{}).get('value','')),attributionRequired=lic=='Attribution' or open_licence or meta.get('AttributionRequired',{}).get('value')=='true',credit=clean(meta.get('Credit',{}).get('value','')),sha256=hashlib.sha256(dest.read_bytes()).hexdigest(),bytes=dest.stat().st_size,sourceUrl=url)
   if q in reviewed_records:result.update(reviewedSource=reviewed_records[q]['source'],photoDate=reviewed_records[q].get('photoDate',''))
+  if (q,filename) in numismatic:result.update(caption=numismatic[(q,filename)]['caption'],reviewedSource=numismatic[(q,filename)]['source'])
   if open_licence and not result['attribution']:result['attribution']=' · '.join(filter(None,[result['artist'],result['credit'],'Licence Ouverte']))
   if permission:result['permission']=permission
   return result

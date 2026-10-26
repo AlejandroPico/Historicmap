@@ -1,0 +1,61 @@
+"""Dated identities1200–1299 over unchanged original Cliopatria contours."""
+import pathlib,json
+ROOT=pathlib.Path(__file__).resolve().parents[1];OUT=ROOT/'public/data'
+def prepare(ids):
+ cs=ids['countries'];d=dict(format='dated-entity-resolution',coverageStart=1200,coverageEnd=1299,referenceDate='2026-10-27',qidKeys={},names={k:c['name']for k,c in cs.items()},records=[])
+ for k,c in cs.items():
+  if c.get('qid'):d['qidKeys'].setdefault(c['qid'],k)
+ for k in ['MONGOL-EMPIRE','YUAN','SOUTHERN-SONG','JIN-JURCHEN','WESTERN-XIA','KHWAREZM','DELHI-MAMLUK','DELHI-KHALJI','NICAEA','LATIN-EMPIRE','AYYUBID','LEON-KINGDOM','CASTILE-KINGDOM','CASTILE','SECOND-BULGARIA','EPIRUS','ABBASID','CHAGATAI','SELJUK-RUM','ALMOHAD','SICILY-KINGDOM','NAPLES-KINGDOM','MAJORCA-KINGDOM','HAFSID','BYZANTINE','TREBIZOND','SERBIA-KINGDOM','SERBIA-PRINCIPALITY','GORYEO','ILKHANATE','GOLDEN-HORDE','NORWAY-KINGDOM']:
+  if cs[k].get('qid'):d['qidKeys'][cs[k]['qid']]=k
+ def rule(names,key,a=1200,b=1299,label=None,status='independent',note=''):
+  d['records'].append(dict(names=names.split('|'),key=key,label=label or cs.get(key,{}).get('name',names.split('|')[0]),entityCode=key,start=a,end=b,admin='',status=status,source='https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1200.md',note=note+' Geometría de síntesis anual, sin día uniforme ni certificación de todos sus límites.'))
+ for n,k in [('Kingdom of France','FRA'),('Crown of Aragon','ARAGON'),('Kingdom of Portugal','PRT'),('Kingdom of England','ENGLAND'),('Kingdom of Scotland|Kingdom of Alba','SCOTLAND'),('Kingdom of Navarre','NAVARRE-KINGDOM'),('Kingdom of Hungary','HUNGARY-KINGDOM'),('Kingdom of Bohemia','BOHEMIA'),('Goryeo','GORYEO'),('Southern Song','SOUTHERN-SONG'),('Western Xia','WESTERN-XIA'),('Chagatai Khanate','CHAGATAI'),('Mamluk Dynasty','DELHI-MAMLUK'),('Khalji Dynasty','DELHI-KHALJI'),('Ayyubid Sultanate','AYYUBID'),('Mamluk Sultanate','MAMLUKS'),('Abbasid Caliphate','ABBASID'),('Sultanate of Rum','SELJUK-RUM'),('Second Bulgarian Empire','SECOND-BULGARIA'),('Despotate of Epirus','EPIRUS'),('Hafsid Dynasty','HAFSID'),('Marinid Sultanate','MARINID'),('Kingdom of Majorca','MAJORCA-KINGDOM'),('Armenian Kingdom of Cilicia','CILICIA-KINGDOM'),('Banate of Bosnia','BOSNIA-BANATE'),('Republic of Florence','FLORENCE-REPUBLIC'),('Republic of Venice','HIST-Q4948'),('Republic of Genoa','HIST-Q174306'),('Papal States','PAPAL-STATES')]:rule(n,k)
+ # The original Comtat label begins in1272, before its papal acquisition.
+ rule('Comtat Venaissin','UNRESOLVED-COMTAT-SOURCE',b=1273,label='Comtat Venaissin · referencia anterior a la administración pontificia',status='source-reference',note='El contorno de fuente empieza en1272; no acredita por sí solo administración pontificia antes de1274.')
+ rule('Comtat Venaissin','PAPAL-STATES',a=1274,note='Administración pontificia desde1274; no se retrotrae al inicio de1272 del agregado de fuente.')
+ rule('Kingdom of Castile','CASTILE-KINGDOM',b=1229,note='Monarquía castellana anterior a la unión de1230; no se anticipa la Corona unificada.')
+ rule('Kingdom of León','LEON-KINGDOM',b=1229,note='Corona leonesa con sucesión propia antes de1230.')
+ rule('Kingdom of Castile|Kingdom of León|Crown of Castile','CASTILE',a=1230,note='Unión de las coronas durante1230. Los componentes mantienen contornos originales; no se inventa una frontera diaria del proceso.')
+ rule('Mongol Empire','MONGOL-EMPIRE',a=1206,b=1259,note='Grandes khanes y regentes tienen series separadas; el avance no se obtiene interpolando el perímetro entre instantáneas.')
+ rule('Mongol Empire','MONGOL-EMPIRE',a=1260,status='source-reference',label='Poderes mongoles · agregado en fragmentación',note='Desde la guerra de sucesión de1260 hay poderes y kanatos distintos. El agregado persiste hasta1293; no se adjudica completo aKublai o al régimen Yuan. Las sedes permiten consultar entidades documentadas sin inventar sus fronteras.')
+ rule('Yuan Dynasty','YUAN',a=1271,note='Dinastía proclamada en1271; no equivale a control uniforme de todos los kanatos ni implica conquista completa delSong antes de1279.')
+ rule('Great Jin','JIN-JURCHEN',b=1234)
+ rule('Great Jin','JIN-JURCHEN',a=1235,status='source-reference',label='Antiguos dominios Jin · transición de fuente',note='El agregado de fuente persiste un año después del fin de1234. No se prolonga al emperador difunto sobre ese contorno.')
+ rule('Khwarezmid Dynasty|Khwarezmid Empire','KHWAREZM',b=1231,note='La caída de los centros imperiales desde1219 y los poderes posteriores deJalal al-Din son fases distintas, no dominio estable de todo el contorno.')
+ rule('Khwarezmid Empire','KHWAREZM',a=1232,status='source-reference',label='Antiguos dominios jorezmitas · referencia',note='El agregado persiste hasta1235 después de la muerte deJalal al-Din en1231; no se inventa un shah continuador.')
+ rule('Byzantine Empire','BYZANTINE',b=1203)
+ rule('Byzantine Empire','BYZANTINE',a=1204,b=1226,status='source-reference',label='Antiguos dominios bizantinos · fragmentación de1204',note='El contorno persiste después de la conquista latina deConstantinopla. Nicea,Epiro yTrebisonda son poderes distintos; no hay un emperador único gobernando todos esos territorios.')
+ rule('Byzantine Empire','BYZANTINE',a=1261)
+ rule('Nicaean Empire','NICAEA',a=1204,b=1261,note='Poder imperial en el exilio, distinto del gobierno latino. Durante1261 tiene lugar la recuperación deConstantinopla.')
+ rule('Nicaean Empire','BYZANTINE',a=1262,status='source-reference',label='Bizancio restaurado · contorno niceno heredado',note='La fuente prolonga el nombre deNicea hasta1278. Se corrigen identidad y autoridades sin afirmar que ese contorno reconstruya todas las fronteras del imperio restaurado.')
+ rule('Latin Empire','LATIN-EMPIRE',a=1204,b=1261)
+ rule('Latin Empire','LATIN-EMPIRE',a=1262,status='source-reference',label='Antiguos dominios latinos · contorno sin resolver',note='El gobierno latino deConstantinopla termina en1261, aunque la geometría persista hasta1278. No se proyectan títulos en exilio como ocupación efectiva.')
+ rule('Empire of Trebizond','TREBIZOND',a=1204,note='Serie imperial propia; no hereda automáticamente al emperador deConstantinopla oNicea.')
+ rule('Kingdom of Serbia','SERBIA-PRINCIPALITY',b=1216,note='Antes de la coronación real de1217, gran principado y conflictos dinásticos; no se anticipa el título de rey.')
+ rule('Kingdom of Serbia','SERBIA-KINGDOM',a=1217)
+ rule('Kingdom of Sicily','SICILY-KINGDOM',b=1281,note='El título siciliano de un soberano no se obtiene de su oficio imperial o deJerusalén.')
+ rule('Kingdom of Sicily','SICILY-KINGDOM',a=1282,note='Tras lasVísperas Sicilianas hay poderes isleños y continentales rivales. El contorno agregado no acredita todas las líneas del conflicto; Nápoles tiene su propia ficha.')
+ rule('Kingdom of Naples','NAPLES-KINGDOM',a=1282)
+ rule('Golden Horde','GOLDEN-HORDE',a=1242,note='Ulús y formación del kanato son procesos graduales; no se anticipa un Estado moderno ni una autoridad uniforme sobre todas las dependencias.')
+ rule('Ilkhanate','ILKHANATE',a=1256)
+ rule('Old Kingdom of Norway','NORWAY-KINGDOM',note='Se corrige el identificador de fuente que corresponde aMargaritaI, una persona, manteniendo el reino y sus reyes propios.')
+ rule('Kingdom of Denmark','DNK');rule('Kingdom of Sweden','SWE')
+ rule('Kamakura Shogunate','JPN',label='Japón · Kamakura y corte imperial',note='Shogun,emperador y regentesHōjō tienen funciones e intervalos propios. El conflicto deJōkyū no se representa mediante fronteras de facción inventadas.')
+ rule('Holy Roman Empire|Holy Roman Empire Minor States','HIST-Q12548',label='Estados agrupados del Sacro Imperio',note='Dignidad imperial, realeza deRomanos y soberanías de los miembros no son un Estado nacional único.')
+ for n,k in [('House of Habsburg','HABSBURG-MONARCHY'),('House of Luxembourg','LUXEMBOURG-DOMAINS'),('House of Ascania','ASCANIA-DOMAINS'),('House of Hohenstaufen','HIST-Q130875'),('House of Wittelsbach','WITTELSBACH-DOMAINS'),('House of Anjou-Sicily|Capetian House of Anjou','VALOIS-ANJOU-DOMAINS')]:rule(n,k,status='source-reference',note='Agregado de una casa dinástica y sus dominios, no una persona ni un único gobierno nacional de todos sus miembros.')
+ rule('County of Savoy','SAVOY-COUNTY',note='Condado, no la dignidad ducal posterior de1416.')
+ rule('Margraviate of Brandenburg','ELECTORATE-BRANDENBURG',label='Margraviato de Brandeburgo',note='Margraves y ramas corregentes; no se anticipa el reino dePrusia ni una regulación electoral posterior.')
+ rule('Duchy of Bavaria','BAVARIA-DUCHY',note='La partición de1255 produce ramas deAlta yBaja Baviera, no gobernantes nacionales equivalentes de todo el contorno.')
+ rule('Grand Duchy of Lithuania','LITHUANIA-DUCHY',note='Formación estatal y cronología temprana con fuentes desiguales; no se anticipa la unión conPolonia.')
+ rule('Grand Principality of Moscow','MUSCOVY',a=1283,note='Principado propio; no zarato ruso ni gobierno de toda laRus.')
+ rule('Grand Principality of Moscow','MUSCOVY',b=1282,status='source-reference',label='Área moscovita · referencia de fuente anterior al principado',note='La geometría no acredita por sí sola un príncipe propio antes de la formación estatal documentada; no se retrotrae al zar.')
+ rule('Mali Empire','HIST-Q184536',a=1235,note='Cronología temprana y extensión reconstruidas, no fronteras de un Estado nacional moderno.')
+ rule('Mali Empire','HIST-Q184536',b=1234,status='source-reference',label='Área deMalí · referencia anterior a la cronología imperial',note='No se anticipa el gobierno imperial deSundiata a todo el siglo; la formación y fuentes orales tienen cronologías alternativas.')
+ rule('Ethiopian Empire','ETH',a=1270,note='Fase salomónica posterior a laZagüe; cronología de los primeros reyes todavía incompleta.')
+ rule('Zagwe dynasty','HIST-Q140446',note='Cronología dinástica con variantes; no se transforma una lista tradicional en datación arqueológica absoluta.')
+ rule('Khmer Empire','KHM',label='Imperio jemer · período angkoriano')
+ for n,k,label,note in [('Later Mayan City-States','HIST-Q28567','Estados mayas · agregado','Ciudades y tradiciones distintas, no una civilización de gobernante único.'),('Puebloans - Aztec Regional System','PUEBLO-REGIONAL','Pueblos ancestrales · sistema regional deAztec','Referencia arqueológica norteamericana, no imperio mexica.'),('Viking settlements','VIKING-SETTLEMENTS','Asentamientos nórdicos · agregado','Comunidades diferentes, no una nación de monarca vikingo único.'),('Ngô Dynasty','UNRESOLVED-VIET-SOURCE','Referencia vietnamita · cronología sin resolver','La dinastíaNgô del sigloX no acredita esta periodización delXIII.'),('Classic Veracruz Culture','HIST-Q2379418','Veracruz · referencia arqueológica','Una cultura arqueológica no es necesariamente un país de autoridad única.')]:rule(n,k,label=label,status='source-reference',note=note)
+ rule('Cuzco','CUSCO-KINGDOM',note='Cronologías tempranas en parte legendarias; no se anticipa la expansión imperial inca del sigloXV ni se inventa un soberano de fechas exactas.')
+ return d
+if __name__=='__main__':
+ d=prepare(json.loads((OUT/'identities.json').read_text(encoding='utf8')));(OUT/'historical-1200-entities.json').write_text(json.dumps(d,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf8',newline='\n');print('Dated rules',len(d['records']))

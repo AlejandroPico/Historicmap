@@ -1,0 +1,58 @@
+{
+  "key": "HIST-Q1991742",
+  "name": "Kingdom of Alba",
+  "qid": "Q1991742",
+  "aliases": [
+    "Kingdom of Alba"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1991742"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-4724",
+      "start": 1200,
+      "end": 1235,
+      "name": "Kingdom of Alba",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5581",
+      "start": 1236,
+      "end": 1271,
+      "name": "Kingdom of Alba",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5840",
+      "start": 1272,
+      "end": 1284,
+      "name": "Kingdom of Alba",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5935",
+      "start": 1285,
+      "end": 1293,
+      "name": "Kingdom of Alba",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

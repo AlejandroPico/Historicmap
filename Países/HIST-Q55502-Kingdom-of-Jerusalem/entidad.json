@@ -1,0 +1,66 @@
+{
+  "key": "HIST-Q55502",
+  "name": "Kingdom of Jerusalem",
+  "qid": "Q55502",
+  "aliases": [
+    "Kingdom of Jerusalem"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q55502"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5170",
+      "start": 1200,
+      "end": 1235,
+      "name": "Kingdom of Jerusalem",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5602",
+      "start": 1236,
+      "end": 1259,
+      "name": "Kingdom of Jerusalem",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5788",
+      "start": 1260,
+      "end": 1271,
+      "name": "Kingdom of Jerusalem",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5849",
+      "start": 1272,
+      "end": 1284,
+      "name": "Kingdom of Jerusalem",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1200.geojson",
+      "recordId": "clio-5944",
+      "start": 1285,
+      "end": 1293,
+      "name": "Kingdom of Jerusalem",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -22,9 +22,9 @@ const geometryCache=new Map<number,Polygon|MultiPolygon>();
 let names:Map<string,string>|undefined;
 export async function annualData(year:number){
   if(year<1886){
-    const data=await asset<FeatureCollection>(year<1400?'early-modern-1300.geojson':year<1500?'early-modern-1400.geojson':year<1600?'early-modern-1500.geojson':year<1700?'early-modern-1600.geojson':year<1789?'early-modern-1700.geojson':'early-modern.geojson');
+    const data=await asset<FeatureCollection>(year<1300?'early-modern-1200.geojson':year<1400?'early-modern-1300.geojson':year<1500?'early-modern-1400.geojson':year<1600?'early-modern-1500.geojson':year<1700?'early-modern-1600.geojson':year<1789?'early-modern-1700.geojson':'early-modern.geojson');
     let selected=pacificComponents({...data,features:data.features.filter(f=>f.properties!.start<=year&&f.properties!.end>=year)},year);
-    if(year>=1300)selected=resolve1880(selected,year,await asset<EntityResolution>(year>=1880?'historical-1880-entities.json':year>=1860?'historical-1860-entities.json':year>=1840?'historical-1840-entities.json':year>=1820?'historical-1820-entities.json':year>=1800?'historical-1800-entities.json':year>=1700?'historical-1700-entities.json':year>=1600?'historical-1600-entities.json':year>=1500?'historical-1500-entities.json':year>=1400?'historical-1400-entities.json':'historical-1300-entities.json'));
+    if(year>=1200)selected=resolve1880(selected,year,await asset<EntityResolution>(year>=1880?'historical-1880-entities.json':year>=1860?'historical-1860-entities.json':year>=1840?'historical-1840-entities.json':year>=1820?'historical-1820-entities.json':year>=1800?'historical-1800-entities.json':year>=1700?'historical-1700-entities.json':year>=1600?'historical-1600-entities.json':year>=1500?'historical-1500-entities.json':year>=1400?'historical-1400-entities.json':year>=1300?'historical-1300-entities.json':'historical-1200-entities.json'));
     return year>=1800?pacificReferences(selected,year,await asset<FeatureCollection>('pacific-references.geojson')):selected;
   }
   const [history,profiles,supplements]=await Promise.all([asset<HistoryTopology>('history.topojson'),asset<ProfileData>('profiles.json'),year>=1900?asset<FeatureCollection>('historical-supplements.geojson'):Promise.resolve(undefined)]);
