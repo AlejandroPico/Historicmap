@@ -1,0 +1,80 @@
+{
+  "key": "CULTURE-GUGU-BADHUN-C2EA7751-Y1650",
+  "contextKey": "CULTURE-GUGU-BADHUN-C2EA7751",
+  "ownerKey": "territorio-c2ea7751e1d3",
+  "name": "Gugu-Badhun",
+  "originalNames": [
+    "Gugu-Badhun"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia regional de la compilación, con sociedades, comunidades y redes internas diversas. El nombre no acredita un Estado unitario ni ocupación uniforme y exclusiva de la superficie.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "Área tradicional de datación local pendiente, incluida como contexto de poblamiento. NO acredita que esta comunidad ocupara exactamente este contorno en el año consultado. La fecha de la compilación no fecha sus fuentes; los traslados y cambios locales siguen pendientes.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1650; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1650.geojson"
+    },
+    {
+      "title": "AIATSIS · diversidad, agrupaciones y límites generales no fijos",
+      "url": "https://aiatsis.gov.au/explore/map-indigenous-australia"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#81908d",
+  "focus": [
+    145.61,
+    -19.27
+  ],
+  "phases": [
+    {
+      "start": 1650,
+      "end": 1699,
+      "label": "Gugu-Badhun",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-GUGU-BADHUN-C2EA7751-Y1650.geojson",
+  "geometrySha256": "d6336b61a0bd107270313992c034ea964e2e2fcc940e7c3b182415a72df886f4",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1650.geojson",
+    "sourceSha256": "e691a3b5bab4ca7a0629daffaf8cd31731ee76ad390b19dffc1c267b139de4e2",
+    "upstreamSha256": "e691a3b5bab4ca7a0629daffaf8cd31731ee76ad390b19dffc1c267b139de4e2",
+    "featureIds": [
+      509
+    ],
+    "components": null,
+    "year": 1650,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1650.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Gugu-Badhun",
+      "ABBREVN": "Gugu-Badhun",
+      "SUBJECTO": "Gugu-Badhun",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Gugu-Badhun"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "traditional-area-undated",
+  "continuityNote": "Referencia tradicional de cronología local pendiente; conservarla como contexto no implica continuidad exacta del mismo contorno durante todo el intervalo.",
+  "displayPriority": 1,
+  "parentContextKeys": [
+    "CULTURE-AUSTRALIA"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "key": "REFERENCE-MERINA-KINGDOM-Y1600",
+  "contextKey": "REFERENCE-MERINA-KINGDOM",
+  "ownerKey": "HIST-Q1071439",
+  "name": "Merina Kingdom · referencia",
+  "originalNames": [
+    "Merina Kingdom"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "excluded",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Etiqueta ausente, desfasada o anacrónica respecto de esta instantánea. No se prolonga un poder extinto ni se anticipa una administración posterior; la población se trata separadamente del Estado.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1600; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson"
+    },
+    {
+      "title": "ICOMOS/UNESCO · Ambohimanga desde al menos el siglo XV",
+      "url": "https://whc.unesco.org/document/154668"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q1071439"
+  ],
+  "color": "#929e87",
+  "focus": [
+    46.89023559324524,
+    -20.24826122795013
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-MERINA-KINGDOM-Y1600.geojson",
+  "geometrySha256": "5c6426666517c0c5025cc7fa2c0976b9e8e7ce9fe55e02ae1eb0d1e452923530",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1600.geojson",
+    "sourceSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "upstreamSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "featureIds": [
+      15
+    ],
+    "components": null,
+    "year": 1600,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [
+    "Expansionist Kingdom of Merina"
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Merina Kingdom",
+      "ABBREVN": "Merina",
+      "wikipedia": null,
+      "SUBJECTO": "Merina Kingdom",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Expansionist Kingdom of Merina"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

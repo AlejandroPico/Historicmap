@@ -1,0 +1,72 @@
+{
+  "key": "REFERENCE-HURON-A1CB44B0-Y1500",
+  "contextKey": "REFERENCE-HURON-A1CB44B0",
+  "ownerKey": "REFERENCE-HURON-A1CB44B0",
+  "name": "Huron",
+  "originalNames": [
+    "Huron"
+  ],
+  "kind": "polity-reference",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia regional de la compilación, con sociedades, comunidades y redes internas diversas. El nombre no acredita un Estado unitario ni ocupación uniforme y exclusiva de la superficie.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1500; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#ab9d72",
+  "focus": [
+    -79.99,
+    44.41
+  ],
+  "phases": [
+    {
+      "start": 1500,
+      "end": 1700,
+      "label": "Huron",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-HURON-A1CB44B0-Y1500.geojson",
+  "geometrySha256": "03343ea81c88bd327ee2a20f26243fe7a147419d69be9f37db424256fe9b4b0b",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1500.geojson",
+    "sourceSha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+    "upstreamSha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+    "featureIds": [
+      127
+    ],
+    "components": null,
+    "year": 1500,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1500.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Huron",
+      "ABBREVN": "Huron",
+      "SUBJECTO": "Huron",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Huron"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

@@ -1,0 +1,76 @@
+{
+  "key": "CULTURE-WEST-AFRICAN-FARMERS-Y1492",
+  "contextKey": "CULTURE-WEST-AFRICAN-FARMERS",
+  "ownerKey": "CULTURE-WEST-AFRICAN-FARMERS",
+  "name": "Comunidades agrícolas de África occidental",
+  "originalNames": [
+    "West African cereal farmers"
+  ],
+  "kind": "cultural-region",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia de continuidad y diversidad regional posterior a 1200. El contorno procede de la instantánea indicada; no acredita límites invariables, una sola cultura ni autoridad política uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+    },
+    {
+      "title": "Met · Sudán occidental y central 1000–1400",
+      "url": "https://www.metmuseum.org/ru/toah/ht/07/afu"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#969886",
+  "focus": [
+    17.10687897365083,
+    8.703566594626118
+  ],
+  "phases": [
+    {
+      "start": 1492,
+      "end": 1499,
+      "label": "Comunidades agrícolas de África occidental",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-WEST-AFRICAN-FARMERS-Y1492.geojson",
+  "geometrySha256": "bcbefe8dce5a8029e31af6c7c29bd2ffdae0cd64bdb3b9a0fcf5f4b04840db00",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1492.geojson",
+    "sourceSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "upstreamSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "featureIds": [
+      82
+    ],
+    "components": null,
+    "year": 1492,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "West African cereal farmers",
+      "ABBREVN": "West African cereal farmers",
+      "SUBJECTO": "West African cereal farmers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "West African cereal farmers"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

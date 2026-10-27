@@ -1,0 +1,68 @@
+{
+  "key": "REFERENCE-MAYA-CITY-STATES-Y1279",
+  "contextKey": "REFERENCE-MAYA-CITY-STATES",
+  "ownerKey": "REFERENCE-MAYA-CITY-STATES",
+  "name": "Maya city-states · referencia",
+  "originalNames": [
+    "Maya city-states"
+  ],
+  "kind": "polity-reference",
+  "region": "Norteamérica",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Ciudades, señoríos y comunidades mayas diversos, sin Estado único. La presencia colonial no elimina sus lenguas ni su poblamiento; las fases itzá del Petén difieren de las de Yucatán. El contorno general no es un frente militar continuo hasta 1697.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1279; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1279.geojson"
+    },
+    {
+      "title": "Colmex · migraciones y cronología documental itzá; fases locales de conquista",
+      "url": "https://repositorio.colmex.mx/downloads/cj82k783q?locale=es"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#969886",
+  "focus": [
+    -89.5036286978886,
+    19.373312555510424
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-MAYA-CITY-STATES-Y1279.geojson",
+  "geometrySha256": "bc9bff97f475a54034f6b49c08e6a0cc9ff2f448e43f2d7a01991c48e0c9c709",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1279.geojson",
+    "sourceSha256": "839f48f61d984dd58f70f312dfe626c3988d4d4822e78d68a123fd0784e852e2",
+    "upstreamSha256": "839f48f61d984dd58f70f312dfe626c3988d4d4822e78d68a123fd0784e852e2",
+    "featureIds": [
+      47
+    ],
+    "components": null,
+    "year": 1279,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1279.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Maya city-states",
+      "ABBREVN": "Maya",
+      "SUBJECTO": "Maya city-states",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Maya city-states"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

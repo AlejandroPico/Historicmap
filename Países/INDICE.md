@@ -103,54 +103,203 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [islas del mar del Coral](./CSI-islas-del-mar-del-Coral/entidad.json) | CSI | 0 | 0 | 0 | 1 |
 | [Checoslovaquia](./CSK-Checoslovaquia/entidad.json) | CSK | 4 | 0 | 36 | 0 |
 | [Cuba](./CUB-Cuba/entidad.json) | CUB | 3 | 0 | 40 | 8 |
+| [Aaniiih](./CULTURE-AANIIIH-6BC0BD54-aaniiih/entidad.json) | CULTURE-AANIIIH-6BC0BD54 | 0 | 0 | 0 | 0 |
+| [Abnaki](./CULTURE-ABNAKI-944D678B-abnaki/entidad.json) | CULTURE-ABNAKI-944D678B | 0 | 0 | 0 | 0 |
+| [Acaxea](./CULTURE-ACAXEA-51548F84-acaxea/entidad.json) | CULTURE-ACAXEA-51548F84 | 0 | 0 | 0 | 0 |
+| [Alabama](./CULTURE-ALABAMA-0A14A179-alabama/entidad.json) | CULTURE-ALABAMA-0A14A179 | 0 | 0 | 0 | 0 |
 | [Comunidades y poderes alanos](./CULTURE-ALANS-Comunidades-y-poderes-alanos/entidad.json) | CULTURE-ALANS | 0 | 0 | 0 | 2 |
 | [Comunidades del litoral de Alaska](./CULTURE-ALASKA-Comunidades-del-litoral-de-Alaska/entidad.json) | CULTURE-ALASKA | 0 | 0 | 0 | 2 |
+| [Algonquin](./CULTURE-ALGONQUIN-945781D0-algonquin/entidad.json) | CULTURE-ALGONQUIN-945781D0 | 0 | 0 | 0 | 0 |
 | [Pueblos y sociedades amazónicas](./CULTURE-AMAZON-Pueblos-y-sociedades-amazonicas/entidad.json) | CULTURE-AMAZON | 0 | 0 | 0 | 5 |
+| [Andean states and chiefdoms](./CULTURE-ANDEAN-STATES-AND-CHIEFDOMS-36FFFF68-andean-states-and-chiefd/entidad.json) | CULTURE-ANDEAN-STATES-AND-CHIEFDOMS-36FFFF68 | 0 | 0 | 0 | 0 |
 | [Comunidades andinas · referencia regional](./CULTURE-ANDES-Comunidades-andinas-referencia-regional/entidad.json) | CULTURE-ANDES | 0 | 0 | 0 | 5 |
+| [Apache](./CULTURE-APACHE-D7E04CBA-apache/entidad.json) | CULTURE-APACHE-D7E04CBA | 0 | 0 | 0 | 0 |
+| [Apalachee](./CULTURE-APALACHEE-C00E9C5D-apalachee/entidad.json) | CULTURE-APALACHEE-C00E9C5D | 0 | 0 | 0 | 0 |
 | [Pueblos de lenguas arawak · referencia regional](./CULTURE-ARAWAK-Pueblos-de-lenguas-arawak-referencia-regional/entidad.json) | CULTURE-ARAWAK | 0 | 0 | 0 | 1 |
 | [Comunidades marítimas del Ártico](./CULTURE-ARCTIC-Comunidades-maritimas-del-Artico/entidad.json) | CULTURE-ARCTIC | 0 | 0 | 0 | 5 |
+| [Arikara](./CULTURE-ARIKARA-00858FF0-arikara/entidad.json) | CULTURE-ARIKARA-00858FF0 | 0 | 0 | 0 | 0 |
+| [Assiniboin](./CULTURE-ASSINIBOIN-B4306464-assiniboin/entidad.json) | CULTURE-ASSINIBOIN-B4306464 | 0 | 0 | 0 | 0 |
+| [Atakapa](./CULTURE-ATAKAPA-37E48677-atakapa/entidad.json) | CULTURE-ATAKAPA-37E48677 | 0 | 0 | 0 | 0 |
+| [Athabascan](./CULTURE-ATHABASCAN-077309AE-athabascan/entidad.json) | CULTURE-ATHABASCAN-077309AE | 0 | 0 | 0 | 0 |
 | [Pueblos de lenguas atabascanas · área general](./CULTURE-ATHABASKAN-Pueblos-de-lenguas-atabascanas-area-general/entidad.json) | CULTURE-ATHABASKAN | 0 | 0 | 0 | 1 |
 | [Pueblos aborígenes de Australia](./CULTURE-AUSTRALIA-Pueblos-aborigenes-de-Australia/entidad.json) | CULTURE-AUSTRALIA | 0 | 0 | 0 | 7 |
+| [Awá](./CULTURE-AWA-ACCENTED-Awa/entidad.json) | CULTURE-AWA-ACCENTED | 0 | 0 | 0 | 0 |
 | [Pueblos bálticos · referencia general](./CULTURE-BALTIC-Pueblos-balticos-referencia-general/entidad.json) | CULTURE-BALTIC | 0 | 0 | 0 | 1 |
 | [Pueblos de lenguas bantúes · área general](./CULTURE-BANTU-Pueblos-de-lenguas-bantues-area-general/entidad.json) | CULTURE-BANTU | 0 | 0 | 0 | 2 |
-| [Comunidades de Terranova · referencia beothuk](./CULTURE-BEOTHUK-Comunidades-de-Terranova-referencia-beothuk/entidad.json) | CULTURE-BEOTHUK | 0 | 0 | 0 | 1 |
-| [Cultura Caloosahatchee](./CULTURE-CALOOSAHATCHEE-Cultura-Caloosahatchee/entidad.json) | CULTURE-CALOOSAHATCHEE | 0 | 0 | 0 | 2 |
+| [Bella](./CULTURE-BELLA-A03EA090-bella/entidad.json) | CULTURE-BELLA-A03EA090 | 0 | 0 | 0 | 0 |
+| [Comunidades de Terranova · referencia beothuk](./CULTURE-BEOTHUK-Comunidades-de-Terranova-referencia-beothuk/entidad.json) | CULTURE-BEOTHUK | 0 | 0 | 0 | 2 |
+| [Berber Tribes](./CULTURE-BERBER-TRIBES-34BC7CE9-berber-tribes/entidad.json) | CULTURE-BERBER-TRIBES-34BC7CE9 | 0 | 0 | 0 | 0 |
+| [Blackfoot](./CULTURE-BLACKFOOT-A80BA8D5-blackfoot/entidad.json) | CULTURE-BLACKFOOT-A80BA8D5 | 0 | 0 | 0 | 0 |
+| [Cahitas](./CULTURE-CAHITAS-63B38389-cahitas/entidad.json) | CULTURE-CAHITAS-63B38389 | 0 | 0 | 0 | 0 |
+| [Cahulia](./CULTURE-CAHULIA-B4086752-cahulia/entidad.json) | CULTURE-CAHULIA-B4086752 | 0 | 0 | 0 | 0 |
+| [Cultura Caloosahatchee](./CULTURE-CALOOSAHATCHEE-Cultura-Caloosahatchee/entidad.json) | CULTURE-CALOOSAHATCHEE | 0 | 0 | 0 | 3 |
 | [Comunidades indígenas de Canarias](./CULTURE-CANARIES-Comunidades-indigenas-de-Canarias/entidad.json) | CULTURE-CANARIES | 0 | 0 | 0 | 6 |
 | [Comunidades del Caribe · referencia regional](./CULTURE-CARIBBEAN-Comunidades-del-Caribe-referencia-regional/entidad.json) | CULTURE-CARIBBEAN | 0 | 0 | 0 | 6 |
+| [Caxcane](./CULTURE-CAXCANE-F14E4420-caxcane/entidad.json) | CULTURE-CAXCANE-F14E4420 | 0 | 0 | 0 | 0 |
+| [Cayenne](./CULTURE-CAYENNE-684B352D-cayenne/entidad.json) | CULTURE-CAYENNE-684B352D | 0 | 0 | 0 | 0 |
+| [Cayuse](./CULTURE-CAYUSE-B1BEF9E3-cayuse/entidad.json) | CULTURE-CAYUSE-B1BEF9E3 | 0 | 0 | 0 | 0 |
+| [Chatot](./CULTURE-CHATOT-C425E3E0-chatot/entidad.json) | CULTURE-CHATOT-C425E3E0 | 0 | 0 | 0 | 0 |
+| [Cherokee](./CULTURE-CHEROKEE-9409D688-cherokee/entidad.json) | CULTURE-CHEROKEE-9409D688 | 0 | 0 | 0 | 0 |
+| [Chickasaw](./CULTURE-CHICKASAW-76F9048D-chickasaw/entidad.json) | CULTURE-CHICKASAW-76F9048D | 0 | 0 | 0 | 0 |
+| [Chiricahua](./CULTURE-CHIRICAHUA-FDA036A1-chiricahua/entidad.json) | CULTURE-CHIRICAHUA-FDA036A1 | 0 | 0 | 0 | 0 |
+| [Chisos](./CULTURE-CHISOS-4D751BAB-chisos/entidad.json) | CULTURE-CHISOS-4D751BAB | 0 | 0 | 0 | 0 |
+| [Choctaw](./CULTURE-CHOCTAW-DEBDA4CC-choctaw/entidad.json) | CULTURE-CHOCTAW-DEBDA4CC | 0 | 0 | 0 | 0 |
+| [Chtimacha](./CULTURE-CHTIMACHA-66BA8565-chtimacha/entidad.json) | CULTURE-CHTIMACHA-66BA8565 | 0 | 0 | 0 | 0 |
 | [Pueblos fineses orientales · referencia Chud](./CULTURE-CHUD-Pueblos-fineses-orientales-referencia-Chud/entidad.json) | CULTURE-CHUD | 0 | 0 | 0 | 1 |
+| [Chukchi](./CULTURE-CHUKCHI-8CA99BB3-chukchi/entidad.json) | CULTURE-CHUKCHI-8CA99BB3 | 0 | 0 | 0 | 0 |
+| [Coahuiltec](./CULTURE-COAHUILTEC-6CFE74AF-coahuiltec/entidad.json) | CULTURE-COAHUILTEC-6CFE74AF | 0 | 0 | 0 | 0 |
+| [Comanche](./CULTURE-COMANCHE-8FC84BD4-comanche/entidad.json) | CULTURE-COMANCHE-8FC84BD4 | 0 | 0 | 0 | 0 |
+| [Conoy](./CULTURE-CONOY-3336BE19-conoy/entidad.json) | CULTURE-CONOY-3336BE19 | 0 | 0 | 0 | 0 |
+| [Coqs](./CULTURE-COQS-EE5E61EA-coqs/entidad.json) | CULTURE-COQS-EE5E61EA | 0 | 0 | 0 | 0 |
+| [Costanoan](./CULTURE-COSTANOAN-7D5E9629-costanoan/entidad.json) | CULTURE-COSTANOAN-7D5E9629 | 0 | 0 | 0 | 0 |
+| [Crow](./CULTURE-CROW-851D49D3-crow/entidad.json) | CULTURE-CROW-851D49D3 | 0 | 0 | 0 | 0 |
 | [Comunidades curonias](./CULTURE-CURONIANS-Comunidades-curonias/entidad.json) | CULTURE-CURONIANS | 0 | 0 | 0 | 1 |
+| [Cusabo](./CULTURE-CUSABO-C3763EC8-cusabo/entidad.json) | CULTURE-CUSABO-C3763EC8 | 0 | 0 | 0 | 0 |
+| [Delaware](./CULTURE-DELAWARE-E9FB9AD9-delaware/entidad.json) | CULTURE-DELAWARE-E9FB9AD9 | 0 | 0 | 0 | 0 |
 | [Comunidades del desierto norteamericano](./CULTURE-DESERT-Comunidades-del-desierto-norteamericano/entidad.json) | CULTURE-DESERT | 0 | 0 | 0 | 5 |
 | [Tradiciones Dorset · Ártico oriental](./CULTURE-DORSET-Tradiciones-Dorset-Artico-oriental/entidad.json) | CULTURE-DORSET | 0 | 0 | 0 | 2 |
 | [Sociedades del este de Norteamérica](./CULTURE-EASTERN-NORTH-AMERICA-Sociedades-del-este-de-Norteamerica/entidad.json) | CULTURE-EASTERN-NORTH-AMERICA | 0 | 0 | 0 | 5 |
+| [Enets](./CULTURE-ENETS-22CC8F22-enets/entidad.json) | CULTURE-ENETS-22CC8F22 | 0 | 0 | 0 | 0 |
+| [Essequibo](./CULTURE-ESSEQUIBO-2C628CC3-essequibo/entidad.json) | CULTURE-ESSEQUIBO-2C628CC3 | 0 | 0 | 0 | 0 |
 | [Comunidades finoúgricas de la taiga](./CULTURE-FINNO-UGRIC-Comunidades-finougricas-de-la-taiga/entidad.json) | CULTURE-FINNO-UGRIC | 0 | 0 | 0 | 5 |
+| [Flathead](./CULTURE-FLATHEAD-A11EB7EB-flathead/entidad.json) | CULTURE-FLATHEAD-A11EB7EB | 0 | 0 | 0 | 0 |
+| [Fox](./CULTURE-FOX-776CB326-fox/entidad.json) | CULTURE-FOX-776CB326 | 0 | 0 | 0 | 0 |
+| [Gros Ventre](./CULTURE-GROS-VENTRE-05B4FDCE-gros-ventre/entidad.json) | CULTURE-GROS-VENTRE-05B4FDCE | 0 | 0 | 0 | 0 |
+| [Guachichiles](./CULTURE-GUACHICHILES-0B4FE8EF-guachichiles/entidad.json) | CULTURE-GUACHICHILES-0B4FE8EF | 0 | 0 | 0 | 0 |
+| [Guachimis](./CULTURE-GUACHIMIS-EC9020AE-guachimis/entidad.json) | CULTURE-GUACHIMIS-EC9020AE | 0 | 0 | 0 | 0 |
+| [Guamar / Pecchichitane](./CULTURE-GUAMAR-PECCHICHITANE-DCED87D1-guamar-pecchichitane/entidad.json) | CULTURE-GUAMAR-PECCHICHITANE-DCED87D1 | 0 | 0 | 0 | 0 |
 | [Comunidades del occidente de Cuba](./CULTURE-GUANAHATABEY-Comunidades-del-occidente-de-Cuba/entidad.json) | CULTURE-GUANAHATABEY | 0 | 0 | 0 | 1 |
-| [Poblamiento polinesio de Hawái · referencia](./CULTURE-HAWAII-Poblamiento-polinesio-de-Hawai-referencia/entidad.json) | CULTURE-HAWAII | 0 | 0 | 0 | 5 |
-| [Comunidades de Hokkaidō · Satsumon](./CULTURE-HOKKAIDO-Comunidades-de-Hokkaido-Satsumon/entidad.json) | CULTURE-HOKKAIDO | 0 | 0 | 0 | 6 |
+| [Havasupai](./CULTURE-HAVASUPAI-A4C043FD-havasupai/entidad.json) | CULTURE-HAVASUPAI-A4C043FD | 0 | 0 | 0 | 0 |
+| [Comunidades de Hawái · poblamiento polinesio](./CULTURE-HAWAII-Poblamiento-polinesio-de-Hawai-referencia/entidad.json) | CULTURE-HAWAII | 0 | 0 | 0 | 0 |
+| [Hitchiti](./CULTURE-HITCHITI-910FDF90-hitchiti/entidad.json) | CULTURE-HITCHITI-910FDF90 | 0 | 0 | 0 | 0 |
+| [Comunidades ainu · Hokkaidō y regiones vecinas](./CULTURE-HOKKAIDO-Comunidades-de-Hokkaido-Satsumon/entidad.json) | CULTURE-HOKKAIDO | 0 | 0 | 0 | 8 |
+| [Hopi](./CULTURE-HOPI-ACCE411E-hopi/entidad.json) | CULTURE-HOPI-ACCE411E | 0 | 0 | 0 | 0 |
+| [Hopie](./CULTURE-HOPIE-F4E21E7E-hopie/entidad.json) | CULTURE-HOPIE-F4E21E7E | 0 | 0 | 0 | 0 |
+| [Illinois](./CULTURE-ILLINOIS-52C279AD-illinois/entidad.json) | CULTURE-ILLINOIS-52C279AD | 0 | 0 | 0 | 0 |
 | [Poderes locales hindúes y budistas](./CULTURE-INDIC-LOCAL-Poderes-locales-hindues-y-budistas/entidad.json) | CULTURE-INDIC-LOCAL | 0 | 0 | 0 | 2 |
 | [Comunidades innu · referencia regional](./CULTURE-INNU-Comunidades-innu-referencia-regional/entidad.json) | CULTURE-INNU | 0 | 0 | 0 | 1 |
+| [Irritilas](./CULTURE-IRRITILAS-59F50D56-irritilas/entidad.json) | CULTURE-IRRITILAS-59F50D56 | 0 | 0 | 0 | 0 |
+| [Itelmen](./CULTURE-ITELMEN-1D8F89D3-itelmen/entidad.json) | CULTURE-ITELMEN-1D8F89D3 | 0 | 0 | 0 | 0 |
+| [Janabres](./CULTURE-JANABRES-E5C82E81-janabres/entidad.json) | CULTURE-JANABRES-E5C82E81 | 0 | 0 | 0 | 0 |
+| [Jicarilla](./CULTURE-JICARILLA-B5BCE44D-jicarilla/entidad.json) | CULTURE-JICARILLA-B5BCE44D | 0 | 0 | 0 | 0 |
+| [Kalinago](./CULTURE-KALINAGO-C716C02C-kalinago/entidad.json) | CULTURE-KALINAGO-C716C02C | 0 | 0 | 0 | 0 |
+| [Kalmar Union](./CULTURE-KALMAR-UNION-E71C2DDD-kalmar-union/entidad.json) | CULTURE-KALMAR-UNION-E71C2DDD | 0 | 0 | 0 | 0 |
+| [Kamia](./CULTURE-KAMIA-D85CA12B-kamia/entidad.json) | CULTURE-KAMIA-D85CA12B | 0 | 0 | 0 | 0 |
+| [Kansa](./CULTURE-KANSA-C292E3EE-kansa/entidad.json) | CULTURE-KANSA-C292E3EE | 0 | 0 | 0 | 0 |
 | [Comunidades carelias](./CULTURE-KARELIANS-Comunidades-carelias/entidad.json) | CULTURE-KARELIANS | 0 | 0 | 0 | 1 |
+| [Kashmir and Ladakh](./CULTURE-KASHMIR-AND-LADAKH-63A26F42-kashmir-and-ladakh/entidad.json) | CULTURE-KASHMIR-AND-LADAKH-63A26F42 | 0 | 0 | 0 | 0 |
+| [Kawahsu](./CULTURE-KAWAHSU-CCB6380E-kawahsu/entidad.json) | CULTURE-KAWAHSU-CCB6380E | 0 | 0 | 0 | 0 |
+| [Khanty](./CULTURE-KHANTY-70E67D7A-khanty/entidad.json) | CULTURE-KHANTY-70E67D7A | 0 | 0 | 0 | 0 |
 | [Pueblos khoe y san · referencia general](./CULTURE-KHOE-SAN-Pueblos-khoe-y-san-referencia-general/entidad.json) | CULTURE-KHOE-SAN | 0 | 0 | 0 | 8 |
+| [Kijkitat](./CULTURE-KIJKITAT-979DD74C-kijkitat/entidad.json) | CULTURE-KIJKITAT-979DD74C | 0 | 0 | 0 | 0 |
+| [Kiowa](./CULTURE-KIOWA-E97C2345-kiowa/entidad.json) | CULTURE-KIOWA-E97C2345 | 0 | 0 | 0 | 0 |
+| [Knucati](./CULTURE-KNUCATI-4F68DC8C-knucati/entidad.json) | CULTURE-KNUCATI-4F68DC8C | 0 | 0 | 0 | 0 |
+| [Komi](./CULTURE-KOMI-2ABC0C53-komi/entidad.json) | CULTURE-KOMI-2ABC0C53 | 0 | 0 | 0 | 0 |
+| [Koryaks](./CULTURE-KORYAKS-AD76C5EC-koryaks/entidad.json) | CULTURE-KORYAKS-AD76C5EC | 0 | 0 | 0 | 0 |
+| [Kwakwaka'wakw](./CULTURE-KWAKWAKA-WAKW-46F7B1A6-kwakwaka-wakw/entidad.json) | CULTURE-KWAKWAKA-WAKW-46F7B1A6 | 0 | 0 | 0 | 0 |
+| [Lagunero](./CULTURE-LAGUNERO-1CB98D6C-lagunero/entidad.json) | CULTURE-LAGUNERO-1CB98D6C | 0 | 0 | 0 | 0 |
+| [Lipan](./CULTURE-LIPAN-D25EA6D2-lipan/entidad.json) | CULTURE-LIPAN-D25EA6D2 | 0 | 0 | 0 | 0 |
+| [Luiseno](./CULTURE-LUISENO-CC14B279-luiseno/entidad.json) | CULTURE-LUISENO-CC14B279 | 0 | 0 | 0 | 0 |
+| [Luva](./CULTURE-LUVA-5D7FD746-luva/entidad.json) | CULTURE-LUVA-5D7FD746 | 0 | 0 | 0 | 0 |
 | [Comunidades de Madagascar](./CULTURE-MADAGASCAR-Comunidades-de-Madagascar/entidad.json) | CULTURE-MADAGASCAR | 0 | 0 | 0 | 6 |
+| [Mahican](./CULTURE-MAHICAN-9726F4AB-mahican/entidad.json) | CULTURE-MAHICAN-9726F4AB | 0 | 0 | 0 | 0 |
+| [Maiou](./CULTURE-MAIOU-207E014B-maiou/entidad.json) | CULTURE-MAIOU-207E014B | 0 | 0 | 0 | 0 |
+| [Malays](./CULTURE-MALAYS-AEC83D1C-malays/entidad.json) | CULTURE-MALAYS-AEC83D1C | 0 | 0 | 0 | 0 |
+| [Mandan](./CULTURE-MANDAN-AC58A5D7-mandan/entidad.json) | CULTURE-MANDAN-AC58A5D7 | 0 | 0 | 0 | 0 |
 | [Comunidades de Mandén · referencia anterior al imperio](./CULTURE-MANDEN-Comunidades-de-Manden-referencia-anterior-al-imperio/entidad.json) | CULTURE-MANDEN | 0 | 0 | 0 | 15 |
+| [Maratines](./CULTURE-MARATINES-4071082C-maratines/entidad.json) | CULTURE-MARATINES-4071082C | 0 | 0 | 0 | 0 |
+| [Massachusett](./CULTURE-MASSACHUSETT-25428402-massachusett/entidad.json) | CULTURE-MASSACHUSETT-25428402 | 0 | 0 | 0 | 0 |
+| [Menomini](./CULTURE-MENOMINI-C6D69E86-menomini/entidad.json) | CULTURE-MENOMINI-C6D69E86 | 0 | 0 | 0 | 0 |
+| [Mescalero](./CULTURE-MESCALERO-49131434-mescalero/entidad.json) | CULTURE-MESCALERO-49131434 | 0 | 0 | 0 | 0 |
 | [Ciudades y señoríos mesoamericanos](./CULTURE-MESOAMERICA-Ciudades-y-senorios-mesoamericanos/entidad.json) | CULTURE-MESOAMERICA | 0 | 0 | 0 | 1 |
+| [Miami](./CULTURE-MIAMI-C55EC4BB-miami/entidad.json) | CULTURE-MIAMI-C55EC4BB | 0 | 0 | 0 | 0 |
+| [Missouri](./CULTURE-MISSOURI-0C076265-missouri/entidad.json) | CULTURE-MISSOURI-0C076265 | 0 | 0 | 0 | 0 |
+| [Miwok](./CULTURE-MIWOK-6799B128-miwok/entidad.json) | CULTURE-MIWOK-6799B128 | 0 | 0 | 0 | 0 |
+| [Montagnais Innu](./CULTURE-MONTAGNAIS-INNU-61AD2D56-montagnais-innu/entidad.json) | CULTURE-MONTAGNAIS-INNU-61AD2D56 | 0 | 0 | 0 | 0 |
+| [Montana](./CULTURE-MONTANA-C68943BE-montana/entidad.json) | CULTURE-MONTANA-C68943BE | 0 | 0 | 0 | 0 |
+| [Muskogee](./CULTURE-MUSKOGEE-410E077C-muskogee/entidad.json) | CULTURE-MUSKOGEE-410E077C | 0 | 0 | 0 | 0 |
+| [Naniaho](./CULTURE-NANIAHO-CA806C88-naniaho/entidad.json) | CULTURE-NANIAHO-CA806C88 | 0 | 0 | 0 | 0 |
+| [Naskapi Innu](./CULTURE-NASKAPI-INNU-2178621E-naskapi-innu/entidad.json) | CULTURE-NASKAPI-INNU-2178621E | 0 | 0 | 0 | 0 |
+| [Navaho](./CULTURE-NAVAHO-7D47BE85-navaho/entidad.json) | CULTURE-NAVAHO-7D47BE85 | 0 | 0 | 0 | 0 |
+| [Navajo](./CULTURE-NAVAJO-653E9207-navajo/entidad.json) | CULTURE-NAVAJO-653E9207 | 0 | 0 | 0 | 0 |
+| [Nayarit](./CULTURE-NAYARIT-90DA32A4-nayarit/entidad.json) | CULTURE-NAYARIT-90DA32A4 | 0 | 0 | 0 | 0 |
+| [Nenets](./CULTURE-NENETS-FD52A9FA-nenets/entidad.json) | CULTURE-NENETS-FD52A9FA | 0 | 0 | 0 | 0 |
+| [New Amsterdam](./CULTURE-NEW-AMSTERDAM-306E903C-new-amsterdam/entidad.json) | CULTURE-NEW-AMSTERDAM-306E903C | 0 | 0 | 0 | 0 |
+| [Nez Perce](./CULTURE-NEZ-PERCE-93E52032-nez-perce/entidad.json) | CULTURE-NEZ-PERCE-93E52032 | 0 | 0 | 0 | 0 |
+| [Nganasan](./CULTURE-NGANASAN-5003850B-nganasan/entidad.json) | CULTURE-NGANASAN-5003850B | 0 | 0 | 0 | 0 |
+| [Ninticoy](./CULTURE-NINTICOY-55635E4C-ninticoy/entidad.json) | CULTURE-NINTICOY-55635E4C | 0 | 0 | 0 | 0 |
+| [Northern Paiute](./CULTURE-NORTHERN-PAIUTE-97957A29-northern-paiute/entidad.json) | CULTURE-NORTHERN-PAIUTE-97957A29 | 0 | 0 | 0 | 0 |
+| [Obiwa](./CULTURE-OBIWA-A0558F7A-obiwa/entidad.json) | CULTURE-OBIWA-A0558F7A | 0 | 0 | 0 | 0 |
 | [Pueblos prusianos bálticos](./CULTURE-OLD-PRUSSIANS-Pueblos-prusianos-balticos/entidad.json) | CULTURE-OLD-PRUSSIANS | 0 | 0 | 0 | 1 |
+| [Omaha](./CULTURE-OMAHA-4177058F-omaha/entidad.json) | CULTURE-OMAHA-4177058F | 0 | 0 | 0 | 0 |
+| [Osage](./CULTURE-OSAGE-B46D0BDE-osage/entidad.json) | CULTURE-OSAGE-B46D0BDE | 0 | 0 | 0 | 0 |
+| [Oto](./CULTURE-OTO-5B9267B4-oto/entidad.json) | CULTURE-OTO-5B9267B4 | 0 | 0 | 0 | 0 |
+| [Otomies](./CULTURE-OTOMIES-B9FAFEB5-otomies/entidad.json) | CULTURE-OTOMIES-B9FAFEB5 | 0 | 0 | 0 | 0 |
 | [Pueblos de la costa noroccidental del Pacífico](./CULTURE-PACIFIC-NORTHWEST-Pueblos-de-la-costa-noroccidental-del-Pacifico/entidad.json) | CULTURE-PACIFIC-NORTHWEST | 0 | 0 | 0 | 5 |
 | [Comunidades paleosiberianas · área general](./CULTURE-PALEOSIBERIAN-Comunidades-paleosiberianas-area-general/entidad.json) | CULTURE-PALEOSIBERIAN | 0 | 0 | 0 | 5 |
 | [Culturas de las Pampas](./CULTURE-PAMPAS-Culturas-de-las-Pampas/entidad.json) | CULTURE-PAMPAS | 0 | 0 | 0 | 6 |
+| [Papago](./CULTURE-PAPAGO-01429860-papago/entidad.json) | CULTURE-PAPAGO-01429860 | 0 | 0 | 0 | 0 |
+| [Papuans](./CULTURE-PAPUANS-F13CA8F8-papuans/entidad.json) | CULTURE-PAPUANS-F13CA8F8 | 0 | 0 | 0 | 0 |
 | [Comunidades costeras de Patagonia](./CULTURE-PATAGONIA-Comunidades-costeras-de-Patagonia/entidad.json) | CULTURE-PATAGONIA | 0 | 0 | 0 | 6 |
+| [Pawnee](./CULTURE-PAWNEE-ABEFB919-pawnee/entidad.json) | CULTURE-PAWNEE-ABEFB919 | 0 | 0 | 0 | 0 |
 | [Comunidades y confederaciones pechenegas](./CULTURE-PECHENEGS-Comunidades-y-confederaciones-pechenegas/entidad.json) | CULTURE-PECHENEGS | 0 | 0 | 0 | 2 |
+| [Pewa](./CULTURE-PEWA-AA1215D9-pewa/entidad.json) | CULTURE-PEWA-AA1215D9 | 0 | 0 | 0 | 0 |
+| [Philippines](./CULTURE-PHILIPPINES-0F9A79AC-philippines/entidad.json) | CULTURE-PHILIPPINES-0F9A79AC | 0 | 0 | 0 | 14 |
+| [Pima](./CULTURE-PIMA-CF090185-pima/entidad.json) | CULTURE-PIMA-CF090185 | 0 | 0 | 0 | 0 |
+| [Pisones](./CULTURE-PISONES-56A3FF7A-pisones/entidad.json) | CULTURE-PISONES-56A3FF7A | 0 | 0 | 0 | 0 |
 | [Comunidades de las Grandes Llanuras](./CULTURE-PLAINS-Comunidades-de-las-Grandes-Llanuras/entidad.json) | CULTURE-PLAINS | 0 | 0 | 0 | 5 |
 | [Comunidades de la meseta noroccidental](./CULTURE-PLATEAU-Comunidades-de-la-meseta-noroccidental/entidad.json) | CULTURE-PLATEAU | 0 | 0 | 0 | 5 |
-| [Pueblos sámi](./CULTURE-SAMI-Pueblos-sami/entidad.json) | CULTURE-SAMI | 0 | 0 | 0 | 1 |
+| [Pocumtuk](./CULTURE-POCUMTUK-C29DD0DF-pocumtuk/entidad.json) | CULTURE-POCUMTUK-C29DD0DF | 0 | 0 | 0 | 0 |
+| [Pomo](./CULTURE-POMO-F36C19DF-pomo/entidad.json) | CULTURE-POMO-F36C19DF | 0 | 0 | 0 | 0 |
+| [Potawatomi](./CULTURE-POTAWATOMI-A0CC668B-potawatomi/entidad.json) | CULTURE-POTAWATOMI-A0CC668B | 0 | 0 | 0 | 0 |
+| [Quapaw](./CULTURE-QUAPAW-D620C978-quapaw/entidad.json) | CULTURE-QUAPAW-D620C978 | 0 | 0 | 0 | 0 |
+| [Comunidades de Rapa Nui](./CULTURE-RAPA-NUI-Comunidades-de-Rapa-Nui/entidad.json) | CULTURE-RAPA-NUI | 0 | 0 | 0 | 5 |
+| [Riro](./CULTURE-RIRO-1799B0F6-riro/entidad.json) | CULTURE-RIRO-1799B0F6 | 0 | 0 | 0 | 0 |
+| [Sahtu](./CULTURE-SAHTU-9D04BE0A-sahtu/entidad.json) | CULTURE-SAHTU-9D04BE0A | 0 | 0 | 0 | 0 |
+| [Pueblos sámi](./CULTURE-SAMI-Pueblos-sami/entidad.json) | CULTURE-SAMI | 0 | 0 | 0 | 2 |
+| [Saunan](./CULTURE-SAUNAN-17F43B3D-saunan/entidad.json) | CULTURE-SAUNAN-17F43B3D | 0 | 0 | 0 | 0 |
 | [Comunidades de sabana · referencia general](./CULTURE-SAVANNA-Comunidades-de-sabana-referencia-general/entidad.json) | CULTURE-SAVANNA | 0 | 0 | 0 | 5 |
+| [Serano](./CULTURE-SERANO-E14CBF94-serano/entidad.json) | CULTURE-SERANO-E14CBF94 | 0 | 0 | 0 | 0 |
+| [Shawnee](./CULTURE-SHAWNEE-FAC2D7CA-shawnee/entidad.json) | CULTURE-SHAWNEE-FAC2D7CA | 0 | 0 | 0 | 0 |
+| [Shoshoni](./CULTURE-SHOSHONI-945A36E9-shoshoni/entidad.json) | CULTURE-SHOSHONI-945A36E9 | 0 | 0 | 0 | 0 |
+| [Southern Paiute](./CULTURE-SOUTHERN-PAIUTE-32AC70E0-southern-paiute/entidad.json) | CULTURE-SOUTHERN-PAIUTE-32AC70E0 | 0 | 0 | 0 | 0 |
 | [Comunidades de los bosques subárticos](./CULTURE-SUBARCTIC-Comunidades-de-los-bosques-subarticos/entidad.json) | CULTURE-SUBARCTIC | 0 | 0 | 0 | 5 |
 | [Comunidades de Finlandia · referencia Suomi](./CULTURE-SUOMI-Comunidades-de-Finlandia-referencia-Suomi/entidad.json) | CULTURE-SUOMI | 0 | 0 | 0 | 1 |
+| [Susquehanna](./CULTURE-SUSQUEHANNA-F787AEDC-susquehanna/entidad.json) | CULTURE-SUSQUEHANNA-F787AEDC | 0 | 0 | 0 | 0 |
 | [Ciudades y redes swahili](./CULTURE-SWAHILI-Ciudades-y-redes-swahili/entidad.json) | CULTURE-SWAHILI | 0 | 0 | 0 | 2 |
 | [Comunidades antillanas · tradición taína](./CULTURE-TAINO-Comunidades-antillanas-tradicion-taina/entidad.json) | CULTURE-TAINO | 0 | 0 | 0 | 2 |
+| [Taiwan](./CULTURE-TAIWAN-5C77BE44-taiwan/entidad.json) | CULTURE-TAIWAN-5C77BE44 | 0 | 0 | 0 | 11 |
+| [Taiwanese Tribes](./CULTURE-TAIWANESE-TRIBES-5C77BE44-taiwanese-tribes/entidad.json) | CULTURE-TAIWANESE-TRIBES-5C77BE44 | 0 | 0 | 0 | 0 |
+| [Tamalipueca](./CULTURE-TAMALIPUECA-E12CA6DF-tamalipueca/entidad.json) | CULTURE-TAMALIPUECA-E12CA6DF | 0 | 0 | 0 | 0 |
+| [Tancalba](./CULTURE-TANCALBA-1274AEB9-tancalba/entidad.json) | CULTURE-TANCALBA-1274AEB9 | 0 | 0 | 0 | 0 |
+| [Tano](./CULTURE-TANO-4F35C735-tano/entidad.json) | CULTURE-TANO-4F35C735 | 0 | 0 | 0 | 0 |
 | [Pueblos de Lutruwita / Tasmania](./CULTURE-TASMANIA-Pueblos-de-Lutruwita-Tasmania/entidad.json) | CULTURE-TASMANIA | 0 | 0 | 0 | 6 |
+| [Tenimo](./CULTURE-TENIMO-A4EAFF61-tenimo/entidad.json) | CULTURE-TENIMO-A4EAFF61 | 0 | 0 | 0 | 0 |
+| [Tepehuane](./CULTURE-TEPEHUANE-7732E983-tepehuane/entidad.json) | CULTURE-TEPEHUANE-7732E983 | 0 | 0 | 0 | 0 |
+| [Teton](./CULTURE-TETON-FEE0FFEA-teton/entidad.json) | CULTURE-TETON-FEE0FFEA | 0 | 0 | 0 | 0 |
+| [Thompson](./CULTURE-THOMPSON-265CE767-thompson/entidad.json) | CULTURE-THOMPSON-265CE767 | 0 | 0 | 0 | 0 |
 | [Pueblos y poderes del altiplano tibetano](./CULTURE-TIBET-Pueblos-y-poderes-del-altiplano-tibetano/entidad.json) | CULTURE-TIBET | 0 | 0 | 0 | 6 |
+| [Tlinoit](./CULTURE-TLINOIT-83B65637-tlinoit/entidad.json) | CULTURE-TLINOIT-83B65637 | 0 | 0 | 0 | 0 |
+| [Toboso](./CULTURE-TOBOSO-BBA147C8-toboso/entidad.json) | CULTURE-TOBOSO-BBA147C8 | 0 | 0 | 0 | 0 |
+| [Touareg](./CULTURE-TOUAREG-FE92EA40-touareg/entidad.json) | CULTURE-TOUAREG-FE92EA40 | 0 | 0 | 0 | 0 |
+| [Tuareg Nomadic Tribes](./CULTURE-TUAREG-NOMADIC-TRIBES-FE92EA40-tuareg-nomadic-tribes/entidad.json) | CULTURE-TUAREG-NOMADIC-TRIBES-FE92EA40 | 0 | 0 | 0 | 0 |
+| [Tungusic Tribes](./CULTURE-TUNGUSIC-TRIBES-B8D571B7-tungusic-tribes/entidad.json) | CULTURE-TUNGUSIC-TRIBES-B8D571B7 | 0 | 0 | 0 | 0 |
+| [Umatilla](./CULTURE-UMATILLA-8066FA00-umatilla/entidad.json) | CULTURE-UMATILLA-8066FA00 | 0 | 0 | 0 | 0 |
+| [Ute](./CULTURE-UTE-BB4F04A4-ute/entidad.json) | CULTURE-UTE-BB4F04A4 | 0 | 0 | 0 | 0 |
+| [Walapai](./CULTURE-WALAPAI-9363D8FA-walapai/entidad.json) | CULTURE-WALAPAI-9363D8FA | 0 | 0 | 0 | 0 |
+| [Wappynger](./CULTURE-WAPPYNGER-BC967F08-wappynger/entidad.json) | CULTURE-WAPPYNGER-BC967F08 | 0 | 0 | 0 | 0 |
 | [Comunidades agrícolas de África occidental](./CULTURE-WEST-AFRICAN-FARMERS-Comunidades-agricolas-de-Africa-occidental/entidad.json) | CULTURE-WEST-AFRICAN-FARMERS | 0 | 0 | 0 | 6 |
+| [Winebago](./CULTURE-WINEBAGO-38EE3610-winebago/entidad.json) | CULTURE-WINEBAGO-38EE3610 | 0 | 0 | 0 | 0 |
+| [Xecora](./CULTURE-XECORA-A0997BE0-xecora/entidad.json) | CULTURE-XECORA-A0997BE0 | 0 | 0 | 0 | 0 |
+| [Yakima](./CULTURE-YAKIMA-E1FD280B-yakima/entidad.json) | CULTURE-YAKIMA-E1FD280B | 0 | 0 | 0 | 0 |
+| [Yankontai](./CULTURE-YANKONTAI-E8AFE590-yankontai/entidad.json) | CULTURE-YANKONTAI-E8AFE590 | 0 | 0 | 0 | 0 |
+| [Yavapai](./CULTURE-YAVAPAI-358E9EA1-yavapai/entidad.json) | CULTURE-YAVAPAI-358E9EA1 | 0 | 0 | 0 | 0 |
+| [Yuchi](./CULTURE-YUCHI-14D7E118-yuchi/entidad.json) | CULTURE-YUCHI-14D7E118 | 0 | 0 | 0 | 0 |
+| [Yukagir](./CULTURE-YUKAGIR-64A6EC6C-yukagir/entidad.json) | CULTURE-YUKAGIR-64A6EC6C | 0 | 0 | 0 | 0 |
+| [Yuma](./CULTURE-YUMA-63F87D6C-yuma/entidad.json) | CULTURE-YUMA-63F87D6C | 0 | 0 | 0 | 0 |
+| [Zacatecs](./CULTURE-ZACATECS-9BF3080E-zacatecs/entidad.json) | CULTURE-ZACATECS-9BF3080E | 0 | 0 | 0 | 0 |
 | [Gran Zimbabue · región cultural](./CULTURE-ZIMBABWE-Gran-Zimbabue-region-cultural/entidad.json) | CULTURE-ZIMBABWE | 0 | 0 | 0 | 1 |
+| [Zuni](./CULTURE-ZUNI-95AEE9C6-zuni/entidad.json) | CULTURE-ZUNI-95AEE9C6 | 0 | 0 | 0 | 0 |
 | [Reino de Cusco](./CUSCO-KINGDOM-Reino-de-Cusco/entidad.json) | CUSCO-KINGDOM | 0 | 0 | 0 | 0 |
 | [Curazao](./CUW-Curazao/entidad.json) | CUW | 1 | 0 | 19 | 1 |
 | [Islas Caimán](./CYM-Islas-Caiman/entidad.json) | CYM | 2 | 0 | 15 | 1 |
@@ -1098,7 +1247,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Islas Pitcairn](./PCN-Islas-Pitcairn/entidad.json) | PCN | 1 | 0 | 9 | 3 |
 | [Perú](./PER-Peru/entidad.json) | PER | 3 | 0 | 156 | 17 |
 | [Isla Wake](./PGA-Isla-Wake/entidad.json) | PGA | 1 | 0 | 0 | 1 |
-| [Filipinas](./PHL-Filipinas/entidad.json) | PHL | 4 | 0 | 39 | 15 |
+| [Filipinas](./PHL-Filipinas/entidad.json) | PHL | 4 | 0 | 39 | 1 |
 | [Palaos](./PLW-Palaos/entidad.json) | PLW | 1 | 0 | 24 | 8 |
 | [Papúa Nueva Guinea](./PNG-Papua-Nueva-Guinea/entidad.json) | PNG | 1 | 0 | 16 | 9 |
 | [Polonia](./POL-Polonia/entidad.json) | POL | 6 | 0 | 84 | 16 |
@@ -1143,41 +1292,149 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Catar](./QAT-Catar/entidad.json) | QAT | 1 | 0 | 24 | 10 |
 | [Imperio de la dinastía Qing](./QING-Imperio-de-la-dinastia-Qing/entidad.json) | QING | 4 | 0 | 27 | 56 |
 | [República Árabe Saharaui Democrática](./RASD-Republica-Arabe-Saharaui-Democratica/entidad.json) | RASD | 1 | 0 | 11 | 0 |
+| [Abdelouadides](./REFERENCE-ABDELOUADIDES-3457FC4E-abdelouadides/entidad.json) | REFERENCE-ABDELOUADIDES-3457FC4E | 0 | 0 | 0 | 0 |
 | [Vietnam septentrional · poderes medievales · referencia](./REFERENCE-ANNAM-Vietnam-septentrional-poderes-medievales-referencia/entidad.json) | REFERENCE-ANNAM | 0 | 0 | 0 | 0 |
+| [Arakan (Indian princely state)](./REFERENCE-ARAKAN-INDIAN-PRINCELY-STATE-9FAA642F-arakan-indian-princely-s/entidad.json) | REFERENCE-ARAKAN-INDIAN-PRINCELY-STATE-9FAA642F | 0 | 0 | 0 | 0 |
 | [Arrán · región histórica](./REFERENCE-ARRAN-Arran-region-historica/entidad.json) | REFERENCE-ARRAN | 0 | 0 | 0 | 1 |
+| [Ava](./REFERENCE-AVA-BF446EA3-ava/entidad.json) | REFERENCE-AVA-BF446EA3 | 0 | 0 | 0 | 0 |
+| [Aymara kingdoms](./REFERENCE-AYMARA-KINGDOMS-3CA7B5FC-aymara-kingdoms/entidad.json) | REFERENCE-AYMARA-KINGDOMS-3CA7B5FC | 0 | 0 | 0 | 0 |
+| [Aztec Empire](./REFERENCE-AZTEC-EMPIRE-4EB8D93C-aztec-empire/entidad.json) | REFERENCE-AZTEC-EMPIRE-4EB8D93C | 0 | 0 | 0 | 0 |
+| [Bagan](./REFERENCE-BAGAN-047D4581-bagan/entidad.json) | REFERENCE-BAGAN-047D4581 | 0 | 0 | 0 | 0 |
+| [Bahmani Kingdom](./REFERENCE-BAHMANI-KINGDOM-DF8CCAEA-bahmani-kingdom/entidad.json) | REFERENCE-BAHMANI-KINGDOM-DF8CCAEA | 0 | 0 | 0 | 0 |
+| [Belize](./REFERENCE-BELIZE-01AA028B-belize/entidad.json) | REFERENCE-BELIZE-01AA028B | 0 | 0 | 0 | 0 |
+| [Bhutan](./REFERENCE-BHUTAN-65A4745D-bhutan/entidad.json) | REFERENCE-BHUTAN-65A4745D | 0 | 0 | 0 | 0 |
 | [Britany · referencia](./REFERENCE-BRITANY-Britany-referencia/entidad.json) | REFERENCE-BRITANY | 0 | 0 | 0 | 0 |
+| [Bukara Khanate](./REFERENCE-BUKARA-KHANATE-87DD7FB2-bukara-khanate/entidad.json) | REFERENCE-BUKARA-KHANATE-87DD7FB2 | 0 | 0 | 0 | 0 |
 | [Primer poder búlgaro · referencia](./REFERENCE-BULGAR-KHANATE-Primer-poder-bulgaro-referencia/entidad.json) | REFERENCE-BULGAR-KHANATE | 0 | 0 | 0 | 0 |
 | [Burgandy · referencia](./REFERENCE-BURGANDY-Burgandy-referencia/entidad.json) | REFERENCE-BURGANDY | 0 | 0 | 0 | 0 |
+| [Buyid dynasty](./REFERENCE-BUYID-DYNASTY-515F2F74-buyid-dynasty/entidad.json) | REFERENCE-BUYID-DYNASTY-515F2F74 | 0 | 0 | 0 | 0 |
+| [Cambodia](./REFERENCE-CAMBODIA-EAE33AEB-cambodia/entidad.json) | REFERENCE-CAMBODIA-EAE33AEB | 0 | 0 | 0 | 0 |
+| [Castile](./REFERENCE-CASTILE-74E9F07D-castile/entidad.json) | REFERENCE-CASTILE-74E9F07D | 0 | 0 | 0 | 0 |
 | [Celtic kingdoms · referencia](./REFERENCE-CELTIC-KINGDOMS-Celtic-kingdoms-referencia/entidad.json) | REFERENCE-CELTIC-KINGDOMS | 0 | 0 | 0 | 0 |
 | [Poderes de Champa · referencia](./REFERENCE-CHAMPA-Poderes-de-Champa-referencia/entidad.json) | REFERENCE-CHAMPA | 0 | 0 | 0 | 0 |
+| [Champa City States](./REFERENCE-CHAMPA-CITY-STATES-CBFAEC3D-champa-city-states/entidad.json) | REFERENCE-CHAMPA-CITY-STATES-CBFAEC3D | 0 | 0 | 0 | 0 |
 | [Poderes chahamanas · referencia](./REFERENCE-CHAUHANS-Poderes-chahamanas-referencia/entidad.json) | REFERENCE-CHAUHANS | 0 | 0 | 0 | 0 |
+| [Comté de Toulouse](./REFERENCE-COMTE-DE-TOULOUSE-84FFFE75-comte-de-toulouse/entidad.json) | REFERENCE-COMTE-DE-TOULOUSE-84FFFE75 | 0 | 0 | 0 | 0 |
 | [Córcega · región histórica](./REFERENCE-CORSICA-Corcega-region-historica/entidad.json) | REFERENCE-CORSICA | 0 | 0 | 0 | 1 |
 | [Croatia · referencia](./REFERENCE-CROATIA-Croatia-referencia/entidad.json) | REFERENCE-CROATIA | 0 | 0 | 0 | 0 |
+| [Cuba (Spain)](./REFERENCE-CUBA-SPAIN-461D1813-cuba-spain/entidad.json) | REFERENCE-CUBA-SPAIN-461D1813 | 0 | 0 | 0 | 0 |
+| [Cuman Khanates](./REFERENCE-CUMAN-KHANATES-B0110FA3-cuman-khanates/entidad.json) | REFERENCE-CUMAN-KHANATES-B0110FA3 | 0 | 0 | 0 | 0 |
 | [Chipre · región histórica](./REFERENCE-CYPRUS-Chipre-region-historica/entidad.json) | REFERENCE-CYPRUS | 0 | 0 | 0 | 6 |
+| [Denmark](./REFERENCE-DENMARK-5F0BF3FF-denmark/entidad.json) | REFERENCE-DENMARK-5F0BF3FF | 0 | 0 | 0 | 0 |
 | [Denmark-Norway · referencia](./REFERENCE-DENMARK-NORWAY-Denmark-Norway-referencia/entidad.json) | REFERENCE-DENMARK-NORWAY | 0 | 0 | 0 | 0 |
 | [Duchy of Swabia · referencia](./REFERENCE-DUCHY-OF-SWABIA-Duchy-of-Swabia-referencia/entidad.json) | REFERENCE-DUCHY-OF-SWABIA | 0 | 0 | 0 | 0 |
+| [Dutch Brazil](./REFERENCE-DUTCH-BRAZIL-E944E36F-dutch-brazil/entidad.json) | REFERENCE-DUTCH-BRAZIL-E944E36F | 0 | 0 | 0 | 0 |
+| [Dutch Formosa](./REFERENCE-DUTCH-FORMOSA-6C68D336-dutch-formosa/entidad.json) | REFERENCE-DUTCH-FORMOSA-6C68D336 | 0 | 0 | 0 | 0 |
+| [Dutch Republic](./REFERENCE-DUTCH-REPUBLIC-E3882617-dutch-republic/entidad.json) | REFERENCE-DUTCH-REPUBLIC-E3882617 | 0 | 0 | 0 | 0 |
 | [Tradiciones de Dvaravati · referencia regional](./REFERENCE-DVARAVATI-Tradiciones-de-Dvaravati-referencia-regional/entidad.json) | REFERENCE-DVARAVATI | 0 | 0 | 0 | 1 |
 | [Java oriental · poderes y comunidades](./REFERENCE-EAST-JAVA-Java-oriental-poderes-y-comunidades/entidad.json) | REFERENCE-EAST-JAVA | 0 | 0 | 0 | 1 |
+| [England and Ireland](./REFERENCE-ENGLAND-AND-IRELAND-A5A9251C-england-and-ireland/entidad.json) | REFERENCE-ENGLAND-AND-IRELAND-A5A9251C | 0 | 0 | 0 | 0 |
+| [English territory](./REFERENCE-ENGLISH-TERRITORY-6E42C651-english-territory/entidad.json) | REFERENCE-ENGLISH-TERRITORY-6E42C651 | 0 | 0 | 0 | 0 |
+| [Ethiopia](./REFERENCE-ETHIOPIA-4AC53897-ethiopia/entidad.json) | REFERENCE-ETHIOPIA-4AC53897 | 0 | 0 | 0 | 0 |
+| [Florence](./REFERENCE-FLORENCE-F902DEF4-florence/entidad.json) | REFERENCE-FLORENCE-F902DEF4 | 0 | 0 | 0 | 0 |
+| [Florida](./REFERENCE-FLORIDA-E067E8BE-florida/entidad.json) | REFERENCE-FLORIDA-E067E8BE | 0 | 0 | 0 | 0 |
+| [France](./REFERENCE-FRANCE-2C598436-france/entidad.json) | REFERENCE-FRANCE-2C598436 | 0 | 0 | 0 | 0 |
+| [Franche-Comté](./REFERENCE-FRANCHE-COMTE-3F1C3DDE-franche-comte/entidad.json) | REFERENCE-FRANCHE-COMTE-3F1C3DDE | 0 | 0 | 0 | 0 |
+| [Geneva](./REFERENCE-GENEVA-A7996BBC-geneva/entidad.json) | REFERENCE-GENEVA-A7996BBC | 0 | 0 | 0 | 0 |
+| [Genoa](./REFERENCE-GENOA-BBF9DEE9-genoa/entidad.json) | REFERENCE-GENOA-BBF9DEE9 | 0 | 0 | 0 | 0 |
 | [Georgia · referencia](./REFERENCE-GEORGIA-Georgia-referencia/entidad.json) | REFERENCE-GEORGIA | 0 | 0 | 0 | 0 |
+| [Gharra](./REFERENCE-GHARRA-15007528-gharra/entidad.json) | REFERENCE-GHARRA-15007528 | 0 | 0 | 0 | 0 |
+| [Goryeo](./REFERENCE-GORYEO-89C18812-goryeo/entidad.json) | REFERENCE-GORYEO-89C18812 | 0 | 0 | 0 | 0 |
+| [Great Khanate](./REFERENCE-GREAT-KHANATE-59085D98-great-khanate/entidad.json) | REFERENCE-GREAT-KHANATE-59085D98 | 0 | 0 | 0 | 0 |
+| [Habsburg Netherlands](./REFERENCE-HABSBURG-NETHERLANDS-39196FEB-habsburg-netherlands/entidad.json) | REFERENCE-HABSBURG-NETHERLANDS-39196FEB | 0 | 0 | 0 | 0 |
 | [Hadramaut · región histórica](./REFERENCE-HADRAMAUT-Hadramaut-region-historica/entidad.json) | REFERENCE-HADRAMAUT | 0 | 0 | 0 | 3 |
 | [Hainan · región histórica](./REFERENCE-HAINAN-Hainan-region-historica/entidad.json) | REFERENCE-HAINAN | 0 | 0 | 0 | 2 |
+| [Harapunchai](./REFERENCE-HARAPUNCHAI-9DC29857-harapunchai/entidad.json) | REFERENCE-HARAPUNCHAI-9DC29857 | 0 | 0 | 0 | 0 |
 | [Haripunjaya · referencia](./REFERENCE-HARIPUNJAYA-Haripunjaya-referencia/entidad.json) | REFERENCE-HARIPUNJAYA | 0 | 0 | 0 | 0 |
+| [Hispaniola (Spain)](./REFERENCE-HISPANIOLA-SPAIN-DAB025CF-hispaniola-spain/entidad.json) | REFERENCE-HISPANIOLA-SPAIN-DAB025CF | 0 | 0 | 0 | 0 |
 | [Wari · tradición y poder regional · referencia](./REFERENCE-HUARI-EMPIRE-Wari-tradicion-y-poder-regional-referencia/entidad.json) | REFERENCE-HUARI-EMPIRE | 0 | 0 | 0 | 0 |
+| [Hungary](./REFERENCE-HUNGARY-AA0DB396-hungary/entidad.json) | REFERENCE-HUNGARY-AA0DB396 | 0 | 0 | 0 | 0 |
+| [Huron](./REFERENCE-HURON-A1CB44B0-huron/entidad.json) | REFERENCE-HURON-A1CB44B0 | 0 | 0 | 0 | 0 |
+| [Ibadites](./REFERENCE-IBADITES-A96111D0-ibadites/entidad.json) | REFERENCE-IBADITES-A96111D0 | 0 | 0 | 0 | 0 |
+| [Ifat](./REFERENCE-IFAT-F576EDD5-ifat/entidad.json) | REFERENCE-IFAT-F576EDD5 | 0 | 0 | 0 | 0 |
+| [Ilkhanate](./REFERENCE-ILKHANATE-E1DB79BC-ilkhanate/entidad.json) | REFERENCE-ILKHANATE-E1DB79BC | 0 | 0 | 0 | 0 |
+| [Inca Empire](./REFERENCE-INCA-EMPIRE-E1E4A22C-inca-empire/entidad.json) | REFERENCE-INCA-EMPIRE-E1E4A22C | 0 | 0 | 0 | 0 |
+| [Confederación Haudenosaunee · Cinco Naciones](./REFERENCE-IROQUOIS-F920DC3D-iroquois/entidad.json) | REFERENCE-IROQUOIS-F920DC3D | 0 | 0 | 0 | 0 |
+| [Islamic and Hindu states](./REFERENCE-ISLAMIC-AND-HINDU-STATES-067A9AA7-islamic-and-hindu-states/entidad.json) | REFERENCE-ISLAMIC-AND-HINDU-STATES-067A9AA7 | 0 | 0 | 0 | 0 |
+| [Islamic states](./REFERENCE-ISLAMIC-STATES-A6650C08-islamic-states/entidad.json) | REFERENCE-ISLAMIC-STATES-A6650C08 | 0 | 0 | 0 | 0 |
+| [Japan](./REFERENCE-JAPAN-59AE856C-japan/entidad.json) | REFERENCE-JAPAN-59AE856C | 0 | 0 | 0 | 0 |
+| [Japan (Warring States)](./REFERENCE-JAPAN-WARRING-STATES-38CBB1F2-japan-warring-states/entidad.json) | REFERENCE-JAPAN-WARRING-STATES-38CBB1F2 | 0 | 0 | 0 | 0 |
 | [Kalinga · referencia regional](./REFERENCE-KALINGA-Kalinga-referencia-regional/entidad.json) | REFERENCE-KALINGA | 0 | 0 | 0 | 2 |
+| [Kamarupa](./REFERENCE-KAMARUPA-90DC4F42-kamarupa/entidad.json) | REFERENCE-KAMARUPA-90DC4F42 | 0 | 0 | 0 | 0 |
 | [Reino de Kanem · referencia · referencia](./REFERENCE-KANEM-Reino-de-Kanem-referencia-referencia/entidad.json) | REFERENCE-KANEM | 0 | 0 | 0 | 0 |
+| [Kara Khitai Khaganate](./REFERENCE-KARA-KHITAI-KHAGANATE-66F189C1-kara-khitai-khaganate/entidad.json) | REFERENCE-KARA-KHITAI-KHAGANATE-66F189C1 | 0 | 0 | 0 | 0 |
+| [Kazan Khanate](./REFERENCE-KAZAN-KHANATE-6A5C588A-kazan-khanate/entidad.json) | REFERENCE-KAZAN-KHANATE-6A5C588A | 0 | 0 | 0 | 0 |
+| [Kediri](./REFERENCE-KEDIRI-B23B157C-kediri/entidad.json) | REFERENCE-KEDIRI-B23B157C | 0 | 0 | 0 | 0 |
+| [Khanate of the Golden Horde](./REFERENCE-KHANATE-OF-THE-GOLDEN-HORDE-B3A3B485-khanate-of-the-golden-ho/entidad.json) | REFERENCE-KHANATE-OF-THE-GOLDEN-HORDE-B3A3B485 | 0 | 0 | 0 | 0 |
+| [Khiva Khanate](./REFERENCE-KHIVA-KHANATE-B6BC021D-khiva-khanate/entidad.json) | REFERENCE-KHIVA-KHANATE-B6BC021D | 0 | 0 | 0 | 0 |
+| [Khwarazmian dynasty](./REFERENCE-KHWARAZMIAN-DYNASTY-998A2252-khwarazmian-dynasty/entidad.json) | REFERENCE-KHWARAZMIAN-DYNASTY-998A2252 | 0 | 0 | 0 | 0 |
 | [Confederaciones kimek y kipchak · referencia](./REFERENCE-KIMEK-KIPCHAK-KHAGANATE-Confederaciones-kimek-y-kipchak-referencia/entidad.json) | REFERENCE-KIMEK-KIPCHAK-KHAGANATE | 0 | 0 | 0 | 0 |
 | [Kingdom of Georgia · referencia](./REFERENCE-KINGDOM-OF-GEORGIA-Kingdom-of-Georgia-referencia/entidad.json) | REFERENCE-KINGDOM-OF-GEORGIA | 0 | 0 | 0 | 0 |
+| [Kingdom of Hungary](./REFERENCE-KINGDOM-OF-HUNGARY-BFA2ACD7-kingdom-of-hungary/entidad.json) | REFERENCE-KINGDOM-OF-HUNGARY-BFA2ACD7 | 0 | 0 | 0 | 0 |
 | [Reino de Pagan · referencia · referencia](./REFERENCE-KINGDOM-OF-PAGAN-Reino-de-Pagan-referencia-referencia/entidad.json) | REFERENCE-KINGDOM-OF-PAGAN | 0 | 0 | 0 | 0 |
+| [Laotian states](./REFERENCE-LAOTIAN-STATES-564AFE53-laotian-states/entidad.json) | REFERENCE-LAOTIAN-STATES-564AFE53 | 0 | 0 | 0 | 0 |
+| [Lithuania](./REFERENCE-LITHUANIA-2A200E0C-lithuania/entidad.json) | REFERENCE-LITHUANIA-2A200E0C | 0 | 0 | 0 | 0 |
+| [Luxembourg](./REFERENCE-LUXEMBOURG-68F453C0-luxembourg/entidad.json) | REFERENCE-LUXEMBOURG-68F453C0 | 0 | 0 | 0 | 0 |
+| [Mahra](./REFERENCE-MAHRA-12AD0ABC-mahra/entidad.json) | REFERENCE-MAHRA-12AD0ABC | 0 | 0 | 0 | 0 |
+| [Massachusetts Bay](./REFERENCE-MASSACHUSETTS-BAY-8569412F-massachusetts-bay/entidad.json) | REFERENCE-MASSACHUSETTS-BAY-8569412F | 0 | 0 | 0 | 0 |
 | [Maya city-states · referencia](./REFERENCE-MAYA-CITY-STATES-Maya-city-states-referencia/entidad.json) | REFERENCE-MAYA-CITY-STATES | 0 | 0 | 0 | 0 |
+| [Merinides](./REFERENCE-MERINIDES-2B946AA5-merinides/entidad.json) | REFERENCE-MERINIDES-2B946AA5 | 0 | 0 | 0 | 0 |
+| [Middag Kingdom](./REFERENCE-MIDDAG-KINGDOM-7CE0EA9C-middag-kingdom/entidad.json) | REFERENCE-MIDDAG-KINGDOM-7CE0EA9C | 0 | 0 | 0 | 0 |
+| [Milan](./REFERENCE-MILAN-EFEE6144-milan/entidad.json) | REFERENCE-MILAN-EFEE6144 | 0 | 0 | 0 | 0 |
+| [Ming Chinese Empire](./REFERENCE-MING-CHINESE-EMPIRE-139B8E4C-ming-chinese-empire/entidad.json) | REFERENCE-MING-CHINESE-EMPIRE-139B8E4C | 0 | 0 | 0 | 0 |
+| [minor Hindu kingdoms](./REFERENCE-MINOR-HINDU-KINGDOMS-FAC2BE61-minor-hindu-kingdoms/entidad.json) | REFERENCE-MINOR-HINDU-KINGDOMS-FAC2BE61 | 0 | 0 | 0 | 0 |
+| [Mixtec Empire](./REFERENCE-MIXTEC-EMPIRE-D3A2D8CF-mixtec-empire/entidad.json) | REFERENCE-MIXTEC-EMPIRE-D3A2D8CF | 0 | 0 | 0 | 0 |
+| [Moldova](./REFERENCE-MOLDOVA-562017F6-moldova/entidad.json) | REFERENCE-MOLDOVA-562017F6 | 0 | 0 | 0 | 0 |
+| [Mon state](./REFERENCE-MON-STATE-C6ADA959-mon-state/entidad.json) | REFERENCE-MON-STATE-C6ADA959 | 0 | 0 | 0 | 0 |
+| [Mongol Empire](./REFERENCE-MONGOL-EMPIRE-885F966C-mongol-empire/entidad.json) | REFERENCE-MONGOL-EMPIRE-885F966C | 0 | 0 | 0 | 0 |
+| [Morocco](./REFERENCE-MOROCCO-52118E19-morocco/entidad.json) | REFERENCE-MOROCCO-52118E19 | 0 | 0 | 0 | 0 |
 | [Mascate y costa de Omán · referencia regional](./REFERENCE-MUSCAT-Mascate-y-costa-de-Oman-referencia-regional/entidad.json) | REFERENCE-MUSCAT | 0 | 0 | 0 | 2 |
+| [Naples](./REFERENCE-NAPLES-F4569ACF-naples/entidad.json) | REFERENCE-NAPLES-F4569ACF | 0 | 0 | 0 | 0 |
+| [Nogai Horde](./REFERENCE-NOGAI-HORDE-A9E5106E-nogai-horde/entidad.json) | REFERENCE-NOGAI-HORDE-A9E5106E | 0 | 0 | 0 | 0 |
+| [Norway](./REFERENCE-NORWAY-1D43CFED-norway/entidad.json) | REFERENCE-NORWAY-1D43CFED | 0 | 0 | 0 | 0 |
+| [Novgorod](./REFERENCE-NOVGOROD-2C8F3D86-novgorod/entidad.json) | REFERENCE-NOVGOROD-2C8F3D86 | 0 | 0 | 0 | 0 |
+| [Novgorod-Seversky](./REFERENCE-NOVGOROD-SEVERSKY-850C0956-novgorod-seversky/entidad.json) | REFERENCE-NOVGOROD-SEVERSKY-850C0956 | 0 | 0 | 0 | 0 |
 | [Odisha · región y poderes locales](./REFERENCE-ORISSA-Odisha-region-y-poderes-locales/entidad.json) | REFERENCE-ORISSA | 0 | 0 | 0 | 2 |
+| [Other Rus Principalities](./REFERENCE-OTHER-RUS-PRINCIPALITIES-76E65E8B-other-rus-principalities/entidad.json) | REFERENCE-OTHER-RUS-PRINCIPALITIES-76E65E8B | 0 | 0 | 0 | 0 |
+| [Pagan](./REFERENCE-PAGAN-D7575FDE-pagan/entidad.json) | REFERENCE-PAGAN-D7575FDE | 0 | 0 | 0 | 0 |
+| [Pandya state](./REFERENCE-PANDYA-STATE-C09A6D8E-pandya-state/entidad.json) | REFERENCE-PANDYA-STATE-C09A6D8E | 0 | 0 | 0 | 0 |
+| [Papua New Guinea](./REFERENCE-PAPUA-NEW-GUINEA-F13CA8F8-papua-new-guinea/entidad.json) | REFERENCE-PAPUA-NEW-GUINEA-F13CA8F8 | 0 | 0 | 0 | 0 |
+| [Polish–Lithuanian Commonwealth](./REFERENCE-POLISH-LITHUANIAN-COMMONWEALTH-64189068-polish-lithuanian-common/entidad.json) | REFERENCE-POLISH-LITHUANIAN-COMMONWEALTH-64189068 | 0 | 0 | 0 | 0 |
+| [Portuguese Brazil](./REFERENCE-PORTUGUESE-BRAZIL-7B675548-portuguese-brazil/entidad.json) | REFERENCE-PORTUGUESE-BRAZIL-7B675548 | 0 | 0 | 0 | 0 |
+| [Post-Ming Warlords](./REFERENCE-POST-MING-WARLORDS-05238415-post-ming-warlords/entidad.json) | REFERENCE-POST-MING-WARLORDS-05238415 | 0 | 0 | 0 | 0 |
 | [Poderes pratiharas · referencia](./REFERENCE-PRATIHARAS-Poderes-pratiharas-referencia/entidad.json) | REFERENCE-PRATIHARAS | 0 | 0 | 0 | 0 |
+| [Principality of Galicia-Volhynia](./REFERENCE-PRINCIPALITY-OF-GALICIA-VOLHYNIA-D2ECF85C-principality-of-galicia-/entidad.json) | REFERENCE-PRINCIPALITY-OF-GALICIA-VOLHYNIA-D2ECF85C | 0 | 0 | 0 | 0 |
+| [Principality of Kyiv](./REFERENCE-PRINCIPALITY-OF-KYIV-2CE53268-principality-of-kyiv/entidad.json) | REFERENCE-PRINCIPALITY-OF-KYIV-2CE53268 | 0 | 0 | 0 | 0 |
+| [Principality of Novgorod](./REFERENCE-PRINCIPALITY-OF-NOVGOROD-53CE1DDB-principality-of-novgorod/entidad.json) | REFERENCE-PRINCIPALITY-OF-NOVGOROD-53CE1DDB | 0 | 0 | 0 | 0 |
+| [Principality of Vladimir-Suzdal](./REFERENCE-PRINCIPALITY-OF-VLADIMIR-SUZDAL-99B49C52-principality-of-vladimir/entidad.json) | REFERENCE-PRINCIPALITY-OF-VLADIMIR-SUZDAL-99B49C52 | 0 | 0 | 0 | 0 |
+| [Pyu state](./REFERENCE-PYU-STATE-732F366D-pyu-state/entidad.json) | REFERENCE-PYU-STATE-732F366D | 0 | 0 | 0 | 0 |
+| [Quazaq Khanate](./REFERENCE-QUAZAQ-KHANATE-EA1DF12A-quazaq-khanate/entidad.json) | REFERENCE-QUAZAQ-KHANATE-EA1DF12A | 0 | 0 | 0 | 0 |
 | [Reinos y linajes rajput · referencia](./REFERENCE-RAJPUT-KINGDOMS-Reinos-y-linajes-rajput-referencia/entidad.json) | REFERENCE-RAJPUT-KINGDOMS | 0 | 0 | 0 | 0 |
+| [Rajputana](./REFERENCE-RAJPUTANA-27A11B72-rajputana/entidad.json) | REFERENCE-RAJPUTANA-27A11B72 | 0 | 0 | 0 | 0 |
+| [Raška](./REFERENCE-RASKA-1C78923C-raska/entidad.json) | REFERENCE-RASKA-1C78923C | 0 | 0 | 0 | 0 |
+| [Republic of the Seven Zenden](./REFERENCE-REPUBLIC-OF-THE-SEVEN-ZENDEN-AA7878BE-republic-of-the-seven-ze/entidad.json) | REFERENCE-REPUBLIC-OF-THE-SEVEN-ZENDEN-AA7878BE | 0 | 0 | 0 | 0 |
+| [Safavid Empire](./REFERENCE-SAFAVID-EMPIRE-99FECC2B-safavid-empire/entidad.json) | REFERENCE-SAFAVID-EMPIRE-99FECC2B | 0 | 0 | 0 | 0 |
 | [Cerdeña · comunidades y poderes locales](./REFERENCE-SARDINIA-Cerdena-comunidades-y-poderes-locales/entidad.json) | REFERENCE-SARDINIA | 0 | 0 | 0 | 1 |
+| [Sardinia-Piedmont](./REFERENCE-SARDINIA-PIEDMONT-5943C83C-sardinia-piedmont/entidad.json) | REFERENCE-SARDINIA-PIEDMONT-5943C83C | 0 | 0 | 0 | 0 |
+| [Savoy](./REFERENCE-SAVOY-60B41340-savoy/entidad.json) | REFERENCE-SAVOY-60B41340 | 0 | 0 | 0 | 0 |
+| [Saylan](./REFERENCE-SAYLAN-8D1DCC13-saylan/entidad.json) | REFERENCE-SAYLAN-8D1DCC13 | 0 | 0 | 0 | 0 |
+| [Seljuk Caliphate](./REFERENCE-SELJUK-CALIPHATE-0797B5A7-seljuk-caliphate/entidad.json) | REFERENCE-SELJUK-CALIPHATE-0797B5A7 | 0 | 0 | 0 | 0 |
+| [Shoa](./REFERENCE-SHOA-880F420E-shoa/entidad.json) | REFERENCE-SHOA-880F420E | 0 | 0 | 0 | 0 |
+| [Shogun Japan (Kamakura)](./REFERENCE-SHOGUN-JAPAN-KAMAKURA-BE6AB87C-shogun-japan-kamakura/entidad.json) | REFERENCE-SHOGUN-JAPAN-KAMAKURA-BE6AB87C | 0 | 0 | 0 | 0 |
+| [Sicily](./REFERENCE-SICILY-51231258-sicily/entidad.json) | REFERENCE-SICILY-51231258 | 0 | 0 | 0 | 0 |
+| [Sinhalese kingdom](./REFERENCE-SINHALESE-KINGDOM-6DDEB01E-sinhalese-kingdom/entidad.json) | REFERENCE-SINHALESE-KINGDOM-6DDEB01E | 0 | 0 | 0 | 0 |
+| [South Carolina](./REFERENCE-SOUTH-CAROLINA-43E89A67-south-carolina/entidad.json) | REFERENCE-SOUTH-CAROLINA-43E89A67 | 0 | 0 | 0 | 0 |
+| [Spain](./REFERENCE-SPAIN-4C799454-spain/entidad.json) | REFERENCE-SPAIN-4C799454 | 0 | 0 | 0 | 0 |
+| [Sukhothai](./REFERENCE-SUKHOTHAI-CE74DCE0-sukhothai/entidad.json) | REFERENCE-SUKHOTHAI-CE74DCE0 | 0 | 0 | 0 | 0 |
 | [Tiwanaku · etapa tardía · referencia](./REFERENCE-TIAHUANACO-EMPIRE-Tiwanaku-etapa-tardia-referencia/entidad.json) | REFERENCE-TIAHUANACO-EMPIRE | 0 | 0 | 0 | 0 |
+| [Trebizond](./REFERENCE-TREBIZOND-50F0863A-trebizond/entidad.json) | REFERENCE-TREBIZOND-50F0863A | 0 | 0 | 0 | 0 |
+| [Tsardom of Muscovy](./REFERENCE-TSARDOM-OF-MUSCOVY-6BC61C32-tsardom-of-muscovy/entidad.json) | REFERENCE-TSARDOM-OF-MUSCOVY-6BC61C32 | 0 | 0 | 0 | 0 |
 | [Poder tongano · referencia · referencia](./REFERENCE-TUI-TONGA-EMPIRE-Poder-tongano-referencia-referencia/entidad.json) | REFERENCE-TUI-TONGA-EMPIRE | 0 | 0 | 0 | 0 |
 | [Venice · referencia](./REFERENCE-VENICE-Venice-referencia/entidad.json) | REFERENCE-VENICE | 0 | 0 | 0 | 0 |
+| [Virginia](./REFERENCE-VIRGINIA-0A4992EA-virginia/entidad.json) | REFERENCE-VIRGINIA-0A4992EA | 0 | 0 | 0 | 0 |
 | [Volga Bulgars · referencia](./REFERENCE-VOLGA-BULGARS-Volga-Bulgars-referencia/entidad.json) | REFERENCE-VOLGA-BULGARS | 0 | 0 | 0 | 0 |
+| [Watassid Morocco](./REFERENCE-WATASSID-MOROCCO-FC2E6DA2-watassid-morocco/entidad.json) | REFERENCE-WATASSID-MOROCCO-FC2E6DA2 | 0 | 0 | 0 | 0 |
+| [Zapotec Empire](./REFERENCE-ZAPOTEC-EMPIRE-689CB41A-zapotec-empire/entidad.json) | REFERENCE-ZAPOTEC-EMPIRE-689CB41A | 0 | 0 | 0 | 0 |
 | [Rodesia · régimen no reconocido](./RHO-Rodesia-regimen-no-reconocido/entidad.json) | RHO | 2 | 0 | 3 | 0 |
 | [Provincias Unidas del Río de la Plata](./RIO-DE-LA-PLATA-Provincias-Unidas-del-Rio-de-la-Plata/entidad.json) | RIO-DE-LA-PLATA | 3 | 1 | 18 | 0 |
 | [República de China · etapa continental](./ROC-Republica-de-China-etapa-continental/entidad.json) | ROC | 4 | 0 | 56 | 5 |
@@ -1499,7 +1756,6 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Gayiri](./territorio-209bf42dd75e-Gayiri/entidad.json) | territorio-209bf42dd75e | 0 | 0 | 0 | 1 |
 | [Gooniyandi](./territorio-20dd701cda18-Gooniyandi/entidad.json) | territorio-20dd701cda18 | 0 | 0 | 0 | 1 |
 | [Wangkangurru](./territorio-20e394ee8c44-Wangkangurru/entidad.json) | territorio-20e394ee8c44 | 0 | 0 | 0 | 1 |
-| [Ainus](./territorio-20ead782c2b8-Ainus/entidad.json) | territorio-20ead782c2b8 | 0 | 0 | 0 | 2 |
 | [Nunggubuyu](./territorio-21071987eae0-Nunggubuyu/entidad.json) | territorio-21071987eae0 | 0 | 0 | 0 | 1 |
 | [Kathlamet](./territorio-2117c1c58796-Kathlamet/entidad.json) | territorio-2117c1c58796 | 0 | 0 | 0 | 1 |
 | [Amangu](./territorio-211afab894e7-Amangu/entidad.json) | territorio-211afab894e7 | 0 | 0 | 0 | 1 |
@@ -1533,13 +1789,12 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Asheninka](./territorio-244f8d4cea2e-Asheninka/entidad.json) | territorio-244f8d4cea2e | 0 | 0 | 0 | 1 |
 | [Ket Chonhab’ Kob’a (Chuj)](./territorio-2454749b7cd5-Ket-Chonhab-Kob-a-Chuj/entidad.json) | territorio-2454749b7cd5 | 0 | 0 | 0 | 1 |
 | [Guahibo/Hiwi](./territorio-248b52876ea5-Guahibo-Hiwi/entidad.json) | territorio-248b52876ea5 | 0 | 0 | 0 | 1 |
-| [Sámi](./territorio-24964a2764be-Sami/entidad.json) | territorio-24964a2764be | 0 | 0 | 0 | 1 |
 | [Eastern Shawnee (Oklahoma)](./territorio-24a9379c67ac-Eastern-Shawnee-Oklahoma/entidad.json) | territorio-24a9379c67ac | 0 | 0 | 0 | 1 |
 | [Matetamãe/Cinta Larga](./territorio-24f0445f444e-Matetamae-Cinta-Larga/entidad.json) | territorio-24f0445f444e | 0 | 0 | 0 | 1 |
 | [Sapara](./territorio-24fbd4b737f4-Sapara/entidad.json) | territorio-24fbd4b737f4 | 0 | 0 | 0 | 1 |
 | [Aparai](./territorio-251a6192d81e-Aparai/entidad.json) | territorio-251a6192d81e | 0 | 0 | 0 | 1 |
 | [Malla](./territorio-252b13683a3c-Malla/entidad.json) | territorio-252b13683a3c | 0 | 0 | 0 | 1 |
-| [Maori](./territorio-2565ad9ab61a-Maori/entidad.json) | territorio-2565ad9ab61a | 0 | 0 | 0 | 2 |
+| [Comunidades de Aotearoa · tradiciones maoríes](./territorio-2565ad9ab61a-Maori/entidad.json) | territorio-2565ad9ab61a | 0 | 0 | 0 | 2 |
 | [Awajún](./territorio-25714724414a-Awajun/entidad.json) | territorio-25714724414a | 0 | 0 | 0 | 1 |
 | [Kaiabi](./territorio-258246381da5-Kaiabi/entidad.json) | territorio-258246381da5 | 0 | 0 | 0 | 1 |
 | [Jumanos](./territorio-25c9a92f12b3-Jumanos/entidad.json) | territorio-25c9a92f12b3 | 0 | 0 | 0 | 1 |
@@ -1562,7 +1817,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Kaska Dena Kayeh](./territorio-2761e25dfe26-Kaska-Dena-Kayeh/entidad.json) | territorio-2761e25dfe26 | 0 | 0 | 0 | 1 |
 | [Te’mexw Treaty Association](./territorio-276c6b3a2a59-Te-mexw-Treaty-Association/entidad.json) | territorio-276c6b3a2a59 | 0 | 0 | 0 | 1 |
 | [Seminole Tribe of Florida (Hollywood Reservation)](./territorio-27ec8988324b-Seminole-Tribe-of-Florida-Hollywood-Reservation/entidad.json) | territorio-27ec8988324b | 0 | 0 | 0 | 1 |
-| [Funj](./territorio-27f08b05e08c-Funj/entidad.json) | territorio-27f08b05e08c | 0 | 0 | 0 | 2 |
+| [Comunidades del Nilo medio · ámbito funj](./territorio-27f08b05e08c-Funj/entidad.json) | territorio-27f08b05e08c | 0 | 0 | 0 | 2 |
 | [K’áálǫ Got’ine](./territorio-280bad4d69bc-K-aalo-Got-ine/entidad.json) | territorio-280bad4d69bc | 0 | 0 | 0 | 1 |
 | [Songhai](./territorio-281ea1324319-Songhai/entidad.json) | territorio-281ea1324319 | 0 | 0 | 0 | 2 |
 | [Seminole](./territorio-28274b3b335a-Seminole/entidad.json) | territorio-28274b3b335a | 0 | 0 | 0 | 1 |
@@ -1749,7 +2004,6 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Shoshone-Bannock](./territorio-3e49a7f67554-Shoshone-Bannock/entidad.json) | territorio-3e49a7f67554 | 0 | 0 | 0 | 1 |
 | [Budjari](./territorio-3e54181b6c62-Budjari/entidad.json) | territorio-3e54181b6c62 | 0 | 0 | 0 | 1 |
 | [Mpalitjanh](./territorio-3e84d7f0455d-Mpalitjanh/entidad.json) | territorio-3e84d7f0455d | 0 | 0 | 0 | 1 |
-| [Beothuk](./territorio-3ea73212d2d0-Beothuk/entidad.json) | territorio-3ea73212d2d0 | 0 | 0 | 0 | 1 |
 | [Yanam (Ninam)](./territorio-3edd0b46dd57-Yanam-Ninam/entidad.json) | territorio-3edd0b46dd57 | 0 | 0 | 0 | 1 |
 | [Miyan](./territorio-3ee43f9d13ff-Miyan/entidad.json) | territorio-3ee43f9d13ff | 0 | 0 | 0 | 1 |
 | [Byzantine Empire](./territorio-3eee5a539fca-Byzantine-Empire/entidad.json) | territorio-3eee5a539fca | 0 | 0 | 0 | 1 |
@@ -1802,7 +2056,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Nüwüwü (Chemehuevi)](./territorio-4594ccb4a4de-Nuwuwu-Chemehuevi/entidad.json) | territorio-4594ccb4a4de | 0 | 0 | 0 | 1 |
 | [Whilkut](./territorio-45bcfd2e7e52-Whilkut/entidad.json) | territorio-45bcfd2e7e52 | 0 | 0 | 0 | 1 |
 | [Huu-ay-aht](./territorio-45c319b23699-Huu-ay-aht/entidad.json) | territorio-45c319b23699 | 0 | 0 | 0 | 1 |
-| [Rozwi](./territorio-45fbd5bb1b94-Rozwi/entidad.json) | territorio-45fbd5bb1b94 | 0 | 0 | 0 | 1 |
+| [Comunidades de la tradición zimbabuense · área rozvi](./territorio-45fbd5bb1b94-Rozwi/entidad.json) | territorio-45fbd5bb1b94 | 0 | 0 | 0 | 1 |
 | [Xinjiang](./territorio-460860849d0b-Xinjiang/entidad.json) | territorio-460860849d0b | 0 | 0 | 0 | 2 |
 | [Osage (Oklahoma)](./territorio-461a2fdc08d8-Osage-Oklahoma/entidad.json) | territorio-461a2fdc08d8 | 0 | 0 | 0 | 1 |
 | [Féénemɨnaa](./territorio-46210ec3c736-Feenem-naa/entidad.json) | territorio-46210ec3c736 | 0 | 0 | 0 | 1 |
@@ -1941,7 +2195,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Buyid Emirate](./territorio-54565f73d0ca-Buyid-Emirate/entidad.json) | territorio-54565f73d0ca | 0 | 0 | 0 | 1 |
 | [Gungabula](./territorio-5457c263aadc-Gungabula/entidad.json) | territorio-5457c263aadc | 0 | 0 | 0 | 1 |
 | [Julimes](./territorio-549903cef8c0-Julimes/entidad.json) | territorio-549903cef8c0 | 0 | 0 | 0 | 1 |
-| [Awá](./territorio-5533a8949925-Awa/entidad.json) | territorio-5533a8949925 | 0 | 0 | 0 | 2 |
+| [Ãwa](./territorio-5533a8949925-Awa/entidad.json) | territorio-5533a8949925 | 0 | 0 | 0 | 2 |
 | [Guaná](./territorio-5561af49ac8e-Guana/entidad.json) | territorio-5561af49ac8e | 0 | 0 | 0 | 1 |
 | [Iskonawa](./territorio-556cf5e9ab77-Iskonawa/entidad.json) | territorio-556cf5e9ab77 | 0 | 0 | 0 | 1 |
 | [Ixil](./territorio-557f189ccc0e-Ixil/entidad.json) | territorio-557f189ccc0e | 0 | 0 | 0 | 1 |
@@ -2180,7 +2434,6 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Diné Bikéyah](./territorio-6eebc0b773cf-Dine-Bikeyah/entidad.json) | territorio-6eebc0b773cf | 0 | 0 | 0 | 1 |
 | [Omàmìwininìwag (Algonquin)](./territorio-6ef221d05744-Omamiwininiwag-Algonquin/entidad.json) | territorio-6ef221d05744 | 0 | 0 | 0 | 1 |
 | [Chinook](./territorio-6ef23b06d385-Chinook/entidad.json) | territorio-6ef23b06d385 | 0 | 0 | 0 | 1 |
-| [Calusa](./territorio-6efcbe3cf3fc-Calusa/entidad.json) | territorio-6efcbe3cf3fc | 0 | 0 | 0 | 1 |
 | [Germany (UK)](./territorio-6f1e8e1395e1-Germany-UK/entidad.json) | territorio-6f1e8e1395e1 | 0 | 0 | 0 | 1 |
 | [Wulgurukaba](./territorio-6f24e0be1c11-Wulgurukaba/entidad.json) | territorio-6f24e0be1c11 | 0 | 0 | 0 | 1 |
 | [Kambeba/Omagua](./territorio-6f4486e4254c-Kambeba-Omagua/entidad.json) | territorio-6f4486e4254c | 0 | 0 | 0 | 1 |
@@ -2887,7 +3140,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Nungali](./territorio-c0d359fd72ea-Nungali/entidad.json) | territorio-c0d359fd72ea | 0 | 0 | 0 | 1 |
 | [Teppathiggi](./territorio-c0dfe6dff403-Teppathiggi/entidad.json) | territorio-c0dfe6dff403 | 0 | 0 | 0 | 1 |
 | [Paleo-Inuit](./territorio-c0e2901fb381-Paleo-Inuit/entidad.json) | territorio-c0e2901fb381 | 0 | 0 | 0 | 2 |
-| [Han](./territorio-c10688a28512-Han/entidad.json) | territorio-c10688a28512 | 0 | 0 | 0 | 2 |
+| [Hän](./territorio-c10688a28512-Han/entidad.json) | territorio-c10688a28512 | 0 | 0 | 0 | 2 |
 | [Puri](./territorio-c1264e685706-Puri/entidad.json) | territorio-c1264e685706 | 0 | 0 | 0 | 1 |
 | [Yjxa](./territorio-c18560d9ea13-Yjxa/entidad.json) | territorio-c18560d9ea13 | 0 | 0 | 0 | 1 |
 | [Ishir Tomárãho](./territorio-c192c0c83fe4-Ishir-Tomaraho/entidad.json) | territorio-c192c0c83fe4 | 0 | 0 | 0 | 1 |
@@ -3056,7 +3309,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Acho Dene Koe](./territorio-d67118811fa3-Acho-Dene-Koe/entidad.json) | territorio-d67118811fa3 | 0 | 0 | 0 | 1 |
 | [Asante](./territorio-d676e1c20b54-Asante/entidad.json) | territorio-d676e1c20b54 | 0 | 0 | 0 | 1 |
 | [Eastern Nehântick](./territorio-d68c87f79ce6-Eastern-Nehantick/entidad.json) | territorio-d68c87f79ce6 | 0 | 0 | 0 | 1 |
-| [Kashtik ](./territorio-d68d4374bf59-Kashtik/entidad.json) | territorio-d68d4374bf59 | 0 | 0 | 0 | 1 |
+| [Kashtik](./territorio-d68d4374bf59-Kashtik/entidad.json) | territorio-d68d4374bf59 | 0 | 0 | 0 | 1 |
 | [Selangore](./territorio-d6bccbe49b53-Selangore/entidad.json) | territorio-d6bccbe49b53 | 0 | 0 | 0 | 1 |
 | [Okanagan](./territorio-d6f205e45242-Okanagan/entidad.json) | territorio-d6f205e45242 | 0 | 0 | 0 | 1 |
 | [Sumas](./territorio-d71d051e49a0-Sumas/entidad.json) | territorio-d71d051e49a0 | 0 | 0 | 0 | 1 |
@@ -3363,7 +3616,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Mingin](./territorio-fee26c6ce44b-Mingin/entidad.json) | territorio-fee26c6ce44b | 0 | 0 | 0 | 1 |
 | [Chehalis](./territorio-fef5ed5edc54-Chehalis/entidad.json) | territorio-fef5ed5edc54 | 0 | 0 | 0 | 1 |
 | [Matsés (Mayoruna)](./territorio-ff0f03e5d214-Matses-Mayoruna/entidad.json) | territorio-ff0f03e5d214 | 0 | 0 | 0 | 1 |
-| [Zacateco ](./territorio-ff22262e4567-Zacateco/entidad.json) | territorio-ff22262e4567 | 0 | 0 | 0 | 1 |
+| [Zacateco](./territorio-ff22262e4567-Zacateco/entidad.json) | territorio-ff22262e4567 | 0 | 0 | 0 | 1 |
 | [Swabia](./territorio-ff35aa830a89-Swabia/entidad.json) | territorio-ff35aa830a89 | 0 | 0 | 0 | 1 |
 | [Wattasid Caliphate](./territorio-ff3f06d824a7-Wattasid-Caliphate/entidad.json) | territorio-ff3f06d824a7 | 0 | 0 | 0 | 1 |
 | [Eastern Pomo](./territorio-ff44c21eacc5-Eastern-Pomo/entidad.json) | territorio-ff44c21eacc5 | 0 | 0 | 0 | 1 |
@@ -3392,7 +3645,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Túnez](./TUN-Tunez/entidad.json) | TUN | 3 | 0 | 34 | 10 |
 | [Turquía](./TUR-Turquia/entidad.json) | TUR | 1 | 0 | 98 | 4 |
 | [Tuvalu](./TUV-Tuvalu/entidad.json) | TUV | 2 | 0 | 21 | 5 |
-| [República de China](./TWN-Republica-de-China/entidad.json) | TWN | 2 | 0 | 91 | 12 |
+| [República de China](./TWN-Republica-de-China/entidad.json) | TWN | 2 | 0 | 91 | 1 |
 | [Reino de las Dos Sicilias](./TWO-SICILIES-Reino-de-las-Dos-Sicilias/entidad.json) | TWO-SICILIES | 1 | 0 | 4 | 0 |
 | [Tanzania](./TZA-Tanzania/entidad.json) | TZA | 1 | 0 | 14 | 1 |
 | [República Árabe Unida](./UAR-Republica-Arabe-Unida/entidad.json) | UAR | 2 | 0 | 6 | 0 |

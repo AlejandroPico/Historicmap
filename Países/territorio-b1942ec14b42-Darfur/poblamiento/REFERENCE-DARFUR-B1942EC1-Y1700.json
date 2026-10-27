@@ -1,0 +1,74 @@
+{
+  "key": "REFERENCE-DARFUR-B1942EC1-Y1700",
+  "contextKey": "REFERENCE-DARFUR-B1942EC1",
+  "ownerKey": "territorio-b1942ec14b42",
+  "name": "Darfur",
+  "originalNames": [
+    "Darfur"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia regional de la compilación, con sociedades, comunidades y redes internas diversas. El nombre no acredita un Estado unitario ni ocupación uniforme y exclusiva de la superficie.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1700; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q1474791"
+  ],
+  "color": "#929676",
+  "focus": [
+    25.74,
+    15.24
+  ],
+  "phases": [
+    {
+      "start": 1700,
+      "end": 1700,
+      "label": "Darfur",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-DARFUR-B1942EC1-Y1700.geojson",
+  "geometrySha256": "b0a2e75786c971f708194118922228e340ff570c629a568576864ed5d8a62107",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1700.geojson",
+    "sourceSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "upstreamSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "featureIds": [
+      39
+    ],
+    "components": null,
+    "year": 1700,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Darfur",
+      "ABBREVN": "Darfur",
+      "SUBJECTO": "Darfur",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Darfur"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

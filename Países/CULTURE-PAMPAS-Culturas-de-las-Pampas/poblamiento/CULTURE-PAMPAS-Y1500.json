@@ -1,0 +1,72 @@
+{
+  "key": "CULTURE-PAMPAS-Y1500",
+  "contextKey": "CULTURE-PAMPAS",
+  "ownerKey": "CULTURE-PAMPAS",
+  "name": "Culturas de las Pampas",
+  "originalNames": [
+    "Pampas cultures"
+  ],
+  "kind": "cultural-region",
+  "region": "Caribe y Sudamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia de continuidad y diversidad regional posterior a 1200. El contorno procede de la instantánea indicada; no acredita límites invariables, una sola cultura ni autoridad política uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1500; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#ae957f",
+  "focus": [
+    -62.165368043757695,
+    -40.62115990962555
+  ],
+  "phases": [
+    {
+      "start": 1500,
+      "end": 1529,
+      "label": "Culturas de las Pampas",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-PAMPAS-Y1500.geojson",
+  "geometrySha256": "6d69dd9a3b3a001cb140d523108a3aff9d3cf572cf5b1ffcf6d114bc488ada6d",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1500.geojson",
+    "sourceSha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+    "upstreamSha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+    "featureIds": [
+      159
+    ],
+    "components": null,
+    "year": 1500,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1500.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Pampas cultures",
+      "ABBREVN": "Pampas cultures",
+      "SUBJECTO": "Pampas cultures",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Pampas cultures"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

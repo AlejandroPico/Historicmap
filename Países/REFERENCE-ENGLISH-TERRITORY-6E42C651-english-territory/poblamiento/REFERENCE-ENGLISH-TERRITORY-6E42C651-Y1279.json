@@ -1,0 +1,66 @@
+{
+  "key": "REFERENCE-ENGLISH-TERRITORY-6E42C651-Y1279",
+  "contextKey": "REFERENCE-ENGLISH-TERRITORY-6E42C651",
+  "ownerKey": "REFERENCE-ENGLISH-TERRITORY-6E42C651",
+  "name": "English territory",
+  "originalNames": [
+    "English territory"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1279; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1279.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#939f86",
+  "focus": [
+    -2.19,
+    52.19
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-ENGLISH-TERRITORY-6E42C651-Y1279.geojson",
+  "geometrySha256": "5c9e38072272983c45a8356d0d3cd93ab748fbf0e7fa3b3e50ac33f417e18a07",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1279.geojson",
+    "sourceSha256": "839f48f61d984dd58f70f312dfe626c3988d4d4822e78d68a123fd0784e852e2",
+    "upstreamSha256": "839f48f61d984dd58f70f312dfe626c3988d4d4822e78d68a123fd0784e852e2",
+    "featureIds": [
+      106
+    ],
+    "components": null,
+    "year": 1279,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1279.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [
+    "England"
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "English territory",
+      "ABBREVN": "English territory",
+      "SUBJECTO": "England",
+      "BORDERPRECISION": 1,
+      "PARTOF": "England"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

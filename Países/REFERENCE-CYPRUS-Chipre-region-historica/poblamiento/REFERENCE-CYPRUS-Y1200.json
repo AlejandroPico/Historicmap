@@ -1,0 +1,73 @@
+{
+  "key": "REFERENCE-CYPRUS-Y1200",
+  "contextKey": "REFERENCE-CYPRUS",
+  "ownerKey": "REFERENCE-CYPRUS",
+  "name": "Chipre · región histórica",
+  "originalNames": [
+    "Cyprus"
+  ],
+  "kind": "cultural-region",
+  "region": "Europa y Mediterráneo",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia de continuidad y diversidad regional posterior a 1200. El contorno procede de la instantánea indicada; no acredita límites invariables, una sola cultura ni autoridad política uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1200; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    33.300967249377024,
+    35.09160002346697
+  ],
+  "phases": [
+    {
+      "start": 1201,
+      "end": 1278,
+      "label": "Chipre · región histórica",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-CYPRUS-Y1200.geojson",
+  "geometrySha256": "50143d88cc2f88eec2dad2b71edf44b46de0b735b9faae6e20af89fa27b0f8f1",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1200.geojson",
+    "sourceSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "upstreamSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "featureIds": [
+      0
+    ],
+    "components": null,
+    "year": 1200,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Cyprus",
+      "ABBREVN": "Cyprus",
+      "INFO_UR": null,
+      "SUBJECTO": "Cyprus",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Cyprus"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

@@ -1,0 +1,92 @@
+{
+  "key": "CULTURE-HAWAII-Y1300",
+  "contextKey": "CULTURE-HAWAII",
+  "ownerKey": "CULTURE-HAWAII",
+  "name": "Comunidades de Hawái · poblamiento polinesio",
+  "originalNames": [
+    "Polynesians"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía · Hawái",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia insular de poblamiento polinesio. Se separan Hawái y Rapa Nui: el nombre original genérico no permite atribuir ambos archipiélagos a la misma entidad, ni representa toda la Polinesia o un reino unificado.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1300; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1300.geojson"
+    },
+    {
+      "title": "Kirch et al. · redes y evolución política de Hawái; no Estado polinesio único",
+      "url": "https://www.pnas.org/content/pnas/109/4/1056.full.pdf"
+    },
+    {
+      "title": "Athens, Rieth yDye2014 · datación bayesiana del poblamiento deHawái",
+      "url": "https://doi.org/10.7183/0002-7316.79.1.144"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a49786",
+  "focus": [
+    -156,
+    20
+  ],
+  "phases": [
+    {
+      "start": 1300,
+      "end": 1399,
+      "label": "Comunidades de Hawái · poblamiento polinesio",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-HAWAII-Y1300.geojson",
+  "geometrySha256": "f944a0a02762bf4a73fe22c5a1a02f416e4c23cd29e6eec01d5a0d3dfbf5392e",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1300.geojson",
+    "sourceSha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+    "upstreamSha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+    "featureIds": [
+      23,
+      235
+    ],
+    "components": [
+      0,
+      1,
+      2
+    ],
+    "year": 1300,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1300.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Polynesians",
+      "ABBREVN": "Polynesians",
+      "SUBJECTO": "Polynesians",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Polynesians"
+    },
+    {
+      "NAME": "Polynesians",
+      "ABBREVN": "Polynesians",
+      "SUBJECTO": "Polynesians",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Polynesians"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

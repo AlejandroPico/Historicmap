@@ -1,0 +1,82 @@
+{
+  "key": "CULTURE-AUSTRALIA-Y1530",
+  "contextKey": "CULTURE-AUSTRALIA",
+  "ownerKey": "CULTURE-AUSTRALIA",
+  "name": "Pueblos aborígenes de Australia",
+  "originalNames": [
+    "Australian aboriginal hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Pueblos indígenas diversos y de larga continuidad, con formas propias de organización, conocimiento y uso del territorio. La región amplia de la compilación no es una nación única ni permite reconstruir fronteras locales.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "Área tradicional de datación local pendiente, incluida como contexto de poblamiento. NO acredita que esta comunidad ocupara exactamente este contorno en el año consultado. La fecha de la compilación no fecha sus fuentes; los traslados y cambios locales siguen pendientes.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1530; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson"
+    },
+    {
+      "title": "National Museum of Australia · historia profunda de Australia",
+      "url": "https://aws-digital-classroom.nma.gov.au/learning-modules/deep-time-history-australia?view_mode=student"
+    },
+    {
+      "title": "AIATSIS · diversidad, agrupaciones y límites generales no fijos",
+      "url": "https://aiatsis.gov.au/explore/map-indigenous-australia"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a49786",
+  "focus": [
+    133.2643041939571,
+    -25.048010267060377
+  ],
+  "phases": [
+    {
+      "start": 1530,
+      "end": 1599,
+      "label": "Pueblos aborígenes de Australia",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-AUSTRALIA-Y1530.geojson",
+  "geometrySha256": "87066bc84b8bbbe627c47f2a32a7771f35d0b6654be64bac35a3a30c29e1d0c9",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1530.geojson",
+    "sourceSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "upstreamSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "featureIds": [
+      394
+    ],
+    "components": null,
+    "year": 1530,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Australian aboriginal hunter-gatherers",
+      "ABBREVN": "Australian aboriginal hunter-gatherers",
+      "wikipedia": null,
+      "SUBJECTO": "Australian aboriginal hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Australian aboriginal hunter-gatherers"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "traditional-area-undated",
+  "continuityNote": "Referencia tradicional de cronología local pendiente; conservarla como contexto no implica continuidad exacta del mismo contorno durante todo el intervalo.",
+  "displayPriority": 0
+}

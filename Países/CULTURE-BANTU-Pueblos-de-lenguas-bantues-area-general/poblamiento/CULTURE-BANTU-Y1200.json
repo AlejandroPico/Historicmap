@@ -1,0 +1,83 @@
+{
+  "key": "CULTURE-BANTU-Y1200",
+  "contextKey": "CULTURE-BANTU",
+  "ownerKey": "CULTURE-BANTU",
+  "name": "Pueblos de lenguas bantúes · área general",
+  "originalNames": [
+    "Bantu peoples"
+  ],
+  "kind": "cultural-region",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Pueblos de lenguas bantúes diversos, con agricultura, pastoreo, metalurgia y redes de intercambio. Los poderes de Kongo, Luba, Lunda y otros no equivalen a una sola tribu o imperio bantú. Contactos con grupos khoe/san no implican sustitución uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1200; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson"
+    },
+    {
+      "title": "Met · África oriental y meridional 500–1000",
+      "url": "https://www.metmuseum.org/de/toah/ht/06/afa.html"
+    },
+    {
+      "title": "Nature Communications · diversidad y contactos de poblaciones de lenguas bantúes",
+      "url": "https://www.nature.com/articles/s41467-021-22207-y"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    24.373957485926347,
+    -6.1554070654607935
+  ],
+  "phases": [
+    {
+      "start": 1201,
+      "end": 1278,
+      "label": "Pueblos de lenguas bantúes · área general",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-BANTU-Y1200.geojson",
+  "geometrySha256": "9ae7234d4abe6aff00627fdf95b7e91652accfdc4444417fd829ef9294a4fe7f",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1200.geojson",
+    "sourceSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "upstreamSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "featureIds": [
+      160
+    ],
+    "components": null,
+    "year": 1200,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [
+    "Bantou"
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Bantu peoples",
+      "ABBREVN": "Bantu peoples",
+      "INFO_UR": null,
+      "SUBJECTO": "Bantu peoples",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Bantou"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 0
+}

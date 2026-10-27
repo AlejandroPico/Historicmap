@@ -1,0 +1,70 @@
+{
+  "key": "REFERENCE-NAVARRE-Y1492",
+  "contextKey": "REFERENCE-NAVARRE",
+  "ownerKey": "NAVARRE-KINGDOM",
+  "name": "Navarre · referencia",
+  "originalNames": [
+    "Navarre"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://riubu.ubu.es/bitstream/10259/6273/1/0211_8998_n250_p289-312.pdf"
+    }
+  ],
+  "politicalKeys": [
+    "NAVARRE-KINGDOM"
+  ],
+  "color": "#8f9f83",
+  "focus": [
+    -1.9401205605275036,
+    42.454399367754576
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-NAVARRE-Y1492.geojson",
+  "geometrySha256": "1eb5dd8390d6dbfc8c53c118bf44726eef37cdf3aa3143da249c9b72c9abf08f",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1492.geojson",
+    "sourceSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "upstreamSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "featureIds": [
+      34
+    ],
+    "components": null,
+    "year": 1492,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Navarre",
+      "ABBREVN": "Navarre",
+      "SUBJECTO": "Navarre",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Navarre"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

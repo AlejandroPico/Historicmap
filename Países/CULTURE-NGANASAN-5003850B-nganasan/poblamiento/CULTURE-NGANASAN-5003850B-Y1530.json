@@ -1,0 +1,83 @@
+{
+  "key": "CULTURE-NGANASAN-5003850B-Y1530",
+  "contextKey": "CULTURE-NGANASAN-5003850B",
+  "ownerKey": "CULTURE-NGANASAN-5003850B",
+  "name": "Nganasan",
+  "originalNames": [
+    "Nganasan"
+  ],
+  "kind": "cultural-region",
+  "region": "Siberia y Asia nororiental",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Pueblos y comunidades siberianas con formas locales de organización, intercambio y movilidad. El avance ruso y el cobro de yasak no acreditan administración uniforme ni desaparición cultural. Las denominaciones lingüísticas y coloniales de las fuentes no definen una sola etnia ni fronteras exclusivas.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1530; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson"
+    },
+    {
+      "title": "Forsyth · comunidades siberianas y diversidad lingüística",
+      "url": "https://assets.cambridge.org/97805214/77710/excerpt/9780521477710_excerpt.pdf"
+    },
+    {
+      "title": "Bakhrushin · documentos y límites de la tributación yasak en el siglo XVII",
+      "url": "https://publications.hse.ru/en/articles/353380075"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a68e78",
+  "focus": [
+    108.77,
+    75.12
+  ],
+  "phases": [
+    {
+      "start": 1530,
+      "end": 1599,
+      "label": "Nganasan",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-NGANASAN-5003850B-Y1530.geojson",
+  "geometrySha256": "1644daf944c0dd003ef450cc9094c0381ecdaff535b3913fbf8d2203fd59d8b0",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1530.geojson",
+    "sourceSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "upstreamSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "featureIds": [
+      453
+    ],
+    "components": null,
+    "year": 1530,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [
+    "Samoyedic people"
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Nganasan",
+      "ABBREVN": "Nganasan",
+      "wikipedia": null,
+      "SUBJECTO": "Nganasan",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Samoyedic people"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

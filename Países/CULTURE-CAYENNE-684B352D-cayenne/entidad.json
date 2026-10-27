@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-CAYENNE-684B352D",
+  "name": "Cayenne",
+  "qid": "",
+  "aliases": [
+    "Cayenne"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CAYENNE-684B352D-Y1650:0",
+      "contextKey": "CULTURE-CAYENNE-684B352D",
+      "start": 1650,
+      "end": 1699,
+      "sourceYear": 1650,
+      "canonicalFile": "Países/CULTURE-CAYENNE-684B352D-cayenne/poblamiento/CULTURE-CAYENNE-684B352D-Y1650.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CAYENNE-684B352D-Y1700:0",
+      "contextKey": "CULTURE-CAYENNE-684B352D",
+      "start": 1700,
+      "end": 1700,
+      "sourceYear": 1700,
+      "canonicalFile": "Países/CULTURE-CAYENNE-684B352D-cayenne/poblamiento/CULTURE-CAYENNE-684B352D-Y1700.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

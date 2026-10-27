@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-HITCHITI-910FDF90",
+  "name": "Hitchiti",
+  "qid": "",
+  "aliases": [
+    "Hitchiti"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-HITCHITI-910FDF90-Y1530:0",
+      "contextKey": "CULTURE-HITCHITI-910FDF90",
+      "start": 1530,
+      "end": 1599,
+      "sourceYear": 1530,
+      "canonicalFile": "Países/CULTURE-HITCHITI-910FDF90-hitchiti/poblamiento/CULTURE-HITCHITI-910FDF90-Y1530.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-HITCHITI-910FDF90-Y1600:0",
+      "contextKey": "CULTURE-HITCHITI-910FDF90",
+      "start": 1600,
+      "end": 1700,
+      "sourceYear": 1600,
+      "canonicalFile": "Países/CULTURE-HITCHITI-910FDF90-hitchiti/poblamiento/CULTURE-HITCHITI-910FDF90-Y1600.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

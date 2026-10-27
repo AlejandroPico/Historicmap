@@ -1,0 +1,74 @@
+{
+  "key": "REFERENCE-BENIN-C94B56E0-Y1492",
+  "contextKey": "REFERENCE-BENIN-C94B56E0",
+  "ownerKey": "BEN",
+  "name": "Benin",
+  "originalNames": [
+    "Benin"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia regional de la compilación, con sociedades, comunidades y redes internas diversas. El nombre no acredita un Estado unitario ni ocupación uniforme y exclusiva de la superficie.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "BEN"
+  ],
+  "color": "#a19a72",
+  "focus": [
+    5.63,
+    5.97
+  ],
+  "phases": [
+    {
+      "start": 1492,
+      "end": 1499,
+      "label": "Benin",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-BENIN-C94B56E0-Y1492.geojson",
+  "geometrySha256": "91e5a40098c46358e7b2c386a9ef1e399743b3b55ebd306e0ea764b135371c23",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1492.geojson",
+    "sourceSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "upstreamSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "featureIds": [
+      46
+    ],
+    "components": null,
+    "year": 1492,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Benin",
+      "ABBREVN": "Benin",
+      "SUBJECTO": "Benin",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Benin"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

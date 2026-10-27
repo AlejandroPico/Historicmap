@@ -1,0 +1,64 @@
+{
+  "key": "REFERENCE-BURMESE-KINGDOMS-6E4F00A8-Y1500",
+  "contextKey": "REFERENCE-BURMESE-KINGDOMS-6E4F00A8",
+  "ownerKey": "territorio-6e4f00a8e82b",
+  "name": "Burmese kingdoms",
+  "originalNames": [
+    "Burmese kingdoms"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1500; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#ab9d72",
+  "focus": [
+    95.15,
+    22.55
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-BURMESE-KINGDOMS-6E4F00A8-Y1500.geojson",
+  "geometrySha256": "345e1111754b7d69c41219351246908398fdbcb1c7ae5c9f089ddf58257f20c5",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1500.geojson",
+    "sourceSha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+    "upstreamSha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+    "featureIds": [
+      78
+    ],
+    "components": null,
+    "year": 1500,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1500.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Burmese kingdoms",
+      "ABBREVN": "Burmese kingdoms",
+      "SUBJECTO": "Burmese kingdoms",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Burmese kingdoms"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

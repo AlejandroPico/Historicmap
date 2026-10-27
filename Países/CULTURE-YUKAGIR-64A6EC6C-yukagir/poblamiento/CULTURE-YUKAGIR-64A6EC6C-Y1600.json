@@ -1,0 +1,81 @@
+{
+  "key": "CULTURE-YUKAGIR-64A6EC6C-Y1600",
+  "contextKey": "CULTURE-YUKAGIR-64A6EC6C",
+  "ownerKey": "CULTURE-YUKAGIR-64A6EC6C",
+  "name": "Yukagir",
+  "originalNames": [
+    "Yukagir"
+  ],
+  "kind": "cultural-region",
+  "region": "Siberia y Asia nororiental",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Pueblos y comunidades siberianas con formas locales de organización, intercambio y movilidad. El avance ruso y el cobro de yasak no acreditan administración uniforme ni desaparición cultural. Las denominaciones lingüísticas y coloniales de las fuentes no definen una sola etnia ni fronteras exclusivas.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1600; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson"
+    },
+    {
+      "title": "Forsyth · comunidades siberianas y diversidad lingüística",
+      "url": "https://assets.cambridge.org/97805214/77710/excerpt/9780521477710_excerpt.pdf"
+    },
+    {
+      "title": "Bakhrushin · documentos y límites de la tributación yasak en el siglo XVII",
+      "url": "https://publications.hse.ru/en/articles/353380075"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#939f86",
+  "focus": [
+    158.77,
+    69.95
+  ],
+  "phases": [
+    {
+      "start": 1600,
+      "end": 1700,
+      "label": "Yukagir",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-YUKAGIR-64A6EC6C-Y1600.geojson",
+  "geometrySha256": "98c04f751e9cd9c603f4483b45e790517a265f2b4b5ef3bd3d7e242bba63518c",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1600.geojson",
+    "sourceSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "upstreamSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "featureIds": [
+      834
+    ],
+    "components": null,
+    "year": 1600,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Yukagir",
+      "ABBREVN": "Yukagir",
+      "wikipedia": null,
+      "SUBJECTO": "Yukagir",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Yukagir"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

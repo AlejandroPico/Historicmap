@@ -1,0 +1,82 @@
+{
+  "key": "REFERENCE-BYZANTINE-EMPIRE-Y1400",
+  "contextKey": "REFERENCE-BYZANTINE-EMPIRE",
+  "ownerKey": "BYZANTINE",
+  "name": "Byzantine Empire · referencia",
+  "originalNames": [
+    "Byzantine Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1400; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1400.geojson"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Byzantine_conquest_of_Bulgaria"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Zoe_Porphyrogenita"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://doi.org/10.1093/obo/9780199791279-0063"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://www.metmuseum.org/de/essays/the-crusades-1095-1291"
+    }
+  ],
+  "politicalKeys": [
+    "BYZANTINE"
+  ],
+  "color": "#8f9f83",
+  "focus": [
+    25.78658297966267,
+    41.17541655178728
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-BYZANTINE-EMPIRE-Y1400.geojson",
+  "geometrySha256": "77b3b961d9a9000cb9e3f97f90bde61a2104992b9bb2363727ab79f189bab2a8",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1400.geojson",
+    "sourceSha256": "c6b0efcb42d9520a1a724f981373296e84ea2c0a0527de7a06f8f9e2465eb6ec",
+    "upstreamSha256": "c6b0efcb42d9520a1a724f981373296e84ea2c0a0527de7a06f8f9e2465eb6ec",
+    "featureIds": [
+      128
+    ],
+    "components": null,
+    "year": 1400,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1400.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Byzantine Empire",
+      "ABBREVN": "Byzantine E.",
+      "SUBJECTO": "Byzantine Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Byzantine Empire"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

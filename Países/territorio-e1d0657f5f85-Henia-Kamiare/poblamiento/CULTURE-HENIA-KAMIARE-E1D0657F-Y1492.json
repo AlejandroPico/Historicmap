@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-HENIA-KAMIARE-E1D0657F-Y1492",
+  "contextKey": "CULTURE-HENIA-KAMIARE-E1D0657F",
+  "ownerKey": "territorio-e1d0657f5f85",
+  "name": "Henîa-Kamiare",
+  "originalNames": [
+    "Henîa-Kamiare"
+  ],
+  "kind": "cultural-region",
+  "region": "Caribe y Sudamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia regional de la compilación, con sociedades, comunidades y redes internas diversas. El nombre no acredita un Estado unitario ni ocupación uniforme y exclusiva de la superficie.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "Área tradicional de datación local pendiente, incluida como contexto de poblamiento. NO acredita que esta comunidad ocupara exactamente este contorno en el año consultado. La fecha de la compilación no fecha sus fuentes; los traslados y cambios locales siguen pendientes.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+    },
+    {
+      "title": "Native Land Digital · alcance de áreas tradicionales y solapamientos; no atlas anual",
+      "url": "https://native-land.ca/about/how-it-works"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#81908d",
+  "focus": [
+    -64.26,
+    -32.18
+  ],
+  "phases": [
+    {
+      "start": 1492,
+      "end": 1700,
+      "label": "Henîa-Kamiare",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-HENIA-KAMIARE-E1D0657F-Y1492.geojson",
+  "geometrySha256": "bf4b044841024f6173186000b1ca4301a3eb12767b481880869b3ea5ee9b4694",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1492.geojson",
+    "sourceSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "upstreamSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "featureIds": [
+      649
+    ],
+    "components": null,
+    "year": 1492,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Henîa-Kamiare",
+      "ABBREVN": "Henîa-Kamiare",
+      "SUBJECTO": "Henîa-Kamiare",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Henîa-Kamiare"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "traditional-area-undated",
+  "continuityNote": "Referencia tradicional de cronología local pendiente; conservarla como contexto no implica continuidad exacta del mismo contorno durante todo el intervalo.",
+  "displayPriority": 1
+}

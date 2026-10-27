@@ -1,6 +1,34 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.28.0 · integración cultural y revisión900–1200
+## Encargo vigente · 0.29.0 · revisión conjunta 1200–1700
+
+El propietario agrupa los puntos 3 y 4 en una entrega. Conservar los registros 900–1200 y la cartografía política; ampliar pueblos, regiones y referencias con fases, fuentes y grados de incertidumbre. Las geometrías tradicionales sin datación local no son fronteras soberanas de un año concreto. Subir tras validar localmente, sin esperar Actions/Pages.
+
+- [x] Inventario de las diez instantáneas intermedias: 4.000 pares nombre/instantánea con decisiones, procedencia, coordenadas y originales dentro de Países.
+- [x] Fases regionales y continuidad 1201–1700. Correcciones focales de Funj, Songhay, Aotearoa, comanches, etiquetas seminolas y otras referencias anacrónicas; las áreas tradicionales sin cronología local siguen señaladas como tales.
+- [x] Varias geometrías documentadas de una misma región, identidad de selección estable, fases sin solapamiento y carpetas canónicas conservadas.
+- [x] Contrastes focales de América, África, Siberia, Asia y Oceanía; pendientes de contraste local dentro de cada dossier. No se certifican fronteras culturales anuales exactas.
+- [x] Disponibilidad y conservación, pruebas de selección y persistencia y revisión visual en mapa/globo/móvil. Corregido bloqueo real al cambiar de año sin un polígono político visible.
+- [x] Versión, documentación, catálogo, integridad y entrega preparada para origin/main. Confirmar bytes preparados y coincidencia remota al cerrar; no sondear el despliegue.
+
+Siguiente alcance pendiente: 1700–1905 y revisión global. Las carencias independientes de la entrega 0.28 continúan registradas.
+
+Resultado acumulado: 4.139 dossiers; 3.365 adoptados, 703 remitidos a la base política y 71 exclusiones. 3.366 fases (3.225 culturales/geográficas y 141 referencias políticas), no países independientes. 2.304 fases tienen datación tradicional local pendiente: esa carencia permanece abierta y visible, no se convierte en una validación independiente por estar representada.
+
+Conservación: 79 recursos anteriores, 127 referencias previas y 258 archivos canónicos previos idénticos. 4.010 originales nuevos contrastados con las coordenadas de fuente; preparación repetida con cuatro recursos idénticos. Catálogo: 3.692 carpetas y 1.204 identidades políticas. Integridad: 81 datos, 11 recursos tipográficos y 8.108 medios acreditados.
+
+Comprobaciones: 232 pruebas/54 archivos correctas, más 14 comprobaciones focales finales tras las correcciones. Cuatro recorridos finales de navegador correctos (atlas general, continuidad sámi, América/Australia y Aotearoa/Siberia móvil); los cuatro previos de coexistencia también pasan. Capturas revisadas, tipos y compilación correctos. El primer recorrido móvil detectó el bloqueo de selección descrito arriba; corregido y repetido con resultado favorable. Catálogo protegido contra reescrituras idénticas y bloqueos transitorios de Windows/OneDrive.
+
+Preparación de Git comprobada: 8.200 recursos de ejecución, 4.139 originales regionales y 253 originales visuales previos coinciden con sus huellas. Confirmar main con origin/main al cerrar el envío; la publicación la verifica el propietario.
+
+### Pendientes de investigación tras 0.29
+
+- [ ] Cronología local independiente de las áreas tradicionales y revisión de desplazamientos; no extrapolar una atribución del mapa editorial a todos los años de su ventana.
+- [ ] Pueblos y subdivisiones omitidos por las compilaciones, contactos y superficies con fecha propia. Las notas concretas permanecen en cada carpeta de Países.
+- [ ] Ampliación posterior a 1700 hasta 1905 y comprobación global final, por nuevo encargo.
+- [ ] Confirmación de publicación por el propietario, sin esperar Actions/Pages.
+
+## Entrega anterior · 0.28.0 · integración cultural y revisión900–1200
 
 El propietario autoriza los encargos1 y2: preparación general y revisión900–1200. El horizonte posterior1200–1905 se mantiene pendiente. Entrega con resultados visuales, selección simultánea de poderes políticos y regiones culturales, prioridad política y fechas/fuentes/incertidumbre explícitas. No confundir gris con despoblación. Comprobar localmente y subir sin esperarActions/Pages.
 

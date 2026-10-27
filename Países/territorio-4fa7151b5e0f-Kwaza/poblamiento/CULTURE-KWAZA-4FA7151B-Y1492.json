@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-KWAZA-4FA7151B-Y1492",
+  "contextKey": "CULTURE-KWAZA-4FA7151B",
+  "ownerKey": "territorio-4fa7151b5e0f",
+  "name": "Kwazá",
+  "originalNames": [
+    "Kwazá"
+  ],
+  "kind": "cultural-region",
+  "region": "Caribe y Sudamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia regional de la compilación, con sociedades, comunidades y redes internas diversas. El nombre no acredita un Estado unitario ni ocupación uniforme y exclusiva de la superficie.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "Área tradicional de datación local pendiente, incluida como contexto de poblamiento. NO acredita que esta comunidad ocupara exactamente este contorno en el año consultado. La fecha de la compilación no fecha sus fuentes; los traslados y cambios locales siguen pendientes.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+    },
+    {
+      "title": "Native Land Digital · alcance de áreas tradicionales y solapamientos; no atlas anual",
+      "url": "https://native-land.ca/about/how-it-works"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a19a72",
+  "focus": [
+    -60.94,
+    -12.57
+  ],
+  "phases": [
+    {
+      "start": 1492,
+      "end": 1700,
+      "label": "Kwazá",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-KWAZA-4FA7151B-Y1492.geojson",
+  "geometrySha256": "0b6150728b4fa8f01e5a1eaf2b6ecf97ca9702cc9964bd1fbbebdc2c21e78be6",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1492.geojson",
+    "sourceSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "upstreamSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "featureIds": [
+      1172
+    ],
+    "components": null,
+    "year": 1492,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Kwazá",
+      "ABBREVN": "Kwazá",
+      "SUBJECTO": "Kwazá",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Kwazá"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "traditional-area-undated",
+  "continuityNote": "Referencia tradicional de cronología local pendiente; conservarla como contexto no implica continuidad exacta del mismo contorno durante todo el intervalo.",
+  "displayPriority": 1
+}

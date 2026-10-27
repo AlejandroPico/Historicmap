@@ -1,0 +1,81 @@
+{
+  "key": "CULTURE-TUNGUSIC-TRIBES-B8D571B7-Y1200",
+  "contextKey": "CULTURE-TUNGUSIC-TRIBES-B8D571B7",
+  "ownerKey": "CULTURE-TUNGUSIC-TRIBES-B8D571B7",
+  "name": "Tungusic Tribes",
+  "originalNames": [
+    "Tungusic Tribes"
+  ],
+  "kind": "cultural-region",
+  "region": "Siberia y Asia nororiental",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Pueblos y comunidades siberianas con formas locales de organización, intercambio y movilidad. El avance ruso y el cobro de yasak no acreditan administración uniforme ni desaparición cultural. Las denominaciones lingüísticas y coloniales de las fuentes no definen una sola etnia ni fronteras exclusivas.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1200; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson"
+    },
+    {
+      "title": "Forsyth · comunidades siberianas y diversidad lingüística",
+      "url": "https://assets.cambridge.org/97805214/77710/excerpt/9780521477710_excerpt.pdf"
+    },
+    {
+      "title": "Bakhrushin · documentos y límites de la tributación yasak en el siglo XVII",
+      "url": "https://publications.hse.ru/en/articles/353380075"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#b19b82",
+  "focus": [
+    137.87,
+    54.97
+  ],
+  "phases": [
+    {
+      "start": 1201,
+      "end": 1700,
+      "label": "Tungusic Tribes",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-TUNGUSIC-TRIBES-B8D571B7-Y1200.geojson",
+  "geometrySha256": "6e76a9bc0ec195d989f3308a71ef5544e37241a6fb99f5052bf911fb415d2ac0",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1200.geojson",
+    "sourceSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "upstreamSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "featureIds": [
+      215
+    ],
+    "components": null,
+    "year": 1200,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Tungusic Tribes",
+      "ABBREVN": "Tungusic Tribes",
+      "INFO_UR": null,
+      "SUBJECTO": "Tungusic Tribes",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Tungusic Tribes"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

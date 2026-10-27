@@ -1,0 +1,80 @@
+{
+  "key": "CULTURE-SIBERIANS-DB531AE0-Y1300",
+  "contextKey": "CULTURE-SIBERIANS-DB531AE0",
+  "ownerKey": "territorio-db531ae003b2",
+  "name": "Siberians",
+  "originalNames": [
+    "Siberians"
+  ],
+  "kind": "cultural-region",
+  "region": "Siberia y Asia nororiental",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Pueblos y comunidades siberianas con formas locales de organización, intercambio y movilidad. El avance ruso y el cobro de yasak no acreditan administración uniforme ni desaparición cultural. Las denominaciones lingüísticas y coloniales de las fuentes no definen una sola etnia ni fronteras exclusivas.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1300; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1300.geojson"
+    },
+    {
+      "title": "Forsyth · comunidades siberianas y diversidad lingüística",
+      "url": "https://assets.cambridge.org/97805214/77710/excerpt/9780521477710_excerpt.pdf"
+    },
+    {
+      "title": "Bakhrushin · documentos y límites de la tributación yasak en el siglo XVII",
+      "url": "https://publications.hse.ru/en/articles/353380075"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#b19b82",
+  "focus": [
+    119.61,
+    66.86
+  ],
+  "phases": [
+    {
+      "start": 1300,
+      "end": 1399,
+      "label": "Siberians",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-SIBERIANS-DB531AE0-Y1300.geojson",
+  "geometrySha256": "fdbbc6f9516d80780e8e244b48b7d1f26c3a5e1ee31dceb334d92068fa97340a",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1300.geojson",
+    "sourceSha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+    "upstreamSha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+    "featureIds": [
+      84
+    ],
+    "components": null,
+    "year": 1300,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1300.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Siberians",
+      "ABBREVN": "Siberians",
+      "SUBJECTO": "Siberians",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Siberians"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

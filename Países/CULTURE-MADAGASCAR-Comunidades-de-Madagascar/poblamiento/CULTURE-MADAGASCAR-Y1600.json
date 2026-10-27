@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-MADAGASCAR-Y1600",
+  "contextKey": "CULTURE-MADAGASCAR",
+  "ownerKey": "CULTURE-MADAGASCAR",
+  "name": "Comunidades de Madagascar",
+  "originalNames": [
+    "Madagascar"
+  ],
+  "kind": "cultural-region",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia de continuidad y diversidad regional posterior a 1200. El contorno procede de la instantánea indicada; no acredita límites invariables, una sola cultura ni autoridad política uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1600; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson"
+    },
+    {
+      "title": "Met · África oriental y meridional 500–1000",
+      "url": "https://www.metmuseum.org/de/toah/ht/06/afa.html"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#ae957f",
+  "focus": [
+    46.897301706774485,
+    -18.96322671298323
+  ],
+  "phases": [
+    {
+      "start": 1600,
+      "end": 1649,
+      "label": "Comunidades de Madagascar",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-MADAGASCAR-Y1600.geojson",
+  "geometrySha256": "6d89a0b3bc316e4d181b7f32cdf61f0a44e7d47db8a1c7279d55c5cb712158c1",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1600.geojson",
+    "sourceSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "upstreamSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "featureIds": [
+      4
+    ],
+    "components": null,
+    "year": 1600,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Madagascar",
+      "ABBREVN": "Madagascar",
+      "wikipedia": null,
+      "SUBJECTO": "Madagascar",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Madagascar"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

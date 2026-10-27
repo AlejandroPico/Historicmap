@@ -1,0 +1,76 @@
+{
+  "key": "CULTURE-AMAZON-Y1700",
+  "contextKey": "CULTURE-AMAZON",
+  "ownerKey": "CULTURE-AMAZON",
+  "name": "Pueblos y sociedades amazónicas",
+  "originalNames": [
+    "Amazon hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Caribe y Sudamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Amazonia albergó sociedades y economías diversas, incluidas redes agrarias y asentamientos monumentales Casarabe documentados 500–1400. No se equipara toda la cuenca con una sola cultura, ni exclusivamente con caza y recolección.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1700; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson"
+    },
+    {
+      "title": "Prümers et al.2022 · urbanismo agrario Casarabe 500–1400",
+      "url": "https://www.nature.com/articles/s41586-022-04780-4"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#9b9a76",
+  "focus": [
+    -58.21954908910578,
+    -5.270830402840955
+  ],
+  "phases": [
+    {
+      "start": 1700,
+      "end": 1700,
+      "label": "Pueblos y sociedades amazónicas",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-AMAZON-Y1700.geojson",
+  "geometrySha256": "0d2b115cb2b43783155ece443a9b33ea07d7e24200133a732421fa57e869a0f9",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1700.geojson",
+    "sourceSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "upstreamSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "featureIds": [
+      343
+    ],
+    "components": null,
+    "year": 1700,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Amazon hunter-gatherers",
+      "ABBREVN": "Amazon hunter-gatherers",
+      "SUBJECTO": "Amazon hunter-gatherers",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Amazon hunter-gatherers"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 0
+}

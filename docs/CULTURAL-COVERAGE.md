@@ -1,8 +1,8 @@
-# Pueblos, regiones y coexistencia política · 0.28.0
+# Pueblos, regiones y coexistencia política · 0.29.0
 
-Encargos autorizados: preparación general y revisión 900–1200. Las revisiones 1200–1500, 1500–1700, 1700–1905 y la revisión global posterior siguen pendientes. Esta entrega recupera referencias que el cambio de fuente dejaba de mostrar; no certifica una reconstrucción étnica mundial exacta para cada año.
+La arquitectura de coexistencia y la revisión inicial 900–1200 se amplían en 0.29 con los puntos 3 y 4, agrupados en **1200–1700**. Se conservan los 127 registros anteriores. [Fuentes, fases y límites de la ampliación](CULTURAL-RESEARCH-1200-1700.md), [inventario conjunto](CULTURAL-REVIEW-900-1700.json) y [disponibilidad 1201–1700](CULTURAL-AVAILABILITY-1201-1700.json). La revisión 1700–1905 y la comprobación global continúan pendientes. Las áreas tradicionales sin cronología local se identifican explícitamente; no son fronteras observadas del año consultado.
 
-## Qué se recupera
+## Base conservada de la primera revisión
 
 El mapa político anual se conserva. Un conjunto separado aporta pueblos, regiones de poblamiento, tradiciones arqueológicas y referencias territoriales de la compilación [Historical Basemaps](https://github.com/aourednik/historical-basemaps), fijada en el commit registrado en los manifiestos. Su mapa de 1000 contiene 264 geometrías: 132 tienen nombre y 132 carecen de él. Hay 129 nombres distintos, por repeticiones de algunos ámbitos.
 
@@ -14,7 +14,7 @@ Los campos originales NAME, ABBREVN, INFO_UR, SUBJECTO, PARTOF y BORDERPRECISION
 
 Se separan la fecha consultada, la fecha del mapa de referencia, la ventana de consulta y la cronología histórica documentada. Las extensiones de 1000 se presentan como referencias regionales aproximadas dentro de 900–1200, con recortes temporales explícitos donde la historia del nombre lo exige. No se presentan como contornos observados anualmente ni se interpolan fronteras.
 
-El final 1200 es un límite de revisión, no una extinción. Fuera del horizonte la ficha se conserva y explica que falta cobertura. La auditoría [CULTURAL-REVIEW-900-1200.json](CULTURAL-REVIEW-900-1200.json) inventaría también los nombres de las instantáneas 500 y 1492: sus geometrías no se trasladan automáticamente a siglos diferentes. [La disponibilidad anual](CULTURAL-AVAILABILITY-900-1200.json) comprueba las 301 selecciones del periodo; sus cifras no son porcentajes de superficie ni censos de población.
+La primera revisión terminaba en 1200 y ahora continúa hasta 1700. El horizonte es un límite documental, no una extinción. Fuera de él la ficha se conserva y explica que falta cobertura. La auditoría [CULTURAL-REVIEW-900-1200.json](CULTURAL-REVIEW-900-1200.json) inventaría también los nombres de las instantáneas 500 y 1492: sus geometrías no se trasladan automáticamente a siglos diferentes. [La disponibilidad anual](CULTURAL-AVAILABILITY-900-1200.json) comprueba las 301 selecciones del periodo; sus cifras no son porcentajes de superficie ni censos de población.
 
 Las coordenadas adoptadas se conservan, sin simplificación editorial. La selección explícita del componente de Hokkaidō impide adelantar la expansión ainu hacia Sajalín y Kuriles. Las geometrías originales y su licencia GPL-3.0 permanecen separadas de Cliopatria y CShapes. Los campos editoriales no convierten ese material en fronteras soberanas determinadas.
 
@@ -44,4 +44,4 @@ La ficha regional tiene estructura propia: tipo, interpretación, fechas, incert
 
 Entradas canónicas en `Países/<entidad>/poblamiento/*.json` y sus originales GeoJSON. `prepare-cultural-regions.py` compila los dos recursos públicos y la auditoría sin consultas remotas. El índice deriva sus ventanas de los dossiers; no se codifica un siglo fijo como cobertura general. Regenerar el catálogo de Países después de cambiar los datos, no editar sus vistas generadas.
 
-Pendientes: más bibliografía independiente, subdivisiones locales, culturas omitidas por las compilaciones, contornos de fecha propia y fases de contacto/expansión. Los espacios grises que siguen sin documentación no se atribuyen a un pueblo por suposición. Mantener las revisiones posteriores como encargos separados y proteger los nombres ya incorporados al cambiar de fuente.
+Pendientes: más bibliografía independiente, subdivisiones locales, culturas omitidas por las compilaciones, contornos de fecha propia y fases de contacto/expansión. Los espacios grises que siguen sin documentación no se atribuyen a un pueblo por suposición. La ampliación conjunta 1200–1700 ya tiene fases propias. Mantener las revisiones posteriores a 1700 como encargos separados y proteger los nombres ya incorporados al cambiar de fuente.

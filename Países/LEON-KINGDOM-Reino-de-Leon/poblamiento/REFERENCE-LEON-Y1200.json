@@ -1,0 +1,83 @@
+{
+  "key": "REFERENCE-LEON-Y1200",
+  "contextKey": "REFERENCE-LEON",
+  "ownerKey": "LEON-KINGDOM",
+  "name": "León · referencia",
+  "originalNames": [
+    "León"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1200; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/County_of_Portugal"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://riubu.ubu.es/bitstream/10259/6273/1/0211_8998_n250_p289-312.pdf"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Sagrajas"
+    },
+    {
+      "title": "Referencia documental · siglo X · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_of_Le%C3%B3n"
+    }
+  ],
+  "politicalKeys": [
+    "LEON-KINGDOM"
+  ],
+  "color": "#ae957f",
+  "focus": [
+    -6.857562094420865,
+    42.136518515342225
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-LEON-Y1200.geojson",
+  "geometrySha256": "e6a6153ff4bda394aa1be8bf24260c3448ff38cb21933eba07cd73f54c9ff6f7",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1200.geojson",
+    "sourceSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "upstreamSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "featureIds": [
+      272
+    ],
+    "components": null,
+    "year": 1200,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "León",
+      "ABBREVN": "León",
+      "INFO_UR": null,
+      "SUBJECTO": "León",
+      "BORDERPRECISION": 1,
+      "PARTOF": "León"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

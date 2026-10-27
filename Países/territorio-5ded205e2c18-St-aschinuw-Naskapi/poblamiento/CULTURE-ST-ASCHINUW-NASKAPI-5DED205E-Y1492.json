@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-ST-ASCHINUW-NASKAPI-5DED205E-Y1492",
+  "contextKey": "CULTURE-ST-ASCHINUW-NASKAPI-5DED205E",
+  "ownerKey": "territorio-5ded205e2c18",
+  "name": "ᒋᑦ ᐊᔅᒋᓄᐤ St'aschinuw (Naskapi)",
+  "originalNames": [
+    "ᒋᑦ ᐊᔅᒋᓄᐤ St'aschinuw (Naskapi)"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia regional de la compilación, con sociedades, comunidades y redes internas diversas. El nombre no acredita un Estado unitario ni ocupación uniforme y exclusiva de la superficie.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "Área tradicional de datación local pendiente, incluida como contexto de poblamiento. NO acredita que esta comunidad ocupara exactamente este contorno en el año consultado. La fecha de la compilación no fecha sus fuentes; los traslados y cambios locales siguen pendientes.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+    },
+    {
+      "title": "Native Land Digital · alcance de áreas tradicionales y solapamientos; no atlas anual",
+      "url": "https://native-land.ca/about/how-it-works"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a29b86",
+  "focus": [
+    -67.77,
+    55.35
+  ],
+  "phases": [
+    {
+      "start": 1492,
+      "end": 1700,
+      "label": "ᒋᑦ ᐊᔅᒋᓄᐤ St'aschinuw (Naskapi)",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-ST-ASCHINUW-NASKAPI-5DED205E-Y1492.geojson",
+  "geometrySha256": "259519662f2d1b7bc259d18e66f09e6c3ab2b8d78bc268fd47aac4dc54bcdc09",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1492.geojson",
+    "sourceSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "upstreamSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "featureIds": [
+      512
+    ],
+    "components": null,
+    "year": 1492,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "ᒋᑦ ᐊᔅᒋᓄᐤ St'aschinuw (Naskapi)",
+      "ABBREVN": "ᒋᑦ ᐊᔅᒋᓄᐤ St'aschinuw (Naskapi)",
+      "SUBJECTO": "ᒋᑦ ᐊᔅᒋᓄᐤ St'aschinuw (Naskapi)",
+      "BORDERPRECISION": 1,
+      "PARTOF": "ᒋᑦ ᐊᔅᒋᓄᐤ St'aschinuw (Naskapi)"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "traditional-area-undated",
+  "continuityNote": "Referencia tradicional de cronología local pendiente; conservarla como contexto no implica continuidad exacta del mismo contorno durante todo el intervalo.",
+  "displayPriority": 1
+}

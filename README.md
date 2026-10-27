@@ -2,13 +2,13 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.28.0** · 27 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.29.0** · 27 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
-Revisión vigente: **pueblos, regiones y cobertura 900–1200**, junto a la cartografía política anual desde 900. [Método, fuentes y límites](docs/CULTURAL-COVERAGE.md), [inventario nominal](docs/CULTURAL-REVIEW-900-1200.json) y [continuidad](tareas.md). La recuperación regional distingue pueblos, áreas culturales y referencias políticas; no convierte un mapa de 1000 en fronteras anuales exactas.
+Revisión vigente: **pueblos y regiones de 1200–1700**, junto a la cobertura anterior 900–1200 y la cartografía política anual. [Método y límites](docs/CULTURAL-COVERAGE.md), [investigación conjunta](docs/CULTURAL-RESEARCH-1200-1700.md), [inventario nominal](docs/CULTURAL-REVIEW-900-1700.json) y [continuidad](tareas.md). Las áreas tradicionales con cronología local pendiente se distinguen de las fronteras políticas fechadas.
 
 ## Empezar
 

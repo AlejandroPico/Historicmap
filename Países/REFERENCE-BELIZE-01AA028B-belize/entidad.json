@@ -1,0 +1,39 @@
+{
+  "key": "REFERENCE-BELIZE-01AA028B",
+  "name": "Belize",
+  "qid": "",
+  "aliases": [
+    "Belize"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalReviews": [
+    {
+      "key": "REFERENCE-BELIZE-01AA028B-Y1650",
+      "ownerKey": "REFERENCE-BELIZE-01AA028B",
+      "name": "Belize",
+      "file": "Países/REFERENCE-BELIZE-01AA028B-belize/poblamiento/REFERENCE-BELIZE-01AA028B-Y1650.json",
+      "decision": "political-base"
+    },
+    {
+      "key": "REFERENCE-BELIZE-01AA028B-Y1700",
+      "ownerKey": "REFERENCE-BELIZE-01AA028B",
+      "name": "Belize",
+      "file": "Países/REFERENCE-BELIZE-01AA028B-belize/poblamiento/REFERENCE-BELIZE-01AA028B-Y1700.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

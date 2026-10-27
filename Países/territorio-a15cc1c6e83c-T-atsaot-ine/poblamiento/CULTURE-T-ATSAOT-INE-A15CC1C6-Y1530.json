@@ -1,0 +1,73 @@
+{
+  "key": "CULTURE-T-ATSAOT-INE-A15CC1C6-Y1530",
+  "contextKey": "CULTURE-T-ATSAOT-INE-A15CC1C6",
+  "ownerKey": "territorio-a15cc1c6e83c",
+  "name": "T'atsaot'ine",
+  "originalNames": [
+    "T'atsaot'ine"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia regional de la compilación, con sociedades, comunidades y redes internas diversas. El nombre no acredita un Estado unitario ni ocupación uniforme y exclusiva de la superficie.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1530; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#81908d",
+  "focus": [
+    -74.38,
+    68.48
+  ],
+  "phases": [
+    {
+      "start": 1530,
+      "end": 1599,
+      "label": "T'atsaot'ine",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-T-ATSAOT-INE-A15CC1C6-Y1530.geojson",
+  "geometrySha256": "dd853375de85ec7b2b5e26bd3089097b142189c022c2315ff4aa1627035575db",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1530.geojson",
+    "sourceSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "upstreamSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "featureIds": [
+      116
+    ],
+    "components": null,
+    "year": 1530,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "T'atsaot'ine",
+      "ABBREVN": "Yellowknives",
+      "wikipedia": null,
+      "SUBJECTO": "T'atsaot'ine",
+      "BORDERPRECISION": 1,
+      "PARTOF": "T'atsaot'ine"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

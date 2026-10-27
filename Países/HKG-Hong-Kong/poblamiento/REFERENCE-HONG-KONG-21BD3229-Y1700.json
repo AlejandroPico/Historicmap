@@ -1,0 +1,66 @@
+{
+  "key": "REFERENCE-HONG-KONG-21BD3229-Y1700",
+  "contextKey": "REFERENCE-HONG-KONG-21BD3229",
+  "ownerKey": "HKG",
+  "name": "Hong Kong",
+  "originalNames": [
+    "Hong Kong"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "excluded",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Etiqueta ausente, desfasada o anacrónica respecto de esta instantánea. No se prolonga un poder extinto ni se anticipa una administración posterior; la población se trata separadamente del Estado.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1700; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HKG"
+  ],
+  "color": "#b19b82",
+  "focus": [
+    114.15,
+    22.36
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-HONG-KONG-21BD3229-Y1700.geojson",
+  "geometrySha256": "840c1dcf7332337f7fdb9d0b75125553b4a25b74e949e93bd5e455711397d1c8",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1700.geojson",
+    "sourceSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "upstreamSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "featureIds": [
+      781
+    ],
+    "components": null,
+    "year": 1700,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Hong Kong",
+      "ABBREVN": "Hong Kong",
+      "SUBJECTO": "Hong Kong",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Hong Kong"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-MAORIS-2565AD9A-Y1600",
+  "contextKey": "CULTURE-MAORI-2565AD9A",
+  "ownerKey": "territorio-2565ad9ab61a",
+  "name": "Comunidades de Aotearoa · tradiciones maoríes",
+  "originalNames": [
+    "Maoris"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "El poblamiento polinesio de Aotearoa se sitúa aproximadamente entre 1250 y 1300. Se distinguen múltiples iwi y hapū, no una nación con fronteras internas uniformes ni un reino único. La denominación colectiva maorí es posterior al contacto europeo.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1600; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson"
+    },
+    {
+      "title": "Archives New Zealand · llegada polinesia 1250–1300 y diversidad de iwi/hapū",
+      "url": "https://www.archives.govt.nz/discover-our-stories/the-treaty-of-waitangi/the-treaty-of-waitangi-and-how-it-happened"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a68e78",
+  "focus": [
+    174.97,
+    -37.32
+  ],
+  "phases": [
+    {
+      "start": 1600,
+      "end": 1649,
+      "label": "Comunidades de Aotearoa · tradiciones maoríes",
+      "dateBasis": "Consulta desde c.1250: llegada polinesia estimada entre1250 y1300; no una fecha cierta ni ocupación simultánea de toda la superficie.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-MAORIS-2565AD9A-Y1600.geojson",
+  "geometrySha256": "71e79b90b0a0556df8f7204d1cb725a3286f7adc0ea5965f3da738fdd4b41473",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1600.geojson",
+    "sourceSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "upstreamSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "featureIds": [
+      5
+    ],
+    "components": null,
+    "year": 1600,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Maoris",
+      "ABBREVN": "Maoris",
+      "wikipedia": null,
+      "SUBJECTO": "Maoris",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Maoris"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

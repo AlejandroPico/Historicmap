@@ -1,0 +1,68 @@
+{
+  "key": "REFERENCE-SCOTLAND-Y1492",
+  "contextKey": "REFERENCE-SCOTLAND",
+  "ownerKey": "SCOTLAND",
+  "name": "Scotland · referencia",
+  "originalNames": [
+    "Scotland"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "SCOTLAND"
+  ],
+  "color": "#ae957f",
+  "focus": [
+    -3.406053878476399,
+    55.98799856777849
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-SCOTLAND-Y1492.geojson",
+  "geometrySha256": "d2bfb9b03327182f6d796a4a080202e4b0acd56024100873f5a8d4a24feb2f0d",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1492.geojson",
+    "sourceSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "upstreamSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "featureIds": [
+      7
+    ],
+    "components": null,
+    "year": 1492,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [
+    "Scottland"
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Scotland",
+      "ABBREVN": "Scotland",
+      "SUBJECTO": "Scotland",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Scottland"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

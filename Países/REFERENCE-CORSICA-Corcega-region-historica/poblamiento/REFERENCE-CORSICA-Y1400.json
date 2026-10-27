@@ -1,0 +1,72 @@
+{
+  "key": "REFERENCE-CORSICA-Y1400",
+  "contextKey": "REFERENCE-CORSICA",
+  "ownerKey": "REFERENCE-CORSICA",
+  "name": "Córcega · región histórica",
+  "originalNames": [
+    "Corsica"
+  ],
+  "kind": "cultural-region",
+  "region": "Europa y Mediterráneo",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia de continuidad y diversidad regional posterior a 1200. El contorno procede de la instantánea indicada; no acredita límites invariables, una sola cultura ni autoridad política uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1400; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1400.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#929e87",
+  "focus": [
+    8.993578943712961,
+    42.169004045683764
+  ],
+  "phases": [
+    {
+      "start": 1400,
+      "end": 1700,
+      "label": "Córcega · región histórica",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-CORSICA-Y1400.geojson",
+  "geometrySha256": "b1d0ee492d8d467464d52c6ae21e5969df4d4e6e1428b7e76c95ec2f1b14b4b3",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1400.geojson",
+    "sourceSha256": "c6b0efcb42d9520a1a724f981373296e84ea2c0a0527de7a06f8f9e2465eb6ec",
+    "upstreamSha256": "c6b0efcb42d9520a1a724f981373296e84ea2c0a0527de7a06f8f9e2465eb6ec",
+    "featureIds": [
+      71
+    ],
+    "components": null,
+    "year": 1400,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1400.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Corsica",
+      "ABBREVN": "Corsica",
+      "SUBJECTO": "Corsica",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Corsica"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

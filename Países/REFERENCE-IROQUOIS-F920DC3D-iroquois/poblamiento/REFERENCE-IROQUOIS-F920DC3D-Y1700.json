@@ -1,0 +1,78 @@
+{
+  "key": "REFERENCE-IROQUOIS-F920DC3D-Y1700",
+  "contextKey": "REFERENCE-IROQUOIS-F920DC3D",
+  "ownerKey": "REFERENCE-IROQUOIS-F920DC3D",
+  "name": "Confederación Haudenosaunee · Cinco Naciones",
+  "originalNames": [
+    "Iroquois"
+  ],
+  "kind": "polity-reference",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La confederación reúne cinco naciones con consejos propios y un consejo común. La fecha fundacional es incierta; la ventana no fija su nacimiento. No se anticipa la incorporación tuscarora del siglo XVIII.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1700; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson"
+    },
+    {
+      "title": "Haudenosaunee Confederacy · cinco naciones, consejos y fecha fundacional incierta",
+      "url": "https://www.haudenosauneeconfederacy.com/who-we-are/"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q68518"
+  ],
+  "color": "#939f86",
+  "focus": [
+    -76.22,
+    43.6
+  ],
+  "phases": [
+    {
+      "start": 1700,
+      "end": 1700,
+      "label": "Confederación Haudenosaunee · Cinco Naciones",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-IROQUOIS-F920DC3D-Y1700.geojson",
+  "geometrySha256": "24f516dd3fa64fd1454b9a504d0c5a2ba6bf6686889e00f47554ede57cd2cd85",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1700.geojson",
+    "sourceSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "upstreamSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "featureIds": [
+      246
+    ],
+    "components": null,
+    "year": 1700,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Iroquois",
+      "ABBREVN": "Iroquois",
+      "SUBJECTO": "Iroquois",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Iroquois"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

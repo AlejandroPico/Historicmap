@@ -22,6 +22,8 @@ Preparación sin acceso remoto: `npm run regions:prepare`, seguida de `npm run e
 
 Una ventana de consulta no acredita la extensión exacta en cada uno de sus años. Mantener separados fecha del mapa, cronología documentada y límite de revisión. Las referencias políticas redundantes se suprimen visualmente cuando existe su identidad en la base anual; los pueblos y regiones culturales permanecen consultables bajo ella. Metodología y pendientes en [CULTURAL-COVERAGE.md](../docs/CULTURAL-COVERAGE.md).
 
+Desde 0.29, una misma entidad puede tener varios dossiers espaciales: `key` identifica la entrada y `contextKey` mantiene la ficha entre fases. Los intervalos de un mismo contexto no se solapan. Conservar las carpetas canónicas aunque cambie el título de una fase; el catálogo reutiliza su ubicación. No fusionar nombres sólo por eliminar acentos o por parecido gráfico. `temporalMode: traditional-area-undated` identifica áreas tradicionales sin cronología local suficiente y exige explicarlo en la ficha. Las agrupaciones amplias pueden declarar relaciones con subdivisiones: éstas conservan sus nombres y el área de fondo sigue seleccionable.
+
 ## Añadir un himno o documento
 
 1. Coloca un archivo autorizado dentro de `archivos/` en la carpeta correspondiente. Se admiten mp3, ogg, wav, m4a y pdf.

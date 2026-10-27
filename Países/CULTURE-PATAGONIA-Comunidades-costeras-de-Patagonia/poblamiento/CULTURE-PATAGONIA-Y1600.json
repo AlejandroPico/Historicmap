@@ -1,0 +1,73 @@
+{
+  "key": "CULTURE-PATAGONIA-Y1600",
+  "contextKey": "CULTURE-PATAGONIA",
+  "ownerKey": "CULTURE-PATAGONIA",
+  "name": "Comunidades costeras de Patagonia",
+  "originalNames": [
+    "Patagonian shellfish and marine mammal hunters"
+  ],
+  "kind": "cultural-region",
+  "region": "Caribe y Sudamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia de continuidad y diversidad regional posterior a 1200. El contorno procede de la instantánea indicada; no acredita límites invariables, una sola cultura ni autoridad política uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1600; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a99772",
+  "focus": [
+    -67.99036881019329,
+    -53.81826440219221
+  ],
+  "phases": [
+    {
+      "start": 1600,
+      "end": 1649,
+      "label": "Comunidades costeras de Patagonia",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-PATAGONIA-Y1600.geojson",
+  "geometrySha256": "e38dd13a45c28e424b72f4caea2b01bec39292cc14c4af33a024ff4dc83d52d3",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1600.geojson",
+    "sourceSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "upstreamSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "featureIds": [
+      401
+    ],
+    "components": null,
+    "year": 1600,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Patagonian shellfish and marine mammal hunters",
+      "ABBREVN": "Patagonian shellfish and marine mammal hunters",
+      "wikipedia": null,
+      "SUBJECTO": "Patagonian shellfish and marine mammal hunters",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Patagonian shellfish and marine mammal hunters"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

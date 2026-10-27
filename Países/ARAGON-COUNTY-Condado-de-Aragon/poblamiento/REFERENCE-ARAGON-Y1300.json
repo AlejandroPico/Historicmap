@@ -1,0 +1,76 @@
+{
+  "key": "REFERENCE-ARAGON-Y1300",
+  "contextKey": "REFERENCE-ARAGON",
+  "ownerKey": "ARAGON-COUNTY",
+  "name": "Aragón · referencia",
+  "originalNames": [
+    "Aragón"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1300; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1300.geojson"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Crown_of_Aragon"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://riubu.ubu.es/bitstream/10259/6273/1/0211_8998_n250_p289-312.pdf"
+    }
+  ],
+  "politicalKeys": [
+    "ARAGON",
+    "ARAGON-COUNTY",
+    "ARAGON-KINGDOM"
+  ],
+  "color": "#969886",
+  "focus": [
+    0.18105772866477343,
+    42.3399248683083
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-ARAGON-Y1300.geojson",
+  "geometrySha256": "a7c2bc9075af9fc768d25a9979d0f72c245aadbc0625a6ab3dd72f75ccff67bd",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1300.geojson",
+    "sourceSha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+    "upstreamSha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+    "featureIds": [
+      233
+    ],
+    "components": null,
+    "year": 1300,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1300.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Aragón",
+      "ABBREVN": "Aragón",
+      "SUBJECTO": "Aragón",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Aragón"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

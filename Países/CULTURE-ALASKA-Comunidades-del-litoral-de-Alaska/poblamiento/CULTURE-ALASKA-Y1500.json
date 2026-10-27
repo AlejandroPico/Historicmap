@@ -1,0 +1,80 @@
+{
+  "key": "CULTURE-ALASKA-Y1500",
+  "contextKey": "CULTURE-ALASKA",
+  "ownerKey": "CULTURE-ALASKA",
+  "name": "Comunidades del litoral de Alaska",
+  "originalNames": [
+    "Thule"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Poblamiento ártico con cambios de tradiciones Dorset y Thule/Inuit y variación regional. Las áreas amplias de la fuente no prueban reemplazo instantáneo. La etiqueta Thule de algunos polígonos occidentales se conserva sólo como referencia del litoral, no como mapa de toda la expansión oriental.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1500; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1500.geojson"
+    },
+    {
+      "title": "University of Alaska Museum · Thule, Birnirk y culturas precursoras",
+      "url": "https://www.uaf.edu/museum/collections/archaeo/online-exhibits/paleo-eskimo-cultures/"
+    },
+    {
+      "title": "Parks Canada · Dorset y Thule; variación de ocupación y cronologías del Ártico",
+      "url": "https://parks.canada.ca/pn-np/nu/auyuittuq/culture"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    -153.1206633988075,
+    59.895779734529754
+  ],
+  "phases": [
+    {
+      "start": 1500,
+      "end": 1700,
+      "label": "Comunidades del litoral de Alaska",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-ALASKA-Y1500.geojson",
+  "geometrySha256": "752609c19e0221aaa180069b9be0c3838f53c8e45f3e4d6cb059baa99fa963c6",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1500.geojson",
+    "sourceSha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+    "upstreamSha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+    "featureIds": [
+      266
+    ],
+    "components": null,
+    "year": 1500,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1500.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Thule",
+      "ABBREVN": "Thule",
+      "SUBJECTO": "Thule",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Thule"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

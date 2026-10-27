@@ -1,0 +1,75 @@
+{
+  "key": "REFERENCE-YEMEN-Y1200",
+  "contextKey": "REFERENCE-YEMEN",
+  "ownerKey": "YEM",
+  "name": "Yemen · comunidades y poderes regionales",
+  "originalNames": [
+    "Yemen"
+  ],
+  "kind": "cultural-region",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia de continuidad y diversidad regional posterior a 1200. El contorno procede de la instantánea indicada; no acredita límites invariables, una sola cultura ni autoridad política uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1200; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "YEM"
+  ],
+  "color": "#a49786",
+  "focus": [
+    45.82141114670887,
+    15.153612175983287
+  ],
+  "phases": [
+    {
+      "start": 1201,
+      "end": 1278,
+      "label": "Yemen · comunidades y poderes regionales",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-YEMEN-Y1200.geojson",
+  "geometrySha256": "00588133ff5f195328bb41bd9f2e17c62f7d610004e976285e140cfcc95ccf19",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1200.geojson",
+    "sourceSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "upstreamSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "featureIds": [
+      35
+    ],
+    "components": null,
+    "year": 1200,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Yemen",
+      "ABBREVN": "Yemen",
+      "INFO_UR": null,
+      "SUBJECTO": "Yemen",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Yemen"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

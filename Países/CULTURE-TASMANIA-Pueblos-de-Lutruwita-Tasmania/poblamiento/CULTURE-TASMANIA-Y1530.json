@@ -1,0 +1,85 @@
+{
+  "key": "CULTURE-TASMANIA-Y1530",
+  "contextKey": "CULTURE-TASMANIA",
+  "ownerKey": "CULTURE-TASMANIA",
+  "name": "Pueblos de Lutruwita / Tasmania",
+  "originalNames": [
+    "Tasmanian hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia de continuidad y diversidad regional posterior a 1200. El contorno procede de la instantánea indicada; no acredita límites invariables, una sola cultura ni autoridad política uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "Área tradicional de datación local pendiente, incluida como contexto de poblamiento. NO acredita que esta comunidad ocupara exactamente este contorno en el año consultado. La fecha de la compilación no fecha sus fuentes; los traslados y cambios locales siguen pendientes.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1530; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson"
+    },
+    {
+      "title": "National Museum of Australia · continuidad y diversidad indígena",
+      "url": "https://www.nma.gov.au/defining-moments/resources/separation-of-tasmania"
+    },
+    {
+      "title": "AIATSIS · diversidad, agrupaciones y límites generales no fijos",
+      "url": "https://aiatsis.gov.au/explore/map-indigenous-australia"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    146.50996688316607,
+    -42.28228608493147
+  ],
+  "phases": [
+    {
+      "start": 1530,
+      "end": 1599,
+      "label": "Pueblos de Lutruwita / Tasmania",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-TASMANIA-Y1530.geojson",
+  "geometrySha256": "ce5fde10b4538e1c1a592bd7083c6454f01e025870a2d173dddd416ffc22642c",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1530.geojson",
+    "sourceSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "upstreamSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "featureIds": [
+      395
+    ],
+    "components": null,
+    "year": 1530,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Tasmanian hunter-gatherers",
+      "ABBREVN": "Tasmanian hunter-gatherers",
+      "wikipedia": null,
+      "SUBJECTO": "Tasmanian hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Tasmanian hunter-gatherers"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "traditional-area-undated",
+  "continuityNote": "Referencia tradicional de cronología local pendiente; conservarla como contexto no implica continuidad exacta del mismo contorno durante todo el intervalo.",
+  "displayPriority": 1,
+  "parentContextKeys": [
+    "CULTURE-AUSTRALIA"
+  ]
+}

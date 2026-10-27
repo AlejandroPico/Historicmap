@@ -1,0 +1,72 @@
+{
+  "key": "CULTURE-KASHMIR-AND-LADAKH-63A26F42-Y1400",
+  "contextKey": "CULTURE-KASHMIR-AND-LADAKH-63A26F42",
+  "ownerKey": "CULTURE-KASHMIR-AND-LADAKH-63A26F42",
+  "name": "Kashmir and Ladakh",
+  "originalNames": [
+    "Kashmir and Ladakh"
+  ],
+  "kind": "cultural-region",
+  "region": "Asia e Índico",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia regional de la compilación, con sociedades, comunidades y redes internas diversas. El nombre no acredita un Estado unitario ni ocupación uniforme y exclusiva de la superficie.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1400; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1400.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#939f86",
+  "focus": [
+    77.58,
+    33.61
+  ],
+  "phases": [
+    {
+      "start": 1400,
+      "end": 1700,
+      "label": "Kashmir and Ladakh",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-KASHMIR-AND-LADAKH-63A26F42-Y1400.geojson",
+  "geometrySha256": "772704b1af63e2884003f3240cf065fdb66bc72c1010518a5d96846814790bd3",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1400.geojson",
+    "sourceSha256": "c6b0efcb42d9520a1a724f981373296e84ea2c0a0527de7a06f8f9e2465eb6ec",
+    "upstreamSha256": "c6b0efcb42d9520a1a724f981373296e84ea2c0a0527de7a06f8f9e2465eb6ec",
+    "featureIds": [
+      65
+    ],
+    "components": null,
+    "year": 1400,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1400.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Kashmir and Ladakh",
+      "ABBREVN": "Kash./Lad.",
+      "SUBJECTO": "Kashmir and Ladakh",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Kashmir and Ladakh"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

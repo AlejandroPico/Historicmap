@@ -1,12 +1,20 @@
 /** Human-readable entity inventory; geometry and licensed media stay in their original collections. */
-import {readFileSync,writeFileSync,mkdirSync,existsSync,readdirSync,unlinkSync,rmdirSync} from 'node:fs';
+import {readFileSync,writeFileSync as writeFileRawSync,mkdirSync,existsSync,readdirSync,unlinkSync,rmdirSync} from 'node:fs';
 import {resolve,dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),dir=resolve(root,'Países');
+function writeFileSync(path,content){
+ // Avoid rewriting thousands of identical files in synced Windows folders.
+ for(let attempt=0;attempt<4;attempt++)try{if(existsSync(path)&&readFileSync(path,'utf8')===content)return;writeFileRawSync(path,content);return;}catch(error){if(attempt===3||!['EBUSY','EPERM','EACCES','UNKNOWN'].includes(error.code))throw error;Atomics.wait(new Int32Array(new SharedArrayBuffer(4)),0,0,50*(attempt+1));}
+}
 const read=f=>JSON.parse(readFileSync(resolve(root,'public/data',f),'utf8'));
 const identities=read('identities.json'),profiles=read('profiles.json'),manifest=read('manifest.json'),portraitSeries=read('portrait-series.json');
 const entities=new Map(),qids=new Map(),names=new Map();
+// Entity-owned inputs keep their folder even when a later phase changes its label.
+const canonicalFolders=new Map();
+if(existsSync(resolve(dir,'indice.json')))for(const e of JSON.parse(readFileSync(resolve(dir,'indice.json'),'utf8')).entities)canonicalFolders.set(e.key,e.folder);
+function retainFolder(key,file){const parts=String(file).split('/');if(parts[0]!=='Países'||!parts[1]||parts[1]==='..'||parts[1].includes('\\'))throw Error('Invalid canonical folder '+file);if(!canonicalFolders.has(key))canonicalFolders.set(key,parts[1]);}
 const norm=s=>String(s).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().trim();
 function add(key,name,qid=''){
  if(!entities.has(key))entities.set(key,{key,name,qid,aliases:new Set([name]),records:[]});
@@ -26,10 +34,11 @@ function record(p,file,recordId){
 }
 if(manifest.entries.some(e=>e.file==='cultural-regions.geojson'))for(const f of read('cultural-regions.geojson').features){
  const p=f.properties,key=p.ownerKey,e=add(key,p.name);
+ retainFolder(key,p.canonicalFile);
  e.culturalRecords??=[];e.culturalRecords.push({file:'cultural-regions.geojson',recordId:f.id,contextKey:p.contextKey,start:p.start,end:p.end,sourceYear:p.sourceYear,canonicalFile:p.canonicalFile});
  if(p.kind==='cultural-region')for(const name of p.originalNames){e.aliases.add(name);names.set(norm(name),key);}
 }
-if(manifest.entries.some(e=>e.file==='cultural-index.json'))for(const r of read('cultural-index.json').excluded??[]){const e=add(r.ownerKey,r.name);e.culturalReviews??=[];e.culturalReviews.push(r);}
+if(manifest.entries.some(e=>e.file==='cultural-index.json'))for(const r of read('cultural-index.json').excluded??[]){const e=add(r.ownerKey,r.name);retainFolder(r.ownerKey,r.file);e.culturalReviews??=[];e.culturalReviews.push(r);}
 for(const g of read('history.topojson').objects.countries.geometries)record(g.properties,'history.topojson',g.properties.fid);
 for(const entry of manifest.entries.filter(e=>/^(early-modern-900|early-modern-1000|early-modern-1100|early-modern-1200|early-modern-1300|early-modern-1400|early-modern-1500|early-modern-1600|early-modern-1700|early-modern|historical-control|historical-1880-control|historical-1880-supplements|pacific-references|ukraine-control-2022|central-europe-1939|spanish-civil-war|recent-control|historical-supplements|countries|world_.*)\.geojson$/.test(e.file))){
  const d=read(entry.file);for(const [i,f] of d.features.entries())record(f.properties,entry.file,f.id??i);
@@ -38,7 +47,7 @@ if(manifest.entries.some(e=>e.file==='wartime-partitions.json'))for(const [year,
 mkdirSync(dir,{recursive:true});const index=[];
 for(const e of [...entities.values()].sort((a,b)=>a.key.localeCompare(b.key))){
  const slug=e.name.normalize('NFD').replace(/\p{Diacritic}/gu,'').replace(/[^a-zA-Z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,65)||'entidad';
- const folder=e.key+'-'+slug,path=resolve(dir,folder);mkdirSync(path,{recursive:true});
+ const folder=canonicalFolders.get(e.key)||e.key+'-'+slug,path=resolve(dir,folder);mkdirSync(path,{recursive:true});
  const c=e.identity,flags=c?.flags??[],leaders=c?.leaders??[];
  const output={key:e.key,name:e.name,qid:e.qid,aliases:[...e.aliases].sort(),generatedBy:'scripts/prepare-country-catalog.mjs',
   scope:'Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.',

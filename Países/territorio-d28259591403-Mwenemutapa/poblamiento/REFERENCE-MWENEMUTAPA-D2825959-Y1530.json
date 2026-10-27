@@ -1,0 +1,77 @@
+{
+  "key": "REFERENCE-MWENEMUTAPA-D2825959-Y1530",
+  "contextKey": "REFERENCE-MWENEMUTAPA-D2825959",
+  "ownerKey": "territorio-d28259591403",
+  "name": "Mwenemutapa",
+  "originalNames": [
+    "Mwenemutapa"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Comunidades, centros y poderes de la tradición zimbabuense con cronologías parcialmente superpuestas. Khami y Gran Zimbabue no son una simple sucesión por abandono total; la evidencia arqueológica permite ocupación posterior de Gran Zimbabue. La superficie no acredita una sola administración continua.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1530; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson"
+    },
+    {
+      "title": "Chirikure et al.2017 · coexistencia y cronologías de Gran Zimbabue y Khami",
+      "url": "https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/no-big-brother-here-heterarchy-shona-political-succession-and-the-relationship-between-great-zimbabwe-and-khami-southern-africa/E42F9CD1AF7AB8A23D37AFFB75A9C058"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#929676",
+  "focus": [
+    32.61,
+    -19.95
+  ],
+  "phases": [
+    {
+      "start": 1530,
+      "end": 1599,
+      "label": "Mwenemutapa",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-MWENEMUTAPA-D2825959-Y1530.geojson",
+  "geometrySha256": "238e989a4e06e0a84344f3eac22973376258b9e09d7c73118cf7ad6556394557",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1530.geojson",
+    "sourceSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "upstreamSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "featureIds": [
+      44
+    ],
+    "components": null,
+    "year": 1530,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Mwenemutapa",
+      "ABBREVN": "Mwenemutapa",
+      "wikipedia": null,
+      "SUBJECTO": "Mwenemutapa",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Mwenemutapa"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

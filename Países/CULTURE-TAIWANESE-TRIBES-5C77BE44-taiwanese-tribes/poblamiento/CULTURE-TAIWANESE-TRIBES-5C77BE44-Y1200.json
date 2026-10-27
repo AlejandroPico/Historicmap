@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-TAIWANESE-TRIBES-5C77BE44-Y1200",
+  "contextKey": "CULTURE-TAIWANESE-TRIBES-5C77BE44",
+  "ownerKey": "CULTURE-TAIWANESE-TRIBES-5C77BE44",
+  "name": "Taiwanese Tribes",
+  "originalNames": [
+    "Taiwanese Tribes"
+  ],
+  "kind": "cultural-region",
+  "region": "Asia e Índico",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Comunidades indígenas de Taiwán, con sistemas locales y relaciones cambiantes con poderes neerlandeses, españoles, Zheng y Qing. Los diarios de Zeelandia permiten distinguir contactos e instituciones; no acreditan control colonial homogéneo de toda la isla.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1200; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson"
+    },
+    {
+      "title": "Huygens/Leiden · diarios de Zeelandia1629–1662 y comunidades locales",
+      "url": "https://www.huygens.knaw.nl/en/resources/de-dagregisters-van-het-kasteel-zeelandia-taiwan-1629-1662-2/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a19a72",
+  "focus": [
+    120.9,
+    23.72
+  ],
+  "phases": [
+    {
+      "start": 1201,
+      "end": 1700,
+      "label": "Taiwanese Tribes",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-TAIWANESE-TRIBES-5C77BE44-Y1200.geojson",
+  "geometrySha256": "cd33c7563bb9b266dbe2424e0acdc8fe61bf374a8d59a9a299ad02513d389683",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1200.geojson",
+    "sourceSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "upstreamSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "featureIds": [
+      191
+    ],
+    "components": null,
+    "year": 1200,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Taiwanese Tribes",
+      "ABBREVN": "Taiwanese Tribes",
+      "INFO_UR": null,
+      "SUBJECTO": "Taiwanese Tribes",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Taiwanese Tribes"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

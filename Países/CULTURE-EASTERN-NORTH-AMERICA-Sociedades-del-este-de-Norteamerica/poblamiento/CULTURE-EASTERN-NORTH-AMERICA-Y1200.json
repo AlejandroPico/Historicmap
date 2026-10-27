@@ -1,0 +1,85 @@
+{
+  "key": "CULTURE-EASTERN-NORTH-AMERICA-Y1200",
+  "contextKey": "CULTURE-EASTERN-NORTH-AMERICA",
+  "ownerKey": "CULTURE-EASTERN-NORTH-AMERICA",
+  "name": "Sociedades del este de Norteamérica",
+  "originalNames": [
+    "Eastern North American hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Sociedades agrícolas, redes y asentamientos diversos del este norteamericano. La dispersión de Cahokia durante los siglos XIII–XIV no implica desaparición de las comunidades de toda la región. La etiqueta original de cazadores-recolectores es insuficiente.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1200; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson"
+    },
+    {
+      "title": "NPS · sociedades misisipianas de Ocmulgee desde c.900",
+      "url": "https://www.nps.gov/ocmu/learn/historyculture/mississippian-culture.htm"
+    },
+    {
+      "title": "NPS · Cahokia y redes misisipianas",
+      "url": "https://www.nps.gov/articles/000/cahokia-mounds-state-historic-site-world-heritage-site.htm"
+    },
+    {
+      "title": "Muñoz et al.2015 · fases y dispersión de Cahokia; no despoblación de todo el continente",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4443319/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#9b9a76",
+  "focus": [
+    -79.04847642802075,
+    38.870465203091015
+  ],
+  "phases": [
+    {
+      "start": 1201,
+      "end": 1278,
+      "label": "Sociedades del este de Norteamérica",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-EASTERN-NORTH-AMERICA-Y1200.geojson",
+  "geometrySha256": "59ba6ee6dd6b5a606209f1f496f2aadd8a2d834da8b6eae2d00ad2cd1aa4d9bc",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1200.geojson",
+    "sourceSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "upstreamSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "featureIds": [
+      131
+    ],
+    "components": null,
+    "year": 1200,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Eastern North American hunter-gatherers",
+      "ABBREVN": "Eastern North American hunter-gatherers",
+      "INFO_UR": null,
+      "SUBJECTO": "Eastern North American hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Eastern North American hunter-gatherers"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

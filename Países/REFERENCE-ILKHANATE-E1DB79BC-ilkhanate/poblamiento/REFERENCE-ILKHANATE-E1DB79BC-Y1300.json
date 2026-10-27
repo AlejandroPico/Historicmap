@@ -1,0 +1,66 @@
+{
+  "key": "REFERENCE-ILKHANATE-E1DB79BC-Y1300",
+  "contextKey": "REFERENCE-ILKHANATE-E1DB79BC",
+  "ownerKey": "REFERENCE-ILKHANATE-E1DB79BC",
+  "name": "Ilkhanate",
+  "originalNames": [
+    "Ilkhanate"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1300; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1300.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "ILKHANATE"
+  ],
+  "color": "#ab9d72",
+  "focus": [
+    51.89,
+    32.2
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-ILKHANATE-E1DB79BC-Y1300.geojson",
+  "geometrySha256": "f0fcfa5a974177eedb4a9c06bcb11537509f6bf4516cf21de908ba3ef61d6feb",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1300.geojson",
+    "sourceSha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+    "upstreamSha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+    "featureIds": [
+      98
+    ],
+    "components": null,
+    "year": 1300,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1300.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Ilkhanate",
+      "ABBREVN": "Ilkhanate",
+      "SUBJECTO": "Ilkhanate",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Ilkhanate"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

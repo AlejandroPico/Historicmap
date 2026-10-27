@@ -1,0 +1,76 @@
+{
+  "key": "REFERENCE-SONGHAI-281EA132-Y1500",
+  "contextKey": "REFERENCE-SONGHAI-281EA132",
+  "ownerKey": "territorio-281ea1324319",
+  "name": "Songhai",
+  "originalNames": [
+    "Songhai"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "El poder imperial songhay se fragmenta tras la conquista marroquí de1591; eso no borra comunidades, redes ni poderes sucesores. La superficie de la compilación no se prolonga como un imperio unitario después de esa fecha.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1500; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1500.geojson"
+    },
+    {
+      "title": "Met · Songhay1464–1591 y continuidad cultural del Sahel",
+      "url": "https://www.metmuseum.org/ko/exhibitions/sahel-art-empire-sahara"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#929676",
+  "focus": [
+    -2.25,
+    14.5
+  ],
+  "phases": [
+    {
+      "start": 1500,
+      "end": 1529,
+      "label": "Songhai",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-SONGHAI-281EA132-Y1500.geojson",
+  "geometrySha256": "0b56a066e1a2c719f072d7ec9f6a2256854ba403bcc6799faa47be80932b3fc3",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1500.geojson",
+    "sourceSha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+    "upstreamSha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+    "featureIds": [
+      53
+    ],
+    "components": null,
+    "year": 1500,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1500.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Songhai",
+      "ABBREVN": "Songhai",
+      "SUBJECTO": "Songhai",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Songhai"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

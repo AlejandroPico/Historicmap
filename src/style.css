@@ -491,3 +491,6 @@ dialog.date-picker::backdrop{background:transparent;backdrop-filter:none}
 #selection-alternatives button[aria-pressed=true]{background:var(--soft);border-color:var(--accent)}
 #selection-alternatives button small{display:block;color:var(--muted);font-size:9px}
 .regional-legend{border-left:2px dashed var(--accent);padding-left:7px}
+
+/* Dense traditional areas can overlap: keep the fixed card header usable. */
+#selection-alternatives>div{max-height:106px;overflow:auto;scrollbar-width:none}#selection-alternatives>div::-webkit-scrollbar{display:none}

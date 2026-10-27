@@ -1,0 +1,80 @@
+{
+  "key": "CULTURE-DORSET-Y1300",
+  "contextKey": "CULTURE-DORSET",
+  "ownerKey": "CULTURE-DORSET",
+  "name": "Tradiciones Dorset · Ártico oriental",
+  "originalNames": [
+    "Dorset"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Poblamiento ártico con cambios de tradiciones Dorset y Thule/Inuit y variación regional. Las áreas amplias de la fuente no prueban reemplazo instantáneo. La etiqueta Thule de algunos polígonos occidentales se conserva sólo como referencia del litoral, no como mapa de toda la expansión oriental.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1300; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1300.geojson"
+    },
+    {
+      "title": "Parks Canada · ocupación Dorset y expansión Thule; variación regional",
+      "url": "https://parks.canada.ca/pn-np/nu/auyuittuq/culture"
+    },
+    {
+      "title": "Parks Canada · Dorset y Thule; variación de ocupación y cronologías del Ártico",
+      "url": "https://parks.canada.ca/pn-np/nu/auyuittuq/culture"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#9b9a76",
+  "focus": [
+    -100.84347128327867,
+    68.11567327239983
+  ],
+  "phases": [
+    {
+      "start": 1300,
+      "end": 1399,
+      "label": "Tradiciones Dorset · Ártico oriental",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-DORSET-Y1300.geojson",
+  "geometrySha256": "6ed48c8d4cf3c2a85eca2e7abefa13c9fe11ad808b7287a1c1dd5ad8bb4db575",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1300.geojson",
+    "sourceSha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+    "upstreamSha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+    "featureIds": [
+      117
+    ],
+    "components": null,
+    "year": 1300,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1300.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Dorset",
+      "ABBREVN": "Dorset",
+      "SUBJECTO": "Dorset",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Dorset"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

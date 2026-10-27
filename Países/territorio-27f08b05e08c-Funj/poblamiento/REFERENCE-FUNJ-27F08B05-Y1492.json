@@ -1,0 +1,76 @@
+{
+  "key": "REFERENCE-FUNJ-27F08B05-Y1492",
+  "contextKey": "REFERENCE-FUNJ-27F08B05",
+  "ownerKey": "territorio-27f08b05e08c",
+  "name": "Comunidades del Nilo medio · ámbito funj",
+  "originalNames": [
+    "Funj"
+  ],
+  "kind": "cultural-region",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La compilación usa Funj antes de la formación del sultanato de Sennar, fechado convencionalmente en1504. Esta referencia representa sólo un ámbito regional de comunidades, no un sultanato ya formado ni una frontera cierta.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+    },
+    {
+      "title": "Seshat · sultanato funj desde1504; formación estatal distinta de sus comunidades anteriores",
+      "url": "https://www.seshat-db.com/core/polity/649"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    33.11,
+    14.25
+  ],
+  "phases": [
+    {
+      "start": 1492,
+      "end": 1503,
+      "label": "Comunidades del Nilo medio · ámbito funj",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-FUNJ-27F08B05-Y1492.geojson",
+  "geometrySha256": "c9a9e2d009c18b72bd5259d0af5fcee89af3803d9cab63cfa2a8ee31759476e1",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1492.geojson",
+    "sourceSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "upstreamSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "featureIds": [
+      43
+    ],
+    "components": null,
+    "year": 1492,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Funj",
+      "ABBREVN": "Funj",
+      "SUBJECTO": "Funj",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Funj"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

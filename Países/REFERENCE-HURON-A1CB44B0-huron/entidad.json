@@ -1,0 +1,34 @@
+{
+  "key": "REFERENCE-HURON-A1CB44B0",
+  "name": "Huron",
+  "qid": "",
+  "aliases": [
+    "Huron"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-HURON-A1CB44B0-Y1500:0",
+      "contextKey": "REFERENCE-HURON-A1CB44B0",
+      "start": 1500,
+      "end": 1700,
+      "sourceYear": 1500,
+      "canonicalFile": "Países/REFERENCE-HURON-A1CB44B0-huron/poblamiento/REFERENCE-HURON-A1CB44B0-Y1500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

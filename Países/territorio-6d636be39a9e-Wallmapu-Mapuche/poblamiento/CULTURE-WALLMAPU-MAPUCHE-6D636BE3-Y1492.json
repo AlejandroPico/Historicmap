@@ -1,0 +1,81 @@
+{
+  "key": "CULTURE-WALLMAPU-MAPUCHE-6D636BE3-Y1492",
+  "contextKey": "CULTURE-WALLMAPU-MAPUCHE-6D636BE3",
+  "ownerKey": "territorio-6d636be39a9e",
+  "name": "Wallmapu (Mapuche)",
+  "originalNames": [
+    "Wallmapu (Mapuche)"
+  ],
+  "kind": "cultural-region",
+  "region": "Caribe y Sudamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Comunidades y linajes mapuches con alianzas cambiantes, resistencia e intercambios con el gobierno colonial. El parlamento de Quilín de 1641 no convierte todas las reguas en un Estado centralizado ni prueba una frontera exacta de esta superficie.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "Área tradicional de datación local pendiente, incluida como contexto de poblamiento. NO acredita que esta comunidad ocupara exactamente este contorno en el año consultado. La fecha de la compilación no fecha sus fuentes; los traslados y cambios locales siguen pendientes.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+    },
+    {
+      "title": "Native Land Digital · alcance de áreas tradicionales y solapamientos; no atlas anual",
+      "url": "https://native-land.ca/about/how-it-works"
+    },
+    {
+      "title": "Ortiz Aguilera2015 · Quilín1641, linajes y alianzas cambiantes",
+      "url": "https://www.sye.uchile.cl/index.php/CDH/article/view/36651"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a68e78",
+  "focus": [
+    -68.01,
+    -39.96
+  ],
+  "phases": [
+    {
+      "start": 1492,
+      "end": 1700,
+      "label": "Wallmapu (Mapuche)",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-WALLMAPU-MAPUCHE-6D636BE3-Y1492.geojson",
+  "geometrySha256": "e89a78bc10058b1db92cf1c2499dc2b3fe588ed61590c52aba8f26a0031cb3db",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1492.geojson",
+    "sourceSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "upstreamSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "featureIds": [
+      1240
+    ],
+    "components": null,
+    "year": 1492,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Wallmapu (Mapuche)",
+      "ABBREVN": "Wallmapu (Mapuche)",
+      "SUBJECTO": "Wallmapu (Mapuche)",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Wallmapu (Mapuche)"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "traditional-area-undated",
+  "continuityNote": "Referencia tradicional de cronología local pendiente; conservarla como contexto no implica continuidad exacta del mismo contorno durante todo el intervalo.",
+  "displayPriority": 1
+}

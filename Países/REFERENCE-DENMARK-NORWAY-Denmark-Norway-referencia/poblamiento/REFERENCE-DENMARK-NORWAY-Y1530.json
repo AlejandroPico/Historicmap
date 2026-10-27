@@ -1,0 +1,67 @@
+{
+  "key": "REFERENCE-DENMARK-NORWAY-Y1530",
+  "contextKey": "REFERENCE-DENMARK-NORWAY",
+  "ownerKey": "REFERENCE-DENMARK-NORWAY",
+  "name": "Denmark-Norway · referencia",
+  "originalNames": [
+    "Denmark-Norway"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1530; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "DENMARK-NORWAY"
+  ],
+  "color": "#929e87",
+  "focus": [
+    13.495325000000001,
+    56.327884999999995
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-DENMARK-NORWAY-Y1530.geojson",
+  "geometrySha256": "9de156e0b41d557c99e9892f0f5bbddaea1d0e2aa5ec657c656c67196cb87743",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1530.geojson",
+    "sourceSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "upstreamSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "featureIds": [
+      475
+    ],
+    "components": null,
+    "year": 1530,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Denmark-Norway",
+      "ABBREVN": "DenmarkNorwa",
+      "wikipedia": null,
+      "SUBJECTO": "Denmark-Norway",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Denmark-Norway"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

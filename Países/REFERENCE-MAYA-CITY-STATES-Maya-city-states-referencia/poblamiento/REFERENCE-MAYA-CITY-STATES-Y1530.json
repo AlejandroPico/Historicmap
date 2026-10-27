@@ -1,0 +1,69 @@
+{
+  "key": "REFERENCE-MAYA-CITY-STATES-Y1530",
+  "contextKey": "REFERENCE-MAYA-CITY-STATES",
+  "ownerKey": "REFERENCE-MAYA-CITY-STATES",
+  "name": "Maya city-states · referencia",
+  "originalNames": [
+    "Mayas"
+  ],
+  "kind": "polity-reference",
+  "region": "Norteamérica",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Ciudades, señoríos y comunidades mayas diversos, sin Estado único. La presencia colonial no elimina sus lenguas ni su poblamiento; las fases itzá del Petén difieren de las de Yucatán. El contorno general no es un frente militar continuo hasta 1697.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1530; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson"
+    },
+    {
+      "title": "Colmex · migraciones y cronología documental itzá; fases locales de conquista",
+      "url": "https://repositorio.colmex.mx/downloads/cj82k783q?locale=es"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#969886",
+  "focus": [
+    -89.5036286978886,
+    19.373312555510424
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-MAYA-CITY-STATES-Y1530.geojson",
+  "geometrySha256": "cbc206dd711947876a4be691a2e7e593f5c9df82b7f2496dae8affd410515d04",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1530.geojson",
+    "sourceSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "upstreamSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "featureIds": [
+      37
+    ],
+    "components": null,
+    "year": 1530,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Mayas",
+      "ABBREVN": "Mayas",
+      "wikipedia": null,
+      "SUBJECTO": "Mayas",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Mayas"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

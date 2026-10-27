@@ -1,0 +1,78 @@
+{
+  "key": "REFERENCE-LUNDA-FEC54660-Y1650",
+  "contextKey": "REFERENCE-LUNDA-FEC54660",
+  "ownerKey": "territorio-fec54660addb",
+  "name": "Lunda",
+  "originalNames": [
+    "Lunda"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Poderes y redes de África central, con monarquía, consejo, tributo y alianzas. La formación y expansión de Luba/Lunda corresponde a procesos de los siglos XVI–XVII; no se anticipa su máxima extensión en 1530.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1650; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1650.geojson"
+    },
+    {
+      "title": "Met · Luba y Lunda: instituciones, expansión y redes de los siglos XVI–XVII",
+      "url": "https://www.metmuseum.org/ko/essays/kingdoms-of-the-savanna-the-luba-and-lunda-empires"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q1796223"
+  ],
+  "color": "#a19a72",
+  "focus": [
+    21.32,
+    -9.03
+  ],
+  "phases": [
+    {
+      "start": 1650,
+      "end": 1699,
+      "label": "Lunda",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-LUNDA-FEC54660-Y1650.geojson",
+  "geometrySha256": "da422a456a1b760370258b90e60ad30d152c85417fac82098e68c62517e8f794",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1650.geojson",
+    "sourceSha256": "e691a3b5bab4ca7a0629daffaf8cd31731ee76ad390b19dffc1c267b139de4e2",
+    "upstreamSha256": "e691a3b5bab4ca7a0629daffaf8cd31731ee76ad390b19dffc1c267b139de4e2",
+    "featureIds": [
+      40
+    ],
+    "components": null,
+    "year": 1650,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1650.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Lunda",
+      "ABBREVN": "Lunda",
+      "SUBJECTO": "Lunda",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Lunda"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

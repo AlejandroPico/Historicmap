@@ -1,0 +1,83 @@
+{
+  "key": "REFERENCE-HOLY-ROMAN-EMPIRE-Y1700",
+  "contextKey": "REFERENCE-HOLY-ROMAN-EMPIRE",
+  "ownerKey": "HIST-Q12548",
+  "name": "Holy Roman Empire · referencia",
+  "originalNames": [
+    "Holy Roman Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1700; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson"
+    },
+    {
+      "title": "Referencia documental · siglo XIII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Interregnum_%28Holy_Roman_Empire%29"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Concordat_of_Worms"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Stem_duchy"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Investiture_Controversy"
+    }
+  ],
+  "politicalKeys": [
+    "EAST-FRANCIA",
+    "HIST-Q12548"
+  ],
+  "color": "#a69b78",
+  "focus": [
+    10.958455,
+    47.831419999999994
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-HOLY-ROMAN-EMPIRE-Y1700.geojson",
+  "geometrySha256": "3a311a4a653df27971dcfbc77f59f49b7793635a23a259b2caee94660f4698d2",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1700.geojson",
+    "sourceSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "upstreamSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "featureIds": [
+      102
+    ],
+    "components": null,
+    "year": 1700,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Holy Roman Empire",
+      "ABBREVN": "Holy Roman E",
+      "SUBJECTO": "Holy Roman Empire",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Holy Roman Empire"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

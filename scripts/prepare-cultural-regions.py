@@ -7,35 +7,45 @@ import pathlib,json,hashlib,re
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 read=lambda p:json.loads(p.read_text(encoding='utf8'))
 def main():
- features=[];seen=set();reviews=[];ranges=[]
+ features=[];seen=set();reviews=[];ranges=[];source_inventories={};active_contexts={}
  for path in sorted((ROOT/'Países').glob('*/poblamiento/*.json')):
   d=read(path);key=d['key']
   if key in seen:raise ValueError('Duplicate cultural key '+key)
-  seen.add(key);reviews.append(dict(key=key,ownerKey=d['ownerKey'],name=d['name'],kind=d['kind'],file=path.relative_to(ROOT).as_posix(),originalNames=d['originalNames'],decision=d['decision'],reviewStatus=d.get('reviewStatus'),note=d['interpretation']))
+  context=d.get('contextKey',key)
+  seen.add(key);reviews.append(dict(key=key,contextKey=context,ownerKey=d['ownerKey'],name=d['name'],kind=d['kind'],file=path.relative_to(ROOT).as_posix(),originalNames=d['originalNames'],decision=d['decision'],reviewStatus=d.get('reviewStatus'),sourceYear=d['geometryProvenance']['year'],note=d['interpretation']))
   ranges.append(d['reviewedRange'])
-  if d['decision']=='excluded':continue
+  source=d['geometryProvenance'];si=source_inventories.setdefault(source['year'],dict(year=source['year'],url=source['url'],upstreamSha256=source.get('upstreamSha256'),names={}))
+  for name in d['originalNames']:si['names'].setdefault(name,[]).append(dict(key=key,decision=d['decision'],file=path.relative_to(ROOT).as_posix()))
+  if d['decision']!='adopted-reference':continue
   if not d['references']or not d['spatialUncertainty']or not d['temporalUncertainty']:raise ValueError('Missing evidence '+key)
   if not re.fullmatch(r'[A-Z0-9-]+\.geojson',d['geometryFile']):raise ValueError('Invalid original path')
   geometry=read(path.parent/d['geometryFile']);provenance=d['geometryProvenance']
   if hashlib.sha256((path.parent/d['geometryFile']).read_bytes()).hexdigest()!=d['geometrySha256']:raise ValueError('Original checksum '+key)
   for i,phase in enumerate(d['phases']):
    if phase['start']>phase['end']or not phase['dateBasis']or phase['start']<d['reviewedRange'][0]or phase['end']>d['reviewedRange'][1]:raise ValueError('Invalid cultural phase '+key)
+   previous=active_contexts.setdefault(context,[])
+   if any(a<=phase['end']and phase['start']<=b for a,b in previous):raise ValueError('Overlapping phases for '+context)
+   previous.append((phase['start'],phase['end']))
    props={k:d[k]for k in ['key','ownerKey','name','originalNames','kind','region','interpretation','spatialUncertainty','temporalUncertainty','references','politicalKeys','color','focus','reviewStatus','pending','sourceGrouping']}
-   props.update(phase,contextKey=key,entityType=d['kind'],source=provenance['url'],sourceYear=provenance['year'],sourceFeatureIds=provenance['featureIds'],sourceLicense=provenance['license'],canonicalFile=path.relative_to(ROOT).as_posix(),code='')
+   props.update(phase,contextKey=context,entityType=d['kind'],source=provenance['url'],sourceYear=provenance['year'],sourceFeatureIds=provenance['featureIds'],sourceLicense=provenance['license'],canonicalFile=path.relative_to(ROOT).as_posix(),code='')
+   for optional in ['temporalMode','continuityNote','displayPriority','parentContextKeys']:
+    if optional in d:props[optional]=d[optional]
    props['name']=phase.get('label',d['name']);features.append(dict(type='Feature',id=f'{key}:{i}',geometry=geometry['geometry'],properties=props))
  output=ROOT/'public/data/cultural-regions.geojson';raw=(json.dumps(dict(type='FeatureCollection',features=features),ensure_ascii=False,separators=(',',':'))+'\n').encode();output.write_bytes(raw)
- manifest=read(ROOT/'public/data/manifest.json');entry=dict(file=output.name,format='dated-cultural-regions',source='Entity-owned documentary review; Historical Basemaps source polygons',version='Historicmap 0.28.0; review 2026-10-27',url='https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md',license='GPL-3.0 (Historical Basemaps geometry); original editorial metadata',features=len(features),coverageStart=min(f['properties']['start']for f in features),coverageEnd=max(f['properties']['end']for f in features),bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),transform='Original source polygons/components retained as approximate regional references, with explicit temporal consultation windows; separate from political sovereignty. Decisions and sources owned by each entity in Países.')
+ version='Historicmap '+read(ROOT/'package.json')['version']+'; review 2026-10-27'
+ manifest=read(ROOT/'public/data/manifest.json');entry=dict(file=output.name,format='dated-cultural-regions',source='Entity-owned documentary review; Historical Basemaps source polygons',version=version,url='https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md',license='GPL-3.0 (Historical Basemaps geometry); original editorial metadata',features=len(features),coverageStart=min(f['properties']['start']for f in features),coverageEnd=max(f['properties']['end']for f in features),bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),transform='Original source polygons/components retained as approximate regional references, with explicit temporal consultation windows; separate from political sovereignty. Decisions and sources owned by each entity in Países.')
  manifest['entries']=[e for e in manifest['entries']if e['file']!=entry['file']]+[entry];(ROOT/'public/data/manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
  windows=[]
  for a,b in sorted(ranges):
   if windows and a<=windows[-1]['end']+1:windows[-1]['end']=max(windows[-1]['end'],b)
   else:windows.append(dict(start=a,end=b))
  index=dict(format='cultural-coverage-index',reviewedThrough=max(b for a,b in ranges),windows=windows,records=[{k:f['properties'][k]for k in ['contextKey','ownerKey','name','originalNames','kind','start','end','canonicalFile']}for f in features])
- index['excluded']=[{k:r[k]for k in ['key','ownerKey','name','file','decision']}for r in reviews if r['decision']=='excluded']
+ index['excluded']=[{k:r[k]for k in ['key','ownerKey','name','file','decision']}for r in reviews if r['decision']!='adopted-reference']
  ip=ROOT/'public/data/cultural-index.json';ir=(json.dumps(index,ensure_ascii=False,separators=(',',':'))+'\n').encode();ip.write_bytes(ir)
- ie=dict(file=ip.name,format=index['format'],source='Entity-owned regional coverage inventory',version='Historicmap 0.28.0; review 2026-10-27',url=entry['url'],license='Original editorial metadata; linked source geometry licensed separately',records=len(index['records']),bytes=len(ir),sha256=hashlib.sha256(ir).hexdigest())
+ ie=dict(file=ip.name,format=index['format'],source='Entity-owned regional coverage inventory',version=version,url=entry['url'],license='Original editorial metadata; linked source geometry licensed separately',records=len(index['records']),bytes=len(ir),sha256=hashlib.sha256(ir).hexdigest())
  manifest['entries']=[e for e in manifest['entries']if e['file']!=ie['file']]+[ie];(ROOT/'public/data/manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
  report=dict(scope='Regional coverage, documentary review and consultation windows; not an annually surveyed cultural atlas.',windows=windows,entities=reviews,phases=len(features))
+ report['sourceInventories']=[dict(**{k:v for k,v in si.items()if k!='names'},names=[dict(name=n,decisions=rs)for n,rs in sorted(si['names'].items())])for _,si in sorted(source_inventories.items())]
  report['snapshotInventory']=[]
  for year in [500,1000,1492]:
   source=ROOT/f'public/data/world_{year}.geojson';snapshot=read(source)

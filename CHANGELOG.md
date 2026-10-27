@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.29.0 · 27 de octubre de 2026
+
+- Revisión conjunta de pueblos y regiones de 1200–1700 con diez instantáneas de referencia. Continuidad de las fichas entre fases espaciales y conservación de los 127 registros anteriores.
+- 4.000 pares nombre/instantánea inventariados, con decisiones canónicas por entidad: incorporación, consulta en la base política o exclusión razonada. Detalle de América, Siberia, África y Oceanía, con coordenadas originales y procedencia.
+- Áreas tradicionales de cronología local pendiente identificadas en las fichas; no se presentan como fronteras anuales ciertas. Separación de Hawái/Rapa Nui, fases de Aotearoa y correcciones de anacronismos y traslados modernos.
+- Prioridad de las subdivisiones culturales sobre los agregados regionales de fondo; prioridad política conservada. Carpetas canónicas estables aunque cambie el nombre mostrado de una fase.
+- Disponibilidad por año, auditoría nominal, conservación e incertidumbres registradas. Revisión posterior a 1700 pendiente.
+
 ## 0.28.0 · 27 de octubre de 2026
 
 - Fondo de pueblos/regiones y referencias territoriales 900–1200, activo inicialmente, separado de la cartografía política. Los Estados mantienen colores, geometrías y prioridad de selección. Coincidencias consultables desde la ficha.

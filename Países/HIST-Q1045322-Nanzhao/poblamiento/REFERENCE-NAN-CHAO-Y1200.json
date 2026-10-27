@@ -1,0 +1,67 @@
+{
+  "key": "REFERENCE-NAN-CHAO-Y1200",
+  "contextKey": "REFERENCE-NAN-CHAO",
+  "ownerKey": "HIST-Q1045322",
+  "name": "Nan Chao · referencia",
+  "originalNames": [
+    "Nan Chao"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "excluded",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Etiqueta ausente, desfasada o anacrónica respecto de esta instantánea. No se prolonga un poder extinto ni se anticipa una administración posterior; la población se trata separadamente del Estado.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1200; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q1045322"
+  ],
+  "color": "#8f9f83",
+  "focus": [
+    102.58402371003446,
+    23.554662622170945
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-NAN-CHAO-Y1200.geojson",
+  "geometrySha256": "32f24bb7e37e6b6ecd3e3b61b777072486910419f9fadb923280260523893c9a",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1200.geojson",
+    "sourceSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "upstreamSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "featureIds": [
+      26
+    ],
+    "components": null,
+    "year": 1200,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Nan Chao",
+      "ABBREVN": "Nan Chao",
+      "INFO_UR": null,
+      "SUBJECTO": "Nan Chao",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Nan Chao"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

@@ -1,0 +1,68 @@
+{
+  "key": "REFERENCE-MIDDAG-KINGDOM-7CE0EA9C-Y1700",
+  "contextKey": "REFERENCE-MIDDAG-KINGDOM-7CE0EA9C",
+  "ownerKey": "REFERENCE-MIDDAG-KINGDOM-7CE0EA9C",
+  "name": "Middag Kingdom",
+  "originalNames": [
+    "Middag Kingdom"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Comunidades indígenas de Taiwán, con sistemas locales y relaciones cambiantes con poderes neerlandeses, españoles, Zheng y Qing. Los diarios de Zeelandia permiten distinguir contactos e instituciones; no acreditan control colonial homogéneo de toda la isla.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1700; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson"
+    },
+    {
+      "title": "Huygens/Leiden · diarios de Zeelandia1629–1662 y comunidades locales",
+      "url": "https://www.huygens.knaw.nl/en/resources/de-dagregisters-van-het-kasteel-zeelandia-taiwan-1629-1662-2/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#81908d",
+  "focus": [
+    120.61,
+    24.15
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-MIDDAG-KINGDOM-7CE0EA9C-Y1700.geojson",
+  "geometrySha256": "aa59df43bfa84c34da4c21a4412f5fc515860ecf22abcb0c5321116725cee982",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1700.geojson",
+    "sourceSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "upstreamSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "featureIds": [
+      304
+    ],
+    "components": null,
+    "year": 1700,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Middag Kingdom",
+      "ABBREVN": "Middag Kingdom",
+      "SUBJECTO": "Manchu Empire",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Middag Kingdom"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

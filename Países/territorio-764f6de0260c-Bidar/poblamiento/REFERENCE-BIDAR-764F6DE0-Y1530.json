@@ -1,0 +1,67 @@
+{
+  "key": "REFERENCE-BIDAR-764F6DE0-Y1530",
+  "contextKey": "REFERENCE-BIDAR-764F6DE0",
+  "ownerKey": "territorio-764f6de0260c",
+  "name": "Bidar",
+  "originalNames": [
+    "Bidar"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1530; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#b19b82",
+  "focus": [
+    77.73,
+    17.45
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-BIDAR-764F6DE0-Y1530.geojson",
+  "geometrySha256": "cde9fc8137d9eb711f66813c220863d6c6323c3fa6f0a9427dc83634747987e7",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1530.geojson",
+    "sourceSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "upstreamSha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+    "featureIds": [
+      484
+    ],
+    "components": null,
+    "year": 1530,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1530.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [
+    "Deccan Sultanates"
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Bidar",
+      "ABBREVN": "Bidar",
+      "wikipedia": null,
+      "SUBJECTO": "Bidar",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Deccan Sultanates"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

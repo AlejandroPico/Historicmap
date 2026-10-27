@@ -1,0 +1,72 @@
+{
+  "key": "CULTURE-COMANCHE-8FC84BD4-Y1700",
+  "contextKey": "CULTURE-COMANCHE-8FC84BD4",
+  "ownerKey": "CULTURE-COMANCHE-8FC84BD4",
+  "name": "Comanche",
+  "originalNames": [
+    "Comanche"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "excluded",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La denominación o extensión de esta compilación anticipa procesos históricos posteriores a la ventana revisada. Se conserva el original para contraste, sin presentar esta identidad y superficie como territorio documentado de 1492–1700.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1700; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson"
+    },
+    {
+      "title": "Comanche Nation · migración desde finales del siglo XVII; no territorio de 1500",
+      "url": "https://www.comanchenation.com/about/page/history"
+    },
+    {
+      "title": "Comanche Nation · migraciones desde finales del siglo XVII",
+      "url": "https://www.comanchenation.com/about/page/history"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#81908d",
+  "focus": [
+    -101.22,
+    32.92
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-COMANCHE-8FC84BD4-Y1700.geojson",
+  "geometrySha256": "be1e6be94a47162878887bc7d8f3e000ec045da82facd829a5cb3531facefdc4",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1700.geojson",
+    "sourceSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "upstreamSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "featureIds": [
+      108
+    ],
+    "components": null,
+    "year": 1700,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Comanche",
+      "ABBREVN": "Comanche",
+      "SUBJECTO": "Comanche",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Comanche"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

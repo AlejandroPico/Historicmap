@@ -1,0 +1,79 @@
+{
+  "key": "REFERENCE-KHMER-EMPIRE-Y1279",
+  "contextKey": "REFERENCE-KHMER-EMPIRE",
+  "ownerKey": "KHM",
+  "name": "Khmer Empire · referencia",
+  "originalNames": [
+    "Khmer Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1279; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1279.geojson"
+    },
+    {
+      "title": "Referencia documental · siglo XIII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/History_of_Southeast_Asia"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Jayavarman_VII"
+    },
+    {
+      "title": "Referencia documental · siglo X · catálogo político fechado",
+      "url": "https://whc.unesco.org/en/list/1667/"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q201705",
+    "KHM"
+  ],
+  "color": "#a99772",
+  "focus": [
+    104.38454,
+    13.23684
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-KHMER-EMPIRE-Y1279.geojson",
+  "geometrySha256": "9d54914b0dc57ee0a8b2e4bd94985fff41f469a5ee07d8526faf74eebf4b4bd4",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1279.geojson",
+    "sourceSha256": "839f48f61d984dd58f70f312dfe626c3988d4d4822e78d68a123fd0784e852e2",
+    "upstreamSha256": "839f48f61d984dd58f70f312dfe626c3988d4d4822e78d68a123fd0784e852e2",
+    "featureIds": [
+      70
+    ],
+    "components": null,
+    "year": 1279,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1279.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Khmer Empire",
+      "ABBREVN": "Khmer Empire",
+      "SUBJECTO": "Khmer Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Khmer Empire"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

@@ -1,0 +1,74 @@
+{
+  "key": "REFERENCE-OTTOMAN-EMPIRE-BD4B87BC-Y1650",
+  "contextKey": "REFERENCE-OTTOMAN-EMPIRE-BD4B87BC",
+  "ownerKey": "territorio-bd4b87bc07eb",
+  "name": "Ottoman Empire",
+  "originalNames": [
+    "Ottoman Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1650; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1650.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "OTT"
+  ],
+  "color": "#ab9d72",
+  "focus": [
+    39.44,
+    15.47
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-OTTOMAN-EMPIRE-BD4B87BC-Y1650.geojson",
+  "geometrySha256": "0cc997c968f6ccee354edc685f8dc4dbcbadc7e56e1dd244c878bb50ca70c810",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1650.geojson",
+    "sourceSha256": "e691a3b5bab4ca7a0629daffaf8cd31731ee76ad390b19dffc1c267b139de4e2",
+    "upstreamSha256": "e691a3b5bab4ca7a0629daffaf8cd31731ee76ad390b19dffc1c267b139de4e2",
+    "featureIds": [
+      0,
+      705
+    ],
+    "components": null,
+    "year": 1650,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1650.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Ottoman Empire",
+      "ABBREVN": "Ottoman Emp.",
+      "SUBJECTO": "Ottoman Empire",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Ottoman Empire"
+    },
+    {
+      "NAME": "Ottoman Empire",
+      "ABBREVN": "Ottoman Emp",
+      "SUBJECTO": "Ottoman Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Ottoman Empire"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

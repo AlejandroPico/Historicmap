@@ -1,0 +1,174 @@
+{
+  "key": "CULTURE-PHILIPPINES-0F9A79AC",
+  "name": "Philippines",
+  "qid": "",
+  "aliases": [
+    "Philippines"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 629,
+      "start": "1898-12-11",
+      "end": "1946-07-03",
+      "name": "Philippines",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 630,
+      "start": "1886-01-01",
+      "end": "1898-12-10",
+      "name": "Philippines",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 631,
+      "start": "1946-07-04",
+      "end": "1948-07-16",
+      "name": "Philippines",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 632,
+      "start": "1976-05-29",
+      "end": "2019-12-31",
+      "name": "Philippines",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 633,
+      "start": "1948-07-17",
+      "end": "1976-05-28",
+      "name": "Philippines",
+      "status": "independent"
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 2,
+      "start": null,
+      "end": null,
+      "name": "Philippines",
+      "status": null
+    },
+    {
+      "file": "world_1800.geojson",
+      "recordId": 3,
+      "start": null,
+      "end": null,
+      "name": "Philippines",
+      "status": null
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 9,
+      "start": null,
+      "end": null,
+      "name": "Philippines",
+      "status": null
+    },
+    {
+      "file": "world_1945.geojson",
+      "recordId": 19,
+      "start": null,
+      "end": null,
+      "name": "Philippines",
+      "status": null
+    },
+    {
+      "file": "world_1994.geojson",
+      "recordId": 19,
+      "start": null,
+      "end": null,
+      "name": "Philippines",
+      "status": null
+    },
+    {
+      "file": "world_2010.geojson",
+      "recordId": 18,
+      "start": null,
+      "end": null,
+      "name": "Philippines",
+      "status": null
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1942:629",
+      "start": "1942-01-01",
+      "end": "1942-12-31",
+      "name": "Philippines",
+      "status": "colony"
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1943:629",
+      "start": "1943-01-01",
+      "end": "1943-12-31",
+      "name": "Philippines",
+      "status": "colony"
+    },
+    {
+      "file": "wartime-partitions.json",
+      "recordId": "1944:629",
+      "start": "1944-01-01",
+      "end": "1944-12-31",
+      "name": "Philippines",
+      "status": "colony"
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PHILIPPINES-0F9A79AC-Y1492:0",
+      "contextKey": "CULTURE-PHILIPPINES-0F9A79AC",
+      "start": 1492,
+      "end": 1499,
+      "sourceYear": 1492,
+      "canonicalFile": "Países/CULTURE-PHILIPPINES-0F9A79AC-philippines/poblamiento/CULTURE-PHILIPPINES-0F9A79AC-Y1492.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PHILIPPINES-0F9A79AC-Y1500:0",
+      "contextKey": "CULTURE-PHILIPPINES-0F9A79AC",
+      "start": 1500,
+      "end": 1649,
+      "sourceYear": 1500,
+      "canonicalFile": "Países/CULTURE-PHILIPPINES-0F9A79AC-philippines/poblamiento/CULTURE-PHILIPPINES-0F9A79AC-Y1500.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PHILIPPINES-0F9A79AC-Y1650:0",
+      "contextKey": "CULTURE-PHILIPPINES-0F9A79AC",
+      "start": 1650,
+      "end": 1699,
+      "sourceYear": 1650,
+      "canonicalFile": "Países/CULTURE-PHILIPPINES-0F9A79AC-philippines/poblamiento/CULTURE-PHILIPPINES-0F9A79AC-Y1650.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PHILIPPINES-0F9A79AC-Y1700:0",
+      "contextKey": "CULTURE-PHILIPPINES-0F9A79AC",
+      "start": 1700,
+      "end": 1700,
+      "sourceYear": 1700,
+      "canonicalFile": "Países/CULTURE-PHILIPPINES-0F9A79AC-philippines/poblamiento/CULTURE-PHILIPPINES-0F9A79AC-Y1700.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

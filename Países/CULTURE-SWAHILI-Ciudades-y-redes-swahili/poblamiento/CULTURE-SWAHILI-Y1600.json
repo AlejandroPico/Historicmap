@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-SWAHILI-Y1600",
+  "contextKey": "CULTURE-SWAHILI",
+  "ownerKey": "CULTURE-SWAHILI",
+  "name": "Ciudades y redes swahili",
+  "originalNames": [
+    "Islamic city-states"
+  ],
+  "kind": "cultural-region",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Redes urbanas y comerciales de la costa swahili, con poderes y comunidades locales distintos. Kilwa y Songo Mnara tienen fases medievales propias; la presencia portuguesa desde el siglo XVI cambia relaciones sin borrar a los habitantes. El agregado no es un Estado único.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1600; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson"
+    },
+    {
+      "title": "Met · costa swahili, Kilwa y Songo Mnara",
+      "url": "https://www.metmuseum.org/ko/perspectives/kilwa-kisiwani-songo-mnara"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    42.6843246233327,
+    -3.5671730824902252
+  ],
+  "phases": [
+    {
+      "start": 1600,
+      "end": 1700,
+      "label": "Ciudades y redes swahili",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-SWAHILI-Y1600.geojson",
+  "geometrySha256": "6a7a95b628019eceb879f586a61dc21fac7b7c87e6c6f284efbca8d5f7591cd6",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1600.geojson",
+    "sourceSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "upstreamSha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+    "featureIds": [
+      49
+    ],
+    "components": null,
+    "year": 1600,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1600.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Islamic city-states",
+      "ABBREVN": "Islamic city-states",
+      "wikipedia": null,
+      "SUBJECTO": "Islamic city-states",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Islamic city-states"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

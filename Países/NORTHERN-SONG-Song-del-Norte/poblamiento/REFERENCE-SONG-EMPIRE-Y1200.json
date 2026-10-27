@@ -1,0 +1,76 @@
+{
+  "key": "REFERENCE-SONG-EMPIRE-Y1200",
+  "contextKey": "REFERENCE-SONG-EMPIRE",
+  "ownerKey": "NORTHERN-SONG",
+  "name": "Song Empire · referencia",
+  "originalNames": [
+    "Song Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "political-base",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "La entidad política se consulta en la cartografía anual fechada. No se añade una segunda silueta de esta instantánea sobre las fronteras del mapa político. Se conserva el nombre y la procedencia para comprobar omisiones de la base anual.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1200; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://www.metmuseum.org/zh/toah/ht/07/eac"
+    },
+    {
+      "title": "Referencia documental · siglo X · catálogo político fechado",
+      "url": "https://www.metmuseum.org/art/collection/search/42449"
+    }
+  ],
+  "politicalKeys": [
+    "NORTHERN-SONG",
+    "SOUTHERN-SONG"
+  ],
+  "color": "#a69b78",
+  "focus": [
+    111.4429256063009,
+    30.061154075693153
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-SONG-EMPIRE-Y1200.geojson",
+  "geometrySha256": "d3717adfd2b107e194766a90e9f47e6bd7e65ad8fa9b283dc358a33a06e00c5a",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1200.geojson",
+    "sourceSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "upstreamSha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+    "featureIds": [
+      25
+    ],
+    "components": null,
+    "year": 1200,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1200.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Song Empire",
+      "ABBREVN": "Song Empire",
+      "INFO_UR": null,
+      "SUBJECTO": "Song Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Song Empire"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}

@@ -1,0 +1,76 @@
+{
+  "key": "CULTURE-INNU-Y1400",
+  "contextKey": "CULTURE-INNU",
+  "ownerKey": "CULTURE-INNU",
+  "name": "Comunidades innu · referencia regional",
+  "originalNames": [
+    "Innu"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1201,
+    1700
+  ],
+  "interpretation": "Referencia de continuidad y diversidad regional posterior a 1200. El contorno procede de la instantánea indicada; no acredita límites invariables, una sola cultura ni autoridad política uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "El año de la instantánea es la fecha editorial del mapa, no una observación anual del territorio ni una fecha fundacional. Se mantiene la última referencia disponible hasta otra fase documentada; el final de cobertura no indica desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1400; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1400.geojson"
+    },
+    {
+      "title": "Memorial University · uso precolonial del territorio innu",
+      "url": "https://www.heritage.nf.ca/articles/indigenous/innu-land-use.php"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    -60.00795509690366,
+    52.39501651533217
+  ],
+  "phases": [
+    {
+      "start": 1400,
+      "end": 1499,
+      "label": "Comunidades innu · referencia regional",
+      "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-INNU-Y1400.geojson",
+  "geometrySha256": "baacbf415d679a9d17ba3a3dd1e0b77f252f3f7b18d95c5bd56b0a89048629de",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1400.geojson",
+    "sourceSha256": "c6b0efcb42d9520a1a724f981373296e84ea2c0a0527de7a06f8f9e2465eb6ec",
+    "upstreamSha256": "c6b0efcb42d9520a1a724f981373296e84ea2c0a0527de7a06f8f9e2465eb6ec",
+    "featureIds": [
+      102
+    ],
+    "components": null,
+    "year": 1400,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1400.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Innu",
+      "ABBREVN": "Innu",
+      "SUBJECTO": "Innu",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Innu"
+    }
+  ],
+  "review": "0.29.0 · 2026-10-27",
+  "temporalMode": "approximate-source-window",
+  "displayPriority": 1
+}
