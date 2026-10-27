@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="600" height="660" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path id="s" d="m1.5,1.5v259.2c0 285.45 298.5 397.8 298.5 397.8s298.5-112.35 298.5-397.8v-259.2z"/>
+  <pattern id="p" x="1.5" y="1.5" width="199" height="219" patternUnits="userSpaceOnUse">
+    <path d="m0,0h199v219H0z" fill="#fcef3c"/>
+    <path d="m0,109.5h199v-109.5h-99.5v219h-99.5z"/>
+  </pattern>
+  <radialGradient id="a" cx="0" cy="0" r="300" gradientTransform="matrix(1.3532 0 0 1.3489 222.02361 219.54954)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#fff" stop-opacity=".31373" offset="0"/>
+    <stop stop-color="#fff" stop-opacity=".25098" offset=".19"/>
+    <stop stop-color="#6b6b6b" stop-opacity=".12549" offset=".6"/>
+    <stop stop-opacity=".12549" offset="1"/>
+  </radialGradient>
+  <use xlink:href="#s" fill="url(#p)"/>
+  <use xlink:href="#s" fill="url(#a)" stroke="#000" stroke-width="3"/>
+</svg>

@@ -197,15 +197,15 @@
     },
     {
       "file": "country-history.json",
-      "bytes": 258327,
-      "sha256": "7d6057853897eaee1dac7a1f9509f0ea285aa3745bac71137134b0c6a9239d17",
-      "version": "Historicmap0.26.0; reference2026-10-27",
+      "bytes": 264013,
+      "sha256": "e23a42e30b228cf4e3cf9c1e2b803572b8dd5fe40c25800951ca78c78fbc9a84",
+      "version": "Historicmap0.26.1; entity reviews2026-10-27",
       "format": "country-workspace-history",
       "url": "https://www.un.org/en/about-us/member-states",
       "source": "Official institutional histories, constitutional records and state succession references, linked per record",
       "license": "Original editorial summaries and factual metadata; sources linked individually",
       "transform": "Twelve dated records and three fully named French regime-transition links. Earlier observations retained, coverage extended to1800.",
-      "records": 309,
+      "records": 320,
       "relations": 108
     },
     {
@@ -345,12 +345,12 @@
       "license": "CC0 factual metadata and editorial taxonomy",
       "url": "https://www.wikidata.org/",
       "source": "Per-record dated documentary sources",
-      "version": "Historicmap0.26.0; reference2026-10-27",
+      "version": "Historicmap0.26.1; entity reviews2026-10-27",
       "transform": "Dated P122/P31 claims, broad historical forms bounded by entity lifetime, reviewed constitutional phases; unknown retained explicitly. Institutional form is distinct from regime assessment.",
-      "records": 799,
+      "records": 807,
       "categories": 62,
-      "bytes": 261503,
-      "sha256": "9473f9cf8b462a521044759a063357aed6204893b58a93680c077fa46afdd57b"
+      "bytes": 264735,
+      "sha256": "57c2eaa13d3475f654dc71e6d4a4870f1165d3910642688fc8a7fbf8735ceb62"
     },
     {
       "file": "historical-1000-entities.json",
@@ -470,11 +470,11 @@
       "source": "Cliopatria and dated editorial identity corrections",
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC0 factual identity metadata",
-      "sha256": "e01b30f84bb6d900a1ac15803391da858ab52a51e5f1cd81f30222e24a18c869",
-      "bytes": 57479,
-      "version": "Historicmap0.18.0; reference2026-10-26",
+      "sha256": "d251d9537f24b38911809ec5b9b04cb0fc0be17d87fceae2fe607e7b086e3f5f",
+      "bytes": 58017,
+      "version": "Historicmap0.26.1; entity reviews2026-10-27",
       "transform": "Dated1800–1819 identity resolution over unchanged Cliopatria contours. Consulate, Empire and Restorations; separate Italian states, British crowns/union and Haitian powers. No reconstructed internal military fronts.",
-      "records": 95
+      "records": 96
     },
     {
       "file": "historical-1820-entities.json",
@@ -482,11 +482,11 @@
       "source": "Cliopatria and dated editorial identity corrections",
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC0 factual identity metadata",
-      "sha256": "6bbcfd843fd2bdf524395eb126d85bd118c7afec79c54cb7d4e79f905357735a",
-      "bytes": 51660,
-      "version": "Historicmap0.18.0; reference2026-10-26",
+      "sha256": "0af7f4d63b3ab6237703bafc1407c889a2e75f31dcb9be5eb06a6487e653ee78",
+      "bytes": 52198,
+      "version": "Historicmap0.26.1; entity reviews2026-10-27",
       "transform": "Dated1820–1839 identity resolution over unchanged Cliopatria geometry. Restoration and July Monarchy, Spanish regimes, Company India, First Mexican Empire, Haiti and Gran Colombia distinguished. Defective Gran Colombia persistence1831–1833 explicitly flagged, not asserted as continued union.",
-      "records": 89
+      "records": 90
     },
     {
       "file": "historical-1840-entities.json",
@@ -494,11 +494,11 @@
       "source": "Cliopatria and dated editorial identity corrections",
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC0 factual identity metadata",
-      "sha256": "6037c72cc56192640b832ea32ba326ff16da42f579c9cffd782ce12826b1da45",
-      "bytes": 50160,
-      "version": "Historicmap0.18.0; reference2026-10-26",
+      "sha256": "caac815123d68018aab26538fb8140b6b03f97246fc4bf2623d09439ef22dc6c",
+      "bytes": 50698,
+      "version": "Historicmap0.26.1; entity reviews2026-10-27",
       "transform": "Dated1840–1859 name/regime corrections over unchanged Cliopatria contours. French1848/1852 changes, Sardinia not Italy, Company India before1858, and source anachronisms explicitly repaired. Source labels/QIDs retained as provenance, not accepted as political fact.",
-      "records": 88
+      "records": 89
     },
     {
       "file": "historical-1860-entities.json",
@@ -507,10 +507,10 @@
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC0 factual identity metadata",
       "transform": "Bounded1860–1879 names and regimes over unchanged source contours; annual synthesis, not monthly frontier reconstruction.",
-      "sha256": "6ce6a82ebfe2308001c5e5878a96e109bf947a4e2ef4c40f9e212583a1800169",
-      "bytes": 43706,
-      "version": "Historicmap0.18.0; reference2026-10-26",
-      "records": 83
+      "sha256": "5db3a9160d95f5843897b4cbf1e353bb0678d2a062a9da1395de5ba3a9f3431f",
+      "bytes": 44244,
+      "version": "Historicmap0.26.1; entity reviews2026-10-27",
+      "records": 84
     },
     {
       "file": "historical-1880-administrations.json",
@@ -542,11 +542,11 @@
       "source": "Editorial identity resolution; Cliopatria and institutional historical sources",
       "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
       "license": "CC0 identity metadata; editorial corrections",
-      "bytes": 40552,
-      "sha256": "e212192a6dd73396cd18610b86b7bc2bff04d67ad8198e9a2695c9705b28faca",
-      "version": "Historicmap0.18.0; reference2026-10-26",
+      "bytes": 41090,
+      "sha256": "05386b888c1ca44f0b2ed6da7f22324d9a7263e6cede87df9ab4b576a45127b0",
+      "version": "Historicmap0.26.1; entity reviews2026-10-27",
       "transform": "Date-scoped correction of anachronistic source names and QIDs over unchanged source contours. Cliopatria1880–1885 and CShapes1886–1899 are different geographic inventories. Unresolved source references remain explicitly unassigned.",
-      "records": 88
+      "records": 89
     },
     {
       "file": "historical-1880-supplements.geojson",
@@ -624,16 +624,16 @@
     },
     {
       "file": "identities.json",
-      "bytes": 16469241,
-      "sha256": "dcf3e92b2deab97f97008f0bc31e5fdbbd8edefd39e5a171616b85f5089d15dd",
+      "bytes": 16577085,
+      "sha256": "5d275c330e988d9693239c326cf34f489f4d95d99e157a9102f4a42b4854da3d",
       "format": "dated-political-identities",
       "countries": 1126,
-      "records": 16547,
+      "records": 16576,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap0.26.0; reference2026-10-27",
+      "version": "Historicmap0.26.1; entity reviews2026-10-27",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
-      "transform": "Isolated1000–1099 acquisition and reviewed sovereign titles, rival claims, regencies and calendars. Dated symbols distinguish ensigns, seals and dynastic devices; earlier mandate facts and symbol windows conserved. Not a complete world census."
+      "transform": "Isolated1000–1099 acquisition and reviewed sovereign titles, rival claims, regencies and calendars. Dated symbols distinguish ensigns, seals and dynastic devices; earlier mandate facts and symbol windows conserved. Not a complete world census. Entity-owned corrections distinguish dated symbols from retrospective heraldic references, provincial offices and governments without a common national executive."
     },
     {
       "file": "pacific-components.json",

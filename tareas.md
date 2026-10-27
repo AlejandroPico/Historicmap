@@ -6,21 +6,25 @@
 - [x] Autoridades, imágenes y símbolos documentados, sin anacronismos.
 - [x] Instituciones, sedes y contextos del sigloXI.
 - [x] Auditoría nominal, pruebas, conservación y documentación.
-- [ ] Confirmar envío a origin/main tras la revisión adicional, sin esperarActions/Pages.
+- [x] Entrega preparada enmain y8.020 recursos verificados; confirmar coincidencia conorigin/main en el cierre, sin esperarActions/Pages.
 
 
 Cierre local: 210 pruebas en50 archivos, tipos, compilación e integridad correctos. Cinco recorridos focales de navegador correctos; dos del sigloXI repetidos tras ajustar la disposición de retratos con pie de imagen. Capturas de escritorio, móvil y créditos revisadas. Hechos anteriores conservados, trece geografías idénticas y713 componentes contrastados con fuente.
 
-## Revisión solicitada después de1000 · pendiente
+## Revisión solicitada después de1000 · 0.26.1
 
 Revisar todos los rangos de existencia; los años citados son observaciones, no límites de corrección. Evidencia y contenido por entidad dentro de su carpeta dePaíses, respetando la compilación y los medios con licencia.
 
-- [ ] ProvinciasUnidas neerlandesas: bandera y estatúderes con ese título, períodos sin estatúder y cargos provinciales distintos.
-- [ ] Luisiana francesa: símbolo adecuado por fechas y administración, incluida la situación de1802.
-- [ ] ProvinciasUnidas delRío de laPlata: banderas, juntas, triunviratos, directorio, presidencia y períodos sin autoridad nacional.
-- [ ] Paraguay yUniónSuecia/Noruega: símbolos por fechas y función; no copiar la enseña de1844 a1830.
-- [ ] Urgel,Empúries,Portugal,UniónIbérica,Georgia yNóvgorod: buscar bandera/armas con testimonio temporal. No convertir una reconstrucción o una imagen posterior en uso probado del siglo citado.
-- [ ] Pruebas y fichas por rango completo; documentación y catálogo porPaíses actualizados.
+- [x] ProvinciasUnidas neerlandesas: bandera y estatúderes con ese título, períodos sin estatúder y cargos provinciales distintos.
+- [x] Luisiana francesa: símbolo adecuado por fechas y administración, incluida la situación de1802.
+- [x] ProvinciasUnidas delRío de laPlata: banderas, juntas, triunviratos, directorio, presidencia y períodos sin autoridad nacional.
+- [x] Paraguay yUniónSuecia/Noruega: símbolos por fechas y función; no copiar la enseña de1844 a1830.
+- [x] Urgel,Empúries,Portugal,UniónIbérica,Georgia yNóvgorod: buscar bandera/armas con testimonio temporal. No convertir una reconstrucción o una imagen posterior en uso probado del siglo citado.
+- [x] Pruebas y fichas por rango completo; documentación y catálogo porPaíses actualizados.
+
+Comprobaciones:215 pruebas/51 archivos y tres recorridos de navegador correctos; dieciséis comprobaciones focales finales correctas tras completar ventanas paraguayas. Tipos y compilación correctos. Preparación repetida con nueve recursos idénticos byte a byte; originales de entidades y sus copias comprobados. Integridad final:77 datos,11 franjas y7.932 medios. 8.020 recursos preparados enGit comprobados; 70 originales únicos comprobados enGit y protegidos contra normalización. Confirmar coincidencia remota al cerrar; no esperarActions/Pages.
+
+Pendientes delimitados: ampliar el resto de principados rusos y encontrar testimonios de uso coetáneo donde ahora sólo hay atribuciones o reconstrucciones. La candidata paraguaya1970–2013 sin fuente de insignia se mantiene excluida. No se ha certificado continuidad de banderas nacionales en todas las entidades medievales.
 
 ## Entrega anterior · 0.25.0 · ampliación hasta 1100
 

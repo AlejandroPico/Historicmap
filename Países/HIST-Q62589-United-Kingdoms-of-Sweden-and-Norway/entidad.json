@@ -13,8 +13,33 @@
   },
   "flags": [
     {
-      "start": "1844-12-31",
-      "end": "1900-12-31",
+      "start": "1815-03-07",
+      "end": "1844-06-19",
+      "media": {
+        "file": "media/flag-0af164e6bac3ee9dbe44.svg",
+        "title": "Ensign of Sweden and Norway (1815–1844).svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ensign_of_Sweden_and_Norway_(1815%E2%80%931844).svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Ensign_of_Sweden_and_Norway_%281815%E2%80%931844%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Swedish and Norwegian Governments. Vectorized by cflm (talk).",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ensign_of_Sweden_and_Norway_(1815%E2%80%931844).svg#Licensing",
+        "credit": "Own work by the Swedish and Norwegian Governments.",
+        "attribution": "",
+        "attributionRequired": true,
+        "sha256": "6c8e2fd45e8cbe9b11715ae295a40497b3617d87482276c85341a7cbc6533c31",
+        "bytes": 616,
+        "canonicalFile": "Países/HIST-Q62589-United-Kingdoms-of-Sweden-and-Norway/simbolos/flag-0af164e6bac3ee9dbe44.svg",
+        "symbolLabel": "Pabellón común de la unión · naval",
+        "presentationNote": "Pabellón de guerra común desde 1815; también referencia del pabellón mercante común desde 1818. Noruega mantuvo sus enseñas mercantes propias.",
+        "symbolEvidenceURL": "https://www.regjeringen.no/no/dep/smk/ansvarsomrader/forloperne/1946--nyere-tid/2013-To-hundre-ars-statssom-avsluttet/id759177/"
+      },
+      "source": "https://www.regjeringen.no/no/dep/smk/ansvarsomrader/forloperne/1946--nyere-tid/2013-To-hundre-ars-statssom-avsluttet/id759177/",
+      "note": "Pabellón de guerra común desde 1815; también referencia del pabellón mercante común desde 1818. Noruega mantuvo sus enseñas mercantes propias.",
+      "acquisition": "entity-review-0.26.1"
+    },
+    {
+      "start": "1844-06-20",
+      "end": "1905-10-26",
       "media": {
         "file": "media/flag-daa5e7f5ebc65d2f19fc.svg",
         "title": "Jack of Sweden and Norway (1844–1905).svg",
@@ -28,16 +53,149 @@
         "attributionRequired": true,
         "sha256": "ef68cdad0063e07b89e181037fcef8637756156e9253981f0c1ed0058431e2a0",
         "bytes": 492,
-        "symbolLabel": "Pabellón diplomático de la unión",
-        "presentationNote": "También torrotito naval; Suecia y Noruega conservan pabellones nacionales propios.",
-        "symbolEvidenceURL": "https://commons.wikimedia.org/wiki/File:Jack_of_Sweden_and_Norway_(1844%E2%80%931905).svg"
+        "canonicalFile": "Países/HIST-Q62589-United-Kingdoms-of-Sweden-and-Norway/simbolos/flag-daa5e7f5ebc65d2f19fc.svg",
+        "symbolLabel": "Pabellón diplomático y torrotito de la unión",
+        "presentationNote": "Símbolo común desde 1844; no se aplica a 1830 ni sustituye las banderas propias de los dos reinos.",
+        "symbolEvidenceURL": "https://www.stortinget.no/no/Stortinget-og-demokratiet/Historikk/det-norske-flagg/striden-om-unionsmerket/"
       },
-      "source": "https://commons.wikimedia.org/wiki/File:Jack_of_Sweden_and_Norway_(1844%E2%80%931905).svg",
-      "note": "También torrotito naval; Suecia y Noruega conservan pabellones nacionales propios.",
-      "acquisition": "symbols-review-0.18"
+      "source": "https://www.stortinget.no/no/Stortinget-og-demokratiet/Historikk/det-norske-flagg/striden-om-unionsmerket/",
+      "note": "Símbolo común desde 1844; no se aplica a 1830 ni sustituye las banderas propias de los dos reinos.",
+      "acquisition": "entity-review-0.26.1"
     }
   ],
-  "leaders": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q52928",
+      "name": "Carlos XIII de Suecia y II de Noruega",
+      "role": "Rey de Suecia y de Noruega · unión personal",
+      "start": "1814-11-04",
+      "end": "1818-02-05",
+      "precision": 11,
+      "source": "https://www.kungahuset.se/english/royal-house/the-history-of-the-royal-house",
+      "portrait": {
+        "file": "media/portrait-b01e8854dbfb395b3b45.jpg",
+        "title": "Charles XIII of Sweden.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Charles_XIII_of_Sweden.jpg",
+        "artist": "Carl Frederik von Breda",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_XIII_of_Sweden.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": " NMGrh 403",
+        "sha256": "96a698305e6cbc2fb3b892ae827010679982814d1735f424556b8ee417c25999",
+        "bytes": 23027,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Charles_XIII_of_Sweden.jpg/330px-Charles_XIII_of_Sweden.jpg",
+        "canonicalFile": "Países/HIST-Q62589-United-Kingdoms-of-Sweden-and-Norway/retratos/portrait-b01e8854dbfb395b3b45.jpg"
+      },
+      "curated": true,
+      "acquisition": "entity-review-0.26.1"
+    },
+    {
+      "person": "Q52927",
+      "name": "Carlos XIV Juan de Suecia y III Juan de Noruega",
+      "role": "Rey de Suecia y de Noruega · unión personal",
+      "start": "1818-02-05",
+      "end": "1844-03-08",
+      "precision": 11,
+      "source": "https://www.kungahuset.se/english/royal-house/the-history-of-the-royal-house",
+      "portrait": {
+        "file": "media/portrait-4e15e3a09d8f69f49b43.jpg",
+        "title": "CarlXIVJohnSweden.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:CarlXIVJohnSweden.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CarlXIVJohnSweden.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Unknown sourceUnknown source",
+        "sha256": "110cbb0c8ba37e82544bd87c388f32651e486db0237037d1e3fc0526b2420292",
+        "bytes": 46892,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/CarlXIVJohnSweden.jpg/330px-CarlXIVJohnSweden.jpg",
+        "canonicalFile": "Países/HIST-Q62589-United-Kingdoms-of-Sweden-and-Norway/retratos/portrait-4e15e3a09d8f69f49b43.jpg"
+      },
+      "curated": true,
+      "acquisition": "entity-review-0.26.1"
+    },
+    {
+      "person": "Q52926",
+      "name": "Óscar I",
+      "role": "Rey de Suecia y de Noruega · unión personal",
+      "start": "1844-03-08",
+      "end": "1859-07-08",
+      "precision": 11,
+      "source": "https://www.kungahuset.se/english/royal-house/the-history-of-the-royal-house",
+      "portrait": {
+        "file": "media/portrait-b588dd581c0ef145d4b1.jpg",
+        "title": "Erik (Wahlberg) Wahlbergson - Oscar I, King of Sweden and Norway 1844-1859 - Google Art Project.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Erik_(Wahlberg)_Wahlbergson_-_Oscar_I,_King_of_Sweden_and_Norway_1844-1859_-_Google_Art_Project.jpg",
+        "artist": "Erik Wahlbergson",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Erik_(Wahlberg)_Wahlbergson_-_Oscar_I,_King_of_Sweden_and_Norway_1844-1859_-_Google_Art_Project.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Google Arts & Culture:  Home page – Image",
+        "sha256": "c7b2db1ba0bdbd716f7b53ed046a00811f3fed7436512bb744db879272e5a1ea",
+        "bytes": 30599,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Erik_%28Wahlberg%29_Wahlbergson_-_Oscar_I%2C_King_of_Sweden_and_Norway_1844-1859_-_Google_Art_Project.jpg/330px-Erik_%28Wahlberg%29_Wahlbergson_-_Oscar_I%2C_King_of_Sweden_and_Norway_1844-1859_-_Google_Art_Project.jpg",
+        "canonicalFile": "Países/HIST-Q62589-United-Kingdoms-of-Sweden-and-Norway/retratos/portrait-b588dd581c0ef145d4b1.jpg"
+      },
+      "curated": true,
+      "acquisition": "entity-review-0.26.1"
+    },
+    {
+      "person": "Q52925",
+      "name": "Carlos XV de Suecia y IV de Noruega",
+      "role": "Rey de Suecia y de Noruega · unión personal",
+      "start": "1859-07-08",
+      "end": "1872-09-18",
+      "precision": 11,
+      "source": "https://www.kungahuset.se/english/royal-house/the-history-of-the-royal-house",
+      "portrait": {
+        "file": "media/portrait-41cb098b2554bd1b190e.jpg",
+        "title": "Karl XV i mitten av 1860-talet.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Karl_XV_i_mitten_av_1860-talet.jpg",
+        "artist": "Photograph by Mathias Hansen (1823-1905)\n",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Karl_XV_i_mitten_av_1860-talet.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Svante Hedin. \"Kunglig bildskatt\", Bra Böcker 1991\n",
+        "sha256": "5c0828ccbb018050143ec9c784739707fbf36cf327286b5bb7dfc1eea3a43f81",
+        "bytes": 46979,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Karl_XV_i_mitten_av_1860-talet.jpg/330px-Karl_XV_i_mitten_av_1860-talet.jpg",
+        "canonicalFile": "Países/HIST-Q62589-United-Kingdoms-of-Sweden-and-Norway/retratos/portrait-41cb098b2554bd1b190e.jpg"
+      },
+      "curated": true,
+      "acquisition": "entity-review-0.26.1"
+    },
+    {
+      "person": "Q52924",
+      "name": "Óscar II",
+      "role": "Rey de Suecia y de Noruega · unión personal",
+      "start": "1872-09-18",
+      "end": "1905-06-07",
+      "precision": 11,
+      "source": "https://www.kungahuset.se/english/royal-house/the-history-of-the-royal-house",
+      "portrait": {
+        "file": "media/portrait-7a970b436bdd4806901b.jpg",
+        "title": "Porträtt av Oscar II i amiralsuniform. 1900-1907. Foto Lars Larsson.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4tt_av_Oscar_II_i_amiralsuniform._1900-1907._Foto_Lars_Larsson.jpg",
+        "artist": "Lars Larsson",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4tt_av_Oscar_II_i_amiralsuniform._1900-1907._Foto_Lars_Larsson.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://www.stadsmuseet.stockholm.se/Utforska/Samlingar/Fotografier/Fotosamlingar-och-fotografer/Lars-Larsson/",
+        "sha256": "e15b659fdc047a22cf90d51beb087d4d8a7fa66036979e4241403c980722b3b0",
+        "bytes": 35339,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Portr%C3%A4tt_av_Oscar_II_i_amiralsuniform._1900-1907._Foto_Lars_Larsson.jpg/330px-Portr%C3%A4tt_av_Oscar_II_i_amiralsuniform._1900-1907._Foto_Lars_Larsson.jpg",
+        "canonicalFile": "Países/HIST-Q62589-United-Kingdoms-of-Sweden-and-Norway/retratos/portrait-7a970b436bdd4806901b.jpg"
+      },
+      "curated": true,
+      "acquisition": "entity-review-0.26.1"
+    }
+  ],
   "portraitVariants": [],
   "territorialRecords": [
     {

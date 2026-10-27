@@ -2,7 +2,7 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.26.0** · 27 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.26.1** · 27 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
@@ -94,3 +94,5 @@ Actualización 0.22.0: navegación anual hasta 1400, autoridades y símbolos fec
 Actualización 0.23.0: navegación anual hasta 1300, autoridades y símbolos fechados, sucesiones Yuan/Ming y Goryeo/Joseon, poderes mongoles y cortes japonesas. Sedes seleccionables donde faltan contornos propios y desfases de fuente identificados sin inventar fronteras. [Fuentes y pendientes](docs/RESEARCH-1300.md).
 
 Actualización 0.24.0: navegación anual hasta 1200, poderes bizantinos y mongoles diferenciados, coronas y sucesiones revisadas. Aro de carga integrado en el botón de reproducción, también al saltar manualmente de año; la ficha conserva su contenido durante la espera. [Fuentes, alcance y pendientes](docs/RESEARCH-1200.md).
+
+Las correcciones históricas nuevas se mantienen dentro de la carpeta de cada entidad en`Países`: `revision-historica.json`, símbolos y retratos originales con procedencia. Las referencias heráldicas posteriores se rotulan como retrospectivas y muestran la fecha del testimonio, diferenciadas de una bandera documentada vigente.

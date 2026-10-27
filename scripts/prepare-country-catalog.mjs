@@ -37,7 +37,7 @@ for(const e of [...entities.values()].sort((a,b)=>a.key.localeCompare(b.key))){
  const output={key:e.key,name:e.name,qid:e.qid,aliases:[...e.aliases].sort(),generatedBy:'scripts/prepare-country-catalog.mjs',
   scope:'Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.',
   sourceIdentity:c?{file:'../../public/data/identities.json',key:e.key}:null,
-  flags,leaders,portraitVariants:portraitSeries.records.filter(r=>leaders.some(l=>l.person===r.person)),territorialRecords:e.records,
+  flags,symbolReferences:c?.symbolReferences??[],leaders,portraitVariants:portraitSeries.records.filter(r=>leaders.some(l=>l.person===r.person)),territorialRecords:e.records,
   relatedData:['../../public/data/country-history.json','../../public/data/historical-context.json','../../public/data/affiliations.json'],
   mediaRoot:'../../public/',extensionFile:'recursos.json'};
  writeFileSync(resolve(path,'entidad.json'),JSON.stringify(output,null,2)+'\n');
@@ -56,7 +56,7 @@ for(const e of [...entities.values()].sort((a,b)=>a.key.localeCompare(b.key))){
   declared.add(r.file);
  }
  if(existsSync(resolve(path,'archivos')))for(const f of readdirSync(resolve(path,'archivos')))if(!declared.has(f))throw Error('Resource requires source, license and dates: '+folder+'/'+f);
- index.push({key:e.key,name:e.name,folder,flags:flags.length,leaders:leaders.length,territorialRecords:e.records.length});
+ index.push({key:e.key,name:e.name,folder,flags:flags.length,symbolReferences:c?.symbolReferences?.length??0,leaders:leaders.length,territorialRecords:e.records.length});
 }
 writeFileSync(resolve(dir,'indice.json'),JSON.stringify({entities:index},null,2)+'\n');
 // Remove only our obsolete generated views after a folder label changes.
@@ -75,5 +75,5 @@ for(const old of readdirSync(dir,{withFileTypes:true}).filter(d=>d.isDirectory()
  }
  unlinkSync(entityFile);rmdirSync(path);
 }
-writeFileSync(resolve(dir,'INDICE.md'),'# Entidades del atlas\n\nInventario generado de países, reinos, imperios y territorios presentes en los conjuntos locales. Una carpeta no acredita una ficha completa. Véase [cómo ampliar](README.md).\n\n| Entidad | Clave | Banderas | Mandatos | Registros territoriales |\n| --- | --- | ---: | ---: | ---: |\n'+index.map(e=>`| [${e.name.replaceAll('|','/')}](./${e.folder}/entidad.json) | ${e.key} | ${e.flags} | ${e.leaders} | ${e.territorialRecords} |`).join('\n')+'\n');
+writeFileSync(resolve(dir,'INDICE.md'),'# Entidades del atlas\n\nInventario generado de países, reinos, imperios y territorios presentes en los conjuntos locales. Una carpeta no acredita una ficha completa. Véase [cómo ampliar](README.md).\n\n| Entidad | Clave | Banderas | Referencias retrospectivas | Mandatos | Registros territoriales |\n| --- | --- | ---: | ---: | ---: | ---: |\n'+index.map(e=>`| [${e.name.replaceAll('|','/')}](./${e.folder}/entidad.json) | ${e.key} | ${e.flags} | ${e.symbolReferences} | ${e.leaders} | ${e.territorialRecords} |`).join('\n')+'\n');
 console.log('Entity folders:',index.length,'; historical identities:',Object.keys(identities.countries).length);

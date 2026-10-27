@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.26.1 · 27 de octubre de 2026
+
+- Correcciones canónicas en14 carpetas dePaíses, con originales, fuentes y copia de ejecución registrada;44 intervalos de cargos y11 registros institucionales.
+- ProvinciasUnidas: tricolor histórico propio, estatúderes con ámbito provincial, regencias y periodos sin estatúder. Río de laPlata: juntas, triunviratos, directores, presidencia provisional y autonomías sin ejecutivo nacional; símbolos continuados hasta1831.
+- Luisiana: titularidad francesa diferenciada de la administración española de1802. UniónSuecia/Noruega: ficha de la unión recuperada desde el mapa, pabellón anterior a1844 y reyes comunes sin borrar los dos reinos. Paraguay: ventanas de símbolos y eliminación de una atribución anacrónica al presente.
+- Urgell,Empúries,Portugal,UniónIbérica,Georgia,Nóvgorod,Moscú yRiazán: armas, sellos o enseñas con función explícita. Referencias retrospectivas separadas de vigencias históricas; no generan adopciones ficticias en la cronología.
+- Conservadas las demás1.109 identidades y49 recursos geográficos byte a byte. La revisión no equivale a completar todos los principados rusos ni a acreditar una bandera nacional uniforme para cada entidad medieval.
+
 ## 0.26.0 · 27/10/2026
 
 - Navegación anual hasta1000:713 intervalos originales,62 reglas fechadas y conservación de trece geografías previas.

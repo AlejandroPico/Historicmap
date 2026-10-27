@@ -104,7 +104,7 @@ const identities=JSON.parse(await readFile(new URL('identities.json',root)));
 const portraits=JSON.parse(await readFile(new URL('portrait-series.json',root)));
 for(const r of portraits.records)if(!files.has(r.media.file))throw Error('Unregistered dated portrait '+r.media.file);
 for(const [key,country] of Object.entries(identities.countries)){
- for(const f of country.flags){if(f.start>f.end||!files.has(f.media.file))throw Error(`Invalid flag interval or image ${key}: ${f.start}/${f.end} ${f.media.file}`);}
+ for(const f of [...country.flags,...country.symbolReferences??[]]){if(f.start>f.end||!files.has(f.media.file)||f.media.referenceOnly&&!f.media.evidenceDate)throw Error(`Invalid symbol interval or image ${key}: ${f.start}/${f.end} ${f.media.file}`);}
  for(const l of country.leaders){if(l.start>l.end||!l.name||!l.role||!l.source||(l.portrait&&!files.has(l.portrait.file)))throw Error('Invalid leadership interval or image');}
 }
 console.log(`Verified ${manifest.entries.length} data resources, ${fonts.entries.length} glyph ranges and ${files.size} licensed media with SHA-256.`);

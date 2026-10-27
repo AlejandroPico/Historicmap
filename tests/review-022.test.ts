@@ -30,7 +30,7 @@ describe('1400–1499 annual extension',()=>{
   expect(governmentFor({identityKey:'MING'},1450).regimeTag).toBeUndefined();
  });
  it('keeps symbols and portraits local, dated and distinct from modern national flags',()=>{
-  expect(identity('BYZANTINE',1400).flag?.title).toContain('Byzantine imperial flag');expect(identity('GRANADA-EMIRATE',1490).flag?.symbolLabel).toContain('nazarí');expect(identity('CASTILE',1400).flag?.title).not.toContain('Burgundy');expect(identity('JPN',1450).flag?.title).toBe('Ashikaga mon.svg');expect(identity('PRT',1400).flag).toBeUndefined();expect(identity('PRT',1499).flag?.title).toContain('1495');
+  expect(identity('BYZANTINE',1400).flag?.title).toContain('Byzantine imperial flag');expect(identity('GRANADA-EMIRATE',1490).flag?.symbolLabel).toContain('nazarí');expect(identity('CASTILE',1400).flag?.title).not.toContain('Burgundy');expect(identity('JPN',1450).flag?.title).toBe('Ashikaga mon.svg');expect(identity('PRT',1400).flag?.title).toBe('PortugueseFlag1385.svg');expect(identity('PRT',1499).flag?.title).toContain('1495');
   expect(identity('AZTEC',1450).flag).toBeUndefined();expect(identity('INCA',1450).flag).toBeUndefined();
   for(const [k,y,p]of [['BYZANTINE',1400,'Q37097'],['ENGLAND',1450,'Q160337'],['MING',1490,'Q9994'],['PAPAL-STATES',1400,'Q165561']]as const)expect(identity(k,y).leaders.find(l=>l.person===p)?.portrait?.file).toMatch(/^media\//);
   const rejected=JSON.parse(readFileSync('scripts/historical-offices-022-research.json','utf8')).rejected;expect(rejected.some((r:any)=>r.candidate.person==='Q8089282')).toBe(true);

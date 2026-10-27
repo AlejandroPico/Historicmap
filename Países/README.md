@@ -6,6 +6,14 @@ Empieza por [el índice legible](INDICE.md). Cada carpeta tiene una clave establ
 
 Este inventario se genera con `npm run entities:prepare`. Las adquisiciones y curaciones siguen escribiendo los conjuntos preparados de `public/data`; después se regenera el inventario. **No editar `entidad.json`: se reemplaza al regenerar.** No es una segunda base de datos independiente. `recursos.json` y `archivos/` son entradas propias y no se sobrescriben. `npm run build` actualiza y valida el inventario antes de compilar.
 
+## Correcciones históricas por entidad
+
+Las revisiones nuevas se guardan en **`revision-historica.json` dentro de la carpeta de la entidad**: símbolos con fechas, cargos, instituciones, clasificación y fuentes. `simbolos/` y `retratos/` contienen sus originales acreditados. No dispersar estas correcciones en listas de países fuera de este directorio. El escritor genérico `scripts/prepare-entity-revisions.py` carece de hechos históricos propios: compila esas entradas en los conjuntos de ejecución compartidos. `python scripts/prepare-entity-revisions.py` funciona sin consultas de adquisición; `--acquire` es una operación explícita para incorporar nuevos archivos de Commons con licencia y metadatos comprobados. Después se regenera el catálogo y las huellas del manifiesto de datos.
+
+Las copias de ejecución permanecen en `public/media` para servirlas con rutas estables. `canonicalFile` conserva la ruta del original en esta carpeta. Las revisiones y originales no se sobrescriben al generar `entidad.json`. Se verifican sus huellas; modificar un original exige revisar sus metadatos y procedencia.
+
+`flags` conserva vigencias históricas. **`symbolReferences` es distinto**: permite mostrar un escudo atribuido, una reconstrucción o un testimonio posterior como referencia retrospectiva, con fecha de evidencia visible. Su intervalo corresponde a la entidad representada, no acredita que el símbolo existiese entonces. Estas referencias no generan acontecimientos de adopción de bandera en la cronología. Una bandera documentada vigente tiene prioridad sobre ellas. No convertir la fecha de un portulano, sello o cuadro en una adopción nacional.
+
 ## Añadir un himno o documento
 
 1. Coloca un archivo autorizado dentro de `archivos/` en la carpeta correspondiente. Se admiten mp3, ogg, wav, m4a y pdf.

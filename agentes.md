@@ -1,8 +1,8 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **27 de octubre de 2026**. Versión del producto: **0.26.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **27 de octubre de 2026**. Versión del producto: **0.26.1**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente de 0.26 en la sección 38; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en las secciones38–39; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
@@ -873,3 +873,24 @@ Preparadores1000/026 y evidencia congelada; un solo escritor de identidades/medi
 Encargo posterior registrado: ProvinciasUnidas neerlandesas (estatúderes), Luisiana francesa, Río de laPlata por etapas, Paraguay, UniónSuecia/Noruega, Urgel,Empúries,Portugal,UniónIbérica,Georgia yNóvgorod. Revisar todo su rango y el tipo/fecha de cada símbolo, sin limitarse al año de la observación. Contenido específico de entidades dentro de sus carpetas dePaíses; no crear colecciones paralelas dispersas. Las geometrías y los medios compartidos existentes mantienen su procedencia/licencia conforme a la estructura documentada, salvo una migración explícita y comprobada.
 
 Cierre local0.26:210 pruebas/50 archivos, tipos, compilación e integridad correctos. Cinco recorridos focales de navegador correctos; los dos históricos repetidos tras fijar retrato/nombre en la misma fila y pie debajo. Capturas de escritorio, móvil y créditos revisadas. 77 datos,11 franjas y7.888 medios verificados. Falta confirmar bytes deGit y envío; continúa la revisión adicional encargada.
+
+
+## 39. Correcciones históricas por entidad · 0.26.1
+
+Revisión pedida por el propietario para los rangos de existencia, no sólo los años observados. Catorce entradas canónicas en`Países/<entidad>/revision-historica.json`; sus originales en`simbolos/` y`retratos/`. El preparador genérico no contiene listas de hechos de países. No editar las vistas generadas`entidad.json`. El catálogo se regenera después de todas las escrituras; el índice distingue banderas de referencias retrospectivas.
+
+- 38 ventanas de símbolos y44 intervalos de cargos;11 registros institucionales. Provincia, confederación, monarca compartido y ejecutivo nacional son ámbitos distintos. Se conserva la presidencia provisional rioplatense de1827; los intervalos de autonomía no reciben un presidente nacional inventado. Los cargos provinciales pueden coexistir y tienen títulos propios.
+- La uniónSuecia/Noruega del contorno agregado se resolvía aSuecia: ahora tiene la clave de la unión, sus reyes y sus pabellones fechados. Los contornos originales permanecen intactos. El cambio se aplica a los catálogos1800/1820/1840/1860/1880 sólo en el rango de la unión y el nombre agregado; no convierte los componentes separados deCShapes en un Estado unitario.
+- `symbolReferences` difiere de`flags`: el intervalo identifica la entidad representada, no uso acreditado del símbolo. El encabezado muestra «Referencia retrospectiva» y el testimonio. Una bandera vigente tiene prioridad. No crear adopciones ficticias en la cronología. Los testimonios de sellos, armoriales, pinturas y portulanos posteriores no se retrotraen como paños nacionales. La atribución externa deNóvgorod no es prueba de uso doméstico. Las alias de reinos se recortan a su vida, para no heredar banderas de repúblicas posteriores.
+- Los símbolos deLuisiana distinguen titularidad nominal y administración efectiva. La unión ibérica conserva armas del monarca común, no una bandera nacional única. Paraguay conserva variantes anuales y deja de mostrar una variante1988–1990 en el presente; la candidata1970–2013 marcada sin fuente de insignia no se incorpora. Sus lagunas de procedencia no se silencian.
+- Cada entrada conserva fuentes, notas, licencia y huellas. Los medios compartidos en`public/media` son copias para servir la aplicación;`canonicalFile` lleva al original de la entidad. No descargar durante la visita ni ejecutar adquisición remota al compilar.
+
+Orden reproducible: `python scripts/prepare-entity-revisions.py` (sin adquisición remota) → `node scripts/register-entity-revisions.mjs` → `node scripts/prepare-country-catalog.mjs` → comprobaciones y compilación. `--acquire` sólo se usa al incorporar un recurso nuevo con licencia y procedencia contrastadas. No reinicializar las entradas a partir de una lista temporal ni sobrescribir las curaciones con una descarga genérica.
+
+Conservadas las1.109 identidades fuera del alcance de la corrección y49 recursos geográficos byte a byte. Continúan los inventarios de carencias medievales: no declarar símbolos uniformes en todo el mundo ni dar por revisados todos los principados rusos. Nuevas correcciones de países deben seguir dentro de sus carpetas. Las instantáneas anteriores a1000 continúan fuera de la revisión anual.
+
+Cierre local0.26.1:215 pruebas en51 archivos correctas, con16 comprobaciones focales finales tras las últimas correcciones. Tres recorridos de navegador correctos y capturas de escritorio/móvil revisadas. Tipos y compilación correctos;33 símbolos distintos y21 retratos nuevos inspeccionados. Preparación repetida sin cambios de bytes en nueve recursos de ejecución. La incorporación inicial de retratos podía cambiar sólo el orden de propiedades JSON al repetir; el escritor conserva ahora ese orden. Verificar huellas finales, bytes preparados y coincidencia remota al cerrar; sin esperarActions/Pages.
+
+Integridad final:77 datos,11 franjas y7.932 medios porSHA-256. Las rutas de originales `Países/**/simbolos/*` y `Países/**/retratos/*` se guardan como binarios enGit, igual que sus copias públicas, para impedir normalización de los SVG. 8.020 recursos de ejecución preparados y comprobados; comprobar también los originales preparados. Confirmar coincidencia demain yorigin/main en el cierre, sin certificar publicación remota.
+
+Comprobados también70 originales únicos de las carpetas de entidades contra los bytes preparados enGit. La normalización se ha desactivado para esas imágenes y se ha vuelto a preparar su contenido; sus huellas coinciden con las copias y metadatos. El índice incluye recuentos separados de referencias retrospectivas.
