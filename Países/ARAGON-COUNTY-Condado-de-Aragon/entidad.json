@@ -1,0 +1,67 @@
+{
+  "key": "ARAGON-COUNTY",
+  "name": "Condado de Aragón",
+  "qid": "Q1235737",
+  "aliases": [
+    "Condado de Aragón"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "ARAGON-COUNTY"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q2298546",
+      "name": "Galindo II Aznárez de Aragón",
+      "role": "Conde / condesa de Aragón",
+      "start": "0900-01-01",
+      "end": "0922-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Galindo_II_Azn%C3%A1rez",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-21e95a349f36e3f97d2f.jpg",
+        "title": "Galindo II Aznarez, V conde de Aragón.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Galindo_II_Aznarez,_V_conde_de_Arag%C3%B3n.jpg",
+        "artist": "Eduardo Rosales",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Galindo_II_Aznarez,_V_conde_de_Arag%C3%B3n.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "[2]",
+        "sha256": "2c50975cf73ccbc527c2156ee29e13c738a0a31686ff59610608a87b9a6eda56",
+        "bytes": 58079,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Galindo_II_Aznarez%2C_V_conde_de_Arag%C3%B3n.jpg/330px-Galindo_II_Aznarez%2C_V_conde_de_Arag%C3%B3n.jpg",
+        "canonicalFile": "Países/ARAGON-COUNTY-Condado-de-Aragon/retratos/portrait-21e95a349f36e3f97d2f.jpg"
+      }
+    },
+    {
+      "person": "Q1119208",
+      "name": "Andregoto Galíndez",
+      "role": "Conde / condesa de Aragón",
+      "start": "0922-01-01",
+      "end": "0942-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Andregoto_Gal%C3%ADndez",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

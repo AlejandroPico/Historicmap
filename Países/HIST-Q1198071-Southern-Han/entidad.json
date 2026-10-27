@@ -1,0 +1,59 @@
+{
+  "key": "HIST-Q1198071",
+  "name": "Southern Han",
+  "qid": "Q1198071",
+  "aliases": [
+    "Southern Han"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1198071"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3601",
+      "start": 911,
+      "end": 946,
+      "name": "Southern Han",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3790",
+      "start": 947,
+      "end": 959,
+      "name": "Southern Han",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3848",
+      "start": 960,
+      "end": 969,
+      "name": "Southern Han",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3949",
+      "start": 970,
+      "end": 979,
+      "name": "Southern Han",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

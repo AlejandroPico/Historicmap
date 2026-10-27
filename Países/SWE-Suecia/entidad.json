@@ -3560,6 +3560,74 @@
       "note": "La dignidad documentada no acredita dominio uniforme de todo el contorno de fuente. Síntesis anual; no calendario diario ni certificación de todo el contorno.",
       "startIsCoverageBoundary": false,
       "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q240258",
+      "role": "Jefatura del Estado",
+      "start": "0970-01-01",
+      "end": "0975-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q240258",
+      "sourceStatement": "Q240258-02335e2f-40dd-a261-a2db-f06fcdffc27e",
+      "office": "Q1268572",
+      "name": "Olof II de Suecia",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q1038586",
+      "role": "Jefatura del Estado",
+      "start": "0993-01-01",
+      "end": "0999-12-31",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q1038586",
+      "sourceStatement": "Q1038586-5c332d97-4ace-b997-17d4-55de206a9f83",
+      "office": "Q1268572",
+      "name": "Ring de Suecia",
+      "endIsCoverageBoundary": true,
+      "sourceEnd": "1000-01-01",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q318912",
+      "name": "Erico el Victorioso",
+      "role": "Rey de los suecos",
+      "start": "0970-01-01",
+      "end": "0995-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Eric_the_Victorious",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-4b3bff7b45c158ed6a13.jpg",
+        "title": "MELLIN(1850) p1.264 ERIK SEGERSALL.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:MELLIN(1850)_p1.264_ERIK_SEGERSALL.jpg",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MELLIN(1850)_p1.264_ERIK_SEGERSALL.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "This file is from the Mechanical Curator collection, a set of over 1 million images scanned from out-of-copyright books and released to Flickr Commons by the British Library in London, England. \n View image on Flickr \n View all images from book \n\n View catalogue entry for book. ",
+        "sha256": "c17b4cbdebfbf15c6053407a4ae11897a1e9a6eb57831551859511278ef987e2",
+        "bytes": 42042,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/MELLIN%281850%29_p1.264_ERIK_SEGERSALL.jpg/330px-MELLIN%281850%29_p1.264_ERIK_SEGERSALL.jpg",
+        "canonicalFile": "Países/SWE-Suecia/retratos/portrait-4b3bff7b45c158ed6a13.jpg"
+      }
+    },
+    {
+      "person": "Q313436",
+      "name": "Olaf Skötkonung",
+      "role": "Rey de los suecos",
+      "start": "0995-01-01",
+      "end": "0999-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Olof_Sk%C3%B6tkonung",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-900-0.27"
     }
   ],
   "portraitVariants": [],
@@ -3883,6 +3951,14 @@
       "end": null,
       "name": "Sweden",
       "status": null
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-4010",
+      "start": 980,
+      "end": 999,
+      "name": "Kingdom of Sweden",
+      "status": "Entidad histórica · reconstrucción anual"
     },
     {
       "file": "wartime-partitions.json",

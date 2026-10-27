@@ -1,0 +1,43 @@
+{
+  "key": "HIST-Q133032",
+  "name": "Magyars",
+  "qid": "Q133032",
+  "aliases": [
+    "Magyars"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q133032"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 17,
+      "start": null,
+      "end": null,
+      "name": "Magyars",
+      "status": null
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3567",
+      "start": 900,
+      "end": 910,
+      "name": "Magyars",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,318 @@
+{
+  "key": "HIST-Q171740",
+  "identity": {
+    "qid": "Q171740",
+    "name": "Caliphate of Córdoba"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q190418",
+      "name": "Abderramán III",
+      "role": "Califa de Córdoba",
+      "start": "0929-01-16",
+      "end": "0961-10-15",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abd_al-Rahman_III",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q284531",
+      "name": "Alhakén II",
+      "role": "Califa de Córdoba",
+      "start": "0961-01-01",
+      "end": "0976-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Al-Hakam_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-6548b446ea8c5e267a8a.jpg",
+        "title": "MonAlhakenII01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:MonAlhakenII01.jpg",
+        "artist": "Justo José Moreno Mérida",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Cordobapedia.",
+        "sha256": "8e201b331cc03fb39ee5097a3d4bec0b02067e560560cf2c60b7aa322738cec2",
+        "bytes": 71696,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/MonAlhakenII01.jpg/330px-MonAlhakenII01.jpg",
+        "canonicalFile": "Países/HIST-Q171740-Caliphate-of-Cordoba/retratos/portrait-6548b446ea8c5e267a8a.jpg"
+      }
+    },
+    {
+      "person": "Q169640",
+      "name": "Hisham II",
+      "role": "Califa de Córdoba",
+      "start": "0976-01-01",
+      "end": "0999-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hisham_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q334861",
+      "name": "Muhammad ibn Abd Allah al-Mansur",
+      "role": "Háyib · gobierno amirí",
+      "start": "0978-01-01",
+      "end": "0999-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Almanzor",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-1054b25a4d8b67747bf4.jpg",
+        "title": "Busto de Almanzor (26 de marzo de 2016, Calatañazor) 01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Busto_de_Almanzor_(26_de_marzo_de_2016,_Calata%C3%B1azor)_01.jpg",
+        "artist": "Discasto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "774d80fb2e7a1ff49034b775cf6164868c7422bc76c2f17a3d97833037deaed4",
+        "bytes": 33950,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Busto_de_Almanzor_%2826_de_marzo_de_2016%2C_Calata%C3%B1azor%29_01.jpg/330px-Busto_de_Almanzor_%2826_de_marzo_de_2016%2C_Calata%C3%B1azor%29_01.jpg",
+        "canonicalFile": "Países/HIST-Q171740-Caliphate-of-Cordoba/retratos/portrait-1054b25a4d8b67747bf4.jpg"
+      }
+    }
+  ],
+  "institutions": [
+    {
+      "id": "review027-cordoba",
+      "type": "institution",
+      "title": "Proclamación califal y poder amirí",
+      "start": "0929-01-01",
+      "end": "1000-01-01",
+      "text": "Abd al-Rahman III pasa de emir a califa en 929. Durante Hisham II elháyib Almanzor concentra poder efectivo sin convertirse en califa.",
+      "source": "https://tesauros.cultura.gob.es/tesauros/contextosculturales/1006745",
+      "sourceLabel": "Referencia documental · siglo X",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 929,
+      "end": 999,
+      "tags": [
+        "monarchy",
+        "caliphate",
+        "theocracy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q171740",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Califa de Córdoba",
+      "titles": [
+        "Abd al-Rahman III",
+        "Al-Hakam II",
+        "Hisham II"
+      ],
+      "officePattern": "Caliph|califa.*C[oó]rd",
+      "reviewedPhases": {
+        "Abd al-Rahman III": [
+          {
+            "start": "0929-01-16",
+            "end": "0961-10-15",
+            "role": "Califa de Córdoba"
+          }
+        ]
+      }
+    },
+    {
+      "role": "Háyib · gobierno amirí",
+      "titles": [
+        "Almanzor"
+      ],
+      "officePattern": "Caliph|califa.*C[oó]rd",
+      "reviewedPhases": {
+        "Almanzor": [
+          {
+            "start": "0978-01-01",
+            "end": "1002-08-08",
+            "role": "Háyib · gobierno amirí"
+          }
+        ]
+      }
+    }
+  ],
+  "officeBounds": [
+    "0929-01-16",
+    "0999-12-31"
+  ],
+  "acquiredLeaders": [
+    {
+      "person": "Q190418",
+      "role": "Jefatura del Estado",
+      "start": "0929-01-21",
+      "end": "0961-10-20",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q190418",
+      "sourceStatement": "Q190418-7d017dd7-4b56-13d0-7c6a-1a28a6f2ed29",
+      "office": "Q15057711",
+      "name": "Abderramán III"
+    },
+    {
+      "person": "Q284531",
+      "role": "Jefatura del Estado",
+      "start": "0961-01-01",
+      "end": "0976-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q284531",
+      "sourceStatement": "Q284531-e219db6e-4083-b30c-fb66-03c01bb6a1c8",
+      "office": "Q15057711",
+      "name": "Alhakén II"
+    },
+    {
+      "person": "Q169640",
+      "role": "Jefatura del Estado",
+      "start": "0976-01-01",
+      "end": "0999-12-31",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q169640",
+      "sourceStatement": "Q169640-9f72f11a-4a41-8ca8-bb46-9bae1d049379",
+      "office": "Q15057711",
+      "name": "Hisham II",
+      "endIsCoverageBoundary": true,
+      "sourceEnd": "1009-01-01"
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q190418",
+        "title": "Abd al-Rahman III",
+        "source": "https://en.wikipedia.org/wiki/Abd_al-Rahman_III",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Abd_al-Rahman_III"
+        }
+      },
+      {
+        "person": "Q284531",
+        "title": "Al-Hakam II",
+        "source": "https://en.wikipedia.org/wiki/Al-Hakam_II",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q15057711",
+          "start": "0961-01-01",
+          "end": "0976-01-01",
+          "precision": 9,
+          "statement": "Q284531$e219db6e-4083-b30c-fb66-03c01bb6a1c8",
+          "label": "califa de Córdoba"
+        }
+      },
+      {
+        "person": "Q169640",
+        "title": "Hisham II",
+        "source": "https://en.wikipedia.org/wiki/Hisham_II",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q15057711",
+          "start": "0976-01-01",
+          "end": "1009-01-01",
+          "precision": 9,
+          "statement": "Q169640$9f72f11a-4a41-8ca8-bb46-9bae1d049379",
+          "label": "califa de Córdoba"
+        }
+      },
+      {
+        "person": "Q334861",
+        "title": "Almanzor",
+        "source": "https://en.wikipedia.org/wiki/Almanzor",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Almanzor"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Emirate of Córdoba",
+          "Caliphate of Córdoba"
+        ],
+        "start": 929,
+        "end": 999,
+        "label": "Califato de Córdoba",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "El califa y el háyib amirí tienen funciones distintas; Almanzor no se convierte en califa. Geometría anual de síntesis, sin día uniforme."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-HIST-Q171740-929-C%C3%B3rdoba",
+      "keys": [
+        "HIST-Q171740"
+      ],
+      "name": "Córdoba",
+      "coordinates": [
+        -4.779,
+        37.888
+      ],
+      "start": 929,
+      "end": 999,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q171740",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review027-cordoba",
+      "type": "institution",
+      "title": "Proclamación califal y poder amirí",
+      "start": "0929-01-01",
+      "end": "1000-01-01",
+      "text": "Abd al-Rahman III pasa de emir a califa en 929. Durante Hisham II elháyib Almanzor concentra poder efectivo sin convertirse en califa.",
+      "source": "https://tesauros.cultura.gob.es/tesauros/contextosculturales/1006745",
+      "sourceLabel": "Referencia documental · siglo X",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q190418",
+      "title": "AtaiforDeGuadalajara-9100538 (cropped).jpg",
+      "accepted": false,
+      "note": "No acredita una representación individual del gobernante previsto."
+    },
+    {
+      "person": "Q284531",
+      "title": "MonAlhakenII01.jpg",
+      "accepted": true,
+      "note": "Inspección visual: retrato/representación individual atribuida."
+    },
+    {
+      "person": "Q334861",
+      "title": "Busto de Almanzor (26 de marzo de 2016, Calatañazor) 01.jpg",
+      "accepted": true,
+      "note": "Inspección visual: retrato/representación individual atribuida."
+    }
+  ]
+}

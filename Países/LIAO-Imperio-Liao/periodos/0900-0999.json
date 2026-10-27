@@ -1,0 +1,317 @@
+{
+  "key": "LIAO",
+  "identity": {
+    "qid": "Q4958",
+    "name": "Imperio Liao"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q4989",
+      "name": "A Bao Ji",
+      "role": "Kan de los kitán",
+      "start": "0907-01-01",
+      "end": "0915-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Taizu_of_Liao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q4989",
+      "name": "A Bao Ji",
+      "role": "Emperador Liao",
+      "start": "0916-01-01",
+      "end": "0926-09-06",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Taizu_of_Liao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q4991",
+      "name": "Liao Taizong",
+      "role": "Emperador Liao",
+      "start": "0927-12-11",
+      "end": "0947-05-15",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Taizong_of_Liao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q4991",
+      "name": "Liao Taizong",
+      "role": "Emperador Liao",
+      "start": "0947-02-24",
+      "end": "0947-05-15",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Taizong_of_Liao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q4992",
+      "name": "Liao Shizong",
+      "role": "Emperador Liao",
+      "start": "0947-05-16",
+      "end": "0951-10-07",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Shizong_of_Liao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q4993",
+      "name": "Liao Muzong",
+      "role": "Emperador Liao",
+      "start": "0951-10-11",
+      "end": "0969-03-12",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Muzong_of_Liao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q4997",
+      "name": "Liao Jingzong",
+      "role": "Emperador Liao",
+      "start": "0969-03-13",
+      "end": "0982-10-13",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Jingzong_of_Liao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q5000",
+      "name": "Liao Shengzong",
+      "role": "Emperador Liao",
+      "start": "0982-10-14",
+      "end": "0999-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Shengzong_of_Liao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "institutions": [
+    {
+      "id": "review027-khitan",
+      "type": "institution",
+      "title": "Jefatura kitán y título imperial",
+      "start": "0907-01-01",
+      "end": "0917-01-01",
+      "text": "Abaoji es kan desde 907 y adopta el título imperial en 916; el inicio del poder no se identifica automáticamente con la dignidad imperial.",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Chinese_Decorative_Arts_The_Metropolitan_Museum_of_Art_Bulletin_v_55_no_1_Summer_1997.pdf",
+      "sourceLabel": "Referencia documental · siglo X",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 900,
+      "end": 999,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q4958",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Emperador Liao",
+      "titles": [
+        "Emperor Taizu of Liao",
+        "Emperor Taizong of Liao",
+        "Emperor Shizong of Liao",
+        "Emperor Muzong of Liao",
+        "Emperor Jingzong of Liao",
+        "Emperor Shengzong of Liao"
+      ],
+      "officePattern": "Emperor|King|Prince|emperor|king|soberano|soverano|emperador|rey",
+      "reviewedPhases": {
+        "Emperor Taizu of Liao": [
+          {
+            "start": "0907-01-01",
+            "end": "0915-12-31",
+            "role": "Kan de los kitán"
+          },
+          {
+            "start": "0916-01-01",
+            "end": "0926-09-06",
+            "role": "Emperador Liao"
+          }
+        ]
+      }
+    }
+  ],
+  "officeBounds": [
+    "0900-01-01",
+    "0999-12-31"
+  ],
+  "officeResearch": {
+    "selected": 8,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q4989",
+        "title": "Emperor Taizu of Liao",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Taizu_of_Liao",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Emperor_Taizu_of_Liao"
+        }
+      },
+      {
+        "person": "Q4989",
+        "title": "Emperor Taizu of Liao",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Taizu_of_Liao",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Emperor_Taizu_of_Liao"
+        }
+      },
+      {
+        "person": "Q4991",
+        "title": "Emperor Taizong of Liao",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Taizong_of_Liao",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0927-12-11",
+          "end": "0947-05-15",
+          "precision": 11,
+          "statement": "Q4991$41c4320d-4ca7-efc4-4bff-c706d1ae6fd4",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q4991",
+        "title": "Emperor Taizong of Liao",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Taizong_of_Liao",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0947-02-24",
+          "end": "0947-05-15",
+          "precision": 11,
+          "statement": "Q4991$f8f384f4-46c3-95f4-046c-263929ba7bef",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q4992",
+        "title": "Emperor Shizong of Liao",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Shizong_of_Liao",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0947-05-16",
+          "end": "0951-10-07",
+          "precision": 11,
+          "statement": "Q4992$52f8f491-499b-cf87-4ec2-3277c7c09a34",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q4993",
+        "title": "Emperor Muzong of Liao",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Muzong_of_Liao",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0951-10-11",
+          "end": "0969-03-12",
+          "precision": 11,
+          "statement": "Q4993$b1371ca8-441f-32f8-e0a4-c523a8a58bc4",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q4997",
+        "title": "Emperor Jingzong of Liao",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Jingzong_of_Liao",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0969-03-13",
+          "end": "0982-10-13",
+          "precision": 11,
+          "statement": "Q4997$bdbd7ef9-4f71-3c99-83d7-94c3873f1672",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q5000",
+        "title": "Emperor Shengzong of Liao",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Shengzong_of_Liao",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0982-10-14",
+          "end": "1031-06-25",
+          "precision": 11,
+          "statement": "Q5000$1581d204-43d8-e947-da15-38a9b1c34fda",
+          "label": "Emperador de China"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Liao Dynasty"
+        ],
+        "start": 907,
+        "end": 999,
+        "label": "Poder kitán / imperio Liao",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "Abaoji es kan desde 907 y adopta el título imperial en 916; son hitos distintos. Geometría anual de síntesis, sin día uniforme."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-LIAO-918-Shangjing%20%C2%B7%20capital%20superior",
+      "keys": [
+        "LIAO"
+      ],
+      "name": "Shangjing · capital superior",
+      "coordinates": [
+        119.38,
+        43.97
+      ],
+      "start": 918,
+      "end": 999,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q4958",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review027-khitan",
+      "type": "institution",
+      "title": "Jefatura kitán y título imperial",
+      "start": "0907-01-01",
+      "end": "0917-01-01",
+      "text": "Abaoji es kan desde 907 y adopta el título imperial en 916; el inicio del poder no se identifica automáticamente con la dignidad imperial.",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Chinese_Decorative_Arts_The_Metropolitan_Museum_of_Art_Bulletin_v_55_no_1_Summer_1997.pdf",
+      "sourceLabel": "Referencia documental · siglo X",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "mediaReview": []
+}

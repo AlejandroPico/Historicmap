@@ -1,0 +1,51 @@
+{
+  "key": "FORMER-SHU",
+  "name": "Shu anterior",
+  "qid": "Q571453",
+  "aliases": [
+    "Shu anterior"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "FORMER-SHU"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q708651",
+      "name": "Wang Jian",
+      "role": "Emperador Shu anterior",
+      "start": "0907-11-03",
+      "end": "0918-07-11",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Wang_Jian_%28Former_Shu%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q1129329",
+      "name": "Wang Yan",
+      "role": "Emperador Shu anterior",
+      "start": "0918-07-12",
+      "end": "0925-12-15",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Wang_Zongyan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

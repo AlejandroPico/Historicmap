@@ -1,0 +1,43 @@
+{
+  "key": "HIST-Q1319681",
+  "name": "Qi Kingdom",
+  "qid": "Q1319681",
+  "aliases": [
+    "Qi Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1319681"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3649",
+      "start": 911,
+      "end": 921,
+      "name": "Qi Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3691",
+      "start": 922,
+      "end": 925,
+      "name": "Qi Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

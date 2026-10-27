@@ -1,0 +1,43 @@
+{
+  "key": "HIST-Q107994370",
+  "name": "Southern Wu",
+  "qid": "Q107994370",
+  "aliases": [
+    "Southern Wu"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q107994370"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3646",
+      "start": 911,
+      "end": 946,
+      "name": "Southern Wu",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3829",
+      "start": 947,
+      "end": 959,
+      "name": "Southern Wu",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

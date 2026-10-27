@@ -1,3 +1,4 @@
+import {isoYear} from './dates';
 import {escapeHtml as esc} from './profiles';
 import {administrationFor,dayBefore} from './territorial-administrations';
 import {portraitAt} from './portrait-series';
@@ -40,7 +41,7 @@ export function identityKey(p:Properties,year:number,data:IdentityData){
 }
 export function referenceDate(year:number,retrieved:string,now=new Date()){
   const today=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
-  return [`${year}-12-31`,retrieved,today].sort()[0];
+  return [`${isoYear(year)}-12-31`,retrieved,today].sort()[0];
 }
 function ownIdentityFor(p:Properties,year:number,data:IdentityData,now=new Date()){
   const key=identityKey(p,year,data), identity=data.countries[key];
@@ -48,7 +49,7 @@ function ownIdentityFor(p:Properties,year:number,data:IdentityData,now=new Date(
   const future=year>Number(data.retrieved.slice(0,4))||year>now.getFullYear();
   const valid=(a:{start:string;end:string})=>!future&&a.start<=date&&a.end>=date;
   const note=identity?.notes?.find(valid);
-  const first=`${year}-01-01`;
+  const first=`${isoYear(year)}-01-01`;
   // The map is an annual view. Show every mandate that intersects the year,
   // including short governments and both sides of a handover.
   let leaders=identity?.leaders.filter(l=>!future&&l.start<=date&&l.end>=first)??[];
@@ -102,7 +103,7 @@ export function identityFor(p:Properties,year:number,data:IdentityData,now=new D
  if(!administration)return {...base,administration:undefined,flagContext:undefined as string|undefined};
  const local=administration.localKey&&data.countries[administration.localKey]?ownIdentityFor({...p,status:'independent',identityKey:administration.localKey},year,data,now):base;
  const state=ownIdentityFor({identityKey:administration.admin},year,data,now);
- const first=`${year}-01-01`,last=state.date,relationEnd=administration.end?dayBefore(administration.end):data.retrieved;
+ const first=`${isoYear(year)}-01-01`,last=state.date,relationEnd=administration.end?dayBefore(administration.end):data.retrieved;
  const external:Leader[]=state.leaders.filter(l=>!administration.headOfStateOnly||/Estado|reina|rey|queen|king/i.test(l.role)).flatMap(l=>{
   const start=[l.start,administration.start].sort().at(-1)!,end=[l.end,relationEnd,data.retrieved].sort()[0];
   if(start>end||start>last||end<first)return[];
@@ -130,7 +131,7 @@ export function identityFor(p:Properties,year:number,data:IdentityData,now=new D
  return {...local,name:base.name,flag:local.flag??(useStateFlag?flagState.flag:undefined),leaders:[...localLeaders,...external],administration,flagContext:useStateFlag?`Símbolo ${flagAdmin==='UNTEA'?'de la administración de Naciones Unidas':'del Estado administrador'} · ${data.countries[flagAdmin]?.name??flagAdmin}`:undefined};
 }
 const dateLabel=(date:string,precision=11)=>{
-  const [y,m,d]=date.split('-');return precision<10?y:precision===10?`${Number(m)}/${y}`:`${Number(d)}/${Number(m)}/${y}`;
+  const [raw,m,d]=date.split('-'),y=String(Number(raw));return precision<10?y:precision===10?`${Number(m)}/${y}`:`${Number(d)}/${Number(m)}/${y}`;
 };
 export {dateLabel as formatMandateDate};
 function mandateQualifier(l:Leader,retrieved:string){

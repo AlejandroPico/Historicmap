@@ -1,0 +1,193 @@
+{
+  "key": "LATER-JIN-CHINA",
+  "identity": {
+    "qid": "Q1154540",
+    "name": "Jin posterior de China"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q1189495",
+      "name": "Shi Jingtang",
+      "role": "Emperador Jin posterior",
+      "start": "0936-11-28",
+      "end": "0942-07-28",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Shi_Jingtang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-de90d715a130c82e841e.jpg",
+        "title": "Shi Jingtang (Jin Gaozu).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Shi_Jingtang_(Jin_Gaozu).jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Shi_Jingtang_(Jin_Gaozu).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "中国历史博物馆保管部, ed.  (2003)  中国历代名人画像谱  1, 福州:  海峡文艺出版社, p. 54  ISBN:  7806407855. ",
+        "sha256": "e40546d1f70cf7f6202c8a191b47db11472b294253c7f82c9ee65ea385ff69d5",
+        "bytes": 27928,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Shi_Jingtang_%28Jin_Gaozu%29.jpg/330px-Shi_Jingtang_%28Jin_Gaozu%29.jpg",
+        "canonicalFile": "Países/LATER-JIN-CHINA-Jin-posterior-de-China/retratos/portrait-de90d715a130c82e841e.jpg"
+      }
+    },
+    {
+      "person": "Q1319472",
+      "name": "Shi Chonggui",
+      "role": "Emperador Jin posterior",
+      "start": "0942-01-01",
+      "end": "0947-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shi_Chonggui",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 936,
+      "end": 947,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1154540",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Emperador Jin posterior",
+      "titles": [
+        "Shi Jingtang",
+        "Shi Chonggui"
+      ],
+      "officePattern": "Emperor|King|Prince|emperor|king|soberano|soverano|emperador|rey",
+      "reviewedPhases": {}
+    }
+  ],
+  "officeBounds": [
+    "0936-01-01",
+    "0947-12-31"
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q1189495",
+        "title": "Shi Jingtang",
+        "source": "https://en.wikipedia.org/wiki/Shi_Jingtang",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0936-11-28",
+          "end": "0942-07-28",
+          "precision": 11,
+          "statement": "Q1189495$233c6e6a-4df5-4988-92a3-bce8c348fa4c",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q1319472",
+        "title": "Shi Chonggui",
+        "source": "https://en.wikipedia.org/wiki/Shi_Chonggui",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0942-01-01",
+          "end": "0947-01-01",
+          "precision": 9,
+          "statement": "Q1319472$30f3d357-a148-42db-ad16-58c8f8b62fe0",
+          "label": "Emperador de China"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Jin"
+        ],
+        "start": 936,
+        "end": 947,
+        "label": "Jin posterior · China del X",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "No el Estado manchú de Jin Posterior del siglo XVII ni el imperio Jin yurchen del XII. Geometría anual de síntesis, sin día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Jin"
+        ],
+        "start": 900,
+        "end": 935,
+        "label": "Jin posterior · China del X · referencia fuera de su etapa",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "La fuente prolonga esta etiqueta fuera de la fase documentada. No se acredita la continuidad de ese gobierno sobre toda su superficie."
+      }
+    },
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Jin"
+        ],
+        "start": 948,
+        "end": 999,
+        "label": "Jin posterior · China del X · referencia fuera de su etapa",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "La fuente prolonga esta etiqueta fuera de la fase documentada. No se acredita la continuidad de ese gobierno sobre toda su superficie."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-LATER-JIN-CHINA-936-Kaifeng",
+      "keys": [
+        "LATER-JIN-CHINA"
+      ],
+      "name": "Kaifeng",
+      "coordinates": [
+        114.308,
+        34.797
+      ],
+      "start": 936,
+      "end": 947,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q1154540",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1189495",
+      "title": "Shi Jingtang (Jin Gaozu).jpg",
+      "accepted": true,
+      "note": "Inspección visual: retrato/representación individual atribuida."
+    }
+  ]
+}

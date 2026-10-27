@@ -1,0 +1,137 @@
+{
+  "key": "FORMER-SHU",
+  "identity": {
+    "qid": "Q571453",
+    "name": "Shu anterior"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q708651",
+      "name": "Wang Jian",
+      "role": "Emperador Shu anterior",
+      "start": "0907-11-03",
+      "end": "0918-07-11",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Wang_Jian_%28Former_Shu%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1129329",
+      "name": "Wang Yan",
+      "role": "Emperador Shu anterior",
+      "start": "0918-07-12",
+      "end": "0925-12-15",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Wang_Zongyan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 907,
+      "end": 925,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q571453",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Emperador Shu anterior",
+      "titles": [
+        "Wang Jian (Former Shu)",
+        "Wang Zongyan"
+      ],
+      "officePattern": "Emperor|King|Prince|emperor|king|soberano|soverano|emperador|rey",
+      "reviewedPhases": {}
+    }
+  ],
+  "officeBounds": [
+    "0907-01-01",
+    "0925-12-31"
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q708651",
+        "title": "Wang Jian (Former Shu)",
+        "source": "https://en.wikipedia.org/wiki/Wang_Jian_%28Former_Shu%29",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0907-11-03",
+          "end": "0918-07-11",
+          "precision": 11,
+          "statement": "Q708651$17AEFF38-B975-451B-AE9B-D95FAD8D95C8",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q1129329",
+        "title": "Wang Zongyan",
+        "source": "https://en.wikipedia.org/wiki/Wang_Zongyan",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0918-07-12",
+          "end": "0925-12-15",
+          "precision": 11,
+          "statement": "Q1129329$1cdb29ee-4c31-d7b2-f5c8-9d04fa6fdd00",
+          "label": "Emperador de China"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Former Shu"
+        ],
+        "start": 907,
+        "end": 925,
+        "label": "Shu anterior",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "Reino regional de Sichuan, distinto de Shu Posterior. Geometría anual de síntesis, sin día uniforme."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-FORMER-SHU-907-Chengdu",
+      "keys": [
+        "FORMER-SHU"
+      ],
+      "name": "Chengdu",
+      "coordinates": [
+        104.066,
+        30.573
+      ],
+      "start": 907,
+      "end": 925,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q571453",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "mediaReview": []
+}

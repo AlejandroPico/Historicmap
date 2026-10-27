@@ -1,3 +1,4 @@
+import {isoYear} from './dates';
 import catalogue from '../public/data/historical-context.json';
 import {territorialEntityCode} from './history';
 
@@ -5,7 +6,7 @@ export type HistoricalEvent={id:string;title:string;type:'conflict'|'transition'
 export const historicalEvents=catalogue.events as HistoricalEvent[];
 export function eventsInYear(year:number,type?:HistoricalEvent['type']):HistoricalEvent[]{
  if(year<catalogue.startYear||year>catalogue.endYear)return [];
- const first=`${year}-01-01`,last=[`${year}-12-31`,catalogue.referenceDate].sort()[0];
+ const first=`${isoYear(year)}-01-01`,last=[`${isoYear(year)}-12-31`,catalogue.referenceDate].sort()[0];
  return historicalEvents.filter(e=>(!type||e.type===type)&&e.start<=last&&(!e.end||e.end>first));
 }
 export function eventsForCountry(p:Record<string,any>,year:number,type?:HistoricalEvent['type']):HistoricalEvent[]{

@@ -1,0 +1,137 @@
+{
+  "key": "LATER-SHU",
+  "identity": {
+    "qid": "Q526507",
+    "name": "Shu posterior"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q1149186",
+      "name": "Meng Zhixiang",
+      "role": "Emperador Shu posterior",
+      "start": "0934-03-16",
+      "end": "0934-09-07",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Meng_Zhixiang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1071718",
+      "name": "Meng Chang",
+      "role": "Emperador Shu posterior",
+      "start": "0934-09-10",
+      "end": "0965-02-23",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Meng_Chang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 934,
+      "end": 965,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q526507",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Emperador Shu posterior",
+      "titles": [
+        "Meng Zhixiang",
+        "Meng Chang"
+      ],
+      "officePattern": "Emperor|King|Prince|emperor|king|soberano|soverano|emperador|rey",
+      "reviewedPhases": {}
+    }
+  ],
+  "officeBounds": [
+    "0934-01-01",
+    "0965-12-31"
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q1149186",
+        "title": "Meng Zhixiang",
+        "source": "https://en.wikipedia.org/wiki/Meng_Zhixiang",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0934-03-16",
+          "end": "0934-09-07",
+          "precision": 11,
+          "statement": "Q1149186$8b1b8079-e53e-46b9-b29e-388a747be272",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q1071718",
+        "title": "Meng Chang",
+        "source": "https://en.wikipedia.org/wiki/Meng_Chang",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0934-09-10",
+          "end": "0965-02-23",
+          "precision": 11,
+          "statement": "Q1071718$8cc6d1bf-b20e-4e79-aa7b-413d6eda046e",
+          "label": "Emperador de China"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Shu"
+        ],
+        "start": 934,
+        "end": 965,
+        "label": "Shu posterior",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "No se adelanta su formación a la primera etapa Shu. Geometría anual de síntesis, sin día uniforme."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-LATER-SHU-934-Chengdu",
+      "keys": [
+        "LATER-SHU"
+      ],
+      "name": "Chengdu",
+      "coordinates": [
+        104.066,
+        30.573
+      ],
+      "start": 934,
+      "end": 965,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q526507",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "mediaReview": []
+}

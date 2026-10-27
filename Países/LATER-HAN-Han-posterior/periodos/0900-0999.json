@@ -1,0 +1,193 @@
+{
+  "key": "LATER-HAN",
+  "identity": {
+    "qid": "Q957429",
+    "name": "Han posterior"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q708522",
+      "name": "Liu Zhiyuan",
+      "role": "Emperador Han posterior",
+      "start": "0947-01-01",
+      "end": "0948-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Zhiyuan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-8808529a73928609caa8.jpg",
+        "title": "Liu Zhiyuan (Han Gaozu).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Liu_Zhiyuan_(Han_Gaozu).jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Liu_Zhiyuan_(Han_Gaozu).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "中国历史博物馆保管部, ed.  (2003)  中国历代名人画像谱  1, 福州:  海峡文艺出版社, p. 55  ISBN:  7806407855. ",
+        "sha256": "3559b21fc5de95390df5f97cf9c77d77194bb4554ebfa9d234aa8a682c45b0aa",
+        "bytes": 32285,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Liu_Zhiyuan_%28Han_Gaozu%29.jpg/330px-Liu_Zhiyuan_%28Han_Gaozu%29.jpg",
+        "canonicalFile": "Países/LATER-HAN-Han-posterior/retratos/portrait-8808529a73928609caa8.jpg"
+      }
+    },
+    {
+      "person": "Q713108",
+      "name": "Emperor Yin of Later Han",
+      "role": "Emperador Han posterior",
+      "start": "0948-01-01",
+      "end": "0951-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Chengyou",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 947,
+      "end": 951,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q957429",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Emperador Han posterior",
+      "titles": [
+        "Liu Zhiyuan",
+        "Liu Chengyou"
+      ],
+      "officePattern": "Emperor|King|Prince|emperor|king|soberano|soverano|emperador|rey",
+      "reviewedPhases": {}
+    }
+  ],
+  "officeBounds": [
+    "0947-01-01",
+    "0951-12-31"
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q708522",
+        "title": "Liu Zhiyuan",
+        "source": "https://en.wikipedia.org/wiki/Liu_Zhiyuan",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0947-01-01",
+          "end": "0948-01-01",
+          "precision": 9,
+          "statement": "Q708522$3310FD8D-FC04-4467-8ED1-9FD0FC114365",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q713108",
+        "title": "Liu Chengyou",
+        "source": "https://en.wikipedia.org/wiki/Liu_Chengyou",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0948-01-01",
+          "end": "0951-01-01",
+          "precision": 9,
+          "statement": "Q713108$75C06582-77DE-4BDD-B5D7-9AFF88183B46",
+          "label": "Emperador de China"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Han"
+        ],
+        "start": 947,
+        "end": 951,
+        "label": "Han posterior",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "Dinastía del X, distinta del Han antiguo. Geometría anual de síntesis, sin día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Han"
+        ],
+        "start": 900,
+        "end": 946,
+        "label": "Han posterior · referencia fuera de su etapa",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "La fuente prolonga esta etiqueta fuera de la fase documentada. No se acredita la continuidad de ese gobierno sobre toda su superficie."
+      }
+    },
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Han"
+        ],
+        "start": 952,
+        "end": 999,
+        "label": "Han posterior · referencia fuera de su etapa",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "La fuente prolonga esta etiqueta fuera de la fase documentada. No se acredita la continuidad de ese gobierno sobre toda su superficie."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-LATER-HAN-947-Kaifeng",
+      "keys": [
+        "LATER-HAN"
+      ],
+      "name": "Kaifeng",
+      "coordinates": [
+        114.308,
+        34.797
+      ],
+      "start": 947,
+      "end": 951,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q957429",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q708522",
+      "title": "Liu Zhiyuan (Han Gaozu).jpg",
+      "accepted": true,
+      "note": "Inspección visual: retrato/representación individual atribuida."
+    }
+  ]
+}

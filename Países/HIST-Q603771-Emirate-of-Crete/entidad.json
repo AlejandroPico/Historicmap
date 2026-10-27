@@ -1,0 +1,43 @@
+{
+  "key": "HIST-Q603771",
+  "name": "Emirate of Crete",
+  "qid": "Q603771",
+  "aliases": [
+    "Emirate of Crete"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q603771"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3089",
+      "start": 900,
+      "end": 959,
+      "name": "Emirate of Crete",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3894",
+      "start": 960,
+      "end": 960,
+      "name": "Emirate of Crete",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

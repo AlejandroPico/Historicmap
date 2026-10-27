@@ -1,0 +1,59 @@
+{
+  "key": "HIST-Q1193822",
+  "name": "Wuyue",
+  "qid": "Q1193822",
+  "aliases": [
+    "Wuyue"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1193822"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3631",
+      "start": 911,
+      "end": 946,
+      "name": "Wuyue",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3817",
+      "start": 947,
+      "end": 959,
+      "name": "Wuyue",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3874",
+      "start": 960,
+      "end": 969,
+      "name": "Wuyue",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3932",
+      "start": 970,
+      "end": 979,
+      "name": "Wuyue",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

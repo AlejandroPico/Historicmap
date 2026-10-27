@@ -1,3 +1,4 @@
+import {isoYear} from './dates';
 import {escapeHtml as esc} from './profiles';
 import {identityKey,formatMandateDate,type IdentityData} from './identities';
 import {historicalEvents} from './historical-context';
@@ -17,7 +18,7 @@ export function relationshipMarkup(key:string,data:CountryHistory){
  }).join('')}</div>`:'<p class="profile-note">No hay relaciones de predecesión o sucesión documentadas para esta entidad en el catálogo.</p>';
 }
 export function recordsFor(key:string,section:CountryRecord['section'],year:number,data:CountryHistory){
- const last=[`${year}-12-31`,data.referenceDate].sort()[0],first=`${year}-01-01`;
+ const last=[`${isoYear(year)}-12-31`,data.referenceDate].sort()[0],first=`${isoYear(year)}-01-01`;
  if(first>data.referenceDate)return [];
  return data.records.filter(r=>r.keys.includes(key)&&r.section===section&&r.start<=last&&(!r.end||r.end>first));
 }
@@ -44,7 +45,7 @@ export function countryTimeline(p:Record<string,any>,year:number,identities:Iden
  return [...new Map(result.filter(e=>/^\d{4}-\d{2}-\d{2}$/.test(e.date)&&e.date<=limit).map(e=>[e.id,e])).values()].sort((a,b)=>b.date.localeCompare(a.date)||a.title.localeCompare(b.title));
 }
 export function timelineMarkup(p:Record<string,any>,year:number,identities:IdentityData,history:CountryHistory,filter='all',future=false,expanded=false){
- const all=countryTimeline(p,year,identities,history),entries=all.filter(e=>(future||e.date<=`${year}-12-31`)&&(filter==='all'||e.type===filter));
+ const all=countryTimeline(p,year,identities,history),entries=all.filter(e=>(future||e.date<=`${isoYear(year)}-12-31`)&&(filter==='all'||e.type===filter));
  const shown=expanded?entries:entries.slice(0,35);
  return `<div class="timeline-controls"><label class="workspace-field">Acontecimientos<select id="timeline-filter">${[['all','Todos'],['authorities','Autoridades'],['symbols','Símbolos'],['territory','Territorio'],['relations','Relaciones'],['history','Instituciones e historia'],['conflicts','Conflictos']].map(([v,label])=>`<option value="${v}" ${v===filter?'selected':''}>${label}</option>`).join('')}</select></label><label class="workspace-check"><input type="checkbox" id="timeline-future" ${future?'checked':''}> Incluir registros posteriores a ${year}</label></div><p class="profile-note">${entries.length} registros documentados. Pulsa una fecha para verla en el mapa. Los inicios de serie y las fechas aproximadas conservan su significado de fuente.</p><ol class="country-timeline">${shown.map(e=>`<li><button class="timeline-date" data-jump-year="${Number(e.date.slice(0,4))}">${esc(formatMandateDate(e.date,e.precision))}</button><h3>${esc(e.title)}</h3>${e.detail?`<p>${esc(e.detail)}</p>`:''}<a class="profile-source" href="${esc(e.source)}" target="_blank" rel="noopener">Fuente ↗</a></li>`).join('')}</ol>${!entries.length?'<p>No hay acontecimientos documentados para este filtro y fecha.</p>':''}${!expanded&&entries.length>shown.length?`<button class="secondary-button" id="timeline-expand">Ver los ${entries.length} registros</button>`:''}`;
 }

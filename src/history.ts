@@ -1,3 +1,4 @@
+import {isoYear} from './dates';
 import type {Feature, FeatureCollection, MultiPolygon, Polygon, Position} from 'geojson';
 export type Period = {fid:number; gwcode:number; country_name:string; start:string; end:string; status:string; owner:string; capname:string; caplong:number; caplat:number; b_def:number};
 type TopologyGeometry = {type:'Polygon'|'MultiPolygon';arcs:number[][]|number[][][];properties:Period};
@@ -88,7 +89,7 @@ export function territorialEntityCode(p:Record<string,any>,year:number):string{
   return aliases[p.code]??p.code??'';
 }
 export const normalizedName=norm;
-export function periodsAt(topology:HistoryTopology,year:number){const date=`${year}-12-31`;return topology.objects.countries.geometries.filter(g=>{
+export function periodsAt(topology:HistoryTopology,year:number){const date=`${isoYear(year)}-12-31`;return topology.objects.countries.geometries.filter(g=>{
   const p=g.properties;
   // Retain the original record and correct only its observed validity. The
   // treaty was implemented in1920 and annexation occurred in1939, not1938.
@@ -152,7 +153,7 @@ export function historicalCapitals(data:FeatureCollection):FeatureCollection{
 
 /** Add date-bounded reference contours without extending independent successors backwards. */
 export function withHistoricalSupplements(data:FeatureCollection,year:number,supplements:FeatureCollection,preSaharaPartition:FeatureCollection):FeatureCollection{
-  const date=`${year}-12-31`;
+  const date=`${isoYear(year)}-12-31`;
   const features=data.features.map(f=>{
     const code=f.properties?.code;
     // CShapes incorporates claimed Saharan sectors into MAR/MRT in 1975.

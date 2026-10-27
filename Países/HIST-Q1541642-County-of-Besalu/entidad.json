@@ -1,0 +1,115 @@
+{
+  "key": "HIST-Q1541642",
+  "name": "County of Besalú",
+  "qid": "Q1541642",
+  "aliases": [
+    "County of Besalú"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1541642"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q2043842",
+      "role": "Jefatura del Estado",
+      "start": "0957-01-01",
+      "end": "0968-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q2043842",
+      "sourceStatement": "Q2043842-f031f0b3-4e5a-7af9-1d4e-16ba14961b88",
+      "office": "Q62559403",
+      "name": "Sunifredo II de Cerdaña",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q2044232",
+      "role": "Jefatura del Estado",
+      "start": "0968-01-01",
+      "end": "0984-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q2044232",
+      "sourceStatement": "Q2044232-cd103337-4214-97c7-f36d-0fade201520a",
+      "office": "Q62559403",
+      "name": "Miró III de Cerdaña",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q2499376",
+      "role": "Jefatura del Estado",
+      "start": "0984-01-01",
+      "end": "0988-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q2499376",
+      "sourceStatement": "Q2499376-265b6e29-4514-a5c3-976b-9752d18eb8ca",
+      "office": "Q62559403",
+      "name": "Oliba Cabreta",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3526",
+      "start": 900,
+      "end": 921,
+      "name": "County of Besalú",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3762",
+      "start": 936,
+      "end": 959,
+      "name": "County of Besalú",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3857",
+      "start": 960,
+      "end": 960,
+      "name": "County of Besalú",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3904",
+      "start": 961,
+      "end": 969,
+      "name": "County of Besalú",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3958",
+      "start": 970,
+      "end": 979,
+      "name": "County of Besalú",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3990",
+      "start": 980,
+      "end": 989,
+      "name": "County of Besalú",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

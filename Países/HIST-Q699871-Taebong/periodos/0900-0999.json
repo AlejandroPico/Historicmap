@@ -1,0 +1,135 @@
+{
+  "key": "HIST-Q699871",
+  "identity": {
+    "qid": "Q699871",
+    "name": "Taebong"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q486308",
+      "name": "Gung Ye",
+      "role": "Rey de Taebong",
+      "start": "0901-07-01",
+      "end": "0918-07-24",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Gung_Ye",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-9667c86073eb454c1f5a.jpg",
+        "title": "궁예.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%EA%B6%81%EC%98%88.jpg",
+        "artist": "(Wikibotbot) 위키봇봇",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "53084abe4c28c8042dfefce1b1ac723f58ca984ca2dc85132d2ab94a7012b1ad",
+        "bytes": 35945,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/%EA%B6%81%EC%98%88.jpg",
+        "canonicalFile": "Países/HIST-Q699871-Taebong/retratos/portrait-9667c86073eb454c1f5a.jpg"
+      }
+    }
+  ],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 900,
+      "end": 999,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q699871",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Rey de Taebong",
+      "titles": [
+        "Gung Ye"
+      ],
+      "officePattern": "King|rey",
+      "reviewedPhases": {}
+    }
+  ],
+  "officeBounds": [
+    "0900-01-01",
+    "0999-12-31"
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q486308",
+        "title": "Gung Ye",
+        "source": "https://en.wikipedia.org/wiki/Gung_Ye",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Taebong",
+          "raw": "July 901 – 24 July 918{{efn|In the [[Korean calendar]] ([[lunisolar calendar|lunisolar]]), he reigned from July 901 until 14 June 918.}}",
+          "parsed": {
+            "start": "0901-07-01",
+            "end": "0918-07-24",
+            "precision": 10
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Taebong"
+        ],
+        "start": 901,
+        "end": 918,
+        "label": "Taebong y Goguryeo posterior",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "Gung Ye es depuesto en 918; no es el Goguryeo antiguo. Geometría anual de síntesis, sin día uniforme."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-HIST-Q699871-905-Cheorwon",
+      "keys": [
+        "HIST-Q699871"
+      ],
+      "name": "Cheorwon",
+      "coordinates": [
+        127.288,
+        38.147
+      ],
+      "start": 905,
+      "end": 918,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q699871",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q486308",
+      "title": "궁예.jpg",
+      "accepted": true,
+      "note": "Inspección visual: retrato/representación individual atribuida."
+    }
+  ]
+}

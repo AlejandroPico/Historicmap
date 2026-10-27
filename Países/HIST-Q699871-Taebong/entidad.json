@@ -1,0 +1,63 @@
+{
+  "key": "HIST-Q699871",
+  "name": "Taebong",
+  "qid": "Q699871",
+  "aliases": [
+    "Taebong"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q699871"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q486308",
+      "name": "Gung Ye",
+      "role": "Rey de Taebong",
+      "start": "0901-07-01",
+      "end": "0918-07-24",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Gung_Ye",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-9667c86073eb454c1f5a.jpg",
+        "title": "궁예.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%EA%B6%81%EC%98%88.jpg",
+        "artist": "(Wikibotbot) 위키봇봇",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "53084abe4c28c8042dfefce1b1ac723f58ca984ca2dc85132d2ab94a7012b1ad",
+        "bytes": 35945,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/%EA%B6%81%EC%98%88.jpg",
+        "canonicalFile": "Países/HIST-Q699871-Taebong/retratos/portrait-9667c86073eb454c1f5a.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3628",
+      "start": 911,
+      "end": 921,
+      "name": "Taebong",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,333 @@
+{
+  "key": "KHM",
+  "identity": {
+    "qid": "Q424",
+    "name": "Camboya"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q559810",
+      "name": "Yasovarman I",
+      "role": "Rey del ámbito jemer",
+      "start": "0900-01-01",
+      "end": "0910-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yasovarman_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q130772",
+      "name": "Harshavarman I",
+      "role": "Rey del ámbito jemer",
+      "start": "0912-01-01",
+      "end": "0923-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Harshavarman_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q130771",
+      "name": "Ishanavarman II",
+      "role": "Rey del ámbito jemer",
+      "start": "0923-01-01",
+      "end": "0928-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ishanavarman_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q130708",
+      "name": "Jayavarman IV",
+      "role": "Rey del ámbito jemer",
+      "start": "0928-01-01",
+      "end": "0941-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jayavarman_IV",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q130218",
+      "name": "Harshavarman II",
+      "role": "Rey del ámbito jemer",
+      "start": "0941-01-01",
+      "end": "0944-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Harshavarman_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q130383",
+      "name": "Rajendravarman II",
+      "role": "Rey del ámbito jemer",
+      "start": "0944-01-01",
+      "end": "0968-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rajendravarman",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q888762",
+      "name": "Jayavarman V",
+      "role": "Rey del ámbito jemer",
+      "start": "0968-01-01",
+      "end": "0999-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jayavarman_V",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "institutions": [
+    {
+      "id": "review027-khmer",
+      "type": "institution",
+      "title": "Cortes de Angkor y Koh Ker",
+      "start": "0928-01-01",
+      "end": "0945-01-01",
+      "text": "El cambio de corte a Koh Ker y el regreso a Angkor se distinguen; una sede no prueba una residencia fija de todos los soberanos.",
+      "source": "https://whc.unesco.org/en/list/1667/",
+      "sourceLabel": "Referencia documental · siglo X",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 900,
+      "end": 999,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q424",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Rey del ámbito jemer",
+      "titles": [
+        "Yasovarman I",
+        "Harshavarman I",
+        "Ishanavarman II",
+        "Jayavarman IV",
+        "Harshavarman II",
+        "Rajendravarman",
+        "Jayavarman V"
+      ],
+      "officePattern": "King.*Cambod|King.*Khmer|rey.*Camboya",
+      "reviewedPhases": {}
+    }
+  ],
+  "officeBounds": [
+    "0900-01-01",
+    "0999-12-31"
+  ],
+  "officeResearch": {
+    "selected": 7,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q559810",
+        "title": "Yasovarman I",
+        "source": "https://en.wikipedia.org/wiki/Yasovarman_I",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q42298242",
+          "start": "0889-01-01",
+          "end": "0910-01-01",
+          "precision": 9,
+          "statement": "Q559810$722d5e1c-4377-d272-a83c-ebadc09e38ba",
+          "label": "Rey de Camboya"
+        }
+      },
+      {
+        "person": "Q130772",
+        "title": "Harshavarman I",
+        "source": "https://en.wikipedia.org/wiki/Harshavarman_I",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q42298242",
+          "start": "0912-01-01",
+          "end": "0923-01-01",
+          "precision": 9,
+          "statement": "Q130772$71c5dae7-4588-1d3d-5693-6d35829784ed",
+          "label": "Rey de Camboya"
+        }
+      },
+      {
+        "person": "Q130771",
+        "title": "Ishanavarman II",
+        "source": "https://en.wikipedia.org/wiki/Ishanavarman_II",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q42298242",
+          "start": "0923-01-01",
+          "end": "0928-01-01",
+          "precision": 9,
+          "statement": "Q130771$4f9d3284-4e29-e837-0ffa-794fbe57b4c1",
+          "label": "Rey de Camboya"
+        }
+      },
+      {
+        "person": "Q130708",
+        "title": "Jayavarman IV",
+        "source": "https://en.wikipedia.org/wiki/Jayavarman_IV",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q42298242",
+          "start": "0928-01-01",
+          "end": "0941-01-01",
+          "precision": 9,
+          "statement": "Q130708$4c5bcca1-4082-967e-2064-6c5f93bbba2a",
+          "label": "Rey de Camboya"
+        }
+      },
+      {
+        "person": "Q130218",
+        "title": "Harshavarman II",
+        "source": "https://en.wikipedia.org/wiki/Harshavarman_II",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q42298242",
+          "start": "0941-01-01",
+          "end": "0944-01-01",
+          "precision": 9,
+          "statement": "Q130218$dba6eec5-4b31-65da-90f0-03259fc6cbf1",
+          "label": "Rey de Camboya"
+        }
+      },
+      {
+        "person": "Q130383",
+        "title": "Rajendravarman",
+        "source": "https://en.wikipedia.org/wiki/Rajendravarman",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q42298242",
+          "start": "0944-01-01",
+          "end": "0968-01-01",
+          "precision": 9,
+          "statement": "Q130383$76856529-4ce3-4e52-4bf8-8a1c14ee3843",
+          "label": "Rey de Camboya"
+        }
+      },
+      {
+        "person": "Q888762",
+        "title": "Jayavarman V",
+        "source": "https://en.wikipedia.org/wiki/Jayavarman_V",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q42298242",
+          "start": "0968-01-01",
+          "end": "1000-01-01",
+          "precision": 9,
+          "statement": "Q888762$315b3c1e-4167-881a-9d5a-5e1d89c0ca64",
+          "label": "Rey de Camboya"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Khmer Empire"
+        ],
+        "start": 900,
+        "end": 999,
+        "label": "Poderes jemeres",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "Cortes de Angkor y Koh Ker por fases; no una capital única de todo el siglo. Geometría anual de síntesis, sin día uniforme."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-KHM-900-Angkor",
+      "keys": [
+        "KHM"
+      ],
+      "name": "Angkor",
+      "coordinates": [
+        103.867,
+        13.412
+      ],
+      "start": 900,
+      "end": 927,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q424",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    },
+    {
+      "id": "seat027-KHM-928-Koh%20Ker",
+      "keys": [
+        "KHM"
+      ],
+      "name": "Koh Ker",
+      "coordinates": [
+        104.539,
+        13.783
+      ],
+      "start": 928,
+      "end": 944,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q424",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    },
+    {
+      "id": "seat027-KHM-944-Angkor",
+      "keys": [
+        "KHM"
+      ],
+      "name": "Angkor",
+      "coordinates": [
+        103.867,
+        13.412
+      ],
+      "start": 944,
+      "end": 999,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q424",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review027-khmer",
+      "type": "institution",
+      "title": "Cortes de Angkor y Koh Ker",
+      "start": "0928-01-01",
+      "end": "0945-01-01",
+      "text": "El cambio de corte a Koh Ker y el regreso a Angkor se distinguen; una sede no prueba una residencia fija de todos los soberanos.",
+      "source": "https://whc.unesco.org/en/list/1667/",
+      "sourceLabel": "Referencia documental · siglo X",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q559810",
+      "title": "PSM V30 D337 Statue of the leprous king founder of angkor wat.jpg",
+      "accepted": false,
+      "note": "No acredita una representación individual del gobernante previsto."
+    }
+  ]
+}

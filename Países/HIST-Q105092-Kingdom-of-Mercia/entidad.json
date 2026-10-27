@@ -1,0 +1,72 @@
+{
+  "key": "HIST-Q105092",
+  "name": "Kingdom of Mercia",
+  "qid": "Q105092",
+  "aliases": [
+    "Kingdom of Mercia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q105092"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q192925",
+      "role": "Jefatura del Estado",
+      "start": "0957-01-01",
+      "end": "0959-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q192925",
+      "sourceStatement": "Q192925-03806062-4e97-4c0d-34bc-21232819e6cc",
+      "office": "Q21013651",
+      "name": "Edgar el Pacífico",
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-2a4eb635d284f89de040.jpg",
+        "title": "New Minster Charter 966 detail Edgar.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:New_Minster_Charter_966_detail_Edgar.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:New_Minster_Charter_966_detail_Edgar.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Scanned from the book The National Portrait Gallery History of the Kings and Queens of England by David Williamson, ISBN 1855142287.",
+        "sha256": "dc8829d19060e16b75b6929b7d3b7ab98c600dcc5014d187df06ff4de102721e",
+        "bytes": 72949,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/New_Minster_Charter_966_detail_Edgar.jpg/330px-New_Minster_Charter_966_detail_Edgar.jpg",
+        "canonicalFile": "Países/HIST-Q105092-Kingdom-of-Mercia/retratos/portrait-2a4eb635d284f89de040.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3549",
+      "start": 900,
+      "end": 921,
+      "name": "Kingdom of Mercia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3670",
+      "start": 922,
+      "end": 925,
+      "name": "Kingdom of Mercia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

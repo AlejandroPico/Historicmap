@@ -1,0 +1,94 @@
+{
+  "key": "TANG",
+  "name": "Imperio Tang",
+  "qid": "Q9683",
+  "aliases": [
+    "Imperio Tang"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "TANG"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q9891",
+      "name": "Zhao Zong",
+      "role": "Emperador Tang",
+      "start": "0900-01-01",
+      "end": "0900-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Zhaozong_of_Tang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-b98ec6af37dd76d23e78.jpg",
+        "title": "Zhaozong.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Zhaozong.jpg",
+        "artist": "Ancient Chinese Artist.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Zhaozong.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://kknews.cc/zh-mo/history/4xa5lz3.html",
+        "sha256": "846a10a65e749acd81fcb7b65fe657d7f8ec7791988a94c7aa6c24a3cafc6461",
+        "bytes": 32933,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Zhaozong.jpg/330px-Zhaozong.jpg",
+        "canonicalFile": "Países/TANG-Imperio-Tang/retratos/portrait-b98ec6af37dd76d23e78.jpg"
+      }
+    },
+    {
+      "person": "Q9891",
+      "name": "Zhao Zong",
+      "role": "Emperador Tang",
+      "start": "0901-01-01",
+      "end": "0904-09-22",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Zhaozong_of_Tang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-b98ec6af37dd76d23e78.jpg",
+        "title": "Zhaozong.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Zhaozong.jpg",
+        "artist": "Ancient Chinese Artist.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Zhaozong.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://kknews.cc/zh-mo/history/4xa5lz3.html",
+        "sha256": "846a10a65e749acd81fcb7b65fe657d7f8ec7791988a94c7aa6c24a3cafc6461",
+        "bytes": 32933,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Zhaozong.jpg/330px-Zhaozong.jpg",
+        "canonicalFile": "Países/TANG-Imperio-Tang/retratos/portrait-b98ec6af37dd76d23e78.jpg"
+      }
+    },
+    {
+      "person": "Q9892",
+      "name": "Ai Di",
+      "role": "Emperador Tang",
+      "start": "0904-09-27",
+      "end": "0907-05-12",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ai_of_Tang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

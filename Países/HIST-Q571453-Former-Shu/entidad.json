@@ -1,0 +1,68 @@
+{
+  "key": "HIST-Q571453",
+  "name": "Former Shu",
+  "qid": "Q571453",
+  "aliases": [
+    "Former Shu"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q571453"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q708651",
+      "role": "Jefatura del Estado",
+      "start": "0907-01-01",
+      "end": "0918-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q571453",
+      "sourceStatement": "Q571453$2a6cd664-43a0-211f-46b2-a9d8b89bfcba",
+      "name": "Wang Jian",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q1129329",
+      "role": "Jefatura del Estado",
+      "start": "0918-01-01",
+      "end": "0925-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q571453",
+      "sourceStatement": "Q571453$46f61ad3-441f-dd12-2ebb-06a08cc60749",
+      "name": "Wang Yan",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3618",
+      "start": 911,
+      "end": 921,
+      "name": "Former Shu",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3662",
+      "start": 922,
+      "end": 925,
+      "name": "Former Shu",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

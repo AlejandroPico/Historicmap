@@ -1,0 +1,83 @@
+{
+  "key": "ASTURIAS",
+  "name": "Reino de Asturias",
+  "qid": "Q231392",
+  "aliases": [
+    "Reino de Asturias"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "ASTURIAS"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q311138",
+      "name": "Alfonso III de Asturias",
+      "role": "Rey de Asturias",
+      "start": "0900-01-01",
+      "end": "0910-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Alfonso_III_of_Asturias",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-c5f085d162cc72d459c2.jpg",
+        "title": "Afonso III o Magno (Tumbo A), r.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Afonso_III_o_Magno_(Tumbo_A),_r.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Afonso_III_o_Magno_(Tumbo_A),_r.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Tumbo A da Catedral de Santiago de Compostela",
+        "sha256": "1bc3087d2f0847b21fef49e9b325781d35ec94935c23d1cd984316c78283af78",
+        "bytes": 62626,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Afonso_III_o_Magno_%28Tumbo_A%29%2C_r.jpg/330px-Afonso_III_o_Magno_%28Tumbo_A%29%2C_r.jpg",
+        "canonicalFile": "Países/ASTURIAS-Reino-de-Asturias/retratos/portrait-c5f085d162cc72d459c2.jpg"
+      }
+    },
+    {
+      "person": "Q333603",
+      "name": "Fruela II de León",
+      "role": "Rey de Asturias",
+      "start": "0910-01-01",
+      "end": "0910-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Fruela_II_of_Asturias",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-13945c03dd823e9109cd.jpg",
+        "title": "Miniatura de Fruela II el Leproso, rey de León.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Miniatura_de_Fruela_II_el_Leproso,_rey_de_Le%C3%B3n.JPG",
+        "artist": "Lancastermerrin88",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Miniatura_de_Fruela_II_el_Leproso,_rey_de_Le%C3%B3n.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "El Murrial. Algunos pasajes y episodios de la historia de León",
+        "sha256": "5498082c31d804396fb10ad1aa319621abcc4f16cfafbe588731642cf73ca6e0",
+        "bytes": 46471,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Miniatura_de_Fruela_II_el_Leproso%2C_rey_de_Le%C3%B3n.JPG/330px-Miniatura_de_Fruela_II_el_Leproso%2C_rey_de_Le%C3%B3n.JPG",
+        "canonicalFile": "Países/ASTURIAS-Reino-de-Asturias/retratos/portrait-13945c03dd823e9109cd.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

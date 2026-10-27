@@ -1,0 +1,97 @@
+{
+  "key": "WESSEX",
+  "name": "Reino de Wessex",
+  "qid": "Q105313",
+  "aliases": [
+    "Reino de Wessex"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WESSEX"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q187114",
+      "name": "Eduardo el Viejo",
+      "role": "Rey de los anglosajones",
+      "start": "0900-01-01",
+      "end": "0924-07-17",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Edward_the_Elder",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-d65535e1449aa27a6280.jpg",
+        "title": "Edward the Elder - MS Royal 14 B V.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Edward_the_Elder_-_MS_Royal_14_B_V.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Edward_the_Elder_-_MS_Royal_14_B_V.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_14_B_V",
+        "sha256": "fbb105d35bcfa1fa5410473a98aa79b4232d105be23edc3c89a922513b3088da",
+        "bytes": 45986,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Edward_the_Elder_-_MS_Royal_14_B_V.jpg/330px-Edward_the_Elder_-_MS_Royal_14_B_V.jpg",
+        "canonicalFile": "Países/WESSEX-Reino-de-Wessex/retratos/portrait-d65535e1449aa27a6280.jpg"
+      }
+    },
+    {
+      "person": "Q272322",
+      "name": "Ethelweard",
+      "role": "Rey de Wessex · sucesión breve y discutida",
+      "start": "0924-07-17",
+      "end": "0924-08-02",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%C3%86lfweard_of_Wessex",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q170017",
+      "name": "Athelstan",
+      "role": "Rey de los anglosajones",
+      "start": "0924-01-01",
+      "end": "0926-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%C3%86thelstan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-32a5cc4ac8120988ee2a.jpg",
+        "title": "King.athelstan.tomb.arp.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:King.athelstan.tomb.arp.jpg",
+        "artist": "Arpingstone",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King.athelstan.tomb.arp.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Own work",
+        "sha256": "0a6dafbde119b0db65244d2a9e25629e02e727c7f6d335854d4b9dfef4d1af05",
+        "bytes": 33320,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/King.athelstan.tomb.arp.jpg/330px-King.athelstan.tomb.arp.jpg",
+        "display": "full-frame",
+        "caption": "Efigie funeraria posterior atribuida a Athelstan.",
+        "presentationNote": "Efigie funeraria posterior atribuida a Athelstan.",
+        "canonicalFile": "Países/WESSEX-Reino-de-Wessex/retratos/portrait-32a5cc4ac8120988ee2a.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

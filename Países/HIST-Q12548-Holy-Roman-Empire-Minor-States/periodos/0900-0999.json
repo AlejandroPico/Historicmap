@@ -1,0 +1,330 @@
+{
+  "key": "HIST-Q12548",
+  "identity": {
+    "qid": "Q12548",
+    "name": "Holy Roman Empire Minor States"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q43915",
+      "name": "Otón I del Sacro Imperio Romano Germánico",
+      "role": "Emperador del Sacro Imperio",
+      "start": "0962-02-02",
+      "end": "0973-05-07",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Otto_I%2C_Holy_Roman_Emperor",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q150512",
+      "name": "Otón II",
+      "role": "Emperador · asociado hasta973",
+      "start": "0967-12-25",
+      "end": "0983-12-07",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Otto_II%2C_Holy_Roman_Emperor",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-95a1850071f941343653.jpg",
+        "title": "Otton2.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Otton2.JPG",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Otton2.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "",
+        "sha256": "3c8e7ec8289f664c2649400000dca8323f898419d5b79fceccd79a1fba2020ec",
+        "bytes": 76849,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Otton2.JPG/330px-Otton2.JPG",
+        "display": "full-frame",
+        "caption": "Miniatura imperial de Otón III.",
+        "presentationNote": "Miniatura imperial de Otón III.",
+        "canonicalFile": "Países/HIST-Q12548-Holy-Roman-Empire-Minor-States/retratos/portrait-95a1850071f941343653.jpg"
+      }
+    },
+    {
+      "person": "Q151090",
+      "name": "Otón III del Sacro Imperio Romano Germánico",
+      "role": "Emperador del Sacro Imperio",
+      "start": "0996-05-21",
+      "end": "0999-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Otto_III%2C_Holy_Roman_Emperor",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-14a58bf1eef361827ba6.jpg",
+        "title": "Clm 4453 fol 24r Detail Herrscherbild.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Clm_4453_fol_24r_Detail_Herrscherbild.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Clm_4453_fol_24r_Detail_Herrscherbild.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00096593_00019/full/full/0/default.jpg",
+        "sha256": "f04754b0f8c32e64c9520f560ce1814a19c9d066728092edd15fe0008f0b465b",
+        "bytes": 51055,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Clm_4453_fol_24r_Detail_Herrscherbild.jpg/330px-Clm_4453_fol_24r_Detail_Herrscherbild.jpg",
+        "canonicalFile": "Países/HIST-Q12548-Holy-Roman-Empire-Minor-States/retratos/portrait-14a58bf1eef361827ba6.jpg"
+      }
+    }
+  ],
+  "institutions": [
+    {
+      "id": "review027-otto",
+      "type": "conflict",
+      "title": "Lechfeld y coronación imperial",
+      "start": "0955-01-01",
+      "end": "0963-01-01",
+      "text": "La victoria de 955 y la coronación romana de 962 no son un mismo acceso al poder; Otón ya era rey desde 936.",
+      "source": "https://www.deutschlandmuseum.de/en/history/calendar/962-02-02-the-establishment-of-the-holy-roman-empire/",
+      "sourceLabel": "Referencia documental · siglo X",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 962,
+      "end": 999,
+      "tags": [
+        "elective-monarchy",
+        "empire",
+        "feudal"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q12548",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Emperador del Sacro Imperio",
+      "titles": [
+        "Otto I, Holy Roman Emperor",
+        "Otto II, Holy Roman Emperor",
+        "Otto III, Holy Roman Emperor"
+      ],
+      "officePattern": "Emperor|emperador del Sacro",
+      "reviewedPhases": {
+        "Otto I, Holy Roman Emperor": [
+          {
+            "start": "0962-02-02",
+            "end": "0973-05-07",
+            "role": "Emperador del Sacro Imperio"
+          }
+        ],
+        "Otto II, Holy Roman Emperor": [
+          {
+            "start": "0967-12-25",
+            "end": "0983-12-07",
+            "role": "Emperador · asociado hasta973"
+          }
+        ],
+        "Otto III, Holy Roman Emperor": [
+          {
+            "start": "0996-05-21",
+            "end": "1002-01-23",
+            "role": "Emperador del Sacro Imperio"
+          }
+        ]
+      }
+    }
+  ],
+  "officeBounds": [
+    "0962-02-02",
+    "0999-12-31"
+  ],
+  "acquiredLeaders": [
+    {
+      "person": "Q310435",
+      "role": "Jefatura del Estado",
+      "start": "0901-02-27",
+      "end": "0905-07-26",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q310435",
+      "sourceStatement": "q310435-061DF8EF-0657-4A37-A067-0464E215DF53",
+      "office": "Q181765",
+      "name": "Luis III el Ciego"
+    },
+    {
+      "person": "Q274606",
+      "role": "Jefatura del Estado",
+      "start": "0915-12-01",
+      "end": "0924-04-12",
+      "precision": 10,
+      "source": "https://www.wikidata.org/wiki/Q274606",
+      "sourceStatement": "q274606-55EC38B3-D2A3-4500-BD01-181C247DBE45",
+      "office": "Q181765",
+      "name": "Berengario de Friuli"
+    },
+    {
+      "person": "Q43915",
+      "role": "Jefatura del Estado",
+      "start": "0962-02-07",
+      "end": "0973-05-12",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q43915",
+      "sourceStatement": "q43915-6C1D8593-FC6E-4AFB-82AC-22B3791C3484",
+      "office": "Q181765",
+      "name": "Otón I del Sacro Imperio Romano Germánico"
+    },
+    {
+      "person": "Q150512",
+      "role": "Jefatura del Estado",
+      "start": "0973-05-12",
+      "end": "0983-12-12",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q150512",
+      "sourceStatement": "q150512-695BE90C-F065-4A93-974D-6F0C9CE6AFCC",
+      "office": "Q181765",
+      "name": "Otón II"
+    },
+    {
+      "person": "Q151090",
+      "role": "Jefatura del Estado",
+      "start": "0996-05-26",
+      "end": "0999-12-31",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q151090",
+      "sourceStatement": "q151090-20AAE982-F658-478F-86D2-320E462238F9",
+      "office": "Q181765",
+      "name": "Otón III del Sacro Imperio Romano Germánico",
+      "endIsCoverageBoundary": true,
+      "sourceEnd": "1002-01-29"
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q43915",
+        "title": "Otto I, Holy Roman Emperor",
+        "source": "https://en.wikipedia.org/wiki/Otto_I%2C_Holy_Roman_Emperor",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Otto_I%2C_Holy_Roman_Emperor"
+        }
+      },
+      {
+        "person": "Q150512",
+        "title": "Otto II, Holy Roman Emperor",
+        "source": "https://en.wikipedia.org/wiki/Otto_II%2C_Holy_Roman_Emperor",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Otto_II%2C_Holy_Roman_Emperor"
+        }
+      },
+      {
+        "person": "Q151090",
+        "title": "Otto III, Holy Roman Emperor",
+        "source": "https://en.wikipedia.org/wiki/Otto_III%2C_Holy_Roman_Emperor",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Otto_III%2C_Holy_Roman_Emperor"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Holy Roman Empire"
+        ],
+        "start": 962,
+        "end": 999,
+        "label": "Poder imperial otónida",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "La coronación de Otón I de 962 es distinta de su elección y coronación regia de 936. Geometría anual de síntesis, sin día uniforme."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-HIST-Q12548-962-Magdeburgo%20%C2%B7%20sede%20de%20referencia",
+      "keys": [
+        "HIST-Q12548"
+      ],
+      "name": "Magdeburgo · sede de referencia",
+      "coordinates": [
+        11.627,
+        52.127
+      ],
+      "start": 962,
+      "end": 999,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q12548",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review027-otto",
+      "type": "conflict",
+      "title": "Lechfeld y coronación imperial",
+      "start": "0955-01-01",
+      "end": "0963-01-01",
+      "text": "La victoria de 955 y la coronación romana de 962 no son un mismo acceso al poder; Otón ya era rey desde 936.",
+      "source": "https://www.deutschlandmuseum.de/en/history/calendar/962-02-02-the-establishment-of-the-holy-roman-empire/",
+      "sourceLabel": "Referencia documental · siglo X",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review027-otto",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9,
+          48.25
+        ]
+      },
+      "properties": {
+        "name": "Lechfeld y coronación imperial",
+        "countries": [
+          "HIST-Q12548"
+        ],
+        "kind": "regional-conflict",
+        "start": "0955-01-01",
+        "end": "0962-12-31",
+        "precision": 9,
+        "source": "https://www.deutschlandmuseum.de/en/history/calendar/962-02-02-the-establishment-of-the-holy-roman-empire/",
+        "sourceLabel": "Referencia documental · siglo X",
+        "note": "La victoria de 955 y la coronación romana de 962 no son un mismo acceso al poder; Otón ya era rey desde 936. Punto regional, no frente ni batalla continua."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q43915",
+      "title": "Otto I Manuscriptum Mediolanense c 1200.jpg",
+      "accepted": false,
+      "note": "No acredita una representación individual del gobernante previsto."
+    },
+    {
+      "person": "Q150512",
+      "title": "Otton2.JPG",
+      "accepted": true,
+      "note": "Miniatura imperial de Otón III."
+    }
+  ]
+}

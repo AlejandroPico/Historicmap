@@ -1,10 +1,11 @@
+import {isoYear} from './dates';
 import {escapeHtml as esc} from './profiles';
 type Resource={file:string;title:string;source:string;license:string;start:string;end:string;artist?:string};
 type Extension={key:string;resources:Resource[]};
 const catalogues=import.meta.glob('../Países/*/recursos.json',{eager:true,import:'default'}) as Record<string,Extension>;
 const files=import.meta.glob('../Países/*/archivos/*.{mp3,ogg,wav,m4a,pdf}',{eager:true,query:'?url',import:'default'}) as Record<string,string>;
 export function entityResources(key:string,year:number){
- const first=`${year}-01-01`,last=`${year}-12-31`;
+ const first=`${isoYear(year)}-01-01`,last=`${isoYear(year)}-12-31`;
  return Object.entries(catalogues).filter(([,c])=>c.key===key).flatMap(([path,c])=>c.resources.filter(r=>r.start<=last&&r.end>=first).flatMap(r=>{
   const url=files[path.replace('recursos.json','archivos/'+r.file)];if(!url)return[];
   return [{...r,url}];

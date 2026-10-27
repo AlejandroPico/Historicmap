@@ -1,0 +1,60 @@
+{
+  "key": "HIST-Q33242",
+  "name": "Kingdom of Lower Burgundy",
+  "qid": "Q33242",
+  "aliases": [
+    "Kingdom of Lower Burgundy",
+    "Lower Burgundy"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q33242"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3582",
+      "start": 900,
+      "end": 910,
+      "name": "Kingdom of Lower Burgundy",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3629",
+      "start": 911,
+      "end": 921,
+      "name": "Lower Burgundy",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3684",
+      "start": 922,
+      "end": 925,
+      "name": "Lower Burgundy",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3734",
+      "start": 926,
+      "end": 935,
+      "name": "Kingdom of Lower Burgundy",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,363 @@
+{
+  "key": "GORYEO",
+  "identity": {
+    "qid": "Q28208",
+    "name": "Reino de Goryeo"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q334312",
+      "name": "Wang Geon",
+      "role": "Rey de Goryeo",
+      "start": "0918-07-25",
+      "end": "0943-07-04",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Taejo_of_Goryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-6a68a367f8a1598c64a0.jpg",
+        "title": "WangGeon.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:WangGeon.jpg",
+        "artist": "[2]",
+        "license": "Attribution",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:WangGeon.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[1]",
+        "sha256": "bab402de2008e15d71940c530bc9f736c408d89fd796a8640e74b884a6cde7d6",
+        "bytes": 27843,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/WangGeon.jpg",
+        "canonicalFile": "Países/GORYEO-Reino-de-Goryeo/retratos/portrait-6a68a367f8a1598c64a0.jpg"
+      }
+    },
+    {
+      "person": "Q485587",
+      "name": "Hyejong de Goryeo",
+      "role": "Rey de Goryeo",
+      "start": "0943-07-04",
+      "end": "0945-10-23",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Hyejong_of_Goryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q493659",
+      "name": "Jeongjong, 3rd Monarch of Goryeo",
+      "role": "Rey de Goryeo",
+      "start": "0945-10-23",
+      "end": "0949-04-13",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Jeongjong%2C_3rd_monarch_of_Goryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q469387",
+      "name": "Gwangjong of Goryeo",
+      "role": "Rey de Goryeo",
+      "start": "0949-01-01",
+      "end": "0975-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gwangjong_of_Goryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q493692",
+      "name": "Gyeongjong of Goryeo",
+      "role": "Rey de Goryeo",
+      "start": "0975-01-01",
+      "end": "0981-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gyeongjong_of_Goryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q493702",
+      "name": "Seongjong of Goryeo",
+      "role": "Rey de Goryeo",
+      "start": "0981-01-01",
+      "end": "0997-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Seongjong_of_Goryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q493723",
+      "name": "Mokjong of Goryeo",
+      "role": "Rey de Goryeo",
+      "start": "0997-01-01",
+      "end": "0999-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mokjong_of_Goryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "institutions": [
+    {
+      "id": "review027-korea",
+      "type": "conflict",
+      "title": "Tres reinos posteriores y Goryeo",
+      "start": "0918-01-01",
+      "end": "0937-01-01",
+      "text": "Taebong, Baekje Posterior y Silla tienen soberanos distintos. Fundación de Goryeo en 918, entrega de Silla en 935 y derrota de Baekje Posterior en 936.",
+      "source": "https://en.wikipedia.org/wiki/Later_Three_Kingdoms",
+      "sourceLabel": "Referencia documental · siglo X",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 918,
+      "end": 999,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q28208",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Rey de Goryeo",
+      "titles": [
+        "Taejo of Goryeo",
+        "Hyejong of Goryeo",
+        "Jeongjong, 3rd monarch of Goryeo",
+        "Gwangjong of Goryeo",
+        "Gyeongjong of Goryeo",
+        "Seongjong of Goryeo",
+        "Mokjong of Goryeo"
+      ],
+      "officePattern": "King.*Goryeo|rey.*Goryeo",
+      "reviewedPhases": {}
+    }
+  ],
+  "officeBounds": [
+    "0918-01-01",
+    "0999-12-31"
+  ],
+  "officeResearch": {
+    "selected": 7,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q334312",
+        "title": "Taejo of Goryeo",
+        "source": "https://en.wikipedia.org/wiki/Taejo_of_Goryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goryeo",
+          "raw": "25 July 918 – 4 July 943",
+          "parsed": {
+            "start": "0918-07-25",
+            "end": "0943-07-04",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q485587",
+        "title": "Hyejong of Goryeo",
+        "source": "https://en.wikipedia.org/wiki/Hyejong_of_Goryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goryeo",
+          "raw": "4 July 943–23 October 945",
+          "parsed": {
+            "start": "0943-07-04",
+            "end": "0945-10-23",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q493659",
+        "title": "Jeongjong, 3rd monarch of Goryeo",
+        "source": "https://en.wikipedia.org/wiki/Jeongjong%2C_3rd_monarch_of_Goryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goryeo",
+          "raw": "23 October 945 – 13 April 949",
+          "parsed": {
+            "start": "0945-10-23",
+            "end": "0949-04-13",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q469387",
+        "title": "Gwangjong of Goryeo",
+        "source": "https://en.wikipedia.org/wiki/Gwangjong_of_Goryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goryeo",
+          "raw": "949–975",
+          "parsed": {
+            "start": "0949-01-01",
+            "end": "0975-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q493692",
+        "title": "Gyeongjong of Goryeo",
+        "source": "https://en.wikipedia.org/wiki/Gyeongjong_of_Goryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goryeo",
+          "raw": "975–981",
+          "parsed": {
+            "start": "0975-01-01",
+            "end": "0981-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q493702",
+        "title": "Seongjong of Goryeo",
+        "source": "https://en.wikipedia.org/wiki/Seongjong_of_Goryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goryeo",
+          "raw": "981–997",
+          "parsed": {
+            "start": "0981-01-01",
+            "end": "0997-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q493723",
+        "title": "Mokjong of Goryeo",
+        "source": "https://en.wikipedia.org/wiki/Mokjong_of_Goryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goryeo",
+          "raw": "997 – 2 March 1009",
+          "parsed": {
+            "start": "0997-01-01",
+            "end": "1009-03-02",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Goryeo"
+        ],
+        "start": 918,
+        "end": 999,
+        "label": "Reino de Goryeo",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "Formación de 918 y unificación de 936 distintas; no se anticipa Goryeo a todos los territorios de Silla. Geometría anual de síntesis, sin día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Goryeo"
+        ],
+        "start": 900,
+        "end": 917,
+        "label": "Reino de Goryeo · referencia fuera de su etapa",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "La fuente prolonga esta etiqueta fuera de la fase documentada. No se acredita la continuidad de ese gobierno sobre toda su superficie."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-GORYEO-919-Gaegyeong",
+      "keys": [
+        "GORYEO"
+      ],
+      "name": "Gaegyeong",
+      "coordinates": [
+        126.554,
+        37.97
+      ],
+      "start": 919,
+      "end": 999,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q28208",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review027-korea",
+      "type": "conflict",
+      "title": "Tres reinos posteriores y Goryeo",
+      "start": "0918-01-01",
+      "end": "0937-01-01",
+      "text": "Taebong, Baekje Posterior y Silla tienen soberanos distintos. Fundación de Goryeo en 918, entrega de Silla en 935 y derrota de Baekje Posterior en 936.",
+      "source": "https://en.wikipedia.org/wiki/Later_Three_Kingdoms",
+      "sourceLabel": "Referencia documental · siglo X",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review027-korea",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.148,
+          35.824
+        ]
+      },
+      "properties": {
+        "name": "Tres reinos posteriores y Goryeo",
+        "countries": [
+          "GORYEO"
+        ],
+        "kind": "regional-conflict",
+        "start": "0918-01-01",
+        "end": "0936-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Later_Three_Kingdoms",
+        "sourceLabel": "Referencia documental · siglo X",
+        "note": "Taebong, Baekje Posterior y Silla tienen soberanos distintos. Fundación de Goryeo en 918, entrega de Silla en 935 y derrota de Baekje Posterior en 936. Punto regional, no frente ni batalla continua."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q334312",
+      "title": "WangGeon.jpg",
+      "accepted": true,
+      "note": "Inspección visual: retrato/representación individual atribuida."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "HIST-Q698239",
+  "name": "Hubaekje",
+  "qid": "Q698239",
+  "aliases": [
+    "Hubaekje"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q698239"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q150132",
+      "name": "Gyeon Hwon",
+      "role": "Rey de Baekje posterior",
+      "start": "0900-01-01",
+      "end": "0935-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gyeon_Hwon",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q706776",
+      "name": "Singeom",
+      "role": "Rey de Baekje posterior",
+      "start": "0935-11-15",
+      "end": "0936-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Singeom",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3481",
+      "start": 900,
+      "end": 925,
+      "name": "Hubaekje",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3709",
+      "start": 926,
+      "end": 935,
+      "name": "Hubaekje",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

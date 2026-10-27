@@ -1,0 +1,78 @@
+{
+  "key": "LATER-LIANG",
+  "name": "Liang posterior",
+  "qid": "Q783489",
+  "aliases": [
+    "Liang posterior"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "LATER-LIANG"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1275305",
+      "name": "Emperor Taizu of Later Liang",
+      "role": "Emperador Liang posterior",
+      "start": "0907-06-01",
+      "end": "0912-07-18",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Zhu_Wen",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-0bec4c45999e07ca4115.jpg",
+        "title": "Zhu Wen (Liang Taizu).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Zhu_Wen_(Liang_Taizu).jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Zhu_Wen_(Liang_Taizu).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "中国历史博物馆保管部, ed.  (2003)  中国历代名人画像谱  1, 福州:  海峡文艺出版社, p. 52  ISBN:  7806407855. ",
+        "sha256": "3b48b88a37f7d5c6485ef63cf167003f96ebd6e99ac55b464f8afe394650ca35",
+        "bytes": 27513,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Zhu_Wen_%28Liang_Taizu%29.jpg/330px-Zhu_Wen_%28Liang_Taizu%29.jpg",
+        "canonicalFile": "Países/LATER-LIANG-Liang-posterior/retratos/portrait-0bec4c45999e07ca4115.jpg"
+      }
+    },
+    {
+      "person": "Q1138520",
+      "name": "Zhu Yougui",
+      "role": "Emperador Liang posterior",
+      "start": "0912-01-01",
+      "end": "0913-03-27",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhu_Yougui",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q1319637",
+      "name": "Zhu Zhen",
+      "role": "Emperador Liang posterior",
+      "start": "0913-03-29",
+      "end": "0923-11-18",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Zhu_Youzhen",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

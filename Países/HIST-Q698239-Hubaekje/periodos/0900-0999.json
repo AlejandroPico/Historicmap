@@ -1,0 +1,140 @@
+{
+  "key": "HIST-Q698239",
+  "identity": {
+    "qid": "Q698239",
+    "name": "Hubaekje"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q150132",
+      "name": "Gyeon Hwon",
+      "role": "Rey de Baekje posterior",
+      "start": "0900-01-01",
+      "end": "0935-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gyeon_Hwon",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q706776",
+      "name": "Singeom",
+      "role": "Rey de Baekje posterior",
+      "start": "0935-11-15",
+      "end": "0936-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Singeom",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 900,
+      "end": 936,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q698239",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Rey de Baekje posterior",
+      "titles": [
+        "Gyeon Hwon",
+        "Singeom"
+      ],
+      "officePattern": "King.*Baekje|rey.*Baekje|King.*Hubaekje",
+      "reviewedPhases": {}
+    }
+  ],
+  "officeBounds": [
+    "0900-01-01",
+    "0936-12-31"
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q150132",
+        "title": "Gyeon Hwon",
+        "source": "https://en.wikipedia.org/wiki/Gyeon_Hwon",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Later Baekje",
+          "raw": "892 – 935",
+          "parsed": {
+            "start": "0892-01-01",
+            "end": "0935-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q706776",
+        "title": "Singeom",
+        "source": "https://en.wikipedia.org/wiki/Singeom",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Later Baekje",
+          "raw": "15 November 935 – 936",
+          "parsed": {
+            "start": "0935-11-15",
+            "end": "0936-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Hubaekje"
+        ],
+        "start": 900,
+        "end": 936,
+        "label": "Baekje posterior",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "Reino de Gyeon Hwon y Singeom, distinto del Baekje antiguo. Geometría anual de síntesis, sin día uniforme."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-HIST-Q698239-900-Wansanju%20%C2%B7%20Jeonju",
+      "keys": [
+        "HIST-Q698239"
+      ],
+      "name": "Wansanju · Jeonju",
+      "coordinates": [
+        127.148,
+        35.824
+      ],
+      "start": 900,
+      "end": 936,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q698239",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "mediaReview": []
+}

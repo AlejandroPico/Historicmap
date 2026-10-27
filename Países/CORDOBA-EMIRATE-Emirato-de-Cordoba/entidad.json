@@ -1,0 +1,52 @@
+{
+  "key": "CORDOBA-EMIRATE",
+  "name": "Emirato de Córdoba",
+  "qid": "Q1337854",
+  "aliases": [
+    "Emirato de Córdoba"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CORDOBA-EMIRATE"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q307680",
+      "name": "Abd Allah I de Córdoba",
+      "role": "Emir de Córdoba",
+      "start": "0900-01-01",
+      "end": "0912-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abdullah_ibn_Muhammad_al-Umawi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q190418",
+      "name": "Abderramán III",
+      "role": "Emir de Córdoba",
+      "start": "0912-10-16",
+      "end": "0929-01-15",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abd_al-Rahman_III",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

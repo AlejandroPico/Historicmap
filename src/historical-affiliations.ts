@@ -1,3 +1,4 @@
+import {isoYear} from './dates';
 import catalogue from '../public/data/affiliations.json';
 
 export type AffiliationKind=string;
@@ -14,7 +15,7 @@ export const AFFILIATION_KINDS=organizations.map(o=>o.id);
 export const AFFILIATIONS:Readonly<Record<string,Organization>>=Object.fromEntries(organizations.map(o=>[o.id,o]));
 export const AFFILIATION_TYPES:Record<string,string>={military:'Seguridad y defensa',economic:'Comercio e integración económica',political:'Cooperación política y regional',regional:'Cooperación regional'};
 export function affiliationsAvailable(year:number){return year>=catalogue.coverageStart&&year<=catalogue.coverageEnd;}
-export function affiliationDate(year:number){return [`${year}-12-31`,catalogue.referenceDate].sort()[0];}
+export function affiliationDate(year:number){return [`${isoYear(year)}-12-31`,catalogue.referenceDate].sort()[0];}
 export function organizationActive(kind:string,year:number){
  const o=AFFILIATIONS[kind],date=affiliationDate(year);
  return !!o&&affiliationsAvailable(year)&&o.formed<=date&&(!o.dissolved||o.dissolved>date);
@@ -37,7 +38,7 @@ export function affiliationFor(code:string,kind:string,year:number):AffiliationV
 }
 export function affiliationsDuringYear(code:string,kind:string,year:number):AffiliationValue[]{
  if(!affiliationsAvailable(year)||!AFFILIATIONS[kind])return [];
- const first=`${year}-01-01`,last=affiliationDate(year),o=AFFILIATIONS[kind];
+ const first=`${isoYear(year)}-01-01`,last=affiliationDate(year),o=AFFILIATIONS[kind];
  if(o.formed>last||(o.dissolved&&o.dissolved<=first))return [];
  return o.memberships.filter(m=>m.code===normalized(code)&&m.start<=last&&(!m.end||m.end>first)).map(m=>value(m,last));
 }

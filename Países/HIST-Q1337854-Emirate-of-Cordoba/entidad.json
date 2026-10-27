@@ -1,0 +1,88 @@
+{
+  "key": "HIST-Q1337854",
+  "name": "Emirate of Córdoba",
+  "qid": "Q1337854",
+  "aliases": [
+    "Emirate of Córdoba"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1337854"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q307680",
+      "role": "Jefatura del Estado",
+      "start": "0900-01-01",
+      "end": "0912-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q307680",
+      "sourceStatement": "Q307680-89542fec-457a-7e81-46f2-1eaf8aa77ada",
+      "office": "Q14565744",
+      "name": "Abd Allah I de Córdoba",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "0888-01-01",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q190418",
+      "role": "Jefatura del Estado",
+      "start": "0912-10-26",
+      "end": "0929-01-21",
+      "precision": 11,
+      "source": "https://www.wikidata.org/wiki/Q190418",
+      "sourceStatement": "Q190418-b29e8715-436d-c3aa-632f-88b47db75b4d",
+      "office": "Q14565744",
+      "name": "Abderramán III",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3529",
+      "start": 900,
+      "end": 910,
+      "name": "Emirate of Córdoba",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3638",
+      "start": 911,
+      "end": 921,
+      "name": "Emirate of Córdoba",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3679",
+      "start": 922,
+      "end": 925,
+      "name": "Emirate of Córdoba",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3710",
+      "start": 926,
+      "end": 935,
+      "name": "Emirate of Córdoba",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

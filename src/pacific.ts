@@ -1,3 +1,4 @@
+import {isoYear} from './dates';
 import type {Feature,FeatureCollection,Polygon,MultiPolygon} from 'geojson';
 import components from '../public/data/pacific-components.json';
 /** Split named island components out of source aggregates. Coordinates are
@@ -21,6 +22,6 @@ export function pacificReferences(data:FeatureCollection,year:number,references:
  const aliases:Record<string,string>={'New Caledonia and Dependencies':'NCL','French Polynesia':'PYF','Fiji':'FJI'};
  const features=data.features.map(f=>{const key=aliases[String(f.properties?.originalName??f.properties?.country_name??'')];return key?{...f,properties:{...f.properties,identityKey:key,entityCode:key,localAuthorityKey:key}}:f;});
  const existing=new Set(features.flatMap(f=>[f.properties?.identityKey,f.properties?.entityCode,f.properties?.code]));
- const date=`${year}-12-31`;
+ const date=`${isoYear(year)}-12-31`;
  return {...data,features:[...features,...references.features.filter(f=>f.properties!.start<=date&&f.properties!.end>=date&&!existing.has(f.properties!.identityKey))]};
 }

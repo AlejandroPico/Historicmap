@@ -1,0 +1,187 @@
+{
+  "key": "SOUTHERN-HAN",
+  "identity": {
+    "qid": "Q1198071",
+    "name": "Han del Sur"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q717972",
+      "name": "Liu Yan",
+      "role": "Emperador Han del Sur",
+      "start": "0917-09-05",
+      "end": "0942-06-10",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Liu_Yan_%28emperor%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q10900161",
+      "name": "Liu Fen",
+      "role": "Emperador Han del Sur",
+      "start": "0942-06-10",
+      "end": "0943-04-15",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Liu_Bin_%28Southern_Han%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q6149021",
+      "name": "Liu Cheng",
+      "role": "Emperador Han del Sur",
+      "start": "0943-04-16",
+      "end": "0958-09-18",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Liu_Sheng_%28Southern_Han%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712137",
+      "name": "Liu Chang",
+      "role": "Emperador Han del Sur",
+      "start": "0958-01-01",
+      "end": "0971-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Chang_%28Southern_Han%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 917,
+      "end": 971,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1198071",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Emperador Han del Sur",
+      "titles": [
+        "Liu Yan (emperor)",
+        "Liu Bin (Southern Han)",
+        "Liu Sheng (Southern Han)",
+        "Liu Chang (Southern Han)"
+      ],
+      "officePattern": "Emperor|King|Prince|emperor|king|soberano|soverano|emperador|rey",
+      "reviewedPhases": {}
+    }
+  ],
+  "officeBounds": [
+    "0917-01-01",
+    "0971-12-31"
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q717972",
+        "title": "Liu Yan (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Liu_Yan_%28emperor%29",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0917-09-05",
+          "end": "0942-06-10",
+          "precision": 11,
+          "statement": "Q717972$ccb8e7b4-402b-b94f-1c8b-6973f0e6a426",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q10900161",
+        "title": "Liu Bin (Southern Han)",
+        "source": "https://en.wikipedia.org/wiki/Liu_Bin_%28Southern_Han%29",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0942-06-10",
+          "end": "0943-04-15",
+          "precision": 11,
+          "statement": "Q10900161$9ff91032-4938-2d9d-3e68-3d52b0c23811",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q6149021",
+        "title": "Liu Sheng (Southern Han)",
+        "source": "https://en.wikipedia.org/wiki/Liu_Sheng_%28Southern_Han%29",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0943-04-16",
+          "end": "0958-09-18",
+          "precision": 11,
+          "statement": "Q6149021$65baef0c-46bc-f8b3-ddc9-416dae7e4825",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q712137",
+        "title": "Liu Chang (Southern Han)",
+        "source": "https://en.wikipedia.org/wiki/Liu_Chang_%28Southern_Han%29",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0958-01-01",
+          "end": "0971-01-01",
+          "precision": 9,
+          "statement": "Q712137$d4ce6616-4fad-7000-0533-39ef15933ee6",
+          "label": "Emperador de China"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Southern Han"
+        ],
+        "start": 917,
+        "end": 971,
+        "label": "Han del Sur",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "Reino regional distinto de Han Posterior y del Han antiguo. Geometría anual de síntesis, sin día uniforme."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-SOUTHERN-HAN-917-Guangzhou",
+      "keys": [
+        "SOUTHERN-HAN"
+      ],
+      "name": "Guangzhou",
+      "coordinates": [
+        113.264,
+        23.129
+      ],
+      "start": 917,
+      "end": 971,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q1198071",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "mediaReview": []
+}

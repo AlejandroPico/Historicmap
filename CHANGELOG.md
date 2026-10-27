@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.27.0 · 27 de octubre de 2026
+
+- Navegación anual900–999 con531 intervalos originales y77 reglas fechadas. Se conservan las geografías anteriores.
+- Dossiers de investigación dentro de cada entidad dePaíses: autoridades, sedes, formas políticas, contextos y decisiones de imágenes.
+- Se distinguen Wessex/Inglaterra, realeza germánica/coronación imperial, emirato/califato cordobés, dinastías chinas y sucesiones coreanas. No se inventan límites ni banderas medievales ausentes.
+- Fechas ISO con año de cuatro dígitos: las fichas, instituciones y organizaciones no confunden900 con fechas posteriores.
+- Selector de fecha reducido a campo y confirmación; sin título grande ni fondo oscurecido, manteniendo teclado, cierre y validación.
+- Carencias nominales, fuentes y alcance en [RESEARCH-900.md](docs/RESEARCH-900.md) y [REVIEW-900-999.json](docs/REVIEW-900-999.json).
+
 ## 0.26.1 · 27 de octubre de 2026
 
 - Correcciones canónicas en14 carpetas dePaíses, con originales, fuentes y copia de ejecución registrada;44 intervalos de cargos y11 registros institucionales.

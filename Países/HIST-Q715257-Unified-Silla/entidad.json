@@ -1,0 +1,128 @@
+{
+  "key": "HIST-Q715257",
+  "name": "Unified Silla",
+  "qid": "Q715257",
+  "aliases": [
+    "Unified Silla"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q715257"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q485601",
+      "name": "Hyogong of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0900-01-01",
+      "end": "0912-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hyogong_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q485609",
+      "name": "Sindeok of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0912-01-01",
+      "end": "0917-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sindeok_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q485798",
+      "name": "Gyeongmyeong of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0917-01-01",
+      "end": "0924-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gyeongmyeong_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q485832",
+      "name": "Gyeongae of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0924-01-01",
+      "end": "0927-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gyeongae_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q485578",
+      "name": "Gyeongsun of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0927-01-01",
+      "end": "0935-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gyeongsun_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-1e5c4b02061a715db8d8.jpg",
+        "title": "King Kyungsoon of Silla.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:King_Kyungsoon_of_Silla.jpg",
+        "artist": "Yi Jin-chun",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_Kyungsoon_of_Silla.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "[1]",
+        "sha256": "faa81e7c0387513952d93b38a8a58cdb1cef41a9fe0628c3fa1c33fe9db13648",
+        "bytes": 54486,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/King_Kyungsoon_of_Silla.jpg",
+        "canonicalFile": "Países/HIST-Q715257-Unified-Silla/retratos/portrait-1e5c4b02061a715db8d8.jpg"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3472",
+      "start": 900,
+      "end": 910,
+      "name": "Unified Silla",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3606",
+      "start": 911,
+      "end": 925,
+      "name": "Unified Silla",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-900.geojson",
+      "recordId": "clio-3722",
+      "start": 926,
+      "end": 935,
+      "name": "Unified Silla",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

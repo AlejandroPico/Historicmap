@@ -1,0 +1,218 @@
+{
+  "key": "LATER-LIANG",
+  "identity": {
+    "qid": "Q783489",
+    "name": "Liang posterior"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q1275305",
+      "name": "Emperor Taizu of Later Liang",
+      "role": "Emperador Liang posterior",
+      "start": "0907-06-01",
+      "end": "0912-07-18",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Zhu_Wen",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-0bec4c45999e07ca4115.jpg",
+        "title": "Zhu Wen (Liang Taizu).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Zhu_Wen_(Liang_Taizu).jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Zhu_Wen_(Liang_Taizu).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "中国历史博物馆保管部, ed.  (2003)  中国历代名人画像谱  1, 福州:  海峡文艺出版社, p. 52  ISBN:  7806407855. ",
+        "sha256": "3b48b88a37f7d5c6485ef63cf167003f96ebd6e99ac55b464f8afe394650ca35",
+        "bytes": 27513,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Zhu_Wen_%28Liang_Taizu%29.jpg/330px-Zhu_Wen_%28Liang_Taizu%29.jpg",
+        "canonicalFile": "Países/LATER-LIANG-Liang-posterior/retratos/portrait-0bec4c45999e07ca4115.jpg"
+      }
+    },
+    {
+      "person": "Q1138520",
+      "name": "Zhu Yougui",
+      "role": "Emperador Liang posterior",
+      "start": "0912-01-01",
+      "end": "0913-03-27",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhu_Yougui",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1319637",
+      "name": "Zhu Zhen",
+      "role": "Emperador Liang posterior",
+      "start": "0913-03-29",
+      "end": "0923-11-18",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Zhu_Youzhen",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 907,
+      "end": 923,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q783489",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Emperador Liang posterior",
+      "titles": [
+        "Zhu Wen",
+        "Zhu Yougui",
+        "Zhu Youzhen"
+      ],
+      "officePattern": "Emperor|King|Prince|emperor|king|soberano|soverano|emperador|rey",
+      "reviewedPhases": {}
+    }
+  ],
+  "officeBounds": [
+    "0907-01-01",
+    "0923-12-31"
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q1275305",
+        "title": "Zhu Wen",
+        "source": "https://en.wikipedia.org/wiki/Zhu_Wen",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0907-06-01",
+          "end": "0912-07-18",
+          "precision": 11,
+          "statement": "Q1275305$08366e9e-0dc4-4ad8-91b1-c0569a516baf",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q1138520",
+        "title": "Zhu Yougui",
+        "source": "https://en.wikipedia.org/wiki/Zhu_Yougui",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0912-01-01",
+          "end": "0913-03-27",
+          "precision": 9,
+          "statement": "Q1138520$23711800-435f-7706-b9ef-c19251a5b682",
+          "label": "Emperador de China"
+        }
+      },
+      {
+        "person": "Q1319637",
+        "title": "Zhu Youzhen",
+        "source": "https://en.wikipedia.org/wiki/Zhu_Youzhen",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0913-03-29",
+          "end": "0923-11-18",
+          "precision": 11,
+          "statement": "Q1319637$51322d16-3535-4e47-8416-dd5e69e788b4",
+          "label": "Emperador de China"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Liang Dynasty"
+        ],
+        "start": 907,
+        "end": 923,
+        "label": "Liang posterior",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "No confundir con Liang del siglo VI ni con otras dinastías de nombre idéntico. Geometría anual de síntesis, sin día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Liang Dynasty"
+        ],
+        "start": 900,
+        "end": 906,
+        "label": "Liang posterior · referencia fuera de su etapa",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "La fuente prolonga esta etiqueta fuera de la fase documentada. No se acredita la continuidad de ese gobierno sobre toda su superficie."
+      }
+    },
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Liang Dynasty"
+        ],
+        "start": 924,
+        "end": 999,
+        "label": "Liang posterior · referencia fuera de su etapa",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "La fuente prolonga esta etiqueta fuera de la fase documentada. No se acredita la continuidad de ese gobierno sobre toda su superficie."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-LATER-LIANG-907-Kaifeng",
+      "keys": [
+        "LATER-LIANG"
+      ],
+      "name": "Kaifeng",
+      "coordinates": [
+        114.308,
+        34.797
+      ],
+      "start": 907,
+      "end": 923,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q783489",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1275305",
+      "title": "Zhu Wen (Liang Taizu).jpg",
+      "accepted": true,
+      "note": "Inspección visual: retrato/representación individual atribuida."
+    }
+  ]
+}

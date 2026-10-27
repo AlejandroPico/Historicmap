@@ -1,0 +1,155 @@
+{
+  "key": "CORDOBA-EMIRATE",
+  "identity": {
+    "qid": "Q1337854",
+    "name": "Emirato de Córdoba"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q307680",
+      "name": "Abd Allah I de Córdoba",
+      "role": "Emir de Córdoba",
+      "start": "0900-01-01",
+      "end": "0912-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abdullah_ibn_Muhammad_al-Umawi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q190418",
+      "name": "Abderramán III",
+      "role": "Emir de Córdoba",
+      "start": "0912-10-16",
+      "end": "0929-01-15",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abd_al-Rahman_III",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 900,
+      "end": 929,
+      "tags": [
+        "monarchy",
+        "emirate"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1337854",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Emir de Córdoba",
+      "titles": [
+        "Abdullah ibn Muhammad al-Umawi",
+        "Abd al-Rahman III"
+      ],
+      "officePattern": "Emir.*C[oó]rd|emir.*C[oó]rd",
+      "reviewedPhases": {
+        "Abd al-Rahman III": [
+          {
+            "start": "0912-10-16",
+            "end": "0929-01-15",
+            "role": "Emir de Córdoba"
+          }
+        ]
+      }
+    }
+  ],
+  "officeBounds": [
+    "0900-01-01",
+    "0929-01-15"
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q307680",
+        "title": "Abdullah ibn Muhammad al-Umawi",
+        "source": "https://en.wikipedia.org/wiki/Abdullah_ibn_Muhammad_al-Umawi",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q14565744",
+          "start": "0888-01-01",
+          "end": "0912-01-01",
+          "precision": 9,
+          "statement": "Q307680$89542fec-457a-7e81-46f2-1eaf8aa77ada",
+          "label": "emir de Córdoba"
+        }
+      },
+      {
+        "person": "Q190418",
+        "title": "Abd al-Rahman III",
+        "source": "https://en.wikipedia.org/wiki/Abd_al-Rahman_III",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Abd_al-Rahman_III"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Emirate of Córdoba",
+          "Caliphate of Córdoba"
+        ],
+        "start": 900,
+        "end": 928,
+        "label": "Emirato de Córdoba",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "Abd al-Rahman III es emir desde 912; su proclamación califal es de 929. Geometría anual de síntesis, sin día uniforme."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-CORDOBA-EMIRATE-900-C%C3%B3rdoba",
+      "keys": [
+        "CORDOBA-EMIRATE"
+      ],
+      "name": "Córdoba",
+      "coordinates": [
+        -4.779,
+        37.888
+      ],
+      "start": 900,
+      "end": 928,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q1337854",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q190418",
+      "title": "AtaiforDeGuadalajara-9100538 (cropped).jpg",
+      "accepted": false,
+      "note": "No acredita una representación individual del gobernante previsto."
+    },
+    {
+      "person": "Q307680",
+      "title": "Abdalah felús 20286.jpg",
+      "accepted": false,
+      "note": "No acredita una representación individual del gobernante previsto."
+    }
+  ]
+}

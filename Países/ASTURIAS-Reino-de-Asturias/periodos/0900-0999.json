@@ -1,0 +1,182 @@
+{
+  "key": "ASTURIAS",
+  "identity": {
+    "qid": "Q231392",
+    "name": "Reino de Asturias"
+  },
+  "revision": "0.27.0",
+  "acquisition": "century-900-0.27",
+  "coverageStart": 900,
+  "coverageEnd": 999,
+  "symbols": [],
+  "leaders": [
+    {
+      "person": "Q311138",
+      "name": "Alfonso III de Asturias",
+      "role": "Rey de Asturias",
+      "start": "0900-01-01",
+      "end": "0910-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Alfonso_III_of_Asturias",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-c5f085d162cc72d459c2.jpg",
+        "title": "Afonso III o Magno (Tumbo A), r.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Afonso_III_o_Magno_(Tumbo_A),_r.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Afonso_III_o_Magno_(Tumbo_A),_r.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Tumbo A da Catedral de Santiago de Compostela",
+        "sha256": "1bc3087d2f0847b21fef49e9b325781d35ec94935c23d1cd984316c78283af78",
+        "bytes": 62626,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Afonso_III_o_Magno_%28Tumbo_A%29%2C_r.jpg/330px-Afonso_III_o_Magno_%28Tumbo_A%29%2C_r.jpg",
+        "canonicalFile": "Países/ASTURIAS-Reino-de-Asturias/retratos/portrait-c5f085d162cc72d459c2.jpg"
+      }
+    },
+    {
+      "person": "Q333603",
+      "name": "Fruela II de León",
+      "role": "Rey de Asturias",
+      "start": "0910-01-01",
+      "end": "0910-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Fruela_II_of_Asturias",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-13945c03dd823e9109cd.jpg",
+        "title": "Miniatura de Fruela II el Leproso, rey de León.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Miniatura_de_Fruela_II_el_Leproso,_rey_de_Le%C3%B3n.JPG",
+        "artist": "Lancastermerrin88",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Miniatura_de_Fruela_II_el_Leproso,_rey_de_Le%C3%B3n.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "El Murrial. Algunos pasajes y episodios de la historia de León",
+        "sha256": "5498082c31d804396fb10ad1aa319621abcc4f16cfafbe588731642cf73ca6e0",
+        "bytes": 46471,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Miniatura_de_Fruela_II_el_Leproso%2C_rey_de_Le%C3%B3n.JPG/330px-Miniatura_de_Fruela_II_el_Leproso%2C_rey_de_Le%C3%B3n.JPG",
+        "canonicalFile": "Países/ASTURIAS-Reino-de-Asturias/retratos/portrait-13945c03dd823e9109cd.jpg"
+      }
+    }
+  ],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 900,
+      "end": 910,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q231392",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional; no evaluación democrática ni control uniforme del contorno."
+    }
+  ],
+  "candidates": [
+    {
+      "role": "Rey de Asturias",
+      "titles": [
+        "Alfonso III of Asturias",
+        "Fruela II of Asturias"
+      ],
+      "officePattern": "King.*Asturias|monarca.*Asturias|rey.*Asturias",
+      "reviewedPhases": {}
+    }
+  ],
+  "officeBounds": [
+    "0900-01-01",
+    "0910-12-31"
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "evidence": [
+      {
+        "person": "Q311138",
+        "title": "Alfonso III of Asturias",
+        "source": "https://en.wikipedia.org/wiki/Alfonso_III_of_Asturias",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q58769733",
+          "start": "0866-01-01",
+          "end": "0910-01-01",
+          "precision": 9,
+          "statement": "Q311138$a7161771-4e04-7376-19a7-a749b05e0e41",
+          "label": "monarca del reino de Asturias"
+        }
+      },
+      {
+        "person": "Q333603",
+        "title": "Fruela II of Asturias",
+        "source": "https://en.wikipedia.org/wiki/Fruela_II_of_Asturias",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q58769733",
+          "start": "0910-01-01",
+          "end": "0924-01-01",
+          "precision": 9,
+          "statement": "Q333603$19d85ed6-4f5f-65ee-de7a-65d14f97b4cc",
+          "label": "monarca del reino de Asturias"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "entityRules": [
+    {
+      "files": [
+        "historical-900-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Asturias"
+        ],
+        "start": 900,
+        "end": 910,
+        "label": "Reino de Asturias",
+        "admin": "",
+        "status": "independent",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-900.md",
+        "note": "La sucesión de 910 se distingue de las coronas leonesa y gallega. Geometría anual de síntesis, sin día uniforme."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "seat027-ASTURIAS-900-Oviedo",
+      "keys": [
+        "ASTURIAS"
+      ],
+      "name": "Oviedo",
+      "coordinates": [
+        -5.85,
+        43.36
+      ],
+      "start": 900,
+      "end": 910,
+      "capital": true,
+      "role": "Sede histórica de referencia",
+      "source": "https://www.wikidata.org/wiki/Q231392",
+      "note": "Corte o centro de referencia; no una capital fija ni un perímetro urbano acreditado para cada año."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q333603",
+      "title": "Miniatura de Fruela II el Leproso, rey de León.JPG",
+      "accepted": true,
+      "note": "Inspección visual: retrato/representación individual atribuida."
+    },
+    {
+      "person": "Q311138",
+      "title": "Afonso III o Magno (Tumbo A), r.jpg",
+      "accepted": true,
+      "note": "Inspección visual: retrato/representación individual atribuida."
+    }
+  ]
+}

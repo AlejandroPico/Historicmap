@@ -21,7 +21,7 @@ describe('1100–1199 annual extension',()=>{
   }
   const catalogueMissingPortraits=new Map<string,any>();for(const[key,c]of Object.entries(ids.countries))for(const l of c.leaders)if(l.start<'1200-01-01'&&l.end>='1100-01-01'&&!l.portrait){const r=catalogueMissingPortraits.get(l.person)??{person:l.person,name:l.name,keys:[]};if(!r.keys.includes(key))r.keys.push(key);catalogueMissingPortraits.set(l.person,r);}
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-1100-1199.json',JSON.stringify({scope:'Production-path availability, not a complete world census, independent border verification or daily-front reconstruction. Additional seats counted separately. The catalogue portrait inventory also includes entities without their own polygon.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()],catalogueMissingPortraits:[...catalogueMissingPortraits.values()]},null,2)+'\n');
-  expect(snapshotFor(999).kind).toBe('historical');expect(snapshotFor(1200).file).toBe('early-modern-1200.geojson');
+  expect(snapshotFor(899).kind).toBe('historical');expect(snapshotFor(1200).file).toBe('early-modern-1200.geojson');
  },90000);
  it('keeps dynastic identities continuous and documents inherited chronology defects',async()=>{
   const feature=(d:any,n:string)=>d.features.find((f:any)=>f.properties.originalName===n)?.properties;

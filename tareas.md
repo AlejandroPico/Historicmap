@@ -1,6 +1,27 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.26.0 · ampliación hasta 1000
+## Entrega preparada · 0.27.0 · ampliación hasta 900
+
+- [x] Geometría anual900–999:531 intervalos originales,77 reglas y conservación de48 geografías previas; puntos anteriores de conflictos conservados.
+- [x] 78 dossiers por entidad enPaíses,313 intervalos seleccionados y86 regionales; todos los hechos previos de mandatos y símbolos conservados.
+- [x] 177 pares persona/imagen inspeccionados:135 adoptados y42 rechazados;176 archivos nuevos, diez pies aclaratorios y exclusiones persistentes.
+- [x] 52 formas institucionales,59 sedes/cortes,17 contextos y seis puntos regionales. Agregados y cronologías de fuente advertidos.
+- [x] Auditoría de cien años y pruebas locales:219 pruebas en52 archivos, cinco pruebas del lector de oficios, tipos, compilación e integridad correctos. Compilación canónica repetida: diez recursos idénticos byte a byte.
+- [x] Selector de fecha compacto: campo y confirmación, sin título grande ni fondo oscurecido; teclado, validación y cierre conservados.
+- [x] Entrega preparada:8.198 recursos y253 originales de entidades comprobados en los bytes deGit. Confirmar coincidencia demain conorigin/main al cerrar, sin esperarActions/Pages.
+
+Catálogo:1.204 claves,16.975 mandatos,3.411 carpetas y8.108 medios. Integridad SHA-256 de79 datos,11 franjas tipográficas y8.108 medios. Cinco recorridos finales de navegador correctos: sigloX en escritorio/globo móvil, selector compacto, carga demorada/pausa, recuperación tras error y persistencia de ficha/pestaña/lectura. Capturas revisadas. [Fuentes, alcance y pendientes](docs/RESEARCH-900.md); [auditoría nominal](docs/REVIEW-900-999.json):11.709 entidades/año,8.467 sin autoridad,11.636 sin símbolo,158 personas/órganos sin retrato entre activos y173 en el catálogo ampliado. No son un censo mundial completo.
+
+### Pendientes delimitados del siglo X
+
+- [ ] Completar las carencias nominales de la auditoría, especialmente pequeños poderes, Asia interior, África y América; cinco identidades/cargos candidatos deKhotan no resueltos.
+- [ ] Completar reproducciones acreditadas y testimonios coetáneos de símbolos. CarlosIII tiene evidencia sigilar903/912/921, pendiente de reproducción de licencia verificada. El sello deRobertoII mostrado en996–999 es una referencia posterior de1006–1030, no una bandera adoptada entonces.
+- [ ] Afinar fragmentación y control territorial: culturas, asentamientos y agregados no equivalen a Estados nacionales. Sedes no inventan límites; puntos regionales no son frentes ni batallas continuas.
+- [ ] Mantener exclusiones visuales: objetos sin efigie, escenas sin figura individual y retratos de otra persona no deben volver a las fichas. Las decisiones están en cada dossier.
+- [ ] Esperar el aviso del propietario sobre la publicación; no sondearActions/Pages.
+- [ ] Continuar antes de900 sólo por nuevo encargo; siguen siendo instantáneas aproximadas.
+
+## Entrega anterior · 0.26.0 · ampliación hasta 1000
 
 - [x] Cartografía e identidades anuales1000–1099; conservar datos posteriores.
 - [x] Autoridades, imágenes y símbolos documentados, sin anacronismos.

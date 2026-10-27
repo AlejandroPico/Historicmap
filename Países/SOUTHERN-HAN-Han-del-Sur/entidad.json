@@ -1,0 +1,75 @@
+{
+  "key": "SOUTHERN-HAN",
+  "name": "Han del Sur",
+  "qid": "Q1198071",
+  "aliases": [
+    "Han del Sur"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SOUTHERN-HAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q717972",
+      "name": "Liu Yan",
+      "role": "Emperador Han del Sur",
+      "start": "0917-09-05",
+      "end": "0942-06-10",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Liu_Yan_%28emperor%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q10900161",
+      "name": "Liu Fen",
+      "role": "Emperador Han del Sur",
+      "start": "0942-06-10",
+      "end": "0943-04-15",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Liu_Bin_%28Southern_Han%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q6149021",
+      "name": "Liu Cheng",
+      "role": "Emperador Han del Sur",
+      "start": "0943-04-16",
+      "end": "0958-09-18",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Liu_Sheng_%28Southern_Han%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q712137",
+      "name": "Liu Chang",
+      "role": "Emperador Han del Sur",
+      "start": "0958-01-01",
+      "end": "0971-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Chang_%28Southern_Han%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

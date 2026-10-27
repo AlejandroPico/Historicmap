@@ -469,3 +469,14 @@ html[data-appearance=morning]{--chart-2:#27677d;--chart-3:#8b4679;--chart-4:#397
 .map-credits summary{display:flex;align-items:center;gap:6px;cursor:pointer;font-size:11px}
 .map-credits summary svg{width:14px;height:14px}
 #map-attributions{margin-top:8px;font-size:10px;line-height:1.7;overflow-wrap:anywhere}
+
+/* Compact date entry; other dialogs keep their own layout. */
+dialog.date-picker{width:260px;max-width:calc(100vw - 28px);padding:12px 14px 14px;max-height:calc(100dvh - 28px)}
+dialog.date-picker::backdrop{background:transparent;backdrop-filter:none}
+.date-picker .modal-head{margin-bottom:10px;gap:8px}
+.date-picker .modal-head .icon-button{width:28px;height:28px}
+.date-picker .date-label{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.date-picker .date-entry{display:flex;gap:8px;align-items:stretch}
+.date-picker #date-input{width:100%;min-width:0;margin:0;padding:8px 9px;font-size:17px}
+.date-picker .primary-button{width:38px;min-width:38px;padding:8px;justify-content:center;margin:0}
+.date-picker #date-hint{display:block;margin-top:8px;font-size:11px;color:var(--muted)}

@@ -1,0 +1,66 @@
+{
+  "key": "LATER-HAN",
+  "name": "Han posterior",
+  "qid": "Q957429",
+  "aliases": [
+    "Han posterior"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "LATER-HAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q708522",
+      "name": "Liu Zhiyuan",
+      "role": "Emperador Han posterior",
+      "start": "0947-01-01",
+      "end": "0948-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Zhiyuan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27",
+      "portrait": {
+        "file": "media/portrait-8808529a73928609caa8.jpg",
+        "title": "Liu Zhiyuan (Han Gaozu).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Liu_Zhiyuan_(Han_Gaozu).jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Liu_Zhiyuan_(Han_Gaozu).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "中国历史博物馆保管部, ed.  (2003)  中国历代名人画像谱  1, 福州:  海峡文艺出版社, p. 55  ISBN:  7806407855. ",
+        "sha256": "3559b21fc5de95390df5f97cf9c77d77194bb4554ebfa9d234aa8a682c45b0aa",
+        "bytes": 32285,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Liu_Zhiyuan_%28Han_Gaozu%29.jpg/330px-Liu_Zhiyuan_%28Han_Gaozu%29.jpg",
+        "canonicalFile": "Países/LATER-HAN-Han-posterior/retratos/portrait-8808529a73928609caa8.jpg"
+      }
+    },
+    {
+      "person": "Q713108",
+      "name": "Emperor Yin of Later Han",
+      "role": "Emperador Han posterior",
+      "start": "0948-01-01",
+      "end": "0951-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Chengyou",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -20,14 +20,22 @@ def main(acquire=False):
     by_title={m['title']:m for m in media.values()}
     portraits={l['person']:l['portrait'] for c in identities['countries'].values() for l in c['leaders'] if l.get('portrait')}
     history=read(ROOT/'public/data/country-history.json');governance=read(ROOT/'public/data/governance.json')
-    history['records']=[r for r in history['records'] if r.get('acquisition')!=TAG]
-    governance['records']=[r for r in governance['records'] if r.get('acquisition')!=TAG]
-    inputs=sorted((ROOT/'Países').glob('*/revision-historica.json'))
+    inputs=sorted([*(ROOT/'Países').glob('*/revision-historica.json'),*(ROOT/'Países').glob('*/periodos/*.json')])
+    tags={read(p).get('acquisition',TAG) for p in inputs}
+    history['records']=[r for r in history['records'] if r.get('acquisition') not in tags]
+    governance['records']=[r for r in governance['records'] if r.get('acquisition') not in tags]
+    places=read(ROOT/'public/data/historical-places.json');places['records']=[r for r in places['records'] if r.get('acquisition') not in tags]
+    contexts=read(ROOT/'public/data/historical-context.json');contexts['events']=[r for r in contexts['events'] if r.get('acquisition') not in tags]
+    points=read(ROOT/'public/data/conflict-points.geojson');points['features']=[r for r in points['features'] if r.get('properties',{}).get('acquisition') not in tags]
     for path in inputs:
-        revision=read(path);key=revision['key'];country=identities['countries'].get(key)
+        revision=read(path);key=revision['key'];tag=revision.get('acquisition',TAG)
+        entity_root=path.parent.parent if path.parent.name=='periodos' else path.parent
+        country=identities['countries'].get(key)
+        if not country and revision.get('identity'):
+            country=identities['countries'].setdefault(key,{**revision['identity'],'flags':[],'leaders':[]})
         if not country:raise ValueError('Unknown entity '+key)
         for field in ['flags','leaders','symbolReferences']:
-            country[field]=[r for r in country.get(field,[]) if r.get('acquisition')!=TAG]
+            country[field]=[r for r in country.get(field,[]) if r.get('acquisition')!=tag]
         for removal in revision.get('replace',[]):
             field=removal['field'];a,b=removal['start'],removal['end']
             # Keep both tails when replacing an interior interval.
@@ -58,7 +66,7 @@ def main(acquire=False):
                 file='media/flag-'+hashlib.sha256(title.encode()).hexdigest()[:20]+ext
                 m=dict(file=file,title=title,url=ii['descriptionurl'],sourceUrl=ii['url'],artist=clean('Artist'),license=license,licenseUrl=clean('LicenseUrl') or ii['descriptionurl']+'#Licensing',credit=clean('Credit'),attribution=clean('Attribution'),attributionRequired=True,sha256=hashlib.sha256(raw).hexdigest(),bytes=len(raw))
                 (ROOT/'public'/file).write_bytes(raw)
-            source_file=path.parent/'simbolos'/pathlib.Path(m['file']).name
+            source_file=entity_root/'simbolos'/pathlib.Path(m['file']).name
             source_file.parent.mkdir(exist_ok=True)
             if not source_file.exists():source_file.write_bytes((ROOT/'public'/m['file']).read_bytes())
             raw=source_file.read_bytes()
@@ -69,7 +77,7 @@ def main(acquire=False):
             display={**m,'symbolLabel':symbol['label'],'presentationNote':symbol['note'],'symbolEvidenceURL':symbol['source']}
             if symbol.get('referenceOnly'):
                 display.update(referenceOnly=True,evidenceDate=symbol['evidenceDate'])
-            record=dict(start=symbol['start'],end=symbol['end'],media=display,source=symbol['source'],note=symbol['note'],acquisition=TAG)
+            record=dict(start=symbol['start'],end=symbol['end'],media=display,source=symbol['source'],note=symbol['note'],acquisition=tag)
             if record['start']>record['end']:raise ValueError('Inverted symbol '+key)
             country['symbolReferences' if symbol.get('referenceOnly') else 'flags'].append(record)
         for leader in revision.get('leaders',[]):
@@ -77,25 +85,32 @@ def main(acquire=False):
             # Canonical portraits may be filled on the first acquisition. Keep
             # runtime property order stable on the next offline compilation.
             item={k:v for k,v in leader.items() if k not in ['portrait','curated','acquisition']}
-            item.update(curated=True,acquisition=TAG)
+            item.update(curated=True,acquisition=tag)
             if leader.get('portrait'):item['portrait']=leader['portrait']
             if not item.get('portrait') and item['person'] in portraits:item['portrait']=portraits[item['person']]
             if item.get('portrait'):
-                portrait=copy.deepcopy(item['portrait']);local=path.parent/'retratos'/pathlib.Path(portrait['file']).name
+                portrait=copy.deepcopy(item['portrait']);local=entity_root/'retratos'/pathlib.Path(portrait['file']).name
                 local.parent.mkdir(exist_ok=True)
                 if not local.exists():local.write_bytes((ROOT/'public'/portrait['file']).read_bytes())
                 if hashlib.sha256(local.read_bytes()).hexdigest()!=portrait['sha256']:raise ValueError('Canonical portrait bytes '+str(local))
                 portrait['canonicalFile']=local.relative_to(ROOT).as_posix();item['portrait']=portrait;leader['portrait']=portrait
                 media[portrait['file']]={**media[portrait['file']],'canonicalFile':portrait['canonicalFile']}
             country['leaders'].append(item)
-        for record in revision.get('institutions',[]):history['records'].append({**record,'keys':[key],'acquisition':TAG})
-        for record in revision.get('governance',[]):governance['records'].append({**record,'keys':[key],'acquisition':TAG})
+        for record in revision.get('institutions',[]):history['records'].append({**record,'keys':[key],'acquisition':tag})
+        for record in revision.get('governance',[]):governance['records'].append({**record,'keys':[key],'acquisition':tag})
+        for record in revision.get('places',[]):places['records'].append({**record,'keys':[key],'acquisition':tag})
+        for record in revision.get('contexts',[]):contexts['events'].append({**record,'countries':record.get('countries',[key]),'acquisition':tag})
+        for record in revision.get('conflictPoints',[]):points['features'].append({**record,'properties':{**record['properties'],'acquisition':tag}})
+        cleared_files=set()
         for fix in revision.get('entityRules',[]):
             for file in fix['files']:
-                if not re.fullmatch(r'historical-\d{4}-entities\.json',file):raise ValueError('Invalid resolution file')
+                if not re.fullmatch(r'historical-\d{3,4}-entities\.json',file):raise ValueError('Invalid resolution file')
                 dest=ROOT/'public/data'/file;catalogue=read(dest)
-                rules=[r for r in catalogue['records'] if not(r.get('acquisition')==TAG and r['key']==key)]
-                record={**fix['record'],'key':key,'entityCode':key,'acquisition':TAG}
+                rules=catalogue['records']
+                if file not in cleared_files:
+                    rules=[r for r in rules if not(r.get('acquisition')==tag and r['key']==key)]
+                    cleared_files.add(file)
+                record={**fix['record'],'key':key,'entityCode':key,'acquisition':tag}
                 record['start']=max(record['start'],catalogue['coverageStart']);record['end']=min(record['end'],catalogue['coverageEnd'])
                 catalogue['records']=[record,*rules];save_data(dest,catalogue)
         save(path,revision)
@@ -114,6 +129,9 @@ def main(acquire=False):
                 identities['countries'][alias][field]=records
     save_data(ROOT/'public/data/identities.json',identities);media_manifest['entries']=sorted(media.values(),key=lambda m:m['file']);save_data(ROOT/'public/media/manifest.json',media_manifest)
     save_data(ROOT/'public/data/country-history.json',history);save_data(ROOT/'public/data/governance.json',governance)
+    starts=[read(p)['coverageStart'] for p in inputs if read(p).get('coverageStart')]
+    if starts:contexts['startYear']=min(contexts['startYear'],*starts);history['coverageStart']=min(history['coverageStart'],*starts)
+    save_data(ROOT/'public/data/historical-context.json',contexts);save_data(ROOT/'public/data/historical-places.json',places);save_data(ROOT/'public/data/conflict-points.geojson',points);save_data(ROOT/'public/data/country-history.json',history)
     print('Compiled',len(inputs),'entity-owned revisions')
 
 if __name__=='__main__':

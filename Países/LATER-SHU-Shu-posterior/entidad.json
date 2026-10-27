@@ -1,0 +1,51 @@
+{
+  "key": "LATER-SHU",
+  "name": "Shu posterior",
+  "qid": "Q526507",
+  "aliases": [
+    "Shu posterior"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "LATER-SHU"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1149186",
+      "name": "Meng Zhixiang",
+      "role": "Emperador Shu posterior",
+      "start": "0934-03-16",
+      "end": "0934-09-07",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Meng_Zhixiang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    },
+    {
+      "person": "Q1071718",
+      "name": "Meng Chang",
+      "role": "Emperador Shu posterior",
+      "start": "0934-09-10",
+      "end": "0965-02-23",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Meng_Chang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-900-0.27"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
