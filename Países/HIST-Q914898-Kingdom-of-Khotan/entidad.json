@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q914898",
+  "name": "Kingdom of Khotan",
+  "qid": "Q914898",
+  "aliases": [
+    "Kingdom of Khotan"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q914898"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4096",
+      "start": 1000,
+      "end": 1002,
+      "name": "Kingdom of Khotan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4102",
+      "start": 1003,
+      "end": 1009,
+      "name": "Kingdom of Khotan",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

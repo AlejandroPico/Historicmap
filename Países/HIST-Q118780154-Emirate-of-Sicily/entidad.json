@@ -1,0 +1,81 @@
+{
+  "key": "HIST-Q118780154",
+  "name": "Emirate of Sicily",
+  "qid": "Q118780154",
+  "aliases": [
+    "Emirate of Sicily"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q118780154"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q15109151",
+      "role": "Jefatura del Estado",
+      "start": "1000-01-01",
+      "end": "1019-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q15109151",
+      "sourceStatement": "Q15109151-da885cb9-45b1-717b-83d1-ea5ad373bb82",
+      "office": "Q51954429",
+      "acquisition": "historical-0.26",
+      "name": "Giafar al-Kalbi II",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "0998-01-01"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-3876",
+      "start": 1000,
+      "end": 1065,
+      "name": "Emirate of Sicily",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4521",
+      "start": 1066,
+      "end": 1071,
+      "name": "Emirate of Sicily",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4583",
+      "start": 1072,
+      "end": 1084,
+      "name": "Emirate of Sicily",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4631",
+      "start": 1085,
+      "end": 1093,
+      "name": "Emirate of Sicily",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 175,
+      "start": null,
+      "end": null,
+      "name": "Emirate of Sicily",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,6 +1,28 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.25.0 · ampliación hasta 1100
+## Encargo vigente · 0.26.0 · ampliación hasta 1000
+
+- [x] Cartografía e identidades anuales1000–1099; conservar datos posteriores.
+- [x] Autoridades, imágenes y símbolos documentados, sin anacronismos.
+- [x] Instituciones, sedes y contextos del sigloXI.
+- [x] Auditoría nominal, pruebas, conservación y documentación.
+- [ ] Confirmar envío a origin/main tras la revisión adicional, sin esperarActions/Pages.
+
+
+Cierre local: 210 pruebas en50 archivos, tipos, compilación e integridad correctos. Cinco recorridos focales de navegador correctos; dos del sigloXI repetidos tras ajustar la disposición de retratos con pie de imagen. Capturas de escritorio, móvil y créditos revisadas. Hechos anteriores conservados, trece geografías idénticas y713 componentes contrastados con fuente.
+
+## Revisión solicitada después de1000 · pendiente
+
+Revisar todos los rangos de existencia; los años citados son observaciones, no límites de corrección. Evidencia y contenido por entidad dentro de su carpeta dePaíses, respetando la compilación y los medios con licencia.
+
+- [ ] ProvinciasUnidas neerlandesas: bandera y estatúderes con ese título, períodos sin estatúder y cargos provinciales distintos.
+- [ ] Luisiana francesa: símbolo adecuado por fechas y administración, incluida la situación de1802.
+- [ ] ProvinciasUnidas delRío de laPlata: banderas, juntas, triunviratos, directorio, presidencia y períodos sin autoridad nacional.
+- [ ] Paraguay yUniónSuecia/Noruega: símbolos por fechas y función; no copiar la enseña de1844 a1830.
+- [ ] Urgel,Empúries,Portugal,UniónIbérica,Georgia yNóvgorod: buscar bandera/armas con testimonio temporal. No convertir una reconstrucción o una imagen posterior en uso probado del siglo citado.
+- [ ] Pruebas y fichas por rango completo; documentación y catálogo porPaíses actualizados.
+
+## Entrega anterior · 0.25.0 · ampliación hasta 1100
 
 - [x] 541 intervalos originales,65 reglas e identidades anuales1100–1199. Doce geografías previas idénticas byte a byte y541 coordenadas/índices nuevos contrastados con la fuente fijada.
 - [x] 357 intervalos de cargos seleccionados,67 de adquisición regional y196 retratos/efigies adoptados. 228 archivos recuperados;32 pares rechazados tras inspección visual,14 efigies rotuladas y decisiones persistentes.

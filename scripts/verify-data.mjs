@@ -36,7 +36,7 @@ for (const entry of manifest.entries) {
   }
   else if(entry.format==='country-indicator-series'){if(!data.countries.USA?.series.population?.length)throw Error('Missing country indicators');}
   else if(entry.format==='dated-entity-resolution'){
-    if(data.format!==entry.format||data.records.length!==entry.records||!data.referenceDate||![[1100,1199],[1200,1299],[1300,1399],[1400,1499],[1500,1599],[1600,1699],[1700,1799],[1800,1819],[1820,1839],[1840,1859],[1860,1879],[1880,1899]].some(([a,b])=>data.coverageStart===a&&data.coverageEnd===b))throw Error('Invalid dated entity resolution');
+    if(data.format!==entry.format||data.records.length!==entry.records||!data.referenceDate||![[1000,1099],[1100,1199],[1200,1299],[1300,1399],[1400,1499],[1500,1599],[1600,1699],[1700,1799],[1800,1819],[1820,1839],[1840,1859],[1860,1879],[1880,1899]].some(([a,b])=>data.coverageStart===a&&data.coverageEnd===b))throw Error('Invalid dated entity resolution');
     for(const r of data.records)if(!r.names.length||!r.key||!r.source||!r.label||r.start<data.coverageStart||r.end>data.coverageEnd||r.start>r.end)throw Error('Invalid dated identity rule');
   }
   else if(entry.format==='dated-portrait-series'){

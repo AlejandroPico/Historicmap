@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q2666791",
+  "name": "Taifa of Morón",
+  "qid": "Q2666791",
+  "aliases": [
+    "Taifa of Morón"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2666791"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4172",
+      "start": 1015,
+      "end": 1055,
+      "name": "Taifa of Morón",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4442",
+      "start": 1056,
+      "end": 1065,
+      "name": "Taifa of Morón",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,58 @@
+{
+  "key": "HIST-Q858841",
+  "name": "Kingdom of Croatia",
+  "qid": "Q858841",
+  "aliases": [
+    "Kingdom of Croatia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q858841"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4090",
+      "start": 1000,
+      "end": 1017,
+      "name": "Kingdom of Croatia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4224",
+      "start": 1018,
+      "end": 1084,
+      "name": "Kingdom of Croatia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4628",
+      "start": 1085,
+      "end": 1093,
+      "name": "Kingdom of Croatia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4716",
+      "start": 1094,
+      "end": 1098,
+      "name": "Kingdom of Croatia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

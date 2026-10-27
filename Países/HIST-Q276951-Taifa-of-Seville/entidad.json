@@ -1,0 +1,123 @@
+{
+  "key": "HIST-Q276951",
+  "name": "Taifa of Seville",
+  "qid": "Q276951",
+  "aliases": [
+    "Taifa of Seville"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q276951"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q305795",
+      "name": "Abú al-Qasim",
+      "role": "Gobernante de Sevilla",
+      "start": "1023-01-01",
+      "end": "1042-01-25",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abbad_I",
+      "curated": true,
+      "acquisition": "curated-1000-0.26",
+      "note": "La dignidad documentada no acredita dominio uniforme de todo el contorno de fuente. Síntesis anual; no calendario diario ni certificación de todo el contorno.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q299578",
+      "name": "Al-Mu'tamid",
+      "role": "Gobernante de Sevilla",
+      "start": "1069-01-01",
+      "end": "1091-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Al-Mu%27tamid_ibn_Abbad",
+      "curated": true,
+      "acquisition": "curated-1000-0.26",
+      "note": "La dignidad documentada no acredita dominio uniforme de todo el contorno de fuente. Síntesis anual; no calendario diario ni certificación de todo el contorno.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "portrait": {
+        "file": "media/portrait-6b4540334f3c70511df5.png",
+        "title": "Al-Mu'tamid ibn Abbad by Khalil Gibran.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Al-Mu%27tamid_ibn_Abbad_by_Khalil_Gibran.png",
+        "artist": "Kahlil Gibran",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Al-Mu%27tamid_ibn_Abbad_by_Khalil_Gibran.png#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Scanned image, created by Khalil Gibran.",
+        "sha256": "b0a81dc0f684a5cd8805a4aee57dd1d068beba15941e77a241e77c589ef6af47",
+        "bytes": 275517,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Al-Mu%27tamid_ibn_Abbad_by_Khalil_Gibran.png/330px-Al-Mu%27tamid_ibn_Abbad_by_Khalil_Gibran.png"
+      }
+    },
+    {
+      "person": "Q30556",
+      "name": "Abbad II al-Mu'tadid",
+      "role": "Gobernante de Sevilla",
+      "start": "1042-01-01",
+      "end": "1069-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abbad_II_al-Mu%27tadid",
+      "curated": true,
+      "acquisition": "curated-1000-0.26",
+      "note": "La dignidad documentada no acredita dominio uniforme de todo el contorno de fuente. Síntesis anual; no calendario diario ni certificación de todo el contorno.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4264",
+      "start": 1028,
+      "end": 1055,
+      "name": "Taifa of Seville",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4450",
+      "start": 1056,
+      "end": 1065,
+      "name": "Taifa of Seville",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4566",
+      "start": 1066,
+      "end": 1071,
+      "name": "Taifa of Seville",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4621",
+      "start": 1072,
+      "end": 1084,
+      "name": "Taifa of Seville",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4679",
+      "start": 1085,
+      "end": 1093,
+      "name": "Taifa of Seville",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

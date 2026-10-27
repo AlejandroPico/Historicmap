@@ -56,7 +56,7 @@ app.innerHTML = `
     </section>
     <section id="sources-panel" class="sources-panel" role="dialog" aria-labelledby="sources-title" hidden>
       <div class="popover-head"><h2 id="sources-title">Datos y fuentes</h2><button id="close-sources" class="icon-button" aria-label="Cerrar fuentes">${icon('x')}</button></div>
-      <div class="source-summary"><div class="map-status"><span class="status-dot"></span><span id="map-status" role="status" aria-live="polite">Preparando cartografía…</span><button id="retry" hidden>Reintentar</button></div><p id="source-reference"></p><div id="source-links"></div><p id="source-scope"></p><a class="profile-source" href="https://github.com/AlejandroPico/Historicmap/blob/main/docs/SOURCES.md" target="_blank" rel="noopener">Catálogo, licencias y metodología ↗</a></div>
+      <div class="source-summary"><div class="map-status"><span class="status-dot"></span><span id="map-status" role="status" aria-live="polite">Preparando cartografía…</span><button id="retry" hidden>Reintentar</button></div><p id="source-reference"></p><div id="source-links"></div><p id="source-scope"></p><a class="profile-source" href="https://github.com/AlejandroPico/Historicmap/blob/main/docs/SOURCES.md" target="_blank" rel="noopener">Catálogo, licencias y metodología ↗</a><details class="map-credits"><summary>${icon('info')} Créditos del mapa</summary><div id="map-attributions"></div></details></div>
     </section>
     <section id="filters-panel" class="filters-panel" role="dialog" aria-labelledby="filters-title" hidden>
       <div class="popover-head"><h2 id="filters-title">Filtros del atlas</h2><button id="close-filters" class="icon-button" aria-label="Cerrar filtros">${icon('x')}</button></div>
@@ -105,13 +105,11 @@ let timelineFilter='all',timelineFuture=false,timelineExpanded=false;
 const trendSelections:Record<string,string>={};
 const comparison:ComparisonState={mode:'dates',a:Math.max(-10000,year-10)||-1,b:Math.max(-10000,year)||-1,metric:'population',pinned:[]};
 let refreshSearch=()=>{};
-let attributionInitialized=false;
 const colorExpression: ExpressionSpecification = ['coalesce',['get','politicalColor'],'#829c90'];
 const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 maplibregl.setWorkerUrl(workerUrl);
 const glyphsUrl=new URL('fonts/',new URL(import.meta.env.BASE_URL,document.baseURI)).href+'{fontstack}/{range}.pbf';
 const map = new maplibregl.Map({container:'map', center:[23,22], zoom:1.65, minZoom:0.2, maxZoom:7, attributionControl:false, renderWorldCopies:false, style:{version:8, glyphs:glyphsUrl, sources:{}, layers:[{id:'ocean',type:'background',paint:{'background-color':palettes[resolveAppearance(appearance)].ocean}}]}, canvasContextAttributes:{antialias:true}, fadeDuration:reduced?0:200});
-map.addControl(new maplibregl.AttributionControl({compact:true}),'bottom-left');
 map.addControl(new maplibregl.ScaleControl({maxWidth:100,unit:'metric'}),'bottom-left');
 function applyAppearance(){
   const resolved=resolveAppearance(appearance),palette=palettes[resolved];
@@ -223,7 +221,7 @@ function renderSelection(){
 async function featureAt(anchor:CountryAnchor,targetYear:number){
   const target=snapshotFor(targetYear);if(target.kind==='concept'||target.kind==='geological')return undefined;
   const raw=target.kind==='annual'?await annualData(targetYear):await asset<FeatureCollection>(target.file!);
-  const data=anchor.uid?await overlaysFor(targetYear):(await controlledMap(politicalData(raw,targetYear,target.kind==='modern'?profiles:undefined),targetYear>=1100?await overlaysFor(targetYear):empty,targetYear)).territories;
+  const data=anchor.uid?await overlaysFor(targetYear):(await controlledMap(politicalData(raw,targetYear,target.kind==='modern'?profiles:undefined),targetYear>=1000?await overlaysFor(targetYear):empty,targetYear)).territories;
   return matchingFeature(anchor,{type:'FeatureCollection',features:[...data.features,...datedPlaces(data,targetYear).features.filter(f=>f.properties?.sovereignSeat)]},targetYear,identityData);
 }
 async function renderComparison(){
@@ -257,9 +255,11 @@ function setPlaybackLoading(busy:boolean,targetYear=year,error=false){
 }
 function reliefAvailable(){return year>=-10000&&snapshot.kind!=='concept'&&snapshot.kind!=='geological';}
 function updateSources(){
+  const credits=Object.values(map.getStyle()?.sources??{}).flatMap(source=>'attribution' in source&&typeof source.attribution==='string'?[source.attribution]:[]);
+  $('#map-attributions').innerHTML=[...new Set(credits)].join('<br>');
   const source=snapshot.kind==='modern'?['Natural Earth','https://www.naturalearthdata.com/']:snapshot.kind==='annual'?(year<1886?['Cliopatria','https://github.com/Seshat-Global-History-Databank/cliopatria']:['CShapes 2.0','https://icr.ethz.ch/data/cshapes/']):snapshot.kind==='geological'?['Cao et al. 2024','https://doi.org/10.1016/j.gsf.2024.101922']:['Atlas histórico · A. Ourednik','https://github.com/aourednik/historical-basemaps'];
   if(snapshot.kind==='concept'){source[0]=year < -1800000000?'NASA · formación planetaria':'Smithsonian · evolución humana';source[1]=year < -1800000000?'https://science.nasa.gov/earth/facts/':'https://humanorigins.si.edu/';}
-  $('#source-reference').textContent=`Fecha consultada: ${formatYear(year)}.${year>=1100?` Autoridades adquiridas: ${identityData?.retrieved??'cargando'}.`:''}`;
+  $('#source-reference').textContent=`Fecha consultada: ${formatYear(year)}.${year>=1000?` Autoridades adquiridas: ${identityData?.retrieved??'cargando'}.`:''}`;
   $('#source-links').innerHTML=`<a href="${source[1]}" target="_blank" rel="noopener">${source[0]} ↗</a> · <a href="https://data.worldbank.org/" target="_blank" rel="noopener">Indicadores WDI ↗</a> · <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Autoridades ↗</a>${affiliation?` · <a href="${esc(AFFILIATIONS[affiliation].source)}" target="_blank" rel="noopener">${esc(AFFILIATIONS[affiliation].label)} ↗</a>`:''}`;
   $('#source-scope').textContent=snapshot.kind==='modern'?'Cartografía de referencia 2026. Las cifras y las membresías conservan sus propias fechas. Imágenes: autor y licencia en cada ficha.':snapshot.kind==='annual'?'Base territorial al cierre anual; contornos de referencia identificados en las fichas. Control con fecha propia. Mandatos de todo el año y membresías al cierre.':'Reconstrucción según la fecha y el alcance del modelo; no es una observación directa.';
   if(physical&&reliefAvailable())$('#source-scope').textContent+=' Relieve contemporáneo de referencia; no reconstruye altitudes ni costas antiguas.';
@@ -279,7 +279,7 @@ function refreshMap(force=false):Promise<void> {
   $('#affiliation-select').toggleAttribute('disabled',!affiliationsAvailable(year));
   $('#political-layer').toggleAttribute('disabled',concept);
   $('#places-layer').toggleAttribute('disabled',year < -10000);
-  $('#occupations-layer').toggleAttribute('disabled',year<1100);
+  $('#occupations-layer').toggleAttribute('disabled',year<1000);
   $('#theme-select').toggleAttribute('disabled',year<1960||snapshot.kind==='geological');
   $('#territory-description').textContent=snapshot.kind==='geological'?'Masas continentales reconstruidas':snapshot.kind==='modern'?'Países y fronteras':snapshot.kind==='annual'?'Territorios y dependencias fechados':'Áreas políticas y culturales';
   $('#concept').classList.toggle('human-era',year > -1800000000);
@@ -309,7 +309,7 @@ function refreshMap(force=false):Promise<void> {
         target.kind==='annual'?annualData(targetYear):asset<FeatureCollection>(target.file!),
         asset<ProfileData>('profiles.json'),
         target.kind==='modern'?modernCities():Promise.resolve(empty),
-        targetYear>=1100?overlaysFor(targetYear):Promise.resolve(empty),
+        targetYear>=1000?overlaysFor(targetYear):Promise.resolve(empty),
         asset<IdentityData>('identities.json'),
         target.kind==='annual'||target.kind==='historical'?asset<FeatureCollection>('countries.geojson'):Promise.resolve(empty),
         asset<IndicatorData>('country-indicators.json'),asset<CountryHistory>('country-history.json')
@@ -356,9 +356,6 @@ function refreshMap(force=false):Promise<void> {
         const label=target.kind==='modern'?`Natural Earth · referencia contemporánea 2026${targetYear!==2026?` · consulta ${targetYear}`:''}`:target.kind==='annual'?`${targetYear<1886?'Cliopatria · síntesis anual':targetYear>=1940&&targetYear<=1944?'CShapes + control · síntesis anual':'CShapes + referencias · 31 dic'} ${targetYear} · ${data.features.length} territorios`:`${target.kind==='geological'?'CAO2024 · reconstrucción':'Fronteras aproximadas'} · ${formatYear(target.year)}`;
         status(label);
         updateSources();
-        // MapLibre initially expands compact attribution. Keep it available
-        // behind its icon, without occupying the unobstructed map by default.
-        if(!attributionInitialized){const control=document.querySelector('.maplibregl-ctrl-attrib.maplibregl-compact-show');if(control){control.querySelector<HTMLElement>('.maplibregl-ctrl-attrib-button')?.click();attributionInitialized=true;}}
         // Source update completion precedes tile replacement. Querying here
         // can address an old tile against the new feature index. Let the next
         // idle frame certify rendered geometry before accepting map clicks.
@@ -413,9 +410,9 @@ function applyLayers(){
   map.setPaintProperty('territory-fill','fill-antialias',snapshot.kind!=='geological');
   map.setLayoutProperty('territory-labels','visibility',political&&snapshot.kind!=='geological'?'visible':'none');
   map.setLayoutProperty('relief','visibility',physical&&reliefAvailable()?'visible':'none');
-  const controlVisible=showOccupations&&year>=1100;
+  const controlVisible=showOccupations&&year>=1000;
   for(const id of ['occupation-fill','occupation-line'])map.setLayoutProperty(id,'visibility',controlVisible?'visible':'none');
-  const nextConflicts=year>=1100?conflictPointsFor(year):empty;const nextConflictSignature=showOccupations?JSON.stringify(nextConflicts):'';
+  const nextConflicts=year>=1000?conflictPointsFor(year):empty;const nextConflictSignature=showOccupations?JSON.stringify(nextConflicts):'';
   conflictData=nextConflicts;
   if(nextConflictSignature!==conflictSignature){conflictSignature=nextConflictSignature;void (map.getSource('conflict-points') as GeoJSONSource).setData(controlVisible?conflictData:empty);}
   for(const layer of ['conflict-circles','conflict-labels'])map.setLayoutProperty(layer,'visibility',controlVisible?'visible':'none');
@@ -502,7 +499,7 @@ function stopPlay(){playing=false;playGeneration++;$('#play').setAttribute('aria
 async function play(generation:number){
   await refreshMap();
   while(playing&&generation===playGeneration){
-    await new Promise(resolve=>setTimeout(resolve,year>=1100?850:350));
+    await new Promise(resolve=>setTimeout(resolve,year>=1000?850:350));
     if(!playing||generation!==playGeneration)return;
     if(year>=PRESENT){stopPlay();return;}
     // Advance only after the previous map has finished committing to the renderer.
@@ -510,8 +507,8 @@ async function play(generation:number){
   }
 }
 $('#play').onclick=()=>{if(playing){stopPlay();return;}if(year===PRESENT)void updateYear(1900);playing=true;const generation=++playGeneration;$('#play').setAttribute('aria-pressed','true');$('#play').setAttribute('aria-label','Pausar recorrido');if($('#play').getAttribute('aria-busy')!=='true')$('#play').title='Pausar recorrido';$('#play').innerHTML=icon('pause');createIcons({icons});void play(generation);};
-$('#previous').onclick=()=>{stopPlay();void updateYear(year>=1100?year-1:anchors[Math.max(0,Math.ceil(position)-1)]);};
-$('#next').onclick=()=>{stopPlay();void updateYear(year>=1100?Math.min(PRESENT,year+1):anchors[Math.min(anchors.length-1,Math.floor(position)+1)]);};
+$('#previous').onclick=()=>{stopPlay();void updateYear(year>=1000?year-1:anchors[Math.max(0,Math.ceil(position)-1)]);};
+$('#next').onclick=()=>{stopPlay();void updateYear(year>=1000?Math.min(PRESENT,year+1):anchors[Math.min(anchors.length-1,Math.floor(position)+1)]);};
 function projectionControl(){const label=projection==='globe'?'Ver mapa 2D':'Ver globo 3D';$('#projection-button').dataset.view=projection;$('#projection-button').setAttribute('aria-label',label);$('#projection-button').title=label;$('#projection-button').innerHTML=icon(projection==='globe'?'map':'globe-2');createIcons({icons});}
 function setProjection(value:'globe'|'mercator') {projection=value;if(ready)map.setProjection({type:value});projectionControl();updateYear(year);}
 $('#projection-button').onclick=()=>setProjection(projection==='globe'?'mercator':'globe');

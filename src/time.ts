@@ -45,8 +45,8 @@ export function snapshotFor(year: number): Snapshot {
   }
   if (year < -10000) return { kind: 'concept', year };
   if (year >= 2020) return { kind: 'modern', year, file: 'countries.geojson' };
-  if (year >= 1100) return { kind: 'annual', year, file: year>=1886?'history.topojson':year>=1789?'early-modern.geojson':year>=1700?'early-modern-1700.geojson':year>=1600?'early-modern-1600.geojson':year>=1500?'early-modern-1500.geojson':year>=1400?'early-modern-1400.geojson':year>=1300?'early-modern-1300.geojson':year>=1200?'early-modern-1200.geojson':'early-modern-1100.geojson' };
+  if (year >= 1000) return { kind: 'annual', year, file: year>=1886?'history.topojson':year>=1789?'early-modern.geojson':year>=1700?'early-modern-1700.geojson':year>=1600?'early-modern-1600.geojson':year>=1500?'early-modern-1500.geojson':year>=1400?'early-modern-1400.geojson':year>=1300?'early-modern-1300.geojson':year>=1200?'early-modern-1200.geojson':year>=1100?'early-modern-1100.geojson':'early-modern-1000.geojson' };
   const y = historicalYears.filter(y=>y<1789).reduce((a, b) => Math.abs(a - year) <= Math.abs(b - year) ? a : b);
   return { kind: 'historical', year: y, file: `world_${y < 0 ? `bc${-y}` : y}.geojson` };
 }
-export function playbackYear(year:number){return year>=1100?Math.min(PRESENT,year+1):positionToYear(yearToPosition(year)+.075);}
+export function playbackYear(year:number){return year>=1000?Math.min(PRESENT,year+1):positionToYear(yearToPosition(year)+.075);}

@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q1709337",
+  "name": "Emirate of Nekor",
+  "qid": "Q1709337",
+  "aliases": [
+    "Emirate of Nekor"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1709337"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-3983",
+      "start": 1000,
+      "end": 1014,
+      "name": "Emirate of Nekor",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4179",
+      "start": 1015,
+      "end": 1017,
+      "name": "Emirate of Nekor",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4222",
+      "start": 1018,
+      "end": 1027,
+      "name": "Emirate of Nekor",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

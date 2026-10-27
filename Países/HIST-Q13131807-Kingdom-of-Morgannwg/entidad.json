@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q13131807",
+  "name": "Kingdom of Morgannwg",
+  "qid": "Q13131807",
+  "aliases": [
+    "Kingdom of Morgannwg"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q13131807"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-3899",
+      "start": 1000,
+      "end": 1045,
+      "name": "Kingdom of Morgannwg",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4389",
+      "start": 1046,
+      "end": 1055,
+      "name": "Kingdom of Morgannwg",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,43 @@
+"""Dated1000–1099 identities over untouched original Cliopatria contours."""
+import pathlib,json
+ROOT=pathlib.Path(__file__).resolve().parents[1];OUT=ROOT/'public/data'
+def prepare(ids):
+ cs=ids['countries'];d=dict(format='dated-entity-resolution',coverageStart=1000,coverageEnd=1099,referenceDate='2026-10-27',qidKeys={},names={k:c['name']for k,c in cs.items()},records=[])
+ for k,c in cs.items():
+  if c.get('qid'):d['qidKeys'].setdefault(c['qid'],k)
+ for k in ['NORTHERN-SONG','LIAO','WESTERN-XIA','FATIMID','ABBASID','ARAGON-KINGDOM','BARCELONA-COUNTY','ENGLAND','HUNGARY-KINGDOM','LEON-KINGDOM','CASTILE-KINGDOM','BOHEMIA-DUCHY','NORWAY-KINGDOM','POLAND-MEDIEVAL']:
+  if cs[k].get('qid'):d['qidKeys'][cs[k]['qid']]=k
+ def rule(names,key,a=1000,b=1099,label=None,status='independent',note=''):
+  d['records'].append(dict(names=names.split('|'),key=key,label=label or cs.get(key,{}).get('name',names.split('|')[0]),entityCode=key,start=a,end=b,admin='',status=status,source='https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1000.md',note=note+' Síntesis anual de fuente, sin día uniforme ni certificación de todos sus límites.'))
+ for n,k in [('Kingdom of France','FRA'),('Kingdom of England|Norman England','ENGLAND'),('Kingdom of Alba','SCOTLAND'),('Kingdom of León','LEON-KINGDOM'),('Kingdom of Navarre','NAVARRE-KINGDOM'),('Kingdom of Hungary','HUNGARY-KINGDOM'),('Kingdom of Denmark','DNK'),('Kingdom of Sweden','SWE'),('Old Kingdom of Norway','NORWAY-KINGDOM'),('County of Barcelona','BARCELONA-COUNTY'),('Duchy of Normandy','NORMANDY-DUCHY'),('Byzantine Empire','BYZANTINE'),('Northern Song','NORTHERN-SONG'),('Liao Dynasty','LIAO'),('Goryeo','GORYEO'),('Heian Japan','JPN'),('Fatimid Caliphate','FATIMID'),('Khmer Empire','KHM'),('Pagan Kingdom','HIST-Q888574'),('Chola Empire','HIST-Q6806806'),('Kingdom of Georgia','HIST-Q154667'),("Kievan Rus'|Principality of Kiev",'HIST-Q1108445'),('Papal States','PAPAL-STATES'),('Republic of Venice','HIST-Q4948'),('Republic of Genoa','HIST-Q174306')]:rule(n,k)
+ rule('Duchy of Bohemia','BOHEMIA-DUCHY',b=1084);rule('Duchy of Bohemia','BOHEMIA',a=1085,b=1092,note='Dignidad real personal deVratislaoII; no reino hereditario continuo.');rule('Duchy of Bohemia','BOHEMIA-DUCHY',a=1093)
+ rule('Kingdom of Castile','CASTILE-COUNTY',b=1064,note='Fase condal anterior al reino separado de1065. Las denominaciones y la realeza deFernando tienen interpretaciones historiográficas distintas; no se acredita un rey castellano independiente desde1000.')
+ rule('Kingdom of Castile','CASTILE-KINGDOM',a=1065,note='Reino separado en la sucesión deFernandoI. Accesos castellanos y leoneses de un mismo monarca son distintos.')
+ rule('Kingdom of Aragon','ARAGON-KINGDOM',a=1035,note='Fase deRamiroI y sucesores; no se anticipa la unión dinástica conBarcelona de1137.')
+ rule('Kingdom of Aragon','ARAGON-PRE1035-REFERENCE',b=1034,status='source-reference',label='Área aragonesa · referencia anterior al reino',note='No se adelanta el título deRamiroI a todo el siglo; los condados anteriores conservan cronologías propias.')
+ rule('Kingdom of Poland','POLAND-MEDIEVAL',label='Polonia · ducado y fases regias',note='Coronaciones de1025 y1076 distintas de las etapas ducales; crisis y restauraciones no acreditan un gobierno continuo.')
+ rule('Denmark-England|North Sea Empire|Norway-Denmark','NORTH-SEA-AGGREGATE',status='source-reference',label='Coronas escandinavas e inglesa · agregado dinástico',note='Los reinados deCanuto y otros soberanos enInglaterra, Dinamarca yNoruega comienzan en fechas distintas. Las sedes abren las fichas de cada reino sin adjudicarles la superficie entera del agregado.')
+ rule('Holy Roman Empire','HIST-Q12548',label='Estados agrupados del Sacro Imperio',note='Realeza germánica/deRomanos, coronación imperial y dignidades territoriales distintas. Las sedes consultables no inventan fronteras de los ducados.')
+ rule('Buyid Dynasty','BUYID',note='Se corrige el identificador de fuente Q12536, que corresponde al califato abasí, no a la dinastía buyí Q273874. Califas y emires tienen funciones distintas; poderes regionales sin administración uniforme.')
+ rule('Ghaznavid Empire','HIST-Q12844800',label='Poder gaznávida',note='La fuente identifica la dinastía Q12844800; el imperio es Q249578. La sucesión dinástica no acredita por sí sola todas las fronteras del imperio.')
+ rule('Great Seljuk Empire|Seljuk Dynasty','HIST-Q3708094',a=1037,note='Formación y campañas por fases; Manzikert1071 no constituye una anexión instantánea de todaAnatolia.')
+ rule('Great Seljuk Empire|Seljuk Dynasty','SELJUK-EARLY-REFERENCE',b=1036,status='source-reference',label='Poderes selyúcidas tempranos · referencia',note='No se anticipa el imperio documentado desde1037 a todas las agrupaciones anteriores.')
+ rule('Sultanate of Rum','SELJUK-RUM',a=1077)
+ rule('Western Xia','WESTERN-XIA',a=1038,note='Título imperial desde1038, distinto de los poderes tangut anteriores.')
+ rule('Western Xia','TANGUT-PRE1038-REFERENCE',b=1037,status='source-reference',label='Poderes tangut anteriores al título imperial',note='No se anticipan los emperadores deXia a los gobiernos locales anteriores a1038.')
+ rule('Caliphate of Córdoba','HIST-Q171740',b=1031,note='Califas, gobierno amirí y poderes rivales durante lafitna son funciones distintas; las taifas no prolongan un califa común.')
+ rule('Caliphate of Córdoba','HIST-Q171740',a=1032,status='source-reference',label='Antiguos dominios del califato cordobés · referencia',note='El califato se abole en1031. No se inventa un gobernante continuador sobre una geometría prolongada.')
+ rule('Bagratid Armenia','HIST-Q2622868',b=1045,note='Reino bagrátida, distinto de otras ramas armenias y del posterior principado deCilicia.')
+ rule('Bagratid Armenia','HIST-Q2622868',a=1046,status='source-reference',label='Antiguos dominios bagrátidas · transición de fuente',note='Conquista deAni en1045; no se atribuye continuidad territorial aCilicia.')
+ rule('Armenian Kingdom of Cilicia','CILICIA-PRINCIPALITY',a=1080,note='Principado anterior a la coronación real de1198; no se importa el título real del sigloXII.')
+ rule('Armenian Kingdom of Cilicia','CILICIA-EARLY-REFERENCE',b=1079,status='source-reference',label='Cilicia · referencia anterior al principado',note='La etiqueta regia de fuente no acredita un rey o príncipe propio antes de1080.')
+ rule('First Bulgarian Empire','HIST-Q203817',b=1018)
+ rule('First Bulgarian Empire','HIST-Q203817',a=1019,status='source-reference',label='Antiguos dominios del primer imperio búlgaro · referencia',note='No se prolongan sus zares después de1018. Insurrecciones posteriores no son una monarquía nacional continua.')
+ rule('Kingdom of Jerusalem','HIST-Q55502',a=1099,note='Godofredo esDefensor delSantoSepulcro, no rey coronado. No se le adjudican territorios de la etapa anterior a la conquista de1099.')
+ rule('Principality of Antioch','HIST-Q235030',a=1098);rule('County of Edessa','EDESSA',a=1098)
+ rule('Norman Italy','NORMAN-ITALY-AGGREGATE',status='source-reference',label='Poderes normandos de Italia · agregado',note='Condado siciliano y poderes continentales diferentes; no se anticipa el reino de1130. Palermo permite consultar al conde sin inventar una frontera siciliana.')
+ rule('Almoravid Dynasty','HIST-Q75613',a=1040,note='Movimiento, emiratos y campañas por fases; gobiernos septentrionales y saharianos no son siempre un poder uniforme.')
+ for n,k,label,note in [('Brythons','BRYTHONIC-REFERENCE','Comunidades britónicas · referencia','No un país medieval de autoridad única.'),('Scandinavian minor kingdoms','SCANDINAVIAN-REFERENCE','Poderes escandinavos locales · agregado','No una monarquía escandinava uniforme.'),('Later Mayan City-States','HIST-Q28567','Ciudades mayas · agregado','Tradiciones y gobiernos diferentes.'),('Puebloans - Chaco Regional System','PUEBLO-REGIONAL','Pueblos ancestrales · sistema regional deChaco','Referencia arqueológica, no un Estado mexica.'),('Viking settlements|Norse Greenland','VIKING-SETTLEMENTS','Asentamientos nórdicos · agregado','Comunidades con gobiernos distintos.'),('Ngô Dynasty','UNRESOLVED-VIET-SOURCE','Referencia vietnamita · cronología sin resolver','No se prolonga automáticamente una dinastía del sigloX.'),('Classic Veracruz Culture','HIST-Q2379418','Veracruz · referencia arqueológica','Una cultura arqueológica no equivale a un país de dirigente único.')]:rule(n,k,label=label,status='source-reference',note=note)
+ return d
+if __name__=='__main__':
+ d=prepare(json.loads((OUT/'identities.json').read_text(encoding='utf8')));(OUT/'historical-1000-entities.json').write_text(json.dumps(d,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf8',newline='\n');print('Dated rules',len(d['records']))

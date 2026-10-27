@@ -1,0 +1,71 @@
+{
+  "key": "HIST-Q1541787",
+  "name": "County of Pallars",
+  "qid": "Q1541787",
+  "aliases": [
+    "County of Pallars"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1541787"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q8777033",
+      "role": "Jefatura del Estado",
+      "start": "1000-01-01",
+      "end": "1010-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q8777033",
+      "sourceStatement": "Q8777033-ed0cf96a-4316-323b-6b26-e138d7a2a3a4",
+      "office": "Q51129545",
+      "acquisition": "historical-0.26",
+      "name": "Ermengol I de Pallars",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "0995-01-01"
+    },
+    {
+      "person": "Q796443",
+      "role": "Jefatura del Estado",
+      "start": "1000-01-01",
+      "end": "1010-01-01",
+      "precision": 9,
+      "source": "https://www.wikidata.org/wiki/Q796443",
+      "sourceStatement": "Q796443-dce05b2a-42c5-87f7-4c8f-8771de9f3ad7",
+      "office": "Q51129545",
+      "acquisition": "historical-0.26",
+      "name": "Suniario I de Pallars",
+      "startIsCoverageBoundary": true,
+      "sourceStart": "0995-01-01"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4028",
+      "start": 1000,
+      "end": 1009,
+      "name": "County of Pallars",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4160",
+      "start": 1010,
+      "end": 1014,
+      "name": "County of Pallars",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

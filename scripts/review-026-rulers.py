@@ -1,0 +1,60 @@
+"""Named eleventh-century offices; dates acquired separately from office statements."""
+import pathlib,json,types
+ROOT=pathlib.Path(__file__).resolve().parents[1]
+GROUPS=[
+ ('FRA','Rey de Francia',['Robert II of France','Henry I of France','Philip I of France']),
+ ('ENGLAND','Rey de Inglaterra',['Æthelred the Unready','Sweyn Forkbeard','Edmund Ironside','Cnut','Harold Harefoot','Harthacnut','Edward the Confessor','Harold Godwinson','Edgar Ætheling','William the Conqueror','William II of England']),
+ ('SCOTLAND','Rey de Alba / Escocia',['Kenneth III of Scotland','Malcolm II of Scotland','Duncan I of Scotland','Macbeth, King of Scotland','Lulach','Malcolm III of Scotland','Donald III of Scotland','Duncan II of Scotland','Edgar, King of Scotland']),
+ ('LEON-KINGDOM','Rey de León',['Alfonso V of León','Bermudo III of León','Ferdinand I of León','Alfonso VI of León and Castile','Sancho II of Castile and León']),
+ ('CASTILE-COUNTY','Conde de Castilla',['Sancho García of Castile','García Sánchez of Castile','Sancho III of Pamplona','Ferdinand I of León']),
+ ('CASTILE-KINGDOM','Rey de Castilla',['Sancho II of Castile and León','Alfonso VI of León and Castile']),
+ ('NAVARRE-KINGDOM','Rey de Pamplona / Navarra',['García Sánchez II of Pamplona','Sancho III of Pamplona','García Sánchez III of Pamplona','Sancho IV of Pamplona','Sancho Ramírez','Peter I of Aragon and Pamplona']),
+ ('ARAGON-KINGDOM','Rey de Aragón',['Ramiro I of Aragon','Sancho Ramírez','Peter I of Aragon and Pamplona']),
+ ('BARCELONA-COUNTY','Conde de Barcelona',['Ramon Borrell, Count of Barcelona','Berenguer Ramon I, Count of Barcelona','Ramon Berenguer I, Count of Barcelona','Ramon Berenguer II, Count of Barcelona','Berenguer Ramon II, Count of Barcelona','Ramon Berenguer III, Count of Barcelona']),
+ ('PORTUGAL-COUNTY','Conde de Portugal',['Henry, Count of Portugal']),
+ ('HIST-Q12548','Rey de Romanos / dignidad imperial',['Otto III, Holy Roman Emperor','Henry II, Holy Roman Emperor','Conrad II, Holy Roman Emperor','Henry III, Holy Roman Emperor','Henry IV, Holy Roman Emperor','Rudolf of Rheinfelden','Hermann of Salm']),
+ ('BOHEMIA-DUCHY','Duque de Bohemia',['Boleslaus III, Duke of Bohemia','Vladivoj, Duke of Bohemia','Jaromír, Duke of Bohemia','Oldřich, Duke of Bohemia','Bretislav I','Spytihněv II','Vratislaus II of Bohemia','Conrad I, Duke of Bohemia','Bretislav II']),
+ ('BOHEMIA','Rey de Bohemia · dignidad personal',['Vratislaus II of Bohemia']),
+ ('SAXONY-STEM','Duque de Sajonia',['Bernard I, Duke of Saxony','Bernard II, Duke of Saxony','Ordulf, Duke of Saxony','Magnus, Duke of Saxony']),
+ ('BAVARIA-DUCHY','Duque de Baviera',['Henry II, Holy Roman Emperor','Henry V, Duke of Bavaria','Henry VII, Duke of Bavaria','Henry III, Holy Roman Emperor','Henry IV, Holy Roman Emperor','Conrad I, Duke of Bavaria','Conrad II, Duke of Bavaria','Otto of Nordheim','Welf I, Duke of Bavaria']),
+ ('BYZANTINE','Emperador / emperatriz bizantinos',['Basil II','Constantine VIII','Romanos III Argyros','Zoe Porphyrogenita','Michael IV the Paphlagonian','Michael V Kalaphates','Constantine IX Monomachos','Theodora Porphyrogenita','Michael VI Bringas','Isaac I Komnenos','Constantine X Doukas','Eudokia Makrembolitissa','Romanos IV Diogenes','Michael VII Doukas','Nikephoros III Botaneiates','Alexios I Komnenos']),
+ ('HUNGARY-KINGDOM','Rey de Hungría',['Stephen I of Hungary','Peter, King of Hungary','Samuel Aba','Andrew I of Hungary','Béla I of Hungary','Solomon, King of Hungary','Géza I of Hungary','Ladislaus I of Hungary','Coloman, King of Hungary']),
+ ('POLAND-MEDIEVAL','Duque / rey de Polonia',['Bolesław I the Brave','Mieszko II Lambert','Bezprym','Casimir I the Restorer','Bolesław II the Bold','Władysław I Herman']),
+ ('DNK','Rey de Dinamarca',['Sweyn Forkbeard','Harald II of Denmark','Cnut','Harthacnut','Magnus the Good','Sweyn II of Denmark','Harald III of Denmark','Canute IV of Denmark','Olaf I of Denmark','Eric I of Denmark']),
+ ('NORWAY-KINGDOM','Rey de Noruega',['Olaf Tryggvason','Sweyn Forkbeard','Olaf II of Norway','Cnut','Magnus the Good','Harald Hardrada','Magnus II of Norway','Olaf III of Norway','Haakon Magnusson of Norway','Magnus Barefoot']),
+ ('SWE','Rey de Suecia',['Olof Skötkonung','Anund Jacob','Emund the Old','Stenkil','Halsten Stenkilsson','Inge the Elder','Blot-Sweyn']),
+ ('PAPAL-STATES','Papa · soberano temporal',['Pope Sylvester II','Pope John XVII','Pope John XVIII','Pope Sergius IV','Pope Benedict VIII','Pope John XIX','Pope Benedict IX','Pope Sylvester III','Pope Gregory VI','Pope Clement II','Pope Damasus II','Pope Leo IX','Pope Victor II','Pope Stephen IX','Pope Nicholas II','Pope Alexander II','Pope Gregory VII','Pope Victor III','Pope Urban II','Pope Paschal II']),
+ ('NORTHERN-SONG','Emperador Song del Norte',['Emperor Zhenzong','Emperor Renzong of Song','Emperor Yingzong of Song','Emperor Shenzong of Song','Emperor Zhezong']),
+ ('LIAO','Emperador Liao',['Emperor Shengzong of Liao','Emperor Xingzong of Liao','Emperor Daozong of Liao']),
+ ('WESTERN-XIA','Emperador de Xia Occidental',['Emperor Jingzong of Western Xia','Emperor Yizong of Western Xia','Emperor Huizong of Western Xia','Emperor Chongzong of Western Xia']),
+ ('GORYEO','Rey de Goryeo',['Mokjong of Goryeo','Hyeonjong of Goryeo','Deokjong of Goryeo','Jeongjong, 10th monarch of Goryeo','Munjong of Goryeo','Sunjong of Goryeo','Seonjong of Goryeo','Heonjong of Goryeo','Sukjong of Goryeo']),
+ ('JPN','Emperador · corte imperial',['Emperor Ichijō','Emperor Sanjō','Emperor Go-Ichijō','Emperor Go-Suzaku','Emperor Go-Reizei','Emperor Go-Sanjō','Emperor Shirakawa','Emperor Horikawa']),
+ ('JPN-INSEI','Emperador retirado · gobierno de claustro',['Emperor Shirakawa']),
+ ('JPN-REGENTS','Regente Fujiwara',['Fujiwara no Michinaga','Fujiwara no Yorimichi','Fujiwara no Norimichi','Fujiwara no Morozane','Fujiwara no Moromichi']),
+ ('FATIMID','Califa fatimí',['Al-Hakim bi-Amr Allah','Al-Zahir li-Izaz Din Allah','Al-Mustansir Billah','Al-Musta\'li']),
+ ('ABBASID','Califa abasí',['Al-Qadir','Al-Qa\'im (Abbasid caliph at Baghdad)','Al-Muqtadi','Al-Mustazhir']),
+ ('HIST-Q3708094','Sultán selyúcida',['Tughril','Alp Arslan','Malik-Shah I','Mahmud I (Seljuk sultan)','Barkiyaruq']),
+ ('SELJUK-RUM','Sultán de Rum',['Suleiman ibn Qutalmish','Kilij Arslan I']),
+ ('HIST-Q75613','Emir almorávide',['Yahya ibn Umar al-Lamtuni','Abu Bakr ibn Umar','Yusuf ibn Tashfin']),
+ ('HIST-Q154667','Rey de Georgia',['Bagrat III of Georgia','George I of Georgia','Bagrat IV of Georgia','George II of Georgia','David IV of Georgia']),
+ ('HIST-Q1108445','Gran príncipe de Kiev',['Vladimir the Great','Sviatopolk I of Kiev','Yaroslav the Wise','Iziaslav I of Kiev','Sviatoslav II of Kiev','Vsevolod I of Kiev','Sviatopolk II of Kiev']),
+ ('HIST-Q12844800','Rey / sultán gaznávida',['Mahmud of Ghazni','Muhammad of Ghazni','Mas\'ud I of Ghazni','Mawdud of Ghazni','Ali ibn Mas\'ud','Abd al-Rashid of Ghazni','Toghrul of Ghazni','Farrukh-Zad','Ibrahim of Ghazna','Mas\'ud III of Ghazni']),
+ ('HIST-Q6806806','Rey chola',['Rajaraja I','Rajendra I','Rajadhiraja I','Rajendra II','Virarajendra','Athirajendra','Kulothunga I']),
+ ('KHM','Rey jemer',['Jayavarman V','Udayadityavarman I','Jayaviravarman','Suryavarman I','Udayadityavarman II','Harshavarman III','Jayavarman VI']),
+ ('HIST-Q888574','Rey de Pagan',['Anawrahta','Saw Lu','Kyansittha']),
+ ('CILICIA-PRINCIPALITY','Príncipe armenio de Cilicia',['Ruben I, Prince of Armenia','Constantine I, Prince of Armenia']),
+ ('HIST-Q55502','Defensor del Santo Sepulcro',['Godfrey of Bouillon']),('EDESSA','Conde de Edesa',['Baldwin I of Jerusalem']),('HIST-Q235030','Príncipe de Antioquía',['Bohemond I of Antioch']),
+ ('SICILY-COUNTY','Conde de Sicilia',['Roger I of Sicily']),
+ ('SAVOY-COUNTY','Conde de Saboya',['Humbert I, Count of Savoy','Amadeus I, Count of Savoy','Otto, Count of Savoy','Peter I, Count of Savoy','Amadeus II, Count of Savoy','Humbert II, Count of Savoy']),
+]
+GROUPS += [
+ ('HIST-Q171740','Califa de Córdoba',['Hisham II','Muhammad II of Córdoba','Sulayman ibn al-Hakam','Ali ibn Hammud al-Nasir',"Al-Qasim al-Ma'mun","Yahya ibn Ali ibn Hammud al-Mu'tali",'Hisham III of Córdoba']),
+ ('HIST-Q2622868','Rey de Armenia bagrátida',['Gagik I of Armenia','Hovhannes-Smbat III of Armenia','Ashot IV of Armenia','Gagik II of Armenia']),
+ ('HIST-Q203817','Zar de Bulgaria',['Samuel of Bulgaria','Gavril Radomir of Bulgaria','Ivan Vladislav of Bulgaria','Presian II of Bulgaria']),
+ ('NORMANDY-DUCHY','Duque de Normandía',['Richard II, Duke of Normandy','Richard III, Duke of Normandy','Robert I, Duke of Normandy','William the Conqueror','Robert Curthose']),
+ ('HIST-Q276951','Gobernante de Sevilla',['Abbad I',"Al-Mu'tadid ibn Abbad","Al-Mu'tamid ibn Abbad"]),
+]
+GROUPS += [('NORWAY-KINGDOM','Rey de Noruega',['Haakon Toresfostre']),('FATIMID','Califa fatimí',["Al-Zahir li-I'zaz Din Allah"]),('KHM','Rey jemer',['Jayavirahvarman']),('HIST-Q276951','Gobernante de Sevilla',["Abbad II al-Mu'tadid"])]
+r=types.SimpleNamespace(GROUPS=GROUPS)
+if __name__=='__main__':
+ path=ROOT/'.cache/rulers026-candidates.json';path.write_text(json.dumps(dict(records=[],errors=[dict(key=k,title=t,error='Acquire canonical human and dated office metadata before reign-field fallback')for k,_,ts in GROUPS for t in ts]),ensure_ascii=False)+'\n',encoding='utf8');print('Named candidates',sum(len(ts)for _,_,ts in GROUPS))

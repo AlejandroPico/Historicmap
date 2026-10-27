@@ -1,0 +1,55 @@
+{
+  "key": "SICILY-COUNTY",
+  "name": "Condado de Sicilia",
+  "qid": "Q1917014",
+  "aliases": [
+    "Condado de Sicilia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SICILY-COUNTY"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q315297",
+      "name": "Rogelio I de Sicilia",
+      "role": "Conde de Sicilia",
+      "start": "1071-01-01",
+      "end": "1099-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Roger_I_of_Sicily",
+      "curated": true,
+      "acquisition": "curated-1000-0.26",
+      "note": "La dignidad documentada no acredita dominio uniforme de todo el contorno de fuente. Síntesis anual; no calendario diario ni certificación de todo el contorno.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-574f65ec4921ee165e1f.jpg",
+        "title": "Roger I of Sicily and Judith d'Evreux.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Roger_I_of_Sicily_and_Judith_d%27Evreux.jpg",
+        "artist": "An artist from Château de Pirou, Normandia",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Roger_I_of_Sicily_and_Judith_d%27Evreux.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "Château de Pirou",
+        "sha256": "8edae19d3d641843c59515fd792bf3628f3e0ba5e7e2db6f9c93544c68d0abb5",
+        "bytes": 20997,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Roger_I_of_Sicily_and_Judith_d%27Evreux.jpg",
+        "caption": "Representación de Roger I de Sicilia junto a Judith; imagen histórica posterior."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

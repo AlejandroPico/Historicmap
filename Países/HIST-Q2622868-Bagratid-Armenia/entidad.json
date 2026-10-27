@@ -1,0 +1,110 @@
+{
+  "key": "HIST-Q2622868",
+  "name": "Bagratid Armenia",
+  "qid": "Q2622868",
+  "aliases": [
+    "Bagratid Armenia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2622868"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q2633027",
+      "name": "Ashot IV Qadj",
+      "role": "Rey de Armenia bagrátida",
+      "start": "1021-01-01",
+      "end": "1039-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ashot_IV_of_Armenia",
+      "curated": true,
+      "acquisition": "curated-1000-0.26",
+      "note": "Reino bagrátida, ramas armenias y posterior principado de Cilicia son entidades distintas. La conquista de Ani de 1045 no se convierte en continuidad territorial de Cilicia. Síntesis anual; no calendario diario ni certificación de todo el contorno.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q2527044",
+      "name": "Gagik II d'Ani",
+      "role": "Rey de Armenia bagrátida",
+      "start": "1042-01-01",
+      "end": "1045-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gagik_II_of_Armenia",
+      "curated": true,
+      "acquisition": "curated-1000-0.26",
+      "note": "Reino bagrátida, ramas armenias y posterior principado de Cilicia son entidades distintas. La conquista de Ani de 1045 no se convierte en continuidad territorial de Cilicia. Síntesis anual; no calendario diario ni certificación de todo el contorno.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false,
+      "portrait": {
+        "file": "media/portrait-0dc248fb9e3e33e584b6.jpg",
+        "title": "Kakikios surrenders to Constantine IX.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Kakikios_surrenders_to_Constantine_IX.jpg",
+        "artist": "Unknown, 13th-century author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kakikios_surrenders_to_Constantine_IX.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "History of John Skylitzes (Skyllitzes Matritensis (Biblioteca Nacional de España))",
+        "sha256": "bc0bfc59d2a5038ff0329cc496e1e1b6518ba9eeb77b8aa13251639d4f4b59e1",
+        "bytes": 23919,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Kakikios_surrenders_to_Constantine_IX.jpg/330px-Kakikios_surrenders_to_Constantine_IX.jpg",
+        "caption": "Miniatura de Gagik II ante Constantino IX; escena histórica, no retrato del natural."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4094",
+      "start": 1000,
+      "end": 1009,
+      "name": "Bagratid Armenia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4142",
+      "start": 1010,
+      "end": 1027,
+      "name": "Bagratid Armenia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4258",
+      "start": 1028,
+      "end": 1033,
+      "name": "Bagratid Armenia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4306",
+      "start": 1034,
+      "end": 1039,
+      "name": "Bagratid Armenia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4353",
+      "start": 1040,
+      "end": 1045,
+      "name": "Bagratid Armenia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

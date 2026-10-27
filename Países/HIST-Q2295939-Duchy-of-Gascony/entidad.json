@@ -1,0 +1,66 @@
+{
+  "key": "HIST-Q2295939",
+  "name": "Duchy of Gascony",
+  "qid": "Q2295939",
+  "aliases": [
+    "Duchy of Gascony"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2295939"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4021",
+      "start": 1000,
+      "end": 1017,
+      "name": "Duchy of Gascony",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4229",
+      "start": 1018,
+      "end": 1027,
+      "name": "Duchy of Gascony",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4252",
+      "start": 1028,
+      "end": 1045,
+      "name": "Duchy of Gascony",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4404",
+      "start": 1046,
+      "end": 1055,
+      "name": "Duchy of Gascony",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4513",
+      "start": 1056,
+      "end": 1065,
+      "name": "Duchy of Gascony",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

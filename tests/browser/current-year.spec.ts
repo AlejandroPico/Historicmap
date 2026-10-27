@@ -47,7 +47,7 @@ test('appearance cycles without a menu and automatic mode uses the local clock',
 
 test('compact sources, relief and dated memberships preserve space and temporal scope',async({page})=>{
  await year(page,2026);await expect(page.locator('#chapters-button,.story-panel,#time-scale')).toHaveCount(0);
- await expect(page.locator('.maplibregl-ctrl-attrib')).not.toHaveClass(/maplibregl-compact-show/);
+ await expect(page.locator('.maplibregl-ctrl-attrib')).toHaveCount(0);
  await page.locator('#sources-button').click();await expect(page.locator('#sources-panel')).toBeVisible();await expect(page.locator('#modal')).toBeHidden();
  await expect(page.locator('#sources-panel')).toContainText('Natural Earth');
  const sources=await page.locator('#sources-panel').evaluate(e=>({height:e.clientHeight,scroll:e.scrollHeight}));expect(sources.scroll).toBeLessThanOrEqual(sources.height);

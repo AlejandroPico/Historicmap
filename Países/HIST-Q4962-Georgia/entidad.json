@@ -1,0 +1,90 @@
+{
+  "key": "HIST-Q4962",
+  "name": "Georgia",
+  "qid": "Q4962",
+  "aliases": [
+    "Georgia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q4962"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 202,
+      "start": "1991-09-06",
+      "end": "2019-12-31",
+      "name": "Georgia",
+      "status": "independent"
+    },
+    {
+      "file": "countries.geojson",
+      "recordId": 60,
+      "start": null,
+      "end": null,
+      "name": "Georgia",
+      "status": null
+    },
+    {
+      "file": "early-modern-1000.geojson",
+      "recordId": "clio-4000",
+      "start": 1000,
+      "end": 1009,
+      "name": "Georgia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 40,
+      "start": null,
+      "end": null,
+      "name": "Georgia",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 28,
+      "start": null,
+      "end": null,
+      "name": "Georgia",
+      "status": null
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 36,
+      "start": null,
+      "end": null,
+      "name": "Georgia",
+      "status": null
+    },
+    {
+      "file": "world_1994.geojson",
+      "recordId": 74,
+      "start": null,
+      "end": null,
+      "name": "Georgia",
+      "status": null
+    },
+    {
+      "file": "world_2010.geojson",
+      "recordId": 73,
+      "start": null,
+      "end": null,
+      "name": "Georgia",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

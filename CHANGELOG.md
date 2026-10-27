@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.26.0 · 27/10/2026
+
+- Navegación anual hasta1000:713 intervalos originales,62 reglas fechadas y conservación de trece geografías previas.
+- 310 intervalos de cargos seleccionados,72 de adquisición regional y142 retratos/efigies adoptados. Se distinguen restauraciones, coronaciones, regencias y dignidades personales;31 imágenes asociadas no adecuadas retiradas de las fichas y diez representaciones rotuladas.
+- Sello documental deRobertoII fechado1006–1030; sin retrotraer enseñas posteriores. 38 registros institucionales,46 sedes y18 contextos con diez puntos regionales.
+- Corregida la identificación buyí/abasí y la prolongación del califato cordobés por un pretendiente posterior. Carencias y límites en [RESEARCH-1000.md](docs/RESEARCH-1000.md).
+- Retirada la i inferior izquierda. Sus créditos y enlaces se integran, plegados, en Datos y fuentes; la escala permanece en su posición.
+
 ## 0.25.0 · 27/10/2026
 
 - Navegación anual hasta1100: 541 intervalos originales y65 reglas fechadas; doce geografías anteriores conservadas byte a byte.
