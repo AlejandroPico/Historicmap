@@ -1,0 +1,70 @@
+{
+  "key": "REFERENCE-DENMARK-NORWAY",
+  "ownerKey": "REFERENCE-DENMARK-NORWAY",
+  "name": "Denmark-Norway · referencia",
+  "originalNames": [
+    "Denmark-Norway"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "excluded",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "La etiqueta agregada no identifica una unión permanente aplicable 900–1200. Los poderes danés y noruego se conservan en la cartografía política fechada.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#929e87",
+  "focus": [
+    13.495325000000001,
+    56.327884999999995
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Denmark-Norway · referencia",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-DENMARK-NORWAY.geojson",
+  "geometrySha256": "26fa64d3d9d971462b8dd9a605a749aa20797328cb63e03a87ae66c3f3eff106",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      247
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Denmark-Norway",
+      "ABBREVN": "",
+      "INFO_UR": null,
+      "SUBJECTO": "",
+      "BORDERPRECISION": 1,
+      "PARTOF": ""
+    }
+  ],
+  "sourceGrouping": []
+}

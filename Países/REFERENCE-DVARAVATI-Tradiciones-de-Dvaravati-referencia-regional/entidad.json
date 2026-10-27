@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-DVARAVATI",
+  "name": "Tradiciones de Dvaravati · referencia regional",
+  "qid": "",
+  "aliases": [
+    "Dvaravati",
+    "Tradiciones de Dvaravati · referencia regional"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 258,
+      "start": null,
+      "end": null,
+      "name": "Dvaravati",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-DVARAVATI:0",
+      "contextKey": "REFERENCE-DVARAVATI",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/REFERENCE-DVARAVATI-Tradiciones-y-poderes-de-Dvaravati-referencia/poblamiento/REFERENCE-DVARAVATI.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

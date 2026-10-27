@@ -1,0 +1,44 @@
+{
+  "key": "CULTURE-MESOAMERICA",
+  "name": "Ciudades y señoríos mesoamericanos",
+  "qid": "",
+  "aliases": [
+    "Ciudades y señoríos mesoamericanos",
+    "Mesoamerican city-states and chiefdoms"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 59,
+      "start": null,
+      "end": null,
+      "name": "Mesoamerican city-states and chiefdoms",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MESOAMERICA:0",
+      "contextKey": "CULTURE-MESOAMERICA",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-MESOAMERICA-Ciudades-y-senorios-mesoamericanos/poblamiento/CULTURE-MESOAMERICA.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

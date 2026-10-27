@@ -1,0 +1,52 @@
+{
+  "key": "CULTURE-TAINO",
+  "name": "Comunidades antillanas · tradición taína",
+  "qid": "",
+  "aliases": [
+    "Comunidades antillanas · tradición taína",
+    "Taino"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 107,
+      "start": null,
+      "end": null,
+      "name": "Taino",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 1220,
+      "start": null,
+      "end": null,
+      "name": "Taino",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-TAINO:0",
+      "contextKey": "CULTURE-TAINO",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-TAINO-Comunidades-antillanas-tradicion-taina/poblamiento/CULTURE-TAINO.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

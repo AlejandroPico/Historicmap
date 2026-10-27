@@ -1,0 +1,70 @@
+{
+  "key": "CULTURE-CHUD",
+  "ownerKey": "CULTURE-CHUD",
+  "name": "Pueblos fineses orientales · referencia Chud",
+  "originalNames": [
+    "Chuds"
+  ],
+  "kind": "cultural-region",
+  "region": "Europa nororiental",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a99772",
+  "focus": [
+    29.72090062584482,
+    60.532316042675546
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Pueblos fineses orientales · referencia Chud",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-CHUD.geojson",
+  "geometrySha256": "e0577c31596a2b34a30872f6b95f653f2e30d1bcb80c4387b32b9183e48ebd6c",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      180
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Chuds",
+      "ABBREVN": "Chuds",
+      "INFO_UR": null,
+      "SUBJECTO": "Chuds",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Chuds"
+    }
+  ],
+  "sourceGrouping": []
+}

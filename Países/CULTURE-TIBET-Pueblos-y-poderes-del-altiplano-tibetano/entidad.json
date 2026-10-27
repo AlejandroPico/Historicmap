@@ -1,0 +1,84 @@
+{
+  "key": "CULTURE-TIBET",
+  "name": "Pueblos y poderes del altiplano tibetano",
+  "qid": "",
+  "aliases": [
+    "Pueblos y poderes del altiplano tibetano",
+    "Tibet"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 553,
+      "start": "1913-01-01",
+      "end": "1914-07-02",
+      "name": "Tibet",
+      "status": "independent"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 554,
+      "start": "1914-07-03",
+      "end": "1950-10-01",
+      "name": "Tibet",
+      "status": "independent"
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 24,
+      "start": null,
+      "end": null,
+      "name": "Tibet",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 61,
+      "start": null,
+      "end": null,
+      "name": "Tibet",
+      "status": null
+    },
+    {
+      "file": "world_1914.geojson",
+      "recordId": 107,
+      "start": null,
+      "end": null,
+      "name": "Tibet",
+      "status": null
+    },
+    {
+      "file": "world_1945.geojson",
+      "recordId": 133,
+      "start": null,
+      "end": null,
+      "name": "Tibet",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-TIBET:0",
+      "contextKey": "CULTURE-TIBET",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-TIBET-Pueblos-y-poderes-del-altiplano-tibetano/poblamiento/CULTURE-TIBET.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

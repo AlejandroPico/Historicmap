@@ -480,3 +480,14 @@ dialog.date-picker::backdrop{background:transparent;backdrop-filter:none}
 .date-picker #date-input{width:100%;min-width:0;margin:0;padding:8px 9px;font-size:17px}
 .date-picker .primary-button{width:38px;min-width:38px;padding:8px;justify-content:center;margin:0}
 .date-picker #date-hint{display:block;margin-top:8px;font-size:11px;color:var(--muted)}
+.regional-card{display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.regional-card .country-content{min-height:0;overflow-y:auto;scrollbar-width:none}
+.regional-type{margin:4px 0 12px;font-size:11px!important;color:var(--accent)!important}
+#selection-alternatives{flex:none;margin:7px 0;padding:8px 0;border-block:1px solid var(--line)}
+#selection-alternatives[hidden]{display:none}
+#selection-alternatives>span{font-size:10px;color:var(--muted)}
+#selection-alternatives>div{display:flex;gap:5px;overflow-x:auto;scrollbar-width:none;padding-top:5px}
+#selection-alternatives button{flex:0 0 auto;max-width:185px;padding:6px 8px;border:1px solid var(--line);font-size:11px;text-align:left;white-space:normal}
+#selection-alternatives button[aria-pressed=true]{background:var(--soft);border-color:var(--accent)}
+#selection-alternatives button small{display:block;color:var(--muted);font-size:9px}
+.regional-legend{border-left:2px dashed var(--accent);padding-left:7px}

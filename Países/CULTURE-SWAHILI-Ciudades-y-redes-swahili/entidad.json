@@ -1,0 +1,52 @@
+{
+  "key": "CULTURE-SWAHILI",
+  "name": "Ciudades y redes swahili",
+  "qid": "",
+  "aliases": [
+    "Ciudades y redes swahili",
+    "Islamic city-states"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 16,
+      "start": null,
+      "end": null,
+      "name": "Islamic city-states",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 18,
+      "start": null,
+      "end": null,
+      "name": "Islamic city-states",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-SWAHILI:0",
+      "contextKey": "CULTURE-SWAHILI",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-SWAHILI-Ciudades-y-redes-swahili/poblamiento/CULTURE-SWAHILI.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,70 @@
+{
+  "key": "REFERENCE-BRITANY",
+  "ownerKey": "REFERENCE-BRITANY",
+  "name": "Britany · referencia",
+  "originalNames": [
+    "Britany"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a49786",
+  "focus": [
+    -3.2658017484985242,
+    48.09775971720676
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Britany · referencia",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-BRITANY.geojson",
+  "geometrySha256": "bd82d2419c8232dd3201fedc4e2be232880fb58a0d0aa830323745ba0c36ec1b",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      172
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Britany",
+      "ABBREVN": "Britany",
+      "INFO_UR": null,
+      "SUBJECTO": "Britany",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Britany"
+    }
+  ],
+  "sourceGrouping": []
+}

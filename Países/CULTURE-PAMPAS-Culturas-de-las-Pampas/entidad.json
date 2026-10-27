@@ -1,0 +1,84 @@
+{
+  "key": "CULTURE-PAMPAS",
+  "name": "Culturas de las Pampas",
+  "qid": "",
+  "aliases": [
+    "Culturas de las Pampas",
+    "Pampas cultures"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 164,
+      "start": null,
+      "end": null,
+      "name": "Pampas cultures",
+      "status": null
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 159,
+      "start": null,
+      "end": null,
+      "name": "Pampas cultures",
+      "status": null
+    },
+    {
+      "file": "world_1800.geojson",
+      "recordId": 184,
+      "start": null,
+      "end": null,
+      "name": "Pampas cultures",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 59,
+      "start": null,
+      "end": null,
+      "name": "Pampas cultures",
+      "status": null
+    },
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 66,
+      "start": null,
+      "end": null,
+      "name": "Pampas cultures",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 75,
+      "start": null,
+      "end": null,
+      "name": "Pampas cultures",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PAMPAS:0",
+      "contextKey": "CULTURE-PAMPAS",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-PAMPAS-Culturas-de-las-Pampas/poblamiento/CULTURE-PAMPAS.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

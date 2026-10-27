@@ -1,0 +1,98 @@
+{
+  "key": "REFERENCE-CALIPHATE-OF-CORDOBA",
+  "ownerKey": "HIST-Q171740",
+  "name": "Caliphate of Córdoba · referencia",
+  "originalNames": [
+    "Caliphate of Córdoba"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. El catálogo político aporta evidencia institucional fechada; no valida por sí mismo la superficie regional de esta compilación.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://tesauros.cultura.gob.es/tesauros/contextosculturales/1006745"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q171740",
+    "CORDOBA-EMIRATE"
+  ],
+  "color": "#9b9a76",
+  "focus": [
+    1.413472,
+    38.974579000000006
+  ],
+  "phases": [
+    {
+      "start": 929,
+      "end": 1031,
+      "label": "Caliphate of Córdoba · referencia",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-CALIPHATE-OF-CORDOBA.geojson",
+  "geometrySha256": "c738d5fcfa6634032160273a7f96c76531f5a72ce7d2b13ebeb4e0fce09a8453",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      102
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "politicalCatalogueEvidence": [
+    {
+      "keys": [
+        "HIST-Q171740",
+        "HIST-Q276951"
+      ],
+      "id": "review026-cordoba",
+      "start": "1009-01-01",
+      "end": "1032-01-01",
+      "source": "https://tesauros.cultura.gob.es/tesauros/contextosculturales/1006745"
+    },
+    {
+      "keys": [
+        "HIST-Q171740"
+      ],
+      "id": "review027-cordoba",
+      "start": "0929-01-01",
+      "end": "1000-01-01",
+      "source": "https://tesauros.cultura.gob.es/tesauros/contextosculturales/1006745"
+    }
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Caliphate of Córdoba",
+      "ABBREVN": "Caliphate of Córdoba",
+      "INFO_UR": null,
+      "SUBJECTO": "Caliphate of Córdoba",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Caliphate of Córdoba"
+    }
+  ],
+  "sourceGrouping": []
+}

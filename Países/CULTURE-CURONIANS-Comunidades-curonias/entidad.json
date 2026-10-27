@@ -1,0 +1,44 @@
+{
+  "key": "CULTURE-CURONIANS",
+  "name": "Comunidades curonias",
+  "qid": "",
+  "aliases": [
+    "Comunidades curonias",
+    "Kurs"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 182,
+      "start": null,
+      "end": null,
+      "name": "Kurs",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CURONIANS:0",
+      "contextKey": "CULTURE-CURONIANS",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-CURONIANS-Comunidades-curonias/poblamiento/CULTURE-CURONIANS.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

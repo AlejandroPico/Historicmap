@@ -985,6 +985,31 @@
       "format": "dated-entity-resolution",
       "coverageStart": 900,
       "coverageEnd": 999
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "format": "dated-cultural-regions",
+      "source": "Entity-owned documentary review; Historical Basemaps source polygons",
+      "version": "Historicmap 0.28.0; review 2026-10-27",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
+      "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
+      "features": 127,
+      "coverageStart": 900,
+      "coverageEnd": 1200,
+      "bytes": 904589,
+      "sha256": "945478568b4ae750cd82d1c5ea31f0bbe710f5583c44828b2c20343bc523fd84",
+      "transform": "Original source polygons/components retained as approximate regional references, with explicit temporal consultation windows; separate from political sovereignty. Decisions and sources owned by each entity in Países."
+    },
+    {
+      "file": "cultural-index.json",
+      "format": "cultural-coverage-index",
+      "source": "Entity-owned regional coverage inventory",
+      "version": "Historicmap 0.28.0; review 2026-10-27",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
+      "license": "Original editorial metadata; linked source geometry licensed separately",
+      "records": 127,
+      "bytes": 38178,
+      "sha256": "9bfd007b71872c92c030a8965448783d63d7a8556dbef6c0457f3a9b0e1fa881"
     }
   ]
 }

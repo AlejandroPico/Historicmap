@@ -1,0 +1,44 @@
+{
+  "key": "CULTURE-GUANAHATABEY",
+  "name": "Comunidades del occidente de Cuba",
+  "qid": "",
+  "aliases": [
+    "Comunidades del occidente de Cuba",
+    "Guanahatabeyes"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 106,
+      "start": null,
+      "end": null,
+      "name": "Guanahatabeyes",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-GUANAHATABEY:0",
+      "contextKey": "CULTURE-GUANAHATABEY",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-GUANAHATABEY-Comunidades-del-occidente-de-Cuba/poblamiento/CULTURE-GUANAHATABEY.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,84 @@
+{
+  "key": "REFERENCE-CYPRUS",
+  "name": "Chipre · región histórica",
+  "qid": "",
+  "aliases": [
+    "Chipre · región histórica",
+    "Cyprus"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "history.topojson",
+      "recordId": 146,
+      "start": "1914-11-05",
+      "end": "1960-08-15",
+      "name": "Cyprus",
+      "status": "colony"
+    },
+    {
+      "file": "history.topojson",
+      "recordId": 147,
+      "start": "1960-08-16",
+      "end": "2019-12-31",
+      "name": "Cyprus",
+      "status": "independent"
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 0,
+      "start": null,
+      "end": null,
+      "name": "Cyprus",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 0,
+      "start": null,
+      "end": null,
+      "name": "Cyprus",
+      "status": null
+    },
+    {
+      "file": "world_1994.geojson",
+      "recordId": 1,
+      "start": null,
+      "end": null,
+      "name": "Cyprus",
+      "status": null
+    },
+    {
+      "file": "world_2010.geojson",
+      "recordId": 1,
+      "start": null,
+      "end": null,
+      "name": "Cyprus",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-CYPRUS:0",
+      "contextKey": "REFERENCE-CYPRUS",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/REFERENCE-CYPRUS-Cyprus-referencia/poblamiento/REFERENCE-CYPRUS.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

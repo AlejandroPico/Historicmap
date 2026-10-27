@@ -1,0 +1,70 @@
+{
+  "key": "CULTURE-PACIFIC-NORTHWEST",
+  "ownerKey": "CULTURE-PACIFIC-NORTHWEST",
+  "name": "Pueblos de la costa noroccidental del Pacífico",
+  "originalNames": [
+    "North American Pacific foraging, hunting and fishing peoples"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    -132.84579178382612,
+    55.552325807768725
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Pueblos de la costa noroccidental del Pacífico",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-PACIFIC-NORTHWEST.geojson",
+  "geometrySha256": "65e336bd9288ee1bcaf22094e18f5e467ad52c300b8b5f6cc32d077e3137ea37",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      165
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "North American Pacific foraging, hunting and fishing peoples",
+      "ABBREVN": "North American Pacific foraging, hunting and fishing peoples",
+      "INFO_UR": null,
+      "SUBJECTO": "North American Pacific foraging, hunting and fishing peoples",
+      "BORDERPRECISION": 1,
+      "PARTOF": "North American Pacific foraging, hunting and fishing peoples"
+    }
+  ],
+  "sourceGrouping": []
+}

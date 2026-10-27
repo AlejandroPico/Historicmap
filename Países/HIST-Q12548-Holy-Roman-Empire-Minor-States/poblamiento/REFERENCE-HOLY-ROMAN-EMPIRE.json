@@ -1,0 +1,160 @@
+{
+  "key": "REFERENCE-HOLY-ROMAN-EMPIRE",
+  "ownerKey": "HIST-Q12548",
+  "name": "Holy Roman Empire · referencia",
+  "originalNames": [
+    "Holy Roman Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. El catálogo político aporta evidencia institucional fechada; no valida por sí mismo la superficie regional de esta compilación.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Referencia documental · siglo XIII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Interregnum_%28Holy_Roman_Empire%29"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Concordat_of_Worms"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Stem_duchy"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Investiture_Controversy"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q12548",
+    "EAST-FRANCIA"
+  ],
+  "color": "#a69b78",
+  "focus": [
+    10.958455,
+    47.831419999999994
+  ],
+  "phases": [
+    {
+      "start": 962,
+      "end": 1200,
+      "label": "Holy Roman Empire · referencia",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-HOLY-ROMAN-EMPIRE.geojson",
+  "geometrySha256": "3793493b0de3ad0d8e524a448096d8de9de06cb6d1119ed912aaa983dbff7913",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      244
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "politicalCatalogueEvidence": [
+    {
+      "keys": [
+        "HIST-Q12548",
+        "HESSE-UNITED",
+        "SAXONY-DUCHY",
+        "SAXONY-ELECTORATE",
+        "ELECTORATE-BRANDENBURG",
+        "BAVARIA-DUCHY"
+      ],
+      "id": "review024-hre",
+      "start": "1200-01-01",
+      "end": "1300-01-01",
+      "source": "https://en.wikipedia.org/wiki/Interregnum_%28Holy_Roman_Empire%29"
+    },
+    {
+      "keys": [
+        "HIST-Q12548",
+        "PAPAL-STATES"
+      ],
+      "id": "review025-investiture",
+      "start": "1100-01-01",
+      "end": "1123-01-01",
+      "source": "https://en.wikipedia.org/wiki/Concordat_of_Worms"
+    },
+    {
+      "keys": [
+        "HIST-Q12548",
+        "SAXONY-STEM",
+        "SAXONY-DUCHY",
+        "BAVARIA-DUCHY",
+        "BOHEMIA-DUCHY",
+        "BOHEMIA"
+      ],
+      "id": "review025-saxony",
+      "start": "1158-01-01",
+      "end": "1200-01-01",
+      "source": "https://en.wikipedia.org/wiki/Stem_duchy"
+    },
+    {
+      "keys": [
+        "HIST-Q12548",
+        "PAPAL-STATES",
+        "SAXONY-STEM"
+      ],
+      "id": "review026-investiture",
+      "start": "1075-01-01",
+      "end": "1100-01-01",
+      "source": "https://en.wikipedia.org/wiki/Investiture_Controversy"
+    },
+    {
+      "keys": [
+        "BOHEMIA-DUCHY",
+        "BOHEMIA",
+        "HIST-Q12548"
+      ],
+      "id": "review026-bohemia",
+      "start": "1085-01-01",
+      "end": "1093-01-01",
+      "source": "https://en.wikipedia.org/wiki/Vratislaus_II_of_Bohemia"
+    },
+    {
+      "keys": [
+        "HIST-Q12548"
+      ],
+      "id": "review027-otto",
+      "start": "0955-01-01",
+      "end": "0963-01-01",
+      "source": "https://www.deutschlandmuseum.de/en/history/calendar/962-02-02-the-establishment-of-the-holy-roman-empire/"
+    }
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Holy Roman Empire",
+      "ABBREVN": "Holy Roman Empire",
+      "INFO_UR": null,
+      "SUBJECTO": "Holy Roman Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Holy Roman Empire"
+    }
+  ],
+  "sourceGrouping": []
+}

@@ -24,6 +24,12 @@ function record(p,file,recordId){
  const e=add(key,name,qid);e.aliases.add(name);
  e.records.push({file,recordId,start:p.start??null,end:p.end??null,name,status:p.status??p.politicalStatus??null});
 }
+if(manifest.entries.some(e=>e.file==='cultural-regions.geojson'))for(const f of read('cultural-regions.geojson').features){
+ const p=f.properties,key=p.ownerKey,e=add(key,p.name);
+ e.culturalRecords??=[];e.culturalRecords.push({file:'cultural-regions.geojson',recordId:f.id,contextKey:p.contextKey,start:p.start,end:p.end,sourceYear:p.sourceYear,canonicalFile:p.canonicalFile});
+ if(p.kind==='cultural-region')for(const name of p.originalNames){e.aliases.add(name);names.set(norm(name),key);}
+}
+if(manifest.entries.some(e=>e.file==='cultural-index.json'))for(const r of read('cultural-index.json').excluded??[]){const e=add(r.ownerKey,r.name);e.culturalReviews??=[];e.culturalReviews.push(r);}
 for(const g of read('history.topojson').objects.countries.geometries)record(g.properties,'history.topojson',g.properties.fid);
 for(const entry of manifest.entries.filter(e=>/^(early-modern-900|early-modern-1000|early-modern-1100|early-modern-1200|early-modern-1300|early-modern-1400|early-modern-1500|early-modern-1600|early-modern-1700|early-modern|historical-control|historical-1880-control|historical-1880-supplements|pacific-references|ukraine-control-2022|central-europe-1939|spanish-civil-war|recent-control|historical-supplements|countries|world_.*)\.geojson$/.test(e.file))){
  const d=read(entry.file);for(const [i,f] of d.features.entries())record(f.properties,entry.file,f.id??i);
@@ -37,7 +43,7 @@ for(const e of [...entities.values()].sort((a,b)=>a.key.localeCompare(b.key))){
  const output={key:e.key,name:e.name,qid:e.qid,aliases:[...e.aliases].sort(),generatedBy:'scripts/prepare-country-catalog.mjs',
   scope:'Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.',
   sourceIdentity:c?{file:'../../public/data/identities.json',key:e.key}:null,
-  flags,symbolReferences:c?.symbolReferences??[],leaders,portraitVariants:portraitSeries.records.filter(r=>leaders.some(l=>l.person===r.person)),territorialRecords:e.records,
+  flags,symbolReferences:c?.symbolReferences??[],leaders,portraitVariants:portraitSeries.records.filter(r=>leaders.some(l=>l.person===r.person)),territorialRecords:e.records,...(e.culturalRecords?.length?{culturalRecords:e.culturalRecords}:{}),...(e.culturalReviews?.length?{culturalReviews:e.culturalReviews}:{}),
   relatedData:['../../public/data/country-history.json','../../public/data/historical-context.json','../../public/data/affiliations.json'],
   mediaRoot:'../../public/',extensionFile:'recursos.json'};
  writeFileSync(resolve(path,'entidad.json'),JSON.stringify(output,null,2)+'\n');

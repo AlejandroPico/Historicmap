@@ -1,0 +1,44 @@
+{
+  "key": "CULTURE-ATHABASKAN",
+  "name": "Pueblos de lenguas atabascanas · área general",
+  "qid": "",
+  "aliases": [
+    "Athabaskan",
+    "Pueblos de lenguas atabascanas · área general"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 111,
+      "start": null,
+      "end": null,
+      "name": "Athabaskan",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ATHABASKAN:0",
+      "contextKey": "CULTURE-ATHABASKAN",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-ATHABASKAN-Pueblos-de-lenguas-atabascanas-area-general/poblamiento/CULTURE-ATHABASKAN.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,73 @@
+{
+  "key": "CULTURE-DORSET",
+  "ownerKey": "CULTURE-DORSET",
+  "name": "Tradiciones Dorset · Ártico oriental",
+  "originalNames": [
+    "Dorset"
+  ],
+  "kind": "cultural-region",
+  "region": "Ártico",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Tradiciones arqueológicas del Ártico oriental, con persistencias regionales y cambios desiguales. La llegada y expansión Thule no equivale a una sustitución instantánea de todos los habitantes.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Parks Canada · ocupación Dorset y expansión Thule; variación regional",
+      "url": "https://parks.canada.ca/pn-np/nu/auyuittuq/culture"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#9b9a76",
+  "focus": [
+    -100.84347128327867,
+    68.11567327239983
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Tradiciones Dorset · Ártico oriental",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-DORSET.geojson",
+  "geometrySha256": "f49c740d0196d34dc754235d635ea2a215055316dfad57967f0e10bd51e4fb61",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      110
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Dorset",
+      "ABBREVN": "Dorset",
+      "INFO_UR": null,
+      "SUBJECTO": "Dorset",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Dorset"
+    }
+  ],
+  "sourceGrouping": []
+}

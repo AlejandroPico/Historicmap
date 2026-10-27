@@ -1,0 +1,44 @@
+{
+  "key": "CULTURE-CHUD",
+  "name": "Pueblos fineses orientales · referencia Chud",
+  "qid": "",
+  "aliases": [
+    "Chuds",
+    "Pueblos fineses orientales · referencia Chud"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 180,
+      "start": null,
+      "end": null,
+      "name": "Chuds",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CHUD:0",
+      "contextKey": "CULTURE-CHUD",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-CHUD-Pueblos-fineses-orientales-referencia-Chud/poblamiento/CULTURE-CHUD.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

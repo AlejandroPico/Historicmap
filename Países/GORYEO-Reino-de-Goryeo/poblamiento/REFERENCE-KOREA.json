@@ -1,0 +1,115 @@
+{
+  "key": "REFERENCE-KOREA",
+  "ownerKey": "GORYEO",
+  "name": "Korea · referencia",
+  "originalNames": [
+    "Korea"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. El catálogo político aporta evidencia institucional fechada; no valida por sí mismo la superficie regional de esta compilación.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Goryeo_military_regime"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Goryeo%E2%80%93Khitan_War"
+    },
+    {
+      "title": "Referencia documental · siglo X · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Later_Three_Kingdoms"
+    }
+  ],
+  "politicalKeys": [
+    "GORYEO",
+    "HIST-Q715257"
+  ],
+  "color": "#a99772",
+  "focus": [
+    126.9677544183703,
+    38.065185152251146
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Korea · referencia",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-KOREA.geojson",
+  "geometrySha256": "e67464c900541a7016d745ed5dec029858ad1be031cfbb0d01ff30c3308b041f",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      30
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "politicalCatalogueEvidence": [
+    {
+      "keys": [
+        "GORYEO"
+      ],
+      "id": "review025-korea",
+      "start": "1170-01-01",
+      "end": "1200-01-01",
+      "source": "https://en.wikipedia.org/wiki/Goryeo_military_regime"
+    },
+    {
+      "keys": [
+        "GORYEO",
+        "LIAO"
+      ],
+      "id": "review026-korea",
+      "start": "1010-01-01",
+      "end": "1020-01-01",
+      "source": "https://en.wikipedia.org/wiki/Goryeo%E2%80%93Khitan_War"
+    },
+    {
+      "keys": [
+        "GORYEO"
+      ],
+      "id": "review027-korea",
+      "start": "0918-01-01",
+      "end": "0937-01-01",
+      "source": "https://en.wikipedia.org/wiki/Later_Three_Kingdoms"
+    }
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Korea",
+      "ABBREVN": "Korea",
+      "INFO_UR": null,
+      "SUBJECTO": "Korea",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Korea"
+    }
+  ],
+  "sourceGrouping": []
+}

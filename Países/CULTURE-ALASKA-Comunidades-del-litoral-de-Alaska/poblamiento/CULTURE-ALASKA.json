@@ -1,0 +1,73 @@
+{
+  "key": "CULTURE-ALASKA",
+  "ownerKey": "CULTURE-ALASKA",
+  "name": "Comunidades del litoral de Alaska",
+  "originalNames": [
+    "Thule"
+  ],
+  "kind": "cultural-region",
+  "region": "Ártico y Pacífico norte",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "El polígono antiguo rotulado Thule cubre una amplia región costera de Alaska, no una delimitación fiable de esa cultura. Se conserva como referencia regional de poblamiento, con atribución original y revisión espacial pendiente. Birnirk y Thule tienen cronologías y distribuciones distintas; no se hace aparecer a Thule en 900.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "University of Alaska Museum · Thule, Birnirk y culturas precursoras",
+      "url": "https://www.uaf.edu/museum/collections/archaeo/online-exhibits/paleo-eskimo-cultures/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    -153.1206633988075,
+    59.895779734529754
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Comunidades del litoral de Alaska",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-ALASKA.geojson",
+  "geometrySha256": "0f9188c42828c24d64b31b7f459e1b48548020d84c665224a99bc773dcafeb86",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      112
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Thule",
+      "ABBREVN": "Thule",
+      "INFO_UR": null,
+      "SUBJECTO": "Thule",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Thule"
+    }
+  ],
+  "sourceGrouping": []
+}

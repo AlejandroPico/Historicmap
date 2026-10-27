@@ -1,0 +1,76 @@
+{
+  "key": "REFERENCE-DUCHY-OF-SWABIA",
+  "ownerKey": "REFERENCE-DUCHY-OF-SWABIA",
+  "name": "Duchy of Swabia · referencia",
+  "originalNames": [
+    "Duchy of Swabia"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Deutsche Biographie · Erchanger, dignidad ducal915 y sucesión917",
+      "url": "https://www.deutsche-biographie.de/gnd135973988.html?language=en"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#929e87",
+  "focus": [
+    9.236650000000001,
+    47.61233
+  ],
+  "phases": [
+    {
+      "start": 915,
+      "end": 1200,
+      "label": "Duchy of Swabia · referencia",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-DUCHY-OF-SWABIA.geojson",
+  "geometrySha256": "40fe4b3bbc5a0f541d122ab034a457d1cc83d76f8fd4586169b7a4439ced3ed2",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      226
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Duchy of Swabia",
+      "ABBREVN": "Swabia",
+      "INFO_UR": "https://en.wikipedia.org/wiki/Duchy_of_Swabia",
+      "SUBJECTO": "Holy Roman Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Holy Roman Empire"
+    }
+  ],
+  "sourceGrouping": [
+    "Holy Roman Empire"
+  ]
+}

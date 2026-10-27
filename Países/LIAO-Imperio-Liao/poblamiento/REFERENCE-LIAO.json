@@ -1,0 +1,128 @@
+{
+  "key": "REFERENCE-LIAO",
+  "ownerKey": "LIAO",
+  "name": "Liao · referencia",
+  "originalNames": [
+    "Liao"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. El catálogo político aporta evidencia institucional fechada; no valida por sí mismo la superficie regional de esta compilación.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://www.metmuseum.org/zh/toah/ht/07/eac"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Goryeo%E2%80%93Khitan_War"
+    },
+    {
+      "title": "Referencia documental · siglo X · catálogo político fechado",
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Chinese_Decorative_Arts_The_Metropolitan_Museum_of_Art_Bulletin_v_55_no_1_Summer_1997.pdf"
+    }
+  ],
+  "politicalKeys": [
+    "LIAO"
+  ],
+  "color": "#969886",
+  "focus": [
+    121.03474422023766,
+    42.63974954377673
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Liao · referencia",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-LIAO.geojson",
+  "geometrySha256": "92662613ad74489637b9aafd712ffafc5908660792e6839f119b0453e6936d62",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      31
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "politicalCatalogueEvidence": [
+    {
+      "keys": [
+        "NORTHERN-SONG",
+        "SOUTHERN-SONG",
+        "JIN-JURCHEN",
+        "LIAO"
+      ],
+      "id": "review025-song",
+      "start": "1115-01-01",
+      "end": "1143-01-01",
+      "source": "https://www.metmuseum.org/zh/toah/ht/07/eac"
+    },
+    {
+      "keys": [
+        "NORTHERN-SONG",
+        "LIAO",
+        "WESTERN-XIA"
+      ],
+      "id": "review026-china",
+      "start": "1000-01-01",
+      "end": "1100-01-01",
+      "source": "https://www.metmuseum.org/zh/toah/ht/07/eac"
+    },
+    {
+      "keys": [
+        "GORYEO",
+        "LIAO"
+      ],
+      "id": "review026-korea",
+      "start": "1010-01-01",
+      "end": "1020-01-01",
+      "source": "https://en.wikipedia.org/wiki/Goryeo%E2%80%93Khitan_War"
+    },
+    {
+      "keys": [
+        "LIAO"
+      ],
+      "id": "review027-khitan",
+      "start": "0907-01-01",
+      "end": "0917-01-01",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Chinese_Decorative_Arts_The_Metropolitan_Museum_of_Art_Bulletin_v_55_no_1_Summer_1997.pdf"
+    }
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Liao",
+      "ABBREVN": "Liao",
+      "INFO_UR": null,
+      "SUBJECTO": "Liao",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Liao"
+    }
+  ],
+  "sourceGrouping": []
+}

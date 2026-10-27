@@ -1,0 +1,79 @@
+{
+  "key": "CULTURE-BANTU",
+  "ownerKey": "CULTURE-BANTU",
+  "name": "Pueblos de lenguas bantúes · área general",
+  "originalNames": [
+    "Bantu peoples"
+  ],
+  "kind": "cultural-region",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Familia de lenguas y diversidad de sociedades, con agricultura, pastoreo, metalurgia y redes de intercambio. No es una sola tribu, reino o administración; su interacción con puebloskhoe ysan no implica sustitución uniforme. La denominación lingüística abarca sociedades diferentes. Interacción, mezcla y expansión no equivalen a anexión por un Estado único.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Met · África oriental y meridional 500–1000",
+      "url": "https://www.metmuseum.org/de/toah/ht/06/afa.html"
+    },
+    {
+      "title": "Nature Communications · diversidad y contactos de poblaciones de lenguas bantúes",
+      "url": "https://www.nature.com/articles/s41467-021-22207-y"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    24.373957485926347,
+    -6.1554070654607935
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Pueblos de lenguas bantúes · área general",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-BANTU.geojson",
+  "geometrySha256": "738add785da392bc51cec77e289b7d5155f480a11b81403a41519ae3d55446f5",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      173
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Bantu peoples",
+      "ABBREVN": "Bantu peoples",
+      "INFO_UR": null,
+      "SUBJECTO": "Bantu peoples",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Bantou"
+    }
+  ],
+  "sourceGrouping": [
+    "Bantou"
+  ]
+}

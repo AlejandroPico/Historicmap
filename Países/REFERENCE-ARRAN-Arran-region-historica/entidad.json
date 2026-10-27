@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-ARRAN",
+  "name": "Arrán · región histórica",
+  "qid": "",
+  "aliases": [
+    "Arran",
+    "Arrán · región histórica"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 237,
+      "start": null,
+      "end": null,
+      "name": "Arran",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-ARRAN:0",
+      "contextKey": "REFERENCE-ARRAN",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/REFERENCE-ARRAN-Arran-referencia/poblamiento/REFERENCE-ARRAN.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

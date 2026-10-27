@@ -1,0 +1,77 @@
+{
+  "key": "REFERENCE-TIAHUANACO-EMPIRE",
+  "ownerKey": "REFERENCE-TIAHUANACO-EMPIRE",
+  "name": "Tiwanaku · etapa tardía · referencia",
+  "originalNames": [
+    "Tiahuanaco Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Poder y tradición cultural andina en fase tardía. El final del centro político no significa desaparición de las poblaciones; no se prolonga un imperio uniforme hasta 1200.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Met · Wari y Tiwanaku; culturas vecinas y contactos",
+      "url": "https://www.metmuseum.org/art/collection/search/314623"
+    },
+    {
+      "title": "UNESCO · Tiwanaku, centro político y cultural",
+      "url": "https://whc.unesco.org/en/list/567/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a99772",
+  "focus": [
+    -69.46649180418248,
+    -23.00221578443839
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1000,
+      "label": "Tiwanaku · etapa tardía · referencia",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-TIAHUANACO-EMPIRE.geojson",
+  "geometrySha256": "3738f98bc2b9e56fac6e8864ca505826dc78c91630370332fac9aac9e6dc6a26",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      56
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Tiahuanaco Empire",
+      "ABBREVN": "Tiahuanaco E",
+      "INFO_UR": null,
+      "SUBJECTO": "Tiahuanaco Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Tiahuanaco Empire"
+    }
+  ],
+  "sourceGrouping": []
+}

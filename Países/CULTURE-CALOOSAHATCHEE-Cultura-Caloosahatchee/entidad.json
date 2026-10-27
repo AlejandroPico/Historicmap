@@ -1,0 +1,52 @@
+{
+  "key": "CULTURE-CALOOSAHATCHEE",
+  "name": "Cultura Caloosahatchee",
+  "qid": "",
+  "aliases": [
+    "Caloosahatchee culture",
+    "Cultura Caloosahatchee"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 174,
+      "start": null,
+      "end": null,
+      "name": "Caloosahatchee culture",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 90,
+      "start": null,
+      "end": null,
+      "name": "Caloosahatchee culture",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CALOOSAHATCHEE:0",
+      "contextKey": "CULTURE-CALOOSAHATCHEE",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-CALOOSAHATCHEE-Cultura-Caloosahatchee/poblamiento/CULTURE-CALOOSAHATCHEE.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

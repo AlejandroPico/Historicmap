@@ -1,0 +1,52 @@
+{
+  "key": "CULTURE-DORSET",
+  "name": "Tradiciones Dorset · Ártico oriental",
+  "qid": "",
+  "aliases": [
+    "Dorset",
+    "Tradiciones Dorset · Ártico oriental"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 110,
+      "start": null,
+      "end": null,
+      "name": "Dorset",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 12,
+      "start": null,
+      "end": null,
+      "name": "Dorset",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-DORSET:0",
+      "contextKey": "CULTURE-DORSET",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-DORSET-Tradiciones-Dorset-Artico-oriental/poblamiento/CULTURE-DORSET.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

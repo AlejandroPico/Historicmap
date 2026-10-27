@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.28.0 · 27 de octubre de 2026
+
+- Fondo de pueblos/regiones y referencias territoriales 900–1200, activo inicialmente, separado de la cartografía política. Los Estados mantienen colores, geometrías y prioridad de selección. Coincidencias consultables desde la ficha.
+- 129 dossiers por entidad, 127 referencias adoptadas y dos exclusiones justificadas. 61 regiones culturales/geográficas y 66 referencias políticas; las referencias políticas ya representadas se suprimen sin mezclar sus fronteras antiguas con las de la base anual.
+- Fichas regionales con año del mapa, ventana de consulta, fuentes, incertidumbre y pendientes; sin gobernantes/banderas heredados. Persistencia entre fechas, búsqueda y consulta de entidades superpuestas.
+- Contrastes de Amazonia, sociedades misisipianas, Ártico/Dorset/Thule, Hokkaidō, África y otros casos. Correcciones de Merina, Gran Zimbabue, Benevento, Suabia y Hawái; conservación de coordenadas, metadatos y atribución originales.
+- Inventario de instantáneas 500/1000/1492 y protección frente a pérdidas al ampliar cobertura. Fuera del periodo revisado se explica la falta de cobertura, sin inferir despoblación o extinción.
+
+
 ## 0.27.0 · 27 de octubre de 2026
 
 - Navegación anual900–999 con531 intervalos originales y77 reglas fechadas. Se conservan las geografías anteriores.

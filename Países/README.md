@@ -14,6 +14,14 @@ Las copias de ejecución permanecen en `public/media` para servirlas con rutas e
 
 `flags` conserva vigencias históricas. **`symbolReferences` es distinto**: permite mostrar un escudo atribuido, una reconstrucción o un testimonio posterior como referencia retrospectiva, con fecha de evidencia visible. Su intervalo corresponde a la entidad representada, no acredita que el símbolo existiese entonces. Estas referencias no generan acontecimientos de adopción de bandera en la cronología. Una bandera documentada vigente tiene prioridad sobre ellas. No convertir la fecha de un portulano, sello o cuadro en una adopción nacional.
 
+## Pueblos y regiones de poblamiento
+
+Las entradas canónicas de esta revisión se guardan en `poblamiento/*.json`, dentro de la carpeta de la entidad. Cada entrada conserva nombres originales, fases de consulta, interpretación, fuentes, incertidumbres, decisión de adopción o exclusión y tareas documentales pendientes. Su GeoJSON original acreditado se guarda en la misma carpeta y se comprueba por SHA-256. `ownerKey` identifica la carpeta; `contextKey` permite seleccionar una región sin atribuirle automáticamente las autoridades o la bandera de un país moderno.
+
+Preparación sin acceso remoto: `npm run regions:prepare`, seguida de `npm run entities:prepare`. Se generan dos recursos de ejecución en `public/data` y una auditoría en `docs`; esas copias no sustituyen los originales. Las vistas `entidad.json` incluyen los registros regionales y las exclusiones correspondientes. No editar esas vistas generadas. El compilador obtiene la cobertura de las entradas: no ampliar un siglo cambiando solamente un límite de código.
+
+Una ventana de consulta no acredita la extensión exacta en cada uno de sus años. Mantener separados fecha del mapa, cronología documentada y límite de revisión. Las referencias políticas redundantes se suprimen visualmente cuando existe su identidad en la base anual; los pueblos y regiones culturales permanecen consultables bajo ella. Metodología y pendientes en [CULTURAL-COVERAGE.md](../docs/CULTURAL-COVERAGE.md).
+
 ## Añadir un himno o documento
 
 1. Coloca un archivo autorizado dentro de `archivos/` en la carpeta correspondiente. Se admiten mp3, ogg, wav, m4a y pdf.

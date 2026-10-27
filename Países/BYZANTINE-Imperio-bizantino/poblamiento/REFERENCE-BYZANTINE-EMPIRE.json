@@ -1,0 +1,154 @@
+{
+  "key": "REFERENCE-BYZANTINE-EMPIRE",
+  "ownerKey": "BYZANTINE",
+  "name": "Byzantine Empire · referencia",
+  "originalNames": [
+    "Byzantine Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. El catálogo político aporta evidencia institucional fechada; no valida por sí mismo la superficie regional de esta compilación.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Byzantine_conquest_of_Bulgaria"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Zoe_Porphyrogenita"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://doi.org/10.1093/obo/9780199791279-0063"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://www.metmuseum.org/de/essays/the-crusades-1095-1291"
+    }
+  ],
+  "politicalKeys": [
+    "BYZANTINE"
+  ],
+  "color": "#8f9f83",
+  "focus": [
+    25.78658297966267,
+    41.17541655178728
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Byzantine Empire · referencia",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-BYZANTINE-EMPIRE.geojson",
+  "geometrySha256": "5b7748eb01196f4483b8d6f9323088d5700ddbf57617273f0f28b7e6adac4eae",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      224
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "politicalCatalogueEvidence": [
+    {
+      "keys": [
+        "BYZANTINE",
+        "HIST-Q203817"
+      ],
+      "id": "review026-bulgaria",
+      "start": "1000-01-01",
+      "end": "1019-01-01",
+      "source": "https://en.wikipedia.org/wiki/Byzantine_conquest_of_Bulgaria"
+    },
+    {
+      "keys": [
+        "BYZANTINE"
+      ],
+      "id": "review026-byzantium",
+      "start": "1028-01-01",
+      "end": "1082-01-01",
+      "source": "https://en.wikipedia.org/wiki/Zoe_Porphyrogenita"
+    },
+    {
+      "keys": [
+        "BYZANTINE",
+        "HIST-Q3708094"
+      ],
+      "id": "review026-manzikert",
+      "start": "1071-01-01",
+      "end": "1072-01-01",
+      "source": "https://doi.org/10.1093/obo/9780199791279-0063"
+    },
+    {
+      "keys": [
+        "BYZANTINE",
+        "HIST-Q3708094",
+        "SELJUK-RUM",
+        "HIST-Q55502",
+        "HIST-Q235030",
+        "EDESSA",
+        "FATIMID"
+      ],
+      "id": "review026-crusade",
+      "start": "1096-01-01",
+      "end": "1100-01-01",
+      "source": "https://www.metmuseum.org/de/essays/the-crusades-1095-1291"
+    },
+    {
+      "keys": [
+        "HIST-Q2622868",
+        "CILICIA-PRINCIPALITY",
+        "BYZANTINE"
+      ],
+      "id": "review026-armenia",
+      "start": "1045-01-01",
+      "end": "1100-01-01",
+      "source": "https://en.wikipedia.org/wiki/Bagratid_Armenia"
+    },
+    {
+      "keys": [
+        "BYZANTINE"
+      ],
+      "id": "review027-regents",
+      "start": "0913-01-01",
+      "end": "0977-01-01",
+      "source": "https://www.ascsa.edu.gr/uploads/media/hesperia/146538.pdf"
+    }
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Byzantine Empire",
+      "ABBREVN": "Byzantine E.",
+      "INFO_UR": null,
+      "SUBJECTO": "Byzantine Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Byzantine Empire"
+    }
+  ],
+  "sourceGrouping": []
+}

@@ -1,0 +1,44 @@
+{
+  "key": "CULTURE-ARAWAK",
+  "name": "Pueblos de lenguas arawak · referencia regional",
+  "qid": "",
+  "aliases": [
+    "Arawaks",
+    "Pueblos de lenguas arawak · referencia regional"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 71,
+      "start": null,
+      "end": null,
+      "name": "Arawaks",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ARAWAK:0",
+      "contextKey": "CULTURE-ARAWAK",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-ARAWAK-Pueblos-de-lenguas-arawak-referencia-regional/poblamiento/CULTURE-ARAWAK.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

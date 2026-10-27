@@ -1,0 +1,34 @@
+{
+  "key": "REFERENCE-MAYA-CITY-STATES",
+  "name": "Maya city-states · referencia",
+  "qid": "",
+  "aliases": [
+    "Maya city-states · referencia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-MAYA-CITY-STATES:0",
+      "contextKey": "REFERENCE-MAYA-CITY-STATES",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/REFERENCE-MAYA-CITY-STATES-Maya-city-states-referencia/poblamiento/REFERENCE-MAYA-CITY-STATES.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

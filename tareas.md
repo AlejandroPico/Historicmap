@@ -1,5 +1,28 @@
 # Tareas y continuidad
 
+## Encargo vigente · 0.28.0 · integración cultural y revisión900–1200
+
+El propietario autoriza los encargos1 y2: preparación general y revisión900–1200. El horizonte posterior1200–1905 se mantiene pendiente. Entrega con resultados visuales, selección simultánea de poderes políticos y regiones culturales, prioridad política y fechas/fuentes/incertidumbre explícitas. No confundir gris con despoblación. Comprobar localmente y subir sin esperarActions/Pages.
+
+- [x] Inventariar los nombres de las instantáneas relevantes y documentar adopciones, exclusiones y límites temporales por entidad en Países. Los 129 nombres de 1000 tienen decisión; 500 y 1492 quedan inventariados sin trasplante automático.
+- [x] Contraste focal de regiones culturales y poderes omitidos de 900–1200: 56 referencias con bibliografía adicional y correcciones de anacronismos; conservar las carencias de las otras 71, sin presentar sus contornos como verificados independientemente.
+- [x] Integración general: fondo cultural, prioridad de la representación política y selección de ambas entidades donde coincidan.
+- [x] Búsqueda y fichas propias, fuentes, fechas, incertidumbre, persistencia temporal y cobertura visible.
+- [x] Pruebas de no desaparición, cambios de fuente, solapamientos y carga obsoleta; 79 archivos anteriores e identidades políticas conservados byte a byte.
+- [x] Revisión visual en 2D/globo/móvil, manifiestos, versión, documentación y catálogo.
+- [x] Comprobar los bytes preparados en Git: 8.200 recursos de ejecución, 129 originales regionales y 253 originales visuales previos correctos. Entrega preparada para origin/main; confirmar coincidencia remota al cerrar, sin esperar Actions/Pages.
+
+No marcar como completa una reconstrucción exhaustiva mundial por incorporar una referencia de1000. Separar fechas de existencia, testimonio espacial e intervalo de consulta; conservar los casos no resueltos en la auditoría nominal.
+
+Resultado local: 127 referencias (61 culturales/geográficas y 66 políticas), dos exclusiones justificadas; 225 pruebas en 53 archivos correctas y cinco recorridos de navegador correctos, incluidos cuatro culturales finales. Capturas de escritorio, solapamiento real y móvil revisadas. Tipos, compilación y preparación reproducible correctos. Fuentes, decisiones y límites en [CULTURAL-COVERAGE.md](docs/CULTURAL-COVERAGE.md), [auditoría nominal](docs/CULTURAL-REVIEW-900-1200.json) y [validación](docs/CULTURAL-VALIDATION-0.28.json).
+
+### Continuidad cultural pendiente
+
+- [ ] Contraste regional independiente de las 71 referencias basadas todavía sólo en la compilación; las tareas concretas permanecen en cada dossier de poblamiento.
+- [ ] Subdivisiones locales, pueblos ausentes de las fuentes, fases de contacto y contornos propios con fecha; la ventana 900–1200 no demuestra límites constantes durante tres siglos.
+- [ ] Siguiente encargo: revisión 1200–1500, seguida por 1500–1700 y 1700–1905, y comprobación global final. No dar estas ampliaciones por realizadas.
+- [ ] Confirmación de publicación por el propietario; no esperar ni sondear el despliegue.
+
 ## Entrega preparada · 0.27.0 · ampliación hasta 900
 
 - [x] Geometría anual900–999:531 intervalos originales,77 reglas y conservación de48 geografías previas; puntos anteriores de conflictos conservados.

@@ -1,0 +1,101 @@
+{
+  "key": "REFERENCE-BULGAR-KHANATE",
+  "ownerKey": "REFERENCE-BULGAR-KHANATE",
+  "name": "Primer poder búlgaro · referencia",
+  "originalNames": [
+    "Bulgar Khanate"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. El catálogo político aporta evidencia institucional fechada; no valida por sí mismo la superficie regional de esta compilación.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Byzantine_conquest_of_Bulgaria"
+    },
+    {
+      "title": "Referencia documental · siglo X · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/First_Bulgarian_Empire"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q203817"
+  ],
+  "color": "#8f9f83",
+  "focus": [
+    23.625675,
+    43.380340000000004
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1018,
+      "label": "Primer poder búlgaro · referencia",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-BULGAR-KHANATE.geojson",
+  "geometrySha256": "0026b00a7c1d9d8cf8c86ebf563ed3c79a4637b399603b5a3607a553b235c134",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      245
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "politicalCatalogueEvidence": [
+    {
+      "keys": [
+        "BYZANTINE",
+        "HIST-Q203817"
+      ],
+      "id": "review026-bulgaria",
+      "start": "1000-01-01",
+      "end": "1019-01-01",
+      "source": "https://en.wikipedia.org/wiki/Byzantine_conquest_of_Bulgaria"
+    },
+    {
+      "keys": [
+        "HIST-Q203817"
+      ],
+      "id": "review027-bulgaria",
+      "start": "0913-01-01",
+      "end": "0972-01-01",
+      "source": "https://en.wikipedia.org/wiki/First_Bulgarian_Empire"
+    }
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Bulgar Khanate",
+      "ABBREVN": "Bulgar Khan.",
+      "INFO_UR": null,
+      "SUBJECTO": "Bulgar Khanate",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Bulgar Khanate"
+    }
+  ],
+  "sourceGrouping": []
+}

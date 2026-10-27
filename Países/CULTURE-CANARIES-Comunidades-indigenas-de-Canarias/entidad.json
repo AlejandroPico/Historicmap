@@ -1,0 +1,84 @@
+{
+  "key": "CULTURE-CANARIES",
+  "name": "Comunidades indígenas de Canarias",
+  "qid": "",
+  "aliases": [
+    "Comunidades indígenas de Canarias",
+    "Guanches"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 143,
+      "start": null,
+      "end": null,
+      "name": "Guanches",
+      "status": null
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 68,
+      "start": null,
+      "end": null,
+      "name": "Guanches",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 73,
+      "start": null,
+      "end": null,
+      "name": "Guanches",
+      "status": null
+    },
+    {
+      "file": "world_1800.geojson",
+      "recordId": 133,
+      "start": null,
+      "end": null,
+      "name": "Guanches",
+      "status": null
+    },
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 22,
+      "start": null,
+      "end": null,
+      "name": "Guanches",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 21,
+      "start": null,
+      "end": null,
+      "name": "Guanches",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CANARIES:0",
+      "contextKey": "CULTURE-CANARIES",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-CANARIES-Comunidades-indigenas-de-Canarias/poblamiento/CULTURE-CANARIES.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

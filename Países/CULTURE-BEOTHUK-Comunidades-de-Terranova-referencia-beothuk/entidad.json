@@ -1,0 +1,44 @@
+{
+  "key": "CULTURE-BEOTHUK",
+  "name": "Comunidades de Terranova · referencia beothuk",
+  "qid": "",
+  "aliases": [
+    "Boethuk",
+    "Comunidades de Terranova · referencia beothuk"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 86,
+      "start": null,
+      "end": null,
+      "name": "Boethuk",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-BEOTHUK:0",
+      "contextKey": "CULTURE-BEOTHUK",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-BEOTHUK-Comunidades-de-Terranova-referencia-beothuk/poblamiento/CULTURE-BEOTHUK.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

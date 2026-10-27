@@ -1,0 +1,44 @@
+{
+  "key": "CULTURE-BALTIC",
+  "name": "Pueblos bálticos · referencia general",
+  "qid": "",
+  "aliases": [
+    "Baltic tribes",
+    "Pueblos bálticos · referencia general"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 229,
+      "start": null,
+      "end": null,
+      "name": "Baltic tribes",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-BALTIC:0",
+      "contextKey": "CULTURE-BALTIC",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-BALTIC-Pueblos-balticos-referencia-general/poblamiento/CULTURE-BALTIC.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-HAWAII",
+  "ownerKey": "CULTURE-HAWAII",
+  "name": "Poblamiento polinesio de Hawái · referencia",
+  "originalNames": [
+    "Polynesians"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Los tres componentes de la fuente corresponden a islas de Hawái, no a toda Polinesia. El modelo de Athens, Rieth y Dye sitúa el inicio del poblamiento entre940 y1130 (intervalo95%HPD), más probablemente1000–1100. No es una fecha cierta ni acredita poblamiento simultáneo de todas las islas, un reino hawaiano o presencia en Nueva Zelanda.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Kirch et al. · redes y evolución política de Hawái; no Estado polinesio único",
+      "url": "https://www.pnas.org/content/pnas/109/4/1056.full.pdf"
+    },
+    {
+      "title": "Athens, Rieth yDye2014 · datación bayesiana del poblamiento deHawái",
+      "url": "https://doi.org/10.7183/0002-7316.79.1.144"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a49786",
+  "focus": [
+    -155.54167648841593,
+    19.614618860442064
+  ],
+  "phases": [
+    {
+      "start": 1000,
+      "end": 1200,
+      "label": "Poblamiento polinesio de Hawái · referencia",
+      "dateBasis": "Inicio incierto: modelo publicado940–1130 al95%HPD, con mayor densidad1000–1100. Ventana de consulta desde1000; no llegada cierta en ese año.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-HAWAII.geojson",
+  "geometrySha256": "dd7b4b369cd507a22748779bae945cf74b269b9804790b2ce77bdea0d4e1104d",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      95
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Polynesians",
+      "ABBREVN": "Polynesians",
+      "INFO_UR": "https://doi.org/10.7183/0002-7316.79.1.144",
+      "SUBJECTO": "Polynesians",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Polynesians"
+    }
+  ],
+  "sourceGrouping": []
+}

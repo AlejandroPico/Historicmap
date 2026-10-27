@@ -1,0 +1,44 @@
+{
+  "key": "CULTURE-INNU",
+  "name": "Comunidades innu · referencia regional",
+  "qid": "",
+  "aliases": [
+    "Comunidades innu · referencia regional",
+    "Innu"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 96,
+      "start": null,
+      "end": null,
+      "name": "Innu",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-INNU:0",
+      "contextKey": "CULTURE-INNU",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-INNU-Comunidades-innu-referencia-regional/poblamiento/CULTURE-INNU.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -9,7 +9,12 @@ for (const entry of manifest.entries) {
   if (createHash('sha256').update(bytes).digest('hex') !== entry.sha256) throw new Error(`Checksum mismatch ${entry.file}`);
   for(const [input,expected] of Object.entries(entry.inputSha256??{}))if(createHash('sha256').update(await readFile(new URL(input,root))).digest('hex')!==expected)throw Error(`Stale prepared input ${entry.file}: ${input}`);
   const data = JSON.parse(bytes);
-  if (entry.format==='unquantized-topology') {if(data.type!=='Topology'||data.objects.countries.geometries.length!==entry.records)throw Error(`Invalid ${entry.file}`);}
+  if(entry.format==='dated-cultural-regions'){
+    if(data.type!=='FeatureCollection'||data.features.length!==entry.features)throw Error('Invalid cultural regions');const ids=new Set();
+    for(const f of data.features){const p=f.properties;if(ids.has(f.id)||!p.contextKey||!p.ownerKey||p.start>p.end||!p.dateBasis||!p.sourceYear||!p.spatialUncertainty||!p.temporalUncertainty||!p.references.length||!p.canonicalFile||!['cultural-region','polity-reference'].includes(p.kind))throw Error('Invalid cultural evidence '+f.id);ids.add(f.id);}
+  }
+  else if(entry.format==='cultural-coverage-index'){if(data.records.length!==entry.records||!data.windows.length||!data.reviewedThrough)throw Error('Invalid cultural coverage index');}
+  else if (entry.format==='unquantized-topology') {if(data.type!=='Topology'||data.objects.countries.geometries.length!==entry.records)throw Error(`Invalid ${entry.file}`);}
   else if(entry.format==='dated-control-partitions'){
     if(data.format!==entry.format||Object.keys(data.years).join(',')!=='1940,1941,1942,1943,1944')throw Error('Invalid wartime partition coverage');
     for(const [year,p] of Object.entries(data.years)){

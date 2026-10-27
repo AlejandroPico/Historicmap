@@ -19,12 +19,14 @@ export function canonicalFeature(hit:{id?:string|number;properties:Record<string
  return undefined;
 }
 export function anchorFor(p:Record<string,any>,year:number,identities:IdentityData):CountryAnchor{
- return {key:identityKey(p,year,identities),name:p.name??'',originalName:p.originalName??p.name??'',code:p.entityCode??p.code??'',uid:p.uid??'',place:!p.sovereignSeat&&p.rank!==undefined&&Boolean(p.country),country:p.country??'',properties:{...p},year};
+ return {key:p.contextKey||identityKey(p,year,identities),name:p.name??'',originalName:p.originalName??p.name??'',code:p.entityCode??p.code??'',uid:p.uid??'',place:!p.sovereignSeat&&p.rank!==undefined&&Boolean(p.country),country:p.country??'',properties:{...p},year};
 }
 /** Match the entity, never an arbitrary nearest polygon or one of its successors. */
 export function matchingFeature(anchor:CountryAnchor,data:FeatureCollection,year:number,identities:IdentityData):Feature|undefined{
  return data.features.find(f=>{
   const p=f.properties??{};
+  if(anchor.properties.contextKey)return p.contextKey===anchor.properties.contextKey&&p.start<=year&&year<=p.end;
+  if(p.contextKey)return false;
   if(anchor.place){const normalize=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();return normalize(p.name??'')===normalize(anchor.name)&&(anchor.key?identityKey(p,year,identities)===anchor.key:p.country===anchor.country);}
   if(anchor.uid)return p.uid===anchor.uid;
   if(p.uid)return false;

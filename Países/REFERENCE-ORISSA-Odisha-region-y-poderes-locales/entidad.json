@@ -1,0 +1,52 @@
+{
+  "key": "REFERENCE-ORISSA",
+  "name": "Odisha · región y poderes locales",
+  "qid": "",
+  "aliases": [
+    "Odisha · región y poderes locales",
+    "Orissa"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 250,
+      "start": null,
+      "end": null,
+      "name": "Orissa",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 1939,
+      "start": null,
+      "end": null,
+      "name": "Orissa",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-ORISSA:0",
+      "contextKey": "REFERENCE-ORISSA",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/REFERENCE-ORISSA-Orissa-referencia/poblamiento/REFERENCE-ORISSA.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

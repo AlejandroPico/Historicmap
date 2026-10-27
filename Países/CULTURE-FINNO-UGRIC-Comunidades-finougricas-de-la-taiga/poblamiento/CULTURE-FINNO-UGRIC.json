@@ -1,0 +1,73 @@
+{
+  "key": "CULTURE-FINNO-UGRIC",
+  "ownerKey": "CULTURE-FINNO-UGRIC",
+  "name": "Comunidades finoúgricas de la taiga",
+  "originalNames": [
+    "Finno-Ugric taiga hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Europa nororiental y Siberia",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. Los yacimientos medievales documentan poblamiento e intercambios; no permiten asignar una única lengua, etnia o administración a toda la taiga.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Investigación arqueológica de Zeleny Yar · Siberia occidental medieval",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10520856/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#969886",
+  "focus": [
+    73.11386404364706,
+    67.01200322834956
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Comunidades finoúgricas de la taiga",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-FINNO-UGRIC.geojson",
+  "geometrySha256": "68f62cb511a209ebd81f9b489e220a95b92b7e52395be5485c2796947e99b970",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      181
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Finno-Ugric taiga hunter-gatherers",
+      "ABBREVN": "Finno-Ugric taiga hunter-gatherers",
+      "INFO_UR": null,
+      "SUBJECTO": "Finno-Ugric taiga hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Finno-Ugric taiga hunter-gatherers"
+    }
+  ],
+  "sourceGrouping": []
+}

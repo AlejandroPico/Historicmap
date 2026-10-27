@@ -1,0 +1,76 @@
+{
+  "key": "CULTURE-PLAINS",
+  "name": "Comunidades de las Grandes Llanuras",
+  "qid": "",
+  "aliases": [
+    "Comunidades de las Grandes Llanuras",
+    "Plain bison hunters"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 170,
+      "start": null,
+      "end": null,
+      "name": "Plain bison hunters",
+      "status": null
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 166,
+      "start": null,
+      "end": null,
+      "name": "Plain bison hunters",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 88,
+      "start": null,
+      "end": null,
+      "name": "Plain bison hunters",
+      "status": null
+    },
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 61,
+      "start": null,
+      "end": null,
+      "name": "Plain bison hunters",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 70,
+      "start": null,
+      "end": null,
+      "name": "Plain bison hunters",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PLAINS:0",
+      "contextKey": "CULTURE-PLAINS",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-PLAINS-Comunidades-de-las-Grandes-Llanuras/poblamiento/CULTURE-PLAINS.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

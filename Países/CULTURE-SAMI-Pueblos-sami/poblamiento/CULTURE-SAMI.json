@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-SAMI",
+  "ownerKey": "CULTURE-SAMI",
+  "name": "Pueblos sámi",
+  "originalNames": [
+    "Samis"
+  ],
+  "kind": "cultural-region",
+  "region": "Fennoscandia",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. En los siglos XI–XII se documentan comunidades sámi y relaciones con sus vecinos escandinavos, incluido tributo. La presencia de un poder externo no elimina su identidad ni demuestra administración uniforme.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Museo Sámi Siida · ocupación, diversidad y modos de vida",
+      "url": "https://siida.fi/en/the-sami-museum/open-air-museum/"
+    },
+    {
+      "title": "Cambridge Medieval History · Escandinavia, siglos XI–XII",
+      "url": "https://www.cambridge.org/core/books/abs/new-cambridge-medieval-history/scandinavia-in-the-eleventh-and-twelfth-centuries/3B96C44964D9366FA5361C8D8E010E90"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a49786",
+  "focus": [
+    27.799509153214416,
+    66.88678725649024
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Pueblos sámi",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-SAMI.geojson",
+  "geometrySha256": "98bfb98db28ceafc14d92c8270b2589e8454d3403edee8e8383bf3e2b6c69f7b",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      233
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Samis",
+      "ABBREVN": "Samis",
+      "INFO_UR": null,
+      "SUBJECTO": "Samis",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Samis"
+    }
+  ],
+  "sourceGrouping": []
+}

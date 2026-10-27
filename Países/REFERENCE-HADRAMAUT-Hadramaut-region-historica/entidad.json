@@ -1,0 +1,60 @@
+{
+  "key": "REFERENCE-HADRAMAUT",
+  "name": "Hadramaut · región histórica",
+  "qid": "",
+  "aliases": [
+    "Hadramaut",
+    "Hadramaut · región histórica"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 15,
+      "start": null,
+      "end": null,
+      "name": "Hadramaut",
+      "status": null
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 34,
+      "start": null,
+      "end": null,
+      "name": "Hadramaut",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 55,
+      "start": null,
+      "end": null,
+      "name": "Hadramaut",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-HADRAMAUT:0",
+      "contextKey": "REFERENCE-HADRAMAUT",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/REFERENCE-HADRAMAUT-Hadramaut-referencia/poblamiento/REFERENCE-HADRAMAUT.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,52 @@
+{
+  "key": "CULTURE-ALASKA",
+  "name": "Comunidades del litoral de Alaska",
+  "qid": "",
+  "aliases": [
+    "Comunidades del litoral de Alaska",
+    "Thule"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 112,
+      "start": null,
+      "end": null,
+      "name": "Thule",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 1941,
+      "start": null,
+      "end": null,
+      "name": "Thule",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ALASKA:0",
+      "contextKey": "CULTURE-ALASKA",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-ALASKA-Comunidades-del-litoral-de-Alaska/poblamiento/CULTURE-ALASKA.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

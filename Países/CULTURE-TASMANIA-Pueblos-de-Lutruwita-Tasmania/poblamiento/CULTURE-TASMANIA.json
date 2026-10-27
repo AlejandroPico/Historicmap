@@ -1,0 +1,73 @@
+{
+  "key": "CULTURE-TASMANIA",
+  "ownerKey": "CULTURE-TASMANIA",
+  "name": "Pueblos de Lutruwita / Tasmania",
+  "originalNames": [
+    "Tasmanian hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Pueblos indígenas diversos y de larga continuidad, con formas propias de organización, conocimiento y uso del territorio. La región amplia de la compilación no es una nación única ni permite reconstruir fronteras locales.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "National Museum of Australia · continuidad y diversidad indígena",
+      "url": "https://www.nma.gov.au/defining-moments/resources/separation-of-tasmania"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    146.50996688316607,
+    -42.28228608493147
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Pueblos de Lutruwita / Tasmania",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-TASMANIA.geojson",
+  "geometrySha256": "99176e138a517a1281af39847dd66ef7cfb080464bc68547070187cc41be8e55",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      104
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Tasmanian hunter-gatherers",
+      "ABBREVN": "Tasmanian hunter-gatherers",
+      "INFO_UR": null,
+      "SUBJECTO": "Tasmanian hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Tasmanian hunter-gatherers"
+    }
+  ],
+  "sourceGrouping": []
+}

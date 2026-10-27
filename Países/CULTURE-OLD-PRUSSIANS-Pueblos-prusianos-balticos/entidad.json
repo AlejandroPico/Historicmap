@@ -1,0 +1,44 @@
+{
+  "key": "CULTURE-OLD-PRUSSIANS",
+  "name": "Pueblos prusianos bálticos",
+  "qid": "",
+  "aliases": [
+    "Prussians",
+    "Pueblos prusianos bálticos"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 228,
+      "start": null,
+      "end": null,
+      "name": "Prussians",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-OLD-PRUSSIANS:0",
+      "contextKey": "CULTURE-OLD-PRUSSIANS",
+      "start": 900,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-OLD-PRUSSIANS-Pueblos-prusianos-balticos/poblamiento/CULTURE-OLD-PRUSSIANS.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

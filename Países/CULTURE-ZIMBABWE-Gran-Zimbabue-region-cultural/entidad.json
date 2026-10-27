@@ -1,0 +1,44 @@
+{
+  "key": "CULTURE-ZIMBABWE",
+  "name": "Gran Zimbabue · región cultural",
+  "qid": "",
+  "aliases": [
+    "Gran Zimbabue · región cultural",
+    "Great Zimbabwe"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 15,
+      "start": null,
+      "end": null,
+      "name": "Great Zimbabwe",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ZIMBABWE:0",
+      "contextKey": "CULTURE-ZIMBABWE",
+      "start": 1100,
+      "end": 1200,
+      "sourceYear": 1000,
+      "canonicalFile": "Países/CULTURE-ZIMBABWE-Gran-Zimbabue-region-cultural/poblamiento/CULTURE-ZIMBABWE.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

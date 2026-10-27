@@ -1,0 +1,108 @@
+{
+  "key": "REFERENCE-ARAGON",
+  "ownerKey": "ARAGON-COUNTY",
+  "name": "Aragón · referencia",
+  "originalNames": [
+    "Aragón"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    900,
+    1200
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. El catálogo político aporta evidencia institucional fechada; no valida por sí mismo la superficie regional de esta compilación.",
+  "spatialUncertainty": "Contorno aproximado del mapa de 1000, sin levantamiento anual ni resolución de fronteras locales. Puede solaparse con otras áreas; no demuestra ocupación exclusiva de cada punto.",
+  "temporalUncertainty": "La ventana 900–1200 permite consultar una referencia centrada en 1000; no prueba que sus límites permanecieran iguales durante tres siglos. Faltan series espaciales intermedias.",
+  "references": [
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Crown_of_Aragon"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://riubu.ubu.es/bitstream/10259/6273/1/0211_8998_n250_p289-312.pdf"
+    }
+  ],
+  "politicalKeys": [
+    "ARAGON-COUNTY",
+    "ARAGON-KINGDOM",
+    "ARAGON"
+  ],
+  "color": "#969886",
+  "focus": [
+    0.18105772866477343,
+    42.3399248683083
+  ],
+  "phases": [
+    {
+      "start": 900,
+      "end": 1200,
+      "label": "Aragón · referencia",
+      "dateBasis": "Ventana de consulta de referencia regional; fechas aproximadas, no adopción de una frontera.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-ARAGON.geojson",
+  "geometrySha256": "c3f9f4a7f4a8be0bb19e31b4017a76a3b5bc56ac81c9bddda34f3b12510a2720",
+  "geometryProvenance": {
+    "file": "public/data/world_1000.geojson",
+    "sourceSha256": "aa5a02af0500982cb67ef6d322cea3d6f471d77f167f3c967b0f4fdbb01e05df",
+    "featureIds": [
+      101
+    ],
+    "components": null,
+    "year": 1000,
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1000.geojson",
+    "license": "GPL-3.0",
+    "upstreamSha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29"
+  },
+  "review": "0.28.0 · 2026-10-27",
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Localizar contornos y subdivisiones de fecha propia; la referencia no es una serie anual.",
+    "Ampliar contraste bibliográfico regional independiente de la compilación cartográfica."
+  ],
+  "politicalCatalogueEvidence": [
+    {
+      "keys": [
+        "ARAGON-KINGDOM",
+        "ARAGON",
+        "BARCELONA-COUNTY"
+      ],
+      "id": "review025-aragon",
+      "start": "1137-01-01",
+      "end": "1165-01-01",
+      "source": "https://en.wikipedia.org/wiki/Crown_of_Aragon"
+    },
+    {
+      "keys": [
+        "CASTILE-COUNTY",
+        "CASTILE-KINGDOM",
+        "LEON-KINGDOM",
+        "NAVARRE-KINGDOM",
+        "ARAGON-KINGDOM"
+      ],
+      "id": "review026-iberia",
+      "start": "1029-01-01",
+      "end": "1073-01-01",
+      "source": "https://riubu.ubu.es/bitstream/10259/6273/1/0211_8998_n250_p289-312.pdf"
+    }
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Aragón",
+      "ABBREVN": "Aragón",
+      "INFO_UR": null,
+      "SUBJECTO": "Aragón",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Aragón"
+    }
+  ],
+  "sourceGrouping": []
+}
