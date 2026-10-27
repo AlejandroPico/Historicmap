@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1201,
-    1700
+    1905
   ],
   "interpretation": "Comunidades indígenas de Taiwán, con sistemas locales y relaciones cambiantes con poderes neerlandeses, españoles, Zheng y Qing. Los diarios de Zeelandia permiten distinguir contactos e instituciones; no acreditan control colonial homogéneo de toda la isla.",
   "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
@@ -39,6 +39,17 @@
       "label": "Taiwan",
       "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
       "endIsReviewBoundary": true
+    },
+    {
+      "start": 1701,
+      "end": 1877,
+      "label": "Taiwan",
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "interpretation": "Referencia histórica del ámbito de Taiwan. Se conserva el último contorno disponible para no ocultar la documentación. No acredita residencia uniforme, soberanía, continuidad institucional o identidad invariable después de1700; los cambios de población y de poder deben contrastarse localmente.",
+      "dateBasis": "Continuidad de consulta de evidencia anterior; NO nuevo levantamiento de1701 ni prueba de límites constantes.",
+      "endIsReviewBoundary": false
     }
   ],
   "geometryFile": "CULTURE-TAIWAN-5C77BE44-Y1500.geojson",

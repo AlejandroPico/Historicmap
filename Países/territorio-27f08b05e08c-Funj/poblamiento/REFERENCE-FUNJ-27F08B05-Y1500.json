@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1201,
-    1700
+    1905
   ],
   "interpretation": "Referencia del sultanato funj desde1504, con límites aproximados tomados de una instantánea editorial. La cronología de sus comunidades anteriores no es la fecha fundacional del Estado.",
   "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
@@ -39,6 +39,17 @@
       "label": "Funj",
       "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
       "endIsReviewBoundary": true
+    },
+    {
+      "start": 1701,
+      "end": 1782,
+      "label": "Funj",
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "interpretation": "Referencia histórica del ámbito de Funj. Se conserva el último contorno disponible para no ocultar la documentación. No acredita residencia uniforme, soberanía, continuidad institucional o identidad invariable después de1700; los cambios de población y de poder deben contrastarse localmente.",
+      "dateBasis": "Continuidad de consulta de evidencia anterior; NO nuevo levantamiento de1701 ni prueba de límites constantes.",
+      "endIsReviewBoundary": false
     }
   ],
   "geometryFile": "REFERENCE-FUNJ-27F08B05-Y1500.geojson",

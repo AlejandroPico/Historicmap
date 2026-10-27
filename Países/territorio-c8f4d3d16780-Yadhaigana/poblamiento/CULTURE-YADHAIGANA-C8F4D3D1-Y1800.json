@@ -1,0 +1,79 @@
+{
+  "key": "CULTURE-YADHAIGANA-C8F4D3D1-Y1800",
+  "contextKey": "CULTURE-YADHAIGANA-C8F4D3D1",
+  "ownerKey": "territorio-c8f4d3d16780",
+  "name": "Yadhaigana",
+  "originalNames": [
+    "Yadhaigana"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "Área tradicional de cronología local pendiente. NO acredita ocupación exacta o exclusiva en el año consultado; la extensión puede reflejar información de épocas distintas. Las expulsiones, desplazamientos y cambios políticos no equivalen a desaparición de la comunidad.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1800",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson"
+    },
+    {
+      "title": "AIATSIS · diversidad, agrupaciones y límites generales no fijos",
+      "url": "https://aiatsis.gov.au/explore/map-indigenous-australia"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    142.59,
+    -11.31
+  ],
+  "phases": [
+    {
+      "start": 1800,
+      "end": 1905,
+      "label": "Yadhaigana",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-YADHAIGANA-C8F4D3D1-Y1800.geojson",
+  "geometrySha256": "1107ba8db5a1c8b32c124f0b02c0ffa92551d0caa500613c3d83c65cde0b03ff",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1800.geojson",
+    "sourceSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "upstreamSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "featureIds": [
+      387
+    ],
+    "components": null,
+    "year": 1800,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Yadhaigana",
+      "ABBREVN": "Yadhaigana",
+      "SUBJECTO": "Yadhaigana",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Yadhaigana"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "parentContextKeys": [
+    "CULTURE-AUSTRALIA"
+  ],
+  "temporalMode": "traditional-area-undated"
+}

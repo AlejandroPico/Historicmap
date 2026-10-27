@@ -1,0 +1,71 @@
+{
+  "key": "REFERENCE-FULANI-EMPIRE-9B1E7FB0-Y1815",
+  "contextKey": "REFERENCE-FULANI-EMPIRE-9B1E7FB0",
+  "ownerKey": "REFERENCE-FULANI-EMPIRE-9B1E7FB0",
+  "name": "Fulani Empire",
+  "originalNames": [
+    "Fulani Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1815",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#869684",
+  "focus": [
+    8.867396596475569,
+    11.08892705142177
+  ],
+  "phases": [
+    {
+      "start": 1815,
+      "end": 1905,
+      "label": "Fulani Empire",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-FULANI-EMPIRE-9B1E7FB0-Y1815.geojson",
+  "geometrySha256": "b8e27d4d3add794dd88c7b0dfc77c7def5b02b87f0750f20a8443448d3fc9e05",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1815.geojson",
+    "sourceSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "upstreamSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "featureIds": [
+      61
+    ],
+    "components": null,
+    "year": 1815,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Fulani Empire",
+      "ABBREVN": "Fulani Empir",
+      "SUBJECTO": "Fulani Empire",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Fulani Empire"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1
+}

@@ -1,0 +1,83 @@
+{
+  "key": "REFERENCE-ASANTE-D676E1C2-Y1878",
+  "contextKey": "REFERENCE-ASANTE-D676E1C2",
+  "ownerKey": "territorio-d676e1c20b54",
+  "name": "Asante",
+  "originalNames": [
+    "Asante"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1878",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1878.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a19a72",
+  "focus": [
+    -1.075553327621839,
+    6.1170615936143395
+  ],
+  "phases": [
+    {
+      "start": 1878,
+      "end": 1879,
+      "label": "Asante",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-ASANTE-D676E1C2-Y1878.geojson",
+  "geometrySha256": "c13713c72d90a5c21e47685e9c79a520d5a04b6f6e534fc0644c6915344b5d10",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1878.geojson",
+    "sourceSha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+    "upstreamSha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+    "featureIds": [
+      90
+    ],
+    "components": null,
+    "year": 1878,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1878.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "lineWidth": null,
+      "widthScale": null,
+      "hideFill": null,
+      "hideLine": null,
+      "NAME": "Asante",
+      "SUBJECTO": "Asante",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Asante",
+      "ABBREVN": "Asante",
+      "name": null,
+      "id": null,
+      "isHidden": null,
+      "area": null,
+      "fill": null,
+      "fill-opacity": null,
+      "stroke": null,
+      "stroke-opacity": null
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1
+}

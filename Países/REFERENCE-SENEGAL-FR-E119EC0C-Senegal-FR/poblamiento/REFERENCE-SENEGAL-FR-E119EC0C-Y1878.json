@@ -1,0 +1,86 @@
+{
+  "key": "REFERENCE-SENEGAL-FR-E119EC0C-Y1878",
+  "contextKey": "REFERENCE-SENEGAL-FR-E119EC0C",
+  "ownerKey": "REFERENCE-SENEGAL-FR-E119EC0C",
+  "name": "Senegal (FR)",
+  "originalNames": [
+    "Senegal (FR)"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1878",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1878.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#929676",
+  "focus": [
+    -15.116347051796225,
+    15.187852005922284
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-SENEGAL-FR-E119EC0C-Y1878.geojson",
+  "geometrySha256": "3a5d23879dd147bf66d9881eb5b580550eae6960383ee8bd606be842650faf50",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1878.geojson",
+    "sourceSha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+    "upstreamSha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+    "featureIds": [
+      95
+    ],
+    "components": null,
+    "year": 1878,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1878.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: unresolved. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "lineWidth": null,
+      "widthScale": null,
+      "hideFill": null,
+      "hideLine": null,
+      "NAME": "Senegal (FR)",
+      "SUBJECTO": "France",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Senegal (FR)",
+      "ABBREVN": "Senegal",
+      "name": null,
+      "id": null,
+      "isHidden": null,
+      "area": null,
+      "fill": null,
+      "fill-opacity": null,
+      "stroke": null,
+      "stroke-opacity": null
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1878,
+    "status": "unresolved",
+    "explicitKeys": [],
+    "candidateKeys": [],
+    "ownerKey": "REFERENCE-SENEGAL-FR-E119EC0C",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

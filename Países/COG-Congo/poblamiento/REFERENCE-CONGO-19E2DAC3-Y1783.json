@@ -1,0 +1,74 @@
+{
+  "key": "REFERENCE-CONGO-19E2DAC3-Y1783",
+  "contextKey": "REFERENCE-CONGO-19E2DAC3",
+  "ownerKey": "COG",
+  "name": "Congo",
+  "originalNames": [
+    "Congo"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1783",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1783.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "COG",
+    "HIST-Q796583"
+  ],
+  "color": "#939f86",
+  "focus": [
+    13.61,
+    -7.44
+  ],
+  "phases": [
+    {
+      "start": 1783,
+      "end": 1799,
+      "label": "Congo",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-CONGO-19E2DAC3-Y1783.geojson",
+  "geometrySha256": "724f73c84784deff7b46a022b8814714a9800cfbef14bc319989880e020af3b4",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1783.geojson",
+    "sourceSha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+    "upstreamSha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+    "featureIds": [
+      96
+    ],
+    "components": null,
+    "year": 1783,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1783.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Congo",
+      "ABBREVN": "Congo",
+      "SUBJECTO": "Congo",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Congo"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1
+}

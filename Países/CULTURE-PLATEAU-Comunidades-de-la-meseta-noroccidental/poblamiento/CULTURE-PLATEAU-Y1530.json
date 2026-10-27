@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1201,
-    1700
+    1905
   ],
   "interpretation": "Referencia de continuidad y diversidad regional posterior a 1200. El contorno procede de la instantánea indicada; no acredita límites invariables, una sola cultura ni autoridad política uniforme.",
   "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
@@ -34,6 +34,17 @@
       "end": 1700,
       "label": "Comunidades de la meseta noroccidental",
       "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": 1701,
+      "end": 1905,
+      "label": "Comunidades de la meseta noroccidental",
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "interpretation": "Referencia histórica del ámbito de Comunidades de la meseta noroccidental. Se conserva el último contorno disponible para no ocultar la documentación. No acredita residencia uniforme, soberanía, continuidad institucional o identidad invariable después de1700; los cambios de población y de poder deben contrastarse localmente.",
+      "dateBasis": "Continuidad de consulta de evidencia anterior; NO nuevo levantamiento de1701 ni prueba de límites constantes.",
       "endIsReviewBoundary": true
     }
   ],

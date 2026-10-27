@@ -1,0 +1,84 @@
+{
+  "key": "REFERENCE-DENMARK-NORWAY-Y1783",
+  "contextKey": "REFERENCE-DENMARK-NORWAY",
+  "ownerKey": "REFERENCE-DENMARK-NORWAY",
+  "name": "Denmark-Norway · referencia",
+  "originalNames": [
+    "Denmark-Norway"
+  ],
+  "kind": "polity-reference",
+  "region": "Norteamérica",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1783",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1783.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "DENMARK-NORWAY"
+  ],
+  "color": "#929e87",
+  "focus": [
+    13.495325000000001,
+    56.327884999999995
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-DENMARK-NORWAY-Y1783.geojson",
+  "geometrySha256": "8b6d7304c048c3fefdaad7431b0af549fdf82e475482b9efa24c6d4468be6961",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1783.geojson",
+    "sourceSha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+    "upstreamSha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+    "featureIds": [
+      621
+    ],
+    "components": null,
+    "year": 1783,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1783.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Denmark-Norway",
+      "ABBREVN": "",
+      "SUBJECTO": "",
+      "BORDERPRECISION": 3,
+      "PARTOF": ""
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1783,
+    "status": "explicit-key-present",
+    "explicitKeys": [
+      "DENMARK-NORWAY"
+    ],
+    "candidateKeys": [
+      "DENMARK-NORWAY"
+    ],
+    "ownerKey": "REFERENCE-DENMARK-NORWAY",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "SWE",
+        "name": "Reino de Suecia"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "key": "REFERENCE-TOKUGAWA-SHOGUNATE-B25B81EB-Y1715",
+  "contextKey": "REFERENCE-TOKUGAWA-SHOGUNATE-B25B81EB",
+  "ownerKey": "HIST-Q205662",
+  "name": "Tokugawa shogunate",
+  "originalNames": [
+    "Tokugawa shogunate"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1715",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q205662"
+  ],
+  "color": "#ab9d72",
+  "focus": [
+    137.57,
+    36.5
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-TOKUGAWA-SHOGUNATE-B25B81EB-Y1715.geojson",
+  "geometrySha256": "b063e69d140b3f1e91e134933d22ac69147db17eb001e7a9c250fd9eeda1f84a",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1715.geojson",
+    "sourceSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "upstreamSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "featureIds": [
+      280
+    ],
+    "components": null,
+    "year": 1715,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: name-candidate-needs-validation. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Tokugawa shogunate",
+      "ABBREVN": "Tokugawa shogunate",
+      "SUBJECTO": "Tokugawa shogunate",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Tokugawa shogunate"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1715,
+    "status": "name-candidate-needs-validation",
+    "explicitKeys": [],
+    "candidateKeys": [
+      "JPN"
+    ],
+    "ownerKey": "HIST-Q205662",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "JPN",
+        "name": "Japón · shogunato Tokugawa"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

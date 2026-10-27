@@ -1,0 +1,87 @@
+{
+  "key": "REFERENCE-OLDENBURG-BFF07316-Y1800",
+  "contextKey": "REFERENCE-OLDENBURG-BFF07316",
+  "ownerKey": "territorio-bff07316c987",
+  "name": "Oldenburg",
+  "originalNames": [
+    "Oldenburg"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1800",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    8.084626956794162,
+    53.051905892272316
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-OLDENBURG-BFF07316-Y1800.geojson",
+  "geometrySha256": "f3f0eaff3ab6d92f5134a5365cb84540480dbc8ce797abfc9cd8b189153c018d",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1800.geojson",
+    "sourceSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "upstreamSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "featureIds": [
+      26,
+      120
+    ],
+    "components": null,
+    "year": 1800,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: unresolved. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Oldenburg",
+      "ABBREVN": "Oldenburg",
+      "SUBJECTO": "Oldenburg",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Oldenburg"
+    },
+    {
+      "NAME": "Oldenburg",
+      "ABBREVN": "Oldenburg",
+      "SUBJECTO": "Oldenburg",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Oldenburg"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1800,
+    "status": "unresolved",
+    "explicitKeys": [],
+    "candidateKeys": [],
+    "ownerKey": "territorio-bff07316c987",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "HIST-Q12548",
+        "name": "Holy Roman Empire Minor States"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

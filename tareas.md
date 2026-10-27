@@ -1,6 +1,25 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.29.0 · revisión conjunta 1200–1700
+## Encargo vigente · 0.30.0 · partes cinco y seis
+
+Ampliación regional 1701–1905 y revisión conjunta 900–1905. Conservar las evidencias previas y la prioridad política; recuperar continuidad cultural sin confundir áreas tradicionales con fronteras anuales. Guardar decisiones y originales en las carpetas de Países. Comprobar localmente, subir y terminar sin esperar Actions/Pages.
+
+- [x] Inventariar las fuentes intermedias hasta 1905, sus nombres y tipos de representación: siete instantáneas y 2.513 pares nombre/instantánea, con originales por entidad.
+- [x] Incorporar fases documentales y continuidad de pueblos y regiones después de 1700; distinguir pueblos, poderes, territorios tradicionales y administraciones coloniales. 6.657 dossiers y 6.815 fases acumuladas; las referencias anteriores siguen identificadas como históricas.
+- [x] Revisión global de identidades, fases, duplicados, nombres omitidos, saltos de fuente y remisiones a la base política sin enlace resuelto. Auditoría técnica de 1.006 selecciones anuales y estados de enlace por entidad; no certifica todas las cronologías ni fronteras locales.
+- [x] Contrastes focales y exclusiones razonadas; conservar las carencias locales como pendientes explícitos. Véase docs/CULTURAL-GLOBAL-REVIEW.md.
+- [x] Auditoría anual 900–1905, conservación de datos y originales anteriores, selección real de entidades coincidentes y revisión visual en mapa/globo/móvil. Cinco recorridos de navegador correctos; capturas de Sámi, Australia y Aotearoa móvil inspeccionadas. Aclarada la etiqueta de área histórica de la Unión de Kalmar al revisar las capturas.
+- [x] Documentación, versión, catálogo e integridad; entrega preparada para origin/main. Confirmar coincidencia remota al cerrar el envío, sin sondear el despliegue.
+
+Comprobaciones locales 0.30: 236 pruebas correctas en la ejecución general y un único agotamiento del tiempo límite de la lectura masiva de originales; repetida esa prueba junto con sus seis compañeras con margen adecuado, siete correctas. Total de 237 pruebas distintas/55 archivos verificadas. Las cinco de revisión global se repiten después de la aclaración de Kalmar y pasan. Tipos, compilación e integridad: 92 datos, 11 franjas tipográficas y 8.108 medios correctos. Once segmentos por siglo, mismas geometrías y fases que el export completo.
+
+Conservación final: 79 recursos de datos anteriores idénticos, 4.139 originales regionales anteriores idénticos y 4.139 dossiers conservados con sus fases previas. 3.366 fases previas preservadas, con una corrección explícita de entityType songhay acorde con su kind cultural. 2.516 originales nuevos contrastados con coordenadas fuente. Idempotencia: quince recursos idénticos después de la última aclaración de Kalmar. El primer cotejo de idempotencia coincidió con esa edición local; se repitió la generación una vez terminada, sin rehacer la lectura masiva de preservación ya completada. Informe docs/CULTURAL-VALIDATION-0.30.json.
+
+Catálogo final: 3.823 carpetas y 1.204 identidades políticas. Al resolver alias de Tasmania y Rapa Nui se retiran dos vistas generadas entidad.json duplicadas; todos los dossiers y originales previos siguen conservados. Comprobación de Git: 9.641 archivos nuevos/modificados preparados coinciden byte a byte con los locales mediante la huella del objeto Git; 8.211 recursos de los manifiestos comprobados también por SHA-256, de los cuales 8.198 conservan el objeto de la entrega anterior. Tras esta nota, preparar de nuevo sólo la documentación y confirmar el envío de main.
+
+Pendientes de investigación tras 0.30: cronología local de 3.830 fases tradicionales, desplazamientos y subdivisiones omitidas; 1.755 fases de contexto histórico no prueban residencia constante. Enlaces con la base política: 219 explícitos presentes, 51 propietarios con relación pendiente, 73 candidatos nominales y 1.173 no resueltos. Un enlace no resuelto no es un país ausente. Conservar pendientes y evidencias en el dossier de cada entidad; no resolverlos mediante semejanza de nombre o posición. Véase docs/CULTURAL-GLOBAL-REVIEW.md.
+
+## Entrega anterior · 0.29.0 · revisión conjunta 1200–1700
 
 El propietario agrupa los puntos 3 y 4 en una entrega. Conservar los registros 900–1200 y la cartografía política; ampliar pueblos, regiones y referencias con fases, fuentes y grados de incertidumbre. Las geometrías tradicionales sin datación local no son fronteras soberanas de un año concreto. Subir tras validar localmente, sin esperar Actions/Pages.
 
@@ -11,7 +30,7 @@ El propietario agrupa los puntos 3 y 4 en una entrega. Conservar los registros 9
 - [x] Disponibilidad y conservación, pruebas de selección y persistencia y revisión visual en mapa/globo/móvil. Corregido bloqueo real al cambiar de año sin un polígono político visible.
 - [x] Versión, documentación, catálogo, integridad y entrega preparada para origin/main. Confirmar bytes preparados y coincidencia remota al cerrar; no sondear el despliegue.
 
-Siguiente alcance pendiente: 1700–1905 y revisión global. Las carencias independientes de la entrega 0.28 continúan registradas.
+El alcance siguiente de aquella entrega, 1700–1905 y revisión global, se atiende en 0.30 arriba. Las carencias independientes de investigación local continúan registradas.
 
 Resultado acumulado: 4.139 dossiers; 3.365 adoptados, 703 remitidos a la base política y 71 exclusiones. 3.366 fases (3.225 culturales/geográficas y 141 referencias políticas), no países independientes. 2.304 fases tienen datación tradicional local pendiente: esa carencia permanece abierta y visible, no se convierte en una validación independiente por estar representada.
 
@@ -25,7 +44,7 @@ Preparación de Git comprobada: 8.200 recursos de ejecución, 4.139 originales r
 
 - [ ] Cronología local independiente de las áreas tradicionales y revisión de desplazamientos; no extrapolar una atribución del mapa editorial a todos los años de su ventana.
 - [ ] Pueblos y subdivisiones omitidos por las compilaciones, contactos y superficies con fecha propia. Las notas concretas permanecen en cada carpeta de Países.
-- [ ] Ampliación posterior a 1700 hasta 1905 y comprobación global final, por nuevo encargo.
+- [x] Ampliación posterior a 1700 hasta 1905 y comprobación global: atendidas en la entrega 0.30, con los límites de investigación declarados.
 - [ ] Confirmación de publicación por el propietario, sin esperar Actions/Pages.
 
 ## Entrega anterior · 0.28.0 · integración cultural y revisión900–1200

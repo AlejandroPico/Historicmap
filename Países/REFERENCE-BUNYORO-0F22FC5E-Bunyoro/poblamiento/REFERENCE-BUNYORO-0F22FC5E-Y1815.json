@@ -1,0 +1,71 @@
+{
+  "key": "REFERENCE-BUNYORO-0F22FC5E-Y1815",
+  "contextKey": "REFERENCE-BUNYORO-0F22FC5E",
+  "ownerKey": "REFERENCE-BUNYORO-0F22FC5E",
+  "name": "Bunyoro",
+  "originalNames": [
+    "Bunyoro"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1815",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a68e78",
+  "focus": [
+    29.5170439725365,
+    1.0456512232350534
+  ],
+  "phases": [
+    {
+      "start": 1815,
+      "end": 1877,
+      "label": "Bunyoro",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-BUNYORO-0F22FC5E-Y1815.geojson",
+  "geometrySha256": "a6c356456af9e20d1bc400ab3e9f24781946527212d84e364fa37654874cb4ae",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1815.geojson",
+    "sourceSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "upstreamSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "featureIds": [
+      112
+    ],
+    "components": null,
+    "year": 1815,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Bunyoro",
+      "ABBREVN": "Bunyoro",
+      "SUBJECTO": "Bunyoro",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Bunyoro"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1
+}

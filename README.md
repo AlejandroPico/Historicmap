@@ -2,13 +2,13 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.29.0** · 27 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.30.0** · 28 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
-Revisión vigente: **pueblos y regiones de 1200–1700**, junto a la cobertura anterior 900–1200 y la cartografía política anual. [Método y límites](docs/CULTURAL-COVERAGE.md), [investigación conjunta](docs/CULTURAL-RESEARCH-1200-1700.md), [inventario nominal](docs/CULTURAL-REVIEW-900-1700.json) y [continuidad](tareas.md). Las áreas tradicionales con cronología local pendiente se distinguen de las fronteras políticas fechadas.
+Revisión vigente: **pueblos y regiones de 900–1905**, incluida la ampliación 1700–1905 y la revisión global. [Método](docs/CULTURAL-COVERAGE.md), [resultados y límites](docs/CULTURAL-GLOBAL-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-900-1905.json) y [continuidad](tareas.md). La base política se conserva; áreas tradicionales y contextos históricos no son fronteras anuales. Las descargas regionales se organizan por siglos sin reducir el detalle.
 
 ## Empezar
 
@@ -65,7 +65,7 @@ GitHub Actions valida datos, pruebas temporales/históricas/estadísticas, compi
 
 Consultar **[agentes.md](agentes.md)** antes de modificar el proyecto. Contiene la visión completa, decisiones, arquitectura, roadmap, reglas de colaboración y estado real. [AGENTS.md](AGENTS.md) es el punto de entrada para asistentes que detectan ese nombre automáticamente.
 
-Las fuentes, licencias, atribuciones y límites se documentan en [docs/SOURCES.md](docs/SOURCES.md). `public/data/manifest.json` registra65 recursos locales, versiones, URLs, transformaciones y SHA-256. `npm run data:fetch` actualiza explícitamente las 26 instantáneas originales, conservando las nuevas capas. La adquisición y reconstrucción de las capas recientes se explica en SOURCES. No se descargan datos nuevos durante la compilación ni desde las fichas.
+Las fuentes, licencias, atribuciones y límites se documentan en [docs/SOURCES.md](docs/SOURCES.md). `public/data/manifest.json` registra92 recursos locales, versiones, URLs, transformaciones y SHA-256. `npm run data:fetch` actualiza explícitamente las 26 instantáneas originales, conservando las nuevas capas. La adquisición y reconstrucción de las capas recientes se explica en SOURCES. No se descargan datos nuevos durante la compilación ni desde las fichas.
 
 La cartografía funciona sin API key. Las geometrías, perfiles, series y letras del mapa utilizadas son locales. El relieve (AWS) y las fuentes tipográficas de interfaz (Google Fonts) requieren conexión. La aplicación no envía búsquedas a servicios externos ni incorpora analítica. No está implementada como aplicación instalable o completamente offline.
 

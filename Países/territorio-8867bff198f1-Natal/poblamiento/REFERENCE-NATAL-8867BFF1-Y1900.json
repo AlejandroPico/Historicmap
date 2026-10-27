@@ -1,0 +1,81 @@
+{
+  "key": "REFERENCE-NATAL-8867BFF1-Y1900",
+  "contextKey": "REFERENCE-NATAL-8867BFF1",
+  "ownerKey": "territorio-8867bff198f1",
+  "name": "Natal",
+  "originalNames": [
+    "Natal"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1900",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1900.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    29.805335905831694,
+    -29.743716759983087
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-NATAL-8867BFF1-Y1900.geojson",
+  "geometrySha256": "35681451eb4db35b36ad5b361babd5c408e1bb4f08407ff90ee5cc0fe9418b2f",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1900.geojson",
+    "sourceSha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+    "upstreamSha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+    "featureIds": [
+      47
+    ],
+    "components": null,
+    "year": 1900,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1900.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: name-candidate-needs-validation. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Natal",
+      "SUBJECTO": "Natal",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Natal",
+      "ABBREVN": "Natal"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1900,
+    "status": "name-candidate-needs-validation",
+    "explicitKeys": [],
+    "candidateKeys": [
+      "Natal"
+    ],
+    "ownerKey": "territorio-8867bff198f1",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "Natal",
+        "name": "Natal"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

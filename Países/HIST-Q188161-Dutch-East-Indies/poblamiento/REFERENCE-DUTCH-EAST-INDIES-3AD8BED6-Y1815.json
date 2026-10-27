@@ -1,0 +1,87 @@
+{
+  "key": "REFERENCE-DUTCH-EAST-INDIES-3AD8BED6-Y1815",
+  "contextKey": "REFERENCE-DUTCH-EAST-INDIES-3AD8BED6",
+  "ownerKey": "HIST-Q188161",
+  "name": "Dutch East Indies",
+  "originalNames": [
+    "Dutch East Indies"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1815",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q188161"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    121.35,
+    -1.72
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-DUTCH-EAST-INDIES-3AD8BED6-Y1815.geojson",
+  "geometrySha256": "fcbb426cc107ec2bd817862d4aa11fd14399d47545188a5f27c3d4835596305a",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1815.geojson",
+    "sourceSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "upstreamSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "featureIds": [
+      121,
+      161
+    ],
+    "components": null,
+    "year": 1815,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Dutch East Indies",
+      "ABBREVN": "Dutch East Indies",
+      "SUBJECTO": "Netherlands",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Dutch East Indies"
+    },
+    {
+      "NAME": "Dutch East Indies",
+      "ABBREVN": "East Indies",
+      "SUBJECTO": "Dutch East Indies",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Dutch East Indies"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1815,
+    "status": "explicit-key-present",
+    "explicitKeys": [
+      "HIST-Q188161"
+    ],
+    "candidateKeys": [
+      "HIST-Q188161"
+    ],
+    "ownerKey": "HIST-Q188161",
+    "ownerPresent": true,
+    "politicalFeaturesAtReferenceFocus": [],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

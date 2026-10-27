@@ -1,0 +1,87 @@
+{
+  "key": "REFERENCE-WALLIS-AND-FUTUNA-ISLANDS-032DB0FA-Y1900",
+  "contextKey": "REFERENCE-WALLIS-AND-FUTUNA-ISLANDS-032DB0FA",
+  "ownerKey": "territorio-032db0fabb9a",
+  "name": "Wallis and Futuna Islands",
+  "originalNames": [
+    "Wallis and Futuna Islands"
+  ],
+  "kind": "polity-reference",
+  "region": "Caribe y Sudamérica",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1900",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1900.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#869684",
+  "focus": [
+    -176.15871038095239,
+    -13.29046361904762
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-WALLIS-AND-FUTUNA-ISLANDS-032DB0FA-Y1900.geojson",
+  "geometrySha256": "b7f1e4893417d70a6b391b74acaac858813ef86e98084948387547398988fa2a",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1900.geojson",
+    "sourceSha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+    "upstreamSha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+    "featureIds": [
+      263,
+      264
+    ],
+    "components": null,
+    "year": 1900,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1900.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: unresolved. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Wallis and Futuna Islands",
+      "SUBJECTO": "Wallis and Futuna Islands",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Wallis and Futuna Islands",
+      "ABBREVN": "Wallis and Futuna Islands"
+    },
+    {
+      "NAME": "Wallis and Futuna Islands",
+      "SUBJECTO": "Wallis and Futuna Islands",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Wallis and Futuna Islands",
+      "ABBREVN": "Wallis and Futuna Islands"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1900,
+    "status": "unresolved",
+    "explicitKeys": [],
+    "candidateKeys": [],
+    "ownerKey": "territorio-032db0fabb9a",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "WLF",
+        "name": "Wallis y Futuna"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

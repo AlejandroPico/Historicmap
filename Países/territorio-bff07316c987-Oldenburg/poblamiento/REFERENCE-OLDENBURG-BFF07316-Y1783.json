@@ -1,0 +1,87 @@
+{
+  "key": "REFERENCE-OLDENBURG-BFF07316-Y1783",
+  "contextKey": "REFERENCE-OLDENBURG-BFF07316",
+  "ownerKey": "territorio-bff07316c987",
+  "name": "Oldenburg",
+  "originalNames": [
+    "Oldenburg"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1783",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1783.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    8.084626956794162,
+    53.051905892272316
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-OLDENBURG-BFF07316-Y1783.geojson",
+  "geometrySha256": "626a41f60cba4abf97aa24c5b537d0ab3ca222c6be00de5da7ca38a94391f7ff",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1783.geojson",
+    "sourceSha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+    "upstreamSha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+    "featureIds": [
+      26,
+      119
+    ],
+    "components": null,
+    "year": 1783,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1783.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: unresolved. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Oldenburg",
+      "ABBREVN": "Oldenburg",
+      "SUBJECTO": "Oldenburg",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Oldenburg"
+    },
+    {
+      "NAME": "Oldenburg",
+      "ABBREVN": "Oldenburg",
+      "SUBJECTO": "Oldenburg",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Oldenburg"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1783,
+    "status": "unresolved",
+    "explicitKeys": [],
+    "candidateKeys": [],
+    "ownerKey": "territorio-bff07316c987",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "HIST-Q12548",
+        "name": "Estados agrupados del Sacro Imperio"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

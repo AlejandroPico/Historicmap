@@ -1,0 +1,71 @@
+{
+  "key": "REFERENCE-DAHOMEY-CB109193-Y1783",
+  "contextKey": "REFERENCE-DAHOMEY-CB109193",
+  "ownerKey": "territorio-cb109193d8d2",
+  "name": "Dahomey",
+  "originalNames": [
+    "Dahomey"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1783",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1783.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a19a72",
+  "focus": [
+    1.9738234370563548,
+    6.43724839631039
+  ],
+  "phases": [
+    {
+      "start": 1783,
+      "end": 1799,
+      "label": "Dahomey",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-DAHOMEY-CB109193-Y1783.geojson",
+  "geometrySha256": "2b44c588703829068d9ec91383078b3366cbefb2fd532aa6ec9e9f896e0f636e",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1783.geojson",
+    "sourceSha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+    "upstreamSha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+    "featureIds": [
+      87
+    ],
+    "components": null,
+    "year": 1783,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1783.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Dahomey",
+      "ABBREVN": "Dahomey",
+      "SUBJECTO": "Dahomey",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Dahomey"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1
+}

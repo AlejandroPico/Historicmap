@@ -1,0 +1,79 @@
+{
+  "key": "CULTURE-THUL-GARRIE-WAJA-BINDAL-DA7A5369-Y1715",
+  "contextKey": "CULTURE-THUL-GARRIE-WAJA-BINDAL-DA7A5369",
+  "ownerKey": "territorio-da7a5369df3e",
+  "name": "Thul Garrie Waja (Bindal)",
+  "originalNames": [
+    "Thul Garrie Waja (Bindal)"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "Área tradicional de cronología local pendiente. NO acredita ocupación exacta o exclusiva en el año consultado; la extensión puede reflejar información de épocas distintas. Las expulsiones, desplazamientos y cambios políticos no equivalen a desaparición de la comunidad.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1715",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson"
+    },
+    {
+      "title": "AIATSIS · diversidad, agrupaciones y límites generales no fijos",
+      "url": "https://aiatsis.gov.au/explore/map-indigenous-australia"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#929676",
+  "focus": [
+    147.06,
+    -19.66
+  ],
+  "phases": [
+    {
+      "start": 1715,
+      "end": 1782,
+      "label": "Thul Garrie Waja (Bindal)",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-THUL-GARRIE-WAJA-BINDAL-DA7A5369-Y1715.geojson",
+  "geometrySha256": "01a7d389fc34e8e5daca74ca00b4f2a36c1e91fde2ac6b0122785dc69ab6a87a",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1715.geojson",
+    "sourceSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "upstreamSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "featureIds": [
+      639
+    ],
+    "components": null,
+    "year": 1715,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Thul Garrie Waja (Bindal)",
+      "ABBREVN": "Thul Garrie Waja (Bindal)",
+      "SUBJECTO": "Thul Garrie Waja (Bindal)",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Thul Garrie Waja (Bindal)"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "parentContextKeys": [
+    "CULTURE-AUSTRALIA"
+  ],
+  "temporalMode": "traditional-area-undated"
+}

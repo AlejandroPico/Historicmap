@@ -1,0 +1,75 @@
+{
+  "key": "REFERENCE-TONGA-32AD1ACA-Y1880",
+  "contextKey": "REFERENCE-TONGA-32AD1ACA",
+  "ownerKey": "TON",
+  "name": "Comunidades y redes tonganas · referencia",
+  "originalNames": [
+    "Tonga"
+  ],
+  "kind": "cultural-region",
+  "region": "Caribe y Sudamérica",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia de comunidades y redes tonganas. La etiqueta imperial de algunas compilaciones no acredita una administración marítima uniforme en los siglos XVIII–XIX. El reino y las administraciones con fecha propia se consultan en la base política.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1880",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1880.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a68e78",
+  "focus": [
+    -175.20351625,
+    -21.141605704545455
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-TONGA-32AD1ACA-Y1880.geojson",
+  "geometrySha256": "1b0301ee5744870b192f1c7eeee42a0b42feb2d500b4075564e857ab1e48e43f",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1880.geojson",
+    "sourceSha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+    "upstreamSha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+    "featureIds": [
+      230
+    ],
+    "components": null,
+    "year": 1880,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1880.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: unresolved. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Tonga",
+      "SUBJECTO": "Tonga",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Tonga",
+      "ABBREVN": "Tonga"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "temporalMode": "historical-area-context",
+  "baseRepresentationReview": {
+    "sourceYear": 1880,
+    "status": "unresolved",
+    "explicitKeys": [],
+    "candidateKeys": [],
+    "ownerKey": "TON",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

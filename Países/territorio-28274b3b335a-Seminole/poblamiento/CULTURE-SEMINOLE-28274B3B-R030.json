@@ -1,0 +1,89 @@
+{
+  "key": "CULTURE-SEMINOLE-28274B3B-R030",
+  "contextKey": "CULTURE-SEMINOLE-28274B3B",
+  "ownerKey": "territorio-28274b3b335a",
+  "name": "Comunidades seminolas · referencia histórica",
+  "originalNames": [
+    "Seminole"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "La comunidad y sus procesos históricos tienen documentación en este periodo. El contorno tradicional se muestra sólo como contexto: no acredita su residencia uniforme ni la fecha o extensión exacta de una fundación. Los desplazamientos y las comunidades que permanecieron deben distinguirse.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "Área tradicional de datación local pendiente, incluida como contexto de poblamiento. NO acredita que esta comunidad ocupara exactamente este contorno en el año consultado. La fecha de la compilación no fecha sus fuentes; los traslados y cambios locales siguen pendientes.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+    },
+    {
+      "title": "Native Land Digital · alcance de áreas tradicionales y solapamientos; no atlas anual",
+      "url": "https://native-land.ca/about/how-it-works"
+    },
+    {
+      "title": "Museum of Florida History · cronología seminola y comunidades ancestrales",
+      "url": "https://museumoffloridahistory.com/explore/exhibits/previous-exhibits/seminole-people-of-florida/educational-resources/seminole-timeline/"
+    },
+    {
+      "title": "Seminole Tribal Historic Preservation Office · continuidad ancestral y denominaciones",
+      "url": "https://www.stofthpo.com/seminole-history/"
+    },
+    {
+      "title": "Cronología documental de la comunidad; no datación del contorno tradicional",
+      "url": "https://www.museumoffloridahistory.com/explore/exhibits/previous-exhibits/seminole-people-of-florida/educational-resources/seminole-timeline/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#ab9d72",
+  "focus": [
+    -81.89,
+    27.82
+  ],
+  "phases": [
+    {
+      "start": 1740,
+      "end": 1905,
+      "label": "Comunidades seminolas · referencia histórica",
+      "dateBasis": "Inicio editorial de consulta basado en testimonio histórico; no fecha cierta de origen ni frontera observada.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-SEMINOLE-28274B3B-Y1492.geojson",
+  "geometrySha256": "6a0ba6e9a19b8e7135a0828fc3af0e258e3fc2d959caa6c5d8e0bd9add6f25a8",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1492.geojson",
+    "sourceSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "upstreamSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "featureIds": [
+      533
+    ],
+    "components": null,
+    "year": 1492,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Seminole",
+      "ABBREVN": "Seminole",
+      "SUBJECTO": "Seminole",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Seminole"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "temporalMode": "historical-area-context",
+  "continuityNote": "Referencia tradicional de cronología local pendiente; conservarla como contexto no implica continuidad exacta del mismo contorno durante todo el intervalo.",
+  "displayPriority": 1
+}

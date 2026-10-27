@@ -1,0 +1,87 @@
+{
+  "key": "CULTURE-TASMANIA-Y1800",
+  "contextKey": "CULTURE-TASMANIA",
+  "ownerKey": "CULTURE-TASMANIA",
+  "name": "Pueblos de Lutruwita / Tasmania",
+  "originalNames": [
+    "Aboriginal Tasmanians"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Pueblos de Lutruwita/Tasmania con continuidad y diversidad. La violencia colonial, la Black Line y los desplazamientos a Wybalenna alteran profundamente el poblamiento; no se presenta la muerte de Truganini como extinción de todos sus descendientes.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "Área tradicional de cronología local pendiente. NO acredita ocupación exacta o exclusiva en el año consultado; la extensión puede reflejar información de épocas distintas. Las expulsiones, desplazamientos y cambios políticos no equivalen a desaparición de la comunidad.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1800",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson"
+    },
+    {
+      "title": "National Museum of Australia · continuidad y diversidad indígena",
+      "url": "https://www.nma.gov.au/defining-moments/resources/separation-of-tasmania"
+    },
+    {
+      "title": "AIATSIS · diversidad, agrupaciones y límites generales no fijos",
+      "url": "https://aiatsis.gov.au/explore/map-indigenous-australia"
+    },
+    {
+      "title": "National Museum of Australia · Black Line1830, desplazamientos y fuentes coloniales",
+      "url": "https://www.nma.gov.au/defining-moments/resources/the-black-line"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    146.50996688316607,
+    -42.28228608493147
+  ],
+  "phases": [
+    {
+      "start": 1800,
+      "end": 1905,
+      "label": "Pueblos de Lutruwita / Tasmania",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-TASMANIA-Y1800.geojson",
+  "geometrySha256": "35f9abc9fc6ee1b22617e1889c827c21ef977790b96e923bf56938cf5592b52e",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1800.geojson",
+    "sourceSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "upstreamSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "featureIds": [
+      12
+    ],
+    "components": null,
+    "year": 1800,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Aboriginal Tasmanians",
+      "ABBREVN": "Aboriginal Tasmanians",
+      "SUBJECTO": "Aboriginal Tasmanians",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Aboriginal Tasmanians"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "parentContextKeys": [
+    "CULTURE-AUSTRALIA"
+  ],
+  "temporalMode": "traditional-area-undated"
+}

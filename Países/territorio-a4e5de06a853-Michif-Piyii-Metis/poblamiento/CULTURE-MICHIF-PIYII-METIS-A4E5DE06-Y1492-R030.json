@@ -1,0 +1,85 @@
+{
+  "key": "CULTURE-MICHIF-PIYII-METIS-A4E5DE06-Y1492-R030",
+  "contextKey": "CULTURE-MICHIF-PIYII-METIS-A4E5DE06",
+  "ownerKey": "territorio-a4e5de06a853",
+  "name": "Comunidades métis de las Praderas · referencia histórica",
+  "originalNames": [
+    "Michif Piyii (Métis)"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia histórica a comunidades métis y procesos del comercio de pieles. Seven Oaks en1816 es un testimonio documental de organización y afirmación colectiva, no el nacimiento cierto de todos los pueblos métis ni una fecha de este contorno tradicional. No se retrotrae una organización contemporánea al siglo XV.",
+  "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
+  "temporalUncertainty": "Área tradicional de datación local pendiente, incluida como contexto de poblamiento. NO acredita que esta comunidad ocupara exactamente este contorno en el año consultado. La fecha de la compilación no fecha sus fuentes; los traslados y cambios locales siguen pendientes.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+    },
+    {
+      "title": "Native Land Digital · alcance de áreas tradicionales y solapamientos; no atlas anual",
+      "url": "https://native-land.ca/about/how-it-works"
+    },
+    {
+      "title": "Archives of Manitoba · documentos de Seven Oaks1816",
+      "url": "https://www.gov.mb.ca/chc/archives/hbca/spotlight/seven_oaks.html"
+    },
+    {
+      "title": "Gabriel Dumont Institute · Seven Oaks desde una perspectiva métis",
+      "url": "https://www.metismuseum.ca/resource.php/14172"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a68e78",
+  "focus": [
+    -103.23,
+    56.31
+  ],
+  "phases": [
+    {
+      "start": 1816,
+      "end": 1905,
+      "label": "Comunidades métis de las Praderas · referencia histórica",
+      "dateBasis": "Consulta histórica desde un testimonio documental de1816; no datación de la frontera ni fecha cierta de origen.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-MICHIF-PIYII-METIS-A4E5DE06-Y1492.geojson",
+  "geometrySha256": "587605ed87bbfc29d7c305648a19f43f117f357138c5d0b4de578e206f4102f7",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1492.geojson",
+    "sourceSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "upstreamSha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+    "featureIds": [
+      564
+    ],
+    "components": null,
+    "year": 1492,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Michif Piyii (Métis)",
+      "ABBREVN": "Michif Piyii (Métis)",
+      "SUBJECTO": "Michif Piyii (Métis)",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Michif Piyii (Métis)"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "temporalMode": "historical-area-context",
+  "continuityNote": "Referencia tradicional de cronología local pendiente; conservarla como contexto no implica continuidad exacta del mismo contorno durante todo el intervalo.",
+  "displayPriority": 1
+}

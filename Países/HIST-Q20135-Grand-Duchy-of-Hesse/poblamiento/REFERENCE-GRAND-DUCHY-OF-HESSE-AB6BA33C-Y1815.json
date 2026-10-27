@@ -1,0 +1,89 @@
+{
+  "key": "REFERENCE-GRAND-DUCHY-OF-HESSE-AB6BA33C-Y1815",
+  "contextKey": "REFERENCE-GRAND-DUCHY-OF-HESSE-AB6BA33C",
+  "ownerKey": "HIST-Q20135",
+  "name": "Grand Duchy of Hesse",
+  "originalNames": [
+    "Grand Duchy of Hesse"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1815",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a68e78",
+  "focus": [
+    8.724261730813927,
+    50.439246570977375
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-GRAND-DUCHY-OF-HESSE-AB6BA33C-Y1815.geojson",
+  "geometrySha256": "8ad9751a2c7f40663b29b63332066abbfd5b8e90701b5545cd1d3c343f910ec5",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1815.geojson",
+    "sourceSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "upstreamSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "featureIds": [
+      30,
+      43
+    ],
+    "components": null,
+    "year": 1815,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: owner-present-context-needs-validation. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Grand Duchy of Hesse",
+      "ABBREVN": "Grand Duchy",
+      "SUBJECTO": "Grand Duchy of Hesse",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Grand Duchy of Hesse"
+    },
+    {
+      "NAME": "Grand Duchy of Hesse",
+      "ABBREVN": "Gr D of Hess",
+      "SUBJECTO": "Grand Duchy of Hesse",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Grand Duchy of Hesse"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1815,
+    "status": "owner-present-context-needs-validation",
+    "explicitKeys": [],
+    "candidateKeys": [
+      "HIST-Q20135"
+    ],
+    "ownerKey": "HIST-Q20135",
+    "ownerPresent": true,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "HIST-Q249428",
+        "name": "Grand Duchy of Berg"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

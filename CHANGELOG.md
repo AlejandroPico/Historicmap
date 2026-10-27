@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.30.0 · 28 de octubre de 2026
+
+- Ampliación cultural 1700–1905 y revisión conjunta 900–1905: siete instantáneas nuevas, 2.513 pares nombre/instantánea y 6.657 dossiers acumulados por entidad.
+- Continuidad de regiones y pueblos bajo la expansión colonial, con consulta de coincidencias y prioridad política. Áreas históricas anteriores identificadas como referencia, sin inventar residencia constante, fronteras anuales o extinciones.
+- Contrastes de seminolas, comunidades métis, Aotearoa, Australia/Tasmania, Mapuche, Hawái y África austral; variantes de nombres y componentes insulares separados.
+- Once segmentos regionales por siglo, reutilizados al viajar; mismas coordenadas y detalle que el export auditable completo.
+- Auditoría de 1.006 selecciones anuales, conservación de originales y revisión explícita de enlaces pendientes con la base política. Las carencias locales siguen abiertas y documentadas.
+
 ## 0.29.0 · 27 de octubre de 2026
 
 - Revisión conjunta de pueblos y regiones de 1200–1700 con diez instantáneas de referencia. Continuidad de las fichas entre fases espaciales y conservación de los 127 registros anteriores.

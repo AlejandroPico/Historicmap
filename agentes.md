@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **27 de octubre de 2026**. Versión del producto: **0.29.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **28 de octubre de 2026**. Versión del producto: **0.30.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección42; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección43; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente 0.29:** puntos 3 y 4 agrupados, revisión cultural 1200–1700. Conservar lo anterior, las fronteras políticas y la selección conjunta; fichas con fases, fuentes y límites de datación. Ver sección 42 y tareas.md. Comprobar localmente y subir sin esperar Actions/Pages.
+**Encargo vigente 0.30:** partes cinco y seis, ampliación regional 1700–1905 y revisión conjunta 900–1905. Conservar evidencias y prioridad política; distinguir referencias históricas de fronteras anuales. Ver sección 43 y tareas.md. Comprobar localmente y subir sin esperar Actions/Pages.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -952,3 +952,21 @@ Validación: 232 pruebas en 54 archivos correctas, con comprobaciones focales fi
 Pendientes: contraste independiente y fases locales de las áreas tradicionales, subdivisiones ausentes, desplazamientos y contornos con fecha propia; no cerrar esos trabajos sólo por disponer de un polígono. Siguiente encargo: 1700–1905 y después revisión global. Antes de cerrar esta entrega, comprobar bytes preparados, integridad y coincidencia con origin/main. No esperar ni sondear Actions/Pages: el propietario confirma la publicación.
 
 Cierre preparado 0.29: 8.200 recursos de ejecución, 4.139 originales regionales y 253 originales visuales previos comprobados en los bytes preparados de Git. Árbol de entrega preparado; confirmar coincidencia remota al terminar el envío, sin esperar el despliegue.
+
+
+## 43. Partes cinco y seis · 1700–1905 y revisión global · 0.30.0
+
+El propietario autoriza agrupar ampliación posterior a1700 y revisión conjunta900–1905. [Resultado, fuentes y límites](docs/CULTURAL-GLOBAL-REVIEW.md), inventario nominal, auditoría anual y conservación0.30 describen el alcance. Los mapas culturales no sustituyen la base política ni son un censo étnico exhaustivo.
+
+- Siete fuentes fijadas1715/1783/1800/1815/1878/1880/1900:2.513 pares nombre/instantánea y2.516 dossiers espaciales, con originales dentro dePaíses. Total6.657 dossiers:5.061 adoptados,1.516 remisiones políticas,80 exclusiones;6.815 fases,6.506 culturales/geográficas y309 referencias políticas. Dos contextos restaurados seminola y métis conservan geometrías anteriores, con fecha documental e incertidumbre explícitas.
+- 1.753 continuaciones técnicas desde1701 mantienen referencias activas en1700 hasta el siguiente testimonio o1905. `continuationReference` y `historical-area-context` no significan nuevo levantamiento, residencia constante, frontera anual o continuidad institucional. Hay1.755 fases de contexto histórico y3.830 tradicionales con cronología local pendiente. No resolver desplazamientos trasladando polígonos sin fuente.
+- Nombres Māori/Maoris/M?ori mantienen identidad; Hawái/RapaNui conservan componentes separados. Las referencias zulúes delXVIII no anticipan el reino delXIX. Ni anexión ni final de la ventana implican desaparición cultural. Las fichas siguen abiertas entre siglos, cambios de fuente y transiciónCShapes1886.
+- Auditoría de1.006 selecciones anuales y remisiones políticas:219 claves explícitas presentes,51 propietarios presentes con relación pendiente,73 candidatos nominales,1.173 enlaces no resueltos. Un enlace pendiente no es un país ausente. No fusionar identidades por parecido nominal, carpeta o punto; `baseRepresentationReview` guarda evidencia y pendientes en cada dossier.
+- Once segmentos por siglo en el índice regional; `regionalAsset(year)` selecciona el archivo y el caché comparte/reutiliza peticiones. El export completo permanece auditable, no se descarga obligatoriamente al abrir. Geometrías y fases idénticas en segmentos. No simplificar coordenadas ni descargar fuentes durante la compilación.
+- El compilador respeta valores opcionales de la fase antes que los del dossier. Corrección explícita del `entityType` de una fase cultural songhay posterior a1591 para igualarlo a su `kind`; no cambia fechas, geometría o interpretación. Mantener la clasificación de referencias anteriores.
+
+La investigación local, subdivisiones omitidas, desplazamientos y enlaces institucionales pendientes continúan abiertos. Conservar originales, carpetas y estados de revisión; no declarar completo el censo mundial por haber pasado verificaciones técnicas. Las comprobaciones y el envío se registran en tareas.md. No esperar ni sondearActions/Pages: el propietario confirma la publicación.
+
+Cierre local0.30:237 pruebas distintas/55 archivos verificadas; la lectura masiva agotó inicialmente su límite y sus siete comprobaciones pasan al repetir con margen adecuado. Cinco recorridos de navegador correctos, más cinco pruebas globales finales; capturas deSámi,Australia yAotearoa móvil inspeccionadas. Tipos, compilación e integridad correctos:92 datos,11 franjas y8.108 medios. Conservación de79 recursos anteriores,4.139 originales y4.139 dossiers;3.366 fases previas preservadas salvo la corrección explícita deentityType ya descrita. 2.516 originales nuevos contrastados;15 recursos idempotentes tras terminar la edición de la etiqueta histórica deKalmar. Catálogo regenerado tras todas las escrituras; confirmar bytes preparados y coincidencia remota antes de declarar enviado.
+
+Catálogo final:3.823 carpetas y1.204 identidades políticas. Las alias canónicas deTasmania/RapaNui retiran dos vistas generadas duplicadas entidad.json, conservando los dossiers y originales. Git preparado:9.641 archivos nuevos/modificados coinciden con sus bytes locales por huella de objetoGit;8.211 recursos de manifiestos comprobados porSHA-256 y huellaGit,8.198 objetos de recursos anteriores idénticos. La documentación de cierre se prepara después de anotar este resultado; verificar el envío demain sin esperar publicación.

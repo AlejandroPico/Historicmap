@@ -1,0 +1,77 @@
+{
+  "key": "REFERENCE-LUNDA-FEC54660-Y1900",
+  "contextKey": "REFERENCE-LUNDA-FEC54660",
+  "ownerKey": "territorio-fec54660addb",
+  "name": "Lunda",
+  "originalNames": [
+    "Lunda"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1900",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1900.geojson"
+    },
+    {
+      "title": "Met · Luba y Lunda: instituciones, expansión y redes de los siglos XVI–XVII",
+      "url": "https://www.metmuseum.org/ko/essays/kingdoms-of-the-savanna-the-luba-and-lunda-empires"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q1796223"
+  ],
+  "color": "#a19a72",
+  "focus": [
+    21.32,
+    -9.03
+  ],
+  "phases": [
+    {
+      "start": 1900,
+      "end": 1905,
+      "label": "Lunda",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-LUNDA-FEC54660-Y1900.geojson",
+  "geometrySha256": "bacc6179f5fc73f51d644d52a0aa1b916b59dc94f7d4ba00ae129b1ddf33ec32",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1900.geojson",
+    "sourceSha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+    "upstreamSha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+    "featureIds": [
+      70
+    ],
+    "components": null,
+    "year": 1900,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1900.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Lunda",
+      "SUBJECTO": "Lunda",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Lunda",
+      "ABBREVN": "Lunda"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1
+}

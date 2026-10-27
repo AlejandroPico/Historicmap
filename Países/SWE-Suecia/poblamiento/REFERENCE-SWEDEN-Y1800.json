@@ -1,0 +1,76 @@
+{
+  "key": "REFERENCE-SWEDEN-Y1800",
+  "contextKey": "REFERENCE-SWEDEN",
+  "ownerKey": "SWE",
+  "name": "Sweden · referencia",
+  "originalNames": [
+    "Sweden"
+  ],
+  "kind": "polity-reference",
+  "region": "Europa y Mediterráneo",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1800",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "SWE"
+  ],
+  "color": "#a99772",
+  "focus": [
+    19.1849975,
+    57.908192
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-SWEDEN-Y1800.geojson",
+  "geometrySha256": "b59823525b35b103d3806c8109ea366f7d37d87e737a6153e217add8fa4dc5de",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1800.geojson",
+    "sourceSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "upstreamSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "featureIds": [
+      606
+    ],
+    "components": null,
+    "year": 1800,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: unresolved. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Sweden",
+      "ABBREVN": "Sweden",
+      "SUBJECTO": "Sweden",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Sweden"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1800,
+    "status": "unresolved",
+    "explicitKeys": [],
+    "candidateKeys": [],
+    "ownerKey": "SWE",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

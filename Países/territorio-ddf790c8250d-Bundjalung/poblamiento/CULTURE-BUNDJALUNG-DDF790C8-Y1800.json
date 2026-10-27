@@ -1,0 +1,79 @@
+{
+  "key": "CULTURE-BUNDJALUNG-DDF790C8-Y1800",
+  "contextKey": "CULTURE-BUNDJALUNG-DDF790C8",
+  "ownerKey": "territorio-ddf790c8250d",
+  "name": "Bundjalung",
+  "originalNames": [
+    "Bundjalung"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "Área tradicional de cronología local pendiente. NO acredita ocupación exacta o exclusiva en el año consultado; la extensión puede reflejar información de épocas distintas. Las expulsiones, desplazamientos y cambios políticos no equivalen a desaparición de la comunidad.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1800",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson"
+    },
+    {
+      "title": "AIATSIS · diversidad, agrupaciones y límites generales no fijos",
+      "url": "https://aiatsis.gov.au/explore/map-indigenous-australia"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a68e78",
+  "focus": [
+    152.48,
+    -28.69
+  ],
+  "phases": [
+    {
+      "start": 1800,
+      "end": 1905,
+      "label": "Bundjalung",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-BUNDJALUNG-DDF790C8-Y1800.geojson",
+  "geometrySha256": "fef62b485595fe2f8dcd6e9a1b68c406ddea653e8fba89781fa594ff2fcb2f3b",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1800.geojson",
+    "sourceSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "upstreamSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "featureIds": [
+      288
+    ],
+    "components": null,
+    "year": 1800,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Bundjalung",
+      "ABBREVN": "Bundjalung",
+      "SUBJECTO": "Bundjalung",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Bundjalung"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "parentContextKeys": [
+    "CULTURE-AUSTRALIA"
+  ],
+  "temporalMode": "traditional-area-undated"
+}

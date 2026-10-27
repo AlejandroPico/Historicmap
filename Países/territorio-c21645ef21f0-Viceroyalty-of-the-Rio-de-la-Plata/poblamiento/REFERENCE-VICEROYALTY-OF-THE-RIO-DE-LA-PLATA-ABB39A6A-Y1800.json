@@ -1,0 +1,79 @@
+{
+  "key": "REFERENCE-VICEROYALTY-OF-THE-RIO-DE-LA-PLATA-ABB39A6A-Y1800",
+  "contextKey": "REFERENCE-VICEROYALTY-OF-THE-RIO-DE-LA-PLATA-ABB39A6A",
+  "ownerKey": "territorio-c21645ef21f0",
+  "name": "Viceroyalty of the Río de la Plata",
+  "originalNames": [
+    "Viceroyalty of the Río de la Plata"
+  ],
+  "kind": "polity-reference",
+  "region": "Caribe y Sudamérica",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1800",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a29b86",
+  "focus": [
+    -61.5757888539205,
+    -31.717408765685875
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-VICEROYALTY-OF-THE-RIO-DE-LA-PLATA-ABB39A6A-Y1800.geojson",
+  "geometrySha256": "d96a29298192dda5980486987ea22664b14974bbce3ce0069589bbef18764f4c",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1800.geojson",
+    "sourceSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "upstreamSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "featureIds": [
+      54
+    ],
+    "components": null,
+    "year": 1800,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: unresolved. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Viceroyalty of the Río de la Plata",
+      "ABBREVN": "La Plata",
+      "SUBJECTO": "Viceroyalty of the Río de la Plata",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Viceroyalty of the Río de la Plata"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1800,
+    "status": "unresolved",
+    "explicitKeys": [],
+    "candidateKeys": [],
+    "ownerKey": "territorio-c21645ef21f0",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "ESP",
+        "name": "España · monarquía de Carlos IV"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

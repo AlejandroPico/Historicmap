@@ -11,7 +11,7 @@ import packageInfo from '../package.json';
 import { aboutContent } from './about';
 import { annualData, asset, modernCities, overlaysFor } from './data';
 import { datedPlaces } from './historical-places';
-import {hasRegionalCoverage,regionsAt,entitiesAt,regionalCard,regionalCoverage,type RegionalRecord} from './cultural-regions';
+import {hasRegionalCoverage,regionalAsset,regionsAt,entitiesAt,regionalCard,regionalCoverage,type RegionalRecord} from './cultural-regions';
 import { escapeHtml as esc, thematicData, thematicLegend, profileFor, type ProfileData, type Theme } from './profiles';
 import { sourceDiff } from './source-diff';
 import {withRenderIds,RENDER_ID} from './render-feature-id';
@@ -282,7 +282,7 @@ function updateSources(){
   $('#source-reference').textContent=`Fecha consultada: ${formatYear(year)}.${year>=900?` Autoridades adquiridas: ${identityData?.retrieved??'cargando'}.`:''}`;
   $('#source-links').innerHTML=`<a href="${source[1]}" target="_blank" rel="noopener">${source[0]} ↗</a> · <a href="https://data.worldbank.org/" target="_blank" rel="noopener">Indicadores WDI ↗</a> · <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Autoridades ↗</a>${affiliation?` · <a href="${esc(AFFILIATIONS[affiliation].source)}" target="_blank" rel="noopener">${esc(AFFILIATIONS[affiliation].label)} ↗</a>`:''}`;
   $('#source-scope').textContent=snapshot.kind==='modern'?'Cartografía de referencia 2026. Las cifras y las membresías conservan sus propias fechas. Imágenes: autor y licencia en cada ficha.':snapshot.kind==='annual'?'Base territorial al cierre anual; contornos de referencia identificados en las fichas. Control con fecha propia. Mandatos de todo el año y membresías al cierre.':'Reconstrucción según la fecha y el alcance del modelo; no es una observación directa.';
-  if(hasRegionalCoverage(year)){$('#source-links').innerHTML+=' · <a href="https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md" target="_blank" rel="noopener">Pueblos y regiones ↗</a>';$('#source-scope').textContent+=` Regiones culturales: ventanas de consulta ${regionalCoverage.windows.map(w=>w.start+'–'+w.end).join(', ')}; no son fronteras anuales. Las fichas distinguen testimonio espacial, incertidumbre y fechas.`;}
+  if(hasRegionalCoverage(year)){$('#source-links').innerHTML+=' · <a href="https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-GLOBAL-REVIEW.md" target="_blank" rel="noopener">Pueblos y regiones ↗</a>';$('#source-scope').textContent+=` Regiones culturales: ventanas de consulta ${regionalCoverage.windows.map(w=>w.start+'–'+w.end).join(', ')}; no son fronteras anuales. Las fichas distinguen testimonio espacial, incertidumbre y fechas.`;}
   if(physical&&reliefAvailable())$('#source-scope').textContent+=' Relieve contemporáneo de referencia; no reconstruye altitudes ni costas antiguas.';
   if(governmentFilter)$('#source-links').innerHTML+=' · <a href="https://ourworldindata.org/grapher/political-regime" target="_blank" rel="noopener">Formas políticas / V-Dem ↗</a>';
   if(snapshot.kind==='concept')$('#source-scope').textContent='Escena conceptual y contexto documental; no hay geometría reconstruida para esta fecha.';
@@ -333,7 +333,7 @@ function refreshMap(force=false):Promise<void> {
         targetYear>=900?overlaysFor(targetYear):Promise.resolve(empty),
         asset<IdentityData>('identities.json'),
         target.kind==='annual'||target.kind==='historical'?asset<FeatureCollection>('countries.geojson'):Promise.resolve(empty),
-        asset<IndicatorData>('country-indicators.json'),asset<CountryHistory>('country-history.json'),hasRegionalCoverage(targetYear)?asset<FeatureCollection>('cultural-regions.geojson'):Promise.resolve(empty)
+        asset<IndicatorData>('country-indicators.json'),asset<CountryHistory>('country-history.json'),regionalAsset(targetYear)?asset<FeatureCollection>(regionalAsset(targetYear)!):Promise.resolve(empty)
       ]);
       if(current!==requestNumber)return;
       const composed=await controlledMap(politicalData(rawData,targetYear,target.kind==='modern'?profileData:undefined),overlays,targetYear);

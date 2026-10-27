@@ -1,0 +1,71 @@
+{
+  "key": "REFERENCE-RWANDA-B57E6C30-Y1900",
+  "contextKey": "REFERENCE-RWANDA-B57E6C30",
+  "ownerKey": "REFERENCE-RWANDA-B57E6C30",
+  "name": "Rwanda",
+  "originalNames": [
+    "Rwanda"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1900",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1900.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#869684",
+  "focus": [
+    30.361281854191223,
+    -1.8224741315417539
+  ],
+  "phases": [
+    {
+      "start": 1900,
+      "end": 1905,
+      "label": "Rwanda",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-RWANDA-B57E6C30-Y1900.geojson",
+  "geometrySha256": "926472b9d23144aa7340eb09ab9a361157194262ce43ad1d18213cf1d5deb428",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1900.geojson",
+    "sourceSha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+    "upstreamSha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+    "featureIds": [
+      68
+    ],
+    "components": null,
+    "year": 1900,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1900.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Rwanda",
+      "SUBJECTO": "Rwanda",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Rwanda",
+      "ABBREVN": "Rwanda"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1
+}

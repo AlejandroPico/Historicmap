@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1201,
-    1700
+    1905
   ],
   "interpretation": "Poblamiento ártico con cambios de tradiciones Dorset y Thule/Inuit y variación regional. Las áreas amplias de la fuente no prueban reemplazo instantáneo. La etiqueta Thule de algunos polígonos occidentales se conserva sólo como referencia del litoral, no como mapa de toda la expansión oriental.",
   "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
@@ -42,6 +42,17 @@
       "end": 1700,
       "label": "Comunidades marítimas del Ártico",
       "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": 1701,
+      "end": 1905,
+      "label": "Comunidades marítimas del Ártico",
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "interpretation": "Referencia histórica del ámbito de Comunidades marítimas del Ártico. Se conserva el último contorno disponible para no ocultar la documentación. No acredita residencia uniforme, soberanía, continuidad institucional o identidad invariable después de1700; los cambios de población y de poder deben contrastarse localmente.",
+      "dateBasis": "Continuidad de consulta de evidencia anterior; NO nuevo levantamiento de1701 ni prueba de límites constantes.",
       "endIsReviewBoundary": true
     }
   ],

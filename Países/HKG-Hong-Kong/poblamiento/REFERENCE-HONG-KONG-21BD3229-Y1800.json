@@ -1,0 +1,65 @@
+{
+  "key": "REFERENCE-HONG-KONG-21BD3229-Y1800",
+  "contextKey": "REFERENCE-HONG-KONG-21BD3229",
+  "ownerKey": "HKG",
+  "name": "Hong Kong",
+  "originalNames": [
+    "Hong Kong"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "excluded",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Etiqueta demasiado general, administrativa anacrónica o relativa a una ubicación moderna sin cronología suficiente para esta instantánea. Se conserva para contraste sin convertirla en una comunidad o Estado de esta fecha.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1800",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HKG"
+  ],
+  "color": "#b19b82",
+  "focus": [
+    114.15,
+    22.36
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-HONG-KONG-21BD3229-Y1800.geojson",
+  "geometrySha256": "00c349131029c46198f867b4906428e3d9830ea9c30209da65d68511a91db8f8",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1800.geojson",
+    "sourceSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "upstreamSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "featureIds": [
+      626
+    ],
+    "components": null,
+    "year": 1800,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1800.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Hong Kong",
+      "ABBREVN": "Hong Kong",
+      "SUBJECTO": "Hong Kong",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Hong Kong"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1
+}

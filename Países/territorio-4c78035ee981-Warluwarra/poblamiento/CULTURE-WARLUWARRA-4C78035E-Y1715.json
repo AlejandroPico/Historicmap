@@ -1,0 +1,79 @@
+{
+  "key": "CULTURE-WARLUWARRA-4C78035E-Y1715",
+  "contextKey": "CULTURE-WARLUWARRA-4C78035E",
+  "ownerKey": "territorio-4c78035ee981",
+  "name": "Warluwarra",
+  "originalNames": [
+    "Warluwarra"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "Área tradicional de cronología local pendiente. NO acredita ocupación exacta o exclusiva en el año consultado; la extensión puede reflejar información de épocas distintas. Las expulsiones, desplazamientos y cambios políticos no equivalen a desaparición de la comunidad.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1715",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson"
+    },
+    {
+      "title": "AIATSIS · diversidad, agrupaciones y límites generales no fijos",
+      "url": "https://aiatsis.gov.au/explore/map-indigenous-australia"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#939f86",
+  "focus": [
+    138.6,
+    -21.68
+  ],
+  "phases": [
+    {
+      "start": 1715,
+      "end": 1782,
+      "label": "Warluwarra",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-WARLUWARRA-4C78035E-Y1715.geojson",
+  "geometrySha256": "baf43a215baafd42b685d6e70238e10f7b99e64b06a448f342837291bfd78dda",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1715.geojson",
+    "sourceSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "upstreamSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "featureIds": [
+      574
+    ],
+    "components": null,
+    "year": 1715,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Warluwarra",
+      "ABBREVN": "Warluwarra",
+      "SUBJECTO": "Warluwarra",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Warluwarra"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "parentContextKeys": [
+    "CULTURE-AUSTRALIA"
+  ],
+  "temporalMode": "traditional-area-undated"
+}

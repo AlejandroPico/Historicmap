@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1201,
-    1700
+    1905
   ],
   "interpretation": "Referencia regional de la compilación, con sociedades, comunidades y redes internas diversas. El nombre no acredita un Estado unitario ni ocupación uniforme y exclusiva de la superficie.",
   "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
@@ -34,6 +34,17 @@
       "end": 1700,
       "label": "Kalmar Union",
       "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": 1701,
+      "end": 1905,
+      "label": "Área histórica de la Unión de Kalmar · testimonio de1500",
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "interpretation": "Referencia geográfica de un agregado político del mapa de1500. No representa una unión política vigente en la fecha consultada ni una identidad cultural única. Se conserva el testimonio histórico sin sustituir los Estados de la base política.",
+      "dateBasis": "Continuidad de consulta de evidencia anterior; NO nuevo levantamiento de1701 ni prueba de límites constantes.",
       "endIsReviewBoundary": true
     }
   ],

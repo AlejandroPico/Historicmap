@@ -47,3 +47,9 @@ Desde 0.29, una misma entidad puede tener varios dossiers espaciales: `key` iden
 3. Ejecuta la preparación/compilación. La aplicación detecta los archivos declarados sin editar código y muestra los recursos vigentes en **Datos**. La vigencia de un himno y los derechos de una interpretación son cuestiones distintas. No se reproducen sonidos automáticamente.
 
 La validación rechaza archivos sin declaración, sin fechas/licencia o que no existen. Las fechas son inclusivas. Si no hay un recurso acreditado no aparece un reproductor vacío. El catálogo no incorpora himnos ni grabaciones por defecto.
+
+## Continuidad regional desde 0.30
+
+Las fases `historical-area-context` conservan una referencia espacial anterior cuando la fuente posterior omite el detalle cultural. No acreditan residencia constante, soberanía ni fronteras anuales; `continuationReference` y la ficha explican la limitación. `baseRepresentationReview` conserva el contraste de remisiones a la base política: propietario, candidatos nominales y puntos coincidentes no son equivalencias históricas automáticas. Los pendientes permanecen en el dossier.
+
+El compilador genera once segmentos por siglo entre900 y1905, además del export completo para auditoría. La aplicación descarga y reutiliza sólo el segmento visitado. No editar las copias públicas: las geometrías originales, fuentes, decisiones y fases permanecen en `poblamiento/` de cada entidad. [Revisión conjunta y límites](../docs/CULTURAL-GLOBAL-REVIEW.md).

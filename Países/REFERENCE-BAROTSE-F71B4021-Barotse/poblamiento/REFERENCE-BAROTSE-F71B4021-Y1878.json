@@ -1,0 +1,87 @@
+{
+  "key": "REFERENCE-BAROTSE-F71B4021-Y1878",
+  "contextKey": "REFERENCE-BAROTSE-F71B4021",
+  "ownerKey": "REFERENCE-BAROTSE-F71B4021",
+  "name": "Barotse",
+  "originalNames": [
+    "Barotse"
+  ],
+  "kind": "polity-reference",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Comunidades, redes e instituciones del África meridional. Se distinguen formación estatal, expansión, conflictos y dominio colonial durante el siglo XIX. La referencia amplia no anticipa la máxima extensión de un reino ni borra a la población tras una conquista.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1878",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1878.geojson"
+    },
+    {
+      "title": "Met · África meridional1800–1900, comunidades, poderes y expansión colonial",
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/10/afo.html"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a68e78",
+  "focus": [
+    24.286171880652198,
+    -12.490067025805873
+  ],
+  "phases": [
+    {
+      "start": 1878,
+      "end": 1879,
+      "label": "Barotse",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "REFERENCE-BAROTSE-F71B4021-Y1878.geojson",
+  "geometrySha256": "6b0ad35b6a31fc67463a512aaa5917b13a111e9c45a2c00b6f1ab820a5c1c816",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1878.geojson",
+    "sourceSha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+    "upstreamSha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+    "featureIds": [
+      59
+    ],
+    "components": null,
+    "year": 1878,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1878.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "lineWidth": null,
+      "widthScale": null,
+      "hideFill": null,
+      "hideLine": null,
+      "NAME": "Barotse",
+      "SUBJECTO": "Barotse",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Barotse",
+      "ABBREVN": "Barotse",
+      "name": null,
+      "id": null,
+      "isHidden": null,
+      "area": null,
+      "fill": null,
+      "fill-opacity": null,
+      "stroke": null,
+      "stroke-opacity": null
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1
+}

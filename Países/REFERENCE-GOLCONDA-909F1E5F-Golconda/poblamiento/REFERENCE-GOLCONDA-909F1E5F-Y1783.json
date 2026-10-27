@@ -1,0 +1,79 @@
+{
+  "key": "REFERENCE-GOLCONDA-909F1E5F-Y1783",
+  "contextKey": "REFERENCE-GOLCONDA-909F1E5F",
+  "ownerKey": "REFERENCE-GOLCONDA-909F1E5F",
+  "name": "Golconda",
+  "originalNames": [
+    "Golconda"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1783",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1783.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a19a72",
+  "focus": [
+    78.65274401517543,
+    16.868776953764684
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-GOLCONDA-909F1E5F-Y1783.geojson",
+  "geometrySha256": "cf2fb23f0038f8aa758481b9702361caeeb7227c4b1df1b9942081ece6dec182",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1783.geojson",
+    "sourceSha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+    "upstreamSha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+    "featureIds": [
+      111
+    ],
+    "components": null,
+    "year": 1783,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1783.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: unresolved. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Golconda",
+      "ABBREVN": "Golconda",
+      "SUBJECTO": "Golconda",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Golconda"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1783,
+    "status": "unresolved",
+    "explicitKeys": [],
+    "candidateKeys": [],
+    "ownerKey": "REFERENCE-GOLCONDA-909F1E5F",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "HIST-Q1240096",
+        "name": "Hyderabad State"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

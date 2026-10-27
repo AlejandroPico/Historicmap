@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1201,
-    1700
+    1905
   ],
   "interpretation": "Comunidades, centros y poderes de la tradición zimbabuense con cronologías parcialmente superpuestas. Khami y Gran Zimbabue no son una simple sucesión por abandono total; la evidencia arqueológica permite ocupación posterior de Gran Zimbabue. La superficie no acredita una sola administración continua.",
   "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
@@ -42,6 +42,17 @@
       "end": 1700,
       "label": "Gran Zimbabue · región cultural",
       "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": 1701,
+      "end": 1905,
+      "label": "Gran Zimbabue · región cultural",
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "interpretation": "Referencia histórica del ámbito de Gran Zimbabue · región cultural. Se conserva el último contorno disponible para no ocultar la documentación. No acredita residencia uniforme, soberanía, continuidad institucional o identidad invariable después de1700; los cambios de población y de poder deben contrastarse localmente.",
+      "dateBasis": "Continuidad de consulta de evidencia anterior; NO nuevo levantamiento de1701 ni prueba de límites constantes.",
       "endIsReviewBoundary": true
     }
   ],

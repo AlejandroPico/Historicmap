@@ -1,0 +1,76 @@
+{
+  "key": "CULTURE-CHEROKEE-9409D688-Y1715",
+  "contextKey": "CULTURE-CHEROKEE-9409D688",
+  "ownerKey": "CULTURE-CHEROKEE-9409D688",
+  "name": "Cherokee",
+  "originalNames": [
+    "Cherokee"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Comunidades y nación cherokee: homelands, expulsión de1838–1839 y reconstrucción en Indian Territory son ámbitos diferentes. El contorno tradicional no se transforma automáticamente en un mapa de residencia posterior a la expulsión; no se borran las comunidades orientales que permanecieron.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "Área tradicional de cronología local pendiente. NO acredita ocupación exacta o exclusiva en el año consultado; la extensión puede reflejar información de épocas distintas. Las expulsiones, desplazamientos y cambios políticos no equivalen a desaparición de la comunidad.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1715",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson"
+    },
+    {
+      "title": "NPS · expulsión cherokee1837–1839, persistencia y reconstrucción de comunidades",
+      "url": "https://home.nps.gov/articles/000/introduction-transportation-during-the-cherokee-removal-1837-1839.htm"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#b19b82",
+  "focus": [
+    -82.89,
+    35.79
+  ],
+  "phases": [
+    {
+      "start": 1715,
+      "end": 1905,
+      "label": "Cherokee",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-CHEROKEE-9409D688-Y1715.geojson",
+  "geometrySha256": "a2eeeb6b824b4c42d6d02af5787f35fd243c1187a57bd29e678db23a6f58c68c",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1715.geojson",
+    "sourceSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "upstreamSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "featureIds": [
+      270
+    ],
+    "components": null,
+    "year": 1715,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Cherokee",
+      "ABBREVN": "Cherokee",
+      "SUBJECTO": "Cherokee",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Cherokee"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "temporalMode": "traditional-area-undated"
+}

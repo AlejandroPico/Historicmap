@@ -52,7 +52,8 @@
   "reviewStatus": "regional-bibliography-contrasted",
   "pending": [
     "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
-    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional."
+    "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional.",
+    "Revisar el enlace con la base política: unresolved. La similitud de nombre no acredita equivalencia institucional."
   ],
   "sourceGrouping": [
     "Chola state"
@@ -68,5 +69,20 @@
   ],
   "review": "0.29.0 · 2026-10-27",
   "temporalMode": "approximate-source-window",
-  "displayPriority": 1
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1279,
+    "status": "unresolved",
+    "explicitKeys": [],
+    "candidateKeys": [],
+    "ownerKey": "HIST-Q6806806",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "HIST-Q918153",
+        "name": "British Ceylon"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
 }

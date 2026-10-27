@@ -1,0 +1,79 @@
+{
+  "key": "CULTURE-GUNGURUGONI-DF4A9620-Y1715",
+  "contextKey": "CULTURE-GUNGURUGONI-DF4A9620",
+  "ownerKey": "territorio-df4a9620318a",
+  "name": "Gungurugoni",
+  "originalNames": [
+    "Gungurugoni"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "Área tradicional de cronología local pendiente. NO acredita ocupación exacta o exclusiva en el año consultado; la extensión puede reflejar información de épocas distintas. Las expulsiones, desplazamientos y cambios políticos no equivalen a desaparición de la comunidad.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1715",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson"
+    },
+    {
+      "title": "AIATSIS · diversidad, agrupaciones y límites generales no fijos",
+      "url": "https://aiatsis.gov.au/explore/map-indigenous-australia"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#869684",
+  "focus": [
+    134.26,
+    -12.2
+  ],
+  "phases": [
+    {
+      "start": 1715,
+      "end": 1782,
+      "label": "Gungurugoni",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-GUNGURUGONI-DF4A9620-Y1715.geojson",
+  "geometrySha256": "3fb55d577531f19249996f7bf1d7b154113a98d4a955cf09779898db89e28dd2",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1715.geojson",
+    "sourceSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "upstreamSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "featureIds": [
+      609
+    ],
+    "components": null,
+    "year": 1715,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Gungurugoni",
+      "ABBREVN": "Gungurugoni",
+      "SUBJECTO": "Gungurugoni",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Gungurugoni"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "parentContextKeys": [
+    "CULTURE-AUSTRALIA"
+  ],
+  "temporalMode": "traditional-area-undated"
+}

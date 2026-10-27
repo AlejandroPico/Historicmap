@@ -1,0 +1,82 @@
+{
+  "key": "REFERENCE-BRUNEI-0CD16504-Y1815",
+  "contextKey": "REFERENCE-BRUNEI-0CD16504",
+  "ownerKey": "BRN",
+  "name": "Brunei",
+  "originalNames": [
+    "Brunei"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1815",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "BRN"
+  ],
+  "color": "#a19a72",
+  "focus": [
+    114.64,
+    4.51
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-BRUNEI-0CD16504-Y1815.geojson",
+  "geometrySha256": "92dd2c149c573498b4d5a2ad5d5bc218bd54ab38bae8980d569ebfd89b39a54d",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1815.geojson",
+    "sourceSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "upstreamSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "featureIds": [
+      18
+    ],
+    "components": null,
+    "year": 1815,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Brunei",
+      "ABBREVN": "Brunei",
+      "SUBJECTO": "Brunei",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Brunei"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1815,
+    "status": "explicit-key-present",
+    "explicitKeys": [
+      "BRN"
+    ],
+    "candidateKeys": [],
+    "ownerKey": "BRN",
+    "ownerPresent": true,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "BRN",
+        "name": "Sultanato de Brunéi"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

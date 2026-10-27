@@ -1,0 +1,72 @@
+{
+  "key": "CULTURE-SAINT-KITTS-AND-NEVIS-1721830F-Y1815",
+  "contextKey": "CULTURE-SAINT-KITTS-AND-NEVIS-1721830F",
+  "ownerKey": "CULTURE-SAINT-KITTS-AND-NEVIS-1721830F",
+  "name": "Saint Kitts and Nevis",
+  "originalNames": [
+    "Saint Kitts and Nevis"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "Área tradicional de cronología local pendiente. NO acredita ocupación exacta o exclusiva en el año consultado; la extensión puede reflejar información de épocas distintas. Las expulsiones, desplazamientos y cambios políticos no equivalen a desaparición de la comunidad.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1815",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a19a72",
+  "focus": [
+    -62.74156475862069,
+    17.309844862068992
+  ],
+  "phases": [
+    {
+      "start": 1815,
+      "end": 1877,
+      "label": "Saint Kitts and Nevis",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-SAINT-KITTS-AND-NEVIS-1721830F-Y1815.geojson",
+  "geometrySha256": "59fdb2c71c77d35e54370d30b6b4f4afc7513d91e8e79df93c90503616813fc6",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1815.geojson",
+    "sourceSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "upstreamSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "featureIds": [
+      145
+    ],
+    "components": null,
+    "year": 1815,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Saint Kitts and Nevis",
+      "ABBREVN": "Saint Kitts and Nevis",
+      "SUBJECTO": "Saint Kitts and Nevis",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Saint Kitts and Nevis"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "temporalMode": "traditional-area-undated"
+}

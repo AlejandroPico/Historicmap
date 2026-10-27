@@ -1,0 +1,76 @@
+{
+  "key": "CULTURE-TAIWAN-5C77BE44-Y1880",
+  "contextKey": "CULTURE-TAIWAN-5C77BE44",
+  "ownerKey": "CULTURE-TAIWAN-5C77BE44",
+  "name": "Taiwan",
+  "originalNames": [
+    "Taiwan"
+  ],
+  "kind": "cultural-region",
+  "region": "Asia e Índico",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "Área tradicional de cronología local pendiente. NO acredita ocupación exacta o exclusiva en el año consultado; la extensión puede reflejar información de épocas distintas. Las expulsiones, desplazamientos y cambios políticos no equivalen a desaparición de la comunidad.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1880",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1880.geojson"
+    },
+    {
+      "title": "Huygens/Leiden · diarios de Zeelandia1629–1662 y comunidades locales",
+      "url": "https://www.huygens.knaw.nl/en/resources/de-dagregisters-van-het-kasteel-zeelandia-taiwan-1629-1662-2/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a19a72",
+  "focus": [
+    120.97,
+    23.61
+  ],
+  "phases": [
+    {
+      "start": 1880,
+      "end": 1905,
+      "label": "Taiwan",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-TAIWAN-5C77BE44-Y1880.geojson",
+  "geometrySha256": "3087e1d0c94b4c0b23944250ae76640d1048419f90ebf46898727a114b254c41",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1880.geojson",
+    "sourceSha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+    "upstreamSha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+    "featureIds": [
+      193
+    ],
+    "components": null,
+    "year": 1880,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1880.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Taiwan",
+      "SUBJECTO": "Taiwan",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Taiwan",
+      "ABBREVN": "Taiwan"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "temporalMode": "traditional-area-undated"
+}

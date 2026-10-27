@@ -1,0 +1,79 @@
+{
+  "key": "REFERENCE-BHUTAN-65A4745D-Y1880",
+  "contextKey": "REFERENCE-BHUTAN-65A4745D",
+  "ownerKey": "REFERENCE-BHUTAN-65A4745D",
+  "name": "Bhutan",
+  "originalNames": [
+    "Bhutan"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1880",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1880.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#929676",
+  "focus": [
+    89.6,
+    27.16
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-BHUTAN-65A4745D-Y1880.geojson",
+  "geometrySha256": "c0a78155eff3a32384fc42707d55b6090f4487e4af134cac45f62c975b5167c6",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1880.geojson",
+    "sourceSha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+    "upstreamSha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+    "featureIds": [
+      2
+    ],
+    "components": null,
+    "year": 1880,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1880.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: unresolved. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Bhutan",
+      "SUBJECTO": "Bhutan",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Bhutan",
+      "ABBREVN": "Bhutan"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1880,
+    "status": "unresolved",
+    "explicitKeys": [],
+    "candidateKeys": [],
+    "ownerKey": "REFERENCE-BHUTAN-65A4745D",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "BTN",
+        "name": "Bhután · gobierno dual"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

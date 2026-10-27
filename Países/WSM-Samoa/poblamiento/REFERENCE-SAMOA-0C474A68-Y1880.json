@@ -1,0 +1,81 @@
+{
+  "key": "REFERENCE-SAMOA-0C474A68-Y1880",
+  "contextKey": "REFERENCE-SAMOA-0C474A68",
+  "ownerKey": "WSM",
+  "name": "Samoa",
+  "originalNames": [
+    "Samoa"
+  ],
+  "kind": "polity-reference",
+  "region": "Caribe y Sudamérica",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1880",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1880.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a19a72",
+  "focus": [
+    -172.48303030612246,
+    -13.614024755102042
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-SAMOA-0C474A68-Y1880.geojson",
+  "geometrySha256": "64f74cb08fa3b2b05436e20f2ca47d07e2cb4b5d20cfde65ffc28826fbfdb38b",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1880.geojson",
+    "sourceSha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+    "upstreamSha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+    "featureIds": [
+      232
+    ],
+    "components": null,
+    "year": 1880,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1880.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: owner-present-context-needs-validation. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Samoa",
+      "SUBJECTO": "Samoa",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Samoa",
+      "ABBREVN": "Samoa"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1880,
+    "status": "owner-present-context-needs-validation",
+    "explicitKeys": [],
+    "candidateKeys": [
+      "WSM"
+    ],
+    "ownerKey": "WSM",
+    "ownerPresent": true,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "WSM",
+        "name": "Samoa"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}

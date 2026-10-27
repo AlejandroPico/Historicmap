@@ -1,0 +1,88 @@
+{
+  "key": "CULTURE-NGUNI-C98D5D35-Y1878",
+  "contextKey": "CULTURE-NGUNI-C98D5D35",
+  "ownerKey": "CULTURE-NGUNI-C98D5D35",
+  "name": "Nguni · referencia regional",
+  "originalNames": [
+    "Nguni"
+  ],
+  "kind": "cultural-region",
+  "region": "África",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Comunidades, redes e instituciones del África meridional. Se distinguen formación estatal, expansión, conflictos y dominio colonial durante el siglo XIX. La referencia amplia no anticipa la máxima extensión de un reino ni borra a la población tras una conquista.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "Área tradicional de cronología local pendiente. NO acredita ocupación exacta o exclusiva en el año consultado; la extensión puede reflejar información de épocas distintas. Las expulsiones, desplazamientos y cambios políticos no equivalen a desaparición de la comunidad.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1878",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1878.geojson"
+    },
+    {
+      "title": "Met · África meridional1800–1900, comunidades, poderes y expansión colonial",
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/10/afo.html"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#869684",
+  "focus": [
+    32.537133507037225,
+    -3.5801320851794483
+  ],
+  "phases": [
+    {
+      "start": 1878,
+      "end": 1879,
+      "label": "Nguni · referencia regional",
+      "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
+      "endIsReviewBoundary": false
+    }
+  ],
+  "geometryFile": "CULTURE-NGUNI-C98D5D35-Y1878.geojson",
+  "geometrySha256": "97fe19181f5318a878acb95b8bdc02dc38639128a93b6817272db0dbaf97ffb6",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1878.geojson",
+    "sourceSha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+    "upstreamSha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+    "featureIds": [
+      65
+    ],
+    "components": null,
+    "year": 1878,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1878.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "traditional-area-local-chronology-pending",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "lineWidth": null,
+      "widthScale": null,
+      "hideFill": null,
+      "hideLine": null,
+      "NAME": "Nguni",
+      "SUBJECTO": "Nguni",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Nguni",
+      "ABBREVN": "Nguni",
+      "name": null,
+      "id": null,
+      "isHidden": null,
+      "area": null,
+      "fill": null,
+      "fill-opacity": null,
+      "stroke": null,
+      "stroke-opacity": null
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "temporalMode": "traditional-area-undated"
+}

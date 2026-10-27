@@ -1,0 +1,69 @@
+{
+  "key": "CULTURE-GREENLAND-F71EF545",
+  "name": "Greenland",
+  "qid": "",
+  "aliases": [
+    "Greenland"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1994.geojson",
+      "recordId": 151,
+      "start": null,
+      "end": null,
+      "name": "Greenland",
+      "status": null
+    },
+    {
+      "file": "world_2010.geojson",
+      "recordId": 150,
+      "start": null,
+      "end": null,
+      "name": "Greenland",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-GREENLAND-F71EF545-Y1878:0",
+      "contextKey": "CULTURE-GREENLAND-F71EF545",
+      "start": 1878,
+      "end": 1879,
+      "sourceYear": 1878,
+      "canonicalFile": "Países/CULTURE-GREENLAND-F71EF545-Greenland/poblamiento/CULTURE-GREENLAND-F71EF545-Y1878.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-GREENLAND-F71EF545-Y1880:0",
+      "contextKey": "CULTURE-GREENLAND-F71EF545",
+      "start": 1880,
+      "end": 1899,
+      "sourceYear": 1880,
+      "canonicalFile": "Países/CULTURE-GREENLAND-F71EF545-Greenland/poblamiento/CULTURE-GREENLAND-F71EF545-Y1880.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-GREENLAND-F71EF545-Y1900:0",
+      "contextKey": "CULTURE-GREENLAND-F71EF545",
+      "start": 1900,
+      "end": 1905,
+      "sourceYear": 1900,
+      "canonicalFile": "Países/CULTURE-GREENLAND-F71EF545-Greenland/poblamiento/CULTURE-GREENLAND-F71EF545-Y1900.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1201,
-    1700
+    1905
   ],
   "interpretation": "Pueblos indígenas diversos y de larga continuidad, con formas propias de organización, conocimiento y uso del territorio. La región amplia de la compilación no es una nación única ni permite reconstruir fronteras locales.",
   "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
@@ -43,6 +43,17 @@
       "label": "Pueblos aborígenes de Australia",
       "dateBasis": "Ventana editorial de consulta de la referencia indicada; no fechas fundacionales ni frontera observada anualmente.",
       "endIsReviewBoundary": true
+    },
+    {
+      "start": 1701,
+      "end": 1714,
+      "label": "Pueblos aborígenes de Australia",
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "interpretation": "Referencia histórica del ámbito de Pueblos aborígenes de Australia. Se conserva el último contorno disponible para no ocultar la documentación. No acredita residencia uniforme, soberanía, continuidad institucional o identidad invariable después de1700; los cambios de población y de poder deben contrastarse localmente.",
+      "dateBasis": "Continuidad de consulta de evidencia anterior; NO nuevo levantamiento de1701 ni prueba de límites constantes.",
+      "endIsReviewBoundary": false
     }
   ],
   "geometryFile": "CULTURE-AUSTRALIA-Y1700.geojson",

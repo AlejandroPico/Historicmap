@@ -1,0 +1,47 @@
+{
+  "baselineCommit": "189648b6e18dd38999a77b7b71c82a3e761859a0",
+  "unchangedPreviousRuntimeDataAssets": 79,
+  "preservedPriorRegionalFeatures": 3366,
+  "explicitFieldCorrections": [
+    {
+      "id": "REFERENCE-SONGHAI-281EA132-Y1530:1",
+      "field": "entityType",
+      "before": "polity-reference",
+      "after": "cultural-region"
+    }
+  ],
+  "unchangedPriorCanonicalGeometryFiles": 4139,
+  "preservedPriorDossiers": 4139,
+  "newOriginalCoordinateFilesVerified": 2516,
+  "sourceNamesWithDecisions": 2513,
+  "sourceSnapshotYears": [
+    1715,
+    1783,
+    1800,
+    1815,
+    1878,
+    1880,
+    1900
+  ],
+  "dossiers": 6657,
+  "decisions": {
+    "political-base": 1516,
+    "adopted-reference": 5061,
+    "excluded": 80
+  },
+  "compiledPhases": 6815,
+  "culturalAndGeographicPhases": 6506,
+  "traditionalAreaPhasesWithLocalChronologyPending": 3830,
+  "olderHistoricalContextPhases": 1755,
+  "offlineIdempotencyResources": 15,
+  "runtimeCenturySegments": 11,
+  "annualSelectionsReviewed": 1006,
+  "remissionStatuses": {
+    "explicit-key-present": 219,
+    "unresolved": 1173,
+    "name-candidate-needs-validation": 73,
+    "owner-present-context-needs-validation": 51
+  },
+  "validationSequence": "Full preservation and source-coordinate walk completed before the Kalmar continuation-label correction. Generation repeated after that correction to confirm idempotency. Prior compiled features checked again after final generation.",
+  "scope": "Preservation, source-coordinate integrity, annual consultation and explicit crosswalk review. Not independent validation of every local chronology or extent. Unresolved remissions do not imply that a country is missing."
+}

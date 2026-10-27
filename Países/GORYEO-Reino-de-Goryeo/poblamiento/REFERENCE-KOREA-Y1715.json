@@ -1,0 +1,94 @@
+{
+  "key": "REFERENCE-KOREA-Y1715",
+  "contextKey": "REFERENCE-KOREA",
+  "ownerKey": "GORYEO",
+  "name": "Korea · referencia",
+  "originalNames": [
+    "Korea"
+  ],
+  "kind": "polity-reference",
+  "region": "Asia e Índico",
+  "decision": "political-base",
+  "reviewedRange": [
+    1701,
+    1905
+  ],
+  "interpretation": "Nombre de ámbito político o administrativo de la fuente; su representación principal corresponde a la base política anual. No se añade una segunda silueta estatal. La auditoría registra si el enlace con esa base está resuelto.",
+  "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
+  "temporalUncertainty": "El año editorial de la instantánea no fecha por sí solo cada una de sus fuentes. La ventana de consulta mantiene el último testimonio disponible; no demuestra límites inmóviles o continuidad institucional.",
+  "references": [
+    {
+      "title": "Historical Basemaps · instantánea 1715",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson"
+    },
+    {
+      "title": "Referencia documental · siglo XII · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Goryeo_military_regime"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Goryeo%E2%80%93Khitan_War"
+    },
+    {
+      "title": "Referencia documental · siglo X · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Later_Three_Kingdoms"
+    }
+  ],
+  "politicalKeys": [
+    "GORYEO",
+    "HIST-Q715257"
+  ],
+  "color": "#a99772",
+  "focus": [
+    126.9677544183703,
+    38.065185152251146
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-KOREA-Y1715.geojson",
+  "geometrySha256": "7bb0e48caf4e2d58d6450eb43e0f53e140d94c8e6deb8796e1ad1f47fb037129",
+  "geometryProvenance": {
+    "file": "Historical Basemaps pinned/geojson/world_1715.geojson",
+    "sourceSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "upstreamSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+    "featureIds": [
+      26
+    ],
+    "components": null,
+    "year": 1715,
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson",
+    "license": "GPL-3.0"
+  },
+  "reviewStatus": "regional-bibliography-contrasted",
+  "pending": [
+    "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+    "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+    "Revisar el enlace con la base política: unresolved. La similitud de nombre no acredita equivalencia institucional."
+  ],
+  "sourceGrouping": [],
+  "originalSourceProperties": [
+    {
+      "NAME": "Korea",
+      "ABBREVN": "Korea",
+      "SUBJECTO": "Korea",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Korea"
+    }
+  ],
+  "review": "0.30.0 · 2026-10-27",
+  "displayPriority": 1,
+  "baseRepresentationReview": {
+    "sourceYear": 1715,
+    "status": "unresolved",
+    "explicitKeys": [],
+    "candidateKeys": [],
+    "ownerKey": "GORYEO",
+    "ownerPresent": false,
+    "politicalFeaturesAtReferenceFocus": [
+      {
+        "key": "JOS",
+        "name": "Reino de Joseon"
+      }
+    ],
+    "note": "Folder ownership, name candidates and a point overlap do not prove institutional equivalence or full territorial coverage. Unresolved means an unresolved crosswalk, not necessarily a missing country on the map."
+  }
+}
