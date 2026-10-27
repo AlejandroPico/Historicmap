@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.25.0 · 27/10/2026
+
+- Navegación anual hasta1100: 541 intervalos originales y65 reglas fechadas; doce geografías anteriores conservadas byte a byte.
+- 357 intervalos de cargos seleccionados y67 de adquisición regional. Esteban/Matilde, Portugal, Aragón, títulos imperiales y bohemios, Song, Japón y Goryeo conservan fases y funciones distintas.
+- 228 imágenes recuperadas y196 retratos/efigies adoptados tras revisión visual;32 pares rechazados por no identificar al gobernante. Catorce representaciones documentales rotuladas; decisiones persistentes para no reintroducir objetos o personajes distintos.
+- Cinco ventanas de símbolos,39 registros institucionales,51 sedes/cortes y18 contextos con nueve puntos regionales. No se retrotraen banderas posteriores ni se inventan límites para resolver defectos de la fuente.
+- Claves continuas al cruzar1199–1200; fichas persistentes y aro de carga conservados. Auditoría y pendientes en [RESEARCH-1100.md](docs/RESEARCH-1100.md).
+
 ## 0.24.0 · 27/10/2026
 
 - Navegación anual hasta 1200: 862 intervalos originales y 84 reglas fechadas; once geografías anteriores conservadas byte a byte.

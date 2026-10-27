@@ -1,0 +1,34 @@
+{
+  "key": "HIST-Q3932090",
+  "name": "Kingdom of Africa",
+  "qid": "Q3932090",
+  "aliases": [
+    "Kingdom of Africa"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q3932090"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4983",
+      "start": 1152,
+      "end": 1168,
+      "name": "Kingdom of Africa",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

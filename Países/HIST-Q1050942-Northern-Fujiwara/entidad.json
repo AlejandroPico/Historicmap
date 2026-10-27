@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q1050942",
+  "name": "Northern Fujiwara",
+  "qid": "Q1050942",
+  "aliases": [
+    "Northern Fujiwara"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1050942"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4711",
+      "start": 1100,
+      "end": 1187,
+      "name": "Northern Fujiwara",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-5138",
+      "start": 1188,
+      "end": 1191,
+      "name": "Northern Fujiwara",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q187897",
+  "name": "Toltec",
+  "qid": "Q187897",
+  "aliases": [
+    "Toltec"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q187897"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-3586",
+      "start": 1100,
+      "end": 1176,
+      "name": "Toltec",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-5068",
+      "start": 1177,
+      "end": 1187,
+      "name": "Toltec",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

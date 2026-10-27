@@ -1,0 +1,58 @@
+{
+  "key": "HIST-Q104520",
+  "name": "Pomerania",
+  "qid": "Q104520",
+  "aliases": [
+    "Pomerania"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q104520"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4867",
+      "start": 1139,
+      "end": 1168,
+      "name": "Pomerania",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-5038",
+      "start": 1169,
+      "end": 1176,
+      "name": "Pomerania",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-5090",
+      "start": 1177,
+      "end": 1187,
+      "name": "Pomerania",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 183,
+      "start": null,
+      "end": null,
+      "name": "Pomerania",
+      "status": null
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

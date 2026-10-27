@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q13093931",
+  "name": "Kingdom of Janggala",
+  "qid": "Q13093931",
+  "aliases": [
+    "Kingdom of Janggala"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q13093931"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4388",
+      "start": 1100,
+      "end": 1125,
+      "name": "Kingdom of Janggala",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4813",
+      "start": 1126,
+      "end": 1138,
+      "name": "Kingdom of Janggala",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

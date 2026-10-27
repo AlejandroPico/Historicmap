@@ -1,24 +1,27 @@
 {
-  "key": "territorio-d4a04d0fdc92",
-  "name": "Pomerania",
-  "qid": "",
+  "key": "HIST-Q970940",
+  "name": "Duchy of Łęczyca",
+  "qid": "Q970940",
   "aliases": [
-    "Pomerania"
+    "Duchy of Łęczyca"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
-  "sourceIdentity": null,
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q970940"
+  },
   "flags": [],
   "leaders": [],
   "portraitVariants": [],
   "territorialRecords": [
     {
-      "file": "world_1000.geojson",
-      "recordId": 183,
-      "start": null,
-      "end": null,
-      "name": "Pomerania",
-      "status": null
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4858",
+      "start": 1139,
+      "end": 1146,
+      "name": "Duchy of Łęczyca",
+      "status": "Entidad histórica · reconstrucción anual"
     }
   ],
   "relatedData": [

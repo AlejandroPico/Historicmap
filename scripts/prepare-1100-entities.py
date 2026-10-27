@@ -1,0 +1,42 @@
+"""Dated1100–1199 identities; original coordinates remain untouched."""
+import pathlib,json
+ROOT=pathlib.Path(__file__).resolve().parents[1];OUT=ROOT/'public/data'
+def prepare(ids):
+ cs=ids['countries'];aliases=json.loads((ROOT/'scripts/historical-offices-025-research.json').read_text(encoding='utf8'))['aliases'];d=dict(format='dated-entity-resolution',coverageStart=1100,coverageEnd=1199,referenceDate='2026-10-27',qidKeys={},names={k:c['name']for k,c in cs.items()},records=[])
+ for k,c in cs.items():
+  if c.get('qid'):d['qidKeys'].setdefault(c['qid'],k)
+ for k in ['NORTHERN-SONG','SOUTHERN-SONG','JIN-JURCHEN','WESTERN-XIA','LIAO','FATIMID','AYYUBID','BARCELONA-COUNTY','PORTUGAL-COUNTY','ARAGON-KINGDOM','ARAGON','LEON-KINGDOM','CASTILE-KINGDOM','PRT','ENGLAND','HIST-Q12548','CILICIA-KINGDOM','SERBIA-PRINCIPALITY','NORWAY-KINGDOM']:
+  if cs[k].get('qid'):d['qidKeys'][cs[k]['qid']]=k
+ def rule(names,key,a=1100,b=1199,label=None,status='independent',note=''):
+  key=aliases.get(key,key);d['records'].append(dict(names=names.split('|'),key=key,label=label or cs.get(key,{}).get('name',names.split('|')[0]),entityCode=key,start=a,end=b,admin='',status=status,source='https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1100.md',note=note+' Geometría de síntesis anual de fuente, sin día uniforme ni certificación de todos sus límites.'))
+ for n,k in [('Kingdom of France','FRA'),('Kingdom of Castile','CASTILE-KINGDOM'),('Kingdom of León','LEON-KINGDOM'),('Kingdom of Navarre','NAVARRE-KINGDOM'),('Kingdom of Hungary','HUNGARY-KINGDOM'),('Kingdom of Alba','SCOTLAND'),('Norman England','ENGLAND'),('Byzantine Empire','BYZANTINE'),('Goryeo','GORYEO'),('Southern Song','SOUTHERN-SONG'),('Great Jin','JIN-JURCHEN'),('Western Xia','WESTERN-XIA'),('Liao Dynasty','LIAO'),('Kara-Khitans','QARA-KHITAI'),('Ghurid Dynasty','GHURID'),('Khwarezmid Dynasty','KHWAREZM'),('Zengid dynasty','ZENGID'),('Sultanate of Rum','SELJUK-RUM'),('Kingdom of Georgia','GEORGIA-MEDIEVAL'),("Kievan Rus'|Principality of Kiev",'KIEVAN-RUS'),('Novgorod Republic','NOVGOROD'),('County of Edessa','EDESSA'),('County of Tripoli','TRIPOLI'),('Principality of Antioch','ANTIOCH'),('County of Barcelona','BARCELONA-COUNTY'),('Kingdom of Denmark','DNK'),('Kingdom of Sweden','SWE'),('Old Kingdom of Norway','NORWAY-KINGDOM'),('Banate of Bosnia','BOSNIA-BANATE'),('Papal States','PAPAL-STATES'),('Republic of Venice','HIST-Q4948'),('Republic of Genoa','HIST-Q174306'),('Khmer Empire','KHM')]:rule(n,k)
+ rule('Northern Song','NORTHERN-SONG',b=1126,note='Fase septentrional hasta la crisis deJingkang de1127.')
+ rule('Northern Song','NORTHERN-SONG',a=1127,label='Antiguos dominios Song del Norte · transición de fuente',status='source-reference',note='El contorno persiste hasta1138 aunque el régimen septentrional termina en1127. No se adjudica su superficie alSong delSur. Hangzhou permite consultar el nuevo régimen sin fabricar límites.')
+ rule('County of Portugal','PORTUGAL-COUNTY',b=1138,note='Condado dependiente deLeón; no se anticipa el título real.')
+ rule('County of Portugal|Kingdom of Portugal','PRT',a=1139,note='Proclamación real1139, Zamora1143 y reconocimiento pontificio1179 son hitos distintos. La fuente conserva la etiqueta condal hasta1146; no se altera el contorno para fingir otra precisión.')
+ rule('Kingdom of Aragon','ARAGON-KINGDOM',b=1136)
+ rule('Kingdom of Aragon|Crown of Aragon','ARAGON',a=1137,note='Unión dinástica por pacto de1137; herencia de1162 y abdicación dePetronila en1164 son hitos distintos. La etiqueta de fuente cambia en1169.')
+ rule('Angevin Empire|Angevins','ANGEVIN-AGGREGATE',label='Dominios angevinos · agregado dinástico',status='source-reference',note='Reinos y dominios de un mismo soberano conservan instituciones propias. No convertir todo el agregado enInglaterra ni en un Estado nacional uniforme.')
+ rule('Heian Japan','JPN',label='Japón · corte imperial y poderes regionales',note='Emperadores, gobierno de claustro y dirigentes militares tienen funciones distintas.')
+ rule('Kamakura Shogunate','JPN',label='Japón · Kamakura y corte imperial',note='La fuente cambia en1188; organización militar desde1180/1185 y título de shogun desde1192 son hitos distintos. No se adelanta el título aYoriie antes de1202.')
+ rule('Fatimid Caliphate','FATIMID',b=1171)
+ rule('Fatimid Caliphate','FATIMID',a=1172,label='Antiguos dominios fatimíes · transición de fuente',status='source-reference',note='El califato termina en1171, pero el contorno persiste hasta1176. No se prolonga al califa difunto; ElCairo abre la ficha ayubí en esos años.')
+ rule('Ayyubid Sultanate','AYYUBID',a=1171,note='Gobierno deEgipto desde1171 y expansión siria desde1174 son fases distintas; la fuente aporta su contorno desde1177.')
+ rule('Great Seljuk Empire','GREAT-SELJUK',b=1157,note='Poderes orientales e iraquí-iraníes con titulares distintos, no control uniforme de todo el agregado.')
+ rule('Great Seljuk Empire','GREAT-SELJUK',a=1158,label='Poderes selyúcidas · agregado fragmentado',status='source-reference',note='Tras la muerte deSanjar en1157 la fuente prolonga el agregado. No se inventa un sultán único ni se eliminan gobiernos regionales existentes.')
+ rule('Almoravid Dynasty','ALMORAVID',b=1147)
+ rule('Almoravid Dynasty','ALMORAVID',a=1148,label='Antiguos dominios almorávides · contorno residual de fuente',status='source-reference',note='Marrakech cae en1147; los poderes residuales no equivalen al imperio anterior ni a un gobernante único de todo este contorno.')
+ rule('Almohad Caliphate','ALMOHAD',a=1130,note='Movimiento y proclamación califal anteriores a la conquista deMarrakech de1147; la extensión representa fases desiguales.')
+ rule('Kingdom of Jerusalem','JERUSALEM',b=1186)
+ rule('Kingdom of Jerusalem','JERUSALEM',a=1187,status='source-reference',label='Reino de Jerusalén · contorno y título en transición',note='Jerusalén se pierde en1187; el reino conserva territorios costeros y posteriormente sede enAcre. Este contorno no certifica los límites posteriores aHattin.')
+ rule('Norman Italy','NORMAN-ITALY-AGGREGATE',b=1129,label='Poderes normandos de Italia · agregado',status='source-reference',note='Condado siciliano y principados continentales distintos; no se anticipa la coronación real de1130.')
+ rule('Norman Italy|Kingdom of Sicily','SICILY-KINGDOM',a=1130,note='Coronación deRogerII en1130 y confirmación pontificia de1139 distintas. La etiqueta de fuente cambia en1139; el agregado no acredita todos los límites de las campañas.')
+ rule('Grand Principality of Serbia|Kingdom of Serbia','SERBIA-PRINCIPALITY',note='Gran principado durante este siglo; no adelantar el título real de1217 aunque la fuente lo denomine reino desde1188.')
+ rule('Armenian Kingdom of Cilicia','CILICIA-PRINCIPALITY',b=1197,note='Príncipes antes de la coronación de1198; ocupación bizantina1137–1144 no reconstruida aquí mediante frentes inventados.')
+ rule('Armenian Kingdom of Cilicia','CILICIA-KINGDOM',a=1198,note='Título real desde la coronación deLeón en1198.')
+ rule('Holy Roman Empire','HIST-Q12548',label='Estados agrupados del Sacro Imperio',note='Miembros y dignidades propios; los puntos de sedes permiten consultarlos sin inventar sus fronteras.')
+ rule('Second Bulgarian Empire','SECOND-BULGARIA',a=1185)
+ for n,k,label,note in [('Brythons','BRYTHONIC-REFERENCE','Comunidades britónicas · referencia','No un país medieval de autoridad única.'),('Later Mayan City-States','HIST-Q28567','Estados mayas · agregado','Ciudades y tradiciones distintas.'),('Puebloans - Aztec Regional System|Puebloans - Chaco Regional System','PUEBLO-REGIONAL','Pueblos ancestrales · sistemas regionales','Referencia arqueológica norteamericana, no imperio mexica.'),('Viking settlements','VIKING-SETTLEMENTS','Asentamientos nórdicos · agregado','Comunidades distintas, no una monarquía uniforme.'),('Ngô Dynasty','UNRESOLVED-VIET-SOURCE','Referencia vietnamita · cronología sin resolver','No anticipar o prolongar la dinastíaNgô del sigloX.'),('Classic Veracruz Culture','HIST-Q2379418','Veracruz · referencia arqueológica','La cultura no es un Estado de dirigente único.')]:rule(n,k,label=label,status='source-reference',note=note)
+ return d
+if __name__=='__main__':
+ d=prepare(json.loads((OUT/'identities.json').read_text(encoding='utf8')));(OUT/'historical-1100-entities.json').write_text(json.dumps(d,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf8',newline='\n');print('Dated rules',len(d['records']))

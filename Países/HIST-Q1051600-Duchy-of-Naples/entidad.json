@@ -1,0 +1,42 @@
+{
+  "key": "HIST-Q1051600",
+  "name": "Duchy of Naples",
+  "qid": "Q1051600",
+  "aliases": [
+    "Duchy of Naples"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1051600"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4660",
+      "start": 1100,
+      "end": 1125,
+      "name": "Duchy of Naples",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4822",
+      "start": 1126,
+      "end": 1138,
+      "name": "Duchy of Naples",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

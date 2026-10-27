@@ -1,0 +1,50 @@
+{
+  "key": "HIST-Q12723",
+  "name": "County of Pallars Jussà",
+  "qid": "Q12723",
+  "aliases": [
+    "County of Pallars Jussà"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q12723"
+  },
+  "flags": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4359",
+      "start": 1100,
+      "end": 1110,
+      "name": "County of Pallars Jussà",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4785",
+      "start": 1111,
+      "end": 1187,
+      "name": "County of Pallars Jussà",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-5136",
+      "start": 1188,
+      "end": 1191,
+      "name": "County of Pallars Jussà",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

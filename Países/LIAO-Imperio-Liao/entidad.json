@@ -1,0 +1,72 @@
+{
+  "key": "LIAO",
+  "name": "Imperio Liao",
+  "qid": "Q4958",
+  "aliases": [
+    "Imperio Liao",
+    "Liao Dynasty"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "LIAO"
+  },
+  "flags": [],
+  "leaders": [
+    {
+      "person": "Q5007",
+      "name": "Emperador Daozong",
+      "role": "Emperador Liao",
+      "start": "1100-01-01",
+      "end": "1101-02-12",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Daozong_of_Liao",
+      "curated": true,
+      "acquisition": "curated-1100-0.25",
+      "note": "El cargo documentado no acredita control uniforme de toda la geometría de fuente. Síntesis anual; no calendario diario ni certificación del dominio de todo el contorno.",
+      "startIsCoverageBoundary": true,
+      "endIsCoverageBoundary": false
+    },
+    {
+      "person": "Q5009",
+      "name": "Emperador Tianzuodi",
+      "role": "Emperador Liao",
+      "start": "1101-02-12",
+      "end": "1125-03-26",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Tianzuo_of_Liao",
+      "curated": true,
+      "acquisition": "curated-1100-0.25",
+      "note": "El cargo documentado no acredita control uniforme de toda la geometría de fuente. Síntesis anual; no calendario diario ni certificación del dominio de todo el contorno.",
+      "startIsCoverageBoundary": false,
+      "endIsCoverageBoundary": false
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4380",
+      "start": 1100,
+      "end": 1110,
+      "name": "Liao Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1100.geojson",
+      "recordId": "clio-4759",
+      "start": 1111,
+      "end": 1125,
+      "name": "Liao Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

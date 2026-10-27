@@ -1,6 +1,31 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.24.0 · ampliación hasta 1200 y aro de carga
+## Encargo vigente · 0.25.0 · ampliación hasta 1100
+
+- [x] 541 intervalos originales,65 reglas e identidades anuales1100–1199. Doce geografías previas idénticas byte a byte y541 coordenadas/índices nuevos contrastados con la fuente fijada.
+- [x] 357 intervalos de cargos seleccionados,67 de adquisición regional y196 retratos/efigies adoptados. 228 archivos recuperados;32 pares rechazados tras inspección visual,14 efigies rotuladas y decisiones persistentes.
+- [x] Cinco ventanas de símbolos y siete casos pendientes documentados; sin retrotraer emblemas modernos o sin testimonio suficiente.
+- [x] 39 registros institucionales,51 sedes/cortes y18 contextos con nueve puntos regionales. Transiciones de fuente y agregados explicados, sin inventar fronteras.
+- [x] Auditoría nominal del siglo, conservación y catálogo regenerado:1.074 claves,16.165 mandatos,3.285 carpetas y7.715 medios.
+- [x] 206 pruebas/49 archivos correctos, con17 comprobaciones focales finales tras corregir un final de precisión anual de1146. Tipos y compilación correctos. Cuatro recorridos de navegador correctos: dos históricos y dos de carga/pausa/error, incluido1100. Capturas de escritorio, globo y móvil revisadas.
+- [x] Integridad SHA-256 de75 datos,11 franjas tipográficas y7.715 medios; hechos previos de mandatos y símbolos conservados, permitiendo añadir retratos.
+- [x] 7.801 recursos preparados enGit comprobados byte a byte. Entrega0.25.0 preparada paraorigin/main; confirmar la coincidencia del envío al cerrar, sin esperar ni sondearActions/Pages.
+
+Fuentes y alcance: [RESEARCH-1100.md](docs/RESEARCH-1100.md). [REVIEW-1100-1199.json](docs/REVIEW-1100-1199.json):13.847 entidades/año,9.833 sin autoridad,13.767 sin símbolo y113 personas/órganos sin retrato entre los activos. Inventario ampliado del catálogo:121 personas sin retrato; sedes adicionales aparte. Disponibilidad, no censo mundial exhaustivo.
+
+### Pendientes explícitos del siglo XII
+
+- [ ] Completar las carencias nominales de la auditoría y los candidatos aún sin fechas del oficio. Incluye IngeI/SverkerI deSuecia, Fujiwara delnorte, príncipes deKiev con reinados interrumpidos y algunas series guríes, chaulukya/chahamana y zanguíes. No obtener mandatos del nacimiento/muerte ni de otra dignidad.
+- [ ] Completar bibliografía y retratos individuales acreditados. No volver a mostrar la moneda deBohemundoV paraBohemundoIV, templos, placas, caligrafía, monedas no identificadas o escenas sin figura individual. Conservar las exclusiones025 y las anteriores.
+- [ ] Resolver las siete referencias de símbolos pendientes enreview-025-symbols.json: Francia, águila imperial, Portugal, Song, Jin, papado yJapón. No confundir un testimonio de flor de lis con un paño azul uniforme, ni el monHōjō con el gobiernoTaira/Minamoto.
+- [ ] Obtener contornos propios: Song1127–1138, Egipto1171–1176, condado portugués, Sicilia temprana, Sajonia/Bohemia, Edesa después de1144 y reino costero después de1187. Sedes y reglas no sustituyen a superficies documentadas. Resolver fragmentación selyúcida y remanentes almorávides.
+- [ ] Afinar fases y frentes de los conflictos; los puntos regionales no son batallas continuas durante todo su intervalo. Completar rivales pontificios, ramas territoriales y cronologías con variantes.
+- [ ] Continuar hacia1000 sólo por nuevo encargo; las instantáneas anteriores a1100 no son revisión anual terminada.
+- [ ] Publicación remota pendiente del aviso del propietario, sin esperar ni sondearActions/Pages.
+
+El aro de carga y todos los pendientes anteriores se conservan.
+
+## Entrega anterior · 0.24.0 · ampliación hasta 1200 y aro de carga
 
 - [x] 862 intervalos originales y 84 reglas de identidad; navegación anual hasta 1200. Once geografías anteriores idénticas byte a byte.
 - [x] 336 intervalos de cargos seleccionados, 118 de adquisición regional y 237 retratos/efigies adoptados. Diez monedas sin retrato individual acreditado retiradas; dos efigies suecas rotuladas como numismáticas.
