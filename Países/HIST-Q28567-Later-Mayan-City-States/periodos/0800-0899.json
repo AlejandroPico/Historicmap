@@ -1,0 +1,92 @@
+{
+  "key": "HIST-Q28567",
+  "identity": {
+    "qid": "Q28567",
+    "name": "Centros y comunidades mayas · Clásico tardío/terminal"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Mayan City-States"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Centros y comunidades mayas · Clásico tardío/terminal",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Ciudades y comunidades mayas; transformaciones delClásico terminal no equivalen a extinción de la población ni a un soberano común. Síntesis anual de fuente, no límites diarios."
+      }
+    },
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Mayan City-States"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Centros y comunidades mayas · Clásico tardío/terminal",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Ciudades y comunidades mayas; transformaciones delClásico terminal no equivalen a extinción de la población ni a un soberano común. Síntesis anual de fuente, no límites diarios."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "cdbfe2114c0799e29c39d69c717fb98bdfe77c0ec76a29e8922746722e50a33b",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2065,
+        3131,
+        3171,
+        3272
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "historicalInterpretation": "Ciudades y comunidades mayas; transformaciones delClásico terminal no equivalen a extinción de la población ni a un soberano común.",
+  "officeNote": "Ciudades y comunidades mayas; transformaciones delClásico terminal no equivalen a extinción de la población ni a un soberano común. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

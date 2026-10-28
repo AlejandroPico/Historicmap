@@ -1,0 +1,84 @@
+{
+  "key": "REFERENCE-BYZANTINE-EMPIRE-Y0800",
+  "contextKey": "REFERENCE-BYZANTINE-EMPIRE",
+  "ownerKey": "BYZANTINE",
+  "name": "Byzantine Empire · referencia",
+  "originalNames": [
+    "Byzantine Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "political-base",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. El catálogo político aporta evidencia institucional fechada; no valida por sí mismo la superficie regional de esta compilación.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Byzantine_conquest_of_Bulgaria"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://en.wikipedia.org/wiki/Zoe_Porphyrogenita"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://doi.org/10.1093/obo/9780199791279-0063"
+    },
+    {
+      "title": "Referencia documental · siglo XI · catálogo político fechado",
+      "url": "https://www.metmuseum.org/de/essays/the-crusades-1095-1291"
+    }
+  ],
+  "politicalKeys": [
+    "BYZANTINE"
+  ],
+  "color": "#8f9f83",
+  "focus": [
+    33.67091,
+    39.00702
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-BYZANTINE-EMPIRE-Y0800.geojson",
+  "geometrySha256": "0a0f8353c205bdcbfae33c6673874107ee0ea2c53178663efece0c14773c87f5",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      152
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Byzantine Empire",
+      "ABBREVN": "Byzantine E.",
+      "wikipedia": null,
+      "SUBJECTO": "Byzantine Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Byzantine Empire"
+    }
+  ],
+  "sourceGrouping": [
+    "Byzantine Empire"
+  ]
+}

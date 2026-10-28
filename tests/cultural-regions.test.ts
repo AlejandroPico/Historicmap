@@ -4,11 +4,11 @@ import{annualData}from'../src/data';import{politicalData}from'../src/political';
 const read=(f:string)=>JSON.parse(readFileSync('public/data/'+f,'utf8')),regions=read('cultural-regions.geojson'),ids=read('identities.json');
 vi.stubGlobal('fetch',async(input:any)=>new Response(readFileSync('public/data/'+String(input).split('/').at(-1)!),{status:200}));
 describe('coexisting cultural regions and political entities',()=>{
- it('keeps cultural coverage across every annual boundary900–1200 without changing political records',async()=>{
+ it('keeps cultural coverage across every annual boundary800–1200 without changing political records',async()=>{
   const active=(y:number)=>regionsAt(regions,y,{type:'FeatureCollection',features:[]}).features.filter(f=>f.properties?.kind==='cultural-region');
-  for(let y=900;y<=1200;y++){expect(hasRegionalCoverage(y)).toBe(true);const r=active(y);expect(r.length).toBeGreaterThan(40);expect(r.some(f=>f.properties?.contextKey==='CULTURE-SAMI')).toBe(true);expect(r.some(f=>f.properties?.contextKey==='CULTURE-AMAZON')).toBe(true);}
+  for(let y=800;y<=1200;y++){expect(hasRegionalCoverage(y)).toBe(true);const r=active(y);expect(r.length).toBeGreaterThan(40);expect(r.some(f=>f.properties?.contextKey==='CULTURE-SAMI')).toBe(true);expect(r.some(f=>f.properties?.contextKey==='CULTURE-AMAZON')).toBe(true);}
   expect(hasRegionalCoverage(2028)).toBe(false);expect(active(2028)).toHaveLength(0);
-  for(const y of[900,999,1000,1099,1100,1199,1200]){const political=politicalData(await annualData(y),y),before=JSON.stringify(political);regionsAt(regions,y,political);expect(JSON.stringify(political)).toBe(before);}
+  for(const y of[800,843,899,900,999,1000,1099,1100,1199,1200]){const political=politicalData(await annualData(y),y),before=JSON.stringify(political);regionsAt(regions,y,political);expect(JSON.stringify(political)).toBe(before);}
   if(process.env.WRITE_REGIONAL_AUDIT==='1'){
    const years=[];for(let year=900;year<=1200;year++){const p=politicalData(await annualData(year),year),r=regionsAt(regions,year,p);years.push({year,politicalFeatures:p.features.length,culturalAndGeographicReferences:r.features.filter(f=>f.properties?.kind==='cultural-region').length,additionalPoliticalReferences:r.features.filter(f=>f.properties?.kind==='polity-reference').length});}
    writeFileSync('docs/CULTURAL-AVAILABILITY-900-1200.json',JSON.stringify({scope:'Annual availability of displayed records, not populations, sovereign countries, independently verified annual extents or a spatial completeness percentage.',years},null,2)+'\n');

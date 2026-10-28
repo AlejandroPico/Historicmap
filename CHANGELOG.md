@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.32.0 · 28 de octubre de 2026
+
+- Navegación y reproducción anual800–899,528 componentes políticos originales y85 referencias culturales/regionales, sin retirar las fases900–2027.
+- Referencia carolingia843–849 diferenciada del reparto deVerdún; tres coronas consultables mediante centros fechados sin adelantar las fronteras850.
+- Autoridades fechadas, centros históricos, contextos y conflictos del sigloIX; coronas carolingias, regencias y cronologías discutidas diferenciadas.
+- Revisión visual de166 candidatos:123 aceptados con pies documentales y43 descartados. Bloqueo de imágenes rechazadas para evitar su recuperación automática.
+- Continuidad de selección entre Sámi/Samis, Beothuk/Boethuk y comunidades de Madagascar; originales y decisiones dentro de la entidad correspondiente.
+- Capturas de la prueba de Song/sigloXII con45segundos y animaciones desactivadas, conservando todas las comprobaciones; corrección del fallo de publicación0.31.1.
+- Auditorías y pendientes documentales explícitos; no se inventan banderas ni retratos contemporáneos.
+
 ## 0.31.1 · 28 de octubre de 2026
 
 - Fotografía de Gabriel Terra durante su toma de posesión de1931 en lugar del cartel propagandístico usado en la ficha deUruguay1933. Original, procedencia y corrección dentro de la carpeta deUruguay; fechas y cargos conservados.

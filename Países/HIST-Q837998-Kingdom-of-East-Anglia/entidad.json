@@ -1,0 +1,68 @@
+{
+  "key": "HIST-Q837998",
+  "name": "Kingdom of East Anglia",
+  "qid": "Q837998",
+  "aliases": [
+    "Kingdom of East Anglia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q837998"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q381815",
+      "name": "Edmundo del Anglia Oriental",
+      "role": "Rey de Anglia Oriental",
+      "start": "0855-12-25",
+      "end": "0869-11-20",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Edmund_the_Martyr",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    },
+    {
+      "person": "Q462987",
+      "name": "Guthrum I de Estanglia",
+      "role": "Rey de Anglia Oriental",
+      "start": "0878-01-01",
+      "end": "0890-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Guthrum",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3109",
+      "start": 840,
+      "end": 865,
+      "name": "Kingdom of East Anglia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3229",
+      "start": 866,
+      "end": 869,
+      "name": "Kingdom of East Anglia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

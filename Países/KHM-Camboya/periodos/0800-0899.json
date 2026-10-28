@@ -1,0 +1,410 @@
+{
+  "key": "KHM",
+  "identity": {
+    "qid": "Q424",
+    "name": "Poder jemer · formación de Angkor"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Rey jemer",
+      "officePattern": "King.*Khmer|King.*Cambod|King.*Angkor",
+      "titles": [
+        "Jayavarman II",
+        "Jayavarman III",
+        "Indravarman I",
+        "Yasovarman I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q379239",
+      "name": "Jayavarman II",
+      "role": "Rey jemer",
+      "start": "0802-01-01",
+      "end": "0850-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jayavarman_II",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q887990",
+      "name": "Jayavarman III",
+      "role": "Rey jemer",
+      "start": "0850-01-01",
+      "end": "0877-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jayavarman_III",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q559810",
+      "name": "Yasovarman I",
+      "role": "Rey jemer",
+      "start": "0889-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yasovarman_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Khmer Empire"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Poder jemer · formación de Angkor",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "465328cc23acb466fe2eca8f7bd45c7b7612eb736d29e748026e40bae6268343",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3011,
+        3034,
+        3297
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Indravarman I",
+        "title": "Indravarman I",
+        "person": "Q562153",
+        "name": "Indravarman I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Indravarman_I",
+        "identityResolution": {
+          "requested": "Indravarman I",
+          "canonical": "Indravarman I",
+          "qid": "Q562153"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q42298242",
+          "start": "0877-01-01",
+          "end": "0890-01-01",
+          "precision": 9,
+          "statement": "Q562153$134b0dbe-4e0f-1e31-9cf1-5ddca7b5a798",
+          "label": "Rey de Camboya"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q562153",
+        "title": "Indravarman I",
+        "source": "https://en.wikipedia.org/wiki/Indravarman_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Khmer Empire",
+            "raw": "877/878 – 889/890",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Jayavarman II",
+        "title": "Jayavarman II",
+        "person": "Q379239",
+        "name": "Jayavarman II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jayavarman_II",
+        "identityResolution": {
+          "requested": "Jayavarman II",
+          "canonical": "Jayavarman II",
+          "qid": "Q379239"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q42298242",
+          "start": "0802-01-01",
+          "end": "0850-01-01",
+          "precision": 9,
+          "statement": "Q379239$f0e0009e-4ba2-33c9-6995-2a4524b27c1d",
+          "label": "Rey de Camboya"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q379239",
+        "title": "Jayavarman II",
+        "source": "https://en.wikipedia.org/wiki/Jayavarman_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Khmer Empire",
+            "raw": "802 – 850",
+            "parsed": {
+              "start": "0802-01-01",
+              "end": "0850-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of Lower Chenla (Water Chenla)",
+            "raw": "{{Circa|AD 780–802}}<ref name=\"sharan\">{{Cite book |last=Sharan |first=Mahesh Kumar |url=https://books.google.com/books?id=8B886QamMBMC&pg=RA4-PA32 |title=Studies In Sanskrit Inscriptions Of Ancient Cambodia  |publisher=Abhinav Publications |year=2003 |isbn=978-81-7017-006-8 |pages=32–34|language=en}}</ref>",
+            "parsed": {
+              "start": "0780-01-01",
+              "end": "0802-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King consort of Sambhupura",
+            "raw": "{{Circa|780s}}",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Jayavarman III",
+        "title": "Jayavarman III",
+        "person": "Q887990",
+        "name": "Jayavarman III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jayavarman_III",
+        "identityResolution": {
+          "requested": "Jayavarman III",
+          "canonical": "Jayavarman III",
+          "qid": "Q887990"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q42298242",
+          "start": "0864-01-01",
+          "end": "0877-01-01",
+          "precision": 9,
+          "statement": "Q887990$e56c56e0-4d35-9e4a-79f2-bd88c1fc766c",
+          "label": "Rey de Camboya"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q887990",
+        "title": "Jayavarman III",
+        "source": "https://en.wikipedia.org/wiki/Jayavarman_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Khmer Empire",
+            "raw": "850 – 877",
+            "parsed": {
+              "start": "0850-01-01",
+              "end": "0877-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yasovarman I",
+        "title": "Yasovarman I",
+        "person": "Q559810",
+        "name": "Yasovarman I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yasovarman_I",
+        "identityResolution": {
+          "requested": "Yasovarman I",
+          "canonical": "Yasovarman I",
+          "qid": "Q559810"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q42298242",
+          "start": "0889-01-01",
+          "end": "0910-01-01",
+          "precision": 9,
+          "statement": "Q559810$722d5e1c-4377-d272-a83c-ebadc09e38ba",
+          "label": "Rey de Camboya"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q559810",
+        "title": "Yasovarman I",
+        "source": "https://en.wikipedia.org/wiki/Yasovarman_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Khmer Empire",
+            "raw": "889–910",
+            "parsed": {
+              "start": "0889-01-01",
+              "end": "0910-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q379239",
+        "title": "Jayavarman II",
+        "source": "https://en.wikipedia.org/wiki/Jayavarman_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Khmer Empire",
+          "raw": "802 – 850",
+          "parsed": {
+            "start": "0802-01-01",
+            "end": "0850-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q887990",
+        "title": "Jayavarman III",
+        "source": "https://en.wikipedia.org/wiki/Jayavarman_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Khmer Empire",
+          "raw": "850 – 877",
+          "parsed": {
+            "start": "0850-01-01",
+            "end": "0877-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q559810",
+        "title": "Yasovarman I",
+        "source": "https://en.wikipedia.org/wiki/Yasovarman_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Khmer Empire",
+          "raw": "889–910",
+          "parsed": {
+            "start": "0889-01-01",
+            "end": "0910-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Indravarman I",
+        "person": "Q562153",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "rejectedPortraits": [
+    {
+      "person": "Q887990",
+      "title": "Cambogia, visnu da phnom bok, stile di bakheng, 890-910 ca..JPG",
+      "reason": "Escultura de Vishnú; no representa a Jayavarman III.",
+      "source": "https://commons.wikimedia.org/wiki/File:Cambogia,_visnu_da_phnom_bok,_stile_di_bakheng,_890-910_ca..JPG"
+    },
+    {
+      "person": "Q559810",
+      "title": "PSM V30 D337 Statue of the leprous king founder of angkor wat.jpg",
+      "reason": "Estatua del llamado Rey Leproso, sin identificación individual segura con Yasovarman I.",
+      "source": "https://commons.wikimedia.org/wiki/File:PSM_V30_D337_Statue_of_the_leprous_king_founder_of_angkor_wat.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q887990",
+      "name": "Jayavarman III",
+      "title": "Cambogia, visnu da phnom bok, stile di bakheng, 890-910 ca..JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Cambogia,_visnu_da_phnom_bok,_stile_di_bakheng,_890-910_ca..JPG",
+      "sha256": "7b12d6ee33fc6e46b03223847916fb57b23a74e21d86bfda47940005990d89a3",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Escultura de Vishnú; no representa a Jayavarman III."
+    },
+    {
+      "person": "Q559810",
+      "name": "Yasovarman I",
+      "title": "PSM V30 D337 Statue of the leprous king founder of angkor wat.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:PSM_V30_D337_Statue_of_the_leprous_king_founder_of_angkor_wat.jpg",
+      "sha256": "7953f7528eb6a3e2f8a6e8c40c23e7732a214d059f0bd329c8b5a5eb157bb593",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Estatua del llamado Rey Leproso, sin identificación individual segura con Yasovarman I."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-34",
+      "name": "Hariharalaya · Roluos",
+      "coordinates": [
+        103.974,
+        13.334
+      ],
+      "start": 877,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Hariharalaya",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  }
+}

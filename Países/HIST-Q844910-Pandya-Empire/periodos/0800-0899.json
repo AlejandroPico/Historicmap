@@ -1,0 +1,288 @@
+{
+  "key": "HIST-Q844910",
+  "identity": {
+    "qid": "Q844910",
+    "name": "Pandya Dynasty"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Soberano pandya",
+      "officePattern": "King|Emperor|Pandya",
+      "titles": [
+        "Varaguna Pandyan I",
+        "Srimara Srivallabha",
+        "Varaguna II",
+        "Parantaka Viranarayana Pandyan"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q12980898",
+      "name": "Srimara Srivallabha",
+      "role": "Soberano pandya",
+      "start": "0815-01-01",
+      "end": "0862-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Srimara_Srivallabha",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-cf66b6dbc7aee5abf68a.jpg",
+        "title": "Srimara Srivallabha.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Srimara_Srivallabha.JPG",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Srimara_Srivallabha.JPG/500px-Srimara_Srivallabha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Davegeo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "8aa7e45688b536797f499a143af130ebde4c12a8582e716379b7afd834b6f126",
+        "bytes": 110182,
+        "canonicalFile": "Países/HIST-Q844910-Pandya-Empire/retratos/portrait-cf66b6dbc7aee5abf68a.jpg",
+        "caption": "Representación posterior de Srimara Srivallabha; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q12988773",
+      "name": "Varagunavarman II",
+      "role": "Soberano pandya",
+      "start": "0862-01-01",
+      "end": "0879-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Varaguna_II",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 800,
+      "end": 899,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q844910",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional de fuente; no evaluación democrática ni gobierno uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Pandya Dynasty"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Pandya Dynasty",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "06e21dd8c202075364633b933f65692610a896dd9e3cfdfc273801e6b3d35615",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2203
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Parantaka Viranarayana Pandyan",
+        "title": "Parantaka Viranarayana Pandyan",
+        "person": "",
+        "name": "Parantaka Viranarayana Pandyan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Parantaka_Viranarayana_Pandyan",
+        "identityResolution": {
+          "requested": "Parantaka Viranarayana Pandyan",
+          "canonical": "Parantaka Viranarayana Pandyan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Srimara Srivallabha",
+        "title": "Srimara Srivallabha",
+        "person": "Q12980898",
+        "name": "Srimara Srivallabha",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Srimara_Srivallabha",
+        "identityResolution": {
+          "requested": "Srimara Srivallabha",
+          "canonical": "Srimara Srivallabha",
+          "qid": "Q12980898"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12980898",
+        "title": "Srimara Srivallabha",
+        "source": "https://en.wikipedia.org/wiki/Srimara_Srivallabha",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pandya dynasty",
+            "raw": "c. 815–c. 862 AD<ref name=\"Sastri, K. A 1958\">Sastri, K. A. Nilakanta. (1958, second ed.) ''A History of South India from Prehistoric Times to the Fall of Vijayanagar''. Madras, Oxford University Press. 165.</ref>",
+            "parsed": {
+              "start": "0815-01-01",
+              "end": "0862-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Varaguna II",
+        "title": "Varaguna II",
+        "person": "Q12988773",
+        "name": "Varagunavarman II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Varaguna_II",
+        "identityResolution": {
+          "requested": "Varaguna II",
+          "canonical": "Varaguna II",
+          "qid": "Q12988773"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12988773",
+        "title": "Varaguna II",
+        "source": "https://en.wikipedia.org/wiki/Varaguna_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pandyan king",
+            "raw": "862–879",
+            "parsed": {
+              "start": "0862-01-01",
+              "end": "0879-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Varaguna Pandyan I",
+        "title": "Varaguna Pandyan I",
+        "person": "",
+        "name": "Varaguna Pandyan I",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Varaguna_Pandyan_I",
+        "identityResolution": {
+          "requested": "Varaguna Pandyan I",
+          "canonical": "Varaguna Pandyan I",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q12980898",
+        "title": "Srimara Srivallabha",
+        "source": "https://en.wikipedia.org/wiki/Srimara_Srivallabha",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pandya dynasty",
+          "raw": "c. 815–c. 862 AD<ref name=\"Sastri, K. A 1958\">Sastri, K. A. Nilakanta. (1958, second ed.) ''A History of South India from Prehistoric Times to the Fall of Vijayanagar''. Madras, Oxford University Press. 165.</ref>",
+          "parsed": {
+            "start": "0815-01-01",
+            "end": "0862-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q12988773",
+        "title": "Varaguna II",
+        "source": "https://en.wikipedia.org/wiki/Varaguna_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pandyan king",
+          "raw": "862–879",
+          "parsed": {
+            "start": "0862-01-01",
+            "end": "0879-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Varaguna Pandyan I",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Parantaka Viranarayana Pandyan",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q12980898",
+      "name": "Srimara Srivallabha",
+      "title": "Srimara Srivallabha.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Srimara_Srivallabha.JPG",
+      "sha256": "8aa7e45688b536797f499a143af130ebde4c12a8582e716379b7afd834b6f126",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Srimara Srivallabha; no retrato del natural acreditado."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

@@ -10,7 +10,7 @@ for(const folder of readdirSync('Países',{withFileTypes:true}).filter(d=>d.isDi
 for(const file of changed)if(!manifest.entries.some(e=>e.file===file))manifest.entries.push({file,source:'Historicmap · entity-owned dated resolution',url:'https://github.com/AlejandroPico/Historicmap/tree/main/Pa%C3%ADses',license:'CC0-1.0 (metadata); source geometry licensed separately',coverage:'900/999'});
 for(const e of manifest.entries)if(changed.has(e.file)){
  const raw=readFileSync('public/data/'+e.file),data=JSON.parse(raw);
- Object.assign(e,{sha256:createHash('sha256').update(raw).digest('hex'),bytes:raw.length,version:'Historicmap '+read('package.json').version+'; entity reviews 2026-10-27'});
+ Object.assign(e,{sha256:createHash('sha256').update(raw).digest('hex'),bytes:raw.length,version:'Historicmap '+read('package.json').version+'; entity reviews 2026-10-28'});
  if(!e.format&&data.format)e.format=data.format;
  if(e.file==='country-history.json')e.format='country-workspace-history';
  if(data.format==='dated-entity-resolution')Object.assign(e,{coverageStart:data.coverageStart,coverageEnd:data.coverageEnd});

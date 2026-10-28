@@ -1,0 +1,74 @@
+{
+  "key": "PUEBLO-CHACO-CULTURAL-Y0800",
+  "contextKey": "PUEBLO-CHACO-CULTURAL",
+  "ownerKey": "PUEBLO-CHACO-CULTURAL",
+  "name": "Comunidades pueblo ancestrales · región de Chaco",
+  "originalNames": [
+    "Anasazi"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de800",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "La denominación históricaAnasazi se conserva sólo como nombre original. El gran centro deChaco se desarrolla aproximadamente desde850; su región y comunidades anteriores no son un imperio unificado.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "National Park Service · Chaco850–1250",
+      "url": "https://home.nps.gov/articles/000/chaco-canyon-and-the-antiquities-act.htm"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -121.01344,
+    36.87846
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Comunidades pueblo ancestrales · región de Chaco",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "PUEBLO-CHACO-CULTURAL-Y0800.geojson",
+  "geometrySha256": "4bbbccf156f48dfc7f122d01a93d26bb27813f541ac13b59ba00bd9fe6921f81",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      82
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Anasazi",
+      "ABBREVN": "Anasazi",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ancestral_Puebloans",
+      "SUBJECTO": "Anasazi",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Anasazi"
+    }
+  ],
+  "sourceGrouping": [
+    "Anasazi"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "key": "CULTURE-TUPIS-2E77ED70-Y0800",
+  "contextKey": "CULTURE-TUPIS-2E77ED70",
+  "ownerKey": "CULTURE-TUPIS-2E77ED70",
+  "name": "Tupis",
+  "originalNames": [
+    "Tupis"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de800",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. La superficie no acredita unEstado unitario, una frontera exclusiva ni ocupación uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -44.00957,
+    -13.29042
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Tupis",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-TUPIS-2E77ED70-Y0800.geojson",
+  "geometrySha256": "f960f7a11b4b4fc3022dd0b9f94fa089d3d85ea34ec2873ee0a7ae6e9881f5cd",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      83
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Tupis",
+      "ABBREVN": "Tupis",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tupi_people",
+      "SUBJECTO": "Tupis",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Tupis"
+    }
+  ],
+  "sourceGrouping": [
+    "Tupis"
+  ]
+}

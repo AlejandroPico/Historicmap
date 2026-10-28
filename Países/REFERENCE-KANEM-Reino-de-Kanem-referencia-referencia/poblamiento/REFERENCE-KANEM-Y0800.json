@@ -1,0 +1,78 @@
+{
+  "key": "REFERENCE-KANEM-Y0800",
+  "contextKey": "REFERENCE-KANEM",
+  "ownerKey": "REFERENCE-KANEM",
+  "name": "Reino de Kanem · referencia · referencia",
+  "originalNames": [
+    "Kanem"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Met · Sudán occidental y central 1000–1400",
+      "url": "https://www.metmuseum.org/ru/toah/ht/07/afu"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a99772",
+  "focus": [
+    17.94003,
+    12.88131
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Reino de Kanem · referencia · referencia",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-KANEM-Y0800.geojson",
+  "geometrySha256": "f929a4036cf50475a6a7b7992ed892ea6aef6785ca4a79fd3959d3e95a78dc1a",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      103
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Kanem",
+      "ABBREVN": "Kanem",
+      "wikipedia": null,
+      "SUBJECTO": "Kanem",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Kanem"
+    }
+  ],
+  "sourceGrouping": [
+    "Kanem"
+  ]
+}

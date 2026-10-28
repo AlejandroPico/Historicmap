@@ -1,0 +1,68 @@
+{
+  "key": "REFERENCE-NAN-CHAO-Y0800",
+  "contextKey": "REFERENCE-NAN-CHAO",
+  "ownerKey": "HIST-Q1045322",
+  "name": "Nan Chao · referencia",
+  "originalNames": [
+    "Nan Chao"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "political-base",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q1045322"
+  ],
+  "color": "#8f9f83",
+  "focus": [
+    104.43864,
+    23.04667
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-NAN-CHAO-Y0800.geojson",
+  "geometrySha256": "30587a1dc0970e7b252509c0c18799ecc7a5bf93430c9a2b201b71155657977b",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      38
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Nan Chao",
+      "ABBREVN": "Nan Chao",
+      "wikipedia": null,
+      "SUBJECTO": "Nan Chao",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Nan Chao"
+    }
+  ],
+  "sourceGrouping": [
+    "Nan Chao"
+  ]
+}

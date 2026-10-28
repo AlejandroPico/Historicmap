@@ -8,9 +8,11 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 TAG = 'entity-review-0.26.1'
 read = lambda p: json.loads(p.read_text(encoding='utf8'))
 def save(p, value):
-    p.write_text(json.dumps(value, ensure_ascii=False, indent=2)+'\n', encoding='utf8', newline='\n')
+    raw=(json.dumps(value, ensure_ascii=False, indent=2)+'\n').encode('utf8')
+    if not p.exists() or p.read_bytes()!=raw:p.write_bytes(raw)
 def save_data(p, value):
-    p.write_text(json.dumps(value, ensure_ascii=False, separators=(',',':'))+'\n', encoding='utf8', newline='\n')
+    raw=(json.dumps(value, ensure_ascii=False, separators=(',',':'))+'\n').encode('utf8')
+    if not p.exists() or p.read_bytes()!=raw:p.write_bytes(raw)
 
 def apply_portrait_corrections(identities, media, inputs):
     matched=0
@@ -100,7 +102,8 @@ def main(acquire=False, portrait_only=False):
             if not source_file.exists():source_file.write_bytes((ROOT/'public'/m['file']).read_bytes())
             raw=source_file.read_bytes()
             if hashlib.sha256(raw).hexdigest()!=m['sha256']:raise ValueError('Canonical symbol bytes '+str(source_file))
-            (ROOT/'public'/m['file']).write_bytes(raw)
+            runtime=ROOT/'public'/m['file']
+            if not runtime.exists() or runtime.read_bytes()!=raw:runtime.write_bytes(raw)
             m['canonicalFile']=source_file.relative_to(ROOT).as_posix();media[m['file']]=m;by_title[title]=m
             symbol['media']=m
             display={**m,'symbolLabel':symbol['label'],'presentationNote':symbol['note'],'symbolEvidenceURL':symbol['source']}
@@ -109,21 +112,24 @@ def main(acquire=False, portrait_only=False):
             record=dict(start=symbol['start'],end=symbol['end'],media=display,source=symbol['source'],note=symbol['note'],acquisition=tag)
             if record['start']>record['end']:raise ValueError('Inverted symbol '+key)
             country['symbolReferences' if symbol.get('referenceOnly') else 'flags'].append(record)
+        rejected_portraits={(r['person'],r['title']) for r in revision.get('rejectedPortraits',[])}
         for leader in revision.get('leaders',[]):
             if leader['start']>leader['end'] or not leader.get('source'):raise ValueError('Invalid office '+key)
             # Canonical portraits may be filled on the first acquisition. Keep
             # runtime property order stable on the next offline compilation.
             item={k:v for k,v in leader.items() if k not in ['portrait','curated','acquisition']}
             item.update(curated=True,acquisition=tag)
-            if leader.get('portrait'):item['portrait']=leader['portrait']
-            if not item.get('portrait') and item['person'] in portraits:item['portrait']=portraits[item['person']]
+            candidate=leader.get('portrait') or portraits.get(item['person'])
+            if candidate and (item['person'],candidate['title']) not in rejected_portraits:item['portrait']=candidate
             if item.get('portrait'):
                 portrait=copy.deepcopy(item['portrait']);local=entity_root/'retratos'/pathlib.Path(portrait['file']).name
                 local.parent.mkdir(exist_ok=True)
                 if not local.exists():local.write_bytes((ROOT/'public'/portrait['file']).read_bytes())
                 if hashlib.sha256(local.read_bytes()).hexdigest()!=portrait['sha256']:raise ValueError('Canonical portrait bytes '+str(local))
                 portrait['canonicalFile']=local.relative_to(ROOT).as_posix();item['portrait']=portrait;leader['portrait']=portrait
-                media[portrait['file']]={**media[portrait['file']],'canonicalFile':portrait['canonicalFile']}
+                registered=media[portrait['file']]
+                if not registered.get('canonicalFile') or not (ROOT/registered['canonicalFile']).is_file():
+                    media[portrait['file']]={**registered,'canonicalFile':portrait['canonicalFile']}
             country['leaders'].append(item)
         for record in revision.get('institutions',[]):history['records'].append({**record,'keys':[key],'acquisition':tag})
         for record in revision.get('governance',[]):governance['records'].append({**record,'keys':[key],'acquisition':tag})

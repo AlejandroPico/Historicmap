@@ -1,0 +1,378 @@
+{
+  "key": "HIST-Q466803",
+  "identity": {
+    "qid": "Q466803",
+    "name": "Late Pallava Empire"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Soberano pallava",
+      "officePattern": "King|Emperor|Pallava",
+      "titles": [
+        "Dantivarman",
+        "Nandivarman III",
+        "Nripatunga",
+        "Aparajita Varman"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1267307",
+      "name": "Dantivarman",
+      "role": "Soberano pallava",
+      "start": "0800-01-01",
+      "end": "0846-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dantivarman",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q3537051",
+      "name": "Nandivarman III",
+      "role": "Soberano pallava",
+      "start": "0846-01-01",
+      "end": "0869-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nandivarman_III",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q3630862",
+      "name": "Amoghavarsha",
+      "role": "Soberano pallava",
+      "start": "0814-01-01",
+      "end": "0878-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Amoghavarsha",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q4779124",
+      "name": "Aparajitavarman",
+      "role": "Soberano pallava",
+      "start": "0880-01-01",
+      "end": "0897-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aparajita_Varman",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Late Pallava Empire"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Late Pallava Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "de05fbe711ae6ce429075da098227062b78f232c46953691bb63b0c7263aefe2",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2997
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aparajita Varman",
+        "title": "Aparajita Varman",
+        "person": "Q4779124",
+        "name": "Aparajitavarman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aparajita_Varman",
+        "identityResolution": {
+          "requested": "Aparajita Varman",
+          "canonical": "Aparajita Varman",
+          "qid": "Q4779124"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4779124",
+        "title": "Aparajita Varman",
+        "source": "https://en.wikipedia.org/wiki/Aparajita_Varman",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava King",
+            "raw": "{{circa|880|897}}",
+            "parsed": {
+              "start": "0880-01-01",
+              "end": "0897-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dantivarman",
+        "title": "Dantivarman",
+        "person": "Q1267307",
+        "name": "Dantivarman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dantivarman",
+        "identityResolution": {
+          "requested": "Dantivarman",
+          "canonical": "Dantivarman",
+          "qid": "Q1267307"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1267307",
+        "title": "Dantivarman",
+        "source": "https://en.wikipedia.org/wiki/Dantivarman",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava Monarch",
+            "raw": "{{circa|795|846 CE}}",
+            "parsed": {
+              "start": "0795-01-01",
+              "end": "0846-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava dynasty",
+            "raw": "796–846",
+            "parsed": {
+              "start": "0796-01-01",
+              "end": "0846-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nandivarman III",
+        "title": "Nandivarman III",
+        "person": "Q3537051",
+        "name": "Nandivarman III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Nandivarman_III",
+        "identityResolution": {
+          "requested": "Nandivarman III",
+          "canonical": "Nandivarman III",
+          "qid": "Q3537051"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3537051",
+        "title": "Nandivarman III",
+        "source": "https://en.wikipedia.org/wiki/Nandivarman_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava Monarch",
+            "raw": "{{circa|846|869}}",
+            "parsed": {
+              "start": "0846-01-01",
+              "end": "0869-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava dynasty",
+            "raw": "846–869",
+            "parsed": {
+              "start": "0846-01-01",
+              "end": "0869-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nripatunga",
+        "title": "Nripatunga",
+        "person": "Q3630862",
+        "name": "Amoghavarsha",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Amoghavarsha",
+        "identityResolution": {
+          "requested": "Nripatunga",
+          "canonical": "Amoghavarsha",
+          "qid": "Q3630862"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3630862",
+        "title": "Amoghavarsha",
+        "source": "https://en.wikipedia.org/wiki/Amoghavarsha",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "6th Rashtrakuta Emperor",
+            "raw": "{{circa|814|878}}",
+            "parsed": {
+              "start": "0814-01-01",
+              "end": "0878-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1267307",
+        "title": "Dantivarman",
+        "source": "https://en.wikipedia.org/wiki/Dantivarman",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava Monarch",
+          "raw": "{{circa|795|846 CE}}",
+          "parsed": {
+            "start": "0795-01-01",
+            "end": "0846-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q3537051",
+        "title": "Nandivarman III",
+        "source": "https://en.wikipedia.org/wiki/Nandivarman_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava Monarch",
+          "raw": "{{circa|846|869}}",
+          "parsed": {
+            "start": "0846-01-01",
+            "end": "0869-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q3630862",
+        "title": "Nripatunga",
+        "source": "https://en.wikipedia.org/wiki/Amoghavarsha",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "6th Rashtrakuta Emperor",
+          "raw": "{{circa|814|878}}",
+          "parsed": {
+            "start": "0814-01-01",
+            "end": "0878-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q4779124",
+        "title": "Aparajita Varman",
+        "source": "https://en.wikipedia.org/wiki/Aparajita_Varman",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava King",
+          "raw": "{{circa|880|897}}",
+          "parsed": {
+            "start": "0880-01-01",
+            "end": "0897-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "rejectedPortraits": [
+    {
+      "person": "Q3630862",
+      "title": "Old Kannada inscription (876 AD) of Rashtrakuta King Amoghavarsha I at Veerabhadra temple in Kumsi.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Kannada_inscription_(876_AD)_of_Rashtrakuta_King_Amoghavarsha_I_at_Veerabhadra_temple_in_Kumsi.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q3630862",
+      "name": "Amoghavarsha",
+      "title": "Old Kannada inscription (876 AD) of Rashtrakuta King Amoghavarsha I at Veerabhadra temple in Kumsi.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Kannada_inscription_(876_AD)_of_Rashtrakuta_King_Amoghavarsha_I_at_Veerabhadra_temple_in_Kumsi.jpg",
+      "sha256": "0923900c6875cdf7e78f87020f22f2952df2f67cf1c183a49ed4b71de6cd5ff9",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-31",
+      "name": "Kanchipuram · centro pallava",
+      "coordinates": [
+        79.705,
+        12.834
+      ],
+      "start": 800,
+      "end": 897,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Pallava_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  }
+}

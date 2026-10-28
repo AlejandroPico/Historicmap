@@ -1,0 +1,70 @@
+{
+  "key": "CULTURE-LOMBARD-DUCHIES-567826F2-Y0800",
+  "contextKey": "CULTURE-LOMBARD-DUCHIES-567826F2",
+  "ownerKey": "CULTURE-LOMBARD-DUCHIES-567826F2",
+  "name": "Lombard duchies",
+  "originalNames": [
+    "Lombard duchies"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de800",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. La superficie no acredita unEstado unitario, una frontera exclusiva ni ocupación uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    15.50956,
+    41.13182
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Lombard duchies",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-LOMBARD-DUCHIES-567826F2-Y0800.geojson",
+  "geometrySha256": "b85666bf1a7ecd70500648156c3c2ca6d73b810fd3f2819ec9996e827590fc79",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      29
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Lombard duchies",
+      "ABBREVN": "Lombard duchies",
+      "wikipedia": null,
+      "SUBJECTO": "Lombard duchies",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Lombard duchies"
+    }
+  ],
+  "sourceGrouping": [
+    "Lombard duchies"
+  ]
+}

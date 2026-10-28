@@ -1,0 +1,583 @@
+{
+  "key": "HIST-Q5724",
+  "identity": {
+    "qid": "Q5724",
+    "name": "Anurādhapura"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Rey de Anuradhapura",
+      "officePattern": "King|Anuradhapura",
+      "titles": [
+        "Aggabodhi VIII of Anuradhapura",
+        "Dappula III of Anuradhapura",
+        "Aggabodhi IX of Anuradhapura",
+        "Sena I of Anuradhapura",
+        "Sena II of Anuradhapura",
+        "Udaya II of Anuradhapura",
+        "Kassapa IV of Anuradhapura"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q16058214",
+      "name": "Aggabodhi VIII of Anuradhapura",
+      "role": "Rey de Anuradhapura",
+      "start": "0816-01-01",
+      "end": "0827-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aggabodhi_VIII",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q16828889",
+      "name": "Dappula III of Anuradhapura",
+      "role": "Rey de Anuradhapura",
+      "start": "0827-01-01",
+      "end": "0843-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dappula_III",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q16058210",
+      "name": "Aggabodhi IX of Anuradhapura",
+      "role": "Rey de Anuradhapura",
+      "start": "0843-01-01",
+      "end": "0846-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aggabodhi_IX",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q16933966",
+      "name": "Sena I of Anuradhapura",
+      "role": "Rey de Anuradhapura",
+      "start": "0846-01-01",
+      "end": "0866-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sena_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q16933973",
+      "name": "Sena II of Anuradhapura",
+      "role": "Rey de Anuradhapura",
+      "start": "0866-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sena_II",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Anurādhapura"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Anurādhapura",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "eb6e5223d86be09a027b565772080772638cd1b2d1b297bb169ee59c5669608d",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2262
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aggabodhi IX of Anuradhapura",
+        "title": "Aggabodhi IX of Anuradhapura",
+        "person": "Q16058210",
+        "name": "Aggabodhi IX of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_IX",
+        "identityResolution": {
+          "requested": "Aggabodhi IX of Anuradhapura",
+          "canonical": "Aggabodhi IX",
+          "qid": "Q16058210"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0843-01-01",
+          "end": "0846-01-01",
+          "precision": 9,
+          "statement": "Q16058210$2d22598d-4e40-f8a5-b003-cc1e63dbe45f",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16058210",
+        "title": "Aggabodhi IX",
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_IX",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "843 – 846",
+            "parsed": {
+              "start": "0843-01-01",
+              "end": "0846-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "843&ndash;846",
+            "parsed": {
+              "start": "0843-01-01",
+              "end": "0846-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Aggabodhi VIII of Anuradhapura",
+        "title": "Aggabodhi VIII of Anuradhapura",
+        "person": "Q16058214",
+        "name": "Aggabodhi VIII of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_VIII",
+        "identityResolution": {
+          "requested": "Aggabodhi VIII of Anuradhapura",
+          "canonical": "Aggabodhi VIII",
+          "qid": "Q16058214"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0816-01-01",
+          "end": "0827-01-01",
+          "precision": 9,
+          "statement": "Q16058214$29e9263e-41d1-f500-03ca-e85843c5ca0d",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16058214",
+        "title": "Aggabodhi VIII",
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_VIII",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "816 – 827",
+            "parsed": {
+              "start": "0816-01-01",
+              "end": "0827-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "816&ndash;827",
+            "parsed": {
+              "start": "0816-01-01",
+              "end": "0827-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dappula III of Anuradhapura",
+        "title": "Dappula III of Anuradhapura",
+        "person": "Q16828889",
+        "name": "Dappula III of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dappula_III",
+        "identityResolution": {
+          "requested": "Dappula III of Anuradhapura",
+          "canonical": "Dappula III",
+          "qid": "Q16828889"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0827-01-01",
+          "end": "0843-01-01",
+          "precision": 9,
+          "statement": "Q16828889$D639B2E8-F536-4A46-B005-3AB61BB391E5",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16828889",
+        "title": "Dappula III",
+        "source": "https://en.wikipedia.org/wiki/Dappula_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "827 – 843 CE",
+            "parsed": {
+              "start": "0827-01-01",
+              "end": "0843-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "827&ndash;843",
+            "parsed": {
+              "start": "0827-01-01",
+              "end": "0843-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kassapa IV of Anuradhapura",
+        "title": "Kassapa IV of Anuradhapura",
+        "person": "Q16851784",
+        "name": "Kassapa IV",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kassapa_IV",
+        "identityResolution": {
+          "requested": "Kassapa IV of Anuradhapura",
+          "canonical": "Kassapa IV",
+          "qid": "Q16851784"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16851784",
+        "title": "Kassapa IV",
+        "source": "https://en.wikipedia.org/wiki/Kassapa_IV",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "912–929",
+            "parsed": {
+              "start": "0912-01-01",
+              "end": "0929-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "912&ndash;929",
+            "parsed": {
+              "start": "0912-01-01",
+              "end": "0929-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sena I of Anuradhapura",
+        "title": "Sena I of Anuradhapura",
+        "person": "Q16933966",
+        "name": "Sena I of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sena_I",
+        "identityResolution": {
+          "requested": "Sena I of Anuradhapura",
+          "canonical": "Sena I",
+          "qid": "Q16933966"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0846-01-01",
+          "end": "0866-01-01",
+          "precision": 9,
+          "statement": "Q16933966$C82EE354-2B2F-48DA-A260-03722ACA6F8F",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16933966",
+        "title": "Sena I",
+        "source": "https://en.wikipedia.org/wiki/Sena_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "846 – 866",
+            "parsed": {
+              "start": "0846-01-01",
+              "end": "0866-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "846&ndash;866",
+            "parsed": {
+              "start": "0846-01-01",
+              "end": "0866-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sena II of Anuradhapura",
+        "title": "Sena II of Anuradhapura",
+        "person": "Q16933973",
+        "name": "Sena II of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sena_II",
+        "identityResolution": {
+          "requested": "Sena II of Anuradhapura",
+          "canonical": "Sena II",
+          "qid": "Q16933973"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0866-01-01",
+          "end": "0901-01-01",
+          "precision": 9,
+          "statement": "Q16933973$323A1DB9-9978-4AAC-8644-20638ACE8CA6",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16933973",
+        "title": "Sena II",
+        "source": "https://en.wikipedia.org/wiki/Sena_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "853 – 887 or 866 – 901",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "866&ndash;901",
+            "parsed": {
+              "start": "0866-01-01",
+              "end": "0901-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Udaya II of Anuradhapura",
+        "title": "Udaya II of Anuradhapura",
+        "person": "Q17039225",
+        "name": "Udaya II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Udaya_II",
+        "identityResolution": {
+          "requested": "Udaya II of Anuradhapura",
+          "canonical": "Udaya II",
+          "qid": "Q17039225"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q17039225",
+        "title": "Udaya II",
+        "source": "https://en.wikipedia.org/wiki/Udaya_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "952 – 955",
+            "parsed": {
+              "start": "0952-01-01",
+              "end": "0955-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "952&ndash;955",
+            "parsed": {
+              "start": "0952-01-01",
+              "end": "0955-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q16058214",
+        "title": "Aggabodhi VIII of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_VIII",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "816 – 827",
+          "parsed": {
+            "start": "0816-01-01",
+            "end": "0827-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q16828889",
+        "title": "Dappula III of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Dappula_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "827 – 843 CE",
+          "parsed": {
+            "start": "0827-01-01",
+            "end": "0843-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q16058210",
+        "title": "Aggabodhi IX of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_IX",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "843 – 846",
+          "parsed": {
+            "start": "0843-01-01",
+            "end": "0846-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q16933966",
+        "title": "Sena I of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Sena_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "846 – 866",
+          "parsed": {
+            "start": "0846-01-01",
+            "end": "0866-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q16933973",
+        "title": "Sena II of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Sena_II",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Anuradhapura",
+          "raw": "866&ndash;901",
+          "parsed": {
+            "start": "0866-01-01",
+            "end": "0901-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "places": [
+    {
+      "id": "seat032-33",
+      "name": "Anuradhapura",
+      "coordinates": [
+        80.403,
+        8.311
+      ],
+      "start": 800,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Anuradhapura_Kingdom",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  }
+}

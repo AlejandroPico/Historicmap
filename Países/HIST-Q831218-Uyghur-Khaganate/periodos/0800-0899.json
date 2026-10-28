@@ -1,0 +1,366 @@
+{
+  "key": "HIST-Q831218",
+  "identity": {
+    "qid": "Q831218",
+    "name": "Uyghur Khaganate"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Kan uigur",
+      "officePattern": "Khagan|Qaghan|Khan",
+      "titles": [
+        "Baoyi Qaghan",
+        "Chongde Qaghan",
+        "Zhaoli Qaghan",
+        "Zhangxin Qaghan",
+        "Öge Qaghan"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q136850",
+      "name": "Pao-i Khan",
+      "role": "Kan uigur",
+      "start": "0808-01-01",
+      "end": "0821-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Baoyi_Qaghan",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q136756",
+      "name": "Ch'ung-te Khan",
+      "role": "Kan uigur",
+      "start": "0821-01-01",
+      "end": "0824-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chongde_Qaghan",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q137028",
+      "name": "Zhaoli Qaghan",
+      "role": "Kan uigur",
+      "start": "0824-01-01",
+      "end": "0833-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhaoli_Qaghan",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q137018",
+      "name": "Zhangxin Qaghan",
+      "role": "Kan uigur",
+      "start": "0833-01-01",
+      "end": "0839-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhangxin_Qaghan",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Uyghur Khaganate"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Uyghur Khaganate",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "9bdf162bb9fb85ccfe427169d671f6ffb5be5b5763c26c80974a12203166bf6d",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2995,
+        3119
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Baoyi Qaghan",
+        "title": "Baoyi Qaghan",
+        "person": "Q136850",
+        "name": "Pao-i Khan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Baoyi_Qaghan",
+        "identityResolution": {
+          "requested": "Baoyi Qaghan",
+          "canonical": "Baoyi Qaghan",
+          "qid": "Q136850"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q187878",
+          "start": "0808-01-01",
+          "end": "0821-01-01",
+          "precision": 9,
+          "statement": "Q136850$ccc39b8c-4d27-989c-2e24-9f32346e89d7",
+          "label": "gran kan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q136850",
+        "title": "Baoyi Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Baoyi_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Uyghurs",
+            "raw": "808–821",
+            "parsed": {
+              "start": "0808-01-01",
+              "end": "0821-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chongde Qaghan",
+        "title": "Chongde Qaghan",
+        "person": "Q136756",
+        "name": "Ch'ung-te Khan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chongde_Qaghan",
+        "identityResolution": {
+          "requested": "Chongde Qaghan",
+          "canonical": "Chongde Qaghan",
+          "qid": "Q136756"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q187878",
+          "start": "0821-01-01",
+          "end": "0824-01-01",
+          "precision": 9,
+          "statement": "Q136756$15f7d0e8-4bf7-97ea-c2fb-fc41d1a5d367",
+          "label": "gran kan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q136756",
+        "title": "Chongde Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Chongde_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Uyghurs",
+            "raw": "821–824",
+            "parsed": {
+              "start": "0821-01-01",
+              "end": "0824-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zhangxin Qaghan",
+        "title": "Zhangxin Qaghan",
+        "person": "Q137018",
+        "name": "Zhangxin Qaghan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhangxin_Qaghan",
+        "identityResolution": {
+          "requested": "Zhangxin Qaghan",
+          "canonical": "Zhangxin Qaghan",
+          "qid": "Q137018"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q137018",
+        "title": "Zhangxin Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Zhangxin_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Uyghurs",
+            "raw": "833–839",
+            "parsed": {
+              "start": "0833-01-01",
+              "end": "0839-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zhaoli Qaghan",
+        "title": "Zhaoli Qaghan",
+        "person": "Q137028",
+        "name": "Zhaoli Qaghan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhaoli_Qaghan",
+        "identityResolution": {
+          "requested": "Zhaoli Qaghan",
+          "canonical": "Zhaoli Qaghan",
+          "qid": "Q137028"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q137028",
+        "title": "Zhaoli Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Zhaoli_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Uyghurs",
+            "raw": "824–833",
+            "parsed": {
+              "start": "0824-01-01",
+              "end": "0833-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Öge Qaghan",
+        "title": "Öge Qaghan",
+        "person": "",
+        "name": "Öge Qaghan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/%C3%96ge_Qaghan",
+        "identityResolution": {
+          "requested": "Öge Qaghan",
+          "canonical": "Öge Qaghan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q136850",
+        "title": "Baoyi Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Baoyi_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Uyghurs",
+          "raw": "808–821",
+          "parsed": {
+            "start": "0808-01-01",
+            "end": "0821-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q136756",
+        "title": "Chongde Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Chongde_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Uyghurs",
+          "raw": "821–824",
+          "parsed": {
+            "start": "0821-01-01",
+            "end": "0824-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q137028",
+        "title": "Zhaoli Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Zhaoli_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Uyghurs",
+          "raw": "824–833",
+          "parsed": {
+            "start": "0824-01-01",
+            "end": "0833-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q137018",
+        "title": "Zhangxin Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Zhangxin_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Uyghurs",
+          "raw": "833–839",
+          "parsed": {
+            "start": "0833-01-01",
+            "end": "0839-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Öge Qaghan",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

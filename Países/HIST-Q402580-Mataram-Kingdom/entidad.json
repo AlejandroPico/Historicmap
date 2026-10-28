@@ -13,7 +13,33 @@
   },
   "flags": [],
   "symbolReferences": [],
-  "leaders": [],
+  "leaders": [
+    {
+      "person": "Q12418309",
+      "name": "Rakai Kayuwangi",
+      "role": "Soberanía de Mataram",
+      "start": "0855-06-08",
+      "end": "0885-02-17",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Lokapala_%28king%29",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    },
+    {
+      "person": "Q2880962",
+      "name": "Balitung",
+      "role": "Soberanía de Mataram",
+      "start": "0898-05-10",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Balitung",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    }
+  ],
   "portraitVariants": [],
   "territorialRecords": [
     {
@@ -39,6 +65,23 @@
       "end": 999,
       "name": "Mataram Kingdom",
       "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-2747",
+      "start": 800,
+      "end": 899,
+      "name": "Mataram Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-MATARAM-54D9E990-Y0800",
+      "ownerKey": "HIST-Q402580",
+      "name": "Mataram",
+      "file": "Países/HIST-Q402580-Mataram-Kingdom/poblamiento/CULTURE-MATARAM-54D9E990-Y0800.json",
+      "decision": "political-base"
     }
   ],
   "relatedData": [

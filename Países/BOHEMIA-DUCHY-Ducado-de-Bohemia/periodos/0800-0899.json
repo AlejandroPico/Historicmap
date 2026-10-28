@@ -1,0 +1,300 @@
+{
+  "key": "BOHEMIA-DUCHY",
+  "identity": {
+    "qid": "Q2162698",
+    "name": "Ducado de Bohemia"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Duque / príncipe de Bohemia",
+      "officePattern": "Duke.*Bohemia|Prince.*Bohemia",
+      "titles": [
+        "Bořivoj I, Duke of Bohemia",
+        "Spytihněv I, Duke of Bohemia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q360116",
+      "name": "Borivoj I de Bohemia",
+      "role": "Duque / príncipe de Bohemia",
+      "start": "0867-01-01",
+      "end": "0889-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bo%C5%99ivoj_I_of_Bohemia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q508602",
+      "name": "Spytihnev I de Bohemia",
+      "role": "Duque / príncipe de Bohemia",
+      "start": "0889-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Spytihn%C4%9Bv_I_of_Bohemia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-69f62cd8c56a5d926491.jpg",
+        "title": "Spitygniew I.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Spitygniew_I.jpg",
+        "artist": "anonymous fresco in Znojmo (CZ)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Spitygniew_I.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "web",
+        "sha256": "4927d8e943db521e5a42ff9b2c1923e5388c132c0dbfcd03fe8304a56cb07d17",
+        "bytes": 2968,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Spitygniew_I.jpg",
+        "canonicalFile": "Países/BOHEMIA-DUCHY-Ducado-de-Bohemia/retratos/portrait-69f62cd8c56a5d926491.jpg",
+        "caption": "Representación posterior de Spytihnev I de Bohemia; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 800,
+      "end": 899,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q2162698",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional de fuente; no evaluación democrática ni gobierno uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Duchy of Bohemia"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Ducado de Bohemia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "356ad881a8bb31b60dde0315bdf0c4680a9bdb495cf7e508445e84bc68006aaf",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3500
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bořivoj I, Duke of Bohemia",
+        "title": "Bořivoj I, Duke of Bohemia",
+        "person": "Q360116",
+        "name": "Borivoj I de Bohemia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bo%C5%99ivoj_I_of_Bohemia",
+        "identityResolution": {
+          "requested": "Bořivoj I, Duke of Bohemia",
+          "canonical": "Bořivoj I of Bohemia",
+          "qid": "Q360116"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27562678",
+          "start": "0872-01-01",
+          "end": "0883-01-01",
+          "precision": 9,
+          "statement": "Q360116$513353f9-4b1f-65dc-423c-5b24f8020d15",
+          "label": "Duque de Bohemia"
+        },
+        {
+          "property": "P39",
+          "office": "Q27562678",
+          "start": "0885-01-01",
+          "end": "0888-01-01",
+          "precision": 9,
+          "statement": "Q360116$26e79f08-4681-a991-26a1-4e2f2db7f64f",
+          "label": "Duque de Bohemia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q360116",
+        "title": "Bořivoj I of Bohemia",
+        "source": "https://en.wikipedia.org/wiki/Bo%C5%99ivoj_I_of_Bohemia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Duke of Bohemia",
+            "raw": "{{circa}} 867 – {{circa}} 889",
+            "parsed": {
+              "start": "0867-01-01",
+              "end": "0889-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Spytihněv I, Duke of Bohemia",
+        "title": "Spytihněv I, Duke of Bohemia",
+        "person": "Q508602",
+        "name": "Spytihnev I de Bohemia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Spytihn%C4%9Bv_I_of_Bohemia",
+        "identityResolution": {
+          "requested": "Spytihněv I, Duke of Bohemia",
+          "canonical": "Spytihněv I of Bohemia",
+          "qid": "Q508602"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27562678",
+          "start": "0888-01-01",
+          "end": "0915-01-01",
+          "precision": 9,
+          "statement": "Q508602$322a33bd-4b30-fbff-7291-e30bf38605a0",
+          "label": "Duque de Bohemia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q508602",
+        "title": "Spytihněv I of Bohemia",
+        "source": "https://en.wikipedia.org/wiki/Spytihn%C4%9Bv_I_of_Bohemia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Duke of Bohemia",
+            "raw": "889 – 915",
+            "parsed": {
+              "start": "0889-01-01",
+              "end": "0915-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Bohemia",
+            "raw": "c. 889&ndash;915",
+            "parsed": {
+              "start": "0889-01-01",
+              "end": "0915-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q360116",
+        "title": "Bořivoj I, Duke of Bohemia",
+        "source": "https://en.wikipedia.org/wiki/Bo%C5%99ivoj_I_of_Bohemia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Duke of Bohemia",
+          "raw": "{{circa}} 867 – {{circa}} 889",
+          "parsed": {
+            "start": "0867-01-01",
+            "end": "0889-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q508602",
+        "title": "Spytihněv I, Duke of Bohemia",
+        "source": "https://en.wikipedia.org/wiki/Spytihn%C4%9Bv_I_of_Bohemia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Duke of Bohemia",
+          "raw": "889 – 915",
+          "parsed": {
+            "start": "0889-01-01",
+            "end": "0915-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "rejectedPortraits": [
+    {
+      "person": "Q360116",
+      "title": "Křest knížete Bořivoje.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:K%C5%99est_kn%C3%AD%C5%BEete_Bo%C5%99ivoje.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q360116",
+      "name": "Borivoj I de Bohemia",
+      "title": "Křest knížete Bořivoje.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:K%C5%99est_kn%C3%AD%C5%BEete_Bo%C5%99ivoje.jpg",
+      "sha256": "175cb7ca94a45dca6bccd91701b8e89dea5d14dc8c40325955e8f0f34e3a9702",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q508602",
+      "name": "Spytihnev I de Bohemia",
+      "title": "Spitygniew I.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Spitygniew_I.jpg",
+      "sha256": "4927d8e943db521e5a42ff9b2c1923e5388c132c0dbfcd03fe8304a56cb07d17",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Spytihnev I de Bohemia; no retrato del natural acreditado."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

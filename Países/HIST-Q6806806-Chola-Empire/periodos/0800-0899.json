@@ -1,0 +1,239 @@
+{
+  "key": "HIST-Q6806806",
+  "identity": {
+    "qid": "Q6806806",
+    "name": "Chola Empire"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0848-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Soberano chola",
+      "officePattern": "King|Emperor|Chola",
+      "titles": [
+        "Vijayalaya Chola",
+        "Aditya I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7929271",
+      "name": "Vijayalaya Chola",
+      "role": "Soberano chola",
+      "start": "0850-01-01",
+      "end": "0871-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vijayalaya_Chola",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q3535800",
+      "name": "Aditya I",
+      "role": "Soberano chola",
+      "start": "0871-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aditya_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chola Empire"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Chola Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "f161be902782488478657f0c82f69228ede957236498ecc199fdbce988b6d354",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3159,
+        3431,
+        3538
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aditya I",
+        "title": "Aditya I",
+        "person": "Q3535800",
+        "name": "Aditya I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aditya_I",
+        "identityResolution": {
+          "requested": "Aditya I",
+          "canonical": "Aditya I",
+          "qid": "Q3535800"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27976784",
+          "start": "0871-01-01",
+          "end": "0907-01-01",
+          "precision": 9,
+          "statement": "Q3535800$E581A2FB-0137-4509-9228-FDC8865D2F70",
+          "label": "Chola king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3535800",
+        "title": "Aditya I",
+        "source": "https://en.wikipedia.org/wiki/Aditya_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chola Emperor",
+            "raw": "{{circa|871|907}}",
+            "parsed": {
+              "start": "0871-01-01",
+              "end": "0907-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vijayalaya Chola",
+        "title": "Vijayalaya Chola",
+        "person": "Q7929271",
+        "name": "Vijayalaya Chola",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vijayalaya_Chola",
+        "identityResolution": {
+          "requested": "Vijayalaya Chola",
+          "canonical": "Vijayalaya Chola",
+          "qid": "Q7929271"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27976784",
+          "start": "0848-01-01",
+          "end": "0871-01-01",
+          "precision": 9,
+          "statement": "Q7929271$730BF432-F05E-464D-87C0-B2C2ABB7CF56",
+          "label": "Chola king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7929271",
+        "title": "Vijayalaya Chola",
+        "source": "https://en.wikipedia.org/wiki/Vijayalaya_Chola",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chola Emperor",
+            "raw": "{{circa|850|871}}",
+            "parsed": {
+              "start": "0850-01-01",
+              "end": "0871-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7929271",
+        "title": "Vijayalaya Chola",
+        "source": "https://en.wikipedia.org/wiki/Vijayalaya_Chola",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chola Emperor",
+          "raw": "{{circa|850|871}}",
+          "parsed": {
+            "start": "0850-01-01",
+            "end": "0871-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q3535800",
+        "title": "Aditya I",
+        "source": "https://en.wikipedia.org/wiki/Aditya_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chola Emperor",
+          "raw": "{{circa|871|907}}",
+          "parsed": {
+            "start": "0871-01-01",
+            "end": "0907-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "places": [
+    {
+      "id": "seat032-32",
+      "name": "Thanjavur · centro chola",
+      "coordinates": [
+        79.137,
+        10.787
+      ],
+      "start": 848,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Vijayalaya_Chola",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  }
+}

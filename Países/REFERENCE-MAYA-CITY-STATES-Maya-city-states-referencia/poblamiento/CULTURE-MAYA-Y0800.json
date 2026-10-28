@@ -1,0 +1,74 @@
+{
+  "key": "CULTURE-MAYA-Y0800",
+  "contextKey": "REFERENCE-MAYA-CITY-STATES",
+  "ownerKey": "REFERENCE-MAYA-CITY-STATES",
+  "name": "Ciudades y comunidades mayas · Clásico tardío/terminal",
+  "originalNames": [
+    "Maya city-states"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Centros políticos y comunidades mayas con trayectorias diferentes. El declive de ciertas cortes durante elClásico terminal no equivale a desaparición de sus habitantes ni a un soberano panmaya.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#969886",
+  "focus": [
+    -90.5711,
+    17.67151
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Ciudades y comunidades mayas · Clásico tardío/terminal",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-MAYA-Y0800.geojson",
+  "geometrySha256": "c145af0e3c49d878aa52eda9f2f3002f51162f2c81e3ff538b3e3a9bf2e5c67d",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      19
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Maya city-states",
+      "ABBREVN": "Maya",
+      "wikipedia": null,
+      "SUBJECTO": "Maya city-states",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Maya city-states"
+    }
+  ],
+  "sourceGrouping": [
+    "Maya city-states"
+  ]
+}

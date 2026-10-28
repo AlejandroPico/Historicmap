@@ -1,0 +1,74 @@
+{
+  "key": "CULTURE-ARAWAK-Y0800",
+  "contextKey": "CULTURE-ARAWAK",
+  "ownerKey": "CULTURE-ARAWAK",
+  "name": "Pueblos de lenguas arawak · referencia regional",
+  "originalNames": [
+    "Arawaks"
+  ],
+  "kind": "cultural-region",
+  "region": "Caribe y norte de Sudamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#969886",
+  "focus": [
+    -61.50084,
+    16.23028
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Pueblos de lenguas arawak · referencia regional",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-ARAWAK-Y0800.geojson",
+  "geometrySha256": "2b8010d91e7971b25e61e994d17a1594dbbcc620b5f752071c9cb5879fdbbd14",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      110
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Arawaks",
+      "ABBREVN": "Arawaks",
+      "wikipedia": null,
+      "SUBJECTO": "Arawaks",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Arawaks"
+    }
+  ],
+  "sourceGrouping": [
+    "Arawaks"
+  ]
+}

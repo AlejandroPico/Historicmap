@@ -1,0 +1,433 @@
+{
+  "key": "HIST-Q837998",
+  "identity": {
+    "qid": "Q837998",
+    "name": "Kingdom of East Anglia"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Rey de Anglia Oriental",
+      "officePattern": "King.*East Anglia",
+      "titles": [
+        "Eadwald of East Anglia",
+        "Æthelstan of East Anglia",
+        "Æthelweard of East Anglia",
+        "Edmund the Martyr",
+        "Guthrum",
+        "Eohric of East Anglia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q381815",
+      "name": "Edmundo del Anglia Oriental",
+      "role": "Rey de Anglia Oriental",
+      "start": "0855-12-25",
+      "end": "0869-11-20",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Edmund_the_Martyr",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q462987",
+      "name": "Guthrum I de Estanglia",
+      "role": "Rey de Anglia Oriental",
+      "start": "0878-01-01",
+      "end": "0890-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Guthrum",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 800,
+      "end": 899,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q837998",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional de fuente; no evaluación democrática ni gobierno uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of East Anglia"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Kingdom of East Anglia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "1edac1640a061383734b78a7cedb788f4c50f9058568bd15af7f72e4efe660a4",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3109,
+        3229
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Eadwald of East Anglia",
+        "title": "Eadwald of East Anglia",
+        "person": "Q525343",
+        "name": "Eadwald of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Eadwald_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Eadwald of East Anglia",
+          "canonical": "Eadwald of East Anglia",
+          "qid": "Q525343"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q525343",
+        "title": "Eadwald of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Eadwald_of_East_Anglia",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Edmund the Martyr",
+        "title": "Edmund the Martyr",
+        "person": "Q381815",
+        "name": "Edmundo del Anglia Oriental",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Edmund_the_Martyr",
+        "identityResolution": {
+          "requested": "Edmund the Martyr",
+          "canonical": "Edmund the Martyr",
+          "qid": "Q381815"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21400700",
+          "start": "0855-01-01",
+          "end": "0869-11-20",
+          "precision": 9,
+          "statement": "Q381815$c29c47f3-491f-82a3-dc31-26fe71b837ca",
+          "label": "Rey de Anglia Oriental"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q381815",
+        "title": "Edmund the Martyr",
+        "source": "https://en.wikipedia.org/wiki/Edmund_the_Martyr",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "{{circa}} 855{{snd}}20 November 869",
+            "parsed": {
+              "start": "0855-01-01",
+              "end": "0869-11-20",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of East Anglia",
+            "raw": "25 December 855 (trad.){{snd}}20 November 869",
+            "parsed": {
+              "start": "0855-12-25",
+              "end": "0869-11-20",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Eohric of East Anglia",
+        "title": "Eohric of East Anglia",
+        "person": "Q1410638",
+        "name": "Erico de Estanglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Eohric_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Eohric of East Anglia",
+          "canonical": "Eohric of East Anglia",
+          "qid": "Q1410638"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1410638",
+        "title": "Eohric of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Eohric_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "890 – 902",
+            "parsed": {
+              "start": "0890-01-01",
+              "end": "0902-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Guthrum",
+        "title": "Guthrum",
+        "person": "Q462987",
+        "name": "Guthrum I de Estanglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Guthrum",
+        "identityResolution": {
+          "requested": "Guthrum",
+          "canonical": "Guthrum",
+          "qid": "Q462987"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21400700",
+          "start": "0880-01-01",
+          "end": "0890-01-01",
+          "precision": 9,
+          "statement": "Q462987$00b8ac26-45c8-94f0-b894-f0913715ab35",
+          "label": "Rey de Anglia Oriental"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q462987",
+        "title": "Guthrum",
+        "source": "https://en.wikipedia.org/wiki/Guthrum",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of East Anglia",
+            "raw": "878–890{{sfn|Lapidge|Blair|Keynes|Scragg|2001|pages=508&ndash;509}}",
+            "parsed": {
+              "start": "0878-01-01",
+              "end": "0890-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Æthelstan of East Anglia",
+        "title": "Æthelstan of East Anglia",
+        "person": "Q887223",
+        "name": "Æthelstan of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelstan_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Æthelstan of East Anglia",
+          "canonical": "Æthelstan of East Anglia",
+          "qid": "Q887223"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q887223",
+        "title": "Æthelstan of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelstan_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of East Anglia",
+            "raw": "after 827–840s",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Æthelweard of East Anglia",
+        "title": "Æthelweard of East Anglia",
+        "person": "Q272291",
+        "name": "Æthelweard of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelweard_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Æthelweard of East Anglia",
+          "canonical": "Æthelweard of East Anglia",
+          "qid": "Q272291"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q272291",
+        "title": "Æthelweard of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelweard_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "{{circa}} 845{{snd}}25 December 854",
+            "parsed": {
+              "start": "0845-01-01",
+              "end": "0854-12-25",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of East Anglia",
+            "raw": "840s–854",
+            "parsed": null
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q381815",
+        "title": "Edmund the Martyr",
+        "source": "https://en.wikipedia.org/wiki/Edmund_the_Martyr",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of East Anglia",
+          "raw": "25 December 855 (trad.){{snd}}20 November 869",
+          "parsed": {
+            "start": "0855-12-25",
+            "end": "0869-11-20",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q462987",
+        "title": "Guthrum",
+        "source": "https://en.wikipedia.org/wiki/Guthrum",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of East Anglia",
+          "raw": "878–890{{sfn|Lapidge|Blair|Keynes|Scragg|2001|pages=508&ndash;509}}",
+          "parsed": {
+            "start": "0878-01-01",
+            "end": "0890-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Eadwald of East Anglia",
+        "person": "Q525343",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Æthelstan of East Anglia",
+        "person": "Q887223",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Æthelweard of East Anglia",
+        "person": "Q272291",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Eohric of East Anglia",
+        "person": "Q1410638",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "rejectedPortraits": [
+    {
+      "person": "Q381815",
+      "title": "Edmundbeingmartyred05.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Edmundbeingmartyred05.jpg"
+    },
+    {
+      "person": "Q462987",
+      "title": "Æthelstan II Guthrum, silver penny; struck circa 879–890 (obverse).png",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:%C3%86thelstan_II_Guthrum,_silver_penny;_struck_circa_879%E2%80%93890_(obverse).png"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q381815",
+      "name": "Edmundo del Anglia Oriental",
+      "title": "Edmundbeingmartyred05.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Edmundbeingmartyred05.jpg",
+      "sha256": "ce09a4bd06907aea1288a6903a725d8eb191fa7146c9e0ca4404bf5a896df65f",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q462987",
+      "name": "Guthrum I de Estanglia",
+      "title": "Æthelstan II Guthrum, silver penny; struck circa 879–890 (obverse).png",
+      "source": "https://commons.wikimedia.org/wiki/File:%C3%86thelstan_II_Guthrum,_silver_penny;_struck_circa_879%E2%80%93890_(obverse).png",
+      "sha256": "2430c704c750e0eddabfc376242e522d8bd5c61beff57a0c4630f34201aa09a5",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

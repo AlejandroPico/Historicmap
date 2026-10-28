@@ -1,6 +1,26 @@
 # Tareas y continuidad
 
-## Cierre adicional vigente · 0.31.1
+## Encargo vigente · 0.32.0 · ampliación800–899
+
+El propietario solicita retroceder desde900 hasta800 manteniendo pueblos, culturas y áreas de poblamiento junto a los poderes políticos. Conservar fases, originales y selección política prioritaria. Nuevos hechos y originales dentro de la carpeta de cada entidad. Comprobar localmente, subir y no esperarActions/Pages.
+
+- [x] Inventariar geometrías políticas y fuentes culturales del sigloIX, con fechas, procedencia y límites explícitos.
+- [x] Incorporar identidades, autoridades, imágenes y contexto; revisar símbolos sin anticipar enseñas, reinos o títulos posteriores.
+- [x] Incorporar culturas y poblamiento; evitar huecos por no disponer de organización estatal y conservar los datos900–2027.
+- [x] Navegación/reproducción anual, selección coincidente, persistencia, filtros y auditoría de carencias800–899.
+- [x] Pruebas, revisión visual2D/globo/móvil, documentación, versión, conservación y preparación del envío.
+
+Resultados:528 componentes políticos,139 reglas,137 dossiers de periodo;85 fases regionales nuevas y32 remisiones políticas. Se conservan exactamente8.597 fases culturales previas,1.204 identidades,16.975 cargos y1.040 registros de símbolos.117 originales regionales cotejados con la fuente800. Catálogo ampliado:3.870 carpetas y1.225 identidades.123 imágenes aceptadas y43 descartadas; quedan carencias nominales, no afirmar cobertura mundial exhaustiva.
+
+Incidencia añadida por el propietario:Quality0.31.1 falló sólo en screenshot deSong1128 por límite15segundos, tras82 recorridos correctos. Corregir las tres capturas de review-025 a45segundos/animaciones desactivadas, mantener aserciones y repetir ese recorrido antes de subir. No esperar el nuevo despliegue.
+
+Cronología carolingia revisada: la fuente conserva el agregado hasta849; desde843 se muestra como referencia anterior al reparto y se añaden tres centros de corona seleccionables hasta849. No se adelantan las fronteras850. Repetir el recorrido nuevo tras esta corrección; el recorrido deSong informado por el propietario ya pasó.
+
+Pendientes documentales para siguientes entregas: autoridades de poderes menores, contraste de límites locales, insignias de función/fecha acreditadas, representaciones individuales adecuadas y calendarios. Continuar las culturas en futuras regresiones anteriores a800. Véase docs/RESEARCH-800.md y los inventarios nominales; no dar esos huecos por resueltos al reanudar una sesión.
+
+Cierre local:247 pruebas generales/57 archivos, siete del parser y12 focales tras revisarVerdún. Ocho recorridos de navegador distintos correctos, incluido el deSong1128 que había fallado enGitHub; el móvil de800 se repitió de nuevo con los dos retratos de regentes y pasó en32s. Tipos, compilación e integridad correctos:97 datos,11 franjas y8.215 medios. Segunda compilación sin red:241 archivos idénticos.8.323 recursos cotejados porSHA-256/objetoGit y367 originales por entidad cotejados contra los bytes preparados. Cinco vistas generadas obsoletas consolidadas en carpetas canónicas, con todos sus registros anteriores conservados. Confirmar origin/main y el identificador al cerrar el envío; no esperarActions/Pages.
+
+## Entrega anterior · 0.31.1
 
 La entrega0.31.0 ya se envió a main en cf816799. Durante el cierre, el propietario pide corregir el retrato deGabriel Terra enUruguay1933 y añadir doble clic derecho con ratón para orientar el norte arriba. No esperarActions/Pages.
 

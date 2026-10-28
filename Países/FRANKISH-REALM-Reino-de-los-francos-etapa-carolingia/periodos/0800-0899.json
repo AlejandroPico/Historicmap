@@ -1,0 +1,914 @@
+{
+  "key": "FRANKISH-REALM",
+  "identity": {
+    "qid": "Q146246",
+    "name": "Reino de los francos · etapa carolingia"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0843-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Rey de los francos",
+      "officePattern": "King.*Frank|King.*Franc|rey.*franc",
+      "titles": [
+        "Charlemagne",
+        "Louis the Pious",
+        "Lothair I"
+      ],
+      "reviewedPhases": {
+        "Charlemagne": [
+          {
+            "start": "0800-01-01",
+            "end": "0800-12-24",
+            "role": "Rey de los francos",
+            "source": "https://en.wikipedia.org/wiki/Charlemagne",
+            "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales."
+          },
+          {
+            "start": "0800-12-25",
+            "end": "0814-01-28",
+            "role": "Rey de los francos y emperador carolingio",
+            "source": "https://en.wikipedia.org/wiki/Charlemagne",
+            "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales."
+          }
+        ],
+        "Louis the Pious": [
+          {
+            "start": "0814-01-28",
+            "end": "0833-11-12",
+            "role": "Rey de los francos y emperador",
+            "source": "https://en.wikipedia.org/wiki/Louis_the_Pious",
+            "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales."
+          },
+          {
+            "start": "0834-03-01",
+            "end": "0840-06-20",
+            "role": "Rey y emperador · restauración",
+            "source": "https://en.wikipedia.org/wiki/Louis_the_Pious",
+            "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales."
+          }
+        ],
+        "Lothair I": [
+          {
+            "start": "0833-11-13",
+            "end": "0834-02-28",
+            "role": "Pretensión imperial durante la deposición de Luis",
+            "source": "https://en.wikipedia.org/wiki/Lothair_I",
+            "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales."
+          },
+          {
+            "start": "0840-06-20",
+            "end": "0843-08-10",
+            "role": "Emperador · conflicto por la herencia carolingia",
+            "source": "https://en.wikipedia.org/wiki/Lothair_I",
+            "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales."
+          }
+        ]
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3044",
+      "name": "Carlomagno",
+      "role": "Rey de los francos",
+      "start": "0800-01-01",
+      "end": "0800-12-24",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Charlemagne",
+      "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales.",
+      "portrait": {
+        "file": "media/portrait-1839e800c2c3c1936816.jpg",
+        "title": "Charlemagne denier Mayence 812 814.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/500px-Charlemagne_denier_Mayence_812_814.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nCharlemagne. Autorité émettrice de monnaie\n\nindéterminé. Atelier monétaire. Émetteur",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Bibliothèque nationale de France",
+        "sha256": "ce83a5ccfcbac0d0b1544c9477af2a7e5415d5dd981260a0d6f50a571a0cd16f",
+        "bytes": 69263,
+        "canonicalFile": "Países/FRANKISH-REALM-Reino-de-los-francos-etapa-carolingia/retratos/portrait-1839e800c2c3c1936816.jpg",
+        "caption": "Efigie monetaria de Carlomagno, emisión atribuida a 812–814; referencia de su reinado, no de su aspecto en 800."
+      }
+    },
+    {
+      "person": "Q3044",
+      "name": "Carlomagno",
+      "role": "Rey de los francos y emperador carolingio",
+      "start": "0800-12-25",
+      "end": "0814-01-28",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Charlemagne",
+      "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales.",
+      "portrait": {
+        "file": "media/portrait-1839e800c2c3c1936816.jpg",
+        "title": "Charlemagne denier Mayence 812 814.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/500px-Charlemagne_denier_Mayence_812_814.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nCharlemagne. Autorité émettrice de monnaie\n\nindéterminé. Atelier monétaire. Émetteur",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Bibliothèque nationale de France",
+        "sha256": "ce83a5ccfcbac0d0b1544c9477af2a7e5415d5dd981260a0d6f50a571a0cd16f",
+        "bytes": 69263,
+        "canonicalFile": "Países/FRANKISH-REALM-Reino-de-los-francos-etapa-carolingia/retratos/portrait-1839e800c2c3c1936816.jpg",
+        "caption": "Efigie monetaria de Carlomagno, emisión atribuida a 812–814; referencia de su reinado, no de su aspecto en 800."
+      }
+    },
+    {
+      "person": "Q43974",
+      "name": "Ludovico Pío",
+      "role": "Rey de los francos y emperador",
+      "start": "0814-01-28",
+      "end": "0833-11-12",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Louis_the_Pious",
+      "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales.",
+      "portrait": {
+        "file": "media/portrait-039b9f0d3f9a1e5ddf6a.jpg",
+        "title": "Ludwik I Pobożny.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ludwik_I_Pobo%C5%BCny.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Ludwik_I_Pobo%C5%BCny.jpg/500px-Ludwik_I_Pobo%C5%BCny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ludwik_I_Pobo%C5%BCny.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Self-photographed",
+        "sha256": "b40260ce379ac68a7a7a056d3e8281642bca2d436eeb81c6c4f95fdf7d2589f3",
+        "bytes": 185559,
+        "canonicalFile": "Países/FRANKISH-REALM-Reino-de-los-francos-etapa-carolingia/retratos/portrait-039b9f0d3f9a1e5ddf6a.jpg",
+        "caption": "Representación posterior de Ludovico Pío; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q43974",
+      "name": "Ludovico Pío",
+      "role": "Rey y emperador · restauración",
+      "start": "0834-03-01",
+      "end": "0840-06-20",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Louis_the_Pious",
+      "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales.",
+      "portrait": {
+        "file": "media/portrait-039b9f0d3f9a1e5ddf6a.jpg",
+        "title": "Ludwik I Pobożny.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ludwik_I_Pobo%C5%BCny.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Ludwik_I_Pobo%C5%BCny.jpg/500px-Ludwik_I_Pobo%C5%BCny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ludwik_I_Pobo%C5%BCny.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Self-photographed",
+        "sha256": "b40260ce379ac68a7a7a056d3e8281642bca2d436eeb81c6c4f95fdf7d2589f3",
+        "bytes": 185559,
+        "canonicalFile": "Países/FRANKISH-REALM-Reino-de-los-francos-etapa-carolingia/retratos/portrait-039b9f0d3f9a1e5ddf6a.jpg",
+        "caption": "Representación posterior de Ludovico Pío; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q150735",
+      "name": "Lotario I",
+      "role": "Pretensión imperial durante la deposición de Luis",
+      "start": "0833-11-13",
+      "end": "0834-02-28",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lothair_I",
+      "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales.",
+      "portrait": {
+        "file": "media/portrait-477c6456d396fda328cf.jpg",
+        "title": "Lothar I.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Lothar_I.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lothar_I.jpg/500px-Lothar_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lothar_I.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "89b45c15654b5a4af90b782e1ad43fdd4e98442500254e2fd6d84bc6b887431d",
+        "bytes": 152849,
+        "canonicalFile": "Países/FRANKISH-REALM-Reino-de-los-francos-etapa-carolingia/retratos/portrait-477c6456d396fda328cf.jpg",
+        "caption": "Representación posterior de Lotario I; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q150735",
+      "name": "Lotario I",
+      "role": "Emperador · conflicto por la herencia carolingia",
+      "start": "0840-06-20",
+      "end": "0843-08-10",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lothair_I",
+      "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales.",
+      "portrait": {
+        "file": "media/portrait-477c6456d396fda328cf.jpg",
+        "title": "Lothar I.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Lothar_I.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lothar_I.jpg/500px-Lothar_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lothar_I.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "89b45c15654b5a4af90b782e1ad43fdd4e98442500254e2fd6d84bc6b887431d",
+        "bytes": 152849,
+        "canonicalFile": "Países/FRANKISH-REALM-Reino-de-los-francos-etapa-carolingia/retratos/portrait-477c6456d396fda328cf.jpg",
+        "caption": "Representación posterior de Lotario I; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review032-coronation",
+      "type": "institution",
+      "title": "Realeza franca y dignidad imperial",
+      "start": "0800-01-01",
+      "end": "0815-01-01",
+      "text": "La coronación imperial de Carlomagno en Roma el 25 de diciembre de 800 añade una dignidad a su realeza previa; no corresponde a la aparición de una Francia o Alemania modernas.",
+      "source": "https://en.wikipedia.org/wiki/Charlemagne",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "institutions"
+    },
+    {
+      "id": "review032-civil-war",
+      "type": "conflict",
+      "title": "Conflictos dinásticos carolingios",
+      "start": "0830-01-01",
+      "end": "0844-01-01",
+      "text": "Deposiciones, restauraciones y guerra entre los descendientes de Luis el Piadoso preceden a la partición de 843. La dignidad imperial no equivale a un gobierno uniforme de todos los reinos.",
+      "source": "https://en.wikipedia.org/wiki/Carolingian_civil_war",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 800,
+      "end": 843,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Carolingian_dynasty",
+      "sourceLabel": "Institución regia carolingia",
+      "note": "Título regio distinto de la dignidad imperial; no evaluación de régimen contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of the Franks"
+        ],
+        "start": 800,
+        "end": 842,
+        "label": "Reino de los francos · etapa carolingia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Síntesis anual de fuente, no límites diarios."
+      }
+    },
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of the Franks"
+        ],
+        "start": 843,
+        "end": 849,
+        "label": "Ámbito carolingio · referencia anterior al reparto",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "La fuente mantiene este agregado hasta 849 y separa los reinos desde 850. Desde Verdún843 no acredita un reino indiviso: las tres coronas son consultables mediante centros regios fechados. Contorno anterior de referencia, no límite exacto de cada corona."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "b492d44030fa98c9f73928a5674178824720467b3de7d5a666cdd360d7081545",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3009,
+        3035,
+        3053,
+        3065,
+        3083,
+        3115
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "historicalInterpretation": "Coronación imperial de Carlomagno en800 distinta de su realeza franca. Partición deVerdún843; no un Estado único francés o alemán durante todo el siglo.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Charlemagne",
+        "title": "Charlemagne",
+        "person": "Q3044",
+        "name": "Carlomagno",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Charlemagne",
+        "identityResolution": {
+          "requested": "Charlemagne",
+          "canonical": "Charlemagne",
+          "qid": "Q3044"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0768-10-09",
+          "end": "0814-01-28",
+          "precision": 11,
+          "statement": "Q3044$d0039f0e-495d-8a04-225a-297c77244476",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P39",
+          "office": "Q181765",
+          "start": "0800-12-25",
+          "end": "0814-01-28",
+          "precision": 11,
+          "statement": "Q3044$aed585a7-4c7f-d1a3-63d8-1f451cb6a798",
+          "label": "Emperador del Sacro Imperio Romano Germánico"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0768-10-09",
+          "end": "0814-01-28",
+          "precision": 11,
+          "statement": "Q3044$BB45FEC3-9C44-4950-B713-68F6C90B8424",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22997793",
+          "start": "0774-06-05",
+          "end": "0814-01-28",
+          "precision": 11,
+          "statement": "Q3044$7C4B3DCF-29D0-4C8C-8EB6-DD9E13504015",
+          "label": "Rey de los lombardos"
+        },
+        {
+          "property": "P97",
+          "office": "Q181765",
+          "start": "0800-01-01",
+          "end": "0814-01-01",
+          "precision": 9,
+          "statement": "Q3044$4facfb0f-41ae-ce37-9661-546e20b007eb",
+          "label": "Emperador del Sacro Imperio Romano Germánico"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3044",
+        "title": "Charlemagne",
+        "source": "https://en.wikipedia.org/wiki/Charlemagne",
+        "reignFields": [
+          {
+            "field": "reign2",
+            "office": "Emperor of the Carolingian Empire",
+            "raw": "25 December 800 – 28 January 814",
+            "parsed": {
+              "start": "0800-12-25",
+              "end": "0814-01-28",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of the Lombards {{nobold|(Italy)}}",
+            "raw": "June 774 – 28 January 814",
+            "parsed": {
+              "start": "0774-06-01",
+              "end": "0814-01-28",
+              "precision": 10
+            }
+          },
+          {
+            "field": "reign",
+            "office": "King of the Franks",
+            "raw": "9 October 768 – 28 January 814",
+            "parsed": {
+              "start": "0768-10-09",
+              "end": "0814-01-28",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "768–814",
+            "parsed": {
+              "start": "0768-01-01",
+              "end": "0814-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Holy Roman Emperor",
+            "raw": "800–814",
+            "parsed": {
+              "start": "0800-01-01",
+              "end": "0814-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Lombards",
+            "raw": "774–814",
+            "parsed": {
+              "start": "0774-01-01",
+              "end": "0814-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Lothair I",
+        "title": "Lothair I",
+        "person": "Q150735",
+        "name": "Lotario I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Lothair_I",
+        "identityResolution": {
+          "requested": "Lothair I",
+          "canonical": "Lothair I",
+          "qid": "Q150735"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q111841382",
+          "start": "0817-01-01",
+          "end": "0855-01-01",
+          "precision": 9,
+          "statement": "Q150735$c2507858-473d-2f17-d8c7-59530a2b6a8e",
+          "label": "Emperador carolingio"
+        },
+        {
+          "property": "P97",
+          "office": "Q23906200",
+          "start": "0840-01-01",
+          "end": "0855-01-01",
+          "precision": 9,
+          "statement": "Q150735$93410143-96B0-4A5B-B9F0-B29084E8235A",
+          "label": "emperador de occidente"
+        },
+        {
+          "property": "P97",
+          "office": "Q271148",
+          "start": "0822-01-01",
+          "end": "0855-01-01",
+          "precision": 9,
+          "statement": "Q150735$DD2B5968-8B43-4F48-AC10-F7FC830494F3",
+          "label": "monarca de Italia"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0840-01-01",
+          "end": "0855-01-01",
+          "precision": 9,
+          "statement": "Q150735$18CC0A77-3C3B-4F1B-BE33-2168CD48DA08",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q150735",
+        "title": "Lothair I",
+        "source": "https://en.wikipedia.org/wiki/Lothair_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Carolingian Empire",
+            "raw": "July 817 – 19 September 855",
+            "parsed": {
+              "start": "0817-07-01",
+              "end": "0855-09-19",
+              "precision": 10
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of Italy",
+            "raw": "17 April 818 – 855",
+            "parsed": {
+              "start": "0818-04-17",
+              "end": "0855-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King of Middle Francia",
+            "raw": "{{circa}} 10 August 843 – 855",
+            "parsed": {
+              "start": "0843-08-10",
+              "end": "0855-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Maine",
+            "raw": "817–831",
+            "parsed": {
+              "start": "0817-01-01",
+              "end": "0831-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Italy",
+            "raw": "818 – 23 September 855",
+            "parsed": {
+              "start": "0818-01-01",
+              "end": "0855-09-23",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Holy Roman Emperor",
+            "raw": "817 – 23 September 855",
+            "parsed": {
+              "start": "0817-01-01",
+              "end": "0855-09-23",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Middle Francia",
+            "raw": "843 – 23 September 855",
+            "parsed": {
+              "start": "0843-01-01",
+              "end": "0855-09-23",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Louis the Pious",
+        "title": "Louis the Pious",
+        "person": "Q43974",
+        "name": "Ludovico Pío",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Louis_the_Pious",
+        "identityResolution": {
+          "requested": "Louis the Pious",
+          "canonical": "Louis the Pious",
+          "qid": "Q43974"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0814-01-28",
+          "end": "0840-06-20",
+          "precision": 11,
+          "statement": "Q43974$d2869d58-44eb-53a2-e83c-31682cc9a82f",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P39",
+          "office": "Q111841382",
+          "start": "0814-01-28",
+          "end": "0840-06-20",
+          "precision": 11,
+          "statement": "Q43974$444ba6f1-4b92-2229-adf6-637e520cff09",
+          "label": "Emperador carolingio"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0814-01-01",
+          "end": "0840-01-01",
+          "precision": 9,
+          "statement": "Q43974$E83F7DAF-1C5F-42E9-B3CB-6512E0EF7D2D",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q23931012",
+          "start": "0781-01-01",
+          "end": "0814-01-01",
+          "precision": 9,
+          "statement": "Q43974$349430B7-4307-4A41-B002-B09F56BB074E",
+          "label": "rey de Aquitania"
+        },
+        {
+          "property": "P97",
+          "office": "Q23906200",
+          "start": "0814-01-01",
+          "end": "0840-01-01",
+          "precision": 9,
+          "statement": "Q43974$EBD969E8-C630-4999-88F6-AB3F1382F5B1",
+          "label": "emperador de occidente"
+        },
+        {
+          "property": "P97",
+          "office": "Q271148",
+          "start": "0817-01-01",
+          "end": "0822-01-01",
+          "precision": 9,
+          "statement": "Q43974$5499F10D-ECBD-4ED9-B806-B3C0E30ABE92",
+          "label": "monarca de Italia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q43974",
+        "title": "Louis the Pious",
+        "source": "https://en.wikipedia.org/wiki/Louis_the_Pious",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Carolingian Empire",
+            "raw": "11 September 813 – 20 June 840{{efn|Declared deposed by [[Ebbo]], [[Archbishop of Rheims]], between 13 November 833 and 1 March 834.<ref>{{Cite book |last1=Einhard |chapter-url=https://books.google.com/books?id=EYY3AAAAQBAJ&pg=PT163 |title=Two Lives of Charlemagne |last2=Stammerer |first2=Notker the |date=2013 |publisher=Penguin UK |isbn=978-0-14-139410-7 |language= |chapter=Chronology}}</ref>}}",
+            "parsed": {
+              "start": "0813-09-11",
+              "end": "0840-06-20",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of the Franks",
+            "raw": "28 January 814 – 20 June 840",
+            "parsed": {
+              "start": "0814-01-28",
+              "end": "0840-06-20",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King of Aquitaine",
+            "raw": "781 – 20 June 814",
+            "parsed": {
+              "start": "0781-01-01",
+              "end": "0814-06-20",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Aquitaine",
+            "raw": "781–814",
+            "parsed": {
+              "start": "0781-01-01",
+              "end": "0814-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Carolingian Emperor",
+            "raw": "813–840",
+            "parsed": {
+              "start": "0813-01-01",
+              "end": "0840-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "814–840",
+            "parsed": {
+              "start": "0814-01-01",
+              "end": "0840-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q3044",
+        "title": "Charlemagne",
+        "source": "https://en.wikipedia.org/wiki/Charlemagne",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Charlemagne"
+        }
+      },
+      {
+        "person": "Q3044",
+        "title": "Charlemagne",
+        "source": "https://en.wikipedia.org/wiki/Charlemagne",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Charlemagne"
+        }
+      },
+      {
+        "person": "Q43974",
+        "title": "Louis the Pious",
+        "source": "https://en.wikipedia.org/wiki/Louis_the_Pious",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Louis_the_Pious"
+        }
+      },
+      {
+        "person": "Q43974",
+        "title": "Louis the Pious",
+        "source": "https://en.wikipedia.org/wiki/Louis_the_Pious",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Louis_the_Pious"
+        }
+      },
+      {
+        "person": "Q150735",
+        "title": "Lothair I",
+        "source": "https://en.wikipedia.org/wiki/Lothair_I",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Lothair_I"
+        }
+      },
+      {
+        "person": "Q150735",
+        "title": "Lothair I",
+        "source": "https://en.wikipedia.org/wiki/Lothair_I",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Lothair_I"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q3044",
+      "name": "Carlomagno",
+      "title": "Charlemagne denier Mayence 812 814.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg",
+      "sha256": "ce83a5ccfcbac0d0b1544c9477af2a7e5415d5dd981260a0d6f50a571a0cd16f",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie monetaria de Carlomagno, emisión atribuida a 812–814; referencia de su reinado, no de su aspecto en 800."
+    },
+    {
+      "person": "Q43974",
+      "name": "Ludovico Pío",
+      "title": "Ludwik I Pobożny.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ludwik_I_Pobo%C5%BCny.jpg",
+      "sha256": "b40260ce379ac68a7a7a056d3e8281642bca2d436eeb81c6c4f95fdf7d2589f3",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Ludovico Pío; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q150735",
+      "name": "Lotario I",
+      "title": "Lothar I.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lothar_I.jpg",
+      "sha256": "89b45c15654b5a4af90b782e1ad43fdd4e98442500254e2fd6d84bc6b887431d",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Lotario I; no retrato del natural acreditado."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-0",
+      "name": "Aquisgrán · palacio y corte",
+      "coordinates": [
+        6.083,
+        50.775
+      ],
+      "start": 800,
+      "end": 843,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Aachen",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review032-coronation",
+      "type": "institution",
+      "title": "Realeza franca y dignidad imperial",
+      "start": "0800-01-01",
+      "end": "0815-01-01",
+      "text": "La coronación imperial de Carlomagno en Roma el 25 de diciembre de 800 añade una dignidad a su realeza previa; no corresponde a la aparición de una Francia o Alemania modernas.",
+      "source": "https://en.wikipedia.org/wiki/Charlemagne",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    },
+    {
+      "id": "review032-civil-war",
+      "type": "conflict",
+      "title": "Conflictos dinásticos carolingios",
+      "start": "0830-01-01",
+      "end": "0844-01-01",
+      "text": "Deposiciones, restauraciones y guerra entre los descendientes de Luis el Piadoso preceden a la partición de 843. La dignidad imperial no equivale a un gobierno uniforme de todos los reinos.",
+      "source": "https://en.wikipedia.org/wiki/Carolingian_civil_war",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review032-civil-war",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.31,
+          47.66
+        ]
+      },
+      "properties": {
+        "name": "Conflictos dinásticos carolingios",
+        "countries": [
+          "FRANKISH-REALM"
+        ],
+        "kind": "regional-conflict",
+        "start": "0830-01-01",
+        "end": "0843-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Carolingian_civil_war",
+        "sourceLabel": "Referencia documental · siglo IX",
+        "note": "Deposiciones, restauraciones y guerra entre los descendientes de Luis el Piadoso preceden a la partición de 843. La dignidad imperial no equivale a un gobierno uniforme de todos los reinos. Punto regional aproximado; no frente continuo."
+      }
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "cartographicChronologyReview": {
+    "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+    "historicalPartitionYear": 843,
+    "firstSeparateSourceGeometryYear": 850,
+    "decision": "Contorno agregado anterior señalado como referencia; tres centros de corona seleccionables843–849, sin adelantar las geometrías850."
+  }
+}

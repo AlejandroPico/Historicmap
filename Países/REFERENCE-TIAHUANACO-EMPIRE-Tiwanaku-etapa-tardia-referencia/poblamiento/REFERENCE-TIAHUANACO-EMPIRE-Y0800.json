@@ -1,0 +1,82 @@
+{
+  "key": "REFERENCE-TIAHUANACO-EMPIRE-Y0800",
+  "contextKey": "REFERENCE-TIAHUANACO-EMPIRE",
+  "ownerKey": "REFERENCE-TIAHUANACO-EMPIRE",
+  "name": "Tiwanaku · centros y redes regionales",
+  "originalNames": [
+    "Tiahuanaco Empire"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "TradiciónTiwanaku y sus redes regionales; diversidad de relaciones, asentamientos y vínculos. No se presenta toda la superficie como una frontera estatal única.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Met · Wari y Tiwanaku; culturas vecinas y contactos",
+      "url": "https://www.metmuseum.org/art/collection/search/314623"
+    },
+    {
+      "title": "UNESCO · Tiwanaku, centro político y cultural",
+      "url": "https://whc.unesco.org/en/list/567/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a99772",
+  "focus": [
+    -69.42473,
+    -19.68585
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Tiwanaku · centros y redes regionales",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-TIAHUANACO-EMPIRE-Y0800.geojson",
+  "geometrySha256": "afee33aa93d17498b577a2ed272481af665e6ccf85bc1fbb9d133bbf0c733e5a",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      24
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Tiahuanaco Empire",
+      "ABBREVN": "Tiahuanaco E",
+      "wikipedia": null,
+      "SUBJECTO": "Tiahuanaco Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Tiahuanaco Empire"
+    }
+  ],
+  "sourceGrouping": [
+    "Tiahuanaco Empire"
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "key": "CULTURE-HOKKAIDO",
-  "name": "Comunidades ainu · Hokkaidō y regiones vecinas",
+  "name": "Comunidades de Hokkaidō · Satsumon y Okhotsk",
   "qid": "",
   "aliases": [
     "Ainu",
     "Ainus",
-    "Comunidades ainu · Hokkaidō y regiones vecinas"
+    "Comunidades de Hokkaidō · Satsumon y Okhotsk"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -81,6 +81,15 @@
     }
   ],
   "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-HOKKAIDO-Y0800:0",
+      "contextKey": "CULTURE-HOKKAIDO",
+      "start": 800,
+      "end": 899,
+      "sourceYear": 800,
+      "canonicalFile": "Países/CULTURE-HOKKAIDO-Comunidades-de-Hokkaido-Satsumon/poblamiento/CULTURE-HOKKAIDO-Y0800.json"
+    },
     {
       "file": "cultural-regions.geojson",
       "recordId": "CULTURE-HOKKAIDO-Y1200:0",

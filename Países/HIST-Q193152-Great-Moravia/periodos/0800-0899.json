@@ -1,0 +1,360 @@
+{
+  "key": "HIST-Q193152",
+  "identity": {
+    "qid": "Q193152",
+    "name": "Great Moravia"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Gobernante de la Gran Moravia",
+      "officePattern": "Duke.*Moravia|Prince.*Moravia|King.*Moravia",
+      "titles": [
+        "Mojmir I",
+        "Rastislav of Moravia",
+        "Svatopluk I of Moravia",
+        "Mojmir II"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q347148",
+      "name": "Ratislav I",
+      "role": "Gobernante de la Gran Moravia",
+      "start": "0846-01-01",
+      "end": "0870-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rastislav_of_Moravia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-ea6e0d7605b3402cd170.jpg",
+        "title": "Prince Rastislav.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Prince_Rastislav.JPG",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Prince_Rastislav.JPG/500px-Prince_Rastislav.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Prince_Rastislav.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Aus der englischen Wikipedia Prince Rastislav.jpg",
+        "sha256": "efae5f3303f97ccc056ee2b148e8d201ed6cea812d5273dc7c0f2ccf76a0f4c5",
+        "bytes": 78983,
+        "canonicalFile": "Países/HIST-Q193152-Great-Moravia/retratos/portrait-ea6e0d7605b3402cd170.jpg",
+        "caption": "Representación posterior de Ratislav I; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q437589",
+      "name": "Svatopluk I",
+      "role": "Gobernante de la Gran Moravia",
+      "start": "0870-01-01",
+      "end": "0871-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Svatopluk_I_of_Moravia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-ff22334463008f0a4722.jpg",
+        "title": "Kašna se sochou Svatopluka (Loštice).JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Ka%C5%A1na_se_sochou_Svatopluka_(Lo%C5%A1tice).JPG",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Ka%C5%A1na_se_sochou_Svatopluka_%28Lo%C5%A1tice%29.JPG/500px-Ka%C5%A1na_se_sochou_Svatopluka_%28Lo%C5%A1tice%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Lehotsky",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "7bb5e156357230289a7c917780cd9bad8d3dd55d01d0fc56b26b26f2a64f2a54",
+        "bytes": 159568,
+        "canonicalFile": "Países/HIST-Q193152-Great-Moravia/retratos/portrait-ff22334463008f0a4722.jpg",
+        "caption": "Representación conmemorativa moderna de Svatopluk I."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Great Moravia"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Great Moravia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "93dad02d2b0f1065db4e4f5acea475a54aa1d1a866ec08e09e4382cbc5323877",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3051,
+        3067,
+        3113,
+        3172,
+        3182,
+        3294,
+        3333,
+        3348,
+        3442,
+        3451,
+        3476,
+        3493,
+        3534
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Mojmir I",
+        "title": "Mojmir I",
+        "person": "Q433975",
+        "name": "Mojmír I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mojmir_I_of_Moravia",
+        "identityResolution": {
+          "requested": "Mojmir I",
+          "canonical": "Mojmir I of Moravia",
+          "qid": "Q433975"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q433975",
+        "title": "Mojmir I of Moravia",
+        "source": "https://en.wikipedia.org/wiki/Mojmir_I_of_Moravia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Moravia",
+            "raw": "&nbsp;820s/830s&ndash;846",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mojmir II",
+        "title": "Mojmir II",
+        "person": "Q551716",
+        "name": "Mojmir II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mojmir_II_of_Moravia",
+        "identityResolution": {
+          "requested": "Mojmir II",
+          "canonical": "Mojmir II of Moravia",
+          "qid": "Q551716"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q551716",
+        "title": "Mojmir II of Moravia",
+        "source": "https://en.wikipedia.org/wiki/Mojmir_II_of_Moravia",
+        "reignFields": [
+          {
+            "field": "reign1",
+            "office": "King of Great Moravia",
+            "raw": "894&ndash;probably 906",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rastislav of Moravia",
+        "title": "Rastislav of Moravia",
+        "person": "Q347148",
+        "name": "Ratislav I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rastislav_of_Moravia",
+        "identityResolution": {
+          "requested": "Rastislav of Moravia",
+          "canonical": "Rastislav of Moravia",
+          "qid": "Q347148"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q347148",
+        "title": "Rastislav of Moravia",
+        "source": "https://en.wikipedia.org/wiki/Rastislav_of_Moravia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Duke of Moravia",
+            "raw": "846&ndash;870",
+            "parsed": {
+              "start": "0846-01-01",
+              "end": "0870-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Svatopluk I of Moravia",
+        "title": "Svatopluk I of Moravia",
+        "person": "Q437589",
+        "name": "Svatopluk I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Svatopluk_I_of_Moravia",
+        "identityResolution": {
+          "requested": "Svatopluk I of Moravia",
+          "canonical": "Svatopluk I of Moravia",
+          "qid": "Q437589"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q437589",
+        "title": "Svatopluk I of Moravia",
+        "source": "https://en.wikipedia.org/wiki/Svatopluk_I_of_Moravia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Prince of Nitra",
+            "raw": "before 867–870",
+            "parsed": null
+          },
+          {
+            "field": "reign1",
+            "office": "Duke of Moravia",
+            "raw": "870–871",
+            "parsed": {
+              "start": "0870-01-01",
+              "end": "0871-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "",
+            "raw": "871 – before 885",
+            "parsed": null
+          },
+          {
+            "field": "reign3",
+            "office": "King of Great Moravia",
+            "raw": "before 885 – 894",
+            "parsed": null
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q347148",
+        "title": "Rastislav of Moravia",
+        "source": "https://en.wikipedia.org/wiki/Rastislav_of_Moravia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Duke of Moravia",
+          "raw": "846&ndash;870",
+          "parsed": {
+            "start": "0846-01-01",
+            "end": "0870-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q437589",
+        "title": "Svatopluk I of Moravia",
+        "source": "https://en.wikipedia.org/wiki/Svatopluk_I_of_Moravia",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "Duke of Moravia",
+          "raw": "870–871",
+          "parsed": {
+            "start": "0870-01-01",
+            "end": "0871-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Mojmir I",
+        "person": "Q433975",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Mojmir II",
+        "person": "Q551716",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q347148",
+      "name": "Ratislav I",
+      "title": "Prince Rastislav.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Prince_Rastislav.JPG",
+      "sha256": "efae5f3303f97ccc056ee2b148e8d201ed6cea812d5273dc7c0f2ccf76a0f4c5",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Ratislav I; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q437589",
+      "name": "Svatopluk I",
+      "title": "Kašna se sochou Svatopluka (Loštice).JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Ka%C5%A1na_se_sochou_Svatopluka_(Lo%C5%A1tice).JPG",
+      "sha256": "7bb5e156357230289a7c917780cd9bad8d3dd55d01d0fc56b26b26f2a64f2a54",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación conmemorativa moderna de Svatopluk I."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

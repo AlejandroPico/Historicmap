@@ -3,6 +3,7 @@
   "name": "Volga Bulgars · referencia",
   "qid": "",
   "aliases": [
+    "Volga Bulgars",
     "Volga Bulgars · referencia"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
@@ -12,8 +13,26 @@
   "symbolReferences": [],
   "leaders": [],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 225,
+      "start": null,
+      "end": null,
+      "name": "Volga Bulgars",
+      "status": null
+    }
+  ],
   "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-VOLGA-BULGARS-Y0800:0",
+      "contextKey": "REFERENCE-VOLGA-BULGARS",
+      "start": 800,
+      "end": 899,
+      "sourceYear": 800,
+      "canonicalFile": "Países/REFERENCE-VOLGA-BULGARS-Volga-Bulgars-referencia/poblamiento/REFERENCE-VOLGA-BULGARS-Y0800.json"
+    },
     {
       "file": "cultural-regions.geojson",
       "recordId": "REFERENCE-VOLGA-BULGARS:0",

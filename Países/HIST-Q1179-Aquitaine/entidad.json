@@ -1,0 +1,43 @@
+{
+  "key": "HIST-Q1179",
+  "name": "Aquitaine",
+  "qid": "Q1179",
+  "aliases": [
+    "Aquitaine"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1179"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3452",
+      "start": 888,
+      "end": 891,
+      "name": "Aquitaine",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3477",
+      "start": 892,
+      "end": 895,
+      "name": "Aquitaine",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

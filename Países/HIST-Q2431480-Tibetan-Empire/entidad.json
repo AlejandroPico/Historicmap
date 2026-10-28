@@ -1,0 +1,113 @@
+{
+  "key": "HIST-Q2431480",
+  "name": "Tibetan Empire",
+  "qid": "Q2431480",
+  "aliases": [
+    "Tibetan Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2431480"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1910177",
+      "name": "Sadnalegs",
+      "role": "Emperador / soberano tibetano",
+      "start": "0800-01-01",
+      "end": "0815-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sadnalegs",
+      "note": "La muerte deLangdarma en842 se distingue de la persistencia de comunidades tibetanas; fragmentación y poderes regionales posteriores. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    },
+    {
+      "person": "Q2353150",
+      "name": "Ralpacan",
+      "role": "Emperador / soberano tibetano",
+      "start": "0815-01-01",
+      "end": "0838-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ralpachen",
+      "note": "La muerte deLangdarma en842 se distingue de la persistencia de comunidades tibetanas; fragmentación y poderes regionales posteriores. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32",
+      "portrait": {
+        "file": "media/portrait-3138ec2a01bb4b23aecb.jpg",
+        "title": "Ralpachen.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ralpachen.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Ralpachen.jpg/500px-Ralpachen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ralpachen.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://www.himalayanart.org/items/77255",
+        "sha256": "f77ccedc26a590d6644154c89ec394cf04c8dab94100d99fb09732325f4bb22f",
+        "bytes": 199798,
+        "canonicalFile": "Países/HIST-Q2431480-Tibetan-Empire/retratos/portrait-3138ec2a01bb4b23aecb.jpg",
+        "caption": "Representación religiosa posterior de Ralpachen; no retrato del natural."
+      }
+    },
+    {
+      "person": "Q558271",
+      "name": "Langdarma",
+      "role": "Emperador / soberano tibetano",
+      "start": "0841-01-01",
+      "end": "0842-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Langdarma",
+      "note": "La muerte deLangdarma en842 se distingue de la persistencia de comunidades tibetanas; fragmentación y poderes regionales posteriores. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-2976",
+      "start": 800,
+      "end": 829,
+      "name": "Tibetan Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3093",
+      "start": 830,
+      "end": 839,
+      "name": "Tibetan Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3132",
+      "start": 840,
+      "end": 849,
+      "name": "Tibetan Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-TIBETAN-EMPIRE-8B92EACD-Y0800",
+      "ownerKey": "HIST-Q2431480",
+      "name": "Tibetan Empire",
+      "file": "Países/HIST-Q2431480-Tibetan-Empire/poblamiento/CULTURE-TIBETAN-EMPIRE-8B92EACD-Y0800.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

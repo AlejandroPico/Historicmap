@@ -1,9 +1,10 @@
 {
   "key": "REFERENCE-HUARI-EMPIRE",
-  "name": "Wari · tradición y poder regional · referencia",
+  "name": "Wari · centros y redes regionales",
   "qid": "",
   "aliases": [
-    "Wari · tradición y poder regional · referencia"
+    "Huari Empire",
+    "Wari · centros y redes regionales"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -12,8 +13,26 @@
   "symbolReferences": [],
   "leaders": [],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 55,
+      "start": null,
+      "end": null,
+      "name": "Huari Empire",
+      "status": null
+    }
+  ],
   "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-HUARI-EMPIRE-Y0800:0",
+      "contextKey": "REFERENCE-HUARI-EMPIRE",
+      "start": 800,
+      "end": 899,
+      "sourceYear": 800,
+      "canonicalFile": "Países/REFERENCE-HUARI-EMPIRE-Wari-tradicion-y-poder-regional-referencia/poblamiento/REFERENCE-HUARI-EMPIRE-Y0800.json"
+    },
     {
       "file": "cultural-regions.geojson",
       "recordId": "REFERENCE-HUARI-EMPIRE:0",

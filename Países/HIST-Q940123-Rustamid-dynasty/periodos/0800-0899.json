@@ -1,0 +1,280 @@
+{
+  "key": "HIST-Q940123",
+  "identity": {
+    "qid": "Q940123",
+    "name": "Rustamid dynasty"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Imán rustamí",
+      "officePattern": "Imam|Rustamid",
+      "titles": [
+        "Abd al-Wahhab ibn Abd al-Rahman",
+        "Aflah ibn Abd al-Wahhab",
+        "Abu Bakr ibn Aflah",
+        "Abu al-Yaqzan Muhammad ibn Aflah"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q12224124",
+      "name": "Abd al-Wahhab ibn Abd al-Rahman",
+      "role": "Imán rustamí",
+      "start": "0800-01-01",
+      "end": "0824-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abd_al-Wahhab_ibn_Abd_al-Rahman",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q6825132",
+      "name": "Aflah ibn Abd al-Wahhab",
+      "role": "Imán rustamí",
+      "start": "0823-01-01",
+      "end": "0872-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aflah_ibn_Abd_al-Wahhab",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 800,
+      "end": 899,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q940123",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional de fuente; no evaluación democrática ni gobierno uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Rustamid dynasty"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Rustamid dynasty",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "70b174902acafd7b71dd0b1247910707be3b1a4fa749ad649c0579cc76ffc719",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2910
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Abd al-Wahhab ibn Abd al-Rahman",
+        "title": "Abd al-Wahhab ibn Abd al-Rahman",
+        "person": "Q12224124",
+        "name": "Abd al-Wahhab ibn Abd al-Rahman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Abd_al-Wahhab_ibn_Abd_al-Rahman",
+        "identityResolution": {
+          "requested": "Abd al-Wahhab ibn Abd al-Rahman",
+          "canonical": "Abd al-Wahhab ibn Abd al-Rahman",
+          "qid": "Q12224124"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q125482",
+          "start": "0788-01-01",
+          "end": "0824-01-01",
+          "precision": 9,
+          "statement": "Q12224124$9b59389b-4ced-3dc0-47d7-82a809e9811a",
+          "label": "imán"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12224124",
+        "title": "Abd al-Wahhab ibn Abd al-Rahman",
+        "source": "https://en.wikipedia.org/wiki/Abd_al-Wahhab_ibn_Abd_al-Rahman",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Imam of Maghreb al-Awsat",
+            "raw": "788–824",
+            "parsed": {
+              "start": "0788-01-01",
+              "end": "0824-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Abu Bakr ibn Aflah",
+        "title": "Abu Bakr ibn Aflah",
+        "person": "Q940123",
+        "name": "rostomitas",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Rustamid_dynasty",
+        "identityResolution": {
+          "requested": "Abu Bakr ibn Aflah",
+          "canonical": "Rustamid dynasty",
+          "qid": "Q940123"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Abu al-Yaqzan Muhammad ibn Aflah",
+        "title": "Abu al-Yaqzan Muhammad ibn Aflah",
+        "person": "",
+        "name": "Abu al-Yaqzan Muhammad ibn Aflah",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Abu_al-Yaqzan_Muhammad_ibn_Aflah",
+        "identityResolution": {
+          "requested": "Abu al-Yaqzan Muhammad ibn Aflah",
+          "canonical": "Abu al-Yaqzan Muhammad ibn Aflah",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Aflah ibn Abd al-Wahhab",
+        "title": "Aflah ibn Abd al-Wahhab",
+        "person": "Q6825132",
+        "name": "Aflah ibn Abd al-Wahhab",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aflah_ibn_Abd_al-Wahhab",
+        "identityResolution": {
+          "requested": "Aflah ibn Abd al-Wahhab",
+          "canonical": "Aflah ibn Abd al-Wahhab",
+          "qid": "Q6825132"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q125482",
+          "start": "0823-01-01",
+          "end": "0872-01-01",
+          "precision": 9,
+          "statement": "Q6825132$5e77b47b-4883-8a2b-dd30-c31d79884749",
+          "label": "imán"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6825132",
+        "title": "Aflah ibn Abd al-Wahhab",
+        "source": "https://en.wikipedia.org/wiki/Aflah_ibn_Abd_al-Wahhab",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Imam of Maghreb al-Awsat",
+            "raw": "823–872",
+            "parsed": {
+              "start": "0823-01-01",
+              "end": "0872-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q12224124",
+        "title": "Abd al-Wahhab ibn Abd al-Rahman",
+        "source": "https://en.wikipedia.org/wiki/Abd_al-Wahhab_ibn_Abd_al-Rahman",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Imam of Maghreb al-Awsat",
+          "raw": "788–824",
+          "parsed": {
+            "start": "0788-01-01",
+            "end": "0824-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q6825132",
+        "title": "Aflah ibn Abd al-Wahhab",
+        "source": "https://en.wikipedia.org/wiki/Aflah_ibn_Abd_al-Wahhab",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Imam of Maghreb al-Awsat",
+          "raw": "823–872",
+          "parsed": {
+            "start": "0823-01-01",
+            "end": "0872-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Abu Bakr ibn Aflah",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Abu al-Yaqzan Muhammad ibn Aflah",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

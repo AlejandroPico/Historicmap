@@ -1,0 +1,100 @@
+{
+  "key": "TOLTEC-EARLY-REFERENCE",
+  "identity": {
+    "qid": "Q187897",
+    "name": "Altiplano central mesoamericano · referencia anterior a Tula"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review032-tula",
+      "type": "institution",
+      "title": "Altiplano central anterior al auge de Tula",
+      "start": "0800-01-01",
+      "end": "0900-01-01",
+      "text": "La etiqueta Toltec Empire de la fuente se interpreta como una referencia regional temprana, no como prueba de un imperio de Tula plenamente formado ya en 800.",
+      "source": "https://en.wikipedia.org/wiki/Tula_%28Mesoamerican_site%29",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Toltec"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Altiplano central mesoamericano · referencia anterior a Tula",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Referencia delAltiplano central, no un Imperio tolteca consolidado en800. Síntesis anual de fuente, no límites diarios."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "c8815f7834df02dc6df89fad8afebf71d08eacb936096970452ceb3a6fec9e0b",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3300
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "historicalInterpretation": "Referencia delAltiplano central, no un Imperio tolteca consolidado en800.",
+  "officeNote": "Referencia delAltiplano central, no un Imperio tolteca consolidado en800. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "contexts": [
+    {
+      "id": "review032-tula",
+      "type": "institution",
+      "title": "Altiplano central anterior al auge de Tula",
+      "start": "0800-01-01",
+      "end": "0900-01-01",
+      "text": "La etiqueta Toltec Empire de la fuente se interpreta como una referencia regional temprana, no como prueba de un imperio de Tula plenamente formado ya en 800.",
+      "source": "https://en.wikipedia.org/wiki/Tula_%28Mesoamerican_site%29",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

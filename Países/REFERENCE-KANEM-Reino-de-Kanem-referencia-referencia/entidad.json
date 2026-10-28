@@ -3,6 +3,7 @@
   "name": "Reino de Kanem · referencia · referencia",
   "qid": "",
   "aliases": [
+    "Kanem",
     "Reino de Kanem · referencia · referencia"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
@@ -12,8 +13,26 @@
   "symbolReferences": [],
   "leaders": [],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 47,
+      "start": null,
+      "end": null,
+      "name": "Kanem",
+      "status": null
+    }
+  ],
   "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-KANEM-Y0800:0",
+      "contextKey": "REFERENCE-KANEM",
+      "start": 800,
+      "end": 899,
+      "sourceYear": 800,
+      "canonicalFile": "Países/REFERENCE-KANEM-Reino-de-Kanem-referencia-referencia/poblamiento/REFERENCE-KANEM-Y0800.json"
+    },
     {
       "file": "cultural-regions.geojson",
       "recordId": "REFERENCE-KANEM:0",

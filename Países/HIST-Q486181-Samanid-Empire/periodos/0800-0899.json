@@ -1,0 +1,459 @@
+{
+  "key": "HIST-Q486181",
+  "identity": {
+    "qid": "Q486181",
+    "name": "Samanid Empire"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Emir samánida",
+      "officePattern": "Emir|Amir|Samanid",
+      "titles": [
+        "Nuh ibn Asad",
+        "Ahmad ibn Asad",
+        "Nasr I",
+        "Isma'il ibn Ahmad"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1045661",
+      "name": "Nuh ibn Asad",
+      "role": "Emir samánida",
+      "start": "0819-01-01",
+      "end": "0841-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nuh_ibn_Asad",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q860258",
+      "name": "Ahmad ibn Asad",
+      "role": "Emir samánida",
+      "start": "0850-01-01",
+      "end": "0865-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Asad",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q860258",
+      "name": "Ahmad ibn Asad",
+      "role": "Emir samánida",
+      "start": "0855-01-01",
+      "end": "0865-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Asad",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q1209351",
+      "name": "Nasr I ibn Ahmad",
+      "role": "Emir samánida",
+      "start": "0865-01-01",
+      "end": "0892-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nasr_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q862648",
+      "name": "Ismail Samani",
+      "role": "Emir samánida",
+      "start": "0892-08-01",
+      "end": "0899-12-31",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Ismail_Samani",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Samanid Empire"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Samanid Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "ce2423ef4dc3a1563d0ec89d192c49467da1b437a32219f8fb615043d026289a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3426,
+        3460,
+        3510,
+        3514
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ahmad ibn Asad",
+        "title": "Ahmad ibn Asad",
+        "person": "Q860258",
+        "name": "Ahmad ibn Asad",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Asad",
+        "identityResolution": {
+          "requested": "Ahmad ibn Asad",
+          "canonical": "Ahmad ibn Asad",
+          "qid": "Q860258"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q118012026",
+          "start": "0850-01-01",
+          "end": "0865-01-01",
+          "precision": 9,
+          "statement": "Q860258$d8869222-4806-93ba-3ad0-eea01fce8a42",
+          "label": "Samanid ruler of Shash"
+        },
+        {
+          "property": "P39",
+          "office": "Q118012303",
+          "start": "0855-01-01",
+          "end": "0865-01-01",
+          "precision": 9,
+          "statement": "Q860258$3e0e8d46-4444-9e25-c91b-c1f33e3625de",
+          "label": "Samanid ruler of Samarkand"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q860258",
+        "title": "Ahmad ibn Asad",
+        "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Asad",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Amir of Ferghana and Samarkand Shahanshah",
+            "raw": "[[Ferghana]]: (819 – 864/865)",
+            "parsed": null
+          },
+          {
+            "field": "reign",
+            "office": "Amir of Ferghana and Samarkand Shahanshah",
+            "raw": "[[Samarkand]]: (851/852 – 864/865)",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Amir of Ferghana",
+            "raw": "819–864/5",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Amir of Samarkand",
+            "raw": "851/2–864/5",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Amir of Shash",
+            "raw": "850s–864/5",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Isma'il ibn Ahmad",
+        "title": "Isma'il ibn Ahmad",
+        "person": "Q862648",
+        "name": "Ismail Samani",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ismail_Samani",
+        "identityResolution": {
+          "requested": "Isma'il ibn Ahmad",
+          "canonical": "Ismail Samani",
+          "qid": "Q862648"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q72647786",
+          "start": "0892-09-01",
+          "end": "0907-11-24",
+          "precision": 10,
+          "statement": "Q862648$291f7f0d-491f-baee-fa9d-f8736637bbe4",
+          "label": "emir samánida"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q862648",
+        "title": "Ismail Samani",
+        "source": "https://en.wikipedia.org/wiki/Ismail_Samani",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Amir of the Samanid Empire",
+            "raw": "August 892 – 24 November 907",
+            "parsed": {
+              "start": "0892-08-01",
+              "end": "0907-11-24",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Amir of the Samanids",
+            "raw": "892&ndash;907",
+            "parsed": {
+              "start": "0892-01-01",
+              "end": "0907-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nasr I",
+        "title": "Nasr I",
+        "person": "Q1209351",
+        "name": "Nasr I ibn Ahmad",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Nasr_I",
+        "identityResolution": {
+          "requested": "Nasr I",
+          "canonical": "Nasr I",
+          "qid": "Q1209351"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q72647786",
+          "start": "0865-01-01",
+          "end": "0892-01-01",
+          "precision": 9,
+          "statement": "Q1209351$3684741f-49c8-12cd-ea8e-9f22c4a2b764",
+          "label": "emir samánida"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1209351",
+        "title": "Nasr I",
+        "source": "https://en.wikipedia.org/wiki/Nasr_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Amir of the Samanids",
+            "raw": "864/5–892",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Amir of the Samanids",
+            "raw": "864/5&ndash;892",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nuh ibn Asad",
+        "title": "Nuh ibn Asad",
+        "person": "Q1045661",
+        "name": "Nuh ibn Asad",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Nuh_ibn_Asad",
+        "identityResolution": {
+          "requested": "Nuh ibn Asad",
+          "canonical": "Nuh ibn Asad",
+          "qid": "Q1045661"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q118012303",
+          "start": "0819-01-01",
+          "end": "0841-01-01",
+          "precision": 9,
+          "statement": "Q1045661$0f1ace9c-4842-a28d-4f4a-f2685c9f896c",
+          "label": "Samanid ruler of Samarkand"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1045661",
+        "title": "Nuh ibn Asad",
+        "source": "https://en.wikipedia.org/wiki/Nuh_ibn_Asad",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emir of Samarkand Shahanshah",
+            "raw": "819–841/842",
+            "parsed": null
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1045661",
+        "title": "Nuh ibn Asad",
+        "source": "https://en.wikipedia.org/wiki/Nuh_ibn_Asad",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q118012303",
+          "start": "0819-01-01",
+          "end": "0841-01-01",
+          "precision": 9,
+          "statement": "Q1045661$0f1ace9c-4842-a28d-4f4a-f2685c9f896c",
+          "label": "Samanid ruler of Samarkand"
+        }
+      },
+      {
+        "person": "Q860258",
+        "title": "Ahmad ibn Asad",
+        "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Asad",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q118012026",
+          "start": "0850-01-01",
+          "end": "0865-01-01",
+          "precision": 9,
+          "statement": "Q860258$d8869222-4806-93ba-3ad0-eea01fce8a42",
+          "label": "Samanid ruler of Shash"
+        }
+      },
+      {
+        "person": "Q860258",
+        "title": "Ahmad ibn Asad",
+        "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Asad",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q118012303",
+          "start": "0855-01-01",
+          "end": "0865-01-01",
+          "precision": 9,
+          "statement": "Q860258$3e0e8d46-4444-9e25-c91b-c1f33e3625de",
+          "label": "Samanid ruler of Samarkand"
+        }
+      },
+      {
+        "person": "Q1209351",
+        "title": "Nasr I",
+        "source": "https://en.wikipedia.org/wiki/Nasr_I",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q72647786",
+          "start": "0865-01-01",
+          "end": "0892-01-01",
+          "precision": 9,
+          "statement": "Q1209351$3684741f-49c8-12cd-ea8e-9f22c4a2b764",
+          "label": "emir samánida"
+        }
+      },
+      {
+        "person": "Q862648",
+        "title": "Isma'il ibn Ahmad",
+        "source": "https://en.wikipedia.org/wiki/Ismail_Samani",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Amir of the Samanid Empire",
+          "raw": "August 892 – 24 November 907",
+          "parsed": {
+            "start": "0892-08-01",
+            "end": "0907-11-24",
+            "precision": 10
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "rejectedPortraits": [
+    {
+      "person": "Q862648",
+      "title": "TajikistanP19-100Somoni-1999(2000)-donatedeh f.jpg",
+      "reason": "Billete completo, inadecuado como retrato individual.",
+      "source": "https://commons.wikimedia.org/wiki/File:TajikistanP19-100Somoni-1999(2000)-donatedeh_f.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q862648",
+      "name": "Ismail Samani",
+      "title": "TajikistanP19-100Somoni-1999(2000)-donatedeh f.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:TajikistanP19-100Somoni-1999(2000)-donatedeh_f.jpg",
+      "sha256": "39f7a45b9e235128ed252f895f9171c0f43e9f5b52f6a955a952938c5fa4e8f4",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Billete completo, inadecuado como retrato individual."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-24",
+      "name": "Bujará · sede de Ismail",
+      "coordinates": [
+        64.422,
+        39.775
+      ],
+      "start": 892,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Samanid_Empire",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  }
+}

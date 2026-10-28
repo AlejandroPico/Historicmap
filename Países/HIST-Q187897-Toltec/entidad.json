@@ -3,7 +3,8 @@
   "name": "Toltec",
   "qid": "Q187897",
   "aliases": [
-    "Toltec"
+    "Toltec",
+    "Toltec Empire"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -41,15 +42,40 @@
       "status": "Entidad histórica · reconstrucción anual"
     },
     {
+      "file": "world_1000.geojson",
+      "recordId": 60,
+      "start": null,
+      "end": null,
+      "name": "Toltec Empire",
+      "status": null
+    },
+    {
       "file": "early-modern-900.geojson",
       "recordId": "clio-3586",
       "start": 900,
       "end": 999,
       "name": "Toltec",
       "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3300",
+      "start": 875,
+      "end": 899,
+      "name": "Toltec",
+      "status": "Entidad histórica · reconstrucción anual"
     }
   ],
   "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-TOLTEC-EMPIRE-Y0800:0",
+      "contextKey": "REFERENCE-TOLTEC-EMPIRE",
+      "start": 800,
+      "end": 899,
+      "sourceYear": 800,
+      "canonicalFile": "Países/HIST-Q187897-Toltec/poblamiento/REFERENCE-TOLTEC-EMPIRE-Y0800.json"
+    },
     {
       "file": "cultural-regions.geojson",
       "recordId": "REFERENCE-TOLTEC-EMPIRE:0",

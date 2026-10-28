@@ -1,0 +1,961 @@
+{
+  "key": "EAST-FRANCIA",
+  "identity": {
+    "qid": "Q153080",
+    "name": "Reino de los francos orientales"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Rey de los francos orientales",
+      "officePattern": "King.*East|King.*German|Rey.*German|rey.*orient",
+      "titles": [
+        "Louis the German",
+        "Louis the Younger",
+        "Carloman of Bavaria",
+        "Charles the Fat",
+        "Arnulf of Carinthia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q152463",
+      "name": "Luis el Germánico",
+      "role": "Rey de los francos orientales",
+      "start": "0843-08-10",
+      "end": "0876-08-28",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Louis_the_German",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-1ebb5978feb75bc091ef.jpg",
+        "title": "Louis I of East Francia.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Louis_I_of_East_Francia.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Louis_I_of_East_Francia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "artist": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "File:Louis II de Germanie.jpg",
+        "sha256": "2790a97cd7afeb361edcc06061fb15ad7f2ac08d3b83643015e9dc52317cb1da",
+        "bytes": 86842,
+        "canonicalFile": "Países/EAST-FRANCIA-Francia-Oriental-y-realeza-germanica/retratos/portrait-1ebb5978feb75bc091ef.jpg",
+        "caption": "Representación posterior de Luis el Germánico; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q160190",
+      "name": "Luis III de Alemania",
+      "role": "Rey de los francos orientales",
+      "start": "0876-01-01",
+      "end": "0882-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Louis_the_Younger",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-d597f2a262ae59e83680.jpg",
+        "title": "Louis II the Younger, king of Lotharigia.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Louis_II_the_Younger,_king_of_Lotharigia.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Louis_II_the_Younger%2C_king_of_Lotharigia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "File:Treaty of Fouron.jpg",
+        "sha256": "ec8523943d999390662b0261f8fda7a7be8a9e7d47c75cdc6ec83a9c37e5b315",
+        "bytes": 44013,
+        "canonicalFile": "Países/EAST-FRANCIA-Francia-Oriental-y-realeza-germanica/retratos/portrait-d597f2a262ae59e83680.jpg",
+        "caption": "Representación posterior de Luis III de Alemania; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q157084",
+      "name": "Carlomán de Baviera",
+      "role": "Rey de los francos orientales",
+      "start": "0876-01-01",
+      "end": "0879-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Carloman_of_Bavaria",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-fadad2a0daa0e3b2d51b.png",
+        "title": "Carloman of Bavaria.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Carloman_of_Bavaria.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Carloman_of_Bavaria.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "artist": "Ekkehard von Aura",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carloman_of_Bavaria.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "This file was derived from:  Stammtafel der Karolinger.jpg: ",
+        "sha256": "e8c9056234260bf253f0a0ed1626a5786699b664eec6e18a6d225b2515b9f6c0",
+        "bytes": 142813,
+        "canonicalFile": "Países/EAST-FRANCIA-Francia-Oriental-y-realeza-germanica/retratos/portrait-fadad2a0daa0e3b2d51b.png",
+        "caption": "Representación posterior de Carlomán de Baviera; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q150712",
+      "name": "Carlos III el Gordo",
+      "role": "Rey de los francos orientales",
+      "start": "0882-01-01",
+      "end": "0887-11-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Charles_the_Fat",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-c8969734b08d9f49268a.jpg",
+        "title": "Charles III the Fat.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Charles_III_the_Fat.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Charles_III_the_Fat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "artist": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "File:Charles the Fat.jpg",
+        "sha256": "fbfcc6ce495b450523bf85ab344b80d0fcd71782dedd17aea92e36072122e4c9",
+        "bytes": 35521,
+        "canonicalFile": "Países/EAST-FRANCIA-Francia-Oriental-y-realeza-germanica/retratos/portrait-c8969734b08d9f49268a.jpg",
+        "caption": "Representación posterior de Carlos III el Gordo; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q154936",
+      "name": "Arnulfo de Carintia",
+      "role": "Rey de los francos orientales",
+      "start": "0887-11-27",
+      "end": "0899-12-08",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Arnulf_of_Carinthia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-f0f19e00e47559fa8d8b.jpg",
+        "title": "Arnulf Korutanský.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Arnulf_Korutansk%C3%BD.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Arnulf_Korutansk%C3%BD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Arnulf_Korutansk%C3%BD.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Dalimilova kronika",
+        "sha256": "5f43d09f3780bc7460a96c2dabdbb24a38594be1e65dd3512e1e87475e4de342",
+        "bytes": 17911,
+        "canonicalFile": "Países/EAST-FRANCIA-Francia-Oriental-y-realeza-germanica/retratos/portrait-f0f19e00e47559fa8d8b.jpg",
+        "caption": "Representación posterior de Arnulfo de Carintia; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review032-verdun-east",
+      "type": "institution",
+      "title": "Realeza franco-oriental",
+      "start": "0843-01-01",
+      "end": "0900-01-01",
+      "text": "Luis el Germánico y sus sucesores gobiernan un ámbito distinto del occidental. Una coronación imperial posterior no permite proyectar el Sacro Imperio medieval sobre todo este siglo.",
+      "source": "https://www.insei.fr/ressources/le-partage-de-verdun-en-843",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 843,
+      "end": 899,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Carolingian_dynasty",
+      "sourceLabel": "Institución regia carolingia",
+      "note": "Título regio distinto de la dignidad imperial; no evaluación de régimen contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "East Franks"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Reino de los francos orientales",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "609a92cf1f878b1f718d7982173bcbf41b4ae78768fc06123d991e8fcf19f619",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3168,
+        3184,
+        3267,
+        3295,
+        3334,
+        3352,
+        3383,
+        3446,
+        3480,
+        3490,
+        3528,
+        3559
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Arnulf of Carinthia",
+        "title": "Arnulf of Carinthia",
+        "person": "Q154936",
+        "name": "Arnulfo de Carintia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Arnulf_of_Carinthia",
+        "identityResolution": {
+          "requested": "Arnulf of Carinthia",
+          "canonical": "Arnulf of Carinthia",
+          "qid": "Q154936"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q23906200",
+          "start": "0896-01-01",
+          "end": "0899-01-01",
+          "precision": 9,
+          "statement": "Q154936$86ac95ce-abe7-457e-bc06-dcec26c266ce",
+          "label": "emperador de occidente"
+        },
+        {
+          "property": "P39",
+          "office": "Q271148",
+          "start": "0897-01-01",
+          "end": "0899-01-01",
+          "precision": 9,
+          "statement": "Q154936$c9c939d0-4913-ccba-3776-2f14262814a9",
+          "label": "monarca de Italia"
+        },
+        {
+          "property": "P39",
+          "office": "Q24005308",
+          "start": "0880-01-01",
+          "end": "0887-01-01",
+          "precision": 9,
+          "statement": "Q154936$049a1198-4fca-ca1b-531f-d1a169183d53",
+          "label": "duque de Carintia"
+        },
+        {
+          "property": "P39",
+          "office": "Q125664067",
+          "start": "0887-01-01",
+          "end": "0899-01-01",
+          "precision": 9,
+          "statement": "Q154936$6e4b7a24-4ca6-ed27-952d-f466520cab0a",
+          "label": "King of East Francia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q154936",
+        "title": "Arnulf of Carinthia",
+        "source": "https://en.wikipedia.org/wiki/Arnulf_of_Carinthia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Carolingian Emperor of Italy",
+            "raw": "22 February 896 – 8 December 899",
+            "parsed": {
+              "start": "0896-02-22",
+              "end": "0899-12-08",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of Italy",
+            "raw": "894 – 8 December 899",
+            "parsed": {
+              "start": "0894-01-01",
+              "end": "0899-12-08",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King of East Francia",
+            "raw": "{{circa|27 November 887}}<ref>[https://www.deutsche-biographie.de/gnd118630938.html \"Karl III.\"], ''[[Neue Deutsche Biographie]]''. \"[Karl's] last document from Frankfurt is dated to 17 November 887, and Arnulf's first document is dated to 27 November 887.\"</ref> – 8 December 899",
+            "parsed": {
+              "start": "0887-11-27",
+              "end": "0899-12-08",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of East Francia",
+            "raw": "887–899",
+            "parsed": {
+              "start": "0887-01-01",
+              "end": "0899-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Lotharingia",
+            "raw": "887–894",
+            "parsed": {
+              "start": "0887-01-01",
+              "end": "0894-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Carloman of Bavaria",
+        "title": "Carloman of Bavaria",
+        "person": "Q157084",
+        "name": "Carlomán de Baviera",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Carloman_of_Bavaria",
+        "identityResolution": {
+          "requested": "Carloman of Bavaria",
+          "canonical": "Carloman of Bavaria",
+          "qid": "Q157084"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q271148",
+          "start": "0877-01-01",
+          "end": "0879-01-01",
+          "precision": 9,
+          "statement": "Q157084$5254E663-974F-4E11-9BDE-DDBB6BEA9672",
+          "label": "monarca de Italia"
+        },
+        {
+          "property": "P97",
+          "office": "Q125664067",
+          "start": "0876-01-01",
+          "end": "0879-01-01",
+          "precision": 9,
+          "statement": "Q157084$1AC12074-4978-4EF4-AC02-5931434B8DCF",
+          "label": "King of East Francia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q157084",
+        "title": "Carloman of Bavaria",
+        "source": "https://en.wikipedia.org/wiki/Carloman_of_Bavaria",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Bavaria",
+            "raw": "28 August 876 – 879",
+            "parsed": {
+              "start": "0876-08-28",
+              "end": "0879-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of Italy",
+            "raw": "877–879",
+            "parsed": {
+              "start": "0877-01-01",
+              "end": "0879-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Bavaria",
+            "raw": "876&ndash;880",
+            "parsed": {
+              "start": "0876-01-01",
+              "end": "0880-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Italy",
+            "raw": "877&ndash;880",
+            "parsed": {
+              "start": "0877-01-01",
+              "end": "0880-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Governor of Carantania and the Pannonian March",
+            "raw": "856&ndash;863 and 864&ndash;876",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Charles the Fat",
+        "title": "Charles the Fat",
+        "person": "Q150712",
+        "name": "Carlos III el Gordo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Charles_the_Fat",
+        "identityResolution": {
+          "requested": "Charles the Fat",
+          "canonical": "Charles the Fat",
+          "qid": "Q150712"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q29168087",
+          "start": "0885-06-01",
+          "end": "0887-11-01",
+          "precision": 10,
+          "statement": "Q150712$189e77b4-4004-71a8-9599-0f441eeac381",
+          "label": "rey de los francos occidentales"
+        },
+        {
+          "property": "P39",
+          "office": "Q111841382",
+          "start": "0881-02-12",
+          "end": "0887-11-01",
+          "precision": 10,
+          "statement": "Q150712$d394a138-4d0b-d757-331d-6512822d8733",
+          "label": "Emperador carolingio"
+        },
+        {
+          "property": "P39",
+          "office": "Q125664067",
+          "start": "0882-01-01",
+          "end": "0887-01-01",
+          "precision": 9,
+          "statement": "Q150712$37f89c76-4674-d88a-c9de-fcba9bc0be33",
+          "label": "King of East Francia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q150712",
+        "title": "Charles the Fat",
+        "source": "https://en.wikipedia.org/wiki/Charles_the_Fat",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Carolingian Empire",
+            "raw": "12 February 881 – November 887",
+            "parsed": {
+              "start": "0881-02-12",
+              "end": "0887-11-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of West Francia and Aquitaine",
+            "raw": "12 December 884 – November 887",
+            "parsed": {
+              "start": "0884-12-12",
+              "end": "0887-11-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King of East Francia",
+            "raw": "January 882 - November 887",
+            "parsed": {
+              "start": "0882-01-01",
+              "end": "0887-11-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "reign3",
+            "office": "King of Italy",
+            "raw": "22 March 880 – November 887",
+            "parsed": {
+              "start": "0880-03-22",
+              "end": "0887-11-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "reign4",
+            "office": "King of Alamannia",
+            "raw": "28 August 876 – January 882",
+            "parsed": {
+              "start": "0876-08-28",
+              "end": "0882-01-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Alamannia",
+            "raw": "28 August 876 – 20 January 882",
+            "parsed": {
+              "start": "0876-08-28",
+              "end": "0882-01-20",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Italy",
+            "raw": "879–887",
+            "parsed": {
+              "start": "0879-01-01",
+              "end": "0887-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Carolingian emperor",
+            "raw": "881–888",
+            "parsed": {
+              "start": "0881-01-01",
+              "end": "0888-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Saxony, Bavaria and Lotharingia",
+            "raw": "20 January 882",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "King of East Francia",
+            "raw": "20 January 882 – 17 November 887",
+            "parsed": {
+              "start": "0882-01-20",
+              "end": "0887-11-17",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of West Francia",
+            "raw": "884–888",
+            "parsed": {
+              "start": "0884-01-01",
+              "end": "0888-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Louis the German",
+        "title": "Louis the German",
+        "person": "Q152463",
+        "name": "Luis el Germánico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Louis_the_German",
+        "identityResolution": {
+          "requested": "Louis the German",
+          "canonical": "Louis the German",
+          "qid": "Q152463"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q125664067",
+          "start": "0843-01-01",
+          "end": "0876-01-01",
+          "precision": 9,
+          "statement": "Q152463$483F88E7-3EDB-4E6F-ACB4-6386B2182D32",
+          "label": "King of East Francia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q152463",
+        "title": "Louis the German",
+        "source": "https://en.wikipedia.org/wiki/Louis_the_German",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of East Francia (King of Germany)",
+            "raw": "{{circa}} 10 August 843 – 28 August 876",
+            "parsed": {
+              "start": "0843-08-10",
+              "end": "0876-08-28",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King of West Francia (in opposition to Charles the Bald)",
+            "raw": "858 – 859 (a few months)",
+            "parsed": {
+              "start": "0858-01-01",
+              "end": "0859-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Maine",
+            "raw": "811–817",
+            "parsed": {
+              "start": "0811-01-01",
+              "end": "0817-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Bavaria",
+            "raw": "817–843",
+            "parsed": {
+              "start": "0817-01-01",
+              "end": "0843-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of East Francia",
+            "raw": "843–876",
+            "parsed": {
+              "start": "0843-01-01",
+              "end": "0876-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Louis the Younger",
+        "title": "Louis the Younger",
+        "person": "Q160190",
+        "name": "Luis III de Alemania",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Louis_the_Younger",
+        "identityResolution": {
+          "requested": "Louis the Younger",
+          "canonical": "Louis the Younger",
+          "qid": "Q160190"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q125664067",
+          "start": "0876-01-01",
+          "end": "0882-01-01",
+          "precision": 9,
+          "statement": "Q160190$c2ae27b4-9148-4cbe-a6f8-454d4a3c5a37",
+          "label": "King of East Francia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q160190",
+        "title": "Louis the Younger",
+        "source": "https://en.wikipedia.org/wiki/Louis_the_Younger",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Saxony",
+            "raw": "28 August 876 – 20 January 882",
+            "parsed": {
+              "start": "0876-08-28",
+              "end": "0882-01-20",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of Bavaria",
+            "raw": "22 March 880 – 20 January 882",
+            "parsed": {
+              "start": "0880-03-22",
+              "end": "0882-01-20",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of East Francia",
+            "raw": "876 –882",
+            "parsed": {
+              "start": "0876-01-01",
+              "end": "0882-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Bavaria",
+            "raw": "880–882",
+            "parsed": {
+              "start": "0880-01-01",
+              "end": "0882-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Lotharingia",
+            "raw": "880–882",
+            "parsed": {
+              "start": "0880-01-01",
+              "end": "0882-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q152463",
+        "title": "Louis the German",
+        "source": "https://en.wikipedia.org/wiki/Louis_the_German",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of East Francia (King of Germany)",
+          "raw": "{{circa}} 10 August 843 – 28 August 876",
+          "parsed": {
+            "start": "0843-08-10",
+            "end": "0876-08-28",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q160190",
+        "title": "Louis the Younger",
+        "source": "https://en.wikipedia.org/wiki/Louis_the_Younger",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of East Francia",
+          "raw": "876 –882",
+          "parsed": {
+            "start": "0876-01-01",
+            "end": "0882-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q157084",
+        "title": "Carloman of Bavaria",
+        "source": "https://en.wikipedia.org/wiki/Carloman_of_Bavaria",
+        "selectionEvidence": {
+          "property": "P97",
+          "office": "Q125664067",
+          "start": "0876-01-01",
+          "end": "0879-01-01",
+          "precision": 9,
+          "statement": "Q157084$1AC12074-4978-4EF4-AC02-5931434B8DCF",
+          "label": "King of East Francia"
+        }
+      },
+      {
+        "person": "Q150712",
+        "title": "Charles the Fat",
+        "source": "https://en.wikipedia.org/wiki/Charles_the_Fat",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King of East Francia",
+          "raw": "January 882 - November 887",
+          "parsed": {
+            "start": "0882-01-01",
+            "end": "0887-11-01",
+            "precision": 10
+          }
+        }
+      },
+      {
+        "person": "Q154936",
+        "title": "Arnulf of Carinthia",
+        "source": "https://en.wikipedia.org/wiki/Arnulf_of_Carinthia",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King of East Francia",
+          "raw": "{{circa|27 November 887}}<ref>[https://www.deutsche-biographie.de/gnd118630938.html \"Karl III.\"], ''[[Neue Deutsche Biographie]]''. \"[Karl's] last document from Frankfurt is dated to 17 November 887, and Arnulf's first document is dated to 27 November 887.\"</ref> – 8 December 899",
+          "parsed": {
+            "start": "0887-11-27",
+            "end": "0899-12-08",
+            "precision": 11
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q152463",
+      "name": "Luis el Germánico",
+      "title": "Louis I of East Francia.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Louis_I_of_East_Francia.jpg",
+      "sha256": "2790a97cd7afeb361edcc06061fb15ad7f2ac08d3b83643015e9dc52317cb1da",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Luis el Germánico; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q160190",
+      "name": "Luis III de Alemania",
+      "title": "Louis II the Younger, king of Lotharigia.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Louis_II_the_Younger,_king_of_Lotharigia.jpg",
+      "sha256": "ec8523943d999390662b0261f8fda7a7be8a9e7d47c75cdc6ec83a9c37e5b315",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Luis III de Alemania; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q157084",
+      "name": "Carlomán de Baviera",
+      "title": "Carloman of Bavaria.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Carloman_of_Bavaria.png",
+      "sha256": "e8c9056234260bf253f0a0ed1626a5786699b664eec6e18a6d225b2515b9f6c0",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Carlomán de Baviera; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q150712",
+      "name": "Carlos III el Gordo",
+      "title": "Charles III the Fat.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Charles_III_the_Fat.jpg",
+      "sha256": "fbfcc6ce495b450523bf85ab344b80d0fcd71782dedd17aea92e36072122e4c9",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Carlos III el Gordo; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q154936",
+      "name": "Arnulfo de Carintia",
+      "title": "Arnulf Korutanský.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Arnulf_Korutansk%C3%BD.jpg",
+      "sha256": "5f43d09f3780bc7460a96c2dabdbb24a38594be1e65dd3512e1e87475e4de342",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Arnulfo de Carintia; no retrato del natural acreditado."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-2",
+      "name": "Ratisbona · centro regio",
+      "coordinates": [
+        12.097,
+        49.014
+      ],
+      "start": 843,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/East_Francia",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    },
+    {
+      "id": "seat032-verdun-EAST-FRANCIA",
+      "name": "Ratisbona · centro regio",
+      "coordinates": [
+        12.097,
+        49.014
+      ],
+      "start": 843,
+      "end": 849,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://www.insei.fr/ressources/le-partage-de-verdun-en-843",
+      "note": "Corona distinta desde el reparto de 843. La fuente cartográfica mantiene el contorno franco agregado hasta 849; este centro permite consultar autoridades sin inventar una frontera exacta. Localización de corte de referencia, no capital exclusiva.",
+      "aggregateKey": "FRANKISH-REALM",
+      "entityName": "Reino de los francos orientales"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review032-verdun-east",
+      "type": "institution",
+      "title": "Realeza franco-oriental",
+      "start": "0843-01-01",
+      "end": "0900-01-01",
+      "text": "Luis el Germánico y sus sucesores gobiernan un ámbito distinto del occidental. Una coronación imperial posterior no permite proyectar el Sacro Imperio medieval sobre todo este siglo.",
+      "source": "https://www.insei.fr/ressources/le-partage-de-verdun-en-843",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "cartographicChronologyReview": {
+    "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+    "historicalPartitionYear": 843,
+    "firstSeparateSourceGeometryYear": 850,
+    "decision": "Contorno agregado anterior señalado como referencia; tres centros de corona seleccionables843–849, sin adelantar las geometrías850."
+  }
+}

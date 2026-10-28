@@ -3,6 +3,7 @@
   "name": "Celtic kingdoms · referencia",
   "qid": "",
   "aliases": [
+    "Celtic kingdoms",
     "Celtic kingdoms · referencia"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
@@ -12,8 +13,26 @@
   "symbolReferences": [],
   "leaders": [],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 61,
+      "start": null,
+      "end": null,
+      "name": "Celtic kingdoms",
+      "status": null
+    }
+  ],
   "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-CELTIC-KINGDOMS-Y0800:0",
+      "contextKey": "REFERENCE-CELTIC-KINGDOMS",
+      "start": 800,
+      "end": 899,
+      "sourceYear": 800,
+      "canonicalFile": "Países/REFERENCE-CELTIC-KINGDOMS-Celtic-kingdoms-referencia/poblamiento/REFERENCE-CELTIC-KINGDOMS-Y0800.json"
+    },
     {
       "file": "cultural-regions.geojson",
       "recordId": "REFERENCE-CELTIC-KINGDOMS:0",

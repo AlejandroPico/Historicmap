@@ -1,9 +1,10 @@
 {
   "key": "REFERENCE-TIAHUANACO-EMPIRE",
-  "name": "Tiwanaku · etapa tardía · referencia",
+  "name": "Tiwanaku · centros y redes regionales",
   "qid": "",
   "aliases": [
-    "Tiwanaku · etapa tardía · referencia"
+    "Tiahuanaco Empire",
+    "Tiwanaku · centros y redes regionales"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -12,8 +13,26 @@
   "symbolReferences": [],
   "leaders": [],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 56,
+      "start": null,
+      "end": null,
+      "name": "Tiahuanaco Empire",
+      "status": null
+    }
+  ],
   "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-TIAHUANACO-EMPIRE-Y0800:0",
+      "contextKey": "REFERENCE-TIAHUANACO-EMPIRE",
+      "start": 800,
+      "end": 899,
+      "sourceYear": 800,
+      "canonicalFile": "Países/REFERENCE-TIAHUANACO-EMPIRE-Tiwanaku-etapa-tardia-referencia/poblamiento/REFERENCE-TIAHUANACO-EMPIRE-Y0800.json"
+    },
     {
       "file": "cultural-regions.geojson",
       "recordId": "REFERENCE-TIAHUANACO-EMPIRE:0",

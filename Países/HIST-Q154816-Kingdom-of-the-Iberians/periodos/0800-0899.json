@@ -1,0 +1,334 @@
+{
+  "key": "HIST-Q154816",
+  "identity": {
+    "qid": "Q154816",
+    "name": "Kingdom of the Iberians"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Príncipe / rey de Iberia",
+      "officePattern": "Prince.*Iberia|King.*Iberia",
+      "titles": [
+        "Ashot I of Iberia",
+        "Bagrat I of Iberia",
+        "David I of Iberia",
+        "Adarnase IV of Iberia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q321417",
+      "name": "Bagrat I de Iberia",
+      "role": "Príncipe / rey de Iberia",
+      "start": "0826-01-01",
+      "end": "0876-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bagrat_I_of_Iberia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q888663",
+      "name": "David I de Iberia",
+      "role": "Príncipe / rey de Iberia",
+      "start": "0876-01-01",
+      "end": "0881-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/David_I_of_Iberia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q352605",
+      "name": "Adarnase IV de Iberia",
+      "role": "Príncipe / rey de Iberia",
+      "start": "0888-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Adarnase_IV_of_Iberia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 800,
+      "end": 899,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q154816",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional de fuente; no evaluación democrática ni gobierno uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of the Iberians"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Kingdom of the Iberians",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "1e4fb2f6dafeb15591c0428fabc2f2fdfb9ac4a92ef576ec4afd58848a0725dd",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3046,
+        3078,
+        3136,
+        3238,
+        3427
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Adarnase IV of Iberia",
+        "title": "Adarnase IV of Iberia",
+        "person": "Q352605",
+        "name": "Adarnase IV de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Adarnase_IV_of_Iberia",
+        "identityResolution": {
+          "requested": "Adarnase IV of Iberia",
+          "canonical": "Adarnase IV of Iberia",
+          "qid": "Q352605"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q352605",
+        "title": "Adarnase IV of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Adarnase_IV_of_Iberia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Iberians",
+            "raw": "888–923",
+            "parsed": {
+              "start": "0888-01-01",
+              "end": "0923-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "''Kouropalates'' of Iberia",
+            "raw": "891–923",
+            "parsed": {
+              "start": "0891-01-01",
+              "end": "0923-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "Duke of Lower Tao",
+            "raw": "881–923",
+            "parsed": {
+              "start": "0881-01-01",
+              "end": "0923-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ashot I of Iberia",
+        "title": "Ashot I of Iberia",
+        "person": "Q250091",
+        "name": "Ashot I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ashot_I_of_Iberia",
+        "identityResolution": {
+          "requested": "Ashot I of Iberia",
+          "canonical": "Ashot I of Iberia",
+          "qid": "Q250091"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q250091",
+        "title": "Ashot I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Ashot_I_of_Iberia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Presiding prince of Iberia",
+            "raw": "813–826/830",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Bagrat I of Iberia",
+        "title": "Bagrat I of Iberia",
+        "person": "Q321417",
+        "name": "Bagrat I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bagrat_I_of_Iberia",
+        "identityResolution": {
+          "requested": "Bagrat I of Iberia",
+          "canonical": "Bagrat I of Iberia",
+          "qid": "Q321417"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q321417",
+        "title": "Bagrat I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Bagrat_I_of_Iberia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Presiding prince of Iberia",
+            "raw": "826–876",
+            "parsed": {
+              "start": "0826-01-01",
+              "end": "0876-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "David I of Iberia",
+        "title": "David I of Iberia",
+        "person": "Q888663",
+        "name": "David I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/David_I_of_Iberia",
+        "identityResolution": {
+          "requested": "David I of Iberia",
+          "canonical": "David I of Iberia",
+          "qid": "Q888663"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q888663",
+        "title": "David I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/David_I_of_Iberia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Presiding prince of Iberia & Curopalates",
+            "raw": "876&ndash;881",
+            "parsed": {
+              "start": "0876-01-01",
+              "end": "0881-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q321417",
+        "title": "Bagrat I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Bagrat_I_of_Iberia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Presiding prince of Iberia",
+          "raw": "826–876",
+          "parsed": {
+            "start": "0826-01-01",
+            "end": "0876-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q888663",
+        "title": "David I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/David_I_of_Iberia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Presiding prince of Iberia & Curopalates",
+          "raw": "876&ndash;881",
+          "parsed": {
+            "start": "0876-01-01",
+            "end": "0881-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q352605",
+        "title": "Adarnase IV of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Adarnase_IV_of_Iberia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Iberians",
+          "raw": "888–923",
+          "parsed": {
+            "start": "0888-01-01",
+            "end": "0923-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Ashot I of Iberia",
+        "person": "Q250091",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

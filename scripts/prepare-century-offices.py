@@ -55,9 +55,13 @@ def main(century,review):
     if pattern:
      for c in ev['claims']:
       if re.search(pattern,c.get('label',''),re.I):dates.append((c['start'],c['end'][:4]+'-12-31'if c['precision']==9 and c['end'].endswith('-01-01')else c['end'],c,c['precision']))
-    if not dates:
+    if not dates or d.get('preferExplicitReignFields'):
+     explicit=[]
      for f in by_person.get(row['person'],{}).get('reignFields',[]):
-      if f['parsed']and (not pattern or re.search(pattern,f.get('office',''),re.I))and not re.search('Retired|Emeritus|Taishang',f.get('office',''),re.I):dates.append((f['parsed']['start'],f['parsed']['end'],f,f['parsed']['precision']))
+      if f['parsed']and (not pattern or re.search(pattern,f.get('office',''),re.I))and not re.search('Retired|Emeritus|Taishang|consort',f.get('office',''),re.I):explicit.append((f['parsed']['start'],f['parsed']['end'],f,f['parsed']['precision']))
+     if explicit:
+      primary=[v for v in explicit if v[2].get('field')!='succession-template']
+      dates=primary or explicit
     if not dates:pending.append(dict(title=title,person=row['person'],reason='Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo.'));continue
     for a,b,why,precision in dates:add(row,group['role'],a,b,why,d.get('officeNote',''),precision)
   generic=[]
@@ -65,7 +69,7 @@ def main(century,review):
    if any(r['person']==l['person']and r['start']<=l['end']and l['start']<=r['end'] for r in accepted):continue
    if l['start']>bounds[1]or l['end']<bounds[0]:continue
    l={**l,'start':max(l['start'],bounds[0]),'end':min(l['end'],bounds[1])};generic.append(l)
-  d['leaders']=[*generic,*accepted];d['officeResearch']=dict(selected=len(accepted),acquiredRetained=len(generic),evidence=frozen,pending=pending)
+  d['leaders']=[*generic,*accepted,*d.get('documentedAuthorities',[])];d['officeResearch']=dict(selected=len(accepted),acquiredRetained=len(generic),documentaryLocalAuthorities=len(d.get('documentedAuthorities',[])),evidence=frozen,pending=pending)
   save(path,d);records+=len(accepted);unresolved+=len(pending)
  # Retire only the temporary acquisition additions, keeping every prior fact.
  for key,c in ids['countries'].items():c['leaders']=[l for l in c['leaders']if l.get('acquisition')!=tag]

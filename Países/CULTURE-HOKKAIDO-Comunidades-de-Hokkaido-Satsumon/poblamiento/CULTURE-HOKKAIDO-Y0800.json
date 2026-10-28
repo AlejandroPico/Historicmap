@@ -1,0 +1,82 @@
+{
+  "key": "CULTURE-HOKKAIDO-Y0800",
+  "contextKey": "CULTURE-HOKKAIDO",
+  "ownerKey": "CULTURE-HOKKAIDO",
+  "name": "Comunidades de Hokkaidō · Satsumon y Okhotsk",
+  "originalNames": [
+    "Ainu"
+  ],
+  "kind": "cultural-region",
+  "region": "Asia nororiental",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Tradiciones arqueológicas Satsumon y Okhotsk, con contactos y transformaciones. La etiquetaAinu de la fuente no acredita una identidad moderna uniforme ni expansiones posteriores aSajalín/Kuriles.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Museo de Hokkaidō · Satsumon y Okhotsk",
+      "url": "https://www.hm.pref.hokkaido.lg.jp/wp-content/uploads/2025/03/ENG-1-2.pdf"
+    },
+    {
+      "title": "Museo Nacional Ainu · formación y expansión medieval",
+      "url": "https://punkar.nam.go.jp/essay/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a99772",
+  "focus": [
+    142.57994,
+    43.35427
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Comunidades de Hokkaidō · Satsumon y Okhotsk",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-HOKKAIDO-Y0800.geojson",
+  "geometrySha256": "dc43ceaf876e9f2a792fb9a401ef21ffca820f0e6eb04c47c8703d3ea219c49a",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      50
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Ainu",
+      "ABBREVN": "Ainu",
+      "wikipedia": null,
+      "SUBJECTO": "Ainu",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Ainu"
+    }
+  ],
+  "sourceGrouping": [
+    "Ainu"
+  ]
+}

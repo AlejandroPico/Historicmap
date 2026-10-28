@@ -3,6 +3,7 @@
   "name": "Britany · referencia",
   "qid": "",
   "aliases": [
+    "Britany",
     "Britany · referencia"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
@@ -12,8 +13,34 @@
   "symbolReferences": [],
   "leaders": [],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 172,
+      "start": null,
+      "end": null,
+      "name": "Britany",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 89,
+      "start": null,
+      "end": null,
+      "name": "Britany",
+      "status": null
+    }
+  ],
   "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-BRITANY-Y0800:0",
+      "contextKey": "REFERENCE-BRITANY",
+      "start": 800,
+      "end": 899,
+      "sourceYear": 800,
+      "canonicalFile": "Países/REFERENCE-BRITANY-Britany-referencia/poblamiento/REFERENCE-BRITANY-Y0800.json"
+    },
     {
       "file": "cultural-regions.geojson",
       "recordId": "REFERENCE-BRITANY:0",

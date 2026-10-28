@@ -1,0 +1,336 @@
+{
+  "key": "HIST-Q2622868",
+  "identity": {
+    "qid": "Q2622868",
+    "name": "Bagratid Armenia"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0885-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Rey de Armenia",
+      "officePattern": "King.*Armenia",
+      "titles": [
+        "Ashot I of Armenia",
+        "Smbat I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q463419",
+      "name": "Ashot I de Armenia",
+      "role": "Rey de Armenia",
+      "start": "0885-01-01",
+      "end": "0890-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ashot_I_of_Armenia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-42dd29760fb59bbb13d2.png",
+        "title": "Ashot Medz.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Ashot_Medz.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ashot_Medz.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ashot_Medz.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Hayastan Page 6 (via http://www.hyeetch.nareg.com.au/armenians/bagratuni_p1.html )",
+        "sha256": "0a32f0127556544ff3f1bb0311d4d40d6f10147b0b91fe83c60f4ca75c49b7bf",
+        "bytes": 49900,
+        "canonicalFile": "Países/HIST-Q2622868-Bagratid-Armenia/retratos/portrait-42dd29760fb59bbb13d2.png",
+        "caption": "Representación posterior de Ashot I de Armenia; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q2299858",
+      "name": "Smbat I de Armenia",
+      "role": "Rey de Armenia",
+      "start": "0890-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Smbat_I_of_Armenia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Bagratid Armenia"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Bagratid Armenia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "b00ddb877bfc140584cf7df40b9f7343aed088a08f0e3e1b0222569707487025",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3420,
+        3471,
+        3518
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ashot I of Armenia",
+        "title": "Ashot I of Armenia",
+        "person": "Q463419",
+        "name": "Ashot I de Armenia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ashot_I_of_Armenia",
+        "identityResolution": {
+          "requested": "Ashot I of Armenia",
+          "canonical": "Ashot I of Armenia",
+          "qid": "Q463419"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q13053001",
+          "start": "0862-01-01",
+          "end": "0884-01-01",
+          "precision": 9,
+          "statement": "q463419$c9886cec-47c1-6df5-bb26-183b6653858a",
+          "label": "príncipe de príncipes de Armenia"
+        },
+        {
+          "property": "P97",
+          "office": "Q14368159",
+          "start": "0885-01-01",
+          "end": "0890-01-01",
+          "precision": 9,
+          "statement": "q463419$fee9e812-42c8-6181-1a38-b61a1c929c1e",
+          "label": "rey de Armenia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q463419",
+        "title": "Ashot I of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Ashot_I_of_Armenia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "885–890",
+            "parsed": {
+              "start": "0885-01-01",
+              "end": "0890-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Prince of Princes of Armenia",
+            "raw": "862–885",
+            "parsed": {
+              "start": "0862-01-01",
+              "end": "0885-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "''Sparapet'' of Armenia",
+            "raw": "855–884",
+            "parsed": {
+              "start": "0855-01-01",
+              "end": "0884-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of princes of Armenia under Abbasid suzerainty",
+            "raw": "862–884",
+            "parsed": {
+              "start": "0862-01-01",
+              "end": "0884-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Bagratid Armenia",
+            "raw": "884–890",
+            "parsed": {
+              "start": "0884-01-01",
+              "end": "0890-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Smbat I",
+        "title": "Smbat I",
+        "person": "Q2299858",
+        "name": "Smbat I de Armenia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Smbat_I_of_Armenia",
+        "identityResolution": {
+          "requested": "Smbat I",
+          "canonical": "Smbat I of Armenia",
+          "qid": "Q2299858"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2299858",
+        "title": "Smbat I of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Smbat_I_of_Armenia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "{{circa}} 890-914",
+            "parsed": {
+              "start": "0890-01-01",
+              "end": "0914-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Smbat I",
+            "raw": "890-914",
+            "parsed": {
+              "start": "0890-01-01",
+              "end": "0914-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q463419",
+        "title": "Ashot I of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Ashot_I_of_Armenia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Armenia",
+          "raw": "885–890",
+          "parsed": {
+            "start": "0885-01-01",
+            "end": "0890-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2299858",
+        "title": "Smbat I",
+        "source": "https://en.wikipedia.org/wiki/Smbat_I_of_Armenia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Armenia",
+          "raw": "{{circa}} 890-914",
+          "parsed": {
+            "start": "0890-01-01",
+            "end": "0914-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q463419",
+      "name": "Ashot I de Armenia",
+      "title": "Ashot Medz.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Ashot_Medz.png",
+      "sha256": "0a32f0127556544ff3f1bb0311d4d40d6f10147b0b91fe83c60f4ca75c49b7bf",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Ashot I de Armenia; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q2299858",
+      "name": "Smbat I de Armenia",
+      "title": "Smbat I of Armenia fresco at Ateni Sioni.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Smbat_I_of_Armenia_fresco_at_Ateni_Sioni.jpg",
+      "sha256": "9cb2e04b103249c4e0d580a716c9d15260406df333b3b54bbee596cb839457fc",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Identificación individual del fresco pendiente de contraste; no se adopta la atribución automática de Wikidata."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q2299858",
+      "title": "Smbat I of Armenia fresco at Ateni Sioni.jpg",
+      "reason": "Identificación individual del fresco pendiente de contraste; no se adopta la atribución automática de Wikidata.",
+      "source": "https://commons.wikimedia.org/wiki/File:Smbat_I_of_Armenia_fresco_at_Ateni_Sioni.jpg"
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-25",
+      "name": "Bagaran · centro bagrátida",
+      "coordinates": [
+        43.658,
+        40.116
+      ],
+      "start": 885,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Bagratid_Armenia",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  }
+}

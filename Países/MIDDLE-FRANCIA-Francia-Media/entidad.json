@@ -1,0 +1,101 @@
+{
+  "key": "MIDDLE-FRANCIA",
+  "name": "Francia Media",
+  "qid": "Q6673921",
+  "aliases": [
+    "Francia Media",
+    "Middle Franks"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "MIDDLE-FRANCIA"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q150735",
+      "name": "Lotario I",
+      "role": "Rey de Francia Media",
+      "start": "0843-08-10",
+      "end": "0855-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lothair_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32",
+      "portrait": {
+        "file": "media/portrait-477c6456d396fda328cf.jpg",
+        "title": "Lothar I.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Lothar_I.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lothar_I.jpg/500px-Lothar_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lothar_I.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "89b45c15654b5a4af90b782e1ad43fdd4e98442500254e2fd6d84bc6b887431d",
+        "bytes": 152849,
+        "canonicalFile": "Países/MIDDLE-FRANCIA-Francia-Media/retratos/portrait-477c6456d396fda328cf.jpg",
+        "caption": "Representación posterior de Lotario I; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q298945",
+      "name": "Lotario II de Lotaringia",
+      "role": "Rey de Francia Media",
+      "start": "0855-01-01",
+      "end": "0869-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lothair_II",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32",
+      "portrait": {
+        "file": "media/portrait-23a260c3e0084825bf61.jpg",
+        "title": "Lothar II. König von Lothringe.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Lothar_II._K%C3%B6nig_von_Lothringe.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Lothar_II._K%C3%B6nig_von_Lothringe.jpg/500px-Lothar_II._K%C3%B6nig_von_Lothringe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lothar_II._K%C3%B6nig_von_Lothringe.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://www.bildarchivaustria.at/Pages/ImageDetail.aspx?p_iBildID=4213569",
+        "sha256": "e8d5a2e09b9a07700e12a21c85913c425bc105e553cdc6c3891240fd465ca8f5",
+        "bytes": 117056,
+        "canonicalFile": "Países/MIDDLE-FRANCIA-Francia-Media/retratos/portrait-23a260c3e0084825bf61.jpg",
+        "caption": "Representación posterior de Lotario II de Lotaringia; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3149",
+      "start": 850,
+      "end": 859,
+      "name": "Middle Franks",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3551",
+      "start": 899,
+      "end": 899,
+      "name": "Middle Franks",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

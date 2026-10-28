@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-IRLANDA-B62093AE",
+  "name": "Irlanda",
+  "qid": "",
+  "aliases": [
+    "Irlanda"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "countries.geojson",
+      "recordId": 77,
+      "start": null,
+      "end": null,
+      "name": "Irlanda",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-IRLANDA-B62093AE-Y0800:0",
+      "contextKey": "CULTURE-IRLANDA-B62093AE",
+      "start": 800,
+      "end": 899,
+      "sourceYear": 800,
+      "canonicalFile": "Países/CULTURE-IRLANDA-B62093AE-Irlanda/poblamiento/CULTURE-IRLANDA-B62093AE-Y0800.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

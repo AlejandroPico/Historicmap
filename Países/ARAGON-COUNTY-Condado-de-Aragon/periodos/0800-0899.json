@@ -1,0 +1,731 @@
+{
+  "key": "ARAGON-COUNTY",
+  "identity": {
+    "qid": "Q1235737",
+    "name": "Condado de Aragón"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Conde de Aragón",
+      "officePattern": "Count.*Arag|conde.*Arag",
+      "titles": [
+        "Aureolus of Aragon",
+        "Aznar Galíndez I",
+        "García Galíndez",
+        "Galindo Aznárez I",
+        "Aznar Galíndez II",
+        "Galindo Aznárez II"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1248130",
+      "name": "Aureolo",
+      "role": "Conde de Aragón",
+      "start": "0802-01-01",
+      "end": "0809-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aureolus_of_Aragon",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q768306",
+      "name": "Aznar I Galíndez",
+      "role": "Conde de Aragón",
+      "start": "0809-01-01",
+      "end": "0820-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aznar_Gal%C3%ADndez_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-fe0ac4c197a8d03bbf5a.jpg",
+        "title": "Aznar I Galíndez.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Aznar_I_Gal%C3%ADndez.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Aznar_I_Gal%C3%ADndez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "artist": "Autor desconhecido",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aznar_I_Gal%C3%ADndez.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.enciclopedia-aragonesa.com/img/grandes/TomoIII58.jpg",
+        "sha256": "54811627c9ff0da70bb3df2c25e08113870760f82a83bb9c627e0ebbbaf93deb",
+        "bytes": 126656,
+        "canonicalFile": "Países/ARAGON-COUNTY-Condado-de-Aragon/retratos/portrait-fe0ac4c197a8d03bbf5a.jpg",
+        "caption": "Representación posterior de Aznar I Galíndez; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q1058250",
+      "name": "García Galíndez",
+      "role": "Conde de Aragón",
+      "start": "0820-01-01",
+      "end": "0833-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Garc%C3%ADa_Gal%C3%ADndez",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q2040593",
+      "name": "Galindo I Aznárez de Aragón",
+      "role": "Conde de Aragón",
+      "start": "0844-01-01",
+      "end": "0867-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Galindo_Azn%C3%A1rez_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q1991754",
+      "name": "Aznar II Galíndez",
+      "role": "Conde de Aragón",
+      "start": "0867-01-01",
+      "end": "0893-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aznar_Gal%C3%ADndez_II",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q2298546",
+      "name": "Galindo II Aznárez de Aragón",
+      "role": "Conde de Aragón",
+      "start": "0893-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Galindo_Azn%C3%A1rez_II",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-21e95a349f36e3f97d2f.jpg",
+        "title": "Galindo II Aznarez, V conde de Aragón.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Galindo_II_Aznarez,_V_conde_de_Arag%C3%B3n.jpg",
+        "artist": "Eduardo Rosales",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Galindo_II_Aznarez,_V_conde_de_Arag%C3%B3n.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "[2]",
+        "sha256": "2c50975cf73ccbc527c2156ee29e13c738a0a31686ff59610608a87b9a6eda56",
+        "bytes": 58079,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Galindo_II_Aznarez%2C_V_conde_de_Arag%C3%B3n.jpg/330px-Galindo_II_Aznarez%2C_V_conde_de_Arag%C3%B3n.jpg",
+        "canonicalFile": "Países/ARAGON-COUNTY-Condado-de-Aragon/retratos/portrait-21e95a349f36e3f97d2f.jpg",
+        "caption": "Representación posterior de Galindo II Aznárez de Aragón; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 800,
+      "end": 899,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1235737",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional de fuente; no evaluación democrática ni gobierno uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "County of Aragon"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Condado de Aragón",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "52428e8cb76091010454c5dbd70dd183009214830d2e523fb1e8ef6f2ab69400",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3100,
+        3307
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aureolus of Aragon",
+        "title": "Aureolus of Aragon",
+        "person": "Q1248130",
+        "name": "Aureolo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aureolus_of_Aragon",
+        "identityResolution": {
+          "requested": "Aureolus of Aragon",
+          "canonical": "Aureolus of Aragon",
+          "qid": "Q1248130"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q58001724",
+          "start": "0802-01-01",
+          "end": "0809-01-01",
+          "precision": 9,
+          "statement": "Q1248130$78adc15f-4556-a064-cb3d-a6afe466ac48",
+          "label": "conde de Aragón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1248130",
+        "title": "Aureolus of Aragon",
+        "source": "https://en.wikipedia.org/wiki/Aureolus_of_Aragon",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Count of Aragon",
+            "raw": "802&ndash;809",
+            "parsed": {
+              "start": "0802-01-01",
+              "end": "0809-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Aznar Galíndez I",
+        "title": "Aznar Galíndez I",
+        "person": "Q768306",
+        "name": "Aznar I Galíndez",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aznar_Gal%C3%ADndez_I",
+        "identityResolution": {
+          "requested": "Aznar Galíndez I",
+          "canonical": "Aznar Galíndez I",
+          "qid": "Q768306"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q58001724",
+          "start": "0809-01-01",
+          "end": "0820-01-01",
+          "precision": 9,
+          "statement": "Q768306$8366CF50-2E7A-4A1E-ACA2-873B9D3A7913",
+          "label": "conde de Aragón"
+        },
+        {
+          "property": "P39",
+          "office": "Q60732050",
+          "start": "0820-01-01",
+          "end": "0824-01-01",
+          "precision": 9,
+          "statement": "Q768306$E6CAE7A0-3F01-47DB-88A5-6B214A487792",
+          "label": "conde de Urgel"
+        },
+        {
+          "property": "P39",
+          "office": "Q26295432",
+          "start": "0820-01-01",
+          "end": "0824-01-01",
+          "precision": 9,
+          "statement": "Q768306$d919f560-4186-e1d6-5719-e3c606516ac3",
+          "label": "conde de la Cerdaña"
+        },
+        {
+          "property": "P97",
+          "office": "Q26295432",
+          "start": "0820-01-01",
+          "end": "0824-01-01",
+          "precision": 9,
+          "statement": "Q768306$90dda179-420a-bf60-07fb-7ba7e51a32ab",
+          "label": "conde de la Cerdaña"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q768306",
+        "title": "Aznar Galíndez I",
+        "source": "https://en.wikipedia.org/wiki/Aznar_Gal%C3%ADndez_I",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Count of Aragon and Conflent",
+            "raw": "809–820",
+            "parsed": {
+              "start": "0809-01-01",
+              "end": "0820-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Count of Urgel and Cerdagne",
+            "raw": "820–839",
+            "parsed": {
+              "start": "0820-01-01",
+              "end": "0839-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Aznar Galíndez II",
+        "title": "Aznar Galíndez II",
+        "person": "Q1991754",
+        "name": "Aznar II Galíndez",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aznar_Gal%C3%ADndez_II",
+        "identityResolution": {
+          "requested": "Aznar Galíndez II",
+          "canonical": "Aznar Galíndez II",
+          "qid": "Q1991754"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q58001724",
+          "start": "0867-01-01",
+          "end": "0893-01-01",
+          "precision": 9,
+          "statement": "Q1991754$9EDD8618-A73A-411F-9CE1-6878F407C846",
+          "label": "conde de Aragón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1991754",
+        "title": "Aznar Galíndez II",
+        "source": "https://en.wikipedia.org/wiki/Aznar_Gal%C3%ADndez_II",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Count of Aragon",
+            "raw": "867–893",
+            "parsed": {
+              "start": "0867-01-01",
+              "end": "0893-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Galindo Aznárez I",
+        "title": "Galindo Aznárez I",
+        "person": "Q2040593",
+        "name": "Galindo I Aznárez de Aragón",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Galindo_Azn%C3%A1rez_I",
+        "identityResolution": {
+          "requested": "Galindo Aznárez I",
+          "canonical": "Galindo Aznárez I",
+          "qid": "Q2040593"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q58001724",
+          "start": "0844-01-01",
+          "end": "0867-01-01",
+          "precision": 9,
+          "statement": "Q2040593$7954D118-F9D5-4EA6-9406-3F8A7AD09E69",
+          "label": "conde de Aragón"
+        },
+        {
+          "property": "P39",
+          "office": "Q60732050",
+          "start": "0824-01-01",
+          "end": "0838-01-01",
+          "precision": 9,
+          "statement": "Q2040593$5F08BD51-E346-41DF-931F-6EE6E12301A3",
+          "label": "conde de Urgel"
+        },
+        {
+          "property": "P39",
+          "office": "Q26295432",
+          "start": "0824-01-01",
+          "end": "0834-01-01",
+          "precision": 9,
+          "statement": "Q2040593$d6a2ff1f-4f39-bfb3-2025-6cf78ef5adbd",
+          "label": "conde de la Cerdaña"
+        },
+        {
+          "property": "P39",
+          "office": "Q51129545",
+          "start": "0834-01-01",
+          "end": "0844-01-01",
+          "precision": 9,
+          "statement": "Q2040593$9135790f-4fb9-3a98-d52b-2e6df2313dcd",
+          "label": "conde de Pallars"
+        },
+        {
+          "property": "P39",
+          "office": "Q58002672",
+          "start": "0834-01-01",
+          "end": "0844-01-01",
+          "precision": 9,
+          "statement": "Q2040593$590061ed-480c-cdf2-bfe8-9576644f95a7",
+          "label": "conde de Ribagorza"
+        },
+        {
+          "property": "P97",
+          "office": "Q51129545",
+          "start": "0834-01-01",
+          "end": "0844-01-01",
+          "precision": 9,
+          "statement": "Q2040593$0770d1f0-4ee9-a3b0-83ed-c714dfea5012",
+          "label": "conde de Pallars"
+        },
+        {
+          "property": "P97",
+          "office": "Q58002672",
+          "start": "0834-01-01",
+          "end": "0844-01-01",
+          "precision": 9,
+          "statement": "Q2040593$47856da2-4118-e4a1-7db3-a25d3922a373",
+          "label": "conde de Ribagorza"
+        },
+        {
+          "property": "P97",
+          "office": "Q26295432",
+          "start": "0824-01-01",
+          "end": "0834-01-01",
+          "precision": 9,
+          "statement": "Q2040593$37201210-46a4-5706-5b6a-57d6fb2ef7ae",
+          "label": "conde de la Cerdaña"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2040593",
+        "title": "Galindo Aznárez I",
+        "source": "https://en.wikipedia.org/wiki/Galindo_Azn%C3%A1rez_I",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Count of Urgell",
+            "raw": "824–834",
+            "parsed": {
+              "start": "0824-01-01",
+              "end": "0834-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Count of Cerdanya",
+            "raw": "824–834",
+            "parsed": {
+              "start": "0824-01-01",
+              "end": "0834-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Count of Aragon",
+            "raw": "844–867",
+            "parsed": {
+              "start": "0844-01-01",
+              "end": "0867-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Galindo Aznárez II",
+        "title": "Galindo Aznárez II",
+        "person": "Q2298546",
+        "name": "Galindo II Aznárez de Aragón",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Galindo_Azn%C3%A1rez_II",
+        "identityResolution": {
+          "requested": "Galindo Aznárez II",
+          "canonical": "Galindo Aznárez II",
+          "qid": "Q2298546"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q58001724",
+          "start": "0893-01-01",
+          "end": "0922-01-01",
+          "precision": 9,
+          "statement": "Q2298546$7884D0D4-83E6-4570-AD0E-D1CFE7145960",
+          "label": "conde de Aragón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2298546",
+        "title": "Galindo Aznárez II",
+        "source": "https://en.wikipedia.org/wiki/Galindo_Azn%C3%A1rez_II",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Count of Aragon",
+            "raw": "893–922",
+            "parsed": {
+              "start": "0893-01-01",
+              "end": "0922-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "García Galíndez",
+        "title": "García Galíndez",
+        "person": "Q1058250",
+        "name": "García Galíndez",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Garc%C3%ADa_Gal%C3%ADndez",
+        "identityResolution": {
+          "requested": "García Galíndez",
+          "canonical": "García Galíndez",
+          "qid": "Q1058250"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q58001724",
+          "start": "0820-01-01",
+          "end": "0833-01-01",
+          "precision": 9,
+          "statement": "Q1058250$bf671763-623c-4058-abc5-093074007f74",
+          "label": "conde de Aragón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1058250",
+        "title": "García Galíndez",
+        "source": "https://en.wikipedia.org/wiki/Garc%C3%ADa_Gal%C3%ADndez",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Count of Aragon",
+            "raw": "820–833",
+            "parsed": {
+              "start": "0820-01-01",
+              "end": "0833-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Count of Conflent",
+            "raw": "820–833",
+            "parsed": {
+              "start": "0820-01-01",
+              "end": "0833-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1248130",
+        "title": "Aureolus of Aragon",
+        "source": "https://en.wikipedia.org/wiki/Aureolus_of_Aragon",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Count of Aragon",
+          "raw": "802&ndash;809",
+          "parsed": {
+            "start": "0802-01-01",
+            "end": "0809-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q768306",
+        "title": "Aznar Galíndez I",
+        "source": "https://en.wikipedia.org/wiki/Aznar_Gal%C3%ADndez_I",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Count of Aragon and Conflent",
+          "raw": "809–820",
+          "parsed": {
+            "start": "0809-01-01",
+            "end": "0820-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q1058250",
+        "title": "García Galíndez",
+        "source": "https://en.wikipedia.org/wiki/Garc%C3%ADa_Gal%C3%ADndez",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Count of Aragon",
+          "raw": "820–833",
+          "parsed": {
+            "start": "0820-01-01",
+            "end": "0833-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2040593",
+        "title": "Galindo Aznárez I",
+        "source": "https://en.wikipedia.org/wiki/Galindo_Azn%C3%A1rez_I",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Count of Aragon",
+          "raw": "844–867",
+          "parsed": {
+            "start": "0844-01-01",
+            "end": "0867-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q1991754",
+        "title": "Aznar Galíndez II",
+        "source": "https://en.wikipedia.org/wiki/Aznar_Gal%C3%ADndez_II",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Count of Aragon",
+          "raw": "867–893",
+          "parsed": {
+            "start": "0867-01-01",
+            "end": "0893-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2298546",
+        "title": "Galindo Aznárez II",
+        "source": "https://en.wikipedia.org/wiki/Galindo_Azn%C3%A1rez_II",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Count of Aragon",
+          "raw": "893–922",
+          "parsed": {
+            "start": "0893-01-01",
+            "end": "0922-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q768306",
+      "name": "Aznar I Galíndez",
+      "title": "Aznar I Galíndez.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Aznar_I_Gal%C3%ADndez.jpg",
+      "sha256": "54811627c9ff0da70bb3df2c25e08113870760f82a83bb9c627e0ebbbaf93deb",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Aznar I Galíndez; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q2298546",
+      "name": "Galindo II Aznárez de Aragón",
+      "title": "Galindo II Aznarez, V conde de Aragón.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Galindo_II_Aznarez,_V_conde_de_Arag%C3%B3n.jpg",
+      "sha256": "2c50975cf73ccbc527c2156ee29e13c738a0a31686ff59610608a87b9a6eda56",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Galindo II Aznárez de Aragón; no retrato del natural acreditado."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-8",
+      "name": "Jaca · referencia regional",
+      "coordinates": [
+        -0.549,
+        42.57
+      ],
+      "start": 809,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/County_of_Aragon",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual.",
+      "aggregateKey": "NAVARRE-KINGDOM",
+      "entityName": "Condado de Aragón"
+    },
+    {
+      "id": "seat032-8-own",
+      "name": "Jaca · referencia regional",
+      "coordinates": [
+        -0.549,
+        42.57
+      ],
+      "start": 809,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/County_of_Aragon",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  }
+}

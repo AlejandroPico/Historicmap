@@ -1,0 +1,43 @@
+{
+  "key": "HIST-Q837326",
+  "name": "Principality of Nitra",
+  "qid": "Q837326",
+  "aliases": [
+    "Principality of Nitra"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q837326"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3052",
+      "start": 814,
+      "end": 829,
+      "name": "Principality of Nitra",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3085",
+      "start": 830,
+      "end": 839,
+      "name": "Principality of Nitra",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

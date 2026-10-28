@@ -1,0 +1,100 @@
+{
+  "key": "PUEBLO-CHACO-REFERENCE",
+  "identity": {
+    "qid": "Q478805",
+    "name": "Comunidades pueblo ancestrales · referencia regional"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review032-chaco",
+      "type": "institution",
+      "title": "Comunidades pueblo ancestrales y desarrollo de Chaco",
+      "start": "0800-01-01",
+      "end": "0900-01-01",
+      "text": "La referencia regional de 800 no acredita un Estado chacoano uniforme. El desarrollo de Chaco como gran centro se sitúa desde aproximadamente 850; la ocupación y las comunidades preceden a ese proceso.",
+      "source": "https://home.nps.gov/articles/000/chaco-canyon-and-the-antiquities-act.htm",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Puebloans - Chaco Regional System"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Comunidades pueblo ancestrales · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Comunidades pueblo ancestrales; el gran centro deChaco se documenta aproximadamente desde850. Antes se consulta la región, no un sistema imperialChaco ya consolidado. Síntesis anual de fuente, no límites diarios."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "848b2ac30fa4bbe6224a08b92fd9927a6cabdbb15e5e4d6e560f75ee518056c5",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3164
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "historicalInterpretation": "Comunidades pueblo ancestrales; el gran centro deChaco se documenta aproximadamente desde850. Antes se consulta la región, no un sistema imperialChaco ya consolidado.",
+  "officeNote": "Comunidades pueblo ancestrales; el gran centro deChaco se documenta aproximadamente desde850. Antes se consulta la región, no un sistema imperialChaco ya consolidado. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "contexts": [
+    {
+      "id": "review032-chaco",
+      "type": "institution",
+      "title": "Comunidades pueblo ancestrales y desarrollo de Chaco",
+      "start": "0800-01-01",
+      "end": "0900-01-01",
+      "text": "La referencia regional de 800 no acredita un Estado chacoano uniforme. El desarrollo de Chaco como gran centro se sitúa desde aproximadamente 850; la ocupación y las comunidades preceden a ese proceso.",
+      "source": "https://home.nps.gov/articles/000/chaco-canyon-and-the-antiquities-act.htm",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

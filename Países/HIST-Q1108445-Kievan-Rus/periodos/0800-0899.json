@@ -1,0 +1,386 @@
+{
+  "key": "HIST-Q1108445",
+  "identity": {
+    "qid": "Q1108445",
+    "name": "Rus · formación y poderes dinásticos"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Príncipe / jefatura de la Rus · tradición cronística",
+      "officePattern": "Prince.*Kiev|Prince.*Novgorod|Grand Prince",
+      "titles": [
+        "Rurik",
+        "Askold",
+        "Dir",
+        "Oleg of Novgorod"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7990",
+      "name": "Riúrik",
+      "role": "Príncipe / jefatura de la Rus · tradición cronística",
+      "start": "0862-01-01",
+      "end": "0879-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rurik",
+      "note": "Cronología de la formación de laRus discutida y transmitida por tradiciones cronísticas. Rúrik y las jefaturas tempranas no acreditan una administración uniforme de todo el ámbito. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-76f730999b3e37e102a1.jpg",
+        "title": "Rurik titularnik.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Rurik_titularnik.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Rurik_titularnik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "artist": "collective",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rurik_titularnik.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.varvar.ru/arhiv/gallery/manuscripts_russian/tituljarnik/rurik1.html; http://zhurnal.lib.ru/img/o/oleg_w_m/cdocumentsandsettingsolegmoidokumentyorodoslownojrjurikowichej2rtf/index.shtml",
+        "sha256": "f8807c28cb5a58efdc48ea752cd8d32d82425d95668e2305298d62aa36116c65",
+        "bytes": 443504,
+        "canonicalFile": "Países/HIST-Q1108445-Kievan-Rus/retratos/portrait-76f730999b3e37e102a1.jpg",
+        "caption": "Representación posterior de Riúrik; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q6131983",
+      "name": "Oleg de Nóvgorod",
+      "role": "Príncipe / jefatura de la Rus · tradición cronística",
+      "start": "0879-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Oleg_the_Wise",
+      "note": "Cronología de la formación de laRus discutida y transmitida por tradiciones cronísticas. Rúrik y las jefaturas tempranas no acreditan una administración uniforme de todo el ámbito. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Rus'"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Rus · formación y poderes dinásticos",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Cronología de la formación de laRus discutida y transmitida por tradiciones cronísticas. Rúrik y las jefaturas tempranas no acreditan una administración uniforme de todo el ámbito. Síntesis anual de fuente, no límites diarios."
+      }
+    },
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kievan Rus'"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Rus · formación y poderes dinásticos",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Cronología de la formación de laRus discutida y transmitida por tradiciones cronísticas. Rúrik y las jefaturas tempranas no acreditan una administración uniforme de todo el ámbito. Síntesis anual de fuente, no límites diarios."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "d75ab6af0188433150b3e54ddeea2f6478eadade6c107fdd1d61948fff5f10a4",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3374,
+        3397,
+        3414,
+        3424,
+        3437,
+        3509
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Cronología de la formación de laRus discutida y transmitida por tradiciones cronísticas. Rúrik y las jefaturas tempranas no acreditan una administración uniforme de todo el ámbito. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "historicalInterpretation": "Cronología de la formación de laRus discutida y transmitida por tradiciones cronísticas. Rúrik y las jefaturas tempranas no acreditan una administración uniforme de todo el ámbito.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Askold",
+        "title": "Askold",
+        "person": "Q381737",
+        "name": "Askold y Dir",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Askold_and_Dir",
+        "identityResolution": {
+          "requested": "Askold",
+          "canonical": "Askold and Dir",
+          "qid": "Q381737"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dir",
+        "title": "Dir",
+        "person": "Q232862",
+        "name": "DIR",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Dir",
+        "identityResolution": {
+          "requested": "Dir",
+          "canonical": "Dir",
+          "qid": "Q232862"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Oleg of Novgorod",
+        "title": "Oleg of Novgorod",
+        "person": "Q6131983",
+        "name": "Oleg de Nóvgorod",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Oleg_the_Wise",
+        "identityResolution": {
+          "requested": "Oleg of Novgorod",
+          "canonical": "Oleg the Wise",
+          "qid": "Q6131983"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q26943762",
+          "start": "0882-01-01",
+          "end": "0912-01-01",
+          "precision": 9,
+          "statement": "Q6131983$21AE1131-F54C-4DD4-99C3-9F325A060142",
+          "label": "Príncipe de Kiev"
+        },
+        {
+          "property": "P39",
+          "office": "Q477406",
+          "start": "0879-01-01",
+          "end": "0912-01-01",
+          "precision": 9,
+          "statement": "Q6131983$e0145da3-4340-f96f-5814-a208b1209ec6",
+          "label": "regente"
+        },
+        {
+          "property": "P97",
+          "office": "Q26943762",
+          "start": "0882-01-01",
+          "end": "0912-01-01",
+          "precision": 9,
+          "statement": "Q6131983$5d9741c3-94db-425c-965b-41041a959b3a",
+          "label": "Príncipe de Kiev"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6131983",
+        "title": "Oleg the Wise",
+        "source": "https://en.wikipedia.org/wiki/Oleg_the_Wise",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Prince of Kiev",
+            "raw": "881/2/9{{sfn|Ostrowski|2018|p=44}} – 912/22/40s{{sfn|Ostrowski|2018|p=42–44}}",
+            "parsed": null
+          },
+          {
+            "field": "reign1",
+            "office": "Prince of Novgorod",
+            "raw": "879–912",
+            "parsed": {
+              "start": "0879-01-01",
+              "end": "0912-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Novgorod",
+            "raw": "{{circa}} 879 – {{circa}} 912/922/940s",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Kiev",
+            "raw": "{{circa}} 881/2/9 – {{circa}} 912/922/940s",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rurik",
+        "title": "Rurik",
+        "person": "Q7990",
+        "name": "Riúrik",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rurik",
+        "identityResolution": {
+          "requested": "Rurik",
+          "canonical": "Rurik",
+          "qid": "Q7990"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q110950777",
+          "start": "0862-01-01",
+          "end": "0879-01-01",
+          "precision": 9,
+          "statement": "Q7990$69ffd390-481e-8058-c4df-da1906dc5ebc",
+          "label": "Gran Príncipe de Nóvgorod"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7990",
+        "title": "Rurik",
+        "source": "https://en.wikipedia.org/wiki/Rurik",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Prince of Novgorod",
+            "raw": "862–879{{efn|name=death}}",
+            "parsed": {
+              "start": "0862-01-01",
+              "end": "0879-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Novgorod",
+            "raw": "862–879",
+            "parsed": {
+              "start": "0862-01-01",
+              "end": "0879-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7990",
+        "title": "Rurik",
+        "source": "https://en.wikipedia.org/wiki/Rurik",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Prince of Novgorod",
+          "raw": "862–879{{efn|name=death}}",
+          "parsed": {
+            "start": "0862-01-01",
+            "end": "0879-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q6131983",
+        "title": "Oleg of Novgorod",
+        "source": "https://en.wikipedia.org/wiki/Oleg_the_Wise",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "Prince of Novgorod",
+          "raw": "879–912",
+          "parsed": {
+            "start": "0879-01-01",
+            "end": "0912-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Askold",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Dir",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q7990",
+      "name": "Riúrik",
+      "title": "Rurik titularnik.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rurik_titularnik.jpg",
+      "sha256": "f8807c28cb5a58efdc48ea752cd8d32d82425d95668e2305298d62aa36116c65",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Riúrik; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q6131983",
+      "name": "Oleg de Nóvgorod",
+      "title": "Приношение князю Олегу дани покоренными народами.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%B8%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BD%D1%8F%D0%B7%D1%8E_%D0%9E%D0%BB%D0%B5%D0%B3%D1%83_%D0%B4%D0%B0%D0%BD%D0%B8_%D0%BF%D0%BE%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%B0%D0%BC%D0%B8.jpg",
+      "sha256": "8e307a9a5381a7b52bf3d4139c0e3d6fd5b7241e9998454fc1b5d303f11cc920",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q6131983",
+      "title": "Приношение князю Олегу дани покоренными народами.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%B8%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BD%D1%8F%D0%B7%D1%8E_%D0%9E%D0%BB%D0%B5%D0%B3%D1%83_%D0%B4%D0%B0%D0%BD%D0%B8_%D0%BF%D0%BE%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%B0%D0%BC%D0%B8.jpg"
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

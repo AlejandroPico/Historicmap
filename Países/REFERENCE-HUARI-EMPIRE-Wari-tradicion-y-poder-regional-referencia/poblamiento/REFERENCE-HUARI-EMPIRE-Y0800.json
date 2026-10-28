@@ -1,0 +1,82 @@
+{
+  "key": "REFERENCE-HUARI-EMPIRE-Y0800",
+  "contextKey": "REFERENCE-HUARI-EMPIRE",
+  "ownerKey": "REFERENCE-HUARI-EMPIRE",
+  "name": "Wari · centros y redes regionales",
+  "originalNames": [
+    "Huari Empire"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Centros y redesWari de losAndes. La superficie de la compilación no prueba una administración imperial uniforme de toda la región.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Met · Wari y Tiwanaku; culturas vecinas y contactos",
+      "url": "https://www.metmuseum.org/art/collection/search/314623"
+    },
+    {
+      "title": "UNESCO · Tiwanaku, centro político y cultural",
+      "url": "https://whc.unesco.org/en/list/567/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#929e87",
+  "focus": [
+    -75.41657,
+    -11.45809
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Wari · centros y redes regionales",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-HUARI-EMPIRE-Y0800.geojson",
+  "geometrySha256": "2cf9c2ac4e03019814d13a00a971e7a72f19de204de2c38c5dca58787b23e219",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      23
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Huari Empire",
+      "ABBREVN": "Huari Empire",
+      "wikipedia": null,
+      "SUBJECTO": "Huari Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Huari Empire"
+    }
+  ],
+  "sourceGrouping": [
+    "Huari Empire"
+  ]
+}

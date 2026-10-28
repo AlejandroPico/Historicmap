@@ -1,0 +1,68 @@
+{
+  "key": "REFERENCE-ALWA-Y0800",
+  "contextKey": "REFERENCE-ALWA",
+  "ownerKey": "HIST-Q449639",
+  "name": "Alwa · referencia",
+  "originalNames": [
+    "Alwa"
+  ],
+  "kind": "polity-reference",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "political-base",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q449639"
+  ],
+  "color": "#9b9a76",
+  "focus": [
+    33.05881,
+    13.39292
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-ALWA-Y0800.geojson",
+  "geometrySha256": "c05f9371e1a8196977f65d8029a9c88aeec3ca1fe82d4b0be63716b403cc5111",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      14
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Alwa",
+      "ABBREVN": "Alwa",
+      "wikipedia": null,
+      "SUBJECTO": "Alwa",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Alwa"
+    }
+  ],
+  "sourceGrouping": [
+    "Alwa"
+  ]
+}

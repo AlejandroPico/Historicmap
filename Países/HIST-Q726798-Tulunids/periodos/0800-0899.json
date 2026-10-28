@@ -1,0 +1,505 @@
+{
+  "key": "HIST-Q726798",
+  "identity": {
+    "qid": "Q726798",
+    "name": "Tulunids"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Emir tuluní",
+      "officePattern": "Emir|Governor|Tulunid",
+      "titles": [
+        "Ahmad ibn Tulun",
+        "Khumarawayh ibn Ahmad ibn Tulun",
+        "Jaysh ibn Khumarawayh",
+        "Harun ibn Khumarawayh"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q374374",
+      "name": "Ahmad ibn Tulun",
+      "role": "Emir tuluní",
+      "start": "0868-09-15",
+      "end": "0884-05-10",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Tulun",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q374374",
+      "name": "Ahmad ibn Tulun",
+      "role": "Emir tuluní",
+      "start": "0878-01-01",
+      "end": "0884-05-10",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Tulun",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q1039329",
+      "name": "Khumàrawayh ibn Àhmad ibn Tulun",
+      "role": "Emir tuluní",
+      "start": "0884-05-10",
+      "end": "0896-01-18",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Khumarawayh_ibn_Ahmad_ibn_Tulun",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q335564",
+      "name": "Abu 'l-Asakir Jaysh ibn Khumarawayh",
+      "role": "Emir tuluní",
+      "start": "0896-01-18",
+      "end": "0896-11-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Abu_%27l-Asakir_Jaysh_ibn_Khumarawayh",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q707691",
+      "name": "Harun ibn Khumarawayh",
+      "role": "Emir tuluní",
+      "start": "0896-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Harun_ibn_Khumarawayh",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review032-tulunid",
+      "type": "institution",
+      "title": "Gobierno tuluní y dignidad califal",
+      "start": "0868-01-01",
+      "end": "0900-01-01",
+      "text": "El poder de Ahmad ibn Tulun y sus sucesores en Egipto se distingue de la dignidad del califa abasí. Una dependencia nominal no implica administración idéntica.",
+      "source": "https://en.wikipedia.org/wiki/Tulunids",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Tulunids"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Tulunids",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "973a52af36df7956631f643dfe6d38526eaef80e8ba87a170ffa8e6dddde0831",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3303,
+        3356
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ahmad ibn Tulun",
+        "title": "Ahmad ibn Tulun",
+        "person": "Q374374",
+        "name": "Ahmad ibn Tulun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Tulun",
+        "identityResolution": {
+          "requested": "Ahmad ibn Tulun",
+          "canonical": "Ahmad ibn Tulun",
+          "qid": "Q374374"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q166382",
+          "start": "0868-01-01",
+          "end": "0884-01-01",
+          "precision": 9,
+          "statement": "Q374374$df7ded84-45cb-307d-607b-f1e80aa785cc",
+          "label": "emir"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q374374",
+        "title": "Ahmad ibn Tulun",
+        "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Tulun",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emir of Egypt",
+            "raw": "15 September 868 – 10 May 884",
+            "parsed": {
+              "start": "0868-09-15",
+              "end": "0884-05-10",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Emir of Syria and Al-Awasim",
+            "raw": "878 – 10 May 884",
+            "parsed": {
+              "start": "0878-01-01",
+              "end": "0884-05-10",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Tulunid emir of Egypt (''de jure'' for the Abbasid Caliphate, ''de facto'' autonomous)",
+            "raw": "15 September 868 – 10 May 884",
+            "parsed": {
+              "start": "0868-09-15",
+              "end": "0884-05-10",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Tulunid emir of Syria (''de jure'' for the Abbasid Caliphate, ''de facto'' autonomous)",
+            "raw": "877/8 – 10 May 884",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Harun ibn Khumarawayh",
+        "title": "Harun ibn Khumarawayh",
+        "person": "Q707691",
+        "name": "Harun ibn Khumarawayh",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Harun_ibn_Khumarawayh",
+        "identityResolution": {
+          "requested": "Harun ibn Khumarawayh",
+          "canonical": "Harun ibn Khumarawayh",
+          "qid": "Q707691"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q166382",
+          "start": "0896-01-01",
+          "end": "0904-01-01",
+          "precision": 9,
+          "statement": "Q707691$7db0b07c-f53f-427e-a627-f3ed7ef874aa",
+          "label": "emir"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q707691",
+        "title": "Harun ibn Khumarawayh",
+        "source": "https://en.wikipedia.org/wiki/Harun_ibn_Khumarawayh",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "vassal Ruler of Egypt",
+            "raw": "896–904",
+            "parsed": {
+              "start": "0896-01-01",
+              "end": "0904-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Jaysh ibn Khumarawayh",
+        "title": "Jaysh ibn Khumarawayh",
+        "person": "Q335564",
+        "name": "Abu 'l-Asakir Jaysh ibn Khumarawayh",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Abu_%27l-Asakir_Jaysh_ibn_Khumarawayh",
+        "identityResolution": {
+          "requested": "Jaysh ibn Khumarawayh",
+          "canonical": "Abu 'l-Asakir Jaysh ibn Khumarawayh",
+          "qid": "Q335564"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q166382",
+          "start": "0896-01-18",
+          "end": "0896-11-01",
+          "precision": 10,
+          "statement": "Q335564$161bdd8a-3009-4b8b-bc99-1ecbf8a27dc1",
+          "label": "emir"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q335564",
+        "title": "Abu 'l-Asakir Jaysh ibn Khumarawayh",
+        "source": "https://en.wikipedia.org/wiki/Abu_%27l-Asakir_Jaysh_ibn_Khumarawayh",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Egypt",
+            "raw": "January – November 896",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Khumarawayh ibn Ahmad ibn Tulun",
+        "title": "Khumarawayh ibn Ahmad ibn Tulun",
+        "person": "Q1039329",
+        "name": "Khumàrawayh ibn Àhmad ibn Tulun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khumarawayh_ibn_Ahmad_ibn_Tulun",
+        "identityResolution": {
+          "requested": "Khumarawayh ibn Ahmad ibn Tulun",
+          "canonical": "Khumarawayh ibn Ahmad ibn Tulun",
+          "qid": "Q1039329"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q166382",
+          "start": "0884-05-10",
+          "end": "0896-01-18",
+          "precision": 11,
+          "statement": "Q1039329$dd512474-df86-4c0a-8e7f-5a7ccbae1954",
+          "label": "emir"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1039329",
+        "title": "Khumarawayh ibn Ahmad ibn Tulun",
+        "source": "https://en.wikipedia.org/wiki/Khumarawayh_ibn_Ahmad_ibn_Tulun",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emir of Egypt and Syria",
+            "raw": "10 May 884 – 18 January 896",
+            "parsed": {
+              "start": "0884-05-10",
+              "end": "0896-01-18",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q374374",
+        "title": "Ahmad ibn Tulun",
+        "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Tulun",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emir of Egypt",
+          "raw": "15 September 868 – 10 May 884",
+          "parsed": {
+            "start": "0868-09-15",
+            "end": "0884-05-10",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q374374",
+        "title": "Ahmad ibn Tulun",
+        "source": "https://en.wikipedia.org/wiki/Ahmad_ibn_Tulun",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "Emir of Syria and Al-Awasim",
+          "raw": "878 – 10 May 884",
+          "parsed": {
+            "start": "0878-01-01",
+            "end": "0884-05-10",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q1039329",
+        "title": "Khumarawayh ibn Ahmad ibn Tulun",
+        "source": "https://en.wikipedia.org/wiki/Khumarawayh_ibn_Ahmad_ibn_Tulun",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emir of Egypt and Syria",
+          "raw": "10 May 884 – 18 January 896",
+          "parsed": {
+            "start": "0884-05-10",
+            "end": "0896-01-18",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q335564",
+        "title": "Jaysh ibn Khumarawayh",
+        "source": "https://en.wikipedia.org/wiki/Abu_%27l-Asakir_Jaysh_ibn_Khumarawayh",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q166382",
+          "start": "0896-01-18",
+          "end": "0896-11-01",
+          "precision": 10,
+          "statement": "Q335564$161bdd8a-3009-4b8b-bc99-1ecbf8a27dc1",
+          "label": "emir"
+        }
+      },
+      {
+        "person": "Q707691",
+        "title": "Harun ibn Khumarawayh",
+        "source": "https://en.wikipedia.org/wiki/Harun_ibn_Khumarawayh",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q166382",
+          "start": "0896-01-01",
+          "end": "0904-01-01",
+          "precision": 9,
+          "statement": "Q707691$7db0b07c-f53f-427e-a627-f3ed7ef874aa",
+          "label": "emir"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "rejectedPortraits": [
+    {
+      "person": "Q1039329",
+      "title": "Gold dinar of Khumarawayh ibn Ahmad.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Gold_dinar_of_Khumarawayh_ibn_Ahmad.jpg"
+    },
+    {
+      "person": "Q707691",
+      "title": "Gold dinar of Harun ibn Khumarawayh.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Gold_dinar_of_Harun_ibn_Khumarawayh.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1039329",
+      "name": "Khumàrawayh ibn Àhmad ibn Tulun",
+      "title": "Gold dinar of Khumarawayh ibn Ahmad.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gold_dinar_of_Khumarawayh_ibn_Ahmad.jpg",
+      "sha256": "3706efd22c8cd1dd1a57e512c65617cfe16daa9a681aea22d09a8e22257e6908",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q707691",
+      "name": "Harun ibn Khumarawayh",
+      "title": "Gold dinar of Harun ibn Khumarawayh.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gold_dinar_of_Harun_ibn_Khumarawayh.jpg",
+      "sha256": "819004437fd2f1c9375738101cac69d2907b28dc7c3346b11ac6313e98d010c5",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-22",
+      "name": "al-Qata’i · sede tuluní",
+      "coordinates": [
+        31.25,
+        30.025
+      ],
+      "start": 868,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Al-Qata%27i",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual.",
+      "aggregateKey": "ABBASID",
+      "entityName": "Tulunids"
+    },
+    {
+      "id": "seat032-22-own",
+      "name": "al-Qata’i · sede tuluní",
+      "coordinates": [
+        31.25,
+        30.025
+      ],
+      "start": 868,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Al-Qata%27i",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review032-tulunid",
+      "type": "institution",
+      "title": "Gobierno tuluní y dignidad califal",
+      "start": "0868-01-01",
+      "end": "0900-01-01",
+      "text": "El poder de Ahmad ibn Tulun y sus sucesores en Egipto se distingue de la dignidad del califa abasí. Una dependencia nominal no implica administración idéntica.",
+      "source": "https://en.wikipedia.org/wiki/Tulunids",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  }
+}

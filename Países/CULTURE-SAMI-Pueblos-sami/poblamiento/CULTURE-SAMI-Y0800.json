@@ -1,0 +1,71 @@
+{
+  "key": "CULTURE-SAMI-Y0800",
+  "contextKey": "CULTURE-SAMI",
+  "ownerKey": "CULTURE-SAMI",
+  "name": "Pueblos sámi",
+  "originalNames": [
+    "Sámi"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de800",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. La superficie no acredita unEstado unitario, una frontera exclusiva ni ocupación uniforme.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    15.90885,
+    60.70984
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Pueblos sámi",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-SAMI-Y0800.geojson",
+  "geometrySha256": "28f582e9200b11efafda5bb17c5c621e61a421ea35ba24910da47f4e0b5e8dfe",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      158
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Sámi",
+      "ABBREVN": "Sámi",
+      "wikipedia": "https://en.wikipedia.org/wiki/S%C3%A1mi",
+      "SUBJECTO": "Sámi",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Sámi"
+    }
+  ],
+  "sourceGrouping": [
+    "Sámi"
+  ],
+  "continuityReview": "Nombre de fuente reconciliado con la identidad de consulta de 900; conservar originales y fases distintas, sin unir ni modificar sus geometrías."
+}

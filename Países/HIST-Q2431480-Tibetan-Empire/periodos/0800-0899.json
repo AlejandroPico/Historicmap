@@ -1,0 +1,360 @@
+{
+  "key": "HIST-Q2431480",
+  "identity": {
+    "qid": "Q2431480",
+    "name": "Tibetan Empire"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Emperador / soberano tibetano",
+      "officePattern": "Emperor.*Tibet|Tsenpo|King.*Tibet",
+      "titles": [
+        "Sadnalegs",
+        "Ralpacan",
+        "Langdarma"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1910177",
+      "name": "Sadnalegs",
+      "role": "Emperador / soberano tibetano",
+      "start": "0800-01-01",
+      "end": "0815-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sadnalegs",
+      "note": "La muerte deLangdarma en842 se distingue de la persistencia de comunidades tibetanas; fragmentación y poderes regionales posteriores. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q2353150",
+      "name": "Ralpacan",
+      "role": "Emperador / soberano tibetano",
+      "start": "0815-01-01",
+      "end": "0838-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ralpachen",
+      "note": "La muerte deLangdarma en842 se distingue de la persistencia de comunidades tibetanas; fragmentación y poderes regionales posteriores. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-3138ec2a01bb4b23aecb.jpg",
+        "title": "Ralpachen.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ralpachen.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Ralpachen.jpg/500px-Ralpachen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ralpachen.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://www.himalayanart.org/items/77255",
+        "sha256": "f77ccedc26a590d6644154c89ec394cf04c8dab94100d99fb09732325f4bb22f",
+        "bytes": 199798,
+        "canonicalFile": "Países/HIST-Q2431480-Tibetan-Empire/retratos/portrait-3138ec2a01bb4b23aecb.jpg",
+        "caption": "Representación religiosa posterior de Ralpachen; no retrato del natural."
+      }
+    },
+    {
+      "person": "Q558271",
+      "name": "Langdarma",
+      "role": "Emperador / soberano tibetano",
+      "start": "0841-01-01",
+      "end": "0842-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Langdarma",
+      "note": "La muerte deLangdarma en842 se distingue de la persistencia de comunidades tibetanas; fragmentación y poderes regionales posteriores. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Tibetan Empire"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Tibetan Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "La muerte deLangdarma en842 se distingue de la persistencia de comunidades tibetanas; fragmentación y poderes regionales posteriores. Síntesis anual de fuente, no límites diarios."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "2af82d096e2b4c30baef1bad04d3efdda74482a2a35eeb481a7e4943bf2168a0",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2976,
+        3093,
+        3132
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "La muerte deLangdarma en842 se distingue de la persistencia de comunidades tibetanas; fragmentación y poderes regionales posteriores. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "historicalInterpretation": "La muerte deLangdarma en842 se distingue de la persistencia de comunidades tibetanas; fragmentación y poderes regionales posteriores.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Langdarma",
+        "title": "Langdarma",
+        "person": "Q558271",
+        "name": "Langdarma",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Langdarma",
+        "identityResolution": {
+          "requested": "Langdarma",
+          "canonical": "Langdarma",
+          "qid": "Q558271"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q20019155",
+          "start": "0838-01-01",
+          "end": "0842-01-01",
+          "precision": 9,
+          "statement": "Q558271$21c5a172-412e-7707-66ba-25799a12d0b7",
+          "label": "tsenpo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q558271",
+        "title": "Langdarma",
+        "source": "https://en.wikipedia.org/wiki/Langdarma",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tibet",
+            "raw": "841 – 842",
+            "parsed": {
+              "start": "0841-01-01",
+              "end": "0842-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Tibet",
+            "raw": "r. 838–841",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ralpacan",
+        "title": "Ralpacan",
+        "person": "Q2353150",
+        "name": "Ralpacan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ralpachen",
+        "identityResolution": {
+          "requested": "Ralpacan",
+          "canonical": "Ralpachen",
+          "qid": "Q2353150"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q39018",
+          "start": "0815-01-01",
+          "end": "0838-01-01",
+          "precision": 9,
+          "statement": "Q2353150$d4f8412f-424f-b3a2-15d2-583587161643",
+          "label": "emperador"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2353150",
+        "title": "Ralpachen",
+        "source": "https://en.wikipedia.org/wiki/Ralpachen",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tibet",
+            "raw": "815–838",
+            "parsed": {
+              "start": "0815-01-01",
+              "end": "0838-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Tibet",
+            "raw": "817–838",
+            "parsed": {
+              "start": "0817-01-01",
+              "end": "0838-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sadnalegs",
+        "title": "Sadnalegs",
+        "person": "Q1910177",
+        "name": "Sadnalegs",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sadnalegs",
+        "identityResolution": {
+          "requested": "Sadnalegs",
+          "canonical": "Sadnalegs",
+          "qid": "Q1910177"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q20019155",
+          "start": "0800-01-01",
+          "end": "0815-01-01",
+          "precision": 9,
+          "statement": "Q1910177$1895a9eb-4564-34a3-0cf0-a046fb7e67ec",
+          "label": "tsenpo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1910177",
+        "title": "Sadnalegs",
+        "source": "https://en.wikipedia.org/wiki/Sadnalegs",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tibet",
+            "raw": "800 – 815",
+            "parsed": {
+              "start": "0800-01-01",
+              "end": "0815-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Tibet",
+            "raw": "c. 800/804–815",
+            "parsed": null
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1910177",
+        "title": "Sadnalegs",
+        "source": "https://en.wikipedia.org/wiki/Sadnalegs",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Tibet",
+          "raw": "800 – 815",
+          "parsed": {
+            "start": "0800-01-01",
+            "end": "0815-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2353150",
+        "title": "Ralpacan",
+        "source": "https://en.wikipedia.org/wiki/Ralpachen",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Tibet",
+          "raw": "815–838",
+          "parsed": {
+            "start": "0815-01-01",
+            "end": "0838-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q558271",
+        "title": "Langdarma",
+        "source": "https://en.wikipedia.org/wiki/Langdarma",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Tibet",
+          "raw": "841 – 842",
+          "parsed": {
+            "start": "0841-01-01",
+            "end": "0842-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q2353150",
+      "name": "Ralpacan",
+      "title": "Ralpachen.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ralpachen.jpg",
+      "sha256": "f77ccedc26a590d6644154c89ec394cf04c8dab94100d99fb09732325f4bb22f",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación religiosa posterior de Ralpachen; no retrato del natural."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-30",
+      "name": "Lhasa · centro imperial",
+      "coordinates": [
+        91.117,
+        29.65
+      ],
+      "start": 800,
+      "end": 842,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Tibetan_Empire",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  }
+}

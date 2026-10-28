@@ -1,0 +1,78 @@
+{
+  "key": "CULTURE-ALASKA-Y0800",
+  "contextKey": "CULTURE-ALASKA",
+  "ownerKey": "CULTURE-ALASKA",
+  "name": "Comunidades del litoral de Alaska · referencia anterior a Thule",
+  "originalNames": [
+    "Thule"
+  ],
+  "kind": "cultural-region",
+  "region": "Ártico y Pacífico norte",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "La etiquetaThule de la compilación es demasiado temprana para800. Se conserva la referencia regional de poblamiento, sin presentar una expansiónThule ya realizada ni identificar toda la superficie con una única cultura.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "University of Alaska Museum · Thule, Birnirk y culturas precursoras",
+      "url": "https://www.uaf.edu/museum/collections/archaeo/online-exhibits/paleo-eskimo-cultures/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    -153.12066,
+    59.89578
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Comunidades del litoral de Alaska · referencia anterior a Thule",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-ALASKA-Y0800.geojson",
+  "geometrySha256": "1306bda1032c65b88026efae484cfc406ccdd92a7e2dae25f3cd44097cac3f92",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      58
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Thule",
+      "ABBREVN": "Thule",
+      "wikipedia": null,
+      "SUBJECTO": "Thule",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Thule"
+    }
+  ],
+  "sourceGrouping": [
+    "Thule"
+  ]
+}

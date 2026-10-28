@@ -1,0 +1,342 @@
+{
+  "key": "HIST-Q402580",
+  "identity": {
+    "qid": "Q402580",
+    "name": "Mataram Kingdom"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Soberanía de Mataram",
+      "officePattern": "King|Queen|Mataram",
+      "titles": [
+        "Samaratungga",
+        "Pramodhawardhani",
+        "Rakai Pikatan",
+        "Rakai Kayuwangi",
+        "Rakai Watuhumalang",
+        "Balitung"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q12418309",
+      "name": "Rakai Kayuwangi",
+      "role": "Soberanía de Mataram",
+      "start": "0855-06-08",
+      "end": "0885-02-17",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Lokapala_%28king%29",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q2880962",
+      "name": "Balitung",
+      "role": "Soberanía de Mataram",
+      "start": "0898-05-10",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Balitung",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 800,
+      "end": 899,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q402580",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional de fuente; no evaluación democrática ni gobierno uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Mataram Kingdom"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Mataram Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "e99844be31cb2fab531c184202beac286a2dc93c54c9d920ea29687ef1094396",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2747
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Balitung",
+        "title": "Balitung",
+        "person": "Q2880962",
+        "name": "Balitung",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Balitung",
+        "identityResolution": {
+          "requested": "Balitung",
+          "canonical": "Balitung",
+          "qid": "Q2880962"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2880962",
+        "title": "Balitung",
+        "source": "https://en.wikipedia.org/wiki/Balitung",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Great King of Mataram",
+            "raw": "10 May 898 – {{circa|910}}",
+            "parsed": {
+              "start": "0898-05-10",
+              "end": "0910-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pramodhawardhani",
+        "title": "Pramodhawardhani",
+        "person": "Q4261796",
+        "name": "Pramodhawardhani",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pramodhawardhani",
+        "identityResolution": {
+          "requested": "Pramodhawardhani",
+          "canonical": "Pramodhawardhani",
+          "qid": "Q4261796"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4261796",
+        "title": "Pramodhawardhani",
+        "source": "https://en.wikipedia.org/wiki/Pramodhawardhani",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Queen Consort of Mataram",
+            "raw": "c. 847 – 856",
+            "parsed": {
+              "start": "0847-01-01",
+              "end": "0856-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rakai Kayuwangi",
+        "title": "Rakai Kayuwangi",
+        "person": "Q12418309",
+        "name": "Rakai Kayuwangi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Lokapala_%28king%29",
+        "identityResolution": {
+          "requested": "Rakai Kayuwangi",
+          "canonical": "Lokapala (king)",
+          "qid": "Q12418309"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12418309",
+        "title": "Lokapala (king)",
+        "source": "https://en.wikipedia.org/wiki/Lokapala_%28king%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Great King of Mataram",
+            "raw": "8 June 855 - 17 February 885",
+            "parsed": {
+              "start": "0855-06-08",
+              "end": "0885-02-17",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rakai Pikatan",
+        "title": "Rakai Pikatan",
+        "person": "Q7286535",
+        "name": "Rakai Pikatan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rakai_Pikatan",
+        "identityResolution": {
+          "requested": "Rakai Pikatan",
+          "canonical": "Rakai Pikatan",
+          "qid": "Q7286535"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7286535",
+        "title": "Rakai Pikatan",
+        "source": "https://en.wikipedia.org/wiki/Rakai_Pikatan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Great King of Mataram",
+            "raw": "847 – after 856",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rakai Watuhumalang",
+        "title": "Rakai Watuhumalang",
+        "person": "",
+        "name": "Rakai Watuhumalang",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Rakai_Watuhumalang",
+        "identityResolution": {
+          "requested": "Rakai Watuhumalang",
+          "canonical": "Rakai Watuhumalang",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Samaratungga",
+        "title": "Samaratungga",
+        "person": "Q3176110",
+        "name": "Samaratungga",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Samaratungga",
+        "identityResolution": {
+          "requested": "Samaratungga",
+          "canonical": "Samaratungga",
+          "qid": "Q3176110"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3176110",
+        "title": "Samaratungga",
+        "source": "https://en.wikipedia.org/wiki/Samaratungga",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q12418309",
+        "title": "Rakai Kayuwangi",
+        "source": "https://en.wikipedia.org/wiki/Lokapala_%28king%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Great King of Mataram",
+          "raw": "8 June 855 - 17 February 885",
+          "parsed": {
+            "start": "0855-06-08",
+            "end": "0885-02-17",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q2880962",
+        "title": "Balitung",
+        "source": "https://en.wikipedia.org/wiki/Balitung",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Great King of Mataram",
+          "raw": "10 May 898 – {{circa|910}}",
+          "parsed": {
+            "start": "0898-05-10",
+            "end": "0910-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Samaratungga",
+        "person": "Q3176110",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Pramodhawardhani",
+        "person": "Q4261796",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Rakai Pikatan",
+        "person": "Q7286535",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Rakai Watuhumalang",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

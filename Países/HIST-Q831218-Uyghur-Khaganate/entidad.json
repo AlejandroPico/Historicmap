@@ -1,0 +1,92 @@
+{
+  "key": "HIST-Q831218",
+  "name": "Uyghur Khaganate",
+  "qid": "Q831218",
+  "aliases": [
+    "Uyghur Khaganate"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q831218"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q136850",
+      "name": "Pao-i Khan",
+      "role": "Kan uigur",
+      "start": "0808-01-01",
+      "end": "0821-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Baoyi_Qaghan",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    },
+    {
+      "person": "Q136756",
+      "name": "Ch'ung-te Khan",
+      "role": "Kan uigur",
+      "start": "0821-01-01",
+      "end": "0824-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chongde_Qaghan",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    },
+    {
+      "person": "Q137028",
+      "name": "Zhaoli Qaghan",
+      "role": "Kan uigur",
+      "start": "0824-01-01",
+      "end": "0833-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhaoli_Qaghan",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    },
+    {
+      "person": "Q137018",
+      "name": "Zhangxin Qaghan",
+      "role": "Kan uigur",
+      "start": "0833-01-01",
+      "end": "0839-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhangxin_Qaghan",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-2995",
+      "start": 800,
+      "end": 839,
+      "name": "Uyghur Khaganate",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3119",
+      "start": 840,
+      "end": 849,
+      "name": "Uyghur Khaganate",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

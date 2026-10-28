@@ -1,0 +1,1409 @@
+{
+  "key": "BYZANTINE",
+  "identity": {
+    "qid": "Q12544",
+    "name": "Imperio bizantino"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Emperador / emperatriz bizantina",
+      "officePattern": "Byzantine.*emperor|Byzantine empress regnant|Emperor.*Roman|Emperor.*Byzant",
+      "titles": [
+        "Irene of Athens",
+        "Nikephoros I",
+        "Staurakios",
+        "Michael I Rangabe",
+        "Leo V the Armenian",
+        "Michael II",
+        "Theophilos (emperor)",
+        "Michael III",
+        "Basil I",
+        "Leo VI the Wise",
+        "Alexander (emperor)"
+      ]
+    },
+    {
+      "role": "Emperatriz regente",
+      "officePattern": "Regent|regent",
+      "titles": [
+        "Theodora (wife of Theophilos)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q206737",
+      "name": "Irene",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0800-01-01",
+      "end": "0802-10-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-b47de168b5a8115f29a9.jpg",
+        "title": "Irene solidus sb 1599 (obverse).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Irene_solidus_sb_1599_(obverse).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Irene_solidus_sb_1599_%28obverse%29.jpg/500px-Irene_solidus_sb_1599_%28obverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "CNG",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CoinArchives",
+        "sha256": "66eb7ce75a5332db1200b9a1ad474241b652c0f914b2fffffa6cde995a80e74c",
+        "bytes": 96546,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-b47de168b5a8115f29a9.jpg",
+        "caption": "Efigie numismática atribuida a Irene; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q208754",
+      "name": "Nicéforo I",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0802-10-31",
+      "end": "0811-07-26",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Nikephoros_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-cccb22eacc66b1116514.png",
+        "title": "Solidus of Nikephoros I.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus_of_Nikephoros_I.png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Solidus_of_Nikephoros_I.png/500px-Solidus_of_Nikephoros_I.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Dumbarton Oaks",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Solidus_of_Nikephoros_I.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Dumbarton Oaks",
+        "sha256": "8b52a7d9531de244392fdae714b88dc17bccec1cebdee89e4fbc0fdc21a33fa1",
+        "bytes": 495911,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-cccb22eacc66b1116514.png",
+        "caption": "Efigie numismática atribuida a Nicéforo I; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q41652",
+      "name": "Miguel I Rangabé",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0811-10-02",
+      "end": "0813-07-11",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Michael_I_Rangabe",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-8570a63dcb0c70406fee.jpg",
+        "title": "Michael I.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Michael_I.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Michael_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "artist": "User:Cplakidas (uploader)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Michael_I.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "CNG",
+        "sha256": "30a3e49ad792661dd63f594a3a3c3af883ad28951c76445be801ab6e1d29eb17",
+        "bytes": 24884,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-8570a63dcb0c70406fee.jpg",
+        "caption": "Efigie numismática atribuida a Miguel I Rangabé; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q41641",
+      "name": "León V el Armenio",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0813-07-12",
+      "end": "0820-12-25",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Leo_V_the_Armenian",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q41640",
+      "name": "Miguel II",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0820-12-25",
+      "end": "0829-10-02",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Michael_II",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-1f2d67379d6071b5e46f.jpg",
+        "title": "Solidus of Michael II the Amorian.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus_of_Michael_II_the_Amorian.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Solidus_of_Michael_II_the_Amorian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG Coins",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "Cropped from File:Michael II and Theophilos solidus.jpg",
+        "sha256": "05202f6e2e5c704e6c13fb5f64a1aa307507d4dd87b58cf80532aa122ef449b8",
+        "bytes": 35781,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-1f2d67379d6071b5e46f.jpg",
+        "caption": "Efigie numismática atribuida a Miguel II; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q60199",
+      "name": "Teófilo",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0829-10-02",
+      "end": "0842-01-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Theophilos_%28emperor%29",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-fadaa0bb262bec0b6426.jpg",
+        "title": "Emperor Theophilos Chronicle of John Skylitzes.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Emperor_Theophilos_Chronicle_of_John_Skylitzes.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Emperor_Theophilos_Chronicle_of_John_Skylitzes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "artist": "John Skylitzes",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Theophilos_Chronicle_of_John_Skylitzes.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Madrid Skylitzes, folio 42 (p. 94)",
+        "sha256": "8cffbe6a94b0f2762ccbae2b4619220b7b891a41b1971d4c00f92d07b59f6322",
+        "bytes": 204149,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-fadaa0bb262bec0b6426.jpg",
+        "caption": "Representación posterior de Teófilo; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q41622",
+      "name": "Miguel III",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0842-01-20",
+      "end": "0867-09-24",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Michael_III",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q41592",
+      "name": "Basilio I",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0867-09-24",
+      "end": "0886-08-29",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Basil_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-53fd7d98e95d65796134.jpg",
+        "title": "Solidus-Basil I.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Basil_I.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Solidus-Basil_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://www.wildwinds.com/coins/sb/sb1703.html (Sear #1703)",
+        "sha256": "785c24be7a5d74b77ce99a814ecb47eebc8d76edbb71d3d55688208219b60622",
+        "bytes": 82949,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-53fd7d98e95d65796134.jpg",
+        "caption": "Efigie numismática atribuida a Basilio I; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q41618",
+      "name": "León VI el Sabio",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0886-08-29",
+      "end": "0899-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Leo_VI_the_Wise",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-4997e89d63bdb4d30f2a.jpg",
+        "title": "Byzantinischer Mosaizist des 9. Jahrhunderts 002.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Byzantinischer_Mosaizist_des_9._Jahrhunderts_002.jpg",
+        "artist": "\nByzantinischer Mosaizist des 9. Jahrhunderts",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Byzantinischer_Mosaizist_des_9._Jahrhunderts_002.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "The Yorck Project (2002)       10.000 Meisterwerke der Malerei (DVD-ROM), distributed by DIRECTMEDIA Publishing GmbH.  ISBN:  3936122202. ",
+        "sha256": "019f4b989e6d2952e30e1617a97c5f07ec350675d79d90b08074cfab25633bf1",
+        "bytes": 38734,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Byzantinischer_Mosaizist_des_9._Jahrhunderts_002.jpg/330px-Byzantinischer_Mosaizist_des_9._Jahrhunderts_002.jpg",
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-4997e89d63bdb4d30f2a.jpg",
+        "caption": "Figura tradicionalmente identificada con León VI en un mosaico de Santa Sofía; atribución interpretativa."
+      }
+    },
+    {
+      "person": "Q230001",
+      "name": "Teodora",
+      "role": "Emperatriz regente",
+      "start": "0842-01-20",
+      "end": "0856-03-15",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Theodora_%28wife_of_Theophilos%29",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-450a5f7d98af44b843d5.jpg",
+        "title": "Solidus of Theodora II (obverse).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus_of_Theodora_II_(obverse).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Solidus_of_Theodora_II_%28obverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "artist": "Sincona",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Solidus_of_Theodora_II_(obverse).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Sincona",
+        "sha256": "e042c59d2aac03759c868eb4aef8e98184c36ef848be703f89716a7c35d509f9",
+        "bytes": 228977,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-450a5f7d98af44b843d5.jpg",
+        "caption": "Efigie numismática atribuida a Teodora; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review032-iconoclasm",
+      "type": "institution",
+      "title": "Segunda iconoclasia y regencias",
+      "start": "0813-01-01",
+      "end": "0844-01-01",
+      "text": "Cambios dinásticos, coemperadores y regencias tienen funciones distintas. La restauración del culto a las imágenes de 843 se distingue de los accesos individuales al trono.",
+      "source": "https://en.wikipedia.org/wiki/Byzantine_Iconoclasm",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 800,
+      "end": 899,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q12544",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional de fuente; no evaluación democrática ni gobierno uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Byzantine Empire"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Imperio bizantino",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "8e6c4e02aa956c0cf083e326eb4040770498294b8900f6989e2149453ee63c7c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2965,
+        3025,
+        3045,
+        3090,
+        3137,
+        3150,
+        3202,
+        3241,
+        3256,
+        3322,
+        3327,
+        3364,
+        3376,
+        3422,
+        3505,
+        3517
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Alexander (emperor)",
+        "title": "Alexander (emperor)",
+        "person": "Q294425",
+        "name": "Alejandro III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Alexander_%28Byzantine_emperor%29",
+        "identityResolution": {
+          "requested": "Alexander (emperor)",
+          "canonical": "Alexander (Byzantine emperor)",
+          "qid": "Q294425"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q294425",
+        "title": "Alexander (Byzantine emperor)",
+        "source": "https://en.wikipedia.org/wiki/Alexander_%28Byzantine_emperor%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "11 May 912 – 6 June 913",
+            "parsed": {
+              "start": "0912-05-11",
+              "end": "0913-06-06",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Basil I",
+        "title": "Basil I",
+        "person": "Q41592",
+        "name": "Basilio I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Basil_I",
+        "identityResolution": {
+          "requested": "Basil I",
+          "canonical": "Basil I",
+          "qid": "Q41592"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0867-01-01",
+          "end": "0886-01-01",
+          "precision": 9,
+          "statement": "Q41592$bf68da56-4899-0519-2c9a-4793ff6f2f62",
+          "label": "emperador bizantino"
+        },
+        {
+          "property": "P39",
+          "office": "Q2976954",
+          "start": "0865-01-01",
+          "end": "0866-01-01",
+          "precision": 9,
+          "statement": "Q41592$702725D6-FFAE-49C5-B85B-F98944033E7E",
+          "label": "Parakoimomenos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41592",
+        "title": "Basil I",
+        "source": "https://en.wikipedia.org/wiki/Basil_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "24 September 867 – 29 August 886",
+            "parsed": {
+              "start": "0867-09-24",
+              "end": "0886-08-29",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "867–886,",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Parakoimomenos",
+            "raw": "865–866",
+            "parsed": {
+              "start": "0865-01-01",
+              "end": "0866-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "867",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Irene of Athens",
+        "title": "Irene of Athens",
+        "person": "Q206737",
+        "name": "Irene",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+        "identityResolution": {
+          "requested": "Irene of Athens",
+          "canonical": "Irene of Athens",
+          "qid": "Q206737"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0797-01-01",
+          "end": "0802-10-31",
+          "precision": 9,
+          "statement": "Q206737$99633283-4b07-119b-2328-10081d1c2e71",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q206737",
+        "title": "Irene of Athens",
+        "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine empress regnant",
+            "raw": "19 August 797 – 31 October 802",
+            "parsed": {
+              "start": "0797-08-19",
+              "end": "0802-10-31",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Byzantine co-empress",
+            "raw": "792–797",
+            "parsed": {
+              "start": "0792-01-01",
+              "end": "0797-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "Byzantine regent",
+            "raw": "780–790",
+            "parsed": {
+              "start": "0780-01-01",
+              "end": "0790-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign3",
+            "office": "Byzantine empress consort",
+            "raw": "775–780",
+            "parsed": {
+              "start": "0775-01-01",
+              "end": "0780-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine empress-regnant",
+            "raw": "19 August 797 – 31 October 802",
+            "parsed": {
+              "start": "0797-08-19",
+              "end": "0802-10-31",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine empress-consort",
+            "raw": "775–780",
+            "parsed": {
+              "start": "0775-01-01",
+              "end": "0780-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Leo V the Armenian",
+        "title": "Leo V the Armenian",
+        "person": "Q41641",
+        "name": "León V el Armenio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Leo_V_the_Armenian",
+        "identityResolution": {
+          "requested": "Leo V the Armenian",
+          "canonical": "Leo V the Armenian",
+          "qid": "Q41641"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0813-06-22",
+          "end": "0820-12-25",
+          "precision": 11,
+          "statement": "Q41641$cc1b36cb-4456-64c1-2404-ad7030080327",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41641",
+        "title": "Leo V the Armenian",
+        "source": "https://en.wikipedia.org/wiki/Leo_V_the_Armenian",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "12 July 813 – 25 December 820",
+            "parsed": {
+              "start": "0813-07-12",
+              "end": "0820-12-25",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "12 July 813 – 25 December 820",
+            "parsed": {
+              "start": "0813-07-12",
+              "end": "0820-12-25",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "814",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Leo VI the Wise",
+        "title": "Leo VI the Wise",
+        "person": "Q41618",
+        "name": "León VI el Sabio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Leo_VI_the_Wise",
+        "identityResolution": {
+          "requested": "Leo VI the Wise",
+          "canonical": "Leo VI the Wise",
+          "qid": "Q41618"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0886-08-29",
+          "end": "0912-05-11",
+          "precision": 11,
+          "statement": "Q41618$f48c91e6-4d81-65bd-a0aa-a109d411f19b",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41618",
+        "title": "Leo VI the Wise",
+        "source": "https://en.wikipedia.org/wiki/Leo_VI_the_Wise",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "29 August 886 – 11 May 912",
+            "parsed": {
+              "start": "0886-08-29",
+              "end": "0912-05-11",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "29 August 886 – 11 May 912",
+            "parsed": {
+              "start": "0886-08-29",
+              "end": "0912-05-11",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman Consul",
+            "raw": "1 January 887 - 11 May 912",
+            "parsed": {
+              "start": "0887-01-01",
+              "end": "0912-05-11",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Michael I Rangabe",
+        "title": "Michael I Rangabe",
+        "person": "Q41652",
+        "name": "Miguel I Rangabé",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Michael_I_Rangabe",
+        "identityResolution": {
+          "requested": "Michael I Rangabe",
+          "canonical": "Michael I Rangabe",
+          "qid": "Q41652"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0811-10-02",
+          "end": "0813-06-22",
+          "precision": 11,
+          "statement": "Q41652$c64103ec-46df-b17e-d663-615ec55fe39b",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41652",
+        "title": "Michael I Rangabe",
+        "source": "https://en.wikipedia.org/wiki/Michael_I_Rangabe",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "2 October 811 – 11 July 813",
+            "parsed": {
+              "start": "0811-10-02",
+              "end": "0813-07-11",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "2 October 811 – 11 July 813",
+            "parsed": {
+              "start": "0811-10-02",
+              "end": "0813-07-11",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "803",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Michael II",
+        "title": "Michael II",
+        "person": "Q41640",
+        "name": "Miguel II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Michael_II",
+        "identityResolution": {
+          "requested": "Michael II",
+          "canonical": "Michael II",
+          "qid": "Q41640"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0820-12-25",
+          "end": "0829-10-02",
+          "precision": 11,
+          "statement": "Q41640$9fd1fd27-49cb-3323-b628-4341de0b7d3a",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41640",
+        "title": "Michael II",
+        "source": "https://en.wikipedia.org/wiki/Michael_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "25 December 820 – 2 October 829",
+            "parsed": {
+              "start": "0820-12-25",
+              "end": "0829-10-02",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "25 December 820 – 2 October  829",
+            "parsed": {
+              "start": "0820-12-25",
+              "end": "0829-10-02",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "820",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Michael III",
+        "title": "Michael III",
+        "person": "Q41622",
+        "name": "Miguel III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Michael_III",
+        "identityResolution": {
+          "requested": "Michael III",
+          "canonical": "Michael III",
+          "qid": "Q41622"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0842-01-01",
+          "end": "0867-01-01",
+          "precision": 9,
+          "statement": "Q41622$fc60b647-401f-a746-049c-d10d62da4f2f",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41622",
+        "title": "Michael III",
+        "source": "https://en.wikipedia.org/wiki/Michael_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "20 January 842 – 24 September 867",
+            "parsed": {
+              "start": "0842-01-20",
+              "end": "0867-09-24",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "842–867",
+            "parsed": {
+              "start": "0842-01-01",
+              "end": "0867-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "843",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nikephoros I",
+        "title": "Nikephoros I",
+        "person": "Q208754",
+        "name": "Nicéforo I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Nikephoros_I",
+        "identityResolution": {
+          "requested": "Nikephoros I",
+          "canonical": "Nikephoros I",
+          "qid": "Q208754"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0802-10-31",
+          "end": "0811-07-26",
+          "precision": 11,
+          "statement": "Q208754$3c48bd1d-4642-0463-03bb-d73952c6869d",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q208754",
+        "title": "Nikephoros I",
+        "source": "https://en.wikipedia.org/wiki/Nikephoros_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "31 October 802 – 26 July 811",
+            "parsed": {
+              "start": "0802-10-31",
+              "end": "0811-07-26",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "802–811",
+            "parsed": {
+              "start": "0802-01-01",
+              "end": "0811-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "803",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Staurakios",
+        "title": "Staurakios",
+        "person": "Q237587",
+        "name": "Estauracio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Staurakios",
+        "identityResolution": {
+          "requested": "Staurakios",
+          "canonical": "Staurakios",
+          "qid": "Q237587"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0811-07-26",
+          "end": "0811-10-02",
+          "precision": 11,
+          "statement": "Q237587$68051bea-4172-77ba-544b-db2abf3cd013",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q237587",
+        "title": "Staurakios",
+        "source": "https://en.wikipedia.org/wiki/Staurakios",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "26 July – 2 October 811",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine Emperor",
+            "raw": "26 July – 2 October  811",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theodora (wife of Theophilos)",
+        "title": "Theodora (wife of Theophilos)",
+        "person": "Q230001",
+        "name": "Teodora",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theodora_%28wife_of_Theophilos%29",
+        "identityResolution": {
+          "requested": "Theodora (wife of Theophilos)",
+          "canonical": "Theodora (wife of Theophilos)",
+          "qid": "Q230001"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q7723211",
+          "start": "0830-06-05",
+          "end": "0842-01-20",
+          "precision": 11,
+          "statement": "Q230001$f579f8f8-4ece-5417-23e1-a5d7bbb9622e",
+          "label": "emperatriz consorte"
+        },
+        {
+          "property": "P39",
+          "office": "Q477406",
+          "start": "0842-01-21",
+          "end": "0856-03-15",
+          "precision": 11,
+          "statement": "Q230001$bdd2ea60-4990-3c78-b26f-12531e26cc97",
+          "label": "regente"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q230001",
+        "title": "Theodora (wife of Theophilos)",
+        "source": "https://en.wikipedia.org/wiki/Theodora_%28wife_of_Theophilos%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine regent",
+            "raw": "20 January 842 – 15 March 856",
+            "parsed": {
+              "start": "0842-01-20",
+              "end": "0856-03-15",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Byzantine empress consort",
+            "raw": "5 June 830 – 20 January 842",
+            "parsed": {
+              "start": "0830-06-05",
+              "end": "0842-01-20",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine empress consort",
+            "raw": "830–842",
+            "parsed": {
+              "start": "0830-01-01",
+              "end": "0842-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theophilos (emperor)",
+        "title": "Theophilos (emperor)",
+        "person": "Q60199",
+        "name": "Teófilo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theophilos_%28emperor%29",
+        "identityResolution": {
+          "requested": "Theophilos (emperor)",
+          "canonical": "Theophilos (emperor)",
+          "qid": "Q60199"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0829-10-02",
+          "end": "0842-01-20",
+          "precision": 11,
+          "statement": "Q60199$f0bfbf32-415b-933c-b1c1-4f6fac991598",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q60199",
+        "title": "Theophilos (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Theophilos_%28emperor%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "2 October 829 – January 842",
+            "parsed": {
+              "start": "0829-10-02",
+              "end": "0842-01-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "2 October 829{{snd}}20 January 842",
+            "parsed": {
+              "start": "0829-10-02",
+              "end": "0842-01-20",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "830",
+            "parsed": null
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 10,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q206737",
+        "title": "Irene of Athens",
+        "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine empress regnant",
+          "raw": "19 August 797 – 31 October 802",
+          "parsed": {
+            "start": "0797-08-19",
+            "end": "0802-10-31",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q208754",
+        "title": "Nikephoros I",
+        "source": "https://en.wikipedia.org/wiki/Nikephoros_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "31 October 802 – 26 July 811",
+          "parsed": {
+            "start": "0802-10-31",
+            "end": "0811-07-26",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q41652",
+        "title": "Michael I Rangabe",
+        "source": "https://en.wikipedia.org/wiki/Michael_I_Rangabe",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "2 October 811 – 11 July 813",
+          "parsed": {
+            "start": "0811-10-02",
+            "end": "0813-07-11",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q41641",
+        "title": "Leo V the Armenian",
+        "source": "https://en.wikipedia.org/wiki/Leo_V_the_Armenian",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "12 July 813 – 25 December 820",
+          "parsed": {
+            "start": "0813-07-12",
+            "end": "0820-12-25",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q41640",
+        "title": "Michael II",
+        "source": "https://en.wikipedia.org/wiki/Michael_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "25 December 820 – 2 October 829",
+          "parsed": {
+            "start": "0820-12-25",
+            "end": "0829-10-02",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q60199",
+        "title": "Theophilos (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Theophilos_%28emperor%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "2 October 829 – January 842",
+          "parsed": {
+            "start": "0829-10-02",
+            "end": "0842-01-01",
+            "precision": 10
+          }
+        }
+      },
+      {
+        "person": "Q41622",
+        "title": "Michael III",
+        "source": "https://en.wikipedia.org/wiki/Michael_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "20 January 842 – 24 September 867",
+          "parsed": {
+            "start": "0842-01-20",
+            "end": "0867-09-24",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q41592",
+        "title": "Basil I",
+        "source": "https://en.wikipedia.org/wiki/Basil_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "24 September 867 – 29 August 886",
+          "parsed": {
+            "start": "0867-09-24",
+            "end": "0886-08-29",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q41618",
+        "title": "Leo VI the Wise",
+        "source": "https://en.wikipedia.org/wiki/Leo_VI_the_Wise",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "29 August 886 – 11 May 912",
+          "parsed": {
+            "start": "0886-08-29",
+            "end": "0912-05-11",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q230001",
+        "title": "Theodora (wife of Theophilos)",
+        "source": "https://en.wikipedia.org/wiki/Theodora_%28wife_of_Theophilos%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine regent",
+          "raw": "20 January 842 – 15 March 856",
+          "parsed": {
+            "start": "0842-01-20",
+            "end": "0856-03-15",
+            "precision": 11
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Staurakios",
+        "person": "Q237587",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q206737",
+      "name": "Irene",
+      "title": "Irene solidus sb 1599 (obverse).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Irene_solidus_sb_1599_(obverse).jpg",
+      "sha256": "66eb7ce75a5332db1200b9a1ad474241b652c0f914b2fffffa6cde995a80e74c",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Irene; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q208754",
+      "name": "Nicéforo I",
+      "title": "Solidus of Nikephoros I.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus_of_Nikephoros_I.png",
+      "sha256": "8b52a7d9531de244392fdae714b88dc17bccec1cebdee89e4fbc0fdc21a33fa1",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Nicéforo I; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q41652",
+      "name": "Miguel I Rangabé",
+      "title": "Michael I.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Michael_I.jpg",
+      "sha256": "30a3e49ad792661dd63f594a3a3c3af883ad28951c76445be801ab6e1d29eb17",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Miguel I Rangabé; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q41640",
+      "name": "Miguel II",
+      "title": "Solidus of Michael II the Amorian.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus_of_Michael_II_the_Amorian.jpg",
+      "sha256": "05202f6e2e5c704e6c13fb5f64a1aa307507d4dd87b58cf80532aa122ef449b8",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Miguel II; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q60199",
+      "name": "Teófilo",
+      "title": "Emperor Theophilos Chronicle of John Skylitzes.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Emperor_Theophilos_Chronicle_of_John_Skylitzes.jpg",
+      "sha256": "8cffbe6a94b0f2762ccbae2b4619220b7b891a41b1971d4c00f92d07b59f6322",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Teófilo; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q41622",
+      "name": "Miguel III",
+      "title": "Michael III supervises a convention of clergy and secular persons Chronicle of John Skylitzes.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Michael_III_supervises_a_convention_of_clergy_and_secular_persons_Chronicle_of_John_Skylitzes.jpg",
+      "sha256": "66ef28eae02abdec8914d1d5e3182a5a6aeb39f905371492aed7734c749f852b",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q41592",
+      "name": "Basilio I",
+      "title": "Solidus-Basil I.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Basil_I.jpg",
+      "sha256": "785c24be7a5d74b77ce99a814ecb47eebc8d76edbb71d3d55688208219b60622",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Basilio I; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q41618",
+      "name": "León VI el Sabio",
+      "title": "Byzantinischer Mosaizist des 9. Jahrhunderts 002.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Byzantinischer_Mosaizist_des_9._Jahrhunderts_002.jpg",
+      "sha256": "019f4b989e6d2952e30e1617a97c5f07ec350675d79d90b08074cfab25633bf1",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Figura tradicionalmente identificada con León VI en un mosaico de Santa Sofía; atribución interpretativa."
+    },
+    {
+      "person": "Q230001",
+      "name": "Teodora",
+      "title": "Solidus of Theodora II (obverse).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus_of_Theodora_II_(obverse).jpg",
+      "sha256": "e042c59d2aac03759c868eb4aef8e98184c36ef848be703f89716a7c35d509f9",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Teodora; no retrato del natural acreditado."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q41622",
+      "title": "Michael III supervises a convention of clergy and secular persons Chronicle of John Skylitzes.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Michael_III_supervises_a_convention_of_clergy_and_secular_persons_Chronicle_of_John_Skylitzes.jpg"
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-15",
+      "name": "Constantinopla",
+      "coordinates": [
+        28.978,
+        41.008
+      ],
+      "start": 800,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review032-iconoclasm",
+      "type": "institution",
+      "title": "Segunda iconoclasia y regencias",
+      "start": "0813-01-01",
+      "end": "0844-01-01",
+      "text": "Cambios dinásticos, coemperadores y regencias tienen funciones distintas. La restauración del culto a las imágenes de 843 se distingue de los accesos individuales al trono.",
+      "source": "https://en.wikipedia.org/wiki/Byzantine_Iconoclasm",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  }
+}

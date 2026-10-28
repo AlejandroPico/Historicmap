@@ -1,0 +1,18 @@
+import{test,expect,type Page}from'@playwright/test';
+test.use({actionTimeout:15000});
+async function ready(p:Page,y:number){await expect(p.locator('#map')).toHaveAttribute('data-rendered',`history-${y}`,{timeout:90000});await expect(p.locator('#play')).toHaveAttribute('aria-busy','false');}
+async function year(p:Page,y:number){await p.locator('#date-button').click();await p.locator('#date-input').fill(String(y));await p.locator('#date-input').press('Enter');await ready(p,y);}
+async function search(p:Page,s:string,key:string){await p.locator('#search-button').click();await p.locator('#search-input').fill(s);await p.locator('#search-results button').first().click();await expect(p.locator('#selection')).toHaveAttribute('data-entity',key);await expect(p.locator('#map')).toHaveAttribute('data-camera-ready','true',{timeout:30000});}
+async function images(p:Page){for(const image of await p.locator('.leader-portrait,.historic-flag').all()){await image.scrollIntoViewIfNeeded();await expect.poll(()=>image.evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth>0),{timeout:15000}).toBe(true);}await p.locator('.country-content').evaluate(e=>e.scrollTop=0);}
+
+test('800 annual map, Carolingian partition and cultural continuity retain open cards',async({page})=>{
+ test.setTimeout(240000);const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/#year=800&view=mercator');await ready(page,800);await search(page,'carolingia','FRANKISH-REALM');await expect(page.locator('#pane-authorities')).toContainText('Carlomagno');await expect(page.locator('#pane-authorities')).toContainText('emperador');await images(page);await page.screenshot({path:'test-results/review-032-franks.png',timeout:45000,animations:'disabled'});
+ await year(page,843);await search(page,'francos occidentales','FRA');await expect(page.locator('#pane-authorities')).toContainText('Carlos el Calvo');await year(page,886);await expect(page.locator('#selection')).toHaveAttribute('data-entity','FRA');await expect(page.locator('#pane-authorities')).toContainText('Carlos III el Gordo');
+ await search(page,'sámi','CULTURE-SAMI');await year(page,899);await expect(page.locator('.regional-card')).toBeVisible();await year(page,900);await expect(page.locator('#selection')).toHaveAttribute('data-entity','CULTURE-SAMI');await expect(page.locator('.selection-unavailable')).toHaveCount(0);await year(page,800);await expect(page.locator('.selection-unavailable')).toHaveCount(0);expect(errors).toEqual([]);
+});
+
+test('800 cultures and dated Asian authorities remain usable in the mobile globe',async({page})=>{
+ test.setTimeout(240000);await page.setViewportSize({width:390,height:844});const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/#year=850&view=globe');await ready(page,850);await search(page,'Tang','TANG');await expect(page.locator('#pane-authorities')).toContainText('Xuān');await images(page);
+ await year(page,860);await search(page,'Japón','JPN');await expect(page.locator('#pane-authorities')).toContainText('Yoshifusa');await expect(page.locator('#pane-authorities')).toContainText('Sesshō');await images(page);await page.screenshot({path:'test-results/review-032-japan-mobile.png',timeout:45000,animations:'disabled'});
+ await search(page,'amazónicas','CULTURE-AMAZON');await expect(page.locator('.leader-name')).toHaveCount(0);await year(page,899);await expect(page.locator('.regional-card')).toBeVisible();await year(page,900);await expect(page.locator('.selection-unavailable')).toHaveCount(0);expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);expect(errors).toEqual([]);
+});

@@ -1,0 +1,510 @@
+{
+  "key": "HIST-Q771193",
+  "identity": {
+    "qid": "Q771193",
+    "name": "Kingdom of Brittany"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Rey / soberano de Bretaña",
+      "officePattern": "King.*Brittany|Duke.*Brittany",
+      "titles": [
+        "Nominoe",
+        "Erispoe",
+        "Salomon, King of Brittany",
+        "Pascweten",
+        "Gurvand",
+        "Judicael, Duke of Brittany",
+        "Alan I, King of Brittany"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q467708",
+      "name": "Nominoe",
+      "role": "Rey / soberano de Bretaña",
+      "start": "0841-01-01",
+      "end": "0851-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nominoe",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q763516",
+      "name": "Erispoe",
+      "role": "Rey / soberano de Bretaña",
+      "start": "0851-01-01",
+      "end": "0857-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Erispoe",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q983536",
+      "name": "Salomón de Bretaña",
+      "role": "Rey / soberano de Bretaña",
+      "start": "0857-01-01",
+      "end": "0874-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Salomon_of_Brittany",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-1da77a28a665dcb2d6b4.jpg",
+        "title": "King Salomon of Brittany - 2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:King_Salomon_of_Brittany_-_2.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/King_Salomon_of_Brittany_-_2.jpg/500px-King_Salomon_of_Brittany_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Photo, crop, resize, perspective and contrast correction : Ash Crow, Original fresco : Alphonse Le Henaff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Crop of a photograph of a fresco by Alphonse Le Henaff.",
+        "sha256": "b5071cf0a9f4d82cbd959bffcd18d2e8925816eebb04e177c4b03e3d2346f02e",
+        "bytes": 154666,
+        "canonicalFile": "Países/HIST-Q771193-Kingdom-of-Brittany/retratos/portrait-1da77a28a665dcb2d6b4.jpg",
+        "caption": "Representación religiosa posterior de Salomón de Bretaña; no retrato del natural."
+      }
+    },
+    {
+      "person": "Q561348",
+      "name": "Alano I de Bretaña",
+      "role": "Rey / soberano de Bretaña",
+      "start": "0890-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Alan_I_of_Brittany",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 800,
+      "end": 899,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q771193",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional de fuente; no evaluación democrática ni gobierno uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Brittany"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Kingdom of Brittany",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "96b69f43ed5b9ae3ec8b8e551ece670551402ca6e321c3d548162d3fc84232e8",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3072,
+        3209,
+        3253,
+        3266,
+        3371,
+        3393,
+        3465,
+        3501
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Alan I, King of Brittany",
+        "title": "Alan I, King of Brittany",
+        "person": "Q561348",
+        "name": "Alano I de Bretaña",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Alan_I_of_Brittany",
+        "identityResolution": {
+          "requested": "Alan I, King of Brittany",
+          "canonical": "Alan I of Brittany",
+          "qid": "Q561348"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q29169713",
+          "start": "0890-01-01",
+          "end": "0907-01-01",
+          "precision": 9,
+          "statement": "Q561348$4453fc61-4ed1-730a-8ee4-d7812c370add",
+          "label": "king of Brittany"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q561348",
+        "title": "Alan I of Brittany",
+        "source": "https://en.wikipedia.org/wiki/Alan_I_of_Brittany",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Erispoe",
+        "title": "Erispoe",
+        "person": "Q763516",
+        "name": "Erispoe",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Erispoe",
+        "identityResolution": {
+          "requested": "Erispoe",
+          "canonical": "Erispoe",
+          "qid": "Q763516"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q29169713",
+          "start": "0851-01-01",
+          "end": "0857-01-01",
+          "precision": 9,
+          "statement": "Q763516$c2390f01-4694-b977-077a-08deb8a32435",
+          "label": "king of Brittany"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q763516",
+        "title": "Erispoe",
+        "source": "https://en.wikipedia.org/wiki/Erispoe",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gurvand",
+        "title": "Gurvand",
+        "person": "Q1890988",
+        "name": "Gurvand",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gurvand",
+        "identityResolution": {
+          "requested": "Gurvand",
+          "canonical": "Gurvand",
+          "qid": "Q1890988"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1890988",
+        "title": "Gurvand",
+        "source": "https://en.wikipedia.org/wiki/Gurvand",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Judicael, Duke of Brittany",
+        "title": "Judicael, Duke of Brittany",
+        "person": "Q971319",
+        "name": "Judicael, Duke of Brittany",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Judicael_of_Brittany",
+        "identityResolution": {
+          "requested": "Judicael, Duke of Brittany",
+          "canonical": "Judicael of Brittany",
+          "qid": "Q971319"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q971319",
+        "title": "Judicael of Brittany",
+        "source": "https://en.wikipedia.org/wiki/Judicael_of_Brittany",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nominoe",
+        "title": "Nominoe",
+        "person": "Q467708",
+        "name": "Nominoe",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Nominoe",
+        "identityResolution": {
+          "requested": "Nominoe",
+          "canonical": "Nominoe",
+          "qid": "Q467708"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q2304859",
+          "start": "0845-01-01",
+          "end": "0851-01-01",
+          "precision": 9,
+          "statement": "Q467708$8d62d617-44c2-79d8-8487-887248d7e904",
+          "label": "soberano"
+        },
+        {
+          "property": "P97",
+          "office": "Q3519259",
+          "start": "0819-07-01",
+          "end": "0851-01-01",
+          "precision": 9,
+          "statement": "Q467708$dfd343a7-488a-2320-7574-d291108c0e07",
+          "label": "conde"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q467708",
+        "title": "Nominoe",
+        "source": "https://en.wikipedia.org/wiki/Nominoe",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Duke of Brittany",
+            "raw": "841–851",
+            "parsed": {
+              "start": "0841-01-01",
+              "end": "0851-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pascweten",
+        "title": "Pascweten",
+        "person": "Q2526916",
+        "name": "Pascweten",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pascweten",
+        "identityResolution": {
+          "requested": "Pascweten",
+          "canonical": "Pascweten",
+          "qid": "Q2526916"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2526916",
+        "title": "Pascweten",
+        "source": "https://en.wikipedia.org/wiki/Pascweten",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Salomon, King of Brittany",
+        "title": "Salomon, King of Brittany",
+        "person": "Q983536",
+        "name": "Salomón de Bretaña",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Salomon_of_Brittany",
+        "identityResolution": {
+          "requested": "Salomon, King of Brittany",
+          "canonical": "Salomon of Brittany",
+          "qid": "Q983536"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q29169713",
+          "start": "0857-01-01",
+          "end": "0874-01-01",
+          "precision": 9,
+          "statement": "Q983536$83a266f9-4a60-8657-098f-bbc4818ccff9",
+          "label": "king of Brittany"
+        },
+        {
+          "property": "P39",
+          "office": "Q29169713",
+          "start": "0857-01-01",
+          "end": "0874-01-01",
+          "precision": 9,
+          "statement": "Q983536$9FB8011D-2F52-4A1B-A9AE-605EE55AC831",
+          "label": "king of Brittany"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q983536",
+        "title": "Salomon of Brittany",
+        "source": "https://en.wikipedia.org/wiki/Salomon_of_Brittany",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Duke of Brittany",
+            "raw": "857-874",
+            "parsed": {
+              "start": "0857-01-01",
+              "end": "0874-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q467708",
+        "title": "Nominoe",
+        "source": "https://en.wikipedia.org/wiki/Nominoe",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Duke of Brittany",
+          "raw": "841–851",
+          "parsed": {
+            "start": "0841-01-01",
+            "end": "0851-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q763516",
+        "title": "Erispoe",
+        "source": "https://en.wikipedia.org/wiki/Erispoe",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q29169713",
+          "start": "0851-01-01",
+          "end": "0857-01-01",
+          "precision": 9,
+          "statement": "Q763516$c2390f01-4694-b977-077a-08deb8a32435",
+          "label": "king of Brittany"
+        }
+      },
+      {
+        "person": "Q983536",
+        "title": "Salomon, King of Brittany",
+        "source": "https://en.wikipedia.org/wiki/Salomon_of_Brittany",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Duke of Brittany",
+          "raw": "857-874",
+          "parsed": {
+            "start": "0857-01-01",
+            "end": "0874-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q561348",
+        "title": "Alan I, King of Brittany",
+        "source": "https://en.wikipedia.org/wiki/Alan_I_of_Brittany",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q29169713",
+          "start": "0890-01-01",
+          "end": "0907-01-01",
+          "precision": 9,
+          "statement": "Q561348$4453fc61-4ed1-730a-8ee4-d7812c370add",
+          "label": "king of Brittany"
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Pascweten",
+        "person": "Q2526916",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Gurvand",
+        "person": "Q1890988",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Judicael, Duke of Brittany",
+        "person": "Q971319",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "rejectedPortraits": [
+    {
+      "person": "Q467708",
+      "title": "Noménoë (Tenniel).png",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Nom%C3%A9no%C3%AB_(Tenniel).png"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q467708",
+      "name": "Nominoe",
+      "title": "Noménoë (Tenniel).png",
+      "source": "https://commons.wikimedia.org/wiki/File:Nom%C3%A9no%C3%AB_(Tenniel).png",
+      "sha256": "4142e2ef7fc149d1e7c2d8949db26310e7d379f939a6ed6c62b24445587cf66b",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q983536",
+      "name": "Salomón de Bretaña",
+      "title": "King Salomon of Brittany - 2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:King_Salomon_of_Brittany_-_2.jpg",
+      "sha256": "b5071cf0a9f4d82cbd959bffcd18d2e8925816eebb04e177c4b03e3d2346f02e",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación religiosa posterior de Salomón de Bretaña; no retrato del natural."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

@@ -3,6 +3,7 @@
   "name": "Poderes chahamanas · referencia",
   "qid": "",
   "aliases": [
+    "Chauhans",
     "Poderes chahamanas · referencia"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
@@ -12,8 +13,26 @@
   "symbolReferences": [],
   "leaders": [],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 254,
+      "start": null,
+      "end": null,
+      "name": "Chauhans",
+      "status": null
+    }
+  ],
   "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-CHAUHANS-Y0800:0",
+      "contextKey": "REFERENCE-CHAUHANS",
+      "start": 800,
+      "end": 899,
+      "sourceYear": 800,
+      "canonicalFile": "Países/REFERENCE-CHAUHANS-Poderes-chahamanas-referencia/poblamiento/REFERENCE-CHAUHANS-Y0800.json"
+    },
     {
       "file": "cultural-regions.geojson",
       "recordId": "REFERENCE-CHAUHANS:0",

@@ -18,4 +18,10 @@ class OfficeInfoboxTests(unittest.TestCase):
  def test_abbreviated_years_and_circa_ranges(self):
   r=m.extract('{{Infobox royalty|succession=King|reign=953–77}}');self.assertEqual(r[0]['parsed']['end'],'0977-12-31')
   r=m.extract('{{Infobox royalty|succession=Emperor|reign={{circa|936|939 CE}}}}');self.assertEqual(r[0]['parsed']['end'],'0939-12-31')
+ def test_line_break_between_endpoints_is_one_reign(self):
+  r=m.extract('{{Infobox royalty|succession=Emperor|reign=20 January 842 –<br>24 September 867}}');self.assertEqual(len(r),1);self.assertEqual(r[0]['parsed']['end'],'0867-09-24')
+ def test_capitalized_circa_and_explicit_succession_template(self):
+  r=m.extract('{{Infobox royalty|succession=King|reign={{Circa|886}} – 899}}');self.assertEqual(r[0]['parsed']['start'],'0886-01-01')
+  text='{{Infobox Korean name|hanja=Name}} {{s-hou|House||||809}} {{s-ttl|title=King of [[Balhae]]|years=794–809}}'
+  self.assertEqual(m.extract(text),[]);r=m.extract(text,include_succession=True);self.assertEqual(r[0]['office'],'King of Balhae');self.assertEqual(r[0]['parsed']['start'],'0794-01-01')
 if __name__=='__main__':unittest.main()

@@ -1,0 +1,326 @@
+{
+  "key": "HIST-Q45310",
+  "identity": {
+    "qid": "Q45310",
+    "name": "Saffarid Dynasty"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Emir safarí",
+      "officePattern": "Emir|Amir|Saffarid",
+      "titles": [
+        "Ya'qub ibn al-Layth al-Saffar",
+        "Amr ibn al-Layth"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q45261",
+      "name": "Ya'qub-i Laith Saffari",
+      "role": "Emir safarí",
+      "start": "0861-01-01",
+      "end": "0879-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ya%27qub_ibn_al-Layth_al-Saffar",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-4fe6880491f9ac2bb527.jpg",
+        "title": "مجسمه یعقوب لیث در زابل.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AC%D8%B3%D9%85%D9%87_%DB%8C%D8%B9%D9%82%D9%88%D8%A8_%D9%84%DB%8C%D8%AB_%D8%AF%D8%B1_%D8%B2%D8%A7%D8%A8%D9%84.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%D9%85%D8%AC%D8%B3%D9%85%D9%87_%DB%8C%D8%B9%D9%82%D9%88%D8%A8_%D9%84%DB%8C%D8%AB_%D8%AF%D8%B1_%D8%B2%D8%A7%D8%A8%D9%84.jpg/500px-%D9%85%D8%AC%D8%B3%D9%85%D9%87_%DB%8C%D8%B9%D9%82%D9%88%D8%A8_%D9%84%DB%8C%D8%AB_%D8%AF%D8%B1_%D8%B2%D8%A7%D8%A8%D9%84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Rasool abbasi17",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "9a7d542160e83f16d35d5799aea0a9a5783845e00dede26af305ba67a68448d0",
+        "bytes": 55114,
+        "canonicalFile": "Países/HIST-Q45310-Saffarid-Dynasty/retratos/portrait-4fe6880491f9ac2bb527.jpg",
+        "caption": "Representación conmemorativa moderna de Ya'qub-i Laith Saffari."
+      }
+    },
+    {
+      "person": "Q45212",
+      "name": "Amr ibn al-Layth",
+      "role": "Emir safarí",
+      "start": "0879-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Amr_ibn_al-Layth",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 800,
+      "end": 899,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q45310",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional de fuente; no evaluación democrática ni gobierno uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Saffarid Dynasty"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Saffarid Dynasty",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "b9f5fe7317d78c149da891c113b36cc0498f04919ee62a9c2cbccf9d66a98e11",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3203,
+        3239,
+        3258,
+        3323,
+        3326,
+        3365,
+        3413,
+        3423,
+        3507,
+        3516,
+        3552
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Amr ibn al-Layth",
+        "title": "Amr ibn al-Layth",
+        "person": "Q45212",
+        "name": "Amr ibn al-Layth",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Amr_ibn_al-Layth",
+        "identityResolution": {
+          "requested": "Amr ibn al-Layth",
+          "canonical": "Amr ibn al-Layth",
+          "qid": "Q45212"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q57642727",
+          "start": "0879-01-01",
+          "end": "0901-01-01",
+          "precision": 9,
+          "statement": "Q45212$65998a1b-499d-80ed-58f5-3034024583df",
+          "label": "Amir of the Saffarid dynasty"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q45212",
+        "title": "Amr ibn al-Layth",
+        "source": "https://en.wikipedia.org/wiki/Amr_ibn_al-Layth",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Amir of the Saffarid dynasty",
+            "raw": "879–901",
+            "parsed": {
+              "start": "0879-01-01",
+              "end": "0901-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Saffarid amir",
+            "raw": "879–901",
+            "parsed": {
+              "start": "0879-01-01",
+              "end": "0901-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ya'qub ibn al-Layth al-Saffar",
+        "title": "Ya'qub ibn al-Layth al-Saffar",
+        "person": "Q45261",
+        "name": "Ya'qub-i Laith Saffari",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ya%27qub_ibn_al-Layth_al-Saffar",
+        "identityResolution": {
+          "requested": "Ya'qub ibn al-Layth al-Saffar",
+          "canonical": "Ya'qub ibn al-Layth al-Saffar",
+          "qid": "Q45261"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q57642727",
+          "start": "0861-01-01",
+          "end": "0879-01-01",
+          "precision": 9,
+          "statement": "Q45261$81642f08-4502-4bfd-4474-62c9d0469fff",
+          "label": "Amir of the Saffarid dynasty"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q45261",
+        "title": "Ya'qub ibn al-Layth al-Saffar",
+        "source": "https://en.wikipedia.org/wiki/Ya%27qub_ibn_al-Layth_al-Saffar",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Amir of the Saffarid dynasty",
+            "raw": "861–879",
+            "parsed": {
+              "start": "0861-01-01",
+              "end": "0879-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emir of the Saffarids",
+            "raw": "867–879",
+            "parsed": {
+              "start": "0867-01-01",
+              "end": "0879-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q45261",
+        "title": "Ya'qub ibn al-Layth al-Saffar",
+        "source": "https://en.wikipedia.org/wiki/Ya%27qub_ibn_al-Layth_al-Saffar",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Amir of the Saffarid dynasty",
+          "raw": "861–879",
+          "parsed": {
+            "start": "0861-01-01",
+            "end": "0879-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q45212",
+        "title": "Amr ibn al-Layth",
+        "source": "https://en.wikipedia.org/wiki/Amr_ibn_al-Layth",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Amir of the Saffarid dynasty",
+          "raw": "879–901",
+          "parsed": {
+            "start": "0879-01-01",
+            "end": "0901-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q45261",
+      "name": "Ya'qub-i Laith Saffari",
+      "title": "مجسمه یعقوب لیث در زابل.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AC%D8%B3%D9%85%D9%87_%DB%8C%D8%B9%D9%82%D9%88%D8%A8_%D9%84%DB%8C%D8%AB_%D8%AF%D8%B1_%D8%B2%D8%A7%D8%A8%D9%84.jpg",
+      "sha256": "9a7d542160e83f16d35d5799aea0a9a5783845e00dede26af305ba67a68448d0",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación conmemorativa moderna de Ya'qub-i Laith Saffari."
+    },
+    {
+      "person": "Q45212",
+      "name": "Amr ibn al-Layth",
+      "title": "Amr ibn al-Layth.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Amr_ibn_al-Layth.jpg",
+      "sha256": "b394f2fd6f9e12f914c1308bf43dff793379074fac4eb032fbd15ca447a0643f",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q45212",
+      "title": "Amr ibn al-Layth.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Amr_ibn_al-Layth.jpg"
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-23",
+      "name": "Zaranj · centro safárida",
+      "coordinates": [
+        61.86,
+        30.96
+      ],
+      "start": 861,
+      "end": 899,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Saffarid_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  }
+}

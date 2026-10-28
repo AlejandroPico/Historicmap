@@ -1,0 +1,78 @@
+{
+  "key": "CULTURE-PALEOSIBERIAN-Y0800",
+  "contextKey": "CULTURE-PALEOSIBERIAN",
+  "ownerKey": "CULTURE-PALEOSIBERIAN",
+  "name": "Comunidades paleosiberianas · área general",
+  "originalNames": [
+    "Paleo-Siberian hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Siberia",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. La categoría paleosiberiano de la compilación no es una cultura arqueológica única. La evidencia de Siberia occidental no valida por sí sola todas las superficies orientales; continúa pendiente su desagregación.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Investigación de Siberia occidental medieval · contraste regional limitado",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10520856/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#8f9f83",
+  "focus": [
+    118.53314,
+    62.4981
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Comunidades paleosiberianas · área general",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-PALEOSIBERIAN-Y0800.geojson",
+  "geometrySha256": "d2b1e0c7d80b5328b675924d167c966b3f43b07d003e7af469d04eb45cc98736",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      208
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Paleo-Siberian hunter-gatherers",
+      "ABBREVN": "Paleo-Siberian hunter-gatherers",
+      "wikipedia": null,
+      "SUBJECTO": "Paleo-Siberian hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Paleo-Siberian hunter-gatherers"
+    }
+  ],
+  "sourceGrouping": [
+    "Paleo-Siberian hunter-gatherers"
+  ]
+}

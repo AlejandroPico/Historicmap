@@ -1,0 +1,411 @@
+{
+  "key": "HIST-Q668412",
+  "identity": {
+    "qid": "Q668412",
+    "name": "Pala Empire"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Soberano pala",
+      "officePattern": "King|Emperor|Pala",
+      "titles": [
+        "Dharmapala (emperor)",
+        "Devapala (Pala dynasty)",
+        "Shurapala I",
+        "Vigrahapala I",
+        "Narayanapala"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3183804",
+      "name": "Dharmapala",
+      "role": "Soberano pala",
+      "start": "0800-01-01",
+      "end": "0815-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dharmapala_of_Bengal",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q15649142",
+      "name": "Devapala",
+      "role": "Soberano pala",
+      "start": "0820-01-01",
+      "end": "0850-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Devapala_of_Bengal",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q12454369",
+      "name": "Shurapala I",
+      "role": "Soberano pala",
+      "start": "0854-01-01",
+      "end": "0866-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shurapala_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q3558223",
+      "name": "Vigrahapala",
+      "role": "Soberano pala",
+      "start": "0870-01-01",
+      "end": "0871-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vigrahapala_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q3336033",
+      "name": "Narayanapala",
+      "role": "Soberano pala",
+      "start": "0871-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Narayanapala",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Pala Empire"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Pala Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "7b871b3c31de38054ed77971c95b3e79addfae1be6cf71a4314ff4b55b7b4b32",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2972,
+        3016,
+        3043,
+        3071,
+        3098,
+        3125,
+        3138,
+        3213
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Devapala (Pala dynasty)",
+        "title": "Devapala (Pala dynasty)",
+        "person": "Q15649142",
+        "name": "Devapala",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Devapala_of_Bengal",
+        "identityResolution": {
+          "requested": "Devapala (Pala dynasty)",
+          "canonical": "Devapala of Bengal",
+          "qid": "Q15649142"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q15649142",
+        "title": "Devapala of Bengal",
+        "source": "https://en.wikipedia.org/wiki/Devapala_of_Bengal",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pala Emperor",
+            "raw": "820–850 CE",
+            "parsed": {
+              "start": "0820-01-01",
+              "end": "0850-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dharmapala (emperor)",
+        "title": "Dharmapala (emperor)",
+        "person": "Q3183804",
+        "name": "Dharmapala",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dharmapala_of_Bengal",
+        "identityResolution": {
+          "requested": "Dharmapala (emperor)",
+          "canonical": "Dharmapala of Bengal",
+          "qid": "Q3183804"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3183804",
+        "title": "Dharmapala of Bengal",
+        "source": "https://en.wikipedia.org/wiki/Dharmapala_of_Bengal",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pala Emperor",
+            "raw": "783–815 CE",
+            "parsed": {
+              "start": "0783-01-01",
+              "end": "0815-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Narayanapala",
+        "title": "Narayanapala",
+        "person": "Q3336033",
+        "name": "Narayanapala",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Narayanapala",
+        "identityResolution": {
+          "requested": "Narayanapala",
+          "canonical": "Narayanapala",
+          "qid": "Q3336033"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3336033",
+        "title": "Narayanapala",
+        "source": "https://en.wikipedia.org/wiki/Narayanapala",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pala emperor",
+            "raw": "871–925 CE",
+            "parsed": {
+              "start": "0871-01-01",
+              "end": "0925-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shurapala I",
+        "title": "Shurapala I",
+        "person": "Q12454369",
+        "name": "Shurapala I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shurapala_I",
+        "identityResolution": {
+          "requested": "Shurapala I",
+          "canonical": "Shurapala I",
+          "qid": "Q12454369"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12454369",
+        "title": "Shurapala I",
+        "source": "https://en.wikipedia.org/wiki/Shurapala_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pala Emperor",
+            "raw": "854-866 CE",
+            "parsed": {
+              "start": "0854-01-01",
+              "end": "0866-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vigrahapala I",
+        "title": "Vigrahapala I",
+        "person": "Q3558223",
+        "name": "Vigrahapala",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vigrahapala_I",
+        "identityResolution": {
+          "requested": "Vigrahapala I",
+          "canonical": "Vigrahapala I",
+          "qid": "Q3558223"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3558223",
+        "title": "Vigrahapala I",
+        "source": "https://en.wikipedia.org/wiki/Vigrahapala_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pala emperor",
+            "raw": "870–871 CE",
+            "parsed": {
+              "start": "0870-01-01",
+              "end": "0871-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q3183804",
+        "title": "Dharmapala (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Dharmapala_of_Bengal",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pala Emperor",
+          "raw": "783–815 CE",
+          "parsed": {
+            "start": "0783-01-01",
+            "end": "0815-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q15649142",
+        "title": "Devapala (Pala dynasty)",
+        "source": "https://en.wikipedia.org/wiki/Devapala_of_Bengal",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pala Emperor",
+          "raw": "820–850 CE",
+          "parsed": {
+            "start": "0820-01-01",
+            "end": "0850-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q12454369",
+        "title": "Shurapala I",
+        "source": "https://en.wikipedia.org/wiki/Shurapala_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pala Emperor",
+          "raw": "854-866 CE",
+          "parsed": {
+            "start": "0854-01-01",
+            "end": "0866-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q3558223",
+        "title": "Vigrahapala I",
+        "source": "https://en.wikipedia.org/wiki/Vigrahapala_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pala emperor",
+          "raw": "870–871 CE",
+          "parsed": {
+            "start": "0870-01-01",
+            "end": "0871-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q3336033",
+        "title": "Narayanapala",
+        "source": "https://en.wikipedia.org/wiki/Narayanapala",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pala emperor",
+          "raw": "871–925 CE",
+          "parsed": {
+            "start": "0871-01-01",
+            "end": "0925-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "rejectedPortraits": [
+    {
+      "person": "Q12454369",
+      "title": "Indian Kanauj triangle map.svg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_Kanauj_triangle_map.svg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q12454369",
+      "name": "Shurapala I",
+      "title": "Indian Kanauj triangle map.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_Kanauj_triangle_map.svg",
+      "sha256": "16794016d2db8af70b3b54b0a1713d2f71ec7889046fdb84dd66139794ffca8b",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

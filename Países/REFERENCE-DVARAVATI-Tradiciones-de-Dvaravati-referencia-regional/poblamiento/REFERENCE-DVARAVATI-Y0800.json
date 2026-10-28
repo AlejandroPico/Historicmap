@@ -1,0 +1,74 @@
+{
+  "key": "REFERENCE-DVARAVATI-Y0800",
+  "contextKey": "REFERENCE-DVARAVATI",
+  "ownerKey": "REFERENCE-DVARAVATI",
+  "name": "Tradiciones de Dvaravati · referencia regional",
+  "originalNames": [
+    "Dvaravati"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Región histórica con comunidades y poderes cambiantes. La denominación geográfica no acredita un Estado independiente, una sola cultura ni un gobierno uniforme. Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#969886",
+  "focus": [
+    99.62639,
+    13.61752
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Tradiciones de Dvaravati · referencia regional",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-DVARAVATI-Y0800.geojson",
+  "geometrySha256": "26aa9103420b7f7c26391c1a56905e76ca73f7af30d6445abc850f4d528b544c",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      39
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Dvaravati",
+      "ABBREVN": "Dvaravati",
+      "wikipedia": null,
+      "SUBJECTO": "Dvaravati",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Dvaravati"
+    }
+  ],
+  "sourceGrouping": [
+    "Dvaravati"
+  ]
+}

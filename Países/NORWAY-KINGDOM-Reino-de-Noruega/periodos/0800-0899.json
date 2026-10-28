@@ -1,0 +1,186 @@
+{
+  "key": "NORWAY-KINGDOM",
+  "identity": {
+    "qid": "Q2196956",
+    "name": "Realeza noruega · formación y tradiciones"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0872-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Realeza noruega · tradición de unificación",
+      "officePattern": "King.*Norway",
+      "titles": [
+        "Harald Fairhair"
+      ],
+      "reviewedPhases": {
+        "Harald Fairhair": [
+          {
+            "start": "0872-01-01",
+            "end": "0930-12-31",
+            "role": "Realeza noruega atribuida por la tradición · fechas discutidas",
+            "source": "https://en.wikipedia.org/wiki/Harald_Fairhair",
+            "note": "La fecha tradicional872 y la unificación atribuida aHarald no son una frontera uniforme ni una fecha segura para todos los territorios. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales."
+          }
+        ]
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q206123",
+      "name": "Haroldo I de Noruega",
+      "role": "Realeza noruega atribuida por la tradición · fechas discutidas",
+      "start": "0872-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Harald_Fairhair",
+      "note": "La fecha tradicional872 y la unificación atribuida aHarald no son una frontera uniforme ni una fecha segura para todos los territorios. Intervalos revisados: aproximaciones anuales cuando la cronología o el calendario no permiten fechas exactas; no son límites territoriales.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-33627b81f7206958f326.jpg",
+        "title": "Flateyjarbok Haraldr Halfdan.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Flateyjarbok_Haraldr_Halfdan.jpg",
+        "artist": "Tokle",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flateyjarbok_Haraldr_Halfdan.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "",
+        "sha256": "b311b3b30f065304ea211c05126bb19ee86b02994634c25a92122908e1881613",
+        "bytes": 40891,
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Flateyjarbok_Haraldr_Halfdan.jpg/330px-Flateyjarbok_Haraldr_Halfdan.jpg",
+        "canonicalFile": "Países/NORWAY-KINGDOM-Reino-de-Noruega/retratos/portrait-33627b81f7206958f326.jpg",
+        "caption": "Representación manuscrita posterior de Harald; la tradición regia y su cronología son discutidas."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Old Kingdom of Norway"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Realeza noruega · formación y tradiciones",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "La fecha tradicional872 y la unificación atribuida aHarald no son una frontera uniforme ni una fecha segura para todos los territorios. Síntesis anual de fuente, no límites diarios."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "360c471ce0b24517e32a16bc344442b0800896ea139c92765fe6d0a81dd7305f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3233,
+        3279,
+        3283,
+        3556
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "La fecha tradicional872 y la unificación atribuida aHarald no son una frontera uniforme ni una fecha segura para todos los territorios. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "historicalInterpretation": "La fecha tradicional872 y la unificación atribuida aHarald no son una frontera uniforme ni una fecha segura para todos los territorios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Harald Fairhair",
+        "title": "Harald Fairhair",
+        "person": "Q206123",
+        "name": "Haroldo I de Noruega",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Harald_Fairhair",
+        "identityResolution": {
+          "requested": "Harald Fairhair",
+          "canonical": "Harald Fairhair",
+          "qid": "Q206123"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q206123",
+        "title": "Harald Fairhair",
+        "source": "https://en.wikipedia.org/wiki/Harald_Fairhair",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Norway",
+            "raw": "putatively 872–930",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Norway",
+            "raw": "872–930",
+            "parsed": {
+              "start": "0872-01-01",
+              "end": "0930-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q206123",
+        "title": "Harald Fairhair",
+        "source": "https://en.wikipedia.org/wiki/Harald_Fairhair",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Harald_Fairhair"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q206123",
+      "name": "Haroldo I de Noruega",
+      "title": "Flateyjarbok Haraldr Halfdan.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Flateyjarbok_Haraldr_Halfdan.jpg",
+      "sha256": "b311b3b30f065304ea211c05126bb19ee86b02994634c25a92122908e1881613",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación manuscrita posterior de Harald; la tradición regia y su cronología son discutidas."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

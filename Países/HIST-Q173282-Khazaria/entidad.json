@@ -3,7 +3,8 @@
   "name": "Khazaria",
   "qid": "Q173282",
   "aliases": [
-    "Khazaria"
+    "Khazaria",
+    "Khazars"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -16,6 +17,14 @@
   "leaders": [],
   "portraitVariants": [],
   "territorialRecords": [
+    {
+      "file": "world_1000.geojson",
+      "recordId": 240,
+      "start": null,
+      "end": null,
+      "name": "Khazars",
+      "status": null
+    },
     {
       "file": "early-modern-900.geojson",
       "recordId": "clio-3488",
@@ -55,9 +64,82 @@
       "end": 979,
       "name": "Khazaria",
       "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-2914",
+      "start": 800,
+      "end": 813,
+      "name": "Khazaria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3048",
+      "start": 814,
+      "end": 824,
+      "name": "Khazaria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3061",
+      "start": 825,
+      "end": 839,
+      "name": "Khazaria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3106",
+      "start": 840,
+      "end": 865,
+      "name": "Khazaria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3232",
+      "start": 866,
+      "end": 874,
+      "name": "Khazaria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3284",
+      "start": 875,
+      "end": 887,
+      "name": "Khazaria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3455",
+      "start": 888,
+      "end": 895,
+      "name": "Khazaria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-3488",
+      "start": 896,
+      "end": 899,
+      "name": "Khazaria",
+      "status": "Entidad histórica · reconstrucción anual"
     }
   ],
   "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-KHAZARS-Y0800:0",
+      "contextKey": "REFERENCE-KHAZARS",
+      "start": 800,
+      "end": 899,
+      "sourceYear": 800,
+      "canonicalFile": "Países/HIST-Q173282-Khazaria/poblamiento/REFERENCE-KHAZARS-Y0800.json"
+    },
     {
       "file": "cultural-regions.geojson",
       "recordId": "REFERENCE-KHAZARS:0",

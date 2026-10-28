@@ -1,0 +1,174 @@
+{
+  "key": "HIST-Q33235",
+  "identity": {
+    "qid": "Q33235",
+    "name": "Upper Burgundy"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Rey de Borgoña Transjurana",
+      "officePattern": "King.*Burgundy",
+      "titles": [
+        "Rudolph I of Burgundy"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q437435",
+      "name": "Rodolfo I de Borgoña",
+      "role": "Rey de Borgoña Transjurana",
+      "start": "0888-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rudolph_I_of_Burgundy",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Upper Burgundy"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Upper Burgundy",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "751d09c7bb560da088011f083cbc3fd6dc56c3bd316c8a2fdaee4e95aa583cac",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3440,
+        3498,
+        3524,
+        3547
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Rudolph I of Burgundy",
+        "title": "Rudolph I of Burgundy",
+        "person": "Q437435",
+        "name": "Rodolfo I de Borgoña",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rudolph_I_of_Burgundy",
+        "identityResolution": {
+          "requested": "Rudolph I of Burgundy",
+          "canonical": "Rudolph I of Burgundy",
+          "qid": "Q437435"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q123576158",
+          "start": "0872-01-01",
+          "end": "0911-01-01",
+          "precision": 9,
+          "statement": "Q437435$7dd20c68-4eb6-0362-0054-d2f815090899",
+          "label": "abad laico de Saint-Maurice d'Agaune"
+        },
+        {
+          "property": "P97",
+          "office": "Q24006978",
+          "start": "0888-01-01",
+          "end": "0912-01-01",
+          "precision": 9,
+          "statement": "Q437435$C4DC8231-796C-4F3C-9291-FA57F8B15676",
+          "label": "king of Upper Burgundy"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q437435",
+        "title": "Rudolph I of Burgundy",
+        "source": "https://en.wikipedia.org/wiki/Rudolph_I_of_Burgundy",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Upper Burgundy",
+            "raw": "888–912",
+            "parsed": {
+              "start": "0888-01-01",
+              "end": "0912-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Upper Burgundy",
+            "raw": "888 – 25 October 912",
+            "parsed": {
+              "start": "0888-01-01",
+              "end": "0912-10-25",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q437435",
+        "title": "Rudolph I of Burgundy",
+        "source": "https://en.wikipedia.org/wiki/Rudolph_I_of_Burgundy",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Upper Burgundy",
+          "raw": "888–912",
+          "parsed": {
+            "start": "0888-01-01",
+            "end": "0912-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

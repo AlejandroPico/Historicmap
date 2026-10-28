@@ -1,0 +1,315 @@
+{
+  "key": "HIST-Q33242",
+  "identity": {
+    "qid": "Q33242",
+    "name": "Lower Burgundy"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Rey de Provenza / Borgoña Cisjurana",
+      "officePattern": "King.*Provence|King.*Burgundy",
+      "titles": [
+        "Boso of Provence",
+        "Louis the Blind"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q73806",
+      "name": "Bosón de Provenza",
+      "role": "Rey de Provenza / Borgoña Cisjurana",
+      "start": "0879-10-15",
+      "end": "0887-01-11",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Boso_of_Provence",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-e4d1e4e41f735a98bce5.jpg",
+        "title": "King Boson of Provence.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:King_Boson_of_Provence.JPG",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/King_Boson_of_Provence.JPG/500px-King_Boson_of_Provence.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "a59b110d95f0e7e393df71a5d0c5997eec056f9a01ddc90b41154b23f85c1fdd",
+        "bytes": 69865,
+        "canonicalFile": "Países/HIST-Q33242-Kingdom-of-Lower-Burgundy/retratos/portrait-e4d1e4e41f735a98bce5.jpg",
+        "caption": "Representación religiosa posterior de Bosón; no retrato del natural."
+      }
+    },
+    {
+      "person": "Q310435",
+      "name": "Luis III el Ciego",
+      "role": "Rey de Provenza / Borgoña Cisjurana",
+      "start": "0890-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Louis_the_Blind",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-fe06407b535fb3995e52.jpg",
+        "title": "Painting of Louis the Blind.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Painting_of_Louis_the_Blind.jpg",
+        "artist": "Laurie Peirick",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Painting_of_Louis_the_Blind.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": false,
+        "credit": "https://www.pinterest.com/pin/143974519311361387/",
+        "sha256": "1f1bb23bf9a98d428ae448b4c0e6f4ec437b5137d6b5ffcfd8d51536bf3286cb",
+        "bytes": 43795,
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Painting_of_Louis_the_Blind.jpg",
+        "canonicalFile": "Países/HIST-Q33242-Kingdom-of-Lower-Burgundy/retratos/portrait-fe06407b535fb3995e52.jpg",
+        "caption": "Representación posterior de Luis III el Ciego; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lower Burgundy"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Lower Burgundy",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "88d16d87522a30ddf907661cfe6640149b6419d8528fc932cdd1a017a213e661",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3176,
+        3222,
+        3385,
+        3389,
+        3403,
+        3443,
+        3450,
+        3497
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Boso of Provence",
+        "title": "Boso of Provence",
+        "person": "Q73806",
+        "name": "Bosón de Provenza",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Boso_of_Provence",
+        "identityResolution": {
+          "requested": "Boso of Provence",
+          "canonical": "Boso of Provence",
+          "qid": "Q73806"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q23992809",
+          "start": "0879-01-01",
+          "end": "0887-01-01",
+          "precision": 9,
+          "statement": "Q73806$225E0AE0-4110-490B-95DC-0455FCF445CB",
+          "label": "King of Lower Burgundy"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q73806",
+        "title": "Boso of Provence",
+        "source": "https://en.wikipedia.org/wiki/Boso_of_Provence",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Provence Claimant King of West Francia",
+            "raw": "15 October 879 – 11 January 887",
+            "parsed": {
+              "start": "0879-10-15",
+              "end": "0887-01-11",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Louis the Blind",
+        "title": "Louis the Blind",
+        "person": "Q310435",
+        "name": "Luis III el Ciego",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Louis_the_Blind",
+        "identityResolution": {
+          "requested": "Louis the Blind",
+          "canonical": "Louis the Blind",
+          "qid": "Q310435"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q23992809",
+          "start": "0890-01-01",
+          "end": "0928-01-01",
+          "precision": 9,
+          "statement": "Q310435$60F4E64F-ABD5-43BB-9F8D-A1C89091C453",
+          "label": "King of Lower Burgundy"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q310435",
+        "title": "Louis the Blind",
+        "source": "https://en.wikipedia.org/wiki/Louis_the_Blind",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor in Italy",
+            "raw": "901–905",
+            "parsed": {
+              "start": "0901-01-01",
+              "end": "0905-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of Italy",
+            "raw": "900–905",
+            "parsed": {
+              "start": "0900-01-01",
+              "end": "0905-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King of Provence",
+            "raw": "890–928",
+            "parsed": {
+              "start": "0890-01-01",
+              "end": "0928-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Provence",
+            "raw": "890–928",
+            "parsed": {
+              "start": "0890-01-01",
+              "end": "0928-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q73806",
+        "title": "Boso of Provence",
+        "source": "https://en.wikipedia.org/wiki/Boso_of_Provence",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Provence Claimant King of West Francia",
+          "raw": "15 October 879 – 11 January 887",
+          "parsed": {
+            "start": "0879-10-15",
+            "end": "0887-01-11",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q310435",
+        "title": "Louis the Blind",
+        "source": "https://en.wikipedia.org/wiki/Louis_the_Blind",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King of Provence",
+          "raw": "890–928",
+          "parsed": {
+            "start": "0890-01-01",
+            "end": "0928-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q73806",
+      "name": "Bosón de Provenza",
+      "title": "King Boson of Provence.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:King_Boson_of_Provence.JPG",
+      "sha256": "a59b110d95f0e7e393df71a5d0c5997eec056f9a01ddc90b41154b23f85c1fdd",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación religiosa posterior de Bosón; no retrato del natural."
+    },
+    {
+      "person": "Q310435",
+      "name": "Luis III el Ciego",
+      "title": "Painting of Louis the Blind.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Painting_of_Louis_the_Blind.jpg",
+      "sha256": "1f1bb23bf9a98d428ae448b4c0e6f4ec437b5137d6b5ffcfd8d51536bf3286cb",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Luis III el Ciego; no retrato del natural acreditado."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

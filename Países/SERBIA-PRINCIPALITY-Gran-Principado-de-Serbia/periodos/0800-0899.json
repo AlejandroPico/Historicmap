@@ -1,0 +1,349 @@
+{
+  "key": "SERBIA-PRINCIPALITY",
+  "identity": {
+    "qid": "Q1311990",
+    "name": "Principado de Serbia"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Príncipe de Serbia",
+      "officePattern": "Prince.*Serb",
+      "titles": [
+        "Vlastimir",
+        "Mutimir",
+        "Pribislav of Serbia",
+        "Petar Gojniković"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q715936",
+      "name": "Mutimir Vlastimirović",
+      "role": "Príncipe de Serbia",
+      "start": "0850-01-01",
+      "end": "0891-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mutimir_of_Serbia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q956103",
+      "name": "Pribislav of Serbia",
+      "role": "Príncipe de Serbia",
+      "start": "0891-01-01",
+      "end": "0892-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pribislav_of_Serbia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios."
+    },
+    {
+      "person": "Q1342964",
+      "name": "Pedro Gojniković",
+      "role": "Príncipe de Serbia",
+      "start": "0892-01-01",
+      "end": "0899-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Petar_of_Serbia",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 800,
+      "end": 899,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.wikidata.org/wiki/Q1311990",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación institucional de fuente; no evaluación democrática ni gobierno uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Principality of Serbia"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Principado de Serbia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "e5745d2195fce653d351c5bdae209bb19d7821de136e733ae60f7f33fceaa60a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2865,
+        3148,
+        3200
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Mutimir",
+        "title": "Mutimir",
+        "person": "Q715936",
+        "name": "Mutimir Vlastimirović",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mutimir_of_Serbia",
+        "identityResolution": {
+          "requested": "Mutimir",
+          "canonical": "Mutimir of Serbia",
+          "qid": "Q715936"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q715936",
+        "title": "Mutimir of Serbia",
+        "source": "https://en.wikipedia.org/wiki/Mutimir_of_Serbia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Prince of Serbia",
+            "raw": "{{circa}} 850 – 891",
+            "parsed": {
+              "start": "0850-01-01",
+              "end": "0891-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Petar Gojniković",
+        "title": "Petar Gojniković",
+        "person": "Q1342964",
+        "name": "Pedro Gojniković",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Petar_of_Serbia",
+        "identityResolution": {
+          "requested": "Petar Gojniković",
+          "canonical": "Petar of Serbia",
+          "qid": "Q1342964"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1342964",
+        "title": "Petar of Serbia",
+        "source": "https://en.wikipedia.org/wiki/Petar_of_Serbia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Prince of Serbia",
+            "raw": "892–917",
+            "parsed": {
+              "start": "0892-01-01",
+              "end": "0917-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Serbia",
+            "raw": "892–917",
+            "parsed": {
+              "start": "0892-01-01",
+              "end": "0917-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pribislav of Serbia",
+        "title": "Pribislav of Serbia",
+        "person": "Q956103",
+        "name": "Pribislav of Serbia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pribislav_of_Serbia",
+        "identityResolution": {
+          "requested": "Pribislav of Serbia",
+          "canonical": "Pribislav of Serbia",
+          "qid": "Q956103"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q956103",
+        "title": "Pribislav of Serbia",
+        "source": "https://en.wikipedia.org/wiki/Pribislav_of_Serbia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Prince of Serbia",
+            "raw": "891–892",
+            "parsed": {
+              "start": "0891-01-01",
+              "end": "0892-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vlastimir",
+        "title": "Vlastimir",
+        "person": "Q225634",
+        "name": "Vlastimir",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vlastimir",
+        "identityResolution": {
+          "requested": "Vlastimir",
+          "canonical": "Vlastimir",
+          "qid": "Q225634"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q225634",
+        "title": "Vlastimir",
+        "source": "https://en.wikipedia.org/wiki/Vlastimir",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Prince of Serbia",
+            "raw": "<small>c.</small> 830 – 850 {{Cref2|b|1}}",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Serbia",
+            "raw": "ca. 830 – 851",
+            "parsed": null
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q715936",
+        "title": "Mutimir",
+        "source": "https://en.wikipedia.org/wiki/Mutimir_of_Serbia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Prince of Serbia",
+          "raw": "{{circa}} 850 – 891",
+          "parsed": {
+            "start": "0850-01-01",
+            "end": "0891-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q956103",
+        "title": "Pribislav of Serbia",
+        "source": "https://en.wikipedia.org/wiki/Pribislav_of_Serbia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Prince of Serbia",
+          "raw": "891–892",
+          "parsed": {
+            "start": "0891-01-01",
+            "end": "0892-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q1342964",
+        "title": "Petar Gojniković",
+        "source": "https://en.wikipedia.org/wiki/Petar_of_Serbia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Prince of Serbia",
+          "raw": "892–917",
+          "parsed": {
+            "start": "0892-01-01",
+            "end": "0917-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Vlastimir",
+        "person": "Q225634",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "preferExplicitReignFields": true,
+  "rejectedPortraits": [
+    {
+      "person": "Q1342964",
+      "title": "Serb lands under Petar Gojniković (en).png",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Serb_lands_under_Petar_Gojnikovi%C4%87_(en).png"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1342964",
+      "name": "Pedro Gojniković",
+      "title": "Serb lands under Petar Gojniković (en).png",
+      "source": "https://commons.wikimedia.org/wiki/File:Serb_lands_under_Petar_Gojnikovi%C4%87_(en).png",
+      "sha256": "034b51da1b2bcbe9b46d5ff73842fefc44f19a49eb444f71c8baf297467390ba",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "places": []
+}

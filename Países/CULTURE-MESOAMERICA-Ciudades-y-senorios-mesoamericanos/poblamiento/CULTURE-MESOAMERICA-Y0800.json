@@ -1,0 +1,74 @@
+{
+  "key": "CULTURE-MESOAMERICA-Y0800",
+  "contextKey": "CULTURE-MESOAMERICA",
+  "ownerKey": "CULTURE-MESOAMERICA",
+  "name": "Ciudades y señoríos mesoamericanos",
+  "originalNames": [
+    "Mesoamerican city-states and chiefdoms"
+  ],
+  "kind": "cultural-region",
+  "region": "Mesoamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    800,
+    899
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Polígono original de una compilación mundial, con precisión y escala desiguales. No es una frontera observada anualmente ni una delimitación exclusiva; falta contraste espacial local.",
+  "temporalUncertainty": "El año800 identifica la instantánea editorial, no una observación anual. La ventana800–899 no prueba límites constantes, fecha fundacional o desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#9b9a76",
+  "focus": [
+    -99.6376,
+    19.15646
+  ],
+  "phases": [
+    {
+      "start": 800,
+      "end": 899,
+      "label": "Ciudades y señoríos mesoamericanos",
+      "dateBasis": "Referencia espacial de la instantánea800 dentro del sigloIX; datación local independiente pendiente.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-MESOAMERICA-Y0800.geojson",
+  "geometrySha256": "9a199260c502b78c8c0d709af2ee59d87f77d9d2222c2141840ba0ea6e375afd",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson",
+    "year": 800,
+    "featureIds": [
+      21
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c"
+  },
+  "review": "0.32.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología local y límites; no deducir soberanía de la etiqueta ni sustituir arqueología por identidades actuales."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Mesoamerican city-states and chiefdoms",
+      "ABBREVN": "Mesoamerican city-states and chiefdoms",
+      "wikipedia": null,
+      "SUBJECTO": "Mesoamerican city-states and chiefdoms",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Mesoamerican city-states and chiefdoms"
+    }
+  ],
+  "sourceGrouping": [
+    "Mesoamerican city-states and chiefdoms"
+  ]
+}

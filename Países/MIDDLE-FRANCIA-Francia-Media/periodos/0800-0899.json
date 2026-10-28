@@ -1,0 +1,461 @@
+{
+  "key": "MIDDLE-FRANCIA",
+  "identity": {
+    "qid": "Q6673921",
+    "name": "Francia Media"
+  },
+  "revision": "0.32.0",
+  "acquisition": "century-800-0.32",
+  "coverageStart": 800,
+  "coverageEnd": 899,
+  "officeBounds": [
+    "0800-01-01",
+    "0899-12-31"
+  ],
+  "candidates": [
+    {
+      "role": "Rey de Francia Media",
+      "officePattern": "King.*Middle|King.*Lothar|King.*Franc",
+      "titles": [
+        "Lothair I",
+        "Lothair II"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q150735",
+      "name": "Lotario I",
+      "role": "Rey de Francia Media",
+      "start": "0843-08-10",
+      "end": "0855-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lothair_I",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-477c6456d396fda328cf.jpg",
+        "title": "Lothar I.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Lothar_I.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lothar_I.jpg/500px-Lothar_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lothar_I.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "89b45c15654b5a4af90b782e1ad43fdd4e98442500254e2fd6d84bc6b887431d",
+        "bytes": 152849,
+        "canonicalFile": "Países/MIDDLE-FRANCIA-Francia-Media/retratos/portrait-477c6456d396fda328cf.jpg",
+        "caption": "Representación posterior de Lotario I; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q298945",
+      "name": "Lotario II de Lotaringia",
+      "role": "Rey de Francia Media",
+      "start": "0855-01-01",
+      "end": "0869-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lothair_II",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "portrait": {
+        "file": "media/portrait-23a260c3e0084825bf61.jpg",
+        "title": "Lothar II. König von Lothringe.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Lothar_II._K%C3%B6nig_von_Lothringe.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Lothar_II._K%C3%B6nig_von_Lothringe.jpg/500px-Lothar_II._K%C3%B6nig_von_Lothringe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lothar_II._K%C3%B6nig_von_Lothringe.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://www.bildarchivaustria.at/Pages/ImageDetail.aspx?p_iBildID=4213569",
+        "sha256": "e8d5a2e09b9a07700e12a21c85913c425bc105e553cdc6c3891240fd465ca8f5",
+        "bytes": 117056,
+        "canonicalFile": "Países/MIDDLE-FRANCIA-Francia-Media/retratos/portrait-23a260c3e0084825bf61.jpg",
+        "caption": "Representación posterior de Lotario II de Lotaringia; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review032-verdun",
+      "type": "institution",
+      "title": "Partición de Verdún y Francia Media",
+      "start": "0843-01-01",
+      "end": "0856-01-01",
+      "text": "El reparto de 843 distingue los ámbitos occidental, oriental y medio; los soberanos y sus dignidades no se reducen a una sucesión nacional única. La división de 855 modifica Francia Media.",
+      "source": "https://www.insei.fr/ressources/le-partage-de-verdun-en-843",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 843,
+      "end": 855,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Carolingian_dynasty",
+      "sourceLabel": "Institución regia carolingia",
+      "note": "Título regio distinto de la dignidad imperial; no evaluación de régimen contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-800-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Middle Franks"
+        ],
+        "start": 800,
+        "end": 899,
+        "label": "Francia Media",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md",
+        "note": "Síntesis anual de fuente, sin día uniforme; no acredita gobierno uniforme sobre todo el contorno."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0800-0899.geojson",
+      "sha256": "cf66daf19e433586ed918fde96aff73ebb3991c371ef8427ca307b2ad9e45952",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        3149,
+        3551
+      ],
+      "note": "Original properties and complete source coordinates; leaf components only."
+    }
+  ],
+  "pending": [
+    "Completar cronología local, imágenes y símbolos con evidencia acreditada; el inventario no certifica todas las fronteras o instituciones."
+  ],
+  "officeNote": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Lothair I",
+        "title": "Lothair I",
+        "person": "Q150735",
+        "name": "Lotario I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Lothair_I",
+        "identityResolution": {
+          "requested": "Lothair I",
+          "canonical": "Lothair I",
+          "qid": "Q150735"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q111841382",
+          "start": "0817-01-01",
+          "end": "0855-01-01",
+          "precision": 9,
+          "statement": "Q150735$c2507858-473d-2f17-d8c7-59530a2b6a8e",
+          "label": "Emperador carolingio"
+        },
+        {
+          "property": "P97",
+          "office": "Q23906200",
+          "start": "0840-01-01",
+          "end": "0855-01-01",
+          "precision": 9,
+          "statement": "Q150735$93410143-96B0-4A5B-B9F0-B29084E8235A",
+          "label": "emperador de occidente"
+        },
+        {
+          "property": "P97",
+          "office": "Q271148",
+          "start": "0822-01-01",
+          "end": "0855-01-01",
+          "precision": 9,
+          "statement": "Q150735$DD2B5968-8B43-4F48-AC10-F7FC830494F3",
+          "label": "monarca de Italia"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0840-01-01",
+          "end": "0855-01-01",
+          "precision": 9,
+          "statement": "Q150735$18CC0A77-3C3B-4F1B-BE33-2168CD48DA08",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q150735",
+        "title": "Lothair I",
+        "source": "https://en.wikipedia.org/wiki/Lothair_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Carolingian Empire",
+            "raw": "July 817 – 19 September 855",
+            "parsed": {
+              "start": "0817-07-01",
+              "end": "0855-09-19",
+              "precision": 10
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of Italy",
+            "raw": "17 April 818 – 855",
+            "parsed": {
+              "start": "0818-04-17",
+              "end": "0855-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King of Middle Francia",
+            "raw": "{{circa}} 10 August 843 – 855",
+            "parsed": {
+              "start": "0843-08-10",
+              "end": "0855-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Maine",
+            "raw": "817–831",
+            "parsed": {
+              "start": "0817-01-01",
+              "end": "0831-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Italy",
+            "raw": "818 – 23 September 855",
+            "parsed": {
+              "start": "0818-01-01",
+              "end": "0855-09-23",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Holy Roman Emperor",
+            "raw": "817 – 23 September 855",
+            "parsed": {
+              "start": "0817-01-01",
+              "end": "0855-09-23",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Middle Francia",
+            "raw": "843 – 23 September 855",
+            "parsed": {
+              "start": "0843-01-01",
+              "end": "0855-09-23",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Lothair II",
+        "title": "Lothair II",
+        "person": "Q298945",
+        "name": "Lotario II de Lotaringia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Lothair_II",
+        "identityResolution": {
+          "requested": "Lothair II",
+          "canonical": "Lothair II",
+          "qid": "Q298945"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0855-01-01",
+          "end": "0869-01-01",
+          "precision": 9,
+          "statement": "Q298945$9e4aad45-d66b-42a7-b877-ff16dd290ec4",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q23992766",
+          "start": "0855-01-01",
+          "end": "0869-01-01",
+          "precision": 9,
+          "statement": "Q298945$8CD7BF38-CA1C-47B2-93BB-52C40C5F1E72",
+          "label": "king of Lotharingia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q298945",
+        "title": "Lothair II",
+        "source": "https://en.wikipedia.org/wiki/Lothair_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Lotharingia",
+            "raw": "855–869",
+            "parsed": {
+              "start": "0855-01-01",
+              "end": "0869-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Lotharingia",
+            "raw": "23 September 855 – 7 August 869",
+            "parsed": {
+              "start": "0855-09-23",
+              "end": "0869-08-07",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q150735",
+        "title": "Lothair I",
+        "source": "https://en.wikipedia.org/wiki/Lothair_I",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King of Middle Francia",
+          "raw": "{{circa}} 10 August 843 – 855",
+          "parsed": {
+            "start": "0843-08-10",
+            "end": "0855-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q298945",
+        "title": "Lothair II",
+        "source": "https://en.wikipedia.org/wiki/Lothair_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Lotharingia",
+          "raw": "855–869",
+          "parsed": {
+            "start": "0855-01-01",
+            "end": "0869-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "preferExplicitReignFields": true,
+  "mediaReview": [
+    {
+      "person": "Q150735",
+      "name": "Lotario I",
+      "title": "Lothar I.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lothar_I.jpg",
+      "sha256": "89b45c15654b5a4af90b782e1ad43fdd4e98442500254e2fd6d84bc6b887431d",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Lotario I; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q298945",
+      "name": "Lotario II de Lotaringia",
+      "title": "Lothar II. König von Lothringe.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lothar_II._K%C3%B6nig_von_Lothringe.jpg",
+      "sha256": "e8d5a2e09b9a07700e12a21c85913c425bc105e553cdc6c3891240fd465ca8f5",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Lotario II de Lotaringia; no retrato del natural acreditado."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat032-3",
+      "name": "Aquisgrán · centro regio",
+      "coordinates": [
+        6.083,
+        50.775
+      ],
+      "start": 843,
+      "end": 855,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Middle_Francia",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente ni perímetro urbano anual."
+    },
+    {
+      "id": "seat032-verdun-MIDDLE-FRANCIA",
+      "name": "Aquisgrán · centro regio",
+      "coordinates": [
+        6.083,
+        50.775
+      ],
+      "start": 843,
+      "end": 849,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://www.insei.fr/ressources/le-partage-de-verdun-en-843",
+      "note": "Corona distinta desde el reparto de 843. La fuente cartográfica mantiene el contorno franco agregado hasta 849; este centro permite consultar autoridades sin inventar una frontera exacta. Localización de corte de referencia, no capital exclusiva.",
+      "aggregateKey": "FRANKISH-REALM",
+      "entityName": "Francia Media"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review032-verdun",
+      "type": "institution",
+      "title": "Partición de Verdún y Francia Media",
+      "start": "0843-01-01",
+      "end": "0856-01-01",
+      "text": "El reparto de 843 distingue los ámbitos occidental, oriental y medio; los soberanos y sus dignidades no se reducen a una sucesión nacional única. La división de 855 modifica Francia Media.",
+      "source": "https://www.insei.fr/ressources/le-partage-de-verdun-en-843",
+      "sourceLabel": "Referencia documental · siglo IX",
+      "precision": 9,
+      "note": "Contexto parcial, no reconstrucción diaria del control."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No se acredita una bandera nacional de uso general para 800–899. Buscar sellos, signa o enseñas documentados por función y fecha; no retrotraer heráldica o pabellones posteriores.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-800.md"
+  },
+  "cartographicChronologyReview": {
+    "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+    "historicalPartitionYear": 843,
+    "firstSeparateSourceGeometryYear": 850,
+    "decision": "Contorno agregado anterior señalado como referencia; tres centros de corona seleccionables843–849, sin adelantar las geometrías850."
+  }
+}

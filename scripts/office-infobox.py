@@ -5,8 +5,8 @@ office heading. Birth/death fields are never selected as office dates.
 """
 import re,html,datetime
 MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December']
-def parameters(text):
- m=re.search(r'\{\{\s*infobox\b',text,re.I)
+def parameters(text,pattern=r'\{\{\s*infobox\b'):
+ m=re.search(pattern,text,re.I)
  if not m:return {}
  i=m.end();curly=1;square=0;start=i;parts=[]
  while i<len(text):
@@ -27,8 +27,8 @@ def clean(raw):
  raw=re.sub(r'\{\{(?:efn|sfn|refn|harvnb)\b[^{}]*\}\}','',raw,flags=re.I|re.S)
  raw=re.sub(r'\[\[(?:[^]|]*\|)?([^]]*)\]\]',r'\1',raw)
  raw=re.sub(r'\{\{(?:snd|ndash|mdash)\}\}','–',raw)
- raw=re.sub(r'\{\{circa\|(\d{3,4})\|(\d{3,4})(?:\s*CE)?\}\}',r'\1–\2',raw)
- raw=re.sub(r'\{\{circa\|([^{}]*)\}\}',r'\1',raw);raw=re.sub(r'\{\{circa\}\}','c. ',raw)
+ raw=re.sub(r'\{\{circa\|(\d{3,4})\|(\d{3,4})(?:\s*CE)?\}\}',r'\1–\2',raw,flags=re.I)
+ raw=re.sub(r'\{\{circa\|([^{}]*)\}\}',r'\1',raw,flags=re.I);raw=re.sub(r'\{\{circa\}\}','c. ',raw,flags=re.I)
  raw=re.sub(r'\b(?:CE|AD)\b','',raw)
  raw=re.sub(r'\{\{(?:nowrap|nobr|small)\|([^{}]*)\}\}',r'\1',raw)
  def date_template(m):
@@ -48,13 +48,16 @@ def parse_date(raw,end=False):
    return d.isoformat(),p
   except ValueError:pass
  raise ValueError('Unresolved explicit office date '+text)
-def extract(text):
+def extract(text,include_succession=False):
  p=parameters(text);out=[]
  for field,raw in p.items():
   m=re.fullmatch(r'(?:reign|tenure)(\d*)',field)
   if not m:continue
   suffix=m.group(1);office=p.get('succession'+suffix,p.get('title'+suffix,p.get('succession',p.get('title',''))))
-  for part in re.split(r'<br\s*/?>',raw,flags=re.I):
+  parts=re.split(r'<br\s*/?>',raw,flags=re.I)
+  # A line break may separate the two ends of one reign, not two reigns.
+  if len(parts)>1 and any(re.search(r'[–—-]\s*$',clean(v))for v in parts[:-1]):parts=[re.sub(r'<br\s*/?>',' ',raw,flags=re.I)]
+  for part in parts:
    value=clean(part);pair=re.split(r'\s*[–—]\s*|\s+-\s+|(?<=\d{4})-(?=\d{4}(?!\d))',value,maxsplit=1);parsed=None
    if len(pair)==2:
     try:
@@ -75,4 +78,11 @@ def extract(text):
    if a<=b:parsed=dict(start=a,end=b,precision=min(pa,pb))
   except ValueError:pass
   out.append(dict(field=field,office=clean(office),raw=raw+' – '+end,parsed=parsed))
+ if include_succession:
+  for match in re.finditer(r'\{\{\s*s-ttl\b',text,re.I):
+   fields=parameters(text[match.start():],r'\{\{\s*s-ttl\b');office=fields.get('title','');years=fields.get('years','')
+   if not office or not years:continue
+   # Only explicit office succession templates; personal dates/citations never qualify.
+   parsed=extract('{{Infobox royalty|succession='+office+'|reign='+years+'}}')
+   for row in parsed:out.append({**row,'field':'succession-template'})
  return out

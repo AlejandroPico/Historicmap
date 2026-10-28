@@ -1,0 +1,94 @@
+{
+  "key": "HIST-Q466803",
+  "name": "Late Pallava Empire",
+  "qid": "Q466803",
+  "aliases": [
+    "Late Pallava Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q466803"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1267307",
+      "name": "Dantivarman",
+      "role": "Soberano pallava",
+      "start": "0800-01-01",
+      "end": "0846-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dantivarman",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    },
+    {
+      "person": "Q3537051",
+      "name": "Nandivarman III",
+      "role": "Soberano pallava",
+      "start": "0846-01-01",
+      "end": "0869-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nandivarman_III",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    },
+    {
+      "person": "Q3630862",
+      "name": "Amoghavarsha",
+      "role": "Soberano pallava",
+      "start": "0814-01-01",
+      "end": "0878-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Amoghavarsha",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    },
+    {
+      "person": "Q4779124",
+      "name": "Aparajitavarman",
+      "role": "Soberano pallava",
+      "start": "0880-01-01",
+      "end": "0897-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aparajita_Varman",
+      "note": "Dignidad histórica documentada por campos explícitos; precisión y límites de cobertura se conservan. Las fechas aproximadas o discutidas no certifican control uniforme del contorno. Fechas transmitidas por la fuente, sin conversión automática entre calendarios.",
+      "curated": true,
+      "acquisition": "century-800-0.32"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-800.geojson",
+      "recordId": "clio-2997",
+      "start": 800,
+      "end": 805,
+      "name": "Late Pallava Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-PALLAVA-STATE-6BFF9E03-Y0800",
+      "ownerKey": "HIST-Q466803",
+      "name": "Pallava state",
+      "file": "Países/HIST-Q466803-Pallava-state/poblamiento/CULTURE-PALLAVA-STATE-6BFF9E03-Y0800.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
