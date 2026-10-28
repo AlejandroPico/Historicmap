@@ -1,0 +1,373 @@
+{
+  "key": "JPN",
+  "identity": {
+    "qid": "Q17",
+    "name": "Yamato · tradición de la corte"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Autoridad de Yamato · tradición imperial",
+      "officePattern": "Emperor.*Japan|Empress.*Japan",
+      "titles": [
+        "Emperor Keikō",
+        "Emperor Seimu",
+        "Emperor Chūai",
+        "Empress Jingū"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q316672",
+      "name": "Emperador Seimu",
+      "role": "Autoridad de Yamato · tradición imperial",
+      "start": "0131-01-01",
+      "end": "0190-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Seimu",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes; no observación contemporánea de todos los años.",
+      "portrait": {
+        "file": "media/portrait-484c131aa23e274f2e62.jpg",
+        "title": "Emperor Seimu.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Emperor_Seimu.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Emperor_Seimu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Published by 三英舎 (San'ei-sha)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Seimu.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "\"御歴代百廿一天皇御尊影\"",
+        "sha256": "796ad5e8b12c7f2a7cf4e1c12a6cd118e6b6d45f9fc897e8dc226ccb6f7901d5",
+        "bytes": 151855,
+        "canonicalFile": "Países/JPN-Japon/retratos/portrait-484c131aa23e274f2e62.jpg",
+        "caption": "Representación imaginaria posterior de Emperador Seimu; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q179971",
+      "name": "Emperador Chūai",
+      "role": "Autoridad de Yamato · tradición imperial",
+      "start": "0192-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ch%C5%ABai",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes; no observación contemporánea de todos los años.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review039-tradition",
+      "type": "institution",
+      "title": "Yayoi y listas imperiales retrospectivas",
+      "start": "0100-01-01",
+      "end": "0200-01-01",
+      "text": "Las listas de soberanos transmitidas posteriormente y sus reinados tienen carácter tradicional. La referencia regional no demuestra una capital exclusiva ni las fronteras de Japón moderno.",
+      "source": "https://www.metmuseum.org/toah/ht/05/eaj.html",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 100,
+      "end": 199,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Seimu",
+      "note": "Clasificación institucional documentada; no control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Chūai",
+        "title": "Emperor Chūai",
+        "person": "Q179971",
+        "name": "Emperador Chūai",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ch%C5%ABai",
+        "identityResolution": {
+          "requested": "Emperor Chūai",
+          "canonical": "Emperor Chūai",
+          "qid": "Q179971"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q208233",
+          "start": "0192-01-01",
+          "end": "0200-01-01",
+          "precision": 9,
+          "statement": "q179971$889d7b68-4988-d2e4-23da-b7a8d0acdf29",
+          "label": "emperador de Japón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q179971",
+        "title": "Emperor Chūai",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ch%C5%ABai",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Japan",
+            "raw": "192–200 (traditional)<ref>{{cite web|archiveurl=https://web.archive.org/web/20110322210732/http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|archivedate=March 22, 2011|url=http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|title=Genealogy of the Emperors of Japan|work=Kunaicho.go.jp|access-date=August 2, 2019}}</ref>",
+            "parsed": {
+              "start": "0192-01-01",
+              "end": "0200-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Legendary Emperor of Japan",
+            "raw": "192–200",
+            "parsed": {
+              "start": "0192-01-01",
+              "end": "0200-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Legendary Emperor of Japan",
+            "raw": "''(traditional dates)''",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Keikō",
+        "title": "Emperor Keikō",
+        "person": "Q329723",
+        "name": "Emperador Keikō",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Keik%C5%8D",
+        "identityResolution": {
+          "requested": "Emperor Keikō",
+          "canonical": "Emperor Keikō",
+          "qid": "Q329723"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Seimu",
+        "title": "Emperor Seimu",
+        "person": "Q316672",
+        "name": "Emperador Seimu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Seimu",
+        "identityResolution": {
+          "requested": "Emperor Seimu",
+          "canonical": "Emperor Seimu",
+          "qid": "Q316672"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q208233",
+          "start": "0131-01-01",
+          "end": "0191-01-01",
+          "precision": 9,
+          "statement": "q316672$4e5eea5b-44d7-79f3-5dd6-82b865981ffa",
+          "label": "emperador de Japón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q316672",
+        "title": "Emperor Seimu",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Seimu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Japan",
+            "raw": "131–190 (traditional)<ref>{{cite web|archiveurl=https://web.archive.org/web/20110322210732/http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|archivedate=March 22, 2011|url=http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|title=Genealogy of the Emperors of Japan|work=Kunaicho.go.jp|access-date=31 July 2019}}</ref>",
+            "parsed": {
+              "start": "0131-01-01",
+              "end": "0190-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Legendary Emperor of Japan",
+            "raw": "131–190",
+            "parsed": {
+              "start": "0131-01-01",
+              "end": "0190-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Legendary Emperor of Japan",
+            "raw": "''(traditional dates)''",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Empress Jingū",
+        "title": "Empress Jingū",
+        "person": "Q232803",
+        "name": "Emperatriz Consorte Jingū",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Empress_Jing%C5%AB",
+        "identityResolution": {
+          "requested": "Empress Jingū",
+          "canonical": "Empress Jingū",
+          "qid": "Q232803"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q316672",
+        "title": "Emperor Seimu",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Seimu",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Japan",
+          "raw": "131–190 (traditional)<ref>{{cite web|archiveurl=https://web.archive.org/web/20110322210732/http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|archivedate=March 22, 2011|url=http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|title=Genealogy of the Emperors of Japan|work=Kunaicho.go.jp|access-date=31 July 2019}}</ref>",
+          "parsed": {
+            "start": "0131-01-01",
+            "end": "0190-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q179971",
+        "title": "Emperor Chūai",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ch%C5%ABai",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Japan",
+          "raw": "192–200 (traditional)<ref>{{cite web|archiveurl=https://web.archive.org/web/20110322210732/http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|archivedate=March 22, 2011|url=http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|title=Genealogy of the Emperors of Japan|work=Kunaicho.go.jp|access-date=August 2, 2019}}</ref>",
+          "parsed": {
+            "start": "0192-01-01",
+            "end": "0200-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Emperor Keikō",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Empress Jingū",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat039-21",
+      "name": "Yamato · región de cortes",
+      "coordinates": [
+        135.82,
+        34.47
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Yayoi_period",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Yamato · tradición de la corte"
+    },
+    {
+      "id": "seat039-21-own",
+      "name": "Yamato · región de cortes",
+      "coordinates": [
+        135.82,
+        34.47
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Yayoi_period",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Yamato · tradición de la corte"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review039-tradition",
+      "type": "institution",
+      "title": "Yayoi y listas imperiales retrospectivas",
+      "start": "0100-01-01",
+      "end": "0200-01-01",
+      "text": "Las listas de soberanos transmitidas posteriormente y sus reinados tienen carácter tradicional. La referencia regional no demuestra una capital exclusiva ni las fronteras de Japón moderno.",
+      "source": "https://www.metmuseum.org/toah/ht/05/eaj.html",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q316672",
+      "name": "Emperador Seimu",
+      "title": "Emperor Seimu.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Emperor_Seimu.jpg",
+      "sha256": "796ad5e8b12c7f2a7cf4e1c12a6cd118e6b6d45f9fc897e8dc226ccb6f7901d5",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Emperador Seimu; no fotografía ni semejanza del natural acreditada."
+    }
+  ]
+}

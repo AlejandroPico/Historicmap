@@ -13,7 +13,98 @@
   },
   "flags": [],
   "symbolReferences": [],
-  "leaders": [],
+  "leaders": [
+    {
+      "person": "Q48970836",
+      "name": "Abgaro VII",
+      "role": "Rey de Osroene",
+      "start": "0109-01-01",
+      "end": "0116-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abgar_VII",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-100-0.39"
+    },
+    {
+      "person": "Q320149",
+      "name": "Abgaro VIII de Edesa",
+      "role": "Rey de Osroene",
+      "start": "0177-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abgar_VIII",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-100-0.39"
+    },
+    {
+      "person": "Q1269411",
+      "name": "Partamaspates",
+      "role": "Rey de Osroene · vinculación romana",
+      "start": "0118-01-01",
+      "end": "0123-12-31",
+      "precision": 9,
+      "source": "https://archiv.ub.uni-heidelberg.de/propylaeumdok/4995/1/Gawlikowski_The_last_kings_1998.pdf",
+      "note": "Gobierno posterior en Osroene; su título parto anterior no se convierte en reinado edeseno desde116.",
+      "curated": true,
+      "acquisition": "century-100-0.39",
+      "portrait": {
+        "file": "media/portrait-0239c9ac81ece5ec9c4f.jpg",
+        "title": "Parthamaspates.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Parthamaspates.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Parthamaspates.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group; [1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://www.cngcoins.com/Coin.aspx?CoinID=38685",
+        "sha256": "1d31e6bc31a7a099566967f5f0dcfe1cd57c5eb49b4c73023b1a327d547dcad1",
+        "bytes": 51623,
+        "canonicalFile": "Países/HIST-Q237234-Kingdom-of-Osroene/retratos/portrait-0239c9ac81ece5ec9c4f.jpg",
+        "caption": "Efigie monetaria convencional de Partamaspates; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "documented-osroene-manu-vii",
+      "name": "Ma’nu VII",
+      "role": "Rey de Osroene",
+      "start": "0123-01-01",
+      "end": "0139-12-31",
+      "precision": 9,
+      "source": "https://archiv.ub.uni-heidelberg.de/propylaeumdok/4995/1/Gawlikowski_The_last_kings_1998.pdf",
+      "note": "Sucesión documentada en la investigación de Edessa; no se fabrica un identificador Wikidata ni un retrato.",
+      "curated": true,
+      "acquisition": "century-100-0.39"
+    },
+    {
+      "person": "documented-osroene-manu-viii",
+      "name": "Ma’nu VIII",
+      "role": "Rey de Osroene",
+      "start": "0139-01-01",
+      "end": "0163-12-31",
+      "precision": 9,
+      "source": "https://www.sanliurfa.bel.tr/files/1/bsb_sonra/gecmisin-izinde-sanliurfa.pdf",
+      "note": "Primera fase139–163; restauración posterior separada. Numeración dinástica y fechas alternativas conservadas en la bibliografía.",
+      "curated": true,
+      "acquisition": "century-100-0.39"
+    },
+    {
+      "person": "documented-osroene-manu-viii",
+      "name": "Ma’nu VIII",
+      "role": "Rey de Osroene · restauración",
+      "start": "0165-01-01",
+      "end": "0177-12-31",
+      "precision": 9,
+      "source": "https://www.sanliurfa.bel.tr/files/1/bsb_sonra/gecmisin-izinde-sanliurfa.pdf",
+      "note": "Restauración165–177 según la cronología adoptada; no se fusiona con el primer periodo ni se inventa continuidad163–165.",
+      "curated": true,
+      "acquisition": "century-100-0.39"
+    }
+  ],
   "portraitVariants": [],
   "territorialRecords": [
     {
@@ -29,6 +120,38 @@
       "recordId": "clio-1315",
       "start": 207,
       "end": 214,
+      "name": "Kingdom of Osroene",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-100.geojson",
+      "recordId": "clio-1192",
+      "start": 100,
+      "end": 113,
+      "name": "Kingdom of Osroene",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-100.geojson",
+      "recordId": "clio-1247",
+      "start": 127,
+      "end": 160,
+      "name": "Kingdom of Osroene",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-100.geojson",
+      "recordId": "clio-1283",
+      "start": 165,
+      "end": 183,
+      "name": "Kingdom of Osroene",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-100.geojson",
+      "recordId": "clio-1287",
+      "start": 184,
+      "end": 199,
       "name": "Kingdom of Osroene",
       "status": "Entidad histórica · reconstrucción anual"
     }

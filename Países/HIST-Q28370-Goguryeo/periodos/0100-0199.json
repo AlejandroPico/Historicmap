@@ -1,0 +1,543 @@
+{
+  "key": "HIST-Q28370",
+  "identity": {
+    "qid": "Q28370",
+    "name": "Goguryeo"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "officePattern": "King.*Goguryeo|King.*Kogur",
+      "titles": [
+        "Taejodae of Goguryeo",
+        "Chadae of Goguryeo",
+        "Sindae of Goguryeo",
+        "Gogukcheon of Goguryeo",
+        "Sansang of Goguryeo"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q498481",
+      "name": "Taejo of Goguryeo",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0100-01-01",
+      "end": "0146-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Taejo_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes; no observación contemporánea de todos los años.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q498506",
+      "name": "Chadae",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0146-01-01",
+      "end": "0165-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chadae_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes; no observación contemporánea de todos los años."
+    },
+    {
+      "person": "Q498530",
+      "name": "Sindae",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0165-01-01",
+      "end": "0179-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sindae_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes; no observación contemporánea de todos los años."
+    },
+    {
+      "person": "Q498549",
+      "name": "Gogukcheon of Goguryeo",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0179-12-01",
+      "end": "0197-05-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Gogukcheon_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes; no observación contemporánea de todos los años."
+    },
+    {
+      "person": "Q498568",
+      "name": "Sansang of Goguryeo",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0197-05-01",
+      "end": "0199-12-31",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Sansang_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes; no observación contemporánea de todos los años.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 100,
+      "end": 199,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Taejo_of_Goguryeo",
+      "note": "Clasificación institucional documentada; no control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Goguryeo"
+        ],
+        "start": 100,
+        "end": 199,
+        "label": "Goguryeo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0100-0199.geojson",
+      "sha256": "1dea253625128cd769b60aa67b0934400c7582550472f0a81521c3664a5a3b2d",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1176,
+        1254
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Chadae of Goguryeo",
+        "title": "Chadae of Goguryeo",
+        "person": "Q498506",
+        "name": "Chadae",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chadae_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Chadae of Goguryeo",
+          "canonical": "Chadae of Goguryeo",
+          "qid": "Q498506"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "0146-01-01",
+          "end": "0165-01-01",
+          "precision": 9,
+          "statement": "Q498506$3815d7c6-49ab-cae1-63bf-ccc7619cd91e",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498506",
+        "title": "Chadae of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Chadae_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "146 – 165 A.D.",
+            "parsed": {
+              "start": "0146-01-01",
+              "end": "0165-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "146–165",
+            "parsed": {
+              "start": "0146-01-01",
+              "end": "0165-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gogukcheon of Goguryeo",
+        "title": "Gogukcheon of Goguryeo",
+        "person": "Q498549",
+        "name": "Gogukcheon of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gogukcheon_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Gogukcheon of Goguryeo",
+          "canonical": "Gogukcheon of Goguryeo",
+          "qid": "Q498549"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q141739813",
+          "start": "0179-01-01",
+          "end": "0197-01-01",
+          "precision": 9,
+          "statement": "Q498549$a4fa72bf-4dec-8277-fe4a-68a078039c51",
+          "label": "King of Goguryeo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498549",
+        "title": "Gogukcheon of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Gogukcheon_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "December 179 – May 197 A.D.",
+            "parsed": {
+              "start": "0179-12-01",
+              "end": "0197-05-01",
+              "precision": 10
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Crown Prince of Goguryeo",
+            "raw": "March 176 – December 179 A.D.",
+            "parsed": {
+              "start": "0176-03-01",
+              "end": "0179-12-01",
+              "precision": 10
+            },
+            "reignType": "Crown Prince"
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "179–197",
+            "parsed": {
+              "start": "0179-01-01",
+              "end": "0197-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sansang of Goguryeo",
+        "title": "Sansang of Goguryeo",
+        "person": "Q498568",
+        "name": "Sansang of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sansang_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Sansang of Goguryeo",
+          "canonical": "Sansang of Goguryeo",
+          "qid": "Q498568"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "0197-01-01",
+          "end": "0227-01-01",
+          "precision": 9,
+          "statement": "Q498568$9173f7b4-43f2-9864-01a8-e62e418046a0",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498568",
+        "title": "Sansang of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Sansang_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "May 197 – May 227 A.D.",
+            "parsed": {
+              "start": "0197-05-01",
+              "end": "0227-05-01",
+              "precision": 10
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "197–227",
+            "parsed": {
+              "start": "0197-01-01",
+              "end": "0227-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sindae of Goguryeo",
+        "title": "Sindae of Goguryeo",
+        "person": "Q498530",
+        "name": "Sindae",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sindae_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Sindae of Goguryeo",
+          "canonical": "Sindae of Goguryeo",
+          "qid": "Q498530"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "0165-01-01",
+          "end": "0179-01-01",
+          "precision": 9,
+          "statement": "Q498530$d3a643ae-4d1e-53a7-10a0-cf5fc7b6b873",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498530",
+        "title": "Sindae of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Sindae_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "165 – 179 A.D.",
+            "parsed": {
+              "start": "0165-01-01",
+              "end": "0179-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "165–179",
+            "parsed": {
+              "start": "0165-01-01",
+              "end": "0179-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Taejodae of Goguryeo",
+        "title": "Taejodae of Goguryeo",
+        "person": "Q498481",
+        "name": "Taejo of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Taejo_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Taejodae of Goguryeo",
+          "canonical": "Taejo of Goguryeo",
+          "qid": "Q498481"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q141739813",
+          "start": "0053-01-01",
+          "end": "0146-01-01",
+          "precision": 9,
+          "statement": "Q498481$e7191caa-4119-3073-6bcb-083fc7962684",
+          "label": "King of Goguryeo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498481",
+        "title": "Taejo of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Taejo_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "53 AD – debated over 146 or 121 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "53–146",
+            "parsed": {
+              "start": "0053-01-01",
+              "end": "0146-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q498481",
+        "title": "Taejodae of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Taejo_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Goguryeo",
+          "raw": "53–146",
+          "parsed": {
+            "start": "0053-01-01",
+            "end": "0146-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498506",
+        "title": "Chadae of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Chadae_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "146 – 165 A.D.",
+          "parsed": {
+            "start": "0146-01-01",
+            "end": "0165-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498530",
+        "title": "Sindae of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Sindae_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "165 – 179 A.D.",
+          "parsed": {
+            "start": "0165-01-01",
+            "end": "0179-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498549",
+        "title": "Gogukcheon of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Gogukcheon_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "December 179 – May 197 A.D.",
+          "parsed": {
+            "start": "0179-12-01",
+            "end": "0197-05-01",
+            "precision": 10
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498568",
+        "title": "Sansang of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Sansang_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "May 197 – May 227 A.D.",
+          "parsed": {
+            "start": "0197-05-01",
+            "end": "0227-05-01",
+            "precision": 10
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat039-16",
+      "name": "Gungnae · Goguryeo",
+      "coordinates": [
+        126.19,
+        41.12
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Gungnae",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Goguryeo"
+    },
+    {
+      "id": "seat039-16-own",
+      "name": "Gungnae · Goguryeo",
+      "coordinates": [
+        126.19,
+        41.12
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Gungnae",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Goguryeo"
+    }
+  ]
+}

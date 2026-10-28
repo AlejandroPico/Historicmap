@@ -1,0 +1,266 @@
+{
+  "key": "HIST-Q220594",
+  "identity": {
+    "qid": "Q220594",
+    "name": "Nabataeans"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey nabateo",
+      "officePattern": "King|Nabataea",
+      "titles": [
+        "Rabbel II Soter"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q887060",
+      "name": "Rabel II",
+      "role": "Rey nabateo",
+      "start": "0100-01-01",
+      "end": "0106-12-31",
+      "precision": 9,
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "note": "Último rey antes de la incorporación provincial romana de106; ni el cambio político ni la muerte del rey significan desaparición del poblamiento nabateo.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-0b50097eea792c507007.jpg",
+        "title": "Silver drachm of Rabbel 2 with Gamilat.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Silver_drachm_of_Rabbel_2_with_Gamilat.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Silver_drachm_of_Rabbel_2_with_Gamilat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group (CNG), Inc., www.cngcoins.com",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "Photos by Classical Numismatic Group (CNG), Inc.: https://www.cngcoins.com/Coin.aspx?CoinID=169441",
+        "sha256": "848e4a5f7c5eb6b00530df4f69e5541a87cee7b926d8f4f999d5ce5074248234",
+        "bytes": 886804,
+        "canonicalFile": "Países/HIST-Q220594-Nabataeans/retratos/portrait-0b50097eea792c507007.jpg",
+        "caption": "Drachma de RabbelII con Gamilat: se muestra la efigie regia masculina de la izquierda, no el perfil femenino de la otra cara. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review039-nabataea",
+      "type": "institution",
+      "title": "Fin de la monarquía nabatea",
+      "start": "0100-01-01",
+      "end": "0107-01-01",
+      "text": "RabbelII y anexión romana106; ciudades y redes nabateas continúan bajo otro marco político. La referencia cultural no prolonga la realeza hasta199.",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 100,
+      "end": 106,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "note": "Clasificación institucional documentada; no control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Nabataeans"
+        ],
+        "start": 100,
+        "end": 106,
+        "label": "Nabataeans",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Nabataeans"
+        ],
+        "start": 107,
+        "end": 199,
+        "label": "Nabataeans · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Contorno de síntesis; no acredita un Estado homogéneo, dinastía uniforme o ausencia de otras comunidades."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0100-0199.geojson",
+      "sha256": "9c1412c62d098c4347e13ddad392a6bcc6850e57c1acc00d2f0b64127264b3ba",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1215
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Rabbel II Soter",
+        "title": "Rabbel II Soter",
+        "person": "Q887060",
+        "name": "Rabel II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rabbel_II_Soter",
+        "identityResolution": {
+          "requested": "Rabbel II Soter",
+          "canonical": "Rabbel II Soter",
+          "qid": "Q887060"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q887060",
+        "title": "Rabbel II Soter",
+        "source": "https://en.wikipedia.org/wiki/Rabbel_II_Soter",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "70-106 AD",
+            "parsed": {
+              "start": "0070-01-01",
+              "end": "0106-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Rabbel II Soter",
+        "person": "Q887060",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q887060",
+      "originalRecords": [],
+      "decision": "Último rey antes de la incorporación provincial romana de106; ni el cambio político ni la muerte del rey significan desaparición del poblamiento nabateo.",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q887060",
+      "name": "Rabel II",
+      "role": "Rey nabateo",
+      "start": "0100-01-01",
+      "end": "0106-12-31",
+      "precision": 9,
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "note": "Último rey antes de la incorporación provincial romana de106; ni el cambio político ni la muerte del rey significan desaparición del poblamiento nabateo.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "places": [
+    {
+      "id": "seat039-18",
+      "name": "Petra · reino nabateo",
+      "coordinates": [
+        35.44,
+        30.33
+      ],
+      "start": 100,
+      "end": 106,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Nabataean_Kingdom",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Nabataeans"
+    },
+    {
+      "id": "seat039-18-own",
+      "name": "Petra · reino nabateo",
+      "coordinates": [
+        35.44,
+        30.33
+      ],
+      "start": 100,
+      "end": 106,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Nabataean_Kingdom",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Nabataeans"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review039-nabataea",
+      "type": "institution",
+      "title": "Fin de la monarquía nabatea",
+      "start": "0100-01-01",
+      "end": "0107-01-01",
+      "text": "RabbelII y anexión romana106; ciudades y redes nabateas continúan bajo otro marco político. La referencia cultural no prolonga la realeza hasta199.",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q887060",
+      "name": "Rabel II",
+      "title": "Silver drachm of Rabbel 2 with Gamilat.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Silver_drachm_of_Rabbel_2_with_Gamilat.jpg",
+      "sha256": "848e4a5f7c5eb6b00530df4f69e5541a87cee7b926d8f4f999d5ce5074248234",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Drachma de RabbelII con Gamilat: se muestra la efigie regia masculina de la izquierda, no el perfil femenino de la otra cara. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    }
+  ]
+}

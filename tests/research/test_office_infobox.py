@@ -46,4 +46,14 @@ class OfficeInfoboxTests(unittest.TestCase):
  def test_spaced_nowrap_keeps_exact_augustus_dates_and_caesar_dignity(self):
   r=m.extract('{{Infobox royalty|succession=Roman emperor|reign=9 September 337 – {{no wrap|3 November 361}}|reign_type=Augustus|reign1=8 November 324 – {{nowrap|9 September 337}}|reign_type1=Caesar}}')
   self.assertEqual(r[0]['parsed']['start'],'0337-09-09');self.assertEqual(r[0]['parsed']['end'],'0361-11-03');self.assertEqual(r[1]['reignType'],'Caesar')
+ def test_early_common_era_years_and_dash_template(self):
+  r=m.extract('{{Infobox royalty|succession=Roman emperor|reign=28 January 98{{snds}}9 August 117}}')
+  self.assertEqual(r[0]['parsed']['start'],'0098-01-28');self.assertEqual(r[0]['parsed']['end'],'0117-08-09')
+  r=m.extract('{{Infobox royalty|succession=King|reign=70-106 AD}}');self.assertEqual(r[0]['parsed']['start'],'0070-01-01')
+  r=m.extract('{{Infobox royalty|succession=Emperor|reign=9 April 88 – 13 February 106}}');self.assertEqual(r[0]['parsed']['start'],'0088-04-09')
+ def test_short_years_do_not_parse_bce_as_ce_or_accept_zero(self):
+  r=m.extract('{{Infobox royalty|succession=King|reign=57–54 BC}}');self.assertIsNone(r[0]['parsed'])
+  r=m.extract('{{Infobox royalty|succession=King|reign=0}}');self.assertIsNone(r[0]['parsed'])
+  r=m.extract('{{Infobox royalty|succession=King|reign=1–9}}');self.assertEqual(r[0]['parsed']['end'],'0009-12-31')
+  r=m.extract('{{Infobox person|birth_date=1|death_date=99}}');self.assertEqual(r,[])
 if __name__=='__main__':unittest.main()

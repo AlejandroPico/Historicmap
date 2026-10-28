@@ -26,8 +26,8 @@ def clean(raw):
  raw=re.sub(r'<ref\b[^>]*>.*?</ref>|<ref\b[^>]*/>','',raw,flags=re.I|re.S)
  raw=re.sub(r'\{\{(?:efn|sfn|refn|harvnb)\b[^{}]*\}\}','',raw,flags=re.I|re.S)
  raw=re.sub(r'\[\[(?:[^]|]*\|)?([^]]*)\]\]',r'\1',raw)
- raw=re.sub(r'\{\{(?:snd|ndash|mdash|spaced ndash|spaced en dash)\}\}','–',raw,flags=re.I)
- raw=re.sub(r'\{\{circa\|(\d{3,4})\|(\d{3,4})(?:\s*CE)?\}\}',r'\1–\2',raw,flags=re.I)
+ raw=re.sub(r'\{\{(?:snds?|ndash|mdash|spaced ndash|spaced en dash)\}\}','–',raw,flags=re.I)
+ raw=re.sub(r'\{\{circa\|(\d{1,4})\|(\d{1,4})(?:\s*CE)?\}\}',r'\1–\2',raw,flags=re.I)
  raw=re.sub(r'\{\{circa\|([^{}]*)\}\}',r'\1',raw,flags=re.I);raw=re.sub(r'\{\{circa\}\}','c. ',raw,flags=re.I)
  raw=re.sub(r'(?<=\d)\s+to\s+(?=\d)','–',raw)
  raw=re.sub(r'\b(?:A\.?D\.?|C\.?E\.?)(?!\w)','',raw)
@@ -42,6 +42,9 @@ def clean(raw):
  return re.sub(r'\s+',' ',raw).strip()
 def parse_date(raw,end=False):
  text=clean(raw);text=re.sub(r'\([^)]*\)','',text).strip();text=re.sub(r'^(?:(?:c\.?|circa|from|about|r\.)\s*)+','',text)
+ # Pad the year only, never a day of month. This keeps88–106 and dated
+ # accessions such as28 January98 usable without introducing a year zero.
+ if not re.fullmatch(r'\d{4}-\d{2}-\d{2}',text):text=re.sub(r'(?<!\d)(\d{1,3})$',lambda m:m.group(1).zfill(4),text)
  for fmt,p in [('%Y-%m-%d',11),('%d %B %Y',11),('%B %d, %Y',11),('%B %d %Y',11),('%B %Y',10),('%Y',9)]:
   try:
    d=datetime.datetime.strptime(text,fmt).date()
@@ -59,7 +62,7 @@ def extract(text,include_succession=False):
   # A line break may separate the two ends of one reign, not two reigns.
   if len(parts)>1 and any(re.search(r'[–—-]\s*$',clean(v))for v in parts[:-1]):parts=[re.sub(r'<br\s*/?>',' ',raw,flags=re.I)]
   for part in parts:
-   value=re.sub(r'\([^)]*\)','',clean(part)).strip();pair=re.split(r'\s*[–—]\s*|\s+-\s+|(?<=\d{4})\s*-\s*(?=(?:c\.\s*)?\d{4}(?!\d))',value,maxsplit=1);parsed=None
+   value=re.sub(r'\([^)]*\)','',clean(part)).strip();bare=re.fullmatch(r'(\d{1,4})\s*-\s*(\d{1,4})',value);pair=list(bare.groups())if bare else re.split(r'\s*[–—]\s*|\s+-\s+|(?<=\d{4})\s*-\s*(?=(?:c\.\s*)?\d{4}(?!\d))',value,maxsplit=1);parsed=None
    if len(pair)==2:
     try:
      # Conventional abbreviated end years (953–77), not personal life dates.
@@ -68,8 +71,10 @@ def extract(text,include_succession=False):
      a,pa=parse_date(pair[0]);b,pb=parse_date(pair[1],True)
      if a<=b:parsed=dict(start=a,end=b,precision=min(pa,pb))
     except ValueError:pass
-   elif re.fullmatch(r'(?:c\.?\s*)?\d{4}',value):
-    a,pa=parse_date(value);b,pb=parse_date(value,True);parsed=dict(start=a,end=b,precision=9)
+   elif re.fullmatch(r'(?:c\.?\s*)?\d{1,4}',value):
+    try:
+     a,pa=parse_date(value);b,pb=parse_date(value,True);parsed=dict(start=a,end=b,precision=9)
+    except ValueError:pass
    out.append(dict(field=field,office=clean(office),raw=part,parsed=parsed,reignType=clean(p.get('reign_type'+suffix,''))))
  for field,raw in p.items():
   m=re.fullmatch(r'term_start(\d*)',field)

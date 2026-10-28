@@ -1,0 +1,63 @@
+{
+  "key": "CULTURE-SIMHALA-00F26651-Y0100",
+  "contextKey": "CULTURE-SIMHALA-00F26651",
+  "ownerKey": "HIST-Q5724",
+  "name": "Simhala",
+  "originalNames": [
+    "Simhala"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 100",
+  "decision": "political-base",
+  "reviewedRange": [
+    100,
+    199
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea100 contiene etiquetas de épocas distintas. La ventana100–199 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de100",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q5724"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    80.7704,
+    7.80913
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-SIMHALA-00F26651-Y0100.geojson",
+  "geometrySha256": "44a2d38cc403f5d9316ffa2dcb378bb86cdcd760671e7212ef4da04dd38ccf66",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson",
+    "year": 100,
+    "featureIds": [
+      76
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef"
+  },
+  "review": "0.39.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final199 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en200."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Simhala",
+      "ABBREVN": "Simhala",
+      "SUBJECTO": "Simhala",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Simhala"
+    }
+  ],
+  "sourceGrouping": [
+    "Simhala"
+  ]
+}

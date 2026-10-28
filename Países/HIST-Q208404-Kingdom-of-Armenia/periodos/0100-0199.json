@@ -1,0 +1,779 @@
+{
+  "key": "HIST-Q208404",
+  "identity": {
+    "qid": "Q208404",
+    "name": "Kingdom of Armenia"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Armenia · poderes y restauraciones",
+      "officePattern": "King.*Armenia",
+      "titles": [
+        "Sanatruk",
+        "Axidares of Armenia",
+        "Parthamasiris of Armenia",
+        "Vologases I of Armenia",
+        "Sohaemus of Armenia",
+        "Pacorus of Armenia",
+        "Vologases II of Armenia",
+        "Khosrov I of Armenia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2660531",
+      "name": "Axídares de Armenia",
+      "role": "Rey de Armenia · poderes y restauraciones",
+      "start": "0110-01-01",
+      "end": "0113-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Axidares_of_Armenia",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q2382597",
+      "name": "Partamasiris I de Armenia",
+      "role": "Rey de Armenia · poderes y restauraciones",
+      "start": "0113-01-01",
+      "end": "0114-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Parthamasiris_of_Armenia",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q2983181",
+      "name": "Sohaemus de Armenia",
+      "role": "Rey de Armenia · poderes y restauraciones",
+      "start": "0144-01-01",
+      "end": "0161-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sohaemus_of_Armenia",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q2983181",
+      "name": "Sohaemus de Armenia",
+      "role": "Rey de Armenia · poderes y restauraciones",
+      "start": "0163-01-01",
+      "end": "0180-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sohaemus_of_Armenia",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q2606498",
+      "name": "Bakur",
+      "role": "Rey de Armenia · poderes y restauraciones",
+      "start": "0161-01-01",
+      "end": "0163-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pacorus_of_Armenia",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q313920",
+      "name": "Vologases V de Partia",
+      "role": "Rey de Armenia · poderes y restauraciones",
+      "start": "0180-01-01",
+      "end": "0191-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vologases_V",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-06b836ab9d37d972aa61.jpg",
+        "title": "Coin of Vologases V, Ecbatana mint.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coin_of_Vologases_V,_Ecbatana_mint.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Coin_of_Vologases_V%2C_Ecbatana_mint.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group; [1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "https://www.cngcoins.com/Coin.aspx?CoinID=349718",
+        "sha256": "2fa337098ee3be27d6cd05536724a3a50f6479480e4c6c71875cd4ddb4600af6",
+        "bytes": 99879,
+        "canonicalFile": "Países/HIST-Q208404-Kingdom-of-Armenia/retratos/portrait-06b836ab9d37d972aa61.jpg",
+        "caption": "Efigie monetaria convencional de Vologases V de Partia; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q2689762",
+      "name": "Cosroes I de Armenia",
+      "role": "Rey de Armenia · poderes y restauraciones",
+      "start": "0198-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khosrov_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 100,
+      "end": 199,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Axidares_of_Armenia",
+      "note": "Clasificación institucional documentada; no control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Armenia"
+        ],
+        "start": 100,
+        "end": 199,
+        "label": "Kingdom of Armenia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0100-0199.geojson",
+      "sha256": "69ecba4e8e7c48a79beef7468d417dfd4e234ede9d9c33a17726f8f8599b253a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1190,
+        1249,
+        1281
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Axidares of Armenia",
+        "title": "Axidares of Armenia",
+        "person": "Q2660531",
+        "name": "Axídares de Armenia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Axidares_of_Armenia",
+        "identityResolution": {
+          "requested": "Axidares of Armenia",
+          "canonical": "Axidares of Armenia",
+          "qid": "Q2660531"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2660531",
+        "title": "Axidares of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Axidares_of_Armenia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "110&ndash;113",
+            "parsed": {
+              "start": "0110-01-01",
+              "end": "0113-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Axidares",
+            "raw": "110-113",
+            "parsed": {
+              "start": "0110-01-01",
+              "end": "0113-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Khosrov I of Armenia",
+        "title": "Khosrov I of Armenia",
+        "person": "Q2689762",
+        "name": "Cosroes I de Armenia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khosrov_I",
+        "identityResolution": {
+          "requested": "Khosrov I of Armenia",
+          "canonical": "Khosrov I",
+          "qid": "Q2689762"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2689762",
+        "title": "Khosrov I",
+        "source": "https://en.wikipedia.org/wiki/Khosrov_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "198–216",
+            "parsed": {
+              "start": "0198-01-01",
+              "end": "0216-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Khosrow I",
+            "raw": "198-216",
+            "parsed": {
+              "start": "0198-01-01",
+              "end": "0216-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pacorus of Armenia",
+        "title": "Pacorus of Armenia",
+        "person": "Q2606498",
+        "name": "Bakur",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pacorus_of_Armenia",
+        "identityResolution": {
+          "requested": "Pacorus of Armenia",
+          "canonical": "Pacorus of Armenia",
+          "qid": "Q2606498"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2606498",
+        "title": "Pacorus of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Pacorus_of_Armenia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "161–163",
+            "parsed": {
+              "start": "0161-01-01",
+              "end": "0163-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Bakur",
+            "raw": "161–163",
+            "parsed": {
+              "start": "0161-01-01",
+              "end": "0163-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Parthamasiris of Armenia",
+        "title": "Parthamasiris of Armenia",
+        "person": "Q2382597",
+        "name": "Partamasiris I de Armenia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Parthamasiris_of_Armenia",
+        "identityResolution": {
+          "requested": "Parthamasiris of Armenia",
+          "canonical": "Parthamasiris of Armenia",
+          "qid": "Q2382597"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2382597",
+        "title": "Parthamasiris of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Parthamasiris_of_Armenia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "113–114 AD",
+            "parsed": {
+              "start": "0113-01-01",
+              "end": "0114-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Parthamasiris",
+            "raw": "113-114",
+            "parsed": {
+              "start": "0113-01-01",
+              "end": "0114-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sanatruk",
+        "title": "Sanatruk",
+        "person": "Q2607687",
+        "name": "Sanatruk",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sanatruk",
+        "identityResolution": {
+          "requested": "Sanatruk",
+          "canonical": "Sanatruk",
+          "qid": "Q2607687"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2607687",
+        "title": "Sanatruk",
+        "source": "https://en.wikipedia.org/wiki/Sanatruk",
+        "reignFields": [
+          {
+            "field": "reign1",
+            "office": "King of Armenia",
+            "raw": "?–109 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "King of Osroene",
+            "raw": "91–109 AD",
+            "parsed": {
+              "start": "0091-01-01",
+              "end": "0109-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Sanatruces I",
+            "raw": "88–110",
+            "parsed": {
+              "start": "0088-01-01",
+              "end": "0110-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sohaemus of Armenia",
+        "title": "Sohaemus of Armenia",
+        "person": "Q2983181",
+        "name": "Sohaemus de Armenia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sohaemus_of_Armenia",
+        "identityResolution": {
+          "requested": "Sohaemus of Armenia",
+          "canonical": "Sohaemus of Armenia",
+          "qid": "Q2983181"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2983181",
+        "title": "Sohaemus of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Sohaemus_of_Armenia",
+        "reignFields": [
+          {
+            "field": "reign1",
+            "office": "King of Armenia",
+            "raw": "144–161",
+            "parsed": {
+              "start": "0144-01-01",
+              "end": "0161-12-31",
+              "precision": 9
+            },
+            "reignType": "1st Reign"
+          },
+          {
+            "field": "reign2",
+            "office": "King of Armenia",
+            "raw": "163–180",
+            "parsed": {
+              "start": "0163-01-01",
+              "end": "0180-12-31",
+              "precision": 9
+            },
+            "reignType": "2nd Reign"
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vologases I of Armenia",
+        "title": "Vologases I of Armenia",
+        "person": "Q2635895",
+        "name": "Vologases I de Armenia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vologases_I_of_Armenia",
+        "identityResolution": {
+          "requested": "Vologases I of Armenia",
+          "canonical": "Vologases I of Armenia",
+          "qid": "Q2635895"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q14368159",
+          "start": "0117-01-01",
+          "end": "0138-01-01",
+          "precision": 9,
+          "statement": "Q2635895$57D6BA72-F987-4DBD-A766-08758ED1FD23",
+          "label": "rey de Armenia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2635895",
+        "title": "Vologases I of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Vologases_I_of_Armenia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "117–{{circa|140}}–144",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Vologases I",
+            "raw": "117-140",
+            "parsed": {
+              "start": "0117-01-01",
+              "end": "0140-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vologases II of Armenia",
+        "title": "Vologases II of Armenia",
+        "person": "Q313920",
+        "name": "Vologases V de Partia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vologases_V",
+        "identityResolution": {
+          "requested": "Vologases II of Armenia",
+          "canonical": "Vologases V",
+          "qid": "Q313920"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q313920",
+        "title": "Vologases V",
+        "source": "https://en.wikipedia.org/wiki/Vologases_V",
+        "reignFields": [
+          {
+            "field": "reign1",
+            "office": "King of the Parthian Empire",
+            "raw": "191 – 208",
+            "parsed": {
+              "start": "0191-01-01",
+              "end": "0208-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "180 – 191",
+            "parsed": {
+              "start": "0180-01-01",
+              "end": "0191-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Parthian Empire",
+            "raw": "191–208",
+            "parsed": {
+              "start": "0191-01-01",
+              "end": "0208-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 7,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2660531",
+        "title": "Axidares of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Axidares_of_Armenia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Armenia",
+          "raw": "110&ndash;113",
+          "parsed": {
+            "start": "0110-01-01",
+            "end": "0113-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2382597",
+        "title": "Parthamasiris of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Parthamasiris_of_Armenia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Armenia",
+          "raw": "113–114 AD",
+          "parsed": {
+            "start": "0113-01-01",
+            "end": "0114-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2983181",
+        "title": "Sohaemus of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Sohaemus_of_Armenia",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "King of Armenia",
+          "raw": "144–161",
+          "parsed": {
+            "start": "0144-01-01",
+            "end": "0161-12-31",
+            "precision": 9
+          },
+          "reignType": "1st Reign"
+        }
+      },
+      {
+        "person": "Q2983181",
+        "title": "Sohaemus of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Sohaemus_of_Armenia",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King of Armenia",
+          "raw": "163–180",
+          "parsed": {
+            "start": "0163-01-01",
+            "end": "0180-12-31",
+            "precision": 9
+          },
+          "reignType": "2nd Reign"
+        }
+      },
+      {
+        "person": "Q2606498",
+        "title": "Pacorus of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Pacorus_of_Armenia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Armenia",
+          "raw": "161–163",
+          "parsed": {
+            "start": "0161-01-01",
+            "end": "0163-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q313920",
+        "title": "Vologases II of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Vologases_V",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Armenia",
+          "raw": "180 – 191",
+          "parsed": {
+            "start": "0180-01-01",
+            "end": "0191-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2689762",
+        "title": "Khosrov I of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Khosrov_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Armenia",
+          "raw": "198–216",
+          "parsed": {
+            "start": "0198-01-01",
+            "end": "0216-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Sanatruk",
+        "person": "Q2607687",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Vologases I of Armenia",
+        "person": "Q2635895",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat039-11",
+      "name": "Artaxata · centro armenio",
+      "coordinates": [
+        44.57,
+        39.88
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Artaxata",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Kingdom of Armenia"
+    },
+    {
+      "id": "seat039-11-own",
+      "name": "Artaxata · centro armenio",
+      "coordinates": [
+        44.57,
+        39.88
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Artaxata",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Kingdom of Armenia"
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q2382597",
+      "title": "Parthamasiris, King of Armenia, Son of Pacorus, Humbles Himself before Trajan.jpg",
+      "reason": "Escena colectiva de sumisión ante Trajano; Partamasiris no tiene encuadre individual adecuado.",
+      "source": "https://commons.wikimedia.org/wiki/File:Parthamasiris,_King_of_Armenia,_Son_of_Pacorus,_Humbles_Himself_before_Trajan.jpg"
+    },
+    {
+      "person": "Q2983181",
+      "title": "Antoninus Pius Æ Sestertius 84001035.jpg",
+      "reason": "La cara individual muestra a Antonino Pío; la escena del reverso no es un retrato individual de Sohaemus.",
+      "source": "https://commons.wikimedia.org/wiki/File:Antoninus_Pius_%C3%86_Sestertius_84001035.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q2382597",
+      "name": "Partamasiris I de Armenia",
+      "title": "Parthamasiris, King of Armenia, Son of Pacorus, Humbles Himself before Trajan.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Parthamasiris,_King_of_Armenia,_Son_of_Pacorus,_Humbles_Himself_before_Trajan.jpg",
+      "sha256": "9540e0ea8fc428b52b4410c015985f2fa7f072e6b7d493d2951cabe3d5344889",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Escena colectiva de sumisión ante Trajano; Partamasiris no tiene encuadre individual adecuado."
+    },
+    {
+      "person": "Q2983181",
+      "name": "Sohaemus de Armenia",
+      "title": "Antoninus Pius Æ Sestertius 84001035.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Antoninus_Pius_%C3%86_Sestertius_84001035.jpg",
+      "sha256": "71bfc7c41565e26a3a9569113b71d5e0c832831f9da1f6554439df12952c12d0",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "La cara individual muestra a Antonino Pío; la escena del reverso no es un retrato individual de Sohaemus."
+    },
+    {
+      "person": "Q313920",
+      "name": "Vologases V de Partia",
+      "title": "Coin of Vologases V, Ecbatana mint.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Coin_of_Vologases_V,_Ecbatana_mint.jpg",
+      "sha256": "2fa337098ee3be27d6cd05536724a3a50f6479480e4c6c71875cd4ddb4600af6",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Vologases V de Partia; no fotografía ni semejanza del natural acreditada."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "key": "HIST-Q3532146",
+  "identity": {
+    "qid": "Q3532146",
+    "name": "Early Cholas"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Early Cholas"
+        ],
+        "start": 100,
+        "end": 199,
+        "label": "Early Cholas",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0100-0199.geojson",
+      "sha256": "a36eec512d761d345065b21c8c3b127ddf2d56572fc73fa3a9779fefd2b2baa1",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        550
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": []
+  }
+}

@@ -1,5 +1,6 @@
 import {test,expect,type Page} from '@playwright/test';
-async function date(page:Page,year:number){await page.goto(`/#year=${year}&view=mercator`);await expect(page.locator('#map')).toHaveAttribute('data-rendered',year>=1789?`history-${year}`:'world_100.geojson',{timeout:90000});await expect(page.locator('#sources-button')).not.toHaveClass(/has-error/);}
+import{snapshotFor}from'../../src/time';
+async function date(page:Page,year:number){await page.goto(`/#year=${year}&view=mercator`);const s=snapshotFor(year);await expect(page.locator('#map')).toHaveAttribute('data-rendered',s.kind==='annual'?`history-${year}`:s.file!,{timeout:90000});await expect(page.locator('#sources-button')).not.toHaveClass(/has-error/);}
 test('control geometry remains selectable with optional hatching disabled or enabled, and land has a reference background',async({page})=>{
  test.setTimeout(240000);const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await date(page,1942);await expect(page.locator('#occupations-layer')).toHaveAttribute('aria-pressed','false');

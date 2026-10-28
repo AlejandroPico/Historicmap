@@ -1,0 +1,93 @@
+{
+  "key": "CULTURE-MONTE-ALBAN-Y0100",
+  "contextKey": "CULTURE-MONTE-ALBAN",
+  "ownerKey": "CULTURE-MONTE-ALBAN",
+  "name": "Monte Albán y comunidades zapotecas",
+  "originalNames": [
+    "Monte Albán"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 100",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    100,
+    199
+  ],
+  "interpretation": "Centro y redes del valle de Oaxaca; el polígono general de la fuente no es una frontera estatal anual ni equivale a todas las comunidades zapotecas.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea100 contiene etiquetas de épocas distintas. La ventana100–199 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de100",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -97.32148,
+    17.1385
+  ],
+  "phases": [
+    {
+      "start": 100,
+      "end": 199,
+      "label": "Monte Albán y comunidades zapotecas",
+      "dateBasis": "Referencia regional de la fuente editorial100; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-MONTE-ALBAN-Y0100.geojson",
+  "geometrySha256": "eb5241cf4c70ec5a02ee5b3120de73bd9fce06662f855e31ee0e92a681cd2201",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson",
+    "year": 100,
+    "featureIds": [
+      125
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef"
+  },
+  "review": "0.39.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final199 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en200."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Monte Albán",
+      "ABBREVN": "Monte Albán",
+      "SUBJECTO": "Monte Albán",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Monte Albán"
+    }
+  ],
+  "sourceGrouping": [
+    "Monte Albán"
+  ]
+}

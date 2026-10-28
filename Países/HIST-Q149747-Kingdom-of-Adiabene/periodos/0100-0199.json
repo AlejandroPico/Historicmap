@@ -1,0 +1,130 @@
+{
+  "key": "HIST-Q149747",
+  "identity": {
+    "qid": "Q149747",
+    "name": "Kingdom of Adiabene"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Adiabene · documentación parcial",
+      "officePattern": "King|Adiabene",
+      "titles": [
+        "Meharaspes",
+        "Narsai of Adiabene"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Adiabene"
+        ],
+        "start": 100,
+        "end": 199,
+        "label": "Kingdom of Adiabene",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0100-0199.geojson",
+      "sha256": "fb617d88231ff538e6f39ceb11fcdba7daa59bf180c535f90e95b5884216cb3f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1028,
+        1240,
+        1269,
+        1276,
+        1293
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Meharaspes",
+        "title": "Meharaspes",
+        "person": "Q81331",
+        "name": "Meharaspes",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Meharaspes",
+        "identityResolution": {
+          "requested": "Meharaspes",
+          "canonical": "Meharaspes",
+          "qid": "Q81331"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q81331",
+        "title": "Meharaspes",
+        "source": "https://en.wikipedia.org/wiki/Meharaspes",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Narsai of Adiabene",
+        "title": "Narsai of Adiabene",
+        "person": "Q149747",
+        "name": "Adiabene",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Adiabene",
+        "identityResolution": {
+          "requested": "Narsai of Adiabene",
+          "canonical": "Adiabene",
+          "qid": "Q149747"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Meharaspes",
+        "person": "Q81331",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Narsai of Adiabene",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  }
+}

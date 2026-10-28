@@ -1,0 +1,289 @@
+{
+  "key": "CAO-CAO-REGIME",
+  "identity": {
+    "qid": "",
+    "name": "Poder de Cao Cao bajo el marco Han"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Autoridad militar Han · poder regional",
+      "officePattern": "Chancellor|Duke|King",
+      "titles": [
+        "Cao Cao"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q204077",
+      "name": "Cao Cao",
+      "role": "Autoridad militar Han · poder regional",
+      "start": "0192-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cao_Cao",
+      "note": "Autoridad regional en la provincia Yan desde192; custodia política de la corte imperial desde196. No es emperador ni rey de Wei del sigloII.",
+      "portrait": {
+        "file": "media/portrait-ca0ff62148f496bff97e.jpg",
+        "title": "Cao Cao scth.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cao_Cao_scth.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cao_Cao_scth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Wang Qi",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cao_Cao_scth.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "A copy of w:Sancai Tuhui",
+        "sha256": "fcaf79fe2938e2b84900672acaed24cda3fe3caa771f5f2351bb1c3cd31e5fe1",
+        "bytes": 133262,
+        "canonicalFile": "Países/CAO-CAO-REGIME-Poder-de-Cao-Cao-bajo-el-marco-Han/retratos/portrait-ca0ff62148f496bff97e.jpg",
+        "caption": "Representación imaginaria posterior de Cao Cao; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review039-cao",
+      "type": "institution",
+      "title": "Autoridad regional bajo Han",
+      "start": "0192-01-01",
+      "end": "0200-01-01",
+      "text": "Poder militar desde la provincia Yan y vinculación con la corte desde196. Cao Cao no es emperador ni rey de Wei del sigloII.",
+      "source": "https://en.wikipedia.org/wiki/Cao_Cao",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Cao Cao"
+        ],
+        "start": 100,
+        "end": 191,
+        "label": "Poder de Cao Cao bajo el marco Han · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Poder regional bajo el marco Han, no dinastía imperial soberana de Cao Wei anticipada al sigloII.",
+        "colorFamily": "HAN"
+      }
+    },
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Cao Cao"
+        ],
+        "start": 192,
+        "end": 199,
+        "label": "Poder de Cao Cao bajo el marco Han",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Poder regional bajo el marco Han, no dinastía imperial soberana de Cao Wei anticipada al sigloII.",
+        "colorFamily": "HAN"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0100-0199.geojson",
+      "sha256": "a1c01eff336db03636a605f13f5493f4a464879e7c13bad530e6f6713acb5860",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1299
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Cao Cao",
+        "title": "Cao Cao",
+        "person": "Q204077",
+        "name": "Cao Cao",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cao_Cao",
+        "identityResolution": {
+          "requested": "Cao Cao",
+          "canonical": "Cao Cao",
+          "qid": "Q204077"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q204077",
+        "title": "Cao Cao",
+        "source": "https://en.wikipedia.org/wiki/Cao_Cao",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wei",
+            "raw": "216 – 15 March 220",
+            "parsed": {
+              "start": "0216-01-01",
+              "end": "0220-03-15",
+              "precision": 9
+            },
+            "reignType": "Tenure"
+          },
+          {
+            "field": "reign1",
+            "office": "Duke of Wei",
+            "raw": "213–216\n{{Infobox officeholder\n| embed = yes\n| office = [[Grand chancellor (China)|Imperial Chancellor]]\n| term_start = 208\n| term_end = 15 March 220\n| monarch = [[Emperor Xian of Han|Emperor Xian]]\n| successor = [[Cao Pi]]\n| office1 = [[Sikong (office)|Minister of Works]]\n| term_start1 = 196\n| term_end1 = 208\n| monarch1 = Emperor Xian\n}}",
+            "parsed": null,
+            "reignType": "Tenure"
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Wei",
+            "raw": "216–220",
+            "parsed": {
+              "start": "0216-01-01",
+              "end": "0220-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Imperial Chancellor",
+            "raw": "208–220",
+            "parsed": {
+              "start": "0208-01-01",
+              "end": "0220-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Wei",
+            "raw": "213–216",
+            "parsed": {
+              "start": "0213-01-01",
+              "end": "0216-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": []
+  },
+  "authorityReview": [
+    {
+      "person": "Q204077",
+      "originalRecords": [],
+      "decision": "Autoridad regional en la provincia Yan desde192; custodia política de la corte imperial desde196. No es emperador ni rey de Wei del sigloII.",
+      "source": "https://en.wikipedia.org/wiki/Cao_Cao"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q204077",
+      "name": "Cao Cao",
+      "role": "Autoridad militar Han · poder regional",
+      "start": "0192-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cao_Cao",
+      "note": "Autoridad regional en la provincia Yan desde192; custodia política de la corte imperial desde196. No es emperador ni rey de Wei del sigloII."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat039-4",
+      "name": "Xuchang · poder efectivo de Cao Cao",
+      "coordinates": [
+        113.85,
+        34.03
+      ],
+      "start": 196,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Cao_Cao",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Poder de Cao Cao bajo el marco Han"
+    },
+    {
+      "id": "seat039-4-own",
+      "name": "Xuchang · poder efectivo de Cao Cao",
+      "coordinates": [
+        113.85,
+        34.03
+      ],
+      "start": 196,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Cao_Cao",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Poder de Cao Cao bajo el marco Han"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review039-cao",
+      "type": "institution",
+      "title": "Autoridad regional bajo Han",
+      "start": "0192-01-01",
+      "end": "0200-01-01",
+      "text": "Poder militar desde la provincia Yan y vinculación con la corte desde196. Cao Cao no es emperador ni rey de Wei del sigloII.",
+      "source": "https://en.wikipedia.org/wiki/Cao_Cao",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q204077",
+      "name": "Cao Cao",
+      "title": "Cao Cao scth.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cao_Cao_scth.jpg",
+      "sha256": "fcaf79fe2938e2b84900672acaed24cda3fe3caa771f5f2351bb1c3cd31e5fe1",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Cao Cao; no fotografía ni semejanza del natural acreditada."
+    }
+  ]
+}

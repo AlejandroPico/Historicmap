@@ -1,0 +1,120 @@
+{
+  "key": "HIST-Q867782",
+  "identity": {
+    "qid": "Q867782",
+    "name": "Funan"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Funan · tradición transmitida",
+      "officePattern": "King|Funan",
+      "titles": [
+        "Hun Pan-huang",
+        "Fan Shih-man"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Funan"
+        ],
+        "start": 100,
+        "end": 199,
+        "label": "Funan",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0100-0199.geojson",
+      "sha256": "6370dc4349191411bca78a2b142ea13fceda3f265c34e93a759d31bfdb4232cc",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1166
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Fan Shih-man",
+        "title": "Fan Shih-man",
+        "person": "",
+        "name": "Fan Shih-man",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Fan_Shih-man",
+        "identityResolution": {
+          "requested": "Fan Shih-man",
+          "canonical": "Fan Shih-man",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hun Pan-huang",
+        "title": "Hun Pan-huang",
+        "person": "",
+        "name": "Hun Pan-huang",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Hun_Pan-huang",
+        "identityResolution": {
+          "requested": "Hun Pan-huang",
+          "canonical": "Hun Pan-huang",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Hun Pan-huang",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Fan Shih-man",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  }
+}

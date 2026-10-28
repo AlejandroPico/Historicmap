@@ -1,0 +1,65 @@
+{
+  "key": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE-Y0100",
+  "contextKey": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE",
+  "ownerKey": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE",
+  "name": "Pomeranian culture",
+  "originalNames": [
+    "Pomeranian culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 100",
+  "decision": "excluded-anachronistic-chronology",
+  "reviewedRange": [
+    100,
+    199
+  ],
+  "interpretation": "La cultura pomerania de la Edad del Hierro tiene cronología anterior a nuestra era; esta etiqueta del mapa100 no acredita su continuidad durante100–199. Original conservado; poblamiento posterior de Pomerania requiere referencia propia.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea100 contiene etiquetas de épocas distintas. La ventana100–199 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de100",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson"
+    },
+    {
+      "title": "Czopek2013, investigación cronológica regional",
+      "url": "https://rcin.org.pl/Content/54744/PDF/WA308_74878_P244_Bemerkungen-zur-pomm_I.pdf"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    17.4919,
+    53.71225
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE-Y0100.geojson",
+  "geometrySha256": "4e9e0cf4824fa2a65d0427b0fac684836b983570079cc3b95b4edb3998563a7a",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson",
+    "year": 100,
+    "featureIds": [
+      304
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef"
+  },
+  "review": "0.39.0 · 2026-10-28",
+  "reviewStatus": "excluded-chronology-contradicted-by-source",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final199 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en200."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Pomeranian culture ",
+      "ABBREVN": "Pomeranian culture ",
+      "SUBJECTO": "Pomeranian culture ",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Baltic archeological cultures"
+    }
+  ],
+  "sourceGrouping": [
+    "Pomeranian culture "
+  ]
+}

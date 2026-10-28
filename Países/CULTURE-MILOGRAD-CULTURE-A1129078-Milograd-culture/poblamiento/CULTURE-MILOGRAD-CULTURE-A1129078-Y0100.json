@@ -1,0 +1,69 @@
+{
+  "key": "CULTURE-MILOGRAD-CULTURE-A1129078-Y0100",
+  "contextKey": "CULTURE-MILOGRAD-CULTURE-A1129078",
+  "ownerKey": "CULTURE-MILOGRAD-CULTURE-A1129078",
+  "name": "Milograd culture",
+  "originalNames": [
+    "Milograd culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 100",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    100,
+    199
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea100 contiene etiquetas de épocas distintas. La ventana100–199 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de100",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    28.42059,
+    51.7287
+  ],
+  "phases": [
+    {
+      "start": 100,
+      "end": 199,
+      "label": "Milograd culture",
+      "dateBasis": "Referencia regional de la fuente editorial100; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-MILOGRAD-CULTURE-A1129078-Y0100.geojson",
+  "geometrySha256": "1446d64eef553588b194d2f4214fc676d01f5d1d00de5efefda09061201a472b",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson",
+    "year": 100,
+    "featureIds": [
+      311
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef"
+  },
+  "review": "0.39.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final199 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en200."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Milograd culture",
+      "ABBREVN": "Milograd culture",
+      "SUBJECTO": "Milograd culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Baltic archeological cultures"
+    }
+  ],
+  "sourceGrouping": [
+    "Milograd culture"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "key": "CULTURE-PAEKCHE-11F50D0A-Y0100",
+  "contextKey": "CULTURE-PAEKCHE-11F50D0A",
+  "ownerKey": "HIST-Q28428",
+  "name": "Paekche",
+  "originalNames": [
+    "Paekche"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 100",
+  "decision": "political-base",
+  "reviewedRange": [
+    100,
+    199
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea100 contiene etiquetas de épocas distintas. La ventana100–199 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de100",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Baekje"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q28428"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    127.13324,
+    35.9578
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-PAEKCHE-11F50D0A-Y0100.geojson",
+  "geometrySha256": "08f389c0816a5678d8a8cb72c685340ca8de48f2644440c40da1e2ecde4016ac",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson",
+    "year": 100,
+    "featureIds": [
+      433
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef"
+  },
+  "review": "0.39.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final199 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en200."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Paekche",
+      "ABBREVN": "Paekche",
+      "SUBJECTO": "Paekche",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Paekche"
+    }
+  ],
+  "sourceGrouping": [
+    "Paekche"
+  ]
+}

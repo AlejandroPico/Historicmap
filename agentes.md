@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **28 de octubre de 2026**. Versión del producto: **0.38.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **28 de octubre de 2026**. Versión del producto: **0.39.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección52; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección53; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente 0.38.0:** ampliar200–299 con política y culturas, conservar todo lo anterior, corregir continuidad cromática romana y documentar relaciones militares de Afganistán/Irak. Añadido: marcas habituales cada50años desde el año1, sin cero, y saltos manuales anuales. Mantener CI en cuatro máquinas. Validar localmente, subir a main y no esperar Actions/Pages. Ver sección52 y tareas.md.
+**Encargo vigente 0.39.0:** ampliar100–199 con política y culturas, autoridades y representaciones revisadas, preservando lo anterior. Mantener controles independientes, colores romanos, relaciones militares documentadas y navegación anual. Validar localmente, subir a main sin esperar Actions/Pages. Ver sección53 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1161,3 +1161,21 @@ nationalInfluenceHatching sólo acepta hatchScope:national-reference explícito.
 Cronología: anclas de100años en la era común dan marcas habituales50años con escala inicial; zoom independiente existente. El año1 tiene marca mayor forzada y deduplicada, sin año cero. navigationYear avanza/retrocede un año desde1, salta1a.C./1d.C., respeta el año máximo. Antes de la era común se mantienen saltos adaptativos. Mover el cursor antes de200 no acredita consulta cartográfica anual reforzada. No recalibrar el mapa al cambiar sólo la escala temporal.
 
 Validación y envío: resultados finales en tareas.md y docs/DELIVERY-0.38.0.md. No afirmar ejecución local completa de CI. Mantener cuatro máquinas sin omisiones; no esperar ni sondear Quality/Pages tras el push. Pendientes previos, incluidos Copán, sucesiones menores, banderas/insignias comprobadas y cronologías culturales locales, siguen abiertos. Nueva ampliación antes de200 requiere encargo del propietario.
+
+## 53. Siglo II y fechas tempranas · 0.39.0
+
+Consulta anual100–199.55 dossiers,111 registros de autoridades,126 componentes políticos originales de48 grupos,24 centros y18 contextos. Canonicalización y originales en Países/<entidad>, copias públicas compiladas. No repetir seed/acquisition/curation de una tanda sobre dossiers ya revisados sin preservar cambios. Adquisición final131 títulos,123 humanos y116 evidencias de reinado no vacías, sin errores finales; selección93 cargos y48 candidatos pendientes antes de las correcciones manuales. No se atribuyen mandatos a partir de fechas de vida. Fuentes y huecos en RESEARCH-100, PERIOD-INVENTORY-100 y REVIEW-100-199.
+
+Roma conserva la familia púrpura. Augusto/césar/pretendiente y autoridad compartida diferenciados. Cómodo augusto desde177; Clodio Albino césar antes de su pretensión rival195/196. El año161 incluye a Antonino Pío junto con sus sucesores porque la ficha muestra todos los mandatos del año, no sólo los simultáneos o al cierre. Dacia y Nabatea no desaparecen culturalmente tras106. Bar Kojba tiene centro documental132–135, no perímetro inventado.
+
+Han mantiene emperadores y regencias; Cao Cao es poder militar regional, sin adelantar el reino de Wei o un imperio propio. Luoyang/Chang’an/Xuchang tienen sedes fechadas. Partamaspates en Partia no recibe su mandato posterior de Osroene; VologasesV en Partia no recibe su dignidad armenia anterior. MitrídatesIV/V del sigloII no se confunde con el homónimo del sigloI a.C. Numeración y fechas numismáticas alternativas quedan en notas. Ma’nuVII/VIII tienen identificadores documentales locales sin QID fabricado, con restauraciones separadas y fuentes.
+
+Kushan: era de Kanishka127/128, Vima Takto/Vima Kadphises y Huvishka con cronologías alternativas explícitas. El solapamiento de ventanas aproximadas no prueba corregencia. Satavahanas y autoridades menores conservan vacíos donde no se resuelve un mandato. Pontífices tempranos: la lista vaticana publica alternativas; se conservan intervalos posibles con endIsUpperBound, no mandatos completos o simultáneos acreditados. No hay Estado Pontificio soberano. Yamato, Corea e Iberia caucásica mantienen límites de tradición retrospectiva.
+
+83 dossiers culturales originales de world_100 fijado:71 fases adoptadas,10 remisiones políticas, Mill Creek y cultura pomerania excluidos por cronología, originales intactos. No equivale a afirmar despoblación: falta referencia local de la población posterior. Dacios/nabateos, Epi-Jōmon, Han y Meroe se distinguen de etiquetas políticas anacrónicas. Claves Sámi/Amazonia preservadas. Antes de100 siguen instantáneas aproximadas sin refuerzo anual nuevo; no prometer separación política/cultural perfecta fuera de cobertura.
+
+60 candidatos de imagen inspeccionados:50 aceptados y diez apartados. Rechazos previos de Liu Xie y SauromatesII mantenidos. Estelas, textos, escenas colectivas e identificación insuficiente no se usan como retratos. La moneda propuesta para Sohaemus tiene a Antonino Pío en la cara individual; no seleccionar automáticamente el anverso. RabbelII se distingue de Gamilat. Pertinax usa denario con leyenda inequívoca, CC BY-SA2.5, frente a estatua de identificación posible. Bustos atribuidos y representaciones retrospectivas se califican; sin fotografías ficticias o banderas nacionales inventadas.
+
+office-infobox.py admite años1–99 en fechas explícitas, sólo rellenando el año dentro del lector de fecha; no el día de una fechaISO. snds y rangos numéricos cortos reconocidos. BC se mantiene sin analizar comoCE y cero se rechaza. No reinterpretar automáticamente cronologías anteriores ni regenerar tandas antiguas por este cambio del lector. Se añaden regresiones a tests/research/test_office_infobox.py, ejecutadas por el CI existente.
+
+Resultados de conservación, pruebas y envío en tareas.md y DELIVERY-0.39.0.md. Mantener cuatro máquinas sin omisiones; no afirmar ejecución local completa de CI ni esperar su publicación. Pendientes reales de sucesiones menores, insignias, retratos, cronologías culturales locales, Copán y frentes militares anteriores permanecen abiertos. Continuar antes de100 sólo por nuevo encargo del propietario.

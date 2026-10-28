@@ -1,0 +1,39 @@
+{
+  "key": "BAR-KOKHBA",
+  "name": "Rebelión de Bar Kojba · autoridad en Judea",
+  "qid": "",
+  "aliases": [
+    "Rebelión de Bar Kojba · autoridad en Judea"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "BAR-KOKHBA"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q273117",
+      "name": "Simón bar Kojba",
+      "role": "Nasí · autoridad de la rebelión",
+      "start": "0132-01-01",
+      "end": "0135-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Simon_bar_Kokhba",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-100-0.39"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,6 +1,19 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.38.0 · 200–299, continuidad romana y relaciones de control
+## Encargo vigente · 0.39.0 · 100–199
+
+Ampliar el sigloII con política y culturas, preservar todo lo anterior, distinguir dignidades y cronologías, revisar imágenes. Mantener controles, colores romanos y franjas documentales. Validar localmente, subir a main sin esperar Actions/Pages.
+
+- [x] Inventario, adquisición y revisión de autoridades y cronologías.
+- [x] Imágenes inspeccionadas, culturas, centros y contexto.
+- [x] Integración anual, conservación, pruebas y documentación.
+- [x] Preparación del envío a main y comprobación de archivos.
+
+Resultados en docs/DELIVERY-0.39.0.md:55 dossiers,111 cargos,126 componentes políticos,24 centros,18 contextos y71 fases culturales nuevas de83 originales.50 imágenes aceptadas y diez apartadas tras inspección.38 comprobaciones de datos/lógica,17 del lector Python, tipos/compilación y cinco recorridos únicos de navegador correctos. Conservar1.386 identidades,18.722 cargos,1.040 símbolos y9.108 fases anteriores; segunda compilación de180 archivos sin diferencias.118 datos,11 rangos de glifos y8.750 medios verificados.108 pruebas deCI repartidas27/27/27/27; no se ha ejecutado toda la batería localmente. Envío a main sin esperar publicación; Pages pendiente de confirmación del propietario.
+
+Pendientes reales: sucesiones menores, administraciones, cronologías alternativas, signos/representaciones identificados y bibliografía cultural local. Permanecen los pendientes anteriores de Copán y frentes militares. No continuar antes de100 sin nuevo encargo.
+
+## Entrega anterior · 0.38.0 · 200–299, continuidad romana y relaciones de control
 
 Ampliar política/culturas200–299 manteniendo todo lo anterior. Corregir el salto cromático romano399/400 y estudiar Afganistán/Irak con el mismo criterio aplicado a todas las potencias: ocupación, intervención, apoyo y soberanía diferenciados. Mantener monedas y representaciones revisadas. Validar y subir; no esperar Actions/Pages.
 

@@ -1,0 +1,267 @@
+{
+  "key": "DACIAN-KINGDOM",
+  "identity": {
+    "qid": "",
+    "name": "Reino dacio · poder de Decébalo"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de los dacios",
+      "officePattern": "King|Dacia",
+      "titles": [
+        "Decebalus"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q28928",
+      "name": "Decébalo",
+      "role": "Rey de los dacios",
+      "start": "0100-01-01",
+      "end": "0106-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Decebalus",
+      "note": "Reinado87–106; las dos campañas de Trajano y la conquista no hacen desaparecer las comunidades dacias.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-59e12cdb5c6e0eb65c1b.png",
+        "title": "Decebal's portrait.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Decebal%27s_portrait.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Decebal%27s_portrait.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Ion Popescu-Băjenaru / Institutul de Arte Grafice Carol Göbl, 1914",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Decebal%27s_portrait.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Cartea omului matur (1919)",
+        "sha256": "1c0c0550905b991ef7c48737f8ecadaf8e4ff256837cda291f56a7f7222886d6",
+        "bytes": 394372,
+        "canonicalFile": "Países/DACIAN-KINGDOM-Reino-dacio-poder-de-Decebalo/retratos/portrait-59e12cdb5c6e0eb65c1b.png",
+        "caption": "Representación atribuida a Decébalo; identificación tradicional, no semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review039-dacia",
+      "type": "conflict",
+      "title": "Guerras dacias y conquista romana",
+      "start": "0101-01-01",
+      "end": "0107-01-01",
+      "text": "Campañas101–102 y105–106, derrota del reino de Decébalo. Las comunidades dacias no desaparecen por el cambio de marco político.",
+      "source": "https://en.wikipedia.org/wiki/Trajan%27s_Dacian_Wars",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 100,
+      "end": 106,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Decebalus",
+      "note": "Clasificación institucional documentada; no control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Decebalus",
+        "title": "Decebalus",
+        "person": "Q28928",
+        "name": "Decébalo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Decebalus",
+        "identityResolution": {
+          "requested": "Decebalus",
+          "canonical": "Decebalus",
+          "qid": "Q28928"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q28928",
+        "title": "Decebalus",
+        "source": "https://en.wikipedia.org/wiki/Decebalus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Dacian king",
+            "raw": "87–106 AD",
+            "parsed": {
+              "start": "0087-01-01",
+              "end": "0106-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q28928",
+        "title": "Decebalus",
+        "source": "https://en.wikipedia.org/wiki/Decebalus",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Dacian king",
+          "raw": "87–106 AD",
+          "parsed": {
+            "start": "0087-01-01",
+            "end": "0106-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "authorityReview": [
+    {
+      "person": "Q28928",
+      "originalRecords": [
+        {
+          "person": "Q28928",
+          "name": "Decébalo",
+          "role": "Rey de los dacios",
+          "start": "0100-01-01",
+          "end": "0106-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Decebalus",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+          "startIsCoverageBoundary": true
+        }
+      ],
+      "decision": "Reinado87–106; las dos campañas de Trajano y la conquista no hacen desaparecer las comunidades dacias.",
+      "source": "https://en.wikipedia.org/wiki/Decebalus"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q28928",
+      "name": "Decébalo",
+      "role": "Rey de los dacios",
+      "start": "0100-01-01",
+      "end": "0106-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Decebalus",
+      "note": "Reinado87–106; las dos campañas de Trajano y la conquista no hacen desaparecer las comunidades dacias.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "places": [
+    {
+      "id": "seat039-19",
+      "name": "Sarmizegetusa Regia · reino dacio",
+      "coordinates": [
+        23.31,
+        45.62
+      ],
+      "start": 100,
+      "end": 106,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Sarmizegetusa_Regia",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Reino dacio · poder de Decébalo"
+    },
+    {
+      "id": "seat039-19-own",
+      "name": "Sarmizegetusa Regia · reino dacio",
+      "coordinates": [
+        23.31,
+        45.62
+      ],
+      "start": 100,
+      "end": 106,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Sarmizegetusa_Regia",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Reino dacio · poder de Decébalo"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review039-dacia",
+      "type": "conflict",
+      "title": "Guerras dacias y conquista romana",
+      "start": "0101-01-01",
+      "end": "0107-01-01",
+      "text": "Campañas101–102 y105–106, derrota del reino de Decébalo. Las comunidades dacias no desaparecen por el cambio de marco político.",
+      "source": "https://en.wikipedia.org/wiki/Trajan%27s_Dacian_Wars",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review039-dacia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.31,
+          45.62
+        ]
+      },
+      "properties": {
+        "name": "Guerras dacias y conquista romana",
+        "countries": [
+          "DACIAN-KINGDOM"
+        ],
+        "kind": "regional-conflict",
+        "start": "0101-01-01",
+        "end": "0106-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Trajan%27s_Dacian_Wars",
+        "sourceLabel": "Referencia documental · siglo II",
+        "note": "Campañas101–102 y105–106, derrota del reino de Decébalo. Las comunidades dacias no desaparecen por el cambio de marco político. Coordenada regional aproximada."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q28928",
+      "name": "Decébalo",
+      "title": "Decebal's portrait.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Decebal%27s_portrait.png",
+      "sha256": "1c0c0550905b991ef7c48737f8ecadaf8e4ff256837cda291f56a7f7222886d6",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación atribuida a Decébalo; identificación tradicional, no semejanza del natural acreditada."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "key": "HIST-Q220594",
+  "name": "Nabataeans",
+  "qid": "Q220594",
+  "aliases": [
+    "Nabataeans"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q220594"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q887060",
+      "name": "Rabel II",
+      "role": "Rey nabateo",
+      "start": "0100-01-01",
+      "end": "0106-12-31",
+      "precision": 9,
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "note": "Último rey antes de la incorporación provincial romana de106; ni el cambio político ni la muerte del rey significan desaparición del poblamiento nabateo.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-100-0.39",
+      "portrait": {
+        "file": "media/portrait-0b50097eea792c507007.jpg",
+        "title": "Silver drachm of Rabbel 2 with Gamilat.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Silver_drachm_of_Rabbel_2_with_Gamilat.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Silver_drachm_of_Rabbel_2_with_Gamilat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group (CNG), Inc., www.cngcoins.com",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "Photos by Classical Numismatic Group (CNG), Inc.: https://www.cngcoins.com/Coin.aspx?CoinID=169441",
+        "sha256": "848e4a5f7c5eb6b00530df4f69e5541a87cee7b926d8f4f999d5ce5074248234",
+        "bytes": 886804,
+        "canonicalFile": "Países/HIST-Q220594-Nabataeans/retratos/portrait-0b50097eea792c507007.jpg",
+        "caption": "Drachma de RabbelII con Gamilat: se muestra la efigie regia masculina de la izquierda, no el perfil femenino de la otra cara. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-100.geojson",
+      "recordId": "clio-1215",
+      "start": 100,
+      "end": 105,
+      "name": "Nabataeans",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

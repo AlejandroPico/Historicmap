@@ -1,0 +1,81 @@
+{
+  "key": "REFERENCE-POST-MEROE-Y0100",
+  "contextKey": "REFERENCE-POST-MEROE",
+  "ownerKey": "REFERENCE-POST-MEROE",
+  "name": "Meroe y comunidades del reino de Kush",
+  "originalNames": [
+    "Meroe"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 100",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    100,
+    199
+  ],
+  "interpretation": "Reino de Kush activo durante100–199, sin anticipar su desaparición posterior. Contorno cultural de síntesis, no ocupación homogénea ni vacío fuera del área.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea100 contiene etiquetas de épocas distintas. La ventana100–199 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de100",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    32.73982,
+    17.91228
+  ],
+  "phases": [
+    {
+      "start": 100,
+      "end": 199,
+      "label": "Meroe y comunidades del reino de Kush",
+      "dateBasis": "Referencia regional de la fuente editorial100; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-MEROE-Y0100.geojson",
+  "geometrySha256": "594e43314215808761127538a05f476554139048a10b75868c81611726676637",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson",
+    "year": 100,
+    "featureIds": [
+      11
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef"
+  },
+  "review": "0.39.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final199 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en200."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Meroe",
+      "ABBREVN": "Meroe",
+      "SUBJECTO": "Meroe",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Meroe"
+    }
+  ],
+  "sourceGrouping": [
+    "Meroe"
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "key": "HIST-Q5257",
+  "identity": {
+    "qid": "Q5257",
+    "name": "Satavahana Dynasty"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante satavahana · cronología discutida",
+      "officePattern": "King|Satavahana",
+      "titles": [
+        "Gautamiputra Satakarni",
+        "Vasishthiputra Pulumavi",
+        "Vashishtiputra Satakarni",
+        "Shivaskanda Satakarni",
+        "Yajna Sri Satakarni"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7916519",
+      "name": "Vashishtiputra Satakarni",
+      "role": "Gobernante satavahana · cronología discutida",
+      "start": "0158-01-01",
+      "end": "0165-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vashishtiputra_Satakarni",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronologías numismáticas o epigráficas discutidas; las ventanas no fijan todos los años exactos de gobierno.",
+      "portrait": {
+        "file": "media/portrait-b2ce407420b55497eb53.jpg",
+        "title": "Vashishtiputra Sri Satakarni.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Vashishtiputra_Sri_Satakarni.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Vashishtiputra_Sri_Satakarni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Uploadalt",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work, photographed at British Museum",
+        "sha256": "0271381d18afc3191e0e35cc222905360685003288d48cbdd7b1881bdd335074",
+        "bytes": 446898,
+        "canonicalFile": "Países/HIST-Q5257-Satavahana-Dynasty/retratos/portrait-b2ce407420b55497eb53.jpg",
+        "caption": "Efigie monetaria convencional de Vashishtiputra Satakarni; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review039-satavahana",
+      "type": "institution",
+      "title": "Sucesiones satavahanas y cronologías discutidas",
+      "start": "0100-01-01",
+      "end": "0200-01-01",
+      "text": "Las cronologías tempranas y tardías no pueden mezclarse en una única lista exacta. Donde no se resuelve un mandato, permanece la carencia y su evidencia, sin usar fechas personales.",
+      "source": "https://en.wikipedia.org/wiki/Satavahana_dynasty",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 100,
+      "end": 199,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Vashishtiputra_Satakarni",
+      "note": "Clasificación institucional documentada; no control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Satavahana Dynasty"
+        ],
+        "start": 100,
+        "end": 199,
+        "label": "Satavahana Dynasty",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0100-0199.geojson",
+      "sha256": "c5c27f00902662bde57284a3fab57b23f8cec6c7231d23a40a4171a8eaf202fb",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1093,
+        1221,
+        1243,
+        1255,
+        1267,
+        1288
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Gautamiputra Satakarni",
+        "title": "Gautamiputra Satakarni",
+        "person": "Q1276014",
+        "name": "Shalivájana",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gautamiputra_Satakarni",
+        "identityResolution": {
+          "requested": "Gautamiputra Satakarni",
+          "canonical": "Gautamiputra Satakarni",
+          "qid": "Q1276014"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1276014",
+        "title": "Gautamiputra Satakarni",
+        "source": "https://en.wikipedia.org/wiki/Gautamiputra_Satakarni",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Satavahana king",
+            "raw": "{{circa|60|85}}",
+            "parsed": {
+              "start": "0060-01-01",
+              "end": "0085-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Satavahana Ruler",
+            "raw": "2nd century CE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shivaskanda Satakarni",
+        "title": "Shivaskanda Satakarni",
+        "person": "Q7499359",
+        "name": "Shivaskanda Satakarni",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shivaskanda_Satakarni",
+        "identityResolution": {
+          "requested": "Shivaskanda Satakarni",
+          "canonical": "Shivaskanda Satakarni",
+          "qid": "Q7499359"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7499359",
+        "title": "Shivaskanda Satakarni",
+        "source": "https://en.wikipedia.org/wiki/Shivaskanda_Satakarni",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Satavahana King",
+            "raw": "2nd century CE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vashishtiputra Satakarni",
+        "title": "Vashishtiputra Satakarni",
+        "person": "Q7916519",
+        "name": "Vashishtiputra Satakarni",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vashishtiputra_Satakarni",
+        "identityResolution": {
+          "requested": "Vashishtiputra Satakarni",
+          "canonical": "Vashishtiputra Satakarni",
+          "qid": "Q7916519"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7916519",
+        "title": "Vashishtiputra Satakarni",
+        "source": "https://en.wikipedia.org/wiki/Vashishtiputra_Satakarni",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Satavahana King",
+            "raw": "158–165",
+            "parsed": {
+              "start": "0158-01-01",
+              "end": "0165-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Satavahana ruler",
+            "raw": "2nd century",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vasishthiputra Pulumavi",
+        "title": "Vasishthiputra Pulumavi",
+        "person": "Q7916834",
+        "name": "Vasisthiputra Sri Pulamavi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vasishthiputra_Pulumavi",
+        "identityResolution": {
+          "requested": "Vasishthiputra Pulumavi",
+          "canonical": "Vasishthiputra Pulumavi",
+          "qid": "Q7916834"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7916834",
+        "title": "Vasishthiputra Pulumavi",
+        "source": "https://en.wikipedia.org/wiki/Vasishthiputra_Pulumavi",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Satavahana ruler",
+            "raw": "2nd century CE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yajna Sri Satakarni",
+        "title": "Yajna Sri Satakarni",
+        "person": "Q3764500",
+        "name": "Yajna Sri Satakarni",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yajna_Sri_Satakarni",
+        "identityResolution": {
+          "requested": "Yajna Sri Satakarni",
+          "canonical": "Yajna Sri Satakarni",
+          "qid": "Q3764500"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3764500",
+        "title": "Yajna Sri Satakarni",
+        "source": "https://en.wikipedia.org/wiki/Yajna_Sri_Satakarni",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Last Satavahana King",
+            "raw": "2nd century CE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7916519",
+        "title": "Vashishtiputra Satakarni",
+        "source": "https://en.wikipedia.org/wiki/Vashishtiputra_Satakarni",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Satavahana King",
+          "raw": "158–165",
+          "parsed": {
+            "start": "0158-01-01",
+            "end": "0165-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Vasishthiputra Pulumavi",
+        "person": "Q7916834",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Shivaskanda Satakarni",
+        "person": "Q7499359",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Yajna Sri Satakarni",
+        "person": "Q3764500",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat039-8",
+      "name": "Paithan · referencia satavahana",
+      "coordinates": [
+        75.38,
+        19.48
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Paithan",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Satavahana Dynasty"
+    },
+    {
+      "id": "seat039-8-own",
+      "name": "Paithan · referencia satavahana",
+      "coordinates": [
+        75.38,
+        19.48
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Paithan",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Satavahana Dynasty"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review039-satavahana",
+      "type": "institution",
+      "title": "Sucesiones satavahanas y cronologías discutidas",
+      "start": "0100-01-01",
+      "end": "0200-01-01",
+      "text": "Las cronologías tempranas y tardías no pueden mezclarse en una única lista exacta. Donde no se resuelve un mandato, permanece la carencia y su evidencia, sin usar fechas personales.",
+      "source": "https://en.wikipedia.org/wiki/Satavahana_dynasty",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q7916519",
+      "name": "Vashishtiputra Satakarni",
+      "title": "Vashishtiputra Sri Satakarni.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vashishtiputra_Sri_Satakarni.jpg",
+      "sha256": "0271381d18afc3191e0e35cc222905360685003288d48cbdd7b1881bdd335074",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Vashishtiputra Satakarni; no fotografía ni semejanza del natural acreditada."
+    }
+  ]
+}

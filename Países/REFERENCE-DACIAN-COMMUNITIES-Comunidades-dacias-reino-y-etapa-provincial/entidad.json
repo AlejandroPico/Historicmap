@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-DACIAN-COMMUNITIES",
+  "name": "Comunidades dacias · reino y etapa provincial",
+  "qid": "",
+  "aliases": [
+    "Comunidades dacias · reino y etapa provincial",
+    "Dacia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 145,
+      "start": null,
+      "end": null,
+      "name": "Dacia",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-DACIAN-COMMUNITIES-Y0100:0",
+      "contextKey": "REFERENCE-DACIAN-COMMUNITIES",
+      "start": 100,
+      "end": 199,
+      "sourceYear": 100,
+      "canonicalFile": "Países/REFERENCE-DACIAN-COMMUNITIES-Comunidades-dacias-reino-y-etapa-provincial/poblamiento/REFERENCE-DACIAN-COMMUNITIES-Y0100.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

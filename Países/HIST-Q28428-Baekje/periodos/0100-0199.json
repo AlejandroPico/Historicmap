@@ -1,0 +1,264 @@
+{
+  "key": "HIST-Q28428",
+  "identity": {
+    "qid": "Q28428",
+    "name": "Baekje"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Baekje · cronología tradicional",
+      "officePattern": "King.*Baekje",
+      "titles": [
+        "Giru of Baekje",
+        "Gaeru of Baekje",
+        "Chogo of Baekje"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q497399",
+      "name": "Chogo of Baekje",
+      "role": "Rey de Baekje · cronología tradicional",
+      "start": "0166-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chogo_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes; no observación contemporánea de todos los años.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 100,
+      "end": 199,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Chogo_of_Baekje",
+      "note": "Clasificación institucional documentada; no control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Chogo of Baekje",
+        "title": "Chogo of Baekje",
+        "person": "Q497399",
+        "name": "Chogo of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chogo_of_Baekje",
+        "identityResolution": {
+          "requested": "Chogo of Baekje",
+          "canonical": "Chogo of Baekje",
+          "qid": "Q497399"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0166-01-01",
+          "end": "0214-01-01",
+          "precision": 9,
+          "statement": "Q497399$38ef8be8-492c-cfe5-b84f-b13494a3d0b0",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497399",
+        "title": "Chogo of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Chogo_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "166–214",
+            "parsed": {
+              "start": "0166-01-01",
+              "end": "0214-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gaeru of Baekje",
+        "title": "Gaeru of Baekje",
+        "person": "Q497364",
+        "name": "Gaeru of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kaeru_of_Paekche",
+        "identityResolution": {
+          "requested": "Gaeru of Baekje",
+          "canonical": "Kaeru of Paekche",
+          "qid": "Q497364"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0128-01-01",
+          "end": "0166-01-01",
+          "precision": 9,
+          "statement": "Q497364$981ccb49-454c-1387-7d80-574487402178",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497364",
+        "title": "Kaeru of Paekche",
+        "source": "https://en.wikipedia.org/wiki/Kaeru_of_Paekche",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Paekche",
+            "raw": "128–166",
+            "parsed": {
+              "start": "0128-01-01",
+              "end": "0166-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Giru of Baekje",
+        "title": "Giru of Baekje",
+        "person": "Q497336",
+        "name": "Giru of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kiru_of_Paekche",
+        "identityResolution": {
+          "requested": "Giru of Baekje",
+          "canonical": "Kiru of Paekche",
+          "qid": "Q497336"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0077-01-01",
+          "end": "0128-01-01",
+          "precision": 9,
+          "statement": "Q497336$acc84576-435f-69a0-0643-cded28a696d9",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497336",
+        "title": "Kiru of Paekche",
+        "source": "https://en.wikipedia.org/wiki/Kiru_of_Paekche",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Paekche",
+            "raw": "77–128",
+            "parsed": {
+              "start": "0077-01-01",
+              "end": "0128-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q497399",
+        "title": "Chogo of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Chogo_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "166–214",
+          "parsed": {
+            "start": "0166-01-01",
+            "end": "0214-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Giru of Baekje",
+        "person": "Q497336",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Gaeru of Baekje",
+        "person": "Q497364",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat039-17",
+      "name": "Hanseong · Baekje",
+      "coordinates": [
+        127.11,
+        37.53
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Hanseong_Baekje",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Baekje"
+    },
+    {
+      "id": "seat039-17-own",
+      "name": "Hanseong · Baekje",
+      "coordinates": [
+        127.11,
+        37.53
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Hanseong_Baekje",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Baekje"
+    }
+  ]
+}

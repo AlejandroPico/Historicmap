@@ -1,0 +1,2793 @@
+{
+  "key": "ROMAN-EMPIRE-CLASSICAL",
+  "identity": {
+    "qid": "Q12544",
+    "name": "Imperio romano · cortes imperiales"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Augusto romano · gobierno compartido o rival",
+      "officePattern": "Emperor|Augustus",
+      "titles": [
+        "Trajan",
+        "Hadrian",
+        "Antoninus Pius",
+        "Marcus Aurelius",
+        "Lucius Verus",
+        "Commodus",
+        "Pertinax",
+        "Didius Julianus",
+        "Septimius Severus",
+        "Pescennius Niger",
+        "Clodius Albinus",
+        "Avidius Cassius",
+        "Caracalla"
+      ]
+    },
+    {
+      "role": "César romano · dignidad subordinada",
+      "officePattern": "Caesar",
+      "titles": [
+        "Lucius Aelius Caesar",
+        "Marcus Aurelius",
+        "Lucius Verus",
+        "Commodus",
+        "Clodius Albinus",
+        "Caracalla",
+        "Geta (emperor)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1425",
+      "name": "Trajano",
+      "role": "Augusto romano · gobierno compartido o rival",
+      "start": "0100-01-01",
+      "end": "0117-08-09",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Trajan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "authorityClass": "roman-pretender",
+      "portrait": {
+        "file": "media/portrait-28dcea00fd2af82b3ef9.jpg",
+        "title": "Traianus Glyptothek Munich 336.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Traianus_Glyptothek_Munich_336.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Traianus_Glyptothek_Munich_336.jpg/330px-Traianus_Glyptothek_Munich_336.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nUnknown artistUnknown artist",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Traianus_Glyptothek_Munich_336.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "User:Bibi Saint-Pol, own work, 2007-02-08",
+        "sha256": "df66e7fd890ce7a70351ca37b810b66ef871d2aff28b9ca18d26232f13aa37f5",
+        "bytes": 31988,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-28dcea00fd2af82b3ef9.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Trajano; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q1427",
+      "name": "Adriano",
+      "role": "Augusto romano · gobierno compartido o rival",
+      "start": "0117-08-11",
+      "end": "0138-07-10",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Hadrian",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "authorityClass": "roman-pretender",
+      "portrait": {
+        "file": "media/portrait-884edd8817b7606d0041.jpg",
+        "title": "Bust Hadrian Musei Capitolini MC817.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Bust_Hadrian_Musei_Capitolini_MC817.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Bust_Hadrian_Musei_Capitolini_MC817.jpg/330px-Bust_Hadrian_Musei_Capitolini_MC817.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Marie-Lan Nguyen",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bust_Hadrian_Musei_Capitolini_MC817.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "708aaa3f4cdf7dd29230b53c92d7f319839f387361be02639e0fd03d901b9107",
+        "bytes": 39633,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-884edd8817b7606d0041.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Adriano; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q1429",
+      "name": "Antonino Pío",
+      "role": "Augusto romano · gobierno compartido o rival",
+      "start": "0138-07-11",
+      "end": "0161-03-07",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Antoninus_Pius",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "authorityClass": "roman-pretender",
+      "portrait": {
+        "file": "media/portrait-64b4de290d93ca548bf2.jpg",
+        "title": "Antoninus Pius Glyptothek Munich 337 cropped.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Antoninus_Pius_Glyptothek_Munich_337_cropped.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Antoninus_Pius_Glyptothek_Munich_337_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "\nUnknown artistUnknown artist",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Antoninus_Pius_Glyptothek_Munich_337_cropped.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Originally uploaded by User:Bibi Saint-Pol, own work, on 2007-02-08. Edited by User:Steerpike",
+        "sha256": "bb96773e4480a0db76165096a7d0f89fb0696f856207205abc708839829b606f",
+        "bytes": 507876,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-64b4de290d93ca548bf2.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Antonino Pío; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q1430",
+      "name": "Marco Aurelio",
+      "role": "Augusto romano · gobierno compartido o rival",
+      "start": "0161-03-07",
+      "end": "0180-03-17",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Marcus_Aurelius",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "authorityClass": "roman-pretender",
+      "portrait": {
+        "file": "media/portrait-ba41aac9da1387720807.jpg",
+        "title": "Marcus Aurelius Louvre MR561 n02.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Louvre_MR561_n02.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Marcus_Aurelius_Louvre_MR561_n02.jpg/330px-Marcus_Aurelius_Louvre_MR561_n02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Marie-Lan Nguyen (2011)",
+        "sha256": "fa925f69b485fc00e4ebf92fe7679748804587b179f01caf96cb721f4c020e15",
+        "bytes": 47787,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-ba41aac9da1387720807.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Marco Aurelio; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q1433",
+      "name": "Lucio Vero",
+      "role": "Augusto romano · gobierno compartido o rival",
+      "start": "0161-01-01",
+      "end": "0169-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lucius_Verus",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "authorityClass": "roman-pretender",
+      "portrait": {
+        "file": "media/portrait-2a4497a15dc9bd84c39e.jpg",
+        "title": "Lucius Verus - MET - L.2007.26.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Lucius_Verus_-_MET_-_L.2007.26.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Lucius_Verus_-_MET_-_L.2007.26.jpg/330px-Lucius_Verus_-_MET_-_L.2007.26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "PierreSelim",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Self-photographed",
+        "sha256": "9329fcd725f5991a39dbd00a4f899440151469f3fded4871741b27268fe0bda4",
+        "bytes": 24571,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-2a4497a15dc9bd84c39e.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Lucio Vero; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q1436",
+      "name": "Pertinax",
+      "role": "Augusto romano · gobierno compartido o rival",
+      "start": "0193-01-01",
+      "end": "0193-03-28",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Pertinax",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "authorityClass": "roman-pretender",
+      "portrait": {
+        "file": "media/portrait-64c63291fdf2400e0954.jpg",
+        "title": "Pertinax Denarius (obverse).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pertinax_Denarius_(obverse).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Pertinax_Denarius_%28obverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "https://www.cngcoins.com/Coin.aspx?CoinID=282616",
+        "sha256": "b652c438fd4b3a33ca812bbc694963600ebeb6891299f30ba9d1f29cd8dc3195",
+        "bytes": 51747,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-64c63291fdf2400e0954.jpg",
+        "caption": "Anverso de denario de Pertinax,193, con leyenda IMP CAES P HELV PERTIN AVG; efigie convencional identificada. Se sustituye el candidato de estatua de atribución insegura, sin alterar los archivos originales."
+      }
+    },
+    {
+      "person": "Q1440",
+      "name": "Didio Juliano",
+      "role": "Augusto romano · gobierno compartido o rival",
+      "start": "0193-03-28",
+      "end": "0193-06-02",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Didius_Julianus",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "authorityClass": "roman-pretender",
+      "portrait": {
+        "file": "media/portrait-0e1367c8c8dd1a85ae70.jpg",
+        "title": "DidiusJulianusSest.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:DidiusJulianusSest.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/DidiusJulianusSest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "originally uploaded by CharlesS in 2004",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "Coin from CNG coins. Used with permission. Originally uploaded on nl.wikipedia",
+        "sha256": "4e9f0d312f7c720d8eaea5c9b9d6627fed10e9bec983c836e05f9254cd741db7",
+        "bytes": 19402,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-0e1367c8c8dd1a85ae70.jpg",
+        "caption": "Efigie monetaria convencional de Didio Juliano; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q1442",
+      "name": "Septimio Severo",
+      "role": "Augusto romano · gobierno compartido o rival",
+      "start": "0193-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Septimius_Severus",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "authorityClass": "roman-pretender",
+      "portrait": {
+        "file": "media/portrait-0fa30fc3370e60d9a8b9.jpg",
+        "title": "Septimius Severus Glyptothek Munich 357 cropped.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Septimius_Severus_Glyptothek_Munich_357_cropped.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Septimius_Severus_Glyptothek_Munich_357_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Septimius_Severus_Glyptothek_Munich_357_cropped.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "This image has been extracted from another file",
+        "sha256": "4dad91fe2f048b8820a01ef131f770176b49f6e632fbfa7c32cd4a8a898accde",
+        "bytes": 473106,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-0fa30fc3370e60d9a8b9.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Septimio Severo; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q1446",
+      "name": "Caracalla",
+      "role": "Augusto romano · gobierno compartido o rival",
+      "start": "0198-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Caracalla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "authorityClass": "roman-pretender",
+      "portrait": {
+        "file": "media/portrait-e0d4ef19c462c3ee232e.jpg",
+        "title": "Caracalla MAN Napoli Inv6033 n01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Caracalla_MAN_Napoli_Inv6033_n01.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Caracalla_MAN_Napoli_Inv6033_n01.jpg/330px-Caracalla_MAN_Napoli_Inv6033_n01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Marie-Lan Nguyen (2011)",
+        "sha256": "67f91506e3c647b0c27f85b752ed51a3f941c07c915523752fbb4fcde68617b8",
+        "bytes": 30519,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-e0d4ef19c462c3ee232e.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Caracalla; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q1434",
+      "name": "Cómodo",
+      "role": "Augusto romano · asociado y después único",
+      "start": "0177-01-01",
+      "end": "0192-12-31",
+      "precision": 9,
+      "source": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+      "note": "Augustado compartido desde177; gobierno sin Marco Aurelio desde180. No se pospone el título imperial a180.",
+      "authorityClass": "roman-augustus",
+      "portrait": {
+        "file": "media/portrait-36e6d228287266df7f1d.jpg",
+        "title": "Commodus Musei Capitolini MC1120.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Commodus_Musei_Capitolini_MC1120.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Commodus_Musei_Capitolini_MC1120.jpg/330px-Commodus_Musei_Capitolini_MC1120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Commodus_Musei_Capitolini_MC1120.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Marie-Lan Nguyen (2006)",
+        "sha256": "8f443c55fc09dd7088aa7413921a8a77cfa798cc62d48fbde0d0fe919db30661",
+        "bytes": 37016,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-36e6d228287266df7f1d.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Cómodo; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q237960",
+      "name": "Clodio Albino",
+      "role": "César romano · asociado a Septimio Severo",
+      "start": "0193-01-01",
+      "end": "0195-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Clodius_Albinus",
+      "note": "Dignidad subordinada antes de su proclamación rival; la tabla de sucesión abreviada193 no acredita augustado durante todo ese año.",
+      "authorityClass": "roman-caesar",
+      "portrait": {
+        "file": "media/portrait-2676b27aa3bc1649c40d.jpg",
+        "title": "Clodius01 pushkin.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Clodius01_pushkin.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Clodius01_pushkin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "shakko",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "bd7ee7278c1c2a7a80c31a8340433fc71dae21ddc2aafa2a5885ebae8999a324",
+        "bytes": 395963,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-2676b27aa3bc1649c40d.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Clodio Albino; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q237960",
+      "name": "Clodio Albino",
+      "role": "Augusto rival · poder regional",
+      "start": "0195-01-01",
+      "end": "0197-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Clodius_Albinus",
+      "note": "Proclamación rival desde195 o196 según cronología; derrota en197. Ventana de consulta, no dominio de todo el imperio.",
+      "authorityClass": "roman-pretender",
+      "portrait": {
+        "file": "media/portrait-2676b27aa3bc1649c40d.jpg",
+        "title": "Clodius01 pushkin.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Clodius01_pushkin.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Clodius01_pushkin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "shakko",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "bd7ee7278c1c2a7a80c31a8340433fc71dae21ddc2aafa2a5885ebae8999a324",
+        "bytes": 395963,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-2676b27aa3bc1649c40d.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Clodio Albino; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q201053",
+      "name": "Pescenio Níger",
+      "role": "Augusto rival · poder oriental",
+      "start": "0193-01-01",
+      "end": "0194-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pescennius_Niger",
+      "note": "Proclamación rival193–194; no emperador de todo el imperio ni simple mandato administrativo anual.",
+      "authorityClass": "roman-pretender",
+      "portrait": {
+        "file": "media/portrait-8410ca02ea3d5f4fea5e.jpg",
+        "title": "Aureus Pescennius Niger (obverse).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Aureus_Pescennius_Niger_(obverse).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Aureus_Pescennius_Niger_%28obverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Numismatica Ars Classica NAC AG",
+        "license": "CC BY-SA 3.0 ch",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/ch/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.dirtyoldcoins.com/roman/id/niger/niger021.jpg",
+        "sha256": "98c14c539eed0977e5ff5079564d1ae6b81536a9f6e18a2b269613bcc120696b",
+        "bytes": 67669,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-8410ca02ea3d5f4fea5e.jpg",
+        "caption": "Efigie monetaria convencional de Pescenio Níger; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q299291",
+      "name": "Avidio Casio",
+      "role": "Pretendiente imperial · poder regional",
+      "start": "0175-01-01",
+      "end": "0175-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Avidius_Cassius",
+      "note": "Proclamación rival durante unos meses de175; no ocupación de todo el imperio durante el año completo.",
+      "authorityClass": "roman-pretender"
+    },
+    {
+      "person": "Q1430",
+      "name": "Marco Aurelio",
+      "role": "César romano · dignidad subordinada",
+      "start": "0139-01-01",
+      "end": "0161-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Marcus_Aurelius",
+      "note": "Fase de césar diferenciada del augustado posterior. Los cambios dentro del año se conservan, sin deducir el cargo de fechas personales.",
+      "authorityClass": "roman-caesar",
+      "portrait": {
+        "file": "media/portrait-ba41aac9da1387720807.jpg",
+        "title": "Marcus Aurelius Louvre MR561 n02.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Louvre_MR561_n02.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Marcus_Aurelius_Louvre_MR561_n02.jpg/330px-Marcus_Aurelius_Louvre_MR561_n02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Marie-Lan Nguyen (2011)",
+        "sha256": "fa925f69b485fc00e4ebf92fe7679748804587b179f01caf96cb721f4c020e15",
+        "bytes": 47787,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-ba41aac9da1387720807.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Marco Aurelio; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q1434",
+      "name": "Cómodo",
+      "role": "César romano · dignidad subordinada",
+      "start": "0166-01-01",
+      "end": "0177-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Commodus",
+      "note": "Fase de césar diferenciada del augustado posterior. Los cambios dentro del año se conservan, sin deducir el cargo de fechas personales.",
+      "authorityClass": "roman-caesar",
+      "portrait": {
+        "file": "media/portrait-36e6d228287266df7f1d.jpg",
+        "title": "Commodus Musei Capitolini MC1120.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Commodus_Musei_Capitolini_MC1120.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Commodus_Musei_Capitolini_MC1120.jpg/330px-Commodus_Musei_Capitolini_MC1120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Commodus_Musei_Capitolini_MC1120.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Marie-Lan Nguyen (2006)",
+        "sha256": "8f443c55fc09dd7088aa7413921a8a77cfa798cc62d48fbde0d0fe919db30661",
+        "bytes": 37016,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-36e6d228287266df7f1d.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Cómodo; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q1446",
+      "name": "Caracalla",
+      "role": "César romano · dignidad subordinada",
+      "start": "0196-01-01",
+      "end": "0198-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Caracalla",
+      "note": "Fase de césar diferenciada del augustado posterior. Los cambios dentro del año se conservan, sin deducir el cargo de fechas personales.",
+      "authorityClass": "roman-caesar",
+      "portrait": {
+        "file": "media/portrait-e0d4ef19c462c3ee232e.jpg",
+        "title": "Caracalla MAN Napoli Inv6033 n01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Caracalla_MAN_Napoli_Inv6033_n01.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Caracalla_MAN_Napoli_Inv6033_n01.jpg/330px-Caracalla_MAN_Napoli_Inv6033_n01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Marie-Lan Nguyen (2011)",
+        "sha256": "67f91506e3c647b0c27f85b752ed51a3f941c07c915523752fbb4fcde68617b8",
+        "bytes": 30519,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-e0d4ef19c462c3ee232e.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Caracalla; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q183089",
+      "name": "Publio Septimio Geta",
+      "role": "César romano · dignidad subordinada",
+      "start": "0198-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Geta_%28emperor%29",
+      "note": "Fase de césar diferenciada del augustado posterior. Los cambios dentro del año se conservan, sin deducir el cargo de fechas personales.",
+      "endIsCoverageBoundary": true,
+      "authorityClass": "roman-caesar",
+      "portrait": {
+        "file": "media/portrait-03f54e7b0a0323b40fa2.jpg",
+        "title": "Geta.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Geta.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Geta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "ChrisO (original upload on the English Wikipedia under the same filename, 4 June 2004)",
+        "sha256": "e3e126e9a5fdc32760a3752abc23d08fa26ae698aa4c0218a78864d988af29e7",
+        "bytes": 86470,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-03f54e7b0a0323b40fa2.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Publio Septimio Geta; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q455034",
+      "name": "Lucio Elio César",
+      "role": "César romano · sucesor designado",
+      "start": "0136-01-01",
+      "end": "0138-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lucius_Aelius_Caesar",
+      "note": "Dignidad subordinada136–1 de enero138; no augusto ni reinado independiente.",
+      "authorityClass": "roman-caesar",
+      "portrait": {
+        "file": "media/portrait-05ccd03e16085a7d19b1.jpg",
+        "title": "Portrait Lucius Aelius Louvre Ma1167.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Lucius_Aelius_Louvre_Ma1167.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Portrait_Lucius_Aelius_Louvre_Ma1167.jpg/330px-Portrait_Lucius_Aelius_Louvre_Ma1167.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Jastrow (2008)",
+        "sha256": "f7e02daedb1a707217e79d45ddcfdc4feb0831dc192f5442947a029ee412d939",
+        "bytes": 36685,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-05ccd03e16085a7d19b1.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Lucio Elio César; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review039-antonines",
+      "type": "institution",
+      "title": "Sucesiones imperiales y títulos compartidos",
+      "start": "0100-01-01",
+      "end": "0193-01-01",
+      "text": "Trajano, Adriano y los Antoninos; Lucio Vero y Marco Aurelio comparten dignidad imperial, Cómodo es augusto desde177. Ser césar no es gobernar como augusto ni crear otro Estado.",
+      "source": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras.",
+      "section": "institutions"
+    },
+    {
+      "id": "review039-east",
+      "type": "conflict",
+      "title": "Campañas orientales de Trajano y retirada de Adriano",
+      "start": "0114-01-01",
+      "end": "0118-01-01",
+      "text": "Captura de Ctesifonte e instalación de Partamaspates en116; la retirada posterior no es una anexión romana permanente de toda Partia. Punto regional, sin frente supuesto.",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras.",
+      "section": "history"
+    },
+    {
+      "id": "review039-crisis193",
+      "type": "conflict",
+      "title": "Guerra por la sucesión imperial",
+      "start": "0193-01-01",
+      "end": "0198-01-01",
+      "text": "Pertinax, Didio Juliano, Septimio Severo y pretendientes orientales/occidentales tienen mandatos y ámbitos distintos. Clodio Albino es césar antes de su proclamación rival; no todos reinan sobre todo el imperio.",
+      "source": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras.",
+      "section": "history"
+    },
+    {
+      "id": "review039-verus",
+      "type": "conflict",
+      "title": "Guerra romano-parta de Lucio Vero",
+      "start": "0161-01-01",
+      "end": "0167-01-01",
+      "text": "Campañas y captura de Ctesifonte; no se prolonga una ocupación puntual por todo el siglo ni se inventan fronteras anuales de control.",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 100,
+      "end": 199,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Trajan",
+      "note": "Clasificación institucional documentada; no control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Roman Empire"
+        ],
+        "start": 100,
+        "end": 199,
+        "label": "Imperio romano · cortes imperiales",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año.",
+        "colorFamily": "ROME"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0100-0199.geojson",
+      "sha256": "8496c34a1784e96b302e5a0adfa704613dd2041a0e8cf6b0aebf4cc56d052b79",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1214,
+        1220,
+        1230,
+        1236,
+        1238,
+        1259,
+        1270,
+        1278,
+        1291,
+        1301
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Antoninus Pius",
+        "title": "Antoninus Pius",
+        "person": "Q1429",
+        "name": "Antonino Pío",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Antoninus_Pius",
+        "identityResolution": {
+          "requested": "Antoninus Pius",
+          "canonical": "Antoninus Pius",
+          "qid": "Q1429"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q842606",
+          "start": "0138-07-10",
+          "end": "0161-03-07",
+          "precision": 11,
+          "statement": "q1429$808958DE-BDC0-47EE-9CE5-4C673F89CC29",
+          "label": "emperador romano"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1429",
+        "title": "Antoninus Pius",
+        "source": "https://en.wikipedia.org/wiki/Antoninus_Pius",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "11 July 138 – 7 March 161",
+            "parsed": {
+              "start": "0138-07-11",
+              "end": "0161-03-07",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "138–161",
+            "parsed": {
+              "start": "0138-01-01",
+              "end": "0161-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "120",
+            "parsed": {
+              "start": "0120-01-01",
+              "end": "0120-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul II",
+            "raw": "January–April 139",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul III",
+            "raw": "January 140",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul IV",
+            "raw": "January–February 145",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Avidius Cassius",
+        "title": "Avidius Cassius",
+        "person": "Q299291",
+        "name": "Avidio Casio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Avidius_Cassius",
+        "identityResolution": {
+          "requested": "Avidius Cassius",
+          "canonical": "Avidius Cassius",
+          "qid": "Q299291"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q299291",
+        "title": "Avidius Cassius",
+        "source": "https://en.wikipedia.org/wiki/Avidius_Cassius",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Usurper of the Roman Empire",
+            "raw": "{{circa}}April to July 175",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Caracalla",
+        "title": "Caracalla",
+        "person": "Q1446",
+        "name": "Caracalla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Caracalla",
+        "identityResolution": {
+          "requested": "Caracalla",
+          "canonical": "Caracalla",
+          "qid": "Q1446"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q842606",
+          "start": "0198-01-01",
+          "end": "0217-04-08",
+          "precision": 9,
+          "statement": "q1446$9C716A0F-666C-40E0-8F6F-2A1448A151B5",
+          "label": "emperador romano"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1446",
+        "title": "Caracalla",
+        "source": "https://en.wikipedia.org/wiki/Caracalla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "28 January 198 – 8 April 217 {{awrap|(senior from 4 February 211)}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "198–217",
+            "parsed": {
+              "start": "0198-01-01",
+              "end": "0217-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "with [[Septimius Severus]] (198–211)",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": " and [[Geta (emperor)|Geta]] (209–211)",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "202",
+            "parsed": {
+              "start": "0202-01-01",
+              "end": "0202-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "205",
+            "parsed": {
+              "start": "0205-01-01",
+              "end": "0205-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "208",
+            "parsed": {
+              "start": "0208-01-01",
+              "end": "0208-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "213",
+            "parsed": {
+              "start": "0213-01-01",
+              "end": "0213-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Clodius Albinus",
+        "title": "Clodius Albinus",
+        "person": "Q237960",
+        "name": "Clodio Albino",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Clodius_Albinus",
+        "identityResolution": {
+          "requested": "Clodius Albinus",
+          "canonical": "Clodius Albinus",
+          "qid": "Q237960"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q237960",
+        "title": "Clodius Albinus",
+        "source": "https://en.wikipedia.org/wiki/Clodius_Albinus",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Governor of Britain",
+            "raw": "191–197",
+            "parsed": {
+              "start": "0191-01-01",
+              "end": "0197-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "194",
+            "parsed": {
+              "start": "0194-01-01",
+              "end": "0194-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "193",
+            "parsed": {
+              "start": "0193-01-01",
+              "end": "0193-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "in competition with ",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "[[Pescennius Niger]]",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "and [[Septimius Severus]]",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Commodus",
+        "title": "Commodus",
+        "person": "Q1434",
+        "name": "Cómodo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Commodus",
+        "identityResolution": {
+          "requested": "Commodus",
+          "canonical": "Commodus",
+          "qid": "Q1434"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q842606",
+          "start": "0177-01-01",
+          "end": "0192-12-31",
+          "precision": 9,
+          "statement": "q1434$DAF02DFF-6C6D-4DA7-B86C-C29A35F0E9E6",
+          "label": "emperador romano"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1434",
+        "title": "Commodus",
+        "source": "https://en.wikipedia.org/wiki/Commodus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "early 177 – 31 December 192",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "(senior from 17 March 180)",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "180–192",
+            "parsed": {
+              "start": "0180-01-01",
+              "end": "0192-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "177",
+            "parsed": {
+              "start": "0177-01-01",
+              "end": "0177-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "179",
+            "parsed": {
+              "start": "0179-01-01",
+              "end": "0179-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "181",
+            "parsed": {
+              "start": "0181-01-01",
+              "end": "0181-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "183",
+            "parsed": {
+              "start": "0183-01-01",
+              "end": "0183-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "186",
+            "parsed": {
+              "start": "0186-01-01",
+              "end": "0186-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "190",
+            "parsed": {
+              "start": "0190-01-01",
+              "end": "0190-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "192",
+            "parsed": {
+              "start": "0192-01-01",
+              "end": "0192-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Didius Julianus",
+        "title": "Didius Julianus",
+        "person": "Q1440",
+        "name": "Didio Juliano",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Didius_Julianus",
+        "identityResolution": {
+          "requested": "Didius Julianus",
+          "canonical": "Didius Julianus",
+          "qid": "Q1440"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q132776012",
+          "start": "0155-01-01",
+          "end": "0155-01-01",
+          "precision": 9,
+          "statement": "Q1440$f1007202-4748-9de0-6e7f-df2b23a6a39c",
+          "label": "decemvir stlitibus iudicandis"
+        },
+        {
+          "property": "P39",
+          "office": "Q612499",
+          "start": "0156-01-01",
+          "end": "0156-01-01",
+          "precision": 9,
+          "statement": "Q1440$751b55c3-44b0-e2ab-6f87-e1faff6ce331",
+          "label": "tribuno laticlavio"
+        },
+        {
+          "property": "P39",
+          "office": "Q189430",
+          "start": "0157-01-01",
+          "end": "0157-01-01",
+          "precision": 9,
+          "statement": "Q1440$5ef27d91-4cc3-63d2-7745-cbb0a308a598",
+          "label": "cuestor"
+        },
+        {
+          "property": "P39",
+          "office": "Q205757",
+          "start": "0160-01-01",
+          "end": "0160-01-01",
+          "precision": 8,
+          "statement": "Q1440$f7840dbd-4593-a8bf-319d-94f4a5ec1dc2",
+          "label": "edil"
+        },
+        {
+          "property": "P39",
+          "office": "Q172907",
+          "start": "0160-01-01",
+          "end": "0160-01-01",
+          "precision": 8,
+          "statement": "Q1440$77de73cf-445a-234d-b189-2460cfe85960",
+          "label": "pretors"
+        },
+        {
+          "property": "P39",
+          "office": "Q132776059",
+          "start": "0166-01-01",
+          "end": "0167-01-01",
+          "precision": 9,
+          "statement": "Q1440$57f49907-4c59-6077-7f5d-5e8f351c44e1",
+          "label": "legatus pro praetore Achaiae"
+        },
+        {
+          "property": "P39",
+          "office": "Q132776086",
+          "start": "0167-01-01",
+          "end": "0168-01-01",
+          "precision": 9,
+          "statement": "Q1440$8f73bb8a-41eb-29d1-38c0-0c1bb7143ee3",
+          "label": "legatus pro praetore Africae"
+        },
+        {
+          "property": "P39",
+          "office": "Q133419706",
+          "start": "0169-01-01",
+          "end": "0171-01-01",
+          "precision": 9,
+          "statement": "Q1440$735af192-47a6-f6d6-fa88-cdf00ebabf4d",
+          "label": "legatus legionis XXII Primigeniae"
+        },
+        {
+          "property": "P39",
+          "office": "Q133226163",
+          "start": "0171-01-01",
+          "end": "0175-01-01",
+          "precision": 9,
+          "statement": "Q1440$3b872a6b-40ee-1465-7482-c84aa26b1178",
+          "label": "legatus Augusti pro praetore Belgicae"
+        },
+        {
+          "property": "P39",
+          "office": "Q629712",
+          "start": "0175-01-01",
+          "end": "0175-01-01",
+          "precision": 9,
+          "statement": "Q1440$3a8ce70a-4cad-048f-0c5f-a5b655fa950f",
+          "label": "cónsul sufecto"
+        },
+        {
+          "property": "P39",
+          "office": "Q133462575",
+          "start": "0176-01-01",
+          "end": "0180-01-01",
+          "precision": 9,
+          "statement": "Q1440$47b7f025-4c9e-71c6-2f32-ef0fd9cf5ed4",
+          "label": "legatus Augusti pro praetore Dalmatiae"
+        },
+        {
+          "property": "P39",
+          "office": "Q132174254",
+          "start": "0180-01-01",
+          "end": "0183-01-01",
+          "precision": 9,
+          "statement": "Q1440$2142b3c2-460b-0b07-9fee-e6271e11b9de",
+          "label": "legatus Augusti pro praetore Germaniae inferioris"
+        },
+        {
+          "property": "P39",
+          "office": "Q132179374",
+          "start": "0186-01-01",
+          "end": "0186-01-01",
+          "precision": 9,
+          "statement": "Q1440$6af899d0-4976-6fa6-31ed-4f8972b020b5",
+          "label": "praefectus frumenti dandi"
+        },
+        {
+          "property": "P39",
+          "office": "Q133224935",
+          "start": "0186-01-01",
+          "end": "0188-01-01",
+          "precision": 9,
+          "statement": "Q1440$4aa50149-4007-bfc4-a7a0-941e7fd3fee8",
+          "label": "legatus Augusti pro praetore Ponti et Bithyniae"
+        },
+        {
+          "property": "P39",
+          "office": "Q132171657",
+          "start": "0189-01-01",
+          "end": "0190-01-01",
+          "precision": 9,
+          "statement": "Q1440$1dcf0f7b-4575-3f96-7c9d-80e1ec07e9f5",
+          "label": "proconsul of Africa"
+        },
+        {
+          "property": "P39",
+          "office": "Q842606",
+          "start": "0193-03-28",
+          "end": "0193-06-01",
+          "precision": 11,
+          "statement": "q1440$B3E1ADB0-B0B3-4D0F-93B2-9A3102CE3C37",
+          "label": "emperador romano"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1440",
+        "title": "Didius Julianus",
+        "source": "https://en.wikipedia.org/wiki/Didius_Julianus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "28 March – 2 June 193",
+            "parsed": {
+              "start": "0193-03-28",
+              "end": "0193-06-02",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "193",
+            "parsed": {
+              "start": "0193-01-01",
+              "end": "0193-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "175",
+            "parsed": {
+              "start": "0175-01-01",
+              "end": "0175-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Geta (emperor)",
+        "title": "Geta (emperor)",
+        "person": "Q183089",
+        "name": "Publio Septimio Geta",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Geta_%28emperor%29",
+        "identityResolution": {
+          "requested": "Geta (emperor)",
+          "canonical": "Geta (emperor)",
+          "qid": "Q183089"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q183089",
+        "title": "Geta (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Geta_%28emperor%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "late 209 – December 211",
+            "parsed": null,
+            "reignType": "Augustus"
+          },
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "(senior from 2 February 211)",
+            "parsed": null,
+            "reignType": "Augustus"
+          },
+          {
+            "field": "reign1",
+            "office": "Roman emperor",
+            "raw": "28 January 198 – late 209",
+            "parsed": null,
+            "reignType": "Caesar"
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman Emperor",
+            "raw": "209–211",
+            "parsed": {
+              "start": "0209-01-01",
+              "end": "0211-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "205",
+            "parsed": {
+              "start": "0205-01-01",
+              "end": "0205-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "208",
+            "parsed": {
+              "start": "0208-01-01",
+              "end": "0208-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hadrian",
+        "title": "Hadrian",
+        "person": "Q1427",
+        "name": "Adriano",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hadrian",
+        "identityResolution": {
+          "requested": "Hadrian",
+          "canonical": "Hadrian",
+          "qid": "Q1427"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q842606",
+          "start": "0117-08-11",
+          "end": "0138-07-10",
+          "precision": 11,
+          "statement": "Q1427$71569529-4c4e-6da6-d7f2-def53b65ca96",
+          "label": "emperador romano"
+        },
+        {
+          "property": "P39",
+          "office": "Q357829",
+          "start": "0112-01-01",
+          "end": "0113-01-01",
+          "precision": 9,
+          "statement": "Q1427$D26B1CFA-6C0E-42D9-AD93-E1377BE60A81",
+          "label": "arconte epónimo"
+        },
+        {
+          "property": "P39",
+          "office": "Q131996867",
+          "start": "0117-01-01",
+          "end": "0117-01-01",
+          "precision": 9,
+          "statement": "Q1427$f68bee82-4e6d-fba6-d12e-e26c34199d9b",
+          "label": "legatus Augusti pro praetore Syriae"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1427",
+        "title": "Hadrian",
+        "source": "https://en.wikipedia.org/wiki/Hadrian",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "11 August 117 – 10 July 138",
+            "parsed": {
+              "start": "0117-08-11",
+              "end": "0138-07-10",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "117–138",
+            "parsed": {
+              "start": "0117-01-01",
+              "end": "0138-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman suffect consul",
+            "raw": "108",
+            "parsed": {
+              "start": "0108-01-01",
+              "end": "0108-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "118",
+            "parsed": {
+              "start": "0118-01-01",
+              "end": "0118-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "119",
+            "parsed": {
+              "start": "0119-01-01",
+              "end": "0119-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Lucius Aelius Caesar",
+        "title": "Lucius Aelius Caesar",
+        "person": "Q455034",
+        "name": "Lucio Elio César",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Lucius_Aelius_Caesar",
+        "identityResolution": {
+          "requested": "Lucius Aelius Caesar",
+          "canonical": "Lucius Aelius Caesar",
+          "qid": "Q455034"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q455034",
+        "title": "Lucius Aelius Caesar",
+        "source": "https://en.wikipedia.org/wiki/Lucius_Aelius_Caesar",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Roman caesar",
+            "raw": "136–137",
+            "parsed": {
+              "start": "0136-01-01",
+              "end": "0137-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "136",
+            "parsed": {
+              "start": "0136-01-01",
+              "end": "0136-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "137",
+            "parsed": {
+              "start": "0137-01-01",
+              "end": "0137-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Lucius Verus",
+        "title": "Lucius Verus",
+        "person": "Q1433",
+        "name": "Lucio Vero",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Lucius_Verus",
+        "identityResolution": {
+          "requested": "Lucius Verus",
+          "canonical": "Lucius Verus",
+          "qid": "Q1433"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q842606",
+          "start": "0161-03-07",
+          "end": "0169-03-01",
+          "precision": 10,
+          "statement": "q1433$47175900-168B-49EB-B6D3-C058CF038DE6",
+          "label": "emperador romano"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1433",
+        "title": "Lucius Verus",
+        "source": "https://en.wikipedia.org/wiki/Lucius_Verus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "7 March 161 – January/February 169",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "161–169",
+            "parsed": {
+              "start": "0161-01-01",
+              "end": "0169-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "154",
+            "parsed": {
+              "start": "0154-01-01",
+              "end": "0154-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul II",
+            "raw": "161",
+            "parsed": {
+              "start": "0161-01-01",
+              "end": "0161-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul III",
+            "raw": "167",
+            "parsed": {
+              "start": "0167-01-01",
+              "end": "0167-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Marcus Aurelius",
+        "title": "Marcus Aurelius",
+        "person": "Q1430",
+        "name": "Marco Aurelio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Marcus_Aurelius",
+        "identityResolution": {
+          "requested": "Marcus Aurelius",
+          "canonical": "Marcus Aurelius",
+          "qid": "Q1430"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q842606",
+          "start": "0161-03-07",
+          "end": "0180-03-17",
+          "precision": 11,
+          "statement": "q1430$F253FEF5-EC27-49AA-AFB2-2CCFF34F657F",
+          "label": "emperador romano"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1430",
+        "title": "Marcus Aurelius",
+        "source": "https://en.wikipedia.org/wiki/Marcus_Aurelius",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "7 March 161 – 17 March 180",
+            "parsed": {
+              "start": "0161-03-07",
+              "end": "0180-03-17",
+              "precision": 11
+            },
+            "reignType": "Reign"
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "161–180",
+            "parsed": {
+              "start": "0161-01-01",
+              "end": "0180-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "January–April 140",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "January–February 145",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "January 161",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pertinax",
+        "title": "Pertinax",
+        "person": "Q1436",
+        "name": "Pertinax",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pertinax",
+        "identityResolution": {
+          "requested": "Pertinax",
+          "canonical": "Pertinax",
+          "qid": "Q1436"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q842606",
+          "start": "0193-01-01",
+          "end": "0193-03-28",
+          "precision": 11,
+          "statement": "q1436$E6A775DE-7311-40DA-BCFA-1C98FCF88938",
+          "label": "emperador romano"
+        },
+        {
+          "property": "P39",
+          "office": "Q2912782",
+          "start": "0188-01-01",
+          "end": "0189-01-01",
+          "precision": 9,
+          "statement": "Q1436$982FAA62-49CF-4B7F-84F5-62CC3BD04389",
+          "label": "procónsul"
+        },
+        {
+          "property": "P39",
+          "office": "Q1190123",
+          "start": "0175-01-01",
+          "end": "0185-01-01",
+          "precision": 9,
+          "statement": "Q1436$A0C1448B-7225-44E6-8BED-8F1D204B0C58",
+          "label": "gobernador romano"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1436",
+        "title": "Pertinax",
+        "source": "https://en.wikipedia.org/wiki/Pertinax",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "1 January – {{nowrap|28 March 193}}",
+            "parsed": {
+              "start": "0193-01-01",
+              "end": "0193-03-28",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "175 (suffect)",
+            "parsed": {
+              "start": "0175-01-01",
+              "end": "0175-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Governor of Britain",
+            "raw": "c. 185 – 187",
+            "parsed": {
+              "start": "0185-01-01",
+              "end": "0187-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "192",
+            "parsed": {
+              "start": "0192-01-01",
+              "end": "0192-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "[[Year of the Five Emperors|193]]",
+            "parsed": {
+              "start": "0193-01-01",
+              "end": "0193-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pescennius Niger",
+        "title": "Pescennius Niger",
+        "person": "Q201053",
+        "name": "Pescenio Níger",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pescennius_Niger",
+        "identityResolution": {
+          "requested": "Pescennius Niger",
+          "canonical": "Pescennius Niger",
+          "qid": "Q201053"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q201053",
+        "title": "Pescennius Niger",
+        "source": "https://en.wikipedia.org/wiki/Pescennius_Niger",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Usurper of the Roman Empire",
+            "raw": "9 April 193 – May 194",
+            "parsed": {
+              "start": "0193-04-09",
+              "end": "0194-05-01",
+              "precision": 10
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Septimius Severus",
+        "title": "Septimius Severus",
+        "person": "Q1442",
+        "name": "Septimio Severo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Septimius_Severus",
+        "identityResolution": {
+          "requested": "Septimius Severus",
+          "canonical": "Septimius Severus",
+          "qid": "Q1442"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q842606",
+          "start": "0193-04-09",
+          "end": "0211-02-04",
+          "precision": 11,
+          "statement": "q1442$C8383EB1-010F-4AF6-8DB7-2031F44F95E6",
+          "label": "emperador romano"
+        },
+        {
+          "property": "P39",
+          "office": "Q40779",
+          "start": "0194-01-01",
+          "end": "0194-01-01",
+          "precision": 9,
+          "statement": "Q1442$56E826F3-54A9-4F69-9A2F-22FC2EC407BD",
+          "label": "cónsul romano"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1442",
+        "title": "Septimius Severus",
+        "source": "https://en.wikipedia.org/wiki/Septimius_Severus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "9 April 193 – {{awrap|4 February 211}}<ref>{{Cite book|last=Kienast|first=Dietmar|url=https://books.google.com/books?id=rYRorgEACAAJ|title=Römische Kaisertabelle Grundzüge einer römischen Kaiserchronologie|publisher=Wissenschaftliche Buchgesellschaft|year=2017|isbn=978-3-534-07532-4|edition=6|location=Darmstadt|pages=149–159|chapter=Septimius Severus (9 Apr. 193–4 Febr. 211)|oclc=75671165|orig-year=1990}}</ref>",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman Emperor",
+            "raw": "193–211",
+            "parsed": {
+              "start": "0193-01-01",
+              "end": "0211-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Consul of the Roman Empire",
+            "raw": "194",
+            "parsed": {
+              "start": "0194-01-01",
+              "end": "0194-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Consul of the Roman Empire",
+            "raw": "202",
+            "parsed": {
+              "start": "0202-01-01",
+              "end": "0202-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Trajan",
+        "title": "Trajan",
+        "person": "Q1425",
+        "name": "Trajano",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Trajan",
+        "identityResolution": {
+          "requested": "Trajan",
+          "canonical": "Trajan",
+          "qid": "Q1425"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q842606",
+          "start": "0098-01-28",
+          "end": "0117-08-07",
+          "precision": 11,
+          "statement": "q1425$75340009-EA95-46B2-BD24-F7407C26A583",
+          "label": "emperador romano"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1425",
+        "title": "Trajan",
+        "source": "https://en.wikipedia.org/wiki/Trajan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "28 January 98{{snds}}9 August 117",
+            "parsed": {
+              "start": "0098-01-28",
+              "end": "0117-08-09",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "98–117",
+            "parsed": {
+              "start": "0098-01-01",
+              "end": "0117-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "91",
+            "parsed": {
+              "start": "0091-01-01",
+              "end": "0091-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "98",
+            "parsed": {
+              "start": "0098-01-01",
+              "end": "0098-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "100",
+            "parsed": {
+              "start": "0100-01-01",
+              "end": "0100-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "101",
+            "parsed": {
+              "start": "0101-01-01",
+              "end": "0101-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "103",
+            "parsed": {
+              "start": "0103-01-01",
+              "end": "0103-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "112",
+            "parsed": {
+              "start": "0112-01-01",
+              "end": "0112-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 12,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1425",
+        "title": "Trajan",
+        "source": "https://en.wikipedia.org/wiki/Trajan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Roman emperor",
+          "raw": "28 January 98{{snds}}9 August 117",
+          "parsed": {
+            "start": "0098-01-28",
+            "end": "0117-08-09",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1427",
+        "title": "Hadrian",
+        "source": "https://en.wikipedia.org/wiki/Hadrian",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Roman emperor",
+          "raw": "11 August 117 – 10 July 138",
+          "parsed": {
+            "start": "0117-08-11",
+            "end": "0138-07-10",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1429",
+        "title": "Antoninus Pius",
+        "source": "https://en.wikipedia.org/wiki/Antoninus_Pius",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Roman emperor",
+          "raw": "11 July 138 – 7 March 161",
+          "parsed": {
+            "start": "0138-07-11",
+            "end": "0161-03-07",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1430",
+        "title": "Marcus Aurelius",
+        "source": "https://en.wikipedia.org/wiki/Marcus_Aurelius",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Roman emperor",
+          "raw": "7 March 161 – 17 March 180",
+          "parsed": {
+            "start": "0161-03-07",
+            "end": "0180-03-17",
+            "precision": 11
+          },
+          "reignType": "Reign"
+        }
+      },
+      {
+        "person": "Q1433",
+        "title": "Lucius Verus",
+        "source": "https://en.wikipedia.org/wiki/Lucius_Verus",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Roman emperor",
+          "raw": "161–169",
+          "parsed": {
+            "start": "0161-01-01",
+            "end": "0169-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1434",
+        "title": "Commodus",
+        "source": "https://en.wikipedia.org/wiki/Commodus",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Roman emperor",
+          "raw": "180–192",
+          "parsed": {
+            "start": "0180-01-01",
+            "end": "0192-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1436",
+        "title": "Pertinax",
+        "source": "https://en.wikipedia.org/wiki/Pertinax",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Roman emperor",
+          "raw": "1 January – {{nowrap|28 March 193}}",
+          "parsed": {
+            "start": "0193-01-01",
+            "end": "0193-03-28",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1440",
+        "title": "Didius Julianus",
+        "source": "https://en.wikipedia.org/wiki/Didius_Julianus",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Roman emperor",
+          "raw": "28 March – 2 June 193",
+          "parsed": {
+            "start": "0193-03-28",
+            "end": "0193-06-02",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1442",
+        "title": "Septimius Severus",
+        "source": "https://en.wikipedia.org/wiki/Septimius_Severus",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Roman Emperor",
+          "raw": "193–211",
+          "parsed": {
+            "start": "0193-01-01",
+            "end": "0211-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q237960",
+        "title": "Clodius Albinus",
+        "source": "https://en.wikipedia.org/wiki/Clodius_Albinus",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Roman emperor",
+          "raw": "193",
+          "parsed": {
+            "start": "0193-01-01",
+            "end": "0193-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1446",
+        "title": "Caracalla",
+        "source": "https://en.wikipedia.org/wiki/Caracalla",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Roman emperor",
+          "raw": "198–217",
+          "parsed": {
+            "start": "0198-01-01",
+            "end": "0217-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q455034",
+        "title": "Lucius Aelius Caesar",
+        "source": "https://en.wikipedia.org/wiki/Lucius_Aelius_Caesar",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Roman caesar",
+          "raw": "136–137",
+          "parsed": {
+            "start": "0136-01-01",
+            "end": "0137-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Pescennius Niger",
+        "person": "Q201053",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Avidius Cassius",
+        "person": "Q299291",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Marcus Aurelius",
+        "person": "Q1430",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Lucius Verus",
+        "person": "Q1433",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Commodus",
+        "person": "Q1434",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Clodius Albinus",
+        "person": "Q237960",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Caracalla",
+        "person": "Q1446",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Geta (emperor)",
+        "person": "Q183089",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q1434",
+      "originalRecords": [
+        {
+          "person": "Q1434",
+          "name": "Cómodo",
+          "role": "Augusto romano · gobierno compartido o rival",
+          "start": "0180-01-01",
+          "end": "0192-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Commodus",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Augustado compartido desde177; gobierno sin Marco Aurelio desde180. No se pospone el título imperial a180.",
+      "source": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d"
+    },
+    {
+      "person": "Q237960",
+      "originalRecords": [
+        {
+          "person": "Q237960",
+          "name": "Clodio Albino",
+          "role": "Augusto romano · gobierno compartido o rival",
+          "start": "0193-01-01",
+          "end": "0193-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Clodius_Albinus",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Dignidad subordinada antes de su proclamación rival; la tabla de sucesión abreviada193 no acredita augustado durante todo ese año.",
+      "source": "https://en.wikipedia.org/wiki/Clodius_Albinus"
+    },
+    {
+      "person": "Q455034",
+      "originalRecords": [
+        {
+          "person": "Q455034",
+          "name": "Lucio Elio César",
+          "role": "César romano · dignidad subordinada",
+          "start": "0136-01-01",
+          "end": "0137-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Lucius_Aelius_Caesar",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Dignidad subordinada136–1 de enero138; no augusto ni reinado independiente.",
+      "source": "https://en.wikipedia.org/wiki/Lucius_Aelius_Caesar"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q1434",
+      "name": "Cómodo",
+      "role": "Augusto romano · asociado y después único",
+      "start": "0177-01-01",
+      "end": "0192-12-31",
+      "precision": 9,
+      "source": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+      "note": "Augustado compartido desde177; gobierno sin Marco Aurelio desde180. No se pospone el título imperial a180."
+    },
+    {
+      "person": "Q237960",
+      "name": "Clodio Albino",
+      "role": "César romano · asociado a Septimio Severo",
+      "start": "0193-01-01",
+      "end": "0195-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Clodius_Albinus",
+      "note": "Dignidad subordinada antes de su proclamación rival; la tabla de sucesión abreviada193 no acredita augustado durante todo ese año."
+    },
+    {
+      "person": "Q237960",
+      "name": "Clodio Albino",
+      "role": "Augusto rival · poder regional",
+      "start": "0195-01-01",
+      "end": "0197-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Clodius_Albinus",
+      "note": "Proclamación rival desde195 o196 según cronología; derrota en197. Ventana de consulta, no dominio de todo el imperio."
+    },
+    {
+      "person": "Q201053",
+      "name": "Pescenio Níger",
+      "role": "Augusto rival · poder oriental",
+      "start": "0193-01-01",
+      "end": "0194-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pescennius_Niger",
+      "note": "Proclamación rival193–194; no emperador de todo el imperio ni simple mandato administrativo anual."
+    },
+    {
+      "person": "Q299291",
+      "name": "Avidio Casio",
+      "role": "Pretendiente imperial · poder regional",
+      "start": "0175-01-01",
+      "end": "0175-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Avidius_Cassius",
+      "note": "Proclamación rival durante unos meses de175; no ocupación de todo el imperio durante el año completo."
+    },
+    {
+      "person": "Q1430",
+      "name": "Marco Aurelio",
+      "role": "César romano · dignidad subordinada",
+      "start": "0139-01-01",
+      "end": "0161-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Marcus_Aurelius",
+      "note": "Fase de césar diferenciada del augustado posterior. Los cambios dentro del año se conservan, sin deducir el cargo de fechas personales."
+    },
+    {
+      "person": "Q1434",
+      "name": "Cómodo",
+      "role": "César romano · dignidad subordinada",
+      "start": "0166-01-01",
+      "end": "0177-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Commodus",
+      "note": "Fase de césar diferenciada del augustado posterior. Los cambios dentro del año se conservan, sin deducir el cargo de fechas personales."
+    },
+    {
+      "person": "Q1446",
+      "name": "Caracalla",
+      "role": "César romano · dignidad subordinada",
+      "start": "0196-01-01",
+      "end": "0198-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Caracalla",
+      "note": "Fase de césar diferenciada del augustado posterior. Los cambios dentro del año se conservan, sin deducir el cargo de fechas personales."
+    },
+    {
+      "person": "Q183089",
+      "name": "Publio Septimio Geta",
+      "role": "César romano · dignidad subordinada",
+      "start": "0198-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Geta_%28emperor%29",
+      "note": "Fase de césar diferenciada del augustado posterior. Los cambios dentro del año se conservan, sin deducir el cargo de fechas personales.",
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q455034",
+      "name": "Lucio Elio César",
+      "role": "César romano · sucesor designado",
+      "start": "0136-01-01",
+      "end": "0138-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lucius_Aelius_Caesar",
+      "note": "Dignidad subordinada136–1 de enero138; no augusto ni reinado independiente."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat039-0",
+      "name": "Roma · centro imperial",
+      "coordinates": [
+        12.48,
+        41.9
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Rome",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Imperio romano · cortes imperiales"
+    },
+    {
+      "id": "seat039-0-own",
+      "name": "Roma · centro imperial",
+      "coordinates": [
+        12.48,
+        41.9
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Rome",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Imperio romano · cortes imperiales"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review039-antonines",
+      "type": "institution",
+      "title": "Sucesiones imperiales y títulos compartidos",
+      "start": "0100-01-01",
+      "end": "0193-01-01",
+      "text": "Trajano, Adriano y los Antoninos; Lucio Vero y Marco Aurelio comparten dignidad imperial, Cómodo es augusto desde177. Ser césar no es gobernar como augusto ni crear otro Estado.",
+      "source": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras."
+    },
+    {
+      "id": "review039-east",
+      "type": "conflict",
+      "title": "Campañas orientales de Trajano y retirada de Adriano",
+      "start": "0114-01-01",
+      "end": "0118-01-01",
+      "text": "Captura de Ctesifonte e instalación de Partamaspates en116; la retirada posterior no es una anexión romana permanente de toda Partia. Punto regional, sin frente supuesto.",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras."
+    },
+    {
+      "id": "review039-crisis193",
+      "type": "conflict",
+      "title": "Guerra por la sucesión imperial",
+      "start": "0193-01-01",
+      "end": "0198-01-01",
+      "text": "Pertinax, Didio Juliano, Septimio Severo y pretendientes orientales/occidentales tienen mandatos y ámbitos distintos. Clodio Albino es césar antes de su proclamación rival; no todos reinan sobre todo el imperio.",
+      "source": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras."
+    },
+    {
+      "id": "review039-verus",
+      "type": "conflict",
+      "title": "Guerra romano-parta de Lucio Vero",
+      "start": "0161-01-01",
+      "end": "0167-01-01",
+      "text": "Campañas y captura de Ctesifonte; no se prolonga una ocupación puntual por todo el siglo ni se inventan fronteras anuales de control.",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review039-east",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.581,
+          33.094
+        ]
+      },
+      "properties": {
+        "name": "Campañas orientales de Trajano y retirada de Adriano",
+        "countries": [
+          "ROMAN-EMPIRE-CLASSICAL"
+        ],
+        "kind": "regional-conflict",
+        "start": "0114-01-01",
+        "end": "0117-12-31",
+        "precision": 9,
+        "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+        "sourceLabel": "Referencia documental · siglo II",
+        "note": "Captura de Ctesifonte e instalación de Partamaspates en116; la retirada posterior no es una anexión romana permanente de toda Partia. Punto regional, sin frente supuesto. Coordenada regional aproximada."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "review039-crisis193",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48,
+          41.9
+        ]
+      },
+      "properties": {
+        "name": "Guerra por la sucesión imperial",
+        "countries": [
+          "ROMAN-EMPIRE-CLASSICAL"
+        ],
+        "kind": "regional-conflict",
+        "start": "0193-01-01",
+        "end": "0197-12-31",
+        "precision": 9,
+        "source": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+        "sourceLabel": "Referencia documental · siglo II",
+        "note": "Pertinax, Didio Juliano, Septimio Severo y pretendientes orientales/occidentales tienen mandatos y ámbitos distintos. Clodio Albino es césar antes de su proclamación rival; no todos reinan sobre todo el imperio. Coordenada regional aproximada."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "review039-verus",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.581,
+          33.094
+        ]
+      },
+      "properties": {
+        "name": "Guerra romano-parta de Lucio Vero",
+        "countries": [
+          "ROMAN-EMPIRE-CLASSICAL"
+        ],
+        "kind": "regional-conflict",
+        "start": "0161-01-01",
+        "end": "0166-12-31",
+        "precision": 9,
+        "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+        "sourceLabel": "Referencia documental · siglo II",
+        "note": "Campañas y captura de Ctesifonte; no se prolonga una ocupación puntual por todo el siglo ni se inventan fronteras anuales de control. Coordenada regional aproximada."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1425",
+      "name": "Trajano",
+      "title": "Traianus Glyptothek Munich 336.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Traianus_Glyptothek_Munich_336.jpg",
+      "sha256": "df66e7fd890ce7a70351ca37b810b66ef871d2aff28b9ca18d26232f13aa37f5",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Trajano; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q1427",
+      "name": "Adriano",
+      "title": "Bust Hadrian Musei Capitolini MC817.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bust_Hadrian_Musei_Capitolini_MC817.jpg",
+      "sha256": "708aaa3f4cdf7dd29230b53c92d7f319839f387361be02639e0fd03d901b9107",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Adriano; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q1429",
+      "name": "Antonino Pío",
+      "title": "Antoninus Pius Glyptothek Munich 337 cropped.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Antoninus_Pius_Glyptothek_Munich_337_cropped.jpg",
+      "sha256": "bb96773e4480a0db76165096a7d0f89fb0696f856207205abc708839829b606f",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Antonino Pío; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q1430",
+      "name": "Marco Aurelio",
+      "title": "Marcus Aurelius Louvre MR561 n02.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Louvre_MR561_n02.jpg",
+      "sha256": "fa925f69b485fc00e4ebf92fe7679748804587b179f01caf96cb721f4c020e15",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Marco Aurelio; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q1433",
+      "name": "Lucio Vero",
+      "title": "Lucius Verus - MET - L.2007.26.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lucius_Verus_-_MET_-_L.2007.26.jpg",
+      "sha256": "9329fcd725f5991a39dbd00a4f899440151469f3fded4871741b27268fe0bda4",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Lucio Vero; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q1436",
+      "name": "Pertinax",
+      "title": "Alba Iulia National Museum of the Union 2011 - Possible Statue of Roman Emperor Pertinax Close Up, Apulum.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Alba_Iulia_National_Museum_of_the_Union_2011_-_Possible_Statue_of_Roman_Emperor_Pertinax_Close_Up,_Apulum.JPG",
+      "sha256": "66e7e5cafe201bdd54299156b223ac74a565771c0f9a4b767295ee7c7dd97205",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Estatua de identificación posible como Pertinax; se prefiere moneda con leyenda inequívoca."
+    },
+    {
+      "person": "Q1440",
+      "name": "Didio Juliano",
+      "title": "DidiusJulianusSest.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:DidiusJulianusSest.jpg",
+      "sha256": "4e9f0d312f7c720d8eaea5c9b9d6627fed10e9bec983c836e05f9254cd741db7",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Didio Juliano; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q1442",
+      "name": "Septimio Severo",
+      "title": "Septimius Severus Glyptothek Munich 357 cropped.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Septimius_Severus_Glyptothek_Munich_357_cropped.jpg",
+      "sha256": "4dad91fe2f048b8820a01ef131f770176b49f6e632fbfa7c32cd4a8a898accde",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Septimio Severo; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q1446",
+      "name": "Caracalla",
+      "title": "Caracalla MAN Napoli Inv6033 n01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Caracalla_MAN_Napoli_Inv6033_n01.jpg",
+      "sha256": "67f91506e3c647b0c27f85b752ed51a3f941c07c915523752fbb4fcde68617b8",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Caracalla; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q1434",
+      "name": "Cómodo",
+      "title": "Commodus Musei Capitolini MC1120.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Commodus_Musei_Capitolini_MC1120.jpg",
+      "sha256": "8f443c55fc09dd7088aa7413921a8a77cfa798cc62d48fbde0d0fe919db30661",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Cómodo; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q237960",
+      "name": "Clodio Albino",
+      "title": "Clodius01 pushkin.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Clodius01_pushkin.jpg",
+      "sha256": "bd7ee7278c1c2a7a80c31a8340433fc71dae21ddc2aafa2a5885ebae8999a324",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Clodio Albino; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q201053",
+      "name": "Pescenio Níger",
+      "title": "Aureus Pescennius Niger (obverse).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Aureus_Pescennius_Niger_(obverse).jpg",
+      "sha256": "98c14c539eed0977e5ff5079564d1ae6b81536a9f6e18a2b269613bcc120696b",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Pescenio Níger; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q183089",
+      "name": "Publio Septimio Geta",
+      "title": "Geta.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Geta.jpg",
+      "sha256": "e3e126e9a5fdc32760a3752abc23d08fa26ae698aa4c0218a78864d988af29e7",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Publio Septimio Geta; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q455034",
+      "name": "Lucio Elio César",
+      "title": "Portrait Lucius Aelius Louvre Ma1167.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Lucius_Aelius_Louvre_Ma1167.jpg",
+      "sha256": "f7e02daedb1a707217e79d45ddcfdc4feb0831dc192f5442947a029ee412d939",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Lucio Elio César; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q1436",
+      "name": "Pertinax",
+      "title": "Pertinax Denarius (obverse).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pertinax_Denarius_(obverse).jpg",
+      "sha256": "b652c438fd4b3a33ca812bbc694963600ebeb6891299f30ba9d1f29cd8dc3195",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Anverso de denario de Pertinax,193, con leyenda IMP CAES P HELV PERTIN AVG; efigie convencional identificada. Se sustituye el candidato de estatua de atribución insegura, sin alterar los archivos originales."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q1436",
+      "title": "Alba Iulia National Museum of the Union 2011 - Possible Statue of Roman Emperor Pertinax Close Up, Apulum.JPG",
+      "reason": "Estatua de identificación posible como Pertinax; se prefiere moneda con leyenda inequívoca.",
+      "source": "https://commons.wikimedia.org/wiki/File:Alba_Iulia_National_Museum_of_the_Union_2011_-_Possible_Statue_of_Roman_Emperor_Pertinax_Close_Up,_Apulum.JPG"
+    }
+  ]
+}

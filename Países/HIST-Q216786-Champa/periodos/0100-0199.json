@@ -1,0 +1,155 @@
+{
+  "key": "HIST-Q216786",
+  "identity": {
+    "qid": "Q216786",
+    "name": "Chámpa"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Lâm Ấp · tradición transmitida",
+      "officePattern": "King|Lâm|Champa",
+      "titles": [
+        "Khu Liên"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1054481",
+      "name": "Sri Mara",
+      "role": "Gobernante de Lâm Ấp · tradición transmitida",
+      "start": "0192-01-01",
+      "end": "0192-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khu_Li%C3%AAn",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 100,
+      "end": 199,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Khu_Li%C3%AAn",
+      "note": "Clasificación institucional documentada; no control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Khu Liên",
+        "title": "Khu Liên",
+        "person": "Q1054481",
+        "name": "Sri Mara",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khu_Li%C3%AAn",
+        "identityResolution": {
+          "requested": "Khu Liên",
+          "canonical": "Khu Liên",
+          "qid": "Q1054481"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0192-01-01",
+          "end": "0192-01-01",
+          "precision": 9,
+          "statement": "Q1054481$d937573d-4426-3d75-43bb-f9c1747f199b",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1054481",
+        "title": "Khu Liên",
+        "source": "https://en.wikipedia.org/wiki/Khu_Li%C3%AAn",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Champa (Lâm Ấp)",
+            "raw": "192 <small>CE</small>",
+            "parsed": {
+              "start": "0192-01-01",
+              "end": "0192-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Champa",
+            "raw": "192 CE&ndash;?",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1054481",
+        "title": "Khu Liên",
+        "source": "https://en.wikipedia.org/wiki/Khu_Li%C3%AAn",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Champa (Lâm Ấp)",
+          "raw": "192 <small>CE</small>",
+          "parsed": {
+            "start": "0192-01-01",
+            "end": "0192-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q1054481",
+      "title": "Vo Canh stele (National Museum of Vietnamese History).jpg",
+      "reason": "Estela de Vo Canh, documento epigráfico, no retrato de Sri Mara.",
+      "source": "https://commons.wikimedia.org/wiki/File:Vo_Canh_stele_(National_Museum_of_Vietnamese_History).jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1054481",
+      "name": "Sri Mara",
+      "title": "Vo Canh stele (National Museum of Vietnamese History).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vo_Canh_stele_(National_Museum_of_Vietnamese_History).jpg",
+      "sha256": "ff7f2b9d88e09db7b8fdaf856ed90ca1f8e354f01a39ad5c5ab5ccf66ad375dc",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Estela de Vo Canh, documento epigráfico, no retrato de Sri Mara."
+    }
+  ]
+}

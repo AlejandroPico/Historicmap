@@ -1,0 +1,43 @@
+{
+  "key": "HIST-Q713393",
+  "name": "Dong-okjeo",
+  "qid": "Q713393",
+  "aliases": [
+    "Dong-okjeo"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q713393"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-100.geojson",
+      "recordId": "clio-1147",
+      "start": 100,
+      "end": 126,
+      "name": "Dong-okjeo",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-100.geojson",
+      "recordId": "clio-1242",
+      "start": 127,
+      "end": 153,
+      "name": "Dong-okjeo",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

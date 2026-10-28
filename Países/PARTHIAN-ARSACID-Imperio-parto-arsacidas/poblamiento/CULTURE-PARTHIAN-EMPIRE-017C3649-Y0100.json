@@ -1,0 +1,63 @@
+{
+  "key": "CULTURE-PARTHIAN-EMPIRE-017C3649-Y0100",
+  "contextKey": "CULTURE-PARTHIAN-EMPIRE-017C3649",
+  "ownerKey": "PARTHIAN-ARSACID",
+  "name": "Parthian Empire",
+  "originalNames": [
+    "Parthian Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 100",
+  "decision": "political-base",
+  "reviewedRange": [
+    100,
+    199
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea100 contiene etiquetas de épocas distintas. La ventana100–199 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de100",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "PARTHIAN-ARSACID"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    52.07861,
+    32.08757
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-PARTHIAN-EMPIRE-017C3649-Y0100.geojson",
+  "geometrySha256": "5f37e51d10a8c19be6e0f9e11da7735056206a7ba8ec884b417036ee287b53bb",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson",
+    "year": 100,
+    "featureIds": [
+      149
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef"
+  },
+  "review": "0.39.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final199 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en200."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Parthian Empire",
+      "ABBREVN": "Parthian Emp",
+      "SUBJECTO": "Parthian Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Parthian Empire"
+    }
+  ],
+  "sourceGrouping": [
+    "Parthian Empire"
+  ]
+}

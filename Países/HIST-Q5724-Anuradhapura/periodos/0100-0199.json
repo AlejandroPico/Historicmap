@@ -1,0 +1,867 @@
+{
+  "key": "HIST-Q5724",
+  "identity": {
+    "qid": "Q5724",
+    "name": "Anurādhapura"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Anuradhapura",
+      "officePattern": "King.*Anuradhapura",
+      "titles": [
+        "Vasabha of Anuradhapura",
+        "Vankanasika Tissa of Anuradhapura",
+        "Gajabahu I of Anuradhapura",
+        "Mahallaka Naga of Anuradhapura",
+        "Bhatika Tissa of Anuradhapura",
+        "Kanittha Tissa",
+        "Cula Naga of Anuradhapura",
+        "Kuda Naga of Anuradhapura",
+        "Siri Naga I of Anuradhapura"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7916299",
+      "name": "Vasabha",
+      "role": "Rey de Anuradhapura",
+      "start": "0100-01-01",
+      "end": "0111-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vasabha",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q16228746",
+      "name": "Vankanasika Tissa",
+      "role": "Rey de Anuradhapura",
+      "start": "0111-01-01",
+      "end": "0114-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vankanasika_Tissa",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q5517531",
+      "name": "Gajabahu I of Anuradhapura",
+      "role": "Rey de Anuradhapura",
+      "start": "0113-01-01",
+      "end": "0135-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gajabahu_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q16314444",
+      "name": "Mahallaka Naga",
+      "role": "Rey de Anuradhapura",
+      "start": "0136-01-01",
+      "end": "0143-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mahallaka_Naga",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q16312096",
+      "name": "Bhatika Tissa",
+      "role": "Rey de Anuradhapura",
+      "start": "0143-01-01",
+      "end": "0167-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bhatika_Tissa",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q16851553",
+      "name": "Kanittha Tissa",
+      "role": "Rey de Anuradhapura",
+      "start": "0167-01-01",
+      "end": "0186-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kanittha_Tissa",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q16931088",
+      "name": "Cula Naga",
+      "role": "Rey de Anuradhapura",
+      "start": "0186-01-01",
+      "end": "0187-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cula_Naga",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q15708287",
+      "name": "Kuda Naga",
+      "role": "Rey de Anuradhapura",
+      "start": "0187-01-01",
+      "end": "0189-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kuda_Naga",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q16309563",
+      "name": "Siri Naga I of Anuradhapura",
+      "role": "Rey de Anuradhapura",
+      "start": "0189-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Siri_Naga_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 100,
+      "end": 199,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Vasabha",
+      "note": "Clasificación institucional documentada; no control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Anurādhapura"
+        ],
+        "start": 100,
+        "end": 199,
+        "label": "Anurādhapura",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0100-0199.geojson",
+      "sha256": "b2679c1d97eae40869a5ad22e35714384631d5b955bfe36ad2daf0da831db56b",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1197
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bhatika Tissa of Anuradhapura",
+        "title": "Bhatika Tissa of Anuradhapura",
+        "person": "Q16312096",
+        "name": "Bhatika Tissa",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bhatika_Tissa",
+        "identityResolution": {
+          "requested": "Bhatika Tissa of Anuradhapura",
+          "canonical": "Bhatika Tissa",
+          "qid": "Q16312096"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0141-01-01",
+          "end": "0165-01-01",
+          "precision": 9,
+          "statement": "Q16312096$60240e81-4a99-201b-f0b6-d87b9c6be800",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16312096",
+        "title": "Bhatika Tissa",
+        "source": "https://en.wikipedia.org/wiki/Bhatika_Tissa",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "143 – 167 AD",
+            "parsed": {
+              "start": "0143-01-01",
+              "end": "0167-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "143&ndash;167 AD",
+            "parsed": {
+              "start": "0143-01-01",
+              "end": "0167-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Cula Naga of Anuradhapura",
+        "title": "Cula Naga of Anuradhapura",
+        "person": "Q16931088",
+        "name": "Cula Naga",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cula_Naga",
+        "identityResolution": {
+          "requested": "Cula Naga of Anuradhapura",
+          "canonical": "Cula Naga",
+          "qid": "Q16931088"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0193-01-01",
+          "end": "0195-01-01",
+          "precision": 9,
+          "statement": "Q16931088$5c971ef7-43f3-2e28-6e90-386a9683dcd4",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16931088",
+        "title": "Cula Naga",
+        "source": "https://en.wikipedia.org/wiki/Cula_Naga",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "186 – 187 AD",
+            "parsed": {
+              "start": "0186-01-01",
+              "end": "0187-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "186&ndash;187 AD",
+            "parsed": {
+              "start": "0186-01-01",
+              "end": "0187-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gajabahu I of Anuradhapura",
+        "title": "Gajabahu I of Anuradhapura",
+        "person": "Q5517531",
+        "name": "Gajabahu I of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gajabahu_I",
+        "identityResolution": {
+          "requested": "Gajabahu I of Anuradhapura",
+          "canonical": "Gajabahu I",
+          "qid": "Q5517531"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0113-01-01",
+          "end": "0136-01-01",
+          "precision": 9,
+          "statement": "Q5517531$46ecd846-4ff4-5180-6489-4a4c3c43de60",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5517531",
+        "title": "Gajabahu I",
+        "source": "https://en.wikipedia.org/wiki/Gajabahu_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "{{circa|113|135}}",
+            "parsed": {
+              "start": "0113-01-01",
+              "end": "0135-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kings of Rajarata",
+            "raw": "114–136",
+            "parsed": {
+              "start": "0114-01-01",
+              "end": "0136-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kanittha Tissa",
+        "title": "Kanittha Tissa",
+        "person": "Q16851553",
+        "name": "Kanittha Tissa",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kanittha_Tissa",
+        "identityResolution": {
+          "requested": "Kanittha Tissa",
+          "canonical": "Kanittha Tissa",
+          "qid": "Q16851553"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0165-01-01",
+          "end": "0193-01-01",
+          "precision": 9,
+          "statement": "Q16851553$fd312322-4417-03cd-05e1-246222ffe4c0",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16851553",
+        "title": "Kanittha Tissa",
+        "source": "https://en.wikipedia.org/wiki/Kanittha_Tissa",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura Maharaja {{ref|noteA|A}} {{ref|noteB|B}}",
+            "raw": "167 – 186 AD",
+            "parsed": {
+              "start": "0167-01-01",
+              "end": "0186-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "167&ndash;186 AD",
+            "parsed": {
+              "start": "0167-01-01",
+              "end": "0186-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kuda Naga of Anuradhapura",
+        "title": "Kuda Naga of Anuradhapura",
+        "person": "Q15708287",
+        "name": "Kuda Naga",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kuda_Naga",
+        "identityResolution": {
+          "requested": "Kuda Naga of Anuradhapura",
+          "canonical": "Kuda Naga",
+          "qid": "Q15708287"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0195-01-01",
+          "end": "0196-01-01",
+          "precision": 9,
+          "statement": "Q15708287$a79304bb-4a7f-a743-b9f7-7deaf55eb69b",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q15708287",
+        "title": "Kuda Naga",
+        "source": "https://en.wikipedia.org/wiki/Kuda_Naga",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "187 – 189 AD",
+            "parsed": {
+              "start": "0187-01-01",
+              "end": "0189-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "187&ndash;189 AD",
+            "parsed": {
+              "start": "0187-01-01",
+              "end": "0189-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mahallaka Naga of Anuradhapura",
+        "title": "Mahallaka Naga of Anuradhapura",
+        "person": "Q16314444",
+        "name": "Mahallaka Naga",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mahallaka_Naga",
+        "identityResolution": {
+          "requested": "Mahallaka Naga of Anuradhapura",
+          "canonical": "Mahallaka Naga",
+          "qid": "Q16314444"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0136-01-01",
+          "end": "0141-01-01",
+          "precision": 9,
+          "statement": "Q16314444$2142a68b-4368-c723-0d5d-0143bbf5211c",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16314444",
+        "title": "Mahallaka Naga",
+        "source": "https://en.wikipedia.org/wiki/Mahallaka_Naga",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "136–143 AD",
+            "parsed": {
+              "start": "0136-01-01",
+              "end": "0143-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "136–143",
+            "parsed": {
+              "start": "0136-01-01",
+              "end": "0143-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Siri Naga I of Anuradhapura",
+        "title": "Siri Naga I of Anuradhapura",
+        "person": "Q16309563",
+        "name": "Siri Naga I of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Siri_Naga_I",
+        "identityResolution": {
+          "requested": "Siri Naga I of Anuradhapura",
+          "canonical": "Siri Naga I",
+          "qid": "Q16309563"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0196-01-01",
+          "end": "0215-01-01",
+          "precision": 9,
+          "statement": "Q16309563$e14616b3-4fd9-eb0b-4641-9488dc8d199a",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16309563",
+        "title": "Siri Naga I",
+        "source": "https://en.wikipedia.org/wiki/Siri_Naga_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "189– 209 AD",
+            "parsed": {
+              "start": "0189-01-01",
+              "end": "0209-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "189&ndash;209 AD",
+            "parsed": {
+              "start": "0189-01-01",
+              "end": "0209-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vankanasika Tissa of Anuradhapura",
+        "title": "Vankanasika Tissa of Anuradhapura",
+        "person": "Q16228746",
+        "name": "Vankanasika Tissa",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vankanasika_Tissa",
+        "identityResolution": {
+          "requested": "Vankanasika Tissa of Anuradhapura",
+          "canonical": "Vankanasika Tissa",
+          "qid": "Q16228746"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0110-01-01",
+          "end": "0113-01-01",
+          "precision": 9,
+          "statement": "Q16228746$84c86175-4c30-36ec-51ee-9e32f3e1554e",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16228746",
+        "title": "Vankanasika Tissa",
+        "source": "https://en.wikipedia.org/wiki/Vankanasika_Tissa",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "111–114 AD",
+            "parsed": {
+              "start": "0111-01-01",
+              "end": "0114-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "111–114 AD",
+            "parsed": {
+              "start": "0111-01-01",
+              "end": "0114-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vasabha of Anuradhapura",
+        "title": "Vasabha of Anuradhapura",
+        "person": "Q7916299",
+        "name": "Vasabha",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vasabha",
+        "identityResolution": {
+          "requested": "Vasabha of Anuradhapura",
+          "canonical": "Vasabha",
+          "qid": "Q7916299"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0066-01-01",
+          "end": "0110-01-01",
+          "precision": 9,
+          "statement": "Q7916299$bd7d883b-4917-cabb-a24c-8ac23a872a5d",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7916299",
+        "title": "Vasabha",
+        "source": "https://en.wikipedia.org/wiki/Vasabha",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura Maharaja {{ref|noteA|(note 1)}}",
+            "raw": "67–111 AD",
+            "parsed": {
+              "start": "0067-01-01",
+              "end": "0111-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "67–111 AD",
+            "parsed": {
+              "start": "0067-01-01",
+              "end": "0111-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 9,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7916299",
+        "title": "Vasabha of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Vasabha",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura Maharaja {{ref|noteA|(note 1)}}",
+          "raw": "67–111 AD",
+          "parsed": {
+            "start": "0067-01-01",
+            "end": "0111-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q16228746",
+        "title": "Vankanasika Tissa of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Vankanasika_Tissa",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "111–114 AD",
+          "parsed": {
+            "start": "0111-01-01",
+            "end": "0114-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q5517531",
+        "title": "Gajabahu I of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Gajabahu_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "{{circa|113|135}}",
+          "parsed": {
+            "start": "0113-01-01",
+            "end": "0135-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q16314444",
+        "title": "Mahallaka Naga of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Mahallaka_Naga",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "136–143 AD",
+          "parsed": {
+            "start": "0136-01-01",
+            "end": "0143-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q16312096",
+        "title": "Bhatika Tissa of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Bhatika_Tissa",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "143 – 167 AD",
+          "parsed": {
+            "start": "0143-01-01",
+            "end": "0167-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q16851553",
+        "title": "Kanittha Tissa",
+        "source": "https://en.wikipedia.org/wiki/Kanittha_Tissa",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura Maharaja {{ref|noteA|A}} {{ref|noteB|B}}",
+          "raw": "167 – 186 AD",
+          "parsed": {
+            "start": "0167-01-01",
+            "end": "0186-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q16931088",
+        "title": "Cula Naga of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Cula_Naga",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "186 – 187 AD",
+          "parsed": {
+            "start": "0186-01-01",
+            "end": "0187-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q15708287",
+        "title": "Kuda Naga of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Kuda_Naga",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "187 – 189 AD",
+          "parsed": {
+            "start": "0187-01-01",
+            "end": "0189-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q16309563",
+        "title": "Siri Naga I of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Siri_Naga_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "189– 209 AD",
+          "parsed": {
+            "start": "0189-01-01",
+            "end": "0209-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat039-10",
+      "name": "Anuradhapura",
+      "coordinates": [
+        80.403,
+        8.311
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Anuradhapura",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Anurādhapura"
+    },
+    {
+      "id": "seat039-10-own",
+      "name": "Anuradhapura",
+      "coordinates": [
+        80.403,
+        8.311
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Anuradhapura",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Anurādhapura"
+    }
+  ]
+}

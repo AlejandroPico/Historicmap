@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-KUSHAN-EMPIRE-177723D0",
+  "name": "Kushan Empire",
+  "qid": "",
+  "aliases": [
+    "Kushan Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 429,
+      "start": null,
+      "end": null,
+      "name": "Kushan Empire",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-KUSHAN-EMPIRE-177723D0-Y0100:0",
+      "contextKey": "CULTURE-KUSHAN-EMPIRE-177723D0",
+      "start": 100,
+      "end": 199,
+      "sourceYear": 100,
+      "canonicalFile": "Países/CULTURE-KUSHAN-EMPIRE-177723D0-Kushan-Empire/poblamiento/CULTURE-KUSHAN-EMPIRE-177723D0-Y0100.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

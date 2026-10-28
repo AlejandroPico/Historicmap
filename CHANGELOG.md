@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.39.0 · 28 de octubre de 2026
+
+- Consulta anual100–199:55 dossiers,111 cargos,126 componentes políticos originales,24 centros y18 contextos. Se conservan todas las etapas posteriores.
+- 71 referencias culturales nuevas de83 dossiers originales;10 remisiones políticas y dos exclusiones cronológicas documentadas. No se equipara conquista con desaparición de comunidades.
+- 60 candidatos visuales inspeccionados,50 aceptados y diez apartados. Pertinax usa denario identificado; textos epigráficos, escenas colectivas y atribuciones insuficientes quedan fuera de los retratos.
+- Títulos de césar, augusto y pretendiente diferenciados; regencias Han y cronologías pontificias alternativas explícitas. Realeza parta separada de los cargos de Armenia/Osroene y Kushan con fechas numismáticas aproximadas.
+- Lector de mandatos admite años anteriores a100 y separador snds, sin usar fechas de vida, confundir a.C./d.C. ni aceptar el año cero.
+- Fuentes, carencias, conservación e integridad documentadas por entidad; CI mantiene sus cuatro máquinas.
+
 ## 0.38.0 · 28 de octubre de 2026
 
 - Consulta anual200–299 con67 dossiers,186 cargos,153 componentes políticos originales,29 centros y25 contextos; crisis romana, títulos y regencias de los Tres Reinos y transición arsácida/sasánida diferenciados.

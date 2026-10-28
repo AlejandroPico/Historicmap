@@ -1,0 +1,584 @@
+{
+  "key": "HIST-Q237234",
+  "identity": {
+    "qid": "Q237234",
+    "name": "Kingdom of Osroene"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Osroene",
+      "officePattern": "King|Osroene",
+      "titles": [
+        "Abgar VII",
+        "Ma nu VII",
+        "Parthamaspates of Parthia",
+        "Ma nu VIII",
+        "Abgar VIII",
+        "Abgar IX"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q48970836",
+      "name": "Abgaro VII",
+      "role": "Rey de Osroene",
+      "start": "0109-01-01",
+      "end": "0116-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abgar_VII",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q320149",
+      "name": "Abgaro VIII de Edesa",
+      "role": "Rey de Osroene",
+      "start": "0177-01-01",
+      "end": "0199-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abgar_VIII",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q1269411",
+      "name": "Partamaspates",
+      "role": "Rey de Osroene · vinculación romana",
+      "start": "0118-01-01",
+      "end": "0123-12-31",
+      "precision": 9,
+      "source": "https://archiv.ub.uni-heidelberg.de/propylaeumdok/4995/1/Gawlikowski_The_last_kings_1998.pdf",
+      "note": "Gobierno posterior en Osroene; su título parto anterior no se convierte en reinado edeseno desde116.",
+      "portrait": {
+        "file": "media/portrait-0239c9ac81ece5ec9c4f.jpg",
+        "title": "Parthamaspates.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Parthamaspates.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Parthamaspates.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group; [1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://www.cngcoins.com/Coin.aspx?CoinID=38685",
+        "sha256": "1d31e6bc31a7a099566967f5f0dcfe1cd57c5eb49b4c73023b1a327d547dcad1",
+        "bytes": 51623,
+        "canonicalFile": "Países/HIST-Q237234-Kingdom-of-Osroene/retratos/portrait-0239c9ac81ece5ec9c4f.jpg",
+        "caption": "Efigie monetaria convencional de Partamaspates; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "documented-osroene-manu-vii",
+      "name": "Ma’nu VII",
+      "role": "Rey de Osroene",
+      "start": "0123-01-01",
+      "end": "0139-12-31",
+      "precision": 9,
+      "source": "https://archiv.ub.uni-heidelberg.de/propylaeumdok/4995/1/Gawlikowski_The_last_kings_1998.pdf",
+      "note": "Sucesión documentada en la investigación de Edessa; no se fabrica un identificador Wikidata ni un retrato."
+    },
+    {
+      "person": "documented-osroene-manu-viii",
+      "name": "Ma’nu VIII",
+      "role": "Rey de Osroene",
+      "start": "0139-01-01",
+      "end": "0163-12-31",
+      "precision": 9,
+      "source": "https://www.sanliurfa.bel.tr/files/1/bsb_sonra/gecmisin-izinde-sanliurfa.pdf",
+      "note": "Primera fase139–163; restauración posterior separada. Numeración dinástica y fechas alternativas conservadas en la bibliografía."
+    },
+    {
+      "person": "documented-osroene-manu-viii",
+      "name": "Ma’nu VIII",
+      "role": "Rey de Osroene · restauración",
+      "start": "0165-01-01",
+      "end": "0177-12-31",
+      "precision": 9,
+      "source": "https://www.sanliurfa.bel.tr/files/1/bsb_sonra/gecmisin-izinde-sanliurfa.pdf",
+      "note": "Restauración165–177 según la cronología adoptada; no se fusiona con el primer periodo ni se inventa continuidad163–165."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review039-edessa",
+      "type": "institution",
+      "title": "Osroene, restauraciones y vínculos imperiales",
+      "start": "0118-01-01",
+      "end": "0200-01-01",
+      "text": "Partamaspates gobierna aquí después de su breve título parto. Ma’nuVIII tiene fases separadas por un relevo; las numeraciones de Abgar/Ma’nu difieren entre autores. No se inventan fotos para nombres documentales sin identificador.",
+      "source": "https://archiv.ub.uni-heidelberg.de/propylaeumdok/4995/1/Gawlikowski_The_last_kings_1998.pdf",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 100,
+      "end": 199,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Abgar_VII",
+      "note": "Clasificación institucional documentada; no control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Osroene"
+        ],
+        "start": 100,
+        "end": 199,
+        "label": "Kingdom of Osroene",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-100.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0100-0199.geojson",
+      "sha256": "cad5622973ef4bed6069aa0998f2d8ef220f3b4c95fabc7c50eb15a4d747268d",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1192,
+        1247,
+        1283,
+        1287
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Abgar IX",
+        "title": "Abgar IX",
+        "person": "Q1260010",
+        "name": "Abgaro IX",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Abgar_IX",
+        "identityResolution": {
+          "requested": "Abgar IX",
+          "canonical": "Abgar IX",
+          "qid": "Q1260010"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1260010",
+        "title": "Abgar IX",
+        "source": "https://en.wikipedia.org/wiki/Abgar_IX",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Abgar VII",
+        "title": "Abgar VII",
+        "person": "Q48970836",
+        "name": "Abgaro VII",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Abgar_VII",
+        "identityResolution": {
+          "requested": "Abgar VII",
+          "canonical": "Abgar VII",
+          "qid": "Q48970836"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q48970836",
+        "title": "Abgar VII",
+        "source": "https://en.wikipedia.org/wiki/Abgar_VII",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of the kingdom of Osroene",
+            "raw": "{{CE|109&mdash;116}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Osrhoene",
+            "raw": "109-116",
+            "parsed": {
+              "start": "0109-01-01",
+              "end": "0116-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Abgar VIII",
+        "title": "Abgar VIII",
+        "person": "Q320149",
+        "name": "Abgaro VIII de Edesa",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Abgar_VIII",
+        "identityResolution": {
+          "requested": "Abgar VIII",
+          "canonical": "Abgar VIII",
+          "qid": "Q320149"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q320149",
+        "title": "Abgar VIII",
+        "source": "https://en.wikipedia.org/wiki/Abgar_VIII",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Osroene",
+            "raw": "177-212 CE",
+            "parsed": {
+              "start": "0177-01-01",
+              "end": "0212-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of Osroene",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ma nu VII",
+        "title": "Ma nu VII",
+        "person": "",
+        "name": "Ma nu VII",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Ma_nu_VII",
+        "identityResolution": {
+          "requested": "Ma nu VII",
+          "canonical": "Ma nu VII",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ma nu VIII",
+        "title": "Ma nu VIII",
+        "person": "",
+        "name": "Ma nu VIII",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Ma_nu_VIII",
+        "identityResolution": {
+          "requested": "Ma nu VIII",
+          "canonical": "Ma nu VIII",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Parthamaspates of Parthia",
+        "title": "Parthamaspates of Parthia",
+        "person": "Q1269411",
+        "name": "Partamaspates",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Parthamaspates_of_Parthia",
+        "identityResolution": {
+          "requested": "Parthamaspates of Parthia",
+          "canonical": "Parthamaspates of Parthia",
+          "qid": "Q1269411"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1269411",
+        "title": "Parthamaspates of Parthia",
+        "source": "https://en.wikipedia.org/wiki/Parthamaspates_of_Parthia",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of the Parthian Empire",
+            "raw": "116–117",
+            "parsed": {
+              "start": "0116-01-01",
+              "end": "0117-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Osroene",
+            "raw": "118–123 (with [[Yalur of Osroene|Yalur]] to 122)",
+            "parsed": {
+              "start": "0118-01-01",
+              "end": "0123-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q48970836",
+        "title": "Abgar VII",
+        "source": "https://en.wikipedia.org/wiki/Abgar_VII",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Osrhoene",
+          "raw": "109-116",
+          "parsed": {
+            "start": "0109-01-01",
+            "end": "0116-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1269411",
+        "title": "Parthamaspates of Parthia",
+        "source": "https://en.wikipedia.org/wiki/Parthamaspates_of_Parthia",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of the Parthian Empire",
+          "raw": "116–117",
+          "parsed": {
+            "start": "0116-01-01",
+            "end": "0117-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1269411",
+        "title": "Parthamaspates of Parthia",
+        "source": "https://en.wikipedia.org/wiki/Parthamaspates_of_Parthia",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Osroene",
+          "raw": "118–123 (with [[Yalur of Osroene|Yalur]] to 122)",
+          "parsed": {
+            "start": "0118-01-01",
+            "end": "0123-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q320149",
+        "title": "Abgar VIII",
+        "source": "https://en.wikipedia.org/wiki/Abgar_VIII",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Osroene",
+          "raw": "177-212 CE",
+          "parsed": {
+            "start": "0177-01-01",
+            "end": "0212-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Ma nu VII",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Ma nu VIII",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Abgar IX",
+        "person": "Q1260010",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q1269411",
+      "originalRecords": [
+        {
+          "person": "Q1269411",
+          "name": "Partamaspates",
+          "role": "Rey de Osroene",
+          "start": "0116-01-01",
+          "end": "0117-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Parthamaspates_of_Parthia",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        },
+        {
+          "person": "Q1269411",
+          "name": "Partamaspates",
+          "role": "Rey de Osroene",
+          "start": "0118-01-01",
+          "end": "0123-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Parthamaspates_of_Parthia",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Gobierno posterior en Osroene; su título parto anterior no se convierte en reinado edeseno desde116.",
+      "source": "https://archiv.ub.uni-heidelberg.de/propylaeumdok/4995/1/Gawlikowski_The_last_kings_1998.pdf"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q1269411",
+      "name": "Partamaspates",
+      "role": "Rey de Osroene · vinculación romana",
+      "start": "0118-01-01",
+      "end": "0123-12-31",
+      "precision": 9,
+      "source": "https://archiv.ub.uni-heidelberg.de/propylaeumdok/4995/1/Gawlikowski_The_last_kings_1998.pdf",
+      "note": "Gobierno posterior en Osroene; su título parto anterior no se convierte en reinado edeseno desde116."
+    },
+    {
+      "person": "documented-osroene-manu-vii",
+      "name": "Ma’nu VII",
+      "role": "Rey de Osroene",
+      "start": "0123-01-01",
+      "end": "0139-12-31",
+      "precision": 9,
+      "source": "https://archiv.ub.uni-heidelberg.de/propylaeumdok/4995/1/Gawlikowski_The_last_kings_1998.pdf",
+      "note": "Sucesión documentada en la investigación de Edessa; no se fabrica un identificador Wikidata ni un retrato."
+    },
+    {
+      "person": "documented-osroene-manu-viii",
+      "name": "Ma’nu VIII",
+      "role": "Rey de Osroene",
+      "start": "0139-01-01",
+      "end": "0163-12-31",
+      "precision": 9,
+      "source": "https://www.sanliurfa.bel.tr/files/1/bsb_sonra/gecmisin-izinde-sanliurfa.pdf",
+      "note": "Primera fase139–163; restauración posterior separada. Numeración dinástica y fechas alternativas conservadas en la bibliografía."
+    },
+    {
+      "person": "documented-osroene-manu-viii",
+      "name": "Ma’nu VIII",
+      "role": "Rey de Osroene · restauración",
+      "start": "0165-01-01",
+      "end": "0177-12-31",
+      "precision": 9,
+      "source": "https://www.sanliurfa.bel.tr/files/1/bsb_sonra/gecmisin-izinde-sanliurfa.pdf",
+      "note": "Restauración165–177 según la cronología adoptada; no se fusiona con el primer periodo ni se inventa continuidad163–165."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat039-13",
+      "name": "Edessa · Osroene",
+      "coordinates": [
+        38.8,
+        37.16
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Edessa",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Kingdom of Osroene"
+    },
+    {
+      "id": "seat039-13-own",
+      "name": "Edessa · Osroene",
+      "coordinates": [
+        38.8,
+        37.16
+      ],
+      "start": 100,
+      "end": 199,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Edessa",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Kingdom of Osroene"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review039-edessa",
+      "type": "institution",
+      "title": "Osroene, restauraciones y vínculos imperiales",
+      "start": "0118-01-01",
+      "end": "0200-01-01",
+      "text": "Partamaspates gobierna aquí después de su breve título parto. Ma’nuVIII tiene fases separadas por un relevo; las numeraciones de Abgar/Ma’nu difieren entre autores. No se inventan fotos para nombres documentales sin identificador.",
+      "source": "https://archiv.ub.uni-heidelberg.de/propylaeumdok/4995/1/Gawlikowski_The_last_kings_1998.pdf",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1269411",
+      "name": "Partamaspates",
+      "title": "Parthamaspates.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Parthamaspates.jpg",
+      "sha256": "1d31e6bc31a7a099566967f5f0dcfe1cd57c5eb49b4c73023b1a327d547dcad1",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Partamaspates; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    }
+  ]
+}

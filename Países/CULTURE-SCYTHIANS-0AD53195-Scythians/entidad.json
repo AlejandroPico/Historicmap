@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-SCYTHIANS-0AD53195",
+  "name": "Scythians",
+  "qid": "",
+  "aliases": [
+    "Scythians"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 430,
+      "start": null,
+      "end": null,
+      "name": "Scythians",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-SCYTHIANS-0AD53195-Y0100:0",
+      "contextKey": "CULTURE-SCYTHIANS-0AD53195",
+      "start": 100,
+      "end": 199,
+      "sourceYear": 100,
+      "canonicalFile": "Países/CULTURE-SCYTHIANS-0AD53195-Scythians/poblamiento/CULTURE-SCYTHIANS-0AD53195-Y0100.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

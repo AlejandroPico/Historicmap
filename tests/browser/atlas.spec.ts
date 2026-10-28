@@ -19,7 +19,7 @@ test('present map, projection, search, historical and geological snapshots',asyn
   await page.locator('#close-selection').click();
   await date(page,100);
   await expect(page.locator('#map-status')).toContainText('100 d. C.');
-  await expect(page.locator('#map')).toHaveAttribute('data-rendered','world_100.geojson',{timeout:45000});
+  await expect(page.locator('#map')).toHaveAttribute('data-rendered','history-100',{timeout:45000});
   await expect(page.locator('#physical-layer')).toBeEnabled();
   await page.screenshot({path:'test-results/ancient.png'});
   await date(page,-300000000);

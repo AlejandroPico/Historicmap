@@ -1,0 +1,56 @@
+{
+  "key": "DACIAN-KINGDOM",
+  "name": "Reino dacio · poder de Decébalo",
+  "qid": "",
+  "aliases": [
+    "Reino dacio · poder de Decébalo"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "DACIAN-KINGDOM"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q28928",
+      "name": "Decébalo",
+      "role": "Rey de los dacios",
+      "start": "0100-01-01",
+      "end": "0106-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Decebalus",
+      "note": "Reinado87–106; las dos campañas de Trajano y la conquista no hacen desaparecer las comunidades dacias.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-100-0.39",
+      "portrait": {
+        "file": "media/portrait-59e12cdb5c6e0eb65c1b.png",
+        "title": "Decebal's portrait.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Decebal%27s_portrait.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Decebal%27s_portrait.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Ion Popescu-Băjenaru / Institutul de Arte Grafice Carol Göbl, 1914",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Decebal%27s_portrait.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Cartea omului matur (1919)",
+        "sha256": "1c0c0550905b991ef7c48737f8ecadaf8e4ff256837cda291f56a7f7222886d6",
+        "bytes": 394372,
+        "canonicalFile": "Países/DACIAN-KINGDOM-Reino-dacio-poder-de-Decebalo/retratos/portrait-59e12cdb5c6e0eb65c1b.png",
+        "caption": "Representación atribuida a Decébalo; identificación tradicional, no semejanza del natural acreditada."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

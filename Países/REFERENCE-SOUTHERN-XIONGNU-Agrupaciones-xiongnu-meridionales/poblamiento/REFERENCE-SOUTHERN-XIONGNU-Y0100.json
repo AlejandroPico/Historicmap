@@ -1,0 +1,73 @@
+{
+  "key": "REFERENCE-SOUTHERN-XIONGNU-Y0100",
+  "contextKey": "REFERENCE-SOUTHERN-XIONGNU",
+  "ownerKey": "REFERENCE-SOUTHERN-XIONGNU",
+  "name": "Agrupaciones xiongnu meridionales",
+  "originalNames": [
+    "Southern Xiongnu"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 100",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    100,
+    199
+  ],
+  "interpretation": "Comunidades y autoridades relacionadas con la corte Han, sin identificarlas automáticamente con el imperio de Atila o una nación de fronteras constantes.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea100 contiene etiquetas de épocas distintas. La ventana100–199 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de100",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    102.32493,
+    41.11891
+  ],
+  "phases": [
+    {
+      "start": 100,
+      "end": 199,
+      "label": "Agrupaciones xiongnu meridionales",
+      "dateBasis": "Referencia regional de la fuente editorial100; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-SOUTHERN-XIONGNU-Y0100.geojson",
+  "geometrySha256": "b7bd6c843c7610fa71f3c3b6f11cf8d16ece4729bb78bd074a62d2dc872bb109",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson",
+    "year": 100,
+    "featureIds": [
+      152
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef"
+  },
+  "review": "0.39.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final199 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en200."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Southern Xiongnu",
+      "ABBREVN": "Southern Xiongnu",
+      "SUBJECTO": "S. Xiongnu",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Southern Xiongnu"
+    }
+  ],
+  "sourceGrouping": [
+    "S. Xiongnu"
+  ]
+}

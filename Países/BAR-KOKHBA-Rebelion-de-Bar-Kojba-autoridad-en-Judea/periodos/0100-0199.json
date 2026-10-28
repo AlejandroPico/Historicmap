@@ -1,0 +1,215 @@
+{
+  "key": "BAR-KOKHBA",
+  "identity": {
+    "qid": "",
+    "name": "Rebelión de Bar Kojba · autoridad en Judea"
+  },
+  "revision": "0.39.0",
+  "acquisition": "century-100-0.39",
+  "coverageStart": 100,
+  "coverageEnd": 199,
+  "officeBounds": [
+    "0100-01-01",
+    "0199-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Nasí · autoridad de la rebelión",
+      "officePattern": "Prince|Leader|Nasi|Nasi",
+      "titles": [
+        "Simon bar Kokhba"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q273117",
+      "name": "Simón bar Kojba",
+      "role": "Nasí · autoridad de la rebelión",
+      "start": "0132-01-01",
+      "end": "0135-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Simon_bar_Kokhba",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review039-revolt",
+      "type": "conflict",
+      "title": "Rebelión de Bar Kojba",
+      "start": "0132-01-01",
+      "end": "0136-01-01",
+      "text": "Autoridad rebelde y guerra contra Roma. Las monedas con templo, ramas e inscripciones no son retratos del dirigente. El centro documental no inventa un perímetro de dominio.",
+      "source": "https://www.ashmolean.org/node/179046",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras.",
+      "section": "history"
+    }
+  ],
+  "governance": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, insignias y cronologías locales.199 es límite de revisión, no extinción o acefalía."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Simon bar Kokhba",
+        "title": "Simon bar Kokhba",
+        "person": "Q273117",
+        "name": "Simón bar Kojba",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Simon_bar_Kokhba",
+        "identityResolution": {
+          "requested": "Simon bar Kokhba",
+          "canonical": "Simon bar Kokhba",
+          "qid": "Q273117"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q273117",
+        "title": "Simon bar Kokhba",
+        "source": "https://en.wikipedia.org/wiki/Simon_bar_Kokhba",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Prince of Israel",
+            "raw": "132–135<ref name=\"Encyclopedia.com:Simeon Bar Kochba\">{{cite encyclopedia |title=Simeon Bar Kochba |url=https://www.encyclopedia.com/people/philosophy-and-religion/judaism-biographies/simeon-bar-kokhba |encyclopedia=Encyclopedia.com |access-date=14 May 2019}}</ref>",
+            "parsed": {
+              "start": "0132-01-01",
+              "end": "0135-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q273117",
+        "title": "Simon bar Kokhba",
+        "source": "https://en.wikipedia.org/wiki/Simon_bar_Kokhba",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Prince of Israel",
+          "raw": "132–135<ref name=\"Encyclopedia.com:Simeon Bar Kochba\">{{cite encyclopedia |title=Simeon Bar Kochba |url=https://www.encyclopedia.com/people/philosophy-and-religion/judaism-biographies/simeon-bar-kokhba |encyclopedia=Encyclopedia.com |access-date=14 May 2019}}</ref>",
+          "parsed": {
+            "start": "0132-01-01",
+            "end": "0135-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat039-20",
+      "name": "Betar · referencia de la rebelión",
+      "coordinates": [
+        35.13,
+        31.72
+      ],
+      "start": 132,
+      "end": 135,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Betar_%28fortress%29",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "standaloneReference": true,
+      "entityName": "Rebelión de Bar Kojba · autoridad en Judea"
+    },
+    {
+      "id": "seat039-20-own",
+      "name": "Betar · referencia de la rebelión",
+      "coordinates": [
+        35.13,
+        31.72
+      ],
+      "start": 132,
+      "end": 135,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Betar_%28fortress%29",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. El cambio de control de una ciudad puede ser intranual.",
+      "entityName": "Rebelión de Bar Kojba · autoridad en Judea"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review039-revolt",
+      "type": "conflict",
+      "title": "Rebelión de Bar Kojba",
+      "start": "0132-01-01",
+      "end": "0136-01-01",
+      "text": "Autoridad rebelde y guerra contra Roma. Las monedas con templo, ramas e inscripciones no son retratos del dirigente. El centro documental no inventa un perímetro de dominio.",
+      "source": "https://www.ashmolean.org/node/179046",
+      "sourceLabel": "Referencia documental · siglo II",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de sucesos o guerras."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review039-revolt",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.13,
+          31.72
+        ]
+      },
+      "properties": {
+        "name": "Rebelión de Bar Kojba",
+        "countries": [
+          "BAR-KOKHBA"
+        ],
+        "kind": "regional-conflict",
+        "start": "0132-01-01",
+        "end": "0135-12-31",
+        "precision": 9,
+        "source": "https://www.ashmolean.org/node/179046",
+        "sourceLabel": "Referencia documental · siglo II",
+        "note": "Autoridad rebelde y guerra contra Roma. Las monedas con templo, ramas e inscripciones no son retratos del dirigente. El centro documental no inventa un perímetro de dominio. Coordenada regional aproximada."
+      }
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q273117",
+      "title": "Arthur Szyk (1894-1951). Bar Kochba (1927), Paris.jpg",
+      "reason": "Pintura alegórica colectiva de1927; no encuadre individual adecuado como retrato de Bar Kojba.",
+      "source": "https://commons.wikimedia.org/wiki/File:Arthur_Szyk_(1894-1951)._Bar_Kochba_(1927),_Paris.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q273117",
+      "name": "Simón bar Kojba",
+      "title": "Arthur Szyk (1894-1951). Bar Kochba (1927), Paris.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Arthur_Szyk_(1894-1951)._Bar_Kochba_(1927),_Paris.jpg",
+      "sha256": "26db8046cac94f0988ff66186ef02bba21a24968c191304cd4742cbf83eda97b",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Pintura alegórica colectiva de1927; no encuadre individual adecuado como retrato de Bar Kojba."
+    }
+  ]
+}
