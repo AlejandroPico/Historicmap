@@ -1,0 +1,57 @@
+{
+  "key": "HIST-Q1177379",
+  "identity": {
+    "qid": "Q1177379",
+    "name": "Minaeans"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Minaeans"
+        ],
+        "start": -100,
+        "end": -1,
+        "label": "Minaeans",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0100-bc0001.geojson",
+      "sha256": "7825da4321ad4cfb0d8169e0a0679be98fa069742146f2e15f489eb56d9e4b8e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        880,
+        1068,
+        1089
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [],
+  "researchSources": []
+}

@@ -1,0 +1,63 @@
+{
+  "key": "CULTURE-BOSPORIAN-KINGDOM-58DC1F05-YBC0001",
+  "contextKey": "CULTURE-BOSPORIAN-KINGDOM-58DC1F05",
+  "ownerKey": "HIST-Q321371",
+  "name": "Bosporian Kingdom",
+  "originalNames": [
+    "Bosporian Kingdom"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "political-base",
+  "reviewedRange": [
+    -1,
+    -1
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "Referencia espacial de1a.C. idéntica a la de consulta1d.C.; el cambio de era no acredita modificación cultural ni introduce año cero.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de1a.C.",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q321371"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    34.95827,
+    44.96868
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-BOSPORIAN-KINGDOM-58DC1F05-YBC0001.geojson",
+  "geometrySha256": "8d31105eb7e596b5eec735a13874cd683ef41fd6f1c21286c668b5d9db9cd22a",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson",
+    "year": -1,
+    "featureIds": [
+      153
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "830fac0104ebafff7b576333cd5ab4a9bf4b6f732ddf828cec47797cf65047cb"
+  },
+  "review": "0.41.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Continuidad espacial de1a.C./1d.C. cotejada con el mismo original; completar bibliografía regional."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Bosporian Kingdom",
+      "ABBREVN": "Rome",
+      "SUBJECTO": "Roman Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Bosporian Kingdom"
+    }
+  ],
+  "sourceGrouping": [
+    "Roman Empire"
+  ]
+}

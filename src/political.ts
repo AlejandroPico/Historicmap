@@ -1,3 +1,4 @@
+import{compareDates}from'./dates';
 import {isoYear} from './dates';
 import type {FeatureCollection} from 'geojson';
 import {hashColor,territorialEntityCode} from './history';
@@ -9,7 +10,7 @@ export type PoliticalInfluence={id:string;keys:string[];power:string;start:strin
 export const politicalInfluences=influenceCatalogue.records as PoliticalInfluence[];
 export function influenceFor(key:string,year:number){
   const date=`${isoYear(year)}-12-31`;
-  return politicalInfluences.find(r=>r.keys.includes(key)&&r.start<=date&&r.end>date);
+  return politicalInfluences.find(r=>r.keys.includes(key)&&compareDates(r.start,date)<=0&&compareDates(r.end,date)>0);
 }
 /** A stable tint identifies a dependency without erasing its separate identity. */
 export function dependencyColor(color:string,key:string,soft=false){

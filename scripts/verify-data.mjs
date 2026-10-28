@@ -1,3 +1,4 @@
+import{compareDates}from'../src/dates.ts';
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 const root = new URL('../public/data/',import.meta.url);
@@ -41,7 +42,7 @@ for (const entry of manifest.entries) {
   }
   else if(entry.format==='country-indicator-series'){if(!data.countries.USA?.series.population?.length)throw Error('Missing country indicators');}
   else if(entry.format==='dated-entity-resolution'){
-    if(data.format!==entry.format||data.records.length!==entry.records||!data.referenceDate||![[1,99],[100,199],[200,299],[300,399],[400,499],[500,599],[600,699],[700,799],[800,899],[900,999],[1000,1099],[1100,1199],[1200,1299],[1300,1399],[1400,1499],[1500,1599],[1600,1699],[1700,1799],[1800,1819],[1820,1839],[1840,1859],[1860,1879],[1880,1899]].some(([a,b])=>data.coverageStart===a&&data.coverageEnd===b))throw Error('Invalid dated entity resolution');
+    if(data.format!==entry.format||data.records.length!==entry.records||!data.referenceDate||![[-100,-1],[1,99],[100,199],[200,299],[300,399],[400,499],[500,599],[600,699],[700,799],[800,899],[900,999],[1000,1099],[1100,1199],[1200,1299],[1300,1399],[1400,1499],[1500,1599],[1600,1699],[1700,1799],[1800,1819],[1820,1839],[1840,1859],[1860,1879],[1880,1899]].some(([a,b])=>data.coverageStart===a&&data.coverageEnd===b))throw Error('Invalid dated entity resolution');
     for(const r of data.records)if(!r.names.length||!r.key||!r.source||!r.label||r.start<data.coverageStart||r.end>data.coverageEnd||r.start>r.end)throw Error('Invalid dated identity rule');
   }
   else if(entry.format==='dated-portrait-series'){
@@ -66,29 +67,29 @@ for (const entry of manifest.entries) {
   else if(entry.format==='country-workspace-history'){
     if(data.records.length!==entry.records||data.relations.length!==entry.relations||!data.referenceDate)throw Error('Invalid country workspace history');
     const ids=new Set();for(const r of [...data.records,...data.relations]){if(!r.id||ids.has(r.id)||!r.source||!r.sourceLabel)throw Error('Invalid country history provenance');ids.add(r.id);}
-    for(const r of data.records)if(!r.keys.length||!r.start||(r.end&&r.end<=r.start))throw Error(`Invalid institutional interval ${r.id}`);
+    for(const r of data.records)if(!r.keys.length||!r.start||(r.end&&compareDates(r.end,r.start)<=0))throw Error(`Invalid institutional interval ${r.id}`);
     for(const r of data.relations)if(!r.date||!r.from.key||!r.to.key||!Number.isInteger(r.from.year)||!Number.isInteger(r.to.year))throw Error(`Invalid entity relation ${r.id}`);
   }
   else if(entry.format==='dated-territorial-administrations'){
     if(!data.referenceDate||data.records.length!==entry.records)throw Error('Invalid territorial administrations');
-    const ids=new Set();for(const r of data.records){if(ids.has(r.id)||!r.admin||!r.source||!r.note||!r.label||!r.names.length||!r.start||(r.end&&r.start>=r.end))throw Error('Invalid territorial administration '+r.id);ids.add(r.id);}
+    const ids=new Set();for(const r of data.records){if(ids.has(r.id)||!r.admin||!r.source||!r.note||!r.label||!r.names.length||!r.start||(r.end&&compareDates(r.start,r.end)>=0))throw Error('Invalid territorial administration '+r.id);ids.add(r.id);}
   }
   else if(entry.format==='dated-political-influence'){
     if(data.records.length!==entry.records||!data.referenceDate)throw Error('Invalid political influence catalogue');
     const ids=new Set();
     for(const r of data.records){
-      if(ids.has(r.id)||!r.keys.length||!r.power||!r.source||!r.note||r.start>=r.end)throw Error(`Invalid political relationship ${r.id}`);
+      if(ids.has(r.id)||!r.keys.length||!r.power||!r.source||!r.note||compareDates(r.start,r.end)>=0)throw Error(`Invalid political relationship ${r.id}`);
       ids.add(r.id);
-      for(const other of data.records)if(r.id!==other.id&&r.keys.some(k=>other.keys.includes(k))&&r.start<other.end&&other.start<r.end)throw Error(`Ambiguous political relationships ${r.id}/${other.id}`);
+      for(const other of data.records)if(r.id!==other.id&&r.keys.some(k=>other.keys.includes(k))&&compareDates(r.start,other.end)<0&&compareDates(other.start,r.end)<0)throw Error(`Ambiguous political relationships ${r.id}/${other.id}`);
     }
   }
   else if(entry.format==='dated-organizations'){
     if(data.organizations.length!==entry.organizations||!data.referenceDate)throw Error('Invalid organization catalogue');
-    for(const o of data.organizations){if(!o.formed||!o.source||!o.label)throw Error(`Missing organization provenance ${o.id}`);for(const m of o.memberships)if(!m.code||!m.source||!m.start||(m.end&&m.end<=m.start))throw Error(`Invalid membership ${o.id}:${m.code}`);}
+    for(const o of data.organizations){if(!o.formed||!o.source||!o.label)throw Error(`Missing organization provenance ${o.id}`);for(const m of o.memberships)if(!m.code||!m.source||!m.start||(m.end&&compareDates(m.end,m.start)<=0))throw Error(`Invalid membership ${o.id}:${m.code}`);}
   }
   else if(entry.format==='dated-historical-context'){
     if(data.events.length!==entry.records||!data.referenceDate)throw Error('Invalid historical contexts');
-    for(const e of data.events)if(!e.id||!e.source||!e.text||!e.start||!e.countries.length||(e.end&&e.end<=e.start))throw Error(`Invalid event ${e.id}`);
+    for(const e of data.events)if(!e.id||!e.source||!e.text||!e.start||!e.countries.length||(e.end&&compareDates(e.end,e.start)<=0))throw Error(`Invalid event ${e.id}`);
   }
   else if (data.type !== 'FeatureCollection' || data.features.length !== entry.features) throw new Error(`Invalid ${entry.file}`);
   if (!entry.license || !entry.url || !entry.version) throw new Error(`Missing provenance ${entry.file}`);
@@ -109,7 +110,7 @@ const identities=JSON.parse(await readFile(new URL('identities.json',root)));
 const portraits=JSON.parse(await readFile(new URL('portrait-series.json',root)));
 for(const r of portraits.records)if(!files.has(r.media.file))throw Error('Unregistered dated portrait '+r.media.file);
 for(const [key,country] of Object.entries(identities.countries)){
- for(const f of [...country.flags,...country.symbolReferences??[]]){if(f.start>f.end||!files.has(f.media.file)||f.media.referenceOnly&&!f.media.evidenceDate)throw Error(`Invalid symbol interval or image ${key}: ${f.start}/${f.end} ${f.media.file}`);}
- for(const l of country.leaders){if(l.start>l.end||!l.name||!l.role||!l.source||(l.portrait&&!files.has(l.portrait.file)))throw Error('Invalid leadership interval or image');}
+ for(const f of [...country.flags,...country.symbolReferences??[]]){if(compareDates(f.start,f.end)>0||!files.has(f.media.file)||f.media.referenceOnly&&!f.media.evidenceDate)throw Error(`Invalid symbol interval or image ${key}: ${f.start}/${f.end} ${f.media.file}`);}
+ for(const l of country.leaders){if(compareDates(l.start,l.end)>0||!l.name||!l.role||!l.source||(l.portrait&&!files.has(l.portrait.file)))throw Error('Invalid leadership interval or image');}
 }
 console.log(`Verified ${manifest.entries.length} data resources, ${fonts.entries.length} glyph ranges and ${files.size} licensed media with SHA-256.`);

@@ -1,0 +1,60 @@
+{
+  "key": "CULTURE-MANIOC-FARMERS-16F11AF1",
+  "name": "Manioc farmers",
+  "qid": "",
+  "aliases": [
+    "Manioc farmers"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 70,
+      "start": null,
+      "end": null,
+      "name": "Manioc farmers",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 79,
+      "start": null,
+      "end": null,
+      "name": "Manioc farmers",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MANIOC-FARMERS-16F11AF1-YBC0100:0",
+      "contextKey": "CULTURE-MANIOC-FARMERS-16F11AF1",
+      "start": -100,
+      "end": -1,
+      "sourceYear": -100,
+      "canonicalFile": "Países/CULTURE-MANIOC-FARMERS-16F11AF1-Manioc-farmers/poblamiento/CULTURE-MANIOC-FARMERS-16F11AF1-YBC0100.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MANIOC-FARMERS-16F11AF1-YBC0100:1",
+      "contextKey": "CULTURE-MANIOC-FARMERS-16F11AF1",
+      "start": 1,
+      "end": 99,
+      "sourceYear": -100,
+      "canonicalFile": "Países/CULTURE-MANIOC-FARMERS-16F11AF1-Manioc-farmers/poblamiento/CULTURE-MANIOC-FARMERS-16F11AF1-YBC0100.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

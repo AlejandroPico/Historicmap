@@ -1,0 +1,356 @@
+{
+  "key": "HIST-Q651377",
+  "identity": {
+    "qid": "Q651377",
+    "name": "Shunga Empire"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · funciones por contrastar",
+      "titles": [
+        "Bhagabhadra",
+        "Devabhuti",
+        "Vajramitra"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "note": "Candidatos explícitos; congelar fechas sólo tras revisión de evidencia."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented-vajramitra",
+      "name": "Vajramitra",
+      "role": "Rey Shunga · cronología tradicional",
+      "start": "-0100-01-01",
+      "end": "-0094-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Shunga_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q854679",
+      "name": "Bhagabhadra",
+      "role": "Rey Shunga · cronología tradicional",
+      "start": "-0094-01-01",
+      "end": "-0083-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bhagabhadra",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    },
+    {
+      "person": "Q3878846",
+      "name": "Devabhuti",
+      "role": "Rey Shunga · cronología tradicional",
+      "start": "-0083-01-01",
+      "end": "-0073-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Devabhuti",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -100,
+      "end": -1,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hiempsal_II",
+      "sourceLabel": "Fuentes de la entidad · siglo I a.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna; límites de vigencia ajustados en reglas y contexto."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat041-25",
+      "name": "Pataliputra · referencia Shunga",
+      "coordinates": [
+        85.14,
+        25.61
+      ],
+      "start": -100,
+      "end": -75,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Pataliputra",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "standaloneReference": true,
+      "entityName": "Shunga Empire"
+    },
+    {
+      "id": "seat041-25-own",
+      "name": "Pataliputra · referencia Shunga",
+      "coordinates": [
+        85.14,
+        25.61
+      ],
+      "start": -100,
+      "end": -75,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Pataliputra",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "entityName": "Shunga Empire"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Shunga Empire"
+        ],
+        "start": -100,
+        "end": -1,
+        "label": "Shunga Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0100-bc0001.geojson",
+      "sha256": "08e132906877eb423bf64c787660c1ca18af83c85bc5b7117683f8a81035dcaf",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        896,
+        965,
+        993
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bhagabhadra",
+        "title": "Bhagabhadra",
+        "person": "Q854679",
+        "name": "Bhagabhadra",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bhagabhadra",
+        "identityResolution": {
+          "requested": "Bhagabhadra",
+          "canonical": "Bhagabhadra",
+          "qid": "Q854679"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q854679",
+        "title": "Bhagabhadra",
+        "source": "https://en.wikipedia.org/wiki/Bhagabhadra",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Magadha",
+            "raw": "{{circa|114 |83 BCE}}{{cn|date=June 2020}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Devabhuti",
+        "title": "Devabhuti",
+        "person": "Q3878846",
+        "name": "Devabhuti",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Devabhuti",
+        "identityResolution": {
+          "requested": "Devabhuti",
+          "canonical": "Devabhuti",
+          "qid": "Q3878846"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15125934",
+          "start": "-0083-01-01",
+          "end": "-0073-01-01",
+          "precision": 9,
+          "statement": "Q3878846$7364EAF0-863D-44EA-8C2B-5E89F85AAC8F",
+          "label": "Sunga emperor"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3878846",
+        "title": "Devabhuti",
+        "source": "https://en.wikipedia.org/wiki/Devabhuti",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Magadha",
+            "raw": "83–75 BCE<ref name=\"Symist V3\"/>",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vajramitra",
+        "title": "Vajramitra",
+        "person": "",
+        "name": "Vajramitra",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Vajramitra",
+        "identityResolution": {
+          "requested": "Vajramitra",
+          "canonical": "Vajramitra",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "documented-vajramitra",
+      "name": "Vajramitra",
+      "role": "Rey Shunga · cronología tradicional",
+      "start": "-0100-01-01",
+      "end": "-0094-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Shunga_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q854679",
+      "name": "Bhagabhadra",
+      "role": "Rey Shunga · cronología tradicional",
+      "start": "-0094-01-01",
+      "end": "-0083-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bhagabhadra",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    },
+    {
+      "person": "Q3878846",
+      "name": "Devabhuti",
+      "role": "Rey Shunga · cronología tradicional",
+      "start": "-0083-01-01",
+      "end": "-0073-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Devabhuti",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    }
+  ],
+  "authorityReview": [
+    {
+      "person": "documented-vajramitra",
+      "requestedTitle": "Vajramitra",
+      "chosenCivilYears": [
+        -103,
+        -94
+      ],
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Shunga_dynasty",
+      "reignEvidence": [],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    },
+    {
+      "person": "Q854679",
+      "requestedTitle": "Bhagabhadra",
+      "chosenCivilYears": [
+        -94,
+        -83
+      ],
+      "source": "https://en.wikipedia.org/wiki/Bhagabhadra",
+      "reignEvidence": [
+        {
+          "field": "reign",
+          "office": "Emperor of Magadha",
+          "raw": "{{circa|114 |83 BCE}}{{cn|date=June 2020}}",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    },
+    {
+      "person": "Q3878846",
+      "requestedTitle": "Devabhuti",
+      "chosenCivilYears": [
+        -83,
+        -73
+      ],
+      "source": "https://en.wikipedia.org/wiki/Devabhuti",
+      "reignEvidence": [
+        {
+          "field": "reign",
+          "office": "Emperor of Magadha",
+          "raw": "83–75 BCE<ref name=\"Symist V3\"/>",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    }
+  ],
+  "researchSources": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q854679",
+      "title": "SungaMasculine.jpg",
+      "reason": "Arte masculino genérico de época Shunga; no retrato identificado de Bhagabhadra.",
+      "source": "https://commons.wikimedia.org/wiki/File:SungaMasculine.jpg"
+    },
+    {
+      "person": "Q3878846",
+      "title": "SungaMasculine.jpg",
+      "reason": "La misma pieza genérica Shunga no identifica a Devabhuti.",
+      "source": "https://commons.wikimedia.org/wiki/File:SungaMasculine.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q854679",
+      "name": "Bhagabhadra",
+      "title": "SungaMasculine.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:SungaMasculine.jpg",
+      "sha256": "223e6c9812c54e9487715445590c9e26dfdea496c333e74f7baa9c32199f3c3a",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Arte masculino genérico de época Shunga; no retrato identificado de Bhagabhadra."
+    },
+    {
+      "person": "Q3878846",
+      "name": "Devabhuti",
+      "title": "SungaMasculine.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:SungaMasculine.jpg",
+      "sha256": "223e6c9812c54e9487715445590c9e26dfdea496c333e74f7baa9c32199f3c3a",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "La misma pieza genérica Shunga no identifica a Devabhuti."
+    }
+  ]
+}

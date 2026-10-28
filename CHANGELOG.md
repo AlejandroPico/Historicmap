@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.41.0 · 28 de octubre de2026
+
+- Consulta anual100–1a.C., con63 dossiers,172 cargos y190 componentes originales;30 centros,24 contextos y ocho referencias regionales de conflictos.
+- Fechas civiles firmadas, orden cronológico correcto y salto directo1a.C./1d.C. en navegación y reproducción, sin año cero. Diez registros complementarios de autoridades conservan continuidad entre eras.
+- República romana y Principado desde27a.C.; transiciones ptolemaicas, Han, herodianas y arsácidas diferenciadas, con títulos y cronologías discutidas explícitos.
+- 157 fases culturales nuevas y163 originales nominales conservados. Todos los contextos y geometrías culturales de1a.C. enlazan con1d.C.; los ámbitos históricos no son población contemporánea acreditada.
+- 111 candidatos de imagen inspeccionados:92 aceptados,19 apartados y alternativa monetaria identificada para Musa. Caras individuales, atribuciones y representaciones posteriores conservan créditos y límites.
+- Colores, relación herodiana con Roma y clasificación regional armonizados entre eras; diferencias de contorno de la fuente registradas, sin interpolar geometrías.
+- Conservación, carencias y comprobaciones documentadas; se mantienen las cuatro máquinas deCI y el envío sin esperar publicación.
+
 ## 0.40.0 · 28 de octubre de 2026
 
 - Consulta anual1–99d.C., sin año cero;62 dossiers y141 componentes políticos originales,30 centros y20 contextos.

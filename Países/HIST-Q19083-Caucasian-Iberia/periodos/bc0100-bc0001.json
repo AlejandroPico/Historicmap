@@ -1,0 +1,55 @@
+{
+  "key": "HIST-Q19083",
+  "identity": {
+    "qid": "Q19083",
+    "name": "Caucasian Iberia"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Caucasian Iberia"
+        ],
+        "start": -100,
+        "end": -1,
+        "label": "Caucasian Iberia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0100-bc0001.geojson",
+      "sha256": "f4c646beac991ca9cf1249e527e645dd937c0038a2deb1ebf7e1aeeafe22ab8c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1018
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [],
+  "researchSources": []
+}

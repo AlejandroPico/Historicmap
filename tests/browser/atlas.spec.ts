@@ -53,7 +53,7 @@ test('fixed center cursor, keyboard navigation, exact date, about and narrow lay
   const after=await page.locator('.fixed-cursor').boundingBox();expect(after?.x).toBe(cursor?.x);
   await page.locator('#date-button').click();await page.getByLabel('Año (negativo para a. C.)').fill('117');await page.getByRole('button',{name:'Explorar fecha'}).click();
   await expect(page.locator('#year')).toHaveText('117 d. C.');await expect(page.locator('#map')).toHaveAttribute('data-rendered','history-117',{timeout:45000});await expect(page.locator('#map')).toHaveAttribute('data-loaded-year','117');await expect(page.locator('#play')).toHaveAttribute('aria-busy','false');
-  await page.locator('#about-button').click();await expect(page.locator('#modal-body')).toContainText('0.40.0');
+  await page.locator('#about-button').click();await expect(page.locator('#modal-body')).toContainText('0.41.0');
   await expect(page.locator('.about-project-icon img')).toBeVisible();
   await expect(page.locator('.about-links a').first()).toHaveAttribute('href','https://alejandropico.github.io/Portfolio/');await page.keyboard.press('Escape');
   await page.setViewportSize({width:390,height:844});await page.screenshot({path:'test-results/mobile.png',timeout:45000,animations:'disabled'});

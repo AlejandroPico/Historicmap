@@ -1,3 +1,4 @@
+from civil_dates import period_name
 """Compile original entity-owned political components and dated identity rules.
 
 Source acquisition is separate. No remote reads or country inventories here.
@@ -7,7 +8,8 @@ import json,hashlib,argparse
 ROOT=Path(__file__).resolve().parents[1]
 read=lambda p:json.loads(p.read_text(encoding='utf8'))
 def main(start,end):
- dossiers=sorted((ROOT/'Países').glob(f'*/periodos/{start:04d}-{end:04d}.json'));features=[];seen=set();ids=read(ROOT/'public/data/identities.json')['countries'];resolution=dict(format='dated-entity-resolution',coverageStart=start,coverageEnd=end,referenceDate='2026-10-28',qidKeys={},names={k:c['name']for k,c in ids.items()},records=[])
+ asset=str(start)if start>0 else'bc'+str(-start)
+ dossiers=sorted((ROOT/'Países').glob(f'*/periodos/{period_name(start,end)}.json'));features=[];seen=set();ids=read(ROOT/'public/data/identities.json')['countries'];resolution=dict(format='dated-entity-resolution',coverageStart=start,coverageEnd=end,referenceDate='2026-10-28',qidKeys={},names={k:c['name']for k,c in ids.items()},records=[])
  for key,c in ids.items():
   if c.get('qid'):resolution['qidKeys'].setdefault(c['qid'],key)
  for path in dossiers:
@@ -24,14 +26,14 @@ def main(start,end):
     seen.add(fid);resolution['qidKeys'][p['Wikidata']]=d['key']
     features.append(dict(type='Feature',id=fid,geometry=f['geometry'],properties=dict(name=p['Name'],originalName=p['Name'],wikidata=p['Wikidata'],start=max(start,p['FromYear']),end=min(end,p['ToYear']),parentName=p['MemberOf'].strip('()'),code='',source=ref['source'],precision='annual-synthesis',politicalStatus='Entidad histórica · reconstrucción anual')))
   for fix in d.get('entityRules',[]):
-   if f'historical-{start}-entities.json'in fix['files']:
+   if f'historical-{asset}-entities.json'in fix['files']:
     r=dict(fix['record'],key=d['key'],entityCode=d['key'],acquisition=d['acquisition']);r.update(start=max(start,r['start']),end=min(end,r['end']));resolution['records'].append(r)
  features.sort(key=lambda f:int(f['id'][5:]));out=ROOT/'public/data';manifest=read(out/'manifest.json');template=next(e for e in manifest['entries']if e['file']=='early-modern.geojson')
- for name,data in[(f'early-modern-{start}.geojson',dict(type='FeatureCollection',features=features)),(f'historical-{start}-entities.json',resolution)]:
+ for name,data in[(f'early-modern-{asset}.geojson',dict(type='FeatureCollection',features=features)),(f'historical-{asset}-entities.json',resolution)]:
   raw=(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n').encode();(out/name).write_bytes(raw)
   if name.endswith('.geojson'):
    entry={k:v for k,v in template.items()if k not in['file','features','bytes','sha256','coverage','transform']};entry.update(file=name,features=len(features),coverage=f'{start}/{end}',sourceVersion=template['version'],transform='Original leaf components from entity-owned credited Cliopatria copies; coordinates and original index IDs retained. Annual synthesis, not daily surveyed borders.')
-  else:entry=dict(file=name,format=resolution['format'],records=len(resolution['records']),source='Entity-owned dated identity review',url=f'https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-{start}.md',license='CC0-1.0 (editorial resolution); geometry separately licensed',coverageStart=start,coverageEnd=end)
+  else:entry=dict(file=name,format=resolution['format'],records=len(resolution['records']),source='Entity-owned dated identity review',url=f'https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-{asset}.md',license='CC0-1.0 (editorial resolution); geometry separately licensed',coverageStart=start,coverageEnd=end)
   entry.update(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),version='Historicmap '+read(ROOT/'package.json')['version']);manifest['entries']=[e for e in manifest['entries']if e['file']!=name]+[entry]
  (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n');print('Original components',len(features),'identity rules',len(resolution['records']))
 if __name__=='__main__':

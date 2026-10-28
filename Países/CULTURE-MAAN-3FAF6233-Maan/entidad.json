@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-MAAN-3FAF6233",
+  "name": "Maan",
+  "qid": "",
+  "aliases": [
+    "Maan"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MAAN-3FAF6233-YBC0100:0",
+      "contextKey": "CULTURE-MAAN-3FAF6233",
+      "start": -100,
+      "end": -1,
+      "sourceYear": -100,
+      "canonicalFile": "Países/CULTURE-MAAN-3FAF6233-Maan/poblamiento/CULTURE-MAAN-3FAF6233-YBC0100.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MAAN-3FAF6233-YBC0100:1",
+      "contextKey": "CULTURE-MAAN-3FAF6233",
+      "start": 1,
+      "end": 99,
+      "sourceYear": -100,
+      "canonicalFile": "Países/CULTURE-MAAN-3FAF6233-Maan/poblamiento/CULTURE-MAAN-3FAF6233-YBC0100.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

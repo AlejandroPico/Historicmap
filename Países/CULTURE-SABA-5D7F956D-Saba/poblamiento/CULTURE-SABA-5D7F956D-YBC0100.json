@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-SABA-5D7F956D-YBC0100",
+  "contextKey": "CULTURE-SABA-5D7F956D",
+  "ownerKey": "CULTURE-SABA-5D7F956D",
+  "name": "Saba",
+  "originalNames": [
+    "Saba"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación100a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -100,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no Estado unitario, identidad homogénea o frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de100a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps100a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    43.81969,
+    16.63315
+  ],
+  "phases": [
+    {
+      "start": -100,
+      "end": -1,
+      "label": "Saba",
+      "dateBasis": "Referencia espacial de100a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": 1,
+      "end": 99,
+      "label": "Saba",
+      "dateBasis": "Consulta del ámbito histórico anterior; continuidad de habitantes o límites actuales no inferida.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -100,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-SABA-5D7F956D-YBC0100.geojson",
+  "geometrySha256": "45ea25b7ba335e67751acd8d344f51769712f1ff1c2368a3fe0f55a4e508e49b",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson",
+    "year": -100,
+    "featureIds": [
+      22
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "80ce07508ef86b4c4943193d7562578dc1150976bd0eb07581c620acf3044874"
+  },
+  "review": "0.41.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Saba",
+      "ABBREVN": "Saba",
+      "SUBJECTO": "Saba",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Saba"
+    }
+  ],
+  "sourceGrouping": [
+    "Saba"
+  ]
+}

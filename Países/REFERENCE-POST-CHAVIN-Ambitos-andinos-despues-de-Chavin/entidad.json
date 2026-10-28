@@ -1,0 +1,61 @@
+{
+  "key": "REFERENCE-POST-CHAVIN",
+  "name": "Ámbitos andinos · después de Chavín",
+  "qid": "",
+  "aliases": [
+    "Chavin",
+    "Ámbitos andinos · después de Chavín"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 161,
+      "start": null,
+      "end": null,
+      "name": "Chavin",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 177,
+      "start": null,
+      "end": null,
+      "name": "Chavin",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-POST-CHAVIN-YBC0100:0",
+      "contextKey": "REFERENCE-POST-CHAVIN",
+      "start": -100,
+      "end": -1,
+      "sourceYear": -100,
+      "canonicalFile": "Países/REFERENCE-POST-CHAVIN-Ambitos-andinos-despues-de-Chavin/poblamiento/REFERENCE-POST-CHAVIN-YBC0100.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-POST-CHAVIN-YBC0100:1",
+      "contextKey": "REFERENCE-POST-CHAVIN",
+      "start": 1,
+      "end": 99,
+      "sourceYear": -100,
+      "canonicalFile": "Países/REFERENCE-POST-CHAVIN-Ambitos-andinos-despues-de-Chavin/poblamiento/REFERENCE-POST-CHAVIN-YBC0100.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

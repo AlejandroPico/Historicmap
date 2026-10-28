@@ -1,0 +1,68 @@
+{
+  "key": "CULTURE-ANDES-YBC0100",
+  "contextKey": "CULTURE-ANDES",
+  "ownerKey": "CULTURE-ANDES",
+  "name": "Comunidades andinas · referencia regional",
+  "originalNames": [
+    "Andean hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Sudamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -100,
+    -1
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no Estado unitario, identidad homogénea o frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de100a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps100a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a49786",
+  "focus": [
+    -69.90573,
+    -30.04891
+  ],
+  "phases": [
+    {
+      "start": -100,
+      "end": -2,
+      "label": "Comunidades andinas · referencia regional",
+      "dateBasis": "Referencia espacial de100a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-ANDES-YBC0100.geojson",
+  "geometrySha256": "b7d9c4ff8052e6508e547cd0aa74c91edd0301ac78a418be12549fcd182bf562",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson",
+    "year": -100,
+    "featureIds": [
+      66
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "80ce07508ef86b4c4943193d7562578dc1150976bd0eb07581c620acf3044874"
+  },
+  "review": "0.41.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Andean hunter-gatherers",
+      "ABBREVN": "Andean hunter-gatherers",
+      "SUBJECTO": "Andean hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Andean hunter-gatherers"
+    }
+  ],
+  "sourceGrouping": [
+    "Andean hunter-gatherers"
+  ]
+}

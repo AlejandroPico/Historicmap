@@ -1,0 +1,53 @@
+{
+  "key": "REFERENCE-YUEZHI-BACTRIA",
+  "name": "Yuezhi y comunidades de Bactria · antes del poder kushán",
+  "qid": "",
+  "aliases": [
+    "Kushan Empire",
+    "Yuezhi y comunidades de Bactria · antes del poder kushán"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 429,
+      "start": null,
+      "end": null,
+      "name": "Kushan Empire",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-YUEZHI-BACTRIA-YBC0100:0",
+      "contextKey": "REFERENCE-YUEZHI-BACTRIA",
+      "start": -100,
+      "end": -1,
+      "sourceYear": -100,
+      "canonicalFile": "Países/REFERENCE-YUEZHI-BACTRIA-Yuezhi-y-comunidades-de-Bactria-antes-del-poder-kushan/poblamiento/REFERENCE-YUEZHI-BACTRIA-YBC0100.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-YUEZHI-BACTRIA-YBC0100:1",
+      "contextKey": "REFERENCE-YUEZHI-BACTRIA",
+      "start": 1,
+      "end": 99,
+      "sourceYear": -100,
+      "canonicalFile": "Países/REFERENCE-YUEZHI-BACTRIA-Yuezhi-y-comunidades-de-Bactria-antes-del-poder-kushan/poblamiento/REFERENCE-YUEZHI-BACTRIA-YBC0100.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

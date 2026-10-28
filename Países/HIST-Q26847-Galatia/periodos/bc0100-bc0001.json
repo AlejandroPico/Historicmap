@@ -1,0 +1,301 @@
+{
+  "key": "HIST-Q26847",
+  "identity": {
+    "qid": "Q26847",
+    "name": "Galatia"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · funciones por contrastar",
+      "titles": [
+        "Amyntas of Galatia",
+        "Brogitarus",
+        "Deiotarus"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "note": "Candidatos explícitos; congelar fechas sólo tras revisión de evidencia."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1183348",
+      "name": "Deyótaro",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0063-01-01",
+      "end": "-0040-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Deiotarus",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados."
+    },
+    {
+      "person": "Q3781179",
+      "name": "Brogitarix",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0063-01-01",
+      "end": "-0052-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Brogitarus",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados."
+    },
+    {
+      "person": "Q482101",
+      "name": "Amintas de Galacia",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0036-01-01",
+      "end": "-0025-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Amyntas_of_Galatia",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -100,
+      "end": -1,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hiempsal_II",
+      "sourceLabel": "Fuentes de la entidad · siglo I a.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna; límites de vigencia ajustados en reglas y contexto."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat041-18",
+      "name": "Ancyra · Galacia",
+      "coordinates": [
+        32.86,
+        39.93
+      ],
+      "start": -63,
+      "end": -25,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Ancyra",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "standaloneReference": true,
+      "entityName": "Galatia"
+    },
+    {
+      "id": "seat041-18-own",
+      "name": "Ancyra · Galacia",
+      "coordinates": [
+        32.86,
+        39.93
+      ],
+      "start": -63,
+      "end": -25,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Ancyra",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "entityName": "Galatia"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Galatia"
+        ],
+        "start": -100,
+        "end": -1,
+        "label": "Galatia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0100-bc0001.geojson",
+      "sha256": "73ca7cd226cf812e53e0c72a8a9eeed4c70865e251cb675dec5a6b8266d62d4c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        994,
+        1021,
+        1044,
+        1091
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Amyntas of Galatia",
+        "title": "Amyntas of Galatia",
+        "person": "Q482101",
+        "name": "Amintas de Galacia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Amyntas_of_Galatia",
+        "identityResolution": {
+          "requested": "Amyntas of Galatia",
+          "canonical": "Amyntas of Galatia",
+          "qid": "Q482101"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q482101",
+        "title": "Amyntas of Galatia",
+        "source": "https://en.wikipedia.org/wiki/Amyntas_of_Galatia",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Brogitarus",
+        "title": "Brogitarus",
+        "person": "Q3781179",
+        "name": "Brogitarix",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Brogitarus",
+        "identityResolution": {
+          "requested": "Brogitarus",
+          "canonical": "Brogitarus",
+          "qid": "Q3781179"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3781179",
+        "title": "Brogitarus",
+        "source": "https://en.wikipedia.org/wiki/Brogitarus",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Deiotarus",
+        "title": "Deiotarus",
+        "person": "Q1183348",
+        "name": "Deyótaro",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Deiotarus",
+        "identityResolution": {
+          "requested": "Deiotarus",
+          "canonical": "Deiotarus",
+          "qid": "Q1183348"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1183348",
+        "title": "Deiotarus",
+        "source": "https://en.wikipedia.org/wiki/Deiotarus",
+        "reignFields": []
+      }
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q1183348",
+      "name": "Deyótaro",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0063-01-01",
+      "end": "-0040-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Deiotarus",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados."
+    },
+    {
+      "person": "Q3781179",
+      "name": "Brogitarix",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0063-01-01",
+      "end": "-0052-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Brogitarus",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados."
+    },
+    {
+      "person": "Q482101",
+      "name": "Amintas de Galacia",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0036-01-01",
+      "end": "-0025-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Amyntas_of_Galatia",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados."
+    }
+  ],
+  "authorityReview": [
+    {
+      "person": "Q1183348",
+      "requestedTitle": "Deiotarus",
+      "chosenCivilYears": [
+        -63,
+        -40
+      ],
+      "source": "https://en.wikipedia.org/wiki/Deiotarus",
+      "reignEvidence": [],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    },
+    {
+      "person": "Q3781179",
+      "requestedTitle": "Brogitarus",
+      "chosenCivilYears": [
+        -63,
+        -52
+      ],
+      "source": "https://en.wikipedia.org/wiki/Brogitarus",
+      "reignEvidence": [],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    },
+    {
+      "person": "Q482101",
+      "requestedTitle": "Amyntas of Galatia",
+      "chosenCivilYears": [
+        -36,
+        -25
+      ],
+      "source": "https://en.wikipedia.org/wiki/Amyntas_of_Galatia",
+      "reignEvidence": [],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    }
+  ],
+  "researchSources": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q482101",
+      "title": "Amyntas of Galatia.jpg",
+      "reason": "La cara de la moneda representa a Atenea, no a Amintas de Galacia.",
+      "source": "https://commons.wikimedia.org/wiki/File:Amyntas_of_Galatia.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q482101",
+      "name": "Amintas de Galacia",
+      "title": "Amyntas of Galatia.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Amyntas_of_Galatia.jpg",
+      "sha256": "d20f42287706364c2e52a7e61c96aeb5eb5d7c8563e4e7a006de1048de1fa5e2",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "La cara de la moneda representa a Atenea, no a Amintas de Galacia."
+    }
+  ]
+}

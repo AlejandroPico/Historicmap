@@ -1,0 +1,68 @@
+{
+  "key": "CULTURE-ARCTIC-YBC0100",
+  "contextKey": "CULTURE-ARCTIC",
+  "ownerKey": "CULTURE-ARCTIC",
+  "name": "Comunidades marítimas del Ártico",
+  "originalNames": [
+    "Arctic marine mammal hunters"
+  ],
+  "kind": "cultural-region",
+  "region": "Ártico",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -100,
+    -1
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no Estado unitario, identidad homogénea o frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de100a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps100a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#969886",
+  "focus": [
+    -157.31787,
+    64.35778
+  ],
+  "phases": [
+    {
+      "start": -100,
+      "end": -2,
+      "label": "Comunidades marítimas del Ártico",
+      "dateBasis": "Referencia espacial de100a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-ARCTIC-YBC0100.geojson",
+  "geometrySha256": "2f0f50fc263cf45b3c79d99ba8d9b24081fe2f27758b42200a80983eb52a87f6",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson",
+    "year": -100,
+    "featureIds": [
+      60
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "80ce07508ef86b4c4943193d7562578dc1150976bd0eb07581c620acf3044874"
+  },
+  "review": "0.41.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Arctic marine mammal hunters",
+      "ABBREVN": "Arctic marine mammal hunters",
+      "SUBJECTO": "Arctic marine mammal hunters",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Arctic marine mammal hunters"
+    }
+  ],
+  "sourceGrouping": [
+    "Arctic marine mammal hunters"
+  ]
+}

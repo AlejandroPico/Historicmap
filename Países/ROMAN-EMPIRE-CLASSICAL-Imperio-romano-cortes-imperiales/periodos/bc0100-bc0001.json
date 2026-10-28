@@ -1,0 +1,405 @@
+{
+  "key": "ROMAN-EMPIRE-CLASSICAL",
+  "identity": {
+    "qid": "Q12544",
+    "name": "Imperio romano · cortes imperiales"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · funciones por contrastar",
+      "titles": [
+        "Augustus"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "note": "Candidatos explícitos; congelar fechas sólo tras revisión de evidencia."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1405",
+      "name": "Augusto",
+      "role": "Augusto romano",
+      "start": "-0027-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Augustus",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados.",
+      "endIsCoverageBoundary": true,
+      "authorityClass": "augustus",
+      "portrait": {
+        "file": "media/portrait-7065926ebc9bc5f47104.png",
+        "title": "Statue of the Emperor Octavian Augustus as Jupiter (6).png",
+        "url": "https://commons.wikimedia.org/wiki/File:Statue_of_the_Emperor_Octavian_Augustus_as_Jupiter_(6).png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Statue_of_the_Emperor_Octavian_Augustus_as_Jupiter_%286%29.png/330px-Statue_of_the_Emperor_Octavian_Augustus_as_Jupiter_%286%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "С. И. Сосновский",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://ancientrome.ru/art/artwork/img.htm?id=401",
+        "sha256": "a52c4cde913ff70bcf7f8872e1d6ea57534767c8622559ee8655463d97ca337b",
+        "bytes": 251469,
+        "canonicalFile": "Países/ROMAN-EMPIRE-CLASSICAL-Imperio-romano-cortes-imperiales/retratos/portrait-7065926ebc9bc5f47104.png",
+        "caption": "Busto, estatua o relieve atribuido a Augusto; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review041-principate",
+      "type": "institution",
+      "title": "Augusto y continuidad del Principado",
+      "start": "-0027-01-01",
+      "end": "0001-01-01",
+      "text": "El cambio convencional de República a Principado es27a.C., no el borde de esta entrega ni1d.C. Augusto continúa sin relevo artificial al cruzar la era; no existe año cero.",
+      "source": "https://academic.oup.com/edited-volume/38684/chapter/335914263",
+      "sourceLabel": "Referencia documental · siglo I a.C.",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": -100,
+      "end": -1,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://academic.oup.com/edited-volume/38684/chapter/335914263",
+      "sourceLabel": "Fuentes de la entidad · siglo I a.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna; límites de vigencia ajustados en reglas y contexto."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat041-1",
+      "name": "Roma · Principado de Augusto",
+      "coordinates": [
+        12.48,
+        41.9
+      ],
+      "start": -27,
+      "end": -1,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Rome",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "standaloneReference": true,
+      "entityName": "Imperio romano · cortes imperiales"
+    },
+    {
+      "id": "seat041-1-own",
+      "name": "Roma · Principado de Augusto",
+      "coordinates": [
+        12.48,
+        41.9
+      ],
+      "start": -27,
+      "end": -1,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Rome",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "entityName": "Imperio romano · cortes imperiales"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review041-principate",
+      "type": "institution",
+      "title": "Augusto y continuidad del Principado",
+      "start": "-0027-01-01",
+      "end": "0001-01-01",
+      "text": "El cambio convencional de República a Principado es27a.C., no el borde de esta entrega ni1d.C. Augusto continúa sin relevo artificial al cruzar la era; no existe año cero.",
+      "source": "https://academic.oup.com/edited-volume/38684/chapter/335914263",
+      "sourceLabel": "Referencia documental · siglo I a.C.",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Roman Empire"
+        ],
+        "start": -27,
+        "end": -1,
+        "label": "Imperio romano · cortes imperiales",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Identidad fechada sobre el contorno original; no observación anual independiente.",
+        "colorFamily": "ROME"
+      }
+    },
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Galatia"
+        ],
+        "start": -24,
+        "end": -1,
+        "label": "Galacia · incorporación romana",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Identidad fechada sobre el contorno original; no observación anual independiente.",
+        "colorFamily": "ROME"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0100-bc0001.geojson",
+      "sha256": "7eeae12cd605867f7c75b90d05ef6478e4320bf275b18d061f8809bcec9d3c02",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1080,
+        1084,
+        1095,
+        1100,
+        1103,
+        1106
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Augustus",
+        "title": "Augustus",
+        "person": "Q1405",
+        "name": "Augusto",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Augustus",
+        "identityResolution": {
+          "requested": "Augustus",
+          "canonical": "Augustus",
+          "qid": "Q1405"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q842606",
+          "start": "-0027-01-16",
+          "end": "0014-08-19",
+          "precision": 10,
+          "statement": "q1405$911C4A3E-3A93-4BE4-876B-D1A50548D97F",
+          "label": "emperador romano"
+        },
+        {
+          "property": "P39",
+          "office": "Q40779",
+          "start": "-0033-01-01",
+          "end": "-0033-01-01",
+          "precision": 9,
+          "statement": "Q1405$1A8A304A-A255-4047-A378-BA119EEBD389",
+          "label": "cónsul romano"
+        },
+        {
+          "property": "P39",
+          "office": "Q80604738",
+          "start": "-0043-01-01",
+          "end": "-0033-01-01",
+          "precision": 9,
+          "statement": "Q1405$0baae583-4179-21e3-d223-6e8e8768f5df",
+          "label": "triumvir rei publicae constituendae"
+        },
+        {
+          "property": "P39",
+          "office": "Q1861571",
+          "start": "-0043-01-01",
+          "end": "-0036-01-01",
+          "precision": 9,
+          "statement": "Q1405$465371e9-4b38-4e5d-4688-8ce0601eeda1",
+          "label": "monedero"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1405",
+        "title": "Augustus",
+        "source": "https://en.wikipedia.org/wiki/Augustus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "16 January 27{{nbsp}}BC – {{awrap|19 August AD{{nbsp}}14}}",
+            "parsed": null,
+            "reignType": "Reign"
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman emperor",
+            "raw": "27 BC&nbsp;– AD 14",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "43&nbsp;BC (suffect)",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul II",
+            "raw": "33&nbsp;BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul III–XI",
+            "raw": "31–23&nbsp;BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul XII",
+            "raw": "5&nbsp;BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul XIII",
+            "raw": "2&nbsp;BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Pontifex maximus",
+            "raw": "12 BC&nbsp;– AD 14",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q1405",
+      "name": "Augusto",
+      "role": "Augusto romano",
+      "start": "-0027-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Augustus",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados.",
+      "endIsCoverageBoundary": true,
+      "authorityClass": "augustus"
+    }
+  ],
+  "authorityReview": [
+    {
+      "person": "Q1405",
+      "requestedTitle": "Augustus",
+      "chosenCivilYears": [
+        -27,
+        14
+      ],
+      "source": "https://en.wikipedia.org/wiki/Augustus",
+      "reignEvidence": [
+        {
+          "field": "reign",
+          "office": "Roman emperor",
+          "raw": "16 January 27{{nbsp}}BC – {{awrap|19 August AD{{nbsp}}14}}",
+          "parsed": null,
+          "reignType": "Reign"
+        },
+        {
+          "field": "succession-template",
+          "office": "Roman emperor",
+          "raw": "27 BC&nbsp;– AD 14",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "Roman consul",
+          "raw": "43&nbsp;BC (suffect)",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "Roman consul II",
+          "raw": "33&nbsp;BC",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "Roman consul III–XI",
+          "raw": "31–23&nbsp;BC",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "Roman consul XII",
+          "raw": "5&nbsp;BC",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "Roman consul XIII",
+          "raw": "2&nbsp;BC",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "Pontifex maximus",
+          "raw": "12 BC&nbsp;– AD 14",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    }
+  ],
+  "researchSources": [
+    "https://academic.oup.com/edited-volume/38684/chapter/335914263"
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1405",
+      "name": "Augusto",
+      "title": "Statue of the Emperor Octavian Augustus as Jupiter (6).png",
+      "source": "https://commons.wikimedia.org/wiki/File:Statue_of_the_Emperor_Octavian_Augustus_as_Jupiter_(6).png",
+      "sha256": "a52c4cde913ff70bcf7f8872e1d6ea57534767c8622559ee8655463d97ca337b",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Augusto; no fotografía ni semejanza del natural acreditada."
+    }
+  ]
+}

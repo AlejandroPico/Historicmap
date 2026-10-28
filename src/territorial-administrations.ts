@@ -1,16 +1,16 @@
-import {isoYear} from './dates';
+import {isoYear,compareDates,dateParts} from './dates';
 import catalogue from '../public/data/territorial-administrations.json';
 import extension from '../public/data/historical-1880-administrations.json';
 export type Administration={id:string;names:string[];codes:string[];admin:string;localKey:string;start:string;end:string|null;label:string;note:string;source:string;headOfStateOnly:boolean};
 export function administrationFor(p:Record<string,any>,year:number):Administration|undefined{
  if(p.collectiveAdministration)return; // A grouped occupation is not a single national administrator.
- if(year<1||year>Number(catalogue.referenceDate.slice(0,4)))return;
+ if(year<-100||year>Number(catalogue.referenceDate.slice(0,4)))return;
  const name=String(p.originalName??p.country_name??p.name??''),code=String(p.entityCode||p.code||'');
- const record=[...extension.records,...catalogue.records].find(r=>(r.names.includes(name)||(r.codes as string[]).includes(code))&&r.start<=`${isoYear(year)}-12-31`&&(!r.end||r.end>`${isoYear(year)}-01-01`));
+ const record=[...extension.records,...catalogue.records].find(r=>(r.names.includes(name)||(r.codes as string[]).includes(code))&&compareDates(r.start,`${isoYear(year)}-12-31`)<=0&&(!r.end||compareDates(r.end,`${isoYear(year)}-01-01`)>0));
  if(record)return record;
  // A retained card's source administrator is evidence only inside that source
  // interval, never before the colony is attested or after this observation.
  if(typeof p.start==='number'&&year<p.start||typeof p.end==='number'&&year>p.end)return;
- if(p.administratorKey&&p.administratorKey!==p.identityKey)return {id:'source-administration',names:[name],codes:[code],admin:p.administratorKey,localKey:p.localAuthorityKey??p.code??'',start:year<1900?'0001-01-01':catalogue.coverageStart,end:null,label:'Autoridades del Estado administrador',note:'La relación administrativa procede de la cartografía de esta fecha. Los cargos estatales no equivalen a gobernadores territoriales; la serie local todavía puede ser parcial.',source:p.source??'https://icr.ethz.ch/data/cshapes/',headOfStateOnly:false};
+ if(p.administratorKey&&p.administratorKey!==p.identityKey)return {id:'source-administration',names:[name],codes:[code],admin:p.administratorKey,localKey:p.localAuthorityKey??p.code??'',start:year<1?`${isoYear(year)}-01-01`:year<1900?'0001-01-01':catalogue.coverageStart,end:null,label:'Autoridades del Estado administrador',note:'La relación administrativa procede de la cartografía de esta fecha. Los cargos estatales no equivalen a gobernadores territoriales; la serie local todavía puede ser parcial.',source:p.source??'https://icr.ethz.ch/data/cshapes/',headOfStateOnly:false};
 }
-export function dayBefore(date:string){const d=new Date(date+'T12:00:00Z');d.setUTCDate(d.getUTCDate()-1);return d.toISOString().slice(0,10);}
+export function dayBefore(date:string){const [y,m,day]=dateParts(date);if(y===1&&m===1&&day===1)return '-0001-12-31';if(y<0){const d=new Date(0);d.setUTCFullYear(y+1,m-1,day);d.setUTCDate(d.getUTCDate()-1);const out=d.getUTCFullYear();return `${isoYear(out<=0?out-1:out)}-${String(d.getUTCMonth()+1).padStart(2,'0')}-${String(d.getUTCDate()).padStart(2,'0')}`;}const d=new Date(date+'T12:00:00Z');d.setUTCDate(d.getUTCDate()-1);return d.toISOString().slice(0,10);}

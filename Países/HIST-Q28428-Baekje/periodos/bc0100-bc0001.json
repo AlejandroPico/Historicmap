@@ -1,0 +1,208 @@
+{
+  "key": "HIST-Q28428",
+  "identity": {
+    "qid": "Q28428",
+    "name": "Baekje · primeros poderes"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · funciones por contrastar",
+      "titles": [
+        "Onjo of Baekje"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "note": "Candidatos explícitos; congelar fechas sólo tras revisión de evidencia."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q497285",
+      "name": "Onjo de Baekje",
+      "role": "Rey de Baekje · cronología retrospectiva",
+      "start": "-0018-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Onjo_of_Paekche",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-e5d9b94b5daad4fdff28.jpg",
+        "title": "초등대한역사 제2편 12.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%EC%B4%88%EB%93%B1%EB%8C%80%ED%95%9C%EC%97%AD%EC%82%AC_%EC%A0%9C2%ED%8E%B8_12.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/%EC%B4%88%EB%93%B1%EB%8C%80%ED%95%9C%EC%97%AD%EC%82%AC_%EC%A0%9C2%ED%8E%B8_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Original: Jeong Inho\n\nTranscription: History Net, National Institute of Korean History",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%EC%B4%88%EB%93%B1%EB%8C%80%ED%95%9C%EC%97%AD%EC%82%AC_%EC%A0%9C2%ED%8E%B8_12.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[1]",
+        "sha256": "a54077085519421f538a8b4a0f2111905e2b499dbe35310f9361fb42959d2ac1",
+        "bytes": 74138,
+        "canonicalFile": "Países/HIST-Q28428-Baekje/retratos/portrait-e5d9b94b5daad4fdff28.jpg",
+        "caption": "Representación imaginaria posterior de Onjo de Baekje; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -100,
+      "end": -1,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hiempsal_II",
+      "sourceLabel": "Fuentes de la entidad · siglo I a.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna; límites de vigencia ajustados en reglas y contexto."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat041-22",
+      "name": "Hanseong · Baekje temprano",
+      "coordinates": [
+        127.11,
+        37.53
+      ],
+      "start": -18,
+      "end": -1,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Hanseong",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "standaloneReference": true,
+      "entityName": "Baekje · primeros poderes"
+    },
+    {
+      "id": "seat041-22-own",
+      "name": "Hanseong · Baekje temprano",
+      "coordinates": [
+        127.11,
+        37.53
+      ],
+      "start": -18,
+      "end": -1,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Hanseong",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "entityName": "Baekje · primeros poderes"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Onjo of Baekje",
+        "title": "Onjo of Baekje",
+        "person": "Q497285",
+        "name": "Onjo de Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Onjo_of_Paekche",
+        "identityResolution": {
+          "requested": "Onjo of Baekje",
+          "canonical": "Onjo of Paekche",
+          "qid": "Q497285"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "-0018-01-01",
+          "end": "0028-01-01",
+          "precision": 9,
+          "statement": "Q497285$440d42ab-4e7e-0176-f1d6-613cac97340a",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497285",
+        "title": "Onjo of Paekche",
+        "source": "https://en.wikipedia.org/wiki/Onjo_of_Paekche",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Paekche",
+            "raw": "18 BC - 28 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "18 BC – 28 AD",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q497285",
+      "name": "Onjo de Baekje",
+      "role": "Rey de Baekje · cronología retrospectiva",
+      "start": "-0018-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Onjo_of_Paekche",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "authorityReview": [
+    {
+      "person": "Q497285",
+      "requestedTitle": "Onjo of Baekje",
+      "chosenCivilYears": [
+        -18,
+        28
+      ],
+      "source": "https://en.wikipedia.org/wiki/Onjo_of_Paekche",
+      "reignEvidence": [
+        {
+          "field": "reign",
+          "office": "King of Paekche",
+          "raw": "18 BC - 28 AD",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "18 BC – 28 AD",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    }
+  ],
+  "researchSources": [],
+  "mediaReview": [
+    {
+      "person": "Q497285",
+      "name": "Onjo de Baekje",
+      "title": "초등대한역사 제2편 12.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%EC%B4%88%EB%93%B1%EB%8C%80%ED%95%9C%EC%97%AD%EC%82%AC_%EC%A0%9C2%ED%8E%B8_12.jpg",
+      "sha256": "a54077085519421f538a8b4a0f2111905e2b499dbe35310f9361fb42959d2ac1",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Onjo de Baekje; no fotografía ni semejanza del natural acreditada."
+    }
+  ]
+}

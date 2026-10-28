@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-ZHANGZHUNG-KINGDOM-9FCF8D1D",
+  "name": "Zhangzhung Kingdom",
+  "qid": "",
+  "aliases": [
+    "Zhangzhung Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ZHANGZHUNG-KINGDOM-9FCF8D1D-YBC0100:0",
+      "contextKey": "CULTURE-ZHANGZHUNG-KINGDOM-9FCF8D1D",
+      "start": -100,
+      "end": -1,
+      "sourceYear": -100,
+      "canonicalFile": "Países/CULTURE-ZHANGZHUNG-KINGDOM-9FCF8D1D-Zhangzhung-Kingdom/poblamiento/CULTURE-ZHANGZHUNG-KINGDOM-9FCF8D1D-YBC0100.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ZHANGZHUNG-KINGDOM-9FCF8D1D-YBC0100:1",
+      "contextKey": "CULTURE-ZHANGZHUNG-KINGDOM-9FCF8D1D",
+      "start": 1,
+      "end": 99,
+      "sourceYear": -100,
+      "canonicalFile": "Países/CULTURE-ZHANGZHUNG-KINGDOM-9FCF8D1D-Zhangzhung-Kingdom/poblamiento/CULTURE-ZHANGZHUNG-KINGDOM-9FCF8D1D-YBC0100.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

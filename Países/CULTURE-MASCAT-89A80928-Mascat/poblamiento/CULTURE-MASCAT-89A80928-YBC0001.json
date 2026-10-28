@@ -1,0 +1,69 @@
+{
+  "key": "CULTURE-MASCAT-89A80928-YBC0001",
+  "contextKey": "CULTURE-MASCAT-89A80928",
+  "ownerKey": "CULTURE-MASCAT-89A80928",
+  "name": "Mascat",
+  "originalNames": [
+    "Mascat"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -1,
+    -1
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "Referencia espacial de1a.C. idéntica a la de consulta1d.C.; el cambio de era no acredita modificación cultural ni introduce año cero.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de1a.C.",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    56.43586,
+    21.5934
+  ],
+  "phases": [
+    {
+      "label": "Mascat",
+      "dateBasis": "Referencia regional de la fuente editorial de1a.C.; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true,
+      "start": -1,
+      "end": -1
+    }
+  ],
+  "geometryFile": "CULTURE-MASCAT-89A80928-YBC0001.geojson",
+  "geometrySha256": "d0bcaca87d7c9c202f1c21a73325727fbb2f6c9a6e4c4c799f09ff2e142e30ff",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson",
+    "year": -1,
+    "featureIds": [
+      421
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "830fac0104ebafff7b576333cd5ab4a9bf4b6f732ddf828cec47797cf65047cb"
+  },
+  "review": "0.41.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Continuidad espacial de1a.C./1d.C. cotejada con el mismo original; completar bibliografía regional."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Mascat",
+      "ABBREVN": "Mascat",
+      "SUBJECTO": "Mascat",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Mascat"
+    }
+  ],
+  "sourceGrouping": [
+    "Mascat"
+  ]
+}

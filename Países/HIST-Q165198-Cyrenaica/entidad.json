@@ -1,0 +1,43 @@
+{
+  "key": "HIST-Q165198",
+  "name": "Cyrenaica",
+  "qid": "Q165198",
+  "aliases": [
+    "Cyrenaica"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q165198"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_1800.geojson",
+      "recordId": 39,
+      "start": null,
+      "end": null,
+      "name": "Cyrenaica",
+      "status": null
+    },
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-937",
+      "start": -100,
+      "end": -92,
+      "name": "Cyrenaica",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

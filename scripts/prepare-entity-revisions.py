@@ -1,3 +1,4 @@
+from civil_dates import date_key
 """Compile dated, entity-owned corrections. No historical facts live in this writer.
 
 Canonical input: Países/<entity>/revision-historica.json and simbolos/.
@@ -114,11 +115,11 @@ def main(acquire=False, portrait_only=False):
             if symbol.get('referenceOnly'):
                 display.update(referenceOnly=True,evidenceDate=symbol['evidenceDate'])
             record=dict(start=symbol['start'],end=symbol['end'],media=display,source=symbol['source'],note=symbol['note'],acquisition=tag)
-            if record['start']>record['end']:raise ValueError('Inverted symbol '+key)
+            if date_key(record['start'])>date_key(record['end']):raise ValueError('Inverted symbol '+key)
             country['symbolReferences' if symbol.get('referenceOnly') else 'flags'].append(record)
         rejected_portraits={(r['person'],r['title']) for r in revision.get('rejectedPortraits',[])}
         for leader in revision.get('leaders',[]):
-            if leader['start']>leader['end'] or not leader.get('source'):raise ValueError('Invalid office '+key)
+            if date_key(leader['start'])>date_key(leader['end']) or not leader.get('source'):raise ValueError('Invalid office '+key)
             # Canonical portraits may be filled on the first acquisition. Keep
             # runtime property order stable on the next offline compilation.
             item={k:v for k,v in leader.items() if k not in ['portrait','curated','acquisition']}
@@ -147,7 +148,7 @@ def main(acquire=False, portrait_only=False):
         cleared_files=set()
         for fix in revision.get('entityRules',[]):
             for file in fix['files']:
-                if not re.fullmatch(r'historical-\d{1,4}-entities\.json',file):raise ValueError('Invalid resolution file')
+                if not re.fullmatch(r'historical-(?:bc)?\d{1,4}-entities\.json',file):raise ValueError('Invalid resolution file')
                 dest=ROOT/'public/data'/file
                 if file not in resolutions:resolutions[file]=read(dest)
                 catalogue=resolutions[file]

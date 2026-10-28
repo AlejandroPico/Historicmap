@@ -1,6 +1,21 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.40.0 · 1–99 d.C.
+## Encargo vigente · 0.41.0 · 100–1 a.C.
+
+Ampliar política y culturas100–1a.C., preservar todo lo anterior y comprobar expresamente continuidad1a.C./1d.C., sin año cero ni cambios artificiales al cambiar de fuente. Fechas, mandatos, imágenes y contexto con fuentes y carencias explícitas. Subir tras comprobaciones locales sin esperar Actions/Pages.
+
+- [x] Fechas civiles anteriores a nuestra era y continuidad de navegación/fichas; pruebas focales correctas.
+- [x] Inventarios, culturas, autoridades, imágenes y contextos.
+- [x] Conservación, pruebas y documentación.
+- [x] Preparación del envío a main y cotejo del índiceGit.
+
+Estado de cierre local:63 dossiers,172 cargos,190 componentes,30 centros,24 contextos y ocho referencias de conflictos; diez registros de continuidad en nueve complementos.157 fases culturales nuevas(9.404 totales) y163 originales nominales.111 candidatos visuales inspeccionados:92 aceptados,19 apartados y alternativa monetaria deMusa. Todos los contextos/geometrías culturales de1a.C./1d.C. y colores/clasificación de44 entidades comunes pasan los cotejos. Cinco cambios de contorno proceden de la fuente: no certificarlos como hechos exactos al cambiar de era; ver ERA-CONTINUITY-041 y RESEARCH-bc100.
+
+Conservación:1.410 identidades,18.952 cargos,1.040 símbolos y9.247 fases previas;121 recursos retenidos,111 idénticos y tres nuevos.203 archivos recompilados sin diferencias. Cuatro vistas anónimas consolidadas conservan ocho registros. Pasada general311 casos con dos incidencias corregidas; repetición14, después34, y13 tras armonizar entre eras.22 pruebasPython, tipos y build correctos. Ocho recorridos únicos de navegador pasan; los tres nuevos se repiten tras los últimos cambios y pasan. ÍndiceGit:873 archivos,9.021 recursos y1.052 originales canónicos cotejados correctamente. Contenido terminado y preparado para main; la publicación queda para confirmación del propietario. Al reanudar, cotejar primero HEAD/origin/main: si coinciden y no hay cambios, no repetir la adquisición o compilación. No contar repeticiones como pruebas únicas. No repetir seed/curation/adoption.
+
+Pendientes documentales reales: consulados completos y autoridades menores, cronologías indopartas/indoescitas/kushitas alternativas, representaciones individuales y símbolos acreditados, bibliografía/costas/fronteras culturales locales, fechas cercanas al límite0 de la fuente, SwiftCreek antiguo, Copán y frentes militares modernos. Una ventana documental no es extinción. No iniciar otro tramo anterior100a.C. sin encargo. No esperar Actions/Pages.
+
+## Entrega anterior · 0.40.0 · 1–99 d.C.
 
 Ampliar política y culturas1–99, sin año cero. Conservar todas las etapas anteriores, revisar dinastías, autoridades, representaciones y fuentes. Subir tras comprobaciones locales sin esperar Actions/Pages.
 

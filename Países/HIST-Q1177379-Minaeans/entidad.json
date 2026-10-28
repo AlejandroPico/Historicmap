@@ -1,0 +1,51 @@
+{
+  "key": "HIST-Q1177379",
+  "name": "Minaeans",
+  "qid": "Q1177379",
+  "aliases": [
+    "Minaeans"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1177379"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-880",
+      "start": -100,
+      "end": -67,
+      "name": "Minaeans",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-1068",
+      "start": -36,
+      "end": -28,
+      "name": "Minaeans",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-1089",
+      "start": -27,
+      "end": -26,
+      "name": "Minaeans",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,77 @@
+{
+  "key": "REFERENCE-YUEZHI-BACTRIA-YBC0100",
+  "contextKey": "REFERENCE-YUEZHI-BACTRIA",
+  "ownerKey": "REFERENCE-YUEZHI-BACTRIA",
+  "name": "Yuezhi y comunidades de Bactria · antes del poder kushán",
+  "originalNames": [
+    "Kushan Empire"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación100a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -100,
+    99
+  ],
+  "interpretation": "La etiqueta Kushan Empire es prematura: se mantiene el contorno como referencia de comunidades y poderes de Bactria, no un imperio kushán uniforme en100a.C.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de100a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps100a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    69.50642,
+    30.8215
+  ],
+  "phases": [
+    {
+      "start": -100,
+      "end": -1,
+      "label": "Yuezhi y comunidades de Bactria · antes del poder kushán",
+      "dateBasis": "Referencia espacial de100a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": 1,
+      "end": 99,
+      "label": "Yuezhi y comunidades de Bactria · antes del poder kushán",
+      "dateBasis": "Consulta del ámbito histórico anterior; continuidad de habitantes o límites actuales no inferida.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -100,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-YUEZHI-BACTRIA-YBC0100.geojson",
+  "geometrySha256": "835c8048ea0a13337d067af4c9a92b576f533d4e47923e3dc4124a24a165e5c8",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson",
+    "year": -100,
+    "featureIds": [
+      232
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "80ce07508ef86b4c4943193d7562578dc1150976bd0eb07581c620acf3044874"
+  },
+  "review": "0.41.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Kushan Empire",
+      "ABBREVN": "Kushan",
+      "SUBJECTO": "Kushan Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Kushan Empire"
+    }
+  ],
+  "sourceGrouping": [
+    "Kushan Empire"
+  ]
+}

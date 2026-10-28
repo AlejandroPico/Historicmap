@@ -1,0 +1,68 @@
+{
+  "key": "REFERENCE-XIONGNU-COMMUNITIES-YBC0100",
+  "contextKey": "REFERENCE-XIONGNU-COMMUNITIES",
+  "ownerKey": "REFERENCE-XIONGNU-COMMUNITIES",
+  "name": "Comunidades y poderes xiongnu",
+  "originalNames": [
+    "Xiongnu"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -100,
+    -1
+  ],
+  "interpretation": "Chanyus, rivalidades y relaciones Han fechados; no el imperio de Atila ni una frontera nacional homogénea.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de100a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps100a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    108.2491,
+    44.36939
+  ],
+  "phases": [
+    {
+      "start": -100,
+      "end": -2,
+      "label": "Comunidades y poderes xiongnu",
+      "dateBasis": "Referencia espacial de100a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-XIONGNU-COMMUNITIES-YBC0100.geojson",
+  "geometrySha256": "688024a3f7aeea9ba6a872a742741fb15a5c327e0703b1889878c1efad62f6ff",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson",
+    "year": -100,
+    "featureIds": [
+      52
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "80ce07508ef86b4c4943193d7562578dc1150976bd0eb07581c620acf3044874"
+  },
+  "review": "0.41.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Xiongnu",
+      "ABBREVN": "Xiongnu",
+      "SUBJECTO": "Xiongnu",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Xiongnu"
+    }
+  ],
+  "sourceGrouping": [
+    "Xiongnu"
+  ]
+}

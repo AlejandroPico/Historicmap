@@ -1,0 +1,169 @@
+{
+  "key": "HIST-Q715257",
+  "identity": {
+    "qid": "Q715257",
+    "name": "Silla · primeros poderes"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · funciones por contrastar",
+      "titles": [
+        "Hyeokgeose of Silla"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "note": "Candidatos explícitos; congelar fechas sólo tras revisión de evidencia."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q484898",
+      "name": "Hyeokgeose de Silla",
+      "role": "Gobernante de Silla · cronología retrospectiva",
+      "start": "-0057-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hyeokgeose_of_Silla",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -100,
+      "end": -1,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hiempsal_II",
+      "sourceLabel": "Fuentes de la entidad · siglo I a.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna; límites de vigencia ajustados en reglas y contexto."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat041-23",
+      "name": "Gyeongju · Silla temprano",
+      "coordinates": [
+        129.212,
+        35.856
+      ],
+      "start": -57,
+      "end": -1,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Gyeongju",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "standaloneReference": true,
+      "entityName": "Silla · primeros poderes"
+    },
+    {
+      "id": "seat041-23-own",
+      "name": "Gyeongju · Silla temprano",
+      "coordinates": [
+        129.212,
+        35.856
+      ],
+      "start": -57,
+      "end": -1,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Gyeongju",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "entityName": "Silla · primeros poderes"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Hyeokgeose of Silla",
+        "title": "Hyeokgeose of Silla",
+        "person": "Q484898",
+        "name": "Hyeokgeose de Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hyeokgeose_of_Silla",
+        "identityResolution": {
+          "requested": "Hyeokgeose of Silla",
+          "canonical": "Hyeokgeose of Silla",
+          "qid": "Q484898"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q484898",
+        "title": "Hyeokgeose of Silla",
+        "source": "https://en.wikipedia.org/wiki/Hyeokgeose_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "57 BC – 4 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "57 BC – 4",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q484898",
+      "name": "Hyeokgeose de Silla",
+      "role": "Gobernante de Silla · cronología retrospectiva",
+      "start": "-0057-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hyeokgeose_of_Silla",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "authorityReview": [
+    {
+      "person": "Q484898",
+      "requestedTitle": "Hyeokgeose of Silla",
+      "chosenCivilYears": [
+        -57,
+        4
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hyeokgeose_of_Silla",
+      "reignEvidence": [
+        {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "57 BC – 4 AD",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "Ruler of Silla",
+          "raw": "57 BC – 4",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    }
+  ],
+  "researchSources": []
+}

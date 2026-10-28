@@ -1,0 +1,56 @@
+{
+  "key": "HIST-Q701273",
+  "identity": {
+    "qid": "Q701273",
+    "name": "Jinhan"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Jinhan"
+        ],
+        "start": -100,
+        "end": -1,
+        "label": "Jinhan · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Referencia regional de alcance y cronología desiguales; no acredita un Estado homogéneo. Se mantiene el mismo criterio antes y después de la era común, sin un cambio de régimen artificial en1d.C."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0100-bc0001.geojson",
+      "sha256": "5db232b9eaf611d6d232b74bb0bd5d80761696da8fedf19f2a00cc641237b75c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        970
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [],
+  "researchSources": [],
+  "eraContinuityReview": "Criterio regional armonizado con1d.C.; originales y fases anteriores conservados."
+}

@@ -1,0 +1,93 @@
+{
+  "key": "DAYUAN-FERGHANA",
+  "identity": {
+    "qid": "",
+    "name": "Dayuan · poderes de Ferghana"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [
+    {
+      "id": "seat041-8",
+      "name": "Ferghana · región de Dayuan",
+      "coordinates": [
+        71.8,
+        40.5
+      ],
+      "start": -100,
+      "end": -1,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Ferghana",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "standaloneReference": true,
+      "entityName": "Dayuan · poderes de Ferghana"
+    },
+    {
+      "id": "seat041-8-own",
+      "name": "Ferghana · región de Dayuan",
+      "coordinates": [
+        71.8,
+        40.5
+      ],
+      "start": -100,
+      "end": -1,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Ferghana",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "entityName": "Dayuan · poderes de Ferghana"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Great Yuan"
+        ],
+        "start": -100,
+        "end": -1,
+        "label": "Dayuan · poderes de Ferghana",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0100-bc0001.geojson",
+      "sha256": "231db225d81c2aff5d06bfd6508f6c87b3885a6307220b844949379e371899dd",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        950,
+        1016,
+        1038
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "sourceIdentityReview": {
+    "originalQid": "Q7313",
+    "decision": "Dayuan de Ferghana, no dinastía Yuan medieval; conservar originales."
+  },
+  "candidateEvidence": [],
+  "researchSources": []
+}

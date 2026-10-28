@@ -1,0 +1,68 @@
+{
+  "key": "REFERENCE-DACIAN-COMMUNITIES-YBC0100",
+  "contextKey": "REFERENCE-DACIAN-COMMUNITIES",
+  "ownerKey": "REFERENCE-DACIAN-COMMUNITIES",
+  "name": "Comunidades dacias y poderes regionales",
+  "originalNames": [
+    "Dacians"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -100,
+    -1
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no Estado unitario, identidad homogénea o frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de100a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps100a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    25.39395,
+    44.02063
+  ],
+  "phases": [
+    {
+      "start": -100,
+      "end": -2,
+      "label": "Comunidades dacias y poderes regionales",
+      "dateBasis": "Referencia espacial de100a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-DACIAN-COMMUNITIES-YBC0100.geojson",
+  "geometrySha256": "db0fcae20cb9ac7fd8303a5dbe92b346e96db249a09cdd0ddeb9b5e0b901505f",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson",
+    "year": -100,
+    "featureIds": [
+      223
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "80ce07508ef86b4c4943193d7562578dc1150976bd0eb07581c620acf3044874"
+  },
+  "review": "0.41.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Dacians",
+      "ABBREVN": "Dacians",
+      "SUBJECTO": "Dacians",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Dacians"
+    }
+  ],
+  "sourceGrouping": [
+    "Dacians"
+  ]
+}

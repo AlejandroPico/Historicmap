@@ -1,12 +1,13 @@
+from civil_dates import check_window,period_name,date_key,year_text
 """Stage licensed portrait candidates for visual review; never adopt on P18 alone."""
 from pathlib import Path
 import json,urllib.request,urllib.parse,hashlib,re,html,argparse,concurrent.futures,importlib.util,time
 ROOT=Path(__file__).resolve().parents[1];UA={'User-Agent':'Historicmap/0.32 (https://github.com/AlejandroPico/Historicmap; educational atlas)'};read=lambda f:json.loads(f.read_text(encoding='utf8'))
 def main(century,review,selected_people=None,end_year=None):
  end_year=century+99 if end_year is None else end_year
- if not 1<=century<=end_year<=century+99:raise ValueError('Invalid common-era portrait window')
+ check_window(century,end_year)
  spec=importlib.util.spec_from_file_location('fetch',ROOT/'scripts/acquire-century-evidence.py');api=importlib.util.module_from_spec(spec);spec.loader.exec_module(api)
- docs=[(f,read(f))for f in sorted((ROOT/'Países').glob(f'*/periodos/{century:04d}-{end_year:04d}.json'))];people={l['person']:l['name']for f,d in docs for l in d['leaders']};ids=read(ROOT/'public/data/identities.json');known={l['person']:l['portrait']for c in ids['countries'].values()for l in c['leaders']if l.get('portrait')};existing={m['title']:m for m in read(ROOT/'public/media/manifest.json')['entries']};titles={};missing=[]
+ docs=[(f,read(f))for f in sorted((ROOT/'Países').glob(f'*/periodos/{period_name(century,end_year)}.json'))];people={l['person']:l['name']for f,d in docs for l in d['leaders']};ids=read(ROOT/'public/data/identities.json');known={l['person']:l['portrait']for c in ids['countries'].values()for l in c['leaders']if l.get('portrait')};existing={m['title']:m for m in read(ROOT/'public/media/manifest.json')['entries']};titles={};missing=[]
  if selected_people:people={q:name for q,name in people.items()if q in selected_people}
  for q,name in people.items():
   f=ROOT/'.cache/identities'/('historical-entity-'+q+'.json')

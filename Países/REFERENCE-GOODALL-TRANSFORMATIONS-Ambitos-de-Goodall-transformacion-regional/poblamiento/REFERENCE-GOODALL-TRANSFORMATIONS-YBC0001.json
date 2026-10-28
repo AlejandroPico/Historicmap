@@ -1,0 +1,89 @@
+{
+  "key": "REFERENCE-GOODALL-TRANSFORMATIONS-YBC0001",
+  "contextKey": "REFERENCE-GOODALL-TRANSFORMATIONS",
+  "ownerKey": "REFERENCE-GOODALL-TRANSFORMATIONS",
+  "name": "Ámbitos de Goodall · transformación regional",
+  "originalNames": [
+    "Goodall Focus"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -1,
+    -1
+  ],
+  "interpretation": "Goodall es una denominación arqueológica delWoodland medio con final aproximado hacia500. La ventana de consulta no acredita rasgos invariables ni ausencia de comunidades posteriores.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "Referencia espacial de1a.C. idéntica a la de consulta1d.C.; el cambio de era no acredita modificación cultural ni introduce año cero.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de1a.C.",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de100",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -85.5596,
+    42.41748
+  ],
+  "phases": [
+    {
+      "label": "Ámbitos de Goodall · transformación regional",
+      "dateBasis": "Referencia regional de la fuente editorial de1a.C.; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true,
+      "start": -1,
+      "end": -1
+    }
+  ],
+  "geometryFile": "REFERENCE-GOODALL-TRANSFORMATIONS-YBC0001.geojson",
+  "geometrySha256": "d53e397d06b373b37228fe2f74318d118ed46a25f7ec8d0a5e280c2729cf46c0",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson",
+    "year": -1,
+    "featureIds": [
+      189
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "830fac0104ebafff7b576333cd5ab4a9bf4b6f732ddf828cec47797cf65047cb"
+  },
+  "review": "0.41.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Continuidad espacial de1a.C./1d.C. cotejada con el mismo original; completar bibliografía regional."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Goodall Focus",
+      "ABBREVN": "Goodall Focus",
+      "SUBJECTO": "Goodall Focus",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Goodall Focus"
+    }
+  ],
+  "sourceGrouping": [
+    "Goodall Focus"
+  ]
+}

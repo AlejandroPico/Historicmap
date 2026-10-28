@@ -1,0 +1,289 @@
+{
+  "key": "HIST-Q104815700",
+  "identity": {
+    "qid": "Q104815700",
+    "name": "Thracian Kingdom"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · funciones por contrastar",
+      "titles": [
+        "Cotys VII",
+        "Rhescuporis I (Sapaean)",
+        "Rhoemetalces I"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "note": "Candidatos explícitos; congelar fechas sólo tras revisión de evidencia."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2713411",
+      "name": "Rhescuporis I",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0048-01-01",
+      "end": "-0042-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rhescuporis_I_%28Sapaean%29",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados."
+    },
+    {
+      "person": "Q2713422",
+      "name": "Remetalces I",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0012-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rhoemetalces_I",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-1b668597b86803939dfe.jpg",
+        "title": "Rhoemetalces I coin.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Rhoemetalces_I_coin.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Rhoemetalces_I_coin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "This is an anonymous work, part of a collaborative encyclopedia whose  publication was on 1867. Original uploader was User:BPK2, at en.wikipedia.org,",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rhoemetalces_I_coin.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://en.wikipedia.org/wiki/File:Rhoemetacles_I_coin.jpg",
+        "sha256": "3f56932d715b41cc5b62f2ba22f9ed436dc27e11cd518b452927dc656b152a18",
+        "bytes": 19106,
+        "canonicalFile": "Países/HIST-Q104815700-Thracian-Kingdom/retratos/portrait-1b668597b86803939dfe.jpg",
+        "caption": "Cara regia izquierda de RemetalcesI; no Augusto representado en la cara derecha. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -100,
+      "end": -1,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hiempsal_II",
+      "sourceLabel": "Fuentes de la entidad · siglo I a.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna; límites de vigencia ajustados en reglas y contexto."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Thracian Kingdom"
+        ],
+        "start": -100,
+        "end": -1,
+        "label": "Thracian Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0100-bc0001.geojson",
+      "sha256": "dad0228b4eadfce82379c7c329755399e33fefa477788c0c96cc9a5d76fc21a4",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        983,
+        1055,
+        1056,
+        1092
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Cotys VII",
+        "title": "Cotys VII",
+        "person": "Q5175913",
+        "name": "Cotis I de Tracia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cotys_I_%28Sapaean%29",
+        "identityResolution": {
+          "requested": "Cotys VII",
+          "canonical": "Cotys I (Sapaean)",
+          "qid": "Q5175913"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5175913",
+        "title": "Cotys I (Sapaean)",
+        "source": "https://en.wikipedia.org/wiki/Cotys_I_%28Sapaean%29",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Thrace",
+            "raw": "c.57&ndash;48 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rhescuporis I (Sapaean)",
+        "title": "Rhescuporis I (Sapaean)",
+        "person": "Q2713411",
+        "name": "Rhescuporis I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rhescuporis_I_%28Sapaean%29",
+        "identityResolution": {
+          "requested": "Rhescuporis I (Sapaean)",
+          "canonical": "Rhescuporis I (Sapaean)",
+          "qid": "Q2713411"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2713411",
+        "title": "Rhescuporis I (Sapaean)",
+        "source": "https://en.wikipedia.org/wiki/Rhescuporis_I_%28Sapaean%29",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Thrace",
+            "raw": "48 - 41 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rhoemetalces I",
+        "title": "Rhoemetalces I",
+        "person": "Q2713422",
+        "name": "Remetalces I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rhoemetalces_I",
+        "identityResolution": {
+          "requested": "Rhoemetalces I",
+          "canonical": "Rhoemetalces I",
+          "qid": "Q2713422"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2713422",
+        "title": "Rhoemetalces I",
+        "source": "https://en.wikipedia.org/wiki/Rhoemetalces_I",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Thrace",
+            "raw": "12 BC&ndash;12 AD",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q2713411",
+      "name": "Rhescuporis I",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0048-01-01",
+      "end": "-0042-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rhescuporis_I_%28Sapaean%29",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados."
+    },
+    {
+      "person": "Q2713422",
+      "name": "Remetalces I",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0012-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rhoemetalces_I",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "authorityReview": [
+    {
+      "person": "Q2713411",
+      "requestedTitle": "Rhescuporis I (Sapaean)",
+      "chosenCivilYears": [
+        -48,
+        -42
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rhescuporis_I_%28Sapaean%29",
+      "reignEvidence": [
+        {
+          "field": "succession-template",
+          "office": "King of Thrace",
+          "raw": "48 - 41 BC",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    },
+    {
+      "person": "Q2713422",
+      "requestedTitle": "Rhoemetalces I",
+      "chosenCivilYears": [
+        -12,
+        12
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rhoemetalces_I",
+      "reignEvidence": [
+        {
+          "field": "succession-template",
+          "office": "King of Thrace",
+          "raw": "12 BC&ndash;12 AD",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    }
+  ],
+  "researchSources": [],
+  "mediaReview": [
+    {
+      "person": "Q2713422",
+      "name": "Remetalces I",
+      "title": "Rhoemetalces I coin.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rhoemetalces_I_coin.jpg",
+      "sha256": "3f56932d715b41cc5b62f2ba22f9ed436dc27e11cd518b452927dc656b152a18",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Cara regia izquierda de RemetalcesI; no Augusto representado en la cara derecha. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    }
+  ]
+}

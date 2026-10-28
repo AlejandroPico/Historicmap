@@ -1,0 +1,89 @@
+{
+  "key": "HIST-Q651377",
+  "name": "Shunga Empire",
+  "qid": "Q651377",
+  "aliases": [
+    "Shunga Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q651377"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "documented-vajramitra",
+      "name": "Vajramitra",
+      "role": "Rey Shunga · cronología tradicional",
+      "start": "-0100-01-01",
+      "end": "-0094-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Shunga_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
+    },
+    {
+      "person": "Q854679",
+      "name": "Bhagabhadra",
+      "role": "Rey Shunga · cronología tradicional",
+      "start": "-0094-01-01",
+      "end": "-0083-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bhagabhadra",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
+    },
+    {
+      "person": "Q3878846",
+      "name": "Devabhuti",
+      "role": "Rey Shunga · cronología tradicional",
+      "start": "-0083-01-01",
+      "end": "-0073-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Devabhuti",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-896",
+      "start": -100,
+      "end": -92,
+      "name": "Shunga Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-965",
+      "start": -91,
+      "end": -78,
+      "name": "Shunga Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-993",
+      "start": -77,
+      "end": -67,
+      "name": "Shunga Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,3 +1,4 @@
+import{compareDates}from'./dates';
 import {governanceMarkup} from './governance';
 import {resourceMarkup} from './entity-resources';
 import type {Snapshot} from './time';
@@ -35,7 +36,7 @@ export function countryCard(p:Record<string,any>,year:number,snapshot:Snapshot,p
   const control=['war','dispute','civil-war'].includes(p.kind)||p.controlComponent,identity=identityFor(p,year,identities);
   if(p.controlComponent)p={...p,note:[p.note,p.controlNote].filter(Boolean).join(' '),source:p.controlSource??p.source};
   const administration=identity.administration;
-  const statusText=administration&&administration.id!=='source-administration'&&administration.start<=identity.date&&(!administration.end||administration.end>identity.date)?administration.label:p.politicalStatus;
+  const statusText=administration&&administration.id!=='source-administration'&&compareDates(administration.start,identity.date)<=0&&(!administration.end||compareDates(administration.end,identity.date)>0)?administration.label:p.politicalStatus;
   const entityCode=territorialEntityCode(p,year);
   const memberships=AFFILIATION_KINDS.flatMap(kind=>affiliationsDuringYear(entityCode,kind,year).map(a=>`<div><dt>${esc(AFFILIATIONS[kind].label)}</dt><dd><a href="${esc(a.source)}" target="_blank" rel="noopener">${esc(a.label)} ↗</a><small class="membership-period">${a.startIsCoverageBoundary?'Presente al inicio de la serie':`Desde ${esc(a.start)}`}${a.end?` · hasta antes de ${esc(a.end)}`:''}</small>${a.note?`<small class="membership-period">${esc(a.note)}</small>`:''}</dd></div>`)).join('');
   const renderEvent=(e:HistoricalEvent)=>`<article class="conflict-record"><h3>${esc(e.title)}</h3><p>${esc(e.text)}</p>${e.note?`<p class="profile-note">${esc(e.note)}</p>`:''}<a class="profile-source" href="${esc(e.source)}" target="_blank" rel="noopener">${esc(e.sourceLabel)} ↗</a></article>`;

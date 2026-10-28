@@ -1,0 +1,427 @@
+{
+  "key": "HERODIAN-JUDEA",
+  "identity": {
+    "qid": "",
+    "name": "Judea · poderes herodianos"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · funciones por contrastar",
+      "titles": [
+        "Herod Archelaus",
+        "Herod the Great"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "note": "Candidatos explícitos; congelar fechas sólo tras revisión de evidencia."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q51672",
+      "name": "Herodes I el Grande",
+      "role": "Rey herodiano",
+      "start": "-0037-01-01",
+      "end": "-0004-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Herod_the_Great",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados.",
+      "portrait": {
+        "file": "media/portrait-78b0067e6bcd1fc268e7.jpg",
+        "title": "HerodtheGreat2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:HerodtheGreat2.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/HerodtheGreat2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HerodtheGreat2.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "File from [1], cf larger copy at Getty: [2]. Original publication: probably from a print edition of La court sainte by Nicolas Caussin, 17th century. See copy of the same print in a contemporary translation of the same book here: [3]",
+        "sha256": "99ecb884c9a244301d78c23825e163729ff8f5b069f50e144aec14b2aa623ece",
+        "bytes": 300248,
+        "canonicalFile": "Países/HERODIAN-JUDEA-Judea-poderes-herodianos/retratos/portrait-78b0067e6bcd1fc268e7.jpg",
+        "caption": "Grabado retrospectivo de Herodes, sin semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q244345",
+      "name": "Herodes Arquelao",
+      "role": "Etnarca de Judea · poder herodiano",
+      "start": "-0004-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-74dd59a1294b7ac17f94.svg",
+        "title": "Archelaus medal.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Archelaus_medal.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Archelaus_medal.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Georges Reverdy",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Archelaus_medal.svg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Rouillé, Guillaume (1553)       Promptuarium Iconum Insigniorum pars secunda, Lyon:  Apud Gulielmum Rovillium, p. 4  OCLC:   716696497. ",
+        "sha256": "b9fb0c47a5e89665f0f751dd45e76c89a89ae7a0092ddb4bba700a39ba857191",
+        "bytes": 339480,
+        "canonicalFile": "Países/HERODIAN-JUDEA-Judea-poderes-herodianos/retratos/portrait-74dd59a1294b7ac17f94.svg",
+        "caption": "Medallón imaginario dibujado posteriormente de Herodes Arquelao; no moneda antigua ni retrato del natural."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review041-herod",
+      "type": "institution",
+      "title": "Herodes y partición herodiana",
+      "start": "-0037-01-01",
+      "end": "0001-01-01",
+      "text": "Se usa37–4a.C. para Herodes, con alternativas de cronología en las notas. Desde4a.C. Arquelao es etnarca, no rey con el mismo título; conserva su autoridad al cruzar la era.",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "sourceLabel": "Referencia documental · siglo I a.C.",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": -100,
+      "end": -1,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hiempsal_II",
+      "sourceLabel": "Fuentes de la entidad · siglo I a.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna; límites de vigencia ajustados en reglas y contexto."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat041-7",
+      "name": "Jerusalén · poder herodiano",
+      "coordinates": [
+        35.23,
+        31.78
+      ],
+      "start": -37,
+      "end": -1,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Jerusalén",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "standaloneReference": true,
+      "entityName": "Judea · poderes herodianos"
+    },
+    {
+      "id": "seat041-7-own",
+      "name": "Jerusalén · poder herodiano",
+      "coordinates": [
+        35.23,
+        31.78
+      ],
+      "start": -37,
+      "end": -1,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Jerusalén",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "entityName": "Judea · poderes herodianos"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review041-herod",
+      "type": "institution",
+      "title": "Herodes y partición herodiana",
+      "start": "-0037-01-01",
+      "end": "0001-01-01",
+      "text": "Se usa37–4a.C. para Herodes, con alternativas de cronología en las notas. Desde4a.C. Arquelao es etnarca, no rey con el mismo título; conserva su autoridad al cruzar la era.",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/The_World_between_Empires_Art_and_Identity_in_the_Ancient_Middle_East.pdf",
+      "sourceLabel": "Referencia documental · siglo I a.C.",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Judea"
+        ],
+        "start": -37,
+        "end": -28,
+        "label": "Judea · poderes herodianos",
+        "status": "client",
+        "admin": "ROMAN-REPUBLIC-CLASSICAL",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Realeza herodiana cliente bajo el marco romano republicano; contorno de síntesis, no control local uniforme.",
+        "colorFamily": "ROME-REPUBLIC"
+      }
+    },
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Judea"
+        ],
+        "start": -27,
+        "end": -1,
+        "label": "Judea · poderes herodianos",
+        "status": "client",
+        "admin": "ROMAN-EMPIRE-CLASSICAL",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Realeza y etnarquía herodianas vinculadas a Roma; no confundir con provincia posterior ni con toda Palestina. Continuidad con1d.C. sin cambio artificial de dependencia.",
+        "colorFamily": "ROME"
+      }
+    }
+  ],
+  "geography": [],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Herod Archelaus",
+        "title": "Herod Archelaus",
+        "person": "Q244345",
+        "name": "Herodes Arquelao",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+        "identityResolution": {
+          "requested": "Herod Archelaus",
+          "canonical": "Herod Archelaus",
+          "qid": "Q244345"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q1371303",
+          "start": "-0004-01-01",
+          "end": "0006-01-01",
+          "precision": 9,
+          "statement": "Q244345$3F389114-CA67-44B7-BBB2-907B3F679EE4",
+          "label": "etnarca"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q244345",
+        "title": "Herod Archelaus",
+        "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ethnarch of Judea, Samaria, and Idumea",
+            "raw": "4 BC – 6 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ethnarch of Judaea",
+            "raw": "4 BC&ndash;6 AD",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Herod the Great",
+        "title": "Herod the Great",
+        "person": "Q51672",
+        "name": "Herodes I el Grande",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Herod_the_Great",
+        "identityResolution": {
+          "requested": "Herod the Great",
+          "canonical": "Herod the Great",
+          "qid": "Q51672"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q51672",
+        "title": "Herod the Great",
+        "source": "https://en.wikipedia.org/wiki/Herod_the_Great",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Judaea",
+            "raw": "{{plainlist|\n* 37–4 BCE ([[Emil Schürer|Schürer]])\n* 36–1 BCE ([[Andrew Steinmann|Steinmann]])<ref name=\"Steinmann2009\" />\n}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Jews",
+            "raw": "37 – 4 or 1 BCE",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Galilee",
+            "raw": "37 – 4 or 1 BCE",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Batanea",
+            "raw": "37 – 4 or 1 BCE",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Iamnia",
+            "raw": "37 – 4 or 1 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q51672",
+      "name": "Herodes I el Grande",
+      "role": "Rey herodiano",
+      "start": "-0037-01-01",
+      "end": "-0004-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Herod_the_Great",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados."
+    },
+    {
+      "person": "Q244345",
+      "name": "Herodes Arquelao",
+      "role": "Etnarca de Judea · poder herodiano",
+      "start": "-0004-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "authorityReview": [
+    {
+      "person": "Q51672",
+      "requestedTitle": "Herod the Great",
+      "chosenCivilYears": [
+        -37,
+        -4
+      ],
+      "source": "https://en.wikipedia.org/wiki/Herod_the_Great",
+      "reignEvidence": [
+        {
+          "field": "reign",
+          "office": "King of Judaea",
+          "raw": "{{plainlist|\n* 37–4 BCE ([[Emil Schürer|Schürer]])\n* 36–1 BCE ([[Andrew Steinmann|Steinmann]])<ref name=\"Steinmann2009\" />\n}}",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "King of the Jews",
+          "raw": "37 – 4 or 1 BCE",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "Ruler of Galilee",
+          "raw": "37 – 4 or 1 BCE",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "Ruler of Batanea",
+          "raw": "37 – 4 or 1 BCE",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "Ruler of Iamnia",
+          "raw": "37 – 4 or 1 BCE",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    },
+    {
+      "person": "Q244345",
+      "requestedTitle": "Herod Archelaus",
+      "chosenCivilYears": [
+        -4,
+        6
+      ],
+      "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+      "reignEvidence": [
+        {
+          "field": "reign",
+          "office": "Ethnarch of Judea, Samaria, and Idumea",
+          "raw": "4 BC – 6 AD",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "Ethnarch of Judaea",
+          "raw": "4 BC&ndash;6 AD",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    }
+  ],
+  "researchSources": [],
+  "mediaReview": [
+    {
+      "person": "Q51672",
+      "name": "Herodes I el Grande",
+      "title": "HerodtheGreat2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:HerodtheGreat2.jpg",
+      "sha256": "99ecb884c9a244301d78c23825e163729ff8f5b069f50e144aec14b2aa623ece",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Grabado retrospectivo de Herodes, sin semejanza del natural acreditada."
+    },
+    {
+      "person": "Q244345",
+      "name": "Herodes Arquelao",
+      "title": "Archelaus medal.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Archelaus_medal.svg",
+      "sha256": "b9fb0c47a5e89665f0f751dd45e76c89a89ae7a0092ddb4bba700a39ba857191",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Medallón imaginario dibujado posteriormente de Herodes Arquelao; no moneda antigua ni retrato del natural."
+    }
+  ],
+  "eraContinuityReview": "Dependencia romana desdeHerodes, con familia republicana hasta28a.C. y del Principado desde27a.C.; identidad herodiana conservada."
+}

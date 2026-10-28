@@ -1,0 +1,100 @@
+{
+  "key": "HIST-Q784974",
+  "name": "Kanva Dynasty",
+  "qid": "Q784974",
+  "aliases": [
+    "Kanva Dynasty"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q784974"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q7917015",
+      "name": "Vasudeva Kaṇva",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0075-01-01",
+      "end": "-0066-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vasudeva_Kanva",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
+    },
+    {
+      "person": "documented-bhumimitra",
+      "name": "Bhumimitra",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0066-01-01",
+      "end": "-0052-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
+    },
+    {
+      "person": "documented-narayana-kanva-king",
+      "name": "Narayana",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0052-01-01",
+      "end": "-0040-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
+    },
+    {
+      "person": "documented-susharman",
+      "name": "Susharman",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0040-01-01",
+      "end": "-0030-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-1003",
+      "start": -66,
+      "end": -51,
+      "name": "Kanva Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-1043",
+      "start": -50,
+      "end": -31,
+      "name": "Kanva Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-1086",
+      "start": -30,
+      "end": -28,
+      "name": "Kanva Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

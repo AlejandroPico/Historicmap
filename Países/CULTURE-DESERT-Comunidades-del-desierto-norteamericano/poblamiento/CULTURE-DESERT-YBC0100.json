@@ -1,0 +1,68 @@
+{
+  "key": "CULTURE-DESERT-YBC0100",
+  "contextKey": "CULTURE-DESERT",
+  "ownerKey": "CULTURE-DESERT",
+  "name": "Comunidades del desierto norteamericano",
+  "originalNames": [
+    "Desert hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -100,
+    -1
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no Estado unitario, identidad homogénea o frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de100a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps100a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#929e87",
+  "focus": [
+    -109.28403,
+    33.21843
+  ],
+  "phases": [
+    {
+      "start": -100,
+      "end": -2,
+      "label": "Comunidades del desierto norteamericano",
+      "dateBasis": "Referencia espacial de100a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-DESERT-YBC0100.geojson",
+  "geometrySha256": "cf328281050ee9c268d3a35ffc8d27d7eff035a5edbb698dfdbe0cc8f940a863",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson",
+    "year": -100,
+    "featureIds": [
+      70
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "80ce07508ef86b4c4943193d7562578dc1150976bd0eb07581c620acf3044874"
+  },
+  "review": "0.41.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Desert hunter-gatherers",
+      "ABBREVN": "Desert hunter-gatherers",
+      "SUBJECTO": "Desert hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Desert hunter-gatherers"
+    }
+  ],
+  "sourceGrouping": [
+    "Desert hunter-gatherers"
+  ]
+}

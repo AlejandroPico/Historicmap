@@ -1,0 +1,339 @@
+{
+  "key": "HIST-Q28370",
+  "identity": {
+    "qid": "Q28370",
+    "name": "Goguryeo"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · funciones por contrastar",
+      "titles": [
+        "Dongmyeong of Goguryeo",
+        "Yuri of Goguryeo"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "note": "Candidatos explícitos; congelar fechas sólo tras revisión de evidencia."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q378502",
+      "name": "Dongmyeong de Goguryeo",
+      "role": "Rey de Goguryeo · cronología retrospectiva",
+      "start": "-0037-01-01",
+      "end": "-0019-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dongmyeong_of_Goguryeo",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    },
+    {
+      "person": "Q498412",
+      "name": "Yuri de Koguryo",
+      "role": "Rey de Goguryeo · cronología retrospectiva",
+      "start": "-0019-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -100,
+      "end": -1,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hiempsal_II",
+      "sourceLabel": "Fuentes de la entidad · siglo I a.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna; límites de vigencia ajustados en reglas y contexto."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat041-21",
+      "name": "Jolbon · Goguryeo temprano",
+      "coordinates": [
+        125.4,
+        41.27
+      ],
+      "start": -37,
+      "end": -1,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Jolbon",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "standaloneReference": true,
+      "entityName": "Goguryeo"
+    },
+    {
+      "id": "seat041-21-own",
+      "name": "Jolbon · Goguryeo temprano",
+      "coordinates": [
+        125.4,
+        41.27
+      ],
+      "start": -37,
+      "end": -1,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Jolbon",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "entityName": "Goguryeo"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Goguryeo"
+        ],
+        "start": -100,
+        "end": -1,
+        "label": "Goguryeo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0100-bc0001.geojson",
+      "sha256": "12c8eab6045d382db850a8683b81e3d8a7c53472650d284001d6baa4754dd4e8",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1069
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dongmyeong of Goguryeo",
+        "title": "Dongmyeong of Goguryeo",
+        "person": "Q378502",
+        "name": "Dongmyeong de Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dongmyeong_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Dongmyeong of Goguryeo",
+          "canonical": "Dongmyeong of Goguryeo",
+          "qid": "Q378502"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q141739813",
+          "start": "-0037-01-01",
+          "end": "-0019-01-01",
+          "precision": 9,
+          "statement": "Q378502$b5dc1aaa-fa07-4f86-928a-2162286912ee",
+          "label": "King of Goguryeo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q378502",
+        "title": "Dongmyeong of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Dongmyeong_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "37 BC – 19 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "37 BC – 19 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yuri of Goguryeo",
+        "title": "Yuri of Goguryeo",
+        "person": "Q498412",
+        "name": "Yuri de Koguryo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Yuri of Goguryeo",
+          "canonical": "Yuri of Goguryeo",
+          "qid": "Q498412"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q141739813",
+          "start": "-0019-01-01",
+          "end": "0018-01-01",
+          "precision": 9,
+          "statement": "Q498412$ae96b0ae-4b65-2d61-29bc-113673149f81",
+          "label": "King of Goguryeo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498412",
+        "title": "Yuri of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "September 19 B.C. - October 18 A.D. (37 years)",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Crown Prince of Goguryeo",
+            "raw": "? B.C. - September 19 B.C.",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "19 BC – 18",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q378502",
+      "name": "Dongmyeong de Goguryeo",
+      "role": "Rey de Goguryeo · cronología retrospectiva",
+      "start": "-0037-01-01",
+      "end": "-0019-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dongmyeong_of_Goguryeo",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    },
+    {
+      "person": "Q498412",
+      "name": "Yuri de Koguryo",
+      "role": "Rey de Goguryeo · cronología retrospectiva",
+      "start": "-0019-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "authorityReview": [
+    {
+      "person": "Q378502",
+      "requestedTitle": "Dongmyeong of Goguryeo",
+      "chosenCivilYears": [
+        -37,
+        -19
+      ],
+      "source": "https://en.wikipedia.org/wiki/Dongmyeong_of_Goguryeo",
+      "reignEvidence": [
+        {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "37 BC – 19 BC",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "King of Goguryeo",
+          "raw": "37 BC – 19 BC",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    },
+    {
+      "person": "Q498412",
+      "requestedTitle": "Yuri of Goguryeo",
+      "chosenCivilYears": [
+        -19,
+        18
+      ],
+      "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo",
+      "reignEvidence": [
+        {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "September 19 B.C. - October 18 A.D. (37 years)",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "reign1",
+          "office": "Crown Prince of Goguryeo",
+          "raw": "? B.C. - September 19 B.C.",
+          "parsed": null,
+          "reignType": ""
+        },
+        {
+          "field": "succession-template",
+          "office": "King of Goguryeo",
+          "raw": "19 BC – 18",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    }
+  ],
+  "researchSources": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q378502",
+      "title": "Tomb of King Tongmyong, Pyongyang, North Korea.jpg",
+      "reason": "Fotografía de tumba y monumento moderno, no retrato individual del rey Dongmyeong.",
+      "source": "https://commons.wikimedia.org/wiki/File:Tomb_of_King_Tongmyong,_Pyongyang,_North_Korea.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q378502",
+      "name": "Dongmyeong de Goguryeo",
+      "title": "Tomb of King Tongmyong, Pyongyang, North Korea.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tomb_of_King_Tongmyong,_Pyongyang,_North_Korea.jpg",
+      "sha256": "ae4e68a7ae29ba20a67e0192db0ad193cb822cc01448356bf34e08a5112748a3",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Fotografía de tumba y monumento moderno, no retrato individual del rey Dongmyeong."
+    }
+  ]
+}

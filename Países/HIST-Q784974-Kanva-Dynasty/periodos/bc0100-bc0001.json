@@ -1,0 +1,369 @@
+{
+  "key": "HIST-Q784974",
+  "identity": {
+    "qid": "Q784974",
+    "name": "Kanva Dynasty"
+  },
+  "revision": "0.41.0",
+  "acquisition": "century-bc100-0.41",
+  "coverageStart": -100,
+  "coverageEnd": -1,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · funciones por contrastar",
+      "titles": [
+        "Bhumimitra",
+        "Narayana (Kanva king)",
+        "Susharman",
+        "Vasudeva Kanva"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "note": "Candidatos explícitos; congelar fechas sólo tras revisión de evidencia."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7917015",
+      "name": "Vasudeva Kaṇva",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0075-01-01",
+      "end": "-0066-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vasudeva_Kanva",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    },
+    {
+      "person": "documented-bhumimitra",
+      "name": "Bhumimitra",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0066-01-01",
+      "end": "-0052-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    },
+    {
+      "person": "documented-narayana-kanva-king",
+      "name": "Narayana",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0052-01-01",
+      "end": "-0040-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    },
+    {
+      "person": "documented-susharman",
+      "name": "Susharman",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0040-01-01",
+      "end": "-0030-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -100,
+      "end": -1,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hiempsal_II",
+      "sourceLabel": "Fuentes de la entidad · siglo I a.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna; límites de vigencia ajustados en reglas y contexto."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat041-26",
+      "name": "Pataliputra · referencia Kanva",
+      "coordinates": [
+        85.14,
+        25.61
+      ],
+      "start": -75,
+      "end": -30,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Pataliputra",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "standaloneReference": true,
+      "entityName": "Kanva Dynasty"
+    },
+    {
+      "id": "seat041-26-own",
+      "name": "Pataliputra · referencia Kanva",
+      "coordinates": [
+        85.14,
+        25.61
+      ],
+      "start": -75,
+      "end": -30,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Pataliputra",
+      "note": "Coordenada regional aproximada; no acredita residencia permanente, capital exclusiva ni perímetro de soberanía. Las cortes coreanas y cronologías tempranas tienen tradición retrospectiva.",
+      "entityName": "Kanva Dynasty"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kanva Dynasty"
+        ],
+        "start": -100,
+        "end": -1,
+        "label": "Kanva Dynasty",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    },
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Shunga Empire"
+        ],
+        "start": -74,
+        "end": -67,
+        "label": "Kanva · referencia sobre el contorno anterior",
+        "status": "source-reference",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Identidad fechada sobre el contorno original; no observación anual independiente."
+      }
+    },
+    {
+      "files": [
+        "historical-bc100-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kanva Dynasty"
+        ],
+        "start": -29,
+        "end": -28,
+        "label": "Magadha · tras los Kanva",
+        "status": "source-reference",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc100.md",
+        "note": "Identidad fechada sobre el contorno original; no observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0100-bc0001.geojson",
+      "sha256": "dafe4aefa8b95a93527165649c9e52300ad73260c9f47c7669dae73ceb25cd39",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1003,
+        1043,
+        1086
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bhumimitra",
+        "title": "Bhumimitra",
+        "person": "",
+        "name": "Bhumimitra",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Bhumimitra",
+        "identityResolution": {
+          "requested": "Bhumimitra",
+          "canonical": "Bhumimitra",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Narayana (Kanva king)",
+        "title": "Narayana (Kanva king)",
+        "person": "",
+        "name": "Narayana (Kanva king)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Narayana_%28Kanva_king%29",
+        "identityResolution": {
+          "requested": "Narayana (Kanva king)",
+          "canonical": "Narayana (Kanva king)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Susharman",
+        "title": "Susharman",
+        "person": "",
+        "name": "Susharman",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Susharman",
+        "identityResolution": {
+          "requested": "Susharman",
+          "canonical": "Susharman",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vasudeva Kanva",
+        "title": "Vasudeva Kanva",
+        "person": "Q7917015",
+        "name": "Vasudeva Kaṇva",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vasudeva_Kanva",
+        "identityResolution": {
+          "requested": "Vasudeva Kanva",
+          "canonical": "Vasudeva Kanva",
+          "qid": "Q7917015"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7917015",
+        "title": "Vasudeva Kanva",
+        "source": "https://en.wikipedia.org/wiki/Vasudeva_Kanva",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Magadha",
+            "raw": "{{circa|75|66 BCE}} (9 years)",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q7917015",
+      "name": "Vasudeva Kaṇva",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0075-01-01",
+      "end": "-0066-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vasudeva_Kanva",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    },
+    {
+      "person": "documented-bhumimitra",
+      "name": "Bhumimitra",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0066-01-01",
+      "end": "-0052-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    },
+    {
+      "person": "documented-narayana-kanva-king",
+      "name": "Narayana",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0052-01-01",
+      "end": "-0040-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    },
+    {
+      "person": "documented-susharman",
+      "name": "Susharman",
+      "role": "Rey Kanva · cronología tradicional",
+      "start": "-0040-01-01",
+      "end": "-0030-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto."
+    }
+  ],
+  "authorityReview": [
+    {
+      "person": "Q7917015",
+      "requestedTitle": "Vasudeva Kanva",
+      "chosenCivilYears": [
+        -75,
+        -66
+      ],
+      "source": "https://en.wikipedia.org/wiki/Vasudeva_Kanva",
+      "reignEvidence": [
+        {
+          "field": "reign",
+          "office": "Emperor of Magadha",
+          "raw": "{{circa|75|66 BCE}} (9 years)",
+          "parsed": null,
+          "reignType": ""
+        }
+      ],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    },
+    {
+      "person": "documented-bhumimitra",
+      "requestedTitle": "Bhumimitra",
+      "chosenCivilYears": [
+        -66,
+        -52
+      ],
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "reignEvidence": [],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    },
+    {
+      "person": "documented-narayana-kanva-king",
+      "requestedTitle": "Narayana (Kanva king)",
+      "chosenCivilYears": [
+        -52,
+        -40
+      ],
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "reignEvidence": [],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    },
+    {
+      "person": "documented-susharman",
+      "requestedTitle": "Susharman",
+      "chosenCivilYears": [
+        -40,
+        -30
+      ],
+      "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Kanva_dynasty",
+      "reignEvidence": [],
+      "decision": "Selección documental explícita; no parser que convierta BC en AD ni fechas personales en mandatos."
+    }
+  ],
+  "researchSources": []
+}

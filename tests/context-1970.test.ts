@@ -1,3 +1,4 @@
+import{compareDates,dateParts}from'../src/dates';
 import{firstAnnualYear}from'./coverage';
 import {readFileSync} from 'node:fs';
 import {describe,it,expect} from 'vitest';
@@ -9,7 +10,7 @@ const context=read('historical-context.json');
 const history:CountryHistory=read('country-history.json');
 const ids=(year:number,code:string)=>eventsForCountry({code},year).map(e=>e.id);
 const text=(year:number,code:string)=>eventsForCountry({code},year).map(e=>e.text).join(' ');
-const dateIsValid=(s:string)=>/^\d{4}-\d{2}-\d{2}$/.test(s)&&new Date(s+'T00:00:00Z').toISOString().slice(0,10)===s;
+const dateIsValid=(s:string)=>{if(!/^-?\d{4}-\d{2}-\d{2}$/.test(s))return false;try{const[y,m,d]=dateParts(s),probe=new Date(0);probe.setUTCFullYear(y<0?y+1:y,m-1,d);return probe.getUTCMonth()===m-1&&probe.getUTCDate()===d;}catch{return false;}};
 
 describe('1970–1989 contextual phases and institutional chronology',()=>{
  it('preserves dated, sourced records and the acquisition horizon',()=>{
@@ -17,8 +18,8 @@ describe('1970–1989 contextual phases and institutional chronology',()=>{
   expect(new Set(historicalEvents.map(e=>e.id)).size).toBe(historicalEvents.length);
   for(const e of historicalEvents){
    expect(dateIsValid(e.start),e.id).toBe(true);
-   expect(e.start<=context.referenceDate,e.id).toBe(true);
-   if(e.end){expect(dateIsValid(e.end),e.id).toBe(true);expect(e.end>e.start,e.id).toBe(true);}
+   expect(compareDates(e.start,context.referenceDate),e.id).toBeLessThanOrEqual(0);
+   if(e.end){expect(dateIsValid(e.end),e.id).toBe(true);expect(compareDates(e.end,e.start),e.id).toBeGreaterThan(0);}
    expect(e.countries.length,e.id).toBeGreaterThan(0);expect(new Set(e.countries).size,e.id).toBe(e.countries.length);
    expect(e.source,e.id).toMatch(/^https:\/\//);expect(e.sourceLabel.length,e.id).toBeGreaterThan(4);
   }

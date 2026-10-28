@@ -454,6 +454,31 @@
       "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
       "curated": true,
       "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q378502",
+      "name": "Dongmyeong de Goguryeo",
+      "role": "Rey de Goguryeo · cronología retrospectiva",
+      "start": "-0037-01-01",
+      "end": "-0019-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dongmyeong_of_Goguryeo",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
+    },
+    {
+      "person": "Q498412",
+      "name": "Yuri de Koguryo",
+      "role": "Rey de Goguryeo · cronología retrospectiva",
+      "start": "-0019-01-01",
+      "end": "-0001-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados. Cronología tradicional retrospectiva, con variantes; no se ha convertido la duración textual en un reinado exacto.",
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
     }
   ],
   "portraitVariants": [],
@@ -713,6 +738,14 @@
       "end": 99,
       "name": "Goguryeo",
       "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-1069",
+      "start": -36,
+      "end": -1,
+      "name": "Goguryeo",
+      "status": "Entidad histórica · reconstrucción anual"
     }
   ],
   "culturalReviews": [
@@ -735,6 +768,13 @@
       "ownerKey": "HIST-Q28370",
       "name": "Koguryo",
       "file": "Países/HIST-Q28370-Goguryeo/poblamiento/CULTURE-KOGURYO-AFF5F72F-Y0200.json",
+      "decision": "political-base"
+    },
+    {
+      "key": "CULTURE-KOGURYO-AFF5F72F-YBC0001",
+      "ownerKey": "HIST-Q28370",
+      "name": "Koguryo",
+      "file": "Países/HIST-Q28370-Goguryeo/poblamiento/CULTURE-KOGURYO-AFF5F72F-YBC0001.json",
       "decision": "political-base"
     },
     {

@@ -1,3 +1,4 @@
+from civil_dates import check_window,period_name,date_key,year_text
 """Explicit, bounded acquisition for entity-owned named office candidates.
 
 Never called by the build. Missing metadata stays pending, not inferred.
@@ -31,10 +32,10 @@ def request(params,host,key):
  save(f,d);return d
 def main(century,review,end_year=None):
  end_year=century+99 if end_year is None else end_year
- if not 1<=century<=end_year<=century+99:raise ValueError('Invalid common-era acquisition window')
+ check_window(century,end_year)
  spec=importlib.util.spec_from_file_location('box',ROOT/'scripts/office-infobox.py');box=importlib.util.module_from_spec(spec);spec.loader.exec_module(box)
  eligible=importlib.util.spec_from_file_location('eligible',ROOT/'scripts/authority-eligibility.py');elig=importlib.util.module_from_spec(eligible);eligible.loader.exec_module(elig)
- paths=sorted((ROOT/'Países').glob(f'*/periodos/{century:04d}-{end_year:04d}.json'));dossiers={f:read(f)for f in paths};titles=sorted({t for d in dossiers.values()for c in d.get('candidates',[])for t in c['titles']});resolved={};entities={};errors=[]
+ paths=sorted((ROOT/'Países').glob(f'*/periodos/{period_name(century,end_year)}.json'));dossiers={f:read(f)for f in paths};titles=sorted({t for d in dossiers.values()for c in d.get('candidates',[])for t in c['titles']});resolved={};entities={};errors=[]
  for i in range(0,len(titles),40):
   ts=titles[i:i+40]
   try:
@@ -55,8 +56,9 @@ def main(century,review,end_year=None):
  def label(e):return next((e['labels'][l]['value']for l in['es','en','mul']if l in e.get('labels',{})),e.get('id',''))
  def qual(c,prop):
   v=c.get('qualifiers',{}).get(prop,[{}])[0].get('datavalue',{}).get('value',{});t=v.get('time','').lstrip('+')
-  if not re.match(r'\d{4}-',t):return None
-  return t[:10].replace('-00','-01'),v.get('precision',11)
+  m=re.fullmatch(r'(-?\d+)-(\d{2})-(\d{2})T.*',t)
+  if not m or not int(m[1]):return None
+  return year_text(int(m[1]))+'-'+str(max(1,int(m[2]))).zfill(2)+'-'+str(max(1,int(m[3]))).zfill(2),v.get('precision',11)
  out=[]
  for t in titles:
   q,canonical=resolved.get(t,('',t));e=entities.get(q,{});human=elig.real_authority(e);row=dict(requestedTitle=t,title=t,person=q,name=label(e)or t,human=human,source='https://en.wikipedia.org/wiki/'+urllib.parse.quote(canonical.replace(' ','_')),identityResolution=dict(requested=t,canonical=canonical,qid=q));claims=[]
@@ -66,7 +68,7 @@ def main(century,review,end_year=None):
    for prop in['P39','P97']:
     for c in e.get('claims',{}).get(prop,[]):
      a,b=qual(c,'P580'),qual(c,'P582');office=c.get('mainsnak',{}).get('datavalue',{}).get('value',{}).get('id')
-     if c.get('rank')!='deprecated'and a and b and a[0][:4]<=str(end_year).zfill(4)and b[0][:4]>=str(century).zfill(4):claims.append(dict(property=prop,office=office,start=a[0],end=b[0],precision=min(a[1],b[1]),statement=c.get('id')))
+     if c.get('rank')!='deprecated'and a and b and date_key(a[0])[0]<=end_year and date_key(b[0])[0]>=century:claims.append(dict(property=prop,office=office,start=a[0],end=b[0],precision=min(a[1],b[1]),statement=c.get('id')))
   out.append(dict(candidate=row,claims=claims,fields=[]))
  offices=sorted({c['office']for r in out for c in r['claims']if c['office']});labels={}
  for i in range(0,len(offices),40):

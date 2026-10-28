@@ -1,0 +1,96 @@
+{
+  "key": "HIST-Q26847",
+  "name": "Galatia",
+  "qid": "Q26847",
+  "aliases": [
+    "Galatia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q26847"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1183348",
+      "name": "Deyótaro",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0063-01-01",
+      "end": "-0040-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Deiotarus",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados.",
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
+    },
+    {
+      "person": "Q3781179",
+      "name": "Brogitarix",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0063-01-01",
+      "end": "-0052-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Brogitarus",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados.",
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
+    },
+    {
+      "person": "Q482101",
+      "name": "Amintas de Galacia",
+      "role": "Rey o reina · autoridad histórica documentada",
+      "start": "-0036-01-01",
+      "end": "-0025-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Amyntas_of_Galatia",
+      "note": "Ventana documental aproximada; las fechas conservan variantes de calendario y bibliografía. No acredita control uniforme de todo el contorno ni gobierno simultáneo de todos los nombres listados.",
+      "curated": true,
+      "acquisition": "century-bc100-0.41"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-994",
+      "start": -77,
+      "end": -64,
+      "name": "Galatia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-1021",
+      "start": -63,
+      "end": -50,
+      "name": "Galatia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-1044",
+      "start": -49,
+      "end": -28,
+      "name": "Galatia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc100.geojson",
+      "recordId": "clio-1091",
+      "start": -27,
+      "end": -26,
+      "name": "Galatia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

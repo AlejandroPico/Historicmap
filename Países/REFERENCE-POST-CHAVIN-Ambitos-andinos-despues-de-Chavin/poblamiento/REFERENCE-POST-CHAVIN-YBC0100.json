@@ -1,0 +1,77 @@
+{
+  "key": "REFERENCE-POST-CHAVIN-YBC0100",
+  "contextKey": "REFERENCE-POST-CHAVIN",
+  "ownerKey": "REFERENCE-POST-CHAVIN",
+  "name": "Ámbitos andinos · después de Chavín",
+  "originalNames": [
+    "Chavin"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación100a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -100,
+    99
+  ],
+  "interpretation": "La tradición Chavín es anterior; se conserva la referencia espacial de la compilación como ámbito histórico, no una cultura uniforme activa durante todo el intervalo.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de100a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps100a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -75.79557,
+    -10.11854
+  ],
+  "phases": [
+    {
+      "start": -100,
+      "end": -1,
+      "label": "Ámbitos andinos · después de Chavín",
+      "dateBasis": "Referencia espacial de100a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": 1,
+      "end": 99,
+      "label": "Ámbitos andinos · después de Chavín",
+      "dateBasis": "Consulta del ámbito histórico anterior; continuidad de habitantes o límites actuales no inferida.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -100,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-CHAVIN-YBC0100.geojson",
+  "geometrySha256": "a1bfa28fe5df056eb1490e68a67410293d63b5afe9bf65c568d6fae6cb263adf",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson",
+    "year": -100,
+    "featureIds": [
+      220
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "80ce07508ef86b4c4943193d7562578dc1150976bd0eb07581c620acf3044874"
+  },
+  "review": "0.41.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Chavin",
+      "ABBREVN": "Chavin",
+      "SUBJECTO": "Chavin",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Chavin"
+    }
+  ],
+  "sourceGrouping": [
+    "Chavin"
+  ]
+}

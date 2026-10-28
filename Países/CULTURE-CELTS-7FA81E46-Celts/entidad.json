@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-CELTS-7FA81E46",
+  "name": "Celts",
+  "qid": "",
+  "aliases": [
+    "Celts"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CELTS-7FA81E46-YBC0100:0",
+      "contextKey": "CULTURE-CELTS-7FA81E46",
+      "start": -100,
+      "end": -1,
+      "sourceYear": -100,
+      "canonicalFile": "Países/CULTURE-CELTS-7FA81E46-Celts/poblamiento/CULTURE-CELTS-7FA81E46-YBC0100.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CELTS-7FA81E46-YBC0100:1",
+      "contextKey": "CULTURE-CELTS-7FA81E46",
+      "start": 1,
+      "end": 99,
+      "sourceYear": -100,
+      "canonicalFile": "Países/CULTURE-CELTS-7FA81E46-Celts/poblamiento/CULTURE-CELTS-7FA81E46-YBC0100.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

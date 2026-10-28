@@ -1,0 +1,60 @@
+{
+  "key": "CULTURE-SABA-5D7F956D",
+  "name": "Saba",
+  "qid": "",
+  "aliases": [
+    "Saba"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 11,
+      "start": null,
+      "end": null,
+      "name": "Saba",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 12,
+      "start": null,
+      "end": null,
+      "name": "Saba",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-SABA-5D7F956D-YBC0100:0",
+      "contextKey": "CULTURE-SABA-5D7F956D",
+      "start": -100,
+      "end": -1,
+      "sourceYear": -100,
+      "canonicalFile": "Países/CULTURE-SABA-5D7F956D-Saba/poblamiento/CULTURE-SABA-5D7F956D-YBC0100.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-SABA-5D7F956D-YBC0100:1",
+      "contextKey": "CULTURE-SABA-5D7F956D",
+      "start": 1,
+      "end": 99,
+      "sourceYear": -100,
+      "canonicalFile": "Países/CULTURE-SABA-5D7F956D-Saba/poblamiento/CULTURE-SABA-5D7F956D-YBC0100.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
