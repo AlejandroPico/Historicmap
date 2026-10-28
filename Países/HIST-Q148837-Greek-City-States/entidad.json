@@ -1,13 +1,17 @@
 {
-  "key": "territorio-b2fd799eb9e4",
-  "name": "Greek city-states",
-  "qid": "",
+  "key": "HIST-Q148837",
+  "name": "Greek City-States",
+  "qid": "Q148837",
   "aliases": [
+    "Greek City-States",
     "Greek city-states"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
-  "sourceIdentity": null,
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q148837"
+  },
   "flags": [],
   "symbolReferences": [],
   "leaders": [],
@@ -44,6 +48,22 @@
       "end": null,
       "name": "Greek city-states",
       "status": null
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1052",
+      "start": 1,
+      "end": 77,
+      "name": "Greek City-States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1191",
+      "start": 78,
+      "end": 83,
+      "name": "Greek City-States",
+      "status": "Entidad histórica · reconstrucción anual"
     }
   ],
   "relatedData": [

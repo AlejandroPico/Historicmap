@@ -1,0 +1,80 @@
+{
+  "key": "HIST-Q104815700",
+  "name": "Thracian Kingdom",
+  "qid": "Q104815700",
+  "aliases": [
+    "Thracian Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q104815700"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q2998641",
+      "name": "Cotis III",
+      "role": "Rey tracio · poderes dinásticos",
+      "start": "0012-01-01",
+      "end": "0018-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cotys_III_%28Sapaean%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    },
+    {
+      "person": "Q3429926",
+      "name": "Rhoemetalces II",
+      "role": "Rey tracio · poderes dinásticos",
+      "start": "0019-01-01",
+      "end": "0038-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rhoemetalces_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    },
+    {
+      "person": "Q3429923",
+      "name": "Rhoemetalces III",
+      "role": "Rey tracio · poderes dinásticos",
+      "start": "0038-01-01",
+      "end": "0046-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rhoemetalces_III",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1092",
+      "start": 1,
+      "end": 42,
+      "name": "Thracian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1144",
+      "start": 43,
+      "end": 50,
+      "name": "Thracian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

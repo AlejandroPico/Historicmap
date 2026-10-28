@@ -1,0 +1,81 @@
+{
+  "key": "HIST-Q332137",
+  "name": "Kingdom of Commagene",
+  "qid": "Q332137",
+  "aliases": [
+    "Kingdom of Commagene"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q332137"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q580014",
+      "name": "Antíoco IV de Comagene",
+      "role": "Rey de Comagene",
+      "start": "0038-01-01",
+      "end": "0072-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Antiochus_IV_of_Commagene",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-1-0.40",
+      "portrait": {
+        "file": "media/portrait-46137c4eb4c5facfdf39.jpg",
+        "title": "Antioco IV Commagene - AE 22.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Antioco_IV_Commagene_-_AE_22.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Antioco_IV_Commagene_-_AE_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG coins[1]",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://wildwinds.com/coins/greece/commagene/kings/antiochos_IV/t.html",
+        "sha256": "e6c4dfd9f2d77ba245c4b2cd68e674d49c9f1b4a4aac8f997b5a25f6253adc72",
+        "bytes": 37564,
+        "canonicalFile": "Países/HIST-Q332137-Kingdom-of-Commagene/retratos/portrait-46137c4eb4c5facfdf39.jpg",
+        "caption": "Efigie monetaria convencional de Antíoco IV de Comagene; no fotografÃ­a ni semejanza del natural acreditada. Se muestra sÃ³lo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1024",
+      "start": 1,
+      "end": 22,
+      "name": "Kingdom of Commagene",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1158",
+      "start": 43,
+      "end": 67,
+      "name": "Kingdom of Commagene",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1189",
+      "start": 68,
+      "end": 77,
+      "name": "Kingdom of Commagene",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

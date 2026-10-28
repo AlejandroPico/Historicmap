@@ -1,0 +1,67 @@
+{
+  "key": "CULTURE-KOGURYO-AFF5F72F-Y0001",
+  "contextKey": "CULTURE-KOGURYO-AFF5F72F",
+  "ownerKey": "HIST-Q28370",
+  "name": "Koguryo",
+  "originalNames": [
+    "Koguryo"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "political-base",
+  "reviewedRange": [
+    1,
+    99
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La referencia fuente es1a.C., no un año cero ni un mapa observado durante todo1–99d.C. La instantánea de1a.C. contiene etiquetas de épocas distintas. La ventana1–99d.C. es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de1a.C.",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Goguryeo"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q28370"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    127.04205,
+    39.9783
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-KOGURYO-AFF5F72F-Y0001.geojson",
+  "geometrySha256": "bfe813a1c8d1d2d34e49dd065dcc19109e38d5bfd7966b55c79c67b598cdcadf",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson",
+    "year": -1,
+    "featureIds": [
+      441
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "830fac0104ebafff7b576333cd5ab4a9bf4b6f732ddf828cec47797cf65047cb"
+  },
+  "review": "0.40.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final99 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en100."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Koguryo",
+      "ABBREVN": "Koguryo",
+      "SUBJECTO": "Koguryo",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Koguryo"
+    }
+  ],
+  "sourceGrouping": [
+    "Koguryo"
+  ]
+}

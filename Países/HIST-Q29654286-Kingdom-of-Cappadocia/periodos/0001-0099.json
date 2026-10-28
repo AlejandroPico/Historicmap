@@ -1,0 +1,249 @@
+{
+  "key": "HIST-Q29654286",
+  "identity": {
+    "qid": "Q29654286",
+    "name": "Kingdom of Cappadocia"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Capadocia",
+      "officePattern": "King.*Cappadocia",
+      "titles": [
+        "Archelaus of Cappadocia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q346463",
+      "name": "Arquelao Ktistes",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0017-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Archelaus_of_Cappadocia",
+      "note": "Rey de Capadocia; incorporación provincial romana tras17, sin prolongar el reinado hasta el final del contorno22.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-b371c2d9282c2d21803c.jpg",
+        "title": "Archaelaus of Cappadocia - Drachm.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Archaelaus_of_Cappadocia_-_Drachm.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Archaelaus_of_Cappadocia_-_Drachm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG Coins[1]",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://wildwinds.com/coins/greece/cappadocia/kings/archelaus/i.html",
+        "sha256": "b15acc93ff054481ce6015b8bea4b21600f60332f79b7f1b5ecae6ce282b8140",
+        "bytes": 34893,
+        "canonicalFile": "Países/HIST-Q29654286-Kingdom-of-Cappadocia/retratos/portrait-b371c2d9282c2d21803c.jpg",
+        "caption": "Efigie monetaria convencional de Arquelao Ktistes; no fotografÃ­a ni semejanza del natural acreditada. Se muestra sÃ³lo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 1,
+      "end": 17,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Archelaus_of_Cappadocia",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Cappadocia"
+        ],
+        "start": 1,
+        "end": 17,
+        "label": "Kingdom of Cappadocia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Cappadocia"
+        ],
+        "start": 18,
+        "end": 99,
+        "label": "Kingdom of Cappadocia · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Contorno de síntesis, no dinastía prolongada ni Estado homogéneo. Fechas y alcance de la fuente desiguales."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "790f009f6ad95d4aa70fe33dddf288cec35548649b336dcb07c83d77c6b2e978",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1098,
+        1125
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Archelaus of Cappadocia",
+        "title": "Archelaus of Cappadocia",
+        "person": "Q346463",
+        "name": "Arquelao Ktistes",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Archelaus_of_Cappadocia",
+        "identityResolution": {
+          "requested": "Archelaus of Cappadocia",
+          "canonical": "Archelaus of Cappadocia",
+          "qid": "Q346463"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q346463",
+        "title": "Archelaus of Cappadocia",
+        "source": "https://en.wikipedia.org/wiki/Archelaus_of_Cappadocia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Cappadocia",
+            "raw": "36 BC{{snd}}17 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King consort of Pontus",
+            "raw": "8 BC{{snd}}17 AD",
+            "parsed": null,
+            "reignType": "Tenure"
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Cappadocia",
+            "raw": "38 BC{{snd}}AD 17",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Archelaus of Cappadocia",
+        "person": "Q346463",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q346463",
+      "originalRecords": [],
+      "decision": "Rey de Capadocia; incorporación provincial romana tras17, sin prolongar el reinado hasta el final del contorno22.",
+      "source": "https://en.wikipedia.org/wiki/Archelaus_of_Cappadocia"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q346463",
+      "name": "Arquelao Ktistes",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0017-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Archelaus_of_Cappadocia",
+      "note": "Rey de Capadocia; incorporación provincial romana tras17, sin prolongar el reinado hasta el final del contorno22.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q346463",
+      "name": "Arquelao Ktistes",
+      "title": "Archaelaus of Cappadocia - Drachm.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Archaelaus_of_Cappadocia_-_Drachm.jpg",
+      "sha256": "b15acc93ff054481ce6015b8bea4b21600f60332f79b7f1b5ecae6ce282b8140",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Arquelao Ktistes; no fotografÃ­a ni semejanza del natural acreditada. Se muestra sÃ³lo la cara con la efigie, sin alterar el archivo original."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-20",
+      "name": "Mazaca · reino de Capadocia",
+      "coordinates": [
+        35.49,
+        38.72
+      ],
+      "start": 1,
+      "end": 17,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Archelaus_of_Cappadocia",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Kingdom of Cappadocia"
+    },
+    {
+      "id": "seat040-20-own",
+      "name": "Mazaca · reino de Capadocia",
+      "coordinates": [
+        35.49,
+        38.72
+      ],
+      "start": 1,
+      "end": 17,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Archelaus_of_Cappadocia",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Kingdom of Cappadocia"
+    }
+  ]
+}

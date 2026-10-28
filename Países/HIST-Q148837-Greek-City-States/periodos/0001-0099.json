@@ -1,0 +1,66 @@
+{
+  "key": "HIST-Q148837",
+  "identity": {
+    "qid": "Q148837",
+    "name": "Greek City-States"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Greek City-States"
+        ],
+        "start": 1,
+        "end": 99,
+        "label": "Greek City-States · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Contorno de síntesis, no dinastía prolongada ni Estado homogéneo. Fechas y alcance de la fuente desiguales."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "c5cddb1c42c858107281a2c813ae6258564d017fa1a0c2dcd88f5daccca5faf9",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1052,
+        1191
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": []
+  }
+}

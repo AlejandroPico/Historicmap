@@ -2,15 +2,15 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.39.0** · 28 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.40.0** · 28 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
-Revisión vigente: **pueblos y regiones de 300 al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-300-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
+Revisión vigente: **pueblos y regiones de 1 d.C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-1-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
 
-Ampliación 300–399: [geografía, autoridades, culturas y límites de revisión](docs/RESEARCH-300.md). Las fases posteriores se conservan. Cartografía política y áreas culturales se activan por separado en Capas y Filtros, con ambos controles activados al iniciar. Las monedas tienen un encuadre revisado y las representaciones mantienen sus atribuciones y fechas.
+Ampliación 1–99 d.C.: [geografía, autoridades, culturas y límites de revisión](docs/RESEARCH-1.md). Las fases posteriores se conservan. Cartografía política y áreas culturales se activan por separado en Capas y Filtros, con ambos controles activados al iniciar. Las monedas tienen un encuadre revisado y las representaciones mantienen sus atribuciones y fechas.
 
 ## Empezar
 

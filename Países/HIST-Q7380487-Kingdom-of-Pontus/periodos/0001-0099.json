@@ -1,0 +1,368 @@
+{
+  "key": "HIST-Q7380487",
+  "identity": {
+    "qid": "Q7380487",
+    "name": "Kingdom of Pontus"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey del Ponto",
+      "officePattern": "King.*Pontus",
+      "titles": [
+        "Polemon I of Pontus",
+        "Pythodorida of Pontus",
+        "Polemon II of Pontus"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2319252",
+      "name": "Polemón II",
+      "role": "Rey del Ponto",
+      "start": "0038-01-01",
+      "end": "0062-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Polemon_II_of_Pontus",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-f38112030a1f8486f34a.jpg",
+        "title": "Polemon II RPC 3831.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Polemon_II_RPC_3831.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Polemon_II_RPC_3831.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://wildwinds.com/coins/greece/pontos/kings/polemo_II/t.html",
+        "sha256": "4a7c1b05dd017ff84af9f200f34b3c8a7f97c1b43a72d2e971e8468b194ae32b",
+        "bytes": 34006,
+        "canonicalFile": "Países/HIST-Q7380487-Kingdom-of-Pontus/retratos/portrait-f38112030a1f8486f34a.jpg",
+        "caption": "PolemónII en el anverso izquierdo, leyenda ΒΑΣΙΛΕΩΣ ΠΟΛΕΜΩΝΟΣ, RPCI3831 (56/57). El reverso derecho representa a Nerón y se excluye del encuadre. Se muestra sÃ³lo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "Q2280204",
+      "name": "Pitodoris",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0038-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pythodorida_of_Pontus",
+      "note": "Reina del Ponto; no heredar automáticamente otras dignidades consortes.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 1,
+      "end": 64,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Polemon_II_of_Pontus",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Pontus"
+        ],
+        "start": 1,
+        "end": 64,
+        "label": "Kingdom of Pontus",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Pontus"
+        ],
+        "start": 65,
+        "end": 99,
+        "label": "Kingdom of Pontus · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Contorno de síntesis, no dinastía prolongada ni Estado homogéneo. Fechas y alcance de la fuente desiguales."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "7112212b2266896db0646c3ae342f049445063e9c096f0cc46b4e163013f8d73",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1097,
+        1133,
+        1171
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Polemon I of Pontus",
+        "title": "Polemon I of Pontus",
+        "person": "Q325921",
+        "name": "Polemón I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Polemon_I_of_Pontus",
+        "identityResolution": {
+          "requested": "Polemon I of Pontus",
+          "canonical": "Polemon I of Pontus",
+          "qid": "Q325921"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q325921",
+        "title": "Polemon I of Pontus",
+        "source": "https://en.wikipedia.org/wiki/Polemon_I_of_Pontus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Pontus",
+            "raw": "37/36 – 8 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of the Bosporan Kingdom",
+            "raw": "16 – 8 BC<ref name=\":16\">{{Cite book |last=HALL |first=M. CLEMENT |url=https://books.google.com/books?id=iIuUBgAAQBAJ&dq=Polemon+I+16+8+BC&pg=PA23 |title=THE CRIMEA. A VERY SHORT HISTORY |date=2014 |publisher=Lulu.com |isbn=978-1-304-97576-8 |pages=23 |language=en}}</ref> or 12/13–8 BC<ref name=\":12\">{{Cite journal |last=Rostovtzeff |first=M. |date=1919 |title=Queen Dynamis of Bosporus |url=https://www.jstor.org/stable/624874 |journal=The Journal of Hellenic Studies |volume=39 |pages=88–109 |doi=10.2307/624874 |jstor=624874 |issn=0075-4269|url-access=subscription }}</ref>",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Polemon II of Pontus",
+        "title": "Polemon II of Pontus",
+        "person": "Q2319252",
+        "name": "Polemón II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Polemon_II_of_Pontus",
+        "identityResolution": {
+          "requested": "Polemon II of Pontus",
+          "canonical": "Polemon II of Pontus",
+          "qid": "Q2319252"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2319252",
+        "title": "Polemon II of Pontus",
+        "source": "https://en.wikipedia.org/wiki/Polemon_II_of_Pontus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Pontus",
+            "raw": "38–62 AD (24 years)",
+            "parsed": {
+              "start": "0038-01-01",
+              "end": "0062-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Pontus",
+            "raw": "38–62",
+            "parsed": {
+              "start": "0038-01-01",
+              "end": "0062-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pythodorida of Pontus",
+        "title": "Pythodorida of Pontus",
+        "person": "Q2280204",
+        "name": "Pitodoris",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pythodoris_of_Pontus",
+        "identityResolution": {
+          "requested": "Pythodorida of Pontus",
+          "canonical": "Pythodoris of Pontus",
+          "qid": "Q2280204"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2280204",
+        "title": "Pythodoris of Pontus",
+        "source": "https://en.wikipedia.org/wiki/Pythodoris_of_Pontus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Queen regnant of Pontus",
+            "raw": "8 BC – 38 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Queen consort of Pontus, Bosporus and Cilicia",
+            "raw": "13/12 BC – 8 BC",
+            "parsed": null,
+            "reignType": "Tenure"
+          },
+          {
+            "field": "reign2",
+            "office": "Queen consort of Cappadocia",
+            "raw": "8 BC – 17 AD",
+            "parsed": null,
+            "reignType": "Tenure"
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2319252",
+        "title": "Polemon II of Pontus",
+        "source": "https://en.wikipedia.org/wiki/Polemon_II_of_Pontus",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Pontus",
+          "raw": "38–62 AD (24 years)",
+          "parsed": {
+            "start": "0038-01-01",
+            "end": "0062-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Polemon I of Pontus",
+        "person": "Q325921",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Pythodorida of Pontus",
+        "person": "Q2280204",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q2280204",
+      "originalRecords": [],
+      "decision": "Reina del Ponto; no heredar automáticamente otras dignidades consortes.",
+      "source": "https://en.wikipedia.org/wiki/Pythodorida_of_Pontus"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q2280204",
+      "name": "Pitodoris",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0038-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pythodorida_of_Pontus",
+      "note": "Reina del Ponto; no heredar automáticamente otras dignidades consortes.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q2319252",
+      "name": "Polemón II",
+      "title": "Polemon II RPC 3831.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Polemon_II_RPC_3831.jpg",
+      "sha256": "4a7c1b05dd017ff84af9f200f34b3c8a7f97c1b43a72d2e971e8468b194ae32b",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "PolemónII en el anverso izquierdo, leyenda ΒΑΣΙΛΕΩΣ ΠΟΛΕΜΩΝΟΣ, RPCI3831 (56/57). El reverso derecho representa a Nerón y se excluye del encuadre. Se muestra sÃ³lo la cara con la efigie, sin alterar el archivo original."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-21",
+      "name": "Amasia · poder del Ponto",
+      "coordinates": [
+        35.83,
+        40.65
+      ],
+      "start": 1,
+      "end": 64,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Pythodorida_of_Pontus",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Kingdom of Pontus"
+    },
+    {
+      "id": "seat040-21-own",
+      "name": "Amasia · poder del Ponto",
+      "coordinates": [
+        35.83,
+        40.65
+      ],
+      "start": 1,
+      "end": 64,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Pythodorida_of_Pontus",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Kingdom of Pontus"
+    }
+  ]
+}

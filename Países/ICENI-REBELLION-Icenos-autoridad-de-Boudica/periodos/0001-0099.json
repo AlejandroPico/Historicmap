@@ -1,0 +1,251 @@
+{
+  "key": "ICENI-REBELLION",
+  "identity": {
+    "qid": "",
+    "name": "Icenos · autoridad de Boudica"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Reina icena · autoridad rebelde",
+      "officePattern": "Queen|Ruler",
+      "titles": [
+        "Boudica"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q184634",
+      "name": "Boudica",
+      "role": "Reina icena · autoridad rebelde",
+      "start": "0060-01-01",
+      "end": "0061-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Boudica",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-a4528f05a46e6871d87f.png",
+        "title": "Charles Hamilton Smith - Boudica.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Charles_Hamilton_Smith_-_Boudica.png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Charles_Hamilton_Smith_-_Boudica.png/330px-Charles_Hamilton_Smith_-_Boudica.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nCharles Hamilton Smith",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Hamilton_Smith_-_Boudica.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Samuel Rush Meyrick The Costume of the Original Inhabitants of the British Islands from the Earliest Periods to the Sixth Century (https://www.google.co.uk/books/edition/The_Costume_of_the_Original_Inhabitants/_vPIhE7dt9QC?hl=en&gbpv=1)",
+        "sha256": "e6c8119abd034844fc8a7bf64321344f782eca790af57ae156d4947c01f8b13b",
+        "bytes": 222547,
+        "canonicalFile": "Países/ICENI-REBELLION-Icenos-autoridad-de-Boudica/retratos/portrait-a4528f05a46e6871d87f.png",
+        "caption": "Boudica imaginada por Charles Hamilton Smith en1815; representación retrospectiva, sin apariencia física contemporánea acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review040-boudica",
+      "type": "conflict",
+      "title": "Rebelión de Boudica",
+      "start": "0060-01-01",
+      "end": "0062-01-01",
+      "text": "La datación60/61 es discutida. Se da referencia regional en Norfolk, sin fijar como cierta la ubicación de la batalla final. Los retratos posteriores son imaginarios.",
+      "source": "https://www.londonmuseum.org.uk/collections/london-stories/boudica-rebel-queen-iceni/",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 60,
+      "end": 61,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Boudica",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Boudica",
+        "title": "Boudica",
+        "person": "Q184634",
+        "name": "Boudica",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Boudica",
+        "identityResolution": {
+          "requested": "Boudica",
+          "canonical": "Boudica",
+          "qid": "Q184634"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q16511993",
+          "start": "0060-01-01",
+          "end": "0060-01-01",
+          "precision": 9,
+          "statement": "Q184634$85eaafea-68e9-4d8a-b168-4bcc327d9beb",
+          "label": "reina"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q184634",
+        "title": "Boudica",
+        "source": "https://en.wikipedia.org/wiki/Boudica",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Queen of the Iceni",
+            "raw": "{{circa|60–61 [[AD]]}}",
+            "parsed": {
+              "start": "0060-01-01",
+              "end": "0061-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Consort of the king of the Iceni",
+            "raw": "? – {{circa|60 AD}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q184634",
+        "title": "Boudica",
+        "source": "https://en.wikipedia.org/wiki/Boudica",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Queen of the Iceni",
+          "raw": "{{circa|60–61 [[AD]]}}",
+          "parsed": {
+            "start": "0060-01-01",
+            "end": "0061-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "mediaReview": [
+    {
+      "person": "Q184634",
+      "name": "Boudica",
+      "title": "Charles Hamilton Smith - Boudica.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Charles_Hamilton_Smith_-_Boudica.png",
+      "sha256": "e6c8119abd034844fc8a7bf64321344f782eca790af57ae156d4947c01f8b13b",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "Boudica imaginada por Charles Hamilton Smith en1815; representación retrospectiva, sin apariencia física contemporánea acreditada."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-23",
+      "name": "Norfolk · referencia icena",
+      "coordinates": [
+        1.0,
+        52.65
+      ],
+      "start": 60,
+      "end": 61,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://www.londonmuseum.org.uk/collections/london-stories/boudica-rebel-queen-iceni/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores. La agrupación hospeda la consulta; no declara un Estado soberano propio ni absorción de toda la cultura.",
+      "standaloneReference": true,
+      "entityName": "Icenos · autoridad de Boudica",
+      "aggregateKey": "ROMAN-EMPIRE-CLASSICAL"
+    },
+    {
+      "id": "seat040-23-own",
+      "name": "Norfolk · referencia icena",
+      "coordinates": [
+        1.0,
+        52.65
+      ],
+      "start": 60,
+      "end": 61,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://www.londonmuseum.org.uk/collections/london-stories/boudica-rebel-queen-iceni/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores. La agrupación hospeda la consulta; no declara un Estado soberano propio ni absorción de toda la cultura.",
+      "entityName": "Icenos · autoridad de Boudica"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review040-boudica",
+      "type": "conflict",
+      "title": "Rebelión de Boudica",
+      "start": "0060-01-01",
+      "end": "0062-01-01",
+      "text": "La datación60/61 es discutida. Se da referencia regional en Norfolk, sin fijar como cierta la ubicación de la batalla final. Los retratos posteriores son imaginarios.",
+      "source": "https://www.londonmuseum.org.uk/collections/london-stories/boudica-rebel-queen-iceni/",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review040-boudica",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0,
+          52.65
+        ]
+      },
+      "properties": {
+        "name": "Rebelión de Boudica",
+        "countries": [
+          "ICENI-REBELLION"
+        ],
+        "kind": "regional-conflict",
+        "start": "0060-01-01",
+        "end": "0061-12-31",
+        "precision": 9,
+        "source": "https://www.londonmuseum.org.uk/collections/london-stories/boudica-rebel-queen-iceni/",
+        "sourceLabel": "Referencia documental · siglo I",
+        "note": "La datación60/61 es discutida. Se da referencia regional en Norfolk, sin fijar como cierta la ubicación de la batalla final. Los retratos posteriores son imaginarios. Coordenada regional aproximada."
+      }
+    }
+  ]
+}

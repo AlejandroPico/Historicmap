@@ -1,0 +1,219 @@
+{
+  "key": "HIST-Q149747",
+  "identity": {
+    "qid": "Q149747",
+    "name": "Kingdom of Adiabene"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey o reina de Adiabene",
+      "officePattern": "King|Queen|Adiabene",
+      "titles": [
+        "Monobaz I",
+        "Helena of Adiabene",
+        "Izates II",
+        "Monobaz II"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Adiabene"
+        ],
+        "start": 1,
+        "end": 99,
+        "label": "Kingdom of Adiabene",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "feaffd763598c2ed9558e76bbdd9d98bd492d707a35a21f59674fb53fc28c9ff",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1028
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Helena of Adiabene",
+        "title": "Helena of Adiabene",
+        "person": "Q2655769",
+        "name": "Helena de Adiabene",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Helena_of_Adiabene",
+        "identityResolution": {
+          "requested": "Helena of Adiabene",
+          "canonical": "Helena of Adiabene",
+          "qid": "Q2655769"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2655769",
+        "title": "Helena of Adiabene",
+        "source": "https://en.wikipedia.org/wiki/Helena_of_Adiabene",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign3",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Izates II",
+        "title": "Izates II",
+        "person": "Q3047056",
+        "name": "Izates bar Monobaz",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Izates_II",
+        "identityResolution": {
+          "requested": "Izates II",
+          "canonical": "Izates II",
+          "qid": "Q3047056"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3047056",
+        "title": "Izates II",
+        "source": "https://en.wikipedia.org/wiki/Izates_II",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Monobaz I",
+        "title": "Monobaz I",
+        "person": "Q3015219",
+        "name": "Monobaz I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Monobaz_I",
+        "identityResolution": {
+          "requested": "Monobaz I",
+          "canonical": "Monobaz I",
+          "qid": "Q3015219"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3015219",
+        "title": "Monobaz I",
+        "source": "https://en.wikipedia.org/wiki/Monobaz_I",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Monobaz II",
+        "title": "Monobaz II",
+        "person": "Q2917262",
+        "name": "Monobaz II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Monobaz_II",
+        "identityResolution": {
+          "requested": "Monobaz II",
+          "canonical": "Monobaz II",
+          "qid": "Q2917262"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2917262",
+        "title": "Monobaz II",
+        "source": "https://en.wikipedia.org/wiki/Monobaz_II",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Monobaz I",
+        "person": "Q3015219",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Helena of Adiabene",
+        "person": "Q2655769",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Izates II",
+        "person": "Q3047056",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Monobaz II",
+        "person": "Q2917262",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

@@ -147,7 +147,7 @@ def main(acquire=False, portrait_only=False):
         cleared_files=set()
         for fix in revision.get('entityRules',[]):
             for file in fix['files']:
-                if not re.fullmatch(r'historical-\d{3,4}-entities\.json',file):raise ValueError('Invalid resolution file')
+                if not re.fullmatch(r'historical-\d{1,4}-entities\.json',file):raise ValueError('Invalid resolution file')
                 dest=ROOT/'public/data'/file
                 if file not in resolutions:resolutions[file]=read(dest)
                 catalogue=resolutions[file]

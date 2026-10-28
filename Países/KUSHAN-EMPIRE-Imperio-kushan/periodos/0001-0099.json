@@ -1,0 +1,449 @@
+{
+  "key": "KUSHAN-EMPIRE",
+  "identity": {
+    "qid": "Q25979",
+    "name": "Imperio kushán"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante kushán · cronología aproximada",
+      "officePattern": "King|Emperor|Kushan",
+      "titles": [
+        "Kujula Kadphises",
+        "Vima Takto"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q560157",
+      "name": "Kujula Kadphises",
+      "role": "Gobernante kushán · cronología numismática",
+      "start": "0040-01-01",
+      "end": "0090-12-31",
+      "precision": 9,
+      "source": "https://www.britishmuseum.org/collection/term/BIOG195927",
+      "note": "Catálogo del British Museum c40–90, con alternativas anteriores de formación del poder. No se adelanta un imperio uniforme al año1. Cronologías discutidas; no se fijan todos los años exactos de gobierno.",
+      "portrait": {
+        "file": "media/portrait-938278ea5c744aa6b394.jpg",
+        "title": "Kujula Kadphises (coin portrait).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Kujula_Kadphises_(coin_portrait).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Kujula_Kadphises_%28coin_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "This image has been extracted from another file",
+        "sha256": "217c7e5e3c6334f1b30fe8acfa29903e535ef98664c6be40f2b5166475fde740",
+        "bytes": 460878,
+        "canonicalFile": "Países/KUSHAN-EMPIRE-Imperio-kushan/retratos/portrait-938278ea5c744aa6b394.jpg",
+        "caption": "Tipo monetario atribuido a Kujula Kadphises; imagen convencional, sin semejanza fisonómica comprobada."
+      }
+    },
+    {
+      "person": "Q1280448",
+      "name": "Vima Takto",
+      "role": "Gobernante kushán · cronología numismática",
+      "start": "0090-01-01",
+      "end": "0099-12-31",
+      "precision": 9,
+      "source": "https://www.britishmuseum.org/collection/term/BIOG195927",
+      "note": "Catálogo del British Museum c90–113; alternativa80–90 conservada como evidencia, sin ocultar la discrepancia. Cronologías discutidas; no se fijan todos los años exactos de gobierno.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-420de082dbd9fc330622.jpg",
+        "title": "Coin of Kushan King Vima Takto.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coin_of_Kushan_King_Vima_Takto.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Coin_of_Kushan_King_Vima_Takto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Per Honor et Gloria",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Coin_of_Kushan_King_Vima_Takto.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://en.wikipedia.org",
+        "sha256": "23ba26c0219796cd332ee91078a9323db2dbc7a104bc80b06403a128c418eee7",
+        "bytes": 62999,
+        "canonicalFile": "Países/KUSHAN-EMPIRE-Imperio-kushan/retratos/portrait-420de082dbd9fc330622.jpg",
+        "caption": "Tipo Soter Megas atribuido numismáticamente a Vima Takto; efigie convencional, sin semejanza personal comprobada. Se muestra sÃ³lo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review040-chronology",
+      "type": "institution",
+      "title": "Formación del poder kushán",
+      "start": "0040-01-01",
+      "end": "0100-01-01",
+      "text": "Kujula c40–90 y Vima Takto90–113 siguen la cronología del British Museum, con alternativas documentadas. Las ventanas inciertas no acreditan corregencia ni imperio homogéneo desde1.",
+      "source": "https://www.britishmuseum.org/collection/term/BIOG195927",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 40,
+      "end": 99,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://www.britishmuseum.org/collection/term/BIOG195927",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kushan Empire"
+        ],
+        "start": 1,
+        "end": 39,
+        "label": "Imperio kushán · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Contorno de síntesis, no dinastía prolongada ni Estado homogéneo. Fechas y alcance de la fuente desiguales."
+      }
+    },
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kushan Empire"
+        ],
+        "start": 40,
+        "end": 99,
+        "label": "Imperio kushán",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "ce4f44c6e565536f0e9d16c7aecc8cc93d0b902c9a6f40eb4da3d68b37e0bf50",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1146,
+        1161,
+        1216
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Kujula Kadphises",
+        "title": "Kujula Kadphises",
+        "person": "Q560157",
+        "name": "Kujula Kadphises",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kujula_Kadphises",
+        "identityResolution": {
+          "requested": "Kujula Kadphises",
+          "canonical": "Kujula Kadphises",
+          "qid": "Q560157"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q39018",
+          "start": "0030-01-01",
+          "end": "0080-01-01",
+          "precision": 9,
+          "statement": "Q560157$79d3ca16-4bb5-75df-d0c3-2d00731914f0",
+          "label": "emperador"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q560157",
+        "title": "Kujula Kadphises",
+        "source": "https://en.wikipedia.org/wiki/Kujula_Kadphises",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Maharaja Rajarajasa Devaputra",
+            "raw": "25 CE – 85 CE",
+            "parsed": {
+              "start": "0025-01-01",
+              "end": "0085-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kushan Ruler",
+            "raw": "30 – 80 CE",
+            "parsed": {
+              "start": "0030-01-01",
+              "end": "0080-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vima Takto",
+        "title": "Vima Takto",
+        "person": "Q1280448",
+        "name": "Vima Takto",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vima_Takto",
+        "identityResolution": {
+          "requested": "Vima Takto",
+          "canonical": "Vima Takto",
+          "qid": "Q1280448"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q39018",
+          "start": "0080-01-01",
+          "end": "0090-01-01",
+          "precision": 9,
+          "statement": "Q1280448$25f3b821-48b8-f6ab-5b40-572bc2dc9e3f",
+          "label": "emperador"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1280448",
+        "title": "Vima Takto",
+        "source": "https://en.wikipedia.org/wiki/Vima_Takto",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushan emperor",
+            "raw": "80–90 CE",
+            "parsed": {
+              "start": "0080-01-01",
+              "end": "0090-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kushan Ruler",
+            "raw": "80 – 90 CE",
+            "parsed": {
+              "start": "0080-01-01",
+              "end": "0090-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q560157",
+        "title": "Kujula Kadphises",
+        "source": "https://en.wikipedia.org/wiki/Kujula_Kadphises",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Kushan Ruler",
+          "raw": "30 – 80 CE",
+          "parsed": {
+            "start": "0030-01-01",
+            "end": "0080-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1280448",
+        "title": "Vima Takto",
+        "source": "https://en.wikipedia.org/wiki/Vima_Takto",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Kushan emperor",
+          "raw": "80–90 CE",
+          "parsed": {
+            "start": "0080-01-01",
+            "end": "0090-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "authorityReview": [
+    {
+      "person": "Q560157",
+      "originalRecords": [
+        {
+          "person": "Q560157",
+          "name": "Kujula Kadphises",
+          "role": "Gobernante kushán · cronología aproximada",
+          "start": "0030-01-01",
+          "end": "0080-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Kujula_Kadphises",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Catálogo del British Museum c40–90, con alternativas anteriores de formación del poder. No se adelanta un imperio uniforme al año1.",
+      "source": "https://www.britishmuseum.org/collection/term/BIOG195927"
+    },
+    {
+      "person": "Q1280448",
+      "originalRecords": [
+        {
+          "person": "Q1280448",
+          "name": "Vima Takto",
+          "role": "Gobernante kushán · cronología aproximada",
+          "start": "0080-01-01",
+          "end": "0090-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Vima_Takto",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Catálogo del British Museum c90–113; alternativa80–90 conservada como evidencia, sin ocultar la discrepancia.",
+      "source": "https://www.britishmuseum.org/collection/term/BIOG195927"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q560157",
+      "name": "Kujula Kadphises",
+      "role": "Gobernante kushán · cronología numismática",
+      "start": "0040-01-01",
+      "end": "0090-12-31",
+      "precision": 9,
+      "source": "https://www.britishmuseum.org/collection/term/BIOG195927",
+      "note": "Catálogo del British Museum c40–90, con alternativas anteriores de formación del poder. No se adelanta un imperio uniforme al año1."
+    },
+    {
+      "person": "Q1280448",
+      "name": "Vima Takto",
+      "role": "Gobernante kushán · cronología numismática",
+      "start": "0090-01-01",
+      "end": "0099-12-31",
+      "precision": 9,
+      "source": "https://www.britishmuseum.org/collection/term/BIOG195927",
+      "note": "Catálogo del British Museum c90–113; alternativa80–90 conservada como evidencia, sin ocultar la discrepancia.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q560157",
+      "name": "Kujula Kadphises",
+      "title": "Kujula Kadphises (coin portrait).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kujula_Kadphises_(coin_portrait).jpg",
+      "sha256": "217c7e5e3c6334f1b30fe8acfa29903e535ef98664c6be40f2b5166475fde740",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "Tipo monetario atribuido a Kujula Kadphises; imagen convencional, sin semejanza fisonómica comprobada."
+    },
+    {
+      "person": "Q1280448",
+      "name": "Vima Takto",
+      "title": "Coin of Kushan King Vima Takto.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Coin_of_Kushan_King_Vima_Takto.jpg",
+      "sha256": "23ba26c0219796cd332ee91078a9323db2dbc7a104bc80b06403a128c418eee7",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "Tipo Soter Megas atribuido numismáticamente a Vima Takto; efigie convencional, sin semejanza personal comprobada. Se muestra sÃ³lo la cara con la efigie, sin alterar el archivo original."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-6",
+      "name": "Begram · centro de redes kushanes",
+      "coordinates": [
+        69.31,
+        34.91
+      ],
+      "start": 40,
+      "end": 99,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://www.iranicaonline.org/articles/kushan-dynasty-i-history/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Imperio kushán"
+    },
+    {
+      "id": "seat040-6-own",
+      "name": "Begram · centro de redes kushanes",
+      "coordinates": [
+        69.31,
+        34.91
+      ],
+      "start": 40,
+      "end": 99,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://www.iranicaonline.org/articles/kushan-dynasty-i-history/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Imperio kushán"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review040-chronology",
+      "type": "institution",
+      "title": "Formación del poder kushán",
+      "start": "0040-01-01",
+      "end": "0100-01-01",
+      "text": "Kujula c40–90 y Vima Takto90–113 siguen la cronología del British Museum, con alternativas documentadas. Las ventanas inciertas no acreditan corregencia ni imperio homogéneo desde1.",
+      "source": "https://www.britishmuseum.org/collection/term/BIOG195927",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras."
+    }
+  ]
+}

@@ -18,7 +18,7 @@ test('present map, projection, search, historical and geological snapshots',asyn
   await expect(page.locator('#selection-title')).toHaveText('España');
   await page.locator('#close-selection').click();
   await date(page,100);
-  await expect(page.locator('#map-status')).toContainText('100 d. C.');
+  await expect(page.locator('#map')).toHaveAttribute('data-rendered','history-100',{timeout:45000});await expect(page.locator('#play')).toHaveAttribute('aria-busy','false');
   await expect(page.locator('#map')).toHaveAttribute('data-rendered','history-100',{timeout:45000});
   await expect(page.locator('#physical-layer')).toBeEnabled();
   await page.screenshot({path:'test-results/ancient.png'});
@@ -46,17 +46,17 @@ test('present map, projection, search, historical and geological snapshots',asyn
 });
 test('fixed center cursor, keyboard navigation, exact date, about and narrow layout',async({page})=>{
   await page.goto('/#year=100&view=globe');
-  await expect(page.locator('#map-status')).toContainText('100 d. C.',{timeout:45000});
+  await expect(page.locator('#map')).toHaveAttribute('data-rendered','history-100',{timeout:45000});await expect(page.locator('#play')).toHaveAttribute('aria-busy','false');
   const cursor=await page.locator('.fixed-cursor').boundingBox();
   await page.locator('#ruler').focus();await page.keyboard.press('ArrowLeft');
   await expect(page.locator('#year')).not.toHaveText('100 d. C.');
   const after=await page.locator('.fixed-cursor').boundingBox();expect(after?.x).toBe(cursor?.x);
   await page.locator('#date-button').click();await page.getByLabel('Año (negativo para a. C.)').fill('117');await page.getByRole('button',{name:'Explorar fecha'}).click();
-  await expect(page.locator('#year')).toHaveText('117 d. C.');await expect(page.locator('#map-status')).toContainText('100 d. C.');
-  await page.locator('#about-button').click();await expect(page.locator('#modal-body')).toContainText('0.6.0');
+  await expect(page.locator('#year')).toHaveText('117 d. C.');await expect(page.locator('#map')).toHaveAttribute('data-rendered','history-117',{timeout:45000});await expect(page.locator('#map')).toHaveAttribute('data-loaded-year','117');await expect(page.locator('#play')).toHaveAttribute('aria-busy','false');
+  await page.locator('#about-button').click();await expect(page.locator('#modal-body')).toContainText('0.40.0');
   await expect(page.locator('.about-project-icon img')).toBeVisible();
   await expect(page.locator('.about-links a').first()).toHaveAttribute('href','https://alejandropico.github.io/Portfolio/');await page.keyboard.press('Escape');
-  await page.setViewportSize({width:390,height:844});await page.screenshot({path:'test-results/mobile.png'});
+  await page.setViewportSize({width:390,height:844});await page.screenshot({path:'test-results/mobile.png',timeout:45000,animations:'disabled'});
   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
   await expect(page.locator('#chapters-button,.story-panel,#time-scale')).toHaveCount(0);
 });

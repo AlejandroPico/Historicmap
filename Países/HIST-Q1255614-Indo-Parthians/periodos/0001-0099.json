@@ -1,0 +1,340 @@
+{
+  "key": "HIST-Q1255614",
+  "identity": {
+    "qid": "Q1255614",
+    "name": "Indo-Parthians"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante indoparto · cronología discutida",
+      "officePattern": "King|Indo-Parthian",
+      "titles": [
+        "Gondophares",
+        "Abdagases I",
+        "Sases",
+        "Pacores (Indo-Parthian king)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1397542",
+      "name": "Gondofares",
+      "role": "Gobernante indoparto · cronología discutida",
+      "start": "0019-01-01",
+      "end": "0046-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gondophares",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronologías discutidas; no se fijan todos los años exactos de gobierno.",
+      "portrait": {
+        "file": "media/portrait-9bd84a625e1a98ca0575.jpg",
+        "title": "GondopharesOnHorse.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:GondopharesOnHorse.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/GondopharesOnHorse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:GondopharesOnHorse.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "65d562034a217a4bfb0b2a64338e89695327ad0e9acabe111c2998a4d5716879",
+        "bytes": 82704,
+        "canonicalFile": "Países/HIST-Q1255614-Indo-Parthians/retratos/portrait-9bd84a625e1a98ca0575.jpg",
+        "caption": "Reproducción de una figura ecuestre atribuida a Gondofares; no retrato fisonómico comprobado."
+      }
+    },
+    {
+      "person": "Q307546",
+      "name": "Abdagases I",
+      "role": "Gobernante indoparto · cronología discutida",
+      "start": "0046-01-01",
+      "end": "0060-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abdagases_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronologías discutidas; no se fijan todos los años exactos de gobierno.",
+      "portrait": {
+        "file": "media/portrait-34b22668f81c6d854d49.jpg",
+        "title": "AbdagasesDepiction.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:AbdagasesDepiction.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/AbdagasesDepiction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Personal drawing  Own work",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:AbdagasesDepiction.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "e594a99963124f6ea402343be63431cb411683db196e970ea877d7209e4a6380",
+        "bytes": 62743,
+        "canonicalFile": "Países/HIST-Q1255614-Indo-Parthians/retratos/portrait-34b22668f81c6d854d49.jpg",
+        "caption": "Reproducción de figura ecuestre atribuida a Abdagases; no retrato fisonómico comprobado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 1,
+      "end": 99,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Gondophares",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Indo-Parthians"
+        ],
+        "start": 1,
+        "end": 99,
+        "label": "Indo-Parthians",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "8ef6eab00cb0bfcbc2b3b7b6ad9e94d5ea1420b774fa7165bb635e07d036b3b2",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1111,
+        1123,
+        1150,
+        1163,
+        1203
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Abdagases I",
+        "title": "Abdagases I",
+        "person": "Q307546",
+        "name": "Abdagases I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Abdagases_I",
+        "identityResolution": {
+          "requested": "Abdagases I",
+          "canonical": "Abdagases I",
+          "qid": "Q307546"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q307546",
+        "title": "Abdagases I",
+        "source": "https://en.wikipedia.org/wiki/Abdagases_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Indo-Parthian king",
+            "raw": "{{Circa|46|60}}",
+            "parsed": {
+              "start": "0046-01-01",
+              "end": "0060-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gondophares",
+        "title": "Gondophares",
+        "person": "Q1397542",
+        "name": "Gondofares",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gondophares",
+        "identityResolution": {
+          "requested": "Gondophares",
+          "canonical": "Gondophares",
+          "qid": "Q1397542"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q938153",
+          "start": "0019-01-01",
+          "end": "0049-01-01",
+          "precision": 9,
+          "statement": "Q1397542$91cf9192-42d4-7054-7804-dd431c12a2ee",
+          "label": "Shahanshah"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1397542",
+        "title": "Gondophares",
+        "source": "https://en.wikipedia.org/wiki/Gondophares",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Indo-Parthian king",
+            "raw": "{{Circa|19|46}}",
+            "parsed": {
+              "start": "0019-01-01",
+              "end": "0046-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pacores (Indo-Parthian king)",
+        "title": "Pacores (Indo-Parthian king)",
+        "person": "",
+        "name": "Pacores (Indo-Parthian king)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Pacores_%28Indo-Parthian_king%29",
+        "identityResolution": {
+          "requested": "Pacores (Indo-Parthian king)",
+          "canonical": "Pacores (Indo-Parthian king)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sases",
+        "title": "Sases",
+        "person": "Q2225578",
+        "name": "Sases",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sases",
+        "identityResolution": {
+          "requested": "Sases",
+          "canonical": "Sases",
+          "qid": "Q2225578"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2225578",
+        "title": "Sases",
+        "source": "https://en.wikipedia.org/wiki/Sases",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Maharaja",
+            "raw": "1st century CE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1397542",
+        "title": "Gondophares",
+        "source": "https://en.wikipedia.org/wiki/Gondophares",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Indo-Parthian king",
+          "raw": "{{Circa|19|46}}",
+          "parsed": {
+            "start": "0019-01-01",
+            "end": "0046-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q307546",
+        "title": "Abdagases I",
+        "source": "https://en.wikipedia.org/wiki/Abdagases_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Indo-Parthian king",
+          "raw": "{{Circa|46|60}}",
+          "parsed": {
+            "start": "0046-01-01",
+            "end": "0060-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Sases",
+        "person": "Q2225578",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Pacores (Indo-Parthian king)",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "mediaReview": [
+    {
+      "person": "Q1397542",
+      "name": "Gondofares",
+      "title": "GondopharesOnHorse.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:GondopharesOnHorse.jpg",
+      "sha256": "65d562034a217a4bfb0b2a64338e89695327ad0e9acabe111c2998a4d5716879",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "Reproducción de una figura ecuestre atribuida a Gondofares; no retrato fisonómico comprobado."
+    },
+    {
+      "person": "Q307546",
+      "name": "Abdagases I",
+      "title": "AbdagasesDepiction.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:AbdagasesDepiction.jpg",
+      "sha256": "e594a99963124f6ea402343be63431cb411683db196e970ea877d7209e4a6380",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "Reproducción de figura ecuestre atribuida a Abdagases; no retrato fisonómico comprobado."
+    }
+  ]
+}

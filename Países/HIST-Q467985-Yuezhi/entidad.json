@@ -1,0 +1,51 @@
+{
+  "key": "HIST-Q467985",
+  "name": "Yuezhi",
+  "qid": "Q467985",
+  "aliases": [
+    "Yuezhi"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q467985"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1107",
+      "start": 1,
+      "end": 13,
+      "name": "Yuezhi",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1130",
+      "start": 14,
+      "end": 29,
+      "name": "Yuezhi",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1139",
+      "start": 30,
+      "end": 42,
+      "name": "Yuezhi",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

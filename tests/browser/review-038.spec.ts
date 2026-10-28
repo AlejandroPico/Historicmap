@@ -1,6 +1,7 @@
 import{test,expect,type Page}from'@playwright/test';
-async function ready(p:Page,y:number){await expect(p.locator('#map')).toHaveAttribute('data-rendered',y<200?'world_100.geojson':`history-${y}`,{timeout:90000});await expect(p.locator('#play')).toHaveAttribute('aria-busy','false');await expect(p.locator('#map')).toHaveAttribute('data-loaded-year',String(y));}
-async function year(p:Page,y:number){await p.locator('#date-button').click();await p.locator('#date-input').fill(String(y));await p.locator('#date-input').press('Enter');if(y>=200)await ready(p,y);else await expect(p.locator('#date-button')).toContainText(`${Math.abs(y)} ${y<0?'a. C.':'d. C.'}`);}
+import{snapshotFor}from'../../src/time';
+async function ready(p:Page,y:number){await expect(p.locator('#map')).toHaveAttribute('data-rendered',snapshotFor(y).kind==='annual'?`history-${y}`:snapshotFor(y).file!,{timeout:90000});await expect(p.locator('#play')).toHaveAttribute('aria-busy','false');await expect(p.locator('#map')).toHaveAttribute('data-loaded-year',String(y));}
+async function year(p:Page,y:number){await p.locator('#date-button').click();await p.locator('#date-input').fill(String(y));await p.locator('#date-input').press('Enter');await ready(p,y);}
 async function search(p:Page,text:string,key:string){await p.locator('#search-button').click();await p.locator('#search-input').fill(text);await p.locator('#search-results button').first().click();await expect(p.locator('#selection')).toHaveAttribute('data-entity',key);await expect(p.locator('#map')).toHaveAttribute('data-camera-ready','true',{timeout:30000});}
 async function images(p:Page){for(const img of await p.locator('.leader-portrait').all()){await img.scrollIntoViewIfNeeded();await expect.poll(()=>img.evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth>0)).toBe(true);}await p.locator('.country-content').evaluate(e=>e.scrollTop=0);}
 

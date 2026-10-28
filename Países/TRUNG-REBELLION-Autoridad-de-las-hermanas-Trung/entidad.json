@@ -1,0 +1,51 @@
+{
+  "key": "TRUNG-REBELLION",
+  "name": "Autoridad de las hermanas Trưng",
+  "qid": "",
+  "aliases": [
+    "Autoridad de las hermanas Trưng"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "TRUNG-REBELLION"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "documented-trung-trac",
+      "name": "Trưng Trắc",
+      "role": "Dirigente de la rebelión de las hermanas Trưng",
+      "start": "0040-01-01",
+      "end": "0043-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+      "note": "Rebelión40–43. El identificador de la pareja no es una persona individual: se usa un identificador documental local sin QID fabricado.",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    },
+    {
+      "person": "documented-trung-nhi",
+      "name": "Trưng Nhị",
+      "role": "Dirigente de la rebelión de las hermanas Trưng",
+      "start": "0040-01-01",
+      "end": "0043-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+      "note": "Rebelión40–43. El identificador de la pareja no es una persona individual: se usa un identificador documental local sin QID fabricado.",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

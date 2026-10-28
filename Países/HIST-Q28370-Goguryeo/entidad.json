@@ -15,6 +15,68 @@
   "symbolReferences": [],
   "leaders": [
     {
+      "person": "Q498345",
+      "name": "Daemusin de Goguryeo",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0018-01-01",
+      "end": "0044-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Daemusin_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes.",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    },
+    {
+      "person": "Q498441",
+      "name": "Minjung de Goguryeo",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0044-01-01",
+      "end": "0048-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Minjung_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes.",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    },
+    {
+      "person": "Q498458",
+      "name": "Mobon",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0048-01-01",
+      "end": "0053-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mobon_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes.",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    },
+    {
+      "person": "Q498481",
+      "name": "Taejo of Goguryeo",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0053-01-01",
+      "end": "0099-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Taejo_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes.",
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    },
+    {
+      "person": "Q498412",
+      "name": "Yuri de Koguryo",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0018-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo",
+      "note": "Cronología tradicional; no se sustituye el acceso previo a nuestra era por el año1. Cronología de tradición retrospectiva con variantes.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    },
+    {
       "person": "Q498481",
       "name": "Taejo of Goguryeo",
       "role": "Rey de Goguryeo · cronología tradicional",
@@ -619,9 +681,48 @@
       "end": 199,
       "name": "Goguryeo",
       "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1069",
+      "start": 1,
+      "end": 22,
+      "name": "Goguryeo",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1132",
+      "start": 23,
+      "end": 42,
+      "name": "Goguryeo",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1159",
+      "start": 43,
+      "end": 59,
+      "name": "Goguryeo",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1176",
+      "start": 60,
+      "end": 99,
+      "name": "Goguryeo",
+      "status": "Entidad histórica · reconstrucción anual"
     }
   ],
   "culturalReviews": [
+    {
+      "key": "CULTURE-KOGURYO-AFF5F72F-Y0001",
+      "ownerKey": "HIST-Q28370",
+      "name": "Koguryo",
+      "file": "Países/HIST-Q28370-Goguryeo/poblamiento/CULTURE-KOGURYO-AFF5F72F-Y0001.json",
+      "decision": "political-base"
+    },
     {
       "key": "CULTURE-KOGURYO-AFF5F72F-Y0100",
       "ownerKey": "HIST-Q28370",

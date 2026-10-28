@@ -1,0 +1,254 @@
+{
+  "key": "HIST-Q2086608",
+  "identity": {
+    "qid": "Q2086608",
+    "name": "Western Satraps"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Sátrapa occidental · cronología discutida",
+      "officePattern": "Satrap|King|Ruler",
+      "titles": [
+        "Bhumaka",
+        "Nahapana",
+        "Chashtana"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q5087437",
+      "name": "Chastana",
+      "role": "Sátrapa occidental · cronología discutida",
+      "start": "0078-01-01",
+      "end": "0099-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chashtana",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronologías discutidas; no se fijan todos los años exactos de gobierno.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-4d7539edf2b7fccaf186.jpg",
+        "title": "Coin of Chastana.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coin_of_Chastana.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Coin_of_Chastana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "PHGCOM",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Coin_of_Chastana.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work by uploader, photographed at the British Museum",
+        "sha256": "a3ce968adbd5bd3b2d6e8e45ec7614a01eb93c904ac5a2367e301aa6f25ad91a",
+        "bytes": 678629,
+        "canonicalFile": "Países/HIST-Q2086608-Western-Satraps/retratos/portrait-4d7539edf2b7fccaf186.jpg",
+        "caption": "Efigie monetaria convencional de Chastana; no fotografÃ­a ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 1,
+      "end": 99,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Chashtana",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Satraps"
+        ],
+        "start": 1,
+        "end": 99,
+        "label": "Western Satraps",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "1708b4267b6d7b1c0cf9fe7a3748b93101ec99a9a11a09fa5583cfe3de439eee",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1148,
+        1205,
+        1218
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bhumaka",
+        "title": "Bhumaka",
+        "person": "Q4902141",
+        "name": "Bhumaka",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bhumaka",
+        "identityResolution": {
+          "requested": "Bhumaka",
+          "canonical": "Bhumaka",
+          "qid": "Q4902141"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4902141",
+        "title": "Bhumaka",
+        "source": "https://en.wikipedia.org/wiki/Bhumaka",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Western Satrap",
+            "raw": "1st century CE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chashtana",
+        "title": "Chashtana",
+        "person": "Q5087437",
+        "name": "Chastana",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chashtana",
+        "identityResolution": {
+          "requested": "Chashtana",
+          "canonical": "Chashtana",
+          "qid": "Q5087437"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5087437",
+        "title": "Chashtana",
+        "source": "https://en.wikipedia.org/wiki/Chashtana",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Western Kshatrapas",
+            "raw": "78–130 CE",
+            "parsed": {
+              "start": "0078-01-01",
+              "end": "0130-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nahapana",
+        "title": "Nahapana",
+        "person": "Q1566672",
+        "name": "Nahapana",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Nahapana",
+        "identityResolution": {
+          "requested": "Nahapana",
+          "canonical": "Nahapana",
+          "qid": "Q1566672"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1566672",
+        "title": "Nahapana",
+        "source": "https://en.wikipedia.org/wiki/Nahapana",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Western Satrap",
+            "raw": "1st century – 78",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q5087437",
+        "title": "Chashtana",
+        "source": "https://en.wikipedia.org/wiki/Chashtana",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Western Kshatrapas",
+          "raw": "78–130 CE",
+          "parsed": {
+            "start": "0078-01-01",
+            "end": "0130-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Bhumaka",
+        "person": "Q4902141",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Nahapana",
+        "person": "Q1566672",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "mediaReview": [
+    {
+      "person": "Q5087437",
+      "name": "Chastana",
+      "title": "Coin of Chastana.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Coin_of_Chastana.jpg",
+      "sha256": "a3ce968adbd5bd3b2d6e8e45ec7614a01eb93c904ac5a2367e301aa6f25ad91a",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Chastana; no fotografÃ­a ni semejanza del natural acreditada."
+    }
+  ]
+}

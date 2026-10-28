@@ -29,10 +29,12 @@ def request(params,host,key):
    with _REQUEST_LOCK:_NEXT_REQUEST=max(_NEXT_REQUEST,time.monotonic()+delay)
  if 'error'in d:raise ValueError(str(d['error']))
  save(f,d);return d
-def main(century,review):
+def main(century,review,end_year=None):
+ end_year=century+99 if end_year is None else end_year
+ if not 1<=century<=end_year<=century+99:raise ValueError('Invalid common-era acquisition window')
  spec=importlib.util.spec_from_file_location('box',ROOT/'scripts/office-infobox.py');box=importlib.util.module_from_spec(spec);spec.loader.exec_module(box)
  eligible=importlib.util.spec_from_file_location('eligible',ROOT/'scripts/authority-eligibility.py');elig=importlib.util.module_from_spec(eligible);eligible.loader.exec_module(elig)
- paths=sorted((ROOT/'Países').glob(f'*/periodos/{century:04d}-{century+99:04d}.json'));dossiers={f:read(f)for f in paths};titles=sorted({t for d in dossiers.values()for c in d.get('candidates',[])for t in c['titles']});resolved={};entities={};errors=[]
+ paths=sorted((ROOT/'Países').glob(f'*/periodos/{century:04d}-{end_year:04d}.json'));dossiers={f:read(f)for f in paths};titles=sorted({t for d in dossiers.values()for c in d.get('candidates',[])for t in c['titles']});resolved={};entities={};errors=[]
  for i in range(0,len(titles),40):
   ts=titles[i:i+40]
   try:
@@ -64,7 +66,7 @@ def main(century,review):
    for prop in['P39','P97']:
     for c in e.get('claims',{}).get(prop,[]):
      a,b=qual(c,'P580'),qual(c,'P582');office=c.get('mainsnak',{}).get('datavalue',{}).get('value',{}).get('id')
-     if c.get('rank')!='deprecated'and a and b and a[0][:4]<=str(century+99).zfill(4)and b[0][:4]>=str(century).zfill(4):claims.append(dict(property=prop,office=office,start=a[0],end=b[0],precision=min(a[1],b[1]),statement=c.get('id')))
+     if c.get('rank')!='deprecated'and a and b and a[0][:4]<=str(end_year).zfill(4)and b[0][:4]>=str(century).zfill(4):claims.append(dict(property=prop,office=office,start=a[0],end=b[0],precision=min(a[1],b[1]),statement=c.get('id')))
   out.append(dict(candidate=row,claims=claims,fields=[]))
  offices=sorted({c['office']for r in out for c in r['claims']if c['office']});labels={}
  for i in range(0,len(offices),40):
@@ -86,4 +88,4 @@ def main(century,review):
   names={t for c in d.get('candidates',[])for t in c['titles']};d['candidateEvidence']=[dict(**bytitle[t],reignEvidence=byq.get(bytitle[t]['candidate'].get('person')))for t in sorted(names)if t in bytitle];save(path,d)
  print('Named candidates',len(titles),'resolved humans',sum(r['candidate']['human']for r in out),'reign-field records',sum(bool(r['reignFields'])for r in fields),'metadata errors',len(errors),'reign errors',sum('error'in r for r in fields),flush=True)
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--century',type=int,required=True);p.add_argument('--review',required=True);a=p.parse_args();main(a.century,a.review)
+ p=argparse.ArgumentParser();p.add_argument('--century',type=int,required=True);p.add_argument('--review',required=True);p.add_argument('--end-year',type=int);a=p.parse_args();main(a.century,a.review,a.end_year)

@@ -1,0 +1,330 @@
+{
+  "key": "HAN-RESTORATION",
+  "identity": {
+    "qid": "",
+    "name": "Restauraciones y poderes Han rivales"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador reclamante · restauraciones Han",
+      "officePattern": "Emperor",
+      "titles": [
+        "Gengshi Emperor",
+        "Liu Penzi"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7262",
+      "name": "Liu Xuan",
+      "role": "Emperador reclamante · restauración Han",
+      "start": "0023-01-01",
+      "end": "0025-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gengshi_Emperor",
+      "note": "Proclamación23 y poder rival hasta25; no se pospone la proclamación al cambio de control de una ciudad."
+    },
+    {
+      "person": "Q7265",
+      "name": "Liu Penzi",
+      "role": "Emperador reclamante · autoridad de los Cejas Rojas",
+      "start": "0025-01-01",
+      "end": "0027-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Penzi",
+      "note": "Autoridad nominal apoyada por los Cejas Rojas25–27; no se confunde con el gobierno de Guangwu."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review040-restoration",
+      "type": "conflict",
+      "title": "Restauraciones y reclamaciones Han",
+      "start": "0023-01-01",
+      "end": "0028-01-01",
+      "text": "Gengshi y Liu Penzi son poderes reclamantes diferenciados; Guangwu restaura Han oriental desde25. Las cortes permiten consulta sin inventar fronteras independientes.",
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 23,
+      "end": 27,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Gengshi_Emperor",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Xin Dynasty"
+        ],
+        "start": 24,
+        "end": 24,
+        "label": "Regiones de China · restauraciones Han",
+        "admin": "",
+        "status": "source-reference",
+        "colorFamily": "HAN",
+        "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+        "note": "Corrección cronológica sobre coordenadas originales; no frontera levantada anualmente."
+      }
+    }
+  ],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Gengshi Emperor",
+        "title": "Gengshi Emperor",
+        "person": "Q7262",
+        "name": "Liu Xuan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gengshi_Emperor",
+        "identityResolution": {
+          "requested": "Gengshi Emperor",
+          "canonical": "Gengshi Emperor",
+          "qid": "Q7262"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0023-03-11",
+          "end": "0025-01-01",
+          "precision": 9,
+          "statement": "Q7262$2F61F410-65E1-4F1D-A99E-6CE6258EBEC4",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7262",
+        "title": "Gengshi Emperor",
+        "source": "https://en.wikipedia.org/wiki/Gengshi_Emperor",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Han dynasty",
+            "raw": "5 October 23 – 5 August 25 AD",
+            "parsed": {
+              "start": "0023-10-05",
+              "end": "0025-08-05",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Liu Penzi",
+        "title": "Liu Penzi",
+        "person": "Q7265",
+        "name": "Liu Penzi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Liu_Penzi",
+        "identityResolution": {
+          "requested": "Liu Penzi",
+          "canonical": "Liu Penzi",
+          "qid": "Q7265"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0025-01-01",
+          "end": "0027-01-01",
+          "precision": 9,
+          "statement": "Q7265$BC462161-89C5-4DF5-84DA-53AD770A9602",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7265",
+        "title": "Liu Penzi",
+        "source": "https://en.wikipedia.org/wiki/Liu_Penzi",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7262",
+        "title": "Gengshi Emperor",
+        "source": "https://en.wikipedia.org/wiki/Gengshi_Emperor",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Han dynasty",
+          "raw": "5 October 23 – 5 August 25 AD",
+          "parsed": {
+            "start": "0023-10-05",
+            "end": "0025-08-05",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Liu Penzi",
+        "person": "Q7265",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q7262",
+      "originalRecords": [
+        {
+          "person": "Q7262",
+          "name": "Liu Xuan",
+          "role": "Emperador reclamante · restauraciones Han",
+          "start": "0023-10-05",
+          "end": "0025-08-05",
+          "precision": 11,
+          "source": "https://en.wikipedia.org/wiki/Gengshi_Emperor",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Proclamación23 y poder rival hasta25; no se pospone la proclamación al cambio de control de una ciudad.",
+      "source": "https://en.wikipedia.org/wiki/Gengshi_Emperor"
+    },
+    {
+      "person": "Q7265",
+      "originalRecords": [],
+      "decision": "Autoridad nominal apoyada por los Cejas Rojas25–27; no se confunde con el gobierno de Guangwu.",
+      "source": "https://en.wikipedia.org/wiki/Liu_Penzi"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q7262",
+      "name": "Liu Xuan",
+      "role": "Emperador reclamante · restauración Han",
+      "start": "0023-01-01",
+      "end": "0025-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gengshi_Emperor",
+      "note": "Proclamación23 y poder rival hasta25; no se pospone la proclamación al cambio de control de una ciudad."
+    },
+    {
+      "person": "Q7265",
+      "name": "Liu Penzi",
+      "role": "Emperador reclamante · autoridad de los Cejas Rojas",
+      "start": "0025-01-01",
+      "end": "0027-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Penzi",
+      "note": "Autoridad nominal apoyada por los Cejas Rojas25–27; no se confunde con el gobierno de Guangwu."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-3",
+      "name": "Chang’an · restauraciones Han rivales",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 23,
+      "end": 27,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Gengshi_Emperor",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Restauraciones y poderes Han rivales"
+    },
+    {
+      "id": "seat040-3-own",
+      "name": "Chang’an · restauraciones Han rivales",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 23,
+      "end": 27,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Gengshi_Emperor",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Restauraciones y poderes Han rivales"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review040-restoration",
+      "type": "conflict",
+      "title": "Restauraciones y reclamaciones Han",
+      "start": "0023-01-01",
+      "end": "0028-01-01",
+      "text": "Gengshi y Liu Penzi son poderes reclamantes diferenciados; Guangwu restaura Han oriental desde25. Las cortes permiten consulta sin inventar fronteras independientes.",
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review040-restoration",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.939,
+          34.342
+        ]
+      },
+      "properties": {
+        "name": "Restauraciones y reclamaciones Han",
+        "countries": [
+          "HAN-RESTORATION"
+        ],
+        "kind": "regional-conflict",
+        "start": "0023-01-01",
+        "end": "0027-12-31",
+        "precision": 9,
+        "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+        "sourceLabel": "Referencia documental · siglo I",
+        "note": "Gengshi y Liu Penzi son poderes reclamantes diferenciados; Guangwu restaura Han oriental desde25. Las cortes permiten consulta sin inventar fronteras independientes. Coordenada regional aproximada."
+      }
+    }
+  ]
+}

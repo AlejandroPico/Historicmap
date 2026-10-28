@@ -1,0 +1,235 @@
+{
+  "key": "XIN-DYNASTY",
+  "identity": {
+    "qid": "Q504769",
+    "name": "Dinastía Xin de Wang Mang"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador de Xin",
+      "officePattern": "Emperor",
+      "titles": [
+        "Wang Mang"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7250",
+      "name": "Wang Mang",
+      "role": "Emperador de Xin",
+      "start": "0009-01-01",
+      "end": "0023-12-31",
+      "precision": 9,
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "note": "Dinastía9–23, no desde6 ni hasta29 como sugerirían algunos contornos de la compilación."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review040-xin",
+      "type": "institution",
+      "title": "Wang Mang y la dinastía Xin",
+      "start": "0009-01-01",
+      "end": "0024-01-01",
+      "text": "La dinastía9–23 no se prolonga hasta29 por la cronología del polígono original. Entre14 y29 faltan contornos Han independientes; se conserva la referencia espacial y se identifican los poderes por fecha.",
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 9,
+      "end": 23,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Han Dynasty",
+          "Xin Dynasty"
+        ],
+        "start": 9,
+        "end": 23,
+        "label": "Dinastía Xin de Wang Mang",
+        "admin": "",
+        "status": "source-polity",
+        "colorFamily": "XIN",
+        "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+        "note": "Dinastía9–23; los contornos de la fuente empiezan6 y acaban29, fechas que no se convierten en reinado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "2a69d7cfc5e11a9202330111452c05e2ab865ed2476c69fe1112252853e2ead9",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1120,
+        1126,
+        1136
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Wang Mang",
+        "title": "Wang Mang",
+        "person": "Q7250",
+        "name": "Wang Mang",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wang_Mang",
+        "identityResolution": {
+          "requested": "Wang Mang",
+          "canonical": "Wang Mang",
+          "qid": "Q7250"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0009-01-10",
+          "end": "0023-10-06",
+          "precision": 11,
+          "statement": "Q7250$b8dafc17-3fe2-42b3-9852-9a8b7f781cff",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7250",
+        "title": "Wang Mang",
+        "source": "https://en.wikipedia.org/wiki/Wang_Mang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Xin dynasty",
+            "raw": "AD{{nbsp}}9–23",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "AD{{nbsp}}9–23",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Wang Mang",
+        "person": "Q7250",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q7250",
+      "originalRecords": [],
+      "decision": "Dinastía9–23, no desde6 ni hasta29 como sugerirían algunos contornos de la compilación.",
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q7250",
+      "name": "Wang Mang",
+      "role": "Emperador de Xin",
+      "start": "0009-01-01",
+      "end": "0023-12-31",
+      "precision": 9,
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "note": "Dinastía9–23, no desde6 ni hasta29 como sugerirían algunos contornos de la compilación."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-2",
+      "name": "Chang’an · corte Xin",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 9,
+      "end": 23,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Dinastía Xin de Wang Mang"
+    },
+    {
+      "id": "seat040-2-own",
+      "name": "Chang’an · corte Xin",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 9,
+      "end": 23,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Dinastía Xin de Wang Mang"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review040-xin",
+      "type": "institution",
+      "title": "Wang Mang y la dinastía Xin",
+      "start": "0009-01-01",
+      "end": "0024-01-01",
+      "text": "La dinastía9–23 no se prolonga hasta29 por la cronología del polígono original. Entre14 y29 faltan contornos Han independientes; se conserva la referencia espacial y se identifican los poderes por fecha.",
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras."
+    }
+  ]
+}

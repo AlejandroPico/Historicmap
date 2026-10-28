@@ -1,0 +1,69 @@
+{
+  "key": "REFERENCE-JUDEAN-COMMUNITIES-Y0001",
+  "contextKey": "REFERENCE-JUDEAN-COMMUNITIES",
+  "ownerKey": "REFERENCE-JUDEAN-COMMUNITIES",
+  "name": "Comunidades de Judea · marcos políticos cambiantes",
+  "originalNames": [
+    "Judea"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1,
+    99
+  ],
+  "interpretation": "La referencia de1a.C. no prolonga una monarquía herodiana uniforme: etnarquía, provincia, reinado de Agripa y guerras tienen fases distintas.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La referencia fuente es1a.C., no un año cero ni un mapa observado durante todo1–99d.C. La instantánea de1a.C. contiene etiquetas de épocas distintas. La ventana1–99d.C. es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de1a.C.",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    36.20912,
+    31.84933
+  ],
+  "phases": [
+    {
+      "start": 1,
+      "end": 99,
+      "label": "Comunidades de Judea · marcos políticos cambiantes",
+      "dateBasis": "Referencia regional de la fuente editorial de1a.C.; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-JUDEAN-COMMUNITIES-Y0001.geojson",
+  "geometrySha256": "5f51667b958390876e5af6cfaa0ca6f4fd191672d877aa71d0c91296fac4c7b9",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson",
+    "year": -1,
+    "featureIds": [
+      156
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "830fac0104ebafff7b576333cd5ab4a9bf4b6f732ddf828cec47797cf65047cb"
+  },
+  "review": "0.40.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final99 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en100."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Judea",
+      "ABBREVN": "Rome",
+      "SUBJECTO": "Roman Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Judea"
+    }
+  ],
+  "sourceGrouping": [
+    "Roman Empire"
+  ]
+}

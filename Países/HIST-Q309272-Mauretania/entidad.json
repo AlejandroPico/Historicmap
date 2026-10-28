@@ -1,0 +1,101 @@
+{
+  "key": "HIST-Q309272",
+  "name": "Mauretania",
+  "qid": "Q309272",
+  "aliases": [
+    "Mauretania"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q309272"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q526000",
+      "name": "Ptolomeo de Mauritania",
+      "role": "Rey de Mauritania",
+      "start": "0021-01-01",
+      "end": "0040-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ptolemy_of_Mauretania",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-1-0.40",
+      "portrait": {
+        "file": "media/portrait-7e7a14925e61522949ca.jpg",
+        "title": "Ptolemy of Mauretania Louvre Ma1887.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ptolemy_of_Mauretania_Louvre_Ma1887.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Ptolemy_of_Mauretania_Louvre_Ma1887.jpg/330px-Ptolemy_of_Mauretania_Louvre_Ma1887.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Marie-Lan Nguyen",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ptolemy_of_Mauretania_Louvre_Ma1887.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "f775d4c3b38877759cd66a707533f1d2fae323bcecaa353a48420ac0df0c1c95",
+        "bytes": 40222,
+        "canonicalFile": "Países/HIST-Q309272-Mauretania/retratos/portrait-7e7a14925e61522949ca.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Ptolomeo de Mauritania; no fotografÃ­a ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q315670",
+      "name": "Juba II",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0023-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Juba_II",
+      "note": "Rey de Mauritania desde25a.C.; no reinado númida prolongado por otra corona.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-1-0.40",
+      "portrait": {
+        "file": "media/portrait-5a1b7d47e24cf70787d2.jpg",
+        "title": "Portrait Juba II Louvre Ma1886.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Juba_II_Louvre_Ma1886.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Portrait_Juba_II_Louvre_Ma1886.jpg/330px-Portrait_Juba_II_Louvre_Ma1886.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nUnknown artistUnknown artist",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Marie-Lan Nguyen (User:Jastrow), 2007",
+        "sha256": "198d5b5bac80c8f82de0ff8e1b4a0ee19503318cb5f2b7eecf78ab778b29f13c",
+        "bytes": 39077,
+        "canonicalFile": "Países/HIST-Q309272-Mauretania/retratos/portrait-5a1b7d47e24cf70787d2.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Juba II; no fotografÃ­a ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1088",
+      "start": 1,
+      "end": 29,
+      "name": "Mauretania",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1142",
+      "start": 30,
+      "end": 42,
+      "name": "Mauretania",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,556 @@
+{
+  "key": "HIST-Q28370",
+  "identity": {
+    "qid": "Q28370",
+    "name": "Goguryeo"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "officePattern": "King.*Goguryeo|King.*Kogur",
+      "titles": [
+        "Yuri of Goguryeo",
+        "Daemusin of Goguryeo",
+        "Minjung of Goguryeo",
+        "Mobon of Goguryeo",
+        "Taejodae of Goguryeo"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q498345",
+      "name": "Daemusin de Goguryeo",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0018-01-01",
+      "end": "0044-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Daemusin_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes."
+    },
+    {
+      "person": "Q498441",
+      "name": "Minjung de Goguryeo",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0044-01-01",
+      "end": "0048-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Minjung_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes."
+    },
+    {
+      "person": "Q498458",
+      "name": "Mobon",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0048-01-01",
+      "end": "0053-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mobon_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes."
+    },
+    {
+      "person": "Q498481",
+      "name": "Taejo of Goguryeo",
+      "role": "Rey de Goguryeo · cronología tradicional",
+      "start": "0053-01-01",
+      "end": "0099-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Taejo_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes.",
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q498412",
+      "name": "Yuri de Koguryo",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0018-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo",
+      "note": "Cronología tradicional; no se sustituye el acceso previo a nuestra era por el año1. Cronología de tradición retrospectiva con variantes.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 1,
+      "end": 99,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Daemusin_of_Goguryeo",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Goguryeo"
+        ],
+        "start": 1,
+        "end": 99,
+        "label": "Goguryeo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "4106a75e1593f411bbe5b593e80a13e03a4f2e7dfaf525ed8ccff7145ba6d587",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1069,
+        1132,
+        1159,
+        1176
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Daemusin of Goguryeo",
+        "title": "Daemusin of Goguryeo",
+        "person": "Q498345",
+        "name": "Daemusin de Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Daemusin_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Daemusin of Goguryeo",
+          "canonical": "Daemusin of Goguryeo",
+          "qid": "Q498345"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "0018-01-01",
+          "end": "0044-01-01",
+          "precision": 9,
+          "statement": "Q498345$52cc6294-4c48-b6bf-26f1-fdc6d3c0a246",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498345",
+        "title": "Daemusin of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Daemusin_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Crown Prince of Goguryeo",
+            "raw": "AD 14–18",
+            "parsed": {
+              "start": "0014-01-01",
+              "end": "0018-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of Goguryeo",
+            "raw": "AD 18–44",
+            "parsed": {
+              "start": "0018-01-01",
+              "end": "0044-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "18–44",
+            "parsed": {
+              "start": "0018-01-01",
+              "end": "0044-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Minjung of Goguryeo",
+        "title": "Minjung of Goguryeo",
+        "person": "Q498441",
+        "name": "Minjung de Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Minjung_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Minjung of Goguryeo",
+          "canonical": "Minjung of Goguryeo",
+          "qid": "Q498441"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "0044-01-01",
+          "end": "0048-01-01",
+          "precision": 9,
+          "statement": "Q498441$998f244e-4542-93ad-c26f-bf5383991bb7",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498441",
+        "title": "Minjung of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Minjung_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "AD 44–48",
+            "parsed": {
+              "start": "0044-01-01",
+              "end": "0048-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "44–48",
+            "parsed": {
+              "start": "0044-01-01",
+              "end": "0048-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mobon of Goguryeo",
+        "title": "Mobon of Goguryeo",
+        "person": "Q498458",
+        "name": "Mobon",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mobon_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Mobon of Goguryeo",
+          "canonical": "Mobon of Goguryeo",
+          "qid": "Q498458"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "0048-01-01",
+          "end": "0053-01-01",
+          "precision": 9,
+          "statement": "Q498458$deca87ef-4cc7-4e85-c919-93aaa7104359",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498458",
+        "title": "Mobon of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Mobon_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Crown Prince of Goguryeo",
+            "raw": "AD 32–44",
+            "parsed": {
+              "start": "0032-01-01",
+              "end": "0044-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of Goguryeo",
+            "raw": "AD 48–53",
+            "parsed": {
+              "start": "0048-01-01",
+              "end": "0053-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "48–53",
+            "parsed": {
+              "start": "0048-01-01",
+              "end": "0053-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Taejodae of Goguryeo",
+        "title": "Taejodae of Goguryeo",
+        "person": "Q498481",
+        "name": "Taejo of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Taejo_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Taejodae of Goguryeo",
+          "canonical": "Taejo of Goguryeo",
+          "qid": "Q498481"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q141739813",
+          "start": "0053-01-01",
+          "end": "0146-01-01",
+          "precision": 9,
+          "statement": "Q498481$e7191caa-4119-3073-6bcb-083fc7962684",
+          "label": "King of Goguryeo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498481",
+        "title": "Taejo of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Taejo_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "53 AD – debated over 146 or 121 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "53–146",
+            "parsed": {
+              "start": "0053-01-01",
+              "end": "0146-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yuri of Goguryeo",
+        "title": "Yuri of Goguryeo",
+        "person": "Q498412",
+        "name": "Yuri de Koguryo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Yuri of Goguryeo",
+          "canonical": "Yuri of Goguryeo",
+          "qid": "Q498412"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498412",
+        "title": "Yuri of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "September 19 B.C. - October 18 A.D. (37 years)",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Crown Prince of Goguryeo",
+            "raw": "? B.C. - September 19 B.C.",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "19 BC – 18",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q498345",
+        "title": "Daemusin of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Daemusin_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "King of Goguryeo",
+          "raw": "AD 18–44",
+          "parsed": {
+            "start": "0018-01-01",
+            "end": "0044-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498441",
+        "title": "Minjung of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Minjung_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "AD 44–48",
+          "parsed": {
+            "start": "0044-01-01",
+            "end": "0048-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498458",
+        "title": "Mobon of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Mobon_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "King of Goguryeo",
+          "raw": "AD 48–53",
+          "parsed": {
+            "start": "0048-01-01",
+            "end": "0053-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498481",
+        "title": "Taejodae of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Taejo_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Goguryeo",
+          "raw": "53–146",
+          "parsed": {
+            "start": "0053-01-01",
+            "end": "0146-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Yuri of Goguryeo",
+        "person": "Q498412",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q498412",
+      "originalRecords": [],
+      "decision": "Cronología tradicional; no se sustituye el acceso previo a nuestra era por el año1.",
+      "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q498412",
+      "name": "Yuri de Koguryo",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0018-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yuri_of_Goguryeo",
+      "note": "Cronología tradicional; no se sustituye el acceso previo a nuestra era por el año1.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-15",
+      "name": "Gungnae · Goguryeo",
+      "coordinates": [
+        126.19,
+        41.12
+      ],
+      "start": 3,
+      "end": 99,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://whc.unesco.org/en/list/1135/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Goguryeo"
+    },
+    {
+      "id": "seat040-15-own",
+      "name": "Gungnae · Goguryeo",
+      "coordinates": [
+        126.19,
+        41.12
+      ],
+      "start": 3,
+      "end": 99,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://whc.unesco.org/en/list/1135/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Goguryeo"
+    }
+  ]
+}

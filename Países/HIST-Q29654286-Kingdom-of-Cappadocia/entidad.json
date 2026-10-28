@@ -1,0 +1,74 @@
+{
+  "key": "HIST-Q29654286",
+  "name": "Kingdom of Cappadocia",
+  "qid": "Q29654286",
+  "aliases": [
+    "Kingdom of Cappadocia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q29654286"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q346463",
+      "name": "Arquelao Ktistes",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0017-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Archelaus_of_Cappadocia",
+      "note": "Rey de Capadocia; incorporación provincial romana tras17, sin prolongar el reinado hasta el final del contorno22.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-1-0.40",
+      "portrait": {
+        "file": "media/portrait-b371c2d9282c2d21803c.jpg",
+        "title": "Archaelaus of Cappadocia - Drachm.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Archaelaus_of_Cappadocia_-_Drachm.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Archaelaus_of_Cappadocia_-_Drachm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG Coins[1]",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://wildwinds.com/coins/greece/cappadocia/kings/archelaus/i.html",
+        "sha256": "b15acc93ff054481ce6015b8bea4b21600f60332f79b7f1b5ecae6ce282b8140",
+        "bytes": 34893,
+        "canonicalFile": "Países/HIST-Q29654286-Kingdom-of-Cappadocia/retratos/portrait-b371c2d9282c2d21803c.jpg",
+        "caption": "Efigie monetaria convencional de Arquelao Ktistes; no fotografÃ­a ni semejanza del natural acreditada. Se muestra sÃ³lo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1098",
+      "start": 1,
+      "end": 13,
+      "name": "Kingdom of Cappadocia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1125",
+      "start": 14,
+      "end": 22,
+      "name": "Kingdom of Cappadocia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

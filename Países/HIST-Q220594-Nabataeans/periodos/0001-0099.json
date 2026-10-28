@@ -1,0 +1,220 @@
+{
+  "key": "HIST-Q220594",
+  "identity": {
+    "qid": "Q220594",
+    "name": "Nabataeans"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey nabateo",
+      "officePattern": "King|Nabataea",
+      "titles": [
+        "Aretas IV Philopatris",
+        "Malichus II",
+        "Rabbel II Soter"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Nabataeans"
+        ],
+        "start": 1,
+        "end": 99,
+        "label": "Nabataeans",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "fe186d87374dc5c2384414ad1dc59d54a39a179abb70f445bc7160be3f2f6a73",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1104,
+        1117,
+        1215
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aretas IV Philopatris",
+        "title": "Aretas IV Philopatris",
+        "person": "Q302986",
+        "name": "Aretas IV Philopatris",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aretas_IV_Philopatris",
+        "identityResolution": {
+          "requested": "Aretas IV Philopatris",
+          "canonical": "Aretas IV Philopatris",
+          "qid": "Q302986"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q302986",
+        "title": "Aretas IV Philopatris",
+        "source": "https://en.wikipedia.org/wiki/Aretas_IV_Philopatris",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Malichus II",
+        "title": "Malichus II",
+        "person": "Q881103",
+        "name": "Malichus II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Malichus_II",
+        "identityResolution": {
+          "requested": "Malichus II",
+          "canonical": "Malichus II",
+          "qid": "Q881103"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q881103",
+        "title": "Malichus II",
+        "source": "https://en.wikipedia.org/wiki/Malichus_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "40-70 AD",
+            "parsed": {
+              "start": "0040-01-01",
+              "end": "0070-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rabbel II Soter",
+        "title": "Rabbel II Soter",
+        "person": "Q887060",
+        "name": "Rabel II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rabbel_II_Soter",
+        "identityResolution": {
+          "requested": "Rabbel II Soter",
+          "canonical": "Rabbel II Soter",
+          "qid": "Q887060"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q887060",
+        "title": "Rabbel II Soter",
+        "source": "https://en.wikipedia.org/wiki/Rabbel_II_Soter",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "70-106 AD",
+            "parsed": {
+              "start": "0070-01-01",
+              "end": "0106-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Aretas IV Philopatris",
+        "person": "Q302986",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Malichus II",
+        "person": "Q881103",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Rabbel II Soter",
+        "person": "Q887060",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat040-28",
+      "name": "Petra · reino nabateo",
+      "coordinates": [
+        35.44,
+        30.33
+      ],
+      "start": 1,
+      "end": 99,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://whc.unesco.org/en/list/326/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Nabataeans"
+    },
+    {
+      "id": "seat040-28-own",
+      "name": "Petra · reino nabateo",
+      "coordinates": [
+        35.44,
+        30.33
+      ],
+      "start": 1,
+      "end": 99,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://whc.unesco.org/en/list/326/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Nabataeans"
+    }
+  ]
+}

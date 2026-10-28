@@ -1,0 +1,73 @@
+{
+  "key": "REFERENCE-DACIAN-COMMUNITIES-Y0001",
+  "contextKey": "REFERENCE-DACIAN-COMMUNITIES",
+  "ownerKey": "REFERENCE-DACIAN-COMMUNITIES",
+  "name": "Comunidades dacias y poderes regionales",
+  "originalNames": [
+    "Dacia"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1,
+    99
+  ],
+  "interpretation": "Las comunidades preceden y exceden a los reinados conocidos. La conquista romana de106 es posterior a esta ventana.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La referencia fuente es1a.C., no un año cero ni un mapa observado durante todo1–99d.C. La instantánea de1a.C. contiene etiquetas de épocas distintas. La ventana1–99d.C. es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de1a.C.",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de100",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    24.53679,
+    45.76061
+  ],
+  "phases": [
+    {
+      "start": 1,
+      "end": 99,
+      "label": "Comunidades dacias y poderes regionales",
+      "dateBasis": "Referencia regional de la fuente editorial de1a.C.; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-DACIAN-COMMUNITIES-Y0001.geojson",
+  "geometrySha256": "a4e6ef31ffc544a58dd2462d4b01faa76fcb4c3ca2956dac37c311e125364236",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson",
+    "year": -1,
+    "featureIds": [
+      141
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "830fac0104ebafff7b576333cd5ab4a9bf4b6f732ddf828cec47797cf65047cb"
+  },
+  "review": "0.40.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final99 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en100."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Dacia",
+      "ABBREVN": "Dacia",
+      "SUBJECTO": "Dacia",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Dacia"
+    }
+  ],
+  "sourceGrouping": [
+    "Dacia"
+  ]
+}

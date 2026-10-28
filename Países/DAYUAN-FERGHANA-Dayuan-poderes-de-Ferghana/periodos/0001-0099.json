@@ -1,0 +1,133 @@
+{
+  "key": "DAYUAN-FERGHANA",
+  "identity": {
+    "qid": "",
+    "name": "Dayuan · poderes de Ferghana"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review040-identity",
+      "type": "institution",
+      "title": "Dayuan de Ferghana, no Yuan medieval",
+      "start": "0001-01-01",
+      "end": "0051-01-01",
+      "text": "La compilación enlaza Great Yuan con el identificador de la dinastía medieval Yuan. Se conserva el original y se corrige la identidad de consulta por geografía, fechas y bibliografía; no se inventa una dinastía china medieval en el sigloI.",
+      "source": "https://sino-platonic.org/complete/spp080_saka_sai.pdf",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Great Yuan"
+        ],
+        "start": 1,
+        "end": 99,
+        "label": "Dayuan · poderes de Ferghana · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Contorno de síntesis, no dinastía prolongada ni Estado homogéneo. Fechas y alcance de la fuente desiguales."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "32877e0331846d55ca2517d368387c5da587c8338b41c6ae6f87efb88ad740cd",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1038,
+        1153
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": []
+  },
+  "sourceIdentityReview": {
+    "originalName": "Great Yuan",
+    "originalQid": "Q7313",
+    "decision": "Dayuan/Ferghana: contorno en69–74E/40–42N y periodos antiguos; no dinastía Yuan medieval. Conservar error original sin reutilizar su QID.",
+    "source": "https://sino-platonic.org/complete/spp080_saka_sai.pdf"
+  },
+  "places": [
+    {
+      "id": "seat040-7",
+      "name": "Ferghana · región de Dayuan",
+      "coordinates": [
+        71.8,
+        40.5
+      ],
+      "start": 1,
+      "end": 50,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://sino-platonic.org/complete/spp080_saka_sai.pdf",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Dayuan · poderes de Ferghana"
+    },
+    {
+      "id": "seat040-7-own",
+      "name": "Ferghana · región de Dayuan",
+      "coordinates": [
+        71.8,
+        40.5
+      ],
+      "start": 1,
+      "end": 50,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://sino-platonic.org/complete/spp080_saka_sai.pdf",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Dayuan · poderes de Ferghana"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review040-identity",
+      "type": "institution",
+      "title": "Dayuan de Ferghana, no Yuan medieval",
+      "start": "0001-01-01",
+      "end": "0051-01-01",
+      "text": "La compilación enlaza Great Yuan con el identificador de la dinastía medieval Yuan. Se conserva el original y se corrige la identidad de consulta por geografía, fechas y bibliografía; no se inventa una dinastía china medieval en el sigloI.",
+      "source": "https://sino-platonic.org/complete/spp080_saka_sai.pdf",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras."
+    }
+  ]
+}

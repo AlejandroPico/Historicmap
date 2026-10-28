@@ -1,0 +1,55 @@
+{
+  "key": "ICENI-REBELLION",
+  "name": "Icenos · autoridad de Boudica",
+  "qid": "",
+  "aliases": [
+    "Icenos · autoridad de Boudica"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "ICENI-REBELLION"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q184634",
+      "name": "Boudica",
+      "role": "Reina icena · autoridad rebelde",
+      "start": "0060-01-01",
+      "end": "0061-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Boudica",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-1-0.40",
+      "portrait": {
+        "file": "media/portrait-a4528f05a46e6871d87f.png",
+        "title": "Charles Hamilton Smith - Boudica.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Charles_Hamilton_Smith_-_Boudica.png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Charles_Hamilton_Smith_-_Boudica.png/330px-Charles_Hamilton_Smith_-_Boudica.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nCharles Hamilton Smith",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Hamilton_Smith_-_Boudica.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Samuel Rush Meyrick The Costume of the Original Inhabitants of the British Islands from the Earliest Periods to the Sixth Century (https://www.google.co.uk/books/edition/The_Costume_of_the_Original_Inhabitants/_vPIhE7dt9QC?hl=en&gbpv=1)",
+        "sha256": "e6c8119abd034844fc8a7bf64321344f782eca790af57ae156d4947c01f8b13b",
+        "bytes": 222547,
+        "canonicalFile": "Países/ICENI-REBELLION-Icenos-autoridad-de-Boudica/retratos/portrait-a4528f05a46e6871d87f.png",
+        "caption": "Boudica imaginada por Charles Hamilton Smith en1815; representación retrospectiva, sin apariencia física contemporánea acreditada."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

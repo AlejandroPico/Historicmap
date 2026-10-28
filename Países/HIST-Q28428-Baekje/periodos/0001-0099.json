@@ -1,0 +1,339 @@
+{
+  "key": "HIST-Q28428",
+  "identity": {
+    "qid": "Q28428",
+    "name": "Baekje"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Baekje · cronología tradicional",
+      "officePattern": "King.*Baekje|King.*Paekche",
+      "titles": [
+        "Onjo of Baekje",
+        "Daru of Baekje",
+        "Giru of Baekje"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q497305",
+      "name": "Daru de Baekje",
+      "role": "Rey de Baekje · cronología tradicional",
+      "start": "0028-01-01",
+      "end": "0077-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Taru_of_Paekche",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes."
+    },
+    {
+      "person": "Q497336",
+      "name": "Giru of Baekje",
+      "role": "Rey de Baekje · cronología tradicional",
+      "start": "0077-01-01",
+      "end": "0099-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kiru_of_Paekche",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes.",
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q497285",
+      "name": "Onjo de Baekje",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0028-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Onjo_of_Baekje",
+      "note": "Cronología tradicional de fundación y realeza, no observaciones contemporáneas anuales. Cronología de tradición retrospectiva con variantes.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-e5d9b94b5daad4fdff28.jpg",
+        "title": "초등대한역사 제2편 12.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%EC%B4%88%EB%93%B1%EB%8C%80%ED%95%9C%EC%97%AD%EC%82%AC_%EC%A0%9C2%ED%8E%B8_12.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/%EC%B4%88%EB%93%B1%EB%8C%80%ED%95%9C%EC%97%AD%EC%82%AC_%EC%A0%9C2%ED%8E%B8_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Original: Jeong Inho\n\nTranscription: History Net, National Institute of Korean History",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%EC%B4%88%EB%93%B1%EB%8C%80%ED%95%9C%EC%97%AD%EC%82%AC_%EC%A0%9C2%ED%8E%B8_12.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[1]",
+        "sha256": "a54077085519421f538a8b4a0f2111905e2b499dbe35310f9361fb42959d2ac1",
+        "bytes": 74138,
+        "canonicalFile": "Países/HIST-Q28428-Baekje/retratos/portrait-e5d9b94b5daad4fdff28.jpg",
+        "caption": "RepresentaciÃ³n imaginaria posterior de Onjo de Baekje; no fotografÃ­a ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 1,
+      "end": 99,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Taru_of_Paekche",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Daru of Baekje",
+        "title": "Daru of Baekje",
+        "person": "Q497305",
+        "name": "Daru de Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Taru_of_Paekche",
+        "identityResolution": {
+          "requested": "Daru of Baekje",
+          "canonical": "Taru of Paekche",
+          "qid": "Q497305"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0028-01-01",
+          "end": "0077-01-01",
+          "precision": 9,
+          "statement": "Q497305$5f47fb6a-4d1d-208e-34b8-3f7260d9e4f8",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497305",
+        "title": "Taru of Paekche",
+        "source": "https://en.wikipedia.org/wiki/Taru_of_Paekche",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Paekche",
+            "raw": "28–77",
+            "parsed": {
+              "start": "0028-01-01",
+              "end": "0077-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Giru of Baekje",
+        "title": "Giru of Baekje",
+        "person": "Q497336",
+        "name": "Giru of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kiru_of_Paekche",
+        "identityResolution": {
+          "requested": "Giru of Baekje",
+          "canonical": "Kiru of Paekche",
+          "qid": "Q497336"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0077-01-01",
+          "end": "0128-01-01",
+          "precision": 9,
+          "statement": "Q497336$acc84576-435f-69a0-0643-cded28a696d9",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497336",
+        "title": "Kiru of Paekche",
+        "source": "https://en.wikipedia.org/wiki/Kiru_of_Paekche",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Paekche",
+            "raw": "77–128",
+            "parsed": {
+              "start": "0077-01-01",
+              "end": "0128-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Onjo of Baekje",
+        "title": "Onjo of Baekje",
+        "person": "Q497285",
+        "name": "Onjo de Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Onjo_of_Paekche",
+        "identityResolution": {
+          "requested": "Onjo of Baekje",
+          "canonical": "Onjo of Paekche",
+          "qid": "Q497285"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497285",
+        "title": "Onjo of Paekche",
+        "source": "https://en.wikipedia.org/wiki/Onjo_of_Paekche",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Paekche",
+            "raw": "18 BC - 28 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "18 BC – 28 AD",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q497305",
+        "title": "Daru of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Taru_of_Paekche",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Paekche",
+          "raw": "28–77",
+          "parsed": {
+            "start": "0028-01-01",
+            "end": "0077-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497336",
+        "title": "Giru of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Kiru_of_Paekche",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Paekche",
+          "raw": "77–128",
+          "parsed": {
+            "start": "0077-01-01",
+            "end": "0128-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Onjo of Baekje",
+        "person": "Q497285",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q497285",
+      "originalRecords": [],
+      "decision": "Cronología tradicional de fundación y realeza, no observaciones contemporáneas anuales.",
+      "source": "https://en.wikipedia.org/wiki/Onjo_of_Baekje"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q497285",
+      "name": "Onjo de Baekje",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0028-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Onjo_of_Baekje",
+      "note": "Cronología tradicional de fundación y realeza, no observaciones contemporáneas anuales.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q497285",
+      "name": "Onjo de Baekje",
+      "title": "초등대한역사 제2편 12.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%EC%B4%88%EB%93%B1%EB%8C%80%ED%95%9C%EC%97%AD%EC%82%AC_%EC%A0%9C2%ED%8E%B8_12.jpg",
+      "sha256": "a54077085519421f538a8b4a0f2111905e2b499dbe35310f9361fb42959d2ac1",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "RepresentaciÃ³n imaginaria posterior de Onjo de Baekje; no fotografÃ­a ni semejanza del natural acreditada."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-16",
+      "name": "Hanseong · Baekje",
+      "coordinates": [
+        127.11,
+        37.53
+      ],
+      "start": 1,
+      "end": 99,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Hanseong_Baekje",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Baekje"
+    },
+    {
+      "id": "seat040-16-own",
+      "name": "Hanseong · Baekje",
+      "coordinates": [
+        127.11,
+        37.53
+      ],
+      "start": 1,
+      "end": 99,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Hanseong_Baekje",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Baekje"
+    }
+  ]
+}

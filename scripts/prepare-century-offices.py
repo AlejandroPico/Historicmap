@@ -7,14 +7,16 @@ import pathlib,json,re,argparse,copy
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 read=lambda p:json.loads(p.read_text(encoding='utf8'))
 save=lambda p,d:p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
-def main(century,review):
- first,last=f'{century:04d}-01-01',f'{century+99:04d}-12-31'
+def main(century,review,end_year=None):
+ end_year=century+99 if end_year is None else end_year
+ if not 1<=century<=end_year<=century+99:raise ValueError('Invalid common-era office window')
+ first,last=f'{century:04d}-01-01',f'{end_year:04d}-12-31'
  evidence=read(ROOT/f'.cache/rulers{review}-office-evidence.json');fields=read(ROOT/f'.cache/rulers{review}-reign-evidence.json')
  by_title={r['candidate']['requestedTitle']:r for r in evidence};by_person={r.get('person'):r for r in fields}
  ids=read(ROOT/'public/data/identities.json');baseline=read(ROOT/f'.cache/baseline{review}.json');tag='historical-0.'+str(int(review))
  aliases={}
  # A dossier may explicitly retain a previously shipped canonical identity.
- dossiers={read(p)['key']:p for p in (ROOT/'Países').glob(f'*/periodos/{century:04d}-{century+99:04d}.json')}
+ dossiers={read(p)['key']:p for p in (ROOT/'Países').glob(f'*/periodos/{century:04d}-{end_year:04d}.json')}
  for key,path in dossiers.items():
   d=read(path)
   for q in d.get('sourceKeys',[]):aliases[q]=key
@@ -27,8 +29,8 @@ def main(century,review):
    import unicodedata
    name=c['name'];slug=re.sub('[^a-zA-Z0-9]+','-',unicodedata.normalize('NFD',name).encode('ascii','ignore').decode()).strip('-')[:65]
    folder=next((p.parent for p in (ROOT/'Países').glob('*/entidad.json')if read(p)['key']==target),ROOT/'Países'/(target+'-'+slug))
-   path=folder/f'periodos/{century:04d}-{century+99:04d}.json';path.parent.mkdir(parents=True,exist_ok=True)
-   save(path,dict(key=target,identity=dict(qid=c['qid'],name=c['name']),revision=f'0.{int(review)}.0',acquisition=f'century-{century}-0.{int(review)}',coverageStart=century,coverageEnd=century+99,candidates=[],leaders=[],symbols=[],institutions=[],governance=[]));dossiers[target]=path
+   path=folder/f'periodos/{century:04d}-{end_year:04d}.json';path.parent.mkdir(parents=True,exist_ok=True)
+   save(path,dict(key=target,identity=dict(qid=c['qid'],name=c['name']),revision=f'0.{int(review)}.0',acquisition=f'century-{century}-0.{int(review)}',coverageStart=century,coverageEnd=end_year,candidates=[],leaders=[],symbols=[],institutions=[],governance=[]));dossiers[target]=path
   d=read(path);d['acquiredLeaders']=[{k:v for k,v in r.items()if k not in ['acquisition','portrait']}for r in terms];save(path,d)
  for key,path in dossiers.items():
   d=read(path);accepted=[];pending=[];frozen=[];seen=set();bounds=d.get('officeBounds',[first,last])
@@ -83,4 +85,4 @@ def main(century,review):
  (ROOT/'public/data/identities.json').write_text(json.dumps(ids,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf8',newline='\n')
  print('Entity dossiers',len(dossiers),'selected offices',records,'unresolved candidates',unresolved)
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--century',type=int,required=True);p.add_argument('--review',required=True);a=p.parse_args();main(a.century,a.review)
+ p=argparse.ArgumentParser();p.add_argument('--century',type=int,required=True);p.add_argument('--review',required=True);p.add_argument('--end-year',type=int);a=p.parse_args();main(a.century,a.review,a.end_year)

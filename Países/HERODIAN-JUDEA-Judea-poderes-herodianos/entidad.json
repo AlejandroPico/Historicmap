@@ -1,0 +1,84 @@
+{
+  "key": "HERODIAN-JUDEA",
+  "name": "Judea · poderes herodianos",
+  "qid": "",
+  "aliases": [
+    "Judea · poderes herodianos"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HERODIAN-JUDEA"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q244345",
+      "name": "Herodes Arquelao",
+      "role": "Etnarca de Judea, Samaria e Idumea",
+      "start": "0001-01-01",
+      "end": "0006-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+      "note": "No rey de toda Palestina;1 es límite de revisión de una etnarquía iniciada4a.C. Paso a administración provincial6.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-1-0.40",
+      "portrait": {
+        "file": "media/portrait-74dd59a1294b7ac17f94.svg",
+        "title": "Archelaus medal.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Archelaus_medal.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Archelaus_medal.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Georges Reverdy",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Archelaus_medal.svg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Rouillé, Guillaume (1553)       Promptuarium Iconum Insigniorum pars secunda, Lyon:  Apud Gulielmum Rovillium, p. 4  OCLC:   716696497. ",
+        "sha256": "b9fb0c47a5e89665f0f751dd45e76c89a89ae7a0092ddb4bba700a39ba857191",
+        "bytes": 339480,
+        "canonicalFile": "Países/HERODIAN-JUDEA-Judea-poderes-herodianos/retratos/portrait-74dd59a1294b7ac17f94.svg",
+        "caption": "Medallón imaginario dibujado posteriormente de Herodes Arquelao; no moneda antigua ni retrato del natural."
+      }
+    },
+    {
+      "person": "Q298636",
+      "name": "Herodes Agripa I",
+      "role": "Rey de Judea · autoridad herodiana",
+      "start": "0041-01-01",
+      "end": "0044-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+      "note": "Su realeza en otros territorios desde37 no se convierte en gobierno de toda Judea desde37. Reinado sobre Judea41–44.",
+      "curated": true,
+      "acquisition": "century-1-0.40",
+      "portrait": {
+        "file": "media/portrait-30772abd8403211e31e0.svg",
+        "title": "Herod Agrippa medal.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Herod_Agrippa_medal.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Herod_Agrippa_medal.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Georges Reverdy",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Herod_Agrippa_medal.svg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Rouillé, Guillaume (1553)       Promptuarium Iconum Insigniorum pars secunda, Lyon:  Apud Gulielmum Rovillium, p. 14  OCLC:   716696497. ",
+        "sha256": "87c3adc9a4b4dde9b9bf819d7e287c75baf79a8b3f095ea0aba8e8586d9900a7",
+        "bytes": 269714,
+        "canonicalFile": "Países/HERODIAN-JUDEA-Judea-poderes-herodianos/retratos/portrait-30772abd8403211e31e0.svg",
+        "caption": "Medallón imaginario dibujado posteriormente de Herodes AgripaI; no moneda antigua ni retrato del natural."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

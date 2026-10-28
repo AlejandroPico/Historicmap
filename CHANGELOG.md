@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.40.0 · 28 de octubre de 2026
+
+- Consulta anual1–99d.C., sin año cero;62 dossiers y141 componentes políticos originales,30 centros y20 contextos.
+- Transiciones Han–Xin–Han, Dayuan identificado frente al enlace Yuan medieval y rebelión Trưng40–43 diferenciadas de las fechas de sus contornos de origen.
+- 68 fases culturales nuevas, con referencia espacial explícita de1a.C.;79 dossiers originales conservados, incluidas remisiones y exclusiones documentadas.
+- 64 candidatos visuales inspeccionados,57 aceptados y siete apartados. Caras monetarias, medallones retrospectivos y atribuciones diferenciados.
+- Corregida la prueba de publicación que esperaba el snapshot100 al consultar117: se exige ahora el mapa anual117 dibujado y la fecha cargada. Se mantienen cuatro máquinas enCI.
+- Fuentes, carencias, conservación y comprobaciones locales documentadas.
+
 ## 0.39.0 · 28 de octubre de 2026
 
 - Consulta anual100–199:55 dossiers,111 cargos,126 componentes políticos originales,24 centros y18 contextos. Se conservan todas las etapas posteriores.

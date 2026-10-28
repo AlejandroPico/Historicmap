@@ -1,0 +1,81 @@
+{
+  "key": "CULTURE-HINDU-KINGDOMS-ECD95A2C-Y0001",
+  "contextKey": "CULTURE-HINDU-KINGDOMS-ECD95A2C",
+  "ownerKey": "CULTURE-HINDU-KINGDOMS-ECD95A2C",
+  "name": "Hindu kingdoms",
+  "originalNames": [
+    "Hindu kingdoms"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    1,
+    99
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La referencia fuente es1a.C., no un año cero ni un mapa observado durante todo1–99d.C. La instantánea de1a.C. contiene etiquetas de épocas distintas. La ventana1–99d.C. es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de1a.C.",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de100",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    77.66294,
+    25.70151
+  ],
+  "phases": [
+    {
+      "start": 1,
+      "end": 99,
+      "label": "Hindu kingdoms",
+      "dateBasis": "Referencia regional de la fuente editorial de1a.C.; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-HINDU-KINGDOMS-ECD95A2C-Y0001.geojson",
+  "geometrySha256": "c1e893958101c0e5836ae45cf9c7191541143f52914dde948ee896355cc7bf2a",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1.geojson",
+    "year": -1,
+    "featureIds": [
+      45,
+      143
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "830fac0104ebafff7b576333cd5ab4a9bf4b6f732ddf828cec47797cf65047cb"
+  },
+  "review": "0.40.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final99 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en100."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Hindu kingdoms",
+      "ABBREVN": "Hindu kingdoms",
+      "SUBJECTO": "Hindu kingdoms",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Hindu kingdoms"
+    },
+    {
+      "NAME": "Hindu kingdoms",
+      "ABBREVN": "Hindu kingdoms",
+      "SUBJECTO": "Hindu kingdoms",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Hindu kingdoms"
+    }
+  ],
+  "sourceGrouping": [
+    "Hindu kingdoms"
+  ]
+}

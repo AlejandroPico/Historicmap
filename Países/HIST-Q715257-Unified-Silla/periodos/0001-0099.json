@@ -1,0 +1,426 @@
+{
+  "key": "HIST-Q715257",
+  "identity": {
+    "qid": "Q715257",
+    "name": "Unified Silla"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Silla · tradición retrospectiva",
+      "officePattern": "King.*Silla|Ruler.*Silla|Isageum|Chachaung|Geoseogan",
+      "titles": [
+        "Namhae of Silla",
+        "Yuri of Silla",
+        "Talhae of Silla",
+        "Pasa of Silla",
+        "Hyeokgeose of Silla"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q496504",
+      "name": "Namhae of Silla",
+      "role": "Gobernante de Silla · tradición retrospectiva",
+      "start": "0004-01-01",
+      "end": "0024-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Namhae_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes."
+    },
+    {
+      "person": "Q485107",
+      "name": "Yuri de Silla",
+      "role": "Gobernante de Silla · tradición retrospectiva",
+      "start": "0024-01-01",
+      "end": "0057-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yuri_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes."
+    },
+    {
+      "person": "Q485572",
+      "name": "Talhae of Silla",
+      "role": "Gobernante de Silla · tradición retrospectiva",
+      "start": "0057-01-01",
+      "end": "0080-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Talhae_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes."
+    },
+    {
+      "person": "Q485616",
+      "name": "Pasa of Silla",
+      "role": "Gobernante de Silla · tradición retrospectiva",
+      "start": "0080-01-01",
+      "end": "0099-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pasa_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 1,
+      "end": 99,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Namhae_of_Silla",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Hyeokgeose of Silla",
+        "title": "Hyeokgeose of Silla",
+        "person": "Q484898",
+        "name": "Hyeokgeose de Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hyeokgeose_of_Silla",
+        "identityResolution": {
+          "requested": "Hyeokgeose of Silla",
+          "canonical": "Hyeokgeose of Silla",
+          "qid": "Q484898"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q484898",
+        "title": "Hyeokgeose of Silla",
+        "source": "https://en.wikipedia.org/wiki/Hyeokgeose_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "57 BC – 4 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "57 BC – 4",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Namhae of Silla",
+        "title": "Namhae of Silla",
+        "person": "Q496504",
+        "name": "Namhae of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Namhae_of_Silla",
+        "identityResolution": {
+          "requested": "Namhae of Silla",
+          "canonical": "Namhae of Silla",
+          "qid": "Q496504"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q496504",
+        "title": "Namhae of Silla",
+        "source": "https://en.wikipedia.org/wiki/Namhae_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "4–24",
+            "parsed": {
+              "start": "0004-01-01",
+              "end": "0024-12-31",
+              "precision": 9
+            },
+            "reignType": "Reign"
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "4–24",
+            "parsed": {
+              "start": "0004-01-01",
+              "end": "0024-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pasa of Silla",
+        "title": "Pasa of Silla",
+        "person": "Q485616",
+        "name": "Pasa of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pasa_of_Silla",
+        "identityResolution": {
+          "requested": "Pasa of Silla",
+          "canonical": "Pasa of Silla",
+          "qid": "Q485616"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485616",
+        "title": "Pasa of Silla",
+        "source": "https://en.wikipedia.org/wiki/Pasa_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "80–112",
+            "parsed": {
+              "start": "0080-01-01",
+              "end": "0112-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "80–112",
+            "parsed": {
+              "start": "0080-01-01",
+              "end": "0112-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Talhae of Silla",
+        "title": "Talhae of Silla",
+        "person": "Q485572",
+        "name": "Talhae of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Talhae_of_Silla",
+        "identityResolution": {
+          "requested": "Talhae of Silla",
+          "canonical": "Talhae of Silla",
+          "qid": "Q485572"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485572",
+        "title": "Talhae of Silla",
+        "source": "https://en.wikipedia.org/wiki/Talhae_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "57-80",
+            "parsed": {
+              "start": "0057-01-01",
+              "end": "0080-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "57–80",
+            "parsed": {
+              "start": "0057-01-01",
+              "end": "0080-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yuri of Silla",
+        "title": "Yuri of Silla",
+        "person": "Q485107",
+        "name": "Yuri de Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yuri_of_Silla",
+        "identityResolution": {
+          "requested": "Yuri of Silla",
+          "canonical": "Yuri of Silla",
+          "qid": "Q485107"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485107",
+        "title": "Yuri of Silla",
+        "source": "https://en.wikipedia.org/wiki/Yuri_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "24-57",
+            "parsed": {
+              "start": "0024-01-01",
+              "end": "0057-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "24–57",
+            "parsed": {
+              "start": "0024-01-01",
+              "end": "0057-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q496504",
+        "title": "Namhae of Silla",
+        "source": "https://en.wikipedia.org/wiki/Namhae_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "4–24",
+          "parsed": {
+            "start": "0004-01-01",
+            "end": "0024-12-31",
+            "precision": 9
+          },
+          "reignType": "Reign"
+        }
+      },
+      {
+        "person": "Q485107",
+        "title": "Yuri of Silla",
+        "source": "https://en.wikipedia.org/wiki/Yuri_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "24-57",
+          "parsed": {
+            "start": "0024-01-01",
+            "end": "0057-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q485572",
+        "title": "Talhae of Silla",
+        "source": "https://en.wikipedia.org/wiki/Talhae_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "57-80",
+          "parsed": {
+            "start": "0057-01-01",
+            "end": "0080-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q485616",
+        "title": "Pasa of Silla",
+        "source": "https://en.wikipedia.org/wiki/Pasa_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "80–112",
+          "parsed": {
+            "start": "0080-01-01",
+            "end": "0112-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Hyeokgeose of Silla",
+        "person": "Q484898",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat040-14",
+      "name": "Gyeongju · Silla",
+      "coordinates": [
+        129.212,
+        35.856
+      ],
+      "start": 1,
+      "end": 99,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://whc.unesco.org/en/list/976/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Unified Silla"
+    },
+    {
+      "id": "seat040-14-own",
+      "name": "Gyeongju · Silla",
+      "coordinates": [
+        129.212,
+        35.856
+      ],
+      "start": 1,
+      "end": 99,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://whc.unesco.org/en/list/976/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Unified Silla"
+    }
+  ]
+}

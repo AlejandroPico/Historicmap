@@ -1,0 +1,371 @@
+{
+  "key": "HIST-Q104815700",
+  "identity": {
+    "qid": "Q104815700",
+    "name": "Thracian Kingdom"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey tracio · poderes dinásticos",
+      "officePattern": "Thrace|Thracian|Sapaean",
+      "titles": [
+        "Rhoemetalces I",
+        "Rhescuporis II",
+        "Cotys VIII",
+        "Rhoemetalces II",
+        "Rhoemetalces III"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2998641",
+      "name": "Cotis III",
+      "role": "Rey tracio · poderes dinásticos",
+      "start": "0012-01-01",
+      "end": "0018-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cotys_III_%28Sapaean%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q3429926",
+      "name": "Rhoemetalces II",
+      "role": "Rey tracio · poderes dinásticos",
+      "start": "0019-01-01",
+      "end": "0038-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rhoemetalces_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q3429923",
+      "name": "Rhoemetalces III",
+      "role": "Rey tracio · poderes dinásticos",
+      "start": "0038-01-01",
+      "end": "0046-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rhoemetalces_III",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 1,
+      "end": 46,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cotys_III_%28Sapaean%29",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Thracian Kingdom"
+        ],
+        "start": 1,
+        "end": 46,
+        "label": "Thracian Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Thracian Kingdom"
+        ],
+        "start": 47,
+        "end": 99,
+        "label": "Thracian Kingdom · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Contorno de síntesis, no dinastía prolongada ni Estado homogéneo. Fechas y alcance de la fuente desiguales."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "4ce9a3b6c12f2951591e0e3d752b8346ee80eb8ff9ae495fe0dce99d12dfea79",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1092,
+        1144
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Cotys VIII",
+        "title": "Cotys VIII",
+        "person": "Q2998641",
+        "name": "Cotis III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cotys_III_%28Sapaean%29",
+        "identityResolution": {
+          "requested": "Cotys VIII",
+          "canonical": "Cotys III (Sapaean)",
+          "qid": "Q2998641"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2998641",
+        "title": "Cotys III (Sapaean)",
+        "source": "https://en.wikipedia.org/wiki/Cotys_III_%28Sapaean%29",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Thrace",
+            "raw": "12&ndash;18",
+            "parsed": {
+              "start": "0012-01-01",
+              "end": "0018-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rhescuporis II",
+        "title": "Rhescuporis II",
+        "person": "Q137369076",
+        "name": "Rhescuporis II",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Rhescuporis_II",
+        "identityResolution": {
+          "requested": "Rhescuporis II",
+          "canonical": "Rhescuporis II",
+          "qid": "Q137369076"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rhoemetalces I",
+        "title": "Rhoemetalces I",
+        "person": "Q2713422",
+        "name": "Remetalces I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rhoemetalces_I",
+        "identityResolution": {
+          "requested": "Rhoemetalces I",
+          "canonical": "Rhoemetalces I",
+          "qid": "Q2713422"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2713422",
+        "title": "Rhoemetalces I",
+        "source": "https://en.wikipedia.org/wiki/Rhoemetalces_I",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Thrace",
+            "raw": "12 BC&ndash;12 AD",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rhoemetalces II",
+        "title": "Rhoemetalces II",
+        "person": "Q3429926",
+        "name": "Rhoemetalces II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rhoemetalces_II",
+        "identityResolution": {
+          "requested": "Rhoemetalces II",
+          "canonical": "Rhoemetalces II",
+          "qid": "Q3429926"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3429926",
+        "title": "Rhoemetalces II",
+        "source": "https://en.wikipedia.org/wiki/Rhoemetalces_II",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Co-ruler of Thrace with Tryphaena",
+            "raw": "19 &ndash;38",
+            "parsed": {
+              "start": "0019-01-01",
+              "end": "0038-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rhoemetalces III",
+        "title": "Rhoemetalces III",
+        "person": "Q3429923",
+        "name": "Rhoemetalces III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rhoemetalces_III",
+        "identityResolution": {
+          "requested": "Rhoemetalces III",
+          "canonical": "Rhoemetalces III",
+          "qid": "Q3429923"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3429923",
+        "title": "Rhoemetalces III",
+        "source": "https://en.wikipedia.org/wiki/Rhoemetalces_III",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Co-ruler of Thrace with Pythodoris II",
+            "raw": "38 &ndash;46",
+            "parsed": {
+              "start": "0038-01-01",
+              "end": "0046-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2998641",
+        "title": "Cotys VIII",
+        "source": "https://en.wikipedia.org/wiki/Cotys_III_%28Sapaean%29",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Thrace",
+          "raw": "12&ndash;18",
+          "parsed": {
+            "start": "0012-01-01",
+            "end": "0018-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q3429926",
+        "title": "Rhoemetalces II",
+        "source": "https://en.wikipedia.org/wiki/Rhoemetalces_II",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Co-ruler of Thrace with Tryphaena",
+          "raw": "19 &ndash;38",
+          "parsed": {
+            "start": "0019-01-01",
+            "end": "0038-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q3429923",
+        "title": "Rhoemetalces III",
+        "source": "https://en.wikipedia.org/wiki/Rhoemetalces_III",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Co-ruler of Thrace with Pythodoris II",
+          "raw": "38 &ndash;46",
+          "parsed": {
+            "start": "0038-01-01",
+            "end": "0046-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Rhoemetalces I",
+        "person": "Q2713422",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Rhescuporis II",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q3429923",
+      "title": "Rhoemetalkes+.jpg",
+      "reason": "La fotografía de la moneda no permite atribuir con seguridad la cara del rey frente a la del emperador romano; se mantiene pendiente.",
+      "source": "https://commons.wikimedia.org/wiki/File:Rhoemetalkes%2B.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q3429923",
+      "name": "Rhoemetalces III",
+      "title": "Rhoemetalkes+.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rhoemetalkes%2B.jpg",
+      "sha256": "dd4594d44dc0fa8e8ec517bbef9649781cbd7d69ae3e4bcbbe04a02ed74cb998",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "reason": "La fotografía de la moneda no permite atribuir con seguridad la cara del rey frente a la del emperador romano; se mantiene pendiente."
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "key": "HERODIAN-JUDEA",
+  "identity": {
+    "qid": "",
+    "name": "Judea · poderes herodianos"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Etnarca o rey herodiano · dignidades distintas",
+      "officePattern": "Ethnarch|King",
+      "titles": [
+        "Herod Archelaus",
+        "Herod Agrippa"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q244345",
+      "name": "Herodes Arquelao",
+      "role": "Etnarca de Judea, Samaria e Idumea",
+      "start": "0001-01-01",
+      "end": "0006-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+      "note": "No rey de toda Palestina;1 es límite de revisión de una etnarquía iniciada4a.C. Paso a administración provincial6.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-74dd59a1294b7ac17f94.svg",
+        "title": "Archelaus medal.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Archelaus_medal.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Archelaus_medal.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Georges Reverdy",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Archelaus_medal.svg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Rouillé, Guillaume (1553)       Promptuarium Iconum Insigniorum pars secunda, Lyon:  Apud Gulielmum Rovillium, p. 4  OCLC:   716696497. ",
+        "sha256": "b9fb0c47a5e89665f0f751dd45e76c89a89ae7a0092ddb4bba700a39ba857191",
+        "bytes": 339480,
+        "canonicalFile": "Países/HERODIAN-JUDEA-Judea-poderes-herodianos/retratos/portrait-74dd59a1294b7ac17f94.svg",
+        "caption": "Medallón imaginario dibujado posteriormente de Herodes Arquelao; no moneda antigua ni retrato del natural."
+      }
+    },
+    {
+      "person": "Q298636",
+      "name": "Herodes Agripa I",
+      "role": "Rey de Judea · autoridad herodiana",
+      "start": "0041-01-01",
+      "end": "0044-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+      "note": "Su realeza en otros territorios desde37 no se convierte en gobierno de toda Judea desde37. Reinado sobre Judea41–44.",
+      "portrait": {
+        "file": "media/portrait-30772abd8403211e31e0.svg",
+        "title": "Herod Agrippa medal.svg",
+        "url": "https://commons.wikimedia.org/wiki/File:Herod_Agrippa_medal.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Herod_Agrippa_medal.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Georges Reverdy",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Herod_Agrippa_medal.svg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Rouillé, Guillaume (1553)       Promptuarium Iconum Insigniorum pars secunda, Lyon:  Apud Gulielmum Rovillium, p. 14  OCLC:   716696497. ",
+        "sha256": "87c3adc9a4b4dde9b9bf819d7e287c75baf79a8b3f095ea0aba8e8586d9900a7",
+        "bytes": 269714,
+        "canonicalFile": "Países/HERODIAN-JUDEA-Judea-poderes-herodianos/retratos/portrait-30772abd8403211e31e0.svg",
+        "caption": "Medallón imaginario dibujado posteriormente de Herodes AgripaI; no moneda antigua ni retrato del natural."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review040-dignities",
+      "type": "institution",
+      "title": "Etnarquía y realeza herodianas",
+      "start": "0001-01-01",
+      "end": "0045-01-01",
+      "text": "Arquelao es etnarca hasta6; AgripaI gobierna Judea41–44. Su realeza en otras regiones desde37 no se convierte en reino de Judea desde37 ni rellena todo el intervalo.",
+      "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 1,
+      "end": 99,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Judea"
+        ],
+        "start": 1,
+        "end": 99,
+        "label": "Judea · poderes herodianos",
+        "admin": "ROMAN-EMPIRE-CLASSICAL",
+        "status": "client",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Etnarquía herodiana vinculada a Roma; no confundir con provincia posterior ni con todo el territorio palestino.",
+        "colorFamily": "ROME"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "0f2799d59c9e1220110948b4584627a34532f8322d1ffaf50645c97cdfb973a4",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1110
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Herod Agrippa",
+        "title": "Herod Agrippa",
+        "person": "Q298636",
+        "name": "Herodes Agripa I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+        "identityResolution": {
+          "requested": "Herod Agrippa",
+          "canonical": "Herod Agrippa",
+          "qid": "Q298636"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q17988315",
+          "start": "0041-01-01",
+          "end": "0044-01-01",
+          "precision": 9,
+          "statement": "Q298636$78819100-4f8f-7ee0-7ee9-7ea8245da6b7",
+          "label": "rey de Judea"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q298636",
+        "title": "Herod Agrippa",
+        "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Judea, Samaria, and Idumea",
+            "raw": "AD 41–44",
+            "parsed": {
+              "start": "0041-01-01",
+              "end": "0044-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of Galilee and Perea",
+            "raw": "AD 40–44",
+            "parsed": {
+              "start": "0040-01-01",
+              "end": "0044-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "King of Iturea, Trachonitis, Batanea, Gaulanitis, Auranitis, and Paneas",
+            "raw": "AD 37–44",
+            "parsed": {
+              "start": "0037-01-01",
+              "end": "0044-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Batanaea",
+            "raw": "AD 37{{snd}}41",
+            "parsed": {
+              "start": "0037-01-01",
+              "end": "0041-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galilee",
+            "raw": "AD 40{{snd}}41",
+            "parsed": {
+              "start": "0040-01-01",
+              "end": "0041-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Judaea",
+            "raw": "AD 41{{snd}}44",
+            "parsed": {
+              "start": "0041-01-01",
+              "end": "0044-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Herod Archelaus",
+        "title": "Herod Archelaus",
+        "person": "Q244345",
+        "name": "Herodes Arquelao",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+        "identityResolution": {
+          "requested": "Herod Archelaus",
+          "canonical": "Herod Archelaus",
+          "qid": "Q244345"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q244345",
+        "title": "Herod Archelaus",
+        "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ethnarch of Judea, Samaria, and Idumea",
+            "raw": "4 BC – 6 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ethnarch of Judaea",
+            "raw": "4 BC&ndash;6 AD",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q298636",
+        "title": "Herod Agrippa",
+        "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Judea, Samaria, and Idumea",
+          "raw": "AD 41–44",
+          "parsed": {
+            "start": "0041-01-01",
+            "end": "0044-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q298636",
+        "title": "Herod Agrippa",
+        "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "King of Galilee and Perea",
+          "raw": "AD 40–44",
+          "parsed": {
+            "start": "0040-01-01",
+            "end": "0044-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q298636",
+        "title": "Herod Agrippa",
+        "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King of Iturea, Trachonitis, Batanea, Gaulanitis, Auranitis, and Paneas",
+          "raw": "AD 37–44",
+          "parsed": {
+            "start": "0037-01-01",
+            "end": "0044-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Herod Archelaus",
+        "person": "Q244345",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q244345",
+      "originalRecords": [],
+      "decision": "No rey de toda Palestina;1 es límite de revisión de una etnarquía iniciada4a.C. Paso a administración provincial6.",
+      "source": "https://en.wikipedia.org/wiki/Herod_Archelaus"
+    },
+    {
+      "person": "Q298636",
+      "originalRecords": [
+        {
+          "person": "Q298636",
+          "name": "Herodes Agripa I",
+          "role": "Etnarca o rey herodiano · dignidades distintas",
+          "start": "0041-01-01",
+          "end": "0044-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        },
+        {
+          "person": "Q298636",
+          "name": "Herodes Agripa I",
+          "role": "Etnarca o rey herodiano · dignidades distintas",
+          "start": "0040-01-01",
+          "end": "0044-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        },
+        {
+          "person": "Q298636",
+          "name": "Herodes Agripa I",
+          "role": "Etnarca o rey herodiano · dignidades distintas",
+          "start": "0037-01-01",
+          "end": "0044-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Su realeza en otros territorios desde37 no se convierte en gobierno de toda Judea desde37. Reinado sobre Judea41–44.",
+      "source": "https://en.wikipedia.org/wiki/Herod_Agrippa"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q244345",
+      "name": "Herodes Arquelao",
+      "role": "Etnarca de Judea, Samaria e Idumea",
+      "start": "0001-01-01",
+      "end": "0006-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+      "note": "No rey de toda Palestina;1 es límite de revisión de una etnarquía iniciada4a.C. Paso a administración provincial6.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q298636",
+      "name": "Herodes Agripa I",
+      "role": "Rey de Judea · autoridad herodiana",
+      "start": "0041-01-01",
+      "end": "0044-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+      "note": "Su realeza en otros territorios desde37 no se convierte en gobierno de toda Judea desde37. Reinado sobre Judea41–44."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q244345",
+      "name": "Herodes Arquelao",
+      "title": "Archelaus medal.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Archelaus_medal.svg",
+      "sha256": "b9fb0c47a5e89665f0f751dd45e76c89a89ae7a0092ddb4bba700a39ba857191",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "Medallón imaginario dibujado posteriormente de Herodes Arquelao; no moneda antigua ni retrato del natural."
+    },
+    {
+      "person": "Q298636",
+      "name": "Herodes Agripa I",
+      "title": "Herod Agrippa medal.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Herod_Agrippa_medal.svg",
+      "sha256": "87c3adc9a4b4dde9b9bf819d7e287c75baf79a8b3f095ea0aba8e8586d9900a7",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "Medallón imaginario dibujado posteriormente de Herodes AgripaI; no moneda antigua ni retrato del natural."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-8",
+      "name": "Jerusalén · etnarquía herodiana",
+      "coordinates": [
+        35.23,
+        31.78
+      ],
+      "start": 1,
+      "end": 6,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Judea · poderes herodianos"
+    },
+    {
+      "id": "seat040-8-own",
+      "name": "Jerusalén · etnarquía herodiana",
+      "coordinates": [
+        35.23,
+        31.78
+      ],
+      "start": 1,
+      "end": 6,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Herod_Archelaus",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Judea · poderes herodianos"
+    },
+    {
+      "id": "seat040-9",
+      "name": "Jerusalén · reino de AgripaI",
+      "coordinates": [
+        35.23,
+        31.78
+      ],
+      "start": 41,
+      "end": 44,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Judea · poderes herodianos"
+    },
+    {
+      "id": "seat040-9-own",
+      "name": "Jerusalén · reino de AgripaI",
+      "coordinates": [
+        35.23,
+        31.78
+      ],
+      "start": 41,
+      "end": 44,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Judea · poderes herodianos"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review040-dignities",
+      "type": "institution",
+      "title": "Etnarquía y realeza herodianas",
+      "start": "0001-01-01",
+      "end": "0045-01-01",
+      "text": "Arquelao es etnarca hasta6; AgripaI gobierna Judea41–44. Su realeza en otras regiones desde37 no se convierte en reino de Judea desde37 ni rellena todo el intervalo.",
+      "source": "https://en.wikipedia.org/wiki/Herod_Agrippa",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras."
+    }
+  ]
+}

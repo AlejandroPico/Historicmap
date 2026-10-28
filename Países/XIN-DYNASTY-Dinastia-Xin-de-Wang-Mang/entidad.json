@@ -1,0 +1,65 @@
+{
+  "key": "XIN-DYNASTY",
+  "name": "Dinastía Xin de Wang Mang",
+  "qid": "Q504769",
+  "aliases": [
+    "Dinastía Xin de Wang Mang",
+    "Xin Dynasty"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "XIN-DYNASTY"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q7250",
+      "name": "Wang Mang",
+      "role": "Emperador de Xin",
+      "start": "0009-01-01",
+      "end": "0023-12-31",
+      "precision": 9,
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "note": "Dinastía9–23, no desde6 ni hasta29 como sugerirían algunos contornos de la compilación.",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1120",
+      "start": 6,
+      "end": 13,
+      "name": "Xin Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1126",
+      "start": 14,
+      "end": 22,
+      "name": "Xin Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1136",
+      "start": 23,
+      "end": 29,
+      "name": "Xin Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,68 @@
+{
+  "key": "WESTERN-HAN",
+  "name": "Han occidental",
+  "qid": "",
+  "aliases": [
+    "Han occidental"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WESTERN-HAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q7244",
+      "name": "Han Pingdi",
+      "role": "Emperador de Han occidental",
+      "start": "0001-01-01",
+      "end": "0006-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ping_of_Han",
+      "note": "Acceso1a.C. y muerte6d.C.;1d.C. es límite de revisión, no comienzo del mandato. Sin año cero.",
+      "startIsCoverageBoundary": true,
+      "authorityClass": "han-emperor",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    },
+    {
+      "person": "Q7247",
+      "name": "Ruzi Ying",
+      "role": "Heredero designado de Han · sin entronización formal",
+      "start": "0006-01-01",
+      "end": "0009-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ruzi_Ying",
+      "note": "Niño designado sucesor bajo Wang Mang; no se le presenta como emperador efectivamente entronizado durante toda la regencia.",
+      "authorityClass": "han-heir",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    },
+    {
+      "person": "Q7250",
+      "name": "Wang Mang",
+      "role": "Regente de Han · poder efectivo",
+      "start": "0001-01-01",
+      "end": "0008-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wang_Mang",
+      "note": "Regencia antes de asumir dignidad imperial propia en9; el inicio1 es límite de consulta, no inferencia biográfica.",
+      "startIsCoverageBoundary": true,
+      "authorityClass": "han-regent",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,331 @@
+{
+  "key": "HIST-Q309272",
+  "identity": {
+    "qid": "Q309272",
+    "name": "Mauretania"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Mauritania",
+      "officePattern": "King.*Mauretania",
+      "titles": [
+        "Juba II",
+        "Ptolemy of Mauretania"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q526000",
+      "name": "Ptolomeo de Mauritania",
+      "role": "Rey de Mauritania",
+      "start": "0021-01-01",
+      "end": "0040-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ptolemy_of_Mauretania",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-7e7a14925e61522949ca.jpg",
+        "title": "Ptolemy of Mauretania Louvre Ma1887.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ptolemy_of_Mauretania_Louvre_Ma1887.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Ptolemy_of_Mauretania_Louvre_Ma1887.jpg/330px-Ptolemy_of_Mauretania_Louvre_Ma1887.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Marie-Lan Nguyen",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ptolemy_of_Mauretania_Louvre_Ma1887.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "f775d4c3b38877759cd66a707533f1d2fae323bcecaa353a48420ac0df0c1c95",
+        "bytes": 40222,
+        "canonicalFile": "Países/HIST-Q309272-Mauretania/retratos/portrait-7e7a14925e61522949ca.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Ptolomeo de Mauritania; no fotografÃ­a ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q315670",
+      "name": "Juba II",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0023-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Juba_II",
+      "note": "Rey de Mauritania desde25a.C.; no reinado númida prolongado por otra corona.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-5a1b7d47e24cf70787d2.jpg",
+        "title": "Portrait Juba II Louvre Ma1886.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Juba_II_Louvre_Ma1886.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Portrait_Juba_II_Louvre_Ma1886.jpg/330px-Portrait_Juba_II_Louvre_Ma1886.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nUnknown artistUnknown artist",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Marie-Lan Nguyen (User:Jastrow), 2007",
+        "sha256": "198d5b5bac80c8f82de0ff8e1b4a0ee19503318cb5f2b7eecf78ab778b29f13c",
+        "bytes": 39077,
+        "canonicalFile": "Países/HIST-Q309272-Mauretania/retratos/portrait-5a1b7d47e24cf70787d2.jpg",
+        "caption": "Busto, estatua o relieve atribuido a Juba II; no fotografÃ­a ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 1,
+      "end": 40,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Ptolemy_of_Mauretania",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Mauretania"
+        ],
+        "start": 1,
+        "end": 40,
+        "label": "Mauretania",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Mauretania"
+        ],
+        "start": 41,
+        "end": 99,
+        "label": "Mauretania · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Contorno de síntesis, no dinastía prolongada ni Estado homogéneo. Fechas y alcance de la fuente desiguales."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "165ad113382357e1a920b6a42610bc570abeab8755f0cf7a597d9c857ac701bb",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1088,
+        1142
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Juba II",
+        "title": "Juba II",
+        "person": "Q315670",
+        "name": "Juba II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Juba_II",
+        "identityResolution": {
+          "requested": "Juba II",
+          "canonical": "Juba II",
+          "qid": "Q315670"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q315670",
+        "title": "Juba II",
+        "source": "https://en.wikipedia.org/wiki/Juba_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Numidia",
+            "raw": "30 BC – 25 BC (5 years)",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of Mauretania",
+            "raw": "25 BC – AD 23 (47 years)",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ptolemy of Mauretania",
+        "title": "Ptolemy of Mauretania",
+        "person": "Q526000",
+        "name": "Ptolomeo de Mauritania",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ptolemy_of_Mauretania",
+        "identityResolution": {
+          "requested": "Ptolemy of Mauretania",
+          "canonical": "Ptolemy of Mauretania",
+          "qid": "Q526000"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q526000",
+        "title": "Ptolemy of Mauretania",
+        "source": "https://en.wikipedia.org/wiki/Ptolemy_of_Mauretania",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Mauretania",
+            "raw": "{{Circa|AD 21–40}}",
+            "parsed": {
+              "start": "0021-01-01",
+              "end": "0040-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q526000",
+        "title": "Ptolemy of Mauretania",
+        "source": "https://en.wikipedia.org/wiki/Ptolemy_of_Mauretania",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Mauretania",
+          "raw": "{{Circa|AD 21–40}}",
+          "parsed": {
+            "start": "0021-01-01",
+            "end": "0040-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Juba II",
+        "person": "Q315670",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q315670",
+      "originalRecords": [],
+      "decision": "Rey de Mauritania desde25a.C.; no reinado númida prolongado por otra corona.",
+      "source": "https://en.wikipedia.org/wiki/Juba_II"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q315670",
+      "name": "Juba II",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0023-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Juba_II",
+      "note": "Rey de Mauritania desde25a.C.; no reinado númida prolongado por otra corona.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q526000",
+      "name": "Ptolomeo de Mauritania",
+      "title": "Ptolemy of Mauretania Louvre Ma1887.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ptolemy_of_Mauretania_Louvre_Ma1887.jpg",
+      "sha256": "f775d4c3b38877759cd66a707533f1d2fae323bcecaa353a48420ac0df0c1c95",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Ptolomeo de Mauritania; no fotografÃ­a ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q315670",
+      "name": "Juba II",
+      "title": "Portrait Juba II Louvre Ma1886.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Juba_II_Louvre_Ma1886.jpg",
+      "sha256": "198d5b5bac80c8f82de0ff8e1b4a0ee19503318cb5f2b7eecf78ab778b29f13c",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Juba II; no fotografÃ­a ni semejanza del natural acreditada."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-17",
+      "name": "Cesarea · reino de Mauritania",
+      "coordinates": [
+        2.19,
+        36.61
+      ],
+      "start": 1,
+      "end": 40,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Caesarea_in_Mauretania",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Mauretania"
+    },
+    {
+      "id": "seat040-17-own",
+      "name": "Cesarea · reino de Mauritania",
+      "coordinates": [
+        2.19,
+        36.61
+      ],
+      "start": 1,
+      "end": 40,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Caesarea_in_Mauretania",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Mauretania"
+    }
+  ]
+}

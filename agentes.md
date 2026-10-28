@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **28 de octubre de 2026**. Versión del producto: **0.39.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **28 de octubre de 2026**. Versión del producto: **0.40.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección53; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección54; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente 0.39.0:** ampliar100–199 con política y culturas, autoridades y representaciones revisadas, preservando lo anterior. Mantener controles independientes, colores romanos, relaciones militares documentadas y navegación anual. Validar localmente, subir a main sin esperar Actions/Pages. Ver sección53 y tareas.md.
+**Encargo vigente 0.40.0:** ampliar1–99d.C., sin año cero, con política y culturas; corregir la comprobación de publicación antigua que esperaba el mapa100 al consultar117. Validar localmente, subir a main sin esperar Actions/Pages. Ver sección54 y tareas.md.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1179,3 +1179,22 @@ Kushan: era de Kanishka127/128, Vima Takto/Vima Kadphises y Huvishka con cronolo
 office-infobox.py admite años1–99 en fechas explícitas, sólo rellenando el año dentro del lector de fecha; no el día de una fechaISO. snds y rangos numéricos cortos reconocidos. BC se mantiene sin analizar comoCE y cero se rechaza. No reinterpretar automáticamente cronologías anteriores ni regenerar tandas antiguas por este cambio del lector. Se añaden regresiones a tests/research/test_office_infobox.py, ejecutadas por el CI existente.
 
 Resultados de conservación, pruebas y envío en tareas.md y DELIVERY-0.39.0.md. Mantener cuatro máquinas sin omisiones; no afirmar ejecución local completa de CI ni esperar su publicación. Pendientes reales de sucesiones menores, insignias, retratos, cronologías culturales locales, Copán y frentes militares anteriores permanecen abiertos. Continuar antes de100 sólo por nuevo encargo del propietario.
+
+
+## 54. Siglo I, transición de era y comprobación de publicación · 0.40.0
+
+Consulta anual1–99d.C., sin año cero.62 dossiers,119 registros de autoridades,141 componentes originales de54 grupos nominales,30 centros,20 contextos y seis referencias regionales de conflictos. Canonicalización y originales en Países/<entidad>; recursos públicos compilados. Adquisición140 títulos,133 humanos y122 evidencias de reinado no vacías, sin errores finales. No repetir seed/acquisition/curation sobre dossiers revisados ni convertir fechas personales en mandatos. Fuentes, originales y carencias en RESEARCH-1, PERIOD-INVENTORY-1 y REVIEW-1-99.
+
+Roma mantiene el púrpura y dignidades distintas. Augusto ya reinaba antes1; la ficha69 contiene todos los relevos, no cuatro gobiernos simultáneos de todo el imperio. Capadocia, Comagene, Tracia, Ponto y Mauritania reciben resolución fechada de sus cambios provinciales, sin inventar costas. El calendario romano/juliano tradicional no se confunde con fechas personales modernas. No inventar insignias nacionales del sigloI.
+
+Han occidental1–8, Xin9–23, restauraciones reclamantes y Han oriental25+ separados. Ruzi Ying es heredero no entronizado; Wang Mang es regente antes de emperador. La fuente Xin6–29 se conserva, con identidad por fecha y contorno declarado de referencia donde falta geometría Han propia. La etiqueta de25–29 incluye Han oriental para permitir encontrar la entidad; una referencia no pasa por ello a ser un perímetro contemporáneo exacto. Dayuan de Ferghana corrige el QID Yuan medieval erróneo de la fuente, conservándolo sólo como procedencia original. Trưng40–43 no se prolonga a50 por el polígono43–50; las dos hermanas tienen IDs documentales individuales locales, no el QID colectivo reutilizado como dos personas.
+
+Partia conserva rivales, variantes ordinales y la discusión de VologasesII. Kushan sigue la propuesta BM Kujula40–90/Vima Takto90–113 con alternativas, no poder uniforme desde1. Aspurgo accede7/8d.C., no8a.C. Arquelao es etnarca; AgripaI en Judea41–44 no hereda aquí todas sus dignidades regionales desde37. Satavahanas y cronologías coreanas mantienen alternativas explícitas. Pedro64/67 es testimonio final, no pontificado completo inventado; sede cristiana no es Estado Pontificio. Tikal no recibe gobernantes ficticios del sigloI.
+
+Cultura:79 dossiers originales de world_bc1 fijado,68 fases adoptadas, nueve remisiones políticas y dos exclusiones cronológicas (Mill Creek y pomerania), todos con original. sourceYear=-1 significa1a.C.; ventana de consulta1–99d.C., no observación anual ni año cero. Fichas y leyenda formatean fechas negativas. Sámi/Amazonia mantienen claves y se conserva literalmente cada una de las9.179 fases anteriores. Los contornos GPL no fabrican fronteras políticas BY. Bibliografía y delimitación cultural local siguen pendientes.
+
+Representaciones:64 candidatos inspeccionados,57 aceptados y siete apartados. Cotis no recibe retratos imperiales por emitir la moneda; Festo no recibe una inscripción como retrato. Busto de reina sin identificación individual, estela y otras atribuciones insuficientes quedan fuera. PolemónII usa el lado izquierdo identificado por RPCI3831, no Nerón del reverso. Medallones imaginarios de Pilato/Félix/Arquelao/Agripa se declaran posteriores; Boudica1815 y retratos religiosos no son semejanzas del natural acreditadas. Monedas pareadas usan coinFace inspeccionado, conservando originales y licencias.
+
+La prueba de atlas antigua esperaba100d.C. en el texto de estado tras ir a117. La aplicación ya cargaba correctamente history-117. Se corrige para comprobar el mapa anual dibujado, data-loaded-year117 y aria-busyfalse, manteniendo cursor, teclado, entrada exacta, Acerca de y vista estrecha. También la visita100 inicial comprueba su mapa anual en lugar de un texto obsoleto. review-038 consulta snapshotFor para distinguir1d.C. anual de1a.C. aproximado al cruzar la era. No ampliar límites de espera para ocultar esta expectativa desfasada.
+
+Resultados finales de pruebas, conservación e integridad en DELIVERY-0.40.0 y tareas.md. Mantener cuatro máquinas CI, sin omisiones. No afirmar ejecución local completa de111 recorridos ni esperar/sondear Actions o Pages después de subir. Pendientes anteriores (Copán, autoridades menores, retratos, insignias con vigencia, bibliografía cultural y frentes militares modernos) permanecen abiertos. La ventana99 no demuestra extinción; antes1 sigue cobertura aproximada anterior, sin refuerzo anual nuevo ni nueva tarea implícita.

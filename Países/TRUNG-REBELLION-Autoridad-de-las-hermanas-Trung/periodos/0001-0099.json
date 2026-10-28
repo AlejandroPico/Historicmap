@@ -1,0 +1,250 @@
+{
+  "key": "TRUNG-REBELLION",
+  "identity": {
+    "qid": "",
+    "name": "Autoridad de las hermanas Trưng"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Dirigente de la rebelión de las hermanas Trưng",
+      "officePattern": "Queen|Ruler|Leader",
+      "titles": [
+        "Trưng Trắc",
+        "Trưng Nhị"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented-trung-trac",
+      "name": "Trưng Trắc",
+      "role": "Dirigente de la rebelión de las hermanas Trưng",
+      "start": "0040-01-01",
+      "end": "0043-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+      "note": "Rebelión40–43. El identificador de la pareja no es una persona individual: se usa un identificador documental local sin QID fabricado."
+    },
+    {
+      "person": "documented-trung-nhi",
+      "name": "Trưng Nhị",
+      "role": "Dirigente de la rebelión de las hermanas Trưng",
+      "start": "0040-01-01",
+      "end": "0043-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+      "note": "Rebelión40–43. El identificador de la pareja no es una persona individual: se usa un identificador documental local sin QID fabricado."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review040-trung",
+      "type": "conflict",
+      "title": "Rebelión de las hermanas Trưng",
+      "start": "0040-01-01",
+      "end": "0044-01-01",
+      "text": "Trưng Trắc y Trưng Nhị tienen registros documentales separados, sin convertir el identificador colectivo de las hermanas en dos personas. Rebelión40–43; la fuente sólo aporta su polígono desde43 y lo prolonga indebidamente a50.",
+      "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras.",
+      "section": "history"
+    }
+  ],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Trưng sisters"
+        ],
+        "start": 40,
+        "end": 43,
+        "label": "Autoridad de las hermanas Trưng",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://academic.oup.com/edited-volume/38684/chapter/335914263",
+        "note": "Rebelión40–43; el original sólo ofrece contorno desde43. La sede permite consulta anterior sin fabricar un perímetro."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "d343b800cbacdf1574e267f43160a719552ba3c4a4eb8b42a29f8493c011b6c7",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1152
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Trưng Nhị",
+        "title": "Trưng Nhị",
+        "person": "Q1207428",
+        "name": "hermanas Trung",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+        "identityResolution": {
+          "requested": "Trưng Nhị",
+          "canonical": "Trưng sisters",
+          "qid": "Q1207428"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Trưng Trắc",
+        "title": "Trưng Trắc",
+        "person": "Q1207428",
+        "name": "hermanas Trung",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+        "identityResolution": {
+          "requested": "Trưng Trắc",
+          "canonical": "Trưng sisters",
+          "qid": "Q1207428"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Trưng Trắc",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Trưng Nhị",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "documented-trung-trac",
+      "name": "Trưng Trắc",
+      "role": "Dirigente de la rebelión de las hermanas Trưng",
+      "start": "0040-01-01",
+      "end": "0043-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+      "note": "Rebelión40–43. El identificador de la pareja no es una persona individual: se usa un identificador documental local sin QID fabricado."
+    },
+    {
+      "person": "documented-trung-nhi",
+      "name": "Trưng Nhị",
+      "role": "Dirigente de la rebelión de las hermanas Trưng",
+      "start": "0040-01-01",
+      "end": "0043-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+      "note": "Rebelión40–43. El identificador de la pareja no es una persona individual: se usa un identificador documental local sin QID fabricado."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-24",
+      "name": "Mê Linh · referencia Trưng",
+      "coordinates": [
+        105.7,
+        21.18
+      ],
+      "start": 40,
+      "end": 43,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Autoridad de las hermanas Trưng"
+    },
+    {
+      "id": "seat040-24-own",
+      "name": "Mê Linh · referencia Trưng",
+      "coordinates": [
+        105.7,
+        21.18
+      ],
+      "start": 40,
+      "end": 43,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Autoridad de las hermanas Trưng"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review040-trung",
+      "type": "conflict",
+      "title": "Rebelión de las hermanas Trưng",
+      "start": "0040-01-01",
+      "end": "0044-01-01",
+      "text": "Trưng Trắc y Trưng Nhị tienen registros documentales separados, sin convertir el identificador colectivo de las hermanas en dos personas. Rebelión40–43; la fuente sólo aporta su polígono desde43 y lo prolonga indebidamente a50.",
+      "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review040-trung",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7,
+          21.18
+        ]
+      },
+      "properties": {
+        "name": "Rebelión de las hermanas Trưng",
+        "countries": [
+          "TRUNG-REBELLION"
+        ],
+        "kind": "regional-conflict",
+        "start": "0040-01-01",
+        "end": "0043-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Tr%C6%B0ng_sisters",
+        "sourceLabel": "Referencia documental · siglo I",
+        "note": "Trưng Trắc y Trưng Nhị tienen registros documentales separados, sin convertir el identificador colectivo de las hermanas en dos personas. Rebelión40–43; la fuente sólo aporta su polígono desde43 y lo prolonga indebidamente a50. Coordenada regional aproximada."
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "key": "HIST-Q7380487",
+  "name": "Kingdom of Pontus",
+  "qid": "Q7380487",
+  "aliases": [
+    "Kingdom of Pontus"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q7380487"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q2319252",
+      "name": "Polemón II",
+      "role": "Rey del Ponto",
+      "start": "0038-01-01",
+      "end": "0062-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Polemon_II_of_Pontus",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-1-0.40",
+      "portrait": {
+        "file": "media/portrait-f38112030a1f8486f34a.jpg",
+        "title": "Polemon II RPC 3831.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Polemon_II_RPC_3831.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Polemon_II_RPC_3831.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://wildwinds.com/coins/greece/pontos/kings/polemo_II/t.html",
+        "sha256": "4a7c1b05dd017ff84af9f200f34b3c8a7f97c1b43a72d2e971e8468b194ae32b",
+        "bytes": 34006,
+        "canonicalFile": "Países/HIST-Q7380487-Kingdom-of-Pontus/retratos/portrait-f38112030a1f8486f34a.jpg",
+        "caption": "PolemónII en el anverso izquierdo, leyenda ΒΑΣΙΛΕΩΣ ΠΟΛΕΜΩΝΟΣ, RPCI3831 (56/57). El reverso derecho representa a Nerón y se excluye del encuadre. Se muestra sÃ³lo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "Q2280204",
+      "name": "Pitodoris",
+      "role": "Rey o reina · dignidad territorial",
+      "start": "0001-01-01",
+      "end": "0038-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pythodorida_of_Pontus",
+      "note": "Reina del Ponto; no heredar automáticamente otras dignidades consortes.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1097",
+      "start": 1,
+      "end": 22,
+      "name": "Kingdom of Pontus",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1133",
+      "start": 23,
+      "end": 59,
+      "name": "Kingdom of Pontus",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-1.geojson",
+      "recordId": "clio-1171",
+      "start": 60,
+      "end": 67,
+      "name": "Kingdom of Pontus",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

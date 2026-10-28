@@ -1,6 +1,21 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.39.0 · 100–199
+## Encargo vigente · 0.40.0 · 1–99 d.C.
+
+Ampliar política y culturas1–99, sin año cero. Conservar todas las etapas anteriores, revisar dinastías, autoridades, representaciones y fuentes. Subir tras comprobaciones locales sin esperar Actions/Pages.
+
+- [x] Inventario, autoridades y cronologías contrastadas.
+- [x] Culturas, imágenes inspeccionadas, centros y contextos.
+- [x] Integración, conservación, pruebas y documentación. Búsqueda Han25–29 corregida y recorrido móvil repetido correctamente.
+- [x] Preparación del envío a main; cotejo final del índice y remoto al cerrar.
+
+Resultados en docs/DELIVERY-0.40.0.md:62 dossiers,119 cargos,141 componentes políticos,30 centros,20 contextos,68 fases culturales nuevas y57 imágenes aceptadas tras inspección (siete apartadas).38 comprobaciones únicas de lógica/datos,17 del lector Python, tipos/compilación y seis recorridos únicos de navegador correctos; los tres nuevos se repiten juntos. El recorrido antiguo de publicación117 ya pasa. Se conserva1.393 identidades,18.833 cargos,1.040 símbolos y9.179 fases anteriores;190 archivos recompilados sin diferencias.121 recursos de datos,11 rangos y8.800 medios verificados. CI111 recorridos28/28/28/27; no se ha ejecutado todo CI localmente. Índice Git:580 archivos y8.932 recursos cotejados;963 originales canónicos verificados. Publicación pendiente de confirmación del propietario; no esperar Actions/Pages.
+
+Pendientes reales: autoridades menores, cronologías alternativas, representaciones/símbolos identificados, bibliografía y límites culturales locales, Copán y frentes militares modernos. Antes1d.C. permanece cobertura anterior aproximada; no iniciar otra regresión sin nuevo encargo.
+
+Incidencia adicional del propietario: el navegador1/4 esperaba el snapshot100 al consultar117. Corregida la expectativa para exigir history-117 renderizado y fecha cargada; el recorrido informado ya pasó localmente. No esperar despliegue.
+
+## Entrega anterior · 0.39.0 · 100–199
 
 Ampliar el sigloII con política y culturas, preservar todo lo anterior, distinguir dignidades y cronologías, revisar imágenes. Mantener controles, colores romanos y franjas documentales. Validar localmente, subir a main sin esperar Actions/Pages.
 

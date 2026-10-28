@@ -1,0 +1,287 @@
+{
+  "key": "HIST-Q19083",
+  "identity": {
+    "qid": "Q19083",
+    "name": "Caucasian Iberia"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Iberia caucásica · tradición retrospectiva",
+      "officePattern": "King.*Iberia",
+      "titles": [
+        "Aderki",
+        "Pharasmanes I of Iberia",
+        "Mithridates I of Iberia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2553009",
+      "name": "Farasmanes el Grande",
+      "role": "Rey de Iberia caucásica · tradición retrospectiva",
+      "start": "0001-01-01",
+      "end": "0058-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pharasmanes_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes."
+    },
+    {
+      "person": "Q1289166",
+      "name": "Mitrídates I de Iberia",
+      "role": "Rey de Iberia caucásica · tradición retrospectiva",
+      "start": "0058-01-01",
+      "end": "0099-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mihrdat_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología de tradición retrospectiva con variantes.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 1,
+      "end": 99,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pharasmanes_I",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Caucasian Iberia"
+        ],
+        "start": 1,
+        "end": 99,
+        "label": "Caucasian Iberia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-1.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0001-0099.geojson",
+      "sha256": "b67b804474f26418f874289588551928a5336c46cfc9da00bcc9e0d08e0f226a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1018,
+        1181
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aderki",
+        "title": "Aderki",
+        "person": "",
+        "name": "Aderki",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Aderki",
+        "identityResolution": {
+          "requested": "Aderki",
+          "canonical": "Aderki",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mithridates I of Iberia",
+        "title": "Mithridates I of Iberia",
+        "person": "Q1289166",
+        "name": "Mitrídates I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mihrdat_I",
+        "identityResolution": {
+          "requested": "Mithridates I of Iberia",
+          "canonical": "Mihrdat I",
+          "qid": "Q1289166"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28147363",
+          "start": "0058-01-01",
+          "end": "0106-01-01",
+          "precision": 9,
+          "statement": "Q1289166$3584D1C4-75F7-4411-BF5E-229710481406",
+          "label": "King of Iberia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1289166",
+        "title": "Mihrdat I",
+        "source": "https://en.wikipedia.org/wiki/Mihrdat_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "11th King of Iberia",
+            "raw": "58–106{{fact|date=October 2023}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pharasmanes I of Iberia",
+        "title": "Pharasmanes I of Iberia",
+        "person": "Q2553009",
+        "name": "Farasmanes el Grande",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pharasmanes_I",
+        "identityResolution": {
+          "requested": "Pharasmanes I of Iberia",
+          "canonical": "Pharasmanes I",
+          "qid": "Q2553009"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28147363",
+          "start": "0001-01-01",
+          "end": "0058-01-01",
+          "precision": 9,
+          "statement": "Q2553009$79BDF3D2-ADC9-43DB-AA56-3702FB083E55",
+          "label": "King of Iberia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2553009",
+        "title": "Pharasmanes I",
+        "source": "https://en.wikipedia.org/wiki/Pharasmanes_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "1 – 58",
+            "parsed": {
+              "start": "0001-01-01",
+              "end": "0058-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2553009",
+        "title": "Pharasmanes I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Pharasmanes_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Iberia",
+          "raw": "1 – 58",
+          "parsed": {
+            "start": "0001-01-01",
+            "end": "0058-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1289166",
+        "title": "Mithridates I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Mihrdat_I",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q28147363",
+          "start": "0058-01-01",
+          "end": "0106-01-01",
+          "precision": 9,
+          "statement": "Q1289166$3584D1C4-75F7-4411-BF5E-229710481406",
+          "label": "King of Iberia"
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Aderki",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q2553009",
+      "title": "Pharasmanes I, by TAILLASSON, JJ.jpg",
+      "reason": "Pintura retrospectiva sin identificación individual suficientemente corroborada; conservar el rechazo anterior.",
+      "source": "https://commons.wikimedia.org/wiki/File:Pharasmanes_I,_by_TAILLASSON,_JJ.jpg"
+    },
+    {
+      "person": "Q1289166",
+      "title": "Mtskhet stella - Greek text.jpg",
+      "reason": "Estela epigráfica, no retrato personal.",
+      "source": "https://commons.wikimedia.org/wiki/File:Mtskhet_stella_-_Greek_text.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q2553009",
+      "name": "Farasmanes el Grande",
+      "title": "Pharasmanes I, by TAILLASSON, JJ.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pharasmanes_I,_by_TAILLASSON,_JJ.jpg",
+      "sha256": "23d7e67f46ef772c443dc3e50444751fc687c58ddfb7544746ee7878babd350d",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "reason": "Pintura retrospectiva sin identificación individual suficientemente corroborada; conservar el rechazo anterior."
+    },
+    {
+      "person": "Q1289166",
+      "name": "Mitrídates I de Iberia",
+      "title": "Mtskhet stella - Greek text.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mtskhet_stella_-_Greek_text.jpg",
+      "sha256": "15345b01967d0684385d8acbf9864e47558971da3f9ce161c07d71af98e6f486",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "InspecciÃ³n visual de la imagen completa; identificaciÃ³n individual, tipo de representaciÃ³n y cara de moneda revisados.",
+      "reason": "Estela epigráfica, no retrato personal."
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "key": "WESTERN-HAN",
+  "identity": {
+    "qid": "",
+    "name": "Han occidental"
+  },
+  "revision": "0.40.0",
+  "acquisition": "century-1-0.40",
+  "coverageStart": 1,
+  "coverageEnd": 99,
+  "officeBounds": [
+    "0001-01-01",
+    "0099-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador de Han occidental",
+      "officePattern": "Emperor",
+      "titles": [
+        "Emperor Ping of Han",
+        "Ruzi Ying"
+      ]
+    },
+    {
+      "role": "Regente de Han occidental",
+      "officePattern": "Regent",
+      "titles": [
+        "Wang Mang",
+        "Empress Wang Zhengjun"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7244",
+      "name": "Han Pingdi",
+      "role": "Emperador de Han occidental",
+      "start": "0001-01-01",
+      "end": "0006-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ping_of_Han",
+      "note": "Acceso1a.C. y muerte6d.C.;1d.C. es límite de revisión, no comienzo del mandato. Sin año cero.",
+      "startIsCoverageBoundary": true,
+      "authorityClass": "han-emperor"
+    },
+    {
+      "person": "Q7247",
+      "name": "Ruzi Ying",
+      "role": "Heredero designado de Han · sin entronización formal",
+      "start": "0006-01-01",
+      "end": "0009-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ruzi_Ying",
+      "note": "Niño designado sucesor bajo Wang Mang; no se le presenta como emperador efectivamente entronizado durante toda la regencia.",
+      "authorityClass": "han-heir"
+    },
+    {
+      "person": "Q7250",
+      "name": "Wang Mang",
+      "role": "Regente de Han · poder efectivo",
+      "start": "0001-01-01",
+      "end": "0008-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wang_Mang",
+      "note": "Regencia antes de asumir dignidad imperial propia en9; el inicio1 es límite de consulta, no inferencia biográfica.",
+      "startIsCoverageBoundary": true,
+      "authorityClass": "han-regent"
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review040-regency",
+      "type": "institution",
+      "title": "Últimos Han occidentales y regencia",
+      "start": "0001-01-01",
+      "end": "0009-01-01",
+      "text": "Ping reina desde1a.C. Ruzi Ying es heredero designado, sin entronización formal; Wang Mang ejerce poder efectivo antes del título imperial de9. El año cero no se introduce en fechas ni cronología.",
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 1,
+      "end": 9,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ping_of_Han",
+      "note": "Clasificación institucional; no control homogéneo ni democracia/ideología inferida."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-1-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Han Dynasty",
+          "Xin Dynasty"
+        ],
+        "start": 1,
+        "end": 8,
+        "label": "Han occidental",
+        "admin": "",
+        "status": "source-polity",
+        "colorFamily": "HAN",
+        "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+        "note": "Corrección cronológica sobre coordenadas originales; no frontera levantada anualmente."
+      }
+    }
+  ],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar autoridades menores, gobernadores y cronologías locales;99 es límite de revisión, no extinción. No inventar imágenes o signos del sigloI."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Ping of Han",
+        "title": "Emperor Ping of Han",
+        "person": "Q7244",
+        "name": "Han Pingdi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ping_of_Han",
+        "identityResolution": {
+          "requested": "Emperor Ping of Han",
+          "canonical": "Emperor Ping of Han",
+          "qid": "Q7244"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7244",
+        "title": "Emperor Ping of Han",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ping_of_Han",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Han dynasty",
+            "raw": "17 October 1 BC<ref>''xinyou'' day of the 9th month of the 2nd year of the ''Yuan'shou'' era, per vol.35 of ''Zizhi Tongjian''</ref> – 3 February 6 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "1 BC &ndash; 3 Feb 6 AD",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Empress Wang Zhengjun",
+        "title": "Empress Wang Zhengjun",
+        "person": "Q701379",
+        "name": "Empress Wang Zhengjun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wang_Zhengjun",
+        "identityResolution": {
+          "requested": "Empress Wang Zhengjun",
+          "canonical": "Wang Zhengjun",
+          "qid": "Q701379"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q701379",
+        "title": "Wang Zhengjun",
+        "source": "https://en.wikipedia.org/wiki/Wang_Zhengjun",
+        "reignFields": [
+          {
+            "field": "reign1",
+            "office": "Empress Dowager of the Western Han Dynasty",
+            "raw": "14 August 33&ndash; 17 April 7 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "Grand Empress Dowager of the Western Han Dynasty",
+            "raw": "17 April 7 BC &ndash; 3 February 6 AD",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign",
+            "office": "Empress consort of the Han Dynasty",
+            "raw": "29 January 48 &ndash; 8 July 33 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ruzi Ying",
+        "title": "Ruzi Ying",
+        "person": "Q7247",
+        "name": "Ruzi Ying",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ruzi_Ying",
+        "identityResolution": {
+          "requested": "Ruzi Ying",
+          "canonical": "Ruzi Ying",
+          "qid": "Q7247"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0006-04-17",
+          "end": "0009-01-10",
+          "precision": 11,
+          "statement": "Q7247$E602F52D-58DA-4C5D-B647-1F7A939546F7",
+          "label": "Emperador de China"
+        },
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0024-01-01",
+          "end": "0025-02-01",
+          "precision": 9,
+          "statement": "Q7247$b3539d96-4cf0-268c-bfb3-5198e50f7a58",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7247",
+        "title": "Ruzi Ying",
+        "source": "https://en.wikipedia.org/wiki/Ruzi_Ying",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Han dynasty",
+            "raw": "3 February 6–10 January 9 CE",
+            "parsed": {
+              "start": "0006-02-03",
+              "end": "0009-01-10",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "6–9",
+            "parsed": {
+              "start": "0006-01-01",
+              "end": "0009-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wang Mang",
+        "title": "Wang Mang",
+        "person": "Q7250",
+        "name": "Wang Mang",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wang_Mang",
+        "identityResolution": {
+          "requested": "Wang Mang",
+          "canonical": "Wang Mang",
+          "qid": "Q7250"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0009-01-10",
+          "end": "0023-10-06",
+          "precision": 11,
+          "statement": "Q7250$b8dafc17-3fe2-42b3-9852-9a8b7f781cff",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7250",
+        "title": "Wang Mang",
+        "source": "https://en.wikipedia.org/wiki/Wang_Mang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Xin dynasty",
+            "raw": "AD{{nbsp}}9–23",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "AD{{nbsp}}9–23",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7247",
+        "title": "Ruzi Ying",
+        "source": "https://en.wikipedia.org/wiki/Ruzi_Ying",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Han dynasty",
+          "raw": "3 February 6–10 January 9 CE",
+          "parsed": {
+            "start": "0006-02-03",
+            "end": "0009-01-10",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Emperor Ping of Han",
+        "person": "Q7244",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Wang Mang",
+        "person": "Q7250",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Empress Wang Zhengjun",
+        "person": "Q701379",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q7244",
+      "originalRecords": [],
+      "decision": "Acceso1a.C. y muerte6d.C.;1d.C. es límite de revisión, no comienzo del mandato. Sin año cero.",
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ping_of_Han"
+    },
+    {
+      "person": "Q7247",
+      "originalRecords": [
+        {
+          "person": "Q7247",
+          "name": "Ruzi Ying",
+          "role": "Emperador de Han occidental",
+          "start": "0006-02-03",
+          "end": "0009-01-10",
+          "precision": 11,
+          "source": "https://en.wikipedia.org/wiki/Ruzi_Ying",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Niño designado sucesor bajo Wang Mang; no se le presenta como emperador efectivamente entronizado durante toda la regencia.",
+      "source": "https://en.wikipedia.org/wiki/Ruzi_Ying"
+    },
+    {
+      "person": "Q7250",
+      "originalRecords": [],
+      "decision": "Regencia antes de asumir dignidad imperial propia en9; el inicio1 es límite de consulta, no inferencia biográfica.",
+      "source": "https://en.wikipedia.org/wiki/Wang_Mang"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q7244",
+      "name": "Han Pingdi",
+      "role": "Emperador de Han occidental",
+      "start": "0001-01-01",
+      "end": "0006-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ping_of_Han",
+      "note": "Acceso1a.C. y muerte6d.C.;1d.C. es límite de revisión, no comienzo del mandato. Sin año cero.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q7247",
+      "name": "Ruzi Ying",
+      "role": "Heredero designado de Han · sin entronización formal",
+      "start": "0006-01-01",
+      "end": "0009-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ruzi_Ying",
+      "note": "Niño designado sucesor bajo Wang Mang; no se le presenta como emperador efectivamente entronizado durante toda la regencia."
+    },
+    {
+      "person": "Q7250",
+      "name": "Wang Mang",
+      "role": "Regente de Han · poder efectivo",
+      "start": "0001-01-01",
+      "end": "0008-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wang_Mang",
+      "note": "Regencia antes de asumir dignidad imperial propia en9; el inicio1 es límite de consulta, no inferencia biográfica.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "places": [
+    {
+      "id": "seat040-1",
+      "name": "Chang’an · Han occidental",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 1,
+      "end": 8,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "standaloneReference": true,
+      "entityName": "Han occidental"
+    },
+    {
+      "id": "seat040-1-own",
+      "name": "Chang’an · Han occidental",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 1,
+      "end": 8,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "note": "Coordenada regional aproximada; no acredita capital exclusiva, residencia permanente ni perímetro de dominio. Las referencias dinásticas tempranas pueden proceder de tradiciones posteriores.",
+      "entityName": "Han occidental"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review040-regency",
+      "type": "institution",
+      "title": "Últimos Han occidentales y regencia",
+      "start": "0001-01-01",
+      "end": "0009-01-01",
+      "text": "Ping reina desde1a.C. Ruzi Ying es heredero designado, sin entronización formal; Wang Mang ejerce poder efectivo antes del título imperial de9. El año cero no se introduce en fechas ni cronología.",
+      "source": "https://education.asianart.org/resources/an-introduction-to-the-han-dynasty/",
+      "sourceLabel": "Referencia documental · siglo I",
+      "precision": 9,
+      "note": "Contexto parcial, no inventario completo de sucesos o guerras."
+    }
+  ]
+}

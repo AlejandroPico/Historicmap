@@ -2,9 +2,11 @@
 from pathlib import Path
 import json,urllib.request,urllib.parse,hashlib,re,html,argparse,concurrent.futures,importlib.util,time
 ROOT=Path(__file__).resolve().parents[1];UA={'User-Agent':'Historicmap/0.32 (https://github.com/AlejandroPico/Historicmap; educational atlas)'};read=lambda f:json.loads(f.read_text(encoding='utf8'))
-def main(century,review,selected_people=None):
+def main(century,review,selected_people=None,end_year=None):
+ end_year=century+99 if end_year is None else end_year
+ if not 1<=century<=end_year<=century+99:raise ValueError('Invalid common-era portrait window')
  spec=importlib.util.spec_from_file_location('fetch',ROOT/'scripts/acquire-century-evidence.py');api=importlib.util.module_from_spec(spec);spec.loader.exec_module(api)
- docs=[(f,read(f))for f in sorted((ROOT/'Países').glob(f'*/periodos/{century:04d}-{century+99:04d}.json'))];people={l['person']:l['name']for f,d in docs for l in d['leaders']};ids=read(ROOT/'public/data/identities.json');known={l['person']:l['portrait']for c in ids['countries'].values()for l in c['leaders']if l.get('portrait')};existing={m['title']:m for m in read(ROOT/'public/media/manifest.json')['entries']};titles={};missing=[]
+ docs=[(f,read(f))for f in sorted((ROOT/'Países').glob(f'*/periodos/{century:04d}-{end_year:04d}.json'))];people={l['person']:l['name']for f,d in docs for l in d['leaders']};ids=read(ROOT/'public/data/identities.json');known={l['person']:l['portrait']for c in ids['countries'].values()for l in c['leaders']if l.get('portrait')};existing={m['title']:m for m in read(ROOT/'public/media/manifest.json')['entries']};titles={};missing=[]
  if selected_people:people={q:name for q,name in people.items()if q in selected_people}
  for q,name in people.items():
   f=ROOT/'.cache/identities'/('historical-entity-'+q+'.json')
@@ -56,4 +58,4 @@ def main(century,review,selected_people=None):
   rows.append(dict(person=q,name=people[q],media=m,dossiers=[f.relative_to(ROOT).as_posix()for f,d in docs if any(l['person']==q for l in d['leaders'])]))
  api.save(ROOT/'.cache'/('photo-review'+review+'.json'),rows);api.save(ROOT/'.cache'/('photo-missing'+review+'.json'),missing);print('Visual candidates',len(rows),'missing or unavailable',len(missing),flush=True)
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--century',type=int,required=True);p.add_argument('--review',required=True);p.add_argument('--people',nargs='+',help='Stage only these already documented authority identifiers.');a=p.parse_args();main(a.century,a.review,a.people)
+ p=argparse.ArgumentParser();p.add_argument('--century',type=int,required=True);p.add_argument('--review',required=True);p.add_argument('--people',nargs='+',help='Stage only these already documented authority identifiers.');p.add_argument('--end-year',type=int);a=p.parse_args();main(a.century,a.review,a.people,a.end_year)

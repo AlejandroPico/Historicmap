@@ -1,9 +1,9 @@
 {
   "key": "REFERENCE-DACIAN-COMMUNITIES",
-  "name": "Comunidades dacias · reino y etapa provincial",
+  "name": "Comunidades dacias y poderes regionales",
   "qid": "",
   "aliases": [
-    "Comunidades dacias · reino y etapa provincial",
+    "Comunidades dacias y poderes regionales",
     "Dacia"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
@@ -24,6 +24,15 @@
     }
   ],
   "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-DACIAN-COMMUNITIES-Y0001:0",
+      "contextKey": "REFERENCE-DACIAN-COMMUNITIES",
+      "start": 1,
+      "end": 99,
+      "sourceYear": -1,
+      "canonicalFile": "Países/REFERENCE-DACIAN-COMMUNITIES-Comunidades-dacias-reino-y-etapa-provincial/poblamiento/REFERENCE-DACIAN-COMMUNITIES-Y0001.json"
+    },
     {
       "file": "cultural-regions.geojson",
       "recordId": "REFERENCE-DACIAN-COMMUNITIES-Y0100:0",

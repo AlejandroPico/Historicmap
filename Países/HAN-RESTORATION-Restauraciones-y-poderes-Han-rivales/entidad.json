@@ -1,0 +1,51 @@
+{
+  "key": "HAN-RESTORATION",
+  "name": "Restauraciones y poderes Han rivales",
+  "qid": "",
+  "aliases": [
+    "Restauraciones y poderes Han rivales"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HAN-RESTORATION"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q7262",
+      "name": "Liu Xuan",
+      "role": "Emperador reclamante · restauración Han",
+      "start": "0023-01-01",
+      "end": "0025-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gengshi_Emperor",
+      "note": "Proclamación23 y poder rival hasta25; no se pospone la proclamación al cambio de control de una ciudad.",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    },
+    {
+      "person": "Q7265",
+      "name": "Liu Penzi",
+      "role": "Emperador reclamante · autoridad de los Cejas Rojas",
+      "start": "0025-01-01",
+      "end": "0027-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Penzi",
+      "note": "Autoridad nominal apoyada por los Cejas Rojas25–27; no se confunde con el gobierno de Guangwu.",
+      "curated": true,
+      "acquisition": "century-1-0.40"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
