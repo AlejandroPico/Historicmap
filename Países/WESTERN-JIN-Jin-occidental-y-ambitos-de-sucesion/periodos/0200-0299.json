@@ -1,0 +1,464 @@
+{
+  "key": "WESTERN-JIN",
+  "identity": {
+    "qid": "",
+    "name": "Jin occidental"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador de Jin occidental",
+      "officePattern": "Emperor",
+      "titles": [
+        "Emperor Wu of Jin",
+        "Emperor Hui of Jin"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7356",
+      "name": "Sima Yan",
+      "role": "Emperador de Jin occidental",
+      "start": "0266-02-08",
+      "end": "0290-05-16",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Jin",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-8d38c2e0ccb6023dd881.jpg",
+        "title": "Jin Wu Di.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Jin_Wu_Di.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Jin_Wu_Di.jpg/330px-Jin_Wu_Di.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nYan Li-pen",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jin_Wu_Di.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://www.mfa.org/collections/object/the-thirteen-emperors-29071",
+        "sha256": "9923d38faae206024ffb5d0290bdc1f0858ea8ea27e4e4ea3ce8ed9d627b0a0a",
+        "bytes": 58206,
+        "canonicalFile": "Países/WESTERN-JIN-Jin-occidental-y-ambitos-de-sucesion/retratos/portrait-8d38c2e0ccb6023dd881.jpg",
+        "caption": "Representación imaginaria posterior de Sima Yan; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q7357",
+      "name": "Emperador Hui de Jin",
+      "role": "Emperador de Jin occidental",
+      "start": "0290-05-16",
+      "end": "0299-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Hui_of_Jin",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review038-jin",
+      "type": "institution",
+      "title": "Formación de Jin y conquista de Wu",
+      "start": "0265-01-01",
+      "end": "0300-01-01",
+      "text": "Jin comienza en265; conquista de Wu280. El cambio de corte no demuestra desaparición de las comunidades locales de las capas culturales.",
+      "source": "https://www.metmuseum.org/zh/toah/ht/05/eac.html",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 265,
+      "end": 299,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Jin",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Jin"
+        ],
+        "start": 200,
+        "end": 264,
+        "label": "Jin occidental · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Contorno de síntesis heredado; no prolonga dinastías ni acredita un Estado unitario o ausencia de otras comunidades."
+      }
+    },
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Jin"
+        ],
+        "start": 265,
+        "end": 299,
+        "label": "Jin occidental",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "38ee965fab94f7ba6be01d787148b144637e92d54c73afd190ff242bc92e0abf",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1376,
+        1393,
+        1407
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Hui of Jin",
+        "title": "Emperor Hui of Jin",
+        "person": "Q7357",
+        "name": "Emperador Hui de Jin",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Hui_of_Jin",
+        "identityResolution": {
+          "requested": "Emperor Hui of Jin",
+          "canonical": "Emperor Hui of Jin",
+          "qid": "Q7357"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0290-05-16",
+          "end": "0307-01-08",
+          "precision": 11,
+          "statement": "Q7357$3D6A7B57-24EB-40AA-B897-D26D8AF93223",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7357",
+        "title": "Emperor Hui of Jin",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Hui_of_Jin",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Jin Dynasty",
+            "raw": "16 May 290 – 3 February 301",
+            "parsed": {
+              "start": "0290-05-16",
+              "end": "0301-02-03",
+              "precision": 11
+            },
+            "reignType": "1st Reign"
+          },
+          {
+            "field": "reign1",
+            "office": "Emperor of the Jin Dynasty",
+            "raw": "1 June 301 – 8 January 307",
+            "parsed": {
+              "start": "0301-06-01",
+              "end": "0307-01-08",
+              "precision": 11
+            },
+            "reignType": "2nd Reign"
+          },
+          {
+            "field": "reign2",
+            "office": "Crown Prince of the Jin Dynasty",
+            "raw": "{{circa}}February 267{{efn|Both Emperor Wu's biography in ''Jin Shu'' and vol.79 of ''Zizhi Tongjian'' indicated that Sima Zhong was made crown prince on the ''ding'mao'' day of the 1st month of the 3rd year of the ''Tai'shi'' era. However, that month did not have a ''ding'mao'' day; the month corresponds to 11 Feb to 12 Mar 267 in the Julian calendar. The nearest ''ding'mao'' days are in the month before and after. It is possible that the correct month was the 2nd ({{lang|zh|二}}; compare and contrast with the character \"{{lang|zh|正}}\" [zheng]) month; the corresponding date in the Julian calendar is 5 April 267.}} – 16 May 290",
+            "parsed": {
+              "start": "0267-02-01",
+              "end": "0290-05-16",
+              "precision": 10
+            },
+            "reignType": "Tenure"
+          },
+          {
+            "field": "reign3",
+            "office": "''Taishang Huang'' ({{lang|zh|太上皇}})",
+            "raw": "3 February 301 – 1 June 301",
+            "parsed": {
+              "start": "0301-02-03",
+              "end": "0301-06-01",
+              "precision": 11
+            },
+            "reignType": "Tenure"
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "290 – February 301",
+            "parsed": {
+              "start": "0290-01-01",
+              "end": "0301-02-01",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "June 301 – 304",
+            "parsed": {
+              "start": "0301-06-01",
+              "end": "0304-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "304–307",
+            "parsed": {
+              "start": "0304-01-01",
+              "end": "0307-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Retired Emperor of China",
+            "raw": "February 301 – June 301",
+            "parsed": {
+              "start": "0301-02-01",
+              "end": "0301-06-01",
+              "precision": 10
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Wu of Jin",
+        "title": "Emperor Wu of Jin",
+        "person": "Q7356",
+        "name": "Sima Yan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Jin",
+        "identityResolution": {
+          "requested": "Emperor Wu of Jin",
+          "canonical": "Emperor Wu of Jin",
+          "qid": "Q7356"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0266-02-08",
+          "end": "0290-05-16",
+          "precision": 11,
+          "statement": "Q7356$8997402B-7059-40D4-8D1E-B3695809A831",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7356",
+        "title": "Emperor Wu of Jin",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Jin",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Jin dynasty",
+            "raw": "8 February 266<ref>''bingyin'' day of the 12th month of the 1st year of the ''Taishi'' era</ref> – 16 May 290",
+            "parsed": {
+              "start": "0266-02-08",
+              "end": "0290-05-16",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of Jin (晉王)",
+            "raw": "7 September<ref>",
+            "parsed": null,
+            "reignType": "Tenure"
+          },
+          {
+            "field": "reign1",
+            "office": "King of Jin (晉王)",
+            "raw": "{{quote|SGZ has: \"On the day renchen (September 7), the Crown Prince of Jin, Sima Yan, succeeded to his enfeoffment and inherited his rank; he assumed the Presidency of the myriad officials and had gifts and documents of appointments conferred upon him, all in conformity with ancient institutions\".\nChronicles of the Three Kingdoms, Achilles Fang.}}</ref> 265 – 8 February 266",
+            "parsed": null,
+            "reignType": "Tenure"
+          },
+          {
+            "field": "reign2",
+            "office": "Regent of Cao Wei",
+            "raw": "7 September 265 – 8 February 266",
+            "parsed": {
+              "start": "0265-09-07",
+              "end": "0266-02-08",
+              "precision": 11
+            },
+            "reignType": "Tenure"
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "1 May 280 - 16 May 290",
+            "parsed": {
+              "start": "0280-05-01",
+              "end": "0290-05-16",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Jin",
+            "raw": "7 September 265 - 8 February 266",
+            "parsed": {
+              "start": "0265-09-07",
+              "end": "0266-02-08",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7356",
+        "title": "Emperor Wu of Jin",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Jin",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Jin dynasty",
+          "raw": "8 February 266<ref>''bingyin'' day of the 12th month of the 1st year of the ''Taishi'' era</ref> – 16 May 290",
+          "parsed": {
+            "start": "0266-02-08",
+            "end": "0290-05-16",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q7357",
+        "title": "Emperor Hui of Jin",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Hui_of_Jin",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Jin Dynasty",
+          "raw": "16 May 290 – 3 February 301",
+          "parsed": {
+            "start": "0290-05-16",
+            "end": "0301-02-03",
+            "precision": 11
+          },
+          "reignType": "1st Reign"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "mediaReview": [
+    {
+      "person": "Q7356",
+      "name": "Sima Yan",
+      "title": "Jin Wu Di.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jin_Wu_Di.jpg",
+      "sha256": "9923d38faae206024ffb5d0290bdc1f0858ea8ea27e4e4ea3ce8ed9d627b0a0a",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Sima Yan; no fotografía ni semejanza del natural acreditada."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat038-17",
+      "name": "Luoyang · corte Jin",
+      "coordinates": [
+        112.453,
+        34.62
+      ],
+      "start": 265,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Western_Jin",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Jin occidental"
+    },
+    {
+      "id": "seat038-17-own",
+      "name": "Luoyang · corte Jin",
+      "coordinates": [
+        112.453,
+        34.62
+      ],
+      "start": 265,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Western_Jin",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Jin occidental"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review038-jin",
+      "type": "institution",
+      "title": "Formación de Jin y conquista de Wu",
+      "start": "0265-01-01",
+      "end": "0300-01-01",
+      "text": "Jin comienza en265; conquista de Wu280. El cambio de corte no demuestra desaparición de las comunidades locales de las capas culturales.",
+      "source": "https://www.metmuseum.org/zh/toah/ht/05/eac.html",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ]
+}

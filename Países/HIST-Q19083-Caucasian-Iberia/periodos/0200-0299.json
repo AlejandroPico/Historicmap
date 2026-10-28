@@ -1,0 +1,565 @@
+{
+  "key": "HIST-Q19083",
+  "identity": {
+    "qid": "Q19083",
+    "name": "Caucasian Iberia"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Iberia caucásica",
+      "officePattern": "King.*Iberia",
+      "titles": [
+        "Amazasp II of Iberia",
+        "Rev I of Iberia",
+        "Vache of Iberia",
+        "Bacurius I of Iberia",
+        "Mithridates II of Iberia",
+        "Aspacures I of Iberia",
+        "Mirian III of Iberia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2096913",
+      "name": "Rev I of Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0200-01-01",
+      "end": "0216-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rev_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q2714994",
+      "name": "Vache of Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0216-01-01",
+      "end": "0234-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vache_of_Iberia",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q2715357",
+      "name": "Bacurius I de Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0234-01-01",
+      "end": "0249-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bacurius_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q2747796",
+      "name": "Mitrídates II de Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0249-01-01",
+      "end": "0265-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mihrdat_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q2715003",
+      "name": "Aspacures I de Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0265-01-01",
+      "end": "0284-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aspacures_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q529685",
+      "name": "Mirian III de Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0284-01-01",
+      "end": "0299-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mirian_III",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-9f5ca120590e02bc3afe.jpg",
+        "title": "King Mirian, a 17th-century fresco from Svetitskhoveli Cathedral (Mtskheta, Georgia).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:King_Mirian,_a_17th-century_fresco_from_Svetitskhoveli_Cathedral_(Mtskheta,_Georgia).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/King_Mirian%2C_a_17th-century_fresco_from_Svetitskhoveli_Cathedral_%28Mtskheta%2C_Georgia%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Kober",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_Mirian,_a_17th-century_fresco_from_Svetitskhoveli_Cathedral_(Mtskheta,_Georgia).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "b47653f7430f6524811bb8be29b09a917d3642939ce12c10226d27373700b720",
+        "bytes": 715904,
+        "canonicalFile": "Países/HIST-Q19083-Caucasian-Iberia/retratos/portrait-9f5ca120590e02bc3afe.jpg",
+        "caption": "Representación imaginaria posterior de Mirian III de Iberia; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rev_I",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Caucasian Iberia"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Caucasian Iberia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "a8dd0fce1daf3ac38c9dfe17282516470e4425f47e3724883450dcef6857828d",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1181,
+        1404
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Amazasp II of Iberia",
+        "title": "Amazasp II of Iberia",
+        "person": "Q2841421",
+        "name": "Amazasp II of Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Amazasp_II",
+        "identityResolution": {
+          "requested": "Amazasp II of Iberia",
+          "canonical": "Amazasp II",
+          "qid": "Q2841421"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2841421",
+        "title": "Amazasp II",
+        "source": "https://en.wikipedia.org/wiki/Amazasp_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "185–189",
+            "parsed": {
+              "start": "0185-01-01",
+              "end": "0189-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Aspacures I of Iberia",
+        "title": "Aspacures I of Iberia",
+        "person": "Q2715003",
+        "name": "Aspacures I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aspacures_I",
+        "identityResolution": {
+          "requested": "Aspacures I of Iberia",
+          "canonical": "Aspacures I",
+          "qid": "Q2715003"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2715003",
+        "title": "Aspacures I",
+        "source": "https://en.wikipedia.org/wiki/Aspacures_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "265–284",
+            "parsed": {
+              "start": "0265-01-01",
+              "end": "0284-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Bacurius I of Iberia",
+        "title": "Bacurius I of Iberia",
+        "person": "Q2715357",
+        "name": "Bacurius I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bacurius_I",
+        "identityResolution": {
+          "requested": "Bacurius I of Iberia",
+          "canonical": "Bacurius I",
+          "qid": "Q2715357"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2715357",
+        "title": "Bacurius I",
+        "source": "https://en.wikipedia.org/wiki/Bacurius_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "234–249",
+            "parsed": {
+              "start": "0234-01-01",
+              "end": "0249-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mirian III of Iberia",
+        "title": "Mirian III of Iberia",
+        "person": "Q529685",
+        "name": "Mirian III de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mirian_III",
+        "identityResolution": {
+          "requested": "Mirian III of Iberia",
+          "canonical": "Mirian III",
+          "qid": "Q529685"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q529685",
+        "title": "Mirian III",
+        "source": "https://en.wikipedia.org/wiki/Mirian_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "284–361",
+            "parsed": {
+              "start": "0284-01-01",
+              "end": "0361-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mithridates II of Iberia",
+        "title": "Mithridates II of Iberia",
+        "person": "Q2747796",
+        "name": "Mitrídates II de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mihrdat_II",
+        "identityResolution": {
+          "requested": "Mithridates II of Iberia",
+          "canonical": "Mihrdat II",
+          "qid": "Q2747796"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2747796",
+        "title": "Mihrdat II",
+        "source": "https://en.wikipedia.org/wiki/Mihrdat_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "249–265",
+            "parsed": {
+              "start": "0249-01-01",
+              "end": "0265-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rev I of Iberia",
+        "title": "Rev I of Iberia",
+        "person": "Q2096913",
+        "name": "Rev I of Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rev_I",
+        "identityResolution": {
+          "requested": "Rev I of Iberia",
+          "canonical": "Rev I",
+          "qid": "Q2096913"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2096913",
+        "title": "Rev I",
+        "source": "https://en.wikipedia.org/wiki/Rev_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "189–216",
+            "parsed": {
+              "start": "0189-01-01",
+              "end": "0216-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vache of Iberia",
+        "title": "Vache of Iberia",
+        "person": "Q2714994",
+        "name": "Vache of Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vache_of_Iberia",
+        "identityResolution": {
+          "requested": "Vache of Iberia",
+          "canonical": "Vache of Iberia",
+          "qid": "Q2714994"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2714994",
+        "title": "Vache of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Vache_of_Iberia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "[[213]]–[[231]] ''or''",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "[[216]]–[[234]]",
+            "parsed": {
+              "start": "0216-01-01",
+              "end": "0234-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2096913",
+        "title": "Rev I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Rev_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Iberia",
+          "raw": "189–216",
+          "parsed": {
+            "start": "0189-01-01",
+            "end": "0216-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2714994",
+        "title": "Vache of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Vache_of_Iberia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Iberia",
+          "raw": "[[216]]–[[234]]",
+          "parsed": {
+            "start": "0216-01-01",
+            "end": "0234-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2715357",
+        "title": "Bacurius I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Bacurius_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Iberia",
+          "raw": "234–249",
+          "parsed": {
+            "start": "0234-01-01",
+            "end": "0249-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2747796",
+        "title": "Mithridates II of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Mihrdat_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Iberia",
+          "raw": "249–265",
+          "parsed": {
+            "start": "0249-01-01",
+            "end": "0265-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2715003",
+        "title": "Aspacures I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Aspacures_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Iberia",
+          "raw": "265–284",
+          "parsed": {
+            "start": "0265-01-01",
+            "end": "0284-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q529685",
+        "title": "Mirian III of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Mirian_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Iberia",
+          "raw": "284–361",
+          "parsed": {
+            "start": "0284-01-01",
+            "end": "0361-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "mediaReview": [
+    {
+      "person": "Q529685",
+      "name": "Mirian III de Iberia",
+      "title": "King Mirian, a 17th-century fresco from Svetitskhoveli Cathedral (Mtskheta, Georgia).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:King_Mirian,_a_17th-century_fresco_from_Svetitskhoveli_Cathedral_(Mtskheta,_Georgia).jpg",
+      "sha256": "b47653f7430f6524811bb8be29b09a917d3642939ce12c10226d27373700b720",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Mirian III de Iberia; no fotografía ni semejanza del natural acreditada."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat038-22",
+      "name": "Mtskheta · Iberia caucásica",
+      "coordinates": [
+        44.72,
+        41.84
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Mtskheta",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Caucasian Iberia"
+    },
+    {
+      "id": "seat038-22-own",
+      "name": "Mtskheta · Iberia caucásica",
+      "coordinates": [
+        44.72,
+        41.84
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Mtskheta",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Caucasian Iberia"
+    }
+  ]
+}

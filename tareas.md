@@ -1,6 +1,21 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.37.0 · 300–399 y encuadre de representaciones
+## Encargo vigente · 0.38.0 · 200–299, continuidad romana y relaciones de control
+
+Ampliar política/culturas200–299 manteniendo todo lo anterior. Corregir el salto cromático romano399/400 y estudiar Afganistán/Irak con el mismo criterio aplicado a todas las potencias: ocupación, intervención, apoyo y soberanía diferenciados. Mantener monedas y representaciones revisadas. Validar y subir; no esperar Actions/Pages.
+
+- [x] Inventario200–299 y cronologías/autoridades documentadas.
+- [x] Representaciones revisadas, centros, culturas y contexto.
+- [x] Continuidad de colores romanos y revisión documentada de Afganistán/Irak.
+- [x] Regla con marcas habituales cada50años desde el primer siglo, marca del año1 sin cero y botones manuales anuales.
+- [x] Integración, conservación, comprobaciones y documentación.
+- [x] Preparación del envío a main y cotejo de los bytes finales.
+
+Resultados finales en docs/DELIVERY-0.38.0.md:67 dossiers,186 cargos,153 componentes políticos,29 centros,25 contextos y58 fases culturales nuevas.112 candidatos visuales aceptados y seis apartados.53 comprobaciones finales de datos/lógica, cinco Python, tipos/compilación y siete recorridos únicos de navegador correctos; repeticiones focales de franjas y cronología. Conservación de1.368 identidades,18.536 cargos,1.040 símbolos y9.050 fases previas; segunda compilación sin diferencias en189 archivos.115 datos,11 rangos y8.707 medios verificados. CI mantiene105 pruebas repartidas27/26/26/26; no se ha ejecutado toda esa batería localmente.867 originales canónicos cotejados en Git. Publicación de Pages pendiente de confirmación del propietario; no esperar Actions.
+
+Pendientes: sucesiones menores, insignias y representaciones identificadas, cronologías culturales locales, frentes de Afganistán/Irak y fases iraquíes desde2014, además de los pendientes anteriores de Copán. Fuentes y límites en RESEARCH-200.md. No continuar antes de200 sin nuevo encargo.
+
+## Entrega anterior · 0.37.0 · 300–399 y encuadre de representaciones
 
 Ampliación300–399 con política y culturas. Petición adicional incorporada: corregir monedas cortadas y priorizar representaciones identificadas. Mantener cuatro máquinas para CI; el propietario comunica unos25 minutos. Envío a main tras validar, sin esperar Actions/Pages.
 

@@ -1,0 +1,173 @@
+{
+  "key": "HIST-Q289577",
+  "identity": {
+    "qid": "Q289577",
+    "name": "Himyarite Kingdom"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Himyar",
+      "officePattern": "King|Himyar",
+      "titles": [
+        "Dhamar Ali Yahbur I",
+        "Yasir Yuhan'im I",
+        "Shammar Yahri'sh"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Himyarite Kingdom"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Himyarite Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "ad8818321db85128fd8906f0884ea073847a17f4fd9e137aca5683bec05d9e38",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1248,
+        1384,
+        1391
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dhamar Ali Yahbur I",
+        "title": "Dhamar Ali Yahbur I",
+        "person": "",
+        "name": "Dhamar Ali Yahbur I",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Dhamar_Ali_Yahbur_I",
+        "identityResolution": {
+          "requested": "Dhamar Ali Yahbur I",
+          "canonical": "Dhamar Ali Yahbur I",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shammar Yahri'sh",
+        "title": "Shammar Yahri'sh",
+        "person": "Q2276688",
+        "name": "Shammar Yahri'sh",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shammar_Yahri%27sh",
+        "identityResolution": {
+          "requested": "Shammar Yahri'sh",
+          "canonical": "Shammar Yahri'sh",
+          "qid": "Q2276688"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0275-01-01",
+          "end": "0312-01-01",
+          "precision": 9,
+          "statement": "Q2276688$b8b9cd80-4025-42d6-a337-99f3c36fd92b",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2276688",
+        "title": "Shammar Yahri'sh",
+        "source": "https://en.wikipedia.org/wiki/Shammar_Yahri%27sh",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "275–312 CE",
+            "parsed": {
+              "start": "0275-01-01",
+              "end": "0312-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yasir Yuhan'im I",
+        "title": "Yasir Yuhan'im I",
+        "person": "",
+        "name": "Yasir Yuhan'im I",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Yasir_Yuhan%27im_I",
+        "identityResolution": {
+          "requested": "Yasir Yuhan'im I",
+          "canonical": "Yasir Yuhan'im I",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Dhamar Ali Yahbur I",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Yasir Yuhan'im I",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Shammar Yahri'sh",
+        "person": "Q2276688",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

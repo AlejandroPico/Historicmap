@@ -1,0 +1,65 @@
+{
+  "key": "HIST-Q421372",
+  "identity": {
+    "qid": "Q421372",
+    "name": "Mahan"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Mahan"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Mahan · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Contorno de síntesis heredado; no prolonga dinastías ni acredita un Estado unitario o ausencia de otras comunidades."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "916da9dd91293256490c0ba1c177a4ee4180b491606d3ef70f976b02e2eb12b1",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        971
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": []
+  }
+}

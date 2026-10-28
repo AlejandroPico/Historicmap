@@ -1,0 +1,239 @@
+{
+  "key": "IRQ",
+  "revision": "0.38.0",
+  "acquisition": "military-relations-0.38",
+  "coverageStart": 1979,
+  "coverageEnd": 2021,
+  "politicalInfluences": [
+    {
+      "id": "iraq-invasion2003",
+      "power": "USA",
+      "start": "2003-03-20",
+      "end": "2003-05-22",
+      "kind": "intervention",
+      "hatchScope": "national-reference",
+      "label": "Invasión de Irak por la coalición",
+      "source": "https://docs.un.org/en/S/RES/1483(2003)",
+      "note": "Invasión encabezada por EE. UU. y Reino Unido desde20/03/2003. El cambio de gobierno no equivale a anexión ni a control local uniforme. El intervalo siguiente corresponde al reconocimiento de las potencias ocupantes por la resolución1483, no al comienzo simultáneo del control de cada localidad."
+    },
+    {
+      "id": "iraq-coalition-occupation",
+      "power": "USA",
+      "start": "2003-05-22",
+      "end": "2004-06-28",
+      "kind": "occupation",
+      "hatchScope": "national-reference",
+      "label": "Ocupación de Irak · coalición",
+      "source": "https://docs.un.org/en/S/RES/1483(2003)",
+      "note": "La resolución1483 reconoce a EE. UU. y Reino Unido como potencias ocupantes bajo mando unificado. Referencia al periodo administrativo documentado, no fecha universal de ocupación efectiva local. Transferencia de autoridad28/06/2004; soberanía iraquí no transferida a EE. UU."
+    },
+    {
+      "id": "iraq-multinational-presence",
+      "power": "USA",
+      "start": "2004-06-28",
+      "end": "2011-12-19",
+      "kind": "intervention",
+      "hatchScope": "national-reference",
+      "label": "Fuerza multinacional / presencia militar",
+      "source": "https://2001-2009.state.gov/p/nea/rls/33317.htm",
+      "note": "Tras la transferencia de autoridad a un gobierno iraquí soberano, continúa la presencia militar multinacional. Azul como influencia militar de la potencia principal, no ocupación jurídica prolongada automáticamente ni anexión. Retirada estadounidense culminada18/12/2011; las operaciones posteriores desde2014 requieren fases propias, no una ocupación indefinida."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "military038-iraq-invasion2003",
+      "type": "conflict",
+      "title": "Invasión de Irak por la coalición",
+      "start": "2003-03-20",
+      "end": "2003-05-22",
+      "text": "Invasión encabezada por EE. UU. y Reino Unido desde20/03/2003. El cambio de gobierno no equivale a anexión ni a control local uniforme. El intervalo siguiente corresponde al reconocimiento de las potencias ocupantes por la resolución1483, no al comienzo simultáneo del control de cada localidad.",
+      "source": "https://docs.un.org/en/S/RES/1483(2003)",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme."
+    },
+    {
+      "id": "military038-iraq-coalition-occupation",
+      "type": "conflict",
+      "title": "Ocupación de Irak · coalición",
+      "start": "2003-05-22",
+      "end": "2004-06-28",
+      "text": "La resolución1483 reconoce a EE. UU. y Reino Unido como potencias ocupantes bajo mando unificado. Referencia al periodo administrativo documentado, no fecha universal de ocupación efectiva local. Transferencia de autoridad28/06/2004; soberanía iraquí no transferida a EE. UU.",
+      "source": "https://docs.un.org/en/S/RES/1483(2003)",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme."
+    },
+    {
+      "id": "military038-iraq-multinational-presence",
+      "type": "conflict",
+      "title": "Fuerza multinacional / presencia militar",
+      "start": "2004-06-28",
+      "end": "2011-12-19",
+      "text": "Tras la transferencia de autoridad a un gobierno iraquí soberano, continúa la presencia militar multinacional. Azul como influencia militar de la potencia principal, no ocupación jurídica prolongada automáticamente ni anexión. Retirada estadounidense culminada18/12/2011; las operaciones posteriores desde2014 requieren fases propias, no una ocupación indefinida.",
+      "source": "https://2001-2009.state.gov/p/nea/rls/33317.htm",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme."
+    }
+  ],
+  "institutions": [
+    {
+      "id": "military038-iraq-invasion2003",
+      "type": "conflict",
+      "title": "Invasión de Irak por la coalición",
+      "start": "2003-03-20",
+      "end": "2003-05-22",
+      "text": "Invasión encabezada por EE. UU. y Reino Unido desde20/03/2003. El cambio de gobierno no equivale a anexión ni a control local uniforme. El intervalo siguiente corresponde al reconocimiento de las potencias ocupantes por la resolución1483, no al comienzo simultáneo del control de cada localidad.",
+      "source": "https://docs.un.org/en/S/RES/1483(2003)",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "defense"
+    },
+    {
+      "id": "military038-iraq-invasion2003-relation",
+      "type": "conflict",
+      "title": "Invasión de Irak por la coalición",
+      "start": "2003-03-20",
+      "end": "2003-05-22",
+      "text": "Invasión encabezada por EE. UU. y Reino Unido desde20/03/2003. El cambio de gobierno no equivale a anexión ni a control local uniforme. El intervalo siguiente corresponde al reconocimiento de las potencias ocupantes por la resolución1483, no al comienzo simultáneo del control de cada localidad.",
+      "source": "https://docs.un.org/en/S/RES/1483(2003)",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "relations"
+    },
+    {
+      "id": "military038-iraq-coalition-occupation",
+      "type": "conflict",
+      "title": "Ocupación de Irak · coalición",
+      "start": "2003-05-22",
+      "end": "2004-06-28",
+      "text": "La resolución1483 reconoce a EE. UU. y Reino Unido como potencias ocupantes bajo mando unificado. Referencia al periodo administrativo documentado, no fecha universal de ocupación efectiva local. Transferencia de autoridad28/06/2004; soberanía iraquí no transferida a EE. UU.",
+      "source": "https://docs.un.org/en/S/RES/1483(2003)",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "defense"
+    },
+    {
+      "id": "military038-iraq-coalition-occupation-relation",
+      "type": "conflict",
+      "title": "Ocupación de Irak · coalición",
+      "start": "2003-05-22",
+      "end": "2004-06-28",
+      "text": "La resolución1483 reconoce a EE. UU. y Reino Unido como potencias ocupantes bajo mando unificado. Referencia al periodo administrativo documentado, no fecha universal de ocupación efectiva local. Transferencia de autoridad28/06/2004; soberanía iraquí no transferida a EE. UU.",
+      "source": "https://docs.un.org/en/S/RES/1483(2003)",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "relations"
+    },
+    {
+      "id": "military038-iraq-multinational-presence",
+      "type": "conflict",
+      "title": "Fuerza multinacional / presencia militar",
+      "start": "2004-06-28",
+      "end": "2011-12-19",
+      "text": "Tras la transferencia de autoridad a un gobierno iraquí soberano, continúa la presencia militar multinacional. Azul como influencia militar de la potencia principal, no ocupación jurídica prolongada automáticamente ni anexión. Retirada estadounidense culminada18/12/2011; las operaciones posteriores desde2014 requieren fases propias, no una ocupación indefinida.",
+      "source": "https://2001-2009.state.gov/p/nea/rls/33317.htm",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "defense"
+    },
+    {
+      "id": "military038-iraq-multinational-presence-relation",
+      "type": "conflict",
+      "title": "Fuerza multinacional / presencia militar",
+      "start": "2004-06-28",
+      "end": "2011-12-19",
+      "text": "Tras la transferencia de autoridad a un gobierno iraquí soberano, continúa la presencia militar multinacional. Azul como influencia militar de la potencia principal, no ocupación jurídica prolongada automáticamente ni anexión. Retirada estadounidense culminada18/12/2011; las operaciones posteriores desde2014 requieren fases propias, no una ocupación indefinida.",
+      "source": "https://2001-2009.state.gov/p/nea/rls/33317.htm",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "relations"
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "military038-iraq-invasion2003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.37,
+          33.31
+        ]
+      },
+      "properties": {
+        "name": "Invasión de Irak por la coalición",
+        "countries": [
+          "IRQ"
+        ],
+        "kind": "regional-conflict",
+        "start": "2003-03-20",
+        "end": "2003-05-22",
+        "source": "https://docs.un.org/en/S/RES/1483(2003)",
+        "precision": 11,
+        "sourceLabel": "Referencia nacional de intervención o presencia militar",
+        "note": "Invasión encabezada por EE. UU. y Reino Unido desde20/03/2003. El cambio de gobierno no equivale a anexión ni a control local uniforme. El intervalo siguiente corresponde al reconocimiento de las potencias ocupantes por la resolución1483, no al comienzo simultáneo del control de cada localidad. Punto de consulta en la capital, no lugar de una batalla concreta."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "military038-iraq-coalition-occupation",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.37,
+          33.31
+        ]
+      },
+      "properties": {
+        "name": "Ocupación de Irak · coalición",
+        "countries": [
+          "IRQ"
+        ],
+        "kind": "regional-conflict",
+        "start": "2003-05-22",
+        "end": "2004-06-28",
+        "source": "https://docs.un.org/en/S/RES/1483(2003)",
+        "precision": 11,
+        "sourceLabel": "Referencia nacional de intervención o presencia militar",
+        "note": "La resolución1483 reconoce a EE. UU. y Reino Unido como potencias ocupantes bajo mando unificado. Referencia al periodo administrativo documentado, no fecha universal de ocupación efectiva local. Transferencia de autoridad28/06/2004; soberanía iraquí no transferida a EE. UU. Punto de consulta en la capital, no lugar de una batalla concreta."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "military038-iraq-multinational-presence",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.37,
+          33.31
+        ]
+      },
+      "properties": {
+        "name": "Fuerza multinacional / presencia militar",
+        "countries": [
+          "IRQ"
+        ],
+        "kind": "regional-conflict",
+        "start": "2004-06-28",
+        "end": "2011-12-19",
+        "source": "https://2001-2009.state.gov/p/nea/rls/33317.htm",
+        "precision": 11,
+        "sourceLabel": "Referencia nacional de intervención o presencia militar",
+        "note": "Tras la transferencia de autoridad a un gobierno iraquí soberano, continúa la presencia militar multinacional. Azul como influencia militar de la potencia principal, no ocupación jurídica prolongada automáticamente ni anexión. Retirada estadounidense culminada18/12/2011; las operaciones posteriores desde2014 requieren fases propias, no una ocupación indefinida. Punto de consulta en la capital, no lugar de una batalla concreta."
+      }
+    }
+  ],
+  "sources": [
+    "https://www.icrc.org/en/article/occupation-international-humanitarian-law-questions",
+    "https://docs.un.org/en/S/RES/1483(2003)",
+    "https://docs.un.org/en/S/RES/1546(2004)",
+    "https://www.nato.int/en/what-we-do/operations-and-missions/isafs-mission-in-afghanistan-2001-2014",
+    "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+    "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan",
+    "https://peacekeeping.un.org/sites/default/files/past/ungomap/background.html",
+    "https://www.congress.gov/crs_external_products/R/PDF/R45818/R45818.1.pdf"
+  ],
+  "pending": [
+    "Completar contornos locales de control y frentes con fuentes fechadas; las franjas nacionales de referencia no los sustituyen.",
+    "Irak: documentar por separado operaciones desde2014 y cambios posteriores; no prolongar automáticamente la ocupación."
+  ]
+}

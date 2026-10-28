@@ -1,0 +1,293 @@
+{
+  "key": "MAYA-TIKAL",
+  "identity": {
+    "qid": "",
+    "name": "Corte y dinastía de Tikal"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Ajaw de Tikal · testimonio temprano",
+      "officePattern": "Tikal|Ajaw|Ruler",
+      "titles": [
+        "Foliated Jaguar",
+        "Animal Headdress",
+        "Siyaj Chan K'awiil I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q4220853",
+      "name": "Animal Headdress",
+      "role": "Ajaw de Tikal · testimonio epigráfico",
+      "start": "0292-01-01",
+      "end": "0292-12-31",
+      "precision": 9,
+      "source": "https://classicmayan.ulb.uni-bonn.de/content/titleinfo/9626319",
+      "note": "Estela29: fecha de Cuenta Larga8.12.14.8.15. Se registra el testimonio292, no un mandato completo inferido desde el nombre anterior. Cronología temprana o testimonio de tradición/epigrafía; no serie continua inventada."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review038-stela29",
+      "type": "institution",
+      "title": "Testimonio de la estela29 de Tikal",
+      "start": "0292-01-01",
+      "end": "0293-01-01",
+      "text": "Cuenta Larga8.12.14.8.15: la referencia de Bonn da8 de julio de292 en calendario juliano. Se adopta el año del testimonio, sin inventar inicio o fin del reinado ni llamar gregoriana a esa fecha.",
+      "source": "https://classicmayan.ulb.uni-bonn.de/content/titleinfo/9626319",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy",
+        "city-state"
+      ],
+      "source": "https://classicmayan.ulb.uni-bonn.de/content/titleinfo/9626319",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Animal Headdress",
+        "title": "Animal Headdress",
+        "person": "Q4220853",
+        "name": "Animal Headdress",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Animal_Headdress",
+        "identityResolution": {
+          "requested": "Animal Headdress",
+          "canonical": "Animal Headdress",
+          "qid": "Q4220853"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4220853",
+        "title": "Animal Headdress",
+        "source": "https://en.wikipedia.org/wiki/Animal_Headdress",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "''Ajaw'' of Tikal",
+            "raw": "{{circa|290}}",
+            "parsed": {
+              "start": "0290-01-01",
+              "end": "0290-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Foliated Jaguar",
+        "title": "Foliated Jaguar",
+        "person": "Q21934165",
+        "name": "Foliated Jaguar",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Foliated_Jaguar",
+        "identityResolution": {
+          "requested": "Foliated Jaguar",
+          "canonical": "Foliated Jaguar",
+          "qid": "Q21934165"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q21934165",
+        "title": "Foliated Jaguar",
+        "source": "https://en.wikipedia.org/wiki/Foliated_Jaguar",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "''Ajaw'' of Tikal",
+            "raw": "2nd/3rd century",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Siyaj Chan K'awiil I",
+        "title": "Siyaj Chan K'awiil I",
+        "person": "",
+        "name": "Siyaj Chan K'awiil I",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Siyaj_Chan_K%27awiil_I",
+        "identityResolution": {
+          "requested": "Siyaj Chan K'awiil I",
+          "canonical": "Siyaj Chan K'awiil I",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q4220853",
+        "title": "Animal Headdress",
+        "source": "https://en.wikipedia.org/wiki/Animal_Headdress",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "''Ajaw'' of Tikal",
+          "raw": "{{circa|290}}",
+          "parsed": {
+            "start": "0290-01-01",
+            "end": "0290-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Foliated Jaguar",
+        "person": "Q21934165",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Siyaj Chan K'awiil I",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q4220853",
+      "originalRecords": [
+        {
+          "person": "Q4220853",
+          "name": "Animal Headdress",
+          "role": "Ajaw de Tikal · testimonio temprano",
+          "start": "0290-01-01",
+          "end": "0290-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Animal_Headdress",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Estela29: fecha de Cuenta Larga8.12.14.8.15. Se registra el testimonio292, no un mandato completo inferido desde el nombre anterior.",
+      "source": "https://classicmayan.ulb.uni-bonn.de/content/titleinfo/9626319"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q4220853",
+      "name": "Animal Headdress",
+      "role": "Ajaw de Tikal · testimonio epigráfico",
+      "start": "0292-01-01",
+      "end": "0292-12-31",
+      "precision": 9,
+      "source": "https://classicmayan.ulb.uni-bonn.de/content/titleinfo/9626319",
+      "note": "Estela29: fecha de Cuenta Larga8.12.14.8.15. Se registra el testimonio292, no un mandato completo inferido desde el nombre anterior."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q4220853",
+      "title": "Animal Headdress.svg",
+      "reason": "Glifo nominativo de Tikal, no retrato personal.",
+      "source": "https://commons.wikimedia.org/wiki/File:Animal_Headdress.svg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q4220853",
+      "name": "Animal Headdress",
+      "title": "Animal Headdress.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Animal_Headdress.svg",
+      "sha256": "341748f035f8efec0a78474d47015018384ff75e1787827a073c558e5bcf9126",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Glifo nominativo de Tikal, no retrato personal."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat038-28",
+      "name": "Tikal · corte local",
+      "coordinates": [
+        -89.624,
+        17.222
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Tikal",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio. La agrupación hospeda la consulta; no declara vasallaje o un único Estado maya.",
+      "standaloneReference": true,
+      "entityName": "Corte y dinastía de Tikal",
+      "aggregateKey": "HIST-Q28567"
+    },
+    {
+      "id": "seat038-28-own",
+      "name": "Tikal · corte local",
+      "coordinates": [
+        -89.624,
+        17.222
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Tikal",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio. La agrupación hospeda la consulta; no declara vasallaje o un único Estado maya.",
+      "entityName": "Corte y dinastía de Tikal"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review038-stela29",
+      "type": "institution",
+      "title": "Testimonio de la estela29 de Tikal",
+      "start": "0292-01-01",
+      "end": "0293-01-01",
+      "text": "Cuenta Larga8.12.14.8.15: la referencia de Bonn da8 de julio de292 en calendario juliano. Se adopta el año del testimonio, sin inventar inicio o fin del reinado ni llamar gregoriana a esa fecha.",
+      "source": "https://classicmayan.ulb.uni-bonn.de/content/titleinfo/9626319",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ]
+}

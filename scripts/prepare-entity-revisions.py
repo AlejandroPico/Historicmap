@@ -58,6 +58,7 @@ def main(acquire=False, portrait_only=False):
     places=read(ROOT/'public/data/historical-places.json');places['records']=[r for r in places['records'] if r.get('acquisition') not in tags]
     contexts=read(ROOT/'public/data/historical-context.json');contexts['events']=[r for r in contexts['events'] if r.get('acquisition') not in tags]
     points=read(ROOT/'public/data/conflict-points.geojson');points['features']=[r for r in points['features'] if r.get('properties',{}).get('acquisition') not in tags]
+    influences=read(ROOT/'public/data/political-influence.json');influences['records']=[r for r in influences['records']if r.get('acquisition')not in tags]
     # Accumulate the ordered edits in memory. Reading/writing the same large
     # resolution after every country is costly in synchronized workspaces.
     resolutions={}
@@ -139,6 +140,10 @@ def main(acquire=False, portrait_only=False):
         for record in revision.get('places',[]):places['records'].append({**record,'keys':[key],'acquisition':tag})
         for record in revision.get('contexts',[]):contexts['events'].append({**record,'countries':record.get('countries',[key]),'acquisition':tag})
         for record in revision.get('conflictPoints',[]):points['features'].append({**record,'properties':{**record['properties'],'acquisition':tag}})
+        for record in revision.get('politicalInfluences',[]):
+            if not record.get('source')or not record.get('note')or record['start']>=record['end']:raise ValueError('Incomplete dated political influence '+str(path))
+            influences['records']=[r for r in influences['records']if r['id']!=record['id']]
+            influences['records'].append({**record,'keys':record.get('keys',[key]),'acquisition':tag})
         cleared_files=set()
         for fix in revision.get('entityRules',[]):
             for file in fix['files']:
@@ -174,6 +179,7 @@ def main(acquire=False, portrait_only=False):
     starts=[read(p)['coverageStart'] for p in inputs if read(p).get('coverageStart')]
     if starts:contexts['startYear']=min(contexts['startYear'],*starts);history['coverageStart']=min(history['coverageStart'],*starts)
     save_data(ROOT/'public/data/historical-context.json',contexts);save_data(ROOT/'public/data/historical-places.json',places);save_data(ROOT/'public/data/conflict-points.geojson',points);save_data(ROOT/'public/data/country-history.json',history)
+    save_data(ROOT/'public/data/political-influence.json',influences)
     print('Compiled',len(inputs),'entity-owned revisions')
 
 if __name__=='__main__':

@@ -1,7 +1,7 @@
 /** Refresh generated resource metadata after compiling entity-owned revisions. */
 import{readFileSync,writeFileSync,readdirSync,existsSync}from'node:fs';import{createHash}from'node:crypto';
 const read=p=>JSON.parse(readFileSync(p,'utf8')),manifest=read('public/data/manifest.json');
-const changed=new Set(['identities.json','country-history.json','governance.json','historical-places.json','historical-context.json','conflict-points.geojson']);
+const changed=new Set(['identities.json','country-history.json','governance.json','historical-places.json','historical-context.json','conflict-points.geojson','political-influence.json']);
 for(const folder of readdirSync('Países',{withFileTypes:true}).filter(d=>d.isDirectory())){
  const root='Países/'+folder.name;
  const inputs=[root+'/revision-historica.json',...(existsSync(root+'/periodos')?readdirSync(root+'/periodos').filter(f=>f.endsWith('.json')).map(f=>root+'/periodos/'+f):[])];

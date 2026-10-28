@@ -1,0 +1,379 @@
+{
+  "key": "KUSHAN-EMPIRE",
+  "identity": {
+    "qid": "Q25979",
+    "name": "Imperio kushán"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante kushán · cronología aproximada",
+      "officePattern": "King|Emperor|Kushan",
+      "titles": [
+        "Kanishka",
+        "Huvishka",
+        "Vasudeva I",
+        "Kanishka II"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1282366",
+      "name": "Vasudeva I",
+      "role": "Gobernante kushán · cronología aproximada",
+      "start": "0200-01-01",
+      "end": "0232-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vasudeva_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Fechas aproximadas y cronologías alternativas; no se afirman años exactos de todos los mandatos.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-7f212423935adafa98fc.jpg",
+        "title": "Coin of the Kushan king Vasudeva I.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Kushan_king_Vasudeva_I.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Coin_of_the_Kushan_king_Vasudeva_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group;[1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Classical Numismatic Group",
+        "sha256": "be2f960e6dbb99694a3ef1eeece0c29a17f56a7f2a1314d37a72684b4dff735f",
+        "bytes": 89203,
+        "canonicalFile": "Países/KUSHAN-EMPIRE-Imperio-kushan/retratos/portrait-7f212423935adafa98fc.jpg",
+        "caption": "Efigie monetaria convencional de Vasudeva I; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "Q977830",
+      "name": "Kanishka II",
+      "role": "Gobernante kushán · cronología aproximada",
+      "start": "0232-01-01",
+      "end": "0247-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kanishka_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Fechas aproximadas y cronologías alternativas; no se afirman años exactos de todos los mandatos.",
+      "portrait": {
+        "file": "media/portrait-a735d05ac1644dd145e1.jpg",
+        "title": "KanishkaIIObverse.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:KanishkaIIObverse.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/KanishkaIIObverse.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "PHGCOM",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "I, PHGCOM",
+        "attributionRequired": true,
+        "credit": "self-made, photographed at the British Museum",
+        "sha256": "929ad9a37214d91df9d76f577c58941d8ed3f2c70932a11768871a85f67a77ff",
+        "bytes": 190525,
+        "canonicalFile": "Países/KUSHAN-EMPIRE-Imperio-kushan/retratos/portrait-a735d05ac1644dd145e1.jpg",
+        "caption": "Efigie monetaria convencional de Kanishka II; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review038-kushan",
+      "type": "institution",
+      "title": "Cronologías kushanes",
+      "start": "0200-01-01",
+      "end": "0300-01-01",
+      "text": "La numismática propone cronologías alternativas; se conservan ventanas aproximadas. Las ramas orientales y los kushanshahs no equivalen a una sucesión única demostrada.",
+      "source": "https://www.metmuseum.org/toah/ht/05/ssa.html",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Vasudeva_I",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kushan Empire"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Imperio kushán",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "132cb4c67545f3a83cc5c74dd49f698cbfef7e1aa6a163ef2134b7225e82315f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1295,
+        1322,
+        1334
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Huvishka",
+        "title": "Huvishka",
+        "person": "Q1396420",
+        "name": "Huvishka",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Huvishka",
+        "identityResolution": {
+          "requested": "Huvishka",
+          "canonical": "Huvishka",
+          "qid": "Q1396420"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1396420",
+        "title": "Huvishka",
+        "source": "https://en.wikipedia.org/wiki/Huvishka",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushan emperor",
+            "raw": "150–190 CE",
+            "parsed": {
+              "start": "0150-01-01",
+              "end": "0190-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kanishka",
+        "title": "Kanishka",
+        "person": "Q312544",
+        "name": "Kanishka",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kanishka",
+        "identityResolution": {
+          "requested": "Kanishka",
+          "canonical": "Kanishka",
+          "qid": "Q312544"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q312544",
+        "title": "Kanishka",
+        "source": "https://en.wikipedia.org/wiki/Kanishka",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushan emperor",
+            "raw": "127–150 CE <!--Chinese records of [[Yueh-chi]] show coronation as 78&nbsp;AD {{cn}} -->",
+            "parsed": {
+              "start": "0127-01-01",
+              "end": "0150-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kanishka II",
+        "title": "Kanishka II",
+        "person": "Q977830",
+        "name": "Kanishka II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kanishka_II",
+        "identityResolution": {
+          "requested": "Kanishka II",
+          "canonical": "Kanishka II",
+          "qid": "Q977830"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q977830",
+        "title": "Kanishka II",
+        "source": "https://en.wikipedia.org/wiki/Kanishka_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushan emperor",
+            "raw": "232-247 CE",
+            "parsed": {
+              "start": "0232-01-01",
+              "end": "0247-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vasudeva I",
+        "title": "Vasudeva I",
+        "person": "Q1282366",
+        "name": "Vasudeva I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vasudeva_I",
+        "identityResolution": {
+          "requested": "Vasudeva I",
+          "canonical": "Vasudeva I",
+          "qid": "Q1282366"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q39018",
+          "start": "0191-01-01",
+          "end": "0232-01-01",
+          "precision": 9,
+          "statement": "Q1282366$a39d6b2d-429b-aa0d-a291-637f7aee69ea",
+          "label": "emperador"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1282366",
+        "title": "Vasudeva I",
+        "source": "https://en.wikipedia.org/wiki/Vasudeva_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushan emperor",
+            "raw": "191–232 CE",
+            "parsed": {
+              "start": "0191-01-01",
+              "end": "0232-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1282366",
+        "title": "Vasudeva I",
+        "source": "https://en.wikipedia.org/wiki/Vasudeva_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Kushan emperor",
+          "raw": "191–232 CE",
+          "parsed": {
+            "start": "0191-01-01",
+            "end": "0232-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q977830",
+        "title": "Kanishka II",
+        "source": "https://en.wikipedia.org/wiki/Kanishka_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Kushan emperor",
+          "raw": "232-247 CE",
+          "parsed": {
+            "start": "0232-01-01",
+            "end": "0247-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "mediaReview": [
+    {
+      "person": "Q1282366",
+      "name": "Vasudeva I",
+      "title": "Coin of the Kushan king Vasudeva I.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Kushan_king_Vasudeva_I.jpg",
+      "sha256": "be2f960e6dbb99694a3ef1eeece0c29a17f56a7f2a1314d37a72684b4dff735f",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Vasudeva I; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    },
+    {
+      "person": "Q977830",
+      "name": "Kanishka II",
+      "title": "KanishkaIIObverse.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:KanishkaIIObverse.JPG",
+      "sha256": "929ad9a37214d91df9d76f577c58941d8ed3f2c70932a11768871a85f67a77ff",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Kanishka II; no fotografía ni semejanza del natural acreditada."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review038-kushan",
+      "type": "institution",
+      "title": "Cronologías kushanes",
+      "start": "0200-01-01",
+      "end": "0300-01-01",
+      "text": "La numismática propone cronologías alternativas; se conservan ventanas aproximadas. Las ramas orientales y los kushanshahs no equivalen a una sucesión única demostrada.",
+      "source": "https://www.metmuseum.org/toah/ht/05/ssa.html",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ]
+}

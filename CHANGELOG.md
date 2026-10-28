@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.38.0 · 28 de octubre de 2026
+
+- Consulta anual200–299 con67 dossiers,186 cargos,153 componentes políticos originales,29 centros y25 contextos; crisis romana, títulos y regencias de los Tres Reinos y transición arsácida/sasánida diferenciados.
+- 58 fases culturales nuevas sin retirar las anteriores;69 originales nominales conservados, con remisiones políticas y una exclusión anacrónica explícita.
+- 118 candidatos de imagen inspeccionados:112 aceptados y seis descartados. Caras monetarias elegidas, grabados retrospectivos y piezas póstumas identificados; no glifos como retratos.
+- Continuidad de colores romanos399/400 corregida: Occidente púrpura rojizo y Oriente violeta; el cambio de cobertura no representa un cambio de régimen.
+- Siete fases militares de Afganistán e Irak: intervención soviética, coalición/ISAF, apoyo posterior, invasión y ocupación de Irak, y presencia tras la transferencia de autoridad. Tonos y franjas nacionales de referencia con límites explícitos, conservando identidades propias.
+- Regla temporal con marcas habituales cada50años desde el primer siglo, marca explícita del año1 y navegación manual anual; se omite el año cero y se mantiene el zoom adaptable.
+- Fuentes, conservación y carencias por entidad; no se inventan banderas, frentes locales ni cronologías completas donde falta evidencia.
+
 ## 0.37.0 · 28 de octubre de 2026
 
 - Ampliación anual300–399 con232 componentes políticos originales y58 referencias culturales nuevas; se conservan todas las fases posteriores.
@@ -174,7 +184,7 @@
 ## 0.19.0 · 26/10/2026
 
 - Cronología anual hasta1700,853 intervalos adicionales con coordenadas originales y58 reglas de identidad fechadas. Los archivos geográficos anteriores se conservan.
--275 intervalos de autoridades revisados, ampliación de retratos y39 ventanas de símbolos. Sellos, mon, armas, estandartes y pabellones identificados; no se retrotraen banderas nacionales posteriores ni diseños ficticios.
+- 275 intervalos de autoridades revisados, ampliación de retratos y39 ventanas de símbolos. Sellos, mon, armas, estandartes y pabellones identificados; no se retrotraen banderas nacionales posteriores ni diseños ficticios.
 - Filtros en un nuevo botón de embudo a la izquierda deCapas: forma política/régimen, color del mapa y organizaciones. Opciones sin entidades ocultas; filtro activo vacío conservado con aviso y acción para quitarlo.
 - Sedes seleccionables para Estados germanos agrupados en la cartografía, sin inventar sus fronteras.32 referencias urbanas,29 registros institucionales y15 fases documentales adicionales, con puntos regionales de conflictos.
 - Auditoría anual1700–1799 y carencias nominales conservadas. Fragmento deSunjo retirado como retrato identificativo porque no conserva un rostro reconocible. [Fuentes, alcance y continuidad](docs/RESEARCH-1700.md).
@@ -183,7 +193,7 @@
 
 - Revisión de autoridades y símbolos1800–1900; Habsburgo y Río de la Plata dejan de apuntar a identificadores ajenos a la entidad histórica. República Helvética, colonias, títulos soberanos y sucesiones diferenciados.60 retratos y47 ventanas de símbolos revisadas.
 - Clasificación institucional fechada, taxonomía jerárquica y filtro persistente enCapas eInstituciones. Evaluación V-Dem/OWID1789–2025 separada y atribuida; no extrapolación al presente.
--68 referencias urbanas y32 puntos de conflictos, separados de las superficies de ocupación. Selección de puntos corregida; capas de control disponibles también con indicadores económicos y organizaciones.
+- 68 referencias urbanas y32 puntos de conflictos, separados de las superficies de ocupación. Selección de puntos corregida; capas de control disponibles también con indicadores económicos y organizaciones.
 - Catálogo y auditoría anual con huecos nominales; revisión mundial todavía abierta. Alcance y fuentes en[REVIEW-0.18.md](docs/REVIEW-0.18.md).
 
 ## 0.17.0 · 2026-10-26
@@ -233,7 +243,7 @@
 - Sustitución de territorios1940–1944 sobre una malla terrestre compartida: se eliminan piezas alemanas remotas, se protegen países neutrales y se conservan las costas de la base fechada. Una sola geometría política para pintura, fronteras, búsqueda y clic.
 - Franjas opcionales calculadas contra el controlador final; clientes y control comunista chino dejan de solaparse con un inventario anterior. Continuidad del cliente eslovaco1939 sin reponerChecoslovaquia ficticia.
 - Autoridades con formato uniforme de nombre, cargo y fechas; notas documentales extensas dentro deContexto, manteniendo fuentes e incertidumbre.
--34 retratos suizos originales recuperados(33GIF y1PNG), permisos individualizados y etiquetas delConsejoFederal/presidencia anual diferenciadas. No se alteran fechas ni otros países.
+- 34 retratos suizos originales recuperados(33GIF y1PNG), permisos individualizados y etiquetas delConsejoFederal/presidencia anual diferenciadas. No se alteran fechas ni otros países.
 - Continuidad documental de la entidad eslovaca1940–1944: símbolo, presidente, cambioTuka/ŠtefanTiso y un retrato adicional. La ficha abierta conserva autoridades cuando desaparece su geometría independiente.
 - Preparación geográfica y auditoría reproducibles, manifiestos con huellas de insumos y catálogoPaíses sincronizado. Se mantienen los límites de las síntesis anuales y los frentes aún pendientes; no se amplía a1880.
 

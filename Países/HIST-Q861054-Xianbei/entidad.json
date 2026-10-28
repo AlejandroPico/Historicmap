@@ -1,0 +1,51 @@
+{
+  "key": "HIST-Q861054",
+  "name": "Xianbei",
+  "qid": "Q861054",
+  "aliases": [
+    "Xianbei"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q861054"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1298",
+      "start": 200,
+      "end": 206,
+      "name": "Xianbei",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1313",
+      "start": 207,
+      "end": 223,
+      "name": "Xianbei",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1328",
+      "start": 224,
+      "end": 237,
+      "name": "Xianbei",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

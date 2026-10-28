@@ -1,0 +1,67 @@
+{
+  "key": "CULTURE-KOGURYO-AFF5F72F-Y0200",
+  "contextKey": "CULTURE-KOGURYO-AFF5F72F",
+  "ownerKey": "HIST-Q28370",
+  "name": "Koguryo",
+  "originalNames": [
+    "Koguryo"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 200",
+  "decision": "political-base",
+  "reviewedRange": [
+    200,
+    299
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea200 contiene etiquetas de épocas distintas. La ventana200–299 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Goguryeo"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q28370"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    127.64742,
+    40.0328
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-KOGURYO-AFF5F72F-Y0200.geojson",
+  "geometrySha256": "3ca38294dec58c690e6f44a58de4257e22a6098b84d5634e9ebad0706029f5b7",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson",
+    "year": 200,
+    "featureIds": [
+      162
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7"
+  },
+  "review": "0.38.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final299 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en300."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Koguryo",
+      "ABBREVN": "Koguryo",
+      "SUBJECTO": "Koguryo",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Koguryo"
+    }
+  ],
+  "sourceGrouping": [
+    "Koguryo"
+  ]
+}

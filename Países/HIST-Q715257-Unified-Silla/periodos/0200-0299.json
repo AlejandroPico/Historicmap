@@ -1,0 +1,528 @@
+{
+  "key": "HIST-Q715257",
+  "identity": {
+    "qid": "Q715257",
+    "name": "Unified Silla"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Silla",
+      "officePattern": "King.*Silla|Ruler.*Silla",
+      "titles": [
+        "Naehae of Silla",
+        "Jobun of Silla",
+        "Cheomhae of Silla",
+        "Michu of Silla",
+        "Yurye of Silla",
+        "Girim of Silla"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q496614",
+      "name": "Naehae of Silla",
+      "role": "Gobernante de Silla",
+      "start": "0200-01-01",
+      "end": "0230-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Naehae_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q485125",
+      "name": "Jobun of Silla",
+      "role": "Gobernante de Silla",
+      "start": "0230-01-01",
+      "end": "0247-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jobun_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q485584",
+      "name": "Cheomhae of Silla",
+      "role": "Gobernante de Silla",
+      "start": "0247-01-01",
+      "end": "0261-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cheomhae_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q488160",
+      "name": "Michu of Silla",
+      "role": "Gobernante de Silla",
+      "start": "0262-01-01",
+      "end": "0284-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Michu_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q485837",
+      "name": "Yurye of Silla",
+      "role": "Gobernante de Silla",
+      "start": "0284-01-01",
+      "end": "0298-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yurye_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q485627",
+      "name": "Girim of Silla",
+      "role": "Gobernante de Silla",
+      "start": "0298-01-01",
+      "end": "0299-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Girim_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Naehae_of_Silla",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Cheomhae of Silla",
+        "title": "Cheomhae of Silla",
+        "person": "Q485584",
+        "name": "Cheomhae of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cheomhae_of_Silla",
+        "identityResolution": {
+          "requested": "Cheomhae of Silla",
+          "canonical": "Cheomhae of Silla",
+          "qid": "Q485584"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485584",
+        "title": "Cheomhae of Silla",
+        "source": "https://en.wikipedia.org/wiki/Cheomhae_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "247-261",
+            "parsed": {
+              "start": "0247-01-01",
+              "end": "0261-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "247–261",
+            "parsed": {
+              "start": "0247-01-01",
+              "end": "0261-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Girim of Silla",
+        "title": "Girim of Silla",
+        "person": "Q485627",
+        "name": "Girim of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Girim_of_Silla",
+        "identityResolution": {
+          "requested": "Girim of Silla",
+          "canonical": "Girim of Silla",
+          "qid": "Q485627"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485627",
+        "title": "Girim of Silla",
+        "source": "https://en.wikipedia.org/wiki/Girim_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "298-310",
+            "parsed": {
+              "start": "0298-01-01",
+              "end": "0310-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "298–310",
+            "parsed": {
+              "start": "0298-01-01",
+              "end": "0310-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Jobun of Silla",
+        "title": "Jobun of Silla",
+        "person": "Q485125",
+        "name": "Jobun of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jobun_of_Silla",
+        "identityResolution": {
+          "requested": "Jobun of Silla",
+          "canonical": "Jobun of Silla",
+          "qid": "Q485125"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485125",
+        "title": "Jobun of Silla",
+        "source": "https://en.wikipedia.org/wiki/Jobun_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "230-247",
+            "parsed": {
+              "start": "0230-01-01",
+              "end": "0247-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "230–247",
+            "parsed": {
+              "start": "0230-01-01",
+              "end": "0247-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Michu of Silla",
+        "title": "Michu of Silla",
+        "person": "Q488160",
+        "name": "Michu of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Michu_of_Silla",
+        "identityResolution": {
+          "requested": "Michu of Silla",
+          "canonical": "Michu of Silla",
+          "qid": "Q488160"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q488160",
+        "title": "Michu of Silla",
+        "source": "https://en.wikipedia.org/wiki/Michu_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "262-284",
+            "parsed": {
+              "start": "0262-01-01",
+              "end": "0284-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "262–284",
+            "parsed": {
+              "start": "0262-01-01",
+              "end": "0284-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Naehae of Silla",
+        "title": "Naehae of Silla",
+        "person": "Q496614",
+        "name": "Naehae of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Naehae_of_Silla",
+        "identityResolution": {
+          "requested": "Naehae of Silla",
+          "canonical": "Naehae of Silla",
+          "qid": "Q496614"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q496614",
+        "title": "Naehae of Silla",
+        "source": "https://en.wikipedia.org/wiki/Naehae_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "196-230",
+            "parsed": {
+              "start": "0196-01-01",
+              "end": "0230-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "196–230",
+            "parsed": {
+              "start": "0196-01-01",
+              "end": "0230-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yurye of Silla",
+        "title": "Yurye of Silla",
+        "person": "Q485837",
+        "name": "Yurye of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yurye_of_Silla",
+        "identityResolution": {
+          "requested": "Yurye of Silla",
+          "canonical": "Yurye of Silla",
+          "qid": "Q485837"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485837",
+        "title": "Yurye of Silla",
+        "source": "https://en.wikipedia.org/wiki/Yurye_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "284-298",
+            "parsed": {
+              "start": "0284-01-01",
+              "end": "0298-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "284–298",
+            "parsed": {
+              "start": "0284-01-01",
+              "end": "0298-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q496614",
+        "title": "Naehae of Silla",
+        "source": "https://en.wikipedia.org/wiki/Naehae_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "196-230",
+          "parsed": {
+            "start": "0196-01-01",
+            "end": "0230-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q485125",
+        "title": "Jobun of Silla",
+        "source": "https://en.wikipedia.org/wiki/Jobun_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "230-247",
+          "parsed": {
+            "start": "0230-01-01",
+            "end": "0247-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q485584",
+        "title": "Cheomhae of Silla",
+        "source": "https://en.wikipedia.org/wiki/Cheomhae_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "247-261",
+          "parsed": {
+            "start": "0247-01-01",
+            "end": "0261-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q488160",
+        "title": "Michu of Silla",
+        "source": "https://en.wikipedia.org/wiki/Michu_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "262-284",
+          "parsed": {
+            "start": "0262-01-01",
+            "end": "0284-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q485837",
+        "title": "Yurye of Silla",
+        "source": "https://en.wikipedia.org/wiki/Yurye_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "284-298",
+          "parsed": {
+            "start": "0284-01-01",
+            "end": "0298-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q485627",
+        "title": "Girim of Silla",
+        "source": "https://en.wikipedia.org/wiki/Girim_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "298-310",
+          "parsed": {
+            "start": "0298-01-01",
+            "end": "0310-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat038-23",
+      "name": "Gyeongju · Silla",
+      "coordinates": [
+        129.212,
+        35.856
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Silla",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Unified Silla"
+    },
+    {
+      "id": "seat038-23-own",
+      "name": "Gyeongju · Silla",
+      "coordinates": [
+        129.212,
+        35.856
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Silla",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Unified Silla"
+    }
+  ]
+}

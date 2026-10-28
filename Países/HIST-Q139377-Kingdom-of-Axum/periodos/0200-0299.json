@@ -1,0 +1,362 @@
+{
+  "key": "HIST-Q139377",
+  "identity": {
+    "qid": "Q139377",
+    "name": "Kingdom of Axum"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Aksum · cronología discutida",
+      "officePattern": "King.*Aksum|King.*Axum",
+      "titles": [
+        "GDRT",
+        "Endubis",
+        "Aphilas"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q736169",
+      "name": "GDRT",
+      "role": "Gobernante de Aksum · cronología discutida",
+      "start": "0200-01-01",
+      "end": "0230-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/GDRT",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q888734",
+      "name": "Endubis",
+      "role": "Rey de Aksum · cronología numismática",
+      "start": "0270-01-01",
+      "end": "0299-12-31",
+      "precision": 9,
+      "source": "https://www.britishmuseum.org/collection/term/BIOG90446",
+      "note": "Reinado c270–300 según el British Museum; datación aproximada, no día seguro de acceso. No derivado de fechas personales.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-9ac6a225854c572f0ea0.jpg",
+        "title": "KingEndybisEthiopia227-235CE.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:KingEndybisEthiopia227-235CE.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/KingEndybisEthiopia227-235CE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "PHGCOM",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "I, PHGCOM",
+        "attributionRequired": true,
+        "credit": "self-made, photographed at the British Museum",
+        "sha256": "76f0397d9502b0b16939424d18900cbf1a215e48deadf116b5c0589302426fa1",
+        "bytes": 335377,
+        "canonicalFile": "Países/HIST-Q139377-Kingdom-of-Axum/retratos/portrait-9ac6a225854c572f0ea0.jpg",
+        "caption": "Efigie monetaria de Endubis; cronología aproximada c270–300 según British Museum, no la datación227–235 incluida en el nombre del archivo. Se elige la moneda izquierda, no se afirma que ambas imágenes sean anverso y reverso. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review038-endubis",
+      "type": "institution",
+      "title": "Aksum y testimonios numismáticos",
+      "start": "0270-01-01",
+      "end": "0300-01-01",
+      "text": "Endubis tiene datación propuesta c270–300. El nombre de un archivo de imagen no se utiliza para imponer otra cronología de acceso.",
+      "source": "https://www.britishmuseum.org/collection/term/BIOG90446",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/GDRT",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Axum"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Kingdom of Axum",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "59b76ecd1f8fab1b55480ebb1ecee69c71f9c4ede7714c1456920d5b8d209036",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1037,
+        1345
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aphilas",
+        "title": "Aphilas",
+        "person": "Q618457",
+        "name": "Aphilas",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aphilas",
+        "identityResolution": {
+          "requested": "Aphilas",
+          "canonical": "Aphilas",
+          "qid": "Q618457"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q618457",
+        "title": "Aphilas",
+        "source": "https://en.wikipedia.org/wiki/Aphilas",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Aksum",
+            "raw": "310s",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Endubis",
+        "title": "Endubis",
+        "person": "Q888734",
+        "name": "Endubis",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Endybis",
+        "identityResolution": {
+          "requested": "Endubis",
+          "canonical": "Endybis",
+          "qid": "Q888734"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18687305",
+          "start": "0270-01-01",
+          "end": "0300-01-01",
+          "precision": 9,
+          "statement": "Q888734$1C7C89D7-4223-454A-A3BB-787E2EAA1116",
+          "label": "Rey de Axum"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q888734",
+        "title": "Endybis",
+        "source": "https://en.wikipedia.org/wiki/Endybis",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Aksumite king",
+            "raw": "c. 270-300<ref>{{cite web|url=https://www.britishmuseum.org/collection/term/BIOG90446|title=Endubis|publisher=[[British Museum]]|accessdate=2023-03-18}}</ref>",
+            "parsed": {
+              "start": "0270-01-01",
+              "end": "0300-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "GDRT",
+        "title": "GDRT",
+        "person": "Q736169",
+        "name": "GDRT",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/GDRT",
+        "identityResolution": {
+          "requested": "GDRT",
+          "canonical": "GDRT",
+          "qid": "Q736169"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18687305",
+          "start": "0200-01-01",
+          "end": "0230-01-01",
+          "precision": 9,
+          "statement": "Q736169$965590b9-78e4-47de-b93e-d83df4f0a87b",
+          "label": "Rey de Axum"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q736169",
+        "title": "GDRT",
+        "source": "https://en.wikipedia.org/wiki/GDRT",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Axum",
+            "raw": "{{Circa}}200 – 230",
+            "parsed": {
+              "start": "0200-01-01",
+              "end": "0230-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q736169",
+        "title": "GDRT",
+        "source": "https://en.wikipedia.org/wiki/GDRT",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Axum",
+          "raw": "{{Circa}}200 – 230",
+          "parsed": {
+            "start": "0200-01-01",
+            "end": "0230-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Endubis",
+        "person": "Q888734",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Aphilas",
+        "person": "Q618457",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q888734",
+      "name": "Endubis",
+      "role": "Rey de Aksum · cronología numismática",
+      "start": "0270-01-01",
+      "end": "0299-12-31",
+      "precision": 9,
+      "source": "https://www.britishmuseum.org/collection/term/BIOG90446",
+      "note": "Reinado c270–300 según el British Museum; datación aproximada, no día seguro de acceso. No derivado de fechas personales.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q888734",
+      "name": "Endubis",
+      "title": "KingEndybisEthiopia227-235CE.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:KingEndybisEthiopia227-235CE.jpg",
+      "sha256": "76f0397d9502b0b16939424d18900cbf1a215e48deadf116b5c0589302426fa1",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria de Endubis; cronología aproximada c270–300 según British Museum, no la datación227–235 incluida en el nombre del archivo. Se elige la moneda izquierda, no se afirma que ambas imágenes sean anverso y reverso. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat038-18",
+      "name": "Aksum",
+      "coordinates": [
+        38.72,
+        14.13
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Kingdom of Axum"
+    },
+    {
+      "id": "seat038-18-own",
+      "name": "Aksum",
+      "coordinates": [
+        38.72,
+        14.13
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Kingdom of Axum"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review038-endubis",
+      "type": "institution",
+      "title": "Aksum y testimonios numismáticos",
+      "start": "0270-01-01",
+      "end": "0300-01-01",
+      "text": "Endubis tiene datación propuesta c270–300. El nombre de un archivo de imagen no se utiliza para imponer otra cronología de acceso.",
+      "source": "https://www.britishmuseum.org/collection/term/BIOG90446",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ]
+}

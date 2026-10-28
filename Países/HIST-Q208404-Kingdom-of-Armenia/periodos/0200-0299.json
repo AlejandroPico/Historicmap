@@ -1,0 +1,396 @@
+{
+  "key": "HIST-Q208404",
+  "identity": {
+    "qid": "Q208404",
+    "name": "Kingdom of Armenia"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Armenia",
+      "officePattern": "King.*Armenia",
+      "titles": [
+        "Khosrov I of Armenia",
+        "Tiridates II of Armenia",
+        "Khosrov II of Armenia",
+        "Tiridates III of Armenia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2689762",
+      "name": "Cosroes I de Armenia",
+      "role": "Rey de Armenia",
+      "start": "0200-01-01",
+      "end": "0216-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khosrov_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q2546020",
+      "name": "Tirídates II de Armenia",
+      "role": "Rey de Armenia",
+      "start": "0217-01-01",
+      "end": "0252-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tiridates_II_of_Armenia",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q172520",
+      "name": "Tiridates III de Armenia",
+      "role": "Rey de Armenia",
+      "start": "0298-01-01",
+      "end": "0299-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tiridates_III_of_Armenia",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-fa76391a397878f0bebf.jpg",
+        "title": "Tiridates III illustration.jpeg",
+        "url": "https://commons.wikimedia.org/wiki/File:Tiridates_III_illustration.jpeg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Tiridates_III_illustration.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Gaidzakian, Ohan, 1837-1914",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tiridates_III_illustration.jpeg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://archive.org/details/illustratedarmen00gaidrich",
+        "sha256": "e90cd7ffaa0a69f3ead919c852ae0ef0b37f73ad2c3bb36609c6e7851494559f",
+        "bytes": 352768,
+        "canonicalFile": "Países/HIST-Q208404-Kingdom-of-Armenia/retratos/portrait-fa76391a397878f0bebf.jpg",
+        "caption": "Representación imaginaria posterior de Tiridates III de Armenia; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Khosrov_I",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Armenia"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Kingdom of Armenia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "f1bc372029be406cb7431ab43f4a2ad65a0b1f6d8c96a8cec8bae4c873cabca8",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1281,
+        1403
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Khosrov I of Armenia",
+        "title": "Khosrov I of Armenia",
+        "person": "Q2689762",
+        "name": "Cosroes I de Armenia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khosrov_I",
+        "identityResolution": {
+          "requested": "Khosrov I of Armenia",
+          "canonical": "Khosrov I",
+          "qid": "Q2689762"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2689762",
+        "title": "Khosrov I",
+        "source": "https://en.wikipedia.org/wiki/Khosrov_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "198–216",
+            "parsed": {
+              "start": "0198-01-01",
+              "end": "0216-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Khosrow I",
+            "raw": "198-216",
+            "parsed": {
+              "start": "0198-01-01",
+              "end": "0216-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Khosrov II of Armenia",
+        "title": "Khosrov II of Armenia",
+        "person": "Q2206497",
+        "name": "Cosroes II de Armenia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khosrov_II",
+        "identityResolution": {
+          "requested": "Khosrov II of Armenia",
+          "canonical": "Khosrov II",
+          "qid": "Q2206497"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2206497",
+        "title": "Khosrov II",
+        "source": "https://en.wikipedia.org/wiki/Khosrov_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "272/73 or 279/80–287",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tiridates II of Armenia",
+        "title": "Tiridates II of Armenia",
+        "person": "Q2546020",
+        "name": "Tirídates II de Armenia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tiridates_II_of_Armenia",
+        "identityResolution": {
+          "requested": "Tiridates II of Armenia",
+          "canonical": "Tiridates II of Armenia",
+          "qid": "Q2546020"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2546020",
+        "title": "Tiridates II of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Tiridates_II_of_Armenia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "217&ndash;252",
+            "parsed": {
+              "start": "0217-01-01",
+              "end": "0252-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tiridates III of Armenia",
+        "title": "Tiridates III of Armenia",
+        "person": "Q172520",
+        "name": "Tiridates III de Armenia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tiridates_III_of_Armenia",
+        "identityResolution": {
+          "requested": "Tiridates III of Armenia",
+          "canonical": "Tiridates III of Armenia",
+          "qid": "Q172520"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q172520",
+        "title": "Tiridates III of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Tiridates_III_of_Armenia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "298&ndash;{{circa|330}} AD",
+            "parsed": {
+              "start": "0298-01-01",
+              "end": "0330-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Tiridates the Great",
+            "raw": "287–330",
+            "parsed": {
+              "start": "0287-01-01",
+              "end": "0330-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2689762",
+        "title": "Khosrov I of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Khosrov_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Armenia",
+          "raw": "198–216",
+          "parsed": {
+            "start": "0198-01-01",
+            "end": "0216-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2546020",
+        "title": "Tiridates II of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Tiridates_II_of_Armenia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Armenia",
+          "raw": "217&ndash;252",
+          "parsed": {
+            "start": "0217-01-01",
+            "end": "0252-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q172520",
+        "title": "Tiridates III of Armenia",
+        "source": "https://en.wikipedia.org/wiki/Tiridates_III_of_Armenia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Armenia",
+          "raw": "298&ndash;{{circa|330}} AD",
+          "parsed": {
+            "start": "0298-01-01",
+            "end": "0330-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Khosrov II of Armenia",
+        "person": "Q2206497",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "mediaReview": [
+    {
+      "person": "Q172520",
+      "name": "Tiridates III de Armenia",
+      "title": "Tiridates III illustration.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tiridates_III_illustration.jpeg",
+      "sha256": "e90cd7ffaa0a69f3ead919c852ae0ef0b37f73ad2c3bb36609c6e7851494559f",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Tiridates III de Armenia; no fotografía ni semejanza del natural acreditada."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat038-21",
+      "name": "Vagharshapat · referencia armenia",
+      "coordinates": [
+        44.29,
+        40.17
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Vagharshapat",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Kingdom of Armenia"
+    },
+    {
+      "id": "seat038-21-own",
+      "name": "Vagharshapat · referencia armenia",
+      "coordinates": [
+        44.29,
+        40.17
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Vagharshapat",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Kingdom of Armenia"
+    }
+  ]
+}

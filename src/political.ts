@@ -5,7 +5,7 @@ import influenceCatalogue from '../public/data/political-influence.json';
 import type {ProfileData} from './profiles';
 import {historicalFamily,historicalColor} from './historical-palette';
 
-export type PoliticalInfluence={id:string;keys:string[];power:string;start:string;end:string;kind:string;source:string;note:string};
+export type PoliticalInfluence={id:string;keys:string[];power:string;start:string;end:string;kind:string;source:string;note:string;hatchScope?:'national-reference';label?:string};
 export const politicalInfluences=influenceCatalogue.records as PoliticalInfluence[];
 export function influenceFor(key:string,year:number){
   const date=`${isoYear(year)}-12-31`;
@@ -89,6 +89,7 @@ export function regimeColor(key:string,year:number):string{
   }
 }
 export function politicalData(data:FeatureCollection,year:number,profiles?:ProfileData):FeatureCollection{
+  const colorFamilies=new Map(data.features.filter(f=>f.properties?.colorFamily).map(f=>[String(f.properties!.identityKey),String(f.properties!.colorFamily)]));
   const sovereignNames=new Map<string,string>();
   const sovereignLabels=new Map<string,string>();
   for(const f of data.features){const p=f.properties??{};if(p.status==='independent'||!p.status){const key=entityKey(p,year);if(p.name)sovereignLabels.set(key,String(p.name));for(const name of [p.name,p.originalName,...(profiles&&year>=2020?[p.group]:[])])if(name)sovereignNames.set(String(name),key);}}
@@ -105,12 +106,20 @@ export function politicalData(data:FeatureCollection,year:number,profiles?:Profi
     const influence=influenceFor(identityKey,year);
     const dependent=!p.collectiveAdministration&&(modernDependency||!!(p.status&&p.status!=='independent'&&p.ownerName)||!!parent&&parent!==p.originalName);
     const power=influence?.power??ownerKey;
-    const baseColor=regimeColor(power===identityKey&&p.colorFamily?String(p.colorFamily):power,year);
+    const baseColor=regimeColor(colorFamilies.get(power)??(power===identityKey&&p.colorFamily?String(p.colorFamily):power),year);
     const controlInfluence=!!influence&&['occupation','intervention'].includes(influence.kind);
-    const tinted=influence?dependencyColor(baseColor,identityKey,influence.kind==='bloc'):dependent?dependencyColor(baseColor,identityKey):baseColor;
+    const tinted=influence?dependencyColor(baseColor,identityKey,influence.kind==='bloc'||influence.kind==='military-support'):dependent?dependencyColor(baseColor,identityKey):baseColor;
     const politicalColor=p.status==='source-reference'?'#8b9188':controlInfluence?regimeColor(ownerKey,year):tinted;
-    return {...f,properties:{...p,name,identityKey,entityCode:p.entityCode??territorialEntityCode(p,year),politicalColor,...(dependent&&ownerKey!==identityKey?{administratorKey:ownerKey}:{}),...(controlInfluence?{controlInfluenceColor:tinted}:{}),...(influence?{dominantPower:power,influenceKind:influence.kind,influenceNote:influence.note,influenceSource:influence.source}:modernDependency?{dominantPower:ownerKey,influenceKind:'dependency',influenceNote:`Dependencia vinculada a ${sovereignLabels.get(ownerKey)??profile!.sovereign} según la referencia contemporánea de Natural Earth incorporada en 2026. El matiz indica vinculación administrativa; conserva identidad y datos propios.`,influenceSource:'https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/'}:{})}};
+    return {...f,properties:{...p,name,identityKey,entityCode:p.entityCode??territorialEntityCode(p,year),politicalColor,...(dependent&&ownerKey!==identityKey?{administratorKey:ownerKey}:{}),...(controlInfluence?{controlInfluenceColor:tinted}:{}),...(influence?{dominantPower:power,influenceKind:influence.kind,influenceNote:influence.note,influenceSource:influence.source,influenceHatchScope:influence.hatchScope,influenceLabel:influence.label}:modernDependency?{dominantPower:ownerKey,influenceKind:'dependency',influenceNote:`Dependencia vinculada a ${sovereignLabels.get(ownerKey)??profile!.sovereign} según la referencia contemporánea de Natural Earth incorporada en 2026. El matiz indica vinculación administrativa; conserva identidad y datos propios.`,influenceSource:'https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/'}:{})}};
   })};
+}
+/** Country outlines are an explicitly labelled documentary reference here,
+ * never a reconstruction of local fronts or proof of uniform foreign control. */
+export function nationalInfluenceHatching(data:FeatureCollection,year:number):FeatureCollection{
+ return {type:'FeatureCollection',features:data.features.filter(f=>f.properties?.influenceHatchScope==='national-reference').map((f,i)=>{
+  const p=f.properties!,controlColor=regimeColor(String(p.dominantPower),year),occupiedColor=regimeColor(String(p.identityKey),year);
+  return {...f,id:`national-influence-${i}`,properties:{...p,controller:p.dominantPower,occupiedKey:p.identityKey,occupiedName:p.name,occupiedColor,controlColor,patternKey:`${controlColor}:${occupiedColor}`,name:p.influenceLabel??p.name,referenceScope:'national-reference',note:p.influenceNote,source:p.influenceSource}};
+ })};
 }
 function frenchName(year:number){
   return `Francia · ${year<=1791?'monarquía':year<=1794?'Primera República':year<=1799?'Directorio':year<=1803?'Consulado':year<=1813?'Primer Imperio':year<=1829?'Restauración':year<=1847?'Monarquía de Julio':year<=1851?'Segunda República':year<=1869?'Segundo Imperio':'Tercera República'}`;

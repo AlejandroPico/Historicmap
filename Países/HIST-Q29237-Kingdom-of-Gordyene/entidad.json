@@ -1,0 +1,51 @@
+{
+  "key": "HIST-Q29237",
+  "name": "Kingdom of Gordyene",
+  "qid": "Q29237",
+  "aliases": [
+    "Kingdom of Gordyene"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q29237"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1280",
+      "start": 200,
+      "end": 214,
+      "name": "Kingdom of Gordyene",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1323",
+      "start": 215,
+      "end": 246,
+      "name": "Kingdom of Gordyene",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1351",
+      "start": 247,
+      "end": 259,
+      "name": "Kingdom of Gordyene",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

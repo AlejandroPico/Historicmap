@@ -1,0 +1,77 @@
+{
+  "key": "REFERENCE-POST-MEROE-Y0200",
+  "contextKey": "REFERENCE-POST-MEROE",
+  "ownerKey": "REFERENCE-POST-MEROE",
+  "name": "Meroe y comunidades del reino de Kush",
+  "originalNames": [
+    "Meroe"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 200",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    200,
+    299
+  ],
+  "interpretation": "El reino de Kush existe en200–299. La referencia cultural no adelanta su final del periodo200–299 ni afirma una identidad homogénea o frontera constante.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea200 contiene etiquetas de épocas distintas. La ventana200–299 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    32.73982,
+    17.91228
+  ],
+  "phases": [
+    {
+      "start": 200,
+      "end": 299,
+      "label": "Meroe y comunidades del reino de Kush",
+      "dateBasis": "Referencia regional de la fuente editorial200; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-MEROE-Y0200.geojson",
+  "geometrySha256": "9da968758cadadff836f2527bb44fbe7e6f2f0e28610b7b172c35f80ac02eac3",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson",
+    "year": 200,
+    "featureIds": [
+      11
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7"
+  },
+  "review": "0.38.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final299 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en300."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Meroe",
+      "ABBREVN": "Meroe",
+      "SUBJECTO": "Meroe",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Meroe"
+    }
+  ],
+  "sourceGrouping": [
+    "Meroe"
+  ]
+}

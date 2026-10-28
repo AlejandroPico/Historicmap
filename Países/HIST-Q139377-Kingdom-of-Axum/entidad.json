@@ -15,6 +15,48 @@
   "symbolReferences": [],
   "leaders": [
     {
+      "person": "Q736169",
+      "name": "GDRT",
+      "role": "Gobernante de Aksum · cronología discutida",
+      "start": "0200-01-01",
+      "end": "0230-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/GDRT",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-200-0.38"
+    },
+    {
+      "person": "Q888734",
+      "name": "Endubis",
+      "role": "Rey de Aksum · cronología numismática",
+      "start": "0270-01-01",
+      "end": "0299-12-31",
+      "precision": 9,
+      "source": "https://www.britishmuseum.org/collection/term/BIOG90446",
+      "note": "Reinado c270–300 según el British Museum; datación aproximada, no día seguro de acceso. No derivado de fechas personales.",
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-200-0.38",
+      "portrait": {
+        "file": "media/portrait-9ac6a225854c572f0ea0.jpg",
+        "title": "KingEndybisEthiopia227-235CE.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:KingEndybisEthiopia227-235CE.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/KingEndybisEthiopia227-235CE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "PHGCOM",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "I, PHGCOM",
+        "attributionRequired": true,
+        "credit": "self-made, photographed at the British Museum",
+        "sha256": "76f0397d9502b0b16939424d18900cbf1a215e48deadf116b5c0589302426fa1",
+        "bytes": 335377,
+        "canonicalFile": "Países/HIST-Q139377-Kingdom-of-Axum/retratos/portrait-9ac6a225854c572f0ea0.jpg",
+        "caption": "Efigie monetaria de Endubis; cronología aproximada c270–300 según British Museum, no la datación227–235 incluida en el nombre del archivo. Se elige la moneda izquierda, no se afirma que ambas imágenes sean anverso y reverso. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
       "person": "Q379898",
       "name": "Ezana of Axum",
       "role": "Rey de Aksum · cronología aproximada",
@@ -300,9 +342,32 @@
       "end": 399,
       "name": "Kingdom of Axum",
       "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1037",
+      "start": 200,
+      "end": 237,
+      "name": "Kingdom of Axum",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1345",
+      "start": 238,
+      "end": 299,
+      "name": "Kingdom of Axum",
+      "status": "Entidad histórica · reconstrucción anual"
     }
   ],
   "culturalReviews": [
+    {
+      "key": "CULTURE-AXUM-744D7285-Y0200",
+      "ownerKey": "HIST-Q139377",
+      "name": "Axum",
+      "file": "Países/HIST-Q139377-Kingdom-of-Axum/poblamiento/CULTURE-AXUM-744D7285-Y0200.json",
+      "decision": "political-base"
+    },
     {
       "key": "CULTURE-AXUM-744D7285-Y0300",
       "ownerKey": "HIST-Q139377",

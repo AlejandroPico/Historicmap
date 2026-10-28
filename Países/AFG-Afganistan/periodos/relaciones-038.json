@@ -1,0 +1,331 @@
+{
+  "key": "AFG",
+  "revision": "0.38.0",
+  "acquisition": "military-relations-0.38",
+  "coverageStart": 1979,
+  "coverageEnd": 2021,
+  "politicalInfluences": [
+    {
+      "id": "afghanistan-soviet-intervention",
+      "keys": [
+        "AFG"
+      ],
+      "power": "USSR",
+      "start": "1979-12-27",
+      "end": "1989-02-16",
+      "kind": "intervention",
+      "source": "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan",
+      "withdrawalSource": "https://peacekeeping.un.org/sites/default/files/past/ungomap/background.html",
+      "hatchScope": "national-reference",
+      "label": "Intervención soviética · referencia nacional",
+      "note": "Gobierno de Kabul sostenido por intervención militar soviética1979–1989. El rojo y las franjas señalan esta relación, no soberanía soviética ni control uniforme del país. Retirada culminada15/02/1989. Contorno nacional de referencia, no frente militar."
+    },
+    {
+      "id": "afghanistan-coalition-2001",
+      "power": "USA",
+      "start": "2001-10-07",
+      "end": "2001-12-22",
+      "kind": "intervention",
+      "hatchScope": "national-reference",
+      "label": "Intervención de EE. UU. y coalición",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+      "note": "Intervención encabezada por EE. UU. desde07/10/2001 y caída del gobierno talibán. Color azul de la potencia principal, no anexión estadounidense ni control homogéneo; no se dibujan frentes locales no contrastados."
+    },
+    {
+      "id": "afghanistan-isaf",
+      "power": "USA",
+      "start": "2001-12-22",
+      "end": "2015-01-01",
+      "kind": "intervention",
+      "hatchScope": "national-reference",
+      "label": "Coalición / ISAF · referencia nacional",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/isafs-mission-in-afghanistan-2001-2014",
+      "note": "Gobierno afgano con fuerte intervención y apoyo militar internacional. ISAF autorizada por la ONU, dirigida por la OTAN desde11/08/2003; coalición diversa, no ocupación estadounidense exclusiva ni pérdida automática de soberanía afgana. Azul de EE. UU. como actor principal, no atribución exclusiva de ISAF. Seguridad transferida gradualmente2011–2014. Franjas nacionales de referencia, no control local uniforme."
+    },
+    {
+      "id": "afghanistan-resolute-support",
+      "power": "USA",
+      "start": "2015-01-01",
+      "end": "2021-08-31",
+      "kind": "military-support",
+      "hatchScope": "national-reference",
+      "label": "Apoyo militar internacional · referencia nacional",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+      "note": "Resolute Support: formación, asesoramiento y asistencia a instituciones afganas, con otras operaciones estadounidenses simultáneas. Tono azul más claro por apoyo militar, no soberanía estadounidense ni ocupación uniforme. Retirada y cambio de poder en2021; no se prolonga la relación al cierre de2021."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "military038-afghanistan-soviet-intervention",
+      "type": "conflict",
+      "title": "Intervención soviética · referencia nacional",
+      "start": "1979-12-27",
+      "end": "1989-02-16",
+      "text": "Gobierno de Kabul sostenido por intervención militar soviética1979–1989. El rojo y las franjas señalan esta relación, no soberanía soviética ni control uniforme del país. Retirada culminada15/02/1989. Contorno nacional de referencia, no frente militar.",
+      "source": "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme."
+    },
+    {
+      "id": "military038-afghanistan-coalition-2001",
+      "type": "conflict",
+      "title": "Intervención de EE. UU. y coalición",
+      "start": "2001-10-07",
+      "end": "2001-12-22",
+      "text": "Intervención encabezada por EE. UU. desde07/10/2001 y caída del gobierno talibán. Color azul de la potencia principal, no anexión estadounidense ni control homogéneo; no se dibujan frentes locales no contrastados.",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme."
+    },
+    {
+      "id": "military038-afghanistan-isaf",
+      "type": "conflict",
+      "title": "Coalición / ISAF · referencia nacional",
+      "start": "2001-12-22",
+      "end": "2015-01-01",
+      "text": "Gobierno afgano con fuerte intervención y apoyo militar internacional. ISAF autorizada por la ONU, dirigida por la OTAN desde11/08/2003; coalición diversa, no ocupación estadounidense exclusiva ni pérdida automática de soberanía afgana. Azul de EE. UU. como actor principal, no atribución exclusiva de ISAF. Seguridad transferida gradualmente2011–2014. Franjas nacionales de referencia, no control local uniforme.",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/isafs-mission-in-afghanistan-2001-2014",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme."
+    },
+    {
+      "id": "military038-afghanistan-resolute-support",
+      "type": "conflict",
+      "title": "Apoyo militar internacional · referencia nacional",
+      "start": "2015-01-01",
+      "end": "2021-08-31",
+      "text": "Resolute Support: formación, asesoramiento y asistencia a instituciones afganas, con otras operaciones estadounidenses simultáneas. Tono azul más claro por apoyo militar, no soberanía estadounidense ni ocupación uniforme. Retirada y cambio de poder en2021; no se prolonga la relación al cierre de2021.",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme."
+    }
+  ],
+  "institutions": [
+    {
+      "id": "military038-afghanistan-soviet-intervention",
+      "type": "conflict",
+      "title": "Intervención soviética · referencia nacional",
+      "start": "1979-12-27",
+      "end": "1989-02-16",
+      "text": "Gobierno de Kabul sostenido por intervención militar soviética1979–1989. El rojo y las franjas señalan esta relación, no soberanía soviética ni control uniforme del país. Retirada culminada15/02/1989. Contorno nacional de referencia, no frente militar.",
+      "source": "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "defense"
+    },
+    {
+      "id": "military038-afghanistan-soviet-intervention-relation",
+      "type": "conflict",
+      "title": "Intervención soviética · referencia nacional",
+      "start": "1979-12-27",
+      "end": "1989-02-16",
+      "text": "Gobierno de Kabul sostenido por intervención militar soviética1979–1989. El rojo y las franjas señalan esta relación, no soberanía soviética ni control uniforme del país. Retirada culminada15/02/1989. Contorno nacional de referencia, no frente militar.",
+      "source": "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "relations"
+    },
+    {
+      "id": "military038-afghanistan-coalition-2001",
+      "type": "conflict",
+      "title": "Intervención de EE. UU. y coalición",
+      "start": "2001-10-07",
+      "end": "2001-12-22",
+      "text": "Intervención encabezada por EE. UU. desde07/10/2001 y caída del gobierno talibán. Color azul de la potencia principal, no anexión estadounidense ni control homogéneo; no se dibujan frentes locales no contrastados.",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "defense"
+    },
+    {
+      "id": "military038-afghanistan-coalition-2001-relation",
+      "type": "conflict",
+      "title": "Intervención de EE. UU. y coalición",
+      "start": "2001-10-07",
+      "end": "2001-12-22",
+      "text": "Intervención encabezada por EE. UU. desde07/10/2001 y caída del gobierno talibán. Color azul de la potencia principal, no anexión estadounidense ni control homogéneo; no se dibujan frentes locales no contrastados.",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "relations"
+    },
+    {
+      "id": "military038-afghanistan-isaf",
+      "type": "conflict",
+      "title": "Coalición / ISAF · referencia nacional",
+      "start": "2001-12-22",
+      "end": "2015-01-01",
+      "text": "Gobierno afgano con fuerte intervención y apoyo militar internacional. ISAF autorizada por la ONU, dirigida por la OTAN desde11/08/2003; coalición diversa, no ocupación estadounidense exclusiva ni pérdida automática de soberanía afgana. Azul de EE. UU. como actor principal, no atribución exclusiva de ISAF. Seguridad transferida gradualmente2011–2014. Franjas nacionales de referencia, no control local uniforme.",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/isafs-mission-in-afghanistan-2001-2014",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "defense"
+    },
+    {
+      "id": "military038-afghanistan-isaf-relation",
+      "type": "conflict",
+      "title": "Coalición / ISAF · referencia nacional",
+      "start": "2001-12-22",
+      "end": "2015-01-01",
+      "text": "Gobierno afgano con fuerte intervención y apoyo militar internacional. ISAF autorizada por la ONU, dirigida por la OTAN desde11/08/2003; coalición diversa, no ocupación estadounidense exclusiva ni pérdida automática de soberanía afgana. Azul de EE. UU. como actor principal, no atribución exclusiva de ISAF. Seguridad transferida gradualmente2011–2014. Franjas nacionales de referencia, no control local uniforme.",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/isafs-mission-in-afghanistan-2001-2014",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "relations"
+    },
+    {
+      "id": "military038-afghanistan-resolute-support",
+      "type": "conflict",
+      "title": "Apoyo militar internacional · referencia nacional",
+      "start": "2015-01-01",
+      "end": "2021-08-31",
+      "text": "Resolute Support: formación, asesoramiento y asistencia a instituciones afganas, con otras operaciones estadounidenses simultáneas. Tono azul más claro por apoyo militar, no soberanía estadounidense ni ocupación uniforme. Retirada y cambio de poder en2021; no se prolonga la relación al cierre de2021.",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "defense"
+    },
+    {
+      "id": "military038-afghanistan-resolute-support-relation",
+      "type": "conflict",
+      "title": "Apoyo militar internacional · referencia nacional",
+      "start": "2015-01-01",
+      "end": "2021-08-31",
+      "text": "Resolute Support: formación, asesoramiento y asistencia a instituciones afganas, con otras operaciones estadounidenses simultáneas. Tono azul más claro por apoyo militar, no soberanía estadounidense ni ocupación uniforme. Retirada y cambio de poder en2021; no se prolonga la relación al cierre de2021.",
+      "source": "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+      "sourceLabel": "Relación militar fechada",
+      "note": "Referencia documental nacional; ni frente local ni dictamen de control uniforme.",
+      "section": "relations"
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "military038-afghanistan-soviet-intervention",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.17,
+          34.53
+        ]
+      },
+      "properties": {
+        "name": "Intervención soviética · referencia nacional",
+        "countries": [
+          "AFG"
+        ],
+        "kind": "regional-conflict",
+        "start": "1979-12-27",
+        "end": "1989-02-16",
+        "source": "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan",
+        "precision": 11,
+        "sourceLabel": "Referencia nacional de intervención o presencia militar",
+        "note": "Gobierno de Kabul sostenido por intervención militar soviética1979–1989. El rojo y las franjas señalan esta relación, no soberanía soviética ni control uniforme del país. Retirada culminada15/02/1989. Contorno nacional de referencia, no frente militar. Punto de consulta en la capital, no lugar de una batalla concreta."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "military038-afghanistan-coalition-2001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.17,
+          34.53
+        ]
+      },
+      "properties": {
+        "name": "Intervención de EE. UU. y coalición",
+        "countries": [
+          "AFG"
+        ],
+        "kind": "regional-conflict",
+        "start": "2001-10-07",
+        "end": "2001-12-22",
+        "source": "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+        "precision": 11,
+        "sourceLabel": "Referencia nacional de intervención o presencia militar",
+        "note": "Intervención encabezada por EE. UU. desde07/10/2001 y caída del gobierno talibán. Color azul de la potencia principal, no anexión estadounidense ni control homogéneo; no se dibujan frentes locales no contrastados. Punto de consulta en la capital, no lugar de una batalla concreta."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "military038-afghanistan-isaf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.17,
+          34.53
+        ]
+      },
+      "properties": {
+        "name": "Coalición / ISAF · referencia nacional",
+        "countries": [
+          "AFG"
+        ],
+        "kind": "regional-conflict",
+        "start": "2001-12-22",
+        "end": "2015-01-01",
+        "source": "https://www.nato.int/en/what-we-do/operations-and-missions/isafs-mission-in-afghanistan-2001-2014",
+        "precision": 11,
+        "sourceLabel": "Referencia nacional de intervención o presencia militar",
+        "note": "Gobierno afgano con fuerte intervención y apoyo militar internacional. ISAF autorizada por la ONU, dirigida por la OTAN desde11/08/2003; coalición diversa, no ocupación estadounidense exclusiva ni pérdida automática de soberanía afgana. Azul de EE. UU. como actor principal, no atribución exclusiva de ISAF. Seguridad transferida gradualmente2011–2014. Franjas nacionales de referencia, no control local uniforme. Punto de consulta en la capital, no lugar de una batalla concreta."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "military038-afghanistan-resolute-support",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.17,
+          34.53
+        ]
+      },
+      "properties": {
+        "name": "Apoyo militar internacional · referencia nacional",
+        "countries": [
+          "AFG"
+        ],
+        "kind": "regional-conflict",
+        "start": "2015-01-01",
+        "end": "2021-08-31",
+        "source": "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+        "precision": 11,
+        "sourceLabel": "Referencia nacional de intervención o presencia militar",
+        "note": "Resolute Support: formación, asesoramiento y asistencia a instituciones afganas, con otras operaciones estadounidenses simultáneas. Tono azul más claro por apoyo militar, no soberanía estadounidense ni ocupación uniforme. Retirada y cambio de poder en2021; no se prolonga la relación al cierre de2021. Punto de consulta en la capital, no lugar de una batalla concreta."
+      }
+    }
+  ],
+  "sources": [
+    "https://www.icrc.org/en/article/occupation-international-humanitarian-law-questions",
+    "https://docs.un.org/en/S/RES/1483(2003)",
+    "https://docs.un.org/en/S/RES/1546(2004)",
+    "https://www.nato.int/en/what-we-do/operations-and-missions/isafs-mission-in-afghanistan-2001-2014",
+    "https://www.nato.int/en/what-we-do/operations-and-missions/nato-and-afghanistan",
+    "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan",
+    "https://peacekeeping.un.org/sites/default/files/past/ungomap/background.html",
+    "https://www.congress.gov/crs_external_products/R/PDF/R45818/R45818.1.pdf"
+  ],
+  "pending": [
+    "Completar contornos locales de control y frentes con fuentes fechadas; las franjas nacionales de referencia no los sustituyen.",
+    "Irak: documentar por separado operaciones desde2014 y cambios posteriores; no prolongar automáticamente la ocupación."
+  ],
+  "relationReview": [
+    {
+      "original": {
+        "id": "afghanistan-soviet-intervention",
+        "keys": [
+          "AFG"
+        ],
+        "power": "USSR",
+        "start": "1979-12-27",
+        "end": "1989-02-16",
+        "kind": "intervention",
+        "source": "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan",
+        "note": "Gobierno de Kabul sostenido por intervención militar soviética; la tonalidad no representa control efectivo de toda la superficie ni elimina la resistencia afgana.",
+        "withdrawalSource": "https://peacekeeping.un.org/sites/default/files/past/ungomap/background.html"
+      },
+      "decision": "Conservar periodo y fuentes soviéticas, explicitar que no hubo transferencia de soberanía e igualar el criterio de representación con intervenciones occidentales."
+    }
+  ]
+}

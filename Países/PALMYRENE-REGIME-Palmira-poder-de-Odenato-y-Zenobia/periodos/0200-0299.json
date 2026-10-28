@@ -1,0 +1,893 @@
+{
+  "key": "PALMYRENE-REGIME",
+  "identity": {
+    "qid": "Q877875",
+    "name": "Palmira · poder de Odenato y Zenobia"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Palmira · autoridad regional",
+      "officePattern": "King|Ruler|Palmyr|Emperor",
+      "titles": [
+        "Odaenathus",
+        "Vaballathus"
+      ]
+    },
+    {
+      "role": "Reina y regente de Palmira",
+      "officePattern": "Queen|Regent|Empress",
+      "titles": [
+        "Zenobia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q348583",
+      "name": "Septimio Odenato",
+      "role": "Poder regional de Palmira · al servicio de Roma",
+      "start": "0260-01-01",
+      "end": "0267-12-31",
+      "precision": 9,
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "note": "Realeza y mando regional; título de rey de reyes desde aproximadamente263. No se presenta una ruptura con Gallieno ni un Estado independiente desde260.",
+      "portrait": {
+        "file": "media/portrait-f4cb57a7f33619cce36f.jpg",
+        "title": "Lucius Septimius Odaenathus.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Lucius_Septimius_Odaenathus.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Lucius_Septimius_Odaenathus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Published by Guillaume Rouille (1518?-1589)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lucius_Septimius_Odaenathus.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "\"Promptuarii Iconum Insigniorum\"",
+        "sha256": "6cf1a8658baf5ea68eab189ece3e9825dc66b77da03113e03e608929d0fd0cc5",
+        "bytes": 75554,
+        "canonicalFile": "Países/PALMYRENE-REGIME-Palmira-poder-de-Odenato-y-Zenobia/retratos/portrait-f4cb57a7f33619cce36f.jpg",
+        "caption": "Odenato en una ilustración imaginaria del Promptuarii del siglo XVI; no moneda antigua ni retrato contemporáneo."
+      },
+      "authorityClass": "palmyrene-regional"
+    },
+    {
+      "person": "Q507623",
+      "name": "Vabalato",
+      "role": "Gobernante de Palmira bajo la tutela de Zenobia",
+      "start": "0267-01-01",
+      "end": "0272-12-31",
+      "precision": 9,
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "note": "Dignidades heredadas y tutela materna; proclamación imperial formal tardía diferenciada del gobierno regional.",
+      "portrait": {
+        "file": "media/portrait-2c37c792bfdadbb30181.jpg",
+        "title": "AURELIANUS RIC V 381-795833 (reverse).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:AURELIANUS_RIC_V_381-795833_(reverse).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/AURELIANUS_RIC_V_381-795833_%28reverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://www.cngcoins.com/Coin.aspx?CoinID=106917",
+        "sha256": "3287464faee112757f0365c95a3ba9712c362f9277bf7ddcfcf3b74f1ba519dd",
+        "bytes": 58986,
+        "canonicalFile": "Países/PALMYRENE-REGIME-Palmira-poder-de-Odenato-y-Zenobia/retratos/portrait-2c37c792bfdadbb30181.jpg",
+        "caption": "Efigie y leyenda VABALATHVS V C R IM D R en emisión compartida con Aureliano; no se confunde esta cara con la del emperador romano ni el título regional con un augustado previo a272."
+      },
+      "authorityClass": "palmyrene-regional"
+    },
+    {
+      "person": "Q507623",
+      "name": "Vabalato",
+      "role": "Pretensión imperial de Vabalato",
+      "start": "0272-01-01",
+      "end": "0272-12-31",
+      "precision": 9,
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "note": "Fase imperial de272; no se adelanta automáticamente al inicio de su gobierno regional.",
+      "portrait": {
+        "file": "media/portrait-2c37c792bfdadbb30181.jpg",
+        "title": "AURELIANUS RIC V 381-795833 (reverse).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:AURELIANUS_RIC_V_381-795833_(reverse).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/AURELIANUS_RIC_V_381-795833_%28reverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://www.cngcoins.com/Coin.aspx?CoinID=106917",
+        "sha256": "3287464faee112757f0365c95a3ba9712c362f9277bf7ddcfcf3b74f1ba519dd",
+        "bytes": 58986,
+        "canonicalFile": "Países/PALMYRENE-REGIME-Palmira-poder-de-Odenato-y-Zenobia/retratos/portrait-2c37c792bfdadbb30181.jpg",
+        "caption": "Efigie y leyenda VABALATHVS V C R IM D R en emisión compartida con Aureliano; no se confunde esta cara con la del emperador romano ni el título regional con un augustado previo a272."
+      },
+      "authorityClass": "palmyrene-imperial"
+    },
+    {
+      "person": "Q189705",
+      "name": "Zenobia",
+      "role": "Reina y regente de Palmira",
+      "start": "0267-01-01",
+      "end": "0272-12-31",
+      "precision": 9,
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "note": "Tutela de Vabalato y expansión regional. La pretensión imperial formal es posterior; la captura termina el poder en272.",
+      "portrait": {
+        "file": "media/portrait-76b69edabd418f65a29e.jpg",
+        "title": "Herbert Schmalz-Zenobia.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Herbert_Schmalz-Zenobia.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Herbert_Schmalz-Zenobia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Herbert Gustave Schmalz",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Herbert_Schmalz-Zenobia.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[1]",
+        "sha256": "551b0eef3693d9e02979737523e313f99694aa4553c0b863dda3ba6690e4679d",
+        "bytes": 222614,
+        "canonicalFile": "Países/PALMYRENE-REGIME-Palmira-poder-de-Odenato-y-Zenobia/retratos/portrait-76b69edabd418f65a29e.jpg",
+        "caption": "Representación imaginaria posterior de Zenobia; no fotografía ni semejanza del natural acreditada."
+      },
+      "authorityClass": "palmyrene-regional"
+    },
+    {
+      "person": "Q189705",
+      "name": "Zenobia",
+      "role": "Augusta · pretensión imperial",
+      "start": "0272-01-01",
+      "end": "0272-12-31",
+      "precision": 9,
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "note": "Título imperial formal de272 diferenciado de la regencia anterior.",
+      "portrait": {
+        "file": "media/portrait-76b69edabd418f65a29e.jpg",
+        "title": "Herbert Schmalz-Zenobia.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Herbert_Schmalz-Zenobia.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Herbert_Schmalz-Zenobia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Herbert Gustave Schmalz",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Herbert_Schmalz-Zenobia.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[1]",
+        "sha256": "551b0eef3693d9e02979737523e313f99694aa4553c0b863dda3ba6690e4679d",
+        "bytes": 222614,
+        "canonicalFile": "Países/PALMYRENE-REGIME-Palmira-poder-de-Odenato-y-Zenobia/retratos/portrait-76b69edabd418f65a29e.jpg",
+        "caption": "Representación imaginaria posterior de Zenobia; no fotografía ni semejanza del natural acreditada."
+      },
+      "authorityClass": "palmyrene-imperial"
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review038-odaenathus",
+      "type": "institution",
+      "title": "Odenato y el marco romano",
+      "start": "0260-01-01",
+      "end": "0268-01-01",
+      "text": "Poder regional y título de rey de reyes al servicio de Roma; no adelantar una ruptura imperial de Zenobia a todo su mandato.",
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    },
+    {
+      "id": "review038-zenobia",
+      "type": "institution",
+      "title": "Regencia y pretensión imperial de Palmira",
+      "start": "0267-01-01",
+      "end": "0273-01-01",
+      "text": "Zenobia ejerce la regencia y Vabalato el poder regional. Los títulos imperiales formales de272 se distinguen de la situación anterior; el centro documental permite consultar años sin contorno propio.",
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    },
+    {
+      "id": "review038-reconquest",
+      "type": "conflict",
+      "title": "Campaña de Aureliano contra Palmira",
+      "start": "0272-01-01",
+      "end": "0273-01-01",
+      "text": "Restablecimiento del poder imperial; localización regional, sin frente diario reconstruido.",
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 260,
+      "end": 272,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Palmyrene Empire"
+        ],
+        "start": 200,
+        "end": 259,
+        "label": "Palmira · poder de Odenato y Zenobia · referencia regional",
+        "admin": "ROMAN-EMPIRE-CLASSICAL",
+        "status": "client",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Poder regional al servicio de Roma en el intervalo geométrico de la fuente; la pretensión imperial de272 se consulta en la ficha, sin adelantarla a261.",
+        "colorFamily": "ROME"
+      }
+    },
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Palmyrene Empire"
+        ],
+        "start": 260,
+        "end": 272,
+        "label": "Palmira · poder de Odenato y Zenobia",
+        "admin": "ROMAN-EMPIRE-CLASSICAL",
+        "status": "client",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Poder regional al servicio de Roma en el intervalo geométrico de la fuente; la pretensión imperial de272 se consulta en la ficha, sin adelantarla a261.",
+        "colorFamily": "ROME"
+      }
+    },
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Palmyrene Empire"
+        ],
+        "start": 273,
+        "end": 299,
+        "label": "Palmira · poder de Odenato y Zenobia · referencia regional",
+        "admin": "ROMAN-EMPIRE-CLASSICAL",
+        "status": "client",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Poder regional al servicio de Roma en el intervalo geométrico de la fuente; la pretensión imperial de272 se consulta en la ficha, sin adelantarla a261.",
+        "colorFamily": "ROME"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "5cf2dac703a9abac7f86f35ab5c9ebca11b9b7f9441cc9d570d1b78fb570e681",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1365,
+        1372,
+        1378
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Odaenathus",
+        "title": "Odaenathus",
+        "person": "Q348583",
+        "name": "Septimio Odenato",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Odaenathus",
+        "identityResolution": {
+          "requested": "Odaenathus",
+          "canonical": "Odaenathus",
+          "qid": "Q348583"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q348583",
+        "title": "Odaenathus",
+        "source": "https://en.wikipedia.org/wiki/Odaenathus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Kings of the East",
+            "raw": "263–267",
+            "parsed": {
+              "start": "0263-01-01",
+              "end": "0267-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "King of Palmyra",
+            "raw": "260–267",
+            "parsed": {
+              "start": "0260-01-01",
+              "end": "0267-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign3",
+            "office": "''Ras'' (lord) of Palmyra",
+            "raw": "240s–260",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ras of Palmyra",
+            "raw": "240s–260",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Palmyra",
+            "raw": "260–267",
+            "parsed": {
+              "start": "0260-01-01",
+              "end": "0267-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Kings of the East",
+            "raw": "263–267",
+            "parsed": {
+              "start": "0263-01-01",
+              "end": "0267-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vaballathus",
+        "title": "Vaballathus",
+        "person": "Q507623",
+        "name": "Vabalato",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vaballathus",
+        "identityResolution": {
+          "requested": "Vaballathus",
+          "canonical": "Vaballathus",
+          "qid": "Q507623"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q507623",
+        "title": "Vaballathus",
+        "source": "https://en.wikipedia.org/wiki/Vaballathus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Kings of Palmyra",
+            "raw": "267–272 AD",
+            "parsed": {
+              "start": "0267-01-01",
+              "end": "0272-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Emperor of Palmyra",
+            "raw": "272",
+            "parsed": {
+              "start": "0272-01-01",
+              "end": "0272-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zenobia",
+        "title": "Zenobia",
+        "person": "Q189705",
+        "name": "Zenobia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zenobia",
+        "identityResolution": {
+          "requested": "Zenobia",
+          "canonical": "Zenobia",
+          "qid": "Q189705"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q189705",
+        "title": "Zenobia",
+        "source": "https://en.wikipedia.org/wiki/Zenobia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Empress of Palmyra",
+            "raw": "272 AD",
+            "parsed": {
+              "start": "0272-01-01",
+              "end": "0272-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Queen of Egypt",
+            "raw": "270–272",
+            "parsed": {
+              "start": "0270-01-01",
+              "end": "0272-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "Queen mother (regent) of Palmyra",
+            "raw": "267–272",
+            "parsed": {
+              "start": "0267-01-01",
+              "end": "0272-12-31",
+              "precision": 9
+            },
+            "reignType": "Regency"
+          },
+          {
+            "field": "reign3",
+            "office": "Queen consort of Palmyra",
+            "raw": "260–267",
+            "parsed": {
+              "start": "0260-01-01",
+              "end": "0267-12-31",
+              "precision": 9
+            },
+            "reignType": "Tenure"
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 7,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q348583",
+        "title": "Odaenathus",
+        "source": "https://en.wikipedia.org/wiki/Odaenathus",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Kings of the East",
+          "raw": "263–267",
+          "parsed": {
+            "start": "0263-01-01",
+            "end": "0267-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q348583",
+        "title": "Odaenathus",
+        "source": "https://en.wikipedia.org/wiki/Odaenathus",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King of Palmyra",
+          "raw": "260–267",
+          "parsed": {
+            "start": "0260-01-01",
+            "end": "0267-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q507623",
+        "title": "Vaballathus",
+        "source": "https://en.wikipedia.org/wiki/Vaballathus",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Kings of Palmyra",
+          "raw": "267–272 AD",
+          "parsed": {
+            "start": "0267-01-01",
+            "end": "0272-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q507623",
+        "title": "Vaballathus",
+        "source": "https://en.wikipedia.org/wiki/Vaballathus",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "Emperor of Palmyra",
+          "raw": "272",
+          "parsed": {
+            "start": "0272-01-01",
+            "end": "0272-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q189705",
+        "title": "Zenobia",
+        "source": "https://en.wikipedia.org/wiki/Zenobia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Empress of Palmyra",
+          "raw": "272 AD",
+          "parsed": {
+            "start": "0272-01-01",
+            "end": "0272-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q189705",
+        "title": "Zenobia",
+        "source": "https://en.wikipedia.org/wiki/Zenobia",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "Queen of Egypt",
+          "raw": "270–272",
+          "parsed": {
+            "start": "0270-01-01",
+            "end": "0272-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q189705",
+        "title": "Zenobia",
+        "source": "https://en.wikipedia.org/wiki/Zenobia",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "Queen mother (regent) of Palmyra",
+          "raw": "267–272",
+          "parsed": {
+            "start": "0267-01-01",
+            "end": "0272-12-31",
+            "precision": 9
+          },
+          "reignType": "Regency"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "authorityReview": [
+    {
+      "person": "Q348583",
+      "originalRecords": [
+        {
+          "person": "Q348583",
+          "name": "Septimio Odenato",
+          "role": "Gobernante de Palmira · autoridad regional",
+          "start": "0263-01-01",
+          "end": "0267-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Odaenathus",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        },
+        {
+          "person": "Q348583",
+          "name": "Septimio Odenato",
+          "role": "Gobernante de Palmira · autoridad regional",
+          "start": "0260-01-01",
+          "end": "0267-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Odaenathus",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Realeza y mando regional; título de rey de reyes desde aproximadamente263. No se presenta una ruptura con Gallieno ni un Estado independiente desde260.",
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus"
+    },
+    {
+      "person": "Q507623",
+      "originalRecords": [
+        {
+          "person": "Q507623",
+          "name": "Vabalato",
+          "role": "Gobernante de Palmira · autoridad regional",
+          "start": "0267-01-01",
+          "end": "0272-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Vaballathus",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        },
+        {
+          "person": "Q507623",
+          "name": "Vabalato",
+          "role": "Gobernante de Palmira · autoridad regional",
+          "start": "0272-01-01",
+          "end": "0272-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Vaballathus",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Dignidades heredadas y tutela materna; proclamación imperial formal tardía diferenciada del gobierno regional.",
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus"
+    },
+    {
+      "person": "Q189705",
+      "originalRecords": [
+        {
+          "person": "Q189705",
+          "name": "Zenobia",
+          "role": "Reina y regente de Palmira",
+          "start": "0272-01-01",
+          "end": "0272-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Zenobia",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        },
+        {
+          "person": "Q189705",
+          "name": "Zenobia",
+          "role": "Reina y regente de Palmira",
+          "start": "0270-01-01",
+          "end": "0272-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Zenobia",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        },
+        {
+          "person": "Q189705",
+          "name": "Zenobia",
+          "role": "Reina y regente de Palmira",
+          "start": "0267-01-01",
+          "end": "0272-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Zenobia",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Tutela de Vabalato y expansión regional. La pretensión imperial formal es posterior; la captura termina el poder en272.",
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q348583",
+      "name": "Septimio Odenato",
+      "role": "Poder regional de Palmira · al servicio de Roma",
+      "start": "0260-01-01",
+      "end": "0267-12-31",
+      "precision": 9,
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "note": "Realeza y mando regional; título de rey de reyes desde aproximadamente263. No se presenta una ruptura con Gallieno ni un Estado independiente desde260."
+    },
+    {
+      "person": "Q507623",
+      "name": "Vabalato",
+      "role": "Gobernante de Palmira bajo la tutela de Zenobia",
+      "start": "0267-01-01",
+      "end": "0272-12-31",
+      "precision": 9,
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "note": "Dignidades heredadas y tutela materna; proclamación imperial formal tardía diferenciada del gobierno regional."
+    },
+    {
+      "person": "Q507623",
+      "name": "Vabalato",
+      "role": "Pretensión imperial de Vabalato",
+      "start": "0272-01-01",
+      "end": "0272-12-31",
+      "precision": 9,
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "note": "Fase imperial de272; no se adelanta automáticamente al inicio de su gobierno regional."
+    },
+    {
+      "person": "Q189705",
+      "name": "Zenobia",
+      "role": "Reina y regente de Palmira",
+      "start": "0267-01-01",
+      "end": "0272-12-31",
+      "precision": 9,
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "note": "Tutela de Vabalato y expansión regional. La pretensión imperial formal es posterior; la captura termina el poder en272."
+    },
+    {
+      "person": "Q189705",
+      "name": "Zenobia",
+      "role": "Augusta · pretensión imperial",
+      "start": "0272-01-01",
+      "end": "0272-12-31",
+      "precision": 9,
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "note": "Título imperial formal de272 diferenciado de la regencia anterior."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q348583",
+      "name": "Septimio Odenato",
+      "title": "Lucius Septimius Odaenathus.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lucius_Septimius_Odaenathus.jpg",
+      "sha256": "6cf1a8658baf5ea68eab189ece3e9825dc66b77da03113e03e608929d0fd0cc5",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Odenato en una ilustración imaginaria del Promptuarii del siglo XVI; no moneda antigua ni retrato contemporáneo."
+    },
+    {
+      "person": "Q507623",
+      "name": "Vabalato",
+      "title": "AURELIANUS RIC V 381-795833 (reverse).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:AURELIANUS_RIC_V_381-795833_(reverse).jpg",
+      "sha256": "3287464faee112757f0365c95a3ba9712c362f9277bf7ddcfcf3b74f1ba519dd",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie y leyenda VABALATHVS V C R IM D R en emisión compartida con Aureliano; no se confunde esta cara con la del emperador romano ni el título regional con un augustado previo a272."
+    },
+    {
+      "person": "Q189705",
+      "name": "Zenobia",
+      "title": "Herbert Schmalz-Zenobia.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Herbert_Schmalz-Zenobia.jpg",
+      "sha256": "551b0eef3693d9e02979737523e313f99694aa4553c0b863dda3ba6690e4679d",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Zenobia; no fotografía ni semejanza del natural acreditada."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat038-7",
+      "name": "Palmira · poder regional",
+      "coordinates": [
+        38.269,
+        34.55
+      ],
+      "start": 260,
+      "end": 272,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Palmyrene_Empire",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Palmira · poder de Odenato y Zenobia"
+    },
+    {
+      "id": "seat038-7-own",
+      "name": "Palmira · poder regional",
+      "coordinates": [
+        38.269,
+        34.55
+      ],
+      "start": 260,
+      "end": 272,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Palmyrene_Empire",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Palmira · poder de Odenato y Zenobia"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review038-odaenathus",
+      "type": "institution",
+      "title": "Odenato y el marco romano",
+      "start": "0260-01-01",
+      "end": "0268-01-01",
+      "text": "Poder regional y título de rey de reyes al servicio de Roma; no adelantar una ruptura imperial de Zenobia a todo su mandato.",
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    },
+    {
+      "id": "review038-zenobia",
+      "type": "institution",
+      "title": "Regencia y pretensión imperial de Palmira",
+      "start": "0267-01-01",
+      "end": "0273-01-01",
+      "text": "Zenobia ejerce la regencia y Vabalato el poder regional. Los títulos imperiales formales de272 se distinguen de la situación anterior; el centro documental permite consultar años sin contorno propio.",
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    },
+    {
+      "id": "review038-reconquest",
+      "type": "conflict",
+      "title": "Campaña de Aureliano contra Palmira",
+      "start": "0272-01-01",
+      "end": "0273-01-01",
+      "text": "Restablecimiento del poder imperial; localización regional, sin frente diario reconstruido.",
+      "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review038-reconquest",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.269,
+          34.55
+        ]
+      },
+      "properties": {
+        "name": "Campaña de Aureliano contra Palmira",
+        "countries": [
+          "PALMYRENE-REGIME"
+        ],
+        "kind": "regional-conflict",
+        "start": "0272-01-01",
+        "end": "0272-12-31",
+        "precision": 9,
+        "source": "https://archeologie.culture.gouv.fr/palmyre/en/wife-odaenathus",
+        "sourceLabel": "Referencia documental · siglo III",
+        "note": "Restablecimiento del poder imperial; localización regional, sin frente diario reconstruido. Coordenada regional aproximada."
+      }
+    }
+  ]
+}

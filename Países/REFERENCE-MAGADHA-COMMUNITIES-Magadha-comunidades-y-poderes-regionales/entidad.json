@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-MAGADHA-COMMUNITIES",
+  "name": "Magadha · comunidades y poderes regionales",
+  "qid": "",
+  "aliases": [
+    "Magadha",
+    "Magadha · comunidades y poderes regionales"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 20,
+      "start": null,
+      "end": null,
+      "name": "Magadha",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-MAGADHA-COMMUNITIES-Y0200:0",
+      "contextKey": "REFERENCE-MAGADHA-COMMUNITIES",
+      "start": 200,
+      "end": 299,
+      "sourceYear": 200,
+      "canonicalFile": "Países/REFERENCE-MAGADHA-COMMUNITIES-Magadha-comunidades-y-poderes-regionales/poblamiento/REFERENCE-MAGADHA-COMMUNITIES-Y0200.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

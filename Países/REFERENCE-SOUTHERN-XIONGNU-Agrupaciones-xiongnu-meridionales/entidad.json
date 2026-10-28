@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-SOUTHERN-XIONGNU",
+  "name": "Agrupaciones xiongnu meridionales",
+  "qid": "",
+  "aliases": [
+    "Agrupaciones xiongnu meridionales",
+    "Southern Xiongnu"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 152,
+      "start": null,
+      "end": null,
+      "name": "Southern Xiongnu",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-SOUTHERN-XIONGNU-Y0200:0",
+      "contextKey": "REFERENCE-SOUTHERN-XIONGNU",
+      "start": 200,
+      "end": 299,
+      "sourceYear": 200,
+      "canonicalFile": "Países/REFERENCE-SOUTHERN-XIONGNU-Agrupaciones-xiongnu-meridionales/poblamiento/REFERENCE-SOUTHERN-XIONGNU-Y0200.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

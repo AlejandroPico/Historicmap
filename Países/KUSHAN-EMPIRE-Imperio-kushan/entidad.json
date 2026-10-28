@@ -1,0 +1,85 @@
+{
+  "key": "KUSHAN-EMPIRE",
+  "name": "Imperio kushán",
+  "qid": "Q25979",
+  "aliases": [
+    "Imperio kushán"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "KUSHAN-EMPIRE"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1282366",
+      "name": "Vasudeva I",
+      "role": "Gobernante kushán · cronología aproximada",
+      "start": "0200-01-01",
+      "end": "0232-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vasudeva_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Fechas aproximadas y cronologías alternativas; no se afirman años exactos de todos los mandatos.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-200-0.38",
+      "portrait": {
+        "file": "media/portrait-7f212423935adafa98fc.jpg",
+        "title": "Coin of the Kushan king Vasudeva I.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Kushan_king_Vasudeva_I.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Coin_of_the_Kushan_king_Vasudeva_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group;[1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Classical Numismatic Group",
+        "sha256": "be2f960e6dbb99694a3ef1eeece0c29a17f56a7f2a1314d37a72684b4dff735f",
+        "bytes": 89203,
+        "canonicalFile": "Países/KUSHAN-EMPIRE-Imperio-kushan/retratos/portrait-7f212423935adafa98fc.jpg",
+        "caption": "Efigie monetaria convencional de Vasudeva I; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "Q977830",
+      "name": "Kanishka II",
+      "role": "Gobernante kushán · cronología aproximada",
+      "start": "0232-01-01",
+      "end": "0247-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kanishka_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Fechas aproximadas y cronologías alternativas; no se afirman años exactos de todos los mandatos.",
+      "curated": true,
+      "acquisition": "century-200-0.38",
+      "portrait": {
+        "file": "media/portrait-a735d05ac1644dd145e1.jpg",
+        "title": "KanishkaIIObverse.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:KanishkaIIObverse.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/KanishkaIIObverse.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "PHGCOM",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "I, PHGCOM",
+        "attributionRequired": true,
+        "credit": "self-made, photographed at the British Museum",
+        "sha256": "929ad9a37214d91df9d76f577c58941d8ed3f2c70932a11768871a85f67a77ff",
+        "bytes": 190525,
+        "canonicalFile": "Países/KUSHAN-EMPIRE-Imperio-kushan/retratos/portrait-a735d05ac1644dd145e1.jpg",
+        "caption": "Efigie monetaria convencional de Kanishka II; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -58,7 +58,7 @@ function ownIdentityFor(p:Properties,year:number,data:IdentityData,now=new Date(
   const curated=leaders.filter(l=>l.curated);
   const partyOffice=(l:Leader)=>/partido|PCUS|PCCh|SED|secretario general/i.test(l.role);
   const swissOffice=(l:Leader)=>l.authorityClass??(l.office==='Q11811941'?'council-member':l.office==='Q688230'||/Presidente de la Confederación/i.test(l.role)?'annual-presidency':l.person==='Q30917'?'collective':l.role);
-  const sameOffice=(a:Leader,b:Leader)=>key==='CHE'?swissOffice(a)===swissOffice(b):partyOffice(a)===partyOffice(b);
+  const sameOffice=(a:Leader,b:Leader)=>key==='CHE'?swissOffice(a)===swissOffice(b):a.authorityClass||b.authorityClass?a.authorityClass===b.authorityClass:partyOffice(a)===partyOffice(b);
   // A renewal on a shared handover date is a separate mandate. Source date
   // intervals may include that day at both ends; do not collapse the renewal.
   const overlaps=(a:Leader,b:Leader)=>(a.start<b.end&&b.start<a.end)||(a.start===b.start&&a.end===b.end);

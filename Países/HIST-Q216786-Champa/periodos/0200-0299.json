@@ -1,0 +1,210 @@
+{
+  "key": "HIST-Q216786",
+  "identity": {
+    "qid": "Q216786",
+    "name": "Chámpa"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Lâm Ấp / Champa",
+      "officePattern": "King|Champa|Lâm",
+      "titles": [
+        "Khu Liên",
+        "Fan Hsiung",
+        "Fan Yi (Champa)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q5433548",
+      "name": "Fan Hsiung",
+      "role": "Gobernante de Lâm Ấp / Champa",
+      "start": "0270-01-01",
+      "end": "0284-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_H%C3%B9ng_%28L%C3%A2m_%E1%BA%A4p%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_H%C3%B9ng_%28L%C3%A2m_%E1%BA%A4p%29",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chámpa"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Chámpa",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "6b20a30e9add6352bc573cd7caebf069c6472cdd41600c74a3006f6641919c36",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1304
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Fan Hsiung",
+        "title": "Fan Hsiung",
+        "person": "Q5433548",
+        "name": "Fan Hsiung",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_H%C3%B9ng_%28L%C3%A2m_%E1%BA%A4p%29",
+        "identityResolution": {
+          "requested": "Fan Hsiung",
+          "canonical": "Phạm Hùng (Lâm Ấp)",
+          "qid": "Q5433548"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q2619239",
+          "start": "0270-01-01",
+          "end": "0284-01-01",
+          "precision": 9,
+          "statement": "Q5433548$087F1ACF-05B0-42B2-91E6-1389FA2A57D1",
+          "label": "King of Champa"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5433548",
+        "title": "Phạm Hùng (Lâm Ấp)",
+        "source": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_H%C3%B9ng_%28L%C3%A2m_%E1%BA%A4p%29",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Fan Yi (Champa)",
+        "title": "Fan Yi (Champa)",
+        "person": "",
+        "name": "Fan Yi (Champa)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Fan_Yi_%28Champa%29",
+        "identityResolution": {
+          "requested": "Fan Yi (Champa)",
+          "canonical": "Fan Yi (Champa)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Khu Liên",
+        "title": "Khu Liên",
+        "person": "Q1054481",
+        "name": "Sri Mara",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khu_Li%C3%AAn",
+        "identityResolution": {
+          "requested": "Khu Liên",
+          "canonical": "Khu Liên",
+          "qid": "Q1054481"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1054481",
+        "title": "Khu Liên",
+        "source": "https://en.wikipedia.org/wiki/Khu_Li%C3%AAn",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Champa (Lâm Ấp)",
+            "raw": "192 <small>CE</small>",
+            "parsed": {
+              "start": "0192-01-01",
+              "end": "0192-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Champa",
+            "raw": "192 CE&ndash;?",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q5433548",
+        "title": "Fan Hsiung",
+        "source": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_H%C3%B9ng_%28L%C3%A2m_%E1%BA%A4p%29",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q2619239",
+          "start": "0270-01-01",
+          "end": "0284-01-01",
+          "precision": 9,
+          "statement": "Q5433548$087F1ACF-05B0-42B2-91E6-1389FA2A57D1",
+          "label": "King of Champa"
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Fan Yi (Champa)",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  }
+}

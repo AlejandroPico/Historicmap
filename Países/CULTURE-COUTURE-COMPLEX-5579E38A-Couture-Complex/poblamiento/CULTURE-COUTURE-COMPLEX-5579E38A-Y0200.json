@@ -1,0 +1,81 @@
+{
+  "key": "CULTURE-COUTURE-COMPLEX-5579E38A-Y0200",
+  "contextKey": "CULTURE-COUTURE-COMPLEX-5579E38A",
+  "ownerKey": "CULTURE-COUTURE-COMPLEX-5579E38A",
+  "name": "Couture Complex",
+  "originalNames": [
+    "Couture Complex"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 200",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    200,
+    299
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea200 contiene etiquetas de épocas distintas. La ventana200–299 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -83.34616,
+    42.32926
+  ],
+  "phases": [
+    {
+      "start": 200,
+      "end": 299,
+      "label": "Couture Complex",
+      "dateBasis": "Referencia regional de la fuente editorial200; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-COUTURE-COMPLEX-5579E38A-Y0200.geojson",
+  "geometrySha256": "62d719b9ab2ce376bc2570ed1aae52bba8e4f0ef632a874ef8ad43f2c1f4db16",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson",
+    "year": 200,
+    "featureIds": [
+      196
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7"
+  },
+  "review": "0.38.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final299 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en300."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Couture Complex",
+      "ABBREVN": "Couture Complex",
+      "SUBJECTO": "Couture Complex",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Couture Complex"
+    }
+  ],
+  "sourceGrouping": [
+    "Couture Complex"
+  ]
+}

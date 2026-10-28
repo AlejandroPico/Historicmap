@@ -1,0 +1,63 @@
+{
+  "key": "CULTURE-BOSPORIAN-KINGDOM-58DC1F05-Y0200",
+  "contextKey": "CULTURE-BOSPORIAN-KINGDOM-58DC1F05",
+  "ownerKey": "HIST-Q321371",
+  "name": "Bosporian Kingdom",
+  "originalNames": [
+    "Bosporian Kingdom"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 200",
+  "decision": "political-base",
+  "reviewedRange": [
+    200,
+    299
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea200 contiene etiquetas de épocas distintas. La ventana200–299 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q321371"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    34.95827,
+    44.96868
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-BOSPORIAN-KINGDOM-58DC1F05-Y0200.geojson",
+  "geometrySha256": "696e1968ce5ade7e90371735d2716e6b9c0cb44d307c1923c82b17e540055a29",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson",
+    "year": 200,
+    "featureIds": [
+      155
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7"
+  },
+  "review": "0.38.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final299 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en300."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Bosporian Kingdom",
+      "ABBREVN": "Rome",
+      "SUBJECTO": "Roman Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Bosporian Kingdom"
+    }
+  ],
+  "sourceGrouping": [
+    "Roman Empire"
+  ]
+}

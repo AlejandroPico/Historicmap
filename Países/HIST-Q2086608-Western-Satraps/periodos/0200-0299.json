@@ -1,0 +1,526 @@
+{
+  "key": "HIST-Q2086608",
+  "identity": {
+    "qid": "Q2086608",
+    "name": "Western Satraps"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Sátrapa occidental · poder regional",
+      "officePattern": "Satrap|Ruler|King",
+      "titles": [
+        "Rudrasena I (Western Satrap)",
+        "Damajadasri II",
+        "Sanghadaman",
+        "Damasena",
+        "Yasodaman I",
+        "Vijayasena",
+        "Damajadasri III",
+        "Rudrasena II",
+        "Visvasimha",
+        "Bhartrdaman"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q48728034",
+      "name": "Damasena",
+      "role": "Sátrapa occidental · poder regional",
+      "start": "0223-01-01",
+      "end": "0232-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Damasena",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q16969268",
+      "name": "Vijayasena",
+      "role": "Sátrapa occidental · poder regional",
+      "start": "0238-01-01",
+      "end": "0250-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vijayasena",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-8060d5dbb882cd7e8757.jpg",
+        "title": "Coinage of Vijayasena (c).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coinage_of_Vijayasena_(c).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Coinage_of_Vijayasena_%28c%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CNG Coins Coin from CNG coins. Used with permission (CNG coin [1]).  Coin [2]",
+        "sha256": "b413f28f2714da7df91ae5d2838f45ef630a3be6dcb92ceb87610cc4ce9bfca5",
+        "bytes": 184099,
+        "canonicalFile": "Países/HIST-Q2086608-Western-Satraps/retratos/portrait-8060d5dbb882cd7e8757.jpg",
+        "caption": "Efigie monetaria convencional de Vijayasena; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "Q4901328",
+      "name": "Bhartrdaman",
+      "role": "Sátrapa occidental · poder regional",
+      "start": "0278-01-01",
+      "end": "0295-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bhartrdaman",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-e1f4a157b41156028880.jpg",
+        "title": "Silver coin of Bhartrdaman.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Silver_coin_of_Bhartrdaman.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Silver_coin_of_Bhartrdaman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Rani nurmai",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://coinindia.com/galleries-bhartrdaman.html",
+        "sha256": "5621b31c270546dc2ae47f315d27dab9b79e51c98e3537b5dea060128855a618",
+        "bytes": 83985,
+        "canonicalFile": "Países/HIST-Q2086608-Western-Satraps/retratos/portrait-e1f4a157b41156028880.jpg",
+        "caption": "Efigie monetaria convencional de Bhartrdaman; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Damasena",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Satraps"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Western Satraps",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "35f033ce5ec952db0bb6f0b7ae18b4e0c4fd6a79afbd9a33eb2a04cdf3642f67",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1290,
+        1319,
+        1333,
+        1356,
+        1380
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bhartrdaman",
+        "title": "Bhartrdaman",
+        "person": "Q4901328",
+        "name": "Bhartrdaman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bhartrdaman",
+        "identityResolution": {
+          "requested": "Bhartrdaman",
+          "canonical": "Bhartrdaman",
+          "qid": "Q4901328"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4901328",
+        "title": "Bhartrdaman",
+        "source": "https://en.wikipedia.org/wiki/Bhartrdaman",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Western Satrap king",
+            "raw": "278-295 CE",
+            "parsed": {
+              "start": "0278-01-01",
+              "end": "0295-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Damajadasri II",
+        "title": "Damajadasri II",
+        "person": "",
+        "name": "Damajadasri II",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Damajadasri_II",
+        "identityResolution": {
+          "requested": "Damajadasri II",
+          "canonical": "Damajadasri II",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Damajadasri III",
+        "title": "Damajadasri III",
+        "person": "Q60788585",
+        "name": "Damajadasri III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Damajadasri_III",
+        "identityResolution": {
+          "requested": "Damajadasri III",
+          "canonical": "Damajadasri III",
+          "qid": "Q60788585"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q60788585",
+        "title": "Damajadasri III",
+        "source": "https://en.wikipedia.org/wiki/Damajadasri_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "251–256",
+            "parsed": {
+              "start": "0251-01-01",
+              "end": "0256-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Damasena",
+        "title": "Damasena",
+        "person": "Q48728034",
+        "name": "Damasena",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Damasena",
+        "identityResolution": {
+          "requested": "Damasena",
+          "canonical": "Damasena",
+          "qid": "Q48728034"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q48728034",
+        "title": "Damasena",
+        "source": "https://en.wikipedia.org/wiki/Damasena",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Western Satrap king",
+            "raw": "223-232 CE",
+            "parsed": {
+              "start": "0223-01-01",
+              "end": "0232-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rudrasena I (Western Satrap)",
+        "title": "Rudrasena I (Western Satrap)",
+        "person": "",
+        "name": "Rudrasena I (Western Satrap)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Rudrasena_I_%28Western_Satrap%29",
+        "identityResolution": {
+          "requested": "Rudrasena I (Western Satrap)",
+          "canonical": "Rudrasena I (Western Satrap)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rudrasena II",
+        "title": "Rudrasena II",
+        "person": "Q27642064",
+        "name": "Rudrasena II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rudrasena_II",
+        "identityResolution": {
+          "requested": "Rudrasena II",
+          "canonical": "Rudrasena II",
+          "qid": "Q27642064"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q27642064",
+        "title": "Rudrasena II",
+        "source": "https://en.wikipedia.org/wiki/Rudrasena_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Vakataka king of Nandivardhana-Pravarapura",
+            "raw": "c. 385 – 390 CE",
+            "parsed": {
+              "start": "0385-01-01",
+              "end": "0390-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sanghadaman",
+        "title": "Sanghadaman",
+        "person": "",
+        "name": "Sanghadaman",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Sanghadaman",
+        "identityResolution": {
+          "requested": "Sanghadaman",
+          "canonical": "Sanghadaman",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vijayasena",
+        "title": "Vijayasena",
+        "person": "Q16969268",
+        "name": "Vijayasena",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vijayasena",
+        "identityResolution": {
+          "requested": "Vijayasena",
+          "canonical": "Vijayasena",
+          "qid": "Q16969268"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16969268",
+        "title": "Vijayasena",
+        "source": "https://en.wikipedia.org/wiki/Vijayasena",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Western Satrap king",
+            "raw": "238-250 CE",
+            "parsed": {
+              "start": "0238-01-01",
+              "end": "0250-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Visvasimha",
+        "title": "Visvasimha",
+        "person": "",
+        "name": "Visvasimha",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Visvasimha",
+        "identityResolution": {
+          "requested": "Visvasimha",
+          "canonical": "Visvasimha",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yasodaman I",
+        "title": "Yasodaman I",
+        "person": "",
+        "name": "Yasodaman I",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Yasodaman_I",
+        "identityResolution": {
+          "requested": "Yasodaman I",
+          "canonical": "Yasodaman I",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q48728034",
+        "title": "Damasena",
+        "source": "https://en.wikipedia.org/wiki/Damasena",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Western Satrap king",
+          "raw": "223-232 CE",
+          "parsed": {
+            "start": "0223-01-01",
+            "end": "0232-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q16969268",
+        "title": "Vijayasena",
+        "source": "https://en.wikipedia.org/wiki/Vijayasena",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Western Satrap king",
+          "raw": "238-250 CE",
+          "parsed": {
+            "start": "0238-01-01",
+            "end": "0250-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q4901328",
+        "title": "Bhartrdaman",
+        "source": "https://en.wikipedia.org/wiki/Bhartrdaman",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Western Satrap king",
+          "raw": "278-295 CE",
+          "parsed": {
+            "start": "0278-01-01",
+            "end": "0295-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Rudrasena I (Western Satrap)",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Damajadasri II",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Sanghadaman",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Yasodaman I",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Damajadasri III",
+        "person": "Q60788585",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Visvasimha",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "mediaReview": [
+    {
+      "person": "Q16969268",
+      "name": "Vijayasena",
+      "title": "Coinage of Vijayasena (c).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Coinage_of_Vijayasena_(c).jpg",
+      "sha256": "b413f28f2714da7df91ae5d2838f45ef630a3be6dcb92ceb87610cc4ce9bfca5",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Vijayasena; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    },
+    {
+      "person": "Q4901328",
+      "name": "Bhartrdaman",
+      "title": "Silver coin of Bhartrdaman.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Silver_coin_of_Bhartrdaman.jpg",
+      "sha256": "5621b31c270546dc2ae47f315d27dab9b79e51c98e3537b5dea060128855a618",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Bhartrdaman; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    }
+  ]
+}

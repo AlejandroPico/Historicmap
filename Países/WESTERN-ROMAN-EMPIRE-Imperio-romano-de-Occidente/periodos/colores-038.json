@@ -1,0 +1,82 @@
+{
+  "key": "WESTERN-ROMAN-EMPIRE",
+  "revision": "0.38.0",
+  "acquisition": "colour-continuity-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 2026,
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Roman Empire"
+        ],
+        "start": 395,
+        "end": 399,
+        "label": "Imperio romano de Occidente",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año. Convención cromática romana continua; el cambio de tanda de revisión no representa cambio de régimen.",
+        "colorFamily": "ROME"
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Roman Empire"
+        ],
+        "start": 300,
+        "end": 394,
+        "label": "Imperio romano de Occidente · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme. Convención cromática romana continua; el cambio de tanda de revisión no representa cambio de régimen.",
+        "colorFamily": "ROME"
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Roman Empire"
+        ],
+        "start": 477,
+        "end": 499,
+        "label": "Imperio romano de Occidente · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías. Convención cromática romana continua; el cambio de tanda de revisión no representa cambio de régimen.",
+        "colorFamily": "ROME"
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Roman Empire"
+        ],
+        "start": 400,
+        "end": 476,
+        "label": "Imperio romano de Occidente",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año. Convención cromática romana continua; el cambio de tanda de revisión no representa cambio de régimen.",
+        "colorFamily": "ROME"
+      }
+    }
+  ],
+  "note": "Familias cromáticas editoriales, no colores nacionales oficiales. Occidente púrpura rojizo, Oriente violeta; ninguna ruptura cromática en399/400."
+}

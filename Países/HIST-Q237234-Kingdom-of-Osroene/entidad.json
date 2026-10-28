@@ -1,0 +1,43 @@
+{
+  "key": "HIST-Q237234",
+  "name": "Kingdom of Osroene",
+  "qid": "Q237234",
+  "aliases": [
+    "Kingdom of Osroene"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q237234"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1287",
+      "start": 200,
+      "end": 206,
+      "name": "Kingdom of Osroene",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1315",
+      "start": 207,
+      "end": 214,
+      "name": "Kingdom of Osroene",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -15,6 +15,60 @@
   "symbolReferences": [],
   "leaders": [
     {
+      "person": "Q2689762",
+      "name": "Cosroes I de Armenia",
+      "role": "Rey de Armenia",
+      "start": "0200-01-01",
+      "end": "0216-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khosrov_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-200-0.38"
+    },
+    {
+      "person": "Q2546020",
+      "name": "Tirídates II de Armenia",
+      "role": "Rey de Armenia",
+      "start": "0217-01-01",
+      "end": "0252-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tiridates_II_of_Armenia",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-200-0.38"
+    },
+    {
+      "person": "Q172520",
+      "name": "Tiridates III de Armenia",
+      "role": "Rey de Armenia",
+      "start": "0298-01-01",
+      "end": "0299-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tiridates_III_of_Armenia",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-200-0.38",
+      "portrait": {
+        "file": "media/portrait-fa76391a397878f0bebf.jpg",
+        "title": "Tiridates III illustration.jpeg",
+        "url": "https://commons.wikimedia.org/wiki/File:Tiridates_III_illustration.jpeg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Tiridates_III_illustration.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Gaidzakian, Ohan, 1837-1914",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tiridates_III_illustration.jpeg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://archive.org/details/illustratedarmen00gaidrich",
+        "sha256": "e90cd7ffaa0a69f3ead919c852ae0ef0b37f73ad2c3bb36609c6e7851494559f",
+        "bytes": 352768,
+        "canonicalFile": "Países/HIST-Q208404-Kingdom-of-Armenia/retratos/portrait-fa76391a397878f0bebf.jpg",
+        "caption": "Representación imaginaria posterior de Tiridates III de Armenia; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
       "person": "Q172520",
       "name": "Tiridates III de Armenia",
       "role": "Rey de Armenia",
@@ -392,9 +446,32 @@
       "end": 395,
       "name": "Kingdom of Armenia",
       "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1281",
+      "start": 200,
+      "end": 259,
+      "name": "Kingdom of Armenia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-200.geojson",
+      "recordId": "clio-1403",
+      "start": 287,
+      "end": 299,
+      "name": "Kingdom of Armenia",
+      "status": "Entidad histórica · reconstrucción anual"
     }
   ],
   "culturalReviews": [
+    {
+      "key": "CULTURE-ARMENIA-2DDC5634-Y0200",
+      "ownerKey": "HIST-Q208404",
+      "name": "Armenia",
+      "file": "Países/HIST-Q208404-Kingdom-of-Armenia/poblamiento/CULTURE-ARMENIA-2DDC5634-Y0200.json",
+      "decision": "political-base"
+    },
     {
       "key": "CULTURE-ARMENIA-2DDC5634-Y0300",
       "ownerKey": "HIST-Q208404",

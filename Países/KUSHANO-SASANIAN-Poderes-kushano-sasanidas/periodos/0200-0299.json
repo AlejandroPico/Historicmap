@@ -1,0 +1,458 @@
+{
+  "key": "KUSHANO-SASANIAN",
+  "identity": {
+    "qid": "Q1661685",
+    "name": "Poderes kushano-sasánidas"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Kushanshah · poder regional",
+      "officePattern": "Kushanshah|King",
+      "titles": [
+        "Ardashir I Kushanshah",
+        "Ardashir II Kushanshah",
+        "Peroz I Kushanshah",
+        "Hormizd I Kushanshah",
+        "Hormizd II Kushanshah"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q48996488",
+      "name": "Ardashir I Kushanshah",
+      "role": "Kushanshah · poder regional",
+      "start": "0233-01-01",
+      "end": "0245-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ardashir_I_Kushanshah",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Fechas aproximadas y cronologías alternativas; no se afirman años exactos de todos los mandatos.",
+      "portrait": {
+        "file": "media/portrait-5d5bc8b3524e14c39b70.jpg",
+        "title": "Coin of Ardashir Kushanshah, Marw mint.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coin_of_Ardashir_Kushanshah,_Marw_mint.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Coin_of_Ardashir_Kushanshah%2C_Marw_mint.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group; [1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "https://www.cngcoins.com/Coin.aspx?CoinID=167357",
+        "sha256": "f5a368125a93c97a778c9423b34ff9c4c62fc9a61a54b5cb4f5b6de8ce8843f1",
+        "bytes": 229152,
+        "canonicalFile": "Países/KUSHANO-SASANIAN-Poderes-kushano-sasanidas/retratos/portrait-5d5bc8b3524e14c39b70.jpg",
+        "caption": "Efigie monetaria convencional de Ardashir I Kushanshah; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "Q55648490",
+      "name": "Peroz I Kushanshah",
+      "role": "Kushanshah · poder regional",
+      "start": "0245-01-01",
+      "end": "0275-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Peroz_I_Kushanshah",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Fechas aproximadas y cronologías alternativas; no se afirman años exactos de todos los mandatos.",
+      "portrait": {
+        "file": "media/portrait-05beee65f43c66be0c17.jpg",
+        "title": "Extremely rare coin of Peroz I Kushanshah.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Extremely_rare_coin_of_Peroz_I_Kushanshah.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Extremely_rare_coin_of_Peroz_I_Kushanshah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group; [1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "https://www.cngcoins.com/Coin.aspx?CoinID=371648",
+        "sha256": "1a86bd8f7412dbdc3f069d6a7aa40aa40a365c2dd96b3e221cf79f35dca71b06",
+        "bytes": 118169,
+        "canonicalFile": "Países/KUSHANO-SASANIAN-Poderes-kushano-sasanidas/retratos/portrait-05beee65f43c66be0c17.jpg",
+        "caption": "Efigie monetaria convencional de Peroz I Kushanshah; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "Q48996486",
+      "name": "Hormizd I Kushanshah",
+      "role": "Kushanshah · poder regional",
+      "start": "0275-01-01",
+      "end": "0299-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hormizd_I_Kushanshah",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Fechas aproximadas y cronologías alternativas; no se afirman años exactos de todos los mandatos.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Ardashir_I_Kushanshah",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Indo-Sasanian Empire"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Poderes kushano-sasánidas",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "2935adf22b3ba11e257f4cb63d19fef68b7f2ba2bb77627ad4e2e11e68d98557",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1358,
+        1395
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ardashir I Kushanshah",
+        "title": "Ardashir I Kushanshah",
+        "person": "Q48996488",
+        "name": "Ardashir I Kushanshah",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ardashir_I_Kushanshah",
+        "identityResolution": {
+          "requested": "Ardashir I Kushanshah",
+          "canonical": "Ardashir I Kushanshah",
+          "qid": "Q48996488"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q48996488",
+        "title": "Ardashir I Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Ardashir_I_Kushanshah",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "233–245",
+            "parsed": {
+              "start": "0233-01-01",
+              "end": "0245-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "233–245",
+            "parsed": {
+              "start": "0233-01-01",
+              "end": "0245-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ardashir II Kushanshah",
+        "title": "Ardashir II Kushanshah",
+        "person": "Q48996488",
+        "name": "Ardashir I Kushanshah",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ardashir_I_Kushanshah",
+        "identityResolution": {
+          "requested": "Ardashir II Kushanshah",
+          "canonical": "Ardashir I Kushanshah",
+          "qid": "Q48996488"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q48996488",
+        "title": "Ardashir I Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Ardashir_I_Kushanshah",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "233–245",
+            "parsed": {
+              "start": "0233-01-01",
+              "end": "0245-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "233–245",
+            "parsed": {
+              "start": "0233-01-01",
+              "end": "0245-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hormizd I Kushanshah",
+        "title": "Hormizd I Kushanshah",
+        "person": "Q48996486",
+        "name": "Hormizd I Kushanshah",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hormizd_I_Kushanshah",
+        "identityResolution": {
+          "requested": "Hormizd I Kushanshah",
+          "canonical": "Hormizd I Kushanshah",
+          "qid": "Q48996486"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q48996486",
+        "title": "Hormizd I Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Hormizd_I_Kushanshah",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "275–300",
+            "parsed": {
+              "start": "0275-01-01",
+              "end": "0300-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "275–300",
+            "parsed": {
+              "start": "0275-01-01",
+              "end": "0300-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hormizd II Kushanshah",
+        "title": "Hormizd II Kushanshah",
+        "person": "Q39046898",
+        "name": "Hormizd II Kushanshah",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hormizd_II_Kushanshah",
+        "identityResolution": {
+          "requested": "Hormizd II Kushanshah",
+          "canonical": "Hormizd II Kushanshah",
+          "qid": "Q39046898"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q39046898",
+        "title": "Hormizd II Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Hormizd_II_Kushanshah",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "300–303",
+            "parsed": {
+              "start": "0300-01-01",
+              "end": "0303-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "300–303",
+            "parsed": {
+              "start": "0300-01-01",
+              "end": "0303-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Peroz I Kushanshah",
+        "title": "Peroz I Kushanshah",
+        "person": "Q55648490",
+        "name": "Peroz I Kushanshah",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Peroz_I_Kushanshah",
+        "identityResolution": {
+          "requested": "Peroz I Kushanshah",
+          "canonical": "Peroz I Kushanshah",
+          "qid": "Q55648490"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q55648490",
+        "title": "Peroz I Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Peroz_I_Kushanshah",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "245–275",
+            "parsed": {
+              "start": "0245-01-01",
+              "end": "0275-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "245–275",
+            "parsed": {
+              "start": "0245-01-01",
+              "end": "0275-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q48996488",
+        "title": "Ardashir I Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Ardashir_I_Kushanshah",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+          "raw": "233–245",
+          "parsed": {
+            "start": "0233-01-01",
+            "end": "0245-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q55648490",
+        "title": "Peroz I Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Peroz_I_Kushanshah",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+          "raw": "245–275",
+          "parsed": {
+            "start": "0245-01-01",
+            "end": "0275-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q48996486",
+        "title": "Hormizd I Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Hormizd_I_Kushanshah",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+          "raw": "275–300",
+          "parsed": {
+            "start": "0275-01-01",
+            "end": "0300-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "mediaReview": [
+    {
+      "person": "Q48996488",
+      "name": "Ardashir I Kushanshah",
+      "title": "Coin of Ardashir Kushanshah, Marw mint.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Coin_of_Ardashir_Kushanshah,_Marw_mint.jpg",
+      "sha256": "f5a368125a93c97a778c9423b34ff9c4c62fc9a61a54b5cb4f5b6de8ce8843f1",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Ardashir I Kushanshah; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    },
+    {
+      "person": "Q55648490",
+      "name": "Peroz I Kushanshah",
+      "title": "Extremely rare coin of Peroz I Kushanshah.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Extremely_rare_coin_of_Peroz_I_Kushanshah.jpg",
+      "sha256": "1a86bd8f7412dbdc3f069d6a7aa40aa40a365c2dd96b3e221cf79f35dca71b06",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Peroz I Kushanshah; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    }
+  ]
+}

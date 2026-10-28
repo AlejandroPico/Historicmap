@@ -1,0 +1,63 @@
+{
+  "key": "CULTURE-AXUM-744D7285-Y0200",
+  "contextKey": "CULTURE-AXUM-744D7285",
+  "ownerKey": "HIST-Q139377",
+  "name": "Axum",
+  "originalNames": [
+    "Axum"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 200",
+  "decision": "political-base",
+  "reviewedRange": [
+    200,
+    299
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea200 contiene etiquetas de épocas distintas. La ventana200–299 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q139377"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    40.10635,
+    14.27835
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-AXUM-744D7285-Y0200.geojson",
+  "geometrySha256": "edc6f628b18a6b979c9b69a5619b5a6a452cddd3e2d5479aa65253020a4c27d8",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson",
+    "year": 200,
+    "featureIds": [
+      129
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7"
+  },
+  "review": "0.38.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final299 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en300."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Axum",
+      "ABBREVN": "Axum",
+      "SUBJECTO": "Axum",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Axum"
+    }
+  ],
+  "sourceGrouping": [
+    "Axum"
+  ]
+}

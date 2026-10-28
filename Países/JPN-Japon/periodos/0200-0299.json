@@ -1,0 +1,254 @@
+{
+  "key": "JPN",
+  "identity": {
+    "qid": "Q17",
+    "name": "Yamato · tradición de la corte"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Autoridad de Yamato · tradición imperial",
+      "officePattern": "Emperor.*Japan|Empress.*Japan|Regent",
+      "titles": [
+        "Emperor Chūai",
+        "Empress Jingū",
+        "Emperor Ōjin"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q179971",
+      "name": "Emperador Chūai",
+      "role": "Autoridad de Yamato · tradición imperial",
+      "start": "0200-01-01",
+      "end": "0200-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ch%C5%ABai",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Cronología temprana o testimonio de tradición/epigrafía; no serie continua inventada.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review038-yamato",
+      "type": "institution",
+      "title": "Tradición imperial temprana de Japón",
+      "start": "0200-01-01",
+      "end": "0300-01-01",
+      "text": "Las listas retrospectivas de Yamato tienen cronología discutida. Su centro regional no fija una capital exclusiva ni fronteras nacionales.",
+      "source": "https://www.metmuseum.org/toah/ht/05/eaj.html",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ch%C5%ABai",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Chūai",
+        "title": "Emperor Chūai",
+        "person": "Q179971",
+        "name": "Emperador Chūai",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ch%C5%ABai",
+        "identityResolution": {
+          "requested": "Emperor Chūai",
+          "canonical": "Emperor Chūai",
+          "qid": "Q179971"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q208233",
+          "start": "0192-01-01",
+          "end": "0200-01-01",
+          "precision": 9,
+          "statement": "q179971$889d7b68-4988-d2e4-23da-b7a8d0acdf29",
+          "label": "emperador de Japón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q179971",
+        "title": "Emperor Chūai",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ch%C5%ABai",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Japan",
+            "raw": "192–200 (traditional)<ref>{{cite web|archiveurl=https://web.archive.org/web/20110322210732/http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|archivedate=March 22, 2011|url=http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|title=Genealogy of the Emperors of Japan|work=Kunaicho.go.jp|access-date=August 2, 2019}}</ref>",
+            "parsed": {
+              "start": "0192-01-01",
+              "end": "0200-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Legendary Emperor of Japan",
+            "raw": "192–200",
+            "parsed": {
+              "start": "0192-01-01",
+              "end": "0200-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Legendary Emperor of Japan",
+            "raw": "''(traditional dates)''",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Ōjin",
+        "title": "Emperor Ōjin",
+        "person": "Q317997",
+        "name": "Emperador Ōjin",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Emperor_%C5%8Cjin",
+        "identityResolution": {
+          "requested": "Emperor Ōjin",
+          "canonical": "Emperor Ōjin",
+          "qid": "Q317997"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Empress Jingū",
+        "title": "Empress Jingū",
+        "person": "Q232803",
+        "name": "Emperatriz Consorte Jingū",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Empress_Jing%C5%AB",
+        "identityResolution": {
+          "requested": "Empress Jingū",
+          "canonical": "Empress Jingū",
+          "qid": "Q232803"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q179971",
+        "title": "Emperor Chūai",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ch%C5%ABai",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Japan",
+          "raw": "192–200 (traditional)<ref>{{cite web|archiveurl=https://web.archive.org/web/20110322210732/http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|archivedate=March 22, 2011|url=http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|title=Genealogy of the Emperors of Japan|work=Kunaicho.go.jp|access-date=August 2, 2019}}</ref>",
+          "parsed": {
+            "start": "0192-01-01",
+            "end": "0200-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Empress Jingū",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Emperor Ōjin",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat038-26",
+      "name": "Yamato · región de cortes",
+      "coordinates": [
+        135.82,
+        34.47
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Yamato_period",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Yamato · tradición de la corte"
+    },
+    {
+      "id": "seat038-26-own",
+      "name": "Yamato · región de cortes",
+      "coordinates": [
+        135.82,
+        34.47
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Yamato_period",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Yamato · tradición de la corte"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review038-yamato",
+      "type": "institution",
+      "title": "Tradición imperial temprana de Japón",
+      "start": "0200-01-01",
+      "end": "0300-01-01",
+      "text": "Las listas retrospectivas de Yamato tienen cronología discutida. Su centro regional no fija una capital exclusiva ni fronteras nacionales.",
+      "source": "https://www.metmuseum.org/toah/ht/05/eaj.html",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ]
+}

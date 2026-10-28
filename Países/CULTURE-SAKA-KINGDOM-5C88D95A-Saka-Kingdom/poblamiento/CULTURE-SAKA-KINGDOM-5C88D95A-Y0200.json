@@ -1,0 +1,73 @@
+{
+  "key": "CULTURE-SAKA-KINGDOM-5C88D95A-Y0200",
+  "contextKey": "CULTURE-SAKA-KINGDOM-5C88D95A",
+  "ownerKey": "CULTURE-SAKA-KINGDOM-5C88D95A",
+  "name": "Saka Kingdom",
+  "originalNames": [
+    "Saka Kingdom"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 200",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    200,
+    299
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea200 contiene etiquetas de épocas distintas. La ventana200–299 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    73.03472,
+    25.93551
+  ],
+  "phases": [
+    {
+      "start": 200,
+      "end": 299,
+      "label": "Saka Kingdom",
+      "dateBasis": "Referencia regional de la fuente editorial200; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-SAKA-KINGDOM-5C88D95A-Y0200.geojson",
+  "geometrySha256": "c80f6a4b017cc0c5659fa76af740cf1fcb1d82b261625c91011bc62873550713",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson",
+    "year": 200,
+    "featureIds": [
+      13
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7"
+  },
+  "review": "0.38.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final299 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en300."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Saka Kingdom",
+      "ABBREVN": "Saka King.",
+      "SUBJECTO": "Saka Kingdom",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Saka Kingdom"
+    }
+  ],
+  "sourceGrouping": [
+    "Saka Kingdom"
+  ]
+}

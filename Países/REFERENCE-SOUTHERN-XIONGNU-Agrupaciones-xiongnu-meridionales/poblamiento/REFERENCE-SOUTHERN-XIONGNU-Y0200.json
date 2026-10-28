@@ -1,0 +1,69 @@
+{
+  "key": "REFERENCE-SOUTHERN-XIONGNU-Y0200",
+  "contextKey": "REFERENCE-SOUTHERN-XIONGNU",
+  "ownerKey": "REFERENCE-SOUTHERN-XIONGNU",
+  "name": "Agrupaciones xiongnu meridionales",
+  "originalNames": [
+    "Southern Xiongnu"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 200",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    200,
+    299
+  ],
+  "interpretation": "Comunidades y autoridades en el marco de fronteras Han y poderes posteriores. No es el imperio de Atila ni una nación uniforme con fronteras constantes.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea200 contiene etiquetas de épocas distintas. La ventana200–299 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    102.32493,
+    41.11891
+  ],
+  "phases": [
+    {
+      "start": 200,
+      "end": 299,
+      "label": "Agrupaciones xiongnu meridionales",
+      "dateBasis": "Referencia regional de la fuente editorial200; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-SOUTHERN-XIONGNU-Y0200.geojson",
+  "geometrySha256": "2e9a823956a52900beb4aa42f6d1971802c920bfcf6530bcd994c3a95cc92374",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson",
+    "year": 200,
+    "featureIds": [
+      157
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7"
+  },
+  "review": "0.38.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final299 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en300."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Southern Xiongnu",
+      "ABBREVN": "Southern Xiongnu",
+      "SUBJECTO": "S. Xiongnu",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Southern Xiongnu"
+    }
+  ],
+  "sourceGrouping": [
+    "S. Xiongnu"
+  ]
+}

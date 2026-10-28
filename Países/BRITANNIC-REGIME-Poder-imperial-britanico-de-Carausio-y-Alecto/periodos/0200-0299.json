@@ -1,0 +1,298 @@
+{
+  "key": "BRITANNIC-REGIME",
+  "identity": {
+    "qid": "",
+    "name": "Poder imperial británico de Carausio y Alecto"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador rival · poder en Britania",
+      "officePattern": "Emperor|Augustus",
+      "titles": [
+        "Carausius",
+        "Allectus"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q317232",
+      "name": "Carausio",
+      "role": "Emperador rival · poder en Britania",
+      "start": "0286-01-01",
+      "end": "0293-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Carausius",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-bb67b2a3de321a38e7b1.jpg",
+        "title": "Antoninianus Carausius leg4-RIC 0069v.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Antoninianus_Carausius_leg4-RIC_0069v.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Antoninianus_Carausius_leg4-RIC_0069v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "English Wikipedia, original upload by Panairjdde",
+        "sha256": "fec816a3035b95412d320a76dcaaa8d6d563d02e4b8647aab83ec876d0b4c987",
+        "bytes": 35391,
+        "canonicalFile": "Países/BRITANNIC-REGIME-Poder-imperial-britanico-de-Carausio-y-Alecto/retratos/portrait-bb67b2a3de321a38e7b1.jpg",
+        "caption": "Efigie monetaria convencional de Carausio; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "Q311556",
+      "name": "Alecto",
+      "role": "Emperador rival · poder en Britania",
+      "start": "0293-01-01",
+      "end": "0296-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Allectus",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-e13e818c9eaec5e970e1.jpg",
+        "title": "Quinarius Allectus galley-RIC 0128.2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Quinarius_Allectus_galley-RIC_0128.2.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Quinarius_Allectus_galley-RIC_0128.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "5ccd7ab5446ea3f83e3932daf62cd0f9d50836c0d60358bb3dc78b6d768b9517",
+        "bytes": 34484,
+        "canonicalFile": "Países/BRITANNIC-REGIME-Poder-imperial-britanico-de-Carausio-y-Alecto/retratos/portrait-e13e818c9eaec5e970e1.jpg",
+        "caption": "Efigie monetaria convencional de Alecto; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review038-britain",
+      "type": "institution",
+      "title": "Carausio y Alecto",
+      "start": "0286-01-01",
+      "end": "0297-01-01",
+      "text": "Poderes imperiales rivales en Britania, consultables mediante un centro documental cuando falta geometría anual específica. No se asigna automáticamente toda Britania y la Galia al mismo control.",
+      "source": "https://en.wikipedia.org/wiki/Carausian_revolt",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 286,
+      "end": 296,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Carausius",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Allectus",
+        "title": "Allectus",
+        "person": "Q311556",
+        "name": "Alecto",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Allectus",
+        "identityResolution": {
+          "requested": "Allectus",
+          "canonical": "Allectus",
+          "qid": "Q311556"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q311556",
+        "title": "Allectus",
+        "source": "https://en.wikipedia.org/wiki/Allectus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Britannia",
+            "raw": "293–296",
+            "parsed": {
+              "start": "0293-01-01",
+              "end": "0296-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Carausius",
+        "title": "Carausius",
+        "person": "Q317232",
+        "name": "Carausio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Carausius",
+        "identityResolution": {
+          "requested": "Carausius",
+          "canonical": "Carausius",
+          "qid": "Q317232"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q317232",
+        "title": "Carausius",
+        "source": "https://en.wikipedia.org/wiki/Carausius",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Britannia",
+            "raw": "{{circa|286 [[AD]]}}–{{circa|293 [[AD]]}}",
+            "parsed": {
+              "start": "0286-01-01",
+              "end": "0293-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q317232",
+        "title": "Carausius",
+        "source": "https://en.wikipedia.org/wiki/Carausius",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Britannia",
+          "raw": "{{circa|286 [[AD]]}}–{{circa|293 [[AD]]}}",
+          "parsed": {
+            "start": "0286-01-01",
+            "end": "0293-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q311556",
+        "title": "Allectus",
+        "source": "https://en.wikipedia.org/wiki/Allectus",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Britannia",
+          "raw": "293–296",
+          "parsed": {
+            "start": "0293-01-01",
+            "end": "0296-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "mediaReview": [
+    {
+      "person": "Q317232",
+      "name": "Carausio",
+      "title": "Antoninianus Carausius leg4-RIC 0069v.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Antoninianus_Carausius_leg4-RIC_0069v.jpg",
+      "sha256": "fec816a3035b95412d320a76dcaaa8d6d563d02e4b8647aab83ec876d0b4c987",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Carausio; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    },
+    {
+      "person": "Q311556",
+      "name": "Alecto",
+      "title": "Quinarius Allectus galley-RIC 0128.2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Quinarius_Allectus_galley-RIC_0128.2.jpg",
+      "sha256": "5ccd7ab5446ea3f83e3932daf62cd0f9d50836c0d60358bb3dc78b6d768b9517",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Alecto; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat038-6",
+      "name": "Londinium · referencia del poder británico",
+      "coordinates": [
+        -0.088,
+        51.513
+      ],
+      "start": 286,
+      "end": 296,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Carausian_revolt",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Poder imperial británico de Carausio y Alecto"
+    },
+    {
+      "id": "seat038-6-own",
+      "name": "Londinium · referencia del poder británico",
+      "coordinates": [
+        -0.088,
+        51.513
+      ],
+      "start": 286,
+      "end": 296,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Carausian_revolt",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Poder imperial británico de Carausio y Alecto"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review038-britain",
+      "type": "institution",
+      "title": "Carausio y Alecto",
+      "start": "0286-01-01",
+      "end": "0297-01-01",
+      "text": "Poderes imperiales rivales en Britania, consultables mediante un centro documental cuando falta geometría anual específica. No se asigna automáticamente toda Britania y la Galia al mismo control.",
+      "source": "https://en.wikipedia.org/wiki/Carausian_revolt",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "key": "HIST-Q1501306",
+  "identity": {
+    "qid": "Q1501306",
+    "name": "Vakataka Kingdom"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante vakataka · cronología aproximada",
+      "officePattern": "King|Vakataka|Maharaja",
+      "titles": [
+        "Vindhyashakti",
+        "Pravarasena I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q27957699",
+      "name": "Vindhyashakti",
+      "role": "Gobernante vakataka · cronología aproximada",
+      "start": "0250-01-01",
+      "end": "0275-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vindhyashakti",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Fechas aproximadas y cronologías alternativas; no se afirman años exactos de todos los mandatos."
+    },
+    {
+      "person": "Q27957453",
+      "name": "Pravarasena I",
+      "role": "Gobernante vakataka · cronología aproximada",
+      "start": "0275-01-01",
+      "end": "0299-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pravarasena_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Fechas aproximadas y cronologías alternativas; no se afirman años exactos de todos los mandatos.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Vindhyashakti",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Vakataka Kingdom"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Vakataka Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "aed7fc87babcda09461b39bbc8f251ffd677e63e54a08dc5b5f1ab8fee3a741c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1355
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Pravarasena I",
+        "title": "Pravarasena I",
+        "person": "Q27957453",
+        "name": "Pravarasena I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pravarasena_I",
+        "identityResolution": {
+          "requested": "Pravarasena I",
+          "canonical": "Pravarasena I",
+          "qid": "Q27957453"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27651234",
+          "start": "0270-01-01",
+          "end": "0330-01-01",
+          "precision": 9,
+          "statement": "Q27957453$65579fdb-4da0-cf76-e015-bfc0c1a2c3e3",
+          "label": "Vakataka king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q27957453",
+        "title": "Pravarasena I",
+        "source": "https://en.wikipedia.org/wiki/Pravarasena_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Vakataka emperor",
+            "raw": "{{Circa|275}}–335",
+            "parsed": {
+              "start": "0275-01-01",
+              "end": "0335-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vindhyashakti",
+        "title": "Vindhyashakti",
+        "person": "Q27957699",
+        "name": "Vindhyashakti",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vindhyashakti",
+        "identityResolution": {
+          "requested": "Vindhyashakti",
+          "canonical": "Vindhyashakti",
+          "qid": "Q27957699"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27651234",
+          "start": "0250-01-01",
+          "end": "0270-01-01",
+          "precision": 9,
+          "statement": "Q27957699$ed3ea2da-4d1a-8b8d-5567-ea33de2fa16f",
+          "label": "Vakataka king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q27957699",
+        "title": "Vindhyashakti",
+        "source": "https://en.wikipedia.org/wiki/Vindhyashakti",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Vakataka king",
+            "raw": "{{Circa|250}} – 275",
+            "parsed": {
+              "start": "0250-01-01",
+              "end": "0275-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q27957699",
+        "title": "Vindhyashakti",
+        "source": "https://en.wikipedia.org/wiki/Vindhyashakti",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Vakataka king",
+          "raw": "{{Circa|250}} – 275",
+          "parsed": {
+            "start": "0250-01-01",
+            "end": "0275-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q27957453",
+        "title": "Pravarasena I",
+        "source": "https://en.wikipedia.org/wiki/Pravarasena_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Vakataka emperor",
+          "raw": "{{Circa|275}}–335",
+          "parsed": {
+            "start": "0275-01-01",
+            "end": "0335-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  }
+}

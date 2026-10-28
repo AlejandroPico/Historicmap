@@ -1,0 +1,312 @@
+{
+  "key": "EASTERN-HAN",
+  "identity": {
+    "qid": "Q1068371",
+    "name": "Han oriental"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador de Han oriental",
+      "officePattern": "Emperor",
+      "titles": [
+        "Emperor Xian of Han"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7316",
+      "name": "Liu Xie",
+      "role": "Emperador de Han oriental",
+      "start": "0200-01-01",
+      "end": "0220-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review038-han",
+      "type": "institution",
+      "title": "Última corte Han",
+      "start": "0200-01-01",
+      "end": "0221-01-01",
+      "text": "El emperador Xian conserva dignidad imperial mientras Cao Cao concentra poder efectivo; este último no se convierte retrospectivamente en emperador en vida.",
+      "source": "https://www.metmuseum.org/zh/toah/ht/05/eac.html",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 200,
+      "end": 220,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Han Dynasty"
+        ],
+        "start": 200,
+        "end": 220,
+        "label": "Han oriental",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Han Dynasty"
+        ],
+        "start": 221,
+        "end": 299,
+        "label": "Han oriental · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Contorno de síntesis heredado; no prolonga dinastías ni acredita un Estado unitario o ausencia de otras comunidades."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "20861b7e5d3f320703d67c0fb02e3aee3f86afeab48978be698ab6cb9e3b9c07",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1297,
+        1314,
+        1325,
+        1329
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Xian of Han",
+        "title": "Emperor Xian of Han",
+        "person": "Q7316",
+        "name": "Liu Xie",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han",
+        "identityResolution": {
+          "requested": "Emperor Xian of Han",
+          "canonical": "Emperor Xian of Han",
+          "qid": "Q7316"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0189-09-29",
+          "end": "0220-11-25",
+          "precision": 11,
+          "statement": "Q7316$5174899D-5DE3-4E5F-8AB4-4CC2648EAE06",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7316",
+        "title": "Emperor Xian of Han",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Han dynasty",
+            "raw": "28 September 189 – 11 December 220{{sfnp|de Crespigny|2007|p=xxxiii}}{{efn|According to Emperor Xian's biography in ''Book of the Later Han'', Liu Xie abdicated the throne on the ''yimao'' day of the 10th month of the 1st year of the ''Yankang'' era of his reign. This corresponds to 25 Nov 220 in the Julian calendar.<ref>({{lang|zh|三月，改元延康。冬十月乙卯，皇帝逊位，魏王丕称天子。}}) ''Houhanshu'', vol.09.</ref> The ''Zizhi Tongjian'' recorded that while Liu Xie did abdicate on the ''yimao'' day of the 10th month, Cao Pi only ascended the throne on the ''xinwei'' day of the same month (16 days later), which corresponds to 11 Dec 220 on the Julian calendar.<ref>({{lang|zh|冬，十月，乙卯，汉帝告祠高庙，使行御史大夫张音持节奉玺绶诏册，禅位于魏。王三上书辞让，乃为坛于繁阳，辛未，升坛受玺绶，即皇帝位，}}...) ''Zizhi Tongjian'', vol.69</ref>}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Duke of Shanyang ({{lang|zh|山陽公}})",
+            "raw": "13 December 220<ref>''guiyou'' day of the 11th month of the 1st year of the ''Huangchu'' era, per Cao Pi's biography in ''Sanguozhi''. [[Cao Song]] was also posthumously made emperor on the same day.</ref> – 21 April 234",
+            "parsed": {
+              "start": "0220-12-13",
+              "end": "0234-04-21",
+              "precision": 11
+            },
+            "reignType": "Tenure"
+          },
+          {
+            "field": "reign2",
+            "office": "Prince of Bohai ({{lang|zh|渤海王}})",
+            "raw": "189",
+            "parsed": {
+              "start": "0189-01-01",
+              "end": "0189-12-31",
+              "precision": 9
+            },
+            "reignType": "Tenure"
+          },
+          {
+            "field": "reign3",
+            "office": "Prince of Chenliu ({{lang|zh|陳留王}})",
+            "raw": "189",
+            "parsed": {
+              "start": "0189-01-01",
+              "end": "0189-12-31",
+              "precision": 9
+            },
+            "reignType": "Tenure"
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "189–220",
+            "parsed": {
+              "start": "0189-01-01",
+              "end": "0220-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Shanyang",
+            "raw": "220–234",
+            "parsed": {
+              "start": "0220-01-01",
+              "end": "0234-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7316",
+        "title": "Emperor Xian of Han",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Emperor of China",
+          "raw": "189–220",
+          "parsed": {
+            "start": "0189-01-01",
+            "end": "0220-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q7316",
+      "title": "Death of Consort Dong.png",
+      "reason": "Escena colectiva de la muerte de la consorte Dong; no encuadre individual adecuado para Liu Xie.",
+      "source": "https://commons.wikimedia.org/wiki/File:Death_of_Consort_Dong.png"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q7316",
+      "name": "Liu Xie",
+      "title": "Death of Consort Dong.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Death_of_Consort_Dong.png",
+      "sha256": "0781c957015d2563c8cb0aa3a0d5990fe10bbe1691723a4d119fef46d5f42bfd",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Escena colectiva de la muerte de la consorte Dong; no encuadre individual adecuado para Liu Xie."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat038-11",
+      "name": "Xuchang · corte Han",
+      "coordinates": [
+        113.85,
+        34.03
+      ],
+      "start": 200,
+      "end": 220,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Han oriental"
+    },
+    {
+      "id": "seat038-11-own",
+      "name": "Xuchang · corte Han",
+      "coordinates": [
+        113.85,
+        34.03
+      ],
+      "start": 200,
+      "end": 220,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Han oriental"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review038-han",
+      "type": "institution",
+      "title": "Última corte Han",
+      "start": "0200-01-01",
+      "end": "0221-01-01",
+      "text": "El emperador Xian conserva dignidad imperial mientras Cao Cao concentra poder efectivo; este último no se convierte retrospectivamente en emperador en vida.",
+      "source": "https://www.metmuseum.org/zh/toah/ht/05/eac.html",
+      "sourceLabel": "Referencia documental · siglo III",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "key": "HIST-Q5257",
+  "identity": {
+    "qid": "Q5257",
+    "name": "Satavahana Dynasty"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante satavahana · cronología discutida",
+      "officePattern": "King|Ruler|Satavahana",
+      "titles": [
+        "Yajna Sri Satakarni",
+        "Vijaya Satakarni",
+        "Chandra Sri Satakarni",
+        "Pulomavi IV"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Satavahana Dynasty"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Satavahana Dynasty",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "abfb7ec98cb5c3de5e0624419ead93fe119fc20660f3a41ffc0604bdb66875d1",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1288,
+        1305,
+        1321
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Chandra Sri Satakarni",
+        "title": "Chandra Sri Satakarni",
+        "person": "",
+        "name": "Chandra Sri Satakarni",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Chandra_Sri_Satakarni",
+        "identityResolution": {
+          "requested": "Chandra Sri Satakarni",
+          "canonical": "Chandra Sri Satakarni",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pulomavi IV",
+        "title": "Pulomavi IV",
+        "person": "",
+        "name": "Pulomavi IV",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Pulomavi_IV",
+        "identityResolution": {
+          "requested": "Pulomavi IV",
+          "canonical": "Pulomavi IV",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vijaya Satakarni",
+        "title": "Vijaya Satakarni",
+        "person": "",
+        "name": "Vijaya Satakarni",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Vijaya_Satakarni",
+        "identityResolution": {
+          "requested": "Vijaya Satakarni",
+          "canonical": "Vijaya Satakarni",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yajna Sri Satakarni",
+        "title": "Yajna Sri Satakarni",
+        "person": "Q3764500",
+        "name": "Yajna Sri Satakarni",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yajna_Sri_Satakarni",
+        "identityResolution": {
+          "requested": "Yajna Sri Satakarni",
+          "canonical": "Yajna Sri Satakarni",
+          "qid": "Q3764500"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3764500",
+        "title": "Yajna Sri Satakarni",
+        "source": "https://en.wikipedia.org/wiki/Yajna_Sri_Satakarni",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Last Satavahana King",
+            "raw": "2nd century CE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Yajna Sri Satakarni",
+        "person": "Q3764500",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Vijaya Satakarni",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Chandra Sri Satakarni",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Pulomavi IV",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  }
+}

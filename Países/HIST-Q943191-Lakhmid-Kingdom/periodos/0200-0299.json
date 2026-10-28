@@ -1,0 +1,187 @@
+{
+  "key": "HIST-Q943191",
+  "identity": {
+    "qid": "Q943191",
+    "name": "Lakhmid Kingdom"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante lajmí · testimonio regional",
+      "officePattern": "King|Lakhm",
+      "titles": [
+        "Amr ibn Adi"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1260321",
+      "name": "'Amr ibn Adi",
+      "role": "Gobernante lajmí · testimonio regional",
+      "start": "0268-01-01",
+      "end": "0295-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Amr_ibn_Adi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Amr_ibn_Adi",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lakhmid Kingdom"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Lakhmid Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "6d61a88373dcbe8768381ff83db2475a223b7183c2ef376d351531c2a3632584",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1388
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Amr ibn Adi",
+        "title": "Amr ibn Adi",
+        "person": "Q1260321",
+        "name": "'Amr ibn Adi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Amr_ibn_Adi",
+        "identityResolution": {
+          "requested": "Amr ibn Adi",
+          "canonical": "Amr ibn Adi",
+          "qid": "Q1260321"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1260321",
+        "title": "Amr ibn Adi",
+        "source": "https://en.wikipedia.org/wiki/Amr_ibn_Adi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Lakhmid state",
+            "raw": "CE [[268]]–[[295]]",
+            "parsed": {
+              "start": "0268-01-01",
+              "end": "0295-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Lakhmids",
+            "raw": "late 3rd century",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1260321",
+        "title": "Amr ibn Adi",
+        "source": "https://en.wikipedia.org/wiki/Amr_ibn_Adi",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Lakhmid state",
+          "raw": "CE [[268]]–[[295]]",
+          "parsed": {
+            "start": "0268-01-01",
+            "end": "0295-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat038-20",
+      "name": "Al-Hira · poder lajmí",
+      "coordinates": [
+        44.318,
+        31.887
+      ],
+      "start": 268,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Amr_ibn_Adi",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Lakhmid Kingdom"
+    },
+    {
+      "id": "seat038-20-own",
+      "name": "Al-Hira · poder lajmí",
+      "coordinates": [
+        44.318,
+        31.887
+      ],
+      "start": 268,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Amr_ibn_Adi",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Lakhmid Kingdom"
+    }
+  ]
+}

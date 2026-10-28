@@ -1,0 +1,580 @@
+{
+  "key": "HIST-Q28428",
+  "identity": {
+    "qid": "Q28428",
+    "name": "Baekje"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Baekje",
+      "officePattern": "King.*Baekje|King.*Paekche",
+      "titles": [
+        "Chogo of Baekje",
+        "Gusu of Baekje",
+        "Saban of Baekje",
+        "Goi of Baekje",
+        "Chaekgye of Baekje",
+        "Bunseo of Baekje"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q497399",
+      "name": "Chogo of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0200-01-01",
+      "end": "0214-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chogo_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q497432",
+      "name": "Gusu of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0214-01-01",
+      "end": "0234-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gusu_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q497460",
+      "name": "Saban of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0234-01-01",
+      "end": "0234-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Saban_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q497490",
+      "name": "Goi of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0234-01-01",
+      "end": "0286-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Goi_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q497509",
+      "name": "Chaekgye of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0286-01-01",
+      "end": "0298-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chaekgye_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q497533",
+      "name": "Bunseo of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0298-01-01",
+      "end": "0299-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bunseo_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Chogo_of_Baekje",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bunseo of Baekje",
+        "title": "Bunseo of Baekje",
+        "person": "Q497533",
+        "name": "Bunseo of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bunseo_of_Baekje",
+        "identityResolution": {
+          "requested": "Bunseo of Baekje",
+          "canonical": "Bunseo of Baekje",
+          "qid": "Q497533"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0298-01-01",
+          "end": "0304-01-01",
+          "precision": 9,
+          "statement": "Q497533$94904a80-43a9-3458-2b65-1ca502eb6aae",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497533",
+        "title": "Bunseo of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Bunseo_of_Baekje",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Baekje",
+            "raw": "298 – 304 A.D.",
+            "parsed": {
+              "start": "0298-01-01",
+              "end": "0304-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "298–304",
+            "parsed": {
+              "start": "0298-01-01",
+              "end": "0304-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chaekgye of Baekje",
+        "title": "Chaekgye of Baekje",
+        "person": "Q497509",
+        "name": "Chaekgye of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chaekgye_of_Baekje",
+        "identityResolution": {
+          "requested": "Chaekgye of Baekje",
+          "canonical": "Chaekgye of Baekje",
+          "qid": "Q497509"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0286-01-01",
+          "end": "0298-01-01",
+          "precision": 9,
+          "statement": "Q497509$9b7ea3ed-45f3-b175-742d-12b388f2bc5f",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497509",
+        "title": "Chaekgye of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Chaekgye_of_Baekje",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Baekje",
+            "raw": "286 – 298 A.D.",
+            "parsed": {
+              "start": "0286-01-01",
+              "end": "0298-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "286–298",
+            "parsed": {
+              "start": "0286-01-01",
+              "end": "0298-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chogo of Baekje",
+        "title": "Chogo of Baekje",
+        "person": "Q497399",
+        "name": "Chogo of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chogo_of_Baekje",
+        "identityResolution": {
+          "requested": "Chogo of Baekje",
+          "canonical": "Chogo of Baekje",
+          "qid": "Q497399"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0166-01-01",
+          "end": "0214-01-01",
+          "precision": 9,
+          "statement": "Q497399$38ef8be8-492c-cfe5-b84f-b13494a3d0b0",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497399",
+        "title": "Chogo of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Chogo_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "166–214",
+            "parsed": {
+              "start": "0166-01-01",
+              "end": "0214-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Goi of Baekje",
+        "title": "Goi of Baekje",
+        "person": "Q497490",
+        "name": "Goi of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Goi_of_Baekje",
+        "identityResolution": {
+          "requested": "Goi of Baekje",
+          "canonical": "Goi of Baekje",
+          "qid": "Q497490"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0234-01-01",
+          "end": "0286-01-01",
+          "precision": 9,
+          "statement": "Q497490$ef0ba130-4a17-48ae-be97-5468067f0c7e",
+          "label": "rey"
+        },
+        {
+          "property": "P97",
+          "office": "Q12097",
+          "start": "0234-01-01",
+          "end": "0286-01-01",
+          "precision": 9,
+          "statement": "Q497490$668757c6-4330-a561-5c15-cdc5be8c8c42",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497490",
+        "title": "Goi of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Goi_of_Baekje",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Baekje",
+            "raw": "234 ~ November 286 A.D.",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "234–286",
+            "parsed": {
+              "start": "0234-01-01",
+              "end": "0286-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gusu of Baekje",
+        "title": "Gusu of Baekje",
+        "person": "Q497432",
+        "name": "Gusu of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gusu_of_Baekje",
+        "identityResolution": {
+          "requested": "Gusu of Baekje",
+          "canonical": "Gusu of Baekje",
+          "qid": "Q497432"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0214-01-01",
+          "end": "0234-01-01",
+          "precision": 9,
+          "statement": "Q497432$71f6d7f7-42bf-18c4-c092-263d15c443d0",
+          "label": "rey"
+        },
+        {
+          "property": "P97",
+          "office": "Q12097",
+          "start": "0214-01-01",
+          "end": "0234-01-01",
+          "precision": 9,
+          "statement": "Q497432$d8b3501e-409c-c2e9-7fb7-b4c7790db0ce",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497432",
+        "title": "Gusu of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Gusu_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "214–234",
+            "parsed": {
+              "start": "0214-01-01",
+              "end": "0234-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Saban of Baekje",
+        "title": "Saban of Baekje",
+        "person": "Q497460",
+        "name": "Saban of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Saban_of_Baekje",
+        "identityResolution": {
+          "requested": "Saban of Baekje",
+          "canonical": "Saban of Baekje",
+          "qid": "Q497460"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q12097",
+          "start": "0234-01-01",
+          "end": "0234-01-01",
+          "precision": 9,
+          "statement": "Q497460$4006c09e-42b4-0a82-fcf4-8a127592c382",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497460",
+        "title": "Saban of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Saban_of_Baekje",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Baekje",
+            "raw": "234 – 234 A.D. (2 months)",
+            "parsed": {
+              "start": "0234-01-01",
+              "end": "0234-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "234",
+            "parsed": {
+              "start": "0234-01-01",
+              "end": "0234-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q497399",
+        "title": "Chogo of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Chogo_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "166–214",
+          "parsed": {
+            "start": "0166-01-01",
+            "end": "0214-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497432",
+        "title": "Gusu of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Gusu_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "214–234",
+          "parsed": {
+            "start": "0214-01-01",
+            "end": "0234-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497460",
+        "title": "Saban of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Saban_of_Baekje",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Baekje",
+          "raw": "234 – 234 A.D. (2 months)",
+          "parsed": {
+            "start": "0234-01-01",
+            "end": "0234-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497490",
+        "title": "Goi of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Goi_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "234–286",
+          "parsed": {
+            "start": "0234-01-01",
+            "end": "0286-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497509",
+        "title": "Chaekgye of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Chaekgye_of_Baekje",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Baekje",
+          "raw": "286 – 298 A.D.",
+          "parsed": {
+            "start": "0286-01-01",
+            "end": "0298-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497533",
+        "title": "Bunseo of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Bunseo_of_Baekje",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Baekje",
+          "raw": "298 – 304 A.D.",
+          "parsed": {
+            "start": "0298-01-01",
+            "end": "0304-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat038-25",
+      "name": "Hanseong · Baekje",
+      "coordinates": [
+        127.11,
+        37.53
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Hanseong_Baekje",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Baekje"
+    },
+    {
+      "id": "seat038-25-own",
+      "name": "Hanseong · Baekje",
+      "coordinates": [
+        127.11,
+        37.53
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Hanseong_Baekje",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Baekje"
+    }
+  ]
+}

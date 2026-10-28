@@ -1,0 +1,514 @@
+{
+  "key": "HIST-Q28370",
+  "identity": {
+    "qid": "Q28370",
+    "name": "Goguryeo"
+  },
+  "revision": "0.38.0",
+  "acquisition": "century-200-0.38",
+  "coverageStart": 200,
+  "coverageEnd": 299,
+  "officeBounds": [
+    "0200-01-01",
+    "0299-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Goguryeo",
+      "officePattern": "King.*Goguryeo|King.*Kogur",
+      "titles": [
+        "Sansang of Goguryeo",
+        "Dongcheon of Goguryeo",
+        "Jungcheon of Goguryeo",
+        "Seocheon of Goguryeo",
+        "Bongsang of Goguryeo"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q498568",
+      "name": "Sansang of Goguryeo",
+      "role": "Rey de Goguryeo",
+      "start": "0200-01-01",
+      "end": "0227-05-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Sansang_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q498590",
+      "name": "Dongcheon of Goguryeo",
+      "role": "Rey de Goguryeo",
+      "start": "0227-05-01",
+      "end": "0248-09-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Dongcheon_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q498618",
+      "name": "Jungcheon of Goguryeo",
+      "role": "Rey de Goguryeo",
+      "start": "0248-01-01",
+      "end": "0270-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jungcheon_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q498644",
+      "name": "Seocheon of Goguryeo",
+      "role": "Rey de Goguryeo",
+      "start": "0270-01-01",
+      "end": "0292-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Seocheon_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q498667",
+      "name": "Bongsang of Goguryeo",
+      "role": "Rey de Goguryeo",
+      "start": "0292-01-01",
+      "end": "0299-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bongsang_of_Goguryeo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 200,
+      "end": 299,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Sansang_of_Goguryeo",
+      "note": "Clasificación institucional documentada; no acredita control uniforme ni nacionalidad moderna."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Goguryeo"
+        ],
+        "start": 200,
+        "end": 299,
+        "label": "Goguryeo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-200.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0200-0299.geojson",
+      "sha256": "60c3a927593c3b264b40bd2fcf5300edd07d06d76d20d4cd18393f82c80bbc02",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1254,
+        1339
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Completar sucesiones menores, signos documentados y cronologías locales;299 es límite de revisión, no extinción. No deducir mandatos de fechas de vida."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bongsang of Goguryeo",
+        "title": "Bongsang of Goguryeo",
+        "person": "Q498667",
+        "name": "Bongsang of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bongsang_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Bongsang of Goguryeo",
+          "canonical": "Bongsang of Goguryeo",
+          "qid": "Q498667"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "0292-01-01",
+          "end": "0300-01-01",
+          "precision": 9,
+          "statement": "Q498667$7413c621-48cc-ba4d-0d8b-a8a994c57a17",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498667",
+        "title": "Bongsang of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Bongsang_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "292–300",
+            "parsed": {
+              "start": "0292-01-01",
+              "end": "0300-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dongcheon of Goguryeo",
+        "title": "Dongcheon of Goguryeo",
+        "person": "Q498590",
+        "name": "Dongcheon of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dongcheon_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Dongcheon of Goguryeo",
+          "canonical": "Dongcheon of Goguryeo",
+          "qid": "Q498590"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q141739813",
+          "start": "0227-01-01",
+          "end": "0248-01-01",
+          "precision": 9,
+          "statement": "Q498590$b9612760-4407-085f-aa67-6bbbe36a6cca",
+          "label": "King of Goguryeo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498590",
+        "title": "Dongcheon of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Dongcheon_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "May 227 – September 248 A.D.",
+            "parsed": {
+              "start": "0227-05-01",
+              "end": "0248-09-01",
+              "precision": 10
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Crown Prince of Goguryeo",
+            "raw": "January 213 – May 227 A.D.",
+            "parsed": {
+              "start": "0213-01-01",
+              "end": "0227-05-01",
+              "precision": 10
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "227–248",
+            "parsed": {
+              "start": "0227-01-01",
+              "end": "0248-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Jungcheon of Goguryeo",
+        "title": "Jungcheon of Goguryeo",
+        "person": "Q498618",
+        "name": "Jungcheon of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jungcheon_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Jungcheon of Goguryeo",
+          "canonical": "Jungcheon of Goguryeo",
+          "qid": "Q498618"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "0248-01-01",
+          "end": "0270-01-01",
+          "precision": 9,
+          "statement": "Q498618$ffc54d33-474f-7ef1-83a3-b9f559f33851",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498618",
+        "title": "Jungcheon of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Jungcheon_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "248–270",
+            "parsed": {
+              "start": "0248-01-01",
+              "end": "0270-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sansang of Goguryeo",
+        "title": "Sansang of Goguryeo",
+        "person": "Q498568",
+        "name": "Sansang of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sansang_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Sansang of Goguryeo",
+          "canonical": "Sansang of Goguryeo",
+          "qid": "Q498568"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "0197-01-01",
+          "end": "0227-01-01",
+          "precision": 9,
+          "statement": "Q498568$9173f7b4-43f2-9864-01a8-e62e418046a0",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498568",
+        "title": "Sansang of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Sansang_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "May 197 – May 227 A.D.",
+            "parsed": {
+              "start": "0197-05-01",
+              "end": "0227-05-01",
+              "precision": 10
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "197–227",
+            "parsed": {
+              "start": "0197-01-01",
+              "end": "0227-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Seocheon of Goguryeo",
+        "title": "Seocheon of Goguryeo",
+        "person": "Q498644",
+        "name": "Seocheon of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Seocheon_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Seocheon of Goguryeo",
+          "canonical": "Seocheon of Goguryeo",
+          "qid": "Q498644"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "0270-01-01",
+          "end": "0292-01-01",
+          "precision": 9,
+          "statement": "Q498644$d837d7d3-41f3-010d-8ce3-aaa8a4dd9c86",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498644",
+        "title": "Seocheon of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Seocheon_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Goguryeo",
+            "raw": "270–292",
+            "parsed": {
+              "start": "0270-01-01",
+              "end": "0292-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q498568",
+        "title": "Sansang of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Sansang_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "May 197 – May 227 A.D.",
+          "parsed": {
+            "start": "0197-05-01",
+            "end": "0227-05-01",
+            "precision": 10
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498590",
+        "title": "Dongcheon of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Dongcheon_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "May 227 – September 248 A.D.",
+          "parsed": {
+            "start": "0227-05-01",
+            "end": "0248-09-01",
+            "precision": 10
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498618",
+        "title": "Jungcheon of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Jungcheon_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Goguryeo",
+          "raw": "248–270",
+          "parsed": {
+            "start": "0248-01-01",
+            "end": "0270-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498644",
+        "title": "Seocheon of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Seocheon_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Goguryeo",
+          "raw": "270–292",
+          "parsed": {
+            "start": "0270-01-01",
+            "end": "0292-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498667",
+        "title": "Bongsang of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Bongsang_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Goguryeo",
+          "raw": "292–300",
+          "parsed": {
+            "start": "0292-01-01",
+            "end": "0300-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat038-24",
+      "name": "Gungnae · Goguryeo",
+      "coordinates": [
+        126.19,
+        41.12
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Gungnae",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Goguryeo"
+    },
+    {
+      "id": "seat038-24-own",
+      "name": "Gungnae · Goguryeo",
+      "coordinates": [
+        126.19,
+        41.12
+      ],
+      "start": 200,
+      "end": 299,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Gungnae",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Goguryeo"
+    }
+  ]
+}

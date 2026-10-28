@@ -1,0 +1,105 @@
+{
+  "key": "CULTURE-HOKKAIDO-Y0200",
+  "contextKey": "CULTURE-HOKKAIDO",
+  "ownerKey": "CULTURE-HOKKAIDO",
+  "name": "Comunidades de Hokkaidō · Epi-Jōmon",
+  "originalNames": [
+    "Ainu"
+  ],
+  "kind": "cultural-region",
+  "region": "Asia nororiental",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    200,
+    299
+  ],
+  "interpretation": "Tradiciones regionales Epi-Jōmon; el nombre editorial Ainu no acredita una nación moderna homogénea ni adelanta transiciones arqueológicas posteriores.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea200 contiene etiquetas de épocas distintas. La ventana200–299 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de200",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Museo de Hokkaidō · Satsumon y Okhotsk",
+      "url": "https://www.hm.pref.hokkaido.lg.jp/wp-content/uploads/2025/03/ENG-1-2.pdf"
+    },
+    {
+      "title": "Museo Nacional Ainu · formación y expansión medieval",
+      "url": "https://punkar.nam.go.jp/essay/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a99772",
+  "focus": [
+    142.57994,
+    43.35427
+  ],
+  "phases": [
+    {
+      "start": 200,
+      "end": 299,
+      "label": "Comunidades de Hokkaidō · Epi-Jōmon",
+      "dateBasis": "Referencia regional de la fuente editorial200; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-HOKKAIDO-Y0200.geojson",
+  "geometrySha256": "3202cb09b0a1476f4d393d9404a2ee61aa80d7596be5198b133a686e0fb17b52",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_200.geojson",
+    "year": 200,
+    "featureIds": [
+      161
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7"
+  },
+  "review": "0.38.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final299 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en300."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Ainu",
+      "ABBREVN": "Ainu",
+      "SUBJECTO": "Ainu",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Ainu"
+    }
+  ],
+  "sourceGrouping": [
+    "Ainu"
+  ]
+}
