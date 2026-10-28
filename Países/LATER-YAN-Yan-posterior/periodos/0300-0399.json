@@ -1,0 +1,472 @@
+{
+  "key": "LATER-YAN",
+  "identity": {
+    "qid": "Q1534482",
+    "name": "Yan posterior"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Yan posterior",
+      "officePattern": "Emperor|King",
+      "titles": [
+        "Murong Chui",
+        "Murong Bao",
+        "Murong Sheng",
+        "Lan Han"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1069768",
+      "name": "Murong Chui",
+      "role": "Gobernante de Yan posterior",
+      "start": "0384-01-01",
+      "end": "0396-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Chui",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1076801",
+      "name": "Murong Bao",
+      "role": "Gobernante de Yan posterior",
+      "start": "0396-06-21",
+      "end": "0398-05-27",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Murong_Bao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1078573",
+      "name": "Murong Sheng",
+      "role": "Gobernante de Yan posterior",
+      "start": "0398-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Sheng",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q24378",
+      "name": "Lan Han",
+      "role": "Gobernante de Yan posterior",
+      "start": "0398-05-27",
+      "end": "0398-08-15",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Lan_Han",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 384,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Murong_Chui",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Yan"
+        ],
+        "start": 300,
+        "end": 383,
+        "label": "Yan posterior · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Yan"
+        ],
+        "start": 384,
+        "end": 399,
+        "label": "Yan posterior",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "b81289c6ed0680331dfd30862431c3d5d7ce3a243af2a552b26d93a8e5d26e76",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1553,
+        1562,
+        1581,
+        1587
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Lan Han",
+        "title": "Lan Han",
+        "person": "Q24378",
+        "name": "Lan Han",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Lan_Han",
+        "identityResolution": {
+          "requested": "Lan Han",
+          "canonical": "Lan Han",
+          "qid": "Q24378"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0398-01-01",
+          "end": "0398-01-01",
+          "precision": 9,
+          "statement": "Q24378$87e50e0d-4ab1-a165-c264-1c39fceaf3f6",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q24378",
+        "title": "Lan Han",
+        "source": "https://en.wikipedia.org/wiki/Lan_Han",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Later Yan",
+            "raw": "May 27, 398<ref name=AS/><ref name=ZZTJ110/> – August 15, 398<ref name=AS/><ref name=ZZTJ110/>",
+            "parsed": {
+              "start": "0398-05-27",
+              "end": "0398-08-15",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Bao",
+        "title": "Murong Bao",
+        "person": "Q1076801",
+        "name": "Murong Bao",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Murong_Bao",
+        "identityResolution": {
+          "requested": "Murong Bao",
+          "canonical": "Murong Bao",
+          "qid": "Q1076801"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0396-01-01",
+          "end": "0398-01-01",
+          "precision": 9,
+          "statement": "Q1076801$BD11B689-4A1B-46A1-96E8-38B007F6F2EA",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1076801",
+        "title": "Murong Bao",
+        "source": "https://en.wikipedia.org/wiki/Murong_Bao",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Later Yan",
+            "raw": "June 21, 396<ref name=AS/><ref name=ZZTJ108>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷108|vol. 108]].</ref> – May 27, 398",
+            "parsed": {
+              "start": "0396-06-21",
+              "end": "0398-05-27",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Yan",
+            "raw": "396–398",
+            "parsed": {
+              "start": "0396-01-01",
+              "end": "0398-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Chui",
+        "title": "Murong Chui",
+        "person": "Q1069768",
+        "name": "Murong Chui",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Murong_Chui",
+        "identityResolution": {
+          "requested": "Murong Chui",
+          "canonical": "Murong Chui",
+          "qid": "Q1069768"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0384-01-01",
+          "end": "0396-01-01",
+          "precision": 9,
+          "statement": "Q1069768$0f1901d3-4292-d67a-fae8-7ab9924b3520",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1069768",
+        "title": "Murong Chui",
+        "source": "https://en.wikipedia.org/wiki/Murong_Chui",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Later Yan",
+            "raw": "9 February 384 – 2 June 396",
+            "parsed": {
+              "start": "0384-02-09",
+              "end": "0396-06-02",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Yan",
+            "raw": "384–396",
+            "parsed": {
+              "start": "0384-01-01",
+              "end": "0396-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Wu",
+            "raw": "354–370",
+            "parsed": {
+              "start": "0354-01-01",
+              "end": "0370-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Sheng",
+        "title": "Murong Sheng",
+        "person": "Q1078573",
+        "name": "Murong Sheng",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Murong_Sheng",
+        "identityResolution": {
+          "requested": "Murong Sheng",
+          "canonical": "Murong Sheng",
+          "qid": "Q1078573"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0398-01-01",
+          "end": "0401-01-01",
+          "precision": 9,
+          "statement": "Q1078573$0E4123E3-D142-4ADD-8993-2B4845FAC7ED",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1078573",
+        "title": "Murong Sheng",
+        "source": "https://en.wikipedia.org/wiki/Murong_Sheng",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Later Yan",
+            "raw": "August 19, 398 – September 13, 401",
+            "parsed": {
+              "start": "0398-08-19",
+              "end": "0401-09-13",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Yan",
+            "raw": "398–401",
+            "parsed": {
+              "start": "0398-01-01",
+              "end": "0401-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1069768",
+        "title": "Murong Chui",
+        "source": "https://en.wikipedia.org/wiki/Murong_Chui",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Emperor of Later Yan",
+          "raw": "384–396",
+          "parsed": {
+            "start": "0384-01-01",
+            "end": "0396-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1076801",
+        "title": "Murong Bao",
+        "source": "https://en.wikipedia.org/wiki/Murong_Bao",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Later Yan",
+          "raw": "June 21, 396<ref name=AS/><ref name=ZZTJ108>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷108|vol. 108]].</ref> – May 27, 398",
+          "parsed": {
+            "start": "0396-06-21",
+            "end": "0398-05-27",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1078573",
+        "title": "Murong Sheng",
+        "source": "https://en.wikipedia.org/wiki/Murong_Sheng",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Emperor of Later Yan",
+          "raw": "398–401",
+          "parsed": {
+            "start": "0398-01-01",
+            "end": "0401-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q24378",
+        "title": "Lan Han",
+        "source": "https://en.wikipedia.org/wiki/Lan_Han",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Later Yan",
+          "raw": "May 27, 398<ref name=AS/><ref name=ZZTJ110/> – August 15, 398<ref name=AS/><ref name=ZZTJ110/>",
+          "parsed": {
+            "start": "0398-05-27",
+            "end": "0398-08-15",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-21",
+      "name": "Zhongshan · corte Yan posterior",
+      "coordinates": [
+        114.99,
+        38.52
+      ],
+      "start": 386,
+      "end": 397,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Later_Yan",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Yan posterior"
+    },
+    {
+      "id": "seat037-21-own",
+      "name": "Zhongshan · corte Yan posterior",
+      "coordinates": [
+        114.99,
+        38.52
+      ],
+      "start": 386,
+      "end": 397,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Later_Yan",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Yan posterior"
+    }
+  ]
+}

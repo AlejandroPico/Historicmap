@@ -1,0 +1,314 @@
+{
+  "key": "JPN",
+  "identity": {
+    "qid": "Q17",
+    "name": "Yamato · tradición de la corte"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Ōkimi de Yamato · lista imperial tradicional",
+      "officePattern": "Emperor.*Japan|Empress.*Japan",
+      "titles": [
+        "Emperor Ōjin",
+        "Emperor Nintoku",
+        "Emperor Richū"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q313119",
+      "name": "Emperador Nintoku",
+      "role": "Ōkimi de Yamato · lista imperial tradicional",
+      "start": "0313-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Nintoku",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Lista imperial retrospectiva; fechas tradicionales discutidas, no cronología contemporánea demostrada.",
+      "portrait": {
+        "file": "media/portrait-6b650e7905024e5e60af.jpg",
+        "title": "Azuma nishiki chuya kurabe, Nintoku tenno (detail).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Azuma_nishiki_chuya_kurabe,_Nintoku_tenno_(detail).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Azuma_nishiki_chuya_kurabe%2C_Nintoku_tenno_%28detail%29.jpg/330px-Azuma_nishiki_chuya_kurabe%2C_Nintoku_tenno_%28detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Toyohara Chikanobu",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Azuma_nishiki_chuya_kurabe,_Nintoku_tenno_(detail).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://ccdl.claremont.edu/digital/collection/cyw/id/72",
+        "sha256": "bb044bd4c903996fad7a665230e61d14a27845669eb9369435d0a06325843d60",
+        "bytes": 95401,
+        "canonicalFile": "Países/JPN-Japon/retratos/portrait-6b650e7905024e5e60af.jpg",
+        "caption": "Representación imaginaria posterior de Emperador Nintoku; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review037-tradition",
+      "type": "institution",
+      "title": "Yamato y listas retrospectivas",
+      "start": "0300-01-01",
+      "end": "0400-01-01",
+      "text": "La cronología imperial temprana transmitida retrospectivamente es discutida. El punto de Yamato no fija una capital única ni fronteras nacionales.",
+      "source": "https://www.metmuseum.org/toah/ht/05/eaj.html",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Nintoku",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Nintoku",
+        "title": "Emperor Nintoku",
+        "person": "Q313119",
+        "name": "Emperador Nintoku",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Nintoku",
+        "identityResolution": {
+          "requested": "Emperor Nintoku",
+          "canonical": "Emperor Nintoku",
+          "qid": "Q313119"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q208233",
+          "start": "0313-01-01",
+          "end": "0399-01-01",
+          "precision": 9,
+          "statement": "q313119$d1181790-42fe-b582-854d-24bacf82d4d1",
+          "label": "emperador de Japón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q313119",
+        "title": "Emperor Nintoku",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Nintoku",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Japan",
+            "raw": "313–399 (traditional)<ref>{{cite web|archiveurl=https://web.archive.org/web/20110322210732/http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|archivedate=March 22, 2011|url=http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|title=Genealogy of the Emperors of Japan|work=Kunaicho.go.jp|access-date=February 5, 2022}}</ref>",
+            "parsed": {
+              "start": "0313-01-01",
+              "end": "0399-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Japan: Nintoku",
+            "raw": "313–399",
+            "parsed": {
+              "start": "0313-01-01",
+              "end": "0399-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Japan: Nintoku",
+            "raw": "''(traditional dates)''",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Richū",
+        "title": "Emperor Richū",
+        "person": "Q329704",
+        "name": "Emperador Richū",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Rich%C5%AB",
+        "identityResolution": {
+          "requested": "Emperor Richū",
+          "canonical": "Emperor Richū",
+          "qid": "Q329704"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q329704",
+        "title": "Emperor Richū",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Rich%C5%AB",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Japan",
+            "raw": "400–405 (traditional)<ref>{{cite web|archiveurl=https://web.archive.org/web/20110322210732/http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|archivedate=March 22, 2011|url=http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|title=Genealogy of the Emperors of Japan|work=Kunaicho.go.jp|access-date=January 24, 2023}}</ref>",
+            "parsed": {
+              "start": "0400-01-01",
+              "end": "0405-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Japan: Richū",
+            "raw": "400–405",
+            "parsed": {
+              "start": "0400-01-01",
+              "end": "0405-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Japan: Richū",
+            "raw": "''(traditional dates)''",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Ōjin",
+        "title": "Emperor Ōjin",
+        "person": "Q317997",
+        "name": "Emperador Ōjin",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Emperor_%C5%8Cjin",
+        "identityResolution": {
+          "requested": "Emperor Ōjin",
+          "canonical": "Emperor Ōjin",
+          "qid": "Q317997"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q313119",
+        "title": "Emperor Nintoku",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Nintoku",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Japan",
+          "raw": "313–399 (traditional)<ref>{{cite web|archiveurl=https://web.archive.org/web/20110322210732/http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|archivedate=March 22, 2011|url=http://www.kunaicho.go.jp/e-about/genealogy/img/keizu-e.pdf|title=Genealogy of the Emperors of Japan|work=Kunaicho.go.jp|access-date=February 5, 2022}}</ref>",
+          "parsed": {
+            "start": "0313-01-01",
+            "end": "0399-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Emperor Ōjin",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat037-37",
+      "name": "Yamato · región de cortes",
+      "coordinates": [
+        135.82,
+        34.47
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Yamato_period",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Yamato · tradición de la corte"
+    },
+    {
+      "id": "seat037-37-own",
+      "name": "Yamato · región de cortes",
+      "coordinates": [
+        135.82,
+        34.47
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": false,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Yamato_period",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Yamato · tradición de la corte"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review037-tradition",
+      "type": "institution",
+      "title": "Yamato y listas retrospectivas",
+      "start": "0300-01-01",
+      "end": "0400-01-01",
+      "text": "La cronología imperial temprana transmitida retrospectivamente es discutida. El punto de Yamato no fija una capital única ni fronteras nacionales.",
+      "source": "https://www.metmuseum.org/toah/ht/05/eaj.html",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q313119",
+      "name": "Emperador Nintoku",
+      "title": "Azuma nishiki chuya kurabe, Nintoku tenno (detail).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Azuma_nishiki_chuya_kurabe,_Nintoku_tenno_(detail).jpg",
+      "sha256": "bb044bd4c903996fad7a665230e61d14a27845669eb9369435d0a06325843d60",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Emperador Nintoku; no fotografía ni semejanza del natural acreditada."
+    }
+  ]
+}

@@ -45,8 +45,8 @@ export function snapshotFor(year: number): Snapshot {
   }
   if (year < -10000) return { kind: 'concept', year };
   if (year >= 2020) return { kind: 'modern', year, file: 'countries.geojson' };
-  if (year >= 400) return { kind: 'annual', year, file: year>=1886?'history.topojson':year>=1789?'early-modern.geojson':year>=1700?'early-modern-1700.geojson':year>=1600?'early-modern-1600.geojson':year>=1500?'early-modern-1500.geojson':year>=1400?'early-modern-1400.geojson':year>=1300?'early-modern-1300.geojson':year>=1200?'early-modern-1200.geojson':year>=1100?'early-modern-1100.geojson':year>=1000?'early-modern-1000.geojson':year>=900?'early-modern-900.geojson':year>=800?'early-modern-800.geojson':year>=700?'early-modern-700.geojson':year>=600?'early-modern-600.geojson':year>=500?'early-modern-500.geojson':'early-modern-400.geojson' };
+  if (year >= 300) return { kind: 'annual', year, file: year>=1886?'history.topojson':year>=1789?'early-modern.geojson':year>=1700?'early-modern-1700.geojson':year>=1600?'early-modern-1600.geojson':year>=1500?'early-modern-1500.geojson':year>=1400?'early-modern-1400.geojson':year>=1300?'early-modern-1300.geojson':year>=1200?'early-modern-1200.geojson':year>=1100?'early-modern-1100.geojson':year>=1000?'early-modern-1000.geojson':year>=900?'early-modern-900.geojson':year>=800?'early-modern-800.geojson':year>=700?'early-modern-700.geojson':year>=600?'early-modern-600.geojson':year>=500?'early-modern-500.geojson':year>=400?'early-modern-400.geojson':'early-modern-300.geojson' };
   const y = historicalYears.filter(y=>y<1789).reduce((a, b) => Math.abs(a - year) <= Math.abs(b - year) ? a : b);
   return { kind: 'historical', year: y, file: `world_${y < 0 ? `bc${-y}` : y}.geojson` };
 }
-export function playbackYear(year:number){return year>=400?Math.min(PRESENT,year+1):positionToYear(yearToPosition(year)+.075);}
+export function playbackYear(year:number){return year>=300?Math.min(PRESENT,year+1):positionToYear(yearToPosition(year)+.075);}

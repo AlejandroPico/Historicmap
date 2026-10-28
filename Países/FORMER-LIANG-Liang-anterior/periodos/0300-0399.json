@@ -1,0 +1,914 @@
+{
+  "key": "FORMER-LIANG",
+  "identity": {
+    "qid": "Q943392",
+    "name": "Liang anterior"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Liang anterior",
+      "officePattern": "Prince|Duke|Ruler|Governor|King",
+      "titles": [
+        "Zhang Gui",
+        "Zhang Shi (Former Liang)",
+        "Zhang Mao",
+        "Zhang Jun (prince)",
+        "Zhang Chonghua",
+        "Zhang Yaoling",
+        "Zhang Zuo",
+        "Zhang Xuanjing",
+        "Zhang Tianxi"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q700840",
+      "name": "Zhang Gui",
+      "role": "Gobernante de Liang anterior",
+      "start": "0313-01-01",
+      "end": "0314-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhang_Gui",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q708279",
+      "name": "Zhang Shi",
+      "role": "Gobernante de Liang anterior",
+      "start": "0314-01-01",
+      "end": "0320-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhang_Shi_%28Former_Liang%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712752",
+      "name": "Zhang Mao",
+      "role": "Gobernante de Liang anterior",
+      "start": "0320-01-01",
+      "end": "0324-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhang_Mao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712757",
+      "name": "Zhang Jun",
+      "role": "Gobernante de Liang anterior",
+      "start": "0324-01-01",
+      "end": "0346-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhang_Jun_%28prince%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712766",
+      "name": "Zhang Chonghua",
+      "role": "Gobernante de Liang anterior",
+      "start": "0346-01-01",
+      "end": "0353-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhang_Chonghua",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712760",
+      "name": "Zhang Yaoling",
+      "role": "Gobernante de Liang anterior",
+      "start": "0353-01-01",
+      "end": "0353-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhang_Yaoling",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712568",
+      "name": "Zhang Zuo",
+      "role": "Gobernante de Liang anterior",
+      "start": "0353-01-01",
+      "end": "0355-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhang_Zuo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712763",
+      "name": "Zhang Xuanjing",
+      "role": "Gobernante de Liang anterior",
+      "start": "0355-01-01",
+      "end": "0363-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhang_Xuanjing",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712747",
+      "name": "Zhang Tianxi",
+      "role": "Gobernante de Liang anterior",
+      "start": "0363-01-01",
+      "end": "0376-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhang_Tianxi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712747",
+      "name": "Zhang Tianxi",
+      "role": "Gobernante de Liang anterior",
+      "start": "0396-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhang_Tianxi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 301,
+      "end": 376,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Zhang_Gui",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Former Liang"
+        ],
+        "start": 300,
+        "end": 300,
+        "label": "Liang anterior · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Former Liang"
+        ],
+        "start": 301,
+        "end": 376,
+        "label": "Liang anterior",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Former Liang"
+        ],
+        "start": 377,
+        "end": 399,
+        "label": "Liang anterior · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "3f61440bb22d4c8f96f1a52376f9b48d0641bffa98dd16b910c96fb9a2508429",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1445,
+        1517
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Zhang Chonghua",
+        "title": "Zhang Chonghua",
+        "person": "Q712766",
+        "name": "Zhang Chonghua",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhang_Chonghua",
+        "identityResolution": {
+          "requested": "Zhang Chonghua",
+          "canonical": "Zhang Chonghua",
+          "qid": "Q712766"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712766",
+        "title": "Zhang Chonghua",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Chonghua",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Former Liang",
+            "raw": "346–353",
+            "parsed": {
+              "start": "0346-01-01",
+              "end": "0353-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Former Liang",
+            "raw": "346–353",
+            "parsed": {
+              "start": "0346-01-01",
+              "end": "0353-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Xiping",
+            "raw": "346–353",
+            "parsed": {
+              "start": "0346-01-01",
+              "end": "0353-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zhang Gui",
+        "title": "Zhang Gui",
+        "person": "Q700840",
+        "name": "Zhang Gui",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhang_Gui",
+        "identityResolution": {
+          "requested": "Zhang Gui",
+          "canonical": "Zhang Gui",
+          "qid": "Q700840"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q700840",
+        "title": "Zhang Gui",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Gui",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Inspector of Liang Province",
+            "raw": "301–314",
+            "parsed": {
+              "start": "0301-01-01",
+              "end": "0314-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Xiping",
+            "raw": "313–314",
+            "parsed": {
+              "start": "0313-01-01",
+              "end": "0314-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zhang Jun (prince)",
+        "title": "Zhang Jun (prince)",
+        "person": "Q712757",
+        "name": "Zhang Jun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhang_Jun_%28prince%29",
+        "identityResolution": {
+          "requested": "Zhang Jun (prince)",
+          "canonical": "Zhang Jun (prince)",
+          "qid": "Q712757"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712757",
+        "title": "Zhang Jun (prince)",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Jun_%28prince%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Former Liang",
+            "raw": "324–346",
+            "parsed": {
+              "start": "0324-01-01",
+              "end": "0346-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Former Liang",
+            "raw": "324–346",
+            "parsed": {
+              "start": "0324-01-01",
+              "end": "0346-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Xiping",
+            "raw": "324–346",
+            "parsed": {
+              "start": "0324-01-01",
+              "end": "0346-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zhang Mao",
+        "title": "Zhang Mao",
+        "person": "Q712752",
+        "name": "Zhang Mao",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhang_Mao",
+        "identityResolution": {
+          "requested": "Zhang Mao",
+          "canonical": "Zhang Mao",
+          "qid": "Q712752"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712752",
+        "title": "Zhang Mao",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Mao",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "ruler of Former Liang",
+            "raw": "320–324",
+            "parsed": {
+              "start": "0320-01-01",
+              "end": "0324-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Former Liang",
+            "raw": "323–324",
+            "parsed": {
+              "start": "0323-01-01",
+              "end": "0324-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Xiping",
+            "raw": "320–324",
+            "parsed": {
+              "start": "0320-01-01",
+              "end": "0324-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zhang Shi (Former Liang)",
+        "title": "Zhang Shi (Former Liang)",
+        "person": "Q708279",
+        "name": "Zhang Shi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhang_Shi_%28Former_Liang%29",
+        "identityResolution": {
+          "requested": "Zhang Shi (Former Liang)",
+          "canonical": "Zhang Shi (Former Liang)",
+          "qid": "Q708279"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q708279",
+        "title": "Zhang Shi (Former Liang)",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Shi_%28Former_Liang%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Inspector of Liang Province",
+            "raw": "314–320",
+            "parsed": {
+              "start": "0314-01-01",
+              "end": "0320-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Xiping",
+            "raw": "314–320 AD",
+            "parsed": {
+              "start": "0314-01-01",
+              "end": "0320-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zhang Tianxi",
+        "title": "Zhang Tianxi",
+        "person": "Q712747",
+        "name": "Zhang Tianxi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhang_Tianxi",
+        "identityResolution": {
+          "requested": "Zhang Tianxi",
+          "canonical": "Zhang Tianxi",
+          "qid": "Q712747"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q111640326",
+          "start": "0363-01-01",
+          "end": "0383-01-01",
+          "precision": 9,
+          "statement": "Q712747$256c2a7e-456f-7fe7-1ffe-50102bb3c10e",
+          "label": "gong"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712747",
+        "title": "Zhang Tianxi",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Tianxi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Former Liang",
+            "raw": "363–376",
+            "parsed": {
+              "start": "0363-01-01",
+              "end": "0376-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Xiping",
+            "raw": "363–376",
+            "parsed": {
+              "start": "0363-01-01",
+              "end": "0376-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Marquess of Guiyi",
+            "raw": "376–383",
+            "parsed": {
+              "start": "0376-01-01",
+              "end": "0383-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Xiping",
+            "raw": "396–406",
+            "parsed": {
+              "start": "0396-01-01",
+              "end": "0406-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zhang Xuanjing",
+        "title": "Zhang Xuanjing",
+        "person": "Q712763",
+        "name": "Zhang Xuanjing",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhang_Xuanjing",
+        "identityResolution": {
+          "requested": "Zhang Xuanjing",
+          "canonical": "Zhang Xuanjing",
+          "qid": "Q712763"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712763",
+        "title": "Zhang Xuanjing",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Xuanjing",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Former Liang",
+            "raw": "355–363",
+            "parsed": {
+              "start": "0355-01-01",
+              "end": "0363-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Former Liang",
+            "raw": "355–363",
+            "parsed": {
+              "start": "0355-01-01",
+              "end": "0363-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Xiping",
+            "raw": "355–363",
+            "parsed": {
+              "start": "0355-01-01",
+              "end": "0363-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zhang Yaoling",
+        "title": "Zhang Yaoling",
+        "person": "Q712760",
+        "name": "Zhang Yaoling",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhang_Yaoling",
+        "identityResolution": {
+          "requested": "Zhang Yaoling",
+          "canonical": "Zhang Yaoling",
+          "qid": "Q712760"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712760",
+        "title": "Zhang Yaoling",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Yaoling",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Former Liang",
+            "raw": "353",
+            "parsed": {
+              "start": "0353-01-01",
+              "end": "0353-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Xiping",
+            "raw": "353–354",
+            "parsed": {
+              "start": "0353-01-01",
+              "end": "0354-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zhang Zuo",
+        "title": "Zhang Zuo",
+        "person": "Q712568",
+        "name": "Zhang Zuo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhang_Zuo",
+        "identityResolution": {
+          "requested": "Zhang Zuo",
+          "canonical": "Zhang Zuo",
+          "qid": "Q712568"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712568",
+        "title": "Zhang Zuo",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Zuo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Former Liang",
+            "raw": "353–355",
+            "parsed": {
+              "start": "0353-01-01",
+              "end": "0355-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Former Liang",
+            "raw": "354–355",
+            "parsed": {
+              "start": "0354-01-01",
+              "end": "0355-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 10,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q700840",
+        "title": "Zhang Gui",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Gui",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Xiping",
+          "raw": "313–314",
+          "parsed": {
+            "start": "0313-01-01",
+            "end": "0314-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q708279",
+        "title": "Zhang Shi (Former Liang)",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Shi_%28Former_Liang%29",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Xiping",
+          "raw": "314–320 AD",
+          "parsed": {
+            "start": "0314-01-01",
+            "end": "0320-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712752",
+        "title": "Zhang Mao",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Mao",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "ruler of Former Liang",
+          "raw": "320–324",
+          "parsed": {
+            "start": "0320-01-01",
+            "end": "0324-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712757",
+        "title": "Zhang Jun (prince)",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Jun_%28prince%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Former Liang",
+          "raw": "324–346",
+          "parsed": {
+            "start": "0324-01-01",
+            "end": "0346-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712766",
+        "title": "Zhang Chonghua",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Chonghua",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Former Liang",
+          "raw": "346–353",
+          "parsed": {
+            "start": "0346-01-01",
+            "end": "0353-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712760",
+        "title": "Zhang Yaoling",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Yaoling",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Former Liang",
+          "raw": "353",
+          "parsed": {
+            "start": "0353-01-01",
+            "end": "0353-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712568",
+        "title": "Zhang Zuo",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Zuo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Former Liang",
+          "raw": "353–355",
+          "parsed": {
+            "start": "0353-01-01",
+            "end": "0355-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712763",
+        "title": "Zhang Xuanjing",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Xuanjing",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Former Liang",
+          "raw": "355–363",
+          "parsed": {
+            "start": "0355-01-01",
+            "end": "0363-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712747",
+        "title": "Zhang Tianxi",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Tianxi",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Former Liang",
+          "raw": "363–376",
+          "parsed": {
+            "start": "0363-01-01",
+            "end": "0376-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712747",
+        "title": "Zhang Tianxi",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Tianxi",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Xiping",
+          "raw": "396–406",
+          "parsed": {
+            "start": "0396-01-01",
+            "end": "0406-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-17",
+      "name": "Guzang · centro de Liang",
+      "coordinates": [
+        102.64,
+        37.93
+      ],
+      "start": 301,
+      "end": 376,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Former_Liang",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Liang anterior"
+    },
+    {
+      "id": "seat037-17-own",
+      "name": "Guzang · centro de Liang",
+      "coordinates": [
+        102.64,
+        37.93
+      ],
+      "start": 301,
+      "end": 376,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Former_Liang",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Liang anterior"
+    }
+  ]
+}

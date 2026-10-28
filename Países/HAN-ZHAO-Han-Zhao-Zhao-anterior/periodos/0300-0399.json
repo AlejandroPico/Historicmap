@@ -1,0 +1,674 @@
+{
+  "key": "HAN-ZHAO",
+  "identity": {
+    "qid": "Q1574107",
+    "name": "Han Zhao · Zhao anterior"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Han Zhao",
+      "officePattern": "Emperor|King",
+      "titles": [
+        "Liu Yuan (Han Zhao)",
+        "Liu He (Han Zhao)",
+        "Liu Cong (Han Zhao)",
+        "Liu Can",
+        "Jin Zhun",
+        "Liu Yao"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q714159",
+      "name": "Liu Yuan",
+      "role": "Gobernante de Han Zhao",
+      "start": "0308-11-02",
+      "end": "0310-08-29",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Liu_Yuan_%28Han-Zhao%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q714140",
+      "name": "Liu He",
+      "role": "Gobernante de Han Zhao",
+      "start": "0310-01-01",
+      "end": "0310-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_He_%28Han-Zhao%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q714176",
+      "name": "Liu Cong",
+      "role": "Gobernante de Han Zhao",
+      "start": "0310-09-28",
+      "end": "0318-08-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Liu_Cong_%28Han-Zhao%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1152735",
+      "name": "Liu Can",
+      "role": "Gobernante de Han Zhao",
+      "start": "0318-09-01",
+      "end": "0318-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Can",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1028544",
+      "name": "Jin Zhun",
+      "role": "Gobernante de Han Zhao",
+      "start": "0318-01-01",
+      "end": "0318-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jin_Zhun",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1149197",
+      "name": "Liu Yao",
+      "role": "Gobernante de Han Zhao",
+      "start": "0318-01-01",
+      "end": "0329-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Yao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 304,
+      "end": 329,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Liu_Yuan_%28Han-Zhao%29",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Former Zhao"
+        ],
+        "start": 300,
+        "end": 303,
+        "label": "Han Zhao · Zhao anterior · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Former Zhao"
+        ],
+        "start": 304,
+        "end": 329,
+        "label": "Han Zhao · Zhao anterior",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Former Zhao"
+        ],
+        "start": 330,
+        "end": 399,
+        "label": "Han Zhao · Zhao anterior · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "170573b619f957599f4e7b0696801e7d4bf91b9794373eb62e201cf924e57f14",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1428,
+        1434,
+        1444
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Jin Zhun",
+        "title": "Jin Zhun",
+        "person": "Q1028544",
+        "name": "Jin Zhun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jin_Zhun",
+        "identityResolution": {
+          "requested": "Jin Zhun",
+          "canonical": "Jin Zhun",
+          "qid": "Q1028544"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1028544",
+        "title": "Jin Zhun",
+        "source": "https://en.wikipedia.org/wiki/Jin_Zhun",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Han-Zhao",
+            "raw": "318",
+            "parsed": {
+              "start": "0318-01-01",
+              "end": "0318-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Liu Can",
+        "title": "Liu Can",
+        "person": "Q1152735",
+        "name": "Liu Can",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Liu_Can",
+        "identityResolution": {
+          "requested": "Liu Can",
+          "canonical": "Liu Can",
+          "qid": "Q1152735"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0318-01-01",
+          "end": "0318-01-01",
+          "precision": 9,
+          "statement": "Q1152735$f1b21b0e-ace3-4ae2-9651-a139c93ed1c7",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1152735",
+        "title": "Liu Can",
+        "source": "https://en.wikipedia.org/wiki/Liu_Can",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Han-Zhao",
+            "raw": "September 1, 318<ref name=ZZTJ90/><ref>''jia'zi'' day of the 7th month of the 1st year of the ''Tai'xing'' era of the reign of [[Emperor Yuan of Jin]]</ref> – 318",
+            "parsed": {
+              "start": "0318-09-01",
+              "end": "0318-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Han-Zhao",
+            "raw": "318",
+            "parsed": {
+              "start": "0318-01-01",
+              "end": "0318-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Liu Cong (Han Zhao)",
+        "title": "Liu Cong (Han Zhao)",
+        "person": "Q714176",
+        "name": "Liu Cong",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Liu_Cong_%28Han-Zhao%29",
+        "identityResolution": {
+          "requested": "Liu Cong (Han Zhao)",
+          "canonical": "Liu Cong (Han-Zhao)",
+          "qid": "Q714176"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0310-01-01",
+          "end": "0318-01-01",
+          "precision": 9,
+          "statement": "Q714176$92c4da39-4c4e-4166-9605-5a0ac3925499",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q714176",
+        "title": "Liu Cong (Han-Zhao)",
+        "source": "https://en.wikipedia.org/wiki/Liu_Cong_%28Han-Zhao%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Han-Zhao",
+            "raw": "September 28, 310<ref>{{Cite web|url=http://www.sinica.edu.tw/ftms-bin/kiwi1/luso.sh?lstype=2&dyna=%A6%E8%AE%CA&king=%C3h%AB%D2&reign=%A5%C3%B9%C5&yy=4&ycanzi=&mm=8&dd=&dcanzi=%A4v%A8%BB|title = 中央研究院}}</ref><ref>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷087|vol. 87]].</ref> – August 31, 318<ref name=death/>",
+            "parsed": {
+              "start": "0310-09-28",
+              "end": "0318-08-31",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Han-Zhao",
+            "raw": "310–318",
+            "parsed": {
+              "start": "0310-01-01",
+              "end": "0318-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Liu He (Han Zhao)",
+        "title": "Liu He (Han Zhao)",
+        "person": "Q714140",
+        "name": "Liu He",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Liu_He_%28Han-Zhao%29",
+        "identityResolution": {
+          "requested": "Liu He (Han Zhao)",
+          "canonical": "Liu He (Han-Zhao)",
+          "qid": "Q714140"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0310-01-01",
+          "end": "0310-01-01",
+          "precision": 9,
+          "statement": "Q714140$6184d3e1-053f-462b-8bd6-2b9dfff46a99",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q714140",
+        "title": "Liu He (Han-Zhao)",
+        "source": "https://en.wikipedia.org/wiki/Liu_He_%28Han-Zhao%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Han-Zhao",
+            "raw": "310",
+            "parsed": {
+              "start": "0310-01-01",
+              "end": "0310-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Han-Zhao",
+            "raw": "310",
+            "parsed": {
+              "start": "0310-01-01",
+              "end": "0310-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Liu Yao",
+        "title": "Liu Yao",
+        "person": "Q1149197",
+        "name": "Liu Yao",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Liu_Yao",
+        "identityResolution": {
+          "requested": "Liu Yao",
+          "canonical": "Liu Yao",
+          "qid": "Q1149197"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0318-01-01",
+          "end": "0329-01-01",
+          "precision": 9,
+          "statement": "Q1149197$a28997ff-aaca-4e7a-b452-8416adbe8e78",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149197",
+        "title": "Liu Yao",
+        "source": "https://en.wikipedia.org/wiki/Liu_Yao",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Han-Zhao",
+            "raw": "318–329",
+            "parsed": {
+              "start": "0318-01-01",
+              "end": "0329-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Han-Zhao",
+            "raw": "318–329",
+            "parsed": {
+              "start": "0318-01-01",
+              "end": "0329-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Liu Yuan (Han Zhao)",
+        "title": "Liu Yuan (Han Zhao)",
+        "person": "Q714159",
+        "name": "Liu Yuan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Liu_Yuan_%28Han-Zhao%29",
+        "identityResolution": {
+          "requested": "Liu Yuan (Han Zhao)",
+          "canonical": "Liu Yuan (Han-Zhao)",
+          "qid": "Q714159"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0304-01-01",
+          "end": "0310-01-01",
+          "precision": 9,
+          "statement": "Q714159$88178f65-c358-4ca7-bdf6-e07758195c82",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q714159",
+        "title": "Liu Yuan (Han-Zhao)",
+        "source": "https://en.wikipedia.org/wiki/Liu_Yuan_%28Han-Zhao%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Han-Zhao",
+            "raw": "2 November 308{{efn|''jiaxu'' day of the 10th month of the 2nd year of the ''Yongjia'' era, per vol.86 of ''Zizhi Tongjian''. In 304, Liu Yuan took on the title of \"King of Han\".}} – 29 August 310",
+            "parsed": {
+              "start": "0308-11-02",
+              "end": "0310-08-29",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Han",
+            "raw": "304–308",
+            "parsed": {
+              "start": "0304-01-01",
+              "end": "0308-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Han-Zhao",
+            "raw": "308–310",
+            "parsed": {
+              "start": "0308-01-01",
+              "end": "0310-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q714159",
+        "title": "Liu Yuan (Han Zhao)",
+        "source": "https://en.wikipedia.org/wiki/Liu_Yuan_%28Han-Zhao%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Han-Zhao",
+          "raw": "2 November 308{{efn|''jiaxu'' day of the 10th month of the 2nd year of the ''Yongjia'' era, per vol.86 of ''Zizhi Tongjian''. In 304, Liu Yuan took on the title of \"King of Han\".}} – 29 August 310",
+          "parsed": {
+            "start": "0308-11-02",
+            "end": "0310-08-29",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q714140",
+        "title": "Liu He (Han Zhao)",
+        "source": "https://en.wikipedia.org/wiki/Liu_He_%28Han-Zhao%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Han-Zhao",
+          "raw": "310",
+          "parsed": {
+            "start": "0310-01-01",
+            "end": "0310-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q714176",
+        "title": "Liu Cong (Han Zhao)",
+        "source": "https://en.wikipedia.org/wiki/Liu_Cong_%28Han-Zhao%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Han-Zhao",
+          "raw": "September 28, 310<ref>{{Cite web|url=http://www.sinica.edu.tw/ftms-bin/kiwi1/luso.sh?lstype=2&dyna=%A6%E8%AE%CA&king=%C3h%AB%D2&reign=%A5%C3%B9%C5&yy=4&ycanzi=&mm=8&dd=&dcanzi=%A4v%A8%BB|title = 中央研究院}}</ref><ref>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷087|vol. 87]].</ref> – August 31, 318<ref name=death/>",
+          "parsed": {
+            "start": "0310-09-28",
+            "end": "0318-08-31",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1152735",
+        "title": "Liu Can",
+        "source": "https://en.wikipedia.org/wiki/Liu_Can",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Han-Zhao",
+          "raw": "September 1, 318<ref name=ZZTJ90/><ref>''jia'zi'' day of the 7th month of the 1st year of the ''Tai'xing'' era of the reign of [[Emperor Yuan of Jin]]</ref> – 318",
+          "parsed": {
+            "start": "0318-09-01",
+            "end": "0318-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1028544",
+        "title": "Jin Zhun",
+        "source": "https://en.wikipedia.org/wiki/Jin_Zhun",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Han-Zhao",
+          "raw": "318",
+          "parsed": {
+            "start": "0318-01-01",
+            "end": "0318-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1149197",
+        "title": "Liu Yao",
+        "source": "https://en.wikipedia.org/wiki/Liu_Yao",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Han-Zhao",
+          "raw": "318–329",
+          "parsed": {
+            "start": "0318-01-01",
+            "end": "0329-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-13",
+      "name": "Pingyang · corte Han Zhao",
+      "coordinates": [
+        111.51,
+        36.09
+      ],
+      "start": 309,
+      "end": 318,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Han-Zhao",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Han Zhao · Zhao anterior"
+    },
+    {
+      "id": "seat037-13-own",
+      "name": "Pingyang · corte Han Zhao",
+      "coordinates": [
+        111.51,
+        36.09
+      ],
+      "start": 309,
+      "end": 318,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Han-Zhao",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Han Zhao · Zhao anterior"
+    },
+    {
+      "id": "seat037-14",
+      "name": "Chang’an · corte Han Zhao",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 318,
+      "end": 329,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Han-Zhao",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Han Zhao · Zhao anterior"
+    },
+    {
+      "id": "seat037-14-own",
+      "name": "Chang’an · corte Han Zhao",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 318,
+      "end": 329,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Han-Zhao",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Han Zhao · Zhao anterior"
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "key": "HIST-Q2086608",
+  "identity": {
+    "qid": "Q2086608",
+    "name": "Western Satraps"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Sátrapa occidental · poder regional",
+      "officePattern": "Satrap|Ruler|King",
+      "titles": [
+        "Bhartrdaman",
+        "Visvasena",
+        "Rudrasimha II",
+        "Yasodaman II",
+        "Rudradaman II",
+        "Rudrasena III",
+        "Simhasena",
+        "Rudrasena IV",
+        "Rudrasimha III"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q75863759",
+      "name": "Visvasena",
+      "role": "Sátrapa occidental · poder regional",
+      "start": "0300-01-01",
+      "end": "0304-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Visvasena",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q48726681",
+      "name": "Rudrasimha II",
+      "role": "Sátrapa occidental · poder regional",
+      "start": "0304-01-01",
+      "end": "0348-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rudrasimha_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q48726684",
+      "name": "Yasodaman II",
+      "role": "Sátrapa occidental · poder regional",
+      "start": "0317-01-01",
+      "end": "0332-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yasodaman_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q7377529",
+      "name": "Rudrasimha III",
+      "role": "Sátrapa occidental · poder regional",
+      "start": "0388-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rudrasimha_III",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-28457da730eb1388a78f.jpg",
+        "title": "Bhadramukhas ruler Rudrasimha III Circa 385-415 CE.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Bhadramukhas_ruler_Rudrasimha_III_Circa_385-415_CE.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Bhadramukhas_ruler_Rudrasimha_III_Circa_385-415_CE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG Coins",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CNG Coins Coin from CNG coins. Used with permission (CNG coin [1]).  Coin [2]",
+        "sha256": "a739c3c35837adcb3e03075932028b3b278d149bed60fd9dac625c5c695a0eae",
+        "bytes": 108261,
+        "canonicalFile": "Países/HIST-Q2086608-Western-Satraps/retratos/portrait-28457da730eb1388a78f.jpg",
+        "caption": "Efigie monetaria convencional de Rudrasimha III; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "LOCAL-SIMHASENA-KSHATRAPA",
+      "name": "Simhasena",
+      "role": "Mahākshatrapa · testimonios numismáticos",
+      "start": "0382-01-01",
+      "end": "0384-12-31",
+      "precision": 9,
+      "source": "https://coinindia.com/galleries-simhasena.html",
+      "note": "Monedas datadas382 y384; ventana de testimonios, no mandato completo indiscutido. No confundir con Chandragupta Maurya, homónimo al que redirige una búsqueda."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Visvasena",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Satraps"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Western Satraps",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "71c180a11a5696e84b0f7b31c3f5f043ce3bc9a1f5cf7c233c11602e0f1c669e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1380,
+        1425,
+        1465,
+        1480,
+        1531
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bhartrdaman",
+        "title": "Bhartrdaman",
+        "person": "Q4901328",
+        "name": "Bhartrdaman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bhartrdaman",
+        "identityResolution": {
+          "requested": "Bhartrdaman",
+          "canonical": "Bhartrdaman",
+          "qid": "Q4901328"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4901328",
+        "title": "Bhartrdaman",
+        "source": "https://en.wikipedia.org/wiki/Bhartrdaman",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Western Satrap king",
+            "raw": "278-295 CE",
+            "parsed": {
+              "start": "0278-01-01",
+              "end": "0295-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rudradaman II",
+        "title": "Rudradaman II",
+        "person": "",
+        "name": "Rudradaman II",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Rudradaman_II",
+        "identityResolution": {
+          "requested": "Rudradaman II",
+          "canonical": "Rudradaman II",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rudrasena III",
+        "title": "Rudrasena III",
+        "person": "",
+        "name": "Rudrasena III",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Rudrasena_III",
+        "identityResolution": {
+          "requested": "Rudrasena III",
+          "canonical": "Rudrasena III",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rudrasena IV",
+        "title": "Rudrasena IV",
+        "person": "",
+        "name": "Rudrasena IV",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Rudrasena_IV",
+        "identityResolution": {
+          "requested": "Rudrasena IV",
+          "canonical": "Rudrasena IV",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rudrasimha II",
+        "title": "Rudrasimha II",
+        "person": "Q48726681",
+        "name": "Rudrasimha II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rudrasimha_II",
+        "identityResolution": {
+          "requested": "Rudrasimha II",
+          "canonical": "Rudrasimha II",
+          "qid": "Q48726681"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q48726681",
+        "title": "Rudrasimha II",
+        "source": "https://en.wikipedia.org/wiki/Rudrasimha_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Western Satrap king",
+            "raw": "304–348",
+            "parsed": {
+              "start": "0304-01-01",
+              "end": "0348-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rudrasimha III",
+        "title": "Rudrasimha III",
+        "person": "Q7377529",
+        "name": "Rudrasimha III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rudrasimha_III",
+        "identityResolution": {
+          "requested": "Rudrasimha III",
+          "canonical": "Rudrasimha III",
+          "qid": "Q7377529"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7377529",
+        "title": "Rudrasimha III",
+        "source": "https://en.wikipedia.org/wiki/Rudrasimha_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Western Satrap",
+            "raw": "c. 388 – 415 AD",
+            "parsed": {
+              "start": "0388-01-01",
+              "end": "0415-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Simhasena",
+        "title": "Simhasena",
+        "person": "Q188541",
+        "name": "Chandragupta Maurya",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chandragupta_Maurya",
+        "identityResolution": {
+          "requested": "Simhasena",
+          "canonical": "Chandragupta Maurya",
+          "qid": "Q188541"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q188541",
+        "title": "Chandragupta Maurya",
+        "source": "https://en.wikipedia.org/wiki/Chandragupta_Maurya",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "1st Mauryan Emperor",
+            "raw": "{{circa|320|297 BCE}}<ref name=britchandrag/>{{sfn|Upinder Singh|2016|p=330}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of the Maurya Empire",
+            "raw": "322–297 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Visvasena",
+        "title": "Visvasena",
+        "person": "Q75863759",
+        "name": "Visvasena",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Visvasena",
+        "identityResolution": {
+          "requested": "Visvasena",
+          "canonical": "Visvasena",
+          "qid": "Q75863759"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q75863759",
+        "title": "Visvasena",
+        "source": "https://en.wikipedia.org/wiki/Visvasena",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Western Satraps",
+            "raw": "293-304 CE",
+            "parsed": {
+              "start": "0293-01-01",
+              "end": "0304-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yasodaman II",
+        "title": "Yasodaman II",
+        "person": "Q48726684",
+        "name": "Yasodaman II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yasodaman_II",
+        "identityResolution": {
+          "requested": "Yasodaman II",
+          "canonical": "Yasodaman II",
+          "qid": "Q48726684"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q48726684",
+        "title": "Yasodaman II",
+        "source": "https://en.wikipedia.org/wiki/Yasodaman_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Western Satrap king",
+            "raw": "317–332",
+            "parsed": {
+              "start": "0317-01-01",
+              "end": "0332-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q75863759",
+        "title": "Visvasena",
+        "source": "https://en.wikipedia.org/wiki/Visvasena",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Western Satraps",
+          "raw": "293-304 CE",
+          "parsed": {
+            "start": "0293-01-01",
+            "end": "0304-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q48726681",
+        "title": "Rudrasimha II",
+        "source": "https://en.wikipedia.org/wiki/Rudrasimha_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Western Satrap king",
+          "raw": "304–348",
+          "parsed": {
+            "start": "0304-01-01",
+            "end": "0348-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q48726684",
+        "title": "Yasodaman II",
+        "source": "https://en.wikipedia.org/wiki/Yasodaman_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Western Satrap king",
+          "raw": "317–332",
+          "parsed": {
+            "start": "0317-01-01",
+            "end": "0332-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q7377529",
+        "title": "Rudrasimha III",
+        "source": "https://en.wikipedia.org/wiki/Rudrasimha_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Western Satrap",
+          "raw": "c. 388 – 415 AD",
+          "parsed": {
+            "start": "0388-01-01",
+            "end": "0415-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Rudradaman II",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Rudrasena III",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Simhasena",
+        "person": "Q188541",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Rudrasena IV",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "LOCAL-SIMHASENA-KSHATRAPA",
+      "name": "Simhasena",
+      "role": "Mahākshatrapa · testimonios numismáticos",
+      "start": "0382-01-01",
+      "end": "0384-12-31",
+      "precision": 9,
+      "source": "https://coinindia.com/galleries-simhasena.html",
+      "note": "Monedas datadas382 y384; ventana de testimonios, no mandato completo indiscutido. No confundir con Chandragupta Maurya, homónimo al que redirige una búsqueda."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q7377529",
+      "name": "Rudrasimha III",
+      "title": "Bhadramukhas ruler Rudrasimha III Circa 385-415 CE.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bhadramukhas_ruler_Rudrasimha_III_Circa_385-415_CE.jpg",
+      "sha256": "a739c3c35837adcb3e03075932028b3b278d149bed60fd9dac625c5c695a0eae",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Rudrasimha III; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "key": "HUNNIC-EMPIRE",
+  "identity": {
+    "qid": "Q45813",
+    "name": "Agrupaciones hunas · referencia regional"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Jefatura huna · testimonio",
+      "officePattern": "King|Ruler|Leader",
+      "titles": [
+        "Balamber"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review037-huns",
+      "type": "institution",
+      "title": "Agrupaciones hunas y tradiciones de jefatura",
+      "start": "0300-01-01",
+      "end": "0400-01-01",
+      "text": "El contorno general no es el imperio de Atila del sigloV. Balamber tiene atribución y cronología discutidas; no se inventa un monarca de todos los hunos durante el sigloIV.",
+      "source": "https://en.wikipedia.org/wiki/Balamber",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Huns"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Agrupaciones hunas · referencia regional · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "a485986397c49931d8b6b569aae9633fd549b888944cdb8bd39bb995abd1e28a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1222,
+        1514,
+        1516,
+        1523,
+        1532,
+        1588,
+        1595,
+        1602
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Balamber",
+        "title": "Balamber",
+        "person": "Q804620",
+        "name": "Balamber",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Balamber",
+        "identityResolution": {
+          "requested": "Balamber",
+          "canonical": "Balamber",
+          "qid": "Q804620"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28054704",
+          "start": "0360-01-01",
+          "end": "0370-01-01",
+          "precision": 8,
+          "statement": "Q804620$0cb9409e-4566-f017-1174-df52ac5d491b",
+          "label": "rey de los Hunos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q804620",
+        "title": "Balamber",
+        "source": "https://en.wikipedia.org/wiki/Balamber",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Huns",
+            "raw": "370s",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Balamber",
+        "person": "Q804620",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "contexts": [
+    {
+      "id": "review037-huns",
+      "type": "institution",
+      "title": "Agrupaciones hunas y tradiciones de jefatura",
+      "start": "0300-01-01",
+      "end": "0400-01-01",
+      "text": "El contorno general no es el imperio de Atila del sigloV. Balamber tiene atribución y cronología discutidas; no se inventa un monarca de todos los hunos durante el sigloIV.",
+      "source": "https://en.wikipedia.org/wiki/Balamber",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ]
+}

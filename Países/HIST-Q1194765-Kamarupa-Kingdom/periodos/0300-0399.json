@@ -1,0 +1,201 @@
+{
+  "key": "HIST-Q1194765",
+  "identity": {
+    "qid": "Q1194765",
+    "name": "Kamarupa Kingdom"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Kamarupa",
+      "officePattern": "King|Maharaja|Varman",
+      "titles": [
+        "Pushyavarman",
+        "Samudravarman",
+        "Balavarman I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1143895",
+      "name": "Pushya Varman",
+      "role": "Rey de Kamarupa",
+      "start": "0350-01-01",
+      "end": "0374-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pushyavarman",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pushyavarman",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kamarupa Kingdom"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Kamarupa Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "850d199dc2e7b6adf3520a3932f5f9c472f535eb50c17af5b553d9137f88734b",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1490
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Balavarman I",
+        "title": "Balavarman I",
+        "person": "",
+        "name": "Balavarman I",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Balavarman_I",
+        "identityResolution": {
+          "requested": "Balavarman I",
+          "canonical": "Balavarman I",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pushyavarman",
+        "title": "Pushyavarman",
+        "person": "Q1143895",
+        "name": "Pushya Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pushyavarman",
+        "identityResolution": {
+          "requested": "Pushyavarman",
+          "canonical": "Pushyavarman",
+          "qid": "Q1143895"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1143895",
+        "title": "Pushyavarman",
+        "source": "https://en.wikipedia.org/wiki/Pushyavarman",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Kamarupa",
+            "raw": "350&ndash;374",
+            "parsed": {
+              "start": "0350-01-01",
+              "end": "0374-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Samudravarman",
+        "title": "Samudravarman",
+        "person": "Q1143770",
+        "name": "Samudra Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Samudravarman",
+        "identityResolution": {
+          "requested": "Samudravarman",
+          "canonical": "Samudravarman",
+          "qid": "Q1143770"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1143770",
+        "title": "Samudravarman",
+        "source": "https://en.wikipedia.org/wiki/Samudravarman",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1143895",
+        "title": "Pushyavarman",
+        "source": "https://en.wikipedia.org/wiki/Pushyavarman",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Kamarupa",
+          "raw": "350&ndash;374",
+          "parsed": {
+            "start": "0350-01-01",
+            "end": "0374-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Samudravarman",
+        "person": "Q1143770",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Balavarman I",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "key": "WESTERN-QIN",
+  "identity": {
+    "qid": "Q1668970",
+    "name": "Qin occidental"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Qin occidental",
+      "officePattern": "King|Prince",
+      "titles": [
+        "Qifu Guoren",
+        "Qifu Gangui"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1069809",
+      "name": "Qifu Guoren",
+      "role": "Gobernante de Qin occidental",
+      "start": "0385-01-01",
+      "end": "0388-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qifu_Guoren",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1071576",
+      "name": "Qifu Gangui",
+      "role": "Gobernante de Qin occidental",
+      "start": "0388-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qifu_Gangui",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 385,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Qifu_Guoren",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Qin"
+        ],
+        "start": 300,
+        "end": 384,
+        "label": "Qin occidental · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Qin"
+        ],
+        "start": 385,
+        "end": 399,
+        "label": "Qin occidental",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "3df145eba7d5dd8ee5e75705dd40d8a7ef1e436d8a109ff238da86cb8e3dfb71",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1542,
+        1576,
+        1609
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Qifu Gangui",
+        "title": "Qifu Gangui",
+        "person": "Q1071576",
+        "name": "Qifu Gangui",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Qifu_Gangui",
+        "identityResolution": {
+          "requested": "Qifu Gangui",
+          "canonical": "Qifu Gangui",
+          "qid": "Q1071576"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0388-01-01",
+          "end": "0400-01-01",
+          "precision": 9,
+          "statement": "Q1071576$b5656a57-4145-7004-6d23-15c9a466d516",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1071576",
+        "title": "Qifu Gangui",
+        "source": "https://en.wikipedia.org/wiki/Qifu_Gangui",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Western Qin",
+            "raw": "388–400",
+            "parsed": {
+              "start": "0388-01-01",
+              "end": "0400-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Ruler of Western Qin",
+            "raw": "409–412",
+            "parsed": {
+              "start": "0409-01-01",
+              "end": "0412-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Western Qin",
+            "raw": "388–400",
+            "parsed": {
+              "start": "0388-01-01",
+              "end": "0400-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Western Qin",
+            "raw": "409–412",
+            "parsed": {
+              "start": "0409-01-01",
+              "end": "0412-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Marquess of Guiyi",
+            "raw": "400–409",
+            "parsed": {
+              "start": "0400-01-01",
+              "end": "0409-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Qifu Guoren",
+        "title": "Qifu Guoren",
+        "person": "Q1069809",
+        "name": "Qifu Guoren",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Qifu_Guoren",
+        "identityResolution": {
+          "requested": "Qifu Guoren",
+          "canonical": "Qifu Guoren",
+          "qid": "Q1069809"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0385-01-01",
+          "end": "0388-01-01",
+          "precision": 9,
+          "statement": "Q1069809$37b41406-4bae-1fe1-1f84-a0d4a80e125c",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1069809",
+        "title": "Qifu Guoren",
+        "source": "https://en.wikipedia.org/wiki/Qifu_Guoren",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Western Qin",
+            "raw": "385–388",
+            "parsed": {
+              "start": "0385-01-01",
+              "end": "0388-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Western Qin",
+            "raw": "385–388",
+            "parsed": {
+              "start": "0385-01-01",
+              "end": "0388-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1069809",
+        "title": "Qifu Guoren",
+        "source": "https://en.wikipedia.org/wiki/Qifu_Guoren",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Prince of Western Qin",
+          "raw": "385–388",
+          "parsed": {
+            "start": "0385-01-01",
+            "end": "0388-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1071576",
+        "title": "Qifu Gangui",
+        "source": "https://en.wikipedia.org/wiki/Qifu_Gangui",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Prince of Western Qin",
+          "raw": "388–400",
+          "parsed": {
+            "start": "0388-01-01",
+            "end": "0400-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-23",
+      "name": "Jincheng · corte Qin occidental",
+      "coordinates": [
+        103.83,
+        36.06
+      ],
+      "start": 385,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Western_Qin",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Qin occidental"
+    },
+    {
+      "id": "seat037-23-own",
+      "name": "Jincheng · corte Qin occidental",
+      "coordinates": [
+        103.83,
+        36.06
+      ],
+      "start": 385,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Western_Qin",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Qin occidental"
+    }
+  ]
+}

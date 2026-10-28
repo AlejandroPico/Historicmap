@@ -1,0 +1,94 @@
+{
+  "key": "CULTURE-CARIBBEAN-Y0300",
+  "contextKey": "CULTURE-CARIBBEAN",
+  "ownerKey": "CULTURE-CARIBBEAN",
+  "name": "Comunidades del Caribe · referencia regional",
+  "originalNames": [
+    "Caribbean hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Caribe",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    300,
+    399
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea300 contiene etiquetas de épocas distintas. La ventana300–399 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de300",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#929e87",
+  "focus": [
+    -66.19972,
+    10.20442
+  ],
+  "phases": [
+    {
+      "start": 300,
+      "end": 399,
+      "label": "Comunidades del Caribe · referencia regional",
+      "dateBasis": "Referencia regional de la fuente editorial300; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-CARIBBEAN-Y0300.geojson",
+  "geometrySha256": "10024fefbc0b20db979eec3078b250352fc1d93fef56e639ca4e734043b6801c",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson",
+    "year": 300,
+    "featureIds": [
+      169
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297"
+  },
+  "review": "0.37.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final399 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en400."
+  ],
+  "originalSourceProperties": [
+    {
+      "cat": null,
+      "NAME": "Caribbean hunter-gatherers",
+      "ABBREVN": "Caribbean hunter-gatherers",
+      "SUBJECTO": "Caribbean hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Caribbean hunter-gatherers"
+    }
+  ],
+  "sourceGrouping": [
+    "Caribbean hunter-gatherers"
+  ]
+}

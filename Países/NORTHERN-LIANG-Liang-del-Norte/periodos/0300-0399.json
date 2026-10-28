@@ -1,0 +1,198 @@
+{
+  "key": "NORTHERN-LIANG",
+  "identity": {
+    "qid": "Q1539360",
+    "name": "Liang del Norte"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Liang del Norte",
+      "officePattern": "King|Prince",
+      "titles": [
+        "Duan Ye"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1131409",
+      "name": "Duan Ye",
+      "role": "Gobernante de Liang del Norte",
+      "start": "0399-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Duan_Ye",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 397,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Duan_Ye",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Liang"
+        ],
+        "start": 300,
+        "end": 396,
+        "label": "Liang del Norte · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Liang"
+        ],
+        "start": 397,
+        "end": 399,
+        "label": "Liang del Norte",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "060df00300daf715e3232f8a5c5e35c02720b9aa67cea8a03c89ad3fb5f6e27a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1604
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Duan Ye",
+        "title": "Duan Ye",
+        "person": "Q1131409",
+        "name": "Duan Ye",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Duan_Ye",
+        "identityResolution": {
+          "requested": "Duan Ye",
+          "canonical": "Duan Ye",
+          "qid": "Q1131409"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0397-01-01",
+          "end": "0401-01-01",
+          "precision": 9,
+          "statement": "Q1131409$6100a875-4d9f-591d-b5c8-06ff5ce0436c",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1131409",
+        "title": "Duan Ye",
+        "source": "https://en.wikipedia.org/wiki/Duan_Ye",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Northern Liang",
+            "raw": "397–401",
+            "parsed": {
+              "start": "0397-01-01",
+              "end": "0401-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Jiankang",
+            "raw": "397–399",
+            "parsed": {
+              "start": "0397-01-01",
+              "end": "0399-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Northern Liang",
+            "raw": "399–401",
+            "parsed": {
+              "start": "0399-01-01",
+              "end": "0401-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1131409",
+        "title": "Duan Ye",
+        "source": "https://en.wikipedia.org/wiki/Duan_Ye",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Prince of Northern Liang",
+          "raw": "399–401",
+          "parsed": {
+            "start": "0399-01-01",
+            "end": "0401-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  }
+}

@@ -2,15 +2,15 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.36.0** · 28 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.37.0** · 28 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
-Revisión vigente: **pueblos y regiones de 400 al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-400-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
+Revisión vigente: **pueblos y regiones de 300 al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-300-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
 
-Ampliación 400–499: [geografía, autoridades, culturas y límites de revisión](docs/RESEARCH-400.md). Las fases posteriores se conservan. Cartografía política y áreas culturales se activan por separado en Capas y Filtros, con ambos controles activados al iniciar.
+Ampliación 300–399: [geografía, autoridades, culturas y límites de revisión](docs/RESEARCH-300.md). Las fases posteriores se conservan. Cartografía política y áreas culturales se activan por separado en Capas y Filtros, con ambos controles activados al iniciar. Las monedas tienen un encuadre revisado y las representaciones mantienen sus atribuciones y fechas.
 
 ## Empezar
 
@@ -31,7 +31,7 @@ Créditos cartográficos integrados en **Datos y fuentes → Créditos del mapa*
 - Regla temporal arrastrable con indicador, fecha y reproducción centrados. La rueda sobre la regla cambia la escala sin desplazar la fecha; sobre el mapa hace zoom geográfico. Las teclas más/menos ajustan la escala y las flechas recorren el tiempo.
 - Mapa a pantalla completa con ocho herramientas en la esquina superior derecha, sin cabecera ni franjas de controles alrededor de la regla. Filtros y Capas en paneles separados.
 - Navegación entre 4.540 Ma y el año del dispositivo, con escala adaptativa no uniforme y años introducidos por el usuario.
-- Cronología anual desde 400: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
+- Cronología anual desde 300: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
 - Control territorial opaco por potencia; colores específicos de regímenes, clientes y bandos. Primera y Segunda Guerra Mundial, Guerra Civil española 1936–1939 y control comunista chino, además de Sinaí, Golán y Crimea. Fuentes anuales y frente de octubre de 1937 identificados con su precisión.
 - [Corrección deEuropaCentral1938–1939](docs/CENTRAL-EUROPE-1939.md): sin manchas alemanas remotas, territorio integrado y Estado eslovaco cliente separado. El contorno eslovaco es una referencia recortada, no un levantamiento exacto de1939.
 - Banderas históricas, autoridades y retratos en las fichas. Catálogo ampliado de mandatos desde1880, con Estados predecesores, administraciones coloniales y cobertura mundial desigual; cada imagen conserva su licencia y autoría. [Alcance y fuentes1900–1919](docs/RESEARCH-1900.md) y [auditoría nominal de carencias](docs/REVIEW-1900-1919.json).
@@ -61,13 +61,13 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-GitHub Actions valida datos, pruebas temporales/históricas/estadísticas, compilación y recorridos de navegador: años 1789–actualidad, reproducción y pausa, peticiones lentas, fichas, ciudades, economía, cartografía anterior/geológica, zoom y móvil. Compila una vez y distribuye los 98 recorridos entre cuatro máquinas independientes. `Publish atlas` reutiliza el resultado exacto validado, tras `Quality` correcto en `main`, comprobando su revisión. [Funcionamiento y límites de publicación](docs/CI-PUBLICATION.md). No contiene secretos ni necesita un servidor propio. Las versiones exactas de dependencias figuran en `package-lock.json`.
+GitHub Actions valida datos, pruebas temporales/históricas/estadísticas, compilación y recorridos de navegador: años 1789–actualidad, reproducción y pausa, peticiones lentas, fichas, ciudades, economía, cartografía anterior/geológica, zoom y móvil. Compila una vez y distribuye los 101 recorridos entre cuatro máquinas independientes. `Publish atlas` reutiliza el resultado exacto validado, tras `Quality` correcto en `main`, comprobando su revisión. [Funcionamiento y límites de publicación](docs/CI-PUBLICATION.md). No contiene secretos ni necesita un servidor propio. Las versiones exactas de dependencias figuran en `package-lock.json`.
 
 ## Datos y continuidad
 
 Consultar **[agentes.md](agentes.md)** antes de modificar el proyecto. Contiene la visión completa, decisiones, arquitectura, roadmap, reglas de colaboración y estado real. [AGENTS.md](AGENTS.md) es el punto de entrada para asistentes que detectan ese nombre automáticamente.
 
-Las fuentes, licencias, atribuciones y límites se documentan en [docs/SOURCES.md](docs/SOURCES.md). `public/data/manifest.json` registra109 recursos locales, versiones, URLs, transformaciones y SHA-256. `npm run data:fetch` actualiza explícitamente las 26 instantáneas originales, conservando las nuevas capas. La adquisición y reconstrucción de las capas recientes se explica en SOURCES. No se descargan datos nuevos durante la compilación ni desde las fichas.
+Las fuentes, licencias, atribuciones y límites se documentan en [docs/SOURCES.md](docs/SOURCES.md). `public/data/manifest.json` registra112 recursos locales, versiones, URLs, transformaciones y SHA-256. `npm run data:fetch` actualiza explícitamente las 26 instantáneas originales, conservando las nuevas capas. La adquisición y reconstrucción de las capas recientes se explica en SOURCES. No se descargan datos nuevos durante la compilación ni desde las fichas.
 
 La cartografía funciona sin API key. Las geometrías, perfiles, series y letras del mapa utilizadas son locales. El relieve (AWS) y las fuentes tipográficas de interfaz (Google Fonts) requieren conexión. La aplicación no envía búsquedas a servicios externos ni incorpora analítica. No está implementada como aplicación instalable o completamente offline.
 

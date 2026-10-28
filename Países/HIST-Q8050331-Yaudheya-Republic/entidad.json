@@ -1,0 +1,51 @@
+{
+  "key": "HIST-Q8050331",
+  "name": "Yaudheya Republic",
+  "qid": "Q8050331",
+  "aliases": [
+    "Yaudheya Republic"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q8050331"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1420",
+      "start": 306,
+      "end": 346,
+      "name": "Yaudheya Republic",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1472",
+      "start": 347,
+      "end": 372,
+      "name": "Yaudheya Republic",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1521",
+      "start": 373,
+      "end": 377,
+      "name": "Yaudheya Republic",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

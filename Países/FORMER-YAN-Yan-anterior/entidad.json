@@ -1,0 +1,101 @@
+{
+  "key": "FORMER-YAN",
+  "name": "Yan anterior",
+  "qid": "Q1472004",
+  "aliases": [
+    "Former Yan",
+    "Yan anterior"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "FORMER-YAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1069778",
+      "name": "Murong Huang",
+      "role": "Gobernante de Yan anterior",
+      "start": "0337-11-23",
+      "end": "0348-10-25",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Murong_Huang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1071329",
+      "name": "Murong Jun",
+      "role": "Gobernante de Yan anterior",
+      "start": "0352-01-01",
+      "end": "0360-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Jun",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1071329",
+      "name": "Murong Jun",
+      "role": "Gobernante de Yan anterior",
+      "start": "0348-01-01",
+      "end": "0352-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Jun",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1074804",
+      "name": "Murong Wei",
+      "role": "Gobernante de Yan anterior",
+      "start": "0360-02-17",
+      "end": "0370-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Wei",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1454",
+      "start": 337,
+      "end": 352,
+      "name": "Former Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1487",
+      "start": 353,
+      "end": 366,
+      "name": "Former Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1507",
+      "start": 367,
+      "end": 370,
+      "name": "Former Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

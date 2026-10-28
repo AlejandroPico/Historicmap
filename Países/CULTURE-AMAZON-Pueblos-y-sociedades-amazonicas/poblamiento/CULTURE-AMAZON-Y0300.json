@@ -1,0 +1,98 @@
+{
+  "key": "CULTURE-AMAZON-Y0300",
+  "contextKey": "CULTURE-AMAZON",
+  "ownerKey": "CULTURE-AMAZON",
+  "name": "Pueblos y sociedades amazónicas",
+  "originalNames": [
+    "Amazon hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Sudamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    300,
+    399
+  ],
+  "interpretation": "Amazonia albergó sociedades y economías diversas, incluidas redes agrarias y asentamientos monumentales Casarabe documentados 500–1400. No se equipara toda la cuenca con una sola cultura, ni exclusivamente con caza y recolección.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea300 contiene etiquetas de épocas distintas. La ventana300–399 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de300",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Prümers et al.2022 · urbanismo agrario Casarabe 500–1400",
+      "url": "https://www.nature.com/articles/s41586-022-04780-4"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#9b9a76",
+  "focus": [
+    -54.02305,
+    -5.27083
+  ],
+  "phases": [
+    {
+      "start": 300,
+      "end": 399,
+      "label": "Pueblos y sociedades amazónicas",
+      "dateBasis": "Referencia regional de la fuente editorial300; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-AMAZON-Y0300.geojson",
+  "geometrySha256": "60c0b92c91b1abc94ac5d5010f3f13b427b211e59979a94552b0a8c5133dc3be",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson",
+    "year": 300,
+    "featureIds": [
+      173
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297"
+  },
+  "review": "0.37.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final399 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en400."
+  ],
+  "originalSourceProperties": [
+    {
+      "cat": null,
+      "NAME": "Amazon hunter-gatherers",
+      "ABBREVN": "Amazon hunter-gatherers",
+      "SUBJECTO": "Amazon hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Amazon hunter-gatherers"
+    }
+  ],
+  "sourceGrouping": [
+    "Amazon hunter-gatherers"
+  ]
+}

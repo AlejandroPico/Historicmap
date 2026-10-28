@@ -1,0 +1,317 @@
+{
+  "key": "LATER-QIN",
+  "identity": {
+    "qid": "Q1730130",
+    "name": "Qin posterior"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Qin posterior",
+      "officePattern": "Emperor|King",
+      "titles": [
+        "Yao Chang",
+        "Yao Xing"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1147266",
+      "name": "Yao Chang",
+      "role": "Gobernante de Qin posterior",
+      "start": "0384-01-01",
+      "end": "0394-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yao_Chang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1149160",
+      "name": "Yao Xing",
+      "role": "Gobernante de Qin posterior",
+      "start": "0394-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yao_Xing",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 384,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Yao_Chang",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Qin"
+        ],
+        "start": 300,
+        "end": 383,
+        "label": "Qin posterior · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Qin"
+        ],
+        "start": 384,
+        "end": 399,
+        "label": "Qin posterior",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "c112d038d8037d1fe8fca858ac9ba38ea4fd908a0c948721713e5e97e662382e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1555,
+        1579,
+        1585,
+        1599
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Yao Chang",
+        "title": "Yao Chang",
+        "person": "Q1147266",
+        "name": "Yao Chang",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yao_Chang",
+        "identityResolution": {
+          "requested": "Yao Chang",
+          "canonical": "Yao Chang",
+          "qid": "Q1147266"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0386-01-01",
+          "end": "0394-01-01",
+          "precision": 9,
+          "statement": "Q1147266$6f85ca06-3d07-4061-a93c-0852058f3a58",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1147266",
+        "title": "Yao Chang",
+        "source": "https://en.wikipedia.org/wiki/Yao_Chang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Later Qin",
+            "raw": "384–394",
+            "parsed": {
+              "start": "0384-01-01",
+              "end": "0394-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Qin",
+            "raw": "386–394",
+            "parsed": {
+              "start": "0386-01-01",
+              "end": "0394-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Qin",
+            "raw": "384–386",
+            "parsed": {
+              "start": "0384-01-01",
+              "end": "0386-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yao Xing",
+        "title": "Yao Xing",
+        "person": "Q1149160",
+        "name": "Yao Xing",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yao_Xing",
+        "identityResolution": {
+          "requested": "Yao Xing",
+          "canonical": "Yao Xing",
+          "qid": "Q1149160"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0394-01-01",
+          "end": "0416-01-01",
+          "precision": 9,
+          "statement": "Q1149160$02decdff-05dc-43c3-a4fb-f2c5778cf0ab",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149160",
+        "title": "Yao Xing",
+        "source": "https://en.wikipedia.org/wiki/Yao_Xing",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Later Qin",
+            "raw": "394–416",
+            "parsed": {
+              "start": "0394-01-01",
+              "end": "0416-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Qin",
+            "raw": "394–416",
+            "parsed": {
+              "start": "0394-01-01",
+              "end": "0416-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1147266",
+        "title": "Yao Chang",
+        "source": "https://en.wikipedia.org/wiki/Yao_Chang",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Later Qin",
+          "raw": "384–394",
+          "parsed": {
+            "start": "0384-01-01",
+            "end": "0394-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1149160",
+        "title": "Yao Xing",
+        "source": "https://en.wikipedia.org/wiki/Yao_Xing",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Later Qin",
+          "raw": "394–416",
+          "parsed": {
+            "start": "0394-01-01",
+            "end": "0416-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-22",
+      "name": "Chang’an · corte Qin posterior",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 386,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Later_Qin",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Qin posterior"
+    },
+    {
+      "id": "seat037-22-own",
+      "name": "Chang’an · corte Qin posterior",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 386,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Later_Qin",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Qin posterior"
+    }
+  ]
+}

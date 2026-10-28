@@ -1,0 +1,676 @@
+{
+  "key": "HIST-Q1501306",
+  "identity": {
+    "qid": "Q1501306",
+    "name": "Vakataka Kingdom"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey vakataka · ramas dinásticas",
+      "officePattern": "King|Vakataka|Maharaja",
+      "titles": [
+        "Vindhyashakti",
+        "Pravarasena I",
+        "Rudrasena I (Vakataka king)",
+        "Prithivishena I",
+        "Rudrasena II",
+        "Sarvasena",
+        "Vindhyasena"
+      ]
+    },
+    {
+      "role": "Regente vakataka",
+      "officePattern": "Regent",
+      "titles": [
+        "Prabhavatigupta"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q27957453",
+      "name": "Pravarasena I",
+      "role": "Rey vakataka · ramas dinásticas",
+      "start": "0300-01-01",
+      "end": "0335-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pravarasena_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Ramas Nandivardhana y Vatsagulma distintas; cronologías alternativas por epigrafía, no soberanos nacionales simultáneos de idéntico ámbito.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q27651227",
+      "name": "Rudrasena I",
+      "role": "Rey vakataka · ramas dinásticas",
+      "start": "0335-01-01",
+      "end": "0360-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rudrasena_I_%28Vakataka_king%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Ramas Nandivardhana y Vatsagulma distintas; cronologías alternativas por epigrafía, no soberanos nacionales simultáneos de idéntico ámbito."
+    },
+    {
+      "person": "Q27957703",
+      "name": "Prithivishena I",
+      "role": "Rey vakataka · ramas dinásticas",
+      "start": "0360-01-01",
+      "end": "0385-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Prithivishena_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Ramas Nandivardhana y Vatsagulma distintas; cronologías alternativas por epigrafía, no soberanos nacionales simultáneos de idéntico ámbito."
+    },
+    {
+      "person": "Q27642064",
+      "name": "Rudrasena II",
+      "role": "Rey vakataka · ramas dinásticas",
+      "start": "0385-01-01",
+      "end": "0390-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rudrasena_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Ramas Nandivardhana y Vatsagulma distintas; cronologías alternativas por epigrafía, no soberanos nacionales simultáneos de idéntico ámbito."
+    },
+    {
+      "person": "Q27957730",
+      "name": "Sarvasena",
+      "role": "Rey vakataka · ramas dinásticas",
+      "start": "0325-01-01",
+      "end": "0355-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sarvasena_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Ramas Nandivardhana y Vatsagulma distintas; cronologías alternativas por epigrafía, no soberanos nacionales simultáneos de idéntico ámbito."
+    },
+    {
+      "person": "Q27957759",
+      "name": "Vindhyasena",
+      "role": "Rey vakataka · ramas dinásticas",
+      "start": "0355-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vindhyasena",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Ramas Nandivardhana y Vatsagulma distintas; cronologías alternativas por epigrafía, no soberanos nacionales simultáneos de idéntico ámbito.",
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q7237244",
+      "name": "Prabhavatigupta",
+      "role": "Regente vakataka",
+      "start": "0390-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Prabhavatigupta",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Ramas Nandivardhana y Vatsagulma distintas; cronologías alternativas por epigrafía, no soberanos nacionales simultáneos de idéntico ámbito.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review037-vakataka",
+      "type": "institution",
+      "title": "Ramas vakatakas y cronologías alternativas",
+      "start": "0330-01-01",
+      "end": "0400-01-01",
+      "text": "Nandivardhana y Vatsagulma tienen sucesiones paralelas. La epigrafía permite cronologías distintas; fechas aproximadas de reconstrucción, no años comprobados de cada soberano.",
+      "source": "https://tamildigitallibrary.in/assets/docs/uploads/primary_files/book/TVA_BOK_0046916/TVA_BOK_0046916_Corpus_Inscriptionum_Indicarum_Vol_5_1963.pdf",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pravarasena_I",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Vakataka Kingdom"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Vakataka Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "0ed6393bf8c765a6401145ba31d2adfb7009071d8775ef88e82c5cf0abd84c1f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1355,
+        1415,
+        1475,
+        1491
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Prabhavatigupta",
+        "title": "Prabhavatigupta",
+        "person": "Q7237244",
+        "name": "Prabhavatigupta",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Prabhavatigupta",
+        "identityResolution": {
+          "requested": "Prabhavatigupta",
+          "canonical": "Prabhavatigupta",
+          "qid": "Q7237244"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q477406",
+          "start": "0390-01-01",
+          "end": "0405-01-01",
+          "precision": 9,
+          "statement": "Q7237244$60d653b1-4220-1d26-bc8c-7e46cd6171c3",
+          "label": "regente"
+        },
+        {
+          "property": "P39",
+          "office": "Q719039",
+          "start": "0385-01-01",
+          "end": "0390-01-01",
+          "precision": 9,
+          "statement": "Q7237244$fb2ceccc-484b-f26e-ebf5-9d27cc6745c0",
+          "label": "reina consorte"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7237244",
+        "title": "Prabhavatigupta",
+        "source": "https://en.wikipedia.org/wiki/Prabhavatigupta",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Regent of the Vakataka Empire",
+            "raw": "c. 390 – 410 CE",
+            "parsed": {
+              "start": "0390-01-01",
+              "end": "0410-12-31",
+              "precision": 9
+            },
+            "reignType": "Regency"
+          },
+          {
+            "field": "reign1",
+            "office": "Queen Consort of the Vakataka Empire",
+            "raw": "c. 385 CE - 390 CE",
+            "parsed": {
+              "start": "0385-01-01",
+              "end": "0390-12-31",
+              "precision": 9
+            },
+            "reignType": "Tenure"
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pravarasena I",
+        "title": "Pravarasena I",
+        "person": "Q27957453",
+        "name": "Pravarasena I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pravarasena_I",
+        "identityResolution": {
+          "requested": "Pravarasena I",
+          "canonical": "Pravarasena I",
+          "qid": "Q27957453"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27651234",
+          "start": "0270-01-01",
+          "end": "0330-01-01",
+          "precision": 9,
+          "statement": "Q27957453$65579fdb-4da0-cf76-e015-bfc0c1a2c3e3",
+          "label": "Vakataka king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q27957453",
+        "title": "Pravarasena I",
+        "source": "https://en.wikipedia.org/wiki/Pravarasena_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Vakataka emperor",
+            "raw": "{{Circa|275}}–335",
+            "parsed": {
+              "start": "0275-01-01",
+              "end": "0335-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Prithivishena I",
+        "title": "Prithivishena I",
+        "person": "Q27957703",
+        "name": "Prithivishena I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Prithivishena_I",
+        "identityResolution": {
+          "requested": "Prithivishena I",
+          "canonical": "Prithivishena I",
+          "qid": "Q27957703"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q88523021",
+          "start": "0355-01-01",
+          "end": "0380-01-01",
+          "precision": 9,
+          "statement": "Q27957703$140c7803-40f2-0e03-23ad-29336452eb48",
+          "label": "Vakataka King of Pravarapura-Nandivardhana branch"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q27957703",
+        "title": "Prithivishena I",
+        "source": "https://en.wikipedia.org/wiki/Prithivishena_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Vakataka king of Nandivardhana-Pravarapura",
+            "raw": "c. 360 – 385 CE",
+            "parsed": {
+              "start": "0360-01-01",
+              "end": "0385-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rudrasena I (Vakataka king)",
+        "title": "Rudrasena I (Vakataka king)",
+        "person": "Q27651227",
+        "name": "Rudrasena I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rudrasena_I_%28Vakataka_king%29",
+        "identityResolution": {
+          "requested": "Rudrasena I (Vakataka king)",
+          "canonical": "Rudrasena I (Vakataka king)",
+          "qid": "Q27651227"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q88523021",
+          "start": "0330-01-01",
+          "end": "0355-01-01",
+          "precision": 9,
+          "statement": "Q27651227$9c5bb17a-4554-e660-46a4-37952cc7f029",
+          "label": "Vakataka King of Pravarapura-Nandivardhana branch"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q27651227",
+        "title": "Rudrasena I (Vakataka king)",
+        "source": "https://en.wikipedia.org/wiki/Rudrasena_I_%28Vakataka_king%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Vakataka king of Nandivardhana-Pravarapura",
+            "raw": "c. 335 – 360 CE",
+            "parsed": {
+              "start": "0335-01-01",
+              "end": "0360-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rudrasena II",
+        "title": "Rudrasena II",
+        "person": "Q27642064",
+        "name": "Rudrasena II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rudrasena_II",
+        "identityResolution": {
+          "requested": "Rudrasena II",
+          "canonical": "Rudrasena II",
+          "qid": "Q27642064"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q88523021",
+          "start": "0380-01-01",
+          "end": "0385-01-01",
+          "precision": 9,
+          "statement": "Q27642064$614f0459-4eeb-c475-ac26-cab4b4ea9a07",
+          "label": "Vakataka King of Pravarapura-Nandivardhana branch"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q27642064",
+        "title": "Rudrasena II",
+        "source": "https://en.wikipedia.org/wiki/Rudrasena_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Vakataka king of Nandivardhana-Pravarapura",
+            "raw": "c. 385 – 390 CE",
+            "parsed": {
+              "start": "0385-01-01",
+              "end": "0390-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sarvasena",
+        "title": "Sarvasena",
+        "person": "Q27957730",
+        "name": "Sarvasena",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sarvasena_I",
+        "identityResolution": {
+          "requested": "Sarvasena",
+          "canonical": "Sarvasena I",
+          "qid": "Q27957730"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q88523942",
+          "start": "0330-01-01",
+          "end": "0355-01-01",
+          "precision": 9,
+          "statement": "Q27957730$e50479ec-42a7-36e8-1a6c-a70f015a7a3f",
+          "label": "Vakataka King of Vatsagulma Branch"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q27957730",
+        "title": "Sarvasena I",
+        "source": "https://en.wikipedia.org/wiki/Sarvasena_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Vakataka king of Vatsagulma",
+            "raw": "{{Circa|325}} – 355 CE",
+            "parsed": {
+              "start": "0325-01-01",
+              "end": "0355-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vindhyasena",
+        "title": "Vindhyasena",
+        "person": "Q27957759",
+        "name": "Vindhyasena",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vindhyasena",
+        "identityResolution": {
+          "requested": "Vindhyasena",
+          "canonical": "Vindhyasena",
+          "qid": "Q27957759"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q27957759",
+        "title": "Vindhyasena",
+        "source": "https://en.wikipedia.org/wiki/Vindhyasena",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Vakataka king of Vatsagulma",
+            "raw": "{{Circa|355}} – 400 CE",
+            "parsed": {
+              "start": "0355-01-01",
+              "end": "0400-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vindhyashakti",
+        "title": "Vindhyashakti",
+        "person": "Q27957699",
+        "name": "Vindhyashakti",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vindhyashakti",
+        "identityResolution": {
+          "requested": "Vindhyashakti",
+          "canonical": "Vindhyashakti",
+          "qid": "Q27957699"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q27957699",
+        "title": "Vindhyashakti",
+        "source": "https://en.wikipedia.org/wiki/Vindhyashakti",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Vakataka king",
+            "raw": "{{Circa|250}} – 275",
+            "parsed": {
+              "start": "0250-01-01",
+              "end": "0275-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 7,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q27957453",
+        "title": "Pravarasena I",
+        "source": "https://en.wikipedia.org/wiki/Pravarasena_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Vakataka emperor",
+          "raw": "{{Circa|275}}–335",
+          "parsed": {
+            "start": "0275-01-01",
+            "end": "0335-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q27651227",
+        "title": "Rudrasena I (Vakataka king)",
+        "source": "https://en.wikipedia.org/wiki/Rudrasena_I_%28Vakataka_king%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Vakataka king of Nandivardhana-Pravarapura",
+          "raw": "c. 335 – 360 CE",
+          "parsed": {
+            "start": "0335-01-01",
+            "end": "0360-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q27957703",
+        "title": "Prithivishena I",
+        "source": "https://en.wikipedia.org/wiki/Prithivishena_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Vakataka king of Nandivardhana-Pravarapura",
+          "raw": "c. 360 – 385 CE",
+          "parsed": {
+            "start": "0360-01-01",
+            "end": "0385-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q27642064",
+        "title": "Rudrasena II",
+        "source": "https://en.wikipedia.org/wiki/Rudrasena_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Vakataka king of Nandivardhana-Pravarapura",
+          "raw": "c. 385 – 390 CE",
+          "parsed": {
+            "start": "0385-01-01",
+            "end": "0390-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q27957730",
+        "title": "Sarvasena",
+        "source": "https://en.wikipedia.org/wiki/Sarvasena_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Vakataka king of Vatsagulma",
+          "raw": "{{Circa|325}} – 355 CE",
+          "parsed": {
+            "start": "0325-01-01",
+            "end": "0355-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q27957759",
+        "title": "Vindhyasena",
+        "source": "https://en.wikipedia.org/wiki/Vindhyasena",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Vakataka king of Vatsagulma",
+          "raw": "{{Circa|355}} – 400 CE",
+          "parsed": {
+            "start": "0355-01-01",
+            "end": "0400-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q7237244",
+        "title": "Prabhavatigupta",
+        "source": "https://en.wikipedia.org/wiki/Prabhavatigupta",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Regent of the Vakataka Empire",
+          "raw": "c. 390 – 410 CE",
+          "parsed": {
+            "start": "0390-01-01",
+            "end": "0410-12-31",
+            "precision": 9
+          },
+          "reignType": "Regency"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "contexts": [
+    {
+      "id": "review037-vakataka",
+      "type": "institution",
+      "title": "Ramas vakatakas y cronologías alternativas",
+      "start": "0330-01-01",
+      "end": "0400-01-01",
+      "text": "Nandivardhana y Vatsagulma tienen sucesiones paralelas. La epigrafía permite cronologías distintas; fechas aproximadas de reconstrucción, no años comprobados de cada soberano.",
+      "source": "https://tamildigitallibrary.in/assets/docs/uploads/primary_files/book/TVA_BOK_0046916/TVA_BOK_0046916_Corpus_Inscriptionum_Indicarum_Vol_5_1963.pdf",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ]
+}

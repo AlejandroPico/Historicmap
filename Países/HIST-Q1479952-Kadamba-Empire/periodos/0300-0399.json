@@ -1,0 +1,303 @@
+{
+  "key": "HIST-Q1479952",
+  "identity": {
+    "qid": "Q1479952",
+    "name": "Kadamba Empire"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey kadamba",
+      "officePattern": "King|Kadamba|Maharaja",
+      "titles": [
+        "Mayurasharma",
+        "Kangavarma",
+        "Bhagiratha (Kadamba king)",
+        "Raghu (Kadamba king)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2724621",
+      "name": "Mayurasharma",
+      "role": "Rey kadamba",
+      "start": "0345-01-01",
+      "end": "0365-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mayuravarma",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q19892435",
+      "name": "Kangavarma of Kadamba",
+      "role": "Rey kadamba",
+      "start": "0360-01-01",
+      "end": "0385-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kangavarma",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mayuravarma",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kadamba Empire"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Kadamba Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "e67cd1deb6f631fa5bedc25b950b8e889a4f62c4a0124e46d30b9751b4632cc2",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1478
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bhagiratha (Kadamba king)",
+        "title": "Bhagiratha (Kadamba king)",
+        "person": "",
+        "name": "Bhagiratha (Kadamba king)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Bhagiratha_%28Kadamba_king%29",
+        "identityResolution": {
+          "requested": "Bhagiratha (Kadamba king)",
+          "canonical": "Bhagiratha (Kadamba king)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kangavarma",
+        "title": "Kangavarma",
+        "person": "Q19892435",
+        "name": "Kangavarma of Kadamba",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kangavarma",
+        "identityResolution": {
+          "requested": "Kangavarma",
+          "canonical": "Kangavarma",
+          "qid": "Q19892435"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q19892435",
+        "title": "Kangavarma",
+        "source": "https://en.wikipedia.org/wiki/Kangavarma",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Kadamba Kingdom",
+            "raw": "c. 360 - 385 CE",
+            "parsed": {
+              "start": "0360-01-01",
+              "end": "0385-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mayurasharma",
+        "title": "Mayurasharma",
+        "person": "Q2724621",
+        "name": "Mayurasharma",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mayuravarma",
+        "identityResolution": {
+          "requested": "Mayurasharma",
+          "canonical": "Mayuravarma",
+          "qid": "Q2724621"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2724621",
+        "title": "Mayuravarma",
+        "source": "https://en.wikipedia.org/wiki/Mayuravarma",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kadamba king",
+            "raw": "{{circa|345|365}}",
+            "parsed": {
+              "start": "0345-01-01",
+              "end": "0365-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Raghu (Kadamba king)",
+        "title": "Raghu (Kadamba king)",
+        "person": "Q107439430",
+        "name": "Raghu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Raghu_%28Kadamba_king%29",
+        "identityResolution": {
+          "requested": "Raghu (Kadamba king)",
+          "canonical": "Raghu (Kadamba king)",
+          "qid": "Q107439430"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q107439430",
+        "title": "Raghu (Kadamba king)",
+        "source": "https://en.wikipedia.org/wiki/Raghu_%28Kadamba_king%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Kadamba Kingdom",
+            "raw": "c. 410 - 425 CE",
+            "parsed": {
+              "start": "0410-01-01",
+              "end": "0425-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2724621",
+        "title": "Mayurasharma",
+        "source": "https://en.wikipedia.org/wiki/Mayuravarma",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Kadamba king",
+          "raw": "{{circa|345|365}}",
+          "parsed": {
+            "start": "0345-01-01",
+            "end": "0365-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q19892435",
+        "title": "Kangavarma",
+        "source": "https://en.wikipedia.org/wiki/Kangavarma",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Kadamba Kingdom",
+          "raw": "c. 360 - 385 CE",
+          "parsed": {
+            "start": "0360-01-01",
+            "end": "0385-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Bhagiratha (Kadamba king)",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat037-28",
+      "name": "Banavasi · centro kadamba",
+      "coordinates": [
+        75.03,
+        14.53
+      ],
+      "start": 345,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Banavasi",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Kadamba Empire"
+    },
+    {
+      "id": "seat037-28-own",
+      "name": "Banavasi · centro kadamba",
+      "coordinates": [
+        75.03,
+        14.53
+      ],
+      "start": 345,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Banavasi",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Kadamba Empire"
+    }
+  ]
+}

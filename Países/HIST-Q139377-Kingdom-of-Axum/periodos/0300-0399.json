@@ -1,0 +1,425 @@
+{
+  "key": "HIST-Q139377",
+  "identity": {
+    "qid": "Q139377",
+    "name": "Kingdom of Axum"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Aksum · cronología discutida",
+      "officePattern": "King.*Aksum|King.*Axum",
+      "titles": [
+        "Aphilas",
+        "Wazeba",
+        "Ousanas",
+        "Ezana",
+        "MHDYS"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q379898",
+      "name": "Ezana of Axum",
+      "role": "Rey de Aksum · cronología aproximada",
+      "start": "0320-01-01",
+      "end": "0360-12-31",
+      "precision": 9,
+      "source": "https://www.britishmuseum.org/collection/term/BIOG90571",
+      "note": "El campo documental propone década320–c360. El límite320 representa el comienzo aproximado de una década, no un acceso anual seguro; conversión hacia340 según British Museum.",
+      "portrait": {
+        "file": "media/portrait-4c8e16c71877a043d70a.jpg",
+        "title": "Ezana.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ezana.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ezana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ezana.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Classical Numanistic group [1]",
+        "sha256": "62e896666a534fb9b89f483d8399de47e179fefc10f907907ba0b6eb6a249602",
+        "bytes": 75876,
+        "canonicalFile": "Países/HIST-Q139377-Kingdom-of-Axum/retratos/portrait-4c8e16c71877a043d70a.jpg",
+        "caption": "Efigie monetaria convencional de Ezana of Axum; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review037-ezana",
+      "type": "institution",
+      "title": "Aksum, monedas y conversión",
+      "start": "0320-01-01",
+      "end": "0400-01-01",
+      "text": "Ezana tiene cronología amplia y conversión hacia340 según el British Museum. Las atribuciones de monedas no definen por sí solas todos los años de un reinado.",
+      "source": "https://www.britishmuseum.org/collection/term/BIOG90571",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://www.britishmuseum.org/collection/term/BIOG90571",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Axum"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Kingdom of Axum",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "6191a97af220c3065cce74c237cd10293a2894a72c181c0284aaa7aec2137c6e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1345,
+        1489
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aphilas",
+        "title": "Aphilas",
+        "person": "Q618457",
+        "name": "Aphilas",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aphilas",
+        "identityResolution": {
+          "requested": "Aphilas",
+          "canonical": "Aphilas",
+          "qid": "Q618457"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18687305",
+          "start": "0300-01-01",
+          "end": "0310-01-01",
+          "precision": 9,
+          "statement": "Q618457$F775A9C3-5A30-4130-AE77-B866C0B14E75",
+          "label": "Rey de Axum"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q618457",
+        "title": "Aphilas",
+        "source": "https://en.wikipedia.org/wiki/Aphilas",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Aksum",
+            "raw": "310s",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ezana",
+        "title": "Ezana",
+        "person": "Q379898",
+        "name": "Ezana of Axum",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ezana_of_Axum",
+        "identityResolution": {
+          "requested": "Ezana",
+          "canonical": "Ezana of Axum",
+          "qid": "Q379898"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18687305",
+          "start": "0325-01-01",
+          "end": "0356-01-01",
+          "precision": 9,
+          "statement": "Q379898$800DD29C-3EDC-42AA-9BA2-D4695441311B",
+          "label": "Rey de Axum"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q379898",
+        "title": "Ezana of Axum",
+        "source": "https://en.wikipedia.org/wiki/Ezana_of_Axum",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Axum",
+            "raw": "320s – c. 360 AD",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "MHDYS",
+        "title": "MHDYS",
+        "person": "Q328677",
+        "name": "MHDYS",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/MHDYS",
+        "identityResolution": {
+          "requested": "MHDYS",
+          "canonical": "MHDYS",
+          "qid": "Q328677"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q328677",
+        "title": "MHDYS",
+        "source": "https://en.wikipedia.org/wiki/MHDYS",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Aksum",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ousanas",
+        "title": "Ousanas",
+        "person": "Q714383",
+        "name": "Ousanas",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ousanas",
+        "identityResolution": {
+          "requested": "Ousanas",
+          "canonical": "Ousanas",
+          "qid": "Q714383"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18687305",
+          "start": "0320-01-01",
+          "end": "0333-01-01",
+          "precision": 9,
+          "statement": "Q714383$75672995-C1A9-47A7-882C-A69D411D4762",
+          "label": "Rey de Axum"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q714383",
+        "title": "Ousanas",
+        "source": "https://en.wikipedia.org/wiki/Ousanas",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Aksum",
+            "raw": "early 320s to late 320s",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wazeba",
+        "title": "Wazeba",
+        "person": "Q363144",
+        "name": "Wazeba",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wazeba_of_Axum",
+        "identityResolution": {
+          "requested": "Wazeba",
+          "canonical": "Wazeba of Axum",
+          "qid": "Q363144"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18687305",
+          "start": "0333-01-01",
+          "end": "0356-01-01",
+          "precision": 9,
+          "statement": "Q363144$C1E034DE-06CE-4068-9879-7444BD803428",
+          "label": "Rey de Axum"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q363144",
+        "title": "Wazeba of Axum",
+        "source": "https://en.wikipedia.org/wiki/Wazeba_of_Axum",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Aksum",
+            "raw": "310s",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Aphilas",
+        "person": "Q618457",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Wazeba",
+        "person": "Q363144",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Ousanas",
+        "person": "Q714383",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Ezana",
+        "person": "Q379898",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "MHDYS",
+        "person": "Q328677",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q379898",
+      "name": "Ezana of Axum",
+      "role": "Rey de Aksum · cronología aproximada",
+      "start": "0320-01-01",
+      "end": "0360-12-31",
+      "precision": 9,
+      "source": "https://www.britishmuseum.org/collection/term/BIOG90571",
+      "note": "El campo documental propone década320–c360. El límite320 representa el comienzo aproximado de una década, no un acceso anual seguro; conversión hacia340 según British Museum."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat037-30",
+      "name": "Aksum",
+      "coordinates": [
+        38.72,
+        14.13
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Kingdom of Axum"
+    },
+    {
+      "id": "seat037-30-own",
+      "name": "Aksum",
+      "coordinates": [
+        38.72,
+        14.13
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Kingdom of Axum"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review037-ezana",
+      "type": "institution",
+      "title": "Aksum, monedas y conversión",
+      "start": "0320-01-01",
+      "end": "0400-01-01",
+      "text": "Ezana tiene cronología amplia y conversión hacia340 según el British Museum. Las atribuciones de monedas no definen por sí solas todos los años de un reinado.",
+      "source": "https://www.britishmuseum.org/collection/term/BIOG90571",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q379898",
+      "name": "Ezana of Axum",
+      "title": "Ezana.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ezana.jpg",
+      "sha256": "62e896666a534fb9b89f483d8399de47e179fefc10f907907ba0b6eb6a249602",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Ezana of Axum; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    }
+  ]
+}

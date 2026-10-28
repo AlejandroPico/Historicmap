@@ -1,0 +1,372 @@
+{
+  "key": "NORTHERN-WEI",
+  "identity": {
+    "qid": "Q875305",
+    "name": "Wei del Norte"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Dai y emperador Wei · dignidades distintas",
+      "officePattern": "King.*Dai|Prince.*Dai|Emperor.*Wei",
+      "titles": [
+        "Tuoba Shiyijian",
+        "Emperor Daowu of Northern Wei"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1071625",
+      "name": "Tuoba Shiyijian",
+      "role": "Gobernante de Dai y emperador Wei · dignidades distintas",
+      "start": "0338-01-01",
+      "end": "0376-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tuoba_Shiyiqian",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1149178",
+      "name": "Daowu of Northern Wei",
+      "role": "Gobernante de Dai y emperador Wei · dignidades distintas",
+      "start": "0386-02-20",
+      "end": "0399-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Daowu_of_Northern_Wei",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 386,
+      "end": 399,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tuoba_Shiyiqian",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Wei"
+        ],
+        "start": 300,
+        "end": 385,
+        "label": "Wei del Norte · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Wei"
+        ],
+        "start": 386,
+        "end": 399,
+        "label": "Wei del Norte",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "37877a5e3040487c6d84e5d2157f2a716b65c3910d9405036690a1e22cc980eb",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1543,
+        1575,
+        1582,
+        1610
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Daowu of Northern Wei",
+        "title": "Emperor Daowu of Northern Wei",
+        "person": "Q1149178",
+        "name": "Emperor Daowu of Northern Wei",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Daowu_of_Northern_Wei",
+        "identityResolution": {
+          "requested": "Emperor Daowu of Northern Wei",
+          "canonical": "Emperor Daowu of Northern Wei",
+          "qid": "Q1149178"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0399-01-01",
+          "end": "0409-11-06",
+          "precision": 9,
+          "statement": "Q1149178$3F447EF2-8BCB-4121-BC3B-4F96A0ABA282",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149178",
+        "title": "Emperor Daowu of Northern Wei",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Daowu_of_Northern_Wei",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Northern Wei",
+            "raw": "February 20, 386<ref>''wushen'' day of the 1st month of the 1st year of the ''Dengguo'' era, per Emperor Daowu's biography in ''Book of Wei''</ref> – November 6, 409",
+            "parsed": {
+              "start": "0386-02-20",
+              "end": "0409-11-06",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince/Emperor of Northern Wei",
+            "raw": "386–409",
+            "parsed": {
+              "start": "0386-01-01",
+              "end": "0409-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Inner Mongolia)",
+            "raw": "386–409",
+            "parsed": {
+              "start": "0386-01-01",
+              "end": "0409-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Shanxi)",
+            "raw": "396–409",
+            "parsed": {
+              "start": "0396-01-01",
+              "end": "0409-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Hebei)",
+            "raw": "397–409",
+            "parsed": {
+              "start": "0397-01-01",
+              "end": "0409-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Huatai region)",
+            "raw": "399–409",
+            "parsed": {
+              "start": "0399-01-01",
+              "end": "0409-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tuoba Shiyijian",
+        "title": "Tuoba Shiyijian",
+        "person": "Q1071625",
+        "name": "Tuoba Shiyijian",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tuoba_Shiyiqian",
+        "identityResolution": {
+          "requested": "Tuoba Shiyijian",
+          "canonical": "Tuoba Shiyiqian",
+          "qid": "Q1071625"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1071625",
+        "title": "Tuoba Shiyiqian",
+        "source": "https://en.wikipedia.org/wiki/Tuoba_Shiyiqian",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Prince of Dai",
+            "raw": "338–376",
+            "parsed": {
+              "start": "0338-01-01",
+              "end": "0376-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Dai",
+            "raw": "338–376",
+            "parsed": {
+              "start": "0338-01-01",
+              "end": "0376-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1071625",
+        "title": "Tuoba Shiyijian",
+        "source": "https://en.wikipedia.org/wiki/Tuoba_Shiyiqian",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Prince of Dai",
+          "raw": "338–376",
+          "parsed": {
+            "start": "0338-01-01",
+            "end": "0376-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1149178",
+        "title": "Emperor Daowu of Northern Wei",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Daowu_of_Northern_Wei",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Northern Wei",
+          "raw": "February 20, 386<ref>''wushen'' day of the 1st month of the 1st year of the ''Dengguo'' era, per Emperor Daowu's biography in ''Book of Wei''</ref> – November 6, 409",
+          "parsed": {
+            "start": "0386-02-20",
+            "end": "0409-11-06",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-25",
+      "name": "Shengle · corte Wei",
+      "coordinates": [
+        111.81,
+        40.4
+      ],
+      "start": 386,
+      "end": 397,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Shengle",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Wei del Norte"
+    },
+    {
+      "id": "seat037-25-own",
+      "name": "Shengle · corte Wei",
+      "coordinates": [
+        111.81,
+        40.4
+      ],
+      "start": 386,
+      "end": 397,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Shengle",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Wei del Norte"
+    },
+    {
+      "id": "seat037-26",
+      "name": "Pingcheng · corte Wei",
+      "coordinates": [
+        113.3,
+        40.08
+      ],
+      "start": 398,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Pingcheng",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Wei del Norte"
+    },
+    {
+      "id": "seat037-26-own",
+      "name": "Pingcheng · corte Wei",
+      "coordinates": [
+        113.3,
+        40.08
+      ],
+      "start": 398,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Pingcheng",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Wei del Norte"
+    }
+  ]
+}

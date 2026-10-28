@@ -1,0 +1,149 @@
+{
+  "key": "WESTERN-YAN",
+  "name": "Yan occidental",
+  "qid": "Q1149230",
+  "aliases": [
+    "Western Yan",
+    "Yan occidental"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WESTERN-YAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1149246",
+      "name": "Murong Hong",
+      "role": "Gobernante de Yan occidental",
+      "start": "0350-01-01",
+      "end": "0370-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Hong",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1149246",
+      "name": "Murong Hong",
+      "role": "Gobernante de Yan occidental",
+      "start": "0384-01-01",
+      "end": "0384-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Hong",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1074358",
+      "name": "Murong Chong",
+      "role": "Gobernante de Yan occidental",
+      "start": "0385-01-01",
+      "end": "0386-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Chong",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1155379",
+      "name": "Duan Sui",
+      "role": "Gobernante de Yan occidental",
+      "start": "0386-01-01",
+      "end": "0386-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Duan_Sui",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1155389",
+      "name": "Murong Yi",
+      "role": "Gobernante de Yan occidental",
+      "start": "0386-01-01",
+      "end": "0386-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Yi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1155384",
+      "name": "Murong Yao",
+      "role": "Gobernante de Yan occidental",
+      "start": "0386-01-01",
+      "end": "0386-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Yao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1078592",
+      "name": "Murong Zhong",
+      "role": "Gobernante de Yan occidental",
+      "start": "0386-01-01",
+      "end": "0386-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Zhong",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1078581",
+      "name": "Murong Yong",
+      "role": "Gobernante de Yan occidental",
+      "start": "0386-01-01",
+      "end": "0394-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Yong",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1545",
+      "start": 387,
+      "end": 389,
+      "name": "Western Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1567",
+      "start": 390,
+      "end": 391,
+      "name": "Western Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1571",
+      "start": 392,
+      "end": 393,
+      "name": "Western Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

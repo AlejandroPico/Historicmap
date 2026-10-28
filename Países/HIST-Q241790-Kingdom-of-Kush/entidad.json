@@ -1,0 +1,43 @@
+{
+  "key": "HIST-Q241790",
+  "name": "Kingdom of Kush",
+  "qid": "Q241790",
+  "aliases": [
+    "Kingdom of Kush"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q241790"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-218",
+      "start": 300,
+      "end": 337,
+      "name": "Kingdom of Kush",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1458",
+      "start": 338,
+      "end": 346,
+      "name": "Kingdom of Kush",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

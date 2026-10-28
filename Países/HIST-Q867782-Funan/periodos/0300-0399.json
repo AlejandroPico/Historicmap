@@ -1,0 +1,166 @@
+{
+  "key": "HIST-Q867782",
+  "identity": {
+    "qid": "Q867782",
+    "name": "Funan"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Funan",
+      "officePattern": "King|Funan",
+      "titles": [
+        "Fan Shih-man",
+        "Fan Chan",
+        "Fan Hsun",
+        "Chandan (Funan)"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Funan"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Funan",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "bc284b69d89ba2e8a391e9c5fd6777cfa3cf80070921afaac11d1444e282350f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1341
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Chandan (Funan)",
+        "title": "Chandan (Funan)",
+        "person": "",
+        "name": "Chandan (Funan)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Chandan_%28Funan%29",
+        "identityResolution": {
+          "requested": "Chandan (Funan)",
+          "canonical": "Chandan (Funan)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Fan Chan",
+        "title": "Fan Chan",
+        "person": "Q4911769",
+        "name": "My Girl",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Fan_Chan",
+        "identityResolution": {
+          "requested": "Fan Chan",
+          "canonical": "Fan Chan",
+          "qid": "Q4911769"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Fan Hsun",
+        "title": "Fan Hsun",
+        "person": "",
+        "name": "Fan Hsun",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Fan_Hsun",
+        "identityResolution": {
+          "requested": "Fan Hsun",
+          "canonical": "Fan Hsun",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Fan Shih-man",
+        "title": "Fan Shih-man",
+        "person": "",
+        "name": "Fan Shih-man",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Fan_Shih-man",
+        "identityResolution": {
+          "requested": "Fan Shih-man",
+          "canonical": "Fan Shih-man",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Fan Shih-man",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Fan Chan",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Fan Hsun",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Chandan (Funan)",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  }
+}

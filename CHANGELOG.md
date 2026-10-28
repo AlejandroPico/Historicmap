@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.37.0 · 28 de octubre de 2026
+
+- Ampliación anual300–399 con232 componentes políticos originales y58 referencias culturales nuevas; se conservan todas las fases posteriores.
+- Gobiernos romanos compartidos, dignidades de augusto/césar, cortes de395, sucesiones Jin y distintos poderes de los Dieciséis Reinos diferenciados. Las sedes documentales no inventan fronteras.
+- Autoridades con fechas, alternativas cronológicas y testimonios;41 centros,20 contextos y cinco referencias regionales de conflictos.
+- Revisión visual de81 candidatos:73 aceptados y ocho apartados. Los glifos, inscripciones y atribuciones inadecuadas no se usan como retratos.
+- Imágenes completas en las fichas y encuadre no destructivo de la cara elegida en monedas pareadas. Revisión adicional de44 imágenes ya publicadas, respetando rechazos anteriores.
+- ValentinianoIII con cabeza identificada por el Louvre, fecha425–450 y restauraciones modernas explícitas; se conservan los originales y créditos.
+- Lector de fechas compatible con «no wrap»; las dignidades subordinadas se distinguen del reinado posterior. Se mantiene la publicación distribuida en cuatro máquinas.
+
 ## 0.36.0 · 28 de octubre de 2026
 
 - Entrega conjunta: ampliación 400–499 y correcciones de las dos publicaciones anteriores.

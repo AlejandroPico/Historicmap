@@ -1,0 +1,507 @@
+{
+  "key": "VISIGOTHIC-KINGDOM",
+  "identity": {
+    "qid": "Q126936",
+    "name": "Agrupaciones y realeza visigodas"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey o juez godo · agrupación regional",
+      "officePattern": "King|Ruler|Judge",
+      "titles": [
+        "Ariaric",
+        "Aoric",
+        "Athanaric",
+        "Fritigern",
+        "Alavivus",
+        "Alaric I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q312598",
+      "name": "Atanarico",
+      "role": "Rey o juez godo · agrupación regional",
+      "start": "0369-01-01",
+      "end": "0381-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Athanaric",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-2dd47304eba4537ac38e.jpg",
+        "title": "01-ATANARICO.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:01-ATANARICO.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/01-ATANARICO.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Upload by Basilio",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:01-ATANARICO.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Retratos de los reyes de Espana ..., libro digitalizado por Google",
+        "sha256": "c858d96d5dc087a85cf36e87aa5d32f84b3ffab0c0c58b1010c95065d0746a30",
+        "bytes": 359803,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-2dd47304eba4537ac38e.jpg",
+        "caption": "Representación imaginaria posterior de Atanarico; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q102371",
+      "name": "Alarico I",
+      "role": "Rey o juez godo · agrupación regional",
+      "start": "0395-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Alaric_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-3cc77b95357fab2068e1.jpg",
+        "title": "02-ALARICO.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:02-ALARICO.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/02-ALARICO.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Upload by Basilio",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:02-ALARICO.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Retratos de los reyes de Espana ..., libro digitalizado por Google",
+        "sha256": "da3bb1855c7f2d914f62e030e0497492b77dfc3f73fb1885076bf3b2497deaaf",
+        "bytes": 336279,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-3cc77b95357fab2068e1.jpg",
+        "caption": "Representación imaginaria posterior de Alarico I; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q159712",
+      "name": "Fritigerno",
+      "role": "Jefe de una agrupación goda · testimonio militar",
+      "start": "0376-01-01",
+      "end": "0378-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Fritigern",
+      "note": "Actividad documentada en la entrada danubiana y Adrianópolis. La ventana no representa toda su vida ni a todos los pueblos godos."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Athanaric",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Visigoths"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Agrupaciones y realeza visigodas",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "da18f3720ba04fcbf8f4b5beaa8259a7182c910101973f6b075a60ce035e0c47",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1596,
+        1613
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Alaric I",
+        "title": "Alaric I",
+        "person": "Q102371",
+        "name": "Alarico I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Alaric_I",
+        "identityResolution": {
+          "requested": "Alaric I",
+          "canonical": "Alaric I",
+          "qid": "Q102371"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0395-01-01",
+          "end": "0410-12-01",
+          "precision": 9,
+          "statement": "Q102371$bd46d3a7-43e6-7ad2-f311-6fb0614ac83a",
+          "label": "rey de los visigodos"
+        },
+        {
+          "property": "P39",
+          "office": "Q829120",
+          "start": "0391-01-01",
+          "end": "0410-01-01",
+          "precision": 9,
+          "statement": "Q102371$0bb29d11-46ca-be38-4e22-3b0b5a273251",
+          "label": "dux"
+        },
+        {
+          "property": "P97",
+          "office": "Q22953238",
+          "start": "0395-01-01",
+          "end": "0410-12-01",
+          "precision": 9,
+          "statement": "Q102371$a0f9d828-43ef-1133-a344-366e02c45839",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q102371",
+        "title": "Alaric I",
+        "source": "https://en.wikipedia.org/wiki/Alaric_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "395–410",
+            "parsed": {
+              "start": "0395-01-01",
+              "end": "0410-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "395–410",
+            "parsed": {
+              "start": "0395-01-01",
+              "end": "0410-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Alavivus",
+        "title": "Alavivus",
+        "person": "Q2830721",
+        "name": "Alavivo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Alavivus",
+        "identityResolution": {
+          "requested": "Alavivus",
+          "canonical": "Alavivus",
+          "qid": "Q2830721"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q113729401",
+          "start": "0376-01-01",
+          "end": "0376-01-01",
+          "precision": 9,
+          "statement": "Q2830721$81f0f8ef-a7a8-4640-b16c-62dc44df18d4",
+          "label": "Caudillo de los Tervingios"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2830721",
+        "title": "Alavivus",
+        "source": "https://en.wikipedia.org/wiki/Alavivus",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Aoric",
+        "title": "Aoric",
+        "person": "Q16208264",
+        "name": "Aorico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aoric",
+        "identityResolution": {
+          "requested": "Aoric",
+          "canonical": "Aoric",
+          "qid": "Q16208264"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q113727930",
+          "start": "0332-01-01",
+          "end": "0350-01-01",
+          "precision": 9,
+          "statement": "Q16208264$11d244a3-4a15-e906-bc0e-6b40f919d842",
+          "label": "Juez de los Tervingios"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16208264",
+        "title": "Aoric",
+        "source": "https://en.wikipedia.org/wiki/Aoric",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ariaric",
+        "title": "Ariaric",
+        "person": "Q3622534",
+        "name": "Ariarico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ariaric",
+        "identityResolution": {
+          "requested": "Ariaric",
+          "canonical": "Ariaric",
+          "qid": "Q3622534"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q113727930",
+          "start": "0291-01-01",
+          "end": "0332-01-01",
+          "precision": 9,
+          "statement": "Q3622534$1510ec8f-3b67-474a-b643-c22806f9f85b",
+          "label": "Juez de los Tervingios"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3622534",
+        "title": "Ariaric",
+        "source": "https://en.wikipedia.org/wiki/Ariaric",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Athanaric",
+        "title": "Athanaric",
+        "person": "Q312598",
+        "name": "Atanarico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Athanaric",
+        "identityResolution": {
+          "requested": "Athanaric",
+          "canonical": "Athanaric",
+          "qid": "Q312598"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q113727930",
+          "start": "0365-01-01",
+          "end": "0376-01-01",
+          "precision": 9,
+          "statement": "Q312598$c063c231-45a3-6c00-48a3-3acd0ae3ce12",
+          "label": "Juez de los Tervingios"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q312598",
+        "title": "Athanaric",
+        "source": "https://en.wikipedia.org/wiki/Athanaric",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Thervingi",
+            "raw": "369–381",
+            "parsed": {
+              "start": "0369-01-01",
+              "end": "0381-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "371–381",
+            "parsed": {
+              "start": "0371-01-01",
+              "end": "0381-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Fritigern",
+        "title": "Fritigern",
+        "person": "Q159712",
+        "name": "Fritigerno",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Fritigern",
+        "identityResolution": {
+          "requested": "Fritigern",
+          "canonical": "Fritigern",
+          "qid": "Q159712"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q113729401",
+          "start": "0376-01-01",
+          "end": "0380-01-01",
+          "precision": 9,
+          "statement": "Q159712$5ab789d4-0423-4892-b221-55f7bf8df953",
+          "label": "Caudillo de los Tervingios"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q159712",
+        "title": "Fritigern",
+        "source": "https://en.wikipedia.org/wiki/Fritigern",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q312598",
+        "title": "Athanaric",
+        "source": "https://en.wikipedia.org/wiki/Athanaric",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Thervingi",
+          "raw": "369–381",
+          "parsed": {
+            "start": "0369-01-01",
+            "end": "0381-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q102371",
+        "title": "Alaric I",
+        "source": "https://en.wikipedia.org/wiki/Alaric_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Visigoths",
+          "raw": "395–410",
+          "parsed": {
+            "start": "0395-01-01",
+            "end": "0410-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Ariaric",
+        "person": "Q3622534",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Aoric",
+        "person": "Q16208264",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Fritigern",
+        "person": "Q159712",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Alavivus",
+        "person": "Q2830721",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q159712",
+      "name": "Fritigerno",
+      "role": "Jefe de una agrupación goda · testimonio militar",
+      "start": "0376-01-01",
+      "end": "0378-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Fritigern",
+      "note": "Actividad documentada en la entrada danubiana y Adrianópolis. La ventana no representa toda su vida ni a todos los pueblos godos."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q312598",
+      "name": "Atanarico",
+      "title": "01-ATANARICO.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:01-ATANARICO.JPG",
+      "sha256": "c858d96d5dc087a85cf36e87aa5d32f84b3ffab0c0c58b1010c95065d0746a30",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Atanarico; no fotografía ni semejanza del natural acreditada."
+    },
+    {
+      "person": "Q102371",
+      "name": "Alarico I",
+      "title": "02-ALARICO.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:02-ALARICO.JPG",
+      "sha256": "da3bb1855c7f2d914f62e030e0497492b77dfc3f73fb1885076bf3b2497deaaf",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Alarico I; no fotografía ni semejanza del natural acreditada."
+    }
+  ]
+}

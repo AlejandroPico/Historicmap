@@ -1,0 +1,458 @@
+{
+  "key": "KUSHANO-SASANIAN",
+  "identity": {
+    "qid": "Q1661685",
+    "name": "Poderes kushano-sasánidas"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Kushanshah · poder regional",
+      "officePattern": "Kushanshah|King",
+      "titles": [
+        "Hormizd I Kushanshah",
+        "Hormizd II Kushanshah",
+        "Peroz II Kushanshah",
+        "Varahran Kushanshah"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q48996486",
+      "name": "Hormizd I Kushanshah",
+      "role": "Kushanshah · poder regional",
+      "start": "0300-01-01",
+      "end": "0300-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hormizd_I_Kushanshah",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q39046898",
+      "name": "Hormizd II Kushanshah",
+      "role": "Kushanshah · poder regional",
+      "start": "0300-01-01",
+      "end": "0303-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hormizd_II_Kushanshah",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-af78d29cf96a97358384.jpg",
+        "title": "Rare gold dinar of Hormizd II Kushanshah, Balkh mint, ca. 300-303.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Rare_gold_dinar_of_Hormizd_II_Kushanshah,_Balkh_mint,_ca._300-303.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Rare_gold_dinar_of_Hormizd_II_Kushanshah%2C_Balkh_mint%2C_ca._300-303.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group; [1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "https://www.cngcoins.com/Lot.aspx?LOT_ID=53146",
+        "sha256": "f8f2b41bc5f4693324c43dde099b1d078f02a6f51861f7ba16ac427e88f4cef3",
+        "bytes": 585206,
+        "canonicalFile": "Países/KUSHANO-SASANIAN-Poderes-kushano-sasanidas/retratos/portrait-af78d29cf96a97358384.jpg",
+        "caption": "Efigie monetaria convencional de Hormizd II Kushanshah; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "Q56274628",
+      "name": "Peroz II Kushanshah",
+      "role": "Kushanshah · poder regional",
+      "start": "0303-01-01",
+      "end": "0330-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Peroz_II_Kushanshah",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q48996500",
+      "name": "Bahram Kushanshah",
+      "role": "Kushanshah · poder regional",
+      "start": "0330-01-01",
+      "end": "0365-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Varahran_Kushanshah",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review037-coins",
+      "type": "institution",
+      "title": "Poderes kushano-sasánidas y cronologías numismáticas",
+      "start": "0300-01-01",
+      "end": "0358-01-01",
+      "text": "Las fechas de Hormizd kushanshah difieren entre catálogos y estudios. No confundirlos con los reyes de reyes sasánidas del mismo nombre.",
+      "source": "https://www.iranicaonline.org/articles/hormozd-kusansah/",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hormizd_I_Kushanshah",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Indo-Sasanian Empire"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Poderes kushano-sasánidas",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "48c98cfcb501d7bc49c15fdcd4ad6747f7e4e739c45fabc643b4139400cdef7f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1395,
+        1463,
+        1481
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Hormizd I Kushanshah",
+        "title": "Hormizd I Kushanshah",
+        "person": "Q48996486",
+        "name": "Hormizd I Kushanshah",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hormizd_I_Kushanshah",
+        "identityResolution": {
+          "requested": "Hormizd I Kushanshah",
+          "canonical": "Hormizd I Kushanshah",
+          "qid": "Q48996486"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q48996486",
+        "title": "Hormizd I Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Hormizd_I_Kushanshah",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "275–300",
+            "parsed": {
+              "start": "0275-01-01",
+              "end": "0300-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "275–300",
+            "parsed": {
+              "start": "0275-01-01",
+              "end": "0300-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hormizd II Kushanshah",
+        "title": "Hormizd II Kushanshah",
+        "person": "Q39046898",
+        "name": "Hormizd II Kushanshah",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hormizd_II_Kushanshah",
+        "identityResolution": {
+          "requested": "Hormizd II Kushanshah",
+          "canonical": "Hormizd II Kushanshah",
+          "qid": "Q39046898"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q39046898",
+        "title": "Hormizd II Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Hormizd_II_Kushanshah",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "300–303",
+            "parsed": {
+              "start": "0300-01-01",
+              "end": "0303-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "300–303",
+            "parsed": {
+              "start": "0300-01-01",
+              "end": "0303-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Peroz II Kushanshah",
+        "title": "Peroz II Kushanshah",
+        "person": "Q56274628",
+        "name": "Peroz II Kushanshah",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Peroz_II_Kushanshah",
+        "identityResolution": {
+          "requested": "Peroz II Kushanshah",
+          "canonical": "Peroz II Kushanshah",
+          "qid": "Q56274628"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q56274628",
+        "title": "Peroz II Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Peroz_II_Kushanshah",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "303–330",
+            "parsed": {
+              "start": "0303-01-01",
+              "end": "0330-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "303–330",
+            "parsed": {
+              "start": "0303-01-01",
+              "end": "0330-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Varahran Kushanshah",
+        "title": "Varahran Kushanshah",
+        "person": "Q48996500",
+        "name": "Bahram Kushanshah",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Varahran_Kushanshah",
+        "identityResolution": {
+          "requested": "Varahran Kushanshah",
+          "canonical": "Varahran Kushanshah",
+          "qid": "Q48996500"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q48996500",
+        "title": "Varahran Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Varahran_Kushanshah",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "330–365",
+            "parsed": {
+              "start": "0330-01-01",
+              "end": "0365-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+            "raw": "330–365",
+            "parsed": {
+              "start": "0330-01-01",
+              "end": "0365-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q48996486",
+        "title": "Hormizd I Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Hormizd_I_Kushanshah",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+          "raw": "275–300",
+          "parsed": {
+            "start": "0275-01-01",
+            "end": "0300-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q39046898",
+        "title": "Hormizd II Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Hormizd_II_Kushanshah",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+          "raw": "300–303",
+          "parsed": {
+            "start": "0300-01-01",
+            "end": "0303-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q56274628",
+        "title": "Peroz II Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Peroz_II_Kushanshah",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+          "raw": "303–330",
+          "parsed": {
+            "start": "0303-01-01",
+            "end": "0330-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q48996500",
+        "title": "Varahran Kushanshah",
+        "source": "https://en.wikipedia.org/wiki/Varahran_Kushanshah",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Kushanshah of the Kushano-Sasanian Kingdom",
+          "raw": "330–365",
+          "parsed": {
+            "start": "0330-01-01",
+            "end": "0365-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "contexts": [
+    {
+      "id": "review037-coins",
+      "type": "institution",
+      "title": "Poderes kushano-sasánidas y cronologías numismáticas",
+      "start": "0300-01-01",
+      "end": "0358-01-01",
+      "text": "Las fechas de Hormizd kushanshah difieren entre catálogos y estudios. No confundirlos con los reyes de reyes sasánidas del mismo nombre.",
+      "source": "https://www.iranicaonline.org/articles/hormozd-kusansah/",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q39046898",
+      "name": "Hormizd II Kushanshah",
+      "title": "Rare gold dinar of Hormizd II Kushanshah, Balkh mint, ca. 300-303.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rare_gold_dinar_of_Hormizd_II_Kushanshah,_Balkh_mint,_ca._300-303.jpg",
+      "sha256": "f8f2b41bc5f4693324c43dde099b1d078f02a6f51861f7ba16ac427e88f4cef3",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Efigie monetaria convencional de Hormizd II Kushanshah; no fotografía ni semejanza del natural acreditada. Se muestra sólo la cara con la efigie, sin alterar el archivo original."
+    },
+    {
+      "person": "Q48996500",
+      "name": "Bahram Kushanshah",
+      "title": "Kidarite Peroz ram horns headgear.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kidarite_Peroz_ram_horns_headgear.jpg",
+      "sha256": "85e152632afcc018352eeca83e0ac78b114fae8f20659c716fa3420aad8a57b5",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "El archivo identifica a Kidarite Peroz; no acredita retrato del kushanshah Varahran."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q48996500",
+      "title": "Kidarite Peroz ram horns headgear.jpg",
+      "reason": "El archivo identifica a Kidarite Peroz; no acredita retrato del kushanshah Varahran.",
+      "source": "https://commons.wikimedia.org/wiki/File:Kidarite_Peroz_ram_horns_headgear.jpg"
+    }
+  ]
+}

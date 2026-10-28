@@ -1,0 +1,806 @@
+{
+  "key": "LATER-ZHAO",
+  "identity": {
+    "qid": "Q2314907",
+    "name": "Zhao posterior"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Zhao posterior",
+      "officePattern": "Emperor|King|Prince",
+      "titles": [
+        "Shi Le",
+        "Shi Hong",
+        "Shi Hu",
+        "Shi Shi (emperor)",
+        "Shi Zun",
+        "Shi Jian",
+        "Shi Zhi"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1196190",
+      "name": "Shi Le",
+      "role": "Gobernante de Zhao posterior",
+      "start": "0330-03-01",
+      "end": "0333-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shi_Le",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-ec150cd6afb0a5873c4a.jpg",
+        "title": "Shi Le (Emperor Ming of Later Zhao).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Shi_Le_(Emperor_Ming_of_Later_Zhao).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Shi_Le_%28Emperor_Ming_of_Later_Zhao%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Qian Xuan (formerly attributed), Freer Gallery of Art (owner)",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://asia.si.edu/object/F1911.210/",
+        "sha256": "d95f9a0b9022de45deb1e1d955108d7a3eda5e0dc46e7bb49c3f99f2f805c909",
+        "bytes": 574478,
+        "canonicalFile": "Países/LATER-ZHAO-Zhao-posterior/retratos/portrait-ec150cd6afb0a5873c4a.jpg",
+        "caption": "Representación imaginaria posterior de Shi Le; no fotografía ni semejanza del natural acreditada."
+      }
+    },
+    {
+      "person": "Q1199590",
+      "name": "Shi Hong",
+      "role": "Gobernante de Zhao posterior",
+      "start": "0333-01-01",
+      "end": "0334-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shi_Hong",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1149441",
+      "name": "Shi Hu",
+      "role": "Gobernante de Zhao posterior",
+      "start": "0334-01-01",
+      "end": "0349-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shi_Hu",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1152762",
+      "name": "Shi Shi",
+      "role": "Gobernante de Zhao posterior",
+      "start": "0349-01-01",
+      "end": "0349-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shi_Shi_%28emperor%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1152755",
+      "name": "Shi Zun",
+      "role": "Gobernante de Zhao posterior",
+      "start": "0349-01-01",
+      "end": "0349-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shi_Zun",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q283828",
+      "name": "Shi Jian",
+      "role": "Gobernante de Zhao posterior",
+      "start": "0349-01-01",
+      "end": "0350-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shi_Jian",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1199583",
+      "name": "Shi Zhi",
+      "role": "Gobernante de Zhao posterior",
+      "start": "0350-01-01",
+      "end": "0351-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shi_Zhi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 319,
+      "end": 351,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Shi_Le",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Zhao"
+        ],
+        "start": 300,
+        "end": 318,
+        "label": "Zhao posterior · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Zhao"
+        ],
+        "start": 319,
+        "end": 351,
+        "label": "Zhao posterior",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Zhao"
+        ],
+        "start": 352,
+        "end": 399,
+        "label": "Zhao posterior · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "0ca119d5c1285d1d3717a751b1fd35f875cbead23c04a0b21ce5bd1a6cbca089",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1457,
+        1469
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Shi Hong",
+        "title": "Shi Hong",
+        "person": "Q1199590",
+        "name": "Shi Hong",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shi_Hong",
+        "identityResolution": {
+          "requested": "Shi Hong",
+          "canonical": "Shi Hong",
+          "qid": "Q1199590"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0333-01-01",
+          "end": "0334-01-01",
+          "precision": 9,
+          "statement": "Q1199590$205E1286-DB30-4B96-A2A2-4FD6A112DD84",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1199590",
+        "title": "Shi Hong",
+        "source": "https://en.wikipedia.org/wiki/Shi_Hong",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Later Zhao",
+            "raw": "333–334",
+            "parsed": {
+              "start": "0333-01-01",
+              "end": "0334-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Zhao",
+            "raw": "333–334",
+            "parsed": {
+              "start": "0333-01-01",
+              "end": "0334-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shi Hu",
+        "title": "Shi Hu",
+        "person": "Q1149441",
+        "name": "Shi Hu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shi_Hu",
+        "identityResolution": {
+          "requested": "Shi Hu",
+          "canonical": "Shi Hu",
+          "qid": "Q1149441"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0334-01-01",
+          "end": "0349-01-01",
+          "precision": 9,
+          "statement": "Q1149441$09fc6302-1733-4efd-b4e7-fd6cf3c5cbac",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149441",
+        "title": "Shi Hu",
+        "source": "https://en.wikipedia.org/wiki/Shi_Hu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Later Zhao",
+            "raw": "334–349",
+            "parsed": {
+              "start": "0334-01-01",
+              "end": "0349-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Zhao",
+            "raw": "334–349",
+            "parsed": {
+              "start": "0334-01-01",
+              "end": "0349-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shi Jian",
+        "title": "Shi Jian",
+        "person": "Q283828",
+        "name": "Shi Jian",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shi_Jian",
+        "identityResolution": {
+          "requested": "Shi Jian",
+          "canonical": "Shi Jian",
+          "qid": "Q283828"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0349-01-01",
+          "end": "0350-01-01",
+          "precision": 9,
+          "statement": "Q283828$13FFA3BD-ED43-4365-B7B8-C8DEBA59F6E8",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q283828",
+        "title": "Shi Jian",
+        "source": "https://en.wikipedia.org/wiki/Shi_Jian",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Later Zhao",
+            "raw": "349–350",
+            "parsed": {
+              "start": "0349-01-01",
+              "end": "0350-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Zhao",
+            "raw": "349–350",
+            "parsed": {
+              "start": "0349-01-01",
+              "end": "0350-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shi Le",
+        "title": "Shi Le",
+        "person": "Q1196190",
+        "name": "Shi Le",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shi_Le",
+        "identityResolution": {
+          "requested": "Shi Le",
+          "canonical": "Shi Le",
+          "qid": "Q1196190"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0319-01-01",
+          "end": "0333-01-01",
+          "precision": 9,
+          "statement": "Q1196190$E7681370-D6CC-49FA-8A95-E6CAEA9EEC1A",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1196190",
+        "title": "Shi Le",
+        "source": "https://en.wikipedia.org/wiki/Shi_Le",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Later Zhao",
+            "raw": "{{circa}}March 330<ref>2nd month of the 5th year of the ''Xian'he'' era, per vol.94 of ''Zizhi Tongjian''. The month corresponds to 6 Mar to 4 Apr 330 in the Julian calendar.</ref> – 333",
+            "parsed": {
+              "start": "0330-03-01",
+              "end": "0333-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Zhao",
+            "raw": "319–330",
+            "parsed": {
+              "start": "0319-01-01",
+              "end": "0330-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Zhao",
+            "raw": "330–333",
+            "parsed": {
+              "start": "0330-01-01",
+              "end": "0333-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shi Shi (emperor)",
+        "title": "Shi Shi (emperor)",
+        "person": "Q1152762",
+        "name": "Shi Shi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shi_Shi_%28emperor%29",
+        "identityResolution": {
+          "requested": "Shi Shi (emperor)",
+          "canonical": "Shi Shi (emperor)",
+          "qid": "Q1152762"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0349-01-01",
+          "end": "0349-01-01",
+          "precision": 9,
+          "statement": "Q1152762$AB9B4287-6FBF-4925-BB25-2873DAD703E5",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1152762",
+        "title": "Shi Shi (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Shi_Shi_%28emperor%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Later Zhao",
+            "raw": "349",
+            "parsed": {
+              "start": "0349-01-01",
+              "end": "0349-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Zhao",
+            "raw": "349",
+            "parsed": {
+              "start": "0349-01-01",
+              "end": "0349-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shi Zhi",
+        "title": "Shi Zhi",
+        "person": "Q1199583",
+        "name": "Shi Zhi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shi_Zhi",
+        "identityResolution": {
+          "requested": "Shi Zhi",
+          "canonical": "Shi Zhi",
+          "qid": "Q1199583"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0350-01-01",
+          "end": "0351-01-01",
+          "precision": 9,
+          "statement": "Q1199583$2900affd-cf2a-4f87-b3ad-125d6fcb73d2",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1199583",
+        "title": "Shi Zhi",
+        "source": "https://en.wikipedia.org/wiki/Shi_Zhi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Later Zhao",
+            "raw": "350–351",
+            "parsed": {
+              "start": "0350-01-01",
+              "end": "0351-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Zhao",
+            "raw": "350–351",
+            "parsed": {
+              "start": "0350-01-01",
+              "end": "0351-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shi Zun",
+        "title": "Shi Zun",
+        "person": "Q1152755",
+        "name": "Shi Zun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shi_Zun",
+        "identityResolution": {
+          "requested": "Shi Zun",
+          "canonical": "Shi Zun",
+          "qid": "Q1152755"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0349-01-01",
+          "end": "0349-01-01",
+          "precision": 9,
+          "statement": "Q1152755$54B8CBE6-942C-4BF9-B50E-841DBAD37F2A",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1152755",
+        "title": "Shi Zun",
+        "source": "https://en.wikipedia.org/wiki/Shi_Zun",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Later Zhao",
+            "raw": "349",
+            "parsed": {
+              "start": "0349-01-01",
+              "end": "0349-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Zhao",
+            "raw": "349",
+            "parsed": {
+              "start": "0349-01-01",
+              "end": "0349-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 7,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1196190",
+        "title": "Shi Le",
+        "source": "https://en.wikipedia.org/wiki/Shi_Le",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Later Zhao",
+          "raw": "{{circa}}March 330<ref>2nd month of the 5th year of the ''Xian'he'' era, per vol.94 of ''Zizhi Tongjian''. The month corresponds to 6 Mar to 4 Apr 330 in the Julian calendar.</ref> – 333",
+          "parsed": {
+            "start": "0330-03-01",
+            "end": "0333-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1199590",
+        "title": "Shi Hong",
+        "source": "https://en.wikipedia.org/wiki/Shi_Hong",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Later Zhao",
+          "raw": "333–334",
+          "parsed": {
+            "start": "0333-01-01",
+            "end": "0334-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1149441",
+        "title": "Shi Hu",
+        "source": "https://en.wikipedia.org/wiki/Shi_Hu",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Later Zhao",
+          "raw": "334–349",
+          "parsed": {
+            "start": "0334-01-01",
+            "end": "0349-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1152762",
+        "title": "Shi Shi (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Shi_Shi_%28emperor%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Later Zhao",
+          "raw": "349",
+          "parsed": {
+            "start": "0349-01-01",
+            "end": "0349-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1152755",
+        "title": "Shi Zun",
+        "source": "https://en.wikipedia.org/wiki/Shi_Zun",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Later Zhao",
+          "raw": "349",
+          "parsed": {
+            "start": "0349-01-01",
+            "end": "0349-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q283828",
+        "title": "Shi Jian",
+        "source": "https://en.wikipedia.org/wiki/Shi_Jian",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Later Zhao",
+          "raw": "349–350",
+          "parsed": {
+            "start": "0349-01-01",
+            "end": "0350-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1199583",
+        "title": "Shi Zhi",
+        "source": "https://en.wikipedia.org/wiki/Shi_Zhi",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Later Zhao",
+          "raw": "350–351",
+          "parsed": {
+            "start": "0350-01-01",
+            "end": "0351-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-15",
+      "name": "Xiangguo · corte Zhao",
+      "coordinates": [
+        114.49,
+        37.07
+      ],
+      "start": 319,
+      "end": 334,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Later_Zhao",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Zhao posterior"
+    },
+    {
+      "id": "seat037-15-own",
+      "name": "Xiangguo · corte Zhao",
+      "coordinates": [
+        114.49,
+        37.07
+      ],
+      "start": 319,
+      "end": 334,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Later_Zhao",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Zhao posterior"
+    },
+    {
+      "id": "seat037-16",
+      "name": "Ye · corte Zhao",
+      "coordinates": [
+        114.61,
+        36.29
+      ],
+      "start": 335,
+      "end": 351,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Later_Zhao",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Zhao posterior"
+    },
+    {
+      "id": "seat037-16-own",
+      "name": "Ye · corte Zhao",
+      "coordinates": [
+        114.61,
+        36.29
+      ],
+      "start": 335,
+      "end": 351,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Later_Zhao",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Zhao posterior"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1196190",
+      "name": "Shi Le",
+      "title": "Shi Le (Emperor Ming of Later Zhao).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shi_Le_(Emperor_Ming_of_Later_Zhao).jpg",
+      "sha256": "d95f9a0b9022de45deb1e1d955108d7a3eda5e0dc46e7bb49c3f99f2f805c909",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Shi Le; no fotografía ni semejanza del natural acreditada."
+    }
+  ]
+}

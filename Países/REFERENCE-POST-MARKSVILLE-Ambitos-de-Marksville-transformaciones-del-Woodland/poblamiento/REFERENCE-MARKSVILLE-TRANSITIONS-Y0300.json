@@ -1,0 +1,78 @@
+{
+  "key": "REFERENCE-MARKSVILLE-TRANSITIONS-Y0300",
+  "contextKey": "REFERENCE-MARKSVILLE-TRANSITIONS",
+  "ownerKey": "REFERENCE-POST-MARKSVILLE",
+  "name": "Tradiciones Marksville y transformaciones regionales",
+  "originalNames": [
+    "Marksville Culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 300",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    300,
+    399
+  ],
+  "interpretation": "Referencia arqueológica de transición en torno a400. No se acredita una cultura homogénea e inmutable hasta499 ni una lista de gobernantes.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea300 contiene etiquetas de épocas distintas. La ventana300–399 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de300",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -91.23021,
+    31.25295
+  ],
+  "phases": [
+    {
+      "start": 300,
+      "end": 399,
+      "label": "Tradiciones Marksville y transformaciones regionales",
+      "dateBasis": "Referencia regional de la fuente editorial300; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-MARKSVILLE-TRANSITIONS-Y0300.geojson",
+  "geometrySha256": "26a08b14c6eb0125e93dc773895a53010ff4108ff06354fd11a426c61895599d",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson",
+    "year": 300,
+    "featureIds": [
+      184
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297"
+  },
+  "review": "0.37.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final399 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en400."
+  ],
+  "originalSourceProperties": [
+    {
+      "cat": null,
+      "NAME": "Marksville Culture",
+      "ABBREVN": "Marksville Culture",
+      "SUBJECTO": "Marksville Culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Marksville Culture"
+    }
+  ],
+  "sourceGrouping": [
+    "Marksville Culture"
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "key": "CHENG-HAN",
+  "identity": {
+    "qid": "Q1069905",
+    "name": "Cheng Han"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Cheng Han",
+      "officePattern": "Emperor|King|Prince",
+      "titles": [
+        "Li Xiong",
+        "Li Ban",
+        "Li Qi (emperor)",
+        "Li Shou",
+        "Li Shi (emperor)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q712330",
+      "name": "Li Xiong",
+      "role": "Gobernante de Cheng Han",
+      "start": "0304-01-01",
+      "end": "0334-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Li_Xiong",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712522",
+      "name": "Li Ban",
+      "role": "Gobernante de Cheng Han",
+      "start": "0334-08-11",
+      "end": "0334-12-05",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Li_Ban",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712327",
+      "name": "Li Qi",
+      "role": "Gobernante de Cheng Han",
+      "start": "0334-12-06",
+      "end": "0338-05-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Li_Qi_%28emperor%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712558",
+      "name": "Li Shou",
+      "role": "Gobernante de Cheng Han",
+      "start": "0338-01-01",
+      "end": "0343-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Li_Shou",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q712772",
+      "name": "Li Shi",
+      "role": "Gobernante de Cheng Han",
+      "start": "0343-01-01",
+      "end": "0347-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Li_Shi_%28emperor%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 304,
+      "end": 347,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Li_Xiong",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Cheng Han"
+        ],
+        "start": 300,
+        "end": 303,
+        "label": "Cheng Han · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Cheng Han"
+        ],
+        "start": 304,
+        "end": 347,
+        "label": "Cheng Han",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Cheng Han"
+        ],
+        "start": 348,
+        "end": 399,
+        "label": "Cheng Han · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "872a7dc7695b8b1df1fcdabc5cd303d8ffbd3b06a6bc50972805d3a61fa4fbe3",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1423,
+        1435,
+        1459
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Li Ban",
+        "title": "Li Ban",
+        "person": "Q712522",
+        "name": "Li Ban",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Li_Ban",
+        "identityResolution": {
+          "requested": "Li Ban",
+          "canonical": "Li Ban",
+          "qid": "Q712522"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0334-01-01",
+          "end": "0334-01-01",
+          "precision": 9,
+          "statement": "Q712522$3ec6350c-4087-2dde-f98b-8b1adbe4c704",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712522",
+        "title": "Li Ban",
+        "source": "https://en.wikipedia.org/wiki/Li_Ban",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Cheng-Han",
+            "raw": "August 11<ref name=ZZTJ95/><ref>{{Cite web|url=http://www.sinica.edu.tw/ftms-bin/kiwi1/luso.sh?lstype=2&dyna=%AAF%AE%CA&king=%A6%A8%AB%D2&reign=%ABw%A9M&yy=9&ycanzi=&mm=6&dd=&dcanzi=%A4B%A5f|title = 中央研究院}}</ref> – December 5, 334",
+            "parsed": {
+              "start": "0334-08-11",
+              "end": "0334-12-05",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Cheng-Han",
+            "raw": "334",
+            "parsed": {
+              "start": "0334-01-01",
+              "end": "0334-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Li Qi (emperor)",
+        "title": "Li Qi (emperor)",
+        "person": "Q712327",
+        "name": "Li Qi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Li_Qi_%28emperor%29",
+        "identityResolution": {
+          "requested": "Li Qi (emperor)",
+          "canonical": "Li Qi (emperor)",
+          "qid": "Q712327"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0334-01-01",
+          "end": "0338-01-01",
+          "precision": 9,
+          "statement": "Q712327$2ad82ada-7acf-4ace-949c-e492fd232a6e",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712327",
+        "title": "Li Qi (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Li_Qi_%28emperor%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Cheng-Han",
+            "raw": "December 6, 334<ref>{{Cite web|url=http://www.sinica.edu.tw/ftms-bin/kiwi1/luso.sh?lstype=2&dyna=%AAF%AE%CA&king=%A6%A8%AB%D2&reign=%ABw%A9M&yy=9&ycanzi=&mm=10&dd=&dcanzi=%A5%D2%A4l|title = 中央研究院}}</ref><ref name=ZZTJ95>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷095|vol. 95]].</ref> – {{circa}}May 338<ref name=ZZTJ96/><ref>4th month of the 4th year of the ''Xian'kang'' era. The month corresponds to 6 May to 3 Jun 338 in the Julian calendar.</ref>",
+            "parsed": {
+              "start": "0334-12-06",
+              "end": "0338-05-01",
+              "precision": 10
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Cheng-Han",
+            "raw": "334–338",
+            "parsed": {
+              "start": "0334-01-01",
+              "end": "0338-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Li Shi (emperor)",
+        "title": "Li Shi (emperor)",
+        "person": "Q712772",
+        "name": "Li Shi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Li_Shi_%28emperor%29",
+        "identityResolution": {
+          "requested": "Li Shi (emperor)",
+          "canonical": "Li Shi (emperor)",
+          "qid": "Q712772"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0343-01-01",
+          "end": "0347-01-01",
+          "precision": 9,
+          "statement": "Q712772$a1823a3d-40b8-7fbe-3de2-9f64e428b8a7",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712772",
+        "title": "Li Shi (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Li_Shi_%28emperor%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Cheng-Han",
+            "raw": "343–347",
+            "parsed": {
+              "start": "0343-01-01",
+              "end": "0347-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Cheng-Han",
+            "raw": "343–347",
+            "parsed": {
+              "start": "0343-01-01",
+              "end": "0347-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Marquess of Guiyi",
+            "raw": "347–361",
+            "parsed": {
+              "start": "0347-01-01",
+              "end": "0361-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Li Shou",
+        "title": "Li Shou",
+        "person": "Q712558",
+        "name": "Li Shou",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Li_Shou",
+        "identityResolution": {
+          "requested": "Li Shou",
+          "canonical": "Li Shou",
+          "qid": "Q712558"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0338-01-01",
+          "end": "0343-01-01",
+          "precision": 9,
+          "statement": "Q712558$e95277cb-417a-bb49-157c-a8614943685b",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712558",
+        "title": "Li Shou",
+        "source": "https://en.wikipedia.org/wiki/Li_Shou",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Cheng-Han",
+            "raw": "338–343",
+            "parsed": {
+              "start": "0338-01-01",
+              "end": "0343-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Cheng-Han",
+            "raw": "338–343",
+            "parsed": {
+              "start": "0338-01-01",
+              "end": "0343-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Li Xiong",
+        "title": "Li Xiong",
+        "person": "Q712330",
+        "name": "Li Xiong",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Li_Xiong",
+        "identityResolution": {
+          "requested": "Li Xiong",
+          "canonical": "Li Xiong",
+          "qid": "Q712330"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0306-01-01",
+          "end": "0334-01-01",
+          "precision": 9,
+          "statement": "Q712330$ed5416c8-6133-4e14-b06b-e68ddced7509",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712330",
+        "title": "Li Xiong",
+        "source": "https://en.wikipedia.org/wiki/Li_Xiong",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Cheng-Han",
+            "raw": "304–334",
+            "parsed": {
+              "start": "0304-01-01",
+              "end": "0334-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Cheng-Han",
+            "raw": "306–334",
+            "parsed": {
+              "start": "0306-01-01",
+              "end": "0334-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Chengdu",
+            "raw": "304–306",
+            "parsed": {
+              "start": "0304-01-01",
+              "end": "0306-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q712330",
+        "title": "Li Xiong",
+        "source": "https://en.wikipedia.org/wiki/Li_Xiong",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Cheng-Han",
+          "raw": "304–334",
+          "parsed": {
+            "start": "0304-01-01",
+            "end": "0334-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712522",
+        "title": "Li Ban",
+        "source": "https://en.wikipedia.org/wiki/Li_Ban",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Cheng-Han",
+          "raw": "August 11<ref name=ZZTJ95/><ref>{{Cite web|url=http://www.sinica.edu.tw/ftms-bin/kiwi1/luso.sh?lstype=2&dyna=%AAF%AE%CA&king=%A6%A8%AB%D2&reign=%ABw%A9M&yy=9&ycanzi=&mm=6&dd=&dcanzi=%A4B%A5f|title = 中央研究院}}</ref> – December 5, 334",
+          "parsed": {
+            "start": "0334-08-11",
+            "end": "0334-12-05",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712327",
+        "title": "Li Qi (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Li_Qi_%28emperor%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Cheng-Han",
+          "raw": "December 6, 334<ref>{{Cite web|url=http://www.sinica.edu.tw/ftms-bin/kiwi1/luso.sh?lstype=2&dyna=%AAF%AE%CA&king=%A6%A8%AB%D2&reign=%ABw%A9M&yy=9&ycanzi=&mm=10&dd=&dcanzi=%A5%D2%A4l|title = 中央研究院}}</ref><ref name=ZZTJ95>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷095|vol. 95]].</ref> – {{circa}}May 338<ref name=ZZTJ96/><ref>4th month of the 4th year of the ''Xian'kang'' era. The month corresponds to 6 May to 3 Jun 338 in the Julian calendar.</ref>",
+          "parsed": {
+            "start": "0334-12-06",
+            "end": "0338-05-01",
+            "precision": 10
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712558",
+        "title": "Li Shou",
+        "source": "https://en.wikipedia.org/wiki/Li_Shou",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Cheng-Han",
+          "raw": "338–343",
+          "parsed": {
+            "start": "0338-01-01",
+            "end": "0343-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q712772",
+        "title": "Li Shi (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Li_Shi_%28emperor%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Cheng-Han",
+          "raw": "343–347",
+          "parsed": {
+            "start": "0343-01-01",
+            "end": "0347-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-12",
+      "name": "Chengdu · corte Cheng Han",
+      "coordinates": [
+        104.06,
+        30.67
+      ],
+      "start": 304,
+      "end": 347,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Cheng-Han",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Cheng Han"
+    },
+    {
+      "id": "seat037-12-own",
+      "name": "Chengdu · corte Cheng Han",
+      "coordinates": [
+        104.06,
+        30.67
+      ],
+      "start": 304,
+      "end": 347,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Cheng-Han",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Cheng Han"
+    }
+  ]
+}

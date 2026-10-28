@@ -1,6 +1,6 @@
 import type {FeatureCollection} from 'geojson';
 
-export type EntityResolution={coverageStart:number;coverageEnd:number;qidKeys:Record<string,string>;names:Record<string,string>;records:{names:string[];key:string;label:string;entityCode:string;admin:string;status:string;start:number;end:number;source:string;note:string}[]};
+export type EntityResolution={coverageStart:number;coverageEnd:number;qidKeys:Record<string,string>;names:Record<string,string>;records:{names:string[];key:string;label:string;entityCode:string;admin:string;status:string;start:number;end:number;source:string;note:string;colorFamily?:string}[]};
 
 /** Date-scoped identity repair over unchanged source contours. A source label
  * such as Haiti's old Empire must not select an emperor in the1880 republic. */
@@ -17,6 +17,7 @@ export function resolve1880(data:FeatureCollection,year:number,catalogue:EntityR
   const note=[p.note,rule?.note,early?'Geometría de síntesis Cliopatria sin día uniforme; la corrección de identidad no certifica todos sus límites ni su periodización.':''].filter(Boolean).join(' ');
   return {...f,properties:{...p,sourceName,sourceWikidata:p.wikidata,
    name:label,identityKey:key??p.identityKey,entityCode:rule?.entityCode??(early?key:p.entityCode),
+   ...(rule?.colorFamily?{colorFamily:rule.colorFamily}:{}),
    code:early||['BRA-EMPIRE','JOS','HAW-KINGDOM','HAW-PROVISIONAL','HAW-REPUBLIC','HAW'].includes(key)?'':p.code,
    ...(early?{status}:{}),...(rule?.admin?{status,administratorKey:rule.admin,localAuthorityKey:key,ownerName:owner,group:owner}:{}),
    ...(rule?{identityCorrection:`dated-${catalogue.coverageStart}-${catalogue.coverageEnd}`,identitySource:rule.source}:{}),

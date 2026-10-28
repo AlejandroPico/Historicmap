@@ -1,0 +1,392 @@
+{
+  "key": "LATER-LIANG-16",
+  "identity": {
+    "qid": "Q2314869",
+    "name": "Liang posterior · Dieciséis Reinos"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Liang posterior",
+      "officePattern": "King|Prince|Emperor",
+      "titles": [
+        "Lü Guang",
+        "Lü Shao",
+        "Lü Zuan"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1069762",
+      "name": "Lü Guang",
+      "role": "Gobernante de Liang posterior",
+      "start": "0386-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/L%C3%BC_Guang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1078559",
+      "name": "Lü Shao",
+      "role": "Gobernante de Liang posterior",
+      "start": "0399-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/L%C3%BC_Shao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 386,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/L%C3%BC_Guang",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Liang"
+        ],
+        "start": 300,
+        "end": 385,
+        "label": "Liang posterior · Dieciséis Reinos · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Liang"
+        ],
+        "start": 386,
+        "end": 399,
+        "label": "Liang posterior · Dieciséis Reinos",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "69ad0f619b2d6ffb1731d1f236a4cc627787b2b12f9dbaf55deb3b104f904e68",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1552,
+        1612
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Lü Guang",
+        "title": "Lü Guang",
+        "person": "Q1069762",
+        "name": "Lü Guang",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Guang",
+        "identityResolution": {
+          "requested": "Lü Guang",
+          "canonical": "Lü Guang",
+          "qid": "Q1069762"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0386-01-01",
+          "end": "0400-01-01",
+          "precision": 9,
+          "statement": "Q1069762$22bfd492-e085-4415-9602-edf54f1c199d",
+          "label": "Emperador de China"
+        },
+        {
+          "property": "P39",
+          "office": "Q2747456",
+          "start": "0389-01-01",
+          "end": "0396-01-01",
+          "precision": 9,
+          "statement": "Q1069762$61ebeeb8-422f-a222-7822-da3a873024c7",
+          "label": "príncipe"
+        },
+        {
+          "property": "P39",
+          "office": "Q166886",
+          "start": "0386-01-01",
+          "end": "0389-01-01",
+          "precision": 9,
+          "statement": "Q1069762$3a9eb449-4e13-38f6-74a4-95a7498ac344",
+          "label": "duque"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1069762",
+        "title": "Lü Guang",
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Guang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Heavenly King of Later Liang",
+            "raw": "386–399",
+            "parsed": {
+              "start": "0386-01-01",
+              "end": "0399-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Liang",
+            "raw": "396–400",
+            "parsed": {
+              "start": "0396-01-01",
+              "end": "0400-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Sanhe",
+            "raw": "389–396",
+            "parsed": {
+              "start": "0389-01-01",
+              "end": "0396-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Jiuquan",
+            "raw": "386–389",
+            "parsed": {
+              "start": "0386-01-01",
+              "end": "0389-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Lü Shao",
+        "title": "Lü Shao",
+        "person": "Q1078559",
+        "name": "Lü Shao",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Shao",
+        "identityResolution": {
+          "requested": "Lü Shao",
+          "canonical": "Lü Shao",
+          "qid": "Q1078559"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1078559",
+        "title": "Lü Shao",
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Shao",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Heavenly King of Later Liang",
+            "raw": "399–400",
+            "parsed": {
+              "start": "0399-01-01",
+              "end": "0400-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Liang",
+            "raw": "400",
+            "parsed": {
+              "start": "0400-01-01",
+              "end": "0400-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Lü Zuan",
+        "title": "Lü Zuan",
+        "person": "Q1131418",
+        "name": "Lü Zuan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Zuan",
+        "identityResolution": {
+          "requested": "Lü Zuan",
+          "canonical": "Lü Zuan",
+          "qid": "Q1131418"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1131418",
+        "title": "Lü Zuan",
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Zuan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Heavenly King of Later Liang",
+            "raw": "400–401",
+            "parsed": {
+              "start": "0400-01-01",
+              "end": "0401-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Liang",
+            "raw": "400–401",
+            "parsed": {
+              "start": "0400-01-01",
+              "end": "0401-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Taiyuan",
+            "raw": "397–400",
+            "parsed": {
+              "start": "0397-01-01",
+              "end": "0400-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1069762",
+        "title": "Lü Guang",
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Guang",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Heavenly King of Later Liang",
+          "raw": "386–399",
+          "parsed": {
+            "start": "0386-01-01",
+            "end": "0399-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1078559",
+        "title": "Lü Shao",
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Shao",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Heavenly King of Later Liang",
+          "raw": "399–400",
+          "parsed": {
+            "start": "0399-01-01",
+            "end": "0400-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-24",
+      "name": "Guzang · corte Liang posterior",
+      "coordinates": [
+        102.64,
+        37.93
+      ],
+      "start": 386,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Later_Liang_%28Sixteen_Kingdoms%29",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Liang posterior · Dieciséis Reinos"
+    },
+    {
+      "id": "seat037-24-own",
+      "name": "Guzang · corte Liang posterior",
+      "coordinates": [
+        102.64,
+        37.93
+      ],
+      "start": 386,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Later_Liang_%28Sixteen_Kingdoms%29",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Liang posterior · Dieciséis Reinos"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-SAKA-KINGDOM-5C88D95A",
+  "name": "Saka Kingdom",
+  "qid": "",
+  "aliases": [
+    "Saka Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 13,
+      "start": null,
+      "end": null,
+      "name": "Saka Kingdom",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-SAKA-KINGDOM-5C88D95A-Y0300:0",
+      "contextKey": "CULTURE-SAKA-KINGDOM-5C88D95A",
+      "start": 300,
+      "end": 399,
+      "sourceYear": 300,
+      "canonicalFile": "Países/CULTURE-SAKA-KINGDOM-5C88D95A-Saka-Kingdom/poblamiento/CULTURE-SAKA-KINGDOM-5C88D95A-Y0300.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

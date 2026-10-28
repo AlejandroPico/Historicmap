@@ -1,0 +1,481 @@
+{
+  "key": "FORMER-YAN",
+  "identity": {
+    "qid": "Q1472004",
+    "name": "Yan anterior"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Yan anterior",
+      "officePattern": "Emperor|King|Prince",
+      "titles": [
+        "Murong Huang",
+        "Murong Jun",
+        "Murong Wei"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1069778",
+      "name": "Murong Huang",
+      "role": "Gobernante de Yan anterior",
+      "start": "0337-11-23",
+      "end": "0348-10-25",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Murong_Huang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1071329",
+      "name": "Murong Jun",
+      "role": "Gobernante de Yan anterior",
+      "start": "0352-01-01",
+      "end": "0360-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Jun",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1071329",
+      "name": "Murong Jun",
+      "role": "Gobernante de Yan anterior",
+      "start": "0348-01-01",
+      "end": "0352-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Jun",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1074804",
+      "name": "Murong Wei",
+      "role": "Gobernante de Yan anterior",
+      "start": "0360-02-17",
+      "end": "0370-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Wei",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 337,
+      "end": 370,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Murong_Huang",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Former Yan"
+        ],
+        "start": 300,
+        "end": 336,
+        "label": "Yan anterior · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Former Yan"
+        ],
+        "start": 337,
+        "end": 370,
+        "label": "Yan anterior",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Former Yan"
+        ],
+        "start": 371,
+        "end": 399,
+        "label": "Yan anterior · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "fb317c63a726ba5d5f5d1c98a820028bdaadcc9b8de5ad8c29408ed5ae9ca86d",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1454,
+        1487,
+        1507
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Murong Huang",
+        "title": "Murong Huang",
+        "person": "Q1069778",
+        "name": "Murong Huang",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Murong_Huang",
+        "identityResolution": {
+          "requested": "Murong Huang",
+          "canonical": "Murong Huang",
+          "qid": "Q1069778"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q2747456",
+          "start": "0337-01-01",
+          "end": "0348-01-01",
+          "precision": 9,
+          "statement": "Q1069778$4E5E70CD-A567-44DF-A3E1-1AA40072A8D7",
+          "label": "príncipe"
+        },
+        {
+          "property": "P39",
+          "office": "Q166886",
+          "start": "0333-01-01",
+          "end": "0337-01-01",
+          "precision": 9,
+          "statement": "Q1069778$583a3379-4dfc-331e-ec3f-10e99e289653",
+          "label": "duque"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1069778",
+        "title": "Murong Huang",
+        "source": "https://en.wikipedia.org/wiki/Murong_Huang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Prince of Former Yan",
+            "raw": "23 November 337<ref>([咸康三年]冬，十月，丁卯，皝即燕王位，大赦。) ''Zizhi Tongjian'', vol.95</ref> – 25 October 348",
+            "parsed": {
+              "start": "0337-11-23",
+              "end": "0348-10-25",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Duke of Liaodong (遼東郡公)",
+            "raw": "4 June 333 – 23 November 337",
+            "parsed": {
+              "start": "0333-06-04",
+              "end": "0337-11-23",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Yan",
+            "raw": "337–348",
+            "parsed": {
+              "start": "0337-01-01",
+              "end": "0348-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Liaodong",
+            "raw": "333–337",
+            "parsed": {
+              "start": "0333-01-01",
+              "end": "0337-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Jun",
+        "title": "Murong Jun",
+        "person": "Q1071329",
+        "name": "Murong Jun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Murong_Jun",
+        "identityResolution": {
+          "requested": "Murong Jun",
+          "canonical": "Murong Jun",
+          "qid": "Q1071329"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0352-01-01",
+          "end": "0360-01-01",
+          "precision": 9,
+          "statement": "Q1071329$4d32b8cd-0cfc-4f99-b510-76103a406e29",
+          "label": "Emperador de China"
+        },
+        {
+          "property": "P39",
+          "office": "Q5187291",
+          "start": "0348-01-01",
+          "end": "0352-01-01",
+          "precision": 9,
+          "statement": "Q1071329$a825de32-45ed-bb86-6879-ef52d21b279b",
+          "label": "Prince of Yan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1071329",
+        "title": "Murong Jun",
+        "source": "https://en.wikipedia.org/wiki/Murong_Jun",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Former Yan",
+            "raw": "348–360",
+            "parsed": {
+              "start": "0348-01-01",
+              "end": "0360-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Former Yan",
+            "raw": "352–360",
+            "parsed": {
+              "start": "0352-01-01",
+              "end": "0360-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Yan",
+            "raw": "348–352",
+            "parsed": {
+              "start": "0348-01-01",
+              "end": "0352-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Wei",
+        "title": "Murong Wei",
+        "person": "Q1074804",
+        "name": "Murong Wei",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Murong_Wei",
+        "identityResolution": {
+          "requested": "Murong Wei",
+          "canonical": "Murong Wei",
+          "qid": "Q1074804"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0360-01-01",
+          "end": "0370-01-01",
+          "precision": 9,
+          "statement": "Q1074804$60095589-e955-4c72-b0b9-ed1f1003bd9f",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1074804",
+        "title": "Murong Wei",
+        "source": "https://en.wikipedia.org/wiki/Murong_Wei",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Former Yan",
+            "raw": "February 17, 360<ref name=AS>[http://sinocal.sinica.edu.tw/ Academia Sinica Chinese-Western Calendar Converter].</ref><ref name=ZZTJ101>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷101|vol. 101]].</ref> – 370<ref name=ZZTJ102>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷102|vol. 102]].</ref>",
+            "parsed": {
+              "start": "0360-02-17",
+              "end": "0370-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Former Yan",
+            "raw": "360–370",
+            "parsed": {
+              "start": "0360-01-01",
+              "end": "0370-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1069778",
+        "title": "Murong Huang",
+        "source": "https://en.wikipedia.org/wiki/Murong_Huang",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Prince of Former Yan",
+          "raw": "23 November 337<ref>([咸康三年]冬，十月，丁卯，皝即燕王位，大赦。) ''Zizhi Tongjian'', vol.95</ref> – 25 October 348",
+          "parsed": {
+            "start": "0337-11-23",
+            "end": "0348-10-25",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1071329",
+        "title": "Murong Jun",
+        "source": "https://en.wikipedia.org/wiki/Murong_Jun",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Emperor of Former Yan",
+          "raw": "352–360",
+          "parsed": {
+            "start": "0352-01-01",
+            "end": "0360-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1071329",
+        "title": "Murong Jun",
+        "source": "https://en.wikipedia.org/wiki/Murong_Jun",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Prince of Yan",
+          "raw": "348–352",
+          "parsed": {
+            "start": "0348-01-01",
+            "end": "0352-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1074804",
+        "title": "Murong Wei",
+        "source": "https://en.wikipedia.org/wiki/Murong_Wei",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Former Yan",
+          "raw": "February 17, 360<ref name=AS>[http://sinocal.sinica.edu.tw/ Academia Sinica Chinese-Western Calendar Converter].</ref><ref name=ZZTJ101>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷101|vol. 101]].</ref> – 370<ref name=ZZTJ102>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷102|vol. 102]].</ref>",
+          "parsed": {
+            "start": "0360-02-17",
+            "end": "0370-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-18",
+      "name": "Ye · corte Yan",
+      "coordinates": [
+        114.61,
+        36.29
+      ],
+      "start": 357,
+      "end": 370,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Former_Yan",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Yan anterior"
+    },
+    {
+      "id": "seat037-18-own",
+      "name": "Ye · corte Yan",
+      "coordinates": [
+        114.61,
+        36.29
+      ],
+      "start": 357,
+      "end": 370,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Former_Yan",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Yan anterior"
+    }
+  ]
+}

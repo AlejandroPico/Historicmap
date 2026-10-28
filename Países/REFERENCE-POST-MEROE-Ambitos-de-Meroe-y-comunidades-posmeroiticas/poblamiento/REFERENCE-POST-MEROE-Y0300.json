@@ -1,0 +1,74 @@
+{
+  "key": "REFERENCE-POST-MEROE-Y0300",
+  "contextKey": "REFERENCE-POST-MEROE",
+  "ownerKey": "REFERENCE-POST-MEROE",
+  "name": "Ámbitos de Meroe y transformaciones del Nilo",
+  "originalNames": [
+    "Meroe"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 300",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    300,
+    399
+  ],
+  "interpretation": "El reino de Kush continúa al comienzo del siglo IV; el final de Meroe y la transición posmeroítica tienen cronologías discutidas. La ventana300–399 no prolonga una dinastía sin cambios ni supone desaparición de la población.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea300 contiene etiquetas de épocas distintas. La ventana300–399 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de300",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    32.73982,
+    17.91228
+  ],
+  "phases": [
+    {
+      "start": 300,
+      "end": 399,
+      "label": "Ámbitos de Meroe y transformaciones del Nilo",
+      "dateBasis": "Referencia regional de la fuente editorial300; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-MEROE-Y0300.geojson",
+  "geometrySha256": "afa9c3f70a3d1f274d309600b8fa734a10d95569ee4edb0870b75715b0324028",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson",
+    "year": 300,
+    "featureIds": [
+      11
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297"
+  },
+  "review": "0.37.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final399 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en400."
+  ],
+  "originalSourceProperties": [
+    {
+      "cat": 24,
+      "NAME": "Meroe",
+      "ABBREVN": "Meroe",
+      "SUBJECTO": "Meroe",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Meroe"
+    }
+  ],
+  "sourceGrouping": [
+    "Meroe"
+  ]
+}

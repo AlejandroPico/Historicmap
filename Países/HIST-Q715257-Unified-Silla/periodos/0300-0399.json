@@ -1,0 +1,340 @@
+{
+  "key": "HIST-Q715257",
+  "identity": {
+    "qid": "Q715257",
+    "name": "Reino de Silla"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Silla",
+      "officePattern": "King.*Silla|Ruler.*Silla",
+      "titles": [
+        "Girim of Silla",
+        "Heulhae of Silla",
+        "Naemul of Silla"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q485627",
+      "name": "Girim of Silla",
+      "role": "Gobernante de Silla",
+      "start": "0300-01-01",
+      "end": "0310-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Girim_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q496697",
+      "name": "Heulhae of Silla",
+      "role": "Gobernante de Silla",
+      "start": "0310-01-01",
+      "end": "0356-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Heulhae_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q492831",
+      "name": "Naemul of Silla",
+      "role": "Gobernante de Silla",
+      "start": "0356-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Naemul_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Girim_of_Silla",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Silla"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Reino de Silla",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "55aebb83f11fcce087234ae0341f34fe20939f9153e41d2b7cb477688c21dc64",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1529
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Girim of Silla",
+        "title": "Girim of Silla",
+        "person": "Q485627",
+        "name": "Girim of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Girim_of_Silla",
+        "identityResolution": {
+          "requested": "Girim of Silla",
+          "canonical": "Girim of Silla",
+          "qid": "Q485627"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485627",
+        "title": "Girim of Silla",
+        "source": "https://en.wikipedia.org/wiki/Girim_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "298-310",
+            "parsed": {
+              "start": "0298-01-01",
+              "end": "0310-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "298–310",
+            "parsed": {
+              "start": "0298-01-01",
+              "end": "0310-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Heulhae of Silla",
+        "title": "Heulhae of Silla",
+        "person": "Q496697",
+        "name": "Heulhae of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Heulhae_of_Silla",
+        "identityResolution": {
+          "requested": "Heulhae of Silla",
+          "canonical": "Heulhae of Silla",
+          "qid": "Q496697"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q496697",
+        "title": "Heulhae of Silla",
+        "source": "https://en.wikipedia.org/wiki/Heulhae_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "310-356",
+            "parsed": {
+              "start": "0310-01-01",
+              "end": "0356-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "310–356",
+            "parsed": {
+              "start": "0310-01-01",
+              "end": "0356-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Naemul of Silla",
+        "title": "Naemul of Silla",
+        "person": "Q492831",
+        "name": "Naemul of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Naemul_of_Silla",
+        "identityResolution": {
+          "requested": "Naemul of Silla",
+          "canonical": "Naemul of Silla",
+          "qid": "Q492831"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q492831",
+        "title": "Naemul of Silla",
+        "source": "https://en.wikipedia.org/wiki/Naemul_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "356-402",
+            "parsed": {
+              "start": "0356-01-01",
+              "end": "0402-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "356–402",
+            "parsed": {
+              "start": "0356-01-01",
+              "end": "0402-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q485627",
+        "title": "Girim of Silla",
+        "source": "https://en.wikipedia.org/wiki/Girim_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "298-310",
+          "parsed": {
+            "start": "0298-01-01",
+            "end": "0310-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q496697",
+        "title": "Heulhae of Silla",
+        "source": "https://en.wikipedia.org/wiki/Heulhae_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "310-356",
+          "parsed": {
+            "start": "0310-01-01",
+            "end": "0356-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q492831",
+        "title": "Naemul of Silla",
+        "source": "https://en.wikipedia.org/wiki/Naemul_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "356-402",
+          "parsed": {
+            "start": "0356-01-01",
+            "end": "0402-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-34",
+      "name": "Gyeongju · Silla",
+      "coordinates": [
+        129.212,
+        35.856
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Silla",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Reino de Silla"
+    },
+    {
+      "id": "seat037-34-own",
+      "name": "Gyeongju · Silla",
+      "coordinates": [
+        129.212,
+        35.856
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Silla",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Reino de Silla"
+    }
+  ]
+}

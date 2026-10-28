@@ -43,4 +43,7 @@ class OfficeInfoboxTests(unittest.TestCase):
  def test_shared_year_with_coregency_annotation_and_asymmetric_spaces(self):
   r=m.extract('{{Infobox royalty|succession=Roman emperor in the West|reign=8 February – 2 September 421 (with Honorius)}}');self.assertEqual(r[0]['parsed']['start'],'0421-02-08');self.assertEqual(r[0]['parsed']['end'],'0421-09-02')
   r=m.extract('{{Infobox royalty|succession=King|reign=c. 497- 537 CE}}');self.assertEqual(r[0]['parsed']['start'],'0497-01-01')
+ def test_spaced_nowrap_keeps_exact_augustus_dates_and_caesar_dignity(self):
+  r=m.extract('{{Infobox royalty|succession=Roman emperor|reign=9 September 337 – {{no wrap|3 November 361}}|reign_type=Augustus|reign1=8 November 324 – {{nowrap|9 September 337}}|reign_type1=Caesar}}')
+  self.assertEqual(r[0]['parsed']['start'],'0337-09-09');self.assertEqual(r[0]['parsed']['end'],'0361-11-03');self.assertEqual(r[1]['reignType'],'Caesar')
 if __name__=='__main__':unittest.main()

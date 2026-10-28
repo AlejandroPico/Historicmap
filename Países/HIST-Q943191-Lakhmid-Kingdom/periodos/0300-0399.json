@@ -1,0 +1,325 @@
+{
+  "key": "HIST-Q943191",
+  "identity": {
+    "qid": "Q943191",
+    "name": "Lakhmid Kingdom"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey lajmí · cliente sasánida",
+      "officePattern": "King.*Lakhm|King.*Hira",
+      "titles": [
+        "Imru' al-Qays ibn 'Amr",
+        "Amr ibn Imru' al-Qays",
+        "Imru' al-Qays ibn 'Amr II",
+        "Al-Nu'man I ibn Imru' al-Qays"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1271038",
+      "name": "Imru-l-Qays ibn Amr",
+      "role": "Rey lajmí · cliente sasánida",
+      "start": "0300-01-01",
+      "end": "0328-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Imru_al-Qays_I_ibn_Amr",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q1565672",
+      "name": "Al-Nu'man I ibn Imru' al-Qays",
+      "role": "Rey lajmí · cliente sasánida",
+      "start": "0390-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_I_ibn_Imru_al-Qays",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Imru_al-Qays_I_ibn_Amr",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lakhmid Kingdom"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Lakhmid Kingdom",
+        "admin": "SASANIAN",
+        "status": "client",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año.",
+        "localKey": "HIST-Q943191"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "6d61a88373dcbe8768381ff83db2475a223b7183c2ef376d351531c2a3632584",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1388
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Al-Nu'man I ibn Imru' al-Qays",
+        "title": "Al-Nu'man I ibn Imru' al-Qays",
+        "person": "Q1565672",
+        "name": "Al-Nu'man I ibn Imru' al-Qays",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_I_ibn_Imru_al-Qays",
+        "identityResolution": {
+          "requested": "Al-Nu'man I ibn Imru' al-Qays",
+          "canonical": "Al-Nu'man I ibn Imru al-Qays",
+          "qid": "Q1565672"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1565672",
+        "title": "Al-Nu'man I ibn Imru al-Qays",
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_I_ibn_Imru_al-Qays",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Lakhmid state",
+            "raw": "CE [[390]]–[[418]]<ref name=\"EI2\">Shahîd (1986), p. 633</ref>",
+            "parsed": {
+              "start": "0390-01-01",
+              "end": "0418-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Amr ibn Imru' al-Qays",
+        "title": "Amr ibn Imru' al-Qays",
+        "person": "",
+        "name": "Amr ibn Imru' al-Qays",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Amr_ibn_Imru%27_al-Qays",
+        "identityResolution": {
+          "requested": "Amr ibn Imru' al-Qays",
+          "canonical": "Amr ibn Imru' al-Qays",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Imru' al-Qays ibn 'Amr",
+        "title": "Imru' al-Qays ibn 'Amr",
+        "person": "Q1271038",
+        "name": "Imru-l-Qays ibn Amr",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Imru_al-Qays_I_ibn_Amr",
+        "identityResolution": {
+          "requested": "Imru' al-Qays ibn 'Amr",
+          "canonical": "Imru al-Qays I ibn Amr",
+          "qid": "Q1271038"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1271038",
+        "title": "Imru al-Qays I ibn Amr",
+        "source": "https://en.wikipedia.org/wiki/Imru_al-Qays_I_ibn_Amr",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Lakhmid state",
+            "raw": "CE [[295]]–[[328]]",
+            "parsed": {
+              "start": "0295-01-01",
+              "end": "0328-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Lakhmid King",
+            "raw": "295-328",
+            "parsed": {
+              "start": "0295-01-01",
+              "end": "0328-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Imru' al-Qays ibn 'Amr II",
+        "title": "Imru' al-Qays ibn 'Amr II",
+        "person": "",
+        "name": "Imru' al-Qays ibn 'Amr II",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Imru%27_al-Qays_ibn_%27Amr_II",
+        "identityResolution": {
+          "requested": "Imru' al-Qays ibn 'Amr II",
+          "canonical": "Imru' al-Qays ibn 'Amr II",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1271038",
+        "title": "Imru' al-Qays ibn 'Amr",
+        "source": "https://en.wikipedia.org/wiki/Imru_al-Qays_I_ibn_Amr",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Lakhmid state",
+          "raw": "CE [[295]]–[[328]]",
+          "parsed": {
+            "start": "0295-01-01",
+            "end": "0328-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1565672",
+        "title": "Al-Nu'man I ibn Imru' al-Qays",
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_I_ibn_Imru_al-Qays",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Lakhmid state",
+          "raw": "CE [[390]]–[[418]]<ref name=\"EI2\">Shahîd (1986), p. 633</ref>",
+          "parsed": {
+            "start": "0390-01-01",
+            "end": "0418-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Amr ibn Imru' al-Qays",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Imru' al-Qays ibn 'Amr II",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat037-31",
+      "name": "Al-Hira · poder lajmí",
+      "coordinates": [
+        44.318,
+        31.887
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Al-Hirah",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Lakhmid Kingdom"
+    },
+    {
+      "id": "seat037-31-own",
+      "name": "Al-Hira · poder lajmí",
+      "coordinates": [
+        44.318,
+        31.887
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Al-Hirah",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Lakhmid Kingdom"
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q1271038",
+      "title": "Epitaph Imru-l-Qays Louvre AO4083.jpg",
+      "reason": "Epitafio de Imru al-Qays; documento epigráfico, no retrato.",
+      "source": "https://commons.wikimedia.org/wiki/File:Epitaph_Imru-l-Qays_Louvre_AO4083.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1271038",
+      "name": "Imru-l-Qays ibn Amr",
+      "title": "Epitaph Imru-l-Qays Louvre AO4083.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Epitaph_Imru-l-Qays_Louvre_AO4083.jpg",
+      "sha256": "5698a43887f1b8f86b90b10a8627b4574e15d29659ecc475ac227484b7fced15",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Epitafio de Imru al-Qays; documento epigráfico, no retrato."
+    }
+  ]
+}

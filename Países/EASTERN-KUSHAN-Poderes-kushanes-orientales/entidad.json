@@ -1,0 +1,44 @@
+{
+  "key": "EASTERN-KUSHAN",
+  "name": "Poderes kushanes orientales",
+  "qid": "Q25979",
+  "aliases": [
+    "Eastern Kushans",
+    "Poderes kushanes orientales"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "EASTERN-KUSHAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1398",
+      "start": 300,
+      "end": 337,
+      "name": "Eastern Kushans",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1460",
+      "start": 338,
+      "end": 346,
+      "name": "Eastern Kushans",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

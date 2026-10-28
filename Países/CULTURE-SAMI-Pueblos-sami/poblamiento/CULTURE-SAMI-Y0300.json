@@ -1,0 +1,90 @@
+{
+  "key": "CULTURE-SAMI-Y0300",
+  "contextKey": "CULTURE-SAMI",
+  "ownerKey": "CULTURE-SAMI",
+  "name": "Pueblos sámi",
+  "originalNames": [
+    "Saami"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 300",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    300,
+    399
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. La superficie no acredita unEstado unitario, una frontera exclusiva ni ocupación uniforme.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea300 contiene etiquetas de épocas distintas. La ventana300–399 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de300",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    25.70536,
+    66.44198
+  ],
+  "phases": [
+    {
+      "start": 300,
+      "end": 399,
+      "label": "Pueblos sámi",
+      "dateBasis": "Referencia regional de la fuente editorial300; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-SAMI-Y0300.geojson",
+  "geometrySha256": "13d39bb0340e9f41e1ed4c8ba6699f829c0ee39067535ff089df9beb3f1a35c3",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson",
+    "year": 300,
+    "featureIds": [
+      164
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297"
+  },
+  "review": "0.37.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final399 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en400."
+  ],
+  "originalSourceProperties": [
+    {
+      "cat": null,
+      "NAME": "Saami",
+      "ABBREVN": "Saami",
+      "SUBJECTO": "Saami",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Saami"
+    }
+  ],
+  "sourceGrouping": [
+    "Saami"
+  ]
+}

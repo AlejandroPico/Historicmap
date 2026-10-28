@@ -1,0 +1,285 @@
+{
+  "key": "FRANKISH-REALM",
+  "identity": {
+    "qid": "Q146246",
+    "name": "Agrupaciones francas"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Jefatura franca · testimonio regional",
+      "officePattern": "King|Ruler|Leader",
+      "titles": [
+        "Gennobaudes (3rd century)",
+        "Ascaric",
+        "Merogais",
+        "Mallobaudes",
+        "Marcomer",
+        "Sunno"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Ripuarian Franks"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Agrupaciones francas · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Salian Franks"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Agrupaciones francas · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "70d68c277d952ccfc62a43f497f88f840fc0b153f2dad4ed6dcaf5770c2f0048",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1399,
+        1495,
+        1500,
+        1501,
+        1577,
+        1589,
+        1591
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ascaric",
+        "title": "Ascaric",
+        "person": "Q2866363",
+        "name": "Ascaric",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ascaricus_and_Merogaisus",
+        "identityResolution": {
+          "requested": "Ascaric",
+          "canonical": "Ascaricus and Merogaisus",
+          "qid": "Q2866363"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2866363",
+        "title": "Ascaricus and Merogaisus",
+        "source": "https://en.wikipedia.org/wiki/Ascaricus_and_Merogaisus",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gennobaudes (3rd century)",
+        "title": "Gennobaudes (3rd century)",
+        "person": "",
+        "name": "Gennobaudes (3rd century)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Gennobaudes_%283rd_century%29",
+        "identityResolution": {
+          "requested": "Gennobaudes (3rd century)",
+          "canonical": "Gennobaudes (3rd century)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mallobaudes",
+        "title": "Mallobaudes",
+        "person": "Q982667",
+        "name": "Mallobaudes",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mallobaudes",
+        "identityResolution": {
+          "requested": "Mallobaudes",
+          "canonical": "Mallobaudes",
+          "qid": "Q982667"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0378-01-01",
+          "end": "0378-01-01",
+          "precision": 8,
+          "statement": "Q982667$12f9d65b-45bc-24df-ac06-3ee0b351540b",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q982667",
+        "title": "Mallobaudes",
+        "source": "https://en.wikipedia.org/wiki/Mallobaudes",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Marcomer",
+        "title": "Marcomer",
+        "person": "Q371744",
+        "name": "Marcomir",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Marcomer",
+        "identityResolution": {
+          "requested": "Marcomer",
+          "canonical": "Marcomer",
+          "qid": "Q371744"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0380-01-01",
+          "end": "0400-01-01",
+          "precision": 8,
+          "statement": "Q371744$64c2c3ab-4819-a6d5-599b-102be19ef6ff",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q371744",
+        "title": "Marcomer",
+        "source": "https://en.wikipedia.org/wiki/Marcomer",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Merogais",
+        "title": "Merogais",
+        "person": "Q2866363",
+        "name": "Ascaric",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ascaricus_and_Merogaisus",
+        "identityResolution": {
+          "requested": "Merogais",
+          "canonical": "Ascaricus and Merogaisus",
+          "qid": "Q2866363"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2866363",
+        "title": "Ascaricus and Merogaisus",
+        "source": "https://en.wikipedia.org/wiki/Ascaricus_and_Merogaisus",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sunno",
+        "title": "Sunno",
+        "person": "Q1396545",
+        "name": "Sunno",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sunno",
+        "identityResolution": {
+          "requested": "Sunno",
+          "canonical": "Sunno",
+          "qid": "Q1396545"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1396545",
+        "title": "Sunno",
+        "source": "https://en.wikipedia.org/wiki/Sunno",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Gennobaudes (3rd century)",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Ascaric",
+        "person": "Q2866363",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Merogais",
+        "person": "Q2866363",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Mallobaudes",
+        "person": "Q982667",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Marcomer",
+        "person": "Q371744",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Sunno",
+        "person": "Q1396545",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

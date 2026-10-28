@@ -1,0 +1,112 @@
+{
+  "key": "CHENG-HAN",
+  "name": "Cheng Han",
+  "qid": "Q1069905",
+  "aliases": [
+    "Cheng Han"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CHENG-HAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q712330",
+      "name": "Li Xiong",
+      "role": "Gobernante de Cheng Han",
+      "start": "0304-01-01",
+      "end": "0334-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Li_Xiong",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q712522",
+      "name": "Li Ban",
+      "role": "Gobernante de Cheng Han",
+      "start": "0334-08-11",
+      "end": "0334-12-05",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Li_Ban",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q712327",
+      "name": "Li Qi",
+      "role": "Gobernante de Cheng Han",
+      "start": "0334-12-06",
+      "end": "0338-05-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Li_Qi_%28emperor%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q712558",
+      "name": "Li Shou",
+      "role": "Gobernante de Cheng Han",
+      "start": "0338-01-01",
+      "end": "0343-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Li_Shou",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q712772",
+      "name": "Li Shi",
+      "role": "Gobernante de Cheng Han",
+      "start": "0343-01-01",
+      "end": "0347-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Li_Shi_%28emperor%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1423",
+      "start": 306,
+      "end": 310,
+      "name": "Cheng Han",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1435",
+      "start": 311,
+      "end": 337,
+      "name": "Cheng Han",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1459",
+      "start": 338,
+      "end": 346,
+      "name": "Cheng Han",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

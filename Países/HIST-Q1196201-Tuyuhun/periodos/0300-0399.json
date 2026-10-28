@@ -1,0 +1,263 @@
+{
+  "key": "HIST-Q1196201",
+  "identity": {
+    "qid": "Q1196201",
+    "name": "Tuyuhun"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Tuyuhun",
+      "officePattern": "King|Khan|Tuyuhun",
+      "titles": [
+        "Murong Tuyuhun",
+        "Murong Fulian",
+        "Murong Yeyan",
+        "Murong Suixi",
+        "Murong Shilian",
+        "Murong Shipi",
+        "Murong Shijun",
+        "Murong Wuti"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Tuyuhun"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Tuyuhun",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "c175e52ddc809ac800cec0b663748954ab0f0eba019d5fc408d484c2b9979fab",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1406,
+        1418,
+        1440,
+        1450,
+        1551,
+        1611
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Murong Fulian",
+        "title": "Murong Fulian",
+        "person": "",
+        "name": "Murong Fulian",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Murong_Fulian",
+        "identityResolution": {
+          "requested": "Murong Fulian",
+          "canonical": "Murong Fulian",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Shijun",
+        "title": "Murong Shijun",
+        "person": "",
+        "name": "Murong Shijun",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Murong_Shijun",
+        "identityResolution": {
+          "requested": "Murong Shijun",
+          "canonical": "Murong Shijun",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Shilian",
+        "title": "Murong Shilian",
+        "person": "",
+        "name": "Murong Shilian",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Murong_Shilian",
+        "identityResolution": {
+          "requested": "Murong Shilian",
+          "canonical": "Murong Shilian",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Shipi",
+        "title": "Murong Shipi",
+        "person": "",
+        "name": "Murong Shipi",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Murong_Shipi",
+        "identityResolution": {
+          "requested": "Murong Shipi",
+          "canonical": "Murong Shipi",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Suixi",
+        "title": "Murong Suixi",
+        "person": "",
+        "name": "Murong Suixi",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Murong_Suixi",
+        "identityResolution": {
+          "requested": "Murong Suixi",
+          "canonical": "Murong Suixi",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Tuyuhun",
+        "title": "Murong Tuyuhun",
+        "person": "Q1196201",
+        "name": "Tuyuhun",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Tuyuhun",
+        "identityResolution": {
+          "requested": "Murong Tuyuhun",
+          "canonical": "Tuyuhun",
+          "qid": "Q1196201"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Wuti",
+        "title": "Murong Wuti",
+        "person": "",
+        "name": "Murong Wuti",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Murong_Wuti",
+        "identityResolution": {
+          "requested": "Murong Wuti",
+          "canonical": "Murong Wuti",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Yeyan",
+        "title": "Murong Yeyan",
+        "person": "",
+        "name": "Murong Yeyan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Murong_Yeyan",
+        "identityResolution": {
+          "requested": "Murong Yeyan",
+          "canonical": "Murong Yeyan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Murong Tuyuhun",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Murong Fulian",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Murong Yeyan",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Murong Suixi",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Murong Shilian",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Murong Shipi",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Murong Shijun",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Murong Wuti",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "key": "HIST-Q2247225",
+  "identity": {
+    "qid": "Q2247225",
+    "name": "Tarumanagara"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Tarumanagara · tradición e inscripciones",
+      "officePattern": "King|Ruler",
+      "titles": [
+        "Jayasingawarman",
+        "Dharmayawarman",
+        "Purnawarman"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q12507243",
+      "name": "Purnawarman",
+      "role": "Rey de Tarumanagara · tradición e inscripciones",
+      "start": "0395-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Purnawarman",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-fef40e215aee6290c4a2.png",
+        "title": "Ilustrasi Purnawarman.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Ilustrasi_Purnawarman.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ilustrasi_Purnawarman.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Uncredited, published by Wacana Nusantara",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "www.wacana.co",
+        "sha256": "b139d84a4ae8737c78f419b8297d6dc57d3c122ecb99cfab5dfde368320ad92d",
+        "bytes": 493094,
+        "canonicalFile": "Países/HIST-Q2247225-Tarumanagara/retratos/portrait-fef40e215aee6290c4a2.png",
+        "caption": "Representación imaginaria posterior de Purnawarman; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Purnawarman",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Tarumanagara"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Tarumanagara",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "9285b7b8f006a34607daf7f6468a24f008e2db9b7ed242e513c90bb97dc6a774",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1505
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dharmayawarman",
+        "title": "Dharmayawarman",
+        "person": "",
+        "name": "Dharmayawarman",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Dharmayawarman",
+        "identityResolution": {
+          "requested": "Dharmayawarman",
+          "canonical": "Dharmayawarman",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Jayasingawarman",
+        "title": "Jayasingawarman",
+        "person": "",
+        "name": "Jayasingawarman",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Jayasingawarman",
+        "identityResolution": {
+          "requested": "Jayasingawarman",
+          "canonical": "Jayasingawarman",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Purnawarman",
+        "title": "Purnawarman",
+        "person": "Q12507243",
+        "name": "Purnawarman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Purnawarman",
+        "identityResolution": {
+          "requested": "Purnawarman",
+          "canonical": "Purnawarman",
+          "qid": "Q12507243"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12507243",
+        "title": "Purnawarman",
+        "source": "https://en.wikipedia.org/wiki/Purnawarman",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "3rd King of Tarumanegara",
+            "raw": "395 AD – 434 AD",
+            "parsed": {
+              "start": "0395-01-01",
+              "end": "0434-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q12507243",
+        "title": "Purnawarman",
+        "source": "https://en.wikipedia.org/wiki/Purnawarman",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "3rd King of Tarumanegara",
+          "raw": "395 AD – 434 AD",
+          "parsed": {
+            "start": "0395-01-01",
+            "end": "0434-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Jayasingawarman",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Dharmayawarman",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "mediaReview": [
+    {
+      "person": "Q12507243",
+      "name": "Purnawarman",
+      "title": "Ilustrasi Purnawarman.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Ilustrasi_Purnawarman.png",
+      "sha256": "b139d84a4ae8737c78f419b8297d6dc57d3c122ecb99cfab5dfde368320ad92d",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Representación imaginaria posterior de Purnawarman; no fotografía ni semejanza del natural acreditada."
+    }
+  ]
+}

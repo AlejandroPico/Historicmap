@@ -1,0 +1,328 @@
+{
+  "key": "BYZANTINE",
+  "identity": {
+    "qid": "Q12544",
+    "name": "Imperio romano de Oriente / bizantino"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador romano de Oriente",
+      "officePattern": "Emperor|Augustus",
+      "titles": [
+        "Arcadius"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q159369",
+      "name": "Arcadio",
+      "role": "Emperador romano de Oriente",
+      "start": "0395-01-01",
+      "end": "0399-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Arcadius",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-b6cda57b073a69c6b3bc.png",
+        "title": "Arcadius Istanbul Museum.PNG",
+        "url": "https://commons.wikimedia.org/wiki/File:Arcadius_Istanbul_Museum.PNG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Arcadius_Istanbul_Museum.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Gryffindor",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Image:Arcadius Istanbul Museum.JPG",
+        "sha256": "6b3781be74046fd075f83eed62c37952301ce68ddead931a09b9c9a627cc8962",
+        "bytes": 451735,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-b6cda57b073a69c6b3bc.png",
+        "caption": "Busto, estatua o relieve atribuido a Arcadio; no fotografía ni semejanza del natural acreditada."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 395,
+      "end": 399,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Arcadius",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Eastern Roman Empire"
+        ],
+        "start": 300,
+        "end": 394,
+        "label": "Imperio romano de Oriente / bizantino · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no prolonga una dinastía ni acredita soberanía uniforme.",
+        "colorFamily": "BYZANTIUM"
+      }
+    },
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Eastern Roman Empire"
+        ],
+        "start": 395,
+        "end": 399,
+        "label": "Imperio romano de Oriente / bizantino",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año.",
+        "colorFamily": "BYZANTIUM"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "1cdd7dbd0b19996040270f776582b740bf8f01c1b0672cb423b0ef0bde107585",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1586,
+        1594,
+        1601
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Arcadius",
+        "title": "Arcadius",
+        "person": "Q159369",
+        "name": "Arcadio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Arcadius",
+        "identityResolution": {
+          "requested": "Arcadius",
+          "canonical": "Arcadius",
+          "qid": "Q159369"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0395-01-17",
+          "end": "0408-05-01",
+          "precision": 11,
+          "statement": "Q159369$7dcbaca3-4aac-c4d8-f802-74aeb316db80",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q159369",
+        "title": "Arcadius",
+        "source": "https://en.wikipedia.org/wiki/Arcadius",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor of the East",
+            "raw": "19 January 383 – 1 May 408",
+            "parsed": {
+              "start": "0383-01-19",
+              "end": "0408-05-01",
+              "precision": 11
+            },
+            "reignType": "''Augustus''"
+          },
+          {
+            "field": "reign",
+            "office": "Roman emperor of the East",
+            "raw": "(senior from 17 January 395)",
+            "parsed": null,
+            "reignType": "''Augustus''"
+          },
+          {
+            "field": "succession-template",
+            "office": "Eastern Roman emperor",
+            "raw": "395–408",
+            "parsed": {
+              "start": "0395-01-01",
+              "end": "0408-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "385",
+            "parsed": {
+              "start": "0385-01-01",
+              "end": "0385-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul II",
+            "raw": "392",
+            "parsed": {
+              "start": "0392-01-01",
+              "end": "0392-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul III",
+            "raw": "394",
+            "parsed": {
+              "start": "0394-01-01",
+              "end": "0394-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul IV",
+            "raw": "396",
+            "parsed": {
+              "start": "0396-01-01",
+              "end": "0396-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul V",
+            "raw": "402",
+            "parsed": {
+              "start": "0402-01-01",
+              "end": "0402-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul VI",
+            "raw": "406",
+            "parsed": {
+              "start": "0406-01-01",
+              "end": "0406-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q159369",
+        "title": "Arcadius",
+        "source": "https://en.wikipedia.org/wiki/Arcadius",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Roman emperor of the East",
+          "raw": "19 January 383 – 1 May 408",
+          "parsed": {
+            "start": "0383-01-19",
+            "end": "0408-05-01",
+            "precision": 11
+          },
+          "reignType": "''Augustus''"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-6",
+      "name": "Constantinopla · corte oriental",
+      "coordinates": [
+        28.978,
+        41.008
+      ],
+      "start": 395,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Constantinople",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Imperio romano de Oriente / bizantino"
+    },
+    {
+      "id": "seat037-6-own",
+      "name": "Constantinopla · corte oriental",
+      "coordinates": [
+        28.978,
+        41.008
+      ],
+      "start": 395,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Constantinople",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Imperio romano de Oriente / bizantino"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q159369",
+      "name": "Arcadio",
+      "title": "Arcadius Istanbul Museum.PNG",
+      "source": "https://commons.wikimedia.org/wiki/File:Arcadius_Istanbul_Museum.PNG",
+      "sha256": "6b3781be74046fd075f83eed62c37952301ce68ddead931a09b9c9a627cc8962",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Busto, estatua o relieve atribuido a Arcadio; no fotografía ni semejanza del natural acreditada."
+    }
+  ]
+}

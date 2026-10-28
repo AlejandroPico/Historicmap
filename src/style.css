@@ -494,3 +494,12 @@ dialog.date-picker::backdrop{background:transparent;backdrop-filter:none}
 
 /* Dense traditional areas can overlap: keep the fixed card header usable. */
 #selection-alternatives>div{max-height:106px;overflow:auto;scrollbar-width:none}#selection-alternatives>div::-webkit-scrollbar{display:none}
+
+/* Preserve the entire artwork. A reviewed paired coin exposes its obverse
+   through a viewport; credited source bytes remain unchanged. */
+.leader-portrait{object-fit:contain}
+.coin-frame .leader-portrait{max-width:none;object-fit:contain;object-position:center!important}
+.coin-left .leader-portrait,.coin-right .leader-portrait{width:200%;height:100%}
+.coin-right .leader-portrait{transform:translateX(-50%)}
+.coin-top .leader-portrait,.coin-bottom .leader-portrait{width:100%;height:200%}
+.coin-bottom .leader-portrait{transform:translateY(-50%)}

@@ -105,7 +105,7 @@ export function politicalData(data:FeatureCollection,year:number,profiles?:Profi
     const influence=influenceFor(identityKey,year);
     const dependent=!p.collectiveAdministration&&(modernDependency||!!(p.status&&p.status!=='independent'&&p.ownerName)||!!parent&&parent!==p.originalName);
     const power=influence?.power??ownerKey;
-    const baseColor=regimeColor(power,year);
+    const baseColor=regimeColor(power===identityKey&&p.colorFamily?String(p.colorFamily):power,year);
     const controlInfluence=!!influence&&['occupation','intervention'].includes(influence.kind);
     const tinted=influence?dependencyColor(baseColor,identityKey,influence.kind==='bloc'):dependent?dependencyColor(baseColor,identityKey):baseColor;
     const politicalColor=p.status==='source-reference'?'#8b9188':controlInfluence?regimeColor(ownerKey,year):tinted;

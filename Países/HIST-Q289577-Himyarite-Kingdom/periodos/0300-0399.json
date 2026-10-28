@@ -1,0 +1,385 @@
+{
+  "key": "HIST-Q289577",
+  "identity": {
+    "qid": "Q289577",
+    "name": "Himyarite Kingdom"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Himyar",
+      "officePattern": "King|Himyar",
+      "titles": [
+        "Shammar Yahri'sh",
+        "Dhamar Ali Yuhabirr",
+        "Tha'ran Yuhan'im",
+        "Malkikarib Yuhamin",
+        "Abu Karib"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1965311",
+      "name": "Tub'a Abu Kariba As'ad",
+      "role": "Gobernante de Himyar",
+      "start": "0390-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abu_Karib",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q2276688",
+      "name": "Shammar Yahri'sh",
+      "role": "Gobernante de Himyar",
+      "start": "0300-01-01",
+      "end": "0312-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shammar_Yahri%27sh",
+      "note": "Campo explícito275–312; fechas de síntesis aproximadas, distintas de las dataciones de inscripciones individuales.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q12193584",
+      "name": "Dhamar Ali Yahbur II",
+      "role": "Gobernante de Himyar",
+      "start": "0321-01-01",
+      "end": "0324-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dhamar_Ali_Yuhabirr",
+      "note": "Campo explícito321–324; no inferido de fechas personales."
+    },
+    {
+      "person": "Q122731364",
+      "name": "Hassan Malikikarib Yaha'min",
+      "role": "Gobernante de Himyar",
+      "start": "0375-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Malkikarib_Yuhamin",
+      "note": "Campo explícito375–400; ventana anual de consulta sin completar las lagunas anteriores.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Abu_Karib",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Himyarite Kingdom"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Himyarite Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "533360e9a1757493a2d79e5c17ec977c3e47aa164f2d594f09efba6f0c7fb7c9",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1391,
+        1421,
+        1473,
+        1525
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Abu Karib",
+        "title": "Abu Karib",
+        "person": "Q1965311",
+        "name": "Tub'a Abu Kariba As'ad",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Abu_Karib",
+        "identityResolution": {
+          "requested": "Abu Karib",
+          "canonical": "Abu Karib",
+          "qid": "Q1965311"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0375-01-01",
+          "end": "0440-01-01",
+          "precision": 9,
+          "statement": "Q1965311$af383651-4f48-598b-ebbe-e6bc3d7e4fea",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1965311",
+        "title": "Abu Karib",
+        "source": "https://en.wikipedia.org/wiki/Abu_Karib",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Himyarites",
+            "raw": "390–420 CE",
+            "parsed": {
+              "start": "0390-01-01",
+              "end": "0420-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dhamar Ali Yuhabirr",
+        "title": "Dhamar Ali Yuhabirr",
+        "person": "Q12193584",
+        "name": "Dhamar Ali Yahbur II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dhamar_Ali_Yahbur_II",
+        "identityResolution": {
+          "requested": "Dhamar Ali Yuhabirr",
+          "canonical": "Dhamar Ali Yahbur II",
+          "qid": "Q12193584"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12193584",
+        "title": "Dhamar Ali Yahbur II",
+        "source": "https://en.wikipedia.org/wiki/Dhamar_Ali_Yahbur_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "321–324 CE",
+            "parsed": {
+              "start": "0321-01-01",
+              "end": "0324-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Malkikarib Yuhamin",
+        "title": "Malkikarib Yuhamin",
+        "person": "Q122731364",
+        "name": "Hassan Malikikarib Yaha'min",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Malkikarib_Yuhamin",
+        "identityResolution": {
+          "requested": "Malkikarib Yuhamin",
+          "canonical": "Malkikarib Yuhamin",
+          "qid": "Q122731364"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q122731364",
+        "title": "Malkikarib Yuhamin",
+        "source": "https://en.wikipedia.org/wiki/Malkikarib_Yuhamin",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "375–400 CE",
+            "parsed": {
+              "start": "0375-01-01",
+              "end": "0400-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shammar Yahri'sh",
+        "title": "Shammar Yahri'sh",
+        "person": "Q2276688",
+        "name": "Shammar Yahri'sh",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shammar_Yahri%27sh",
+        "identityResolution": {
+          "requested": "Shammar Yahri'sh",
+          "canonical": "Shammar Yahri'sh",
+          "qid": "Q2276688"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0275-01-01",
+          "end": "0312-01-01",
+          "precision": 9,
+          "statement": "Q2276688$b8b9cd80-4025-42d6-a337-99f3c36fd92b",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2276688",
+        "title": "Shammar Yahri'sh",
+        "source": "https://en.wikipedia.org/wiki/Shammar_Yahri%27sh",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "275–312 CE",
+            "parsed": {
+              "start": "0275-01-01",
+              "end": "0312-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tha'ran Yuhan'im",
+        "title": "Tha'ran Yuhan'im",
+        "person": "",
+        "name": "Tha'ran Yuhan'im",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Tha%27ran_Yuhan%27im",
+        "identityResolution": {
+          "requested": "Tha'ran Yuhan'im",
+          "canonical": "Tha'ran Yuhan'im",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1965311",
+        "title": "Abu Karib",
+        "source": "https://en.wikipedia.org/wiki/Abu_Karib",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Himyarites",
+          "raw": "390–420 CE",
+          "parsed": {
+            "start": "0390-01-01",
+            "end": "0420-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Shammar Yahri'sh",
+        "person": "Q2276688",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Dhamar Ali Yuhabirr",
+        "person": "Q12193584",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Tha'ran Yuhan'im",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Malkikarib Yuhamin",
+        "person": "Q122731364",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q2276688",
+      "name": "Shammar Yahri'sh",
+      "role": "Gobernante de Himyar",
+      "start": "0300-01-01",
+      "end": "0312-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shammar_Yahri%27sh",
+      "note": "Campo explícito275–312; fechas de síntesis aproximadas, distintas de las dataciones de inscripciones individuales.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q12193584",
+      "name": "Dhamar Ali Yahbur II",
+      "role": "Gobernante de Himyar",
+      "start": "0321-01-01",
+      "end": "0324-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dhamar_Ali_Yuhabirr",
+      "note": "Campo explícito321–324; no inferido de fechas personales."
+    },
+    {
+      "person": "Q122731364",
+      "name": "Hassan Malikikarib Yaha'min",
+      "role": "Gobernante de Himyar",
+      "start": "0375-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Malkikarib_Yuhamin",
+      "note": "Campo explícito375–400; ventana anual de consulta sin completar las lagunas anteriores.",
+      "endIsCoverageBoundary": true
+    }
+  ]
+}

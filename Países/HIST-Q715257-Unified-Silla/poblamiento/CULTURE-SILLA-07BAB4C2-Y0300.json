@@ -1,0 +1,64 @@
+{
+  "key": "CULTURE-SILLA-07BAB4C2-Y0300",
+  "contextKey": "CULTURE-SILLA-07BAB4C2",
+  "ownerKey": "HIST-Q715257",
+  "name": "Silla",
+  "originalNames": [
+    "Silla"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 300",
+  "decision": "political-base",
+  "reviewedRange": [
+    300,
+    399
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea300 contiene etiquetas de épocas distintas. La ventana300–399 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de300",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q715257"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    128.62733,
+    36.613
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-SILLA-07BAB4C2-Y0300.geojson",
+  "geometrySha256": "6a8b51226ef647e5a5416302b478bb5dd5e30f116e8ce6d2f86a263cd80abe65",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson",
+    "year": 300,
+    "featureIds": [
+      465
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297"
+  },
+  "review": "0.37.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final399 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en400."
+  ],
+  "originalSourceProperties": [
+    {
+      "cat": null,
+      "NAME": "Silla",
+      "ABBREVN": "Silla",
+      "SUBJECTO": "Silla",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Silla"
+    }
+  ],
+  "sourceGrouping": [
+    "Silla"
+  ]
+}

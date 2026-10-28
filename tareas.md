@@ -1,6 +1,28 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.36.0 · 400–499 y correcciones de publicación
+## Encargo vigente · 0.37.0 · 300–399 y encuadre de representaciones
+
+Ampliación300–399 con política y culturas. Petición adicional incorporada: corregir monedas cortadas y priorizar representaciones identificadas. Mantener cuatro máquinas para CI; el propietario comunica unos25 minutos. Envío a main tras validar, sin esperar Actions/Pages.
+
+- [x] Inventario político/cultural y cronologías300–399.
+- [x] Autoridades, imágenes, centros documentales, contextos y revisión de identidades.
+- [x] Integración anual, culturas y continuidad con400.
+- [x] Monedas con cara completa, busto de ValentinianoIII y atribuciones revisadas.
+- [x] Conservación, comprobaciones, documentación y preparación del envío.
+
+Resultados:80 dossiers de periodo,220 registros de autoridades,232 componentes políticos originales,41 centros,20 contextos y cinco referencias de conflictos.71 dossiers culturales originales:58 referencias adoptadas,12 remisiones políticas y Mill Creek excluido con original conservado. Catálogo4.092 carpetas/1.368 identidades. Consulta anual300–399 y continuidad con400; ambos controles activos al iniciar.
+
+Augustos/césares, marco romano común y cortes de395 diferenciados. Jin occidental/oriental y título de príncipe317 frente a emperador318; Qin de Fú Jiān no es su principado anterior. Sasánidas/kushanshahs homónimos separados. Ezana y cronologías asiáticas aproximadas; testimonios mayas no generan mandatos completos. Fuentes y límites en RESEARCH-300.md, carencias en REVIEW-300-399.json. Datos y originales dentro de Países/<entidad>.
+
+Imágenes:81 candidatos inspeccionados,73 aceptados y ocho rechazados. Moneda de Diocleciano con leyenda explícita; busto de atribución por corroborar apartado, sin usar automáticamente P18.44 imágenes monetarias antiguas inspeccionadas,46 correcciones por persona en ocho dossiers visuales. Se respeta el rechazo previo de TeodebertoII. ValentinianoIII tiene cabeza del Louvre425–450, con restauraciones modernas explícitas; Juan mantiene su moneda válida. Reversos con efigie imperial usados cuando el anverso muestra otra figura. Los originales y créditos se conservan; coinFace sólo cambia la presentación. Véanse MEDIA-REVIEW-300.json y COIN-FRAMING-037.json.
+
+Conservación:1.345 identidades,18.316 cargos,1.040 símbolos y8.992 fases anteriores preservados;58 fases nuevas.109 recursos previos,101 idénticos y tres nuevos;71 originales regionales y232 componentes políticos cotejados. Regeneración de199 archivos sin diferencias. Dos vistas anónimas consolidadas conservan dos registros territoriales; ninguna tenía autoridades o símbolos propios. Ver CONSERVATION-300, CATALOG-CONSERVATION-300 e IDEMPOTENCE-300.
+
+Validación:56 comprobaciones únicas en ocho suites correctas tras las correcciones y repeticiones focales(17 casos); seis nuevas repetidas tras la moneda final.15 pruebas Python, tipos y compilación correctos. Cinco recorridos únicos de navegador correctos; recorrido romano repetido después de la última imagen. Capturas de Roma, Jin móvil, Marciano y Valentiniano inspeccionadas.112 recursos de datos,11 rangos de glifos y8.603 medios licenciados verificados por SHA-256. No se ejecutó localmente la matriz completa de101 casos. Auditoría de reparto:26/25/25/25, cada caso exactamente una vez. No esperar Actions/Pages después del envío.
+
+Pendientes reales: completar sucesiones menores/administraciones, cronologías alternativas, imágenes individuales fiables, símbolos con vigencia y función, cronología local cultural y contornos desfasados. Continúa pendiente conciliar las cronologías tempranas de Copán5/6 de0.35/0.36. Un hueco no es acefalía ni territorio vacío;399 no es extinción. Siguiente regresión anterior a300 sólo tras otro encargo. Mantener culturas, originales y decisiones de rechazo en todas las ampliaciones.
+
+## Entrega anterior · 0.36.0 · 400–499 y correcciones de publicación
 
 Entrega única: ampliar400–499 con política y culturas; corregir los fallos de0.34/0.35 y reducir el tiempo de GitHub conservando todas las pruebas. Envío a main tras validar, sin esperar Actions/Pages; el propietario comprobará el resultado remoto.
 

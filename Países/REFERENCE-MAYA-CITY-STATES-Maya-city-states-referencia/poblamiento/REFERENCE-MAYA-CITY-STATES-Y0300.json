@@ -1,0 +1,94 @@
+{
+  "key": "REFERENCE-MAYA-CITY-STATES-Y0300",
+  "contextKey": "REFERENCE-MAYA-CITY-STATES",
+  "ownerKey": "REFERENCE-MAYA-CITY-STATES",
+  "name": "Comunidades y cortes mayas · Clásico temprano",
+  "originalNames": [
+    "Maya chiefdoms and states"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    300,
+    399
+  ],
+  "interpretation": "Ciudades independientes, cortes y redes regionales. La región maya no acredita un Estado unificado o vasallaje entre Tikal y otras cortes. Sus autoridades documentadas se consultan por separado.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea300 contiene etiquetas de épocas distintas. La ventana300–399 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de300",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#969886",
+  "focus": [
+    -90.24405,
+    17.67151
+  ],
+  "phases": [
+    {
+      "start": 300,
+      "end": 399,
+      "label": "Comunidades y cortes mayas · Clásico temprano",
+      "dateBasis": "Referencia regional de la fuente editorial300; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-MAYA-CITY-STATES-Y0300.geojson",
+  "geometrySha256": "d10fb246d250a68095dd830087db863f38058a45700463699b55fc88caffe301",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_300.geojson",
+    "year": 300,
+    "featureIds": [
+      83
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297"
+  },
+  "review": "0.37.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final399 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en400."
+  ],
+  "originalSourceProperties": [
+    {
+      "cat": 14,
+      "NAME": "Maya chiefdoms and states",
+      "ABBREVN": "Maya",
+      "SUBJECTO": "Maya chiefdoms and states",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Maya chiefdoms and states"
+    }
+  ],
+  "sourceGrouping": [
+    "Maya chiefdoms and states"
+  ]
+}

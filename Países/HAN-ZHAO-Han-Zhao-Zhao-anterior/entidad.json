@@ -1,0 +1,125 @@
+{
+  "key": "HAN-ZHAO",
+  "name": "Han Zhao · Zhao anterior",
+  "qid": "Q1574107",
+  "aliases": [
+    "Former Zhao",
+    "Han Zhao · Zhao anterior"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HAN-ZHAO"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q714159",
+      "name": "Liu Yuan",
+      "role": "Gobernante de Han Zhao",
+      "start": "0308-11-02",
+      "end": "0310-08-29",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Liu_Yuan_%28Han-Zhao%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q714140",
+      "name": "Liu He",
+      "role": "Gobernante de Han Zhao",
+      "start": "0310-01-01",
+      "end": "0310-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_He_%28Han-Zhao%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q714176",
+      "name": "Liu Cong",
+      "role": "Gobernante de Han Zhao",
+      "start": "0310-09-28",
+      "end": "0318-08-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Liu_Cong_%28Han-Zhao%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1152735",
+      "name": "Liu Can",
+      "role": "Gobernante de Han Zhao",
+      "start": "0318-09-01",
+      "end": "0318-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Can",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1028544",
+      "name": "Jin Zhun",
+      "role": "Gobernante de Han Zhao",
+      "start": "0318-01-01",
+      "end": "0318-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jin_Zhun",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    },
+    {
+      "person": "Q1149197",
+      "name": "Liu Yao",
+      "role": "Gobernante de Han Zhao",
+      "start": "0318-01-01",
+      "end": "0329-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liu_Yao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-300-0.37"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1428",
+      "start": 306,
+      "end": 310,
+      "name": "Former Zhao",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1434",
+      "start": 311,
+      "end": 323,
+      "name": "Former Zhao",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-300.geojson",
+      "recordId": "clio-1444",
+      "start": 324,
+      "end": 336,
+      "name": "Former Zhao",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

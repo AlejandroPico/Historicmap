@@ -1,0 +1,542 @@
+{
+  "key": "MAYA-TIKAL",
+  "identity": {
+    "qid": "",
+    "name": "Corte y dinastía de Tikal"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Ajaw de Tikal",
+      "officePattern": "Tikal|Ruler|Ajaw",
+      "titles": [
+        "Siyaj Chan K'awiil I",
+        "Unen Bahlam",
+        "K'inich Muwaan Jol",
+        "Chak Tok Ich'aak I",
+        "Yax Nuun Ahiin I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q21933908",
+      "name": "Unen Bahlam",
+      "role": "Ajaw de Tikal",
+      "start": "0317-01-01",
+      "end": "0317-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Unen_Bahlam",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q4506858",
+      "name": "Chak Tok Ich'aak I",
+      "role": "Ajaw de Tikal",
+      "start": "0360-08-07",
+      "end": "0378-01-14",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Chak_Tok_Ich%CA%BCaak_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q4539887",
+      "name": "Yax Nuun Ayiin I",
+      "role": "Ajaw de Tikal",
+      "start": "0379-09-12",
+      "end": "0399-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Yax_Nuun_Ahiin_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-c0de789151db346a4079.jpg",
+        "title": "Tikal St04.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Tikal_St04.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Tikal_St04.jpg/330px-Tikal_St04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "HJPD",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "99d85f8853b82725152e19434c0efe786074870c14cfb21b9b1a23117c87775e",
+        "bytes": 101458,
+        "canonicalFile": "Países/MAYA-TIKAL-Corte-y-dinastia-de-Tikal/retratos/portrait-c0de789151db346a4079.jpg",
+        "caption": "Estela4 de Tikal vinculada a Yax Nuun Ahiin I; representación regia ritual, no semejanza del natural demostrada."
+      }
+    },
+    {
+      "person": "Q21934159",
+      "name": "K'inich Muwaan Jol",
+      "role": "Ajaw de Tikal · testimonio final",
+      "start": "0359-01-01",
+      "end": "0359-12-31",
+      "precision": 9,
+      "source": "https://www.mesoweb.org/palenque/resources/dates/dates_all.html",
+      "note": "Muerte en359 aproximadamente; el campo de reinado no tiene comienzo conocido. Se registra sólo el testimonio, no un mandato inventado desde el gobernante anterior."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review037-entrada378",
+      "type": "conflict",
+      "title": "Llegada de Siyaj K’ak’ a Tikal",
+      "start": "0378-01-01",
+      "end": "0379-01-01",
+      "text": "La inscripción fecha una llegada y la muerte de Chak Tok Ich’aak I; no demuestra una anexión uniforme de todas las ciudades mayas a Teotihuacan.",
+      "source": "https://www.mesoweb.org/palenque/resources/dates/dates_all.html",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "history"
+    },
+    {
+      "id": "review037-attestations",
+      "type": "institution",
+      "title": "Corte de Tikal y testimonios epigráficos",
+      "start": "0300-01-01",
+      "end": "0400-01-01",
+      "text": "Unen Bahlam y otros nombres tempranos tienen testimonios discontinuos. Una muerte registrada no ofrece automáticamente la fecha de acceso. Los nacimientos de soberanos posteriores no son reinados.",
+      "source": "https://www.mesoweb.org/palenque/resources/dates/dates_all.html",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy",
+        "city-state"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Unen_Bahlam",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Chak Tok Ich'aak I",
+        "title": "Chak Tok Ich'aak I",
+        "person": "Q4506858",
+        "name": "Chak Tok Ich'aak I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chak_Tok_Ich%CA%BCaak_I",
+        "identityResolution": {
+          "requested": "Chak Tok Ich'aak I",
+          "canonical": "Chak Tok Ichʼaak I",
+          "qid": "Q4506858"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120932169",
+          "start": "0360-08-07",
+          "end": "0378-01-14",
+          "precision": 11,
+          "statement": "Q4506858$edb3ef8e-412c-9fb8-1e95-38553cf1be39",
+          "label": "Ajaw of Tikal"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4506858",
+        "title": "Chak Tok Ichʼaak I",
+        "source": "https://en.wikipedia.org/wiki/Chak_Tok_Ich%CA%BCaak_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tikal",
+            "raw": "7 August 360 - 14 January 378",
+            "parsed": {
+              "start": "0360-08-07",
+              "end": "0378-01-14",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "K'inich Muwaan Jol",
+        "title": "K'inich Muwaan Jol",
+        "person": "Q21934159",
+        "name": "K'inich Muwaan Jol",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCinich_Muwaan_Jol",
+        "identityResolution": {
+          "requested": "K'inich Muwaan Jol",
+          "canonical": "Kʼinich Muwaan Jol",
+          "qid": "Q21934159"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q21934159",
+        "title": "Kʼinich Muwaan Jol",
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCinich_Muwaan_Jol",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ajaw of Tikal 13th in the line",
+            "raw": "?-359",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Siyaj Chan K'awiil I",
+        "title": "Siyaj Chan K'awiil I",
+        "person": "",
+        "name": "Siyaj Chan K'awiil I",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Siyaj_Chan_K%27awiil_I",
+        "identityResolution": {
+          "requested": "Siyaj Chan K'awiil I",
+          "canonical": "Siyaj Chan K'awiil I",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Unen Bahlam",
+        "title": "Unen Bahlam",
+        "person": "Q21933908",
+        "name": "Unen Bahlam",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Unen_Bahlam",
+        "identityResolution": {
+          "requested": "Unen Bahlam",
+          "canonical": "Unen Bahlam",
+          "qid": "Q21933908"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q21933908",
+        "title": "Unen Bahlam",
+        "source": "https://en.wikipedia.org/wiki/Unen_Bahlam",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Queen of Tikal",
+            "raw": "c.317",
+            "parsed": {
+              "start": "0317-01-01",
+              "end": "0317-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yax Nuun Ahiin I",
+        "title": "Yax Nuun Ahiin I",
+        "person": "Q4539887",
+        "name": "Yax Nuun Ayiin I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yax_Nuun_Ahiin_I",
+        "identityResolution": {
+          "requested": "Yax Nuun Ahiin I",
+          "canonical": "Yax Nuun Ahiin I",
+          "qid": "Q4539887"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120932169",
+          "start": "0379-09-12",
+          "end": "0704-06-17",
+          "precision": 11,
+          "statement": "Q4539887$0f9e776f-4830-cd52-a18c-864b57e33553",
+          "label": "Ajaw of Tikal"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4539887",
+        "title": "Yax Nuun Ahiin I",
+        "source": "https://en.wikipedia.org/wiki/Yax_Nuun_Ahiin_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tikal",
+            "raw": "12 September 379 – 17 June 404",
+            "parsed": {
+              "start": "0379-09-12",
+              "end": "0404-06-17",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q21933908",
+        "title": "Unen Bahlam",
+        "source": "https://en.wikipedia.org/wiki/Unen_Bahlam",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Queen of Tikal",
+          "raw": "c.317",
+          "parsed": {
+            "start": "0317-01-01",
+            "end": "0317-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q4506858",
+        "title": "Chak Tok Ich'aak I",
+        "source": "https://en.wikipedia.org/wiki/Chak_Tok_Ich%CA%BCaak_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Tikal",
+          "raw": "7 August 360 - 14 January 378",
+          "parsed": {
+            "start": "0360-08-07",
+            "end": "0378-01-14",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q4539887",
+        "title": "Yax Nuun Ahiin I",
+        "source": "https://en.wikipedia.org/wiki/Yax_Nuun_Ahiin_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Tikal",
+          "raw": "12 September 379 – 17 June 404",
+          "parsed": {
+            "start": "0379-09-12",
+            "end": "0404-06-17",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Siyaj Chan K'awiil I",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "K'inich Muwaan Jol",
+        "person": "Q21934159",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q21934159",
+      "name": "K'inich Muwaan Jol",
+      "role": "Ajaw de Tikal · testimonio final",
+      "start": "0359-01-01",
+      "end": "0359-12-31",
+      "precision": 9,
+      "source": "https://www.mesoweb.org/palenque/resources/dates/dates_all.html",
+      "note": "Muerte en359 aproximadamente; el campo de reinado no tiene comienzo conocido. Se registra sólo el testimonio, no un mandato inventado desde el gobernante anterior."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat037-40",
+      "name": "Tikal · corte local",
+      "coordinates": [
+        -89.624,
+        17.222
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Tikal",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio. La agrupación hospeda la consulta; no declara vasallaje o un único Estado maya.",
+      "standaloneReference": true,
+      "entityName": "Corte y dinastía de Tikal",
+      "aggregateKey": "HIST-Q28567"
+    },
+    {
+      "id": "seat037-40-own",
+      "name": "Tikal · corte local",
+      "coordinates": [
+        -89.624,
+        17.222
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Tikal",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio. La agrupación hospeda la consulta; no declara vasallaje o un único Estado maya.",
+      "entityName": "Corte y dinastía de Tikal"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review037-entrada378",
+      "type": "conflict",
+      "title": "Llegada de Siyaj K’ak’ a Tikal",
+      "start": "0378-01-01",
+      "end": "0379-01-01",
+      "text": "La inscripción fecha una llegada y la muerte de Chak Tok Ich’aak I; no demuestra una anexión uniforme de todas las ciudades mayas a Teotihuacan.",
+      "source": "https://www.mesoweb.org/palenque/resources/dates/dates_all.html",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    },
+    {
+      "id": "review037-attestations",
+      "type": "institution",
+      "title": "Corte de Tikal y testimonios epigráficos",
+      "start": "0300-01-01",
+      "end": "0400-01-01",
+      "text": "Unen Bahlam y otros nombres tempranos tienen testimonios discontinuos. Una muerte registrada no ofrece automáticamente la fecha de acceso. Los nacimientos de soberanos posteriores no son reinados.",
+      "source": "https://www.mesoweb.org/palenque/resources/dates/dates_all.html",
+      "sourceLabel": "Referencia documental · siglo IV",
+      "precision": 9,
+      "note": "Contexto parcial; no inventario completo de hechos o conflictos."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review037-entrada378",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.624,
+          17.222
+        ]
+      },
+      "properties": {
+        "name": "Llegada de Siyaj K’ak’ a Tikal",
+        "countries": [
+          "MAYA-TIKAL"
+        ],
+        "kind": "regional-conflict",
+        "start": "0378-01-01",
+        "end": "0378-12-31",
+        "precision": 9,
+        "source": "https://www.mesoweb.org/palenque/resources/dates/dates_all.html",
+        "sourceLabel": "Referencia documental · siglo IV",
+        "note": "La inscripción fecha una llegada y la muerte de Chak Tok Ich’aak I; no demuestra una anexión uniforme de todas las ciudades mayas a Teotihuacan. Coordenada regional aproximada."
+      }
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q21933908",
+      "title": "Unen Bahlam.svg",
+      "reason": "Glifo nominativo, no retrato personal.",
+      "source": "https://commons.wikimedia.org/wiki/File:Unen_Bahlam.svg"
+    },
+    {
+      "person": "Q4506858",
+      "title": "Tikal St26.jpg",
+      "reason": "Identificación individual de la estela26 de Tikal no contrastada suficientemente; se conserva pendiente.",
+      "source": "https://commons.wikimedia.org/wiki/File:Tikal_St26.jpg"
+    },
+    {
+      "person": "Q21934159",
+      "title": "K'inich Muwaan Jol.svg",
+      "reason": "Glifo nominativo, no retrato personal.",
+      "source": "https://commons.wikimedia.org/wiki/File:K%27inich_Muwaan_Jol.svg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q21933908",
+      "name": "Unen Bahlam",
+      "title": "Unen Bahlam.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Unen_Bahlam.svg",
+      "sha256": "f4e1c47bd87a4ae66d89d9ab62d5f087a22deccb5c30bbd2f97d98f3ae3f3c9f",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Glifo nominativo, no retrato personal."
+    },
+    {
+      "person": "Q4506858",
+      "name": "Chak Tok Ich'aak I",
+      "title": "Tikal St26.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tikal_St26.jpg",
+      "sha256": "317b4369fbf6aea17c87b878c8c3b21a5ec9d2798bb417e75f5a397f746f1ef8",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Identificación individual de la estela26 de Tikal no contrastada suficientemente; se conserva pendiente."
+    },
+    {
+      "person": "Q4539887",
+      "name": "Yax Nuun Ayiin I",
+      "title": "Tikal St04.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tikal_St04.jpg",
+      "sha256": "99d85f8853b82725152e19434c0efe786074870c14cfb21b9b1a23117c87775e",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "caption": "Estela4 de Tikal vinculada a Yax Nuun Ahiin I; representación regia ritual, no semejanza del natural demostrada."
+    },
+    {
+      "person": "Q21934159",
+      "name": "K'inich Muwaan Jol",
+      "title": "K'inich Muwaan Jol.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:K%27inich_Muwaan_Jol.svg",
+      "sha256": "7121eed48a6687be649be9ea747831f4e8499a133f4ff56fc44774664422793d",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa; identificación individual, tipo de representación y cara de moneda revisados.",
+      "reason": "Glifo nominativo, no retrato personal."
+    }
+  ]
+}

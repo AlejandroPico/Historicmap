@@ -1,0 +1,536 @@
+{
+  "key": "HIST-Q5724",
+  "identity": {
+    "qid": "Q5724",
+    "name": "Anurādhapura"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Anuradhapura",
+      "officePattern": "King.*Anuradhapura",
+      "titles": [
+        "Mahasena of Anuradhapura",
+        "Sirimeghavanna of Anuradhapura",
+        "Jettha Tissa II of Anuradhapura",
+        "Buddhadasa of Anuradhapura",
+        "Upatissa I of Anuradhapura"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q5967591",
+      "name": "Mahasena de Anuradhapura",
+      "role": "Rey de Anuradhapura",
+      "start": "0300-01-01",
+      "end": "0301-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mahasena_of_Anuradhapura",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q12978364",
+      "name": "Sirimeghavanna",
+      "role": "Rey de Anuradhapura",
+      "start": "0301-01-01",
+      "end": "0328-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sirimeghavanna",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q12974584",
+      "name": "Jettha Tissa II",
+      "role": "Rey de Anuradhapura",
+      "start": "0328-01-01",
+      "end": "0337-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jettha_Tissa_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q16824883",
+      "name": "Budadasa",
+      "role": "Rey de Anuradhapura",
+      "start": "0341-01-01",
+      "end": "0370-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Buddhadasa_of_Anuradhapura",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q12979514",
+      "name": "Upatissa Ier",
+      "role": "Rey de Anuradhapura",
+      "start": "0370-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Upatissa_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mahasena_of_Anuradhapura",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Anurādhapura"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Anurādhapura",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "b2679c1d97eae40869a5ad22e35714384631d5b955bfe36ad2daf0da831db56b",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1197
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Buddhadasa of Anuradhapura",
+        "title": "Buddhadasa of Anuradhapura",
+        "person": "Q16824883",
+        "name": "Budadasa",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Buddhadasa_of_Anuradhapura",
+        "identityResolution": {
+          "requested": "Buddhadasa of Anuradhapura",
+          "canonical": "Buddhadasa of Anuradhapura",
+          "qid": "Q16824883"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0341-01-01",
+          "end": "0370-01-01",
+          "precision": 9,
+          "statement": "Q16824883$ebfd870d-4918-86a8-5f24-2ad239bafe6b",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16824883",
+        "title": "Buddhadasa of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Buddhadasa_of_Anuradhapura",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "341 – 370",
+            "parsed": {
+              "start": "0341-01-01",
+              "end": "0370-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "341&ndash;370",
+            "parsed": {
+              "start": "0341-01-01",
+              "end": "0370-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Jettha Tissa II of Anuradhapura",
+        "title": "Jettha Tissa II of Anuradhapura",
+        "person": "Q12974584",
+        "name": "Jettha Tissa II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jettha_Tissa_II",
+        "identityResolution": {
+          "requested": "Jettha Tissa II of Anuradhapura",
+          "canonical": "Jettha Tissa II",
+          "qid": "Q12974584"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0332-01-01",
+          "end": "0341-01-01",
+          "precision": 9,
+          "statement": "Q12974584$3d9e6c9c-4b22-6de4-3363-edee9ec83ef0",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12974584",
+        "title": "Jettha Tissa II",
+        "source": "https://en.wikipedia.org/wiki/Jettha_Tissa_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "328 to 337 AD",
+            "parsed": {
+              "start": "0328-01-01",
+              "end": "0337-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "328 to 337 AD",
+            "parsed": {
+              "start": "0328-01-01",
+              "end": "0337-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mahasena of Anuradhapura",
+        "title": "Mahasena of Anuradhapura",
+        "person": "Q5967591",
+        "name": "Mahasena de Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mahasena_of_Anuradhapura",
+        "identityResolution": {
+          "requested": "Mahasena of Anuradhapura",
+          "canonical": "Mahasena of Anuradhapura",
+          "qid": "Q5967591"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0277-01-01",
+          "end": "0304-01-01",
+          "precision": 9,
+          "statement": "Q5967591$edb0fe38-4670-04dc-a58d-43b1cecc483b",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5967591",
+        "title": "Mahasena of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Mahasena_of_Anuradhapura",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "273–301 AD",
+            "parsed": {
+              "start": "0273-01-01",
+              "end": "0301-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "273–301 AD",
+            "parsed": {
+              "start": "0273-01-01",
+              "end": "0301-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sirimeghavanna of Anuradhapura",
+        "title": "Sirimeghavanna of Anuradhapura",
+        "person": "Q12978364",
+        "name": "Sirimeghavanna",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sirimeghavanna",
+        "identityResolution": {
+          "requested": "Sirimeghavanna of Anuradhapura",
+          "canonical": "Sirimeghavanna",
+          "qid": "Q12978364"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0304-01-01",
+          "end": "0322-01-01",
+          "precision": 9,
+          "statement": "Q12978364$f9774c1e-4690-793b-903d-c2ffbe3afae7",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12978364",
+        "title": "Sirimeghavanna",
+        "source": "https://en.wikipedia.org/wiki/Sirimeghavanna",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "301–328 AD",
+            "parsed": {
+              "start": "0301-01-01",
+              "end": "0328-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "301–328 AD",
+            "parsed": {
+              "start": "0301-01-01",
+              "end": "0328-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Upatissa I of Anuradhapura",
+        "title": "Upatissa I of Anuradhapura",
+        "person": "Q12979514",
+        "name": "Upatissa Ier",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Upatissa_I",
+        "identityResolution": {
+          "requested": "Upatissa I of Anuradhapura",
+          "canonical": "Upatissa I",
+          "qid": "Q12979514"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0370-01-01",
+          "end": "0412-01-01",
+          "precision": 9,
+          "statement": "Q12979514$18cb1254-4e34-1e5a-7526-5fe44974fe96",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12979514",
+        "title": "Upatissa I",
+        "source": "https://en.wikipedia.org/wiki/Upatissa_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "370 – 412",
+            "parsed": {
+              "start": "0370-01-01",
+              "end": "0412-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "370&ndash;412",
+            "parsed": {
+              "start": "0370-01-01",
+              "end": "0412-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q5967591",
+        "title": "Mahasena of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Mahasena_of_Anuradhapura",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "273–301 AD",
+          "parsed": {
+            "start": "0273-01-01",
+            "end": "0301-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q12978364",
+        "title": "Sirimeghavanna of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Sirimeghavanna",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "301–328 AD",
+          "parsed": {
+            "start": "0301-01-01",
+            "end": "0328-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q12974584",
+        "title": "Jettha Tissa II of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Jettha_Tissa_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "328 to 337 AD",
+          "parsed": {
+            "start": "0328-01-01",
+            "end": "0337-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q16824883",
+        "title": "Buddhadasa of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Buddhadasa_of_Anuradhapura",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "341 – 370",
+          "parsed": {
+            "start": "0341-01-01",
+            "end": "0370-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q12979514",
+        "title": "Upatissa I of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Upatissa_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "370 – 412",
+          "parsed": {
+            "start": "0370-01-01",
+            "end": "0412-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat037-29",
+      "name": "Anuradhapura",
+      "coordinates": [
+        80.403,
+        8.311
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Anuradhapura",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "standaloneReference": true,
+      "entityName": "Anurādhapura"
+    },
+    {
+      "id": "seat037-29-own",
+      "name": "Anuradhapura",
+      "coordinates": [
+        80.403,
+        8.311
+      ],
+      "start": 300,
+      "end": 399,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Anuradhapura",
+      "note": "Coordenada regional de referencia; no prueba residencia permanente, capital exclusiva ni perímetro de dominio.",
+      "entityName": "Anurādhapura"
+    }
+  ]
+}

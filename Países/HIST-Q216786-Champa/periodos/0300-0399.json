@@ -1,0 +1,184 @@
+{
+  "key": "HIST-Q216786",
+  "identity": {
+    "qid": "Q216786",
+    "name": "Chámpa"
+  },
+  "revision": "0.37.0",
+  "acquisition": "century-300-0.37",
+  "coverageStart": 300,
+  "coverageEnd": 399,
+  "officeBounds": [
+    "0300-01-01",
+    "0399-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Champa",
+      "officePattern": "King.*Champa",
+      "titles": [
+        "Fan Yi (Champa)",
+        "Bhadravarman I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q5433550",
+      "name": "Bhadravarman I",
+      "role": "Gobernante de Lâm Ấp / Champa",
+      "start": "0380-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bhadravarman_I",
+      "note": "Campo explícito380–413; cronología aproximada y región de poder, sin fronteras estatales modernas.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 300,
+      "end": 399,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Bhadravarman_I",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "No acredita dominio uniforme, nacionalidad moderna ni ausencia de sociedades organizadas fuera de los contornos."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chámpa"
+        ],
+        "start": 300,
+        "end": 399,
+        "label": "Chámpa",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-300.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0300-0399.geojson",
+      "sha256": "6b20a30e9add6352bc573cd7caebf069c6472cdd41600c74a3006f6641919c36",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1304
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Validar cronologías locales y contornos heredados; el fin399 es límite de revisión, no extinción. Datos personales no equivalen a mandato."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bhadravarman I",
+        "title": "Bhadravarman I",
+        "person": "Q5433550",
+        "name": "Bhadravarman I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bhadravarman_I",
+        "identityResolution": {
+          "requested": "Bhadravarman I",
+          "canonical": "Bhadravarman I",
+          "qid": "Q5433550"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0380-01-01",
+          "end": "0413-01-01",
+          "precision": 9,
+          "statement": "Q5433550$7827365e-42d0-7bef-bbdf-00e2f9c1379b",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5433550",
+        "title": "Bhadravarman I",
+        "source": "https://en.wikipedia.org/wiki/Bhadravarman_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Lâm Ấp Dharma-Maharaja",
+            "raw": "380–413",
+            "parsed": {
+              "start": "0380-01-01",
+              "end": "0413-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Fan Yi (Champa)",
+        "title": "Fan Yi (Champa)",
+        "person": "",
+        "name": "Fan Yi (Champa)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Fan_Yi_%28Champa%29",
+        "identityResolution": {
+          "requested": "Fan Yi (Champa)",
+          "canonical": "Fan Yi (Champa)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Fan Yi (Champa)",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Bhadravarman I",
+        "person": "Q5433550",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q5433550",
+      "name": "Bhadravarman I",
+      "role": "Gobernante de Lâm Ấp / Champa",
+      "start": "0380-01-01",
+      "end": "0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bhadravarman_I",
+      "note": "Campo explícito380–413; cronología aproximada y región de poder, sin fronteras estatales modernas.",
+      "endIsCoverageBoundary": true
+    }
+  ]
+}

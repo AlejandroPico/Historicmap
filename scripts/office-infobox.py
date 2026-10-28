@@ -31,7 +31,7 @@ def clean(raw):
  raw=re.sub(r'\{\{circa\|([^{}]*)\}\}',r'\1',raw,flags=re.I);raw=re.sub(r'\{\{circa\}\}','c. ',raw,flags=re.I)
  raw=re.sub(r'(?<=\d)\s+to\s+(?=\d)','–',raw)
  raw=re.sub(r'\b(?:A\.?D\.?|C\.?E\.?)(?!\w)','',raw)
- raw=re.sub(r'\{\{(?:nowr|nowrap|nobr|small)\|([^{}]*)\}\}',r'\1',raw)
+ raw=re.sub(r'\{\{(?:nowr|nowrap|no wrap|nobr|small)\|([^{}]*)\}\}',r'\1',raw,flags=re.I)
  def date_template(m):
   v=re.findall(r'\|\s*(\d+)\s*(?=\||\}\})',m.group(0))
   if not v:return m.group(0)
