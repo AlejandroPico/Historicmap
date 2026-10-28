@@ -12,7 +12,36 @@ def save(p, value):
 def save_data(p, value):
     p.write_text(json.dumps(value, ensure_ascii=False, separators=(',',':'))+'\n', encoding='utf8', newline='\n')
 
-def main(acquire=False):
+def apply_portrait_corrections(identities, media, inputs):
+    matched=0
+    for path in inputs:
+        revision=read(path);entity_root=path.parent.parent if path.parent.name=='periodos' else path.parent
+        for correction in revision.get('portraitCorrections',[]):
+            portrait=copy.deepcopy(correction['portrait']);original=entity_root/'retratos'/pathlib.Path(portrait['file']).name
+            if portrait.get('canonicalFile')!=original.relative_to(ROOT).as_posix():raise ValueError('Portrait original path '+str(path))
+            raw=original.read_bytes()
+            if hashlib.sha256(raw).hexdigest()!=portrait['sha256'] or len(raw)!=portrait['bytes']:raise ValueError('Portrait original checksum '+str(original))
+            if not correction.get('reason') or not portrait.get('license') or not portrait.get('url'):raise ValueError('Portrait review evidence '+str(path))
+            leaders=identities['countries'][revision['key']]['leaders'];targets=[l for l in leaders if l['person']==correction['person']]
+            if not targets:raise ValueError('No authority matched portrait correction '+str(path))
+            runtime=ROOT/'public'/portrait['file']
+            if not runtime.exists() or runtime.read_bytes()!=raw:runtime.write_bytes(raw)
+            for leader in targets:leader['portrait']=copy.deepcopy(portrait);matched+=1
+            media[portrait['file']]=portrait
+    return matched
+
+def portraits_only():
+    identities=read(ROOT/'public/data/identities.json');manifest=read(ROOT/'public/media/manifest.json');media={m['file']:m for m in manifest['entries']}
+    inputs=sorted([*(ROOT/'Países').glob('*/revision-historica.json'),*(ROOT/'Países').glob('*/periodos/*.json')])
+    matched=apply_portrait_corrections(identities,media,inputs)
+    save_data(ROOT/'public/data/identities.json',identities);manifest['entries']=sorted(media.values(),key=lambda m:m['file']);save_data(ROOT/'public/media/manifest.json',manifest)
+    catalog=read(ROOT/'public/data/manifest.json');raw=(ROOT/'public/data/identities.json').read_bytes()
+    for entry in catalog['entries']:
+        if entry['file']=='identities.json':entry.update(sha256=hashlib.sha256(raw).hexdigest(),bytes=len(raw),version='Historicmap '+read(ROOT/'package.json')['version']+'; entity-owned portrait review')
+    save(ROOT/'public/data/manifest.json',catalog);print('Matched',matched,'entity-owned portrait corrections; authority terms retained.')
+
+def main(acquire=False, portrait_only=False):
+    if portrait_only:portraits_only();return
     spec=importlib.util.spec_from_file_location('acquisition',ROOT/'scripts/enrich-1970-authorities.py')
     api=importlib.util.module_from_spec(spec);spec.loader.exec_module(api)
     identities=read(ROOT/'public/data/identities.json')
@@ -127,6 +156,7 @@ def main(acquire=False):
                     for r in records:r.update(start=max(r['start'],target['start']),end=min(r['end'],target['end']))
                     records=[r for r in records if r['start']<=r['end']]
                 identities['countries'][alias][field]=records
+    apply_portrait_corrections(identities,media,inputs)
     save_data(ROOT/'public/data/identities.json',identities);media_manifest['entries']=sorted(media.values(),key=lambda m:m['file']);save_data(ROOT/'public/media/manifest.json',media_manifest)
     save_data(ROOT/'public/data/country-history.json',history);save_data(ROOT/'public/data/governance.json',governance)
     starts=[read(p)['coverageStart'] for p in inputs if read(p).get('coverageStart')]
@@ -135,4 +165,4 @@ def main(acquire=False):
     print('Compiled',len(inputs),'entity-owned revisions')
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--acquire',action='store_true');main(p.parse_args().acquire)
+    p=argparse.ArgumentParser();p.add_argument('--acquire',action='store_true');p.add_argument('--portraits-only',action='store_true');args=p.parse_args();main(args.acquire,args.portraits_only)

@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## 0.31.1 · 28 de octubre de 2026
+
+- Fotografía de Gabriel Terra durante su toma de posesión de1931 en lugar del cartel propagandístico usado en la ficha deUruguay1933. Original, procedencia y corrección dentro de la carpeta deUruguay; fechas y cargos conservados.
+- Doble clic derecho con ratón orienta el mapa con el norte arriba enMercator y globo, conservando centro, zoom e inclinación. El arrastre derecho mantiene la rotación y un clic aislado no restablece la vista.
+- Correcciones de retratos por entidad reproducibles sin reconstruir mandatos, fronteras o instituciones.
+
 ## 0.31.0 · 28 de octubre de 2026
 
 - Continuidad de1.769 contextos culturales desde1906 hasta el presente, con horizonte de consulta2027 y aviso explícito de ausencia de observaciones futuras. El año máximo sigue al reloj del dispositivo.

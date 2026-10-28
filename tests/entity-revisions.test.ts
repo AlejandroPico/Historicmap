@@ -62,8 +62,9 @@ describe('entity-owned historical corrections',()=>{
   for(const e of index){const file=`Países/${e.folder}/revision-historica.json`;if(!existsSync(file))continue;revisions++;const r=read(file);expect(r.key).toBe(e.key);
    for(const s of r.symbols){expect(s.media.canonicalFile).toMatch(new RegExp('^Países/'+e.folder+'/simbolos/'));expect(createHash('sha256').update(readFileSync(s.media.canonicalFile)).digest('hex')).toBe(s.media.sha256);}
    for(const l of r.leaders)if(l.portrait){expect(l.portrait.canonicalFile).toContain(`/retratos/`);expect(existsSync(l.portrait.canonicalFile)).toBe(true);}
+   for(const correction of r.portraitCorrections??[]){const m=correction.portrait;expect(m.canonicalFile).toMatch(new RegExp('^Países/'+e.folder+'/retratos/'));expect(createHash('sha256').update(readFileSync(m.canonicalFile)).digest('hex')).toBe(m.sha256);expect(ids.countries[e.key].leaders.filter(l=>l.person===correction.person).every(l=>l.portrait?.file===m.file)).toBe(true);}
    const entity=read(`Países/${e.folder}/entidad.json`);expect(entity.symbolReferences).toEqual(ids.countries[e.key].symbolReferences??[]);
   }
-  expect(revisions).toBe(14);
+  expect(revisions).toBe(15);
  },60000);
 });

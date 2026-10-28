@@ -9,6 +9,7 @@ import { places } from './catalog';
 import type { FeatureCollection } from 'geojson';
 import packageInfo from '../package.json';
 import { aboutContent } from './about';
+import {installNorthGesture} from './north-gesture';
 import { annualData, asset, modernCities, overlaysFor } from './data';
 import { datedPlaces } from './historical-places';
 import {hasRegionalCoverage,regionalAsset,regionsAt,entitiesAt,regionalCard,regionalCoverage,type RegionalRecord} from './cultural-regions';
@@ -115,6 +116,10 @@ const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 maplibregl.setWorkerUrl(workerUrl);
 const glyphsUrl=new URL('fonts/',new URL(import.meta.env.BASE_URL,document.baseURI)).href+'{fontstack}/{range}.pbf';
 const map = new maplibregl.Map({container:'map', center:[23,22], zoom:1.65, minZoom:0.2, maxZoom:7, attributionControl:false, renderWorldCopies:false, style:{version:8, glyphs:glyphsUrl, sources:{}, layers:[{id:'ocean',type:'background',paint:{'background-color':palettes[resolveAppearance(appearance)].ocean}}]}, canvasContextAttributes:{antialias:true}, fadeDuration:reduced?0:200});
+const removeNorthGesture=installNorthGesture(map.getCanvas(),()=>map.resetNorth({duration:reduced?0:350}));
+map.once('remove',removeNorthGesture);
+const recordCamera=()=>{$('#map').dataset.camera=JSON.stringify({center:map.getCenter().toArray(),zoom:map.getZoom(),bearing:map.getBearing(),pitch:map.getPitch()});};
+map.on('moveend',recordCamera);recordCamera();
 map.addControl(new maplibregl.ScaleControl({maxWidth:100,unit:'metric'}),'bottom-left');
 function applyAppearance(){
   const resolved=resolveAppearance(appearance),palette=palettes[resolved];

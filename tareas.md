@@ -1,6 +1,19 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.31.0 · continuidad cultural 1905–presente
+## Cierre adicional vigente · 0.31.1
+
+La entrega0.31.0 ya se envió a main en cf816799. Durante el cierre, el propietario pide corregir el retrato deGabriel Terra enUruguay1933 y añadir doble clic derecho con ratón para orientar el norte arriba. No esperarActions/Pages.
+
+- [x] Revisar ambas imágenes, adoptar fotografía de asunción1931 y conservar original/procedencia enPaíses/URY-Uruguay. El cartel queda acreditado pero no se usa como retrato.
+- [x] Corrección canónica de retrato sin alterar cargos, fechas ni fuentes.93 recursos de datos previos y8.108 medios anteriores conservados; tres recursos idempotentes. Resultado específico dentro deUruguay/revision-retrato-validacion.json.
+- [x] Doble clic derecho con ratón: orientación norte, sin alterar centro/zoom/inclinación. Excluir arrastres y gestos táctiles; conservar el giro con arrastre derecho.
+- [x] Comprobar foto en la ficha y gesto real enMercator/globo: dos recorridos correctos, con centro/zoom/inclinación preservados y clic aislado/arrastre diferenciados. Captura deUruguay1933 inspeccionada. Doce pruebas focales correctas; tipos, compilación e integridad correctos. Preparar/verificar bytes deGit y confirmar main remoto al enviar, sin esperar publicación.
+
+Integridad del cierre:94 datos,11 franjas y8.109 medios. La corrección de retrato conserva las1.204 identidades y todos los campos de cargos salvo la imagen deGabriel Terra. El nuevo dossier incluye las colecciones vacías symbols/leaders del formato común y portraitCorrections; se amplía el cotejo canónico de las revisiones para comprobar estos originales. Las242 pruebas generales y la revisión cultural completadas en0.31.0 quedan registradas abajo; este cierre adicional se verifica con12 pruebas focales y dos recorridos de navegador, sin repetir toda aquella batería.
+
+Git0.31.1:21 archivos nuevos/modificados preparados coinciden con los bytes locales;8.214 recursos verificados porSHA-256 y objetoGit,8.212 objetos de recursos anteriores iguales. Sin archivos eliminados. Preparar esta nota final y confirmar main remoto al cerrar; no esperar publicación.
+
+## Entrega anterior · 0.31.0 · continuidad cultural 1905–presente
 
 Completar la revisión posterior a1905 hasta el año vigente, preparando2027 como horizonte de consulta de referencias conocidas, sin inventar observaciones futuras ni alterar el máximo del reloj. Mantener pueblos/culturas en toda ampliación posterior, también antes de900. Subir después de comprobar localmente; no esperarActions/Pages.
 

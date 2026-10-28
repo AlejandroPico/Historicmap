@@ -57,3 +57,7 @@ El compilador genera once segmentos por siglo entre900 y1905, además del export
 ## Revisión contemporánea0.31
 
 Las nuevas fases1906–2027 guardan `reviewedOn`, `evidenceThrough`, interpretación y fuentes propias. `modernConsultationReview` registra alcance y pendientes por entidad. Una reforma o reconocimiento no crea el pueblo ni determina su frontera; las referencias históricas no son un mapa del domicilio actual. Las fases y referencias anteriores se conservan sin cambios. La consulta2027 no añade observaciones futuras y el máximo de la aplicación sigue al reloj. Ver [revisión moderna](../docs/CULTURAL-MODERN-REVIEW.md).
+
+## Correcciones de retratos0.31.1
+
+`portraitCorrections` en `revision-historica.json` puede corregir el retrato de una persona sin reemplazar sus mandatos. Original en `retratos/`, título, fecha de evidencia, motivo, fuente, licencia y huella dentro de la entidad. Ejecutar `python scripts/prepare-entity-revisions.py --portraits-only` y después `npm run entities:prepare`; no hay descarga remota. La compilación completa de revisiones aplica también estas correcciones al final. No editar la vista generada `entidad.json` ni reutilizar un cartel como retrato por contener la cara de la persona.

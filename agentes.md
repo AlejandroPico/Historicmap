@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **28 de octubre de 2026**. Versión del producto: **0.31.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **28 de octubre de 2026**. Versión del producto: **0.31.1**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección44; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección45; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente0.31:** revisión cultural1900–presente, con consulta de referencias preparada hasta2027 sin observaciones futuras. Mantener el máximo del reloj y la coexistencia cultural/política. Después se retomarán regresiones anteriores a900 por nuevo encargo. Ver sección44 y tareas.md. Subir tras comprobar localmente, sin esperarActions/Pages.
+**Encargo vigente0.31.1:** cierre adicional autorizado: fotografía deGabriel Terra enUruguay1933 y doble clic derecho para orientar el norte. La entrega cultural0.31.0 ya se envió. Ver sección45 y tareas.md. Después se retomarán regresiones anteriores a900 por nuevo encargo. No esperarActions/Pages.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -988,3 +988,19 @@ Requisito permanente para ampliaciones anteriores a900: conservar pueblos, área
 Cierre local0.31:242 pruebas/56 archivos correctos y cuatro recorridos finales de navegador correctos; capturas actuales deSámi yBurarra móvil inspeccionadas. La prueba de descarga obsoleta pasó tras utilizar la espera habitual del mapa, en vez de un límite inline de cinco segundos; las pruebas de selección moderna se corrigieron para consultar la misma fuente que la aplicación. No atribuir esos ajustes a correcciones de datos o de geometría. Tipos y compilación correctos;94 datos,11 franjas y8.108 medios íntegros. Conservación de90 recursos anteriores,6.815 fases exactas y1.769 dossiers; cero originales espaciales modificados/polígonos nuevos.16 recursos idempotentes. Catálogo3.823 carpetas/1.204 identidades. Confirmar bytes preparados y envío demain antes del cierre, sin esperarActions/Pages.
 
 PreparaciónGit comprobada:3.566 archivos nuevos/modificados idénticos a sus bytes locales por huella de objeto;8.213 recursos verificados porSHA-256 y objetoGit,8.209 objetos de recursos previos idénticos. Sin archivos eliminados. Preparar las notas finales después de este resultado y comprobar coincidencia demain con origin/main al enviar. Mantener el criterio de no esperar el despliegue.
+
+
+## 45. Retrato y orientación del mapa · 0.31.1
+
+El propietario solicita al terminar0.31.0 cambiar el retrato deGabriel Terra en1933 y añade doble clic derecho de ratón para orientar el norte arriba. La entrega0.31.0 se envió a main en cf816799; estos cambios forman un cierre adicional. Mantener la publicación en manos del propietario.
+
+- Original deUruguay y revisión enPaíses/URY-Uruguay: se sustituye Afiche Terra.jpg por fotografía de toma de posesión del1 de marzo de1931, inspeccionada visualmente, con procedencia/licenciaCC0 declarada porCommons, autor fotográfico no identificado y reproducción/recorte acreditados. No atribuir la fotografía de1931 a su cargador moderno. La fecha y función del retrato no se confunden con un cambio de mandato.
+- `portraitCorrections` por entidad conserva todos los campos del registro de autoridad y sólo reemplaza su retrato. El preparador genérico aplica estas correcciones al final de una compilación completa; `--portraits-only` actualiza únicamente identidades, copias de medios/manifiestos pertinentes, sin reconstruir historias o instituciones. Fuente original enretratos y copia pública con misma huella. Después regenerar el catálogo.
+- Conservación: una autoridad cambia sólo su retrato; todos los demás campos e identidades permanecen iguales. Los8.108 medios anteriores siguen acreditados, incluido el cartel descartado para esta ficha;93 recursos de datos fuera deidentities permanecen idénticos. Tres recursos idempotentes. Validación específica en la carpeta deUruguay.
+- `north-gesture.ts` detecta dos pulsaciones derechas de ratón cercanas en tiempo/posición. Un desplazamiento cancela el gesto para conservar el arrastre de rotación; no se aplica a eventos táctiles. El menú contextual nativo se suprime sólo para la interacción derecha de ratón sobre el lienzo. `resetNorth` conserva centro, zoom e inclinación; movimiento reducido se respeta. La cámara declarada en el contenedor se actualiza al terminar los movimientos.
+
+Mantener las correcciones futuras de personas dentro de la entidad, con revisión visual y evidencia. No sobrescribir datos de mandato para corregir una imagen. Comprobaciones y envío en tareas.md; no esperar ni sondearActions/Pages.
+
+Cierre0.31.1:12 pruebas focales correctas, tipos/compilación/integridad correctos y dos recorridos de navegador correctos. Fotografía visible enUruguay1933 e inspeccionada en la ficha; doble clic derecho verificado físicamente enMercator y globo con conservación de centro/zoom/pitch, clic aislado sin reinicio y arrastre previo funcional.94 datos,11 franjas y8.109 medios. Los originales de las correcciones se cotejan también en la prueba de revisiones por entidad. Las242 pruebas generales pertenecen al cierre cultural0.31.0; no afirmar que se repitieron todas después de este añadido. Confirmar preparaciónGit y envío demain sin esperarActions/Pages.
+
+PreparaciónGit0.31.1 verificada:21 archivos nuevos/modificados idénticos a los locales;8.214 recursos comprobados porSHA-256 y objetoGit,8.212 objetos de recursos previos iguales. Sin archivos eliminados. La nota de cierre se prepara después de esta comprobación; confirmar coincidencia remota de main tras enviar.
