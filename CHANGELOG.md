@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.31.0 · 28 de octubre de 2026
+
+- Continuidad de1.769 contextos culturales desde1906 hasta el presente, con horizonte de consulta2027 y aviso explícito de ausencia de observaciones futuras. El año máximo sigue al reloj del dispositivo.
+- Hitos fechados sámi, ainu, maoríes, inuit, métis, mapuches y australianos, distinguiendo institución, pueblo, reserva, residencia y soberanía.
+- 1.782 fases nuevas sin nuevos polígonos;6.815 fases anteriores preservadas. Las49 referencias a antiguos poderes políticos no se prolongan automáticamente.
+- Auditoría1900–2027, selección política/cultural coincidente, persistencia y consulta móvil. Descargas por siglos; URL previa1900–1905 conservada como archivo.
+- Continuación anterior a900, expansión humana y futuras capas científicas de glaciaciones/cambios ambientales registradas como próximos trabajos.
+
 ## 0.30.0 · 28 de octubre de 2026
 
 - Ampliación cultural 1700–1905 y revisión conjunta 900–1905: siete instantáneas nuevas, 2.513 pares nombre/instantánea y 6.657 dossiers acumulados por entidad.

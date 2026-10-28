@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1701,
-    1905
+    2027
   ],
   "interpretation": "Referencia histórica a comunidades métis y procesos del comercio de pieles. Seven Oaks en1816 es un testimonio documental de organización y afirmación colectiva, no el nacimiento cierto de todos los pueblos métis ni una fecha de este contorno tradicional. No se retrotrae una organización contemporánea al siglo XV.",
   "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
@@ -47,6 +47,88 @@
       "label": "Comunidades métis de las Praderas · referencia histórica",
       "dateBasis": "Consulta histórica desde un testimonio documental de1816; no datación de la frontera ni fecha cierta de origen.",
       "endIsReviewBoundary": true
+    },
+    {
+      "start": 1906,
+      "end": 1981,
+      "label": "Comunidades métis de las Praderas · referencia histórica",
+      "dateBasis": "Ventana de consulta de una referencia tradicional/histórica anterior. No es un levantamiento anual;2027 sólo prolonga su consulta, sin observaciones futuras.",
+      "endIsReviewBoundary": false,
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "reviewedOn": "2026-10-28",
+      "evidenceThrough": 2026,
+      "reviewStatus": "current-continuity-spatial-extent-unverified",
+      "interpretation": "Referencia histórica/tradicional de Comunidades métis de las Praderas · referencia histórica. El testimonio espacial de la compilación no acredita residencia, límites culturales actuales, reserva, título de propiedad o soberanía. Contexto histórico de comunidades métis de las Praderas, sin retrotraer una institución moderna ni afirmar residencia constante en toda esta área.",
+      "references": [
+        {
+          "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+          "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+        },
+        {
+          "title": "Native Land Digital · alcance de áreas tradicionales y solapamientos; no atlas anual",
+          "url": "https://native-land.ca/about/how-it-works"
+        },
+        {
+          "title": "Archives of Manitoba · documentos de Seven Oaks1816",
+          "url": "https://www.gov.mb.ca/chc/archives/hbca/spotlight/seven_oaks.html"
+        },
+        {
+          "title": "Gabriel Dumont Institute · Seven Oaks desde una perspectiva métis",
+          "url": "https://www.metismuseum.ca/resource.php/14172"
+        },
+        {
+          "title": "Justice Canada · artículo35 de la Constitución de1982",
+          "url": "https://www.justice.gc.ca/eng/csj-sjc/ijr-dja/35pedia-wiki35/p2.html?wbdisable=true"
+        }
+      ],
+      "pending": [
+        "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+        "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional.",
+        "Contrastar cronología local, diásporas, desplazamientos y delimitaciones actuales sin equiparar pueblo, reserva y Estado. No interpretar la ventana2027 como observación futura."
+      ]
+    },
+    {
+      "start": 1982,
+      "end": 2027,
+      "label": "Comunidades métis de las Praderas · referencia histórica",
+      "dateBasis": "Ventana de consulta de una referencia tradicional/histórica anterior. No es un levantamiento anual;2027 sólo prolonga su consulta, sin observaciones futuras.",
+      "endIsReviewBoundary": true,
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "reviewedOn": "2026-10-28",
+      "evidenceThrough": 2026,
+      "reviewStatus": "current-continuity-spatial-extent-unverified",
+      "interpretation": "Referencia histórica/tradicional de Comunidades métis de las Praderas · referencia histórica. El testimonio espacial de la compilación no acredita residencia, límites culturales actuales, reserva, título de propiedad o soberanía. El artículo35 de la Constitución canadiense de1982 incluye a los pueblos métis, junto a First Nations e inuit. No establece por sí mismo un polígono único ni implica que todos los titulares residan en esta superficie.",
+      "references": [
+        {
+          "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+          "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+        },
+        {
+          "title": "Native Land Digital · alcance de áreas tradicionales y solapamientos; no atlas anual",
+          "url": "https://native-land.ca/about/how-it-works"
+        },
+        {
+          "title": "Archives of Manitoba · documentos de Seven Oaks1816",
+          "url": "https://www.gov.mb.ca/chc/archives/hbca/spotlight/seven_oaks.html"
+        },
+        {
+          "title": "Gabriel Dumont Institute · Seven Oaks desde una perspectiva métis",
+          "url": "https://www.metismuseum.ca/resource.php/14172"
+        },
+        {
+          "title": "Justice Canada · artículo35 de la Constitución de1982",
+          "url": "https://www.justice.gc.ca/eng/csj-sjc/ijr-dja/35pedia-wiki35/p2.html?wbdisable=true"
+        }
+      ],
+      "pending": [
+        "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+        "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional.",
+        "Contrastar cronología local, diásporas, desplazamientos y delimitaciones actuales sin equiparar pueblo, reserva y Estado. No interpretar la ventana2027 como observación futura."
+      ]
     }
   ],
   "geometryFile": "CULTURE-MICHIF-PIYII-METIS-A4E5DE06-Y1492.geojson",
@@ -81,5 +163,19 @@
   "review": "0.30.0 · 2026-10-27",
   "temporalMode": "historical-area-context",
   "continuityNote": "Referencia tradicional de cronología local pendiente; conservarla como contexto no implica continuidad exacta del mismo contorno durante todo el intervalo.",
-  "displayPriority": 1
+  "displayPriority": 1,
+  "modernConsultationReview": {
+    "reviewedOn": "2026-10-28",
+    "scope": [
+      1906,
+      2027
+    ],
+    "evidenceThrough": 2026,
+    "decision": "Retain documented historical/traditional context, not an asserted present population polygon.",
+    "datedLocalMilestones": [
+      1982
+    ],
+    "currentInstitutionalContinuityContrasted": true,
+    "unresolved": "Current extents, migrations and local legal boundaries require independent dated evidence."
+  }
 }

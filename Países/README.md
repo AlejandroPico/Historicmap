@@ -53,3 +53,7 @@ La validación rechaza archivos sin declaración, sin fechas/licencia o que no e
 Las fases `historical-area-context` conservan una referencia espacial anterior cuando la fuente posterior omite el detalle cultural. No acreditan residencia constante, soberanía ni fronteras anuales; `continuationReference` y la ficha explican la limitación. `baseRepresentationReview` conserva el contraste de remisiones a la base política: propietario, candidatos nominales y puntos coincidentes no son equivalencias históricas automáticas. Los pendientes permanecen en el dossier.
 
 El compilador genera once segmentos por siglo entre900 y1905, además del export completo para auditoría. La aplicación descarga y reutiliza sólo el segmento visitado. No editar las copias públicas: las geometrías originales, fuentes, decisiones y fases permanecen en `poblamiento/` de cada entidad. [Revisión conjunta y límites](../docs/CULTURAL-GLOBAL-REVIEW.md).
+
+## Revisión contemporánea0.31
+
+Las nuevas fases1906–2027 guardan `reviewedOn`, `evidenceThrough`, interpretación y fuentes propias. `modernConsultationReview` registra alcance y pendientes por entidad. Una reforma o reconocimiento no crea el pueblo ni determina su frontera; las referencias históricas no son un mapa del domicilio actual. Las fases y referencias anteriores se conservan sin cambios. La consulta2027 no añade observaciones futuras y el máximo de la aplicación sigue al reloj. Ver [revisión moderna](../docs/CULTURAL-MODERN-REVIEW.md).

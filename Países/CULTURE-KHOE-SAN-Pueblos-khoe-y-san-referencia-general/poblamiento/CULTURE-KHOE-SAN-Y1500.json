@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1201,
-    1905
+    2027
   ],
   "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. Los contactos entre grupos agrícolas, pastoriles y cazadores-recolectores tuvieron ritmos regionales distintos. No se infieren fronteras étnicas de genética ni se presenta una sustitución instantánea.",
   "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
@@ -50,6 +50,35 @@
       "interpretation": "Referencia histórica del ámbito de Pueblos khoe y san · referencia general. Se conserva el último contorno disponible para no ocultar la documentación. No acredita residencia uniforme, soberanía, continuidad institucional o identidad invariable después de1700; los cambios de población y de poder deben contrastarse localmente.",
       "dateBasis": "Continuidad de consulta de evidencia anterior; NO nuevo levantamiento de1701 ni prueba de límites constantes.",
       "endIsReviewBoundary": true
+    },
+    {
+      "start": 1906,
+      "end": 2027,
+      "label": "Pueblos khoe y san · referencia general",
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "interpretation": "Referencia histórica/tradicional de Pueblos khoe y san · referencia general. El testimonio espacial de la compilación no acredita residencia, límites culturales actuales, reserva, título de propiedad o soberanía. Se conserva para consultar la evidencia histórica; migraciones, desplazamientos y transformaciones locales requieren documentación propia.",
+      "dateBasis": "Ventana de consulta de una referencia tradicional/histórica anterior. No es un levantamiento anual;2027 sólo prolonga su consulta, sin observaciones futuras.",
+      "endIsReviewBoundary": true,
+      "reviewedOn": "2026-10-28",
+      "evidenceThrough": 2026,
+      "reviewStatus": "historical-reference-current-extent-unverified",
+      "references": [
+        {
+          "title": "Historical Basemaps · instantánea 1500; fuente espacial de referencia",
+          "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1500.geojson"
+        },
+        {
+          "title": "Nature Communications · prehistoria e interacciones del África austral",
+          "url": "https://www.nature.com/articles/ncomms2140"
+        }
+      ],
+      "pending": [
+        "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+        "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional.",
+        "Contrastar cronología local, diásporas, desplazamientos y delimitaciones actuales sin equiparar pueblo, reserva y Estado. No interpretar la ventana2027 como observación futura."
+      ]
     }
   ],
   "geometryFile": "CULTURE-KHOE-SAN-Y1500.geojson",
@@ -93,5 +122,17 @@
   ],
   "review": "0.29.0 · 2026-10-27",
   "temporalMode": "approximate-source-window",
-  "displayPriority": 1
+  "displayPriority": 1,
+  "modernConsultationReview": {
+    "reviewedOn": "2026-10-28",
+    "scope": [
+      1906,
+      2027
+    ],
+    "evidenceThrough": 2026,
+    "decision": "Retain documented historical/traditional context, not an asserted present population polygon.",
+    "datedLocalMilestones": [],
+    "currentInstitutionalContinuityContrasted": false,
+    "unresolved": "Current extents, migrations and local legal boundaries require independent dated evidence."
+  }
 }

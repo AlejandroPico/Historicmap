@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1701,
-    1905
+    2027
   ],
   "interpretation": "Referencia regional con comunidades, redes y poderes internos diversos. La superficie de la compilación no acredita fronteras exclusivas ni una administración uniforme.",
   "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
@@ -35,6 +35,31 @@
       "label": "Ngwato · referencia regional",
       "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
       "endIsReviewBoundary": true
+    },
+    {
+      "start": 1906,
+      "end": 2027,
+      "label": "Ngwato · referencia regional",
+      "dateBasis": "Ventana de consulta de una referencia tradicional/histórica anterior. No es un levantamiento anual;2027 sólo prolonga su consulta, sin observaciones futuras.",
+      "endIsReviewBoundary": true,
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "reviewedOn": "2026-10-28",
+      "evidenceThrough": 2026,
+      "reviewStatus": "historical-reference-current-extent-unverified",
+      "interpretation": "Referencia histórica/tradicional de Ngwato · referencia regional. El testimonio espacial de la compilación no acredita residencia, límites culturales actuales, reserva, título de propiedad o soberanía. Se conserva para consultar la evidencia histórica; migraciones, desplazamientos y transformaciones locales requieren documentación propia.",
+      "references": [
+        {
+          "title": "Historical Basemaps · instantánea 1900",
+          "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1900.geojson"
+        }
+      ],
+      "pending": [
+        "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+        "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+        "Contrastar cronología local, diásporas, desplazamientos y delimitaciones actuales sin equiparar pueblo, reserva y Estado. No interpretar la ventana2027 como observación futura."
+      ]
     }
   ],
   "geometryFile": "CULTURE-NGWATO-C455269B-Y1900.geojson",
@@ -68,5 +93,17 @@
   ],
   "review": "0.30.0 · 2026-10-27",
   "displayPriority": 1,
-  "temporalMode": "traditional-area-undated"
+  "temporalMode": "traditional-area-undated",
+  "modernConsultationReview": {
+    "reviewedOn": "2026-10-28",
+    "scope": [
+      1906,
+      2027
+    ],
+    "evidenceThrough": 2026,
+    "decision": "Retain documented historical/traditional context, not an asserted present population polygon.",
+    "datedLocalMilestones": [],
+    "currentInstitutionalContinuityContrasted": false,
+    "unresolved": "Current extents, migrations and local legal boundaries require independent dated evidence."
+  }
 }

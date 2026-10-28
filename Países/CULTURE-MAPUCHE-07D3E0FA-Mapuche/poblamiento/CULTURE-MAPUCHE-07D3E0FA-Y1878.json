@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1701,
-    1905
+    2027
   ],
   "interpretation": "Comunidades y linajes mapuches con trayectorias a ambos lados de los Andes. La ocupación militar y la colonización alteraron profundamente el control y la propiedad; no acreditan desaparición del pueblo. El área de referencia no representa un frente continuo ni residencia uniforme después de1883.",
   "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
@@ -39,6 +39,72 @@
       "label": "Mapuche · referencia regional",
       "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
       "endIsReviewBoundary": true
+    },
+    {
+      "start": 1906,
+      "end": 1992,
+      "label": "Mapuche · referencia regional",
+      "dateBasis": "Ventana de consulta de una referencia tradicional/histórica anterior. No es un levantamiento anual;2027 sólo prolonga su consulta, sin observaciones futuras.",
+      "endIsReviewBoundary": false,
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "reviewedOn": "2026-10-28",
+      "evidenceThrough": 2026,
+      "reviewStatus": "current-continuity-spatial-extent-unverified",
+      "interpretation": "Referencia histórica/tradicional de Mapuche · referencia regional. El testimonio espacial de la compilación no acredita residencia, límites culturales actuales, reserva, título de propiedad o soberanía. Ámbito histórico mapuche; ocupación estatal, comunidades y diásporas son realidades distintas. No se presenta una reserva ni un Estado único sobre esta superficie.",
+      "references": [
+        {
+          "title": "Historical Basemaps · instantánea 1878",
+          "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1878.geojson"
+        },
+        {
+          "title": "Biblioteca Nacional de Chile · ocupación y colonización de la Araucanía1851–1883",
+          "url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-18732.html"
+        },
+        {
+          "title": "Biblioteca del Congreso de Chile · Ley19253, texto original1993",
+          "url": "https://www.bcn.cl/leychile/Navegar?idNorma=30620&idParte=8639941&idVersion=1993-10-05"
+        }
+      ],
+      "pending": [
+        "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+        "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+        "Contrastar cronología local, diásporas, desplazamientos y delimitaciones actuales sin equiparar pueblo, reserva y Estado. No interpretar la ventana2027 como observación futura."
+      ]
+    },
+    {
+      "start": 1993,
+      "end": 2027,
+      "label": "Mapuche · referencia regional",
+      "dateBasis": "Ventana de consulta de una referencia tradicional/histórica anterior. No es un levantamiento anual;2027 sólo prolonga su consulta, sin observaciones futuras.",
+      "endIsReviewBoundary": true,
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "reviewedOn": "2026-10-28",
+      "evidenceThrough": 2026,
+      "reviewStatus": "current-continuity-spatial-extent-unverified",
+      "interpretation": "Referencia histórica/tradicional de Mapuche · referencia regional. El testimonio espacial de la compilación no acredita residencia, límites culturales actuales, reserva, título de propiedad o soberanía. Chile publica la Ley19253 el5 de octubre de1993, con reconocimiento de pueblos y creación deCONADI. La ley chilena no se extrapola a Argentina ni convierte todo el ámbito histórico en una jurisdicción uniforme.",
+      "references": [
+        {
+          "title": "Historical Basemaps · instantánea 1878",
+          "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1878.geojson"
+        },
+        {
+          "title": "Biblioteca Nacional de Chile · ocupación y colonización de la Araucanía1851–1883",
+          "url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-18732.html"
+        },
+        {
+          "title": "Biblioteca del Congreso de Chile · Ley19253, texto original1993",
+          "url": "https://www.bcn.cl/leychile/Navegar?idNorma=30620&idParte=8639941&idVersion=1993-10-05"
+        }
+      ],
+      "pending": [
+        "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+        "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+        "Contrastar cronología local, diásporas, desplazamientos y delimitaciones actuales sin equiparar pueblo, reserva y Estado. No interpretar la ventana2027 como observación futura."
+      ]
     }
   ],
   "geometryFile": "CULTURE-MAPUCHE-07D3E0FA-Y1878.geojson",
@@ -84,5 +150,19 @@
   ],
   "review": "0.30.0 · 2026-10-27",
   "displayPriority": 1,
-  "temporalMode": "traditional-area-undated"
+  "temporalMode": "traditional-area-undated",
+  "modernConsultationReview": {
+    "reviewedOn": "2026-10-28",
+    "scope": [
+      1906,
+      2027
+    ],
+    "evidenceThrough": 2026,
+    "decision": "Retain documented historical/traditional context, not an asserted present population polygon.",
+    "datedLocalMilestones": [
+      1993
+    ],
+    "currentInstitutionalContinuityContrasted": true,
+    "unresolved": "Current extents, migrations and local legal boundaries require independent dated evidence."
+  }
 }

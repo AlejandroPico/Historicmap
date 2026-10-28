@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1201,
-    1905
+    2027
   ],
   "interpretation": "Comunidades y linajes mapuches con alianzas cambiantes, resistencia e intercambios con el gobierno colonial. El parlamento de Quilín de 1641 no convierte todas las reguas en un Estado centralizado ni prueba una frontera exacta de esta superficie.",
   "spatialUncertainty": "Polígono original de una compilación a escala mundial; los bordes son aproximados y no equivalen a límites exclusivos. La fuente mezcla escalas, agrupaciones y momentos; falta una delimitación local independiente.",
@@ -54,6 +54,80 @@
       "interpretation": "Referencia histórica del ámbito de Wallmapu (Mapuche). Se conserva el último contorno disponible para no ocultar la documentación. No acredita residencia uniforme, soberanía, continuidad institucional o identidad invariable después de1700; los cambios de población y de poder deben contrastarse localmente.",
       "dateBasis": "Continuidad de consulta de evidencia anterior; NO nuevo levantamiento de1701 ni prueba de límites constantes.",
       "endIsReviewBoundary": true
+    },
+    {
+      "start": 1906,
+      "end": 1992,
+      "label": "Wallmapu (Mapuche)",
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "interpretation": "Referencia histórica/tradicional de Wallmapu (Mapuche). El testimonio espacial de la compilación no acredita residencia, límites culturales actuales, reserva, título de propiedad o soberanía. Referencia histórica deWallmapu, con comunidades y vínculos que no equivalen a una frontera estatal o a residencia uniforme.",
+      "dateBasis": "Ventana de consulta de una referencia tradicional/histórica anterior. No es un levantamiento anual;2027 sólo prolonga su consulta, sin observaciones futuras.",
+      "endIsReviewBoundary": false,
+      "reviewedOn": "2026-10-28",
+      "evidenceThrough": 2026,
+      "reviewStatus": "current-continuity-spatial-extent-unverified",
+      "references": [
+        {
+          "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+          "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+        },
+        {
+          "title": "Native Land Digital · alcance de áreas tradicionales y solapamientos; no atlas anual",
+          "url": "https://native-land.ca/about/how-it-works"
+        },
+        {
+          "title": "Ortiz Aguilera2015 · Quilín1641, linajes y alianzas cambiantes",
+          "url": "https://www.sye.uchile.cl/index.php/CDH/article/view/36651"
+        },
+        {
+          "title": "Biblioteca del Congreso de Chile · Ley19253, texto original1993",
+          "url": "https://www.bcn.cl/leychile/Navegar?idNorma=30620&idParte=8639941&idVersion=1993-10-05"
+        }
+      ],
+      "pending": [
+        "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+        "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional.",
+        "Contrastar cronología local, diásporas, desplazamientos y delimitaciones actuales sin equiparar pueblo, reserva y Estado. No interpretar la ventana2027 como observación futura."
+      ]
+    },
+    {
+      "start": 1993,
+      "end": 2027,
+      "label": "Wallmapu (Mapuche)",
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "interpretation": "Referencia histórica/tradicional de Wallmapu (Mapuche). El testimonio espacial de la compilación no acredita residencia, límites culturales actuales, reserva, título de propiedad o soberanía. La Ley19253 deChile es un hito de reconocimiento institucional de1993; no valida esta delimitación tradicional ni se aplica automáticamente al lado argentino.",
+      "dateBasis": "Ventana de consulta de una referencia tradicional/histórica anterior. No es un levantamiento anual;2027 sólo prolonga su consulta, sin observaciones futuras.",
+      "endIsReviewBoundary": true,
+      "reviewedOn": "2026-10-28",
+      "evidenceThrough": 2026,
+      "reviewStatus": "current-continuity-spatial-extent-unverified",
+      "references": [
+        {
+          "title": "Historical Basemaps · instantánea 1492; fuente espacial de referencia",
+          "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1492.geojson"
+        },
+        {
+          "title": "Native Land Digital · alcance de áreas tradicionales y solapamientos; no atlas anual",
+          "url": "https://native-land.ca/about/how-it-works"
+        },
+        {
+          "title": "Ortiz Aguilera2015 · Quilín1641, linajes y alianzas cambiantes",
+          "url": "https://www.sye.uchile.cl/index.php/CDH/article/view/36651"
+        },
+        {
+          "title": "Biblioteca del Congreso de Chile · Ley19253, texto original1993",
+          "url": "https://www.bcn.cl/leychile/Navegar?idNorma=30620&idParte=8639941&idVersion=1993-10-05"
+        }
+      ],
+      "pending": [
+        "Contrastar la extensión y la denominación con historia regional y fuentes de las propias comunidades.",
+        "Distinguir subdivisiones, desplazamientos, relaciones tributarias y fases de control sin deducirlos del área tradicional.",
+        "Contrastar cronología local, diásporas, desplazamientos y delimitaciones actuales sin equiparar pueblo, reserva y Estado. No interpretar la ventana2027 como observación futura."
+      ]
     }
   ],
   "geometryFile": "CULTURE-WALLMAPU-MAPUCHE-6D636BE3-Y1492.geojson",
@@ -88,5 +162,19 @@
   "review": "0.29.0 · 2026-10-27",
   "temporalMode": "traditional-area-undated",
   "continuityNote": "Referencia tradicional de cronología local pendiente; conservarla como contexto no implica continuidad exacta del mismo contorno durante todo el intervalo.",
-  "displayPriority": 1
+  "displayPriority": 1,
+  "modernConsultationReview": {
+    "reviewedOn": "2026-10-28",
+    "scope": [
+      1906,
+      2027
+    ],
+    "evidenceThrough": 2026,
+    "decision": "Retain documented historical/traditional context, not an asserted present population polygon.",
+    "datedLocalMilestones": [
+      1993
+    ],
+    "currentInstitutionalContinuityContrasted": true,
+    "unresolved": "Current extents, migrations and local legal boundaries require independent dated evidence."
+  }
 }

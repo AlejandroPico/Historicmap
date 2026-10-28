@@ -33,8 +33,9 @@ def main():
     if optional in d:props[optional]=phase.get(optional,d[optional])
    props['name']=phase.get('label',d['name']);features.append(dict(type='Feature',id=f'{key}:{i}',geometry=geometry['geometry'],properties=props))
  output=ROOT/'public/data/cultural-regions.geojson';raw=(json.dumps(dict(type='FeatureCollection',features=features),ensure_ascii=False,separators=(',',':'))+'\n').encode();output.write_bytes(raw)
- version='Historicmap '+read(ROOT/'package.json')['version']+'; review 2026-10-27'
+ version='Historicmap '+read(ROOT/'package.json')['version']+'; review 2026-10-28'
  manifest=read(ROOT/'public/data/manifest.json');entry=dict(file=output.name,format='dated-cultural-regions',source='Entity-owned documentary review; Historical Basemaps source polygons',version=version,url='https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md',license='GPL-3.0 (Historical Basemaps geometry); original editorial metadata',features=len(features),coverageStart=min(f['properties']['start']for f in features),coverageEnd=max(f['properties']['end']for f in features),bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),transform='Original source polygons/components retained as approximate regional references, with explicit temporal consultation windows; separate from political sovereignty. Decisions and sources owned by each entity in Países.')
+ previous_segments=[e for e in manifest['entries']if re.fullmatch(r'cultural-regions-\d+-\d+\.geojson',e['file'])]
  manifest['entries']=[e for e in manifest['entries']if e['file']not in ['cultural-regions.geojson','cultural-index.json']and not re.fullmatch(r'cultural-regions-\d+-\d+\.geojson',e['file'])]+[entry]
  windows=[]
  for a,b in sorted(ranges):
@@ -51,6 +52,13 @@ def main():
   file=f'cultural-regions-{a:04d}-{b:04d}.geojson';segment_raw=(json.dumps(dict(type='FeatureCollection',features=selected),ensure_ascii=False,separators=(',',':'))+'\n').encode();(ROOT/'public/data'/file).write_bytes(segment_raw)
   index['segments'].append(dict(file=file,start=a,end=b,features=len(selected)))
   manifest['entries'].append(dict(entry,file=file,features=len(selected),coverageStart=a,coverageEnd=b,bytes=len(segment_raw),sha256=hashlib.sha256(segment_raw).hexdigest(),transform='Century consultation segment of cultural-regions.geojson; original phase dates and source coordinates retained.'))
+ # Preserve prior published URLs when an endpoint segment is superseded.
+ current_files={s['file']for s in index['segments']}
+ for old in sorted(previous_segments,key=lambda e:e['file']):
+  if old['file']not in current_files:
+   raw=(ROOT/'public/data'/old['file']).read_bytes()
+   if hashlib.sha256(raw).hexdigest()!=old['sha256']:raise ValueError('Archived regional segment changed '+old['file'])
+   manifest['entries'].append(dict(old,archivedReference=True))
  index['excluded']=[{k:r[k]for k in ['key','ownerKey','name','file','decision']}for r in reviews if r['decision']!='adopted-reference']
  ip=ROOT/'public/data/cultural-index.json';ir=(json.dumps(index,ensure_ascii=False,separators=(',',':'))+'\n').encode();ip.write_bytes(ir)
  ie=dict(file=ip.name,format=index['format'],source='Entity-owned regional coverage inventory',version=version,url=entry['url'],license='Original editorial metadata; linked source geometry licensed separately',records=len(index['records']),bytes=len(ir),sha256=hashlib.sha256(ir).hexdigest())

@@ -11,7 +11,7 @@
   "decision": "adopted-reference",
   "reviewedRange": [
     1701,
-    1905
+    2027
   ],
   "interpretation": "Referencia de la expansión comanche de las llanuras en el siglo XVIII. Se incorpora desde la instantánea de1715, sin copiar este contorno a1492 ni1700 y sin afirmar que ya alcanzara entonces toda su extensión posterior.",
   "spatialUncertainty": "Contorno original de una compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni permite identificar la residencia de todos sus habitantes.",
@@ -47,6 +47,43 @@
       "label": "Comanche",
       "dateBasis": "Ventana de consulta del último testimonio cartográfico disponible; no frontera anual ni fecha de nacimiento de la comunidad.",
       "endIsReviewBoundary": true
+    },
+    {
+      "start": 1906,
+      "end": 2027,
+      "label": "Comanche",
+      "dateBasis": "Ventana de consulta de una referencia tradicional/histórica anterior. No es un levantamiento anual;2027 sólo prolonga su consulta, sin observaciones futuras.",
+      "endIsReviewBoundary": true,
+      "kind": "cultural-region",
+      "temporalMode": "historical-area-context",
+      "continuationReference": true,
+      "reviewedOn": "2026-10-28",
+      "evidenceThrough": 2026,
+      "reviewStatus": "historical-reference-current-extent-unverified",
+      "interpretation": "Referencia histórica/tradicional de Comanche. El testimonio espacial de la compilación no acredita residencia, límites culturales actuales, reserva, título de propiedad o soberanía. Se conserva para consultar la evidencia histórica; migraciones, desplazamientos y transformaciones locales requieren documentación propia.",
+      "references": [
+        {
+          "title": "Historical Basemaps · instantánea 1715",
+          "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson"
+        },
+        {
+          "title": "Comanche Nation · migración desde finales del siglo XVII; no territorio de 1500",
+          "url": "https://www.comanchenation.com/about/page/history"
+        },
+        {
+          "title": "Comanche Nation · migraciones desde finales del siglo XVII",
+          "url": "https://www.comanchenation.com/about/page/history"
+        },
+        {
+          "title": "Comanche Nation · migraciones, territorio de las llanuras y continuidad",
+          "url": "https://www.comanchenation.com/about/page/history"
+        }
+      ],
+      "pending": [
+        "Contrastar cronología, cambios de residencia y atribuciones territoriales con fuentes locales.",
+        "Desagregar comunidades y sistemas de autoridad sin inferirlos de un área tradicional.",
+        "Contrastar cronología local, diásporas, desplazamientos y delimitaciones actuales sin equiparar pueblo, reserva y Estado. No interpretar la ventana2027 como observación futura."
+      ]
     }
   ],
   "geometryFile": "CULTURE-COMANCHE-8FC84BD4-Y1715.geojson",
@@ -80,5 +117,17 @@
   ],
   "review": "0.30.0 · 2026-10-27",
   "displayPriority": 1,
-  "temporalMode": "traditional-area-undated"
+  "temporalMode": "traditional-area-undated",
+  "modernConsultationReview": {
+    "reviewedOn": "2026-10-28",
+    "scope": [
+      1906,
+      2027
+    ],
+    "evidenceThrough": 2026,
+    "decision": "Retain documented historical/traditional context, not an asserted present population polygon.",
+    "datedLocalMilestones": [],
+    "currentInstitutionalContinuityContrasted": false,
+    "unresolved": "Current extents, migrations and local legal boundaries require independent dated evidence."
+  }
 }

@@ -1,6 +1,8 @@
-# Pueblos, regiones y coexistencia política · 0.30.0
+# Pueblos, regiones y coexistencia política · 0.31.0
 
 La arquitectura de coexistencia y la revisión inicial 900–1200 se amplían en 0.29 con los puntos 3 y 4, agrupados en **1200–1700**. Se conservan los 127 registros anteriores. [Fuentes, fases y límites de la ampliación](CULTURAL-RESEARCH-1200-1700.md), [inventario conjunto](CULTURAL-REVIEW-900-1700.json) y [disponibilidad 1201–1700](CULTURAL-AVAILABILITY-1201-1700.json). La entrega 0.30 completa la ampliación documental 1700–1905 y la comprobación conjunta 900–1905: [resultados, fuentes y límites](CULTURAL-GLOBAL-REVIEW.md), [inventario vigente](CULTURAL-REVIEW-900-1905.json), [auditoría anual](CULTURAL-GLOBAL-REVIEW-900-1905.json) y [conservación](CULTURAL-VALIDATION-0.30.json). Las descripciones siguientes conservan el contexto de las revisiones previas. Las áreas tradicionales sin cronología local se identifican explícitamente; no son fronteras observadas del año consultado.
+
+La entrega0.31 mantiene la consulta cultural hasta el presente y prepara2027 como horizonte de referencias conocidas, sin observaciones futuras ni adelantar el reloj. [Revisión vigente1900–presente](CULTURAL-MODERN-REVIEW.md), [auditoría anual](CULTURAL-MODERN-ANNUAL-REVIEW.json), [inventario acumulado](CULTURAL-REVIEW-900-2027.json) y [conservación](CULTURAL-VALIDATION-0.31.json). Se mantienen las fases anteriores; las referencias históricas no se convierten en mapas de residencia actual.
 
 ## Base conservada de la primera revisión
 
@@ -14,7 +16,7 @@ Los campos originales NAME, ABBREVN, INFO_UR, SUBJECTO, PARTOF y BORDERPRECISION
 
 Se separan la fecha consultada, la fecha del mapa de referencia, la ventana de consulta y la cronología histórica documentada. Las extensiones de 1000 se presentan como referencias regionales aproximadas dentro de 900–1200, con recortes temporales explícitos donde la historia del nombre lo exige. No se presentan como contornos observados anualmente ni se interpolan fronteras.
 
-La primera revisión terminaba en 1200 y ahora continúa hasta 1905. El horizonte es un límite documental, no una extinción. Fuera de él la ficha se conserva y explica que falta cobertura. La auditoría [CULTURAL-REVIEW-900-1200.json](CULTURAL-REVIEW-900-1200.json) inventaría también los nombres de las instantáneas 500 y 1492: sus geometrías no se trasladan automáticamente a siglos diferentes. [La disponibilidad anual](CULTURAL-AVAILABILITY-900-1200.json) comprueba las 301 selecciones del periodo; sus cifras no son porcentajes de superficie ni censos de población.
+La primera revisión terminaba en 1200 y ahora continúa hasta el presente, con horizonte de consulta2027. El horizonte es un límite documental, no una extinción. Fuera de él la ficha se conserva y explica que falta cobertura. La auditoría [CULTURAL-REVIEW-900-1200.json](CULTURAL-REVIEW-900-1200.json) inventaría también los nombres de las instantáneas 500 y 1492: sus geometrías no se trasladan automáticamente a siglos diferentes. [La disponibilidad anual](CULTURAL-AVAILABILITY-900-1200.json) comprueba las 301 selecciones del periodo; sus cifras no son porcentajes de superficie ni censos de población.
 
 Las coordenadas adoptadas se conservan, sin simplificación editorial. La selección explícita del componente de Hokkaidō impide adelantar la expansión ainu hacia Sajalín y Kuriles. Las geometrías originales y su licencia GPL-3.0 permanecen separadas de Cliopatria y CShapes. Los campos editoriales no convierten ese material en fronteras soberanas determinadas.
 

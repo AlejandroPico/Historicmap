@@ -7,7 +7,7 @@ describe('coexisting cultural regions and political entities',()=>{
  it('keeps cultural coverage across every annual boundary900–1200 without changing political records',async()=>{
   const active=(y:number)=>regionsAt(regions,y,{type:'FeatureCollection',features:[]}).features.filter(f=>f.properties?.kind==='cultural-region');
   for(let y=900;y<=1200;y++){expect(hasRegionalCoverage(y)).toBe(true);const r=active(y);expect(r.length).toBeGreaterThan(40);expect(r.some(f=>f.properties?.contextKey==='CULTURE-SAMI')).toBe(true);expect(r.some(f=>f.properties?.contextKey==='CULTURE-AMAZON')).toBe(true);}
-  expect(hasRegionalCoverage(1906)).toBe(false);expect(active(1906)).toHaveLength(0);
+  expect(hasRegionalCoverage(2028)).toBe(false);expect(active(2028)).toHaveLength(0);
   for(const y of[900,999,1000,1099,1100,1199,1200]){const political=politicalData(await annualData(y),y),before=JSON.stringify(political);regionsAt(regions,y,political);expect(JSON.stringify(political)).toBe(before);}
   if(process.env.WRITE_REGIONAL_AUDIT==='1'){
    const years=[];for(let year=900;year<=1200;year++){const p=politicalData(await annualData(year),year),r=regionsAt(regions,year,p);years.push({year,politicalFeatures:p.features.length,culturalAndGeographicReferences:r.features.filter(f=>f.properties?.kind==='cultural-region').length,additionalPoliticalReferences:r.features.filter(f=>f.properties?.kind==='polity-reference').length});}
@@ -24,7 +24,7 @@ describe('coexisting cultural regions and political entities',()=>{
   const p:FeatureCollection=JSON.parse(JSON.stringify({type:'FeatureCollection',features:[{type:'Feature',id:'kingdom',geometry,properties:{identityKey:'FRA',name:'Reino'}}]}));
   const c:FeatureCollection=JSON.parse(JSON.stringify({type:'FeatureCollection',features:[{type:'Feature',id:'culture',geometry,properties:{contextKey:'CULTURE-TEST',name:'Pueblo',kind:'cultural-region',start:900,end:1200}}]}));
   expect(entitiesAt([5,5],p,c).map(f=>f.id)).toEqual(['kingdom','culture']);const anchor=anchorFor(c.features[0].properties!,1000,ids);expect(anchor.key).toBe('CULTURE-TEST');expect(matchingFeature(anchor,p,1000,ids)).toBeUndefined();expect(matchingFeature(anchor,c,1000,ids)?.id).toBe('culture');
-  const r=regions.features.find((f:any)=>f.properties.contextKey==='CULTURE-SAMI');const html=regionalCard(r.properties,1906,false);expect(html).toContain('no indica desaparición');expect(html).not.toContain('Jefatura');expect(html).toContain('Referencia espacial');
+  const r=regions.features.find((f:any)=>f.properties.contextKey==='CULTURE-SAMI');const html=regionalCard(r.properties,2028,false);expect(html).toContain('no indica desaparición');expect(html).not.toContain('Jefatura');expect(html).toContain('Referencia espacial');
  });
  it('resolves polygon holes, multiple parts and the date line',()=>{
   const polygon:any={type:'Polygon',coordinates:[[[0,0],[10,0],[10,10],[0,10],[0,0]],[[4,4],[6,4],[6,6],[4,6],[4,4]]]};expect(containsLocation(polygon,[2,2])).toBe(true);expect(containsLocation(polygon,[5,5])).toBe(false);expect(containsLocation(polygon,[12,2])).toBe(false);

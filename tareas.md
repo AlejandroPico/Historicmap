@@ -1,6 +1,26 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.30.0 · partes cinco y seis
+## Encargo vigente · 0.31.0 · continuidad cultural 1905–presente
+
+Completar la revisión posterior a1905 hasta el año vigente, preparando2027 como horizonte de consulta de referencias conocidas, sin inventar observaciones futuras ni alterar el máximo del reloj. Mantener pueblos/culturas en toda ampliación posterior, también antes de900. Subir después de comprobar localmente; no esperarActions/Pages.
+
+- [x] Inventariar los contextos activos en1905, distinguir referencias históricas de poblaciones actuales y conservar las fases anteriores.1.769 contextos culturales retenidos;49 referencias políticas no prorrogadas automáticamente.
+- [x] Añadir continuidad documentada, hitos institucionales fechados y fuentes locales; no prolongar automáticamente reinos extintos o confundir cultura, reserva y soberanía.1.782 fases nuevas y nueve contrastes focales, con extensión contemporánea aún pendiente de delimitación.
+- [x] Auditar todas las selecciones1900–2026 y el horizonte2027, prioridad política, selección coincidente y cambios de contexto.128 selecciones con la misma fuente histórica/contemporánea utilizada por la aplicación;2027 sólo consulta referencias conocidas.
+- [x] Revisar mapa/globo/móvil, cargas y protección de fronteras/autoridades previas.242 pruebas/56 archivos correctos; cuatro recorridos de navegador finales correctos, incluidas selección coincidente, persistencia, móvil, reloj2027 y descarga obsoleta. Capturas sámi y burarra revisadas.
+- [x] Registrar alcance, límites, conservación, versión y entrega preparada para origin/main. Confirmar coincidencia remota al cerrar el envío; no esperar publicación. Después queda pendiente la siguiente regresión anterior a900.
+
+Conservación0.31:90 recursos anteriores idénticos,6.815 fases previas exactas y1.769 dossiers con todos sus campos/fases anteriores conservados. Cero originales espaciales modificados y cero polígonos nuevos. Preparación repetida con16 recursos idénticos. Catálogo:3.823 carpetas y1.204 identidades políticas. Tipos y compilación correctos;94 datos,11 franjas y8.108 medios verificados. El archivo publicado1900–1905 conserva URL/huella; no se usa como segmento actual.
+
+Comprobaciones iniciales ajustadas: la prueba nueva consultaba annualData después de2019, fuera de su cobertura, en vez de countries.geojson/perfiles como hace la aplicación; corregida y repetida con cinco comprobaciones correctas, confirmada después por las242 pruebas generales. La espera de fecha de la prueba de descarga obsoleta usaba cinco segundos; se igualó a la espera habitual de carga del mapa y pasó. No se corrigieron geometrías por esos fallos de las pruebas.
+
+Investigación todavía abierta: residencia contemporánea, diásporas, desplazamientos, cambios de denominación y delimitaciones jurídicas/locales. Las1.769 referencias retenidas no certifican que todas las identidades antiguas persistan sin transformación ni que sus habitantes actuales residan dentro de esos contornos. Véanse modernConsultationReview y pendientes por entidad, docs/CULTURAL-MODERN-REVIEW.md e informes asociados. Las carencias anteriores0.30 siguen vigentes.
+
+Git preparado0.31:3.566 archivos nuevos/modificados coinciden con sus bytes locales por huella del objetoGit. Los8.213 recursos de los manifiestos coinciden además porSHA-256;8.209 objetos de recursos anteriores permanecen idénticos. Sin eliminaciones de archivos. La auditoría final registra258 componentes políticos y1.769 referencias culturales en2026;2027 repite referencias conocidas con marca prospectiva, sin observaciones futuras. Preparar estas notas finales y confirmar main con origin/main antes del cierre; no esperarActions/Pages.
+
+Plan futuro: representar expansiones humanas, glaciaciones y cambios ambientales/extinciones con cronologías científicas, capas separadas y evidencia propia. No adoptar la cifra «13 glaciaciones» como un catálogo científico ya validado; distinguir grandes glaciaciones, ciclos glaciales y avances regionales. Esta entrega no implementa todavía esas reconstrucciones.
+
+## Entrega anterior · 0.30.0 · partes cinco y seis
 
 Ampliación regional 1701–1905 y revisión conjunta 900–1905. Conservar las evidencias previas y la prioridad política; recuperar continuidad cultural sin confundir áreas tradicionales con fronteras anuales. Guardar decisiones y originales en las carpetas de Países. Comprobar localmente, subir y terminar sin esperar Actions/Pages.
 
