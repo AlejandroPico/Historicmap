@@ -58,6 +58,9 @@ def main(acquire=False, portrait_only=False):
     places=read(ROOT/'public/data/historical-places.json');places['records']=[r for r in places['records'] if r.get('acquisition') not in tags]
     contexts=read(ROOT/'public/data/historical-context.json');contexts['events']=[r for r in contexts['events'] if r.get('acquisition') not in tags]
     points=read(ROOT/'public/data/conflict-points.geojson');points['features']=[r for r in points['features'] if r.get('properties',{}).get('acquisition') not in tags]
+    # Accumulate the ordered edits in memory. Reading/writing the same large
+    # resolution after every country is costly in synchronized workspaces.
+    resolutions={}
     for path in inputs:
         revision=read(path);key=revision['key'];tag=revision.get('acquisition',TAG)
         entity_root=path.parent.parent if path.parent.name=='periodos' else path.parent
@@ -140,16 +143,19 @@ def main(acquire=False, portrait_only=False):
         for fix in revision.get('entityRules',[]):
             for file in fix['files']:
                 if not re.fullmatch(r'historical-\d{3,4}-entities\.json',file):raise ValueError('Invalid resolution file')
-                dest=ROOT/'public/data'/file;catalogue=read(dest)
+                dest=ROOT/'public/data'/file
+                if file not in resolutions:resolutions[file]=read(dest)
+                catalogue=resolutions[file]
                 rules=catalogue['records']
                 if file not in cleared_files:
                     rules=[r for r in rules if not(r.get('acquisition')==tag and r['key']==key)]
                     cleared_files.add(file)
                 record={**fix['record'],'key':key,'entityCode':key,'acquisition':tag}
                 record['start']=max(record['start'],catalogue['coverageStart']);record['end']=min(record['end'],catalogue['coverageEnd'])
-                catalogue['records']=[record,*rules];save_data(dest,catalogue)
+                catalogue['records']=[record,*rules]
         save(path,revision)
         print(key,len(revision.get('symbols',[])),'symbols;',len(revision.get('leaders',[])),'offices',flush=True)
+    for file,catalogue in resolutions.items():save_data(ROOT/'public/data'/file,catalogue)
     # Historical identity aliases are generated from explicit canonical input.
     for path in inputs:
         revision=read(path)

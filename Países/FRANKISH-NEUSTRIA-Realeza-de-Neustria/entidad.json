@@ -1,0 +1,45 @@
+{
+  "key": "FRANKISH-NEUSTRIA",
+  "name": "Realeza de Neustria",
+  "qid": "Q106577",
+  "aliases": [
+    "Kingdom of Neustria",
+    "Realeza de Neustria"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "FRANKISH-NEUSTRIA"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2700",
+      "start": 724,
+      "end": 731,
+      "name": "Kingdom of Neustria",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-NEUSTRIA-BB653447-Y0700",
+      "ownerKey": "FRANKISH-NEUSTRIA",
+      "name": "Neustria",
+      "file": "Países/FRANKISH-NEUSTRIA-Realeza-de-Neustria/poblamiento/CULTURE-NEUSTRIA-BB653447-Y0700.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

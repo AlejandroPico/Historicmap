@@ -1,0 +1,51 @@
+{
+  "key": "HIST-Q5448100",
+  "name": "Fihrids",
+  "qid": "Q5448100",
+  "aliases": [
+    "Fihrids"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q5448100"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2785",
+      "start": 750,
+      "end": 750,
+      "name": "Fihrids",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2800",
+      "start": 751,
+      "end": 754,
+      "name": "Fihrids",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2813",
+      "start": 755,
+      "end": 756,
+      "name": "Fihrids",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

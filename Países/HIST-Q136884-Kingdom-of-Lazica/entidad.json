@@ -1,0 +1,59 @@
+{
+  "key": "HIST-Q136884",
+  "name": "Kingdom of Lazica",
+  "qid": "Q136884",
+  "aliases": [
+    "Kingdom of Lazica"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q136884"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2607",
+      "start": 700,
+      "end": 723,
+      "name": "Kingdom of Lazica",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2696",
+      "start": 724,
+      "end": 740,
+      "name": "Kingdom of Lazica",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2730",
+      "start": 741,
+      "end": 774,
+      "name": "Kingdom of Lazica",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2899",
+      "start": 775,
+      "end": 777,
+      "name": "Kingdom of Lazica",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

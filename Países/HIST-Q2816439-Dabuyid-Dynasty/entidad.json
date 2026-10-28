@@ -1,0 +1,106 @@
+{
+  "key": "HIST-Q2816439",
+  "name": "Dabuyid Dynasty",
+  "qid": "Q2816439",
+  "aliases": [
+    "Dabuyid Dynasty"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2816439"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q2381085",
+      "name": "Farruján el Grande",
+      "role": "Ispahbad de Tabaristán · poder dabuyí",
+      "start": "0712-01-01",
+      "end": "0728-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Farrukhan_the_Great",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    },
+    {
+      "person": "Q6412829",
+      "name": "Dadhburzmihr",
+      "role": "Ispahbad de Tabaristán",
+      "start": "0728-01-01",
+      "end": "0741-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dadhburzmihr",
+      "note": "Reinado728–740/741 de los campos explícitos; el extremo741 es una alternativa cronológica, no una fecha exacta.",
+      "endIsUpperBound": true,
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    },
+    {
+      "person": "Q3612968",
+      "name": "Khurshid",
+      "role": "Ispahbad de Tabaristán",
+      "start": "0740-01-01",
+      "end": "0760-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khurshid_of_Tabaristan",
+      "note": "Campo de reinado740–760 y tabla de dignidad740–759/760. Se mantiene incertidumbre al final; no inferido de fechas personales.",
+      "endIsUpperBound": true,
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2486",
+      "start": 700,
+      "end": 717,
+      "name": "Dabuyid Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2690",
+      "start": 718,
+      "end": 749,
+      "name": "Dabuyid Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2775",
+      "start": 750,
+      "end": 750,
+      "name": "Dabuyid Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2805",
+      "start": 751,
+      "end": 754,
+      "name": "Dabuyid Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2821",
+      "start": 755,
+      "end": 756,
+      "name": "Dabuyid Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

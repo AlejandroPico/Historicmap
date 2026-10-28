@@ -1,0 +1,52 @@
+{
+  "key": "HIST-Q4492881",
+  "name": "Frisia Kingdom",
+  "qid": "Q4492881",
+  "aliases": [
+    "Frisia",
+    "Frisia Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q4492881"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2621",
+      "start": 700,
+      "end": 709,
+      "name": "Frisia Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2663",
+      "start": 710,
+      "end": 717,
+      "name": "Frisia Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2928",
+      "start": 783,
+      "end": 787,
+      "name": "Frisia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

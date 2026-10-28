@@ -61,7 +61,10 @@ def main(century,review):
       if f['parsed']and (not pattern or re.search(pattern,f.get('office',''),re.I))and not re.search('Retired|Emeritus|Taishang|consort',f.get('office',''),re.I):explicit.append((f['parsed']['start'],f['parsed']['end'],f,f['parsed']['precision']))
      if explicit:
       primary=[v for v in explicit if v[2].get('field')!='succession-template']
-      dates=primary or explicit
+      # A later restoration may appear only in the explicit succession table.
+      # Retain non-overlapping table intervals without duplicating alternative
+      # dates for the same reign already described in the primary infobox.
+      dates=[*primary,*[v for v in explicit if v[2].get('field')=='succession-template'and not any(v[0]<=p[1]and p[0]<=v[1]for p in primary)]]if primary else explicit
     if not dates:pending.append(dict(title=title,person=row['person'],reason='Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo.'));continue
     for a,b,why,precision in dates:add(row,group['role'],a,b,why,d.get('officeNote',''),precision)
   generic=[]

@@ -1,0 +1,69 @@
+{
+  "key": "CULTURE-TEOTIHUACAN-LATE-Y0700",
+  "contextKey": "CULTURE-TEOTIHUACAN-LATE",
+  "ownerKey": "CULTURE-TEOTIHUACAN-LATE",
+  "name": "Teotihuacan · comunidades y transformación regional",
+  "originalNames": [
+    "Teotihuacan"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de700",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    700,
+    799
+  ],
+  "interpretation": "Transformación urbana y regional posterior al apogeo de Teotihuacan. No se acredita un imperio continuo y uniforme en700 ni la despoblación de toda la región tras la crisis de sus centros.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea700 contiene etiquetas de épocas distintas. La ventana700–799 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -99.74581,
+    19.91191
+  ],
+  "phases": [
+    {
+      "start": 700,
+      "end": 799,
+      "label": "Teotihuacan · comunidades y transformación regional",
+      "dateBasis": "Referencia regional de la fuente editorial700; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-TEOTIHUACAN-LATE-Y0700.geojson",
+  "geometrySha256": "119c5fcddf23f8235f9cabc450e0b1c1821099bc95b6e3a409df0c148b1c7df4",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+    "year": 700,
+    "featureIds": [
+      12
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38"
+  },
+  "review": "0.33.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final799 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en800."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Teotihuacan",
+      "ABBREVN": "Teotihuacan",
+      "SUBJECTO": "Teotihuacan",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Teotihuacàn"
+    }
+  ],
+  "sourceGrouping": [
+    "Teotihuacan"
+  ]
+}

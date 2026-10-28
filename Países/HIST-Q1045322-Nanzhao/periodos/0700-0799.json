@@ -1,0 +1,245 @@
+{
+  "key": "HIST-Q1045322",
+  "identity": {
+    "qid": "Q1045322",
+    "name": "Nanzhao"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [],
+  "leaders": [
+    {
+      "person": "LOCAL-NANZHAO-PILUOGE",
+      "name": "Piluoge",
+      "role": "Gobernante de Mengshe · antes de la unión de Nanzhao",
+      "start": "0728-01-01",
+      "end": "0737-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-NANZHAO-PILUOGE",
+      "name": "Piluoge",
+      "role": "Soberano de Nanzhao",
+      "start": "0738-01-01",
+      "end": "0748-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-NANZHAO-GELUOFENG",
+      "name": "Geluofeng",
+      "role": "Soberano de Nanzhao",
+      "start": "0748-01-01",
+      "end": "0779-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-NANZHAO-YIMOUXUN",
+      "name": "Yimouxun",
+      "role": "Soberano de Nanzhao",
+      "start": "0779-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review033-nanzhao",
+      "type": "institution",
+      "title": "Mengshe y unión de Nanzhao",
+      "start": "0728-01-01",
+      "end": "0800-01-01",
+      "text": "Piluoge gobierna Mengshe antes de la unión de los zhao de738. La sucesión deGeluofeng yYimouxun conserva precisión anual y nombres documentales locales, sin identificadores humanos inventados.",
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 738,
+      "end": 799,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "sourceLabel": "Institución histórica documentada",
+      "note": "Clasificación de la dignidad histórica, no evaluación democrática ni control homogéneo de cada territorio. Las referencias cartográficas anteriores a la formación política no adelantan esta categoría."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Nanzhao"
+        ],
+        "start": 700,
+        "end": 737,
+        "label": "Ámbitos de los zhao · referencia anterior a la unión de Nanzhao",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "La referencia de fuente anterior a738 no prueba la unión de los seis zhao ni un gobierno común de toda su superficie."
+      }
+    },
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Nanzhao"
+        ],
+        "start": 738,
+        "end": 799,
+        "label": "Nanzhao",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Unión de los zhao desde738; dinastía y comunidades son conceptos distintos."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "c26bccc7ed6850821c8de7f0df75ba0802aad3ce7be58d74e73db5b6304bca2e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2753,
+        2762,
+        2833
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": []
+  },
+  "documentedAuthorities": [
+    {
+      "person": "LOCAL-NANZHAO-PILUOGE",
+      "name": "Piluoge",
+      "role": "Gobernante de Mengshe · antes de la unión de Nanzhao",
+      "start": "0728-01-01",
+      "end": "0737-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-NANZHAO-PILUOGE",
+      "name": "Piluoge",
+      "role": "Soberano de Nanzhao",
+      "start": "0738-01-01",
+      "end": "0748-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-NANZHAO-GELUOFENG",
+      "name": "Geluofeng",
+      "role": "Soberano de Nanzhao",
+      "start": "0748-01-01",
+      "end": "0779-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-NANZHAO-YIMOUXUN",
+      "name": "Yimouxun",
+      "role": "Soberano de Nanzhao",
+      "start": "0779-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-35",
+      "name": "Dali · centro de Nanzhao",
+      "coordinates": [
+        100.165,
+        25.7
+      ],
+      "start": 738,
+      "end": 799,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review033-nanzhao",
+      "type": "institution",
+      "title": "Mengshe y unión de Nanzhao",
+      "start": "0728-01-01",
+      "end": "0800-01-01",
+      "text": "Piluoge gobierna Mengshe antes de la unión de los zhao de738. La sucesión deGeluofeng yYimouxun conserva precisión anual y nombres documentales locales, sin identificadores humanos inventados.",
+      "source": "https://en.wikipedia.org/wiki/Nanzhao",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ]
+}

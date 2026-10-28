@@ -1,0 +1,51 @@
+{
+  "key": "HIST-Q676184",
+  "name": "Kingdom of Sussex",
+  "qid": "Q676184",
+  "aliases": [
+    "Kingdom of Sussex"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q676184"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2678",
+      "start": 718,
+      "end": 762,
+      "name": "Kingdom of Sussex",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2846",
+      "start": 763,
+      "end": 767,
+      "name": "Kingdom of Sussex",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2869",
+      "start": 768,
+      "end": 771,
+      "name": "Kingdom of Sussex",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

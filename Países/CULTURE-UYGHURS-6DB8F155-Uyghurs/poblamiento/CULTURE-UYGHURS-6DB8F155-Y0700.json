@@ -1,0 +1,73 @@
+{
+  "key": "CULTURE-UYGHURS-6DB8F155-Y0700",
+  "contextKey": "CULTURE-UYGHURS-6DB8F155",
+  "ownerKey": "CULTURE-UYGHURS-6DB8F155",
+  "name": "Uyghurs",
+  "originalNames": [
+    "Uyghurs"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de800",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    700,
+    799
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. La superficie no acredita unEstado unitario, una frontera exclusiva ni ocupación uniforme.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea700 contiene etiquetas de épocas distintas. La ventana700–799 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    87.72269,
+    38.56569
+  ],
+  "phases": [
+    {
+      "start": 700,
+      "end": 799,
+      "label": "Uyghurs",
+      "dateBasis": "Referencia regional de la fuente editorial700; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-UYGHURS-6DB8F155-Y0700.geojson",
+  "geometrySha256": "29032922a5ec0100a7299308db2e57028de236193eecd02072a7b11c14d28987",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+    "year": 700,
+    "featureIds": [
+      133
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38"
+  },
+  "review": "0.33.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final799 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en800."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Uyghurs",
+      "ABBREVN": "Uyghurs",
+      "SUBJECTO": "Uyghurs",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Uyghurs"
+    }
+  ],
+  "sourceGrouping": [
+    "Uyghurs"
+  ]
+}

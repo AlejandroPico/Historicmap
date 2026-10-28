@@ -1,0 +1,397 @@
+{
+  "key": "HIST-Q837998",
+  "identity": {
+    "qid": "Q837998",
+    "name": "Kingdom of East Anglia"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Anglia Oriental",
+      "officePattern": "King.*East Anglia|King.*East Angles",
+      "titles": [
+        "Aldwulf of East Anglia",
+        "Ælfwald of East Anglia",
+        "Beonna of East Anglia",
+        "Æthelred I of East Anglia",
+        "Æthelberht II of East Anglia",
+        "Eadwald of East Anglia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q888956",
+      "name": "Ealdwulf of East Anglia",
+      "role": "Rey de Anglia Oriental",
+      "start": "0700-01-01",
+      "end": "0713-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ealdwulf_of_East_Anglia",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q889645",
+      "name": "Ælfwald of East Anglia",
+      "role": "Rey de Anglia Oriental",
+      "start": "0713-01-01",
+      "end": "0749-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%C3%86lfwald_of_East_Anglia",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of East Anglia"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Kingdom of East Anglia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "f60218fa21deb40a858686756b3668a8a2d3b3fc52d41832bfebfa37ffa87b9e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2556
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aldwulf of East Anglia",
+        "title": "Aldwulf of East Anglia",
+        "person": "Q888956",
+        "name": "Ealdwulf of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ealdwulf_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Aldwulf of East Anglia",
+          "canonical": "Ealdwulf of East Anglia",
+          "qid": "Q888956"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21400700",
+          "start": "0665-01-01",
+          "end": "0713-01-01",
+          "precision": 9,
+          "statement": "Q888956$89407bdd-4ccb-6923-f75c-8e7431e53597",
+          "label": "Rey de Anglia Oriental"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q888956",
+        "title": "Ealdwulf of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Ealdwulf_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "{{circa}} 664{{spaced ndash}}713",
+            "parsed": {
+              "start": "0664-01-01",
+              "end": "0713-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Beonna of East Anglia",
+        "title": "Beonna of East Anglia",
+        "person": "Q519805",
+        "name": "Beonna of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Beonna_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Beonna of East Anglia",
+          "canonical": "Beonna of East Anglia",
+          "qid": "Q519805"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21400700",
+          "start": "0749-01-01",
+          "end": "0760-01-01",
+          "precision": 9,
+          "statement": "Q519805$92cfd31c-4866-3e0e-a2ff-d4a4634f8072",
+          "label": "Rey de Anglia Oriental"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q519805",
+        "title": "Beonna of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Beonna_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "749 – around 760 jointly with [[Alberht of East Anglia|Alberht]] and possibly Hun",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Eadwald of East Anglia",
+        "title": "Eadwald of East Anglia",
+        "person": "Q525343",
+        "name": "Eadwald of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Eadwald_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Eadwald of East Anglia",
+          "canonical": "Eadwald of East Anglia",
+          "qid": "Q525343"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q525343",
+        "title": "Eadwald of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Eadwald_of_East_Anglia",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ælfwald of East Anglia",
+        "title": "Ælfwald of East Anglia",
+        "person": "Q889645",
+        "name": "Ælfwald of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86lfwald_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Ælfwald of East Anglia",
+          "canonical": "Ælfwald of East Anglia",
+          "qid": "Q889645"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21400700",
+          "start": "0713-01-01",
+          "end": "0749-01-01",
+          "precision": 9,
+          "statement": "Q889645$ad99792e-4d58-84ea-534a-2a5db8e0bbe7",
+          "label": "Rey de Anglia Oriental"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q889645",
+        "title": "Ælfwald of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/%C3%86lfwald_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "713–749",
+            "parsed": {
+              "start": "0713-01-01",
+              "end": "0749-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Æthelberht II of East Anglia",
+        "title": "Æthelberht II of East Anglia",
+        "person": "Q272180",
+        "name": "Ethelberto II de Estanglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelberht_II_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Æthelberht II of East Anglia",
+          "canonical": "Æthelberht II of East Anglia",
+          "qid": "Q272180"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q272180",
+        "title": "Æthelberht II of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelberht_II_of_East_Anglia",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Æthelred I of East Anglia",
+        "title": "Æthelred I of East Anglia",
+        "person": "Q272218",
+        "name": "Æthelred I of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelred_I_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Æthelred I of East Anglia",
+          "canonical": "Æthelred I of East Anglia",
+          "qid": "Q272218"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21400700",
+          "start": "0760-01-01",
+          "end": "0770-01-01",
+          "precision": 9,
+          "statement": "Q272218$95a7fe1c-4013-bbd3-66fe-e8d005b531d3",
+          "label": "Rey de Anglia Oriental"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q272218",
+        "title": "Æthelred I of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelred_I_of_East_Anglia",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q888956",
+        "title": "Aldwulf of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Ealdwulf_of_East_Anglia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the East Angles",
+          "raw": "{{circa}} 664{{spaced ndash}}713",
+          "parsed": {
+            "start": "0664-01-01",
+            "end": "0713-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q889645",
+        "title": "Ælfwald of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/%C3%86lfwald_of_East_Anglia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the East Angles",
+          "raw": "713–749",
+          "parsed": {
+            "start": "0713-01-01",
+            "end": "0749-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Beonna of East Anglia",
+        "person": "Q519805",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Æthelred I of East Anglia",
+        "person": "Q272218",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Æthelberht II of East Anglia",
+        "person": "Q272180",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Eadwald of East Anglia",
+        "person": "Q525343",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q889645",
+      "title": "East Anglian tally (Textus Roffensis).png",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:East_Anglian_tally_(Textus_Roffensis).png"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q889645",
+      "name": "Ælfwald of East Anglia",
+      "title": "East Anglian tally (Textus Roffensis).png",
+      "source": "https://commons.wikimedia.org/wiki/File:East_Anglian_tally_(Textus_Roffensis).png",
+      "sha256": "c3edc0d88cee3720112c085bcf7f90128a2f4d4aef76bc6a9ac8e78e499c074d",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ]
+}

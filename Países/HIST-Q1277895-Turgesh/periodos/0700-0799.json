@@ -1,0 +1,300 @@
+{
+  "key": "HIST-Q1277895",
+  "identity": {
+    "qid": "Q1277895",
+    "name": "Türgesh"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Kan türgesh",
+      "officePattern": "Khagan|Khan|Qaghan",
+      "titles": [
+        "Wuzhile",
+        "Saqal Qaghan",
+        "Suluk (Türgesh khagan)",
+        "Kut Chor"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q4479671",
+      "name": "Wuzhile",
+      "role": "Kan türgesh",
+      "start": "0700-01-01",
+      "end": "0706-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%C3%9C%C3%A7_Elig_Khagan",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q509326",
+      "name": "Suluk",
+      "role": "Kan türgesh",
+      "start": "0716-01-01",
+      "end": "0738-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Suluk_%28T%C3%BCrgesh_khagan%29",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q4465043",
+      "name": "Kut Chor",
+      "role": "Kan türgesh",
+      "start": "0738-01-01",
+      "end": "0739-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kut_Chor",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 766,
+      "tags": [
+        "monarchy",
+        "khanate"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Türgesh",
+      "sourceLabel": "Institución histórica documentada",
+      "note": "Clasificación de la dignidad histórica, no evaluación democrática ni control homogéneo de cada territorio. Las referencias cartográficas anteriores a la formación política no adelantan esta categoría."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Türgesh"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Türgesh",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "1a69e75035fe9964e2cd112d4c8be02e02834dc2720f5210e801cb2a9a00c1ac",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2615,
+        2639,
+        2701,
+        2737
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Kut Chor",
+        "title": "Kut Chor",
+        "person": "Q4465043",
+        "name": "Kut Chor",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kut_Chor",
+        "identityResolution": {
+          "requested": "Kut Chor",
+          "canonical": "Kut Chor",
+          "qid": "Q4465043"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4465043",
+        "title": "Kut Chor",
+        "source": "https://en.wikipedia.org/wiki/Kut_Chor",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Türgesh Qaghan",
+            "raw": "738–739",
+            "parsed": {
+              "start": "0738-01-01",
+              "end": "0739-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Saqal Qaghan",
+        "title": "Saqal Qaghan",
+        "person": "",
+        "name": "Saqal Qaghan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Saqal_Qaghan",
+        "identityResolution": {
+          "requested": "Saqal Qaghan",
+          "canonical": "Saqal Qaghan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Suluk (Türgesh khagan)",
+        "title": "Suluk (Türgesh khagan)",
+        "person": "Q509326",
+        "name": "Suluk",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Suluk_%28T%C3%BCrgesh_khagan%29",
+        "identityResolution": {
+          "requested": "Suluk (Türgesh khagan)",
+          "canonical": "Suluk (Türgesh khagan)",
+          "qid": "Q509326"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q509326",
+        "title": "Suluk (Türgesh khagan)",
+        "source": "https://en.wikipedia.org/wiki/Suluk_%28T%C3%BCrgesh_khagan%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Türgesh Qaghan",
+            "raw": "716 – 738",
+            "parsed": {
+              "start": "0716-01-01",
+              "end": "0738-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wuzhile",
+        "title": "Wuzhile",
+        "person": "Q4479671",
+        "name": "Wuzhile",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%9C%C3%A7_Elig_Khagan",
+        "identityResolution": {
+          "requested": "Wuzhile",
+          "canonical": "Üç Elig Khagan",
+          "qid": "Q4479671"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4479671",
+        "title": "Üç Elig Khagan",
+        "source": "https://en.wikipedia.org/wiki/%C3%9C%C3%A7_Elig_Khagan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Turgesh Qaghan",
+            "raw": "699–706",
+            "parsed": {
+              "start": "0699-01-01",
+              "end": "0706-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q4479671",
+        "title": "Wuzhile",
+        "source": "https://en.wikipedia.org/wiki/%C3%9C%C3%A7_Elig_Khagan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Turgesh Qaghan",
+          "raw": "699–706",
+          "parsed": {
+            "start": "0699-01-01",
+            "end": "0706-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q509326",
+        "title": "Suluk (Türgesh khagan)",
+        "source": "https://en.wikipedia.org/wiki/Suluk_%28T%C3%BCrgesh_khagan%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Türgesh Qaghan",
+          "raw": "716 – 738",
+          "parsed": {
+            "start": "0716-01-01",
+            "end": "0738-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q4465043",
+        "title": "Kut Chor",
+        "source": "https://en.wikipedia.org/wiki/Kut_Chor",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Türgesh Qaghan",
+          "raw": "738–739",
+          "parsed": {
+            "start": "0738-01-01",
+            "end": "0739-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Saqal Qaghan",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-POST-SASANIAN",
+  "name": "Ámbitos iranios posteriores a los sasánidas",
+  "qid": "",
+  "aliases": [
+    "Sasanian Empire",
+    "Ámbitos iranios posteriores a los sasánidas"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 31,
+      "start": null,
+      "end": null,
+      "name": "Sasanian Empire",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-POST-SASANIAN-Y0700:0",
+      "contextKey": "REFERENCE-POST-SASANIAN",
+      "start": 700,
+      "end": 799,
+      "sourceYear": 700,
+      "canonicalFile": "Países/REFERENCE-POST-SASANIAN-Ambitos-iranios-posteriores-a-los-sasanidas/poblamiento/REFERENCE-POST-SASANIAN-Y0700.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

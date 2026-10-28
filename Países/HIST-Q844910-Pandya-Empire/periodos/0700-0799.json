@@ -1,0 +1,248 @@
+{
+  "key": "HIST-Q844910",
+  "identity": {
+    "qid": "Q844910",
+    "name": "Pandya Dynasty"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey pandya",
+      "officePattern": "King.*Pandya|Pandya.*king|Pandya King",
+      "titles": [
+        "Kochchadaiyan Ranadhira",
+        "Maravarman Rajasimha I",
+        "Varaguna Pandyan I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q12988342",
+      "name": "Kochchadaiyan Ranadhira",
+      "role": "Gobernante pandya · cronología de referencia",
+      "start": "0700-01-01",
+      "end": "0710-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kochchadaiyan_Ranadhira",
+      "note": "La cronología de referencia citada por Tamil Virtual Academy sitúa su reinado aproximadamente670–710; existen reconstrucciones diferentes. No se impone otra cronología ni se toman sus fechas personales.",
+      "endIsUpperBound": true
+    },
+    {
+      "person": "Q6755093",
+      "name": "Maravarman Rajasimha I",
+      "role": "Gobernante pandya · cronología de referencia",
+      "start": "0710-01-01",
+      "end": "0765-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Maravarman_Rajasimha_I",
+      "note": "Campo de reinado aproximado710–765, con epítetoPallava-bhan-jana: no significa que sea rey pallava. La fuente cita Tamil Virtual Academy y existen cronologías alternativas.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Pandya Dynasty"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Pandya Dynasty",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "06e21dd8c202075364633b933f65692610a896dd9e3cfdfc273801e6b3d35615",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2203
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Kochchadaiyan Ranadhira",
+        "title": "Kochchadaiyan Ranadhira",
+        "person": "Q12988342",
+        "name": "Kochadaiyan Ranadhiran",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kochchadaiyan_Ranadhira",
+        "identityResolution": {
+          "requested": "Kochchadaiyan Ranadhira",
+          "canonical": "Kochchadaiyan Ranadhira",
+          "qid": "Q12988342"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12988342",
+        "title": "Kochchadaiyan Ranadhira",
+        "source": "https://en.wikipedia.org/wiki/Kochchadaiyan_Ranadhira",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Tenna - Vanavan , Sembiyan , Cholan, Madura - Karunatakan , Kongar koman (Lord of Kongu country ) , King of Kings",
+            "raw": "''r. c.'' 670 – 710AD<ref name=\"tamilvu\">{{cite web |url=http://www.tamilvu.org/courses/degree/a031/a0312/html/a0312442.htm |title=4.2.4 கோச்சடையன் ரணதீரனும், அவரது மகனும் (கி.பி. 670–765) |publisher=தமிழ் இணையப் பல்கலைக்கழகம் |access-date=July 16, 2025 |language=ta}}</ref>",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Maravarman Rajasimha I",
+        "title": "Maravarman Rajasimha I",
+        "person": "Q6755093",
+        "name": "Maravarman Rajasimha I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Maravarman_Rajasimha_I",
+        "identityResolution": {
+          "requested": "Maravarman Rajasimha I",
+          "canonical": "Maravarman Rajasimha I",
+          "qid": "Q6755093"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6755093",
+        "title": "Maravarman Rajasimha I",
+        "source": "https://en.wikipedia.org/wiki/Maravarman_Rajasimha_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava - bhan- jana ( Destroyer of the Pallavas)",
+            "raw": "''c.'' 710 - 765 AD<ref name=\"tamilvu\">{{cite web |url=http://www.tamilvu.org/courses/degree/a031/a0312/html/a0312442.htm |title=4.2.4 கோச்சடையன் ரணதீரனும், அவரது மகனும் (கி.பி. 670–765) |publisher=தமிழ் இணையப் பல்கலைக்கழகம் |access-date=July 16, 2025 |language=ta}}</ref>",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Varaguna Pandyan I",
+        "title": "Varaguna Pandyan I",
+        "person": "",
+        "name": "Varaguna Pandyan I",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Varaguna_Pandyan_I",
+        "identityResolution": {
+          "requested": "Varaguna Pandyan I",
+          "canonical": "Varaguna Pandyan I",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Kochchadaiyan Ranadhira",
+        "person": "Q12988342",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Maravarman Rajasimha I",
+        "person": "Q6755093",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Varaguna Pandyan I",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q12988342",
+      "name": "Kochchadaiyan Ranadhira",
+      "role": "Gobernante pandya · cronología de referencia",
+      "start": "0700-01-01",
+      "end": "0710-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kochchadaiyan_Ranadhira",
+      "note": "La cronología de referencia citada por Tamil Virtual Academy sitúa su reinado aproximadamente670–710; existen reconstrucciones diferentes. No se impone otra cronología ni se toman sus fechas personales.",
+      "endIsUpperBound": true
+    },
+    {
+      "person": "Q6755093",
+      "name": "Maravarman Rajasimha I",
+      "role": "Gobernante pandya · cronología de referencia",
+      "start": "0710-01-01",
+      "end": "0765-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Maravarman_Rajasimha_I",
+      "note": "Campo de reinado aproximado710–765, con epítetoPallava-bhan-jana: no significa que sea rey pallava. La fuente cita Tamil Virtual Academy y existen cronologías alternativas.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-39",
+      "name": "Madurai · centro pandya",
+      "coordinates": [
+        78.119,
+        9.925
+      ],
+      "start": 700,
+      "end": 799,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Pandya_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-SWEDES-D5E19A11",
+  "name": "Swedes",
+  "qid": "",
+  "aliases": [
+    "Swedes"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 188,
+      "start": null,
+      "end": null,
+      "name": "Swedes",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-SWEDES-D5E19A11-Y0700:0",
+      "contextKey": "CULTURE-SWEDES-D5E19A11",
+      "start": 700,
+      "end": 799,
+      "sourceYear": 700,
+      "canonicalFile": "Países/CULTURE-SWEDES-D5E19A11-Swedes/poblamiento/CULTURE-SWEDES-D5E19A11-Y0700.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

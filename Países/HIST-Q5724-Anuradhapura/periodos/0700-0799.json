@@ -1,0 +1,711 @@
+{
+  "key": "HIST-Q5724",
+  "identity": {
+    "qid": "Q5724",
+    "name": "Anurādhapura"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Anuradhapura",
+      "officePattern": "King.*Anuradhapura",
+      "titles": [
+        "Manavanna of Anuradhapura",
+        "Aggabodhi V of Anuradhapura",
+        "Kassapa III of Anuradhapura",
+        "Mahinda I of Anuradhapura",
+        "Aggabodhi VI of Anuradhapura",
+        "Aggabodhi VII of Anuradhapura",
+        "Mahinda II of Anuradhapura",
+        "Dappula II of Anuradhapura"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q16932203",
+      "name": "Manavamma",
+      "role": "Rey de Anuradhapura",
+      "start": "0700-01-01",
+      "end": "0718-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Manavanna_of_Anuradhapura",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q16058211",
+      "name": "Aggabodhi V",
+      "role": "Rey de Anuradhapura",
+      "start": "0726-01-01",
+      "end": "0732-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aggabodhi_V",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q16851775",
+      "name": "Kassapa III",
+      "role": "Rey de Anuradhapura",
+      "start": "0732-01-01",
+      "end": "0738-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kassapa_III",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q16931970",
+      "name": "Mahinda I",
+      "role": "Rey de Anuradhapura",
+      "start": "0738-01-01",
+      "end": "0741-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mahinda_I",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q16058212",
+      "name": "Aggabodhi VI",
+      "role": "Rey de Anuradhapura",
+      "start": "0741-01-01",
+      "end": "0781-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aggabodhi_VI",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q16058213",
+      "name": "Aggabodhi VII",
+      "role": "Rey de Anuradhapura",
+      "start": "0781-01-01",
+      "end": "0787-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aggabodhi_VII",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q16931976",
+      "name": "Mahinda II of Anuradhapura",
+      "role": "Rey de Anuradhapura",
+      "start": "0787-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mahinda_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Anuradhapura_Kingdom",
+      "sourceLabel": "Institución histórica documentada",
+      "note": "Clasificación de la dignidad histórica, no evaluación democrática ni control homogéneo de cada territorio. Las referencias cartográficas anteriores a la formación política no adelantan esta categoría."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Anurādhapura"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Anurādhapura",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "eb6e5223d86be09a027b565772080772638cd1b2d1b297bb169ee59c5669608d",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2262
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aggabodhi V of Anuradhapura",
+        "title": "Aggabodhi V of Anuradhapura",
+        "person": "Q16058211",
+        "name": "Aggabodhi V",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_V",
+        "identityResolution": {
+          "requested": "Aggabodhi V of Anuradhapura",
+          "canonical": "Aggabodhi V",
+          "qid": "Q16058211"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0726-01-01",
+          "end": "0732-01-01",
+          "precision": 9,
+          "statement": "Q16058211$af505553-4839-3f73-4482-399039c15377",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16058211",
+        "title": "Aggabodhi V",
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_V",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "726 – 732",
+            "parsed": {
+              "start": "0726-01-01",
+              "end": "0732-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "726&ndash;732",
+            "parsed": {
+              "start": "0726-01-01",
+              "end": "0732-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Aggabodhi VI of Anuradhapura",
+        "title": "Aggabodhi VI of Anuradhapura",
+        "person": "Q16058212",
+        "name": "Aggabodhi VI",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_VI",
+        "identityResolution": {
+          "requested": "Aggabodhi VI of Anuradhapura",
+          "canonical": "Aggabodhi VI",
+          "qid": "Q16058212"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0741-01-01",
+          "end": "0781-01-01",
+          "precision": 9,
+          "statement": "Q16058212$7f892c1e-4d49-92be-778d-788a4a56cc0d",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16058212",
+        "title": "Aggabodhi VI",
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_VI",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "741 – 781",
+            "parsed": {
+              "start": "0741-01-01",
+              "end": "0781-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "741&ndash;781",
+            "parsed": {
+              "start": "0741-01-01",
+              "end": "0781-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Aggabodhi VII of Anuradhapura",
+        "title": "Aggabodhi VII of Anuradhapura",
+        "person": "Q16058213",
+        "name": "Aggabodhi VII",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_VII",
+        "identityResolution": {
+          "requested": "Aggabodhi VII of Anuradhapura",
+          "canonical": "Aggabodhi VII",
+          "qid": "Q16058213"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0781-01-01",
+          "end": "0787-01-01",
+          "precision": 9,
+          "statement": "Q16058213$3cfda05c-4393-c285-cf9b-7caca27a1400",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16058213",
+        "title": "Aggabodhi VII",
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_VII",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "781 – 787",
+            "parsed": {
+              "start": "0781-01-01",
+              "end": "0787-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "781&ndash;787",
+            "parsed": {
+              "start": "0781-01-01",
+              "end": "0787-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dappula II of Anuradhapura",
+        "title": "Dappula II of Anuradhapura",
+        "person": "Q16828885",
+        "name": "Dappula II of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dappula_II",
+        "identityResolution": {
+          "requested": "Dappula II of Anuradhapura",
+          "canonical": "Dappula II",
+          "qid": "Q16828885"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16828885",
+        "title": "Dappula II",
+        "source": "https://en.wikipedia.org/wiki/Dappula_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "807 – 812",
+            "parsed": {
+              "start": "0807-01-01",
+              "end": "0812-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "807&ndash;812",
+            "parsed": {
+              "start": "0807-01-01",
+              "end": "0812-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kassapa III of Anuradhapura",
+        "title": "Kassapa III of Anuradhapura",
+        "person": "Q16851775",
+        "name": "Kassapa III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kassapa_III",
+        "identityResolution": {
+          "requested": "Kassapa III of Anuradhapura",
+          "canonical": "Kassapa III",
+          "qid": "Q16851775"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0732-01-01",
+          "end": "0738-01-01",
+          "precision": 9,
+          "statement": "Q16851775$518bad82-4de9-6c1b-d916-4867fd36db9b",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16851775",
+        "title": "Kassapa III",
+        "source": "https://en.wikipedia.org/wiki/Kassapa_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "732 – 738",
+            "parsed": {
+              "start": "0732-01-01",
+              "end": "0738-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "732&ndash;738",
+            "parsed": {
+              "start": "0732-01-01",
+              "end": "0738-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mahinda I of Anuradhapura",
+        "title": "Mahinda I of Anuradhapura",
+        "person": "Q16931970",
+        "name": "Mahinda I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mahinda_I",
+        "identityResolution": {
+          "requested": "Mahinda I of Anuradhapura",
+          "canonical": "Mahinda I",
+          "qid": "Q16931970"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0738-01-01",
+          "end": "0741-01-01",
+          "precision": 9,
+          "statement": "Q16931970$80924b8b-4944-3250-f288-6242baf0d736",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16931970",
+        "title": "Mahinda I",
+        "source": "https://en.wikipedia.org/wiki/Mahinda_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "738 – 741",
+            "parsed": {
+              "start": "0738-01-01",
+              "end": "0741-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "738&ndash;741",
+            "parsed": {
+              "start": "0738-01-01",
+              "end": "0741-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mahinda II of Anuradhapura",
+        "title": "Mahinda II of Anuradhapura",
+        "person": "Q16931976",
+        "name": "Mahinda II of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mahinda_II",
+        "identityResolution": {
+          "requested": "Mahinda II of Anuradhapura",
+          "canonical": "Mahinda II",
+          "qid": "Q16931976"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0787-01-01",
+          "end": "0807-01-01",
+          "precision": 9,
+          "statement": "Q16931976$335EBAFF-A707-4A2E-AC51-D020C9AE0163",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16931976",
+        "title": "Mahinda II",
+        "source": "https://en.wikipedia.org/wiki/Mahinda_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "787 – 807",
+            "parsed": {
+              "start": "0787-01-01",
+              "end": "0807-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "787&ndash;807",
+            "parsed": {
+              "start": "0787-01-01",
+              "end": "0807-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Manavanna of Anuradhapura",
+        "title": "Manavanna of Anuradhapura",
+        "person": "Q16932203",
+        "name": "Manavamma",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Manavanna_of_Anuradhapura",
+        "identityResolution": {
+          "requested": "Manavanna of Anuradhapura",
+          "canonical": "Manavanna of Anuradhapura",
+          "qid": "Q16932203"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0691-01-01",
+          "end": "0726-01-01",
+          "precision": 9,
+          "statement": "Q16932203$21EA73F3-CB45-4D60-8B7E-0AC07822A98D",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16932203",
+        "title": "Manavanna of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Manavanna_of_Anuradhapura",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "684 A.D. - 718 A.D.",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "684&ndash;718",
+            "parsed": {
+              "start": "0684-01-01",
+              "end": "0718-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 7,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q16932203",
+        "title": "Manavanna of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Manavanna_of_Anuradhapura",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Anuradhapura",
+          "raw": "684&ndash;718",
+          "parsed": {
+            "start": "0684-01-01",
+            "end": "0718-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q16058211",
+        "title": "Aggabodhi V of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_V",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "726 – 732",
+          "parsed": {
+            "start": "0726-01-01",
+            "end": "0732-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q16851775",
+        "title": "Kassapa III of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Kassapa_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "732 – 738",
+          "parsed": {
+            "start": "0732-01-01",
+            "end": "0738-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q16931970",
+        "title": "Mahinda I of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Mahinda_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "738 – 741",
+          "parsed": {
+            "start": "0738-01-01",
+            "end": "0741-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q16058212",
+        "title": "Aggabodhi VI of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_VI",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "741 – 781",
+          "parsed": {
+            "start": "0741-01-01",
+            "end": "0781-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q16058213",
+        "title": "Aggabodhi VII of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Aggabodhi_VII",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "781 – 787",
+          "parsed": {
+            "start": "0781-01-01",
+            "end": "0787-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q16931976",
+        "title": "Mahinda II of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Mahinda_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "787 – 807",
+          "parsed": {
+            "start": "0787-01-01",
+            "end": "0807-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-40",
+      "name": "Anuradhapura",
+      "coordinates": [
+        80.403,
+        8.311
+      ],
+      "start": 700,
+      "end": 799,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Anuradhapura_Kingdom",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ]
+}

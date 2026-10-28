@@ -1,0 +1,81 @@
+{
+  "key": "CULTURE-AMAZON-Y0700",
+  "contextKey": "CULTURE-AMAZON",
+  "ownerKey": "CULTURE-AMAZON",
+  "name": "Pueblos y sociedades amazónicas",
+  "originalNames": [
+    "Amazon hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Sudamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    700,
+    799
+  ],
+  "interpretation": "Amazonia albergó sociedades y economías diversas, incluidas redes agrarias y asentamientos monumentales Casarabe documentados 500–1400. No se equipara toda la cuenca con una sola cultura, ni exclusivamente con caza y recolección.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea700 contiene etiquetas de épocas distintas. La ventana700–799 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Prümers et al.2022 · urbanismo agrario Casarabe 500–1400",
+      "url": "https://www.nature.com/articles/s41586-022-04780-4"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#9b9a76",
+  "focus": [
+    -54.02305,
+    -5.27083
+  ],
+  "phases": [
+    {
+      "start": 700,
+      "end": 799,
+      "label": "Pueblos y sociedades amazónicas",
+      "dateBasis": "Referencia regional de la fuente editorial700; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-AMAZON-Y0700.geojson",
+  "geometrySha256": "ab83e7b070cfaff61468f9135bec957ee474deb87a79200c6f854d2b7d72e39c",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+    "year": 700,
+    "featureIds": [
+      103
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38"
+  },
+  "review": "0.33.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final799 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en800."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Amazon hunter-gatherers",
+      "ABBREVN": "Amazon hunter-gatherers",
+      "SUBJECTO": "Amazon hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Amazon hunter-gatherers"
+    }
+  ],
+  "sourceGrouping": [
+    "Amazon hunter-gatherers"
+  ]
+}

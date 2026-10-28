@@ -1,0 +1,611 @@
+{
+  "key": "WESSEX",
+  "identity": {
+    "qid": "Q105313",
+    "name": "Reino de Wessex"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Wessex",
+      "officePattern": "King.*Wessex|King.*West Sax",
+      "titles": [
+        "Ine of Wessex",
+        "Æthelheard of Wessex",
+        "Cuthred of Wessex",
+        "Sigeberht of Wessex",
+        "Cynewulf of Wessex",
+        "Beorhtric of Wessex"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q451580",
+      "name": "Ine de Wessex",
+      "role": "Rey de Wessex",
+      "start": "0700-01-01",
+      "end": "0726-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ine_of_Wessex",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-74f26bed74408f0d554d.jpg",
+        "title": "King Ine in the Transfiguration Window of Wells Cathedral (crop).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:King_Ine_in_the_Transfiguration_Window_of_Wells_Cathedral_(crop).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/King_Ine_in_the_Transfiguration_Window_of_Wells_Cathedral_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Greenshed",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "0520096fde0271b4b8898c522e0da125a5868ded4a1c178b599473427b199786",
+        "bytes": 242851,
+        "canonicalFile": "Países/WESSEX-Reino-de-Wessex/retratos/portrait-74f26bed74408f0d554d.jpg",
+        "caption": "Representación posterior de Ine de Wessex en una vidriera de Wells; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q272197",
+      "name": "Aethelheard de Wessex",
+      "role": "Rey de Wessex",
+      "start": "0726-01-01",
+      "end": "0740-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%C3%86thelheard_of_Wessex",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q465506",
+      "name": "Cuthred de Wessex",
+      "role": "Rey de Wessex",
+      "start": "0740-01-01",
+      "end": "0756-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cuthred_of_Wessex",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q468184",
+      "name": "Sigeberht de Wessex",
+      "role": "Rey de Wessex",
+      "start": "0754-01-01",
+      "end": "0756-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sigeberht_of_Wessex",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q465515",
+      "name": "Cynewulf de Wessex",
+      "role": "Rey de Wessex",
+      "start": "0757-01-01",
+      "end": "0786-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cynewulf_of_Wessex",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q470860",
+      "name": "Beorhtric",
+      "role": "Rey de Wessex",
+      "start": "0786-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Beorhtric_of_Wessex",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-4cdf7618ef5807e65914.jpg",
+        "title": "Beorhtric of Wessex.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Beorhtric_of_Wessex.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Beorhtric_of_Wessex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Beorhtric_of_Wessex.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_14_b_v_f001r",
+        "sha256": "84da35d7988db78fa7f0cdc1469fafcd7b489969b4a7bb13bb553fd30f5a9176",
+        "bytes": 133690,
+        "canonicalFile": "Países/WESSEX-Reino-de-Wessex/retratos/portrait-4cdf7618ef5807e65914.jpg",
+        "caption": "Representación posterior de Beorhtric; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Wessex"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Reino de Wessex",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "918916cdff7ab52cdc220ed0a8062dc50a3a68b737227a8f0acdb044dc9f7215",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2622,
+        2657,
+        2665,
+        2677,
+        2831,
+        2845,
+        2948
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Beorhtric of Wessex",
+        "title": "Beorhtric of Wessex",
+        "person": "Q470860",
+        "name": "Beorhtric",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Beorhtric_of_Wessex",
+        "identityResolution": {
+          "requested": "Beorhtric of Wessex",
+          "canonical": "Beorhtric of Wessex",
+          "qid": "Q470860"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0786-01-01",
+          "end": "0802-01-01",
+          "precision": 9,
+          "statement": "Q470860$c8108e63-4779-00c4-0d1e-d71a8cc722af",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q470860",
+        "title": "Beorhtric of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Beorhtric_of_Wessex",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wessex",
+            "raw": "786–802",
+            "parsed": {
+              "start": "0786-01-01",
+              "end": "0802-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Cuthred of Wessex",
+        "title": "Cuthred of Wessex",
+        "person": "Q465506",
+        "name": "Cuthred de Wessex",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cuthred_of_Wessex",
+        "identityResolution": {
+          "requested": "Cuthred of Wessex",
+          "canonical": "Cuthred of Wessex",
+          "qid": "Q465506"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0740-01-01",
+          "end": "0756-01-01",
+          "precision": 9,
+          "statement": "Q465506$b8aa09ae-4ef9-df65-dd4e-a8f9ede0a4bc",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q465506",
+        "title": "Cuthred of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Cuthred_of_Wessex",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wessex",
+            "raw": "740–756",
+            "parsed": {
+              "start": "0740-01-01",
+              "end": "0756-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Cynewulf of Wessex",
+        "title": "Cynewulf of Wessex",
+        "person": "Q465515",
+        "name": "Cynewulf de Wessex",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cynewulf_of_Wessex",
+        "identityResolution": {
+          "requested": "Cynewulf of Wessex",
+          "canonical": "Cynewulf of Wessex",
+          "qid": "Q465515"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0757-01-01",
+          "end": "0786-01-01",
+          "precision": 9,
+          "statement": "Q465515$8de2dfbe-43ea-3376-71f2-3024a6d1e10c",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q465515",
+        "title": "Cynewulf of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Cynewulf_of_Wessex",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wessex",
+            "raw": "757–786",
+            "parsed": {
+              "start": "0757-01-01",
+              "end": "0786-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ine of Wessex",
+        "title": "Ine of Wessex",
+        "person": "Q451580",
+        "name": "Ine de Wessex",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ine_of_Wessex",
+        "identityResolution": {
+          "requested": "Ine of Wessex",
+          "canonical": "Ine of Wessex",
+          "qid": "Q451580"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0689-01-01",
+          "end": "0726-01-01",
+          "precision": 9,
+          "statement": "Q451580$84d06fed-47e9-7db0-377c-aed5b641c675",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q451580",
+        "title": "Ine of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Ine_of_Wessex",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wessex",
+            "raw": "689–726",
+            "parsed": {
+              "start": "0689-01-01",
+              "end": "0726-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Wessex",
+            "raw": "688–726",
+            "parsed": {
+              "start": "0688-01-01",
+              "end": "0726-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sigeberht of Wessex",
+        "title": "Sigeberht of Wessex",
+        "person": "Q468184",
+        "name": "Sigeberht de Wessex",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sigeberht_of_Wessex",
+        "identityResolution": {
+          "requested": "Sigeberht of Wessex",
+          "canonical": "Sigeberht of Wessex",
+          "qid": "Q468184"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0756-01-01",
+          "end": "0757-01-01",
+          "precision": 9,
+          "statement": "Q468184$eb02bd98-447f-aa4b-c206-316d4037af3b",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q468184",
+        "title": "Sigeberht of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Sigeberht_of_Wessex",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wessex",
+            "raw": "{{Circa|754|756}}",
+            "parsed": {
+              "start": "0754-01-01",
+              "end": "0756-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Æthelheard of Wessex",
+        "title": "Æthelheard of Wessex",
+        "person": "Q272197",
+        "name": "Aethelheard de Wessex",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelheard_of_Wessex",
+        "identityResolution": {
+          "requested": "Æthelheard of Wessex",
+          "canonical": "Æthelheard of Wessex",
+          "qid": "Q272197"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0726-01-01",
+          "end": "0740-01-01",
+          "precision": 9,
+          "statement": "Q272197$b9d1373c-456e-9074-e1c0-a83d3651ab17",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q272197",
+        "title": "Æthelheard of Wessex",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelheard_of_Wessex",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wessex",
+            "raw": "726–740",
+            "parsed": {
+              "start": "0726-01-01",
+              "end": "0740-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Wessex",
+            "raw": "726–740",
+            "parsed": {
+              "start": "0726-01-01",
+              "end": "0740-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q451580",
+        "title": "Ine of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Ine_of_Wessex",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Wessex",
+          "raw": "689–726",
+          "parsed": {
+            "start": "0689-01-01",
+            "end": "0726-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q272197",
+        "title": "Æthelheard of Wessex",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelheard_of_Wessex",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Wessex",
+          "raw": "726–740",
+          "parsed": {
+            "start": "0726-01-01",
+            "end": "0740-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q465506",
+        "title": "Cuthred of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Cuthred_of_Wessex",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Wessex",
+          "raw": "740–756",
+          "parsed": {
+            "start": "0740-01-01",
+            "end": "0756-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q468184",
+        "title": "Sigeberht of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Sigeberht_of_Wessex",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Wessex",
+          "raw": "{{Circa|754|756}}",
+          "parsed": {
+            "start": "0754-01-01",
+            "end": "0756-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q465515",
+        "title": "Cynewulf of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Cynewulf_of_Wessex",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Wessex",
+          "raw": "757–786",
+          "parsed": {
+            "start": "0757-01-01",
+            "end": "0786-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q470860",
+        "title": "Beorhtric of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Beorhtric_of_Wessex",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Wessex",
+          "raw": "786–802",
+          "parsed": {
+            "start": "0786-01-01",
+            "end": "0802-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-20",
+      "name": "Winchester · centro regio",
+      "coordinates": [
+        -1.313,
+        51.061
+      ],
+      "start": 700,
+      "end": 799,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Wessex",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q451580",
+      "name": "Ine de Wessex",
+      "title": "King Ine in the Transfiguration Window of Wells Cathedral (crop).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:King_Ine_in_the_Transfiguration_Window_of_Wells_Cathedral_(crop).jpg",
+      "sha256": "0520096fde0271b4b8898c522e0da125a5868ded4a1c178b599473427b199786",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Ine de Wessex en una vidriera de Wells; no retrato contemporáneo."
+    },
+    {
+      "person": "Q470860",
+      "name": "Beorhtric",
+      "title": "Beorhtric of Wessex.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Beorhtric_of_Wessex.jpg",
+      "sha256": "84da35d7988db78fa7f0cdc1469fafcd7b489969b4a7bb13bb553fd30f5a9176",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Beorhtric; no retrato del natural acreditado."
+    }
+  ]
+}

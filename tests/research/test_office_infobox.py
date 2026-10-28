@@ -24,4 +24,10 @@ class OfficeInfoboxTests(unittest.TestCase):
   r=m.extract('{{Infobox royalty|succession=King|reign={{Circa|886}} – 899}}');self.assertEqual(r[0]['parsed']['start'],'0886-01-01')
   text='{{Infobox Korean name|hanja=Name}} {{s-hou|House||||809}} {{s-ttl|title=King of [[Balhae]]|years=794–809}}'
   self.assertEqual(m.extract(text),[]);r=m.extract(text,include_succession=True);self.assertEqual(r[0]['office'],'King of Balhae');self.assertEqual(r[0]['parsed']['start'],'0794-01-01')
+ def test_single_regnal_year_is_an_annual_window_not_a_biographical_lifetime(self):
+  r=m.extract('{{Infobox royalty|succession=King|reign=757|birth_date=700|death_date=760}}');self.assertEqual(r[0]['parsed'],dict(start='0757-01-01',end='0757-12-31',precision=9))
+  self.assertEqual(m.extract('{{Infobox person|birth_date=757|death_date=760}}'),[])
+ def test_shared_year_and_spaced_dash_in_an_explicit_reign(self):
+  r=m.extract('{{Infobox royalty|succession=Emperor|reign=8 July – 25 July 710}}');self.assertEqual(r[0]['parsed']['start'],'0710-07-08')
+  r=m.extract('{{Infobox royalty|succession=King|reign={{circa}} 664{{spaced ndash}}713}}');self.assertEqual(r[0]['parsed']['end'],'0713-12-31')
 if __name__=='__main__':unittest.main()

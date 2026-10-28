@@ -1,0 +1,485 @@
+{
+  "key": "HIST-Q856691",
+  "identity": {
+    "qid": "Q856691",
+    "name": "Rashtrakuta Dynasty"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante rashtrakuta",
+      "officePattern": "Rashtrakuta|Emperor",
+      "titles": [
+        "Dantidurga",
+        "Krishna I",
+        "Govinda II",
+        "Dhruva Dharavarsha",
+        "Govinda III"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3764262",
+      "name": "Dantidurga",
+      "role": "Gobernante rashtrakuta",
+      "start": "0753-01-01",
+      "end": "0756-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dantidurga",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q6437417",
+      "name": "Krishna I",
+      "role": "Gobernante rashtrakuta",
+      "start": "0756-01-01",
+      "end": "0774-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Krishna_I",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q5589869",
+      "name": "Govinda II",
+      "role": "Gobernante rashtrakuta",
+      "start": "0774-01-01",
+      "end": "0780-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Govinda_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q5269821",
+      "name": "Dhruva Dharavarsha",
+      "role": "Gobernante rashtrakuta",
+      "start": "0780-01-01",
+      "end": "0793-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dhruva_Dharavarsha",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q3634713",
+      "name": "Govinda III",
+      "role": "Gobernante rashtrakuta",
+      "start": "0793-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Govinda_III",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Rashtrakuta Dynasty"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Rashtrakuta Dynasty",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "56ce71123435953dc825fbe02645926fcdfc0ef54814683ec43023fdb58c4069",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2811,
+        2839,
+        2883,
+        2927,
+        2949,
+        2982
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dantidurga",
+        "title": "Dantidurga",
+        "person": "Q3764262",
+        "name": "Dantidurga",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dantidurga",
+        "identityResolution": {
+          "requested": "Dantidurga",
+          "canonical": "Dantidurga",
+          "qid": "Q3764262"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27670301",
+          "start": "0735-01-01",
+          "end": "0756-01-01",
+          "precision": 9,
+          "statement": "Q3764262$82a9e8da-47cd-9e1d-a4fb-db53905eb369",
+          "label": "Rashtrakuta emperor"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3764262",
+        "title": "Dantidurga",
+        "source": "https://en.wikipedia.org/wiki/Dantidurga",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Rashtrakuta Empire",
+            "raw": "{{circa|753|756 CE}}",
+            "parsed": {
+              "start": "0753-01-01",
+              "end": "0756-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dhruva Dharavarsha",
+        "title": "Dhruva Dharavarsha",
+        "person": "Q5269821",
+        "name": "Dhruva Dharavarsha",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dhruva_Dharavarsha",
+        "identityResolution": {
+          "requested": "Dhruva Dharavarsha",
+          "canonical": "Dhruva Dharavarsha",
+          "qid": "Q5269821"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27670301",
+          "start": "0780-01-01",
+          "end": "0793-01-01",
+          "precision": 9,
+          "statement": "Q5269821$4d187da7-4b19-67f4-06e1-2e0314b3dc4e",
+          "label": "Rashtrakuta emperor"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5269821",
+        "title": "Dhruva Dharavarsha",
+        "source": "https://en.wikipedia.org/wiki/Dhruva_Dharavarsha",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "4th Rashtrakuta Emperor",
+            "raw": "{{circa|780|793 CE}} (13 years)",
+            "parsed": {
+              "start": "0780-01-01",
+              "end": "0793-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Govinda II",
+        "title": "Govinda II",
+        "person": "Q5589869",
+        "name": "Govinda II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Govinda_II",
+        "identityResolution": {
+          "requested": "Govinda II",
+          "canonical": "Govinda II",
+          "qid": "Q5589869"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27670301",
+          "start": "0774-01-01",
+          "end": "0780-01-01",
+          "precision": 9,
+          "statement": "Q5589869$890b6d04-4fa0-c7cc-e7df-20271138f772",
+          "label": "Rashtrakuta emperor"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5589869",
+        "title": "Govinda II",
+        "source": "https://en.wikipedia.org/wiki/Govinda_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Rashtrakuta Emperor",
+            "raw": "{{circa|774|780 CE}}",
+            "parsed": {
+              "start": "0774-01-01",
+              "end": "0780-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Govinda III",
+        "title": "Govinda III",
+        "person": "Q3634713",
+        "name": "Govinda III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Govinda_III",
+        "identityResolution": {
+          "requested": "Govinda III",
+          "canonical": "Govinda III",
+          "qid": "Q3634713"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27670301",
+          "start": "0793-01-01",
+          "end": "0814-01-01",
+          "precision": 9,
+          "statement": "Q3634713$8040e2ae-43bb-5f0c-915d-eb9cfd473537",
+          "label": "Rashtrakuta emperor"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3634713",
+        "title": "Govinda III",
+        "source": "https://en.wikipedia.org/wiki/Govinda_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Rashtrakuta Emperor",
+            "raw": "{{circa|793|814}}",
+            "parsed": {
+              "start": "0793-01-01",
+              "end": "0814-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Krishna I",
+        "title": "Krishna I",
+        "person": "Q6437417",
+        "name": "Krishna I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Krishna_I",
+        "identityResolution": {
+          "requested": "Krishna I",
+          "canonical": "Krishna I",
+          "qid": "Q6437417"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27670301",
+          "start": "0756-01-01",
+          "end": "0774-01-01",
+          "precision": 9,
+          "statement": "Q6437417$ce5dbeed-4ce7-dc2b-ca2a-2d602b63d1cd",
+          "label": "Rashtrakuta emperor"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6437417",
+        "title": "Krishna I",
+        "source": "https://en.wikipedia.org/wiki/Krishna_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "2nd Rashtrakuta emperor",
+            "raw": "{{circa|756|774}}",
+            "parsed": {
+              "start": "0756-01-01",
+              "end": "0774-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q3764262",
+        "title": "Dantidurga",
+        "source": "https://en.wikipedia.org/wiki/Dantidurga",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Rashtrakuta Empire",
+          "raw": "{{circa|753|756 CE}}",
+          "parsed": {
+            "start": "0753-01-01",
+            "end": "0756-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q6437417",
+        "title": "Krishna I",
+        "source": "https://en.wikipedia.org/wiki/Krishna_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "2nd Rashtrakuta emperor",
+          "raw": "{{circa|756|774}}",
+          "parsed": {
+            "start": "0756-01-01",
+            "end": "0774-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q5589869",
+        "title": "Govinda II",
+        "source": "https://en.wikipedia.org/wiki/Govinda_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Rashtrakuta Emperor",
+          "raw": "{{circa|774|780 CE}}",
+          "parsed": {
+            "start": "0774-01-01",
+            "end": "0780-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q5269821",
+        "title": "Dhruva Dharavarsha",
+        "source": "https://en.wikipedia.org/wiki/Dhruva_Dharavarsha",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "4th Rashtrakuta Emperor",
+          "raw": "{{circa|780|793 CE}} (13 years)",
+          "parsed": {
+            "start": "0780-01-01",
+            "end": "0793-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q3634713",
+        "title": "Govinda III",
+        "source": "https://en.wikipedia.org/wiki/Govinda_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Rashtrakuta Emperor",
+          "raw": "{{circa|793|814}}",
+          "parsed": {
+            "start": "0793-01-01",
+            "end": "0814-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q6437417",
+      "title": "Old Kannada inscription (765 AD) from Hattimattur inscription of Rashtrakuta King Krishna I.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Kannada_inscription_(765_AD)_from_Hattimattur_inscription_of_Rashtrakuta_King_Krishna_I.jpg"
+    },
+    {
+      "person": "Q5269821",
+      "title": "Old Kannada inscription (780 AD) from Naregal of Rashtrakuta King Dhruva Dharavarsha.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Kannada_inscription_(780_AD)_from_Naregal_of_Rashtrakuta_King_Dhruva_Dharavarsha.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q6437417",
+      "name": "Krishna I",
+      "title": "Old Kannada inscription (765 AD) from Hattimattur inscription of Rashtrakuta King Krishna I.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Kannada_inscription_(765_AD)_from_Hattimattur_inscription_of_Rashtrakuta_King_Krishna_I.jpg",
+      "sha256": "1d43c8d4403cd9e0343369925c556a7d36989c48809224cd7a57f5d03f07685b",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q5269821",
+      "name": "Dhruva Dharavarsha",
+      "title": "Old Kannada inscription (780 AD) from Naregal of Rashtrakuta King Dhruva Dharavarsha.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Kannada_inscription_(780_AD)_from_Naregal_of_Rashtrakuta_King_Dhruva_Dharavarsha.jpg",
+      "sha256": "ff2a249f5ec7118f0bee2741e6a792d60de635ee3eeb96df8e18dde168c8b440",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "key": "HIST-Q5324",
+  "identity": {
+    "qid": "Q5324",
+    "name": "Gurjara-Pratihara Dynasty"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante gurjara-pratihara",
+      "officePattern": "Pratihara|King|Emperor",
+      "titles": [
+        "Nagabhata I",
+        "Kakkuka (king)",
+        "Devaraja (Pratihara dynasty)",
+        "Vatsaraja"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q6958307",
+      "name": "Nagabhata I",
+      "role": "Gobernante gurjara-pratihara",
+      "start": "0730-01-01",
+      "end": "0760-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nagabhata_I",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q7917182",
+      "name": "Vatsaraja",
+      "role": "Gobernante gurjara-pratihara",
+      "start": "0780-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vatsaraja",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Gurjara-Pratihara Dynasty"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Gurjara-Pratihara Dynasty",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "5dd80c8b4e2eaf610b71f95e83e999dd669270b7bc1de349d70b07863b42b516",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2727,
+        2738,
+        2781,
+        2888,
+        2907,
+        2933,
+        2952,
+        2989
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Devaraja (Pratihara dynasty)",
+        "title": "Devaraja (Pratihara dynasty)",
+        "person": "Q27587964",
+        "name": "Devaraja",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Devaraja_%28Pratihara_dynasty%29",
+        "identityResolution": {
+          "requested": "Devaraja (Pratihara dynasty)",
+          "canonical": "Devaraja (Pratihara dynasty)",
+          "qid": "Q27587964"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q27587964",
+        "title": "Devaraja (Pratihara dynasty)",
+        "source": "https://en.wikipedia.org/wiki/Devaraja_%28Pratihara_dynasty%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pratihara king",
+            "raw": "Second half of the 8th century",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kakkuka (king)",
+        "title": "Kakkuka (king)",
+        "person": "",
+        "name": "Kakkuka (king)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Kakkuka_%28king%29",
+        "identityResolution": {
+          "requested": "Kakkuka (king)",
+          "canonical": "Kakkuka (king)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nagabhata I",
+        "title": "Nagabhata I",
+        "person": "Q6958307",
+        "name": "Nagabhata I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Nagabhata_I",
+        "identityResolution": {
+          "requested": "Nagabhata I",
+          "canonical": "Nagabhata I",
+          "qid": "Q6958307"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6958307",
+        "title": "Nagabhata I",
+        "source": "https://en.wikipedia.org/wiki/Nagabhata_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Founder of Pratihara dynasty",
+            "raw": "{{circa|730|760}}",
+            "parsed": {
+              "start": "0730-01-01",
+              "end": "0760-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vatsaraja",
+        "title": "Vatsaraja",
+        "person": "Q7917182",
+        "name": "Vatsaraja",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vatsaraja",
+        "identityResolution": {
+          "requested": "Vatsaraja",
+          "canonical": "Vatsaraja",
+          "qid": "Q7917182"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7917182",
+        "title": "Vatsaraja",
+        "source": "https://en.wikipedia.org/wiki/Vatsaraja",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "3rd Pratihara king",
+            "raw": "{{circa|780|800}}",
+            "parsed": {
+              "start": "0780-01-01",
+              "end": "0800-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q6958307",
+        "title": "Nagabhata I",
+        "source": "https://en.wikipedia.org/wiki/Nagabhata_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Founder of Pratihara dynasty",
+          "raw": "{{circa|730|760}}",
+          "parsed": {
+            "start": "0730-01-01",
+            "end": "0760-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q7917182",
+        "title": "Vatsaraja",
+        "source": "https://en.wikipedia.org/wiki/Vatsaraja",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "3rd Pratihara king",
+          "raw": "{{circa|780|800}}",
+          "parsed": {
+            "start": "0780-01-01",
+            "end": "0800-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Kakkuka (king)",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Devaraja (Pratihara dynasty)",
+        "person": "Q27587964",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  }
+}

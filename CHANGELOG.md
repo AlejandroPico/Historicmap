@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.33.0 · 28 de octubre de 2026
+
+- Consulta y reproducción anual700–799:359 componentes políticos originales y99 referencias regionales adoptadas, con originales y decisiones dentro de cada entidad.
+- Cartografía política y Pueblos y áreas culturales disponibles en Capas y Filtros, sincronizados e independientes. Ambos activados inicialmente; preferencias conservadas al cambiar de año/proyección, fichas abiertas y búsqueda acorde con las áreas visibles.
+- Fondo continental neutro al ocultar ambas cartografías, también en el mapa actual. Rótulos y contornos de selección se ocultan junto a su cartografía; relieve, ciudades y conflictos mantienen sus controles.
+- Reyes merovingios/carolingios y mayordomos separados, sucesión omeya-abasí, Zhou de Wu Zetian y restauración Tang, regencias bizantinas y dos reinados de Kōken/Shōtoku diferenciados.
+- Fuente regional700 con anacronismos explícitos: ámbitos posteriores a Sui, sasánidas, Goguryeo y Baekje; dos lagos conservados en el inventario sin presentarlos como pueblos.
+- Revisión de117 candidatos visuales:76 adoptados y41 descartados. Insignias, cronologías discutidas y carencias pendientes documentadas; no se inventan banderas ni retratos contemporáneos.
+- Compilador de resoluciones con acumulación ordenada en memoria para evitar reescribir el mismo recurso por cada entidad; conservación e idempotencia verificadas en 213 archivos.
+
 ## 0.32.0 · 28 de octubre de 2026
 
 - Navegación y reproducción anual800–899,528 componentes políticos originales y85 referencias culturales/regionales, sin retirar las fases900–2027.

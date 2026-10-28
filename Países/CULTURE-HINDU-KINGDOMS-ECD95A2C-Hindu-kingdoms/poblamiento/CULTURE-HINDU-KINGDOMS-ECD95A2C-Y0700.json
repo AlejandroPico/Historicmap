@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-HINDU-KINGDOMS-ECD95A2C-Y0700",
+  "contextKey": "CULTURE-HINDU-KINGDOMS-ECD95A2C",
+  "ownerKey": "CULTURE-HINDU-KINGDOMS-ECD95A2C",
+  "name": "Hindu kingdoms",
+  "originalNames": [
+    "Hindu kingdoms"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de700",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    700,
+    799
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea700 contiene etiquetas de épocas distintas. La ventana700–799 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    78.52664,
+    22.35683
+  ],
+  "phases": [
+    {
+      "start": 700,
+      "end": 799,
+      "label": "Hindu kingdoms",
+      "dateBasis": "Referencia regional de la fuente editorial700; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-HINDU-KINGDOMS-ECD95A2C-Y0700.geojson",
+  "geometrySha256": "984f25d6bf5aa73abfb4746bddf4ea73891673d328dd718c96ed2475637d0f89",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+    "year": 700,
+    "featureIds": [
+      249,
+      252
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38"
+  },
+  "review": "0.33.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final799 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en800."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Hindu kingdoms",
+      "ABBREVN": "Hindu states",
+      "SUBJECTO": "Hindu kingdoms",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Hindu kingdoms"
+    },
+    {
+      "NAME": "Hindu kingdoms",
+      "ABBREVN": "Hindu states",
+      "SUBJECTO": "Hindu kingdoms",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Hindu kingdoms"
+    }
+  ],
+  "sourceGrouping": [
+    "Hindu kingdoms"
+  ]
+}

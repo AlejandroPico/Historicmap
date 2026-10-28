@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-CHERAS-857B2AA1",
+  "name": "Cheras",
+  "qid": "",
+  "aliases": [
+    "Cheras"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 189,
+      "start": null,
+      "end": null,
+      "name": "Cheras",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CHERAS-857B2AA1-Y0700:0",
+      "contextKey": "CULTURE-CHERAS-857B2AA1",
+      "start": 700,
+      "end": 799,
+      "sourceYear": 700,
+      "canonicalFile": "Países/CULTURE-CHERAS-857B2AA1-Cheras/poblamiento/CULTURE-CHERAS-857B2AA1-Y0700.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

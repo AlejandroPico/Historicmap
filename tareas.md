@@ -1,6 +1,24 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.32.0 · ampliación800–899
+## Encargo vigente · 0.33.0 · ampliación700–799 y visibilidad sincronizada
+
+Ampliar el sigloVIII conservando pueblos y culturas, cartografía política y todas las fases previas. El propietario añade dos controles independientes en Capas y Filtros: Cartografía política / Pueblos y áreas culturales. Ambos activados por defecto y sincronizados entre paneles; mantener elecciones al navegar años/proyecciones. Subir tras validar localmente, sin esperarActions/Pages.
+
+- [x] Inventariar originales políticos/regionales y anacronismos de la fuente700.
+- [x] Autoridades, representaciones documentales, centros, formas institucionales y contextos con evidencia por entidad.
+- [x] Culturas/regiones700–799, continuidad con800, prioridad y selección coincidente, sin borrar originales.
+- [x] Dos controles sincronizados en ambos paneles; independientes, activados inicialmente, sin perder fichas ni elecciones al viajar.
+- [x] Auditoría anual, conservación, pruebas focales/navegador, documentación y envío.
+
+Validación final 0.33: 255 pruebas en 58 archivos, nueve pruebas del lector de mandatos y ocho recorridos de navegador correctos. Tipos y compilación correctos; 100 recursos de datos, 11 rangos de glifos y 8.279 medios verificados por SHA-256. Capturas revisadas en escritorio y móvil, con espera hasta el renderizado de la combinación visible. Los controles arrancan ambos activados; conservar elecciones durante cambios de año y proyección, mantener fichas abiertas y excluir de búsqueda/selección las cartografías ocultas.
+
+Conservación: 1.225 identidades previas, 17.273 registros de autoridades, 1.040 símbolos y 8.682 fases culturales anteriores conservados; 126 originales regionales cotejados con la fuente fijada. Recompilación de 213 archivos sin diferencias. Catálogo: 3.946 carpetas y 1.253 identidades. La vista generada anónima «Maya states» se consolida en REFERENCE-MAYA-CITY-STATES: conserva el registro world_500.geojson/10 y los originales; no es una eliminación de documentación.
+
+Alcance nuevo: 106 dossiers políticos, 359 componentes originales, 248 registros de autoridades, 99 fases regionales, 42 centros fechados, 21 contextos y siete puntos de conflictos. Revisión visual de 117 candidatos: 76 representaciones adoptadas y 41 rechazadas. Las carencias nominales permanecen en REVIEW-700-799.json; falta contrastar más autoridades menores, insignias, imágenes individuales y continuidad cultural hacia800 de nuevas referencias sin equivalente. No confundir fin de revisión799 con extinción ni inventar banderas medievales.
+
+Correcciones de validación: un clic en el mapa heredaba data-government-filter y reactivaba la política; restringido a botones explícitos. La carga contemporánea en emulación gráfica superó la espera inicial; espera de renderizado ampliada, después correcta. Las primeras capturas se tomaban antes del repintado; ahora los controles se comprueban tras la confirmación visual del mapa. Piluoge conserva la misma identidad antes y después de la unión de Nanzhao. Se regeneran además los informes anuales de 1000–1799, que conservaban recuentos de símbolos anteriores a las revisiones; no se alteran sus hechos históricos. Verificados 433 originales únicos dentro de sus carpetas de entidad en los bytes preparados para Git. Entrega preparada para main y origin/main; confirmar coincidencia remota, sin esperar Actions/Pages.
+
+## Entrega anterior · 0.32.0 · ampliación800–899
 
 El propietario solicita retroceder desde900 hasta800 manteniendo pueblos, culturas y áreas de poblamiento junto a los poderes políticos. Conservar fases, originales y selección política prioritaria. Nuevos hechos y originales dentro de la carpeta de cada entidad. Comprobar localmente, subir y no esperarActions/Pages.
 

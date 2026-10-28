@@ -1,0 +1,85 @@
+{
+  "key": "CULTURE-EASTERN-NORTH-AMERICA-Y0700",
+  "contextKey": "CULTURE-EASTERN-NORTH-AMERICA",
+  "ownerKey": "CULTURE-EASTERN-NORTH-AMERICA",
+  "name": "Sociedades del este de Norteamérica",
+  "originalNames": [
+    "Eastern North American hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    700,
+    799
+  ],
+  "interpretation": "Área general del este norteamericano que incluye comunidades agrícolas, centros ceremoniales y redes misisipianas. La etiqueta originalcazadores-recolectores es insuficiente: Ocmulgee desde c.900 y Cahokia alcanzan formas de organización complejas.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea700 contiene etiquetas de épocas distintas. La ventana700–799 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "NPS · sociedades misisipianas de Ocmulgee desde c.900",
+      "url": "https://www.nps.gov/ocmu/learn/historyculture/mississippian-culture.htm"
+    },
+    {
+      "title": "NPS · Cahokia y redes misisipianas",
+      "url": "https://www.nps.gov/articles/000/cahokia-mounds-state-historic-site-world-heritage-site.htm"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#9b9a76",
+  "focus": [
+    -79.04848,
+    38.87047
+  ],
+  "phases": [
+    {
+      "start": 700,
+      "end": 799,
+      "label": "Sociedades del este de Norteamérica",
+      "dateBasis": "Referencia regional de la fuente editorial700; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-EASTERN-NORTH-AMERICA-Y0700.geojson",
+  "geometrySha256": "f184ee2881502665c4d75d35f66c0a64a116dd225ec7968db17893f2710ba0f1",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+    "year": 700,
+    "featureIds": [
+      169
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38"
+  },
+  "review": "0.33.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final799 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en800."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Eastern North American hunter-gatherers",
+      "ABBREVN": "Eastern North American hunter-gatherers",
+      "SUBJECTO": "Eastern North American hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Eastern North American hunter-gatherers"
+    }
+  ],
+  "sourceGrouping": [
+    "Eastern North American hunter-gatherers"
+  ]
+}

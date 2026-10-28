@@ -1,0 +1,504 @@
+{
+  "key": "HIST-Q1051600",
+  "identity": {
+    "qid": "Q1051600",
+    "name": "Duchy of Naples"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Duque de Nápoles",
+      "officePattern": "Duke.*Naples",
+      "titles": [
+        "John I of Naples",
+        "Theodore I of Naples",
+        "George of Naples",
+        "Gregory I of Naples",
+        "Stephen II of Naples",
+        "Gregory II of Naples",
+        "Theophylact II of Naples"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2708100",
+      "name": "Juan I de Nápoles",
+      "role": "Duque de Nápoles",
+      "start": "0711-01-01",
+      "end": "0719-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/John_I_of_Naples",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q2523105",
+      "name": "Theodore I of Naples",
+      "role": "Duque de Nápoles",
+      "start": "0719-01-01",
+      "end": "0729-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theodore_I_of_Naples",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q2523086",
+      "name": "George of Naples",
+      "role": "Duque de Nápoles",
+      "start": "0729-01-01",
+      "end": "0739-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/George_of_Naples",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q2528634",
+      "name": "Gregory I of Naples",
+      "role": "Duque de Nápoles",
+      "start": "0740-01-01",
+      "end": "0755-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gregory_I_of_Naples",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q2708092",
+      "name": "Stephen II of Naples",
+      "role": "Duque de Nápoles",
+      "start": "0755-01-01",
+      "end": "0766-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Stephen_II_of_Naples",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q2523096",
+      "name": "Gregory II of Naples",
+      "role": "Duque de Nápoles",
+      "start": "0766-01-01",
+      "end": "0794-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gregory_II_of_Naples",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Duchy of Naples"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Duchy of Naples",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "8002798a7072b53c099328d1aafb4dfaad9875a314f3b135675c749a0e49c767",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2858
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "George of Naples",
+        "title": "George of Naples",
+        "person": "Q2523086",
+        "name": "George of Naples",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/George_of_Naples",
+        "identityResolution": {
+          "requested": "George of Naples",
+          "canonical": "George of Naples",
+          "qid": "Q2523086"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2523086",
+        "title": "George of Naples",
+        "source": "https://en.wikipedia.org/wiki/George_of_Naples",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Duke of Naples",
+            "raw": "729–739",
+            "parsed": {
+              "start": "0729-01-01",
+              "end": "0739-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gregory I of Naples",
+        "title": "Gregory I of Naples",
+        "person": "Q2528634",
+        "name": "Gregory I of Naples",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gregory_I_of_Naples",
+        "identityResolution": {
+          "requested": "Gregory I of Naples",
+          "canonical": "Gregory I of Naples",
+          "qid": "Q2528634"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21101016",
+          "start": "0740-01-01",
+          "end": "0755-01-01",
+          "precision": 9,
+          "statement": "Q2528634$7f676dfd-4a6a-4766-8c51-ddc3ca8865ec",
+          "label": "duque de Nápoles"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2528634",
+        "title": "Gregory I of Naples",
+        "source": "https://en.wikipedia.org/wiki/Gregory_I_of_Naples",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Duke of Naples",
+            "raw": "740–755",
+            "parsed": {
+              "start": "0740-01-01",
+              "end": "0755-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gregory II of Naples",
+        "title": "Gregory II of Naples",
+        "person": "Q2523096",
+        "name": "Gregory II of Naples",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gregory_II_of_Naples",
+        "identityResolution": {
+          "requested": "Gregory II of Naples",
+          "canonical": "Gregory II of Naples",
+          "qid": "Q2523096"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2523096",
+        "title": "Gregory II of Naples",
+        "source": "https://en.wikipedia.org/wiki/Gregory_II_of_Naples",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Duke of Naples",
+            "raw": "766–794",
+            "parsed": {
+              "start": "0766-01-01",
+              "end": "0794-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "John I of Naples",
+        "title": "John I of Naples",
+        "person": "Q2708100",
+        "name": "Juan I de Nápoles",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/John_I_of_Naples",
+        "identityResolution": {
+          "requested": "John I of Naples",
+          "canonical": "John I of Naples",
+          "qid": "Q2708100"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2708100",
+        "title": "John I of Naples",
+        "source": "https://en.wikipedia.org/wiki/John_I_of_Naples",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Duke of Naples",
+            "raw": "711–719",
+            "parsed": {
+              "start": "0711-01-01",
+              "end": "0719-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Stephen II of Naples",
+        "title": "Stephen II of Naples",
+        "person": "Q2708092",
+        "name": "Stephen II of Naples",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Stephen_II_of_Naples",
+        "identityResolution": {
+          "requested": "Stephen II of Naples",
+          "canonical": "Stephen II of Naples",
+          "qid": "Q2708092"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21101016",
+          "start": "0755-01-01",
+          "end": "0766-01-01",
+          "precision": 9,
+          "statement": "Q2708092$89108152-4429-616d-492e-d7fdb9aca48d",
+          "label": "duque de Nápoles"
+        },
+        {
+          "property": "P39",
+          "office": "Q116269421",
+          "start": "0766-01-01",
+          "end": "0799-01-01",
+          "precision": 9,
+          "statement": "Q2708092$7b390bda-4b7f-9d3a-391b-33b597337297",
+          "label": "obispo de Nápoles"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2708092",
+        "title": "Stephen II of Naples",
+        "source": "https://en.wikipedia.org/wiki/Stephen_II_of_Naples",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Duke of Naples",
+            "raw": "755–766",
+            "parsed": {
+              "start": "0755-01-01",
+              "end": "0766-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theodore I of Naples",
+        "title": "Theodore I of Naples",
+        "person": "Q2523105",
+        "name": "Theodore I of Naples",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theodore_I_of_Naples",
+        "identityResolution": {
+          "requested": "Theodore I of Naples",
+          "canonical": "Theodore I of Naples",
+          "qid": "Q2523105"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2523105",
+        "title": "Theodore I of Naples",
+        "source": "https://en.wikipedia.org/wiki/Theodore_I_of_Naples",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Duke of Naples",
+            "raw": "719–729",
+            "parsed": {
+              "start": "0719-01-01",
+              "end": "0729-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theophylact II of Naples",
+        "title": "Theophylact II of Naples",
+        "person": "",
+        "name": "Theophylact II of Naples",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Theophylact_II_of_Naples",
+        "identityResolution": {
+          "requested": "Theophylact II of Naples",
+          "canonical": "Theophylact II of Naples",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2708100",
+        "title": "John I of Naples",
+        "source": "https://en.wikipedia.org/wiki/John_I_of_Naples",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Naples",
+          "raw": "711–719",
+          "parsed": {
+            "start": "0711-01-01",
+            "end": "0719-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2523105",
+        "title": "Theodore I of Naples",
+        "source": "https://en.wikipedia.org/wiki/Theodore_I_of_Naples",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Naples",
+          "raw": "719–729",
+          "parsed": {
+            "start": "0719-01-01",
+            "end": "0729-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2523086",
+        "title": "George of Naples",
+        "source": "https://en.wikipedia.org/wiki/George_of_Naples",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Naples",
+          "raw": "729–739",
+          "parsed": {
+            "start": "0729-01-01",
+            "end": "0739-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2528634",
+        "title": "Gregory I of Naples",
+        "source": "https://en.wikipedia.org/wiki/Gregory_I_of_Naples",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Naples",
+          "raw": "740–755",
+          "parsed": {
+            "start": "0740-01-01",
+            "end": "0755-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2708092",
+        "title": "Stephen II of Naples",
+        "source": "https://en.wikipedia.org/wiki/Stephen_II_of_Naples",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Naples",
+          "raw": "755–766",
+          "parsed": {
+            "start": "0755-01-01",
+            "end": "0766-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2523096",
+        "title": "Gregory II of Naples",
+        "source": "https://en.wikipedia.org/wiki/Gregory_II_of_Naples",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Naples",
+          "raw": "766–794",
+          "parsed": {
+            "start": "0766-01-01",
+            "end": "0794-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Theophylact II of Naples",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  }
+}

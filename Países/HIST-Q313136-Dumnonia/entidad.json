@@ -1,0 +1,52 @@
+{
+  "key": "HIST-Q313136",
+  "name": "Dumnonia",
+  "qid": "Q313136",
+  "aliases": [
+    "Dumnonia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q313136"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2227",
+      "start": 700,
+      "end": 704,
+      "name": "Dumnonia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2634",
+      "start": 705,
+      "end": 709,
+      "name": "Dumnonia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-DUMNONIA-74ED9FA5-Y0700",
+      "ownerKey": "HIST-Q313136",
+      "name": "Dumnonia",
+      "file": "Países/HIST-Q313136-Dumnonia/poblamiento/CULTURE-DUMNONIA-74ED9FA5-Y0700.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

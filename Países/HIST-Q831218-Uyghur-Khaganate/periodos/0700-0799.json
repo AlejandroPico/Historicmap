@@ -1,0 +1,532 @@
+{
+  "key": "HIST-Q831218",
+  "identity": {
+    "qid": "Q831218",
+    "name": "Uyghur Khaganate"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Kan uigur",
+      "officePattern": "Khagan|Khan|Qaghan",
+      "titles": [
+        "Qutlugh Bilge Köl Qaghan",
+        "Bayanchur Khan",
+        "Bögü Qaghan",
+        "Tun Baga Tarkhan",
+        "Qutlugh Qaghan",
+        "Qutlugh Bilge Qaghan (Uyghur khagan)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1799031",
+      "name": "Bayanchur Khan",
+      "role": "Kan uigur",
+      "start": "0747-01-01",
+      "end": "0759-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bayanchur_Khan",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q68234",
+      "name": "Bögü Khagan",
+      "role": "Kan uigur",
+      "start": "0759-01-01",
+      "end": "0780-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/B%C3%B6g%C3%BC_Qaghan",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-b7aae1ed3bf82bb9a779.jpg",
+        "title": "Detail of Bögü Qaghan, in Conversion of Bögü Qaghan (759-780 CE) to Manicheism in 762 (8th century Manichean painter).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Detail_of_B%C3%B6g%C3%BC_Qaghan,_in_Conversion_of_B%C3%B6g%C3%BC_Qaghan_(759-780_CE)_to_Manicheism_in_762_(8th_century_Manichean_painter).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Detail_of_B%C3%B6g%C3%BC_Qaghan%2C_in_Conversion_of_B%C3%B6g%C3%BC_Qaghan_%28759-780_CE%29_to_Manicheism_in_762_%288th_century_Manichean_painter%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "762 artist",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Detail_of_B%C3%B6g%C3%BC_Qaghan,_in_Conversion_of_B%C3%B6g%C3%BC_Qaghan_(759-780_CE)_to_Manicheism_in_762_(8th_century_Manichean_painter).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "This image has been extracted from another file",
+        "sha256": "162bc95b5559cb4c11bffc852dbf4e18d744b2bd211c813ebd53194a2f850511",
+        "bytes": 555419,
+        "canonicalFile": "Países/HIST-Q831218-Uyghur-Khaganate/retratos/portrait-b7aae1ed3bf82bb9a779.jpg",
+        "caption": "Detalle manuscrito de la conversión de Bögü Qaghan al maniqueísmo, identificado así por la fuente; representación religiosa, no fotografía."
+      }
+    },
+    {
+      "person": "Q68208",
+      "name": "Tun Baga Tarkan",
+      "role": "Kan uigur",
+      "start": "0780-01-01",
+      "end": "0789-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tun_Baga_Tarkhan",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "LOCAL-UYGHUR-FOUNDER",
+      "name": "Qutlugh Bilge Köl",
+      "role": "Kan uigur · cronología documental",
+      "start": "0744-01-01",
+      "end": "0747-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Uyghur_Khaganate",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-UYGHUR-KULUG",
+      "name": "Külüg Bilge Qaghan",
+      "role": "Kan uigur · cronología documental",
+      "start": "0789-01-01",
+      "end": "0790-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Uyghur_Khaganate",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-UYGHUR-QUTLUQ",
+      "name": "Qutluq Bilge Qaghan",
+      "role": "Kan uigur · cronología documental",
+      "start": "0790-01-01",
+      "end": "0795-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Uyghur_Khaganate",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-UYGHUR-QUTLUQ-II",
+      "name": "Qutluq II Bilge Qaghan",
+      "role": "Kan uigur · dinastía Ädiz",
+      "start": "0795-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Uyghur_Khaganate",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review033-uyghurs",
+      "type": "institution",
+      "title": "Kanato uigur y sucesiones",
+      "start": "0744-01-01",
+      "end": "0800-01-01",
+      "text": "La formación del kanato de744 es distinta del segundo poder túrquico anterior. Títulos regios parecidos no identifican necesariamente a la misma persona; se distinguen las etapas de789–795 y el cambio dinástico posterior.",
+      "source": "https://en.wikipedia.org/wiki/Uyghur_Khaganate",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación de fuente; no evaluación contemporánea ni control homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Uyghur Khaganate"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Uyghur Khaganate",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "a700b75172db85b935a833def314ef6e6aca2411412c2c32e6160b5e3e5b2568",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2773,
+        2820,
+        2843,
+        2859,
+        2913,
+        2931,
+        2995
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bayanchur Khan",
+        "title": "Bayanchur Khan",
+        "person": "Q1799031",
+        "name": "Bayanchur Khan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bayanchur_Khan",
+        "identityResolution": {
+          "requested": "Bayanchur Khan",
+          "canonical": "Bayanchur Khan",
+          "qid": "Q1799031"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q187878",
+          "start": "0747-01-01",
+          "end": "0759-01-01",
+          "precision": 9,
+          "statement": "Q1799031$3f1a300a-4025-0716-c0e5-36fd24d917aa",
+          "label": "gran kan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1799031",
+        "title": "Bayanchur Khan",
+        "source": "https://en.wikipedia.org/wiki/Bayanchur_Khan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Uyghurs",
+            "raw": "747–759",
+            "parsed": {
+              "start": "0747-01-01",
+              "end": "0759-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Bögü Qaghan",
+        "title": "Bögü Qaghan",
+        "person": "Q68234",
+        "name": "Bögü Khagan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/B%C3%B6g%C3%BC_Qaghan",
+        "identityResolution": {
+          "requested": "Bögü Qaghan",
+          "canonical": "Bögü Qaghan",
+          "qid": "Q68234"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q187878",
+          "start": "0759-01-01",
+          "end": "0780-01-01",
+          "precision": 9,
+          "statement": "Q68234$c5faa285-4358-ae0f-a5f7-fd17a41faaff",
+          "label": "gran kan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q68234",
+        "title": "Bögü Qaghan",
+        "source": "https://en.wikipedia.org/wiki/B%C3%B6g%C3%BC_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Uyghurs",
+            "raw": "759–780",
+            "parsed": {
+              "start": "0759-01-01",
+              "end": "0780-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Qutlugh Bilge Köl Qaghan",
+        "title": "Qutlugh Bilge Köl Qaghan",
+        "person": "",
+        "name": "Qutlugh Bilge Köl Qaghan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Qutlugh_Bilge_K%C3%B6l_Qaghan",
+        "identityResolution": {
+          "requested": "Qutlugh Bilge Köl Qaghan",
+          "canonical": "Qutlugh Bilge Köl Qaghan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Qutlugh Bilge Qaghan (Uyghur khagan)",
+        "title": "Qutlugh Bilge Qaghan (Uyghur khagan)",
+        "person": "",
+        "name": "Qutlugh Bilge Qaghan (Uyghur khagan)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Qutlugh_Bilge_Qaghan_%28Uyghur_khagan%29",
+        "identityResolution": {
+          "requested": "Qutlugh Bilge Qaghan (Uyghur khagan)",
+          "canonical": "Qutlugh Bilge Qaghan (Uyghur khagan)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Qutlugh Qaghan",
+        "title": "Qutlugh Qaghan",
+        "person": "",
+        "name": "Qutlugh Qaghan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Qutlugh_Qaghan",
+        "identityResolution": {
+          "requested": "Qutlugh Qaghan",
+          "canonical": "Qutlugh Qaghan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tun Baga Tarkhan",
+        "title": "Tun Baga Tarkhan",
+        "person": "Q68208",
+        "name": "Tun Baga Tarkan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tun_Baga_Tarkhan",
+        "identityResolution": {
+          "requested": "Tun Baga Tarkhan",
+          "canonical": "Tun Baga Tarkhan",
+          "qid": "Q68208"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q187878",
+          "start": "0780-01-01",
+          "end": "0789-01-01",
+          "precision": 9,
+          "statement": "Q68208$ed5add38-4048-29ef-932b-de2ddb47587c",
+          "label": "gran kan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q68208",
+        "title": "Tun Baga Tarkhan",
+        "source": "https://en.wikipedia.org/wiki/Tun_Baga_Tarkhan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Uyghurs",
+            "raw": "780–789",
+            "parsed": {
+              "start": "0780-01-01",
+              "end": "0789-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1799031",
+        "title": "Bayanchur Khan",
+        "source": "https://en.wikipedia.org/wiki/Bayanchur_Khan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Uyghurs",
+          "raw": "747–759",
+          "parsed": {
+            "start": "0747-01-01",
+            "end": "0759-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q68234",
+        "title": "Bögü Qaghan",
+        "source": "https://en.wikipedia.org/wiki/B%C3%B6g%C3%BC_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Uyghurs",
+          "raw": "759–780",
+          "parsed": {
+            "start": "0759-01-01",
+            "end": "0780-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q68208",
+        "title": "Tun Baga Tarkhan",
+        "source": "https://en.wikipedia.org/wiki/Tun_Baga_Tarkhan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Uyghurs",
+          "raw": "780–789",
+          "parsed": {
+            "start": "0780-01-01",
+            "end": "0789-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Qutlugh Bilge Köl Qaghan",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Qutlugh Qaghan",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Qutlugh Bilge Qaghan (Uyghur khagan)",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "LOCAL-UYGHUR-FOUNDER",
+      "name": "Qutlugh Bilge Köl",
+      "role": "Kan uigur · cronología documental",
+      "start": "0744-01-01",
+      "end": "0747-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Uyghur_Khaganate",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-UYGHUR-KULUG",
+      "name": "Külüg Bilge Qaghan",
+      "role": "Kan uigur · cronología documental",
+      "start": "0789-01-01",
+      "end": "0790-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Uyghur_Khaganate",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-UYGHUR-QUTLUQ",
+      "name": "Qutluq Bilge Qaghan",
+      "role": "Kan uigur · cronología documental",
+      "start": "0790-01-01",
+      "end": "0795-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Uyghur_Khaganate",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    },
+    {
+      "person": "LOCAL-UYGHUR-QUTLUQ-II",
+      "name": "Qutluq II Bilge Qaghan",
+      "role": "Kan uigur · dinastía Ädiz",
+      "start": "0795-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Uyghur_Khaganate",
+      "note": "Cronología regia documental de referencia; nombres y transliteraciones variables. Las variantes de inicio/fin no acreditan días exactos. Sin identificador humano seguro, se conserva una identidad local explícita, no un homónimo.",
+      "endIsUpperBound": true,
+      "identityResolution": "Identificador documental local; no se inventa un identificador Wikidata."
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "contexts": [
+    {
+      "id": "review033-uyghurs",
+      "type": "institution",
+      "title": "Kanato uigur y sucesiones",
+      "start": "0744-01-01",
+      "end": "0800-01-01",
+      "text": "La formación del kanato de744 es distinta del segundo poder túrquico anterior. Títulos regios parecidos no identifican necesariamente a la misma persona; se distinguen las etapas de789–795 y el cambio dinástico posterior.",
+      "source": "https://en.wikipedia.org/wiki/Uyghur_Khaganate",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q68234",
+      "name": "Bögü Khagan",
+      "title": "Detail of Bögü Qaghan, in Conversion of Bögü Qaghan (759-780 CE) to Manicheism in 762 (8th century Manichean painter).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Detail_of_B%C3%B6g%C3%BC_Qaghan,_in_Conversion_of_B%C3%B6g%C3%BC_Qaghan_(759-780_CE)_to_Manicheism_in_762_(8th_century_Manichean_painter).jpg",
+      "sha256": "162bc95b5559cb4c11bffc852dbf4e18d744b2bd211c813ebd53194a2f850511",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Detalle manuscrito de la conversión de Bögü Qaghan al maniqueísmo, identificado así por la fuente; representación religiosa, no fotografía."
+    }
+  ]
+}

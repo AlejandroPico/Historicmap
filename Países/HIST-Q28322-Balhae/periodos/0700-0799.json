@@ -1,0 +1,495 @@
+{
+  "key": "HIST-Q28322",
+  "identity": {
+    "qid": "Q28322",
+    "name": "Balhae"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Balhae",
+      "officePattern": "King.*Balhae|King.*Bohai|Emperor.*Balhae",
+      "titles": [
+        "Dae Joyeong",
+        "Mun of Balhae",
+        "Mu of Balhae",
+        "Tae Wŏnŭi",
+        "Seong of Balhae",
+        "Gang of Balhae"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q702079",
+      "name": "Go de Balhae",
+      "role": "Gobernante de Balhae",
+      "start": "0712-01-01",
+      "end": "0719-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ko_of_Parhae",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q706537",
+      "name": "Mun of Balhae",
+      "role": "Gobernante de Balhae",
+      "start": "0737-01-01",
+      "end": "0793-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mun_of_Balhae",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q704083",
+      "name": "Mu of Balhae",
+      "role": "Gobernante de Balhae",
+      "start": "0719-01-01",
+      "end": "0737-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mu_of_Balhae",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q707114",
+      "name": "Dae Won-ui",
+      "role": "Gobernante de Balhae",
+      "start": "0793-01-01",
+      "end": "0793-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tae_W%C5%8Fn%C5%ADi",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q707782",
+      "name": "Seong of Balhae",
+      "role": "Gobernante de Balhae",
+      "start": "0793-01-01",
+      "end": "0794-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/S%C5%8Fng_of_Balhae",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q703263",
+      "name": "Gang of Balhae",
+      "role": "Gobernante de Balhae",
+      "start": "0794-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kang_of_Balhae",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Balhae",
+      "sourceLabel": "Institución histórica documentada",
+      "note": "Clasificación de la dignidad histórica, no evaluación democrática ni control homogéneo de cada territorio. Las referencias cartográficas anteriores a la formación política no adelantan esta categoría."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Balhae"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Balhae",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "4dd3381645c5faf81b87ef07b891221bac80f19e1db45353cca33f9fc768d135",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2635,
+        2729
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dae Joyeong",
+        "title": "Dae Joyeong",
+        "person": "Q702079",
+        "name": "Go de Balhae",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ko_of_Parhae",
+        "identityResolution": {
+          "requested": "Dae Joyeong",
+          "canonical": "Ko of Parhae",
+          "qid": "Q702079"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q702079",
+        "title": "Ko of Parhae",
+        "source": "https://en.wikipedia.org/wiki/Ko_of_Parhae",
+        "reignFields": [
+          {
+            "field": "reign1",
+            "office": "King of Parhae",
+            "raw": "698–719",
+            "parsed": {
+              "start": "0698-01-01",
+              "end": "0719-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Zhen (Jin)",
+            "raw": "698–712",
+            "parsed": {
+              "start": "0698-01-01",
+              "end": "0712-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Balhae",
+            "raw": "712–719",
+            "parsed": {
+              "start": "0712-01-01",
+              "end": "0719-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gang of Balhae",
+        "title": "Gang of Balhae",
+        "person": "Q703263",
+        "name": "Gang of Balhae",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kang_of_Balhae",
+        "identityResolution": {
+          "requested": "Gang of Balhae",
+          "canonical": "Kang of Balhae",
+          "qid": "Q703263"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q703263",
+        "title": "Kang of Balhae",
+        "source": "https://en.wikipedia.org/wiki/Kang_of_Balhae",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Balhae",
+            "raw": "794–809",
+            "parsed": {
+              "start": "0794-01-01",
+              "end": "0809-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mu of Balhae",
+        "title": "Mu of Balhae",
+        "person": "Q704083",
+        "name": "Mu of Balhae",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mu_of_Balhae",
+        "identityResolution": {
+          "requested": "Mu of Balhae",
+          "canonical": "Mu of Balhae",
+          "qid": "Q704083"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q704083",
+        "title": "Mu of Balhae",
+        "source": "https://en.wikipedia.org/wiki/Mu_of_Balhae",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Balhae",
+            "raw": "719–737",
+            "parsed": {
+              "start": "0719-01-01",
+              "end": "0737-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mun of Balhae",
+        "title": "Mun of Balhae",
+        "person": "Q706537",
+        "name": "Mun of Balhae",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mun_of_Balhae",
+        "identityResolution": {
+          "requested": "Mun of Balhae",
+          "canonical": "Mun of Balhae",
+          "qid": "Q706537"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q706537",
+        "title": "Mun of Balhae",
+        "source": "https://en.wikipedia.org/wiki/Mun_of_Balhae",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Balhae",
+            "raw": "737–793",
+            "parsed": {
+              "start": "0737-01-01",
+              "end": "0793-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Seong of Balhae",
+        "title": "Seong of Balhae",
+        "person": "Q707782",
+        "name": "Seong of Balhae",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/S%C5%8Fng_of_Balhae",
+        "identityResolution": {
+          "requested": "Seong of Balhae",
+          "canonical": "Sŏng of Balhae",
+          "qid": "Q707782"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q707782",
+        "title": "Sŏng of Balhae",
+        "source": "https://en.wikipedia.org/wiki/S%C5%8Fng_of_Balhae",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Balhae",
+            "raw": "793–794",
+            "parsed": {
+              "start": "0793-01-01",
+              "end": "0794-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tae Wŏnŭi",
+        "title": "Tae Wŏnŭi",
+        "person": "Q707114",
+        "name": "Dae Won-ui",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tae_W%C5%8Fn%C5%ADi",
+        "identityResolution": {
+          "requested": "Tae Wŏnŭi",
+          "canonical": "Tae Wŏnŭi",
+          "qid": "Q707114"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q707114",
+        "title": "Tae Wŏnŭi",
+        "source": "https://en.wikipedia.org/wiki/Tae_W%C5%8Fn%C5%ADi",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Balhae",
+            "raw": "793",
+            "parsed": {
+              "start": "0793-01-01",
+              "end": "0793-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q702079",
+        "title": "Dae Joyeong",
+        "source": "https://en.wikipedia.org/wiki/Ko_of_Parhae",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Balhae",
+          "raw": "712–719",
+          "parsed": {
+            "start": "0712-01-01",
+            "end": "0719-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q706537",
+        "title": "Mun of Balhae",
+        "source": "https://en.wikipedia.org/wiki/Mun_of_Balhae",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Balhae",
+          "raw": "737–793",
+          "parsed": {
+            "start": "0737-01-01",
+            "end": "0793-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q704083",
+        "title": "Mu of Balhae",
+        "source": "https://en.wikipedia.org/wiki/Mu_of_Balhae",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Balhae",
+          "raw": "719–737",
+          "parsed": {
+            "start": "0719-01-01",
+            "end": "0737-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q707114",
+        "title": "Tae Wŏnŭi",
+        "source": "https://en.wikipedia.org/wiki/Tae_W%C5%8Fn%C5%ADi",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Balhae",
+          "raw": "793",
+          "parsed": {
+            "start": "0793-01-01",
+            "end": "0793-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q707782",
+        "title": "Seong of Balhae",
+        "source": "https://en.wikipedia.org/wiki/S%C5%8Fng_of_Balhae",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Balhae",
+          "raw": "793–794",
+          "parsed": {
+            "start": "0793-01-01",
+            "end": "0794-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q703263",
+        "title": "Gang of Balhae",
+        "source": "https://en.wikipedia.org/wiki/Kang_of_Balhae",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Balhae",
+          "raw": "794–809",
+          "parsed": {
+            "start": "0794-01-01",
+            "end": "0809-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q702079",
+      "title": "Portraits of kings at Tongiljeon.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Portraits_of_kings_at_Tongiljeon.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q702079",
+      "name": "Go de Balhae",
+      "title": "Portraits of kings at Tongiljeon.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portraits_of_kings_at_Tongiljeon.jpg",
+      "sha256": "b9cdcb54aeeabb9f990a27f4239ab8a76e10a09112e1180ce5d8115fa2a099cc",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ]
+}

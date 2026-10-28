@@ -1,0 +1,73 @@
+{
+  "key": "REFERENCE-POST-SUI-Y0700",
+  "contextKey": "REFERENCE-POST-SUI",
+  "ownerKey": "REFERENCE-POST-SUI",
+  "name": "Ámbitos chinos posteriores a Sui · referencia heredada",
+  "originalNames": [
+    "Sui Empire"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de700",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    700,
+    799
+  ],
+  "interpretation": "Sui terminó en618, antes de la fecha consultada. Se conserva la referencia regional de la fuente como ámbito histórico, no como un imperio Sui vigente en700 ni como una distribución observada de población.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea700 contiene etiquetas de épocas distintas. La ventana700–799 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Sui_dynasty"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    110.5578,
+    29.62044
+  ],
+  "phases": [
+    {
+      "start": 700,
+      "end": 799,
+      "label": "Ámbitos chinos posteriores a Sui · referencia heredada",
+      "dateBasis": "Referencia regional de la fuente editorial700; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-SUI-Y0700.geojson",
+  "geometrySha256": "2a56112ca1658661b59c958dbcb511ce50d23ad0bfd09c2d93e68d62c6dfee1d",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+    "year": 700,
+    "featureIds": [
+      37
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38"
+  },
+  "review": "0.33.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final799 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en800."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Sui Empire",
+      "ABBREVN": "Sui Empire",
+      "SUBJECTO": "Sui Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Sui Empire"
+    }
+  ],
+  "sourceGrouping": [
+    "Sui Empire"
+  ]
+}

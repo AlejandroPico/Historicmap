@@ -1,0 +1,167 @@
+{
+  "key": "HIST-Q124661",
+  "identity": {
+    "qid": "Q124661",
+    "name": "Strathclyde"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Alt Clut / Strathclyde",
+      "officePattern": "King.*Alt Clut|King.*Strathclyde|King.*Briton",
+      "titles": [
+        "Beli II of Alt Clut",
+        "Teudebur of Alt Clut",
+        "Dumnagual III of Alt Clut"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Strathclyde"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Strathclyde",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "fc89d27777e19a936b6c88f0ee8941db0e894c17d60dd36f869e9e4dce37d496",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2481,
+        2787
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Beli II of Alt Clut",
+        "title": "Beli II of Alt Clut",
+        "person": "Q1086202",
+        "name": "Beli II of Alt Clut",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Beli_II_of_Alt_Clut",
+        "identityResolution": {
+          "requested": "Beli II of Alt Clut",
+          "canonical": "Beli II of Alt Clut",
+          "qid": "Q1086202"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1086202",
+        "title": "Beli II of Alt Clut",
+        "source": "https://en.wikipedia.org/wiki/Beli_II_of_Alt_Clut",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dumnagual III of Alt Clut",
+        "title": "Dumnagual III of Alt Clut",
+        "person": "Q1406600",
+        "name": "Dumnagual III of Alt Clut",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dumnagual_III_of_Alt_Clut",
+        "identityResolution": {
+          "requested": "Dumnagual III of Alt Clut",
+          "canonical": "Dumnagual III of Alt Clut",
+          "qid": "Q1406600"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1406600",
+        "title": "Dumnagual III of Alt Clut",
+        "source": "https://en.wikipedia.org/wiki/Dumnagual_III_of_Alt_Clut",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Teudebur of Alt Clut",
+        "title": "Teudebur of Alt Clut",
+        "person": "Q2258238",
+        "name": "Teudebur of Alt Clut",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Teudebur_of_Alt_Clut",
+        "identityResolution": {
+          "requested": "Teudebur of Alt Clut",
+          "canonical": "Teudebur of Alt Clut",
+          "qid": "Q2258238"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2258238",
+        "title": "Teudebur of Alt Clut",
+        "source": "https://en.wikipedia.org/wiki/Teudebur_of_Alt_Clut",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Beli II of Alt Clut",
+        "person": "Q1086202",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Teudebur of Alt Clut",
+        "person": "Q2258238",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Dumnagual III of Alt Clut",
+        "person": "Q1406600",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  }
+}

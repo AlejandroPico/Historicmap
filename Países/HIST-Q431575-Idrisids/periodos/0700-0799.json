@@ -1,0 +1,217 @@
+{
+  "key": "HIST-Q431575",
+  "identity": {
+    "qid": "Q431575",
+    "name": "Idrisids"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Imán idrisí",
+      "officePattern": "Imam|Emir|Sultan",
+      "titles": [
+        "Idris I of Morocco",
+        "Idris II of Morocco"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q438601",
+      "name": "Idrís I",
+      "role": "Imán idrisí",
+      "start": "0788-01-01",
+      "end": "0791-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Idris_I_of_Morocco",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 788,
+      "end": 799,
+      "tags": [
+        "monarchy",
+        "theocracy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Idrisid_dynasty",
+      "sourceLabel": "Institución histórica documentada",
+      "note": "Clasificación de la dignidad histórica, no evaluación democrática ni control homogéneo de cada territorio. Las referencias cartográficas anteriores a la formación política no adelantan esta categoría."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Idrisids"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Idrisids",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "24c20b03628f195eefb186b9d66e46d1b1366ee398b0c6007c7c48dba087f2ea",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2984
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Idris I of Morocco",
+        "title": "Idris I of Morocco",
+        "person": "Q438601",
+        "name": "Idrís I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Idris_I_of_Morocco",
+        "identityResolution": {
+          "requested": "Idris I of Morocco",
+          "canonical": "Idris I of Morocco",
+          "qid": "Q438601"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q166382",
+          "start": "0788-01-01",
+          "end": "0791-01-01",
+          "precision": 9,
+          "statement": "Q438601$de4308f7-483f-9906-df00-a24a57254720",
+          "label": "emir"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q438601",
+        "title": "Idris I of Morocco",
+        "source": "https://en.wikipedia.org/wiki/Idris_I_of_Morocco",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emir",
+            "raw": "788–791",
+            "parsed": {
+              "start": "0788-01-01",
+              "end": "0791-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Idrisid Emir",
+            "raw": "788–791",
+            "parsed": {
+              "start": "0788-01-01",
+              "end": "0791-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Idris II of Morocco",
+        "title": "Idris II of Morocco",
+        "person": "Q922653",
+        "name": "Idrís II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Idris_II_of_Morocco",
+        "identityResolution": {
+          "requested": "Idris II of Morocco",
+          "canonical": "Idris II of Morocco",
+          "qid": "Q922653"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q6417829",
+          "start": "0791-01-01",
+          "end": "0828-01-01",
+          "precision": 9,
+          "statement": "Q922653$d690f670-45d8-e061-4c03-71577d194d1a",
+          "label": "Emir"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q922653",
+        "title": "Idris II of Morocco",
+        "source": "https://en.wikipedia.org/wiki/Idris_II_of_Morocco",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emir",
+            "raw": "803 – 828",
+            "parsed": {
+              "start": "0803-01-01",
+              "end": "0828-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q438601",
+        "title": "Idris I of Morocco",
+        "source": "https://en.wikipedia.org/wiki/Idris_I_of_Morocco",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emir",
+          "raw": "788–791",
+          "parsed": {
+            "start": "0788-01-01",
+            "end": "0791-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  }
+}

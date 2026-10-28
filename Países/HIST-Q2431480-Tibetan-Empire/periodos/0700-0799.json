@@ -1,0 +1,487 @@
+{
+  "key": "HIST-Q2431480",
+  "identity": {
+    "qid": "Q2431480",
+    "name": "Tibetan Empire"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador tibetano · tsenpo",
+      "officePattern": "Emperor.*Tibet|Tsenpo",
+      "titles": [
+        "Tridu Songtsen",
+        "Me Agtsom",
+        "Trisong Detsen",
+        "Muné Tsenpo",
+        "Sadnalegs"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2666817",
+      "name": "Tridu Songtsen",
+      "role": "Emperador tibetano · tsenpo",
+      "start": "0700-01-01",
+      "end": "0704-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tridu_Songtsen",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q2187385",
+      "name": "Tridé Tsuktsen",
+      "role": "Emperador tibetano · tsenpo",
+      "start": "0705-01-01",
+      "end": "0755-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/M%C3%A9_Aktsom",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q366661",
+      "name": "Trisong Detsen",
+      "role": "Emperador tibetano · tsenpo",
+      "start": "0755-01-01",
+      "end": "0797-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Trisong_Detsen",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q2420583",
+      "name": "Muné Tsenpo",
+      "role": "Emperador tibetano · tsenpo",
+      "start": "0797-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mun%C3%A9_Tsenpo",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación de fuente; no evaluación contemporánea ni control homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Tibetan Empire"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Tibetan Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "f871eca0e8ebb67a4b33d368544304b0a84f00bd6e6e7bc9bf8ace2974c6926a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2624,
+        2655,
+        2679,
+        2720,
+        2761,
+        2799,
+        2837,
+        2847,
+        2868,
+        2895,
+        2946,
+        2976
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Me Agtsom",
+        "title": "Me Agtsom",
+        "person": "Q2187385",
+        "name": "Tridé Tsuktsen",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/M%C3%A9_Aktsom",
+        "identityResolution": {
+          "requested": "Me Agtsom",
+          "canonical": "Mé Aktsom",
+          "qid": "Q2187385"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q20019155",
+          "start": "0705-01-01",
+          "end": "0755-01-01",
+          "precision": 9,
+          "statement": "Q2187385$e91c788e-4286-a7d1-4f9b-333d55bf00ee",
+          "label": "tsenpo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2187385",
+        "title": "Mé Aktsom",
+        "source": "https://en.wikipedia.org/wiki/M%C3%A9_Aktsom",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tibet",
+            "raw": "705–755",
+            "parsed": {
+              "start": "0705-01-01",
+              "end": "0755-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Tibet",
+            "raw": "r. 705–755",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Muné Tsenpo",
+        "title": "Muné Tsenpo",
+        "person": "Q2420583",
+        "name": "Muné Tsenpo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mun%C3%A9_Tsenpo",
+        "identityResolution": {
+          "requested": "Muné Tsenpo",
+          "canonical": "Muné Tsenpo",
+          "qid": "Q2420583"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q20019155",
+          "start": "0797-01-01",
+          "end": "0799-01-01",
+          "precision": 9,
+          "statement": "Q2420583$c87746d6-422e-1fd4-a607-f2942fe3db8a",
+          "label": "tsenpo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2420583",
+        "title": "Muné Tsenpo",
+        "source": "https://en.wikipedia.org/wiki/Mun%C3%A9_Tsenpo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tibet",
+            "raw": "797–799",
+            "parsed": {
+              "start": "0797-01-01",
+              "end": "0799-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Tibet",
+            "raw": "797–804?",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sadnalegs",
+        "title": "Sadnalegs",
+        "person": "Q1910177",
+        "name": "Sadnalegs",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sadnalegs",
+        "identityResolution": {
+          "requested": "Sadnalegs",
+          "canonical": "Sadnalegs",
+          "qid": "Q1910177"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1910177",
+        "title": "Sadnalegs",
+        "source": "https://en.wikipedia.org/wiki/Sadnalegs",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tibet",
+            "raw": "800 – 815",
+            "parsed": {
+              "start": "0800-01-01",
+              "end": "0815-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Tibet",
+            "raw": "c. 800/804–815",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tridu Songtsen",
+        "title": "Tridu Songtsen",
+        "person": "Q2666817",
+        "name": "Tridu Songtsen",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tridu_Songtsen",
+        "identityResolution": {
+          "requested": "Tridu Songtsen",
+          "canonical": "Tridu Songtsen",
+          "qid": "Q2666817"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q20019155",
+          "start": "0676-01-01",
+          "end": "0704-01-01",
+          "precision": 9,
+          "statement": "Q2666817$50056c94-43b3-6ae3-e667-ac0008957680",
+          "label": "tsenpo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2666817",
+        "title": "Tridu Songtsen",
+        "source": "https://en.wikipedia.org/wiki/Tridu_Songtsen",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tibet",
+            "raw": "{{Circa}} 676 – 704",
+            "parsed": {
+              "start": "0676-01-01",
+              "end": "0704-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Tibet",
+            "raw": "r. 676–704",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Trisong Detsen",
+        "title": "Trisong Detsen",
+        "person": "Q366661",
+        "name": "Trisong Detsen",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Trisong_Detsen",
+        "identityResolution": {
+          "requested": "Trisong Detsen",
+          "canonical": "Trisong Detsen",
+          "qid": "Q366661"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q20019155",
+          "start": "0755-01-01",
+          "end": "0797-01-01",
+          "precision": 9,
+          "statement": "Q366661$d4de60e7-435e-0d33-107e-db1d003e14ca",
+          "label": "tsenpo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q366661",
+        "title": "Trisong Detsen",
+        "source": "https://en.wikipedia.org/wiki/Trisong_Detsen",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tibet",
+            "raw": "755–797",
+            "parsed": {
+              "start": "0755-01-01",
+              "end": "0797-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Tibet",
+            "raw": "r. 755 – 797 or 804",
+            "parsed": null
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2666817",
+        "title": "Tridu Songtsen",
+        "source": "https://en.wikipedia.org/wiki/Tridu_Songtsen",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q20019155",
+          "start": "0676-01-01",
+          "end": "0704-01-01",
+          "precision": 9,
+          "statement": "Q2666817$50056c94-43b3-6ae3-e667-ac0008957680",
+          "label": "tsenpo"
+        }
+      },
+      {
+        "person": "Q2187385",
+        "title": "Me Agtsom",
+        "source": "https://en.wikipedia.org/wiki/M%C3%A9_Aktsom",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q20019155",
+          "start": "0705-01-01",
+          "end": "0755-01-01",
+          "precision": 9,
+          "statement": "Q2187385$e91c788e-4286-a7d1-4f9b-333d55bf00ee",
+          "label": "tsenpo"
+        }
+      },
+      {
+        "person": "Q366661",
+        "title": "Trisong Detsen",
+        "source": "https://en.wikipedia.org/wiki/Trisong_Detsen",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q20019155",
+          "start": "0755-01-01",
+          "end": "0797-01-01",
+          "precision": 9,
+          "statement": "Q366661$d4de60e7-435e-0d33-107e-db1d003e14ca",
+          "label": "tsenpo"
+        }
+      },
+      {
+        "person": "Q2420583",
+        "title": "Muné Tsenpo",
+        "source": "https://en.wikipedia.org/wiki/Mun%C3%A9_Tsenpo",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q20019155",
+          "start": "0797-01-01",
+          "end": "0799-01-01",
+          "precision": 9,
+          "statement": "Q2420583$c87746d6-422e-1fd4-a607-f2942fe3db8a",
+          "label": "tsenpo"
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Sadnalegs",
+        "person": "Q1910177",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-34",
+      "name": "Lhasa · centro tibetano",
+      "coordinates": [
+        91.117,
+        29.65
+      ],
+      "start": 700,
+      "end": 799,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Tibetan_Empire",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q366661",
+      "title": "Emperor Trisong Detsen.jpg",
+      "reason": "Composición religiosa con varias figuras; encuadre e identificación individual no adecuados para la ficha.",
+      "source": "https://commons.wikimedia.org/wiki/File:Emperor_Trisong_Detsen.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q366661",
+      "name": "Trisong Detsen",
+      "title": "Emperor Trisong Detsen.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Emperor_Trisong_Detsen.jpg",
+      "sha256": "3fcdbb31ef3f5b7883e25c5bb2c3b8127658c465eec2f91d510538ca9491ad81",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Composición religiosa con varias figuras; encuadre e identificación individual no adecuados para la ficha."
+    }
+  ]
+}

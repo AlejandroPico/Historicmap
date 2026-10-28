@@ -1,0 +1,682 @@
+{
+  "key": "VISIGOTHIC-KINGDOM",
+  "identity": {
+    "qid": "Q126936",
+    "name": "Reino visigodo"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey visigodo · sucesiones y poderes rivales",
+      "officePattern": "King.*Visigoth|King.*Hispania",
+      "titles": [
+        "Egica",
+        "Wittiza",
+        "Roderic",
+        "Achila II",
+        "Ardo"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q350672",
+      "name": "Witiza",
+      "role": "Rey visigodo · sucesiones y poderes rivales",
+      "start": "0700-01-01",
+      "end": "0710-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wittiza",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-98cca8182e65f6ebfd28.jpg",
+        "title": "34-WITIZA.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:34-WITIZA.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/34-WITIZA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Upload by Basilio",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:34-WITIZA.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Retratos de los reyes de Espana ..., libro digitalizado por Google",
+        "sha256": "cd57b830bc9a2a2d9522de114ff468c649af74350db8b16029e4e3efdb102c7d",
+        "bytes": 340352,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-98cca8182e65f6ebfd28.jpg",
+        "caption": "Retrato imaginario posterior de Witiza; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q243573",
+      "name": "Rodrigo",
+      "role": "Rey visigodo · sucesiones y poderes rivales",
+      "start": "0710-01-01",
+      "end": "0711-07-01",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Roderic",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-5674d86718a1026bf7c4.jpg",
+        "title": "Don Rodrigo, rey de los visigodos (Museo del Prado).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Don_Rodrigo,_rey_de_los_visigodos_(Museo_del_Prado).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Don_Rodrigo%2C_rey_de_los_visigodos_%28Museo_del_Prado%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Mariano de la Roca y Delgado",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Don_Rodrigo,_rey_de_los_visigodos_(Museo_del_Prado).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[2]",
+        "sha256": "70ea132de7170995d8866f7d54528e38a3ebe4ee4dd13bc68e45d9ef798c066d",
+        "bytes": 921129,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-5674d86718a1026bf7c4.jpg",
+        "caption": "Retrato imaginario posterior de Rodrigo; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q393730",
+      "name": "Agila II",
+      "role": "Rey visigodo · sucesiones y poderes rivales",
+      "start": "0711-01-01",
+      "end": "0714-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Achila_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q639737",
+      "name": "Ardón",
+      "role": "Rey visigodo · sucesiones y poderes rivales",
+      "start": "0714-01-01",
+      "end": "0720-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ardo",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q318276",
+      "name": "Égica",
+      "role": "Rey visigodo · final de reinado discutido",
+      "start": "0700-01-01",
+      "end": "0703-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Egica",
+      "note": "La fuente ofrece finales701/703 y noviembre/diciembre702. Se conserva una ventana de incertidumbre, no un día de relevo certificado ni una proyección sobre todo el territorio.",
+      "endIsUpperBound": true,
+      "portrait": {
+        "file": "media/portrait-01f8830cf0850fdccd86.jpg",
+        "title": "Égica, rey de los Visigodos (Museo del Prado).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%C3%89gica,_rey_de_los_Visigodos_(Museo_del_Prado).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/%C3%89gica%2C_rey_de_los_Visigodos_%28Museo_del_Prado%29.jpg/330px-%C3%89gica%2C_rey_de_los_Visigodos_%28Museo_del_Prado%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Carlos Esquivel y Rivas",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%C3%89gica,_rey_de_los_Visigodos_(Museo_del_Prado).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[2]",
+        "sha256": "22be782328943039762909530247352d76f6b1e2dc8370b2cbb27302995090bd",
+        "bytes": 37949,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-01f8830cf0850fdccd86.jpg",
+        "caption": "Retrato imaginario posterior de Égica; no retrato contemporáneo."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review033-conquest",
+      "type": "conflict",
+      "title": "Conquista y fragmentación de los poderes visigodos",
+      "start": "0711-01-01",
+      "end": "0721-01-01",
+      "text": "La conquista iniciada en711 y las autoridades de Agila y Ardón en el nordeste tienen fases distintas. El contorno de fuente no certifica un único poder visigodo de toda la península después de711.",
+      "source": "https://en.wikipedia.org/wiki/Umayyad_conquest_of_Hispania",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Visigothic Kingdom"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Reino visigodo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "441be19bb3d2d7ca838397b5e93dc78c7f5fef07541498238683f3f91f050f64",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2523,
+        2646,
+        2668,
+        2672
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Achila II",
+        "title": "Achila II",
+        "person": "Q393730",
+        "name": "Agila II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Achila_II",
+        "identityResolution": {
+          "requested": "Achila II",
+          "canonical": "Achila II",
+          "qid": "Q393730"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0710-01-01",
+          "end": "0713-01-01",
+          "precision": 9,
+          "statement": "Q393730$af6deda2-49c3-0a82-c17a-bf3b4815e6d5",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q393730",
+        "title": "Achila II",
+        "source": "https://en.wikipedia.org/wiki/Achila_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "710/711 – 714",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "711–714",
+            "parsed": {
+              "start": "0711-01-01",
+              "end": "0714-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "<small>in opposition to [[Roderic]]</small>",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ardo",
+        "title": "Ardo",
+        "person": "Q639737",
+        "name": "Ardón",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ardo",
+        "identityResolution": {
+          "requested": "Ardo",
+          "canonical": "Ardo",
+          "qid": "Q639737"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0713-01-01",
+          "end": "0720-01-01",
+          "precision": 9,
+          "statement": "Q639737$d6bbac31-e85a-45b3-af1d-ee6b65648b75",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q639737",
+        "title": "Ardo",
+        "source": "https://en.wikipedia.org/wiki/Ardo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "713/714 – 720/721",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "714–720",
+            "parsed": {
+              "start": "0714-01-01",
+              "end": "0720-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Egica",
+        "title": "Egica",
+        "person": "Q318276",
+        "name": "Égica",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Egica",
+        "identityResolution": {
+          "requested": "Egica",
+          "canonical": "Egica",
+          "qid": "Q318276"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0687-01-01",
+          "end": "0702-01-01",
+          "precision": 9,
+          "statement": "Q318276$84d23e23-4733-b675-dd50-a44018554a8b",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q318276",
+        "title": "Egica",
+        "source": "https://en.wikipedia.org/wiki/Egica",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "15 November 687 – 701/703",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "15 November 687 – November/December 702",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Roderic",
+        "title": "Roderic",
+        "person": "Q243573",
+        "name": "Rodrigo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Roderic",
+        "identityResolution": {
+          "requested": "Roderic",
+          "canonical": "Roderic",
+          "qid": "Q243573"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0710-01-01",
+          "end": "0711-01-01",
+          "precision": 9,
+          "statement": "Q243573$69e29b91-545b-4c29-8554-e8c32c8d1232",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q243573",
+        "title": "Roderic",
+        "source": "https://en.wikipedia.org/wiki/Roderic",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "710 – July 711",
+            "parsed": {
+              "start": "0710-01-01",
+              "end": "0711-07-01",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "710–711",
+            "parsed": {
+              "start": "0710-01-01",
+              "end": "0711-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wittiza",
+        "title": "Wittiza",
+        "person": "Q350672",
+        "name": "Witiza",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wittiza",
+        "identityResolution": {
+          "requested": "Wittiza",
+          "canonical": "Wittiza",
+          "qid": "Q350672"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0700-01-01",
+          "end": "0710-01-01",
+          "precision": 9,
+          "statement": "Q350672$1ce23749-42e7-08bd-159d-9d48a7fadd81",
+          "label": "rey de los visigodos"
+        },
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0694-01-01",
+          "end": "0710-01-01",
+          "precision": 9,
+          "statement": "Q350672$c82df8ba-4f2e-2194-47fa-71917c5f3548",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q350672",
+        "title": "Wittiza",
+        "source": "https://en.wikipedia.org/wiki/Wittiza",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "694 – 710",
+            "parsed": {
+              "start": "0694-01-01",
+              "end": "0710-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "694–710",
+            "parsed": {
+              "start": "0694-01-01",
+              "end": "0710-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q350672",
+        "title": "Wittiza",
+        "source": "https://en.wikipedia.org/wiki/Wittiza",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Visigoths",
+          "raw": "694 – 710",
+          "parsed": {
+            "start": "0694-01-01",
+            "end": "0710-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q243573",
+        "title": "Roderic",
+        "source": "https://en.wikipedia.org/wiki/Roderic",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Visigoths",
+          "raw": "710 – July 711",
+          "parsed": {
+            "start": "0710-01-01",
+            "end": "0711-07-01",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q393730",
+        "title": "Achila II",
+        "source": "https://en.wikipedia.org/wiki/Achila_II",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of the Visigoths",
+          "raw": "711–714",
+          "parsed": {
+            "start": "0711-01-01",
+            "end": "0714-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q639737",
+        "title": "Ardo",
+        "source": "https://en.wikipedia.org/wiki/Ardo",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of the Visigoths",
+          "raw": "714–720",
+          "parsed": {
+            "start": "0714-01-01",
+            "end": "0720-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Egica",
+        "person": "Q318276",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q318276",
+      "name": "Égica",
+      "role": "Rey visigodo · final de reinado discutido",
+      "start": "0700-01-01",
+      "end": "0703-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Egica",
+      "note": "La fuente ofrece finales701/703 y noviembre/diciembre702. Se conserva una ventana de incertidumbre, no un día de relevo certificado ni una proyección sobre todo el territorio.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-3",
+      "name": "Toledo · sede regia",
+      "coordinates": [
+        -4.027,
+        39.858
+      ],
+      "start": 700,
+      "end": 711,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Visigothic_Kingdom",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    },
+    {
+      "id": "seat033-4",
+      "name": "Narbona · poderes visigodos tardíos",
+      "coordinates": [
+        3.003,
+        43.184
+      ],
+      "start": 712,
+      "end": 720,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Ardo",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año.",
+      "aggregateKey": "UMAYYAD-CALIPHATE",
+      "entityName": "Reino visigodo"
+    },
+    {
+      "id": "seat033-4-own",
+      "name": "Narbona · poderes visigodos tardíos",
+      "coordinates": [
+        3.003,
+        43.184
+      ],
+      "start": 712,
+      "end": 720,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Ardo",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review033-conquest",
+      "type": "conflict",
+      "title": "Conquista y fragmentación de los poderes visigodos",
+      "start": "0711-01-01",
+      "end": "0721-01-01",
+      "text": "La conquista iniciada en711 y las autoridades de Agila y Ardón en el nordeste tienen fases distintas. El contorno de fuente no certifica un único poder visigodo de toda la península después de711.",
+      "source": "https://en.wikipedia.org/wiki/Umayyad_conquest_of_Hispania",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review033-conquest",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.81,
+          36.69
+        ]
+      },
+      "properties": {
+        "name": "Conquista y fragmentación de los poderes visigodos",
+        "countries": [
+          "VISIGOTHIC-KINGDOM"
+        ],
+        "kind": "regional-conflict",
+        "start": "0711-01-01",
+        "end": "0720-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Umayyad_conquest_of_Hispania",
+        "sourceLabel": "Referencia documental · siglo VIII",
+        "note": "La conquista iniciada en711 y las autoridades de Agila y Ardón en el nordeste tienen fases distintas. El contorno de fuente no certifica un único poder visigodo de toda la península después de711. Referencia regional aproximada."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q350672",
+      "name": "Witiza",
+      "title": "34-WITIZA.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:34-WITIZA.JPG",
+      "sha256": "cd57b830bc9a2a2d9522de114ff468c649af74350db8b16029e4e3efdb102c7d",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Witiza; no retrato contemporáneo."
+    },
+    {
+      "person": "Q243573",
+      "name": "Rodrigo",
+      "title": "Don Rodrigo, rey de los visigodos (Museo del Prado).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Don_Rodrigo,_rey_de_los_visigodos_(Museo_del_Prado).jpg",
+      "sha256": "70ea132de7170995d8866f7d54528e38a3ebe4ee4dd13bc68e45d9ef798c066d",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Rodrigo; no retrato contemporáneo."
+    },
+    {
+      "person": "Q318276",
+      "name": "Égica",
+      "title": "Égica, rey de los Visigodos (Museo del Prado).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%C3%89gica,_rey_de_los_Visigodos_(Museo_del_Prado).jpg",
+      "sha256": "22be782328943039762909530247352d76f6b1e2dc8370b2cbb27302995090bd",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Égica; no retrato contemporáneo."
+    }
+  ]
+}

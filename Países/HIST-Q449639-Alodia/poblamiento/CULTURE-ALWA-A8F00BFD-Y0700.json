@@ -1,0 +1,63 @@
+{
+  "key": "CULTURE-ALWA-A8F00BFD-Y0700",
+  "contextKey": "CULTURE-ALWA-A8F00BFD",
+  "ownerKey": "HIST-Q449639",
+  "name": "Alwa",
+  "originalNames": [
+    "Alwa"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa editorial de700",
+  "decision": "political-base",
+  "reviewedRange": [
+    700,
+    799
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea700 contiene etiquetas de épocas distintas. La ventana700–799 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q449639"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    32.99878,
+    14.42802
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-ALWA-A8F00BFD-Y0700.geojson",
+  "geometrySha256": "bc55f375a470f8b2a5211c6fa8321ef4905a8d3676adf73d6da7eed771243157",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+    "year": 700,
+    "featureIds": [
+      20
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38"
+  },
+  "review": "0.33.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final799 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en800."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Alwa",
+      "ABBREVN": "Alwa",
+      "SUBJECTO": "Alwa",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Alwa"
+    }
+  ],
+  "sourceGrouping": [
+    "Alwa"
+  ]
+}

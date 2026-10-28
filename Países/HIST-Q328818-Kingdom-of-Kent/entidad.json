@@ -1,0 +1,126 @@
+{
+  "key": "HIST-Q328818",
+  "name": "Kingdom of Kent",
+  "qid": "Q328818",
+  "aliases": [
+    "Kingdom of Kent"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q328818"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q888048",
+      "name": "Wihtred de Kent",
+      "role": "Rey de Kent",
+      "start": "0700-01-01",
+      "end": "0725-04-23",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wihtred_of_Kent",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    },
+    {
+      "person": "Q272171",
+      "name": "Ethelberto II de Kent",
+      "role": "Rey de Kent",
+      "start": "0725-01-01",
+      "end": "0762-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%C3%86thelbert_II_of_Kent",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    },
+    {
+      "person": "Q888551",
+      "name": "Egbert II of Kent",
+      "role": "Rey de Kent",
+      "start": "0765-01-01",
+      "end": "0779-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ecgberht_II_of_Kent",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    },
+    {
+      "person": "Q285325",
+      "name": "Eadberht III Præn",
+      "role": "Rey de Kent",
+      "start": "0796-01-01",
+      "end": "0798-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Eadberht_III_Pr%C3%A6n",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2633",
+      "start": 705,
+      "end": 717,
+      "name": "Kingdom of Kent",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2687",
+      "start": 718,
+      "end": 740,
+      "name": "Kingdom of Kent",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2734",
+      "start": 741,
+      "end": 754,
+      "name": "Kingdom of Kent",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2815",
+      "start": 755,
+      "end": 756,
+      "name": "Kingdom of Kent",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2840",
+      "start": 757,
+      "end": 762,
+      "name": "Kingdom of Kent",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-CANTIA-5820FDF7-Y0700",
+      "ownerKey": "HIST-Q328818",
+      "name": "Cantia",
+      "file": "Países/HIST-Q328818-Kingdom-of-Kent/poblamiento/CULTURE-CANTIA-5820FDF7-Y0700.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

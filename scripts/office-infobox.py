@@ -26,7 +26,7 @@ def clean(raw):
  raw=re.sub(r'<ref\b[^>]*>.*?</ref>|<ref\b[^>]*/>','',raw,flags=re.I|re.S)
  raw=re.sub(r'\{\{(?:efn|sfn|refn|harvnb)\b[^{}]*\}\}','',raw,flags=re.I|re.S)
  raw=re.sub(r'\[\[(?:[^]|]*\|)?([^]]*)\]\]',r'\1',raw)
- raw=re.sub(r'\{\{(?:snd|ndash|mdash)\}\}','–',raw)
+ raw=re.sub(r'\{\{(?:snd|ndash|mdash|spaced ndash|spaced en dash)\}\}','–',raw,flags=re.I)
  raw=re.sub(r'\{\{circa\|(\d{3,4})\|(\d{3,4})(?:\s*CE)?\}\}',r'\1–\2',raw,flags=re.I)
  raw=re.sub(r'\{\{circa\|([^{}]*)\}\}',r'\1',raw,flags=re.I);raw=re.sub(r'\{\{circa\}\}','c. ',raw,flags=re.I)
  raw=re.sub(r'\b(?:CE|AD)\b','',raw)
@@ -63,9 +63,12 @@ def extract(text,include_succession=False):
     try:
      # Conventional abbreviated end years (953–77), not personal life dates.
      if re.fullmatch(r'\d{4}',pair[0])and re.fullmatch(r'\d{2}',pair[1]):pair[1]=pair[0][:2]+pair[1]
+     if re.fullmatch(r'\d{1,2} (?:'+ '|'.join(MONTHS)+')',pair[0])and re.search(r'\b\d{4}$',pair[1]):pair[0]+=' '+pair[1][-4:]
      a,pa=parse_date(pair[0]);b,pb=parse_date(pair[1],True)
      if a<=b:parsed=dict(start=a,end=b,precision=min(pa,pb))
     except ValueError:pass
+   elif re.fullmatch(r'(?:c\.?\s*)?\d{4}',value):
+    a,pa=parse_date(value);b,pb=parse_date(value,True);parsed=dict(start=a,end=b,precision=9)
    out.append(dict(field=field,office=clean(office),raw=part,parsed=parsed))
  for field,raw in p.items():
   m=re.fullmatch(r'term_start(\d*)',field)

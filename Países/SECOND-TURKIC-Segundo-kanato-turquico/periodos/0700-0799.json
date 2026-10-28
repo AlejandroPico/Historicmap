@@ -1,0 +1,548 @@
+{
+  "key": "SECOND-TURKIC",
+  "identity": {
+    "qid": "Q4833446",
+    "name": "Segundo kanato túrquico"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0744-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Kan del segundo poder túrquico",
+      "officePattern": "Khagan|Khan|Qaghan",
+      "titles": [
+        "Qapaghan Qaghan",
+        "Bilge Qaghan",
+        "Inel Qaghan",
+        "Yollıg Khagan",
+        "Tengri Qaghan",
+        "Özmiş Qaghan"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1325694",
+      "name": "Qapaghan Qaghan",
+      "role": "Kan del segundo poder túrquico",
+      "start": "0700-01-01",
+      "end": "0716-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qapaghan_Qaghan",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q381125",
+      "name": "Bilge Khagan",
+      "role": "Kan del segundo poder túrquico",
+      "start": "0717-02-01",
+      "end": "0734-11-25",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Bilge_Qaghan",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q4089938",
+      "name": "Inel Qagan",
+      "role": "Kan del segundo poder túrquico",
+      "start": "0716-01-01",
+      "end": "0717-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Inel_Qaghan",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q1014687",
+      "name": "Yiran Qaghan",
+      "role": "Kan del segundo poder túrquico",
+      "start": "0734-01-01",
+      "end": "0739-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yoll%C4%B1g_Khagan",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q1016974",
+      "name": "Tengri Qaghan",
+      "role": "Kan del segundo poder túrquico",
+      "start": "0739-01-01",
+      "end": "0741-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tengri_Qaghan",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q4332210",
+      "name": "Özmiş Khagan",
+      "role": "Kan del segundo poder túrquico",
+      "start": "0742-01-01",
+      "end": "0744-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%C3%96zmi%C5%9F_Khagan",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Second_Turkic_Khaganate",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bilge Qaghan",
+        "title": "Bilge Qaghan",
+        "person": "Q381125",
+        "name": "Bilge Khagan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bilge_Qaghan",
+        "identityResolution": {
+          "requested": "Bilge Qaghan",
+          "canonical": "Bilge Qaghan",
+          "qid": "Q381125"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q187878",
+          "start": "0717-01-01",
+          "end": "0734-01-01",
+          "precision": 9,
+          "statement": "Q381125$2f24e33c-42bb-0458-1885-1a78a35a389a",
+          "label": "gran kan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q381125",
+        "title": "Bilge Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Bilge_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Second Turkic Khaganate",
+            "raw": "February 717 – 25 November 734",
+            "parsed": {
+              "start": "0717-02-01",
+              "end": "0734-11-25",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Khagan of the Second Turkic Khaganate",
+            "raw": "717–734",
+            "parsed": {
+              "start": "0717-01-01",
+              "end": "0734-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Inel Qaghan",
+        "title": "Inel Qaghan",
+        "person": "Q4089938",
+        "name": "Inel Qagan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Inel_Qaghan",
+        "identityResolution": {
+          "requested": "Inel Qaghan",
+          "canonical": "Inel Qaghan",
+          "qid": "Q4089938"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q187878",
+          "start": "0716-01-01",
+          "end": "0716-01-01",
+          "precision": 9,
+          "statement": "Q4089938$369fa6b4-4bf3-d3e8-2617-ab748e6fa281",
+          "label": "gran kan"
+        },
+        {
+          "property": "P39",
+          "office": "Q187878",
+          "start": "0716-01-01",
+          "end": "0716-01-01",
+          "precision": 9,
+          "statement": "Q4089938$9ABE4C9D-80C3-4A13-9360-09446342B9D6",
+          "label": "gran kan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4089938",
+        "title": "Inel Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Inel_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Second Turkic Khaganate",
+            "raw": "716–717",
+            "parsed": {
+              "start": "0716-01-01",
+              "end": "0717-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Qapaghan Qaghan",
+        "title": "Qapaghan Qaghan",
+        "person": "Q1325694",
+        "name": "Qapaghan Qaghan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Qapaghan_Qaghan",
+        "identityResolution": {
+          "requested": "Qapaghan Qaghan",
+          "canonical": "Qapaghan Qaghan",
+          "qid": "Q1325694"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q187878",
+          "start": "0691-01-01",
+          "end": "0716-01-01",
+          "precision": 9,
+          "statement": "Q1325694$2664ccc5-4ff3-3142-3d3c-9cff9112a140",
+          "label": "gran kan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1325694",
+        "title": "Qapaghan Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Qapaghan_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Second Turkic Khaganate",
+            "raw": "692 – 716",
+            "parsed": {
+              "start": "0692-01-01",
+              "end": "0716-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tengri Qaghan",
+        "title": "Tengri Qaghan",
+        "person": "Q1016974",
+        "name": "Tengri Qaghan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tengri_Qaghan",
+        "identityResolution": {
+          "requested": "Tengri Qaghan",
+          "canonical": "Tengri Qaghan",
+          "qid": "Q1016974"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1016974",
+        "title": "Tengri Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Tengri_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Second Turkic Khaganate",
+            "raw": "739–741",
+            "parsed": {
+              "start": "0739-01-01",
+              "end": "0741-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Qaghan of the Second Turkic Khaganate",
+            "raw": "739–741",
+            "parsed": {
+              "start": "0739-01-01",
+              "end": "0741-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yollıg Khagan",
+        "title": "Yollıg Khagan",
+        "person": "Q1014687",
+        "name": "Yiran Qaghan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yoll%C4%B1g_Khagan",
+        "identityResolution": {
+          "requested": "Yollıg Khagan",
+          "canonical": "Yollıg Khagan",
+          "qid": "Q1014687"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1014687",
+        "title": "Yollıg Khagan",
+        "source": "https://en.wikipedia.org/wiki/Yoll%C4%B1g_Khagan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Second Turkic Khaganate",
+            "raw": "734–739",
+            "parsed": {
+              "start": "0734-01-01",
+              "end": "0739-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Khagan of the Second Turkic Khaganate",
+            "raw": "734–739",
+            "parsed": {
+              "start": "0734-01-01",
+              "end": "0739-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Özmiş Qaghan",
+        "title": "Özmiş Qaghan",
+        "person": "Q4332210",
+        "name": "Özmiş Khagan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%96zmi%C5%9F_Khagan",
+        "identityResolution": {
+          "requested": "Özmiş Qaghan",
+          "canonical": "Özmiş Khagan",
+          "qid": "Q4332210"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4332210",
+        "title": "Özmiş Khagan",
+        "source": "https://en.wikipedia.org/wiki/%C3%96zmi%C5%9F_Khagan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Second Turkic Khaganate",
+            "raw": "742–744",
+            "parsed": {
+              "start": "0742-01-01",
+              "end": "0744-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "identityEvidence": {
+    "source": "https://en.wikipedia.org/wiki/Second_Turkic_Khaganate",
+    "method": "Canonical article pageprops; not an assumed modern-country identity."
+  },
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1325694",
+        "title": "Qapaghan Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Qapaghan_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Second Turkic Khaganate",
+          "raw": "692 – 716",
+          "parsed": {
+            "start": "0692-01-01",
+            "end": "0716-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q381125",
+        "title": "Bilge Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Bilge_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Second Turkic Khaganate",
+          "raw": "February 717 – 25 November 734",
+          "parsed": {
+            "start": "0717-02-01",
+            "end": "0734-11-25",
+            "precision": 10
+          }
+        }
+      },
+      {
+        "person": "Q4089938",
+        "title": "Inel Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Inel_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Second Turkic Khaganate",
+          "raw": "716–717",
+          "parsed": {
+            "start": "0716-01-01",
+            "end": "0717-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q1014687",
+        "title": "Yollıg Khagan",
+        "source": "https://en.wikipedia.org/wiki/Yoll%C4%B1g_Khagan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Second Turkic Khaganate",
+          "raw": "734–739",
+          "parsed": {
+            "start": "0734-01-01",
+            "end": "0739-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q1016974",
+        "title": "Tengri Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Tengri_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Second Turkic Khaganate",
+          "raw": "739–741",
+          "parsed": {
+            "start": "0739-01-01",
+            "end": "0741-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q4332210",
+        "title": "Özmiş Qaghan",
+        "source": "https://en.wikipedia.org/wiki/%C3%96zmi%C5%9F_Khagan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Second Turkic Khaganate",
+          "raw": "742–744",
+          "parsed": {
+            "start": "0742-01-01",
+            "end": "0744-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-36",
+      "name": "Ötüken · referencia de centro túrquico",
+      "coordinates": [
+        102.82,
+        47.56
+      ],
+      "start": 700,
+      "end": 744,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Second_Turkic_Khaganate",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año.",
+      "aggregateKey": "HIST-Q2118293",
+      "entityName": "Segundo kanato túrquico"
+    },
+    {
+      "id": "seat033-36-own",
+      "name": "Ötüken · referencia de centro túrquico",
+      "coordinates": [
+        102.82,
+        47.56
+      ],
+      "start": 700,
+      "end": 744,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Second_Turkic_Khaganate",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q381125",
+      "title": "Turkic 8th Century Marble Statue of Bilge Khan (35580731981).jpg",
+      "reason": "Estatua sin cabeza; no se usa como retrato del gobernante.",
+      "source": "https://commons.wikimedia.org/wiki/File:Turkic_8th_Century_Marble_Statue_of_Bilge_Khan_(35580731981).jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q381125",
+      "name": "Bilge Khagan",
+      "title": "Turkic 8th Century Marble Statue of Bilge Khan (35580731981).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Turkic_8th_Century_Marble_Statue_of_Bilge_Khan_(35580731981).jpg",
+      "sha256": "d668c3633565b54bba9de50b3fead318e13dc7d4b96ed2a680ce907294787918",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Estatua sin cabeza; no se usa como retrato del gobernante."
+    }
+  ]
+}

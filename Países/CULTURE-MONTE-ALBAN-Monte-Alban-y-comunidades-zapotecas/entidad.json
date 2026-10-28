@@ -1,0 +1,52 @@
+{
+  "key": "CULTURE-MONTE-ALBAN",
+  "name": "Monte Albán y comunidades zapotecas",
+  "qid": "",
+  "aliases": [
+    "Monte Albán",
+    "Monte Albán y comunidades zapotecas"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 125,
+      "start": null,
+      "end": null,
+      "name": "Monte Albán",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 9,
+      "start": null,
+      "end": null,
+      "name": "Monte Albán",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MONTE-ALBAN-Y0700:0",
+      "contextKey": "CULTURE-MONTE-ALBAN",
+      "start": 700,
+      "end": 799,
+      "sourceYear": 700,
+      "canonicalFile": "Países/CULTURE-MONTE-ALBAN-Monte-Alban-y-comunidades-zapotecas/poblamiento/CULTURE-MONTE-ALBAN-Y0700.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

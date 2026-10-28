@@ -1,0 +1,334 @@
+{
+  "key": "HIST-Q816814",
+  "identity": {
+    "qid": "Q816814",
+    "name": "Kingdom of Gwynedd"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Gwynedd",
+      "officePattern": "King.*Gwynedd",
+      "titles": [
+        "Idwal Iwrch",
+        "Rhodri Molwynog",
+        "Cynan Dindaethwy",
+        "Hywel ap Rhodri Molwynog"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q664568",
+      "name": "Idwal Iwrch",
+      "role": "Rey de Gwynedd",
+      "start": "0700-01-01",
+      "end": "0720-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Idwal_Iwrch",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q669275",
+      "name": "Rhodri Molwynog",
+      "role": "Rey de Gwynedd",
+      "start": "0720-01-01",
+      "end": "0754-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rhodri_Molwynog",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q2670643",
+      "name": "Cynan Dindaethwy",
+      "role": "Rey de Gwynedd",
+      "start": "0798-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cynan_Dindaethwy",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Gwynedd"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Kingdom of Gwynedd",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "ed8cb050c9d357839741a33f868e25aa2cdf214e789544c4a32cf6be55375243",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2516,
+        2654
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Cynan Dindaethwy",
+        "title": "Cynan Dindaethwy",
+        "person": "Q2670643",
+        "name": "Cynan Dindaethwy",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cynan_Dindaethwy",
+        "identityResolution": {
+          "requested": "Cynan Dindaethwy",
+          "canonical": "Cynan Dindaethwy",
+          "qid": "Q2670643"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q139765204",
+          "start": "0798-01-01",
+          "end": "0816-01-01",
+          "precision": 9,
+          "statement": "Q2670643$fd2201e2-4097-cb34-6d45-0b634413017a",
+          "label": "King of Gwynedd"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2670643",
+        "title": "Cynan Dindaethwy",
+        "source": "https://en.wikipedia.org/wiki/Cynan_Dindaethwy",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Gwynedd",
+            "raw": "c. 798 – c. 816",
+            "parsed": {
+              "start": "0798-01-01",
+              "end": "0816-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hywel ap Rhodri Molwynog",
+        "title": "Hywel ap Rhodri Molwynog",
+        "person": "Q2670597",
+        "name": "Hywel ap Rhodri Molwynog",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hywel_Farf-fehinog",
+        "identityResolution": {
+          "requested": "Hywel ap Rhodri Molwynog",
+          "canonical": "Hywel Farf-fehinog",
+          "qid": "Q2670597"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2670597",
+        "title": "Hywel Farf-fehinog",
+        "source": "https://en.wikipedia.org/wiki/Hywel_Farf-fehinog",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Idwal Iwrch",
+        "title": "Idwal Iwrch",
+        "person": "Q664568",
+        "name": "Idwal Iwrch",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Idwal_Iwrch",
+        "identityResolution": {
+          "requested": "Idwal Iwrch",
+          "canonical": "Idwal Iwrch",
+          "qid": "Q664568"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q139765204",
+          "start": "0682-01-01",
+          "end": "0720-01-01",
+          "precision": 9,
+          "statement": "Q664568$9d67533f-42eb-292f-9c3d-6de8ae58a24b",
+          "label": "King of Gwynedd"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q664568",
+        "title": "Idwal Iwrch",
+        "source": "https://en.wikipedia.org/wiki/Idwal_Iwrch",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Gwynedd",
+            "raw": "c. 682 – c. 720",
+            "parsed": {
+              "start": "0682-01-01",
+              "end": "0720-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rhodri Molwynog",
+        "title": "Rhodri Molwynog",
+        "person": "Q669275",
+        "name": "Rhodri Molwynog",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rhodri_Molwynog",
+        "identityResolution": {
+          "requested": "Rhodri Molwynog",
+          "canonical": "Rhodri Molwynog",
+          "qid": "Q669275"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q139765204",
+          "start": "0720-01-01",
+          "end": "0754-01-01",
+          "precision": 9,
+          "statement": "Q669275$b90be9a2-4a46-8c61-a34c-b3f658a8fd54",
+          "label": "King of Gwynedd"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q669275",
+        "title": "Rhodri Molwynog",
+        "source": "https://en.wikipedia.org/wiki/Rhodri_Molwynog",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Gwynedd",
+            "raw": "c. 720 - c. 754",
+            "parsed": {
+              "start": "0720-01-01",
+              "end": "0754-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q664568",
+        "title": "Idwal Iwrch",
+        "source": "https://en.wikipedia.org/wiki/Idwal_Iwrch",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Gwynedd",
+          "raw": "c. 682 – c. 720",
+          "parsed": {
+            "start": "0682-01-01",
+            "end": "0720-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q669275",
+        "title": "Rhodri Molwynog",
+        "source": "https://en.wikipedia.org/wiki/Rhodri_Molwynog",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Gwynedd",
+          "raw": "c. 720 - c. 754",
+          "parsed": {
+            "start": "0720-01-01",
+            "end": "0754-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2670643",
+        "title": "Cynan Dindaethwy",
+        "source": "https://en.wikipedia.org/wiki/Cynan_Dindaethwy",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Gwynedd",
+          "raw": "c. 798 – c. 816",
+          "parsed": {
+            "start": "0798-01-01",
+            "end": "0816-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Hywel ap Rhodri Molwynog",
+        "person": "Q2670597",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  }
+}

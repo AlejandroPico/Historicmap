@@ -1,0 +1,391 @@
+{
+  "key": "HIST-Q2816439",
+  "identity": {
+    "qid": "Q2816439",
+    "name": "Dabuyid Dynasty"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Ispahbad de Tabaristán · poder dabuyí",
+      "officePattern": "Ispahbad|King.*Tabaristan|Ruler.*Tabaristan",
+      "titles": [
+        "Farrukhan the Great",
+        "Dadhburzmihr",
+        "Khurshid of Tabaristan"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2381085",
+      "name": "Farruján el Grande",
+      "role": "Ispahbad de Tabaristán · poder dabuyí",
+      "start": "0712-01-01",
+      "end": "0728-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Farrukhan_the_Great",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q6412829",
+      "name": "Dadhburzmihr",
+      "role": "Ispahbad de Tabaristán",
+      "start": "0728-01-01",
+      "end": "0741-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dadhburzmihr",
+      "note": "Reinado728–740/741 de los campos explícitos; el extremo741 es una alternativa cronológica, no una fecha exacta.",
+      "endIsUpperBound": true
+    },
+    {
+      "person": "Q3612968",
+      "name": "Khurshid",
+      "role": "Ispahbad de Tabaristán",
+      "start": "0740-01-01",
+      "end": "0760-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khurshid_of_Tabaristan",
+      "note": "Campo de reinado740–760 y tabla de dignidad740–759/760. Se mantiene incertidumbre al final; no inferido de fechas personales.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Dabuyid Dynasty"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Dabuyid Dynasty",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "2103f95f9dd03b3adf7f4f95b2d53dc27fac7a7086ad67baab0d927088c1f239",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2486,
+        2690,
+        2775,
+        2805,
+        2821
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dadhburzmihr",
+        "title": "Dadhburzmihr",
+        "person": "Q6412829",
+        "name": "Dadhburzmihr",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dadhburzmihr",
+        "identityResolution": {
+          "requested": "Dadhburzmihr",
+          "canonical": "Dadhburzmihr",
+          "qid": "Q6412829"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6412829",
+        "title": "Dadhburzmihr",
+        "source": "https://en.wikipedia.org/wiki/Dadhburzmihr",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "728–740/1",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Ispahbadh of Tabaristan",
+            "raw": "728–740/1",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Farrukhan the Great",
+        "title": "Farrukhan the Great",
+        "person": "Q2381085",
+        "name": "Farruján el Grande",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Farrukhan_the_Great",
+        "identityResolution": {
+          "requested": "Farrukhan the Great",
+          "canonical": "Farrukhan the Great",
+          "qid": "Q2381085"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q126220062",
+          "start": "0712-01-01",
+          "end": "0728-01-01",
+          "precision": 9,
+          "statement": "Q2381085$8f596838-4f2d-3f3e-7da8-8b50830bb1d7",
+          "label": "Spahbod de Tabaristán"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2381085",
+        "title": "Farrukhan the Great",
+        "source": "https://en.wikipedia.org/wiki/Farrukhan_the_Great",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ispahbadh of the Dabuyid dynasty",
+            "raw": "712–728",
+            "parsed": {
+              "start": "0712-01-01",
+              "end": "0728-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Ispahbadh of Tabaristan",
+            "raw": "712–728",
+            "parsed": {
+              "start": "0712-01-01",
+              "end": "0728-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Khurshid of Tabaristan",
+        "title": "Khurshid of Tabaristan",
+        "person": "Q3612968",
+        "name": "Khurshid de Tabaristán",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khurshid_of_Tabaristan",
+        "identityResolution": {
+          "requested": "Khurshid of Tabaristan",
+          "canonical": "Khurshid of Tabaristan",
+          "qid": "Q3612968"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q126220062",
+          "start": "0740-01-01",
+          "end": "0761-01-01",
+          "precision": 9,
+          "statement": "Q3612968$469598ec-4d48-a5fd-5509-a4c73981a329",
+          "label": "Spahbod de Tabaristán"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3612968",
+        "title": "Khurshid of Tabaristan",
+        "source": "https://en.wikipedia.org/wiki/Khurshid_of_Tabaristan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "740–760",
+            "parsed": {
+              "start": "0740-01-01",
+              "end": "0760-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Ispahbadh of Tabaristan",
+            "raw": "740–759/760",
+            "parsed": null
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2381085",
+        "title": "Farrukhan the Great",
+        "source": "https://en.wikipedia.org/wiki/Farrukhan_the_Great",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ispahbadh of the Dabuyid dynasty",
+          "raw": "712–728",
+          "parsed": {
+            "start": "0712-01-01",
+            "end": "0728-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Dadhburzmihr",
+        "person": "Q6412829",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Khurshid of Tabaristan",
+        "person": "Q3612968",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q6412829",
+      "name": "Dadhburzmihr",
+      "role": "Ispahbad de Tabaristán",
+      "start": "0728-01-01",
+      "end": "0741-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dadhburzmihr",
+      "note": "Reinado728–740/741 de los campos explícitos; el extremo741 es una alternativa cronológica, no una fecha exacta.",
+      "endIsUpperBound": true
+    },
+    {
+      "person": "Q3612968",
+      "name": "Khurshid",
+      "role": "Ispahbad de Tabaristán",
+      "start": "0740-01-01",
+      "end": "0760-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khurshid_of_Tabaristan",
+      "note": "Campo de reinado740–760 y tabla de dignidad740–759/760. Se mantiene incertidumbre al final; no inferido de fechas personales.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-41",
+      "name": "Sari · referencia de Tabaristán",
+      "coordinates": [
+        53.058,
+        36.565
+      ],
+      "start": 700,
+      "end": 760,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Dabuyid_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q2381085",
+      "title": "Ispahbod FarXan's coin-3.jpg",
+      "reason": "Imitación de tipo monetario sasánida; no acredita fisonomía del gobernante dabuyí.",
+      "source": "https://commons.wikimedia.org/wiki/File:Ispahbod_FarXan%27s_coin-3.jpg"
+    },
+    {
+      "person": "Q6412829",
+      "title": "Dād-būrzmihr.jpg",
+      "reason": "Tipo monetario sasánida; no acredita fisonomía del gobernante dabuyí.",
+      "source": "https://commons.wikimedia.org/wiki/File:D%C4%81d-b%C5%ABrzmihr.jpg"
+    },
+    {
+      "person": "Q3612968",
+      "title": "Ispahbod Xurshid's coin-1.jpg",
+      "reason": "Tipo monetario sasánida; no acredita fisonomía del gobernante dabuyí.",
+      "source": "https://commons.wikimedia.org/wiki/File:Ispahbod_Xurshid%27s_coin-1.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q2381085",
+      "name": "Farruján el Grande",
+      "title": "Ispahbod FarXan's coin-3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ispahbod_FarXan%27s_coin-3.jpg",
+      "sha256": "458d8895d9c2747184ef5833428ff69b648c9b2d3ae04c071727060bcfc3a2fd",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Imitación de tipo monetario sasánida; no acredita fisonomía del gobernante dabuyí."
+    },
+    {
+      "person": "Q6412829",
+      "name": "Dadhburzmihr",
+      "title": "Dād-būrzmihr.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:D%C4%81d-b%C5%ABrzmihr.jpg",
+      "sha256": "96ed597420b3428f28960fff1d0be16d6ac87c16feacb052c74f4cad109dc7ec",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Tipo monetario sasánida; no acredita fisonomía del gobernante dabuyí."
+    },
+    {
+      "person": "Q3612968",
+      "name": "Khurshid",
+      "title": "Ispahbod Xurshid's coin-1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ispahbod_Xurshid%27s_coin-1.jpg",
+      "sha256": "e31f7bf83e35c36af15eb63a31126262648a8978889c41b8a4ab318acbab6718",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Tipo monetario sasánida; no acredita fisonomía del gobernante dabuyí."
+    }
+  ]
+}

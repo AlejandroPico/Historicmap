@@ -4,7 +4,8 @@
   "qid": "",
   "aliases": [
     "Ciudades y comunidades mayas · Clásico tardío/terminal",
-    "Maya city-states"
+    "Maya city-states",
+    "Maya states"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -21,6 +22,14 @@
       "end": null,
       "name": "Maya city-states",
       "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 10,
+      "start": null,
+      "end": null,
+      "name": "Maya states",
+      "status": null
     }
   ],
   "culturalRecords": [
@@ -32,6 +41,15 @@
       "end": 899,
       "sourceYear": 800,
       "canonicalFile": "Países/REFERENCE-MAYA-CITY-STATES-Maya-city-states-referencia/poblamiento/CULTURE-MAYA-Y0800.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-MAYA-CITY-STATES-Y0700:0",
+      "contextKey": "REFERENCE-MAYA-CITY-STATES",
+      "start": 700,
+      "end": 799,
+      "sourceYear": 700,
+      "canonicalFile": "Países/REFERENCE-MAYA-CITY-STATES-Maya-city-states-referencia/poblamiento/REFERENCE-MAYA-CITY-STATES-Y0700.json"
     },
     {
       "file": "cultural-regions.geojson",

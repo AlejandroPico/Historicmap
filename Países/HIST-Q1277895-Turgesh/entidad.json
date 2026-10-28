@@ -1,0 +1,97 @@
+{
+  "key": "HIST-Q1277895",
+  "name": "Türgesh",
+  "qid": "Q1277895",
+  "aliases": [
+    "Türgesh"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1277895"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q4479671",
+      "name": "Wuzhile",
+      "role": "Kan türgesh",
+      "start": "0700-01-01",
+      "end": "0706-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%C3%9C%C3%A7_Elig_Khagan",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    },
+    {
+      "person": "Q509326",
+      "name": "Suluk",
+      "role": "Kan türgesh",
+      "start": "0716-01-01",
+      "end": "0738-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Suluk_%28T%C3%BCrgesh_khagan%29",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    },
+    {
+      "person": "Q4465043",
+      "name": "Kut Chor",
+      "role": "Kan türgesh",
+      "start": "0738-01-01",
+      "end": "0739-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kut_Chor",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2615",
+      "start": 700,
+      "end": 704,
+      "name": "Türgesh",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2639",
+      "start": 705,
+      "end": 723,
+      "name": "Türgesh",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2701",
+      "start": 724,
+      "end": 740,
+      "name": "Türgesh",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2737",
+      "start": 741,
+      "end": 749,
+      "name": "Türgesh",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

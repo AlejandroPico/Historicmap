@@ -1,0 +1,2042 @@
+{
+  "key": "FRANKISH-REALM",
+  "identity": {
+    "qid": "Q146246",
+    "name": "Reino de los francos · merovingios y carolingios"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de los francos",
+      "officePattern": "King.*Frank|King.*Franc|King.*Austrasia|King.*Neustria",
+      "titles": [
+        "Childebert III",
+        "Dagobert III",
+        "Chilperic II",
+        "Chlothar IV",
+        "Theuderic IV",
+        "Childeric III",
+        "Pepin the Short",
+        "Carloman I",
+        "Charlemagne"
+      ]
+    },
+    {
+      "role": "Mayordomo de palacio · poder político efectivo",
+      "officePattern": "Mayor.*Palace|Mayor.*palace|Mayor.*Austrasia|Mayor.*Neustria",
+      "titles": [
+        "Pepin of Herstal",
+        "Charles Martel",
+        "Carloman (mayor of the palace)",
+        "Pepin the Short"
+      ],
+      "reviewedPhases": {
+        "Charles Martel": [
+          {
+            "start": "0715-01-01",
+            "end": "0717-12-31",
+            "role": "Mayordomo de palacio de Austrasia · poder disputado",
+            "source": "https://en.wikipedia.org/wiki/Charles_Martel",
+            "note": "Dignidades regionales y regias distintas. Intervalos anuales cuando no existe una fecha diaria acreditada; no control uniforme de todo el reino."
+          },
+          {
+            "start": "0718-01-01",
+            "end": "0741-10-22",
+            "role": "Mayordomo de palacio · predominio franco",
+            "source": "https://en.wikipedia.org/wiki/Charles_Martel",
+            "note": "Dignidades regionales y regias distintas. Intervalos anuales cuando no existe una fecha diaria acreditada; no control uniforme de todo el reino."
+          }
+        ],
+        "Pepin the Short": [
+          {
+            "start": "0741-01-01",
+            "end": "0747-12-31",
+            "role": "Mayordomo de palacio de Neustria",
+            "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
+            "note": "Dignidades regionales y regias distintas. Intervalos anuales cuando no existe una fecha diaria acreditada; no control uniforme de todo el reino."
+          },
+          {
+            "start": "0747-01-01",
+            "end": "0751-12-31",
+            "role": "Mayordomo de palacio · antes de la realeza",
+            "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
+            "note": "Dignidades regionales y regias distintas. Intervalos anuales cuando no existe una fecha diaria acreditada; no control uniforme de todo el reino."
+          }
+        ]
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q109223",
+      "name": "Childeberto III",
+      "role": "Rey merovingio de los francos",
+      "start": "0700-01-01",
+      "end": "0711-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Childebert_III",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-289097494bfb9fea06c5.jpg",
+        "title": "Childebert III 694 711.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Childebert_III_694_711.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Childebert_III_694_711.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "PHGCOM",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Childebert_III_694_711.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work by uploader, photographed at British Museum.",
+        "sha256": "a036ced0d83659667f03ab5093c3c031e4ac6303f5e9c11e4d0cca817f67b2e2",
+        "bytes": 104732,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-289097494bfb9fea06c5.jpg",
+        "caption": "Efigie numismática atribuida a Childeberto III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q109248",
+      "name": "Dagoberto III",
+      "role": "Rey merovingio de los francos",
+      "start": "0711-01-01",
+      "end": "0715-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dagobert_III",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-31fa062643389001c72e.jpg",
+        "title": "Portrait Roi de france Dagobert II (i.e III).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Dagobert_II_(i.e_III).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Portrait_Roi_de_france_Dagobert_II_%28i.e_III%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Jean Dassier (1676–1763); reproducción digital atribuida a Rinaldum, según Commons/BNF",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Transferred from fr.wikipedia to Commons.",
+        "sha256": "533a8ac9e798df7662875c72491eb6ff9bbaa74e69a8e759171f6a8980e1758e",
+        "bytes": 15151,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-31fa062643389001c72e.jpg",
+        "caption": "Medalla conmemorativa de Jean Dassier, hacia1720: Dagoberto III, rotulado Dagobert II en la numeración de la pieza según el catálogo BNF. No imagen de su reinado."
+      }
+    },
+    {
+      "person": "Q109240",
+      "name": "Chilperico II",
+      "role": "Rey merovingio de los francos",
+      "start": "0715-01-01",
+      "end": "0721-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chilperic_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-58b6c806a69f6d8f1aba.jpg",
+        "title": "Portrait Roy de france Chilperic II.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Roy_de_france_Chilperic_II.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Portrait_Roy_de_france_Chilperic_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Jean Dassier http://gallica.bnf.fr/",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_Roy_de_france_Chilperic_II.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://gallica.bnf.fr/ark:/12148/btv1b7700019p",
+        "sha256": "773b8f1b846e8a3c318a6e3ed71abffdda27026540fb5e890ccffdb12555b325",
+        "bytes": 15065,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-58b6c806a69f6d8f1aba.jpg",
+        "caption": "Retrato imaginario posterior de Chilperico II; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q316908",
+      "name": "Clotario IV",
+      "role": "Rey merovingio de los francos",
+      "start": "0717-01-01",
+      "end": "0718-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chlothar_IV",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q108331",
+      "name": "Teodorico IV",
+      "role": "Rey merovingio de los francos",
+      "start": "0721-01-01",
+      "end": "0737-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theuderic_IV",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-5b661bd99cbc3347ba92.jpg",
+        "title": "Theuderic IV.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Theuderic_IV.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Theuderic_IV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Published by Guillaume Rouille(1518?-1589)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Theuderic_IV.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "\"Promptuarii Iconum Insigniorum \"",
+        "sha256": "caf4601e48da48178e6e7965947f84dbe25d21421a751f0e9ce77a271c34a4b9",
+        "bytes": 102852,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-5b661bd99cbc3347ba92.jpg",
+        "caption": "Retrato imaginario posterior de Teodorico IV; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q295157",
+      "name": "Childerico III",
+      "role": "Rey merovingio de los francos",
+      "start": "0743-01-01",
+      "end": "0751-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Childeric_III",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-10a4fa791197cd037957.png",
+        "title": "Signol - Childeric III.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Signol_-_Childeric_III.png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Signol_-_Childeric_III.png/330px-Signol_-_Childeric_III.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Émile Signol",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Signol_-_Childeric_III.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://collections.chateauversailles.fr/#f1d17b22-75c5-4855-b885-61eed7e557a0",
+        "sha256": "b7633f1cbe29225b771029c2feb1390c886153b025be0471d12c86f3674902e3",
+        "bytes": 232427,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-10a4fa791197cd037957.png",
+        "caption": "Retrato imaginario posterior de Childerico III; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q81212",
+      "name": "Pipino el Breve",
+      "role": "Rey carolingio de los francos",
+      "start": "0751-01-01",
+      "end": "0768-09-24",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-faf5403559ba09ef9eb2.jpg",
+        "title": "Amiel - Pepin the Short.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Amiel_-_Pepin_the_Short.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Amiel_-_Pepin_the_Short.jpg/330px-Amiel_-_Pepin_the_Short.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Louis-Félix Amiel",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amiel_-_Pepin_the_Short.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Unknown sourceUnknown source",
+        "sha256": "608ffbefdf8e71978a995d5404bb1f24ee5e96d7d75ba53d27ed894177b88041",
+        "bytes": 35148,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-faf5403559ba09ef9eb2.jpg",
+        "caption": "Retrato imaginario posterior de Pipino el Breve; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q191003",
+      "name": "Carlomán I",
+      "role": "Rey carolingio de los francos",
+      "start": "0768-10-09",
+      "end": "0771-12-04",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Carloman_I",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-3778c1bf92ad341c70f9.jpg",
+        "title": "Carloman1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Carloman1.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Carloman1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "\nDessin: Charles Fichot",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carloman1.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "GUILHERMY, Ferdinand - Monographie de l'église royale de Saint-Denis: tombeaux et figures historiques, 1848",
+        "sha256": "4df2f5f5e9a6836e33a3471f40f94d7d8dc4bc0c2b9cbc8e4a5b32ed0cdd94db",
+        "bytes": 15579,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-3778c1bf92ad341c70f9.jpg",
+        "caption": "Retrato imaginario posterior de Carlomán I; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q3044",
+      "name": "Carlomagno",
+      "role": "Rey carolingio de los francos",
+      "start": "0768-10-09",
+      "end": "0799-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Charlemagne",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-1839e800c2c3c1936816.jpg",
+        "title": "Charlemagne denier Mayence 812 814.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/500px-Charlemagne_denier_Mayence_812_814.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nCharlemagne. Autorité émettrice de monnaie\n\nindéterminé. Atelier monétaire. Émetteur",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Bibliothèque nationale de France",
+        "sha256": "ce83a5ccfcbac0d0b1544c9477af2a7e5415d5dd981260a0d6f50a571a0cd16f",
+        "bytes": 69263,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-1839e800c2c3c1936816.jpg",
+        "caption": "Efigie monetaria de Carlomagno, emisión atribuida a812–814, posterior al siglo consultado; referencia del personaje, no de su aspecto durante700–799."
+      }
+    },
+    {
+      "person": "Q91392",
+      "name": "Pipino de Heristal",
+      "role": "Mayordomo de palacio · poder político efectivo",
+      "start": "0700-01-01",
+      "end": "0714-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pepin_of_Herstal",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q3301",
+      "name": "Carlos Martel",
+      "role": "Mayordomo de palacio de Austrasia · poder disputado",
+      "start": "0715-01-01",
+      "end": "0717-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Charles_Martel",
+      "note": "Dignidades regionales y regias distintas. Intervalos anuales cuando no existe una fecha diaria acreditada; no control uniforme de todo el reino.",
+      "portrait": {
+        "file": "media/portrait-d46f5ec7faa963acfee8.jpg",
+        "title": "Charles Martel 01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Charles_Martel_01.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Charles_Martel_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Arnaud 25",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Martel_01.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "f15511f8d716dff4c4d706773ab769d9e59158571bb969f65089d7fe07a87d82",
+        "bytes": 744308,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-d46f5ec7faa963acfee8.jpg",
+        "caption": "Representación conmemorativa moderna de Carlos Martel."
+      }
+    },
+    {
+      "person": "Q3301",
+      "name": "Carlos Martel",
+      "role": "Mayordomo de palacio · predominio franco",
+      "start": "0718-01-01",
+      "end": "0741-10-22",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Charles_Martel",
+      "note": "Dignidades regionales y regias distintas. Intervalos anuales cuando no existe una fecha diaria acreditada; no control uniforme de todo el reino.",
+      "portrait": {
+        "file": "media/portrait-d46f5ec7faa963acfee8.jpg",
+        "title": "Charles Martel 01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Charles_Martel_01.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Charles_Martel_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Arnaud 25",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Martel_01.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "f15511f8d716dff4c4d706773ab769d9e59158571bb969f65089d7fe07a87d82",
+        "bytes": 744308,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-d46f5ec7faa963acfee8.jpg",
+        "caption": "Representación conmemorativa moderna de Carlos Martel."
+      }
+    },
+    {
+      "person": "Q310440",
+      "name": "Carlomán",
+      "role": "Mayordomo de palacio · poder político efectivo",
+      "start": "0741-01-01",
+      "end": "0747-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Carloman_%28mayor_of_the_palace%29",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q81212",
+      "name": "Pipino el Breve",
+      "role": "Mayordomo de palacio de Neustria",
+      "start": "0741-01-01",
+      "end": "0747-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
+      "note": "Dignidades regionales y regias distintas. Intervalos anuales cuando no existe una fecha diaria acreditada; no control uniforme de todo el reino.",
+      "portrait": {
+        "file": "media/portrait-faf5403559ba09ef9eb2.jpg",
+        "title": "Amiel - Pepin the Short.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Amiel_-_Pepin_the_Short.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Amiel_-_Pepin_the_Short.jpg/330px-Amiel_-_Pepin_the_Short.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Louis-Félix Amiel",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amiel_-_Pepin_the_Short.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Unknown sourceUnknown source",
+        "sha256": "608ffbefdf8e71978a995d5404bb1f24ee5e96d7d75ba53d27ed894177b88041",
+        "bytes": 35148,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-faf5403559ba09ef9eb2.jpg",
+        "caption": "Retrato imaginario posterior de Pipino el Breve; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q81212",
+      "name": "Pipino el Breve",
+      "role": "Mayordomo de palacio · antes de la realeza",
+      "start": "0747-01-01",
+      "end": "0751-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
+      "note": "Dignidades regionales y regias distintas. Intervalos anuales cuando no existe una fecha diaria acreditada; no control uniforme de todo el reino.",
+      "portrait": {
+        "file": "media/portrait-faf5403559ba09ef9eb2.jpg",
+        "title": "Amiel - Pepin the Short.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Amiel_-_Pepin_the_Short.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Amiel_-_Pepin_the_Short.jpg/330px-Amiel_-_Pepin_the_Short.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Louis-Félix Amiel",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amiel_-_Pepin_the_Short.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Unknown sourceUnknown source",
+        "sha256": "608ffbefdf8e71978a995d5404bb1f24ee5e96d7d75ba53d27ed894177b88041",
+        "bytes": 35148,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-faf5403559ba09ef9eb2.jpg",
+        "caption": "Retrato imaginario posterior de Pipino el Breve; no retrato contemporáneo."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review033-mayors",
+      "type": "institution",
+      "title": "Reyes merovingios y mayordomos de palacio",
+      "start": "0700-01-01",
+      "end": "0752-01-01",
+      "text": "La dignidad regia y el poder de los mayordomos son cargos distintos. Carlos Martel no es rey; la etapa737–743 carece de rey merovingio antes de Childerico III. Pipino pasa de mayordomo a rey en751.",
+      "source": "https://en.wikipedia.org/wiki/Merovingian_dynasty",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    },
+    {
+      "id": "review033-dynasty",
+      "type": "institution",
+      "title": "Cambio dinástico carolingio",
+      "start": "0751-01-01",
+      "end": "0800-01-01",
+      "text": "La realeza carolingia comienza con Pipino en751; Carlos y Carlomán comparten la sucesión desde768. Carlomagno no es emperador hasta800.",
+      "source": "https://en.wikipedia.org/wiki/Carolingian_dynasty",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    },
+    {
+      "id": "review033-tours",
+      "type": "conflict",
+      "title": "Enfrentamiento de Tours-Poitiers",
+      "start": "0732-01-01",
+      "end": "0733-01-01",
+      "text": "Batalla de732 entre fuerzas francas y andalusíes. Localización regional aproximada: la ubicación exacta y el alcance posterior del enfrentamiento no se deducen del punto.",
+      "source": "https://en.wikipedia.org/wiki/Battle_of_Tours",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "history"
+    },
+    {
+      "id": "review033-saxons",
+      "type": "conflict",
+      "title": "Campañas carolingias en ámbitos sajones",
+      "start": "0772-01-01",
+      "end": "0800-01-01",
+      "text": "Las campañas iniciadas en772 continúan más allá del siglo. El punto es una referencia regional, no una frontera diaria ni prueba de sometimiento uniforme de todas las comunidades sajonas.",
+      "source": "https://en.wikipedia.org/wiki/Saxon_Wars",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of the Franks"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Reino de los francos · merovingios y carolingios",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Reyes y mayordomos de palacio son cargos diferentes. Intervalo sin rey737–743 y cambio dinástico751; no se anticipa la dignidad imperial de800."
+      }
+    },
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Merovingian Empire"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Reino de los francos · merovingios y carolingios",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Reyes y mayordomos de palacio son cargos diferentes. Intervalo sin rey737–743 y cambio dinástico751; no se anticipa la dignidad imperial de800."
+      }
+    },
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Carolingian Empire"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Reino de los francos · merovingios y carolingios",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Reyes y mayordomos de palacio son cargos diferentes. Intervalo sin rey737–743 y cambio dinástico751; no se anticipa la dignidad imperial de800."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "e21a18003a90fc2fc04b670da55ce3ce500e610b53493db68d43d875bf672d43",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2614,
+        2640,
+        2664,
+        2684,
+        2688,
+        2703,
+        2728,
+        2736,
+        2778,
+        2808,
+        2816,
+        2855,
+        2877,
+        2887,
+        2896,
+        2909,
+        2935,
+        2951,
+        2990
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Carloman (mayor of the palace)",
+        "title": "Carloman (mayor of the palace)",
+        "person": "Q310440",
+        "name": "Carlomán",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Carloman_%28mayor_of_the_palace%29",
+        "identityResolution": {
+          "requested": "Carloman (mayor of the palace)",
+          "canonical": "Carloman (mayor of the palace)",
+          "qid": "Q310440"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0741-01-01",
+          "end": "0747-01-01",
+          "precision": 9,
+          "statement": "Q310440$A882F5BB-7632-4BF3-A7E8-4C4725E75AAC",
+          "label": "mayordomo de palacio"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q310440",
+        "title": "Carloman (mayor of the palace)",
+        "source": "https://en.wikipedia.org/wiki/Carloman_%28mayor_of_the_palace%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "741–747",
+            "parsed": {
+              "start": "0741-01-01",
+              "end": "0747-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "741–747",
+            "parsed": {
+              "start": "0741-01-01",
+              "end": "0747-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Carloman I",
+        "title": "Carloman I",
+        "person": "Q191003",
+        "name": "Carlomán I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Carloman_I",
+        "identityResolution": {
+          "requested": "Carloman I",
+          "canonical": "Carloman I",
+          "qid": "Q191003"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0768-10-09",
+          "end": "0771-12-04",
+          "precision": 11,
+          "statement": "Q191003$8e0ff8c4-41e7-9bf8-79f0-a3a0aabceef7",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0768-01-01",
+          "end": "0771-01-01",
+          "precision": 9,
+          "statement": "Q191003$2CA2E949-E7DE-4944-BCCE-02C96E979979",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q191003",
+        "title": "Carloman I",
+        "source": "https://en.wikipedia.org/wiki/Carloman_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Franks",
+            "raw": "9 October 768 – 4 December 771",
+            "parsed": {
+              "start": "0768-10-09",
+              "end": "0771-12-04",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "768–771",
+            "parsed": {
+              "start": "0768-01-01",
+              "end": "0771-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Charlemagne",
+        "title": "Charlemagne",
+        "person": "Q3044",
+        "name": "Carlomagno",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Charlemagne",
+        "identityResolution": {
+          "requested": "Charlemagne",
+          "canonical": "Charlemagne",
+          "qid": "Q3044"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0768-10-09",
+          "end": "0814-01-28",
+          "precision": 11,
+          "statement": "Q3044$d0039f0e-495d-8a04-225a-297c77244476",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0768-10-09",
+          "end": "0814-01-28",
+          "precision": 11,
+          "statement": "Q3044$BB45FEC3-9C44-4950-B713-68F6C90B8424",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22997793",
+          "start": "0774-06-05",
+          "end": "0814-01-28",
+          "precision": 11,
+          "statement": "Q3044$7C4B3DCF-29D0-4C8C-8EB6-DD9E13504015",
+          "label": "Rey de los lombardos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3044",
+        "title": "Charlemagne",
+        "source": "https://en.wikipedia.org/wiki/Charlemagne",
+        "reignFields": [
+          {
+            "field": "reign2",
+            "office": "Emperor of the Carolingian Empire",
+            "raw": "25 December 800 – 28 January 814",
+            "parsed": {
+              "start": "0800-12-25",
+              "end": "0814-01-28",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of the Lombards {{nobold|(Italy)}}",
+            "raw": "June 774 – 28 January 814",
+            "parsed": {
+              "start": "0774-06-01",
+              "end": "0814-01-28",
+              "precision": 10
+            }
+          },
+          {
+            "field": "reign",
+            "office": "King of the Franks",
+            "raw": "9 October 768 – 28 January 814",
+            "parsed": {
+              "start": "0768-10-09",
+              "end": "0814-01-28",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "768–814",
+            "parsed": {
+              "start": "0768-01-01",
+              "end": "0814-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Holy Roman Emperor",
+            "raw": "800–814",
+            "parsed": {
+              "start": "0800-01-01",
+              "end": "0814-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Lombards",
+            "raw": "774–814",
+            "parsed": {
+              "start": "0774-01-01",
+              "end": "0814-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Charles Martel",
+        "title": "Charles Martel",
+        "person": "Q3301",
+        "name": "Carlos Martel",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Charles_Martel",
+        "identityResolution": {
+          "requested": "Charles Martel",
+          "canonical": "Charles Martel",
+          "qid": "Q3301"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0717-01-01",
+          "end": "0741-01-01",
+          "precision": 9,
+          "statement": "Q3301$75E25AF6-A8C4-4A58-B052-A4EF51A63CFD",
+          "label": "mayordomo de palacio"
+        },
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0718-01-01",
+          "end": "0741-01-01",
+          "precision": 9,
+          "statement": "Q3301$5c02d191-4e95-044d-fbd2-3366dca1d6f8",
+          "label": "mayordomo de palacio"
+        },
+        {
+          "property": "P97",
+          "office": "Q947869",
+          "start": "0718-01-01",
+          "end": "0741-01-01",
+          "precision": 9,
+          "statement": "Q3301$946913f8-db18-4f9c-9a3b-679d9a6bdd11",
+          "label": "duque de los Francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3301",
+        "title": "Charles Martel",
+        "source": "https://en.wikipedia.org/wiki/Charles_Martel",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Duke and Prince of the Franks",
+            "raw": "718 – 22 October 741",
+            "parsed": {
+              "start": "0718-01-01",
+              "end": "0741-10-22",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "715 – 22 October 741",
+            "parsed": {
+              "start": "0715-01-01",
+              "end": "0741-10-22",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "718 – 22 October 741",
+            "parsed": {
+              "start": "0718-01-01",
+              "end": "0741-10-22",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "717–741",
+            "parsed": {
+              "start": "0717-01-01",
+              "end": "0741-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "717–741",
+            "parsed": {
+              "start": "0717-01-01",
+              "end": "0741-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Childebert III",
+        "title": "Childebert III",
+        "person": "Q109223",
+        "name": "Childeberto III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Childebert_III",
+        "identityResolution": {
+          "requested": "Childebert III",
+          "canonical": "Childebert III",
+          "qid": "Q109223"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0695-01-01",
+          "end": "0711-01-01",
+          "precision": 9,
+          "statement": "Q109223$25c04374-4e81-84dd-4c7b-b92ffbd3f4e4",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0694-01-01",
+          "end": "0711-01-01",
+          "precision": 9,
+          "statement": "Q109223$72DA931C-61BA-47F0-ADF3-16A75C4287E4",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q109223",
+        "title": "Childebert III",
+        "source": "https://en.wikipedia.org/wiki/Childebert_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Franks",
+            "raw": "694–711",
+            "parsed": {
+              "start": "0694-01-01",
+              "end": "0711-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "694–711",
+            "parsed": {
+              "start": "0694-01-01",
+              "end": "0711-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Childeric III",
+        "title": "Childeric III",
+        "person": "Q295157",
+        "name": "Childerico III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Childeric_III",
+        "identityResolution": {
+          "requested": "Childeric III",
+          "canonical": "Childeric III",
+          "qid": "Q295157"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0743-01-01",
+          "end": "0751-01-01",
+          "precision": 9,
+          "statement": "Q295157$43e3ef4c-4fb8-9da0-7a82-52dbc40c2753",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0743-01-01",
+          "end": "0751-01-01",
+          "precision": 9,
+          "statement": "Q295157$C901AE88-2C2A-4EFD-9030-6255A803617C",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q295157",
+        "title": "Childeric III",
+        "source": "https://en.wikipedia.org/wiki/Childeric_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Franks",
+            "raw": "743–751",
+            "parsed": {
+              "start": "0743-01-01",
+              "end": "0751-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "743–751",
+            "parsed": {
+              "start": "0743-01-01",
+              "end": "0751-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chilperic II",
+        "title": "Chilperic II",
+        "person": "Q109240",
+        "name": "Chilperico II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chilperic_II",
+        "identityResolution": {
+          "requested": "Chilperic II",
+          "canonical": "Chilperic II",
+          "qid": "Q109240"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0719-01-01",
+          "end": "0721-01-01",
+          "precision": 9,
+          "statement": "Q109240$19a7350c-4099-f83a-c7d1-0bc5fd63de41",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0715-01-01",
+          "end": "0719-01-01",
+          "precision": 9,
+          "statement": "Q109240$3fe8603c-4b0b-170a-09b5-0434619edaeb",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0719-01-01",
+          "end": "0721-01-01",
+          "precision": 9,
+          "statement": "Q109240$D5B827EA-FD49-4FB2-8CA0-53BDD2372E71",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0715-01-01",
+          "end": "0721-01-01",
+          "precision": 9,
+          "statement": "Q109240$B38618DA-CFAF-4E78-ACC7-FCB7F47BACE6",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q109240",
+        "title": "Chilperic II",
+        "source": "https://en.wikipedia.org/wiki/Chilperic_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Franks",
+            "raw": "715–721",
+            "parsed": {
+              "start": "0715-01-01",
+              "end": "0721-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "715–721",
+            "parsed": {
+              "start": "0715-01-01",
+              "end": "0721-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "<small>opposed in Austrasia by [[Chlothar IV]] (717-718)</small>",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chlothar IV",
+        "title": "Chlothar IV",
+        "person": "Q316908",
+        "name": "Clotario IV",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chlothar_IV",
+        "identityResolution": {
+          "requested": "Chlothar IV",
+          "canonical": "Chlothar IV",
+          "qid": "Q316908"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0717-01-01",
+          "end": "0719-01-01",
+          "precision": 9,
+          "statement": "Q316908$10d3c435-4c74-a320-0f73-c5e7cd283d7d",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0717-01-01",
+          "end": "0719-01-01",
+          "precision": 9,
+          "statement": "Q316908$EFE5937C-B678-4047-9817-FCEF7FEB63FF",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q316908",
+        "title": "Chlothar IV",
+        "source": "https://en.wikipedia.org/wiki/Chlothar_IV",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Austrasia",
+            "raw": "717–718",
+            "parsed": {
+              "start": "0717-01-01",
+              "end": "0718-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dagobert III",
+        "title": "Dagobert III",
+        "person": "Q109248",
+        "name": "Dagoberto III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dagobert_III",
+        "identityResolution": {
+          "requested": "Dagobert III",
+          "canonical": "Dagobert III",
+          "qid": "Q109248"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0711-01-01",
+          "end": "0715-01-01",
+          "precision": 9,
+          "statement": "Q109248$fed1f922-4eaa-dd5e-9e6c-a7573b424682",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0711-01-01",
+          "end": "0715-01-01",
+          "precision": 9,
+          "statement": "Q109248$6A0BDD12-5D89-41EF-8E7D-B2C4A63201BD",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q109248",
+        "title": "Dagobert III",
+        "source": "https://en.wikipedia.org/wiki/Dagobert_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Franks",
+            "raw": "711–715",
+            "parsed": {
+              "start": "0711-01-01",
+              "end": "0715-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "711&ndash;715",
+            "parsed": {
+              "start": "0711-01-01",
+              "end": "0715-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pepin of Herstal",
+        "title": "Pepin of Herstal",
+        "person": "Q91392",
+        "name": "Pipino de Heristal",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pepin_of_Herstal",
+        "identityResolution": {
+          "requested": "Pepin of Herstal",
+          "canonical": "Pepin of Herstal",
+          "qid": "Q91392"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0676-01-01",
+          "end": "0714-01-01",
+          "precision": 9,
+          "statement": "Q91392$28811F9C-C227-4EA1-AC8F-FECE857E7A7F",
+          "label": "mayordomo de palacio"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q91392",
+        "title": "Pepin of Herstal",
+        "source": "https://en.wikipedia.org/wiki/Pepin_of_Herstal",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Duke and Prince of the Franks",
+            "raw": "687–714",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0714-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "680–714",
+            "parsed": {
+              "start": "0680-01-01",
+              "end": "0714-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "687–695",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign3",
+            "office": "Mayor of the Palace of Burgundy",
+            "raw": "687–695",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "680–714",
+            "parsed": {
+              "start": "0680-01-01",
+              "end": "0714-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "687–695",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Burgundy",
+            "raw": "687–695",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of the Franks",
+            "raw": "687–714",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0714-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pepin the Short",
+        "title": "Pepin the Short",
+        "person": "Q81212",
+        "name": "Pipino el Breve",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
+        "identityResolution": {
+          "requested": "Pepin the Short",
+          "canonical": "Pepin the Short",
+          "qid": "Q81212"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0741-01-01",
+          "end": "0751-01-01",
+          "precision": 9,
+          "statement": "Q81212$0e82f559-4c63-92d9-a5c7-cde8174bbce0",
+          "label": "mayordomo de palacio"
+        },
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0751-11-01",
+          "end": "0768-09-24",
+          "precision": 10,
+          "statement": "Q81212$135d9a92-466a-9389-b2a1-298754888c7f",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0751-01-01",
+          "end": "0768-01-01",
+          "precision": 9,
+          "statement": "Q81212$79d5a624-48b6-7cfa-f28d-c8f8afaa6588",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q81212",
+        "title": "Pepin the Short",
+        "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Franks",
+            "raw": "751 – 24 September 768",
+            "parsed": {
+              "start": "0751-01-01",
+              "end": "0768-09-24",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "741–751",
+            "parsed": {
+              "start": "0741-01-01",
+              "end": "0751-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "747–751",
+            "parsed": {
+              "start": "0747-01-01",
+              "end": "0751-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "741–751",
+            "parsed": {
+              "start": "0741-01-01",
+              "end": "0751-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "747–751",
+            "parsed": {
+              "start": "0747-01-01",
+              "end": "0751-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "751 – 24 September 768",
+            "parsed": {
+              "start": "0751-01-01",
+              "end": "0768-09-24",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theuderic IV",
+        "title": "Theuderic IV",
+        "person": "Q108331",
+        "name": "Teodorico IV",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theuderic_IV",
+        "identityResolution": {
+          "requested": "Theuderic IV",
+          "canonical": "Theuderic IV",
+          "qid": "Q108331"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0721-01-01",
+          "end": "0737-01-01",
+          "precision": 9,
+          "statement": "Q108331$0bf6cab7-4721-2b95-1ea7-81a0bb55626e",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0721-01-01",
+          "end": "0737-01-01",
+          "precision": 9,
+          "statement": "Q108331$DB95315E-67D7-497B-9EA5-E2750C732523",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q108331",
+        "title": "Theuderic IV",
+        "source": "https://en.wikipedia.org/wiki/Theuderic_IV",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Franks",
+            "raw": "721–737",
+            "parsed": {
+              "start": "0721-01-01",
+              "end": "0737-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "721–737",
+            "parsed": {
+              "start": "0721-01-01",
+              "end": "0737-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 15,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q109223",
+        "title": "Childebert III",
+        "source": "https://en.wikipedia.org/wiki/Childebert_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Franks",
+          "raw": "694–711",
+          "parsed": {
+            "start": "0694-01-01",
+            "end": "0711-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q109248",
+        "title": "Dagobert III",
+        "source": "https://en.wikipedia.org/wiki/Dagobert_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Franks",
+          "raw": "711–715",
+          "parsed": {
+            "start": "0711-01-01",
+            "end": "0715-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q109240",
+        "title": "Chilperic II",
+        "source": "https://en.wikipedia.org/wiki/Chilperic_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Franks",
+          "raw": "715–721",
+          "parsed": {
+            "start": "0715-01-01",
+            "end": "0721-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q316908",
+        "title": "Chlothar IV",
+        "source": "https://en.wikipedia.org/wiki/Chlothar_IV",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Austrasia",
+          "raw": "717–718",
+          "parsed": {
+            "start": "0717-01-01",
+            "end": "0718-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q108331",
+        "title": "Theuderic IV",
+        "source": "https://en.wikipedia.org/wiki/Theuderic_IV",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Franks",
+          "raw": "721–737",
+          "parsed": {
+            "start": "0721-01-01",
+            "end": "0737-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q295157",
+        "title": "Childeric III",
+        "source": "https://en.wikipedia.org/wiki/Childeric_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Franks",
+          "raw": "743–751",
+          "parsed": {
+            "start": "0743-01-01",
+            "end": "0751-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q81212",
+        "title": "Pepin the Short",
+        "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Franks",
+          "raw": "751 – 24 September 768",
+          "parsed": {
+            "start": "0751-01-01",
+            "end": "0768-09-24",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q191003",
+        "title": "Carloman I",
+        "source": "https://en.wikipedia.org/wiki/Carloman_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Franks",
+          "raw": "9 October 768 – 4 December 771",
+          "parsed": {
+            "start": "0768-10-09",
+            "end": "0771-12-04",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q3044",
+        "title": "Charlemagne",
+        "source": "https://en.wikipedia.org/wiki/Charlemagne",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Franks",
+          "raw": "9 October 768 – 28 January 814",
+          "parsed": {
+            "start": "0768-10-09",
+            "end": "0814-01-28",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q91392",
+        "title": "Pepin of Herstal",
+        "source": "https://en.wikipedia.org/wiki/Pepin_of_Herstal",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "Mayor of the Palace of Austrasia",
+          "raw": "680–714",
+          "parsed": {
+            "start": "0680-01-01",
+            "end": "0714-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q3301",
+        "title": "Charles Martel",
+        "source": "https://en.wikipedia.org/wiki/Charles_Martel",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Charles_Martel"
+        }
+      },
+      {
+        "person": "Q3301",
+        "title": "Charles Martel",
+        "source": "https://en.wikipedia.org/wiki/Charles_Martel",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Charles_Martel"
+        }
+      },
+      {
+        "person": "Q310440",
+        "title": "Carloman (mayor of the palace)",
+        "source": "https://en.wikipedia.org/wiki/Carloman_%28mayor_of_the_palace%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Mayor of the Palace of Austrasia",
+          "raw": "741–747",
+          "parsed": {
+            "start": "0741-01-01",
+            "end": "0747-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q81212",
+        "title": "Pepin the Short",
+        "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Pepin_the_Short"
+        }
+      },
+      {
+        "person": "Q81212",
+        "title": "Pepin the Short",
+        "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Pepin_the_Short"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-0",
+      "name": "Soissons · centro regio",
+      "coordinates": [
+        3.323,
+        49.381
+      ],
+      "start": 700,
+      "end": 750,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Merovingian_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    },
+    {
+      "id": "seat033-1",
+      "name": "Compiègne · corte de referencia",
+      "coordinates": [
+        2.824,
+        49.417
+      ],
+      "start": 751,
+      "end": 793,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Pepin_the_Short",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    },
+    {
+      "id": "seat033-2",
+      "name": "Aquisgrán · palacio regio",
+      "coordinates": [
+        6.083,
+        50.775
+      ],
+      "start": 794,
+      "end": 799,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Aachen_Cathedral",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review033-mayors",
+      "type": "institution",
+      "title": "Reyes merovingios y mayordomos de palacio",
+      "start": "0700-01-01",
+      "end": "0752-01-01",
+      "text": "La dignidad regia y el poder de los mayordomos son cargos distintos. Carlos Martel no es rey; la etapa737–743 carece de rey merovingio antes de Childerico III. Pipino pasa de mayordomo a rey en751.",
+      "source": "https://en.wikipedia.org/wiki/Merovingian_dynasty",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    },
+    {
+      "id": "review033-dynasty",
+      "type": "institution",
+      "title": "Cambio dinástico carolingio",
+      "start": "0751-01-01",
+      "end": "0800-01-01",
+      "text": "La realeza carolingia comienza con Pipino en751; Carlos y Carlomán comparten la sucesión desde768. Carlomagno no es emperador hasta800.",
+      "source": "https://en.wikipedia.org/wiki/Carolingian_dynasty",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    },
+    {
+      "id": "review033-tours",
+      "type": "conflict",
+      "title": "Enfrentamiento de Tours-Poitiers",
+      "start": "0732-01-01",
+      "end": "0733-01-01",
+      "text": "Batalla de732 entre fuerzas francas y andalusíes. Localización regional aproximada: la ubicación exacta y el alcance posterior del enfrentamiento no se deducen del punto.",
+      "source": "https://en.wikipedia.org/wiki/Battle_of_Tours",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    },
+    {
+      "id": "review033-saxons",
+      "type": "conflict",
+      "title": "Campañas carolingias en ámbitos sajones",
+      "start": "0772-01-01",
+      "end": "0800-01-01",
+      "text": "Las campañas iniciadas en772 continúan más allá del siglo. El punto es una referencia regional, no una frontera diaria ni prueba de sometimiento uniforme de todas las comunidades sajonas.",
+      "source": "https://en.wikipedia.org/wiki/Saxon_Wars",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review033-tours",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.37,
+          46.73
+        ]
+      },
+      "properties": {
+        "name": "Enfrentamiento de Tours-Poitiers",
+        "countries": [
+          "FRANKISH-REALM"
+        ],
+        "kind": "regional-conflict",
+        "start": "0732-01-01",
+        "end": "0732-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Battle_of_Tours",
+        "sourceLabel": "Referencia documental · siglo VIII",
+        "note": "Batalla de732 entre fuerzas francas y andalusíes. Localización regional aproximada: la ubicación exacta y el alcance posterior del enfrentamiento no se deducen del punto. Referencia regional aproximada."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "review033-saxons",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75,
+          51.72
+        ]
+      },
+      "properties": {
+        "name": "Campañas carolingias en ámbitos sajones",
+        "countries": [
+          "FRANKISH-REALM"
+        ],
+        "kind": "regional-conflict",
+        "start": "0772-01-01",
+        "end": "0799-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Saxon_Wars",
+        "sourceLabel": "Referencia documental · siglo VIII",
+        "note": "Las campañas iniciadas en772 continúan más allá del siglo. El punto es una referencia regional, no una frontera diaria ni prueba de sometimiento uniforme de todas las comunidades sajonas. Referencia regional aproximada."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q109223",
+      "name": "Childeberto III",
+      "title": "Childebert III 694 711.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Childebert_III_694_711.jpg",
+      "sha256": "a036ced0d83659667f03ab5093c3c031e4ac6303f5e9c11e4d0cca817f67b2e2",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Childeberto III; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q109248",
+      "name": "Dagoberto III",
+      "title": "Portrait Roi de france Dagobert II (i.e III).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Dagobert_II_(i.e_III).jpg",
+      "sha256": "533a8ac9e798df7662875c72491eb6ff9bbaa74e69a8e759171f6a8980e1758e",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Medalla conmemorativa de Jean Dassier, hacia1720: Dagoberto III, rotulado Dagobert II en la numeración de la pieza según el catálogo BNF. No imagen de su reinado."
+    },
+    {
+      "person": "Q109240",
+      "name": "Chilperico II",
+      "title": "Portrait Roy de france Chilperic II.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Roy_de_france_Chilperic_II.jpg",
+      "sha256": "773b8f1b846e8a3c318a6e3ed71abffdda27026540fb5e890ccffdb12555b325",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Chilperico II; no retrato contemporáneo."
+    },
+    {
+      "person": "Q316908",
+      "name": "Clotario IV",
+      "title": "Portrait Roi de france Clovis IV.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Clovis_IV.jpg",
+      "sha256": "e3c24abaab4cc2f173d2aa71de07ec626b0df219ba6292b9387d7bb05d4a3372",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "El archivo identifica a Clovis IV, no a Clotario IV; personas distintas."
+    },
+    {
+      "person": "Q108331",
+      "name": "Teodorico IV",
+      "title": "Theuderic IV.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Theuderic_IV.jpg",
+      "sha256": "caf4601e48da48178e6e7965947f84dbe25d21421a751f0e9ce77a271c34a4b9",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Teodorico IV; no retrato contemporáneo."
+    },
+    {
+      "person": "Q295157",
+      "name": "Childerico III",
+      "title": "Signol - Childeric III.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Signol_-_Childeric_III.png",
+      "sha256": "b7633f1cbe29225b771029c2feb1390c886153b025be0471d12c86f3674902e3",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Childerico III; no retrato contemporáneo."
+    },
+    {
+      "person": "Q81212",
+      "name": "Pipino el Breve",
+      "title": "Amiel - Pepin the Short.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Amiel_-_Pepin_the_Short.jpg",
+      "sha256": "608ffbefdf8e71978a995d5404bb1f24ee5e96d7d75ba53d27ed894177b88041",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Pipino el Breve; no retrato contemporáneo."
+    },
+    {
+      "person": "Q191003",
+      "name": "Carlomán I",
+      "title": "Carloman1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Carloman1.jpg",
+      "sha256": "4df2f5f5e9a6836e33a3471f40f94d7d8dc4bc0c2b9cbc8e4a5b32ed0cdd94db",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Carlomán I; no retrato contemporáneo."
+    },
+    {
+      "person": "Q3044",
+      "name": "Carlomagno",
+      "title": "Charlemagne denier Mayence 812 814.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg",
+      "sha256": "ce83a5ccfcbac0d0b1544c9477af2a7e5415d5dd981260a0d6f50a571a0cd16f",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie monetaria de Carlomagno, emisión atribuida a812–814, posterior al siglo consultado; referencia del personaje, no de su aspecto durante700–799."
+    },
+    {
+      "person": "Q91392",
+      "name": "Pipino de Heristal",
+      "title": "St Hubert of Liège offers his services to Pepin of Heristal.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:St_Hubert_of_Li%C3%A8ge_offers_his_services_to_Pepin_of_Heristal.jpg",
+      "sha256": "f8e549e5a04d9067ba183181c439e2c8db9270c1910655dd7e0aac5194cfd93e",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q3301",
+      "name": "Carlos Martel",
+      "title": "Charles Martel 01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Charles_Martel_01.jpg",
+      "sha256": "f15511f8d716dff4c4d706773ab769d9e59158571bb969f65089d7fe07a87d82",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación conmemorativa moderna de Carlos Martel."
+    },
+    {
+      "person": "Q310440",
+      "name": "Carlomán",
+      "title": "Fvldensivm Antiqvitatvm Titelbild 1623.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fvldensivm_Antiqvitatvm_Titelbild_1623.jpg",
+      "sha256": "857fc783244b3fbd357ad204abe7f44f4f919750b51990beb0b577c41f0bc29f",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q316908",
+      "title": "Portrait Roi de france Clovis IV.jpg",
+      "reason": "El archivo identifica a Clovis IV, no a Clotario IV; personas distintas.",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Clovis_IV.jpg"
+    },
+    {
+      "person": "Q91392",
+      "title": "St Hubert of Liège offers his services to Pepin of Heristal.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:St_Hubert_of_Li%C3%A8ge_offers_his_services_to_Pepin_of_Heristal.jpg"
+    },
+    {
+      "person": "Q310440",
+      "title": "Fvldensivm Antiqvitatvm Titelbild 1623.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Fvldensivm_Antiqvitatvm_Titelbild_1623.jpg"
+    }
+  ]
+}

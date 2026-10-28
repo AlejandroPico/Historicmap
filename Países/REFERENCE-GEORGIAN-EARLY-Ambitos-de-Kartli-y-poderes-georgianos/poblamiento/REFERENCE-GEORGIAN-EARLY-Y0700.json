@@ -1,0 +1,73 @@
+{
+  "key": "REFERENCE-GEORGIAN-EARLY-Y0700",
+  "contextKey": "REFERENCE-GEORGIAN-EARLY",
+  "ownerKey": "REFERENCE-GEORGIAN-EARLY",
+  "name": "Ámbitos de Kartli y poderes georgianos",
+  "originalNames": [
+    "Georgian Kingdom"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de700",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    700,
+    799
+  ],
+  "interpretation": "La unificación del reino de Georgia es posterior. Se conserva una referencia regional con poderes y dependencias diversos, no una Georgia contemporánea ni una corona unificada desde700.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea700 contiene etiquetas de épocas distintas. La ventana700–799 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    42.75691,
+    42.13283
+  ],
+  "phases": [
+    {
+      "start": 700,
+      "end": 799,
+      "label": "Ámbitos de Kartli y poderes georgianos",
+      "dateBasis": "Referencia regional de la fuente editorial700; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-GEORGIAN-EARLY-Y0700.geojson",
+  "geometrySha256": "9553875f238ee08abbe098ae07202e62a37797df978dbf40cc980939fe43c6ef",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+    "year": 700,
+    "featureIds": [
+      222
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38"
+  },
+  "review": "0.33.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final799 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en800."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Georgian Kingdom",
+      "ABBREVN": "Georgian Kingdom",
+      "SUBJECTO": "Georgian Kingdom",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Georgian Kingdom"
+    }
+  ],
+  "sourceGrouping": [
+    "Georgian Kingdom"
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "key": "EARLY-CHALUKYA",
+  "identity": {
+    "qid": "Q1395011",
+    "name": "Chalukyas de Badami"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey chalukya de Badami",
+      "officePattern": "King.*Chalukya|Chalukya.*king|Chalukya King",
+      "titles": [
+        "Vijayaditya",
+        "Vikramaditya II",
+        "Kirtivarman II"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7929259",
+      "name": "Vijayaditya",
+      "role": "Rey chalukya de Badami",
+      "start": "0700-01-01",
+      "end": "0733-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vijayaditya",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q5477720",
+      "name": "Vikramaditya II",
+      "role": "Rey chalukya de Badami",
+      "start": "0733-01-01",
+      "end": "0744-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vikramaditya_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q707430",
+      "name": "Kirtivarman II",
+      "role": "Rey chalukya de Badami",
+      "start": "0746-01-01",
+      "end": "0753-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kirtivarman_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 753,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Chalukya_dynasty",
+      "sourceLabel": "Institución histórica documentada",
+      "note": "Clasificación de la dignidad histórica, no evaluación democrática ni control homogéneo de cada territorio. Las referencias cartográficas anteriores a la formación política no adelantan esta categoría."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chalukya Dynasty"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Chalukyas de Badami",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "5f76efb0587fc3d6b184ed7e4841d9cc30da1df1fa8765e4775542ed5c9abf06",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2521,
+        2713,
+        2765,
+        2828
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Kirtivarman II",
+        "title": "Kirtivarman II",
+        "person": "Q707430",
+        "name": "Kirtivarman II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kirtivarman_II",
+        "identityResolution": {
+          "requested": "Kirtivarman II",
+          "canonical": "Kirtivarman II",
+          "qid": "Q707430"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15962467",
+          "start": "0746-01-01",
+          "end": "0753-01-01",
+          "precision": 9,
+          "statement": "Q707430$d9828b2c-42c5-687f-dd7a-de5c029c7f1c",
+          "label": "Chalukya king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q707430",
+        "title": "Kirtivarman II",
+        "source": "https://en.wikipedia.org/wiki/Kirtivarman_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chalukya king",
+            "raw": "{{circa|746|753}}",
+            "parsed": {
+              "start": "0746-01-01",
+              "end": "0753-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vijayaditya",
+        "title": "Vijayaditya",
+        "person": "Q7929259",
+        "name": "Vijayaditya",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vijayaditya",
+        "identityResolution": {
+          "requested": "Vijayaditya",
+          "canonical": "Vijayaditya",
+          "qid": "Q7929259"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15962467",
+          "start": "0696-01-01",
+          "end": "0733-01-01",
+          "precision": 9,
+          "statement": "Q7929259$8cb327e8-49e2-ab63-919a-11235bdcd723",
+          "label": "Chalukya king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7929259",
+        "title": "Vijayaditya",
+        "source": "https://en.wikipedia.org/wiki/Vijayaditya",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chalukya king",
+            "raw": "July 696<ref name=\"z171\">{{cite web | title=Political History of the Chalukyas of Badami | url=https://ia800802.us.archive.org/31/items/in.ernet.dli.2015.99164/2015.99164.Political-History-Of-The-Chalukyas-Of-Badami_text.pdf | access-date=8 April 2026}}</ref> – 733",
+            "parsed": {
+              "start": "0696-07-01",
+              "end": "0733-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vikramaditya II",
+        "title": "Vikramaditya II",
+        "person": "Q5477720",
+        "name": "Vikramaditya II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vikramaditya_II",
+        "identityResolution": {
+          "requested": "Vikramaditya II",
+          "canonical": "Vikramaditya II",
+          "qid": "Q5477720"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15962467",
+          "start": "0733-01-01",
+          "end": "0744-01-01",
+          "precision": 9,
+          "statement": "Q5477720$02cca7f7-4265-ca73-a545-fa97024bf14a",
+          "label": "Chalukya king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5477720",
+        "title": "Vikramaditya II",
+        "source": "https://en.wikipedia.org/wiki/Vikramaditya_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chalukya king",
+            "raw": "{{circa|733|744 CE}}",
+            "parsed": {
+              "start": "0733-01-01",
+              "end": "0744-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7929259",
+        "title": "Vijayaditya",
+        "source": "https://en.wikipedia.org/wiki/Vijayaditya",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chalukya king",
+          "raw": "July 696<ref name=\"z171\">{{cite web | title=Political History of the Chalukyas of Badami | url=https://ia800802.us.archive.org/31/items/in.ernet.dli.2015.99164/2015.99164.Political-History-Of-The-Chalukyas-Of-Badami_text.pdf | access-date=8 April 2026}}</ref> – 733",
+          "parsed": {
+            "start": "0696-07-01",
+            "end": "0733-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q5477720",
+        "title": "Vikramaditya II",
+        "source": "https://en.wikipedia.org/wiki/Vikramaditya_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chalukya king",
+          "raw": "{{circa|733|744 CE}}",
+          "parsed": {
+            "start": "0733-01-01",
+            "end": "0744-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q707430",
+        "title": "Kirtivarman II",
+        "source": "https://en.wikipedia.org/wiki/Kirtivarman_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chalukya king",
+          "raw": "{{circa|746|753}}",
+          "parsed": {
+            "start": "0746-01-01",
+            "end": "0753-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-37",
+      "name": "Vatapi · Badami",
+      "coordinates": [
+        75.681,
+        15.92
+      ],
+      "start": 700,
+      "end": 753,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Chalukya_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ]
+}

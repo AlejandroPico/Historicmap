@@ -1,0 +1,107 @@
+{
+  "key": "EARLY-CHALUKYA",
+  "name": "Chalukyas de Badami",
+  "qid": "Q1395011",
+  "aliases": [
+    "Chalukya Dynasty",
+    "Chalukyas de Badami"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "EARLY-CHALUKYA"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q7929259",
+      "name": "Vijayaditya",
+      "role": "Rey chalukya de Badami",
+      "start": "0700-01-01",
+      "end": "0733-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vijayaditya",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    },
+    {
+      "person": "Q5477720",
+      "name": "Vikramaditya II",
+      "role": "Rey chalukya de Badami",
+      "start": "0733-01-01",
+      "end": "0744-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vikramaditya_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    },
+    {
+      "person": "Q707430",
+      "name": "Kirtivarman II",
+      "role": "Rey chalukya de Badami",
+      "start": "0746-01-01",
+      "end": "0753-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kirtivarman_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "curated": true,
+      "acquisition": "century-700-0.33"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2521",
+      "start": 700,
+      "end": 731,
+      "name": "Chalukya Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2713",
+      "start": 732,
+      "end": 749,
+      "name": "Chalukya Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2765",
+      "start": 750,
+      "end": 754,
+      "name": "Chalukya Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2828",
+      "start": 755,
+      "end": 756,
+      "name": "Chalukya Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-CHALUKYAS-309F8956-Y0700",
+      "ownerKey": "EARLY-CHALUKYA",
+      "name": "Chalukyas",
+      "file": "Países/EARLY-CHALUKYA-Chalukyas-de-Badami/poblamiento/CULTURE-CHALUKYAS-309F8956-Y0700.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

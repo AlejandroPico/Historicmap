@@ -1,0 +1,73 @@
+{
+  "key": "REFERENCE-POST-BAEKJE-Y0700",
+  "contextKey": "REFERENCE-POST-BAEKJE",
+  "ownerKey": "REFERENCE-POST-BAEKJE",
+  "name": "Comunidades de los antiguos ámbitos de Baekje",
+  "originalNames": [
+    "Paekche"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de700",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    700,
+    799
+  ],
+  "interpretation": "Baekje cayó en660. La referencia geográfica heredada no representa un rey de Baekje aún gobernando en700 ni la desaparición de sus comunidades tras la conquista.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea700 contiene etiquetas de épocas distintas. La ventana700–799 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Baekje"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    127.14048,
+    35.90395
+  ],
+  "phases": [
+    {
+      "start": 700,
+      "end": 799,
+      "label": "Comunidades de los antiguos ámbitos de Baekje",
+      "dateBasis": "Referencia regional de la fuente editorial700; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-BAEKJE-Y0700.geojson",
+  "geometrySha256": "2c5248324542a9c9a6c5467efab0c5377f1fd740c4b9824309231bdcca56769a",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+    "year": 700,
+    "featureIds": [
+      200
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38"
+  },
+  "review": "0.33.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final799 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en800."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Paekche",
+      "ABBREVN": "Paekche",
+      "SUBJECTO": "Paekche",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Paekche"
+    }
+  ],
+  "sourceGrouping": [
+    "Paekche"
+  ]
+}

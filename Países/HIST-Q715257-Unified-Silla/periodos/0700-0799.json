@@ -1,0 +1,670 @@
+{
+  "key": "HIST-Q715257",
+  "identity": {
+    "qid": "Q715257",
+    "name": "Silla"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey / reina de Silla",
+      "officePattern": "King.*Silla|Queen.*Silla",
+      "titles": [
+        "Hyoso of Silla",
+        "Seongdeok of Silla",
+        "Hyoseong of Silla",
+        "Gyeongdeok of Silla",
+        "Hyegong of Silla",
+        "King Seondeok of Silla",
+        "Wonseong of Silla",
+        "Soseong of Silla"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q486842",
+      "name": "Hyoso of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0700-01-01",
+      "end": "0702-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hyoso_of_Silla",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q484700",
+      "name": "Seongdeok of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0702-01-01",
+      "end": "0737-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Seongdeok_of_Silla",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q485847",
+      "name": "Hyoseong of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0737-01-01",
+      "end": "0742-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hyoseong_of_Silla",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q485815",
+      "name": "Gyeongdeok of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0742-01-01",
+      "end": "0765-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gyeongdeok_of_Silla",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q496772",
+      "name": "Hyegong of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0765-01-01",
+      "end": "0780-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hyegong_of_Silla",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q484914",
+      "name": "King Seondeok of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0780-01-01",
+      "end": "0785-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Seondeok_of_Silla",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q485591",
+      "name": "Wonseong of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0785-01-01",
+      "end": "0798-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wonseong_of_Silla",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q488358",
+      "name": "Soseong of Silla",
+      "role": "Rey / reina de Silla",
+      "start": "0798-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Soseong_of_Silla",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Silla",
+      "sourceLabel": "Institución histórica documentada",
+      "note": "Clasificación de la dignidad histórica, no evaluación democrática ni control homogéneo de cada territorio. Las referencias cartográficas anteriores a la formación política no adelantan esta categoría."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Unified Silla"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Silla",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "92f62c667bdc4528bcf8b2cda0e8ed27db6632ce2d401b8b9e7b7faf00e18202",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2590
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Gyeongdeok of Silla",
+        "title": "Gyeongdeok of Silla",
+        "person": "Q485815",
+        "name": "Gyeongdeok of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gyeongdeok_of_Silla",
+        "identityResolution": {
+          "requested": "Gyeongdeok of Silla",
+          "canonical": "Gyeongdeok of Silla",
+          "qid": "Q485815"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485815",
+        "title": "Gyeongdeok of Silla",
+        "source": "https://en.wikipedia.org/wiki/Gyeongdeok_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Unified Silla",
+            "raw": "742–765",
+            "parsed": {
+              "start": "0742-01-01",
+              "end": "0765-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Silla",
+            "raw": "742–765",
+            "parsed": {
+              "start": "0742-01-01",
+              "end": "0765-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hyegong of Silla",
+        "title": "Hyegong of Silla",
+        "person": "Q496772",
+        "name": "Hyegong of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hyegong_of_Silla",
+        "identityResolution": {
+          "requested": "Hyegong of Silla",
+          "canonical": "Hyegong of Silla",
+          "qid": "Q496772"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q496772",
+        "title": "Hyegong of Silla",
+        "source": "https://en.wikipedia.org/wiki/Hyegong_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Silla",
+            "raw": "765–780",
+            "parsed": {
+              "start": "0765-01-01",
+              "end": "0780-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Silla",
+            "raw": "765–780",
+            "parsed": {
+              "start": "0765-01-01",
+              "end": "0780-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hyoseong of Silla",
+        "title": "Hyoseong of Silla",
+        "person": "Q485847",
+        "name": "Hyoseong of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hyoseong_of_Silla",
+        "identityResolution": {
+          "requested": "Hyoseong of Silla",
+          "canonical": "Hyoseong of Silla",
+          "qid": "Q485847"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485847",
+        "title": "Hyoseong of Silla",
+        "source": "https://en.wikipedia.org/wiki/Hyoseong_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Unified Silla",
+            "raw": "737–742",
+            "parsed": {
+              "start": "0737-01-01",
+              "end": "0742-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Silla",
+            "raw": "737–742",
+            "parsed": {
+              "start": "0737-01-01",
+              "end": "0742-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hyoso of Silla",
+        "title": "Hyoso of Silla",
+        "person": "Q486842",
+        "name": "Hyoso of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hyoso_of_Silla",
+        "identityResolution": {
+          "requested": "Hyoso of Silla",
+          "canonical": "Hyoso of Silla",
+          "qid": "Q486842"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q486842",
+        "title": "Hyoso of Silla",
+        "source": "https://en.wikipedia.org/wiki/Hyoso_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Unified Silla",
+            "raw": "692–702",
+            "parsed": {
+              "start": "0692-01-01",
+              "end": "0702-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Silla",
+            "raw": "692–702",
+            "parsed": {
+              "start": "0692-01-01",
+              "end": "0702-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Seondeok of Silla",
+        "title": "King Seondeok of Silla",
+        "person": "Q484914",
+        "name": "King Seondeok of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Seondeok_of_Silla",
+        "identityResolution": {
+          "requested": "King Seondeok of Silla",
+          "canonical": "King Seondeok of Silla",
+          "qid": "Q484914"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q484914",
+        "title": "King Seondeok of Silla",
+        "source": "https://en.wikipedia.org/wiki/King_Seondeok_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Silla",
+            "raw": "780–785",
+            "parsed": {
+              "start": "0780-01-01",
+              "end": "0785-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Silla",
+            "raw": "780–785",
+            "parsed": {
+              "start": "0780-01-01",
+              "end": "0785-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Seongdeok of Silla",
+        "title": "Seongdeok of Silla",
+        "person": "Q484700",
+        "name": "Seongdeok of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Seongdeok_of_Silla",
+        "identityResolution": {
+          "requested": "Seongdeok of Silla",
+          "canonical": "Seongdeok of Silla",
+          "qid": "Q484700"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q484700",
+        "title": "Seongdeok of Silla",
+        "source": "https://en.wikipedia.org/wiki/Seongdeok_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Unified Silla",
+            "raw": "702–737",
+            "parsed": {
+              "start": "0702-01-01",
+              "end": "0737-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Silla",
+            "raw": "702–737",
+            "parsed": {
+              "start": "0702-01-01",
+              "end": "0737-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Soseong of Silla",
+        "title": "Soseong of Silla",
+        "person": "Q488358",
+        "name": "Soseong of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Soseong_of_Silla",
+        "identityResolution": {
+          "requested": "Soseong of Silla",
+          "canonical": "Soseong of Silla",
+          "qid": "Q488358"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q488358",
+        "title": "Soseong of Silla",
+        "source": "https://en.wikipedia.org/wiki/Soseong_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Silla",
+            "raw": "798-800",
+            "parsed": {
+              "start": "0798-01-01",
+              "end": "0800-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Silla",
+            "raw": "798–800",
+            "parsed": {
+              "start": "0798-01-01",
+              "end": "0800-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wonseong of Silla",
+        "title": "Wonseong of Silla",
+        "person": "Q485591",
+        "name": "Wonseong of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wonseong_of_Silla",
+        "identityResolution": {
+          "requested": "Wonseong of Silla",
+          "canonical": "Wonseong of Silla",
+          "qid": "Q485591"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485591",
+        "title": "Wonseong of Silla",
+        "source": "https://en.wikipedia.org/wiki/Wonseong_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Silla",
+            "raw": "785–798",
+            "parsed": {
+              "start": "0785-01-01",
+              "end": "0798-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Silla",
+            "raw": "785–798",
+            "parsed": {
+              "start": "0785-01-01",
+              "end": "0798-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 8,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q486842",
+        "title": "Hyoso of Silla",
+        "source": "https://en.wikipedia.org/wiki/Hyoso_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Unified Silla",
+          "raw": "692–702",
+          "parsed": {
+            "start": "0692-01-01",
+            "end": "0702-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q484700",
+        "title": "Seongdeok of Silla",
+        "source": "https://en.wikipedia.org/wiki/Seongdeok_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Unified Silla",
+          "raw": "702–737",
+          "parsed": {
+            "start": "0702-01-01",
+            "end": "0737-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q485847",
+        "title": "Hyoseong of Silla",
+        "source": "https://en.wikipedia.org/wiki/Hyoseong_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Unified Silla",
+          "raw": "737–742",
+          "parsed": {
+            "start": "0737-01-01",
+            "end": "0742-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q485815",
+        "title": "Gyeongdeok of Silla",
+        "source": "https://en.wikipedia.org/wiki/Gyeongdeok_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Unified Silla",
+          "raw": "742–765",
+          "parsed": {
+            "start": "0742-01-01",
+            "end": "0765-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q496772",
+        "title": "Hyegong of Silla",
+        "source": "https://en.wikipedia.org/wiki/Hyegong_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Silla",
+          "raw": "765–780",
+          "parsed": {
+            "start": "0765-01-01",
+            "end": "0780-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q484914",
+        "title": "King Seondeok of Silla",
+        "source": "https://en.wikipedia.org/wiki/King_Seondeok_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Silla",
+          "raw": "780–785",
+          "parsed": {
+            "start": "0780-01-01",
+            "end": "0785-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q485591",
+        "title": "Wonseong of Silla",
+        "source": "https://en.wikipedia.org/wiki/Wonseong_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Silla",
+          "raw": "785–798",
+          "parsed": {
+            "start": "0785-01-01",
+            "end": "0798-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q488358",
+        "title": "Soseong of Silla",
+        "source": "https://en.wikipedia.org/wiki/Soseong_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Silla",
+          "raw": "798-800",
+          "parsed": {
+            "start": "0798-01-01",
+            "end": "0800-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-33",
+      "name": "Gyeongju · Silla",
+      "coordinates": [
+        129.212,
+        35.856
+      ],
+      "start": 700,
+      "end": 799,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Silla",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ]
+}

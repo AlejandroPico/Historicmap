@@ -1,0 +1,73 @@
+{
+  "key": "REFERENCE-POST-SASANIAN-Y0700",
+  "contextKey": "REFERENCE-POST-SASANIAN",
+  "ownerKey": "REFERENCE-POST-SASANIAN",
+  "name": "Ámbitos iranios posteriores a los sasánidas",
+  "originalNames": [
+    "Sasanian Empire"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de700",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    700,
+    799
+  ],
+  "interpretation": "El imperio sasánida terminó en651; la etiqueta original es anacrónica para700. Se conserva como referencia histórica regional, con comunidades y poderes posteriores, sin un emperador sasánida ficticio.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea700 contiene etiquetas de épocas distintas. La ventana700–799 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Sasanian_Empire"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    52.77141,
+    33.27147
+  ],
+  "phases": [
+    {
+      "start": 700,
+      "end": 799,
+      "label": "Ámbitos iranios posteriores a los sasánidas",
+      "dateBasis": "Referencia regional de la fuente editorial700; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-SASANIAN-Y0700.geojson",
+  "geometrySha256": "90ff62d0beb7a1ef4c285f1599d38b293b3d715cc9b81b2717c55dee91cc75c1",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+    "year": 700,
+    "featureIds": [
+      240
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38"
+  },
+  "review": "0.33.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final799 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en800."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Sasanian Empire",
+      "ABBREVN": "Sasanian E",
+      "SUBJECTO": "Sasanian Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Sasanian Empire"
+    }
+  ],
+  "sourceGrouping": [
+    "Sasanian Empire"
+  ]
+}

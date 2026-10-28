@@ -1,0 +1,1583 @@
+{
+  "key": "BYZANTINE",
+  "identity": {
+    "qid": "Q12544",
+    "name": "Imperio bizantino"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador / emperatriz bizantina",
+      "officePattern": "Byzantine.*emperor|Byzantine.*empress|Emperor.*Roman|Roman.*emperor|Empress.*Roman",
+      "titles": [
+        "Tiberius III",
+        "Justinian II",
+        "Philippikos Bardanes",
+        "Anastasius II (emperor)",
+        "Theodosius III",
+        "Leo III the Isaurian",
+        "Constantine V",
+        "Artabasdos",
+        "Leo IV the Khazar",
+        "Constantine VI",
+        "Irene of Athens"
+      ],
+      "reviewedPhases": {
+        "Irene of Athens": [
+          {
+            "start": "0780-09-08",
+            "end": "0790-12-31",
+            "role": "Emperatriz regente",
+            "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+            "note": "Regencia y gobierno por Constantino VI separados de su reinado propio posterior; extremo790 de precisión anual."
+          },
+          {
+            "start": "0792-01-01",
+            "end": "0797-08-18",
+            "role": "Emperatriz asociada · etapa de Constantino VI",
+            "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+            "note": "Etapa asociada distinta del gobierno como emperatriz reinante desde797; inicio792 de precisión anual."
+          },
+          {
+            "start": "0797-08-19",
+            "end": "0802-10-31",
+            "role": "Emperatriz reinante",
+            "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+            "note": "Gobierno propio posterior a la deposición de Constantino VI; no se anticipa a toda la regencia."
+          }
+        ]
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q41637",
+      "name": "Tiberio III",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0700-01-01",
+      "end": "0705-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tiberius_III",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-4e198668d50103f64a2e.jpg",
+        "title": "Solidus-Tiberius III-sb1360.4.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Tiberius_III-sb1360.4.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Solidus-Tiberius_III-sb1360.4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "898bd7a28249e8ed53ff69468dbb6d40523ecbf52d9a32beaa3f029856664c3e",
+        "bytes": 181457,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-4e198668d50103f64a2e.jpg",
+        "caption": "Efigie numismática atribuida a Tiberio III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q42021",
+      "name": "Justiniano II",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0705-08-21",
+      "end": "0711-11-04",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Justinian_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q44560",
+      "name": "Filípico",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0711-11-04",
+      "end": "0713-06-03",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Philippicus",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-c056c37207ad35201727.jpg",
+        "title": "Solidus-Philippicus-sb1447.3.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Philippicus-sb1447.3.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Solidus-Philippicus-sb1447.3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "59cfe5ebd24a0d15fc1c16ce859f0f4370b33a0de4f5002a07dedb7e207ef92c",
+        "bytes": 82275,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-c056c37207ad35201727.jpg",
+        "caption": "Efigie numismática atribuida a Filípico; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q41620",
+      "name": "Anastasio II",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0713-06-04",
+      "end": "0715-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Anastasius_II_%28emperor%29",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-8c036e9131dc250015ec.jpg",
+        "title": "Solidus-Anastasius II-sb1463.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Anastasius_II-sb1463.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Solidus-Anastasius_II-sb1463.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Solidus-Anastasius_II-sb1463.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "7f78069c44bca7a222de068a975a93d052ccb982b4ccb94662816655d7f66f92",
+        "bytes": 71017,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-8c036e9131dc250015ec.jpg",
+        "caption": "Efigie numismática atribuida a Anastasio II; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q41836",
+      "name": "Teodosio III",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0715-05-01",
+      "end": "0717-03-25",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Theodosius_III",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-9215d3763a9b3991ebc1.png",
+        "title": "Solidus of Theodosios III.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus_of_Theodosios_III.png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Solidus_of_Theodosios_III.png/330px-Solidus_of_Theodosios_III.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Dumbarton Oaks (photographer)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Solidus_of_Theodosios_III.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Dumbarton Oaks",
+        "sha256": "9c8a291ca0a82d3b1661e98c7a10e9fc249c57082a40fbbd15390cabdff4c660",
+        "bytes": 231466,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-9215d3763a9b3991ebc1.png",
+        "caption": "Efigie numismática atribuida a Teodosio III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q31755",
+      "name": "León III",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0717-03-25",
+      "end": "0741-06-18",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Leo_III_the_Isaurian",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-46b53cf38bd29be282f1.jpg",
+        "title": "Solidus-Leo III and Constantine V-sb1504.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Leo_III_and_Constantine_V-sb1504.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Solidus-Leo_III_and_Constantine_V-sb1504.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://www.wildwinds.com/coins/sb/sb1504.html (Sear #1504)",
+        "sha256": "cfbe47ec5fd9dabb4a66cea84b77fc8b3c6baeeee3b481bc9da58e0837d0ed2f",
+        "bytes": 95568,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-46b53cf38bd29be282f1.jpg",
+        "caption": "Moneda con efigies de León III y Constantino V; representación dinástica conjunta, no retrato del natural."
+      }
+    },
+    {
+      "person": "Q41635",
+      "name": "Constantino V",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0741-06-18",
+      "end": "0775-09-14",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Constantine_V",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-46b53cf38bd29be282f1.jpg",
+        "title": "Solidus-Leo III and Constantine V-sb1504.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Leo_III_and_Constantine_V-sb1504.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Solidus-Leo_III_and_Constantine_V-sb1504.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://www.wildwinds.com/coins/sb/sb1504.html (Sear #1504)",
+        "sha256": "cfbe47ec5fd9dabb4a66cea84b77fc8b3c6baeeee3b481bc9da58e0837d0ed2f",
+        "bytes": 95568,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-46b53cf38bd29be282f1.jpg",
+        "caption": "Moneda con efigies de León III y Constantino V; representación dinástica conjunta, no retrato individual del natural."
+      }
+    },
+    {
+      "person": "Q235097",
+      "name": "Artabasdo",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0741-06-01",
+      "end": "0743-11-02",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Artabasdos",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-57f1f1280ca92ac270e9.jpg",
+        "title": "Solidus Artabasdos Nikephoros.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus_Artabasdos_Nikephoros.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Solidus_Artabasdos_Nikephoros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "unknown; Image: Classical Numismatic Group, Inc.. CNG allows the use of any of their images as long as they are attributed to CNG.[1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://www.wildwinds.com/coins/byz/artavasdus-nicephorus/sb1542.1.txt (text)http://www.wildwinds.com/coins/byz/artavasdus-nicephorus/sb1542.1.jpg (image)",
+        "sha256": "1799e05ef0dbae027ac4b8896489150e4d7de0c3025131ade0ec2eb793b36ba4",
+        "bytes": 23776,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-57f1f1280ca92ac270e9.jpg",
+        "caption": "Moneda de Artabasdo y Nicéforo; efigies de autoridad convencionales, no apariencia individual acreditada."
+      }
+    },
+    {
+      "person": "Q41645",
+      "name": "León IV",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0775-09-14",
+      "end": "0780-09-08",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Leo_IV_the_Khazar",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-81fffe665fe1771d8bef.jpg",
+        "title": "Leo iv constantine vi coin.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Leo_iv_constantine_vi_coin.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Leo_iv_constantine_vi_coin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "User:Cplakidas (uploader)",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CNG. CNG allows the use of any of their images as long as they are attributed to CNG.[1]",
+        "sha256": "48d96828e919cb73e28511d982b444c61e5a57ec4b48b2e4d61dc2e715cd6034",
+        "bytes": 54972,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-81fffe665fe1771d8bef.jpg",
+        "caption": "Moneda asociada a León IV y Constantino VI, con efigies dinásticas; representación conjunta."
+      }
+    },
+    {
+      "person": "Q41661",
+      "name": "Constantino VI",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0780-09-08",
+      "end": "0797-08-19",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Constantine_VI",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "portrait": {
+        "file": "media/portrait-81fffe665fe1771d8bef.jpg",
+        "title": "Leo iv constantine vi coin.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Leo_iv_constantine_vi_coin.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Leo_iv_constantine_vi_coin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "User:Cplakidas (uploader)",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CNG. CNG allows the use of any of their images as long as they are attributed to CNG.[1]",
+        "sha256": "48d96828e919cb73e28511d982b444c61e5a57ec4b48b2e4d61dc2e715cd6034",
+        "bytes": 54972,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-81fffe665fe1771d8bef.jpg",
+        "caption": "Moneda asociada a León IV y Constantino VI, con efigies dinásticas; representación conjunta."
+      }
+    },
+    {
+      "person": "Q206737",
+      "name": "Irene",
+      "role": "Emperatriz regente",
+      "start": "0780-09-08",
+      "end": "0790-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+      "note": "Regencia y gobierno por Constantino VI separados de su reinado propio posterior; extremo790 de precisión anual.",
+      "portrait": {
+        "file": "media/portrait-b47de168b5a8115f29a9.jpg",
+        "title": "Irene solidus sb 1599 (obverse).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Irene_solidus_sb_1599_(obverse).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Irene_solidus_sb_1599_%28obverse%29.jpg/500px-Irene_solidus_sb_1599_%28obverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "CNG",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CoinArchives",
+        "sha256": "66eb7ce75a5332db1200b9a1ad474241b652c0f914b2fffffa6cde995a80e74c",
+        "bytes": 96546,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-b47de168b5a8115f29a9.jpg",
+        "caption": "Efigie numismática atribuida a Irene; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q206737",
+      "name": "Irene",
+      "role": "Emperatriz asociada · etapa de Constantino VI",
+      "start": "0792-01-01",
+      "end": "0797-08-18",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+      "note": "Etapa asociada distinta del gobierno como emperatriz reinante desde797; inicio792 de precisión anual.",
+      "portrait": {
+        "file": "media/portrait-b47de168b5a8115f29a9.jpg",
+        "title": "Irene solidus sb 1599 (obverse).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Irene_solidus_sb_1599_(obverse).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Irene_solidus_sb_1599_%28obverse%29.jpg/500px-Irene_solidus_sb_1599_%28obverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "CNG",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CoinArchives",
+        "sha256": "66eb7ce75a5332db1200b9a1ad474241b652c0f914b2fffffa6cde995a80e74c",
+        "bytes": 96546,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-b47de168b5a8115f29a9.jpg",
+        "caption": "Efigie numismática atribuida a Irene; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q206737",
+      "name": "Irene",
+      "role": "Emperatriz reinante",
+      "start": "0797-08-19",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+      "note": "Gobierno propio posterior a la deposición de Constantino VI; no se anticipa a toda la regencia.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-b47de168b5a8115f29a9.jpg",
+        "title": "Irene solidus sb 1599 (obverse).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Irene_solidus_sb_1599_(obverse).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Irene_solidus_sb_1599_%28obverse%29.jpg/500px-Irene_solidus_sb_1599_%28obverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "CNG",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CoinArchives",
+        "sha256": "66eb7ce75a5332db1200b9a1ad474241b652c0f914b2fffffa6cde995a80e74c",
+        "bytes": 96546,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-b47de168b5a8115f29a9.jpg",
+        "caption": "Efigie numismática atribuida a Irene; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review033-iconoclasm",
+      "type": "institution",
+      "title": "Iconoclasia, regencias y controversias religiosas",
+      "start": "0726-01-01",
+      "end": "0788-01-01",
+      "text": "Las políticas iconoclastas y el concilio deNicea de787 tienen cronologías distintas. Irene es regente y después emperatriz reinante; no se equiparan sus funciones ni las de los coemperadores.",
+      "source": "https://en.wikipedia.org/wiki/Byzantine_Iconoclasm",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    },
+    {
+      "id": "review033-siege",
+      "type": "conflict",
+      "title": "Asedio de Constantinopla",
+      "start": "0717-01-01",
+      "end": "0719-01-01",
+      "text": "El asedio omeya de717–718 se localiza en el entorno de la capital. El punto no es una reconstrucción de las líneas del asedio ni del dominio de toda Anatolia.",
+      "source": "https://en.wikipedia.org/wiki/Siege_of_Constantinople_%28717%E2%80%93718%29",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Clasificación institucional histórica",
+      "note": "Forma de organización; no una evaluación contemporánea ni control territorial homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Byzantine Empire"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Imperio bizantino",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "45fc7ff449644420b493d8e0f82b3e20e32be36bbbe86d98785521fb0d1b30cc",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2619,
+        2653,
+        2685,
+        2711,
+        2718,
+        2754,
+        2758,
+        2797,
+        2866,
+        2918,
+        2945,
+        2965
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Anastasius II (emperor)",
+        "title": "Anastasius II (emperor)",
+        "person": "Q41620",
+        "name": "Anastasio II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Anastasius_II_%28emperor%29",
+        "identityResolution": {
+          "requested": "Anastasius II (emperor)",
+          "canonical": "Anastasius II (emperor)",
+          "qid": "Q41620"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0713-06-01",
+          "end": "0715-11-01",
+          "precision": 10,
+          "statement": "Q41620$c56b4f14-4a8e-1971-0306-f794da6ca684",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41620",
+        "title": "Anastasius II (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Anastasius_II_%28emperor%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "4 June 713 – late 715",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "4 June 713 – 715",
+            "parsed": {
+              "start": "0713-06-04",
+              "end": "0715-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "714",
+            "parsed": {
+              "start": "0714-01-01",
+              "end": "0714-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Artabasdos",
+        "title": "Artabasdos",
+        "person": "Q235097",
+        "name": "Artabasdo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Artabasdos",
+        "identityResolution": {
+          "requested": "Artabasdos",
+          "canonical": "Artabasdos",
+          "qid": "Q235097"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q235097",
+        "title": "Artabasdos",
+        "source": "https://en.wikipedia.org/wiki/Artabasdos",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "June 741 – 2 November 743",
+            "parsed": {
+              "start": "0741-06-01",
+              "end": "0743-11-02",
+              "precision": 10
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Constantine V",
+        "title": "Constantine V",
+        "person": "Q41635",
+        "name": "Constantino V",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Constantine_V",
+        "identityResolution": {
+          "requested": "Constantine V",
+          "canonical": "Constantine V",
+          "qid": "Q41635"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0741-06-18",
+          "end": "0775-09-14",
+          "precision": 11,
+          "statement": "Q41635$54eaa60d-4fef-e5aa-712f-bb6128d1e35b",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41635",
+        "title": "Constantine V",
+        "source": "https://en.wikipedia.org/wiki/Constantine_V",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "18 June 741 – 14 September 775",
+            "parsed": {
+              "start": "0741-06-18",
+              "end": "0775-09-14",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "742",
+            "parsed": {
+              "start": "0742-01-01",
+              "end": "0742-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Constantine VI",
+        "title": "Constantine VI",
+        "person": "Q41661",
+        "name": "Constantino VI",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Constantine_VI",
+        "identityResolution": {
+          "requested": "Constantine VI",
+          "canonical": "Constantine VI",
+          "qid": "Q41661"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0780-09-08",
+          "end": "0797-08-01",
+          "precision": 11,
+          "statement": "Q41661$533b1a57-4324-522f-3807-139eb14e88e9",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41661",
+        "title": "Constantine VI",
+        "source": "https://en.wikipedia.org/wiki/Constantine_VI",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Roman emperor",
+            "raw": "8 September 780 – 19 August 797",
+            "parsed": {
+              "start": "0780-09-08",
+              "end": "0797-08-19",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "780",
+            "parsed": {
+              "start": "0780-01-01",
+              "end": "0780-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Irene of Athens",
+        "title": "Irene of Athens",
+        "person": "Q206737",
+        "name": "Irene",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+        "identityResolution": {
+          "requested": "Irene of Athens",
+          "canonical": "Irene of Athens",
+          "qid": "Q206737"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0797-01-01",
+          "end": "0802-10-31",
+          "precision": 9,
+          "statement": "Q206737$99633283-4b07-119b-2328-10081d1c2e71",
+          "label": "emperador bizantino"
+        },
+        {
+          "property": "P39",
+          "office": "Q477406",
+          "start": "0780-01-01",
+          "end": "0797-01-01",
+          "precision": 9,
+          "statement": "Q206737$f7b0928e-48c0-823b-71dd-643e9038ab40",
+          "label": "regente"
+        },
+        {
+          "property": "P39",
+          "office": "Q7723211",
+          "start": "0775-01-01",
+          "end": "0780-01-01",
+          "precision": 9,
+          "statement": "Q206737$eb3fb808-400f-e705-4e6d-68ca1de1ae80",
+          "label": "emperatriz consorte"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q206737",
+        "title": "Irene of Athens",
+        "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine empress regnant",
+            "raw": "19 August 797 – 31 October 802",
+            "parsed": {
+              "start": "0797-08-19",
+              "end": "0802-10-31",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Byzantine co-empress",
+            "raw": "792–797",
+            "parsed": {
+              "start": "0792-01-01",
+              "end": "0797-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "Byzantine regent",
+            "raw": "780–790",
+            "parsed": {
+              "start": "0780-01-01",
+              "end": "0790-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign3",
+            "office": "Byzantine empress consort",
+            "raw": "775–780",
+            "parsed": {
+              "start": "0775-01-01",
+              "end": "0780-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine empress-regnant",
+            "raw": "19 August 797 – 31 October 802",
+            "parsed": {
+              "start": "0797-08-19",
+              "end": "0802-10-31",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine empress-consort",
+            "raw": "775–780",
+            "parsed": {
+              "start": "0775-01-01",
+              "end": "0780-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Justinian II",
+        "title": "Justinian II",
+        "person": "Q42021",
+        "name": "Justiniano II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Justinian_II",
+        "identityResolution": {
+          "requested": "Justinian II",
+          "canonical": "Justinian II",
+          "qid": "Q42021"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0705-01-01",
+          "end": "0711-12-11",
+          "precision": 9,
+          "statement": "Q42021$cb372275-47a0-cb61-725c-82e7497cc170",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q42021",
+        "title": "Justinian II",
+        "source": "https://en.wikipedia.org/wiki/Justinian_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "10 July 685 – 695",
+            "parsed": {
+              "start": "0685-07-10",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Byzantine emperor",
+            "raw": "21 August 705 – 4 November 711",
+            "parsed": {
+              "start": "0705-08-21",
+              "end": "0711-11-04",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine Emperor",
+            "raw": "681–695",
+            "parsed": {
+              "start": "0681-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine Emperor",
+            "raw": "705–711",
+            "parsed": {
+              "start": "0705-01-01",
+              "end": "0711-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "686",
+            "parsed": {
+              "start": "0686-01-01",
+              "end": "0686-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Leo III the Isaurian",
+        "title": "Leo III the Isaurian",
+        "person": "Q31755",
+        "name": "León III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Leo_III_the_Isaurian",
+        "identityResolution": {
+          "requested": "Leo III the Isaurian",
+          "canonical": "Leo III the Isaurian",
+          "qid": "Q31755"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0717-03-25",
+          "end": "0741-06-18",
+          "precision": 11,
+          "statement": "Q31755$bd9c55b5-485f-44b4-e231-a9f4fd12d87d",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q31755",
+        "title": "Leo III the Isaurian",
+        "source": "https://en.wikipedia.org/wiki/Leo_III_the_Isaurian",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "25 March 717 – 18 June 741",
+            "parsed": {
+              "start": "0717-03-25",
+              "end": "0741-06-18",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "25 March 717 – 18 June 741",
+            "parsed": {
+              "start": "0717-03-25",
+              "end": "0741-06-18",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "718",
+            "parsed": {
+              "start": "0718-01-01",
+              "end": "0718-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Leo IV the Khazar",
+        "title": "Leo IV the Khazar",
+        "person": "Q41645",
+        "name": "León IV",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Leo_IV_the_Khazar",
+        "identityResolution": {
+          "requested": "Leo IV the Khazar",
+          "canonical": "Leo IV the Khazar",
+          "qid": "Q41645"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0775-09-14",
+          "end": "0780-06-18",
+          "precision": 11,
+          "statement": "Q41645$ae3f3209-425c-a048-9956-930ca15745d6",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41645",
+        "title": "Leo IV the Khazar",
+        "source": "https://en.wikipedia.org/wiki/Leo_IV_the_Khazar",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "14 September 775 – 8 September 780",
+            "parsed": {
+              "start": "0775-09-14",
+              "end": "0780-09-08",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "14 September 775 – 8 September 780",
+            "parsed": {
+              "start": "0775-09-14",
+              "end": "0780-09-08",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Consul of the Roman Empire",
+            "raw": "776",
+            "parsed": {
+              "start": "0776-01-01",
+              "end": "0776-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Philippikos Bardanes",
+        "title": "Philippikos Bardanes",
+        "person": "Q44560",
+        "name": "Filípico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Philippicus",
+        "identityResolution": {
+          "requested": "Philippikos Bardanes",
+          "canonical": "Philippicus",
+          "qid": "Q44560"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0711-12-15",
+          "end": "0713-06-07",
+          "precision": 11,
+          "statement": "Q44560$3aac26fe-4bd0-3852-66de-4357575e898a",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q44560",
+        "title": "Philippicus",
+        "source": "https://en.wikipedia.org/wiki/Philippicus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "4 November 711 – 3 June 713",
+            "parsed": {
+              "start": "0711-11-04",
+              "end": "0713-06-03",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine Emperor",
+            "raw": "4 November 711 – 3 June 713",
+            "parsed": {
+              "start": "0711-11-04",
+              "end": "0713-06-03",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "711",
+            "parsed": {
+              "start": "0711-01-01",
+              "end": "0711-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theodosius III",
+        "title": "Theodosius III",
+        "person": "Q41836",
+        "name": "Teodosio III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theodosius_III",
+        "identityResolution": {
+          "requested": "Theodosius III",
+          "canonical": "Theodosius III",
+          "qid": "Q41836"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0715-05-01",
+          "end": "0717-03-25",
+          "precision": 10,
+          "statement": "Q41836$277bc997-4f3b-e719-65cc-c53c43c94ca1",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41836",
+        "title": "Theodosius III",
+        "source": "https://en.wikipedia.org/wiki/Theodosius_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "{{circa|May 715}} – 25 March 717",
+            "parsed": {
+              "start": "0715-05-01",
+              "end": "0717-03-25",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "May 715 – 25 March 717",
+            "parsed": {
+              "start": "0715-05-01",
+              "end": "0717-03-25",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "716",
+            "parsed": {
+              "start": "0716-01-01",
+              "end": "0716-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tiberius III",
+        "title": "Tiberius III",
+        "person": "Q41637",
+        "name": "Tiberio III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tiberius_III",
+        "identityResolution": {
+          "requested": "Tiberius III",
+          "canonical": "Tiberius III",
+          "qid": "Q41637"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0698-01-01",
+          "end": "0705-01-01",
+          "precision": 9,
+          "statement": "Q41637$c4411cfe-41f2-b496-a504-31664b3a3c83",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41637",
+        "title": "Tiberius III",
+        "source": "https://en.wikipedia.org/wiki/Tiberius_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "698–705",
+            "parsed": {
+              "start": "0698-01-01",
+              "end": "0705-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine Emperor",
+            "raw": "698–705",
+            "parsed": {
+              "start": "0698-01-01",
+              "end": "0705-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "699",
+            "parsed": {
+              "start": "0699-01-01",
+              "end": "0699-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 13,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q41637",
+        "title": "Tiberius III",
+        "source": "https://en.wikipedia.org/wiki/Tiberius_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "698–705",
+          "parsed": {
+            "start": "0698-01-01",
+            "end": "0705-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q42021",
+        "title": "Justinian II",
+        "source": "https://en.wikipedia.org/wiki/Justinian_II",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "Byzantine emperor",
+          "raw": "21 August 705 – 4 November 711",
+          "parsed": {
+            "start": "0705-08-21",
+            "end": "0711-11-04",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q44560",
+        "title": "Philippikos Bardanes",
+        "source": "https://en.wikipedia.org/wiki/Philippicus",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "4 November 711 – 3 June 713",
+          "parsed": {
+            "start": "0711-11-04",
+            "end": "0713-06-03",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q41620",
+        "title": "Anastasius II (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Anastasius_II_%28emperor%29",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Byzantine emperor",
+          "raw": "4 June 713 – 715",
+          "parsed": {
+            "start": "0713-06-04",
+            "end": "0715-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q41836",
+        "title": "Theodosius III",
+        "source": "https://en.wikipedia.org/wiki/Theodosius_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "{{circa|May 715}} – 25 March 717",
+          "parsed": {
+            "start": "0715-05-01",
+            "end": "0717-03-25",
+            "precision": 10
+          }
+        }
+      },
+      {
+        "person": "Q31755",
+        "title": "Leo III the Isaurian",
+        "source": "https://en.wikipedia.org/wiki/Leo_III_the_Isaurian",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "25 March 717 – 18 June 741",
+          "parsed": {
+            "start": "0717-03-25",
+            "end": "0741-06-18",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q41635",
+        "title": "Constantine V",
+        "source": "https://en.wikipedia.org/wiki/Constantine_V",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "18 June 741 – 14 September 775",
+          "parsed": {
+            "start": "0741-06-18",
+            "end": "0775-09-14",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q235097",
+        "title": "Artabasdos",
+        "source": "https://en.wikipedia.org/wiki/Artabasdos",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "June 741 – 2 November 743",
+          "parsed": {
+            "start": "0741-06-01",
+            "end": "0743-11-02",
+            "precision": 10
+          }
+        }
+      },
+      {
+        "person": "Q41645",
+        "title": "Leo IV the Khazar",
+        "source": "https://en.wikipedia.org/wiki/Leo_IV_the_Khazar",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "14 September 775 – 8 September 780",
+          "parsed": {
+            "start": "0775-09-14",
+            "end": "0780-09-08",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q41661",
+        "title": "Constantine VI",
+        "source": "https://en.wikipedia.org/wiki/Constantine_VI",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Roman emperor",
+          "raw": "8 September 780 – 19 August 797",
+          "parsed": {
+            "start": "0780-09-08",
+            "end": "0797-08-19",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q206737",
+        "title": "Irene of Athens",
+        "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Irene_of_Athens"
+        }
+      },
+      {
+        "person": "Q206737",
+        "title": "Irene of Athens",
+        "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Irene_of_Athens"
+        }
+      },
+      {
+        "person": "Q206737",
+        "title": "Irene of Athens",
+        "source": "https://en.wikipedia.org/wiki/Irene_of_Athens",
+        "selectionEvidence": {
+          "type": "explicit-office-phase",
+          "source": "https://en.wikipedia.org/wiki/Irene_of_Athens"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-12",
+      "name": "Constantinopla",
+      "coordinates": [
+        28.978,
+        41.008
+      ],
+      "start": 700,
+      "end": 799,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review033-iconoclasm",
+      "type": "institution",
+      "title": "Iconoclasia, regencias y controversias religiosas",
+      "start": "0726-01-01",
+      "end": "0788-01-01",
+      "text": "Las políticas iconoclastas y el concilio deNicea de787 tienen cronologías distintas. Irene es regente y después emperatriz reinante; no se equiparan sus funciones ni las de los coemperadores.",
+      "source": "https://en.wikipedia.org/wiki/Byzantine_Iconoclasm",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    },
+    {
+      "id": "review033-siege",
+      "type": "conflict",
+      "title": "Asedio de Constantinopla",
+      "start": "0717-01-01",
+      "end": "0719-01-01",
+      "text": "El asedio omeya de717–718 se localiza en el entorno de la capital. El punto no es una reconstrucción de las líneas del asedio ni del dominio de toda Anatolia.",
+      "source": "https://en.wikipedia.org/wiki/Siege_of_Constantinople_%28717%E2%80%93718%29",
+      "sourceLabel": "Referencia documental · siglo VIII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review033-siege",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.978,
+          41.008
+        ]
+      },
+      "properties": {
+        "name": "Asedio de Constantinopla",
+        "countries": [
+          "BYZANTINE"
+        ],
+        "kind": "regional-conflict",
+        "start": "0717-01-01",
+        "end": "0718-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Siege_of_Constantinople_%28717%E2%80%93718%29",
+        "sourceLabel": "Referencia documental · siglo VIII",
+        "note": "El asedio omeya de717–718 se localiza en el entorno de la capital. El punto no es una reconstrucción de las líneas del asedio ni del dominio de toda Anatolia. Referencia regional aproximada."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q41637",
+      "name": "Tiberio III",
+      "title": "Solidus-Tiberius III-sb1360.4.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Tiberius_III-sb1360.4.jpg",
+      "sha256": "898bd7a28249e8ed53ff69468dbb6d40523ecbf52d9a32beaa3f029856664c3e",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Tiberio III; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q42021",
+      "name": "Justiniano II",
+      "title": "Justinian II mosaic (cropped).png",
+      "source": "https://commons.wikimedia.org/wiki/File:Justinian_II_mosaic_(cropped).png",
+      "sha256": "8f360db30c0eb864232d294c8ea62bc8759b236a91678956cfe6bda2bb6296d7",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Identificación individual del mosaico pendiente de contraste independiente; no se adopta por el nombre del archivo."
+    },
+    {
+      "person": "Q44560",
+      "name": "Filípico",
+      "title": "Solidus-Philippicus-sb1447.3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Philippicus-sb1447.3.jpg",
+      "sha256": "59cfe5ebd24a0d15fc1c16ce859f0f4370b33a0de4f5002a07dedb7e207ef92c",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Filípico; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q41620",
+      "name": "Anastasio II",
+      "title": "Solidus-Anastasius II-sb1463.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Anastasius_II-sb1463.jpg",
+      "sha256": "7f78069c44bca7a222de068a975a93d052ccb982b4ccb94662816655d7f66f92",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Anastasio II; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q41836",
+      "name": "Teodosio III",
+      "title": "Solidus of Theodosios III.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus_of_Theodosios_III.png",
+      "sha256": "9c8a291ca0a82d3b1661e98c7a10e9fc249c57082a40fbbd15390cabdff4c660",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Teodosio III; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q31755",
+      "name": "León III",
+      "title": "Solidus-Leo III and Constantine V-sb1504.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Leo_III_and_Constantine_V-sb1504.jpg",
+      "sha256": "cfbe47ec5fd9dabb4a66cea84b77fc8b3c6baeeee3b481bc9da58e0837d0ed2f",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Moneda con efigies de León III y Constantino V; representación dinástica conjunta, no retrato del natural."
+    },
+    {
+      "person": "Q41635",
+      "name": "Constantino V",
+      "title": "Solidus-Leo III and Constantine V-sb1504.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Leo_III_and_Constantine_V-sb1504.jpg",
+      "sha256": "cfbe47ec5fd9dabb4a66cea84b77fc8b3c6baeeee3b481bc9da58e0837d0ed2f",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Moneda con efigies de León III y Constantino V; representación dinástica conjunta, no retrato individual del natural."
+    },
+    {
+      "person": "Q235097",
+      "name": "Artabasdo",
+      "title": "Solidus Artabasdos Nikephoros.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus_Artabasdos_Nikephoros.jpg",
+      "sha256": "1799e05ef0dbae027ac4b8896489150e4d7de0c3025131ade0ec2eb793b36ba4",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Moneda de Artabasdo y Nicéforo; efigies de autoridad convencionales, no apariencia individual acreditada."
+    },
+    {
+      "person": "Q41645",
+      "name": "León IV",
+      "title": "Leo iv constantine vi coin.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Leo_iv_constantine_vi_coin.jpg",
+      "sha256": "48d96828e919cb73e28511d982b444c61e5a57ec4b48b2e4d61dc2e715cd6034",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Moneda asociada a León IV y Constantino VI, con efigies dinásticas; representación conjunta."
+    },
+    {
+      "person": "Q41661",
+      "name": "Constantino VI",
+      "title": "Leo iv constantine vi coin.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Leo_iv_constantine_vi_coin.jpg",
+      "sha256": "48d96828e919cb73e28511d982b444c61e5a57ec4b48b2e4d61dc2e715cd6034",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Moneda asociada a León IV y Constantino VI, con efigies dinásticas; representación conjunta."
+    },
+    {
+      "person": "Q206737",
+      "name": "Irene",
+      "title": "Irene solidus sb 1599 (obverse).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Irene_solidus_sb_1599_(obverse).jpg",
+      "sha256": "66eb7ce75a5332db1200b9a1ad474241b652c0f914b2fffffa6cde995a80e74c",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Efigie numismática atribuida a Irene; no retrato del natural acreditado."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q42021",
+      "title": "Justinian II mosaic (cropped).png",
+      "reason": "Identificación individual del mosaico pendiente de contraste independiente; no se adopta por el nombre del archivo.",
+      "source": "https://commons.wikimedia.org/wiki/File:Justinian_II_mosaic_(cropped).png"
+    }
+  ]
+}

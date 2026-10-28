@@ -1,0 +1,217 @@
+{
+  "key": "HIST-Q668412",
+  "identity": {
+    "qid": "Q668412",
+    "name": "Pala Empire"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante pala",
+      "officePattern": "Pala|Emperor",
+      "titles": [
+        "Gopala I",
+        "Dharmapala (emperor)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3352284",
+      "name": "Gopala I",
+      "role": "Gobernante pala",
+      "start": "0750-01-01",
+      "end": "0783-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gopala_I",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q3183804",
+      "name": "Dharmapala",
+      "role": "Gobernante pala",
+      "start": "0783-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dharmapala_of_Bengal",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación de fuente; no evaluación contemporánea ni control homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Pala Empire"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Pala Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "89b88e957512c14bb9cf49d9b4a1243608770f4965f47aa42baea26913144784",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2766,
+        2792,
+        2923,
+        2936,
+        2963,
+        2972
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dharmapala (emperor)",
+        "title": "Dharmapala (emperor)",
+        "person": "Q3183804",
+        "name": "Dharmapala",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dharmapala_of_Bengal",
+        "identityResolution": {
+          "requested": "Dharmapala (emperor)",
+          "canonical": "Dharmapala of Bengal",
+          "qid": "Q3183804"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3183804",
+        "title": "Dharmapala of Bengal",
+        "source": "https://en.wikipedia.org/wiki/Dharmapala_of_Bengal",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pala Emperor",
+            "raw": "783–815 CE",
+            "parsed": {
+              "start": "0783-01-01",
+              "end": "0815-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gopala I",
+        "title": "Gopala I",
+        "person": "Q3352284",
+        "name": "Gopala I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gopala_I",
+        "identityResolution": {
+          "requested": "Gopala I",
+          "canonical": "Gopala I",
+          "qid": "Q3352284"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3352284",
+        "title": "Gopala I",
+        "source": "https://en.wikipedia.org/wiki/Gopala_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pala Emperor",
+            "raw": "750–783 CE",
+            "parsed": {
+              "start": "0750-01-01",
+              "end": "0783-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q3352284",
+        "title": "Gopala I",
+        "source": "https://en.wikipedia.org/wiki/Gopala_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pala Emperor",
+          "raw": "750–783 CE",
+          "parsed": {
+            "start": "0750-01-01",
+            "end": "0783-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q3183804",
+        "title": "Dharmapala (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Dharmapala_of_Bengal",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pala Emperor",
+          "raw": "783–815 CE",
+          "parsed": {
+            "start": "0783-01-01",
+            "end": "0815-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  }
+}

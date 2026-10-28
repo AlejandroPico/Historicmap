@@ -1,0 +1,400 @@
+{
+  "key": "HIST-Q466803",
+  "identity": {
+    "qid": "Q466803",
+    "name": "Late Pallava Empire"
+  },
+  "revision": "0.33.0",
+  "acquisition": "century-700-0.33",
+  "coverageStart": 700,
+  "coverageEnd": 799,
+  "officeBounds": [
+    "0700-01-01",
+    "0799-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey pallava",
+      "officePattern": "Pallava",
+      "titles": [
+        "Narasimhavarman II",
+        "Paramesvaravarman II",
+        "Nandivarman II",
+        "Dantivarman"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q707745",
+      "name": "Narasimhavarman II",
+      "role": "Rey pallava",
+      "start": "0700-01-01",
+      "end": "0728-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Narasimhavarman_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q7135209",
+      "name": "Paramesvaravarman II",
+      "role": "Rey pallava",
+      "start": "0725-01-01",
+      "end": "0731-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Paramesvaravarman_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q707740",
+      "name": "Nandivarman II",
+      "role": "Rey pallava",
+      "start": "0731-01-01",
+      "end": "0796-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nandivarman_II",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente."
+    },
+    {
+      "person": "Q1267307",
+      "name": "Dantivarman",
+      "role": "Rey pallava",
+      "start": "0795-01-01",
+      "end": "0799-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dantivarman",
+      "note": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 700,
+      "end": 799,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Forma institucional histórica",
+      "note": "Clasificación de fuente; no evaluación contemporánea ni control homogéneo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-700-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Late Pallava Empire"
+        ],
+        "start": 700,
+        "end": 799,
+        "label": "Late Pallava Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0700-0799.geojson",
+      "sha256": "5d0b362607fc17787e46efb9d467ec09b5fd8da597e08b5325d1b5be57ded53a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2509,
+        2891
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad transmitida por la fuente, con su precisión y discrepancias; no deducida de la vida personal ni de otra corona. Las fechas de calendario no se convierten automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dantivarman",
+        "title": "Dantivarman",
+        "person": "Q1267307",
+        "name": "Dantivarman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dantivarman",
+        "identityResolution": {
+          "requested": "Dantivarman",
+          "canonical": "Dantivarman",
+          "qid": "Q1267307"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1267307",
+        "title": "Dantivarman",
+        "source": "https://en.wikipedia.org/wiki/Dantivarman",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava Monarch",
+            "raw": "{{circa|795|846 CE}}",
+            "parsed": {
+              "start": "0795-01-01",
+              "end": "0846-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava dynasty",
+            "raw": "796–846",
+            "parsed": {
+              "start": "0796-01-01",
+              "end": "0846-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nandivarman II",
+        "title": "Nandivarman II",
+        "person": "Q707740",
+        "name": "Nandivarman II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Nandivarman_II",
+        "identityResolution": {
+          "requested": "Nandivarman II",
+          "canonical": "Nandivarman II",
+          "qid": "Q707740"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q707740",
+        "title": "Nandivarman II",
+        "source": "https://en.wikipedia.org/wiki/Nandivarman_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava Monarch",
+            "raw": "731–796",
+            "parsed": {
+              "start": "0731-01-01",
+              "end": "0796-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava dynasty",
+            "raw": "732–796",
+            "parsed": {
+              "start": "0732-01-01",
+              "end": "0796-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Narasimhavarman II",
+        "title": "Narasimhavarman II",
+        "person": "Q707745",
+        "name": "Narasimhavarman II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Narasimhavarman_II",
+        "identityResolution": {
+          "requested": "Narasimhavarman II",
+          "canonical": "Narasimhavarman II",
+          "qid": "Q707745"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q116161761",
+          "start": "0700-01-01",
+          "end": "0725-01-01",
+          "precision": 9,
+          "statement": "Q707745$e26ff217-421f-0dbe-da7a-325bec9a9765",
+          "label": "Pallava king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q707745",
+        "title": "Narasimhavarman II",
+        "source": "https://en.wikipedia.org/wiki/Narasimhavarman_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava emperor",
+            "raw": "{{circa|695|728 CE}}",
+            "parsed": {
+              "start": "0695-01-01",
+              "end": "0728-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava dynasty",
+            "raw": "695–722",
+            "parsed": {
+              "start": "0695-01-01",
+              "end": "0722-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Paramesvaravarman II",
+        "title": "Paramesvaravarman II",
+        "person": "Q7135209",
+        "name": "Paramesvaravarman II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Paramesvaravarman_II",
+        "identityResolution": {
+          "requested": "Paramesvaravarman II",
+          "canonical": "Paramesvaravarman II",
+          "qid": "Q7135209"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7135209",
+        "title": "Paramesvaravarman II",
+        "source": "https://en.wikipedia.org/wiki/Paramesvaravarman_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava emperor",
+            "raw": "{{circa|725|731}}",
+            "parsed": {
+              "start": "0725-01-01",
+              "end": "0731-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava dynasty",
+            "raw": "728–731",
+            "parsed": {
+              "start": "0728-01-01",
+              "end": "0731-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q707745",
+        "title": "Narasimhavarman II",
+        "source": "https://en.wikipedia.org/wiki/Narasimhavarman_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava emperor",
+          "raw": "{{circa|695|728 CE}}",
+          "parsed": {
+            "start": "0695-01-01",
+            "end": "0728-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q7135209",
+        "title": "Paramesvaravarman II",
+        "source": "https://en.wikipedia.org/wiki/Paramesvaravarman_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava emperor",
+          "raw": "{{circa|725|731}}",
+          "parsed": {
+            "start": "0725-01-01",
+            "end": "0731-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q707740",
+        "title": "Nandivarman II",
+        "source": "https://en.wikipedia.org/wiki/Nandivarman_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava Monarch",
+          "raw": "731–796",
+          "parsed": {
+            "start": "0731-01-01",
+            "end": "0796-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q1267307",
+        "title": "Dantivarman",
+        "source": "https://en.wikipedia.org/wiki/Dantivarman",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava Monarch",
+          "raw": "{{circa|795|846 CE}}",
+          "parsed": {
+            "start": "0795-01-01",
+            "end": "0846-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "Investigar sellos, enseñas o signa por fecha y función. No retrotraer banderas nacionales, heráldica ni diseños modernos a700.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-700.md"
+  },
+  "places": [
+    {
+      "id": "seat033-38",
+      "name": "Kanchipuram · centro pallava",
+      "coordinates": [
+        79.705,
+        12.834
+      ],
+      "start": 700,
+      "end": 799,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Pallava_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ]
+}

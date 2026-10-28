@@ -1,0 +1,52 @@
+{
+  "key": "HIST-Q6737189",
+  "name": "Maitraka Dynasty",
+  "qid": "Q6737189",
+  "aliases": [
+    "Maitraka Dynasty"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q6737189"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2501",
+      "start": 700,
+      "end": 723,
+      "name": "Maitraka Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-700.geojson",
+      "recordId": "clio-2704",
+      "start": 724,
+      "end": 731,
+      "name": "Maitraka Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-MAITRAKA-KINGDOM-330C28B8-Y0700",
+      "ownerKey": "HIST-Q6737189",
+      "name": "Maitraka Kingdom",
+      "file": "Países/HIST-Q6737189-Maitraka-Dynasty/poblamiento/CULTURE-MAITRAKA-KINGDOM-330C28B8-Y0700.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

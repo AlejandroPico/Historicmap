@@ -1,0 +1,69 @@
+{
+  "key": "CULTURE-KUSHITES-A64DFD5C-Y0700",
+  "contextKey": "CULTURE-KUSHITES-A64DFD5C",
+  "ownerKey": "CULTURE-KUSHITES-A64DFD5C",
+  "name": "Comunidades nubias · referencia del antiguo ámbito kushita",
+  "originalNames": [
+    "Kushites"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de700",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    700,
+    799
+  ],
+  "interpretation": "El antiguo reino de Kush no sigue vigente en700. Se conserva una referencia regional heredada para distinguir el nombre histórico de los poderes y comunidades nubios posteriores; no un rey kushita ficticio.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea700 contiene etiquetas de épocas distintas. La ventana700–799 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    46.52446,
+    6.58307
+  ],
+  "phases": [
+    {
+      "start": 700,
+      "end": 799,
+      "label": "Comunidades nubias · referencia del antiguo ámbito kushita",
+      "dateBasis": "Referencia regional de la fuente editorial700; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-KUSHITES-A64DFD5C-Y0700.geojson",
+  "geometrySha256": "8b7a05dfc84767a09ba9ca39f8e478c9a2bc5c3e8fabbe06daf7729481ac2cd2",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+    "year": 700,
+    "featureIds": [
+      143
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38"
+  },
+  "review": "0.33.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final799 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en800."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Kushites",
+      "ABBREVN": "Kushites",
+      "SUBJECTO": "Kushites",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Kushites"
+    }
+  ],
+  "sourceGrouping": [
+    "Kushites"
+  ]
+}
