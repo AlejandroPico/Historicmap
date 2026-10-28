@@ -1,0 +1,114 @@
+{
+  "key": "MAYA-PALENQUE",
+  "name": "Corte y dinastía de Palenque",
+  "qid": "",
+  "aliases": [
+    "Corte y dinastía de Palenque"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "MAYA-PALENQUE"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1835954",
+      "name": "B'utz Aj Sak Chiik",
+      "role": "Ajaw de Palenque",
+      "start": "0500-01-01",
+      "end": "0501-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/B%CA%BCutz_Aj_Sak_Chiik",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q400306",
+      "name": "Ahkal Mo' Naab' I",
+      "role": "Ajaw de Palenque",
+      "start": "0501-06-03",
+      "end": "0524-11-29",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ahkal_Mo%CA%BC_Nahb_I",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q1565716",
+      "name": "K'an Joy Chitam I",
+      "role": "Ajaw de Palenque",
+      "start": "0529-02-06",
+      "end": "0565-02-06",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/K%CA%BCan_Joy_Chitam_I",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q1452491",
+      "name": "Ahkal Mo' Naab' II",
+      "role": "Ajaw de Palenque",
+      "start": "0565-05-02",
+      "end": "0570-07-21",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ahkal_Mo%CA%BC_Nahb_II",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q1151461",
+      "name": "Kan B'alam I",
+      "role": "Ajaw de Palenque",
+      "start": "0572-04-06",
+      "end": "0583-02-01",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kan_Bahlam_I",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q1151465",
+      "name": "Yohl Ik'nal",
+      "role": "Ajaw de Palenque",
+      "start": "0583-12-23",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yohl_Ik%CA%BCnal",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q1151465",
+      "name": "Yohl Ik'nal",
+      "role": "Ajaw de Palenque",
+      "start": "0600-01-01",
+      "end": "0604-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yohl_Ik%CA%BCnal",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "maya-continuity-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-EARLY-ANGLO-SAXON",
+  "name": "Comunidades anglosajonas y britanas · contactos y poderes",
+  "qid": "",
+  "aliases": [
+    "Anglo-Saxons",
+    "Comunidades anglosajonas y britanas · contactos y poderes"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 142,
+      "start": null,
+      "end": null,
+      "name": "Anglo-Saxons",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-EARLY-ANGLO-SAXON-Y0500:0",
+      "contextKey": "REFERENCE-EARLY-ANGLO-SAXON",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/REFERENCE-EARLY-ANGLO-SAXON-Comunidades-anglosajonas-y-britanas-contactos-y-poderes/poblamiento/REFERENCE-EARLY-ANGLO-SAXON-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

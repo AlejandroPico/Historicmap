@@ -1,0 +1,65 @@
+{
+  "key": "QUARANTINE-POVERTY-POINT-500-Y0500",
+  "contextKey": "QUARANTINE-POVERTY-POINT-500",
+  "ownerKey": "QUARANTINE-POVERTY-POINT-500",
+  "name": "Poverty Point · referencia fuera de época",
+  "originalNames": [
+    "Poverty point culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de500",
+  "decision": "excluded-anachronistic-chronology",
+  "reviewedRange": [
+    500,
+    599
+  ],
+  "interpretation": "La cultura Poverty Point es muy anterior al sigloVI. El original se conserva en el inventario y se excluye de esta ventana activa; no se inventa una cultura sustituta para rellenar su área.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea500 contiene etiquetas de épocas distintas. La ventana500–599 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Contraste de periodización",
+      "url": "https://www.nps.gov/popo/learn/historyculture/index.htm"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -93.24944,
+    34.59672
+  ],
+  "phases": [],
+  "geometryFile": "QUARANTINE-POVERTY-POINT-500-Y0500.geojson",
+  "geometrySha256": "ef633f6b7ed422ce59a168c4a748f2d4d3ea02adcf2378260158c0febc02db8d",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+    "year": 500,
+    "featureIds": [
+      75
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1"
+  },
+  "review": "0.35.0 · 2026-10-28",
+  "reviewStatus": "excluded-chronology-contradicted-by-source",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final599 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en600."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Poverty point culture",
+      "ABBREVN": "Poverty point culture",
+      "SUBJECTO": "Poverty point culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Poverty point culture"
+    }
+  ],
+  "sourceGrouping": [
+    "Poverty point culture"
+  ]
+}

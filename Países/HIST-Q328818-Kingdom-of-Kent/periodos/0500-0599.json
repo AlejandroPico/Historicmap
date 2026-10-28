@@ -1,0 +1,233 @@
+{
+  "key": "HIST-Q328818",
+  "identity": {
+    "qid": "Q328818",
+    "name": "Kingdom of Kent"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Kent",
+      "officePattern": "King.*Kent",
+      "titles": [
+        "Oisc of Kent",
+        "Octa of Kent",
+        "Eormenric of Kent",
+        "Æthelberht of Kent"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Kent"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Kingdom of Kent",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "bc634f846e2ea54ec518482102fc552b2388064ecd5055961c257da9690c927e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1898,
+        1990
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Eormenric of Kent",
+        "title": "Eormenric of Kent",
+        "person": "Q768925",
+        "name": "Eormenric de Kent",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Eormenric_of_Kent",
+        "identityResolution": {
+          "requested": "Eormenric of Kent",
+          "canonical": "Eormenric of Kent",
+          "qid": "Q768925"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q768925",
+        "title": "Eormenric of Kent",
+        "source": "https://en.wikipedia.org/wiki/Eormenric_of_Kent",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Kent",
+            "raw": "534/540–c. 590",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Octa of Kent",
+        "title": "Octa of Kent",
+        "person": "Q738733",
+        "name": "Octa of Kent",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Octa_of_Kent",
+        "identityResolution": {
+          "requested": "Octa of Kent",
+          "canonical": "Octa of Kent",
+          "qid": "Q738733"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q738733",
+        "title": "Octa of Kent",
+        "source": "https://en.wikipedia.org/wiki/Octa_of_Kent",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Kent",
+            "raw": "512/516–534/540",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Oisc of Kent",
+        "title": "Oisc of Kent",
+        "person": "Q740991",
+        "name": "Oisc de Kent",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Oisc_of_Kent",
+        "identityResolution": {
+          "requested": "Oisc of Kent",
+          "canonical": "Oisc of Kent",
+          "qid": "Q740991"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q740991",
+        "title": "Oisc of Kent",
+        "source": "https://en.wikipedia.org/wiki/Oisc_of_Kent",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Kent",
+            "raw": "488–512/516",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Æthelberht of Kent",
+        "title": "Æthelberht of Kent",
+        "person": "Q272173",
+        "name": "Ethelberto de Kent",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelberht_of_Kent",
+        "identityResolution": {
+          "requested": "Æthelberht of Kent",
+          "canonical": "Æthelberht of Kent",
+          "qid": "Q272173"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22968253",
+          "start": "0580-01-01",
+          "end": "0612-02-24",
+          "precision": 8,
+          "statement": "Q272173$cfe6cef4-4b21-910c-f88d-fe55c42de783",
+          "label": "Rey de Kent"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q272173",
+        "title": "Æthelberht of Kent",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelberht_of_Kent",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Kent",
+            "raw": "{{c.}} 589&nbsp;– 616",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Oisc of Kent",
+        "person": "Q740991",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Octa of Kent",
+        "person": "Q738733",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Eormenric of Kent",
+        "person": "Q768925",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Æthelberht of Kent",
+        "person": "Q272173",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

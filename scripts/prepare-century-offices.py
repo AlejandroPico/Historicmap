@@ -58,7 +58,7 @@ def main(century,review):
     if not dates or d.get('preferExplicitReignFields'):
      explicit=[]
      for f in by_person.get(row['person'],{}).get('reignFields',[]):
-      if f['parsed']and (not pattern or re.search(pattern,f.get('office',''),re.I))and not re.search('Retired|Emeritus|Taishang|consort',f.get('office',''),re.I):explicit.append((f['parsed']['start'],f['parsed']['end'],f,f['parsed']['precision']))
+      if f['parsed']and (not pattern or re.search(pattern,f.get('office',''),re.I))and not re.search('Retired|Emeritus|Taishang|consort',f.get('office',''),re.I)and not(re.search('Caesar',f.get('reignType',''),re.I)and not re.search('Caesar',pattern or '',re.I)):explicit.append((f['parsed']['start'],f['parsed']['end'],f,f['parsed']['precision']))
      if explicit:
       primary=[v for v in explicit if v[2].get('field')!='succession-template']
       # A later restoration may appear only in the explicit succession table.

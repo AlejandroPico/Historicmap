@@ -1,0 +1,59 @@
+{
+  "key": "HIST-Q201706",
+  "name": "Kingdom of the Gepids",
+  "qid": "Q201706",
+  "aliases": [
+    "Kingdom of the Gepids"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q201706"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1949",
+      "start": 510,
+      "end": 545,
+      "name": "Kingdom of the Gepids",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2052",
+      "start": 546,
+      "end": 554,
+      "name": "Kingdom of the Gepids",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2094",
+      "start": 555,
+      "end": 560,
+      "name": "Kingdom of the Gepids",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2108",
+      "start": 561,
+      "end": 566,
+      "name": "Kingdom of the Gepids",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

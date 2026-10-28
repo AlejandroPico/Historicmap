@@ -1,0 +1,477 @@
+{
+  "key": "HIST-Q111471",
+  "identity": {
+    "qid": "Q111471",
+    "name": "Dál Riata"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Dál Riata",
+      "officePattern": "King.*Dál Riata|King.*Dalriada",
+      "titles": [
+        "Fergus Mór",
+        "Domangart Réti",
+        "Comgall mac Domangairt",
+        "Gabrán mac Domangairt",
+        "Conall mac Comgaill",
+        "Áedán mac Gabráin"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q558767",
+      "name": "Fergus Mòr Mac Earca",
+      "role": "Rey de Dál Riata",
+      "start": "0500-01-01",
+      "end": "0503-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Fergus_M%C3%B3r",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q878700",
+      "name": "Domangart Réti",
+      "role": "Rey de Dál Riata",
+      "start": "0503-01-01",
+      "end": "0507-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Domangart_R%C3%A9ti",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q878696",
+      "name": "Comgall mac Domangairt",
+      "role": "Rey de Dál Riata",
+      "start": "0507-01-01",
+      "end": "0538-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Comgall_mac_Domangairt",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q375287",
+      "name": "Gabrán mac Domangairt",
+      "role": "Rey de Dál Riata",
+      "start": "0538-01-01",
+      "end": "0560-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gabr%C3%A1n_mac_Domangairt",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q729736",
+      "name": "Conall mac Comgaill",
+      "role": "Rey de Dál Riata",
+      "start": "0558-01-01",
+      "end": "0574-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Conall_mac_Comgaill",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q378755",
+      "name": "Áedán mac Gabráin",
+      "role": "Rey de Dál Riata",
+      "start": "0574-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%C3%81ed%C3%A1n_mac_Gabr%C3%A1in",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Fergus_M%C3%B3r",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Dál Riata"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Dál Riata",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "e1a769931431650b47d9ef78560bf6dab14afbea78eb4d7322e3c01387a4ccad",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2032,
+        2167
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Comgall mac Domangairt",
+        "title": "Comgall mac Domangairt",
+        "person": "Q878696",
+        "name": "Comgall mac Domangairt",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Comgall_mac_Domangairt",
+        "identityResolution": {
+          "requested": "Comgall mac Domangairt",
+          "canonical": "Comgall mac Domangairt",
+          "qid": "Q878696"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q890021",
+          "start": "0507-01-01",
+          "end": "0538-01-01",
+          "precision": 9,
+          "statement": "Q878696$60e9fac0-4905-bfd8-4b50-8732870cd0f1",
+          "label": "list of kings of Dál Riata"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q878696",
+        "title": "Comgall mac Domangairt",
+        "source": "https://en.wikipedia.org/wiki/Comgall_mac_Domangairt",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Conall mac Comgaill",
+        "title": "Conall mac Comgaill",
+        "person": "Q729736",
+        "name": "Conall mac Comgaill",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Conall_mac_Comgaill",
+        "identityResolution": {
+          "requested": "Conall mac Comgaill",
+          "canonical": "Conall mac Comgaill",
+          "qid": "Q729736"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q890021",
+          "start": "0560-01-01",
+          "end": "0574-01-01",
+          "precision": 9,
+          "statement": "Q729736$3da5253a-4870-08a7-b83d-2b8104384a15",
+          "label": "list of kings of Dál Riata"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q729736",
+        "title": "Conall mac Comgaill",
+        "source": "https://en.wikipedia.org/wiki/Conall_mac_Comgaill",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Dál Riata",
+            "raw": "558&ndash;574",
+            "parsed": {
+              "start": "0558-01-01",
+              "end": "0574-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Domangart Réti",
+        "title": "Domangart Réti",
+        "person": "Q878700",
+        "name": "Domangart Réti",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Domangart_R%C3%A9ti",
+        "identityResolution": {
+          "requested": "Domangart Réti",
+          "canonical": "Domangart Réti",
+          "qid": "Q878700"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q890021",
+          "start": "0503-01-01",
+          "end": "0507-01-01",
+          "precision": 9,
+          "statement": "Q878700$c64a2b27-445d-d98b-6285-1aa3455b065c",
+          "label": "list of kings of Dál Riata"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q878700",
+        "title": "Domangart Réti",
+        "source": "https://en.wikipedia.org/wiki/Domangart_R%C3%A9ti",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "{{circa}} 501–507",
+            "parsed": {
+              "start": "0501-01-01",
+              "end": "0507-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Fergus Mór",
+        "title": "Fergus Mór",
+        "person": "Q558767",
+        "name": "Fergus Mòr Mac Earca",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Fergus_M%C3%B3r",
+        "identityResolution": {
+          "requested": "Fergus Mór",
+          "canonical": "Fergus Mór",
+          "qid": "Q558767"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q890021",
+          "start": "0500-01-01",
+          "end": "0503-01-01",
+          "precision": 9,
+          "statement": "Q558767$dfe9c8e9-4b3c-6e78-67a3-19d5287a6e53",
+          "label": "list of kings of Dál Riata"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q558767",
+        "title": "Fergus Mór",
+        "source": "https://en.wikipedia.org/wiki/Fergus_M%C3%B3r",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Dál Riata",
+            "raw": "to 501 (possibly 498–501)",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gabrán mac Domangairt",
+        "title": "Gabrán mac Domangairt",
+        "person": "Q375287",
+        "name": "Gabrán mac Domangairt",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gabr%C3%A1n_mac_Domangairt",
+        "identityResolution": {
+          "requested": "Gabrán mac Domangairt",
+          "canonical": "Gabrán mac Domangairt",
+          "qid": "Q375287"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q890021",
+          "start": "0538-01-01",
+          "end": "0560-01-01",
+          "precision": 9,
+          "statement": "Q375287$5046b563-4a85-2a89-457b-30f936576751",
+          "label": "list of kings of Dál Riata"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q375287",
+        "title": "Gabrán mac Domangairt",
+        "source": "https://en.wikipedia.org/wiki/Gabr%C3%A1n_mac_Domangairt",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Áedán mac Gabráin",
+        "title": "Áedán mac Gabráin",
+        "person": "Q378755",
+        "name": "Áedán mac Gabráin",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%81ed%C3%A1n_mac_Gabr%C3%A1in",
+        "identityResolution": {
+          "requested": "Áedán mac Gabráin",
+          "canonical": "Áedán mac Gabráin",
+          "qid": "Q378755"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q890021",
+          "start": "0574-01-01",
+          "end": "0608-01-01",
+          "precision": 9,
+          "statement": "Q378755$ecd2bd3b-424d-58b5-a65b-8b77c4202e1b",
+          "label": "list of kings of Dál Riata"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q378755",
+        "title": "Áedán mac Gabráin",
+        "source": "https://en.wikipedia.org/wiki/%C3%81ed%C3%A1n_mac_Gabr%C3%A1in",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q558767",
+        "title": "Fergus Mór",
+        "source": "https://en.wikipedia.org/wiki/Fergus_M%C3%B3r",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q890021",
+          "start": "0500-01-01",
+          "end": "0503-01-01",
+          "precision": 9,
+          "statement": "Q558767$dfe9c8e9-4b3c-6e78-67a3-19d5287a6e53",
+          "label": "list of kings of Dál Riata"
+        }
+      },
+      {
+        "person": "Q878700",
+        "title": "Domangart Réti",
+        "source": "https://en.wikipedia.org/wiki/Domangart_R%C3%A9ti",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q890021",
+          "start": "0503-01-01",
+          "end": "0507-01-01",
+          "precision": 9,
+          "statement": "Q878700$c64a2b27-445d-d98b-6285-1aa3455b065c",
+          "label": "list of kings of Dál Riata"
+        }
+      },
+      {
+        "person": "Q878696",
+        "title": "Comgall mac Domangairt",
+        "source": "https://en.wikipedia.org/wiki/Comgall_mac_Domangairt",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q890021",
+          "start": "0507-01-01",
+          "end": "0538-01-01",
+          "precision": 9,
+          "statement": "Q878696$60e9fac0-4905-bfd8-4b50-8732870cd0f1",
+          "label": "list of kings of Dál Riata"
+        }
+      },
+      {
+        "person": "Q375287",
+        "title": "Gabrán mac Domangairt",
+        "source": "https://en.wikipedia.org/wiki/Gabr%C3%A1n_mac_Domangairt",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q890021",
+          "start": "0538-01-01",
+          "end": "0560-01-01",
+          "precision": 9,
+          "statement": "Q375287$5046b563-4a85-2a89-457b-30f936576751",
+          "label": "list of kings of Dál Riata"
+        }
+      },
+      {
+        "person": "Q729736",
+        "title": "Conall mac Comgaill",
+        "source": "https://en.wikipedia.org/wiki/Conall_mac_Comgaill",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Dál Riata",
+          "raw": "558&ndash;574",
+          "parsed": {
+            "start": "0558-01-01",
+            "end": "0574-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q378755",
+        "title": "Áedán mac Gabráin",
+        "source": "https://en.wikipedia.org/wiki/%C3%81ed%C3%A1n_mac_Gabr%C3%A1in",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q890021",
+          "start": "0574-01-01",
+          "end": "0608-01-01",
+          "precision": 9,
+          "statement": "Q378755$ecd2bd3b-424d-58b5-a65b-8b77c4202e1b",
+          "label": "list of kings of Dál Riata"
+        }
+      }
+    ],
+    "pending": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-ARMORICA-D7009226",
+  "name": "Armorica",
+  "qid": "",
+  "aliases": [
+    "Armorica"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 152,
+      "start": null,
+      "end": null,
+      "name": "Armorica",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ARMORICA-D7009226-Y0500:0",
+      "contextKey": "CULTURE-ARMORICA-D7009226",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-ARMORICA-D7009226-Armorica/poblamiento/CULTURE-ARMORICA-D7009226-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

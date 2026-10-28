@@ -1,0 +1,336 @@
+{
+  "key": "EARLY-CHALUKYA",
+  "identity": {
+    "qid": "Q1395011",
+    "name": "Chalukyas de Badami"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey chalukya de Badami",
+      "officePattern": "Chalukya|King|Maharaja",
+      "titles": [
+        "Pulakeshin I",
+        "Kirtivarman I",
+        "Mangalesha"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7259171",
+      "name": "Pulakesi I",
+      "role": "Rey chalukya de Badami",
+      "start": "0543-01-01",
+      "end": "0566-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pulakeshin_I",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q6416224",
+      "name": "Kirtivarman I",
+      "role": "Rey chalukya de Badami",
+      "start": "0566-01-01",
+      "end": "0592-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kirttivarman_I",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q12444610",
+      "name": "Mangalesha",
+      "role": "Rey chalukya de Badami",
+      "start": "0592-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mangalesha",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pulakeshin_I",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chalukya Dynasty"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Chalukyas de Badami",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "3ab5f08ba0c6fefb90616283606783f3ba2878682b8102915c5ecb0161eb3754",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2076
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Kirtivarman I",
+        "title": "Kirtivarman I",
+        "person": "Q6416224",
+        "name": "Kirtivarman I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kirttivarman_I",
+        "identityResolution": {
+          "requested": "Kirtivarman I",
+          "canonical": "Kirttivarman I",
+          "qid": "Q6416224"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15962467",
+          "start": "0566-01-01",
+          "end": "0597-01-01",
+          "precision": 9,
+          "statement": "Q6416224$69dad897-40fb-c7de-5180-993a3bb36e8c",
+          "label": "Chalukya king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6416224",
+        "title": "Kirttivarman I",
+        "source": "https://en.wikipedia.org/wiki/Kirttivarman_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chalukya king",
+            "raw": "{{circa|566|592}}",
+            "parsed": {
+              "start": "0566-01-01",
+              "end": "0592-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mangalesha",
+        "title": "Mangalesha",
+        "person": "Q12444610",
+        "name": "Mangalesha",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mangalesha",
+        "identityResolution": {
+          "requested": "Mangalesha",
+          "canonical": "Mangalesha",
+          "qid": "Q12444610"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15962467",
+          "start": "0596-01-01",
+          "end": "0610-01-01",
+          "precision": 9,
+          "statement": "Q12444610$6D6BCD41-1BC9-4CAC-9DA9-1510EF781833",
+          "label": "Chalukya king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12444610",
+        "title": "Mangalesha",
+        "source": "https://en.wikipedia.org/wiki/Mangalesha",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chalukya king",
+            "raw": "{{circa|592|610}}",
+            "parsed": {
+              "start": "0592-01-01",
+              "end": "0610-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pulakeshin I",
+        "title": "Pulakeshin I",
+        "person": "Q7259171",
+        "name": "Pulakesi I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pulakeshin_I",
+        "identityResolution": {
+          "requested": "Pulakeshin I",
+          "canonical": "Pulakeshin I",
+          "qid": "Q7259171"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15962467",
+          "start": "0543-01-01",
+          "end": "0566-01-01",
+          "precision": 9,
+          "statement": "Q7259171$f288d311-4f41-24e9-df56-83e056250bca",
+          "label": "Chalukya king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7259171",
+        "title": "Pulakeshin I",
+        "source": "https://en.wikipedia.org/wiki/Pulakeshin_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chalukya king",
+            "raw": "{{circa|543|566}}",
+            "parsed": {
+              "start": "0543-01-01",
+              "end": "0566-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7259171",
+        "title": "Pulakeshin I",
+        "source": "https://en.wikipedia.org/wiki/Pulakeshin_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chalukya king",
+          "raw": "{{circa|543|566}}",
+          "parsed": {
+            "start": "0543-01-01",
+            "end": "0566-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q6416224",
+        "title": "Kirtivarman I",
+        "source": "https://en.wikipedia.org/wiki/Kirttivarman_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chalukya king",
+          "raw": "{{circa|566|592}}",
+          "parsed": {
+            "start": "0566-01-01",
+            "end": "0592-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q12444610",
+        "title": "Mangalesha",
+        "source": "https://en.wikipedia.org/wiki/Mangalesha",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chalukya king",
+          "raw": "{{circa|592|610}}",
+          "parsed": {
+            "start": "0592-01-01",
+            "end": "0610-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat035-32",
+      "name": "Vatapi · Badami",
+      "coordinates": [
+        75.681,
+        15.92
+      ],
+      "start": 543,
+      "end": 554,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Chalukyas_de_Badami",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Chalukyas de Badami",
+      "standaloneReference": true
+    },
+    {
+      "id": "seat035-33",
+      "name": "Vatapi · Badami",
+      "coordinates": [
+        75.681,
+        15.92
+      ],
+      "start": 555,
+      "end": 599,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Chalukyas_de_Badami",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Chalukyas de Badami"
+    }
+  ]
+}

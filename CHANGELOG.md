@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.35.0 · 28 de octubre de 2026
+
+- Consulta y reproducción anual desde 500: 270 componentes políticos originales y 73 referencias culturales nuevas, conservando los datos posteriores.
+- Sucesiones chinas del norte y sur, proclamación Sui y reunificación diferenciadas; cortes documentales disponibles cuando falta un contorno político coincidente.
+- César, regencia y reinado imperial diferenciados; restauraciones sasánidas, autoridades rivales y fases de Amalasunta revisadas.
+- Cortes propias de Palenque, Tikal y Copán bajo la referencia regional maya, sin atribuirles fronteras inventadas; secuencia de Copán contrastada con investigación epigráfica.
+- 43 centros fechados, 21 contextos y ocho referencias de conflictos. Dos etiquetas culturales anacrónicas apartadas de la visualización conservando sus originales.
+- Revisión visual de 125 candidatos: 95 aceptados y 30 rechazados; fechas, pies, licencias y carencias registrados en la carpeta de cada entidad.
+
 ## 0.34.0 · 28 de octubre de 2026
 
 - Ampliación anual600–699 con425 componentes políticos originales y68 referencias culturales nuevas, conservando las fases posteriores.

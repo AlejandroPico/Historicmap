@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-KURYKANS-FB99678A",
+  "name": "Kurykans",
+  "qid": "",
+  "aliases": [
+    "Kurykans"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 187,
+      "start": null,
+      "end": null,
+      "name": "Kurykans",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-KURYKANS-FB99678A-Y0500:0",
+      "contextKey": "CULTURE-KURYKANS-FB99678A",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-KURYKANS-FB99678A-Kurykans/poblamiento/CULTURE-KURYKANS-FB99678A-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

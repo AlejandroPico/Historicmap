@@ -1,0 +1,591 @@
+{
+  "key": "MAYA-TIKAL",
+  "identity": {
+    "qid": "",
+    "name": "Corte y dinastía de Tikal"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Ajaw de Tikal",
+      "officePattern": "Tikal|Ajaw|Ruler",
+      "titles": [
+        "Chak Tok Ich'aak II",
+        "Lady of Tikal",
+        "Kaloomteʼ Bahlam",
+        "Wak Chan K'awiil",
+        "Animal Skull"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q4506859",
+      "name": "Chak Tok Ich'aak II.",
+      "role": "Ajaw de Tikal",
+      "start": "0500-01-01",
+      "end": "0508-07-24",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Chak_Tok_Ich%CA%BCaak_II",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q6470694",
+      "name": "Señora de Tikal · Ix Ch’ajan Mut Ajaw",
+      "role": "Ajaw de Tikal",
+      "start": "0511-04-19",
+      "end": "0527-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lady_of_Tikal",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q4210292",
+      "name": "Kaloomte' Bahlam",
+      "role": "Ajaw de Tikal",
+      "start": "0511-04-19",
+      "end": "0527-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kaloomte%CA%BC_Bahlam",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q4539889",
+      "name": "Wak Chan K'awiil",
+      "role": "Ajaw de Tikal",
+      "start": "0537-12-27",
+      "end": "0562-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wak_Chan_K%CA%BCawiil",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q4220854",
+      "name": "Cráneo Animal · nombre convencional",
+      "role": "Ajaw de Tikal",
+      "start": "0562-01-01",
+      "end": "0593-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Animal_Skull",
+      "note": "Reinado de datación aproximada posterior a562; la ventana no acredita día de entronización ni control continuo."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review035-tikal-courts",
+      "type": "institution",
+      "title": "Cortes mayas independientes",
+      "start": "0500-01-01",
+      "end": "0600-01-01",
+      "text": "Tikal,Palenque yCopán tienen autoridades propias. El contorno regionalMaya de la compilación permite localizar las cortes, sin probar un Estado único ni dependencia entre ellas.",
+      "source": "https://whc.unesco.org/en/list/129",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy",
+        "city-state"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Chak_Tok_Ich%27aak_II",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Animal Skull",
+        "title": "Animal Skull",
+        "person": "Q4220854",
+        "name": "Animal Skull",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/K%27inich_Waaw",
+        "identityResolution": {
+          "requested": "Animal Skull",
+          "canonical": "K'inich Waaw",
+          "qid": "Q4220854"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q412185",
+          "start": "0562-01-01",
+          "end": "0593-01-01",
+          "precision": 9,
+          "statement": "Q4220854$d53623c4-4e53-aac0-c847-62a5408ba7d9",
+          "label": "Ahau"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4220854",
+        "title": "K'inich Waaw",
+        "source": "https://en.wikipedia.org/wiki/K%27inich_Waaw",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ajaw of Tikal 22nd in the line",
+            "raw": "after 562-c.593",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chak Tok Ich'aak II",
+        "title": "Chak Tok Ich'aak II",
+        "person": "Q4506859",
+        "name": "Chak Tok Ich'aak II.",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chak_Tok_Ich%CA%BCaak_II",
+        "identityResolution": {
+          "requested": "Chak Tok Ich'aak II",
+          "canonical": "Chak Tok Ichʼaak II",
+          "qid": "Q4506859"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120932169",
+          "start": "0485-09-26",
+          "end": "0508-07-24",
+          "precision": 11,
+          "statement": "Q4506859$590a73b4-4576-1005-5ccc-437785a8f995",
+          "label": "Ajaw of Tikal"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4506859",
+        "title": "Chak Tok Ichʼaak II",
+        "source": "https://en.wikipedia.org/wiki/Chak_Tok_Ich%CA%BCaak_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tikal",
+            "raw": "26 September 485 - 24 July 508",
+            "parsed": {
+              "start": "0485-09-26",
+              "end": "0508-07-24",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kaloomteʼ Bahlam",
+        "title": "Kaloomteʼ Bahlam",
+        "person": "Q4210292",
+        "name": "Kaloomte' Bahlam",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kaloomte%CA%BC_Bahlam",
+        "identityResolution": {
+          "requested": "Kaloomteʼ Bahlam",
+          "canonical": "Kaloomteʼ Bahlam",
+          "qid": "Q4210292"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120932169",
+          "start": "0511-04-19",
+          "end": "0527-01-01",
+          "precision": 9,
+          "statement": "Q4210292$0334f904-42b1-9097-8993-329f2d0beb8a",
+          "label": "Ajaw of Tikal"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4210292",
+        "title": "Kaloomteʼ Bahlam",
+        "source": "https://en.wikipedia.org/wiki/Kaloomte%CA%BC_Bahlam",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tikal",
+            "raw": "19 April 511 - c.527",
+            "parsed": {
+              "start": "0511-04-19",
+              "end": "0527-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign",
+            "office": "King of Tikal",
+            "raw": "<small>''(with co-ruler (wife?) '''[[Lady of Tikal]]''')''</small>",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Ajaw'' or lord of Tikal",
+            "raw": "c.511-527",
+            "parsed": {
+              "start": "0511-01-01",
+              "end": "0527-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Lady of Tikal",
+        "title": "Lady of Tikal",
+        "person": "Q6470694",
+        "name": "Ix Ch'ajan Mut Ajaw",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Lady_of_Tikal",
+        "identityResolution": {
+          "requested": "Lady of Tikal",
+          "canonical": "Lady of Tikal",
+          "qid": "Q6470694"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6470694",
+        "title": "Lady of Tikal",
+        "source": "https://en.wikipedia.org/wiki/Lady_of_Tikal",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Queen of Tikal with co-ruler (husband?) Kaloomteʼ Bahlam",
+            "raw": "19 April 511 - 527/534",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Ajaw'' of Tikal",
+            "raw": "April 19, 511-c.527",
+            "parsed": {
+              "start": "0511-04-19",
+              "end": "0527-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wak Chan K'awiil",
+        "title": "Wak Chan K'awiil",
+        "person": "Q4539889",
+        "name": "Wak Chan K'awiil",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wak_Chan_K%CA%BCawiil",
+        "identityResolution": {
+          "requested": "Wak Chan K'awiil",
+          "canonical": "Wak Chan Kʼawiil",
+          "qid": "Q4539889"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120932169",
+          "start": "0537-12-27",
+          "end": "0562-01-01",
+          "precision": 9,
+          "statement": "Q4539889$177ee9a6-4357-b0aa-0d9e-325859520c60",
+          "label": "Ajaw of Tikal"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4539889",
+        "title": "Wak Chan Kʼawiil",
+        "source": "https://en.wikipedia.org/wiki/Wak_Chan_K%CA%BCawiil",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Tikal",
+            "raw": "27 December 537 – {{circa}} 562",
+            "parsed": {
+              "start": "0537-12-27",
+              "end": "0562-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q4506859",
+        "title": "Chak Tok Ich'aak II",
+        "source": "https://en.wikipedia.org/wiki/Chak_Tok_Ich%CA%BCaak_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Tikal",
+          "raw": "26 September 485 - 24 July 508",
+          "parsed": {
+            "start": "0485-09-26",
+            "end": "0508-07-24",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q6470694",
+        "title": "Lady of Tikal",
+        "source": "https://en.wikipedia.org/wiki/Lady_of_Tikal",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "''Ajaw'' of Tikal",
+          "raw": "April 19, 511-c.527",
+          "parsed": {
+            "start": "0511-04-19",
+            "end": "0527-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q4210292",
+        "title": "Kaloomteʼ Bahlam",
+        "source": "https://en.wikipedia.org/wiki/Kaloomte%CA%BC_Bahlam",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Tikal",
+          "raw": "19 April 511 - c.527",
+          "parsed": {
+            "start": "0511-04-19",
+            "end": "0527-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q4539889",
+        "title": "Wak Chan K'awiil",
+        "source": "https://en.wikipedia.org/wiki/Wak_Chan_K%CA%BCawiil",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Tikal",
+          "raw": "27 December 537 – {{circa}} 562",
+          "parsed": {
+            "start": "0537-12-27",
+            "end": "0562-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Animal Skull",
+        "person": "Q4220854",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q4220854",
+      "originalRecords": [],
+      "decision": "Reinado de datación aproximada posterior a562; la ventana no acredita día de entronización ni control continuo.",
+      "source": "https://en.wikipedia.org/wiki/Animal_Skull"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q4220854",
+      "name": "Cráneo Animal · nombre convencional",
+      "role": "Ajaw de Tikal",
+      "start": "0562-01-01",
+      "end": "0593-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Animal_Skull",
+      "note": "Reinado de datación aproximada posterior a562; la ventana no acredita día de entronización ni control continuo."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat035-41",
+      "name": "Tikal · corte local",
+      "coordinates": [
+        -89.624,
+        17.222
+      ],
+      "start": 500,
+      "end": 599,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Tikal",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme. La agrupación cartográfica hospeda la selección; no acredita dependencia administrativa ni un Estado maya unificado.",
+      "entityName": "Corte y dinastía de Tikal",
+      "standaloneReference": true,
+      "aggregateKey": "HIST-Q28567"
+    },
+    {
+      "id": "seat035-41-own",
+      "name": "Tikal · corte local",
+      "coordinates": [
+        -89.624,
+        17.222
+      ],
+      "start": 500,
+      "end": 599,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Tikal",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme. La agrupación cartográfica hospeda la selección; no acredita dependencia administrativa ni un Estado maya unificado.",
+      "entityName": "Corte y dinastía de Tikal",
+      "standaloneReference": true
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review035-tikal-courts",
+      "type": "institution",
+      "title": "Cortes mayas independientes",
+      "start": "0500-01-01",
+      "end": "0600-01-01",
+      "text": "Tikal,Palenque yCopán tienen autoridades propias. El contorno regionalMaya de la compilación permite localizar las cortes, sin probar un Estado único ni dependencia entre ellas.",
+      "source": "https://whc.unesco.org/en/list/129",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q4506859",
+      "title": "Tikal St10r.jpg",
+      "reason": "La misma estela se propone para dos soberanos distintos; identificación individual pendiente.",
+      "source": "https://commons.wikimedia.org/wiki/File:Tikal_St10r.jpg"
+    },
+    {
+      "person": "Q6470694",
+      "title": "Lady of Tikal.svg",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual.",
+      "source": "https://commons.wikimedia.org/wiki/File:Lady_of_Tikal.svg"
+    },
+    {
+      "person": "Q4210292",
+      "title": "Tikal St10.jpg",
+      "reason": "La misma estela se propone para dos soberanos distintos; identificación individual pendiente.",
+      "source": "https://commons.wikimedia.org/wiki/File:Tikal_St10.jpg"
+    },
+    {
+      "person": "Q4539889",
+      "title": "Wak Chan K'awiil.svg",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual.",
+      "source": "https://commons.wikimedia.org/wiki/File:Wak_Chan_K%27awiil.svg"
+    },
+    {
+      "person": "Q4220854",
+      "title": "Animal Skull.svg",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual.",
+      "source": "https://commons.wikimedia.org/wiki/File:Animal_Skull.svg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q4506859",
+      "name": "Chak Tok Ich'aak II.",
+      "title": "Tikal St10r.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tikal_St10r.jpg",
+      "sha256": "5433099dc5bf9279dc7afe3497e1681536b02be8f6ff73d162a56a7b144b1bb8",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "La misma estela se propone para dos soberanos distintos; identificación individual pendiente."
+    },
+    {
+      "person": "Q6470694",
+      "name": "Señora de Tikal · Ix Ch’ajan Mut Ajaw",
+      "title": "Lady of Tikal.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lady_of_Tikal.svg",
+      "sha256": "13ce3e22862027cc868dd3fc7316fea64756081f94f6b627665b0e9f929a7aac",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual."
+    },
+    {
+      "person": "Q4210292",
+      "name": "Kaloomte' Bahlam",
+      "title": "Tikal St10.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tikal_St10.jpg",
+      "sha256": "59aee293d5c2e30cc2cf3cf035355e3ce00cabaa5c4596eda2c6401434e6a801",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "La misma estela se propone para dos soberanos distintos; identificación individual pendiente."
+    },
+    {
+      "person": "Q4539889",
+      "name": "Wak Chan K'awiil",
+      "title": "Wak Chan K'awiil.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Wak_Chan_K%27awiil.svg",
+      "sha256": "6634f4003b0b1c220b41dd34a38fe3302569a476fc716b2f70c75aef59a83db4",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual."
+    },
+    {
+      "person": "Q4220854",
+      "name": "Cráneo Animal · nombre convencional",
+      "title": "Animal Skull.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Animal_Skull.svg",
+      "sha256": "c7cd4b604cb7c90575096273dab5014e5b155fadd05e867ed9e0066b20c366da",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-RUANRUAN-0F78FF4A",
+  "name": "Ruanruan",
+  "qid": "",
+  "aliases": [
+    "Ruanruan"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 69,
+      "start": null,
+      "end": null,
+      "name": "Ruanruan",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-RUANRUAN-0F78FF4A-Y0500:0",
+      "contextKey": "CULTURE-RUANRUAN-0F78FF4A",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-RUANRUAN-0F78FF4A-Ruanruan/poblamiento/CULTURE-RUANRUAN-0F78FF4A-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

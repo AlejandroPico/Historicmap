@@ -1,0 +1,63 @@
+{
+  "key": "CULTURE-MAKKURA-AA520FD4-Y0500",
+  "contextKey": "CULTURE-MAKKURA-AA520FD4",
+  "ownerKey": "HIST-Q829356",
+  "name": "Makkura",
+  "originalNames": [
+    "Makkura"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa editorial de500",
+  "decision": "political-base",
+  "reviewedRange": [
+    500,
+    599
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea500 contiene etiquetas de épocas distintas. La ventana500–599 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q829356"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    32.33955,
+    20.47532
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-MAKKURA-AA520FD4-Y0500.geojson",
+  "geometrySha256": "d001704d27124b00a8c6005aa8ae332c22be02b269e7a42b0d7ba3aa353d6731",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+    "year": 500,
+    "featureIds": [
+      19
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1"
+  },
+  "review": "0.35.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final599 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en600."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Makkura",
+      "ABBREVN": "Makkura",
+      "SUBJECTO": "Makkura",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Makkura"
+    }
+  ],
+  "sourceGrouping": [
+    "Makkura"
+  ]
+}

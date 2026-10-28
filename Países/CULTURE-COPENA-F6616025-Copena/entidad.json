@@ -1,0 +1,51 @@
+{
+  "key": "CULTURE-COPENA-F6616025",
+  "name": "Copena",
+  "qid": "",
+  "aliases": [
+    "Copena"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 184,
+      "start": null,
+      "end": null,
+      "name": "Copena",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 81,
+      "start": null,
+      "end": null,
+      "name": "Copena",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-COPENA-F6616025-Y0500:0",
+      "contextKey": "CULTURE-COPENA-F6616025",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-COPENA-F6616025-Copena/poblamiento/CULTURE-COPENA-F6616025-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

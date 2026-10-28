@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-BURGUNDIAN-COMMUNITIES",
+  "name": "Ámbitos burgundios · poblaciones y transformación",
+  "qid": "",
+  "aliases": [
+    "Burgundians",
+    "Ámbitos burgundios · poblaciones y transformación"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 145,
+      "start": null,
+      "end": null,
+      "name": "Burgundians",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-BURGUNDIAN-COMMUNITIES-Y0500:0",
+      "contextKey": "REFERENCE-BURGUNDIAN-COMMUNITIES",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/REFERENCE-BURGUNDIAN-COMMUNITIES-Ambitos-burgundios-poblaciones-y-transformacion/poblamiento/REFERENCE-BURGUNDIAN-COMMUNITIES-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

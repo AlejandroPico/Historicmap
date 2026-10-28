@@ -1,0 +1,52 @@
+{
+  "key": "HIST-Q1211938",
+  "name": "Dinastía ganga occidental",
+  "qid": "",
+  "aliases": [
+    "Dinastía ganga occidental"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1211938"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q4828900",
+      "name": "Avinita",
+      "role": "Rey ganga occidental",
+      "start": "0500-01-01",
+      "end": "0529-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Avinita",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q5316814",
+      "name": "Durvinita",
+      "role": "Rey ganga occidental",
+      "start": "0529-01-01",
+      "end": "0579-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Durvinita",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

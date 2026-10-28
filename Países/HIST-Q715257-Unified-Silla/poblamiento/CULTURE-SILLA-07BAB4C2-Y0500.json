@@ -1,0 +1,67 @@
+{
+  "key": "CULTURE-SILLA-07BAB4C2-Y0500",
+  "contextKey": "CULTURE-SILLA-07BAB4C2",
+  "ownerKey": "HIST-Q715257",
+  "name": "Silla",
+  "originalNames": [
+    "Silla"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 500",
+  "decision": "political-base",
+  "reviewedRange": [
+    500,
+    599
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea500 contiene etiquetas de épocas distintas. La ventana500–599 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q715257"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    125.2903,
+    38.00637
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-SILLA-07BAB4C2-Y0500.geojson",
+  "geometrySha256": "53edb55426f0f282a0210f764e59430594576ac0c4f0957b56ff17f36a22718f",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+    "year": 500,
+    "featureIds": [
+      16
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1"
+  },
+  "review": "0.35.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final599 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en600."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Silla",
+      "ABBREVN": "Silla",
+      "SUBJECTO": "Silla",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Silla"
+    }
+  ],
+  "sourceGrouping": [
+    "Silla"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "key": "CULTURE-NAZCA-8BBBBD64",
+  "name": "Nazca",
+  "qid": "",
+  "aliases": [
+    "Nazca"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 203,
+      "start": null,
+      "end": null,
+      "name": "Nazca",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 89,
+      "start": null,
+      "end": null,
+      "name": "Nazca",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-NAZCA-8BBBBD64-Y0500:0",
+      "contextKey": "CULTURE-NAZCA-8BBBBD64",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-NAZCA-8BBBBD64-Nazca/poblamiento/CULTURE-NAZCA-8BBBBD64-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

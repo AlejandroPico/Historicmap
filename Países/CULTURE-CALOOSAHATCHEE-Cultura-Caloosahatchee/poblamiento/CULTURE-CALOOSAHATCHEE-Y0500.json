@@ -1,0 +1,89 @@
+{
+  "key": "CULTURE-CALOOSAHATCHEE-Y0500",
+  "contextKey": "CULTURE-CALOOSAHATCHEE",
+  "ownerKey": "CULTURE-CALOOSAHATCHEE",
+  "name": "Cultura Caloosahatchee",
+  "originalNames": [
+    "Caloosahatchee culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    500,
+    599
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea500 contiene etiquetas de épocas distintas. La ventana500–599 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Florida Museum · cronología arqueológica Caloosahatchee",
+      "url": "https://www.floridamuseum.ufl.edu/rrc/learn/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#8f9f83",
+  "focus": [
+    -81.40136,
+    26.74388
+  ],
+  "phases": [
+    {
+      "start": 500,
+      "end": 599,
+      "label": "Cultura Caloosahatchee",
+      "dateBasis": "Referencia regional de la fuente editorial500; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-CALOOSAHATCHEE-Y0500.geojson",
+  "geometrySha256": "c5817ee29d9cfe157b464c208b7e372485d846ef1492c6055a7410a727ac602e",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+    "year": 500,
+    "featureIds": [
+      90
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1"
+  },
+  "review": "0.35.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final599 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en600."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Caloosahatchee culture",
+      "ABBREVN": "Caloosahatchee culture",
+      "SUBJECTO": "Caloosahatchee culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Caloosahatchee culture"
+    }
+  ],
+  "sourceGrouping": [
+    "Caloosahatchee culture"
+  ]
+}

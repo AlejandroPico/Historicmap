@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-SUEBIC-GALLAECIA",
+  "name": "Gallaecia · reino suevo y comunidades",
+  "qid": "",
+  "aliases": [
+    "Gallaecia · reino suevo y comunidades",
+    "Suebi"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 140,
+      "start": null,
+      "end": null,
+      "name": "Suebi",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-SUEBIC-GALLAECIA-Y0500:0",
+      "contextKey": "REFERENCE-SUEBIC-GALLAECIA",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/REFERENCE-SUEBIC-GALLAECIA-Gallaecia-reino-suevo-y-comunidades/poblamiento/REFERENCE-SUEBIC-GALLAECIA-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,105 @@
+{
+  "key": "MAYA-COPAN",
+  "identity": {
+    "qid": "",
+    "name": "Corte y dinastía de Copán"
+  },
+  "revision": "0.35.0",
+  "acquisition": "maya-continuity-0.35",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [],
+  "leaders": [
+    {
+      "person": "Q17183439",
+      "name": "K'ak' Chan Yopaat",
+      "role": "Ajaw de Copán",
+      "start": "0600-01-01",
+      "end": "0628-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/K%CA%BCak%CA%BC_Chan_Yopaat",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-5002e607a103c001be1a.jpg",
+        "title": "Copán Stela P.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cop%C3%A1n_Stela_P.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Cop%C3%A1n_Stela_P.jpg/330px-Cop%C3%A1n_Stela_P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "David Ooms from Belgium",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Central America 2007 - album David - 040.jpg",
+        "sha256": "65d27aa91fca8135280ebbd7aa7606124acada122a193140a3ab03c85da180e4",
+        "bytes": 79631,
+        "canonicalFile": "Países/MAYA-COPAN-Corte-y-dinastia-de-Copan/retratos/portrait-5002e607a103c001be1a.jpg",
+        "caption": "EstelaP deCopán, monumento vinculado aK’ak’ Chan Yopaat; imagen regia monumental, no fotografía personal ni retrato naturalista."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy",
+        "city-state"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cop%C3%A1n",
+      "note": "Corte local documentada; no un Estado maya unificado."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Continuidad documental de la corte; completar sucesiones del sigloVII."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [],
+  "officeResearch": [],
+  "authorityReview": [],
+  "documentedAuthorities": [],
+  "places": [
+    {
+      "id": "seat035-42-continuity",
+      "name": "Copán · corte local",
+      "coordinates": [
+        -89.141,
+        14.837
+      ],
+      "start": 600,
+      "end": 699,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Cop%C3%A1n",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme. La agrupación cartográfica hospeda la selección; no acredita dependencia administrativa ni un Estado maya unificado.",
+      "entityName": "Corte y dinastía de Copán",
+      "standaloneReference": true,
+      "aggregateKey": "HIST-Q28567"
+    },
+    {
+      "id": "seat035-42-own-continuity",
+      "name": "Copán · corte local",
+      "coordinates": [
+        -89.141,
+        14.837
+      ],
+      "start": 600,
+      "end": 699,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Cop%C3%A1n",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme. La agrupación cartográfica hospeda la selección; no acredita dependencia administrativa ni un Estado maya unificado.",
+      "entityName": "Corte y dinastía de Copán",
+      "standaloneReference": true
+    }
+  ]
+}

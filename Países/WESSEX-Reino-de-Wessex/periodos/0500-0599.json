@@ -1,0 +1,479 @@
+{
+  "key": "WESSEX",
+  "identity": {
+    "qid": "Q105313",
+    "name": "Reino de Wessex"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Wessex · cronología tradicional",
+      "officePattern": "(?:King|Queen).*Wessex|King.*West Sax",
+      "titles": [
+        "Cerdic of Wessex",
+        "Cynric",
+        "Ceawlin of Wessex",
+        "Ceol of Wessex",
+        "Ceolwulf of Wessex"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q366048",
+      "name": "Cerdic de Wessex",
+      "role": "Rey de Wessex · cronología tradicional",
+      "start": "0519-01-01",
+      "end": "0534-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cerdic_of_Wessex",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-118c423c5cb5ae2a8736.jpg",
+        "title": "Cherdik - John Speed.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Cherdik_-_John_Speed.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Cherdik_-_John_Speed.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "John Speed",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cherdik_-_John_Speed.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "John Speed's Saxon Heptarchy map, from his Theatre. Online at http://cudl.lib.cam.ac.uk/view/PR-ATLAS-00002-00061-00001/1",
+        "sha256": "39c4d87cd6d11dca7c7cc50a0cdda3d4ced46cbcda76ec1b8f291f5d8bca70b0",
+        "bytes": 267084,
+        "canonicalFile": "Países/WESSEX-Reino-de-Wessex/retratos/portrait-118c423c5cb5ae2a8736.jpg",
+        "caption": "Retrato imaginario posterior de Cerdic de Wessex; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q454047",
+      "name": "Cynric de Wessex",
+      "role": "Rey de Wessex · cronología tradicional",
+      "start": "0534-01-01",
+      "end": "0560-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cynric",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q363849",
+      "name": "Ceawlin de Wessex",
+      "role": "Rey de Wessex · cronología tradicional",
+      "start": "0560-01-01",
+      "end": "0592-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ceawlin_of_Wessex",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q545437",
+      "name": "Ceol de Wessex",
+      "role": "Rey de Wessex · cronología tradicional",
+      "start": "0592-01-01",
+      "end": "0597-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ceol_of_Wessex",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q514878",
+      "name": "Ceolwulf de Wessex",
+      "role": "Rey de Wessex · cronología tradicional",
+      "start": "0597-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ceolwulf_of_Wessex",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cerdic_of_Wessex",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ceawlin of Wessex",
+        "title": "Ceawlin of Wessex",
+        "person": "Q363849",
+        "name": "Ceawlin de Wessex",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ceawlin_of_Wessex",
+        "identityResolution": {
+          "requested": "Ceawlin of Wessex",
+          "canonical": "Ceawlin of Wessex",
+          "qid": "Q363849"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0560-01-01",
+          "end": "0592-01-01",
+          "precision": 9,
+          "statement": "Q363849$4f019923-467b-1328-ce87-139210b31481",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q363849",
+        "title": "Ceawlin of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Ceawlin_of_Wessex",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wessex",
+            "raw": "560–592",
+            "parsed": {
+              "start": "0560-01-01",
+              "end": "0592-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Wessex",
+            "raw": "560–592",
+            "parsed": {
+              "start": "0560-01-01",
+              "end": "0592-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ceol of Wessex",
+        "title": "Ceol of Wessex",
+        "person": "Q545437",
+        "name": "Ceol de Wessex",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ceol_of_Wessex",
+        "identityResolution": {
+          "requested": "Ceol of Wessex",
+          "canonical": "Ceol of Wessex",
+          "qid": "Q545437"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0592-01-01",
+          "end": "0597-01-01",
+          "precision": 9,
+          "statement": "Q545437$6379dc40-4661-dd40-fe17-eeb0e8fd330e",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q545437",
+        "title": "Ceol of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Ceol_of_Wessex",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wessex",
+            "raw": "592–597",
+            "parsed": {
+              "start": "0592-01-01",
+              "end": "0597-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ceolwulf of Wessex",
+        "title": "Ceolwulf of Wessex",
+        "person": "Q514878",
+        "name": "Ceolwulf de Wessex",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ceolwulf_of_Wessex",
+        "identityResolution": {
+          "requested": "Ceolwulf of Wessex",
+          "canonical": "Ceolwulf of Wessex",
+          "qid": "Q514878"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0597-01-01",
+          "end": "0611-01-01",
+          "precision": 9,
+          "statement": "Q514878$8636d554-4d29-3a38-c556-8cfdf70635a3",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q514878",
+        "title": "Ceolwulf of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Ceolwulf_of_Wessex",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the West Saxons ''(King of the Gewisse)''",
+            "raw": "{{Circa|597|611}}",
+            "parsed": {
+              "start": "0597-01-01",
+              "end": "0611-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Cerdic of Wessex",
+        "title": "Cerdic of Wessex",
+        "person": "Q366048",
+        "name": "Cerdic de Wessex",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cerdic_of_Wessex",
+        "identityResolution": {
+          "requested": "Cerdic of Wessex",
+          "canonical": "Cerdic of Wessex",
+          "qid": "Q366048"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0519-01-01",
+          "end": "0534-01-01",
+          "precision": 9,
+          "statement": "q366048$d4a65fa5-4de4-503f-08b9-12e0ba8e0851",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q366048",
+        "title": "Cerdic of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Cerdic_of_Wessex",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wessex (King of the Gewissae)",
+            "raw": "c. 519 - c. 534",
+            "parsed": {
+              "start": "0519-01-01",
+              "end": "0534-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Wessex",
+            "raw": "519–534",
+            "parsed": {
+              "start": "0519-01-01",
+              "end": "0534-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Cynric",
+        "title": "Cynric",
+        "person": "Q454047",
+        "name": "Cynric de Wessex",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cynric",
+        "identityResolution": {
+          "requested": "Cynric",
+          "canonical": "Cynric",
+          "qid": "Q454047"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0534-01-01",
+          "end": "0560-01-01",
+          "precision": 9,
+          "statement": "Q454047$4779afc5-42ae-0948-4444-93648b203992",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q454047",
+        "title": "Cynric",
+        "source": "https://en.wikipedia.org/wiki/Cynric",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wessex",
+            "raw": "534–560",
+            "parsed": {
+              "start": "0534-01-01",
+              "end": "0560-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Wessex",
+            "raw": "534–560",
+            "parsed": {
+              "start": "0534-01-01",
+              "end": "0560-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q366048",
+        "title": "Cerdic of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Cerdic_of_Wessex",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Wessex (King of the Gewissae)",
+          "raw": "c. 519 - c. 534",
+          "parsed": {
+            "start": "0519-01-01",
+            "end": "0534-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q454047",
+        "title": "Cynric",
+        "source": "https://en.wikipedia.org/wiki/Cynric",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Wessex",
+          "raw": "534–560",
+          "parsed": {
+            "start": "0534-01-01",
+            "end": "0560-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q363849",
+        "title": "Ceawlin of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Ceawlin_of_Wessex",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Wessex",
+          "raw": "560–592",
+          "parsed": {
+            "start": "0560-01-01",
+            "end": "0592-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q545437",
+        "title": "Ceol of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Ceol_of_Wessex",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Wessex",
+          "raw": "592–597",
+          "parsed": {
+            "start": "0592-01-01",
+            "end": "0597-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q514878",
+        "title": "Ceolwulf of Wessex",
+        "source": "https://en.wikipedia.org/wiki/Ceolwulf_of_Wessex",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the West Saxons ''(King of the Gewisse)''",
+          "raw": "{{Circa|597|611}}",
+          "parsed": {
+            "start": "0597-01-01",
+            "end": "0611-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "mediaReview": [
+    {
+      "person": "Q366048",
+      "name": "Cerdic de Wessex",
+      "title": "Cherdik - John Speed.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Cherdik_-_John_Speed.JPG",
+      "sha256": "39c4d87cd6d11dca7c7cc50a0cdda3d4ced46cbcda76ec1b8f291f5d8bca70b0",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Cerdic de Wessex; no retrato contemporáneo."
+    }
+  ]
+}

@@ -1,6 +1,31 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.34.0 · ampliación 600–699
+## Encargo vigente · 0.35.0 · ampliación 500–599
+
+Mantener entidades políticas, culturas, originales y controles independientes activados inicialmente. Investigar autoridades, transiciones y representaciones con fechas y fuentes; no inventar banderas, fronteras ni identidades. Validar localmente, subir y no esperar Actions/Pages.
+
+- [x] Inventario político/cultural y cronologías de la fuente.
+- [x] Autoridades, imágenes, cortes, formas políticas y contextos por entidad.
+- [x] Culturas y continuidad con600; navegación anual y selección.
+- [x] Auditoría, conservación, pruebas, documentación y preparación del envío.
+
+Resultados 0.35: 108 dossiers 500–599, 272 registros de autoridades, 270 componentes políticos originales, 43 centros documentales, 21 contextos y ocho puntos regionales de conflicto. Referencia cultural500: 87 dossiers originales, 73 fases adoptadas, 12 remisiones políticas y dos etiquetas anacrónicas apartadas conservando originales. Cortes propias de Palenque, Tikal y Copán con tres dossiers adicionales de continuidad600–699 (sólo dos reinados que cruzan el límite; resto de sucesiones pendiente). Catálogo 4.024 carpetas/1.320 identidades.
+
+Conservación: 1.290 identidades anteriores, 17.815 cargos, 1.040 símbolos y 8.849 fases culturales preservados; 73 fases nuevas. Los 103 recursos previos permanecen, 95 idénticos y tres recursos nuevos. Se cotejan 87 originales regionales y los 270 componentes políticos con sus fuentes. Regeneración sin red: 221 archivos sin diferencias después de completar la propagación de retratos a registros anteriores de la misma persona. Véanse CONSERVATION-500 e IDEMPOTENCE-500.
+
+Imágenes: 125 candidatos inspeccionados, 95 aceptados y 30 rechazados. No usar glifos nominativos como fotos, mapas, cascos, escenas sin identificación adecuada, la efigie imperial de una moneda como retrato del rey emisor local ni objetos sasánidas con atribución individual insegura. MediaReview, originales, licencias y pies dentro de cada entidad. No inventar banderas del sigloVI. Las carencias concretas están en REVIEW-500-599 y MEDIA-REVIEW-500.
+
+Correcciones documentales: césar no equivale a emperador; regencias de TiberioII y Amalasunta separadas del reinado. Kavad restaurado presente en500, CosroesII con fases no consecutivas, rivales con límites explícitos. Proclamación Sui581 distinta de reunificación589. B’alam Nehn524–532 y Wi’l Ohl K’inich532–551 contrastados con epigrafía; gobernantes anteriores de Copán con lecturas parciales. Vainyagupta regional507–508, no emperador gupta genérico543–548. Poverty Point y Mill Creek excluidos de la visualización500 por anacronismo; sus originales permanecen. Método y fuentes en RESEARCH-500.
+
+Pendientes reales de investigación, sin convertirlos en tareas terminadas: ampliar sucesiones menores/administraciones locales, resolver cronologías alternativas del sigloVI, completar las sucesiones mayas posteriores a600, imágenes individuales fiables, símbolos con función y vigencia acreditadas, cronología local de regiones culturales y nuevas fuentes geométricas para contornos desfasados. Las ventanas599/699 no prueban extinción. Siguiente regresión anterior a500 sólo por nuevo encargo del propietario. Mantener siempre pueblos/culturas junto a los poderes políticos.
+
+Revisión visual: se corrigen 17 encabezados regionales nuevos que arrastraban la fecha600/700/800 al reutilizar una descripción; ahora indican la referencia500. Las geometrías y fases anteriores se conservan. No confundir el área geográfica de una región con el año de procedencia de su contorno.
+
+Validación local: 64 comprobaciones correctas en diez suites, 13 pruebas Python del lector y cinco recorridos únicos de navegador. Tras las aclaraciones de dignidad túrquica/rótulos, los tres recorridos del sigloVI se repiten correctamente; tras corregir los encabezados culturales se repiten las seis comprobaciones de datos nuevas y el recorrido de cortes mayas/culturas. Tipos y compilación correctos. Verificados 106 recursos de datos, 11 rangos de glifos y 8.454 medios licenciados por SHA-256. Capturas de Justiniano, Sui móvil y Sámi500 revisadas. No se ejecutó ni esperó la matriz completa de Actions/Pages.
+
+31 vistas anónimas generadas se consolidan, conservando literalmente sus 47 registros territoriales en las vistas actuales; ninguna tenía autoridades o símbolos propios. Véase CATALOG-CONSERVATION-500. El envío se prepara para main/origin/main; comprobar coincidencia de la referencia remota al terminar y dejar al propietario la verificación del despliegue.
+
+## Entrega anterior · 0.34.0 · ampliación 600–699
 
 Mantener entidades políticas y áreas culturales, controles independientes activados inicialmente, selección coincidente y todo lo anterior. Investigar cambios de poder, mandatos e imágenes sin inventar banderas, fronteras ni certezas. Subir tras validar localmente sin esperar Actions/Pages.
 

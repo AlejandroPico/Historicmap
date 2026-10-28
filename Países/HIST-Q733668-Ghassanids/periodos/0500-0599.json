@@ -1,0 +1,276 @@
+{
+  "key": "HIST-Q733668",
+  "identity": {
+    "qid": "Q733668",
+    "name": "Ghassanids"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante gasánida",
+      "officePattern": "King.*Ghassan|Ghassan|Phylarch",
+      "titles": [
+        "Jabalah IV ibn al-Harith",
+        "Al-Harith ibn Jabalah",
+        "Al-Mundhir ibn al-Harith",
+        "Al-Nu'man VI ibn al-Mundhir"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3157010",
+      "name": "Jabalah IV ibn al-Harith",
+      "role": "Gobernante gasánida",
+      "start": "0518-01-01",
+      "end": "0528-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jabalah_IV_ibn_al-Harith",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Jabalah_IV_ibn_al-Harith",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Ghassanids"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Ghassanids",
+        "admin": "BYZANTINE",
+        "status": "client",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme.",
+        "localKey": "HIST-Q733668"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "1eb6fc29d230a3b5dee06cad4ca2abbc774f5d3f98edd6a892631a26fa090803",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1945,
+        2025,
+        2048
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Al-Harith ibn Jabalah",
+        "title": "Al-Harith ibn Jabalah",
+        "person": "Q643275",
+        "name": "al-Harith ibn Jabalah",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Al-Harith_ibn_Jabalah",
+        "identityResolution": {
+          "requested": "Al-Harith ibn Jabalah",
+          "canonical": "Al-Harith ibn Jabalah",
+          "qid": "Q643275"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q2057316",
+          "start": "0529-01-01",
+          "end": "0569-01-01",
+          "precision": 9,
+          "statement": "Q643275$070567b6-4a98-b09f-9a70-eb0f670519ef",
+          "label": "patricio"
+        },
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0529-01-01",
+          "end": "0569-01-01",
+          "precision": 9,
+          "statement": "Q643275$5e1a6b1d-437d-05ce-8066-fc93b5f4a13e",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q643275",
+        "title": "Al-Harith ibn Jabalah",
+        "source": "https://en.wikipedia.org/wiki/Al-Harith_ibn_Jabalah",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "{{circa|528}} – 569",
+            "parsed": {
+              "start": "0528-01-01",
+              "end": "0569-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Al-Mundhir ibn al-Harith",
+        "title": "Al-Mundhir ibn al-Harith",
+        "person": "",
+        "name": "Al-Mundhir ibn al-Harith",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Al-Mundhir_ibn_al-Harith",
+        "identityResolution": {
+          "requested": "Al-Mundhir ibn al-Harith",
+          "canonical": "Al-Mundhir ibn al-Harith",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Al-Nu'man VI ibn al-Mundhir",
+        "title": "Al-Nu'man VI ibn al-Mundhir",
+        "person": "Q2829262",
+        "name": "Al-Nu'man VI ibn al-Mundhir",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_VI_ibn_al-Mundhir",
+        "identityResolution": {
+          "requested": "Al-Nu'man VI ibn al-Mundhir",
+          "canonical": "Al-Nu'man VI ibn al-Mundhir",
+          "qid": "Q2829262"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2829262",
+        "title": "Al-Nu'man VI ibn al-Mundhir",
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_VI_ibn_al-Mundhir",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "581–583",
+            "parsed": {
+              "start": "0581-01-01",
+              "end": "0583-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Jabalah IV ibn al-Harith",
+        "title": "Jabalah IV ibn al-Harith",
+        "person": "Q3157010",
+        "name": "Jabalah IV ibn al-Harith",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jabalah_IV_ibn_al-Harith",
+        "identityResolution": {
+          "requested": "Jabalah IV ibn al-Harith",
+          "canonical": "Jabalah IV ibn al-Harith",
+          "qid": "Q3157010"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3157010",
+        "title": "Jabalah IV ibn al-Harith",
+        "source": "https://en.wikipedia.org/wiki/Jabalah_IV_ibn_al-Harith",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Ghassanids, Roman Phylarch",
+            "raw": "{{circa|518}} – 528{{sfn|Shahîd|1995|pp=12, 48}}",
+            "parsed": {
+              "start": "0518-01-01",
+              "end": "0528-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q3157010",
+        "title": "Jabalah IV ibn al-Harith",
+        "source": "https://en.wikipedia.org/wiki/Jabalah_IV_ibn_al-Harith",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Ghassanids, Roman Phylarch",
+          "raw": "{{circa|518}} – 528{{sfn|Shahîd|1995|pp=12, 48}}",
+          "parsed": {
+            "start": "0518-01-01",
+            "end": "0528-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Al-Harith ibn Jabalah",
+        "person": "Q643275",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Al-Mundhir ibn al-Harith",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Al-Nu'man VI ibn al-Mundhir",
+        "person": "Q2829262",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

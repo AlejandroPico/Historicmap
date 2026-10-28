@@ -1,0 +1,51 @@
+{
+  "key": "CULTURE-POINT-PENINSULA-6FF5A6F4",
+  "name": "Point Peninsula",
+  "qid": "",
+  "aliases": [
+    "Point Peninsula"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 189,
+      "start": null,
+      "end": null,
+      "name": "Point Peninsula",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 87,
+      "start": null,
+      "end": null,
+      "name": "Point Peninsula",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-POINT-PENINSULA-6FF5A6F4-Y0500:0",
+      "contextKey": "CULTURE-POINT-PENINSULA-6FF5A6F4",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-POINT-PENINSULA-6FF5A6F4-Point-Peninsula/poblamiento/CULTURE-POINT-PENINSULA-6FF5A6F4-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

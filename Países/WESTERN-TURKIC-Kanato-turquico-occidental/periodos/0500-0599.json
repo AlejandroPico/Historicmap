@@ -1,0 +1,277 @@
+{
+  "key": "WESTERN-TURKIC",
+  "identity": {
+    "qid": "Q205466",
+    "name": "Kanato túrquico occidental"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Kan túrquico occidental",
+      "officePattern": "Khagan|Khan|Yabghu",
+      "titles": [
+        "Istämi",
+        "Tardu"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q632026",
+      "name": "Istämi",
+      "role": "Yabghu de la rama occidental",
+      "start": "0552-01-01",
+      "end": "0575-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ist%C3%A4mi",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos. El ala occidental precede a la separación formal de los kanatos; las propuestas575/576 y582/583/603 difieren según el hecho fechado. No se presenta aIstämi como gran kan independiente de todo el poder túrquico."
+    },
+    {
+      "person": "Q154891",
+      "name": "Tardu",
+      "role": "Gobernante de la rama occidental",
+      "start": "0575-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tardu",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos. El ala occidental precede a la separación formal de los kanatos; las propuestas575/576 y582/583/603 difieren según el hecho fechado. No se presenta aIstämi como gran kan independiente de todo el poder túrquico."
+    },
+    {
+      "person": "Q154891",
+      "name": "Tardu",
+      "role": "Gobernante de la rama occidental",
+      "start": "0599-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tardu",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos. El ala occidental precede a la separación formal de los kanatos; las propuestas575/576 y582/583/603 difieren según el hecho fechado. No se presenta aIstämi como gran kan independiente de todo el poder túrquico.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review035-turkic-divisions-WESTERN-TURKIC",
+      "type": "institution",
+      "title": "Ramas túrquicas y cronologías de división",
+      "start": "0552-01-01",
+      "end": "0600-01-01",
+      "precision": 9,
+      "source": "https://doktori.bibl.u-szeged.hu/10772/1/Kahraman_Mutlu_PhD_dissertation.pdf",
+      "sourceLabel": "Estudio histórico · Universidad deSzeged",
+      "text": "Istämi gobierna el ala occidental con dignidad de yabghu. Las crisis de sucesión desde581 y las cronologías582/583 o603 fechan etapas distintas de división. Las ramas y la agrupación general no son tres imperios independientes homogéneos coexistentes.",
+      "note": "Diferencias de títulos y cronología conservadas; no reconstrucción anual de todos los ámbitos de control.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Ist%C3%A4mi",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Göktürks"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Rama occidental del poder túrquico",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "c5a5edaf52830e3048ba8929bb876e06de75f9faba59905052b972294fa32280",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2180,
+        2199
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Istämi",
+        "title": "Istämi",
+        "person": "Q632026",
+        "name": "Istämi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ist%C3%A4mi",
+        "identityResolution": {
+          "requested": "Istämi",
+          "canonical": "Istämi",
+          "qid": "Q632026"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q632026",
+        "title": "Istämi",
+        "source": "https://en.wikipedia.org/wiki/Ist%C3%A4mi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Yabghu of the First Turkic Khaganate",
+            "raw": "552–575",
+            "parsed": {
+              "start": "0552-01-01",
+              "end": "0575-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tardu",
+        "title": "Tardu",
+        "person": "Q154891",
+        "name": "Tardu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tardu",
+        "identityResolution": {
+          "requested": "Tardu",
+          "canonical": "Tardu",
+          "qid": "Q154891"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q154891",
+        "title": "Tardu",
+        "source": "https://en.wikipedia.org/wiki/Tardu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Yabghu of the First Turkic Khaganate",
+            "raw": "575–599",
+            "parsed": {
+              "start": "0575-01-01",
+              "end": "0599-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "Qaghan of the First Turkic Khaganate",
+            "raw": "599–603",
+            "parsed": {
+              "start": "0599-01-01",
+              "end": "0603-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q632026",
+        "title": "Istämi",
+        "source": "https://en.wikipedia.org/wiki/Ist%C3%A4mi",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Yabghu of the First Turkic Khaganate",
+          "raw": "552–575",
+          "parsed": {
+            "start": "0552-01-01",
+            "end": "0575-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q154891",
+        "title": "Tardu",
+        "source": "https://en.wikipedia.org/wiki/Tardu",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Yabghu of the First Turkic Khaganate",
+          "raw": "575–599",
+          "parsed": {
+            "start": "0575-01-01",
+            "end": "0599-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q154891",
+        "title": "Tardu",
+        "source": "https://en.wikipedia.org/wiki/Tardu",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "Qaghan of the First Turkic Khaganate",
+          "raw": "599–603",
+          "parsed": {
+            "start": "0599-01-01",
+            "end": "0603-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "contexts": [
+    {
+      "id": "review035-turkic-divisions-WESTERN-TURKIC",
+      "type": "institution",
+      "title": "Ramas túrquicas y cronologías de división",
+      "start": "0552-01-01",
+      "end": "0600-01-01",
+      "precision": 9,
+      "source": "https://doktori.bibl.u-szeged.hu/10772/1/Kahraman_Mutlu_PhD_dissertation.pdf",
+      "sourceLabel": "Estudio histórico · Universidad deSzeged",
+      "text": "Istämi gobierna el ala occidental con dignidad de yabghu. Las crisis de sucesión desde581 y las cronologías582/583 o603 fechan etapas distintas de división. Las ramas y la agrupación general no son tres imperios independientes homogéneos coexistentes.",
+      "note": "Diferencias de títulos y cronología conservadas; no reconstrucción anual de todos los ámbitos de control."
+    }
+  ]
+}

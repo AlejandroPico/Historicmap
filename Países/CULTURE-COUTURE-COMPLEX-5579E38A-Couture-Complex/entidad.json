@@ -1,0 +1,51 @@
+{
+  "key": "CULTURE-COUTURE-COMPLEX-5579E38A",
+  "name": "Couture Complex",
+  "qid": "",
+  "aliases": [
+    "Couture Complex"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 188,
+      "start": null,
+      "end": null,
+      "name": "Couture Complex",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 86,
+      "start": null,
+      "end": null,
+      "name": "Couture Complex",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-COUTURE-COMPLEX-5579E38A-Y0500:0",
+      "contextKey": "CULTURE-COUTURE-COMPLEX-5579E38A",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-COUTURE-COMPLEX-5579E38A-Couture-Complex/poblamiento/CULTURE-COUTURE-COMPLEX-5579E38A-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

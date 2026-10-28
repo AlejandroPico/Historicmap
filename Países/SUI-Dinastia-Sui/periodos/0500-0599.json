@@ -1,0 +1,339 @@
+{
+  "key": "SUI",
+  "identity": {
+    "qid": "Q7405",
+    "name": "Dinastía Sui"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador Sui",
+      "officePattern": "Emperor.*Sui|Emperor.*China",
+      "titles": [
+        "Emperor Wen of Sui"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7418",
+      "name": "Yang Jian",
+      "role": "Emperador Sui",
+      "start": "0581-03-04",
+      "end": "0599-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-a4fe1790b39af10af0b6.jpg",
+        "title": "Sui Wendi Tang.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Sui_Wendi_Tang.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sui_Wendi_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "\nYan Li-pen",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sui_Wendi_Tang.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.mfa.org/collections/search_art.asp?",
+        "sha256": "bb9593012361786da73562e3f9ecc810793f8f5b3aad31ed8bb8fdc30de32f32",
+        "bytes": 437710,
+        "canonicalFile": "Países/SUI-Dinastia-Sui/retratos/portrait-a4fe1790b39af10af0b6.jpg",
+        "caption": "Retrato imaginario posterior de Yang Jian; no retrato contemporáneo."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review035-unification",
+      "type": "institution",
+      "title": "Proclamación Sui y reunificación",
+      "start": "0581-01-01",
+      "end": "0590-01-01",
+      "text": "La dinastía se proclama en581; la conquista deChen y reunificación se sitúan en589. Las dos fechas no son equivalentes. Donde falta un contorno coincidente se consulta la corte documentada.",
+      "source": "https://www.metmuseum.org/de/toah/ht/06/eac",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 581,
+      "end": 599,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Sui Dynasty"
+        ],
+        "start": 500,
+        "end": 580,
+        "label": "Dinastía Sui · referencia regional de la fuente",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no acredita una entidad política unitaria vigente ni prolonga su lista de gobernantes."
+      }
+    },
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Sui Dynasty"
+        ],
+        "start": 581,
+        "end": 599,
+        "label": "Dinastía Sui",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "027995e5efdf7234936dda3d9b32ec951188182c822cf20e93c71a73c4d75aa1",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2174,
+        2192
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Wen of Sui",
+        "title": "Emperor Wen of Sui",
+        "person": "Q7418",
+        "name": "Yang Jian",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
+        "identityResolution": {
+          "requested": "Emperor Wen of Sui",
+          "canonical": "Emperor Wen of Sui",
+          "qid": "Q7418"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0581-03-04",
+          "end": "0604-08-13",
+          "precision": 11,
+          "statement": "Q7418$16E565DB-7D8C-43AF-AA4E-9122E8E9F64F",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7418",
+        "title": "Emperor Wen of Sui",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Sui dynasty",
+            "raw": "4 March 581 – 13 August 604",
+            "parsed": {
+              "start": "0581-03-04",
+              "end": "0604-08-13",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "581–604",
+            "parsed": {
+              "start": "0581-01-01",
+              "end": "0604-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Sui",
+            "raw": "581",
+            "parsed": {
+              "start": "0581-01-01",
+              "end": "0581-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Chengji",
+            "raw": "555–557",
+            "parsed": {
+              "start": "0555-01-01",
+              "end": "0557-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Daxing",
+            "raw": "557–568",
+            "parsed": {
+              "start": "0557-01-01",
+              "end": "0568-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Sui",
+            "raw": "568–581",
+            "parsed": {
+              "start": "0568-01-01",
+              "end": "0581-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7418",
+        "title": "Emperor Wen of Sui",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Sui dynasty",
+          "raw": "4 March 581 – 13 August 604",
+          "parsed": {
+            "start": "0581-03-04",
+            "end": "0604-08-13",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat035-23",
+      "name": "Chang’an · proclamación Sui",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 581,
+      "end": 581,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Dinast%C3%ADa_Sui",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Dinastía Sui",
+      "standaloneReference": true
+    },
+    {
+      "id": "seat035-24",
+      "name": "Daxing · primera corte Sui",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 582,
+      "end": 586,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Dinast%C3%ADa_Sui",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Dinastía Sui",
+      "standaloneReference": true
+    },
+    {
+      "id": "seat035-25",
+      "name": "Daxing · Chang’an",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 587,
+      "end": 599,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Dinast%C3%ADa_Sui",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Dinastía Sui"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review035-unification",
+      "type": "institution",
+      "title": "Proclamación Sui y reunificación",
+      "start": "0581-01-01",
+      "end": "0590-01-01",
+      "text": "La dinastía se proclama en581; la conquista deChen y reunificación se sitúan en589. Las dos fechas no son equivalentes. Donde falta un contorno coincidente se consulta la corte documentada.",
+      "source": "https://www.metmuseum.org/de/toah/ht/06/eac",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q7418",
+      "name": "Yang Jian",
+      "title": "Sui Wendi Tang.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sui_Wendi_Tang.jpg",
+      "sha256": "bb9593012361786da73562e3f9ecc810793f8f5b3aad31ed8bb8fdc30de32f32",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Yang Jian; no retrato contemporáneo."
+    }
+  ]
+}

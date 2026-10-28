@@ -1,0 +1,51 @@
+{
+  "key": "CULTURE-MILLER-716545EA",
+  "name": "Miller",
+  "qid": "",
+  "aliases": [
+    "Miller"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 182,
+      "start": null,
+      "end": null,
+      "name": "Miller",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 79,
+      "start": null,
+      "end": null,
+      "name": "Miller",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MILLER-716545EA-Y0500:0",
+      "contextKey": "CULTURE-MILLER-716545EA",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-MILLER-716545EA-Miller/poblamiento/CULTURE-MILLER-716545EA-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

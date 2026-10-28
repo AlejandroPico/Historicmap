@@ -1,0 +1,56 @@
+{
+  "key": "HIST-Q268562",
+  "name": "Kingdom of Thuringia",
+  "qid": "Q268562",
+  "aliases": [
+    "Kingdom of Thuringia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q268562"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q660336",
+      "name": "Hermanfredo",
+      "role": "Rey de Turingia",
+      "start": "0507-01-01",
+      "end": "0531-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hermanafrid",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1869",
+      "start": 500,
+      "end": 522,
+      "name": "Kingdom of Thuringia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1958",
+      "start": 523,
+      "end": 533,
+      "name": "Kingdom of Thuringia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

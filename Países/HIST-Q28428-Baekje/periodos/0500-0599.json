@@ -1,0 +1,613 @@
+{
+  "key": "HIST-Q28428",
+  "identity": {
+    "qid": "Q28428",
+    "name": "Baekje"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Baekje",
+      "officePattern": "King.*Baekje|King.*Paekche",
+      "titles": [
+        "Dongseong of Baekje",
+        "Muryeong of Baekje",
+        "Seong of Baekje",
+        "Wideok of Baekje",
+        "Hye of Baekje",
+        "Beop of Baekje"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q497846",
+      "name": "Dongseong of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0500-01-01",
+      "end": "0501-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dongseong_of_Baekje",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q497878",
+      "name": "Muryeong de Baekje",
+      "role": "Rey de Baekje",
+      "start": "0501-01-01",
+      "end": "0523-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Muryeong_of_Baekje",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q497911",
+      "name": "Seong of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0523-01-01",
+      "end": "0554-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Seong_of_Baekje",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q498134",
+      "name": "Wideok of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0554-01-01",
+      "end": "0598-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wideok_of_Baekje",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q497959",
+      "name": "Hye of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0598-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hye_of_Baekje",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q497983",
+      "name": "Beop of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0599-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/P%C5%8Fp_of_Paekche",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Dongseong_of_Baekje",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Baekje"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Baekje",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "f40eb6f160f312ea9c4032433831f5db246564c8e05c81524d4792be1634f942",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1870,
+        2128
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Beop of Baekje",
+        "title": "Beop of Baekje",
+        "person": "Q497983",
+        "name": "Beop of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/P%C5%8Fp_of_Paekche",
+        "identityResolution": {
+          "requested": "Beop of Baekje",
+          "canonical": "Pŏp of Paekche",
+          "qid": "Q497983"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0599-01-01",
+          "end": "0600-01-01",
+          "precision": 9,
+          "statement": "Q497983$76fe42ea-4579-f4d8-dd9f-6e98abe394df",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497983",
+        "title": "Pŏp of Paekche",
+        "source": "https://en.wikipedia.org/wiki/P%C5%8Fp_of_Paekche",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Paekche",
+            "raw": "599–600",
+            "parsed": {
+              "start": "0599-01-01",
+              "end": "0600-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dongseong of Baekje",
+        "title": "Dongseong of Baekje",
+        "person": "Q497846",
+        "name": "Dongseong of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dongseong_of_Baekje",
+        "identityResolution": {
+          "requested": "Dongseong of Baekje",
+          "canonical": "Dongseong of Baekje",
+          "qid": "Q497846"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0479-01-01",
+          "end": "0501-01-01",
+          "precision": 9,
+          "statement": "Q497846$1a6532c5-451d-a57b-4d58-1d3cbe69dead",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497846",
+        "title": "Dongseong of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Dongseong_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "479–501",
+            "parsed": {
+              "start": "0479-01-01",
+              "end": "0501-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hye of Baekje",
+        "title": "Hye of Baekje",
+        "person": "Q497959",
+        "name": "Hye of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hye_of_Baekje",
+        "identityResolution": {
+          "requested": "Hye of Baekje",
+          "canonical": "Hye of Baekje",
+          "qid": "Q497959"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0598-01-01",
+          "end": "0599-01-01",
+          "precision": 9,
+          "statement": "Q497959$88807ca3-4c0c-da70-cd5c-047ea3da7c11",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497959",
+        "title": "Hye of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Hye_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "598–599",
+            "parsed": {
+              "start": "0598-01-01",
+              "end": "0599-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Muryeong of Baekje",
+        "title": "Muryeong of Baekje",
+        "person": "Q497878",
+        "name": "Muryeong de Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Muryeong_of_Baekje",
+        "identityResolution": {
+          "requested": "Muryeong of Baekje",
+          "canonical": "Muryeong of Baekje",
+          "qid": "Q497878"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0501-01-01",
+          "end": "0523-01-01",
+          "precision": 9,
+          "statement": "Q497878$77befb88-e27c-4913-9f0e-dadd0b88a96d",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497878",
+        "title": "Muryeong of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Muryeong_of_Baekje",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Baekje",
+            "raw": "501–523",
+            "parsed": {
+              "start": "0501-01-01",
+              "end": "0523-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "501–523",
+            "parsed": {
+              "start": "0501-01-01",
+              "end": "0523-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Seong of Baekje",
+        "title": "Seong of Baekje",
+        "person": "Q497911",
+        "name": "Seong of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Seong_of_Baekje",
+        "identityResolution": {
+          "requested": "Seong of Baekje",
+          "canonical": "Seong of Baekje",
+          "qid": "Q497911"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0523-01-01",
+          "end": "0554-01-01",
+          "precision": 9,
+          "statement": "Q497911$133d03af-4c5f-d76f-708c-01f64ee53eb1",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497911",
+        "title": "Seong of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Seong_of_Baekje",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Baekje",
+            "raw": "523–554",
+            "parsed": {
+              "start": "0523-01-01",
+              "end": "0554-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "523–554",
+            "parsed": {
+              "start": "0523-01-01",
+              "end": "0554-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wideok of Baekje",
+        "title": "Wideok of Baekje",
+        "person": "Q498134",
+        "name": "Wideok of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wideok_of_Baekje",
+        "identityResolution": {
+          "requested": "Wideok of Baekje",
+          "canonical": "Wideok of Baekje",
+          "qid": "Q498134"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0554-01-01",
+          "end": "0598-01-01",
+          "precision": 9,
+          "statement": "Q498134$041d86f0-4923-5c48-25d0-4309956aa90f",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498134",
+        "title": "Wideok of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Wideok_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "554–598",
+            "parsed": {
+              "start": "0554-01-01",
+              "end": "0598-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q497846",
+        "title": "Dongseong of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Dongseong_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "479–501",
+          "parsed": {
+            "start": "0479-01-01",
+            "end": "0501-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497878",
+        "title": "Muryeong of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Muryeong_of_Baekje",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Baekje",
+          "raw": "501–523",
+          "parsed": {
+            "start": "0501-01-01",
+            "end": "0523-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497911",
+        "title": "Seong of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Seong_of_Baekje",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Baekje",
+          "raw": "523–554",
+          "parsed": {
+            "start": "0523-01-01",
+            "end": "0554-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q498134",
+        "title": "Wideok of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Wideok_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "554–598",
+          "parsed": {
+            "start": "0554-01-01",
+            "end": "0598-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497959",
+        "title": "Hye of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Hye_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "598–599",
+          "parsed": {
+            "start": "0598-01-01",
+            "end": "0599-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497983",
+        "title": "Beop of Baekje",
+        "source": "https://en.wikipedia.org/wiki/P%C5%8Fp_of_Paekche",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Paekche",
+          "raw": "599–600",
+          "parsed": {
+            "start": "0599-01-01",
+            "end": "0600-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat035-30",
+      "name": "Ungjin · Baekje",
+      "coordinates": [
+        127.12,
+        36.46
+      ],
+      "start": 500,
+      "end": 537,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Baekje",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Baekje"
+    },
+    {
+      "id": "seat035-31",
+      "name": "Sabi · Baekje",
+      "coordinates": [
+        126.914,
+        36.281
+      ],
+      "start": 538,
+      "end": 599,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Baekje",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Baekje"
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q497878",
+      "title": "Portraits of kings at Tongiljeon.jpg",
+      "reason": "Sala con varios retratos sin encuadre e identificación individual deMuryeong.",
+      "source": "https://commons.wikimedia.org/wiki/File:Portraits_of_kings_at_Tongiljeon.jpg"
+    },
+    {
+      "person": "Q497911",
+      "title": "GUZE Kannon Horyuji.JPG",
+      "reason": "Escultura delGuze Kannon; no retrato acreditado deSeong deBaekje.",
+      "source": "https://commons.wikimedia.org/wiki/File:GUZE_Kannon_Horyuji.JPG"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q497878",
+      "name": "Muryeong de Baekje",
+      "title": "Portraits of kings at Tongiljeon.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portraits_of_kings_at_Tongiljeon.jpg",
+      "sha256": "b9cdcb54aeeabb9f990a27f4239ab8a76e10a09112e1180ce5d8115fa2a099cc",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Sala con varios retratos sin encuadre e identificación individual deMuryeong."
+    },
+    {
+      "person": "Q497911",
+      "name": "Seong of Baekje",
+      "title": "GUZE Kannon Horyuji.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:GUZE_Kannon_Horyuji.JPG",
+      "sha256": "439fb70a3ed6104f40a8f0bf0ee5659fe1c259289c3d1b10d33946984eefd0d2",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Escultura delGuze Kannon; no retrato acreditado deSeong deBaekje."
+    }
+  ]
+}

@@ -31,7 +31,7 @@ def clean(raw):
  raw=re.sub(r'\{\{circa\|([^{}]*)\}\}',r'\1',raw,flags=re.I);raw=re.sub(r'\{\{circa\}\}','c. ',raw,flags=re.I)
  raw=re.sub(r'(?<=\d)\s+to\s+(?=\d)','–',raw)
  raw=re.sub(r'\b(?:A\.?D\.?|C\.?E\.?)(?!\w)','',raw)
- raw=re.sub(r'\{\{(?:nowrap|nobr|small)\|([^{}]*)\}\}',r'\1',raw)
+ raw=re.sub(r'\{\{(?:nowr|nowrap|nobr|small)\|([^{}]*)\}\}',r'\1',raw)
  def date_template(m):
   v=re.findall(r'\|\s*(\d+)\s*(?=\||\}\})',m.group(0))
   if not v:return m.group(0)
@@ -42,7 +42,7 @@ def clean(raw):
  return re.sub(r'\s+',' ',raw).strip()
 def parse_date(raw,end=False):
  text=clean(raw);text=re.sub(r'\([^)]*\)','',text).strip();text=re.sub(r'^(?:(?:c\.?|circa|from|about|r\.)\s*)+','',text)
- for fmt,p in [('%Y-%m-%d',11),('%d %B %Y',11),('%B %d, %Y',11),('%B %Y',10),('%Y',9)]:
+ for fmt,p in [('%Y-%m-%d',11),('%d %B %Y',11),('%B %d, %Y',11),('%B %d %Y',11),('%B %Y',10),('%Y',9)]:
   try:
    d=datetime.datetime.strptime(text,fmt).date()
    if p==9 and end:d=d.replace(month=12,day=31)
@@ -59,18 +59,18 @@ def extract(text,include_succession=False):
   # A line break may separate the two ends of one reign, not two reigns.
   if len(parts)>1 and any(re.search(r'[–—-]\s*$',clean(v))for v in parts[:-1]):parts=[re.sub(r'<br\s*/?>',' ',raw,flags=re.I)]
   for part in parts:
-   value=clean(part);pair=re.split(r'\s*[–—]\s*|\s+-\s+|(?<=\d{4})-(?=\d{4}(?!\d))',value,maxsplit=1);parsed=None
+   value=clean(part);pair=re.split(r'\s*[–—]\s*|\s+-\s+|(?<=\d{4})-(?=(?:c\.\s*)?\d{4}(?!\d))',value,maxsplit=1);parsed=None
    if len(pair)==2:
     try:
      # Conventional abbreviated end years (953–77), not personal life dates.
      if re.fullmatch(r'\d{4}',pair[0])and re.fullmatch(r'\d{2}',pair[1]):pair[1]=pair[0][:2]+pair[1]
-     if re.fullmatch(r'\d{1,2} (?:'+ '|'.join(MONTHS)+')',pair[0])and re.search(r'\b\d{4}$',pair[1]):pair[0]+=' '+pair[1][-4:]
+     if (re.fullmatch(r'\d{1,2} (?:'+'|'.join(MONTHS)+')',pair[0]) or re.fullmatch(r'(?:'+'|'.join(MONTHS)+') \d{1,2}',pair[0])) and re.search(r'\b\d{4}$',pair[1]):pair[0]+=' '+pair[1][-4:]
      a,pa=parse_date(pair[0]);b,pb=parse_date(pair[1],True)
      if a<=b:parsed=dict(start=a,end=b,precision=min(pa,pb))
     except ValueError:pass
    elif re.fullmatch(r'(?:c\.?\s*)?\d{4}',value):
     a,pa=parse_date(value);b,pb=parse_date(value,True);parsed=dict(start=a,end=b,precision=9)
-   out.append(dict(field=field,office=clean(office),raw=part,parsed=parsed))
+   out.append(dict(field=field,office=clean(office),raw=part,parsed=parsed,reignType=clean(p.get('reign_type'+suffix,''))))
  for field,raw in p.items():
   m=re.fullmatch(r'term_start(\d*)',field)
   if not m:continue

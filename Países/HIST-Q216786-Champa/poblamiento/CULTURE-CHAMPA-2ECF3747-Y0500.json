@@ -1,0 +1,63 @@
+{
+  "key": "CULTURE-CHAMPA-2ECF3747-Y0500",
+  "contextKey": "CULTURE-CHAMPA-2ECF3747",
+  "ownerKey": "HIST-Q216786",
+  "name": "Champa",
+  "originalNames": [
+    "Champa"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa editorial de500",
+  "decision": "political-base",
+  "reviewedRange": [
+    500,
+    599
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea500 contiene etiquetas de épocas distintas. La ventana500–599 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q216786"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    108.2038,
+    13.3597
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-CHAMPA-2ECF3747-Y0500.geojson",
+  "geometrySha256": "c5fa86ff1353df388f0b0207521f03726d1c5a89d9ed3efbf2137e2e4fc077e1",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+    "year": 500,
+    "featureIds": [
+      24
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1"
+  },
+  "review": "0.35.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final599 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en600."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Champa",
+      "ABBREVN": "Champa",
+      "SUBJECTO": "Champa",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Champa"
+    }
+  ],
+  "sourceGrouping": [
+    "Champa"
+  ]
+}

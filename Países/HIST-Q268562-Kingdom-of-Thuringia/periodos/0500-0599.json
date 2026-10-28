@@ -1,0 +1,229 @@
+{
+  "key": "HIST-Q268562",
+  "identity": {
+    "qid": "Q268562",
+    "name": "Kingdom of Thuringia"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Turingia",
+      "officePattern": "King.*Thuring",
+      "titles": [
+        "Baderic",
+        "Berthachar",
+        "Hermenfrid"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q660336",
+      "name": "Hermanfredo",
+      "role": "Rey de Turingia",
+      "start": "0507-01-01",
+      "end": "0531-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hermanafrid",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Baderic",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Thuringia"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Kingdom of Thuringia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "f1d3c2de94ce3faf1fb5f62aa25d1a2f58602cd6cfd7db8d400d505a6ffa1850",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1869,
+        1958
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Baderic",
+        "title": "Baderic",
+        "person": "Q685020",
+        "name": "Baderico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Baderic",
+        "identityResolution": {
+          "requested": "Baderic",
+          "canonical": "Baderic",
+          "qid": "Q685020"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q685020",
+        "title": "Baderic",
+        "source": "https://en.wikipedia.org/wiki/Baderic",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Berthachar",
+        "title": "Berthachar",
+        "person": "Q660277",
+        "name": "Berthar",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bertachar",
+        "identityResolution": {
+          "requested": "Berthachar",
+          "canonical": "Bertachar",
+          "qid": "Q660277"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q660277",
+        "title": "Bertachar",
+        "source": "https://en.wikipedia.org/wiki/Bertachar",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hermenfrid",
+        "title": "Hermenfrid",
+        "person": "Q660336",
+        "name": "Hermanfredo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hermanafrid",
+        "identityResolution": {
+          "requested": "Hermenfrid",
+          "canonical": "Hermanafrid",
+          "qid": "Q660336"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q660336",
+        "title": "Hermanafrid",
+        "source": "https://en.wikipedia.org/wiki/Hermanafrid",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Thuringia",
+            "raw": "507–531",
+            "parsed": {
+              "start": "0507-01-01",
+              "end": "0531-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q660336",
+        "title": "Hermenfrid",
+        "source": "https://en.wikipedia.org/wiki/Hermanafrid",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Thuringia",
+          "raw": "507–531",
+          "parsed": {
+            "start": "0507-01-01",
+            "end": "0531-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Baderic",
+        "person": "Q685020",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Berthachar",
+        "person": "Q660277",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q660336",
+      "title": "Hermann Knackfuß - Hermanafrid assassinated in Zülpich Castle, c. 532.jpg",
+      "reason": "Escena de asesinato colectiva; no acredita un retrato individual adecuado deHermanfredo.",
+      "source": "https://commons.wikimedia.org/wiki/File:Hermann_Knackfu%C3%9F_-_Hermanafrid_assassinated_in_Z%C3%BClpich_Castle,_c._532.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q660336",
+      "name": "Hermanfredo",
+      "title": "Hermann Knackfuß - Hermanafrid assassinated in Zülpich Castle, c. 532.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hermann_Knackfu%C3%9F_-_Hermanafrid_assassinated_in_Z%C3%BClpich_Castle,_c._532.jpg",
+      "sha256": "38495cbed40c510b3b43226d3a46036c7f9cf0dac147c58f6007def20ec87c33",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Escena de asesinato colectiva; no acredita un retrato individual adecuado deHermanfredo."
+    }
+  ]
+}

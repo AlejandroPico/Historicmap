@@ -1,0 +1,57 @@
+{
+  "key": "EASTERN-WEI",
+  "name": "Wei oriental",
+  "qid": "Q307069",
+  "aliases": [
+    "Eastern Wei",
+    "Wei oriental"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "EASTERN-WEI"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1149239",
+      "name": "Xiaojing · Wei oriental",
+      "role": "Emperador de Wei oriental",
+      "start": "0534-11-08",
+      "end": "0550-06-07",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xiaojing_of_Eastern_Wei",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1982",
+      "start": 534,
+      "end": 545,
+      "name": "Eastern Wei",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2059",
+      "start": 546,
+      "end": 554,
+      "name": "Eastern Wei",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

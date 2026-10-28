@@ -1,0 +1,411 @@
+{
+  "key": "WESTERN-WEI",
+  "identity": {
+    "qid": "Q1143164",
+    "name": "Wei occidental"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador de Wei occidental",
+      "officePattern": "Emperor",
+      "titles": [
+        "Emperor Wen of Western Wei",
+        "Emperor Fei of Western Wei",
+        "Emperor Gong of Western Wei"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2985487",
+      "name": "Wen · Wei occidental",
+      "role": "Emperador de Wei occidental",
+      "start": "0535-02-18",
+      "end": "0551-03-28",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Western_Wei",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q2660296",
+      "name": "Fei · Wei occidental",
+      "role": "Emperador de Wei occidental",
+      "start": "0551-03-28",
+      "end": "0554-03-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Fei_of_Western_Wei",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q2665689",
+      "name": "Gong · Wei occidental",
+      "role": "Emperador de Wei occidental",
+      "start": "0554-03-01",
+      "end": "0557-02-14",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Gong_of_Western_Wei",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 535,
+      "end": 557,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Western_Wei",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Wei"
+        ],
+        "start": 500,
+        "end": 534,
+        "label": "Wei occidental · referencia regional de la fuente",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no acredita una entidad política unitaria vigente ni prolonga su lista de gobernantes."
+      }
+    },
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Wei"
+        ],
+        "start": 535,
+        "end": 557,
+        "label": "Wei occidental",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Wei"
+        ],
+        "start": 558,
+        "end": 599,
+        "label": "Wei occidental · referencia regional de la fuente",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no acredita una entidad política unitaria vigente ni prolonga su lista de gobernantes."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "d7f037eda480e06bab7bf409ac1b75f333a77042220014680824596db3bf1e99",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1991,
+        2016,
+        2099
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Fei of Western Wei",
+        "title": "Emperor Fei of Western Wei",
+        "person": "Q2660296",
+        "name": "Emperor Fei of Western Wei",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Fei_of_Western_Wei",
+        "identityResolution": {
+          "requested": "Emperor Fei of Western Wei",
+          "canonical": "Emperor Fei of Western Wei",
+          "qid": "Q2660296"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0551-01-01",
+          "end": "0554-01-01",
+          "precision": 9,
+          "statement": "Q2660296$95949943-b4a5-4023-af82-b27cfd94591f",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2660296",
+        "title": "Emperor Fei of Western Wei",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Fei_of_Western_Wei",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Western Wei",
+            "raw": "March 28, 551<ref name=ZZTJ164>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷164|vol. 164]].</ref><ref>''geng'xu'' day of the 3rd month of the 2nd year of the ''Da'bao'' era</ref> – {{circa}}March 554<ref name=ZZTJ165/><ref>Volume 165 of ''Zizhi Tongjian'' indicated that Yuan Qin was deposed between the ''xinchou'' day of the 1st month and the ''dinghai'' day of the 3rd month of the 3rd year of the ''Chengsheng'' era. The dates correspond to 3 Mar and 18 Apr 554 in the Julian calendar. Vol.5 of ''Bei Shi'' indicate that his successor Emperor Gong was crowned in the 1st month of the 3rd year of his reign (excluding the 1st year, which remained the 17th year of the ''Da'tong'' era of Emperor Wen's reign; the month corresponds to 18 Feb to 18 Mar 554 in the Julian calendar.</ref>",
+            "parsed": {
+              "start": "0551-03-28",
+              "end": "0554-03-01",
+              "precision": 10
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Wei (Western)",
+            "raw": "551–554",
+            "parsed": {
+              "start": "0551-01-01",
+              "end": "0554-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Western)",
+            "raw": "551–554",
+            "parsed": {
+              "start": "0551-01-01",
+              "end": "0554-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Southwestern)",
+            "raw": "553–554",
+            "parsed": {
+              "start": "0553-01-01",
+              "end": "0554-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Gong of Western Wei",
+        "title": "Emperor Gong of Western Wei",
+        "person": "Q2665689",
+        "name": "Emperor Gong of Western Wei",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Gong_of_Western_Wei",
+        "identityResolution": {
+          "requested": "Emperor Gong of Western Wei",
+          "canonical": "Emperor Gong of Western Wei",
+          "qid": "Q2665689"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0554-01-01",
+          "end": "0557-01-01",
+          "precision": 9,
+          "statement": "Q2665689$bab5f74d-48f5-603c-ce68-40c71a07d3b6",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2665689",
+        "title": "Emperor Gong of Western Wei",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Gong_of_Western_Wei",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Western Wei",
+            "raw": "{{circa}}March 554<ref>Vol.5 of ''Bei Shi'' indicate that Emperor Gong was crowned in the 1st month of the 3rd year of the reign of Emperor Fei (excluding the 1st year, which remained the 17th year of the ''Da'tong'' era of Emperor Wen's reign; the month corresponds to 18 Feb to 18 Mar 554 in the Julian calendar.</ref> – 14 February 557<ref>According to Yuwen Jue's biography in ''Book of Zhou'', Emperor Gong relinquished the throne on the ''gengzi'' day of the 12th month of the 3rd year of his reign. This corresponds to 14 Feb 557 in the Julian calendar. ([魏恭帝三年]十二月丁亥，魏帝诏以岐阳之地封帝为周公。庚子，禅位于帝。) ''Zhou Shu'', vol.03</ref>",
+            "parsed": {
+              "start": "0554-03-01",
+              "end": "0557-02-14",
+              "precision": 10
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Wei (Western)",
+            "raw": "554–556",
+            "parsed": {
+              "start": "0554-01-01",
+              "end": "0556-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Western)",
+            "raw": "554–556",
+            "parsed": {
+              "start": "0554-01-01",
+              "end": "0556-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Wen of Western Wei",
+        "title": "Emperor Wen of Western Wei",
+        "person": "Q2985487",
+        "name": "Emperor Wen of Western Wei",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Western_Wei",
+        "identityResolution": {
+          "requested": "Emperor Wen of Western Wei",
+          "canonical": "Emperor Wen of Western Wei",
+          "qid": "Q2985487"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0535-01-01",
+          "end": "0551-01-01",
+          "precision": 9,
+          "statement": "Q2985487$caec1a8d-a584-4be4-9082-8e8781c8fda8",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2985487",
+        "title": "Emperor Wen of Western Wei",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Western_Wei",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Western Wei",
+            "raw": "18 February 535<ref>''wu'shen'' day of the 1st month of the 1st year of the ''Da'tong'' era, per Emperor Wen's biography in ''Bei Shi''</ref> – 28 March 551",
+            "parsed": {
+              "start": "0535-02-18",
+              "end": "0551-03-28",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2985487",
+        "title": "Emperor Wen of Western Wei",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Western_Wei",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Western Wei",
+          "raw": "18 February 535<ref>''wu'shen'' day of the 1st month of the 1st year of the ''Da'tong'' era, per Emperor Wen's biography in ''Bei Shi''</ref> – 28 March 551",
+          "parsed": {
+            "start": "0535-02-18",
+            "end": "0551-03-28",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2660296",
+        "title": "Emperor Fei of Western Wei",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Fei_of_Western_Wei",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Western Wei",
+          "raw": "March 28, 551<ref name=ZZTJ164>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷164|vol. 164]].</ref><ref>''geng'xu'' day of the 3rd month of the 2nd year of the ''Da'bao'' era</ref> – {{circa}}March 554<ref name=ZZTJ165/><ref>Volume 165 of ''Zizhi Tongjian'' indicated that Yuan Qin was deposed between the ''xinchou'' day of the 1st month and the ''dinghai'' day of the 3rd month of the 3rd year of the ''Chengsheng'' era. The dates correspond to 3 Mar and 18 Apr 554 in the Julian calendar. Vol.5 of ''Bei Shi'' indicate that his successor Emperor Gong was crowned in the 1st month of the 3rd year of his reign (excluding the 1st year, which remained the 17th year of the ''Da'tong'' era of Emperor Wen's reign; the month corresponds to 18 Feb to 18 Mar 554 in the Julian calendar.</ref>",
+          "parsed": {
+            "start": "0551-03-28",
+            "end": "0554-03-01",
+            "precision": 10
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2665689",
+        "title": "Emperor Gong of Western Wei",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Gong_of_Western_Wei",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Western Wei",
+          "raw": "{{circa}}March 554<ref>Vol.5 of ''Bei Shi'' indicate that Emperor Gong was crowned in the 1st month of the 3rd year of the reign of Emperor Fei (excluding the 1st year, which remained the 17th year of the ''Da'tong'' era of Emperor Wen's reign; the month corresponds to 18 Feb to 18 Mar 554 in the Julian calendar.</ref> – 14 February 557<ref>According to Yuwen Jue's biography in ''Book of Zhou'', Emperor Gong relinquished the throne on the ''gengzi'' day of the 12th month of the 3rd year of his reign. This corresponds to 14 Feb 557 in the Julian calendar. ([魏恭帝三年]十二月丁亥，魏帝诏以岐阳之地封帝为周公。庚子，禅位于帝。) ''Zhou Shu'', vol.03</ref>",
+          "parsed": {
+            "start": "0554-03-01",
+            "end": "0557-02-14",
+            "precision": 10
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat035-11",
+      "name": "Chang’an",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 535,
+      "end": 557,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Wei_occidental",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Wei occidental"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "key": "HIST-Q19083",
+  "identity": {
+    "qid": "Q19083",
+    "name": "Caucasian Iberia"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Iberia caucásica",
+      "officePattern": "King.*Iberia",
+      "titles": [
+        "Vakhtang I of Iberia",
+        "Dachi of Iberia",
+        "Bacurius II of Iberia",
+        "Pharasmanes V of Iberia",
+        "Pharasmanes VI of Iberia",
+        "Bacurius III of Iberia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2915847",
+      "name": "Dachi of Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0522-01-01",
+      "end": "0534-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dachi_of_Iberia",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q2880325",
+      "name": "Bacurius II de Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0534-01-01",
+      "end": "0547-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bacurius_II",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q2747371",
+      "name": "Parsman V of Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0547-01-01",
+      "end": "0561-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pharasmanes_V",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Vakhtang_I_of_Iberia",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Caucasian Iberia"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Caucasian Iberia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "b174aae294ebaca38cc68edcf6589a339be0cc23606930860dba0cd41ce1bfe9",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1616,
+        1946,
+        1968
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bacurius II of Iberia",
+        "title": "Bacurius II of Iberia",
+        "person": "Q2880325",
+        "name": "Bacurius II de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bacurius_II",
+        "identityResolution": {
+          "requested": "Bacurius II of Iberia",
+          "canonical": "Bacurius II",
+          "qid": "Q2880325"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2880325",
+        "title": "Bacurius II",
+        "source": "https://en.wikipedia.org/wiki/Bacurius_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "534–547",
+            "parsed": {
+              "start": "0534-01-01",
+              "end": "0547-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Bacurius III of Iberia",
+        "title": "Bacurius III of Iberia",
+        "person": "Q2745787",
+        "name": "Bacurio III de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bacurius_III",
+        "identityResolution": {
+          "requested": "Bacurius III of Iberia",
+          "canonical": "Bacurius III",
+          "qid": "Q2745787"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2745787",
+        "title": "Bacurius III",
+        "source": "https://en.wikipedia.org/wiki/Bacurius_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "?-580",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dachi of Iberia",
+        "title": "Dachi of Iberia",
+        "person": "Q2915847",
+        "name": "Dachi of Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dachi_of_Iberia",
+        "identityResolution": {
+          "requested": "Dachi of Iberia",
+          "canonical": "Dachi of Iberia",
+          "qid": "Q2915847"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2915847",
+        "title": "Dachi of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Dachi_of_Iberia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "522–534",
+            "parsed": {
+              "start": "0522-01-01",
+              "end": "0534-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pharasmanes V of Iberia",
+        "title": "Pharasmanes V of Iberia",
+        "person": "Q2747371",
+        "name": "Parsman V of Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pharasmanes_V",
+        "identityResolution": {
+          "requested": "Pharasmanes V of Iberia",
+          "canonical": "Pharasmanes V",
+          "qid": "Q2747371"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2747371",
+        "title": "Pharasmanes V",
+        "source": "https://en.wikipedia.org/wiki/Pharasmanes_V",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "547–561",
+            "parsed": {
+              "start": "0547-01-01",
+              "end": "0561-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pharasmanes VI of Iberia",
+        "title": "Pharasmanes VI of Iberia",
+        "person": "Q2747809",
+        "name": "Parsman VI of Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pharasmanes_VI",
+        "identityResolution": {
+          "requested": "Pharasmanes VI of Iberia",
+          "canonical": "Pharasmanes VI",
+          "qid": "Q2747809"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2747809",
+        "title": "Pharasmanes VI",
+        "source": "https://en.wikipedia.org/wiki/Pharasmanes_VI",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Iberia",
+            "raw": "561-?",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vakhtang I of Iberia",
+        "title": "Vakhtang I of Iberia",
+        "person": "Q359956",
+        "name": "Vakhtang I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vakhtang_I",
+        "identityResolution": {
+          "requested": "Vakhtang I of Iberia",
+          "canonical": "Vakhtang I",
+          "qid": "Q359956"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q359956",
+        "title": "Vakhtang I",
+        "source": "https://en.wikipedia.org/wiki/Vakhtang_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "32nd King of Iberia",
+            "raw": "{{circa|449|502}}, {{circa|447|522}}, or {{circa|474|527}}<ref>{{cite web |title=The Dates of the Reign of Vakhtang Gorgasali |url=https://cjss.ug.edu.ge/index.php/cjss/article/download/117/115/340 |publisher=Caucasus Journal of Social Sciences |access-date=2026-01-15}}</ref>",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2915847",
+        "title": "Dachi of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Dachi_of_Iberia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Iberia",
+          "raw": "522–534",
+          "parsed": {
+            "start": "0522-01-01",
+            "end": "0534-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2880325",
+        "title": "Bacurius II of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Bacurius_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Iberia",
+          "raw": "534–547",
+          "parsed": {
+            "start": "0534-01-01",
+            "end": "0547-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2747371",
+        "title": "Pharasmanes V of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Pharasmanes_V",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Iberia",
+          "raw": "547–561",
+          "parsed": {
+            "start": "0547-01-01",
+            "end": "0561-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Vakhtang I of Iberia",
+        "person": "Q359956",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Pharasmanes VI of Iberia",
+        "person": "Q2747809",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Bacurius III of Iberia",
+        "person": "Q2745787",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q2747371",
+      "title": "Pharasmanes V relief.jpg",
+      "reason": "Relieve yatribución personal deFarsmánV no contrastados; no adoptado como retrato seguro.",
+      "source": "https://commons.wikimedia.org/wiki/File:Pharasmanes_V_relief.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q2747371",
+      "name": "Parsman V of Iberia",
+      "title": "Pharasmanes V relief.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pharasmanes_V_relief.jpg",
+      "sha256": "cc982eb4f06fcd0b3315c12879f684262da826e2bb9eda58e1fdf01d5128bb79",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Relieve yatribución personal deFarsmánV no contrastados; no adoptado como retrato seguro."
+    }
+  ]
+}

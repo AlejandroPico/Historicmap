@@ -1,0 +1,585 @@
+{
+  "key": "LIANG",
+  "identity": {
+    "qid": "Q783489",
+    "name": "Dinastía Liang"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador Liang",
+      "officePattern": "Emperor",
+      "titles": [
+        "Emperor Wu of Liang",
+        "Emperor Jianwen of Liang",
+        "Emperor Yuan of Liang",
+        "Emperor Jing of Liang"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q736726",
+      "name": "Liang Wudi",
+      "role": "Emperador Liang",
+      "start": "0502-04-30",
+      "end": "0549-06-12",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Liang",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-2ff8302d2a55c7227ba7.jpg",
+        "title": "Liang Wudi.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Liang_Wudi.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Liang_Wudi.jpg/330px-Liang_Wudi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nUnknown authorUnknown author ",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Liang_Wudi.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Digitized by NPM; image is directly from Shuge",
+        "sha256": "032a7b84c9f1ffe2978e6367892154984192a64fff58081c67d9a8598748fa7c",
+        "bytes": 31042,
+        "canonicalFile": "Países/LIANG-Dinastia-Liang/retratos/portrait-2ff8302d2a55c7227ba7.jpg",
+        "caption": "Retrato imaginario posterior de Liang Wudi; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q1140994",
+      "name": "Jianwen · Liang",
+      "role": "Emperador Liang",
+      "start": "0549-07-07",
+      "end": "0551-10-02",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Jianwen_of_Liang",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q1149114",
+      "name": "Car Yuan od Lianga",
+      "role": "Emperador Liang",
+      "start": "0552-12-13",
+      "end": "0555-01-07",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Yuan_of_Liang",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q1059979",
+      "name": "Xiao Fangzhi",
+      "role": "Emperador Liang",
+      "start": "0555-11-01",
+      "end": "0557-11-12",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Jing_of_Liang",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 502,
+      "end": 557,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Liang",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Liang Dynasty"
+        ],
+        "start": 500,
+        "end": 501,
+        "label": "Dinastía Liang · referencia regional de la fuente",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no acredita una entidad política unitaria vigente ni prolonga su lista de gobernantes."
+      }
+    },
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Liang Dynasty"
+        ],
+        "start": 502,
+        "end": 557,
+        "label": "Dinastía Liang",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Liang Dynasty"
+        ],
+        "start": 558,
+        "end": 599,
+        "label": "Dinastía Liang · referencia regional de la fuente",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no acredita una entidad política unitaria vigente ni prolonga su lista de gobernantes."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "f2315b1163743f7e90285bb86b862ac90b03790e1c1b0b3b42a484e752462259",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1937,
+        2005,
+        2010,
+        2043,
+        2080
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Jianwen of Liang",
+        "title": "Emperor Jianwen of Liang",
+        "person": "Q1140994",
+        "name": "Emperor Jianwen of Liang",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Jianwen_of_Liang",
+        "identityResolution": {
+          "requested": "Emperor Jianwen of Liang",
+          "canonical": "Emperor Jianwen of Liang",
+          "qid": "Q1140994"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0549-09-23",
+          "end": "0551-10-23",
+          "precision": 11,
+          "statement": "Q1140994$645D622E-7D54-4114-8179-D5C8462683DF",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1140994",
+        "title": "Emperor Jianwen of Liang",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Jianwen_of_Liang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Liang Dynasty",
+            "raw": "7 July 549<ref>''xin'si'' day of the 5th month of the 3rd year of the ''Tai'qing'' era, per Emperor Jianwen's biography in ''Book of Liang''. This was almost a month after the death of Emperor Wu.</ref> – 2 October 551<ref>''wu'wu'' day of the 8th month of the 2nd year of the ''Da'bao'' era, per Emperor Jianwen's biography in ''Book of Liang''</ref>",
+            "parsed": {
+              "start": "0549-07-07",
+              "end": "0551-10-02",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Jing of Liang",
+        "title": "Emperor Jing of Liang",
+        "person": "Q1059979",
+        "name": "Xiao Fangzhi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Jing_of_Liang",
+        "identityResolution": {
+          "requested": "Emperor Jing of Liang",
+          "canonical": "Emperor Jing of Liang",
+          "qid": "Q1059979"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0555-11-07",
+          "end": "0557-11-16",
+          "precision": 11,
+          "statement": "Q1059979$31fd4301-4ab7-96cf-0a62-9702eddaae57",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1059979",
+        "title": "Emperor Jing of Liang",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Jing_of_Liang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Liang dynasty",
+            "raw": "November 1, 555<ref>''jiyou'' day of the 10th month of the 1st year of the ''Shaotai'' era</ref><ref name=ZZTJ166>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷166|vol. 166]].</ref> – November 12, 557<ref>''xinwei'' day of the 10th month of the 1st year of the ''Yongding'' era</ref><ref name=ZZTJ167/>",
+            "parsed": {
+              "start": "0555-11-01",
+              "end": "0557-11-12",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Liang Dynasty (Eastern)",
+            "raw": "555–557",
+            "parsed": {
+              "start": "0555-01-01",
+              "end": "0557-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Southern)",
+            "raw": "555–557",
+            "parsed": {
+              "start": "0555-01-01",
+              "end": "0557-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Southeastern)",
+            "raw": "555–557",
+            "parsed": {
+              "start": "0555-01-01",
+              "end": "0557-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Wu of Liang",
+        "title": "Emperor Wu of Liang",
+        "person": "Q736726",
+        "name": "Liang Wudi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Liang",
+        "identityResolution": {
+          "requested": "Emperor Wu of Liang",
+          "canonical": "Emperor Wu of Liang",
+          "qid": "Q736726"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0502-05-01",
+          "end": "0549-09-13",
+          "precision": 11,
+          "statement": "Q736726$8ACE54C3-4591-4EC7-BD82-EE746CA3E6E5",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q736726",
+        "title": "Emperor Wu of Liang",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Liang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Liang dynasty",
+            "raw": "30 April 502<ref>According to Xiao Yan's biography in ''Book of Liang'', he ascended the throne on the ''bingyin'' day of the 4th month of the 1st year of the ''Tianjian'' era of his reign. This corresponds to 30 Apr 502 in the Julian calendar. ({{lang|zh|天监元年夏四月丙寅，高祖即皇帝位于南郊。}}) ''Liang Shu'', vol.02</ref> – 12 June 549",
+            "parsed": {
+              "start": "0502-04-30",
+              "end": "0549-06-12",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Liang Dynasty",
+            "raw": "502–549",
+            "parsed": {
+              "start": "0502-01-01",
+              "end": "0549-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Southern)",
+            "raw": "502–549",
+            "parsed": {
+              "start": "0502-01-01",
+              "end": "0549-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Yuan of Liang",
+        "title": "Emperor Yuan of Liang",
+        "person": "Q1149114",
+        "name": "Car Yuan od Lianga",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Yuan_of_Liang",
+        "identityResolution": {
+          "requested": "Emperor Yuan of Liang",
+          "canonical": "Emperor Yuan of Liang",
+          "qid": "Q1149114"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0552-12-13",
+          "end": "0555-01-27",
+          "precision": 11,
+          "statement": "Q1149114$2B2DE969-6BBA-41A6-94C0-C70271CCBFF9",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149114",
+        "title": "Emperor Yuan of Liang",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Yuan_of_Liang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Liang dynasty",
+            "raw": "December 13, 552<ref name=AS/><ref name=ZZTJ164>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷164|vol. 164]].</ref> – January 7, 555<ref name=BL5/><ref name=AS/>",
+            "parsed": {
+              "start": "0552-12-13",
+              "end": "0555-01-07",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of the Liang dynasty (Western)",
+            "raw": "552–554",
+            "parsed": {
+              "start": "0552-01-01",
+              "end": "0554-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Western Hubei)",
+            "raw": "552–554",
+            "parsed": {
+              "start": "0552-01-01",
+              "end": "0554-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Southern)",
+            "raw": "552–554",
+            "parsed": {
+              "start": "0552-01-01",
+              "end": "0554-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of the Liang dynasty (Eastern/Central/Southern)",
+            "raw": "552–554",
+            "parsed": {
+              "start": "0552-01-01",
+              "end": "0554-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Southeastern)",
+            "raw": "552–554",
+            "parsed": {
+              "start": "0552-01-01",
+              "end": "0554-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q736726",
+        "title": "Emperor Wu of Liang",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Liang",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Liang dynasty",
+          "raw": "30 April 502<ref>According to Xiao Yan's biography in ''Book of Liang'', he ascended the throne on the ''bingyin'' day of the 4th month of the 1st year of the ''Tianjian'' era of his reign. This corresponds to 30 Apr 502 in the Julian calendar. ({{lang|zh|天监元年夏四月丙寅，高祖即皇帝位于南郊。}}) ''Liang Shu'', vol.02</ref> – 12 June 549",
+          "parsed": {
+            "start": "0502-04-30",
+            "end": "0549-06-12",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1140994",
+        "title": "Emperor Jianwen of Liang",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Jianwen_of_Liang",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Liang Dynasty",
+          "raw": "7 July 549<ref>''xin'si'' day of the 5th month of the 3rd year of the ''Tai'qing'' era, per Emperor Jianwen's biography in ''Book of Liang''. This was almost a month after the death of Emperor Wu.</ref> – 2 October 551<ref>''wu'wu'' day of the 8th month of the 2nd year of the ''Da'bao'' era, per Emperor Jianwen's biography in ''Book of Liang''</ref>",
+          "parsed": {
+            "start": "0549-07-07",
+            "end": "0551-10-02",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1149114",
+        "title": "Emperor Yuan of Liang",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Yuan_of_Liang",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Liang dynasty",
+          "raw": "December 13, 552<ref name=AS/><ref name=ZZTJ164>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷164|vol. 164]].</ref> – January 7, 555<ref name=BL5/><ref name=AS/>",
+          "parsed": {
+            "start": "0552-12-13",
+            "end": "0555-01-07",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1059979",
+        "title": "Emperor Jing of Liang",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Jing_of_Liang",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Liang dynasty",
+          "raw": "November 1, 555<ref>''jiyou'' day of the 10th month of the 1st year of the ''Shaotai'' era</ref><ref name=ZZTJ166>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷166|vol. 166]].</ref> – November 12, 557<ref>''xinwei'' day of the 10th month of the 1st year of the ''Yongding'' era</ref><ref name=ZZTJ167/>",
+          "parsed": {
+            "start": "0555-11-01",
+            "end": "0557-11-12",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat035-17",
+      "name": "Jiankang · primera corte Liang",
+      "coordinates": [
+        118.8,
+        32.05
+      ],
+      "start": 502,
+      "end": 509,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Dinast%C3%ADa_Liang",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Dinastía Liang",
+      "standaloneReference": true
+    },
+    {
+      "id": "seat035-18",
+      "name": "Jiankang · corte Liang",
+      "coordinates": [
+        118.8,
+        32.05
+      ],
+      "start": 510,
+      "end": 549,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Dinast%C3%ADa_Liang",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Dinastía Liang"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q736726",
+      "name": "Liang Wudi",
+      "title": "Liang Wudi.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Liang_Wudi.jpg",
+      "sha256": "032a7b84c9f1ffe2978e6367892154984192a64fff58081c67d9a8598748fa7c",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Liang Wudi; no retrato contemporáneo."
+    }
+  ]
+}

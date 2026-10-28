@@ -13,7 +13,20 @@
   },
   "flags": [],
   "symbolReferences": [],
-  "leaders": [],
+  "leaders": [
+    {
+      "person": "Q4399749",
+      "name": "Rudravarman",
+      "role": "Rey de Funan",
+      "start": "0514-01-01",
+      "end": "0540-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rudravarman",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
   "portraitVariants": [],
   "territorialRecords": [
     {
@@ -31,6 +44,31 @@
       "end": 640,
       "name": "Funan",
       "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1341",
+      "start": 500,
+      "end": 545,
+      "name": "Funan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2058",
+      "start": 546,
+      "end": 599,
+      "name": "Funan",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-FUNAN-49B89F3C-Y0500",
+      "ownerKey": "HIST-Q867782",
+      "name": "Funan",
+      "file": "Países/HIST-Q867782-Funan/poblamiento/CULTURE-FUNAN-49B89F3C-Y0500.json",
+      "decision": "political-base"
     }
   ],
   "relatedData": [

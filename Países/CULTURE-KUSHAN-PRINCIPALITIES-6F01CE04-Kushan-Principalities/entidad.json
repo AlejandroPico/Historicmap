@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-KUSHAN-PRINCIPALITIES-6F01CE04",
+  "name": "Kushan Principalities",
+  "qid": "",
+  "aliases": [
+    "Kushan Principalities"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 30,
+      "start": null,
+      "end": null,
+      "name": "Kushan Principalities",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-KUSHAN-PRINCIPALITIES-6F01CE04-Y0500:0",
+      "contextKey": "CULTURE-KUSHAN-PRINCIPALITIES-6F01CE04",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-KUSHAN-PRINCIPALITIES-6F01CE04-Kushan-Principalities/poblamiento/CULTURE-KUSHAN-PRINCIPALITIES-6F01CE04-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

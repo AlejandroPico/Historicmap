@@ -1,0 +1,69 @@
+{
+  "key": "REFERENCE-POST-MARKSVILLE-Y0500",
+  "contextKey": "REFERENCE-POST-MARKSVILLE",
+  "ownerKey": "REFERENCE-POST-MARKSVILLE",
+  "name": "Ámbitos de Marksville · transformaciones del Woodland",
+  "originalNames": [
+    "Marksville Culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de500",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    500,
+    599
+  ],
+  "interpretation": "La tradición arqueológica Marksville se fecha principalmente antes de500. Se conserva una referencia regional de sus ámbitos y tradiciones posteriores; no se presenta una cultura Marksville inmutable durante500–599.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea500 contiene etiquetas de épocas distintas. La ventana500–599 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -91.23021,
+    31.25295
+  ],
+  "phases": [
+    {
+      "start": 500,
+      "end": 599,
+      "label": "Ámbitos de Marksville · transformaciones del Woodland",
+      "dateBasis": "Referencia regional de la fuente editorial500; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-MARKSVILLE-Y0500.geojson",
+  "geometrySha256": "b609e846b9c7a46145912954990765d01f4f8d03e59fe8cac3f231726b6f49a5",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+    "year": 500,
+    "featureIds": [
+      76
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1"
+  },
+  "review": "0.35.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final599 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en600."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Marksville Culture",
+      "ABBREVN": "Marksville Culture",
+      "SUBJECTO": "Marksville Culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Marksville Culture"
+    }
+  ],
+  "sourceGrouping": [
+    "Marksville Culture"
+  ]
+}

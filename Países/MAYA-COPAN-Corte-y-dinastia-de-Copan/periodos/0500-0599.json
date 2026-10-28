@@ -1,0 +1,556 @@
+{
+  "key": "MAYA-COPAN",
+  "identity": {
+    "qid": "",
+    "name": "Corte y dinastía de Copán"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Ajaw de Copán",
+      "officePattern": "Copán|Copan|Ajaw|Ruler",
+      "titles": [
+        "B'alam Nehn",
+        "Wi' Yohl K'inich",
+        "Sak-Lu",
+        "Tzi-B'alam",
+        "Tzi-B'alam",
+        "K'ak' Chan Yopaat"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q17180896",
+      "name": "Sak-Lu",
+      "role": "Ajaw de Copán",
+      "start": "0551-01-01",
+      "end": "0553-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sak-Lu",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q17181027",
+      "name": "Tzi-B'alam",
+      "role": "Ajaw de Copán",
+      "start": "0553-05-26",
+      "end": "0578-10-26",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Tzi-B%CA%BCalam",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q17183439",
+      "name": "K'ak' Chan Yopaat",
+      "role": "Ajaw de Copán",
+      "start": "0578-11-19",
+      "end": "0599-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/K%CA%BCak%CA%BC_Chan_Yopaat",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-5002e607a103c001be1a.jpg",
+        "title": "Copán Stela P.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cop%C3%A1n_Stela_P.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Cop%C3%A1n_Stela_P.jpg/330px-Cop%C3%A1n_Stela_P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "David Ooms from Belgium",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Central America 2007 - album David - 040.jpg",
+        "sha256": "65d27aa91fca8135280ebbd7aa7606124acada122a193140a3ab03c85da180e4",
+        "bytes": 79631,
+        "canonicalFile": "Países/MAYA-COPAN-Corte-y-dinastia-de-Copan/retratos/portrait-5002e607a103c001be1a.jpg",
+        "caption": "EstelaP deCopán, monumento vinculado aK’ak’ Chan Yopaat; imagen regia monumental, no fotografía personal ni retrato naturalista."
+      }
+    },
+    {
+      "person": "Q17155810",
+      "name": "B'alam Nehn",
+      "role": "Ajaw de Copán",
+      "start": "0524-01-01",
+      "end": "0532-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/research/copan/monuments/CopanMonumentManual.pdf",
+      "note": "Sucesión epigráfica revisada:524–532; se rechaza el intervalo504–544 de la fuente general."
+    },
+    {
+      "person": "LOCAL-COPAN-5",
+      "name": "Yu…a’ · quinto gobernante (lectura parcial)",
+      "role": "Ajaw de Copán",
+      "start": "0500-01-01",
+      "end": "0510-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/research/copan/monuments/CopanMonumentManual.pdf",
+      "note": "Intervalo aproximado de la secuencia dinástica retrospectiva deCopán; las lecturas incompletas no se completan con un nombre inventado.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "LOCAL-COPAN-6",
+      "name": "…Jol · sexto gobernante (lectura parcial)",
+      "role": "Ajaw de Copán",
+      "start": "0510-01-01",
+      "end": "0524-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/research/copan/monuments/CopanMonumentManual.pdf",
+      "note": "Intervalo aproximado de la secuencia dinástica retrospectiva deCopán; las lecturas incompletas no se completan con un nombre inventado."
+    },
+    {
+      "person": "LOCAL-COPAN-8",
+      "name": "Wi'l Ohl K'inich",
+      "role": "Ajaw de Copán",
+      "start": "0532-01-01",
+      "end": "0551-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/research/copan/monuments/CopanMonumentManual.pdf",
+      "note": "Intervalo aproximado de la secuencia dinástica retrospectiva deCopán; las lecturas incompletas no se completan con un nombre inventado."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review035-copan-list",
+      "type": "institution",
+      "title": "Lecturas epigráficas de la dinastía de Copán",
+      "start": "0500-01-01",
+      "end": "0600-01-01",
+      "text": "Se conserva la lectura parcial de los gobernantes5 y6. B’alam Nehn corresponde a524–532 yWi’l Ohl K’inich a532–551. Las reconstrucciones retrospectivas no son retratos contemporáneos ni límites territoriales medidos.",
+      "source": "https://www.famsi.org/research/copan/monuments/CopanMonumentManual.pdf",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy",
+        "city-state"
+      ],
+      "source": "https://en.wikipedia.org/wiki/B%27alam_Nehn",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "B'alam Nehn",
+        "title": "B'alam Nehn",
+        "person": "Q17155810",
+        "name": "B'alam Nehn",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/B%CA%BCalam_Nehn",
+        "identityResolution": {
+          "requested": "B'alam Nehn",
+          "canonical": "Bʼalam Nehn",
+          "qid": "Q17155810"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120934289",
+          "start": "0504-01-01",
+          "end": "0544-01-01",
+          "precision": 9,
+          "statement": "Q17155810$79bbb49c-49ec-6337-468f-c1b1346180ae",
+          "label": "Ajaw of Copan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q17155810",
+        "title": "Bʼalam Nehn",
+        "source": "https://en.wikipedia.org/wiki/B%CA%BCalam_Nehn",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Copán",
+            "raw": "504–544",
+            "parsed": {
+              "start": "0504-01-01",
+              "end": "0544-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "K'ak' Chan Yopaat",
+        "title": "K'ak' Chan Yopaat",
+        "person": "Q17183439",
+        "name": "K'ak' Chan Yopaat",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCak%CA%BC_Chan_Yopaat",
+        "identityResolution": {
+          "requested": "K'ak' Chan Yopaat",
+          "canonical": "Kʼakʼ Chan Yopaat",
+          "qid": "Q17183439"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120934289",
+          "start": "0578-11-19",
+          "end": "0628-02-05",
+          "precision": 11,
+          "statement": "Q17183439$75d1a961-4923-3541-f6c2-713ba99c9b00",
+          "label": "Ajaw of Copan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q17183439",
+        "title": "Kʼakʼ Chan Yopaat",
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCak%CA%BC_Chan_Yopaat",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Copán",
+            "raw": "19 November 578 – 5 February 628",
+            "parsed": {
+              "start": "0578-11-19",
+              "end": "0628-02-05",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sak-Lu",
+        "title": "Sak-Lu",
+        "person": "Q17180896",
+        "name": "Sak-Lu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sak-Lu",
+        "identityResolution": {
+          "requested": "Sak-Lu",
+          "canonical": "Sak-Lu",
+          "qid": "Q17180896"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120934289",
+          "start": "0551-01-01",
+          "end": "0553-01-01",
+          "precision": 9,
+          "statement": "Q17180896$5b8fa817-4ee4-ab9a-e086-17493da915c6",
+          "label": "Ajaw of Copan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q17180896",
+        "title": "Sak-Lu",
+        "source": "https://en.wikipedia.org/wiki/Sak-Lu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Copán",
+            "raw": "551–553",
+            "parsed": {
+              "start": "0551-01-01",
+              "end": "0553-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tzi-B'alam",
+        "title": "Tzi-B'alam",
+        "person": "Q17181027",
+        "name": "Tzi-B'alam",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tzi-B%CA%BCalam",
+        "identityResolution": {
+          "requested": "Tzi-B'alam",
+          "canonical": "Tzi-Bʼalam",
+          "qid": "Q17181027"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120934289",
+          "start": "0553-05-26",
+          "end": "0578-10-26",
+          "precision": 11,
+          "statement": "Q17181027$1a165446-4968-0820-48f8-77731511a687",
+          "label": "Ajaw of Copan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q17181027",
+        "title": "Tzi-Bʼalam",
+        "source": "https://en.wikipedia.org/wiki/Tzi-B%CA%BCalam",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Copán",
+            "raw": "26 May 553 – 26 October 578",
+            "parsed": {
+              "start": "0553-05-26",
+              "end": "0578-10-26",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wi' Yohl K'inich",
+        "title": "Wi' Yohl K'inich",
+        "person": "",
+        "name": "Wi' Yohl K'inich",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Wi%27_Yohl_K%27inich",
+        "identityResolution": {
+          "requested": "Wi' Yohl K'inich",
+          "canonical": "Wi' Yohl K'inich",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q17155810",
+        "title": "B'alam Nehn",
+        "source": "https://en.wikipedia.org/wiki/B%CA%BCalam_Nehn",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Copán",
+          "raw": "504–544",
+          "parsed": {
+            "start": "0504-01-01",
+            "end": "0544-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q17180896",
+        "title": "Sak-Lu",
+        "source": "https://en.wikipedia.org/wiki/Sak-Lu",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Copán",
+          "raw": "551–553",
+          "parsed": {
+            "start": "0551-01-01",
+            "end": "0553-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q17181027",
+        "title": "Tzi-B'alam",
+        "source": "https://en.wikipedia.org/wiki/Tzi-B%CA%BCalam",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Copán",
+          "raw": "26 May 553 – 26 October 578",
+          "parsed": {
+            "start": "0553-05-26",
+            "end": "0578-10-26",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q17183439",
+        "title": "K'ak' Chan Yopaat",
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCak%CA%BC_Chan_Yopaat",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Copán",
+          "raw": "19 November 578 – 5 February 628",
+          "parsed": {
+            "start": "0578-11-19",
+            "end": "0628-02-05",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Wi' Yohl K'inich",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q17155810",
+      "originalRecords": [
+        {
+          "person": "Q17155810",
+          "name": "B'alam Nehn",
+          "role": "Ajaw de Copán",
+          "start": "0504-01-01",
+          "end": "0544-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/B%CA%BCalam_Nehn",
+          "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+        }
+      ],
+      "decision": "Sucesión epigráfica revisada:524–532; se rechaza el intervalo504–544 de la fuente general.",
+      "source": "https://www.famsi.org/research/copan/monuments/CopanMonumentManual.pdf"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q17155810",
+      "name": "B'alam Nehn",
+      "role": "Ajaw de Copán",
+      "start": "0524-01-01",
+      "end": "0532-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/research/copan/monuments/CopanMonumentManual.pdf",
+      "note": "Sucesión epigráfica revisada:524–532; se rechaza el intervalo504–544 de la fuente general."
+    },
+    {
+      "person": "LOCAL-COPAN-5",
+      "name": "Yu…a’ · quinto gobernante (lectura parcial)",
+      "role": "Ajaw de Copán",
+      "start": "0500-01-01",
+      "end": "0510-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/research/copan/monuments/CopanMonumentManual.pdf",
+      "note": "Intervalo aproximado de la secuencia dinástica retrospectiva deCopán; las lecturas incompletas no se completan con un nombre inventado.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "LOCAL-COPAN-6",
+      "name": "…Jol · sexto gobernante (lectura parcial)",
+      "role": "Ajaw de Copán",
+      "start": "0510-01-01",
+      "end": "0524-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/research/copan/monuments/CopanMonumentManual.pdf",
+      "note": "Intervalo aproximado de la secuencia dinástica retrospectiva deCopán; las lecturas incompletas no se completan con un nombre inventado."
+    },
+    {
+      "person": "LOCAL-COPAN-8",
+      "name": "Wi'l Ohl K'inich",
+      "role": "Ajaw de Copán",
+      "start": "0532-01-01",
+      "end": "0551-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/research/copan/monuments/CopanMonumentManual.pdf",
+      "note": "Intervalo aproximado de la secuencia dinástica retrospectiva deCopán; las lecturas incompletas no se completan con un nombre inventado."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat035-42",
+      "name": "Copán · corte local",
+      "coordinates": [
+        -89.141,
+        14.837
+      ],
+      "start": 500,
+      "end": 599,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Cop%C3%A1n",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme. La agrupación cartográfica hospeda la selección; no acredita dependencia administrativa ni un Estado maya unificado.",
+      "entityName": "Corte y dinastía de Copán",
+      "standaloneReference": true,
+      "aggregateKey": "HIST-Q28567"
+    },
+    {
+      "id": "seat035-42-own",
+      "name": "Copán · corte local",
+      "coordinates": [
+        -89.141,
+        14.837
+      ],
+      "start": 500,
+      "end": 599,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Cop%C3%A1n",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme. La agrupación cartográfica hospeda la selección; no acredita dependencia administrativa ni un Estado maya unificado.",
+      "entityName": "Corte y dinastía de Copán",
+      "standaloneReference": true
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review035-copan-list",
+      "type": "institution",
+      "title": "Lecturas epigráficas de la dinastía de Copán",
+      "start": "0500-01-01",
+      "end": "0600-01-01",
+      "text": "Se conserva la lectura parcial de los gobernantes5 y6. B’alam Nehn corresponde a524–532 yWi’l Ohl K’inich a532–551. Las reconstrucciones retrospectivas no son retratos contemporáneos ni límites territoriales medidos.",
+      "source": "https://www.famsi.org/research/copan/monuments/CopanMonumentManual.pdf",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q17183439",
+      "name": "K'ak' Chan Yopaat",
+      "title": "Copán Stela P.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cop%C3%A1n_Stela_P.jpg",
+      "sha256": "65d27aa91fca8135280ebbd7aa7606124acada122a193140a3ab03c85da180e4",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "EstelaP deCopán, monumento vinculado aK’ak’ Chan Yopaat; imagen regia monumental, no fotografía personal ni retrato naturalista."
+    }
+  ]
+}

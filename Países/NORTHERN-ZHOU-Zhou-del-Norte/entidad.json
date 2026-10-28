@@ -1,0 +1,121 @@
+{
+  "key": "NORTHERN-ZHOU",
+  "name": "Zhou del Norte",
+  "qid": "Q551067",
+  "aliases": [
+    "Northern Zhou",
+    "Zhou del Norte"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NORTHERN-ZHOU"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1149222",
+      "name": "Xiaomin · Zhou del Norte",
+      "role": "Emperador de Zhou del Norte",
+      "start": "0557-01-01",
+      "end": "0557-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xiaomin_of_Northern_Zhou",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q1196041",
+      "name": "Ming · Zhou del Norte",
+      "role": "Emperador de Zhou del Norte",
+      "start": "0557-11-05",
+      "end": "0560-05-30",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ming_of_Northern_Zhou",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q1327591",
+      "name": "Wu · Zhou del Norte",
+      "role": "Emperador de Zhou del Norte",
+      "start": "0560-05-31",
+      "end": "0578-06-21",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Northern_Zhou",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35",
+      "portrait": {
+        "file": "media/portrait-3a83a143714aa9624460.jpg",
+        "title": "Zhou Wu Tang.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Zhou_Wu_Tang.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Zhou_Wu_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "\nYan Liben",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Zhou_Wu_Tang.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.deepola.com/history/decrypt/2011/0116/1726.html",
+        "sha256": "5323d05c84eee7b5a5a81bc2b88296b9f9e40b60d280a170319c8326b3da7c75",
+        "bytes": 306686,
+        "canonicalFile": "Países/NORTHERN-ZHOU-Zhou-del-Norte/retratos/portrait-3a83a143714aa9624460.jpg",
+        "caption": "Retrato imaginario posterior de Wu · Zhou del Norte; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q1149215",
+      "name": "Xuan · Zhou del Norte",
+      "role": "Emperador de Zhou del Norte",
+      "start": "0578-06-22",
+      "end": "0579-04-01",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xuan_of_Northern_Zhou",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q1149124",
+      "name": "Jing · Zhou del Norte",
+      "role": "Emperador de Zhou del Norte",
+      "start": "0579-04-01",
+      "end": "0581-03-04",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Jing_of_Northern_Zhou",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2114",
+      "start": 561,
+      "end": 576,
+      "name": "Northern Zhou",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2147",
+      "start": 577,
+      "end": 586,
+      "name": "Northern Zhou",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

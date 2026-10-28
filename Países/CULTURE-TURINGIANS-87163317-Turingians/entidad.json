@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-TURINGIANS-87163317",
+  "name": "Turingians",
+  "qid": "",
+  "aliases": [
+    "Turingians"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 143,
+      "start": null,
+      "end": null,
+      "name": "Turingians",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-TURINGIANS-87163317-Y0500:0",
+      "contextKey": "CULTURE-TURINGIANS-87163317",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-TURINGIANS-87163317-Turingians/poblamiento/CULTURE-TURINGIANS-87163317-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,355 @@
+{
+  "key": "HIST-Q837998",
+  "identity": {
+    "qid": "Q837998",
+    "name": "Kingdom of East Anglia"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Anglia Oriental · cronología tradicional",
+      "officePattern": "King.*East Angl",
+      "titles": [
+        "Wehha of East Anglia",
+        "Wuffa of East Anglia",
+        "Tytila of East Anglia",
+        "Rædwald of East Anglia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q743121",
+      "name": "Wuffa de Estanglia",
+      "role": "Rey de Anglia Oriental · cronología tradicional",
+      "start": "0571-01-01",
+      "end": "0578-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wuffa_of_East_Anglia",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-57d4e4d34fb676229f98.jpg",
+        "title": "Uffa - John Speed.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Uffa_-_John_Speed.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Uffa_-_John_Speed.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "John Speed",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Uffa_-_John_Speed.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "John Speed's Saxon Heptarchy map, from his Theatre. Online at http://cudl.lib.cam.ac.uk/view/PR-ATLAS-00002-00061-00001/1",
+        "sha256": "f53174f30aadad1187bc744c7ce70af11d0b07f3cd83885d727779c6c19087cd",
+        "bytes": 190624,
+        "canonicalFile": "Países/HIST-Q837998-Kingdom-of-East-Anglia/retratos/portrait-57d4e4d34fb676229f98.jpg",
+        "caption": "Retrato imaginario posterior de Wuffa de Estanglia; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q468836",
+      "name": "Redvaldo de Estanglia",
+      "role": "Rey de Anglia Oriental · cronología tradicional",
+      "start": "0599-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/R%C3%A6dwald_of_East_Anglia",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Wehha_of_East_Anglia",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of East Anglia"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Kingdom of East Anglia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "13532d8aa0ba30f1fc86da84c6aa909a6bdf57be2ed4a72b7bb7d137074ef6af",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1992
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Rædwald of East Anglia",
+        "title": "Rædwald of East Anglia",
+        "person": "Q468836",
+        "name": "Redvaldo de Estanglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/R%C3%A6dwald_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Rædwald of East Anglia",
+          "canonical": "Rædwald of East Anglia",
+          "qid": "Q468836"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q468836",
+        "title": "Rædwald of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/R%C3%A6dwald_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "c. 599 – c. 624",
+            "parsed": {
+              "start": "0599-01-01",
+              "end": "0624-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of East Anglia",
+            "raw": "599 – c. 624",
+            "parsed": {
+              "start": "0599-01-01",
+              "end": "0624-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tytila of East Anglia",
+        "title": "Tytila of East Anglia",
+        "person": "Q878702",
+        "name": "Totila de Estanglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tytila_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Tytila of East Anglia",
+          "canonical": "Tytila of East Anglia",
+          "qid": "Q878702"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q878702",
+        "title": "Tytila of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Tytila_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "possibly from about 578 to about 616.",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wehha of East Anglia",
+        "title": "Wehha of East Anglia",
+        "person": "Q728080",
+        "name": "Wehha de Estanglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wehha_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Wehha of East Anglia",
+          "canonical": "Wehha of East Anglia",
+          "qid": "Q728080"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q728080",
+        "title": "Wehha of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Wehha_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "unknown",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wuffa of East Anglia",
+        "title": "Wuffa of East Anglia",
+        "person": "Q743121",
+        "name": "Wuffa de Estanglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wuffa_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Wuffa of East Anglia",
+          "canonical": "Wuffa of East Anglia",
+          "qid": "Q743121"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q116",
+          "start": "0571-01-01",
+          "end": "0578-01-01",
+          "precision": 9,
+          "statement": "Q743121$7d834ae4-8264-49b9-b8d6-60753f07cc24",
+          "label": "monarca"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q743121",
+        "title": "Wuffa of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Wuffa_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "c.571-c.578",
+            "parsed": {
+              "start": "0571-01-01",
+              "end": "0578-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q743121",
+        "title": "Wuffa of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Wuffa_of_East_Anglia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the East Angles",
+          "raw": "c.571-c.578",
+          "parsed": {
+            "start": "0571-01-01",
+            "end": "0578-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q468836",
+        "title": "Rædwald of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/R%C3%A6dwald_of_East_Anglia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the East Angles",
+          "raw": "c. 599 – c. 624",
+          "parsed": {
+            "start": "0599-01-01",
+            "end": "0624-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Wehha of East Anglia",
+        "person": "Q728080",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Tytila of East Anglia",
+        "person": "Q878702",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "mediaReview": [
+    {
+      "person": "Q743121",
+      "name": "Wuffa de Estanglia",
+      "title": "Uffa - John Speed.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Uffa_-_John_Speed.JPG",
+      "sha256": "f53174f30aadad1187bc744c7ce70af11d0b07f3cd83885d727779c6c19087cd",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Wuffa de Estanglia; no retrato contemporáneo."
+    },
+    {
+      "person": "Q468836",
+      "name": "Redvaldo de Estanglia",
+      "title": "Sutton hoo helmet room 1 no flashbrightness ajusted.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Sutton_hoo_helmet_room_1_no_flashbrightness_ajusted.JPG",
+      "sha256": "d3212a8cfb26d47ce2cad45683dcebf79be9ee4db45901b2a26d5dca23bf6012",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Casco deSutton Hoo; no retrato personal probado deRædwald."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q468836",
+      "title": "Sutton hoo helmet room 1 no flashbrightness ajusted.JPG",
+      "reason": "Casco deSutton Hoo; no retrato personal probado deRædwald.",
+      "source": "https://commons.wikimedia.org/wiki/File:Sutton_hoo_helmet_room_1_no_flashbrightness_ajusted.JPG"
+    }
+  ]
+}

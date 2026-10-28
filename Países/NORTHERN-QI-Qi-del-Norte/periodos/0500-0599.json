@@ -1,0 +1,660 @@
+{
+  "key": "NORTHERN-QI",
+  "identity": {
+    "qid": "Q1143524",
+    "name": "Qi del Norte"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador de Qi del Norte",
+      "officePattern": "Emperor",
+      "titles": [
+        "Emperor Wenxuan of Northern Qi",
+        "Emperor Fei of Northern Qi",
+        "Emperor Xiaozhao of Northern Qi",
+        "Emperor Wucheng of Northern Qi",
+        "Gao Wei",
+        "Gao Heng"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q712338",
+      "name": "Wenxuan · Qi del Norte",
+      "role": "Emperador de Qi del Norte",
+      "start": "0550-06-09",
+      "end": "0559-11-25",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wenxuan_of_Northern_Qi",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q708368",
+      "name": "Fei · Qi del Norte",
+      "role": "Emperador de Qi del Norte",
+      "start": "0559-12-04",
+      "end": "0560-09-08",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Fei_of_Northern_Qi",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q718243",
+      "name": "Gao Zhan",
+      "role": "Emperador de Qi del Norte",
+      "start": "0561-12-03",
+      "end": "0565-06-08",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wucheng_of_Northern_Qi",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q718181",
+      "name": "Gao Wei",
+      "role": "Emperador de Qi del Norte",
+      "start": "0565-06-08",
+      "end": "0577-02-04",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Gao_Wei",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q288135",
+      "name": "Gao Heng",
+      "role": "Emperador de Qi del Norte",
+      "start": "0577-02-04",
+      "end": "0577-04-05",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Gao_Heng",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q708325",
+      "name": "Xiaozhao · Qi del Norte",
+      "role": "Emperador de Qi del Norte",
+      "start": "0560-01-01",
+      "end": "0561-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xiaozhao_of_Northern_Qi",
+      "note": "Cronología explícitamente revisada; ventana anual aproximada, no mandato inferido de fechas de vida. Himyar525 se contrasta con https://par.nsf.gov/servlets/purl/10353205"
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 550,
+      "end": 577,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wenxuan_of_Northern_Qi",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Qi"
+        ],
+        "start": 500,
+        "end": 549,
+        "label": "Qi del Norte · referencia regional de la fuente",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no acredita una entidad política unitaria vigente ni prolonga su lista de gobernantes."
+      }
+    },
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Qi"
+        ],
+        "start": 550,
+        "end": 577,
+        "label": "Qi del Norte",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Qi"
+        ],
+        "start": 578,
+        "end": 599,
+        "label": "Qi del Norte · referencia regional de la fuente",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no acredita una entidad política unitaria vigente ni prolonga su lista de gobernantes."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "959b9893df10f03d0997c5de8a671dc30e199baa13afbf7a84c29370261665c3",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2068,
+        2106,
+        2135
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Fei of Northern Qi",
+        "title": "Emperor Fei of Northern Qi",
+        "person": "Q708368",
+        "name": "Emperor Fei of Northern Qi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Fei_of_Northern_Qi",
+        "identityResolution": {
+          "requested": "Emperor Fei of Northern Qi",
+          "canonical": "Emperor Fei of Northern Qi",
+          "qid": "Q708368"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0559-12-04",
+          "end": "0560-09-08",
+          "precision": 11,
+          "statement": "Q708368$5b2397ec-4338-0b04-564c-4ffd46f8527e",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q708368",
+        "title": "Emperor Fei of Northern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Fei_of_Northern_Qi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Northern Qi",
+            "raw": "December 4, 559<ref name=BNQ5/><ref name=AS>[[Academia Sinica]] [http://sinocal.sinica.edu.tw/ Chinese-Western Calendar Converter].</ref> – September 8, 560<ref>''Book of Northern Qi'', vol. 5. 八月 壬午，太皇太后令廢帝爲濟南王</ref><ref name=AS/>",
+            "parsed": {
+              "start": "0559-12-04",
+              "end": "0560-09-08",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Wenxuan of Northern Qi",
+        "title": "Emperor Wenxuan of Northern Qi",
+        "person": "Q712338",
+        "name": "Emperor Wenxuan of Northern Qi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wenxuan_of_Northern_Qi",
+        "identityResolution": {
+          "requested": "Emperor Wenxuan of Northern Qi",
+          "canonical": "Emperor Wenxuan of Northern Qi",
+          "qid": "Q712338"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0550-01-01",
+          "end": "0559-01-01",
+          "precision": 9,
+          "statement": "Q712338$37e6fd3f-5308-4ebd-85ff-12df4d62cb34",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712338",
+        "title": "Emperor Wenxuan of Northern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wenxuan_of_Northern_Qi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Northern Qi",
+            "raw": "June 9, 550<ref name=AS/><ref name=ZZTJ163>''[[Zizhi Tongjian]]'', [[:zh:s:資治通鑑/卷163|vol. 163]].</ref> – November 25, 559<ref name=BNQ4>''[[Book of Northern Qi]]'', [[:zh:s:北齊書/卷4|vol. 4]]. 冬十月甲午，帝暴崩於晉陽宮德陽堂，時年三十</ref><ref name=AS>[[Academia Sinica]] [http://sinocal.sinica.edu.tw/ Chinese-Western Calendar Converter].</ref>",
+            "parsed": {
+              "start": "0550-06-09",
+              "end": "0559-11-25",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Qi",
+            "raw": "550–559",
+            "parsed": {
+              "start": "0550-01-01",
+              "end": "0559-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Northern/Central)",
+            "raw": "550–559",
+            "parsed": {
+              "start": "0550-01-01",
+              "end": "0559-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Wucheng of Northern Qi",
+        "title": "Emperor Wucheng of Northern Qi",
+        "person": "Q718243",
+        "name": "Gao Zhan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wucheng_of_Northern_Qi",
+        "identityResolution": {
+          "requested": "Emperor Wucheng of Northern Qi",
+          "canonical": "Emperor Wucheng of Northern Qi",
+          "qid": "Q718243"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0561-12-03",
+          "end": "0565-06-08",
+          "precision": 11,
+          "statement": "Q718243$b00163cb-96c8-4008-b66c-1714cf8035a0",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q718243",
+        "title": "Emperor Wucheng of Northern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wucheng_of_Northern_Qi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Northern Qi",
+            "raw": "December 3, 561–June 8, 565",
+            "parsed": {
+              "start": "0561-12-03",
+              "end": "0565-06-08",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Xiaozhao of Northern Qi",
+        "title": "Emperor Xiaozhao of Northern Qi",
+        "person": "Q708325",
+        "name": "Gao Yan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Xiaozhao_of_Northern_Qi",
+        "identityResolution": {
+          "requested": "Emperor Xiaozhao of Northern Qi",
+          "canonical": "Emperor Xiaozhao of Northern Qi",
+          "qid": "Q708325"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0560-01-01",
+          "end": "0561-01-01",
+          "precision": 9,
+          "statement": "Q708325$e5cd010f-45d0-bcb0-c3f3-74e3eec052f1",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q708325",
+        "title": "Emperor Xiaozhao of Northern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Xiaozhao_of_Northern_Qi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Northern Qi",
+            "raw": "8 September 560<ref>([皇建元年]八月壬午，皇帝即位于晋阳宣德殿，大赦，改乾明元年为皇建。) ''Bei Qi Shu'', vol.06.</ref> – {{circa}}late November 561",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gao Heng",
+        "title": "Gao Heng",
+        "person": "Q288135",
+        "name": "Gao Heng",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gao_Heng",
+        "identityResolution": {
+          "requested": "Gao Heng",
+          "canonical": "Gao Heng",
+          "qid": "Q288135"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0577-01-01",
+          "end": "0577-01-01",
+          "precision": 9,
+          "statement": "Q288135$5e98d083-4582-b407-89f9-6c5b934adce1",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q288135",
+        "title": "Gao Heng",
+        "source": "https://en.wikipedia.org/wiki/Gao_Heng",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Northern Qi",
+            "raw": "4 February - 5 April 577<ref>(隆化二年春正月乙亥，即皇帝位，时八岁，改元为承光元年，...[三月]乙亥，渡河入济州。其日，幼主禅位于大丞相、任城王湝，...) ''Bei Qi Shu'' vol.08</ref>",
+            "parsed": {
+              "start": "0577-02-04",
+              "end": "0577-04-05",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Qi",
+            "raw": "577",
+            "parsed": {
+              "start": "0577-01-01",
+              "end": "0577-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Northern/Central)",
+            "raw": "577",
+            "parsed": {
+              "start": "0577-01-01",
+              "end": "0577-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gao Wei",
+        "title": "Gao Wei",
+        "person": "Q718181",
+        "name": "Gao Wei",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gao_Wei",
+        "identityResolution": {
+          "requested": "Gao Wei",
+          "canonical": "Gao Wei",
+          "qid": "Q718181"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0565-06-08",
+          "end": "0577-02-04",
+          "precision": 11,
+          "statement": "Q718181$465e2287-4020-5c6d-6ac0-0c1947b91dc9",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q718181",
+        "title": "Gao Wei",
+        "source": "https://en.wikipedia.org/wiki/Gao_Wei",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Northern Qi",
+            "raw": "June 8, 565<ref name=AS/><ref name=ZZTJ169>''[[Zizhi Tongjian]]'', [[:zh:s:資治通鑑/卷169|vol. 169]].</ref> – February 4, 577<ref name=AS/><ref name=ZZTJ173/>",
+            "parsed": {
+              "start": "0565-06-08",
+              "end": "0577-02-04",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Qi (most regions)",
+            "raw": "565–577",
+            "parsed": {
+              "start": "0565-01-01",
+              "end": "0577-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Qi (Shanxi)",
+            "raw": "565–577",
+            "parsed": {
+              "start": "0565-01-01",
+              "end": "0577-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q712338",
+        "title": "Emperor Wenxuan of Northern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wenxuan_of_Northern_Qi",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Northern Qi",
+          "raw": "June 9, 550<ref name=AS/><ref name=ZZTJ163>''[[Zizhi Tongjian]]'', [[:zh:s:資治通鑑/卷163|vol. 163]].</ref> – November 25, 559<ref name=BNQ4>''[[Book of Northern Qi]]'', [[:zh:s:北齊書/卷4|vol. 4]]. 冬十月甲午，帝暴崩於晉陽宮德陽堂，時年三十</ref><ref name=AS>[[Academia Sinica]] [http://sinocal.sinica.edu.tw/ Chinese-Western Calendar Converter].</ref>",
+          "parsed": {
+            "start": "0550-06-09",
+            "end": "0559-11-25",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q708368",
+        "title": "Emperor Fei of Northern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Fei_of_Northern_Qi",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Northern Qi",
+          "raw": "December 4, 559<ref name=BNQ5/><ref name=AS>[[Academia Sinica]] [http://sinocal.sinica.edu.tw/ Chinese-Western Calendar Converter].</ref> – September 8, 560<ref>''Book of Northern Qi'', vol. 5. 八月 壬午，太皇太后令廢帝爲濟南王</ref><ref name=AS/>",
+          "parsed": {
+            "start": "0559-12-04",
+            "end": "0560-09-08",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q718243",
+        "title": "Emperor Wucheng of Northern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wucheng_of_Northern_Qi",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Northern Qi",
+          "raw": "December 3, 561–June 8, 565",
+          "parsed": {
+            "start": "0561-12-03",
+            "end": "0565-06-08",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q718181",
+        "title": "Gao Wei",
+        "source": "https://en.wikipedia.org/wiki/Gao_Wei",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Northern Qi",
+          "raw": "June 8, 565<ref name=AS/><ref name=ZZTJ169>''[[Zizhi Tongjian]]'', [[:zh:s:資治通鑑/卷169|vol. 169]].</ref> – February 4, 577<ref name=AS/><ref name=ZZTJ173/>",
+          "parsed": {
+            "start": "0565-06-08",
+            "end": "0577-02-04",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q288135",
+        "title": "Gao Heng",
+        "source": "https://en.wikipedia.org/wiki/Gao_Heng",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Northern Qi",
+          "raw": "4 February - 5 April 577<ref>(隆化二年春正月乙亥，即皇帝位，时八岁，改元为承光元年，...[三月]乙亥，渡河入济州。其日，幼主禅位于大丞相、任城王湝，...) ''Bei Qi Shu'' vol.08</ref>",
+          "parsed": {
+            "start": "0577-02-04",
+            "end": "0577-04-05",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Emperor Xiaozhao of Northern Qi",
+        "person": "Q708325",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "authorityReview": [
+    {
+      "person": "Q708325",
+      "originalRecords": [],
+      "decision": "Cronología explícitamente revisada; ventana anual aproximada, no mandato inferido de fechas de vida. Himyar525 se contrasta con https://par.nsf.gov/servlets/purl/10353205",
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xiaozhao_of_Northern_Qi"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q708325",
+      "name": "Xiaozhao · Qi del Norte",
+      "role": "Emperador de Qi del Norte",
+      "start": "0560-01-01",
+      "end": "0561-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xiaozhao_of_Northern_Qi",
+      "note": "Cronología explícitamente revisada; ventana anual aproximada, no mandato inferido de fechas de vida. Himyar525 se contrasta con https://par.nsf.gov/servlets/purl/10353205"
+    }
+  ],
+  "places": [
+    {
+      "id": "seat035-12",
+      "name": "Ye · proclamación de Qi del Norte",
+      "coordinates": [
+        114.613,
+        36.283
+      ],
+      "start": 550,
+      "end": 554,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Qi_del_Norte",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Qi del Norte",
+      "standaloneReference": true
+    },
+    {
+      "id": "seat035-13",
+      "name": "Ye · corte de Qi del Norte",
+      "coordinates": [
+        114.613,
+        36.283
+      ],
+      "start": 555,
+      "end": 577,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Qi_del_Norte",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Qi del Norte"
+    }
+  ]
+}

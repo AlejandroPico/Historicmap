@@ -12,7 +12,7 @@ describe('1500–1599 annual extension',()=>{
    years.push({year:y,territories:d.features.length,withAuthorities:authorities,withSymbols:symbols,additionalGroupedStateSeats:datedPlaces(d,y).features.filter(f=>f.properties?.sovereignSeat).length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-1500-1599.json',JSON.stringify({scope:'Production-path availability, not a complete state census, independent verification of all boundaries, daily fronts or historiographic certification. Grouped-state seats counted separately.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()]},null,2)+'\n');
-  expect(snapshotFor(599).kind).toBe('historical');expect(snapshotFor(1600).file).toBe('early-modern-1600.geojson');
+  expect(snapshotFor(499).kind).toBe('historical');expect(snapshotFor(1600).file).toBe('early-modern-1600.geojson');
  },90000);
  it('does not anticipate unions, empires or later office holders',async()=>{
   const key=(d:any,n:string)=>d.features.find((f:any)=>f.properties.originalName===n)?.properties.identityKey;

@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-POST-JIN",
+  "name": "Ámbitos posteriores a Jin · comunidades y dinastías meridionales",
+  "qid": "",
+  "aliases": [
+    "Jin Empire",
+    "Ámbitos posteriores a Jin · comunidades y dinastías meridionales"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 196,
+      "start": null,
+      "end": null,
+      "name": "Jin Empire",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-POST-JIN-Y0500:0",
+      "contextKey": "REFERENCE-POST-JIN",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/REFERENCE-POST-JIN-Ambitos-posteriores-a-Jin-comunidades-y-dinastias-meridionales/poblamiento/REFERENCE-POST-JIN-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

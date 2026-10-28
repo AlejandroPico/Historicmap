@@ -1,0 +1,93 @@
+{
+  "key": "CULTURE-HOKKAIDO-Y0500",
+  "contextKey": "CULTURE-HOKKAIDO",
+  "ownerKey": "CULTURE-HOKKAIDO",
+  "name": "Comunidades de Hokkaidō · Epi-Jōmon y Okhotsk",
+  "originalNames": [
+    "Ainu"
+  ],
+  "kind": "cultural-region",
+  "region": "Asia nororiental",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    500,
+    599
+  ],
+  "interpretation": "Tradiciones arqueológicas Epi-Jōmon y Okhotsk, con contactos y cronologías locales distintas. El nombre Ainu del inventario no acredita una nación moderna homogénea ni fronteras étnicas en500.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea500 contiene etiquetas de épocas distintas. La ventana500–599 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Museo de Hokkaidō · Satsumon y Okhotsk",
+      "url": "https://www.hm.pref.hokkaido.lg.jp/wp-content/uploads/2025/03/ENG-1-2.pdf"
+    },
+    {
+      "title": "Museo Nacional Ainu · formación y expansión medieval",
+      "url": "https://punkar.nam.go.jp/essay/"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a99772",
+  "focus": [
+    142.57994,
+    43.35427
+  ],
+  "phases": [
+    {
+      "start": 500,
+      "end": 599,
+      "label": "Comunidades de Hokkaidō · Epi-Jōmon y Okhotsk",
+      "dateBasis": "Referencia regional de la fuente editorial500; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-HOKKAIDO-Y0500.geojson",
+  "geometrySha256": "fa7c69fc908d75d4937b3e3ca21d698a42eec2b63ef0378e80fc0ab0dd537498",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+    "year": 500,
+    "featureIds": [
+      52
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1"
+  },
+  "review": "0.35.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final599 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en600."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Ainu",
+      "ABBREVN": "Ainu",
+      "SUBJECTO": "Ainu",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Ainu"
+    }
+  ],
+  "sourceGrouping": [
+    "Ainu"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "key": "HIST-Q19083",
+  "name": "Caucasian Iberia",
+  "qid": "Q19083",
+  "aliases": [
+    "Caucasian Iberia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q19083"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q2915847",
+      "name": "Dachi of Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0522-01-01",
+      "end": "0534-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dachi_of_Iberia",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q2880325",
+      "name": "Bacurius II de Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0534-01-01",
+      "end": "0547-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bacurius_II",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q2747371",
+      "name": "Parsman V of Iberia",
+      "role": "Rey de Iberia caucásica",
+      "start": "0547-01-01",
+      "end": "0561-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pharasmanes_V",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1616",
+      "start": 500,
+      "end": 509,
+      "name": "Caucasian Iberia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1946",
+      "start": 510,
+      "end": 522,
+      "name": "Caucasian Iberia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1968",
+      "start": 523,
+      "end": 533,
+      "name": "Caucasian Iberia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

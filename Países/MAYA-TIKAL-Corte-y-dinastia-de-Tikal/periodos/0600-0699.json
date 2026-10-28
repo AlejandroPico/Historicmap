@@ -1,0 +1,77 @@
+{
+  "key": "MAYA-TIKAL",
+  "identity": {
+    "qid": "",
+    "name": "Corte y dinastía de Tikal"
+  },
+  "revision": "0.35.0",
+  "acquisition": "maya-continuity-0.35",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy",
+        "city-state"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tikal",
+      "note": "Corte local documentada; no un Estado maya unificado."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Continuidad documental de la corte; completar sucesiones del sigloVII."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [],
+  "officeResearch": [],
+  "authorityReview": [],
+  "documentedAuthorities": [],
+  "places": [
+    {
+      "id": "seat035-41-continuity",
+      "name": "Tikal · corte local",
+      "coordinates": [
+        -89.624,
+        17.222
+      ],
+      "start": 600,
+      "end": 699,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Tikal",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme. La agrupación cartográfica hospeda la selección; no acredita dependencia administrativa ni un Estado maya unificado.",
+      "entityName": "Corte y dinastía de Tikal",
+      "standaloneReference": true,
+      "aggregateKey": "HIST-Q28567"
+    },
+    {
+      "id": "seat035-41-own-continuity",
+      "name": "Tikal · corte local",
+      "coordinates": [
+        -89.624,
+        17.222
+      ],
+      "start": 600,
+      "end": 699,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Tikal",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme. La agrupación cartográfica hospeda la selección; no acredita dependencia administrativa ni un Estado maya unificado.",
+      "entityName": "Corte y dinastía de Tikal",
+      "standaloneReference": true
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "key": "NORTHERN-QI",
+  "name": "Qi del Norte",
+  "qid": "Q1143524",
+  "aliases": [
+    "Northern Qi",
+    "Qi del Norte"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NORTHERN-QI"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q712338",
+      "name": "Wenxuan · Qi del Norte",
+      "role": "Emperador de Qi del Norte",
+      "start": "0550-06-09",
+      "end": "0559-11-25",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wenxuan_of_Northern_Qi",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q708368",
+      "name": "Fei · Qi del Norte",
+      "role": "Emperador de Qi del Norte",
+      "start": "0559-12-04",
+      "end": "0560-09-08",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Fei_of_Northern_Qi",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q718243",
+      "name": "Gao Zhan",
+      "role": "Emperador de Qi del Norte",
+      "start": "0561-12-03",
+      "end": "0565-06-08",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wucheng_of_Northern_Qi",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q718181",
+      "name": "Gao Wei",
+      "role": "Emperador de Qi del Norte",
+      "start": "0565-06-08",
+      "end": "0577-02-04",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Gao_Wei",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q288135",
+      "name": "Gao Heng",
+      "role": "Emperador de Qi del Norte",
+      "start": "0577-02-04",
+      "end": "0577-04-05",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Gao_Heng",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q708325",
+      "name": "Xiaozhao · Qi del Norte",
+      "role": "Emperador de Qi del Norte",
+      "start": "0560-01-01",
+      "end": "0561-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xiaozhao_of_Northern_Qi",
+      "note": "Cronología explícitamente revisada; ventana anual aproximada, no mandato inferido de fechas de vida. Himyar525 se contrasta con https://par.nsf.gov/servlets/purl/10353205",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2068",
+      "start": 555,
+      "end": 560,
+      "name": "Northern Qi",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2106",
+      "start": 561,
+      "end": 568,
+      "name": "Northern Qi",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2135",
+      "start": 569,
+      "end": 576,
+      "name": "Northern Qi",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

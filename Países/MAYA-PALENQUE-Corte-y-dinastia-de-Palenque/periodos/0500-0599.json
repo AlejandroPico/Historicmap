@@ -1,0 +1,643 @@
+{
+  "key": "MAYA-PALENQUE",
+  "identity": {
+    "qid": "",
+    "name": "Corte y dinastía de Palenque"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Ajaw de Palenque",
+      "officePattern": "Palenque|Ajaw|Ruler",
+      "titles": [
+        "B'utz Aj Sak Chiik",
+        "Ahkal Mo' Nahb I",
+        "K'an Joy Chitam I",
+        "Ahkal Mo' Nahb II",
+        "Kan Bahlam I",
+        "Yohl Ik'nal"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1835954",
+      "name": "B'utz Aj Sak Chiik",
+      "role": "Ajaw de Palenque",
+      "start": "0500-01-01",
+      "end": "0501-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/B%CA%BCutz_Aj_Sak_Chiik",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q400306",
+      "name": "Ahkal Mo' Naab' I",
+      "role": "Ajaw de Palenque",
+      "start": "0501-06-03",
+      "end": "0524-11-29",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ahkal_Mo%CA%BC_Nahb_I",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html"
+    },
+    {
+      "person": "Q1565716",
+      "name": "K'an Joy Chitam I",
+      "role": "Ajaw de Palenque",
+      "start": "0529-02-06",
+      "end": "0565-02-06",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/K%CA%BCan_Joy_Chitam_I",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html"
+    },
+    {
+      "person": "Q1452491",
+      "name": "Ahkal Mo' Naab' II",
+      "role": "Ajaw de Palenque",
+      "start": "0565-05-02",
+      "end": "0570-07-21",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ahkal_Mo%CA%BC_Nahb_II",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html"
+    },
+    {
+      "person": "Q1151461",
+      "name": "Kan B'alam I",
+      "role": "Ajaw de Palenque",
+      "start": "0572-04-06",
+      "end": "0583-02-01",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kan_Bahlam_I",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html"
+    },
+    {
+      "person": "Q1151465",
+      "name": "Yohl Ik'nal",
+      "role": "Ajaw de Palenque",
+      "start": "0583-12-23",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yohl_Ik%CA%BCnal",
+      "note": "Cronología epigráfica. Las correlaciones de Cuenta Larga con el calendario gregoriano difieren en días; se muestra precisión anual. Contraste: https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review035-palenque-calendar",
+      "type": "institution",
+      "title": "Fechas epigráficas de Palenque",
+      "start": "0500-01-01",
+      "end": "0600-01-01",
+      "text": "Las correlaciones deCuenta Larga ycalendario gregoriano difieren en días. La presentación anual conserva la incertidumbre ylas lagunas entre reinados; Yohl Ik’nal gobierna583–604.",
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy",
+        "city-state"
+      ],
+      "source": "https://en.wikipedia.org/wiki/B%27utz_Aj_Sak_Chiik",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ahkal Mo' Nahb I",
+        "title": "Ahkal Mo' Nahb I",
+        "person": "Q400306",
+        "name": "Ahkal Mo' Naab' I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ahkal_Mo%CA%BC_Nahb_I",
+        "identityResolution": {
+          "requested": "Ahkal Mo' Nahb I",
+          "canonical": "Ahkal Moʼ Nahb I",
+          "qid": "Q400306"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120931640",
+          "start": "0501-06-03",
+          "end": "0524-11-29",
+          "precision": 11,
+          "statement": "Q400306$1b8241d2-4f5f-d2a5-7359-a7b4db6a54e4",
+          "label": "Ajaw of Palenque"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q400306",
+        "title": "Ahkal Moʼ Nahb I",
+        "source": "https://en.wikipedia.org/wiki/Ahkal_Mo%CA%BC_Nahb_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Palenque",
+            "raw": "3 June 501 – 29 November 524",
+            "parsed": {
+              "start": "0501-06-03",
+              "end": "0524-11-29",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ahkal Mo' Nahb II",
+        "title": "Ahkal Mo' Nahb II",
+        "person": "Q1452491",
+        "name": "Ahkal Mo' Naab' II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ahkal_Mo%CA%BC_Nahb_II",
+        "identityResolution": {
+          "requested": "Ahkal Mo' Nahb II",
+          "canonical": "Ahkal Moʼ Nahb II",
+          "qid": "Q1452491"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120931640",
+          "start": "0565-05-02",
+          "end": "0570-07-21",
+          "precision": 11,
+          "statement": "Q1452491$db024914-4850-26d5-b34a-8b40abb59483",
+          "label": "Ajaw of Palenque"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1452491",
+        "title": "Ahkal Moʼ Nahb II",
+        "source": "https://en.wikipedia.org/wiki/Ahkal_Mo%CA%BC_Nahb_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Palenque",
+            "raw": "2 May 565 - 21 July 570",
+            "parsed": {
+              "start": "0565-05-02",
+              "end": "0570-07-21",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "B'utz Aj Sak Chiik",
+        "title": "B'utz Aj Sak Chiik",
+        "person": "Q1835954",
+        "name": "B'utz Aj Sak Chiik",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/B%CA%BCutz_Aj_Sak_Chiik",
+        "identityResolution": {
+          "requested": "B'utz Aj Sak Chiik",
+          "canonical": "Bʼutz Aj Sak Chiik",
+          "qid": "Q1835954"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120931640",
+          "start": "0487-07-28",
+          "end": "0501-01-01",
+          "precision": 9,
+          "statement": "Q1835954$0105eb3c-4a81-a033-eeb8-d35f10c9b32d",
+          "label": "Ajaw of Palenque"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1835954",
+        "title": "Bʼutz Aj Sak Chiik",
+        "source": "https://en.wikipedia.org/wiki/B%CA%BCutz_Aj_Sak_Chiik",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Palenque",
+            "raw": "28 July 487 – 501",
+            "parsed": {
+              "start": "0487-07-28",
+              "end": "0501-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "K'an Joy Chitam I",
+        "title": "K'an Joy Chitam I",
+        "person": "Q1565716",
+        "name": "K'an Joy Chitam I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCan_Joy_Chitam_I",
+        "identityResolution": {
+          "requested": "K'an Joy Chitam I",
+          "canonical": "Kʼan Joy Chitam I",
+          "qid": "Q1565716"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120931640",
+          "start": "0529-02-06",
+          "end": "0565-02-06",
+          "precision": 11,
+          "statement": "Q1565716$65aed72c-486a-9c85-8b7b-7e00446f0757",
+          "label": "Ajaw of Palenque"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1565716",
+        "title": "Kʼan Joy Chitam I",
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCan_Joy_Chitam_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Palenque",
+            "raw": "February 6, 529 – February 6, 565",
+            "parsed": {
+              "start": "0529-02-06",
+              "end": "0565-02-06",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kan Bahlam I",
+        "title": "Kan Bahlam I",
+        "person": "Q1151461",
+        "name": "Kan B'alam I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kan_Bahlam_I",
+        "identityResolution": {
+          "requested": "Kan Bahlam I",
+          "canonical": "Kan Bahlam I",
+          "qid": "Q1151461"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120931640",
+          "start": "0572-04-06",
+          "end": "0583-02-01",
+          "precision": 11,
+          "statement": "Q1151461$f3f95405-4be5-432f-2870-6a2ba79e0f05",
+          "label": "Ajaw of Palenque"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1151461",
+        "title": "Kan Bahlam I",
+        "source": "https://en.wikipedia.org/wiki/Kan_Bahlam_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Palenque",
+            "raw": "6 April 572 – 1 February 583",
+            "parsed": {
+              "start": "0572-04-06",
+              "end": "0583-02-01",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yohl Ik'nal",
+        "title": "Yohl Ik'nal",
+        "person": "Q1151465",
+        "name": "Yohl Ik'nal",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yohl_Ik%CA%BCnal",
+        "identityResolution": {
+          "requested": "Yohl Ik'nal",
+          "canonical": "Yohl Ikʼnal",
+          "qid": "Q1151465"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120931640",
+          "start": "0583-12-23",
+          "end": "0604-11-04",
+          "precision": 11,
+          "statement": "Q1151465$93229d8e-4751-ff90-7797-15aacd2f1ad9",
+          "label": "Ajaw of Palenque"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1151465",
+        "title": "Yohl Ikʼnal",
+        "source": "https://en.wikipedia.org/wiki/Yohl_Ik%CA%BCnal",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Queen of Palenque",
+            "raw": "23 December 583 – 7 November 604",
+            "parsed": {
+              "start": "0583-12-23",
+              "end": "0604-11-07",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1835954",
+        "title": "B'utz Aj Sak Chiik",
+        "source": "https://en.wikipedia.org/wiki/B%CA%BCutz_Aj_Sak_Chiik",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Palenque",
+          "raw": "28 July 487 – 501",
+          "parsed": {
+            "start": "0487-07-28",
+            "end": "0501-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q400306",
+        "title": "Ahkal Mo' Nahb I",
+        "source": "https://en.wikipedia.org/wiki/Ahkal_Mo%CA%BC_Nahb_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Palenque",
+          "raw": "3 June 501 – 29 November 524",
+          "parsed": {
+            "start": "0501-06-03",
+            "end": "0524-11-29",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1565716",
+        "title": "K'an Joy Chitam I",
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCan_Joy_Chitam_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Palenque",
+          "raw": "February 6, 529 – February 6, 565",
+          "parsed": {
+            "start": "0529-02-06",
+            "end": "0565-02-06",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1452491",
+        "title": "Ahkal Mo' Nahb II",
+        "source": "https://en.wikipedia.org/wiki/Ahkal_Mo%CA%BC_Nahb_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Palenque",
+          "raw": "2 May 565 - 21 July 570",
+          "parsed": {
+            "start": "0565-05-02",
+            "end": "0570-07-21",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1151461",
+        "title": "Kan Bahlam I",
+        "source": "https://en.wikipedia.org/wiki/Kan_Bahlam_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Palenque",
+          "raw": "6 April 572 – 1 February 583",
+          "parsed": {
+            "start": "0572-04-06",
+            "end": "0583-02-01",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1151465",
+        "title": "Yohl Ik'nal",
+        "source": "https://en.wikipedia.org/wiki/Yohl_Ik%CA%BCnal",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Queen of Palenque",
+          "raw": "23 December 583 – 7 November 604",
+          "parsed": {
+            "start": "0583-12-23",
+            "end": "0604-11-07",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat035-40",
+      "name": "Palenque · corte local",
+      "coordinates": [
+        -92.045,
+        17.484
+      ],
+      "start": 500,
+      "end": 599,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Palenque",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme. La agrupación cartográfica hospeda la selección; no acredita dependencia administrativa ni un Estado maya unificado.",
+      "entityName": "Corte y dinastía de Palenque",
+      "standaloneReference": true,
+      "aggregateKey": "HIST-Q28567"
+    },
+    {
+      "id": "seat035-40-own",
+      "name": "Palenque · corte local",
+      "coordinates": [
+        -92.045,
+        17.484
+      ],
+      "start": 500,
+      "end": 599,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Palenque",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme. La agrupación cartográfica hospeda la selección; no acredita dependencia administrativa ni un Estado maya unificado.",
+      "entityName": "Corte y dinastía de Palenque",
+      "standaloneReference": true
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review035-palenque-calendar",
+      "type": "institution",
+      "title": "Fechas epigráficas de Palenque",
+      "start": "0500-01-01",
+      "end": "0600-01-01",
+      "text": "Las correlaciones deCuenta Larga ycalendario gregoriano difieren en días. La presentación anual conserva la incertidumbre ylas lagunas entre reinados; Yohl Ik’nal gobierna583–604.",
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q1835954",
+      "title": "Glifo de B'utz Aj Sak Chiik en tablero del Templo XVII.jpg",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual.",
+      "source": "https://commons.wikimedia.org/wiki/File:Glifo_de_B%27utz_Aj_Sak_Chiik_en_tablero_del_Templo_XVII.jpg"
+    },
+    {
+      "person": "Q1565716",
+      "title": "Glifo maya de K'an Joy Chitam I en el tablero del Templo de la Cruz en Palenque.jpg",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual.",
+      "source": "https://commons.wikimedia.org/wiki/File:Glifo_maya_de_K%27an_Joy_Chitam_I_en_el_tablero_del_Templo_de_la_Cruz_en_Palenque.jpg"
+    },
+    {
+      "person": "Q1452491",
+      "title": "Glifo de Ahkal Mo' Naab' II.jpg",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual.",
+      "source": "https://commons.wikimedia.org/wiki/File:Glifo_de_Ahkal_Mo%27_Naab%27_II.jpg"
+    },
+    {
+      "person": "Q1151461",
+      "title": "Glifo de K'an Balam I.jpg",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual.",
+      "source": "https://commons.wikimedia.org/wiki/File:Glifo_de_K%27an_Balam_I.jpg"
+    },
+    {
+      "person": "Q1151465",
+      "title": "Yohl Ik'nal.svg",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual.",
+      "source": "https://commons.wikimedia.org/wiki/File:Yohl_Ik%27nal.svg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1835954",
+      "name": "B'utz Aj Sak Chiik",
+      "title": "Glifo de B'utz Aj Sak Chiik en tablero del Templo XVII.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Glifo_de_B%27utz_Aj_Sak_Chiik_en_tablero_del_Templo_XVII.jpg",
+      "sha256": "b7d2e2874fe900a58c4f33d1ea7d82f0c9ff5b4e292107046b86bf7f2a5eb032",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual."
+    },
+    {
+      "person": "Q1565716",
+      "name": "K'an Joy Chitam I",
+      "title": "Glifo maya de K'an Joy Chitam I en el tablero del Templo de la Cruz en Palenque.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Glifo_maya_de_K%27an_Joy_Chitam_I_en_el_tablero_del_Templo_de_la_Cruz_en_Palenque.jpg",
+      "sha256": "1a415249ca71a077f2199f5902243e5eeb32c5262548d778033a0f03990fefc5",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual."
+    },
+    {
+      "person": "Q1452491",
+      "name": "Ahkal Mo' Naab' II",
+      "title": "Glifo de Ahkal Mo' Naab' II.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Glifo_de_Ahkal_Mo%27_Naab%27_II.jpg",
+      "sha256": "0e2f4c1aeb074c960271dae537241b34991e7688b53e56ccb57ca0ee7bf2110b",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual."
+    },
+    {
+      "person": "Q1151461",
+      "name": "Kan B'alam I",
+      "title": "Glifo de K'an Balam I.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Glifo_de_K%27an_Balam_I.jpg",
+      "sha256": "74ec3be93874a1af20dca7539eb5e625a81028bec37c7f0ade791356ed5924da",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual."
+    },
+    {
+      "person": "Q1151465",
+      "name": "Yohl Ik'nal",
+      "title": "Yohl Ik'nal.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Yohl_Ik%27nal.svg",
+      "sha256": "5e2b6496f994bdae33777a6354167f67a035991629da6e96b53f2b4c3f8f358a",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Glifo nominativo o inscripción; identifica un nombre, pero no es un retrato individual."
+    }
+  ]
+}

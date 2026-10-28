@@ -1,0 +1,105 @@
+{
+  "key": "HIST-Q11774",
+  "name": "Gupta Empire",
+  "qid": "Q11774",
+  "aliases": [
+    "Gupta Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q11774"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q5152922",
+      "name": "Narasimhagupta",
+      "role": "Gobernante gupta",
+      "start": "0500-01-01",
+      "end": "0530-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Narasimhagupta",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q10314770",
+      "name": "Kumaragupta III",
+      "role": "Gobernante gupta",
+      "start": "0530-01-01",
+      "end": "0540-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kumaragupta_III",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q7377647",
+      "name": "Vishnugupta",
+      "role": "Gobernante gupta",
+      "start": "0540-01-01",
+      "end": "0550-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vishnugupta_%28Gupta_Empire%29",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35",
+      "portrait": {
+        "file": "media/portrait-095949360d02abdcc8d5.jpg",
+        "title": "Vishnugupta Candraditya Circa 540-550 CE.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Vishnugupta_Candraditya_Circa_540-550_CE.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Vishnugupta_Candraditya_Circa_540-550_CE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG Coins",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CNG Coins Coin from CNG coins. Used with permission (CNG coin [1]).  Coin [2]",
+        "sha256": "11880f053c93515cbebb8d7ceded5971e8597a2b7ce921ce2e771facedaf0848",
+        "bytes": 102158,
+        "canonicalFile": "Países/HIST-Q11774-Gupta-Empire/retratos/portrait-095949360d02abdcc8d5.jpg",
+        "caption": "Tipo monetario convencional atribuido a Vishnugupta; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1899",
+      "start": 500,
+      "end": 533,
+      "name": "Gupta Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1989",
+      "start": 534,
+      "end": 545,
+      "name": "Gupta Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2054",
+      "start": 546,
+      "end": 554,
+      "name": "Gupta Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

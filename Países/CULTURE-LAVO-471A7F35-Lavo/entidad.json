@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-LAVO-471A7F35",
+  "name": "Lavo",
+  "qid": "",
+  "aliases": [
+    "Lavo"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 199,
+      "start": null,
+      "end": null,
+      "name": "Lavo",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-LAVO-471A7F35-Y0500:0",
+      "contextKey": "CULTURE-LAVO-471A7F35",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-LAVO-471A7F35-Lavo/poblamiento/CULTURE-LAVO-471A7F35-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

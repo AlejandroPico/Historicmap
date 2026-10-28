@@ -1,0 +1,246 @@
+{
+  "key": "HIST-Q136884",
+  "identity": {
+    "qid": "Q136884",
+    "name": "Lazica"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Lazica",
+      "officePattern": "King.*Lazica|King.*Laz",
+      "titles": [
+        "Tzath I of Lazica",
+        "Gubazes II of Lazica",
+        "Tzath II of Lazica"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1262203",
+      "name": "Gubazes II",
+      "role": "Rey de Lazica",
+      "start": "0541-01-01",
+      "end": "0555-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gubazes_II_of_Lazica",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tzath_I_of_Lazica",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lazica"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Lazica",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "1b8aac3127f539144cea861173cc1a916ea72213a1ff4ef89cf5a048b2703e68",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1629,
+        2009,
+        2020
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Gubazes II of Lazica",
+        "title": "Gubazes II of Lazica",
+        "person": "Q1262203",
+        "name": "Gubazes II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gubazes_II_of_Lazica",
+        "identityResolution": {
+          "requested": "Gubazes II of Lazica",
+          "canonical": "Gubazes II of Lazica",
+          "qid": "Q1262203"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1262203",
+        "title": "Gubazes II of Lazica",
+        "source": "https://en.wikipedia.org/wiki/Gubazes_II_of_Lazica",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Lazica",
+            "raw": "{{circa}} 541 – 555",
+            "parsed": {
+              "start": "0541-01-01",
+              "end": "0555-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Lazica",
+            "raw": "ca. 541 – 555",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tzath I of Lazica",
+        "title": "Tzath I of Lazica",
+        "person": "Q7861946",
+        "name": "Tzath I of Lazica",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tzath_I_of_Lazica",
+        "identityResolution": {
+          "requested": "Tzath I of Lazica",
+          "canonical": "Tzath I of Lazica",
+          "qid": "Q7861946"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7861946",
+        "title": "Tzath I of Lazica",
+        "source": "https://en.wikipedia.org/wiki/Tzath_I_of_Lazica",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Lazica",
+            "raw": "{{circa}} 522 – after 527",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Lazica",
+            "raw": "521/522 – after 527",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tzath II of Lazica",
+        "title": "Tzath II of Lazica",
+        "person": "Q6482015",
+        "name": "Tzath II of Lazica",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tzath_II_of_Lazica",
+        "identityResolution": {
+          "requested": "Tzath II of Lazica",
+          "canonical": "Tzath II of Lazica",
+          "qid": "Q6482015"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6482015",
+        "title": "Tzath II of Lazica",
+        "source": "https://en.wikipedia.org/wiki/Tzath_II_of_Lazica",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Lazica",
+            "raw": "556 – unknown",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Lazica",
+            "raw": "556 – unknown",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1262203",
+        "title": "Gubazes II of Lazica",
+        "source": "https://en.wikipedia.org/wiki/Gubazes_II_of_Lazica",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Lazica",
+          "raw": "{{circa}} 541 – 555",
+          "parsed": {
+            "start": "0541-01-01",
+            "end": "0555-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Tzath I of Lazica",
+        "person": "Q7861946",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Tzath II of Lazica",
+        "person": "Q6482015",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

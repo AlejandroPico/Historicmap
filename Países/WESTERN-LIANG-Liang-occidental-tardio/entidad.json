@@ -1,0 +1,81 @@
+{
+  "key": "WESTERN-LIANG",
+  "name": "Liang occidental tardío",
+  "qid": "Q4186404",
+  "aliases": [
+    "Later Western Liang",
+    "Liang occidental tardío"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WESTERN-LIANG"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1285740",
+      "name": "Xuan of Western Liang",
+      "role": "Emperador de Liang occidental",
+      "start": "0555-02-07",
+      "end": "0562-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Xiao_Cha",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q836203",
+      "name": "Ming of Western Liang",
+      "role": "Emperador de Liang occidental",
+      "start": "0562-01-01",
+      "end": "0585-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Xiao_Kui",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q837918",
+      "name": "Xiao Cong",
+      "role": "Emperador de Liang occidental",
+      "start": "0585-01-01",
+      "end": "0587-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Xiao_Cong",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2116",
+      "start": 561,
+      "end": 576,
+      "name": "Later Western Liang",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2150",
+      "start": 577,
+      "end": 586,
+      "name": "Later Western Liang",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

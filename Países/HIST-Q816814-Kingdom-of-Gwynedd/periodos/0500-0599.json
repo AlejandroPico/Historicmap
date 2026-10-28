@@ -1,0 +1,435 @@
+{
+  "key": "HIST-Q816814",
+  "identity": {
+    "qid": "Q816814",
+    "name": "Kingdom of Gwynedd"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Gwynedd",
+      "officePattern": "King.*Gwynedd",
+      "titles": [
+        "Cadwallon Lawhir ap Einion",
+        "Maelgwn Gwynedd",
+        "Rhun Hir ap Maelgwn",
+        "Beli ap Rhun",
+        "Iago ap Beli"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2705895",
+      "name": "Cadwallon Lawhir",
+      "role": "Rey de Gwynedd",
+      "start": "0500-01-01",
+      "end": "0534-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cadwallon_Lawhir",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q886399",
+      "name": "Maelgwn Gwynedd",
+      "role": "Rey de Gwynedd",
+      "start": "0520-01-01",
+      "end": "0547-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Maelgwn_Gwynedd",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-b35e540be730d27f8423.jpg",
+        "title": "History of the Kings (f.96.v) Maelgwn Gwynedd Detail.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:History_of_the_Kings_(f.96.v)_Maelgwn_Gwynedd_Detail.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/History_of_the_Kings_%28f.96.v%29_Maelgwn_Gwynedd_Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "\nUnknown authorUnknown author",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "This digital image can be seen in its original context here\n\n\n\n\n\n\nThis image is available from the National Library of Wales You can view this image in its original context on the NLW Catalogue\n",
+        "sha256": "8cf2fb97b51413909e8a255d9033f2a297e71bc21d44574d60a8eb42670de56c",
+        "bytes": 159750,
+        "canonicalFile": "Países/HIST-Q816814-Kingdom-of-Gwynedd/retratos/portrait-b35e540be730d27f8423.jpg",
+        "caption": "Retrato imaginario posterior de Maelgwn Gwynedd; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q2705883",
+      "name": "Rhun Hir ap Maelgwn",
+      "role": "Rey de Gwynedd",
+      "start": "0547-01-01",
+      "end": "0582-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rhun_ap_Maelgwn",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q2631966",
+      "name": "Beli ap Rhun",
+      "role": "Rey de Gwynedd",
+      "start": "0582-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Beli_ap_Rhun",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q2419470",
+      "name": "Iago ap Beli",
+      "role": "Rey de Gwynedd",
+      "start": "0599-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Iago_ap_Beli",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cadwallon_Lawhir_ap_Einion",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Gwynedd"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Kingdom of Gwynedd",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "d981dd48cd842b47e450c25fabc26a905323c1335c464cee0223ecbb6725184c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2027,
+        2202
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Beli ap Rhun",
+        "title": "Beli ap Rhun",
+        "person": "Q2631966",
+        "name": "Beli ap Rhun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Beli_ap_Rhun",
+        "identityResolution": {
+          "requested": "Beli ap Rhun",
+          "canonical": "Beli ap Rhun",
+          "qid": "Q2631966"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q139765204",
+          "start": "0582-01-01",
+          "end": "0599-01-01",
+          "precision": 9,
+          "statement": "Q2631966$903afc5d-4c7e-75e1-fcc4-4d7c0cd1ad46",
+          "label": "King of Gwynedd"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2631966",
+        "title": "Beli ap Rhun",
+        "source": "https://en.wikipedia.org/wiki/Beli_ap_Rhun",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Cadwallon Lawhir ap Einion",
+        "title": "Cadwallon Lawhir ap Einion",
+        "person": "Q2705895",
+        "name": "Cadwallon Lawhir",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cadwallon_Lawhir",
+        "identityResolution": {
+          "requested": "Cadwallon Lawhir ap Einion",
+          "canonical": "Cadwallon Lawhir",
+          "qid": "Q2705895"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q139765204",
+          "start": "0500-01-01",
+          "end": "0534-01-01",
+          "precision": 9,
+          "statement": "Q2705895$88835178-47cf-0801-7d90-37c35f8098f3",
+          "label": "King of Gwynedd"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2705895",
+        "title": "Cadwallon Lawhir",
+        "source": "https://en.wikipedia.org/wiki/Cadwallon_Lawhir",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Gwynedd",
+            "raw": "c. 500 – c. 534",
+            "parsed": {
+              "start": "0500-01-01",
+              "end": "0534-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Iago ap Beli",
+        "title": "Iago ap Beli",
+        "person": "Q2419470",
+        "name": "Iago ap Beli",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Iago_ap_Beli",
+        "identityResolution": {
+          "requested": "Iago ap Beli",
+          "canonical": "Iago ap Beli",
+          "qid": "Q2419470"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q139765204",
+          "start": "0599-01-01",
+          "end": "0613-01-01",
+          "precision": 9,
+          "statement": "Q2419470$c529921d-404d-8389-4fb5-9ad22312908b",
+          "label": "King of Gwynedd"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2419470",
+        "title": "Iago ap Beli",
+        "source": "https://en.wikipedia.org/wiki/Iago_ap_Beli",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Maelgwn Gwynedd",
+        "title": "Maelgwn Gwynedd",
+        "person": "Q886399",
+        "name": "Maelgwn Gwynedd",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Maelgwn_Gwynedd",
+        "identityResolution": {
+          "requested": "Maelgwn Gwynedd",
+          "canonical": "Maelgwn Gwynedd",
+          "qid": "Q886399"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q139765204",
+          "start": "0534-01-01",
+          "end": "0547-01-01",
+          "precision": 9,
+          "statement": "Q886399$219c015f-bcfb-4f61-b0e2-68d521cb2f91",
+          "label": "King of Gwynedd"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q886399",
+        "title": "Maelgwn Gwynedd",
+        "source": "https://en.wikipedia.org/wiki/Maelgwn_Gwynedd",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Gwynedd",
+            "raw": "c. 520 – c. 547",
+            "parsed": {
+              "start": "0520-01-01",
+              "end": "0547-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rhun Hir ap Maelgwn",
+        "title": "Rhun Hir ap Maelgwn",
+        "person": "Q2705883",
+        "name": "Rhun Hir ap Maelgwn",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rhun_ap_Maelgwn",
+        "identityResolution": {
+          "requested": "Rhun Hir ap Maelgwn",
+          "canonical": "Rhun ap Maelgwn",
+          "qid": "Q2705883"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q139765204",
+          "start": "0547-01-01",
+          "end": "0582-01-01",
+          "precision": 9,
+          "statement": "Q2705883$134733e1-4d30-ae37-8200-9de9382cd71b",
+          "label": "King of Gwynedd"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2705883",
+        "title": "Rhun ap Maelgwn",
+        "source": "https://en.wikipedia.org/wiki/Rhun_ap_Maelgwn",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2705895",
+        "title": "Cadwallon Lawhir ap Einion",
+        "source": "https://en.wikipedia.org/wiki/Cadwallon_Lawhir",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Gwynedd",
+          "raw": "c. 500 – c. 534",
+          "parsed": {
+            "start": "0500-01-01",
+            "end": "0534-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q886399",
+        "title": "Maelgwn Gwynedd",
+        "source": "https://en.wikipedia.org/wiki/Maelgwn_Gwynedd",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Gwynedd",
+          "raw": "c. 520 – c. 547",
+          "parsed": {
+            "start": "0520-01-01",
+            "end": "0547-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2705883",
+        "title": "Rhun Hir ap Maelgwn",
+        "source": "https://en.wikipedia.org/wiki/Rhun_ap_Maelgwn",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q139765204",
+          "start": "0547-01-01",
+          "end": "0582-01-01",
+          "precision": 9,
+          "statement": "Q2705883$134733e1-4d30-ae37-8200-9de9382cd71b",
+          "label": "King of Gwynedd"
+        }
+      },
+      {
+        "person": "Q2631966",
+        "title": "Beli ap Rhun",
+        "source": "https://en.wikipedia.org/wiki/Beli_ap_Rhun",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q139765204",
+          "start": "0582-01-01",
+          "end": "0599-01-01",
+          "precision": 9,
+          "statement": "Q2631966$903afc5d-4c7e-75e1-fcc4-4d7c0cd1ad46",
+          "label": "King of Gwynedd"
+        }
+      },
+      {
+        "person": "Q2419470",
+        "title": "Iago ap Beli",
+        "source": "https://en.wikipedia.org/wiki/Iago_ap_Beli",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q139765204",
+          "start": "0599-01-01",
+          "end": "0613-01-01",
+          "precision": 9,
+          "statement": "Q2419470$c529921d-404d-8389-4fb5-9ad22312908b",
+          "label": "King of Gwynedd"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "mediaReview": [
+    {
+      "person": "Q886399",
+      "name": "Maelgwn Gwynedd",
+      "title": "History of the Kings (f.96.v) Maelgwn Gwynedd Detail.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:History_of_the_Kings_(f.96.v)_Maelgwn_Gwynedd_Detail.jpg",
+      "sha256": "8cf2fb97b51413909e8a255d9033f2a297e71bc21d44574d60a8eb42670de56c",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Maelgwn Gwynedd; no retrato contemporáneo."
+    }
+  ]
+}

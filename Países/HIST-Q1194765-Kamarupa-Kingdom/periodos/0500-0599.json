@@ -1,0 +1,220 @@
+{
+  "key": "HIST-Q1194765",
+  "identity": {
+    "qid": "Q1194765",
+    "name": "Kamarupa Kingdom"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Kamarupa",
+      "officePattern": "King|Maharaja|Varman",
+      "titles": [
+        "Narayana Varman",
+        "Bhuti Varman",
+        "Chandramukhavarman",
+        "Sthitavarman",
+        "Susthitavarman"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kamarupa Kingdom"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Kamarupa Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "b02a4828febbc9077f2092c0a69a639ef5513a9c6801d94ba8977a735060f49f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1792,
+        2091
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bhuti Varman",
+        "title": "Bhuti Varman",
+        "person": "Q1143914",
+        "name": "Bhuti Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bhutivarman",
+        "identityResolution": {
+          "requested": "Bhuti Varman",
+          "canonical": "Bhutivarman",
+          "qid": "Q1143914"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1143914",
+        "title": "Bhutivarman",
+        "source": "https://en.wikipedia.org/wiki/Bhutivarman",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chandramukhavarman",
+        "title": "Chandramukhavarman",
+        "person": "Q1144260",
+        "name": "Chandramukha Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chandramukhavarman",
+        "identityResolution": {
+          "requested": "Chandramukhavarman",
+          "canonical": "Chandramukhavarman",
+          "qid": "Q1144260"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1144260",
+        "title": "Chandramukhavarman",
+        "source": "https://en.wikipedia.org/wiki/Chandramukhavarman",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Narayana Varman",
+        "title": "Narayana Varman",
+        "person": "Q1143906",
+        "name": "Narayana Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Narayanavarman",
+        "identityResolution": {
+          "requested": "Narayana Varman",
+          "canonical": "Narayanavarman",
+          "qid": "Q1143906"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1143906",
+        "title": "Narayanavarman",
+        "source": "https://en.wikipedia.org/wiki/Narayanavarman",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sthitavarman",
+        "title": "Sthitavarman",
+        "person": "Q1144271",
+        "name": "Sthita Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sthitavarman",
+        "identityResolution": {
+          "requested": "Sthitavarman",
+          "canonical": "Sthitavarman",
+          "qid": "Q1144271"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1144271",
+        "title": "Sthitavarman",
+        "source": "https://en.wikipedia.org/wiki/Sthitavarman",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Susthitavarman",
+        "title": "Susthitavarman",
+        "person": "Q1144253",
+        "name": "Susthita Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Susthitavarman",
+        "identityResolution": {
+          "requested": "Susthitavarman",
+          "canonical": "Susthitavarman",
+          "qid": "Q1144253"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1144253",
+        "title": "Susthitavarman",
+        "source": "https://en.wikipedia.org/wiki/Susthitavarman",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Narayana Varman",
+        "person": "Q1143906",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Bhuti Varman",
+        "person": "Q1143914",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Chandramukhavarman",
+        "person": "Q1144260",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Sthitavarman",
+        "person": "Q1144271",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Susthitavarman",
+        "person": "Q1144253",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

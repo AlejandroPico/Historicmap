@@ -1,0 +1,363 @@
+{
+  "key": "HIST-Q2441129",
+  "identity": {
+    "qid": "Q2441129",
+    "name": "Early Lý Dynasty"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de la primera dinastía Lý",
+      "officePattern": "Emperor|Ruler|King",
+      "titles": [
+        "Lý Nam Đế",
+        "Triệu Việt Vương",
+        "Lý Phật Tử"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q708341",
+      "name": "Lý Nam Đế",
+      "role": "Gobernante de la primera dinastía Lý",
+      "start": "0544-01-01",
+      "end": "0548-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/L%C3%BD_Nam_%C4%90%E1%BA%BF",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-9ef0aedf1bd99a852a32.jpg",
+        "title": "Emperor Ly Nam De.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Emperor_Ly_Nam_De.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Emperor_Ly_Nam_De.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Ly_Nam_De.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://masterpieces.asemus.museum/masterpiece/detail.nhn?objectId=12578",
+        "sha256": "86b4063d314e2871c3da300cf82f0e5ba86c187e768074670a4d5f27fd3a4da4",
+        "bytes": 106146,
+        "canonicalFile": "Países/HIST-Q2441129-Early-Ly-Dynasty/retratos/portrait-9ef0aedf1bd99a852a32.jpg",
+        "caption": "Retrato imaginario posterior de Lý Nam Đế; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q7841468",
+      "name": "Trieu Viet Vuong",
+      "role": "Gobernante de la primera dinastía Lý",
+      "start": "0548-01-01",
+      "end": "0571-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tri%E1%BB%87u_Vi%E1%BB%87t_V%C6%B0%C6%A1ng",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q5682298",
+      "name": "Hau Ly Nam De",
+      "role": "Gobernante de la primera dinastía Lý",
+      "start": "0571-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/L%C3%BD_Nam_%C4%90%E1%BA%BF",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Early Lý Dynasty"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Early Lý Dynasty",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "4cd0019e8862fb23a6ae7938905485eeb082c83966b7fd13107b25fb3ddb699a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2049,
+        2103,
+        2204
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Lý Nam Đế",
+        "title": "Lý Nam Đế",
+        "person": "Q708341",
+        "name": "Lý Nam Đế",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/L%C3%BD_Nam_%C4%90%E1%BA%BF",
+        "identityResolution": {
+          "requested": "Lý Nam Đế",
+          "canonical": "Lý Nam Đế",
+          "qid": "Q708341"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q39018",
+          "start": "0544-01-01",
+          "end": "0548-01-01",
+          "precision": 9,
+          "statement": "Q708341$b23c9ee8-4d7c-48c9-bf25-cb94d9964780",
+          "label": "emperador"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q708341",
+        "title": "Lý Nam Đế",
+        "source": "https://en.wikipedia.org/wiki/L%C3%BD_Nam_%C4%90%E1%BA%BF",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Vạn Xuân",
+            "raw": "544–548",
+            "parsed": {
+              "start": "0544-01-01",
+              "end": "0548-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Nam Việt",
+            "raw": "544–548",
+            "parsed": {
+              "start": "0544-01-01",
+              "end": "0548-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Lý Phật Tử",
+        "title": "Lý Phật Tử",
+        "person": "Q5682298",
+        "name": "Hau Ly Nam De",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF",
+        "identityResolution": {
+          "requested": "Lý Phật Tử",
+          "canonical": "Hậu Lý Nam Đế",
+          "qid": "Q5682298"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q39018",
+          "start": "0571-01-01",
+          "end": "0602-01-01",
+          "precision": 9,
+          "statement": "Q5682298$912cd27d-42d2-67e6-0af8-2277cbdf0a94",
+          "label": "emperador"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5682298",
+        "title": "Hậu Lý Nam Đế",
+        "source": "https://en.wikipedia.org/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Vạn Xuân",
+            "raw": "571–602",
+            "parsed": {
+              "start": "0571-01-01",
+              "end": "0602-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Vietnam",
+            "raw": "571–602",
+            "parsed": {
+              "start": "0571-01-01",
+              "end": "0602-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Triệu Việt Vương",
+        "title": "Triệu Việt Vương",
+        "person": "Q7841468",
+        "name": "Trieu Viet Vuong",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tri%E1%BB%87u_Vi%E1%BB%87t_V%C6%B0%C6%A1ng",
+        "identityResolution": {
+          "requested": "Triệu Việt Vương",
+          "canonical": "Triệu Việt Vương",
+          "qid": "Q7841468"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q39018",
+          "start": "0548-01-01",
+          "end": "0571-01-01",
+          "precision": 9,
+          "statement": "Q7841468$5cc18616-49dc-dea7-bedb-ddf22c581d08",
+          "label": "emperador"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7841468",
+        "title": "Triệu Việt Vương",
+        "source": "https://en.wikipedia.org/wiki/Tri%E1%BB%87u_Vi%E1%BB%87t_V%C6%B0%C6%A1ng",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Vạn Xuân",
+            "raw": "548–555 co-reigned with [[Lý Thiên Bảo]], 555–571 as sole ruler",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Vietnam",
+            "raw": "548–571",
+            "parsed": {
+              "start": "0548-01-01",
+              "end": "0571-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q708341",
+        "title": "Lý Nam Đế",
+        "source": "https://en.wikipedia.org/wiki/L%C3%BD_Nam_%C4%90%E1%BA%BF",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Vạn Xuân",
+          "raw": "544–548",
+          "parsed": {
+            "start": "0544-01-01",
+            "end": "0548-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q7841468",
+        "title": "Triệu Việt Vương",
+        "source": "https://en.wikipedia.org/wiki/Tri%E1%BB%87u_Vi%E1%BB%87t_V%C6%B0%C6%A1ng",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Ruler of Vietnam",
+          "raw": "548–571",
+          "parsed": {
+            "start": "0548-01-01",
+            "end": "0571-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q5682298",
+        "title": "Lý Phật Tử",
+        "source": "https://en.wikipedia.org/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Vạn Xuân",
+          "raw": "571–602",
+          "parsed": {
+            "start": "0571-01-01",
+            "end": "0602-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "mediaReview": [
+    {
+      "person": "Q708341",
+      "name": "Lý Nam Đế",
+      "title": "Emperor Ly Nam De.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Emperor_Ly_Nam_De.jpg",
+      "sha256": "86b4063d314e2871c3da300cf82f0e5ba86c187e768074670a4d5f27fd3a4da4",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Lý Nam Đế; no retrato contemporáneo."
+    }
+  ]
+}

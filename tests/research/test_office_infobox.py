@@ -35,4 +35,9 @@ class OfficeInfoboxTests(unittest.TestCase):
   r=m.extract('{{Infobox royalty|succession=King|reign=593 – 636 C.E}}');self.assertEqual(r[0]['parsed']['end'],'0636-12-31')
  def test_worded_reign_range_stays_separate_from_personal_dates(self):
   r=m.extract('{{Infobox royalty|succession=Ruler of Bulgars|reign=667 to 690 CE|birth_date=620|death_date=692}}');self.assertEqual(r[0]['parsed']['start'],'0667-01-01');self.assertEqual(r[0]['parsed']['end'],'0690-12-31')
+ def test_wrapped_date_is_not_replaced_by_a_short_designation(self):
+  r=m.extract('{{Infobox royalty|succession=Eastern Roman emperor|reign=13 August 582 – {{nowr|27 November 602}}|reign_type=Augustus|reign1=5 August 582 – 13 August 582|reign_type1=Caesar}}');self.assertEqual(r[0]['parsed']['end'],'0602-11-27');self.assertEqual(r[1]['reignType'],'Caesar')
+ def test_shared_year_in_month_first_reign_and_compact_circa_end(self):
+  r=m.extract('{{Infobox royalty|succession=Emperor of Northern Wei|reign=April 2 – May 17, 528}}');self.assertEqual(r[0]['parsed']['start'],'0528-04-02')
+  r=m.extract("{{Infobox royalty|succession=Ajaw of Tikal|reign=April 19, 511-c.527}}");self.assertEqual(r[0]['parsed']['end'],'0527-12-31')
 if __name__=='__main__':unittest.main()

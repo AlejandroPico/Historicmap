@@ -1,0 +1,88 @@
+{
+  "key": "MAYA-TIKAL",
+  "name": "Corte y dinastía de Tikal",
+  "qid": "",
+  "aliases": [
+    "Corte y dinastía de Tikal"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "MAYA-TIKAL"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q4506859",
+      "name": "Chak Tok Ich'aak II.",
+      "role": "Ajaw de Tikal",
+      "start": "0500-01-01",
+      "end": "0508-07-24",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Chak_Tok_Ich%CA%BCaak_II",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q6470694",
+      "name": "Señora de Tikal · Ix Ch’ajan Mut Ajaw",
+      "role": "Ajaw de Tikal",
+      "start": "0511-04-19",
+      "end": "0527-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lady_of_Tikal",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q4210292",
+      "name": "Kaloomte' Bahlam",
+      "role": "Ajaw de Tikal",
+      "start": "0511-04-19",
+      "end": "0527-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kaloomte%CA%BC_Bahlam",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q4539889",
+      "name": "Wak Chan K'awiil",
+      "role": "Ajaw de Tikal",
+      "start": "0537-12-27",
+      "end": "0562-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wak_Chan_K%CA%BCawiil",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q4220854",
+      "name": "Cráneo Animal · nombre convencional",
+      "role": "Ajaw de Tikal",
+      "start": "0562-01-01",
+      "end": "0593-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Animal_Skull",
+      "note": "Reinado de datación aproximada posterior a562; la ventana no acredita día de entronización ni control continuo.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

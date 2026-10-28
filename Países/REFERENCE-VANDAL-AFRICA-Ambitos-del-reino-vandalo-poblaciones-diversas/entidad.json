@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-VANDAL-AFRICA",
+  "name": "Ámbitos del reino vándalo · poblaciones diversas",
+  "qid": "",
+  "aliases": [
+    "Vandals",
+    "Ámbitos del reino vándalo · poblaciones diversas"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 154,
+      "start": null,
+      "end": null,
+      "name": "Vandals",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-VANDAL-AFRICA-Y0500:0",
+      "contextKey": "REFERENCE-VANDAL-AFRICA",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/REFERENCE-VANDAL-AFRICA-Ambitos-del-reino-vandalo-poblaciones-diversas/poblamiento/REFERENCE-VANDAL-AFRICA-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

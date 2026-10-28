@@ -1,0 +1,85 @@
+{
+  "key": "CULTURE-PLATEAU-Y0500",
+  "contextKey": "CULTURE-PLATEAU",
+  "ownerKey": "CULTURE-PLATEAU",
+  "name": "Comunidades de la meseta noroccidental",
+  "originalNames": [
+    "Plateau fichers and hunter gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    500,
+    599
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea500 contiene etiquetas de épocas distintas. La ventana500–599 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#ae957f",
+  "focus": [
+    -120.12782,
+    48.56461
+  ],
+  "phases": [
+    {
+      "start": 500,
+      "end": 599,
+      "label": "Comunidades de la meseta noroccidental",
+      "dateBasis": "Referencia regional de la fuente editorial500; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-PLATEAU-Y0500.geojson",
+  "geometrySha256": "298bfe271731a48ff77022a706f86c6dbbe610ca0ee514434ca7380f261cbc9f",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+    "year": 500,
+    "featureIds": [
+      66
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1"
+  },
+  "review": "0.35.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final599 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en600."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Plateau fichers and hunter gatherers",
+      "ABBREVN": "Plateau fichers and hunter gatherers",
+      "SUBJECTO": "Plateau fichers and hunter gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Plateau fichers and hunter gatherers"
+    }
+  ],
+  "sourceGrouping": [
+    "Plateau fichers and hunter gatherers"
+  ]
+}

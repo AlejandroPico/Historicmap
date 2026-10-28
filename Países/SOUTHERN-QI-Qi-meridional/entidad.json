@@ -1,0 +1,78 @@
+{
+  "key": "SOUTHERN-QI",
+  "name": "Qi meridional",
+  "qid": "Q62456",
+  "aliases": [
+    "Qi meridional",
+    "Southern Qi"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SOUTHERN-QI"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1336575",
+      "name": "Xiao Baojuan",
+      "role": "Emperador de Qi meridional",
+      "start": "0500-01-01",
+      "end": "0501-12-31",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Xiao_Baojuan",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-500-0.35",
+      "portrait": {
+        "file": "media/portrait-f70d633c1b3405d064af.jpg",
+        "title": "帝鉴图说.Recueil Historique des Principaux Traits de la Vie des Empereurs Chinois.95帧图.彩绘册页.约18世纪 (page 48) (萧宝卷 潘玉儿 cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%E5%B8%9D%E9%89%B4%E5%9B%BE%E8%AF%B4.Recueil_Historique_des_Principaux_Traits_de_la_Vie_des_Empereurs_Chinois.95%E5%B8%A7%E5%9B%BE.%E5%BD%A9%E7%BB%98%E5%86%8C%E9%A1%B5.%E7%BA%A618%E4%B8%96%E7%BA%AA_(page_48)_(%E8%90%A7%E5%AE%9D%E5%8D%B7_%E6%BD%98%E7%8E%89%E5%84%BF_cropped).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/%E5%B8%9D%E9%89%B4%E5%9B%BE%E8%AF%B4.Recueil_Historique_des_Principaux_Traits_de_la_Vie_des_Empereurs_Chinois.95%E5%B8%A7%E5%9B%BE.%E5%BD%A9%E7%BB%98%E5%86%8C%E9%A1%B5.%E7%BA%A618%E4%B8%96%E7%BA%AA_%28page_48%29_%28%E8%90%A7%E5%AE%9D%E5%8D%B7_%E6%BD%98%E7%8E%89%E5%84%BF_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "书格",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "b3e384e11e2e715def28e5ad00221804374ca52f1496eef57dceef617148c6b4",
+        "bytes": 304531,
+        "canonicalFile": "Países/SOUTHERN-QI-Qi-meridional/retratos/portrait-f70d633c1b3405d064af.jpg",
+        "caption": "Retrato imaginario posterior de Xiao Baojuan; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q1190420",
+      "name": "He · Qi del Sur",
+      "role": "Emperador de Qi meridional",
+      "start": "0501-01-01",
+      "end": "0502-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_He_of_Southern_Qi",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1928",
+      "start": 500,
+      "end": 509,
+      "name": "Southern Qi",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

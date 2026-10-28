@@ -1,0 +1,940 @@
+{
+  "key": "SUEBIC-KINGDOM",
+  "identity": {
+    "qid": "Q1048918",
+    "name": "Reino suevo"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de los suevos",
+      "officePattern": "King.*(?:Suebi|Suev|Galicia)",
+      "titles": [
+        "Hermeric (Suebian king)",
+        "Rechila",
+        "Rechiar",
+        "Chararic (Suebian king)",
+        "Ariamir",
+        "Theodemir (Suebian king)",
+        "Miro (Suebian king)",
+        "Eboric",
+        "Audeca",
+        "Malaric"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2602296",
+      "name": "Carriarico",
+      "role": "Rey de los suevos",
+      "start": "0550-01-01",
+      "end": "0558-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chararic_%28Suebian_king%29",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q1650213",
+      "name": "Ariamir",
+      "role": "Rey de los suevos",
+      "start": "0558-01-01",
+      "end": "0561-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ariamir",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-75f9a9b92e1d447086c6.jpg",
+        "title": "Ariamirogaliza.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ariamirogaliza.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Ariamirogaliza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ariamirogaliza.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Códice Vigiliano del monasterio de El Escorial.",
+        "sha256": "2c84491c9291226d0158216ddcd52cd6e083d703a51cf1046842f01671495c42",
+        "bytes": 240890,
+        "canonicalFile": "Países/SUEBIC-KINGDOM-Reino-suevo/retratos/portrait-75f9a9b92e1d447086c6.jpg",
+        "caption": "Representación posterior de Ariamir; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q511273",
+      "name": "Teodomiro",
+      "role": "Rey de los suevos",
+      "start": "0561-01-01",
+      "end": "0570-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theodemir_%28Suebian_king%29",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-0d3527df0f2405723c5a.jpg",
+        "title": "Teodomiro rey suevo-570-ret.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Teodomiro_rey_suevo-570-ret.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Teodomiro_rey_suevo-570-ret.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Basilio",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "abf1dd02b59d8ad74d51cd56b0021a8266cf01761f49d43b372e39c0acacbef0",
+        "bytes": 334292,
+        "canonicalFile": "Países/SUEBIC-KINGDOM-Reino-suevo/retratos/portrait-0d3527df0f2405723c5a.jpg",
+        "caption": "Retrato imaginario posterior de Teodomiro; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q887358",
+      "name": "Miro",
+      "role": "Rey de los suevos",
+      "start": "0570-01-01",
+      "end": "0583-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Miro_%28Suebian_king%29",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-1c7c961f5af70efdc4a2.png",
+        "title": "Miro, Suevic king of Galicia, and Martin of Braga.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Miro,_Suevic_king_of_Galicia,_and_Martin_of_Braga.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Miro%2C_Suevic_king_of_Galicia%2C_and_Martin_of_Braga.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Miro,_Suevic_king_of_Galicia,_and_Martin_of_Braga.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "971033f02a3d877e24d1a1fd131cb72655cc2f192b80f95e42fa26cb1d48bb96",
+        "bytes": 126837,
+        "canonicalFile": "Países/SUEBIC-KINGDOM-Reino-suevo/retratos/portrait-1c7c961f5af70efdc4a2.png",
+        "caption": "Representación posterior de Miro; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q768276",
+      "name": "Eborico",
+      "role": "Rey de los suevos",
+      "start": "0583-01-01",
+      "end": "0584-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Eboric",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q2347552",
+      "name": "Andeca",
+      "role": "Rey de los suevos",
+      "start": "0584-01-01",
+      "end": "0585-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Audeca",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q2097689",
+      "name": "Malarico",
+      "role": "Rey de los suevos",
+      "start": "0585-01-01",
+      "end": "0585-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Malaric",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 585,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hermeric_%28Suebian_king%29",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of the Suebi"
+        ],
+        "start": 500,
+        "end": 585,
+        "label": "Reino suevo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of the Suebi"
+        ],
+        "start": 586,
+        "end": 599,
+        "label": "Reino suevo · referencia regional de la fuente",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no acredita una entidad política unitaria vigente ni prolonga su lista de gobernantes."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "d1c6aafd09b5c998e94c4810ea606191fca31f45d73f23b9ff756e4f8a991b54",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1879,
+        2145
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ariamir",
+        "title": "Ariamir",
+        "person": "Q1650213",
+        "name": "Ariamir",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ariamir",
+        "identityResolution": {
+          "requested": "Ariamir",
+          "canonical": "Ariamir",
+          "qid": "Q1650213"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1650213",
+        "title": "Ariamir",
+        "source": "https://en.wikipedia.org/wiki/Ariamir",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "558–561",
+            "parsed": {
+              "start": "0558-01-01",
+              "end": "0561-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "558&ndash;561",
+            "parsed": {
+              "start": "0558-01-01",
+              "end": "0561-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Audeca",
+        "title": "Audeca",
+        "person": "Q2347552",
+        "name": "Andeca",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Audeca",
+        "identityResolution": {
+          "requested": "Audeca",
+          "canonical": "Audeca",
+          "qid": "Q2347552"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0584-01-01",
+          "end": "0585-01-01",
+          "precision": 9,
+          "statement": "Q2347552$724623a3-42cd-5554-4e2b-83a1b41028e5",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2347552",
+        "title": "Audeca",
+        "source": "https://en.wikipedia.org/wiki/Audeca",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Suevi",
+            "raw": "584–585",
+            "parsed": {
+              "start": "0584-01-01",
+              "end": "0585-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "584&ndash;585",
+            "parsed": {
+              "start": "0584-01-01",
+              "end": "0585-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chararic (Suebian king)",
+        "title": "Chararic (Suebian king)",
+        "person": "Q2602296",
+        "name": "Carriarico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chararic_%28Suebian_king%29",
+        "identityResolution": {
+          "requested": "Chararic (Suebian king)",
+          "canonical": "Chararic (Suebian king)",
+          "qid": "Q2602296"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0550-01-01",
+          "end": "0559-01-01",
+          "precision": 9,
+          "statement": "Q2602296$8dc92168-400c-6ed0-8cf4-cbe83d88b014",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2602296",
+        "title": "Chararic (Suebian king)",
+        "source": "https://en.wikipedia.org/wiki/Chararic_%28Suebian_king%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "c. 550 – 558/559",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "550&ndash;558",
+            "parsed": {
+              "start": "0550-01-01",
+              "end": "0558-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Eboric",
+        "title": "Eboric",
+        "person": "Q768276",
+        "name": "Eborico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Eboric",
+        "identityResolution": {
+          "requested": "Eboric",
+          "canonical": "Eboric",
+          "qid": "Q768276"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0583-01-01",
+          "end": "0584-01-01",
+          "precision": 9,
+          "statement": "Q768276$261b23ca-43f0-6410-7550-a506a2c09502",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q768276",
+        "title": "Eboric",
+        "source": "https://en.wikipedia.org/wiki/Eboric",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "583–584",
+            "parsed": {
+              "start": "0583-01-01",
+              "end": "0584-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "583–584",
+            "parsed": {
+              "start": "0583-01-01",
+              "end": "0584-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hermeric (Suebian king)",
+        "title": "Hermeric (Suebian king)",
+        "person": "",
+        "name": "Hermeric (Suebian king)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Hermeric_%28Suebian_king%29",
+        "identityResolution": {
+          "requested": "Hermeric (Suebian king)",
+          "canonical": "Hermeric (Suebian king)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Malaric",
+        "title": "Malaric",
+        "person": "Q2097689",
+        "name": "Malarico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Malaric",
+        "identityResolution": {
+          "requested": "Malaric",
+          "canonical": "Malaric",
+          "qid": "Q2097689"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0585-01-01",
+          "end": "0586-01-01",
+          "precision": 9,
+          "statement": "Q2097689$b2b5361f-49fa-2917-76f3-a7accce0184e",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2097689",
+        "title": "Malaric",
+        "source": "https://en.wikipedia.org/wiki/Malaric",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Suevi",
+            "raw": "585",
+            "parsed": {
+              "start": "0585-01-01",
+              "end": "0585-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "585",
+            "parsed": {
+              "start": "0585-01-01",
+              "end": "0585-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Miro (Suebian king)",
+        "title": "Miro (Suebian king)",
+        "person": "Q887358",
+        "name": "Miro",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Miro_%28Suebian_king%29",
+        "identityResolution": {
+          "requested": "Miro (Suebian king)",
+          "canonical": "Miro (Suebian king)",
+          "qid": "Q887358"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0570-01-01",
+          "end": "0583-01-01",
+          "precision": 9,
+          "statement": "Q887358$37140ac9-4dbe-0ea6-d708-dcaae1a471a7",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q887358",
+        "title": "Miro (Suebian king)",
+        "source": "https://en.wikipedia.org/wiki/Miro_%28Suebian_king%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "570–583",
+            "parsed": {
+              "start": "0570-01-01",
+              "end": "0583-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "570&ndash;583",
+            "parsed": {
+              "start": "0570-01-01",
+              "end": "0583-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rechiar",
+        "title": "Rechiar",
+        "person": "Q364260",
+        "name": "Requiario",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rechiar",
+        "identityResolution": {
+          "requested": "Rechiar",
+          "canonical": "Rechiar",
+          "qid": "Q364260"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q364260",
+        "title": "Rechiar",
+        "source": "https://en.wikipedia.org/wiki/Rechiar",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "448–456",
+            "parsed": {
+              "start": "0448-01-01",
+              "end": "0456-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "448&ndash;456",
+            "parsed": {
+              "start": "0448-01-01",
+              "end": "0456-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rechila",
+        "title": "Rechila",
+        "person": "Q364161",
+        "name": "Requila",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rechila",
+        "identityResolution": {
+          "requested": "Rechila",
+          "canonical": "Rechila",
+          "qid": "Q364161"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q364161",
+        "title": "Rechila",
+        "source": "https://en.wikipedia.org/wiki/Rechila",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "438&ndash;448",
+            "parsed": {
+              "start": "0438-01-01",
+              "end": "0448-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "438–448",
+            "parsed": {
+              "start": "0438-01-01",
+              "end": "0448-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theodemir (Suebian king)",
+        "title": "Theodemir (Suebian king)",
+        "person": "Q511273",
+        "name": "Teodomiro",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theodemir_%28Suebian_king%29",
+        "identityResolution": {
+          "requested": "Theodemir (Suebian king)",
+          "canonical": "Theodemir (Suebian king)",
+          "qid": "Q511273"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0559-01-01",
+          "end": "0570-01-01",
+          "precision": 9,
+          "statement": "Q511273$9838602e-42ab-64f2-033e-c52ab896df44",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q511273",
+        "title": "Theodemir (Suebian king)",
+        "source": "https://en.wikipedia.org/wiki/Theodemir_%28Suebian_king%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "561–570",
+            "parsed": {
+              "start": "0561-01-01",
+              "end": "0570-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "561&ndash;570",
+            "parsed": {
+              "start": "0561-01-01",
+              "end": "0570-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 7,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2602296",
+        "title": "Chararic (Suebian king)",
+        "source": "https://en.wikipedia.org/wiki/Chararic_%28Suebian_king%29",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Galicia",
+          "raw": "550&ndash;558",
+          "parsed": {
+            "start": "0550-01-01",
+            "end": "0558-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1650213",
+        "title": "Ariamir",
+        "source": "https://en.wikipedia.org/wiki/Ariamir",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Galicia",
+          "raw": "558&ndash;561",
+          "parsed": {
+            "start": "0558-01-01",
+            "end": "0561-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q511273",
+        "title": "Theodemir (Suebian king)",
+        "source": "https://en.wikipedia.org/wiki/Theodemir_%28Suebian_king%29",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Galicia",
+          "raw": "561&ndash;570",
+          "parsed": {
+            "start": "0561-01-01",
+            "end": "0570-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q887358",
+        "title": "Miro (Suebian king)",
+        "source": "https://en.wikipedia.org/wiki/Miro_%28Suebian_king%29",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Galicia",
+          "raw": "570&ndash;583",
+          "parsed": {
+            "start": "0570-01-01",
+            "end": "0583-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q768276",
+        "title": "Eboric",
+        "source": "https://en.wikipedia.org/wiki/Eboric",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Galicia",
+          "raw": "583–584",
+          "parsed": {
+            "start": "0583-01-01",
+            "end": "0584-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2347552",
+        "title": "Audeca",
+        "source": "https://en.wikipedia.org/wiki/Audeca",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Suevi",
+          "raw": "584–585",
+          "parsed": {
+            "start": "0584-01-01",
+            "end": "0585-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2097689",
+        "title": "Malaric",
+        "source": "https://en.wikipedia.org/wiki/Malaric",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Suevi",
+          "raw": "585",
+          "parsed": {
+            "start": "0585-01-01",
+            "end": "0585-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Hermeric (Suebian king)",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "mediaReview": [
+    {
+      "person": "Q1650213",
+      "name": "Ariamir",
+      "title": "Ariamirogaliza.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ariamirogaliza.jpg",
+      "sha256": "2c84491c9291226d0158216ddcd52cd6e083d703a51cf1046842f01671495c42",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Ariamir; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q511273",
+      "name": "Teodomiro",
+      "title": "Teodomiro rey suevo-570-ret.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Teodomiro_rey_suevo-570-ret.jpg",
+      "sha256": "abf1dd02b59d8ad74d51cd56b0021a8266cf01761f49d43b372e39c0acacbef0",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Teodomiro; no retrato contemporáneo."
+    },
+    {
+      "person": "Q887358",
+      "name": "Miro",
+      "title": "Miro, Suevic king of Galicia, and Martin of Braga.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Miro,_Suevic_king_of_Galicia,_and_Martin_of_Braga.png",
+      "sha256": "971033f02a3d877e24d1a1fd131cb72655cc2f192b80f95e42fa26cb1d48bb96",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Miro; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q2347552",
+      "name": "Andeca",
+      "title": "Moneda Audeca.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Moneda_Audeca.jpg",
+      "sha256": "9b921231a7b0054e0d30c5560ae8708e6661c043bea02f190c6a938e7b215c73",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Tipo numismático sin identificación personal deAndeca suficientemente contrastada."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q2347552",
+      "title": "Moneda Audeca.jpg",
+      "reason": "Tipo numismático sin identificación personal deAndeca suficientemente contrastada.",
+      "source": "https://commons.wikimedia.org/wiki/File:Moneda_Audeca.jpg"
+    }
+  ]
+}

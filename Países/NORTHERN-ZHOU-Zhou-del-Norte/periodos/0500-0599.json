@@ -1,0 +1,628 @@
+{
+  "key": "NORTHERN-ZHOU",
+  "identity": {
+    "qid": "Q551067",
+    "name": "Zhou del Norte"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador de Zhou del Norte",
+      "officePattern": "Emperor",
+      "titles": [
+        "Emperor Xiaomin of Northern Zhou",
+        "Emperor Ming of Northern Zhou",
+        "Emperor Wu of Northern Zhou",
+        "Emperor Xuan of Northern Zhou",
+        "Emperor Jing of Northern Zhou"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1149222",
+      "name": "Xiaomin · Zhou del Norte",
+      "role": "Emperador de Zhou del Norte",
+      "start": "0557-01-01",
+      "end": "0557-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xiaomin_of_Northern_Zhou",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q1196041",
+      "name": "Ming · Zhou del Norte",
+      "role": "Emperador de Zhou del Norte",
+      "start": "0557-11-05",
+      "end": "0560-05-30",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ming_of_Northern_Zhou",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q1327591",
+      "name": "Wu · Zhou del Norte",
+      "role": "Emperador de Zhou del Norte",
+      "start": "0560-05-31",
+      "end": "0578-06-21",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Northern_Zhou",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-3a83a143714aa9624460.jpg",
+        "title": "Zhou Wu Tang.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Zhou_Wu_Tang.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Zhou_Wu_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "\nYan Liben",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Zhou_Wu_Tang.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.deepola.com/history/decrypt/2011/0116/1726.html",
+        "sha256": "5323d05c84eee7b5a5a81bc2b88296b9f9e40b60d280a170319c8326b3da7c75",
+        "bytes": 306686,
+        "canonicalFile": "Países/NORTHERN-ZHOU-Zhou-del-Norte/retratos/portrait-3a83a143714aa9624460.jpg",
+        "caption": "Retrato imaginario posterior de Wu · Zhou del Norte; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q1149215",
+      "name": "Xuan · Zhou del Norte",
+      "role": "Emperador de Zhou del Norte",
+      "start": "0578-06-22",
+      "end": "0579-04-01",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xuan_of_Northern_Zhou",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q1149124",
+      "name": "Jing · Zhou del Norte",
+      "role": "Emperador de Zhou del Norte",
+      "start": "0579-04-01",
+      "end": "0581-03-04",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Jing_of_Northern_Zhou",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 557,
+      "end": 581,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Xiaomin_of_Northern_Zhou",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Zhou"
+        ],
+        "start": 500,
+        "end": 556,
+        "label": "Zhou del Norte · referencia regional de la fuente",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no acredita una entidad política unitaria vigente ni prolonga su lista de gobernantes."
+      }
+    },
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Zhou"
+        ],
+        "start": 557,
+        "end": 581,
+        "label": "Zhou del Norte",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Zhou"
+        ],
+        "start": 582,
+        "end": 599,
+        "label": "Zhou del Norte · referencia regional de la fuente",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Contorno de síntesis heredado o agrupación regional; no acredita una entidad política unitaria vigente ni prolonga su lista de gobernantes."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "13f8cb8afb236d1d851ab4f0c6681fc49bdf665810a036634de52485d83b4717",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2114,
+        2147
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Jing of Northern Zhou",
+        "title": "Emperor Jing of Northern Zhou",
+        "person": "Q1149124",
+        "name": "Emperor Jing of Northern Zhou",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Jing_of_Northern_Zhou",
+        "identityResolution": {
+          "requested": "Emperor Jing of Northern Zhou",
+          "canonical": "Emperor Jing of Northern Zhou",
+          "qid": "Q1149124"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0579-03-01",
+          "end": "0581-03-01",
+          "precision": 10,
+          "statement": "Q1149124$2c7a3555-c2ae-437d-9e74-07e6f4b66989",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149124",
+        "title": "Emperor Jing of Northern Zhou",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Jing_of_Northern_Zhou",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Northern Zhou",
+            "raw": "April 1, 579<ref name=ZZTJ173>''[[Zizhi Tongjian]]'', [[:zh:s:資治通鑑/卷173|vol. 173]].</ref><ref>''xinsi'' day of the 2nd month of the 11th year of the ''Taijian'' era.</ref> – March 4, 581<ref>''jiazi'' day of the 2nd month of the 13th year of the ''Taijian'' era</ref><ref name=ZZTJ175>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷175|vol. 175]].</ref>",
+            "parsed": {
+              "start": "0579-04-01",
+              "end": "0581-03-04",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Zhou",
+            "raw": "579–581",
+            "parsed": {
+              "start": "0579-01-01",
+              "end": "0581-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Northern/Western)",
+            "raw": "579–581",
+            "parsed": {
+              "start": "0579-01-01",
+              "end": "0581-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Ming of Northern Zhou",
+        "title": "Emperor Ming of Northern Zhou",
+        "person": "Q1196041",
+        "name": "Emperor Ming of Northern Zhou",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ming_of_Northern_Zhou",
+        "identityResolution": {
+          "requested": "Emperor Ming of Northern Zhou",
+          "canonical": "Emperor Ming of Northern Zhou",
+          "qid": "Q1196041"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0557-01-01",
+          "end": "0560-01-01",
+          "precision": 9,
+          "statement": "Q1196041$e9cd4277-2378-4acf-b959-390d8cc64a17",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1196041",
+        "title": "Emperor Ming of Northern Zhou",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ming_of_Northern_Zhou",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Northern Zhou",
+            "raw": "5 November 557<ref>According to Yuwen Yu's biography in ''Book of Zhou'', he ascended the throne as ''tianwang'' on the ''jiazi'' day of the 9th month of the 1st year of his reign. This corresponds to 5 Nov 557 in the Julian calendar. ([秋九月]甲子，群臣上表劝进，备法驾奉迎。帝固让，群臣固请，是日，即天王位，大赦天下。) ''Zhou Shu'', vol.04</ref> – 30 May 560",
+            "parsed": {
+              "start": "0557-11-05",
+              "end": "0560-05-30",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Wu of Northern Zhou",
+        "title": "Emperor Wu of Northern Zhou",
+        "person": "Q1327591",
+        "name": "Emperor Wu of Northern Zhou",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Northern_Zhou",
+        "identityResolution": {
+          "requested": "Emperor Wu of Northern Zhou",
+          "canonical": "Emperor Wu of Northern Zhou",
+          "qid": "Q1327591"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0560-05-31",
+          "end": "0578-06-21",
+          "precision": 11,
+          "statement": "Q1327591$8253184a-8447-4e6b-94c9-d1a777843ca8",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1327591",
+        "title": "Emperor Wu of Northern Zhou",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Northern_Zhou",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Northern Zhou",
+            "raw": "31 May 560<ref>(武成二年夏四月...壬寅，即皇帝位，大赦天下。) ''Book of Zhou'', vol.05</ref> – 21 June 578",
+            "parsed": {
+              "start": "0560-05-31",
+              "end": "0578-06-21",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Zhou",
+            "raw": "560–578",
+            "parsed": {
+              "start": "0560-01-01",
+              "end": "0578-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Western)",
+            "raw": "560–578",
+            "parsed": {
+              "start": "0560-01-01",
+              "end": "0578-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Shanxi)",
+            "raw": "577–578",
+            "parsed": {
+              "start": "0577-01-01",
+              "end": "0578-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Northern/Central)",
+            "raw": "577–578",
+            "parsed": {
+              "start": "0577-01-01",
+              "end": "0578-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Xiaomin of Northern Zhou",
+        "title": "Emperor Xiaomin of Northern Zhou",
+        "person": "Q1149222",
+        "name": "Emperor Xiaomin of Northern Zhou",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Xiaomin_of_Northern_Zhou",
+        "identityResolution": {
+          "requested": "Emperor Xiaomin of Northern Zhou",
+          "canonical": "Emperor Xiaomin of Northern Zhou",
+          "qid": "Q1149222"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0557-01-01",
+          "end": "0557-09-01",
+          "precision": 10,
+          "statement": "Q1149222$F1E053B0-CFCC-4981-9D06-C0042852D323",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149222",
+        "title": "Emperor Xiaomin of Northern Zhou",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Xiaomin_of_Northern_Zhou",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Northern Zhou",
+            "raw": "February 15, 557<ref name=ZZTJ167/><ref name=AS>[[Academia Sinica]] [http://sinocal.sinica.edu.tw Chinese-Western Calendar Converter].</ref> – late October 557<ref name=ZZTJ167/>",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Zhou",
+            "raw": "557",
+            "parsed": {
+              "start": "0557-01-01",
+              "end": "0557-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Western)",
+            "raw": "557",
+            "parsed": {
+              "start": "0557-01-01",
+              "end": "0557-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Xuan of Northern Zhou",
+        "title": "Emperor Xuan of Northern Zhou",
+        "person": "Q1149215",
+        "name": "Emperor Xuan of Northern Zhou",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Xuan_of_Northern_Zhou",
+        "identityResolution": {
+          "requested": "Emperor Xuan of Northern Zhou",
+          "canonical": "Emperor Xuan of Northern Zhou",
+          "qid": "Q1149215"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0578-06-22",
+          "end": "0579-03-01",
+          "precision": 10,
+          "statement": "Q1149215$b8c9be15-fbf9-4eab-9609-8f7aa645714f",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149215",
+        "title": "Emperor Xuan of Northern Zhou",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Xuan_of_Northern_Zhou",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Northern Zhou",
+            "raw": "22 June 578<ref>''wu'xu'' day of the 6th month of the 1st year of the ''Xuan'zheng'' era. (宣政元年六月丁酉，高祖崩。戊戌，皇太子即皇帝位，...) ''Zhou Shu'', vol.07</ref> – 1 April 579<ref>''xinsi'' day of the 2nd month of the 1st year of the ''Daxiang'' era, per Emperor Jing's biography in ''Book of Zhou''</ref>",
+            "parsed": {
+              "start": "0578-06-22",
+              "end": "0579-04-01",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1149222",
+        "title": "Emperor Xiaomin of Northern Zhou",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Xiaomin_of_Northern_Zhou",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Emperor of Northern Zhou",
+          "raw": "557",
+          "parsed": {
+            "start": "0557-01-01",
+            "end": "0557-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1196041",
+        "title": "Emperor Ming of Northern Zhou",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ming_of_Northern_Zhou",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Northern Zhou",
+          "raw": "5 November 557<ref>According to Yuwen Yu's biography in ''Book of Zhou'', he ascended the throne as ''tianwang'' on the ''jiazi'' day of the 9th month of the 1st year of his reign. This corresponds to 5 Nov 557 in the Julian calendar. ([秋九月]甲子，群臣上表劝进，备法驾奉迎。帝固让，群臣固请，是日，即天王位，大赦天下。) ''Zhou Shu'', vol.04</ref> – 30 May 560",
+          "parsed": {
+            "start": "0557-11-05",
+            "end": "0560-05-30",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1327591",
+        "title": "Emperor Wu of Northern Zhou",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Northern_Zhou",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Northern Zhou",
+          "raw": "31 May 560<ref>(武成二年夏四月...壬寅，即皇帝位，大赦天下。) ''Book of Zhou'', vol.05</ref> – 21 June 578",
+          "parsed": {
+            "start": "0560-05-31",
+            "end": "0578-06-21",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1149215",
+        "title": "Emperor Xuan of Northern Zhou",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Xuan_of_Northern_Zhou",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Northern Zhou",
+          "raw": "22 June 578<ref>''wu'xu'' day of the 6th month of the 1st year of the ''Xuan'zheng'' era. (宣政元年六月丁酉，高祖崩。戊戌，皇太子即皇帝位，...) ''Zhou Shu'', vol.07</ref> – 1 April 579<ref>''xinsi'' day of the 2nd month of the 1st year of the ''Daxiang'' era, per Emperor Jing's biography in ''Book of Zhou''</ref>",
+          "parsed": {
+            "start": "0578-06-22",
+            "end": "0579-04-01",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1149124",
+        "title": "Emperor Jing of Northern Zhou",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Jing_of_Northern_Zhou",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Northern Zhou",
+          "raw": "April 1, 579<ref name=ZZTJ173>''[[Zizhi Tongjian]]'', [[:zh:s:資治通鑑/卷173|vol. 173]].</ref><ref>''xinsi'' day of the 2nd month of the 11th year of the ''Taijian'' era.</ref> – March 4, 581<ref>''jiazi'' day of the 2nd month of the 13th year of the ''Taijian'' era</ref><ref name=ZZTJ175>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷175|vol. 175]].</ref>",
+          "parsed": {
+            "start": "0579-04-01",
+            "end": "0581-03-04",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat035-14",
+      "name": "Chang’an · proclamación de Zhou del Norte",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 557,
+      "end": 560,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Zhou_del_Norte",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Zhou del Norte",
+      "standaloneReference": true
+    },
+    {
+      "id": "seat035-15",
+      "name": "Chang’an",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 561,
+      "end": 581,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Zhou_del_Norte",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Zhou del Norte"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1327591",
+      "name": "Wu · Zhou del Norte",
+      "title": "Zhou Wu Tang.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Zhou_Wu_Tang.jpg",
+      "sha256": "5323d05c84eee7b5a5a81bc2b88296b9f9e40b60d280a170319c8326b3da7c75",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Wu · Zhou del Norte; no retrato contemporáneo."
+    }
+  ]
+}

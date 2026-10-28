@@ -2,15 +2,15 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.34.0** · 28 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.35.0** · 28 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
-Revisión vigente: **pueblos y regiones de600 al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-600-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
+Revisión vigente: **pueblos y regiones de 500 al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-500-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
 
-Ampliación600–699: [geografía, autoridades, culturas y límites de revisión](docs/RESEARCH-600.md). Las fases posteriores se conservan. Cartografía política y áreas culturales se activan por separado en Capas y Filtros, con ambos controles activados al iniciar.
+Ampliación 500–599: [geografía, autoridades, culturas y límites de revisión](docs/RESEARCH-500.md). Las fases posteriores se conservan. Cartografía política y áreas culturales se activan por separado en Capas y Filtros, con ambos controles activados al iniciar.
 
 ## Empezar
 
@@ -31,7 +31,7 @@ Créditos cartográficos integrados en **Datos y fuentes → Créditos del mapa*
 - Regla temporal arrastrable con indicador, fecha y reproducción centrados. La rueda sobre la regla cambia la escala sin desplazar la fecha; sobre el mapa hace zoom geográfico. Las teclas más/menos ajustan la escala y las flechas recorren el tiempo.
 - Mapa a pantalla completa con ocho herramientas en la esquina superior derecha, sin cabecera ni franjas de controles alrededor de la regla. Filtros y Capas en paneles separados.
 - Navegación entre 4.540 Ma y el año del dispositivo, con escala adaptativa no uniforme y años introducidos por el usuario.
-- Cronología anual desde 600: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
+- Cronología anual desde 500: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
 - Control territorial opaco por potencia; colores específicos de regímenes, clientes y bandos. Primera y Segunda Guerra Mundial, Guerra Civil española 1936–1939 y control comunista chino, además de Sinaí, Golán y Crimea. Fuentes anuales y frente de octubre de 1937 identificados con su precisión.
 - [Corrección deEuropaCentral1938–1939](docs/CENTRAL-EUROPE-1939.md): sin manchas alemanas remotas, territorio integrado y Estado eslovaco cliente separado. El contorno eslovaco es una referencia recortada, no un levantamiento exacto de1939.
 - Banderas históricas, autoridades y retratos en las fichas. Catálogo ampliado de mandatos desde1880, con Estados predecesores, administraciones coloniales y cobertura mundial desigual; cada imagen conserva su licencia y autoría. [Alcance y fuentes1900–1919](docs/RESEARCH-1900.md) y [auditoría nominal de carencias](docs/REVIEW-1900-1919.json).

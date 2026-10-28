@@ -1,0 +1,89 @@
+{
+  "key": "WESTERN-WEI",
+  "name": "Wei occidental",
+  "qid": "Q1143164",
+  "aliases": [
+    "Wei occidental",
+    "Western Wei"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WESTERN-WEI"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q2985487",
+      "name": "Wen · Wei occidental",
+      "role": "Emperador de Wei occidental",
+      "start": "0535-02-18",
+      "end": "0551-03-28",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Western_Wei",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q2660296",
+      "name": "Fei · Wei occidental",
+      "role": "Emperador de Wei occidental",
+      "start": "0551-03-28",
+      "end": "0554-03-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Fei_of_Western_Wei",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q2665689",
+      "name": "Gong · Wei occidental",
+      "role": "Emperador de Wei occidental",
+      "start": "0554-03-01",
+      "end": "0557-02-14",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Gong_of_Western_Wei",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1991",
+      "start": 534,
+      "end": 535,
+      "name": "Western Wei",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2016",
+      "start": 536,
+      "end": 554,
+      "name": "Western Wei",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2099",
+      "start": 555,
+      "end": 560,
+      "name": "Western Wei",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

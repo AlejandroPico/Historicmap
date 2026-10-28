@@ -1,0 +1,219 @@
+{
+  "key": "HIST-Q199389",
+  "identity": {
+    "qid": "Q199389",
+    "name": "Principado de Iberia caucásica"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Príncipe presidente de Iberia caucásica",
+      "officePattern": "Prince|Ruler",
+      "titles": [
+        "Guaram I of Iberia",
+        "Stephen I of Iberia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1092477",
+      "name": "Guaram I de Iberia",
+      "role": "Príncipe presidente de Iberia caucásica",
+      "start": "0588-01-01",
+      "end": "0590-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Guaram_I",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q1092494",
+      "name": "Esteban I de Iberia",
+      "role": "Príncipe presidente de Iberia caucásica",
+      "start": "0590-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Stephen_I_of_Iberia",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 588,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Guaram_I_of_Iberia",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Guaram I of Iberia",
+        "title": "Guaram I of Iberia",
+        "person": "Q1092477",
+        "name": "Guaram I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Guaram_I",
+        "identityResolution": {
+          "requested": "Guaram I of Iberia",
+          "canonical": "Guaram I",
+          "qid": "Q1092477"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1092477",
+        "title": "Guaram I",
+        "source": "https://en.wikipedia.org/wiki/Guaram_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Iberia",
+            "raw": "588 - 590",
+            "parsed": {
+              "start": "0588-01-01",
+              "end": "0590-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Stephen I of Iberia",
+        "title": "Stephen I of Iberia",
+        "person": "Q1092494",
+        "name": "Esteban I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Stephen_I_of_Iberia",
+        "identityResolution": {
+          "requested": "Stephen I of Iberia",
+          "canonical": "Stephen I of Iberia",
+          "qid": "Q1092494"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1092494",
+        "title": "Stephen I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Stephen_I_of_Iberia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Iberia",
+            "raw": "590 – 627",
+            "parsed": {
+              "start": "0590-01-01",
+              "end": "0627-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1092477",
+        "title": "Guaram I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Guaram_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Iberia",
+          "raw": "588 - 590",
+          "parsed": {
+            "start": "0588-01-01",
+            "end": "0590-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1092494",
+        "title": "Stephen I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Stephen_I_of_Iberia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Iberia",
+          "raw": "590 – 627",
+          "parsed": {
+            "start": "0590-01-01",
+            "end": "0627-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q1092477",
+      "title": "Victor Langlois. L'éristhaw Gourgen. PL II. No.5.jpg",
+      "reason": "Dibujo numismático con tipos imperiales; no acredita efigie personal del príncipeGuaram.",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor_Langlois._L%27%C3%A9risthaw_Gourgen._PL_II._No.5.jpg"
+    },
+    {
+      "person": "Q1092494",
+      "title": "Victor Langlois. Stéphanos I. PL II. No.13.jpg",
+      "reason": "Dibujo numismático con tipos imperiales; no acredita efigie personal del príncipeEsteban.",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor_Langlois._St%C3%A9phanos_I._PL_II._No.13.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1092477",
+      "name": "Guaram I de Iberia",
+      "title": "Victor Langlois. L'éristhaw Gourgen. PL II. No.5.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor_Langlois._L%27%C3%A9risthaw_Gourgen._PL_II._No.5.jpg",
+      "sha256": "685e727e758f8e2ffcce4417f4b31ab798372a218f4c8064ac1b77b51a77f6d7",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Dibujo numismático con tipos imperiales; no acredita efigie personal del príncipeGuaram."
+    },
+    {
+      "person": "Q1092494",
+      "name": "Esteban I de Iberia",
+      "title": "Victor Langlois. Stéphanos I. PL II. No.13.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor_Langlois._St%C3%A9phanos_I._PL_II._No.13.jpg",
+      "sha256": "9d4532b4890919500f8236dc8eb1e0018ffac73019bde9585f61978e8dc7dc70",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Dibujo numismático con tipos imperiales; no acredita efigie personal del príncipeEsteban."
+    }
+  ]
+}

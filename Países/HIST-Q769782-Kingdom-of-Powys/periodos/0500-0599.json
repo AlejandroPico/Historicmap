@@ -1,0 +1,207 @@
+{
+  "key": "HIST-Q769782",
+  "identity": {
+    "qid": "Q769782",
+    "name": "Kingdom of Powys"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Powys",
+      "officePattern": "King.*Powys",
+      "titles": [
+        "Cyngen Glodrydd",
+        "Brochwel Ysgithrog",
+        "Cynan Garwyn"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2714345",
+      "name": "Brochwel Ysgithrog",
+      "role": "Rey de Powys",
+      "start": "0540-01-01",
+      "end": "0560-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Brochfael_Ysgithrog",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cyngen_Glodrydd",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Powys"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Kingdom of Powys",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "86b0277e11282078fc39a26128f6e21f7126dbd63e363dad509d6f05d58be858",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2029
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Brochwel Ysgithrog",
+        "title": "Brochwel Ysgithrog",
+        "person": "Q2714345",
+        "name": "Brochwel Ysgithrog",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Brochfael_Ysgithrog",
+        "identityResolution": {
+          "requested": "Brochwel Ysgithrog",
+          "canonical": "Brochfael Ysgithrog",
+          "qid": "Q2714345"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2714345",
+        "title": "Brochfael Ysgithrog",
+        "source": "https://en.wikipedia.org/wiki/Brochfael_Ysgithrog",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Powys",
+            "raw": "c. 540–c. 560",
+            "parsed": {
+              "start": "0540-01-01",
+              "end": "0560-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Cynan Garwyn",
+        "title": "Cynan Garwyn",
+        "person": "Q2575137",
+        "name": "Cynan Garwyn",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cynan_Garwyn",
+        "identityResolution": {
+          "requested": "Cynan Garwyn",
+          "canonical": "Cynan Garwyn",
+          "qid": "Q2575137"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2575137",
+        "title": "Cynan Garwyn",
+        "source": "https://en.wikipedia.org/wiki/Cynan_Garwyn",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Cyngen Glodrydd",
+        "title": "Cyngen Glodrydd",
+        "person": "Q2511802",
+        "name": "Cyngen Glodrydd",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cyngen_Glodrydd",
+        "identityResolution": {
+          "requested": "Cyngen Glodrydd",
+          "canonical": "Cyngen Glodrydd",
+          "qid": "Q2511802"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2511802",
+        "title": "Cyngen Glodrydd",
+        "source": "https://en.wikipedia.org/wiki/Cyngen_Glodrydd",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2714345",
+        "title": "Brochwel Ysgithrog",
+        "source": "https://en.wikipedia.org/wiki/Brochfael_Ysgithrog",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Powys",
+          "raw": "c. 540–c. 560",
+          "parsed": {
+            "start": "0540-01-01",
+            "end": "0560-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Cyngen Glodrydd",
+        "person": "Q2511802",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Cynan Garwyn",
+        "person": "Q2575137",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "key": "REFERENCE-YAMATO-Y0500",
+  "contextKey": "REFERENCE-YAMATO",
+  "ownerKey": "REFERENCE-YAMATO",
+  "name": "Yamato · cortes y comunidades regionales",
+  "originalNames": [
+    "Yamato"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de500",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    500,
+    599
+  ],
+  "interpretation": "Corte y poderes deYamato con población diversa y cronologías tempranas discutidas. La silueta de la compilación no acredita dominio homogéneo de todoJapón ni una nación moderna en500.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea500 contiene etiquetas de épocas distintas. La ventana500–599 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    133.83895,
+    34.77216
+  ],
+  "phases": [
+    {
+      "start": 500,
+      "end": 599,
+      "label": "Yamato · cortes y comunidades regionales",
+      "dateBasis": "Referencia regional de la fuente editorial500; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-YAMATO-Y0500.geojson",
+  "geometrySha256": "be3b51071657dc98a618061a14ccb55fb0045cd7fa1fc8886036879115b14611",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+    "year": 500,
+    "featureIds": [
+      25
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1"
+  },
+  "review": "0.35.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final599 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en600."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Yamato",
+      "ABBREVN": "Yamato",
+      "SUBJECTO": "Yamato",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Yamato"
+    }
+  ],
+  "sourceGrouping": [
+    "Yamato"
+  ]
+}

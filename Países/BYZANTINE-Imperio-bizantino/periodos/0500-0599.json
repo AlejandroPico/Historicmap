@@ -1,0 +1,1177 @@
+{
+  "key": "BYZANTINE",
+  "identity": {
+    "qid": "Q12544",
+    "name": "Imperio romano de Oriente / bizantino"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador romano de Oriente",
+      "officePattern": "Emperor|Empress",
+      "titles": [
+        "Anastasius I Dicorus",
+        "Justin I",
+        "Justinian I",
+        "Justin II",
+        "Tiberius II Constantine",
+        "Maurice (emperor)"
+      ]
+    },
+    {
+      "role": "Coemperador bizantino",
+      "officePattern": "Emperor|Co-emperor",
+      "titles": [
+        "Theodosius (son of Maurice)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q173470",
+      "name": "Anastasio I",
+      "role": "Emperador romano de Oriente",
+      "start": "0500-01-01",
+      "end": "0518-07-09",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Anastasius_I_Dicorus",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-afed760c68ae1a0b48aa.jpg",
+        "title": "Semissis-Anastasius I-sb0007.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Semissis-Anastasius_I-sb0007.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Semissis-Anastasius_I-sb0007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "English Wikipedia, Coin from CNG coins, through Wildwinds. Uploaded by Panairjdde.",
+        "sha256": "0a0f431b012453efb1b5c02aeb6713f94293a879ad42d9b1e6da1fedb71db481",
+        "bytes": 177632,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-afed760c68ae1a0b48aa.jpg",
+        "caption": "Tipo monetario convencional atribuido a Anastasio I; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q183445",
+      "name": "Justino I",
+      "role": "Emperador romano de Oriente",
+      "start": "0518-07-09",
+      "end": "0527-08-01",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Justin_I",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-17fdc7d2f2af7e95edb8.jpg",
+        "title": "Tremissis-Justin I-sb0058.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Tremissis-Justin_I-sb0058.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Tremissis-Justin_I-sb0058.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "faf9c0ff6abb20489bfe80501fdd9b04240971c67c174e18df2557b497c0ee8a",
+        "bytes": 104671,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-17fdc7d2f2af7e95edb8.jpg",
+        "caption": "Tipo monetario convencional atribuido a Justino I; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q41866",
+      "name": "Justiniano I",
+      "role": "Emperador romano de Oriente",
+      "start": "0527-04-01",
+      "end": "0565-11-14",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Justinian_I",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-879f82cd74f574700eb2.jpg",
+        "title": "Mosaic of Justinianus I - Basilica San Vitale (Ravenna).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_%28Ravenna%29.jpg/330px-Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_%28Ravenna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Petar Milošević",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "bd635cca8d030e6d7e8dd2efa37629b3d103830e2c8cf067c3cf8081d8ee7816",
+        "bytes": 111889,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-879f82cd74f574700eb2.jpg",
+        "caption": "Detalle del mosaico deJustiniano enSan Vital deRávena; representación imperial del sigloVI, no fotografía ni retrato naturalista acreditado."
+      }
+    },
+    {
+      "person": "Q183813",
+      "name": "Justino II",
+      "role": "Emperador romano de Oriente",
+      "start": "0565-01-01",
+      "end": "0578-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Justin_II",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-37ea47be2248252e4e1a.jpg",
+        "title": "Gold solidus, Byzantine, Justin II, 565-578.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Gold_solidus,_Byzantine,_Justin_II,_565-578.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Gold_solidus%2C_Byzantine%2C_Justin_II%2C_565-578.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "UnknownUnknown  / Photography: CNG coins",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://cngcoins.com/Coin.aspx?CoinID=245548",
+        "sha256": "72a375390d64ac23915705983c92839a23822f1454f8e788b15f7a8bb6391589",
+        "bytes": 266587,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-37ea47be2248252e4e1a.jpg",
+        "caption": "Tipo monetario convencional atribuido a Justino II; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q31491",
+      "name": "Tiberio II",
+      "role": "Emperador romano de Oriente",
+      "start": "0578-09-26",
+      "end": "0582-08-14",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Tiberius_II_Constantine",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "portrait": {
+        "file": "media/portrait-98bbb13397aeecb72859.jpg",
+        "title": "Solidus-Tiberius II-Sear 421x422.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Tiberius_II-Sear_421x422.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Solidus-Tiberius_II-Sear_421x422.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Panairjdde",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "English Wikipedia",
+        "sha256": "cb88cac681eff6b937701db88abf4c726b0da23ebf71d1749fd96f0dbf1b44e7",
+        "bytes": 86035,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-98bbb13397aeecb72859.jpg",
+        "caption": "Tipo monetario convencional atribuido a Tiberio II; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q181764",
+      "name": "Mauricio",
+      "role": "Emperador romano de Oriente",
+      "start": "0582-08-13",
+      "end": "0599-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Maurice_%28emperor%29",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-64ace73a4600cc05af79.jpg",
+        "title": "Solidus-Maurice Tiberius-sb0481.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Maurice_Tiberius-sb0481.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Solidus-Maurice_Tiberius-sb0481.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "ee8bdd67aec5a43ca78c04fe9eae8094cc9936c57160ecd10839ecd7bfb3effb",
+        "bytes": 81240,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-64ace73a4600cc05af79.jpg",
+        "caption": "Tipo monetario convencional atribuido a Mauricio; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q354997",
+      "name": "Teodosio · hijo de Mauricio",
+      "role": "Coemperador bizantino",
+      "start": "0590-03-26",
+      "end": "0599-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Theodosius_%28son_of_Maurice%29",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-aba33782166e3f5c84cf.jpg",
+        "title": "Maurice follis with Constantina and Theodosius, Cherson mint (cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Maurice_follis_with_Constantina_and_Theodosius,_Cherson_mint_(cropped).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Maurice_follis_with_Constantina_and_Theodosius%2C_Cherson_mint_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "User:Cplakidas (uploader)",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CNG",
+        "sha256": "f9e723733ec86f60c6a431baed2a98bca37bc56822dcb29e5913c648677780b0",
+        "bytes": 61425,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-aba33782166e3f5c84cf.jpg",
+        "caption": "Moneda conMauricio,Constantina yTeodosio; representación familiar conjunta, no efigie individual exclusiva deTeodosio."
+      }
+    },
+    {
+      "person": "Q31491",
+      "name": "Tiberio II",
+      "role": "César y regente de Justino II",
+      "start": "0574-01-01",
+      "end": "0578-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tiberius_II_Constantine",
+      "note": "César desde574 y regencia durante la incapacidad deJustinoII; dignidad distinta del reinado imperial desde578.",
+      "portrait": {
+        "file": "media/portrait-98bbb13397aeecb72859.jpg",
+        "title": "Solidus-Tiberius II-Sear 421x422.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Tiberius_II-Sear_421x422.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Solidus-Tiberius_II-Sear_421x422.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Panairjdde",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "English Wikipedia",
+        "sha256": "cb88cac681eff6b937701db88abf4c726b0da23ebf71d1749fd96f0dbf1b44e7",
+        "bytes": 86035,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-98bbb13397aeecb72859.jpg",
+        "caption": "Tipo monetario convencional atribuido a Tiberio II; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review035-justinian",
+      "type": "institution",
+      "title": "Poder imperial y reformas de Justiniano",
+      "start": "0527-01-01",
+      "end": "0566-01-01",
+      "text": "La asociación deJustiniano al imperio comienza en527; el título previo de césar no equivale a ese reinado. Las reformas jurídicas y las campañas occidentales no restauran de inmediato todas las fronteras del imperio romano.",
+      "source": "https://www.metmuseum.org/art/collection/search/469160",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria.",
+      "section": "institutions"
+    },
+    {
+      "id": "review035-gothic-war",
+      "type": "conflict",
+      "title": "Guerra en Italia",
+      "start": "0535-01-01",
+      "end": "0555-01-01",
+      "text": "Campañas romano-ostrogodas, asedios y resistencias sucesivas. La captura deRávena en540 no implica que el poder ostrogodo terminase en todo el territorio ese año. El punto es una referencia regional.",
+      "source": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119099000.wbabat0890",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Anastasius_I_Dicorus",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Eastern Roman Empire"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Imperio romano de Oriente / bizantino",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "2ca8274021a2ffa5152ecdef0a1627e7dd451a00aeed05669d40796600639220",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1914,
+        1942,
+        1961,
+        2008,
+        2012,
+        2021,
+        2040,
+        2077,
+        2102,
+        2118,
+        2137,
+        2155,
+        2182,
+        2200
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Anastasius I Dicorus",
+        "title": "Anastasius I Dicorus",
+        "person": "Q173470",
+        "name": "Anastasio I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Anastasius_I_Dicorus",
+        "identityResolution": {
+          "requested": "Anastasius I Dicorus",
+          "canonical": "Anastasius I Dicorus",
+          "qid": "Q173470"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0491-04-11",
+          "end": "0518-07-09",
+          "precision": 11,
+          "statement": "Q173470$f2305f6f-49e5-d3eb-7c88-ecbd897822b1",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q173470",
+        "title": "Anastasius I Dicorus",
+        "source": "https://en.wikipedia.org/wiki/Anastasius_I_Dicorus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Eastern Roman emperor",
+            "raw": "11 April 491 – 9 July 518",
+            "parsed": {
+              "start": "0491-04-11",
+              "end": "0518-07-09",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "491–518",
+            "parsed": {
+              "start": "0491-01-01",
+              "end": "0518-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "492",
+            "parsed": {
+              "start": "0492-01-01",
+              "end": "0492-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul II",
+            "raw": "497",
+            "parsed": {
+              "start": "0497-01-01",
+              "end": "0497-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul III",
+            "raw": "507",
+            "parsed": {
+              "start": "0507-01-01",
+              "end": "0507-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Justin I",
+        "title": "Justin I",
+        "person": "Q183445",
+        "name": "Justino I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Justin_I",
+        "identityResolution": {
+          "requested": "Justin I",
+          "canonical": "Justin I",
+          "qid": "Q183445"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0518-01-01",
+          "end": "0527-08-01",
+          "precision": 9,
+          "statement": "Q183445$75666642-41ca-5c52-1f1e-ac4a4c5be080",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q183445",
+        "title": "Justin I",
+        "source": "https://en.wikipedia.org/wiki/Justin_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Eastern Roman emperor",
+            "raw": "9 July 518 – 1 August 527",
+            "parsed": {
+              "start": "0518-07-09",
+              "end": "0527-08-01",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "518–527",
+            "parsed": {
+              "start": "0518-01-01",
+              "end": "0527-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "519",
+            "parsed": {
+              "start": "0519-01-01",
+              "end": "0519-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul II",
+            "raw": "524",
+            "parsed": {
+              "start": "0524-01-01",
+              "end": "0524-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Justin II",
+        "title": "Justin II",
+        "person": "Q183813",
+        "name": "Justino II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Justin_II",
+        "identityResolution": {
+          "requested": "Justin II",
+          "canonical": "Justin II",
+          "qid": "Q183813"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0565-11-15",
+          "end": "0574-01-01",
+          "precision": 9,
+          "statement": "Q183813$55acd9de-468f-5336-a214-337c33df51fc",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q183813",
+        "title": "Justin II",
+        "source": "https://en.wikipedia.org/wiki/Justin_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Eastern Roman emperor",
+            "raw": "14 November 565 – {{awrap|4 October 578}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "565–578",
+            "parsed": {
+              "start": "0565-01-01",
+              "end": "0578-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul I",
+            "raw": "566",
+            "parsed": {
+              "start": "0566-01-01",
+              "end": "0566-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul II",
+            "raw": "568",
+            "parsed": {
+              "start": "0568-01-01",
+              "end": "0568-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Justinian I",
+        "title": "Justinian I",
+        "person": "Q41866",
+        "name": "Justiniano I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Justinian_I",
+        "identityResolution": {
+          "requested": "Justinian I",
+          "canonical": "Justinian I",
+          "qid": "Q41866"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0527-04-01",
+          "end": "0565-11-14",
+          "precision": 11,
+          "statement": "Q41866$205eea19-4c4f-fabe-b9d9-cba57aed573c",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41866",
+        "title": "Justinian I",
+        "source": "https://en.wikipedia.org/wiki/Justinian_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Eastern Roman emperor",
+            "raw": "1 April 527 – 14 November 565",
+            "parsed": {
+              "start": "0527-04-01",
+              "end": "0565-11-14",
+              "precision": 11
+            },
+            "reignType": "''Augustus''"
+          },
+          {
+            "field": "reign1",
+            "office": "Eastern Roman emperor",
+            "raw": "{{circa|525}} – 1 April 527",
+            "parsed": {
+              "start": "0525-01-01",
+              "end": "0527-04-01",
+              "precision": 9
+            },
+            "reignType": "''Caesar''"
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "527–565",
+            "parsed": {
+              "start": "0527-01-01",
+              "end": "0565-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "521",
+            "parsed": {
+              "start": "0521-01-01",
+              "end": "0521-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "528",
+            "parsed": {
+              "start": "0528-01-01",
+              "end": "0528-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "533–534",
+            "parsed": {
+              "start": "0533-01-01",
+              "end": "0534-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Maurice (emperor)",
+        "title": "Maurice (emperor)",
+        "person": "Q181764",
+        "name": "Mauricio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Maurice_%28emperor%29",
+        "identityResolution": {
+          "requested": "Maurice (emperor)",
+          "canonical": "Maurice (emperor)",
+          "qid": "Q181764"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0582-08-14",
+          "end": "0602-11-27",
+          "precision": 11,
+          "statement": "Q181764$475e6349-4b30-0550-599f-fdc8d497e8b3",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q181764",
+        "title": "Maurice (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Maurice_%28emperor%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Eastern Roman emperor",
+            "raw": "13 August 582 – {{nowr|27 November 602}}",
+            "parsed": {
+              "start": "0582-08-13",
+              "end": "0602-11-27",
+              "precision": 11
+            },
+            "reignType": "''Augustus''"
+          },
+          {
+            "field": "reign1",
+            "office": "Eastern Roman emperor",
+            "raw": "5 August 582 – 13 August 582",
+            "parsed": {
+              "start": "0582-08-05",
+              "end": "0582-08-13",
+              "precision": 11
+            },
+            "reignType": "''Caesar''"
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "582–602",
+            "parsed": {
+              "start": "0582-01-01",
+              "end": "0602-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman Consul I",
+            "raw": "584",
+            "parsed": {
+              "start": "0584-01-01",
+              "end": "0584-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman Consul II",
+            "raw": "6 July 602–31 December 602",
+            "parsed": {
+              "start": "0602-07-06",
+              "end": "0602-12-31",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theodosius (son of Maurice)",
+        "title": "Theodosius (son of Maurice)",
+        "person": "Q354997",
+        "name": "Teodosio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theodosius_%28son_of_Maurice%29",
+        "identityResolution": {
+          "requested": "Theodosius (son of Maurice)",
+          "canonical": "Theodosius (son of Maurice)",
+          "qid": "Q354997"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q354997",
+        "title": "Theodosius (son of Maurice)",
+        "source": "https://en.wikipedia.org/wiki/Theodosius_%28son_of_Maurice%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Eastern Roman emperor",
+            "raw": "26 March 590 – 27 November 602",
+            "parsed": {
+              "start": "0590-03-26",
+              "end": "0602-11-27",
+              "precision": 11
+            },
+            "reignType": "''Augustus''"
+          },
+          {
+            "field": "reign1",
+            "office": "Eastern Roman emperor",
+            "raw": "c. 587 – 26 March 590",
+            "parsed": {
+              "start": "0587-01-01",
+              "end": "0590-03-26",
+              "precision": 9
+            },
+            "reignType": "''Caesar''"
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tiberius II Constantine",
+        "title": "Tiberius II Constantine",
+        "person": "Q31491",
+        "name": "Tiberio II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tiberius_II_Constantine",
+        "identityResolution": {
+          "requested": "Tiberius II Constantine",
+          "canonical": "Tiberius II Constantine",
+          "qid": "Q31491"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0574-01-01",
+          "end": "0582-01-01",
+          "precision": 9,
+          "statement": "Q31491$3ad1adc2-4c58-cd19-2d16-9be18d1587e8",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q31491",
+        "title": "Tiberius II Constantine",
+        "source": "https://en.wikipedia.org/wiki/Tiberius_II_Constantine",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "26 September 578 – 14 August 582",
+            "parsed": {
+              "start": "0578-09-26",
+              "end": "0582-08-14",
+              "precision": 11
+            },
+            "reignType": "''Augustus''"
+          },
+          {
+            "field": "reign1",
+            "office": "Byzantine emperor",
+            "raw": "7 December 574 – 578",
+            "parsed": {
+              "start": "0574-12-07",
+              "end": "0578-12-31",
+              "precision": 9
+            },
+            "reignType": "''Caesar''"
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "578–582",
+            "parsed": {
+              "start": "0578-01-01",
+              "end": "0582-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "579",
+            "parsed": {
+              "start": "0579-01-01",
+              "end": "0579-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 7,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q173470",
+        "title": "Anastasius I Dicorus",
+        "source": "https://en.wikipedia.org/wiki/Anastasius_I_Dicorus",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Eastern Roman emperor",
+          "raw": "11 April 491 – 9 July 518",
+          "parsed": {
+            "start": "0491-04-11",
+            "end": "0518-07-09",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q183445",
+        "title": "Justin I",
+        "source": "https://en.wikipedia.org/wiki/Justin_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Eastern Roman emperor",
+          "raw": "9 July 518 – 1 August 527",
+          "parsed": {
+            "start": "0518-07-09",
+            "end": "0527-08-01",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q41866",
+        "title": "Justinian I",
+        "source": "https://en.wikipedia.org/wiki/Justinian_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Eastern Roman emperor",
+          "raw": "1 April 527 – 14 November 565",
+          "parsed": {
+            "start": "0527-04-01",
+            "end": "0565-11-14",
+            "precision": 11
+          },
+          "reignType": "''Augustus''"
+        }
+      },
+      {
+        "person": "Q183813",
+        "title": "Justin II",
+        "source": "https://en.wikipedia.org/wiki/Justin_II",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Byzantine emperor",
+          "raw": "565–578",
+          "parsed": {
+            "start": "0565-01-01",
+            "end": "0578-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q31491",
+        "title": "Tiberius II Constantine",
+        "source": "https://en.wikipedia.org/wiki/Tiberius_II_Constantine",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "26 September 578 – 14 August 582",
+          "parsed": {
+            "start": "0578-09-26",
+            "end": "0582-08-14",
+            "precision": 11
+          },
+          "reignType": "''Augustus''"
+        }
+      },
+      {
+        "person": "Q181764",
+        "title": "Maurice (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Maurice_%28emperor%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Eastern Roman emperor",
+          "raw": "13 August 582 – {{nowr|27 November 602}}",
+          "parsed": {
+            "start": "0582-08-13",
+            "end": "0602-11-27",
+            "precision": 11
+          },
+          "reignType": "''Augustus''"
+        }
+      },
+      {
+        "person": "Q354997",
+        "title": "Theodosius (son of Maurice)",
+        "source": "https://en.wikipedia.org/wiki/Theodosius_%28son_of_Maurice%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Eastern Roman emperor",
+          "raw": "26 March 590 – 27 November 602",
+          "parsed": {
+            "start": "0590-03-26",
+            "end": "0602-11-27",
+            "precision": 11
+          },
+          "reignType": "''Augustus''"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q31491",
+      "name": "Tiberio II",
+      "role": "César y regente de Justino II",
+      "start": "0574-01-01",
+      "end": "0578-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tiberius_II_Constantine",
+      "note": "César desde574 y regencia durante la incapacidad deJustinoII; dignidad distinta del reinado imperial desde578."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat035-0",
+      "name": "Constantinopla",
+      "coordinates": [
+        28.978,
+        41.008
+      ],
+      "start": 500,
+      "end": 599,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Imperio_romano_de_Oriente_/_bizantino",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Imperio romano de Oriente / bizantino"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review035-justinian",
+      "type": "institution",
+      "title": "Poder imperial y reformas de Justiniano",
+      "start": "0527-01-01",
+      "end": "0566-01-01",
+      "text": "La asociación deJustiniano al imperio comienza en527; el título previo de césar no equivale a ese reinado. Las reformas jurídicas y las campañas occidentales no restauran de inmediato todas las fronteras del imperio romano.",
+      "source": "https://www.metmuseum.org/art/collection/search/469160",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria."
+    },
+    {
+      "id": "review035-gothic-war",
+      "type": "conflict",
+      "title": "Guerra en Italia",
+      "start": "0535-01-01",
+      "end": "0555-01-01",
+      "text": "Campañas romano-ostrogodas, asedios y resistencias sucesivas. La captura deRávena en540 no implica que el poder ostrogodo terminase en todo el territorio ese año. El punto es una referencia regional.",
+      "source": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119099000.wbabat0890",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review035-gothic-war",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2,
+          44.418
+        ]
+      },
+      "properties": {
+        "name": "Guerra en Italia",
+        "countries": [
+          "BYZANTINE"
+        ],
+        "kind": "regional-conflict",
+        "start": "0535-01-01",
+        "end": "0554-12-31",
+        "precision": 9,
+        "source": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119099000.wbabat0890",
+        "sourceLabel": "Referencia documental · siglo VI",
+        "note": "Campañas romano-ostrogodas, asedios y resistencias sucesivas. La captura deRávena en540 no implica que el poder ostrogodo terminase en todo el territorio ese año. El punto es una referencia regional. Localización regional aproximada."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q173470",
+      "name": "Anastasio I",
+      "title": "Semissis-Anastasius I-sb0007.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Semissis-Anastasius_I-sb0007.jpg",
+      "sha256": "0a0f431b012453efb1b5c02aeb6713f94293a879ad42d9b1e6da1fedb71db481",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Anastasio I; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q183445",
+      "name": "Justino I",
+      "title": "Tremissis-Justin I-sb0058.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tremissis-Justin_I-sb0058.jpg",
+      "sha256": "faf9c0ff6abb20489bfe80501fdd9b04240971c67c174e18df2557b497c0ee8a",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Justino I; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q41866",
+      "name": "Justiniano I",
+      "title": "Mosaic of Justinianus I - Basilica San Vitale (Ravenna).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg",
+      "sha256": "bd635cca8d030e6d7e8dd2efa37629b3d103830e2c8cf067c3cf8081d8ee7816",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Detalle del mosaico deJustiniano enSan Vital deRávena; representación imperial del sigloVI, no fotografía ni retrato naturalista acreditado."
+    },
+    {
+      "person": "Q183813",
+      "name": "Justino II",
+      "title": "Gold solidus, Byzantine, Justin II, 565-578.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gold_solidus,_Byzantine,_Justin_II,_565-578.jpg",
+      "sha256": "72a375390d64ac23915705983c92839a23822f1454f8e788b15f7a8bb6391589",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Justino II; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q31491",
+      "name": "Tiberio II",
+      "title": "Solidus-Tiberius II-Sear 421x422.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Tiberius_II-Sear_421x422.jpg",
+      "sha256": "cb88cac681eff6b937701db88abf4c726b0da23ebf71d1749fd96f0dbf1b44e7",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Tiberio II; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q181764",
+      "name": "Mauricio",
+      "title": "Solidus-Maurice Tiberius-sb0481.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Maurice_Tiberius-sb0481.jpg",
+      "sha256": "ee8bdd67aec5a43ca78c04fe9eae8094cc9936c57160ecd10839ecd7bfb3effb",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Mauricio; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q354997",
+      "name": "Teodosio · hijo de Mauricio",
+      "title": "Maurice follis with Constantina and Theodosius, Cherson mint (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Maurice_follis_with_Constantina_and_Theodosius,_Cherson_mint_(cropped).jpg",
+      "sha256": "f9e723733ec86f60c6a431baed2a98bca37bc56822dcb29e5913c648677780b0",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Moneda conMauricio,Constantina yTeodosio; representación familiar conjunta, no efigie individual exclusiva deTeodosio."
+    }
+  ]
+}

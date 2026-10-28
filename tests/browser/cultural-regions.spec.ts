@@ -1,6 +1,6 @@
 import{test,expect,type Page}from'@playwright/test';
 test.use({actionTimeout:15000});
-async function ready(p:Page,y:number){if(y<600){await expect(p.locator('#map')).toHaveAttribute('data-loaded-year',String(y),{timeout:90000});await expect(p.locator('#play')).toHaveAttribute('aria-busy','false');}else await expect(p.locator('#map')).toHaveAttribute('data-rendered',`history-${y}`,{timeout:90000});}
+async function ready(p:Page,y:number){if(y<500){await expect(p.locator('#map')).toHaveAttribute('data-loaded-year',String(y),{timeout:90000});await expect(p.locator('#play')).toHaveAttribute('aria-busy','false');}else await expect(p.locator('#map')).toHaveAttribute('data-rendered',`history-${y}`,{timeout:90000});}
 async function year(p:Page,y:number){await p.locator('#date-button').click();await p.locator('#date-input').fill(String(y));await p.locator('#date-input').press('Enter');await ready(p,y);}
 async function search(p:Page,name:string,key:string){await p.locator('#search-button').click();await p.locator('#search-input').fill(name);await p.locator('#search-results button').first().click();await expect(p.locator('#selection')).toHaveAttribute('data-entity',key);await expect(p.locator('#map')).toHaveAttribute('data-camera-ready','true',{timeout:30000});}
 test('Amazonian references remain visible and selectable across annual source boundaries',async({page})=>{

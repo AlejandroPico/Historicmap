@@ -1,0 +1,69 @@
+{
+  "key": "REFERENCE-HOPEWELL-TRANSFORMATIONS-Y0500",
+  "contextKey": "REFERENCE-HOPEWELL-TRANSFORMATIONS",
+  "ownerKey": "REFERENCE-HOPEWELL-TRANSFORMATIONS",
+  "name": "Ámbitos de Hopewell · redes y transformaciones posteriores",
+  "originalNames": [
+    "Hopewell Culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de500",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    500,
+    599
+  ],
+  "interpretation": "Las redes Hopewell delWoodland medio se transforman hacia400–500. Esta referencia regional no prolonga inalterada una cultura hasta599 ni implica desaparición de población al terminar su periodización.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea500 contiene etiquetas de épocas distintas. La ventana500–599 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -93.26401,
+    39.52736
+  ],
+  "phases": [
+    {
+      "start": 500,
+      "end": 599,
+      "label": "Ámbitos de Hopewell · redes y transformaciones posteriores",
+      "dateBasis": "Referencia regional de la fuente editorial500; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-HOPEWELL-TRANSFORMATIONS-Y0500.geojson",
+  "geometrySha256": "a467b8b2ebb9c8ab1a5b257ef1c644be861def2fcd5796054cf549632f3c20ec",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+    "year": 500,
+    "featureIds": [
+      84
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1"
+  },
+  "review": "0.35.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final599 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en600."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Hopewell Culture",
+      "ABBREVN": "Hopewell Culture",
+      "SUBJECTO": "Hopewell Culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Hopewell Culture"
+    }
+  ],
+  "sourceGrouping": [
+    "Hopewell Culture"
+  ]
+}

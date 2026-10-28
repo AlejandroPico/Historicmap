@@ -1,0 +1,89 @@
+{
+  "key": "REFERENCE-POST-BAEKJE-Y0500",
+  "contextKey": "REFERENCE-POST-BAEKJE",
+  "ownerKey": "REFERENCE-POST-BAEKJE",
+  "name": "Ámbitos de Baekje · comunidades y poderes",
+  "originalNames": [
+    "Paekche"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 500",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    500,
+    599
+  ],
+  "interpretation": "Baekje conserva realeza durante el sigloVI. Poblaciones y centros diversos; el contorno regional no es una frontera étnica ni se adelanta la conquista de660.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea500 contiene etiquetas de épocas distintas. La ventana500–599 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Baekje"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Baekje"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Baekje"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    127.06238,
+    35.94166
+  ],
+  "phases": [
+    {
+      "start": 500,
+      "end": 599,
+      "label": "Ámbitos de Baekje · comunidades y poderes",
+      "dateBasis": "Referencia regional de la fuente editorial500; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-BAEKJE-Y0500.geojson",
+  "geometrySha256": "2524aa4c5d8c9daf76033eebcba98c0ff54952af942233baf797dab00d159842",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+    "year": 500,
+    "featureIds": [
+      15
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1"
+  },
+  "review": "0.35.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final599 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en600."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Paekche",
+      "ABBREVN": "Paekche",
+      "SUBJECTO": "Paekche",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Paekche"
+    }
+  ],
+  "sourceGrouping": [
+    "Paekche"
+  ]
+}

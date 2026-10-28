@@ -1,0 +1,462 @@
+{
+  "key": "HIST-Q943191",
+  "identity": {
+    "qid": "Q943191",
+    "name": "Lakhmid Kingdom"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey lajmí · cliente sasánida",
+      "officePattern": "King.*Lakhm|King.*Hira",
+      "titles": [
+        "Al-Nu'man II ibn al-Aswad",
+        "Al-Mundhir III ibn al-Nu'man",
+        "Amr ibn Hind",
+        "Qabus ibn al-Mundhir",
+        "Al-Mundhir IV ibn al-Mundhir",
+        "Al-Nu'man III ibn al-Mundhir"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1261241",
+      "name": "Al-Nu'man II ibn al-Aswad",
+      "role": "Rey lajmí · cliente sasánida",
+      "start": "0500-01-01",
+      "end": "0503-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_II_ibn_al-Aswad",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q1283038",
+      "name": "Amr III ibn Hind",
+      "role": "Rey lajmí · cliente sasánida",
+      "start": "0554-01-01",
+      "end": "0569-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Amr_ibn_Hind",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q1258479",
+      "name": "Qabus ibn al-Mundhir",
+      "role": "Rey lajmí · cliente sasánida",
+      "start": "0569-01-01",
+      "end": "0573-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qabus_ibn_al-Mundhir",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q1283070",
+      "name": "Al-Nu'man III ibn al-Mundhir",
+      "role": "Rey lajmí · cliente sasánida",
+      "start": "0580-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_III_ibn_al-Mundhir",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review035-clients",
+      "type": "institution",
+      "title": "Corte lajmí y relación sasánida",
+      "start": "0500-01-01",
+      "end": "0600-01-01",
+      "text": "La monarquía deAl-Hira suele actuar como aliada ocliente de los sasánidas. Compartir familia cromática no equivale a una anexión provincial; la terminación de la dinastía en602 es posterior aesta tanda.",
+      "source": "https://www.iranicaonline.org/articles/lakhmids/",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_II_ibn_al-Aswad",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lakhmid Kingdom"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Lakhmid Kingdom",
+        "admin": "SASANIAN",
+        "status": "client",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme.",
+        "localKey": "HIST-Q943191"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "7d27274c7451b7210c3ecbfb0af56c1e831ee4251533ffb03e098929ccbc2abd",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1908,
+        1954
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Al-Mundhir III ibn al-Nu'man",
+        "title": "Al-Mundhir III ibn al-Nu'man",
+        "person": "Q220605",
+        "name": "al-Mundhir III ibn al-Nu'man",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Al-Mundhir_III_ibn_al-Nu%27man",
+        "identityResolution": {
+          "requested": "Al-Mundhir III ibn al-Nu'man",
+          "canonical": "Al-Mundhir III ibn al-Nu'man",
+          "qid": "Q220605"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q220605",
+        "title": "Al-Mundhir III ibn al-Nu'man",
+        "source": "https://en.wikipedia.org/wiki/Al-Mundhir_III_ibn_al-Nu%27man",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Lakhmids",
+            "raw": "503/505–554",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Al-Mundhir IV ibn al-Mundhir",
+        "title": "Al-Mundhir IV ibn al-Mundhir",
+        "person": "Q1260335",
+        "name": "Al-Mundhir IV ibn al-Mundhir",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Al-Mundhir_IV_ibn_al-Mundhir",
+        "identityResolution": {
+          "requested": "Al-Mundhir IV ibn al-Mundhir",
+          "canonical": "Al-Mundhir IV ibn al-Mundhir",
+          "qid": "Q1260335"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1260335",
+        "title": "Al-Mundhir IV ibn al-Mundhir",
+        "source": "https://en.wikipedia.org/wiki/Al-Mundhir_IV_ibn_al-Mundhir",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "575–580",
+            "parsed": {
+              "start": "0575-01-01",
+              "end": "0580-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Al-Nu'man II ibn al-Aswad",
+        "title": "Al-Nu'man II ibn al-Aswad",
+        "person": "Q1261241",
+        "name": "Al-Nu'man II ibn al-Aswad",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_II_ibn_al-Aswad",
+        "identityResolution": {
+          "requested": "Al-Nu'man II ibn al-Aswad",
+          "canonical": "Al-Nu'man II ibn al-Aswad",
+          "qid": "Q1261241"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1261241",
+        "title": "Al-Nu'man II ibn al-Aswad",
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_II_ibn_al-Aswad",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Lakhmid state",
+            "raw": "CE [[497]]–[[503]]",
+            "parsed": {
+              "start": "0497-01-01",
+              "end": "0503-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Al-Nu'man III ibn al-Mundhir",
+        "title": "Al-Nu'man III ibn al-Mundhir",
+        "person": "Q1283070",
+        "name": "Al-Nu'man III ibn al-Mundhir",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_III_ibn_al-Mundhir",
+        "identityResolution": {
+          "requested": "Al-Nu'man III ibn al-Mundhir",
+          "canonical": "Al-Nu'man III ibn al-Mundhir",
+          "qid": "Q1283070"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1283070",
+        "title": "Al-Nu'man III ibn al-Mundhir",
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_III_ibn_al-Mundhir",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Lakhmid state",
+            "raw": "CE [[580]]–[[602]]",
+            "parsed": {
+              "start": "0580-01-01",
+              "end": "0602-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Amr ibn Hind",
+        "title": "Amr ibn Hind",
+        "person": "Q1283038",
+        "name": "Amr III ibn Hind",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Amr_ibn_Hind",
+        "identityResolution": {
+          "requested": "Amr ibn Hind",
+          "canonical": "Amr ibn Hind",
+          "qid": "Q1283038"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1283038",
+        "title": "Amr ibn Hind",
+        "source": "https://en.wikipedia.org/wiki/Amr_ibn_Hind",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Lakhmid state",
+            "raw": "CE [[554]]–[[569]]",
+            "parsed": {
+              "start": "0554-01-01",
+              "end": "0569-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Qabus ibn al-Mundhir",
+        "title": "Qabus ibn al-Mundhir",
+        "person": "Q1258479",
+        "name": "Qabus ibn al-Mundhir",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Qabus_ibn_al-Mundhir",
+        "identityResolution": {
+          "requested": "Qabus ibn al-Mundhir",
+          "canonical": "Qabus ibn al-Mundhir",
+          "qid": "Q1258479"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1258479",
+        "title": "Qabus ibn al-Mundhir",
+        "source": "https://en.wikipedia.org/wiki/Qabus_ibn_al-Mundhir",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Lakhmid state",
+            "raw": "CE [[569]]–[[573]]",
+            "parsed": {
+              "start": "0569-01-01",
+              "end": "0573-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1261241",
+        "title": "Al-Nu'man II ibn al-Aswad",
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_II_ibn_al-Aswad",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Lakhmid state",
+          "raw": "CE [[497]]–[[503]]",
+          "parsed": {
+            "start": "0497-01-01",
+            "end": "0503-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1283038",
+        "title": "Amr ibn Hind",
+        "source": "https://en.wikipedia.org/wiki/Amr_ibn_Hind",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Lakhmid state",
+          "raw": "CE [[554]]–[[569]]",
+          "parsed": {
+            "start": "0554-01-01",
+            "end": "0569-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1258479",
+        "title": "Qabus ibn al-Mundhir",
+        "source": "https://en.wikipedia.org/wiki/Qabus_ibn_al-Mundhir",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Lakhmid state",
+          "raw": "CE [[569]]–[[573]]",
+          "parsed": {
+            "start": "0569-01-01",
+            "end": "0573-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1283070",
+        "title": "Al-Nu'man III ibn al-Mundhir",
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_III_ibn_al-Mundhir",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Lakhmid state",
+          "raw": "CE [[580]]–[[602]]",
+          "parsed": {
+            "start": "0580-01-01",
+            "end": "0602-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Al-Mundhir III ibn al-Nu'man",
+        "person": "Q220605",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Al-Mundhir IV ibn al-Mundhir",
+        "person": "Q1260335",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat035-36",
+      "name": "Al-Hira · corte lajmí",
+      "coordinates": [
+        44.318,
+        31.887
+      ],
+      "start": 500,
+      "end": 599,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Lakhmid_Kingdom",
+      "note": "Localización regional aproximada; no acredita capital exclusiva, residencia permanente, frontera medida ni control uniforme.",
+      "entityName": "Lakhmid Kingdom"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review035-clients",
+      "type": "institution",
+      "title": "Corte lajmí y relación sasánida",
+      "start": "0500-01-01",
+      "end": "0600-01-01",
+      "text": "La monarquía deAl-Hira suele actuar como aliada ocliente de los sasánidas. Compartir familia cromática no equivale a una anexión provincial; la terminación de la dinastía en602 es posterior aesta tanda.",
+      "source": "https://www.iranicaonline.org/articles/lakhmids/",
+      "sourceLabel": "Referencia documental · siglo VI",
+      "precision": 9,
+      "note": "Contexto parcial; no censo completo de conflictos ni cronología diaria."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-GUPTA-EMPIRE-27A47C22",
+  "name": "Gupta Empire",
+  "qid": "",
+  "aliases": [
+    "Gupta Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 32,
+      "start": null,
+      "end": null,
+      "name": "Gupta Empire",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-GUPTA-EMPIRE-27A47C22-Y0500:0",
+      "contextKey": "CULTURE-GUPTA-EMPIRE-27A47C22",
+      "start": 500,
+      "end": 599,
+      "sourceYear": 500,
+      "canonicalFile": "Países/CULTURE-GUPTA-EMPIRE-27A47C22-Gupta-Empire/poblamiento/CULTURE-GUPTA-EMPIRE-27A47C22-Y0500.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

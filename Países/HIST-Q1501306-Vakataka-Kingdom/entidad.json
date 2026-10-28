@@ -1,0 +1,79 @@
+{
+  "key": "HIST-Q1501306",
+  "name": "Vakataka Kingdom",
+  "qid": "Q1501306",
+  "aliases": [
+    "Vakataka Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1501306"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q27957422",
+      "name": "Harishena",
+      "role": "Rey vakataka · rama dinástica regional",
+      "start": "0500-01-01",
+      "end": "0510-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Harishena",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    },
+    {
+      "person": "Q88525799",
+      "name": "Prithivishena II",
+      "role": "Rey vakataka · rama dinástica regional",
+      "start": "0500-01-01",
+      "end": "0500-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Prithivishena_II",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1906",
+      "start": 500,
+      "end": 545,
+      "name": "Vakataka Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2060",
+      "start": 546,
+      "end": 554,
+      "name": "Vakataka Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-VAKATAKA-AB81AA61-Y0500",
+      "ownerKey": "HIST-Q1501306",
+      "name": "Vakataka",
+      "file": "Países/HIST-Q1501306-Vakataka-Kingdom/poblamiento/CULTURE-VAKATAKA-AB81AA61-Y0500.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

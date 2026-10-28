@@ -3,7 +3,8 @@
   "name": "Kingdom of Lazica",
   "qid": "Q136884",
   "aliases": [
-    "Kingdom of Lazica"
+    "Kingdom of Lazica",
+    "Lazica"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -13,7 +14,20 @@
   },
   "flags": [],
   "symbolReferences": [],
-  "leaders": [],
+  "leaders": [
+    {
+      "person": "Q1262203",
+      "name": "Gubazes II",
+      "role": "Rey de Lazica",
+      "start": "0541-01-01",
+      "end": "0555-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gubazes_II_of_Lazica",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "curated": true,
+      "acquisition": "century-500-0.35"
+    }
+  ],
   "portraitVariants": [],
   "territorialRecords": [
     {
@@ -70,6 +84,30 @@
       "start": 682,
       "end": 699,
       "name": "Kingdom of Lazica",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-1629",
+      "start": 500,
+      "end": 533,
+      "name": "Lazica",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2009",
+      "start": 534,
+      "end": 539,
+      "name": "Lazica",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-500.geojson",
+      "recordId": "clio-2020",
+      "start": 540,
+      "end": 545,
+      "name": "Lazica",
       "status": "Entidad histórica · reconstrucción anual"
     }
   ],

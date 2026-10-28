@@ -15,7 +15,7 @@ describe('600–699 politics and regional evidence',()=>{
    years.push({year,politicalComponents:p.features.length,culturalReferences:r.features.length,withAuthorities:authorities,withSymbols:symbols,places:datedPlaces(p,year).features.length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-600-699.json',JSON.stringify({scope:'Disponibilidad anual por el recorrido de producción. No censo exhaustivo ni fronteras culturales observadas cada año. Las ventanas discutidas no certifican mandatos continuos.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()],catalogueAuthorityRecords:dossiers.reduce((n,d)=>n+d.data.leaders.length,0),catalogueWithoutPortraits:dossiers.flatMap(d=>d.data.leaders.filter((l:any)=>!l.portrait).map((l:any)=>({key:d.data.key,person:l.person,name:l.name,start:l.start,end:l.end})))},null,2)+'\n');
-  expect(hasRegionalCoverage(599)).toBe(false);expect(hasRegionalCoverage(600)).toBe(true);expect(snapshotFor(599).kind).toBe('historical');expect(snapshotFor(700).file).toBe('early-modern-700.geojson');
+  expect(hasRegionalCoverage(499)).toBe(false);expect(hasRegionalCoverage(600)).toBe(true);expect(snapshotFor(499).kind).toBe('historical');expect(snapshotFor(700).file).toBe('early-modern-700.geojson');
  },90000);
 
  it('distinguishes source-outline lag from the Sui/Tang transition and replaces Tang with Wu Zhou',async()=>{

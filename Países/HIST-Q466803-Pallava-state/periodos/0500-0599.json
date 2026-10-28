@@ -1,0 +1,330 @@
+{
+  "key": "HIST-Q466803",
+  "identity": {
+    "qid": "Q466803",
+    "name": "Late Pallava Empire"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey pallava",
+      "officePattern": "Pallava|King|Maharaja",
+      "titles": [
+        "Buddhavarman",
+        "Kumaravishnu III",
+        "Simhavarman III",
+        "Simhavishnu"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7517732",
+      "name": "Simhavarman III",
+      "role": "Rey pallava",
+      "start": "0525-01-01",
+      "end": "0555-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Simhavarman_III",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    },
+    {
+      "person": "Q3537060",
+      "name": "Simhavishnu",
+      "role": "Rey pallava",
+      "start": "0575-01-01",
+      "end": "0599-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Simhavishnu",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-49c9adc0e9e077abe3b3.jpg",
+        "title": "Simhavishnu portrait in stone.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Simhavishnu_portrait_in_stone.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Simhavishnu_portrait_in_stone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "4369d9fd9eb31d855a0c511a920cc1cf755947c062a284959b0ad628fb2e2a26",
+        "bytes": 96898,
+        "canonicalFile": "Países/HIST-Q466803-Pallava-state/retratos/portrait-49c9adc0e9e077abe3b3.jpg",
+        "caption": "Representación en piedra atribuida aSimhavishnu; la atribución histórica no certifica semejanza fisonómica."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Buddhavarman",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-500-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Late Pallava Empire"
+        ],
+        "start": 500,
+        "end": 599,
+        "label": "Late Pallava Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-500.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0500-0599.geojson",
+      "sha256": "490311d044743f4b74de5cdb5c09ab1335fb90f836de02eafad797fb5785ab26",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1780,
+        2074
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Buddhavarman",
+        "title": "Buddhavarman",
+        "person": "",
+        "name": "Buddhavarman",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Buddhavarman",
+        "identityResolution": {
+          "requested": "Buddhavarman",
+          "canonical": "Buddhavarman",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kumaravishnu III",
+        "title": "Kumaravishnu III",
+        "person": "",
+        "name": "Kumaravishnu III",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Kumaravishnu_III",
+        "identityResolution": {
+          "requested": "Kumaravishnu III",
+          "canonical": "Kumaravishnu III",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Simhavarman III",
+        "title": "Simhavarman III",
+        "person": "Q7517732",
+        "name": "Simhavarman III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Simhavarman_III",
+        "identityResolution": {
+          "requested": "Simhavarman III",
+          "canonical": "Simhavarman III",
+          "qid": "Q7517732"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q116161761",
+          "start": "0550-01-01",
+          "end": "0569-01-01",
+          "precision": 9,
+          "statement": "Q7517732$e8ea3172-4127-9ce0-4451-c85b78bb6bbc",
+          "label": "Pallava king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7517732",
+        "title": "Simhavarman III",
+        "source": "https://en.wikipedia.org/wiki/Simhavarman_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava King",
+            "raw": "c. 525–555",
+            "parsed": {
+              "start": "0525-01-01",
+              "end": "0555-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Pallava Dynasty",
+            "raw": "c. 525–555",
+            "parsed": {
+              "start": "0525-01-01",
+              "end": "0555-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Simhavishnu",
+        "title": "Simhavishnu",
+        "person": "Q3537060",
+        "name": "Simhavishnu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Simhavishnu",
+        "identityResolution": {
+          "requested": "Simhavishnu",
+          "canonical": "Simhavishnu",
+          "qid": "Q3537060"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q116161761",
+          "start": "0560-01-01",
+          "end": "0590-01-01",
+          "precision": 9,
+          "statement": "Q3537060$89f16784-4fdb-6695-d5b7-ac121b8d76c9",
+          "label": "Pallava king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3537060",
+        "title": "Simhavishnu",
+        "source": "https://en.wikipedia.org/wiki/Simhavishnu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava emperor",
+            "raw": "c. 575 – 600 CE (disputed)",
+            "parsed": {
+              "start": "0575-01-01",
+              "end": "0600-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava King",
+            "raw": "c. 575 – 600 CE",
+            "parsed": {
+              "start": "0575-01-01",
+              "end": "0600-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7517732",
+        "title": "Simhavarman III",
+        "source": "https://en.wikipedia.org/wiki/Simhavarman_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava King",
+          "raw": "c. 525–555",
+          "parsed": {
+            "start": "0525-01-01",
+            "end": "0555-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q3537060",
+        "title": "Simhavishnu",
+        "source": "https://en.wikipedia.org/wiki/Simhavishnu",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava emperor",
+          "raw": "c. 575 – 600 CE (disputed)",
+          "parsed": {
+            "start": "0575-01-01",
+            "end": "0600-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Buddhavarman",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Kumaravishnu III",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "mediaReview": [
+    {
+      "person": "Q3537060",
+      "name": "Simhavishnu",
+      "title": "Simhavishnu portrait in stone.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Simhavishnu_portrait_in_stone.jpg",
+      "sha256": "4369d9fd9eb31d855a0c511a920cc1cf755947c062a284959b0ad628fb2e2a26",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación en piedra atribuida aSimhavishnu; la atribución histórica no certifica semejanza fisonómica."
+    }
+  ]
+}

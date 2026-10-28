@@ -1,0 +1,205 @@
+{
+  "key": "HIST-Q1211938",
+  "identity": {
+    "qid": "",
+    "name": "Dinastía ganga occidental"
+  },
+  "revision": "0.35.0",
+  "acquisition": "century-500-0.35",
+  "coverageStart": 500,
+  "coverageEnd": 599,
+  "officeBounds": [
+    "0500-01-01",
+    "0599-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey ganga occidental",
+      "officePattern": "King|Ganga",
+      "titles": [
+        "Avinita",
+        "Durvinita",
+        "Mushkara"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q4828900",
+      "name": "Avinita",
+      "role": "Rey ganga occidental",
+      "start": "0500-01-01",
+      "end": "0529-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Avinita",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q5316814",
+      "name": "Durvinita",
+      "role": "Rey ganga occidental",
+      "start": "0529-01-01",
+      "end": "0579-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Durvinita",
+      "note": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 500,
+      "end": 599,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Avinita",
+      "sourceLabel": "Clasificación institucional documentada",
+      "note": "Organización histórica; no evaluación democrática moderna ni control territorial uniforme."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad documentada por campo o cronología explícita, no por fechas de vida. Las aproximaciones, listas retrospectivas y calendarios se conservan como tales; el intervalo anual no acredita control uniforme ni días exactos.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Avinita",
+        "title": "Avinita",
+        "person": "Q4828900",
+        "name": "Avinita",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Avinita",
+        "identityResolution": {
+          "requested": "Avinita",
+          "canonical": "Avinita",
+          "qid": "Q4828900"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4828900",
+        "title": "Avinita",
+        "source": "https://en.wikipedia.org/wiki/Avinita",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Western Ganga Dynasty",
+            "raw": "469–529 CE",
+            "parsed": {
+              "start": "0469-01-01",
+              "end": "0529-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Durvinita",
+        "title": "Durvinita",
+        "person": "Q5316814",
+        "name": "Durvinita",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Durvinita",
+        "identityResolution": {
+          "requested": "Durvinita",
+          "canonical": "Durvinita",
+          "qid": "Q5316814"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5316814",
+        "title": "Durvinita",
+        "source": "https://en.wikipedia.org/wiki/Durvinita",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "7th Western Ganga King",
+            "raw": "{{circa|529|579 CE}}",
+            "parsed": {
+              "start": "0529-01-01",
+              "end": "0579-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mushkara",
+        "title": "Mushkara",
+        "person": "Q135742225",
+        "name": "Mushkara",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Mushkara",
+        "identityResolution": {
+          "requested": "Mushkara",
+          "canonical": "Mushkara",
+          "qid": "Q135742225"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q4828900",
+        "title": "Avinita",
+        "source": "https://en.wikipedia.org/wiki/Avinita",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Western Ganga Dynasty",
+          "raw": "469–529 CE",
+          "parsed": {
+            "start": "0469-01-01",
+            "end": "0529-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q5316814",
+        "title": "Durvinita",
+        "source": "https://en.wikipedia.org/wiki/Durvinita",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "7th Western Ganga King",
+          "raw": "{{circa|529|579 CE}}",
+          "parsed": {
+            "start": "0529-01-01",
+            "end": "0579-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Mushkara",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  }
+}
