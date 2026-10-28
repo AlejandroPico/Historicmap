@@ -1,5 +1,7 @@
 # Pueblos, regiones y coexistencia política · 0.31.0
 
+La entrega 0.36 amplía la consulta hasta 400: 79 dossiers originales, 70 referencias adoptadas, ocho remisiones políticas y una etiqueta apartada por anacronismo. Las 8.922 fases anteriores se conservan literalmente. [Método del siglo V](RESEARCH-400.md), [inventario vigente 400–2027](CULTURAL-REVIEW-400-2027.json), [conservación](CONSERVATION-400.json). Política y culturas siguen activadas inicialmente y compartidas entre Capas/Filtros; las áreas no son fronteras étnicas ni observaciones anuales.
+
 La entrega 0.35 amplía la consulta hasta 500: 73 referencias adoptadas, 12 remisiones políticas y dos anacronismos apartados de la visualización, conservando todos sus originales. Se mantienen las 8.849 fases posteriores. [Método del siglo VI](RESEARCH-500.md), [inventario vigente 500–2027](CULTURAL-REVIEW-500-2027.json). Política y culturas siguen activadas inicialmente y compartidas entre Capas/Filtros.
 
 La entrega0.34 amplía la consulta hasta600, con68 referencias regionales y15 remisiones políticas nuevas. Se conservan las8.781 fases anteriores. [Método del sigloVII](RESEARCH-600.md), [inventario600–2027](CULTURAL-REVIEW-600-2027.json). Ambos controles siguen activados inicialmente y compartidos entre Capas/Filtros.

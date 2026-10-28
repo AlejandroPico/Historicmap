@@ -1,0 +1,35 @@
+{
+  "key": "HIST-Q315010",
+  "name": "Thuringian states",
+  "qid": "Q315010",
+  "aliases": [
+    "Thuringian states"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q315010"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1853",
+      "start": 469,
+      "end": 475,
+      "name": "Thuringian states",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,118 @@
+{
+  "key": "WESTERN-QIN",
+  "name": "Qin occidental",
+  "qid": "Q1668970",
+  "aliases": [
+    "Qin occidental",
+    "Western Qin"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WESTERN-QIN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1071576",
+      "name": "Qifu Gangui",
+      "role": "Gobernante de Qin occidental",
+      "start": "0400-01-01",
+      "end": "0400-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qifu_Gangui",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1071576",
+      "name": "Qifu Gangui",
+      "role": "Gobernante de Qin occidental",
+      "start": "0409-01-01",
+      "end": "0412-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qifu_Gangui",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1074762",
+      "name": "Qifu Chipan",
+      "role": "Gobernante de Qin occidental",
+      "start": "0412-01-01",
+      "end": "0428-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qifu_Chipan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1071563",
+      "name": "Qifu Mumo",
+      "role": "Gobernante de Qin occidental",
+      "start": "0428-01-01",
+      "end": "0431-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qifu_Mumo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1609",
+      "start": 400,
+      "end": 401,
+      "name": "Western Qin",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1653",
+      "start": 410,
+      "end": 413,
+      "name": "Western Qin",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1684",
+      "start": 414,
+      "end": 416,
+      "name": "Western Qin",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1697",
+      "start": 417,
+      "end": 425,
+      "name": "Western Qin",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1717",
+      "start": 426,
+      "end": 438,
+      "name": "Western Qin",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

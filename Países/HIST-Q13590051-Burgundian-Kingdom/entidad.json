@@ -3,7 +3,8 @@
   "name": "Burgundian Kingdom",
   "qid": "Q13590051",
   "aliases": [
-    "Burgundian Kingdom"
+    "Burgundian Kingdom",
+    "Burgundians"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -14,6 +15,59 @@
   "flags": [],
   "symbolReferences": [],
   "leaders": [
+    {
+      "person": "Q437712",
+      "name": "Gondioc",
+      "role": "Rey de los burgundios",
+      "start": "0437-01-01",
+      "end": "0473-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gondioc",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q364245",
+      "name": "Gundebaldo",
+      "role": "Rey de los burgundios",
+      "start": "0473-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gundobad",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-400-0.36",
+      "portrait": {
+        "file": "media/portrait-ce42dba98f011c97b42d.jpg",
+        "title": "Gondebaud par Roger Ferrier Place du bourg de Four.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Gondebaud_par_Roger_Ferrier_Place_du_bourg_de_Four.JPG",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Gondebaud_par_Roger_Ferrier_Place_du_bourg_de_Four.JPG/330px-Gondebaud_par_Roger_Ferrier_Place_du_bourg_de_Four.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Codex",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "b6b44e69652f47e788ccd3a322f2f485a1752da8dbf1dcbaa48c44c28530c394",
+        "bytes": 64363,
+        "canonicalFile": "Países/HIST-Q13590051-Burgundian-Kingdom/retratos/portrait-ce42dba98f011c97b42d.jpg",
+        "caption": "Representación conmemorativa moderna de Gundebaldo."
+      }
+    },
+    {
+      "person": "Q339094",
+      "name": "Gundahario",
+      "role": "Rey burgundio · cronología aproximada",
+      "start": "0411-01-01",
+      "end": "0437-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gundahar",
+      "note": "Ventana411–436/437; las fechas ylos límites de la agrupación son aproximados, sin adoptar la biografía legendaria deGunther.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
     {
       "person": "Q364245",
       "name": "Gundebaldo",
@@ -180,6 +234,94 @@
       "recordId": "clio-1959",
       "start": 523,
       "end": 533,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1650",
+      "start": 407,
+      "end": 409,
+      "name": "Burgundians",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1674",
+      "start": 414,
+      "end": 438,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1766",
+      "start": 443,
+      "end": 450,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1786",
+      "start": 451,
+      "end": 454,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1816",
+      "start": 455,
+      "end": 457,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1823",
+      "start": 458,
+      "end": 458,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1825",
+      "start": 459,
+      "end": 461,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1833",
+      "start": 462,
+      "end": 468,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1852",
+      "start": 469,
+      "end": 479,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1887",
+      "start": 480,
+      "end": 489,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1913",
+      "start": 490,
+      "end": 499,
       "name": "Burgundian Kingdom",
       "status": "Entidad histórica · reconstrucción anual"
     }

@@ -1,0 +1,385 @@
+{
+  "key": "EASTERN-JIN",
+  "identity": {
+    "qid": "",
+    "name": "Jin oriental"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador de Jin oriental",
+      "officePattern": "Emperor",
+      "titles": [
+        "Emperor An of Jin",
+        "Emperor Gong of Jin"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7403",
+      "name": "Emperador An",
+      "role": "Emperador de Jin oriental",
+      "start": "0400-01-01",
+      "end": "0419-01-28",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_An_of_Jin",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-1bbe0d269180abfcb54e.jpg",
+        "title": "Harvard drs 49802792 繡像三國演義續編 v.1 (晉安帝).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_(%E6%99%89%E5%AE%89%E5%B8%9D).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_%28%E6%99%89%E5%AE%89%E5%B8%9D%29.jpg/330px-Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_%28%E6%99%89%E5%AE%89%E5%B8%9D%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "see below",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_(%E6%99%89%E5%AE%89%E5%B8%9D).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://iiif.lib.harvard.edu/manifests/view/drs:49802792",
+        "sha256": "51fa99f77222862823447e3e952fc3664c2393e253c7891e23bb4c915bd0485c",
+        "bytes": 51690,
+        "canonicalFile": "Países/EASTERN-JIN-Jin-oriental/retratos/portrait-1bbe0d269180abfcb54e.jpg",
+        "caption": "Retrato imaginario posterior de Emperador An; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q7404",
+      "name": "Emperador Gong",
+      "role": "Emperador de Jin oriental",
+      "start": "0419-01-28",
+      "end": "0420-07-07",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Gong_of_Jin",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review036-jin-song",
+      "type": "institution",
+      "title": "Jin oriental y sucesión Liu Song",
+      "start": "0400-01-01",
+      "end": "0421-01-01",
+      "text": "La etiquetaWestern Jin de la compilación no corresponde a la dinastía vigente: Jin occidental termina en316 yJin oriental continúa hasta420. No se prolongan sus emperadores después del cambio.",
+      "source": "https://www.metmuseum.org/toah/ht/05/eac.html",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 400,
+      "end": 420,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_An_of_Jin",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Jin"
+        ],
+        "start": 400,
+        "end": 420,
+        "label": "Jin oriental",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Jin"
+        ],
+        "start": 421,
+        "end": 499,
+        "label": "Jin oriental · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "b66eb7410aa2ea39b6b52840ece740cefa46383ee99b9d3c88a80ef23f673086",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1574,
+        1623,
+        1663,
+        1690
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor An of Jin",
+        "title": "Emperor An of Jin",
+        "person": "Q7403",
+        "name": "Emperador An",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_An_of_Jin",
+        "identityResolution": {
+          "requested": "Emperor An of Jin",
+          "canonical": "Emperor An of Jin",
+          "qid": "Q7403"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0396-11-07",
+          "end": "0419-01-28",
+          "precision": 11,
+          "statement": "Q7403$cae450ab-4f7b-4fcc-a64b-d47fa3601ea9",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7403",
+        "title": "Emperor An of Jin",
+        "source": "https://en.wikipedia.org/wiki/Emperor_An_of_Jin",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "10th Emperor of the Eastern Jin dynasty",
+            "raw": "7 November 396<ref>According to Sima Dezong's biography in ''Book of Jin'', he assumed the throne on the ''xinyou'' day of the 9th month of the 21st year of the ''Taiyuan'' era of his father's reign. This corresponds to 7 Nov 396 on the Julian calendar. [{{lang|zh|(太元二十一年九月)辛酉，太子即皇帝位}}] ''Jin Shu'' vol. 10.</ref> – 28 January 419",
+            "parsed": {
+              "start": "0396-11-07",
+              "end": "0419-01-28",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "396–403",
+            "parsed": {
+              "start": "0396-01-01",
+              "end": "0403-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "404–419",
+            "parsed": {
+              "start": "0404-01-01",
+              "end": "0419-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Gong of Jin",
+        "title": "Emperor Gong of Jin",
+        "person": "Q7404",
+        "name": "Emperador Gong",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Gong_of_Jin",
+        "identityResolution": {
+          "requested": "Emperor Gong of Jin",
+          "canonical": "Emperor Gong of Jin",
+          "qid": "Q7404"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0419-01-28",
+          "end": "0420-07-07",
+          "precision": 11,
+          "statement": "Q7404$38dace26-df89-40f8-b86b-ff8c1937e5e1",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7404",
+        "title": "Emperor Gong of Jin",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Gong_of_Jin",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "11th Emperor of the Eastern Jin dynasty",
+            "raw": "28 Jan 419<ref>According to Sima Dewen's biography in ''Book of Jin'', he ascended the throne on the same day as his brother's death, which took place on 28 Jan 419. ({{lang|zh|安帝崩....是日，即帝位}}) ''Jin Shu'', vol.10</ref> – 7 July 420<ref>''jia'zi'' day of the 6th month of the 2nd year of the ''Yuan'xi'' era, per Emperor Gong's biography in ''Book of Jin'' and Emperor Wu's biography in ''Book of Song''</ref>",
+            "parsed": {
+              "start": "0419-01-28",
+              "end": "0420-07-07",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "419–420",
+            "parsed": {
+              "start": "0419-01-01",
+              "end": "0420-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Lingling",
+            "raw": "420–421",
+            "parsed": {
+              "start": "0420-01-01",
+              "end": "0421-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7403",
+        "title": "Emperor An of Jin",
+        "source": "https://en.wikipedia.org/wiki/Emperor_An_of_Jin",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "10th Emperor of the Eastern Jin dynasty",
+          "raw": "7 November 396<ref>According to Sima Dezong's biography in ''Book of Jin'', he assumed the throne on the ''xinyou'' day of the 9th month of the 21st year of the ''Taiyuan'' era of his father's reign. This corresponds to 7 Nov 396 on the Julian calendar. [{{lang|zh|(太元二十一年九月)辛酉，太子即皇帝位}}] ''Jin Shu'' vol. 10.</ref> – 28 January 419",
+          "parsed": {
+            "start": "0396-11-07",
+            "end": "0419-01-28",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q7404",
+        "title": "Emperor Gong of Jin",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Gong_of_Jin",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "11th Emperor of the Eastern Jin dynasty",
+          "raw": "28 Jan 419<ref>According to Sima Dewen's biography in ''Book of Jin'', he ascended the throne on the same day as his brother's death, which took place on 28 Jan 419. ({{lang|zh|安帝崩....是日，即帝位}}) ''Jin Shu'', vol.10</ref> – 7 July 420<ref>''jia'zi'' day of the 6th month of the 2nd year of the ''Yuan'xi'' era, per Emperor Gong's biography in ''Book of Jin'' and Emperor Wu's biography in ''Book of Song''</ref>",
+          "parsed": {
+            "start": "0419-01-28",
+            "end": "0420-07-07",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat036-15",
+      "name": "Jiankang · corte Jin",
+      "coordinates": [
+        118.8,
+        32.05
+      ],
+      "start": 400,
+      "end": 420,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Jin_oriental",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Jin oriental"
+    },
+    {
+      "id": "seat036-15-own",
+      "name": "Jiankang · corte Jin",
+      "coordinates": [
+        118.8,
+        32.05
+      ],
+      "start": 400,
+      "end": 420,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Jin_oriental",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Jin oriental"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review036-jin-song",
+      "type": "institution",
+      "title": "Jin oriental y sucesión Liu Song",
+      "start": "0400-01-01",
+      "end": "0421-01-01",
+      "text": "La etiquetaWestern Jin de la compilación no corresponde a la dinastía vigente: Jin occidental termina en316 yJin oriental continúa hasta420. No se prolongan sus emperadores después del cambio.",
+      "source": "https://www.metmuseum.org/toah/ht/05/eac.html",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q7403",
+      "name": "Emperador An",
+      "title": "Harvard drs 49802792 繡像三國演義續編 v.1 (晉安帝).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_(%E6%99%89%E5%AE%89%E5%B8%9D).jpg",
+      "sha256": "51fa99f77222862823447e3e952fc3664c2393e253c7891e23bb4c915bd0485c",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Emperador An; no retrato contemporáneo."
+    }
+  ]
+}

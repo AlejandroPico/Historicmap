@@ -1,4 +1,5 @@
 import{describe,it,expect,vi}from'vitest';import{readFileSync,writeFileSync}from'node:fs';
+import{createHash}from'node:crypto';
 import{annualData}from'../src/data';import{politicalData}from'../src/political';import{regionsAt,hasRegionalCoverage,regionalAsset,entitiesAt,regionalCard,containsLocation}from'../src/cultural-regions';import{anchorFor,matchingFeature}from'../src/selection';
 const read=(f:string)=>JSON.parse(readFileSync(f,'utf8')),all=read('public/data/cultural-regions.geojson'),index=read('public/data/cultural-index.json'),ids=read('public/data/identities.json'),inventory=read('docs/CULTURAL-REVIEW-900-1905.json'),empty:any={type:'FeatureCollection',features:[]};
 vi.stubGlobal('fetch',async(input:any)=>new Response(readFileSync('public/data/'+String(input).split('/').at(-1)!),{status:200}));
@@ -20,7 +21,10 @@ describe('global regional review 900–1905',()=>{
   if(process.env.WRITE_REGIONAL_AUDIT==='1')writeFileSync('docs/CULTURAL-GLOBAL-REVIEW-900-1905.json',JSON.stringify({scope:'Technical continuity, political selection and documentary-link review. Not independent validation of all regional extents, nor an ethnic or population census.',years,transitions,politicalBaseRemissions:remissions,unresolvedRemissions:remissions.filter(r=>r.status!=='explicit-key-present')},null,2)+'\n');
  },120000);
  it('uses complete century segments rather than downloading the worldwide inventory at every first visit',()=>{
-  for(const segment of index.segments){const data=read('public/data/'+segment.file),expected=all.features.filter((f:any)=>f.properties.start<=segment.end&&f.properties.end>=segment.start);expect(data.features.length).toBe(expected.length);const byid=new Map(expected.map((f:any)=>[f.id,f]));for(const f of data.features)expect(f).toEqual(byid.get(f.id));}
+  // Compare every property and coordinate while avoiding repeated matcher walks
+  // through thousands of large geometries. The compiler retains object order.
+  const digest=(f:unknown)=>createHash('sha256').update(JSON.stringify(f)).digest('hex');const hashes=new Map(all.features.map((f:any)=>[f.id,digest(f)]));
+  for(const segment of index.segments){const data=read('public/data/'+segment.file),expected=all.features.filter((f:any)=>f.properties.start<=segment.end&&f.properties.end>=segment.start),expectedIds=new Set(expected.map((f:any)=>f.id));expect(data.features.length).toBe(expected.length);expect(new Set(data.features.map((f:any)=>f.id)).size).toBe(data.features.length);for(const f of data.features){expect(expectedIds.has(f.id),segment.file+' '+f.id).toBe(true);expect(digest(f),segment.file+' '+f.id).toBe(hashes.get(f.id));}}
   for(let year=900;year<=1905;year++){const file=regionalAsset(year);expect(file).toBeDefined();expect(file).not.toBe('cultural-regions.geojson');}expect(regionalAsset(2028)).toBeUndefined();
  });
  it('preserves the 1700 cultures through 1701 and the reviewed endpoint with visible reference dating',()=>{

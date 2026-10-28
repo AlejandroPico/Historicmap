@@ -1,0 +1,60 @@
+{
+  "key": "REFERENCE-HADRAMAWT-COMMUNITIES",
+  "name": "Comunidades de Hadramaut",
+  "qid": "",
+  "aliases": [
+    "Comunidades de Hadramaut",
+    "Hadramaut"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 15,
+      "start": null,
+      "end": null,
+      "name": "Hadramaut",
+      "status": null
+    },
+    {
+      "file": "world_1000.geojson",
+      "recordId": 34,
+      "start": null,
+      "end": null,
+      "name": "Hadramaut",
+      "status": null
+    },
+    {
+      "file": "world_1492.geojson",
+      "recordId": 55,
+      "start": null,
+      "end": null,
+      "name": "Hadramaut",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-HADRAMAWT-COMMUNITIES-Y0400:0",
+      "contextKey": "REFERENCE-HADRAMAWT-COMMUNITIES",
+      "start": 400,
+      "end": 499,
+      "sourceYear": 400,
+      "canonicalFile": "Países/REFERENCE-HADRAMAWT-COMMUNITIES-Comunidades-de-Hadramaut/poblamiento/REFERENCE-HADRAMAWT-COMMUNITIES-Y0400.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

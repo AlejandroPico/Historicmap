@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-SUREN-REGIONS",
+  "name": "Ámbitos orientales iranios · poderes y comunidades",
+  "qid": "",
+  "aliases": [
+    "Suren Kingdom",
+    "Ámbitos orientales iranios · poderes y comunidades"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 130,
+      "start": null,
+      "end": null,
+      "name": "Suren Kingdom",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-SUREN-REGIONS-Y0400:0",
+      "contextKey": "REFERENCE-SUREN-REGIONS",
+      "start": 400,
+      "end": 499,
+      "sourceYear": 400,
+      "canonicalFile": "Países/REFERENCE-SUREN-REGIONS-Ambitos-orientales-iranios-poderes-y-comunidades/poblamiento/REFERENCE-SUREN-REGIONS-Y0400.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

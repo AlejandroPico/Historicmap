@@ -1,0 +1,281 @@
+{
+  "key": "SOUTHERN-LIANG",
+  "identity": {
+    "qid": "Q1069868",
+    "name": "Liang meridional"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Liang meridional",
+      "officePattern": "King|Prince",
+      "titles": [
+        "Tufa Lilugu",
+        "Tufa Rutan"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1074794",
+      "name": "Tufa Lilugu",
+      "role": "Gobernante de Liang meridional",
+      "start": "0400-01-01",
+      "end": "0402-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tufa_Lilugu",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q1074783",
+      "name": "Tufa Rutan",
+      "role": "Gobernante de Liang meridional",
+      "start": "0402-01-01",
+      "end": "0414-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tufa_Rutan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 414,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tufa_Lilugu",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Southern Liang"
+        ],
+        "start": 400,
+        "end": 414,
+        "label": "Liang meridional",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Southern Liang"
+        ],
+        "start": 415,
+        "end": 499,
+        "label": "Liang meridional · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "c2caa8594f911414a7eb63c034f677f9dd4836f5b24d10905b4b066dcfce055e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1605,
+        1658
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Tufa Lilugu",
+        "title": "Tufa Lilugu",
+        "person": "Q1074794",
+        "name": "Tufa Lilugu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tufa_Lilugu",
+        "identityResolution": {
+          "requested": "Tufa Lilugu",
+          "canonical": "Tufa Lilugu",
+          "qid": "Q1074794"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0399-01-01",
+          "end": "0402-01-01",
+          "precision": 9,
+          "statement": "Q1074794$e7b3cbdf-42f1-0995-0b4a-c6643b867aaa",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1074794",
+        "title": "Tufa Lilugu",
+        "source": "https://en.wikipedia.org/wiki/Tufa_Lilugu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Southern Liang",
+            "raw": "399–402",
+            "parsed": {
+              "start": "0399-01-01",
+              "end": "0402-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Southern Liang",
+            "raw": "399–402",
+            "parsed": {
+              "start": "0399-01-01",
+              "end": "0402-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tufa Rutan",
+        "title": "Tufa Rutan",
+        "person": "Q1074783",
+        "name": "Tufa Rutan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tufa_Rutan",
+        "identityResolution": {
+          "requested": "Tufa Rutan",
+          "canonical": "Tufa Rutan",
+          "qid": "Q1074783"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0402-01-01",
+          "end": "0414-01-01",
+          "precision": 9,
+          "statement": "Q1074783$31365144-445c-7aaa-28c3-4cc2ee88fadb",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1074783",
+        "title": "Tufa Rutan",
+        "source": "https://en.wikipedia.org/wiki/Tufa_Rutan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Southern Liang",
+            "raw": "402–414",
+            "parsed": {
+              "start": "0402-01-01",
+              "end": "0414-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Southern Liang",
+            "raw": "402–414",
+            "parsed": {
+              "start": "0402-01-01",
+              "end": "0414-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Zuonan",
+            "raw": "414–415",
+            "parsed": {
+              "start": "0414-01-01",
+              "end": "0415-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1074794",
+        "title": "Tufa Lilugu",
+        "source": "https://en.wikipedia.org/wiki/Tufa_Lilugu",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Prince of Southern Liang",
+          "raw": "399–402",
+          "parsed": {
+            "start": "0399-01-01",
+            "end": "0402-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1074783",
+        "title": "Tufa Rutan",
+        "source": "https://en.wikipedia.org/wiki/Tufa_Rutan",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Prince of Southern Liang",
+          "raw": "402–414",
+          "parsed": {
+            "start": "0402-01-01",
+            "end": "0414-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  }
+}

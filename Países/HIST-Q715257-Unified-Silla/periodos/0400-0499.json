@@ -1,0 +1,485 @@
+{
+  "key": "HIST-Q715257",
+  "identity": {
+    "qid": "Q715257",
+    "name": "Reino de Silla"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Silla",
+      "officePattern": "(?:King|Ruler).*Silla",
+      "titles": [
+        "Naemul of Silla",
+        "Silseong of Silla",
+        "Nulji of Silla",
+        "Jabi of Silla",
+        "Soji of Silla"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q492831",
+      "name": "Naemul of Silla",
+      "role": "Rey de Silla",
+      "start": "0400-01-01",
+      "end": "0402-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Naemul_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q485621",
+      "name": "Silseong of Silla",
+      "role": "Rey de Silla",
+      "start": "0402-01-01",
+      "end": "0417-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Silseong_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q485851",
+      "name": "Nulji of Silla",
+      "role": "Rey de Silla",
+      "start": "0417-01-01",
+      "end": "0458-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Nulji_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q488591",
+      "name": "Jabi of Silla",
+      "role": "Rey de Silla",
+      "start": "0458-01-01",
+      "end": "0479-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jabi_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q488382",
+      "name": "Soji of Silla",
+      "role": "Rey de Silla",
+      "start": "0479-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Soji_of_Silla",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Naemul_of_Silla",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Silla"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Reino de Silla",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "55aebb83f11fcce087234ae0341f34fe20939f9153e41d2b7cb477688c21dc64",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1529
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Jabi of Silla",
+        "title": "Jabi of Silla",
+        "person": "Q488591",
+        "name": "Jabi of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jabi_of_Silla",
+        "identityResolution": {
+          "requested": "Jabi of Silla",
+          "canonical": "Jabi of Silla",
+          "qid": "Q488591"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q488591",
+        "title": "Jabi of Silla",
+        "source": "https://en.wikipedia.org/wiki/Jabi_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "458–479",
+            "parsed": {
+              "start": "0458-01-01",
+              "end": "0479-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "458–479",
+            "parsed": {
+              "start": "0458-01-01",
+              "end": "0479-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Naemul of Silla",
+        "title": "Naemul of Silla",
+        "person": "Q492831",
+        "name": "Naemul of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Naemul_of_Silla",
+        "identityResolution": {
+          "requested": "Naemul of Silla",
+          "canonical": "Naemul of Silla",
+          "qid": "Q492831"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q492831",
+        "title": "Naemul of Silla",
+        "source": "https://en.wikipedia.org/wiki/Naemul_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "356-402",
+            "parsed": {
+              "start": "0356-01-01",
+              "end": "0402-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "356–402",
+            "parsed": {
+              "start": "0356-01-01",
+              "end": "0402-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nulji of Silla",
+        "title": "Nulji of Silla",
+        "person": "Q485851",
+        "name": "Nulji of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Nulji_of_Silla",
+        "identityResolution": {
+          "requested": "Nulji of Silla",
+          "canonical": "Nulji of Silla",
+          "qid": "Q485851"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485851",
+        "title": "Nulji of Silla",
+        "source": "https://en.wikipedia.org/wiki/Nulji_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "417-458",
+            "parsed": {
+              "start": "0417-01-01",
+              "end": "0458-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "417–458",
+            "parsed": {
+              "start": "0417-01-01",
+              "end": "0458-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Silseong of Silla",
+        "title": "Silseong of Silla",
+        "person": "Q485621",
+        "name": "Silseong of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Silseong_of_Silla",
+        "identityResolution": {
+          "requested": "Silseong of Silla",
+          "canonical": "Silseong of Silla",
+          "qid": "Q485621"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q485621",
+        "title": "Silseong of Silla",
+        "source": "https://en.wikipedia.org/wiki/Silseong_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "402-417",
+            "parsed": {
+              "start": "0402-01-01",
+              "end": "0417-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "402–417",
+            "parsed": {
+              "start": "0402-01-01",
+              "end": "0417-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Soji of Silla",
+        "title": "Soji of Silla",
+        "person": "Q488382",
+        "name": "Soji of Silla",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Soji_of_Silla",
+        "identityResolution": {
+          "requested": "Soji of Silla",
+          "canonical": "Soji of Silla",
+          "qid": "Q488382"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q488382",
+        "title": "Soji of Silla",
+        "source": "https://en.wikipedia.org/wiki/Soji_of_Silla",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Silla",
+            "raw": "479–500",
+            "parsed": {
+              "start": "0479-01-01",
+              "end": "0500-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Silla",
+            "raw": "479–500",
+            "parsed": {
+              "start": "0479-01-01",
+              "end": "0500-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q492831",
+        "title": "Naemul of Silla",
+        "source": "https://en.wikipedia.org/wiki/Naemul_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "356-402",
+          "parsed": {
+            "start": "0356-01-01",
+            "end": "0402-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q485621",
+        "title": "Silseong of Silla",
+        "source": "https://en.wikipedia.org/wiki/Silseong_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "402-417",
+          "parsed": {
+            "start": "0402-01-01",
+            "end": "0417-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q485851",
+        "title": "Nulji of Silla",
+        "source": "https://en.wikipedia.org/wiki/Nulji_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "417-458",
+          "parsed": {
+            "start": "0417-01-01",
+            "end": "0458-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q488591",
+        "title": "Jabi of Silla",
+        "source": "https://en.wikipedia.org/wiki/Jabi_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "458–479",
+          "parsed": {
+            "start": "0458-01-01",
+            "end": "0479-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q488382",
+        "title": "Soji of Silla",
+        "source": "https://en.wikipedia.org/wiki/Soji_of_Silla",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Silla",
+          "raw": "479–500",
+          "parsed": {
+            "start": "0479-01-01",
+            "end": "0500-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat036-30",
+      "name": "Gyeongju · Silla",
+      "coordinates": [
+        129.212,
+        35.856
+      ],
+      "start": 400,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Reino_de_Silla",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Reino de Silla"
+    },
+    {
+      "id": "seat036-30-own",
+      "name": "Gyeongju · Silla",
+      "coordinates": [
+        129.212,
+        35.856
+      ],
+      "start": 400,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Reino_de_Silla",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Reino de Silla"
+    }
+  ]
+}

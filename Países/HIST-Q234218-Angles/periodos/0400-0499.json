@@ -1,0 +1,103 @@
+{
+  "key": "HIST-Q234218",
+  "identity": {
+    "qid": "Q234218",
+    "name": "Angles"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de los anglos · tradición",
+      "officePattern": "King.*Angl",
+      "titles": [
+        "Offa of Angel"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Angles"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Angles · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "859ecc2fd5a52e9d2b9e4463f816680cabd4cebcfbd47fd72d632872e4bde2bb",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1548,
+        1876
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Offa of Angel",
+        "title": "Offa of Angel",
+        "person": "Q1417254",
+        "name": "Offa de Angeln",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Offa_of_Angel",
+        "identityResolution": {
+          "requested": "Offa of Angel",
+          "canonical": "Offa of Angel",
+          "qid": "Q1417254"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1417254",
+        "title": "Offa of Angel",
+        "source": "https://en.wikipedia.org/wiki/Offa_of_Angel",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Offa of Angel",
+        "person": "Q1417254",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

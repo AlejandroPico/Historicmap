@@ -1,0 +1,1024 @@
+{
+  "key": "HIST-Q5724",
+  "identity": {
+    "qid": "Q5724",
+    "name": "Anurādhapura"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Anuradhapura",
+      "officePattern": "King.*Anuradhapura",
+      "titles": [
+        "Upatissa I of Anuradhapura",
+        "Mahanama of Anuradhapura",
+        "Soththisena of Anuradhapura",
+        "Chattagahaka Jantu of Anuradhapura",
+        "Mittasena of Anuradhapura",
+        "Pandu of Anuradhapura",
+        "Parinda",
+        "Khudda Parinda",
+        "Tiritara",
+        "Dathiya",
+        "Pithiya",
+        "Dhatusena of Anuradhapura",
+        "Kashyapa I of Anuradhapura",
+        "Moggallana I of Anuradhapura"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q12979514",
+      "name": "Upatissa Ier",
+      "role": "Rey de Anuradhapura",
+      "start": "0400-01-01",
+      "end": "0412-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Upatissa_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q15059050",
+      "name": "Mahanama de Anuradhapura",
+      "role": "Rey de Anuradhapura",
+      "start": "0412-01-01",
+      "end": "0434-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Mahanama",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q16932155",
+      "name": "Sothisena",
+      "role": "Rey de Anuradhapura",
+      "start": "0434-01-01",
+      "end": "0434-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Soththisena",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q16826377",
+      "name": "Chattagahaka Jantu",
+      "role": "Rey de Anuradhapura",
+      "start": "0434-01-01",
+      "end": "0435-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chattagahaka_Jantu",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q12987719",
+      "name": "Mittasena",
+      "role": "Rey de Anuradhapura",
+      "start": "0435-01-01",
+      "end": "0436-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mittasena",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q3522815",
+      "name": "Dhatusena",
+      "role": "Rey de Anuradhapura",
+      "start": "0455-01-01",
+      "end": "0473-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dhatusena",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q6374490",
+      "name": "Kashyapa I of Anuradhapura",
+      "role": "Rey de Anuradhapura",
+      "start": "0473-01-01",
+      "end": "0495-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kashyapa_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q16934186",
+      "name": "Moggallana I",
+      "role": "Rey de Anuradhapura",
+      "start": "0497-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Moggallana_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review036-sigiriya",
+      "type": "institution",
+      "title": "Sigiriya y la corte de Kashyapa",
+      "start": "0477-01-01",
+      "end": "0496-01-01",
+      "text": "Sigiriya se distingue como centro regio del final del sigloV, sin convertir todo el siglo en una única capital ni ignorar la sucesión deAnuradhapura.",
+      "source": "https://whc.unesco.org/en/list/202/",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Upatissa_I",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Anurādhapura"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Anurādhapura",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "2b4ab822e7ff0fcdfd71ff22b42620496b9414dbbaf8abe26c450038ecc5ce0c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1197,
+        1725
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Chattagahaka Jantu of Anuradhapura",
+        "title": "Chattagahaka Jantu of Anuradhapura",
+        "person": "Q16826377",
+        "name": "Chattagahaka Jantu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chattagahaka_Jantu",
+        "identityResolution": {
+          "requested": "Chattagahaka Jantu of Anuradhapura",
+          "canonical": "Chattagahaka Jantu",
+          "qid": "Q16826377"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0434-01-01",
+          "end": "0435-01-01",
+          "precision": 9,
+          "statement": "Q16826377$fc099c3e-410d-22d3-d8e3-3167961e3302",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16826377",
+        "title": "Chattagahaka Jantu",
+        "source": "https://en.wikipedia.org/wiki/Chattagahaka_Jantu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "434 – 435",
+            "parsed": {
+              "start": "0434-01-01",
+              "end": "0435-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "434&ndash;435",
+            "parsed": {
+              "start": "0434-01-01",
+              "end": "0435-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dathiya",
+        "title": "Dathiya",
+        "person": "Q7764552",
+        "name": "The Six Dravidians",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/The_Six_Dravidians",
+        "identityResolution": {
+          "requested": "Dathiya",
+          "canonical": "The Six Dravidians",
+          "qid": "Q7764552"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dhatusena of Anuradhapura",
+        "title": "Dhatusena of Anuradhapura",
+        "person": "Q3522815",
+        "name": "Dhatusena",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dhatusena",
+        "identityResolution": {
+          "requested": "Dhatusena of Anuradhapura",
+          "canonical": "Dhatusena",
+          "qid": "Q3522815"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0455-01-01",
+          "end": "0473-01-01",
+          "precision": 9,
+          "statement": "Q3522815$fb99d034-4219-10f5-0999-53825c752420",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3522815",
+        "title": "Dhatusena",
+        "source": "https://en.wikipedia.org/wiki/Dhatusena",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "455–473 AD",
+            "parsed": {
+              "start": "0455-01-01",
+              "end": "0473-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kashyapa I of Anuradhapura",
+        "title": "Kashyapa I of Anuradhapura",
+        "person": "Q6374490",
+        "name": "Kashyapa I of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kashyapa_I",
+        "identityResolution": {
+          "requested": "Kashyapa I of Anuradhapura",
+          "canonical": "Kashyapa I",
+          "qid": "Q6374490"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0473-01-01",
+          "end": "0495-01-01",
+          "precision": 9,
+          "statement": "Q6374490$ea0fade6-4cbe-9b92-c2ec-b44fdd071eb4",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6374490",
+        "title": "Kashyapa I",
+        "source": "https://en.wikipedia.org/wiki/Kashyapa_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "473–495",
+            "parsed": {
+              "start": "0473-01-01",
+              "end": "0495-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Rajarata",
+            "raw": "473–495 AD",
+            "parsed": {
+              "start": "0473-01-01",
+              "end": "0495-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Khudda Parinda",
+        "title": "Khudda Parinda",
+        "person": "Q7764552",
+        "name": "The Six Dravidians",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/The_Six_Dravidians",
+        "identityResolution": {
+          "requested": "Khudda Parinda",
+          "canonical": "The Six Dravidians",
+          "qid": "Q7764552"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mahanama of Anuradhapura",
+        "title": "Mahanama of Anuradhapura",
+        "person": "Q15059050",
+        "name": "Mahanama de Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Mahanama",
+        "identityResolution": {
+          "requested": "Mahanama of Anuradhapura",
+          "canonical": "King Mahanama",
+          "qid": "Q15059050"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0412-01-01",
+          "end": "0434-01-01",
+          "precision": 9,
+          "statement": "Q15059050$9131cb06-4362-699e-1567-3815de966066",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q15059050",
+        "title": "King Mahanama",
+        "source": "https://en.wikipedia.org/wiki/King_Mahanama",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "412 – 434",
+            "parsed": {
+              "start": "0412-01-01",
+              "end": "0434-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "412&ndash;434",
+            "parsed": {
+              "start": "0412-01-01",
+              "end": "0434-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mittasena of Anuradhapura",
+        "title": "Mittasena of Anuradhapura",
+        "person": "Q12987719",
+        "name": "Mittasena",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mittasena",
+        "identityResolution": {
+          "requested": "Mittasena of Anuradhapura",
+          "canonical": "Mittasena",
+          "qid": "Q12987719"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0435-01-01",
+          "end": "0436-01-01",
+          "precision": 9,
+          "statement": "Q12987719$c87ac2de-4f71-2fd9-7ab9-a68257a7a919",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12987719",
+        "title": "Mittasena",
+        "source": "https://en.wikipedia.org/wiki/Mittasena",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "435 – 436",
+            "parsed": {
+              "start": "0435-01-01",
+              "end": "0436-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "435&ndash;436",
+            "parsed": {
+              "start": "0435-01-01",
+              "end": "0436-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Moggallana I of Anuradhapura",
+        "title": "Moggallana I of Anuradhapura",
+        "person": "Q16934186",
+        "name": "Moggallana I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Moggallana_I",
+        "identityResolution": {
+          "requested": "Moggallana I of Anuradhapura",
+          "canonical": "Moggallana I",
+          "qid": "Q16934186"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0497-01-01",
+          "end": "0515-01-01",
+          "precision": 9,
+          "statement": "Q16934186$e2454132-449e-5d6d-7f15-e51c028948a9",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16934186",
+        "title": "Moggallana I",
+        "source": "https://en.wikipedia.org/wiki/Moggallana_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "497&ndash;515",
+            "parsed": {
+              "start": "0497-01-01",
+              "end": "0515-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "497&ndash;515",
+            "parsed": {
+              "start": "0497-01-01",
+              "end": "0515-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pandu of Anuradhapura",
+        "title": "Pandu of Anuradhapura",
+        "person": "",
+        "name": "Pandu of Anuradhapura",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Pandu_of_Anuradhapura",
+        "identityResolution": {
+          "requested": "Pandu of Anuradhapura",
+          "canonical": "Pandu of Anuradhapura",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Parinda",
+        "title": "Parinda",
+        "person": "Q1241447",
+        "name": "Parinda",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Parinda",
+        "identityResolution": {
+          "requested": "Parinda",
+          "canonical": "Parinda",
+          "qid": "Q1241447"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pithiya",
+        "title": "Pithiya",
+        "person": "Q7764552",
+        "name": "The Six Dravidians",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/The_Six_Dravidians",
+        "identityResolution": {
+          "requested": "Pithiya",
+          "canonical": "The Six Dravidians",
+          "qid": "Q7764552"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Soththisena of Anuradhapura",
+        "title": "Soththisena of Anuradhapura",
+        "person": "Q16932155",
+        "name": "Sothisena",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Soththisena",
+        "identityResolution": {
+          "requested": "Soththisena of Anuradhapura",
+          "canonical": "Soththisena",
+          "qid": "Q16932155"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0434-01-01",
+          "end": "0434-01-01",
+          "precision": 9,
+          "statement": "Q16932155$eb90d491-4a41-2320-a295-b867818e182b",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16932155",
+        "title": "Soththisena",
+        "source": "https://en.wikipedia.org/wiki/Soththisena",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "434",
+            "parsed": {
+              "start": "0434-01-01",
+              "end": "0434-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "434&ndash;434",
+            "parsed": {
+              "start": "0434-01-01",
+              "end": "0434-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tiritara",
+        "title": "Tiritara",
+        "person": "Q7764552",
+        "name": "The Six Dravidians",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/The_Six_Dravidians",
+        "identityResolution": {
+          "requested": "Tiritara",
+          "canonical": "The Six Dravidians",
+          "qid": "Q7764552"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Upatissa I of Anuradhapura",
+        "title": "Upatissa I of Anuradhapura",
+        "person": "Q12979514",
+        "name": "Upatissa Ier",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Upatissa_I",
+        "identityResolution": {
+          "requested": "Upatissa I of Anuradhapura",
+          "canonical": "Upatissa I",
+          "qid": "Q12979514"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "0370-01-01",
+          "end": "0412-01-01",
+          "precision": 9,
+          "statement": "Q12979514$18cb1254-4e34-1e5a-7526-5fe44974fe96",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12979514",
+        "title": "Upatissa I",
+        "source": "https://en.wikipedia.org/wiki/Upatissa_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "370 – 412",
+            "parsed": {
+              "start": "0370-01-01",
+              "end": "0412-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "370&ndash;412",
+            "parsed": {
+              "start": "0370-01-01",
+              "end": "0412-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 8,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q12979514",
+        "title": "Upatissa I of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Upatissa_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "370 – 412",
+          "parsed": {
+            "start": "0370-01-01",
+            "end": "0412-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q15059050",
+        "title": "Mahanama of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/King_Mahanama",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "412 – 434",
+          "parsed": {
+            "start": "0412-01-01",
+            "end": "0434-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q16932155",
+        "title": "Soththisena of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Soththisena",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "434",
+          "parsed": {
+            "start": "0434-01-01",
+            "end": "0434-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q16826377",
+        "title": "Chattagahaka Jantu of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Chattagahaka_Jantu",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "434 – 435",
+          "parsed": {
+            "start": "0434-01-01",
+            "end": "0435-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q12987719",
+        "title": "Mittasena of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Mittasena",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "435 – 436",
+          "parsed": {
+            "start": "0435-01-01",
+            "end": "0436-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q3522815",
+        "title": "Dhatusena of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Dhatusena",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "455–473 AD",
+          "parsed": {
+            "start": "0455-01-01",
+            "end": "0473-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q6374490",
+        "title": "Kashyapa I of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Kashyapa_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "473–495",
+          "parsed": {
+            "start": "0473-01-01",
+            "end": "0495-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q16934186",
+        "title": "Moggallana I of Anuradhapura",
+        "source": "https://en.wikipedia.org/wiki/Moggallana_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Anuradhapura",
+          "raw": "497&ndash;515",
+          "parsed": {
+            "start": "0497-01-01",
+            "end": "0515-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Pandu of Anuradhapura",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Parinda",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Khudda Parinda",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Tiritara",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Dathiya",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Pithiya",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat036-25",
+      "name": "Anuradhapura",
+      "coordinates": [
+        80.403,
+        8.311
+      ],
+      "start": 400,
+      "end": 476,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Anur%C4%81dhapura",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Anurādhapura"
+    },
+    {
+      "id": "seat036-25-own",
+      "name": "Anuradhapura",
+      "coordinates": [
+        80.403,
+        8.311
+      ],
+      "start": 400,
+      "end": 476,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Anur%C4%81dhapura",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Anurādhapura"
+    },
+    {
+      "id": "seat036-26",
+      "name": "Sigiriya · centro regio",
+      "coordinates": [
+        80.76,
+        7.957
+      ],
+      "start": 477,
+      "end": 495,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Anur%C4%81dhapura",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Anurādhapura"
+    },
+    {
+      "id": "seat036-26-own",
+      "name": "Sigiriya · centro regio",
+      "coordinates": [
+        80.76,
+        7.957
+      ],
+      "start": 477,
+      "end": 495,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Anur%C4%81dhapura",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Anurādhapura"
+    },
+    {
+      "id": "seat036-27",
+      "name": "Anuradhapura · corte restaurada",
+      "coordinates": [
+        80.403,
+        8.311
+      ],
+      "start": 495,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Anur%C4%81dhapura",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Anurādhapura"
+    },
+    {
+      "id": "seat036-27-own",
+      "name": "Anuradhapura · corte restaurada",
+      "coordinates": [
+        80.403,
+        8.311
+      ],
+      "start": 495,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Anur%C4%81dhapura",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Anurādhapura"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review036-sigiriya",
+      "type": "institution",
+      "title": "Sigiriya y la corte de Kashyapa",
+      "start": "0477-01-01",
+      "end": "0496-01-01",
+      "text": "Sigiriya se distingue como centro regio del final del sigloV, sin convertir todo el siglo en una única capital ni ignorar la sucesión deAnuradhapura.",
+      "source": "https://whc.unesco.org/en/list/202/",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q3522815",
+      "title": "Buda de Avukana - 03.jpg",
+      "reason": "Buda deAvukana, no retrato del reyDhatusena.",
+      "source": "https://commons.wikimedia.org/wiki/File:Buda_de_Avukana_-_03.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q3522815",
+      "name": "Dhatusena",
+      "title": "Buda de Avukana - 03.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Buda_de_Avukana_-_03.jpg",
+      "sha256": "cf01196eed1a407a787296f9f82ddc4387b7ce8d8afc5a7435d638f4de552fa1",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Buda deAvukana, no retrato del reyDhatusena."
+    }
+  ]
+}

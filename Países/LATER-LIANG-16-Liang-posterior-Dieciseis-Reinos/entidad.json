@@ -1,0 +1,69 @@
+{
+  "key": "LATER-LIANG-16",
+  "name": "Liang posterior · Dieciséis Reinos",
+  "qid": "Q2314869",
+  "aliases": [
+    "Later Liang",
+    "Liang posterior · Dieciséis Reinos"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "LATER-LIANG-16"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1131418",
+      "name": "Lü Zuan",
+      "role": "Gobernante de Liang posterior",
+      "start": "0400-01-01",
+      "end": "0401-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/L%C3%BC_Zuan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1131646",
+      "name": "Lü Long",
+      "role": "Gobernante de Liang posterior",
+      "start": "0401-01-01",
+      "end": "0403-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/L%C3%BC_Long",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1612",
+      "start": 400,
+      "end": 401,
+      "name": "Later Liang",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1622",
+      "start": 402,
+      "end": 406,
+      "name": "Later Liang",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

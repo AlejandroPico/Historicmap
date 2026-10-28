@@ -1,0 +1,89 @@
+{
+  "key": "REFERENCE-MAYA-CITY-STATES-Y0400",
+  "contextKey": "REFERENCE-MAYA-CITY-STATES",
+  "ownerKey": "REFERENCE-MAYA-CITY-STATES",
+  "name": "Comunidades y cortes mayas · Clásico",
+  "originalNames": [
+    "Maya chiefdoms and states"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito histórico de la fuente",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    400,
+    499
+  ],
+  "interpretation": "Cortes independientes yredes regionales. Palenque,Tikal yCopán tienen autoridades documentadas distintas; el contorno no es un Estado maya único ni una frontera étnica.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea400 contiene etiquetas de épocas distintas. La ventana400–499 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#969886",
+  "focus": [
+    -90.24405,
+    17.67151
+  ],
+  "phases": [
+    {
+      "start": 400,
+      "end": 499,
+      "label": "Comunidades y cortes mayas · Clásico",
+      "dateBasis": "Referencia regional de la fuente editorial400; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-MAYA-CITY-STATES-Y0400.geojson",
+  "geometrySha256": "dcde2f57f0a631a48796601c6a6ba5e140649a3d8c424e3efcce6c98525ca10b",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson",
+    "year": 400,
+    "featureIds": [
+      80
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7"
+  },
+  "review": "0.36.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final499 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en500."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Maya chiefdoms and states",
+      "ABBREVN": "Maya",
+      "SUBJECTO": "Maya chiefdoms and states",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Maya chiefdoms and states"
+    }
+  ],
+  "sourceGrouping": [
+    "Maya chiefdoms and states"
+  ]
+}

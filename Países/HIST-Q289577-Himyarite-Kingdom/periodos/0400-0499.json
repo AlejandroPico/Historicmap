@@ -1,0 +1,241 @@
+{
+  "key": "HIST-Q289577",
+  "identity": {
+    "qid": "Q289577",
+    "name": "Himyarite Kingdom"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Himyar",
+      "officePattern": "King|Himyar",
+      "titles": [
+        "Abu Karib",
+        "Hassan Yuha'min",
+        "Sharhabil Yakkuf"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1965311",
+      "name": "Tub'a Abu Kariba As'ad",
+      "role": "Gobernante de Himyar",
+      "start": "0400-01-01",
+      "end": "0420-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abu_Karib",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Abu_Karib",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Himyarite Kingdom"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Himyarite Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "ca02cbaeb65881e32a1883d240eaaf24386f7b592f4df674f9e64897625c01a0",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1525
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Abu Karib",
+        "title": "Abu Karib",
+        "person": "Q1965311",
+        "name": "Tub'a Abu Kariba As'ad",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Abu_Karib",
+        "identityResolution": {
+          "requested": "Abu Karib",
+          "canonical": "Abu Karib",
+          "qid": "Q1965311"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0375-01-01",
+          "end": "0440-01-01",
+          "precision": 9,
+          "statement": "Q1965311$af383651-4f48-598b-ebbe-e6bc3d7e4fea",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1965311",
+        "title": "Abu Karib",
+        "source": "https://en.wikipedia.org/wiki/Abu_Karib",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Himyarites",
+            "raw": "390–420 CE",
+            "parsed": {
+              "start": "0390-01-01",
+              "end": "0420-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hassan Yuha'min",
+        "title": "Hassan Yuha'min",
+        "person": "Q22687494",
+        "name": "Hassan Ibn Tubba' As'ad Abi Karib",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hassan_Yuha%27min",
+        "identityResolution": {
+          "requested": "Hassan Yuha'min",
+          "canonical": "Hassan Yuha'min",
+          "qid": "Q22687494"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q22687494",
+        "title": "Hassan Yuha'min",
+        "source": "https://en.wikipedia.org/wiki/Hassan_Yuha%27min",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "420–450 CE",
+            "parsed": {
+              "start": "0420-01-01",
+              "end": "0450-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sharhabil Yakkuf",
+        "title": "Sharhabil Yakkuf",
+        "person": "Q124211538",
+        "name": "Sharhabil Yaqaf",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sharhabil_Yakkuf",
+        "identityResolution": {
+          "requested": "Sharhabil Yakkuf",
+          "canonical": "Sharhabil Yakkuf",
+          "qid": "Q124211538"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q124211538",
+        "title": "Sharhabil Yakkuf",
+        "source": "https://en.wikipedia.org/wiki/Sharhabil_Yakkuf",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "465–480 CE",
+            "parsed": {
+              "start": "0465-01-01",
+              "end": "0480-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1965311",
+        "title": "Abu Karib",
+        "source": "https://en.wikipedia.org/wiki/Abu_Karib",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Himyarites",
+          "raw": "390–420 CE",
+          "parsed": {
+            "start": "0390-01-01",
+            "end": "0420-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Hassan Yuha'min",
+        "person": "Q22687494",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Sharhabil Yakkuf",
+        "person": "Q124211538",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

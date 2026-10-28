@@ -1,0 +1,166 @@
+{
+  "key": "ITALY-MEDIEVAL",
+  "identity": {
+    "qid": "Q172579",
+    "name": "Agrupaciones y realeza lombardas anteriores a Italia"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey lombardo · tradición temprana",
+      "officePattern": "King.*Lombard",
+      "titles": [
+        "Lethuc",
+        "Hildeoc",
+        "Gudeoc",
+        "Claffo"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lombards"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Agrupaciones y realeza lombardas anteriores a Italia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "7603edb7e7acdf8a134802bba26b134cad1cdeac95b1ad43792352a9e14527ed",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1894,
+        1912
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Claffo",
+        "title": "Claffo",
+        "person": "",
+        "name": "Claffo",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Claffo",
+        "identityResolution": {
+          "requested": "Claffo",
+          "canonical": "Claffo",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gudeoc",
+        "title": "Gudeoc",
+        "person": "",
+        "name": "Gudeoc",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Gudeoc",
+        "identityResolution": {
+          "requested": "Gudeoc",
+          "canonical": "Gudeoc",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hildeoc",
+        "title": "Hildeoc",
+        "person": "",
+        "name": "Hildeoc",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Hildeoc",
+        "identityResolution": {
+          "requested": "Hildeoc",
+          "canonical": "Hildeoc",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Lethuc",
+        "title": "Lethuc",
+        "person": "",
+        "name": "Lethuc",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Lethuc",
+        "identityResolution": {
+          "requested": "Lethuc",
+          "canonical": "Lethuc",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Lethuc",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Hildeoc",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Gudeoc",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Claffo",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  }
+}

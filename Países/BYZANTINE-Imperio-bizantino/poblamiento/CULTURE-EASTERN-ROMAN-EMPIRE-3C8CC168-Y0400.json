@@ -1,0 +1,63 @@
+{
+  "key": "CULTURE-EASTERN-ROMAN-EMPIRE-3C8CC168-Y0400",
+  "contextKey": "CULTURE-EASTERN-ROMAN-EMPIRE-3C8CC168",
+  "ownerKey": "BYZANTINE",
+  "name": "Eastern Roman Empire",
+  "originalNames": [
+    "Eastern Roman Empire"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 400",
+  "decision": "political-base",
+  "reviewedRange": [
+    400,
+    499
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea400 contiene etiquetas de épocas distintas. La ventana400–499 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "BYZANTINE"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    22.00076,
+    32.36221
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-EASTERN-ROMAN-EMPIRE-3C8CC168-Y0400.geojson",
+  "geometrySha256": "73ad859d5f9b53a05c3f2086f7bb583b3bc8286fd6d8a1ff8d7b3802b53a56d9",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson",
+    "year": 400,
+    "featureIds": [
+      150
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7"
+  },
+  "review": "0.36.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final499 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en500."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Eastern Roman Empire",
+      "ABBREVN": "Eastern Rome",
+      "SUBJECTO": "Eastern Roman Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Eastern Roman Empire"
+    }
+  ],
+  "sourceGrouping": [
+    "Eastern Roman Empire"
+  ]
+}

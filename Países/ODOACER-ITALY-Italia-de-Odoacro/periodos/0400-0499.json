@@ -1,0 +1,224 @@
+{
+  "key": "ODOACER-ITALY",
+  "identity": {
+    "qid": "",
+    "name": "Italia de Odoacro"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey en Italia",
+      "officePattern": "King|Rex",
+      "titles": [
+        "Odoacer"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q103333",
+      "name": "Odoacro",
+      "role": "Rey en Italia",
+      "start": "0476-01-01",
+      "end": "0493-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Odoacer",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-51f607bc8cd2407fe742.png",
+        "title": "Coin of Odoacer at the British Museum (obverse).png",
+        "url": "https://commons.wikimedia.org/wiki/File:Coin_of_Odoacer_at_the_British_Museum_(obverse).png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Coin_of_Odoacer_at_the_British_Museum_%28obverse%29.png/330px-Coin_of_Odoacer_at_the_British_Museum_%28obverse%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "British Museum (photo)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "British Museum",
+        "sha256": "c98ace82873a10eb7cdd93bdb4ebeacf5d032116ff96c7567841fa5f48cbf8d9",
+        "bytes": 163441,
+        "canonicalFile": "Países/ODOACER-ITALY-Italia-de-Odoacro/retratos/portrait-51f607bc8cd2407fe742.png",
+        "caption": "Tipo monetario convencional atribuido a Odoacro; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review036-odoacer",
+      "type": "institution",
+      "title": "Poder de Odoacro en Italia",
+      "start": "0476-01-01",
+      "end": "0494-01-01",
+      "text": "Odoacro no se presenta como emperador romano. Su título, relaciones conOriente ycontinuidad administrativa se distinguen de la soberanía nacional moderna.",
+      "source": "https://doi.org/10.1163/9789004746077_003",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Odoacer",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Odoacer",
+        "title": "Odoacer",
+        "person": "Q103333",
+        "name": "Odoacro",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Odoacer",
+        "identityResolution": {
+          "requested": "Odoacer",
+          "canonical": "Odoacer",
+          "qid": "Q103333"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q271148",
+          "start": "0476-09-04",
+          "end": "0493-03-15",
+          "precision": 11,
+          "statement": "Q103333$74c25cf2-43c1-4f2c-1d71-a2564d0dd63f",
+          "label": "monarca de Italia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q103333",
+        "title": "Odoacer",
+        "source": "https://en.wikipedia.org/wiki/Odoacer",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Italy",
+            "raw": "4 September 476 – {{awrap|15 March 493}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Italy",
+            "raw": "476–493",
+            "parsed": {
+              "start": "0476-01-01",
+              "end": "0493-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q103333",
+        "title": "Odoacer",
+        "source": "https://en.wikipedia.org/wiki/Odoacer",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Italy",
+          "raw": "476–493",
+          "parsed": {
+            "start": "0476-01-01",
+            "end": "0493-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat036-3",
+      "name": "Rávena · poder de Odoacro",
+      "coordinates": [
+        12.2,
+        44.418
+      ],
+      "start": 476,
+      "end": 493,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Ravenna",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Italia de Odoacro"
+    },
+    {
+      "id": "seat036-3-own",
+      "name": "Rávena · poder de Odoacro",
+      "coordinates": [
+        12.2,
+        44.418
+      ],
+      "start": 476,
+      "end": 493,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Ravenna",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Italia de Odoacro"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review036-odoacer",
+      "type": "institution",
+      "title": "Poder de Odoacro en Italia",
+      "start": "0476-01-01",
+      "end": "0494-01-01",
+      "text": "Odoacro no se presenta como emperador romano. Su título, relaciones conOriente ycontinuidad administrativa se distinguen de la soberanía nacional moderna.",
+      "source": "https://doi.org/10.1163/9789004746077_003",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q103333",
+      "name": "Odoacro",
+      "title": "Coin of Odoacer at the British Museum (obverse).png",
+      "source": "https://commons.wikimedia.org/wiki/File:Coin_of_Odoacer_at_the_British_Museum_(obverse).png",
+      "sha256": "c98ace82873a10eb7cdd93bdb4ebeacf5d032116ff96c7567841fa5f48cbf8d9",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Odoacro; no retrato del natural acreditado."
+    }
+  ]
+}

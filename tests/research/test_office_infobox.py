@@ -40,4 +40,7 @@ class OfficeInfoboxTests(unittest.TestCase):
  def test_shared_year_in_month_first_reign_and_compact_circa_end(self):
   r=m.extract('{{Infobox royalty|succession=Emperor of Northern Wei|reign=April 2 – May 17, 528}}');self.assertEqual(r[0]['parsed']['start'],'0528-04-02')
   r=m.extract("{{Infobox royalty|succession=Ajaw of Tikal|reign=April 19, 511-c.527}}");self.assertEqual(r[0]['parsed']['end'],'0527-12-31')
+ def test_shared_year_with_coregency_annotation_and_asymmetric_spaces(self):
+  r=m.extract('{{Infobox royalty|succession=Roman emperor in the West|reign=8 February – 2 September 421 (with Honorius)}}');self.assertEqual(r[0]['parsed']['start'],'0421-02-08');self.assertEqual(r[0]['parsed']['end'],'0421-09-02')
+  r=m.extract('{{Infobox royalty|succession=King|reign=c. 497- 537 CE}}');self.assertEqual(r[0]['parsed']['start'],'0497-01-01')
 if __name__=='__main__':unittest.main()

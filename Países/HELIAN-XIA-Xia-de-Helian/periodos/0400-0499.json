@@ -1,0 +1,514 @@
+{
+  "key": "HELIAN-XIA",
+  "identity": {
+    "qid": "",
+    "name": "Xia de Helian"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador de Xia · Helian",
+      "officePattern": "Emperor|King",
+      "titles": [
+        "Helian Bobo",
+        "Helian Chang",
+        "Helian Ding"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q254752",
+      "name": "Helian Bobo",
+      "role": "Emperador de Xia · Helian",
+      "start": "0407-01-01",
+      "end": "0425-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Helian_Bobo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1149447",
+      "name": "Helian Chang",
+      "role": "Emperador de Xia · Helian",
+      "start": "0425-01-01",
+      "end": "0428-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Helian_Chang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1149413",
+      "name": "Helian Ding",
+      "role": "Emperador de Xia · Helian",
+      "start": "0428-01-01",
+      "end": "0431-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Helian_Ding",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review036-fall-xia",
+      "type": "conflict",
+      "title": "Final del poder de Xia de Helian",
+      "start": "0431-01-01",
+      "end": "0432-01-01",
+      "text": "La caída de la dinastía en431 no justifica prolongarla hasta438 por la fecha del contorno original. Se conserva ese contorno como referencia heredada.",
+      "source": "https://en.wikipedia.org/wiki/Xia_(Sixteen_Kingdoms)",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 407,
+      "end": 431,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Helian_Bobo",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Xia"
+        ],
+        "start": 400,
+        "end": 406,
+        "label": "Xia de Helian · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Xia"
+        ],
+        "start": 407,
+        "end": 431,
+        "label": "Xia de Helian",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Xia"
+        ],
+        "start": 432,
+        "end": 499,
+        "label": "Xia de Helian · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "30554857641cee44df1037f7ef1440b98bcf1e9d213dd488ad77d8e2fd31d663",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1660,
+        1687,
+        1691,
+        1713
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Helian Bobo",
+        "title": "Helian Bobo",
+        "person": "Q254752",
+        "name": "Helian Bobo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Helian_Bobo",
+        "identityResolution": {
+          "requested": "Helian Bobo",
+          "canonical": "Helian Bobo",
+          "qid": "Q254752"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0407-01-01",
+          "end": "0425-01-01",
+          "precision": 9,
+          "statement": "Q254752$1653865e-71ab-4c0a-af6f-957a3248bf3f",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q254752",
+        "title": "Helian Bobo",
+        "source": "https://en.wikipedia.org/wiki/Helian_Bobo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Hu Xia",
+            "raw": "407–425",
+            "parsed": {
+              "start": "0407-01-01",
+              "end": "0425-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Xia",
+            "raw": "407–425",
+            "parsed": {
+              "start": "0407-01-01",
+              "end": "0425-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Helian Chang",
+        "title": "Helian Chang",
+        "person": "Q1149447",
+        "name": "Helian Chang",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Helian_Chang",
+        "identityResolution": {
+          "requested": "Helian Chang",
+          "canonical": "Helian Chang",
+          "qid": "Q1149447"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0425-01-01",
+          "end": "0428-01-01",
+          "precision": 9,
+          "statement": "Q1149447$2e60e9ed-4607-06e4-eecf-33a09c41e1d2",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149447",
+        "title": "Helian Chang",
+        "source": "https://en.wikipedia.org/wiki/Helian_Chang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Hu Xia",
+            "raw": "425<ref name=ZZTJ120>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷120|vol. 120]].</ref>–428<ref name=ZZTJ121>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷121|vol. 121]].</ref>",
+            "parsed": {
+              "start": "0425-01-01",
+              "end": "0428-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Xia",
+            "raw": "425–428",
+            "parsed": {
+              "start": "0425-01-01",
+              "end": "0428-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Qin",
+            "raw": "430–434",
+            "parsed": {
+              "start": "0430-01-01",
+              "end": "0434-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Taiyuan",
+            "raw": "414–425",
+            "parsed": {
+              "start": "0414-01-01",
+              "end": "0425-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Kuaiji",
+            "raw": "428–430",
+            "parsed": {
+              "start": "0428-01-01",
+              "end": "0430-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Helian Ding",
+        "title": "Helian Ding",
+        "person": "Q1149413",
+        "name": "Helian Ding",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Helian_Ding",
+        "identityResolution": {
+          "requested": "Helian Ding",
+          "canonical": "Helian Ding",
+          "qid": "Q1149413"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0428-01-01",
+          "end": "0431-01-01",
+          "precision": 9,
+          "statement": "Q1149413$d91c5b47-4665-dc9b-a254-7839b162dd01",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149413",
+        "title": "Helian Ding",
+        "source": "https://en.wikipedia.org/wiki/Helian_Ding",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Hu Xia",
+            "raw": "428<ref name=ZZTJ121>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷121|vol. 121]].</ref>–431<ref name=ZZTJ122/>",
+            "parsed": {
+              "start": "0428-01-01",
+              "end": "0431-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Xia",
+            "raw": "428–431",
+            "parsed": {
+              "start": "0428-01-01",
+              "end": "0431-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Pingyuan",
+            "raw": "427–428",
+            "parsed": {
+              "start": "0427-01-01",
+              "end": "0428-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Pingyuan",
+            "raw": "414–427",
+            "parsed": {
+              "start": "0414-01-01",
+              "end": "0427-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q254752",
+        "title": "Helian Bobo",
+        "source": "https://en.wikipedia.org/wiki/Helian_Bobo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Hu Xia",
+          "raw": "407–425",
+          "parsed": {
+            "start": "0407-01-01",
+            "end": "0425-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1149447",
+        "title": "Helian Chang",
+        "source": "https://en.wikipedia.org/wiki/Helian_Chang",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Hu Xia",
+          "raw": "425<ref name=ZZTJ120>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷120|vol. 120]].</ref>–428<ref name=ZZTJ121>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷121|vol. 121]].</ref>",
+          "parsed": {
+            "start": "0425-01-01",
+            "end": "0428-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1149413",
+        "title": "Helian Ding",
+        "source": "https://en.wikipedia.org/wiki/Helian_Ding",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Hu Xia",
+          "raw": "428<ref name=ZZTJ121>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷121|vol. 121]].</ref>–431<ref name=ZZTJ122/>",
+          "parsed": {
+            "start": "0428-01-01",
+            "end": "0431-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat036-22",
+      "name": "Tongwancheng · corte de Helian",
+      "coordinates": [
+        108.85,
+        38.12
+      ],
+      "start": 413,
+      "end": 431,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Xia_de_Helian",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Xia de Helian"
+    },
+    {
+      "id": "seat036-22-own",
+      "name": "Tongwancheng · corte de Helian",
+      "coordinates": [
+        108.85,
+        38.12
+      ],
+      "start": 413,
+      "end": 431,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Xia_de_Helian",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Xia de Helian"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review036-fall-xia",
+      "type": "conflict",
+      "title": "Final del poder de Xia de Helian",
+      "start": "0431-01-01",
+      "end": "0432-01-01",
+      "text": "La caída de la dinastía en431 no justifica prolongarla hasta438 por la fecha del contorno original. Se conserva ese contorno como referencia heredada.",
+      "source": "https://en.wikipedia.org/wiki/Xia_(Sixteen_Kingdoms)",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review036-fall-xia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.85,
+          38.12
+        ]
+      },
+      "properties": {
+        "name": "Final del poder de Xia de Helian",
+        "countries": [
+          "HELIAN-XIA"
+        ],
+        "kind": "regional-conflict",
+        "start": "0431-01-01",
+        "end": "0431-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Xia_(Sixteen_Kingdoms)",
+        "sourceLabel": "Referencia documental · siglo V",
+        "note": "La caída de la dinastía en431 no justifica prolongarla hasta438 por la fecha del contorno original. Se conserva ese contorno como referencia heredada. Coordenada regional aproximada."
+      }
+    }
+  ]
+}

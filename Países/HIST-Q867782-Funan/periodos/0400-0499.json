@@ -1,0 +1,169 @@
+{
+  "key": "HIST-Q867782",
+  "identity": {
+    "qid": "Q867782",
+    "name": "Funan"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Funan",
+      "officePattern": "King|Funan",
+      "titles": [
+        "Jayavarman Kaundinya"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q4160003",
+      "name": "Jayavarman Kaundinya",
+      "role": "Rey de Funan",
+      "start": "0484-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jayavarman_Kaundinya",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Jayavarman_Kaundinya",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Funan"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Funan",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "bc284b69d89ba2e8a391e9c5fd6777cfa3cf80070921afaac11d1444e282350f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1341
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Jayavarman Kaundinya",
+        "title": "Jayavarman Kaundinya",
+        "person": "Q4160003",
+        "name": "Jayavarman Kaundinya",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jayavarman_Kaundinya",
+        "identityResolution": {
+          "requested": "Jayavarman Kaundinya",
+          "canonical": "Jayavarman Kaundinya",
+          "qid": "Q4160003"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q113451433",
+          "start": "0484-01-01",
+          "end": "0514-01-01",
+          "precision": 9,
+          "statement": "Q4160003$c6db51f8-39f4-4517-976d-206a082ed671",
+          "label": "Q113451433"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4160003",
+        "title": "Jayavarman Kaundinya",
+        "source": "https://en.wikipedia.org/wiki/Jayavarman_Kaundinya",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Funan",
+            "raw": "484–514",
+            "parsed": {
+              "start": "0484-01-01",
+              "end": "0514-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Funan",
+            "raw": "484–514",
+            "parsed": {
+              "start": "0484-01-01",
+              "end": "0514-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q4160003",
+        "title": "Jayavarman Kaundinya",
+        "source": "https://en.wikipedia.org/wiki/Jayavarman_Kaundinya",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Funan",
+          "raw": "484–514",
+          "parsed": {
+            "start": "0484-01-01",
+            "end": "0514-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  }
+}

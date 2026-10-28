@@ -1,3 +1,4 @@
+import{firstAnnualYear}from'./coverage';
 import{describe,it,expect,vi}from'vitest';
 import{readFileSync,writeFileSync,readdirSync}from'node:fs';
 import{annualData}from'../src/data';import{politicalData}from'../src/political';
@@ -21,7 +22,7 @@ describe('900–999 annual extension',()=>{
   }
   const catalogueMissingPortraits=new Map<string,any>();for(const[key,c]of Object.entries(ids.countries))for(const l of c.leaders)if(l.start<'1000-01-01'&&l.end>='0900-01-01'&&!l.portrait){const r=catalogueMissingPortraits.get(l.person)??{person:l.person,name:l.name,keys:[]};if(!r.keys.includes(key))r.keys.push(key);catalogueMissingPortraits.set(l.person,r);}
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-900-999.json',JSON.stringify({scope:'Production-path availability, not a complete world census, independent border verification or daily-front reconstruction. Additional seats counted separately. The catalogue portrait inventory also includes entities without their own polygon.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()],catalogueMissingPortraits:[...catalogueMissingPortraits.values()]},null,2)+'\n');
-  expect(snapshotFor(499).kind).toBe('historical');expect(snapshotFor(1100).file).toBe('early-modern-1100.geojson');
+  expect(snapshotFor(firstAnnualYear-1).kind).toBe('historical');expect(snapshotFor(1100).file).toBe('early-modern-1100.geojson');
  },90000);
  it('keeps tenth-century dates before later rulers and modern organizations',async()=>{
   const {isoYear}=await import('../src/dates');const {organizationActive,membershipsAt}=await import('../src/historical-affiliations');

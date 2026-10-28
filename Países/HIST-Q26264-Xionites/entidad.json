@@ -1,0 +1,35 @@
+{
+  "key": "HIST-Q26264",
+  "name": "Xionites",
+  "qid": "Q26264",
+  "aliases": [
+    "Xionites"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q26264"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1603",
+      "start": 400,
+      "end": 401,
+      "name": "Xionites",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,461 @@
+{
+  "key": "EARLY-WESTERN-LIANG",
+  "identity": {
+    "qid": "",
+    "name": "Liang occidental · dinastía de Li Gao"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Liang occidental · Li",
+      "officePattern": "King|Prince|Duke",
+      "titles": [
+        "Li Gao",
+        "Li Xin (Western Liang)",
+        "Li Xun (Western Liang)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q712325",
+      "name": "Li Gao",
+      "role": "Gobernante de Liang occidental · Li",
+      "start": "0400-01-01",
+      "end": "0417-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Li_Gao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-de26e99708a500fae61a.jpg",
+        "title": "李暠.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E6%9A%A0.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/%E6%9D%8E%E6%9A%A0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "1917年修《安徽黟县鹤山李氏宗谱》",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E6%9A%A0.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://diglweb.zjlib.cn:8081/zjtsg/mingren/index1.htm\n\nhttp://digldata.zjlib.cn/mingrentx/5324.jpg",
+        "sha256": "af844c567cac230deb71a8bca13e0ba3c9f1574589c26364449bacff55f8be96",
+        "bytes": 161766,
+        "canonicalFile": "Países/EARLY-WESTERN-LIANG-Liang-occidental-dinastia-de-Li-Gao/retratos/portrait-de26e99708a500fae61a.jpg",
+        "caption": "Retrato imaginario posterior de Li Gao; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q718238",
+      "name": "Li Xin",
+      "role": "Gobernante de Liang occidental · Li",
+      "start": "0417-01-01",
+      "end": "0420-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Li_Xin_%28Western_Liang%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q718238",
+      "name": "Li Xin",
+      "role": "Gobernante de Liang occidental · Li",
+      "start": "0418-01-01",
+      "end": "0420-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Li_Xin_%28Western_Liang%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q708337",
+      "name": "Li Xun",
+      "role": "Gobernante de Liang occidental · Li",
+      "start": "0420-01-01",
+      "end": "0421-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Li_Xun_%28Western_Liang%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 421,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Li_Gao",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Liang"
+        ],
+        "start": 400,
+        "end": 421,
+        "label": "Liang occidental · dinastía de Li Gao",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Liang"
+        ],
+        "start": 422,
+        "end": 499,
+        "label": "Liang occidental · dinastía de Li Gao · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "f6f4b8a66e631c4e88159abcd377b9420bab323173583e5220678a074431e4a8",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1651
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Li Gao",
+        "title": "Li Gao",
+        "person": "Q712325",
+        "name": "Li Gao",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Li_Gao",
+        "identityResolution": {
+          "requested": "Li Gao",
+          "canonical": "Li Gao",
+          "qid": "Q712325"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0400-01-01",
+          "end": "0417-01-01",
+          "precision": 9,
+          "statement": "Q712325$08ea341b-41a1-7b47-d19b-9ec4f9c7a001",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q712325",
+        "title": "Li Gao",
+        "source": "https://en.wikipedia.org/wiki/Li_Gao",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Western Liang",
+            "raw": "400<ref name=ZZTJ111>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷111|vol. 111]].</ref>–417<ref name=ZZTJ118/>",
+            "parsed": {
+              "start": "0400-01-01",
+              "end": "0417-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Western Liang",
+            "raw": "400–417",
+            "parsed": {
+              "start": "0400-01-01",
+              "end": "0417-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Li Xin (Western Liang)",
+        "title": "Li Xin (Western Liang)",
+        "person": "Q718238",
+        "name": "Li Xin",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Li_Xin_%28Western_Liang%29",
+        "identityResolution": {
+          "requested": "Li Xin (Western Liang)",
+          "canonical": "Li Xin (Western Liang)",
+          "qid": "Q718238"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0417-01-01",
+          "end": "0420-01-01",
+          "precision": 9,
+          "statement": "Q718238$EF55CCB5-7306-4E16-BFE0-D2F1C9F9E5EF",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q718238",
+        "title": "Li Xin (Western Liang)",
+        "source": "https://en.wikipedia.org/wiki/Li_Xin_%28Western_Liang%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Western Liang",
+            "raw": "417–420",
+            "parsed": {
+              "start": "0417-01-01",
+              "end": "0420-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Western Liang",
+            "raw": "417–420",
+            "parsed": {
+              "start": "0417-01-01",
+              "end": "0420-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Jiuquan",
+            "raw": "418–420",
+            "parsed": {
+              "start": "0418-01-01",
+              "end": "0420-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Li Xun (Western Liang)",
+        "title": "Li Xun (Western Liang)",
+        "person": "Q708337",
+        "name": "Li Xun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Li_Xun_%28Western_Liang%29",
+        "identityResolution": {
+          "requested": "Li Xun (Western Liang)",
+          "canonical": "Li Xun (Western Liang)",
+          "qid": "Q708337"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0420-01-01",
+          "end": "0421-01-01",
+          "precision": 9,
+          "statement": "Q708337$4c82ff32-4eba-7101-4edc-9b3c7be1240d",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q708337",
+        "title": "Li Xun (Western Liang)",
+        "source": "https://en.wikipedia.org/wiki/Li_Xun_%28Western_Liang%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Western Liang",
+            "raw": "420–421",
+            "parsed": {
+              "start": "0420-01-01",
+              "end": "0421-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Western Liang",
+            "raw": "420–421",
+            "parsed": {
+              "start": "0420-01-01",
+              "end": "0421-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Jiuquan",
+            "raw": "420–421",
+            "parsed": {
+              "start": "0420-01-01",
+              "end": "0421-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q712325",
+        "title": "Li Gao",
+        "source": "https://en.wikipedia.org/wiki/Li_Gao",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Western Liang",
+          "raw": "400–417",
+          "parsed": {
+            "start": "0400-01-01",
+            "end": "0417-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q718238",
+        "title": "Li Xin (Western Liang)",
+        "source": "https://en.wikipedia.org/wiki/Li_Xin_%28Western_Liang%29",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Western Liang",
+          "raw": "417–420",
+          "parsed": {
+            "start": "0417-01-01",
+            "end": "0420-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q718238",
+        "title": "Li Xin (Western Liang)",
+        "source": "https://en.wikipedia.org/wiki/Li_Xin_%28Western_Liang%29",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Jiuquan",
+          "raw": "418–420",
+          "parsed": {
+            "start": "0418-01-01",
+            "end": "0420-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q708337",
+        "title": "Li Xun (Western Liang)",
+        "source": "https://en.wikipedia.org/wiki/Li_Xun_%28Western_Liang%29",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Duke of Western Liang",
+          "raw": "420–421",
+          "parsed": {
+            "start": "0420-01-01",
+            "end": "0421-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat036-21",
+      "name": "Jiuquan · corte de Liang occidental",
+      "coordinates": [
+        98.49,
+        39.73
+      ],
+      "start": 400,
+      "end": 420,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Liang_occidental_%C2%B7_dinast%C3%ADa_de_Li_Gao",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Liang occidental · dinastía de Li Gao"
+    },
+    {
+      "id": "seat036-21-own",
+      "name": "Jiuquan · corte de Liang occidental",
+      "coordinates": [
+        98.49,
+        39.73
+      ],
+      "start": 400,
+      "end": 420,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Liang_occidental_%C2%B7_dinast%C3%ADa_de_Li_Gao",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Liang occidental · dinastía de Li Gao"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q712325",
+      "name": "Li Gao",
+      "title": "李暠.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E6%9A%A0.jpg",
+      "sha256": "af844c567cac230deb71a8bca13e0ba3c9f1574589c26364449bacff55f8be96",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Li Gao; no retrato contemporáneo."
+    }
+  ]
+}

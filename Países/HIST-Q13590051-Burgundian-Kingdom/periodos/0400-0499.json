@@ -1,0 +1,502 @@
+{
+  "key": "HIST-Q13590051",
+  "identity": {
+    "qid": "Q13590051",
+    "name": "Burgundians"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de los burgundios",
+      "officePattern": "King.*Burgund",
+      "titles": [
+        "Gundahar",
+        "Gunderic of Burgundy",
+        "Chilperic I of Burgundy",
+        "Gundobad",
+        "Godomar I",
+        "Chilperic II of Burgundy",
+        "Godegisel"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q437712",
+      "name": "Gondioc",
+      "role": "Rey de los burgundios",
+      "start": "0437-01-01",
+      "end": "0473-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gondioc",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q364245",
+      "name": "Gundebaldo",
+      "role": "Rey de los burgundios",
+      "start": "0473-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gundobad",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-ce42dba98f011c97b42d.jpg",
+        "title": "Gondebaud par Roger Ferrier Place du bourg de Four.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Gondebaud_par_Roger_Ferrier_Place_du_bourg_de_Four.JPG",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Gondebaud_par_Roger_Ferrier_Place_du_bourg_de_Four.JPG/330px-Gondebaud_par_Roger_Ferrier_Place_du_bourg_de_Four.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Codex",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "b6b44e69652f47e788ccd3a322f2f485a1752da8dbf1dcbaa48c44c28530c394",
+        "bytes": 64363,
+        "canonicalFile": "Países/HIST-Q13590051-Burgundian-Kingdom/retratos/portrait-ce42dba98f011c97b42d.jpg",
+        "caption": "Representación conmemorativa moderna de Gundebaldo."
+      }
+    },
+    {
+      "person": "Q339094",
+      "name": "Gundahario",
+      "role": "Rey burgundio · cronología aproximada",
+      "start": "0411-01-01",
+      "end": "0437-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gundahar",
+      "note": "Ventana411–436/437; las fechas ylos límites de la agrupación son aproximados, sin adoptar la biografía legendaria deGunther."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Gondioc",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Burgundians"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Burgundians",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Burgundian Kingdom"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Burgundian Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "2e1ae2865b421baf1f7a83f391f92830338e53e4b17ddbfa1e578206dfee8f6f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1650,
+        1674,
+        1766,
+        1786,
+        1816,
+        1823,
+        1825,
+        1833,
+        1852,
+        1887,
+        1913
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Chilperic I of Burgundy",
+        "title": "Chilperic I of Burgundy",
+        "person": "Q1262852",
+        "name": "Chilperico I de Burgundia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chilperic_I_of_Burgundy",
+        "identityResolution": {
+          "requested": "Chilperic I of Burgundy",
+          "canonical": "Chilperic I of Burgundy",
+          "qid": "Q1262852"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1262852",
+        "title": "Chilperic I of Burgundy",
+        "source": "https://en.wikipedia.org/wiki/Chilperic_I_of_Burgundy",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chilperic II of Burgundy",
+        "title": "Chilperic II of Burgundy",
+        "person": "Q454358",
+        "name": "Chilperico II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chilperic_II_of_Burgundy",
+        "identityResolution": {
+          "requested": "Chilperic II of Burgundy",
+          "canonical": "Chilperic II of Burgundy",
+          "qid": "Q454358"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q454358",
+        "title": "Chilperic II of Burgundy",
+        "source": "https://en.wikipedia.org/wiki/Chilperic_II_of_Burgundy",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Godegisel",
+        "title": "Godegisel",
+        "person": "Q918807",
+        "name": "Godegisilo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Godegisel",
+        "identityResolution": {
+          "requested": "Godegisel",
+          "canonical": "Godegisel",
+          "qid": "Q918807"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q12097",
+          "start": "0473-01-01",
+          "end": "0501-01-01",
+          "precision": 9,
+          "statement": "Q918807$f4e74e4f-4bac-da6b-0a4e-2e7f4c70641e",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q918807",
+        "title": "Godegisel",
+        "source": "https://en.wikipedia.org/wiki/Godegisel",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Godomar I",
+        "title": "Godomar I",
+        "person": "Q889858",
+        "name": "Gundemaro II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Godomar_I",
+        "identityResolution": {
+          "requested": "Godomar I",
+          "canonical": "Godomar I",
+          "qid": "Q889858"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q889858",
+        "title": "Godomar I",
+        "source": "https://en.wikipedia.org/wiki/Godomar_I",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gundahar",
+        "title": "Gundahar",
+        "person": "Q339094",
+        "name": "Gunter",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gunther",
+        "identityResolution": {
+          "requested": "Gundahar",
+          "canonical": "Gunther",
+          "qid": "Q339094"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q339094",
+        "title": "Gunther",
+        "source": "https://en.wikipedia.org/wiki/Gunther",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gunderic of Burgundy",
+        "title": "Gunderic of Burgundy",
+        "person": "Q437712",
+        "name": "Gondioc",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gondioc",
+        "identityResolution": {
+          "requested": "Gunderic of Burgundy",
+          "canonical": "Gondioc",
+          "qid": "Q437712"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q437712",
+        "title": "Gondioc",
+        "source": "https://en.wikipedia.org/wiki/Gondioc",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Burgundians",
+            "raw": "437–473",
+            "parsed": {
+              "start": "0437-01-01",
+              "end": "0473-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gundobad",
+        "title": "Gundobad",
+        "person": "Q364245",
+        "name": "Gundebaldo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gundobad",
+        "identityResolution": {
+          "requested": "Gundobad",
+          "canonical": "Gundobad",
+          "qid": "Q364245"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q364245",
+        "title": "Gundobad",
+        "source": "https://en.wikipedia.org/wiki/Gundobad",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Burgundians",
+            "raw": "473–516",
+            "parsed": {
+              "start": "0473-01-01",
+              "end": "0516-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Burgundians",
+            "raw": "473–516",
+            "parsed": {
+              "start": "0473-01-01",
+              "end": "0516-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Magister militum'' of the Western Roman army",
+            "raw": "472–473",
+            "parsed": {
+              "start": "0472-01-01",
+              "end": "0473-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q437712",
+        "title": "Gunderic of Burgundy",
+        "source": "https://en.wikipedia.org/wiki/Gondioc",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Burgundians",
+          "raw": "437–473",
+          "parsed": {
+            "start": "0437-01-01",
+            "end": "0473-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q364245",
+        "title": "Gundobad",
+        "source": "https://en.wikipedia.org/wiki/Gundobad",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Burgundians",
+          "raw": "473–516",
+          "parsed": {
+            "start": "0473-01-01",
+            "end": "0516-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Gundahar",
+        "person": "Q339094",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Chilperic I of Burgundy",
+        "person": "Q1262852",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Godomar I",
+        "person": "Q889858",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Chilperic II of Burgundy",
+        "person": "Q454358",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Godegisel",
+        "person": "Q918807",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q339094",
+      "name": "Gundahario",
+      "role": "Rey burgundio · cronología aproximada",
+      "start": "0411-01-01",
+      "end": "0437-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gundahar",
+      "note": "Ventana411–436/437; las fechas ylos límites de la agrupación son aproximados, sin adoptar la biografía legendaria deGunther."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q437712",
+      "title": "Map Burgundian Kingdom 2 EN.png",
+      "reason": "Mapa del reino burgundio, no retrato deGondioc.",
+      "source": "https://commons.wikimedia.org/wiki/File:Map_Burgundian_Kingdom_2_EN.png"
+    },
+    {
+      "person": "Q339094",
+      "title": "Gunnar Gjukeson.jpg",
+      "reason": "Escena del héroe literarioGunnar/Gunther; no retrato histórico acreditado deGundahario.",
+      "source": "https://commons.wikimedia.org/wiki/File:Gunnar_Gjukeson.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q437712",
+      "name": "Gondioc",
+      "title": "Map Burgundian Kingdom 2 EN.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Map_Burgundian_Kingdom_2_EN.png",
+      "sha256": "e6be3f01dc50fc76fda355daffb2b76e1c7957e8de61ecf6661cf669b4f16fef",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Mapa del reino burgundio, no retrato deGondioc."
+    },
+    {
+      "person": "Q364245",
+      "name": "Gundebaldo",
+      "title": "Gondebaud par Roger Ferrier Place du bourg de Four.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Gondebaud_par_Roger_Ferrier_Place_du_bourg_de_Four.JPG",
+      "sha256": "b6b44e69652f47e788ccd3a322f2f485a1752da8dbf1dcbaa48c44c28530c394",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación conmemorativa moderna de Gundebaldo."
+    },
+    {
+      "person": "Q339094",
+      "name": "Gundahario",
+      "title": "Gunnar Gjukeson.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gunnar_Gjukeson.jpg",
+      "sha256": "4d3e03c2e2cdafcb88bc29bd4d5d2d0e255e036c795221f6d2f3d230e9dd69b0",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Escena del héroe literarioGunnar/Gunther; no retrato histórico acreditado deGundahario."
+    }
+  ]
+}

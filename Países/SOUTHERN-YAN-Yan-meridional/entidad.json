@@ -1,0 +1,86 @@
+{
+  "key": "SOUTHERN-YAN",
+  "name": "Yan meridional",
+  "qid": "Q1329439",
+  "aliases": [
+    "Southern Yan",
+    "Yan meridional"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SOUTHERN-YAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1069310",
+      "name": "Murong De",
+      "role": "Gobernante de Yan meridional",
+      "start": "0400-01-01",
+      "end": "0405-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_De",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-400-0.36",
+      "portrait": {
+        "file": "media/portrait-dc0747cdd73604d994f7.jpg",
+        "title": "Harvard drs 49802792 繡像三國演義續編 v.1 (慕容德).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_(%E6%85%95%E5%AE%B9%E5%BE%B7).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_%28%E6%85%95%E5%AE%B9%E5%BE%B7%29.jpg/330px-Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_%28%E6%85%95%E5%AE%B9%E5%BE%B7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "see below",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_(%E6%85%95%E5%AE%B9%E5%BE%B7).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://iiif.lib.harvard.edu/manifests/view/drs:49802792",
+        "sha256": "27762e1efd53d5e3ee04385a813b399a66c65a42b9b6998b9a58d4f2645507ed",
+        "bytes": 46415,
+        "canonicalFile": "Países/SOUTHERN-YAN-Yan-meridional/retratos/portrait-dc0747cdd73604d994f7.jpg",
+        "caption": "Retrato imaginario posterior de Murong De; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q1131653",
+      "name": "Murong Chao",
+      "role": "Gobernante de Yan meridional",
+      "start": "0405-09-19",
+      "end": "0410-03-25",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Murong_Chao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1627",
+      "start": 402,
+      "end": 406,
+      "name": "Southern Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1648",
+      "start": 407,
+      "end": 409,
+      "name": "Southern Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,65 @@
+{
+  "key": "CULTURE-MILL-CREEK-CULTURE-C48843C5-Y0400",
+  "contextKey": "CULTURE-MILL-CREEK-CULTURE-C48843C5",
+  "ownerKey": "CULTURE-MILL-CREEK-CULTURE-C48843C5",
+  "name": "Mill Creek Culture",
+  "originalNames": [
+    "Mill Creek Culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 400",
+  "decision": "excluded-anachronistic-chronology",
+  "reviewedRange": [
+    400,
+    499
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea400 contiene etiquetas de épocas distintas. La ventana400–499 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Contraste de periodización",
+      "url": "https://publications.iowa.gov/13315/1/TeamArchaeology12web.pdf"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -95.01188,
+    32.33847
+  ],
+  "phases": [],
+  "geometryFile": "CULTURE-MILL-CREEK-CULTURE-C48843C5-Y0400.geojson",
+  "geometrySha256": "560ba178a5e9f0f7415a6a21eac2773edc502bdddd7c0c2a58cf78e6450e4d2e",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson",
+    "year": 400,
+    "featureIds": [
+      193
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7"
+  },
+  "review": "0.36.0 · 2026-10-28",
+  "reviewStatus": "excluded-chronology-contradicted-by-source",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final499 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en500."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Mill Creek Culture",
+      "ABBREVN": "Mill Creek Culture",
+      "SUBJECTO": "Mill Creek Culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Mill Creek Culture"
+    }
+  ],
+  "sourceGrouping": [
+    "Mill Creek Culture"
+  ]
+}

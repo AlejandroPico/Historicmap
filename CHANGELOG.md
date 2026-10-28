@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.36.0 · 28 de octubre de 2026
+
+- Entrega conjunta: ampliación 400–499 y correcciones de las dos publicaciones anteriores.
+- 305 componentes políticos originales, 82 dossiers de periodo y 227 registros de autoridades; 42 centros documentales, 20 contextos y siete referencias de conflictos.
+- Cortes romanas, Italia de Odoacro, sucesiones chinas, restauraciones sasánidas y testimonios mayas diferenciados, sin inventar fronteras ni fechas de reinado.
+- 70 referencias culturales nuevas; originales, fases anteriores y decisiones conservados. Política y culturas siguen activadas inicialmente y disponibles por separado.
+- 111 candidatos visuales inspeccionados: 91 aceptados y 20 rechazados, con pies, licencias y carencias documentadas por entidad.
+- Pruebas corregidas para consultar la cobertura temporal real, sin ocultar culturas ni restaurar mapas obsoletos para satisfacer expectativas antiguas.
+- Pruebas de navegador repartidas entre cuatro máquinas y compilación reutilizada en la publicación automática, con comprobación de la revisión exacta. Sin eliminar pruebas ni esperar el despliegue remoto.
+
 ## 0.35.0 · 28 de octubre de 2026
 
 - Consulta y reproducción anual desde 500: 270 componentes políticos originales y 73 referencias culturales nuevas, conservando los datos posteriores.

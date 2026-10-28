@@ -1,0 +1,400 @@
+{
+  "key": "OSTROGOTHIC-KINGDOM",
+  "identity": {
+    "qid": "Q583038",
+    "name": "Poderes ostrogodos e Italia de Teodorico"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de los ostrogodos",
+      "officePattern": "King.*Ostrogoth|King.*Italy",
+      "titles": [
+        "Theodemir (Ostrogothic king)",
+        "Theodoric the Great"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q105105",
+      "name": "Teodorico el Grande",
+      "role": "Rey de los ostrogodos",
+      "start": "0471-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theodoric_the_Great",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q105105",
+      "name": "Teodorico el Grande",
+      "role": "Rey de los ostrogodos",
+      "start": "0493-03-15",
+      "end": "0499-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Theodoric_the_Great",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review036-italy493",
+      "type": "conflict",
+      "title": "Conflicto por Italia y toma de Rávena",
+      "start": "0489-01-01",
+      "end": "0494-01-01",
+      "text": "La campaña contraOdoacro culmina en493. Los poderes ostrogodos anteriores aesa fecha no son todavía una Italia conquistada completamente.",
+      "source": "https://www.metmuseum.org/fr/toah/ht/05/eust.html",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Theodoric_the_Great",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Ostrogoths"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Italia ostrogoda y agrupaciones relacionadas",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "216d694359a08a620ab57a4ff3f36df7c39aa12396f3327a0b69720238ad3bb0",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1811,
+        1861,
+        1889,
+        1918
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Theodemir (Ostrogothic king)",
+        "title": "Theodemir (Ostrogothic king)",
+        "person": "Q334777",
+        "name": "Teodomiro",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theodemir_%28Ostrogothic_king%29",
+        "identityResolution": {
+          "requested": "Theodemir (Ostrogothic king)",
+          "canonical": "Theodemir (Ostrogothic king)",
+          "qid": "Q334777"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953196",
+          "start": "0470-01-01",
+          "end": "0475-01-01",
+          "precision": 9,
+          "statement": "Q334777$90b19f24-4614-1bdc-3b4b-03e414486802",
+          "label": "rey de los ostrogodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q334777",
+        "title": "Theodemir (Ostrogothic king)",
+        "source": "https://en.wikipedia.org/wiki/Theodemir_%28Ostrogothic_king%29",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theodoric the Great",
+        "title": "Theodoric the Great",
+        "person": "Q105105",
+        "name": "Teodorico el Grande",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theodoric_the_Great",
+        "identityResolution": {
+          "requested": "Theodoric the Great",
+          "canonical": "Theodoric the Great",
+          "qid": "Q105105"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q271148",
+          "start": "0493-03-15",
+          "end": "0526-08-30",
+          "precision": 11,
+          "statement": "Q105105$20e635f2-4630-12b5-a305-6f4b8113c6c8",
+          "label": "monarca de Italia"
+        },
+        {
+          "property": "P39",
+          "office": "Q22953196",
+          "start": "0475-01-01",
+          "end": "0526-08-30",
+          "precision": 9,
+          "statement": "Q105105$04a00d2a-4add-6b66-807e-372b9c221739",
+          "label": "rey de los ostrogodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q105105",
+        "title": "Theodoric the Great",
+        "source": "https://en.wikipedia.org/wiki/Theodoric_the_Great",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Ostrogoths",
+            "raw": "471 – 30 August 526",
+            "parsed": {
+              "start": "0471-01-01",
+              "end": "0526-08-30",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "King of Italy",
+            "raw": "15 March 493 – 30 August 526",
+            "parsed": {
+              "start": "0493-03-15",
+              "end": "0526-08-30",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign3",
+            "office": "King of the Visigoths",
+            "raw": "511 – 30 August 526",
+            "parsed": {
+              "start": "0511-01-01",
+              "end": "0526-08-30",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Ostrogoths",
+            "raw": "474–526",
+            "parsed": {
+              "start": "0474-01-01",
+              "end": "0526-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Italy",
+            "raw": "493–526",
+            "parsed": {
+              "start": "0493-01-01",
+              "end": "0526-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "484",
+            "parsed": {
+              "start": "0484-01-01",
+              "end": "0484-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q105105",
+        "title": "Theodoric the Great",
+        "source": "https://en.wikipedia.org/wiki/Theodoric_the_Great",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Ostrogoths",
+          "raw": "471 – 30 August 526",
+          "parsed": {
+            "start": "0471-01-01",
+            "end": "0526-08-30",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q105105",
+        "title": "Theodoric the Great",
+        "source": "https://en.wikipedia.org/wiki/Theodoric_the_Great",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King of Italy",
+          "raw": "15 March 493 – 30 August 526",
+          "parsed": {
+            "start": "0493-03-15",
+            "end": "0526-08-30",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Theodemir (Ostrogothic king)",
+        "person": "Q334777",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat036-4",
+      "name": "Rávena · corte de Teodorico",
+      "coordinates": [
+        12.2,
+        44.418
+      ],
+      "start": 493,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Ravenna",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Poderes ostrogodos e Italia de Teodorico"
+    },
+    {
+      "id": "seat036-4-own",
+      "name": "Rávena · corte de Teodorico",
+      "coordinates": [
+        12.2,
+        44.418
+      ],
+      "start": 493,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Ravenna",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Poderes ostrogodos e Italia de Teodorico"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review036-italy493",
+      "type": "conflict",
+      "title": "Conflicto por Italia y toma de Rávena",
+      "start": "0489-01-01",
+      "end": "0494-01-01",
+      "text": "La campaña contraOdoacro culmina en493. Los poderes ostrogodos anteriores aesa fecha no son todavía una Italia conquistada completamente.",
+      "source": "https://www.metmuseum.org/fr/toah/ht/05/eust.html",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review036-italy493",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2,
+          44.418
+        ]
+      },
+      "properties": {
+        "name": "Conflicto por Italia y toma de Rávena",
+        "countries": [
+          "OSTROGOTHIC-KINGDOM"
+        ],
+        "kind": "regional-conflict",
+        "start": "0489-01-01",
+        "end": "0493-12-31",
+        "precision": 9,
+        "source": "https://www.metmuseum.org/fr/toah/ht/05/eust.html",
+        "sourceLabel": "Referencia documental · siglo V",
+        "note": "La campaña contraOdoacro culmina en493. Los poderes ostrogodos anteriores aesa fecha no son todavía una Italia conquistada completamente. Coordenada regional aproximada."
+      }
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q105105",
+      "title": "Theoderic Quarter Siliqua 80000847.jpg",
+      "reason": "Tipo imperial con monograma ostrogodo; no acredita efigie personal deTeodorico.",
+      "source": "https://commons.wikimedia.org/wiki/File:Theoderic_Quarter_Siliqua_80000847.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q105105",
+      "name": "Teodorico el Grande",
+      "title": "Theoderic Quarter Siliqua 80000847.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Theoderic_Quarter_Siliqua_80000847.jpg",
+      "sha256": "4e62b411a982252697940604f80410f0bcc633a0687cd4ab6c4a57ce815d16a4",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Tipo imperial con monograma ostrogodo; no acredita efigie personal deTeodorico."
+    }
+  ]
+}

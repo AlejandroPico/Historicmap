@@ -1,0 +1,81 @@
+{
+  "key": "NORTHERN-YAN",
+  "name": "Yan del Norte",
+  "qid": "Q2006864",
+  "aliases": [
+    "Northern Yan",
+    "Yan del Norte"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NORTHERN-YAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q718184",
+      "name": "Gao Yun",
+      "role": "Gobernante de Yan del Norte",
+      "start": "0407-01-01",
+      "end": "0409-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gao_Yun_%28emperor%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1147737",
+      "name": "Feng Ba",
+      "role": "Gobernante de Yan del Norte",
+      "start": "0409-01-01",
+      "end": "0430-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Feng_Ba",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1149169",
+      "name": "Feng Hong",
+      "role": "Gobernante de Yan del Norte",
+      "start": "0430-01-01",
+      "end": "0436-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Feng_Hong",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1657",
+      "start": 410,
+      "end": 425,
+      "name": "Northern Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1720",
+      "start": 426,
+      "end": 438,
+      "name": "Northern Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

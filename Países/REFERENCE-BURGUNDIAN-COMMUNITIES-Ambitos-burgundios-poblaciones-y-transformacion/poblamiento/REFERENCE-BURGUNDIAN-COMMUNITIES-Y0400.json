@@ -1,0 +1,73 @@
+{
+  "key": "REFERENCE-BURGUNDIAN-COMMUNITIES-Y0400",
+  "contextKey": "REFERENCE-BURGUNDIAN-COMMUNITIES",
+  "ownerKey": "REFERENCE-BURGUNDIAN-COMMUNITIES",
+  "name": "Ámbitos burgundios · poblaciones y transformación",
+  "originalNames": [
+    "Burgundians"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 400",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    400,
+    499
+  ],
+  "interpretation": "El reino burgundio y su incorporación a agrupaciones francas son cambios políticos, no reemplazos instantáneos de toda la población. Referencia regional con habitantes diversos.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea400 contiene etiquetas de épocas distintas. La ventana400–499 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    8.26007,
+    50.23616
+  ],
+  "phases": [
+    {
+      "start": 400,
+      "end": 499,
+      "label": "Ámbitos burgundios · poblaciones y transformación",
+      "dateBasis": "Referencia regional de la fuente editorial400; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-BURGUNDIAN-COMMUNITIES-Y0400.geojson",
+  "geometrySha256": "492134c6126a3a1dc400271e7b2860c771ff6eca19c70d90ac6cdfce25964e8c",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson",
+    "year": 400,
+    "featureIds": [
+      360
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7"
+  },
+  "review": "0.36.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final499 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en500."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Burgundians",
+      "ABBREVN": "Burgundians",
+      "SUBJECTO": "Burgundians",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Burgundians"
+    }
+  ],
+  "sourceGrouping": [
+    "Burgundians"
+  ]
+}

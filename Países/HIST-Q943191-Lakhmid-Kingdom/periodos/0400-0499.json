@@ -1,0 +1,335 @@
+{
+  "key": "HIST-Q943191",
+  "identity": {
+    "qid": "Q943191",
+    "name": "Lakhmid Kingdom"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey lajmí · cliente sasánida",
+      "officePattern": "King.*Lakhm|King.*Hira",
+      "titles": [
+        "Al-Nu'man I ibn Imru' al-Qays",
+        "Al-Mundhir I ibn al-Nu'man",
+        "Al-Aswad ibn al-Mundhir",
+        "Al-Nu'man II ibn al-Aswad"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1565672",
+      "name": "Al-Nu'man I ibn Imru' al-Qays",
+      "role": "Rey lajmí · cliente sasánida",
+      "start": "0400-01-01",
+      "end": "0418-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_I_ibn_Imru_al-Qays",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q34270",
+      "name": "Al-Mundhir I ibn al-Nu'man",
+      "role": "Rey lajmí · cliente sasánida",
+      "start": "0418-01-01",
+      "end": "0461-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Al-Mundhir_I_ibn_al-Nu%27man",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1261241",
+      "name": "Al-Nu'man II ibn al-Aswad",
+      "role": "Rey lajmí · cliente sasánida",
+      "start": "0497-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_II_ibn_al-Aswad",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_I_ibn_Imru_al-Qays",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lakhmid Kingdom"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Lakhmid Kingdom",
+        "admin": "SASANIAN",
+        "status": "client",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año.",
+        "localKey": "HIST-Q943191"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "158807597c04916b02e1e5a93299b85e86669640848b1c53881e1809e79efe39",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1388,
+        1626,
+        1739,
+        1790,
+        1908
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Al-Aswad ibn al-Mundhir",
+        "title": "Al-Aswad ibn al-Mundhir",
+        "person": "",
+        "name": "Al-Aswad ibn al-Mundhir",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Al-Aswad_ibn_al-Mundhir",
+        "identityResolution": {
+          "requested": "Al-Aswad ibn al-Mundhir",
+          "canonical": "Al-Aswad ibn al-Mundhir",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Al-Mundhir I ibn al-Nu'man",
+        "title": "Al-Mundhir I ibn al-Nu'man",
+        "person": "Q34270",
+        "name": "Al-Mundhir I ibn al-Nu'man",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Al-Mundhir_I_ibn_al-Nu%27man",
+        "identityResolution": {
+          "requested": "Al-Mundhir I ibn al-Nu'man",
+          "canonical": "Al-Mundhir I ibn al-Nu'man",
+          "qid": "Q34270"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q34270",
+        "title": "Al-Mundhir I ibn al-Nu'man",
+        "source": "https://en.wikipedia.org/wiki/Al-Mundhir_I_ibn_al-Nu%27man",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Lakhmids",
+            "raw": "418–461",
+            "parsed": {
+              "start": "0418-01-01",
+              "end": "0461-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Al-Nu'man I ibn Imru' al-Qays",
+        "title": "Al-Nu'man I ibn Imru' al-Qays",
+        "person": "Q1565672",
+        "name": "Al-Nu'man I ibn Imru' al-Qays",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_I_ibn_Imru_al-Qays",
+        "identityResolution": {
+          "requested": "Al-Nu'man I ibn Imru' al-Qays",
+          "canonical": "Al-Nu'man I ibn Imru al-Qays",
+          "qid": "Q1565672"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1565672",
+        "title": "Al-Nu'man I ibn Imru al-Qays",
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_I_ibn_Imru_al-Qays",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Lakhmid state",
+            "raw": "CE [[390]]–[[418]]<ref name=\"EI2\">Shahîd (1986), p. 633</ref>",
+            "parsed": {
+              "start": "0390-01-01",
+              "end": "0418-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Al-Nu'man II ibn al-Aswad",
+        "title": "Al-Nu'man II ibn al-Aswad",
+        "person": "Q1261241",
+        "name": "Al-Nu'man II ibn al-Aswad",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_II_ibn_al-Aswad",
+        "identityResolution": {
+          "requested": "Al-Nu'man II ibn al-Aswad",
+          "canonical": "Al-Nu'man II ibn al-Aswad",
+          "qid": "Q1261241"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1261241",
+        "title": "Al-Nu'man II ibn al-Aswad",
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_II_ibn_al-Aswad",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Lakhmid state",
+            "raw": "CE [[497]]–[[503]]",
+            "parsed": {
+              "start": "0497-01-01",
+              "end": "0503-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1565672",
+        "title": "Al-Nu'man I ibn Imru' al-Qays",
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_I_ibn_Imru_al-Qays",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Lakhmid state",
+          "raw": "CE [[390]]–[[418]]<ref name=\"EI2\">Shahîd (1986), p. 633</ref>",
+          "parsed": {
+            "start": "0390-01-01",
+            "end": "0418-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q34270",
+        "title": "Al-Mundhir I ibn al-Nu'man",
+        "source": "https://en.wikipedia.org/wiki/Al-Mundhir_I_ibn_al-Nu%27man",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Lakhmids",
+          "raw": "418–461",
+          "parsed": {
+            "start": "0418-01-01",
+            "end": "0461-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1261241",
+        "title": "Al-Nu'man II ibn al-Aswad",
+        "source": "https://en.wikipedia.org/wiki/Al-Nu%27man_II_ibn_al-Aswad",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Lakhmid state",
+          "raw": "CE [[497]]–[[503]]",
+          "parsed": {
+            "start": "0497-01-01",
+            "end": "0503-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Al-Aswad ibn al-Mundhir",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat036-29",
+      "name": "Al-Hira · corte lajmí",
+      "coordinates": [
+        44.318,
+        31.887
+      ],
+      "start": 400,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Lakhmid_Kingdom",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Lakhmid Kingdom"
+    },
+    {
+      "id": "seat036-29-own",
+      "name": "Al-Hira · corte lajmí",
+      "coordinates": [
+        44.318,
+        31.887
+      ],
+      "start": 400,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Lakhmid_Kingdom",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Lakhmid Kingdom"
+    }
+  ]
+}

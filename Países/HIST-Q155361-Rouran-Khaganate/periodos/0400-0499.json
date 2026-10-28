@@ -1,0 +1,713 @@
+{
+  "key": "HIST-Q155361",
+  "identity": {
+    "qid": "Q155361",
+    "name": "Rouran Khaganate"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Kan rouran",
+      "officePattern": "Khagan|Khan",
+      "titles": [
+        "Yujiulü Shelun",
+        "Yujiulü Hulu",
+        "Yujiulü Buluzhen",
+        "Yujiulü Datan",
+        "Yujiulü Wuti",
+        "Yujiulü Tuhezhen",
+        "Yujiulü Yucheng",
+        "Yujiulü Doulun",
+        "Yujiulü Nagai"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2593890",
+      "name": "Yujiulü Shelun",
+      "role": "Kan rouran",
+      "start": "0402-01-01",
+      "end": "0410-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Shelun",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q11123749",
+      "name": "Yujiulü Buluzhen",
+      "role": "Kan rouran",
+      "start": "0414-01-01",
+      "end": "0414-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Buluzhen",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q154925",
+      "name": "Yujiulü Datan",
+      "role": "Kan rouran",
+      "start": "0414-01-01",
+      "end": "0429-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Datan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q154908",
+      "name": "Yujiulü Wuti",
+      "role": "Kan rouran",
+      "start": "0429-01-01",
+      "end": "0444-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Wuti",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q154910",
+      "name": "Yujiulü Tuhezhen",
+      "role": "Kan rouran",
+      "start": "0444-01-01",
+      "end": "0464-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Tuhezhen",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q154921",
+      "name": "Yujiulü Yucheng",
+      "role": "Kan rouran",
+      "start": "0464-01-01",
+      "end": "0485-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Yucheng",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q154913",
+      "name": "Yujiulü Doulun",
+      "role": "Kan rouran",
+      "start": "0485-01-01",
+      "end": "0492-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Doulun",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q154905",
+      "name": "Yujiulü Nagai",
+      "role": "Kan rouran",
+      "start": "0492-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Nagai",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Shelun",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Rouran Khaganate"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Rouran Khaganate",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "5b4f1bffb4b8c4949535e06d7d17e723b7675ba2ebc444330f301bad26b86f23",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1628,
+        1649,
+        1662,
+        1689,
+        1693,
+        1714,
+        1736,
+        1748,
+        1877,
+        1892
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Yujiulü Buluzhen",
+        "title": "Yujiulü Buluzhen",
+        "person": "Q11123749",
+        "name": "Yujiulü Buluzhen",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Buluzhen",
+        "identityResolution": {
+          "requested": "Yujiulü Buluzhen",
+          "canonical": "Yujiulü Buluzhen",
+          "qid": "Q11123749"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q11123749",
+        "title": "Yujiulü Buluzhen",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Buluzhen",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Khagan of Rouran",
+            "raw": "414",
+            "parsed": {
+              "start": "0414-01-01",
+              "end": "0414-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Khagan of the Rouran",
+            "raw": "414",
+            "parsed": {
+              "start": "0414-01-01",
+              "end": "0414-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yujiulü Datan",
+        "title": "Yujiulü Datan",
+        "person": "Q154925",
+        "name": "Yujiulü Datan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Datan",
+        "identityResolution": {
+          "requested": "Yujiulü Datan",
+          "canonical": "Yujiulü Datan",
+          "qid": "Q154925"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q154925",
+        "title": "Yujiulü Datan",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Datan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Khagan of Rouran",
+            "raw": "414–429",
+            "parsed": {
+              "start": "0414-01-01",
+              "end": "0429-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Khagan of the Rouran",
+            "raw": "414–429",
+            "parsed": {
+              "start": "0414-01-01",
+              "end": "0429-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yujiulü Doulun",
+        "title": "Yujiulü Doulun",
+        "person": "Q154913",
+        "name": "Yujiulü Doulun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Doulun",
+        "identityResolution": {
+          "requested": "Yujiulü Doulun",
+          "canonical": "Yujiulü Doulun",
+          "qid": "Q154913"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q154913",
+        "title": "Yujiulü Doulun",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Doulun",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Khagan of Rouran",
+            "raw": "485–492",
+            "parsed": {
+              "start": "0485-01-01",
+              "end": "0492-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Khagan of the Rouran",
+            "raw": "485–492",
+            "parsed": {
+              "start": "0485-01-01",
+              "end": "0492-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yujiulü Hulu",
+        "title": "Yujiulü Hulu",
+        "person": "",
+        "name": "Yujiulü Hulu",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Hulu",
+        "identityResolution": {
+          "requested": "Yujiulü Hulu",
+          "canonical": "Yujiulü Hulu",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yujiulü Nagai",
+        "title": "Yujiulü Nagai",
+        "person": "Q154905",
+        "name": "Yujiulü Nagai",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Nagai",
+        "identityResolution": {
+          "requested": "Yujiulü Nagai",
+          "canonical": "Yujiulü Nagai",
+          "qid": "Q154905"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q154905",
+        "title": "Yujiulü Nagai",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Nagai",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Khagan of Rouran",
+            "raw": "492–506",
+            "parsed": {
+              "start": "0492-01-01",
+              "end": "0506-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Khagan of the Rouran",
+            "raw": "492–506",
+            "parsed": {
+              "start": "0492-01-01",
+              "end": "0506-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yujiulü Shelun",
+        "title": "Yujiulü Shelun",
+        "person": "Q2593890",
+        "name": "Yujiulü Shelun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Shelun",
+        "identityResolution": {
+          "requested": "Yujiulü Shelun",
+          "canonical": "Yujiulü Shelun",
+          "qid": "Q2593890"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2593890",
+        "title": "Yujiulü Shelun",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Shelun",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Khagan of Rouran",
+            "raw": "402–410",
+            "parsed": {
+              "start": "0402-01-01",
+              "end": "0410-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Khagan of the Rouran",
+            "raw": "402–410",
+            "parsed": {
+              "start": "0402-01-01",
+              "end": "0410-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yujiulü Tuhezhen",
+        "title": "Yujiulü Tuhezhen",
+        "person": "Q154910",
+        "name": "Yujiulü Tuhezhen",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Tuhezhen",
+        "identityResolution": {
+          "requested": "Yujiulü Tuhezhen",
+          "canonical": "Yujiulü Tuhezhen",
+          "qid": "Q154910"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q154910",
+        "title": "Yujiulü Tuhezhen",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Tuhezhen",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Khagan of Rouran",
+            "raw": "444–464",
+            "parsed": {
+              "start": "0444-01-01",
+              "end": "0464-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Khagan of the Rouran",
+            "raw": "444–450",
+            "parsed": {
+              "start": "0444-01-01",
+              "end": "0450-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yujiulü Wuti",
+        "title": "Yujiulü Wuti",
+        "person": "Q154908",
+        "name": "Yujiulü Wuti",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Wuti",
+        "identityResolution": {
+          "requested": "Yujiulü Wuti",
+          "canonical": "Yujiulü Wuti",
+          "qid": "Q154908"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q154908",
+        "title": "Yujiulü Wuti",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Wuti",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Khagan of Rouran",
+            "raw": "429–444",
+            "parsed": {
+              "start": "0429-01-01",
+              "end": "0444-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Khagan of the Rouran",
+            "raw": "429–444",
+            "parsed": {
+              "start": "0429-01-01",
+              "end": "0444-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yujiulü Yucheng",
+        "title": "Yujiulü Yucheng",
+        "person": "Q154921",
+        "name": "Yujiulü Yucheng",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Yucheng",
+        "identityResolution": {
+          "requested": "Yujiulü Yucheng",
+          "canonical": "Yujiulü Yucheng",
+          "qid": "Q154921"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28070561",
+          "start": "0450-01-01",
+          "end": "0485-01-01",
+          "precision": 9,
+          "statement": "Q154921$3D4DD1A9-A80A-4D82-B88E-B5E3C63FDE47",
+          "label": "Khagan of the Rouran"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q154921",
+        "title": "Yujiulü Yucheng",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Yucheng",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Khagan of Rouran",
+            "raw": "464–485",
+            "parsed": {
+              "start": "0464-01-01",
+              "end": "0485-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Khagan of the Rouran",
+            "raw": "450–485",
+            "parsed": {
+              "start": "0450-01-01",
+              "end": "0485-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 8,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2593890",
+        "title": "Yujiulü Shelun",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Shelun",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Khagan of Rouran",
+          "raw": "402–410",
+          "parsed": {
+            "start": "0402-01-01",
+            "end": "0410-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q11123749",
+        "title": "Yujiulü Buluzhen",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Buluzhen",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Khagan of Rouran",
+          "raw": "414",
+          "parsed": {
+            "start": "0414-01-01",
+            "end": "0414-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q154925",
+        "title": "Yujiulü Datan",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Datan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Khagan of Rouran",
+          "raw": "414–429",
+          "parsed": {
+            "start": "0414-01-01",
+            "end": "0429-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q154908",
+        "title": "Yujiulü Wuti",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Wuti",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Khagan of Rouran",
+          "raw": "429–444",
+          "parsed": {
+            "start": "0429-01-01",
+            "end": "0444-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q154910",
+        "title": "Yujiulü Tuhezhen",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Tuhezhen",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Khagan of Rouran",
+          "raw": "444–464",
+          "parsed": {
+            "start": "0444-01-01",
+            "end": "0464-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q154921",
+        "title": "Yujiulü Yucheng",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Yucheng",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Khagan of Rouran",
+          "raw": "464–485",
+          "parsed": {
+            "start": "0464-01-01",
+            "end": "0485-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q154913",
+        "title": "Yujiulü Doulun",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Doulun",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Khagan of Rouran",
+          "raw": "485–492",
+          "parsed": {
+            "start": "0485-01-01",
+            "end": "0492-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q154905",
+        "title": "Yujiulü Nagai",
+        "source": "https://en.wikipedia.org/wiki/Yujiul%C3%BC_Nagai",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Khagan of Rouran",
+          "raw": "492–506",
+          "parsed": {
+            "start": "0492-01-01",
+            "end": "0506-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Yujiulü Hulu",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  }
+}

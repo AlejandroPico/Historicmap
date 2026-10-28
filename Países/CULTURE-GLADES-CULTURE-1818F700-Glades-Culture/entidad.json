@@ -1,0 +1,51 @@
+{
+  "key": "CULTURE-GLADES-CULTURE-1818F700",
+  "name": "Glades Culture",
+  "qid": "",
+  "aliases": [
+    "Glades Culture"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 264,
+      "start": null,
+      "end": null,
+      "name": "Glades Culture",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 106,
+      "start": null,
+      "end": null,
+      "name": "Glades Culture",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-GLADES-CULTURE-1818F700-Y0400:0",
+      "contextKey": "CULTURE-GLADES-CULTURE-1818F700",
+      "start": 400,
+      "end": 499,
+      "sourceYear": 400,
+      "canonicalFile": "Países/CULTURE-GLADES-CULTURE-1818F700-Glades-Culture/poblamiento/CULTURE-GLADES-CULTURE-1818F700-Y0400.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

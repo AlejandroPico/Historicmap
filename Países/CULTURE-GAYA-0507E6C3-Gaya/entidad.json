@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-GAYA-0507E6C3",
+  "name": "Gaya",
+  "qid": "",
+  "aliases": [
+    "Gaya"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 434,
+      "start": null,
+      "end": null,
+      "name": "Gaya",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-GAYA-0507E6C3-Y0400:0",
+      "contextKey": "CULTURE-GAYA-0507E6C3",
+      "start": 400,
+      "end": 499,
+      "sourceYear": 400,
+      "canonicalFile": "Países/CULTURE-GAYA-0507E6C3-Gaya/poblamiento/CULTURE-GAYA-0507E6C3-Y0400.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

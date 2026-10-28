@@ -1,0 +1,69 @@
+{
+  "key": "SOISSONS",
+  "name": "Poder romano-galo de Egidio y Siagrio",
+  "qid": "Q1247508",
+  "aliases": [
+    "Kingdom of Soissons",
+    "Poder romano-galo de Egidio y Siagrio"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SOISSONS"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q336937",
+      "name": "Egidio",
+      "role": "Autoridad militar romano-gala",
+      "start": "0461-01-01",
+      "end": "0464-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Soissons",
+      "note": "La autonomía regional desde461 se distingue de su nombramiento militar anterior. La etiquetaReino deSoissons es historiográfica, no título nacional acreditado.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q207499",
+      "name": "Siagrio",
+      "role": "Autoridad romano-gala",
+      "start": "0464-01-01",
+      "end": "0486-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Soissons",
+      "note": "Poder regional sucesor deEgidio; rex Romanorum es una denominación transmitida por fuentes posteriores, no prueba de coronación nacional.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1874",
+      "start": 476,
+      "end": 479,
+      "name": "Kingdom of Soissons",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1895",
+      "start": 480,
+      "end": 489,
+      "name": "Kingdom of Soissons",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,3 +1,4 @@
+import{firstAnnualYear,firstRegionalYear}from'./coverage';
 import{governmentFor}from'../src/governance';
 import{describe,it,expect,vi}from'vitest';import{readFileSync,readdirSync,existsSync,writeFileSync}from'node:fs';import{resolve,dirname}from'node:path';
 import{annualData}from'../src/data';import{politicalData}from'../src/political';import{identityFor}from'../src/identities';import{snapshotFor,playbackYear}from'../src/time';import{datedPlaces}from'../src/historical-places';import{regionsAt,hasRegionalCoverage}from'../src/cultural-regions';
@@ -15,7 +16,7 @@ describe('700–799 politics and regional evidence',()=>{
    years.push({year,politicalComponents:p.features.length,culturalReferences:r.features.length,withAuthorities:authorities,withSymbols:symbols,places:datedPlaces(p,year).features.length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-700-799.json',JSON.stringify({scope:'Disponibilidad anual por el recorrido de producción. No censo exhaustivo ni fronteras culturales observadas cada año. Las ventanas discutidas no certifican mandatos continuos.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()],catalogueAuthorityRecords:dossiers.reduce((n,d)=>n+d.data.leaders.length,0),catalogueWithoutPortraits:dossiers.flatMap(d=>d.data.leaders.filter((l:any)=>!l.portrait).map((l:any)=>({key:d.data.key,person:l.person,name:l.name,start:l.start,end:l.end})))},null,2)+'\n');
-  expect(hasRegionalCoverage(499)).toBe(false);expect(hasRegionalCoverage(700)).toBe(true);expect(snapshotFor(499).kind).toBe('historical');expect(snapshotFor(800).file).toBe('early-modern-800.geojson');
+  expect(hasRegionalCoverage(firstRegionalYear-1)).toBe(false);expect(hasRegionalCoverage(700)).toBe(true);expect(snapshotFor(firstAnnualYear-1).kind).toBe('historical');expect(snapshotFor(800).file).toBe('early-modern-800.geojson');
  },90000);
  it('distinguishes the dynasty, palace office and imperial title of the Frankish rulers',()=>{
   expect(identity('FRANKISH-REALM',740).leaders.some(l=>l.name.includes('Martel'))).toBe(true);expect(identity('FRANKISH-REALM',740).leaders.some(l=>l.role.startsWith('Rey'))).toBe(false);

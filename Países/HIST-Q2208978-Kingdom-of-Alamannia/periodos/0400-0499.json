@@ -1,0 +1,105 @@
+{
+  "key": "HIST-Q2208978",
+  "identity": {
+    "qid": "Q2208978",
+    "name": "Kingdom of Alamannia"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de agrupaciones alamanas",
+      "officePattern": "King.*Alaman|King.*Alemann",
+      "titles": [
+        "Gibuld"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Alamannia"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Kingdom of Alamannia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "9a5ddd4628350c5b9412e1d480b75c3e5b1eff9ad6662b6556db02c5ef8031c7",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1838,
+        1857,
+        1873,
+        1907
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Gibuld",
+        "title": "Gibuld",
+        "person": "Q335913",
+        "name": "Gibuld",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gibuld",
+        "identityResolution": {
+          "requested": "Gibuld",
+          "canonical": "Gibuld",
+          "qid": "Q335913"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q335913",
+        "title": "Gibuld",
+        "source": "https://en.wikipedia.org/wiki/Gibuld",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Gibuld",
+        "person": "Q335913",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

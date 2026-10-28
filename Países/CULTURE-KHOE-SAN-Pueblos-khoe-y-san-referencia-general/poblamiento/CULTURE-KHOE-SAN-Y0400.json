@@ -1,0 +1,93 @@
+{
+  "key": "CULTURE-KHOE-SAN-Y0400",
+  "contextKey": "CULTURE-KHOE-SAN",
+  "ownerKey": "CULTURE-KHOE-SAN",
+  "name": "Pueblos khoe y san · referencia general",
+  "originalNames": [
+    "Khoisan"
+  ],
+  "kind": "cultural-region",
+  "region": "África meridional",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    400,
+    499
+  ],
+  "interpretation": "Área aproximada de la compilación histórica. El nombre reúne sociedades o poderes diversos; no acredita autoridad uniforme, población homogénea ni frontera fija. Los contactos entre grupos agrícolas, pastoriles y cazadores-recolectores tuvieron ritmos regionales distintos. No se infieren fronteras étnicas de genética ni se presenta una sustitución instantánea.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea400 contiene etiquetas de épocas distintas. La ventana400–499 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "Nature Communications · prehistoria e interacciones del África austral",
+      "url": "https://www.nature.com/articles/ncomms2140"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a99772",
+  "focus": [
+    24.7348,
+    -13.63016
+  ],
+  "phases": [
+    {
+      "start": 400,
+      "end": 499,
+      "label": "Pueblos khoe y san · referencia general",
+      "dateBasis": "Referencia regional de la fuente editorial400; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-KHOE-SAN-Y0400.geojson",
+  "geometrySha256": "508c5641da41ab4007114aaa4404959aa633e563b31a426cb8e58db44ffc7c3f",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson",
+    "year": 400,
+    "featureIds": [
+      184
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7"
+  },
+  "review": "0.36.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final499 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en500."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Khoisan",
+      "ABBREVN": "Khoisan",
+      "SUBJECTO": "Khoisan",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Khoiasan"
+    }
+  ],
+  "sourceGrouping": [
+    "Khoisan"
+  ]
+}

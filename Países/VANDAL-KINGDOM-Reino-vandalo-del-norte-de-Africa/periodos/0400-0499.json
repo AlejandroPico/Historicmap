@@ -1,0 +1,688 @@
+{
+  "key": "VANDAL-KINGDOM",
+  "identity": {
+    "qid": "Q10416611",
+    "name": "Poderes vándalos y reino del norte de África"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de los vándalos y alanos",
+      "officePattern": "King.*Vandal",
+      "titles": [
+        "Godigisel",
+        "Gunderic",
+        "Gaiseric",
+        "Huneric",
+        "Gunthamund",
+        "Thrasamund"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q52995",
+      "name": "Gunderico",
+      "role": "Rey de los vándalos y alanos",
+      "start": "0407-01-01",
+      "end": "0428-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gunderic",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-b9c1539a895eeb0ceefa.jpg",
+        "title": "Gunderico no Corpus Pelagianum (BNE Mss 1513).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Gunderico_no_Corpus_Pelagianum_(BNE_Mss_1513).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Gunderico_no_Corpus_Pelagianum_%28BNE_Mss_1513%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gunderico_no_Corpus_Pelagianum_(BNE_Mss_1513).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://bdh.bne.es/bnesearch/detalle/bdh0000005990",
+        "sha256": "540b4713ef34cbe00cd33dadecc0dd2d9baef61ee0239ac4e65d8a2733efc7f6",
+        "bytes": 330900,
+        "canonicalFile": "Países/VANDAL-KINGDOM-Reino-vandalo-del-norte-de-Africa/retratos/portrait-b9c1539a895eeb0ceefa.jpg",
+        "caption": "Retrato imaginario posterior de Gunderico; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q152127",
+      "name": "Genserico",
+      "role": "Rey de los vándalos y alanos",
+      "start": "0428-01-01",
+      "end": "0477-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gaiseric",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q81140",
+      "name": "Hunerico",
+      "role": "Rey de los vándalos y alanos",
+      "start": "0477-01-01",
+      "end": "0484-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Huneric",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q312604",
+      "name": "Guntamundo",
+      "role": "Rey de los vándalos y alanos",
+      "start": "0484-01-01",
+      "end": "0496-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gunthamund",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q311888",
+      "name": "Trasamundo",
+      "role": "Rey de los vándalos y alanos",
+      "start": "0496-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Thrasamund",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-7ffed67abded660f8bba.jpg",
+        "title": "Denarius of Thrasamund.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Denarius_of_Thrasamund.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Denarius_of_Thrasamund.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CNG Coins",
+        "sha256": "10f54a3e50c319fcb93cccb374c1a42db3ef3e9c69c847b2184a3fd2540c8a75",
+        "bytes": 44589,
+        "canonicalFile": "Países/VANDAL-KINGDOM-Reino-vandalo-del-norte-de-Africa/retratos/portrait-7ffed67abded660f8bba.jpg",
+        "caption": "Tipo monetario convencional atribuido a Trasamundo; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Gunderic",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Vandals"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Poderes vándalos y reino del norte de África",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Vandal Kingdom"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Poderes vándalos y reino del norte de África",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "55e1ed166ed5d88e9158ce8c33a0b010a05195803aad43d41fe68cb01ad958b3",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1580,
+        1642,
+        1669,
+        1676,
+        1701,
+        1712,
+        1741,
+        1750,
+        1769,
+        1809,
+        1820,
+        1859,
+        1901
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Gaiseric",
+        "title": "Gaiseric",
+        "person": "Q152127",
+        "name": "Genserico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gaiseric",
+        "identityResolution": {
+          "requested": "Gaiseric",
+          "canonical": "Gaiseric",
+          "qid": "Q152127"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28121087",
+          "start": "0435-01-01",
+          "end": "0477-01-01",
+          "precision": 9,
+          "statement": "Q152127$e4bbc22e-4d50-b0c1-986b-e10dc8eb8903",
+          "label": "rey de los vándalos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q152127",
+        "title": "Gaiseric",
+        "source": "https://en.wikipedia.org/wiki/Gaiseric",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Vandals and Alans",
+            "raw": "428–477 AD",
+            "parsed": {
+              "start": "0428-01-01",
+              "end": "0477-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Godigisel",
+        "title": "Godigisel",
+        "person": "Q313064",
+        "name": "Godegisilio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Godigisel",
+        "identityResolution": {
+          "requested": "Godigisel",
+          "canonical": "Godigisel",
+          "qid": "Q313064"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q313064",
+        "title": "Godigisel",
+        "source": "https://en.wikipedia.org/wiki/Godigisel",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of the Vandals",
+            "raw": "Through 406",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gunderic",
+        "title": "Gunderic",
+        "person": "Q52995",
+        "name": "Gunderico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gunderic",
+        "identityResolution": {
+          "requested": "Gunderic",
+          "canonical": "Gunderic",
+          "qid": "Q52995"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0407-01-01",
+          "end": "0428-01-01",
+          "precision": 9,
+          "statement": "Q52995$f7a975a7-4521-792c-ca6d-6e84459a6ac4",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q52995",
+        "title": "Gunderic",
+        "source": "https://en.wikipedia.org/wiki/Gunderic",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of the Vandals",
+            "raw": "407&ndash;428",
+            "parsed": {
+              "start": "0407-01-01",
+              "end": "0428-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gunthamund",
+        "title": "Gunthamund",
+        "person": "Q312604",
+        "name": "Guntamundo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gunthamund",
+        "identityResolution": {
+          "requested": "Gunthamund",
+          "canonical": "Gunthamund",
+          "qid": "Q312604"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28121087",
+          "start": "0484-01-01",
+          "end": "0496-01-01",
+          "precision": 9,
+          "statement": "Q312604$7847fbd6-4ebb-fb49-c204-4a21ee148758",
+          "label": "rey de los vándalos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q312604",
+        "title": "Gunthamund",
+        "source": "https://en.wikipedia.org/wiki/Gunthamund",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Vandals and Alans",
+            "raw": "484–496 AD",
+            "parsed": {
+              "start": "0484-01-01",
+              "end": "0496-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Vandals",
+            "raw": "23 December 484 &ndash; 496",
+            "parsed": {
+              "start": "0484-12-23",
+              "end": "0496-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Huneric",
+        "title": "Huneric",
+        "person": "Q81140",
+        "name": "Hunerico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Huneric",
+        "identityResolution": {
+          "requested": "Huneric",
+          "canonical": "Huneric",
+          "qid": "Q81140"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28121087",
+          "start": "0477-01-01",
+          "end": "0484-01-01",
+          "precision": 9,
+          "statement": "Q81140$161ca313-45e3-cce8-d224-5a12f5c9aea2",
+          "label": "rey de los vándalos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q81140",
+        "title": "Huneric",
+        "source": "https://en.wikipedia.org/wiki/Huneric",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Vandals and Alans",
+            "raw": "477–484",
+            "parsed": {
+              "start": "0477-01-01",
+              "end": "0484-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Vandals",
+            "raw": "25 January 477 – 23 December 484",
+            "parsed": {
+              "start": "0477-01-25",
+              "end": "0484-12-23",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Thrasamund",
+        "title": "Thrasamund",
+        "person": "Q311888",
+        "name": "Trasamundo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Thrasamund",
+        "identityResolution": {
+          "requested": "Thrasamund",
+          "canonical": "Thrasamund",
+          "qid": "Q311888"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28121087",
+          "start": "0496-01-01",
+          "end": "0523-01-01",
+          "precision": 9,
+          "statement": "Q311888$3ae5a7ab-422b-f966-4dce-37d2ad0631c8",
+          "label": "rey de los vándalos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q311888",
+        "title": "Thrasamund",
+        "source": "https://en.wikipedia.org/wiki/Thrasamund",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Vandals and Alans",
+            "raw": "496–523 AD",
+            "parsed": {
+              "start": "0496-01-01",
+              "end": "0523-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Vandals",
+            "raw": "496&ndash;523",
+            "parsed": {
+              "start": "0496-01-01",
+              "end": "0523-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q52995",
+        "title": "Gunderic",
+        "source": "https://en.wikipedia.org/wiki/Gunderic",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of the Vandals",
+          "raw": "407&ndash;428",
+          "parsed": {
+            "start": "0407-01-01",
+            "end": "0428-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q152127",
+        "title": "Gaiseric",
+        "source": "https://en.wikipedia.org/wiki/Gaiseric",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Vandals and Alans",
+          "raw": "428–477 AD",
+          "parsed": {
+            "start": "0428-01-01",
+            "end": "0477-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q81140",
+        "title": "Huneric",
+        "source": "https://en.wikipedia.org/wiki/Huneric",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Vandals and Alans",
+          "raw": "477–484",
+          "parsed": {
+            "start": "0477-01-01",
+            "end": "0484-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q312604",
+        "title": "Gunthamund",
+        "source": "https://en.wikipedia.org/wiki/Gunthamund",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Vandals and Alans",
+          "raw": "484–496 AD",
+          "parsed": {
+            "start": "0484-01-01",
+            "end": "0496-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q311888",
+        "title": "Thrasamund",
+        "source": "https://en.wikipedia.org/wiki/Thrasamund",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Vandals and Alans",
+          "raw": "496–523 AD",
+          "parsed": {
+            "start": "0496-01-01",
+            "end": "0523-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Godigisel",
+        "person": "Q313064",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat036-11",
+      "name": "Cartago · corte vándala",
+      "coordinates": [
+        10.323,
+        36.852
+      ],
+      "start": 439,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Poderes_v%C3%A1ndalos_y_reino_del_norte_de_%C3%81frica",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Poderes vándalos y reino del norte de África"
+    },
+    {
+      "id": "seat036-11-own",
+      "name": "Cartago · corte vándala",
+      "coordinates": [
+        10.323,
+        36.852
+      ],
+      "start": 439,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Poderes_v%C3%A1ndalos_y_reino_del_norte_de_%C3%81frica",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Poderes vándalos y reino del norte de África"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q52995",
+      "name": "Gunderico",
+      "title": "Gunderico no Corpus Pelagianum (BNE Mss 1513).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gunderico_no_Corpus_Pelagianum_(BNE_Mss_1513).jpg",
+      "sha256": "540b4713ef34cbe00cd33dadecc0dd2d9baef61ee0239ac4e65d8a2733efc7f6",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Gunderico; no retrato contemporáneo."
+    },
+    {
+      "person": "Q152127",
+      "name": "Genserico",
+      "title": "Siliqua Vandals Honorius.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Siliqua_Vandals_Honorius.jpg",
+      "sha256": "3d253330bd4aaad049ce5b765baa10d4d95ac18f6eb019ece0f9cf70cafe7aff",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "La moneda presenta el nombre/efigie deHonorio; no retrato personal deGeiserico."
+    },
+    {
+      "person": "Q81140",
+      "name": "Hunerico",
+      "title": "Huneric BMC 012 (cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Huneric_BMC_012_(cropped).jpg",
+      "sha256": "ac1e1a94abc94f4086c29407f956c31e525ae60ad611d3c261026e6623ee9fd8",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Tipo numismático imperial de atribución personal aHunerico no suficientemente contrastada."
+    },
+    {
+      "person": "Q312604",
+      "name": "Guntamundo",
+      "title": "Genseric.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Genseric.jpg",
+      "sha256": "7c0d351ec5608fd8149ffeeae319b6c088d91abc90903a4b71a54fea9e81593e",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Escena del saqueo deRoma porGeiserico; no retrato deGuntamundo."
+    },
+    {
+      "person": "Q311888",
+      "name": "Trasamundo",
+      "title": "Denarius of Thrasamund.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Denarius_of_Thrasamund.jpg",
+      "sha256": "10f54a3e50c319fcb93cccb374c1a42db3ef3e9c69c847b2184a3fd2540c8a75",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Trasamundo; no retrato del natural acreditado."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q152127",
+      "title": "Siliqua Vandals Honorius.jpg",
+      "reason": "La moneda presenta el nombre/efigie deHonorio; no retrato personal deGeiserico.",
+      "source": "https://commons.wikimedia.org/wiki/File:Siliqua_Vandals_Honorius.jpg"
+    },
+    {
+      "person": "Q81140",
+      "title": "Huneric BMC 012 (cropped).jpg",
+      "reason": "Tipo numismático imperial de atribución personal aHunerico no suficientemente contrastada.",
+      "source": "https://commons.wikimedia.org/wiki/File:Huneric_BMC_012_(cropped).jpg"
+    },
+    {
+      "person": "Q312604",
+      "title": "Genseric.jpg",
+      "reason": "Escena del saqueo deRoma porGeiserico; no retrato deGuntamundo.",
+      "source": "https://commons.wikimedia.org/wiki/File:Genseric.jpg"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import{firstAnnualYear}from'./coverage';
 import{describe,it,expect,vi}from'vitest';import{readFileSync,writeFileSync}from'node:fs';
 import{annualData}from'../src/data';import{politicalData}from'../src/political';import{datedPlaces}from'../src/historical-places';import{identityFor,type IdentityData}from'../src/identities';import{anchorFor,matchingFeature}from'../src/selection';import{snapshotFor,playbackYear}from'../src/time';import{withGovernance,governmentCounts}from'../src/governance';
 const read=(p:string)=>JSON.parse(readFileSync('public/data/'+p,'utf8'));const ids:IdentityData=read('identities.json');
@@ -14,7 +15,7 @@ describe('1700 review and documentary source limits',()=>{
    const seats=datedPlaces(data,y).features.filter(f=>f.properties?.sovereignSeat);years.push({year:y,territories:data.features.length,withAuthorities:authorities,withSymbols:symbols,additionalGroupedStateSeats:seats.length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-1700-1799.json',JSON.stringify({scope:'Production-path availability audit, not a complete historical census. Polygon inventories and grouped-state seat references counted separately.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()]},null,2)+'\n');
-  expect(snapshotFor(499).kind).toBe('historical');
+  expect(snapshotFor(firstAnnualYear-1).kind).toBe('historical');
  },90000);
  it('keeps German state references distinct from the imperial contour and resolves their own dated card',async()=>{
   const data=await world(1750),seats=withGovernance(datedPlaces(data,1750),1750);

@@ -1,0 +1,110 @@
+{
+  "key": "NORTHERN-LIANG",
+  "name": "Liang del Norte",
+  "qid": "Q1539360",
+  "aliases": [
+    "Liang del Norte",
+    "Northern Liang"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "NORTHERN-LIANG"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1131409",
+      "name": "Duan Ye",
+      "role": "Gobernante de Liang del Norte",
+      "start": "0400-01-01",
+      "end": "0401-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Duan_Ye",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1069797",
+      "name": "Juqu Mengxun",
+      "role": "Gobernante de Liang del Norte",
+      "start": "0412-01-01",
+      "end": "0433-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Juqu_Mengxun",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1069797",
+      "name": "Juqu Mengxun",
+      "role": "Gobernante de Liang del Norte",
+      "start": "0431-01-01",
+      "end": "0433-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Juqu_Mengxun",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1132566",
+      "name": "Juqu Mujian",
+      "role": "Gobernante de Liang del Norte",
+      "start": "0433-01-01",
+      "end": "0439-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Juqu_Mujian",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1604",
+      "start": 400,
+      "end": 401,
+      "name": "Northern Liang",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1636",
+      "start": 402,
+      "end": 425,
+      "name": "Northern Liang",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1704",
+      "start": 426,
+      "end": 438,
+      "name": "Northern Liang",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1730",
+      "start": 439,
+      "end": 440,
+      "name": "Northern Liang",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

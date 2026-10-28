@@ -1,3 +1,5 @@
+import{firstAnnualYear,firstRegionalYear}from'./coverage';
+import{culturalDossiersForSource}from'./coverage';
 import{describe,it,expect,vi}from'vitest';import{readFileSync,readdirSync,existsSync,writeFileSync}from'node:fs';import{resolve,dirname}from'node:path';
 import{annualData}from'../src/data';import{politicalData}from'../src/political';import{identityFor}from'../src/identities';import{snapshotFor,playbackYear}from'../src/time';import{datedPlaces}from'../src/historical-places';import{regionsAt,hasRegionalCoverage}from'../src/cultural-regions';import{governmentFor}from'../src/governance';
 const read=(f:string)=>JSON.parse(readFileSync('public/data/'+f,'utf8')),ids=read('identities.json'),regions=read('cultural-regions.geojson');
@@ -14,7 +16,7 @@ describe('500–599 political powers and regional communities',()=>{
    years.push({year,politicalComponents:p.features.length,culturalReferences:r.features.length,withAuthorities:authorities,withSymbols:symbols,places:datedPlaces(p,year).features.length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-500-599.json',JSON.stringify({scope:'Disponibilidad anual por el recorrido de producción; no censo mundial exhaustivo ni fronteras observadas anualmente. Cortes puntuales y contornos regionales no equivalen a soberanía uniforme.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()],catalogueAuthorityRecords:dossiers.reduce((n,d)=>n+d.data.leaders.length,0),catalogueWithoutPortraits:dossiers.flatMap(d=>d.data.leaders.filter((l:any)=>!l.portrait).map((l:any)=>({key:d.data.key,person:l.person,name:l.name,start:l.start,end:l.end})))},null,2)+'\n');
-  expect(hasRegionalCoverage(499)).toBe(false);expect(hasRegionalCoverage(500)).toBe(true);expect(snapshotFor(499).kind).toBe('historical');expect(snapshotFor(600).file).toBe('early-modern-600.geojson');
+  expect(hasRegionalCoverage(firstRegionalYear-1)).toBe(false);expect(hasRegionalCoverage(500)).toBe(true);expect(snapshotFor(firstAnnualYear-1).kind).toBe('historical');expect(snapshotFor(600).file).toBe('early-modern-600.geojson');
  },90000);
  it('separates imperial accession from Caesar designation, regency and restored reigns',()=>{
   expect(identity('BYZANTINE',526).leaders.some(l=>l.person==='Q41866')).toBe(false);expect(identity('BYZANTINE',528).leaders.some(l=>l.person==='Q41866')).toBe(true);expect(identity('BYZANTINE',590).leaders.some(l=>l.person==='Q181764')).toBe(true);
@@ -36,7 +38,7 @@ describe('500–599 political powers and regional communities',()=>{
   expect(identity('HIST-Q11774',545).leaders.some(l=>l.person==='Q7908815')).toBe(false);expect(identity('SAMATATA-VAINYA',507).leaders.some(l=>l.person==='Q7908815')).toBe(true);expect(identity('SAMATATA-VAINYA',520).leaders).toHaveLength(0);
  });
  it('quarantines source anachronisms while retaining their original evidence',()=>{
-  const docs=readdirSync('Países').flatMap(folder=>{const p='Países/'+folder+'/poblamiento';return existsSync(p)?readdirSync(p).filter(n=>n.endsWith('-Y0500.json')).map(n=>JSON.parse(readFileSync(p+'/'+n,'utf8'))):[];});
+  const docs=culturalDossiersForSource(500);expect(docs).toHaveLength(87);
   for(const name of ['Poverty Point','Mill Creek']){const d=docs.find(d=>JSON.stringify(d).includes(name));expect(d).toBeDefined();expect(d.phases).toHaveLength(0);}
   expect(regions.features.some((f:any)=>f.properties.sourceYear===500&&f.properties.originalNames.includes('Western Roman Empire')&&f.properties.contextKey==='REFERENCE-POST-WESTERN-ROME')).toBe(true);
   for(const f of regions.features.filter((f:any)=>f.properties.sourceYear===500)){const p=f.properties;if(p.region.includes('mapa'))expect(p.region).not.toMatch(/(?:600|700|800)/);}

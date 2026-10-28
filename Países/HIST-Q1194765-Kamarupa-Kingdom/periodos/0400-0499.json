@@ -1,0 +1,253 @@
+{
+  "key": "HIST-Q1194765",
+  "identity": {
+    "qid": "Q1194765",
+    "name": "Kamarupa Kingdom"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Kamarupa",
+      "officePattern": "King|Maharaja|Varman",
+      "titles": [
+        "Balavarman I",
+        "Kalyanavarman",
+        "Ganapativarman",
+        "Mahendravarman (Varman dynasty)",
+        "Narayana Varman"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1144246",
+      "name": "Mahendra Varman",
+      "role": "Rey de Kamarupa",
+      "start": "0470-01-01",
+      "end": "0494-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mahendravarman_%28Varman_dynasty%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mahendravarman_%28Varman_dynasty%29",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kamarupa Kingdom"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Kamarupa Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "15d226b514c0f5f6397983b7e26f018c76b1278ba05e1b7e5b3c696d44372b95",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1490,
+        1792
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Balavarman I",
+        "title": "Balavarman I",
+        "person": "",
+        "name": "Balavarman I",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Balavarman_I",
+        "identityResolution": {
+          "requested": "Balavarman I",
+          "canonical": "Balavarman I",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ganapativarman",
+        "title": "Ganapativarman",
+        "person": "Q1143919",
+        "name": "Ganapati Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ganapativarman",
+        "identityResolution": {
+          "requested": "Ganapativarman",
+          "canonical": "Ganapativarman",
+          "qid": "Q1143919"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1143919",
+        "title": "Ganapativarman",
+        "source": "https://en.wikipedia.org/wiki/Ganapativarman",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kalyanavarman",
+        "title": "Kalyanavarman",
+        "person": "Q38960826",
+        "name": "Kalyanavarman",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Kalyanavarman",
+        "identityResolution": {
+          "requested": "Kalyanavarman",
+          "canonical": "Kalyanavarman",
+          "qid": "Q38960826"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mahendravarman (Varman dynasty)",
+        "title": "Mahendravarman (Varman dynasty)",
+        "person": "Q1144246",
+        "name": "Mahendra Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mahendravarman_%28Varman_dynasty%29",
+        "identityResolution": {
+          "requested": "Mahendravarman (Varman dynasty)",
+          "canonical": "Mahendravarman (Varman dynasty)",
+          "qid": "Q1144246"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1144246",
+        "title": "Mahendravarman (Varman dynasty)",
+        "source": "https://en.wikipedia.org/wiki/Mahendravarman_%28Varman_dynasty%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Kamarupa",
+            "raw": "470–494",
+            "parsed": {
+              "start": "0470-01-01",
+              "end": "0494-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Narayana Varman",
+        "title": "Narayana Varman",
+        "person": "Q1143906",
+        "name": "Narayana Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Narayanavarman",
+        "identityResolution": {
+          "requested": "Narayana Varman",
+          "canonical": "Narayanavarman",
+          "qid": "Q1143906"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1143906",
+        "title": "Narayanavarman",
+        "source": "https://en.wikipedia.org/wiki/Narayanavarman",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1144246",
+        "title": "Mahendravarman (Varman dynasty)",
+        "source": "https://en.wikipedia.org/wiki/Mahendravarman_%28Varman_dynasty%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Kamarupa",
+          "raw": "470–494",
+          "parsed": {
+            "start": "0470-01-01",
+            "end": "0494-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Balavarman I",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Kalyanavarman",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Ganapativarman",
+        "person": "Q1143919",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Narayana Varman",
+        "person": "Q1143906",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

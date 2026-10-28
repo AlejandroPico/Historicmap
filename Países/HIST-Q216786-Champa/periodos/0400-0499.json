@@ -1,0 +1,261 @@
+{
+  "key": "HIST-Q216786",
+  "identity": {
+    "qid": "Q216786",
+    "name": "Chámpa"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Champa",
+      "officePattern": "King.*Champa",
+      "titles": [
+        "Bhadravarman I",
+        "Gangaraja",
+        "Fan Yang Mai I",
+        "Fan Yang Mai II"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chámpa"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Chámpa",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "6b20a30e9add6352bc573cd7caebf069c6472cdd41600c74a3006f6641919c36",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1304
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bhadravarman I",
+        "title": "Bhadravarman I",
+        "person": "Q5433550",
+        "name": "Bhadravarman I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bhadravarman_I",
+        "identityResolution": {
+          "requested": "Bhadravarman I",
+          "canonical": "Bhadravarman I",
+          "qid": "Q5433550"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0380-01-01",
+          "end": "0413-01-01",
+          "precision": 9,
+          "statement": "Q5433550$7827365e-42d0-7bef-bbdf-00e2f9c1379b",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5433550",
+        "title": "Bhadravarman I",
+        "source": "https://en.wikipedia.org/wiki/Bhadravarman_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Lâm Ấp Dharma-Maharaja",
+            "raw": "380–413",
+            "parsed": {
+              "start": "0380-01-01",
+              "end": "0413-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Fan Yang Mai I",
+        "title": "Fan Yang Mai I",
+        "person": "Q1062980",
+        "name": "Fan Yang Mai I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_D%C6%B0%C6%A1ng_M%E1%BA%A1i_I",
+        "identityResolution": {
+          "requested": "Fan Yang Mai I",
+          "canonical": "Phạm Dương Mại I",
+          "qid": "Q1062980"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0420-01-01",
+          "end": "0421-01-01",
+          "precision": 9,
+          "statement": "Q1062980$ef6b1f9e-4ae3-0897-ad9f-009da0e5610f",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1062980",
+        "title": "Phạm Dương Mại I",
+        "source": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_D%C6%B0%C6%A1ng_M%E1%BA%A1i_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Linyi",
+            "raw": "420–421",
+            "parsed": {
+              "start": "0420-01-01",
+              "end": "0421-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Fan Yang Mai II",
+        "title": "Fan Yang Mai II",
+        "person": "Q1062937",
+        "name": "Fan Yang Mai II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_D%C6%B0%C6%A1ng_M%E1%BA%A1i_II",
+        "identityResolution": {
+          "requested": "Fan Yang Mai II",
+          "canonical": "Phạm Dương Mại II",
+          "qid": "Q1062937"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0421-01-01",
+          "end": "0446-01-01",
+          "precision": 9,
+          "statement": "Q1062937$33b46346-43d4-72cb-1ef8-2404553c807d",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1062937",
+        "title": "Phạm Dương Mại II",
+        "source": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_D%C6%B0%C6%A1ng_M%E1%BA%A1i_II",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gangaraja",
+        "title": "Gangaraja",
+        "person": "Q11617135",
+        "name": "Gangaraja",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gangaraja",
+        "identityResolution": {
+          "requested": "Gangaraja",
+          "canonical": "Gangaraja",
+          "qid": "Q11617135"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0413-01-01",
+          "end": "0415-01-01",
+          "precision": 9,
+          "statement": "Q11617135$7dec0c20-4c6e-0a66-6343-b59ff94a1700",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q11617135",
+        "title": "Gangaraja",
+        "source": "https://en.wikipedia.org/wiki/Gangaraja",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Lâm Ấp",
+            "raw": "413–?",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Bhadravarman I",
+        "person": "Q5433550",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Gangaraja",
+        "person": "Q11617135",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Fan Yang Mai I",
+        "person": "Q1062980",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Fan Yang Mai II",
+        "person": "Q1062937",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

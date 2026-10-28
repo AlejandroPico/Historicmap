@@ -1,0 +1,274 @@
+{
+  "key": "SOISSONS",
+  "identity": {
+    "qid": "Q1247508",
+    "name": "Poder romano-galo de Egidio y Siagrio"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Autoridad romano-gala",
+      "officePattern": "King|Ruler|Magister|Roman",
+      "titles": [
+        "Aegidius",
+        "Syagrius"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q336937",
+      "name": "Egidio",
+      "role": "Autoridad militar romano-gala",
+      "start": "0461-01-01",
+      "end": "0464-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Soissons",
+      "note": "La autonomía regional desde461 se distingue de su nombramiento militar anterior. La etiquetaReino deSoissons es historiográfica, no título nacional acreditado."
+    },
+    {
+      "person": "Q207499",
+      "name": "Siagrio",
+      "role": "Autoridad romano-gala",
+      "start": "0464-01-01",
+      "end": "0486-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Soissons",
+      "note": "Poder regional sucesor deEgidio; rex Romanorum es una denominación transmitida por fuentes posteriores, no prueba de coronación nacional."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 461,
+      "end": 486,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Soissons",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Soissons"
+        ],
+        "start": 400,
+        "end": 460,
+        "label": "Poder romano-galo de Egidio y Siagrio · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Soissons"
+        ],
+        "start": 461,
+        "end": 486,
+        "label": "Poder romano-galo de Egidio y Siagrio",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Soissons"
+        ],
+        "start": 487,
+        "end": 499,
+        "label": "Poder romano-galo de Egidio y Siagrio · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "9d37ab7d266597d71cb2c3508dbb838f44d4b7ae75d12a308eccb32c89163ef5",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1874,
+        1895
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aegidius",
+        "title": "Aegidius",
+        "person": "Q336937",
+        "name": "Egidio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aegidius",
+        "identityResolution": {
+          "requested": "Aegidius",
+          "canonical": "Aegidius",
+          "qid": "Q336937"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q336937",
+        "title": "Aegidius",
+        "source": "https://en.wikipedia.org/wiki/Aegidius",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Syagrius",
+        "title": "Syagrius",
+        "person": "Q207499",
+        "name": "Siagrio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Syagrius",
+        "identityResolution": {
+          "requested": "Syagrius",
+          "canonical": "Syagrius",
+          "qid": "Q207499"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q207499",
+        "title": "Syagrius",
+        "source": "https://en.wikipedia.org/wiki/Syagrius",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Aegidius",
+        "person": "Q336937",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Syagrius",
+        "person": "Q207499",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q336937",
+      "name": "Egidio",
+      "role": "Autoridad militar romano-gala",
+      "start": "0461-01-01",
+      "end": "0464-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Soissons",
+      "note": "La autonomía regional desde461 se distingue de su nombramiento militar anterior. La etiquetaReino deSoissons es historiográfica, no título nacional acreditado."
+    },
+    {
+      "person": "Q207499",
+      "name": "Siagrio",
+      "role": "Autoridad romano-gala",
+      "start": "0464-01-01",
+      "end": "0486-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Soissons",
+      "note": "Poder regional sucesor deEgidio; rex Romanorum es una denominación transmitida por fuentes posteriores, no prueba de coronación nacional."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat036-9",
+      "name": "Soissons · poder romano-galo",
+      "coordinates": [
+        3.323,
+        49.381
+      ],
+      "start": 461,
+      "end": 486,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Poder_romano-galo_de_Egidio_y_Siagrio",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Poder romano-galo de Egidio y Siagrio"
+    },
+    {
+      "id": "seat036-9-own",
+      "name": "Soissons · poder romano-galo",
+      "coordinates": [
+        3.323,
+        49.381
+      ],
+      "start": 461,
+      "end": 486,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Poder_romano-galo_de_Egidio_y_Siagrio",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Poder romano-galo de Egidio y Siagrio"
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q207499",
+      "title": "Syagrius brought before Clovis.jpg",
+      "reason": "Escena colectiva deSiagrio anteClodoveo sin encuadre adecuado como retrato individual.",
+      "source": "https://commons.wikimedia.org/wiki/File:Syagrius_brought_before_Clovis.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q207499",
+      "name": "Siagrio",
+      "title": "Syagrius brought before Clovis.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Syagrius_brought_before_Clovis.jpg",
+      "sha256": "4d73cce00976cbcc725167487530f91ab33c697afb002c683e7f2922adcf09a8",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Escena colectiva deSiagrio anteClodoveo sin encuadre adecuado como retrato individual."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "CULTURE-GEPIDS-937AFCC1-Y0400",
+  "contextKey": "CULTURE-GEPIDS-937AFCC1",
+  "ownerKey": "CULTURE-GEPIDS-937AFCC1",
+  "name": "Gepids",
+  "originalNames": [
+    "Gepids"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 400",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    400,
+    499
+  ],
+  "interpretation": "Referencia regional con comunidades, centros y redes diversos. No acredita un Estado unitario, identidad homogénea, frontera exclusiva ni territorio vacío fuera de su superficie.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea400 contiene etiquetas de épocas distintas. La ventana400–499 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    25.44921,
+    50.13386
+  ],
+  "phases": [
+    {
+      "start": 400,
+      "end": 499,
+      "label": "Gepids",
+      "dateBasis": "Referencia regional de la fuente editorial400; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-GEPIDS-937AFCC1-Y0400.geojson",
+  "geometrySha256": "763ee1d7ab07cbc0f99a69f5174f1441f492e06abb35c2238c27661693cc51ef",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson",
+    "year": 400,
+    "featureIds": [
+      158
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7"
+  },
+  "review": "0.36.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final499 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en500."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Gepids",
+      "ABBREVN": "Gepids",
+      "SUBJECTO": "Hunnic Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Gepids"
+    }
+  ],
+  "sourceGrouping": [
+    "Hunnic Empire"
+  ]
+}

@@ -1,3 +1,4 @@
+import{firstAnnualYear}from'./coverage';
 import{describe,it,expect,vi}from'vitest';import{readFileSync,writeFileSync}from'node:fs';
 import{annualData}from'../src/data';import{politicalData}from'../src/political';import{datedPlaces}from'../src/historical-places';import{withGovernance,governmentFor}from'../src/governance';import{identityFor,type IdentityData}from'../src/identities';import{snapshotFor,playbackYear}from'../src/time';
 const read=(p:string)=>JSON.parse(readFileSync('public/data/'+p,'utf8'));const ids:IdentityData=read('identities.json');vi.stubGlobal('fetch',async(input:any)=>new Response(readFileSync('public/data/'+String(input).split('/').at(-1)!),{status:200}));
@@ -11,7 +12,7 @@ describe('1400–1499 annual extension',()=>{
    years.push({year:y,territories:d.features.length,withAuthorities:authorities,withSymbols:symbols,additionalGroupedStateSeats:datedPlaces(d,y).features.filter(f=>f.properties?.sovereignSeat).length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-1400-1499.json',JSON.stringify({scope:'Production-path availability, not an exhaustive state census, independent border verification or daily-front reconstruction. Grouped sovereign seats counted separately.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()]},null,2)+'\n');
-  expect(snapshotFor(499).kind).toBe('historical');expect(snapshotFor(1500).file).toBe('early-modern-1500.geojson');
+  expect(snapshotFor(firstAnnualYear-1).kind).toBe('historical');expect(snapshotFor(1500).file).toBe('early-modern-1500.geojson');
  },90000);
  it('separates collapsed empires, dynastic titles and corrected source identifiers',async()=>{
   const key=(d:any,n:string)=>d.features.find((f:any)=>f.properties.originalName===n)?.properties.identityKey;

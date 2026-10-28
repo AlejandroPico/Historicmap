@@ -3,15 +3,30 @@
 Never called by the build. Missing metadata stays pending, not inferred.
 """
 from pathlib import Path
-import json,urllib.request,urllib.parse,hashlib,concurrent.futures,importlib.util,argparse,re
+import json,urllib.request,urllib.parse,urllib.error,hashlib,concurrent.futures,importlib.util,argparse,re,time,threading
 ROOT=Path(__file__).resolve().parents[1];CACHE=ROOT/'.cache';UA={'User-Agent':'Historicmap/0.32 (https://github.com/AlejandroPico/Historicmap; historical research)'}
 read=lambda f:json.loads(f.read_text(encoding='utf8'))
+_REQUEST_LOCK=threading.Lock()
+_NEXT_REQUEST=0.0
 def save(f,d):f.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
 def request(params,host,key):
+ global _NEXT_REQUEST
  f=CACHE/(key+'.json')
  if f.exists():return read(f)
  url=host+'?'+urllib.parse.urlencode(params)
- with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=25)as r:d=json.load(r)
+ for attempt in range(3):
+  # All acquisition workers share the same rate limit; cached evidence is free.
+  with _REQUEST_LOCK:
+   time.sleep(max(0,_NEXT_REQUEST-time.monotonic()));_NEXT_REQUEST=time.monotonic()+1.2
+  try:
+   with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=25)as r:d=json.load(r)
+   break
+  except urllib.error.HTTPError as e:
+   if e.code not in [429,503]or attempt==2:raise
+   delay=e.headers.get('Retry-After','')
+   delay=float(delay)if delay.isdigit()else 4*(attempt+1)
+   if delay>60:raise
+   with _REQUEST_LOCK:_NEXT_REQUEST=max(_NEXT_REQUEST,time.monotonic()+delay)
  if 'error'in d:raise ValueError(str(d['error']))
  save(f,d);return d
 def main(century,review):

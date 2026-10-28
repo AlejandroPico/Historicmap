@@ -1,0 +1,63 @@
+{
+  "key": "HELIAN-XIA",
+  "name": "Xia de Helian",
+  "qid": "",
+  "aliases": [
+    "Xia de Helian"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HELIAN-XIA"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q254752",
+      "name": "Helian Bobo",
+      "role": "Emperador de Xia · Helian",
+      "start": "0407-01-01",
+      "end": "0425-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Helian_Bobo",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1149447",
+      "name": "Helian Chang",
+      "role": "Emperador de Xia · Helian",
+      "start": "0425-01-01",
+      "end": "0428-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Helian_Chang",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1149413",
+      "name": "Helian Ding",
+      "role": "Emperador de Xia · Helian",
+      "start": "0428-01-01",
+      "end": "0431-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Helian_Ding",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

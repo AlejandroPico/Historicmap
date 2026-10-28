@@ -1,0 +1,94 @@
+{
+  "key": "LATER-QIN",
+  "name": "Qin posterior",
+  "qid": "Q1730130",
+  "aliases": [
+    "Later Qin",
+    "Qin posterior"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "LATER-QIN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1149160",
+      "name": "Yao Xing",
+      "role": "Gobernante de Qin posterior",
+      "start": "0400-01-01",
+      "end": "0416-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yao_Xing",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1074768",
+      "name": "Yao Hong",
+      "role": "Gobernante de Qin posterior",
+      "start": "0416-01-01",
+      "end": "0417-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yao_Hong",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1599",
+      "start": 400,
+      "end": 401,
+      "name": "Later Qin",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1632",
+      "start": 402,
+      "end": 406,
+      "name": "Later Qin",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1645",
+      "start": 407,
+      "end": 409,
+      "name": "Later Qin",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1670",
+      "start": 410,
+      "end": 413,
+      "name": "Later Qin",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1677",
+      "start": 414,
+      "end": 416,
+      "name": "Later Qin",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

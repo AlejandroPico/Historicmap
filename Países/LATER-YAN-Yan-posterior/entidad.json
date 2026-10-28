@@ -1,0 +1,78 @@
+{
+  "key": "LATER-YAN",
+  "name": "Yan posterior",
+  "qid": "Q1534482",
+  "aliases": [
+    "Later Yan",
+    "Yan posterior"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "LATER-YAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1078573",
+      "name": "Murong Sheng",
+      "role": "Gobernante de Yan posterior",
+      "start": "0400-01-01",
+      "end": "0401-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Sheng",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q1071544",
+      "name": "Murong Xi",
+      "role": "Gobernante de Yan posterior",
+      "start": "0401-01-01",
+      "end": "0407-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Xi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1587",
+      "start": 400,
+      "end": 401,
+      "name": "Later Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1634",
+      "start": 402,
+      "end": 406,
+      "name": "Later Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1641",
+      "start": 407,
+      "end": 409,
+      "name": "Later Yan",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

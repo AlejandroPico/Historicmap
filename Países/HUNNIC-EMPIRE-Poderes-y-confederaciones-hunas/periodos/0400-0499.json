@@ -1,0 +1,967 @@
+{
+  "key": "HUNNIC-EMPIRE",
+  "identity": {
+    "qid": "Q45813",
+    "name": "Poderes y confederaciones hunas"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de agrupaciones hunas",
+      "officePattern": "King|Ruler|Leader|Hunn",
+      "titles": [
+        "Uldin",
+        "Charaton",
+        "Octar",
+        "Rugila",
+        "Bleda",
+        "Attila",
+        "Ellac",
+        "Dengizich",
+        "Ernak"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q250444",
+      "name": "Charaton",
+      "role": "Gobernante de agrupaciones hunas",
+      "start": "0412-01-01",
+      "end": "0420-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Charaton",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1085718",
+      "name": "Octar",
+      "role": "Gobernante de agrupaciones hunas",
+      "start": "0420-01-01",
+      "end": "0430-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Octar",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q334273",
+      "name": "Rua",
+      "role": "Gobernante de agrupaciones hunas",
+      "start": "0430-01-01",
+      "end": "0435-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rugila",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q518067",
+      "name": "Elac",
+      "role": "Gobernante de agrupaciones hunas",
+      "start": "0453-01-01",
+      "end": "0454-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ellac",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q518067",
+      "name": "Elac",
+      "role": "Rey de los akatziros bajo el poder de Atila",
+      "start": "0448-01-01",
+      "end": "0454-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ellac",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente. Dignidad regional; no rey de todos los hunos desde448."
+    },
+    {
+      "person": "Q530617",
+      "name": "Dengizich",
+      "role": "Gobernante de agrupaciones hunas",
+      "start": "0454-01-01",
+      "end": "0469-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dengizich",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q313490",
+      "name": "Bleda",
+      "role": "Cogobernante de la confederación huna",
+      "start": "0434-01-01",
+      "end": "0445-12-31",
+      "precision": 9,
+      "source": "https://lex.dk/Attila",
+      "note": "Corregencia conAttila desde aproximadamente434 hasta445; no un imperio adicional independiente.",
+      "portrait": {
+        "file": "media/portrait-ab7ef15e03e861629a6e.jpg",
+        "title": "Buda Litho 2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Buda_Litho_2.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Buda_Litho_2.jpg/330px-Buda_Litho_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Josef Kriehuber",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Buda_Litho_2.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Foto einer Originallithographie aus der eigenen Sammlung",
+        "sha256": "d47ca61b9c666ee1d1c34a72130ba1b77ec629b557d7033a1b5c055c410685f7",
+        "bytes": 76838,
+        "canonicalFile": "Países/HUNNIC-EMPIRE-Poderes-y-confederaciones-hunas/retratos/portrait-ab7ef15e03e861629a6e.jpg",
+        "caption": "Retrato imaginario posterior de Bleda; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q36724",
+      "name": "Atila",
+      "role": "Gobernante de la confederación huna",
+      "start": "0434-01-01",
+      "end": "0453-12-31",
+      "precision": 9,
+      "source": "https://lex.dk/Attila",
+      "note": "Cronología aproximada434–453; comparte autoridad conBleda hasta445. Se retiene la variante435 del inventario original.",
+      "portrait": {
+        "file": "media/portrait-e5c119a65fe740322c65.jpg",
+        "title": "Attila Hunnorum Rex Flagellum Dei Aquilejae Eversor Utini Instaurator.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Attila_Hunnorum_Rex_Flagellum_Dei_Aquilejae_Eversor_Utini_Instaurator.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Attila_Hunnorum_Rex_Flagellum_Dei_Aquilejae_Eversor_Utini_Instaurator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "\nJulio Strozza",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Attila_Hunnorum_Rex_Flagellum_Dei_Aquilejae_Eversor_Utini_Instaurator.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.zazzle.com/attila_the_hun_scourge_of_god_from_antique_print-228087832778757946",
+        "sha256": "01e355991e4223d7269cd692ee3b098d528eed102d608ac466bde3c0df29d03b",
+        "bytes": 82511,
+        "canonicalFile": "Países/HUNNIC-EMPIRE-Poderes-y-confederaciones-hunas/retratos/portrait-e5c119a65fe740322c65.jpg",
+        "caption": "Retrato imaginario posterior de Atila; no retrato contemporáneo."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review036-attila",
+      "type": "institution",
+      "title": "Agrupaciones hunas, corregencia y disolución",
+      "start": "0400-01-01",
+      "end": "0470-01-01",
+      "text": "Bleda yAttila comparten autoridad aproximadamente434–445. La confederación se fragmenta tras453–454; los ámbitos posteriores no se pintan como un imperio unitario continuo ni como una población homogénea.",
+      "source": "https://lex.dk/Attila",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 434,
+      "end": 453,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://lex.dk/Attila",
+      "sourceLabel": "Confederación huna · organización política",
+      "note": "Agrupación imperial bajoBleda/Attila, sin acreditar control homogéneo ni convertir las comunidades en un único pueblo."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Huns"
+        ],
+        "start": 400,
+        "end": 433,
+        "label": "Agrupaciones hunas · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Huns"
+        ],
+        "start": 434,
+        "end": 453,
+        "label": "Confederación huna de Atila y Bleda",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Huns"
+        ],
+        "start": 454,
+        "end": 499,
+        "label": "Agrupaciones hunas · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Hunnic Empire"
+        ],
+        "start": 400,
+        "end": 433,
+        "label": "Agrupaciones hunas · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Hunnic Empire"
+        ],
+        "start": 434,
+        "end": 453,
+        "label": "Confederación huna de Atila y Bleda",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Hunnic Empire"
+        ],
+        "start": 454,
+        "end": 499,
+        "label": "Agrupaciones hunas · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "fbca29eeb1693124f2053fe919b43a8e85e52409e3b08c324d8ac16d8393bf95",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1602,
+        1640,
+        1667,
+        1703,
+        1708,
+        1754,
+        1762,
+        1779,
+        1805,
+        1812,
+        1845,
+        1862
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Attila",
+        "title": "Attila",
+        "person": "Q36724",
+        "name": "Atila",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Attila",
+        "identityResolution": {
+          "requested": "Attila",
+          "canonical": "Attila",
+          "qid": "Q36724"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28054704",
+          "start": "0435-01-01",
+          "end": "0453-01-01",
+          "precision": 9,
+          "statement": "Q36724$88931581-4005-14e8-3fd8-43fd89064b65",
+          "label": "rey de los Hunos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q36724",
+        "title": "Attila",
+        "source": "https://en.wikipedia.org/wiki/Attila",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King and chieftain of the Hunnic Empire",
+            "raw": "434{{endash}}453",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of the Huns",
+            "raw": "435–453",
+            "parsed": {
+              "start": "0435-01-01",
+              "end": "0453-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Bleda",
+        "title": "Bleda",
+        "person": "Q313490",
+        "name": "Bleda",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bleda",
+        "identityResolution": {
+          "requested": "Bleda",
+          "canonical": "Bleda",
+          "qid": "Q313490"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28054704",
+          "start": "0435-01-01",
+          "end": "0444-01-01",
+          "precision": 9,
+          "statement": "Q313490$eac06363-4071-a4aa-3f01-85bba9afe7fc",
+          "label": "rey de los Hunos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q313490",
+        "title": "Bleda",
+        "source": "https://en.wikipedia.org/wiki/Bleda",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chieftain of the Huns",
+            "raw": "434–445",
+            "parsed": {
+              "start": "0434-01-01",
+              "end": "0445-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Charaton",
+        "title": "Charaton",
+        "person": "Q250444",
+        "name": "Charaton",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Charaton",
+        "identityResolution": {
+          "requested": "Charaton",
+          "canonical": "Charaton",
+          "qid": "Q250444"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28054704",
+          "start": "0412-01-01",
+          "end": "0422-01-01",
+          "precision": 9,
+          "statement": "Q250444$9c24e885-417c-84a7-11e0-74fedc36c4b5",
+          "label": "rey de los Hunos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q250444",
+        "title": "Charaton",
+        "source": "https://en.wikipedia.org/wiki/Charaton",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Huns",
+            "raw": "412–{{circa|420}}",
+            "parsed": {
+              "start": "0412-01-01",
+              "end": "0420-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dengizich",
+        "title": "Dengizich",
+        "person": "Q530617",
+        "name": "Dengizich",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dengizich",
+        "identityResolution": {
+          "requested": "Dengizich",
+          "canonical": "Dengizich",
+          "qid": "Q530617"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28054704",
+          "start": "0457-01-01",
+          "end": "0469-01-01",
+          "precision": 9,
+          "statement": "Q530617$713829f1-49a4-b0c5-5245-3361a35ad3d2",
+          "label": "rey de los Hunos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q530617",
+        "title": "Dengizich",
+        "source": "https://en.wikipedia.org/wiki/Dengizich",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Huns (co-rulership)",
+            "raw": "454–469",
+            "parsed": {
+              "start": "0454-01-01",
+              "end": "0469-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ellac",
+        "title": "Ellac",
+        "person": "Q518067",
+        "name": "Elac",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ellac",
+        "identityResolution": {
+          "requested": "Ellac",
+          "canonical": "Ellac",
+          "qid": "Q518067"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28054704",
+          "start": "0453-01-01",
+          "end": "0454-01-01",
+          "precision": 9,
+          "statement": "Q518067$2a23b3f9-4175-fa86-8b92-7a6f119fb9d7",
+          "label": "rey de los Hunos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q518067",
+        "title": "Ellac",
+        "source": "https://en.wikipedia.org/wiki/Ellac",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Huns (co-rulership)",
+            "raw": "453–454",
+            "parsed": {
+              "start": "0453-01-01",
+              "end": "0454-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Ruler of Pontic Scythia",
+            "raw": "448–454",
+            "parsed": {
+              "start": "0448-01-01",
+              "end": "0454-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "King of the Akatziri",
+            "raw": "448–454",
+            "parsed": {
+              "start": "0448-01-01",
+              "end": "0454-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Huns",
+            "raw": "453&ndash;454",
+            "parsed": {
+              "start": "0453-01-01",
+              "end": "0454-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Pontic Scythia",
+            "raw": "448&ndash;454",
+            "parsed": {
+              "start": "0448-01-01",
+              "end": "0454-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Akatziri",
+            "raw": "448&ndash;454",
+            "parsed": {
+              "start": "0448-01-01",
+              "end": "0454-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ernak",
+        "title": "Ernak",
+        "person": "Q554423",
+        "name": "Ernakh",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ernak",
+        "identityResolution": {
+          "requested": "Ernak",
+          "canonical": "Ernak",
+          "qid": "Q554423"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28054704",
+          "start": "0454-01-01",
+          "end": "0469-01-01",
+          "precision": 9,
+          "statement": "Q554423$008e11c0-4580-a856-7b10-6443bc65a64f",
+          "label": "rey de los Hunos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q554423",
+        "title": "Ernak",
+        "source": "https://en.wikipedia.org/wiki/Ernak",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Octar",
+        "title": "Octar",
+        "person": "Q1085718",
+        "name": "Octar",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Octar",
+        "identityResolution": {
+          "requested": "Octar",
+          "canonical": "Octar",
+          "qid": "Q1085718"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28054704",
+          "start": "0422-01-01",
+          "end": "0430-01-01",
+          "precision": 9,
+          "statement": "Q1085718$a16f4206-4850-7df3-2620-2d5746605f40",
+          "label": "rey de los Hunos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1085718",
+        "title": "Octar",
+        "source": "https://en.wikipedia.org/wiki/Octar",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chieftain of the Huns (co-rulership)",
+            "raw": "420–430",
+            "parsed": {
+              "start": "0420-01-01",
+              "end": "0430-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rugila",
+        "title": "Rugila",
+        "person": "Q334273",
+        "name": "Rua",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rugila",
+        "identityResolution": {
+          "requested": "Rugila",
+          "canonical": "Rugila",
+          "qid": "Q334273"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28054704",
+          "start": "0422-01-01",
+          "end": "0434-01-01",
+          "precision": 9,
+          "statement": "Q334273$cb2966b8-4c65-09b8-1f59-6aceb264cc45",
+          "label": "rey de los Hunos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q334273",
+        "title": "Rugila",
+        "source": "https://en.wikipedia.org/wiki/Rugila",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Huns",
+            "raw": "430–{{circa|435}}",
+            "parsed": {
+              "start": "0430-01-01",
+              "end": "0435-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Uldin",
+        "title": "Uldin",
+        "person": "Q353054",
+        "name": "Uldin",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Uldin",
+        "identityResolution": {
+          "requested": "Uldin",
+          "canonical": "Uldin",
+          "qid": "Q353054"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0390-01-01",
+          "end": "0410-01-01",
+          "precision": 9,
+          "statement": "Q353054$2e71acd1-4945-35a1-20e9-7d7e8639cc7b",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q353054",
+        "title": "Uldin",
+        "source": "https://en.wikipedia.org/wiki/Uldin",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 7,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q250444",
+        "title": "Charaton",
+        "source": "https://en.wikipedia.org/wiki/Charaton",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Huns",
+          "raw": "412–{{circa|420}}",
+          "parsed": {
+            "start": "0412-01-01",
+            "end": "0420-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1085718",
+        "title": "Octar",
+        "source": "https://en.wikipedia.org/wiki/Octar",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chieftain of the Huns (co-rulership)",
+          "raw": "420–430",
+          "parsed": {
+            "start": "0420-01-01",
+            "end": "0430-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q334273",
+        "title": "Rugila",
+        "source": "https://en.wikipedia.org/wiki/Rugila",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Huns",
+          "raw": "430–{{circa|435}}",
+          "parsed": {
+            "start": "0430-01-01",
+            "end": "0435-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q36724",
+        "title": "Attila",
+        "source": "https://en.wikipedia.org/wiki/Attila",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Ruler of the Huns",
+          "raw": "435–453",
+          "parsed": {
+            "start": "0435-01-01",
+            "end": "0453-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q518067",
+        "title": "Ellac",
+        "source": "https://en.wikipedia.org/wiki/Ellac",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Huns (co-rulership)",
+          "raw": "453–454",
+          "parsed": {
+            "start": "0453-01-01",
+            "end": "0454-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q518067",
+        "title": "Ellac",
+        "source": "https://en.wikipedia.org/wiki/Ellac",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "Ruler of Pontic Scythia",
+          "raw": "448–454",
+          "parsed": {
+            "start": "0448-01-01",
+            "end": "0454-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q530617",
+        "title": "Dengizich",
+        "source": "https://en.wikipedia.org/wiki/Dengizich",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Huns (co-rulership)",
+          "raw": "454–469",
+          "parsed": {
+            "start": "0454-01-01",
+            "end": "0469-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Uldin",
+        "person": "Q353054",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Bleda",
+        "person": "Q313490",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Ernak",
+        "person": "Q554423",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q313490",
+      "name": "Bleda",
+      "role": "Cogobernante de la confederación huna",
+      "start": "0434-01-01",
+      "end": "0445-12-31",
+      "precision": 9,
+      "source": "https://lex.dk/Attila",
+      "note": "Corregencia conAttila desde aproximadamente434 hasta445; no un imperio adicional independiente."
+    },
+    {
+      "person": "Q36724",
+      "name": "Atila",
+      "role": "Gobernante de la confederación huna",
+      "start": "0434-01-01",
+      "end": "0453-12-31",
+      "precision": 9,
+      "source": "https://lex.dk/Attila",
+      "note": "Cronología aproximada434–453; comparte autoridad conBleda hasta445. Se retiene la variante435 del inventario original."
+    }
+  ],
+  "authorityReview": [
+    {
+      "person": "Q36724",
+      "originalRecords": [
+        {
+          "person": "Q36724",
+          "name": "Atila",
+          "role": "Gobernante de agrupaciones hunas",
+          "start": "0435-01-01",
+          "end": "0453-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Attila",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Cronología aproximada434–453; comparte autoridad conBleda hasta445. Se retiene la variante435 del inventario original.",
+      "source": "https://lex.dk/Attila"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review036-attila",
+      "type": "institution",
+      "title": "Agrupaciones hunas, corregencia y disolución",
+      "start": "0400-01-01",
+      "end": "0470-01-01",
+      "text": "Bleda yAttila comparten autoridad aproximadamente434–445. La confederación se fragmenta tras453–454; los ámbitos posteriores no se pintan como un imperio unitario continuo ni como una población homogénea.",
+      "source": "https://lex.dk/Attila",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q313490",
+      "name": "Bleda",
+      "title": "Buda Litho 2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Buda_Litho_2.jpg",
+      "sha256": "d47ca61b9c666ee1d1c34a72130ba1b77ec629b557d7033a1b5c055c410685f7",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Bleda; no retrato contemporáneo."
+    },
+    {
+      "person": "Q36724",
+      "name": "Atila",
+      "title": "Attila Hunnorum Rex Flagellum Dei Aquilejae Eversor Utini Instaurator.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Attila_Hunnorum_Rex_Flagellum_Dei_Aquilejae_Eversor_Utini_Instaurator.jpg",
+      "sha256": "01e355991e4223d7269cd692ee3b098d528eed102d608ac466bde3c0df29d03b",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Atila; no retrato contemporáneo."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "key": "EASTERN-JIN",
+  "name": "Jin oriental",
+  "qid": "",
+  "aliases": [
+    "Jin oriental"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "EASTERN-JIN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q7403",
+      "name": "Emperador An",
+      "role": "Emperador de Jin oriental",
+      "start": "0400-01-01",
+      "end": "0419-01-28",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_An_of_Jin",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-400-0.36",
+      "portrait": {
+        "file": "media/portrait-1bbe0d269180abfcb54e.jpg",
+        "title": "Harvard drs 49802792 繡像三國演義續編 v.1 (晉安帝).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_(%E6%99%89%E5%AE%89%E5%B8%9D).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_%28%E6%99%89%E5%AE%89%E5%B8%9D%29.jpg/330px-Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_%28%E6%99%89%E5%AE%89%E5%B8%9D%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "see below",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_(%E6%99%89%E5%AE%89%E5%B8%9D).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://iiif.lib.harvard.edu/manifests/view/drs:49802792",
+        "sha256": "51fa99f77222862823447e3e952fc3664c2393e253c7891e23bb4c915bd0485c",
+        "bytes": 51690,
+        "canonicalFile": "Países/EASTERN-JIN-Jin-oriental/retratos/portrait-1bbe0d269180abfcb54e.jpg",
+        "caption": "Retrato imaginario posterior de Emperador An; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q7404",
+      "name": "Emperador Gong",
+      "role": "Emperador de Jin oriental",
+      "start": "0419-01-28",
+      "end": "0420-07-07",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Gong_of_Jin",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

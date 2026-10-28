@@ -1,0 +1,317 @@
+{
+  "key": "HIST-Q139377",
+  "identity": {
+    "qid": "Q139377",
+    "name": "Kingdom of Axum"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Aksum · cronología discutida",
+      "officePattern": "King.*Aksum|King.*Axum",
+      "titles": [
+        "Eon of Axum",
+        "Ebana",
+        "Nezool",
+        "Ousas",
+        "Eon of Axum"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review036-aksum-coins",
+      "type": "institution",
+      "title": "Monedas y cronología regia de Aksum",
+      "start": "0400-01-01",
+      "end": "0500-01-01",
+      "text": "Eon,Ebana,Nezool yOusas tienen atribuciones ydataciones amplias. Los rótulos de principios,mediados ofinales del siglo no se convierten en reinados exactos ni en fechas de vida. La falta de mandato fechado no prueba falta de realeza.",
+      "source": "https://en.wikipedia.org/wiki/List_of_kings_of_Aksum",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Axum"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Kingdom of Axum",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "e213b404fa3cdfab6597a073845f75baaa0dbb67259879d846781154b1929494",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1489
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ebana",
+        "title": "Ebana",
+        "person": "Q888332",
+        "name": "Ebana",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ebana",
+        "identityResolution": {
+          "requested": "Ebana",
+          "canonical": "Ebana",
+          "qid": "Q888332"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18687305",
+          "start": "0439-01-01",
+          "end": "0450-01-01",
+          "precision": 9,
+          "statement": "Q888332$40138523-6166-4EAB-BA5A-FFBC0FF1AB05",
+          "label": "Rey de Axum"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q888332",
+        "title": "Ebana",
+        "source": "https://en.wikipedia.org/wiki/Ebana",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Aksum",
+            "raw": "Mid 5th Century-Late 5th Century",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Eon of Axum",
+        "title": "Eon of Axum",
+        "person": "Q328509",
+        "name": "Eon of Axum",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Eon_of_Axum",
+        "identityResolution": {
+          "requested": "Eon of Axum",
+          "canonical": "Eon of Axum",
+          "qid": "Q328509"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q328509",
+        "title": "Eon of Axum",
+        "source": "https://en.wikipedia.org/wiki/Eon_of_Axum",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Aksum",
+            "raw": "{{Circa}}400-Mid 5th Century",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nezool",
+        "title": "Nezool",
+        "person": "Q743028",
+        "name": "Nezool",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Nezool",
+        "identityResolution": {
+          "requested": "Nezool",
+          "canonical": "Nezool",
+          "qid": "Q743028"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18687305",
+          "start": "0450-01-01",
+          "end": "0486-01-01",
+          "precision": 9,
+          "statement": "Q743028$818B3ED9-8FC9-4BEE-9D42-3FB72DCDBE99",
+          "label": "Rey de Axum"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q743028",
+        "title": "Nezool",
+        "source": "https://en.wikipedia.org/wiki/Nezool",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Aksum",
+            "raw": "Late 5th Century-{{Circa}}500 AD",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ousas",
+        "title": "Ousas",
+        "person": "Q881470",
+        "name": "Ousas",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ousas",
+        "identityResolution": {
+          "requested": "Ousas",
+          "canonical": "Ousas",
+          "qid": "Q881470"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18687305",
+          "start": "0486-01-01",
+          "end": "0493-01-01",
+          "precision": 9,
+          "statement": "Q881470$5CA9070D-1A38-4B07-854A-F61D7372C463",
+          "label": "Rey de Axum"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q881470",
+        "title": "Ousas",
+        "source": "https://en.wikipedia.org/wiki/Ousas",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Aksum",
+            "raw": "{{Circa}}500-514",
+            "parsed": {
+              "start": "0500-01-01",
+              "end": "0514-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Eon of Axum",
+        "person": "Q328509",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Ebana",
+        "person": "Q888332",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Nezool",
+        "person": "Q743028",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Eon of Axum",
+        "person": "Q328509",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat036-28",
+      "name": "Aksum",
+      "coordinates": [
+        38.72,
+        14.13
+      ],
+      "start": 400,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Axum",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Kingdom of Axum"
+    },
+    {
+      "id": "seat036-28-own",
+      "name": "Aksum",
+      "coordinates": [
+        38.72,
+        14.13
+      ],
+      "start": 400,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Axum",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Kingdom of Axum"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review036-aksum-coins",
+      "type": "institution",
+      "title": "Monedas y cronología regia de Aksum",
+      "start": "0400-01-01",
+      "end": "0500-01-01",
+      "text": "Eon,Ebana,Nezool yOusas tienen atribuciones ydataciones amplias. Los rótulos de principios,mediados ofinales del siglo no se convierten en reinados exactos ni en fechas de vida. La falta de mandato fechado no prueba falta de realeza.",
+      "source": "https://en.wikipedia.org/wiki/List_of_kings_of_Aksum",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "key": "CULTURE-MONTE-ALBAN-Y0400",
+  "contextKey": "CULTURE-MONTE-ALBAN",
+  "ownerKey": "CULTURE-MONTE-ALBAN",
+  "name": "Monte Albán y comunidades zapotecas",
+  "originalNames": [
+    "Monte Albán"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 400",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    400,
+    499
+  ],
+  "interpretation": "Centro y redes del valle de Oaxaca; el polígono general de la fuente no es una frontera estatal anual ni equivale a todas las comunidades zapotecas.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea400 contiene etiquetas de épocas distintas. La ventana400–499 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -97.32148,
+    17.1385
+  ],
+  "phases": [
+    {
+      "start": 400,
+      "end": 499,
+      "label": "Monte Albán y comunidades zapotecas",
+      "dateBasis": "Referencia regional de la fuente editorial400; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-MONTE-ALBAN-Y0400.geojson",
+  "geometrySha256": "96db2af9bcb7e3929194911b824a54e41a6d7f3aab6f70cc66f2971e5a280b87",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson",
+    "year": 400,
+    "featureIds": [
+      189
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7"
+  },
+  "review": "0.36.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final499 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en500."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Monte Albán",
+      "ABBREVN": "Monte Albán",
+      "SUBJECTO": "Monte Albán",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Monte Albán"
+    }
+  ],
+  "sourceGrouping": [
+    "Monte Albán"
+  ]
+}

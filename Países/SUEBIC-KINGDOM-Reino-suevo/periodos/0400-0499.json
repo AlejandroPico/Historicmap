@@ -1,0 +1,902 @@
+{
+  "key": "SUEBIC-KINGDOM",
+  "identity": {
+    "qid": "Q1048918",
+    "name": "Reino suevo"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de los suevos",
+      "officePattern": "King.*(?:Sueb|Suev|Galicia)",
+      "titles": [
+        "Hermeric",
+        "Rechila",
+        "Rechiar",
+        "Maldras",
+        "Framta",
+        "Frumar",
+        "Richimund",
+        "Remismund"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q364161",
+      "name": "Requila",
+      "role": "Rey de los suevos",
+      "start": "0438-01-01",
+      "end": "0448-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rechila",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q364260",
+      "name": "Requiario",
+      "role": "Rey de los suevos",
+      "start": "0448-01-01",
+      "end": "0456-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rechiar",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-a551dbe25a9e5fa84bac.jpg",
+        "title": "Statue of Rechiar, Suebic King of Galicia (sculpted 1750–1753), Royal Palace of Madrid, Spain - 20080109-ret.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Statue_of_Rechiar,_Suebic_King_of_Galicia_(sculpted_1750%E2%80%931753),_Royal_Palace_of_Madrid,_Spain_-_20080109-ret.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Statue_of_Rechiar%2C_Suebic_King_of_Galicia_%28sculpted_1750%E2%80%931753%29%2C_Royal_Palace_of_Madrid%2C_Spain_-_20080109-ret.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Basilio",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "420d08299a0b300d8715ac44e044146783cea0a08d1c33a9e6a9080438156ed7",
+        "bytes": 120681,
+        "canonicalFile": "Países/SUEBIC-KINGDOM-Reino-suevo/retratos/portrait-a551dbe25a9e5fa84bac.jpg",
+        "caption": "Representación conmemorativa moderna de Requiario."
+      }
+    },
+    {
+      "person": "Q2292792",
+      "name": "Maldras",
+      "role": "Rey de los suevos",
+      "start": "0457-01-01",
+      "end": "0460-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Maldras",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q2089874",
+      "name": "Frantán",
+      "role": "Rey de los suevos",
+      "start": "0457-01-01",
+      "end": "0457-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Framta",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q2466231",
+      "name": "Requimundo",
+      "role": "Rey suevo · poder regional rival",
+      "start": "0457-01-01",
+      "end": "0464-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Richimund",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q887957",
+      "name": "Remismundo",
+      "role": "Rey de los suevos",
+      "start": "0464-01-01",
+      "end": "0469-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Remismund",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q364200",
+      "name": "Hermerico",
+      "role": "Rey suevo · atestiguado desde409",
+      "start": "0409-01-01",
+      "end": "0438-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hermeric",
+      "note": "Ya ostenta realeza en torno a409; el comienzo de esta ventana no fecha su coronación. El campo ofrece variantes anteriores a409/419.",
+      "portrait": {
+        "file": "media/portrait-7e961a8b88b6f52700cb.jpg",
+        "title": "O rei suevo Hermerico no Corpus Pelagianum (BNE Mss 1513).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:O_rei_suevo_Hermerico_no_Corpus_Pelagianum_(BNE_Mss_1513).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/O_rei_suevo_Hermerico_no_Corpus_Pelagianum_%28BNE_Mss_1513%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:O_rei_suevo_Hermerico_no_Corpus_Pelagianum_(BNE_Mss_1513).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://bdh.bne.es/bnesearch/detalle/bdh0000005990 (http://bdh-rd.bne.es/viewer.vm?id=0000005990&page=58)",
+        "sha256": "8a200ac57ca4e4d965911975b80da8e7af85d02db7621aff9592aa65403da954",
+        "bytes": 322324,
+        "canonicalFile": "Países/SUEBIC-KINGDOM-Reino-suevo/retratos/portrait-7e961a8b88b6f52700cb.jpg",
+        "caption": "Retrato imaginario posterior de Hermerico; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q2291939",
+      "name": "Frumario",
+      "role": "Rey suevo · poder regional rival",
+      "start": "0460-01-01",
+      "end": "0464-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Frumar",
+      "note": "Fragmentación y autoridades rivales trasMaldras; no soberanía pacífica yexclusiva de todo el ámbito suevo."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rechila",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of the Suebi"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Reino suevo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "02d51d12c04e13fefc6f6e31fb3cc936d82984dcbd54ae6571a4ff322d3a0921",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1681,
+        1695,
+        1722,
+        1740,
+        1749,
+        1819,
+        1879
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Framta",
+        "title": "Framta",
+        "person": "Q2089874",
+        "name": "Frantán",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Framta",
+        "identityResolution": {
+          "requested": "Framta",
+          "canonical": "Framta",
+          "qid": "Q2089874"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0456-01-01",
+          "end": "0457-01-01",
+          "precision": 9,
+          "statement": "Q2089874$49e3eb7c-42b9-5f63-1a89-f71cdd545613",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2089874",
+        "title": "Framta",
+        "source": "https://en.wikipedia.org/wiki/Framta",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "457",
+            "parsed": {
+              "start": "0457-01-01",
+              "end": "0457-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Suevi",
+            "raw": "457",
+            "parsed": {
+              "start": "0457-01-01",
+              "end": "0457-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Frumar",
+        "title": "Frumar",
+        "person": "Q2291939",
+        "name": "Frumario",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Frumar",
+        "identityResolution": {
+          "requested": "Frumar",
+          "canonical": "Frumar",
+          "qid": "Q2291939"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0459-01-01",
+          "end": "0463-01-01",
+          "precision": 9,
+          "statement": "Q2291939$C5986B62-1271-4618-9C19-D994AC45E303",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2291939",
+        "title": "Frumar",
+        "source": "https://en.wikipedia.org/wiki/Frumar",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "460&ndash;464",
+            "parsed": {
+              "start": "0460-01-01",
+              "end": "0464-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Suevic leader",
+            "raw": "460–464",
+            "parsed": {
+              "start": "0460-01-01",
+              "end": "0464-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hermeric",
+        "title": "Hermeric",
+        "person": "Q364200",
+        "name": "Hermerico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hermeric",
+        "identityResolution": {
+          "requested": "Hermeric",
+          "canonical": "Hermeric",
+          "qid": "Q364200"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0409-01-01",
+          "end": "0438-01-01",
+          "precision": 9,
+          "statement": "Q364200$10dd83f5-4dd6-090f-f374-41510e0be5aa",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q364200",
+        "title": "Hermeric",
+        "source": "https://en.wikipedia.org/wiki/Hermeric",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "bef. 419&ndash;438",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "bef. 409&ndash;438",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Maldras",
+        "title": "Maldras",
+        "person": "Q2292792",
+        "name": "Maldras",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Maldras",
+        "identityResolution": {
+          "requested": "Maldras",
+          "canonical": "Maldras",
+          "qid": "Q2292792"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0456-01-01",
+          "end": "0459-01-01",
+          "precision": 9,
+          "statement": "Q2292792$7FF0910E-2E23-4058-9511-B5BECA79BC7C",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2292792",
+        "title": "Maldras",
+        "source": "https://en.wikipedia.org/wiki/Maldras",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "456&ndash;460",
+            "parsed": {
+              "start": "0456-01-01",
+              "end": "0460-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "457&ndash;460",
+            "parsed": {
+              "start": "0457-01-01",
+              "end": "0460-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rechiar",
+        "title": "Rechiar",
+        "person": "Q364260",
+        "name": "Requiario",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rechiar",
+        "identityResolution": {
+          "requested": "Rechiar",
+          "canonical": "Rechiar",
+          "qid": "Q364260"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0448-01-01",
+          "end": "0456-01-01",
+          "precision": 9,
+          "statement": "Q364260$d5d9d384-4d78-4de4-1893-0282ba3e828a",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q364260",
+        "title": "Rechiar",
+        "source": "https://en.wikipedia.org/wiki/Rechiar",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "448–456",
+            "parsed": {
+              "start": "0448-01-01",
+              "end": "0456-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "448&ndash;456",
+            "parsed": {
+              "start": "0448-01-01",
+              "end": "0456-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rechila",
+        "title": "Rechila",
+        "person": "Q364161",
+        "name": "Requila",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rechila",
+        "identityResolution": {
+          "requested": "Rechila",
+          "canonical": "Rechila",
+          "qid": "Q364161"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0438-01-01",
+          "end": "0448-01-01",
+          "precision": 9,
+          "statement": "Q364161$a6633a06-465c-923a-d5eb-6a9e4862a724",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q364161",
+        "title": "Rechila",
+        "source": "https://en.wikipedia.org/wiki/Rechila",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "438&ndash;448",
+            "parsed": {
+              "start": "0438-01-01",
+              "end": "0448-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "438–448",
+            "parsed": {
+              "start": "0438-01-01",
+              "end": "0448-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Remismund",
+        "title": "Remismund",
+        "person": "Q887957",
+        "name": "Remismundo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Remismund",
+        "identityResolution": {
+          "requested": "Remismund",
+          "canonical": "Remismund",
+          "qid": "Q887957"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q887957",
+        "title": "Remismund",
+        "source": "https://en.wikipedia.org/wiki/Remismund",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "464&ndash;469",
+            "parsed": {
+              "start": "0464-01-01",
+              "end": "0469-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "464&ndash;469",
+            "parsed": {
+              "start": "0464-01-01",
+              "end": "0469-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Richimund",
+        "title": "Richimund",
+        "person": "Q2466231",
+        "name": "Requimundo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Richimund",
+        "identityResolution": {
+          "requested": "Richimund",
+          "canonical": "Richimund",
+          "qid": "Q2466231"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65028901",
+          "start": "0459-01-01",
+          "end": "0463-01-01",
+          "precision": 9,
+          "statement": "Q2466231$b79b7dae-4304-66cb-eba0-356faa466901",
+          "label": "rey de los suevos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2466231",
+        "title": "Richimund",
+        "source": "https://en.wikipedia.org/wiki/Richimund",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "457-464",
+            "parsed": {
+              "start": "0457-01-01",
+              "end": "0464-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "",
+            "raw": "",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Galicia",
+            "raw": "457–464",
+            "parsed": {
+              "start": "0457-01-01",
+              "end": "0464-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q364161",
+        "title": "Rechila",
+        "source": "https://en.wikipedia.org/wiki/Rechila",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Galicia",
+          "raw": "438–448",
+          "parsed": {
+            "start": "0438-01-01",
+            "end": "0448-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q364260",
+        "title": "Rechiar",
+        "source": "https://en.wikipedia.org/wiki/Rechiar",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Galicia",
+          "raw": "448&ndash;456",
+          "parsed": {
+            "start": "0448-01-01",
+            "end": "0456-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2292792",
+        "title": "Maldras",
+        "source": "https://en.wikipedia.org/wiki/Maldras",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Galicia",
+          "raw": "457&ndash;460",
+          "parsed": {
+            "start": "0457-01-01",
+            "end": "0460-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2089874",
+        "title": "Framta",
+        "source": "https://en.wikipedia.org/wiki/Framta",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of the Suevi",
+          "raw": "457",
+          "parsed": {
+            "start": "0457-01-01",
+            "end": "0457-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q2466231",
+        "title": "Richimund",
+        "source": "https://en.wikipedia.org/wiki/Richimund",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Galicia",
+          "raw": "457–464",
+          "parsed": {
+            "start": "0457-01-01",
+            "end": "0464-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q887957",
+        "title": "Remismund",
+        "source": "https://en.wikipedia.org/wiki/Remismund",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Galicia",
+          "raw": "464&ndash;469",
+          "parsed": {
+            "start": "0464-01-01",
+            "end": "0469-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Hermeric",
+        "person": "Q364200",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Frumar",
+        "person": "Q2291939",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q364200",
+      "name": "Hermerico",
+      "role": "Rey suevo · atestiguado desde409",
+      "start": "0409-01-01",
+      "end": "0438-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hermeric",
+      "note": "Ya ostenta realeza en torno a409; el comienzo de esta ventana no fecha su coronación. El campo ofrece variantes anteriores a409/419."
+    },
+    {
+      "person": "Q2291939",
+      "name": "Frumario",
+      "role": "Rey suevo · poder regional rival",
+      "start": "0460-01-01",
+      "end": "0464-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Frumar",
+      "note": "Fragmentación y autoridades rivales trasMaldras; no soberanía pacífica yexclusiva de todo el ámbito suevo."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat036-12",
+      "name": "Bracara · centro suevo",
+      "coordinates": [
+        -8.42,
+        41.55
+      ],
+      "start": 409,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Reino_suevo",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Reino suevo"
+    },
+    {
+      "id": "seat036-12-own",
+      "name": "Bracara · centro suevo",
+      "coordinates": [
+        -8.42,
+        41.55
+      ],
+      "start": 409,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Reino_suevo",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Reino suevo"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q364260",
+      "name": "Requiario",
+      "title": "Statue of Rechiar, Suebic King of Galicia (sculpted 1750–1753), Royal Palace of Madrid, Spain - 20080109-ret.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Statue_of_Rechiar,_Suebic_King_of_Galicia_(sculpted_1750%E2%80%931753),_Royal_Palace_of_Madrid,_Spain_-_20080109-ret.jpg",
+      "sha256": "420d08299a0b300d8715ac44e044146783cea0a08d1c33a9e6a9080438156ed7",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación conmemorativa moderna de Requiario."
+    },
+    {
+      "person": "Q2089874",
+      "name": "Frantán",
+      "title": "Galicia-Suevic-Civil War.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Galicia-Suevic-Civil_War.png",
+      "sha256": "0f789f054d68d947bd846916054b132aa8f6006f688fd0d4077d60216f9a2f64",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Mapa de guerra civil, no retrato deFramta."
+    },
+    {
+      "person": "Q364200",
+      "name": "Hermerico",
+      "title": "O rei suevo Hermerico no Corpus Pelagianum (BNE Mss 1513).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:O_rei_suevo_Hermerico_no_Corpus_Pelagianum_(BNE_Mss_1513).jpg",
+      "sha256": "8a200ac57ca4e4d965911975b80da8e7af85d02db7621aff9592aa65403da954",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Hermerico; no retrato contemporáneo."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q2089874",
+      "title": "Galicia-Suevic-Civil War.png",
+      "reason": "Mapa de guerra civil, no retrato deFramta.",
+      "source": "https://commons.wikimedia.org/wiki/File:Galicia-Suevic-Civil_War.png"
+    }
+  ]
+}

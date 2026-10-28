@@ -1,0 +1,211 @@
+{
+  "key": "HIST-Q872644",
+  "identity": {
+    "qid": "Q872644",
+    "name": "Rugiland"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de los rugios",
+      "officePattern": "King.*Rugi|King.*Rug",
+      "titles": [
+        "Flaccitheus",
+        "Feletheus"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1422557",
+      "name": "Flaciteo",
+      "role": "Rey de los rugios",
+      "start": "0467-01-01",
+      "end": "0475-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Flaccitheus",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q255047",
+      "name": "Feleteo",
+      "role": "Rey de los rugios",
+      "start": "0475-01-01",
+      "end": "0487-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Feletheus",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Flaccitheus",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Rugiland"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Rugiland",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "2c0ca49a7c9053f972ae02540677d6bd576d69654218ceee5ce90e6cc42561b5",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1808,
+        1878,
+        1893
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Feletheus",
+        "title": "Feletheus",
+        "person": "Q255047",
+        "name": "Feleteo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Feletheus",
+        "identityResolution": {
+          "requested": "Feletheus",
+          "canonical": "Feletheus",
+          "qid": "Q255047"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q255047",
+        "title": "Feletheus",
+        "source": "https://en.wikipedia.org/wiki/Feletheus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Rugii",
+            "raw": "475–487",
+            "parsed": {
+              "start": "0475-01-01",
+              "end": "0487-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Flaccitheus",
+        "title": "Flaccitheus",
+        "person": "Q1422557",
+        "name": "Flaciteo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Flaccitheus",
+        "identityResolution": {
+          "requested": "Flaccitheus",
+          "canonical": "Flaccitheus",
+          "qid": "Q1422557"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1422557",
+        "title": "Flaccitheus",
+        "source": "https://en.wikipedia.org/wiki/Flaccitheus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Rugii",
+            "raw": "467–475",
+            "parsed": {
+              "start": "0467-01-01",
+              "end": "0475-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1422557",
+        "title": "Flaccitheus",
+        "source": "https://en.wikipedia.org/wiki/Flaccitheus",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Rugii",
+          "raw": "467–475",
+          "parsed": {
+            "start": "0467-01-01",
+            "end": "0475-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q255047",
+        "title": "Feletheus",
+        "source": "https://en.wikipedia.org/wiki/Feletheus",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Rugii",
+          "raw": "475–487",
+          "parsed": {
+            "start": "0475-01-01",
+            "end": "0487-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  }
+}

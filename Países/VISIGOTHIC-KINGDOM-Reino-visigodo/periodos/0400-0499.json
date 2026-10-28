@@ -1,0 +1,1180 @@
+{
+  "key": "VISIGOTHIC-KINGDOM",
+  "identity": {
+    "qid": "Q126936",
+    "name": "Realeza visigoda"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey visigodo",
+      "officePattern": "King.*Visigoth|King.*Hispan",
+      "titles": [
+        "Alaric I",
+        "Ataulf",
+        "Sigeric",
+        "Wallia",
+        "Theodoric I",
+        "Thorismund",
+        "Theodoric II",
+        "Euric",
+        "Alaric II"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q102371",
+      "name": "Alarico I",
+      "role": "Rey visigodo",
+      "start": "0400-01-01",
+      "end": "0410-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Alaric_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-3cc77b95357fab2068e1.jpg",
+        "title": "02-ALARICO.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:02-ALARICO.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/02-ALARICO.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Upload by Basilio",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:02-ALARICO.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Retratos de los reyes de Espana ..., libro digitalizado por Google",
+        "sha256": "da3bb1855c7f2d914f62e030e0497492b77dfc3f73fb1885076bf3b2497deaaf",
+        "bytes": 336279,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-3cc77b95357fab2068e1.jpg",
+        "caption": "Retrato imaginario posterior de Alarico I; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q159716",
+      "name": "Ataúlfo",
+      "role": "Rey visigodo",
+      "start": "0411-01-01",
+      "end": "0415-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Athaulf",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-f9f22e5803188e584b12.jpg",
+        "title": "03-ATAULFO.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:03-ATAULFO.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/03-ATAULFO.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Upload by Basilio",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:03-ATAULFO.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Retratos de los reyes de Espana ..., libro digitalizado por Google",
+        "sha256": "e980fa624ade9ba73d08dce8a55344f59524a96d0e3e5f08b7a8296a91bad688",
+        "bytes": 510875,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-f9f22e5803188e584b12.jpg",
+        "caption": "Retrato imaginario posterior de Ataúlfo; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q313552",
+      "name": "Sigerico",
+      "role": "Rey visigodo",
+      "start": "0415-01-01",
+      "end": "0415-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sigeric",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-cebd926d923287ae6371.jpg",
+        "title": "Sigerico, rey de los Visigodos (Museo del Prado).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Sigerico,_rey_de_los_Visigodos_(Museo_del_Prado).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Sigerico%2C_rey_de_los_Visigodos_%28Museo_del_Prado%29.jpg/330px-Sigerico%2C_rey_de_los_Visigodos_%28Museo_del_Prado%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Eduardo García Guerra",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sigerico,_rey_de_los_Visigodos_(Museo_del_Prado).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[3]",
+        "sha256": "2a8787db493d83c6b9d617edfd91caadc42032b16189a6945b1fc74d8f4245cc",
+        "bytes": 55568,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-cebd926d923287ae6371.jpg",
+        "caption": "Retrato imaginario posterior de Sigerico; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q1463732",
+      "name": "Walia",
+      "role": "Rey visigodo",
+      "start": "0415-01-01",
+      "end": "0418-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wallia",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-4ed0736ba34315ac75bc.jpg",
+        "title": "Walia, rey de los Visigodos (Museo del Prado).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Walia,_rey_de_los_Visigodos_(Museo_del_Prado).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Walia%2C_rey_de_los_Visigodos_%28Museo_del_Prado%29.jpg/330px-Walia%2C_rey_de_los_Visigodos_%28Museo_del_Prado%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Alejo Vera",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walia,_rey_de_los_Visigodos_(Museo_del_Prado).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[2]",
+        "sha256": "93fd57c689ed9d48ddf9e736fb62a42a9d7ceb41a2d757943f5f36c78112005a",
+        "bytes": 44516,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-4ed0736ba34315ac75bc.jpg",
+        "caption": "Retrato imaginario posterior de Walia; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q110892",
+      "name": "Teodorico I",
+      "role": "Rey visigodo",
+      "start": "0418-01-01",
+      "end": "0451-06-01",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theodoric_I",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-55a677f777823446b9ad.jpg",
+        "title": "Félix Castello, \"Teodorico, rey godo\", 1635.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Castello,_%22Teodorico,_rey_godo%22,_1635.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/F%C3%A9lix_Castello%2C_%22Teodorico%2C_rey_godo%22%2C_1635.jpg/330px-F%C3%A9lix_Castello%2C_%22Teodorico%2C_rey_godo%22%2C_1635.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Felix Castello",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Castello,_%22Teodorico,_rey_godo%22,_1635.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[2]",
+        "sha256": "e32fdf4a16a10d40205775a2a52444e0484ecc3264f296e2cfa75cd5c97c5510",
+        "bytes": 59943,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-55a677f777823446b9ad.jpg",
+        "caption": "Retrato imaginario posterior de Teodorico I; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q313079",
+      "name": "Turismundo",
+      "role": "Rey visigodo",
+      "start": "0451-06-20",
+      "end": "0453-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Thorismund",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-d7bf56367a9647f2ac74.jpg",
+        "title": "07-TURISMUNDO.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:07-TURISMUNDO.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/07-TURISMUNDO.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Upload by Basilio",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:07-TURISMUNDO.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Retratos de los reyes de Espana ..., libro digitalizado por Google",
+        "sha256": "0b04d7a1fc41d0fc6f474521b0e334d700f14896b3c065684be0740f07a47b2f",
+        "bytes": 479774,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-d7bf56367a9647f2ac74.jpg",
+        "caption": "Retrato imaginario posterior de Turismundo; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q195443",
+      "name": "Teodorico II",
+      "role": "Rey visigodo",
+      "start": "0453-01-01",
+      "end": "0466-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theodoric_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-0507d8236a389f624e40.jpg",
+        "title": "08-TEODORICO.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:08-TEODORICO.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/08-TEODORICO.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Basilio",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:08-TEODORICO.JPG#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Retratos de los reyes de Espana ..., libro digitalizado por Google",
+        "sha256": "1cda24639d10396a55ec20622476ac5733d3021c4d494058053e38ebb64cb9e0",
+        "bytes": 374113,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-0507d8236a389f624e40.jpg",
+        "caption": "Retrato imaginario posterior de Teodorico II; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q217620",
+      "name": "Eurico",
+      "role": "Rey visigodo",
+      "start": "0466-01-01",
+      "end": "0484-12-28",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Euric",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-c45730827ccdc27bc7a6.jpg",
+        "title": "Eurico, rey de los Visigodos (Museo del Prado).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Eurico,_rey_de_los_Visigodos_(Museo_del_Prado).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Eurico%2C_rey_de_los_Visigodos_%28Museo_del_Prado%29.jpg/330px-Eurico%2C_rey_de_los_Visigodos_%28Museo_del_Prado%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Manuel Rodríguez de Guzmán",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Eurico,_rey_de_los_Visigodos_(Museo_del_Prado).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://content2.museodelprado.es/imagenes/Documentos/imgsem/ef/ef08/ef08c7af-a2bf-49ae-ace8-19954eb824a8/188c0fc1-614a-4469-b6b1-4d7f6cd620a3.jpg",
+        "sha256": "1005ba5bfc43b811670bd7eee8a43a85572d1211d9af32cac6fd68cccb4afc52",
+        "bytes": 49012,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-c45730827ccdc27bc7a6.jpg",
+        "caption": "Retrato imaginario posterior de Eurico; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q110884",
+      "name": "Alarico II",
+      "role": "Rey visigodo",
+      "start": "0484-12-28",
+      "end": "0499-12-31",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Alaric_II",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-3b59f8ceb679db58a45b.jpg",
+        "title": "Alarico II, rey de los Visigodos (Museo del Prado).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Alarico_II,_rey_de_los_Visigodos_(Museo_del_Prado).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Alarico_II%2C_rey_de_los_Visigodos_%28Museo_del_Prado%29.jpg/330px-Alarico_II%2C_rey_de_los_Visigodos_%28Museo_del_Prado%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Carlos Esquivel y Rivas",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alarico_II,_rey_de_los_Visigodos_(Museo_del_Prado).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "[2]",
+        "sha256": "5e373e77689143b458ff2bd408dc693deeaacc5c32cf5b99a3698a244376cae7",
+        "bytes": 34397,
+        "canonicalFile": "Países/VISIGOTHIC-KINGDOM-Reino-visigodo/retratos/portrait-3b59f8ceb679db58a45b.jpg",
+        "caption": "Retrato imaginario posterior de Alarico II; no retrato contemporáneo."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Alaric_I",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Visigoths"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Realeza visigoda",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Visigothic Kingdom"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Realeza visigoda",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "85163832d38fd3a352104eb0ef67ee21b6d9447922fef853686fe08998baf521",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1613,
+        1625,
+        1647,
+        1659,
+        1688,
+        1692,
+        1710,
+        1817,
+        1824,
+        1827,
+        1836,
+        1849,
+        1867,
+        1885,
+        1917
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Alaric I",
+        "title": "Alaric I",
+        "person": "Q102371",
+        "name": "Alarico I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Alaric_I",
+        "identityResolution": {
+          "requested": "Alaric I",
+          "canonical": "Alaric I",
+          "qid": "Q102371"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q209122",
+          "start": "0409-01-01",
+          "end": "0410-01-01",
+          "precision": 9,
+          "statement": "Q102371$4ad25bd9-4b28-297d-20d6-beb16542596c",
+          "label": "magister militum"
+        },
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0395-01-01",
+          "end": "0410-12-01",
+          "precision": 9,
+          "statement": "Q102371$bd46d3a7-43e6-7ad2-f311-6fb0614ac83a",
+          "label": "rey de los visigodos"
+        },
+        {
+          "property": "P39",
+          "office": "Q829120",
+          "start": "0391-01-01",
+          "end": "0410-01-01",
+          "precision": 9,
+          "statement": "Q102371$0bb29d11-46ca-be38-4e22-3b0b5a273251",
+          "label": "dux"
+        },
+        {
+          "property": "P97",
+          "office": "Q22953238",
+          "start": "0395-01-01",
+          "end": "0410-12-01",
+          "precision": 9,
+          "statement": "Q102371$a0f9d828-43ef-1133-a344-366e02c45839",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q102371",
+        "title": "Alaric I",
+        "source": "https://en.wikipedia.org/wiki/Alaric_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "395–410",
+            "parsed": {
+              "start": "0395-01-01",
+              "end": "0410-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "395–410",
+            "parsed": {
+              "start": "0395-01-01",
+              "end": "0410-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Alaric II",
+        "title": "Alaric II",
+        "person": "Q110884",
+        "name": "Alarico II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Alaric_II",
+        "identityResolution": {
+          "requested": "Alaric II",
+          "canonical": "Alaric II",
+          "qid": "Q110884"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0484-01-01",
+          "end": "0507-08-01",
+          "precision": 9,
+          "statement": "Q110884$c6812739-f1fe-46c3-a01a-b66e259d4b0d",
+          "label": "rey de los visigodos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22953238",
+          "start": "0484-01-01",
+          "end": "0507-08-01",
+          "precision": 9,
+          "statement": "Q110884$afe3cb95-48da-4d00-7929-068ff7c724a8",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q110884",
+        "title": "Alaric II",
+        "source": "https://en.wikipedia.org/wiki/Alaric_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "28 December 484 – {{circa}} August 507",
+            "parsed": {
+              "start": "0484-12-28",
+              "end": "0507-08-01",
+              "precision": 10
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "28 December 484 – August 507",
+            "parsed": {
+              "start": "0484-12-28",
+              "end": "0507-08-01",
+              "precision": 10
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ataulf",
+        "title": "Ataulf",
+        "person": "Q159716",
+        "name": "Ataúlfo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Athaulf",
+        "identityResolution": {
+          "requested": "Ataulf",
+          "canonical": "Athaulf",
+          "qid": "Q159716"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0410-01-01",
+          "end": "0415-09-08",
+          "precision": 9,
+          "statement": "Q159716$eead25c2-4644-f94b-ebf7-eafd1b0571d4",
+          "label": "rey de los visigodos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22953238",
+          "start": "0410-01-01",
+          "end": "0415-09-08",
+          "precision": 9,
+          "statement": "Q159716$0C1D8155-8F05-4049-9401-7E8CC5230482",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q159716",
+        "title": "Athaulf",
+        "source": "https://en.wikipedia.org/wiki/Athaulf",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "411–415",
+            "parsed": {
+              "start": "0411-01-01",
+              "end": "0415-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "411–415",
+            "parsed": {
+              "start": "0411-01-01",
+              "end": "0415-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Euric",
+        "title": "Euric",
+        "person": "Q217620",
+        "name": "Eurico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Euric",
+        "identityResolution": {
+          "requested": "Euric",
+          "canonical": "Euric",
+          "qid": "Q217620"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0466-01-01",
+          "end": "0484-01-01",
+          "precision": 9,
+          "statement": "Q217620$604740E6-37B5-4D25-BDB1-DCB6CB775E81",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q217620",
+        "title": "Euric",
+        "source": "https://en.wikipedia.org/wiki/Euric",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "466 – 28 December 484",
+            "parsed": {
+              "start": "0466-01-01",
+              "end": "0484-12-28",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "466 – 28 December 484",
+            "parsed": {
+              "start": "0466-01-01",
+              "end": "0484-12-28",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sigeric",
+        "title": "Sigeric",
+        "person": "Q313552",
+        "name": "Sigerico",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sigeric",
+        "identityResolution": {
+          "requested": "Sigeric",
+          "canonical": "Sigeric",
+          "qid": "Q313552"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0415-08-01",
+          "end": "0415-09-01",
+          "precision": 10,
+          "statement": "Q313552$15609cca-436f-39fd-1914-a2df4f009ddf",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q313552",
+        "title": "Sigeric",
+        "source": "https://en.wikipedia.org/wiki/Sigeric",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "15–22 August 415",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "415",
+            "parsed": {
+              "start": "0415-01-01",
+              "end": "0415-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theodoric I",
+        "title": "Theodoric I",
+        "person": "Q110892",
+        "name": "Teodorico I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theodoric_I",
+        "identityResolution": {
+          "requested": "Theodoric I",
+          "canonical": "Theodoric I",
+          "qid": "Q110892"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0419-01-01",
+          "end": "0451-01-01",
+          "precision": 9,
+          "statement": "Q110892$b2406bb6-0ea3-43d1-a798-9935da9dd68a",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q110892",
+        "title": "Theodoric I",
+        "source": "https://en.wikipedia.org/wiki/Theodoric_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "418 – June 451 AD",
+            "parsed": {
+              "start": "0418-01-01",
+              "end": "0451-06-01",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "418–451",
+            "parsed": {
+              "start": "0418-01-01",
+              "end": "0451-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theodoric II",
+        "title": "Theodoric II",
+        "person": "Q195443",
+        "name": "Teodorico II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theodoric_II",
+        "identityResolution": {
+          "requested": "Theodoric II",
+          "canonical": "Theodoric II",
+          "qid": "Q195443"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0453-01-01",
+          "end": "0466-01-01",
+          "precision": 9,
+          "statement": "Q195443$2b320972-a03c-4f01-a172-5968c88a80f1",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q195443",
+        "title": "Theodoric II",
+        "source": "https://en.wikipedia.org/wiki/Theodoric_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "453 – early 466",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "453–466",
+            "parsed": {
+              "start": "0453-01-01",
+              "end": "0466-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Thorismund",
+        "title": "Thorismund",
+        "person": "Q313079",
+        "name": "Turismundo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Thorismund",
+        "identityResolution": {
+          "requested": "Thorismund",
+          "canonical": "Thorismund",
+          "qid": "Q313079"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0451-01-01",
+          "end": "0453-01-01",
+          "precision": 9,
+          "statement": "Q313079$1151c25c-df98-473f-aaaf-b2d98d05a6e1",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q313079",
+        "title": "Thorismund",
+        "source": "https://en.wikipedia.org/wiki/Thorismund",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "20 June 451 – 453",
+            "parsed": {
+              "start": "0451-06-20",
+              "end": "0453-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "451–453",
+            "parsed": {
+              "start": "0451-01-01",
+              "end": "0453-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wallia",
+        "title": "Wallia",
+        "person": "Q1463732",
+        "name": "Walia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wallia",
+        "identityResolution": {
+          "requested": "Wallia",
+          "canonical": "Wallia",
+          "qid": "Q1463732"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22953238",
+          "start": "0415-09-01",
+          "end": "0418-01-01",
+          "precision": 9,
+          "statement": "Q1463732$4020df2e-4c90-eca6-1138-f21bc601e5e1",
+          "label": "rey de los visigodos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1463732",
+        "title": "Wallia",
+        "source": "https://en.wikipedia.org/wiki/Wallia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Visigoths",
+            "raw": "415–418",
+            "parsed": {
+              "start": "0415-01-01",
+              "end": "0418-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Visigoths",
+            "raw": "415–418",
+            "parsed": {
+              "start": "0415-01-01",
+              "end": "0418-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 9,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q102371",
+        "title": "Alaric I",
+        "source": "https://en.wikipedia.org/wiki/Alaric_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Visigoths",
+          "raw": "395–410",
+          "parsed": {
+            "start": "0395-01-01",
+            "end": "0410-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q159716",
+        "title": "Ataulf",
+        "source": "https://en.wikipedia.org/wiki/Athaulf",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Visigoths",
+          "raw": "411–415",
+          "parsed": {
+            "start": "0411-01-01",
+            "end": "0415-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q313552",
+        "title": "Sigeric",
+        "source": "https://en.wikipedia.org/wiki/Sigeric",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of the Visigoths",
+          "raw": "415",
+          "parsed": {
+            "start": "0415-01-01",
+            "end": "0415-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1463732",
+        "title": "Wallia",
+        "source": "https://en.wikipedia.org/wiki/Wallia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Visigoths",
+          "raw": "415–418",
+          "parsed": {
+            "start": "0415-01-01",
+            "end": "0418-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q110892",
+        "title": "Theodoric I",
+        "source": "https://en.wikipedia.org/wiki/Theodoric_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Visigoths",
+          "raw": "418 – June 451 AD",
+          "parsed": {
+            "start": "0418-01-01",
+            "end": "0451-06-01",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q313079",
+        "title": "Thorismund",
+        "source": "https://en.wikipedia.org/wiki/Thorismund",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Visigoths",
+          "raw": "20 June 451 – 453",
+          "parsed": {
+            "start": "0451-06-20",
+            "end": "0453-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q195443",
+        "title": "Theodoric II",
+        "source": "https://en.wikipedia.org/wiki/Theodoric_II",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of the Visigoths",
+          "raw": "453–466",
+          "parsed": {
+            "start": "0453-01-01",
+            "end": "0466-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q217620",
+        "title": "Euric",
+        "source": "https://en.wikipedia.org/wiki/Euric",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Visigoths",
+          "raw": "466 – 28 December 484",
+          "parsed": {
+            "start": "0466-01-01",
+            "end": "0484-12-28",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q110884",
+        "title": "Alaric II",
+        "source": "https://en.wikipedia.org/wiki/Alaric_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Visigoths",
+          "raw": "28 December 484 – {{circa}} August 507",
+          "parsed": {
+            "start": "0484-12-28",
+            "end": "0507-08-01",
+            "precision": 10
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat036-10",
+      "name": "Tolosa · corte visigoda",
+      "coordinates": [
+        1.444,
+        43.604
+      ],
+      "start": 418,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Realeza_visigoda",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Realeza visigoda"
+    },
+    {
+      "id": "seat036-10-own",
+      "name": "Tolosa · corte visigoda",
+      "coordinates": [
+        1.444,
+        43.604
+      ],
+      "start": 418,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Realeza_visigoda",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Realeza visigoda"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q102371",
+      "name": "Alarico I",
+      "title": "02-ALARICO.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:02-ALARICO.JPG",
+      "sha256": "da3bb1855c7f2d914f62e030e0497492b77dfc3f73fb1885076bf3b2497deaaf",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Alarico I; no retrato contemporáneo."
+    },
+    {
+      "person": "Q159716",
+      "name": "Ataúlfo",
+      "title": "03-ATAULFO.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:03-ATAULFO.JPG",
+      "sha256": "e980fa624ade9ba73d08dce8a55344f59524a96d0e3e5f08b7a8296a91bad688",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Ataúlfo; no retrato contemporáneo."
+    },
+    {
+      "person": "Q313552",
+      "name": "Sigerico",
+      "title": "Sigerico, rey de los Visigodos (Museo del Prado).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sigerico,_rey_de_los_Visigodos_(Museo_del_Prado).jpg",
+      "sha256": "2a8787db493d83c6b9d617edfd91caadc42032b16189a6945b1fc74d8f4245cc",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Sigerico; no retrato contemporáneo."
+    },
+    {
+      "person": "Q1463732",
+      "name": "Walia",
+      "title": "Walia, rey de los Visigodos (Museo del Prado).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Walia,_rey_de_los_Visigodos_(Museo_del_Prado).jpg",
+      "sha256": "93fd57c689ed9d48ddf9e736fb62a42a9d7ceb41a2d757943f5f36c78112005a",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Walia; no retrato contemporáneo."
+    },
+    {
+      "person": "Q110892",
+      "name": "Teodorico I",
+      "title": "Félix Castello, \"Teodorico, rey godo\", 1635.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Castello,_%22Teodorico,_rey_godo%22,_1635.jpg",
+      "sha256": "e32fdf4a16a10d40205775a2a52444e0484ecc3264f296e2cfa75cd5c97c5510",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Teodorico I; no retrato contemporáneo."
+    },
+    {
+      "person": "Q313079",
+      "name": "Turismundo",
+      "title": "07-TURISMUNDO.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:07-TURISMUNDO.JPG",
+      "sha256": "0b04d7a1fc41d0fc6f474521b0e334d700f14896b3c065684be0740f07a47b2f",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Turismundo; no retrato contemporáneo."
+    },
+    {
+      "person": "Q195443",
+      "name": "Teodorico II",
+      "title": "08-TEODORICO.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:08-TEODORICO.JPG",
+      "sha256": "1cda24639d10396a55ec20622476ac5733d3021c4d494058053e38ebb64cb9e0",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Teodorico II; no retrato contemporáneo."
+    },
+    {
+      "person": "Q217620",
+      "name": "Eurico",
+      "title": "Eurico, rey de los Visigodos (Museo del Prado).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Eurico,_rey_de_los_Visigodos_(Museo_del_Prado).jpg",
+      "sha256": "1005ba5bfc43b811670bd7eee8a43a85572d1211d9af32cac6fd68cccb4afc52",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Eurico; no retrato contemporáneo."
+    },
+    {
+      "person": "Q110884",
+      "name": "Alarico II",
+      "title": "Alarico II, rey de los Visigodos (Museo del Prado).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Alarico_II,_rey_de_los_Visigodos_(Museo_del_Prado).jpg",
+      "sha256": "5e373e77689143b458ff2bd408dc693deeaacc5c32cf5b99a3698a244376cae7",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Alarico II; no retrato contemporáneo."
+    }
+  ]
+}

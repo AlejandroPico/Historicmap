@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-YUEBAN-A0AB49CA",
+  "name": "Yueban",
+  "qid": "",
+  "aliases": [
+    "Yueban"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 153,
+      "start": null,
+      "end": null,
+      "name": "Yueban",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-YUEBAN-A0AB49CA-Y0400:0",
+      "contextKey": "CULTURE-YUEBAN-A0AB49CA",
+      "start": 400,
+      "end": 499,
+      "sourceYear": 400,
+      "canonicalFile": "Países/CULTURE-YUEBAN-A0AB49CA-Yueban/poblamiento/CULTURE-YUEBAN-A0AB49CA-Y0400.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

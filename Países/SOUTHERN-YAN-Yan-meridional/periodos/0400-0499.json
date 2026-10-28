@@ -1,0 +1,299 @@
+{
+  "key": "SOUTHERN-YAN",
+  "identity": {
+    "qid": "Q1329439",
+    "name": "Yan meridional"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Yan meridional",
+      "officePattern": "Emperor|King",
+      "titles": [
+        "Murong De",
+        "Murong Chao"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1069310",
+      "name": "Murong De",
+      "role": "Gobernante de Yan meridional",
+      "start": "0400-01-01",
+      "end": "0405-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_De",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-dc0747cdd73604d994f7.jpg",
+        "title": "Harvard drs 49802792 繡像三國演義續編 v.1 (慕容德).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_(%E6%85%95%E5%AE%B9%E5%BE%B7).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_%28%E6%85%95%E5%AE%B9%E5%BE%B7%29.jpg/330px-Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_%28%E6%85%95%E5%AE%B9%E5%BE%B7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "see below",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_(%E6%85%95%E5%AE%B9%E5%BE%B7).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://iiif.lib.harvard.edu/manifests/view/drs:49802792",
+        "sha256": "27762e1efd53d5e3ee04385a813b399a66c65a42b9b6998b9a58d4f2645507ed",
+        "bytes": 46415,
+        "canonicalFile": "Países/SOUTHERN-YAN-Yan-meridional/retratos/portrait-dc0747cdd73604d994f7.jpg",
+        "caption": "Retrato imaginario posterior de Murong De; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q1131653",
+      "name": "Murong Chao",
+      "role": "Gobernante de Yan meridional",
+      "start": "0405-09-19",
+      "end": "0410-03-25",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Murong_Chao",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 410,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Murong_De",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Southern Yan"
+        ],
+        "start": 400,
+        "end": 410,
+        "label": "Yan meridional",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Southern Yan"
+        ],
+        "start": 411,
+        "end": 499,
+        "label": "Yan meridional · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "a7e0f6fa1101813c8f3f56c3fa01070197971a6540b82c944cb3ef9c0ce37e66",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1627,
+        1648
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Murong Chao",
+        "title": "Murong Chao",
+        "person": "Q1131653",
+        "name": "Murong Chao",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Murong_Chao",
+        "identityResolution": {
+          "requested": "Murong Chao",
+          "canonical": "Murong Chao",
+          "qid": "Q1131653"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0405-01-01",
+          "end": "0410-01-01",
+          "precision": 9,
+          "statement": "Q1131653$e50bb558-2de1-43c0-ab2f-9478925000a0",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1131653",
+        "title": "Murong Chao",
+        "source": "https://en.wikipedia.org/wiki/Murong_Chao",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Southern Yan",
+            "raw": "September 19, 405<ref name=AS>[[Academia Sinica]] [http://db1x.sinica.edu.tw/sinocal/ Chinese-Western Calendar Converter] {{webarchive|url=https://web.archive.org/web/20100522200011/http://db1x.sinica.edu.tw/sinocal/ |date=2010-05-22 }}.</ref><ref name=ZZTJ114>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷114|vol. 114]].</ref> – March 25, 410<ref name=ZZTJ115/><ref name=AS/>",
+            "parsed": {
+              "start": "0405-09-19",
+              "end": "0410-03-25",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Southern Yan",
+            "raw": "405–410",
+            "parsed": {
+              "start": "0405-01-01",
+              "end": "0410-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong De",
+        "title": "Murong De",
+        "person": "Q1069310",
+        "name": "Murong De",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Murong_De",
+        "identityResolution": {
+          "requested": "Murong De",
+          "canonical": "Murong De",
+          "qid": "Q1069310"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0398-01-01",
+          "end": "0405-01-01",
+          "precision": 9,
+          "statement": "Q1069310$C796D2CE-F488-4929-B826-9906500A1D10",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1069310",
+        "title": "Murong De",
+        "source": "https://en.wikipedia.org/wiki/Murong_De",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Southern Yan",
+            "raw": "398 – 17 November 405",
+            "parsed": {
+              "start": "0398-01-01",
+              "end": "0405-11-17",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Southern Yan",
+            "raw": "398–405",
+            "parsed": {
+              "start": "0398-01-01",
+              "end": "0405-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1069310",
+        "title": "Murong De",
+        "source": "https://en.wikipedia.org/wiki/Murong_De",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Emperor of Southern Yan",
+          "raw": "398–405",
+          "parsed": {
+            "start": "0398-01-01",
+            "end": "0405-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1131653",
+        "title": "Murong Chao",
+        "source": "https://en.wikipedia.org/wiki/Murong_Chao",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Southern Yan",
+          "raw": "September 19, 405<ref name=AS>[[Academia Sinica]] [http://db1x.sinica.edu.tw/sinocal/ Chinese-Western Calendar Converter] {{webarchive|url=https://web.archive.org/web/20100522200011/http://db1x.sinica.edu.tw/sinocal/ |date=2010-05-22 }}.</ref><ref name=ZZTJ114>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷114|vol. 114]].</ref> – March 25, 410<ref name=ZZTJ115/><ref name=AS/>",
+          "parsed": {
+            "start": "0405-09-19",
+            "end": "0410-03-25",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "mediaReview": [
+    {
+      "person": "Q1069310",
+      "name": "Murong De",
+      "title": "Harvard drs 49802792 繡像三國演義續編 v.1 (慕容德).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_(%E6%85%95%E5%AE%B9%E5%BE%B7).jpg",
+      "sha256": "27762e1efd53d5e3ee04385a813b399a66c65a42b9b6998b9a58d4f2645507ed",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Murong De; no retrato contemporáneo."
+    }
+  ]
+}

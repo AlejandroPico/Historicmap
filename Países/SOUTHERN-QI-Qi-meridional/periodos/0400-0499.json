@@ -1,0 +1,615 @@
+{
+  "key": "SOUTHERN-QI",
+  "identity": {
+    "qid": "Q62456",
+    "name": "Qi meridional"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador de Qi meridional",
+      "officePattern": "Emperor",
+      "titles": [
+        "Emperor Gao of Southern Qi",
+        "Emperor Wu of Southern Qi",
+        "Xiao Zhaoye",
+        "Xiao Zhaowen",
+        "Emperor Ming of Southern Qi",
+        "Xiao Baojuan"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1194981",
+      "name": "Gao of Southern Qi",
+      "role": "Emperador de Qi meridional",
+      "start": "0479-05-29",
+      "end": "0482-04-11",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Gao_of_Southern_Qi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "portrait": {
+        "file": "media/portrait-6aabe9808f120fd88c42.jpg",
+        "title": "Xiao Daocheng (Qi Gaodi).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Xiao_Daocheng_(Qi_Gaodi).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Xiao_Daocheng_%28Qi_Gaodi%29.jpg/330px-Xiao_Daocheng_%28Qi_Gaodi%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Xiao_Daocheng_(Qi_Gaodi).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "中国历史博物馆保管部, ed.  (2003)  中国历代名人画像谱  1, 福州:  海峡文艺出版社, p. 41  ISBN:  7806407855. ",
+        "sha256": "54d495158d226beaf5cc4fa51aad615a220bc578dc1a2c4e18fc1d994c15a7e8",
+        "bytes": 32322,
+        "canonicalFile": "Países/SOUTHERN-QI-Qi-meridional/retratos/portrait-6aabe9808f120fd88c42.jpg",
+        "caption": "Retrato imaginario posterior de Gao of Southern Qi; no retrato contemporáneo."
+      }
+    },
+    {
+      "person": "Q940037",
+      "name": "Emperador Wu de Qi del Sur",
+      "role": "Emperador de Qi meridional",
+      "start": "0482-04-11",
+      "end": "0493-08-27",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Southern_Qi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1190405",
+      "name": "Xiao Zhaowen",
+      "role": "Emperador de Qi meridional",
+      "start": "0494-09-10",
+      "end": "0494-12-05",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Xiao_Zhaowen",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1149132",
+      "name": "Ming of Southern Qi",
+      "role": "Emperador de Qi meridional",
+      "start": "0494-12-05",
+      "end": "0498-09-01",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Ming_of_Southern_Qi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1336575",
+      "name": "Xiao Baojuan",
+      "role": "Emperador de Qi meridional",
+      "start": "0498-09-01",
+      "end": "0499-12-31",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Xiao_Baojuan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 479,
+      "end": 499,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emperor_Gao_of_Southern_Qi",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Southern Qi"
+        ],
+        "start": 400,
+        "end": 478,
+        "label": "Qi meridional · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Southern Qi"
+        ],
+        "start": 479,
+        "end": 499,
+        "label": "Qi meridional",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "5754438f30bfa86d381106591c0010c855371257290c3e23a16185e158eef62a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1897
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Gao of Southern Qi",
+        "title": "Emperor Gao of Southern Qi",
+        "person": "Q1194981",
+        "name": "Emperor Gao of Southern Qi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Gao_of_Southern_Qi",
+        "identityResolution": {
+          "requested": "Emperor Gao of Southern Qi",
+          "canonical": "Emperor Gao of Southern Qi",
+          "qid": "Q1194981"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0479-05-29",
+          "end": "0482-04-11",
+          "precision": 11,
+          "statement": "Q1194981$D930E2FC-4860-425D-82EF-A0A82564CBFD",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1194981",
+        "title": "Emperor Gao of Southern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Gao_of_Southern_Qi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Southern Qi",
+            "raw": "May 29, 479 – April 11, 482",
+            "parsed": {
+              "start": "0479-05-29",
+              "end": "0482-04-11",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Southern Qi",
+            "raw": "479–482",
+            "parsed": {
+              "start": "0479-01-01",
+              "end": "0482-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Southern)",
+            "raw": "479–482",
+            "parsed": {
+              "start": "0479-01-01",
+              "end": "0482-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Ming of Southern Qi",
+        "title": "Emperor Ming of Southern Qi",
+        "person": "Q1149132",
+        "name": "Emperor Ming of Southern Qi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ming_of_Southern_Qi",
+        "identityResolution": {
+          "requested": "Emperor Ming of Southern Qi",
+          "canonical": "Emperor Ming of Southern Qi",
+          "qid": "Q1149132"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0494-12-22",
+          "end": "0498-09-01",
+          "precision": 11,
+          "statement": "Q1149132$32007576-9C7F-4A60-B458-45F5F765746A",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149132",
+        "title": "Emperor Ming of Southern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ming_of_Southern_Qi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Southern Qi",
+            "raw": "5 December 494<ref>''gui'hai'' day of the 10th month of the 1st year of the ''Jian'wu'' era, per Emperor Ming's biography in ''Nan Qi Shu''</ref> – 1 September 498",
+            "parsed": {
+              "start": "0494-12-05",
+              "end": "0498-09-01",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Wu of Southern Qi",
+        "title": "Emperor Wu of Southern Qi",
+        "person": "Q940037",
+        "name": "Emperador Wu de Qi del Sur",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Southern_Qi",
+        "identityResolution": {
+          "requested": "Emperor Wu of Southern Qi",
+          "canonical": "Emperor Wu of Southern Qi",
+          "qid": "Q940037"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0482-04-11",
+          "end": "0493-08-27",
+          "precision": 11,
+          "statement": "Q940037$8C20BBC6-64A2-46D4-8D04-192651ED745F",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q940037",
+        "title": "Emperor Wu of Southern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Southern_Qi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Southern Qi",
+            "raw": "11 April 482 – 27 Aug 493",
+            "parsed": {
+              "start": "0482-04-11",
+              "end": "0493-08-27",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Xiao Baojuan",
+        "title": "Xiao Baojuan",
+        "person": "Q1336575",
+        "name": "Xiao Baojuan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Xiao_Baojuan",
+        "identityResolution": {
+          "requested": "Xiao Baojuan",
+          "canonical": "Xiao Baojuan",
+          "qid": "Q1336575"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0489-09-01",
+          "end": "0501-12-31",
+          "precision": 11,
+          "statement": "Q1336575$E2915F78-403A-49FB-84C9-1F67264295D1",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1336575",
+        "title": "Xiao Baojuan",
+        "source": "https://en.wikipedia.org/wiki/Xiao_Baojuan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Southern Qi",
+            "raw": "September 498 – 31 December 501<ref>Xiao Baojuan's biography in ''Nan Qi Shu'' indicate that he was emperor until his death on 31 December 501. This contradicts Xiao Baorong's biography in ''Nan Qi Shu'', which indicate that Baorong was made emperor on 14 Apr 501.</ref>",
+            "parsed": {
+              "start": "0498-09-01",
+              "end": "0501-12-31",
+              "precision": 10
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Xiao Zhaowen",
+        "title": "Xiao Zhaowen",
+        "person": "Q1190405",
+        "name": "Xiao Zhaowen",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Xiao_Zhaowen",
+        "identityResolution": {
+          "requested": "Xiao Zhaowen",
+          "canonical": "Xiao Zhaowen",
+          "qid": "Q1190405"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0494-09-10",
+          "end": "0494-11-23",
+          "precision": 11,
+          "statement": "Q1190405$890CC8B1-0505-4FD8-828A-9A844C474D36",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1190405",
+        "title": "Xiao Zhaowen",
+        "source": "https://en.wikipedia.org/wiki/Xiao_Zhaowen",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Southern Qi",
+            "raw": "10 September<ref>''ding'you'' day of the 7th month of the 1st year of the ''Yan'xing'' era, per Xiao Zhaowen's biography in ''Nan Qi Shu'' and vol.139 of ''Zizhi Tongjian''</ref> - 5 December 494<ref>Xiao Luan (Emperor Ming) crowned himself emperor on this day.</ref>",
+            "parsed": {
+              "start": "0494-09-10",
+              "end": "0494-12-05",
+              "precision": 11
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Xiao Zhaoye",
+        "title": "Xiao Zhaoye",
+        "person": "Q1141013",
+        "name": "Xiao Zhaoye",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Xiao_Zhaoye",
+        "identityResolution": {
+          "requested": "Xiao Zhaoye",
+          "canonical": "Xiao Zhaoye",
+          "qid": "Q1141013"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0493-08-27",
+          "end": "0494-09-07",
+          "precision": 11,
+          "statement": "Q1141013$41B3C781-4EA4-471A-8F40-10FBD7FEA244",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1141013",
+        "title": "Xiao Zhaoye",
+        "source": "https://en.wikipedia.org/wiki/Xiao_Zhaoye",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Southern Qi",
+            "raw": "27 August 493 – 5 or 7 September 494",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1194981",
+        "title": "Emperor Gao of Southern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Gao_of_Southern_Qi",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Southern Qi",
+          "raw": "May 29, 479 – April 11, 482",
+          "parsed": {
+            "start": "0479-05-29",
+            "end": "0482-04-11",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q940037",
+        "title": "Emperor Wu of Southern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Southern_Qi",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Southern Qi",
+          "raw": "11 April 482 – 27 Aug 493",
+          "parsed": {
+            "start": "0482-04-11",
+            "end": "0493-08-27",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1190405",
+        "title": "Xiao Zhaowen",
+        "source": "https://en.wikipedia.org/wiki/Xiao_Zhaowen",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Southern Qi",
+          "raw": "10 September<ref>''ding'you'' day of the 7th month of the 1st year of the ''Yan'xing'' era, per Xiao Zhaowen's biography in ''Nan Qi Shu'' and vol.139 of ''Zizhi Tongjian''</ref> - 5 December 494<ref>Xiao Luan (Emperor Ming) crowned himself emperor on this day.</ref>",
+          "parsed": {
+            "start": "0494-09-10",
+            "end": "0494-12-05",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1149132",
+        "title": "Emperor Ming of Southern Qi",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Ming_of_Southern_Qi",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Southern Qi",
+          "raw": "5 December 494<ref>''gui'hai'' day of the 10th month of the 1st year of the ''Jian'wu'' era, per Emperor Ming's biography in ''Nan Qi Shu''</ref> – 1 September 498",
+          "parsed": {
+            "start": "0494-12-05",
+            "end": "0498-09-01",
+            "precision": 11
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1336575",
+        "title": "Xiao Baojuan",
+        "source": "https://en.wikipedia.org/wiki/Xiao_Baojuan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of Southern Qi",
+          "raw": "September 498 – 31 December 501<ref>Xiao Baojuan's biography in ''Nan Qi Shu'' indicate that he was emperor until his death on 31 December 501. This contradicts Xiao Baorong's biography in ''Nan Qi Shu'', which indicate that Baorong was made emperor on 14 Apr 501.</ref>",
+          "parsed": {
+            "start": "0498-09-01",
+            "end": "0501-12-31",
+            "precision": 10
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Xiao Zhaoye",
+        "person": "Q1141013",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "seat036-17",
+      "name": "Jiankang · corte Qi",
+      "coordinates": [
+        118.8,
+        32.05
+      ],
+      "start": 479,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Qi_meridional",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Qi meridional"
+    },
+    {
+      "id": "seat036-17-own",
+      "name": "Jiankang · corte Qi",
+      "coordinates": [
+        118.8,
+        32.05
+      ],
+      "start": 479,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Qi_meridional",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Qi meridional"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1194981",
+      "name": "Gao of Southern Qi",
+      "title": "Xiao Daocheng (Qi Gaodi).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Xiao_Daocheng_(Qi_Gaodi).jpg",
+      "sha256": "54d495158d226beaf5cc4fa51aad615a220bc578dc1a2c4e18fc1d994c15a7e8",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Retrato imaginario posterior de Gao of Southern Qi; no retrato contemporáneo."
+    },
+    {
+      "person": "Q1336575",
+      "name": "Xiao Baojuan",
+      "title": "帝鉴图说.Recueil Historique des Principaux Traits de la Vie des Empereurs Chinois.95帧图.彩绘册页.约18世纪 (page 48) (萧宝卷 潘玉儿 cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%E5%B8%9D%E9%89%B4%E5%9B%BE%E8%AF%B4.Recueil_Historique_des_Principaux_Traits_de_la_Vie_des_Empereurs_Chinois.95%E5%B8%A7%E5%9B%BE.%E5%BD%A9%E7%BB%98%E5%86%8C%E9%A1%B5.%E7%BA%A618%E4%B8%96%E7%BA%AA_(page_48)_(%E8%90%A7%E5%AE%9D%E5%8D%B7_%E6%BD%98%E7%8E%89%E5%84%BF_cropped).jpg",
+      "sha256": "b3e384e11e2e715def28e5ad00221804374ca52f1496eef57dceef617148c6b4",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Escena cortesana sin encuadre e identificación individual suficientes para la ficha deXiao Baojuan."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q1336575",
+      "title": "帝鉴图说.Recueil Historique des Principaux Traits de la Vie des Empereurs Chinois.95帧图.彩绘册页.约18世纪 (page 48) (萧宝卷 潘玉儿 cropped).jpg",
+      "reason": "Escena cortesana sin encuadre e identificación individual suficientes para la ficha deXiao Baojuan.",
+      "source": "https://commons.wikimedia.org/wiki/File:%E5%B8%9D%E9%89%B4%E5%9B%BE%E8%AF%B4.Recueil_Historique_des_Principaux_Traits_de_la_Vie_des_Empereurs_Chinois.95%E5%B8%A7%E5%9B%BE.%E5%BD%A9%E7%BB%98%E5%86%8C%E9%A1%B5.%E7%BA%A618%E4%B8%96%E7%BA%AA_(page_48)_(%E8%90%A7%E5%AE%9D%E5%8D%B7_%E6%BD%98%E7%8E%89%E5%84%BF_cropped).jpg"
+    }
+  ]
+}

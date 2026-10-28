@@ -1,0 +1,76 @@
+{
+  "key": "HIST-Q872644",
+  "name": "Rugiland",
+  "qid": "Q872644",
+  "aliases": [
+    "Rugiland"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q872644"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1422557",
+      "name": "Flaciteo",
+      "role": "Rey de los rugios",
+      "start": "0467-01-01",
+      "end": "0475-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Flaccitheus",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    },
+    {
+      "person": "Q255047",
+      "name": "Feleteo",
+      "role": "Rey de los rugios",
+      "start": "0475-01-01",
+      "end": "0487-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Feletheus",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1808",
+      "start": 455,
+      "end": 475,
+      "name": "Rugiland",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1878",
+      "start": 476,
+      "end": 479,
+      "name": "Rugiland",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-400.geojson",
+      "recordId": "clio-1893",
+      "start": 480,
+      "end": 489,
+      "name": "Rugiland",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

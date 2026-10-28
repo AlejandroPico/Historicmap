@@ -1,0 +1,498 @@
+{
+  "key": "MAYA-COPAN",
+  "identity": {
+    "qid": "",
+    "name": "Corte y dinastía de Copán"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Ajaw de Copán",
+      "officePattern": "Copán|Copan|Ajaw|Ruler",
+      "titles": [
+        "K'inich Yax K'uk' Mo'",
+        "K'inich Popol Hol",
+        "Ku Ix"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q4164172",
+      "name": "K'inich Yax K'uk' Mo'",
+      "role": "Fundador de la dinastía de Copán",
+      "start": "0426-01-01",
+      "end": "0437-12-31",
+      "precision": 9,
+      "source": "https://assets.cambridge.org/97811084/83889/frontmatter/9781108483889_frontmatter.pdf",
+      "note": "Toma de poder en426 y llegada aCopán en427 son acontecimientos distintos; final437 aproximado.",
+      "portrait": {
+        "file": "media/portrait-3f596e609d88a3239071.jpg",
+        "title": "Cabeza de K'inich Yax K'uk Mo', rey maya (British Museum).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cabeza_de_K%27inich_Yax_K%27uk_Mo%27,_rey_maya_(British_Museum).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Cabeza_de_K%27inich_Yax_K%27uk_Mo%27%2C_rey_maya_%28British_Museum%29.jpg/330px-Cabeza_de_K%27inich_Yax_K%27uk_Mo%27%2C_rey_maya_%28British_Museum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Jl FilpoC",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "0a5b4e9f8a32602ff0048c07e3d4759ea263b7c1452c831ccbb2de67c0e18d34",
+        "bytes": 40467,
+        "canonicalFile": "Países/MAYA-COPAN-Corte-y-dinastia-de-Copan/retratos/portrait-3f596e609d88a3239071.jpg",
+        "caption": "Cabeza deYax K’uk’ Mo’, antepasado fundador deCopán, fechada hacia776 por elBritish Museum (Am1923,Maud.9); representación retrospectiva unos tres siglos posterior a su gobierno."
+      }
+    },
+    {
+      "person": "Q17183450",
+      "name": "K'inich Popol Hol",
+      "role": "Ajaw de Copán · testimonio aproximado",
+      "start": "0437-01-01",
+      "end": "0437-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf",
+      "note": "La tabla epigráfica lo sitúa hacia437; no se convierte ese testimonio en un mandato continuo435–470."
+    },
+    {
+      "person": "Q17180714",
+      "name": "K'altuun Hix · Ku Ix",
+      "role": "Ajaw de Copán · testimonio aproximado",
+      "start": "0465-01-01",
+      "end": "0465-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf",
+      "note": "Testimonio de la secuencia en torno a465; no fecha exacta de un reinado completo."
+    },
+    {
+      "person": "LOCAL-COPAN-3",
+      "name": "Tercer gobernante de Copán · lectura parcial",
+      "role": "Ajaw de Copán · testimonio aproximado",
+      "start": "0455-01-01",
+      "end": "0455-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf",
+      "note": "Referencia aproximada de la secuencia epigráfica. Las cronologías de los primeros gobernantes difieren; no se infiere un mandato hasta el siguiente nombre."
+    },
+    {
+      "person": "LOCAL-COPAN-5",
+      "name": "Yu…a’ · quinto gobernante (lectura parcial)",
+      "role": "Ajaw de Copán · testimonio aproximado",
+      "start": "0475-01-01",
+      "end": "0475-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf",
+      "note": "Referencia aproximada de la secuencia epigráfica. Las cronologías de los primeros gobernantes difieren; no se infiere un mandato hasta el siguiente nombre."
+    },
+    {
+      "person": "LOCAL-COPAN-6",
+      "name": "…Jol · sexto gobernante (lectura parcial)",
+      "role": "Ajaw de Copán · testimonio aproximado",
+      "start": "0485-01-01",
+      "end": "0485-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf",
+      "note": "Referencia aproximada de la secuencia epigráfica. Las cronologías de los primeros gobernantes difieren; no se infiere un mandato hasta el siguiente nombre."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review036-copan",
+      "type": "institution",
+      "title": "Toma de poder, llegada y testimonios de Copán",
+      "start": "0426-01-01",
+      "end": "0500-01-01",
+      "text": "Yax K’uk’ Mo’ toma poder en426 yllega aCopán en427. Los sucesores tempranos se consultan como testimonios aproximados, sin completar nombres incompletos o convertir cada mención en un mandato continuo.",
+      "source": "https://assets.cambridge.org/97811084/83889/frontmatter/9781108483889_frontmatter.pdf",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 426,
+      "end": 499,
+      "tags": [
+        "monarchy",
+        "city-state"
+      ],
+      "source": "https://assets.cambridge.org/97811084/83889/frontmatter/9781108483889_frontmatter.pdf",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales.",
+    "Conciliar las ventanas previas495–510/510–524 de los gobernantes5/6 en0.35 con las aproximaciones475/485 deCalvin. No afirmar consenso ni continuidad exacta sin revisar ambas fuentes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "K'inich Popol Hol",
+        "title": "K'inich Popol Hol",
+        "person": "Q17183450",
+        "name": "K'inich Popol Hol",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCinich_Popol_Hol",
+        "identityResolution": {
+          "requested": "K'inich Popol Hol",
+          "canonical": "Kʼinich Popol Hol",
+          "qid": "Q17183450"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120934289",
+          "start": "0435-01-01",
+          "end": "0470-01-01",
+          "precision": 9,
+          "statement": "Q17183450$90b4d635-4f80-65b4-2989-3661f6e6a272",
+          "label": "Ajaw of Copan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q17183450",
+        "title": "Kʼinich Popol Hol",
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCinich_Popol_Hol",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Copán",
+            "raw": "{{circa|435|470?}}{{citation needed|date=June 2014}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "K'inich Yax K'uk' Mo'",
+        "title": "K'inich Yax K'uk' Mo'",
+        "person": "Q4164172",
+        "name": "K'inich Yax K'uk' Mo'",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCinich_Yax_K%CA%BCuk%CA%BC_Mo%CA%BC",
+        "identityResolution": {
+          "requested": "K'inich Yax K'uk' Mo'",
+          "canonical": "Kʼinich Yax Kʼukʼ Moʼ",
+          "qid": "Q4164172"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120934289",
+          "start": "0427-02-09",
+          "end": "0437-01-01",
+          "precision": 9,
+          "statement": "Q4164172$72e08f09-47e6-63d3-78a4-86d9a29792c5",
+          "label": "Ajaw of Copan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4164172",
+        "title": "Kʼinich Yax Kʼukʼ Moʼ",
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCinich_Yax_K%CA%BCuk%CA%BC_Mo%CA%BC",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Copán",
+            "raw": "9 February 427 – 437",
+            "parsed": {
+              "start": "0427-02-09",
+              "end": "0437-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ku Ix",
+        "title": "Ku Ix",
+        "person": "Q17180714",
+        "name": "Ku Ix",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ku_Ix",
+        "identityResolution": {
+          "requested": "Ku Ix",
+          "canonical": "Ku Ix",
+          "qid": "Q17180714"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120934289",
+          "start": "0465-01-01",
+          "end": "0476-01-01",
+          "precision": 9,
+          "statement": "Q17180714$459ae0c8-4b17-ef37-bd6f-c1bf1f7b4881",
+          "label": "Ajaw of Copan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q17180714",
+        "title": "Ku Ix",
+        "source": "https://en.wikipedia.org/wiki/Ku_Ix",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Copán",
+            "raw": "{{circa|465|476}}{{citation needed|date=June 2014}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q4164172",
+        "title": "K'inich Yax K'uk' Mo'",
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCinich_Yax_K%CA%BCuk%CA%BC_Mo%CA%BC",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Copán",
+          "raw": "9 February 427 – 437",
+          "parsed": {
+            "start": "0427-02-09",
+            "end": "0437-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q17183450",
+        "title": "K'inich Popol Hol",
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCinich_Popol_Hol",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q120934289",
+          "start": "0435-01-01",
+          "end": "0470-01-01",
+          "precision": 9,
+          "statement": "Q17183450$90b4d635-4f80-65b4-2989-3661f6e6a272",
+          "label": "Ajaw of Copan"
+        }
+      },
+      {
+        "person": "Q17180714",
+        "title": "Ku Ix",
+        "source": "https://en.wikipedia.org/wiki/Ku_Ix",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q120934289",
+          "start": "0465-01-01",
+          "end": "0476-01-01",
+          "precision": 9,
+          "statement": "Q17180714$459ae0c8-4b17-ef37-bd6f-c1bf1f7b4881",
+          "label": "Ajaw of Copan"
+        }
+      }
+    ],
+    "pending": []
+  },
+  "authorityReview": [
+    {
+      "person": "Q4164172",
+      "originalRecords": [
+        {
+          "person": "Q4164172",
+          "name": "K'inich Yax K'uk' Mo'",
+          "role": "Ajaw de Copán",
+          "start": "0427-02-09",
+          "end": "0437-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/K%CA%BCinich_Yax_K%CA%BCuk%CA%BC_Mo%CA%BC",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Toma de poder en426 y llegada aCopán en427 son acontecimientos distintos; final437 aproximado.",
+      "source": "https://assets.cambridge.org/97811084/83889/frontmatter/9781108483889_frontmatter.pdf"
+    },
+    {
+      "person": "Q17183450",
+      "originalRecords": [
+        {
+          "person": "Q17183450",
+          "name": "K'inich Popol Hol",
+          "role": "Ajaw de Copán",
+          "start": "0435-01-01",
+          "end": "0470-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/K%CA%BCinich_Popol_Hol",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "La tabla epigráfica lo sitúa hacia437; no se convierte ese testimonio en un mandato continuo435–470.",
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf"
+    },
+    {
+      "person": "Q17180714",
+      "originalRecords": [
+        {
+          "person": "Q17180714",
+          "name": "Ku Ix",
+          "role": "Ajaw de Copán",
+          "start": "0465-01-01",
+          "end": "0476-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Ku_Ix",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Testimonio de la secuencia en torno a465; no fecha exacta de un reinado completo.",
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q4164172",
+      "name": "K'inich Yax K'uk' Mo'",
+      "role": "Fundador de la dinastía de Copán",
+      "start": "0426-01-01",
+      "end": "0437-12-31",
+      "precision": 9,
+      "source": "https://assets.cambridge.org/97811084/83889/frontmatter/9781108483889_frontmatter.pdf",
+      "note": "Toma de poder en426 y llegada aCopán en427 son acontecimientos distintos; final437 aproximado."
+    },
+    {
+      "person": "Q17183450",
+      "name": "K'inich Popol Hol",
+      "role": "Ajaw de Copán · testimonio aproximado",
+      "start": "0437-01-01",
+      "end": "0437-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf",
+      "note": "La tabla epigráfica lo sitúa hacia437; no se convierte ese testimonio en un mandato continuo435–470."
+    },
+    {
+      "person": "Q17180714",
+      "name": "K'altuun Hix · Ku Ix",
+      "role": "Ajaw de Copán · testimonio aproximado",
+      "start": "0465-01-01",
+      "end": "0465-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf",
+      "note": "Testimonio de la secuencia en torno a465; no fecha exacta de un reinado completo."
+    },
+    {
+      "person": "LOCAL-COPAN-3",
+      "name": "Tercer gobernante de Copán · lectura parcial",
+      "role": "Ajaw de Copán · testimonio aproximado",
+      "start": "0455-01-01",
+      "end": "0455-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf",
+      "note": "Referencia aproximada de la secuencia epigráfica. Las cronologías de los primeros gobernantes difieren; no se infiere un mandato hasta el siguiente nombre."
+    },
+    {
+      "person": "LOCAL-COPAN-5",
+      "name": "Yu…a’ · quinto gobernante (lectura parcial)",
+      "role": "Ajaw de Copán · testimonio aproximado",
+      "start": "0475-01-01",
+      "end": "0475-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf",
+      "note": "Referencia aproximada de la secuencia epigráfica. Las cronologías de los primeros gobernantes difieren; no se infiere un mandato hasta el siguiente nombre."
+    },
+    {
+      "person": "LOCAL-COPAN-6",
+      "name": "…Jol · sexto gobernante (lectura parcial)",
+      "role": "Ajaw de Copán · testimonio aproximado",
+      "start": "0485-01-01",
+      "end": "0485-12-31",
+      "precision": 9,
+      "source": "https://www.famsi.org/mayawriting/calvin/royal_dynasties_i.pdf",
+      "note": "Referencia aproximada de la secuencia epigráfica. Las cronologías de los primeros gobernantes difieren; no se infiere un mandato hasta el siguiente nombre."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat036-41",
+      "name": "Copán · corte local",
+      "coordinates": [
+        -89.141,
+        14.837
+      ],
+      "start": 426,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Cop%C3%A1n",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía. La agrupación cartográfica hospeda la selección; no declara vasallaje ni un Estado maya único.",
+      "standaloneReference": true,
+      "entityName": "Corte y dinastía de Copán",
+      "aggregateKey": "HIST-Q28567"
+    },
+    {
+      "id": "seat036-41-own",
+      "name": "Copán · corte local",
+      "coordinates": [
+        -89.141,
+        14.837
+      ],
+      "start": 426,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Cop%C3%A1n",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía. La agrupación cartográfica hospeda la selección; no declara vasallaje ni un Estado maya único.",
+      "entityName": "Corte y dinastía de Copán"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review036-copan",
+      "type": "institution",
+      "title": "Toma de poder, llegada y testimonios de Copán",
+      "start": "0426-01-01",
+      "end": "0500-01-01",
+      "text": "Yax K’uk’ Mo’ toma poder en426 yllega aCopán en427. Los sucesores tempranos se consultan como testimonios aproximados, sin completar nombres incompletos o convertir cada mención en un mandato continuo.",
+      "source": "https://assets.cambridge.org/97811084/83889/frontmatter/9781108483889_frontmatter.pdf",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q4164172",
+      "name": "K'inich Yax K'uk' Mo'",
+      "title": "Cabeza de K'inich Yax K'uk Mo', rey maya (British Museum).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cabeza_de_K%27inich_Yax_K%27uk_Mo%27,_rey_maya_(British_Museum).jpg",
+      "sha256": "0a5b4e9f8a32602ff0048c07e3d4759ea263b7c1452c831ccbb2de67c0e18d34",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "identificationSource": "https://www.britishmuseum.org/collection/object/E_Am1923-Maud-9",
+      "caption": "Cabeza deYax K’uk’ Mo’, antepasado fundador deCopán, fechada hacia776 por elBritish Museum (Am1923,Maud.9); representación retrospectiva unos tres siglos posterior a su gobierno."
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "key": "LATER-LIANG-16",
+  "identity": {
+    "qid": "Q2314869",
+    "name": "Liang posterior · Dieciséis Reinos"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Liang posterior",
+      "officePattern": "Emperor|King|Prince",
+      "titles": [
+        "Lü Zuan",
+        "Lü Long"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1131418",
+      "name": "Lü Zuan",
+      "role": "Gobernante de Liang posterior",
+      "start": "0400-01-01",
+      "end": "0401-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/L%C3%BC_Zuan",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1131646",
+      "name": "Lü Long",
+      "role": "Gobernante de Liang posterior",
+      "start": "0401-01-01",
+      "end": "0403-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/L%C3%BC_Long",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 403,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/L%C3%BC_Zuan",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Liang"
+        ],
+        "start": 400,
+        "end": 403,
+        "label": "Liang posterior · Dieciséis Reinos",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Liang"
+        ],
+        "start": 404,
+        "end": 499,
+        "label": "Liang posterior · Dieciséis Reinos · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "54abec59fe6bc9bca12314bdbe9a0d120695026ec26c027b39af6e1da68489ea",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1612,
+        1622
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Lü Long",
+        "title": "Lü Long",
+        "person": "Q1131646",
+        "name": "Lü Long",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Long",
+        "identityResolution": {
+          "requested": "Lü Long",
+          "canonical": "Lü Long",
+          "qid": "Q1131646"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0401-01-01",
+          "end": "0403-01-01",
+          "precision": 9,
+          "statement": "Q1131646$b9551565-408b-d24f-4de5-5b5d65d256b9",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1131646",
+        "title": "Lü Long",
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Long",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Heavenly King of Later Liang",
+            "raw": "401–403",
+            "parsed": {
+              "start": "0401-01-01",
+              "end": "0403-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Liang",
+            "raw": "401–403",
+            "parsed": {
+              "start": "0401-01-01",
+              "end": "0403-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Jiankang",
+            "raw": "403–416",
+            "parsed": {
+              "start": "0403-01-01",
+              "end": "0416-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Lü Zuan",
+        "title": "Lü Zuan",
+        "person": "Q1131418",
+        "name": "Lü Zuan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Zuan",
+        "identityResolution": {
+          "requested": "Lü Zuan",
+          "canonical": "Lü Zuan",
+          "qid": "Q1131418"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0400-01-01",
+          "end": "0401-01-01",
+          "precision": 9,
+          "statement": "Q1131418$9ffb6d2e-4d99-1997-79d8-f3be3a17ca66",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1131418",
+        "title": "Lü Zuan",
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Zuan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Heavenly King of Later Liang",
+            "raw": "400–401",
+            "parsed": {
+              "start": "0400-01-01",
+              "end": "0401-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Liang",
+            "raw": "400–401",
+            "parsed": {
+              "start": "0400-01-01",
+              "end": "0401-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Taiyuan",
+            "raw": "397–400",
+            "parsed": {
+              "start": "0397-01-01",
+              "end": "0400-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1131418",
+        "title": "Lü Zuan",
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Zuan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Heavenly King of Later Liang",
+          "raw": "400–401",
+          "parsed": {
+            "start": "0400-01-01",
+            "end": "0401-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1131646",
+        "title": "Lü Long",
+        "source": "https://en.wikipedia.org/wiki/L%C3%BC_Long",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Heavenly King of Later Liang",
+          "raw": "401–403",
+          "parsed": {
+            "start": "0401-01-01",
+            "end": "0403-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "key": "NORTHERN-YAN",
+  "identity": {
+    "qid": "Q2006864",
+    "name": "Yan del Norte"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Yan del Norte",
+      "officePattern": "Emperor|King",
+      "titles": [
+        "Gao Yun (emperor)",
+        "Feng Ba",
+        "Feng Hong"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q718184",
+      "name": "Gao Yun",
+      "role": "Gobernante de Yan del Norte",
+      "start": "0407-01-01",
+      "end": "0409-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gao_Yun_%28emperor%29",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1147737",
+      "name": "Feng Ba",
+      "role": "Gobernante de Yan del Norte",
+      "start": "0409-01-01",
+      "end": "0430-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Feng_Ba",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q1149169",
+      "name": "Feng Hong",
+      "role": "Gobernante de Yan del Norte",
+      "start": "0430-01-01",
+      "end": "0436-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Feng_Hong",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 407,
+      "end": 436,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Gao_Yun_%28emperor%29",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Yan"
+        ],
+        "start": 400,
+        "end": 406,
+        "label": "Yan del Norte · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Yan"
+        ],
+        "start": 407,
+        "end": 436,
+        "label": "Yan del Norte",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Northern Yan"
+        ],
+        "start": 437,
+        "end": 499,
+        "label": "Yan del Norte · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "8df26c0ed1d9d57cfb193ee7cecf4956b8b6135907e3f5eccabb72b7a1693edf",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1657,
+        1720
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Feng Ba",
+        "title": "Feng Ba",
+        "person": "Q1147737",
+        "name": "Feng Ba",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Feng_Ba",
+        "identityResolution": {
+          "requested": "Feng Ba",
+          "canonical": "Feng Ba",
+          "qid": "Q1147737"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0409-01-01",
+          "end": "0430-01-01",
+          "precision": 9,
+          "statement": "Q1147737$e50d16fb-b663-47cb-9954-342acb4c223c",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1147737",
+        "title": "Feng Ba",
+        "source": "https://en.wikipedia.org/wiki/Feng_Ba",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Northern Yan",
+            "raw": "409 – 430",
+            "parsed": {
+              "start": "0409-01-01",
+              "end": "0430-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Yan",
+            "raw": "409–430",
+            "parsed": {
+              "start": "0409-01-01",
+              "end": "0430-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Feng Hong",
+        "title": "Feng Hong",
+        "person": "Q1149169",
+        "name": "Feng Hong",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Feng_Hong",
+        "identityResolution": {
+          "requested": "Feng Hong",
+          "canonical": "Feng Hong",
+          "qid": "Q1149169"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0430-01-01",
+          "end": "0436-01-01",
+          "precision": 9,
+          "statement": "Q1149169$65d516bf-480b-b451-8777-d63b1c26827a",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1149169",
+        "title": "Feng Hong",
+        "source": "https://en.wikipedia.org/wiki/Feng_Hong",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Northern Yan",
+            "raw": "430 – 436",
+            "parsed": {
+              "start": "0430-01-01",
+              "end": "0436-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Yan",
+            "raw": "430–436",
+            "parsed": {
+              "start": "0430-01-01",
+              "end": "0436-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gao Yun (emperor)",
+        "title": "Gao Yun (emperor)",
+        "person": "Q718184",
+        "name": "Gao Yun",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gao_Yun_%28emperor%29",
+        "identityResolution": {
+          "requested": "Gao Yun (emperor)",
+          "canonical": "Gao Yun (emperor)",
+          "qid": "Q718184"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0407-01-01",
+          "end": "0409-01-01",
+          "precision": 9,
+          "statement": "Q718184$f188b5d6-4313-5349-c467-c3807e69eb3e",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q718184",
+        "title": "Gao Yun (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Gao_Yun_%28emperor%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Northern Yan",
+            "raw": "September 16, 407 – November 6, 409",
+            "parsed": {
+              "start": "0407-09-16",
+              "end": "0409-11-06",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Northern Yan",
+            "raw": "407–409",
+            "parsed": {
+              "start": "0407-01-01",
+              "end": "0409-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q718184",
+        "title": "Gao Yun (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Gao_Yun_%28emperor%29",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Emperor of Northern Yan",
+          "raw": "407–409",
+          "parsed": {
+            "start": "0407-01-01",
+            "end": "0409-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1147737",
+        "title": "Feng Ba",
+        "source": "https://en.wikipedia.org/wiki/Feng_Ba",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Emperor of Northern Yan",
+          "raw": "409–430",
+          "parsed": {
+            "start": "0409-01-01",
+            "end": "0430-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1149169",
+        "title": "Feng Hong",
+        "source": "https://en.wikipedia.org/wiki/Feng_Hong",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Emperor of Northern Yan",
+          "raw": "430–436",
+          "parsed": {
+            "start": "0430-01-01",
+            "end": "0436-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat036-19",
+      "name": "Longcheng · corte de Yan del Norte",
+      "coordinates": [
+        120.45,
+        41.57
+      ],
+      "start": 407,
+      "end": 436,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Yan_del_Norte",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Yan del Norte"
+    },
+    {
+      "id": "seat036-19-own",
+      "name": "Longcheng · corte de Yan del Norte",
+      "coordinates": [
+        120.45,
+        41.57
+      ],
+      "start": 407,
+      "end": 436,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Yan_del_Norte",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Yan del Norte"
+    }
+  ]
+}

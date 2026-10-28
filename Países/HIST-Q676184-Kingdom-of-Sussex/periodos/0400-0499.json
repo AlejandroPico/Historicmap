@@ -1,0 +1,110 @@
+{
+  "key": "HIST-Q676184",
+  "identity": {
+    "qid": "Q676184",
+    "name": "Kingdom of Sussex"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Sussex · cronología tradicional",
+      "officePattern": "King.*Sussex|King.*South Sax",
+      "titles": [
+        "Ælle of Sussex"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Sussex"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Kingdom of Sussex",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "6bc58937f95d321cf66f399bc87dbc0c02a4c2d2ef260eb1e4150ff89d85bd00",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1919
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ælle of Sussex",
+        "title": "Ælle of Sussex",
+        "person": "Q271406",
+        "name": "Aelle de Sussex",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86lle_of_Sussex",
+        "identityResolution": {
+          "requested": "Ælle of Sussex",
+          "canonical": "Ælle of Sussex",
+          "qid": "Q271406"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q271406",
+        "title": "Ælle of Sussex",
+        "source": "https://en.wikipedia.org/wiki/%C3%86lle_of_Sussex",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Sussex",
+            "raw": "c. 477&nbsp;– c. 514?<ref name=\"greenway97\">Henry of Huntingdon. ''Historia Anglorum''. ed. Greenway. p.97. Footnote<sup>57</sup>.Greenway suggests that \"No genealogy of the South Saxon royal house survives and none seem to have been available to Henry. The death of Aella and the succession of Cissa are probably deduced from ASC 477 and 491.\"</ref>",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Ælle of Sussex",
+        "person": "Q271406",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  }
+}

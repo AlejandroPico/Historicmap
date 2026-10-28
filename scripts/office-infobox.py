@@ -59,12 +59,12 @@ def extract(text,include_succession=False):
   # A line break may separate the two ends of one reign, not two reigns.
   if len(parts)>1 and any(re.search(r'[–—-]\s*$',clean(v))for v in parts[:-1]):parts=[re.sub(r'<br\s*/?>',' ',raw,flags=re.I)]
   for part in parts:
-   value=clean(part);pair=re.split(r'\s*[–—]\s*|\s+-\s+|(?<=\d{4})-(?=(?:c\.\s*)?\d{4}(?!\d))',value,maxsplit=1);parsed=None
+   value=re.sub(r'\([^)]*\)','',clean(part)).strip();pair=re.split(r'\s*[–—]\s*|\s+-\s+|(?<=\d{4})\s*-\s*(?=(?:c\.\s*)?\d{4}(?!\d))',value,maxsplit=1);parsed=None
    if len(pair)==2:
     try:
      # Conventional abbreviated end years (953–77), not personal life dates.
      if re.fullmatch(r'\d{4}',pair[0])and re.fullmatch(r'\d{2}',pair[1]):pair[1]=pair[0][:2]+pair[1]
-     if (re.fullmatch(r'\d{1,2} (?:'+'|'.join(MONTHS)+')',pair[0]) or re.fullmatch(r'(?:'+'|'.join(MONTHS)+') \d{1,2}',pair[0])) and re.search(r'\b\d{4}$',pair[1]):pair[0]+=' '+pair[1][-4:]
+     if (re.fullmatch(r'\d{1,2} (?:'+'|'.join(MONTHS)+')',pair[0]) or re.fullmatch(r'(?:'+'|'.join(MONTHS)+r') \d{1,2}',pair[0])) and re.search(r'\b\d{4}$',pair[1]):pair[0]+=' '+pair[1][-4:]
      a,pa=parse_date(pair[0]);b,pb=parse_date(pair[1],True)
      if a<=b:parsed=dict(start=a,end=b,precision=min(pa,pb))
     except ValueError:pass

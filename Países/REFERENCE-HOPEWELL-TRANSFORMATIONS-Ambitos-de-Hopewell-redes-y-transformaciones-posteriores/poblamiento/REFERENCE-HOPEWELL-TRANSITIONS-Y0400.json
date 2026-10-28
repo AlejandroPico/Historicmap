@@ -1,0 +1,73 @@
+{
+  "key": "REFERENCE-HOPEWELL-TRANSITIONS-Y0400",
+  "contextKey": "REFERENCE-HOPEWELL-TRANSITIONS",
+  "ownerKey": "REFERENCE-HOPEWELL-TRANSFORMATIONS",
+  "name": "Redes Hopewell y tradiciones de transición",
+  "originalNames": [
+    "Hopewell Culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 400",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    400,
+    499
+  ],
+  "interpretation": "Complejos arqueológicos yredes de intercambio con cronologías locales distintas. La transición del sigloV no es una extinción instantánea de sus comunidades ni un Estado unificado.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea400 contiene etiquetas de épocas distintas. La ventana400–499 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -93.26401,
+    39.52736
+  ],
+  "phases": [
+    {
+      "start": 400,
+      "end": 499,
+      "label": "Redes Hopewell y tradiciones de transición",
+      "dateBasis": "Referencia regional de la fuente editorial400; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-HOPEWELL-TRANSITIONS-Y0400.geojson",
+  "geometrySha256": "7b3674d2c71a3a08fa519f5663af7113807ca6fbb1350dec53b690d158c9c08e",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson",
+    "year": 400,
+    "featureIds": [
+      203
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7"
+  },
+  "review": "0.36.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final499 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en500."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Hopewell Culture",
+      "ABBREVN": "Hopewell Culture",
+      "SUBJECTO": "Hopewell Culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Hopewell Culture"
+    }
+  ],
+  "sourceGrouping": [
+    "Hopewell Culture"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-DUMONII-C5C9499F",
+  "name": "Dumonii",
+  "qid": "",
+  "aliases": [
+    "Dumonii"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 83,
+      "start": null,
+      "end": null,
+      "name": "Dumonii",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-DUMONII-C5C9499F-Y0400:0",
+      "contextKey": "CULTURE-DUMONII-C5C9499F",
+      "start": 400,
+      "end": 499,
+      "sourceYear": 400,
+      "canonicalFile": "Países/CULTURE-DUMONII-C5C9499F-Dumonii/poblamiento/CULTURE-DUMONII-C5C9499F-Y0400.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

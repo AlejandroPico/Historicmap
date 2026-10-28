@@ -1,0 +1,55 @@
+{
+  "key": "ODOACER-ITALY",
+  "name": "Italia de Odoacro",
+  "qid": "",
+  "aliases": [
+    "Italia de Odoacro"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "ODOACER-ITALY"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q103333",
+      "name": "Odoacro",
+      "role": "Rey en Italia",
+      "start": "0476-01-01",
+      "end": "0493-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Odoacer",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "curated": true,
+      "acquisition": "century-400-0.36",
+      "portrait": {
+        "file": "media/portrait-51f607bc8cd2407fe742.png",
+        "title": "Coin of Odoacer at the British Museum (obverse).png",
+        "url": "https://commons.wikimedia.org/wiki/File:Coin_of_Odoacer_at_the_British_Museum_(obverse).png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Coin_of_Odoacer_at_the_British_Museum_%28obverse%29.png/330px-Coin_of_Odoacer_at_the_British_Museum_%28obverse%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "British Museum (photo)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "British Museum",
+        "sha256": "c98ace82873a10eb7cdd93bdb4ebeacf5d032116ff96c7567841fa5f48cbf8d9",
+        "bytes": 163441,
+        "canonicalFile": "Países/ODOACER-ITALY-Italia-de-Odoacro/retratos/portrait-51f607bc8cd2407fe742.png",
+        "caption": "Tipo monetario convencional atribuido a Odoacro; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

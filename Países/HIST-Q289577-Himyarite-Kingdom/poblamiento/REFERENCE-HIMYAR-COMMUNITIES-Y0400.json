@@ -1,0 +1,67 @@
+{
+  "key": "REFERENCE-HIMYAR-COMMUNITIES-Y0400",
+  "contextKey": "REFERENCE-HIMYAR-COMMUNITIES",
+  "ownerKey": "HIST-Q289577",
+  "name": "Ámbitos de Himyar y Yemen · comunidades y transición",
+  "originalNames": [
+    "Himyarite Kingdom"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional del mapa mundial de 400",
+  "decision": "political-base",
+  "reviewedRange": [
+    400,
+    499
+  ],
+  "interpretation": "El reino y los posteriores poderes aksumitas, locales y persas tienen cronologías diferentes. El contorno regional no prolonga la monarquía himyarita independiente durante todo500–599.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea400 contiene etiquetas de épocas distintas. La ventana400–499 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de500",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q289577"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    44.38423,
+    17.68096
+  ],
+  "phases": [],
+  "geometryFile": "REFERENCE-HIMYAR-COMMUNITIES-Y0400.geojson",
+  "geometrySha256": "4fd5c1d7dbd1aaa841ed69ad2af2f62368eb9561c8a61d5f1b475256cdfe011f",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson",
+    "year": 400,
+    "featureIds": [
+      15
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7"
+  },
+  "review": "0.36.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final499 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en500."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Himyarite Kingdom",
+      "ABBREVN": "Himyarite Ki",
+      "SUBJECTO": "Himyarite Kingdom",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Himyarite Kingdom"
+    }
+  ],
+  "sourceGrouping": [
+    "Himyarite Kingdom"
+  ]
+}

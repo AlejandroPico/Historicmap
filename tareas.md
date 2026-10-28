@@ -1,6 +1,29 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.35.0 · ampliación 500–599
+## Encargo vigente · 0.36.0 · 400–499 y correcciones de publicación
+
+Entrega única: ampliar400–499 con política y culturas; corregir los fallos de0.34/0.35 y reducir el tiempo de GitHub conservando todas las pruebas. Envío a main tras validar, sin esperar Actions/Pages; el propietario comprobará el resultado remoto.
+
+- [x] Corregir expectativas antiguas y validar los tres recorridos que fallaron, primero en0.35 y después con400–499.
+- [x] Distribuir el inventario completo entre cuatro máquinas; compilar una vez y reutilizar en Pages el resultado de la revisión validada.
+- [x] Inventario político/cultural400–499, originales, autoridades, representaciones, contextos y continuidad con500.
+- [x] Auditoría de conservación, pruebas, documentación y preparación del envío conjunto.
+
+Resultados: 82 dossiers de periodo, 227 registros de autoridades, 305 componentes políticos originales, 42 centros documentales, 20 contextos y siete referencias de conflictos. Culturas: 79 dossiers originales, 70 fases adoptadas, ocho remisiones a la base política y Mill Creek excluido por anacronismo conservando su original. Catálogo4.067 carpetas/1.345 identidades.
+
+Roma occidental/Nepote dálmata/Odoacro, Jin oriental/Liu Song/Qi, dos Liang occidentales y dos Xia diferenciados. Hunos434–453 distintos de la referencia regional más amplia. Kavad restaurado y testimonios mayas con límites explícitos. Sedes documentales sin polígonos inventados. Véase RESEARCH-400.md; todos los datos nuevos en Países/<entidad>.
+
+111 candidatos visuales inspeccionados: 91 adoptados y20 rechazados, con licencias, originales y pies. Las representaciones retrospectivas no se presentan como retratos contemporáneos. La efigie deConstancioIII no se atribuye aConstantinoIII. No se crean banderas modernas para el sigloV. Las carencias permanecen nominalmente en REVIEW-400-499.json y MEDIA-REVIEW-400.json.
+
+Conservación: 1.320 identidades, 18.089 cargos, 1.040 símbolos y8.922 fases culturales anteriores conservados literalmente, más70 fases nuevas. Se mantienen106 recursos anteriores,98 idénticos, yse añaden tres. Coordenadas e índices cotejados:79 originales culturales y305 componentes políticos. Regeneración de198 archivos sin diferencias. Nueve vistas anónimas generadas se consolidan conservando12 registros territoriales; ninguna tenía autoridades/símbolos propios. Ver CONSERVATION-400, CATALOG-CONSERVATION-400 e IDEMPOTENCE-400.
+
+Validación: 273 casos unitarios cubiertos por la ejecución completa y repetición de las cuatro suites corregidas (25 casos correctos). Fallos iniciales: expectativa fija499 sin contexto, comparación pesada de geometrías y dos barridos repetidos de miles de carpetas; se corrigen sin reducir los datos cotejados. Tipos, compilación y14 pruebas Python correctos. Seis recorridos únicos de navegador correctos: tres reportados y tres nuevos; los tres nuevos se repiten juntos al cierre (3 correctos/2,6min). Capturas deOdoacro, Wei móvil yCopán inspeccionadas. No se ejecutó localmente la matriz completa de98 casos. Verificados109 datos,11 rangos deglifos y8.538 medios licenciados por SHA-256.
+
+CI: los registros adjuntos muestran0.34 con90 casos correctos ydos expectativas fallidas, y0.35 con92 correctos ylas mismas dos másworld_500. Ahora las pruebas derivan límites del catálogo. Inventario completo98, reparto25/25/24/24, cada caso exactamente una vez. Quality compila una vez; Pages automático reutiliza el artefacto del workflow_run validado ycomprueba su revisión. Auditoría local del YAML ydel verificador real: revisión correcta aceptada, revisión incorrecta e índice ausente rechazados. Ruta manual conservada. No hay medición remota ni promesa de duración concreta. Ver CI-PUBLICATION.md, CI-SHARDS-036.json yCI-PROVENANCE-036.json.
+
+Pendientes reales, no tareas completadas: conciliar la cronología de los gobernantes5/6 deCopán (ventanas antiguas conservadas vs testimonios FAMSI), completar sucesiones menores/administraciones, cronologías alternativas deAsia/África, imágenes individuales ysímbolos acreditados, cronología local cultural ycontornos desfasados. Las faltas de datos no son acefalía;499 no demuestra extinción. Siguiente regresión anterior a400 sólo tras nuevo encargo. Mantener siempre pueblos/culturas junto a los poderes políticos ysus dos controles activados inicialmente.
+
+## Entrega anterior · 0.35.0 · ampliación 500–599
 
 Mantener entidades políticas, culturas, originales y controles independientes activados inicialmente. Investigar autoridades, transiciones y representaciones con fechas y fuentes; no inventar banderas, fronteras ni identidades. Validar localmente, subir y no esperar Actions/Pages.
 

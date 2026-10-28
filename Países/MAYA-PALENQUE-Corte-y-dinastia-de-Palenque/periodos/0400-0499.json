@@ -1,0 +1,460 @@
+{
+  "key": "MAYA-PALENQUE",
+  "identity": {
+    "qid": "",
+    "name": "Corte y dinastía de Palenque"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Ajaw de Palenque",
+      "officePattern": "Palenque|Ajaw|Ruler",
+      "titles": [
+        "K'uk' Bahlam I",
+        "Casper (Maya ruler)",
+        "B'utz Aj Sak Chiik"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1151454",
+      "name": "K'uk' B'alam I",
+      "role": "Ajaw de Palenque",
+      "start": "0431-01-01",
+      "end": "0435-12-31",
+      "precision": 9,
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "note": "Sucesión epigráfica con presentación anual; las correlaciones gregorianas difieren en días. No fechar la fundación de la dinastía por el nacimiento del gobernante."
+    },
+    {
+      "person": "Q448453",
+      "name": "Casper · nombre convencional",
+      "role": "Ajaw de Palenque",
+      "start": "0435-01-01",
+      "end": "0487-12-31",
+      "precision": 9,
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "note": "Sucesión epigráfica con presentación anual; las correlaciones gregorianas difieren en días. No fechar la fundación de la dinastía por el nacimiento del gobernante."
+    },
+    {
+      "person": "Q1835954",
+      "name": "B'utz Aj Sak Chiik",
+      "role": "Ajaw de Palenque",
+      "start": "0487-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "note": "Sucesión epigráfica con presentación anual; las correlaciones gregorianas difieren en días. No fechar la fundación de la dinastía por el nacimiento del gobernante.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review036-palenque",
+      "type": "institution",
+      "title": "Fundación dinástica y cronología epigráfica",
+      "start": "0431-01-01",
+      "end": "0500-01-01",
+      "text": "La entronización deK’uk’ B’alam en431 no es su nacimiento. Casper yB’utz Aj Sak Chiik son sucesores distintos; las correlaciones gregorianas varían en días.",
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 431,
+      "end": 499,
+      "tags": [
+        "monarchy",
+        "city-state"
+      ],
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "B'utz Aj Sak Chiik",
+        "title": "B'utz Aj Sak Chiik",
+        "person": "Q1835954",
+        "name": "B'utz Aj Sak Chiik",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/B%CA%BCutz_Aj_Sak_Chiik",
+        "identityResolution": {
+          "requested": "B'utz Aj Sak Chiik",
+          "canonical": "Bʼutz Aj Sak Chiik",
+          "qid": "Q1835954"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120931640",
+          "start": "0487-07-28",
+          "end": "0501-01-01",
+          "precision": 9,
+          "statement": "Q1835954$0105eb3c-4a81-a033-eeb8-d35f10c9b32d",
+          "label": "Ajaw of Palenque"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1835954",
+        "title": "Bʼutz Aj Sak Chiik",
+        "source": "https://en.wikipedia.org/wiki/B%CA%BCutz_Aj_Sak_Chiik",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Palenque",
+            "raw": "28 July 487 – 501",
+            "parsed": {
+              "start": "0487-07-28",
+              "end": "0501-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Casper (Maya ruler)",
+        "title": "Casper (Maya ruler)",
+        "person": "Q448453",
+        "name": "Casper",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Casper_%28Maya_ruler%29",
+        "identityResolution": {
+          "requested": "Casper (Maya ruler)",
+          "canonical": "Casper (Maya ruler)",
+          "qid": "Q448453"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120931640",
+          "start": "0435-08-09",
+          "end": "0487-01-01",
+          "precision": 9,
+          "statement": "Q448453$ef3813ab-4a25-ab7b-32ed-bda1f064f8d3",
+          "label": "Ajaw of Palenque"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q448453",
+        "title": "Casper (Maya ruler)",
+        "source": "https://en.wikipedia.org/wiki/Casper_%28Maya_ruler%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Palenque",
+            "raw": "9 August 435 – 487",
+            "parsed": {
+              "start": "0435-08-09",
+              "end": "0487-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "K'uk' Bahlam I",
+        "title": "K'uk' Bahlam I",
+        "person": "Q1151454",
+        "name": "K'uk' B'alam I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCuk%CA%BC_Bahlam_I",
+        "identityResolution": {
+          "requested": "K'uk' Bahlam I",
+          "canonical": "Kʼukʼ Bahlam I",
+          "qid": "Q1151454"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q120931640",
+          "start": "0431-03-10",
+          "end": "0435-01-01",
+          "precision": 9,
+          "statement": "Q1151454$6c8948af-43e3-26d5-2a79-fcba553a0569",
+          "label": "Ajaw of Palenque"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1151454",
+        "title": "Kʼukʼ Bahlam I",
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCuk%CA%BC_Bahlam_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Palenque",
+            "raw": "20 March 431 – 435",
+            "parsed": {
+              "start": "0431-03-20",
+              "end": "0435-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1151454",
+        "title": "K'uk' Bahlam I",
+        "source": "https://en.wikipedia.org/wiki/K%CA%BCuk%CA%BC_Bahlam_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Palenque",
+          "raw": "20 March 431 – 435",
+          "parsed": {
+            "start": "0431-03-20",
+            "end": "0435-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q448453",
+        "title": "Casper (Maya ruler)",
+        "source": "https://en.wikipedia.org/wiki/Casper_%28Maya_ruler%29",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Palenque",
+          "raw": "9 August 435 – 487",
+          "parsed": {
+            "start": "0435-08-09",
+            "end": "0487-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1835954",
+        "title": "B'utz Aj Sak Chiik",
+        "source": "https://en.wikipedia.org/wiki/B%CA%BCutz_Aj_Sak_Chiik",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Palenque",
+          "raw": "28 July 487 – 501",
+          "parsed": {
+            "start": "0487-07-28",
+            "end": "0501-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "authorityReview": [
+    {
+      "person": "Q1151454",
+      "originalRecords": [
+        {
+          "person": "Q1151454",
+          "name": "K'uk' B'alam I",
+          "role": "Ajaw de Palenque",
+          "start": "0431-03-20",
+          "end": "0435-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/K%CA%BCuk%CA%BC_Bahlam_I",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Sucesión epigráfica con presentación anual; las correlaciones gregorianas difieren en días. No fechar la fundación de la dinastía por el nacimiento del gobernante.",
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html"
+    },
+    {
+      "person": "Q448453",
+      "originalRecords": [
+        {
+          "person": "Q448453",
+          "name": "Casper",
+          "role": "Ajaw de Palenque",
+          "start": "0435-08-09",
+          "end": "0487-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/Casper_%28Maya_ruler%29",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+        }
+      ],
+      "decision": "Sucesión epigráfica con presentación anual; las correlaciones gregorianas difieren en días. No fechar la fundación de la dinastía por el nacimiento del gobernante.",
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html"
+    },
+    {
+      "person": "Q1835954",
+      "originalRecords": [
+        {
+          "person": "Q1835954",
+          "name": "B'utz Aj Sak Chiik",
+          "role": "Ajaw de Palenque",
+          "start": "0487-07-28",
+          "end": "0499-12-31",
+          "precision": 9,
+          "source": "https://en.wikipedia.org/wiki/B%CA%BCutz_Aj_Sak_Chiik",
+          "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+          "endIsCoverageBoundary": true
+        }
+      ],
+      "decision": "Sucesión epigráfica con presentación anual; las correlaciones gregorianas difieren en días. No fechar la fundación de la dinastía por el nacimiento del gobernante.",
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html"
+    }
+  ],
+  "documentedAuthorities": [
+    {
+      "person": "Q1151454",
+      "name": "K'uk' B'alam I",
+      "role": "Ajaw de Palenque",
+      "start": "0431-01-01",
+      "end": "0435-12-31",
+      "precision": 9,
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "note": "Sucesión epigráfica con presentación anual; las correlaciones gregorianas difieren en días. No fechar la fundación de la dinastía por el nacimiento del gobernante."
+    },
+    {
+      "person": "Q448453",
+      "name": "Casper · nombre convencional",
+      "role": "Ajaw de Palenque",
+      "start": "0435-01-01",
+      "end": "0487-12-31",
+      "precision": 9,
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "note": "Sucesión epigráfica con presentación anual; las correlaciones gregorianas difieren en días. No fechar la fundación de la dinastía por el nacimiento del gobernante."
+    },
+    {
+      "person": "Q1835954",
+      "name": "B'utz Aj Sak Chiik",
+      "role": "Ajaw de Palenque",
+      "start": "0487-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "note": "Sucesión epigráfica con presentación anual; las correlaciones gregorianas difieren en días. No fechar la fundación de la dinastía por el nacimiento del gobernante.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "places": [
+    {
+      "id": "seat036-39",
+      "name": "Palenque · corte local",
+      "coordinates": [
+        -92.045,
+        17.484
+      ],
+      "start": 431,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Palenque",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía. La agrupación cartográfica hospeda la selección; no declara vasallaje ni un Estado maya único.",
+      "standaloneReference": true,
+      "entityName": "Corte y dinastía de Palenque",
+      "aggregateKey": "HIST-Q28567"
+    },
+    {
+      "id": "seat036-39-own",
+      "name": "Palenque · corte local",
+      "coordinates": [
+        -92.045,
+        17.484
+      ],
+      "start": 431,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Palenque",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía. La agrupación cartográfica hospeda la selección; no declara vasallaje ni un Estado maya único.",
+      "entityName": "Corte y dinastía de Palenque"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review036-palenque",
+      "type": "institution",
+      "title": "Fundación dinástica y cronología epigráfica",
+      "start": "0431-01-01",
+      "end": "0500-01-01",
+      "text": "La entronización deK’uk’ B’alam en431 no es su nacimiento. Casper yB’utz Aj Sak Chiik son sucesores distintos; las correlaciones gregorianas varían en días.",
+      "source": "https://www.mesoweb.com/palenque/resources/rulers/rulers_table.html",
+      "sourceLabel": "Referencia documental · siglo V",
+      "precision": 9,
+      "note": "Contexto parcial y localización regional; no inventario completo de conflictos ni fronteras observadas diariamente."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q1151454",
+      "title": "K'uk' B'alam I.svg",
+      "reason": "Glifo nominativo deK’uk’ B’alam, no retrato personal.",
+      "source": "https://commons.wikimedia.org/wiki/File:K%27uk%27_B%27alam_I.svg"
+    },
+    {
+      "person": "Q1835954",
+      "title": "Glifo de B'utz Aj Sak Chiik en tablero del Templo XVII.jpg",
+      "reason": "Glifo nominativo deB’utz Aj Sak Chiik, no retrato personal.",
+      "source": "https://commons.wikimedia.org/wiki/File:Glifo_de_B%27utz_Aj_Sak_Chiik_en_tablero_del_Templo_XVII.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1151454",
+      "name": "K'uk' B'alam I",
+      "title": "K'uk' B'alam I.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:K%27uk%27_B%27alam_I.svg",
+      "sha256": "4509fb6d2f343e97d36e27ec456439b8467595c81cfbb7c96590c39ee4b67a7d",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Glifo nominativo deK’uk’ B’alam, no retrato personal."
+    },
+    {
+      "person": "Q1835954",
+      "name": "B'utz Aj Sak Chiik",
+      "title": "Glifo de B'utz Aj Sak Chiik en tablero del Templo XVII.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Glifo_de_B%27utz_Aj_Sak_Chiik_en_tablero_del_Templo_XVII.jpg",
+      "sha256": "b7d2e2874fe900a58c4f33d1ea7d82f0c9ff5b4e292107046b86bf7f2a5eb032",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Glifo nominativo deB’utz Aj Sak Chiik, no retrato personal."
+    }
+  ]
+}

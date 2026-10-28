@@ -1,5 +1,5 @@
 import { test, expect, type Page } from '@playwright/test';
-import { geologicalMa, historicalYears, PRESENT } from '../../src/time';
+import { geologicalMa, historicalYears, PRESENT, snapshotFor } from '../../src/time';
 async function disableRelief(page:Page){await expect(page.locator('#physical-layer')).toHaveAttribute('aria-pressed','false');}
 async function date(page:Page,year:number){await page.locator('#date-button').click();await page.locator('#date-input').fill(String(year));await page.locator('#date-form button').click();}
 async function present(page:Page){await page.locator('#ruler').focus();await page.keyboard.press('End');}
@@ -69,7 +69,7 @@ test('every shipped cartographic snapshot renders without exceeding GPU segments
   await disableRelief(page);
   // A global planar view also covers snapshots whose land lies on the far hemisphere.
   await page.locator('#projection-button').click();
-  const samples=[...historicalYears.map(y=>({year:y,file:y>=900?`history-${y}`:`world_${y<0?`bc${-y}`:y}.geojson`})),...geologicalMa.map(ma=>({year:ma===1?-1000001:-ma*1e6,file:`coastlines-${ma}.geojson`}))];
+  const samples=[...historicalYears.map(y=>{const snapshot=snapshotFor(y);return{year:y,file:snapshot.kind==='annual'?`history-${y}`:snapshot.file!};}),...geologicalMa.map(ma=>({year:ma===1?-1000001:-ma*1e6,file:`coastlines-${ma}.geojson`}))];
   for(const sample of samples){
     await page.locator('#date-button').click();
     await page.getByLabel('Año (negativo para a. C.)').fill(String(sample.year));

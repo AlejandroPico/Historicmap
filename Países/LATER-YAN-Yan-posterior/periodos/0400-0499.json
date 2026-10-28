@@ -1,0 +1,271 @@
+{
+  "key": "LATER-YAN",
+  "identity": {
+    "qid": "Q1534482",
+    "name": "Yan posterior"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Yan posterior",
+      "officePattern": "Emperor|King",
+      "titles": [
+        "Murong Sheng",
+        "Murong Xi"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1078573",
+      "name": "Murong Sheng",
+      "role": "Gobernante de Yan posterior",
+      "start": "0400-01-01",
+      "end": "0401-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Sheng",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q1071544",
+      "name": "Murong Xi",
+      "role": "Gobernante de Yan posterior",
+      "start": "0401-01-01",
+      "end": "0407-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Murong_Xi",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 407,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Murong_Sheng",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Yan"
+        ],
+        "start": 400,
+        "end": 407,
+        "label": "Yan posterior",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    },
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Yan"
+        ],
+        "start": 408,
+        "end": 499,
+        "label": "Yan posterior · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Contorno heredado o agrupación regional de fuente; no acredita una entidad unitaria vigente ni prolonga sus dinastías."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "95d4f4019bfb5909f65069b4a7cd0bdf2909bb496ec43bbe77c35d368f5fc1c0",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1587,
+        1634,
+        1641
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Murong Sheng",
+        "title": "Murong Sheng",
+        "person": "Q1078573",
+        "name": "Murong Sheng",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Murong_Sheng",
+        "identityResolution": {
+          "requested": "Murong Sheng",
+          "canonical": "Murong Sheng",
+          "qid": "Q1078573"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0398-01-01",
+          "end": "0401-01-01",
+          "precision": 9,
+          "statement": "Q1078573$0E4123E3-D142-4ADD-8993-2B4845FAC7ED",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1078573",
+        "title": "Murong Sheng",
+        "source": "https://en.wikipedia.org/wiki/Murong_Sheng",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Later Yan",
+            "raw": "August 19, 398 – September 13, 401",
+            "parsed": {
+              "start": "0398-08-19",
+              "end": "0401-09-13",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Yan",
+            "raw": "398–401",
+            "parsed": {
+              "start": "0398-01-01",
+              "end": "0401-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Murong Xi",
+        "title": "Murong Xi",
+        "person": "Q1071544",
+        "name": "Murong Xi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Murong_Xi",
+        "identityResolution": {
+          "requested": "Murong Xi",
+          "canonical": "Murong Xi",
+          "qid": "Q1071544"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0401-01-01",
+          "end": "0407-01-01",
+          "precision": 9,
+          "statement": "Q1071544$a2a9f195-314a-47bb-8a3b-9a27a1cd9a80",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1071544",
+        "title": "Murong Xi",
+        "source": "https://en.wikipedia.org/wiki/Murong_Xi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Later Yan",
+            "raw": "September 14, 401 – September 16, 407",
+            "parsed": {
+              "start": "0401-09-14",
+              "end": "0407-09-16",
+              "precision": 11
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Later Yan",
+            "raw": "401–407",
+            "parsed": {
+              "start": "0401-01-01",
+              "end": "0407-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1078573",
+        "title": "Murong Sheng",
+        "source": "https://en.wikipedia.org/wiki/Murong_Sheng",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Emperor of Later Yan",
+          "raw": "398–401",
+          "parsed": {
+            "start": "0398-01-01",
+            "end": "0401-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q1071544",
+        "title": "Murong Xi",
+        "source": "https://en.wikipedia.org/wiki/Murong_Xi",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Emperor of Later Yan",
+          "raw": "401–407",
+          "parsed": {
+            "start": "0401-01-01",
+            "end": "0407-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  }
+}

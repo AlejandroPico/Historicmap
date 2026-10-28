@@ -1,0 +1,69 @@
+{
+  "key": "REFERENCE-JIN-TRANSITIONS-Y0400",
+  "contextKey": "REFERENCE-JIN-TRANSITIONS",
+  "ownerKey": "REFERENCE-JIN-TRANSITIONS",
+  "name": "Ámbitos de Jin oriental y transformaciones posteriores",
+  "originalNames": [
+    "Jin"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 400",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    400,
+    499
+  ],
+  "interpretation": "Jin oriental continúa hasta420, seguido porLiu Song. No se presenta comoJin occidental, terminado en316, ni se prolongan los emperadoresJin durante todo el siglo.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea400 contiene etiquetas de épocas distintas. La ventana400–499 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de400",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    111.07261,
+    27.7005
+  ],
+  "phases": [
+    {
+      "start": 400,
+      "end": 499,
+      "label": "Ámbitos de Jin oriental y transformaciones posteriores",
+      "dateBasis": "Referencia regional de la fuente editorial400; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-JIN-TRANSITIONS-Y0400.geojson",
+  "geometrySha256": "b0df95fbbb5f27e3b18ace30000a3fe44c2dbdb31cfb9d03a2f4e94bb07b93e7",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2400d50f3/geojson/world_400.geojson",
+    "year": 400,
+    "featureIds": [
+      45
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7"
+  },
+  "review": "0.36.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final499 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en500."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Jin",
+      "ABBREVN": "Jin",
+      "SUBJECTO": "Jin",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Jin"
+    }
+  ],
+  "sourceGrouping": [
+    "Jin"
+  ]
+}

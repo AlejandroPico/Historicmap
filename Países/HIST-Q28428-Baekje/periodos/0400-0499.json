@@ -1,0 +1,739 @@
+{
+  "key": "HIST-Q28428",
+  "identity": {
+    "qid": "Q28428",
+    "name": "Baekje"
+  },
+  "revision": "0.36.0",
+  "acquisition": "century-400-0.36",
+  "coverageStart": 400,
+  "coverageEnd": 499,
+  "officeBounds": [
+    "0400-01-01",
+    "0499-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Baekje",
+      "officePattern": "King.*Baekje|King.*Paekche",
+      "titles": [
+        "Asin of Baekje",
+        "Jeonji of Baekje",
+        "Guisin of Baekje",
+        "Biyu of Baekje",
+        "Gaero of Baekje",
+        "Munju of Baekje",
+        "Samgeun of Baekje",
+        "Dongseong of Baekje"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q497688",
+      "name": "Asin of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0400-01-01",
+      "end": "0405-09-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Asin_of_Paekche",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q497705",
+      "name": "Jeonji of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0405-01-01",
+      "end": "0420-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jeonji_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q497730",
+      "name": "Guisin of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0420-01-01",
+      "end": "0427-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Guisin_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q497755",
+      "name": "Biyu of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0427-01-01",
+      "end": "0455-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Biyu_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q497775",
+      "name": "Gaero of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0455-01-01",
+      "end": "0475-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gaero_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q497796",
+      "name": "Munju of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0475-01-01",
+      "end": "0477-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Munju_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q497821",
+      "name": "Samgeun of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0477-01-01",
+      "end": "0479-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Samgeun_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente."
+    },
+    {
+      "person": "Q497846",
+      "name": "Dongseong of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0479-01-01",
+      "end": "0499-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dongseong_of_Baekje",
+      "note": "Dignidad histórica documentada; la ficha no acredita control uniforme de todo el contorno de fuente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 400,
+      "end": 499,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Asin_of_Paekche",
+      "sourceLabel": "Organización histórica documentada",
+      "note": "Clasificación institucional, sin acreditar control homogéneo ni evaluación democrática contemporánea."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Baekje"
+        ],
+        "start": 400,
+        "end": 499,
+        "label": "Baekje",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-400.md",
+        "note": "Síntesis con cronología y escala desiguales; consulta anual no equivale a fronteras observadas cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0400-0499.geojson",
+      "sha256": "b7005eeb07c0a20f393e0ca57e81387a4bab10296002cea793a5269387641cf4",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        1584,
+        1870
+      ],
+      "note": "Componentes originales completos, con propiedades e índices; sin modificar coordenadas."
+    }
+  ],
+  "pending": [
+    "Completar sucesiones menores, cronologías alternativas, símbolos e imágenes documentales y contraste espacial local; no inferir mandatos de fechas personales."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Asin of Baekje",
+        "title": "Asin of Baekje",
+        "person": "Q497688",
+        "name": "Asin of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Asin_of_Paekche",
+        "identityResolution": {
+          "requested": "Asin of Baekje",
+          "canonical": "Asin of Paekche",
+          "qid": "Q497688"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0392-01-01",
+          "end": "0405-01-01",
+          "precision": 9,
+          "statement": "Q497688$7e66e68b-4d9d-cf1a-5de6-0db4799b32f1",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497688",
+        "title": "Asin of Paekche",
+        "source": "https://en.wikipedia.org/wiki/Asin_of_Paekche",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Paekche",
+            "raw": "November 392 – September 405",
+            "parsed": {
+              "start": "0392-11-01",
+              "end": "0405-09-01",
+              "precision": 10
+            },
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "392–405",
+            "parsed": {
+              "start": "0392-01-01",
+              "end": "0405-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Biyu of Baekje",
+        "title": "Biyu of Baekje",
+        "person": "Q497755",
+        "name": "Biyu of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Biyu_of_Baekje",
+        "identityResolution": {
+          "requested": "Biyu of Baekje",
+          "canonical": "Biyu of Baekje",
+          "qid": "Q497755"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0427-01-01",
+          "end": "0455-01-01",
+          "precision": 9,
+          "statement": "Q497755$00fa8ad8-4645-657e-8047-6d961a5300b4",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497755",
+        "title": "Biyu of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Biyu_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "427–455",
+            "parsed": {
+              "start": "0427-01-01",
+              "end": "0455-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dongseong of Baekje",
+        "title": "Dongseong of Baekje",
+        "person": "Q497846",
+        "name": "Dongseong of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dongseong_of_Baekje",
+        "identityResolution": {
+          "requested": "Dongseong of Baekje",
+          "canonical": "Dongseong of Baekje",
+          "qid": "Q497846"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0479-01-01",
+          "end": "0501-01-01",
+          "precision": 9,
+          "statement": "Q497846$1a6532c5-451d-a57b-4d58-1d3cbe69dead",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497846",
+        "title": "Dongseong of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Dongseong_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "479–501",
+            "parsed": {
+              "start": "0479-01-01",
+              "end": "0501-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gaero of Baekje",
+        "title": "Gaero of Baekje",
+        "person": "Q497775",
+        "name": "Gaero of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gaero_of_Baekje",
+        "identityResolution": {
+          "requested": "Gaero of Baekje",
+          "canonical": "Gaero of Baekje",
+          "qid": "Q497775"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0455-01-01",
+          "end": "0475-01-01",
+          "precision": 9,
+          "statement": "Q497775$c227493a-4cbb-d58c-2ebf-204f58071069",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497775",
+        "title": "Gaero of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Gaero_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "455–475",
+            "parsed": {
+              "start": "0455-01-01",
+              "end": "0475-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Guisin of Baekje",
+        "title": "Guisin of Baekje",
+        "person": "Q497730",
+        "name": "Guisin of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Guisin_of_Baekje",
+        "identityResolution": {
+          "requested": "Guisin of Baekje",
+          "canonical": "Guisin of Baekje",
+          "qid": "Q497730"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0420-01-01",
+          "end": "0427-01-01",
+          "precision": 9,
+          "statement": "Q497730$9ad6d388-4914-1782-e941-54bb2020c718",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497730",
+        "title": "Guisin of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Guisin_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "420–427",
+            "parsed": {
+              "start": "0420-01-01",
+              "end": "0427-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Jeonji of Baekje",
+        "title": "Jeonji of Baekje",
+        "person": "Q497705",
+        "name": "Jeonji of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jeonji_of_Baekje",
+        "identityResolution": {
+          "requested": "Jeonji of Baekje",
+          "canonical": "Jeonji of Baekje",
+          "qid": "Q497705"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0405-01-01",
+          "end": "0420-01-01",
+          "precision": 9,
+          "statement": "Q497705$f50f5e02-494c-8b00-b191-2aa96d22fc9c",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497705",
+        "title": "Jeonji of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Jeonji_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "405–420",
+            "parsed": {
+              "start": "0405-01-01",
+              "end": "0420-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Munju of Baekje",
+        "title": "Munju of Baekje",
+        "person": "Q497796",
+        "name": "Munju of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Munju_of_Baekje",
+        "identityResolution": {
+          "requested": "Munju of Baekje",
+          "canonical": "Munju of Baekje",
+          "qid": "Q497796"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0475-01-01",
+          "end": "0477-01-01",
+          "precision": 9,
+          "statement": "Q497796$471804c6-49ec-c120-5c2f-60a2bbbe43ef",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497796",
+        "title": "Munju of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Munju_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "475–477",
+            "parsed": {
+              "start": "0475-01-01",
+              "end": "0477-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Samgeun of Baekje",
+        "title": "Samgeun of Baekje",
+        "person": "Q497821",
+        "name": "Samgeun of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Samgeun_of_Baekje",
+        "identityResolution": {
+          "requested": "Samgeun of Baekje",
+          "canonical": "Samgeun of Baekje",
+          "qid": "Q497821"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0477-01-01",
+          "end": "0479-01-01",
+          "precision": 9,
+          "statement": "Q497821$4bca04bd-46a1-b8eb-102e-0cab9dd98757",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497821",
+        "title": "Samgeun of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Samgeun_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "477–479",
+            "parsed": {
+              "start": "0477-01-01",
+              "end": "0479-12-31",
+              "precision": 9
+            },
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 8,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q497688",
+        "title": "Asin of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Asin_of_Paekche",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Paekche",
+          "raw": "November 392 – September 405",
+          "parsed": {
+            "start": "0392-11-01",
+            "end": "0405-09-01",
+            "precision": 10
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497705",
+        "title": "Jeonji of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Jeonji_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "405–420",
+          "parsed": {
+            "start": "0405-01-01",
+            "end": "0420-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497730",
+        "title": "Guisin of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Guisin_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "420–427",
+          "parsed": {
+            "start": "0420-01-01",
+            "end": "0427-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497755",
+        "title": "Biyu of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Biyu_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "427–455",
+          "parsed": {
+            "start": "0427-01-01",
+            "end": "0455-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497775",
+        "title": "Gaero of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Gaero_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "455–475",
+          "parsed": {
+            "start": "0455-01-01",
+            "end": "0475-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497796",
+        "title": "Munju of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Munju_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "475–477",
+          "parsed": {
+            "start": "0475-01-01",
+            "end": "0477-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497821",
+        "title": "Samgeun of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Samgeun_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "477–479",
+          "parsed": {
+            "start": "0477-01-01",
+            "end": "0479-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      },
+      {
+        "person": "Q497846",
+        "title": "Dongseong of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Dongseong_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "479–501",
+          "parsed": {
+            "start": "0479-01-01",
+            "end": "0501-12-31",
+            "precision": 9
+          },
+          "reignType": ""
+        }
+      }
+    ],
+    "pending": []
+  },
+  "places": [
+    {
+      "id": "seat036-33",
+      "name": "Hanseong · Baekje",
+      "coordinates": [
+        127.11,
+        37.53
+      ],
+      "start": 400,
+      "end": 475,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Baekje",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Baekje"
+    },
+    {
+      "id": "seat036-33-own",
+      "name": "Hanseong · Baekje",
+      "coordinates": [
+        127.11,
+        37.53
+      ],
+      "start": 400,
+      "end": 475,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Baekje",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Baekje"
+    },
+    {
+      "id": "seat036-34",
+      "name": "Ungjin · Baekje",
+      "coordinates": [
+        127.12,
+        36.46
+      ],
+      "start": 475,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Baekje",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "standaloneReference": true,
+      "entityName": "Baekje"
+    },
+    {
+      "id": "seat036-34-own",
+      "name": "Ungjin · Baekje",
+      "coordinates": [
+        127.12,
+        36.46
+      ],
+      "start": 475,
+      "end": 499,
+      "capital": true,
+      "role": "Corte o centro documental de referencia",
+      "source": "https://en.wikipedia.org/wiki/Baekje",
+      "note": "Coordenada regional de referencia; no prueba una residencia permanente o capital exclusiva ni genera fronteras de soberanía.",
+      "entityName": "Baekje"
+    }
+  ]
+}
