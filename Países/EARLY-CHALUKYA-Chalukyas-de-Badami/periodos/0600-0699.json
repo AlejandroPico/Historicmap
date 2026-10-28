@@ -1,0 +1,488 @@
+{
+  "key": "EARLY-CHALUKYA",
+  "identity": {
+    "qid": "Q1395011",
+    "name": "Chalukyas de Badami"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey chalukya de Badami",
+      "officePattern": "Chalukya|King",
+      "titles": [
+        "Mangalesha",
+        "Pulakeshin II",
+        "Vikramaditya I",
+        "Vinayaditya of Vatapi",
+        "Vijayaditya"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q12444610",
+      "name": "Mangalesha",
+      "role": "Rey chalukya de Badami",
+      "start": "0600-01-01",
+      "end": "0610-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mangalesha",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q708370",
+      "name": "Pulakesi II",
+      "role": "Rey chalukya de Badami",
+      "start": "0609-01-01",
+      "end": "0642-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pulakeshin_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q3576629",
+      "name": "Vikramaditya I",
+      "role": "Rey chalukya de Badami",
+      "start": "0655-01-01",
+      "end": "0680-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vikramaditya_I",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q7931393",
+      "name": "Vinayaditya",
+      "role": "Rey chalukya de Badami",
+      "start": "0681-01-01",
+      "end": "0696-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vinayaditya_of_Vatapi",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q7929259",
+      "name": "Vijayaditya",
+      "role": "Rey chalukya de Badami",
+      "start": "0696-07-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vijayaditya",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chalukya Dynasty"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Chalukyas de Badami",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "d11caefc55222adf2cf083d0927e4db070f5d8e0330c86a3d9845ae49c5f604c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2076,
+        2209,
+        2280,
+        2301,
+        2377,
+        2469,
+        2479,
+        2504,
+        2521
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Mangalesha",
+        "title": "Mangalesha",
+        "person": "Q12444610",
+        "name": "Mangalesha",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mangalesha",
+        "identityResolution": {
+          "requested": "Mangalesha",
+          "canonical": "Mangalesha",
+          "qid": "Q12444610"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15962467",
+          "start": "0596-01-01",
+          "end": "0610-01-01",
+          "precision": 9,
+          "statement": "Q12444610$6D6BCD41-1BC9-4CAC-9DA9-1510EF781833",
+          "label": "Chalukya king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12444610",
+        "title": "Mangalesha",
+        "source": "https://en.wikipedia.org/wiki/Mangalesha",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chalukya king",
+            "raw": "{{circa|592|610}}",
+            "parsed": {
+              "start": "0592-01-01",
+              "end": "0610-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pulakeshin II",
+        "title": "Pulakeshin II",
+        "person": "Q708370",
+        "name": "Pulakesi II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pulakeshin_II",
+        "identityResolution": {
+          "requested": "Pulakeshin II",
+          "canonical": "Pulakeshin II",
+          "qid": "Q708370"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15962467",
+          "start": "0610-01-01",
+          "end": "0642-01-01",
+          "precision": 9,
+          "statement": "Q708370$2a9f3fbc-4561-0523-bf46-e4f4a1c8049e",
+          "label": "Chalukya king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q708370",
+        "title": "Pulakeshin II",
+        "source": "https://en.wikipedia.org/wiki/Pulakeshin_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chalukya emperor",
+            "raw": "{{circa|609|642}}",
+            "parsed": {
+              "start": "0609-01-01",
+              "end": "0642-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vijayaditya",
+        "title": "Vijayaditya",
+        "person": "Q7929259",
+        "name": "Vijayaditya",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vijayaditya",
+        "identityResolution": {
+          "requested": "Vijayaditya",
+          "canonical": "Vijayaditya",
+          "qid": "Q7929259"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15962467",
+          "start": "0696-01-01",
+          "end": "0733-01-01",
+          "precision": 9,
+          "statement": "Q7929259$8cb327e8-49e2-ab63-919a-11235bdcd723",
+          "label": "Chalukya king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7929259",
+        "title": "Vijayaditya",
+        "source": "https://en.wikipedia.org/wiki/Vijayaditya",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chalukya king",
+            "raw": "July 696<ref name=\"z171\">{{cite web | title=Political History of the Chalukyas of Badami | url=https://ia800802.us.archive.org/31/items/in.ernet.dli.2015.99164/2015.99164.Political-History-Of-The-Chalukyas-Of-Badami_text.pdf | access-date=8 April 2026}}</ref> – 733",
+            "parsed": {
+              "start": "0696-07-01",
+              "end": "0733-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vikramaditya I",
+        "title": "Vikramaditya I",
+        "person": "Q3576629",
+        "name": "Vikramaditya I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vikramaditya_I",
+        "identityResolution": {
+          "requested": "Vikramaditya I",
+          "canonical": "Vikramaditya I",
+          "qid": "Q3576629"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15962467",
+          "start": "0655-01-01",
+          "end": "0680-01-01",
+          "precision": 9,
+          "statement": "Q3576629$7b7f22f8-42a6-abc7-5339-877e5ff29e79",
+          "label": "Chalukya king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3576629",
+        "title": "Vikramaditya I",
+        "source": "https://en.wikipedia.org/wiki/Vikramaditya_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chalukyan Emperor",
+            "raw": "{{circa|655|680}}",
+            "parsed": {
+              "start": "0655-01-01",
+              "end": "0680-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Vinayaditya of Vatapi",
+        "title": "Vinayaditya of Vatapi",
+        "person": "Q7931393",
+        "name": "Vinayaditya",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vinayaditya_of_Vatapi",
+        "identityResolution": {
+          "requested": "Vinayaditya of Vatapi",
+          "canonical": "Vinayaditya of Vatapi",
+          "qid": "Q7931393"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q15962467",
+          "start": "0680-01-01",
+          "end": "0696-01-01",
+          "precision": 9,
+          "statement": "Q7931393$3a70782c-4ccf-4c18-b63e-54b57e65fee3",
+          "label": "Chalukya king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7931393",
+        "title": "Vinayaditya of Vatapi",
+        "source": "https://en.wikipedia.org/wiki/Vinayaditya_of_Vatapi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chalukya Emperor",
+            "raw": "{{circa|681|696}}",
+            "parsed": {
+              "start": "0681-01-01",
+              "end": "0696-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q12444610",
+        "title": "Mangalesha",
+        "source": "https://en.wikipedia.org/wiki/Mangalesha",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chalukya king",
+          "raw": "{{circa|592|610}}",
+          "parsed": {
+            "start": "0592-01-01",
+            "end": "0610-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q708370",
+        "title": "Pulakeshin II",
+        "source": "https://en.wikipedia.org/wiki/Pulakeshin_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chalukya emperor",
+          "raw": "{{circa|609|642}}",
+          "parsed": {
+            "start": "0609-01-01",
+            "end": "0642-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q3576629",
+        "title": "Vikramaditya I",
+        "source": "https://en.wikipedia.org/wiki/Vikramaditya_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chalukyan Emperor",
+          "raw": "{{circa|655|680}}",
+          "parsed": {
+            "start": "0655-01-01",
+            "end": "0680-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q7931393",
+        "title": "Vinayaditya of Vatapi",
+        "source": "https://en.wikipedia.org/wiki/Vinayaditya_of_Vatapi",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chalukya Emperor",
+          "raw": "{{circa|681|696}}",
+          "parsed": {
+            "start": "0681-01-01",
+            "end": "0696-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q7929259",
+        "title": "Vijayaditya",
+        "source": "https://en.wikipedia.org/wiki/Vijayaditya",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Chalukya king",
+          "raw": "July 696<ref name=\"z171\">{{cite web | title=Political History of the Chalukyas of Badami | url=https://ia800802.us.archive.org/31/items/in.ernet.dli.2015.99164/2015.99164.Political-History-Of-The-Chalukyas-Of-Badami_text.pdf | access-date=8 April 2026}}</ref> – 733",
+          "parsed": {
+            "start": "0696-07-01",
+            "end": "0733-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-24",
+      "name": "Vatapi · Badami",
+      "coordinates": [
+        75.681,
+        15.92
+      ],
+      "start": 600,
+      "end": 699,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Chalukya_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q708370",
+      "title": "Pulikesin II, the Chalukhaya, receives envoys from Persia (1).jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Pulikesin_II,_the_Chalukhaya,_receives_envoys_from_Persia_(1).jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q708370",
+      "name": "Pulakesi II",
+      "title": "Pulikesin II, the Chalukhaya, receives envoys from Persia (1).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pulikesin_II,_the_Chalukhaya,_receives_envoys_from_Persia_(1).jpg",
+      "sha256": "7862716e8a96e04f92c9dc67ccd1d18688d3418526cd907fa4948ec758a5c32a",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ]
+}

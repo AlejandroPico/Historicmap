@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-EMPIRE-OF-GHANA-CE9F841D",
+  "name": "Empire of Ghana",
+  "qid": "",
+  "aliases": [
+    "Empire of Ghana"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 91,
+      "start": null,
+      "end": null,
+      "name": "Empire of Ghana",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-EMPIRE-OF-GHANA-CE9F841D-Y0600:0",
+      "contextKey": "CULTURE-EMPIRE-OF-GHANA-CE9F841D",
+      "start": 600,
+      "end": 699,
+      "sourceYear": 600,
+      "canonicalFile": "Países/CULTURE-EMPIRE-OF-GHANA-CE9F841D-Empire-of-Ghana/poblamiento/CULTURE-EMPIRE-OF-GHANA-CE9F841D-Y0600.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

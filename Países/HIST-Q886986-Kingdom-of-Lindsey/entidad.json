@@ -1,0 +1,51 @@
+{
+  "key": "HIST-Q886986",
+  "name": "Kingdom of Lindsey",
+  "qid": "Q886986",
+  "aliases": [
+    "Kingdom of Lindsey"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q886986"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2079",
+      "start": 600,
+      "end": 611,
+      "name": "Kingdom of Lindsey",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2250",
+      "start": 612,
+      "end": 622,
+      "name": "Kingdom of Lindsey",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2284",
+      "start": 623,
+      "end": 625,
+      "name": "Kingdom of Lindsey",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

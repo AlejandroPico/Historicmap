@@ -1,0 +1,51 @@
+{
+  "key": "HIST-Q289577",
+  "name": "Himyarite Kingdom",
+  "qid": "Q289577",
+  "aliases": [
+    "Himyarite Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q289577"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 16,
+      "start": null,
+      "end": null,
+      "name": "Himyarite Kingdom",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 22,
+      "start": null,
+      "end": null,
+      "name": "Himyarite Kingdom",
+      "status": null
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2183",
+      "start": 600,
+      "end": 601,
+      "name": "Himyarite Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

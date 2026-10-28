@@ -1,0 +1,448 @@
+{
+  "key": "HIST-Q199389",
+  "identity": {
+    "qid": "Q199389",
+    "name": "Principality of Iberia"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Príncipe presidente de Iberia caucásica",
+      "officePattern": "Prince|Ruler|King",
+      "titles": [
+        "Guaram I of Iberia",
+        "Stephen I of Iberia",
+        "Adarnase I of Iberia",
+        "Stephen II of Iberia",
+        "Adarnase II of Iberia",
+        "Guaram II of Iberia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1092494",
+      "name": "Esteban I de Iberia",
+      "role": "Príncipe presidente de Iberia caucásica",
+      "start": "0600-01-01",
+      "end": "0627-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Stephen_I_of_Iberia",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q2715388",
+      "name": "Adarnase I",
+      "role": "Príncipe presidente de Iberia caucásica",
+      "start": "0627-01-01",
+      "end": "0642-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Adarnase_I",
+      "note": "Cronología con variantes637/642 y684/685 en los campos explícitos. Las ventanas pueden solaparse por discrepancias documentales, no por un gobierno conjunto acreditado.",
+      "endIsUpperBound": true
+    },
+    {
+      "person": "Q3502260",
+      "name": "Esteban II",
+      "role": "Príncipe presidente de Iberia caucásica",
+      "start": "0637-01-01",
+      "end": "0650-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Stephen_II_of_Iberia",
+      "note": "Cronología con variantes637/642 y684/685 en los campos explícitos. Las ventanas pueden solaparse por discrepancias documentales, no por un gobierno conjunto acreditado.",
+      "endIsUpperBound": true
+    },
+    {
+      "person": "Q2824109",
+      "name": "Adarnase II",
+      "role": "Príncipe presidente de Iberia caucásica",
+      "start": "0650-01-01",
+      "end": "0685-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Adarnase_II",
+      "note": "Cronología con variantes637/642 y684/685 en los campos explícitos. Las ventanas pueden solaparse por discrepancias documentales, no por un gobierno conjunto acreditado.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Principality of Iberia"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Principality of Iberia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "67034eb6ad4adfc4a0cf6beb689ecc78f53f1d1fabb3dde3b703e244b0ce0866",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2592
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Adarnase I of Iberia",
+        "title": "Adarnase I of Iberia",
+        "person": "Q2715388",
+        "name": "Adarnase I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Adarnase_I",
+        "identityResolution": {
+          "requested": "Adarnase I of Iberia",
+          "canonical": "Adarnase I",
+          "qid": "Q2715388"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2715388",
+        "title": "Adarnase I",
+        "source": "https://en.wikipedia.org/wiki/Adarnase_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Iberia",
+            "raw": "627 -637/642",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Adarnase II of Iberia",
+        "title": "Adarnase II of Iberia",
+        "person": "Q2824109",
+        "name": "Adarnase II de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Adarnase_II",
+        "identityResolution": {
+          "requested": "Adarnase II of Iberia",
+          "canonical": "Adarnase II",
+          "qid": "Q2824109"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2824109",
+        "title": "Adarnase II",
+        "source": "https://en.wikipedia.org/wiki/Adarnase_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Iberia",
+            "raw": "650 - 684/85",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Guaram I of Iberia",
+        "title": "Guaram I of Iberia",
+        "person": "Q1092477",
+        "name": "Guaram I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Guaram_I",
+        "identityResolution": {
+          "requested": "Guaram I of Iberia",
+          "canonical": "Guaram I",
+          "qid": "Q1092477"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1092477",
+        "title": "Guaram I",
+        "source": "https://en.wikipedia.org/wiki/Guaram_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Iberia",
+            "raw": "588 - 590",
+            "parsed": {
+              "start": "0588-01-01",
+              "end": "0590-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Guaram II of Iberia",
+        "title": "Guaram II of Iberia",
+        "person": "Q3111558",
+        "name": "Guaram II de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Guaram_II",
+        "identityResolution": {
+          "requested": "Guaram II of Iberia",
+          "canonical": "Guaram II",
+          "qid": "Q3111558"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3111558",
+        "title": "Guaram II",
+        "source": "https://en.wikipedia.org/wiki/Guaram_II",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Stephen I of Iberia",
+        "title": "Stephen I of Iberia",
+        "person": "Q1092494",
+        "name": "Esteban I de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Stephen_I_of_Iberia",
+        "identityResolution": {
+          "requested": "Stephen I of Iberia",
+          "canonical": "Stephen I of Iberia",
+          "qid": "Q1092494"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1092494",
+        "title": "Stephen I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Stephen_I_of_Iberia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Iberia",
+            "raw": "590 – 627",
+            "parsed": {
+              "start": "0590-01-01",
+              "end": "0627-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Stephen II of Iberia",
+        "title": "Stephen II of Iberia",
+        "person": "Q3502260",
+        "name": "Esteban II de Iberia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Stephen_II_of_Iberia",
+        "identityResolution": {
+          "requested": "Stephen II of Iberia",
+          "canonical": "Stephen II of Iberia",
+          "qid": "Q3502260"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3502260",
+        "title": "Stephen II of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Stephen_II_of_Iberia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Prince of Iberia",
+            "raw": "<nowiki>637/642 - c. 650</nowiki>",
+            "parsed": null
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1092494",
+        "title": "Stephen I of Iberia",
+        "source": "https://en.wikipedia.org/wiki/Stephen_I_of_Iberia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Ruler of Iberia",
+          "raw": "590 – 627",
+          "parsed": {
+            "start": "0590-01-01",
+            "end": "0627-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Adarnase I of Iberia",
+        "person": "Q2715388",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Stephen II of Iberia",
+        "person": "Q3502260",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Adarnase II of Iberia",
+        "person": "Q2824109",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Guaram II of Iberia",
+        "person": "Q3111558",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q2715388",
+      "name": "Adarnase I",
+      "role": "Príncipe presidente de Iberia caucásica",
+      "start": "0627-01-01",
+      "end": "0642-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Adarnase_I",
+      "note": "Cronología con variantes637/642 y684/685 en los campos explícitos. Las ventanas pueden solaparse por discrepancias documentales, no por un gobierno conjunto acreditado.",
+      "endIsUpperBound": true
+    },
+    {
+      "person": "Q3502260",
+      "name": "Esteban II",
+      "role": "Príncipe presidente de Iberia caucásica",
+      "start": "0637-01-01",
+      "end": "0650-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Stephen_II_of_Iberia",
+      "note": "Cronología con variantes637/642 y684/685 en los campos explícitos. Las ventanas pueden solaparse por discrepancias documentales, no por un gobierno conjunto acreditado.",
+      "endIsUpperBound": true
+    },
+    {
+      "person": "Q2824109",
+      "name": "Adarnase II",
+      "role": "Príncipe presidente de Iberia caucásica",
+      "start": "0650-01-01",
+      "end": "0685-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Adarnase_II",
+      "note": "Cronología con variantes637/642 y684/685 en los campos explícitos. Las ventanas pueden solaparse por discrepancias documentales, no por un gobierno conjunto acreditado.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q1092494",
+      "title": "Victor Langlois. Stéphanos I. PL II. No.13.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor_Langlois._St%C3%A9phanos_I._PL_II._No.13.jpg"
+    },
+    {
+      "person": "Q2715388",
+      "title": "Adarnase praying before Jesus Christ - Jvari Monastery bas relief.JPG",
+      "reason": "Relieve deJvari con identificación/cronología discutidas; el mismo archivo no permite distinguir AdarnaseI yII.",
+      "source": "https://commons.wikimedia.org/wiki/File:Adarnase_praying_before_Jesus_Christ_-_Jvari_Monastery_bas_relief.JPG"
+    },
+    {
+      "person": "Q2824109",
+      "title": "Adarnase praying before Jesus Christ - Jvari Monastery bas relief.JPG",
+      "reason": "Relieve deJvari con identificación/cronología discutidas; el mismo archivo no permite distinguir AdarnaseI yII.",
+      "source": "https://commons.wikimedia.org/wiki/File:Adarnase_praying_before_Jesus_Christ_-_Jvari_Monastery_bas_relief.JPG"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q1092494",
+      "name": "Esteban I de Iberia",
+      "title": "Victor Langlois. Stéphanos I. PL II. No.13.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor_Langlois._St%C3%A9phanos_I._PL_II._No.13.jpg",
+      "sha256": "9d4532b4890919500f8236dc8eb1e0018ffac73019bde9585f61978e8dc7dc70",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q2715388",
+      "name": "Adarnase I",
+      "title": "Adarnase praying before Jesus Christ - Jvari Monastery bas relief.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Adarnase_praying_before_Jesus_Christ_-_Jvari_Monastery_bas_relief.JPG",
+      "sha256": "958cbca0e2ce0b2100c590b82a9cbf2b5319f7aacd4f4d17e636f8ab2fc4c268",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Relieve deJvari con identificación/cronología discutidas; el mismo archivo no permite distinguir AdarnaseI yII."
+    },
+    {
+      "person": "Q2824109",
+      "name": "Adarnase II",
+      "title": "Adarnase praying before Jesus Christ - Jvari Monastery bas relief.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Adarnase_praying_before_Jesus_Christ_-_Jvari_Monastery_bas_relief.JPG",
+      "sha256": "958cbca0e2ce0b2100c590b82a9cbf2b5319f7aacd4f4d17e636f8ab2fc4c268",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Relieve deJvari con identificación/cronología discutidas; el mismo archivo no permite distinguir AdarnaseI yII."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "key": "ZUBAYRID-CALIPHATE",
+  "name": "Califato zubayrí · autoridad rival",
+  "qid": "",
+  "aliases": [
+    "Califato zubayrí · autoridad rival"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "ZUBAYRID-CALIPHATE"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q307665",
+      "name": "Abd Allah ibn al-Zubayr",
+      "role": "Pretendiente rival al califato · poder zubayrí",
+      "start": "0683-01-01",
+      "end": "0692-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abd_Allah_ibn_al-Zubayr",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,81 @@
+{
+  "key": "HIST-Q28428",
+  "name": "Baekje",
+  "qid": "Q28428",
+  "aliases": [
+    "Baekje"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q28428"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q497983",
+      "name": "Beop of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0600-01-01",
+      "end": "0600-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/P%C5%8Fp_of_Paekche",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q498007",
+      "name": "Mu of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0600-01-01",
+      "end": "0641-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mu_of_Baekje",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q498030",
+      "name": "Uija of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0641-01-01",
+      "end": "0660-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Uija_of_Baekje",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2128",
+      "start": 600,
+      "end": 655,
+      "name": "Baekje",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2489",
+      "start": 656,
+      "end": 660,
+      "name": "Baekje",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

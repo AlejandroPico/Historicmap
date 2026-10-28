@@ -1,0 +1,1442 @@
+{
+  "key": "BYZANTINE",
+  "identity": {
+    "qid": "Q12544",
+    "name": "Imperio romano de Oriente / bizantino"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador / emperatriz bizantina",
+      "officePattern": "Byzantine.*emperor|Byzantine.*empress|Emperor.*Roman|Empress.*Roman",
+      "titles": [
+        "Maurice (emperor)",
+        "Phocas",
+        "Heraclius",
+        "Heraclius Constantine",
+        "Heraclonas",
+        "Constans II",
+        "Constantine IV",
+        "Justinian II",
+        "Leontius",
+        "Tiberius III",
+        "Martina (empress)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q181764",
+      "name": "Mauricio",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0600-01-01",
+      "end": "0602-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Maurice_%28emperor%29",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-64ace73a4600cc05af79.jpg",
+        "title": "Solidus-Maurice Tiberius-sb0481.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Maurice_Tiberius-sb0481.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Solidus-Maurice_Tiberius-sb0481.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "ee8bdd67aec5a43ca78c04fe9eae8094cc9936c57160ecd10839ecd7bfb3effb",
+        "bytes": 81240,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-64ace73a4600cc05af79.jpg",
+        "caption": "Tipo monetario convencional atribuido a Mauricio; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q31556",
+      "name": "Focas",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0602-01-01",
+      "end": "0610-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Phocas",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-49c87a3977dba48b5165.jpg",
+        "title": "Phocas cons.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Phocas_cons.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Phocas_cons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Wikipedia",
+        "sha256": "eac536ab574a637a5cb16cdc20a8035703c2e5b6159562aff1e6a6bc772e96b8",
+        "bytes": 211569,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-49c87a3977dba48b5165.jpg",
+        "caption": "Tipo monetario convencional atribuido a Focas; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q41852",
+      "name": "Heraclio",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0610-10-05",
+      "end": "0641-02-11",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Heraclius",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-a5f5b6eafabf53aca6d1.jpg",
+        "title": "Heraclius and Heraclius Constantine solidus.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Heraclius_and_Heraclius_Constantine_solidus.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Heraclius_and_Heraclius_Constantine_solidus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Heraclius_and_Heraclius_Constantine_solidus.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.wildwinds.com/coins/sb/sb0734.html",
+        "sha256": "5a2e6847986ed75f4bdbaf9adebb0bebf9b7ca55a9dca69694736ca91622e184",
+        "bytes": 97937,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-a5f5b6eafabf53aca6d1.jpg",
+        "caption": "Moneda con Heraclio y Heraclio Constantino; representación conjunta de autoridad, no retrato individual del natural."
+      }
+    },
+    {
+      "person": "Q41615",
+      "name": "Constantino III Heraclio",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0641-02-11",
+      "end": "0641-05-25",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Heraclius_Constantine",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-f1c46781ad11f6217ece.jpg",
+        "title": "Solidus-Heraclius-sb0764.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Heraclius-sb0764.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Solidus-Heraclius-sb0764.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "7248ce55f42a3fa46c1a8ab74ffb0ed7bd22aac8d85b5b3d58ec96f336e00821",
+        "bytes": 88375,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-f1c46781ad11f6217ece.jpg",
+        "caption": "Sólido con efigies dinásticas de Heraclio y sus hijos; no una representación individual exclusiva de ConstantinoIII."
+      }
+    },
+    {
+      "person": "Q31513",
+      "name": "Heraclio II",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0641-01-01",
+      "end": "0641-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Heraclonas",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-f1c46781ad11f6217ece.jpg",
+        "title": "Solidus-Heraclius-sb0764.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Heraclius-sb0764.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Solidus-Heraclius-sb0764.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "7248ce55f42a3fa46c1a8ab74ffb0ed7bd22aac8d85b5b3d58ec96f336e00821",
+        "bytes": 88375,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-f1c46781ad11f6217ece.jpg",
+        "caption": "Sólido con efigies dinásticas de Heraclio y sus hijos; no una representación individual exclusiva de Heraclonas."
+      }
+    },
+    {
+      "person": "Q41613",
+      "name": "Constante II",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0641-11-01",
+      "end": "0668-07-15",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Constans_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-26e96ded97dd4ab582f6.jpg",
+        "title": "Hexagram-Constans II and Constantine IV-sb0995.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hexagram-Constans_II_and_Constantine_IV-sb0995.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hexagram-Constans_II_and_Constantine_IV-sb0995.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "5deb36429b92ee72a609ad72aa0fe7c4a3168e2189c9c66105c2a1068a10a049",
+        "bytes": 36665,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-26e96ded97dd4ab582f6.jpg",
+        "caption": "Moneda con ConstanteII y ConstantinoIV; representación conjunta convencional, no fisonomía individual acreditada."
+      }
+    },
+    {
+      "person": "Q41605",
+      "name": "Constantino IV",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0668-09-01",
+      "end": "0685-07-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Constantine_IV",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-bb95d281d376a7b220c1.jpg",
+        "title": "Constantine IV.jpeg",
+        "url": "https://commons.wikimedia.org/wiki/File:Constantine_IV.jpeg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Constantine_IV.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "547b6f5c79b4ace2f8082b6410d83e1396284c009c087bd795b947eeb40d60ed",
+        "bytes": 65500,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-bb95d281d376a7b220c1.jpg",
+        "caption": "Tipo monetario convencional atribuido a Constantino IV; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q42021",
+      "name": "Justiniano II",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0685-07-10",
+      "end": "0695-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Justinian_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q44386",
+      "name": "Leoncio",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0695-01-01",
+      "end": "0698-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Leontius",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-03a77beb5c87283a3ed8.jpg",
+        "title": "Solidus-Leontinus-sb1330.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Leontinus-sb1330.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Solidus-Leontinus-sb1330.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "49a9fd1718c1e0811106b16dcce0817c4fe992ad4405398aa224b807aee54638",
+        "bytes": 86940,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-03a77beb5c87283a3ed8.jpg",
+        "caption": "Tipo monetario convencional atribuido a Leoncio; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q41637",
+      "name": "Tiberio III",
+      "role": "Emperador / emperatriz bizantina",
+      "start": "0698-01-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tiberius_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-4e198668d50103f64a2e.jpg",
+        "title": "Solidus-Tiberius III-sb1360.4.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus-Tiberius_III-sb1360.4.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Solidus-Tiberius_III-sb1360.4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "898bd7a28249e8ed53ff69468dbb6d40523ecbf52d9a32beaa3f029856664c3e",
+        "bytes": 181457,
+        "canonicalFile": "Países/BYZANTINE-Imperio-bizantino/retratos/portrait-4e198668d50103f64a2e.jpg",
+        "caption": "Tipo monetario convencional atribuido a Tiberio III; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review034-persian-war",
+      "type": "conflict",
+      "title": "Guerra romano-sasánida",
+      "start": "0602-01-01",
+      "end": "0629-01-01",
+      "text": "Ofensivas y reconquistas entre602 y628 transforman el Levante. El punto regional no es un frente diario ni acredita ocupación uniforme de toda la superficie de las entidades.",
+      "source": "https://en.wikipedia.org/wiki/Byzantine–Sasanian_War_of_602–628",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Eastern Roman Empire"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Imperio romano de Oriente / bizantino",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Byzantine Empire"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Imperio romano de Oriente / bizantino",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "6ac95eb4ef2f11568ec0560adbb5f0f87bec5c29c450e1df70f7b5dc91be79d3",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2200,
+        2208,
+        2248,
+        2253,
+        2279,
+        2302,
+        2315,
+        2330,
+        2337,
+        2345,
+        2370,
+        2396,
+        2414,
+        2436,
+        2480,
+        2496,
+        2514,
+        2554,
+        2568,
+        2588,
+        2619
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Constans II",
+        "title": "Constans II",
+        "person": "Q41613",
+        "name": "Constante II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Constans_II",
+        "identityResolution": {
+          "requested": "Constans II",
+          "canonical": "Constans II",
+          "qid": "Q41613"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0641-09-01",
+          "end": "0668-09-15",
+          "precision": 10,
+          "statement": "Q41613$45f27ece-4e3c-0c3e-754d-78749a1d4799",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41613",
+        "title": "Constans II",
+        "source": "https://en.wikipedia.org/wiki/Constans_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "November 641 – 15 July 668",
+            "parsed": {
+              "start": "0641-11-01",
+              "end": "0668-07-15",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine Emperor",
+            "raw": "641–668",
+            "parsed": {
+              "start": "0641-01-01",
+              "end": "0668-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "642",
+            "parsed": {
+              "start": "0642-01-01",
+              "end": "0642-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Constantine IV",
+        "title": "Constantine IV",
+        "person": "Q41605",
+        "name": "Constantino IV",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Constantine_IV",
+        "identityResolution": {
+          "requested": "Constantine IV",
+          "canonical": "Constantine IV",
+          "qid": "Q41605"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0654-01-01",
+          "end": "0685-09-14",
+          "precision": 9,
+          "statement": "Q41605$1b1187be-44f1-24cc-ad6a-89ab192fd212",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41605",
+        "title": "Constantine IV",
+        "source": "https://en.wikipedia.org/wiki/Constantine_IV",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "September 668 – July 685",
+            "parsed": {
+              "start": "0668-09-01",
+              "end": "0685-07-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "668–685",
+            "parsed": {
+              "start": "0668-01-01",
+              "end": "0685-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "668",
+            "parsed": {
+              "start": "0668-01-01",
+              "end": "0668-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Heraclius",
+        "title": "Heraclius",
+        "person": "Q41852",
+        "name": "Heraclio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Heraclius",
+        "identityResolution": {
+          "requested": "Heraclius",
+          "canonical": "Heraclius",
+          "qid": "Q41852"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0610-10-05",
+          "end": "0641-02-11",
+          "precision": 11,
+          "statement": "Q41852$a745cedc-4388-cd11-d2dc-faf239fea42e",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41852",
+        "title": "Heraclius",
+        "source": "https://en.wikipedia.org/wiki/Heraclius",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "5 October 610&nbsp;– 11 February 641",
+            "parsed": {
+              "start": "0610-10-05",
+              "end": "0641-02-11",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "610–641",
+            "parsed": {
+              "start": "0610-01-01",
+              "end": "0641-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "608 and 611",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Heraclius Constantine",
+        "title": "Heraclius Constantine",
+        "person": "Q41615",
+        "name": "Constantino III Heraclio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Heraclius_Constantine",
+        "identityResolution": {
+          "requested": "Heraclius Constantine",
+          "canonical": "Heraclius Constantine",
+          "qid": "Q41615"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0641-02-01",
+          "end": "0641-05-01",
+          "precision": 10,
+          "statement": "Q41615$b0330fbf-4218-35e4-b0bb-e2e18f871269",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41615",
+        "title": "Heraclius Constantine",
+        "source": "https://en.wikipedia.org/wiki/Heraclius_Constantine",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "11 February – 25 May 641",
+            "parsed": {
+              "start": "0641-02-11",
+              "end": "0641-05-25",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "613–641",
+            "parsed": {
+              "start": "0613-01-01",
+              "end": "0641-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "632",
+            "parsed": {
+              "start": "0632-01-01",
+              "end": "0632-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Heraclonas",
+        "title": "Heraclonas",
+        "person": "Q31513",
+        "name": "Heraclio II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Heraclonas",
+        "identityResolution": {
+          "requested": "Heraclonas",
+          "canonical": "Heraclonas",
+          "qid": "Q31513"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0641-02-01",
+          "end": "0641-09-01",
+          "precision": 10,
+          "statement": "Q31513$16706690-4780-f95f-41d8-9f6bd41797bd",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q31513",
+        "title": "Heraclonas",
+        "source": "https://en.wikipedia.org/wiki/Heraclonas",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "February – October/",
+            "parsed": null
+          },
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "November 641",
+            "parsed": null
+          },
+          {
+            "field": "reign1",
+            "office": "Byzantine emperor",
+            "raw": "1 January 632 –⁠ 4 July 638",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "641",
+            "parsed": {
+              "start": "0641-01-01",
+              "end": "0641-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman Consul",
+            "raw": "639",
+            "parsed": {
+              "start": "0639-01-01",
+              "end": "0639-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Justinian II",
+        "title": "Justinian II",
+        "person": "Q42021",
+        "name": "Justiniano II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Justinian_II",
+        "identityResolution": {
+          "requested": "Justinian II",
+          "canonical": "Justinian II",
+          "qid": "Q42021"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0685-09-14",
+          "end": "0695-01-01",
+          "precision": 9,
+          "statement": "Q42021$7899e4d1-498f-9ccd-982c-960ba4972c29",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q42021",
+        "title": "Justinian II",
+        "source": "https://en.wikipedia.org/wiki/Justinian_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "10 July 685 – 695",
+            "parsed": {
+              "start": "0685-07-10",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Byzantine emperor",
+            "raw": "21 August 705 – 4 November 711",
+            "parsed": {
+              "start": "0705-08-21",
+              "end": "0711-11-04",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine Emperor",
+            "raw": "681–695",
+            "parsed": {
+              "start": "0681-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine Emperor",
+            "raw": "705–711",
+            "parsed": {
+              "start": "0705-01-01",
+              "end": "0711-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "686",
+            "parsed": {
+              "start": "0686-01-01",
+              "end": "0686-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Leontius",
+        "title": "Leontius",
+        "person": "Q44386",
+        "name": "Leoncio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Leontius",
+        "identityResolution": {
+          "requested": "Leontius",
+          "canonical": "Leontius",
+          "qid": "Q44386"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0695-01-01",
+          "end": "0698-01-01",
+          "precision": 9,
+          "statement": "Q44386$9a3a39ac-4fa5-24d1-3cad-6a7759d367f4",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q44386",
+        "title": "Leontius",
+        "source": "https://en.wikipedia.org/wiki/Leontius",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "695–698",
+            "parsed": {
+              "start": "0695-01-01",
+              "end": "0698-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Martina (empress)",
+        "title": "Martina (empress)",
+        "person": "Q269941",
+        "name": "Martina",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Martina_%28empress%29",
+        "identityResolution": {
+          "requested": "Martina (empress)",
+          "canonical": "Martina (empress)",
+          "qid": "Q269941"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q81299243",
+          "start": "0613-01-01",
+          "end": "0641-01-01",
+          "precision": 9,
+          "statement": "Q269941$9fb6c1a6-4da6-b5c7-4ffa-f512712ad071",
+          "label": "Emperatriz de Bizancio"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q269941",
+        "title": "Martina (empress)",
+        "source": "https://en.wikipedia.org/wiki/Martina_%28empress%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Empress of the Byzantine Empire",
+            "raw": "613–641",
+            "parsed": {
+              "start": "0613-01-01",
+              "end": "0641-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine Empress consort",
+            "raw": "{{Circa|613}}–641",
+            "parsed": {
+              "start": "0613-01-01",
+              "end": "0641-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Maurice (emperor)",
+        "title": "Maurice (emperor)",
+        "person": "Q181764",
+        "name": "Mauricio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Maurice_%28emperor%29",
+        "identityResolution": {
+          "requested": "Maurice (emperor)",
+          "canonical": "Maurice (emperor)",
+          "qid": "Q181764"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0582-08-14",
+          "end": "0602-11-27",
+          "precision": 11,
+          "statement": "Q181764$475e6349-4b30-0550-599f-fdc8d497e8b3",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q181764",
+        "title": "Maurice (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Maurice_%28emperor%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Eastern Roman emperor",
+            "raw": "13 August 582 – {{nowr|27 November 602}}",
+            "parsed": null
+          },
+          {
+            "field": "reign1",
+            "office": "Eastern Roman emperor",
+            "raw": "5 August 582 – 13 August 582",
+            "parsed": {
+              "start": "0582-08-05",
+              "end": "0582-08-13",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine emperor",
+            "raw": "582–602",
+            "parsed": {
+              "start": "0582-01-01",
+              "end": "0602-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman Consul I",
+            "raw": "584",
+            "parsed": {
+              "start": "0584-01-01",
+              "end": "0584-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman Consul II",
+            "raw": "6 July 602–31 December 602",
+            "parsed": {
+              "start": "0602-07-06",
+              "end": "0602-12-31",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Phocas",
+        "title": "Phocas",
+        "person": "Q31556",
+        "name": "Focas",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Phocas",
+        "identityResolution": {
+          "requested": "Phocas",
+          "canonical": "Phocas",
+          "qid": "Q31556"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0602-01-01",
+          "end": "0610-01-01",
+          "precision": 9,
+          "statement": "Q31556$75be0613-45c8-46c3-c436-b80a125a888e",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q31556",
+        "title": "Phocas",
+        "source": "https://en.wikipedia.org/wiki/Phocas",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Eastern Roman emperor",
+            "raw": "23 November 602 – {{nowr|5 October 610}}",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine Emperor",
+            "raw": "602–610",
+            "parsed": {
+              "start": "0602-01-01",
+              "end": "0610-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "603",
+            "parsed": {
+              "start": "0603-01-01",
+              "end": "0603-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tiberius III",
+        "title": "Tiberius III",
+        "person": "Q41637",
+        "name": "Tiberio III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tiberius_III",
+        "identityResolution": {
+          "requested": "Tiberius III",
+          "canonical": "Tiberius III",
+          "qid": "Q41637"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q18577504",
+          "start": "0698-01-01",
+          "end": "0705-01-01",
+          "precision": 9,
+          "statement": "Q41637$c4411cfe-41f2-b496-a504-31664b3a3c83",
+          "label": "emperador bizantino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q41637",
+        "title": "Tiberius III",
+        "source": "https://en.wikipedia.org/wiki/Tiberius_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Byzantine emperor",
+            "raw": "698–705",
+            "parsed": {
+              "start": "0698-01-01",
+              "end": "0705-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Byzantine Emperor",
+            "raw": "698–705",
+            "parsed": {
+              "start": "0698-01-01",
+              "end": "0705-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Roman consul",
+            "raw": "699",
+            "parsed": {
+              "start": "0699-01-01",
+              "end": "0699-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 10,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q181764",
+        "title": "Maurice (emperor)",
+        "source": "https://en.wikipedia.org/wiki/Maurice_%28emperor%29",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Byzantine emperor",
+          "raw": "582–602",
+          "parsed": {
+            "start": "0582-01-01",
+            "end": "0602-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q31556",
+        "title": "Phocas",
+        "source": "https://en.wikipedia.org/wiki/Phocas",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Byzantine Emperor",
+          "raw": "602–610",
+          "parsed": {
+            "start": "0602-01-01",
+            "end": "0610-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q41852",
+        "title": "Heraclius",
+        "source": "https://en.wikipedia.org/wiki/Heraclius",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "5 October 610&nbsp;– 11 February 641",
+          "parsed": {
+            "start": "0610-10-05",
+            "end": "0641-02-11",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q41615",
+        "title": "Heraclius Constantine",
+        "source": "https://en.wikipedia.org/wiki/Heraclius_Constantine",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "11 February – 25 May 641",
+          "parsed": {
+            "start": "0641-02-11",
+            "end": "0641-05-25",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q31513",
+        "title": "Heraclonas",
+        "source": "https://en.wikipedia.org/wiki/Heraclonas",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Byzantine emperor",
+          "raw": "641",
+          "parsed": {
+            "start": "0641-01-01",
+            "end": "0641-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q41613",
+        "title": "Constans II",
+        "source": "https://en.wikipedia.org/wiki/Constans_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "November 641 – 15 July 668",
+          "parsed": {
+            "start": "0641-11-01",
+            "end": "0668-07-15",
+            "precision": 10
+          }
+        }
+      },
+      {
+        "person": "Q41605",
+        "title": "Constantine IV",
+        "source": "https://en.wikipedia.org/wiki/Constantine_IV",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "September 668 – July 685",
+          "parsed": {
+            "start": "0668-09-01",
+            "end": "0685-07-01",
+            "precision": 10
+          }
+        }
+      },
+      {
+        "person": "Q42021",
+        "title": "Justinian II",
+        "source": "https://en.wikipedia.org/wiki/Justinian_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "10 July 685 – 695",
+          "parsed": {
+            "start": "0685-07-10",
+            "end": "0695-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q44386",
+        "title": "Leontius",
+        "source": "https://en.wikipedia.org/wiki/Leontius",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "695–698",
+          "parsed": {
+            "start": "0695-01-01",
+            "end": "0698-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q41637",
+        "title": "Tiberius III",
+        "source": "https://en.wikipedia.org/wiki/Tiberius_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Byzantine emperor",
+          "raw": "698–705",
+          "parsed": {
+            "start": "0698-01-01",
+            "end": "0705-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Martina (empress)",
+        "person": "Q269941",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-4",
+      "name": "Constantinopla",
+      "coordinates": [
+        28.978,
+        41.008
+      ],
+      "start": 600,
+      "end": 699,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Constantinople",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review034-persian-war",
+      "type": "conflict",
+      "title": "Guerra romano-sasánida",
+      "start": "0602-01-01",
+      "end": "0629-01-01",
+      "text": "Ofensivas y reconquistas entre602 y628 transforman el Levante. El punto regional no es un frente diario ni acredita ocupación uniforme de toda la superficie de las entidades.",
+      "source": "https://en.wikipedia.org/wiki/Byzantine–Sasanian_War_of_602–628",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review034-persian-war",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23,
+          31.78
+        ]
+      },
+      "properties": {
+        "name": "Guerra romano-sasánida",
+        "countries": [
+          "BYZANTINE"
+        ],
+        "kind": "regional-conflict",
+        "start": "0602-01-01",
+        "end": "0628-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Byzantine–Sasanian_War_of_602–628",
+        "sourceLabel": "Referencia documental · siglo VII",
+        "note": "Ofensivas y reconquistas entre602 y628 transforman el Levante. El punto regional no es un frente diario ni acredita ocupación uniforme de toda la superficie de las entidades. Referencia regional aproximada."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q181764",
+      "name": "Mauricio",
+      "title": "Solidus-Maurice Tiberius-sb0481.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Maurice_Tiberius-sb0481.jpg",
+      "sha256": "ee8bdd67aec5a43ca78c04fe9eae8094cc9936c57160ecd10839ecd7bfb3effb",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Mauricio; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q31556",
+      "name": "Focas",
+      "title": "Phocas cons.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Phocas_cons.jpg",
+      "sha256": "eac536ab574a637a5cb16cdc20a8035703c2e5b6159562aff1e6a6bc772e96b8",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Focas; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q41852",
+      "name": "Heraclio",
+      "title": "Heraclius and Heraclius Constantine solidus.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Heraclius_and_Heraclius_Constantine_solidus.jpg",
+      "sha256": "5a2e6847986ed75f4bdbaf9adebb0bebf9b7ca55a9dca69694736ca91622e184",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Moneda con Heraclio y Heraclio Constantino; representación conjunta de autoridad, no retrato individual del natural."
+    },
+    {
+      "person": "Q41615",
+      "name": "Constantino III Heraclio",
+      "title": "Solidus-Heraclius-sb0764.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Heraclius-sb0764.jpg",
+      "sha256": "7248ce55f42a3fa46c1a8ab74ffb0ed7bd22aac8d85b5b3d58ec96f336e00821",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Sólido con efigies dinásticas de Heraclio y sus hijos; no una representación individual exclusiva de ConstantinoIII."
+    },
+    {
+      "person": "Q31513",
+      "name": "Heraclio II",
+      "title": "Solidus-Heraclius-sb0764.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Heraclius-sb0764.jpg",
+      "sha256": "7248ce55f42a3fa46c1a8ab74ffb0ed7bd22aac8d85b5b3d58ec96f336e00821",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Sólido con efigies dinásticas de Heraclio y sus hijos; no una representación individual exclusiva de Heraclonas."
+    },
+    {
+      "person": "Q41613",
+      "name": "Constante II",
+      "title": "Hexagram-Constans II and Constantine IV-sb0995.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hexagram-Constans_II_and_Constantine_IV-sb0995.jpg",
+      "sha256": "5deb36429b92ee72a609ad72aa0fe7c4a3168e2189c9c66105c2a1068a10a049",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Moneda con ConstanteII y ConstantinoIV; representación conjunta convencional, no fisonomía individual acreditada."
+    },
+    {
+      "person": "Q41605",
+      "name": "Constantino IV",
+      "title": "Constantine IV.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Constantine_IV.jpeg",
+      "sha256": "547b6f5c79b4ace2f8082b6410d83e1396284c009c087bd795b947eeb40d60ed",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Constantino IV; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q42021",
+      "name": "Justiniano II",
+      "title": "Justinian II mosaic (cropped).png",
+      "source": "https://commons.wikimedia.org/wiki/File:Justinian_II_mosaic_(cropped).png",
+      "sha256": "8f360db30c0eb864232d294c8ea62bc8759b236a91678956cfe6bda2bb6296d7",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Identificación individual de este mosaico insuficientemente contrastada; se mantiene el rechazo de la revisión700."
+    },
+    {
+      "person": "Q44386",
+      "name": "Leoncio",
+      "title": "Solidus-Leontinus-sb1330.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Leontinus-sb1330.jpg",
+      "sha256": "49a9fd1718c1e0811106b16dcce0817c4fe992ad4405398aa224b807aee54638",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Leoncio; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q41637",
+      "name": "Tiberio III",
+      "title": "Solidus-Tiberius III-sb1360.4.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus-Tiberius_III-sb1360.4.jpg",
+      "sha256": "898bd7a28249e8ed53ff69468dbb6d40523ecbf52d9a32beaa3f029856664c3e",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Tiberio III; no retrato del natural acreditado."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q42021",
+      "title": "Justinian II mosaic (cropped).png",
+      "reason": "Identificación individual de este mosaico insuficientemente contrastada; se mantiene el rechazo de la revisión700.",
+      "source": "https://commons.wikimedia.org/wiki/File:Justinian_II_mosaic_(cropped).png"
+    }
+  ]
+}

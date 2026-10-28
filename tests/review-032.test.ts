@@ -22,7 +22,7 @@ describe('800–899 annual politics alongside cultures',()=>{
    years.push({year,politicalComponents:p.features.length,culturalReferences:r.features.filter(f=>f.properties?.kind==='cultural-region').length,additionalPolityReferences:r.features.filter(f=>f.properties?.kind==='polity-reference').length,withAuthorities:leaders,withSymbols:symbols,places:datedPlaces(p,year).features.length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-800-899.json',JSON.stringify({scope:'Disponibilidad por el mismo recorrido de datos que usa la aplicación. No es un censo exhaustivo, una verificación independiente de cada frontera o una observación anual de las áreas culturales.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()],catalogueAuthorityRecords:dossiers.reduce((n,d)=>n+d.data.leaders.length,0),catalogueWithoutPortraits:dossiers.flatMap(d=>d.data.leaders.filter((l:any)=>!l.portrait).map((l:any)=>({key:d.data.key,person:l.person,name:l.name,start:l.start,end:l.end})))},null,2)+'\n');
-  expect(snapshotFor(699).kind).toBe('historical');expect(snapshotFor(900).file).toBe('early-modern-900.geojson');expect(hasRegionalCoverage(699)).toBe(false);
+  expect(snapshotFor(599).kind).toBe('historical');expect(snapshotFor(900).file).toBe('early-modern-900.geojson');expect(hasRegionalCoverage(599)).toBe(false);
  },90000);
  it('keeps Carolingian crowns, the imperial coronation and the Western accession separate',()=>{
   expect(identity('FRANKISH-REALM',800).leaders.some(l=>l.role==='Rey de los francos')).toBe(true);expect(identity('FRANKISH-REALM',800).leaders.some(l=>l.start==='0800-12-25')).toBe(true);

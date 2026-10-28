@@ -1,0 +1,59 @@
+{
+  "key": "HIST-Q633573",
+  "name": "Kingdom of Rheged",
+  "qid": "Q633573",
+  "aliases": [
+    "Kingdom of Rheged"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q633573"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2205",
+      "start": 600,
+      "end": 616,
+      "name": "Kingdom of Rheged",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2264",
+      "start": 617,
+      "end": 637,
+      "name": "Kingdom of Rheged",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2416",
+      "start": 638,
+      "end": 643,
+      "name": "Kingdom of Rheged",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2460",
+      "start": 644,
+      "end": 646,
+      "name": "Kingdom of Rheged",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

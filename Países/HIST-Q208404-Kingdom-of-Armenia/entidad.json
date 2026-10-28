@@ -1,0 +1,80 @@
+{
+  "key": "HIST-Q208404",
+  "name": "Kingdom of Armenia",
+  "qid": "Q208404",
+  "aliases": [
+    "Kingdom of Armenia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q208404"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q2746520",
+      "name": "Hamazasp IV Mamikonian",
+      "role": "Príncipe de Armenia · dignidad regional",
+      "start": "0655-01-01",
+      "end": "0661-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hamazasp_IV_Mamikonian",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q2716088",
+      "name": "Gregorio I Mamiconio",
+      "role": "Príncipe de Armenia · dignidad regional",
+      "start": "0661-01-01",
+      "end": "0685-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Grigor_I_Mamikonian",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q2478997",
+      "name": "Achot II Bagratuni",
+      "role": "Príncipe de Armenia · dignidad regional",
+      "start": "0684-01-01",
+      "end": "0689-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ashot_II_Bagratuni",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2408",
+      "start": 638,
+      "end": 643,
+      "name": "Kingdom of Armenia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2458",
+      "start": 644,
+      "end": 646,
+      "name": "Kingdom of Armenia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

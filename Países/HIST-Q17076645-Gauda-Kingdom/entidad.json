@@ -1,0 +1,35 @@
+{
+  "key": "HIST-Q17076645",
+  "name": "Gauda Kingdom",
+  "qid": "Q17076645",
+  "aliases": [
+    "Gauda Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q17076645"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2223",
+      "start": 602,
+      "end": 611,
+      "name": "Gauda Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

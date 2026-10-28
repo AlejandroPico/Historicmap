@@ -1,0 +1,805 @@
+{
+  "key": "HIST-Q506008",
+  "identity": {
+    "qid": "Q506008",
+    "name": "Kingdom of Deira"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Deira",
+      "officePattern": "King.*Deira",
+      "titles": [
+        "Æthelfrith",
+        "Edwin of Northumbria",
+        "Eanfrith of Bernicia",
+        "Osric of Deira",
+        "Oswald of Northumbria",
+        "Oswiu",
+        "Oswine of Deira",
+        "Æthelwald of Deira",
+        "Ecgfrith of Northumbria",
+        "Aldfrith of Northumbria"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q336016",
+      "name": "Oswaldo de Bernicia",
+      "role": "Rey de Deira",
+      "start": "0633-01-01",
+      "end": "0642-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Oswald_of_Northumbria",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-07e7eb8c053422763884.jpg",
+        "title": "Hl. Oswald von Northumbrien 2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hl._Oswald_von_Northumbrien_2.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Hl._Oswald_von_Northumbrien_2.jpg/330px-Hl._Oswald_von_Northumbrien_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Burkhard Mücke ",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "99dbb5bd08750afd3c7a9e1a6c692d4d289ec8e47c4c0e280e798adf45db0990",
+        "bytes": 72067,
+        "canonicalFile": "Países/HIST-Q506008-Kingdom-of-Deira/retratos/portrait-07e7eb8c053422763884.jpg",
+        "caption": "Estatua religiosa conmemorativa posterior identificada con sanOswald; no retrato contemporáneo."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Deira"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Kingdom of Deira",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "b386ffb1f06c9c204748c479635a50da4ccca8dfdfdd7c7b8987f44a4ed5ab90",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2186,
+        2365
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aldfrith of Northumbria",
+        "title": "Aldfrith of Northumbria",
+        "person": "Q737618",
+        "name": "Aldfrith",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aldfrith_of_Northumbria",
+        "identityResolution": {
+          "requested": "Aldfrith of Northumbria",
+          "canonical": "Aldfrith of Northumbria",
+          "qid": "Q737618"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21162517",
+          "start": "0685-01-01",
+          "end": "0704-01-01",
+          "precision": 9,
+          "statement": "Q737618$dbeba817-42de-e3f7-cca9-822609efe9d3",
+          "label": "Rey de Northumbria"
+        },
+        {
+          "property": "P39",
+          "office": "Q21162517",
+          "start": "0665-01-01",
+          "end": "0670-01-01",
+          "precision": 9,
+          "statement": "Q737618$B994DF65-0809-4C52-A44A-0A910CD7E330",
+          "label": "Rey de Northumbria"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q737618",
+        "title": "Aldfrith of Northumbria",
+        "source": "https://en.wikipedia.org/wiki/Aldfrith_of_Northumbria",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Northumbria",
+            "raw": "685–704/705",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Eanfrith of Bernicia",
+        "title": "Eanfrith of Bernicia",
+        "person": "Q881239",
+        "name": "Eanfrido de Bernicia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Eanfrith_of_Bernicia",
+        "identityResolution": {
+          "requested": "Eanfrith of Bernicia",
+          "canonical": "Eanfrith of Bernicia",
+          "qid": "Q881239"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q26728742",
+          "start": "0633-01-01",
+          "end": "0634-01-01",
+          "precision": 9,
+          "statement": "Q881239$79bcf11d-4a9f-babf-a6d3-940a863137c8",
+          "label": "king of Bernicia"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728742",
+          "start": "0632-01-01",
+          "end": "0633-01-01",
+          "precision": 9,
+          "statement": "Q881239$8AB89B57-946E-4DAF-A460-1A5A01534A38",
+          "label": "king of Bernicia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q881239",
+        "title": "Eanfrith of Bernicia",
+        "source": "https://en.wikipedia.org/wiki/Eanfrith_of_Bernicia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Bernicia",
+            "raw": "633–634",
+            "parsed": {
+              "start": "0633-01-01",
+              "end": "0634-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ecgfrith of Northumbria",
+        "title": "Ecgfrith of Northumbria",
+        "person": "Q453676",
+        "name": "Egfrido de Northumbria",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ecgfrith_of_Northumbria",
+        "identityResolution": {
+          "requested": "Ecgfrith of Northumbria",
+          "canonical": "Ecgfrith of Northumbria",
+          "qid": "Q453676"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21162517",
+          "start": "0670-02-15",
+          "end": "0685-01-01",
+          "precision": 9,
+          "statement": "Q453676$f73756e0-44ca-c845-7922-b1d1705f97ec",
+          "label": "Rey de Northumbria"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728106",
+          "start": "0664-01-01",
+          "end": "0670-01-01",
+          "precision": 9,
+          "statement": "Q453676$77DAD9CD-614C-4020-B79D-42FC1079A2C8",
+          "label": "Rey de Deira"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728106",
+          "start": "0665-01-01",
+          "end": "0670-01-01",
+          "precision": 9,
+          "statement": "Q453676$AE345DA8-E0F0-465D-9520-FE809662219F",
+          "label": "Rey de Deira"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728742",
+          "start": "0670-01-01",
+          "end": "0685-01-01",
+          "precision": 9,
+          "statement": "Q453676$BCE5D21E-F3CB-42A3-8ED6-5C06B194FD78",
+          "label": "king of Bernicia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q453676",
+        "title": "Ecgfrith of Northumbria",
+        "source": "https://en.wikipedia.org/wiki/Ecgfrith_of_Northumbria",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Northumbria",
+            "raw": "670–685",
+            "parsed": {
+              "start": "0670-01-01",
+              "end": "0685-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Edwin of Northumbria",
+        "title": "Edwin of Northumbria",
+        "person": "Q348955",
+        "name": "Edwino de Deira",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Edwin_of_Northumbria",
+        "identityResolution": {
+          "requested": "Edwin of Northumbria",
+          "canonical": "Edwin of Northumbria",
+          "qid": "Q348955"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21162517",
+          "start": "0616-01-01",
+          "end": "0633-10-12",
+          "precision": 9,
+          "statement": "Q348955$9D4C7FB2-91C5-4058-8932-499762BAF89B",
+          "label": "Rey de Northumbria"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728106",
+          "start": "0616-01-01",
+          "end": "0633-10-12",
+          "precision": 9,
+          "statement": "Q348955$03CDCA5D-5F08-416D-9E0A-902226A5A187",
+          "label": "Rey de Deira"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728742",
+          "start": "0616-01-01",
+          "end": "0633-10-12",
+          "precision": 9,
+          "statement": "Q348955$f4d30fec-4b98-b2ac-7129-da19a713c19d",
+          "label": "king of Bernicia"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728742",
+          "start": "0616-01-01",
+          "end": "0632-01-01",
+          "precision": 9,
+          "statement": "Q348955$47DA6D7A-92F1-45CB-A2AB-64BEC3A8A5F6",
+          "label": "king of Bernicia"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728106",
+          "start": "0616-01-01",
+          "end": "0632-01-01",
+          "precision": 9,
+          "statement": "Q348955$267F8429-17DD-49FE-8206-450D533995AB",
+          "label": "Rey de Deira"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q348955",
+        "title": "Edwin of Northumbria",
+        "source": "https://en.wikipedia.org/wiki/Edwin_of_Northumbria",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Deira and Bernicia",
+            "raw": "616{{snd}}12 October 632/633",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Deira",
+            "raw": "616 – 632/633",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Bernicia",
+            "raw": "616 – 632/633",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Osric of Deira",
+        "title": "Osric of Deira",
+        "person": "Q879949",
+        "name": "Osric de Deira",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Osric_of_Deira",
+        "identityResolution": {
+          "requested": "Osric of Deira",
+          "canonical": "Osric of Deira",
+          "qid": "Q879949"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q26728106",
+          "start": "0633-01-01",
+          "end": "0644-01-01",
+          "precision": 9,
+          "statement": "Q879949$EEE3A2DE-19BF-4F7F-8F29-4652D60FFF8D",
+          "label": "Rey de Deira"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q879949",
+        "title": "Osric of Deira",
+        "source": "https://en.wikipedia.org/wiki/Osric_of_Deira",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Oswald of Northumbria",
+        "title": "Oswald of Northumbria",
+        "person": "Q336016",
+        "name": "Oswaldo de Bernicia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Oswald_of_Northumbria",
+        "identityResolution": {
+          "requested": "Oswald of Northumbria",
+          "canonical": "Oswald of Northumbria",
+          "qid": "Q336016"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21162517",
+          "start": "0634-01-01",
+          "end": "0642-08-05",
+          "precision": 9,
+          "statement": "Q336016$32d3a8b2-466c-10f2-850b-dad9e2b36c96",
+          "label": "Rey de Northumbria"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728742",
+          "start": "0634-01-01",
+          "end": "0642-08-05",
+          "precision": 9,
+          "statement": "Q336016$307e025e-4301-2271-8e27-883af1ffe15a",
+          "label": "king of Bernicia"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728106",
+          "start": "0634-01-01",
+          "end": "0642-08-05",
+          "precision": 9,
+          "statement": "Q336016$35155d6c-4342-263b-7ee0-38a1ba35e8dd",
+          "label": "Rey de Deira"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q336016",
+        "title": "Oswald of Northumbria",
+        "source": "https://en.wikipedia.org/wiki/Oswald_of_Northumbria",
+        "reignFields": [
+          {
+            "field": "reign1",
+            "office": "Bretwalda",
+            "raw": "633–642",
+            "parsed": {
+              "start": "0633-01-01",
+              "end": "0642-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King of Deira",
+            "raw": "633–642",
+            "parsed": {
+              "start": "0633-01-01",
+              "end": "0642-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign3",
+            "office": "King of Bernicia",
+            "raw": "634–642",
+            "parsed": {
+              "start": "0634-01-01",
+              "end": "0642-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Bernicia",
+            "raw": "634–642",
+            "parsed": {
+              "start": "0634-01-01",
+              "end": "0642-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Deira",
+            "raw": "633–642",
+            "parsed": {
+              "start": "0633-01-01",
+              "end": "0642-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Oswine of Deira",
+        "title": "Oswine of Deira",
+        "person": "Q879940",
+        "name": "Oswino de Deira",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Oswine_of_Deira",
+        "identityResolution": {
+          "requested": "Oswine of Deira",
+          "canonical": "Oswine of Deira",
+          "qid": "Q879940"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q26728106",
+          "start": "0644-01-01",
+          "end": "0651-01-01",
+          "precision": 9,
+          "statement": "Q879940$DC5E0D7F-3684-426C-80A4-694E0054DDC0",
+          "label": "Rey de Deira"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q879940",
+        "title": "Oswine of Deira",
+        "source": "https://en.wikipedia.org/wiki/Oswine_of_Deira",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Oswiu",
+        "title": "Oswiu",
+        "person": "Q468847",
+        "name": "Oswiu de Northumbria",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Oswiu",
+        "identityResolution": {
+          "requested": "Oswiu",
+          "canonical": "Oswiu",
+          "qid": "Q468847"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21162517",
+          "start": "0655-01-01",
+          "end": "0670-01-01",
+          "precision": 9,
+          "statement": "Q468847$0991295a-462c-d555-529a-950262cfbb00",
+          "label": "Rey de Northumbria"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728742",
+          "start": "0642-08-05",
+          "end": "0670-01-01",
+          "precision": 9,
+          "statement": "Q468847$63860c3a-4446-d2b1-8e00-d324bb777bbf",
+          "label": "king of Bernicia"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728106",
+          "start": "0655-01-01",
+          "end": "0655-01-01",
+          "precision": 9,
+          "statement": "Q468847$58421a87-4423-050c-e7a0-4542fbd1d65a",
+          "label": "Rey de Deira"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728106",
+          "start": "0642-01-01",
+          "end": "0644-01-01",
+          "precision": 9,
+          "statement": "Q468847$949D2D1E-5B14-4989-94D0-1A8ECC0A92A5",
+          "label": "Rey de Deira"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728106",
+          "start": "0654-01-01",
+          "end": "0670-01-01",
+          "precision": 9,
+          "statement": "Q468847$001A63A8-42A5-428C-92FD-02FA3FDDD8E0",
+          "label": "Rey de Deira"
+        },
+        {
+          "property": "P39",
+          "office": "Q21013651",
+          "start": "0656-01-01",
+          "end": "0658-01-01",
+          "precision": 9,
+          "statement": "Q468847$40647b4c-4930-6a06-ceaf-095a2972a6e2",
+          "label": "rei de Mercia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q468847",
+        "title": "Oswiu",
+        "source": "https://en.wikipedia.org/wiki/Oswiu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Northumbria",
+            "raw": "642–670",
+            "parsed": {
+              "start": "0642-01-01",
+              "end": "0670-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of Mercia",
+            "raw": "655 or 656–658",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Æthelfrith",
+        "title": "Æthelfrith",
+        "person": "Q272196",
+        "name": "Etelfrido de Bernicia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelfrith",
+        "identityResolution": {
+          "requested": "Æthelfrith",
+          "canonical": "Æthelfrith",
+          "qid": "Q272196"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21162517",
+          "start": "0604-01-01",
+          "end": "0616-01-01",
+          "precision": 9,
+          "statement": "Q272196$bfd282c8-427e-a538-5f71-b3c40499f97c",
+          "label": "Rey de Northumbria"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728742",
+          "start": "0592-01-01",
+          "end": "0616-01-01",
+          "precision": 9,
+          "statement": "Q272196$fabce6df-49e8-18a2-6da0-2563d5ab367d",
+          "label": "king of Bernicia"
+        },
+        {
+          "property": "P39",
+          "office": "Q26728106",
+          "start": "0604-01-01",
+          "end": "0616-01-01",
+          "precision": 9,
+          "statement": "Q272196$e740a14f-4a12-ab9a-53eb-d648445901de",
+          "label": "Rey de Deira"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q272196",
+        "title": "Æthelfrith",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelfrith",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "593 AD–616 AD",
+            "parsed": {
+              "start": "0593-01-01",
+              "end": "0616-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Æthelwald of Deira",
+        "title": "Æthelwald of Deira",
+        "person": "",
+        "name": "Æthelwald of Deira",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelwald_of_Deira",
+        "identityResolution": {
+          "requested": "Æthelwald of Deira",
+          "canonical": "Æthelwald of Deira",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q336016",
+        "title": "Oswald of Northumbria",
+        "source": "https://en.wikipedia.org/wiki/Oswald_of_Northumbria",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King of Deira",
+          "raw": "633–642",
+          "parsed": {
+            "start": "0633-01-01",
+            "end": "0642-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Æthelfrith",
+        "person": "Q272196",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Edwin of Northumbria",
+        "person": "Q348955",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Eanfrith of Bernicia",
+        "person": "Q881239",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Osric of Deira",
+        "person": "Q879949",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Oswiu",
+        "person": "Q468847",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Oswine of Deira",
+        "person": "Q879940",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Æthelwald of Deira",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Ecgfrith of Northumbria",
+        "person": "Q453676",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Aldfrith of Northumbria",
+        "person": "Q737618",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "mediaReview": [
+    {
+      "person": "Q336016",
+      "name": "Oswaldo de Bernicia",
+      "title": "Hl. Oswald von Northumbrien 2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hl._Oswald_von_Northumbrien_2.jpg",
+      "sha256": "99dbb5bd08750afd3c7a9e1a6c692d4d289ec8e47c4c0e280e798adf45db0990",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Estatua religiosa conmemorativa posterior identificada con sanOswald; no retrato contemporáneo."
+    }
+  ]
+}

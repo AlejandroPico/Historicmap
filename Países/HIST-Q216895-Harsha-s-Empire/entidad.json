@@ -1,0 +1,129 @@
+{
+  "key": "HIST-Q216895",
+  "name": "Harsha's Empire",
+  "qid": "Q216895",
+  "aliases": [
+    "Harsha's Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q216895"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q19895361",
+      "name": "Prabhakarvardhana",
+      "role": "Gobernante de la dinastía Pushyabhuti",
+      "start": "0600-01-01",
+      "end": "0605-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Prabhakaravardhana",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q19895694",
+      "name": "Rajyavardhana",
+      "role": "Gobernante de la dinastía Pushyabhuti",
+      "start": "0605-01-01",
+      "end": "0606-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rajyavardhana",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q216895",
+      "name": "Harsha Vardhana",
+      "role": "Gobernante de la dinastía Pushyabhuti",
+      "start": "0606-04-01",
+      "end": "0647-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Harsha",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34",
+      "portrait": {
+        "file": "media/portrait-1b41fc3a056c29ecc9e7.jpg",
+        "title": "Harshavardhana Circa AD 606-647.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Harshavardhana_Circa_AD_606-647.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Harshavardhana_Circa_AD_606-647.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG Coins",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CNG Coins Coin from CNG coins. Used with permission (CNG coin [1]).  Coin [2]",
+        "sha256": "5edcf8b4c36c03f0df0bc95ac4c0a35d36d2272770281082f56ab9e0d62a782d",
+        "bytes": 120825,
+        "canonicalFile": "Países/HIST-Q216895-Harsha-s-Empire/retratos/portrait-1b41fc3a056c29ecc9e7.jpg",
+        "caption": "Tipo monetario convencional atribuido a Harsha Vardhana; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2252",
+      "start": 612,
+      "end": 622,
+      "name": "Harsha's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2282",
+      "start": 623,
+      "end": 625,
+      "name": "Harsha's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2304",
+      "start": 626,
+      "end": 632,
+      "name": "Harsha's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2380",
+      "start": 633,
+      "end": 643,
+      "name": "Harsha's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2466",
+      "start": 644,
+      "end": 646,
+      "name": "Harsha's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2477",
+      "start": 647,
+      "end": 655,
+      "name": "Harsha's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

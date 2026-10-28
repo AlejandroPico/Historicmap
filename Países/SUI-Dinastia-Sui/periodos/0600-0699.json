@@ -1,0 +1,640 @@
+{
+  "key": "SUI",
+  "identity": {
+    "qid": "Q7405",
+    "name": "Dinastía Sui"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperador Sui · incluidos pretendientes finales",
+      "officePattern": "Emperor.*Sui|Emperor.*China",
+      "titles": [
+        "Emperor Wen of Sui",
+        "Emperor Yang of Sui",
+        "Yang You",
+        "Yang Tong"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7418",
+      "name": "Yang Jian",
+      "role": "Emperador Sui · incluidos pretendientes finales",
+      "start": "0600-01-01",
+      "end": "0604-08-13",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-a4fe1790b39af10af0b6.jpg",
+        "title": "Sui Wendi Tang.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Sui_Wendi_Tang.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sui_Wendi_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "\nYan Li-pen",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sui_Wendi_Tang.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.mfa.org/collections/search_art.asp?",
+        "sha256": "bb9593012361786da73562e3f9ecc810793f8f5b3aad31ed8bb8fdc30de32f32",
+        "bytes": 437710,
+        "canonicalFile": "Países/SUI-Dinastia-Sui/retratos/portrait-a4fe1790b39af10af0b6.jpg",
+        "caption": "Representación posterior deWendi en el rollo de emperadores con asistentes; imagen cortesana retrospectiva."
+      }
+    },
+    {
+      "person": "Q7419",
+      "name": "Emperador Yangdi",
+      "role": "Emperador Sui · incluidos pretendientes finales",
+      "start": "0604-08-21",
+      "end": "0618-04-11",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Emperor_Yang_of_Sui",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-a81601fe0e3e59d53b7d.jpg",
+        "title": "Sui Yangdi Tang.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Sui_Yangdi_Tang.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sui_Yangdi_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Yan Liben",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sui_Yangdi_Tang.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Taken from http://www.sxlbl.com/web/idccc/minghua/200810159105.html",
+        "sha256": "69e49862cd26f353642922b10ffad2bca00953239434322a8cfe07b9432d4cfe",
+        "bytes": 601724,
+        "canonicalFile": "Países/SUI-Dinastia-Sui/retratos/portrait-a81601fe0e3e59d53b7d.jpg",
+        "caption": "Representación posterior deYangdi en un rollo de emperadores con asistentes; imagen cortesana retrospectiva."
+      }
+    },
+    {
+      "person": "Q7420",
+      "name": "Emperador Gongdi",
+      "role": "Emperador Sui · incluidos pretendientes finales",
+      "start": "0617-12-18",
+      "end": "0618-06-12",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Yang_You",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q7422",
+      "name": "Yang Tong",
+      "role": "Emperador Sui · incluidos pretendientes finales",
+      "start": "0618-06-22",
+      "end": "0619-05-23",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Yang_Tong",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review034-sui-tang",
+      "type": "institution",
+      "title": "Caída de Sui y proclamación Tang",
+      "start": "0617-01-01",
+      "end": "0620-01-01",
+      "text": "Sui cae en618, con pretendientes finales hasta619. Los contornos deSui de la compilación continúan hasta627 yTang comienza en623: se identifican estas diferencias y se usa una corte documental para618–622, sin inventar fronteras.",
+      "source": "https://www.metmuseum.org/essays/tang-dynasty-618-906",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 600,
+      "end": 619,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Sui Dynasty"
+        ],
+        "start": 600,
+        "end": 619,
+        "label": "Dinastía Sui",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Sui Dynasty"
+        ],
+        "start": 620,
+        "end": 699,
+        "label": "Ámbitos anteriores de Dinastía Sui · contorno heredado",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "La geometría de la compilación continúa más allá de la cronología de la entidad. Se conserva como referencia, sin prolongar sus autoridades ni certificar fronteras contemporáneas a esta fecha."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "232884704e1ce418f47ab5c067bbb0078e34cdfa4f06144e831f26519ac670ba",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2192,
+        2216,
+        2247,
+        2257,
+        2285,
+        2297,
+        2314
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Wen of Sui",
+        "title": "Emperor Wen of Sui",
+        "person": "Q7418",
+        "name": "Yang Jian",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
+        "identityResolution": {
+          "requested": "Emperor Wen of Sui",
+          "canonical": "Emperor Wen of Sui",
+          "qid": "Q7418"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0581-03-04",
+          "end": "0604-08-13",
+          "precision": 11,
+          "statement": "Q7418$16E565DB-7D8C-43AF-AA4E-9122E8E9F64F",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7418",
+        "title": "Emperor Wen of Sui",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Sui dynasty",
+            "raw": "4 March 581 – 13 August 604",
+            "parsed": {
+              "start": "0581-03-04",
+              "end": "0604-08-13",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "581–604",
+            "parsed": {
+              "start": "0581-01-01",
+              "end": "0604-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Prince of Sui",
+            "raw": "581",
+            "parsed": {
+              "start": "0581-01-01",
+              "end": "0581-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Chengji",
+            "raw": "555–557",
+            "parsed": {
+              "start": "0555-01-01",
+              "end": "0557-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Daxing",
+            "raw": "557–568",
+            "parsed": {
+              "start": "0557-01-01",
+              "end": "0568-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Sui",
+            "raw": "568–581",
+            "parsed": {
+              "start": "0568-01-01",
+              "end": "0581-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Emperor Yang of Sui",
+        "title": "Emperor Yang of Sui",
+        "person": "Q7419",
+        "name": "Emperador Yangdi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emperor_Yang_of_Sui",
+        "identityResolution": {
+          "requested": "Emperor Yang of Sui",
+          "canonical": "Emperor Yang of Sui",
+          "qid": "Q7419"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0604-08-21",
+          "end": "0618-04-11",
+          "precision": 11,
+          "statement": "Q7419$462A99B7-9AF7-4085-9425-646190328912",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7419",
+        "title": "Emperor Yang of Sui",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Yang_of_Sui",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Sui dynasty",
+            "raw": "21 August 604<ref>According to volume 180 of ''Zizhi Tongjian'', Yang Guang ascended the throne on the ''yimao day'' of the 7th month of the 4th year of the ''Renshou'' era of his father's reign. This corresponds to 21 Aug 604 in the Julian calendar.</ref> – 11 April 618",
+            "parsed": {
+              "start": "0604-08-21",
+              "end": "0618-04-11",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "604–618",
+            "parsed": {
+              "start": "0604-01-01",
+              "end": "0618-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yang Tong",
+        "title": "Yang Tong",
+        "person": "Q7422",
+        "name": "Yang Tong",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yang_Tong",
+        "identityResolution": {
+          "requested": "Yang Tong",
+          "canonical": "Yang Tong",
+          "qid": "Q7422"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0618-06-22",
+          "end": "0619-05-23",
+          "precision": 11,
+          "statement": "Q7422$83c9db7f-5b75-4ed8-adf1-fc3fe9a04555",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7422",
+        "title": "Yang Tong",
+        "source": "https://en.wikipedia.org/wiki/Yang_Tong",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Sui dynasty (Eastern)",
+            "raw": "22 June 618<ref>([武德元年]五月，...戊辰，留守官奉越王即皇帝位，大赦，改元皇泰。)</ref><ref>''[[Zizhi Tongjian]]'', [[:zh:s:資治通鑑/卷185|vol. 185]]. However, Emperor Gaozu's biography in ''New Book of Tang'' recorded the date as the ''geng'wu'' day of that month, corresponding to 19 June 618 in the Julian calendar.</ref> – 23 May 619<ref name=endreign>([武德二年四月]癸卯，世充称皇泰主命，禅位于郑。)</ref><ref>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷187|vol. 187]]. However, Emperor Gaozu's biographies in both ''Books of Tang'' recorded the day as the ''yi'si'' day of that month, corresponding to 25 May 619 in the Julian calendar.</ref>",
+            "parsed": {
+              "start": "0618-06-22",
+              "end": "0619-05-23",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Sui Dynasty (Eastern)",
+            "raw": "618–619",
+            "parsed": {
+              "start": "0618-01-01",
+              "end": "0619-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Southern Anhui)",
+            "raw": "618–619",
+            "parsed": {
+              "start": "0618-01-01",
+              "end": "0619-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Central Jiangsu)",
+            "raw": "618–619",
+            "parsed": {
+              "start": "0618-01-01",
+              "end": "0619-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Western Henan/Northern Jiangsu/Northern Anhui)",
+            "raw": "618–619",
+            "parsed": {
+              "start": "0618-01-01",
+              "end": "0619-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Eastern Henan)",
+            "raw": "618–619",
+            "parsed": {
+              "start": "0618-01-01",
+              "end": "0619-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yang You",
+        "title": "Yang You",
+        "person": "Q7420",
+        "name": "Emperador Gongdi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yang_You",
+        "identityResolution": {
+          "requested": "Yang You",
+          "canonical": "Yang You",
+          "qid": "Q7420"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0617-12-18",
+          "end": "0618-06-18",
+          "precision": 11,
+          "statement": "Q7420$1a235494-4fab-1e94-6ee6-9265bb4da063",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7420",
+        "title": "Yang You",
+        "source": "https://en.wikipedia.org/wiki/Yang_You",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Sui dynasty",
+            "raw": "18 December 617<ref>({{lang|zh|[义宁元年十一月]壬戌，李渊备法驾迎代王即皇帝位于天兴殿，时年十三，大赦，改元}})</ref><ref name=ZZTJ184>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷184|vol. 184]].</ref> – 12 June 618<ref>({{lang|zh|[武德元年]五月，....戊午，隋恭帝禅位于唐，逊居代邸。}})</ref><ref name=ZZTJ185>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷185|vol. 185]].</ref>",
+            "parsed": {
+              "start": "0617-12-18",
+              "end": "0618-06-12",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of Sui Dynasty (Western)",
+            "raw": "617–618",
+            "parsed": {
+              "start": "0617-01-01",
+              "end": "0618-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China (Central/Southern Shaanxi/Sichuan/Chongqing/Central/Southern Shanxi",
+            "raw": "617–618",
+            "parsed": {
+              "start": "0617-01-01",
+              "end": "0618-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q7418",
+        "title": "Emperor Wen of Sui",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Sui dynasty",
+          "raw": "4 March 581 – 13 August 604",
+          "parsed": {
+            "start": "0581-03-04",
+            "end": "0604-08-13",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q7419",
+        "title": "Emperor Yang of Sui",
+        "source": "https://en.wikipedia.org/wiki/Emperor_Yang_of_Sui",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Sui dynasty",
+          "raw": "21 August 604<ref>According to volume 180 of ''Zizhi Tongjian'', Yang Guang ascended the throne on the ''yimao day'' of the 7th month of the 4th year of the ''Renshou'' era of his father's reign. This corresponds to 21 Aug 604 in the Julian calendar.</ref> – 11 April 618",
+          "parsed": {
+            "start": "0604-08-21",
+            "end": "0618-04-11",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q7420",
+        "title": "Yang You",
+        "source": "https://en.wikipedia.org/wiki/Yang_You",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Sui dynasty",
+          "raw": "18 December 617<ref>({{lang|zh|[义宁元年十一月]壬戌，李渊备法驾迎代王即皇帝位于天兴殿，时年十三，大赦，改元}})</ref><ref name=ZZTJ184>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷184|vol. 184]].</ref> – 12 June 618<ref>({{lang|zh|[武德元年]五月，....戊午，隋恭帝禅位于唐，逊居代邸。}})</ref><ref name=ZZTJ185>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷185|vol. 185]].</ref>",
+          "parsed": {
+            "start": "0617-12-18",
+            "end": "0618-06-12",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q7422",
+        "title": "Yang Tong",
+        "source": "https://en.wikipedia.org/wiki/Yang_Tong",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Emperor of the Sui dynasty (Eastern)",
+          "raw": "22 June 618<ref>([武德元年]五月，...戊辰，留守官奉越王即皇帝位，大赦，改元皇泰。)</ref><ref>''[[Zizhi Tongjian]]'', [[:zh:s:資治通鑑/卷185|vol. 185]]. However, Emperor Gaozu's biography in ''New Book of Tang'' recorded the date as the ''geng'wu'' day of that month, corresponding to 19 June 618 in the Julian calendar.</ref> – 23 May 619<ref name=endreign>([武德二年四月]癸卯，世充称皇泰主命，禅位于郑。)</ref><ref>''Zizhi Tongjian'', [[:zh:s:資治通鑑/卷187|vol. 187]]. However, Emperor Gaozu's biographies in both ''Books of Tang'' recorded the day as the ''yi'si'' day of that month, corresponding to 25 May 619 in the Julian calendar.</ref>",
+          "parsed": {
+            "start": "0618-06-22",
+            "end": "0619-05-23",
+            "precision": 11
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-10",
+      "name": "Daxing · Chang’an",
+      "coordinates": [
+        108.939,
+        34.342
+      ],
+      "start": 600,
+      "end": 617,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Sui_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    },
+    {
+      "id": "seat034-11",
+      "name": "Luoyang · capital oriental",
+      "coordinates": [
+        112.453,
+        34.62
+      ],
+      "start": 605,
+      "end": 618,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Sui_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review034-sui-tang",
+      "type": "institution",
+      "title": "Caída de Sui y proclamación Tang",
+      "start": "0617-01-01",
+      "end": "0620-01-01",
+      "text": "Sui cae en618, con pretendientes finales hasta619. Los contornos deSui de la compilación continúan hasta627 yTang comienza en623: se identifican estas diferencias y se usa una corte documental para618–622, sin inventar fronteras.",
+      "source": "https://www.metmuseum.org/essays/tang-dynasty-618-906",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q7418",
+      "name": "Yang Jian",
+      "title": "Sui Wendi Tang.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sui_Wendi_Tang.jpg",
+      "sha256": "bb9593012361786da73562e3f9ecc810793f8f5b3aad31ed8bb8fdc30de32f32",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior deWendi en el rollo de emperadores con asistentes; imagen cortesana retrospectiva."
+    },
+    {
+      "person": "Q7419",
+      "name": "Emperador Yangdi",
+      "title": "Sui Yangdi Tang.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sui_Yangdi_Tang.jpg",
+      "sha256": "69e49862cd26f353642922b10ffad2bca00953239434322a8cfe07b9432d4cfe",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior deYangdi en un rollo de emperadores con asistentes; imagen cortesana retrospectiva."
+    }
+  ]
+}

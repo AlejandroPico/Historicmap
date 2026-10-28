@@ -15,7 +15,7 @@ describe('700–799 politics and regional evidence',()=>{
    years.push({year,politicalComponents:p.features.length,culturalReferences:r.features.length,withAuthorities:authorities,withSymbols:symbols,places:datedPlaces(p,year).features.length});
   }
   if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-700-799.json',JSON.stringify({scope:'Disponibilidad anual por el recorrido de producción. No censo exhaustivo ni fronteras culturales observadas cada año. Las ventanas discutidas no certifican mandatos continuos.',years,missingAuthorities,missingSymbols,missingPortraits:[...missingPortraits.values()],catalogueAuthorityRecords:dossiers.reduce((n,d)=>n+d.data.leaders.length,0),catalogueWithoutPortraits:dossiers.flatMap(d=>d.data.leaders.filter((l:any)=>!l.portrait).map((l:any)=>({key:d.data.key,person:l.person,name:l.name,start:l.start,end:l.end})))},null,2)+'\n');
-  expect(hasRegionalCoverage(699)).toBe(false);expect(hasRegionalCoverage(700)).toBe(true);expect(snapshotFor(699).kind).toBe('historical');expect(snapshotFor(800).file).toBe('early-modern-800.geojson');
+  expect(hasRegionalCoverage(599)).toBe(false);expect(hasRegionalCoverage(700)).toBe(true);expect(snapshotFor(599).kind).toBe('historical');expect(snapshotFor(800).file).toBe('early-modern-800.geojson');
  },90000);
  it('distinguishes the dynasty, palace office and imperial title of the Frankish rulers',()=>{
   expect(identity('FRANKISH-REALM',740).leaders.some(l=>l.name.includes('Martel'))).toBe(true);expect(identity('FRANKISH-REALM',740).leaders.some(l=>l.role.startsWith('Rey'))).toBe(false);

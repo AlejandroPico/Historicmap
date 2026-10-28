@@ -1,0 +1,56 @@
+{
+  "key": "MEDINA-COMMUNITY",
+  "name": "Comunidad de Medina",
+  "qid": "",
+  "aliases": [
+    "Comunidad de Medina"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "MEDINA-COMMUNITY"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q9458",
+      "name": "Mahoma · Muḥammad",
+      "role": "Profeta y dirigente de la comunidad de Medina",
+      "start": "0622-01-01",
+      "end": "0632-12-31",
+      "precision": 9,
+      "source": "https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750",
+      "note": "Marco institucional desde la Hégira622 hasta632; no se le asigna el título de califa ni una frontera estatal uniforme.",
+      "endIsUpperBound": true,
+      "curated": true,
+      "acquisition": "century-600-0.34",
+      "portrait": {
+        "file": "media/portrait-f0094dd6203f844a0e9e.jpg",
+        "title": "Muslim depiction of Muhammad - 17th century Ottoman copy from the \"Edinburgh codex\".jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Muslim_depiction_of_Muhammad_-_17th_century_Ottoman_copy_from_the_%22Edinburgh_codex%22.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Muslim_depiction_of_Muhammad_-_17th_century_Ottoman_copy_from_the_%22Edinburgh_codex%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "derivative work: Snitty (talk)\nMaome.jpg: Unknown",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Muslim_depiction_of_Muhammad_-_17th_century_Ottoman_copy_from_the_%22Edinburgh_codex%22.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "cbb21169dddee7ce15cb0cb5e3d7d967d4d11cec49ec3dc4a0d77b0b3db633d1",
+        "bytes": 84588,
+        "canonicalFile": "Países/MEDINA-COMMUNITY-Comunidad-de-Medina/retratos/portrait-f0094dd6203f844a0e9e.jpg",
+        "caption": "Representación religiosa deMahoma en una copia otomana del sigloXVII; iconografía posterior, no imagen del natural."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

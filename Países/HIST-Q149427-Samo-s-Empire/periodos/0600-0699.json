@@ -1,0 +1,195 @@
+{
+  "key": "HIST-Q149427",
+  "identity": {
+    "qid": "Q149427",
+    "name": "Samo's Empire"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de la confederación de Samo",
+      "officePattern": "King|Ruler|Samo",
+      "titles": [
+        "Samo"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q295168",
+      "name": "Samo",
+      "role": "Gobernante de la confederación de Samo",
+      "start": "0623-01-01",
+      "end": "0658-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Samo",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-15d15b8baeaafcaf685c.jpg",
+        "title": "King Samo.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:King_Samo.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/King_Samo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_Samo.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.moraviamagna.cz/",
+        "sha256": "d3481d4ae775913149700116eb550c21d90f3ea837b08bf5fd61d2a04243f6d0",
+        "bytes": 31982,
+        "canonicalFile": "Países/HIST-Q149427-Samo-s-Empire/retratos/portrait-15d15b8baeaafcaf685c.jpg",
+        "caption": "Representación posterior de Samo; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Samo's Empire"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Samo's Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "c97efcebacadbfab9b58900d44d3f0e76bb159a64f960e97b9d149b9b1fb96e1",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2283,
+        2317,
+        2379,
+        2420,
+        2428,
+        2502
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Samo",
+        "title": "Samo",
+        "person": "Q295168",
+        "name": "Samo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Samo",
+        "identityResolution": {
+          "requested": "Samo",
+          "canonical": "Samo",
+          "qid": "Q295168"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0623-01-01",
+          "end": "0658-01-01",
+          "precision": 9,
+          "statement": "Q295168$f4c62c98-407c-5f70-42fe-c639fa4221fa",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q295168",
+        "title": "Samo",
+        "source": "https://en.wikipedia.org/wiki/Samo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Rex Sclavorum (\"King of the Slavs\")",
+            "raw": "623–658",
+            "parsed": {
+              "start": "0623-01-01",
+              "end": "0658-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q295168",
+        "title": "Samo",
+        "source": "https://en.wikipedia.org/wiki/Samo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Rex Sclavorum (\"King of the Slavs\")",
+          "raw": "623–658",
+          "parsed": {
+            "start": "0623-01-01",
+            "end": "0658-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "mediaReview": [
+    {
+      "person": "Q295168",
+      "name": "Samo",
+      "title": "King Samo.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:King_Samo.jpg",
+      "sha256": "d3481d4ae775913149700116eb550c21d90f3ea837b08bf5fd61d2a04243f6d0",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Samo; no retrato del natural acreditado."
+    }
+  ]
+}

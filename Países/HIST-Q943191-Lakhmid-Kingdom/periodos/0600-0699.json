@@ -1,0 +1,127 @@
+{
+  "key": "HIST-Q943191",
+  "identity": {
+    "qid": "Q943191",
+    "name": "Lakhmid Kingdom"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [],
+  "leaders": [
+    {
+      "person": "LOCAL-LAKHMID-AL-NUMAN-III",
+      "name": "Al-Nuʿmān III ibn al-Mundhir",
+      "role": "Rey lajmí · cliente de los sasánidas",
+      "start": "0600-01-01",
+      "end": "0602-12-31",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "source": "https://www.iranicaonline.org/articles/lakhmids/",
+      "note": "Último monarca lajmí,580–602 segúnIranica/Bosworth; fue depuesto porCosroesII. Identidad local explícita sin atribuir un QID o retrato no verificados."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 602,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lakhmid Kingdom"
+        ],
+        "start": 600,
+        "end": 602,
+        "label": "Reino lajmí · cliente sasánida",
+        "admin": "SASANIAN",
+        "status": "client-kingdom",
+        "source": "https://www.iranicaonline.org/articles/lakhmids/",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme.",
+        "localKey": "HIST-Q943191"
+      }
+    },
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lakhmid Kingdom"
+        ],
+        "start": 603,
+        "end": 699,
+        "label": "Antiguos ámbitos lajmíes · referencia de transición",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://www.iranicaonline.org/articles/lakhmids/",
+        "note": "El contorno de fuente se prolonga más allá de la cronología del reino. Se conserva una referencia espacial, sin afirmar independencia continuada ni proyectar sus reyes sobre otras administraciones."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "533c02699eed029628f2b3f0d382d45aefb80952d8b9dcdbdfd15986e6a366ca",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1954,
+        2342,
+        2351
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno.",
+    "Contrastar administraciones, autoridades locales y límites de transición; el nombre histórico de un contorno no acredita soberanía vigente."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "documentedAuthorities": [
+    {
+      "person": "LOCAL-LAKHMID-AL-NUMAN-III",
+      "name": "Al-Nuʿmān III ibn al-Mundhir",
+      "role": "Rey lajmí · cliente de los sasánidas",
+      "start": "0600-01-01",
+      "end": "0602-12-31",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "source": "https://www.iranicaonline.org/articles/lakhmids/",
+      "note": "Último monarca lajmí,580–602 segúnIranica/Bosworth; fue depuesto porCosroesII. Identidad local explícita sin atribuir un QID o retrato no verificados."
+    }
+  ]
+}

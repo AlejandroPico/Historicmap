@@ -1,0 +1,366 @@
+{
+  "key": "EASTERN-TURKIC",
+  "identity": {
+    "qid": "Q205466",
+    "name": "Kanato túrquico oriental"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Kan túrquico oriental",
+      "officePattern": "Khagan|Khan",
+      "titles": [
+        "Yami Qaghan",
+        "Shibi Qaghan",
+        "Ashina Xichun",
+        "Illig Qaghan"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q171232",
+      "name": "Yami Qaghan",
+      "role": "Kan túrquico oriental",
+      "start": "0603-01-01",
+      "end": "0609-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yami_Qaghan",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q171698",
+      "name": "Shibi Khan",
+      "role": "Kan túrquico oriental",
+      "start": "0609-01-01",
+      "end": "0619-04-01",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shibi_Qaghan",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q171682",
+      "name": "Chuluo Khan",
+      "role": "Kan túrquico oriental",
+      "start": "0619-01-01",
+      "end": "0620-12-01",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ashina_Xichun",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q172180",
+      "name": "Illig Qaghan",
+      "role": "Kan túrquico oriental",
+      "start": "0620-01-01",
+      "end": "0630-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Illig_Qaghan",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review034-turkic",
+      "type": "institution",
+      "title": "Poderes túrquicos oriental y occidental",
+      "start": "0600-01-01",
+      "end": "0631-01-01",
+      "text": "Los kanatos comparten un identificador demasiado genérico en la fuente, pero se resuelven por nombres propios. No se fusionan sus gobernantes ni se proyecta la restauración de682 al año600.",
+      "source": "https://en.wikipedia.org/wiki/Eastern_Turkic_Khaganate",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Eastern Göktürks"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Kanato túrquico oriental",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "7992d7e8990aa2eea390b700db4433124e21ee6e1cdb1e630334764365a04de1",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2172,
+        2240,
+        2265,
+        2277,
+        2308,
+        2313,
+        2321,
+        2348
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ashina Xichun",
+        "title": "Ashina Xichun",
+        "person": "Q171682",
+        "name": "Chuluo Khan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ashina_Xichun",
+        "identityResolution": {
+          "requested": "Ashina Xichun",
+          "canonical": "Ashina Xichun",
+          "qid": "Q171682"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q171682",
+        "title": "Ashina Xichun",
+        "source": "https://en.wikipedia.org/wiki/Ashina_Xichun",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Eastern Turkic Khaganate",
+            "raw": "619 – {{circa|December 620}}",
+            "parsed": {
+              "start": "0619-01-01",
+              "end": "0620-12-01",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Illig Qaghan",
+        "title": "Illig Qaghan",
+        "person": "Q172180",
+        "name": "Illig Qaghan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Illig_Qaghan",
+        "identityResolution": {
+          "requested": "Illig Qaghan",
+          "canonical": "Illig Qaghan",
+          "qid": "Q172180"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q172180",
+        "title": "Illig Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Illig_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Fourth Khagan of the Eastern Turkic Khaganate",
+            "raw": "620–630",
+            "parsed": {
+              "start": "0620-01-01",
+              "end": "0630-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shibi Qaghan",
+        "title": "Shibi Qaghan",
+        "person": "Q171698",
+        "name": "Shibi Khan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shibi_Qaghan",
+        "identityResolution": {
+          "requested": "Shibi Qaghan",
+          "canonical": "Shibi Qaghan",
+          "qid": "Q171698"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q171698",
+        "title": "Shibi Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Shibi_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Second Khagan of the Eastern Turkic Khaganate",
+            "raw": "609–{{circa}} April 619",
+            "parsed": {
+              "start": "0609-01-01",
+              "end": "0619-04-01",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yami Qaghan",
+        "title": "Yami Qaghan",
+        "person": "Q171232",
+        "name": "Yami Qaghan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yami_Qaghan",
+        "identityResolution": {
+          "requested": "Yami Qaghan",
+          "canonical": "Yami Qaghan",
+          "qid": "Q171232"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q171232",
+        "title": "Yami Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Yami_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "First Khagan of the Eastern Turkic Khaganate",
+            "raw": "603–609",
+            "parsed": {
+              "start": "0603-01-01",
+              "end": "0609-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 4,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q171232",
+        "title": "Yami Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Yami_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "First Khagan of the Eastern Turkic Khaganate",
+          "raw": "603–609",
+          "parsed": {
+            "start": "0603-01-01",
+            "end": "0609-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q171698",
+        "title": "Shibi Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Shibi_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Second Khagan of the Eastern Turkic Khaganate",
+          "raw": "609–{{circa}} April 619",
+          "parsed": {
+            "start": "0609-01-01",
+            "end": "0619-04-01",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q171682",
+        "title": "Ashina Xichun",
+        "source": "https://en.wikipedia.org/wiki/Ashina_Xichun",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Eastern Turkic Khaganate",
+          "raw": "619 – {{circa|December 620}}",
+          "parsed": {
+            "start": "0619-01-01",
+            "end": "0620-12-01",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q172180",
+        "title": "Illig Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Illig_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Fourth Khagan of the Eastern Turkic Khaganate",
+          "raw": "620–630",
+          "parsed": {
+            "start": "0620-01-01",
+            "end": "0630-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "contexts": [
+    {
+      "id": "review034-turkic",
+      "type": "institution",
+      "title": "Poderes túrquicos oriental y occidental",
+      "start": "0600-01-01",
+      "end": "0631-01-01",
+      "text": "Los kanatos comparten un identificador demasiado genérico en la fuente, pero se resuelven por nombres propios. No se fusionan sus gobernantes ni se proyecta la restauración de682 al año600.",
+      "source": "https://en.wikipedia.org/wiki/Eastern_Turkic_Khaganate",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ]
+}

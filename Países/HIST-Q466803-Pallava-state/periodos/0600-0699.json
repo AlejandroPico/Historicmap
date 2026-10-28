@@ -1,0 +1,513 @@
+{
+  "key": "HIST-Q466803",
+  "identity": {
+    "qid": "Q466803",
+    "name": "Late Pallava Empire"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey pallava",
+      "officePattern": "Pallava|King",
+      "titles": [
+        "Mahendravarman I",
+        "Narasimhavarman I",
+        "Mahendravarman II",
+        "Paramesvaravarman I",
+        "Narasimhavarman II"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3537043",
+      "name": "Mahendravarman I",
+      "role": "Rey pallava",
+      "start": "0600-01-01",
+      "end": "0630-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mahendravarman_I",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q3537058",
+      "name": "Narasimhavarman I",
+      "role": "Rey pallava",
+      "start": "0630-01-01",
+      "end": "0668-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Narasimhavarman_I",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q6733810",
+      "name": "Mahendravarman II",
+      "role": "Rey pallava",
+      "start": "0668-01-01",
+      "end": "0669-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mahendravarman_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q3537028",
+      "name": "Paramesvaravarman I",
+      "role": "Rey pallava",
+      "start": "0670-01-01",
+      "end": "0695-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Parameswaravarman_I",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q707745",
+      "name": "Narasimhavarman II",
+      "role": "Rey pallava",
+      "start": "0695-01-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Narasimhavarman_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Late Pallava Empire"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Late Pallava Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "0ee2d10298101861f943e696df32183419f705cad5ed3a9a7599487ddb548992",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2074,
+        2217,
+        2299,
+        2509
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Mahendravarman I",
+        "title": "Mahendravarman I",
+        "person": "Q3537043",
+        "name": "Mahendravarman I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mahendravarman_I",
+        "identityResolution": {
+          "requested": "Mahendravarman I",
+          "canonical": "Mahendravarman I",
+          "qid": "Q3537043"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q116161761",
+          "start": "0600-01-01",
+          "end": "0630-01-01",
+          "precision": 9,
+          "statement": "Q3537043$bf831285-4de9-4110-fd94-7f815b6b1cfe",
+          "label": "Pallava king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3537043",
+        "title": "Mahendravarman I",
+        "source": "https://en.wikipedia.org/wiki/Mahendravarman_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava emperor",
+            "raw": "590–630",
+            "parsed": {
+              "start": "0590-01-01",
+              "end": "0630-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava dynasty",
+            "raw": "600–630",
+            "parsed": {
+              "start": "0600-01-01",
+              "end": "0630-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mahendravarman II",
+        "title": "Mahendravarman II",
+        "person": "Q6733810",
+        "name": "Mahendravarman II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mahendravarman_II",
+        "identityResolution": {
+          "requested": "Mahendravarman II",
+          "canonical": "Mahendravarman II",
+          "qid": "Q6733810"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6733810",
+        "title": "Mahendravarman II",
+        "source": "https://en.wikipedia.org/wiki/Mahendravarman_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava emperor",
+            "raw": "668–669",
+            "parsed": {
+              "start": "0668-01-01",
+              "end": "0669-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava dynasty",
+            "raw": "668–669",
+            "parsed": {
+              "start": "0668-01-01",
+              "end": "0669-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Narasimhavarman I",
+        "title": "Narasimhavarman I",
+        "person": "Q3537058",
+        "name": "Narasimhavarman I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Narasimhavarman_I",
+        "identityResolution": {
+          "requested": "Narasimhavarman I",
+          "canonical": "Narasimhavarman I",
+          "qid": "Q3537058"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q116161761",
+          "start": "0630-01-01",
+          "end": "0668-01-01",
+          "precision": 9,
+          "statement": "Q3537058$6116fa17-407c-1014-ba7f-a6cec6fc31c1",
+          "label": "Pallava king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3537058",
+        "title": "Narasimhavarman I",
+        "source": "https://en.wikipedia.org/wiki/Narasimhavarman_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava emperor",
+            "raw": "{{circa|630|668}}",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0668-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava dynasty",
+            "raw": "630–668",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0668-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Narasimhavarman II",
+        "title": "Narasimhavarman II",
+        "person": "Q707745",
+        "name": "Narasimhavarman II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Narasimhavarman_II",
+        "identityResolution": {
+          "requested": "Narasimhavarman II",
+          "canonical": "Narasimhavarman II",
+          "qid": "Q707745"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q707745",
+        "title": "Narasimhavarman II",
+        "source": "https://en.wikipedia.org/wiki/Narasimhavarman_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava emperor",
+            "raw": "{{circa|695|728 CE}}",
+            "parsed": {
+              "start": "0695-01-01",
+              "end": "0728-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava dynasty",
+            "raw": "695–722",
+            "parsed": {
+              "start": "0695-01-01",
+              "end": "0722-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Paramesvaravarman I",
+        "title": "Paramesvaravarman I",
+        "person": "Q3537028",
+        "name": "Paramesvaravarman I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Parameswaravarman_I",
+        "identityResolution": {
+          "requested": "Paramesvaravarman I",
+          "canonical": "Parameswaravarman I",
+          "qid": "Q3537028"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q116161761",
+          "start": "0670-01-01",
+          "end": "0695-01-01",
+          "precision": 9,
+          "statement": "Q3537028$c781b5a3-42d6-72cb-6ada-ea5fcfa50762",
+          "label": "Pallava king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3537028",
+        "title": "Parameswaravarman I",
+        "source": "https://en.wikipedia.org/wiki/Parameswaravarman_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Pallava emperor",
+            "raw": "{{circa|670–695}}",
+            "parsed": {
+              "start": "0670-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Pallava dynasty",
+            "raw": "670–695",
+            "parsed": {
+              "start": "0670-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q3537043",
+        "title": "Mahendravarman I",
+        "source": "https://en.wikipedia.org/wiki/Mahendravarman_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava emperor",
+          "raw": "590–630",
+          "parsed": {
+            "start": "0590-01-01",
+            "end": "0630-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q3537058",
+        "title": "Narasimhavarman I",
+        "source": "https://en.wikipedia.org/wiki/Narasimhavarman_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava emperor",
+          "raw": "{{circa|630|668}}",
+          "parsed": {
+            "start": "0630-01-01",
+            "end": "0668-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q6733810",
+        "title": "Mahendravarman II",
+        "source": "https://en.wikipedia.org/wiki/Mahendravarman_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava emperor",
+          "raw": "668–669",
+          "parsed": {
+            "start": "0668-01-01",
+            "end": "0669-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q3537028",
+        "title": "Paramesvaravarman I",
+        "source": "https://en.wikipedia.org/wiki/Parameswaravarman_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava emperor",
+          "raw": "{{circa|670–695}}",
+          "parsed": {
+            "start": "0670-01-01",
+            "end": "0695-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q707745",
+        "title": "Narasimhavarman II",
+        "source": "https://en.wikipedia.org/wiki/Narasimhavarman_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Pallava emperor",
+          "raw": "{{circa|695|728 CE}}",
+          "parsed": {
+            "start": "0695-01-01",
+            "end": "0728-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-25",
+      "name": "Kanchipuram",
+      "coordinates": [
+        79.705,
+        12.834
+      ],
+      "start": 600,
+      "end": 699,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Pallava_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q3537043",
+      "title": "Mahabalipuram, Pancha Rathas, Tamil Nadu, India.jpg",
+      "reason": "Edificio/templo; no retrato deMahendravarman.",
+      "source": "https://commons.wikimedia.org/wiki/File:Mahabalipuram,_Pancha_Rathas,_Tamil_Nadu,_India.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q3537043",
+      "name": "Mahendravarman I",
+      "title": "Mahabalipuram, Pancha Rathas, Tamil Nadu, India.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mahabalipuram,_Pancha_Rathas,_Tamil_Nadu,_India.jpg",
+      "sha256": "451a3005fc394883818e6822f04991fddb9a207c9a4d57ad1b835a37c89ff9ba",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Edificio/templo; no retrato deMahendravarman."
+    }
+  ]
+}

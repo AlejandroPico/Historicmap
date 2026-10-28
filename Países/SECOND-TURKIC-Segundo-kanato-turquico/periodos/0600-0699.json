@@ -1,0 +1,230 @@
+{
+  "key": "SECOND-TURKIC",
+  "identity": {
+    "qid": "Q4833446",
+    "name": "Segundo kanato túrquico"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Kan del segundo poder túrquico",
+      "officePattern": "Khagan|Khan",
+      "titles": [
+        "Ilterish Qaghan",
+        "Qapaghan Qaghan"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q387151",
+      "name": "Ilterish Qaghan",
+      "role": "Kan del segundo poder túrquico",
+      "start": "0682-01-01",
+      "end": "0691-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ilterish_Qaghan",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q1325694",
+      "name": "Qapaghan Qaghan",
+      "role": "Kan del segundo poder túrquico",
+      "start": "0692-01-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qapaghan_Qaghan",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review034-restoration",
+      "type": "institution",
+      "title": "Restauración del poder túrquico",
+      "start": "0682-01-01",
+      "end": "0700-01-01",
+      "text": "Ilterish yQapaghan corresponden a la reorganización desde682; no gobiernan el primer kanato al inicio del siglo. Los contornos genéricosTurks no acreditan dominio de toda la estepa.",
+      "source": "https://en.wikipedia.org/wiki/Second_Turkic_Khaganate",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/History",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ilterish Qaghan",
+        "title": "Ilterish Qaghan",
+        "person": "Q387151",
+        "name": "Ilterish Qaghan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ilterish_Qaghan",
+        "identityResolution": {
+          "requested": "Ilterish Qaghan",
+          "canonical": "Ilterish Qaghan",
+          "qid": "Q387151"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q187878",
+          "start": "0682-01-01",
+          "end": "0692-01-01",
+          "precision": 9,
+          "statement": "Q387151$6a293122-415f-4479-7a55-4988eb362188",
+          "label": "gran kan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q387151",
+        "title": "Ilterish Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Ilterish_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Second Turkic Khaganate",
+            "raw": "682–691",
+            "parsed": {
+              "start": "0682-01-01",
+              "end": "0691-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Qapaghan Qaghan",
+        "title": "Qapaghan Qaghan",
+        "person": "Q1325694",
+        "name": "Qapaghan Qaghan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Qapaghan_Qaghan",
+        "identityResolution": {
+          "requested": "Qapaghan Qaghan",
+          "canonical": "Qapaghan Qaghan",
+          "qid": "Q1325694"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q187878",
+          "start": "0691-01-01",
+          "end": "0716-01-01",
+          "precision": 9,
+          "statement": "Q1325694$2664ccc5-4ff3-3142-3d3c-9cff9112a140",
+          "label": "gran kan"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1325694",
+        "title": "Qapaghan Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Qapaghan_Qaghan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Qaghan of the Second Turkic Khaganate",
+            "raw": "692 – 716",
+            "parsed": {
+              "start": "0692-01-01",
+              "end": "0716-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q387151",
+        "title": "Ilterish Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Ilterish_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Second Turkic Khaganate",
+          "raw": "682–691",
+          "parsed": {
+            "start": "0682-01-01",
+            "end": "0691-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q1325694",
+        "title": "Qapaghan Qaghan",
+        "source": "https://en.wikipedia.org/wiki/Qapaghan_Qaghan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Qaghan of the Second Turkic Khaganate",
+          "raw": "692 – 716",
+          "parsed": {
+            "start": "0692-01-01",
+            "end": "0716-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "contexts": [
+    {
+      "id": "review034-restoration",
+      "type": "institution",
+      "title": "Restauración del poder túrquico",
+      "start": "0682-01-01",
+      "end": "0700-01-01",
+      "text": "Ilterish yQapaghan corresponden a la reorganización desde682; no gobiernan el primer kanato al inicio del siglo. Los contornos genéricosTurks no acreditan dominio de toda la estepa.",
+      "source": "https://en.wikipedia.org/wiki/Second_Turkic_Khaganate",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ]
+}

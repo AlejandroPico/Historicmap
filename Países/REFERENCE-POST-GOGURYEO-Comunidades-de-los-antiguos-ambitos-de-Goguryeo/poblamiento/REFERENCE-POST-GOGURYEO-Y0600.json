@@ -1,0 +1,81 @@
+{
+  "key": "REFERENCE-POST-GOGURYEO-Y0600",
+  "contextKey": "REFERENCE-POST-GOGURYEO",
+  "ownerKey": "REFERENCE-POST-GOGURYEO",
+  "name": "Ámbitos de Goguryeo · comunidades y transformación",
+  "originalNames": [
+    "Koguryo"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa editorial de700",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    600,
+    699
+  ],
+  "interpretation": "Goguryeo conserva una realeza hasta la conquista de668. El territorio de referencia y sus comunidades se distinguen del Estado; no se prolonga la monarquía después de668.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea600 contiene etiquetas de épocas distintas. La ventana600–699 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Goguryeo"
+    },
+    {
+      "title": "Contraste cronológico de la denominación original",
+      "url": "https://en.wikipedia.org/wiki/Goguryeo"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    126.94635,
+    42.03019
+  ],
+  "phases": [
+    {
+      "start": 600,
+      "end": 699,
+      "label": "Ámbitos de Goguryeo · comunidades y transformación",
+      "dateBasis": "Referencia regional de la fuente editorial600; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-GOGURYEO-Y0600.geojson",
+  "geometrySha256": "92ac52b1a327d9d659428db8f9697f6a8531b37c09c5b3b76aed23a916e78296",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson",
+    "year": 600,
+    "featureIds": [
+      33
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e8d285de5d4257c55158979e866191d13464abc74e3082fb5f2065b357beec7a"
+  },
+  "review": "0.34.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final699 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en700."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Koguryo",
+      "ABBREVN": "Koguryo",
+      "SUBJECTO": "Koguryo",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Koguryo"
+    }
+  ],
+  "sourceGrouping": [
+    "Koguryo"
+  ]
+}

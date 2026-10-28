@@ -1,0 +1,104 @@
+{
+  "key": "HIST-Q149427",
+  "name": "Samo's Empire",
+  "qid": "Q149427",
+  "aliases": [
+    "Samo's Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q149427"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q295168",
+      "name": "Samo",
+      "role": "Gobernante de la confederación de Samo",
+      "start": "0623-01-01",
+      "end": "0658-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Samo",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34",
+      "portrait": {
+        "file": "media/portrait-15d15b8baeaafcaf685c.jpg",
+        "title": "King Samo.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:King_Samo.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/King_Samo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_Samo.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.moraviamagna.cz/",
+        "sha256": "d3481d4ae775913149700116eb550c21d90f3ea837b08bf5fd61d2a04243f6d0",
+        "bytes": 31982,
+        "canonicalFile": "Países/HIST-Q149427-Samo-s-Empire/retratos/portrait-15d15b8baeaafcaf685c.jpg",
+        "caption": "Representación posterior de Samo; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2283",
+      "start": 623,
+      "end": 626,
+      "name": "Samo's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2317",
+      "start": 627,
+      "end": 632,
+      "name": "Samo's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2379",
+      "start": 633,
+      "end": 637,
+      "name": "Samo's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2420",
+      "start": 638,
+      "end": 640,
+      "name": "Samo's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2428",
+      "start": 641,
+      "end": 655,
+      "name": "Samo's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2502",
+      "start": 656,
+      "end": 660,
+      "name": "Samo's Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

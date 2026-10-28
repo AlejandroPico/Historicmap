@@ -1,6 +1,25 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.33.0 · ampliación700–799 y visibilidad sincronizada
+## Encargo vigente · 0.34.0 · ampliación 600–699
+
+Mantener entidades políticas y áreas culturales, controles independientes activados inicialmente, selección coincidente y todo lo anterior. Investigar cambios de poder, mandatos e imágenes sin inventar banderas, fronteras ni certezas. Subir tras validar localmente sin esperar Actions/Pages.
+
+- [x] Inventario político y cultural con originales y anacronismos.
+- [x] Autoridades, imágenes documentadas, formas políticas, cortes y contextos por entidad.
+- [x] Culturas y continuidad con700; navegación y reproducción anuales.
+- [x] Auditoría, conservación, pruebas focales, documentación y preparación del envío.
+
+Resultados 0.34: 425 componentes políticos originales, 112 dossiers de periodo, 294 registros de autoridades, 36 cortes/centros, 17 contextos y siete puntos de conflictos. Referencia cultural600: 83 dossiers originales, 68 fases adoptadas y 15 remisiones políticas. Catálogo: 3.987 carpetas y 1.290 identidades. Navegación anual600–699, sucesiones y fichas persistentes; controles de política/culturas activados inicialmente y sincronizados entre Capas/Filtros.
+
+Conservación: 1.253 identidades anteriores, 17.521 autoridades, 1.040 símbolos y 8.781 fases culturales conservados. Los 100 recursos previos permanecen; 92 idénticos y tres recursos nuevos. Se cotejan83 originales regionales con la fuente fijada. Repetición del compilador:222 archivos sin diferencias. Seis vistas anónimas generadas se consolidan conservando literalmente sus registros territoriales; ninguna tenía autoridades/símbolos propios. Véanse CONSERVATION-600, IDEMPOTENCE-600 y CATALOG-CONSERVATION-600.
+
+Validación local focal:49 comprobaciones/8 suites correctas,11 pruebas del lector de mandatos ycinco recorridos únicos de navegador. Los tres recorridos del sigloVII se repiten correctamente tras la última aclaración deHimyar/lajmíes/Armenia. Tipos y compilación correctos. Verificados103 datos,11 rangos deglifos y8.365 medios porSHA-256. Capturas deZhou, comunidad deMedina yAsuka móvil revisadas. No se ejecuta ni se espera la matriz completa deActions/Pages desde esta entrega local.
+
+Imágenes:135 candidatos inspeccionados,98 aceptados y37 rechazados, con pies ylicencias. No usar la piezaLACMA dePerozII325–330 para el pretendiente del sigloVII, la moneda con efigie masculina deAzarmidokht como retrato suyo, ni textos/mapas/edificios. La pintura deClovisIII691–695 del catálogo deVersalles corresponde aClodoveoIV según numeración moderna y conserva advertencia de imagen imaginaria. Las carencias deautoridades/símbolos/retratos están inventariadas nominalmente enREVIEW-600-699.json; no afirmar censo mundial completo. Pendientes: más cronología local, cortes mayas delClásico, imágenes individuales ysucesiones de poderes menores, insignias documentales ycontinuidad de referencias sin fase equivalente700. El fin699 deventana no es extinción.
+
+Incidencias resueltas:66 respuestas429 se recuperan antes decompilar; nombres ambiguos se resuelven por artículo/identidad humana. Una aserción antigua esperaba inicio700 en el inventario contextual: actualizada a600, conservando el resto delas comprobaciones yrepitiendo las ocho suites. Sui/Tang yotros contornos con desfase no fechan automáticamente la dinastía; sedes documentales eidentificación decontornos heredados permiten consultar sin inventar fronteras. Mantener culturas yprioridad política en futuras regresiones. Preparado para main yorigin/main; confirmar coincidencia remota ydejar al propietario la verificación deldespliegue.
+
+## Entrega anterior · 0.33.0 · ampliación700–799 y visibilidad sincronizada
 
 Ampliar el sigloVIII conservando pueblos y culturas, cartografía política y todas las fases previas. El propietario añade dos controles independientes en Capas y Filtros: Cartografía política / Pueblos y áreas culturales. Ambos activados por defecto y sincronizados entre paneles; mantener elecciones al navegar años/proyecciones. Subir tras validar localmente, sin esperarActions/Pages.
 

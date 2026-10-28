@@ -1,0 +1,130 @@
+{
+  "key": "HIST-Q17076645",
+  "identity": {
+    "qid": "Q17076645",
+    "name": "Gauda Kingdom"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Gauda",
+      "officePattern": "King|Ruler",
+      "titles": [
+        "Shashanka"
+      ]
+    }
+  ],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Gauda Kingdom"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Gauda Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "8894c4e3a8441119f7accc6165e7b561432b10a53a3efb3615b4e480b047d1ed",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2223
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Shashanka",
+        "title": "Shashanka",
+        "person": "Q2599441",
+        "name": "Shashanka",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shashanka",
+        "identityResolution": {
+          "requested": "Shashanka",
+          "canonical": "Shashanka",
+          "qid": "Q2599441"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2599441",
+        "title": "Shashanka",
+        "source": "https://en.wikipedia.org/wiki/Shashanka",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Maharajadhiraja of Gauda",
+            "raw": "593 – 636 C.E<ref>{{Cite web |url=https://www.worldhistory.org/Gauda_Kingdom/ |title=Gauda Kingdom |access-date=23 April 2021 |archive-date=24 April 2021 |archive-url=https://web.archive.org/web/20210424161058/https://www.worldhistory.org/Gauda_Kingdom/ |url-status=live }}</ref>",
+            "parsed": {
+              "start": "0593-01-01",
+              "end": "0636-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Shashanka",
+        "person": "Q2599441",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  }
+}

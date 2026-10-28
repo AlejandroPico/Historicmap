@@ -1,0 +1,171 @@
+{
+  "key": "MEDINA-COMMUNITY",
+  "identity": {
+    "qid": "",
+    "name": "Comunidad de Medina"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Profeta y dirigente de la comunidad de Medina",
+      "officePattern": "Leader|Ruler|Prophet",
+      "titles": [
+        "Muhammad"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q9458",
+      "name": "Mahoma · Muḥammad",
+      "role": "Profeta y dirigente de la comunidad de Medina",
+      "start": "0622-01-01",
+      "end": "0632-12-31",
+      "precision": 9,
+      "source": "https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750",
+      "note": "Marco institucional desde la Hégira622 hasta632; no se le asigna el título de califa ni una frontera estatal uniforme.",
+      "endIsUpperBound": true,
+      "portrait": {
+        "file": "media/portrait-f0094dd6203f844a0e9e.jpg",
+        "title": "Muslim depiction of Muhammad - 17th century Ottoman copy from the \"Edinburgh codex\".jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Muslim_depiction_of_Muhammad_-_17th_century_Ottoman_copy_from_the_%22Edinburgh_codex%22.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Muslim_depiction_of_Muhammad_-_17th_century_Ottoman_copy_from_the_%22Edinburgh_codex%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "derivative work: Snitty (talk)\nMaome.jpg: Unknown",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Muslim_depiction_of_Muhammad_-_17th_century_Ottoman_copy_from_the_%22Edinburgh_codex%22.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "cbb21169dddee7ce15cb0cb5e3d7d967d4d11cec49ec3dc4a0d77b0b3db633d1",
+        "bytes": 84588,
+        "canonicalFile": "Países/MEDINA-COMMUNITY-Comunidad-de-Medina/retratos/portrait-f0094dd6203f844a0e9e.jpg",
+        "caption": "Representación religiosa deMahoma en una copia otomana del sigloXVII; iconografía posterior, no imagen del natural."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 622,
+      "end": 632,
+      "tags": [
+        "theocracy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/History",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Muhammad",
+        "title": "Muhammad",
+        "person": "Q9458",
+        "name": "Mahoma",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Muhammad",
+        "identityResolution": {
+          "requested": "Muhammad",
+          "canonical": "Muhammad",
+          "qid": "Q9458"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48352",
+          "start": "0622-01-01",
+          "end": "0632-01-01",
+          "precision": 9,
+          "statement": "Q9458$711cd0db-4e8f-75d7-c0bb-61f5a99ef0ce",
+          "label": "jefe de Estado"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q9458",
+        "title": "Muhammad",
+        "source": "https://en.wikipedia.org/wiki/Muhammad",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Muhammad",
+        "person": "Q9458",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q9458",
+      "name": "Mahoma · Muḥammad",
+      "role": "Profeta y dirigente de la comunidad de Medina",
+      "start": "0622-01-01",
+      "end": "0632-12-31",
+      "precision": 9,
+      "source": "https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750",
+      "note": "Marco institucional desde la Hégira622 hasta632; no se le asigna el título de califa ni una frontera estatal uniforme.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-independent-MEDINA-COMMUNITY",
+      "name": "Medina · comunidad política",
+      "coordinates": [
+        39.61,
+        24.47
+      ],
+      "start": 622,
+      "end": 632,
+      "capital": true,
+      "role": "Sede documental; geometría territorial no disponible",
+      "source": "https://en.wikipedia.org/wiki/Muhammad",
+      "note": "El punto permite consultar la autoridad sin inventar límites de soberanía. No es una frontera ni una capital urbana medida.",
+      "standaloneReference": true,
+      "entityName": "Comunidad de Medina"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q9458",
+      "name": "Mahoma · Muḥammad",
+      "title": "Muslim depiction of Muhammad - 17th century Ottoman copy from the \"Edinburgh codex\".jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Muslim_depiction_of_Muhammad_-_17th_century_Ottoman_copy_from_the_%22Edinburgh_codex%22.jpg",
+      "sha256": "cbb21169dddee7ce15cb0cb5e3d7d967d4d11cec49ec3dc4a0d77b0b3db633d1",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación religiosa deMahoma en una copia otomana del sigloXVII; iconografía posterior, no imagen del natural."
+    }
+  ]
+}

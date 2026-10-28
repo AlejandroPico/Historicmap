@@ -29,7 +29,8 @@ def clean(raw):
  raw=re.sub(r'\{\{(?:snd|ndash|mdash|spaced ndash|spaced en dash)\}\}','–',raw,flags=re.I)
  raw=re.sub(r'\{\{circa\|(\d{3,4})\|(\d{3,4})(?:\s*CE)?\}\}',r'\1–\2',raw,flags=re.I)
  raw=re.sub(r'\{\{circa\|([^{}]*)\}\}',r'\1',raw,flags=re.I);raw=re.sub(r'\{\{circa\}\}','c. ',raw,flags=re.I)
- raw=re.sub(r'\b(?:CE|AD)\b','',raw)
+ raw=re.sub(r'(?<=\d)\s+to\s+(?=\d)','–',raw)
+ raw=re.sub(r'\b(?:A\.?D\.?|C\.?E\.?)(?!\w)','',raw)
  raw=re.sub(r'\{\{(?:nowrap|nobr|small)\|([^{}]*)\}\}',r'\1',raw)
  def date_template(m):
   v=re.findall(r'\|\s*(\d+)\s*(?=\||\}\})',m.group(0))
@@ -40,7 +41,7 @@ def clean(raw):
  for month in MONTHS:raw=re.sub(r'\b'+month[:3]+r'\.?\b',month,raw)
  return re.sub(r'\s+',' ',raw).strip()
 def parse_date(raw,end=False):
- text=clean(raw);text=re.sub(r'\([^)]*\)','',text).strip();text=re.sub(r'^(?:c\.?|circa|from)\s*','',text)
+ text=clean(raw);text=re.sub(r'\([^)]*\)','',text).strip();text=re.sub(r'^(?:(?:c\.?|circa|from|about|r\.)\s*)+','',text)
  for fmt,p in [('%Y-%m-%d',11),('%d %B %Y',11),('%B %d, %Y',11),('%B %Y',10),('%Y',9)]:
   try:
    d=datetime.datetime.strptime(text,fmt).date()

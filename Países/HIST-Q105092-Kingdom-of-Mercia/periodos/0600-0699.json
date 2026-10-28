@@ -1,0 +1,454 @@
+{
+  "key": "HIST-Q105092",
+  "identity": {
+    "qid": "Q105092",
+    "name": "Kingdom of Mercia"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Mercia",
+      "officePattern": "King.*Mercia",
+      "titles": [
+        "Pybba of Mercia",
+        "Cearl of Mercia",
+        "Penda of Mercia",
+        "Peada of Mercia",
+        "Wulfhere of Mercia",
+        "Æthelred of Mercia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q164499",
+      "name": "Wulfhere de Mercia",
+      "role": "Rey de Mercia",
+      "start": "0658-01-01",
+      "end": "0675-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wulfhere_of_Mercia",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q272212",
+      "name": "Etelredo de Mercia",
+      "role": "Rey de Mercia",
+      "start": "0675-01-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%C3%86thelred_of_Mercia",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Mercia"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Kingdom of Mercia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "b4e9eae70aa67cb2758ddd4e9e2c5faabd8f8ca6ceab8e26c57f9ae6e5df1364",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2153,
+        2256,
+        2323,
+        2470,
+        2524,
+        2545,
+        2594,
+        2628
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Cearl of Mercia",
+        "title": "Cearl of Mercia",
+        "person": "Q558197",
+        "name": "Cearl of Mercia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cearl_of_Mercia",
+        "identityResolution": {
+          "requested": "Cearl of Mercia",
+          "canonical": "Cearl of Mercia",
+          "qid": "Q558197"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q558197",
+        "title": "Cearl of Mercia",
+        "source": "https://en.wikipedia.org/wiki/Cearl_of_Mercia",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Peada of Mercia",
+        "title": "Peada of Mercia",
+        "person": "Q729723",
+        "name": "Peada de Mercia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Peada_of_Mercia",
+        "identityResolution": {
+          "requested": "Peada of Mercia",
+          "canonical": "Peada of Mercia",
+          "qid": "Q729723"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21013651",
+          "start": "0655-01-01",
+          "end": "0656-01-01",
+          "precision": 9,
+          "statement": "Q729723$6c05f670-4a1d-982e-244a-fdaa850758cb",
+          "label": "rei de Mercia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q729723",
+        "title": "Peada of Mercia",
+        "source": "https://en.wikipedia.org/wiki/Peada_of_Mercia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "[[King of Mercia|King of [Southern] Mercia]]",
+            "raw": "654 or 655–656",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Penda of Mercia",
+        "title": "Penda of Mercia",
+        "person": "Q332123",
+        "name": "Penda de Mercia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Penda_of_Mercia",
+        "identityResolution": {
+          "requested": "Penda of Mercia",
+          "canonical": "Penda of Mercia",
+          "qid": "Q332123"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21013651",
+          "start": "0632-01-01",
+          "end": "0655-11-15",
+          "precision": 9,
+          "statement": "Q332123$552e6aad-43bc-a9ff-d603-f60ec8e4eda9",
+          "label": "rei de Mercia"
+        },
+        {
+          "property": "P39",
+          "office": "Q21715287",
+          "start": "0642-01-01",
+          "end": "0645-01-01",
+          "precision": 9,
+          "statement": "Q332123$eb2cf395-46ba-a6a9-f160-ed1d2a72298f",
+          "label": "King of Wessex"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q332123",
+        "title": "Penda of Mercia",
+        "source": "https://en.wikipedia.org/wiki/Penda_of_Mercia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Mercia",
+            "raw": "c. 626&nbsp;– 655 AD\nor c. 633&nbsp;– 655 AD\nor c. 642&nbsp;– 655 AD",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pybba of Mercia",
+        "title": "Pybba of Mercia",
+        "person": "Q499807",
+        "name": "Pybba of Mercia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pybba_of_Mercia",
+        "identityResolution": {
+          "requested": "Pybba of Mercia",
+          "canonical": "Pybba of Mercia",
+          "qid": "Q499807"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21013651",
+          "start": "0593-01-01",
+          "end": "0606-01-01",
+          "precision": 9,
+          "statement": "Q499807$B01B3D40-895A-4DF0-AF9B-674AC7F20A0E",
+          "label": "rei de Mercia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q499807",
+        "title": "Pybba of Mercia",
+        "source": "https://en.wikipedia.org/wiki/Pybba_of_Mercia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Mercia",
+            "raw": "c. 593–606/615 AD",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wulfhere of Mercia",
+        "title": "Wulfhere of Mercia",
+        "person": "Q164499",
+        "name": "Wulfhere de Mercia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wulfhere_of_Mercia",
+        "identityResolution": {
+          "requested": "Wulfhere of Mercia",
+          "canonical": "Wulfhere of Mercia",
+          "qid": "Q164499"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21013651",
+          "start": "0658-01-01",
+          "end": "0675-01-01",
+          "precision": 9,
+          "statement": "Q164499$63F56196-69F8-4898-8214-09DC061527CF",
+          "label": "rei de Mercia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q164499",
+        "title": "Wulfhere of Mercia",
+        "source": "https://en.wikipedia.org/wiki/Wulfhere_of_Mercia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Mercia",
+            "raw": "658–675 AD",
+            "parsed": {
+              "start": "0658-01-01",
+              "end": "0675-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Æthelred of Mercia",
+        "title": "Æthelred of Mercia",
+        "person": "Q272212",
+        "name": "Etelredo de Mercia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelred_of_Mercia",
+        "identityResolution": {
+          "requested": "Æthelred of Mercia",
+          "canonical": "Æthelred of Mercia",
+          "qid": "Q272212"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21013651",
+          "start": "0675-01-01",
+          "end": "0704-01-01",
+          "precision": 9,
+          "statement": "Q272212$1afdec76-4e62-e2cd-c165-f5cb546e9ee3",
+          "label": "rei de Mercia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q272212",
+        "title": "Æthelred of Mercia",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelred_of_Mercia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Mercia",
+            "raw": "675–704",
+            "parsed": {
+              "start": "0675-01-01",
+              "end": "0704-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 2,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q164499",
+        "title": "Wulfhere of Mercia",
+        "source": "https://en.wikipedia.org/wiki/Wulfhere_of_Mercia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Mercia",
+          "raw": "658–675 AD",
+          "parsed": {
+            "start": "0658-01-01",
+            "end": "0675-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q272212",
+        "title": "Æthelred of Mercia",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelred_of_Mercia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Mercia",
+          "raw": "675–704",
+          "parsed": {
+            "start": "0675-01-01",
+            "end": "0704-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Pybba of Mercia",
+        "person": "Q499807",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Cearl of Mercia",
+        "person": "Q558197",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Penda of Mercia",
+        "person": "Q332123",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Peada of Mercia",
+        "person": "Q729723",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q164499",
+      "title": "Chad Peada Wulfhere at Lichfield.jpeg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Chad_Peada_Wulfhere_at_Lichfield.jpeg"
+    },
+    {
+      "person": "Q272212",
+      "title": "St John's Church, Chester - Westfenster 2.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:St_John%27s_Church,_Chester_-_Westfenster_2.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q164499",
+      "name": "Wulfhere de Mercia",
+      "title": "Chad Peada Wulfhere at Lichfield.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chad_Peada_Wulfhere_at_Lichfield.jpeg",
+      "sha256": "2509df0c59b6502a0a38d00d1a9dd4419fe7909b888d4a8d83196903a1ea748c",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q272212",
+      "name": "Etelredo de Mercia",
+      "title": "St John's Church, Chester - Westfenster 2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:St_John%27s_Church,_Chester_-_Westfenster_2.jpg",
+      "sha256": "ef17afb5dd147944c849f3cc35388b68111e16de27f650c4351c331c7ed33216",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ]
+}

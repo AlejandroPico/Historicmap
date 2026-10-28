@@ -1,0 +1,71 @@
+{
+  "key": "HIST-Q289577",
+  "identity": {
+    "qid": "Q289577",
+    "name": "Himyarite Kingdom"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Himyarite Kingdom"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Yemen · contorno heredado de Himyar",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://archiv.ub.uni-heidelberg.de/propylaeumdok/128/1/Yule_Decadence2007.pdf",
+        "note": "El contorno de fuente se prolonga más allá de la cronología del reino. Se conserva una referencia espacial, sin afirmar independencia continuada ni proyectar sus reyes sobre otras administraciones."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "2d64b50b635d40a760d90d21228a8515e4c5ee1a14b8796bbb6aaa445c48ce6b",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2183
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno.",
+    "Contrastar administraciones, autoridades locales y límites de transición; el nombre histórico de un contorno no acredita soberanía vigente."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  }
+}

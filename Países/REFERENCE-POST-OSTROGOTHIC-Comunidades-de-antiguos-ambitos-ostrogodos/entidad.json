@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-POST-OSTROGOTHIC",
+  "name": "Comunidades de antiguos ámbitos ostrogodos",
+  "qid": "",
+  "aliases": [
+    "Comunidades de antiguos ámbitos ostrogodos",
+    "Ostrogoths"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 144,
+      "start": null,
+      "end": null,
+      "name": "Ostrogoths",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-POST-OSTROGOTHIC-Y0600:0",
+      "contextKey": "REFERENCE-POST-OSTROGOTHIC",
+      "start": 600,
+      "end": 699,
+      "sourceYear": 600,
+      "canonicalFile": "Países/REFERENCE-POST-OSTROGOTHIC-Comunidades-de-antiguos-ambitos-ostrogodos/poblamiento/REFERENCE-POST-OSTROGOTHIC-Y0600.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

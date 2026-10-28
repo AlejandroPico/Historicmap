@@ -1,0 +1,391 @@
+{
+  "key": "HIST-Q208404",
+  "identity": {
+    "qid": "Q208404",
+    "name": "Principados y poderes armenios · referencia del siglo VII"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Príncipe de Armenia · dignidad regional",
+      "officePattern": "Prince|Ruler|Presiding",
+      "titles": [
+        "Theodore Rshtuni",
+        "Hamazasp IV Mamikonian",
+        "Grigor I Mamikonian",
+        "Ashot II Bagratuni"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2746520",
+      "name": "Hamazasp IV Mamikonian",
+      "role": "Príncipe de Armenia · dignidad regional",
+      "start": "0655-01-01",
+      "end": "0661-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hamazasp_IV_Mamikonian",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q2716088",
+      "name": "Gregorio I Mamiconio",
+      "role": "Príncipe de Armenia · dignidad regional",
+      "start": "0661-01-01",
+      "end": "0685-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Grigor_I_Mamikonian",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q2478997",
+      "name": "Achot II Bagratuni",
+      "role": "Príncipe de Armenia · dignidad regional",
+      "start": "0684-01-01",
+      "end": "0689-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ashot_II_Bagratuni",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Armenia"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Principados y poderes armenios · referencia del siglo VII",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://en.wikipedia.org/wiki/Presiding_Prince_of_Armenia",
+        "note": "La etiquetaKingdom ofArmenia de la compilación no acredita una monarquía armenia independiente del sigloVII. Príncipes presidentes, poderes locales y relaciones conBizancio, Persia yel califato tienen cronologías propias."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "4e430d20b25b9f7481522c9ff9c48ce6767867342362119819b866ab17dee82f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2408,
+        2458
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno.",
+    "Contrastar administraciones, autoridades locales y límites de transición; el nombre histórico de un contorno no acredita soberanía vigente."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ashot II Bagratuni",
+        "title": "Ashot II Bagratuni",
+        "person": "Q2478997",
+        "name": "Achot II Bagratuni",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ashot_II_Bagratuni",
+        "identityResolution": {
+          "requested": "Ashot II Bagratuni",
+          "canonical": "Ashot II Bagratuni",
+          "qid": "Q2478997"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q13053623",
+          "start": "0685-01-01",
+          "end": "0689-01-01",
+          "precision": 9,
+          "statement": "q2478997$0d71224a-4e73-d986-bd02-c4b7d0e638a3",
+          "label": "príncipe de Armenia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2478997",
+        "title": "Ashot II Bagratuni",
+        "source": "https://en.wikipedia.org/wiki/Ashot_II_Bagratuni",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Sper and Tayk prince (0670-0689) armenian prince",
+            "raw": "{{circa}} 684-689",
+            "parsed": {
+              "start": "0684-01-01",
+              "end": "0689-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Presiding prince of Armenia in rivalry with Nerses Kamsarakan",
+            "raw": "685–690",
+            "parsed": {
+              "start": "0685-01-01",
+              "end": "0690-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Ashot II Bagratuni",
+            "raw": "670-689",
+            "parsed": {
+              "start": "0670-01-01",
+              "end": "0689-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Grigor I Mamikonian",
+        "title": "Grigor I Mamikonian",
+        "person": "Q2716088",
+        "name": "Gregorio I Mamiconio",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Grigor_I_Mamikonian",
+        "identityResolution": {
+          "requested": "Grigor I Mamikonian",
+          "canonical": "Grigor I Mamikonian",
+          "qid": "Q2716088"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q13053623",
+          "start": "0661-01-01",
+          "end": "0685-01-01",
+          "precision": 9,
+          "statement": "q2716088$3f332b14-4734-cb87-e3a1-f4b041defc97",
+          "label": "príncipe de Armenia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2716088",
+        "title": "Grigor I Mamikonian",
+        "source": "https://en.wikipedia.org/wiki/Grigor_I_Mamikonian",
+        "reignFields": [
+          {
+            "field": "tenure",
+            "office": "Presiding Prince of Armenia",
+            "raw": "661 – 685",
+            "parsed": {
+              "start": "0661-01-01",
+              "end": "0685-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Presiding prince of Armenia under Umayyad suzerainty",
+            "raw": "661–685",
+            "parsed": {
+              "start": "0661-01-01",
+              "end": "0685-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hamazasp IV Mamikonian",
+        "title": "Hamazasp IV Mamikonian",
+        "person": "Q2746520",
+        "name": "Hamazasp IV Mamikonian",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hamazasp_IV_Mamikonian",
+        "identityResolution": {
+          "requested": "Hamazasp IV Mamikonian",
+          "canonical": "Hamazasp IV Mamikonian",
+          "qid": "Q2746520"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q13053623",
+          "start": "0654-01-01",
+          "end": "0661-01-01",
+          "precision": 9,
+          "statement": "q2746520$62d7444b-42fc-6acb-5bb6-0c143f55ad97",
+          "label": "príncipe de Armenia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2746520",
+        "title": "Hamazasp IV Mamikonian",
+        "source": "https://en.wikipedia.org/wiki/Hamazasp_IV_Mamikonian",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Presiding prince of Armenia under Rashidun and then Byzantine suzerainty",
+            "raw": "655–661",
+            "parsed": {
+              "start": "0655-01-01",
+              "end": "0661-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theodore Rshtuni",
+        "title": "Theodore Rshtuni",
+        "person": "Q1841706",
+        "name": "Theodore Rshtuni",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theodore_Rshtuni",
+        "identityResolution": {
+          "requested": "Theodore Rshtuni",
+          "canonical": "Theodore Rshtuni",
+          "qid": "Q1841706"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q13414623",
+          "start": "0643-01-01",
+          "end": "0645-01-01",
+          "precision": 9,
+          "statement": "q1841706$4079e7fd-4402-c740-9752-e3a603a4d53c",
+          "label": "marzban de Armenia"
+        },
+        {
+          "property": "P97",
+          "office": "Q13053623",
+          "start": "0639-01-01",
+          "end": "0654-01-01",
+          "precision": 9,
+          "statement": "q1841706$9eebf024-4fae-b1d6-e172-81f560f18e93",
+          "label": "príncipe de Armenia"
+        },
+        {
+          "property": "P97",
+          "office": "Q13053623",
+          "start": "0654-01-01",
+          "end": "0655-01-01",
+          "precision": 9,
+          "statement": "q1841706$e8d02adf-4586-58e5-f897-4d7d8fc4dc1e",
+          "label": "príncipe de Armenia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1841706",
+        "title": "Theodore Rshtuni",
+        "source": "https://en.wikipedia.org/wiki/Theodore_Rshtuni",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q2746520",
+        "title": "Hamazasp IV Mamikonian",
+        "source": "https://en.wikipedia.org/wiki/Hamazasp_IV_Mamikonian",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Presiding prince of Armenia under Rashidun and then Byzantine suzerainty",
+          "raw": "655–661",
+          "parsed": {
+            "start": "0655-01-01",
+            "end": "0661-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2716088",
+        "title": "Grigor I Mamikonian",
+        "source": "https://en.wikipedia.org/wiki/Grigor_I_Mamikonian",
+        "selectionEvidence": {
+          "field": "tenure",
+          "office": "Presiding Prince of Armenia",
+          "raw": "661 – 685",
+          "parsed": {
+            "start": "0661-01-01",
+            "end": "0685-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q2478997",
+        "title": "Ashot II Bagratuni",
+        "source": "https://en.wikipedia.org/wiki/Ashot_II_Bagratuni",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Sper and Tayk prince (0670-0689) armenian prince",
+          "raw": "{{circa}} 684-689",
+          "parsed": {
+            "start": "0684-01-01",
+            "end": "0689-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Theodore Rshtuni",
+        "person": "Q1841706",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  }
+}

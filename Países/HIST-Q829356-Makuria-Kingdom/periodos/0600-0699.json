@@ -1,0 +1,285 @@
+{
+  "key": "HIST-Q829356",
+  "identity": {
+    "qid": "Q829356",
+    "name": "Makuria"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Makuria",
+      "officePattern": "King|Ruler",
+      "titles": [
+        "Qalidurut",
+        "Merkurios"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q888741",
+      "name": "Mercurios",
+      "role": "Rey de Makuria",
+      "start": "0697-01-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Merkurios_of_Makuria",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q103135597",
+      "name": "Qalidurut",
+      "role": "Rey de Makuria · testimonio de652",
+      "start": "0652-01-01",
+      "end": "0652-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qalidurut",
+      "note": "Autoridad documentada en relación con el asedio y negociación de651/652; sólo ventana testimonial652. No se reconstruye un mandato completo a partir de sus campañas.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review034-dongola",
+      "type": "conflict",
+      "title": "Asedio y negociación de Dongola",
+      "start": "0652-01-01",
+      "end": "0653-01-01",
+      "text": "El testimonio deQalidurut se vincula a651/652 y al acuerdo delbaqt. No se reconstruye un mandato completo desde el año de una batalla ni un frente militar continuo.",
+      "source": "https://en.wikipedia.org/wiki/Second_Battle_of_Dongola",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Makuria"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Makuria",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "3ad41bd9d8a2211302b26a9e7f4fb3b691c14e93c45502ce5bff259d93cf7fb3",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2140,
+        2287,
+        2507,
+        2593,
+        2629
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Merkurios",
+        "title": "Merkurios",
+        "person": "Q888741",
+        "name": "Mercurios",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Merkurios_of_Makuria",
+        "identityResolution": {
+          "requested": "Merkurios",
+          "canonical": "Merkurios of Makuria",
+          "qid": "Q888741"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q14957157",
+          "start": "0697-01-01",
+          "end": "0722-01-01",
+          "precision": 9,
+          "statement": "Q888741$fda1f8e6-4ff4-af18-91be-c5ae2680bedd",
+          "label": "King of Makuria"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q888741",
+        "title": "Merkurios of Makuria",
+        "source": "https://en.wikipedia.org/wiki/Merkurios_of_Makuria",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Makuria",
+            "raw": "697 - {{c.|722}}",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Qalidurut",
+        "title": "Qalidurut",
+        "person": "Q103135597",
+        "name": "Qalidurut",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Qalidurut",
+        "identityResolution": {
+          "requested": "Qalidurut",
+          "canonical": "Qalidurut",
+          "qid": "Q103135597"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q103135597",
+        "title": "Qalidurut",
+        "source": "https://en.wikipedia.org/wiki/Qalidurut",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q888741",
+        "title": "Merkurios",
+        "source": "https://en.wikipedia.org/wiki/Merkurios_of_Makuria",
+        "selectionEvidence": {
+          "property": "P39",
+          "office": "Q14957157",
+          "start": "0697-01-01",
+          "end": "0722-01-01",
+          "precision": 9,
+          "statement": "Q888741$fda1f8e6-4ff4-af18-91be-c5ae2680bedd",
+          "label": "King of Makuria"
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Qalidurut",
+        "person": "Q103135597",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q103135597",
+      "name": "Qalidurut",
+      "role": "Rey de Makuria · testimonio de652",
+      "start": "0652-01-01",
+      "end": "0652-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qalidurut",
+      "note": "Autoridad documentada en relación con el asedio y negociación de651/652; sólo ventana testimonial652. No se reconstruye un mandato completo a partir de sus campañas.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-31",
+      "name": "Dongola",
+      "coordinates": [
+        30.41,
+        18.22
+      ],
+      "start": 600,
+      "end": 699,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Makuria",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review034-dongola",
+      "type": "conflict",
+      "title": "Asedio y negociación de Dongola",
+      "start": "0652-01-01",
+      "end": "0653-01-01",
+      "text": "El testimonio deQalidurut se vincula a651/652 y al acuerdo delbaqt. No se reconstruye un mandato completo desde el año de una batalla ni un frente militar continuo.",
+      "source": "https://en.wikipedia.org/wiki/Second_Battle_of_Dongola",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review034-dongola",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.41,
+          18.22
+        ]
+      },
+      "properties": {
+        "name": "Asedio y negociación de Dongola",
+        "countries": [
+          "HIST-Q829356"
+        ],
+        "kind": "regional-conflict",
+        "start": "0652-01-01",
+        "end": "0652-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Second_Battle_of_Dongola",
+        "sourceLabel": "Referencia documental · siglo VII",
+        "note": "El testimonio deQalidurut se vincula a651/652 y al acuerdo delbaqt. No se reconstruye un mandato completo desde el año de una batalla ni un frente militar continuo. Referencia regional aproximada."
+      }
+    }
+  ]
+}

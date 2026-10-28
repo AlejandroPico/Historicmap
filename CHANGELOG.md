@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.34.0 · 28 de octubre de 2026
+
+- Ampliación anual600–699 con425 componentes políticos originales y68 referencias culturales nuevas, conservando las fases posteriores.
+- Sui/Tang, fin sasánida, primeros califatos, poder rival zubayrí, regencias y cambios de dinastía diferenciados; desfases espaciales de la fuente explícitos.
+- Sedes documentales para poderes sin polígono disponible; no se inventan fronteras. Los contornos políticos heredados permiten leer las culturas subyacentes.
+- Dos reinados deKōgyoku/Saimei, realeza merovingia y mayordomías, cronologías discutidas y testimonios aislados distinguidos.
+- Revisión visual de135 candidatos:98 aceptados y37 rechazados, con originales, licencias y pies por entidad. Símbolos y carencias pendientes documentados.
+- Lector de mandatos compatible conA.D./C.E. y rangos explícitos con «to», sin derivar cargos de fechas personales.
+
 ## 0.33.0 · 28 de octubre de 2026
 
 - Consulta y reproducción anual700–799:359 componentes políticos originales y99 referencias regionales adoptadas, con originales y decisiones dentro de cada entidad.

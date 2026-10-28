@@ -1,0 +1,85 @@
+{
+  "key": "CULTURE-AUSTRALIA-Y0600",
+  "contextKey": "CULTURE-AUSTRALIA",
+  "ownerKey": "CULTURE-AUSTRALIA",
+  "name": "Pueblos aborígenes de Australia",
+  "originalNames": [
+    "Australian aboriginal hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Oceanía",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    600,
+    699
+  ],
+  "interpretation": "Pueblos indígenas diversos y de larga continuidad, con formas propias de organización, conocimiento y uso del territorio. La región amplia de la compilación no es una nación única ni permite reconstruir fronteras locales.",
+  "spatialUncertainty": "Contorno original de compilación mundial, con escala y precisión desiguales. No es una frontera observada anualmente ni una distribución poblacional; requiere contraste espacial local.",
+  "temporalUncertainty": "La instantánea600 contiene etiquetas de épocas distintas. La ventana600–699 es de consulta, no prueba de límites constantes, fundación o extinción. Las denominaciones anacrónicas se reinterpretan explícitamente.",
+  "references": [
+    {
+      "title": "Historical Basemaps · referencia editorial de600",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson"
+    },
+    {
+      "title": "Historical Basemaps · referencia editorial de700",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson"
+    },
+    {
+      "title": "Historical Basemaps · mapa de800, referencia espacial",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_800.geojson"
+    },
+    {
+      "title": "Historical Basemaps · países y regiones culturales, instantánea 1000",
+      "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+    },
+    {
+      "title": "National Museum of Australia · historia profunda de Australia",
+      "url": "https://aws-digital-classroom.nma.gov.au/learning-modules/deep-time-history-australia?view_mode=student"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a49786",
+  "focus": [
+    133.2643,
+    -25.04801
+  ],
+  "phases": [
+    {
+      "start": 600,
+      "end": 699,
+      "label": "Pueblos aborígenes de Australia",
+      "dateBasis": "Referencia regional de la fuente editorial600; cronología local independiente desigual o pendiente, sin observaciones anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-AUSTRALIA-Y0600.geojson",
+  "geometrySha256": "024677ea3ffcb336ffab7f8a66799bf803497d1404f10c06f6f390f6b1cef4fd",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_600.geojson",
+    "year": 600,
+    "featureIds": [
+      91
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e8d285de5d4257c55158979e866191d13464abc74e3082fb5f2065b357beec7a"
+  },
+  "review": "0.34.0 · 2026-10-28",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "temporalMode": "approximate-source-window",
+  "pending": [
+    "Contrastar cronología y límites regionales con evidencia local; el final699 de esta ventana no significa desaparición. Investigar continuidad cuando falte fase equivalente en700."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Australian aboriginal hunter-gatherers",
+      "ABBREVN": "Australian aboriginal hunter-gatherers",
+      "SUBJECTO": "Australian aboriginal hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Australian aboriginal hunter-gatherers"
+    }
+  ],
+  "sourceGrouping": [
+    "Australian aboriginal hunter-gatherers"
+  ]
+}

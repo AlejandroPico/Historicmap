@@ -1,0 +1,794 @@
+{
+  "key": "UMAYYAD-CALIPHATE",
+  "identity": {
+    "qid": "Q8575586",
+    "name": "Califato omeya de Damasco"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Califa omeya de Damasco",
+      "officePattern": "Caliph",
+      "titles": [
+        "Mu'awiya I",
+        "Yazid I",
+        "Mu'awiya II",
+        "Marwan I",
+        "Abd al-Malik ibn Marwan"
+      ]
+    },
+    {
+      "role": "Pretendiente rival al califato · poder zubayrí",
+      "officePattern": "Caliph",
+      "titles": [
+        "Abd Allah ibn al-Zubayr"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q181154",
+      "name": "Muawiya ibn Abi Sufyan",
+      "role": "Califa omeya de Damasco",
+      "start": "0661-01-01",
+      "end": "0680-04-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Mu%27awiya_I",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q217442",
+      "name": "Yazid I",
+      "role": "Califa omeya de Damasco",
+      "start": "0680-01-01",
+      "end": "0683-11-11",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yazid_I",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q264210",
+      "name": "Muawiya II",
+      "role": "Califa omeya de Damasco",
+      "start": "0683-01-01",
+      "end": "0684-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mu%27awiya_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q36788",
+      "name": "Abd al-Malik",
+      "role": "Califa omeya de Damasco",
+      "start": "0685-04-12",
+      "end": "0699-12-31",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Abd_al-Malik_ibn_Marwan",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-8a52595e40408d4bbaec.jpg",
+        "title": "First Umayyad gold dinar, Caliph Abd al-Malik, 695 CE.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:First_Umayyad_gold_dinar,_Caliph_Abd_al-Malik,_695_CE.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/First_Umayyad_gold_dinar%2C_Caliph_Abd_al-Malik%2C_695_CE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "PHGCOM",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:First_Umayyad_gold_dinar,_Caliph_Abd_al-Malik,_695_CE.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work, photographed at British Museum",
+        "sha256": "c98291d2e53d7735c12635155e2e5caf54cc9015b7b09058cc07d1e35ded68d8",
+        "bytes": 641669,
+        "canonicalFile": "Países/UMAYYAD-CALIPHATE-Califato-omeya-de-Damasco/retratos/portrait-8a52595e40408d4bbaec.jpg",
+        "caption": "Dinar del tipo califa de pie deAbd al-Malik,695; efigie convencional de autoridad, no retrato fisonómico."
+      }
+    },
+    {
+      "person": "Q298577",
+      "name": "Marwán I",
+      "role": "Califa omeya de Damasco",
+      "start": "0684-06-01",
+      "end": "0685-05-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Marwan_I",
+      "note": "Acceso en junio684 y final abril/mayo685; ventana documental de meses, no fechas diarias certificadas.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review034-fitna",
+      "type": "conflict",
+      "title": "Segunda fitna y autoridad zubayrí",
+      "start": "0680-01-01",
+      "end": "0693-01-01",
+      "text": "La dinastía omeya y la autoridad rival deIbn al-Zubayr son poderes diferentes. La corte deLa Meca permite consultar al rival sin atribuirle una frontera territorial inventada.",
+      "source": "https://en.wikipedia.org/wiki/Second_Fitna",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 661,
+      "end": 699,
+      "tags": [
+        "monarchy",
+        "caliphate",
+        "theocracy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Umayyad Caliphate"
+        ],
+        "start": 661,
+        "end": 699,
+        "label": "Califato omeya de Damasco",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Umayyad Caliphate"
+        ],
+        "start": 600,
+        "end": 660,
+        "label": "Referencia de los ámbitos sirios anteriores al califato omeya",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "El califato omeya comienza en661; un contorno de fuente anterior no acredita el mismo título o control político."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "ce130ca125b12308f4d686d5f6d5ee60cfdcb290795f7b3101d25f2707afccc9",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2505,
+        2522,
+        2547,
+        2563,
+        2600,
+        2627
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Abd Allah ibn al-Zubayr",
+        "title": "Abd Allah ibn al-Zubayr",
+        "person": "Q307665",
+        "name": "Abd Allah ibn al-Zubayr",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Abd_Allah_ibn_al-Zubayr",
+        "identityResolution": {
+          "requested": "Abd Allah ibn al-Zubayr",
+          "canonical": "Abd Allah ibn al-Zubayr",
+          "qid": "Q307665"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65997",
+          "start": "0683-11-14",
+          "end": "0692-11-02",
+          "precision": 11,
+          "statement": "Q307665$125a2f01-4654-a261-3b06-514e2bdae2c6",
+          "label": "califa"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q307665",
+        "title": "Abd Allah ibn al-Zubayr",
+        "source": "https://en.wikipedia.org/wiki/Abd_Allah_ibn_al-Zubayr",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Zubayrid Caliph{{efn|Ibn al-Zubayr's caliphate was initially recognized in the Hejaz, Egypt, Iraq, Khurasan, al-Jazira, Yemen and parts of Syria. His reign coincided with the rival Umayyad caliphs Mu'awiya II ({{reign|0683|0684}}) and Marwan I ({{reign|0684|0685}}) and part of the reign of Abd al-Malik ({{reign|0685|0705}})}}",
+            "raw": "683–692",
+            "parsed": {
+              "start": "0683-01-01",
+              "end": "0692-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Caliph",
+            "raw": "November 683 – November 692",
+            "parsed": {
+              "start": "0683-11-01",
+              "end": "0692-11-01",
+              "precision": 10
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Abd al-Malik ibn Marwan",
+        "title": "Abd al-Malik ibn Marwan",
+        "person": "Q36788",
+        "name": "Abd al-Malik",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Abd_al-Malik_ibn_Marwan",
+        "identityResolution": {
+          "requested": "Abd al-Malik ibn Marwan",
+          "canonical": "Abd al-Malik ibn Marwan",
+          "qid": "Q36788"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q67497236",
+          "start": "0685-04-12",
+          "end": "0705-10-04",
+          "precision": 11,
+          "statement": "Q36788$13b70952-454c-6c52-d37d-df5f5b82fb40",
+          "label": "califa omeya"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q36788",
+        "title": "Abd al-Malik ibn Marwan",
+        "source": "https://en.wikipedia.org/wiki/Abd_al-Malik_ibn_Marwan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "5th Caliph of the Umayyad Caliphate",
+            "raw": "12 April 685 – 9 October 705",
+            "parsed": {
+              "start": "0685-04-12",
+              "end": "0705-10-09",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Caliph of Islam Umayyad Caliph",
+            "raw": "12 April 685{{snd}}9 October 705",
+            "parsed": {
+              "start": "0685-04-12",
+              "end": "0705-10-09",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Marwan I",
+        "title": "Marwan I",
+        "person": "Q298577",
+        "name": "Marwan I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Marwan_I",
+        "identityResolution": {
+          "requested": "Marwan I",
+          "canonical": "Marwan I",
+          "qid": "Q298577"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q67497236",
+          "start": "0684-06-01",
+          "end": "0685-05-07",
+          "precision": 10,
+          "statement": "Q298577$9e08ab8e-481a-7355-ede2-765db9766cd4",
+          "label": "califa omeya"
+        },
+        {
+          "property": "P39",
+          "office": "Q98433836",
+          "start": "0648-01-01",
+          "end": "0662-01-01",
+          "precision": 9,
+          "statement": "Q298577$a1af3fd3-4b89-4fda-7baa-dfcb867de52a",
+          "label": "Governors of Bahrain"
+        },
+        {
+          "property": "P39",
+          "office": "Q5589675",
+          "start": "0662-01-01",
+          "end": "0682-01-01",
+          "precision": 9,
+          "statement": "Q298577$2a3f2526-45f1-a409-942d-0b78508db381",
+          "label": "Governor of Madina"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q298577",
+        "title": "Marwan I",
+        "source": "https://en.wikipedia.org/wiki/Marwan_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "4th Caliph of the Umayyad Caliphate",
+            "raw": "June 684 – April/May 685",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Caliph of Islam{{break}}Umayyad Caliph",
+            "raw": "June 684 – April/May 685",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Governor of Medina",
+            "raw": "661–668",
+            "parsed": {
+              "start": "0661-01-01",
+              "end": "0668-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Governor of Medina",
+            "raw": "674–677",
+            "parsed": {
+              "start": "0674-01-01",
+              "end": "0677-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mu'awiya I",
+        "title": "Mu'awiya I",
+        "person": "Q181154",
+        "name": "Muawiya ibn Abi Sufyan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mu%27awiya_I",
+        "identityResolution": {
+          "requested": "Mu'awiya I",
+          "canonical": "Mu'awiya I",
+          "qid": "Q181154"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q42532877",
+          "start": "0640-01-01",
+          "end": "0661-01-01",
+          "precision": 9,
+          "statement": "Q181154$3111d9af-43cf-f1b2-4180-d8bc0c1358cd",
+          "label": "Governor of the Levant"
+        },
+        {
+          "property": "P39",
+          "office": "Q67497236",
+          "start": "0661-07-28",
+          "end": "0680-04-27",
+          "precision": 11,
+          "statement": "Q181154$7fff754a-4d9c-c278-9297-49218c3a421c",
+          "label": "califa omeya"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q181154",
+        "title": "Mu'awiya I",
+        "source": "https://en.wikipedia.org/wiki/Mu%27awiya_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "1st Caliph of the Umayyad Caliphate",
+            "raw": "January 661{{snd}}April 680",
+            "parsed": {
+              "start": "0661-01-01",
+              "end": "0680-04-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Caliph of Islam Umayyad Caliph",
+            "raw": "661–680",
+            "parsed": {
+              "start": "0661-01-01",
+              "end": "0680-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Governor of Syria",
+            "raw": "639–661",
+            "parsed": {
+              "start": "0639-01-01",
+              "end": "0661-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mu'awiya II",
+        "title": "Mu'awiya II",
+        "person": "Q264210",
+        "name": "Muawiya II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mu%27awiya_II",
+        "identityResolution": {
+          "requested": "Mu'awiya II",
+          "canonical": "Mu'awiya II",
+          "qid": "Q264210"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q67497236",
+          "start": "0683-11-11",
+          "end": "0684-06-01",
+          "precision": 10,
+          "statement": "Q264210$31bf3fe1-4f4f-a6ca-0737-d6bd4634694a",
+          "label": "califa omeya"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q264210",
+        "title": "Mu'awiya II",
+        "source": "https://en.wikipedia.org/wiki/Mu%27awiya_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "3rd Caliph of the Umayyad Caliphate",
+            "raw": "683 – 684",
+            "parsed": {
+              "start": "0683-01-01",
+              "end": "0684-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Caliph of Islam Umayyad Caliph",
+            "raw": "683 – 684",
+            "parsed": {
+              "start": "0683-01-01",
+              "end": "0684-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yazid I",
+        "title": "Yazid I",
+        "person": "Q217442",
+        "name": "Yazid I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yazid_I",
+        "identityResolution": {
+          "requested": "Yazid I",
+          "canonical": "Yazid I",
+          "qid": "Q217442"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q67497236",
+          "start": "0680-04-27",
+          "end": "0683-11-11",
+          "precision": 11,
+          "statement": "Q217442$e40ca5ee-4cf6-db89-d54a-d3b8284f999c",
+          "label": "califa omeya"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q217442",
+        "title": "Yazid I",
+        "source": "https://en.wikipedia.org/wiki/Yazid_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "2nd Caliph of the Umayyad Caliphate",
+            "raw": "April 680{{efn|name=fn2|1=Mu'awiya died in the month of [[Rajab]] 60 [[Hijri year|AH]]. Rajab of the year 60 AH started on 7 April 680. The precise date of death varies depending on the source: 7 April according to [[Ibn al-Kalbi]] ({{died-in|819}}), 21 April according to [[al-Waqidi]] ({{died-in|823}}), and 29 April according to [[al-Mada'ini]] ({{died-in|843}}).{{sfn|Morony|1987|page=210}} Yazid acceded to the caliphate a few days after Mu'awiya's death; according to [[Abu Mikhnaf]] ({{died-in|774}}), his accession was on 7 April, whereas [[Elijah of Nisibis]] placed it on 21 April.{{sfn|Wellhausen|1927|p=139}}}}{{snd}}11 November 683",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Caliph of Islam Umayyad Caliph",
+            "raw": "680{{snd}}11 November 683",
+            "parsed": {
+              "start": "0680-01-01",
+              "end": "0683-11-11",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q181154",
+        "title": "Mu'awiya I",
+        "source": "https://en.wikipedia.org/wiki/Mu%27awiya_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "1st Caliph of the Umayyad Caliphate",
+          "raw": "January 661{{snd}}April 680",
+          "parsed": {
+            "start": "0661-01-01",
+            "end": "0680-04-01",
+            "precision": 10
+          }
+        }
+      },
+      {
+        "person": "Q217442",
+        "title": "Yazid I",
+        "source": "https://en.wikipedia.org/wiki/Yazid_I",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Caliph of Islam Umayyad Caliph",
+          "raw": "680{{snd}}11 November 683",
+          "parsed": {
+            "start": "0680-01-01",
+            "end": "0683-11-11",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q264210",
+        "title": "Mu'awiya II",
+        "source": "https://en.wikipedia.org/wiki/Mu%27awiya_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "3rd Caliph of the Umayyad Caliphate",
+          "raw": "683 – 684",
+          "parsed": {
+            "start": "0683-01-01",
+            "end": "0684-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q36788",
+        "title": "Abd al-Malik ibn Marwan",
+        "source": "https://en.wikipedia.org/wiki/Abd_al-Malik_ibn_Marwan",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "5th Caliph of the Umayyad Caliphate",
+          "raw": "12 April 685 – 9 October 705",
+          "parsed": {
+            "start": "0685-04-12",
+            "end": "0705-10-09",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q307665",
+        "title": "Abd Allah ibn al-Zubayr",
+        "source": "https://en.wikipedia.org/wiki/Abd_Allah_ibn_al-Zubayr",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Zubayrid Caliph{{efn|Ibn al-Zubayr's caliphate was initially recognized in the Hejaz, Egypt, Iraq, Khurasan, al-Jazira, Yemen and parts of Syria. His reign coincided with the rival Umayyad caliphs Mu'awiya II ({{reign|0683|0684}}) and Marwan I ({{reign|0684|0685}}) and part of the reign of Abd al-Malik ({{reign|0685|0705}})}}",
+          "raw": "683–692",
+          "parsed": {
+            "start": "0683-01-01",
+            "end": "0692-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Marwan I",
+        "person": "Q298577",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q298577",
+      "name": "Marwán I",
+      "role": "Califa omeya de Damasco",
+      "start": "0684-06-01",
+      "end": "0685-05-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Marwan_I",
+      "note": "Acceso en junio684 y final abril/mayo685; ventana documental de meses, no fechas diarias certificadas.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-8",
+      "name": "Damasco",
+      "coordinates": [
+        36.3,
+        33.51
+      ],
+      "start": 661,
+      "end": 699,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Umayyad_Caliphate",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review034-fitna",
+      "type": "conflict",
+      "title": "Segunda fitna y autoridad zubayrí",
+      "start": "0680-01-01",
+      "end": "0693-01-01",
+      "text": "La dinastía omeya y la autoridad rival deIbn al-Zubayr son poderes diferentes. La corte deLa Meca permite consultar al rival sin atribuirle una frontera territorial inventada.",
+      "source": "https://en.wikipedia.org/wiki/Second_Fitna",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review034-fitna",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.826,
+          21.422
+        ]
+      },
+      "properties": {
+        "name": "Segunda fitna y autoridad zubayrí",
+        "countries": [
+          "UMAYYAD-CALIPHATE"
+        ],
+        "kind": "regional-conflict",
+        "start": "0680-01-01",
+        "end": "0692-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Second_Fitna",
+        "sourceLabel": "Referencia documental · siglo VII",
+        "note": "La dinastía omeya y la autoridad rival deIbn al-Zubayr son poderes diferentes. La corte deLa Meca permite consultar al rival sin atribuirle una frontera territorial inventada. Referencia regional aproximada."
+      }
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q181154",
+      "title": "Umar Farrukh's Muʿāwiyah takes to the sea.png",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Umar_Farrukh%27s_Mu%CA%BF%C4%81wiyah_takes_to_the_sea.png"
+    },
+    {
+      "person": "Q217442",
+      "title": "Arab-Sasanian coin issued by Yazid I ibn Mu'awiya in the year of the Battle of Karbala.jpg",
+      "reason": "Tipo árabe-sasánida con efigie de tradición sasánida; no retrato acreditado deYazidI.",
+      "source": "https://commons.wikimedia.org/wiki/File:Arab-Sasanian_coin_issued_by_Yazid_I_ibn_Mu%27awiya_in_the_year_of_the_Battle_of_Karbala.jpg"
+    },
+    {
+      "person": "Q298577",
+      "title": "Drachm from Yazid I to Marwan I; Talha governor.jpg",
+      "reason": "Moneda emitida por un gobernador con tipo de tradición sasánida; no retrato acreditado deMarwánI.",
+      "source": "https://commons.wikimedia.org/wiki/File:Drachm_from_Yazid_I_to_Marwan_I;_Talha_governor.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q181154",
+      "name": "Muawiya ibn Abi Sufyan",
+      "title": "Umar Farrukh's Muʿāwiyah takes to the sea.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Umar_Farrukh%27s_Mu%CA%BF%C4%81wiyah_takes_to_the_sea.png",
+      "sha256": "227b4336025ab168a28db550f3aa4a0e4b3a249240d4cf67d5c7d433f0944efa",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q217442",
+      "name": "Yazid I",
+      "title": "Arab-Sasanian coin issued by Yazid I ibn Mu'awiya in the year of the Battle of Karbala.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Arab-Sasanian_coin_issued_by_Yazid_I_ibn_Mu%27awiya_in_the_year_of_the_Battle_of_Karbala.jpg",
+      "sha256": "a7374fbbe1d6a8c08037a4a8642843d13410576dc584a422eb14bebe1925f1bf",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Tipo árabe-sasánida con efigie de tradición sasánida; no retrato acreditado deYazidI."
+    },
+    {
+      "person": "Q36788",
+      "name": "Abd al-Malik",
+      "title": "First Umayyad gold dinar, Caliph Abd al-Malik, 695 CE.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:First_Umayyad_gold_dinar,_Caliph_Abd_al-Malik,_695_CE.jpg",
+      "sha256": "c98291d2e53d7735c12635155e2e5caf54cc9015b7b09058cc07d1e35ded68d8",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Dinar del tipo califa de pie deAbd al-Malik,695; efigie convencional de autoridad, no retrato fisonómico."
+    },
+    {
+      "person": "Q298577",
+      "name": "Marwán I",
+      "title": "Drachm from Yazid I to Marwan I; Talha governor.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Drachm_from_Yazid_I_to_Marwan_I;_Talha_governor.jpg",
+      "sha256": "2999463f2361108b6b8a730fcf80fa40f236692faf2bdb9bcc8e17d9d693d1f3",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Moneda emitida por un gobernador con tipo de tradición sasánida; no retrato acreditado deMarwánI."
+    }
+  ]
+}

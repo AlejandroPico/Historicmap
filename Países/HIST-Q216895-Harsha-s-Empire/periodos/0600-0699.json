@@ -1,0 +1,322 @@
+{
+  "key": "HIST-Q216895",
+  "identity": {
+    "qid": "Q216895",
+    "name": "Harsha's Empire"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de la dinastía Pushyabhuti",
+      "officePattern": "King|Emperor|Maharaja",
+      "titles": [
+        "Prabhakaravardhana",
+        "Rajyavardhana",
+        "Harsha"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q19895361",
+      "name": "Prabhakarvardhana",
+      "role": "Gobernante de la dinastía Pushyabhuti",
+      "start": "0600-01-01",
+      "end": "0605-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Prabhakaravardhana",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q19895694",
+      "name": "Rajyavardhana",
+      "role": "Gobernante de la dinastía Pushyabhuti",
+      "start": "0605-01-01",
+      "end": "0606-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Rajyavardhana",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q216895",
+      "name": "Harsha Vardhana",
+      "role": "Gobernante de la dinastía Pushyabhuti",
+      "start": "0606-04-01",
+      "end": "0647-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Harsha",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-1b41fc3a056c29ecc9e7.jpg",
+        "title": "Harshavardhana Circa AD 606-647.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Harshavardhana_Circa_AD_606-647.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Harshavardhana_Circa_AD_606-647.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG Coins",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "CNG Coins Coin from CNG coins. Used with permission (CNG coin [1]).  Coin [2]",
+        "sha256": "5edcf8b4c36c03f0df0bc95ac4c0a35d36d2272770281082f56ab9e0d62a782d",
+        "bytes": 120825,
+        "canonicalFile": "Países/HIST-Q216895-Harsha-s-Empire/retratos/portrait-1b41fc3a056c29ecc9e7.jpg",
+        "caption": "Tipo monetario convencional atribuido a Harsha Vardhana; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Harsha's Empire"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Harsha's Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "f97af6e175fe093c5f47f2c8e9d765c8ecad937ae1093360201cc14f23da24fa",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2252,
+        2282,
+        2304,
+        2380,
+        2466,
+        2477
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Harsha",
+        "title": "Harsha",
+        "person": "Q216895",
+        "name": "Harsha Vardhana",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Harsha",
+        "identityResolution": {
+          "requested": "Harsha",
+          "canonical": "Harsha",
+          "qid": "Q216895"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q216895",
+        "title": "Harsha",
+        "source": "https://en.wikipedia.org/wiki/Harsha",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Maharajadhiraja of Kannauj",
+            "raw": "April 606 &ndash; 647",
+            "parsed": {
+              "start": "0606-04-01",
+              "end": "0647-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Prabhakaravardhana",
+        "title": "Prabhakaravardhana",
+        "person": "Q19895361",
+        "name": "Prabhakarvardhana",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Prabhakaravardhana",
+        "identityResolution": {
+          "requested": "Prabhakaravardhana",
+          "canonical": "Prabhakaravardhana",
+          "qid": "Q19895361"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q19895361",
+        "title": "Prabhakaravardhana",
+        "source": "https://en.wikipedia.org/wiki/Prabhakaravardhana",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Thanesar",
+            "raw": "{{circa|580|605}}",
+            "parsed": {
+              "start": "0580-01-01",
+              "end": "0605-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rajyavardhana",
+        "title": "Rajyavardhana",
+        "person": "Q19895694",
+        "name": "Rajyavardhana",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Rajyavardhana",
+        "identityResolution": {
+          "requested": "Rajyavardhana",
+          "canonical": "Rajyavardhana",
+          "qid": "Q19895694"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q19895694",
+        "title": "Rajyavardhana",
+        "source": "https://en.wikipedia.org/wiki/Rajyavardhana",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Thanesar",
+            "raw": "{{circa|605|606}}",
+            "parsed": {
+              "start": "0605-01-01",
+              "end": "0606-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q19895361",
+        "title": "Prabhakaravardhana",
+        "source": "https://en.wikipedia.org/wiki/Prabhakaravardhana",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Thanesar",
+          "raw": "{{circa|580|605}}",
+          "parsed": {
+            "start": "0580-01-01",
+            "end": "0605-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q19895694",
+        "title": "Rajyavardhana",
+        "source": "https://en.wikipedia.org/wiki/Rajyavardhana",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Thanesar",
+          "raw": "{{circa|605|606}}",
+          "parsed": {
+            "start": "0605-01-01",
+            "end": "0606-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q216895",
+        "title": "Harsha",
+        "source": "https://en.wikipedia.org/wiki/Harsha",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Maharajadhiraja of Kannauj",
+          "raw": "April 606 &ndash; 647",
+          "parsed": {
+            "start": "0606-04-01",
+            "end": "0647-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-28",
+      "name": "Kannauj · corte de Harsha",
+      "coordinates": [
+        79.92,
+        27.06
+      ],
+      "start": 606,
+      "end": 647,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Harsha",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q216895",
+      "name": "Harsha Vardhana",
+      "title": "Harshavardhana Circa AD 606-647.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Harshavardhana_Circa_AD_606-647.jpg",
+      "sha256": "5edcf8b4c36c03f0df0bc95ac4c0a35d36d2272770281082f56ab9e0d62a782d",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Harsha Vardhana; no retrato del natural acreditado."
+    }
+  ]
+}

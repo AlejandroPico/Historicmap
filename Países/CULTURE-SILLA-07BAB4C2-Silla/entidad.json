@@ -1,0 +1,51 @@
+{
+  "key": "CULTURE-SILLA-07BAB4C2",
+  "name": "Silla",
+  "qid": "",
+  "aliases": [
+    "Silla"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 426,
+      "start": null,
+      "end": null,
+      "name": "Silla",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 16,
+      "start": null,
+      "end": null,
+      "name": "Silla",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-SILLA-07BAB4C2-Y0600:0",
+      "contextKey": "CULTURE-SILLA-07BAB4C2",
+      "start": 600,
+      "end": 699,
+      "sourceYear": 600,
+      "canonicalFile": "Países/CULTURE-SILLA-07BAB4C2-Silla/poblamiento/CULTURE-SILLA-07BAB4C2-Y0600.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

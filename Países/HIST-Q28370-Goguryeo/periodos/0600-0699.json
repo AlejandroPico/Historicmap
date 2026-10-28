@@ -1,0 +1,380 @@
+{
+  "key": "HIST-Q28370",
+  "identity": {
+    "qid": "Q28370",
+    "name": "Goguryeo"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Goguryeo",
+      "officePattern": "King.*Goguryeo|King.*Kogur",
+      "titles": [
+        "Yeongyang of Goguryeo",
+        "Yeongnyu of Goguryeo",
+        "Bojang of Goguryeo"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q498927",
+      "name": "Yeongyang of Goguryeo",
+      "role": "Rey de Goguryeo",
+      "start": "0600-01-01",
+      "end": "0618-09-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Yeongyang_of_Goguryeo",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q498952",
+      "name": "Yeongnyu of Goguryeo",
+      "role": "Rey de Goguryeo",
+      "start": "0618-09-01",
+      "end": "0642-10-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Yeongnyu_of_Goguryeo",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q498974",
+      "name": "Bojang of Goguryeo",
+      "role": "Rey de Goguryeo",
+      "start": "0642-10-01",
+      "end": "0668-09-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Bojang_of_Goguryeo",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 668,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Goguryeo"
+        ],
+        "start": 600,
+        "end": 668,
+        "label": "Goguryeo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Goguryeo"
+        ],
+        "start": 669,
+        "end": 699,
+        "label": "Ámbitos anteriores de Goguryeo · contorno heredado",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "La geometría de la compilación continúa más allá de la cronología de la entidad. Se conserva como referencia, sin prolongar sus autoridades ni certificar fronteras contemporáneas a esta fecha."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "deaa0b5cf014a77e69f493e4bc4ac91fcbb90afdf4211231d01c5ffa589f9086",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2092,
+        2236,
+        2273,
+        2360,
+        2388,
+        2579
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bojang of Goguryeo",
+        "title": "Bojang of Goguryeo",
+        "person": "Q498974",
+        "name": "Bojang of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bojang_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Bojang of Goguryeo",
+          "canonical": "Bojang of Goguryeo",
+          "qid": "Q498974"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q141739813",
+          "start": "0642-01-01",
+          "end": "0668-01-01",
+          "precision": 9,
+          "statement": "Q498974$6f6d3f55-45db-bb0e-44db-e3362d5c8a0b",
+          "label": "King of Goguryeo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498974",
+        "title": "Bojang of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Bojang_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "October 642 – September 668 A.D.",
+            "parsed": {
+              "start": "0642-10-01",
+              "end": "0668-09-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Monarch of Goguryeo",
+            "raw": "642–668",
+            "parsed": {
+              "start": "0642-01-01",
+              "end": "0668-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yeongnyu of Goguryeo",
+        "title": "Yeongnyu of Goguryeo",
+        "person": "Q498952",
+        "name": "Yeongnyu of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yeongnyu_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Yeongnyu of Goguryeo",
+          "canonical": "Yeongnyu of Goguryeo",
+          "qid": "Q498952"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "0618-01-01",
+          "end": "0642-01-01",
+          "precision": 9,
+          "statement": "Q498952$2657dde9-4668-7c72-7956-a98ba7618cd0",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498952",
+        "title": "Yeongnyu of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Yeongnyu_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "September 618 – October 642 A.D.",
+            "parsed": {
+              "start": "0618-09-01",
+              "end": "0642-10-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Monarch of Goguryeo",
+            "raw": "590–642",
+            "parsed": {
+              "start": "0590-01-01",
+              "end": "0642-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yeongyang of Goguryeo",
+        "title": "Yeongyang of Goguryeo",
+        "person": "Q498927",
+        "name": "Yeongyang of Goguryeo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yeongyang_of_Goguryeo",
+        "identityResolution": {
+          "requested": "Yeongyang of Goguryeo",
+          "canonical": "Yeongyang of Goguryeo",
+          "qid": "Q498927"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q141739813",
+          "start": "0590-01-01",
+          "end": "0618-01-01",
+          "precision": 9,
+          "statement": "Q498927$33fa2100-4df6-cc98-f7ee-35e2d8c099ed",
+          "label": "King of Goguryeo"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498927",
+        "title": "Yeongyang of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Yeongyang_of_Goguryeo",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Goguryeo",
+            "raw": "October 590 – September 618 A.D.",
+            "parsed": {
+              "start": "0590-10-01",
+              "end": "0618-09-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Crown Prince of Goguryeo",
+            "raw": "January 565 – October 590 A.D.",
+            "parsed": {
+              "start": "0565-01-01",
+              "end": "0590-10-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Monarch of Goguryeo",
+            "raw": "590–618",
+            "parsed": {
+              "start": "0590-01-01",
+              "end": "0618-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q498927",
+        "title": "Yeongyang of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Yeongyang_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "October 590 – September 618 A.D.",
+          "parsed": {
+            "start": "0590-10-01",
+            "end": "0618-09-01",
+            "precision": 10
+          }
+        }
+      },
+      {
+        "person": "Q498952",
+        "title": "Yeongnyu of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Yeongnyu_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "September 618 – October 642 A.D.",
+          "parsed": {
+            "start": "0618-09-01",
+            "end": "0642-10-01",
+            "precision": 10
+          }
+        }
+      },
+      {
+        "person": "Q498974",
+        "title": "Bojang of Goguryeo",
+        "source": "https://en.wikipedia.org/wiki/Bojang_of_Goguryeo",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Goguryeo",
+          "raw": "October 642 – September 668 A.D.",
+          "parsed": {
+            "start": "0642-10-01",
+            "end": "0668-09-01",
+            "precision": 10
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-21",
+      "name": "Pionyang · Goguryeo",
+      "coordinates": [
+        125.75,
+        39.03
+      ],
+      "start": 600,
+      "end": 668,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Goguryeo",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ]
+}

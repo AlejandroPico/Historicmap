@@ -1,0 +1,367 @@
+{
+  "key": "HIST-Q28428",
+  "identity": {
+    "qid": "Q28428",
+    "name": "Baekje"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Baekje",
+      "officePattern": "King.*Baekje|King.*Paekche",
+      "titles": [
+        "Beop of Baekje",
+        "Mu of Baekje",
+        "Uija of Baekje"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q497983",
+      "name": "Beop of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0600-01-01",
+      "end": "0600-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/P%C5%8Fp_of_Paekche",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q498007",
+      "name": "Mu of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0600-01-01",
+      "end": "0641-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mu_of_Baekje",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q498030",
+      "name": "Uija of Baekje",
+      "role": "Rey de Baekje",
+      "start": "0641-01-01",
+      "end": "0660-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Uija_of_Baekje",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 660,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Baekje"
+        ],
+        "start": 600,
+        "end": 660,
+        "label": "Baekje",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Baekje"
+        ],
+        "start": 661,
+        "end": 699,
+        "label": "Ámbitos anteriores de Baekje · contorno heredado",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "La geometría de la compilación continúa más allá de la cronología de la entidad. Se conserva como referencia, sin prolongar sus autoridades ni certificar fronteras contemporáneas a esta fecha."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "45afecad14b245a473cd20f5aab7494e1c792e6028b680e0a70dbb013713cb9a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2128,
+        2489
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Beop of Baekje",
+        "title": "Beop of Baekje",
+        "person": "Q497983",
+        "name": "Beop of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/P%C5%8Fp_of_Paekche",
+        "identityResolution": {
+          "requested": "Beop of Baekje",
+          "canonical": "Pŏp of Paekche",
+          "qid": "Q497983"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0599-01-01",
+          "end": "0600-01-01",
+          "precision": 9,
+          "statement": "Q497983$76fe42ea-4579-f4d8-dd9f-6e98abe394df",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q497983",
+        "title": "Pŏp of Paekche",
+        "source": "https://en.wikipedia.org/wiki/P%C5%8Fp_of_Paekche",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Paekche",
+            "raw": "599–600",
+            "parsed": {
+              "start": "0599-01-01",
+              "end": "0600-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mu of Baekje",
+        "title": "Mu of Baekje",
+        "person": "Q498007",
+        "name": "Mu of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mu_of_Baekje",
+        "identityResolution": {
+          "requested": "Mu of Baekje",
+          "canonical": "Mu of Baekje",
+          "qid": "Q498007"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0600-01-01",
+          "end": "0641-01-01",
+          "precision": 9,
+          "statement": "Q498007$d8a58757-456b-70b6-8a49-18c6111825de",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498007",
+        "title": "Mu of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Mu_of_Baekje",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Baekje",
+            "raw": "600–641",
+            "parsed": {
+              "start": "0600-01-01",
+              "end": "0641-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "600–641",
+            "parsed": {
+              "start": "0600-01-01",
+              "end": "0641-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Uija of Baekje",
+        "title": "Uija of Baekje",
+        "person": "Q498030",
+        "name": "Uija of Baekje",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Uija_of_Baekje",
+        "identityResolution": {
+          "requested": "Uija of Baekje",
+          "canonical": "Uija of Baekje",
+          "qid": "Q498030"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "0641-01-01",
+          "end": "0660-01-01",
+          "precision": 9,
+          "statement": "Q498030$50817b0c-45fb-6697-3312-46b35aaf8f2d",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q498030",
+        "title": "Uija of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Uija_of_Baekje",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Baekje",
+            "raw": "641–660",
+            "parsed": {
+              "start": "0641-01-01",
+              "end": "0660-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 3,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q497983",
+        "title": "Beop of Baekje",
+        "source": "https://en.wikipedia.org/wiki/P%C5%8Fp_of_Paekche",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Paekche",
+          "raw": "599–600",
+          "parsed": {
+            "start": "0599-01-01",
+            "end": "0600-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q498007",
+        "title": "Mu of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Mu_of_Baekje",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Baekje",
+          "raw": "600–641",
+          "parsed": {
+            "start": "0600-01-01",
+            "end": "0641-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q498030",
+        "title": "Uija of Baekje",
+        "source": "https://en.wikipedia.org/wiki/Uija_of_Baekje",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "King of Baekje",
+          "raw": "641–660",
+          "parsed": {
+            "start": "0641-01-01",
+            "end": "0660-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-22",
+      "name": "Sabi · Baekje",
+      "coordinates": [
+        126.914,
+        36.281
+      ],
+      "start": 600,
+      "end": 660,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Baekje",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q498007",
+      "title": "Portraits of kings at Tongiljeon.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Portraits_of_kings_at_Tongiljeon.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q498007",
+      "name": "Mu of Baekje",
+      "title": "Portraits of kings at Tongiljeon.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portraits_of_kings_at_Tongiljeon.jpg",
+      "sha256": "b9cdcb54aeeabb9f990a27f4239ab8a76e10a09112e1180ce5d8115fa2a099cc",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ]
+}

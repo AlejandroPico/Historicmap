@@ -1,0 +1,77 @@
+{
+  "key": "HIST-Q191484",
+  "name": "Old Great Bulgaria",
+  "qid": "Q191484",
+  "aliases": [
+    "Old Great Bulgaria"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q191484"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q366466",
+      "name": "Batbayan of Bulgaria",
+      "role": "Kan de la Gran Bulgaria",
+      "start": "0667-01-01",
+      "end": "0690-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Batbayan",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q312477",
+      "name": "Kubrat",
+      "role": "Kan de la Gran Bulgaria",
+      "start": "0632-01-01",
+      "end": "0665-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Kubrat",
+      "note": "Cronología aproximada c.632–650/665. El final es una cota de consulta; no prueba de mandato continuo hasta665.",
+      "endIsUpperBound": true,
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2371",
+      "start": 633,
+      "end": 655,
+      "name": "Old Great Bulgaria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2495",
+      "start": 656,
+      "end": 673,
+      "name": "Old Great Bulgaria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2567",
+      "start": 674,
+      "end": 681,
+      "name": "Old Great Bulgaria",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

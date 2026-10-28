@@ -13,7 +13,21 @@
   },
   "flags": [],
   "symbolReferences": [],
-  "leaders": [],
+  "leaders": [
+    {
+      "person": "Q676801",
+      "name": "Najāshī · Ashama ibn Abjar",
+      "role": "Soberano de Aksum · testimonio tradicional de615–616",
+      "start": "0615-01-01",
+      "end": "0616-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Armah",
+      "note": "Ventana testimonial de acogida de emigrantes en615–616, no mandato completo. Su identificación conArmah es discutida: no se fusionan automáticamente ni se asigna una moneda deArmah como retrato suyo.",
+      "endIsUpperBound": true,
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    }
+  ],
   "portraitVariants": [],
   "territorialRecords": [
     {
@@ -55,9 +69,32 @@
       "end": 799,
       "name": "Kingdom of Axum",
       "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-1986",
+      "start": 600,
+      "end": 601,
+      "name": "Kingdom of Axum",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2230",
+      "start": 602,
+      "end": 699,
+      "name": "Kingdom of Axum",
+      "status": "Entidad histórica · reconstrucción anual"
     }
   ],
   "culturalReviews": [
+    {
+      "key": "CULTURE-AXUM-744D7285-Y0600",
+      "ownerKey": "HIST-Q139377",
+      "name": "Axum",
+      "file": "Países/HIST-Q139377-Kingdom-of-Axum/poblamiento/CULTURE-AXUM-744D7285-Y0600.json",
+      "decision": "political-base"
+    },
     {
       "key": "CULTURE-AXUM-744D7285-Y0700",
       "ownerKey": "HIST-Q139377",

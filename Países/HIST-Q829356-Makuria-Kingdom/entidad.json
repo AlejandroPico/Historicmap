@@ -14,7 +14,34 @@
   },
   "flags": [],
   "symbolReferences": [],
-  "leaders": [],
+  "leaders": [
+    {
+      "person": "Q888741",
+      "name": "Mercurios",
+      "role": "Rey de Makuria",
+      "start": "0697-01-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Merkurios_of_Makuria",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q103135597",
+      "name": "Qalidurut",
+      "role": "Rey de Makuria · testimonio de652",
+      "start": "0652-01-01",
+      "end": "0652-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qalidurut",
+      "note": "Autoridad documentada en relación con el asedio y negociación de651/652; sólo ventana testimonial652. No se reconstruye un mandato completo a partir de sus campañas.",
+      "endIsUpperBound": true,
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    }
+  ],
   "portraitVariants": [],
   "territorialRecords": [
     {
@@ -144,6 +171,46 @@
       "end": 799,
       "name": "Makuria",
       "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2140",
+      "start": 600,
+      "end": 622,
+      "name": "Makuria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2287",
+      "start": 623,
+      "end": 655,
+      "name": "Makuria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2507",
+      "start": 656,
+      "end": 681,
+      "name": "Makuria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2593",
+      "start": 682,
+      "end": 691,
+      "name": "Makuria",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2629",
+      "start": 692,
+      "end": 699,
+      "name": "Makuria",
+      "status": "Entidad histórica · reconstrucción anual"
     }
   ],
   "culturalRecords": [
@@ -158,6 +225,13 @@
     }
   ],
   "culturalReviews": [
+    {
+      "key": "CULTURE-MAKKURA-AA520FD4-Y0600",
+      "ownerKey": "HIST-Q829356",
+      "name": "Makkura",
+      "file": "Países/HIST-Q829356-Makuria-Kingdom/poblamiento/CULTURE-MAKKURA-AA520FD4-Y0600.json",
+      "decision": "political-base"
+    },
     {
       "key": "CULTURE-MAKKURA-AA520FD4-Y0700",
       "ownerKey": "HIST-Q829356",

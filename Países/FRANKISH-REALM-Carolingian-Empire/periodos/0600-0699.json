@@ -1,0 +1,3057 @@
+{
+  "key": "FRANKISH-REALM",
+  "identity": {
+    "qid": "Q146246",
+    "name": "Reino de los francos · etapa merovingia"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey merovingio de los francos",
+      "officePattern": "King.*Frank|King.*Franc|King.*Austrasia|King.*Neustria|King.*Burgund",
+      "titles": [
+        "Chlothar II",
+        "Theudebert II",
+        "Theuderic II",
+        "Sigebert II",
+        "Charibert II",
+        "Dagobert I",
+        "Sigebert III",
+        "Clovis II",
+        "Chlothar III",
+        "Childeric II",
+        "Theuderic III",
+        "Clovis III",
+        "Clovis IV",
+        "Childebert III"
+      ]
+    },
+    {
+      "role": "Mayordomo de palacio · autoridad efectiva",
+      "officePattern": "Mayor.*[Pp]alace|Mayor.*Austrasia|Mayor.*Neustria",
+      "titles": [
+        "Pepin of Landen",
+        "Grimoald the Elder",
+        "Erchinoald",
+        "Ebroin",
+        "Waratton",
+        "Berchar",
+        "Pepin of Herstal"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q209118",
+      "name": "Clotario II",
+      "role": "Rey merovingio de Neustria",
+      "start": "0600-01-01",
+      "end": "0629-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chlothar_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q209118",
+      "name": "Clotario II",
+      "role": "Rey merovingio de Borgoña",
+      "start": "0613-01-01",
+      "end": "0629-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chlothar_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q209118",
+      "name": "Clotario II",
+      "role": "Rey merovingio de Austrasia",
+      "start": "0613-01-01",
+      "end": "0623-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chlothar_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q312605",
+      "name": "Teodeberto II",
+      "role": "Rey merovingio de Austrasia",
+      "start": "0600-01-01",
+      "end": "0612-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theudebert_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-572275f1f41e212acd0f.png",
+        "title": "Tiers de sou de Théodebert II frappé à Clermont.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Tiers_de_sou_de_Th%C3%A9odebert_II_frapp%C3%A9_%C3%A0_Clermont.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Tiers_de_sou_de_Th%C3%A9odebert_II_frapp%C3%A9_%C3%A0_Clermont.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Tiers_de_sou_de_Théodebert_II_frappé_à_Clermont.jpeg: Atelier de Clermont-Ferrand\nderivative work: Leovilok (talk)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tiers_de_sou_de_Th%C3%A9odebert_II_frapp%C3%A9_%C3%A0_Clermont.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Tiers_de_sou_de_Théodebert_II_frappé_à_Clermont.jpeg",
+        "sha256": "1570cc1174d2502896fe5c72a9efab3645cc9319494e01b9e3cb58c5f92a2953",
+        "bytes": 346027,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-572275f1f41e212acd0f.png",
+        "caption": "Tipo monetario convencional atribuido a Teodeberto II; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q316869",
+      "name": "Teoderico II",
+      "role": "Rey merovingio de Borgoña",
+      "start": "0600-01-01",
+      "end": "0613-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theuderic_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q316869",
+      "name": "Teoderico II",
+      "role": "Rey merovingio de Austrasia",
+      "start": "0612-01-01",
+      "end": "0613-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theuderic_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q316888",
+      "name": "Sigeberto II",
+      "role": "Rey merovingio de Austrasia",
+      "start": "0613-01-01",
+      "end": "0613-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sigebert_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-4d2e6e87d26475947ec0.png",
+        "title": "Trémissis de Sigebert II frappé à Viviers (Ardèche).png",
+        "url": "https://commons.wikimedia.org/wiki/File:Tr%C3%A9missis_de_Sigebert_II_frapp%C3%A9_%C3%A0_Viviers_(Ard%C3%A8che).png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Tr%C3%A9missis_de_Sigebert_II_frapp%C3%A9_%C3%A0_Viviers_%28Ard%C3%A8che%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Trémissis_de_Sigebert_II_frappé_à_Viviers_(Ardèche).jpeg: Inconnu\nderivative work: Leovilok (talk)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tr%C3%A9missis_de_Sigebert_II_frapp%C3%A9_%C3%A0_Viviers_(Ard%C3%A8che).png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Trémissis_de_Sigebert_II_frappé_à_Viviers_(Ardèche).jpeg",
+        "sha256": "1f035def5eec5293941ad1e8445b9284e43bf13ce8211d732c7b735fe56f126d",
+        "bytes": 695899,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-4d2e6e87d26475947ec0.png",
+        "caption": "Tipo monetario convencional atribuido a Sigeberto II; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q109860",
+      "name": "Dagoberto I",
+      "role": "Rey merovingio de Austrasia",
+      "start": "0623-01-01",
+      "end": "0634-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dagobert_I",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-007e08b38bc2aea60dd0.jpg",
+        "title": "Portrait Roi de france Dagobert Ier.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Dagobert_Ier.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Portrait_Roi_de_france_Dagobert_Ier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "The original uploader was Flups at German Wikipedia.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Transferred from de.wikipedia to Commons.",
+        "sha256": "9fe4d3e55cbf9d61bb28c41d6fd879051b6475613869814dc263221a1ca5b126",
+        "bytes": 16156,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-007e08b38bc2aea60dd0.jpg",
+        "caption": "Representación posterior de Dagoberto I; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q109860",
+      "name": "Dagoberto I",
+      "role": "Rey merovingio de Neustria",
+      "start": "0629-10-18",
+      "end": "0639-01-19",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Dagobert_I",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-007e08b38bc2aea60dd0.jpg",
+        "title": "Portrait Roi de france Dagobert Ier.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Dagobert_Ier.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Portrait_Roi_de_france_Dagobert_Ier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "The original uploader was Flups at German Wikipedia.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Transferred from de.wikipedia to Commons.",
+        "sha256": "9fe4d3e55cbf9d61bb28c41d6fd879051b6475613869814dc263221a1ca5b126",
+        "bytes": 16156,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-007e08b38bc2aea60dd0.jpg",
+        "caption": "Representación posterior de Dagoberto I; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q109860",
+      "name": "Dagoberto I",
+      "role": "Rey merovingio de los francos",
+      "start": "0632-01-01",
+      "end": "0639-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dagobert_I",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-007e08b38bc2aea60dd0.jpg",
+        "title": "Portrait Roi de france Dagobert Ier.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Dagobert_Ier.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Portrait_Roi_de_france_Dagobert_Ier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "The original uploader was Flups at German Wikipedia.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Transferred from de.wikipedia to Commons.",
+        "sha256": "9fe4d3e55cbf9d61bb28c41d6fd879051b6475613869814dc263221a1ca5b126",
+        "bytes": 16156,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-007e08b38bc2aea60dd0.jpg",
+        "caption": "Representación posterior de Dagoberto I; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q316892",
+      "name": "Sigeberto III",
+      "role": "Rey merovingio de Austrasia",
+      "start": "0633-01-01",
+      "end": "0656-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sigebert_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-7f64df96ad820967bd0d.jpg",
+        "title": "Solidus de Sigebert III frappé à Marseille.jpeg",
+        "url": "https://commons.wikimedia.org/wiki/File:Solidus_de_Sigebert_III_frapp%C3%A9_%C3%A0_Marseille.jpeg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Solidus_de_Sigebert_III_frapp%C3%A9_%C3%A0_Marseille.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Solidus_de_Sigebert_III_frapp%C3%A9_%C3%A0_Marseille.jpeg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://images.bnf.fr/jsp/index.jsp?destination=afficherListeCliches.jsp&origine=rechercherListeCliches.jsp&contexte=resultatRechercheSimple",
+        "sha256": "01a3dce5fc19e44e9140c1b29a2add36d5cbf78ddaf17d1e4b50557cd49cab91",
+        "bytes": 62447,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-7f64df96ad820967bd0d.jpg",
+        "caption": "Tipo monetario convencional atribuido a Sigeberto III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q309919",
+      "name": "Clodoveo II",
+      "role": "Rey merovingio de Neustria",
+      "start": "0639-01-01",
+      "end": "0657-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Clovis_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-350cc6f8fc7f16cc06fc.png",
+        "title": "Tiers de sous d'or de Clovis II.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Tiers_de_sous_d%27or_de_Clovis_II.png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Tiers_de_sous_d%27or_de_Clovis_II.png/330px-Tiers_de_sous_d%27or_de_Clovis_II.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Tiers_de_sous_d'or_de_Clovis_II.jpg: Eligius\nderivative work: Leovilok (talk)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tiers_de_sous_d%27or_de_Clovis_II.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Tiers_de_sous_d'or_de_Clovis_II.jpg",
+        "sha256": "59f2b6b24634dd4ce2c37c3ddaecfae3178809094f85120379801b775ae6f231",
+        "bytes": 116746,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-350cc6f8fc7f16cc06fc.png",
+        "caption": "Tipo monetario convencional atribuido a Clodoveo II; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q309922",
+      "name": "Clotario III",
+      "role": "Rey merovingio de Neustria",
+      "start": "0657-01-01",
+      "end": "0673-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chlothar_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-e41e71cbefe921ca3e7a.jpg",
+        "title": "Portrait Roi de france Clotaire III.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Clotaire_III.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Portrait_Roi_de_france_Clotaire_III.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "The original uploader was Rinaldum at French Wikipedia.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Transferred from fr.wikipedia to Commons.",
+        "sha256": "7c03711483898bf6533fcea6719a2c00d11a7657c0a4a9ab5792eca16c4e9e0f",
+        "bytes": 13864,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-e41e71cbefe921ca3e7a.jpg",
+        "caption": "Representación posterior de Clotario III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q309922",
+      "name": "Clotario III",
+      "role": "Rey merovingio de Austrasia",
+      "start": "0661-01-01",
+      "end": "0662-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chlothar_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-e41e71cbefe921ca3e7a.jpg",
+        "title": "Portrait Roi de france Clotaire III.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Clotaire_III.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Portrait_Roi_de_france_Clotaire_III.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "The original uploader was Rinaldum at French Wikipedia.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Transferred from fr.wikipedia to Commons.",
+        "sha256": "7c03711483898bf6533fcea6719a2c00d11a7657c0a4a9ab5792eca16c4e9e0f",
+        "bytes": 13864,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-e41e71cbefe921ca3e7a.jpg",
+        "caption": "Representación posterior de Clotario III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q309909",
+      "name": "Childerico II",
+      "role": "Rey merovingio de Austrasia",
+      "start": "0662-01-01",
+      "end": "0675-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Childeric_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-408a99c3cbc7ec14c92a.jpg",
+        "title": "Portrait Roi de france Childéric II.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Child%C3%A9ric_II.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Portrait_Roi_de_france_Child%C3%A9ric_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "The original uploader was Rinaldum at French Wikipedia.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Bibliothèque nationale de France",
+        "sha256": "69b05fb04eec62c1a311e20de402b87af9ed4673fc67e8b66dadba1d617cc893",
+        "bytes": 16585,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-408a99c3cbc7ec14c92a.jpg",
+        "caption": "Representación posterior de Childerico II; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q309909",
+      "name": "Childerico II",
+      "role": "Rey merovingio de Neustria",
+      "start": "0673-01-01",
+      "end": "0675-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Childeric_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-408a99c3cbc7ec14c92a.jpg",
+        "title": "Portrait Roi de france Childéric II.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Child%C3%A9ric_II.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Portrait_Roi_de_france_Child%C3%A9ric_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "The original uploader was Rinaldum at French Wikipedia.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Bibliothèque nationale de France",
+        "sha256": "69b05fb04eec62c1a311e20de402b87af9ed4673fc67e8b66dadba1d617cc893",
+        "bytes": 16585,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-408a99c3cbc7ec14c92a.jpg",
+        "caption": "Representación posterior de Childerico II; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q295175",
+      "name": "Teoderico III",
+      "role": "Rey merovingio de Neustria",
+      "start": "0673-01-01",
+      "end": "0673-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theuderic_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-3adbc81fa031a5f0c518.jpg",
+        "title": "Theuderic III.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Theuderic_III.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Theuderic_III.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Published by Guillaume Rouille(1518?-1589)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Theuderic_III.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "\"Promptuarii Iconum Insigniorum \"",
+        "sha256": "099855b8c53c07fbce398d379041487ed424bd353563dac5d4a511b3e419a6ea",
+        "bytes": 98928,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-3adbc81fa031a5f0c518.jpg",
+        "caption": "Representación posterior de Teoderico III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q295175",
+      "name": "Teoderico III",
+      "role": "Rey merovingio de Neustria",
+      "start": "0675-01-01",
+      "end": "0691-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theuderic_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-3adbc81fa031a5f0c518.jpg",
+        "title": "Theuderic III.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Theuderic_III.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Theuderic_III.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Published by Guillaume Rouille(1518?-1589)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Theuderic_III.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "\"Promptuarii Iconum Insigniorum \"",
+        "sha256": "099855b8c53c07fbce398d379041487ed424bd353563dac5d4a511b3e419a6ea",
+        "bytes": 98928,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-3adbc81fa031a5f0c518.jpg",
+        "caption": "Representación posterior de Teoderico III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q295175",
+      "name": "Teoderico III",
+      "role": "Rey merovingio de Austrasia",
+      "start": "0679-01-01",
+      "end": "0679-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theuderic_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-3adbc81fa031a5f0c518.jpg",
+        "title": "Theuderic III.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Theuderic_III.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Theuderic_III.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Published by Guillaume Rouille(1518?-1589)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Theuderic_III.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "\"Promptuarii Iconum Insigniorum \"",
+        "sha256": "099855b8c53c07fbce398d379041487ed424bd353563dac5d4a511b3e419a6ea",
+        "bytes": 98928,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-3adbc81fa031a5f0c518.jpg",
+        "caption": "Representación posterior de Teoderico III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q295175",
+      "name": "Teoderico III",
+      "role": "Rey merovingio de los francos",
+      "start": "0679-01-01",
+      "end": "0691-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theuderic_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-3adbc81fa031a5f0c518.jpg",
+        "title": "Theuderic III.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Theuderic_III.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Theuderic_III.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Published by Guillaume Rouille(1518?-1589)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Theuderic_III.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "\"Promptuarii Iconum Insigniorum \"",
+        "sha256": "099855b8c53c07fbce398d379041487ed424bd353563dac5d4a511b3e419a6ea",
+        "bytes": 98928,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-3adbc81fa031a5f0c518.jpg",
+        "caption": "Representación posterior de Teoderico III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q309934",
+      "name": "Clodoveo IV",
+      "role": "Rey merovingio de los francos",
+      "start": "0691-01-01",
+      "end": "0694-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Clovis_IV",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-a42721918e4126008a54.jpg",
+        "title": "Georges Rouget (1783-1869) - Clovis III roi d'Austrasie en 691 (682-695).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Georges_Rouget_(1783-1869)_-_Clovis_III_roi_d%27Austrasie_en_691_(682-695).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Georges_Rouget_%281783-1869%29_-_Clovis_III_roi_d%27Austrasie_en_691_%28682-695%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Georges Rouget",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Georges_Rouget_(1783-1869)_-_Clovis_III_roi_d%27Austrasie_en_691_(682-695).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "http://www.culture.gouv.fr/public",
+        "sha256": "ce82fbd2f5e875fc2fc0311322fbd40db3522c7becfd9176106d1c07070055b5",
+        "bytes": 45387,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-a42721918e4126008a54.jpg",
+        "caption": "ClodoveoIV en un retrato imaginario de Georges Rouget,1837–1838. El catálogo deVersallesMV667 lo numeraClovisIII, rey de691–695; no es el pretendiente de676."
+      }
+    },
+    {
+      "person": "Q109223",
+      "name": "Childeberto III",
+      "role": "Rey merovingio de los francos",
+      "start": "0694-01-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Childebert_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-289097494bfb9fea06c5.jpg",
+        "title": "Childebert III 694 711.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Childebert_III_694_711.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Childebert_III_694_711.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "PHGCOM",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Childebert_III_694_711.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work by uploader, photographed at British Museum.",
+        "sha256": "a036ced0d83659667f03ab5093c3c031e4ac6303f5e9c11e4d0cca817f67b2e2",
+        "bytes": 104732,
+        "canonicalFile": "Países/FRANKISH-REALM-Carolingian-Empire/retratos/portrait-289097494bfb9fea06c5.jpg",
+        "caption": "Tipo monetario convencional atribuido a Childeberto III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q313373",
+      "name": "Pipino de Landen",
+      "role": "Mayordomo de palacio de Austrasia",
+      "start": "0623-01-01",
+      "end": "0629-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pepin_of_Landen",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q313373",
+      "name": "Pipino de Landen",
+      "role": "Mayordomo de palacio de Austrasia",
+      "start": "0639-01-01",
+      "end": "0640-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pepin_of_Landen",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q375301",
+      "name": "Grimoaldo I el Viejo",
+      "role": "Mayordomo de palacio · autoridad efectiva",
+      "start": "0643-01-01",
+      "end": "0657-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Grimoald_the_Elder",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q560467",
+      "name": "Erquinoaldo",
+      "role": "Mayordomo de palacio de Neustria",
+      "start": "0641-01-01",
+      "end": "0658-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Erchinoald",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q560467",
+      "name": "Erquinoaldo",
+      "role": "Mayordomo de palacio de Borgoña",
+      "start": "0642-01-01",
+      "end": "0658-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Erchinoald",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q458841",
+      "name": "Ebroino",
+      "role": "Mayordomo de palacio de Neustria",
+      "start": "0658-01-01",
+      "end": "0673-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ebroin",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q458841",
+      "name": "Ebroino",
+      "role": "Mayordomo de palacio de Neustria",
+      "start": "0675-01-01",
+      "end": "0680-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ebroin",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q952014",
+      "name": "Waratton",
+      "role": "Mayordomo de palacio de Neustria",
+      "start": "0680-01-01",
+      "end": "0682-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Waratto",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q952014",
+      "name": "Waratton",
+      "role": "Mayordomo de palacio de Neustria",
+      "start": "0682-01-01",
+      "end": "0686-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Waratto",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q818807",
+      "name": "Berthar",
+      "role": "Mayordomo de palacio de Neustria",
+      "start": "0686-01-01",
+      "end": "0687-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Berchar",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q91392",
+      "name": "Pipino de Heristal",
+      "role": "Mayordomo de palacio de Austrasia",
+      "start": "0680-01-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pepin_of_Herstal",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q91392",
+      "name": "Pipino de Heristal",
+      "role": "Mayordomo de palacio de Neustria",
+      "start": "0687-01-01",
+      "end": "0695-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pepin_of_Herstal",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review034-merovingians",
+      "type": "institution",
+      "title": "Reyes merovingios y mayordomos",
+      "start": "0600-01-01",
+      "end": "0700-01-01",
+      "text": "Austrasia,Neustria yBorgoña tienen reyes y agrupaciones distintas. Las mayordomías no son realeza ni el poder carolingio del sigloVIII.",
+      "source": "https://en.wikipedia.org/wiki/Merovingian_dynasty",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    },
+    {
+      "id": "review034-tertry",
+      "type": "conflict",
+      "title": "Batalla de Tertry",
+      "start": "0687-01-01",
+      "end": "0688-01-01",
+      "text": "Enfrentamiento de las agrupaciones deAustrasia yNeustria. La localización aproximada no convierte el resultado en una frontera de un imperio carolingio ya formado.",
+      "source": "https://en.wikipedia.org/wiki/Battle_of_Tertry",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of the Franks"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Reino de los francos · etapa merovingia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "8fd73226cf6cc3a8ed1a6d4bd18597bebd36ce174d2447b6f12bdb3ab0311f94",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2188,
+        2225,
+        2232,
+        2274,
+        2340,
+        2352,
+        2389,
+        2405,
+        2447,
+        2449,
+        2537,
+        2559,
+        2582,
+        2602,
+        2614
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Berchar",
+        "title": "Berchar",
+        "person": "Q818807",
+        "name": "Berthar",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Berchar",
+        "identityResolution": {
+          "requested": "Berchar",
+          "canonical": "Berchar",
+          "qid": "Q818807"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0686-01-01",
+          "end": "0687-01-01",
+          "precision": 9,
+          "statement": "Q818807$87d2ecc4-4799-3d29-9f11-10211ff1a3fe",
+          "label": "mayordomo de palacio"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q818807",
+        "title": "Berchar",
+        "source": "https://en.wikipedia.org/wiki/Berchar",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "686&ndash;687",
+            "parsed": {
+              "start": "0686-01-01",
+              "end": "0687-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Charibert II",
+        "title": "Charibert II",
+        "person": "Q316881",
+        "name": "Cariberto II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Charibert_II",
+        "identityResolution": {
+          "requested": "Charibert II",
+          "canonical": "Charibert II",
+          "qid": "Q316881"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0629-01-01",
+          "end": "0632-01-01",
+          "precision": 9,
+          "statement": "Q316881$32745198-35bd-4716-9f7d-062931fe718d",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0629-01-01",
+          "end": "0632-01-01",
+          "precision": 9,
+          "statement": "Q316881$A4F76A65-AAC4-4ED4-9623-D7214DD123D1",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q316881",
+        "title": "Charibert II",
+        "source": "https://en.wikipedia.org/wiki/Charibert_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Aquitaine",
+            "raw": "18 October 629 – 632",
+            "parsed": {
+              "start": "0629-10-18",
+              "end": "0632-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Aquitaine",
+            "raw": "629–632",
+            "parsed": {
+              "start": "0629-01-01",
+              "end": "0632-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Childebert III",
+        "title": "Childebert III",
+        "person": "Q109223",
+        "name": "Childeberto III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Childebert_III",
+        "identityResolution": {
+          "requested": "Childebert III",
+          "canonical": "Childebert III",
+          "qid": "Q109223"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0695-01-01",
+          "end": "0711-01-01",
+          "precision": 9,
+          "statement": "Q109223$25c04374-4e81-84dd-4c7b-b92ffbd3f4e4",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0694-01-01",
+          "end": "0711-01-01",
+          "precision": 9,
+          "statement": "Q109223$72DA931C-61BA-47F0-ADF3-16A75C4287E4",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q109223",
+        "title": "Childebert III",
+        "source": "https://en.wikipedia.org/wiki/Childebert_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Franks",
+            "raw": "694–711",
+            "parsed": {
+              "start": "0694-01-01",
+              "end": "0711-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "694–711",
+            "parsed": {
+              "start": "0694-01-01",
+              "end": "0711-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Childeric II",
+        "title": "Childeric II",
+        "person": "Q309909",
+        "name": "Childerico II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Childeric_II",
+        "identityResolution": {
+          "requested": "Childeric II",
+          "canonical": "Childeric II",
+          "qid": "Q309909"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0662-01-01",
+          "end": "0673-01-01",
+          "precision": 9,
+          "statement": "Q309909$b4b62863-46aa-2c8c-02b0-cd694ba04dd7",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0673-01-01",
+          "end": "0675-01-01",
+          "precision": 9,
+          "statement": "Q309909$9e0f5ad8-41b3-38fd-3776-88b851c4fe66",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0662-01-01",
+          "end": "0675-01-01",
+          "precision": 9,
+          "statement": "Q309909$C8993E2A-8744-4220-B238-B9160B3EC174",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q309909",
+        "title": "Childeric II",
+        "source": "https://en.wikipedia.org/wiki/Childeric_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King in Austrasia",
+            "raw": "662–675",
+            "parsed": {
+              "start": "0662-01-01",
+              "end": "0675-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King in Neustria and Burgundy",
+            "raw": "673–675",
+            "parsed": {
+              "start": "0673-01-01",
+              "end": "0675-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign3",
+            "office": "King of the Franks",
+            "raw": "673–675",
+            "parsed": {
+              "start": "0673-01-01",
+              "end": "0675-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks in Austrasia",
+            "raw": "662&ndash;675",
+            "parsed": {
+              "start": "0662-01-01",
+              "end": "0675-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks in Neustria and Burgundy",
+            "raw": "673&ndash;675",
+            "parsed": {
+              "start": "0673-01-01",
+              "end": "0675-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chlothar II",
+        "title": "Chlothar II",
+        "person": "Q209118",
+        "name": "Clotario II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chlothar_II",
+        "identityResolution": {
+          "requested": "Chlothar II",
+          "canonical": "Chlothar II",
+          "qid": "Q209118"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0613-01-01",
+          "end": "0623-01-01",
+          "precision": 9,
+          "statement": "Q209118$0C75EF49-A1FE-4A28-AC15-162A4D41C4A4",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0584-01-01",
+          "end": "0629-01-01",
+          "precision": 9,
+          "statement": "Q209118$270E64FE-EE36-4FE2-895F-1B5551DE76A1",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0613-01-01",
+          "end": "0629-01-01",
+          "precision": 9,
+          "statement": "Q209118$1F889125-C09D-4A4D-A54F-064A8AED36A9",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q209118",
+        "title": "Chlothar II",
+        "source": "https://en.wikipedia.org/wiki/Chlothar_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Neustria/Soissons",
+            "raw": "584–629",
+            "parsed": {
+              "start": "0584-01-01",
+              "end": "0629-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of Burgundy",
+            "raw": "613–629",
+            "parsed": {
+              "start": "0613-01-01",
+              "end": "0629-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King of Austrasia",
+            "raw": "613–623",
+            "parsed": {
+              "start": "0613-01-01",
+              "end": "0623-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks at Soisson/Neustria",
+            "raw": "584&ndash;629",
+            "parsed": {
+              "start": "0584-01-01",
+              "end": "0629-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks in Burgundy",
+            "raw": "613&ndash;629",
+            "parsed": {
+              "start": "0613-01-01",
+              "end": "0629-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks in Austrasia",
+            "raw": "613&ndash;623",
+            "parsed": {
+              "start": "0613-01-01",
+              "end": "0623-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Chlothar III",
+        "title": "Chlothar III",
+        "person": "Q309922",
+        "name": "Clotario III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chlothar_III",
+        "identityResolution": {
+          "requested": "Chlothar III",
+          "canonical": "Chlothar III",
+          "qid": "Q309922"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0657-01-01",
+          "end": "0673-01-01",
+          "precision": 9,
+          "statement": "Q309922$D40D9B6D-35FD-4FF1-82D3-8B22A98EE0FA",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q309922",
+        "title": "Chlothar III",
+        "source": "https://en.wikipedia.org/wiki/Chlothar_III",
+        "reignFields": [
+          {
+            "field": "reign1",
+            "office": "King of the Franks in Neustria and Burgundy",
+            "raw": "657–673",
+            "parsed": {
+              "start": "0657-01-01",
+              "end": "0673-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King of the Franks in Austrasia",
+            "raw": "661–662",
+            "parsed": {
+              "start": "0661-01-01",
+              "end": "0662-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Neustria and Burgundy",
+            "raw": "657&ndash;673",
+            "parsed": {
+              "start": "0657-01-01",
+              "end": "0673-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks in Austrasia",
+            "raw": "661&ndash;662",
+            "parsed": {
+              "start": "0661-01-01",
+              "end": "0662-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Clovis II",
+        "title": "Clovis II",
+        "person": "Q309919",
+        "name": "Clodoveo II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Clovis_II",
+        "identityResolution": {
+          "requested": "Clovis II",
+          "canonical": "Clovis II",
+          "qid": "Q309919"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0639-01-01",
+          "end": "0657-01-01",
+          "precision": 9,
+          "statement": "Q309919$8F3D2C9E-F0F2-44DD-825A-E000DB9E2E77",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q309919",
+        "title": "Clovis II",
+        "source": "https://en.wikipedia.org/wiki/Clovis_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Franks in Neustria and Burgundy",
+            "raw": "639–657",
+            "parsed": {
+              "start": "0639-01-01",
+              "end": "0657-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Clovis III",
+        "title": "Clovis III",
+        "person": "Q595053",
+        "name": "Clodoveo III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Clovis_III",
+        "identityResolution": {
+          "requested": "Clovis III",
+          "canonical": "Clovis III",
+          "qid": "Q595053"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0675-01-01",
+          "end": "0676-01-01",
+          "precision": 9,
+          "statement": "Q595053$5CCB3312-3E2E-4067-B108-D3928FD994B3",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q595053",
+        "title": "Clovis III",
+        "source": "https://en.wikipedia.org/wiki/Clovis_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King in Austrasia",
+            "raw": "675(–676?)",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Clovis IV",
+        "title": "Clovis IV",
+        "person": "Q309934",
+        "name": "Clodoveo IV",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Clovis_IV",
+        "identityResolution": {
+          "requested": "Clovis IV",
+          "canonical": "Clovis IV",
+          "qid": "Q309934"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0691-01-01",
+          "end": "0695-01-01",
+          "precision": 9,
+          "statement": "Q309934$963fc6e7-48cf-e3d9-6508-df4922981c1b",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0691-01-01",
+          "end": "0694-01-01",
+          "precision": 9,
+          "statement": "Q309934$2669B9C6-1C96-4ADE-B8E4-B5F512F3C544",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q309934",
+        "title": "Clovis IV",
+        "source": "https://en.wikipedia.org/wiki/Clovis_IV",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Franks",
+            "raw": "691–694",
+            "parsed": {
+              "start": "0691-01-01",
+              "end": "0694-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks",
+            "raw": "691&ndash;695",
+            "parsed": {
+              "start": "0691-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Dagobert I",
+        "title": "Dagobert I",
+        "person": "Q109860",
+        "name": "Dagoberto I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dagobert_I",
+        "identityResolution": {
+          "requested": "Dagobert I",
+          "canonical": "Dagobert I",
+          "qid": "Q109860"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0623-01-01",
+          "end": "0633-01-01",
+          "precision": 9,
+          "statement": "Q109860$5B946E8A-7996-4AAE-B232-9F5F627B6741",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0629-01-01",
+          "end": "0639-01-01",
+          "precision": 9,
+          "statement": "Q109860$6B16FE68-BABD-4B74-B7DD-30B63D68410B",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0629-01-01",
+          "end": "0639-01-01",
+          "precision": 9,
+          "statement": "Q109860$EE475ADE-57B3-4760-BFD7-0195B29F7CBC",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q109860",
+        "title": "Dagobert I",
+        "source": "https://en.wikipedia.org/wiki/Dagobert_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King in Austrasia",
+            "raw": "623–634",
+            "parsed": {
+              "start": "0623-01-01",
+              "end": "0634-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King in Neustria and Burgundy",
+            "raw": "18 October 629 – 19 January 639",
+            "parsed": {
+              "start": "0629-10-18",
+              "end": "0639-01-19",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign3",
+            "office": "King of the Franks",
+            "raw": "632–639",
+            "parsed": {
+              "start": "0632-01-01",
+              "end": "0639-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks in Austrasia",
+            "raw": "623&ndash;629",
+            "parsed": {
+              "start": "0623-01-01",
+              "end": "0629-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks in Neustria and Burgundy",
+            "raw": "629&ndash;639",
+            "parsed": {
+              "start": "0629-01-01",
+              "end": "0639-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ebroin",
+        "title": "Ebroin",
+        "person": "Q458841",
+        "name": "Ebroino",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ebroin",
+        "identityResolution": {
+          "requested": "Ebroin",
+          "canonical": "Ebroin",
+          "qid": "Q458841"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0658-01-01",
+          "end": "0673-01-01",
+          "precision": 9,
+          "statement": "Q458841$acd5b323-4ba9-61bc-9a1d-415994a4c872",
+          "label": "mayordomo de palacio"
+        },
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0676-01-01",
+          "end": "0681-01-01",
+          "precision": 9,
+          "statement": "Q458841$45fb5281-47e4-767e-7b4b-973cc01cf80c",
+          "label": "mayordomo de palacio"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q458841",
+        "title": "Ebroin",
+        "source": "https://en.wikipedia.org/wiki/Ebroin",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "658&ndash;673",
+            "parsed": {
+              "start": "0658-01-01",
+              "end": "0673-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "675&ndash;680",
+            "parsed": {
+              "start": "0675-01-01",
+              "end": "0680-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Erchinoald",
+        "title": "Erchinoald",
+        "person": "Q560467",
+        "name": "Erquinoaldo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Erchinoald",
+        "identityResolution": {
+          "requested": "Erchinoald",
+          "canonical": "Erchinoald",
+          "qid": "Q560467"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0642-01-01",
+          "end": "0658-01-01",
+          "precision": 9,
+          "statement": "Q560467$255552b7-49ee-8803-6f01-1dd947c89026",
+          "label": "mayordomo de palacio"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q560467",
+        "title": "Erchinoald",
+        "source": "https://en.wikipedia.org/wiki/Erchinoald",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "641&ndash;658",
+            "parsed": {
+              "start": "0641-01-01",
+              "end": "0658-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Burgundy",
+            "raw": "642&ndash;658",
+            "parsed": {
+              "start": "0642-01-01",
+              "end": "0658-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Grimoald the Elder",
+        "title": "Grimoald the Elder",
+        "person": "Q375301",
+        "name": "Grimoaldo I el Viejo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Grimoald_the_Elder",
+        "identityResolution": {
+          "requested": "Grimoald the Elder",
+          "canonical": "Grimoald the Elder",
+          "qid": "Q375301"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0643-01-01",
+          "end": "0657-01-01",
+          "precision": 9,
+          "statement": "Q375301$3D3CBB23-1057-4A72-874F-6C2F2C66DF84",
+          "label": "mayordomo de palacio"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q375301",
+        "title": "Grimoald the Elder",
+        "source": "https://en.wikipedia.org/wiki/Grimoald_the_Elder",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace",
+            "raw": "643&ndash;657",
+            "parsed": {
+              "start": "0643-01-01",
+              "end": "0657-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pepin of Herstal",
+        "title": "Pepin of Herstal",
+        "person": "Q91392",
+        "name": "Pipino de Heristal",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pepin_of_Herstal",
+        "identityResolution": {
+          "requested": "Pepin of Herstal",
+          "canonical": "Pepin of Herstal",
+          "qid": "Q91392"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0676-01-01",
+          "end": "0714-01-01",
+          "precision": 9,
+          "statement": "Q91392$28811F9C-C227-4EA1-AC8F-FECE857E7A7F",
+          "label": "mayordomo de palacio"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q91392",
+        "title": "Pepin of Herstal",
+        "source": "https://en.wikipedia.org/wiki/Pepin_of_Herstal",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Duke and Prince of the Franks",
+            "raw": "687–714",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0714-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "680–714",
+            "parsed": {
+              "start": "0680-01-01",
+              "end": "0714-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "687–695",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign3",
+            "office": "Mayor of the Palace of Burgundy",
+            "raw": "687–695",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "680–714",
+            "parsed": {
+              "start": "0680-01-01",
+              "end": "0714-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "687–695",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Burgundy",
+            "raw": "687–695",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0695-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of the Franks",
+            "raw": "687–714",
+            "parsed": {
+              "start": "0687-01-01",
+              "end": "0714-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pepin of Landen",
+        "title": "Pepin of Landen",
+        "person": "Q313373",
+        "name": "Pipino de Landen",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pepin_of_Landen",
+        "identityResolution": {
+          "requested": "Pepin of Landen",
+          "canonical": "Pepin of Landen",
+          "qid": "Q313373"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0639-01-01",
+          "end": "0640-01-01",
+          "precision": 9,
+          "statement": "Q313373$D3834E80-A690-43EB-98F0-3F15D6EFAFB7",
+          "label": "mayordomo de palacio"
+        },
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0624-01-01",
+          "end": "0632-01-01",
+          "precision": 9,
+          "statement": "Q313373$04C3A1EB-231E-4D83-BADB-7B0F4E63BE62",
+          "label": "mayordomo de palacio"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q313373",
+        "title": "Pepin of Landen",
+        "source": "https://en.wikipedia.org/wiki/Pepin_of_Landen",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "623–629",
+            "parsed": {
+              "start": "0623-01-01",
+              "end": "0629-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Austrasia",
+            "raw": "639–640",
+            "parsed": {
+              "start": "0639-01-01",
+              "end": "0640-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sigebert II",
+        "title": "Sigebert II",
+        "person": "Q316888",
+        "name": "Sigeberto II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sigebert_II",
+        "identityResolution": {
+          "requested": "Sigebert II",
+          "canonical": "Sigebert II",
+          "qid": "Q316888"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0613-01-01",
+          "end": "0613-01-01",
+          "precision": 9,
+          "statement": "Q316888$73B91F10-0F4B-499C-9010-472935FBFFBF",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0613-01-01",
+          "end": "0613-01-01",
+          "precision": 9,
+          "statement": "Q316888$5CF79E23-95A5-4C2C-B323-8DF12957BFEE",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q316888",
+        "title": "Sigebert II",
+        "source": "https://en.wikipedia.org/wiki/Sigebert_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Burgundy and Austrasia",
+            "raw": "613–613",
+            "parsed": {
+              "start": "0613-01-01",
+              "end": "0613-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sigebert III",
+        "title": "Sigebert III",
+        "person": "Q316892",
+        "name": "Sigeberto III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sigebert_III",
+        "identityResolution": {
+          "requested": "Sigebert III",
+          "canonical": "Sigebert III",
+          "qid": "Q316892"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0633-01-01",
+          "end": "0656-01-01",
+          "precision": 9,
+          "statement": "Q316892$BDBBD609-6185-4916-B0DD-96F37D9D5521",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q316892",
+        "title": "Sigebert III",
+        "source": "https://en.wikipedia.org/wiki/Sigebert_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Austrasia",
+            "raw": "633–656",
+            "parsed": {
+              "start": "0633-01-01",
+              "end": "0656-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theudebert II",
+        "title": "Theudebert II",
+        "person": "Q312605",
+        "name": "Teodeberto II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theudebert_II",
+        "identityResolution": {
+          "requested": "Theudebert II",
+          "canonical": "Theudebert II",
+          "qid": "Q312605"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0595-01-01",
+          "end": "0612-01-01",
+          "precision": 9,
+          "statement": "Q312605$8A44BC99-3040-4814-ACD1-7DCDF146A0B1",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q312605",
+        "title": "Theudebert II",
+        "source": "https://en.wikipedia.org/wiki/Theudebert_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Austrasia",
+            "raw": "595–612",
+            "parsed": {
+              "start": "0595-01-01",
+              "end": "0612-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theuderic II",
+        "title": "Theuderic II",
+        "person": "Q316869",
+        "name": "Teoderico II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theuderic_II",
+        "identityResolution": {
+          "requested": "Theuderic II",
+          "canonical": "Theuderic II",
+          "qid": "Q316869"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0595-01-01",
+          "end": "0613-01-01",
+          "precision": 9,
+          "statement": "Q316869$7C64F902-2C32-437A-AD72-2A88B557CB89",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0612-01-01",
+          "end": "0613-01-01",
+          "precision": 9,
+          "statement": "Q316869$BE26B3B5-1739-4040-8B28-1E9CFD52BD1C",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q316869",
+        "title": "Theuderic II",
+        "source": "https://en.wikipedia.org/wiki/Theuderic_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Burgundy",
+            "raw": "595–613",
+            "parsed": {
+              "start": "0595-01-01",
+              "end": "0613-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King of Austrasia",
+            "raw": "612–613",
+            "parsed": {
+              "start": "0612-01-01",
+              "end": "0613-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Burgundy",
+            "raw": "595–613",
+            "parsed": {
+              "start": "0595-01-01",
+              "end": "0613-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Austrasia",
+            "raw": "612–613",
+            "parsed": {
+              "start": "0612-01-01",
+              "end": "0613-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Theuderic III",
+        "title": "Theuderic III",
+        "person": "Q295175",
+        "name": "Teoderico III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Theuderic_III",
+        "identityResolution": {
+          "requested": "Theuderic III",
+          "canonical": "Theuderic III",
+          "qid": "Q295175"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0679-01-01",
+          "end": "0691-01-01",
+          "precision": 9,
+          "statement": "Q295175$e06c6cf2-4fb6-9dfd-a243-b6c8711e8705",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0673-01-01",
+          "end": "0673-01-01",
+          "precision": 9,
+          "statement": "Q295175$493172fa-4410-0604-19b9-8992aca5489a",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P39",
+          "office": "Q22923081",
+          "start": "0675-01-01",
+          "end": "0679-01-01",
+          "precision": 9,
+          "statement": "Q295175$3a144922-4f13-a4ec-823c-245cfd7bc480",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0679-01-01",
+          "end": "0691-01-01",
+          "precision": 9,
+          "statement": "Q295175$3949CF55-C731-4063-A5D2-DA2774FC5DE1",
+          "label": "rey de los francos"
+        },
+        {
+          "property": "P97",
+          "office": "Q22923081",
+          "start": "0673-01-01",
+          "end": "0691-01-01",
+          "precision": 9,
+          "statement": "Q295175$1AD384A9-D9D9-4984-9E4B-D6BBEAC50532",
+          "label": "rey de los francos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q295175",
+        "title": "Theuderic III",
+        "source": "https://en.wikipedia.org/wiki/Theuderic_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King in Neustria and Burgundy",
+            "raw": "673",
+            "parsed": {
+              "start": "0673-01-01",
+              "end": "0673-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "King in Neustria and Burgundy",
+            "raw": "675–691",
+            "parsed": {
+              "start": "0675-01-01",
+              "end": "0691-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "King in Austrasia",
+            "raw": "679",
+            "parsed": {
+              "start": "0679-01-01",
+              "end": "0679-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign3",
+            "office": "King of the Franks",
+            "raw": "679–691",
+            "parsed": {
+              "start": "0679-01-01",
+              "end": "0691-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks in Neustria and Burgundy",
+            "raw": "673",
+            "parsed": {
+              "start": "0673-01-01",
+              "end": "0673-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks in Neustria and Burgundy",
+            "raw": "675–691",
+            "parsed": {
+              "start": "0675-01-01",
+              "end": "0691-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of the Franks in Austrasia",
+            "raw": "679–691",
+            "parsed": {
+              "start": "0679-01-01",
+              "end": "0691-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Waratton",
+        "title": "Waratton",
+        "person": "Q952014",
+        "name": "Waratton",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Waratto",
+        "identityResolution": {
+          "requested": "Waratton",
+          "canonical": "Waratto",
+          "qid": "Q952014"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0681-01-01",
+          "end": "0684-01-01",
+          "precision": 9,
+          "statement": "Q952014$668acfc3-4b3f-4aba-2971-c91d63dc47dc",
+          "label": "mayordomo de palacio"
+        },
+        {
+          "property": "P39",
+          "office": "Q594819",
+          "start": "0685-01-01",
+          "end": "0686-01-01",
+          "precision": 9,
+          "statement": "Q952014$2950f03a-42c4-bc64-bff6-30516334c00c",
+          "label": "mayordomo de palacio"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q952014",
+        "title": "Waratto",
+        "source": "https://en.wikipedia.org/wiki/Waratto",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "680/81-682\n682-686",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "680&ndash;682",
+            "parsed": {
+              "start": "0680-01-01",
+              "end": "0682-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Mayor of the Palace of Neustria",
+            "raw": "682&ndash;686",
+            "parsed": {
+              "start": "0682-01-01",
+              "end": "0686-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 34,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q209118",
+        "title": "Chlothar II",
+        "source": "https://en.wikipedia.org/wiki/Chlothar_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Neustria/Soissons",
+          "raw": "584–629",
+          "parsed": {
+            "start": "0584-01-01",
+            "end": "0629-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q209118",
+        "title": "Chlothar II",
+        "source": "https://en.wikipedia.org/wiki/Chlothar_II",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "King of Burgundy",
+          "raw": "613–629",
+          "parsed": {
+            "start": "0613-01-01",
+            "end": "0629-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q209118",
+        "title": "Chlothar II",
+        "source": "https://en.wikipedia.org/wiki/Chlothar_II",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King of Austrasia",
+          "raw": "613–623",
+          "parsed": {
+            "start": "0613-01-01",
+            "end": "0623-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q312605",
+        "title": "Theudebert II",
+        "source": "https://en.wikipedia.org/wiki/Theudebert_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Austrasia",
+          "raw": "595–612",
+          "parsed": {
+            "start": "0595-01-01",
+            "end": "0612-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q316869",
+        "title": "Theuderic II",
+        "source": "https://en.wikipedia.org/wiki/Theuderic_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Burgundy",
+          "raw": "595–613",
+          "parsed": {
+            "start": "0595-01-01",
+            "end": "0613-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q316869",
+        "title": "Theuderic II",
+        "source": "https://en.wikipedia.org/wiki/Theuderic_II",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "King of Austrasia",
+          "raw": "612–613",
+          "parsed": {
+            "start": "0612-01-01",
+            "end": "0613-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q316888",
+        "title": "Sigebert II",
+        "source": "https://en.wikipedia.org/wiki/Sigebert_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Burgundy and Austrasia",
+          "raw": "613–613",
+          "parsed": {
+            "start": "0613-01-01",
+            "end": "0613-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q109860",
+        "title": "Dagobert I",
+        "source": "https://en.wikipedia.org/wiki/Dagobert_I",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King in Austrasia",
+          "raw": "623–634",
+          "parsed": {
+            "start": "0623-01-01",
+            "end": "0634-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q109860",
+        "title": "Dagobert I",
+        "source": "https://en.wikipedia.org/wiki/Dagobert_I",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King in Neustria and Burgundy",
+          "raw": "18 October 629 – 19 January 639",
+          "parsed": {
+            "start": "0629-10-18",
+            "end": "0639-01-19",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q109860",
+        "title": "Dagobert I",
+        "source": "https://en.wikipedia.org/wiki/Dagobert_I",
+        "selectionEvidence": {
+          "field": "reign3",
+          "office": "King of the Franks",
+          "raw": "632–639",
+          "parsed": {
+            "start": "0632-01-01",
+            "end": "0639-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q316892",
+        "title": "Sigebert III",
+        "source": "https://en.wikipedia.org/wiki/Sigebert_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Austrasia",
+          "raw": "633–656",
+          "parsed": {
+            "start": "0633-01-01",
+            "end": "0656-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q309919",
+        "title": "Clovis II",
+        "source": "https://en.wikipedia.org/wiki/Clovis_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Franks in Neustria and Burgundy",
+          "raw": "639–657",
+          "parsed": {
+            "start": "0639-01-01",
+            "end": "0657-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q309922",
+        "title": "Chlothar III",
+        "source": "https://en.wikipedia.org/wiki/Chlothar_III",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "King of the Franks in Neustria and Burgundy",
+          "raw": "657–673",
+          "parsed": {
+            "start": "0657-01-01",
+            "end": "0673-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q309922",
+        "title": "Chlothar III",
+        "source": "https://en.wikipedia.org/wiki/Chlothar_III",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King of the Franks in Austrasia",
+          "raw": "661–662",
+          "parsed": {
+            "start": "0661-01-01",
+            "end": "0662-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q309909",
+        "title": "Childeric II",
+        "source": "https://en.wikipedia.org/wiki/Childeric_II",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King in Austrasia",
+          "raw": "662–675",
+          "parsed": {
+            "start": "0662-01-01",
+            "end": "0675-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q309909",
+        "title": "Childeric II",
+        "source": "https://en.wikipedia.org/wiki/Childeric_II",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King in Neustria and Burgundy",
+          "raw": "673–675",
+          "parsed": {
+            "start": "0673-01-01",
+            "end": "0675-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q295175",
+        "title": "Theuderic III",
+        "source": "https://en.wikipedia.org/wiki/Theuderic_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King in Neustria and Burgundy",
+          "raw": "673",
+          "parsed": {
+            "start": "0673-01-01",
+            "end": "0673-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q295175",
+        "title": "Theuderic III",
+        "source": "https://en.wikipedia.org/wiki/Theuderic_III",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "King in Neustria and Burgundy",
+          "raw": "675–691",
+          "parsed": {
+            "start": "0675-01-01",
+            "end": "0691-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q295175",
+        "title": "Theuderic III",
+        "source": "https://en.wikipedia.org/wiki/Theuderic_III",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "King in Austrasia",
+          "raw": "679",
+          "parsed": {
+            "start": "0679-01-01",
+            "end": "0679-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q295175",
+        "title": "Theuderic III",
+        "source": "https://en.wikipedia.org/wiki/Theuderic_III",
+        "selectionEvidence": {
+          "field": "reign3",
+          "office": "King of the Franks",
+          "raw": "679–691",
+          "parsed": {
+            "start": "0679-01-01",
+            "end": "0691-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q309934",
+        "title": "Clovis IV",
+        "source": "https://en.wikipedia.org/wiki/Clovis_IV",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Franks",
+          "raw": "691–694",
+          "parsed": {
+            "start": "0691-01-01",
+            "end": "0694-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q109223",
+        "title": "Childebert III",
+        "source": "https://en.wikipedia.org/wiki/Childebert_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the Franks",
+          "raw": "694–711",
+          "parsed": {
+            "start": "0694-01-01",
+            "end": "0711-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q313373",
+        "title": "Pepin of Landen",
+        "source": "https://en.wikipedia.org/wiki/Pepin_of_Landen",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Mayor of the Palace of Austrasia",
+          "raw": "623–629",
+          "parsed": {
+            "start": "0623-01-01",
+            "end": "0629-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q313373",
+        "title": "Pepin of Landen",
+        "source": "https://en.wikipedia.org/wiki/Pepin_of_Landen",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Mayor of the Palace of Austrasia",
+          "raw": "639–640",
+          "parsed": {
+            "start": "0639-01-01",
+            "end": "0640-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q375301",
+        "title": "Grimoald the Elder",
+        "source": "https://en.wikipedia.org/wiki/Grimoald_the_Elder",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Mayor of the Palace",
+          "raw": "643&ndash;657",
+          "parsed": {
+            "start": "0643-01-01",
+            "end": "0657-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q560467",
+        "title": "Erchinoald",
+        "source": "https://en.wikipedia.org/wiki/Erchinoald",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Mayor of the Palace of Neustria",
+          "raw": "641&ndash;658",
+          "parsed": {
+            "start": "0641-01-01",
+            "end": "0658-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q560467",
+        "title": "Erchinoald",
+        "source": "https://en.wikipedia.org/wiki/Erchinoald",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Mayor of the Palace of Burgundy",
+          "raw": "642&ndash;658",
+          "parsed": {
+            "start": "0642-01-01",
+            "end": "0658-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q458841",
+        "title": "Ebroin",
+        "source": "https://en.wikipedia.org/wiki/Ebroin",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Mayor of the Palace of Neustria",
+          "raw": "658&ndash;673",
+          "parsed": {
+            "start": "0658-01-01",
+            "end": "0673-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q458841",
+        "title": "Ebroin",
+        "source": "https://en.wikipedia.org/wiki/Ebroin",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Mayor of the Palace of Neustria",
+          "raw": "675&ndash;680",
+          "parsed": {
+            "start": "0675-01-01",
+            "end": "0680-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q952014",
+        "title": "Waratton",
+        "source": "https://en.wikipedia.org/wiki/Waratto",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Mayor of the Palace of Neustria",
+          "raw": "680&ndash;682",
+          "parsed": {
+            "start": "0680-01-01",
+            "end": "0682-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q952014",
+        "title": "Waratton",
+        "source": "https://en.wikipedia.org/wiki/Waratto",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Mayor of the Palace of Neustria",
+          "raw": "682&ndash;686",
+          "parsed": {
+            "start": "0682-01-01",
+            "end": "0686-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q818807",
+        "title": "Berchar",
+        "source": "https://en.wikipedia.org/wiki/Berchar",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Mayor of the Palace of Neustria",
+          "raw": "686&ndash;687",
+          "parsed": {
+            "start": "0686-01-01",
+            "end": "0687-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q91392",
+        "title": "Pepin of Herstal",
+        "source": "https://en.wikipedia.org/wiki/Pepin_of_Herstal",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "Mayor of the Palace of Austrasia",
+          "raw": "680–714",
+          "parsed": {
+            "start": "0680-01-01",
+            "end": "0714-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q91392",
+        "title": "Pepin of Herstal",
+        "source": "https://en.wikipedia.org/wiki/Pepin_of_Herstal",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "Mayor of the Palace of Neustria",
+          "raw": "687–695",
+          "parsed": {
+            "start": "0687-01-01",
+            "end": "0695-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Charibert II",
+        "person": "Q316881",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Clovis III",
+        "person": "Q595053",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-0",
+      "name": "París · centro de Neustria",
+      "coordinates": [
+        2.35,
+        48.85
+      ],
+      "start": 600,
+      "end": 699,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Merovingian_dynasty",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    },
+    {
+      "id": "seat034-1",
+      "name": "Metz · centro de Austrasia",
+      "coordinates": [
+        6.176,
+        49.119
+      ],
+      "start": 600,
+      "end": 679,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Austrasia",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review034-merovingians",
+      "type": "institution",
+      "title": "Reyes merovingios y mayordomos",
+      "start": "0600-01-01",
+      "end": "0700-01-01",
+      "text": "Austrasia,Neustria yBorgoña tienen reyes y agrupaciones distintas. Las mayordomías no son realeza ni el poder carolingio del sigloVIII.",
+      "source": "https://en.wikipedia.org/wiki/Merovingian_dynasty",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    },
+    {
+      "id": "review034-tertry",
+      "type": "conflict",
+      "title": "Batalla de Tertry",
+      "start": "0687-01-01",
+      "end": "0688-01-01",
+      "text": "Enfrentamiento de las agrupaciones deAustrasia yNeustria. La localización aproximada no convierte el resultado en una frontera de un imperio carolingio ya formado.",
+      "source": "https://en.wikipedia.org/wiki/Battle_of_Tertry",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review034-tertry",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.17,
+          49.86
+        ]
+      },
+      "properties": {
+        "name": "Batalla de Tertry",
+        "countries": [
+          "FRANKISH-REALM"
+        ],
+        "kind": "regional-conflict",
+        "start": "0687-01-01",
+        "end": "0687-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Battle_of_Tertry",
+        "sourceLabel": "Referencia documental · siglo VII",
+        "note": "Enfrentamiento de las agrupaciones deAustrasia yNeustria. La localización aproximada no convierte el resultado en una frontera de un imperio carolingio ya formado. Referencia regional aproximada."
+      }
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q209118",
+      "title": "Clotaire II Lombards.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Clotaire_II_Lombards.jpg"
+    },
+    {
+      "person": "Q316869",
+      "title": "Portrait Roi de france Thierri II (i.e. IV).jpg",
+      "reason": "El propio archivo identifica aThierriII comoIV; no acredita retrato deTeodericoII. Personas distintas, sin equivalencia demostrada.",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Thierri_II_(i.e._IV).jpg"
+    },
+    {
+      "person": "Q313373",
+      "title": "Liège, Palais Provincial02, statues de Pepin de Landen et Saint Remacle.JPG",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Li%C3%A8ge,_Palais_Provincial02,_statues_de_Pepin_de_Landen_et_Saint_Remacle.JPG"
+    },
+    {
+      "person": "Q458841",
+      "title": "Denier d'Ebroïn au nom du monétaire Rodemarus frappé à Paris.jpeg",
+      "reason": "Denario del monetarioRodemarus; no se acredita un retrato individual deEbroino.",
+      "source": "https://commons.wikimedia.org/wiki/File:Denier_d%27Ebro%C3%AFn_au_nom_du_mon%C3%A9taire_Rodemarus_frapp%C3%A9_%C3%A0_Paris.jpeg"
+    },
+    {
+      "person": "Q91392",
+      "title": "St Hubert of Liège offers his services to Pepin of Heristal.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:St_Hubert_of_Li%C3%A8ge_offers_his_services_to_Pepin_of_Heristal.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q209118",
+      "name": "Clotario II",
+      "title": "Clotaire II Lombards.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Clotaire_II_Lombards.jpg",
+      "sha256": "0f11ac3c372a98bf2666b07df76afa0c506dd0402d9fb9f7feff283cbeeca814",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q312605",
+      "name": "Teodeberto II",
+      "title": "Tiers de sou de Théodebert II frappé à Clermont.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Tiers_de_sou_de_Th%C3%A9odebert_II_frapp%C3%A9_%C3%A0_Clermont.png",
+      "sha256": "1570cc1174d2502896fe5c72a9efab3645cc9319494e01b9e3cb58c5f92a2953",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Teodeberto II; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q316869",
+      "name": "Teoderico II",
+      "title": "Portrait Roi de france Thierri II (i.e. IV).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Thierri_II_(i.e._IV).jpg",
+      "sha256": "1e50dffc8549a782e044e40dd8a5d8761f68845ddbef2b445845c587cf4d9ffe",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "El propio archivo identifica aThierriII comoIV; no acredita retrato deTeodericoII. Personas distintas, sin equivalencia demostrada."
+    },
+    {
+      "person": "Q316888",
+      "name": "Sigeberto II",
+      "title": "Trémissis de Sigebert II frappé à Viviers (Ardèche).png",
+      "source": "https://commons.wikimedia.org/wiki/File:Tr%C3%A9missis_de_Sigebert_II_frapp%C3%A9_%C3%A0_Viviers_(Ard%C3%A8che).png",
+      "sha256": "1f035def5eec5293941ad1e8445b9284e43bf13ce8211d732c7b735fe56f126d",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Sigeberto II; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q109860",
+      "name": "Dagoberto I",
+      "title": "Portrait Roi de france Dagobert Ier.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Dagobert_Ier.jpg",
+      "sha256": "9fe4d3e55cbf9d61bb28c41d6fd879051b6475613869814dc263221a1ca5b126",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Dagoberto I; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q316892",
+      "name": "Sigeberto III",
+      "title": "Solidus de Sigebert III frappé à Marseille.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidus_de_Sigebert_III_frapp%C3%A9_%C3%A0_Marseille.jpeg",
+      "sha256": "01a3dce5fc19e44e9140c1b29a2add36d5cbf78ddaf17d1e4b50557cd49cab91",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Sigeberto III; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q309919",
+      "name": "Clodoveo II",
+      "title": "Tiers de sous d'or de Clovis II.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Tiers_de_sous_d%27or_de_Clovis_II.png",
+      "sha256": "59f2b6b24634dd4ce2c37c3ddaecfae3178809094f85120379801b775ae6f231",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Clodoveo II; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q309922",
+      "name": "Clotario III",
+      "title": "Portrait Roi de france Clotaire III.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Clotaire_III.jpg",
+      "sha256": "7c03711483898bf6533fcea6719a2c00d11a7657c0a4a9ab5792eca16c4e9e0f",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Clotario III; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q309909",
+      "name": "Childerico II",
+      "title": "Portrait Roi de france Childéric II.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Roi_de_france_Child%C3%A9ric_II.jpg",
+      "sha256": "69b05fb04eec62c1a311e20de402b87af9ed4673fc67e8b66dadba1d617cc893",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Childerico II; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q295175",
+      "name": "Teoderico III",
+      "title": "Theuderic III.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Theuderic_III.jpg",
+      "sha256": "099855b8c53c07fbce398d379041487ed424bd353563dac5d4a511b3e419a6ea",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior de Teoderico III; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q309934",
+      "name": "Clodoveo IV",
+      "title": "Georges Rouget (1783-1869) - Clovis III roi d'Austrasie en 691 (682-695).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Georges_Rouget_(1783-1869)_-_Clovis_III_roi_d%27Austrasie_en_691_(682-695).jpg",
+      "sha256": "ce82fbd2f5e875fc2fc0311322fbd40db3522c7becfd9176106d1c07070055b5",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "identificationSource": "https://chateauversailles-recherche.fr/IMG/pdf/indexation_21_05_2025.pdf",
+      "caption": "ClodoveoIV en un retrato imaginario de Georges Rouget,1837–1838. El catálogo deVersallesMV667 lo numeraClovisIII, rey de691–695; no es el pretendiente de676."
+    },
+    {
+      "person": "Q109223",
+      "name": "Childeberto III",
+      "title": "Childebert III 694 711.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Childebert_III_694_711.jpg",
+      "sha256": "a036ced0d83659667f03ab5093c3c031e4ac6303f5e9c11e4d0cca817f67b2e2",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Childeberto III; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q313373",
+      "name": "Pipino de Landen",
+      "title": "Liège, Palais Provincial02, statues de Pepin de Landen et Saint Remacle.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Li%C3%A8ge,_Palais_Provincial02,_statues_de_Pepin_de_Landen_et_Saint_Remacle.JPG",
+      "sha256": "3d57b5d512e4a1cbef9ccb1088d06fead52f74605151690671ac99da4bb3e9b0",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    },
+    {
+      "person": "Q458841",
+      "name": "Ebroino",
+      "title": "Denier d'Ebroïn au nom du monétaire Rodemarus frappé à Paris.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Denier_d%27Ebro%C3%AFn_au_nom_du_mon%C3%A9taire_Rodemarus_frapp%C3%A9_%C3%A0_Paris.jpeg",
+      "sha256": "77b44dc4fd0a339233e3556011c5615011739a647c6be34b47fa6944420563c1",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Denario del monetarioRodemarus; no se acredita un retrato individual deEbroino."
+    },
+    {
+      "person": "Q91392",
+      "name": "Pipino de Heristal",
+      "title": "St Hubert of Liège offers his services to Pepin of Heristal.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:St_Hubert_of_Li%C3%A8ge_offers_his_services_to_Pepin_of_Heristal.jpg",
+      "sha256": "f8e549e5a04d9067ba183181c439e2c8db9270c1910655dd7e0aac5194cfd93e",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ]
+}

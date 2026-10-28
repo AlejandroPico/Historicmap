@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-FUNAN-49B89F3C",
+  "name": "Funan",
+  "qid": "",
+  "aliases": [
+    "Funan"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_500.geojson",
+      "recordId": 198,
+      "start": null,
+      "end": null,
+      "name": "Funan",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-FUNAN-49B89F3C-Y0600:0",
+      "contextKey": "CULTURE-FUNAN-49B89F3C",
+      "start": 600,
+      "end": 699,
+      "sourceYear": 600,
+      "canonicalFile": "Países/CULTURE-FUNAN-49B89F3C-Funan/poblamiento/CULTURE-FUNAN-49B89F3C-Y0600.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

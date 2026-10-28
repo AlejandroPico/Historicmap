@@ -1,0 +1,228 @@
+{
+  "key": "HIST-Q1194765",
+  "identity": {
+    "qid": "Q1194765",
+    "name": "Kamarupa Kingdom"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Kamarupa",
+      "officePattern": "King|Ruler",
+      "titles": [
+        "Susthitavarman",
+        "Supratishthitavarman",
+        "Bhaskaravarman",
+        "Salasthamba"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1144153",
+      "name": "Kumar Bhaskara Varman",
+      "role": "Rey de Kamarupa",
+      "start": "0600-01-01",
+      "end": "0650-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bhaskaravarman",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kamarupa Kingdom"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Kamarupa Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "f2ca32d5819c937fce5460d4169bb62a894e83ba5ba2f36b7ce65785c422d146",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2091,
+        2487
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bhaskaravarman",
+        "title": "Bhaskaravarman",
+        "person": "Q1144153",
+        "name": "Kumar Bhaskara Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bhaskaravarman",
+        "identityResolution": {
+          "requested": "Bhaskaravarman",
+          "canonical": "Bhaskaravarman",
+          "qid": "Q1144153"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1144153",
+        "title": "Bhaskaravarman",
+        "source": "https://en.wikipedia.org/wiki/Bhaskaravarman",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Kamarupa",
+            "raw": "600–650 CE",
+            "parsed": {
+              "start": "0600-01-01",
+              "end": "0650-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Salasthamba",
+        "title": "Salasthamba",
+        "person": "",
+        "name": "Salasthamba",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Salasthamba",
+        "identityResolution": {
+          "requested": "Salasthamba",
+          "canonical": "Salasthamba",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Supratishthitavarman",
+        "title": "Supratishthitavarman",
+        "person": "",
+        "name": "Supratishthitavarman",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Supratishthitavarman",
+        "identityResolution": {
+          "requested": "Supratishthitavarman",
+          "canonical": "Supratishthitavarman",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Susthitavarman",
+        "title": "Susthitavarman",
+        "person": "Q1144253",
+        "name": "Susthita Varman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Susthitavarman",
+        "identityResolution": {
+          "requested": "Susthitavarman",
+          "canonical": "Susthitavarman",
+          "qid": "Q1144253"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1144253",
+        "title": "Susthitavarman",
+        "source": "https://en.wikipedia.org/wiki/Susthitavarman",
+        "reignFields": []
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q1144153",
+        "title": "Bhaskaravarman",
+        "source": "https://en.wikipedia.org/wiki/Bhaskaravarman",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of Kamarupa",
+          "raw": "600–650 CE",
+          "parsed": {
+            "start": "0600-01-01",
+            "end": "0650-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Susthitavarman",
+        "person": "Q1144253",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Supratishthitavarman",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      },
+      {
+        "title": "Salasthamba",
+        "reason": "Identidad humana canónica no resuelta; no usar homónimo ni primer resultado sin verificar."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  }
+}

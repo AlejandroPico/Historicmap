@@ -1,0 +1,798 @@
+{
+  "key": "RASHIDUN-CALIPHATE",
+  "identity": {
+    "qid": "Q12490507",
+    "name": "Califato rashidun"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Califa rashidun",
+      "officePattern": "Caliph",
+      "titles": [
+        "Abu Bakr",
+        "Umar",
+        "Uthman",
+        "Ali",
+        "Hasan ibn Ali"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q334923",
+      "name": "Abu Bakr as-Siddiq",
+      "role": "Califa rashidun",
+      "start": "0632-06-08",
+      "end": "0634-08-23",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Abu_Bakr",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q8467",
+      "name": "Umar ibn al-Jattab",
+      "role": "Califa rashidun",
+      "start": "0634-08-23",
+      "end": "0644-11-06",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Umar",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q37731",
+      "name": "Uthmán ibn Affán",
+      "role": "Califa rashidun",
+      "start": "0644-11-06",
+      "end": "0656-06-17",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Uthman",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q39619",
+      "name": "Ali Ibn Abi Talib",
+      "role": "Califa rashidun",
+      "start": "0656-06-17",
+      "end": "0661-01-28",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Ali",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q182914",
+      "name": "Hasan ibn Ali",
+      "role": "Califa rashidun",
+      "start": "0661-01-28",
+      "end": "0661-08-10",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Hasan_ibn_Ali",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review034-caliphs",
+      "type": "institution",
+      "title": "Sucesiones de los primeros califas",
+      "start": "0632-01-01",
+      "end": "0662-01-01",
+      "text": "Abu Bakr, Umar, Uthman yAli son dignidades califales posteriores aMahoma. La primera guerra civil y la proclamación deHasan se distinguen de la dinastía omeya posterior.",
+      "source": "https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    },
+    {
+      "id": "review034-yarmuk",
+      "type": "conflict",
+      "title": "Enfrentamiento del Yarmuk",
+      "start": "0636-01-01",
+      "end": "0637-01-01",
+      "text": "Campaña árabe-bizantina con localización regional aproximada; el marcador no dibuja un frente ni sustituye el contorno político de la compilación.",
+      "source": "https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "history"
+    }
+  ],
+  "governance": [
+    {
+      "start": 632,
+      "end": 661,
+      "tags": [
+        "caliphate",
+        "theocracy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Rashidun Caliphate"
+        ],
+        "start": 600,
+        "end": 661,
+        "label": "Califato rashidun",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Rashidun Caliphate"
+        ],
+        "start": 662,
+        "end": 699,
+        "label": "Ámbitos anteriores de Califato rashidun · contorno heredado",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "La geometría de la compilación continúa más allá de la cronología de la entidad. Se conserva como referencia, sin prolongar sus autoridades ni certificar fronteras contemporáneas a esta fecha."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "a61b0fab6319be34585b4c7012d19f50ce39e52c02d65873f4fa56a646fa7b99",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2364,
+        2382,
+        2407,
+        2439,
+        2457,
+        2485,
+        2492,
+        2540
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Abu Bakr",
+        "title": "Abu Bakr",
+        "person": "Q334923",
+        "name": "Abu Bakr as-Siddiq",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Abu_Bakr",
+        "identityResolution": {
+          "requested": "Abu Bakr",
+          "canonical": "Abu Bakr",
+          "qid": "Q334923"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q180465",
+          "start": "0632-06-08",
+          "end": "0634-08-22",
+          "precision": 11,
+          "statement": "Q334923$d6ef286b-4e25-7a4e-dff1-960436256099",
+          "label": "califa Rashidun"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q334923",
+        "title": "Abu Bakr",
+        "source": "https://en.wikipedia.org/wiki/Abu_Bakr",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "1st Caliph of the Rashidun Caliphate",
+            "raw": "8 June 632{{snd}}23 August 634",
+            "parsed": {
+              "start": "0632-06-08",
+              "end": "0634-08-23",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign",
+            "office": "1st Caliph of the Rashidun Caliphate",
+            "raw": "({{age in years and days|632|6|8|634|8|23|duration=yes}})",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Caliph of Islam Rashidun Caliph",
+            "raw": "8 June 632{{snd}}22 August 634",
+            "parsed": {
+              "start": "0632-06-08",
+              "end": "0634-08-22",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ali",
+        "title": "Ali",
+        "person": "Q39619",
+        "name": "Ali Ibn Abi Talib",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ali",
+        "identityResolution": {
+          "requested": "Ali",
+          "canonical": "Ali",
+          "qid": "Q39619"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q180465",
+          "start": "0656-01-01",
+          "end": "0661-01-27",
+          "precision": 9,
+          "statement": "Q39619$3af3cc64-4ef9-75ee-5ac1-a755ab8a1dce",
+          "label": "califa Rashidun"
+        },
+        {
+          "property": "P39",
+          "office": "Q130427405",
+          "start": "0632-01-01",
+          "end": "0661-01-01",
+          "precision": 9,
+          "statement": "Q39619$6effc554-4f90-3e8e-7180-5d6587729d11",
+          "label": "Imán del chiismo duodecimano"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q39619",
+        "title": "Ali",
+        "source": "https://en.wikipedia.org/wiki/Ali",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "4th Caliph of the Rashidun Caliphate",
+            "raw": "17 June 656 – 28 January 661",
+            "parsed": {
+              "start": "0656-06-17",
+              "end": "0661-01-28",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign",
+            "office": "4th Caliph of the Rashidun Caliphate",
+            "raw": "({{age in years and days|656|6|17|661|1|28|duration=yes}})",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Caliph of Islam 4th Rashidun Caliph",
+            "raw": "656–661",
+            "parsed": {
+              "start": "0656-01-01",
+              "end": "0661-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Twelver Imam{{Clear}}Zaidi Imam{{Clear}} Ismaili Imam{{clear}}Alevi Imam{{clear}}Alawite Imam",
+            "raw": "632–661",
+            "parsed": {
+              "start": "0632-01-01",
+              "end": "0661-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hasan ibn Ali",
+        "title": "Hasan ibn Ali",
+        "person": "Q182914",
+        "name": "Hasan ibn Ali",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hasan_ibn_Ali",
+        "identityResolution": {
+          "requested": "Hasan ibn Ali",
+          "canonical": "Hasan ibn Ali",
+          "qid": "Q182914"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q130427405",
+          "start": "0661-01-01",
+          "end": "0669-01-01",
+          "precision": 9,
+          "statement": "Q182914$06a39f2b-4155-8637-e01e-d1968e0dffb5",
+          "label": "Imán del chiismo duodecimano"
+        },
+        {
+          "property": "P39",
+          "office": "Q180465",
+          "start": "0661-01-01",
+          "end": "0661-08-01",
+          "precision": 9,
+          "statement": "Q182914$b7474722-4caf-c234-fa8e-585911105078",
+          "label": "califa Rashidun"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q182914",
+        "title": "Hasan ibn Ali",
+        "source": "https://en.wikipedia.org/wiki/Hasan_ibn_Ali",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Caliph",
+            "raw": "28 January 661 – {{circa}} 10 August 661",
+            "parsed": {
+              "start": "0661-01-28",
+              "end": "0661-08-10",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign",
+            "office": "Caliph",
+            "raw": "({{age in years and days|661|1|28|661|8|10|duration=yes}})<ref>{{cite book |last = Sallabi |first = Ali Mohammed |title = Al-Hasan ibn Ali: His Life and Times |publisher = IIPH |year = 2000 |isbn = 9786035012133 |pages = 32–34 }}</ref>",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Imam of the Shia",
+            "raw": "661–670",
+            "parsed": {
+              "start": "0661-01-01",
+              "end": "0670-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Caliph of Islam",
+            "raw": "January 661 – August 661",
+            "parsed": {
+              "start": "0661-01-01",
+              "end": "0661-08-01",
+              "precision": 10
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Umar",
+        "title": "Umar",
+        "person": "Q8467",
+        "name": "Umar ibn al-Jattab",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Umar",
+        "identityResolution": {
+          "requested": "Umar",
+          "canonical": "Umar",
+          "qid": "Q8467"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q180465",
+          "start": "0634-08-22",
+          "end": "0644-11-03",
+          "precision": 11,
+          "statement": "Q8467$264d9464-45fe-bd09-828c-0cc1aef8769c",
+          "label": "califa Rashidun"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q8467",
+        "title": "Umar",
+        "source": "https://en.wikipedia.org/wiki/Umar",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "2nd Caliph of the Rashidun Caliphate",
+            "raw": "23 August 634 – {{circa|6 November 644}}",
+            "parsed": {
+              "start": "0634-08-23",
+              "end": "0644-11-06",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign",
+            "office": "2nd Caliph of the Rashidun Caliphate",
+            "raw": "({{age in years and days|634|8|23|644|11|3|duration=yes}})",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Caliph of Islam Rashidun Caliph",
+            "raw": "634–644",
+            "parsed": {
+              "start": "0634-01-01",
+              "end": "0644-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Uthman",
+        "title": "Uthman",
+        "person": "Q37731",
+        "name": "Uthmán ibn Affán",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Uthman",
+        "identityResolution": {
+          "requested": "Uthman",
+          "canonical": "Uthman",
+          "qid": "Q37731"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q65997",
+          "start": "0644-11-05",
+          "end": "0656-06-17",
+          "precision": 11,
+          "statement": "Q37731$806b8a41-4c1b-85b5-c1e7-d9394f5b2a31",
+          "label": "califa"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q37731",
+        "title": "Uthman",
+        "source": "https://en.wikipedia.org/wiki/Uthman",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "3rd Caliph of the Rashidun Caliphate",
+            "raw": "6 November 644 – 17 June 656",
+            "parsed": {
+              "start": "0644-11-06",
+              "end": "0656-06-17",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign",
+            "office": "3rd Caliph of the Rashidun Caliphate",
+            "raw": "({{age in years and days|644|11|6|656|6|17|duration=yes}})",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "Caliph of Islam Rashidun Caliph",
+            "raw": "6 November 644 – 17 June 656",
+            "parsed": {
+              "start": "0644-11-06",
+              "end": "0656-06-17",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 5,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q334923",
+        "title": "Abu Bakr",
+        "source": "https://en.wikipedia.org/wiki/Abu_Bakr",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "1st Caliph of the Rashidun Caliphate",
+          "raw": "8 June 632{{snd}}23 August 634",
+          "parsed": {
+            "start": "0632-06-08",
+            "end": "0634-08-23",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q8467",
+        "title": "Umar",
+        "source": "https://en.wikipedia.org/wiki/Umar",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "2nd Caliph of the Rashidun Caliphate",
+          "raw": "23 August 634 – {{circa|6 November 644}}",
+          "parsed": {
+            "start": "0634-08-23",
+            "end": "0644-11-06",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q37731",
+        "title": "Uthman",
+        "source": "https://en.wikipedia.org/wiki/Uthman",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "3rd Caliph of the Rashidun Caliphate",
+          "raw": "6 November 644 – 17 June 656",
+          "parsed": {
+            "start": "0644-11-06",
+            "end": "0656-06-17",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q39619",
+        "title": "Ali",
+        "source": "https://en.wikipedia.org/wiki/Ali",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "4th Caliph of the Rashidun Caliphate",
+          "raw": "17 June 656 – 28 January 661",
+          "parsed": {
+            "start": "0656-06-17",
+            "end": "0661-01-28",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q182914",
+        "title": "Hasan ibn Ali",
+        "source": "https://en.wikipedia.org/wiki/Hasan_ibn_Ali",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Caliph",
+          "raw": "28 January 661 – {{circa}} 10 August 661",
+          "parsed": {
+            "start": "0661-01-28",
+            "end": "0661-08-10",
+            "precision": 11
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-6",
+      "name": "Medina",
+      "coordinates": [
+        39.61,
+        24.47
+      ],
+      "start": 632,
+      "end": 655,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    },
+    {
+      "id": "seat034-7",
+      "name": "Kufa",
+      "coordinates": [
+        44.4,
+        32.03
+      ],
+      "start": 656,
+      "end": 661,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Ali",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    },
+    {
+      "id": "seat034-independent-RASHIDUN-CALIPHATE",
+      "name": "Medina · proclamación califal",
+      "coordinates": [
+        39.61,
+        24.47
+      ],
+      "start": 632,
+      "end": 632,
+      "capital": true,
+      "role": "Sede documental; geometría territorial no disponible",
+      "source": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
+      "note": "El punto permite consultar la autoridad sin inventar límites de soberanía. No es una frontera ni una capital urbana medida.",
+      "standaloneReference": true,
+      "entityName": "Califato rashidun"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review034-caliphs",
+      "type": "institution",
+      "title": "Sucesiones de los primeros califas",
+      "start": "0632-01-01",
+      "end": "0662-01-01",
+      "text": "Abu Bakr, Umar, Uthman yAli son dignidades califales posteriores aMahoma. La primera guerra civil y la proclamación deHasan se distinguen de la dinastía omeya posterior.",
+      "source": "https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    },
+    {
+      "id": "review034-yarmuk",
+      "type": "conflict",
+      "title": "Enfrentamiento del Yarmuk",
+      "start": "0636-01-01",
+      "end": "0637-01-01",
+      "text": "Campaña árabe-bizantina con localización regional aproximada; el marcador no dibuja un frente ni sustituye el contorno político de la compilación.",
+      "source": "https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "review034-yarmuk",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.81,
+          32.81
+        ]
+      },
+      "properties": {
+        "name": "Enfrentamiento del Yarmuk",
+        "countries": [
+          "RASHIDUN-CALIPHATE"
+        ],
+        "kind": "regional-conflict",
+        "start": "0636-01-01",
+        "end": "0636-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk",
+        "sourceLabel": "Referencia documental · siglo VII",
+        "note": "Campaña árabe-bizantina con localización regional aproximada; el marcador no dibuja un frente ni sustituye el contorno político de la compilación. Referencia regional aproximada."
+      }
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q334923",
+      "title": "Rashidun Caliph Abu Bakr as-Șiddīq (Abdullah ibn Abi Quhafa) - أبو بكر الصديق عبد الله بن عثمان التيمي القرشي أول الخلفاء الراشدين.svg",
+      "reason": "Caligrafía nominativa o medallón de texto; no retrato de la autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Rashidun_Caliph_Abu_Bakr_as-%C8%98idd%C4%ABq_(Abdullah_ibn_Abi_Quhafa)_-_%D8%A3%D8%A8%D9%88_%D8%A8%D9%83%D8%B1_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D9%87_%D8%A8%D9%86_%D8%B9%D8%AB%D9%85%D8%A7%D9%86_%D8%A7%D9%84%D8%AA%D9%8A%D9%85%D9%8A_%D8%A7%D9%84%D9%82%D8%B1%D8%B4%D9%8A_%D8%A3%D9%88%D9%84_%D8%A7%D9%84%D8%AE%D9%84%D9%81%D8%A7%D8%A1_%D8%A7%D9%84%D8%B1%D8%A7%D8%B4%D8%AF%D9%8A%D9%86.svg"
+    },
+    {
+      "person": "Q8467",
+      "title": "Rashidun Caliphs Umar ibn Al-Khattāb - عُمر بن الخطّاب ثاني الخلفاء الراشدين.svg",
+      "reason": "Caligrafía nominativa o medallón de texto; no retrato de la autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:Rashidun_Caliphs_Umar_ibn_Al-Khatt%C4%81b_-_%D8%B9%D9%8F%D9%85%D8%B1_%D8%A8%D9%86_%D8%A7%D9%84%D8%AE%D8%B7%D9%91%D8%A7%D8%A8_%D8%AB%D8%A7%D9%86%D9%8A_%D8%A7%D9%84%D8%AE%D9%84%D9%81%D8%A7%D8%A1_%D8%A7%D9%84%D8%B1%D8%A7%D8%B4%D8%AF%D9%8A%D9%86.svg"
+    },
+    {
+      "person": "Q37731",
+      "title": "The third caliph Uthman.png",
+      "reason": "Caligrafía nominativa o medallón de texto; no retrato de la autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:The_third_caliph_Uthman.png"
+    },
+    {
+      "person": "Q39619",
+      "title": "The ten to whom Paradise was promised (Ali).png",
+      "reason": "Caligrafía nominativa o medallón de texto; no retrato de la autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:The_ten_to_whom_Paradise_was_promised_(Ali).png"
+    },
+    {
+      "person": "Q182914",
+      "title": "الحسن ابن علي.svg",
+      "reason": "Caligrafía nominativa o medallón de texto; no retrato de la autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%AD%D8%B3%D9%86_%D8%A7%D8%A8%D9%86_%D8%B9%D9%84%D9%8A.svg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q334923",
+      "name": "Abu Bakr as-Siddiq",
+      "title": "Rashidun Caliph Abu Bakr as-Șiddīq (Abdullah ibn Abi Quhafa) - أبو بكر الصديق عبد الله بن عثمان التيمي القرشي أول الخلفاء الراشدين.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rashidun_Caliph_Abu_Bakr_as-%C8%98idd%C4%ABq_(Abdullah_ibn_Abi_Quhafa)_-_%D8%A3%D8%A8%D9%88_%D8%A8%D9%83%D8%B1_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D9%87_%D8%A8%D9%86_%D8%B9%D8%AB%D9%85%D8%A7%D9%86_%D8%A7%D9%84%D8%AA%D9%8A%D9%85%D9%8A_%D8%A7%D9%84%D9%82%D8%B1%D8%B4%D9%8A_%D8%A3%D9%88%D9%84_%D8%A7%D9%84%D8%AE%D9%84%D9%81%D8%A7%D8%A1_%D8%A7%D9%84%D8%B1%D8%A7%D8%B4%D8%AF%D9%8A%D9%86.svg",
+      "sha256": "2618c036d12f53e3e689d743515c20b9c6b53224c53ea4c1883b376eced314e3",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Caligrafía nominativa o medallón de texto; no retrato de la autoridad."
+    },
+    {
+      "person": "Q8467",
+      "name": "Umar ibn al-Jattab",
+      "title": "Rashidun Caliphs Umar ibn Al-Khattāb - عُمر بن الخطّاب ثاني الخلفاء الراشدين.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rashidun_Caliphs_Umar_ibn_Al-Khatt%C4%81b_-_%D8%B9%D9%8F%D9%85%D8%B1_%D8%A8%D9%86_%D8%A7%D9%84%D8%AE%D8%B7%D9%91%D8%A7%D8%A8_%D8%AB%D8%A7%D9%86%D9%8A_%D8%A7%D9%84%D8%AE%D9%84%D9%81%D8%A7%D8%A1_%D8%A7%D9%84%D8%B1%D8%A7%D8%B4%D8%AF%D9%8A%D9%86.svg",
+      "sha256": "583be3f543dc1c65e2a9e2927e74398459dd98d199cee2c8aa1e315d4384a826",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Caligrafía nominativa o medallón de texto; no retrato de la autoridad."
+    },
+    {
+      "person": "Q37731",
+      "name": "Uthmán ibn Affán",
+      "title": "The third caliph Uthman.png",
+      "source": "https://commons.wikimedia.org/wiki/File:The_third_caliph_Uthman.png",
+      "sha256": "9af9bd4fa90717ac6690cdbce2c826111f8e66ae10f46e2eec9bd02306b4dc0f",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Caligrafía nominativa o medallón de texto; no retrato de la autoridad."
+    },
+    {
+      "person": "Q39619",
+      "name": "Ali Ibn Abi Talib",
+      "title": "The ten to whom Paradise was promised (Ali).png",
+      "source": "https://commons.wikimedia.org/wiki/File:The_ten_to_whom_Paradise_was_promised_(Ali).png",
+      "sha256": "d5139fb8dd0b9f242ec0fcfdcaacd66f25479aa708c029aafb95ba1d9811e6de",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Caligrafía nominativa o medallón de texto; no retrato de la autoridad."
+    },
+    {
+      "person": "Q182914",
+      "name": "Hasan ibn Ali",
+      "title": "الحسن ابن علي.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%AD%D8%B3%D9%86_%D8%A7%D8%A8%D9%86_%D8%B9%D9%84%D9%8A.svg",
+      "sha256": "0b54cb58a8d5775f69f3550f713a612e9c20364cae45bc470cebd0e338705b30",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Caligrafía nominativa o medallón de texto; no retrato de la autoridad."
+    }
+  ]
+}

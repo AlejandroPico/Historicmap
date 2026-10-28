@@ -1,0 +1,625 @@
+{
+  "key": "HIST-Q837998",
+  "identity": {
+    "qid": "Q837998",
+    "name": "Kingdom of East Anglia"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey de Anglia Oriental",
+      "officePattern": "King.*East Angl",
+      "titles": [
+        "Rædwald of East Anglia",
+        "Eorpwald of East Anglia",
+        "Ricberht of East Anglia",
+        "Sigeberht of East Anglia",
+        "Egric of East Anglia",
+        "Æthelhere of East Anglia",
+        "Æthelwald of East Anglia",
+        "Ealdwulf of East Anglia"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q468836",
+      "name": "Redvaldo de Estanglia",
+      "role": "Rey de Anglia Oriental",
+      "start": "0600-01-01",
+      "end": "0624-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/R%C3%A6dwald_of_East_Anglia",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q706356",
+      "name": "Ricberht of East Anglia",
+      "role": "Rey de Anglia Oriental",
+      "start": "0627-01-01",
+      "end": "0630-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ricberht_of_East_Anglia",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q509072",
+      "name": "Sigeberht of East Anglia",
+      "role": "Rey de Anglia Oriental",
+      "start": "0629-01-01",
+      "end": "0634-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Sigeberht_of_East_Anglia",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q888700",
+      "name": "Ecgric of East Anglia",
+      "role": "Rey de Anglia Oriental",
+      "start": "0630-01-01",
+      "end": "0636-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ecgric_of_East_Anglia",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q272275",
+      "name": "Æthelwold of East Anglia",
+      "role": "Rey de Anglia Oriental",
+      "start": "0654-01-01",
+      "end": "0664-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%C3%86thelwold_of_East_Anglia",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q888956",
+      "name": "Ealdwulf of East Anglia",
+      "role": "Rey de Anglia Oriental",
+      "start": "0664-01-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ealdwulf_of_East_Anglia",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of East Anglia"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "Kingdom of East Anglia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "c8023ed70a33c5c3425b939831051b1069e17f878d461dc875913d18e23c8451",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        1992,
+        2556
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ealdwulf of East Anglia",
+        "title": "Ealdwulf of East Anglia",
+        "person": "Q888956",
+        "name": "Ealdwulf of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ealdwulf_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Ealdwulf of East Anglia",
+          "canonical": "Ealdwulf of East Anglia",
+          "qid": "Q888956"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21400700",
+          "start": "0665-01-01",
+          "end": "0713-01-01",
+          "precision": 9,
+          "statement": "Q888956$89407bdd-4ccb-6923-f75c-8e7431e53597",
+          "label": "Rey de Anglia Oriental"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q888956",
+        "title": "Ealdwulf of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Ealdwulf_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "{{circa}} 664{{spaced ndash}}713",
+            "parsed": {
+              "start": "0664-01-01",
+              "end": "0713-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Egric of East Anglia",
+        "title": "Egric of East Anglia",
+        "person": "Q888700",
+        "name": "Ecgric of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ecgric_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Egric of East Anglia",
+          "canonical": "Ecgric of East Anglia",
+          "qid": "Q888700"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q888700",
+        "title": "Ecgric of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Ecgric_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "{{circa}} 630&nbsp;{{snd}}{{circa}} 636 (jointly with Sigeberht until {{circa}} 634)",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0636-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Eorpwald of East Anglia",
+        "title": "Eorpwald of East Anglia",
+        "person": "Q888953",
+        "name": "Eorpwald of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Eorpwald_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Eorpwald of East Anglia",
+          "canonical": "Eorpwald of East Anglia",
+          "qid": "Q888953"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21400700",
+          "start": "0624-01-01",
+          "end": "0627-01-01",
+          "precision": 9,
+          "statement": "Q888953$d812dc5e-49fd-2826-d04d-9a21797c45af",
+          "label": "Rey de Anglia Oriental"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q888953",
+        "title": "Eorpwald of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Eorpwald_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "from c. 624",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ricberht of East Anglia",
+        "title": "Ricberht of East Anglia",
+        "person": "Q706356",
+        "name": "Ricberht of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ricberht_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Ricberht of East Anglia",
+          "canonical": "Ricberht of East Anglia",
+          "qid": "Q706356"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q706356",
+        "title": "Ricberht of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Ricberht_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles (possibly)",
+            "raw": "about 627–630",
+            "parsed": {
+              "start": "0627-01-01",
+              "end": "0630-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Rædwald of East Anglia",
+        "title": "Rædwald of East Anglia",
+        "person": "Q468836",
+        "name": "Redvaldo de Estanglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/R%C3%A6dwald_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Rædwald of East Anglia",
+          "canonical": "Rædwald of East Anglia",
+          "qid": "Q468836"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21400700",
+          "start": "0600-01-01",
+          "end": "0624-01-01",
+          "precision": 9,
+          "statement": "Q468836$f1cf8a99-4a64-2f59-dbfc-7b4e8c09c3ca",
+          "label": "Rey de Anglia Oriental"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q468836",
+        "title": "Rædwald of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/R%C3%A6dwald_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "c. 599 – c. 624",
+            "parsed": {
+              "start": "0599-01-01",
+              "end": "0624-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of East Anglia",
+            "raw": "599 – c. 624",
+            "parsed": {
+              "start": "0599-01-01",
+              "end": "0624-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sigeberht of East Anglia",
+        "title": "Sigeberht of East Anglia",
+        "person": "Q509072",
+        "name": "Sigeberht of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Sigeberht_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Sigeberht of East Anglia",
+          "canonical": "Sigeberht of East Anglia",
+          "qid": "Q509072"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21400700",
+          "start": "0629-01-01",
+          "end": "0634-01-01",
+          "precision": 9,
+          "statement": "Q509072$a0d41ad6-4383-1f4c-4a1e-1580516456e2",
+          "label": "Rey de Anglia Oriental"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q509072",
+        "title": "Sigeberht of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Sigeberht_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "{{circa}} 629&nbsp;– {{circa}} 634 (abdicated after ruling jointly with [[Ecgric of East Anglia|Ecgric]])",
+            "parsed": {
+              "start": "0629-01-01",
+              "end": "0634-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Æthelhere of East Anglia",
+        "title": "Æthelhere of East Anglia",
+        "person": "Q272193",
+        "name": "Æthelhere of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelhere_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Æthelhere of East Anglia",
+          "canonical": "Æthelhere of East Anglia",
+          "qid": "Q272193"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21400700",
+          "start": "0654-01-01",
+          "end": "0655-01-01",
+          "precision": 9,
+          "statement": "Q272193$3d5b6e0f-4755-39f1-ebd5-a376c19518fe",
+          "label": "Rey de Anglia Oriental"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q272193",
+        "title": "Æthelhere of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelhere_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "653 or 654&nbsp;– 655",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Æthelwald of East Anglia",
+        "title": "Æthelwald of East Anglia",
+        "person": "Q272275",
+        "name": "Æthelwold of East Anglia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelwold_of_East_Anglia",
+        "identityResolution": {
+          "requested": "Æthelwald of East Anglia",
+          "canonical": "Æthelwold of East Anglia",
+          "qid": "Q272275"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q272275",
+        "title": "Æthelwold of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelwold_of_East_Anglia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the East Angles",
+            "raw": "c. 654–664",
+            "parsed": {
+              "start": "0654-01-01",
+              "end": "0664-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 6,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q468836",
+        "title": "Rædwald of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/R%C3%A6dwald_of_East_Anglia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the East Angles",
+          "raw": "c. 599 – c. 624",
+          "parsed": {
+            "start": "0599-01-01",
+            "end": "0624-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q706356",
+        "title": "Ricberht of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Ricberht_of_East_Anglia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the East Angles (possibly)",
+          "raw": "about 627–630",
+          "parsed": {
+            "start": "0627-01-01",
+            "end": "0630-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q509072",
+        "title": "Sigeberht of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Sigeberht_of_East_Anglia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the East Angles",
+          "raw": "{{circa}} 629&nbsp;– {{circa}} 634 (abdicated after ruling jointly with [[Ecgric of East Anglia|Ecgric]])",
+          "parsed": {
+            "start": "0629-01-01",
+            "end": "0634-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q888700",
+        "title": "Egric of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Ecgric_of_East_Anglia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the East Angles",
+          "raw": "{{circa}} 630&nbsp;{{snd}}{{circa}} 636 (jointly with Sigeberht until {{circa}} 634)",
+          "parsed": {
+            "start": "0630-01-01",
+            "end": "0636-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q272275",
+        "title": "Æthelwald of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/%C3%86thelwold_of_East_Anglia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the East Angles",
+          "raw": "c. 654–664",
+          "parsed": {
+            "start": "0654-01-01",
+            "end": "0664-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q888956",
+        "title": "Ealdwulf of East Anglia",
+        "source": "https://en.wikipedia.org/wiki/Ealdwulf_of_East_Anglia",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "King of the East Angles",
+          "raw": "{{circa}} 664{{spaced ndash}}713",
+          "parsed": {
+            "start": "0664-01-01",
+            "end": "0713-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Eorpwald of East Anglia",
+        "person": "Q888953",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      },
+      {
+        "title": "Æthelhere of East Anglia",
+        "person": "Q272193",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "rejectedPortraits": [
+    {
+      "person": "Q468836",
+      "title": "Sutton hoo helmet room 1 no flashbrightness ajusted.JPG",
+      "reason": "Casco deSutton Hoo, sin identificación personal segura conRædwald; no retrato.",
+      "source": "https://commons.wikimedia.org/wiki/File:Sutton_hoo_helmet_room_1_no_flashbrightness_ajusted.JPG"
+    },
+    {
+      "person": "Q509072",
+      "title": "The King-monk fell in the rout of his old East Anglian subjects - Sidney Paget.jpg",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad.",
+      "source": "https://commons.wikimedia.org/wiki/File:The_King-monk_fell_in_the_rout_of_his_old_East_Anglian_subjects_-_Sidney_Paget.jpg"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q468836",
+      "name": "Redvaldo de Estanglia",
+      "title": "Sutton hoo helmet room 1 no flashbrightness ajusted.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Sutton_hoo_helmet_room_1_no_flashbrightness_ajusted.JPG",
+      "sha256": "d3212a8cfb26d47ce2cad45683dcebf79be9ee4db45901b2a26d5dca23bf6012",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Casco deSutton Hoo, sin identificación personal segura conRædwald; no retrato."
+    },
+    {
+      "person": "Q509072",
+      "name": "Sigeberht of East Anglia",
+      "title": "The King-monk fell in the rout of his old East Anglian subjects - Sidney Paget.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:The_King-monk_fell_in_the_rout_of_his_old_East_Anglian_subjects_-_Sidney_Paget.jpg",
+      "sha256": "2c55159ed4b2391976ce32ee3dc7dcb318487776b1402afb4ef02ed09bc656c4",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Objeto sin efigie individual, mapa, escena colectiva o imagen sin encuadre/identificación adecuada para la ficha de una autoridad."
+    }
+  ]
+}

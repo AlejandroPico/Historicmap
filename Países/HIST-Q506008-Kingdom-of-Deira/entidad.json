@@ -1,0 +1,72 @@
+{
+  "key": "HIST-Q506008",
+  "name": "Kingdom of Deira",
+  "qid": "Q506008",
+  "aliases": [
+    "Kingdom of Deira"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q506008"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q336016",
+      "name": "Oswaldo de Bernicia",
+      "role": "Rey de Deira",
+      "start": "0633-01-01",
+      "end": "0642-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Oswald_of_Northumbria",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34",
+      "portrait": {
+        "file": "media/portrait-07e7eb8c053422763884.jpg",
+        "title": "Hl. Oswald von Northumbrien 2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hl._Oswald_von_Northumbrien_2.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Hl._Oswald_von_Northumbrien_2.jpg/330px-Hl._Oswald_von_Northumbrien_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Burkhard Mücke ",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "99dbb5bd08750afd3c7a9e1a6c692d4d289ec8e47c4c0e280e798adf45db0990",
+        "bytes": 72067,
+        "canonicalFile": "Países/HIST-Q506008-Kingdom-of-Deira/retratos/portrait-07e7eb8c053422763884.jpg",
+        "caption": "Estatua religiosa conmemorativa posterior identificada con sanOswald; no retrato contemporáneo."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2186",
+      "start": 600,
+      "end": 611,
+      "name": "Kingdom of Deira",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2365",
+      "start": 633,
+      "end": 633,
+      "name": "Kingdom of Deira",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

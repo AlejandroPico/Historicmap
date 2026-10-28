@@ -1,0 +1,85 @@
+{
+  "key": "HIST-Q13590051",
+  "name": "Burgundian Kingdom",
+  "qid": "Q13590051",
+  "aliases": [
+    "Burgundian Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q13590051"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q209118",
+      "name": "Clotario II",
+      "role": "Rey merovingio de Borgoña",
+      "start": "0613-01-01",
+      "end": "0629-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chlothar_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q316869",
+      "name": "Teoderico II",
+      "role": "Rey merovingio de Borgoña",
+      "start": "0600-01-01",
+      "end": "0613-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Theuderic_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2207",
+      "start": 602,
+      "end": 611,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2249",
+      "start": 612,
+      "end": 616,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2468",
+      "start": 644,
+      "end": 655,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2506",
+      "start": 656,
+      "end": 660,
+      "name": "Burgundian Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

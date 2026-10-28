@@ -1,0 +1,65 @@
+{
+  "key": "HIST-Q943191",
+  "name": "Lakhmid Kingdom",
+  "qid": "Q943191",
+  "aliases": [
+    "Lakhmid Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q943191"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "LOCAL-LAKHMID-AL-NUMAN-III",
+      "name": "Al-Nuʿmān III ibn al-Mundhir",
+      "role": "Rey lajmí · cliente de los sasánidas",
+      "start": "0600-01-01",
+      "end": "0602-12-31",
+      "precision": 9,
+      "startIsCoverageBoundary": true,
+      "source": "https://www.iranicaonline.org/articles/lakhmids/",
+      "note": "Último monarca lajmí,580–602 segúnIranica/Bosworth; fue depuesto porCosroesII. Identidad local explícita sin atribuir un QID o retrato no verificados.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-1954",
+      "start": 600,
+      "end": 601,
+      "name": "Lakhmid Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2342",
+      "start": 629,
+      "end": 632,
+      "name": "Lakhmid Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2351",
+      "start": 633,
+      "end": 633,
+      "name": "Lakhmid Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

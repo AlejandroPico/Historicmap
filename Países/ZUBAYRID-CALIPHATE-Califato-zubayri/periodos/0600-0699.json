@@ -1,0 +1,132 @@
+{
+  "key": "ZUBAYRID-CALIPHATE",
+  "identity": {
+    "qid": "",
+    "name": "Califato zubayrí · autoridad rival"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [],
+  "leaders": [
+    {
+      "person": "Q307665",
+      "name": "Abd Allah ibn al-Zubayr",
+      "role": "Pretendiente rival al califato · poder zubayrí",
+      "start": "0683-01-01",
+      "end": "0692-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Abd_Allah_ibn_al-Zubayr",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review034-zubayrid",
+      "type": "institution",
+      "title": "Poder califal rival de Ibn al-Zubayr",
+      "start": "0683-01-01",
+      "end": "0693-01-01",
+      "text": "Autoridad califal rival con corte enLa Meca. La cartografía de la compilación no delimita aquí un ámbito propio verificado; la sede no es un polígono de soberanía.",
+      "source": "https://en.wikipedia.org/wiki/Abd_Allah_ibn_al-Zubayr",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 683,
+      "end": 699,
+      "tags": [
+        "monarchy",
+        "caliphate",
+        "theocracy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/History",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno.",
+    "Geometría propia de los territorios bajo autoridad zubayrí pendiente; no dibujar el dominio desde un punto de corte."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [],
+  "officeResearch": {
+    "selected": 0,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [],
+    "pending": [
+      {
+        "title": "Muhammad",
+        "person": "Q9458",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-9",
+      "name": "La Meca · corte zubayrí",
+      "coordinates": [
+        39.826,
+        21.422
+      ],
+      "start": 683,
+      "end": 692,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Abd_Allah_ibn_al-Zubayr",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año.",
+      "aggregateKey": "UMAYYAD-CALIPHATE",
+      "entityName": "Califato zubayrí · autoridad rival"
+    },
+    {
+      "id": "seat034-9-own",
+      "name": "La Meca · corte zubayrí",
+      "coordinates": [
+        39.826,
+        21.422
+      ],
+      "start": 683,
+      "end": 692,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Abd_Allah_ibn_al-Zubayr",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review034-zubayrid",
+      "type": "institution",
+      "title": "Poder califal rival de Ibn al-Zubayr",
+      "start": "0683-01-01",
+      "end": "0693-01-01",
+      "text": "Autoridad califal rival con corte enLa Meca. La cartografía de la compilación no delimita aquí un ámbito propio verificado; la sede no es un polígono de soberanía.",
+      "source": "https://en.wikipedia.org/wiki/Abd_Allah_ibn_al-Zubayr",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ]
+}

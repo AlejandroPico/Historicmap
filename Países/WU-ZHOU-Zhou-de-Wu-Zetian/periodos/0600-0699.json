@@ -1,0 +1,252 @@
+{
+  "key": "WU-ZHOU",
+  "identity": {
+    "qid": "Q835435",
+    "name": "Zhou de Wu Zetian"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Emperatriz reinante de Zhou",
+      "officePattern": "Empress.*Zhou|Emperor.*Zhou|Empress.*China|Emperor.*China",
+      "titles": [
+        "Wu Zetian"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q9738",
+      "name": "Wu Zetian",
+      "role": "Emperatriz reinante de Zhou",
+      "start": "0690-01-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wu_Zetian",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-6f64437314675c50c057.png",
+        "title": "唐后行從圖 (局部) - 武則天.png",
+        "url": "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_(%E5%B1%80%E9%83%A8)_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_%28%E5%B1%80%E9%83%A8%29_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png/330px-%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_%28%E5%B1%80%E9%83%A8%29_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Likely to be Zhang Xuan (张萱)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_(%E5%B1%80%E9%83%A8)_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://www.thepaper.cn/newsDetail_forward_6236329\n\nhttps://www.sohu.com/a/391029246_684011",
+        "sha256": "363818ef967e49ca27276ff1457514084c105824f58d550c31f06759dce14a34",
+        "bytes": 429328,
+        "canonicalFile": "Países/WU-ZHOU-Zhou-de-Wu-Zetian/retratos/portrait-6f64437314675c50c057.png",
+        "caption": "Representación posterior deWu Zetian; no imagen del natural del sigloVII."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 690,
+      "end": 699,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/History",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Tang Dynasty"
+        ],
+        "start": 690,
+        "end": 699,
+        "label": "Zhou de Wu Zetian · emperatriz reinante",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://en.wikipedia.org/wiki/Wu_Zhou",
+        "note": "Cambio de dignidad dinástica en690; se resuelve la propia geometría como Zhou, sin añadir una superficie sobreTang."
+      }
+    }
+  ],
+  "geography": [],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Wu Zetian",
+        "title": "Wu Zetian",
+        "person": "Q9738",
+        "name": "Wu Zetian",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wu_Zetian",
+        "identityResolution": {
+          "requested": "Wu Zetian",
+          "canonical": "Wu Zetian",
+          "qid": "Q9738"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "0690-10-16",
+          "end": "0705-02-21",
+          "precision": 11,
+          "statement": "Q9738$7F20B16F-1C4C-43BD-A1EA-8DBE87C086FE",
+          "label": "Emperador de China"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q9738",
+        "title": "Wu Zetian",
+        "source": "https://en.wikipedia.org/wiki/Wu_Zetian",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Zhou dynasty",
+            "raw": "16 October 690{{NoteTag|Wu returned to the palace in 650 as a concubine with the rank of \"lady of bright deportment\" (昭仪; ''zhāoyí''), and was promoted even higher to the rank of \"celestial consort\" ({{langx|zh|宸妃|label=none|translit=chén fēi}}) in early 655 (at least, according to the ''Old Book of Tang'';<ref>(时皇后王氏、良娣萧氏频与武昭仪争宠，互谗毁之，帝皆不纳。进号宸妃。永徽六年，废王皇后而立武宸妃为皇后。) ''Jiu Tang Shu'', vol.06</ref> the ''New Book of Tang'' recorded that due to opposition from [[Han Yuan]] and [[Lai Ji]], Gaozong did not bestow this title to Wu.<ref>(由是昭仪得入其訾，后无以自解，而帝愈信爱，始有废后意。久之，欲进号“宸妃”，侍中韩瑗、中书令来济言：“妃嫔有数，今别立号，不可。”) ''Xin Tang Shu'', vol.76</ref>). Wu was later promoted to \"empress\" ({{langx|zh|皇后|label=none|translit=huánghòu}}) in November 655. She later had partial power since {{circa}}660 as the \"deputy emperor\" ({{langx|zh|副皇|label=none|translit=fù huáng}}) and her power was even more paramount after January 665, with her power almost equal to that of the emperor. After that, she and the emperor are addressed as the \"Two Saints\" ({{langx|zh|二聖|label=none|translit=èr shèng}}), and they even performed the sacred and ancient ceremony of [[Feng Shan]] together at [[Mount Tai]]. Also, in October 674, she was addressed as \"heavenly empress\" ({{langx|zh|天后|label=none|translit=tiān hòu}}), which completed the legitimacy of her joint rule with Emperor Gaozong, who was also addressed as \"heavenly emperor\" ({{langx|zh|天皇|label=none|translit=tiān huáng}}). In March 675, Gaozong, incapacitated by the progress of his illness until his death, intended to cede power to Wu, who did not do so due to the opposition of the chancellors. In order to deal with this process and prevent the recurrence of such incidents, Wu associated with several mid-level officials who collectively became known as the \"North Gate Scholars\" ({{langx|zh|北門學士|label=none|translit=běimén xuéshì}}). They thus act as a secret secretariat, \"to process for the empress memorials addressed to the throne, and to make decisions on the policy which were properly the functions of the chancellors\". Also, Gaozong left the decision-making authority for state affairs to Wu and their sons (Li Heng and Li Xian) and semi-retired himself, but Wu eliminated them in a power struggle. After Emperor Gaozong's death in 683, power fell completely and solely into her hands, who in turn installed and removed their younger sons Emperors Zhongzong and Ruizong, and did not allow them to rule. Her [[Wu Zhou dynasty]] was proclaimed on the 17th of October, 690, and she proclaimed herself emperor on 19 October, demoting her son [[Emperor Ruizong of Tang|Emperor Ruizong]] to the rank of [[crown prince]] with the unusual title of ''imperial successor'' ({{langx|zh|皇嗣|label=none|translit=huángsì}}).}} – 21 February 705{{NoteTag|She lost power in the palace coup of 20 February 705. She abdicated the next day, and on 22 February she was forced to return imperial authority to her son Li Xian, who was restored as [[Emperor Zhongzong of Tang|Emperor Zhongzong]] on 23 February. The Wu Zhou dynasty was terminated with the restoration of the Tang dynasty on 3 March 705.}}",
+            "parsed": null
+          },
+          {
+            "field": "reign2",
+            "office": "Empress dowager of the Tang dynasty",
+            "raw": "27 December 683 – 16 October 690",
+            "parsed": {
+              "start": "0683-12-27",
+              "end": "0690-10-16",
+              "precision": 11
+            }
+          },
+          {
+            "field": "reign3",
+            "office": "Empress consort of the Tang dynasty",
+            "raw": "22 November 655 – 27 December 683",
+            "parsed": {
+              "start": "0655-11-22",
+              "end": "0683-12-27",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Empress regnant of the Zhou dynasty",
+            "raw": "690–705",
+            "parsed": {
+              "start": "0690-01-01",
+              "end": "0705-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Empress regnant of China",
+            "raw": "690–705",
+            "parsed": {
+              "start": "0690-01-01",
+              "end": "0705-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Empress consort of the Tang dynasty",
+            "raw": "655–683",
+            "parsed": {
+              "start": "0655-01-01",
+              "end": "0683-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Retired empress regnant of China",
+            "raw": "705",
+            "parsed": {
+              "start": "0705-01-01",
+              "end": "0705-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q9738",
+        "title": "Wu Zetian",
+        "source": "https://en.wikipedia.org/wiki/Wu_Zetian",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Empress regnant of the Zhou dynasty",
+          "raw": "690–705",
+          "parsed": {
+            "start": "0690-01-01",
+            "end": "0705-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-13",
+      "name": "Luoyang",
+      "coordinates": [
+        112.453,
+        34.62
+      ],
+      "start": 690,
+      "end": 699,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Wu_Zhou",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q9738",
+      "name": "Wu Zetian",
+      "title": "唐后行從圖 (局部) - 武則天.png",
+      "source": "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_(%E5%B1%80%E9%83%A8)_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png",
+      "sha256": "363818ef967e49ca27276ff1457514084c105824f58d550c31f06759dce14a34",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Representación posterior deWu Zetian; no imagen del natural del sigloVII."
+    }
+  ]
+}

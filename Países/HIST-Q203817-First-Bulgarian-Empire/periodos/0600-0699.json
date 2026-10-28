@@ -1,0 +1,216 @@
+{
+  "key": "HIST-Q203817",
+  "identity": {
+    "qid": "Q203817",
+    "name": "First Bulgarian Empire"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Gobernante de Bulgaria",
+      "officePattern": "Khan|Ruler",
+      "titles": [
+        "Asparuh of Bulgaria",
+        "Tervel"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q189450",
+      "name": "Asparukh",
+      "role": "Gobernante de Bulgaria",
+      "start": "0681-01-01",
+      "end": "0699-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Asparuh_of_Bulgaria",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-b279c87b35f2946e7f6f.jpg",
+        "title": "Asparukh of Bulgaria.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Asparukh_of_Bulgaria.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Asparukh_of_Bulgaria.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "TRAJAN 117",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "Ivanov id",
+        "attributionRequired": true,
+        "credit": "Cropped from File:KanasJubigiAsparukh2.JPG",
+        "sha256": "630d9fa128b64cb444e25df9de10e6273d2c02b17a9bfaa0bb1e34a7ba0c50e5",
+        "bytes": 64627,
+        "canonicalFile": "Países/HIST-Q203817-First-Bulgarian-Empire/retratos/portrait-b279c87b35f2946e7f6f.jpg",
+        "caption": "Estatua conmemorativa moderna deAsparuh; no representación contemporánea."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": 600,
+      "end": 699,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "First Bulgarian Empire"
+        ],
+        "start": 600,
+        "end": 699,
+        "label": "First Bulgarian Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "1655e96314772c05caab7c53522644ad24a1c43d132f3d1273fd33ea6cdf3607",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2601
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Asparuh of Bulgaria",
+        "title": "Asparuh of Bulgaria",
+        "person": "Q189450",
+        "name": "Asparukh",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Asparuh_of_Bulgaria",
+        "identityResolution": {
+          "requested": "Asparuh of Bulgaria",
+          "canonical": "Asparuh of Bulgaria",
+          "qid": "Q189450"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q189450",
+        "title": "Asparuh of Bulgaria",
+        "source": "https://en.wikipedia.org/wiki/Asparuh_of_Bulgaria",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Khan of Bulgaria",
+            "raw": "681–701",
+            "parsed": {
+              "start": "0681-01-01",
+              "end": "0701-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tervel",
+        "title": "Tervel",
+        "person": "Q311506",
+        "name": "Tervel",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tervel_of_Bulgaria",
+        "identityResolution": {
+          "requested": "Tervel",
+          "canonical": "Tervel of Bulgaria",
+          "qid": "Q311506"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q311506",
+        "title": "Tervel of Bulgaria",
+        "source": "https://en.wikipedia.org/wiki/Tervel_of_Bulgaria",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Khan of Bulgaria",
+            "raw": "700–721",
+            "parsed": {
+              "start": "0700-01-01",
+              "end": "0721-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 1,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q189450",
+        "title": "Asparuh of Bulgaria",
+        "source": "https://en.wikipedia.org/wiki/Asparuh_of_Bulgaria",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Khan of Bulgaria",
+          "raw": "681–701",
+          "parsed": {
+            "start": "0681-01-01",
+            "end": "0701-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "mediaReview": [
+    {
+      "person": "Q189450",
+      "name": "Asparukh",
+      "title": "Asparukh of Bulgaria.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Asparukh_of_Bulgaria.JPG",
+      "sha256": "630d9fa128b64cb444e25df9de10e6273d2c02b17a9bfaa0bb1e34a7ba0c50e5",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Estatua conmemorativa moderna deAsparuh; no representación contemporánea."
+    }
+  ]
+}

@@ -1,0 +1,1347 @@
+{
+  "key": "SASANIAN",
+  "identity": {
+    "qid": "Q1661685",
+    "name": "Imperio sasánida"
+  },
+  "revision": "0.34.0",
+  "acquisition": "century-600-0.34",
+  "coverageStart": 600,
+  "coverageEnd": 699,
+  "officeBounds": [
+    "0600-01-01",
+    "0699-12-31"
+  ],
+  "preferExplicitReignFields": true,
+  "candidates": [
+    {
+      "role": "Rey / reina de reyes sasánida",
+      "officePattern": "Sasanian|Shahanshah|King of Kings|King.*Persia",
+      "titles": [
+        "Khosrow II",
+        "Kavad II",
+        "Ardashir III",
+        "Shahrbaraz",
+        "Boran",
+        "Azarmidokht",
+        "Khosrow III",
+        "Hormizd VI",
+        "Khosrow IV",
+        "Peroz II",
+        "Yazdegerd III"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q212732",
+      "name": "Cosroes II",
+      "role": "Rey / reina de reyes sasánida",
+      "start": "0600-01-01",
+      "end": "0628-02-25",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khosrow_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-c38aa742b985aadb6a24.jpg",
+        "title": "KhosrauIIGoldCoinCroppedHistoryofIran.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:KhosrauIIGoldCoinCroppedHistoryofIran.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/KhosrauIIGoldCoinCroppedHistoryofIran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group; [1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "https://www.cngcoins.com/Coin.aspx?CoinID=140294",
+        "sha256": "6e511e6359bb299ca9a0e275bc98f9d9703f6f7789efa4ff465f48d1850324dd",
+        "bytes": 191535,
+        "canonicalFile": "Países/SASANIAN-Imperio-sasanida/retratos/portrait-c38aa742b985aadb6a24.jpg",
+        "caption": "Tipo monetario convencional atribuido a Cosroes II; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q313629",
+      "name": "Ardacher III",
+      "role": "Rey / reina de reyes sasánida",
+      "start": "0628-09-06",
+      "end": "0630-04-27",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Ardashir_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-ec81e81e2fde698b2cdb.jpg",
+        "title": "Dinar of Ardashir III Sasani obverse.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Dinar_of_Ardashir_III_Sasani_obverse.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Dinar_of_Ardashir_III_Sasani_obverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Roma Numismatics Ltd",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "https://www.numisbids.com/n.php?p=lot&sid=5511&lot=501",
+        "sha256": "fb7607681b8db983d017e2a83f7fe57cdcefedf96770e8c0a7417c5209149ae1",
+        "bytes": 218754,
+        "canonicalFile": "Países/SASANIAN-Imperio-sasanida/retratos/portrait-ec81e81e2fde698b2cdb.jpg",
+        "caption": "Tipo monetario convencional atribuido a Ardacher III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q347447",
+      "name": "Sharvaraz",
+      "role": "Rey / reina de reyes sasánida",
+      "start": "0630-04-27",
+      "end": "0630-06-09",
+      "precision": 11,
+      "source": "https://en.wikipedia.org/wiki/Shahrbaraz",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q271300",
+      "name": "Boran",
+      "role": "Rey / reina de reyes sasánida",
+      "start": "0630-01-01",
+      "end": "0630-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Boran",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente. La cronología deBōrān es discutida: Iranica sitúa el final probablemente en631; otras fuentes distinguen restauraciones hasta632. Ventanas alternativas, no reinados indiscutidos.",
+      "endIsUpperBound": true,
+      "portrait": {
+        "file": "media/portrait-130887086165323dea07.jpg",
+        "title": "Gold coin of Boran, daughter of Khusrau II.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Gold_coin_of_Boran,_daughter_of_Khusrau_II.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Gold_coin_of_Boran%2C_daughter_of_Khusrau_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "\nUnknown authorUnknown author",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "link to the Museum of Fine Arts, Boston record",
+        "sha256": "e921af8a79c848931cd8fee606226dd9b8c558ff4219aab25dbaa465b5267da4",
+        "bytes": 464808,
+        "canonicalFile": "Países/SASANIAN-Imperio-sasanida/retratos/portrait-130887086165323dea07.jpg",
+        "caption": "Tipo monetario atribuido aBōrān y adaptado como colgante; la efigie no acredita su apariencia personal."
+      }
+    },
+    {
+      "person": "Q271300",
+      "name": "Boran",
+      "role": "Rey / reina de reyes sasánida",
+      "start": "0631-06-01",
+      "end": "0632-06-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Boran",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente. La cronología deBōrān es discutida: Iranica sitúa el final probablemente en631; otras fuentes distinguen restauraciones hasta632. Ventanas alternativas, no reinados indiscutidos.",
+      "endIsUpperBound": true,
+      "portrait": {
+        "file": "media/portrait-130887086165323dea07.jpg",
+        "title": "Gold coin of Boran, daughter of Khusrau II.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Gold_coin_of_Boran,_daughter_of_Khusrau_II.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Gold_coin_of_Boran%2C_daughter_of_Khusrau_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "\nUnknown authorUnknown author",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "link to the Museum of Fine Arts, Boston record",
+        "sha256": "e921af8a79c848931cd8fee606226dd9b8c558ff4219aab25dbaa465b5267da4",
+        "bytes": 464808,
+        "canonicalFile": "Países/SASANIAN-Imperio-sasanida/retratos/portrait-130887086165323dea07.jpg",
+        "caption": "Tipo monetario atribuido aBōrān y adaptado como colgante; la efigie no acredita su apariencia personal."
+      }
+    },
+    {
+      "person": "Q271282",
+      "name": "Azarmedukht I de Irán",
+      "role": "Rey / reina de reyes sasánida",
+      "start": "0630-01-01",
+      "end": "0631-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Azarmidokht",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente."
+    },
+    {
+      "person": "Q888906",
+      "name": "Cosroes III de Persia",
+      "role": "Pretendiente o poder regional sasánida · atribución discutida",
+      "start": "0630-01-01",
+      "end": "0630-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khosrow_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente. No acredita gobierno indiscutido del conjunto del imperio ni coexistencia colegiada con YazdegerdIII.",
+      "portrait": {
+        "file": "media/portrait-ed9dd8d2a37a1e70aca9.jpg",
+        "title": "Khusrau iii.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Khusrau_iii.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Khusrau_iii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "The original uploader was Fabienkhan at French Wikipedia.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Transferred from fr.wikipedia to Commons by Bloody-libu using CommonsHelper.",
+        "sha256": "638c808396c91446c03deb85c1c36e2a2f46ea5fc66a0bc08acedc2d8a5b7542",
+        "bytes": 8164,
+        "canonicalFile": "Países/SASANIAN-Imperio-sasanida/retratos/portrait-ed9dd8d2a37a1e70aca9.jpg",
+        "caption": "Moneda atribuida al pretendienteCosroesIII, de cronología discutida; tipo convencional, no apariencia personal acreditada."
+      }
+    },
+    {
+      "person": "Q730453",
+      "name": "Hormizd VI",
+      "role": "Pretendiente o poder regional sasánida · atribución discutida",
+      "start": "0630-01-01",
+      "end": "0632-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hormizd_VI",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente. No acredita gobierno indiscutido del conjunto del imperio ni coexistencia colegiada con YazdegerdIII."
+    },
+    {
+      "person": "Q887420",
+      "name": "Cosroes IV de Persia",
+      "role": "Pretendiente o poder regional sasánida · atribución discutida",
+      "start": "0632-01-01",
+      "end": "0642-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khosrow_IV",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente. No acredita gobierno indiscutido del conjunto del imperio ni coexistencia colegiada con YazdegerdIII."
+    },
+    {
+      "person": "Q5931071",
+      "name": "Peroz II",
+      "role": "Pretendiente o poder regional sasánida · atribución discutida",
+      "start": "0630-01-01",
+      "end": "0630-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Peroz_II",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente. No acredita gobierno indiscutido del conjunto del imperio ni coexistencia colegiada con YazdegerdIII."
+    },
+    {
+      "person": "Q208463",
+      "name": "Yazdgerd III",
+      "role": "Rey / reina de reyes sasánida",
+      "start": "0632-06-16",
+      "end": "0651-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yazdegerd_III",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "portrait": {
+        "file": "media/portrait-02f6d4dba21e45e43543.jpg",
+        "title": "Coin of the Sasanian king Yazdegerd III, 651 mint (Cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Sasanian_king_Yazdegerd_III,_651_mint_(Cropped).jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Coin_of_the_Sasanian_king_Yazdegerd_III%2C_651_mint_%28Cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group; [1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "This image has been extracted from another file",
+        "sha256": "9b05744315eb0d02b95305ecdbf4b04f348053f9264dfea1dcd3cd5dce6fcfc8",
+        "bytes": 94785,
+        "canonicalFile": "Países/SASANIAN-Imperio-sasanida/retratos/portrait-02f6d4dba21e45e43543.jpg",
+        "caption": "Tipo monetario convencional atribuido a Yazdgerd III; no retrato del natural acreditado."
+      }
+    },
+    {
+      "person": "Q315873",
+      "name": "Kawād II · Šērōe",
+      "role": "Rey de reyes sasánida",
+      "start": "0628-02-25",
+      "end": "0628-12-31",
+      "precision": 9,
+      "source": "https://www.iranicaonline.org/articles/kawad-ii/",
+      "note": "Reinado de meses en628. La muerte se sitúa en verano o septiembre según la fuente; el final anual es una cota de consulta, no un mandato hasta diciembre.",
+      "endIsUpperBound": true,
+      "portrait": {
+        "file": "media/portrait-8dfba5556b0c3594b5f3.jpg",
+        "title": "Coin of the Sasanian king Kavad II (cropped), minted at Susa in 628.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Sasanian_king_Kavad_II_(cropped),_minted_at_Susa_in_628.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Coin_of_the_Sasanian_king_Kavad_II_%28cropped%29%2C_minted_at_Susa_in_628.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group; [1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "https://www.cngcoins.com/Coin.aspx?CoinID=175639",
+        "sha256": "ff768c937136f3a0718846ad76242bd785ebf7624ba7e3e03a16f837395af83e",
+        "bytes": 106116,
+        "canonicalFile": "Países/SASANIAN-Imperio-sasanida/retratos/portrait-8dfba5556b0c3594b5f3.jpg",
+        "caption": "Tipo monetario convencional atribuido a Kawād II · Šērōe; no retrato del natural acreditado."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "review034-collapse",
+      "type": "institution",
+      "title": "Crisis y final del poder sasánida",
+      "start": "0628-01-01",
+      "end": "0652-01-01",
+      "text": "Los reinados breves, reinas y pretendientes de628–632 tienen cronologías discutidas. La muerte deYazdegerdIII en651 no implica la desaparición de las comunidades iranias ni fronteras árabes homogéneas instantáneas.",
+      "source": "https://www.iranicaonline.org/articles/kawad-ii/",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [
+    {
+      "start": 600,
+      "end": 651,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceLabel": "Organización histórica; no evaluación moderna",
+      "note": "Institución regia documentada. La palabra imperio no determina por sí sola ideología ni régimen moderno."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Sasanian Empire"
+        ],
+        "start": 600,
+        "end": 651,
+        "label": "Imperio sasánida",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "Geometría de síntesis con cronología de fuente desigual; consulta anual no equivale a fronteras observadas anualmente ni a control uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Sasanian Empire"
+        ],
+        "start": 652,
+        "end": 699,
+        "label": "Ámbitos anteriores de Imperio sasánida · contorno heredado",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md",
+        "note": "La geometría de la compilación continúa más allá de la cronología de la entidad. Se conserva como referencia, sin prolongar sus autoridades ni certificar fronteras contemporáneas a esta fecha."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/0600-0699.geojson",
+      "sha256": "43cd1c7e61374aa93d1f0eea0a18d99002750d97bfaa19a4b4deda94cb8e5d6e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceIndices": [
+        2185,
+        2229,
+        2237,
+        2268,
+        2289,
+        2291,
+        2309,
+        2334,
+        2339,
+        2349,
+        2362,
+        2383,
+        2412,
+        2441
+      ],
+      "note": "Componentes originales completos, con propiedades e índices conservados; sin simplificación añadida."
+    }
+  ],
+  "pending": [
+    "Completar cargos menores, símbolos documentales, representaciones individuales y contraste espacial local; no confundir huecos de fuente con ausencia de habitantes o gobierno."
+  ],
+  "officeNote": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ardashir III",
+        "title": "Ardashir III",
+        "person": "Q313629",
+        "name": "Ardacher III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ardashir_III",
+        "identityResolution": {
+          "requested": "Ardashir III",
+          "canonical": "Ardashir III",
+          "qid": "Q313629"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28108903",
+          "start": "0628-09-06",
+          "end": "0630-04-27",
+          "precision": 11,
+          "statement": "Q313629$d52c6169-60dc-4f0c-9a89-8a83f53b4088",
+          "label": "rey del Imperio sasánida"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q313629",
+        "title": "Ardashir III",
+        "source": "https://en.wikipedia.org/wiki/Ardashir_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Shahanshah of the Sasanian Empire",
+            "raw": "6 September 628{{snd}}27 April 630",
+            "parsed": {
+              "start": "0628-09-06",
+              "end": "0630-04-27",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of kings of Iran and Aniran",
+            "raw": "6 September 628–27 April 630",
+            "parsed": {
+              "start": "0628-09-06",
+              "end": "0630-04-27",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Azarmidokht",
+        "title": "Azarmidokht",
+        "person": "Q271282",
+        "name": "Azarmedukht I de Irán",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Azarmidokht",
+        "identityResolution": {
+          "requested": "Azarmidokht",
+          "canonical": "Azarmidokht",
+          "qid": "Q271282"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28108903",
+          "start": "0630-01-01",
+          "end": "0631-01-01",
+          "precision": 9,
+          "statement": "Q271282$a15f8103-9326-43ba-92ab-1c0454f26719",
+          "label": "rey del Imperio sasánida"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q271282",
+        "title": "Azarmidokht",
+        "source": "https://en.wikipedia.org/wiki/Azarmidokht",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Queen of the Sasanian Empire",
+            "raw": "630–631",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0631-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Queen of Queens of Iran",
+            "raw": "630–631",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0631-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Boran",
+        "title": "Boran",
+        "person": "Q271300",
+        "name": "Boran",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Boran",
+        "identityResolution": {
+          "requested": "Boran",
+          "canonical": "Boran",
+          "qid": "Q271300"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q68375538",
+          "start": "0629-06-17",
+          "end": "0630-06-16",
+          "precision": 11,
+          "statement": "Q271300$457624eb-1626-48fe-b9b4-feb0addc71c4",
+          "label": "Queen of Persia"
+        },
+        {
+          "property": "P39",
+          "office": "Q68375538",
+          "start": "0631-06-01",
+          "end": "0632-06-16",
+          "precision": 10,
+          "statement": "Q271300$ecae6ae9-48be-98d5-42df-041bab108c22",
+          "label": "Queen of Persia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q271300",
+        "title": "Boran",
+        "source": "https://en.wikipedia.org/wiki/Boran",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Queen of the Sasanian Empire",
+            "raw": "630",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0630-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign1",
+            "office": "Queen of the Sasanian Empire",
+            "raw": "June 631&nbsp;– June 632",
+            "parsed": {
+              "start": "0631-06-01",
+              "end": "0632-06-01",
+              "precision": 10
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "Queen consort of the Sasanian Empire",
+            "raw": "628",
+            "parsed": {
+              "start": "0628-01-01",
+              "end": "0628-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Queen of Queens of Iran",
+            "raw": "630",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0630-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Queen of Queens of Iran",
+            "raw": "June 631&ndash;June 632",
+            "parsed": {
+              "start": "0631-06-01",
+              "end": "0632-06-01",
+              "precision": 10
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hormizd VI",
+        "title": "Hormizd VI",
+        "person": "Q730453",
+        "name": "Hormizd VI",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hormizd_VI",
+        "identityResolution": {
+          "requested": "Hormizd VI",
+          "canonical": "Hormizd VI",
+          "qid": "Q730453"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q730453",
+        "title": "Hormizd VI",
+        "source": "https://en.wikipedia.org/wiki/Hormizd_VI",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Shahanshah of the Sasanian Empire",
+            "raw": "630–632",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0632-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Kings of Iran and non-Iran",
+            "raw": "630&ndash;632",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0632-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Kavad II",
+        "title": "Kavad II",
+        "person": "Q315873",
+        "name": "Kavad II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kavad_II",
+        "identityResolution": {
+          "requested": "Kavad II",
+          "canonical": "Kavad II",
+          "qid": "Q315873"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28108903",
+          "start": "0628-02-25",
+          "end": "0628-09-06",
+          "precision": 11,
+          "statement": "Q315873$0b3a8ca1-6a47-4400-8677-4fd6b45f3acb",
+          "label": "rey del Imperio sasánida"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q315873",
+        "title": "Kavad II",
+        "source": "https://en.wikipedia.org/wiki/Kavad_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Shahanshah of the Sasanian Empire",
+            "raw": "25 February 628 – Summer/Autumn 628",
+            "parsed": null
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Kings of Iran and non-Iran",
+            "raw": "25 February 628 – Summer/Autumn 628",
+            "parsed": null
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Khosrow II",
+        "title": "Khosrow II",
+        "person": "Q212732",
+        "name": "Cosroes II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khosrow_II",
+        "identityResolution": {
+          "requested": "Khosrow II",
+          "canonical": "Khosrow II",
+          "qid": "Q212732"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28108903",
+          "start": "0591-01-01",
+          "end": "0628-02-28",
+          "precision": 9,
+          "statement": "Q212732$e30a0aaf-4f83-b1b7-cabf-9f71f960d197",
+          "label": "rey del Imperio sasánida"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q212732",
+        "title": "Khosrow II",
+        "source": "https://en.wikipedia.org/wiki/Khosrow_II",
+        "reignFields": [
+          {
+            "field": "reign1",
+            "office": "Shahanshah of the Sasanian Empire",
+            "raw": "590",
+            "parsed": {
+              "start": "0590-01-01",
+              "end": "0590-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "reign2",
+            "office": "Shahanshah of the Sasanian Empire",
+            "raw": "591 – 25 February 628",
+            "parsed": {
+              "start": "0591-01-01",
+              "end": "0628-02-25",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Kings of Iran and non-Iran",
+            "raw": "590",
+            "parsed": {
+              "start": "0590-01-01",
+              "end": "0590-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Kings of Iran and non-Iran",
+            "raw": "591–628",
+            "parsed": {
+              "start": "0591-01-01",
+              "end": "0628-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Khosrow III",
+        "title": "Khosrow III",
+        "person": "Q888906",
+        "name": "Cosroes III de Persia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khosrow_III",
+        "identityResolution": {
+          "requested": "Khosrow III",
+          "canonical": "Khosrow III",
+          "qid": "Q888906"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q888906",
+        "title": "Khosrow III",
+        "source": "https://en.wikipedia.org/wiki/Khosrow_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Rival Shahanshah of the Sasanian Empire",
+            "raw": "630",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0630-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "Rival King of Kings of Iran and non-Iran",
+            "raw": "630",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0630-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Khosrow IV",
+        "title": "Khosrow IV",
+        "person": "Q887420",
+        "name": "Cosroes IV de Persia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khosrow_IV",
+        "identityResolution": {
+          "requested": "Khosrow IV",
+          "canonical": "Khosrow IV",
+          "qid": "Q887420"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q887420",
+        "title": "Khosrow IV",
+        "source": "https://en.wikipedia.org/wiki/Khosrow_IV",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Rival Shahanshah of the Sasanian Empire",
+            "raw": "632–642",
+            "parsed": {
+              "start": "0632-01-01",
+              "end": "0642-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Kings of Iran",
+            "raw": "632–642",
+            "parsed": {
+              "start": "0632-01-01",
+              "end": "0642-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Peroz II",
+        "title": "Peroz II",
+        "person": "Q5931071",
+        "name": "Peroz II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Peroz_II",
+        "identityResolution": {
+          "requested": "Peroz II",
+          "canonical": "Peroz II",
+          "qid": "Q5931071"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5931071",
+        "title": "Peroz II",
+        "source": "https://en.wikipedia.org/wiki/Peroz_II",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Great King (Shah) of Persia",
+            "raw": "630",
+            "parsed": {
+              "start": "0630-01-01",
+              "end": "0630-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shahrbaraz",
+        "title": "Shahrbaraz",
+        "person": "Q347447",
+        "name": "Sharvaraz",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shahrbaraz",
+        "identityResolution": {
+          "requested": "Shahrbaraz",
+          "canonical": "Shahrbaraz",
+          "qid": "Q347447"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28108903",
+          "start": "0630-04-27",
+          "end": "0630-06-09",
+          "precision": 11,
+          "statement": "Q347447$f15d9368-4a5d-04b4-0bf0-86ecbd152bb0",
+          "label": "rey del Imperio sasánida"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q347447",
+        "title": "Shahrbaraz",
+        "source": "https://en.wikipedia.org/wiki/Shahrbaraz",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Shahanshah of the Sasanian Empire",
+            "raw": "27 April 630 – 9 June 630",
+            "parsed": {
+              "start": "0630-04-27",
+              "end": "0630-06-09",
+              "precision": 11
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Kings of Iran and non-Iran",
+            "raw": "27 April 630 – 9 June 630",
+            "parsed": {
+              "start": "0630-04-27",
+              "end": "0630-06-09",
+              "precision": 11
+            }
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yazdegerd III",
+        "title": "Yazdegerd III",
+        "person": "Q208463",
+        "name": "Yazdgerd III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yazdegerd_III",
+        "identityResolution": {
+          "requested": "Yazdegerd III",
+          "canonical": "Yazdegerd III",
+          "qid": "Q208463"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28108903",
+          "start": "0632-06-16",
+          "end": "0651-01-01",
+          "precision": 9,
+          "statement": "Q208463$593f4cbe-3d8a-408c-9c66-869066708628",
+          "label": "rey del Imperio sasánida"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q208463",
+        "title": "Yazdegerd III",
+        "source": "https://en.wikipedia.org/wiki/Yazdegerd_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Shahanshah of the Sasanian Empire",
+            "raw": "16 June 632{{snd}}651",
+            "parsed": {
+              "start": "0632-06-16",
+              "end": "0651-12-31",
+              "precision": 9
+            }
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Kings of Iran and non-Iran",
+            "raw": "632–651",
+            "parsed": {
+              "start": "0632-01-01",
+              "end": "0651-12-31",
+              "precision": 9
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "officeResearch": {
+    "selected": 11,
+    "acquiredRetained": 0,
+    "documentaryLocalAuthorities": 0,
+    "evidence": [
+      {
+        "person": "Q212732",
+        "title": "Khosrow II",
+        "source": "https://en.wikipedia.org/wiki/Khosrow_II",
+        "selectionEvidence": {
+          "field": "reign2",
+          "office": "Shahanshah of the Sasanian Empire",
+          "raw": "591 – 25 February 628",
+          "parsed": {
+            "start": "0591-01-01",
+            "end": "0628-02-25",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q313629",
+        "title": "Ardashir III",
+        "source": "https://en.wikipedia.org/wiki/Ardashir_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Shahanshah of the Sasanian Empire",
+          "raw": "6 September 628{{snd}}27 April 630",
+          "parsed": {
+            "start": "0628-09-06",
+            "end": "0630-04-27",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q347447",
+        "title": "Shahrbaraz",
+        "source": "https://en.wikipedia.org/wiki/Shahrbaraz",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Shahanshah of the Sasanian Empire",
+          "raw": "27 April 630 – 9 June 630",
+          "parsed": {
+            "start": "0630-04-27",
+            "end": "0630-06-09",
+            "precision": 11
+          }
+        }
+      },
+      {
+        "person": "Q271300",
+        "title": "Boran",
+        "source": "https://en.wikipedia.org/wiki/Boran",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Queen of the Sasanian Empire",
+          "raw": "630",
+          "parsed": {
+            "start": "0630-01-01",
+            "end": "0630-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q271300",
+        "title": "Boran",
+        "source": "https://en.wikipedia.org/wiki/Boran",
+        "selectionEvidence": {
+          "field": "reign1",
+          "office": "Queen of the Sasanian Empire",
+          "raw": "June 631&nbsp;– June 632",
+          "parsed": {
+            "start": "0631-06-01",
+            "end": "0632-06-01",
+            "precision": 10
+          }
+        }
+      },
+      {
+        "person": "Q271282",
+        "title": "Azarmidokht",
+        "source": "https://en.wikipedia.org/wiki/Azarmidokht",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Queen of the Sasanian Empire",
+          "raw": "630–631",
+          "parsed": {
+            "start": "0630-01-01",
+            "end": "0631-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q888906",
+        "title": "Khosrow III",
+        "source": "https://en.wikipedia.org/wiki/Khosrow_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Rival Shahanshah of the Sasanian Empire",
+          "raw": "630",
+          "parsed": {
+            "start": "0630-01-01",
+            "end": "0630-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q730453",
+        "title": "Hormizd VI",
+        "source": "https://en.wikipedia.org/wiki/Hormizd_VI",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Shahanshah of the Sasanian Empire",
+          "raw": "630–632",
+          "parsed": {
+            "start": "0630-01-01",
+            "end": "0632-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q887420",
+        "title": "Khosrow IV",
+        "source": "https://en.wikipedia.org/wiki/Khosrow_IV",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Rival Shahanshah of the Sasanian Empire",
+          "raw": "632–642",
+          "parsed": {
+            "start": "0632-01-01",
+            "end": "0642-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q5931071",
+        "title": "Peroz II",
+        "source": "https://en.wikipedia.org/wiki/Peroz_II",
+        "selectionEvidence": {
+          "field": "succession-template",
+          "office": "Great King (Shah) of Persia",
+          "raw": "630",
+          "parsed": {
+            "start": "0630-01-01",
+            "end": "0630-12-31",
+            "precision": 9
+          }
+        }
+      },
+      {
+        "person": "Q208463",
+        "title": "Yazdegerd III",
+        "source": "https://en.wikipedia.org/wiki/Yazdegerd_III",
+        "selectionEvidence": {
+          "field": "reign",
+          "office": "Shahanshah of the Sasanian Empire",
+          "raw": "16 June 632{{snd}}651",
+          "parsed": {
+            "start": "0632-06-16",
+            "end": "0651-12-31",
+            "precision": 9
+          }
+        }
+      }
+    ],
+    "pending": [
+      {
+        "title": "Kavad II",
+        "person": "Q315873",
+        "reason": "Fechas de la dignidad prevista no resueltas; no inferidas de la biografía ni de otro cargo."
+      }
+    ]
+  },
+  "documentedAuthorities": [
+    {
+      "person": "Q315873",
+      "name": "Kawād II · Šērōe",
+      "role": "Rey de reyes sasánida",
+      "start": "0628-02-25",
+      "end": "0628-12-31",
+      "precision": 9,
+      "source": "https://www.iranicaonline.org/articles/kawad-ii/",
+      "note": "Reinado de meses en628. La muerte se sitúa en verano o septiembre según la fuente; el final anual es una cota de consulta, no un mandato hasta diciembre.",
+      "endIsUpperBound": true
+    }
+  ],
+  "symbolReview": {
+    "decision": "pending-documentary-insignia",
+    "note": "No retrotraer banderas nacionales, heráldica medieval posterior ni representaciones modernas al sigloVII.",
+    "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-600.md"
+  },
+  "places": [
+    {
+      "id": "seat034-5",
+      "name": "Ctesifonte · centro regio",
+      "coordinates": [
+        44.581,
+        33.094
+      ],
+      "start": 600,
+      "end": 636,
+      "capital": true,
+      "role": "Corte o centro histórico de referencia",
+      "source": "https://en.wikipedia.org/wiki/Ctesiphon",
+      "note": "Localización de referencia; no acredita capital exclusiva, residencia permanente, perímetro urbano ni dominio uniforme de cada año."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "review034-collapse",
+      "type": "institution",
+      "title": "Crisis y final del poder sasánida",
+      "start": "0628-01-01",
+      "end": "0652-01-01",
+      "text": "Los reinados breves, reinas y pretendientes de628–632 tienen cronologías discutidas. La muerte deYazdegerdIII en651 no implica la desaparición de las comunidades iranias ni fronteras árabes homogéneas instantáneas.",
+      "source": "https://www.iranicaonline.org/articles/kawad-ii/",
+      "sourceLabel": "Referencia documental · siglo VII",
+      "precision": 9,
+      "note": "Contexto parcial; cronología de fuente y localización no equivalen a control diario."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q212732",
+      "name": "Cosroes II",
+      "title": "KhosrauIIGoldCoinCroppedHistoryofIran.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:KhosrauIIGoldCoinCroppedHistoryofIran.jpg",
+      "sha256": "6e511e6359bb299ca9a0e275bc98f9d9703f6f7789efa4ff465f48d1850324dd",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Cosroes II; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q313629",
+      "name": "Ardacher III",
+      "title": "Dinar of Ardashir III Sasani obverse.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dinar_of_Ardashir_III_Sasani_obverse.jpg",
+      "sha256": "fb7607681b8db983d017e2a83f7fe57cdcefedf96770e8c0a7417c5209149ae1",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Ardacher III; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q347447",
+      "name": "Sharvaraz",
+      "title": "Shah Farain Guraz (detail). Folio 745v from the Shahnameh (Book of Kings) of Shah Tahmasp MET DP107188.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shah_Farain_Guraz_(detail)._Folio_745v_from_the_Shahnameh_(Book_of_Kings)_of_Shah_Tahmasp_MET_DP107188.jpg",
+      "sha256": "4c60d415cc73e3647a68909c1cfb9a764ba5f845dcbeb691a1f457eb4c98ec27",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Personaje delShahnameh con atribución individual pendiente; no adoptado automáticamente comoShahrbaraz."
+    },
+    {
+      "person": "Q271300",
+      "name": "Boran",
+      "title": "Gold coin of Boran, daughter of Khusrau II.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gold_coin_of_Boran,_daughter_of_Khusrau_II.jpg",
+      "sha256": "e921af8a79c848931cd8fee606226dd9b8c558ff4219aab25dbaa465b5267da4",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario atribuido aBōrān y adaptado como colgante; la efigie no acredita su apariencia personal."
+    },
+    {
+      "person": "Q271282",
+      "name": "Azarmedukht I de Irán",
+      "title": "AzarmidokhtCoinHistoryofIran.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:AzarmidokhtCoinHistoryofIran.jpg",
+      "sha256": "9ec8abbdf556974c1c9810fb618a0dad2e7d62a992f5f0f1f5258b555f86745f",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "La moneda atribuida aAzarmidokht porta efigie masculina; no es retrato acreditado de la reina. ContrasteIranica/UC Irvine."
+    },
+    {
+      "person": "Q888906",
+      "name": "Cosroes III de Persia",
+      "title": "Khusrau iii.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Khusrau_iii.jpg",
+      "sha256": "638c808396c91446c03deb85c1c36e2a2f46ea5fc66a0bc08acedc2d8a5b7542",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Moneda atribuida al pretendienteCosroesIII, de cronología discutida; tipo convencional, no apariencia personal acreditada."
+    },
+    {
+      "person": "Q730453",
+      "name": "Hormizd VI",
+      "title": "Hormizd v.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hormizd_v.jpg",
+      "sha256": "d14f0b0325258760fb453e6025562621505a40b30b7fa2239e69a689f278e006",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "NúmeroHormizdV en el archivo yVI en la autoridad; atribución individual no resuelta."
+    },
+    {
+      "person": "Q887420",
+      "name": "Cosroes IV de Persia",
+      "title": "KhosrauIVCoinHistoryofIran.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:KhosrauIVCoinHistoryofIran.jpg",
+      "sha256": "4f2f8057d65f88cc2f13c74aa71229cd32832dcf143512ae77d1ccd1d3de1d12",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "Tipo numismático y atribución al pretendienteCosroesIV insuficientemente contrastados."
+    },
+    {
+      "person": "Q5931071",
+      "name": "Peroz II",
+      "title": "Dinar of Peroz II LACMA M.77.56.22 (2 of 2).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dinar_of_Peroz_II_LACMA_M.77.56.22_(2_of_2).jpg",
+      "sha256": "c598d3bb6f299787e4890b70ddb9231576e19e2aa7ed56b58120007ad656c787",
+      "decision": "rejected",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "reason": "La piezaLACMA M.77.56.22 data de325–330 y corresponde aotroPerozII, no al pretendiente sasánida del sigloVII. https://collections.lacma.org/object/30751"
+    },
+    {
+      "person": "Q208463",
+      "name": "Yazdgerd III",
+      "title": "Coin of the Sasanian king Yazdegerd III, 651 mint (Cropped).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Sasanian_king_Yazdegerd_III,_651_mint_(Cropped).jpg",
+      "sha256": "9b05744315eb0d02b95305ecdbf4b04f348053f9264dfea1dcd3cd5dce6fcfc8",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Yazdgerd III; no retrato del natural acreditado."
+    },
+    {
+      "person": "Q315873",
+      "name": "Kawād II · Šērōe",
+      "title": "Coin of the Sasanian king Kavad II (cropped), minted at Susa in 628.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Sasanian_king_Kavad_II_(cropped),_minted_at_Susa_in_628.jpg",
+      "sha256": "ff768c937136f3a0718846ad76242bd785ebf7624ba7e3e03a16f837395af83e",
+      "decision": "accepted",
+      "reviewDate": "2026-10-28",
+      "method": "Inspección visual de la imagen completa y contraste de la identificación; no adopción automática de P18.",
+      "caption": "Tipo monetario convencional atribuido a Kawād II · Šērōe; no retrato del natural acreditado."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q347447",
+      "title": "Shah Farain Guraz (detail). Folio 745v from the Shahnameh (Book of Kings) of Shah Tahmasp MET DP107188.jpg",
+      "reason": "Personaje delShahnameh con atribución individual pendiente; no adoptado automáticamente comoShahrbaraz.",
+      "source": "https://commons.wikimedia.org/wiki/File:Shah_Farain_Guraz_(detail)._Folio_745v_from_the_Shahnameh_(Book_of_Kings)_of_Shah_Tahmasp_MET_DP107188.jpg"
+    },
+    {
+      "person": "Q271282",
+      "title": "AzarmidokhtCoinHistoryofIran.jpg",
+      "reason": "La moneda atribuida aAzarmidokht porta efigie masculina; no es retrato acreditado de la reina. ContrasteIranica/UC Irvine.",
+      "source": "https://commons.wikimedia.org/wiki/File:AzarmidokhtCoinHistoryofIran.jpg"
+    },
+    {
+      "person": "Q730453",
+      "title": "Hormizd v.jpg",
+      "reason": "NúmeroHormizdV en el archivo yVI en la autoridad; atribución individual no resuelta.",
+      "source": "https://commons.wikimedia.org/wiki/File:Hormizd_v.jpg"
+    },
+    {
+      "person": "Q887420",
+      "title": "KhosrauIVCoinHistoryofIran.jpg",
+      "reason": "Tipo numismático y atribución al pretendienteCosroesIV insuficientemente contrastados.",
+      "source": "https://commons.wikimedia.org/wiki/File:KhosrauIVCoinHistoryofIran.jpg"
+    },
+    {
+      "person": "Q5931071",
+      "title": "Dinar of Peroz II LACMA M.77.56.22 (2 of 2).jpg",
+      "reason": "La piezaLACMA M.77.56.22 data de325–330 y corresponde aotroPerozII, no al pretendiente sasánida del sigloVII. https://collections.lacma.org/object/30751",
+      "source": "https://commons.wikimedia.org/wiki/File:Dinar_of_Peroz_II_LACMA_M.77.56.22_(2_of_2).jpg"
+    }
+  ]
+}

@@ -30,4 +30,9 @@ class OfficeInfoboxTests(unittest.TestCase):
  def test_shared_year_and_spaced_dash_in_an_explicit_reign(self):
   r=m.extract('{{Infobox royalty|succession=Emperor|reign=8 July – 25 July 710}}');self.assertEqual(r[0]['parsed']['start'],'0710-07-08')
   r=m.extract('{{Infobox royalty|succession=King|reign={{circa}} 664{{spaced ndash}}713}}');self.assertEqual(r[0]['parsed']['end'],'0713-12-31')
+ def test_dotted_era_markers_are_office_dates(self):
+  r=m.extract('{{Infobox royalty|succession=King of Goguryeo|reign=September 618 – October 642 A.D.}}');self.assertEqual(r[0]['parsed']['start'],'0618-09-01')
+  r=m.extract('{{Infobox royalty|succession=King|reign=593 – 636 C.E}}');self.assertEqual(r[0]['parsed']['end'],'0636-12-31')
+ def test_worded_reign_range_stays_separate_from_personal_dates(self):
+  r=m.extract('{{Infobox royalty|succession=Ruler of Bulgars|reign=667 to 690 CE|birth_date=620|death_date=692}}');self.assertEqual(r[0]['parsed']['start'],'0667-01-01');self.assertEqual(r[0]['parsed']['end'],'0690-12-31')
 if __name__=='__main__':unittest.main()

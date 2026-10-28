@@ -1,0 +1,113 @@
+{
+  "key": "HIST-Q28370",
+  "name": "Goguryeo",
+  "qid": "Q28370",
+  "aliases": [
+    "Goguryeo"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q28370"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q498927",
+      "name": "Yeongyang of Goguryeo",
+      "role": "Rey de Goguryeo",
+      "start": "0600-01-01",
+      "end": "0618-09-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Yeongyang_of_Goguryeo",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q498952",
+      "name": "Yeongnyu of Goguryeo",
+      "role": "Rey de Goguryeo",
+      "start": "0618-09-01",
+      "end": "0642-10-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Yeongnyu_of_Goguryeo",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    },
+    {
+      "person": "Q498974",
+      "name": "Bojang of Goguryeo",
+      "role": "Rey de Goguryeo",
+      "start": "0642-10-01",
+      "end": "0668-09-01",
+      "precision": 10,
+      "source": "https://en.wikipedia.org/wiki/Bojang_of_Goguryeo",
+      "note": "Dignidad regia documentada por el campo de reinado/cargo, nunca por fechas de vida. c./circa/about y las variantes cronológicas conservan carácter aproximado; la precisión anual no equivale a día exacto ni dominio uniforme. Calendarios no convertidos automáticamente.",
+      "curated": true,
+      "acquisition": "century-600-0.34"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2092",
+      "start": 600,
+      "end": 611,
+      "name": "Goguryeo",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2236",
+      "start": 612,
+      "end": 616,
+      "name": "Goguryeo",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2273",
+      "start": 617,
+      "end": 632,
+      "name": "Goguryeo",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2360",
+      "start": 633,
+      "end": 633,
+      "name": "Goguryeo",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2388",
+      "start": 634,
+      "end": 673,
+      "name": "Goguryeo",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-600.geojson",
+      "recordId": "clio-2579",
+      "start": 674,
+      "end": 681,
+      "name": "Goguryeo",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
