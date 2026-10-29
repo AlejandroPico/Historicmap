@@ -1,8 +1,9 @@
 {
   "key": "HIST-Q165198",
-  "name": "Cyrenaica",
+  "name": "Cirenaica · ciudades, gobiernos y dependencias",
   "qid": "Q165198",
   "aliases": [
+    "Cirenaica · ciudades, gobiernos y dependencias",
     "Cyrenaica"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
@@ -77,23 +78,103 @@
       ],
       "curated": true,
       "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "documented044-hist-q165198-arcesilaus-ii-of-cyrene-560-4b2bb478",
+      "name": "Arcesilaus II of Cyrene",
+      "role": "Rey de Cirene · dinastía batíada",
+      "start": "-0560-01-01",
+      "end": "-0550-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -560,
+        -550
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "documented044-hist-q165198-battus-iii-of-cyrene-550-11bd694e",
+      "name": "Battus III of Cyrene",
+      "role": "Rey de Cirene · dinastía batíada",
+      "start": "-0550-01-01",
+      "end": "-0530-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -550,
+        -530
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "documented044-hist-q165198-arcesilaus-iii-of-cyrene-530-1f2ab4ff",
+      "name": "Arcesilaus III of Cyrene",
+      "role": "Rey de Cirene · dinastía batíada",
+      "start": "-0530-01-01",
+      "end": "-0515-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -530,
+        -515
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "Q811036",
+      "name": "Bato IV de Cirene",
+      "role": "Rey de Cirene · dinastía batíada",
+      "start": "-0515-01-01",
+      "end": "-0465-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Battus_IV_of_Cyrene",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -515,
+        -465
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "documented044-hist-q165198-arcesilaus-iv-of-cyrene-465-0061228c",
+      "name": "Arcesilaus IV of Cyrene",
+      "role": "Rey de Cirene · dinastía batíada",
+      "start": "-0465-01-01",
+      "end": "-0440-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -465,
+        -440
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
     }
   ],
   "portraitVariants": [],
   "territorialRecords": [
     {
-      "file": "world_1800.geojson",
-      "recordId": 39,
-      "start": null,
-      "end": null,
-      "name": "Cyrenaica",
-      "status": null
-    },
-    {
       "file": "early-modern-bc100.geojson",
       "recordId": "clio-937",
       "start": -100,
       "end": -92,
+      "name": "Cyrenaica",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-474",
+      "start": -331,
+      "end": -301,
       "name": "Cyrenaica",
       "status": "Entidad histórica · reconstrucción anual"
     }

@@ -1,0 +1,43 @@
+{
+  "key": "EGYPT-28TH-DYNASTY",
+  "name": "Egipto · dinastía XXVIII",
+  "qid": "",
+  "aliases": [
+    "Egipto · dinastía XXVIII"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "EGYPT-28TH-DYNASTY"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q318000",
+      "name": "Amirteo",
+      "role": "Faraón · dinastía XXVIII",
+      "start": "-0404-01-01",
+      "end": "-0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Amyrtaeus",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -404,
+        -399
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,88 @@
+{
+  "key": "REFERENCE-EL-PARAISO-LEGACY-YBC0500-R044",
+  "contextKey": "REFERENCE-EL-PARAISO-LEGACY",
+  "ownerKey": "REFERENCE-EL-PARAISO-LEGACY",
+  "name": "Costa central andina · contexto histórico de El Paraíso",
+  "originalNames": [
+    "El Paraiso"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de500a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -500,
+    99
+  ],
+  "interpretation": "El centro monumental es muy anterior a estos siglos; no se prolonga su apogeo hasta600 ni se inventa una dinastía.",
+  "spatialUncertainty": "Contorno original de compilación mundial, resolución desigual y contraste regional pendiente; no frontera política anual.",
+  "temporalUncertainty": "No existe snapshot600 en esta fuente. El ámbito700 se consulta como referencia histórica entre600–501, sin certificar permanencia. Las referencias500/400 no equivalen a observaciones de cada año.",
+  "references": [
+    {
+      "title": "Historical Basemaps500a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -77.22126,
+    -10.22479
+  ],
+  "phases": [
+    {
+      "start": -500,
+      "end": -401,
+      "label": "Costa central andina · contexto histórico de El Paraíso",
+      "dateBasis": "Contorno de500a.C.; consulta de referencia, sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -1500
+    },
+    {
+      "start": -400,
+      "end": -301,
+      "label": "Costa central andina · contexto histórico de El Paraíso",
+      "dateBasis": "Consulta del ámbito histórico anterior hasta la siguiente referencia; no nueva observación poblacional.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -500,
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -300,
+      "end": 99,
+      "label": "Costa central andina · contexto histórico de El Paraíso",
+      "dateBasis": "Consulta del ámbito histórico anterior, sin nueva observación de habitantes o fronteras.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -500,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-EL-PARAISO-LEGACY-YBC0500-R044.geojson",
+  "geometrySha256": "7f931343418b8aad672c47d49b1cea9631e533cd2b2a53f56246e7167d32eebd",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc500.geojson",
+    "year": -500,
+    "featureIds": [
+      42
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "f72bc06ca45a9f680f20ef6007aaccd13a929cd1b632bd0fb41f161cb51ba3f6"
+  },
+  "review": "0.44.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación locales. El final de consulta no demuestra desaparición."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "El Paraiso",
+      "ABBREVN": "El Paraiso",
+      "SUBJECTO": "El Paraiso",
+      "BORDERPRECISION": 1,
+      "PARTOF": "El Paraiso"
+    }
+  ],
+  "sourceGrouping": [
+    "El Paraiso"
+  ]
+}

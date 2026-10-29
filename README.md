@@ -2,17 +2,17 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.43.0** · 29 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.44.0** · 29 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
-Revisión vigente: **pueblos y regiones de300a.C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-bc300-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
+Revisión vigente: **pueblos y regiones de600a.C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-bc600-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
 
-Ampliación300–201a.C., manteniendo la continuidad1a.C./1d.C. sin año cero: [geografía, autoridades, culturas y límites de revisión](docs/RESEARCH-bc300.md). Las fases posteriores se conservan. Cartografía política y áreas culturales se activan por separado en Capas y Filtros, con ambos controles activados al iniciar. Las monedas tienen un encuadre revisado y las representaciones mantienen sus atribuciones y fechas.
+Ampliación600–301a.C., manteniendo la continuidad1a.C./1d.C. sin año cero: [geografía, autoridades, culturas y límites de revisión](docs/RESEARCH-bc600.md). Las fases posteriores se conservan. Cartografía política y áreas culturales se activan por separado en Capas y Filtros, con ambos controles activados al iniciar. Las monedas tienen un encuadre revisado y las representaciones mantienen sus atribuciones y fechas.
 
-[Validación y conservación de la entrega 0.43.0](docs/DELIVERY-0.43.0.md): 323 pruebas generales y seis recorridos únicos de navegador correctos; fuentes y límites documentados. La publicación en Pages queda pendiente de la comprobación del propietario.
+[Validación y conservación de la entrega 0.44.0](docs/DELIVERY-0.44.0.md): ampliación de tres siglos, fuentes y límites documentados. La publicación en Pages queda pendiente de la comprobación del propietario.
 
 ## Empezar
 
@@ -63,13 +63,13 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-GitHub Actions valida datos, pruebas temporales/históricas/estadísticas, compilación y recorridos de navegador: años 1789–actualidad, reproducción y pausa, peticiones lentas, fichas, ciudades, economía, cartografía anterior/geológica, zoom y móvil. Compila una vez y distribuye los114 recorridos entre cuatro máquinas independientes. `Publish atlas` reutiliza el resultado exacto validado, tras `Quality` correcto en `main`, comprobando su revisión. [Funcionamiento y límites de publicación](docs/CI-PUBLICATION.md). No contiene secretos ni necesita un servidor propio. Las versiones exactas de dependencias figuran en `package-lock.json`.
+GitHub Actions valida datos, pruebas temporales/históricas/estadísticas, compilación y recorridos de navegador: años 1789–actualidad, reproducción y pausa, peticiones lentas, fichas, ciudades, economía, cartografía anterior/geológica, zoom y móvil. Compila una vez y distribuye los123 recorridos entre cuatro máquinas independientes. `Publish atlas` reutiliza el resultado exacto validado, tras `Quality` correcto en `main`, comprobando su revisión. [Funcionamiento y límites de publicación](docs/CI-PUBLICATION.md). No contiene secretos ni necesita un servidor propio. Las versiones exactas de dependencias figuran en `package-lock.json`.
 
 ## Datos y continuidad
 
 Consultar **[agentes.md](agentes.md)** antes de modificar el proyecto. Contiene la visión completa, decisiones, arquitectura, roadmap, reglas de colaboración y estado real. [AGENTS.md](AGENTS.md) es el punto de entrada para asistentes que detectan ese nombre automáticamente.
 
-Las fuentes, licencias, atribuciones y límites se documentan en [docs/SOURCES.md](docs/SOURCES.md). `public/data/manifest.json` registra124 recursos locales, versiones, URLs, transformaciones y SHA-256. `npm run data:fetch` actualiza explícitamente las 26 instantáneas originales, conservando las nuevas capas. La adquisición y reconstrucción de las capas recientes se explica en SOURCES. No se descargan datos nuevos durante la compilación ni desde las fichas.
+Las fuentes, licencias, atribuciones y límites se documentan en [docs/SOURCES.md](docs/SOURCES.md). `public/data/manifest.json` registra135 recursos locales, versiones, URLs, transformaciones y SHA-256. `npm run data:fetch` actualiza explícitamente las 26 instantáneas originales, conservando las nuevas capas. La adquisición y reconstrucción de las capas recientes se explica en SOURCES. No se descargan datos nuevos durante la compilación ni desde las fichas.
 
 La cartografía funciona sin API key. Las geometrías, perfiles, series y letras del mapa utilizadas son locales. El relieve (AWS) y las fuentes tipográficas de interfaz (Google Fonts) requieren conexión. La aplicación no envía búsquedas a servicios externos ni incorpora analítica. No está implementada como aplicación instalable o completamente offline.
 
@@ -104,3 +104,5 @@ Las correcciones históricas nuevas se mantienen dentro de la carpeta de cada en
 Actualización0.38.0: consulta anual200–299 con culturas, crisis romana, Tres Reinos y poder sasánida. Continuidad cromática romana399/400, intervenciones en Afganistán e Irak diferenciadas y marcas de50años desde el año1; saltos manuales anuales. [Fuentes, alcance y pendientes](docs/RESEARCH-200.md).
 
 Actualización0.39.0: consulta anual100–199 con política y culturas; sucesiones romanas, corte Han, reyes partos y cronologías kushanes. Centros dacios, nabateos y de Bar Kojba, imágenes revisadas y fechas tempranas corregidas. [Fuentes y carencias](docs/RESEARCH-100.md).
+
+Cierre0.44.0. ÍndiceGit final: 1034 archivos nuevos/modificados cotejados con sus bytes locales; 9206 recursos de manifiestos verificados porSHA-256 yblobGit (9129 blobs de recursos anteriores sin cambios); 1229 originales canónicos de símbolos/representaciones comprobados directamente en el índice. Los cuatro documentos de cierre se cotejan otra vez después de incorporar estas cifras. No se espera ni sondea Actions/Pages.

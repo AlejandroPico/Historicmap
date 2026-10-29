@@ -3,7 +3,8 @@
   "name": "Imperio seléucida · poderes rivales",
   "qid": "",
   "aliases": [
-    "Imperio seléucida · poderes rivales"
+    "Imperio seléucida · poderes rivales",
+    "Seleucid Empire"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -930,10 +931,100 @@
       ],
       "curated": true,
       "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q184176",
+      "name": "Seleuco I Nicátor",
+      "role": "Sátrapa y autoridad seléucida · antes del título real",
+      "start": "-0312-01-01",
+      "end": "-0306-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Seleucus_I_Nicator",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -312,
+        -306
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44",
+      "portrait": {
+        "file": "media/portrait-80740469407610b93e9e.jpg",
+        "title": "Seleuco I Nicatore.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Seleuco_I_Nicatore.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Seleuco_I_Nicatore.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 2.0 it",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/it/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "9dfd1f654d77c089e3a7edf53e30383d84630b1cb3e390aeea57fe221cbbcdf8",
+        "bytes": 830442,
+        "caption": "Busto tradicionalmente atribuido a SeleucoI; identificación artística con incertidumbre.",
+        "canonicalFile": "Países/SELEUCID-EMPIRE-Imperio-seleucida-poderes-rivales/retratos/portrait-80740469407610b93e9e.jpg"
+      }
+    },
+    {
+      "person": "Q184176",
+      "name": "Seleuco I Nicátor",
+      "role": "Rey seléucida",
+      "start": "-0305-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Seleucus_I_Nicator",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -305,
+        -281
+      ],
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "period-bc600-0.44",
+      "portrait": {
+        "file": "media/portrait-80740469407610b93e9e.jpg",
+        "title": "Seleuco I Nicatore.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Seleuco_I_Nicatore.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Seleuco_I_Nicatore.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 2.0 it",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/it/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "9dfd1f654d77c089e3a7edf53e30383d84630b1cb3e390aeea57fe221cbbcdf8",
+        "bytes": 830442,
+        "caption": "Busto tradicionalmente atribuido a SeleucoI; identificación artística con incertidumbre.",
+        "canonicalFile": "Países/SELEUCID-EMPIRE-Imperio-seleucida-poderes-rivales/retratos/portrait-80740469407610b93e9e.jpg"
+      }
     }
   ],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-500",
+      "start": -318,
+      "end": -316,
+      "name": "Seleucid Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-523",
+      "start": -307,
+      "end": -302,
+      "name": "Seleucid Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-525",
+      "start": -301,
+      "end": -301,
+      "name": "Seleucid Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
   "culturalReviews": [
     {
       "key": "CULTURE-SELEUCID-KINGDOM-A52221B0-YBC0100",

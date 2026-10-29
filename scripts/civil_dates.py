@@ -15,5 +15,7 @@ def period_name(start,end):
     return f'bc{abs(start):04d}-bc{abs(end):04d}' if start<0 else f'{start:04d}-{end:04d}'
 
 def check_window(start,end):
-    if start>end or end>start+99:raise ValueError('Invalid historical window')
+    # Explicit research batches may span up to three centuries; civil dates
+    # and single-era constraints still apply to every record in the batch.
+    if start>end or end>start+299:raise ValueError('Invalid historical window')
     period_name(start,end)

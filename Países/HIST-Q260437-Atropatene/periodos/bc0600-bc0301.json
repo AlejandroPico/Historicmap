@@ -1,0 +1,120 @@
+{
+  "key": "HIST-Q260437",
+  "identity": {
+    "qid": "Q260437",
+    "name": "Atropatene"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Sátrapa y dinasta de Media Atropatene",
+      "titles": [
+        "Atropates"
+      ],
+      "documentedWindow": [
+        -323,
+        -300
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q29455",
+      "name": "Atropates",
+      "role": "Sátrapa y dinasta de Media Atropatene",
+      "start": "-0323-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Atropates",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -323,
+        -300
+      ],
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Atropatene"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Atropatene",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "36546c3635fec6d79e5f052c328d22a8bd5eeb5a140f401c4528a346b6e39518",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        521,
+        526
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Atropates",
+        "title": "Atropates",
+        "person": "Q29455",
+        "name": "Atropates",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Atropates",
+        "identityResolution": {
+          "requested": "Atropates",
+          "canonical": "Atropates",
+          "qid": "Q29455"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q29455",
+        "title": "Atropates",
+        "source": "https://en.wikipedia.org/wiki/Atropates",
+        "reignFields": []
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": []
+}

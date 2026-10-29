@@ -1,0 +1,53 @@
+{
+  "key": "LAOMEDON-SYRIAN-SATRAPY",
+  "name": "Satrapía de Siria · Laomedonte",
+  "qid": "",
+  "aliases": [
+    "Laomedon",
+    "Satrapía de Siria · Laomedonte"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "LAOMEDON-SYRIAN-SATRAPY"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "documented044-laomedon-syrian-satrapy-laomedon-of-mytilene-323-b0e70abe",
+      "name": "Laomedon of Mytilene",
+      "role": "Sátrapa de Siria",
+      "start": "-0323-01-01",
+      "end": "-0320-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -323,
+        -320
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-487",
+      "start": -323,
+      "end": -319,
+      "name": "Laomedon",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

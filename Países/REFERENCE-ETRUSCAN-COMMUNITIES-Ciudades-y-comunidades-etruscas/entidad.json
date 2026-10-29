@@ -1,0 +1,62 @@
+{
+  "key": "REFERENCE-ETRUSCAN-COMMUNITIES",
+  "name": "Ciudades y comunidades etruscas",
+  "qid": "",
+  "aliases": [
+    "Ciudades y comunidades etruscas",
+    "Etrurians"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 103,
+      "start": null,
+      "end": null,
+      "name": "Etrurians",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-ETRUSCAN-COMMUNITIES-YBC0400-R044:0",
+      "contextKey": "REFERENCE-ETRUSCAN-COMMUNITIES",
+      "start": -400,
+      "end": -301,
+      "sourceYear": -400,
+      "canonicalFile": "Países/REFERENCE-ETRUSCAN-COMMUNITIES-Ciudades-y-comunidades-etruscas/poblamiento/REFERENCE-ETRUSCAN-COMMUNITIES-YBC0400-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-ETRUSCAN-COMMUNITIES-YBC0400-R044:1",
+      "contextKey": "REFERENCE-ETRUSCAN-COMMUNITIES",
+      "start": -300,
+      "end": 99,
+      "sourceYear": -400,
+      "canonicalFile": "Países/REFERENCE-ETRUSCAN-COMMUNITIES-Ciudades-y-comunidades-etruscas/poblamiento/REFERENCE-ETRUSCAN-COMMUNITIES-YBC0400-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-ETRUSCAN-COMMUNITIES-YBC0500-R044:0",
+      "contextKey": "REFERENCE-ETRUSCAN-COMMUNITIES",
+      "start": -500,
+      "end": -401,
+      "sourceYear": -500,
+      "canonicalFile": "Países/REFERENCE-ETRUSCAN-COMMUNITIES-Ciudades-y-comunidades-etruscas/poblamiento/REFERENCE-ETRUSCAN-COMMUNITIES-YBC0500-R044.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

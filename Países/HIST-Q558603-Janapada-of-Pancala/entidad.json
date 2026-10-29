@@ -1,0 +1,52 @@
+{
+  "key": "HIST-Q558603",
+  "name": "Janapada of Pañcāla",
+  "qid": "Q558603",
+  "aliases": [
+    "Janapada of Pañcāla"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q558603"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-248",
+      "start": -600,
+      "end": -451,
+      "name": "Janapada of Pañcāla",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-335",
+      "start": -450,
+      "end": -405,
+      "name": "Janapada of Pañcāla",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-PANCALA-07FA9C33-YBC0500-R044",
+      "ownerKey": "HIST-Q558603",
+      "name": "Pancala",
+      "file": "Países/HIST-Q558603-Janapada-of-Pancala/poblamiento/CULTURE-PANCALA-07FA9C33-YBC0500-R044.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

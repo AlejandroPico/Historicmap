@@ -1,0 +1,85 @@
+{
+  "key": "HIST-Q756854",
+  "name": "Janapada of Kosala",
+  "qid": "Q756854",
+  "aliases": [
+    "Janapada of Kosala"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q756854"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q3055324",
+      "name": "Pasenadi",
+      "role": "Rey de Kosala · cronología tradicional",
+      "start": "-0560-01-01",
+      "end": "-0491-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pasenadi",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -560,
+        -491
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "Q3267648",
+      "name": "Virudhaka",
+      "role": "Rey de Kosala · cronología tradicional",
+      "start": "-0491-01-01",
+      "end": "-0485-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vi%E1%B8%8D%C5%AB%E1%B8%8Dabha",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -491,
+        -485
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-244",
+      "start": -600,
+      "end": -481,
+      "name": "Janapada of Kosala",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-309",
+      "start": -480,
+      "end": -451,
+      "name": "Janapada of Kosala",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-KOSALA-C4E529CB-YBC0500-R044",
+      "ownerKey": "HIST-Q756854",
+      "name": "Kosala",
+      "file": "Países/HIST-Q756854-Janapada-of-Kosala/poblamiento/CULTURE-KOSALA-C4E529CB-YBC0500-R044.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

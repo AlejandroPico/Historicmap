@@ -1,0 +1,399 @@
+{
+  "key": "HIST-Q972165",
+  "identity": {
+    "qid": "Q972165",
+    "name": "Magadha - Shaishunaga dynasty"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Rey de Magadha · secuencia shaishunaga discutida",
+      "titles": [
+        "Shishunaga"
+      ],
+      "documentedWindow": [
+        -413,
+        -395
+      ]
+    },
+    {
+      "role": "Rey de Magadha · secuencia shaishunaga discutida",
+      "titles": [
+        "Kalashoka"
+      ],
+      "documentedWindow": [
+        -395,
+        -367
+      ]
+    },
+    {
+      "role": "Rey de Magadha · secuencia shaishunaga discutida",
+      "titles": [
+        "Nandivardhana"
+      ],
+      "documentedWindow": [
+        -367,
+        -355
+      ]
+    },
+    {
+      "role": "Rey de Magadha · secuencia shaishunaga discutida",
+      "titles": [
+        "Mahanandin"
+      ],
+      "documentedWindow": [
+        -355,
+        -345
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3632946",
+      "name": "Shishunaga",
+      "role": "Rey de Magadha · secuencia shaishunaga discutida",
+      "start": "-0413-01-01",
+      "end": "-0395-12-31",
+      "precision": 9,
+      "source": "https://brill.com/display/book/9789004194588/9789004194588_webready_content_text.pdf",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo. Las cronologías dependen de tradiciones budistas, jainas y puránicas y de la datación del Buddha. Se adopta una secuencia convencional, sin certificar cada fecha ni mezclar variantes.",
+      "documentedInterval": [
+        -413,
+        -395
+      ]
+    },
+    {
+      "person": "Q10313627",
+      "name": "Kakavarna Kalashoka",
+      "role": "Rey de Magadha · secuencia shaishunaga discutida",
+      "start": "-0395-01-01",
+      "end": "-0367-12-31",
+      "precision": 9,
+      "source": "https://brill.com/display/book/9789004194588/9789004194588_webready_content_text.pdf",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo. Las cronologías dependen de tradiciones budistas, jainas y puránicas y de la datación del Buddha. Se adopta una secuencia convencional, sin certificar cada fecha ni mezclar variantes.",
+      "documentedInterval": [
+        -395,
+        -367
+      ]
+    },
+    {
+      "person": "documented044-hist-q972165-nandivardhana-367-62789708",
+      "name": "Nandivardhana",
+      "role": "Rey de Magadha · secuencia shaishunaga discutida",
+      "start": "-0367-01-01",
+      "end": "-0355-12-31",
+      "precision": 9,
+      "source": "https://brill.com/display/book/9789004194588/9789004194588_webready_content_text.pdf",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo. Las cronologías dependen de tradiciones budistas, jainas y puránicas y de la datación del Buddha. Se adopta una secuencia convencional, sin certificar cada fecha ni mezclar variantes.",
+      "documentedInterval": [
+        -367,
+        -355
+      ]
+    },
+    {
+      "person": "Q6733116",
+      "name": "Mahanandin",
+      "role": "Rey de Magadha · secuencia shaishunaga discutida",
+      "start": "-0355-01-01",
+      "end": "-0345-12-31",
+      "precision": 9,
+      "source": "https://brill.com/display/book/9789004194588/9789004194588_webready_content_text.pdf",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo. Las cronologías dependen de tradiciones budistas, jainas y puránicas y de la datación del Buddha. Se adopta una secuencia convencional, sin certificar cada fecha ni mezclar variantes.",
+      "documentedInterval": [
+        -355,
+        -345
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-27",
+      "name": "Pataliputra",
+      "coordinates": [
+        85.138,
+        25.612
+      ],
+      "start": -413,
+      "end": -346,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Janapada of Magadha"
+        ],
+        "start": -413,
+        "end": -346,
+        "label": "Magadha · dinastía Shaishunaga",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Magadha - Haryanka dynasty"
+        ],
+        "start": -413,
+        "end": -346,
+        "label": "Magadha · dinastía Shaishunaga",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Magadha - Shaishunaga dynasty"
+        ],
+        "start": -413,
+        "end": -346,
+        "label": "Magadha · dinastía Shaishunaga",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Nanda Empire"
+        ],
+        "start": -413,
+        "end": -346,
+        "label": "Magadha · dinastía Shaishunaga",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "8b75f7fda388ecc3bdcbcbfe6909571c51d988ddc5d8abc7750d1b95c36c7b10",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        362,
+        430,
+        451
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Kalashoka",
+        "title": "Kalashoka",
+        "person": "Q10313627",
+        "name": "Kakavarna Kalashoka",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Kalashoka",
+        "identityResolution": {
+          "requested": "Kalashoka",
+          "canonical": "Kalashoka",
+          "qid": "Q10313627"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "-0395-01-01",
+          "end": "-0367-01-01",
+          "precision": 9,
+          "statement": "Q10313627$08991163-44cf-e48e-6a20-8e2c5167799b",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q10313627",
+        "title": "Kalashoka",
+        "source": "https://en.wikipedia.org/wiki/Kalashoka",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Magadha",
+            "raw": "{{circa|395|367 BCE}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mahanandin",
+        "title": "Mahanandin",
+        "person": "Q6733116",
+        "name": "Mahanandin",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mahanandin",
+        "identityResolution": {
+          "requested": "Mahanandin",
+          "canonical": "Mahanandin",
+          "qid": "Q6733116"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "-0367-01-01",
+          "end": "-0345-01-01",
+          "precision": 9,
+          "statement": "Q6733116$acc8e514-4211-5e7b-1409-deb47a274570",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6733116",
+        "title": "Mahanandin",
+        "source": "https://en.wikipedia.org/wiki/Mahanandin",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Magadha",
+            "raw": "{{circa|355 - 345 BCE}}{{citation needed|date=March 2018}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Nandivardhana",
+        "title": "Nandivardhana",
+        "person": "Q972165",
+        "name": "Dinastía sísunaga",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Shaishunaga_dynasty",
+        "identityResolution": {
+          "requested": "Nandivardhana",
+          "canonical": "Shaishunaga dynasty",
+          "qid": "Q972165"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shishunaga",
+        "title": "Shishunaga",
+        "person": "Q3632946",
+        "name": "Shishunaga",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shishunaga",
+        "identityResolution": {
+          "requested": "Shishunaga",
+          "canonical": "Shishunaga",
+          "qid": "Q3632946"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "-0413-01-01",
+          "end": "-0395-01-01",
+          "precision": 9,
+          "statement": "Q3632946$c84c604d-474e-0a35-ced0-5bacee5abab1",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3632946",
+        "title": "Shishunaga",
+        "source": "https://en.wikipedia.org/wiki/Shishunaga",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Magadha",
+            "raw": "{{circa|413|395 BCE}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "candidate": {
+        "requestedTitle": "Nandivardhana",
+        "title": "Nandivardhana",
+        "person": "Q972165",
+        "name": "Dinastía sísunaga",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Shaishunaga_dynasty",
+        "identityResolution": {
+          "requested": "Nandivardhana",
+          "canonical": "Shaishunaga dynasty",
+          "qid": "Q972165"
+        }
+      },
+      "title": "Nandivardhana",
+      "documentedWindow": [
+        -367,
+        -355
+      ],
+      "reason": "Candidato sin identidad humana individual corroborada. Registro documental local; no transferir fotos de disambiguaciones, dinastías o personas homónimas."
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": []
+}

@@ -1,0 +1,402 @@
+{
+  "key": "THEBES-CLASSICAL",
+  "identity": {
+    "qid": "",
+    "name": "Tebas de Beocia · instituciones cívicas"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Beotarca y mando tebano · mandatos seleccionados",
+      "titles": [
+        "Epaminondas"
+      ],
+      "documentedWindow": [
+        -371,
+        -362
+      ]
+    },
+    {
+      "role": "Beotarca y mando tebano · mandatos seleccionados",
+      "titles": [
+        "Pelopidas"
+      ],
+      "documentedWindow": [
+        -379,
+        -364
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q190436",
+      "name": "Epaminondas",
+      "role": "Beotarca y mando tebano · mandatos seleccionados",
+      "start": "-0371-01-01",
+      "end": "-0362-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Epaminondas",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -371,
+        -362
+      ],
+      "portrait": {
+        "file": "media/portrait-318cdda61f3feacb665c.jpg",
+        "title": "Epaminondas - Temple of Ancient Virtue, Stowe - Buckinghamshire, England - DSC07376 (cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Epaminondas_-_Temple_of_Ancient_Virtue,_Stowe_-_Buckinghamshire,_England_-_DSC07376_(cropped).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Epaminondas_-_Temple_of_Ancient_Virtue%2C_Stowe_-_Buckinghamshire%2C_England_-_DSC07376_%28cropped%29.jpg/330px-Epaminondas_-_Temple_of_Ancient_Virtue%2C_Stowe_-_Buckinghamshire%2C_England_-_DSC07376_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Daderot",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Epaminondas_-_Temple_of_Ancient_Virtue,_Stowe_-_Buckinghamshire,_England_-_DSC07376_(cropped).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "4a295533a459b954fd2de9a564603a39fc3d609bdb8eeb493ea935c368d6647c",
+        "bytes": 39343,
+        "canonicalFile": "Países/THEBES-CLASSICAL-Beocia-y-hegemonia-tebana/retratos/portrait-318cdda61f3feacb665c.jpg",
+        "caption": "Estatua conmemorativa de Epaminondas en Stowe; recreación artística moderna."
+      }
+    },
+    {
+      "person": "Q316059",
+      "name": "Pelópidas",
+      "role": "Beotarca y mando tebano · mandatos seleccionados",
+      "start": "-0379-01-01",
+      "end": "-0364-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pelopidas",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -379,
+        -364
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -380,
+      "tags": [
+        "city-state",
+        "oligarchy"
+      ],
+      "source": "https://www.metmuseum.org/pt/essays/the-art-of-classical-greece-ca-480-323-b-c",
+      "sourceLabel": "Instituciones de las ciudades antiguas",
+      "note": "Instituciones cívicas; no monarquía inferida de los mandos militares."
+    },
+    {
+      "start": -379,
+      "end": -335,
+      "tags": [
+        "city-state",
+        "federal",
+        "republic"
+      ],
+      "source": "https://www.metmuseum.org/pt/essays/the-art-of-classical-greece-ca-480-323-b-c",
+      "sourceLabel": "Instituciones de las ciudades antiguas",
+      "note": "Reorganizaciones democráticas y federales beocias; la hegemonía no convierte al beotarca en rey."
+    },
+    {
+      "start": -316,
+      "end": -301,
+      "tags": [
+        "city-state"
+      ],
+      "source": "https://www.metmuseum.org/pt/essays/the-art-of-classical-greece-ca-480-323-b-c",
+      "sourceLabel": "Instituciones de las ciudades antiguas",
+      "note": "Reconstrucción posterior a la destrucción por Alejandro335; el centro no acredita continuidad de un estado independiente en el intervalo."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-18",
+      "name": "Tebas · Beocia",
+      "coordinates": [
+        23.318,
+        38.321
+      ],
+      "start": -600,
+      "end": -301,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    },
+    {
+      "id": "seat044-18-reference",
+      "name": "Tebas · Beocia",
+      "coordinates": [
+        23.318,
+        38.321
+      ],
+      "start": -600,
+      "end": -301,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto.",
+      "standaloneReference": true,
+      "entityName": "Tebas de Beocia · instituciones cívicas"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event044-15",
+      "kind": "conflict",
+      "title": "Leuctra",
+      "start": "-0371-01-01",
+      "end": "-0370-01-01",
+      "text": "Victoria tebana; la unidad militar del Batallón Sagrado no se transforma en un estado moderno.",
+      "source": "https://en.wikipedia.org/wiki/Battle_of_Leuctra",
+      "sourceLabel": "Referencia documental · 600–301a.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "id": "event044-16",
+      "kind": "conflict",
+      "title": "Mantinea",
+      "start": "-0362-01-01",
+      "end": "-0361-01-01",
+      "text": "Batalla y muerte de Epaminondas, con localización aproximada.",
+      "source": "https://en.wikipedia.org/wiki/Battle_of_Mantinea_%28362_BC%29",
+      "sourceLabel": "Referencia documental · 600–301a.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "conflict"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Sacred Band of Thebes"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Beocia y hegemonía tebana · referencia de fuente",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Thebans"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Beocia y hegemonía tebana",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "3852a2cc9ab2f3f6c6997dc16ff3df7e480ab4707cadd630cb47a86ec81d984d",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        410,
+        428
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Epaminondas",
+        "title": "Epaminondas",
+        "person": "Q190436",
+        "name": "Epaminondas",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Epaminondas",
+        "identityResolution": {
+          "requested": "Epaminondas",
+          "canonical": "Epaminondas",
+          "qid": "Q190436"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q1019919",
+          "start": "-0372-01-01",
+          "end": "-0371-01-01",
+          "precision": 9,
+          "statement": "Q190436$d0fdcf64-428d-6e31-e78c-3af1d70825a7",
+          "label": "Beotarca"
+        },
+        {
+          "property": "P39",
+          "office": "Q1019919",
+          "start": "-0371-01-01",
+          "end": "-0370-01-01",
+          "precision": 9,
+          "statement": "Q190436$9b2aa3b8-45bd-21a8-5757-39d8c373e79f",
+          "label": "Beotarca"
+        },
+        {
+          "property": "P39",
+          "office": "Q1019919",
+          "start": "-0370-01-01",
+          "end": "-0369-01-01",
+          "precision": 9,
+          "statement": "Q190436$3f0568ee-4c41-d0cd-4466-d85c3feeebd4",
+          "label": "Beotarca"
+        },
+        {
+          "property": "P39",
+          "office": "Q1019919",
+          "start": "-0368-01-01",
+          "end": "-0367-01-01",
+          "precision": 9,
+          "statement": "Q190436$e3fecd2c-4abe-b3e3-207f-45c4402f523b",
+          "label": "Beotarca"
+        },
+        {
+          "property": "P39",
+          "office": "Q1019919",
+          "start": "-0363-01-01",
+          "end": "-0362-01-01",
+          "precision": 9,
+          "statement": "Q190436$d0603ffa-47a5-d63b-aeed-c2d6ac6b1da7",
+          "label": "Beotarca"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q190436",
+        "title": "Epaminondas",
+        "source": "https://en.wikipedia.org/wiki/Epaminondas",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pelopidas",
+        "title": "Pelopidas",
+        "person": "Q316059",
+        "name": "Pelópidas",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pelopidas",
+        "identityResolution": {
+          "requested": "Pelopidas",
+          "canonical": "Pelopidas",
+          "qid": "Q316059"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q316059",
+        "title": "Pelopidas",
+        "source": "https://en.wikipedia.org/wiki/Pelopidas",
+        "reignFields": []
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "point044-15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.18,
+          38.26
+        ]
+      },
+      "properties": {
+        "name": "Leuctra",
+        "countries": [
+          "THEBES-CLASSICAL"
+        ],
+        "kind": "regional-conflict",
+        "start": "-0371-01-01",
+        "end": "-0371-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Battle_of_Leuctra",
+        "sourceLabel": "Referencia documental · 600–301a.C.",
+        "note": "Victoria tebana; la unidad militar del Batallón Sagrado no se transforma en un estado moderno. Coordenada aproximada, no frente, ocupación ni perímetro de batalla."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point044-16",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.39,
+          37.61
+        ]
+      },
+      "properties": {
+        "name": "Mantinea",
+        "countries": [
+          "THEBES-CLASSICAL"
+        ],
+        "kind": "regional-conflict",
+        "start": "-0362-01-01",
+        "end": "-0362-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Battle_of_Mantinea_%28362_BC%29",
+        "sourceLabel": "Referencia documental · 600–301a.C.",
+        "note": "Batalla y muerte de Epaminondas, con localización aproximada. Coordenada aproximada, no frente, ocupación ni perímetro de batalla."
+      }
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q316059",
+      "title": "Pelopidas leading the Thebans at the battle of Leuctra.jpg",
+      "reason": "Escena de batalla colectiva, no efigie individual de Pelópidas."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q190436",
+      "title": "Epaminondas - Temple of Ancient Virtue, Stowe - Buckinghamshire, England - DSC07376 (cropped).jpg",
+      "decision": "accepted",
+      "reason": "Estatua conmemorativa de Epaminondas en Stowe; recreación artística moderna."
+    },
+    {
+      "person": "Q316059",
+      "title": "Pelopidas leading the Thebans at the battle of Leuctra.jpg",
+      "decision": "rejected",
+      "reason": "Escena de batalla colectiva, no efigie individual de Pelópidas."
+    }
+  ],
+  "identityNameCorrection": {
+    "name": "Tebas de Beocia · instituciones cívicas",
+    "source": "https://www.metmuseum.org/pt/essays/the-art-of-classical-greece-ca-480-323-b-c",
+    "reason": "Nombre general de la ciudad separado de las ligas o hegemonías con fechas específicas. El primer componente del proveedor no nombra todas sus épocas."
+  }
+}

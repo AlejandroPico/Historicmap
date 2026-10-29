@@ -1,0 +1,44 @@
+{
+  "key": "SPRING-TENG",
+  "name": "Teng · estado de la época Zhou",
+  "qid": "",
+  "aliases": [
+    "Teng",
+    "Teng · estado de la época Zhou"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SPRING-TENG"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-166",
+      "start": -600,
+      "end": -481,
+      "name": "Teng",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-308",
+      "start": -480,
+      "end": -451,
+      "name": "Teng",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,78 @@
+{
+  "key": "CULTURE-OLMEC-28CB6DBB",
+  "name": "Olmec",
+  "qid": "",
+  "aliases": [
+    "Olmec"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 32,
+      "start": null,
+      "end": null,
+      "name": "Olmec",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 41,
+      "start": null,
+      "end": null,
+      "name": "Olmec",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-OLMEC-28CB6DBB-YBC0400-R044:0",
+      "contextKey": "CULTURE-OLMEC-28CB6DBB",
+      "start": -400,
+      "end": -301,
+      "sourceYear": -400,
+      "canonicalFile": "Países/CULTURE-OLMEC-28CB6DBB-Olmec/poblamiento/CULTURE-OLMEC-28CB6DBB-YBC0400-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-OLMEC-28CB6DBB-YBC0400-R044:1",
+      "contextKey": "CULTURE-OLMEC-28CB6DBB",
+      "start": -300,
+      "end": 99,
+      "sourceYear": -400,
+      "canonicalFile": "Países/CULTURE-OLMEC-28CB6DBB-Olmec/poblamiento/CULTURE-OLMEC-28CB6DBB-YBC0400-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-OLMEC-28CB6DBB-YBC0500-R044:0",
+      "contextKey": "CULTURE-OLMEC-28CB6DBB",
+      "start": -500,
+      "end": -401,
+      "sourceYear": -500,
+      "canonicalFile": "Países/CULTURE-OLMEC-28CB6DBB-Olmec/poblamiento/CULTURE-OLMEC-28CB6DBB-YBC0500-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-OLMEC-28CB6DBB-YBC0700-R044:0",
+      "contextKey": "CULTURE-OLMEC-28CB6DBB",
+      "start": -600,
+      "end": -501,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-OLMEC-28CB6DBB-Olmec/poblamiento/CULTURE-OLMEC-28CB6DBB-YBC0700-R044.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -24,7 +24,7 @@ def main(start,end):
     p=f['properties'];index=f['sourceIndex'];fid=f'clio-{index}'
     if p['Components'] or fid in seen:raise ValueError('Duplicate or aggregate component '+fid)
     seen.add(fid);resolution['qidKeys'][p['Wikidata']]=d['key']
-    features.append(dict(type='Feature',id=fid,geometry=f['geometry'],properties=dict(name=p['Name'],originalName=p['Name'],wikidata=p['Wikidata'],start=max(start,p['FromYear']),end=min(end,p['ToYear']),parentName=p['MemberOf'].strip('()'),code='',source=ref['source'],precision='annual-synthesis',politicalStatus='Entidad histórica · reconstrucción anual')))
+    features.append(dict(type='Feature',id=fid,geometry=f['geometry'],properties=dict(identityKey=d['key'],entityCode=d['key'],name=p['Name'],originalName=p['Name'],wikidata=p['Wikidata'],start=max(start,p['FromYear']),end=min(end,p['ToYear']),parentName=p['MemberOf'].strip('()'),code='',source=ref['source'],precision='annual-synthesis',politicalStatus='Entidad histórica · reconstrucción anual')))
   for fix in d.get('entityRules',[]):
    if f'historical-{asset}-entities.json'in fix['files']:
     r=dict(fix['record'],key=d['key'],entityCode=d['key'],acquisition=d['acquisition']);r.update(start=max(start,r['start']),end=min(end,r['end']));resolution['records'].append(r)

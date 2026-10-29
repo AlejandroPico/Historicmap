@@ -1,0 +1,82 @@
+{
+  "key": "ANTIGONID-DIADOCHI-KINGDOM",
+  "identity": {
+    "qid": "",
+    "name": "Antígono y Demetrio · poderes y reino de los diádocos"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [],
+  "leaders": [
+    {
+      "person": "documented044-antigonus",
+      "name": "Antígono I Monóftalmos",
+      "role": "Sátrapa y dinasta de Frigia · antes del título real",
+      "start": "-0333-01-01",
+      "end": "-0307-12-31",
+      "precision": 9,
+      "source": "https://www.loc.gov/item/2013593022",
+      "note": "Autoridad regional y guerras de sucesión; no rey simultáneo de toda la monarquía de Alejandro."
+    },
+    {
+      "person": "documented044-antigonus",
+      "name": "Antígono I Monóftalmos",
+      "role": "Rey helenístico · muere en Ipso301",
+      "start": "-0306-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://www.loc.gov/item/2013593022",
+      "note": "Autoridad regional y guerras de sucesión; no rey simultáneo de toda la monarquía de Alejandro."
+    },
+    {
+      "person": "documented044-demetrius",
+      "name": "Demetrio I Poliorcetes",
+      "role": "Rey helenístico y mando junto a Antígono",
+      "start": "-0306-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://www.loc.gov/item/2013593022",
+      "note": "Autoridad regional y guerras de sucesión; no rey simultáneo de toda la monarquía de Alejandro."
+    }
+  ],
+  "symbols": [],
+  "entityRules": [],
+  "geography": [],
+  "places": [
+    {
+      "id": "seat044-antigonus",
+      "name": "Célènes · Celaenae",
+      "coordinates": [
+        30.17,
+        38.067
+      ],
+      "start": -333,
+      "end": -301,
+      "capital": false,
+      "role": "Centro documental de Frigia · localización aproximada",
+      "source": "https://en.wikipedia.org/wiki/Antigonus_I_Monophthalmus",
+      "note": "Centro del poder regional, sin polígono específico acreditado.",
+      "standaloneReference": true,
+      "entityName": "Antígono y Demetrio · poderes y reino de los diádocos"
+    }
+  ],
+  "contexts": [],
+  "governance": [
+    {
+      "start": -306,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://www.loc.gov/item/2013593022",
+      "sourceLabel": "Reinos de los sucesores",
+      "note": "Título real desde306; poder disputado y extensión variable."
+    }
+  ],
+  "pending": [
+    "El proveedor agrega en un contorno315–308 dominios de varios diádocos. Este centro documental no inventa polígonos independientes. Representaciones individuales por completar."
+  ]
+}

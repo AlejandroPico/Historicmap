@@ -1,0 +1,71 @@
+{
+  "key": "CULTURE-WEST-AFRICAN-FARMERS-YBC0700-R044",
+  "contextKey": "CULTURE-WEST-AFRICAN-FARMERS",
+  "ownerKey": "CULTURE-WEST-AFRICAN-FARMERS",
+  "name": "Comunidades agrícolas de África occidental · referencia general",
+  "originalNames": [
+    "West African cereal farmers"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de700a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -600,
+    -501
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no estado unitario, identidad homogénea, censo ni frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial, resolución desigual y contraste regional pendiente; no frontera política anual.",
+  "temporalUncertainty": "No existe snapshot600 en esta fuente. El ámbito700 se consulta como referencia histórica entre600–501, sin certificar permanencia. Las referencias500/400 no equivalen a observaciones de cada año.",
+  "references": [
+    {
+      "title": "Historical Basemaps700a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#969886",
+  "focus": [
+    -8.49822,
+    6.88986
+  ],
+  "phases": [
+    {
+      "start": -600,
+      "end": -501,
+      "label": "Comunidades agrícolas de África occidental · referencia general",
+      "dateBasis": "Contorno de700a.C.; consulta de referencia, sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -700
+    }
+  ],
+  "geometryFile": "CULTURE-WEST-AFRICAN-FARMERS-YBC0700-R044.geojson",
+  "geometrySha256": "a8a57d386f9a0c335d9e23b7f9b76716e474c8a1cd03fac706cb1cf796bef4ad",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+    "year": -700,
+    "featureIds": [
+      83
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c"
+  },
+  "review": "0.44.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación locales. El final de consulta no demuestra desaparición."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "West African cereal farmers",
+      "ABBREVN": "West African cereal farmers",
+      "SUBJECTO": "West African cereal farmers",
+      "TYPE": null,
+      "BORDERPRECISION": 1,
+      "PARTOF": "West African cereal farmers"
+    }
+  ],
+  "sourceGrouping": [
+    "West African cereal farmers"
+  ]
+}

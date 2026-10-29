@@ -1,0 +1,72 @@
+{
+  "key": "HIST-Q131802",
+  "identity": {
+    "qid": "Q131802",
+    "name": "Comunidades y poderes escitas"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "tribal",
+        "confederal"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Conjuntos y poderes de la estepa; no estado territorial homogéneo."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Scythia"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Comunidades y poderes escitas",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "02422caa8b7b8146b4a4c0088dbff13977caac61f74c7fb3f959cdad47103d3d",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        208,
+        263,
+        345,
+        356,
+        431
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": []
+}

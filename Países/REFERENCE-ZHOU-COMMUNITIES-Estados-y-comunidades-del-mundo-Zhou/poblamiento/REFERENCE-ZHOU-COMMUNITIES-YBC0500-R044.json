@@ -1,0 +1,68 @@
+{
+  "key": "REFERENCE-ZHOU-COMMUNITIES-YBC0500-R044",
+  "contextKey": "REFERENCE-ZHOU-COMMUNITIES",
+  "ownerKey": "REFERENCE-ZHOU-COMMUNITIES",
+  "name": "Estados y comunidades del mundo Zhou",
+  "originalNames": [
+    "Zhou states"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de500a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -500,
+    -401
+  ],
+  "interpretation": "Múltiples estados, cortes y comunidades; no una soberanía de toda China.",
+  "spatialUncertainty": "Contorno original de compilación mundial, resolución desigual y contraste regional pendiente; no frontera política anual.",
+  "temporalUncertainty": "No existe snapshot600 en esta fuente. El ámbito700 se consulta como referencia histórica entre600–501, sin certificar permanencia. Las referencias500/400 no equivalen a observaciones de cada año.",
+  "references": [
+    {
+      "title": "Historical Basemaps500a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    113.35884,
+    33.7091
+  ],
+  "phases": [
+    {
+      "start": -500,
+      "end": -401,
+      "label": "Estados y comunidades del mundo Zhou",
+      "dateBasis": "Contorno de500a.C.; consulta de referencia, sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-ZHOU-COMMUNITIES-YBC0500-R044.geojson",
+  "geometrySha256": "2a780f62e3097a50412d05ae4dca1806a5e4f9bd5dc3c1a5f56a1eccda4ae9e5",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc500.geojson",
+    "year": -500,
+    "featureIds": [
+      13
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "f72bc06ca45a9f680f20ef6007aaccd13a929cd1b632bd0fb41f161cb51ba3f6"
+  },
+  "review": "0.44.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación locales. El final de consulta no demuestra desaparición."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Zhou states",
+      "ABBREVN": "Zhou states",
+      "SUBJECTO": "Zhou states",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Zhou states"
+    }
+  ],
+  "sourceGrouping": [
+    "Zhou states"
+  ]
+}

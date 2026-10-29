@@ -1,0 +1,136 @@
+{
+  "key": "HIST-Q605199",
+  "identity": {
+    "qid": "Q605199",
+    "name": "Janapada of Vajji"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [],
+  "leaders": [
+    {
+      "person": "institution044-HIST-Q605199",
+      "name": "Consejos y linajes de la confederación",
+      "role": "Instituciones colegiadas",
+      "start": "-0600-01-01",
+      "end": "-0468-12-31",
+      "precision": 9,
+      "source": "https://ignca.gov.in/Asi_data/42413.pdf",
+      "note": "Forma de organización gana/sangha; titulares y cronología locales pendientes. No un presidente moderno ni una democracia de sufragio universal. La conquista por Magadha tiene cronología discutida; el intervalo no se prolonga hasta301."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -468,
+      "tags": [
+        "confederal",
+        "collective"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Gana/sangha, con cronología y composición locales por contrastar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-33",
+      "name": "Vaishali",
+      "coordinates": [
+        85.13,
+        25.99
+      ],
+      "start": -600,
+      "end": -301,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event044-35",
+      "kind": "conflict",
+      "title": "Guerra entre Magadha y Vajji · cronología discutida",
+      "start": "-0484-01-01",
+      "end": "-0467-01-01",
+      "text": "Tradiciones y datación del Buddha condicionan la secuencia; no perímetro militar anual.",
+      "source": "https://en.wikipedia.org/wiki/Magadha-Vajji_war",
+      "sourceLabel": "Referencia documental · 600–301a.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "conflict"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Janapada of Vajji"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Janapada of Vajji",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "0a959dfa4eaeeffdc2437aa0c157679510230c0902f9f3e03c524b8236e667bc",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        241,
+        295
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "point044-35",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.13,
+          25.99
+        ]
+      },
+      "properties": {
+        "name": "Guerra entre Magadha y Vajji · cronología discutida",
+        "countries": [
+          "HIST-Q605199"
+        ],
+        "kind": "regional-conflict",
+        "start": "-0484-01-01",
+        "end": "-0468-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Magadha-Vajji_war",
+        "sourceLabel": "Referencia documental · 600–301a.C.",
+        "note": "Tradiciones y datación del Buddha condicionan la secuencia; no perímetro militar anual. Coordenada aproximada, no frente, ocupación ni perímetro de batalla."
+      }
+    }
+  ],
+  "mediaReview": []
+}

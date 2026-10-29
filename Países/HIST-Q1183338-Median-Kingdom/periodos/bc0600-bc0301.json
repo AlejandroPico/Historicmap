@@ -1,0 +1,261 @@
+{
+  "key": "HIST-Q1183338",
+  "identity": {
+    "qid": "Q1183338",
+    "name": "Median Kingdom"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Rey medo · cronología convencional",
+      "titles": [
+        "Cyaxares"
+      ],
+      "documentedWindow": [
+        -625,
+        -585
+      ]
+    },
+    {
+      "role": "Rey medo · cronología convencional",
+      "titles": [
+        "Astyages"
+      ],
+      "documentedWindow": [
+        -585,
+        -550
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q297855",
+      "name": "Ciáxares",
+      "role": "Rey medo · cronología convencional",
+      "start": "-0600-01-01",
+      "end": "-0585-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cyaxares",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -625,
+        -585
+      ],
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "documented044-hist-q1183338-astyages-585-cc17be86",
+      "name": "Astyages",
+      "role": "Rey medo · cronología convencional",
+      "start": "-0585-01-01",
+      "end": "-0550-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -585,
+        -550
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-3",
+      "name": "Ecbatana",
+      "coordinates": [
+        48.515,
+        34.8
+      ],
+      "start": -600,
+      "end": -550,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Median Kingdom"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Median Kingdom",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "c72a05dc742833c4b4da6cd87b8732b05bb99e7fa46eb3e60fe2be1a966404ed",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        253
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Astyages",
+        "title": "Astyages",
+        "person": "Q271527",
+        "name": "Astiages",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Astyages",
+        "identityResolution": {
+          "requested": "Astyages",
+          "canonical": "Astyages",
+          "qid": "Q271527"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q21011242",
+          "start": "-0585-01-01",
+          "end": "-0553-01-01",
+          "precision": 9,
+          "statement": "Q271527$d19ce56b-40fa-cf96-3ac1-3e0a74765fc5",
+          "label": "rey de los medos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q271527",
+        "title": "Astyages",
+        "source": "https://en.wikipedia.org/wiki/Astyages",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Media",
+            "raw": "585 – 550 BCE (according to [[Herodotus]])",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Media",
+            "raw": "585-550 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Cyaxares",
+        "title": "Cyaxares",
+        "person": "Q297855",
+        "name": "Ciáxares",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cyaxares",
+        "identityResolution": {
+          "requested": "Cyaxares",
+          "canonical": "Cyaxares",
+          "qid": "Q297855"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q21011242",
+          "start": "-0625-01-01",
+          "end": "-0585-01-01",
+          "precision": 9,
+          "statement": "Q297855$4b089e17-44c8-b112-16c9-f1155b4ab81f",
+          "label": "rey de los medos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q297855",
+        "title": "Cyaxares",
+        "source": "https://en.wikipedia.org/wiki/Cyaxares",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Medes",
+            "raw": "625 – 585 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "candidate": {
+        "requestedTitle": "Astyages",
+        "title": "Astyages",
+        "person": "Q271527",
+        "name": "Astiages",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Astyages",
+        "identityResolution": {
+          "requested": "Astyages",
+          "canonical": "Astyages",
+          "qid": "Q271527"
+        }
+      },
+      "title": "Astyages",
+      "documentedWindow": [
+        -585,
+        -550
+      ],
+      "reason": "Fechas vitales incompatibles con la ventana documental; no adoptar identidad ni foto del homónimo."
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "rejectedPortraits": [
+    {
+      "person": "Q297855",
+      "title": "Qyzqapan tomb relief 2.jpg",
+      "reason": "Atribución del personaje funerario a Ciaxares no corroborada."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q297855",
+      "title": "Qyzqapan tomb relief 2.jpg",
+      "decision": "rejected",
+      "reason": "Atribución del personaje funerario a Ciaxares no corroborada."
+    }
+  ]
+}

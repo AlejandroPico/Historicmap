@@ -1,0 +1,224 @@
+{
+  "key": "SELEUCID-EMPIRE",
+  "identity": {
+    "qid": "",
+    "name": "Imperio seléucida · poderes rivales"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Sátrapa y autoridad seléucida · antes del título real",
+      "titles": [
+        "Seleucus I Nicator"
+      ],
+      "documentedWindow": [
+        -312,
+        -306
+      ]
+    },
+    {
+      "role": "Rey seléucida",
+      "titles": [
+        "Seleucus I Nicator"
+      ],
+      "documentedWindow": [
+        -305,
+        -281
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q184176",
+      "name": "Seleuco I Nicátor",
+      "role": "Sátrapa y autoridad seléucida · antes del título real",
+      "start": "-0312-01-01",
+      "end": "-0306-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Seleucus_I_Nicator",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -312,
+        -306
+      ],
+      "portrait": {
+        "file": "media/portrait-80740469407610b93e9e.jpg",
+        "title": "Seleuco I Nicatore.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Seleuco_I_Nicatore.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Seleuco_I_Nicatore.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 2.0 it",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/it/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "9dfd1f654d77c089e3a7edf53e30383d84630b1cb3e390aeea57fe221cbbcdf8",
+        "bytes": 830442,
+        "caption": "Busto tradicionalmente atribuido a SeleucoI; identificación artística con incertidumbre.",
+        "canonicalFile": "Países/SELEUCID-EMPIRE-Imperio-seleucida-poderes-rivales/retratos/portrait-80740469407610b93e9e.jpg"
+      }
+    },
+    {
+      "person": "Q184176",
+      "name": "Seleuco I Nicátor",
+      "role": "Rey seléucida",
+      "start": "-0305-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Seleucus_I_Nicator",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -305,
+        -281
+      ],
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-80740469407610b93e9e.jpg",
+        "title": "Seleuco I Nicatore.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Seleuco_I_Nicatore.JPG",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Seleuco_I_Nicatore.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "CC BY-SA 2.0 it",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/it/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "9dfd1f654d77c089e3a7edf53e30383d84630b1cb3e390aeea57fe221cbbcdf8",
+        "bytes": 830442,
+        "caption": "Busto tradicionalmente atribuido a SeleucoI; identificación artística con incertidumbre.",
+        "canonicalFile": "Países/SELEUCID-EMPIRE-Imperio-seleucida-poderes-rivales/retratos/portrait-80740469407610b93e9e.jpg"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-13",
+      "name": "Babilonia",
+      "coordinates": [
+        44.421,
+        32.542
+      ],
+      "start": -312,
+      "end": -301,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Seleucid Empire"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Imperio seléucida · poderes rivales",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "6dda47e1eca13ae848878973152ba70e2d3d3d01766bf4f1097d34f8f48908d9",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        500,
+        523,
+        525
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Seleucus I Nicator",
+        "title": "Seleucus I Nicator",
+        "person": "Q184176",
+        "name": "Seleuco I Nicátor",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Seleucus_I_Nicator",
+        "identityResolution": {
+          "requested": "Seleucus I Nicator",
+          "canonical": "Seleucus I Nicator",
+          "qid": "Q184176"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q28089939",
+          "start": "-0312-01-01",
+          "end": "-0281-01-01",
+          "precision": 9,
+          "statement": "Q184176$2B041A4A-DA40-4A47-8303-8909D7876971",
+          "label": "rey seléucida"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q184176",
+        "title": "Seleucus I Nicator",
+        "source": "https://en.wikipedia.org/wiki/Seleucus_I_Nicator",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Basileus of the Seleucid Empire",
+            "raw": "305<ref>Boiy \"The Reigns of the Seleucid Kings According the Babylonian King List.\" ''Journal of Near Eastern Studies'' 70(1) (2011): 1–12.</ref> – September 281 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Seleucid King",
+            "raw": "305 – September 281 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": [
+    {
+      "person": "Q184176",
+      "title": "Seleuco I Nicatore.JPG",
+      "decision": "accepted",
+      "reason": "Busto tradicionalmente atribuido a SeleucoI; identificación artística con incertidumbre."
+    }
+  ]
+}

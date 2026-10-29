@@ -1,0 +1,245 @@
+{
+  "key": "HIST-Q620765",
+  "identity": {
+    "qid": "Q620765",
+    "name": "Lydia"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Rey de Lidia",
+      "titles": [
+        "Alyattes"
+      ],
+      "documentedWindow": [
+        -618,
+        -561
+      ]
+    },
+    {
+      "role": "Rey de Lidia",
+      "titles": [
+        "Croesus"
+      ],
+      "documentedWindow": [
+        -560,
+        -546
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q299551",
+      "name": "Aliates",
+      "role": "Rey de Lidia",
+      "start": "-0600-01-01",
+      "end": "-0561-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Alyattes",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -618,
+        -561
+      ],
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q184462",
+      "name": "Creso",
+      "role": "Rey de Lidia",
+      "start": "-0560-01-01",
+      "end": "-0546-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Croesus",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -560,
+        -546
+      ],
+      "portrait": {
+        "file": "media/portrait-3cca800ac22fd9d1817c.jpg",
+        "title": "Croesus portrait.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Croesus_portrait.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Croesus_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Marco Prins",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Livius.org  Provided under CC 0 license (notice under the photograph in the description page of the photograph).",
+        "sha256": "bbc4d97a9dfef8a2cb538328089fa305def3a82b48e19e27bcd0257d9aa2e170",
+        "bytes": 345831,
+        "canonicalFile": "Países/HIST-Q620765-Lydia/retratos/portrait-3cca800ac22fd9d1817c.jpg",
+        "caption": "Creso en cerámica ática, ca.500–490a.C., LouvreG197; imagen narrativa del rey, no retrato del natural."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-5",
+      "name": "Sardes",
+      "coordinates": [
+        28.04,
+        38.49
+      ],
+      "start": -600,
+      "end": -547,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lydia"
+        ],
+        "start": -600,
+        "end": -547,
+        "label": "Reino de Lidia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "c0ac6dea7d87ba5d1272bb73b2ee6393bef2a3ad638303c7c8ce1ee67aa085a5",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        246,
+        262
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Alyattes",
+        "title": "Alyattes",
+        "person": "Q299551",
+        "name": "Aliates",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Alyattes",
+        "identityResolution": {
+          "requested": "Alyattes",
+          "canonical": "Alyattes",
+          "qid": "Q299551"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q299551",
+        "title": "Alyattes",
+        "source": "https://en.wikipedia.org/wiki/Alyattes",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Lydia",
+            "raw": "c. 635 – c. 585 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Lydia",
+            "raw": "{{c.|635}}–585 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Croesus",
+        "title": "Croesus",
+        "person": "Q184462",
+        "name": "Creso",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Croesus",
+        "identityResolution": {
+          "requested": "Croesus",
+          "canonical": "Croesus",
+          "qid": "Q184462"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27926942",
+          "start": "-0560-01-01",
+          "end": "-0546-01-01",
+          "precision": 9,
+          "statement": "Q184462$5BA515C6-359A-43B9-9BA7-3AA806CEF5E5",
+          "label": "rey de Lidia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q184462",
+        "title": "Croesus",
+        "source": "https://en.wikipedia.org/wiki/Croesus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Lydia",
+            "raw": "{{circa|585|546 BC}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Lydia",
+            "raw": "{{c.|585}}–{{c.|547 BC}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": [
+    {
+      "person": "Q184462",
+      "title": "Croesus portrait.jpg",
+      "decision": "accepted",
+      "reason": "Creso en cerámica ática, ca.500–490a.C., LouvreG197; imagen narrativa del rey, no retrato del natural."
+    }
+  ]
+}

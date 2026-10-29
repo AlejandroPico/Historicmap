@@ -1,0 +1,78 @@
+{
+  "key": "REFERENCE-MONGOLIAN-STEPPE-EARLY-YBC0400-R044",
+  "contextKey": "REFERENCE-MONGOLIAN-STEPPE-EARLY",
+  "ownerKey": "REFERENCE-MONGOLIAN-STEPPE-EARLY",
+  "name": "Comunidades de la estepa de Mongolia · antecedentes xiongnu",
+  "originalNames": [
+    "Xiongnu"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de400a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -400,
+    99
+  ],
+  "interpretation": "No anticipar a400 la formación de la confederación conocida de finales del sigloIIIa.C.",
+  "spatialUncertainty": "Contorno original de compilación mundial, resolución desigual y contraste regional pendiente; no frontera política anual.",
+  "temporalUncertainty": "No existe snapshot600 en esta fuente. El ámbito700 se consulta como referencia histórica entre600–501, sin certificar permanencia. Las referencias500/400 no equivalen a observaciones de cada año.",
+  "references": [
+    {
+      "title": "Historical Basemaps400a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc400.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    106.88323,
+    46.22818
+  ],
+  "phases": [
+    {
+      "start": -400,
+      "end": -301,
+      "label": "Comunidades de la estepa de Mongolia · antecedentes xiongnu",
+      "dateBasis": "Contorno de400a.C.; consulta de referencia, sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -300,
+      "end": 99,
+      "label": "Comunidades de la estepa de Mongolia · antecedentes xiongnu",
+      "dateBasis": "Consulta del ámbito histórico anterior, sin nueva observación de habitantes o fronteras.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -400,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-MONGOLIAN-STEPPE-EARLY-YBC0400-R044.geojson",
+  "geometrySha256": "546326d65d37d1b49efbf535e0c5c8939d830b82256724d2b1872caf01555cef",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc400.geojson",
+    "year": -400,
+    "featureIds": [
+      90
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "7c657b265b2896744efa2c56dd66f0f4a8e647f9dd3c3fbe2c4575515e4b260b"
+  },
+  "review": "0.44.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación locales. El final de consulta no demuestra desaparición."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Xiongnu",
+      "ABBREVN": "Xiongnu",
+      "CONTROL": null,
+      "SUBJECTO": "Xiongnu",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Xiongnu"
+    }
+  ],
+  "sourceGrouping": [
+    "Xiongnu"
+  ]
+}

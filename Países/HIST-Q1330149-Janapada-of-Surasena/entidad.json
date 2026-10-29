@@ -1,0 +1,52 @@
+{
+  "key": "HIST-Q1330149",
+  "name": "Janapada of Surasena",
+  "qid": "Q1330149",
+  "aliases": [
+    "Janapada of Surasena"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1330149"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-247",
+      "start": -600,
+      "end": -451,
+      "name": "Janapada of Surasena",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-340",
+      "start": -450,
+      "end": -405,
+      "name": "Janapada of Surasena",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-SURASENA-5F406A2B-YBC0500-R044",
+      "ownerKey": "HIST-Q1330149",
+      "name": "Surasena",
+      "file": "Países/HIST-Q1330149-Janapada-of-Surasena/poblamiento/CULTURE-SURASENA-5F406A2B-YBC0500-R044.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

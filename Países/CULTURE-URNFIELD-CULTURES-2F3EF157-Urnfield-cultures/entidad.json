@@ -1,0 +1,61 @@
+{
+  "key": "CULTURE-URNFIELD-CULTURES-2F3EF157",
+  "name": "Urnfield cultures",
+  "qid": "",
+  "aliases": [
+    "Urnfield cultures"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 105,
+      "start": null,
+      "end": null,
+      "name": "Urnfield cultures",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-URNFIELD-CULTURES-2F3EF157-YBC0700-R044:0",
+      "contextKey": "CULTURE-URNFIELD-CULTURES-2F3EF157",
+      "start": -600,
+      "end": -501,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-URNFIELD-CULTURES-2F3EF157-Urnfield-cultures/poblamiento/CULTURE-URNFIELD-CULTURES-2F3EF157-YBC0700-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-URNFIELD-CULTURES-2F3EF157-YBC0700-R044:1",
+      "contextKey": "CULTURE-URNFIELD-CULTURES-2F3EF157",
+      "start": -500,
+      "end": -301,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-URNFIELD-CULTURES-2F3EF157-Urnfield-cultures/poblamiento/CULTURE-URNFIELD-CULTURES-2F3EF157-YBC0700-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-URNFIELD-CULTURES-2F3EF157-YBC0700-R044:2",
+      "contextKey": "CULTURE-URNFIELD-CULTURES-2F3EF157",
+      "start": -300,
+      "end": 99,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-URNFIELD-CULTURES-2F3EF157-Urnfield-cultures/poblamiento/CULTURE-URNFIELD-CULTURES-2F3EF157-YBC0700-R044.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

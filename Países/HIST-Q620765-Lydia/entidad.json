@@ -1,0 +1,93 @@
+{
+  "key": "HIST-Q620765",
+  "name": "Lydia",
+  "qid": "Q620765",
+  "aliases": [
+    "Lydia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q620765"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q299551",
+      "name": "Aliates",
+      "role": "Rey de Lidia",
+      "start": "-0600-01-01",
+      "end": "-0561-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Alyattes",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -618,
+        -561
+      ],
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "Q184462",
+      "name": "Creso",
+      "role": "Rey de Lidia",
+      "start": "-0560-01-01",
+      "end": "-0546-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Croesus",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -560,
+        -546
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44",
+      "portrait": {
+        "file": "media/portrait-3cca800ac22fd9d1817c.jpg",
+        "title": "Croesus portrait.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Croesus_portrait.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Croesus_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Marco Prins",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Livius.org  Provided under CC 0 license (notice under the photograph in the description page of the photograph).",
+        "sha256": "bbc4d97a9dfef8a2cb538328089fa305def3a82b48e19e27bcd0257d9aa2e170",
+        "bytes": 345831,
+        "canonicalFile": "Países/HIST-Q620765-Lydia/retratos/portrait-3cca800ac22fd9d1817c.jpg",
+        "caption": "Creso en cerámica ática, ca.500–490a.C., LouvreG197; imagen narrativa del rey, no retrato del natural."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-246",
+      "start": -600,
+      "end": -551,
+      "name": "Lydia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-262",
+      "start": -550,
+      "end": -541,
+      "name": "Lydia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

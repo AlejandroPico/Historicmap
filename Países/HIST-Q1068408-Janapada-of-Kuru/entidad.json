@@ -1,0 +1,52 @@
+{
+  "key": "HIST-Q1068408",
+  "name": "Janapada of Kuru",
+  "qid": "Q1068408",
+  "aliases": [
+    "Janapada of Kuru"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1068408"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-243",
+      "start": -600,
+      "end": -451,
+      "name": "Janapada of Kuru",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-342",
+      "start": -450,
+      "end": -405,
+      "name": "Janapada of Kuru",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-KURU-974B0BAB-YBC0500-R044",
+      "ownerKey": "HIST-Q1068408",
+      "name": "Kuru",
+      "file": "Países/HIST-Q1068408-Janapada-of-Kuru/poblamiento/CULTURE-KURU-974B0BAB-YBC0500-R044.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,294 @@
+{
+  "key": "HIST-Q949268",
+  "identity": {
+    "qid": "Q949268",
+    "name": "Nanda Empire"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Rey de Magadha · dinastía Nanda",
+      "titles": [
+        "Mahapadma Nanda"
+      ],
+      "documentedWindow": [
+        -345,
+        -329
+      ]
+    },
+    {
+      "role": "Rey de Magadha · dinastía Nanda",
+      "titles": [
+        "Dhana Nanda"
+      ],
+      "documentedWindow": [
+        -329,
+        -322
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3267658",
+      "name": "Majapadma Nanda",
+      "role": "Rey de Magadha · dinastía Nanda",
+      "start": "-0345-01-01",
+      "end": "-0329-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mahapadma_Nanda",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo. Las cronologías dependen de tradiciones budistas, jainas y puránicas y de la datación del Buddha. Se adopta una secuencia convencional, sin certificar cada fecha ni mezclar variantes.",
+      "documentedInterval": [
+        -345,
+        -329
+      ]
+    },
+    {
+      "person": "Q10265876",
+      "name": "Dhana Nanda",
+      "role": "Rey de Magadha · dinastía Nanda",
+      "start": "-0329-01-01",
+      "end": "-0322-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dhana_Nanda",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo. Las cronologías dependen de tradiciones budistas, jainas y puránicas y de la datación del Buddha. Se adopta una secuencia convencional, sin certificar cada fecha ni mezclar variantes.",
+      "documentedInterval": [
+        -329,
+        -322
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-28",
+      "name": "Pataliputra",
+      "coordinates": [
+        85.138,
+        25.612
+      ],
+      "start": -345,
+      "end": -323,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Janapada of Magadha"
+        ],
+        "start": -345,
+        "end": -323,
+        "label": "Magadha · dinastía Nanda",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Magadha - Haryanka dynasty"
+        ],
+        "start": -345,
+        "end": -323,
+        "label": "Magadha · dinastía Nanda",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Magadha - Shaishunaga dynasty"
+        ],
+        "start": -345,
+        "end": -323,
+        "label": "Magadha · dinastía Nanda",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Nanda Empire"
+        ],
+        "start": -345,
+        "end": -323,
+        "label": "Magadha · dinastía Nanda",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "8f528aa6a6004db75f19452e6915dde458d54d8b88e8b0774fcd59d59c86c8d6",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        465,
+        477,
+        493
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dhana Nanda",
+        "title": "Dhana Nanda",
+        "person": "Q10265876",
+        "name": "Dhana Nanda",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dhana_Nanda",
+        "identityResolution": {
+          "requested": "Dhana Nanda",
+          "canonical": "Dhana Nanda",
+          "qid": "Q10265876"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q39018",
+          "start": "-0329-01-01",
+          "end": "-0321-01-01",
+          "precision": 9,
+          "statement": "Q10265876$4202dbb6-40c6-c0d8-16d5-ce5f1da680c1",
+          "label": "emperador"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q10265876",
+        "title": "Dhana Nanda",
+        "source": "https://en.wikipedia.org/wiki/Dhana_Nanda",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Magadha",
+            "raw": "c. 329–321 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mahapadma Nanda",
+        "title": "Mahapadma Nanda",
+        "person": "Q3267658",
+        "name": "Majapadma Nanda",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mahapadma_Nanda",
+        "identityResolution": {
+          "requested": "Mahapadma Nanda",
+          "canonical": "Mahapadma Nanda",
+          "qid": "Q3267658"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q39018",
+          "start": "-0345-01-01",
+          "end": "-0329-01-01",
+          "precision": 9,
+          "statement": "Q3267658$4aa6d349-4e46-9db6-5cba-32cff45ce54d",
+          "label": "emperador"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3267658",
+        "title": "Mahapadma Nanda",
+        "source": "https://en.wikipedia.org/wiki/Mahapadma_Nanda",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Magadha",
+            "raw": "c. mid 4th century BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "rejectedPortraits": [
+    {
+      "person": "Q3267658",
+      "title": "I12 1karshapana Maghada 1ar (8482307176).jpg",
+      "reason": "Símbolos monetarios, no efigie personal Nanda."
+    },
+    {
+      "person": "Q10265876",
+      "title": "Nanda Empire, c.325 BCE.png",
+      "reason": "Mapa, no Dhana Nanda."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q3267658",
+      "title": "I12 1karshapana Maghada 1ar (8482307176).jpg",
+      "decision": "rejected",
+      "reason": "Símbolos monetarios, no efigie personal Nanda."
+    },
+    {
+      "person": "Q10265876",
+      "title": "Nanda Empire, c.325 BCE.png",
+      "decision": "rejected",
+      "reason": "Mapa, no Dhana Nanda."
+    }
+  ]
+}

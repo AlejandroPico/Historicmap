@@ -1,0 +1,195 @@
+{
+  "key": "HIST-Q3762571",
+  "identity": {
+    "qid": "Q3762571",
+    "name": "Kingdom of Bithynia"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Dinasta de Bitinia",
+      "titles": [
+        "Bas of Bithynia"
+      ],
+      "documentedWindow": [
+        -376,
+        -326
+      ]
+    },
+    {
+      "role": "Dinasta de Bitinia",
+      "titles": [
+        "Zipoetes I of Bithynia"
+      ],
+      "documentedWindow": [
+        -326,
+        -297
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q515392",
+      "name": "Bas",
+      "role": "Dinasta de Bitinia",
+      "start": "-0376-01-01",
+      "end": "-0326-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bas_of_Bithynia",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -376,
+        -326
+      ]
+    },
+    {
+      "person": "Q205468",
+      "name": "Cipetes I de Bitinia",
+      "role": "Dinasta de Bitinia",
+      "start": "-0326-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zipoetes_I_of_Bithynia",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -326,
+        -297
+      ],
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Bithynia"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Kingdom of Bithynia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "1398e8a4f589bc581343d913c934ef0a8a8ea3db64b210fbbbd38f0de5221cad",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        466,
+        473,
+        490,
+        533
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bas of Bithynia",
+        "title": "Bas of Bithynia",
+        "person": "Q515392",
+        "name": "Bas",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bas_of_Bithynia",
+        "identityResolution": {
+          "requested": "Bas of Bithynia",
+          "canonical": "Bas of Bithynia",
+          "qid": "Q515392"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q515392",
+        "title": "Bas of Bithynia",
+        "source": "https://en.wikipedia.org/wiki/Bas_of_Bithynia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Bithynia",
+            "raw": "c. 376-326 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zipoetes I of Bithynia",
+        "title": "Zipoetes I of Bithynia",
+        "person": "Q205468",
+        "name": "Cipetes I de Bitinia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zipoetes_I_of_Bithynia",
+        "identityResolution": {
+          "requested": "Zipoetes I of Bithynia",
+          "canonical": "Zipoetes I of Bithynia",
+          "qid": "Q205468"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q100767930",
+          "start": "-0328-01-01",
+          "end": "-0280-01-01",
+          "precision": 9,
+          "statement": "Q205468$70de6fc2-4360-8c1d-cc63-b087e9b20503",
+          "label": "rey de Bitinia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q205468",
+        "title": "Zipoetes I of Bithynia",
+        "source": "https://en.wikipedia.org/wiki/Zipoetes_I_of_Bithynia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Bithynia",
+            "raw": "c. 326 BC – 278 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": []
+}

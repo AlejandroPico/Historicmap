@@ -1,0 +1,76 @@
+{
+  "key": "HIST-Q41642",
+  "name": "Phoenicia",
+  "qid": "Q41642",
+  "aliases": [
+    "Phoenicia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q41642"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q525741",
+      "name": "Itobaal III",
+      "role": "Rey de Tiro · no soberano de toda Fenicia",
+      "start": "-0590-01-01",
+      "end": "-0573-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ithobaal_III",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -590,
+        -573
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "documented044-hist-q41642-baal-ii-572-38d94daf",
+      "name": "Baal II",
+      "role": "Rey de Tiro · no soberano de toda Fenicia",
+      "start": "-0572-01-01",
+      "end": "-0564-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -572,
+        -564
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-226",
+      "start": -600,
+      "end": -531,
+      "name": "Phoenicia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-281",
+      "start": -530,
+      "end": -501,
+      "name": "Phoenicia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

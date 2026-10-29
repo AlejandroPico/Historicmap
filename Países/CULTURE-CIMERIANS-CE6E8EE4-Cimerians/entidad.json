@@ -1,0 +1,61 @@
+{
+  "key": "CULTURE-CIMERIANS-CE6E8EE4",
+  "name": "Cimerians",
+  "qid": "",
+  "aliases": [
+    "Cimerians"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 87,
+      "start": null,
+      "end": null,
+      "name": "Cimerians",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CIMERIANS-CE6E8EE4-YBC0700-R044:0",
+      "contextKey": "CULTURE-CIMERIANS-CE6E8EE4",
+      "start": -600,
+      "end": -501,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-CIMERIANS-CE6E8EE4-Cimerians/poblamiento/CULTURE-CIMERIANS-CE6E8EE4-YBC0700-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CIMERIANS-CE6E8EE4-YBC0700-R044:1",
+      "contextKey": "CULTURE-CIMERIANS-CE6E8EE4",
+      "start": -500,
+      "end": -301,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-CIMERIANS-CE6E8EE4-Cimerians/poblamiento/CULTURE-CIMERIANS-CE6E8EE4-YBC0700-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CIMERIANS-CE6E8EE4-YBC0700-R044:2",
+      "contextKey": "CULTURE-CIMERIANS-CE6E8EE4",
+      "start": -300,
+      "end": 99,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-CIMERIANS-CE6E8EE4-Cimerians/poblamiento/CULTURE-CIMERIANS-CE6E8EE4-YBC0700-R044.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

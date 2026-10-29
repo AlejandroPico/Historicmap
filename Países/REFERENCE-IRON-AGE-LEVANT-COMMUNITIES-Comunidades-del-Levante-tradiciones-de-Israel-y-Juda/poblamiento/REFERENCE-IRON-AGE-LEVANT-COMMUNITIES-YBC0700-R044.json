@@ -1,0 +1,89 @@
+{
+  "key": "REFERENCE-IRON-AGE-LEVANT-COMMUNITIES-YBC0700-R044",
+  "contextKey": "REFERENCE-IRON-AGE-LEVANT-COMMUNITIES",
+  "ownerKey": "REFERENCE-IRON-AGE-LEVANT-COMMUNITIES",
+  "name": "Comunidades del Levante · tradiciones de Israel y Judá",
+  "originalNames": [
+    "Kingdom of David and Solomon"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de700a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -600,
+    99
+  ],
+  "interpretation": "La atribución del mapa700 no acredita un reino de David o Salomón en600; comunidades, tradiciones y contornos discutidos.",
+  "spatialUncertainty": "Contorno original de compilación mundial, resolución desigual y contraste regional pendiente; no frontera política anual.",
+  "temporalUncertainty": "No existe snapshot600 en esta fuente. El ámbito700 se consulta como referencia histórica entre600–501, sin certificar permanencia. Las referencias500/400 no equivalen a observaciones de cada año.",
+  "references": [
+    {
+      "title": "Historical Basemaps700a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    36.54438,
+    32.76682
+  ],
+  "phases": [
+    {
+      "start": -600,
+      "end": -501,
+      "label": "Comunidades del Levante · tradiciones de Israel y Judá",
+      "dateBasis": "Contorno de700a.C.; consulta de referencia, sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -700
+    },
+    {
+      "start": -500,
+      "end": -301,
+      "label": "Comunidades del Levante · tradiciones de Israel y Judá",
+      "dateBasis": "Consulta del ámbito histórico anterior hasta la siguiente referencia; no nueva observación poblacional.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -700,
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -300,
+      "end": 99,
+      "label": "Comunidades del Levante · tradiciones de Israel y Judá",
+      "dateBasis": "Consulta del ámbito histórico anterior, sin nueva observación de habitantes o fronteras.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -700,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-IRON-AGE-LEVANT-COMMUNITIES-YBC0700-R044.geojson",
+  "geometrySha256": "4a1e7ce6b80d6d65724909a86682b72eda2a0dce274167374919784912402eb1",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+    "year": -700,
+    "featureIds": [
+      16
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c"
+  },
+  "review": "0.44.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación locales. El final de consulta no demuestra desaparición."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Kingdom of David and Solomon",
+      "ABBREVN": "Kingdom of David and Solomon",
+      "SUBJECTO": "Kingdom of David and Solomon",
+      "TYPE": "kingdom",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Kingdom of David and Solomon"
+    }
+  ],
+  "sourceGrouping": [
+    "Kingdom of David and Solomon"
+  ]
+}

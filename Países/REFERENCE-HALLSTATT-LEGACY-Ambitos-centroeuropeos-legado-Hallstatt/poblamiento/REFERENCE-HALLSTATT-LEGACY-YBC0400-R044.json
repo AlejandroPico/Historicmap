@@ -1,0 +1,80 @@
+{
+  "key": "REFERENCE-HALLSTATT-LEGACY-YBC0400-R044",
+  "contextKey": "REFERENCE-HALLSTATT-LEGACY",
+  "ownerKey": "REFERENCE-HALLSTATT-LEGACY",
+  "name": "Ámbitos centroeuropeos · legado Hallstatt",
+  "originalNames": [
+    "Hallstatt culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de400a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -400,
+    99
+  ],
+  "interpretation": "Tradición arqueológica anterior, no una población uniforme Hallstatt todavía observada en400.",
+  "spatialUncertainty": "Contorno original de compilación mundial, resolución desigual y contraste regional pendiente; no frontera política anual.",
+  "temporalUncertainty": "No existe snapshot600 en esta fuente. El ámbito700 se consulta como referencia histórica entre600–501, sin certificar permanencia. Las referencias500/400 no equivalen a observaciones de cada año.",
+  "references": [
+    {
+      "title": "Historical Basemaps400a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc400.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    9.50969,
+    46.93998
+  ],
+  "phases": [
+    {
+      "start": -400,
+      "end": -301,
+      "label": "Ámbitos centroeuropeos · legado Hallstatt",
+      "dateBasis": "Contorno de400a.C.; consulta de referencia, sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -450
+    },
+    {
+      "start": -300,
+      "end": 99,
+      "label": "Ámbitos centroeuropeos · legado Hallstatt",
+      "dateBasis": "Consulta del ámbito histórico anterior, sin nueva observación de habitantes o fronteras.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -400,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-HALLSTATT-LEGACY-YBC0400-R044.geojson",
+  "geometrySha256": "2a5037400f194f17a870dda39f1184c5a867f4afad84319202bbbcfc8c360c8c",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc400.geojson",
+    "year": -400,
+    "featureIds": [
+      183
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "7c657b265b2896744efa2c56dd66f0f4a8e647f9dd3c3fbe2c4575515e4b260b"
+  },
+  "review": "0.44.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación locales. El final de consulta no demuestra desaparición."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Hallstatt culture",
+      "ABBREVN": "Hallstatt culture",
+      "CONTROL": null,
+      "SUBJECTO": "Hallstatt culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Celltic Hallsatt culture"
+    }
+  ],
+  "sourceGrouping": [
+    "Hallstatt culture"
+  ]
+}

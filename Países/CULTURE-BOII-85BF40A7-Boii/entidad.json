@@ -1,0 +1,61 @@
+{
+  "key": "CULTURE-BOII-85BF40A7",
+  "name": "Boii",
+  "qid": "",
+  "aliases": [
+    "Boii"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 102,
+      "start": null,
+      "end": null,
+      "name": "Boii",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-BOII-85BF40A7-YBC0400-R044:0",
+      "contextKey": "CULTURE-BOII-85BF40A7",
+      "start": -400,
+      "end": -301,
+      "sourceYear": -400,
+      "canonicalFile": "Países/CULTURE-BOII-85BF40A7-Boii/poblamiento/CULTURE-BOII-85BF40A7-YBC0400-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-BOII-85BF40A7-YBC0400-R044:1",
+      "contextKey": "CULTURE-BOII-85BF40A7",
+      "start": -300,
+      "end": 99,
+      "sourceYear": -400,
+      "canonicalFile": "Países/CULTURE-BOII-85BF40A7-Boii/poblamiento/CULTURE-BOII-85BF40A7-YBC0400-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-BOII-85BF40A7-YBC0500-R044:0",
+      "contextKey": "CULTURE-BOII-85BF40A7",
+      "start": -500,
+      "end": -401,
+      "sourceYear": -500,
+      "canonicalFile": "Países/CULTURE-BOII-85BF40A7-Boii/poblamiento/CULTURE-BOII-85BF40A7-YBC0500-R044.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

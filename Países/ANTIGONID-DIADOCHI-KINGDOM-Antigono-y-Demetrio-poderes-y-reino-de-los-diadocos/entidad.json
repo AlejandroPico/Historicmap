@@ -1,0 +1,63 @@
+{
+  "key": "ANTIGONID-DIADOCHI-KINGDOM",
+  "name": "Antígono y Demetrio · poderes y reino de los diádocos",
+  "qid": "",
+  "aliases": [
+    "Antígono y Demetrio · poderes y reino de los diádocos"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "ANTIGONID-DIADOCHI-KINGDOM"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "documented044-antigonus",
+      "name": "Antígono I Monóftalmos",
+      "role": "Sátrapa y dinasta de Frigia · antes del título real",
+      "start": "-0333-01-01",
+      "end": "-0307-12-31",
+      "precision": 9,
+      "source": "https://www.loc.gov/item/2013593022",
+      "note": "Autoridad regional y guerras de sucesión; no rey simultáneo de toda la monarquía de Alejandro.",
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "documented044-antigonus",
+      "name": "Antígono I Monóftalmos",
+      "role": "Rey helenístico · muere en Ipso301",
+      "start": "-0306-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://www.loc.gov/item/2013593022",
+      "note": "Autoridad regional y guerras de sucesión; no rey simultáneo de toda la monarquía de Alejandro.",
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "documented044-demetrius",
+      "name": "Demetrio I Poliorcetes",
+      "role": "Rey helenístico y mando junto a Antígono",
+      "start": "-0306-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://www.loc.gov/item/2013593022",
+      "note": "Autoridad regional y guerras de sucesión; no rey simultáneo de toda la monarquía de Alejandro.",
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

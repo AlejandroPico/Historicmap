@@ -1,0 +1,84 @@
+{
+  "key": "HIST-Q949268",
+  "name": "Nanda Empire",
+  "qid": "Q949268",
+  "aliases": [
+    "Nanda Empire"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q949268"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q3267658",
+      "name": "Majapadma Nanda",
+      "role": "Rey de Magadha · dinastía Nanda",
+      "start": "-0345-01-01",
+      "end": "-0329-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mahapadma_Nanda",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo. Las cronologías dependen de tradiciones budistas, jainas y puránicas y de la datación del Buddha. Se adopta una secuencia convencional, sin certificar cada fecha ni mezclar variantes.",
+      "documentedInterval": [
+        -345,
+        -329
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "Q10265876",
+      "name": "Dhana Nanda",
+      "role": "Rey de Magadha · dinastía Nanda",
+      "start": "-0329-01-01",
+      "end": "-0322-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dhana_Nanda",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo. Las cronologías dependen de tradiciones budistas, jainas y puránicas y de la datación del Buddha. Se adopta una secuencia convencional, sin certificar cada fecha ni mezclar variantes.",
+      "documentedInterval": [
+        -329,
+        -322
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-465",
+      "start": -333,
+      "end": -327,
+      "name": "Nanda Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-477",
+      "start": -326,
+      "end": -324,
+      "name": "Nanda Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-493",
+      "start": -323,
+      "end": -319,
+      "name": "Nanda Empire",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

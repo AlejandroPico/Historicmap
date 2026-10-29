@@ -1,0 +1,80 @@
+{
+  "key": "CULTURE-AUSTRO-ASIATIC-RICE-CULTURES-544E79AF-YBC0700-R044",
+  "contextKey": "CULTURE-AUSTRO-ASIATIC-RICE-CULTURES-544E79AF",
+  "ownerKey": "CULTURE-AUSTRO-ASIATIC-RICE-CULTURES-544E79AF",
+  "name": "Austro-Asiatic rice cultures",
+  "originalNames": [
+    "Austro-Asiatic rice cultures"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de700a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -600,
+    -401
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no estado unitario, identidad homogénea, censo ni frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial, resolución desigual y contraste regional pendiente; no frontera política anual.",
+  "temporalUncertainty": "No existe snapshot600 en esta fuente. El ámbito700 se consulta como referencia histórica entre600–501, sin certificar permanencia. Las referencias500/400 no equivalen a observaciones de cada año.",
+  "references": [
+    {
+      "title": "Historical Basemaps700a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    106.64687,
+    15.05092
+  ],
+  "phases": [
+    {
+      "start": -600,
+      "end": -501,
+      "label": "Austro-Asiatic rice cultures",
+      "dateBasis": "Contorno de700a.C.; consulta de referencia, sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -700
+    },
+    {
+      "start": -500,
+      "end": -401,
+      "label": "Austro-Asiatic rice cultures",
+      "dateBasis": "Consulta del ámbito histórico anterior hasta la siguiente referencia; no nueva observación poblacional.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -700,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-AUSTRO-ASIATIC-RICE-CULTURES-544E79AF-YBC0700-R044.geojson",
+  "geometrySha256": "ad81174384fa243a4640621a1e5e340bdd2f7b6c13b3b7c13ea841f572d20b74",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+    "year": -700,
+    "featureIds": [
+      78
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c"
+  },
+  "review": "0.44.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación locales. El final de consulta no demuestra desaparición."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Austro-Asiatic rice cultures",
+      "ABBREVN": "Austro-Asiatic rice cultures",
+      "SUBJECTO": "Austro-Asiatic rice cultures",
+      "TYPE": "rice farmers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Austro-Asiatic rice cultures"
+    }
+  ],
+  "sourceGrouping": [
+    "Austro-Asiatic rice cultures"
+  ]
+}

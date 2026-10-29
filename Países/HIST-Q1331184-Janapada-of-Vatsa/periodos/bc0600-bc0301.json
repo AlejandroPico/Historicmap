@@ -1,0 +1,157 @@
+{
+  "key": "HIST-Q1331184",
+  "identity": {
+    "qid": "Q1331184",
+    "name": "Janapada of Vatsa"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Rey de Vatsa · tradición literaria",
+      "titles": [
+        "Udayana"
+      ],
+      "documentedWindow": [
+        -500,
+        -460
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented044-hist-q1331184-udayana-500-ba0e8cac",
+      "name": "Udayana",
+      "role": "Rey de Vatsa · tradición literaria",
+      "start": "-0500-01-01",
+      "end": "-0460-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -500,
+        -460
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-31",
+      "name": "Kausambi",
+      "coordinates": [
+        81.39,
+        25.34
+      ],
+      "start": -600,
+      "end": -301,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Janapada of Vatsa"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Janapada of Vatsa",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "0a3d9e7507bbd2c9e7693b7cb957bc902ed836de0e93c9be56c78799b7325007",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        249,
+        326
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Udayana",
+        "title": "Udayana",
+        "person": "Q3633956",
+        "name": "Udayana",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Udayana",
+        "identityResolution": {
+          "requested": "Udayana",
+          "canonical": "Udayana",
+          "qid": "Q3633956"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3633956",
+        "title": "Udayana",
+        "source": "https://en.wikipedia.org/wiki/Udayana",
+        "reignFields": []
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "candidate": {
+        "requestedTitle": "Udayana",
+        "title": "Udayana",
+        "person": "Q3633956",
+        "name": "Udayana",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Udayana",
+        "identityResolution": {
+          "requested": "Udayana",
+          "canonical": "Udayana",
+          "qid": "Q3633956"
+        }
+      },
+      "title": "Udayana",
+      "documentedWindow": [
+        -500,
+        -460
+      ],
+      "reason": "Fechas vitales incompatibles con la ventana documental; no adoptar identidad ni foto del homónimo."
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": []
+}

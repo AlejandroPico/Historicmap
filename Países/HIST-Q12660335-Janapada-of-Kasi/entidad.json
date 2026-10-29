@@ -1,0 +1,52 @@
+{
+  "key": "HIST-Q12660335",
+  "name": "Janapada of Kāśī",
+  "qid": "Q12660335",
+  "aliases": [
+    "Janapada of Kāśī"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q12660335"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-252",
+      "start": -600,
+      "end": -481,
+      "name": "Janapada of Kāśī",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-318",
+      "start": -480,
+      "end": -451,
+      "name": "Janapada of Kāśī",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-KASI-4EA1F153-YBC0500-R044",
+      "ownerKey": "HIST-Q12660335",
+      "name": "Kasi",
+      "file": "Países/HIST-Q12660335-Janapada-of-Kasi/poblamiento/CULTURE-KASI-4EA1F153-YBC0500-R044.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,137 @@
+{
+  "key": "EGYPT-28TH-DYNASTY",
+  "identity": {
+    "qid": "",
+    "name": "Egipto · dinastía XXVIII"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Faraón · dinastía XXVIII",
+      "titles": [
+        "Amyrtaeus"
+      ],
+      "documentedWindow": [
+        -404,
+        -399
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q318000",
+      "name": "Amirteo",
+      "role": "Faraón · dinastía XXVIII",
+      "start": "-0404-01-01",
+      "end": "-0399-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Amyrtaeus",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -404,
+        -399
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-7",
+      "name": "Sais",
+      "coordinates": [
+        30.77,
+        30.96
+      ],
+      "start": -404,
+      "end": -400,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    },
+    {
+      "id": "seat044-7-reference",
+      "name": "Sais",
+      "coordinates": [
+        30.77,
+        30.96
+      ],
+      "start": -404,
+      "end": -400,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto.",
+      "standaloneReference": true,
+      "entityName": "Egipto · dinastía XXVIII"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Amyrtaeus",
+        "title": "Amyrtaeus",
+        "person": "Q318000",
+        "name": "Amirteo",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Amyrtaeus",
+        "identityResolution": {
+          "requested": "Amyrtaeus",
+          "canonical": "Amyrtaeus",
+          "qid": "Q318000"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q37110",
+          "start": "-0404-01-01",
+          "end": "-0399-01-01",
+          "precision": 9,
+          "statement": "Q318000$7024C020-BCF7-4C8F-AC20-B8ADBFB0D40E",
+          "label": "faraón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q318000",
+        "title": "Amyrtaeus",
+        "source": "https://en.wikipedia.org/wiki/Amyrtaeus",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Pharaoh of Egypt",
+            "raw": "404&ndash;399 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": []
+}

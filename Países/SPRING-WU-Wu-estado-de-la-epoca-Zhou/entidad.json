@@ -1,0 +1,165 @@
+{
+  "key": "SPRING-WU",
+  "name": "Wu · estado de la época Zhou",
+  "qid": "",
+  "aliases": [
+    "Wu",
+    "Wu · estado de la época Zhou"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "SPRING-WU"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q5962901",
+      "name": "Shoumeng",
+      "role": "Rey de Wu",
+      "start": "-0585-01-01",
+      "end": "-0561-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shoumeng",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -585,
+        -561
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "documented044-spring-wu-zhufan-560-bcc4237e",
+      "name": "Zhufan",
+      "role": "Rey de Wu",
+      "start": "-0560-01-01",
+      "end": "-0548-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -560,
+        -548
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "documented044-spring-wu-yuji-king-of-wu-547-1549e175",
+      "name": "Yuji (king of Wu)",
+      "role": "Rey de Wu",
+      "start": "-0547-01-01",
+      "end": "-0544-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -547,
+        -544
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "documented044-spring-wu-yumei-543-38b7b3d3",
+      "name": "Yumei",
+      "role": "Rey de Wu",
+      "start": "-0543-01-01",
+      "end": "-0527-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -543,
+        -527
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "Q1265711",
+      "name": "King Liao of Wu",
+      "role": "Rey de Wu",
+      "start": "-0526-01-01",
+      "end": "-0515-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Liao_of_Wu",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -526,
+        -515
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "Q1279924",
+      "name": "Helü de Wu",
+      "role": "Rey de Wu",
+      "start": "-0514-01-01",
+      "end": "-0496-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hel%C3%BC_of_Wu",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -514,
+        -496
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "Q1269349",
+      "name": "King Fuchai of Wu",
+      "role": "Rey de Wu",
+      "start": "-0495-01-01",
+      "end": "-0473-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Fuchai_of_Wu",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -495,
+        -473
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-179",
+      "start": -600,
+      "end": -551,
+      "name": "Wu",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-258",
+      "start": -550,
+      "end": -481,
+      "name": "Wu",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-317",
+      "start": -480,
+      "end": -451,
+      "name": "Wu",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

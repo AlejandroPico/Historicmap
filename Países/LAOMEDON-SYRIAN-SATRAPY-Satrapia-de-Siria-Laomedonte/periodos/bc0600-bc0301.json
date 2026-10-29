@@ -1,0 +1,141 @@
+{
+  "key": "LAOMEDON-SYRIAN-SATRAPY",
+  "identity": {
+    "qid": "",
+    "name": "Satrapía de Siria · Laomedonte"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Sátrapa de Siria",
+      "titles": [
+        "Laomedon of Mytilene"
+      ],
+      "documentedWindow": [
+        -323,
+        -320
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented044-laomedon-syrian-satrapy-laomedon-of-mytilene-323-b0e70abe",
+      "name": "Laomedon of Mytilene",
+      "role": "Sátrapa de Siria",
+      "start": "-0323-01-01",
+      "end": "-0320-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -323,
+        -320
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Laomedon"
+        ],
+        "start": -600,
+        "end": -321,
+        "label": "Satrapía de Siria · Laomedonte",
+        "admin": "HIST-Q237325",
+        "status": "protectorate",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "8aff1b1d0a95b421660a5deb3ab179065eb5ad4dce0dad7deeefad757d2f14e0",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        487
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Laomedon of Mytilene",
+        "title": "Laomedon of Mytilene",
+        "person": "Q977461",
+        "name": "Laomedonte",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Laomedon_of_Mytilene",
+        "identityResolution": {
+          "requested": "Laomedon of Mytilene",
+          "canonical": "Laomedon of Mytilene",
+          "qid": "Q977461"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q977461",
+        "title": "Laomedon of Mytilene",
+        "source": "https://en.wikipedia.org/wiki/Laomedon_of_Mytilene",
+        "reignFields": []
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "candidate": {
+        "requestedTitle": "Laomedon of Mytilene",
+        "title": "Laomedon of Mytilene",
+        "person": "Q977461",
+        "name": "Laomedonte",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Laomedon_of_Mytilene",
+        "identityResolution": {
+          "requested": "Laomedon of Mytilene",
+          "canonical": "Laomedon of Mytilene",
+          "qid": "Q977461"
+        }
+      },
+      "title": "Laomedon of Mytilene",
+      "documentedWindow": [
+        -323,
+        -320
+      ],
+      "reason": "Fechas vitales incompatibles con la ventana documental; no adoptar identidad ni foto del homónimo."
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": []
+}

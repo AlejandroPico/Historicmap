@@ -1,0 +1,87 @@
+{
+  "key": "CULTURE-MAIZE-FARMERS-EBB94A2D-YBC0400-R044",
+  "contextKey": "CULTURE-MAIZE-FARMERS-EBB94A2D",
+  "ownerKey": "CULTURE-MAIZE-FARMERS-EBB94A2D",
+  "name": "Maize farmers",
+  "originalNames": [
+    "Maize farmers"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de400a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -400,
+    -201
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no estado unitario, identidad homogénea, censo ni frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial, resolución desigual y contraste regional pendiente; no frontera política anual.",
+  "temporalUncertainty": "No existe snapshot600 en esta fuente. El ámbito700 se consulta como referencia histórica entre600–501, sin certificar permanencia. Las referencias500/400 no equivalen a observaciones de cada año.",
+  "references": [
+    {
+      "title": "Historical Basemaps400a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc400.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -103.1568,
+    21.9773
+  ],
+  "phases": [
+    {
+      "start": -400,
+      "end": -301,
+      "label": "Maize farmers",
+      "dateBasis": "Contorno de400a.C.; consulta de referencia, sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -300,
+      "end": -201,
+      "label": "Maize farmers",
+      "dateBasis": "Consulta del ámbito histórico anterior, sin nueva observación de habitantes o fronteras.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -400,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-MAIZE-FARMERS-EBB94A2D-YBC0400-R044.geojson",
+  "geometrySha256": "047958476bffdf4003d962dfe02edd663671b2bafb75aca242ba152739ac7c8d",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc400.geojson",
+    "year": -400,
+    "featureIds": [
+      78,
+      79
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "7c657b265b2896744efa2c56dd66f0f4a8e647f9dd3c3fbe2c4575515e4b260b"
+  },
+  "review": "0.44.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación locales. El final de consulta no demuestra desaparición."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Maize farmers",
+      "ABBREVN": "Maize farmers",
+      "CONTROL": null,
+      "SUBJECTO": "Maize farmers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Maize farmers"
+    },
+    {
+      "NAME": "Maize farmers",
+      "ABBREVN": "Maize farmers",
+      "CONTROL": null,
+      "SUBJECTO": "Maize farmers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Maize farmers"
+    }
+  ],
+  "sourceGrouping": [
+    "Maize farmers"
+  ]
+}

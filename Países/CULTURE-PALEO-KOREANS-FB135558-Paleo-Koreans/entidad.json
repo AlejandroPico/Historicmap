@@ -1,0 +1,61 @@
+{
+  "key": "CULTURE-PALEO-KOREANS-FB135558",
+  "name": "Paleo-Koreans",
+  "qid": "",
+  "aliases": [
+    "Paleo-Koreans"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 106,
+      "start": null,
+      "end": null,
+      "name": "Paleo-Koreans",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PALEO-KOREANS-FB135558-YBC0700-R044:0",
+      "contextKey": "CULTURE-PALEO-KOREANS-FB135558",
+      "start": -600,
+      "end": -501,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-PALEO-KOREANS-FB135558-Paleo-Koreans/poblamiento/CULTURE-PALEO-KOREANS-FB135558-YBC0700-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PALEO-KOREANS-FB135558-YBC0700-R044:1",
+      "contextKey": "CULTURE-PALEO-KOREANS-FB135558",
+      "start": -500,
+      "end": -301,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-PALEO-KOREANS-FB135558-Paleo-Koreans/poblamiento/CULTURE-PALEO-KOREANS-FB135558-YBC0700-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PALEO-KOREANS-FB135558-YBC0700-R044:2",
+      "contextKey": "CULTURE-PALEO-KOREANS-FB135558",
+      "start": -300,
+      "end": 99,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-PALEO-KOREANS-FB135558-Paleo-Koreans/poblamiento/CULTURE-PALEO-KOREANS-FB135558-YBC0700-R044.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,95 @@
+{
+  "key": "REFERENCE-GREEK-COMMUNITIES",
+  "name": "Comunidades y redes del mundo griego",
+  "qid": "",
+  "aliases": [
+    "Comunidades y redes del mundo griego",
+    "Greek city-states"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 119,
+      "start": null,
+      "end": null,
+      "name": "Greek city-states",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 11,
+      "start": null,
+      "end": null,
+      "name": "Greek city-states",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 18,
+      "start": null,
+      "end": null,
+      "name": "Greek city-states",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 98,
+      "start": null,
+      "end": null,
+      "name": "Greek city-states",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-GREEK-COMMUNITIES-YBC0400-R044:0",
+      "contextKey": "REFERENCE-GREEK-COMMUNITIES",
+      "start": -400,
+      "end": -301,
+      "sourceYear": -400,
+      "canonicalFile": "Países/REFERENCE-GREEK-COMMUNITIES-Comunidades-y-redes-del-mundo-griego/poblamiento/REFERENCE-GREEK-COMMUNITIES-YBC0400-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-GREEK-COMMUNITIES-YBC0400-R044:1",
+      "contextKey": "REFERENCE-GREEK-COMMUNITIES",
+      "start": -300,
+      "end": 99,
+      "sourceYear": -400,
+      "canonicalFile": "Países/REFERENCE-GREEK-COMMUNITIES-Comunidades-y-redes-del-mundo-griego/poblamiento/REFERENCE-GREEK-COMMUNITIES-YBC0400-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-GREEK-COMMUNITIES-YBC0500-R044:0",
+      "contextKey": "REFERENCE-GREEK-COMMUNITIES",
+      "start": -500,
+      "end": -401,
+      "sourceYear": -500,
+      "canonicalFile": "Países/REFERENCE-GREEK-COMMUNITIES-Comunidades-y-redes-del-mundo-griego/poblamiento/REFERENCE-GREEK-COMMUNITIES-YBC0500-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-GREEK-COMMUNITIES-YBC0700-R044:0",
+      "contextKey": "REFERENCE-GREEK-COMMUNITIES",
+      "start": -600,
+      "end": -501,
+      "sourceYear": -700,
+      "canonicalFile": "Países/REFERENCE-GREEK-COMMUNITIES-Comunidades-y-redes-del-mundo-griego/poblamiento/REFERENCE-GREEK-COMMUNITIES-YBC0700-R044.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

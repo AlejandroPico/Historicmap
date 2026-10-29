@@ -1,0 +1,217 @@
+{
+  "key": "HIST-Q32133",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Lisímaco"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Autoridad de Tracia · antes del título real",
+      "titles": [
+        "Lysimachus"
+      ],
+      "documentedWindow": [
+        -323,
+        -307
+      ]
+    },
+    {
+      "role": "Rey helenístico",
+      "titles": [
+        "Lysimachus"
+      ],
+      "documentedWindow": [
+        -306,
+        -281
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q32133",
+      "name": "Lisímaco de Tracia",
+      "role": "Autoridad de Tracia · antes del título real",
+      "start": "-0323-01-01",
+      "end": "-0307-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lysimachus",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -323,
+        -307
+      ],
+      "portrait": {
+        "file": "media/portrait-1ebf09993306fcf31c45.jpg",
+        "title": "Lisymachus, marble - Ephesus Museum.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Lisymachus,_marble_-_Ephesus_Museum.JPG",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lisymachus%2C_marble_-_Ephesus_Museum.JPG/330px-Lisymachus%2C_marble_-_Ephesus_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "José Luiz",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "© José Luiz Bernardes Ribeiro",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "cc031ab3e4736d1ba06b7d917f57415551722b9a3b5deb47aa75983c9faeab26",
+        "bytes": 41919,
+        "caption": "Busto tradicionalmente atribuido a Lisímaco; atribución artística, no certeza fisonómica.",
+        "canonicalFile": "Países/HIST-Q32133-Kingdom-of-Lysimachus/retratos/portrait-1ebf09993306fcf31c45.jpg"
+      }
+    },
+    {
+      "person": "Q32133",
+      "name": "Lisímaco de Tracia",
+      "role": "Rey helenístico",
+      "start": "-0306-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lysimachus",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -306,
+        -281
+      ],
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-1ebf09993306fcf31c45.jpg",
+        "title": "Lisymachus, marble - Ephesus Museum.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Lisymachus,_marble_-_Ephesus_Museum.JPG",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lisymachus%2C_marble_-_Ephesus_Museum.JPG/330px-Lisymachus%2C_marble_-_Ephesus_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "José Luiz",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "© José Luiz Bernardes Ribeiro",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "cc031ab3e4736d1ba06b7d917f57415551722b9a3b5deb47aa75983c9faeab26",
+        "bytes": 41919,
+        "caption": "Busto tradicionalmente atribuido a Lisímaco; atribución artística, no certeza fisonómica.",
+        "canonicalFile": "Países/HIST-Q32133-Kingdom-of-Lysimachus/retratos/portrait-1ebf09993306fcf31c45.jpg"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Lysimachus"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Reino de Lisímaco",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "f5a26c8b60a37bfdd2e9dd9cf74beec091442830da466aea24619e0329d9e8be",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        491,
+        507,
+        515,
+        535
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Lysimachus",
+        "title": "Lysimachus",
+        "person": "Q32133",
+        "name": "Lisímaco de Tracia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Lysimachus",
+        "identityResolution": {
+          "requested": "Lysimachus",
+          "canonical": "Lysimachus",
+          "qid": "Q32133"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q13476275",
+          "start": "-0304-01-01",
+          "end": "-0281-01-01",
+          "precision": 9,
+          "statement": "q32133$2ce76719-4a85-993e-0970-98a2eccc1740",
+          "label": "rey de Tracia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q32133",
+        "title": "Lysimachus",
+        "source": "https://en.wikipedia.org/wiki/Lysimachus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Thrace",
+            "raw": "306–281 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of Asia Minor",
+            "raw": "301–281 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "King of Macedon with Pyrrhus of Epirus",
+            "raw": "288–281 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": [
+    {
+      "person": "Q32133",
+      "title": "Lisymachus, marble - Ephesus Museum.JPG",
+      "decision": "accepted",
+      "reason": "Busto tradicionalmente atribuido a Lisímaco; atribución artística, no certeza fisonómica."
+    }
+  ]
+}

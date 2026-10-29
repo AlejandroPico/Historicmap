@@ -1,0 +1,214 @@
+{
+  "key": "HIST-Q208404",
+  "identity": {
+    "qid": "Q208404",
+    "name": "Kingdom of Armenia"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Sátrapa y dinasta oróntida",
+      "titles": [
+        "Orontes II"
+      ],
+      "documentedWindow": [
+        -336,
+        -331
+      ]
+    },
+    {
+      "role": "Sátrapa y dinasta oróntida",
+      "titles": [
+        "Orontes III"
+      ],
+      "documentedWindow": [
+        -321,
+        -260
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1382490",
+      "name": "Orontes II",
+      "role": "Sátrapa y dinasta oróntida",
+      "start": "-0336-01-01",
+      "end": "-0331-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Orontes_II",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -336,
+        -331
+      ]
+    },
+    {
+      "person": "Q1342141",
+      "name": "Orontes III",
+      "role": "Sátrapa y dinasta oróntida",
+      "start": "-0321-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Orontes_III",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -321,
+        -260
+      ],
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Armenia"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Kingdom of Armenia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "705c527f7c8671cdc12b472dcca42226b6d10e227207966ee28472be05be4108",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        481,
+        497,
+        501,
+        512,
+        518,
+        531
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Orontes II",
+        "title": "Orontes II",
+        "person": "Q1382490",
+        "name": "Orontes II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Orontes_II",
+        "identityResolution": {
+          "requested": "Orontes II",
+          "canonical": "Orontes II",
+          "qid": "Q1382490"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q14489138",
+          "start": "-0336-01-01",
+          "end": "-0331-01-01",
+          "precision": 9,
+          "statement": "q1382490$A6404F24-8215-4969-AE46-1BD28C1F7FB6",
+          "label": "sátrapa de Armenia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1382490",
+        "title": "Orontes II",
+        "source": "https://en.wikipedia.org/wiki/Orontes_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Satrap of Armenia",
+            "raw": "336–331 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of Armenia",
+            "raw": "331 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Orontes III",
+        "title": "Orontes III",
+        "person": "Q1342141",
+        "name": "Orontes III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Orontes_III",
+        "identityResolution": {
+          "requested": "Orontes III",
+          "canonical": "Orontes III",
+          "qid": "Q1342141"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q14489138",
+          "start": "-0317-01-01",
+          "end": "-0301-01-01",
+          "precision": 9,
+          "statement": "q1342141$23324887-570D-47B6-8258-F7EBEE53E5F5",
+          "label": "sátrapa de Armenia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1342141",
+        "title": "Orontes III",
+        "source": "https://en.wikipedia.org/wiki/Orontes_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "321 – 260 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": []
+}

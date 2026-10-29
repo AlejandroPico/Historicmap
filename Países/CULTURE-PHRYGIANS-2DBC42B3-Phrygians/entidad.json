@@ -1,0 +1,61 @@
+{
+  "key": "CULTURE-PHRYGIANS-2DBC42B3",
+  "name": "Phrygians",
+  "qid": "",
+  "aliases": [
+    "Phrygians"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 102,
+      "start": null,
+      "end": null,
+      "name": "Phrygians",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PHRYGIANS-2DBC42B3-YBC0700-R044:0",
+      "contextKey": "CULTURE-PHRYGIANS-2DBC42B3",
+      "start": -600,
+      "end": -501,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-PHRYGIANS-2DBC42B3-Phrygians/poblamiento/CULTURE-PHRYGIANS-2DBC42B3-YBC0700-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PHRYGIANS-2DBC42B3-YBC0700-R044:1",
+      "contextKey": "CULTURE-PHRYGIANS-2DBC42B3",
+      "start": -500,
+      "end": -301,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-PHRYGIANS-2DBC42B3-Phrygians/poblamiento/CULTURE-PHRYGIANS-2DBC42B3-YBC0700-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PHRYGIANS-2DBC42B3-YBC0700-R044:2",
+      "contextKey": "CULTURE-PHRYGIANS-2DBC42B3",
+      "start": -300,
+      "end": 99,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-PHRYGIANS-2DBC42B3-Phrygians/poblamiento/CULTURE-PHRYGIANS-2DBC42B3-YBC0700-R044.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

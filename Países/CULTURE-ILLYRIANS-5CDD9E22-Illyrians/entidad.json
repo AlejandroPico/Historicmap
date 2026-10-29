@@ -1,0 +1,78 @@
+{
+  "key": "CULTURE-ILLYRIANS-5CDD9E22",
+  "name": "Illyrians",
+  "qid": "",
+  "aliases": [
+    "Illyrians"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 99,
+      "start": null,
+      "end": null,
+      "name": "Illyrians",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 181,
+      "start": null,
+      "end": null,
+      "name": "Illyrians",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ILLYRIANS-5CDD9E22-YBC0500-R044:0",
+      "contextKey": "CULTURE-ILLYRIANS-5CDD9E22",
+      "start": -500,
+      "end": -401,
+      "sourceYear": -500,
+      "canonicalFile": "Países/CULTURE-ILLYRIANS-5CDD9E22-Illyrians/poblamiento/CULTURE-ILLYRIANS-5CDD9E22-YBC0500-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ILLYRIANS-5CDD9E22-YBC0500-R044:1",
+      "contextKey": "CULTURE-ILLYRIANS-5CDD9E22",
+      "start": -400,
+      "end": -301,
+      "sourceYear": -500,
+      "canonicalFile": "Países/CULTURE-ILLYRIANS-5CDD9E22-Illyrians/poblamiento/CULTURE-ILLYRIANS-5CDD9E22-YBC0500-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ILLYRIANS-5CDD9E22-YBC0500-R044:2",
+      "contextKey": "CULTURE-ILLYRIANS-5CDD9E22",
+      "start": -300,
+      "end": 99,
+      "sourceYear": -500,
+      "canonicalFile": "Países/CULTURE-ILLYRIANS-5CDD9E22-Illyrians/poblamiento/CULTURE-ILLYRIANS-5CDD9E22-YBC0500-R044.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ILLYRIANS-5CDD9E22-YBC0700-R044:0",
+      "contextKey": "CULTURE-ILLYRIANS-5CDD9E22",
+      "start": -600,
+      "end": -501,
+      "sourceYear": -700,
+      "canonicalFile": "Países/CULTURE-ILLYRIANS-5CDD9E22-Illyrians/poblamiento/CULTURE-ILLYRIANS-5CDD9E22-YBC0700-R044.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

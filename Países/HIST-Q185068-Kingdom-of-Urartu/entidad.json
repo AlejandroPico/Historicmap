@@ -1,0 +1,44 @@
+{
+  "key": "HIST-Q185068",
+  "name": "Kingdom of Urartu",
+  "qid": "Q185068",
+  "aliases": [
+    "Kingdom of Urartu"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q185068"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-250",
+      "start": -600,
+      "end": -551,
+      "name": "Kingdom of Urartu",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-URARTU-0A55F267-YBC0700-R044",
+      "ownerKey": "HIST-Q185068",
+      "name": "Urartu",
+      "file": "Países/HIST-Q185068-Kingdom-of-Urartu/poblamiento/CULTURE-URARTU-0A55F267-YBC0700-R044.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

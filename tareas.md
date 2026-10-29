@@ -1,6 +1,23 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.43.0 · 300–201 a. C.
+## Encargo vigente · 0.44.0 · 600–301 a. C.
+
+- [x] Inventario, fuentes y cronologías de los tres siglos.
+- [x] Dossiers políticos y culturales, autoridades y representaciones acreditadas en Países.
+- [x] Integración anual, sucesiones y continuidad con300a.C.; preservar toda la información previa.
+- [x] Pruebas locales, cotejo final del índiceGit y preparación del envío a main sin esperar Actions/Pages.
+
+Partida: cad30c9fa, árbol limpio.86 nombres políticos/296 componentes originales. No asumir que el pasado contiene menos sociedades: distinguir densidad documental de ocupación humana. Datos, pruebas, conservación e idempotencia terminados. Al reanudar, cotejar HEAD/origin/main y cambios pendientes antes de repetir trabajos o declarar el envío confirmado.
+
+Progreso0.44:87 dossiers/427 autoridades/296 componentes;47 centros,44 contextos,34 puntos.223 originales culturales,290 fases nuevas/9.862 totales.107 imágenes inspeccionadas:66 aceptadas/41 rechazadas.329 pruebas generales/70 suites correctas; tras las últimas revisiones, otras25 focales,22Python, tipos y compilación correctos. Seis recorridos únicos de navegador correctos: tres regresiones y los tres nuevos; estos últimos se repiten sobre la compilación definitiva y pasan. Tres capturas revisadas en escritorio/móvil. CI123 casos31/31/31/30 sin omisiones ni duplicados; no se afirma ejecución local completa. Integridad135 datos/11 glifos/9.060 medios. Idempotencia229 archivos sin diferencias.
+
+La comprobación visual descubrió que Atenas heredaba el nombre de una confederación posterior, impidiendo buscarla como ciudad en otras fechas. Corregidos cuatro nombres canónicos con fuente/motivo explícitos; Atenas/Esparta/Tebas yCirenaica conservan carpetas registradas. Tebas no recibe falsa monarquía por un mando militar; fin de la realeza batíada440 y fase republicana posterior. Conservación:1.482 identidades,19.534 cargos,1.040 símbolos y9.572 fases previas;130 recursos anteriores retenidos,118 idénticos y cinco nuevos.39 vistas generadas consolidadas conservan53 registros territoriales.
+
+Fuentes y carencias enRESEARCH-bc600; cierre enDELIVERY-0.44.0. No repetir seed/supplement/curate/support/adopt/finaldata044: duplicarían fases o sobrescribirían revisiones. Antígono/Demetrio disponen de centro sin inventar polígono; el agregado315–308 no prueba un control único. Pendientes: partición especializada macedonia, contornos de ciudades y estados, cronologías locales, cargos completos, símbolos/retratos acreditados y bibliografía cultural regional. Continúan pendientes Xinzheng230, Copán, dependencia etolia, títulos heredados de fases culturales anteriores y frentes modernos. Revisar el restablecimiento del resaltado cultural al reactivar sus capas: la ficha sigue abierta, pero la captura no muestra el contorno seleccionado. No iniciar antes600 sin encargo. El propietario comprueba publicación; no esperar ni sondear Actions/Pages.
+
+ÍndiceGit final: 1034 archivos nuevos/modificados cotejados con sus bytes locales; 9206 recursos de manifiestos verificados porSHA-256 yblobGit (9129 blobs de recursos anteriores sin cambios); 1229 originales canónicos de símbolos/representaciones comprobados directamente en el índice. Los cuatro documentos de cierre se cotejan otra vez después de incorporar estas cifras. No se espera ni sondea Actions/Pages.
+
+## Entrega anterior · 0.43.0 · 300–201 a. C.
 
 - [x] Inventariar originales políticos/culturales y revisar cronologías, especialmente sucesores de Alejandro y unificación Qin/Han.
 - [x] Autoridades, representaciones revisadas, centros, contexto y conflictos dentro de las carpetas de cada entidad.

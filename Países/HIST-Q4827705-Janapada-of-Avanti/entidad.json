@@ -1,0 +1,85 @@
+{
+  "key": "HIST-Q4827705",
+  "name": "Janapada of Avanti",
+  "qid": "Q4827705",
+  "aliases": [
+    "Janapada of Avanti"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q4827705"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "documented044-hist-q4827705-pradyota-550-13a8ea92",
+      "name": "Pradyota",
+      "role": "Rey de Avanti · cronología aproximada",
+      "start": "-0550-01-01",
+      "end": "-0503-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -550,
+        -503
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "documented044-hist-q4827705-palaka-503-6431c4b7",
+      "name": "Palaka",
+      "role": "Rey de Avanti · cronología aproximada",
+      "start": "-0503-01-01",
+      "end": "-0453-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -503,
+        -453
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-233",
+      "start": -600,
+      "end": -451,
+      "name": "Janapada of Avanti",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-347",
+      "start": -450,
+      "end": -405,
+      "name": "Janapada of Avanti",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-AVANTI-29DDFD8A-YBC0500-R044",
+      "ownerKey": "HIST-Q4827705",
+      "name": "Avanti",
+      "file": "Países/HIST-Q4827705-Janapada-of-Avanti/poblamiento/CULTURE-AVANTI-29DDFD8A-YBC0500-R044.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

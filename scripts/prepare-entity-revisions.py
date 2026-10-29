@@ -70,6 +70,10 @@ def main(acquire=False, portrait_only=False):
         if not country and revision.get('identity'):
             country=identities['countries'].setdefault(key,{**revision['identity'],'flags':[],'leaders':[]})
         if not country:raise ValueError('Unknown entity '+key)
+        correction=revision.get('identityNameCorrection')
+        if correction:
+            if not all(correction.get(field) for field in ['name','source','reason']):raise ValueError('Incomplete identity name correction '+str(path))
+            country['name']=correction['name']
         for field in ['flags','leaders','symbolReferences']:
             country[field]=[r for r in country.get(field,[]) if r.get('acquisition')!=tag]
         for removal in revision.get('replace',[]):

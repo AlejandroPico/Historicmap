@@ -1,0 +1,69 @@
+{
+  "key": "HIST-Q1183338",
+  "name": "Median Kingdom",
+  "qid": "Q1183338",
+  "aliases": [
+    "Median Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1183338"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q297855",
+      "name": "Ciáxares",
+      "role": "Rey medo · cronología convencional",
+      "start": "-0600-01-01",
+      "end": "-0585-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cyaxares",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -625,
+        -585
+      ],
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    },
+    {
+      "person": "documented044-hist-q1183338-astyages-585-cc17be86",
+      "name": "Astyages",
+      "role": "Rey medo · cronología convencional",
+      "start": "-0585-01-01",
+      "end": "-0550-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -585,
+        -550
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-253",
+      "start": -600,
+      "end": -551,
+      "name": "Median Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,78 @@
+{
+  "key": "CULTURE-SCYTHIANS-0AD53195-YBC0400-R044",
+  "contextKey": "CULTURE-SCYTHIANS-0AD53195",
+  "ownerKey": "CULTURE-SCYTHIANS-0AD53195",
+  "name": "Scythians",
+  "originalNames": [
+    "Scythians"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de400a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -400,
+    -201
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no estado unitario, identidad homogénea, censo ni frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial, resolución desigual y contraste regional pendiente; no frontera política anual.",
+  "temporalUncertainty": "No existe snapshot600 en esta fuente. El ámbito700 se consulta como referencia histórica entre600–501, sin certificar permanencia. Las referencias500/400 no equivalen a observaciones de cada año.",
+  "references": [
+    {
+      "title": "Historical Basemaps400a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc400.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    45.48864,
+    50.42304
+  ],
+  "phases": [
+    {
+      "start": -400,
+      "end": -301,
+      "label": "Scythians",
+      "dateBasis": "Contorno de400a.C.; consulta de referencia, sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -300,
+      "end": -201,
+      "label": "Scythians",
+      "dateBasis": "Consulta del ámbito histórico anterior, sin nueva observación de habitantes o fronteras.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -400,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-SCYTHIANS-0AD53195-YBC0400-R044.geojson",
+  "geometrySha256": "504ec6e145bbf1b3279972b1df717f685239875d47af0946095afe55158e13ea",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc400.geojson",
+    "year": -400,
+    "featureIds": [
+      85
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "7c657b265b2896744efa2c56dd66f0f4a8e647f9dd3c3fbe2c4575515e4b260b"
+  },
+  "review": "0.44.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación locales. El final de consulta no demuestra desaparición."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Scythians",
+      "ABBREVN": "Scythians",
+      "CONTROL": null,
+      "SUBJECTO": "Scythians",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Scythians"
+    }
+  ],
+  "sourceGrouping": [
+    "Scythians"
+  ]
+}

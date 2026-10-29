@@ -1,0 +1,218 @@
+{
+  "key": "HIST-Q756854",
+  "identity": {
+    "qid": "Q756854",
+    "name": "Janapada of Kosala"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Rey de Kosala · cronología tradicional",
+      "titles": [
+        "Pasenadi"
+      ],
+      "documentedWindow": [
+        -560,
+        -491
+      ]
+    },
+    {
+      "role": "Rey de Kosala · cronología tradicional",
+      "titles": [
+        "Virudhaka"
+      ],
+      "documentedWindow": [
+        -491,
+        -485
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3055324",
+      "name": "Pasenadi",
+      "role": "Rey de Kosala · cronología tradicional",
+      "start": "-0560-01-01",
+      "end": "-0491-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pasenadi",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -560,
+        -491
+      ]
+    },
+    {
+      "person": "Q3267648",
+      "name": "Virudhaka",
+      "role": "Rey de Kosala · cronología tradicional",
+      "start": "-0491-01-01",
+      "end": "-0485-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Vi%E1%B8%8D%C5%AB%E1%B8%8Dabha",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -491,
+        -485
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-30",
+      "name": "Sravasti",
+      "coordinates": [
+        82.05,
+        27.51
+      ],
+      "start": -600,
+      "end": -301,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Janapada of Kosala"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Janapada of Kosala",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "557210441e1f61a8d18dc8798af7991027f6ab6934ccec31ac23e8c1813f7faf",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        244,
+        309
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Pasenadi",
+        "title": "Pasenadi",
+        "person": "Q3055324",
+        "name": "Pasenadi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pasenadi",
+        "identityResolution": {
+          "requested": "Pasenadi",
+          "canonical": "Pasenadi",
+          "qid": "Q3055324"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3055324",
+        "title": "Pasenadi",
+        "source": "https://en.wikipedia.org/wiki/Pasenadi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Kosala",
+            "raw": "6th or 5th century BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Virudhaka",
+        "title": "Virudhaka",
+        "person": "Q3267648",
+        "name": "Virudhaka",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Vi%E1%B8%8D%C5%AB%E1%B8%8Dabha",
+        "identityResolution": {
+          "requested": "Virudhaka",
+          "canonical": "Viḍūḍabha",
+          "qid": "Q3267648"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3267648",
+        "title": "Viḍūḍabha",
+        "source": "https://en.wikipedia.org/wiki/Vi%E1%B8%8D%C5%AB%E1%B8%8Dabha",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Kosala",
+            "raw": "5th century BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Kosala",
+            "raw": "5th century BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "rejectedPortraits": [
+    {
+      "person": "Q3055324",
+      "title": "Prasenajit of Kosala pays a visti.jpg",
+      "reason": "Escena colectiva con Buddha, no retrato individual legible de Pasenadi."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q3055324",
+      "title": "Prasenajit of Kosala pays a visti.jpg",
+      "decision": "rejected",
+      "reason": "Escena colectiva con Buddha, no retrato individual legible de Pasenadi."
+    }
+  ]
+}

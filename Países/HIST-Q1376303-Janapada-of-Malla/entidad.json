@@ -1,0 +1,65 @@
+{
+  "key": "HIST-Q1376303",
+  "name": "Janapada of Malla",
+  "qid": "Q1376303",
+  "aliases": [
+    "Janapada of Malla"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1376303"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "institution044-HIST-Q1376303",
+      "name": "Consejos y linajes de la confederación",
+      "role": "Instituciones colegiadas",
+      "start": "-0600-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://ignca.gov.in/Asi_data/42413.pdf",
+      "note": "Forma de organización gana/sangha; titulares y cronología locales pendientes. No un presidente moderno ni una democracia de sufragio universal.",
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-239",
+      "start": -600,
+      "end": -481,
+      "name": "Janapada of Malla",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-302",
+      "start": -480,
+      "end": -451,
+      "name": "Janapada of Malla",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-MALLA-0E61B56E-YBC0500-R044",
+      "ownerKey": "HIST-Q1376303",
+      "name": "Malla",
+      "file": "Países/HIST-Q1376303-Janapada-of-Malla/poblamiento/CULTURE-MALLA-0E61B56E-YBC0500-R044.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

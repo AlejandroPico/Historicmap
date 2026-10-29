@@ -1,0 +1,285 @@
+{
+  "key": "PTOLEMAIC-EGYPT",
+  "identity": {
+    "qid": "",
+    "name": "Reino ptolemaico de Egipto"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Sátrapa de Egipto · antes del título real",
+      "titles": [
+        "Ptolemy I Soter"
+      ],
+      "documentedWindow": [
+        -323,
+        -306
+      ]
+    },
+    {
+      "role": "Rey ptolemaico de Egipto",
+      "titles": [
+        "Ptolemy I Soter"
+      ],
+      "documentedWindow": [
+        -305,
+        -282
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q168261",
+      "name": "Ptolomeo I",
+      "role": "Sátrapa de Egipto · antes del título real",
+      "start": "-0323-01-01",
+      "end": "-0306-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ptolemy_I_Soter",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -323,
+        -306
+      ],
+      "portrait": {
+        "file": "media/portrait-48d89a28de013e6c4ce1.jpg",
+        "title": "Ptolemy I Soter Louvre Ma849 A.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ptolemy_I_Soter_Louvre_Ma849_A.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Ptolemy_I_Soter_Louvre_Ma849_A.jpg/330px-Ptolemy_I_Soter_Louvre_Ma849_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Marie-Lan Nguyen",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ptolemy_I_Soter_Louvre_Ma849_A.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "This file was derived from:  Ptolemy I Soter Louvre Ma849.jpg",
+        "sha256": "1dd9207596eae68020c69c412c92d4caac0359a57bf54d3f4da72aad8a9c8bc2",
+        "bytes": 27442,
+        "caption": "Busto tradicionalmente atribuido a PtolomeoI, LouvreMa849.",
+        "canonicalFile": "Países/PTOLEMAIC-EGYPT-Reino-ptolemaico-de-Egipto/retratos/portrait-48d89a28de013e6c4ce1.jpg"
+      }
+    },
+    {
+      "person": "Q168261",
+      "name": "Ptolomeo I",
+      "role": "Rey ptolemaico de Egipto",
+      "start": "-0305-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ptolemy_I_Soter",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -305,
+        -282
+      ],
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-48d89a28de013e6c4ce1.jpg",
+        "title": "Ptolemy I Soter Louvre Ma849 A.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ptolemy_I_Soter_Louvre_Ma849_A.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Ptolemy_I_Soter_Louvre_Ma849_A.jpg/330px-Ptolemy_I_Soter_Louvre_Ma849_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Marie-Lan Nguyen",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ptolemy_I_Soter_Louvre_Ma849_A.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "This file was derived from:  Ptolemy I Soter Louvre Ma849.jpg",
+        "sha256": "1dd9207596eae68020c69c412c92d4caac0359a57bf54d3f4da72aad8a9c8bc2",
+        "bytes": 27442,
+        "caption": "Busto tradicionalmente atribuido a PtolomeoI, LouvreMa849.",
+        "canonicalFile": "Países/PTOLEMAIC-EGYPT-Reino-ptolemaico-de-Egipto/retratos/portrait-48d89a28de013e6c4ce1.jpg"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-12",
+      "name": "Alejandría",
+      "coordinates": [
+        29.918,
+        31.2
+      ],
+      "start": -323,
+      "end": -301,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Thirtieth Dynasty of Egypt"
+        ],
+        "start": -332,
+        "end": -301,
+        "label": "Egipto · administración macedonia y ptolemaica",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Ptolemaic Kingdom"
+        ],
+        "start": -323,
+        "end": -306,
+        "label": "Egipto · satrapía de Ptolomeo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Ptolemaic Kingdom"
+        ],
+        "start": -305,
+        "end": -301,
+        "label": "Reino ptolemaico de Egipto",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Laomedon"
+        ],
+        "start": -320,
+        "end": -301,
+        "label": "Ptolomeo · control de Siria disputado",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "69febc940ae95e94799154b338041b1992b9a9448cc63b7b501f50f7a3f4e043",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        467,
+        484,
+        519,
+        530
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ptolemy I Soter",
+        "title": "Ptolemy I Soter",
+        "person": "Q168261",
+        "name": "Ptolomeo I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ptolemy_I_Soter",
+        "identityResolution": {
+          "requested": "Ptolemy I Soter",
+          "canonical": "Ptolemy I Soter",
+          "qid": "Q168261"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q37110",
+          "start": "-0305-01-01",
+          "end": "-0283-01-01",
+          "precision": 9,
+          "statement": "Q168261$0EE61260-75D4-4336-A49C-0EB915496CE6",
+          "label": "faraón"
+        },
+        {
+          "property": "P97",
+          "office": "Q37110",
+          "start": "-0305-01-01",
+          "end": "-0283-01-01",
+          "precision": 9,
+          "statement": "q168261$f2509fd5-47e4-e188-8fc1-b25a5c0dbb36",
+          "label": "faraón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q168261",
+        "title": "Ptolemy I Soter",
+        "source": "https://en.wikipedia.org/wiki/Ptolemy_I_Soter",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "305 – January 282 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Pharaoh of Egypt",
+            "raw": "305/304–282 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": [
+    {
+      "person": "Q168261",
+      "title": "Ptolemy I Soter Louvre Ma849 A.jpg",
+      "decision": "accepted",
+      "reason": "Busto tradicionalmente atribuido a PtolomeoI, LouvreMa849."
+    }
+  ]
+}

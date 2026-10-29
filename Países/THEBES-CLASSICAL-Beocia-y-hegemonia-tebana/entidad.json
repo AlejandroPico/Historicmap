@@ -1,0 +1,94 @@
+{
+  "key": "THEBES-CLASSICAL",
+  "name": "Tebas de Beocia · instituciones cívicas",
+  "qid": "",
+  "aliases": [
+    "Sacred Band of Thebes",
+    "Tebas de Beocia · instituciones cívicas",
+    "Thebans"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "THEBES-CLASSICAL"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q190436",
+      "name": "Epaminondas",
+      "role": "Beotarca y mando tebano · mandatos seleccionados",
+      "start": "-0371-01-01",
+      "end": "-0362-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Epaminondas",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -371,
+        -362
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44",
+      "portrait": {
+        "file": "media/portrait-318cdda61f3feacb665c.jpg",
+        "title": "Epaminondas - Temple of Ancient Virtue, Stowe - Buckinghamshire, England - DSC07376 (cropped).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Epaminondas_-_Temple_of_Ancient_Virtue,_Stowe_-_Buckinghamshire,_England_-_DSC07376_(cropped).jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Epaminondas_-_Temple_of_Ancient_Virtue%2C_Stowe_-_Buckinghamshire%2C_England_-_DSC07376_%28cropped%29.jpg/330px-Epaminondas_-_Temple_of_Ancient_Virtue%2C_Stowe_-_Buckinghamshire%2C_England_-_DSC07376_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Daderot",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Epaminondas_-_Temple_of_Ancient_Virtue,_Stowe_-_Buckinghamshire,_England_-_DSC07376_(cropped).jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "4a295533a459b954fd2de9a564603a39fc3d609bdb8eeb493ea935c368d6647c",
+        "bytes": 39343,
+        "canonicalFile": "Países/THEBES-CLASSICAL-Beocia-y-hegemonia-tebana/retratos/portrait-318cdda61f3feacb665c.jpg",
+        "caption": "Estatua conmemorativa de Epaminondas en Stowe; recreación artística moderna."
+      }
+    },
+    {
+      "person": "Q316059",
+      "name": "Pelópidas",
+      "role": "Beotarca y mando tebano · mandatos seleccionados",
+      "start": "-0379-01-01",
+      "end": "-0364-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pelopidas",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -379,
+        -364
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-410",
+      "start": -366,
+      "end": -351,
+      "name": "Sacred Band of Thebes",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-428",
+      "start": -350,
+      "end": -338,
+      "name": "Thebans",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

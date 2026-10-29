@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.44.0 · 29 de octubre de 2026
+
+- Consulta anual600–301a.C.:87 dossiers,427 registros de autoridades,296 componentes originales,47 centros,44 contextos y34 puntos de conflictos.
+- Sucesiones y títulos en Persia, Egipto, Macedonia, ciudades griegas, Roma, China Zhou, Magadha,Lanka yKush; claves propias y cualificación de identidades anacrónicas. Las dependencias e incorporaciones cambian la cartografía principal.
+- 223 originales culturales de700,500 y400a.C.;290 fases nuevas y9.862 totales.700 se consulta como referencia histórica anterior, sin inventar un mapa600. Se conservan literalmente las9.572 fases previas.
+- 107 candidatos visuales inspeccionados:66 aceptados y41 apartados. Atribuciones, bustos, grabados y esculturas retrospectivas identificados. No convertir dioses monetarios, mapas, escenas colectivas u homónimos en retratos personales.
+- La geometría compilada retiene la clave propietaria como identidad inicial, evitando asignaciones del catálogo basadas en Wikidata compartido. Adquisición admite ventanas explícitas de hasta300años, con límites de era y ausencia de año cero intactos.
+- Registros sin polígono propio accesibles desde centros documentales. El agregado macedonio315–308 se declara como síntesis de varios poderes; no se inventan fronteras para ocultarlo. Fuentes, conservación, pruebas y pendientes en DELIVERY-0.44.0 y RESEARCH-bc600.
+
 ## 0.43.0 · 29 de octubre de2026
 
 - Consulta anual300–201a.C.:83 dossiers,220 registros de autoridades,319 componentes políticos originales,30 centros,23 contextos y17 referencias regionales de conflictos.

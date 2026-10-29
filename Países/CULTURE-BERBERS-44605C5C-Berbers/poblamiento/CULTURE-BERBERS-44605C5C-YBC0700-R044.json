@@ -1,0 +1,89 @@
+{
+  "key": "CULTURE-BERBERS-44605C5C-YBC0700-R044",
+  "contextKey": "CULTURE-BERBERS-44605C5C",
+  "ownerKey": "CULTURE-BERBERS-44605C5C",
+  "name": "Berbers",
+  "originalNames": [
+    "Berbers"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de700a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -600,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no estado unitario, identidad homogénea, censo ni frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial, resolución desigual y contraste regional pendiente; no frontera política anual.",
+  "temporalUncertainty": "No existe snapshot600 en esta fuente. El ámbito700 se consulta como referencia histórica entre600–501, sin certificar permanencia. Las referencias500/400 no equivalen a observaciones de cada año.",
+  "references": [
+    {
+      "title": "Historical Basemaps700a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    4.47406,
+    32.83185
+  ],
+  "phases": [
+    {
+      "start": -600,
+      "end": -501,
+      "label": "Berbers",
+      "dateBasis": "Contorno de700a.C.; consulta de referencia, sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -700
+    },
+    {
+      "start": -500,
+      "end": -301,
+      "label": "Berbers",
+      "dateBasis": "Consulta del ámbito histórico anterior hasta la siguiente referencia; no nueva observación poblacional.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -700,
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -300,
+      "end": 99,
+      "label": "Berbers",
+      "dateBasis": "Consulta del ámbito histórico anterior, sin nueva observación de habitantes o fronteras.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -700,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-BERBERS-44605C5C-YBC0700-R044.geojson",
+  "geometrySha256": "71b3657f744a24a263a30b1cece253d32488d627136bf90113bacab47608047b",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+    "year": -700,
+    "featureIds": [
+      82
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c"
+  },
+  "review": "0.44.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación locales. El final de consulta no demuestra desaparición."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Berbers",
+      "ABBREVN": "Berbers",
+      "SUBJECTO": "Berbers",
+      "TYPE": null,
+      "BORDERPRECISION": 1,
+      "PARTOF": "Berbers"
+    }
+  ],
+  "sourceGrouping": [
+    "Berbers"
+  ]
+}

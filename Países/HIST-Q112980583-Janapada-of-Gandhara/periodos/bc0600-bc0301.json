@@ -1,0 +1,119 @@
+{
+  "key": "HIST-Q112980583",
+  "identity": {
+    "qid": "Q112980583",
+    "name": "Janapada of Gandhāra"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Rey de Gandhara · testimonio tradicional",
+      "titles": [
+        "Pushkarasarin"
+      ],
+      "documentedWindow": [
+        -550,
+        -530
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q30635996",
+      "name": "Puṣkarasārin",
+      "role": "Rey de Gandhara · testimonio tradicional",
+      "start": "-0550-01-01",
+      "end": "-0530-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pushkarasarin",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -550,
+        -530
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Janapada of Gandhāra"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Janapada of Gandhāra",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "9a9753b0aeb741ca9307268713d8b6d0623885909b9992b979dc60225fa933e2",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        251,
+        282
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Pushkarasarin",
+        "title": "Pushkarasarin",
+        "person": "Q30635996",
+        "name": "Puṣkarasārin",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pushkarasarin",
+        "identityResolution": {
+          "requested": "Pushkarasarin",
+          "canonical": "Pushkarasarin",
+          "qid": "Q30635996"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q30635996",
+        "title": "Pushkarasarin",
+        "source": "https://en.wikipedia.org/wiki/Pushkarasarin",
+        "reignFields": []
+      }
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": []
+}

@@ -1,0 +1,233 @@
+{
+  "key": "HIST-Q41642",
+  "identity": {
+    "qid": "Q41642",
+    "name": "Phoenicia"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Rey de Tiro · no soberano de toda Fenicia",
+      "titles": [
+        "Ithobaal III"
+      ],
+      "documentedWindow": [
+        -590,
+        -573
+      ]
+    },
+    {
+      "role": "Rey de Tiro · no soberano de toda Fenicia",
+      "titles": [
+        "Baal II"
+      ],
+      "documentedWindow": [
+        -572,
+        -564
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q525741",
+      "name": "Itobaal III",
+      "role": "Rey de Tiro · no soberano de toda Fenicia",
+      "start": "-0590-01-01",
+      "end": "-0573-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ithobaal_III",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -590,
+        -573
+      ]
+    },
+    {
+      "person": "documented044-hist-q41642-baal-ii-572-38d94daf",
+      "name": "Baal II",
+      "role": "Rey de Tiro · no soberano de toda Fenicia",
+      "start": "-0572-01-01",
+      "end": "-0564-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -572,
+        -564
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-23",
+      "name": "Tiro",
+      "coordinates": [
+        35.196,
+        33.271
+      ],
+      "start": -600,
+      "end": -501,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Phoenicia"
+        ],
+        "start": -600,
+        "end": -574,
+        "label": "Ciudades fenicias · cortes autónomas y tributo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Phoenicia"
+        ],
+        "start": -573,
+        "end": -540,
+        "label": "Ciudades fenicias bajo hegemonía babilónica",
+        "admin": "HIST-Q624887",
+        "status": "protectorate",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    },
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Phoenicia"
+        ],
+        "start": -539,
+        "end": -301,
+        "label": "Ciudades fenicias bajo dominio persa",
+        "admin": "HIST-Q389688",
+        "status": "protectorate",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "18376704e0149db072d92709bb1460fbbb20ff4ba122d8d81dcfb1e827165585",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        226,
+        281
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Baal II",
+        "title": "Baal II",
+        "person": "",
+        "name": "Baal II",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Baal_II",
+        "identityResolution": {
+          "requested": "Baal II",
+          "canonical": "Baal II",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ithobaal III",
+        "title": "Ithobaal III",
+        "person": "Q525741",
+        "name": "Itobaal III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ithobaal_III",
+        "identityResolution": {
+          "requested": "Ithobaal III",
+          "canonical": "Ithobaal III",
+          "qid": "Q525741"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q525741",
+        "title": "Ithobaal III",
+        "source": "https://en.wikipedia.org/wiki/Ithobaal_III",
+        "reignFields": []
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "candidate": {
+        "requestedTitle": "Baal II",
+        "title": "Baal II",
+        "person": "",
+        "name": "Baal II",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Baal_II",
+        "identityResolution": {
+          "requested": "Baal II",
+          "canonical": "Baal II",
+          "qid": ""
+        }
+      },
+      "title": "Baal II",
+      "documentedWindow": [
+        -572,
+        -564
+      ],
+      "reason": "Candidato sin identidad humana individual corroborada. Registro documental local; no transferir fotos de disambiguaciones, dinastías o personas homónimas."
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": []
+}

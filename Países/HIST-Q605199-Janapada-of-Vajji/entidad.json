@@ -1,0 +1,56 @@
+{
+  "key": "HIST-Q605199",
+  "name": "Janapada of Vajji",
+  "qid": "Q605199",
+  "aliases": [
+    "Janapada of Vajji"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q605199"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "institution044-HIST-Q605199",
+      "name": "Consejos y linajes de la confederación",
+      "role": "Instituciones colegiadas",
+      "start": "-0600-01-01",
+      "end": "-0468-12-31",
+      "precision": 9,
+      "source": "https://ignca.gov.in/Asi_data/42413.pdf",
+      "note": "Forma de organización gana/sangha; titulares y cronología locales pendientes. No un presidente moderno ni una democracia de sufragio universal. La conquista por Magadha tiene cronología discutida; el intervalo no se prolonga hasta301.",
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-241",
+      "start": -600,
+      "end": -501,
+      "name": "Janapada of Vajji",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-295",
+      "start": -500,
+      "end": -481,
+      "name": "Janapada of Vajji",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

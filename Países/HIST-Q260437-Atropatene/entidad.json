@@ -25,10 +25,44 @@
       "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados.",
       "curated": true,
       "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q29455",
+      "name": "Atropates",
+      "role": "Sátrapa y dinasta de Media Atropatene",
+      "start": "-0323-01-01",
+      "end": "-0301-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Atropates",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -323,
+        -300
+      ],
+      "endIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
     }
   ],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-521",
+      "start": -307,
+      "end": -302,
+      "name": "Atropatene",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-526",
+      "start": -301,
+      "end": -301,
+      "name": "Atropatene",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
   "culturalReviews": [
     {
       "key": "CULTURE-ATROPATENE-08EEB214-YBC0300",

@@ -1,0 +1,69 @@
+{
+  "key": "HIST-Q112980583",
+  "name": "Janapada of Gandhāra",
+  "qid": "Q112980583",
+  "aliases": [
+    "Janapada of Gandhāra"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q112980583"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q30635996",
+      "name": "Puṣkarasārin",
+      "role": "Rey de Gandhara · testimonio tradicional",
+      "start": "-0550-01-01",
+      "end": "-0530-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Pushkarasarin",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -550,
+        -530
+      ],
+      "curated": true,
+      "acquisition": "period-bc600-0.44"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-251",
+      "start": -600,
+      "end": -531,
+      "name": "Janapada of Gandhāra",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc600.geojson",
+      "recordId": "clio-282",
+      "start": -530,
+      "end": -501,
+      "name": "Janapada of Gandhāra",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-GANDHARA-DEDE6A61-YBC0500-R044",
+      "ownerKey": "HIST-Q112980583",
+      "name": "Gandhāra",
+      "file": "Países/HIST-Q112980583-Janapada-of-Gandhara/poblamiento/CULTURE-GANDHARA-DEDE6A61-YBC0500-R044.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

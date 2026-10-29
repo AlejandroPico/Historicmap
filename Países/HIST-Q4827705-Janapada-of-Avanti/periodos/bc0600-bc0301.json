@@ -1,0 +1,215 @@
+{
+  "key": "HIST-Q4827705",
+  "identity": {
+    "qid": "Q4827705",
+    "name": "Janapada of Avanti"
+  },
+  "revision": "0.44.0",
+  "acquisition": "period-bc600-0.44",
+  "coverageStart": -600,
+  "coverageEnd": -301,
+  "candidates": [
+    {
+      "role": "Rey de Avanti · cronología aproximada",
+      "titles": [
+        "Pradyota"
+      ],
+      "documentedWindow": [
+        -550,
+        -503
+      ]
+    },
+    {
+      "role": "Rey de Avanti · cronología aproximada",
+      "titles": [
+        "Palaka"
+      ],
+      "documentedWindow": [
+        -503,
+        -453
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented044-hist-q4827705-pradyota-550-13a8ea92",
+      "name": "Pradyota",
+      "role": "Rey de Avanti · cronología aproximada",
+      "start": "-0550-01-01",
+      "end": "-0503-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -550,
+        -503
+      ]
+    },
+    {
+      "person": "documented044-hist-q4827705-palaka-503-6431c4b7",
+      "name": "Palaka",
+      "role": "Rey de Avanti · cronología aproximada",
+      "start": "-0503-01-01",
+      "end": "-0453-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -503,
+        -453
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -600,
+      "end": -301,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "sourceLabel": "Revisión institucional · 600–301a.C.",
+      "note": "Clasificación de la autoridad nominal; no prueba de control central efectivo ni de gobernantes acreditados en cada año."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat044-32",
+      "name": "Ujjain",
+      "coordinates": [
+        75.78,
+        23.18
+      ],
+      "start": -600,
+      "end": -301,
+      "capital": true,
+      "role": "Corte, ciudad o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Centro documental aproximado; no residencia permanente ni perímetro urbano exacto."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Janapada of Avanti"
+        ],
+        "start": -600,
+        "end": -301,
+        "label": "Janapada of Avanti",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+        "note": "Síntesis anual sobre contornos originales; la revisión de identidad no certifica todos los límites."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0600-bc0301.geojson",
+      "sha256": "90b3529a9b393d0ef7e1b6a7e0a034464412c4cda32c2496083c0f5fbfca63b9",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        233,
+        347
+      ],
+      "note": "Coordenadas, propiedades e índices originales íntegros. No agregados ni contornos inventados."
+    }
+  ],
+  "pending": [
+    "Completar titulares y cronologías con bibliografía local. Los intervalos de consulta no son fechas diarias de entronización ni mapas anuales independientes."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Palaka",
+        "title": "Palaka",
+        "person": "Q7126628",
+        "name": "Palaka",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Palaka",
+        "identityResolution": {
+          "requested": "Palaka",
+          "canonical": "Palaka",
+          "qid": "Q7126628"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Pradyota",
+        "title": "Pradyota",
+        "person": "Q5620921",
+        "name": "Pradyota dynasty",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Pradyota_dynasty",
+        "identityResolution": {
+          "requested": "Pradyota",
+          "canonical": "Pradyota dynasty",
+          "qid": "Q5620921"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "candidate": {
+        "requestedTitle": "Pradyota",
+        "title": "Pradyota",
+        "person": "Q5620921",
+        "name": "Pradyota dynasty",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Pradyota_dynasty",
+        "identityResolution": {
+          "requested": "Pradyota",
+          "canonical": "Pradyota dynasty",
+          "qid": "Q5620921"
+        }
+      },
+      "title": "Pradyota",
+      "documentedWindow": [
+        -550,
+        -503
+      ],
+      "reason": "Candidato sin identidad humana individual corroborada. Registro documental local; no transferir fotos de disambiguaciones, dinastías o personas homónimas."
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Palaka",
+        "title": "Palaka",
+        "person": "Q7126628",
+        "name": "Palaka",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Palaka",
+        "identityResolution": {
+          "requested": "Palaka",
+          "canonical": "Palaka",
+          "qid": "Q7126628"
+        }
+      },
+      "title": "Palaka",
+      "documentedWindow": [
+        -503,
+        -453
+      ],
+      "reason": "Candidato sin identidad humana individual corroborada. Registro documental local; no transferir fotos de disambiguaciones, dinastías o personas homónimas."
+    }
+  ],
+  "authorityReview": "Ventanas nominales documentales y fuentes retenidas; biografías modernas, dinastías o colectivos no se convierten en la persona antigua por coincidencia de nombre.",
+  "mediaReview": []
+}
