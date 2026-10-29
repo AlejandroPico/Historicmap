@@ -1,0 +1,59 @@
+{
+  "key": "CHU-HAN-LINJIANG",
+  "name": "Reino de Linjiang · partición Chu–Han",
+  "qid": "",
+  "aliases": [
+    "Reino de Linjiang · partición Chu–Han"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CHU-HAN-LINJIANG"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q5581673",
+      "name": "Gong Ao",
+      "role": "Rey de Linjiang · partición de206a.C.",
+      "start": "-0206-01-01",
+      "end": "-0204-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gong_Ao",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -206,
+        -204
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q5581705",
+      "name": "Gong Wei",
+      "role": "Rey de Linjiang · partición de206a.C.",
+      "start": "-0204-01-01",
+      "end": "-0202-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gong_Wei",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -204,
+        -202
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

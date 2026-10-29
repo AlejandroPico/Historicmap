@@ -1,0 +1,92 @@
+{
+  "key": "HIST-Q1164281",
+  "identity": {
+    "qid": "Q1164281",
+    "name": "Comunidad mamertina"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [],
+  "leaders": [
+    {
+      "person": "institution043-HIST-Q1164281",
+      "name": "Comunidad y magistraturas mamertinas",
+      "role": "Instituciones colegiadas · titulares individuales por completar",
+      "start": "-0288-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "endIsCoverageBoundary": true,
+      "source": "https://en.wikipedia.org/wiki/Mamertines",
+      "note": "Registro institucional, no persona única ni lista completa de magistrados anuales."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution043-HIST-Q1164281",
+      "section": "institutions",
+      "title": "Instituciones y alcance de la lista de autoridades",
+      "start": "-0288-01-01",
+      "end": "-0200-01-01",
+      "text": "Comunidad y magistraturas mamertinas. La selección de titulares no equivale a gobiernos continuos ni completa todos los mandatos.",
+      "source": "https://en.wikipedia.org/wiki/Mamertines",
+      "sourceLabel": "Referencia institucional · sigloIIIa.C."
+    }
+  ],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Mamertines"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Comunidad mamertina",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "63ce3b714083fd6d15e174155bf585fe77e72d21d4a0fd044305c41507266181",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        617,
+        621
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

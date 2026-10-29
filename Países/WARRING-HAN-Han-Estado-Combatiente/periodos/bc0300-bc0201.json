@@ -1,0 +1,312 @@
+{
+  "key": "WARRING-HAN",
+  "identity": {
+    "qid": "",
+    "name": "Han · Estado Combatiente"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey del estado de Han · Estados Combatientes",
+      "titles": [
+        "King An of Han",
+        "King Huanhui of Han",
+        "King Xi of Han",
+        "King Xiang of Han"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3178575",
+      "name": "King Xiang of Han",
+      "role": "Rey del estado de Han · Estados Combatientes",
+      "start": "-0300-01-01",
+      "end": "-0296-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Han",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -311,
+        -296
+      ],
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q6412160",
+      "name": "King Xi of Han",
+      "role": "Rey del estado de Han · Estados Combatientes",
+      "start": "-0296-01-01",
+      "end": "-0273-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Xi_of_Han",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -296,
+        -273
+      ]
+    },
+    {
+      "person": "Q575290",
+      "name": "King Huanhui of Han",
+      "role": "Rey del estado de Han · Estados Combatientes",
+      "start": "-0273-01-01",
+      "end": "-0239-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Huanhui_of_Han",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -273,
+        -239
+      ]
+    },
+    {
+      "person": "Q387311",
+      "name": "King An of Han",
+      "role": "Rey del estado de Han · Estados Combatientes",
+      "start": "-0239-01-01",
+      "end": "-0230-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/An%2C_King_of_Han",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -239,
+        -230
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-18",
+      "name": "Xinzheng",
+      "coordinates": [
+        113.74,
+        34.4
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Han",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Han · Estado Combatiente"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Han"
+        ],
+        "start": -300,
+        "end": -231,
+        "label": "Han · Estado Combatiente",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "88d9fa8920bba461e213ca8991e570d26ad72799a22f3fdc2ca12a7369089f77",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        447,
+        641,
+        659,
+        763,
+        801,
+        820
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "King An of Han",
+        "title": "King An of Han",
+        "person": "Q387311",
+        "name": "King An of Han",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/An%2C_King_of_Han",
+        "identityResolution": {
+          "requested": "King An of Han",
+          "canonical": "An, King of Han",
+          "qid": "Q387311"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q387311",
+        "title": "An, King of Han",
+        "source": "https://en.wikipedia.org/wiki/An%2C_King_of_Han",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Han",
+            "raw": "238–230 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Han",
+            "raw": "238 BC &ndash; 230 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Huanhui of Han",
+        "title": "King Huanhui of Han",
+        "person": "Q575290",
+        "name": "King Huanhui of Han",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Huanhui_of_Han",
+        "identityResolution": {
+          "requested": "King Huanhui of Han",
+          "canonical": "King Huanhui of Han",
+          "qid": "Q575290"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q575290",
+        "title": "King Huanhui of Han",
+        "source": "https://en.wikipedia.org/wiki/King_Huanhui_of_Han",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Han",
+            "raw": "272–239 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Han",
+            "raw": "272 BC &ndash; 239 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Xi of Han",
+        "title": "King Xi of Han",
+        "person": "Q6412160",
+        "name": "King Xi of Han",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Xi_of_Han",
+        "identityResolution": {
+          "requested": "King Xi of Han",
+          "canonical": "King Xi of Han",
+          "qid": "Q6412160"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6412160",
+        "title": "King Xi of Han",
+        "source": "https://en.wikipedia.org/wiki/King_Xi_of_Han",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Han",
+            "raw": "295–273 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Han",
+            "raw": "295 BC &ndash; 273 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Xiang of Han",
+        "title": "King Xiang of Han",
+        "person": "Q3178575",
+        "name": "King Xiang of Han",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Han",
+        "identityResolution": {
+          "requested": "King Xiang of Han",
+          "canonical": "King Xiang of Han",
+          "qid": "Q3178575"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3178575",
+        "title": "King Xiang of Han",
+        "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Han",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Han",
+            "raw": "311–296 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Han",
+            "raw": "311 BC &ndash; 296 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

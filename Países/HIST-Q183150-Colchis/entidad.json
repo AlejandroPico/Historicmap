@@ -1,0 +1,35 @@
+{
+  "key": "HIST-Q183150",
+  "name": "Cólquide",
+  "qid": "Q183150",
+  "aliases": [
+    "Cólquide"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q183150"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-COLCHIS-310B9009-YBC0300",
+      "ownerKey": "HIST-Q183150",
+      "name": "Colchis",
+      "file": "Países/HIST-Q183150-Colchis/poblamiento/CULTURE-COLCHIS-310B9009-YBC0300.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

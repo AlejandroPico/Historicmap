@@ -1,0 +1,51 @@
+{
+  "key": "CHU-HAN-DAI",
+  "name": "Reino de Dai · partición Chu–Han",
+  "qid": "",
+  "aliases": [
+    "Reino de Dai · partición Chu–Han"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CHU-HAN-DAI"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "documented043-zhao-xie",
+      "name": "Zhao Xie",
+      "role": "Autoridad documental · sin identificación individual Wikidata corroborada",
+      "start": "-0206-01-01",
+      "end": "-0205-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhao_Xie",
+      "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados.",
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "documented043-chen-yu",
+      "name": "Chen Yu",
+      "role": "Autoridad documental · sin identificación individual Wikidata corroborada",
+      "start": "-0205-01-01",
+      "end": "-0204-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chen_Yu",
+      "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados.",
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

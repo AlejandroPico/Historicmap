@@ -1,0 +1,315 @@
+{
+  "key": "HIST-Q2022162",
+  "identity": {
+    "qid": "Q2022162",
+    "name": "Pérgamo · dinastas y realeza atálida"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Dinasta de Pérgamo · título según etapa",
+      "titles": [
+        "Attalus I",
+        "Eumenes I",
+        "Philetaerus"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q312452",
+      "name": "Filetero",
+      "role": "Dinasta de Pérgamo · anterior al título real atálida",
+      "start": "-0282-01-01",
+      "end": "-0263-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Philetaerus",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -282,
+        -263
+      ],
+      "portrait": {
+        "file": "media/portrait-fa9351bf955e9df0bc9b.jpg",
+        "title": "Filetairo.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Filetairo.JPG",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Filetairo.JPG/330px-Filetairo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Miguel Hermoso Cuesta",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "244bb0a777d6ec678a7d536f9d4306cbafe3d23b31a9572d9333f40a9e96171d",
+        "bytes": 33430,
+        "stagedFile": ".cache/portraits043/fa9351bf955e9df0bc9b.bin",
+        "canonicalFile": "Países/HIST-Q2022162-Kingdom-of-Pergamon/retratos/portrait-fa9351bf955e9df0bc9b.jpg",
+        "caption": "Cabeza escultórica atribuida aFiletero; identificación museográfica, no fotografía del gobernante."
+      }
+    },
+    {
+      "person": "Q314341",
+      "name": "Eumenes I",
+      "role": "Dinasta de Pérgamo · anterior al título real atálida",
+      "start": "-0263-01-01",
+      "end": "-0241-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Eumenes_I",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -263,
+        -241
+      ]
+    },
+    {
+      "person": "Q110745",
+      "name": "Atalo I",
+      "role": "Rey atálida de Pérgamo",
+      "start": "-0241-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Attalus_I",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. El acceso241 y la adopción del título real tras victorias posteriores son cuestiones distintas.",
+      "documentedInterval": [
+        -241,
+        -197
+      ],
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-49ddf18e42b7610aac78.jpg",
+        "title": "AtaloPergamo.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:AtaloPergamo.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/AtaloPergamo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Nicolás Pérez",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Fotografía realizada por Nicolás Pérez; cámara digital. Berlín, museo de Pérgamo",
+        "sha256": "c32752b3896435a7d2fdfa9745f0cec80fc999e787d46314c70b42091a854cac",
+        "bytes": 75432,
+        "canonicalFile": "Países/HIST-Q2022162-Kingdom-of-Pergamon/retratos/portrait-49ddf18e42b7610aac78.jpg",
+        "caption": "Cabeza escultórica atribuida aÁtaloI; representación antigua con límites de atribución."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-6",
+      "name": "Pérgamo",
+      "coordinates": [
+        27.18,
+        39.12
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Pergamon",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Kingdom of Pergamon"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Pergamon"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Pérgamo · dinastas y realeza atálida",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "a4beaee9740cf44141e70bea2324cd03d4a18bad63b6a0009fe1683c6839e40c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        588,
+        707,
+        711,
+        748
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Attalus I",
+        "title": "Attalus I",
+        "person": "Q110745",
+        "name": "Atalo I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Attalus_I",
+        "identityResolution": {
+          "requested": "Attalus I",
+          "canonical": "Attalus I",
+          "qid": "Q110745"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "-0241-01-01",
+          "end": "-0197-01-01",
+          "precision": 9,
+          "statement": "Q110745$1eaf0380-d3f9-4cfb-988a-410943517469",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q110745",
+        "title": "Attalus I",
+        "source": "https://en.wikipedia.org/wiki/Attalus_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Pergamon",
+            "raw": "241–197 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Eumenes I",
+        "title": "Eumenes I",
+        "person": "Q314341",
+        "name": "Eumenes I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Eumenes_I",
+        "identityResolution": {
+          "requested": "Eumenes I",
+          "canonical": "Eumenes I",
+          "qid": "Q314341"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q314341",
+        "title": "Eumenes I",
+        "source": "https://en.wikipedia.org/wiki/Eumenes_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Pergamon",
+            "raw": "263–241 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Philetaerus",
+        "title": "Philetaerus",
+        "person": "Q312452",
+        "name": "Filetero",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Philetaerus",
+        "identityResolution": {
+          "requested": "Philetaerus",
+          "canonical": "Philetaerus",
+          "qid": "Q312452"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q1097498",
+          "start": "-0282-01-01",
+          "end": "-0263-01-01",
+          "precision": 9,
+          "statement": "Q312452$944c5273-473f-3962-ad1e-128fd6ca2830",
+          "label": "gobernante"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q312452",
+        "title": "Philetaerus",
+        "source": "https://en.wikipedia.org/wiki/Philetaerus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Pergamon",
+            "raw": "282–263 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Pergamon",
+            "raw": "282–263 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": [
+    {
+      "person": "Q312452",
+      "title": "Filetairo.JPG",
+      "decision": "accepted",
+      "reason": "Cabeza escultórica atribuida aFiletero; identificación museográfica, no fotografía del gobernante."
+    },
+    {
+      "person": "Q314341",
+      "title": "EmenesICoin.JPG",
+      "decision": "rejected",
+      "reason": "EumenesI emite efigies del fundadorFiletero; no se atribuye el emisor automáticamente."
+    },
+    {
+      "person": "Q110745",
+      "title": "AtaloPergamo.jpg",
+      "decision": "accepted",
+      "reason": "Cabeza escultórica atribuida aÁtaloI; representación antigua con límites de atribución."
+    }
+  ]
+}

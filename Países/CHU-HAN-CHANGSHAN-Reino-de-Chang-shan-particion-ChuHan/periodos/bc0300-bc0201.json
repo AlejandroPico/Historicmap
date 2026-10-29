@@ -1,0 +1,127 @@
+{
+  "key": "CHU-HAN-CHANGSHAN",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Chang-shan · partición Chu–Han"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Changshan · partición de206a.C.",
+      "titles": [
+        "Zhang Er"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented-zhang-er-changshan",
+      "name": "Zhang Er · rey de Changshan",
+      "role": "Rey de Changshan · partición de206a.C.",
+      "start": "-0206-01-01",
+      "end": "-0205-12-31",
+      "precision": 9,
+      "source": "https://ll-chinesereferenceshelf.brillonline.com/dictionary-qin-and-han/prelims/sim-106456",
+      "note": "El candidato homónimo es una poeta contemporánea; identidad documental del rey206–205, sin foto de otra persona.",
+      "documentedInterval": [
+        -206,
+        -205
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chang-shan"
+        ],
+        "start": -206,
+        "end": -205,
+        "label": "Reino de Chang-shan · partición Chu–Han",
+        "status": "protectorate",
+        "admin": "WESTERN-CHU-HEGEMONY",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Reino de la partición hegemónica de206; alianzas disputadas y cambios durante el año, no administración homogénea de un único Estado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "7d05850d4b104bf4de6f80263c278a3ad5c969b5ec7069572a9b715ea64983d2",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        792
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Zhang Er",
+        "title": "Zhang Er",
+        "person": "Q107689971",
+        "name": "Zhang Er",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhang_Er",
+        "identityResolution": {
+          "requested": "Zhang Er",
+          "canonical": "Zhang Er",
+          "qid": "Q107689971"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q107689971",
+        "title": "Zhang Er",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Er",
+        "reignFields": []
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "candidateIdentityCorrections": [
+    {
+      "reason": "Zhang Er sin calificador devuelve una poeta del sigloXX; no es el rey deChangshan."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q107689971",
+      "title": "Zhang er poet China Blue.jpg",
+      "decision": "rejected",
+      "reason": "Homónimo: poeta contemporánea, no el reyZhangEr."
+    }
+  ]
+}

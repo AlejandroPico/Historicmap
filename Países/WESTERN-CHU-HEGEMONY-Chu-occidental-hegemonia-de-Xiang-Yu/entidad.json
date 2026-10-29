@@ -1,0 +1,60 @@
+{
+  "key": "WESTERN-CHU-HEGEMONY",
+  "name": "Chu occidental · hegemonía de Xiang Yu",
+  "qid": "",
+  "aliases": [
+    "Chu occidental · hegemonía de Xiang Yu"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WESTERN-CHU-HEGEMONY"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q182266",
+      "name": "Xiang Yu",
+      "role": "Hegemón de Chu occidental · no emperador de toda China",
+      "start": "-0206-01-01",
+      "end": "-0202-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Xiang_Yu",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -206,
+        -202
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43",
+      "portrait": {
+        "file": "media/portrait-bc16d998e61ffc887116.jpg",
+        "title": "Xiang Yu.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Xiang_Yu.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Xiang_Yu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "ShangGuan Zhou（上官周）",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Xiang_Yu.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "This image was carried on the book which is called \"Wan hsiao tang-Chu chuang -Hua chuan（晩笑堂竹荘畫傳）\".",
+        "sha256": "45a9b119c03d49886c6f574299c10666333d214706230d601a3cbfd4ce694b66",
+        "bytes": 75785,
+        "stagedFile": ".cache/portraits043/bc16d998e61ffc887116.bin",
+        "canonicalFile": "Países/WESTERN-CHU-HEGEMONY-Chu-occidental-hegemonia-de-Xiang-Yu/retratos/portrait-bc16d998e61ffc887116.jpg",
+        "caption": "Ilustración retrospectiva deXiangYu; no retrato contemporáneo."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

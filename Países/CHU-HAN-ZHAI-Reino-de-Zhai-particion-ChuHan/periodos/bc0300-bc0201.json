@@ -1,0 +1,131 @@
+{
+  "key": "CHU-HAN-ZHAI",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Zhai · partición Chu–Han"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Zhai · partición de206a.C.",
+      "titles": [
+        "Dong Yi (Qin dynasty)"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1038382",
+      "name": "Dong Yi",
+      "role": "Rey de Zhai · partición de206a.C.",
+      "start": "-0206-01-01",
+      "end": "-0205-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dong_Yi_%28Qin_dynasty%29",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -206,
+        -205
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Zhai"
+        ],
+        "start": -206,
+        "end": -205,
+        "label": "Reino de Zhai · partición Chu–Han",
+        "status": "protectorate",
+        "admin": "WESTERN-CHU-HEGEMONY",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Reino de la partición hegemónica de206; alianzas disputadas y cambios durante el año, no administración homogénea de un único Estado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "fd2359bfd447dc4f07df58596251639adab9247eec7018d8c1fa81f5931ac087",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        770,
+        790
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dong Yi (Qin dynasty)",
+        "title": "Dong Yi (Qin dynasty)",
+        "person": "Q1038382",
+        "name": "Dong Yi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dong_Yi_%28Qin_dynasty%29",
+        "identityResolution": {
+          "requested": "Dong Yi (Qin dynasty)",
+          "canonical": "Dong Yi (Qin dynasty)",
+          "qid": "Q1038382"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1038382",
+        "title": "Dong Yi (Qin dynasty)",
+        "source": "https://en.wikipedia.org/wiki/Dong_Yi_%28Qin_dynasty%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Di 翟王",
+            "raw": "206 BC",
+            "parsed": null,
+            "reignType": "Tenure"
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Di",
+            "raw": "206 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

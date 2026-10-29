@@ -1,0 +1,445 @@
+{
+  "key": "HIST-Q504759",
+  "identity": {
+    "qid": "Q504759",
+    "name": "Chu"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Chu · Estados Combatientes",
+      "titles": [
+        "Fuchu",
+        "King Ai of Chu",
+        "King Huai of Chu",
+        "King Kaolie of Chu",
+        "King Qingxiang of Chu",
+        "King You of Chu"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q795874",
+      "name": "King Huai of Chu",
+      "role": "Rey de Chu · Estados Combatientes",
+      "start": "-0300-01-01",
+      "end": "-0299-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Huai_of_Chu",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -328,
+        -299
+      ],
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q795870",
+      "name": "King Qingxiang of Chu",
+      "role": "Rey de Chu · Estados Combatientes",
+      "start": "-0298-01-01",
+      "end": "-0263-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Qingxiang_of_Chu",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -298,
+        -263
+      ]
+    },
+    {
+      "person": "Q795943",
+      "name": "King Kaolie of Chu",
+      "role": "Rey de Chu · Estados Combatientes",
+      "start": "-0262-01-01",
+      "end": "-0238-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Kaolie_of_Chu",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -262,
+        -238
+      ]
+    },
+    {
+      "person": "Q795972",
+      "name": "King You of Chu",
+      "role": "Rey de Chu · Estados Combatientes",
+      "start": "-0237-01-01",
+      "end": "-0228-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_You_of_Chu",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -237,
+        -228
+      ]
+    },
+    {
+      "person": "Q795864",
+      "name": "King Ai of Chu",
+      "role": "Rey de Chu · Estados Combatientes",
+      "start": "-0228-01-01",
+      "end": "-0228-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Ai_of_Chu",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -228,
+        -228
+      ]
+    },
+    {
+      "person": "Q796447",
+      "name": "Fuchu",
+      "role": "Rey de Chu · Estados Combatientes",
+      "start": "-0227-01-01",
+      "end": "-0223-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Fuchu_of_Chu",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -227,
+        -223
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-16",
+      "name": "Shouchun",
+      "coordinates": [
+        116.78,
+        32.58
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Chu",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Chu"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chu"
+        ],
+        "start": -300,
+        "end": -224,
+        "label": "Chu · Estado Combatiente",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lu"
+        ],
+        "start": -249,
+        "end": -224,
+        "label": "Chu · incorporación de Lu",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Conquista por la potencia correspondiente; no adelantar la unificaciónQin ni el título imperial221."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "0e52a93f216ecd47641ebf7cb5ad7cccabda747090d4c33bea04e34614daadb5",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        514,
+        566,
+        595,
+        651,
+        689,
+        697
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Fuchu",
+        "title": "Fuchu",
+        "person": "Q796447",
+        "name": "Fuchu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Fuchu_of_Chu",
+        "identityResolution": {
+          "requested": "Fuchu",
+          "canonical": "Fuchu of Chu",
+          "qid": "Q796447"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q796447",
+        "title": "Fuchu of Chu",
+        "source": "https://en.wikipedia.org/wiki/Fuchu_of_Chu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Chu",
+            "raw": "227–223 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Chu",
+            "raw": "227–223 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Ai of Chu",
+        "title": "King Ai of Chu",
+        "person": "Q795864",
+        "name": "King Ai of Chu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Ai_of_Chu",
+        "identityResolution": {
+          "requested": "King Ai of Chu",
+          "canonical": "King Ai of Chu",
+          "qid": "Q795864"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "-0228-01-01",
+          "end": "-0228-01-01",
+          "precision": 9,
+          "statement": "Q795864$e560f97d-43e0-455d-7145-5d5f0fcf28b1",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q795864",
+        "title": "King Ai of Chu",
+        "source": "https://en.wikipedia.org/wiki/King_Ai_of_Chu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Chu",
+            "raw": "228 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Chu",
+            "raw": "228 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Huai of Chu",
+        "title": "King Huai of Chu",
+        "person": "Q795874",
+        "name": "King Huai of Chu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Huai_of_Chu",
+        "identityResolution": {
+          "requested": "King Huai of Chu",
+          "canonical": "King Huai of Chu",
+          "qid": "Q795874"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q795874",
+        "title": "King Huai of Chu",
+        "source": "https://en.wikipedia.org/wiki/King_Huai_of_Chu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Chu",
+            "raw": "328&ndash;299 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Chu",
+            "raw": "328&ndash;299 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Kaolie of Chu",
+        "title": "King Kaolie of Chu",
+        "person": "Q795943",
+        "name": "King Kaolie of Chu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Kaolie_of_Chu",
+        "identityResolution": {
+          "requested": "King Kaolie of Chu",
+          "canonical": "King Kaolie of Chu",
+          "qid": "Q795943"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q795943",
+        "title": "King Kaolie of Chu",
+        "source": "https://en.wikipedia.org/wiki/King_Kaolie_of_Chu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Chu",
+            "raw": "262&ndash;238 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Chu",
+            "raw": "262&ndash;238 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Qingxiang of Chu",
+        "title": "King Qingxiang of Chu",
+        "person": "Q795870",
+        "name": "King Qingxiang of Chu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Qingxiang_of_Chu",
+        "identityResolution": {
+          "requested": "King Qingxiang of Chu",
+          "canonical": "King Qingxiang of Chu",
+          "qid": "Q795870"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q795870",
+        "title": "King Qingxiang of Chu",
+        "source": "https://en.wikipedia.org/wiki/King_Qingxiang_of_Chu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Chu",
+            "raw": "298&ndash;263 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Chu",
+            "raw": "298&ndash;263 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King You of Chu",
+        "title": "King You of Chu",
+        "person": "Q795972",
+        "name": "King You of Chu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_You_of_Chu",
+        "identityResolution": {
+          "requested": "King You of Chu",
+          "canonical": "King You of Chu",
+          "qid": "Q795972"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q795972",
+        "title": "King You of Chu",
+        "source": "https://en.wikipedia.org/wiki/King_You_of_Chu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Chu",
+            "raw": "237&ndash;228 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Chu",
+            "raw": "237&ndash;228 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

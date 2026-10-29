@@ -1,0 +1,130 @@
+{
+  "key": "CHU-HAN-JIUJIANG",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Jiujiang · partición Chu–Han"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Jiujiang/Huainan · título y alianza según etapa",
+      "titles": [
+        "Ying Bu"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1069973",
+      "name": "Ying Bu",
+      "role": "Rey de Jiujiang/Huainan · título y alianza según etapa",
+      "start": "-0206-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ying_Bu",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -206,
+        -201
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Jiujiang"
+        ],
+        "start": -206,
+        "end": -203,
+        "label": "Reino de Jiujiang · partición Chu–Han",
+        "status": "protectorate",
+        "admin": "WESTERN-CHU-HEGEMONY",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Reino de la partición hegemónica de206; alianzas disputadas y cambios durante el año, no administración homogénea de un único Estado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "423007abd3dd8edd65ddb42e90840474fc05f0ce022c1fc7784cce25a56f73fc",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        779
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ying Bu",
+        "title": "Ying Bu",
+        "person": "Q1069973",
+        "name": "Ying Bu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ying_Bu",
+        "identityResolution": {
+          "requested": "Ying Bu",
+          "canonical": "Ying Bu",
+          "qid": "Q1069973"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1069973",
+        "title": "Ying Bu",
+        "source": "https://en.wikipedia.org/wiki/Ying_Bu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Huainan",
+            "raw": "{{circa}}August 203<ref>7th month of the 4th year of Liu Bang's reign (including his tenure as King of Han), per vol.12 of ''Zizhi Tongjian''. The month corresponds to 4 Aug to 1 Sep 203 BCE in the proleptic Julian calendar.</ref> – November or December 196 BC",
+            "parsed": null,
+            "reignType": "Tenure"
+          },
+          {
+            "field": "reign1",
+            "office": "King of Jiujiang",
+            "raw": "207 – {{circa}}August 203 BC",
+            "parsed": null,
+            "reignType": "Tenure"
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

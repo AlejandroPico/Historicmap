@@ -1,0 +1,76 @@
+{
+  "key": "CULTURE-GREEK-CITY-STATES-2EC9BD90",
+  "name": "Greek city-states",
+  "qid": "",
+  "aliases": [
+    "Greek city-states"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 119,
+      "start": null,
+      "end": null,
+      "name": "Greek city-states",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 11,
+      "start": null,
+      "end": null,
+      "name": "Greek city-states",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 18,
+      "start": null,
+      "end": null,
+      "name": "Greek city-states",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 98,
+      "start": null,
+      "end": null,
+      "name": "Greek city-states",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-GREEK-CITY-STATES-2EC9BD90-YBC0300:0",
+      "contextKey": "CULTURE-GREEK-CITY-STATES-2EC9BD90",
+      "start": -300,
+      "end": -201,
+      "sourceYear": -300,
+      "canonicalFile": "Países/CULTURE-GREEK-CITY-STATES-2EC9BD90-Greek-city-states/poblamiento/CULTURE-GREEK-CITY-STATES-2EC9BD90-YBC0300.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-GREEK-CITY-STATES-2EC9BD90-YBC0300:1",
+      "contextKey": "CULTURE-GREEK-CITY-STATES-2EC9BD90",
+      "start": -200,
+      "end": 99,
+      "sourceYear": -300,
+      "canonicalFile": "Países/CULTURE-GREEK-CITY-STATES-2EC9BD90-Greek-city-states/poblamiento/CULTURE-GREEK-CITY-STATES-2EC9BD90-YBC0300.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

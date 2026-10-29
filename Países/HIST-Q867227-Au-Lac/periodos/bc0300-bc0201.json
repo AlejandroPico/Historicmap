@@ -1,0 +1,155 @@
+{
+  "key": "HIST-Q867227",
+  "identity": {
+    "qid": "Q867227",
+    "name": "Âu Lạc"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Soberano de tradición e historiografía vietnamitas · fechas discutidas",
+      "titles": [
+        "An Dương Vương"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1274690",
+      "name": "An Dương Vương",
+      "role": "Soberano de tradición e historiografía vietnamitas · fechas discutidas",
+      "start": "-0257-01-01",
+      "end": "-0208-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. La cronología deAnDuongVuong y conquista porNanyue tiene variantes257/208 y179; no se presenta una única tradición como observación anual.",
+      "documentedInterval": [
+        -257,
+        -208
+      ],
+      "portrait": {
+        "file": "media/portrait-eb35c3b4022018a1f091.jpg",
+        "title": "AnDuongVuong.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:AnDuongVuong.jpg",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/AnDuongVuong.jpg/330px-AnDuongVuong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "Amore Mio",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "95e0323729a7390df6c4a27c47a27d12c32de9ee76428ff17acb45621f58babd",
+        "bytes": 21944,
+        "stagedFile": ".cache/portraits043/eb35c3b4022018a1f091.bin",
+        "canonicalFile": "Países/HIST-Q867227-Au-Lac/retratos/portrait-eb35c3b4022018a1f091.jpg",
+        "caption": "Monumento retrospectivo deAnDuongVuong; personaje y cronología de tradición histórica."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Âu Lạc"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Âu Lạc",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "8e1b55bcb4bf1311f144175cebba4d154f9dad4f061a7f96c0228a338a87b0d5",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        640,
+        764
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "An Dương Vương",
+        "title": "An Dương Vương",
+        "person": "Q1274690",
+        "name": "An Dương Vương",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
+        "identityResolution": {
+          "requested": "An Dương Vương",
+          "canonical": "An Dương Vương",
+          "qid": "Q1274690"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1274690",
+        "title": "An Dương Vương",
+        "source": "https://en.wikipedia.org/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Âu Lạc",
+            "raw": "257–179 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Âu Lạc",
+            "raw": "257 BC – 179 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": [
+    {
+      "person": "Q1274690",
+      "title": "AnDuongVuong.jpg",
+      "decision": "accepted",
+      "reason": "Monumento retrospectivo deAnDuongVuong; personaje y cronología de tradición histórica."
+    }
+  ]
+}

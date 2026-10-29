@@ -1,0 +1,53 @@
+{
+  "key": "REFERENCE-ZHOU-COMMUNITIES",
+  "name": "Estados y comunidades del mundo Zhou",
+  "qid": "",
+  "aliases": [
+    "Estados y comunidades del mundo Zhou",
+    "Zhou states"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 13,
+      "start": null,
+      "end": null,
+      "name": "Zhou states",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-ZHOU-COMMUNITIES-YBC0300:0",
+      "contextKey": "REFERENCE-ZHOU-COMMUNITIES",
+      "start": -300,
+      "end": -201,
+      "sourceYear": -300,
+      "canonicalFile": "Países/REFERENCE-ZHOU-COMMUNITIES-Estados-y-comunidades-del-mundo-Zhou/poblamiento/REFERENCE-ZHOU-COMMUNITIES-YBC0300.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-ZHOU-COMMUNITIES-YBC0300:1",
+      "contextKey": "REFERENCE-ZHOU-COMMUNITIES",
+      "start": -200,
+      "end": 99,
+      "sourceYear": -300,
+      "canonicalFile": "Países/REFERENCE-ZHOU-COMMUNITIES-Estados-y-comunidades-del-mundo-Zhou/poblamiento/REFERENCE-ZHOU-COMMUNITIES-YBC0300.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,850 @@
+{
+  "key": "QIN-EMPIRE",
+  "identity": {
+    "qid": "",
+    "name": "Imperio Qin"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Soberano de Qin · emperador o rey según dignidad",
+      "titles": [
+        "Qin Er Shi",
+        "Qin Shi Huang",
+        "Ziying"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q7192",
+      "name": "Qin Shi Huang",
+      "role": "Emperador de Qin",
+      "start": "-0221-01-01",
+      "end": "-0210-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Título imperial desde221, no desde su acceso como rey246.",
+      "documentedInterval": [
+        -221,
+        -210
+      ],
+      "portrait": {
+        "file": "media/portrait-cefbcc3a51364d3545e0.jpg",
+        "title": "Qinshihuangdi3.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Qinshihuangdi3.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Qinshihuangdi3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Qinshihuangdi3.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "6cfee9ef139fdef256d1877062572dbadea5cafc4a230ea157d57a9fd251e9a7",
+        "bytes": 15241,
+        "stagedFile": ".cache/portraits043/cefbcc3a51364d3545e0.bin",
+        "canonicalFile": "Países/QIN-EMPIRE-Imperio-Qin/retratos/portrait-cefbcc3a51364d3545e0.jpg",
+        "caption": "Retrato chino retrospectivo deQinShiHuang; no obra acreditada del natural."
+      }
+    },
+    {
+      "person": "Q7196",
+      "name": "Qin Er Shi",
+      "role": "Soberano de Qin · emperador o rey según dignidad",
+      "start": "-0210-01-01",
+      "end": "-0207-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qin_Er_Shi",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -210,
+        -207
+      ],
+      "portrait": {
+        "file": "media/portrait-2790317fb6546a185016.png",
+        "title": "Qin Er Shi.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Qin_Er_Shi.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Qin_Er_Shi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Perinbaba",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "0a98d89c6666cba8bd54882c4a6e24d00a3c9573a1f282e615101a2dc60acf6a",
+        "bytes": 167002,
+        "stagedFile": ".cache/portraits043/2790317fb6546a185016.bin",
+        "canonicalFile": "Países/QIN-EMPIRE-Imperio-Qin/retratos/portrait-2790317fb6546a185016.png",
+        "caption": "Representación retrospectiva deQinErShi, no retrato oficial contemporáneo."
+      }
+    },
+    {
+      "person": "Q7203",
+      "name": "Ziying",
+      "role": "Rey de Qin · última fase",
+      "start": "-0207-01-01",
+      "end": "-0206-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ziying_of_Qin",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. No se le atribuye automáticamente el título imperial.",
+      "documentedInterval": [
+        -207,
+        -206
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy",
+        "empire",
+        "autocracy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-10",
+      "name": "Xianyang",
+      "coordinates": [
+        108.708,
+        34.329
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Qin_Dynasty",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Imperio Qin"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event043-14",
+      "kind": "transition",
+      "title": "Conquistas y unificación Qin",
+      "start": "-0230-01-01",
+      "end": "-0220-01-01",
+      "text": "Han230, Zhao228, Wei225, Chu223, Yan/Dai222 yQi221; distinguir rey eimperador.",
+      "source": "https://ll-chinesereferenceshelf.brillonline.com/dictionary-qin-and-han/prelims/sim-106456",
+      "sourceLabel": "Referencia documental · sigloIIIa.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "id": "event043-15",
+      "kind": "conflict",
+      "title": "Rebeliones y caída de Qin",
+      "start": "-0209-01-01",
+      "end": "-0205-01-01",
+      "text": "Rebelión, caída de la corte y partición206 son fases distintas.",
+      "source": "https://ll-chinesereferenceshelf.brillonline.com/dictionary-qin-and-han/prelims/sim-106456",
+      "sourceLabel": "Referencia documental · sigloIIIa.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "conflict"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Qin"
+        ],
+        "start": -221,
+        "end": -201,
+        "label": "Imperio Qin",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Qin Dynasty"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Imperio Qin",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Han"
+        ],
+        "start": -221,
+        "end": -207,
+        "label": "Qin · territorio incorporado",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Wei"
+        ],
+        "start": -221,
+        "end": -207,
+        "label": "Qin · territorio incorporado",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Qi"
+        ],
+        "start": -221,
+        "end": -207,
+        "label": "Qin · territorio incorporado",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Yan"
+        ],
+        "start": -221,
+        "end": -207,
+        "label": "Qin · territorio incorporado",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Zhao"
+        ],
+        "start": -221,
+        "end": -207,
+        "label": "Qin · territorio incorporado",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chu"
+        ],
+        "start": -221,
+        "end": -207,
+        "label": "Qin · territorio incorporado",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Zhou"
+        ],
+        "start": -221,
+        "end": -201,
+        "label": "Qin · antiguos territorios de Zhou",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Zhai"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Dai"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Jibei"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Jiujiang"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Henan"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Hán"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Linjiang"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chang-shan"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Sai"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Liaodong"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Jiaodong"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Yong"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Yin"
+        ],
+        "start": -300,
+        "end": -207,
+        "label": "Qin · contorno anterior a la partición de206",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "La fuente adelanta estos nombres; no se adelanta a208 la partición posterior a la caída Qin. Geometría original conservada."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Minyue"
+        ],
+        "start": -221,
+        "end": -207,
+        "label": "Qin · administración meridional",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lu"
+        ],
+        "start": -221,
+        "end": -201,
+        "label": "Qin · antiguos territorios de Lu",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Conquista por la potencia correspondiente; no adelantar la unificaciónQin ni el título imperial221."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Song"
+        ],
+        "start": -221,
+        "end": -201,
+        "label": "Qin · antiguos territorios de Song",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Conquista por la potencia correspondiente; no adelantar la unificaciónQin ni el título imperial221."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "d3c7c889a406686459356e1753cf8a0e32354f5a416482a18c1cf2e6c882c3a4",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        731,
+        749,
+        756
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Qin Er Shi",
+        "title": "Qin Er Shi",
+        "person": "Q7196",
+        "name": "Qin Er Shi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Qin_Er_Shi",
+        "identityResolution": {
+          "requested": "Qin Er Shi",
+          "canonical": "Qin Er Shi",
+          "qid": "Q7196"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "-0210-10-01",
+          "end": "-0207-10-01",
+          "precision": 11,
+          "statement": "Q7196$4ffd5da9-6387-461b-a7f1-602c5aef1f31",
+          "label": "Emperador de China"
+        },
+        {
+          "property": "P39",
+          "office": "Q1563199",
+          "start": "-0210-10-01",
+          "end": "-0207-10-01",
+          "precision": 11,
+          "statement": "Q7196$189cb195-45b1-a5e5-1cf3-fa3873cd013b",
+          "label": "soverano chino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7196",
+        "title": "Qin Er Shi",
+        "source": "https://en.wikipedia.org/wiki/Qin_Er_Shi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Qin dynasty",
+            "raw": "210 – October 207&nbsp;BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "210–207 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Qin Shi Huang",
+        "title": "Qin Shi Huang",
+        "person": "Q7192",
+        "name": "Qin Shi Huang",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+        "identityResolution": {
+          "requested": "Qin Shi Huang",
+          "canonical": "Qin Shi Huang",
+          "qid": "Q7192"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "-0221-01-01",
+          "end": "-0210-09-10",
+          "precision": 9,
+          "statement": "Q7192$31D65924-C88E-43AA-9046-AF5C251460F3",
+          "label": "Emperador de China"
+        },
+        {
+          "property": "P39",
+          "office": "Q38702033",
+          "start": "-0247-05-07",
+          "end": "-0221-01-01",
+          "precision": 9,
+          "statement": "Q7192$54acd5ad-4baa-1e33-1db8-872754efc1e3",
+          "label": "Chinese king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7192",
+        "title": "Qin Shi Huang",
+        "source": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Qin dynasty",
+            "raw": "221 BC{{snd}}12 July 210 BC{{efn|[https://www.kanripo.org/text/KR3g0018/090 Volume 90] of ''[[Treatise on Astrology of the Kaiyuan Era]]'' (8th century) indicates that he died on the ''yichou'' day of the 6th month of the 38th year of his reign (starting from his tenure as King of Qin), which corresponds to 11 July 210 BCE on the [https://ytliu0.github.io/ChineseCalendar/ proleptic Julian calendar] (始皇以六月乙丑死于沙丘...). [[:zh:s:史記/卷006|Volume 6]] of ''[[Records of the Grand Historian]]'' (1st century BC) indicates that he died on the ''bingyin'' day of the 7th month of his 38th year. While there is no ''bingyin'' day in that month, there is a ''bingyin'' day in the previous month, which corresponds to 12 July 210 BCE on the proleptic [https://ytliu0.github.io/ChineseCalendar/ Julian calendar] (七月丙寅，始皇崩于沙丘平台。) Older methods of calculation give 18 July.<ref>{{cite book |last=Moule |first=Arthur C. |author-link=Arthur Christopher Moule |year=1957 |title=The Rulers of China, 221 BC-AD 1949 |publisher=Routledge |location=London |oclc=223359908 |url=https://archive.org/details/the-rulers-of-china/page/n13 |url-access=limited |page=3}}</ref> A few modern sources give 10 September,<ref>{{cite book |last1=Farquhar |first1=Michael |title=Bad Days in History: A Gleefully Grim Chronicle of Misfortune, Mayhem, and Misery for Every Day of the Year |year=2006 |publisher=寂天文化 |isbn=9789861840239 |page=16|url=https://books.google.com/books?id=apKVCB2QijoC&pg=PA16}}</ref><ref>{{cite book |last1=Farquhar |first1=Michael |title=Bad Days in History: A Gleefully Grim Chronicle of Misfortune, Mayhem, and Misery for Every Day of the Year |year=2015 |publisher=National Geographic |isbn=978-1-4262-1280-2 |page=324 |url=https://books.google.com/books?id=cgONBwAAQBAJ&pg=PA329}}</ref> the ''bingyin'' day of the 8th month on the proleptic Julian calendar. Modern authors usually don't use specific dates.{{sfn|Loewe|2000|p=823}}{{sfn|Barbieri-Low|Yates|2015|p=[https://books.google.com/books?id=1W3sCgAAQBAJ&pg=PR19 xix]}}}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of Qin",
+            "raw": "6 July 247&nbsp;BC{{efn|[[:zh:s:史記/卷005|Volume 05]] of ''[[Records of the Grand Historian]]'' indicated that King Zhuangxiang died on the ''bingwu'' day of the 5th month of the 4th year of his reign. Using the ''[[Zhuanxu]]'' calendar, the date corresponds to 6 Jul 247 BC on the [https://ytliu0.github.io/ChineseCalendar/ proleptic Julian calendar]. ([四年]...。五月丙午，庄襄王卒...)}} – 221&nbsp;BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Qin",
+            "raw": "246–221 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "221–210 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Monarchs of China ''as Emperor of China''",
+            "raw": "221–210 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ziying",
+        "title": "Ziying",
+        "person": "Q7203",
+        "name": "Ziying",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ziying_of_Qin",
+        "identityResolution": {
+          "requested": "Ziying",
+          "canonical": "Ziying of Qin",
+          "qid": "Q7203"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q1563199",
+          "start": "-0207-10-01",
+          "end": "-0207-11-17",
+          "precision": 11,
+          "statement": "Q7203$14c18d2f-8598-410e-a491-a978def78821",
+          "label": "soverano chino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7203",
+        "title": "Ziying of Qin",
+        "source": "https://en.wikipedia.org/wiki/Ziying_of_Qin",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Qin",
+            "raw": "October – December 207 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Qin",
+            "raw": "207 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of Qin",
+            "raw": "207 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ruler of China",
+            "raw": "207 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "point043-15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.71,
+          34.33
+        ]
+      },
+      "properties": {
+        "name": "Rebeliones y caída de Qin",
+        "countries": [
+          "QIN-EMPIRE"
+        ],
+        "kind": "regional-conflict",
+        "start": "-0209-01-01",
+        "end": "-0206-12-31",
+        "precision": 9,
+        "source": "https://ll-chinesereferenceshelf.brillonline.com/dictionary-qin-and-han/prelims/sim-106456",
+        "sourceLabel": "Referencia documental · sigloIIIa.C.",
+        "note": "Rebelión, caída de la corte y partición206 son fases distintas. Coordenada regional, no perímetro ni frente militar."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q7192",
+      "title": "Qinshihuangdi3.jpg",
+      "decision": "accepted",
+      "reason": "Retrato chino retrospectivo deQinShiHuang; no obra acreditada del natural."
+    },
+    {
+      "person": "Q7196",
+      "title": "Qin Er Shi.png",
+      "decision": "accepted",
+      "reason": "Representación retrospectiva deQinErShi, no retrato oficial contemporáneo."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "key": "WARRING-LU",
+  "name": "Lu · Estado Combatiente",
+  "qid": "",
+  "aliases": [
+    "Lu · Estado Combatiente"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WARRING-LU"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q626363",
+      "name": "Lǔwén gōng",
+      "role": "Duque de Lu",
+      "start": "-0300-01-01",
+      "end": "-0280-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Duke_Wen_of_Lu_%28Spring_and_Autumn_period%29",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -302,
+        -280
+      ],
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "documented043-duque-qing-de-lu",
+      "name": "Duque Qing de Lu",
+      "role": "Autoridad documental · sin identificación individual Wikidata corroborada",
+      "start": "-0279-01-01",
+      "end": "-0249-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lu_(state)",
+      "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados.",
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,43 @@
+{
+  "key": "CHU-HAN-CHANGSHAN",
+  "name": "Reino de Chang-shan · partición Chu–Han",
+  "qid": "",
+  "aliases": [
+    "Reino de Chang-shan · partición Chu–Han"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CHU-HAN-CHANGSHAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "documented-zhang-er-changshan",
+      "name": "Zhang Er · rey de Changshan",
+      "role": "Rey de Changshan · partición de206a.C.",
+      "start": "-0206-01-01",
+      "end": "-0205-12-31",
+      "precision": 9,
+      "source": "https://ll-chinesereferenceshelf.brillonline.com/dictionary-qin-and-han/prelims/sim-106456",
+      "note": "El candidato homónimo es una poeta contemporánea; identidad documental del rey206–205, sin foto de otra persona.",
+      "documentedInterval": [
+        -206,
+        -205
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

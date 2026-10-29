@@ -1,0 +1,192 @@
+{
+  "key": "HIST-Q1936158",
+  "identity": {
+    "qid": "Q1936158",
+    "name": "Minyue"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Minyue reconocido por Han desde202a.C.",
+      "titles": [
+        "Wuzhu"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented-wuzhu-minyue",
+      "name": "Wuzhu · fundador de Minyue",
+      "role": "Rey de Minyue reconocido por Han desde202a.C.",
+      "start": "-0202-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Minyue",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -202,
+        -194
+      ],
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-28",
+      "name": "Dongye",
+      "coordinates": [
+        119.3,
+        26.08
+      ],
+      "start": -202,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Minyue",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Minyue"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Minyue"
+        ],
+        "start": -300,
+        "end": -223,
+        "label": "Comunidades de Yue/Minyue · anterior al reino Han",
+        "status": "source-reference",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Minyue"
+        ],
+        "start": -206,
+        "end": -203,
+        "label": "Minyue · poderes regionales tras Qin",
+        "status": "source-reference",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Minyue"
+        ],
+        "start": -202,
+        "end": -201,
+        "label": "Minyue · reino de Wuzhu",
+        "status": "protectorate",
+        "admin": "WESTERN-HAN",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "60154d81dfbc005a1119f9c4f3ecc86a147d15f4929d5f67c4203deafe5e3caa",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        460,
+        728,
+        739,
+        753,
+        777,
+        782,
+        810,
+        828
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Wuzhu",
+        "title": "Wuzhu",
+        "person": "Q836741",
+        "name": "Wanyan Wuzhu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wuzhu",
+        "identityResolution": {
+          "requested": "Wuzhu",
+          "canonical": "Wuzhu",
+          "qid": "Q836741"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q836741",
+        "title": "Wuzhu",
+        "source": "https://en.wikipedia.org/wiki/Wuzhu",
+        "reignFields": []
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "candidate": {
+        "requestedTitle": "Wuzhu",
+        "title": "Wuzhu",
+        "person": "Q836741",
+        "name": "Wanyan Wuzhu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wuzhu",
+        "identityResolution": {
+          "requested": "Wuzhu",
+          "canonical": "Wuzhu",
+          "qid": "Q836741"
+        }
+      },
+      "reason": "No reutilizar Wanyan Wuzhu, militar jurchen del sigloXII."
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

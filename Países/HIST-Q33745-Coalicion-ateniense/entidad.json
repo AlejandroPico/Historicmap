@@ -1,0 +1,43 @@
+{
+  "key": "HIST-Q33745",
+  "name": "Coalición ateniense",
+  "qid": "Q33745",
+  "aliases": [
+    "Coalición ateniense"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q33745"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q969152",
+      "name": "Cremónidas",
+      "role": "Figura política de la guerra cremonidea · no presidencia continua",
+      "start": "-0267-01-01",
+      "end": "-0261-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chremonides",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -267,
+        -261
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

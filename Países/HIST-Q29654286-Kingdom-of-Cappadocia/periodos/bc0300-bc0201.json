@@ -1,0 +1,278 @@
+{
+  "key": "HIST-Q29654286",
+  "identity": {
+    "qid": "Q29654286",
+    "name": "Capadocia · dinastas y realeza"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Dinasta capadocio · dignidad y corregencia según etapa",
+      "titles": [
+        "Ariaramnes of Cappadocia",
+        "Ariarathes II of Cappadocia",
+        "Ariarathes III of Cappadocia",
+        "Ariarathes IV of Cappadocia"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q469746",
+      "name": "Ariarates II",
+      "role": "Dinasta capadocio · anterior a la realeza plenamente afirmada",
+      "start": "-0300-01-01",
+      "end": "-0280-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ariarathes_II_of_Cappadocia",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -301,
+        -280
+      ],
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q547879",
+      "name": "Ariaramnes II",
+      "role": "Dinasta capadocio · anterior a la realeza plenamente afirmada",
+      "start": "-0280-01-01",
+      "end": "-0230-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ariaramnes_of_Cappadocia",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -280,
+        -230
+      ]
+    },
+    {
+      "person": "Q380378",
+      "name": "Ariarates III",
+      "role": "Dinasta capadocio · dignidad y corregencia según etapa",
+      "start": "-0255-01-01",
+      "end": "-0220-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ariarathes_III_of_Cappadocia",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Corregencia desde255 y título real asociado a la fase posterior hacia230; no independencia real uniforme durante todo el intervalo.",
+      "documentedInterval": [
+        -255,
+        -220
+      ]
+    },
+    {
+      "person": "Q380368",
+      "name": "Ariarates IV",
+      "role": "Dinasta capadocio · dignidad y corregencia según etapa",
+      "start": "-0220-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ariarathes_IV_of_Cappadocia",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -220,
+        -163
+      ],
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-47cac42fbd7f765b5643.jpg",
+        "title": "Ariarate IV di Cappadocia.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ariarate_IV_di_Cappadocia.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ariarate_IV_di_Cappadocia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "CNG[1]",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "http://wildwinds.com/coins/greece/cappadocia/kings/ariarathes_IV/t.html",
+        "sha256": "3b0fa0cddb7e111aa91d8aa6493ab466f2fb543dbb23a8c13c22eb5aedb31e72",
+        "bytes": 38835,
+        "canonicalFile": "Países/HIST-Q29654286-Kingdom-of-Cappadocia/retratos/portrait-47cac42fbd7f765b5643.jpg",
+        "caption": "Efigie numismática atribuida aAriarates IV; no fotografía ni fisonomía del natural acreditada.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Cappadocia"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Capadocia · dinastas y realeza",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "fe217f5e14b4424e6f934cd7e94e439a88a3ab63adf91b21ca76f27e6aef1290",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        667,
+        730,
+        740
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ariaramnes of Cappadocia",
+        "title": "Ariaramnes of Cappadocia",
+        "person": "Q547879",
+        "name": "Ariaramnes II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ariaramnes_of_Cappadocia",
+        "identityResolution": {
+          "requested": "Ariaramnes of Cappadocia",
+          "canonical": "Ariaramnes of Cappadocia",
+          "qid": "Q547879"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q547879",
+        "title": "Ariaramnes of Cappadocia",
+        "source": "https://en.wikipedia.org/wiki/Ariaramnes_of_Cappadocia",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Cappadocia",
+            "raw": "280–230 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Cappadocia",
+            "raw": "280 – 230 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ariarathes II of Cappadocia",
+        "title": "Ariarathes II of Cappadocia",
+        "person": "Q469746",
+        "name": "Ariarates II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ariarathes_II_of_Cappadocia",
+        "identityResolution": {
+          "requested": "Ariarathes II of Cappadocia",
+          "canonical": "Ariarathes II of Cappadocia",
+          "qid": "Q469746"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q469746",
+        "title": "Ariarathes II of Cappadocia",
+        "source": "https://en.wikipedia.org/wiki/Ariarathes_II_of_Cappadocia",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ariarathes III of Cappadocia",
+        "title": "Ariarathes III of Cappadocia",
+        "person": "Q380378",
+        "name": "Ariarates III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ariarathes_III_of_Cappadocia",
+        "identityResolution": {
+          "requested": "Ariarathes III of Cappadocia",
+          "canonical": "Ariarathes III of Cappadocia",
+          "qid": "Q380378"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q380378",
+        "title": "Ariarathes III of Cappadocia",
+        "source": "https://en.wikipedia.org/wiki/Ariarathes_III_of_Cappadocia",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ariarathes IV of Cappadocia",
+        "title": "Ariarathes IV of Cappadocia",
+        "person": "Q380368",
+        "name": "Ariarates IV",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ariarathes_IV_of_Cappadocia",
+        "identityResolution": {
+          "requested": "Ariarathes IV of Cappadocia",
+          "canonical": "Ariarathes IV of Cappadocia",
+          "qid": "Q380368"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q380368",
+        "title": "Ariarathes IV of Cappadocia",
+        "source": "https://en.wikipedia.org/wiki/Ariarathes_IV_of_Cappadocia",
+        "reignFields": []
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": [
+    {
+      "person": "Q380378",
+      "title": "Ariarathes III coin 169395.jpg",
+      "decision": "rejected",
+      "reason": "Atribución individual del tipo no corroborada; no publicar por nombre del emisor."
+    },
+    {
+      "person": "Q380368",
+      "title": "Ariarate IV di Cappadocia.jpg",
+      "decision": "accepted",
+      "reason": "Efigie y atribución revisadas visualmente."
+    }
+  ]
+}

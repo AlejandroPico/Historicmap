@@ -1,0 +1,123 @@
+{
+  "key": "HIST-Q309272",
+  "identity": {
+    "qid": "Q309272",
+    "name": "Mauritania antigua"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey atestiguado · no reinado completo inventado",
+      "titles": [
+        "Baga (king)"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q4841456",
+      "name": "Baga",
+      "role": "Rey atestiguado · no reinado completo inventado",
+      "start": "-0206-01-01",
+      "end": "-0206-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Baga_%28king%29",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Testimonio206; no reinado completo datado.",
+      "documentedInterval": [
+        -206,
+        -206
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Mauretania"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Mauritania antigua",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "e02adac7e90c48278876e2e250e9dc79de3ebf4e35c02ead345383e9cd16250d",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        747
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Baga (king)",
+        "title": "Baga (king)",
+        "person": "Q4841456",
+        "name": "Baga",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Baga_%28king%29",
+        "identityResolution": {
+          "requested": "Baga (king)",
+          "canonical": "Baga (king)",
+          "qid": "Q4841456"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4841456",
+        "title": "Baga (king)",
+        "source": "https://en.wikipedia.org/wiki/Baga_%28king%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Mauretania",
+            "raw": "around 225 BC<ref name=0:></ref>",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

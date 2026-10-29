@@ -1,0 +1,521 @@
+{
+  "key": "HIST-Q5724",
+  "identity": {
+    "qid": "Q5724",
+    "name": "Reino de Anuradhapura"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Soberano de Anuradhapura · cronología tradicional",
+      "titles": [
+        "Devanampiya Tissa of Anuradhapura",
+        "Elara (monarch)",
+        "Mahasiva of Anuradhapura",
+        "Mutasiva of Anuradhapura",
+        "Sena and Guttika",
+        "Suratissa of Anuradhapura",
+        "Uttiya of Anuradhapura"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q3025383",
+      "name": "Devanampiya Tissa of Anuradhapura",
+      "role": "Soberano de Anuradhapura · cronología tradicional",
+      "start": "-0300-01-01",
+      "end": "-0267-12-31",
+      "precision": 9,
+      "source": "https://budsas.net/ebud/mahavamsa/kings.html",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Cronología tradicional larga coherente conElara205–161; la revisiónGeiger sitúaTissa247–207 y desplaza sucesores, por lo que no se mezcla aquí conla secuencia larga. No sincronizar automáticamente su misión budista conuna fechaAshoka.",
+      "documentedInterval": [
+        -307,
+        -267
+      ],
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q4006868",
+      "name": "Uttiya of Anuradhapura",
+      "role": "Soberano de Anuradhapura · cronología tradicional",
+      "start": "-0267-01-01",
+      "end": "-0257-12-31",
+      "precision": 9,
+      "source": "https://budsas.net/ebud/mahavamsa/kings.html",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Cronología tradicional larga coherente conElara205–161; la revisiónGeiger sitúaTissa247–207 y desplaza sucesores, por lo que no se mezcla aquí conla secuencia larga. No sincronizar automáticamente su misión budista conuna fechaAshoka.",
+      "documentedInterval": [
+        -267,
+        -257
+      ]
+    },
+    {
+      "person": "Q16931951",
+      "name": "Mahasiva",
+      "role": "Soberano de Anuradhapura · cronología tradicional",
+      "start": "-0257-01-01",
+      "end": "-0247-12-31",
+      "precision": 9,
+      "source": "https://budsas.net/ebud/mahavamsa/kings.html",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Cronología tradicional larga coherente conElara205–161; la revisiónGeiger sitúaTissa247–207 y desplaza sucesores, por lo que no se mezcla aquí conla secuencia larga. No sincronizar automáticamente su misión budista conuna fechaAshoka.",
+      "documentedInterval": [
+        -257,
+        -247
+      ]
+    },
+    {
+      "person": "Q7645465",
+      "name": "Suratissa",
+      "role": "Soberano de Anuradhapura · cronología tradicional",
+      "start": "-0247-01-01",
+      "end": "-0237-12-31",
+      "precision": 9,
+      "source": "https://budsas.net/ebud/mahavamsa/kings.html",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Cronología tradicional larga coherente conElara205–161; la revisiónGeiger sitúaTissa247–207 y desplaza sucesores, por lo que no se mezcla aquí conla secuencia larga. No sincronizar automáticamente su misión budista conuna fechaAshoka.",
+      "documentedInterval": [
+        -247,
+        -237
+      ]
+    },
+    {
+      "person": "Q540008",
+      "name": "Elara",
+      "role": "Soberano de Anuradhapura · cronología tradicional",
+      "start": "-0205-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "source": "https://budsas.net/ebud/mahavamsa/kings.html",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Cronología tradicional larga coherente conElara205–161; la revisiónGeiger sitúaTissa247–207 y desplaza sucesores, por lo que no se mezcla aquí conla secuencia larga. No sincronizar automáticamente su misión budista conuna fechaAshoka.",
+      "documentedInterval": [
+        -205,
+        -161
+      ],
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "documented-lanka-sena",
+      "name": "Sena",
+      "role": "Cogobernante tradicional",
+      "start": "-0237-01-01",
+      "end": "-0215-12-31",
+      "precision": 9,
+      "source": "https://budsas.net/ebud/mahavamsa/kings.html",
+      "note": "Secuencia tradicional larga; Sena yGuttika son dos personas, sin reutilizar unQID colectivo como identidad personal. No representación individual acreditada."
+    },
+    {
+      "person": "documented-lanka-guttika",
+      "name": "Guttika",
+      "role": "Cogobernante tradicional",
+      "start": "-0237-01-01",
+      "end": "-0215-12-31",
+      "precision": 9,
+      "source": "https://budsas.net/ebud/mahavamsa/kings.html",
+      "note": "Secuencia tradicional larga; Sena yGuttika son dos personas, sin reutilizar unQID colectivo como identidad personal. No representación individual acreditada."
+    },
+    {
+      "person": "documented-lanka-asela",
+      "name": "Asela",
+      "role": "Soberano tradicional",
+      "start": "-0215-01-01",
+      "end": "-0205-12-31",
+      "precision": 9,
+      "source": "https://budsas.net/ebud/mahavamsa/kings.html",
+      "note": "Secuencia tradicional larga; Sena yGuttika son dos personas, sin reutilizar unQID colectivo como identidad personal. No representación individual acreditada."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-20",
+      "name": "Anuradhapura",
+      "coordinates": [
+        80.4,
+        8.34
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Anurādhapura",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Anurādhapura"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event043-18",
+      "kind": "source",
+      "title": "Dos cronologías de Lanka",
+      "start": "-0300-01-01",
+      "end": "-0200-01-01",
+      "text": "Secuencia larga tradicional y revisiónGeiger difieren60años; no combinarlas para crear cogobiernos inexistentes. Enlace conElara205–161 de la fase siguiente.",
+      "source": "https://ignca.gov.in/Asi_data/9195.pdf",
+      "sourceLabel": "Referencia documental · sigloIIIa.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "source"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Anurādhapura"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Reino de Anuradhapura",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "f7f956adc123a215315a227e33a4cc94c2024315e5eff1b645d5b8a47a429108",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        549
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Devanampiya Tissa of Anuradhapura",
+        "title": "Devanampiya Tissa of Anuradhapura",
+        "person": "Q3025383",
+        "name": "Devanampiya Tissa of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Devanampiya_Tissa",
+        "identityResolution": {
+          "requested": "Devanampiya Tissa of Anuradhapura",
+          "canonical": "Devanampiya Tissa",
+          "qid": "Q3025383"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "-0307-01-01",
+          "end": "-0267-01-01",
+          "precision": 9,
+          "statement": "Q3025383$7078cc64-438d-cd22-8d1f-418d9928d137",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q3025383",
+        "title": "Devanampiya Tissa",
+        "source": "https://en.wikipedia.org/wiki/Devanampiya_Tissa",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura Maharaja {{ref|noteA|A}} {{ref|noteB|B}} Devanampiya",
+            "raw": "307&nbsp;BC – 267&nbsp;BC or 247&nbsp;BC – 207&nbsp;BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "307&nbsp;BC–267&nbsp;BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Elara (monarch)",
+        "title": "Elara (monarch)",
+        "person": "Q540008",
+        "name": "Elara",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ellalan",
+        "identityResolution": {
+          "requested": "Elara (monarch)",
+          "canonical": "Ellalan",
+          "qid": "Q540008"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "-0205-01-01",
+          "end": "-0161-01-01",
+          "precision": 9,
+          "statement": "Q540008$fe34c989-4d0d-85f1-f71b-bb7b378242c9",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q540008",
+        "title": "Ellalan",
+        "source": "https://en.wikipedia.org/wiki/Ellalan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "{{circa|205|161 BCE}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "205 BC–161 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mahasiva of Anuradhapura",
+        "title": "Mahasiva of Anuradhapura",
+        "person": "Q16931951",
+        "name": "Mahasiva",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mahasiva",
+        "identityResolution": {
+          "requested": "Mahasiva of Anuradhapura",
+          "canonical": "Mahasiva",
+          "qid": "Q16931951"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "-0257-01-01",
+          "end": "-0247-01-01",
+          "precision": 9,
+          "statement": "Q16931951$c9b510c1-436a-5b46-700b-c4372d9a64a9",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q16931951",
+        "title": "Mahasiva",
+        "source": "https://en.wikipedia.org/wiki/Mahasiva",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "257 BC – 247 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "257 BC&ndash;247 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mutasiva of Anuradhapura",
+        "title": "Mutasiva of Anuradhapura",
+        "person": "Q12033704",
+        "name": "Mutasiva",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mutasiva",
+        "identityResolution": {
+          "requested": "Mutasiva of Anuradhapura",
+          "canonical": "Mutasiva",
+          "qid": "Q12033704"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q12033704",
+        "title": "Mutasiva",
+        "source": "https://en.wikipedia.org/wiki/Mutasiva",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "367 BC – 307 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "367 BC&ndash;307 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Sena and Guttika",
+        "title": "Sena and Guttika",
+        "person": "Q7449928",
+        "name": "Sena and Guttika",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Sena_and_Guttika",
+        "identityResolution": {
+          "requested": "Sena and Guttika",
+          "canonical": "Sena and Guttika",
+          "qid": "Q7449928"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Suratissa of Anuradhapura",
+        "title": "Suratissa of Anuradhapura",
+        "person": "Q7645465",
+        "name": "Suratissa",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Suratissa",
+        "identityResolution": {
+          "requested": "Suratissa of Anuradhapura",
+          "canonical": "Suratissa",
+          "qid": "Q7645465"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "-0247-01-01",
+          "end": "-0237-01-01",
+          "precision": 9,
+          "statement": "Q7645465$cc6fd774-43e6-95aa-156d-fe3529f7e29b",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7645465",
+        "title": "Suratissa",
+        "source": "https://en.wikipedia.org/wiki/Suratissa",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura",
+            "raw": "247 BC – 237 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "247 BC&ndash;237 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Uttiya of Anuradhapura",
+        "title": "Uttiya of Anuradhapura",
+        "person": "Q4006868",
+        "name": "Uttiya of Anuradhapura",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Uttiya",
+        "identityResolution": {
+          "requested": "Uttiya of Anuradhapura",
+          "canonical": "Uttiya",
+          "qid": "Q4006868"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q48605742",
+          "start": "-0267-01-01",
+          "end": "-0257-01-01",
+          "precision": 9,
+          "statement": "Q4006868$d8721ecb-4cd4-7b34-4c26-f4f8ffab1b45",
+          "label": "King of Anuradhapura"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q4006868",
+        "title": "Uttiya",
+        "source": "https://en.wikipedia.org/wiki/Uttiya",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Anuradhapura Maharaja {{ref|note1|(note 1)}}",
+            "raw": "267 BC – 257 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Anuradhapura",
+            "raw": "267 BC&ndash;257 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": [
+    {
+      "person": "Q540008",
+      "title": "MadrasHighCourtManuNeedhiCholanStatue.jpg",
+      "decision": "rejected",
+      "reason": "ManuNeedhiCholan no se identifica inequívocamente conElara."
+    }
+  ]
+}

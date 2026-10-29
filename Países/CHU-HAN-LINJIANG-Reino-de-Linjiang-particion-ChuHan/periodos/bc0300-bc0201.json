@@ -1,0 +1,169 @@
+{
+  "key": "CHU-HAN-LINJIANG",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Linjiang · partición Chu–Han"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Linjiang · partición de206a.C.",
+      "titles": [
+        "Gong Ao",
+        "Gong Wei"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q5581673",
+      "name": "Gong Ao",
+      "role": "Rey de Linjiang · partición de206a.C.",
+      "start": "-0206-01-01",
+      "end": "-0204-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gong_Ao",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -206,
+        -204
+      ]
+    },
+    {
+      "person": "Q5581705",
+      "name": "Gong Wei",
+      "role": "Rey de Linjiang · partición de206a.C.",
+      "start": "-0204-01-01",
+      "end": "-0202-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Gong_Wei",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -204,
+        -202
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Linjiang"
+        ],
+        "start": -206,
+        "end": -202,
+        "label": "Reino de Linjiang · partición Chu–Han",
+        "status": "protectorate",
+        "admin": "WESTERN-CHU-HEGEMONY",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Reino de la partición hegemónica de206; alianzas disputadas y cambios durante el año, no administración homogénea de un único Estado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "65c88d16e5e0ad53f06723bba2ce543e247faaff88c8d40ab435b9ada7244ce6",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        784
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Gong Ao",
+        "title": "Gong Ao",
+        "person": "Q5581673",
+        "name": "Gong Ao",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gong_Ao",
+        "identityResolution": {
+          "requested": "Gong Ao",
+          "canonical": "Gong Ao",
+          "qid": "Q5581673"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5581673",
+        "title": "Gong Ao",
+        "source": "https://en.wikipedia.org/wiki/Gong_Ao",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Linjiang",
+            "raw": "206 BC &ndash; 204 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Gong Wei",
+        "title": "Gong Wei",
+        "person": "Q5581705",
+        "name": "Gong Wei",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Gong_Wei",
+        "identityResolution": {
+          "requested": "Gong Wei",
+          "canonical": "Gong Wei",
+          "qid": "Q5581705"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q5581705",
+        "title": "Gong Wei",
+        "source": "https://en.wikipedia.org/wiki/Gong_Wei",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Linjiang",
+            "raw": "204 BC &ndash; 202 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

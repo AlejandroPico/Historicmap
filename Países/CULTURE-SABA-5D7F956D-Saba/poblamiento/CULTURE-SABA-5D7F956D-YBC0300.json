@@ -1,0 +1,69 @@
+{
+  "key": "CULTURE-SABA-5D7F956D-YBC0300",
+  "contextKey": "CULTURE-SABA-5D7F956D",
+  "ownerKey": "CULTURE-SABA-5D7F956D",
+  "name": "Saba",
+  "originalNames": [
+    "Saba"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación100a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -300,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes, no Estado unitario, identidad homogénea, censo o frontera exclusiva.",
+  "spatialUncertainty": "Contorno mundial original, resolución desigual y delimitación local pendiente; no frontera política anual.",
+  "temporalUncertainty": "Referencia espacial300a.C.; los ámbitos sin equivalente posterior continúan como contexto histórico, no como población actual observada.",
+  "references": [
+    {
+      "title": "Historical Basemaps300a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    43.53071,
+    16.63315
+  ],
+  "phases": [
+    {
+      "start": -300,
+      "end": -201,
+      "label": "Saba",
+      "dateBasis": "Referencia espacial de300a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-SABA-5D7F956D-YBC0300.geojson",
+  "geometrySha256": "56ec9cbac0f3b0c0ee3f6da7795e94545f189b5d5be6b2a2d0e25b5e28232803",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson",
+    "year": -300,
+    "featureIds": [
+      31
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d181645f7963e893fc5502a496c14927316939a2a38cba7722a38b75f80cf633"
+  },
+  "review": "0.43.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación local. El final de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Saba",
+      "ABBREVN": "Saba",
+      "CONTROL": null,
+      "SUBJECTO": "Saba",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Saba"
+    }
+  ],
+  "sourceGrouping": [
+    "Saba"
+  ]
+}

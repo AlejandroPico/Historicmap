@@ -1,0 +1,61 @@
+{
+  "key": "WARRING-SONG",
+  "name": "Song · estado antiguo",
+  "qid": "",
+  "aliases": [
+    "Song · estado antiguo"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WARRING-SONG"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1182520",
+      "name": "Yan, King of Song",
+      "role": "Rey de Song · estado antiguo, no dinastía medieval",
+      "start": "-0300-01-01",
+      "end": "-0286-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yan%2C_King_of_Song",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -328,
+        -286
+      ],
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-bc300-0.43",
+      "portrait": {
+        "file": "media/portrait-4cd06f46bb00110f4cb4.png",
+        "title": "宋康王.png",
+        "url": "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%BA%B7%E7%8E%8B.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%E5%AE%8B%E5%BA%B7%E7%8E%8B.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "墨浪",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%BA%B7%E7%8E%8B.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "连环画《青陵台》，1957年6月，朝花美术出版社",
+        "sha256": "0755d75295c4745c963fca09059155063fbbffa87fd7de56fd5964b878f1a84a",
+        "bytes": 512017,
+        "stagedFile": ".cache/portraits043/4cd06f46bb00110f4cb4.bin",
+        "canonicalFile": "Países/WARRING-SONG-Song-estado-antiguo/retratos/portrait-4cd06f46bb00110f4cb4.png",
+        "caption": "Ilustración china retrospectiva del reyKang/Yan deSong, no emperadorSong medieval."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

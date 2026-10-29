@@ -1,0 +1,43 @@
+{
+  "key": "CHU-HAN-JIUJIANG",
+  "name": "Reino de Jiujiang · partición Chu–Han",
+  "qid": "",
+  "aliases": [
+    "Reino de Jiujiang · partición Chu–Han"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CHU-HAN-JIUJIANG"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1069973",
+      "name": "Ying Bu",
+      "role": "Rey de Jiujiang/Huainan · título y alianza según etapa",
+      "start": "-0206-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ying_Bu",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -206,
+        -201
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

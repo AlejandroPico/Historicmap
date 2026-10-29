@@ -1,0 +1,104 @@
+{
+  "key": "WARRING-WEI",
+  "name": "Wei · Estado Combatiente",
+  "qid": "",
+  "aliases": [
+    "Wei · Estado Combatiente"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WARRING-WEI"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q2650186",
+      "name": "King Xiang of Wei",
+      "role": "Rey de Wei · Estados Combatientes",
+      "start": "-0300-01-01",
+      "end": "-0296-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Wei",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -318,
+        -296
+      ],
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q2650580",
+      "name": "King Zhao of Wei",
+      "role": "Rey de Wei · Estados Combatientes",
+      "start": "-0296-01-01",
+      "end": "-0277-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Zhao_of_Wei",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -296,
+        -277
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q2650093",
+      "name": "King Jingmin of Wei",
+      "role": "Rey de Wei · Estados Combatientes",
+      "start": "-0243-01-01",
+      "end": "-0228-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Jingmin_of_Wei",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -243,
+        -228
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q2650577",
+      "name": "Jia of Wei",
+      "role": "Rey de Wei · Estados Combatientes",
+      "start": "-0227-01-01",
+      "end": "-0225-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jia_of_Wei",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -227,
+        -225
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "documented043-anli-de-wei",
+      "name": "Anli de Wei",
+      "role": "Autoridad documental · sin identificación individual Wikidata corroborada",
+      "start": "-0277-01-01",
+      "end": "-0243-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Anxi_of_Wei",
+      "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados.",
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

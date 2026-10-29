@@ -1,0 +1,109 @@
+{
+  "key": "QIN-EMPIRE",
+  "name": "Imperio Qin",
+  "qid": "",
+  "aliases": [
+    "Imperio Qin"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "QIN-EMPIRE"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q7192",
+      "name": "Qin Shi Huang",
+      "role": "Emperador de Qin",
+      "start": "-0221-01-01",
+      "end": "-0210-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Título imperial desde221, no desde su acceso como rey246.",
+      "documentedInterval": [
+        -221,
+        -210
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43",
+      "portrait": {
+        "file": "media/portrait-cefbcc3a51364d3545e0.jpg",
+        "title": "Qinshihuangdi3.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Qinshihuangdi3.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Qinshihuangdi3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Qinshihuangdi3.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "6cfee9ef139fdef256d1877062572dbadea5cafc4a230ea157d57a9fd251e9a7",
+        "bytes": 15241,
+        "stagedFile": ".cache/portraits043/cefbcc3a51364d3545e0.bin",
+        "canonicalFile": "Países/QIN-EMPIRE-Imperio-Qin/retratos/portrait-cefbcc3a51364d3545e0.jpg",
+        "caption": "Retrato chino retrospectivo deQinShiHuang; no obra acreditada del natural."
+      }
+    },
+    {
+      "person": "Q7196",
+      "name": "Qin Er Shi",
+      "role": "Soberano de Qin · emperador o rey según dignidad",
+      "start": "-0210-01-01",
+      "end": "-0207-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qin_Er_Shi",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -210,
+        -207
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43",
+      "portrait": {
+        "file": "media/portrait-2790317fb6546a185016.png",
+        "title": "Qin Er Shi.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Qin_Er_Shi.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Qin_Er_Shi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Perinbaba",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "0a98d89c6666cba8bd54882c4a6e24d00a3c9573a1f282e615101a2dc60acf6a",
+        "bytes": 167002,
+        "stagedFile": ".cache/portraits043/2790317fb6546a185016.bin",
+        "canonicalFile": "Países/QIN-EMPIRE-Imperio-Qin/retratos/portrait-2790317fb6546a185016.png",
+        "caption": "Representación retrospectiva deQinErShi, no retrato oficial contemporáneo."
+      }
+    },
+    {
+      "person": "Q7203",
+      "name": "Ziying",
+      "role": "Rey de Qin · última fase",
+      "start": "-0207-01-01",
+      "end": "-0206-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ziying_of_Qin",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. No se le atribuye automáticamente el título imperial.",
+      "documentedInterval": [
+        -207,
+        -206
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

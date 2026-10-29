@@ -1,0 +1,75 @@
+{
+  "key": "CHU-HAN-HAN-RESTORED",
+  "name": "Reino de Hán · partición Chu–Han",
+  "qid": "",
+  "aliases": [
+    "Reino de Hán · partición Chu–Han"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CHU-HAN-HAN-RESTORED"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q713697",
+      "name": "Han Cheng",
+      "role": "Rey de Hán restaurado · distinto del reino Han de Liu Bang",
+      "start": "-0206-01-01",
+      "end": "-0206-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cheng%2C_King_of_Han",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -206,
+        -206
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q8070709",
+      "name": "Zheng Chang",
+      "role": "Rey de Hán restaurado · distinto del reino Han de Liu Bang",
+      "start": "-0206-01-01",
+      "end": "-0205-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zheng_Chang",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -206,
+        -205
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q712044",
+      "name": "King Xin of Han",
+      "role": "Rey de Hán restaurado · distinto del reino Han de Liu Bang",
+      "start": "-0205-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Xin_of_Han",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -205,
+        -201
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

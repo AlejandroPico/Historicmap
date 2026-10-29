@@ -1,0 +1,78 @@
+{
+  "key": "REFERENCE-EARLY-INDIAN-POWERS-YBC0300",
+  "contextKey": "REFERENCE-EARLY-INDIAN-POWERS",
+  "ownerKey": "REFERENCE-EARLY-INDIAN-POWERS",
+  "name": "Poderes y comunidades del subcontinente indio",
+  "originalNames": [
+    "Hindu kingdoms"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación300a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -300,
+    99
+  ],
+  "interpretation": "Etiqueta religiosa general de la compilación, no Estado hindú homogéneo ni distribución confesional acreditada.",
+  "spatialUncertainty": "Contorno mundial original, resolución desigual y delimitación local pendiente; no frontera política anual.",
+  "temporalUncertainty": "Referencia espacial300a.C.; los ámbitos sin equivalente posterior continúan como contexto histórico, no como población actual observada.",
+  "references": [
+    {
+      "title": "Historical Basemaps300a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    77.17212,
+    11.20175
+  ],
+  "phases": [
+    {
+      "start": -300,
+      "end": -201,
+      "label": "Poderes y comunidades del subcontinente indio",
+      "dateBasis": "Referencia espacial de300a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -200,
+      "end": 99,
+      "label": "Poderes y comunidades del subcontinente indio",
+      "dateBasis": "Consulta del ámbito histórico anterior; no nueva observación de habitantes o límites.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -300,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-EARLY-INDIAN-POWERS-YBC0300.geojson",
+  "geometrySha256": "ea903e4f3a8aace5163dd37862384cca8057a13fffbd29e1fc38fc36d867880d",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson",
+    "year": -300,
+    "featureIds": [
+      23
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d181645f7963e893fc5502a496c14927316939a2a38cba7722a38b75f80cf633"
+  },
+  "review": "0.43.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación local. El final de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Hindu kingdoms",
+      "ABBREVN": "Hindu kingdoms",
+      "CONTROL": null,
+      "SUBJECTO": "Hindu kingdoms",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Hindu kingdoms"
+    }
+  ],
+  "sourceGrouping": [
+    "Hindu kingdoms"
+  ]
+}

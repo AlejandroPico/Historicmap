@@ -1,0 +1,187 @@
+{
+  "key": "WARRING-LU",
+  "identity": {
+    "qid": "",
+    "name": "Lu · Estado Combatiente"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Duque de Lu",
+      "titles": [
+        "Duke Qing of Lu",
+        "Duke Wen of Lu"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q626363",
+      "name": "Lǔwén gōng",
+      "role": "Duque de Lu",
+      "start": "-0300-01-01",
+      "end": "-0280-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Duke_Wen_of_Lu_%28Spring_and_Autumn_period%29",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -302,
+        -280
+      ],
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "documented043-duque-qing-de-lu",
+      "name": "Duque Qing de Lu",
+      "role": "Autoridad documental · sin identificación individual Wikidata corroborada",
+      "start": "-0279-01-01",
+      "end": "-0249-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lu_(state)",
+      "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lu"
+        ],
+        "start": -300,
+        "end": -250,
+        "label": "Lu · Estado Combatiente",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "a96b0926e9eb5da191b03eed4c59654b125ee083fca4d3770a77201b8e10c2f8",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        377,
+        560,
+        643
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Duke Qing of Lu",
+        "title": "Duke Qing of Lu",
+        "person": "",
+        "name": "Duke Qing of Lu",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Duke_Qing_of_Lu",
+        "identityResolution": {
+          "requested": "Duke Qing of Lu",
+          "canonical": "Duke Qing of Lu",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Duke Wen of Lu",
+        "title": "Duke Wen of Lu",
+        "person": "Q626363",
+        "name": "Lǔwén gōng",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Duke_Wen_of_Lu_%28Spring_and_Autumn_period%29",
+        "identityResolution": {
+          "requested": "Duke Wen of Lu",
+          "canonical": "Duke Wen of Lu (Spring and Autumn period)",
+          "qid": "Q626363"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q626363",
+        "title": "Duke Wen of Lu (Spring and Autumn period)",
+        "source": "https://en.wikipedia.org/wiki/Duke_Wen_of_Lu_%28Spring_and_Autumn_period%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Lu",
+            "raw": "626 BC - 609 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Duke of Lu",
+            "raw": "626-609 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "unresolvedAuthorities": [
+    {
+      "title": "Duke Qing of Lu",
+      "candidate": {
+        "requestedTitle": "Duke Qing of Lu",
+        "title": "Duke Qing of Lu",
+        "person": "",
+        "name": "Duke Qing of Lu",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Duke_Qing_of_Lu",
+        "identityResolution": {
+          "requested": "Duke Qing of Lu",
+          "canonical": "Duke Qing of Lu",
+          "qid": ""
+        }
+      },
+      "reason": "Candidato no resuelto como individuo; no asignar otra identidad o imagen por semejanza."
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "candidateIdentityCorrections": [
+    {
+      "sourceId": "HIST-Q555994",
+      "reason": "Identificador fuente anacrónico compartido con una entidad posterior; se conserva sólo como procedencia geométrica."
+    }
+  ],
+  "mediaReview": []
+}

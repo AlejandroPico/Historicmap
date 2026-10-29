@@ -1,0 +1,156 @@
+{
+  "key": "WARRING-SONG",
+  "identity": {
+    "qid": "",
+    "name": "Song · estado antiguo"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Song · estado antiguo, no dinastía medieval",
+      "titles": [
+        "King Kang of Song"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1182520",
+      "name": "Yan, King of Song",
+      "role": "Rey de Song · estado antiguo, no dinastía medieval",
+      "start": "-0300-01-01",
+      "end": "-0286-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yan%2C_King_of_Song",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -328,
+        -286
+      ],
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-4cd06f46bb00110f4cb4.png",
+        "title": "宋康王.png",
+        "url": "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%BA%B7%E7%8E%8B.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%E5%AE%8B%E5%BA%B7%E7%8E%8B.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "墨浪",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%BA%B7%E7%8E%8B.png#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "连环画《青陵台》，1957年6月，朝花美术出版社",
+        "sha256": "0755d75295c4745c963fca09059155063fbbffa87fd7de56fd5964b878f1a84a",
+        "bytes": 512017,
+        "stagedFile": ".cache/portraits043/4cd06f46bb00110f4cb4.bin",
+        "canonicalFile": "Países/WARRING-SONG-Song-estado-antiguo/retratos/portrait-4cd06f46bb00110f4cb4.png",
+        "caption": "Ilustración china retrospectiva del reyKang/Yan deSong, no emperadorSong medieval."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Song"
+        ],
+        "start": -300,
+        "end": -287,
+        "label": "Song · Estado Combatiente",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "11a495e799fc125d03fbd0f1e6a741d7a1313ad7a8b804431cc255bc85962418",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        433,
+        540
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "King Kang of Song",
+        "title": "King Kang of Song",
+        "person": "Q1182520",
+        "name": "Yan, King of Song",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yan%2C_King_of_Song",
+        "identityResolution": {
+          "requested": "King Kang of Song",
+          "canonical": "Yan, King of Song",
+          "qid": "Q1182520"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1182520",
+        "title": "Yan, King of Song",
+        "source": "https://en.wikipedia.org/wiki/Yan%2C_King_of_Song",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Song",
+            "raw": "318–286 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "Duke of Song",
+            "raw": "328–318 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": [
+    {
+      "person": "Q1182520",
+      "title": "宋康王.png",
+      "decision": "accepted",
+      "reason": "Ilustración china retrospectiva del reyKang/Yan deSong, no emperadorSong medieval."
+    }
+  ]
+}

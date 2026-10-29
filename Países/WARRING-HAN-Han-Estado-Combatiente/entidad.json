@@ -1,0 +1,92 @@
+{
+  "key": "WARRING-HAN",
+  "name": "Han · Estado Combatiente",
+  "qid": "",
+  "aliases": [
+    "Han · Estado Combatiente"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WARRING-HAN"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q3178575",
+      "name": "King Xiang of Han",
+      "role": "Rey del estado de Han · Estados Combatientes",
+      "start": "-0300-01-01",
+      "end": "-0296-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Han",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -311,
+        -296
+      ],
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q6412160",
+      "name": "King Xi of Han",
+      "role": "Rey del estado de Han · Estados Combatientes",
+      "start": "-0296-01-01",
+      "end": "-0273-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Xi_of_Han",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -296,
+        -273
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q575290",
+      "name": "King Huanhui of Han",
+      "role": "Rey del estado de Han · Estados Combatientes",
+      "start": "-0273-01-01",
+      "end": "-0239-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Huanhui_of_Han",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -273,
+        -239
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q387311",
+      "name": "King An of Han",
+      "role": "Rey del estado de Han · Estados Combatientes",
+      "start": "-0239-01-01",
+      "end": "-0230-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/An%2C_King_of_Han",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -239,
+        -230
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

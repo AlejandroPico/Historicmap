@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.43.0 · 29 de octubre de2026
+
+- Consulta anual300–201a.C.:83 dossiers,220 registros de autoridades,319 componentes políticos originales,30 centros,23 contextos y17 referencias regionales de conflictos.
+- Estados antiguosWei,Qi,Yan,Zhao yLu separados deidentificadores de entidades posteriores. Los reinos de la particiónChu–Han tienen claves propias; corrección de homónimosZhangEr yShenYang.
+- Qin distingue reino y título imperial desde221; Lu se incorpora aChu ySong aQi. Reorganizaciones helenísticas, magistraturas republicanas, Maurya,Lanka yKush con cargos y cronologías documentados.
+- 73 originales culturales,70 fases nuevas y9.572 acumuladas; conservación literal de las9.502 anteriores, con continuidad y fechas decontextos históricos explícitas.
+- 83 candidatos visuales inspeccionados:49 aceptados y34 apartados, más dos alternativas identificadas. Ashoka en panel inscrito deKanaganahalli conGODL; efigie dePtolomeoIII emitida porIV. Dioses, emisores, personajes representados y obras retrospectivas se distinguen.
+- Continuidad con200: Kalinga bajoMaurya hasta185 y vinculación nominalHan deMinyue desde202. Nicomedia,Chang’an yDongye respetan sus fechas deconsulta.
+- Comprobaciones, fuentes, carencias e integridad documentadas. Se mantienen las cuatro máquinas deCI y la comprobación de publicación por el propietario.
+
 ## 0.42.0 · 29 de octubre de 2026
 
 - Consulta anual de 200–101 a. C.: 57 dossiers, 180 registros de autoridades, 158 componentes políticos originales, 32 centros, 23 contextos y 12 referencias regionales de conflictos.

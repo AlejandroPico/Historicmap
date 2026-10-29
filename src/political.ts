@@ -50,6 +50,9 @@ export function entityKey(p:Record<string,unknown>,year:number):string{
 /** Editorial colors identify political regimes, never inferred solely from a flag. */
 export function regimeColor(key:string,year:number):string{
   switch(key){
+    case 'QIN-STATE-WARRING':return '#737568';
+    case 'QIN-EMPIRE':return '#565f64';
+    case 'WESTERN-CHU-HEGEMONY':return '#93634f';
     case 'DEU':return year>=1933&&year<=1944?'#50545a':year<=1917?'#747d89':year<=1932?'#8f886f':'#728b8f';
     case 'DDR':return year<1949?'#bd625d':'#a75558';
     case 'USSR':return '#c74743';

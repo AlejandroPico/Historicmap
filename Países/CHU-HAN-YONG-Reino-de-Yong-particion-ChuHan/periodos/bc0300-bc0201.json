@@ -1,0 +1,130 @@
+{
+  "key": "CHU-HAN-YONG",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Yong · partición Chu–Han"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Yong · partición de206a.C.",
+      "titles": [
+        "Zhang Han (Qin dynasty)"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1336683",
+      "name": "Zhang Han",
+      "role": "Rey de Yong · partición de206a.C.",
+      "start": "-0206-01-01",
+      "end": "-0205-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhang_Han_%28Qin_dynasty%29",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -206,
+        -205
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Yong"
+        ],
+        "start": -206,
+        "end": -205,
+        "label": "Reino de Yong · partición Chu–Han",
+        "status": "protectorate",
+        "admin": "WESTERN-CHU-HEGEMONY",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Reino de la partición hegemónica de206; alianzas disputadas y cambios durante el año, no administración homogénea de un único Estado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "962efa3f703dc5f5a16789883effaec4fcf80465f7974d295792bf8f1825d078",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        806
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Zhang Han (Qin dynasty)",
+        "title": "Zhang Han (Qin dynasty)",
+        "person": "Q1336683",
+        "name": "Zhang Han",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zhang_Han_%28Qin_dynasty%29",
+        "identityResolution": {
+          "requested": "Zhang Han (Qin dynasty)",
+          "canonical": "Zhang Han (Qin dynasty)",
+          "qid": "Q1336683"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1336683",
+        "title": "Zhang Han (Qin dynasty)",
+        "source": "https://en.wikipedia.org/wiki/Zhang_Han_%28Qin_dynasty%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Yong 雍王",
+            "raw": "206–205 BC",
+            "parsed": null,
+            "reignType": "Tenure"
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Yong",
+            "raw": "206 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

@@ -1,0 +1,68 @@
+{
+  "key": "CULTURE-SIMHALA-00F26651",
+  "name": "Simhala",
+  "qid": "",
+  "aliases": [
+    "Simhala"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 76,
+      "start": null,
+      "end": null,
+      "name": "Simhala",
+      "status": null
+    },
+    {
+      "file": "world_500.geojson",
+      "recordId": 7,
+      "start": null,
+      "end": null,
+      "name": "Simhala",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 4,
+      "start": null,
+      "end": null,
+      "name": "Simhala",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-SIMHALA-00F26651-YBC0300:0",
+      "contextKey": "CULTURE-SIMHALA-00F26651",
+      "start": -300,
+      "end": -201,
+      "sourceYear": -300,
+      "canonicalFile": "Países/CULTURE-SIMHALA-00F26651-Simhala/poblamiento/CULTURE-SIMHALA-00F26651-YBC0300.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-SIMHALA-00F26651-YBC0300:1",
+      "contextKey": "CULTURE-SIMHALA-00F26651",
+      "start": -200,
+      "end": 99,
+      "sourceYear": -300,
+      "canonicalFile": "Países/CULTURE-SIMHALA-00F26651-Simhala/poblamiento/CULTURE-SIMHALA-00F26651-YBC0300.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,80 @@
+{
+  "key": "REFERENCE-ANTIGONID-DIADOCHI-YBC0300",
+  "contextKey": "REFERENCE-ANTIGONID-DIADOCHI",
+  "ownerKey": "REFERENCE-ANTIGONID-DIADOCHI",
+  "name": "Ámbitos de Antígono y sus sucesores · contexto de Ipso",
+  "originalNames": [
+    "Kingdom of Antigonus"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación300a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -300,
+    99
+  ],
+  "interpretation": "AntígonoI murió en301. El rótulo original no acredita un reinado suyo en300; referencia histórica y de sucesores con extensión discutida.",
+  "spatialUncertainty": "Contorno mundial original, resolución desigual y delimitación local pendiente; no frontera política anual.",
+  "temporalUncertainty": "Referencia espacial300a.C.; los ámbitos sin equivalente posterior continúan como contexto histórico, no como población actual observada.",
+  "references": [
+    {
+      "title": "Historical Basemaps300a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    28.11074,
+    36.7267
+  ],
+  "phases": [
+    {
+      "start": -300,
+      "end": -201,
+      "label": "Ámbitos de Antígono y sus sucesores · contexto de Ipso",
+      "dateBasis": "Referencia espacial de300a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -301
+    },
+    {
+      "start": -200,
+      "end": 99,
+      "label": "Ámbitos de Antígono y sus sucesores · contexto de Ipso",
+      "dateBasis": "Consulta del ámbito histórico anterior; no nueva observación de habitantes o límites.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -301,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-ANTIGONID-DIADOCHI-YBC0300.geojson",
+  "geometrySha256": "6019212bffd3dcaa0e3cf6d3f7162edf8b0a1a6ab5658763d8411ddd588accb3",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson",
+    "year": -300,
+    "featureIds": [
+      57
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d181645f7963e893fc5502a496c14927316939a2a38cba7722a38b75f80cf633"
+  },
+  "review": "0.43.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación local. El final de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Kingdom of Antigonus",
+      "ABBREVN": "Kingdom of Antigonus",
+      "CONTROL": null,
+      "SUBJECTO": "Kingdom of Antigonus",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Kingdom of Antigonus"
+    }
+  ],
+  "sourceGrouping": [
+    "Kingdom of Antigonus"
+  ]
+}

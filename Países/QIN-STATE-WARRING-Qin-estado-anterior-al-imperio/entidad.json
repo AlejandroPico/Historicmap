@@ -1,0 +1,118 @@
+{
+  "key": "QIN-STATE-WARRING",
+  "name": "Qin · estado anterior al imperio",
+  "qid": "",
+  "aliases": [
+    "Qin · estado anterior al imperio"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "QIN-STATE-WARRING"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q553240",
+      "name": "Zhaoxiang",
+      "role": "Rey de Qin · anterior al título imperial",
+      "start": "-0300-01-01",
+      "end": "-0251-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Zhaoxiang_of_Qin",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -306,
+        -251
+      ],
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q1372297",
+      "name": "Xiaowen",
+      "role": "Rey de Qin · anterior al título imperial",
+      "start": "-0250-01-01",
+      "end": "-0250-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Xiaowen_of_Qin",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -250,
+        -250
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q1327607",
+      "name": "King Zhuangxiang of Qin",
+      "role": "Rey de Qin · anterior al título imperial",
+      "start": "-0250-01-01",
+      "end": "-0247-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Zhuangxiang_of_Qin",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -250,
+        -247
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q7192",
+      "name": "Qin Shi Huang",
+      "role": "Rey Zheng de Qin",
+      "start": "-0246-01-01",
+      "end": "-0222-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Título imperial desde221, no desde su acceso como rey246.",
+      "documentedInterval": [
+        -246,
+        -222
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43",
+      "portrait": {
+        "file": "media/portrait-cefbcc3a51364d3545e0.jpg",
+        "title": "Qinshihuangdi3.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Qinshihuangdi3.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Qinshihuangdi3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Qinshihuangdi3.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "6cfee9ef139fdef256d1877062572dbadea5cafc4a230ea157d57a9fd251e9a7",
+        "bytes": 15241,
+        "stagedFile": ".cache/portraits043/cefbcc3a51364d3545e0.bin",
+        "canonicalFile": "Países/QIN-STATE-WARRING-Qin-estado-anterior-al-imperio/retratos/portrait-cefbcc3a51364d3545e0.jpg",
+        "caption": "Retrato chino retrospectivo deQinShiHuang; no obra acreditada del natural."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-QIN-BA66E35F-YBC0300",
+      "ownerKey": "QIN-STATE-WARRING",
+      "name": "Qin",
+      "file": "Países/QIN-STATE-WARRING-Qin-estado-anterior-al-imperio/poblamiento/CULTURE-QIN-BA66E35F-YBC0300.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

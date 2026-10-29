@@ -1,0 +1,70 @@
+{
+  "key": "HIST-Q32133",
+  "name": "Reino de Lisímaco",
+  "qid": "",
+  "aliases": [
+    "Reino de Lisímaco"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q32133"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q32133",
+      "name": "Lisímaco de Tracia",
+      "role": "Rey de Tracia y territorios helenísticos",
+      "start": "-0300-01-01",
+      "end": "-0281-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Lysimachus",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -306,
+        -281
+      ],
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-bc300-0.43",
+      "portrait": {
+        "file": "media/portrait-1ebf09993306fcf31c45.jpg",
+        "title": "Lisymachus, marble - Ephesus Museum.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Lisymachus,_marble_-_Ephesus_Museum.JPG",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lisymachus%2C_marble_-_Ephesus_Museum.JPG/330px-Lisymachus%2C_marble_-_Ephesus_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "José Luiz",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution": "© José Luiz Bernardes Ribeiro",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "cc031ab3e4736d1ba06b7d917f57415551722b9a3b5deb47aa75983c9faeab26",
+        "bytes": 41919,
+        "stagedFile": ".cache/portraits043/1ebf09993306fcf31c45.bin",
+        "canonicalFile": "Países/HIST-Q32133-Kingdom-of-Lysimachus/retratos/portrait-1ebf09993306fcf31c45.jpg",
+        "caption": "Busto tradicionalmente atribuido aLisímaco; atribución, no certeza fisonómica."
+      }
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalReviews": [
+    {
+      "key": "CULTURE-KINGDOM-OF-LYSIMACHUS-C0D1FF9C-YBC0300",
+      "ownerKey": "HIST-Q32133",
+      "name": "Kingdom of Lysimachus",
+      "file": "Países/HIST-Q32133-Kingdom-of-Lysimachus/poblamiento/CULTURE-KINGDOM-OF-LYSIMACHUS-C0D1FF9C-YBC0300.json",
+      "decision": "political-base"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

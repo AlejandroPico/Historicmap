@@ -1,0 +1,338 @@
+{
+  "key": "WARRING-WEI",
+  "identity": {
+    "qid": "",
+    "name": "Wei · Estado Combatiente"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Wei · Estados Combatientes",
+      "titles": [
+        "King Anli of Wei",
+        "King Jia of Wei",
+        "King Jingmin of Wei",
+        "King Xiang of Wei",
+        "King Zhao of Wei"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2650186",
+      "name": "King Xiang of Wei",
+      "role": "Rey de Wei · Estados Combatientes",
+      "start": "-0300-01-01",
+      "end": "-0296-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Wei",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -318,
+        -296
+      ],
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q2650580",
+      "name": "King Zhao of Wei",
+      "role": "Rey de Wei · Estados Combatientes",
+      "start": "-0296-01-01",
+      "end": "-0277-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Zhao_of_Wei",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -296,
+        -277
+      ]
+    },
+    {
+      "person": "Q2650093",
+      "name": "King Jingmin of Wei",
+      "role": "Rey de Wei · Estados Combatientes",
+      "start": "-0243-01-01",
+      "end": "-0228-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Jingmin_of_Wei",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -243,
+        -228
+      ]
+    },
+    {
+      "person": "Q2650577",
+      "name": "Jia of Wei",
+      "role": "Rey de Wei · Estados Combatientes",
+      "start": "-0227-01-01",
+      "end": "-0225-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jia_of_Wei",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -227,
+        -225
+      ]
+    },
+    {
+      "person": "documented043-anli-de-wei",
+      "name": "Anli de Wei",
+      "role": "Autoridad documental · sin identificación individual Wikidata corroborada",
+      "start": "-0277-01-01",
+      "end": "-0243-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Anxi_of_Wei",
+      "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-15",
+      "name": "Daliang",
+      "coordinates": [
+        114.34,
+        34.8
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Wei",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Wei · Estado Combatiente"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Wei"
+        ],
+        "start": -300,
+        "end": -226,
+        "label": "Wei · Estado Combatiente",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "271a195f3c591ae0fcf24207a65671308049567ea55b408d7f9f0cdb69f09b52",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        483,
+        544,
+        693,
+        718,
+        776,
+        783
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "King Anli of Wei",
+        "title": "King Anli of Wei",
+        "person": "",
+        "name": "King Anli of Wei",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/King_Anli_of_Wei",
+        "identityResolution": {
+          "requested": "King Anli of Wei",
+          "canonical": "King Anli of Wei",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Jia of Wei",
+        "title": "King Jia of Wei",
+        "person": "Q2650577",
+        "name": "Jia of Wei",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jia_of_Wei",
+        "identityResolution": {
+          "requested": "King Jia of Wei",
+          "canonical": "Jia of Wei",
+          "qid": "Q2650577"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2650577",
+        "title": "Jia of Wei",
+        "source": "https://en.wikipedia.org/wiki/Jia_of_Wei",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wei",
+            "raw": "227–225 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Jingmin of Wei",
+        "title": "King Jingmin of Wei",
+        "person": "Q2650093",
+        "name": "King Jingmin of Wei",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Jingmin_of_Wei",
+        "identityResolution": {
+          "requested": "King Jingmin of Wei",
+          "canonical": "King Jingmin of Wei",
+          "qid": "Q2650093"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2650093",
+        "title": "King Jingmin of Wei",
+        "source": "https://en.wikipedia.org/wiki/King_Jingmin_of_Wei",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wei",
+            "raw": "242–228 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Xiang of Wei",
+        "title": "King Xiang of Wei",
+        "person": "Q2650186",
+        "name": "King Xiang of Wei",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Wei",
+        "identityResolution": {
+          "requested": "King Xiang of Wei",
+          "canonical": "King Xiang of Wei",
+          "qid": "Q2650186"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2650186",
+        "title": "King Xiang of Wei",
+        "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Wei",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wei",
+            "raw": "318–296 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Zhao of Wei",
+        "title": "King Zhao of Wei",
+        "person": "Q2650580",
+        "name": "King Zhao of Wei",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Zhao_of_Wei",
+        "identityResolution": {
+          "requested": "King Zhao of Wei",
+          "canonical": "King Zhao of Wei",
+          "qid": "Q2650580"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2650580",
+        "title": "King Zhao of Wei",
+        "source": "https://en.wikipedia.org/wiki/King_Zhao_of_Wei",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wei",
+            "raw": "295–277 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "unresolvedAuthorities": [
+    {
+      "title": "King Anli of Wei",
+      "candidate": {
+        "requestedTitle": "King Anli of Wei",
+        "title": "King Anli of Wei",
+        "person": "",
+        "name": "King Anli of Wei",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/King_Anli_of_Wei",
+        "identityResolution": {
+          "requested": "King Anli of Wei",
+          "canonical": "King Anli of Wei",
+          "qid": ""
+        }
+      },
+      "reason": "Candidato no resuelto como individuo; no asignar otra identidad o imagen por semejanza."
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "candidateIdentityCorrections": [
+    {
+      "sourceId": "CAO-WEI",
+      "reason": "Identificador fuente anacrónico compartido con una entidad posterior; se conserva sólo como procedencia geométrica."
+    }
+  ],
+  "mediaReview": []
+}

@@ -1,0 +1,409 @@
+{
+  "key": "HIST-Q2429397",
+  "identity": {
+    "qid": "Q2429397",
+    "name": "Cartago"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Mando militar cartaginés · no jefatura monárquica",
+      "titles": [
+        "Hamilcar Barca",
+        "Hannibal",
+        "Hasdrubal the Fair"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q185101",
+      "name": "Amílcar Barca",
+      "role": "Mando militar cartaginés · no jefatura monárquica",
+      "start": "-0247-01-01",
+      "end": "-0228-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hamilcar_Barca",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -247,
+        -228
+      ]
+    },
+    {
+      "person": "Q311598",
+      "name": "Asdrúbal el Bello",
+      "role": "Mando militar cartaginés · no jefatura monárquica",
+      "start": "-0228-01-01",
+      "end": "-0221-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hasdrubal_the_Fair",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -228,
+        -221
+      ]
+    },
+    {
+      "person": "Q36456",
+      "name": "Aníbal Barca",
+      "role": "Mando militar cartaginés · no jefatura monárquica",
+      "start": "-0221-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hannibal",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -221,
+        -201
+      ],
+      "portrait": {
+        "file": "media/leader-f6f642f4d4fe3e538ab7.png",
+        "title": "Hannibal Slodtz Louvre MR2093 (cropped).png",
+        "url": "https://commons.wikimedia.org/wiki/File:Hannibal_Slodtz_Louvre_MR2093_(cropped).png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Hannibal_Slodtz_Louvre_MR2093_%28cropped%29.png/330px-Hannibal_Slodtz_Louvre_MR2093_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nSébastien Slodtz (French, 1655–1726)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hannibal_Slodtz_Louvre_MR2093_(cropped).png#Licensing",
+        "credit": "Modified version of Hannibal Slodtz Louvre MR2093.jpg (2008) by author Jastrow",
+        "attribution": "",
+        "attributionRequired": true,
+        "sha256": "1ab14b0637419b55e1530ce7f97cda5b7de2f60220be397545a2a080b1eed94d",
+        "bytes": 113110,
+        "canonicalFile": "Países/HIST-Q2429397-Carthage/retratos/leader-f6f642f4d4fe3e538ab7.png",
+        "caption": "Aníbal en estatua deSébastienSlodtz1704,LouvreMR2093; recreación artística posterior."
+      }
+    },
+    {
+      "person": "institution043-HIST-Q2429397",
+      "name": "Sufetes, consejo y asambleas",
+      "role": "Instituciones colegiadas · titulares individuales por completar",
+      "start": "-0300-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "endIsCoverageBoundary": true,
+      "source": "https://en.wikipedia.org/wiki/Carthage",
+      "note": "Registro institucional, no persona única ni lista completa de magistrados anuales."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution043-HIST-Q2429397",
+      "section": "institutions",
+      "title": "Instituciones y alcance de la lista de autoridades",
+      "start": "-0300-01-01",
+      "end": "-0200-01-01",
+      "text": "Sufetes, consejo y asambleas. La selección de titulares no equivale a gobiernos continuos ni completa todos los mandatos.",
+      "source": "https://en.wikipedia.org/wiki/Carthage",
+      "sourceLabel": "Referencia institucional · sigloIIIa.C."
+    }
+  ],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "republic",
+        "oligarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-1",
+      "name": "Cartago",
+      "coordinates": [
+        10.323,
+        36.853
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Carthage",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Carthage"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event043-3",
+      "kind": "conflict",
+      "title": "Primera guerra púnica",
+      "start": "-0264-01-01",
+      "end": "-0240-01-01",
+      "text": "Guerra porSicilia y posterior transferencia de dominio, no un único episodio puntual.",
+      "source": "https://en.wikipedia.org/wiki/First_Punic_War",
+      "sourceLabel": "Referencia documental · sigloIIIa.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "id": "event043-4",
+      "kind": "conflict",
+      "title": "Guerra de los Mercenarios",
+      "start": "-0241-01-01",
+      "end": "-0236-01-01",
+      "text": "Conflicto africano después de la primera guerra púnica.",
+      "source": "https://en.wikipedia.org/wiki/Mercenary_War",
+      "sourceLabel": "Referencia documental · sigloIIIa.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "id": "event043-5",
+      "kind": "conflict",
+      "title": "Segunda guerra púnica",
+      "start": "-0218-01-01",
+      "end": "-0200-01-01",
+      "text": "Campañas enItalia, Iberia yÁfrica; el punto no representa frentes o extensión máxima simultánea.",
+      "source": "https://en.wikipedia.org/wiki/Second_Punic_War",
+      "sourceLabel": "Referencia documental · sigloIIIa.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "conflict"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Carthage"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Cartago",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "a0ac0f7cfcd9ccc5ed7ae454c9e26bc99c0baf6e5e291ceecec86a50c8efebd1",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        536,
+        601,
+        603,
+        611,
+        627,
+        638,
+        661,
+        674,
+        679,
+        733,
+        735,
+        746,
+        758,
+        767,
+        800,
+        817,
+        823
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Hamilcar Barca",
+        "title": "Hamilcar Barca",
+        "person": "Q185101",
+        "name": "Amílcar Barca",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hamilcar_Barca",
+        "identityResolution": {
+          "requested": "Hamilcar Barca",
+          "canonical": "Hamilcar Barca",
+          "qid": "Q185101"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q185101",
+        "title": "Hamilcar Barca",
+        "source": "https://en.wikipedia.org/wiki/Hamilcar_Barca",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hannibal",
+        "title": "Hannibal",
+        "person": "Q36456",
+        "name": "Aníbal Barca",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hannibal",
+        "identityResolution": {
+          "requested": "Hannibal",
+          "canonical": "Hannibal",
+          "qid": "Q36456"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q36456",
+        "title": "Hannibal",
+        "source": "https://en.wikipedia.org/wiki/Hannibal",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hasdrubal the Fair",
+        "title": "Hasdrubal the Fair",
+        "person": "Q311598",
+        "name": "Asdrúbal el Bello",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hasdrubal_the_Fair",
+        "identityResolution": {
+          "requested": "Hasdrubal the Fair",
+          "canonical": "Hasdrubal the Fair",
+          "qid": "Q311598"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q132050",
+          "start": "-0228-01-01",
+          "end": "-0221-01-01",
+          "precision": 9,
+          "statement": "Q311598$b3a685e0-4efb-72a6-c22e-fe524f88d50a",
+          "label": "gobernador"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q311598",
+        "title": "Hasdrubal the Fair",
+        "source": "https://en.wikipedia.org/wiki/Hasdrubal_the_Fair",
+        "reignFields": []
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "point043-3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.36,
+          38.12
+        ]
+      },
+      "properties": {
+        "name": "Primera guerra púnica",
+        "countries": [
+          "HIST-Q2429397"
+        ],
+        "kind": "regional-conflict",
+        "start": "-0264-01-01",
+        "end": "-0241-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/First_Punic_War",
+        "sourceLabel": "Referencia documental · sigloIIIa.C.",
+        "note": "Guerra porSicilia y posterior transferencia de dominio, no un único episodio puntual. Coordenada regional, no perímetro ni frente militar."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point043-4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.12,
+          36.45
+        ]
+      },
+      "properties": {
+        "name": "Guerra de los Mercenarios",
+        "countries": [
+          "HIST-Q2429397"
+        ],
+        "kind": "regional-conflict",
+        "start": "-0241-01-01",
+        "end": "-0237-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Mercenary_War",
+        "sourceLabel": "Referencia documental · sigloIIIa.C.",
+        "note": "Conflicto africano después de la primera guerra púnica. Coordenada regional, no perímetro ni frente militar."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point043-5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.13,
+          41.3
+        ]
+      },
+      "properties": {
+        "name": "Segunda guerra púnica",
+        "countries": [
+          "HIST-Q2429397"
+        ],
+        "kind": "regional-conflict",
+        "start": "-0218-01-01",
+        "end": "-0201-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Second_Punic_War",
+        "sourceLabel": "Referencia documental · sigloIIIa.C.",
+        "note": "Campañas enItalia, Iberia yÁfrica; el punto no representa frentes o extensión máxima simultánea. Coordenada regional, no perímetro ni frente militar."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q185101",
+      "title": "Amilcare e Annibale.JPG",
+      "decision": "rejected",
+      "reason": "Amílcar oAníbal y tipoMelqart: identificación individual insuficiente."
+    },
+    {
+      "person": "Q311598",
+      "title": "AsdrubalBusto.jpg",
+      "decision": "rejected",
+      "reason": "Monumento distante sin efigie legible en esta presentación."
+    },
+    {
+      "person": "Q36456",
+      "title": "Hannibal Slodtz Louvre MR2093 (cropped).png",
+      "decision": "accepted",
+      "reason": "Aníbal en estatua deSébastienSlodtz1704,LouvreMR2093; recreación artística posterior."
+    }
+  ]
+}

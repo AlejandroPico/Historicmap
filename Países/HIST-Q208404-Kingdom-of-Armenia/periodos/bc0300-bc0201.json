@@ -1,0 +1,182 @@
+{
+  "key": "HIST-Q208404",
+  "identity": {
+    "qid": "Q208404",
+    "name": "Reino de Armenia"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Soberano oróntida · cronología discutida",
+      "titles": [
+        "Orontes III",
+        "Orontes IV"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1342141",
+      "name": "Orontes III",
+      "role": "Soberano oróntida · cronología discutida",
+      "start": "-0300-01-01",
+      "end": "-0260-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Orontes_III",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -317,
+        -260
+      ],
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q1382437",
+      "name": "Orontes IV",
+      "role": "Soberano oróntida · cronología discutida",
+      "start": "-0212-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Orontes_IV",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -212,
+        -200
+      ],
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Armenia"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Reino de Armenia",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "75caf84ef49acfff7798df08171d8e17042e9f8695938564fe6c20eb9f284ed2",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        531,
+        580,
+        632,
+        684,
+        778
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Orontes III",
+        "title": "Orontes III",
+        "person": "Q1342141",
+        "name": "Orontes III",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Orontes_III",
+        "identityResolution": {
+          "requested": "Orontes III",
+          "canonical": "Orontes III",
+          "qid": "Q1342141"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1342141",
+        "title": "Orontes III",
+        "source": "https://en.wikipedia.org/wiki/Orontes_III",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "321 – 260 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Orontes IV",
+        "title": "Orontes IV",
+        "person": "Q1382437",
+        "name": "Orontes IV",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Orontes_IV",
+        "identityResolution": {
+          "requested": "Orontes IV",
+          "canonical": "Orontes IV",
+          "qid": "Q1382437"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1382437",
+        "title": "Orontes IV",
+        "source": "https://en.wikipedia.org/wiki/Orontes_IV",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Armenia",
+            "raw": "212 – 200 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": [
+    {
+      "person": "Q1382437",
+      "title": "Yervand IV.jpg",
+      "decision": "rejected",
+      "reason": "Escena colectiva, sin retrato individual acreditado."
+    }
+  ]
+}

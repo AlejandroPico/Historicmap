@@ -1,0 +1,69 @@
+{
+  "key": "CULTURE-PUNIC-COMMUNITIES-YBC0300",
+  "contextKey": "CULTURE-PUNIC-COMMUNITIES",
+  "ownerKey": "CULTURE-PUNIC-COMMUNITIES",
+  "name": "Comunidades y redes púnicas",
+  "originalNames": [
+    "Carthaginian Empire"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación300a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -300,
+    99
+  ],
+  "interpretation": "El contorno de la compilación no prueba dominio cartaginés uniforme de todas sus costas en300a.C.",
+  "spatialUncertainty": "Contorno mundial original, resolución desigual y delimitación local pendiente; no frontera política anual.",
+  "temporalUncertainty": "Referencia espacial300a.C.; los ámbitos sin equivalente posterior continúan como contexto histórico, no como población actual observada.",
+  "references": [
+    {
+      "title": "Historical Basemaps300a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -3.51829,
+    33.54039
+  ],
+  "phases": [
+    {
+      "start": -300,
+      "end": -201,
+      "label": "Comunidades y redes púnicas",
+      "dateBasis": "Referencia espacial de300a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-PUNIC-COMMUNITIES-YBC0300.geojson",
+  "geometrySha256": "6acea2ff6fdaae2d1e1b7ab2ec976bca8ffbf87726f5daa8e9daa5d5faec45d0",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson",
+    "year": -300,
+    "featureIds": [
+      27
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d181645f7963e893fc5502a496c14927316939a2a38cba7722a38b75f80cf633"
+  },
+  "review": "0.43.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación local. El final de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Carthaginian Empire",
+      "ABBREVN": "Carth. Empir",
+      "CONTROL": null,
+      "SUBJECTO": "Carthaginian Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Carthaginian Empire"
+    }
+  ],
+  "sourceGrouping": [
+    "Carthaginian Empire"
+  ]
+}

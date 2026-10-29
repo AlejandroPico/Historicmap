@@ -1,0 +1,305 @@
+{
+  "key": "HIST-Q165198",
+  "identity": {
+    "qid": "Q165198",
+    "name": "Cyrenaica"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Soberano de Cirenaica · unión dinástica con Egipto",
+      "titles": [
+        "Berenice II of Egypt",
+        "Demetrius the Fair",
+        "Magas of Cyrene"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q878392",
+      "name": "Magas de Cirene",
+      "role": "Rey de Cirenaica",
+      "start": "-0275-01-01",
+      "end": "-0250-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Magas_of_Cyrene",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Independencia y título real hacia276/275, no desde300.",
+      "documentedInterval": [
+        -300,
+        -250
+      ]
+    },
+    {
+      "person": "Q40010",
+      "name": "Berenice II de Egipto",
+      "role": "Soberano de Cirenaica · unión dinástica con Egipto",
+      "start": "-0250-01-01",
+      "end": "-0246-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Berenice_II",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -250,
+        -246
+      ]
+    },
+    {
+      "person": "Q878405",
+      "name": "Demetrio el Bello",
+      "role": "Soberano de Cirenaica · unión dinástica con Egipto",
+      "start": "-0250-01-01",
+      "end": "-0249-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Demetrius_the_Fair",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -250,
+        -249
+      ]
+    },
+    {
+      "person": "Q878392",
+      "name": "Magas de Cirene",
+      "role": "Gobernador de Cirenaica bajo Ptolomeo",
+      "start": "-0300-01-01",
+      "end": "-0276-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Magas_of_Cyrene",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -300,
+        -250
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-24",
+      "name": "Cirene",
+      "coordinates": [
+        21.86,
+        32.82
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Cyrenaica",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Cyrenaica"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Cyrenaica"
+        ],
+        "start": -275,
+        "end": -247,
+        "label": "Cirenaica · realeza y uniones dinásticas",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Cyrenaica"
+        ],
+        "start": -300,
+        "end": -276,
+        "label": "Cirenaica · administración de Magas bajo Ptolomeo",
+        "status": "province",
+        "admin": "PTOLEMAIC-EGYPT",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Gobierno regional antes de la proclamación real e independencia hacia276/275."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "f4bcae4aaec93a5c36dc4b363e29c9b1bd883e38d9b8b7e4a2474e5457f9269f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        474,
+        609
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Berenice II of Egypt",
+        "title": "Berenice II of Egypt",
+        "person": "Q40010",
+        "name": "Berenice II de Egipto",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Berenice_II",
+        "identityResolution": {
+          "requested": "Berenice II of Egypt",
+          "canonical": "Berenice II",
+          "qid": "Q40010"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q40010",
+        "title": "Berenice II",
+        "source": "https://en.wikipedia.org/wiki/Berenice_II",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Queen regnant of Cyrenaica",
+            "raw": "258–247/246 BCE<ref>{{Cite book |author1=[[Reginald Stuart Poole]] |author2=[[British Museum Department of Coins and Medals|British Museum Dept. of Coins and Medals]] |url=https://archive.org/details/cataloguegreekc01medagoog/page/n169/mode/1up |title=Catalogue of Greek Coins: The Ptolemies, Kings of Egypt |date=1883 |publisher=The Trustees |language=English|page=59|quote=i. Queen Regnant of Cyrenaïca, ʙ.ᴄ. 258–247.}}</ref><ref>{{Cite web |title=Libya Heads |url=https://guide2womenleaders.com/Libya_Heads.htm |access-date=2022-12-25 |website=guide2womenleaders.com |archive-date=2022-12-25 |archive-url=https://web.archive.org/web/20221225142931/https://guide2womenleaders.com/Libya_Heads.htm |url-status=live }}</ref>",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign2",
+            "office": "Queen consort of Egypt",
+            "raw": "246–221 B.C.E.<ref>{{cite book|url=https://books.google.com/books?id=qllfAgAAQBAJ&pg=PP22|title=Portraits of the Ptolemies: Greek Kings as Egyptian Pharaohs|page=xviii |isbn=9780292787476|last1=Stanwick |first1=Paul Edmund |date=22 July 2010 |publisher=University of Texas Press }}</ref>",
+            "parsed": null,
+            "reignType": "Tenure"
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Demetrius the Fair",
+        "title": "Demetrius the Fair",
+        "person": "Q878405",
+        "name": "Demetrio el Bello",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Demetrius_the_Fair",
+        "identityResolution": {
+          "requested": "Demetrius the Fair",
+          "canonical": "Demetrius the Fair",
+          "qid": "Q878405"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q878405",
+        "title": "Demetrius the Fair",
+        "source": "https://en.wikipedia.org/wiki/Demetrius_the_Fair",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Cyrene",
+            "raw": "250–249 BC<ref>{{Cite book |last=Hölbl |first=Günther |url=https://books.google.com/books?id=cLBhof4h2K4C&pg=PA46 |title=A History of the Ptolemaic Empire |date=2001 |publisher=Psychology Press |isbn=978-0-415-20145-2 |language=en|page=46}}</ref>",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Cyrene",
+            "raw": "250 BC – 249 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Magas of Cyrene",
+        "title": "Magas of Cyrene",
+        "person": "Q878392",
+        "name": "Magas de Cirene",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Magas_of_Cyrene",
+        "identityResolution": {
+          "requested": "Magas of Cyrene",
+          "canonical": "Magas of Cyrene",
+          "qid": "Q878392"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q878392",
+        "title": "Magas of Cyrene",
+        "source": "https://en.wikipedia.org/wiki/Magas_of_Cyrene",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Governor of Cyrene",
+            "raw": "300–276 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of Cyrenaica",
+            "raw": "276–250 BC<ref>{{Cite book |last=Howard |first=Michael C. |url=https://books.google.com/books?id=6QPWXrCCzBIC&pg=PA48 |title=Transnationalism in Ancient and Medieval Societies: The Role of Cross-Border Trade and Travel |date=2014-01-10 |publisher=McFarland |isbn=978-0-7864-9033-2 |pages=48 |language=en|quote=Magas of Cyrene (Libya, r. 276–250 B.C.),}}</ref>",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Cyrene",
+            "raw": "276 BC – 250 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": [
+    {
+      "person": "Q878392",
+      "title": "Magas as king of Kyrene, circa 282 or 275 to 261 BC.jpg",
+      "decision": "rejected",
+      "reason": "EmisorMagas, efigie deAmón no corroborada como retrato individual."
+    },
+    {
+      "person": "Q40010",
+      "title": "Gold pentadrachm, Berenike II, 244-221 BC.jpg",
+      "decision": "rejected",
+      "reason": "El archivo identificaBereniceI, no se acreditaBereniceII."
+    }
+  ]
+}

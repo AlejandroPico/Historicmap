@@ -1,0 +1,172 @@
+{
+  "key": "CHU-HAN-DAI",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Dai · partición Chu–Han"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Dai · partición de206a.C.",
+      "titles": [
+        "Chen Yu (Qin dynasty)",
+        "Zhao Xie"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented043-zhao-xie",
+      "name": "Zhao Xie",
+      "role": "Autoridad documental · sin identificación individual Wikidata corroborada",
+      "start": "-0206-01-01",
+      "end": "-0205-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zhao_Xie",
+      "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados."
+    },
+    {
+      "person": "documented043-chen-yu",
+      "name": "Chen Yu",
+      "role": "Autoridad documental · sin identificación individual Wikidata corroborada",
+      "start": "-0205-01-01",
+      "end": "-0204-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chen_Yu",
+      "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Dai"
+        ],
+        "start": -206,
+        "end": -205,
+        "label": "Reino de Dai · partición Chu–Han",
+        "status": "protectorate",
+        "admin": "WESTERN-CHU-HEGEMONY",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Reino de la partición hegemónica de206; alianzas disputadas y cambios durante el año, no administración homogénea de un único Estado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "d22f128e36838b1f500377fe6d600dd83a695c64931221789bd66a00a7ae61e7",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        773,
+        788
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Chen Yu (Qin dynasty)",
+        "title": "Chen Yu (Qin dynasty)",
+        "person": "",
+        "name": "Chen Yu (Qin dynasty)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Chen_Yu_%28Qin_dynasty%29",
+        "identityResolution": {
+          "requested": "Chen Yu (Qin dynasty)",
+          "canonical": "Chen Yu (Qin dynasty)",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zhao Xie",
+        "title": "Zhao Xie",
+        "person": "",
+        "name": "Zhao Xie",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Zhao_Xie",
+        "identityResolution": {
+          "requested": "Zhao Xie",
+          "canonical": "Zhao Xie",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "unresolvedAuthorities": [
+    {
+      "title": "Zhao Xie",
+      "candidate": {
+        "requestedTitle": "Zhao Xie",
+        "title": "Zhao Xie",
+        "person": "",
+        "name": "Zhao Xie",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Zhao_Xie",
+        "identityResolution": {
+          "requested": "Zhao Xie",
+          "canonical": "Zhao Xie",
+          "qid": ""
+        }
+      },
+      "reason": "Candidato no resuelto como individuo; no asignar otra identidad o imagen por semejanza."
+    },
+    {
+      "title": "Chen Yu (Qin dynasty)",
+      "candidate": {
+        "requestedTitle": "Chen Yu (Qin dynasty)",
+        "title": "Chen Yu (Qin dynasty)",
+        "person": "",
+        "name": "Chen Yu (Qin dynasty)",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Chen_Yu_%28Qin_dynasty%29",
+        "identityResolution": {
+          "requested": "Chen Yu (Qin dynasty)",
+          "canonical": "Chen Yu (Qin dynasty)",
+          "qid": ""
+        }
+      },
+      "reason": "Candidato no resuelto como individuo; no asignar otra identidad o imagen por semejanza."
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

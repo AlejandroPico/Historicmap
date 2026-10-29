@@ -1,0 +1,75 @@
+{
+  "key": "WARRING-QI",
+  "name": "Qi · Estado Combatiente",
+  "qid": "",
+  "aliases": [
+    "Qi · Estado Combatiente"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "WARRING-QI"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q1059310",
+      "name": "King Min of Qi",
+      "role": "Rey de Qi · Estados Combatientes",
+      "start": "-0300-01-01",
+      "end": "-0284-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Min_of_Qi",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -300,
+        -284
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q589289",
+      "name": "King Xiang of Qi",
+      "role": "Rey de Qi · Estados Combatientes",
+      "start": "-0283-01-01",
+      "end": "-0265-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Qi",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -283,
+        -265
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    },
+    {
+      "person": "Q589231",
+      "name": "Jian of Qi",
+      "role": "Rey de Qi · Estados Combatientes",
+      "start": "-0264-01-01",
+      "end": "-0221-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jian_of_Qi",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -264,
+        -221
+      ],
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

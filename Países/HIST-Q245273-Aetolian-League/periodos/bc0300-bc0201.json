@@ -1,0 +1,197 @@
+{
+  "key": "HIST-Q245273",
+  "identity": {
+    "qid": "Q245273",
+    "name": "Liga etolia"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Estratego federal · mandato seleccionado",
+      "titles": [
+        "Dorimachus",
+        "Scopas of Aetolia"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q328477",
+      "name": "Scopas of Aetolia",
+      "role": "Estratego federal · mandato seleccionado",
+      "start": "-0220-01-01",
+      "end": "-0219-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Scopas_of_Aetolia",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -220,
+        -219
+      ]
+    },
+    {
+      "person": "Q1245030",
+      "name": "Dorimaco",
+      "role": "Estratego federal · mandato seleccionado",
+      "start": "-0219-01-01",
+      "end": "-0218-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Dorimachus",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -219,
+        -218
+      ]
+    },
+    {
+      "person": "institution043-HIST-Q245273",
+      "name": "Instituciones federales etolias",
+      "role": "Instituciones colegiadas · titulares individuales por completar",
+      "start": "-0300-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "endIsCoverageBoundary": true,
+      "source": "https://en.wikipedia.org/wiki/Aetolian_League",
+      "note": "Registro institucional, no persona única ni lista completa de magistrados anuales."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution043-HIST-Q245273",
+      "section": "institutions",
+      "title": "Instituciones y alcance de la lista de autoridades",
+      "start": "-0300-01-01",
+      "end": "-0200-01-01",
+      "text": "Instituciones federales etolias. La selección de titulares no equivale a gobiernos continuos ni completa todos los mandatos.",
+      "source": "https://en.wikipedia.org/wiki/Aetolian_League",
+      "sourceLabel": "Referencia institucional · sigloIIIa.C."
+    }
+  ],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "republic",
+        "confederal"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Aetolian League"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Liga etolia",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "01bf422f7d31d7599431c668a66b298dd56eecfe682dfc33eacde3b20ced26d6",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        559,
+        571,
+        589,
+        599,
+        610,
+        615,
+        683,
+        709,
+        755,
+        761,
+        805,
+        824
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dorimachus",
+        "title": "Dorimachus",
+        "person": "Q1245030",
+        "name": "Dorimaco",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dorimachus",
+        "identityResolution": {
+          "requested": "Dorimachus",
+          "canonical": "Dorimachus",
+          "qid": "Q1245030"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q104629870",
+          "start": "-0219-01-01",
+          "end": "-0218-01-01",
+          "precision": 9,
+          "statement": "Q1245030$0826E727-C396-409C-84FA-5D37221FFA2D",
+          "label": "strategos de la Liga Etolia"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1245030",
+        "title": "Dorimachus",
+        "source": "https://en.wikipedia.org/wiki/Dorimachus",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Scopas of Aetolia",
+        "title": "Scopas of Aetolia",
+        "person": "Q328477",
+        "name": "Scopas of Aetolia",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Scopas_of_Aetolia",
+        "identityResolution": {
+          "requested": "Scopas of Aetolia",
+          "canonical": "Scopas of Aetolia",
+          "qid": "Q328477"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q328477",
+        "title": "Scopas of Aetolia",
+        "source": "https://en.wikipedia.org/wiki/Scopas_of_Aetolia",
+        "reignFields": []
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

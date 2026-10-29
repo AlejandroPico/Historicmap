@@ -1,0 +1,78 @@
+{
+  "key": "REFERENCE-MONTE-ALBAN-COMMUNITIES-YBC0300",
+  "contextKey": "REFERENCE-MONTE-ALBAN-COMMUNITIES",
+  "ownerKey": "REFERENCE-MONTE-ALBAN-COMMUNITIES",
+  "name": "Monte Albán y comunidades zapotecas",
+  "originalNames": [
+    "Monte Albán"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -300,
+    99
+  ],
+  "interpretation": "Centro y redes del periodoFormativo; no lista ficticia de gobernantes individuales.",
+  "spatialUncertainty": "Contorno mundial original, resolución desigual y delimitación local pendiente; no frontera política anual.",
+  "temporalUncertainty": "Referencia espacial300a.C.; los ámbitos sin equivalente posterior continúan como contexto histórico, no como población actual observada.",
+  "references": [
+    {
+      "title": "Historical Basemaps300a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -97.32148,
+    17.1385
+  ],
+  "phases": [
+    {
+      "start": -300,
+      "end": -201,
+      "label": "Monte Albán y comunidades zapotecas",
+      "dateBasis": "Referencia espacial de300a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -200,
+      "end": 99,
+      "label": "Monte Albán y comunidades zapotecas",
+      "dateBasis": "Consulta del ámbito histórico anterior; no nueva observación de habitantes o límites.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -300,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-MONTE-ALBAN-COMMUNITIES-YBC0300.geojson",
+  "geometrySha256": "d3e9a22c9e2a83fa1d44c5f29a07e9bab695865b9801e27a3c91692c6e0be765",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson",
+    "year": -300,
+    "featureIds": [
+      11
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d181645f7963e893fc5502a496c14927316939a2a38cba7722a38b75f80cf633"
+  },
+  "review": "0.43.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación local. El final de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Monte Albán",
+      "ABBREVN": "Monte Albán",
+      "CONTROL": null,
+      "SUBJECTO": "Monte Albán",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Monte Albán"
+    }
+  ],
+  "sourceGrouping": [
+    "Monte Albán"
+  ]
+}

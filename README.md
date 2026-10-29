@@ -2,17 +2,17 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.42.0** · 29 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.43.0** · 29 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
-Revisión vigente: **pueblos y regiones de200a.C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-bc200-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
+Revisión vigente: **pueblos y regiones de300a.C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-bc300-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
 
-Ampliación200–101a.C., manteniendo la continuidad1a.C./1d.C. sin año cero: [geografía, autoridades, culturas y límites de revisión](docs/RESEARCH-bc200.md). Las fases posteriores se conservan. Cartografía política y áreas culturales se activan por separado en Capas y Filtros, con ambos controles activados al iniciar. Las monedas tienen un encuadre revisado y las representaciones mantienen sus atribuciones y fechas.
+Ampliación300–201a.C., manteniendo la continuidad1a.C./1d.C. sin año cero: [geografía, autoridades, culturas y límites de revisión](docs/RESEARCH-bc300.md). Las fases posteriores se conservan. Cartografía política y áreas culturales se activan por separado en Capas y Filtros, con ambos controles activados al iniciar. Las monedas tienen un encuadre revisado y las representaciones mantienen sus atribuciones y fechas.
 
-[Validación y conservación de la entrega 0.42.0](docs/DELIVERY-0.42.0.md).
+[Validación y conservación de la entrega 0.43.0](docs/DELIVERY-0.43.0.md): 323 pruebas generales y seis recorridos únicos de navegador correctos; fuentes y límites documentados. La publicación en Pages queda pendiente de la comprobación del propietario.
 
 ## Empezar
 

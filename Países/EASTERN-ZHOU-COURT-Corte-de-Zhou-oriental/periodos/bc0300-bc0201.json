@@ -1,0 +1,141 @@
+{
+  "key": "EASTERN-ZHOU-COURT",
+  "identity": {
+    "qid": "",
+    "name": "Corte de Zhou oriental"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de la corte Zhou oriental",
+      "titles": [
+        "King Nan of Zhou"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1279933",
+      "name": "King Nan de Zhou",
+      "role": "Rey de la corte Zhou oriental",
+      "start": "-0300-01-01",
+      "end": "-0256-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Nan_of_Zhou",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -314,
+        -256
+      ],
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Zhou"
+        ],
+        "start": -300,
+        "end": -257,
+        "label": "Corte de Zhou oriental",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "52ddfb5dd3ba05aa3b0194fa25a6de403370b96e01a04587fe9f247503ab4fee",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        419
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "King Nan of Zhou",
+        "title": "King Nan of Zhou",
+        "person": "Q1279933",
+        "name": "King Nan de Zhou",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Nan_of_Zhou",
+        "identityResolution": {
+          "requested": "King Nan of Zhou",
+          "canonical": "King Nan of Zhou",
+          "qid": "Q1279933"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q38702033",
+          "start": "-0315-01-01",
+          "end": "-0256-01-01",
+          "precision": 9,
+          "statement": "Q1279933$a100248b-4a38-7df6-4fcc-f18fed005cb1",
+          "label": "Chinese king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1279933",
+        "title": "King Nan of Zhou",
+        "source": "https://en.wikipedia.org/wiki/King_Nan_of_Zhou",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Zhou dynasty",
+            "raw": "314–256 BC{{sfnp|Tan|2014|p=54}}{{sfnp|Shaughnessy|1999|p=29}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of China",
+            "raw": "314–256 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

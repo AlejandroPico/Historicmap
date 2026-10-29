@@ -1,0 +1,71 @@
+{
+  "key": "REFERENCE-POST-CHAVIN-YBC0300",
+  "contextKey": "REFERENCE-POST-CHAVIN",
+  "ownerKey": "REFERENCE-POST-CHAVIN",
+  "name": "Ámbitos andinos · después de Chavín",
+  "originalNames": [
+    "Chavin"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación100a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -300,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes, no Estado unitario, identidad homogénea, censo o frontera exclusiva. Se conserva el ámbito histórico de una tradición anterior; no se prolonga sin crítica una cultura homogénea durante todo el intervalo.",
+  "spatialUncertainty": "Contorno mundial original, resolución desigual y delimitación local pendiente; no frontera política anual.",
+  "temporalUncertainty": "Referencia espacial300a.C.; los ámbitos sin equivalente posterior continúan como contexto histórico, no como población actual observada.",
+  "references": [
+    {
+      "title": "Historical Basemaps300a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -75.79557,
+    -10.11854
+  ],
+  "phases": [
+    {
+      "start": -300,
+      "end": -201,
+      "label": "Ámbitos andinos · después de Chavín",
+      "dateBasis": "Referencia espacial de300a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -400
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-CHAVIN-YBC0300.geojson",
+  "geometrySha256": "e0c7a7cbc9d79e857e737e48a583b96d81638b37142667b60856f6d7070a0d07",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson",
+    "year": -300,
+    "featureIds": [
+      153
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d181645f7963e893fc5502a496c14927316939a2a38cba7722a38b75f80cf633"
+  },
+  "review": "0.43.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación local. El final de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Chavin",
+      "ABBREVN": "Chavin",
+      "CONTROL": null,
+      "SUBJECTO": "Chavin",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Chavin"
+    }
+  ],
+  "sourceGrouping": [
+    "Chavin"
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "key": "WARRING-QI",
+  "identity": {
+    "qid": "",
+    "name": "Qi · Estado Combatiente"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Qi · Estados Combatientes",
+      "titles": [
+        "King Jian of Qi",
+        "King Min of Qi",
+        "King Xiang of Qi"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1059310",
+      "name": "King Min of Qi",
+      "role": "Rey de Qi · Estados Combatientes",
+      "start": "-0300-01-01",
+      "end": "-0284-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Min_of_Qi",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -300,
+        -284
+      ]
+    },
+    {
+      "person": "Q589289",
+      "name": "King Xiang of Qi",
+      "role": "Rey de Qi · Estados Combatientes",
+      "start": "-0283-01-01",
+      "end": "-0265-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Qi",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -283,
+        -265
+      ]
+    },
+    {
+      "person": "Q589231",
+      "name": "Jian of Qi",
+      "role": "Rey de Qi · Estados Combatientes",
+      "start": "-0264-01-01",
+      "end": "-0221-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Jian_of_Qi",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -264,
+        -221
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-13",
+      "name": "Linzi",
+      "coordinates": [
+        118.3,
+        36.82
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Qi",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Qi · Estado Combatiente"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Qi"
+        ],
+        "start": -300,
+        "end": -222,
+        "label": "Qi · Estado Combatiente",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Song"
+        ],
+        "start": -286,
+        "end": -222,
+        "label": "Qi · antiguos territorios de Song",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Conquista por la potencia correspondiente; no adelantar la unificaciónQin ni el título imperial221."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "aef472c446dd5ad0e3c69f7e3ead86a1fb01e0c7e7ad66fa96d192f4a57e9822",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        434,
+        539,
+        564,
+        654,
+        714,
+        721,
+        795
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "King Jian of Qi",
+        "title": "King Jian of Qi",
+        "person": "Q589231",
+        "name": "Jian of Qi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Jian_of_Qi",
+        "identityResolution": {
+          "requested": "King Jian of Qi",
+          "canonical": "Jian of Qi",
+          "qid": "Q589231"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q589231",
+        "title": "Jian of Qi",
+        "source": "https://en.wikipedia.org/wiki/Jian_of_Qi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Qi",
+            "raw": "264–221 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Qi",
+            "raw": "264–221 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Min of Qi",
+        "title": "King Min of Qi",
+        "person": "Q1059310",
+        "name": "King Min of Qi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Min_of_Qi",
+        "identityResolution": {
+          "requested": "King Min of Qi",
+          "canonical": "King Min of Qi",
+          "qid": "Q1059310"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1059310",
+        "title": "King Min of Qi",
+        "source": "https://en.wikipedia.org/wiki/King_Min_of_Qi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Qi",
+            "raw": "300–284 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Qi",
+            "raw": "300–284 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Xiang of Qi",
+        "title": "King Xiang of Qi",
+        "person": "Q589289",
+        "name": "King Xiang of Qi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Qi",
+        "identityResolution": {
+          "requested": "King Xiang of Qi",
+          "canonical": "King Xiang of Qi",
+          "qid": "Q589289"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q589289",
+        "title": "King Xiang of Qi",
+        "source": "https://en.wikipedia.org/wiki/King_Xiang_of_Qi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Qi",
+            "raw": "283–265 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Qi",
+            "raw": "283–265 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "candidateIdentityCorrections": [
+    {
+      "sourceId": "NORTHERN-QI",
+      "reason": "Identificador fuente anacrónico compartido con una entidad posterior; se conserva sólo como procedencia geométrica."
+    }
+  ],
+  "mediaReview": []
+}

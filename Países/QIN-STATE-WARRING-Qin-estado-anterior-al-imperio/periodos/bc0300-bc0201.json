@@ -1,0 +1,543 @@
+{
+  "key": "QIN-STATE-WARRING",
+  "identity": {
+    "qid": "",
+    "name": "Qin · estado anterior al imperio"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Qin · anterior al título imperial",
+      "titles": [
+        "King Xiaowen of Qin",
+        "King Zhaoxiang of Qin",
+        "King Zhuangxiang of Qin",
+        "Qin Shi Huang"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q553240",
+      "name": "Zhaoxiang",
+      "role": "Rey de Qin · anterior al título imperial",
+      "start": "-0300-01-01",
+      "end": "-0251-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Zhaoxiang_of_Qin",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -306,
+        -251
+      ],
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q1372297",
+      "name": "Xiaowen",
+      "role": "Rey de Qin · anterior al título imperial",
+      "start": "-0250-01-01",
+      "end": "-0250-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Xiaowen_of_Qin",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -250,
+        -250
+      ]
+    },
+    {
+      "person": "Q1327607",
+      "name": "King Zhuangxiang of Qin",
+      "role": "Rey de Qin · anterior al título imperial",
+      "start": "-0250-01-01",
+      "end": "-0247-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/King_Zhuangxiang_of_Qin",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -250,
+        -247
+      ]
+    },
+    {
+      "person": "Q7192",
+      "name": "Qin Shi Huang",
+      "role": "Rey Zheng de Qin",
+      "start": "-0246-01-01",
+      "end": "-0222-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos. Título imperial desde221, no desde su acceso como rey246.",
+      "documentedInterval": [
+        -246,
+        -222
+      ],
+      "portrait": {
+        "file": "media/portrait-cefbcc3a51364d3545e0.jpg",
+        "title": "Qinshihuangdi3.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Qinshihuangdi3.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Qinshihuangdi3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Qinshihuangdi3.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "",
+        "sha256": "6cfee9ef139fdef256d1877062572dbadea5cafc4a230ea157d57a9fd251e9a7",
+        "bytes": 15241,
+        "stagedFile": ".cache/portraits043/cefbcc3a51364d3545e0.bin",
+        "canonicalFile": "Países/QIN-STATE-WARRING-Qin-estado-anterior-al-imperio/retratos/portrait-cefbcc3a51364d3545e0.jpg",
+        "caption": "Retrato chino retrospectivo deQinShiHuang; no obra acreditada del natural."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-11",
+      "name": "Xianyang",
+      "coordinates": [
+        108.708,
+        34.329
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Qin",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Qin · estado anterior al imperio"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Qin"
+        ],
+        "start": -300,
+        "end": -222,
+        "label": "Qin · reino de los Estados Combatientes",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Han"
+        ],
+        "start": -230,
+        "end": -222,
+        "label": "Qin · reino y territorios incorporados, antes del título imperial",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Wei"
+        ],
+        "start": -225,
+        "end": -222,
+        "label": "Qin · reino y territorios incorporados, antes del título imperial",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Yan"
+        ],
+        "start": -222,
+        "end": -222,
+        "label": "Qin · reino y territorios incorporados, antes del título imperial",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Zhao"
+        ],
+        "start": -228,
+        "end": -222,
+        "label": "Qin · reino y territorios incorporados, antes del título imperial",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chu"
+        ],
+        "start": -223,
+        "end": -222,
+        "label": "Qin · reino y territorios incorporados, antes del título imperial",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Later Zhou"
+        ],
+        "start": -256,
+        "end": -222,
+        "label": "Qin · reino y territorios incorporados, antes del título imperial",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Minyue"
+        ],
+        "start": -222,
+        "end": -222,
+        "label": "Qin · reino y territorios incorporados, antes del título imperial",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    },
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lu"
+        ],
+        "start": -223,
+        "end": -222,
+        "label": "Qin · antiguos territorios de Lu",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Conquista por la potencia correspondiente; no adelantar la unificaciónQin ni el título imperial221."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "127398bc3b5fae4985c44cccd222d86d62b8578dc614a9393b88d6f304a1dfca",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        513,
+        598,
+        685,
+        694,
+        720,
+        723
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "King Xiaowen of Qin",
+        "title": "King Xiaowen of Qin",
+        "person": "Q1372297",
+        "name": "Xiaowen",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Xiaowen_of_Qin",
+        "identityResolution": {
+          "requested": "King Xiaowen of Qin",
+          "canonical": "King Xiaowen of Qin",
+          "qid": "Q1372297"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q38702033",
+          "start": "-0250-11-12",
+          "end": "-0250-11-14",
+          "precision": 11,
+          "statement": "Q1372297$a708d951-4141-df30-d4ee-28e314855eae",
+          "label": "Chinese king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1372297",
+        "title": "King Xiaowen of Qin",
+        "source": "https://en.wikipedia.org/wiki/King_Xiaowen_of_Qin",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "12 November – 14 November 250 BC<ref> Volume 05 of ''Records of the Grand Historian'' indicated that King Xiaowen was crowned on the ''jihai day''  of the 10th month of the 1st year of his reign and died on the 3rd day after his coronation, on the ''xinchou'' day of the same month. Using the ''Zhuanxu'' calendar, the dates correspond to 12 Nov and 14 Nov 250 BCE on the proleptic Julian calendar. (孝文王除丧，十月己亥即位，三日辛丑卒...)</ref>",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Qin",
+            "raw": "250 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Zhaoxiang of Qin",
+        "title": "King Zhaoxiang of Qin",
+        "person": "Q553240",
+        "name": "Zhaoxiang",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Zhaoxiang_of_Qin",
+        "identityResolution": {
+          "requested": "King Zhaoxiang of Qin",
+          "canonical": "King Zhaoxiang of Qin",
+          "qid": "Q553240"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q38702033",
+          "start": "-0306-01-01",
+          "end": "-0251-01-01",
+          "precision": 9,
+          "statement": "Q553240$d85f1a34-4236-2d18-4ab7-d6c68796958b",
+          "label": "Chinese king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q553240",
+        "title": "King Zhaoxiang of Qin",
+        "source": "https://en.wikipedia.org/wiki/King_Zhaoxiang_of_Qin",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Qin",
+            "raw": "307–251 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Qin",
+            "raw": "306–251 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "King Zhuangxiang of Qin",
+        "title": "King Zhuangxiang of Qin",
+        "person": "Q1327607",
+        "name": "King Zhuangxiang of Qin",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/King_Zhuangxiang_of_Qin",
+        "identityResolution": {
+          "requested": "King Zhuangxiang of Qin",
+          "canonical": "King Zhuangxiang of Qin",
+          "qid": "Q1327607"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q38702033",
+          "start": "-0250-11-14",
+          "end": "-0247-07-06",
+          "precision": 11,
+          "statement": "Q1327607$45ddbf33-bfd4-4a11-8e27-66da46354844",
+          "label": "Chinese king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1327607",
+        "title": "King Zhuangxiang of Qin",
+        "source": "https://en.wikipedia.org/wiki/King_Zhuangxiang_of_Qin",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Qin",
+            "raw": "{{circa}} November 250 BCE<ref>Volume 05 of ''Records of the Grand Historian'' indicated that King Xiaowen died on the 3rd day after his coronation, on the ''xinchou'' day of the 10th month of the 1st year of his reign. Using the ''Zhuanxu'' calendar, the date corresponds to 14 Nov 250 BCE on the proleptic Julian calendar. (孝文王除丧，十月己亥即位，三日辛丑卒...)</ref> – 6 July 247 BCE",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Qin",
+            "raw": "249–247 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Qin Shi Huang",
+        "title": "Qin Shi Huang",
+        "person": "Q7192",
+        "name": "Qin Shi Huang",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+        "identityResolution": {
+          "requested": "Qin Shi Huang",
+          "canonical": "Qin Shi Huang",
+          "qid": "Q7192"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q268218",
+          "start": "-0221-01-01",
+          "end": "-0210-09-10",
+          "precision": 9,
+          "statement": "Q7192$31D65924-C88E-43AA-9046-AF5C251460F3",
+          "label": "Emperador de China"
+        },
+        {
+          "property": "P39",
+          "office": "Q38702033",
+          "start": "-0247-05-07",
+          "end": "-0221-01-01",
+          "precision": 9,
+          "statement": "Q7192$54acd5ad-4baa-1e33-1db8-872754efc1e3",
+          "label": "Chinese king"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q7192",
+        "title": "Qin Shi Huang",
+        "source": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of the Qin dynasty",
+            "raw": "221 BC{{snd}}12 July 210 BC{{efn|[https://www.kanripo.org/text/KR3g0018/090 Volume 90] of ''[[Treatise on Astrology of the Kaiyuan Era]]'' (8th century) indicates that he died on the ''yichou'' day of the 6th month of the 38th year of his reign (starting from his tenure as King of Qin), which corresponds to 11 July 210 BCE on the [https://ytliu0.github.io/ChineseCalendar/ proleptic Julian calendar] (始皇以六月乙丑死于沙丘...). [[:zh:s:史記/卷006|Volume 6]] of ''[[Records of the Grand Historian]]'' (1st century BC) indicates that he died on the ''bingyin'' day of the 7th month of his 38th year. While there is no ''bingyin'' day in that month, there is a ''bingyin'' day in the previous month, which corresponds to 12 July 210 BCE on the proleptic [https://ytliu0.github.io/ChineseCalendar/ Julian calendar] (七月丙寅，始皇崩于沙丘平台。) Older methods of calculation give 18 July.<ref>{{cite book |last=Moule |first=Arthur C. |author-link=Arthur Christopher Moule |year=1957 |title=The Rulers of China, 221 BC-AD 1949 |publisher=Routledge |location=London |oclc=223359908 |url=https://archive.org/details/the-rulers-of-china/page/n13 |url-access=limited |page=3}}</ref> A few modern sources give 10 September,<ref>{{cite book |last1=Farquhar |first1=Michael |title=Bad Days in History: A Gleefully Grim Chronicle of Misfortune, Mayhem, and Misery for Every Day of the Year |year=2006 |publisher=寂天文化 |isbn=9789861840239 |page=16|url=https://books.google.com/books?id=apKVCB2QijoC&pg=PA16}}</ref><ref>{{cite book |last1=Farquhar |first1=Michael |title=Bad Days in History: A Gleefully Grim Chronicle of Misfortune, Mayhem, and Misery for Every Day of the Year |year=2015 |publisher=National Geographic |isbn=978-1-4262-1280-2 |page=324 |url=https://books.google.com/books?id=cgONBwAAQBAJ&pg=PA329}}</ref> the ''bingyin'' day of the 8th month on the proleptic Julian calendar. Modern authors usually don't use specific dates.{{sfn|Loewe|2000|p=823}}{{sfn|Barbieri-Low|Yates|2015|p=[https://books.google.com/books?id=1W3sCgAAQBAJ&pg=PR19 xix]}}}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "King of Qin",
+            "raw": "6 July 247&nbsp;BC{{efn|[[:zh:s:史記/卷005|Volume 05]] of ''[[Records of the Grand Historian]]'' indicated that King Zhuangxiang died on the ''bingwu'' day of the 5th month of the 4th year of his reign. Using the ''[[Zhuanxu]]'' calendar, the date corresponds to 6 Jul 247 BC on the [https://ytliu0.github.io/ChineseCalendar/ proleptic Julian calendar]. ([四年]...。五月丙午，庄襄王卒...)}} – 221&nbsp;BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Qin",
+            "raw": "246–221 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Emperor of China",
+            "raw": "221–210 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Monarchs of China ''as Emperor of China''",
+            "raw": "221–210 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": [
+    {
+      "person": "Q7192",
+      "title": "Qinshihuangdi3.jpg",
+      "decision": "accepted",
+      "reason": "Retrato chino retrospectivo deQinShiHuang; no obra acreditada del natural."
+    }
+  ]
+}

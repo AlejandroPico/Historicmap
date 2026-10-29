@@ -4,6 +4,7 @@
   "qid": "",
   "aliases": [
     "Carthage",
+    "Carthaginian Empire",
     "Comunidades púnicas de África del Norte"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
@@ -13,7 +14,16 @@
   "symbolReferences": [],
   "leaders": [],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 10,
+      "start": null,
+      "end": null,
+      "name": "Carthaginian Empire",
+      "status": null
+    }
+  ],
   "culturalRecords": [
     {
       "file": "cultural-regions.geojson",
@@ -41,6 +51,15 @@
       "end": 99,
       "sourceYear": -200,
       "canonicalFile": "Países/CULTURE-PUNIC-COMMUNITIES-Comunidades-punicas-de-Africa-del-Norte/poblamiento/CULTURE-PUNIC-COMMUNITIES-YBC0200.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-PUNIC-COMMUNITIES-YBC0300:0",
+      "contextKey": "CULTURE-PUNIC-COMMUNITIES",
+      "start": -300,
+      "end": -201,
+      "sourceYear": -300,
+      "canonicalFile": "Países/CULTURE-PUNIC-COMMUNITIES-Comunidades-punicas-de-Africa-del-Norte/poblamiento/CULTURE-PUNIC-COMMUNITIES-YBC0300.json"
     }
   ],
   "relatedData": [

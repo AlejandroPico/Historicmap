@@ -1,0 +1,69 @@
+{
+  "key": "CULTURE-SAMI-YBC0300",
+  "contextKey": "CULTURE-SAMI",
+  "ownerKey": "CULTURE-SAMI",
+  "name": "Pueblos sámi",
+  "originalNames": [
+    "Saami"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -300,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes, no Estado unitario, identidad homogénea, censo o frontera exclusiva.",
+  "spatialUncertainty": "Contorno mundial original, resolución desigual y delimitación local pendiente; no frontera política anual.",
+  "temporalUncertainty": "Referencia espacial300a.C.; los ámbitos sin equivalente posterior continúan como contexto histórico, no como población actual observada.",
+  "references": [
+    {
+      "title": "Historical Basemaps300a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    25.70536,
+    66.44198
+  ],
+  "phases": [
+    {
+      "start": -300,
+      "end": -201,
+      "label": "Pueblos sámi",
+      "dateBasis": "Referencia espacial de300a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-SAMI-YBC0300.geojson",
+  "geometrySha256": "9405504e935d43d60d3e4916eb22a89fb51b2a5ed42a32f689d86cc89acf1e1f",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson",
+    "year": -300,
+    "featureIds": [
+      64
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d181645f7963e893fc5502a496c14927316939a2a38cba7722a38b75f80cf633"
+  },
+  "review": "0.43.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación local. El final de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Saami",
+      "ABBREVN": "Saami",
+      "CONTROL": null,
+      "SUBJECTO": "Saami",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Saami"
+    }
+  ],
+  "sourceGrouping": [
+    "Saami"
+  ]
+}

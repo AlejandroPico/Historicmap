@@ -1,0 +1,308 @@
+{
+  "key": "HIST-Q7380487",
+  "identity": {
+    "qid": "Q7380487",
+    "name": "Reino del Ponto"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey del Ponto",
+      "titles": [
+        "Ariobarzanes of Pontus",
+        "Mithridates I Ctistes",
+        "Mithridates II of Pontus",
+        "Mithridates III of Pontus"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q353675",
+      "name": "Ariobarzanes del Ponto",
+      "role": "Rey del Ponto",
+      "start": "-0266-01-01",
+      "end": "-0250-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ariobarzanes_of_Pontus",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -266,
+        -250
+      ]
+    },
+    {
+      "person": "Q359014",
+      "name": "Mitrídates II del Ponto",
+      "role": "Rey del Ponto",
+      "start": "-0250-01-01",
+      "end": "-0220-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mithridates_II_of_Pontus",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -250,
+        -220
+      ]
+    },
+    {
+      "person": "Q350769",
+      "name": "Mitrídates III del Ponto",
+      "role": "Rey del Ponto",
+      "start": "-0220-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mithridates_III_of_Pontus",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -220,
+        -185
+      ],
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-684e6c4426de92f05b20.jpg",
+        "title": "Coin of Mithridates III of Pontus, Amisos mint.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coin_of_Mithridates_III_of_Pontus,_Amisos_mint.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Coin_of_Mithridates_III_of_Pontus%2C_Amisos_mint.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Classical Numismatic Group; [1]",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "attributionRequired": true,
+        "credit": "https://www.cngcoins.com/Coin.aspx?CoinID=301220",
+        "sha256": "3e09d2f867388f36cdff650581301ce912cc58bffcba06d068e45a224c14a837",
+        "bytes": 121212,
+        "canonicalFile": "Países/HIST-Q7380487-Kingdom-of-Pontus/retratos/portrait-684e6c4426de92f05b20.jpg",
+        "caption": "Efigie numismática atribuida aMitrídates III del Ponto; no fotografía ni fisonomía del natural acreditada.",
+        "coinFace": "left"
+      }
+    },
+    {
+      "person": "documented043-mitridates-i-ctistes",
+      "name": "Mitrídates I Ctistes",
+      "role": "Autoridad documental · sin identificación individual Wikidata corroborada",
+      "start": "-0281-01-01",
+      "end": "-0266-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mithridates_I_of_Pontus",
+      "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-7",
+      "name": "Amasea",
+      "coordinates": [
+        35.833,
+        40.65
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Pontus",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Kingdom of Pontus"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Pontus"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Reino del Ponto",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "83c78dea39eaa86ad9fee3432f1f108472aedbceed90cb87ae60f449dfa33e4e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        578,
+        591,
+        634,
+        691
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ariobarzanes of Pontus",
+        "title": "Ariobarzanes of Pontus",
+        "person": "Q353675",
+        "name": "Ariobarzanes del Ponto",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ariobarzanes_of_Pontus",
+        "identityResolution": {
+          "requested": "Ariobarzanes of Pontus",
+          "canonical": "Ariobarzanes of Pontus",
+          "qid": "Q353675"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q353675",
+        "title": "Ariobarzanes of Pontus",
+        "source": "https://en.wikipedia.org/wiki/Ariobarzanes_of_Pontus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Pontus",
+            "raw": "266 BC - 250 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mithridates I Ctistes",
+        "title": "Mithridates I Ctistes",
+        "person": "",
+        "name": "Mithridates I Ctistes",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Mithridates_I_Ctistes",
+        "identityResolution": {
+          "requested": "Mithridates I Ctistes",
+          "canonical": "Mithridates I Ctistes",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mithridates II of Pontus",
+        "title": "Mithridates II of Pontus",
+        "person": "Q359014",
+        "name": "Mitrídates II del Ponto",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mithridates_II_of_Pontus",
+        "identityResolution": {
+          "requested": "Mithridates II of Pontus",
+          "canonical": "Mithridates II of Pontus",
+          "qid": "Q359014"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q359014",
+        "title": "Mithridates II of Pontus",
+        "source": "https://en.wikipedia.org/wiki/Mithridates_II_of_Pontus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Pontus",
+            "raw": "250 BC - 210 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mithridates III of Pontus",
+        "title": "Mithridates III of Pontus",
+        "person": "Q350769",
+        "name": "Mitrídates III del Ponto",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mithridates_III_of_Pontus",
+        "identityResolution": {
+          "requested": "Mithridates III of Pontus",
+          "canonical": "Mithridates III of Pontus",
+          "qid": "Q350769"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q350769",
+        "title": "Mithridates III of Pontus",
+        "source": "https://en.wikipedia.org/wiki/Mithridates_III_of_Pontus",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Pontus",
+            "raw": "c. 210 BC – c. 190 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "unresolvedAuthorities": [
+    {
+      "title": "Mithridates I Ctistes",
+      "candidate": {
+        "requestedTitle": "Mithridates I Ctistes",
+        "title": "Mithridates I Ctistes",
+        "person": "",
+        "name": "Mithridates I Ctistes",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Mithridates_I_Ctistes",
+        "identityResolution": {
+          "requested": "Mithridates I Ctistes",
+          "canonical": "Mithridates I Ctistes",
+          "qid": ""
+        }
+      },
+      "reason": "Candidato no resuelto como individuo; no asignar otra identidad o imagen por semejanza."
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": [
+    {
+      "person": "Q350769",
+      "title": "Coin of Mithridates III of Pontus, Amisos mint.jpg",
+      "decision": "accepted",
+      "reason": "Efigie y atribución revisadas visualmente."
+    }
+  ]
+}

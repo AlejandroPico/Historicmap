@@ -1,0 +1,200 @@
+{
+  "key": "WESTERN-CHU-HEGEMONY",
+  "identity": {
+    "qid": "",
+    "name": "Chu occidental · hegemonía de Xiang Yu"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Hegemón de Chu occidental · no emperador de toda China",
+      "titles": [
+        "Xiang Yu"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q182266",
+      "name": "Xiang Yu",
+      "role": "Hegemón de Chu occidental · no emperador de toda China",
+      "start": "-0206-01-01",
+      "end": "-0202-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Xiang_Yu",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -206,
+        -202
+      ],
+      "portrait": {
+        "file": "media/portrait-bc16d998e61ffc887116.jpg",
+        "title": "Xiang Yu.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Xiang_Yu.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Xiang_Yu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "ShangGuan Zhou（上官周）",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Xiang_Yu.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "This image was carried on the book which is called \"Wan hsiao tang-Chu chuang -Hua chuan（晩笑堂竹荘畫傳）\".",
+        "sha256": "45a9b119c03d49886c6f574299c10666333d214706230d601a3cbfd4ce694b66",
+        "bytes": 75785,
+        "stagedFile": ".cache/portraits043/bc16d998e61ffc887116.bin",
+        "canonicalFile": "Países/WESTERN-CHU-HEGEMONY-Chu-occidental-hegemonia-de-Xiang-Yu/retratos/portrait-bc16d998e61ffc887116.jpg",
+        "caption": "Ilustración retrospectiva deXiangYu; no retrato contemporáneo."
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [
+    {
+      "id": "event043-16",
+      "kind": "conflict",
+      "title": "Contienda Chu–Han",
+      "start": "-0206-01-01",
+      "end": "-0201-01-01",
+      "text": "Reyes regionales, hegemonía deXiangYu y poder deLiuBang; sin anticipar título imperial202.",
+      "source": "https://ll-chinesereferenceshelf.brillonline.com/dictionary-qin-and-han/prelims/sim-106456",
+      "sourceLabel": "Referencia documental · sigloIIIa.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "conflict"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Western Chu"
+        ],
+        "start": -206,
+        "end": -203,
+        "label": "Chu occidental · hegemonía de Xiang Yu",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "6b4e82b8a3af34adc14d4d725618162238712c3a9850182e594bd368aceaa46d",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        765,
+        802,
+        819
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Xiang Yu",
+        "title": "Xiang Yu",
+        "person": "Q182266",
+        "name": "Xiang Yu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Xiang_Yu",
+        "identityResolution": {
+          "requested": "Xiang Yu",
+          "canonical": "Xiang Yu",
+          "qid": "Q182266"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q1563199",
+          "start": "-0206-01-01",
+          "end": "-0202-01-01",
+          "precision": 9,
+          "statement": "Q182266$ad3cdbac-a910-47d6-893d-d5b67a2207f6",
+          "label": "soverano chino"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q182266",
+        "title": "Xiang Yu",
+        "source": "https://en.wikipedia.org/wiki/Xiang_Yu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Chu",
+            "raw": "206–202 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "point043-16",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.99,
+          33.34
+        ]
+      },
+      "properties": {
+        "name": "Contienda Chu–Han",
+        "countries": [
+          "WESTERN-CHU-HEGEMONY"
+        ],
+        "kind": "regional-conflict",
+        "start": "-0206-01-01",
+        "end": "-0202-12-31",
+        "precision": 9,
+        "source": "https://ll-chinesereferenceshelf.brillonline.com/dictionary-qin-and-han/prelims/sim-106456",
+        "sourceLabel": "Referencia documental · sigloIIIa.C.",
+        "note": "Reyes regionales, hegemonía deXiangYu y poder deLiuBang; sin anticipar título imperial202. Coordenada regional, no perímetro ni frente militar."
+      }
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q182266",
+      "title": "Xiang Yu.jpg",
+      "decision": "accepted",
+      "reason": "Ilustración retrospectiva deXiangYu; no retrato contemporáneo."
+    }
+  ]
+}

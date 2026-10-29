@@ -1,0 +1,78 @@
+{
+  "key": "REFERENCE-ZHOU-COMMUNITIES-YBC0300",
+  "contextKey": "REFERENCE-ZHOU-COMMUNITIES",
+  "ownerKey": "REFERENCE-ZHOU-COMMUNITIES",
+  "name": "Estados y comunidades del mundo Zhou",
+  "originalNames": [
+    "Zhou states"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación300a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -300,
+    99
+  ],
+  "interpretation": "Múltiples Estados, cortes y comunidades, no una única soberanía de todaChina.",
+  "spatialUncertainty": "Contorno mundial original, resolución desigual y delimitación local pendiente; no frontera política anual.",
+  "temporalUncertainty": "Referencia espacial300a.C.; los ámbitos sin equivalente posterior continúan como contexto histórico, no como población actual observada.",
+  "references": [
+    {
+      "title": "Historical Basemaps300a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    114.5938,
+    33.68817
+  ],
+  "phases": [
+    {
+      "start": -300,
+      "end": -201,
+      "label": "Estados y comunidades del mundo Zhou",
+      "dateBasis": "Referencia espacial de300a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -200,
+      "end": 99,
+      "label": "Estados y comunidades del mundo Zhou",
+      "dateBasis": "Consulta del ámbito histórico anterior; no nueva observación de habitantes o límites.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -300,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-ZHOU-COMMUNITIES-YBC0300.geojson",
+  "geometrySha256": "d1f4e240c8db1cbd66add7870cb1b8ea842ac9ef864dcd765b68cbf96d6a1965",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson",
+    "year": -300,
+    "featureIds": [
+      34
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d181645f7963e893fc5502a496c14927316939a2a38cba7722a38b75f80cf633"
+  },
+  "review": "0.43.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación local. El final de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Zhou states",
+      "ABBREVN": "Zhou states",
+      "CONTROL": null,
+      "SUBJECTO": "Zhou states",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Zhow states"
+    }
+  ],
+  "sourceGrouping": [
+    "Zhou states"
+  ]
+}

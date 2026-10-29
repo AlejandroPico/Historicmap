@@ -1,0 +1,126 @@
+{
+  "key": "CHU-HAN-JIBEI",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Jibei · partición Chu–Han"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey de Jibei · partición de206a.C.",
+      "titles": [
+        "Tian An"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented043-tian-an",
+      "name": "Tian An",
+      "role": "Autoridad documental · sin identificación individual Wikidata corroborada",
+      "start": "-0206-01-01",
+      "end": "-0206-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tian_An",
+      "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Jibei"
+        ],
+        "start": -206,
+        "end": -206,
+        "label": "Reino de Jibei · partición Chu–Han",
+        "status": "protectorate",
+        "admin": "WESTERN-CHU-HEGEMONY",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Reino de la partición hegemónica de206; alianzas disputadas y cambios durante el año, no administración homogénea de un único Estado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "9df58950fb8012773010f290e0ab837bc5ef9ee8b873cd478d7b335b01d44f79",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        775,
+        785
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Tian An",
+        "title": "Tian An",
+        "person": "",
+        "name": "Tian An",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Tian_An",
+        "identityResolution": {
+          "requested": "Tian An",
+          "canonical": "Tian An",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "unresolvedAuthorities": [
+    {
+      "title": "Tian An",
+      "candidate": {
+        "requestedTitle": "Tian An",
+        "title": "Tian An",
+        "person": "",
+        "name": "Tian An",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Tian_An",
+        "identityResolution": {
+          "requested": "Tian An",
+          "canonical": "Tian An",
+          "qid": ""
+        }
+      },
+      "reason": "Candidato no resuelto como individuo; no asignar otra identidad o imagen por semejanza."
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

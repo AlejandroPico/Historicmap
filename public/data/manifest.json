@@ -178,11 +178,11 @@
       "license": "CC0 factual coordinate/date references and editorial compilation",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/REVIEW-0.18.md",
       "source": "Per-record dated documentary sources",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "transform": "Battle sites and explicitly labelled regional conflict references; approximate point anchors, never occupation polygons or reconstructed fronts.",
-      "features": 192,
-      "bytes": 123322,
-      "sha256": "942e98c03964c7d2106dd66a000eaa3cc2c501dd583913383b0ab4be30a7b6a7"
+      "features": 209,
+      "bytes": 132833,
+      "sha256": "2d0e846cf7e35abf8194cda02bce2350d35add30a53e0abcea48641334d4d9ff"
     },
     {
       "file": "countries.geojson",
@@ -197,15 +197,15 @@
     },
     {
       "file": "country-history.json",
-      "bytes": 425702,
-      "sha256": "25a9942a201e9dc62491b35af39421f192df0cd545880569c5e5c3cf3d5a02e9",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "bytes": 428084,
+      "sha256": "2c8ba8a5824d74fc3c8723629be142b506bfa89912db8bddeab9a5e54680d875",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "format": "country-workspace-history",
       "url": "https://www.un.org/en/about-us/member-states",
       "source": "Official institutional histories, constitutional records and state succession references, linked per record",
       "license": "Original editorial summaries and factual metadata; sources linked individually",
       "transform": "Twelve dated records and three fully named French regime-transition links. Earlier observations retained, coverage extended to1800.",
-      "records": 584,
+      "records": 589,
       "relations": 108
     },
     {
@@ -345,12 +345,12 @@
       "license": "CC0 factual metadata and editorial taxonomy",
       "url": "https://www.wikidata.org/",
       "source": "Per-record dated documentary sources",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "transform": "Dated P122/P31 claims, broad historical forms bounded by entity lifetime, reviewed constitutional phases; unknown retained explicitly. Institutional form is distinct from regime assessment.",
-      "records": 1351,
+      "records": 1417,
       "categories": 62,
-      "bytes": 445184,
-      "sha256": "2797b0001ea89df88cbac495a26415a29b1832b713f25be82bede386ecbf970b"
+      "bytes": 470567,
+      "sha256": "8afd2616a7d66d7d7dff58fbd78cbad840e43d724ad1ec2644c8f00fdbfe6110"
     },
     {
       "file": "historical-1000-entities.json",
@@ -362,7 +362,7 @@
       "coverageEnd": 1099,
       "sha256": "404b22632a80e99aa56be46a06ec24b835eab192028805dad6dcca189206a7a8",
       "bytes": 86789,
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "records": 63,
       "transform": "Canonical date-scoped identities1000–1099, dynastic unions, Eleventh-century crowns, regencies, dynasties and source chronology defects, with source defects disclosed; original coordinate arrays unchanged."
     },
@@ -376,7 +376,7 @@
       "coverageEnd": 1199,
       "sha256": "4af3eb5b02f428ca4bd0abacff85119f2b9125cf3f38777cb1053e24c6f5dd73",
       "bytes": 85108,
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "records": 66,
       "transform": "Canonical date-scoped identities1100–1199, dynastic unions, Song transition, crusader states, dynastic unions and source chronology defects, with source defects disclosed; original coordinate arrays unchanged."
     },
@@ -390,7 +390,7 @@
       "coverageEnd": 1299,
       "sha256": "37d65c5e950c0dee338ba8a170c9774c51fec7be5b5063fd22a2714df370d95e",
       "bytes": 92278,
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "records": 88,
       "transform": "Canonical date-scoped identities1200–1299, dynastic unions, Mongol fragmentation, Yuan/Song, Byzantine successor states and Castile/Leon, with source defects disclosed; original coordinate arrays unchanged."
     },
@@ -404,7 +404,7 @@
       "coverageEnd": 1399,
       "sha256": "082966fc5f38f829c90f24271f013b8b02d06202365f1692c520e7a74d38aee8",
       "bytes": 76840,
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "records": 71,
       "transform": "Canonical date-scoped identities1300–1399, dynastic unions, Yuan/Ming, Goryeo/Joseon, Mongol successor states and Japanese rival courts, with source defects disclosed; original coordinate arrays unchanged."
     },
@@ -418,7 +418,7 @@
       "coverageEnd": 1499,
       "sha256": "e63699bce9632d9ad05a3ed947ee5984fb4a0bb903f0c6f716641833b8d07751",
       "bytes": 68011,
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "records": 62,
       "transform": "Canonical date-scoped identities1400–1499, dynastic unions, Byzantine/Trebizond, Kalmar, Castile/Aragon and fragmented sovereignties, with source defects disclosed; original coordinate arrays unchanged."
     },
@@ -472,7 +472,7 @@
       "license": "CC0 factual identity metadata",
       "sha256": "d251d9537f24b38911809ec5b9b04cb0fc0be17d87fceae2fe607e7b086e3f5f",
       "bytes": 58017,
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "transform": "Dated1800–1819 identity resolution over unchanged Cliopatria contours. Consulate, Empire and Restorations; separate Italian states, British crowns/union and Haitian powers. No reconstructed internal military fronts.",
       "records": 96,
       "coverageStart": 1800,
@@ -486,7 +486,7 @@
       "license": "CC0 factual identity metadata",
       "sha256": "0af7f4d63b3ab6237703bafc1407c889a2e75f31dcb9be5eb06a6487e653ee78",
       "bytes": 52198,
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "transform": "Dated1820–1839 identity resolution over unchanged Cliopatria geometry. Restoration and July Monarchy, Spanish regimes, Company India, First Mexican Empire, Haiti and Gran Colombia distinguished. Defective Gran Colombia persistence1831–1833 explicitly flagged, not asserted as continued union.",
       "records": 90,
       "coverageStart": 1820,
@@ -500,7 +500,7 @@
       "license": "CC0 factual identity metadata",
       "sha256": "caac815123d68018aab26538fb8140b6b03f97246fc4bf2623d09439ef22dc6c",
       "bytes": 50698,
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "transform": "Dated1840–1859 name/regime corrections over unchanged Cliopatria contours. French1848/1852 changes, Sardinia not Italy, Company India before1858, and source anachronisms explicitly repaired. Source labels/QIDs retained as provenance, not accepted as political fact.",
       "records": 89,
       "coverageStart": 1840,
@@ -515,7 +515,7 @@
       "transform": "Bounded1860–1879 names and regimes over unchanged source contours; annual synthesis, not monthly frontier reconstruction.",
       "sha256": "5db3a9160d95f5843897b4cbf1e353bb0678d2a062a9da1395de5ba3a9f3431f",
       "bytes": 44244,
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "records": 84,
       "coverageStart": 1860,
       "coverageEnd": 1879
@@ -552,7 +552,7 @@
       "license": "CC0 identity metadata; editorial corrections",
       "bytes": 41090,
       "sha256": "05386b888c1ca44f0b2ed6da7f22324d9a7263e6cede87df9ab4b576a45127b0",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "transform": "Date-scoped correction of anachronistic source names and QIDs over unchanged source contours. Cliopatria1880–1885 and CShapes1886–1899 are different geographic inventories. Unresolved source references remain explicitly unassigned.",
       "records": 89,
       "coverageStart": 1880,
@@ -572,15 +572,15 @@
     },
     {
       "file": "historical-context.json",
-      "bytes": 534085,
-      "sha256": "97370e5a1e7658b403a3ee6bacda35db2cfc5c3d3de279f78cc32e39e81061d9",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "bytes": 544804,
+      "sha256": "e36913acdcc258fa1171a7f5a015a26c6078be6ad1dd107466445cf155baff5d",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "format": "dated-historical-context",
       "source": "United Nations, institutional and government historical records",
       "url": "https://www.un.org/en/about-us/history-of-the-un",
       "license": "Original editorial summaries; institutional sources linked per event",
       "transform": "Twelve documentary phases1800–1819 appended idempotently; annual precision and coverage boundaries preserved. No geometric fronts inferred from texts.",
-      "records": 846
+      "records": 869
     },
     {
       "file": "historical-control.geojson",
@@ -601,11 +601,11 @@
       "license": "CC0 factual coordinate/date references and editorial compilation",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/REVIEW-0.18.md",
       "source": "Per-record dated documentary sources",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "transform": "Dated capitals, courts, regional colonial seats and selected cities, matched only to active identities; no historical population or city footprint inferred.",
-      "records": 1041,
-      "bytes": 474278,
-      "sha256": "6e76c44e8aff6eb530ce5bdee3ef67b67190351324d37fe1852c029bc3c0058f"
+      "records": 1071,
+      "bytes": 489429,
+      "sha256": "c4ff9781ab77eb902ec5e9af3a9c44a8dfe0feefa2b81a90a21bc908bbbf2c02"
     },
     {
       "file": "historical-supplements.geojson",
@@ -634,13 +634,13 @@
     },
     {
       "file": "identities.json",
-      "bytes": 19000796,
-      "sha256": "04b084499774101fc94a079c2dd79002aa86bdd1977e4f28cd74961e7017761b",
+      "bytes": 19170019,
+      "sha256": "564dc12c7db2201330509e955ccd399ab9bb8e81596cc0d61bfce15a901a9687",
       "format": "dated-political-identities",
-      "countries": 1440,
-      "records": 19314,
+      "countries": 1482,
+      "records": 19534,
       "source": "Wikidata CC0 statements, UN Protocol incumbent list, national institutional chronology and licensed Wikimedia Commons/official-government media",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "url": "https://www.wikidata.org/",
       "license": "CC0-1.0 (Wikidata metadata); each image retains its own license",
       "transform": "Isolated1000–1099 acquisition and reviewed sovereign titles, rival claims, regencies and calendars. Dated symbols distinguish ensigns, seals and dynastic devices; earlier mandate facts and symbol windows conserved. Not a complete world census. Entity-owned corrections distinguish dated symbols from retrospective heraldic references, provincial offices and governments without a common national executive."
@@ -678,7 +678,7 @@
       "file": "political-influence.json",
       "bytes": 10985,
       "sha256": "c859250ade7db8dda01e6d234d7ed5f92038ab085764a92998546f6730676272",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "records": 21
     },
     {
@@ -980,7 +980,7 @@
       "coverage": "900/999",
       "sha256": "f28941bf0fe1bcec3158e645e7f1c767700461330ce8d159759442283c3a456d",
       "bytes": 99669,
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28",
       "records": 78,
       "format": "dated-entity-resolution",
       "coverageStart": 900,
@@ -1011,7 +1011,7 @@
       "coverageEnd": 899,
       "bytes": 122655,
       "sha256": "bc0cf563c8c686fcac7c2ed3ed3d6437ccd1239b8623eaf9a09d8c48cc6d1c28",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28"
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     },
     {
       "source": "Cliopatria · Seshat Global History Databank",
@@ -1038,7 +1038,7 @@
       "coverageEnd": 799,
       "bytes": 119121,
       "sha256": "3d4ef43dcce2d1a25543c5d46fedeca1cec8abad0d463a68f01ad696a460ff5c",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28"
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     },
     {
       "source": "Cliopatria · Seshat Global History Databank",
@@ -1065,7 +1065,7 @@
       "coverageEnd": 699,
       "bytes": 122773,
       "sha256": "eb1394fcae2d6e9fbc85de39d7efd663cb252ab3552c3ed97aaa383281a81b58",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28"
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     },
     {
       "source": "Cliopatria · Seshat Global History Databank",
@@ -1092,7 +1092,7 @@
       "coverageEnd": 599,
       "bytes": 129425,
       "sha256": "a49d77893247318b191c16266a733b1ca663f8c51a847d799c5366d4521172ac",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28"
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     },
     {
       "source": "Cliopatria · Seshat Global History Databank",
@@ -1119,7 +1119,7 @@
       "coverageEnd": 499,
       "bytes": 119324,
       "sha256": "ec8d6d749cebad1707872234b3bd02fa304d567e0294755558bfe6b494bf953d",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28"
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     },
     {
       "source": "Cliopatria · Seshat Global History Databank",
@@ -1146,7 +1146,7 @@
       "coverageEnd": 399,
       "bytes": 118775,
       "sha256": "902fa608da5654ff244e222ac5c3bb29efffd26edefecc9c1f07bb27c33d52be",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28"
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     },
     {
       "source": "Cliopatria · Seshat Global History Databank",
@@ -1173,7 +1173,7 @@
       "coverageEnd": 299,
       "bytes": 107030,
       "sha256": "4511cac076e990db4500dc60c4e7a7b551124113318fc2230719dfc1ef8d6102",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28"
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     },
     {
       "source": "Cliopatria · Seshat Global History Databank",
@@ -1200,7 +1200,7 @@
       "coverageEnd": 199,
       "bytes": 96081,
       "sha256": "1d87ba9f5e06c15b09f4d9ab6bbe0019b40aa911588b13a50a3dd2dcb4cb1252",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28"
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     },
     {
       "source": "Cliopatria · Seshat Global History Databank",
@@ -1227,7 +1227,7 @@
       "coverageEnd": 99,
       "bytes": 105380,
       "sha256": "540acb683908579ca391b8e5179e6e024be433ec0b7b333fd0743b489956be77",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28"
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     },
     {
       "source": "Cliopatria · Seshat Global History Databank",
@@ -1254,7 +1254,7 @@
       "coverageEnd": -1,
       "bytes": 108508,
       "sha256": "8bba92806ebb823f1166431feb4ea045ce80190219eba22cd04990247d88f254",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28"
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     },
     {
       "source": "Cliopatria · Seshat Global History Databank",
@@ -1273,77 +1273,91 @@
     {
       "file": "historical-bc200-entities.json",
       "format": "dated-entity-resolution",
-      "records": 66,
+      "records": 67,
       "source": "Entity-owned dated identity review",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
       "license": "CC0-1.0 (editorial resolution); geometry separately licensed",
       "coverageStart": -200,
       "coverageEnd": -101,
-      "bytes": 107979,
-      "sha256": "75f28b43327932f16e891207fa16556ade29320ee81e8a8cd7d952d34620b6f6",
-      "version": "Historicmap 0.42.0; entity reviews 2026-10-28"
+      "bytes": 108483,
+      "sha256": "ff7d14216c44e33f40af7de18a572ce3cd45476df4c957990dc5656d8c2d63f2",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     },
     {
       "file": "cultural-regions.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
-      "features": 9502,
-      "coverageStart": -200,
+      "features": 9572,
+      "coverageStart": -300,
       "coverageEnd": 2027,
-      "bytes": 46326688,
-      "sha256": "7743885ed4ede116a8f6de5e809d79747b74775c7527a2c4800b935e9fbf604e",
+      "bytes": 46964702,
+      "sha256": "92536036a25b6b96d18dd85bf1312a9ff33d6289c66d02c818501b5281117323",
       "transform": "Original source polygons/components retained as approximate regional references, with explicit temporal consultation windows; separate from political sovereignty. Decisions and sources owned by each entity in Países."
+    },
+    {
+      "file": "cultural-regions-bc0300-bc0201.geojson",
+      "format": "dated-cultural-regions",
+      "source": "Entity-owned documentary review; Historical Basemaps source polygons",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
+      "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
+      "features": 59,
+      "coverageStart": -300,
+      "coverageEnd": -201,
+      "bytes": 576825,
+      "sha256": "f2652afaf50d165014bc0e3e036d8cd6461fde9c05c17af72f8a70a6f1dc2960",
+      "transform": "Century consultation segment of cultural-regions.geojson; original phase dates and source coordinates retained."
     },
     {
       "file": "cultural-regions-bc0200-bc0101.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
-      "features": 75,
+      "features": 86,
       "coverageStart": -200,
       "coverageEnd": -101,
-      "bytes": 764408,
-      "sha256": "589ce026ae77f0daca96f7519cb78734981bb4c055748df8845b1aa6c4f01f78",
+      "bytes": 825639,
+      "sha256": "78550a3996b1a314981ebc8d4fdc609b5b97b4ad4a07c1054859a42b5c4f7702",
       "transform": "Century consultation segment of cultural-regions.geojson; original phase dates and source coordinates retained."
     },
     {
       "file": "cultural-regions-bc0100-bc0001.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
-      "features": 162,
+      "features": 173,
       "coverageStart": -100,
       "coverageEnd": -1,
-      "bytes": 1447087,
-      "sha256": "5a2202d7803e7af007f28f8ffa1ee6f7afff60b5446148e85d39524f56c8247e",
+      "bytes": 1508318,
+      "sha256": "1974d48a685cb8e345e250865ac068bf7dd5ce96135d4273265789c3460616e1",
       "transform": "Century consultation segment of cultural-regions.geojson; original phase dates and source coordinates retained."
     },
     {
       "file": "cultural-regions-0001-0099.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
-      "features": 109,
+      "features": 119,
       "coverageStart": 1,
       "coverageEnd": 99,
-      "bytes": 998717,
-      "sha256": "b78844367d536052a1ba522c6ee22503c53b98fc717c8f28b8773b262b67e310",
+      "bytes": 1056456,
+      "sha256": "597dd4d043d5ccb978cd85f517e4861b6b6425471bdd19594f044bfacbd8aede",
       "transform": "Century consultation segment of cultural-regions.geojson; original phase dates and source coordinates retained."
     },
     {
       "file": "cultural-regions-0100-0199.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 71,
@@ -1357,7 +1371,7 @@
       "file": "cultural-regions-0200-0299.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 58,
@@ -1371,7 +1385,7 @@
       "file": "cultural-regions-0300-0399.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 58,
@@ -1385,7 +1399,7 @@
       "file": "cultural-regions-0400-0499.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 70,
@@ -1399,7 +1413,7 @@
       "file": "cultural-regions-0500-0599.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 73,
@@ -1413,7 +1427,7 @@
       "file": "cultural-regions-0600-0699.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 68,
@@ -1427,7 +1441,7 @@
       "file": "cultural-regions-0700-0799.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 99,
@@ -1441,7 +1455,7 @@
       "file": "cultural-regions-0800-0899.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 85,
@@ -1455,7 +1469,7 @@
       "file": "cultural-regions-0900-0999.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 120,
@@ -1469,7 +1483,7 @@
       "file": "cultural-regions-1000-1099.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 123,
@@ -1483,7 +1497,7 @@
       "file": "cultural-regions-1100-1199.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 116,
@@ -1497,7 +1511,7 @@
       "file": "cultural-regions-1200-1299.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 220,
@@ -1511,7 +1525,7 @@
       "file": "cultural-regions-1300-1399.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 65,
@@ -1525,7 +1539,7 @@
       "file": "cultural-regions-1400-1499.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 1259,
@@ -1539,7 +1553,7 @@
       "file": "cultural-regions-1500-1599.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 1442,
@@ -1553,7 +1567,7 @@
       "file": "cultural-regions-1600-1699.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 2245,
@@ -1567,7 +1581,7 @@
       "file": "cultural-regions-1700-1799.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 4419,
@@ -1581,7 +1595,7 @@
       "file": "cultural-regions-1800-1899.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 2081,
@@ -1595,7 +1609,7 @@
       "file": "cultural-regions-1900-1999.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 3598,
@@ -1609,7 +1623,7 @@
       "file": "cultural-regions-2000-2027.geojson",
       "format": "dated-cultural-regions",
       "source": "Entity-owned documentary review; Historical Basemaps source polygons",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "GPL-3.0 (Historical Basemaps geometry); original editorial metadata",
       "features": 1771,
@@ -1638,12 +1652,39 @@
       "file": "cultural-index.json",
       "format": "cultural-coverage-index",
       "source": "Entity-owned regional coverage inventory",
-      "version": "Historicmap 0.42.0; review 2026-10-28",
+      "version": "Historicmap 0.43.0; review 2026-10-28",
       "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/CULTURAL-COVERAGE.md",
       "license": "Original editorial metadata; linked source geometry licensed separately",
-      "records": 9502,
-      "bytes": 3257086,
-      "sha256": "22c00727562c4a27de71e7746ae909e0a07dd9ad2dcaa1b8e725e65488573d82"
+      "records": 9572,
+      "bytes": 3284782,
+      "sha256": "691ab8b53915a1513453180df1d1e329147babb9ec2584978c48ab43eaceb0a2"
+    },
+    {
+      "source": "Cliopatria · Seshat Global History Databank",
+      "version": "Historicmap 0.43.0",
+      "url": "https://raw.githubusercontent.com/Seshat-Global-History-Databank/cliopatria/5f433377139a6eeaeacbdc894b70f8805b72c8b5/cliopatria.geojson.zip",
+      "sourceSha256": "e10a4e429fca708788ff9e7572a95fce801fae55852d217cffabc1c59cd4eed4",
+      "license": "CC-BY-4.0",
+      "file": "early-modern-bc300.geojson",
+      "features": 319,
+      "coverage": "-300/-201",
+      "sourceVersion": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "transform": "Original leaf components from entity-owned credited Cliopatria copies; coordinates and original index IDs retained. Annual synthesis, not daily surveyed borders.",
+      "bytes": 1846776,
+      "sha256": "08d5632ff207eec32635bdf2c43948b8b484683ff2fe23cf234fe8d19ca5882e"
+    },
+    {
+      "file": "historical-bc300-entities.json",
+      "format": "dated-entity-resolution",
+      "records": 144,
+      "source": "Entity-owned dated identity review",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "license": "CC0-1.0 (editorial resolution); geometry separately licensed",
+      "coverageStart": -300,
+      "coverageEnd": -201,
+      "bytes": 141866,
+      "sha256": "c325c2786fbdb32230bfe0630f35eb8439a335c0d275fb49f89dd525397e428a",
+      "version": "Historicmap 0.43.0; entity reviews 2026-10-28"
     }
   ]
 }

@@ -1,0 +1,87 @@
+{
+  "key": "CULTURE-GREEK-CITY-STATES-2EC9BD90-YBC0300",
+  "contextKey": "CULTURE-GREEK-CITY-STATES-2EC9BD90",
+  "ownerKey": "CULTURE-GREEK-CITY-STATES-2EC9BD90",
+  "name": "Greek city-states",
+  "originalNames": [
+    "Greek city-states"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación300a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -300,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes, no Estado unitario, identidad homogénea, censo o frontera exclusiva.",
+  "spatialUncertainty": "Contorno mundial original, resolución desigual y delimitación local pendiente; no frontera política anual.",
+  "temporalUncertainty": "Referencia espacial300a.C.; los ámbitos sin equivalente posterior continúan como contexto histórico, no como población actual observada.",
+  "references": [
+    {
+      "title": "Historical Basemaps300a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    16.71066,
+    39.59421
+  ],
+  "phases": [
+    {
+      "start": -300,
+      "end": -201,
+      "label": "Greek city-states",
+      "dateBasis": "Referencia espacial de300a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -200,
+      "end": 99,
+      "label": "Greek city-states",
+      "dateBasis": "Consulta del ámbito histórico anterior; no nueva observación de habitantes o límites.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -300,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-GREEK-CITY-STATES-2EC9BD90-YBC0300.geojson",
+  "geometrySha256": "4b5f37ae7c462d10a3466368e79a3075234ea42baf827369c869f20bc6421341",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson",
+    "year": -300,
+    "featureIds": [
+      26,
+      29
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "d181645f7963e893fc5502a496c14927316939a2a38cba7722a38b75f80cf633"
+  },
+  "review": "0.43.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cronología y delimitación local. El final de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Greek city-states",
+      "ABBREVN": "Greek city-states",
+      "CONTROL": null,
+      "SUBJECTO": "Greek city-states",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Greek city-states"
+    },
+    {
+      "NAME": "Greek city-states",
+      "ABBREVN": "Greek city-states",
+      "CONTROL": null,
+      "SUBJECTO": "Greek city-states",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Greek city-states"
+    }
+  ],
+  "sourceGrouping": [
+    "Greek city-states"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "key": "HIST-Q260437",
+  "identity": {
+    "qid": "Q260437",
+    "name": "Atropatene"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Rey atestiguado · intervalo no equivale a reinado completo",
+      "titles": [
+        "Artabazanes of Atropatene"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented043-artabazanes-de-atropatene",
+      "name": "Artabazanes de Atropatene",
+      "role": "Autoridad documental · sin identificación individual Wikidata corroborada",
+      "start": "-0220-01-01",
+      "end": "-0220-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Artabazanes_of_Media_Atropatene",
+      "note": "Identidad documental local, sin reutilizar homónimos, ciudades o identificadores colectivos. Fechas convencionales; Monunio yArtabazanes son testimonios puntuales, no reinados completos inventados."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat043-25",
+      "name": "Gazaca · ubicación propuesta",
+      "coordinates": [
+        46.23,
+        36.6
+      ],
+      "start": -300,
+      "end": -201,
+      "capital": true,
+      "role": "Corte o centro documental · no capital permanente acreditada",
+      "source": "https://en.wikipedia.org/wiki/Atropatene",
+      "note": "Localización regional aproximada; consultar cronología de la entidad. No implica ocupación o residencia permanente durante todos los años.",
+      "standaloneReference": true,
+      "entityName": "Atropatene"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Atropatene"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Atropatene",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "71179cbdf06b8b015b13f077afedd0ea8131425be18a7e0c5fe36eac790c2584",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        526,
+        656,
+        716,
+        725,
+        750,
+        774,
+        786
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Artabazanes of Atropatene",
+        "title": "Artabazanes of Atropatene",
+        "person": "",
+        "name": "Artabazanes of Atropatene",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Artabazanes_of_Atropatene",
+        "identityResolution": {
+          "requested": "Artabazanes of Atropatene",
+          "canonical": "Artabazanes of Atropatene",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "unresolvedAuthorities": [
+    {
+      "title": "Artabazanes of Atropatene",
+      "candidate": {
+        "requestedTitle": "Artabazanes of Atropatene",
+        "title": "Artabazanes of Atropatene",
+        "person": "",
+        "name": "Artabazanes of Atropatene",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Artabazanes_of_Atropatene",
+        "identityResolution": {
+          "requested": "Artabazanes of Atropatene",
+          "canonical": "Artabazanes of Atropatene",
+          "qid": ""
+        }
+      },
+      "reason": "Candidato no resuelto como individuo; no asignar otra identidad o imagen por semejanza."
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}

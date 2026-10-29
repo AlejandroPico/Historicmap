@@ -1,6 +1,23 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.42.0 · 200–101a.C. y corrección del despliegue
+## Encargo vigente · 0.43.0 · 300–201 a. C.
+
+- [x] Inventariar originales políticos/culturales y revisar cronologías, especialmente sucesores de Alejandro y unificación Qin/Han.
+- [x] Autoridades, representaciones revisadas, centros, contexto y conflictos dentro de las carpetas de cada entidad.
+- [x] Integración anual y continuidad con200a.C.; conservación literal de lo anterior y calendario sin cero.
+- [x] Pruebas, fuentes, documentación y preparación del envío a main sin esperar Actions/Pages.
+
+Comienzo desde fa7b6805a,0.42.0 enviada y árbol limpio. No repetir los generadores iniciales de entregas anteriores ni confundir candidatos con autoridades verificadas. Registrar carencias y fechas alternativas; conservar las áreas culturales junto a la cartografía política. El propietario comprueba el despliegue.
+
+Progreso0.43:83 dossiers,220 registros de autoridades,319 componentes originales de80 nombres/78 grupos canónicos,30 centros,23 contextos y17 referencias regionales de conflictos.73 originales culturales:59 referencias y14 remisiones,70 fases nuevas y9.572 totales.83 candidatos visuales inspeccionados:49 aceptados,34 apartados y dos alternativas identificadas (AshokaKanaganahalliGODL y moneda póstuma dePtolomeoIII emitida porIV).165 candidatos humanos resueltos de182,148 evidencias de reinado, sin errores de adquisición; no equivale a validación humana de todos.
+
+Carencia cartográfica concreta detectada: en230a.C. el punto histórico deXinzheng113.74/34.40 cae enel componenteChu de la fuente, aunqueHan fue conquistado porQin. La fuente no conserva un componenteHan propio ese año. Se mantienen originales, sin inventar polígonos superpuestos; queda pendiente una partición histórica especializada de esa región. Las pruebas de título imperial usan el núcleoQin deXianyang y las de conquistas compruebanLu→Chu ySong→Qi, sin fingir que validan todos los puntos deChina. También faltan contornos documentados devarias entidades coreanas/japonesas y deotros ámbitos que la fuente no representa.
+
+Corregidos cinco identificadores de estados antiguos compartidos conCaoWei,Qi delNorte,Yan anterior,HanZhao yAqQoyunlu. Reinos de la partición tienen claves propias; ZhangEr no recibe identidad/foto de una poeta contemporánea yShenYang no es la ciudad. Qin no adquiere título imperial antes221; Lu249 se incorpora aChu ySong286 aQi. Correcciones de continuidad200: Kalinga sigue bajoMaurya hasta185 yMinyue mantiene vinculaciónHan desde202. Lanka usa secuencia tradicional larga para no mezclarla conGeiger ni romperElara205–161; alternativas explícitas. No repetir seed/curate/support/adopt043: sobrescribiría revisiones posteriores. 25 pruebas focales y323 generales correctas;22 pruebasPython, tipos y compilación correctos. Conservación de1.440 identidades,19.314 cargos,1.040 símbolos y9.502 fases previas;220 archivos recompilados sin diferencias. Cierre de navegador e índiceGit enDELIVERY-0.43.0. Seis recorridos únicos de navegador correctos: los tres nuevos de0.43 y tres regresiones (selector exacto117, ciudades/fecha deBorodinó1812 y continuidad1a.C./1d.C.). Los tres nuevos se repiten tras ajustar la comprobación al retrato del rey local: la imagen legítima del hegemónXiangYu se conserva por separado. Tres capturas revisadas, escritorio y móvil. ÍndiceGit:607 archivos cotejados con sus bytes locales,9.141 recursos de manifiestos verificados (9.088 blobs previos sin cambios) y1.167 originales canónicos de símbolos/representaciones. Los cuatro documentos de cierre se cotejan de nuevo tras incorporar estas cifras. Contenido terminado; al reanudar, comprobar HEAD/origin/main antes de repetir trabajos.
+
+Pendiente adicional de presentación detectado: revisar títulos heredados de fichas culturales; Sámi en200a.C. conserva un encabezado que menciona el mapa de1a.C., aunque la referencia espacial y la ventana indican200a.C. No se altera ahora la evidencia anterior.
+
+## Entrega anterior · 0.42.0 · 200–101a.C. y corrección del despliegue
 
 - [x] Restaurar fechas de episodios con día/mes de dos cifras y repetir el recorrido1812 comunicado.
 - [x] Política, autoridades, culturas y representaciones200–101a.C.; conservar etapas anteriores.

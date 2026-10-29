@@ -1,0 +1,39 @@
+{
+  "key": "CHU-HAN-WEI",
+  "name": "Wei occidental · reino de Wei Bao",
+  "qid": "",
+  "aliases": [
+    "Wei occidental · reino de Wei Bao"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "CHU-HAN-WEI"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "documented043-wei-bao",
+      "name": "Wei Bao",
+      "role": "Rey regional · ámbito y alianzas de la transición Chu–Han",
+      "start": "-0206-01-01",
+      "end": "-0205-12-31",
+      "precision": 9,
+      "source": "https://ll-chinesereferenceshelf.brillonline.com/dictionary-qin-and-han/prelims/sim-106456",
+      "note": "Distinguir HanXin general y rey deQi/Chu de HanXin rey deHán. Los reyes regionales no son emperadores de todaChina. Fechas de transferencia varían porconvención del calendario.",
+      "curated": true,
+      "acquisition": "century-bc300-0.43"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

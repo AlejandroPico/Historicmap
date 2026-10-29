@@ -1,0 +1,197 @@
+{
+  "key": "HIST-Q188836",
+  "identity": {
+    "qid": "Q188836",
+    "name": "Xiongnu"
+  },
+  "revision": "0.43.0",
+  "acquisition": "century-bc300-0.43",
+  "coverageStart": -300,
+  "coverageEnd": -201,
+  "candidates": [
+    {
+      "role": "Chanyu xiongnu · cronología convencional",
+      "titles": [
+        "Modu Chanyu",
+        "Touman"
+      ],
+      "note": "Candidatos documentales: cotejar identidad y evidencia antes de congelar mandatos."
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q719747",
+      "name": "Touman",
+      "role": "Chanyu xiongnu · cronología convencional",
+      "start": "-0220-01-01",
+      "end": "-0209-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Touman",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -220,
+        -209
+      ]
+    },
+    {
+      "person": "Q382816",
+      "name": "Modu Chanyu",
+      "role": "Chanyu xiongnu · cronología convencional",
+      "start": "-0209-01-01",
+      "end": "-0201-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Modu_Chanyu",
+      "note": "Ventana documental anual, no fechas diarias de entronización. Las fechas de vida no se usan para inferir mandatos.",
+      "documentedInterval": [
+        -209,
+        -174
+      ],
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -300,
+      "end": -201,
+      "tags": [
+        "confederal",
+        "tribal"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+      "sourceLabel": "Revisión institucional · sigloIIIa.C.",
+      "note": "Forma de autoridad documentada, no evaluación democrática moderna. Instituciones desconocidas permanecen sin clasificar."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc300-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Xiongnu"
+        ],
+        "start": -300,
+        "end": -201,
+        "label": "Xiongnu",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc300.md",
+        "note": "Resolución documental sobre contorno original, no frontera anual levantada ni día uniforme."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0300-bc0201.geojson",
+      "sha256": "19299482e497160f1a2f7e88d1a4fa3f395af1c3ee7a95fff97d5e9d18f29c69",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        769,
+        789,
+        816
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "El cierre201a.C. es de cobertura. VerRESEARCH-bc300 para variantes, fuentes y límites cartográficos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Modu Chanyu",
+        "title": "Modu Chanyu",
+        "person": "Q382816",
+        "name": "Modu Chanyu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Modu_Chanyu",
+        "identityResolution": {
+          "requested": "Modu Chanyu",
+          "canonical": "Modu Chanyu",
+          "qid": "Q382816"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q1062502",
+          "start": "-0209-01-01",
+          "end": "-0174-01-01",
+          "precision": 9,
+          "statement": "Q382816$0d883bac-48bd-ed6d-72f6-51fd402cb139",
+          "label": "Chanyu"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q382816",
+        "title": "Modu Chanyu",
+        "source": "https://en.wikipedia.org/wiki/Modu_Chanyu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chanyu of the Xiongnu Empire",
+            "raw": "209–174 BCE",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Chanyu'' of the Xiongnu Empire",
+            "raw": "209–174 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Touman",
+        "title": "Touman",
+        "person": "Q719747",
+        "name": "Touman",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Touman",
+        "identityResolution": {
+          "requested": "Touman",
+          "canonical": "Touman",
+          "qid": "Q719747"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q719747",
+        "title": "Touman",
+        "source": "https://en.wikipedia.org/wiki/Touman",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "''Chanyu'' of the Xiongnu",
+            "raw": "c. 220–209 BCE",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Chanyu'' of the Xiongnu",
+            "raw": "220–209 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "authorityReview": "Cronologías manuales y evidencia retenida; candidatos no adoptados permanecen pendientes. No inferir mandatos de fechas vitales.",
+  "mediaReview": []
+}
