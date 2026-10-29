@@ -1,0 +1,167 @@
+{
+  "key": "HIST-Q2626105",
+  "identity": {
+    "qid": "Q2626105",
+    "name": "Kingdom of Sophene"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · ámbito contrastado al congelar",
+      "titles": [
+        "Zariadres"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q2503433",
+      "name": "Zariadres",
+      "role": "Rey de Sofene · cronología aproximada",
+      "start": "-0190-01-01",
+      "end": "-0163-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Zariadres",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes.",
+      "portrait": {
+        "file": "media/portrait-1a1dc515d05d5d617a6d.png",
+        "title": "Zariadres coin 190 BC.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Zariadres_coin_190_BC.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Zariadres_coin_190_BC.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Rs4815",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "30d8c421ecc533d0ba3be9bb406fc5112cac55f8bfa80021a1b00c454102a23c",
+        "bytes": 26458,
+        "canonicalFile": "Países/HIST-Q2626105-Kingdom-of-Sophene/retratos/portrait-1a1dc515d05d5d617a6d.png",
+        "caption": "Efigie monetaria atribuida aZariadres; no fotografía ni semejanza del natural acreditada. Se muestra la cara izquierda completa con la efigie.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -200,
+      "end": -101,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sophene",
+      "sourceLabel": "Referencia institucional · sigloIIa.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna. Fechas y dependencia se resuelven por ámbito."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Kingdom of Sophene"
+        ],
+        "start": -200,
+        "end": -101,
+        "label": "Kingdom of Sophene",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "04904cd781707895d0e880890d87da7ec79d1e0fdc70662883e4a6abcc9c832f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        744,
+        849,
+        930
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Zariadres",
+        "title": "Zariadres",
+        "person": "Q2503433",
+        "name": "Zariadres",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Zariadres",
+        "identityResolution": {
+          "requested": "Zariadres",
+          "canonical": "Zariadres",
+          "qid": "Q2503433"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2503433",
+        "title": "Zariadres",
+        "source": "https://en.wikipedia.org/wiki/Zariadres",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Strategos of Sophene",
+            "raw": "{{circa|200-190}}{{Sfn|Kovacs|2016|p=4}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign1",
+            "office": "Basileus of Sophene",
+            "raw": "{{circa|190BC}}-163 BC{{Sfn|Kovacs|2016|p=4}}{{Sfn|Marciak|2017|p=127}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": [
+    {
+      "title": "Zariadres",
+      "person": "Q2503433",
+      "adopted": [
+        -190,
+        -163
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Zariadres"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q2503433",
+      "name": "Zariadres",
+      "title": "Zariadres coin 190 BC.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Zariadres_coin_190_BC.png",
+      "sha256": "30d8c421ecc533d0ba3be9bb406fc5112cac55f8bfa80021a1b00c454102a23c",
+      "decision": "accepted",
+      "reviewDate": "2026-10-29",
+      "method": "Inspección de imagen completa, identidad del representado y cara monetaria; no aceptación automática del campoP18."
+    }
+  ]
+}

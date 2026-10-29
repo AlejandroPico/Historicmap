@@ -1,6 +1,23 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.41.0 · 100–1 a.C.
+## Encargo vigente · 0.42.0 · 200–101a.C. y corrección del despliegue
+
+- [x] Restaurar fechas de episodios con día/mes de dos cifras y repetir el recorrido1812 comunicado.
+- [x] Política, autoridades, culturas y representaciones200–101a.C.; conservar etapas anteriores.
+- [x] Continuidad200/100a.C., pruebas, conservación y documentación.
+- [x] Preparación del envío conjunto a main; el propietario comprueba Actions/Pages.
+
+Estado de cierre:57 dossiers,180 registros de autoridades,158 componentes originales,32 centros,23 contextos y12 puntos regionales.85 candidatos visuales aceptados de115,30 descartados y alternativaSlodtz1704 paraAníbal. Wuzhu deMinyue se separa del homónimo jurchen del sigloXII; Bhadraka no hereda la identidad deBhagabhadra.85 originales culturales y98 fases nuevas;9.502 fases totales, sin retirar las9.404 anteriores. Las instituciones deCartago y la fase política aquea no se prolongan después146a.C.; la pervivencia cívica etolia no se presenta como soberanía continua. Las imágenes conservan el formato compacto habitual.
+
+Ver docs/DELIVERY-0.42.0.md y RESEARCH-bc200.md para resultados finales, fuentes, conservación y límites. La pasada general final da317 correctas; la primera dio316 y un tiempo agotado en la auditoría900–1905. Se optimizó esa comparación manteniendo todos sus1.006 años y controles; repetición de24 casos correcta. Se pasan nueve recorridos únicos de navegador, incluido el fallo comunicado; los tres nuevos se repiten al ajustar las imágenes.22 pruebasPython, tipos y compilación correctos. No se afirma haber ejecutado los117 recorridos deCI en local: reparto30/29/29/29 sin omisiones. Los ajustes institucionales finales se comprueban otra vez al cerrar.
+
+Conservación:1.424 identidades,19.134 registros previos de autoridades,1.040 símbolos y9.404 fases anteriores preservados;124 recursos previos retenidos,114 idénticos y tres nuevos. Cinco vistas anónimas generadas consolidadas conservan24 registros territoriales.191 archivos recompilados sin red, sin diferencias.127 recursos de datos,11 rangos de glifos y8.962 medios verificados;4.204 carpetas de entidades y1.440 identidades históricas. Cotejos finales del índiceGit registrados en DELIVERY. Al reanudar, comprobar primero HEAD/origin/main y cambios pendientes; no repetir adquisiciones si ya está enviado. No repetir seed/curate/support/adopt: sobrescribiría correcciones. No esperar ni sondear Actions/Pages.
+
+Último cierre:19 pruebas focales y el recorrido deCartago correctos tras los ajustes institucionales. Registro de manifiesto sin reescritura de bytes idénticos; idempotencia final191 archivos sin diferencias. ÍndiceGit:615 archivos,9.100 recursos de manifiestos y1.128 originales canónicos de símbolos/representaciones cotejados. Los cuatro documentos de cierre se cotejan otra vez tras incorporar estas cifras.
+
+Pendientes reales: consulados completos y autoridades menores; cronologías alternativas dePartia, Bactria, India yKush; representaciones individuales y símbolos acreditados; bibliografía y límites culturales locales. Contrastar el contorno etolio y su dependencia desde189/146 frente a la restauración de asociaciones cívicas: un polígono no acredita soberanía. Copán y frentes militares modernos anteriores siguen pendientes. No iniciar otro tramo anterior200a.C. sin encargo.
+
+## Entrega anterior · 0.41.0 · 100–1 a.C.
 
 Ampliar política y culturas100–1a.C., preservar todo lo anterior y comprobar expresamente continuidad1a.C./1d.C., sin año cero ni cambios artificiales al cambiar de fuente. Fechas, mandatos, imágenes y contexto con fuentes y carencias explícitas. Subir tras comprobaciones locales sin esperar Actions/Pages.
 

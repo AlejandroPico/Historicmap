@@ -1,0 +1,109 @@
+{
+  "key": "HIST-Q43048",
+  "identity": {
+    "qid": "Q43048",
+    "name": "Rhodes"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [],
+  "leaders": [
+    {
+      "person": "institution042-HIST-Q43048",
+      "name": "Instituciones cívicas deRodas",
+      "role": "Instituciones colegiadas · titulares individuales por completar",
+      "start": "-0200-01-01",
+      "end": "-0101-12-31",
+      "precision": 9,
+      "endIsCoverageBoundary": true,
+      "source": "https://en.wikipedia.org/wiki/Rhodes",
+      "note": "Registro institucional, no persona única. La selección de titulares no completa todos los mandatos anuales."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution042-HIST-Q43048",
+      "section": "institutions",
+      "title": "Instituciones y límites de la lista de autoridades",
+      "start": "-0200-01-01",
+      "end": "-0100-01-01",
+      "text": "Instituciones cívicas colegiadas deRodas; no rey genérico inventado.",
+      "source": "https://en.wikipedia.org/wiki/Rhodes",
+      "sourceLabel": "Referencia institucional · sigloIIa.C."
+    }
+  ],
+  "governance": [
+    {
+      "start": -200,
+      "end": -101,
+      "tags": [
+        "republic",
+        "oligarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rhodes",
+      "sourceLabel": "Referencia institucional · sigloIIa.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna. Fechas y dependencia se resuelven por ámbito."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat042-25",
+      "name": "Rodas",
+      "coordinates": [
+        28.224,
+        36.44
+      ],
+      "start": -200,
+      "end": -101,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Rodas",
+      "note": "Referencia regional aproximada; no residencia permanente o capital exclusiva. Las ubicaciones deGojoseon y varias cortes antiguas son discutidas.",
+      "standaloneReference": true,
+      "entityName": "Rhodes"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Rhodes"
+        ],
+        "start": -200,
+        "end": -101,
+        "label": "Rhodes",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "5977df6a20b3353b80f4f2ea40f0155c059ece218f5ff7cd442d6ba55072cc00",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        860,
+        870
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": []
+}

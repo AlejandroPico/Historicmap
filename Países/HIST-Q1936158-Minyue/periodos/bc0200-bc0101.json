@@ -1,0 +1,238 @@
+{
+  "key": "HIST-Q1936158",
+  "identity": {
+    "qid": "Q1936158",
+    "name": "Minyue"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · ámbito contrastado al congelar",
+      "titles": [
+        "Wuzhu",
+        "Zou Ying",
+        "Zou Yushan"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented-wuzhu-minyue",
+      "name": "Wuzhu · fundador deMinyue",
+      "role": "Rey de Minyue · datación tradicional",
+      "start": "-0200-01-01",
+      "end": "-0192-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Minyue",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. El homónimoWanyanWuzhu del sigloXII no es esta autoridad; identidad documental local, sin fotografía atribuida.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "documented-zou-ying",
+      "name": "ZouYing",
+      "role": "Rey de Minyue · datación tradicional",
+      "start": "-0192-01-01",
+      "end": "-0135-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Minyue",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes."
+    },
+    {
+      "person": "documented-zou-yushan",
+      "name": "ZouYushan",
+      "role": "Rey de Minyue · datación tradicional",
+      "start": "-0135-01-01",
+      "end": "-0110-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Minyue",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -200,
+      "end": -110,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Minyue",
+      "sourceLabel": "Referencia institucional · sigloIIa.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna. Fechas y dependencia se resuelven por ámbito."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat042-14",
+      "name": "Fuzhou · referencia regional",
+      "coordinates": [
+        119.296,
+        26.074
+      ],
+      "start": -200,
+      "end": -101,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Fuzhou",
+      "note": "Referencia regional aproximada; no residencia permanente o capital exclusiva. Las ubicaciones deGojoseon y varias cortes antiguas son discutidas.",
+      "standaloneReference": true,
+      "entityName": "Minyue"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Minyue"
+        ],
+        "start": -200,
+        "end": -111,
+        "label": "Minyue",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "11dcdd1624f56aaded3b1d6f672e157260dfbced9dbc5efc591147cee714dba3",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        828,
+        910
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Wuzhu",
+        "title": "Wuzhu",
+        "person": "Q836741",
+        "name": "Wanyan Wuzhu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wuzhu",
+        "identityResolution": {
+          "requested": "Wuzhu",
+          "canonical": "Wuzhu",
+          "qid": "Q836741"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q836741",
+        "title": "Wuzhu",
+        "source": "https://en.wikipedia.org/wiki/Wuzhu",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zou Ying",
+        "title": "Zou Ying",
+        "person": "",
+        "name": "Zou Ying",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Zou_Ying",
+        "identityResolution": {
+          "requested": "Zou Ying",
+          "canonical": "Zou Ying",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Zou Yushan",
+        "title": "Zou Yushan",
+        "person": "",
+        "name": "Zou Yushan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Zou_Yushan",
+        "identityResolution": {
+          "requested": "Zou Yushan",
+          "canonical": "Zou Yushan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": [
+    {
+      "title": "Wuzhu",
+      "person": "Q836741",
+      "adopted": [
+        -200,
+        -192
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Wuzhu"
+    },
+    {
+      "title": "Zou Ying",
+      "person": "documented-zou-ying",
+      "adopted": [
+        -192,
+        -135
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Minyue"
+    },
+    {
+      "title": "Zou Yushan",
+      "person": "documented-zou-yushan",
+      "adopted": [
+        -135,
+        -110
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Minyue"
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q836741",
+      "title": "兀术像.jpg",
+      "reason": "Corresponde aWanyanWuzhu del sigloXII, no al fundador deMinyue."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q836741",
+      "name": "Wanyan Wuzhu",
+      "title": "兀术像.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%E5%85%80%E6%9C%AF%E5%83%8F.jpg",
+      "sha256": "066dad27dc0d1e7bfa51edfc2356a788c554f44e5a2b10e668e30ce0567410ea",
+      "decision": "rejected",
+      "reviewDate": "2026-10-29",
+      "method": "Inspección de imagen completa, identidad del representado y cara monetaria; no aceptación automática del campoP18.",
+      "reason": "Corresponde aWanyanWuzhu del sigloXII, no al fundador deMinyue."
+    }
+  ]
+}

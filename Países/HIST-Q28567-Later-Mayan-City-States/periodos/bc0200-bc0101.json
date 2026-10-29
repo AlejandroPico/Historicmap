@@ -1,0 +1,56 @@
+{
+  "key": "HIST-Q28567",
+  "identity": {
+    "qid": "Q28567",
+    "name": "Mayan City-States"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Mayan City-States"
+        ],
+        "start": -200,
+        "end": -101,
+        "label": "Ciudades y comunidades mayas · Preclásico tardío · referencia regional",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Referencia de cronología y alcance desiguales, no un Estado homogéneo ni cambio de régimen en100a.C."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "bea5e8bd675035c2326daf30351dd0df8b8d181adc8626973459d0ff5cff14a4",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        652
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": []
+}

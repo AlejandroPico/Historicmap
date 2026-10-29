@@ -1,0 +1,153 @@
+{
+  "key": "HIST-Q489289",
+  "identity": {
+    "qid": "",
+    "name": "AltoEgipto · rebelión deAnjwennefer"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · ámbito contrastado al congelar",
+      "titles": [
+        "Ankhwennefer (pharaoh)"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q489289",
+      "name": "Anjunnefer",
+      "role": "Faraón rebelde en el Alto Egipto",
+      "start": "-0199-01-01",
+      "end": "-0186-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ankhwennefer_%28pharaoh%29",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -199,
+      "end": -186,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Ankhwennefer",
+      "sourceLabel": "Referencia institucional · sigloIIa.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna. Fechas y dependencia se resuelven por ámbito."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat042-22",
+      "name": "Tebas",
+      "coordinates": [
+        32.639,
+        25.719
+      ],
+      "start": -200,
+      "end": -101,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Tebas",
+      "note": "Referencia regional aproximada; no residencia permanente o capital exclusiva. Las ubicaciones deGojoseon y varias cortes antiguas son discutidas.",
+      "standaloneReference": true,
+      "entityName": "AltoEgipto · rebelión deAnjwennefer"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Ankhwennefer"
+        ],
+        "start": -199,
+        "end": -187,
+        "label": "AltoEgipto · rebelión deAnjwennefer",
+        "status": "source-polity",
+        "admin": "",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Cronología de consulta sobre geometría original; no frontera observada de cada año."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "c1857aff9230028ae8f7b5fa54be1eb8e7e3407cd650e6fcf9855a95f554a77b",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        838,
+        857
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ankhwennefer (pharaoh)",
+        "title": "Ankhwennefer (pharaoh)",
+        "person": "Q489289",
+        "name": "Anjunnefer",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ankhwennefer_%28pharaoh%29",
+        "identityResolution": {
+          "requested": "Ankhwennefer (pharaoh)",
+          "canonical": "Ankhwennefer (pharaoh)",
+          "qid": "Q489289"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q489289",
+        "title": "Ankhwennefer (pharaoh)",
+        "source": "https://en.wikipedia.org/wiki/Ankhwennefer_%28pharaoh%29",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "201/200–187/186 BC{{sfn|Mélèze-Modrzejewski|1997|p=150}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "requested": "Ankhwennefer",
+      "replacement": "Ankhwennefer (pharaoh)",
+      "reason": "Título ambiguo, variante de nombre o entidad distinta: no trasladar metadatos sin cotejo."
+    }
+  ],
+  "authorityReview": [
+    {
+      "title": "Ankhwennefer (pharaoh)",
+      "person": "Q489289",
+      "adopted": [
+        -199,
+        -186
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Ankhwennefer_%28pharaoh%29"
+    }
+  ]
+}

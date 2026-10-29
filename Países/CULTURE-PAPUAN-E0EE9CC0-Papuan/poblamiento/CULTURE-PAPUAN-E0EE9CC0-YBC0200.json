@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-PAPUAN-E0EE9CC0-YBC0200",
+  "contextKey": "CULTURE-PAPUAN-E0EE9CC0",
+  "ownerKey": "CULTURE-PAPUAN-E0EE9CC0",
+  "name": "Papuan",
+  "originalNames": [
+    "Papuan"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación200a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -200,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no Estado unitario, identidad homogénea o frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de200a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps200a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    140.79391,
+    -5.63279
+  ],
+  "phases": [
+    {
+      "start": -200,
+      "end": -101,
+      "label": "Papuan",
+      "dateBasis": "Referencia espacial de200a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -100,
+      "end": 99,
+      "label": "Papuan",
+      "dateBasis": "Consulta del ámbito histórico anterior; continuidad de habitantes o límites actuales no inferida.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -200,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-PAPUAN-E0EE9CC0-YBC0200.geojson",
+  "geometrySha256": "2059e94fbeb1a2c6f4fca25ff53d79163fd3822bc62bcf7dc7d0f27579f2909f",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson",
+    "year": -200,
+    "featureIds": [
+      4
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e192a3330a7e51358b61a6bfffaf6ff3e9ebf4eb96b532a23632316e86066a80"
+  },
+  "review": "0.42.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Papuan",
+      "ABBREVN": "Papuan",
+      "SUBJECTO": "Papuan",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Papuan"
+    }
+  ],
+  "sourceGrouping": [
+    "Papuan"
+  ]
+}

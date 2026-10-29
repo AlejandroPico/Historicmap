@@ -19,5 +19,6 @@ for(const e of manifest.entries)if(changed.has(e.file)){
  if(data.features)e.features=data.features.length;
  if(e.file==='identities.json'){e.countries=Object.keys(data.countries).length;e.records=Object.values(data.countries).reduce((n,c)=>n+c.leaders.length,0);e.transform=e.transform.split(' Entity-owned corrections')[0]+' Entity-owned corrections distinguish dated symbols from retrospective heraldic references, provincial offices and governments without a common national executive.';}
 }
-writeFileSync('public/data/manifest.json',JSON.stringify(manifest,null,2)+'\n');
+const serializedManifest=JSON.stringify(manifest,null,2)+'\n';
+if(readFileSync('public/data/manifest.json','utf8')!==serializedManifest)writeFileSync('public/data/manifest.json',serializedManifest);
 console.log('Registered entity revisions:',changed.size,'data resources.');

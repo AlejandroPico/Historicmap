@@ -1,0 +1,79 @@
+{
+  "key": "REFERENCE-MASSYLIAN-COMMUNITIES-YBC0200",
+  "contextKey": "REFERENCE-MASSYLIAN-COMMUNITIES",
+  "ownerKey": "REFERENCE-MASSYLIAN-COMMUNITIES",
+  "name": "Comunidades masilias y ámbitos deNumidia",
+  "originalNames": [
+    "Kingdom of Gala"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación200a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -200,
+    99
+  ],
+  "interpretation": "Gala murió antes de200a.C.; no se prolonga su reinado por la etiqueta de origen.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de200a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps200a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    6.81574,
+    35.21725
+  ],
+  "phases": [
+    {
+      "start": -200,
+      "end": -101,
+      "label": "Comunidades masilias y ámbitos deNumidia",
+      "dateBasis": "Referencia espacial de200a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -207
+    },
+    {
+      "start": -100,
+      "end": 99,
+      "label": "Comunidades masilias y ámbitos deNumidia",
+      "dateBasis": "Consulta del ámbito histórico anterior; continuidad de habitantes o límites actuales no inferida.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -207,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-MASSYLIAN-COMMUNITIES-YBC0200.geojson",
+  "geometrySha256": "87f894a5ee50b71ae64e743477c6555ef3ca374964f39734c110f1b13d812b62",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson",
+    "year": -200,
+    "featureIds": [
+      135
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e192a3330a7e51358b61a6bfffaf6ff3e9ebf4eb96b532a23632316e86066a80"
+  },
+  "review": "0.42.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Kingdom of Gala",
+      "ABBREVN": "Kingdom of Gala",
+      "SUBJECTO": "Kingdom of Gala",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Numidia"
+    }
+  ],
+  "sourceGrouping": [
+    "Kingdom of Gala"
+  ]
+}

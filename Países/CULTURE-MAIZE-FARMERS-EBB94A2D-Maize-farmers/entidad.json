@@ -1,0 +1,60 @@
+{
+  "key": "CULTURE-MAIZE-FARMERS-EBB94A2D",
+  "name": "Maize farmers",
+  "qid": "",
+  "aliases": [
+    "Maize farmers"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 69,
+      "start": null,
+      "end": null,
+      "name": "Maize farmers",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 78,
+      "start": null,
+      "end": null,
+      "name": "Maize farmers",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MAIZE-FARMERS-EBB94A2D-YBC0200:0",
+      "contextKey": "CULTURE-MAIZE-FARMERS-EBB94A2D",
+      "start": -200,
+      "end": -101,
+      "sourceYear": -200,
+      "canonicalFile": "Países/CULTURE-MAIZE-FARMERS-EBB94A2D-Maize-farmers/poblamiento/CULTURE-MAIZE-FARMERS-EBB94A2D-YBC0200.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MAIZE-FARMERS-EBB94A2D-YBC0200:1",
+      "contextKey": "CULTURE-MAIZE-FARMERS-EBB94A2D",
+      "start": -100,
+      "end": 99,
+      "sourceYear": -200,
+      "canonicalFile": "Países/CULTURE-MAIZE-FARMERS-EBB94A2D-Maize-farmers/poblamiento/CULTURE-MAIZE-FARMERS-EBB94A2D-YBC0200.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

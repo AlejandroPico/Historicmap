@@ -1,0 +1,74 @@
+{
+  "key": "HIST-Q748595",
+  "identity": {
+    "qid": "Q748595",
+    "name": "Qataban"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [
+    {
+      "id": "seat042-28",
+      "name": "Timna",
+      "coordinates": [
+        45.807,
+        14.984
+      ],
+      "start": -200,
+      "end": -101,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Timna",
+      "note": "Referencia regional aproximada; no residencia permanente o capital exclusiva. Las ubicaciones deGojoseon y varias cortes antiguas son discutidas.",
+      "standaloneReference": true,
+      "entityName": "Qataban"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Qataban"
+        ],
+        "start": -200,
+        "end": -101,
+        "label": "Qataban",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "cd7902f22079ed81f2ae522642703029f3314725eeeb2438849148a948898d64",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        435,
+        944
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": []
+}

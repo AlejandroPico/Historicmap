@@ -1,0 +1,612 @@
+{
+  "key": "HIST-Q188836",
+  "identity": {
+    "qid": "Q188836",
+    "name": "Xiongnu"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · ámbito contrastado al congelar",
+      "titles": [
+        "Er Chanyu",
+        "Hulugu",
+        "Junchen",
+        "Laoshang",
+        "Modu Chanyu",
+        "Wuwei Chanyu",
+        "Xulihu Chanyu",
+        "Yizhixie"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q382816",
+      "name": "Modu Chanyu",
+      "role": "Chanyu xiongnu · confederación y poderes regionales",
+      "start": "-0200-01-01",
+      "end": "-0174-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Modu_Chanyu",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q2593729",
+      "name": "Laoshang Chanyu",
+      "role": "Chanyu xiongnu · confederación y poderes regionales",
+      "start": "-0174-01-01",
+      "end": "-0161-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Laoshang",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes."
+    },
+    {
+      "person": "Q2660024",
+      "name": "Gunchen Chanyu",
+      "role": "Chanyu xiongnu · confederación y poderes regionales",
+      "start": "-0161-01-01",
+      "end": "-0126-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Junchen",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes."
+    },
+    {
+      "person": "Q2660255",
+      "name": "Ichise Chanyu",
+      "role": "Chanyu xiongnu · confederación y poderes regionales",
+      "start": "-0126-01-01",
+      "end": "-0114-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Yizhixie",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes."
+    },
+    {
+      "person": "Q2660002",
+      "name": "Uwei Chanyu",
+      "role": "Chanyu xiongnu · confederación y poderes regionales",
+      "start": "-0114-01-01",
+      "end": "-0105-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wuwei_Chanyu",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes."
+    },
+    {
+      "person": "Q2496887",
+      "name": "Wushilu",
+      "role": "Chanyu xiongnu · confederación y poderes regionales",
+      "start": "-0105-01-01",
+      "end": "-0102-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Er_Chanyu",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes."
+    },
+    {
+      "person": "Q2496865",
+      "name": "Xulihu",
+      "role": "Chanyu xiongnu · confederación y poderes regionales",
+      "start": "-0102-01-01",
+      "end": "-0101-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Xulihu",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes."
+    },
+    {
+      "person": "Q857852",
+      "name": "Hulugu",
+      "role": "Chanyu xiongnu · confederación y poderes regionales",
+      "start": "-0101-01-01",
+      "end": "-0101-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hulugu",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -200,
+      "end": -101,
+      "tags": [],
+      "source": "https://en.wikipedia.org/wiki/Xiongnu",
+      "sourceLabel": "Referencia institucional · sigloIIa.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna. Fechas y dependencia se resuelven por ámbito."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Xiongnu"
+        ],
+        "start": -200,
+        "end": -101,
+        "label": "Xiongnu",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "c197d5d6e9f7b4ab75ec81a405dff47ce627d8e5387bd01219ee3f1d023da697",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        816,
+        832,
+        875,
+        887,
+        899,
+        915,
+        949
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Er Chanyu",
+        "title": "Er Chanyu",
+        "person": "Q2496887",
+        "name": "Wushilu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Er_Chanyu",
+        "identityResolution": {
+          "requested": "Er Chanyu",
+          "canonical": "Er Chanyu",
+          "qid": "Q2496887"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2496887",
+        "title": "Er Chanyu",
+        "source": "https://en.wikipedia.org/wiki/Er_Chanyu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Er Chanyu",
+            "raw": "{{circa}} 105–102 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Chanyu'' of the Xiongnu Empire",
+            "raw": "105&ndash;102 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hulugu",
+        "title": "Hulugu",
+        "person": "Q857852",
+        "name": "Hulugu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hulugu",
+        "identityResolution": {
+          "requested": "Hulugu",
+          "canonical": "Hulugu",
+          "qid": "Q857852"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q857852",
+        "title": "Hulugu",
+        "source": "https://en.wikipedia.org/wiki/Hulugu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Hulugu Chanyu",
+            "raw": "{{circa}} 96–85 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Chanyu'' of the Xiongnu Empire",
+            "raw": "96&ndash;85 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Junchen",
+        "title": "Junchen",
+        "person": "Q2660024",
+        "name": "Gunchen Chanyu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Junchen",
+        "identityResolution": {
+          "requested": "Junchen",
+          "canonical": "Junchen",
+          "qid": "Q2660024"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2660024",
+        "title": "Junchen",
+        "source": "https://en.wikipedia.org/wiki/Junchen",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chanyu of the Xiongnu Empire",
+            "raw": "{{circa}} 161–126 BCE",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Chanyu'' of the Xiongnu Empire",
+            "raw": "161&ndash;126 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Laoshang",
+        "title": "Laoshang",
+        "person": "Q2593729",
+        "name": "Laoshang Chanyu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Laoshang",
+        "identityResolution": {
+          "requested": "Laoshang",
+          "canonical": "Laoshang",
+          "qid": "Q2593729"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2593729",
+        "title": "Laoshang",
+        "source": "https://en.wikipedia.org/wiki/Laoshang",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chanyu of the Xiongnu Empire",
+            "raw": "174–161 BCE",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Chanyu'' of the Xiongnu Empire",
+            "raw": "174&ndash;161 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Modu Chanyu",
+        "title": "Modu Chanyu",
+        "person": "Q382816",
+        "name": "Modu Chanyu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Modu_Chanyu",
+        "identityResolution": {
+          "requested": "Modu Chanyu",
+          "canonical": "Modu Chanyu",
+          "qid": "Q382816"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q1062502",
+          "start": "-0209-01-01",
+          "end": "-0174-01-01",
+          "precision": 9,
+          "statement": "Q382816$0d883bac-48bd-ed6d-72f6-51fd402cb139",
+          "label": "Chanyu"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q382816",
+        "title": "Modu Chanyu",
+        "source": "https://en.wikipedia.org/wiki/Modu_Chanyu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chanyu of the Xiongnu Empire",
+            "raw": "209–174 BCE",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Chanyu'' of the Xiongnu Empire",
+            "raw": "209–174 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wuwei Chanyu",
+        "title": "Wuwei Chanyu",
+        "person": "Q2660002",
+        "name": "Uwei Chanyu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wuwei_Chanyu",
+        "identityResolution": {
+          "requested": "Wuwei Chanyu",
+          "canonical": "Wuwei Chanyu",
+          "qid": "Q2660002"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2660002",
+        "title": "Wuwei Chanyu",
+        "source": "https://en.wikipedia.org/wiki/Wuwei_Chanyu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chanyu",
+            "raw": "{{circa}} 114–105 BCE",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Chanyu'' of the Xiongnu Empire",
+            "raw": "114&ndash;105 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Xulihu Chanyu",
+        "title": "Xulihu Chanyu",
+        "person": "Q2496865",
+        "name": "Xulihu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Xulihu",
+        "identityResolution": {
+          "requested": "Xulihu Chanyu",
+          "canonical": "Xulihu",
+          "qid": "Q2496865"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2496865",
+        "title": "Xulihu",
+        "source": "https://en.wikipedia.org/wiki/Xulihu",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Xulihu Chanyu",
+            "raw": "{{circa}} 102–101 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Chanyu'' of the Xiongnu Empire",
+            "raw": "102&ndash;100 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Yizhixie",
+        "title": "Yizhixie",
+        "person": "Q2660255",
+        "name": "Ichise Chanyu",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Yizhixie",
+        "identityResolution": {
+          "requested": "Yizhixie",
+          "canonical": "Yizhixie",
+          "qid": "Q2660255"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2660255",
+        "title": "Yizhixie",
+        "source": "https://en.wikipedia.org/wiki/Yizhixie",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Chanyu",
+            "raw": "{{circa}} 126–114 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "''Chanyu'' of the Xiongnu Empire",
+            "raw": "126&ndash;114 BCE",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "requested": "Zhanshilu",
+      "replacement": "Er Chanyu",
+      "reason": "Título ambiguo, variante de nombre o entidad distinta: no trasladar metadatos sin cotejo."
+    },
+    {
+      "requested": "Gouxuli",
+      "replacement": "Xulihu Chanyu",
+      "reason": "Título ambiguo, variante de nombre o entidad distinta: no trasladar metadatos sin cotejo."
+    }
+  ],
+  "authorityReview": [
+    {
+      "title": "Modu Chanyu",
+      "person": "Q382816",
+      "adopted": [
+        -200,
+        -174
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Modu_Chanyu"
+    },
+    {
+      "title": "Laoshang",
+      "person": "Q2593729",
+      "adopted": [
+        -174,
+        -161
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Laoshang"
+    },
+    {
+      "title": "Junchen",
+      "person": "Q2660024",
+      "adopted": [
+        -161,
+        -126
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Junchen"
+    },
+    {
+      "title": "Yizhixie",
+      "person": "Q2660255",
+      "adopted": [
+        -126,
+        -114
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Yizhixie"
+    },
+    {
+      "title": "Wuwei Chanyu",
+      "person": "Q2660002",
+      "adopted": [
+        -114,
+        -105
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Wuwei_Chanyu"
+    },
+    {
+      "title": "Er Chanyu",
+      "person": "Q2496887",
+      "adopted": [
+        -105,
+        -102
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Er_Chanyu"
+    },
+    {
+      "title": "Xulihu Chanyu",
+      "person": "Q2496865",
+      "adopted": [
+        -102,
+        -101
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Xulihu"
+    },
+    {
+      "title": "Hulugu",
+      "person": "Q857852",
+      "adopted": [
+        -101,
+        -101
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Hulugu"
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q2660255",
+      "title": "Hsiung-nu-Empire.png",
+      "reason": "Mapa xiongnu, no retrato del chanyu."
+    },
+    {
+      "person": "Q2660002",
+      "title": "Hsiung-nu-Empire.png",
+      "reason": "Mapa xiongnu, no retrato del chanyu."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q2660255",
+      "name": "Ichise Chanyu",
+      "title": "Hsiung-nu-Empire.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Hsiung-nu-Empire.png",
+      "sha256": "c09cd885a71eaedb42058e82cb2f15aaf99a55e915ae0eb244f72104b3032bdd",
+      "decision": "rejected",
+      "reviewDate": "2026-10-29",
+      "method": "Inspección de imagen completa, identidad del representado y cara monetaria; no aceptación automática del campoP18.",
+      "reason": "Mapa xiongnu, no retrato del chanyu."
+    },
+    {
+      "person": "Q2660002",
+      "name": "Uwei Chanyu",
+      "title": "Hsiung-nu-Empire.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Hsiung-nu-Empire.png",
+      "sha256": "c09cd885a71eaedb42058e82cb2f15aaf99a55e915ae0eb244f72104b3032bdd",
+      "decision": "rejected",
+      "reviewDate": "2026-10-29",
+      "method": "Inspección de imagen completa, identidad del representado y cara monetaria; no aceptación automática del campoP18.",
+      "reason": "Mapa xiongnu, no retrato del chanyu."
+    }
+  ]
+}

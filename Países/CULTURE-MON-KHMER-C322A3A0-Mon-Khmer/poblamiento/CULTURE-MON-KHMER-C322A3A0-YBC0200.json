@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-MON-KHMER-C322A3A0-YBC0200",
+  "contextKey": "CULTURE-MON-KHMER-C322A3A0",
+  "ownerKey": "CULTURE-MON-KHMER-C322A3A0",
+  "name": "Mon-Khmer",
+  "originalNames": [
+    "Mon-Khmer"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación200a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -200,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no Estado unitario, identidad homogénea o frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de200a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps200a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    96.03883,
+    16.71351
+  ],
+  "phases": [
+    {
+      "start": -200,
+      "end": -101,
+      "label": "Mon-Khmer",
+      "dateBasis": "Referencia espacial de200a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -100,
+      "end": 99,
+      "label": "Mon-Khmer",
+      "dateBasis": "Consulta del ámbito histórico anterior; continuidad de habitantes o límites actuales no inferida.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -200,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-MON-KHMER-C322A3A0-YBC0200.geojson",
+  "geometrySha256": "7a015219f7f20b1220ea229de5c50f6cdb0c4c120508eb5bd21172aa42a0e899",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson",
+    "year": -200,
+    "featureIds": [
+      89
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e192a3330a7e51358b61a6bfffaf6ff3e9ebf4eb96b532a23632316e86066a80"
+  },
+  "review": "0.42.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Mon-Khmer",
+      "ABBREVN": "Mon-Khmer",
+      "SUBJECTO": "Mon-Khmer",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Mon-Khmer"
+    }
+  ],
+  "sourceGrouping": [
+    "Mon-Khmer"
+  ]
+}

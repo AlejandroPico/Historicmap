@@ -8,3 +8,6 @@ export function dateParts(value:string):[number,number,number]{
 }
 export const dateYear=(value:string)=>dateParts(value)[0];
 export function compareDates(a:string,b:string){const x=dateParts(a),y=dateParts(b);return x[0]-y[0]||x[1]-y[1]||x[2]-y[2];}
+
+/** Event dates keep the padded day/month convention used by map details. */
+export function formatEventDate(value:string,precision=11){const[y,m,d]=dateParts(value),label=y<0?String(-y)+' a. C.':String(y);return precision===9?label:`${String(d).padStart(2,'0')}/${String(m).padStart(2,'0')}/${y<0?label:isoYear(y)}`;}

@@ -1,0 +1,77 @@
+{
+  "key": "REFERENCE-WESTERN-TIBET-YBC0200",
+  "contextKey": "REFERENCE-WESTERN-TIBET",
+  "ownerKey": "REFERENCE-WESTERN-TIBET",
+  "name": "Ámbitos delTíbet occidental · tradiciónZhangzhung",
+  "originalNames": [
+    "Zhangzhung Kingdom"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación100a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -200,
+    99
+  ],
+  "interpretation": "Tradición de cronología y extensión discutidas; no reino centralizado demostrado en200a.C.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de200a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps200a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    79.31228,
+    32.46297
+  ],
+  "phases": [
+    {
+      "start": -200,
+      "end": -101,
+      "label": "Ámbitos delTíbet occidental · tradiciónZhangzhung",
+      "dateBasis": "Referencia espacial de200a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -100,
+      "end": 99,
+      "label": "Ámbitos delTíbet occidental · tradiciónZhangzhung",
+      "dateBasis": "Consulta del ámbito histórico anterior; continuidad de habitantes o límites actuales no inferida.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -200,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-WESTERN-TIBET-YBC0200.geojson",
+  "geometrySha256": "7f5eb295484eaa5636faaff63ec59e3a988d9a6ad66b26a656738b27728c4c22",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson",
+    "year": -200,
+    "featureIds": [
+      169
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e192a3330a7e51358b61a6bfffaf6ff3e9ebf4eb96b532a23632316e86066a80"
+  },
+  "review": "0.42.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Zhangzhung Kingdom",
+      "ABBREVN": "Zhangzhung Kingdom",
+      "SUBJECTO": "Zhangzhung Kingdom",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Zhangzhung Kingdom"
+    }
+  ],
+  "sourceGrouping": [
+    "Zhangzhung Kingdom"
+  ]
+}

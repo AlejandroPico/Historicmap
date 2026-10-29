@@ -1,0 +1,68 @@
+{
+  "key": "CULTURE-PLATEAU-YBC0200",
+  "contextKey": "CULTURE-PLATEAU",
+  "ownerKey": "CULTURE-PLATEAU",
+  "name": "Comunidades de la meseta noroccidental",
+  "originalNames": [
+    "Plateau fichers and hunter gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Norteamérica",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -200,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no Estado unitario, identidad homogénea o frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de200a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps200a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#ae957f",
+  "focus": [
+    -120.12782,
+    48.56461
+  ],
+  "phases": [
+    {
+      "start": -200,
+      "end": -101,
+      "label": "Comunidades de la meseta noroccidental",
+      "dateBasis": "Referencia espacial de200a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-PLATEAU-YBC0200.geojson",
+  "geometrySha256": "908b9893d4621a0675ae844895e03562249dad27707019d6d82e78629ee434e0",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson",
+    "year": -200,
+    "featureIds": [
+      72
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e192a3330a7e51358b61a6bfffaf6ff3e9ebf4eb96b532a23632316e86066a80"
+  },
+  "review": "0.42.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Plateau fichers and hunter gatherers",
+      "ABBREVN": "Plateau fichers and hunter gatherers",
+      "SUBJECTO": "Plateau fichers and hunter gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Plateau fichers and hunter gatherers"
+    }
+  ],
+  "sourceGrouping": [
+    "Plateau fichers and hunter gatherers"
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "key": "HIST-Q62943",
+  "identity": {
+    "qid": "Q62943",
+    "name": "Maurya Empire"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · ámbito contrastado al congelar",
+      "titles": [
+        "Brihadratha Maurya",
+        "Devavarman",
+        "Shatadhanvan"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented-devavarman",
+      "name": "Devavarman",
+      "role": "Rey Maurya · cronología tradicional puránica",
+      "start": "-0200-01-01",
+      "end": "-0195-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_Maurya_emperors",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. Datación aproximada/tradicional: no se convierte una duración textual en fechas ciertas.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q1563790",
+      "name": "Shatadhanua",
+      "role": "Rey Maurya · cronología tradicional puránica",
+      "start": "-0195-01-01",
+      "end": "-0187-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Shatadhanvan",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. Datación aproximada/tradicional: no se convierte una duración textual en fechas ciertas."
+    },
+    {
+      "person": "Q24405",
+      "name": "Brijadratha",
+      "role": "Rey Maurya · cronología tradicional puránica",
+      "start": "-0187-01-01",
+      "end": "-0185-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Brihadratha_Maurya",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. Datación aproximada/tradicional: no se convierte una duración textual en fechas ciertas."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "context042-22",
+      "type": "transition",
+      "title": "FinalMaurya y poderShunga",
+      "start": "-0187-01-01",
+      "end": "-0184-01-01",
+      "precision": 9,
+      "text": "Los últimos reinados tienen tradición puránica y variantes; el contornoMaurya no prolonga su dinastía después de la ruptura.",
+      "source": "https://en.wikipedia.org/wiki/Brihadratha_Maurya",
+      "sourceLabel": "Referencia documental · sigloIIa.C.",
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico.",
+      "section": "territory"
+    }
+  ],
+  "governance": [
+    {
+      "start": -200,
+      "end": -185,
+      "tags": [
+        "monarchy",
+        "empire"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Maurya_Empire",
+      "sourceLabel": "Referencia institucional · sigloIIa.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna. Fechas y dependencia se resuelven por ámbito."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat042-16",
+      "name": "Pataliputra",
+      "coordinates": [
+        85.137,
+        25.594
+      ],
+      "start": -200,
+      "end": -101,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Pataliputra",
+      "note": "Referencia regional aproximada; no residencia permanente o capital exclusiva. Las ubicaciones deGojoseon y varias cortes antiguas son discutidas.",
+      "standaloneReference": true,
+      "entityName": "Maurya Empire"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context042-22",
+      "type": "transition",
+      "title": "FinalMaurya y poderShunga",
+      "start": "-0187-01-01",
+      "end": "-0184-01-01",
+      "precision": 9,
+      "text": "Los últimos reinados tienen tradición puránica y variantes; el contornoMaurya no prolonga su dinastía después de la ruptura.",
+      "source": "https://en.wikipedia.org/wiki/Brihadratha_Maurya",
+      "sourceLabel": "Referencia documental · sigloIIa.C.",
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Maurya Empire"
+        ],
+        "start": -200,
+        "end": -101,
+        "label": "Maurya Empire",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "70ec51ff0660c16f5c43ab64e0d3a3dee9ff3c19144a0c1a341f3b5baac8ba5c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        699,
+        861
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Brihadratha Maurya",
+        "title": "Brihadratha Maurya",
+        "person": "Q24405",
+        "name": "Brijadratha",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Brihadratha_Maurya",
+        "identityResolution": {
+          "requested": "Brihadratha Maurya",
+          "canonical": "Brihadratha Maurya",
+          "qid": "Q24405"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27582039",
+          "start": "-0187-01-01",
+          "end": "-0180-01-01",
+          "precision": 9,
+          "statement": "Q24405$72cab9a2-4aba-83a0-6162-38e9b605caad",
+          "label": "Mauryan Emperor"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q24405",
+        "title": "Brihadratha Maurya",
+        "source": "https://en.wikipedia.org/wiki/Brihadratha_Maurya",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Magadha",
+            "raw": "{{circa|187|185 or 180 BCE}}",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Maurya Emperor",
+            "raw": "187–185",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Devavarman",
+        "title": "Devavarman",
+        "person": "Q113629314",
+        "name": "Devavarman",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Devavarman",
+        "identityResolution": {
+          "requested": "Devavarman",
+          "canonical": "Devavarman",
+          "qid": "Q113629314"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shatadhanvan",
+        "title": "Shatadhanvan",
+        "person": "Q1563790",
+        "name": "Shatadhanua",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shatadhanvan",
+        "identityResolution": {
+          "requested": "Shatadhanvan",
+          "canonical": "Shatadhanvan",
+          "qid": "Q1563790"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q27582039",
+          "start": "-0195-01-01",
+          "end": "-0187-01-01",
+          "precision": 9,
+          "statement": "Q1563790$5d264d77-4379-e417-302c-099757f28143",
+          "label": "Mauryan Emperor"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1563790",
+        "title": "Shatadhanvan",
+        "source": "https://en.wikipedia.org/wiki/Shatadhanvan",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Emperor of Magadha",
+            "raw": "{{circa|195|187 BCE}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": [
+    {
+      "title": "Devavarman",
+      "person": "documented-devavarman",
+      "adopted": [
+        -200,
+        -195
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/List_of_Maurya_emperors"
+    },
+    {
+      "title": "Shatadhanvan",
+      "person": "Q1563790",
+      "adopted": [
+        -195,
+        -187
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Shatadhanvan"
+    },
+    {
+      "title": "Brihadratha Maurya",
+      "person": "Q24405",
+      "adopted": [
+        -187,
+        -185
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Brihadratha_Maurya"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "key": "HIST-Q5257",
+  "identity": {
+    "qid": "Q5257",
+    "name": "Satavahana Dynasty"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "context042-19",
+      "type": "institution",
+      "title": "Cronología satavahana abierta",
+      "start": "-0200-01-01",
+      "end": "-0100-01-01",
+      "precision": 9,
+      "text": "Las cronologías largas y cortas difieren en siglos. No se asigna aquí un reinado exacto aSimuka oSatakarni a partir del contorno de la compilación.",
+      "source": "https://webfiles.ucpress.edu/oa/9780520968813_WEB.pdf",
+      "sourceLabel": "Referencia documental · sigloIIa.C.",
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico.",
+      "section": "institutions"
+    }
+  ],
+  "governance": [],
+  "places": [],
+  "contexts": [
+    {
+      "id": "context042-19",
+      "type": "institution",
+      "title": "Cronología satavahana abierta",
+      "start": "-0200-01-01",
+      "end": "-0100-01-01",
+      "precision": 9,
+      "text": "Las cronologías largas y cortas difieren en siglos. No se asigna aquí un reinado exacto aSimuka oSatakarni a partir del contorno de la compilación.",
+      "source": "https://webfiles.ucpress.edu/oa/9780520968813_WEB.pdf",
+      "sourceLabel": "Referencia documental · sigloIIa.C.",
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Satavahana Dynasty"
+        ],
+        "start": -200,
+        "end": -101,
+        "label": "Satavahana Dynasty · cronología y ámbito por contrastar",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "El contorno de la compilación no certifica una dinastía homogénea ni permite asignar gobernantes de otra cronología."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "e7ecd889470261ce090b080ac9e70dfeafbe627baccc4ba1871c60c64bc8e733",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        698,
+        890,
+        895
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": []
+}

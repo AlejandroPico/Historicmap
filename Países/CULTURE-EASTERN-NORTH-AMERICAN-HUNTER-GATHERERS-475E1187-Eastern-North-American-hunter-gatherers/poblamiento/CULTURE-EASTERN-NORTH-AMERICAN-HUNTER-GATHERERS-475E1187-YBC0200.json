@@ -1,0 +1,77 @@
+{
+  "key": "CULTURE-EASTERN-NORTH-AMERICAN-HUNTER-GATHERERS-475E1187-YBC0200",
+  "contextKey": "CULTURE-EASTERN-NORTH-AMERICAN-HUNTER-GATHERERS-475E1187",
+  "ownerKey": "CULTURE-EASTERN-NORTH-AMERICAN-HUNTER-GATHERERS-475E1187",
+  "name": "Eastern North American hunter-gatherers",
+  "originalNames": [
+    "Eastern North American hunter-gatherers"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación200a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -200,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no Estado unitario, identidad homogénea o frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de200a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps200a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -78.60902,
+    38.87047
+  ],
+  "phases": [
+    {
+      "start": -200,
+      "end": -101,
+      "label": "Eastern North American hunter-gatherers",
+      "dateBasis": "Referencia espacial de200a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -100,
+      "end": 99,
+      "label": "Eastern North American hunter-gatherers",
+      "dateBasis": "Consulta del ámbito histórico anterior; continuidad de habitantes o límites actuales no inferida.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -200,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-EASTERN-NORTH-AMERICAN-HUNTER-GATHERERS-475E1187-YBC0200.geojson",
+  "geometrySha256": "8a8c3311f8d73bc2f3e0cefab77ded526c6cc849281a3c5ebfb689dba2bc6895",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson",
+    "year": -200,
+    "featureIds": [
+      111
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e192a3330a7e51358b61a6bfffaf6ff3e9ebf4eb96b532a23632316e86066a80"
+  },
+  "review": "0.42.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Eastern North American hunter-gatherers",
+      "ABBREVN": "Eastern North American hunter-gatherers",
+      "SUBJECTO": "Eastern North American hunter-gatherers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Eastern North American hunter-gatherers"
+    }
+  ],
+  "sourceGrouping": [
+    "Eastern North American hunter-gatherers"
+  ]
+}

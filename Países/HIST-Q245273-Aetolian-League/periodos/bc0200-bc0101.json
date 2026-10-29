@@ -1,0 +1,109 @@
+{
+  "key": "HIST-Q245273",
+  "identity": {
+    "qid": "Q245273",
+    "name": "Aetolian League"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [],
+  "leaders": [
+    {
+      "person": "institution042-HIST-Q245273",
+      "name": "Instituciones federales etolias",
+      "role": "Instituciones federales · referencia histórica con tutela romana",
+      "start": "-0200-01-01",
+      "end": "-0101-12-31",
+      "precision": 9,
+      "endIsCoverageBoundary": true,
+      "source": "https://en.wikipedia.org/wiki/Aetolian_League",
+      "note": "Registro institucional, no persona única. La selección de titulares no completa todos los mandatos anuales. Cobertura documental, no gobierno soberano continuo: dependencia desde189 y reorganización romana146; la restauración de cuerpos cívicos no acredita independencia."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution042-HIST-Q245273",
+      "section": "institutions",
+      "title": "Instituciones y límites de la lista de autoridades",
+      "start": "-0200-01-01",
+      "end": "-0100-01-01",
+      "text": "Federación de comunidades; lista de estrategos pendiente, no vacío de gobierno. Dependencia deRoma desde189 y reorganización146; Pausanias7.16.9–10 distingue disolución y restauración de asociaciones cívicas, no soberanía independiente continua.",
+      "source": "https://en.wikipedia.org/wiki/Aetolian_League",
+      "sourceLabel": "Referencia institucional · sigloIIa.C."
+    }
+  ],
+  "governance": [
+    {
+      "start": -200,
+      "end": -101,
+      "tags": [
+        "republic"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Aetolian_League",
+      "sourceLabel": "Referencia institucional · sigloIIa.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna. Fechas y dependencia se resuelven por ámbito."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat042-27",
+      "name": "Termo",
+      "coordinates": [
+        21.668,
+        38.574
+      ],
+      "start": -200,
+      "end": -101,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Termo",
+      "note": "Referencia regional aproximada; no residencia permanente o capital exclusiva. Las ubicaciones deGojoseon y varias cortes antiguas son discutidas.",
+      "standaloneReference": true,
+      "entityName": "Aetolian League"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Aetolian League"
+        ],
+        "start": -200,
+        "end": -101,
+        "label": "Aetolian League",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "0858d248a874e6c51b7f8049ab2d62befeac71e15487af1202089c6ce584e9aa",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        824,
+        844
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación.",
+    "Contrastar contornos y dependencia etolia tras189/146 con pervivencia cívica: el polígono de la fuente no acredita soberanía continua. Pausanias7.16.9–10 y Kallet-Marx, Hegemony toEmpire."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": []
+}

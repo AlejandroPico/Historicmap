@@ -1,0 +1,64 @@
+{
+  "key": "HIST-Q1936158",
+  "name": "Minyue",
+  "qid": "Q1936158",
+  "aliases": [
+    "Minyue"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q1936158"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "documented-wuzhu-minyue",
+      "name": "Wuzhu · fundador deMinyue",
+      "role": "Rey de Minyue · datación tradicional",
+      "start": "-0200-01-01",
+      "end": "-0192-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Minyue",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. El homónimoWanyanWuzhu del sigloXII no es esta autoridad; identidad documental local, sin fotografía atribuida.",
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "century-bc200-0.42"
+    },
+    {
+      "person": "documented-zou-ying",
+      "name": "ZouYing",
+      "role": "Rey de Minyue · datación tradicional",
+      "start": "-0192-01-01",
+      "end": "-0135-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Minyue",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes.",
+      "curated": true,
+      "acquisition": "century-bc200-0.42"
+    },
+    {
+      "person": "documented-zou-yushan",
+      "name": "ZouYushan",
+      "role": "Rey de Minyue · datación tradicional",
+      "start": "-0135-01-01",
+      "end": "-0110-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Minyue",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes.",
+      "curated": true,
+      "acquisition": "century-bc200-0.42"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

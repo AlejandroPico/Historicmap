@@ -1,0 +1,140 @@
+{
+  "key": "HIST-Q220594",
+  "identity": {
+    "qid": "Q220594",
+    "name": "Nabataeans"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · ámbito contrastado al congelar",
+      "titles": [
+        "Aretas I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q643164",
+      "name": "Aretas I",
+      "role": "Rey nabateo · testimonios y cronología aproximada",
+      "start": "-0168-01-01",
+      "end": "-0144-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Aretas_I",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -200,
+      "end": -101,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Nabataeans",
+      "sourceLabel": "Referencia institucional · sigloIIa.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna. Fechas y dependencia se resuelven por ámbito."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat042-31",
+      "name": "Petra",
+      "coordinates": [
+        35.443,
+        30.329
+      ],
+      "start": -200,
+      "end": -101,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Petra",
+      "note": "Referencia regional aproximada; no residencia permanente o capital exclusiva. Las ubicaciones deGojoseon y varias cortes antiguas son discutidas.",
+      "standaloneReference": true,
+      "entityName": "Nabataeans"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Nabataeans"
+        ],
+        "start": -200,
+        "end": -101,
+        "label": "Nabataeans",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "770bee065d974fab8af39db885c0a7f26c7101d94b0cf3cab22b7b8ae80d8f27",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        886,
+        898,
+        914
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Aretas I",
+        "title": "Aretas I",
+        "person": "Q643164",
+        "name": "Aretas I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Aretas_I",
+        "identityResolution": {
+          "requested": "Aretas I",
+          "canonical": "Aretas I",
+          "qid": "Q643164"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q643164",
+        "title": "Aretas I",
+        "source": "https://en.wikipedia.org/wiki/Aretas_I",
+        "reignFields": []
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": [
+    {
+      "title": "Aretas I",
+      "person": "Q643164",
+      "adopted": [
+        -168,
+        -144
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Aretas_I"
+    }
+  ]
+}

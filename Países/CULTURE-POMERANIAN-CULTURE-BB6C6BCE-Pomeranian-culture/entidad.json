@@ -3,7 +3,8 @@
   "name": "Pomeranian culture",
   "qid": "",
   "aliases": [
-    "Pomeranian culture"
+    "Pomeranian culture",
+    "Pomeranian culture "
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -12,7 +13,44 @@
   "symbolReferences": [],
   "leaders": [],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "world_100.geojson",
+      "recordId": 304,
+      "start": null,
+      "end": null,
+      "name": "Pomeranian culture ",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 168,
+      "start": null,
+      "end": null,
+      "name": "Pomeranian culture ",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE-YBC0200:0",
+      "contextKey": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE",
+      "start": -200,
+      "end": -101,
+      "sourceYear": -200,
+      "canonicalFile": "Países/CULTURE-POMERANIAN-CULTURE-BB6C6BCE-Pomeranian-culture/poblamiento/CULTURE-POMERANIAN-CULTURE-BB6C6BCE-YBC0200.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE-YBC0200:1",
+      "contextKey": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE",
+      "start": -100,
+      "end": 99,
+      "sourceYear": -200,
+      "canonicalFile": "Países/CULTURE-POMERANIAN-CULTURE-BB6C6BCE-Pomeranian-culture/poblamiento/CULTURE-POMERANIAN-CULTURE-BB6C6BCE-YBC0200.json"
+    }
+  ],
   "culturalReviews": [
     {
       "key": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE-Y0001",

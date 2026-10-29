@@ -1,0 +1,320 @@
+{
+  "key": "HIST-Q2429397",
+  "identity": {
+    "qid": "Q2429397",
+    "name": "Cartago"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · ámbito contrastado al congelar",
+      "titles": [
+        "Hannibal",
+        "Hasdrubal the Boetharch"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q36456",
+      "name": "Aníbal Barca",
+      "role": "Sufete deCartago · magistratura civil",
+      "start": "-0196-01-01",
+      "end": "-0195-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hannibal",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. No rey: magistratura de196–195a.C., con variaciones del año de elección.",
+      "portrait": {
+        "file": "media/leader-f6f642f4d4fe3e538ab7.png",
+        "title": "Hannibal Slodtz Louvre MR2093 (cropped).png",
+        "url": "https://commons.wikimedia.org/wiki/File:Hannibal_Slodtz_Louvre_MR2093_(cropped).png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Hannibal_Slodtz_Louvre_MR2093_%28cropped%29.png/330px-Hannibal_Slodtz_Louvre_MR2093_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nSébastien Slodtz (French, 1655–1726)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hannibal_Slodtz_Louvre_MR2093_(cropped).png#Licensing",
+        "credit": "Modified version of Hannibal Slodtz Louvre MR2093.jpg (2008) by author Jastrow",
+        "attribution": "",
+        "attributionRequired": true,
+        "sha256": "1ab14b0637419b55e1530ce7f97cda5b7de2f60220be397545a2a080b1eed94d",
+        "bytes": 113110,
+        "canonicalFile": "Países/HIST-Q2429397-Carthage/retratos/leader-f6f642f4d4fe3e538ab7.png",
+        "caption": "Aníbal en estatua deSébastienSlodtz,1704,LouvreMR2093; recreación artística muy posterior, no semejanza del natural."
+      }
+    },
+    {
+      "person": "Q543827",
+      "name": "Asdrúbal el Beotarca",
+      "role": "Mando de la defensa cartaginesa",
+      "start": "-0149-01-01",
+      "end": "-0146-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hasdrubal_the_Boetharch",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. Comandante durante149–146, no monarca ni sustituto de los sufetes."
+    },
+    {
+      "person": "institution042-HIST-Q2429397",
+      "name": "Sufetes, consejo y asambleas",
+      "role": "Instituciones colegiadas · titulares individuales por completar",
+      "start": "-0200-01-01",
+      "end": "-0146-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Carthage",
+      "note": "Registro institucional, no persona única. La selección de titulares no completa todos los mandatos anuales. Referencia de la etapa política anterior a la destrucción o reorganización de146a.C.; no se prolonga un gobierno soberano después."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution042-HIST-Q2429397",
+      "section": "institutions",
+      "title": "Instituciones y límites de la lista de autoridades",
+      "start": "-0200-01-01",
+      "end": "-0145-01-01",
+      "text": "Sufetes, consejo y asambleas deCartago; no se infiere una monarquía por sus mandos militares.",
+      "source": "https://en.wikipedia.org/wiki/Carthage",
+      "sourceLabel": "Referencia institucional · sigloIIa.C."
+    },
+    {
+      "id": "context042-4",
+      "type": "conflict",
+      "title": "Tercera guerra púnica",
+      "start": "-0149-01-01",
+      "end": "-0145-01-01",
+      "precision": 9,
+      "text": "Asedio y destrucción deCartago146a.C.; las referencias culturales púnicas no se convierten en reino independiente posterior.",
+      "source": "https://whc.unesco.org/en/list/37",
+      "sourceLabel": "Referencia documental · sigloIIa.C.",
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico.",
+      "section": "defence"
+    }
+  ],
+  "governance": [
+    {
+      "start": -200,
+      "end": -146,
+      "tags": [
+        "republic",
+        "oligarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Carthage",
+      "sourceLabel": "Referencia institucional · sigloIIa.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna. Fechas y dependencia se resuelven por ámbito."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat042-20",
+      "name": "Cartago",
+      "coordinates": [
+        10.323,
+        36.853
+      ],
+      "start": -200,
+      "end": -101,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Cartago",
+      "note": "Referencia regional aproximada; no residencia permanente o capital exclusiva. Las ubicaciones deGojoseon y varias cortes antiguas son discutidas.",
+      "standaloneReference": true,
+      "entityName": "Carthage"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context042-4",
+      "type": "conflict",
+      "title": "Tercera guerra púnica",
+      "start": "-0149-01-01",
+      "end": "-0145-01-01",
+      "precision": 9,
+      "text": "Asedio y destrucción deCartago146a.C.; las referencias culturales púnicas no se convierten en reino independiente posterior.",
+      "source": "https://whc.unesco.org/en/list/37",
+      "sourceLabel": "Referencia documental · sigloIIa.C.",
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Carthage"
+        ],
+        "start": -200,
+        "end": -147,
+        "label": "Cartago",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "7abad4537363d5a66581385a55848aeb7035361e655dc47843f173b7f57ce97a",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        823,
+        847,
+        884
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Hannibal",
+        "title": "Hannibal",
+        "person": "Q36456",
+        "name": "Aníbal Barca",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hannibal",
+        "identityResolution": {
+          "requested": "Hannibal",
+          "canonical": "Hannibal",
+          "qid": "Q36456"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q36456",
+        "title": "Hannibal",
+        "source": "https://en.wikipedia.org/wiki/Hannibal",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Hasdrubal the Boetharch",
+        "title": "Hasdrubal the Boetharch",
+        "person": "Q543827",
+        "name": "Asdrúbal el Beotarca",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Hasdrubal_the_Boetharch",
+        "identityResolution": {
+          "requested": "Hasdrubal the Boetharch",
+          "canonical": "Hasdrubal the Boetharch",
+          "qid": "Q543827"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q543827",
+        "title": "Hasdrubal the Boetharch",
+        "source": "https://en.wikipedia.org/wiki/Hasdrubal_the_Boetharch",
+        "reignFields": []
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": [
+    {
+      "title": "Hannibal",
+      "person": "Q36456",
+      "adopted": [
+        -196,
+        -195
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Hannibal"
+    },
+    {
+      "title": "Hasdrubal the Boetharch",
+      "person": "Q543827",
+      "adopted": [
+        -149,
+        -146
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Hasdrubal_the_Boetharch"
+    }
+  ],
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "point042-4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.323,
+          36.853
+        ]
+      },
+      "properties": {
+        "name": "Tercera guerra púnica",
+        "countries": [
+          "HIST-Q2429397"
+        ],
+        "kind": "regional-conflict",
+        "start": "-0149-01-01",
+        "end": "-0146-12-31",
+        "precision": 9,
+        "source": "https://whc.unesco.org/en/list/37",
+        "sourceLabel": "Referencia documental · sigloIIa.C.",
+        "note": "Asedio y destrucción deCartago146a.C.; las referencias culturales púnicas no se convierten en reino independiente posterior. Coordenada regional aproximada; no perímetro militar."
+      }
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q36456",
+      "title": "Mommsen p265.jpg",
+      "reason": "Busto de atribución tradicional no acreditada; se sustituye por representación identificada deSlodtz."
+    },
+    {
+      "person": "Q543827",
+      "title": "Pietro della Vecchia - Hasdrubal's wife denouncing her husband before Scipio Africanus.jpg",
+      "reason": "Escena de la esposa deAsdrúbal; no retrato identificado del comandante."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q36456",
+      "name": "Aníbal Barca",
+      "title": "Mommsen p265.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mommsen_p265.jpg",
+      "sha256": "4af5e12786337e556b8fbe17c692a68defecf7591d4dae0a63f3fee978126d0f",
+      "decision": "rejected",
+      "reviewDate": "2026-10-29",
+      "method": "Inspección de imagen completa, identidad del representado y cara monetaria; no aceptación automática del campoP18.",
+      "reason": "Busto de atribución tradicional no acreditada; se sustituye por representación identificada deSlodtz."
+    },
+    {
+      "person": "Q543827",
+      "name": "Asdrúbal el Beotarca",
+      "title": "Pietro della Vecchia - Hasdrubal's wife denouncing her husband before Scipio Africanus.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pietro_della_Vecchia_-_Hasdrubal%27s_wife_denouncing_her_husband_before_Scipio_Africanus.jpg",
+      "sha256": "0413ebe46c7a0fd58b20b0ff4dd74ef88891917fa7879a6f1e25e61769e81586",
+      "decision": "rejected",
+      "reviewDate": "2026-10-29",
+      "method": "Inspección de imagen completa, identidad del representado y cara monetaria; no aceptación automática del campoP18.",
+      "reason": "Escena de la esposa deAsdrúbal; no retrato identificado del comandante."
+    },
+    {
+      "person": "Q36456",
+      "name": "Aníbal",
+      "title": "Hannibal Slodtz Louvre MR2093 (cropped).png",
+      "source": "https://commons.wikimedia.org/wiki/File:Hannibal_Slodtz_Louvre_MR2093_(cropped).png",
+      "decision": "accepted-alternative",
+      "sha256": "1ab14b0637419b55e1530ce7f97cda5b7de2f60220be397545a2a080b1eed94d",
+      "reviewDate": "2026-10-29",
+      "reason": "Estatua identificada por autor, fecha y museo; encuadre individual completo inspeccionado."
+    }
+  ]
+}

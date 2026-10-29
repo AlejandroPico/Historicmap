@@ -1,0 +1,79 @@
+{
+  "key": "HIST-Q2429397",
+  "name": "Carthage",
+  "qid": "Q2429397",
+  "aliases": [
+    "Carthage"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q2429397"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q36456",
+      "name": "Aníbal Barca",
+      "role": "Sufete deCartago · magistratura civil",
+      "start": "-0196-01-01",
+      "end": "-0195-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hannibal",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. No rey: magistratura de196–195a.C., con variaciones del año de elección.",
+      "curated": true,
+      "acquisition": "century-bc200-0.42",
+      "portrait": {
+        "file": "media/leader-f6f642f4d4fe3e538ab7.png",
+        "title": "Hannibal Slodtz Louvre MR2093 (cropped).png",
+        "url": "https://commons.wikimedia.org/wiki/File:Hannibal_Slodtz_Louvre_MR2093_(cropped).png",
+        "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Hannibal_Slodtz_Louvre_MR2093_%28cropped%29.png/330px-Hannibal_Slodtz_Louvre_MR2093_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "artist": "\nSébastien Slodtz (French, 1655–1726)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hannibal_Slodtz_Louvre_MR2093_(cropped).png#Licensing",
+        "credit": "Modified version of Hannibal Slodtz Louvre MR2093.jpg (2008) by author Jastrow",
+        "attribution": "",
+        "attributionRequired": true,
+        "sha256": "1ab14b0637419b55e1530ce7f97cda5b7de2f60220be397545a2a080b1eed94d",
+        "bytes": 113110,
+        "canonicalFile": "Países/HIST-Q2429397-Carthage/retratos/leader-f6f642f4d4fe3e538ab7.png",
+        "caption": "Aníbal en estatua deSébastienSlodtz,1704,LouvreMR2093; recreación artística muy posterior, no semejanza del natural."
+      }
+    },
+    {
+      "person": "Q543827",
+      "name": "Asdrúbal el Beotarca",
+      "role": "Mando de la defensa cartaginesa",
+      "start": "-0149-01-01",
+      "end": "-0146-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Hasdrubal_the_Boetharch",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. Comandante durante149–146, no monarca ni sustituto de los sufetes.",
+      "curated": true,
+      "acquisition": "century-bc200-0.42"
+    },
+    {
+      "person": "institution042-HIST-Q2429397",
+      "name": "Sufetes, consejo y asambleas",
+      "role": "Instituciones colegiadas · titulares individuales por completar",
+      "start": "-0200-01-01",
+      "end": "-0146-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Carthage",
+      "note": "Registro institucional, no persona única. La selección de titulares no completa todos los mandatos anuales. Referencia de la etapa política anterior a la destrucción o reorganización de146a.C.; no se prolonga un gobierno soberano después.",
+      "curated": true,
+      "acquisition": "century-bc200-0.42"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

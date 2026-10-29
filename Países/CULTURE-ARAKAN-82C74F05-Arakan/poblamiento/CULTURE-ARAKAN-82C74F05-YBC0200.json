@@ -1,0 +1,68 @@
+{
+  "key": "CULTURE-ARAKAN-82C74F05-YBC0200",
+  "contextKey": "CULTURE-ARAKAN-82C74F05",
+  "ownerKey": "CULTURE-ARAKAN-82C74F05",
+  "name": "Arakan",
+  "originalNames": [
+    "Arakan"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional del mapa mundial de 1 a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -200,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no Estado unitario, identidad homogénea o frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de200a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps200a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    92.34278,
+    21.73198
+  ],
+  "phases": [
+    {
+      "start": -200,
+      "end": -101,
+      "label": "Arakan",
+      "dateBasis": "Referencia espacial de200a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-ARAKAN-82C74F05-YBC0200.geojson",
+  "geometrySha256": "49f1ae42fa44148a092930990701094df2dc78cbad356229e7b035046dd4600f",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson",
+    "year": -200,
+    "featureIds": [
+      171
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e192a3330a7e51358b61a6bfffaf6ff3e9ebf4eb96b532a23632316e86066a80"
+  },
+  "review": "0.42.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Arakan",
+      "ABBREVN": null,
+      "SUBJECTO": "Arakan",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Arakan"
+    }
+  ],
+  "sourceGrouping": [
+    "Arakan"
+  ]
+}

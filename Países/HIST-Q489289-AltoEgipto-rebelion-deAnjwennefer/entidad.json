@@ -1,0 +1,39 @@
+{
+  "key": "HIST-Q489289",
+  "name": "AltoEgipto · rebelión deAnjwennefer",
+  "qid": "",
+  "aliases": [
+    "AltoEgipto · rebelión deAnjwennefer"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q489289"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q489289",
+      "name": "Anjunnefer",
+      "role": "Faraón rebelde en el Alto Egipto",
+      "start": "-0199-01-01",
+      "end": "-0186-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ankhwennefer_%28pharaoh%29",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes.",
+      "curated": true,
+      "acquisition": "century-bc200-0.42"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

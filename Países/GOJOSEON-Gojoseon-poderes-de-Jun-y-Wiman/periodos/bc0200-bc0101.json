@@ -1,0 +1,334 @@
+{
+  "key": "GOJOSEON",
+  "identity": {
+    "qid": "Q28405",
+    "name": "Gojoseon · poderes de Jun y Wiman"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · ámbito contrastado al congelar",
+      "titles": [
+        "Jun of Gojoseon",
+        "Ugeo of Gojoseon",
+        "Wiman of Gojoseon"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q711336",
+      "name": "King Jun of Gojoseon",
+      "role": "Rey de Gojoseon · cronología tradicional aproximada",
+      "start": "-0200-01-01",
+      "end": "-0194-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Chun_of_Old_Chos%C5%8Fn",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. Datación aproximada/tradicional: no se convierte una duración textual en fechas ciertas.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q701346",
+      "name": "Wiman of Gojoseon",
+      "role": "Rey fundador · testimonio de acceso hacia194a.C.",
+      "start": "-0194-01-01",
+      "end": "-0194-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Wiman_of_Old_Chos%C5%8Fn",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. Datación aproximada/tradicional: no se convierte una duración textual en fechas ciertas. El único año muestra acceso aproximado: no acredita fin del reinado en194. Su duración es desconocida; propuesta tradicional hasta161."
+    },
+    {
+      "person": "Q706819",
+      "name": "Ugeo of Gojoseon",
+      "role": "Rey de Gojoseon · cronología tradicional aproximada",
+      "start": "-0128-01-01",
+      "end": "-0108-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ug%C5%8F_of_Old_Chos%C5%8Fn",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes. Datación aproximada/tradicional: no se convierte una duración textual en fechas ciertas. Acceso128/129a.C. es aproximado; la fecha inicial no es conocida con certeza. Fin108a.C."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "context042-13",
+      "type": "transition",
+      "title": "Conquista y comandanciasHan",
+      "start": "-0108-01-01",
+      "end": "-0107-01-01",
+      "precision": 9,
+      "text": "La derrota deUgeo108a.C. no prolonga Gojoseon independiente; posición de centros y alcance de comandancias son discutidos.",
+      "source": "https://en.wikipedia.org/wiki/Han_conquest_of_Gojoseon",
+      "sourceLabel": "Referencia documental · sigloIIa.C.",
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico.",
+      "section": "territory"
+    }
+  ],
+  "governance": [
+    {
+      "start": -200,
+      "end": -108,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Gojoseon",
+      "sourceLabel": "Referencia institucional · sigloIIa.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna. Fechas y dependencia se resuelven por ámbito."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat042-15",
+      "name": "Wanggeom · ubicación tradicional",
+      "coordinates": [
+        125.751,
+        39.03
+      ],
+      "start": -200,
+      "end": -101,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://en.wikipedia.org/wiki/Wanggeom",
+      "note": "Referencia regional aproximada; no residencia permanente o capital exclusiva. Las ubicaciones deGojoseon y varias cortes antiguas son discutidas.",
+      "standaloneReference": true,
+      "entityName": "Gojoseon · poderes de Jun y Wiman"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context042-13",
+      "type": "transition",
+      "title": "Conquista y comandanciasHan",
+      "start": "-0108-01-01",
+      "end": "-0107-01-01",
+      "precision": 9,
+      "text": "La derrota deUgeo108a.C. no prolonga Gojoseon independiente; posición de centros y alcance de comandancias son discutidos.",
+      "source": "https://en.wikipedia.org/wiki/Han_conquest_of_Gojoseon",
+      "sourceLabel": "Referencia documental · sigloIIa.C.",
+      "note": "Contexto parcial; no inventario exhaustivo ni frente geográfico."
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Gojoseon"
+        ],
+        "start": -200,
+        "end": -109,
+        "label": "Gojoseon · poderes de Jun y Wiman",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "9358b899842c0408a0fbaba254788693f8b87267d4aaedba1043cf648a343120",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        834,
+        916,
+        948
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Jun of Gojoseon",
+        "title": "Jun of Gojoseon",
+        "person": "Q711336",
+        "name": "King Jun of Gojoseon",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Chun_of_Old_Chos%C5%8Fn",
+        "identityResolution": {
+          "requested": "Jun of Gojoseon",
+          "canonical": "Chun of Old Chosŏn",
+          "qid": "Q711336"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "-0220-01-01",
+          "end": "-0194-01-01",
+          "precision": 9,
+          "statement": "Q711336$285fd004-4a64-361b-bb46-924f139a757f",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q711336",
+        "title": "Chun of Old Chosŏn",
+        "source": "https://en.wikipedia.org/wiki/Chun_of_Old_Chos%C5%8Fn",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Gojoseon",
+            "raw": "{{circa|220 BC}} – 194 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Ugeo of Gojoseon",
+        "title": "Ugeo of Gojoseon",
+        "person": "Q706819",
+        "name": "Ugeo of Gojoseon",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ug%C5%8F_of_Old_Chos%C5%8Fn",
+        "identityResolution": {
+          "requested": "Ugeo of Gojoseon",
+          "canonical": "Ugŏ of Old Chosŏn",
+          "qid": "Q706819"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q706819",
+        "title": "Ugŏ of Old Chosŏn",
+        "source": "https://en.wikipedia.org/wiki/Ug%C5%8F_of_Old_Chos%C5%8Fn",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wiman Chosŏn",
+            "raw": "Unknown – 108 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Gojoseon",
+            "raw": "{{circa|129 BC}} – 108 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Wiman of Gojoseon",
+        "title": "Wiman of Gojoseon",
+        "person": "Q701346",
+        "name": "Wiman of Gojoseon",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Wiman_of_Old_Chos%C5%8Fn",
+        "identityResolution": {
+          "requested": "Wiman of Gojoseon",
+          "canonical": "Wiman of Old Chosŏn",
+          "qid": "Q701346"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12087706",
+          "start": "-0194-01-01",
+          "end": "-0161-01-01",
+          "precision": 9,
+          "statement": "Q701346$ae4ea0f9-49ad-fc2c-a2ae-e8de71e3ba92",
+          "label": "wang"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q701346",
+        "title": "Wiman of Old Chosŏn",
+        "source": "https://en.wikipedia.org/wiki/Wiman_of_Old_Chos%C5%8Fn",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Wiman Chosŏn",
+            "raw": "194 BCE – Unknown",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Gojseon",
+            "raw": "194 BC – {{circa|161 BC}}",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": [
+    {
+      "title": "Jun of Gojoseon",
+      "person": "Q711336",
+      "adopted": [
+        -200,
+        -194
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Chun_of_Old_Chos%C5%8Fn"
+    },
+    {
+      "title": "Wiman of Gojoseon",
+      "person": "Q701346",
+      "adopted": [
+        -194,
+        -194
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Wiman_of_Old_Chos%C5%8Fn"
+    },
+    {
+      "title": "Ugeo of Gojoseon",
+      "person": "Q706819",
+      "adopted": [
+        -128,
+        -108
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Ug%C5%8F_of_Old_Chos%C5%8Fn"
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q701346",
+      "title": "초등대한역사 제1편 3.jpg",
+      "reason": "Escena colectiva posterior sin identificación individual inequívoca deWiman."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q701346",
+      "name": "Wiman of Gojoseon",
+      "title": "초등대한역사 제1편 3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%EC%B4%88%EB%93%B1%EB%8C%80%ED%95%9C%EC%97%AD%EC%82%AC_%EC%A0%9C1%ED%8E%B8_3.jpg",
+      "sha256": "55766be6a8ce4f974dd14851f6abc5d2f18fe98489433a41f04c65e240018937",
+      "decision": "rejected",
+      "reviewDate": "2026-10-29",
+      "method": "Inspección de imagen completa, identidad del representado y cara monetaria; no aceptación automática del campoP18.",
+      "reason": "Escena colectiva posterior sin identificación individual inequívoca deWiman."
+    }
+  ]
+}

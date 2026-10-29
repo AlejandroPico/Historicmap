@@ -1,0 +1,40 @@
+{
+  "key": "HIST-Q245273",
+  "name": "Aetolian League",
+  "qid": "Q245273",
+  "aliases": [
+    "Aetolian League"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q245273"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "institution042-HIST-Q245273",
+      "name": "Instituciones federales etolias",
+      "role": "Instituciones federales · referencia histórica con tutela romana",
+      "start": "-0200-01-01",
+      "end": "-0101-12-31",
+      "precision": 9,
+      "endIsCoverageBoundary": true,
+      "source": "https://en.wikipedia.org/wiki/Aetolian_League",
+      "note": "Registro institucional, no persona única. La selección de titulares no completa todos los mandatos anuales. Cobertura documental, no gobierno soberano continuo: dependencia desde189 y reorganización romana146; la restauración de cuerpos cívicos no acredita independencia.",
+      "curated": true,
+      "acquisition": "century-bc200-0.42"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

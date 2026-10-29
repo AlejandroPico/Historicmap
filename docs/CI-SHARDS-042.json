@@ -1,0 +1,618 @@
+{
+  "totalTests": 117,
+  "shards": [
+    {
+      "shard": 1,
+      "count": 30,
+      "tests": [
+        {
+          "id": "bed8efe74e8526a653f7-0850f9b8bb9a227808bd:",
+          "file": "atlas.spec.ts",
+          "title": "present map, projection, search, historical and geological snapshots"
+        },
+        {
+          "id": "bed8efe74e8526a653f7-6ace29d9c2b3a8df48a2:",
+          "file": "atlas.spec.ts",
+          "title": "fixed center cursor, keyboard navigation, exact date, about and narrow layout"
+        },
+        {
+          "id": "bed8efe74e8526a653f7-119007df62ecd7412a98:",
+          "file": "atlas.spec.ts",
+          "title": "every shipped cartographic snapshot renders without exceeding GPU segments"
+        },
+        {
+          "id": "bed8efe74e8526a653f7-cc79fef95645ab87097d:",
+          "file": "atlas.spec.ts",
+          "title": "compact tools and independent map/timeline wheel zoom"
+        },
+        {
+          "id": "e9711629e373f26f6ea0-38b3e7ff6bef016b1ee3:",
+          "file": "central-europe-1939.spec.ts",
+          "title": "1939 Slovak client and unified German territory remain selectable with optional hatching and date navigation"
+        },
+        {
+          "id": "65174a770b211e65fa4e-6fe9557b7a2584709bd3:",
+          "file": "control-map.spec.ts",
+          "title": "control geometry remains selectable with optional hatching disabled or enabled, and land has a reference background"
+        },
+        {
+          "id": "764ea354e9df15c2c679-78fb57a0658e4cf16804:",
+          "file": "corrections-014.spec.ts",
+          "title": "1885 land click, source reversals, globe, Pacific references and1860 authority coverage"
+        },
+        {
+          "id": "764ea354e9df15c2c679-ac620074782b56305334:",
+          "file": "corrections-014.spec.ts",
+          "title": "dated portraits decode and Ukraine observation date stays visible with optional hatching"
+        },
+        {
+          "id": "79ed1c16a23a066f50bd-2ffb4b61353c863fc2d7:",
+          "file": "country-workspace.spec.ts",
+          "title": "country card, tab and reading position persist through date changes and playback"
+        },
+        {
+          "id": "79ed1c16a23a066f50bd-90780d76d7b801c52eb1:",
+          "file": "country-workspace.spec.ts",
+          "title": "extinct entity remains open and navigates explicitly to a successor"
+        },
+        {
+          "id": "79ed1c16a23a066f50bd-c58b2d50f9878ad573ac:",
+          "file": "country-workspace.spec.ts",
+          "title": "date and country comparisons use dated data and support map navigation"
+        },
+        {
+          "id": "79ed1c16a23a066f50bd-37b87c4fc2001fd3d561:",
+          "file": "country-workspace.spec.ts",
+          "title": "search, sources and layers stay open and update across time navigation"
+        },
+        {
+          "id": "e616e1cb48cac65ba4cb-1f9dca87fb1ed003c62a:",
+          "file": "cultural-expansion.spec.ts",
+          "title": "Sami selection and regional documentation survive all source changes through 1700"
+        },
+        {
+          "id": "e616e1cb48cac65ba4cb-a9a318b2e22c0f76cb9a:",
+          "file": "cultural-expansion.spec.ts",
+          "title": "dense American and Australian traditional areas retain explicit temporal limits"
+        },
+        {
+          "id": "e616e1cb48cac65ba4cb-3bec5cafffe31f7d1c13:",
+          "file": "cultural-expansion.spec.ts",
+          "title": "medieval Aotearoa and early modern regional cards remain readable on a narrow globe"
+        },
+        {
+          "id": "578e473b0bb3a3bdd204-6f0e2ed9a89e0498b412:",
+          "file": "cultural-final-review.spec.ts",
+          "title": "late cultural cards persist across 1700, source changes and 1905 with century downloads reused"
+        },
+        {
+          "id": "578e473b0bb3a3bdd204-e9eb97e11f9ad094e86c:",
+          "file": "cultural-final-review.spec.ts",
+          "title": "traditional Australian regions remain selectable with the colonial map and with territories hidden"
+        },
+        {
+          "id": "578e473b0bb3a3bdd204-707e52b1d0ae4b766567:",
+          "file": "cultural-final-review.spec.ts",
+          "title": "Aotearoa spellings and late community cards remain readable on a narrow globe"
+        },
+        {
+          "id": "a8c976d10297b3942e72-073e7753d10f4f0da1da:",
+          "file": "cultural-modern-review.spec.ts",
+          "title": "cultural card remains open from1905 through dated institutions and the current map"
+        },
+        {
+          "id": "a8c976d10297b3942e72-1cdffb1f850a6fdb7ba0:",
+          "file": "cultural-modern-review.spec.ts",
+          "title": "current Australian political and cultural selections coexist on the globe and narrow layouts"
+        },
+        {
+          "id": "a8c976d10297b3942e72-0b0bdd3cf98d33500e4f:",
+          "file": "cultural-modern-review.spec.ts",
+          "title": "device year2027 permits reference consultation with an explicit future-evidence notice"
+        },
+        {
+          "id": "d1c429885d45a72deb50-20236f5b0c8d02cc3405:",
+          "file": "cultural-regions.spec.ts",
+          "title": "Amazonian references remain visible and selectable across annual source boundaries"
+        },
+        {
+          "id": "d1c429885d45a72deb50-475d6b7de1f3d7294e78:",
+          "file": "cultural-regions.spec.ts",
+          "title": "political priority and alternate selection preserve Cyprus beneath Byzantine control"
+        },
+        {
+          "id": "d1c429885d45a72deb50-f4b244b80ac0fdf5a2a7:",
+          "file": "cultural-regions.spec.ts",
+          "title": "Sámi and Hokkaido cards remain readable on a narrow globe"
+        },
+        {
+          "id": "d1c429885d45a72deb50-9b4163b35c34c205fba7:",
+          "file": "cultural-regions.spec.ts",
+          "title": "an obsolete regional download cannot replace a newer date"
+        },
+        {
+          "id": "cb55fa7e6514beedc1dd-6804f536215f103bd45b:",
+          "file": "current-year.spec.ts",
+          "title": "an actual map click in Brazil after a Spanish faction selects Brazil, not Spain"
+        },
+        {
+          "id": "cb55fa7e6514beedc1dd-d424d388ad381373f496:",
+          "file": "current-year.spec.ts",
+          "title": "current country tabs, dual authorities and portraits share the left card"
+        },
+        {
+          "id": "cb55fa7e6514beedc1dd-9d9fcf79f098b91b2daf:",
+          "file": "current-year.spec.ts",
+          "title": "appearance cycles without a menu and automatic mode uses the local clock"
+        },
+        {
+          "id": "cb55fa7e6514beedc1dd-e670113093a4b6dde54c:",
+          "file": "current-year.spec.ts",
+          "title": "compact sources, relief and dated memberships preserve space and temporal scope"
+        },
+        {
+          "id": "7b9e1a1a76737f0c46af-21502d592a1748ee77c1:",
+          "file": "dependent-authorities.spec.ts",
+          "title": "colonial and autonomous territory cards retain dated local and external authorities through independence and return"
+        }
+      ]
+    },
+    {
+      "shard": 2,
+      "count": 29,
+      "tests": [
+        {
+          "id": "d5b040edf0af1651e051-36cef3dc7457e3eb6dd6:",
+          "file": "entity-revisions.spec.ts",
+          "title": "Dutch provincial authorities, union ensigns and Río governments update in the open card"
+        },
+        {
+          "id": "d5b040edf0af1651e051-bf1c223ba7d3885141a0:",
+          "file": "entity-revisions.spec.ts",
+          "title": "medieval references expose their evidence date without inventing contemporary flags"
+        },
+        {
+          "id": "2c557e336c073f4c55e0-ba84fa9c818738fed4b0:",
+          "file": "historical-detail.spec.ts",
+          "title": "compact search has no backdrop, supports keyboard and stays open during date changes"
+        },
+        {
+          "id": "2c557e336c073f4c55e0-a0cc48c6706f4145a353:",
+          "file": "historical-detail.spec.ts",
+          "title": "organizations remain selected through historical years and respect formation and dissolution"
+        },
+        {
+          "id": "2c557e336c073f4c55e0-b57585aacb64ff4cafa1:",
+          "file": "historical-detail.spec.ts",
+          "title": "historical country cards include dated leaders, images, conflicts and disputed institutions"
+        },
+        {
+          "id": "6fd15847cbac9588f054-ce648c9314fb0bf3f9c5:",
+          "file": "history-1800.spec.ts",
+          "title": "1800–1819 regimes, Italian state symbols, conflicts and persistent transition to1820"
+        },
+        {
+          "id": "d77f0c922d29e834d96f-c590331ec602850f7fd8:",
+          "file": "history-1820.spec.ts",
+          "title": "1820–1839 regimes, regencies, first Mexican empire and persistent conflict context"
+        },
+        {
+          "id": "c5135e40ffd182c7ea52-85dc8362446667e12e69:",
+          "file": "history-1840.spec.ts",
+          "title": "1840–1859 French regimes, constitutional offices and persistent conflict context"
+        },
+        {
+          "id": "c5135e40ffd182c7ea52-23177bc94d208582e3ff:",
+          "file": "history-1840.spec.ts",
+          "title": "1840 portraits and regencies, early Hawaiian succession and Gregorian Russian handover"
+        },
+        {
+          "id": "c027598ef09edd9789f0-1f37e899c43a52503813:",
+          "file": "history-1880.spec.ts",
+          "title": "1880–1899 source transition, regimes and annual workspace retain dated authorities and symbols"
+        },
+        {
+          "id": "9d65bb759a1ad114bd0c-7c429364a34f2859a45c:",
+          "file": "history-1900.spec.ts",
+          "title": "1900–1919 imperial authorities, protection and republican succession preserve the country workspace"
+        },
+        {
+          "id": "4bbd50d5f9c422bb74f2-424a3e6913ca6ec48f0a:",
+          "file": "history-1920.spec.ts",
+          "title": "1920–1949 historical authorities, flags and persistent country dates"
+        },
+        {
+          "id": "d7a66b9d5d464904cf61-5f3ca282527db1d7bc65:",
+          "file": "history-1950.spec.ts",
+          "title": "1950s leaders, stationary card header, inner scrolling and comparison actions"
+        },
+        {
+          "id": "b03ff9f920cb26a5f3ce-9f29d0ed982289552467:",
+          "file": "history-1960.spec.ts",
+          "title": "1960s authorities, historical entities and within-year administration changes retain the open country card"
+        },
+        {
+          "id": "f9f36de1e69c6297a921-9ac0718895aef204a0de:",
+          "file": "history-1970.spec.ts",
+          "title": "1970 authorities, dated organisations and Soviet colour-family context stay usable while travelling"
+        },
+        {
+          "id": "f9f36de1e69c6297a921-4a6081cec75fbc0ffab4:",
+          "file": "history-1970.spec.ts",
+          "title": "Vietnamese state succession keeps the open card without assigning a successor government backwards"
+        },
+        {
+          "id": "4841367b85a8625aabcf-963cf30bb6f8e975f97e:",
+          "file": "map-attributions.spec.ts",
+          "title": "cartographic credits live in Sources while the geographic scale remains alone"
+        },
+        {
+          "id": "deba58801967d8936f6e-85db655f6bba038c6754:",
+          "file": "map-visibility.spec.ts",
+          "title": "political and cultural switches mirror between both panels and govern real map selection"
+        },
+        {
+          "id": "deba58801967d8936f6e-cb473158c85c156fea63:",
+          "file": "map-visibility.spec.ts",
+          "title": "off choices persist through years and projection, neutral land remains, and both start on after reload"
+        },
+        {
+          "id": "ca3808f2d045805affa5-11e41ec3272dd3df6c6a:",
+          "file": "north-gesture.spec.ts",
+          "title": "right double click faces north and preserves the camera in mercator"
+        },
+        {
+          "id": "ca3808f2d045805affa5-5b7045340845fc5c08e4:",
+          "file": "north-gesture.spec.ts",
+          "title": "right double click faces north and preserves the camera in globe"
+        },
+        {
+          "id": "222c9cc5cf8069eb794a-23c1cb1ba175829b5553:",
+          "file": "playback-loading.spec.ts",
+          "title": "the play ring tracks the latest date through a delayed load and pause, keeping the card readable"
+        },
+        {
+          "id": "222c9cc5cf8069eb794a-6db809d40078cea4524b:",
+          "file": "playback-loading.spec.ts",
+          "title": "a failed year clears the ring and a retry restarts it without discarding the open card"
+        },
+        {
+          "id": "629cacf14d229b58669c-fe986121bf71353f262b:",
+          "file": "political-history.spec.ts",
+          "title": "integrated control, optional hatching, historical flags and leaders follow the war periods"
+        },
+        {
+          "id": "629cacf14d229b58669c-ff8a927676d902a57c7b:",
+          "file": "political-history.spec.ts",
+          "title": "civil-war factions, revolutionary chronology and modern authority cards work on mobile"
+        },
+        {
+          "id": "6044379e4fd48960d0b7-a252ed48f0c79250bbfc:",
+          "file": "recent-history.spec.ts",
+          "title": "all annual selections 1789 to system year render; no repeated history downloads"
+        },
+        {
+          "id": "6044379e4fd48960d0b7-a56bd3ea4de8e70a825a:",
+          "file": "recent-history.spec.ts",
+          "title": "WWII playback progresses annually, pauses precisely and opens historical profiles"
+        },
+        {
+          "id": "6044379e4fd48960d0b7-d88dc605ffd8fc81831d:",
+          "file": "recent-history.spec.ts",
+          "title": "modern country facts, global cities and economic layers retain observation years"
+        },
+        {
+          "id": "6044379e4fd48960d0b7-0d33a337c96e3bfbb961:",
+          "file": "recent-history.spec.ts",
+          "title": "slow loading preserves the previous cartography and latest requested date wins"
+        }
+      ]
+    },
+    {
+      "shard": 3,
+      "count": 29,
+      "tests": [
+        {
+          "id": "6044379e4fd48960d0b7-4e635bd9670aa100e06d:",
+          "file": "recent-history.spec.ts",
+          "title": "present endpoint follows the device year without an obsolete epoch panel or invented data"
+        },
+        {
+          "id": "09b4764ae9e0801d8295-90cb1df9cb6494894525:",
+          "file": "reported-portraits.spec.ts",
+          "title": "reported current and historical portraits decode in real country cards"
+        },
+        {
+          "id": "09b4764ae9e0801d8295-378b20ac511153caa740:",
+          "file": "reported-portraits.spec.ts",
+          "title": "Greenland is selectable by an actual map click and remains Danish across historical dates"
+        },
+        {
+          "id": "9c34a38edc36caf11306-ca36217561f4bb933f1c:",
+          "file": "review-018.spec.ts",
+          "title": "reviewed symbols and sovereign titles, dated government filters and persistent country cards"
+        },
+        {
+          "id": "9c34a38edc36caf11306-a1a193c22fb366f49027:",
+          "file": "review-018.spec.ts",
+          "title": "cities and conflict points render before1886 and remain independent of economic colours"
+        },
+        {
+          "id": "dd39072cbc6a44769822-b86c7e27c3d232730e8b:",
+          "file": "review-019.spec.ts",
+          "title": "separate funnel, positive choices, zero-result persistence and mobile controls"
+        },
+        {
+          "id": "dd39072cbc6a44769822-9a5ffc6292c84b5c53a1:",
+          "file": "review-019.spec.ts",
+          "title": "new century, German grouped seats, Asian offices and authentic symbol types"
+        },
+        {
+          "id": "837d2b653699c92d3611-a43bdd14756871faf839:",
+          "file": "review-020.spec.ts",
+          "title": "1600 century, interregnum, restoration, dynastic crowns and dated filters"
+        },
+        {
+          "id": "837d2b653699c92d3611-55494eed3aae2ae1879c:",
+          "file": "review-020.spec.ts",
+          "title": "Ming and Qing, German seats, local symbols, conflicts and continuity to1700 on mobile globe"
+        },
+        {
+          "id": "444b85bca034044dca18-ca7a809c88586b396e2b:",
+          "file": "review-021.spec.ts",
+          "title": "sixteenth century crowns, regencies, dated symbols, filters and century continuity"
+        },
+        {
+          "id": "444b85bca034044dca18-4779ec1a0a4f2bb33d9f:",
+          "file": "review-021.spec.ts",
+          "title": "American authorities, German seats, conflict markers and Japan on a mobile globe"
+        },
+        {
+          "id": "78d63cd038c95b7fd17d-134cfae7e6b753ce0f1f:",
+          "file": "review-022.spec.ts",
+          "title": "Byzantine succession, Ottoman interregnum, English restorations and continuity to1500"
+        },
+        {
+          "id": "78d63cd038c95b7fd17d-4551d2dd7c76c4c17292:",
+          "file": "review-022.spec.ts",
+          "title": "German seats, dated filters and Asian and Nasrid cards on mobile globe"
+        },
+        {
+          "id": "7d9e9f4fde34e87ba8bb-fbf57bde068c3fccb396:",
+          "file": "review-023.spec.ts",
+          "title": "French short reigns and heraldry, Yuan/Ming transition and annual continuity to1400"
+        },
+        {
+          "id": "7d9e9f4fde34e87ba8bb-f3fcccc9c33ca87bfd9d:",
+          "file": "review-023.spec.ts",
+          "title": "German seats, rival courts, Goryeo/Joseon and conflict points on a mobile globe"
+        },
+        {
+          "id": "c30b3e0f75686cf5d632-6676a26384c197b1dc86:",
+          "file": "review-024.spec.ts",
+          "title": "1200 authorities, Castilian union and Byzantine successors retain the open workspace"
+        },
+        {
+          "id": "c30b3e0f75686cf5d632-da4d08a9fc723a98736c:",
+          "file": "review-024.spec.ts",
+          "title": "Mongol regency, Yuan seat, German states and Kamakura remain usable in the mobile globe"
+        },
+        {
+          "id": "608a06c9ce806ceb961f-40b4902176d71b4e258c:",
+          "file": "review-025.spec.ts",
+          "title": "1100 authorities, disputed English succession and dated crowns remain navigable"
+        },
+        {
+          "id": "608a06c9ce806ceb961f-6f4c589087f0e9fb9103:",
+          "file": "review-025.spec.ts",
+          "title": "Song transition, grouped German states and Japanese offices work in the mobile globe"
+        },
+        {
+          "id": "0071dfded72daae6bfc4-1d01c836c314c39808f5:",
+          "file": "review-026.spec.ts",
+          "title": "1000 crowns, documentary seal, conquest and Bohemian royal dignity remain navigable"
+        },
+        {
+          "id": "0071dfded72daae6bfc4-6faaca880fc2e9a2240a:",
+          "file": "review-026.spec.ts",
+          "title": "Song, regents and imperial succession work in the mobile globe"
+        },
+        {
+          "id": "35661993cb00272470d1-88947d5eb7defaf82965:",
+          "file": "review-027.spec.ts",
+          "title": "900 dates use a compact keyboard entry and retain open country cards"
+        },
+        {
+          "id": "35661993cb00272470d1-2e29823af470a95ce3c6:",
+          "file": "review-027.spec.ts",
+          "title": "900 globe, mobile date entry and Korean transitions remain usable"
+        },
+        {
+          "id": "f9fc51ad29dc48966a84-95ac54a049a05ec2442a:",
+          "file": "review-032.spec.ts",
+          "title": "800 annual map, Carolingian partition and cultural continuity retain open cards"
+        },
+        {
+          "id": "f9fc51ad29dc48966a84-78f171375e5dbe0480a0:",
+          "file": "review-032.spec.ts",
+          "title": "800 cultures and dated Asian authorities remain usable in the mobile globe"
+        },
+        {
+          "id": "4b2698f01d2504412fa0-70cd8efbab6ab6726cd9:",
+          "file": "review-033.spec.ts",
+          "title": "700 political successors and cultural cards remain selectable through the 800 boundary"
+        },
+        {
+          "id": "4b2698f01d2504412fa0-ebf2bad090136f5be648:",
+          "file": "review-033.spec.ts",
+          "title": "Wu Zhou, restored Tang and Nara reigns work in the narrow globe"
+        },
+        {
+          "id": "303a4758225ac1e1c459-fcd74263fd66598a80c3:",
+          "file": "review-034.spec.ts",
+          "title": "600 source transitions and documentary courts remain consultable without future borders"
+        },
+        {
+          "id": "303a4758225ac1e1c459-1a6ca770d0ac16670e21:",
+          "file": "review-034.spec.ts",
+          "title": "Medina, Sasanian crisis and rival caliphal courts retain their distinct authorities"
+        }
+      ]
+    },
+    {
+      "shard": 4,
+      "count": 29,
+      "tests": [
+        {
+          "id": "303a4758225ac1e1c459-2558ebf697217e977fde:",
+          "file": "review-034.spec.ts",
+          "title": "Asuka restorations, Korean authorities, filters and conflicts remain usable on a narrow globe"
+        },
+        {
+          "id": "43d5e1caa01a1ec343f7-192db5af307b1c2a875a:",
+          "file": "review-035.spec.ts",
+          "title": "500 Byzantine accessions, regency and the restored Persian reign keep the country card open"
+        },
+        {
+          "id": "43d5e1caa01a1ec343f7-04187e97edb3878fae60:",
+          "file": "review-035.spec.ts",
+          "title": "independent Maya courts coexist with regional evidence and continue over600"
+        },
+        {
+          "id": "43d5e1caa01a1ec343f7-b971b142325ea3da8ab0:",
+          "file": "review-035.spec.ts",
+          "title": "Sui documentary court, Chinese succession and visibility filters work on a narrow globe"
+        },
+        {
+          "id": "fbab1d99328d01732f26-1aaa8126667eae249d37:",
+          "file": "review-036.spec.ts",
+          "title": "400 Western imperial offices, Nepos and the Italian documentary courts remain distinct"
+        },
+        {
+          "id": "fbab1d99328d01732f26-ea44bf3c8fc314167970:",
+          "file": "review-036.spec.ts",
+          "title": "Jin and Liu Song courts, Northern Wei and dated filters work on a narrow globe"
+        },
+        {
+          "id": "fbab1d99328d01732f26-b5a2ea24a913416df4c8:",
+          "file": "review-036.spec.ts",
+          "title": "Maya accession evidence, retrospective portraits and regional continuity survive500"
+        },
+        {
+          "id": "5a9225492f118342ec7d-8a813216b6c58a7e742c:",
+          "file": "review-037.spec.ts",
+          "title": "300 tetrarchic dignity and395 court succession preserve open cards"
+        },
+        {
+          "id": "5a9225492f118342ec7d-beae0bc45b5329953936:",
+          "file": "review-037.spec.ts",
+          "title": "Western and Eastern Jin, regional visibility and400 continuity work on mobile globe"
+        },
+        {
+          "id": "5a9225492f118342ec7d-89898770208af6c32e2e:",
+          "file": "review-037.spec.ts",
+          "title": "coin viewport shows one complete face and Valentinian uses the restored Louvre head"
+        },
+        {
+          "id": "340f7e51e9f457f51c4d-5fc5a80257e58f61aff4:",
+          "file": "review-038.spec.ts",
+          "title": "200 Roman crisis, Gallic restoration and documentary Palmyra retain open cards"
+        },
+        {
+          "id": "340f7e51e9f457f51c4d-14644190b63f9265a4fd:",
+          "file": "review-038.spec.ts",
+          "title": "Han, Three Kingdoms and Jin documentary offices remain usable in a mobile globe"
+        },
+        {
+          "id": "340f7e51e9f457f51c4d-cdf6e747966cdfd2c8c0:",
+          "file": "review-038.spec.ts",
+          "title": "Afghan and Iraqi military references show qualified optional hatching with national identities"
+        },
+        {
+          "id": "340f7e51e9f457f51c4d-9b4258c0f75d666109da:",
+          "file": "review-038.spec.ts",
+          "title": "ruler offers fifty-year labels, a first-year mark and annual manual stepping without zero"
+        },
+        {
+          "id": "a3c8c6a8a3efe24da858-cd550e44b75af6e5d38e:",
+          "file": "review-039.spec.ts",
+          "title": "100 Roman portraits, joint dignity and193 rivals retain the country workspace through200"
+        },
+        {
+          "id": "a3c8c6a8a3efe24da858-5fb53e2a62b584a98a4a:",
+          "file": "review-039.spec.ts",
+          "title": "Han short accessions and regencies, then Kushan chronology work in a mobile globe"
+        },
+        {
+          "id": "a3c8c6a8a3efe24da858-379f1ee3720da1829e94:",
+          "file": "review-039.spec.ts",
+          "title": "Dacian and rebel documentary seats coexist with dated cultures and independent visibility"
+        },
+        {
+          "id": "dcd68e368e75dbd4214b-c8f520cfa1ad018338de:",
+          "file": "review-040.spec.ts",
+          "title": "first century Roman succession, portraits and annual117 retain the open card"
+        },
+        {
+          "id": "dcd68e368e75dbd4214b-7e541ed51340f169a0c8:",
+          "file": "review-040.spec.ts",
+          "title": "Han heir, Xin transition and Trưng authority remain dated on a mobile globe"
+        },
+        {
+          "id": "dcd68e368e75dbd4214b-8480138d8f3fba85bca9:",
+          "file": "review-040.spec.ts",
+          "title": "first century cultures retain their BCE source date and independent visibility"
+        },
+        {
+          "id": "0f0aa89b18cb82429164-114abc2a53db29d038c6:",
+          "file": "review-041.spec.ts",
+          "title": "late Republic and Principate remain dated, then cross1BCE/1CE without closing the imperial card"
+        },
+        {
+          "id": "0f0aa89b18cb82429164-e65bba5d98be9287f6e2:",
+          "file": "review-041.spec.ts",
+          "title": "Han short accessions, Egyptian portraits and the1BCE/1CE handover work on a mobile globe"
+        },
+        {
+          "id": "0f0aa89b18cb82429164-2560cc3bc959737b8a77:",
+          "file": "review-041.spec.ts",
+          "title": "cultural cards and optional conflict points retain correct civil dates, including Musa at1CE"
+        },
+        {
+          "id": "a6e196e98336a2c4980d-dbfbe812f11074a66bc8:",
+          "file": "review-042.spec.ts",
+          "title": "200BCE Roman magistratures and late republican continuity keep the open card"
+        },
+        {
+          "id": "a6e196e98336a2c4980d-21f128065c04931b20c9:",
+          "file": "review-042.spec.ts",
+          "title": "Egyptian restorations and Han regency work in the narrow globe"
+        },
+        {
+          "id": "a6e196e98336a2c4980d-f820c2b1c625a417b1cb:",
+          "file": "review-042.spec.ts",
+          "title": "Carthage has an identified later portrait and cultural consultation survives conquest"
+        },
+        {
+          "id": "0e3fb21509cdfb9056b7-da6ad56941193abeda58:",
+          "file": "temporal-selection.spec.ts",
+          "title": "real country clicks recover complete identities after travelling outside the reviewed period and back"
+        },
+        {
+          "id": "e60b65547fee4a6cb3d5-2ce42cfea49aacd8ae3a:",
+          "file": "wartime-partitions.spec.ts",
+          "title": "prepared1940–1944 replacements load through the production path and retain neutral country clicks with hatching"
+        },
+        {
+          "id": "e60b65547fee4a6cb3d5-dd64304296b509816cd9:",
+          "file": "wartime-partitions.spec.ts",
+          "title": "Italy1912 keeps a compact authority layout and Swiss original GIF portraits load across dates"
+        }
+      ]
+    }
+  ],
+  "everyTestAssignedExactlyOnce": true,
+  "workersPerMachine": 1,
+  "independentMachines": 4,
+  "scope": "Local collection audit; verifies full test assignment, not a measured GitHub execution time. Browser runs and publication validation are reported separately."
+}

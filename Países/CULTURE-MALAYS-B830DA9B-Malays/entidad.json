@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-MALAYS-B830DA9B",
+  "name": "Malays",
+  "qid": "",
+  "aliases": [
+    "Malays"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MALAYS-B830DA9B-YBC0200:0",
+      "contextKey": "CULTURE-MALAYS-B830DA9B",
+      "start": -200,
+      "end": -101,
+      "sourceYear": -200,
+      "canonicalFile": "Países/CULTURE-MALAYS-B830DA9B-Malays/poblamiento/CULTURE-MALAYS-B830DA9B-YBC0200.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MALAYS-B830DA9B-YBC0200:1",
+      "contextKey": "CULTURE-MALAYS-B830DA9B",
+      "start": -100,
+      "end": 99,
+      "sourceYear": -200,
+      "canonicalFile": "Países/CULTURE-MALAYS-B830DA9B-Malays/poblamiento/CULTURE-MALAYS-B830DA9B-YBC0200.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

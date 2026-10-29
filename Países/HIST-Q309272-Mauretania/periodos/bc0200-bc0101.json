@@ -1,0 +1,161 @@
+{
+  "key": "HIST-Q309272",
+  "identity": {
+    "qid": "Q309272",
+    "name": "Mauretania"
+  },
+  "revision": "0.42.0",
+  "acquisition": "century-bc200-0.42",
+  "coverageStart": -200,
+  "coverageEnd": -101,
+  "candidates": [
+    {
+      "role": "Autoridad documentada · ámbito contrastado al congelar",
+      "titles": [
+        "Bocchus I"
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q530576",
+      "name": "Boco I",
+      "role": "Rey de Mauritania · cronología aproximada",
+      "start": "-0111-01-01",
+      "end": "-0101-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bocchus_I",
+      "note": "Síntesis documental anual; no fecha diaria uniforme ni control homogéneo de todo el contorno. Cronologías y calendarios conservan variantes.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-143b11a4d9c86adfd757.jpg",
+        "title": "Possible coin of Bocchus I.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Possible_coin_of_Bocchus_I.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Possible_coin_of_Bocchus_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Louis Charrier",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Possible_coin_of_Bocchus_I.jpg#Licensing",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "\"Description des monnaies de la Numidie et de la Maurétanie et leur prix basé sur le degré de rareté\", PL. X",
+        "sha256": "ceb47d57ca7546b6f04218e0fbff22e0335654f9cdd86aad46efe14a1c140ed8",
+        "bytes": 87511,
+        "canonicalFile": "Países/HIST-Q309272-Mauretania/retratos/portrait-143b11a4d9c86adfd757.jpg",
+        "caption": "Posible efigie deBocoI, atribución discutida; no identificación inequívoca. Se muestra la cara izquierda completa con la efigie.",
+        "coinFace": "left"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -200,
+      "end": -101,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mauretania",
+      "sourceLabel": "Referencia institucional · sigloIIa.C.",
+      "note": "Clasificación institucional, no evaluación democrática moderna. Fechas y dependencia se resuelven por ámbito."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Mauretania"
+        ],
+        "start": -200,
+        "end": -101,
+        "label": "Mauretania",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc200.md",
+        "note": "Síntesis de intervalos inclusivos; el año0 de algunos límites originales no se publica como año civil. No es una observación anual independiente."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc0200-bc0101.geojson",
+      "sha256": "6f522ad12ea06a384422b365d308e2d9fbcab4224f4aae494a800fe362d68a80",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        747,
+        842,
+        934
+      ],
+      "note": "Coordenadas, propiedades e índice originales íntegros, sin agregados duplicados."
+    }
+  ],
+  "pending": [
+    "Completar autoridades y cronologías alternativas con bibliografía local; no inferir mandatos de nacimiento/muerte ni inventar insignias.",
+    "Fuentes y variantes cronológicas enRESEARCH-bc200; el límite101a.C. es de cobertura, no extinción ni abdicación."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bocchus I",
+        "title": "Bocchus I",
+        "person": "Q530576",
+        "name": "Boco I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bocchus_I",
+        "identityResolution": {
+          "requested": "Bocchus I",
+          "canonical": "Bocchus I",
+          "qid": "Q530576"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q530576",
+        "title": "Bocchus I",
+        "source": "https://en.wikipedia.org/wiki/Bocchus_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Mauretania",
+            "raw": "{{circa|110|80s}} BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": [
+    {
+      "title": "Bocchus I",
+      "person": "Q530576",
+      "adopted": [
+        -111,
+        -101
+      ],
+      "method": "Identidad, dignidad y evidencia del cargo cotejadas; no fechas de vida.",
+      "source": "https://en.wikipedia.org/wiki/Bocchus_I"
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q530576",
+      "name": "Boco I",
+      "title": "Possible coin of Bocchus I.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Possible_coin_of_Bocchus_I.jpg",
+      "sha256": "ceb47d57ca7546b6f04218e0fbff22e0335654f9cdd86aad46efe14a1c140ed8",
+      "decision": "accepted",
+      "reviewDate": "2026-10-29",
+      "method": "Inspección de imagen completa, identidad del representado y cara monetaria; no aceptación automática del campoP18."
+    }
+  ]
+}

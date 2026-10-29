@@ -1,0 +1,79 @@
+{
+  "key": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE-YBC0200",
+  "contextKey": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE",
+  "ownerKey": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE",
+  "name": "Pomeranian culture",
+  "originalNames": [
+    "Pomeranian culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Ámbito regional de la compilación200a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -200,
+    99
+  ],
+  "interpretation": "Referencia regional de comunidades y redes; no Estado unitario, identidad homogénea o frontera exclusiva.",
+  "spatialUncertainty": "Contorno original de compilación mundial; resolución desigual y delimitación regional pendiente. No es una frontera política anual ni un censo.",
+  "temporalUncertainty": "Referencia de200a.C.; la consulta no acredita límites constantes. Los ámbitos sin nueva referencia se conservan como contexto histórico, no como población observada en una fecha posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps200a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    17.4919,
+    53.71225
+  ],
+  "phases": [
+    {
+      "start": -200,
+      "end": -101,
+      "label": "Pomeranian culture",
+      "dateBasis": "Referencia espacial de200a.C.; ventana de consulta sin observaciones independientes anuales.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -200
+    },
+    {
+      "start": -100,
+      "end": 99,
+      "label": "Pomeranian culture",
+      "dateBasis": "Consulta del ámbito histórico anterior; continuidad de habitantes o límites actuales no inferida.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -200,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-POMERANIAN-CULTURE-BB6C6BCE-YBC0200.geojson",
+  "geometrySha256": "a25a664442b9d125380d818085037dab9278882f3f31107ce4ee3cb4e8980c07",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson",
+    "year": -200,
+    "featureIds": [
+      153
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e192a3330a7e51358b61a6bfffaf6ff3e9ebf4eb96b532a23632316e86066a80"
+  },
+  "review": "0.42.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar bibliografía y delimitación local. El cierre de ventana no demuestra extinción."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Pomeranian culture ",
+      "ABBREVN": "Pomeranian culture ",
+      "SUBJECTO": "Pomeranian culture ",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Baltic archeological cultures"
+    }
+  ],
+  "sourceGrouping": [
+    "Pomeranian culture "
+  ]
+}

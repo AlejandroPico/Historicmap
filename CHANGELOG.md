@@ -1,5 +1,15 @@
 # Historial de versiones
 
+## 0.42.0 · 29 de octubre de 2026
+
+- Consulta anual de 200–101 a. C.: 57 dossiers, 180 registros de autoridades, 158 componentes políticos originales, 32 centros, 23 contextos y 12 referencias regionales de conflictos.
+- República romana, sucesiones ptolemaicas y Han, distritos y provincia macedonios, anexiones de Cartago/Pérgamo y cronologías arsácidas diferenciados. Autoridades colectivas y fechas discutidas expresas.
+- 85 originales culturales conservados y 98 fases nuevas; las comunidades y contextos históricos siguen disponibles tras los cambios políticos. Se mantiene el enlace entre eras sin año cero.
+- 115 candidatos visuales inspeccionados: 85 aceptados y 30 apartados. Aníbal recibe una representación artística identificada de Slodtz; monedas, medallones y esculturas conservan atribuciones y límites. Formato compacto habitual de las fichas.
+- Fechas de episodios con día y mes de dos cifras: Borodinó muestra 07/09/1812. Se conserva el formato propio de los mandatos.
+- Auditoría de los mismos 1.006 años optimizada mediante comparación de valores y reutilización de nombres normalizados, sin retirar controles ni ampliar el tiempo máximo. Pruebas de versión y límite temporal ligadas a los datos vigentes.
+- Conservación, reproducibilidad y carencias documentadas. Se mantienen las cuatro máquinas de CI; el propietario comprueba la publicación.
+
 ## 0.41.0 · 28 de octubre de2026
 
 - Consulta anual100–1a.C., con63 dossiers,172 cargos y190 componentes originales;30 centros,24 contextos y ocho referencias regionales de conflictos.

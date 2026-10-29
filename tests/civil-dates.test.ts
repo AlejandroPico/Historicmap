@@ -1,5 +1,5 @@
 import{describe,it,expect}from'vitest';
-import{compareDates,dateYear,dateParts,isoYear}from'../src/dates';
+import{compareDates,dateYear,dateParts,isoYear,formatEventDate}from'../src/dates';
 import{identityFor,identityMarkup,referenceDate,formatMandateDate,type IdentityData}from'../src/identities';
 import{dayBefore}from'../src/territorial-administrations';
 import{recordsFor,countryTimeline,type CountryHistory}from'../src/country-history';
@@ -10,7 +10,7 @@ describe('civil dates across BCE and CE without a year zero',()=>{
  it('rejects civil year zero rather than silently interpreting it as an astronomical date',()=>{expect(()=>dateParts('0000-01-01')).toThrow();expect(()=>isoYear(0)).toThrow();expect(()=>dateParts('-0000-01-01')).toThrow();expect(isoYear(-1)).toBe('-0001');});
  it('clips consultation to the selected BCE year instead of the acquisition year',()=>{expect(referenceDate(-100,data.retrieved)).toBe('-0100-12-31');expect(referenceDate(-1,data.retrieved)).toBe('-0001-12-31');});
  it('keeps a continuous reign present on both sides and orders intrayear succession newest first',()=>{expect(identityFor({identityKey:'TEST'},-50,data).leaders.map(l=>l.person)).toEqual(['new','old']);for(const y of [-1,1])expect(identityFor({identityKey:'TEST'},y,data).leaders.map(l=>l.person)).toEqual(['new']);expect(identityFor({identityKey:'TEST'},-75,data).leaders.map(l=>l.person)).toEqual(['old']);});
- it('formats BCE mandate years explicitly without changing positive-date presentation',()=>{expect(formatMandateDate('-0001-12-31',9)).toBe('1 a. C.');expect(formatMandateDate('-0100-02-03',11)).toBe('3/2/100 a. C.');expect(formatMandateDate('1970-02-03',11)).toBe('3/2/1970');expect(identityMarkup({identityKey:'TEST'},-75,data,'/')).toContain('term-current');});
+ it('formats BCE mandate years explicitly without changing positive-date presentation',()=>{expect(formatMandateDate('-0001-12-31',9)).toBe('1 a. C.');expect(formatMandateDate('-0100-02-03',11)).toBe('3/2/100 a. C.');expect(formatMandateDate('1970-02-03',11)).toBe('3/2/1970');expect(formatEventDate('1812-09-07')).toBe('07/09/1812');expect(formatEventDate('-0200-09-07')).toBe('07/09/200 a. C.');expect(identityMarkup({identityKey:'TEST'},-75,data,'/')).toContain('term-current');});
  it('moves to the preceding civil day across the era boundary without exposing zero',()=>{expect(dayBefore('0001-01-01')).toBe('-0001-12-31');expect(dayBefore('-0001-01-01')).toBe('-0002-12-31');expect(dayBefore('1970-01-01')).toBe('1969-12-31');});
  it('retains BCE institutional records and navigable timeline years',()=>{const h:CountryHistory={retrieved:data.retrieved,referenceDate:data.retrieved,relations:[],records:[{id:'r',keys:['TEST'],start:'-0100-01-01',end:'0002-01-01',section:'institutions',title:'Institución',text:'Continuidad',source:'test',sourceLabel:'test'}]};for(const y of [-75,-1,1])expect(recordsFor('TEST','institutions',y,h)).toHaveLength(1);expect(recordsFor('TEST','institutions',2,h)).toHaveLength(0);expect(countryTimeline({identityKey:'TEST'},-1,data,h).filter(e=>e.type==='authorities').map(e=>dateYear(e.date))).toEqual([-50,-100]);});
 });

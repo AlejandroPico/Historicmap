@@ -1,0 +1,43 @@
+{
+  "key": "CULTURE-DARDANIA-D2FC59ED",
+  "name": "Dardania",
+  "qid": "",
+  "aliases": [
+    "Dardania"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-DARDANIA-D2FC59ED-YBC0200:0",
+      "contextKey": "CULTURE-DARDANIA-D2FC59ED",
+      "start": -200,
+      "end": -101,
+      "sourceYear": -200,
+      "canonicalFile": "Países/CULTURE-DARDANIA-D2FC59ED-Dardania/poblamiento/CULTURE-DARDANIA-D2FC59ED-YBC0200.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-DARDANIA-D2FC59ED-YBC0200:1",
+      "contextKey": "CULTURE-DARDANIA-D2FC59ED",
+      "start": -100,
+      "end": 99,
+      "sourceYear": -200,
+      "canonicalFile": "Países/CULTURE-DARDANIA-D2FC59ED-Dardania/poblamiento/CULTURE-DARDANIA-D2FC59ED-YBC0200.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}
