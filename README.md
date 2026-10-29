@@ -2,7 +2,7 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.44.0** · 29 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.44.1** · 29 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
@@ -106,3 +106,7 @@ Actualización0.38.0: consulta anual200–299 con culturas, crisis romana, Tres 
 Actualización0.39.0: consulta anual100–199 con política y culturas; sucesiones romanas, corte Han, reyes partos y cronologías kushanes. Centros dacios, nabateos y de Bar Kojba, imágenes revisadas y fechas tempranas corregidas. [Fuentes y carencias](docs/RESEARCH-100.md).
 
 Cierre0.44.0. ÍndiceGit final: 1034 archivos nuevos/modificados cotejados con sus bytes locales; 9206 recursos de manifiestos verificados porSHA-256 yblobGit (9129 blobs de recursos anteriores sin cambios); 1229 originales canónicos de símbolos/representaciones comprobados directamente en el índice. Los cuatro documentos de cierre se cotejan otra vez después de incorporar estas cifras. No se espera ni sondea Actions/Pages.
+
+Corrección0.44.1: sincronización de fichas e identidades tras revisar autoridades. Conserva toda la ampliación hasta600a.C. [Causa y comprobaciones](docs/DELIVERY-0.44.1.md).
+
+Cierre0.44.1:330 pruebas correctas antes del build, dos comprobaciones del catálogo repetidas después y compilación de producción correcta. Datos y medios anteriores conservados; publicación pendiente de comprobación del propietario.

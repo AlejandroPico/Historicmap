@@ -1,6 +1,19 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.44.0 · 600–301 a. C.
+## Encargo vigente · 0.44.1 · fallo de catálogo comunicado
+
+- [x] Reproducir el fallo original y una regresión que fuerza una ficha desactualizada.
+- [x] Encadenar registro y actualización del catálogo; conservar el control que compara todas las fichas con sus identidades.
+- [x] Regenerar las vistas, ejecutar la batería completa antes del build y verificar integridad/tipos/compilación.
+- [x] Documentar resultados finales y preparar el envío a main sin esperar Actions/Pages.
+
+Partida e0d0841f7. CI:328/329 correctas. La corrección tardía de Huiwen llegó a los datos y no a su entidad/índice; la pasada general local había precedido a ese ajuste. Nuevo test reproduce el defecto del flujo y comprueba idempotencia, carpeta estable y propagación de errores. No revertir Huiwen ni descartar los tres siglos. No repetir adquisiciones ni curaciones044. Publicación pendiente de confirmación del propietario.
+
+Cierre local0.44.1:330 pruebas/70 suites correctas sobre los archivos sincronizados, antes de ejecutar el build de producción. npm run build completo (catálogo, tipos y Vite) correcto; otras dos pruebas del catálogo correctas después del build. Integridad135 recursos de datos/11 franjas tipográficas/9.060 medios correcta. Los135 recursos conservan sus SHA y metadatos anteriores salvo la versión; datos, geometrías y medios públicos no cambian. La ficha e índice deQin coinciden con sus22 registros y las dos etapas canónicas deHuiwen. Evidencia en CATALOG-FIX-0441.json. No se vuelven a adquirir datos ni se afirma haber ejecutado localmente los123 recorridos de navegador; se mantienen los cuatro grupos deCI.
+
+Contenido terminado; verificar HEAD/origin/main y árbol limpio al retomar antes de repetir operaciones. El propietario confirma publicación.
+
+## Entrega anterior · 0.44.0 · 600–301 a. C.
 
 - [x] Inventario, fuentes y cronologías de los tres siglos.
 - [x] Dossiers políticos y culturales, autoridades y representaciones acreditadas en Países.

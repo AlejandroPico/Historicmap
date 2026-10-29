@@ -1,4 +1,5 @@
-/** Refresh generated resource metadata after compiling entity-owned revisions. */
+/** Refresh resource metadata and entity views after compiling entity-owned revisions. */
+import{execFileSync}from'node:child_process';
 import{readFileSync,writeFileSync,readdirSync,existsSync}from'node:fs';import{createHash}from'node:crypto';
 const read=p=>JSON.parse(readFileSync(p,'utf8')),manifest=read('public/data/manifest.json');
 const changed=new Set(['identities.json','country-history.json','governance.json','historical-places.json','historical-context.json','conflict-points.geojson','political-influence.json']);
@@ -22,3 +23,6 @@ for(const e of manifest.entries)if(changed.has(e.file)){
 const serializedManifest=JSON.stringify(manifest,null,2)+'\n';
 if(readFileSync('public/data/manifest.json','utf8')!==serializedManifest)writeFileSync('public/data/manifest.json',serializedManifest);
 console.log('Registered entity revisions:',changed.size,'data resources.');
+// Tests run before the production build: publish both views of every correction together.
+// Let a failed catalogue refresh fail this command instead of leaving a silent stale view.
+execFileSync(process.execPath,['scripts/prepare-country-catalog.mjs'],{stdio:'inherit'});

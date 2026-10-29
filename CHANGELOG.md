@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.44.1 · 29 de octubre de 2026
+
+- Sincroniza la ficha generada de Qin y su índice con las dos etapas de Huiwen: señor antes de325a.C. y rey desde325. No se revierten los datos corregidos de0.44.0.
+- El registro de revisiones actualiza también el catálogo de entidades y propaga sus errores. Las pruebas siguen ejecutándose sobre los archivos registrados antes de compilar la aplicación.
+- Regresión aislada de catálogo desactualizado, conservación de carpeta, segunda ejecución sin diferencias y propagación de errores. Se conserva la comparación exhaustiva entre fichas e identidades.
+- Se mantiene toda la ampliación600–301a.C. y los cuatro grupos de navegador. El propietario comprueba el despliegue.
+
 ## 0.44.0 · 29 de octubre de 2026
 
 - Consulta anual600–301a.C.:87 dossiers,427 registros de autoridades,296 componentes originales,47 centros,44 contextos y34 puntos de conflictos.

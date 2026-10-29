@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **29 de octubre de 2026**. Versión del producto: **0.44.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **29 de octubre de 2026**. Versión del producto: **0.44.1**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección58; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección59; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente0.44.0:** ampliar600–301a.C. con política y culturas en una tanda de tres siglos. Preservar etapas posteriores, documentar incertidumbres y validar localmente antes del envío a main, sin esperar Actions/Pages. Ver sección58 y tareas.md.
+**Encargo vigente0.44.1:** corregir el fallo de catálogo comunicado enCI para0.44.0 y enviar la reparación con toda la ampliación600–301a.C. conservada. No esperar Actions/Pages.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1282,3 +1282,16 @@ Validación y cierre en DELIVERY-0.44.0/tareas.md.329 generales/70 suites correc
 Pendientes reales: partición macedonia315–308, contornos de ciudades/dinastías egipcias y fases deJin; cronologías regionales, mandatos completos, representaciones y símbolos acreditados. Xinzheng230, Copán, dependencia etolia, títulos heredados de fichas culturales y frentes modernos previos siguen abiertos. No iniciar antes600 sin encargo. Tras subir, no esperar ni sondear Actions/Pages; el propietario confirma publicación. Al reanudar, leer tareas y cotejar HEAD/origin/main antes de repetir procesos ya enviados.
 
 ÍndiceGit final: 1034 archivos nuevos/modificados cotejados con sus bytes locales; 9206 recursos de manifiestos verificados porSHA-256 yblobGit (9129 blobs de recursos anteriores sin cambios); 1229 originales canónicos de símbolos/representaciones comprobados directamente en el índice. Los cuatro documentos de cierre se cotejan otra vez después de incorporar estas cifras. No se espera ni sondea Actions/Pages.
+
+
+## 59. Corrección de catálogo anterior a la compilación · 0.44.1
+
+CI de0.44.0 dio328/329: la revisión final de Huiwen actualizó el dossier canónico y public/data/identities.json, pero no Países/QIN-STATE-WARRING-Qin-estado-anterior-al-imperio/entidad.json ni la cuenta del índice. La batería general329 pasó antes de ese último ajuste; las25 focales posteriores no incluían entity-catalog. El build incremental local omitía el paso del catálogo que npm run build sí ejecuta; enCI npm test precede al build. No confundir comprobaciones de momentos distintos ni afirmar el cierre completo sin probar el catálogo final.
+
+register-entity-revisions.mjs ahora ejecuta prepare-country-catalog.mjs al finalizar y propaga su error. Compilación canónica → registro/metadatos → catálogo forman la secuencia operativa; no depender de compilar la interfaz para sincronizar vistas. No añadir generación al inicio de npm test ni alterar las aserciones para ocultar divergencias. La nueva regresión usa un repositorio temporal mínimo y verifica fases, carpeta estable, índice, repetición idéntica y error de catálogo. La comparación completa de todas las entidades se mantiene. Fuentes/culturas/geometrías/retratos de0.44.0 no se revierten.
+
+Comprobaciones y siguiente paso en tareas.md y DELIVERY-0.44.1. Mantener cuatro grupos de navegador y no esperar ni sondear Actions/Pages.
+
+Cierre local0.44.1:330 pruebas/70 suites correctas sobre los archivos sincronizados, antes de ejecutar el build de producción. npm run build completo (catálogo, tipos y Vite) correcto; otras dos pruebas del catálogo correctas después del build. Integridad135 recursos de datos/11 franjas tipográficas/9.060 medios correcta. Los135 recursos conservan sus SHA y metadatos anteriores salvo la versión; datos, geometrías y medios públicos no cambian. La ficha e índice deQin coinciden con sus22 registros y las dos etapas canónicas deHuiwen. Evidencia en CATALOG-FIX-0441.json. No se vuelven a adquirir datos ni se afirma haber ejecutado localmente los123 recorridos de navegador; se mantienen los cuatro grupos deCI.
+
+Al reanudar, comprobar HEAD/origin/main y tareas.md antes de repetir el envío. No esperar ni sondear Actions/Pages.

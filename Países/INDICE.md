@@ -1811,7 +1811,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Salian Franks](./Q939852-Salian-Franks/entidad.json) | Q939852 | 0 | 0 | 0 | 7 |
 | [Catar](./QAT-Catar/entidad.json) | QAT | 1 | 0 | 24 | 10 |
 | [Imperio Qin](./QIN-EMPIRE-Imperio-Qin/entidad.json) | QIN-EMPIRE | 0 | 0 | 3 | 0 |
-| [Qin · estado anterior al imperio](./QIN-STATE-WARRING-Qin-estado-anterior-al-imperio/entidad.json) | QIN-STATE-WARRING | 0 | 0 | 21 | 7 |
+| [Qin · estado anterior al imperio](./QIN-STATE-WARRING-Qin-estado-anterior-al-imperio/entidad.json) | QIN-STATE-WARRING | 0 | 0 | 22 | 7 |
 | [Imperio de la dinastía Qing](./QING-Imperio-de-la-dinastia-Qing/entidad.json) | QING | 4 | 0 | 27 | 56 |
 | [Mill Creek · referencia fuera de época](./QUARANTINE-MILL-CREEK-500-Mill-Creek-referencia-fuera-de-epoca/entidad.json) | QUARANTINE-MILL-CREEK-500 | 0 | 0 | 0 | 0 |
 | [Poverty Point · referencia fuera de época](./QUARANTINE-POVERTY-POINT-500-Poverty-Point-referencia-fuera-de-epoca/entidad.json) | QUARANTINE-POVERTY-POINT-500 | 0 | 0 | 0 | 0 |
