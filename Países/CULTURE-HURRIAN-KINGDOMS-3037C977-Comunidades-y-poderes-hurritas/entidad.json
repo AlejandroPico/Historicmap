@@ -1,0 +1,53 @@
+{
+  "key": "CULTURE-HURRIAN-KINGDOMS-3037C977",
+  "name": "Comunidades y poderes hurritas",
+  "qid": "",
+  "aliases": [
+    "Comunidades y poderes hurritas",
+    "Hurrian Kingdoms"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc3000.geojson",
+      "recordId": 21,
+      "start": null,
+      "end": null,
+      "name": "Hurrian Kingdoms",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-HURRIAN-KINGDOMS-3037C977-YBC2000-R046:0",
+      "contextKey": "CULTURE-HURRIAN-KINGDOMS-3037C977",
+      "start": -2000,
+      "end": -1501,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/CULTURE-HURRIAN-KINGDOMS-3037C977-Comunidades-y-poderes-hurritas/poblamiento/CULTURE-HURRIAN-KINGDOMS-3037C977-YBC2000-R046.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-HURRIAN-KINGDOMS-3037C977-YBC2000-R046:1",
+      "contextKey": "CULTURE-HURRIAN-KINGDOMS-3037C977",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/CULTURE-HURRIAN-KINGDOMS-3037C977-Comunidades-y-poderes-hurritas/poblamiento/CULTURE-HURRIAN-KINGDOMS-3037C977-YBC2000-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

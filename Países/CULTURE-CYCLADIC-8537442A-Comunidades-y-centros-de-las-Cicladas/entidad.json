@@ -1,0 +1,53 @@
+{
+  "key": "CULTURE-CYCLADIC-8537442A",
+  "name": "Comunidades y centros de las Cícladas",
+  "qid": "",
+  "aliases": [
+    "Comunidades y centros de las Cícladas",
+    "Cycladic"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc3000.geojson",
+      "recordId": 37,
+      "start": null,
+      "end": null,
+      "name": "Cycladic",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CYCLADIC-8537442A-YBC2000-R046:0",
+      "contextKey": "CULTURE-CYCLADIC-8537442A",
+      "start": -2000,
+      "end": -1501,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/CULTURE-CYCLADIC-8537442A-Comunidades-y-centros-de-las-Cicladas/poblamiento/CULTURE-CYCLADIC-8537442A-YBC2000-R046.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CYCLADIC-8537442A-YBC2000-R046:1",
+      "contextKey": "CULTURE-CYCLADIC-8537442A",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/CULTURE-CYCLADIC-8537442A-Comunidades-y-centros-de-las-Cicladas/poblamiento/CULTURE-CYCLADIC-8537442A-YBC2000-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

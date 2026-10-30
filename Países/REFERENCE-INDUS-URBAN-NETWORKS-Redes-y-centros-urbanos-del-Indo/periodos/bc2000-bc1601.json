@@ -1,0 +1,159 @@
+{
+  "key": "REFERENCE-INDUS-URBAN-NETWORKS",
+  "identity": {
+    "qid": "",
+    "name": "Redes y centros urbanos del Indo"
+  },
+  "revision": "0.46.0",
+  "acquisition": "period-bc2000-0.46",
+  "coverageStart": -2000,
+  "coverageEnd": -1601,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution046-REFERENCE-INDUS-URBAN-NETWORKS-2000",
+      "start": "-2000-01-01",
+      "end": "-1600-01-01",
+      "precision": 9,
+      "section": "institutions",
+      "title": "Redes urbanas sin un soberano individual acreditado",
+      "text": "Harappa, Mohenjo-daro y Dholavira pertenecen a redes urbanas y regionales. La escritura no descifrada y la organización institucional discutida no permiten asignarles un monarca conocido. La figura llamada convencionalmente «rey-sacerdote» no acredita ese cargo ni su identidad. Desde aproximadamente 1900 se distinguen transformaciones harappenses tardías, no un imperio persistente.",
+      "source": "https://www.harappa.com/content/recent-indus-discoveries-and-highlights-excavations-harappa-1998-2000",
+      "sourceLabel": "Referencia documental y arqueológica"
+    }
+  ],
+  "governance": [
+    {
+      "start": -2000,
+      "end": -1601,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat046-710321addf80-bc2000",
+      "name": "Harappa",
+      "coordinates": [
+        72.87,
+        30.63
+      ],
+      "start": -2000,
+      "end": -1701,
+      "capital": false,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio."
+    },
+    {
+      "id": "seat046-83a1f6987da8-bc2000",
+      "name": "Mohenjo-daro",
+      "coordinates": [
+        68.14,
+        27.33
+      ],
+      "start": -2000,
+      "end": -1901,
+      "capital": false,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio."
+    },
+    {
+      "id": "seat046-6194b1fc971b-bc2000",
+      "name": "Dholavira",
+      "coordinates": [
+        70.21,
+        23.89
+      ],
+      "start": -2000,
+      "end": -1701,
+      "capital": false,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context046-REFERENCE-INDUS-URBAN-NETWORKS-2000",
+      "start": "-2000-01-01",
+      "end": "-1600-01-01",
+      "kind": "institution",
+      "title": "Redes urbanas sin un soberano individual acreditado",
+      "text": "Harappa, Mohenjo-daro y Dholavira pertenecen a redes urbanas y regionales. La escritura no descifrada y la organización institucional discutida no permiten asignarles un monarca conocido. La figura llamada convencionalmente «rey-sacerdote» no acredita ese cargo ni su identidad. Desde aproximadamente 1900 se distinguen transformaciones harappenses tardías, no un imperio persistente.",
+      "source": "https://www.harappa.com/content/recent-indus-discoveries-and-highlights-excavations-harappa-1998-2000",
+      "sourceLabel": "Contexto de la entidad",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Indus Valley Civilization"
+        ],
+        "start": -2000,
+        "end": -1901,
+        "label": "Redes y centros urbanos del Indo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+        "note": "Contorno original de compilación. No observación anual ni prueba de control uniforme; cronología institucional contrastada aparte."
+      }
+    },
+    {
+      "files": [
+        "historical-bc2000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Indus Valley Civilization"
+        ],
+        "start": -1900,
+        "end": -1701,
+        "label": "Tradiciones harappenses tardías · contorno de compilación",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+        "note": "Contorno original de compilación. No observación anual ni prueba de control uniforme; cronología institucional contrastada aparte."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc2000-bc1601.geojson",
+      "sha256": "6f2b7e63e41d5fedb37456947ac57e23314f6fd39e4c7ba7c298a7eaf0184a51",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        27,
+        35,
+        40,
+        42
+      ],
+      "note": "Coordenadas, propiedades y componentes originales intactos; no mezclar geometrías culturales GPL en la política."
+    }
+  ],
+  "pending": [
+    "Completar cronología regional, autoridades y representaciones acreditadas. Fechas anteriores a la cronología absoluta tienen variantes; sin dato no significa ausencia de población o poder."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [],
+  "mediaReview": []
+}

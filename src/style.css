@@ -353,6 +353,7 @@ label{color:var(--text)}
 
 /* Preserve the complete official photograph: no derivatives or visual crop. */
 .leader-card.full-frame{grid-template-columns:1fr}
+.leader-card.full-frame>.leader-details{order:-1}
 .leader-portrait.full-frame-photo{width:100%;height:auto;object-fit:contain;border-radius:0;background:transparent}
 .photo-caption{font-size:9px!important;line-height:1.6!important;margin:0;color:var(--muted)}
 .leader-card:not(.full-frame)>.photo-caption{grid-column:1/-1;grid-row:2}

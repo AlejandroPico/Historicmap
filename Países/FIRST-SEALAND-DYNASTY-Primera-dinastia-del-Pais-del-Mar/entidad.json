@@ -1,0 +1,52 @@
+{
+  "key": "FIRST-SEALAND-DYNASTY",
+  "name": "Primera dinastía del País del Mar",
+  "qid": "",
+  "aliases": [
+    "First Sealand Dynasty",
+    "Primera dinastía del País del Mar"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "FIRST-SEALAND-DYNASTY"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc2000.geojson",
+      "recordId": "clio-48",
+      "start": -1700,
+      "end": -1601,
+      "name": "First Sealand Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1600.geojson",
+      "recordId": "clio-57",
+      "start": -1600,
+      "end": -1501,
+      "name": "First Sealand Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1600.geojson",
+      "recordId": "clio-60",
+      "start": -1500,
+      "end": -1401,
+      "name": "First Sealand Dynasty",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

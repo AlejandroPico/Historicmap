@@ -1,0 +1,89 @@
+{
+  "key": "REFERENCE-INDUS-URBAN-NETWORKS",
+  "name": "Redes y centros urbanos del Indo",
+  "qid": "",
+  "aliases": [
+    "Indus Valley Civilization",
+    "Redes y centros urbanos del Indo"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "REFERENCE-INDUS-URBAN-NETWORKS"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc2000.geojson",
+      "recordId": "clio-27",
+      "start": -2000,
+      "end": -1801,
+      "name": "Indus Valley Civilization",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc2000.geojson",
+      "recordId": "clio-35",
+      "start": -1800,
+      "end": -1761,
+      "name": "Indus Valley Civilization",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc2000.geojson",
+      "recordId": "clio-40",
+      "start": -1760,
+      "end": -1751,
+      "name": "Indus Valley Civilization",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc2000.geojson",
+      "recordId": "clio-42",
+      "start": -1750,
+      "end": -1701,
+      "name": "Indus Valley Civilization",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D-YBC2000-R046:0",
+      "contextKey": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D",
+      "start": -2000,
+      "end": -1901,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-INDUS-URBAN-NETWORKS-Redes-y-centros-urbanos-del-Indo/poblamiento/CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D-YBC2000-R046.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D-YBC2000-R046:1",
+      "contextKey": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D",
+      "start": -1900,
+      "end": -1501,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-INDUS-URBAN-NETWORKS-Redes-y-centros-urbanos-del-Indo/poblamiento/CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D-YBC2000-R046.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D-YBC2000-R046:2",
+      "contextKey": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-INDUS-URBAN-NETWORKS-Redes-y-centros-urbanos-del-Indo/poblamiento/CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D-YBC2000-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

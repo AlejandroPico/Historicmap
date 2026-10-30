@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-PONTIC-BRONZE-AGE",
+  "name": "Estepas septentrionales · contexto anterior a los cimerios documentados",
+  "qid": "",
+  "aliases": [
+    "Cimerians",
+    "Estepas septentrionales · contexto anterior a los cimerios documentados"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 87,
+      "start": null,
+      "end": null,
+      "name": "Cimerians",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-PONTIC-BRONZE-AGE-YBC1500-R046:0",
+      "contextKey": "REFERENCE-PONTIC-BRONZE-AGE",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -1500,
+      "canonicalFile": "Países/REFERENCE-PONTIC-BRONZE-AGE-Estepas-septentrionales-contexto-anterior-a-los-cimerios-document/poblamiento/REFERENCE-PONTIC-BRONZE-AGE-YBC1500-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

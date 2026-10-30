@@ -1,0 +1,95 @@
+{
+  "key": "REFERENCE-MYCENAEAN-PALACES",
+  "name": "Centros y poderes palaciales micénicos",
+  "qid": "",
+  "aliases": [
+    "Centros y poderes palaciales micénicos",
+    "Mycenaean Greece"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "REFERENCE-MYCENAEAN-PALACES"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc1600.geojson",
+      "recordId": "clio-62",
+      "start": -1500,
+      "end": -1401,
+      "name": "Mycenaean Greece",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1600.geojson",
+      "recordId": "clio-68",
+      "start": -1400,
+      "end": -1301,
+      "name": "Mycenaean Greece",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1600.geojson",
+      "recordId": "clio-75",
+      "start": -1300,
+      "end": -1241,
+      "name": "Mycenaean Greece",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1600.geojson",
+      "recordId": "clio-87",
+      "start": -1240,
+      "end": -1221,
+      "name": "Mycenaean Greece",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1600.geojson",
+      "recordId": "clio-92",
+      "start": -1220,
+      "end": -1201,
+      "name": "Mycenaean Greece",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1200.geojson",
+      "recordId": "clio-94",
+      "start": -1200,
+      "end": -1151,
+      "name": "Mycenaean Greece",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1200.geojson",
+      "recordId": "clio-103",
+      "start": -1150,
+      "end": -1101,
+      "name": "Mycenaean Greece",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-GREEK-COMMUNITIES-YBC1500-R046:0",
+      "contextKey": "REFERENCE-GREEK-COMMUNITIES",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -1500,
+      "canonicalFile": "Países/REFERENCE-MYCENAEAN-PALACES-Centros-y-poderes-palaciales-micenicos/poblamiento/REFERENCE-GREEK-COMMUNITIES-YBC1500-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

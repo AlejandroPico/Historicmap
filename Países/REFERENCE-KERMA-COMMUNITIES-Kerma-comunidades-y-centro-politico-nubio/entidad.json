@@ -1,0 +1,53 @@
+{
+  "key": "REFERENCE-KERMA-COMMUNITIES",
+  "name": "Kerma · comunidades y centro político nubio",
+  "qid": "",
+  "aliases": [
+    "Kerma",
+    "Kerma · comunidades y centro político nubio"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc3000.geojson",
+      "recordId": 23,
+      "start": null,
+      "end": null,
+      "name": "Kerma",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-KERMA-COMMUNITIES-YBC2000-R046:0",
+      "contextKey": "REFERENCE-KERMA-COMMUNITIES",
+      "start": -2000,
+      "end": -1501,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-KERMA-COMMUNITIES-Kerma-comunidades-y-centro-politico-nubio/poblamiento/REFERENCE-KERMA-COMMUNITIES-YBC2000-R046.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-KERMA-COMMUNITIES-YBC2000-R046:1",
+      "contextKey": "REFERENCE-KERMA-COMMUNITIES",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-KERMA-COMMUNITIES-Kerma-comunidades-y-centro-politico-nubio/poblamiento/REFERENCE-KERMA-COMMUNITIES-YBC2000-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

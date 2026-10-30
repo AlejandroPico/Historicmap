@@ -3,6 +3,7 @@
   "name": "Olmec Civilization",
   "qid": "Q135364",
   "aliases": [
+    "Olmec",
     "Olmec Civilization"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
@@ -16,6 +17,22 @@
   "leaders": [],
   "portraitVariants": [],
   "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 32,
+      "start": null,
+      "end": null,
+      "name": "Olmec",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 41,
+      "start": null,
+      "end": null,
+      "name": "Olmec",
+      "status": null
+    },
     {
       "file": "early-modern-bc600.geojson",
       "recordId": "clio-205",
@@ -59,6 +76,15 @@
       "end": -701,
       "sourceYear": -1000,
       "canonicalFile": "Países/HIST-Q135364-Olmec-Civilization/poblamiento/CULTURE-OLMEC-28CB6DBB-YBC1000-R045.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-HIST-Q135364-WORLD-YBC1500-R046:0",
+      "contextKey": "REFERENCE-HIST-Q135364-WORLD",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -1500,
+      "canonicalFile": "Países/HIST-Q135364-Olmec-Civilization/poblamiento/REFERENCE-HIST-Q135364-WORLD-YBC1500-R046.json"
     }
   ],
   "relatedData": [

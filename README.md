@@ -2,17 +2,17 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.45.0** · 30 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.46.0** · 30 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
-Revisión vigente: **pueblos y regiones de1000a.C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-bc1000-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
+Revisión vigente: **pueblos y regiones de2000a.C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-bc2000-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
 
-Ampliación1000–601a.C., conservando las fases posteriores yla continuidad1a.C./1d.C. sin cero: [fuentes, autoridades, culturas ylímites](docs/RESEARCH-bc1000.md). Las áreas culturales tienen tonos estables ylos rótulos revisados se presentan enespañol; se conservan nombres originales para búsqueda yfuentes. Cartografía política yáreas culturales se activan independientemente enCapas yFiltros, ambas al iniciar.
+Ampliación **2000–1001 a. C.**, conservando las fases posteriores y la continuidad 1 a. C./1 d. C. sin cero: [fuentes, autoridades, culturas y límites](docs/RESEARCH-bc2000.md). Las áreas culturales tienen tonos estables ylos rótulos revisados se presentan enespañol; se conservan nombres originales para búsqueda yfuentes. Cartografía política yáreas culturales se activan independientemente enCapas yFiltros, ambas al iniciar.
 
-[Validación yconservación0.45.0](docs/DELIVERY-0.45.0.md). La publicación enPages queda pendiente de comprobación del propietario.
+[Validación y conservación 0.46.0](docs/DELIVERY-0.46.0.md). La publicación enPages queda pendiente de comprobación del propietario.
 
 ## Empezar
 
@@ -36,7 +36,7 @@ Créditos cartográficos integrados en **Datos y fuentes → Créditos del mapa*
 - Cronología anual desde100a.C., sin año cero: Cliopatria hasta 1885 y CShapes 1886–2019, con dependencias coloniales y capitales históricas cuando están documentadas. Reproducción reciente anual que espera la carga y conserva el mapa anterior mientras llega el siguiente.
 - Control territorial opaco por potencia; colores específicos de regímenes, clientes y bandos. Primera y Segunda Guerra Mundial, Guerra Civil española 1936–1939 y control comunista chino, además de Sinaí, Golán y Crimea. Fuentes anuales y frente de octubre de 1937 identificados con su precisión.
 - [Corrección deEuropaCentral1938–1939](docs/CENTRAL-EUROPE-1939.md): sin manchas alemanas remotas, territorio integrado y Estado eslovaco cliente separado. El contorno eslovaco es una referencia recortada, no un levantamiento exacto de1939.
-- Banderas históricas, autoridades y retratos en las fichas. Catálogo de mandatos ampliado por periodos desde100a.C., con Estados predecesores, administraciones coloniales y cobertura mundial desigual; cada imagen conserva su licencia y autoría. [Alcance y fuentes1900–1919](docs/RESEARCH-1900.md) y [auditoría nominal de carencias](docs/REVIEW-1900-1919.json).
+- Banderas históricas, autoridades y retratos en las fichas. Catálogo de mandatos ampliado por periodos desde2000a.C., con Estados predecesores, administraciones coloniales y cobertura mundial desigual; cada imagen conserva su licencia y autoría. [Alcance y fuentes1900–1919](docs/RESEARCH-1900.md) y [auditoría nominal de carencias](docs/REVIEW-1900-1919.json).
 - Base contemporánea desde 2020 y 26 instantáneas originales conservadas para historia anterior/geología y trazabilidad.
 - Desde1900, contornos de referencia identificados para pequeños Estados omitidos por CShapes —el Vaticano sólo desde1929—, Tonga protegido antes de1970 y Sáhara separado de Marruecos; Crimea permanece en la base ucraniana y Kuwait ocupado en1990 se distingue de su soberanía. Danzig conserva su contorno de fuente en1938, corrigiendo un final de vigencia un año anticipado.
 - Fichas persistentes a la izquierda: Autoridades, Territorio, Instituciones, Sociedad, Economía, Relaciones, Defensa, Historia, Datos, Contexto, Conflictos y Comparar. Al cambiar de año conservan entidad, apartado y lectura; si la entidad desaparece, se explica sin sustituirla por un sucesor. Fuentes, capas y búsqueda también se conservan al navegar por fechas.

@@ -1,0 +1,53 @@
+{
+  "key": "CULTURE-CITY-STATES-4B78242B",
+  "name": "Ciudades y poderes del Levante septentrional",
+  "qid": "",
+  "aliases": [
+    "Ciudades y poderes del Levante septentrional",
+    "city-states"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc3000.geojson",
+      "recordId": 15,
+      "start": null,
+      "end": null,
+      "name": "city-states",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CITY-STATES-4B78242B-YBC2000-R046:0",
+      "contextKey": "CULTURE-CITY-STATES-4B78242B",
+      "start": -2000,
+      "end": -1501,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/CULTURE-CITY-STATES-4B78242B-Ciudades-y-poderes-del-Levante-septentrional/poblamiento/CULTURE-CITY-STATES-4B78242B-YBC2000-R046.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-CITY-STATES-4B78242B-YBC2000-R046:1",
+      "contextKey": "CULTURE-CITY-STATES-4B78242B",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/CULTURE-CITY-STATES-4B78242B-Ciudades-y-poderes-del-Levante-septentrional/poblamiento/CULTURE-CITY-STATES-4B78242B-YBC2000-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

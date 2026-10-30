@@ -1,0 +1,81 @@
+{
+  "key": "REFERENCE-POST-URIII-COMMUNITIES-YBC2000-R046",
+  "contextKey": "REFERENCE-POST-URIII-COMMUNITIES",
+  "ownerKey": "REFERENCE-ISIN-LARSA-CITY-STATES",
+  "name": "Ur y ciudades del sur mesopotámico · etapa Isin-Larsa",
+  "originalNames": [
+    "Ur"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional de la compilación de2000a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -2000,
+    -1001
+  ],
+  "interpretation": "UrIII termina convencionalmente en2004; el rótulo de2000 no prolonga aquel imperio. Ciudades, comunidades y reinos de la etapa Isin-Larsa.",
+  "spatialUncertainty": "Originales de compilación mundial preservados; resolución desigual y límites aproximados. No fronteras exclusivas de población, cartas arqueológicas exhaustivas ni costas paleogeográficas verificadas.",
+  "temporalUncertainty": "Las dos referencias de2000/1500 no son mil observaciones anuales. Las ventanas y los finales de consulta no acreditan fundación, permanencia uniforme ni desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps2000a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc2000.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "REFERENCE-ISIN-LARSA-CITY-STATES"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    45.47295,
+    32.49746
+  ],
+  "phases": [
+    {
+      "start": -2000,
+      "end": -1501,
+      "label": "Ur y ciudades del sur mesopotámico · etapa Isin-Larsa",
+      "dateBasis": "Referencia editorial de2000a.C.; ventana de consulta, no500 observaciones anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -1500,
+      "end": -1001,
+      "label": "Ur y ciudades del sur mesopotámico · etapa Isin-Larsa",
+      "dateBasis": "Contexto histórico de la última referencia hasta la fase siguiente; no nueva observación del poblamiento.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -2000,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-URIII-COMMUNITIES-YBC2000-R046.geojson",
+  "geometrySha256": "268948f63e35f5086bd66e62343b2ae433e5e1b1b76f96863117cd1612fbb188",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc2000.geojson",
+    "year": -2000,
+    "featureIds": [
+      14
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d08a2390ca3d82f46eccfe97f44949922b69e4bb733f0fc2120e579de52a5d3"
+  },
+  "review": "0.46.0 · 2026-10-30",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contraste arqueológico regional, cronologías locales, atribuciones lingüísticas y distribución del poblamiento; no deducir soberanía del rótulo."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Ur",
+      "ABBREVN": "Ur",
+      "type": "state society",
+      "weblnks": null,
+      "SUBJECTO": "Ur",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Ur"
+    }
+  ],
+  "sourceGrouping": [
+    "Ur"
+  ]
+}

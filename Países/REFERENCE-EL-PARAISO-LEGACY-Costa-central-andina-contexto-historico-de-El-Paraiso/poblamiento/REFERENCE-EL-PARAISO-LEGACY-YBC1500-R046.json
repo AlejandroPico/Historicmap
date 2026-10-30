@@ -1,0 +1,71 @@
+{
+  "key": "REFERENCE-EL-PARAISO-LEGACY-YBC1500-R046",
+  "contextKey": "REFERENCE-EL-PARAISO-LEGACY",
+  "ownerKey": "REFERENCE-EL-PARAISO-LEGACY",
+  "name": "Costa central andina · contexto posterior a El Paraíso",
+  "originalNames": [
+    "El Paraiso"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de1500a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -1500,
+    -1001
+  ],
+  "interpretation": "El apogeo monumental de El Paraíso es anterior. Se conserva contexto histórico regional, no un estado activo ni un soberano conocido en1500.",
+  "spatialUncertainty": "Originales de compilación mundial preservados; resolución desigual y límites aproximados. No fronteras exclusivas de población, cartas arqueológicas exhaustivas ni costas paleogeográficas verificadas.",
+  "temporalUncertainty": "Las dos referencias de2000/1500 no son mil observaciones anuales. Las ventanas y los finales de consulta no acreditan fundación, permanencia uniforme ni desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps1500a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1500.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -77.22126,
+    -10.22479
+  ],
+  "phases": [
+    {
+      "start": -1500,
+      "end": -1001,
+      "label": "Costa central andina · contexto posterior a El Paraíso",
+      "dateBasis": "Referencia editorial de1500a.C.; ventana de consulta, no500 observaciones anuales.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -1800
+    }
+  ],
+  "geometryFile": "REFERENCE-EL-PARAISO-LEGACY-YBC1500-R046.geojson",
+  "geometrySha256": "324017b66dd7bb88860b86e36d1fce550f76fa10fda8e060505bfafbd1ff5fb0",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1500.geojson",
+    "year": -1500,
+    "featureIds": [
+      34
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "b17e8fab42e47b09fa8d52941d9fd55e03b0e3ba22dd0a71ad20f76e517ce485"
+  },
+  "review": "0.46.0 · 2026-10-30",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contraste arqueológico regional, cronologías locales, atribuciones lingüísticas y distribución del poblamiento; no deducir soberanía del rótulo."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "El Paraiso",
+      "ABBREVN": null,
+      "SUBJECTO": "El Paraiso",
+      "TYPE": null,
+      "BORDERPRECISION": 1,
+      "PARTOF": "El Paraiso"
+    }
+  ],
+  "sourceGrouping": [
+    "El Paraiso"
+  ]
+}

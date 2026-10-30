@@ -1,0 +1,309 @@
+{
+  "key": "HITTITE-KINGDOM",
+  "identity": {
+    "qid": "",
+    "name": "Reino hitita"
+  },
+  "revision": "0.46.0",
+  "acquisition": "period-bc2000-0.46",
+  "coverageStart": -2000,
+  "coverageEnd": -1601,
+  "candidates": [
+    {
+      "role": "Rey hitita · dataciones convencionales aproximadas",
+      "titles": [
+        "Labarna I"
+      ],
+      "documentedWindow": [
+        -1680,
+        -1650
+      ]
+    },
+    {
+      "role": "Rey hitita · dataciones convencionales aproximadas",
+      "titles": [
+        "Hattusili I"
+      ],
+      "documentedWindow": [
+        -1650,
+        -1620
+      ]
+    },
+    {
+      "role": "Rey hitita · dataciones convencionales aproximadas",
+      "titles": [
+        "Mursili I"
+      ],
+      "documentedWindow": [
+        -1620,
+        -1590
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q313312",
+      "name": "Labarna I",
+      "role": "Rey hitita · dataciones convencionales aproximadas",
+      "start": "-1680-01-01",
+      "end": "-1650-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Labarna_I",
+      "note": "Secuencia convencional de datación muy desigual. Numeraciones Tudhaliya yreyes del periodo intermedio discutidos; no presentar tramos aproximados como años de acceso probados. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -1680,
+        -1650
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    },
+    {
+      "person": "Q299472",
+      "name": "Hattusili I",
+      "role": "Rey hitita · dataciones convencionales aproximadas",
+      "start": "-1650-01-01",
+      "end": "-1620-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/%E1%B8%AAattu%C5%A1ili_I",
+      "note": "Secuencia convencional de datación muy desigual. Numeraciones Tudhaliya yreyes del periodo intermedio discutidos; no presentar tramos aproximados como años de acceso probados. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -1650,
+        -1620
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    },
+    {
+      "person": "Q222536",
+      "name": "Mursili I",
+      "role": "Rey hitita · dataciones convencionales aproximadas",
+      "start": "-1620-01-01",
+      "end": "-1601-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Mursili_I",
+      "note": "Secuencia convencional de datación muy desigual. Numeraciones Tudhaliya yreyes del periodo intermedio discutidos; no presentar tramos aproximados como años de acceso probados. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -1620,
+        -1590
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution046-HITTITE-KINGDOM-2000",
+      "start": "-2000-01-01",
+      "end": "-1600-01-01",
+      "precision": 9,
+      "section": "institutions",
+      "title": "Reyes, archivos y relaciones de dependencia",
+      "text": "Las inscripciones, tratados y archivos documentan reyes y relaciones con otros poderes. El comienzo y la numeración de algunos Tudhaliya son discutidos. Los contornos de síntesis no acreditan control uniforme; los estados sirio-anatolios posteriores a la caída de Hattusa no se prolongan como un imperio hitita único.",
+      "source": "https://libdigitalcollections.ku.edu.tr/digital/collection/GHC/id/10370/",
+      "sourceLabel": "Referencia documental y arqueológica"
+    }
+  ],
+  "governance": [
+    {
+      "start": -2000,
+      "end": -1601,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat046-f7598acdd09b-bc2000",
+      "name": "Hattusa",
+      "coordinates": [
+        34.62,
+        40.02
+      ],
+      "start": -1650,
+      "end": -1601,
+      "capital": true,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio."
+    },
+    {
+      "id": "seat046-f7598acdd09b-reference-bc2000",
+      "name": "Hattusa",
+      "coordinates": [
+        34.62,
+        40.02
+      ],
+      "start": -1650,
+      "end": -1601,
+      "capital": true,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio.",
+      "standaloneReference": true,
+      "entityName": "Reino hitita"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context046-HITTITE-KINGDOM-2000",
+      "start": "-2000-01-01",
+      "end": "-1600-01-01",
+      "kind": "institution",
+      "title": "Reyes, archivos y relaciones de dependencia",
+      "text": "Las inscripciones, tratados y archivos documentan reyes y relaciones con otros poderes. El comienzo y la numeración de algunos Tudhaliya son discutidos. Los contornos de síntesis no acreditan control uniforme; los estados sirio-anatolios posteriores a la caída de Hattusa no se prolongan como un imperio hitita único.",
+      "source": "https://libdigitalcollections.ku.edu.tr/digital/collection/GHC/id/10370/",
+      "sourceLabel": "Contexto de la entidad",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cronología regional, autoridades y representaciones acreditadas. Fechas anteriores a la cronología absoluta tienen variantes; sin dato no significa ausencia de población o poder."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Hattusili I",
+        "title": "Hattusili I",
+        "person": "Q299472",
+        "name": "Hattusili I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/%E1%B8%AAattu%C5%A1ili_I",
+        "identityResolution": {
+          "requested": "Hattusili I",
+          "canonical": "Ḫattušili I",
+          "qid": "Q299472"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q299472",
+        "title": "Ḫattušili I",
+        "source": "https://en.wikipedia.org/wiki/%E1%B8%AAattu%C5%A1ili_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Hittite",
+            "raw": "c. 1650 – c. 1620 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Hittite",
+            "raw": "c. 1650 – c. 1620 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Labarna I",
+        "title": "Labarna I",
+        "person": "Q313312",
+        "name": "Labarna I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Labarna_I",
+        "identityResolution": {
+          "requested": "Labarna I",
+          "canonical": "Labarna I",
+          "qid": "Q313312"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q313312",
+        "title": "Labarna I",
+        "source": "https://en.wikipedia.org/wiki/Labarna_I",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Hittite king",
+            "raw": "c. early 16th century BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Mursili I",
+        "title": "Mursili I",
+        "person": "Q222536",
+        "name": "Mursili I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mursili_I",
+        "identityResolution": {
+          "requested": "Mursili I",
+          "canonical": "Mursili I",
+          "qid": "Q222536"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q222536",
+        "title": "Mursili I",
+        "source": "https://en.wikipedia.org/wiki/Mursili_I",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Hittite",
+            "raw": "c. 1620 – c. 1590 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Hittite",
+            "raw": "c. 1620 – c. 1590 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q299472",
+      "title": "Korahettita időszak térképe.png",
+      "reason": "Documento, inscripción, objeto, mapa o escena sin un retrato individual acreditado y legible del titular; no transferir una imagen por mera asociación temática."
+    },
+    {
+      "person": "Q313312",
+      "title": "Museum of Anatolian Civilizations 054 kopie 1.jpg",
+      "reason": "Documento, inscripción, objeto, mapa o escena sin un retrato individual acreditado y legible del titular; no transferir una imagen por mera asociación temática."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q299472",
+      "title": "Korahettita időszak térképe.png",
+      "decision": "rejected",
+      "reason": "Documento, inscripción, objeto, mapa o escena sin un retrato individual acreditado y legible del titular; no transferir una imagen por mera asociación temática."
+    },
+    {
+      "person": "Q313312",
+      "title": "Museum of Anatolian Civilizations 054 kopie 1.jpg",
+      "decision": "rejected",
+      "reason": "Documento, inscripción, objeto, mapa o escena sin un retrato individual acreditado y legible del titular; no transferir una imagen por mera asociación temática."
+    }
+  ]
+}

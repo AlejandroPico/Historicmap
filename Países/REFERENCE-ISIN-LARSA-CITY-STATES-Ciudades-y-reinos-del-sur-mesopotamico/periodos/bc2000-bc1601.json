@@ -1,0 +1,97 @@
+{
+  "key": "REFERENCE-ISIN-LARSA-CITY-STATES",
+  "identity": {
+    "qid": "",
+    "name": "Ciudades y reinos del sur mesopotámico"
+  },
+  "revision": "0.46.0",
+  "acquisition": "period-bc2000-0.46",
+  "coverageStart": -2000,
+  "coverageEnd": -1601,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution046-REFERENCE-ISIN-LARSA-CITY-STATES-2000",
+      "start": "-2000-01-01",
+      "end": "-1600-01-01",
+      "precision": 9,
+      "section": "institutions",
+      "title": "Ciudades tras la caída de Ur III",
+      "text": "El final convencional de Ur III hacia 2004 no significa el fin de Ur ni la ausencia de población. Isin y Larsa tienen reyes propios, consultables en sus centros documentales; la superficie de compilación no es una confederación sumeria unificada.",
+      "source": "https://www.metmuseum.org/es/toah/ht/03/wam.html",
+      "sourceLabel": "Referencia documental y arqueológica"
+    }
+  ],
+  "governance": [
+    {
+      "start": -2000,
+      "end": -1601,
+      "tags": [
+        "city-state"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [],
+  "contexts": [
+    {
+      "id": "context046-REFERENCE-ISIN-LARSA-CITY-STATES-2000",
+      "start": "-2000-01-01",
+      "end": "-1600-01-01",
+      "kind": "institution",
+      "title": "Ciudades tras la caída de Ur III",
+      "text": "El final convencional de Ur III hacia 2004 no significa el fin de Ur ni la ausencia de población. Isin y Larsa tienen reyes propios, consultables en sus centros documentales; la superficie de compilación no es una confederación sumeria unificada.",
+      "source": "https://www.metmuseum.org/es/toah/ht/03/wam.html",
+      "sourceLabel": "Contexto de la entidad",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Sumerian City-States"
+        ],
+        "start": -2000,
+        "end": -1601,
+        "label": "Ciudades y reinos del sur mesopotámico",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+        "note": "Contorno original de compilación. No observación anual ni prueba de control uniforme; cronología institucional contrastada aparte."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc2000-bc1601.geojson",
+      "sha256": "ba6286800bb3b34d7441c8c718cedaad81eac651d8cc8b887067946d432d3162",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        28,
+        37
+      ],
+      "note": "Coordenadas, propiedades y componentes originales intactos; no mezclar geometrías culturales GPL en la política."
+    }
+  ],
+  "pending": [
+    "Completar cronología regional, autoridades y representaciones acreditadas. Fechas anteriores a la cronología absoluta tienen variantes; sin dato no significa ausencia de población o poder."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [],
+  "mediaReview": []
+}

@@ -1,6 +1,23 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.45.0 · 1000–601a.C., colores y rótulos
+## Encargo vigente · 0.46.0 · 2000–1001 a. C.
+
+- [x] Comprobar base e42ebc88f, árbol limpio y coincidencia con origin/main. Congelar conservación en .cache/baseline046.json.
+- [x] Inventario político: 21 nombres y 80 componentes originales fijados.
+- [x] Investigar cronologías y autoridades; distinguir redes palaciales, ciudades, reinos y tradiciones no acreditadas como Estados.
+- [x] Preparar tres tramos internos: 2000–1601, 1600–1201 y 1200–1001 a. C.; culturas junto a política, en español y con colores estables.
+- [x] Revisar representaciones, títulos, fuentes y licencias; conservar todos los originales en Países.
+- [x] Integrar navegación anual hasta 2000 a. C., continuidad con 1000 y todas las fases anteriores.
+- [x] Compilar, registrar y sincronizar catálogo antes de pruebas; verificar conservación, tipos, build y navegador.
+- [x] Documentar resultados reales y pendientes; subir a main sin esperar Actions/Pages.
+
+No repetir las curaciones045. Esta tanda no equivale a mil mapas observados independientemente ni demuestra menor diversidad humana. Mantener aparte los pendientes de Asiria/Egipto650 y Babilonia626/600, sin darlos por corregidos al ampliar el pasado.
+
+Resultado: 43 dossiers, 247 ventanas de autoridad, 84 copias de80 componentes políticos, 113 grupos culturales/146 fases. Revisión visual125 candidatos:52 adoptados,73 descartados. Conservación:20.262 cargos y10.006 fases anteriores intactos. Compilación y catálogo sincronizados.342 pruebas generales/72 suites,25Python,14 focales finales y8 después de regenerar, cinco recorridos finales de navegador, integridad, tipos y producción correctos. Regeneración:343 archivos idénticos; sólo orden de entradas del manifiesto, contenido idéntico. Capturas revisadas; rótulo deAsiria antigua y orden de nombres/fechas en imágenes completas corregidos. Entrega preparada en este commit; al reanudar, comparar HEAD yorigin/main antes de repetir el envío.
+
+Pendiente del propietario: comprobar Actions/Pages. No esperar ni sondear el despliegue. Pendientes históricos:RESEARCH-bc2000 e inventario anual; continúan Asiria/Egipto650 yBabilonia626/600. No iniciar otra tanda sin encargo.
+
+## Entrega anterior · 0.45.0 · 1000–601a.C., colores y rótulos
 
 - [x] Diagnosticar el gris inicial879a9a ydar colores culturales estables sin modificar evidencia original.
 - [x] Curar54 dossiers/301 ventanas,112 componentes,37 centros,20 contextos y11 puntos. Variantes yautoridades no identificadas documentadas.

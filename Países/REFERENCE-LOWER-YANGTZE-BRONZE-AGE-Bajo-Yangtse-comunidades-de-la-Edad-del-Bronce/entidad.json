@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-LOWER-YANGTZE-BRONZE-AGE",
+  "name": "Bajo Yangtsé · comunidades de la Edad del Bronce",
+  "qid": "",
+  "aliases": [
+    "Bajo Yangtsé · comunidades de la Edad del Bronce",
+    "Wu"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 92,
+      "start": null,
+      "end": null,
+      "name": "Wu",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-LOWER-YANGTZE-BRONZE-AGE-YBC1500-R046:0",
+      "contextKey": "REFERENCE-LOWER-YANGTZE-BRONZE-AGE",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -1500,
+      "canonicalFile": "Países/REFERENCE-LOWER-YANGTZE-BRONZE-AGE-Bajo-Yangtse-comunidades-de-la-Edad-del-Bronce/poblamiento/REFERENCE-LOWER-YANGTZE-BRONZE-AGE-YBC1500-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

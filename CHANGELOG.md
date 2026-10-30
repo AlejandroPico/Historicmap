@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.46.0 · 30 de octubre de 2026
+
+- Consulta anual de 2000–1001 a. C., con tres tramos internos, sucesiones y centros de la Edad del Bronce, contextos e imágenes atribuidas. Continuidad de las identidades al cruzar 1001/1000.
+- Pueblos y áreas culturales conservados junto a la cartografía política; 113 grupos originales nuevos y 146 fases. Rótulos regionales anacrónicos interpretados expresamente como referencias y antecedentes.
+- 125 candidatos visuales revisados: 52 adoptados con explicación y 73 descartados. Originales, créditos, decisiones y datos en las carpetas de cada entidad.
+- Tonos editoriales diferenciados para Shang, Zhou y Hatti; dependencias fechadas y distinción entre redes palaciales y Estados unificados.
+- [Fuentes y límites](docs/RESEARCH-bc2000.md), [inventario](docs/PERIOD-INVENTORY-bc2000.json) y [validación](docs/DELIVERY-0.46.0.md).
+
 ## 0.45.0 · 30 de octubre de2026
 
 - Consulta anual1000–601a.C., autoridades ycentros documentales, contextos, culturas yreferencias de conflictos. Se conservan las fases posteriores.

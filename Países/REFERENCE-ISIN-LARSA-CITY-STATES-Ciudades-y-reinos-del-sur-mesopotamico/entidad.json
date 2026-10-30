@@ -1,0 +1,64 @@
+{
+  "key": "REFERENCE-ISIN-LARSA-CITY-STATES",
+  "name": "Ciudades y reinos del sur mesopotámico",
+  "qid": "",
+  "aliases": [
+    "Ciudades y reinos del sur mesopotámico",
+    "Sumerian City-States"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "REFERENCE-ISIN-LARSA-CITY-STATES"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc2000.geojson",
+      "recordId": "clio-28",
+      "start": -2000,
+      "end": -1801,
+      "name": "Sumerian City-States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc2000.geojson",
+      "recordId": "clio-37",
+      "start": -1800,
+      "end": -1761,
+      "name": "Sumerian City-States",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-POST-URIII-COMMUNITIES-YBC2000-R046:0",
+      "contextKey": "REFERENCE-POST-URIII-COMMUNITIES",
+      "start": -2000,
+      "end": -1501,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-ISIN-LARSA-CITY-STATES-Ciudades-y-reinos-del-sur-mesopotamico/poblamiento/REFERENCE-POST-URIII-COMMUNITIES-YBC2000-R046.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-POST-URIII-COMMUNITIES-YBC2000-R046:1",
+      "contextKey": "REFERENCE-POST-URIII-COMMUNITIES",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-ISIN-LARSA-CITY-STATES-Ciudades-y-reinos-del-sur-mesopotamico/poblamiento/REFERENCE-POST-URIII-COMMUNITIES-YBC2000-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

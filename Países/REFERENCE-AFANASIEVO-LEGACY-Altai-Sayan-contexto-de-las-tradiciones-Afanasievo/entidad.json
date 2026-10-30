@@ -1,0 +1,53 @@
+{
+  "key": "REFERENCE-AFANASIEVO-LEGACY",
+  "name": "Altái-Sayán · contexto de las tradiciones Afanásievo",
+  "qid": "",
+  "aliases": [
+    "Afanasevo",
+    "Altái-Sayán · contexto de las tradiciones Afanásievo"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc3000.geojson",
+      "recordId": 27,
+      "start": null,
+      "end": null,
+      "name": "Afanasevo",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-AFANASIEVO-LEGACY-YBC2000-R046:0",
+      "contextKey": "REFERENCE-AFANASIEVO-LEGACY",
+      "start": -2000,
+      "end": -1501,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-AFANASIEVO-LEGACY-Altai-Sayan-contexto-de-las-tradiciones-Afanasievo/poblamiento/REFERENCE-AFANASIEVO-LEGACY-YBC2000-R046.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-AFANASIEVO-LEGACY-YBC2000-R046:1",
+      "contextKey": "REFERENCE-AFANASIEVO-LEGACY",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-AFANASIEVO-LEGACY-Altai-Sayan-contexto-de-las-tradiciones-Afanasievo/poblamiento/REFERENCE-AFANASIEVO-LEGACY-YBC2000-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

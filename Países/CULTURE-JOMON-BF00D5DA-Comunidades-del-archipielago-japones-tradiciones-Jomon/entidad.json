@@ -1,0 +1,61 @@
+{
+  "key": "CULTURE-JOMON-BF00D5DA",
+  "name": "Comunidades del archipiélago japonés · tradiciones Jōmon",
+  "qid": "",
+  "aliases": [
+    "Comunidades del archipiélago japonés · tradiciones Jōmon",
+    "Jōmon"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc10000.geojson",
+      "recordId": 14,
+      "start": null,
+      "end": null,
+      "name": "Jōmon",
+      "status": null
+    },
+    {
+      "file": "world_bc3000.geojson",
+      "recordId": 13,
+      "start": null,
+      "end": null,
+      "name": "Jōmon",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-JOMON-BF00D5DA-YBC2000-R046:0",
+      "contextKey": "CULTURE-JOMON-BF00D5DA",
+      "start": -2000,
+      "end": -1501,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/CULTURE-JOMON-BF00D5DA-Comunidades-del-archipielago-japones-tradiciones-Jomon/poblamiento/CULTURE-JOMON-BF00D5DA-YBC2000-R046.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-JOMON-BF00D5DA-YBC2000-R046:1",
+      "contextKey": "CULTURE-JOMON-BF00D5DA",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/CULTURE-JOMON-BF00D5DA-Comunidades-del-archipielago-japones-tradiciones-Jomon/poblamiento/CULTURE-JOMON-BF00D5DA-YBC2000-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

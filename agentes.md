@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **30 de octubre de 2026**. Versión del producto: **0.45.0**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **30 de octubre de 2026**. Versión del producto: **0.46.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección60; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección61; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente0.45.0:** ampliar1000–601a.C., distinguir áreas culturales y presentar rótulos españoles conservando originales. No esperar Actions/Pages.
+**Encargo vigente 0.46.0:** ampliar 2000–1001 a. C., con política y culturas, autoridades y representaciones documentadas. Conservar el contenido posterior. No esperar Actions/Pages.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1323,3 +1323,28 @@ Comprobación de rótulos: verify-data reconoce entity-display-labels ycontrasta
 Pendientes importantes deAsiria/Egipto650 yBabilonia626/600 en notas-de-revision.md de sus carpetas. La regla del componente separado no completa la partición del contorno imperial padre. No afirmar fronteras exactas o cobertura exhaustiva. No repetir zhou045 niotras curaciones. Entrega preparada para main. Al reanudar, cotejar HEAD y origin/main; no sondear Actions/Pages.
 
 Cotejo final del índice Git: 1.067 archivos nuevos/modificados coinciden con sus bytes locales; 9.259 recursos de manifiestos verificados por SHA-256 y blob Git (9.198 blobs previos intactos); 1.292 originales canónicos propios comprobados directamente en el índice. Se retira una vista automática duplicada de Urartu; las fuentes originales se conservan. Dos pruebas finales del catálogo correctas después de la regeneración. Los cuatro documentos de cierre se cotejan otra vez tras incorporar estas cifras. No se espera ni se sondea Actions/Pages.
+
+
+## 61. Ampliación 2000–1001 a. C. · 0.46.0
+
+Encargo del propietario: «-2000». Base verificada `e42ebc88fbbc8069d570b738334c5a66a49c11b2`, coincidente con `origin/main`, árbol limpio al iniciar. El proceso de publicación sigue a cargo del propietario: comprobar localmente, enviar a `main` y terminar sin esperar Actions/Pages.
+
+**Datos y método:** [RESEARCH-bc2000](docs/RESEARCH-bc2000.md), [inventario](docs/PERIOD-INVENTORY-bc2000.json), [identidades](docs/IDENTITY-REVIEW-bc2000.json), [imágenes](docs/MEDIA-REVIEW-bc2000.json), [referencias culturales](docs/CULTURAL-EXTENSION-bc2000.json), [entrega](docs/DELIVERY-0.46.0.md). Son mil años de consulta, no mil mapas observados. Las ventanas internas son 2000–1601, 1600–1201 y 1200–1001 a. C.; se mantiene el límite de cuatrocientos años por adquisición y la ausencia de año cero.
+
+Los 43 dossiers contienen 247 ventanas de autoridad. Ochenta componentes políticos distintos se conservan en 84 copias por solapamiento entre tramos. Hay 113 grupos culturales nuevos y 146 fases; originales de 2000/1500 fijados, datos y originales dentro de `Países`. Los estados palaciales, culturas y reinos no se equiparan automáticamente. La tabla egipcia, la secuencia hitita y las fechas Shang/Zhou mantienen sus variantes; los contornos heredados se califican. Las referencias arameas, urartias, Xia, Wu/Zhou y otras denominaciones anacrónicas no prueban Estados en fechas indebidas.
+
+**Imágenes:** 125 candidatos revisados visualmente, 52 adoptados y 73 rechazados; 51 archivos públicos nuevos, copias acreditadas en las carpetas propietarias. No adoptar por P18 un objeto, cartucho, mapa, esposa, divinidad o rey homónimo. Las escenas de Hammurabi/Shamash y Tudhaliya/Sharruma se explican y se muestran completas. Las obras retrospectivas y máscaras tienen su calificación. No se inventan banderas nacionales antiguas.
+
+**Código:** navegación y reproducción anuales desde 2000 a. C.; tres pares nuevos de geometría/resolución en `time.ts` y `data.ts`, y controles de contexto/coincidencias en `main.ts` y `territorial-administrations.ts`. Rótulos por entidad, familias editoriales Shang/Zhou/Hatti. Cada registro urbano usa un identificador propio del tramo, incluso cuando el lugar histórico es el mismo; no duplicar IDs globales de `historical-places.json`. La identidad de Kerma es explícita y no hereda la corrección de nombre de Babilonia. El identificador opaco `BABYLONIA-FIRST-MILLENNIUM` mantiene continuidad hacia atrás; su nombre visible es Babilonia.
+
+**Regeneración portátil:** `prepare-century-geography.py --start -2000 --end -1601`, después `--start -1600 --end -1201` y `--start -1200 --end -1001`; luego `prepare-cultural-regions.py`, `prepare-entity-revisions.py` y `register-entity-revisions.mjs` (rótulos y catálogo incluidos). Finalizar y esperar el cierre real de todos los escritores antes de lanzar pruebas que lean esas salidas. No regenerar los datos públicos simultáneamente con pruebas: se compararían versiones distintas de un recurso.
+
+**No repetir curaciones de una sola ejecución:** `.cache/seed046.py`, `cultures046.py`, `curate046.py`, `support046.py`, `adopt046.py` ni las curaciones045. Sus decisiones definitivas están en las carpetas propietarias; los auxiliares privados no son una dependencia del producto. Las revisiones posteriores deben partir del contenido canónico, no resembrar una adquisición antigua.
+
+**Comprobaciones:**342 pruebas generales/72 suites correctas en dos hilos locales. Tras el ajuste final,14 focales correctas y8 después de regenerar; tipos y producción correctos. Cinco recorridos finales de navegador correctos, capturas revisadas en escritorio yglobo móvil. No se ejecutan los129 casos completos localmente; CI sigue en cuatro grupos. Nombres/fechas de imágenes completas visibles antes de la imagen; rótulo deAsiria antigua corregido. Regeneración:343 archivos idénticos; sólo orden delmanifiesto, con entradas literalmente iguales a la copia deproducción. No afirmar igualdad debytes delmanifiesto. Verificación de integridad: 158 recursos de datos, 11 franjas tipográficas y 9.157 medios con licencia. Python: 25 comprobaciones correctas. Conservación: 1.551 identidades, 20.262 cargos y 1.040 símbolos anteriores; 10.006 fases culturales previas idénticas y 113 originales nuevos cotejados. [Auditoría](docs/CONSERVATION-bc2000.json).
+
+**Pendientes reales:** cronologías egipcias alternativas y fronteras dinásticas, primeros Shang, numeraciones y secuencias hititas intermedias, titulares del País del Mar sin una serie anual acreditada, retratos no seguros y contraste arqueológico regional. No confundir un área histórica de consulta con población o identidad étnica demostrada en cada año. Los pendientes anteriores de Asiria/Egipto 650 y Babilonia 626/600 continúan abiertos. No iniciar otra tanda sin un nuevo encargo.
+
+Entrega0.46 preparada en este commit. Al reanudar, cotejar HEAD yorigin/main antes de repetir un envío. Las comprobaciones y límites definitivos están enDELIVERY-0.46.0; no confundir el archivo de auditoría con confirmación dePages.
+
+EnWindows, algunas rutas de referencias culturales superan el límite tradicional de260 caracteres. Configuración local verificada: `git config --local core.longpaths true`. Mantener los originales en sus carpetas; no truncar rutas ni perder contenido para resolver el límite deGit.

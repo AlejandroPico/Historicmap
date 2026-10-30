@@ -1,0 +1,79 @@
+{
+  "key": "CULTURE-HURRIAN-KINGDOMS-3037C977-YBC2000-R046",
+  "contextKey": "CULTURE-HURRIAN-KINGDOMS-3037C977",
+  "ownerKey": "CULTURE-HURRIAN-KINGDOMS-3037C977",
+  "name": "Comunidades y poderes hurritas",
+  "originalNames": [
+    "Hurrian Kingdoms"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de2000a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -2000,
+    -1001
+  ],
+  "interpretation": "Referencia de comunidades, redes o tradiciones arqueológicas; no Estado unitario ni frontera étnica exclusiva. Las denominaciones lingüísticas tardías de la compilación no prueban identidades modernas en esta fecha.",
+  "spatialUncertainty": "Originales de compilación mundial preservados; resolución desigual y límites aproximados. No fronteras exclusivas de población, cartas arqueológicas exhaustivas ni costas paleogeográficas verificadas.",
+  "temporalUncertainty": "Las dos referencias de2000/1500 no son mil observaciones anuales. Las ventanas y los finales de consulta no acreditan fundación, permanencia uniforme ni desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps2000a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc2000.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    44.25627,
+    36.8073
+  ],
+  "phases": [
+    {
+      "start": -2000,
+      "end": -1501,
+      "label": "Comunidades y poderes hurritas",
+      "dateBasis": "Referencia editorial de2000a.C.; ventana de consulta, no500 observaciones anuales.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -1500,
+      "end": -1001,
+      "label": "Comunidades y poderes hurritas",
+      "dateBasis": "Contexto histórico de la última referencia hasta la fase siguiente; no nueva observación del poblamiento.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -2000,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-HURRIAN-KINGDOMS-3037C977-YBC2000-R046.geojson",
+  "geometrySha256": "62d9895fea0571ad25914b3661ee97b3c8b78c47eae54caf0799e147d3e4f63b",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc2000.geojson",
+    "year": -2000,
+    "featureIds": [
+      20
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d08a2390ca3d82f46eccfe97f44949922b69e4bb733f0fc2120e579de52a5d3"
+  },
+  "review": "0.46.0 · 2026-10-30",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contraste arqueológico regional, cronologías locales, atribuciones lingüísticas y distribución del poblamiento; no deducir soberanía del rótulo."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Hurrian Kingdoms",
+      "ABBREVN": "Hurrian Kingdoms",
+      "type": "kingdoms",
+      "weblnks": null,
+      "SUBJECTO": "Hurrian Kingdoms",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Hurrian Kingdoms"
+    }
+  ],
+  "sourceGrouping": [
+    "Hurrian Kingdoms"
+  ]
+}

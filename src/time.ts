@@ -1,7 +1,7 @@
 /** Civil years, with no year zero; geological dates are approximate years before 1950. */
 export const systemYear = (date = new Date()) => date.getFullYear();
 export const PRESENT = systemYear();
-export const anchors = [-4540000000, -4000000000, -2500000000, -1800000000, -1000000000, -541000000, -300000000, -200000000, -66000000, -2600000, -300000, -10000, -3000, -1000, -600, -500, -300, -200, -100, 1, ...Array.from({length:17},(_,i)=>(i+1)*100), 1800, 1914, PRESENT];
+export const anchors = [-4540000000, -4000000000, -2500000000, -1800000000, -1000000000, -541000000, -300000000, -200000000, -66000000, -2600000, -300000, -10000, -3000, -2000, -1600, -1200, -1000, -600, -500, -300, -200, -100, 1, ...Array.from({length:17},(_,i)=>(i+1)*100), 1800, 1914, PRESENT];
 export const clamp = (n: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, n));
 export function yearToPosition(year: number): number {
   const y = clamp(year, anchors[0], PRESENT);
@@ -45,15 +45,15 @@ export function snapshotFor(year: number): Snapshot {
   }
   if (year < -10000) return { kind: 'concept', year };
   if (year >= 2020) return { kind: 'modern', year, file: 'countries.geojson' };
-  if (year >= -1000 && year !== 0) return { kind: 'annual', year, file: year<-600?'early-modern-bc1000.geojson':year<-300?'early-modern-bc600.geojson':year<-200?'early-modern-bc300.geojson':year<-100?'early-modern-bc200.geojson':year<0?'early-modern-bc100.geojson': year>=1886?'history.topojson':year>=1789?'early-modern.geojson':year>=1700?'early-modern-1700.geojson':year>=1600?'early-modern-1600.geojson':year>=1500?'early-modern-1500.geojson':year>=1400?'early-modern-1400.geojson':year>=1300?'early-modern-1300.geojson':year>=1200?'early-modern-1200.geojson':year>=1100?'early-modern-1100.geojson':year>=1000?'early-modern-1000.geojson':year>=900?'early-modern-900.geojson':year>=800?'early-modern-800.geojson':year>=700?'early-modern-700.geojson':year>=600?'early-modern-600.geojson':year>=500?'early-modern-500.geojson':year>=400?'early-modern-400.geojson':year>=300?'early-modern-300.geojson':year>=200?'early-modern-200.geojson':year>=100?'early-modern-100.geojson':'early-modern-1.geojson' };
+  if (year >= -2000 && year !== 0) return { kind: 'annual', year, file: year<-1600?'early-modern-bc2000.geojson':year<-1200?'early-modern-bc1600.geojson':year<-1000?'early-modern-bc1200.geojson':year<-600?'early-modern-bc1000.geojson':year<-300?'early-modern-bc600.geojson':year<-200?'early-modern-bc300.geojson':year<-100?'early-modern-bc200.geojson':year<0?'early-modern-bc100.geojson': year>=1886?'history.topojson':year>=1789?'early-modern.geojson':year>=1700?'early-modern-1700.geojson':year>=1600?'early-modern-1600.geojson':year>=1500?'early-modern-1500.geojson':year>=1400?'early-modern-1400.geojson':year>=1300?'early-modern-1300.geojson':year>=1200?'early-modern-1200.geojson':year>=1100?'early-modern-1100.geojson':year>=1000?'early-modern-1000.geojson':year>=900?'early-modern-900.geojson':year>=800?'early-modern-800.geojson':year>=700?'early-modern-700.geojson':year>=600?'early-modern-600.geojson':year>=500?'early-modern-500.geojson':year>=400?'early-modern-400.geojson':year>=300?'early-modern-300.geojson':year>=200?'early-modern-200.geojson':year>=100?'early-modern-100.geojson':'early-modern-1.geojson' };
   const y = historicalYears.filter(y=>y<1789).reduce((a, b) => Math.abs(a - year) <= Math.abs(b - year) ? a : b);
   return { kind: 'historical', year: y, file: `world_${y < 0 ? `bc${-y}` : y}.geojson` };
 }
-export function playbackYear(year:number){return year>=-1000?Math.min(PRESENT,year===-1?1:year+1):positionToYear(yearToPosition(year)+.075);}
-/** Exact manual stepping throughout the common era, even before annual
+export function playbackYear(year:number){return year>=-2000?Math.min(PRESENT,year===-1?1:year+1):positionToYear(yearToPosition(year)+.075);}
+/** Exact manual stepping throughout the reviewed ancient range, even before annual
  * coverage. Earlier snapshots retain their own evidence date. */
 export function navigationYear(year:number,direction:-1|1){
- if(year>=-1000&&year!==0)return clamp(year+direction===0?direction:year+direction,anchors[0],PRESENT);
+ if(year>=-2000&&year!==0)return clamp(year+direction===0?direction:year+direction,anchors[0],PRESENT);
  if(year===-1&&direction===1)return 1;
  const p=yearToPosition(year);return direction===1?anchors[Math.min(anchors.length-1,Math.floor(p)+1)]:anchors[Math.max(0,Math.ceil(p)-1)];
 }

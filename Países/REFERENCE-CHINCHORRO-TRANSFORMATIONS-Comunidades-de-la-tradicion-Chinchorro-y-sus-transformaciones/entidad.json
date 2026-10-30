@@ -1,0 +1,62 @@
+{
+  "key": "REFERENCE-CHINCHORRO-TRANSFORMATIONS",
+  "name": "Costa del extremo norte de Chile · legado Chinchorro",
+  "qid": "",
+  "aliases": [
+    "Chinchoros",
+    "Chinchorro culture",
+    "Costa del extremo norte de Chile · legado Chinchorro"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 55,
+      "start": null,
+      "end": null,
+      "name": "Chinchoros",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 64,
+      "start": null,
+      "end": null,
+      "name": "Chinchoros",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-CHINCHORRO-TRANSFORMATIONS-YBC1500-R046:0",
+      "contextKey": "REFERENCE-CHINCHORRO-TRANSFORMATIONS",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -1500,
+      "canonicalFile": "Países/REFERENCE-CHINCHORRO-TRANSFORMATIONS-Comunidades-de-la-tradicion-Chinchorro-y-sus-transformaciones/poblamiento/REFERENCE-CHINCHORRO-TRANSFORMATIONS-YBC1500-R046.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-CHINCHORRO-TRANSFORMATIONS-YBC2000-R046:0",
+      "contextKey": "REFERENCE-CHINCHORRO-TRANSFORMATIONS",
+      "start": -2000,
+      "end": -1501,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-CHINCHORRO-TRANSFORMATIONS-Comunidades-de-la-tradicion-Chinchorro-y-sus-transformaciones/poblamiento/REFERENCE-CHINCHORRO-TRANSFORMATIONS-YBC2000-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,98 @@
+{
+  "key": "KERMA-KINGDOM",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Kerma"
+  },
+  "revision": "0.46.0",
+  "acquisition": "period-bc1600-0.46",
+  "coverageStart": -1600,
+  "coverageEnd": -1201,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution046-KERMA-KINGDOM-1600",
+      "start": "-1600-01-01",
+      "end": "-1500-01-01",
+      "precision": 9,
+      "section": "institutions",
+      "title": "Un reino nubio distinto de la monarquía napata",
+      "text": "Kerma es un centro político y cultural nubio con una secuencia arqueológica propia, anterior a la posterior realeza de Napata. La falta de una serie segura de nombres regios no significa que careciera de autoridades. El final convencional hacia 1500 y la expansión egipcia no equivalen a desaparición de las comunidades nubias.",
+      "source": "https://www.man.es/man/en/coleccion/catalogo-cronologico/egipto/ceramica.html",
+      "sourceLabel": "Referencia documental y arqueológica"
+    }
+  ],
+  "governance": [
+    {
+      "start": -1600,
+      "end": -1501,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://www.man.es/man/en/coleccion/catalogo-cronologico/egipto/ceramica.html",
+      "sourceLabel": "Kerma · referencia nubia",
+      "note": "Centro político y redes del reino, no una monarquía napata adelantada. Nombres de sus soberanos no reconstruidos por suposición."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat046-dc3c6f9ffd53-bc1600",
+      "name": "Kerma",
+      "coordinates": [
+        30.42,
+        19.6
+      ],
+      "start": -1600,
+      "end": -1501,
+      "capital": true,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio."
+    },
+    {
+      "id": "seat046-dc3c6f9ffd53-reference-bc1600",
+      "name": "Kerma",
+      "coordinates": [
+        30.42,
+        19.6
+      ],
+      "start": -1600,
+      "end": -1501,
+      "capital": true,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio.",
+      "standaloneReference": true,
+      "entityName": "Reino de Kerma"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context046-KERMA-KINGDOM-1600",
+      "start": "-1600-01-01",
+      "end": "-1500-01-01",
+      "kind": "institution",
+      "title": "Un reino nubio distinto de la monarquía napata",
+      "text": "Kerma es un centro político y cultural nubio con una secuencia arqueológica propia, anterior a la posterior realeza de Napata. La falta de una serie segura de nombres regios no significa que careciera de autoridades. El final convencional hacia 1500 y la expansión egipcia no equivalen a desaparición de las comunidades nubias.",
+      "source": "https://www.man.es/man/en/coleccion/catalogo-cronologico/egipto/ceramica.html",
+      "sourceLabel": "Contexto de la entidad",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cronología regional, autoridades y representaciones acreditadas. Fechas anteriores a la cronología absoluta tienen variantes; sin dato no significa ausencia de población o poder."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [],
+  "mediaReview": []
+}

@@ -1,0 +1,81 @@
+{
+  "key": "REFERENCE-AFANASIEVO-LEGACY-YBC2000-R046",
+  "contextKey": "REFERENCE-AFANASIEVO-LEGACY",
+  "ownerKey": "REFERENCE-AFANASIEVO-LEGACY",
+  "name": "Altái-Sayán · contexto de las tradiciones Afanásievo",
+  "originalNames": [
+    "Afanasevo"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de2000a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -2000,
+    -1001
+  ],
+  "interpretation": "La cultura Afanásievo es anterior a2000. Se presenta contexto de su área y transformaciones, no persistencia homogénea de una cultura desaparecida.",
+  "spatialUncertainty": "Originales de compilación mundial preservados; resolución desigual y límites aproximados. No fronteras exclusivas de población, cartas arqueológicas exhaustivas ni costas paleogeográficas verificadas.",
+  "temporalUncertainty": "Las dos referencias de2000/1500 no son mil observaciones anuales. Las ventanas y los finales de consulta no acreditan fundación, permanencia uniforme ni desaparición posterior.",
+  "references": [
+    {
+      "title": "Historical Basemaps2000a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc2000.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    88.14689,
+    51.58707
+  ],
+  "phases": [
+    {
+      "start": -2000,
+      "end": -1501,
+      "label": "Altái-Sayán · contexto de las tradiciones Afanásievo",
+      "dateBasis": "Referencia editorial de2000a.C.; ventana de consulta, no500 observaciones anuales.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -2500
+    },
+    {
+      "start": -1500,
+      "end": -1001,
+      "label": "Altái-Sayán · contexto de las tradiciones Afanásievo",
+      "dateBasis": "Contexto histórico de la última referencia hasta la fase siguiente; no nueva observación del poblamiento.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -2000,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-AFANASIEVO-LEGACY-YBC2000-R046.geojson",
+  "geometrySha256": "f0ea0764631c571353b453b6871293064d4ca6022e059a2de944d9c87d5d3cec",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc2000.geojson",
+    "year": -2000,
+    "featureIds": [
+      98
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "9d08a2390ca3d82f46eccfe97f44949922b69e4bb733f0fc2120e579de52a5d3"
+  },
+  "review": "0.46.0 · 2026-10-30",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contraste arqueológico regional, cronologías locales, atribuciones lingüísticas y distribución del poblamiento; no deducir soberanía del rótulo."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Afanasevo",
+      "ABBREVN": "Afanasevo",
+      "type": "simple farming society",
+      "weblnks": null,
+      "SUBJECTO": "Afanasevo",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Afanasevo"
+    }
+  ],
+  "sourceGrouping": [
+    "Afanasevo"
+  ]
+}

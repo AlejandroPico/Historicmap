@@ -3,6 +3,7 @@
   "name": "Sabaeans",
   "qid": "Q940785",
   "aliases": [
+    "Saba",
     "Sabaeans"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
@@ -16,6 +17,22 @@
   "leaders": [],
   "portraitVariants": [],
   "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 11,
+      "start": null,
+      "end": null,
+      "name": "Saba",
+      "status": null
+    },
+    {
+      "file": "world_bc500.geojson",
+      "recordId": 12,
+      "start": null,
+      "end": null,
+      "name": "Saba",
+      "status": null
+    },
     {
       "file": "early-modern-200.geojson",
       "recordId": "clio-1262",
@@ -171,6 +188,15 @@
       "end": -701,
       "sourceYear": -1000,
       "canonicalFile": "Países/HIST-Q940785-Sabaeans/poblamiento/CULTURE-SABA-5D7F956D-YBC1000-R045.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-HIST-Q940785-WORLD-YBC1500-R046:0",
+      "contextKey": "REFERENCE-HIST-Q940785-WORLD",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -1500,
+      "canonicalFile": "Países/HIST-Q940785-Sabaeans/poblamiento/REFERENCE-HIST-Q940785-WORLD-YBC1500-R046.json"
     }
   ],
   "culturalReviews": [

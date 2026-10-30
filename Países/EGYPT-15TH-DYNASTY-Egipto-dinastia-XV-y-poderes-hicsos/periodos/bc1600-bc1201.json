@@ -1,0 +1,403 @@
+{
+  "key": "EGYPT-15TH-DYNASTY",
+  "identity": {
+    "qid": "",
+    "name": "Egipto · dinastía XV y poderes hicsos"
+  },
+  "revision": "0.46.0",
+  "acquisition": "period-bc1600-0.46",
+  "coverageStart": -1600,
+  "coverageEnd": -1201,
+  "candidates": [
+    {
+      "role": "Gobernante hicso · dinastía XV · cronología aproximada",
+      "titles": [
+        "Khyan"
+      ],
+      "documentedWindow": [
+        -1610,
+        -1580
+      ]
+    },
+    {
+      "role": "Gobernante hicso · dinastía XV · cronología aproximada",
+      "titles": [
+        "Apepi"
+      ],
+      "documentedWindow": [
+        -1580,
+        -1540
+      ]
+    },
+    {
+      "role": "Gobernante hicso · fase final aproximada",
+      "titles": [
+        "Khamudi"
+      ],
+      "documentedWindow": [
+        -1555,
+        -1550
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q440496",
+      "name": "Jyan",
+      "role": "Gobernante hicso · dinastía XV · cronología aproximada",
+      "start": "-1600-01-01",
+      "end": "-1580-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khyan",
+      "note": "Fechas propuestas variables. La serie no acredita un rey único sobre todo Egipto; el final de Khamudi debe revisarse contra las alternativas de Apepi. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -1610,
+        -1580
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q322169",
+      "name": "Apofis I",
+      "role": "Gobernante hicso · dinastía XV · cronología aproximada",
+      "start": "-1580-01-01",
+      "end": "-1551-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Apepi",
+      "note": "Ventana aproximada convencional escogida; otras reconstrucciones terminan 1540 o adelantan el reinado. No se superponen las hipótesis para simular una corregencia. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -1580,
+        -1551
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    },
+    {
+      "person": "Q879157",
+      "name": "Jamudy",
+      "role": "Gobernante hicso · fase final aproximada",
+      "start": "-1551-01-01",
+      "end": "-1540-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khamudi",
+      "note": "Ventana aproximada final del poder hicso; British Museum sitúa la reunificación por Ahmose hacia 1540. Las cronologías de Khyan/Apepi también tienen variantes. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -1551,
+        -1540
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution046-EGYPT-15TH-DYNASTY-1600",
+      "start": "-1600-01-01",
+      "end": "-1200-01-01",
+      "precision": 9,
+      "section": "institutions",
+      "title": "Instituciones y cronología documental",
+      "text": "La ficha distingue la entidad representada y sus autoridades de los contornos de compilación. Los intervalos son convencionales o aproximados; las carencias nominales, símbolos no acreditados y cronologías alternativas permanecen en el registro de investigación.",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Referencia documental y arqueológica"
+    }
+  ],
+  "governance": [
+    {
+      "start": -1600,
+      "end": -1201,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat046-a21fe568dab4-bc1600",
+      "name": "Avaris · Tell el-Daba",
+      "coordinates": [
+        31.82,
+        30.79
+      ],
+      "start": -1600,
+      "end": -1540,
+      "capital": true,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio."
+    },
+    {
+      "id": "seat046-a21fe568dab4-reference-bc1600",
+      "name": "Avaris · Tell el-Daba",
+      "coordinates": [
+        31.82,
+        30.79
+      ],
+      "start": -1600,
+      "end": -1540,
+      "capital": true,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio.",
+      "standaloneReference": true,
+      "entityName": "Egipto · dinastía XV y poderes hicsos"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context046-EGYPT-15TH-DYNASTY-1600",
+      "start": "-1600-01-01",
+      "end": "-1200-01-01",
+      "kind": "institution",
+      "title": "Instituciones y cronología documental",
+      "text": "La ficha distingue la entidad representada y sus autoridades de los contornos de compilación. Los intervalos son convencionales o aproximados; las carencias nominales, símbolos no acreditados y cronologías alternativas permanecen en el registro de investigación.",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Contexto de la entidad",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "event046-6-1600",
+      "kind": "transition",
+      "title": "Avaris y la reunificación de Ahmose",
+      "start": "-1540-01-01",
+      "end": "-1539-01-01",
+      "text": "Fecha aproximada de la reunificación en la guía del British Museum; no confundir con el comienzo del reinado hacia 1550.",
+      "source": "https://www.britishmuseum.org/sites/default/files/2022-10/Hieroglyphs_unlocking_ancient_Egypt_large_print_guide_The_British_Museum.pdf",
+      "sourceLabel": "Testimonio y cronología convencional",
+      "confidence": "documentary-reference",
+      "tags": [
+        "transition"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc1600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Hyksos"
+        ],
+        "start": -1600,
+        "end": -1541,
+        "label": "Egipto · dinastía XV y poderes hicsos",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+        "note": "Contorno original de compilación. No observación anual ni prueba de control uniforme; cronología institucional contrastada aparte.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    },
+    {
+      "files": [
+        "historical-bc1600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Fifteenth Dynasty of Egypt"
+        ],
+        "start": -1600,
+        "end": -1541,
+        "label": "Egipto · dinastía XV y poderes hicsos",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+        "note": "Contorno original de compilación. No observación anual ni prueba de control uniforme; cronología institucional contrastada aparte.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc1600-bc1201.geojson",
+      "sha256": "83e4b9d31b9957d83074ddf08b4d76aba40e00f276e19b5aa5b9c976867a47d5",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        49,
+        58,
+        63
+      ],
+      "note": "Coordenadas, propiedades y componentes originales intactos; no mezclar geometrías culturales GPL en la política."
+    }
+  ],
+  "pending": [
+    "Completar cronología regional, autoridades y representaciones acreditadas. Fechas anteriores a la cronología absoluta tienen variantes; sin dato no significa ausencia de población o poder."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Apepi",
+        "title": "Apepi",
+        "person": "Q322169",
+        "name": "Apofis I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Apepi",
+        "identityResolution": {
+          "requested": "Apepi",
+          "canonical": "Apepi",
+          "qid": "Q322169"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q322169",
+        "title": "Apepi",
+        "source": "https://en.wikipedia.org/wiki/Apepi",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Pharaoh of Egypt",
+            "raw": "[[Fifteenth dynasty of Egypt|Fifteenth Dynasty]]",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Khamudi",
+        "title": "Khamudi",
+        "person": "Q879157",
+        "name": "Jamudy",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khamudi",
+        "identityResolution": {
+          "requested": "Khamudi",
+          "canonical": "Khamudi",
+          "qid": "Q879157"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q879157",
+        "title": "Khamudi",
+        "source": "https://en.wikipedia.org/wiki/Khamudi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "[[16th century BC|1534–1522 BC]] ([[Detlef Franke|Franke]]<ref name=\"schneider\"/>), [[16th century BC|1541–1540 BC]] (Ryholt<ref name=ryholt/>)",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Pharaoh of Egypt",
+            "raw": "[[Fifteenth dynasty of Egypt|Fifteenth Dynasty]]",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Khyan",
+        "title": "Khyan",
+        "person": "Q440496",
+        "name": "Jyan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khyan",
+        "identityResolution": {
+          "requested": "Khyan",
+          "canonical": "Khyan",
+          "qid": "Q440496"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q440496",
+        "title": "Khyan",
+        "source": "https://en.wikipedia.org/wiki/Khyan",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Pharaoh of Egypt",
+            "raw": "[[Fifteenth dynasty of Egypt|Fifteenth Dynasty]]",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "point046-6-1600",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.82,
+          30.79
+        ]
+      },
+      "properties": {
+        "name": "Avaris y la reunificación de Ahmose",
+        "countries": [
+          "EGYPT-15TH-DYNASTY"
+        ],
+        "kind": "historical-event",
+        "start": "-1540-01-01",
+        "end": "-1540-12-31",
+        "precision": 9,
+        "source": "https://www.britishmuseum.org/sites/default/files/2022-10/Hieroglyphs_unlocking_ancient_Egypt_large_print_guide_The_British_Museum.pdf",
+        "sourceLabel": "Referencia documental",
+        "note": "Fecha aproximada de la reunificación en la guía del British Museum; no confundir con el comienzo del reinado hacia 1550. Punto regional aproximado, no perímetro ni línea de control."
+      }
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q322169",
+      "title": "Scarab Bearing Name Of Apophis Museum Of Fine Arts Boston.png",
+      "reason": "Documento, inscripción, objeto, mapa o escena sin un retrato individual acreditado y legible del titular; no transferir una imagen por mera asociación temática."
+    },
+    {
+      "person": "Q879157",
+      "title": "Cylinder Khondy Petrie.jpg",
+      "reason": "Documento, inscripción, objeto, mapa o escena sin un retrato individual acreditado y legible del titular; no transferir una imagen por mera asociación temática."
+    },
+    {
+      "person": "Q440496",
+      "title": "Khyan.jpg",
+      "reason": "Objeto con nombre de Khyan; no rostro humano identificado como el gobernante."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q322169",
+      "title": "Scarab Bearing Name Of Apophis Museum Of Fine Arts Boston.png",
+      "decision": "rejected",
+      "reason": "Documento, inscripción, objeto, mapa o escena sin un retrato individual acreditado y legible del titular; no transferir una imagen por mera asociación temática."
+    },
+    {
+      "person": "Q879157",
+      "title": "Cylinder Khondy Petrie.jpg",
+      "decision": "rejected",
+      "reason": "Documento, inscripción, objeto, mapa o escena sin un retrato individual acreditado y legible del titular; no transferir una imagen por mera asociación temática."
+    },
+    {
+      "person": "Q440496",
+      "title": "Khyan.jpg",
+      "decision": "rejected",
+      "reason": "Objeto con nombre de Khyan; no rostro humano identificado como el gobernante."
+    }
+  ]
+}

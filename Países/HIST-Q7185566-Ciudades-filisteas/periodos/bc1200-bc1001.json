@@ -1,0 +1,96 @@
+{
+  "key": "HIST-Q7185566",
+  "identity": {
+    "qid": "Q7185566",
+    "name": "Ciudades filisteas"
+  },
+  "revision": "0.46.0",
+  "acquisition": "period-bc1200-0.46",
+  "coverageStart": -1200,
+  "coverageEnd": -1001,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution046-HIST-Q7185566-1200",
+      "start": "-1200-01-01",
+      "end": "-1000-01-01",
+      "precision": 9,
+      "section": "institutions",
+      "title": "Instituciones y cronología documental",
+      "text": "La ficha distingue la entidad representada y sus autoridades de los contornos de compilación. Los intervalos son convencionales o aproximados; las carencias nominales, símbolos no acreditados y cronologías alternativas permanecen en el registro de investigación.",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Referencia documental y arqueológica"
+    }
+  ],
+  "governance": [
+    {
+      "start": -1200,
+      "end": -1001,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [],
+  "contexts": [
+    {
+      "id": "context046-HIST-Q7185566-1200",
+      "start": "-1200-01-01",
+      "end": "-1000-01-01",
+      "kind": "institution",
+      "title": "Instituciones y cronología documental",
+      "text": "La ficha distingue la entidad representada y sus autoridades de los contornos de compilación. Los intervalos son convencionales o aproximados; las carencias nominales, símbolos no acreditados y cronologías alternativas permanecen en el registro de investigación.",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Contexto de la entidad",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc1200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Philistia"
+        ],
+        "start": -1200,
+        "end": -1001,
+        "label": "Ciudades filisteas",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+        "note": "Contorno original de compilación. No observación anual ni prueba de control uniforme; cronología institucional contrastada aparte."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc1200-bc1001.geojson",
+      "sha256": "7f418a9e83b6768e26327e2c9b951479089447b27b755fbcc528fdfcb2d6cf7f",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        105
+      ],
+      "note": "Coordenadas, propiedades y componentes originales intactos; no mezclar geometrías culturales GPL en la política."
+    }
+  ],
+  "pending": [
+    "Completar cronología regional, autoridades y representaciones acreditadas. Fechas anteriores a la cronología absoluta tienen variantes; sin dato no significa ausencia de población o poder."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [],
+  "mediaReview": []
+}

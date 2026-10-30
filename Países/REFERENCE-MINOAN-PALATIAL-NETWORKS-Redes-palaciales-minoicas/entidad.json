@@ -1,0 +1,64 @@
+{
+  "key": "REFERENCE-MINOAN-PALATIAL-NETWORKS",
+  "name": "Redes palaciales minoicas",
+  "qid": "",
+  "aliases": [
+    "Minoan civilization",
+    "Redes palaciales minoicas"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "REFERENCE-MINOAN-PALATIAL-NETWORKS"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc1600.geojson",
+      "recordId": "clio-53",
+      "start": -1600,
+      "end": -1501,
+      "name": "Minoan civilization",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1600.geojson",
+      "recordId": "clio-65",
+      "start": -1500,
+      "end": -1401,
+      "name": "Minoan civilization",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MINOAN-970B0395-YBC2000-R046:0",
+      "contextKey": "CULTURE-MINOAN-970B0395",
+      "start": -2000,
+      "end": -1501,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-MINOAN-PALATIAL-NETWORKS-Redes-palaciales-minoicas/poblamiento/CULTURE-MINOAN-970B0395-YBC2000-R046.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-MINOAN-970B0395-YBC2000-R046:1",
+      "contextKey": "CULTURE-MINOAN-970B0395",
+      "start": -1500,
+      "end": -1001,
+      "sourceYear": -2000,
+      "canonicalFile": "Países/REFERENCE-MINOAN-PALATIAL-NETWORKS-Redes-palaciales-minoicas/poblamiento/CULTURE-MINOAN-970B0395-YBC2000-R046.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

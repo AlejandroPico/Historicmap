@@ -1,0 +1,207 @@
+{
+  "key": "UGARIT-KINGDOM",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Ugarit"
+  },
+  "revision": "0.46.0",
+  "acquisition": "period-bc1200-0.46",
+  "coverageStart": -1200,
+  "coverageEnd": -1001,
+  "candidates": [
+    {
+      "role": "Rey de Ugarit · cronología aproximada",
+      "titles": [
+        "Ammurapi"
+      ],
+      "documentedWindow": [
+        -1215,
+        -1190
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q11513",
+      "name": "Ammurapi",
+      "role": "Rey de Ugarit · cronología aproximada",
+      "start": "-1200-01-01",
+      "end": "-1190-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Ammurapi",
+      "note": "Cronología convencional o aproximada; no derivada de fechas vitales. Las variantes se mantienen en la investigación, sin convertir cada año de consulta en una observación independiente. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -1215,
+        -1190
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual.",
+      "startIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution046-UGARIT-KINGDOM-1200",
+      "start": "-1200-01-01",
+      "end": "-1000-01-01",
+      "precision": 9,
+      "section": "institutions",
+      "title": "Instituciones y cronología documental",
+      "text": "La ficha distingue la entidad representada y sus autoridades de los contornos de compilación. Los intervalos son convencionales o aproximados; las carencias nominales, símbolos no acreditados y cronologías alternativas permanecen en el registro de investigación.",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Referencia documental y arqueológica"
+    }
+  ],
+  "governance": [
+    {
+      "start": -1200,
+      "end": -1001,
+      "tags": [
+        "monarchy",
+        "city-state",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat046-3cab0e6e2294-bc1200",
+      "name": "Ugarit · Ras Shamra",
+      "coordinates": [
+        35.78,
+        35.6
+      ],
+      "start": -1200,
+      "end": -1190,
+      "capital": true,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio."
+    },
+    {
+      "id": "seat046-3cab0e6e2294-reference-bc1200",
+      "name": "Ugarit · Ras Shamra",
+      "coordinates": [
+        35.78,
+        35.6
+      ],
+      "start": -1200,
+      "end": -1190,
+      "capital": true,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio.",
+      "standaloneReference": true,
+      "entityName": "Reino de Ugarit"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context046-UGARIT-KINGDOM-1200",
+      "start": "-1200-01-01",
+      "end": "-1000-01-01",
+      "kind": "institution",
+      "title": "Instituciones y cronología documental",
+      "text": "La ficha distingue la entidad representada y sus autoridades de los contornos de compilación. Los intervalos son convencionales o aproximados; las carencias nominales, símbolos no acreditados y cronologías alternativas permanecen en el registro de investigación.",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Contexto de la entidad",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "event046-15-1200",
+      "kind": "transition",
+      "title": "Destrucciones y final de la corte de Ugarit",
+      "start": "-1190-01-01",
+      "end": "-1184-01-01",
+      "text": "Datación aproximada; no localizar a cada ejército ni atribuir todas las destrucciones a una causa única.",
+      "source": "https://en.wikipedia.org/wiki/Ugarit",
+      "sourceLabel": "Testimonio y cronología convencional",
+      "confidence": "documentary-reference",
+      "tags": [
+        "transition"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Completar cronología regional, autoridades y representaciones acreditadas. Fechas anteriores a la cronología absoluta tienen variantes; sin dato no significa ausencia de población o poder."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ammurapi",
+        "title": "Ammurapi",
+        "person": "Q11513",
+        "name": "Ammurapi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ammurapi",
+        "identityResolution": {
+          "requested": "Ammurapi",
+          "canonical": "Ammurapi",
+          "qid": "Q11513"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q11513",
+        "title": "Ammurapi",
+        "source": "https://en.wikipedia.org/wiki/Ammurapi",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Ugarit",
+            "raw": "1215-1190/1180 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "key": "UGARIT-KINGDOM",
+      "title": "Ammittamru I",
+      "resolvedPerson": "Q30315298",
+      "adoptedPerson": "documented046-cbea052629c2cd2e1b",
+      "reason": "Fecha vital anual incompatible y sin reinado coincidente; conservar nombre documental, sin imagen de posible homónimo.",
+      "metadataGuards": []
+    }
+  ],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "point046-15-1200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.78,
+          35.6
+        ]
+      },
+      "properties": {
+        "name": "Destrucciones y final de la corte de Ugarit",
+        "countries": [
+          "UGARIT-KINGDOM"
+        ],
+        "kind": "historical-event",
+        "start": "-1190-01-01",
+        "end": "-1185-12-31",
+        "precision": 9,
+        "source": "https://en.wikipedia.org/wiki/Ugarit",
+        "sourceLabel": "Referencia documental",
+        "note": "Datación aproximada; no localizar a cada ejército ni atribuir todas las destrucciones a una causa única. Punto regional aproximado, no perímetro ni línea de control."
+      }
+    }
+  ],
+  "mediaReview": []
+}

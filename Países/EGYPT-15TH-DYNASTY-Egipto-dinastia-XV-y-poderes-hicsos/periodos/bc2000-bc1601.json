@@ -1,0 +1,258 @@
+{
+  "key": "EGYPT-15TH-DYNASTY",
+  "identity": {
+    "qid": "",
+    "name": "Egipto · dinastía XV y poderes hicsos"
+  },
+  "revision": "0.46.0",
+  "acquisition": "period-bc2000-0.46",
+  "coverageStart": -2000,
+  "coverageEnd": -1601,
+  "candidates": [
+    {
+      "role": "Gobernante hicso · dinastía XV · cronología aproximada",
+      "titles": [
+        "Khyan"
+      ],
+      "documentedWindow": [
+        -1610,
+        -1580
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q440496",
+      "name": "Jyan",
+      "role": "Gobernante hicso · dinastía XV · cronología aproximada",
+      "start": "-1610-01-01",
+      "end": "-1601-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Khyan",
+      "note": "Fechas propuestas variables. La serie no acredita un rey único sobre todo Egipto; el final de Khamudi debe revisarse contra las alternativas de Apepi. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -1610,
+        -1580
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [
+    {
+      "id": "institution046-EGYPT-15TH-DYNASTY-2000",
+      "start": "-2000-01-01",
+      "end": "-1600-01-01",
+      "precision": 9,
+      "section": "institutions",
+      "title": "Instituciones y cronología documental",
+      "text": "La ficha distingue la entidad representada y sus autoridades de los contornos de compilación. Los intervalos son convencionales o aproximados; las carencias nominales, símbolos no acreditados y cronologías alternativas permanecen en el registro de investigación.",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Referencia documental y arqueológica"
+    }
+  ],
+  "governance": [
+    {
+      "start": -2000,
+      "end": -1601,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat046-a21fe568dab4-bc2000",
+      "name": "Avaris · Tell el-Daba",
+      "coordinates": [
+        31.82,
+        30.79
+      ],
+      "start": -1650,
+      "end": -1601,
+      "capital": true,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio."
+    },
+    {
+      "id": "seat046-a21fe568dab4-reference-bc2000",
+      "name": "Avaris · Tell el-Daba",
+      "coordinates": [
+        31.82,
+        30.79
+      ],
+      "start": -1650,
+      "end": -1601,
+      "capital": true,
+      "role": "Centro o sede documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "note": "Localización aproximada del yacimiento; no límite urbano, residencia regia continua ni prueba de soberanía sobre un territorio.",
+      "standaloneReference": true,
+      "entityName": "Egipto · dinastía XV y poderes hicsos"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context046-EGYPT-15TH-DYNASTY-2000",
+      "start": "-2000-01-01",
+      "end": "-1600-01-01",
+      "kind": "institution",
+      "title": "Instituciones y cronología documental",
+      "text": "La ficha distingue la entidad representada y sus autoridades de los contornos de compilación. Los intervalos son convencionales o aproximados; las carencias nominales, símbolos no acreditados y cronologías alternativas permanecen en el registro de investigación.",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+      "sourceLabel": "Contexto de la entidad",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Hyksos"
+        ],
+        "start": -2000,
+        "end": -1651,
+        "label": "Delta oriental · referencia anterior al poder hicso",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+        "note": "Contorno original de compilación. No observación anual ni prueba de control uniforme; cronología institucional contrastada aparte.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    },
+    {
+      "files": [
+        "historical-bc2000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Hyksos"
+        ],
+        "start": -1650,
+        "end": -1601,
+        "label": "Egipto · dinastía XV y poderes hicsos",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+        "note": "Contorno original de compilación. No observación anual ni prueba de control uniforme; cronología institucional contrastada aparte.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    },
+    {
+      "files": [
+        "historical-bc2000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Fifteenth Dynasty of Egypt"
+        ],
+        "start": -2000,
+        "end": -1651,
+        "label": "Delta oriental · referencia anterior al poder hicso",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+        "note": "Contorno original de compilación. No observación anual ni prueba de control uniforme; cronología institucional contrastada aparte.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    },
+    {
+      "files": [
+        "historical-bc2000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Fifteenth Dynasty of Egypt"
+        ],
+        "start": -1650,
+        "end": -1601,
+        "label": "Egipto · dinastía XV y poderes hicsos",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc2000.md",
+        "note": "Contorno original de compilación. No observación anual ni prueba de control uniforme; cronología institucional contrastada aparte.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc2000-bc1601.geojson",
+      "sha256": "b0f486120a483bde91c0f75f41d4d6e49955ff246802befbea9a19ad66a3a989",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        33,
+        47
+      ],
+      "note": "Coordenadas, propiedades y componentes originales intactos; no mezclar geometrías culturales GPL en la política."
+    }
+  ],
+  "pending": [
+    "Completar cronología regional, autoridades y representaciones acreditadas. Fechas anteriores a la cronología absoluta tienen variantes; sin dato no significa ausencia de población o poder."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Khyan",
+        "title": "Khyan",
+        "person": "Q440496",
+        "name": "Jyan",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Khyan",
+        "identityResolution": {
+          "requested": "Khyan",
+          "canonical": "Khyan",
+          "qid": "Q440496"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q440496",
+        "title": "Khyan",
+        "source": "https://en.wikipedia.org/wiki/Khyan",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Pharaoh of Egypt",
+            "raw": "[[Fifteenth dynasty of Egypt|Fifteenth Dynasty]]",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q440496",
+      "title": "Khyan.jpg",
+      "reason": "Objeto con nombre de Khyan; no rostro humano identificado como el gobernante."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q440496",
+      "title": "Khyan.jpg",
+      "decision": "rejected",
+      "reason": "Objeto con nombre de Khyan; no rostro humano identificado como el gobernante."
+    }
+  ]
+}
