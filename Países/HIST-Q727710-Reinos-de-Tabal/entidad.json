@@ -1,0 +1,44 @@
+{
+  "key": "HIST-Q727710",
+  "name": "Reinos de Tabal",
+  "qid": "Q727710",
+  "aliases": [
+    "Reinos de Tabal",
+    "Tabal Kingdom"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q727710"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-128",
+      "start": -900,
+      "end": -751,
+      "name": "Tabal Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-153",
+      "start": -750,
+      "end": -701,
+      "name": "Tabal Kingdom",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

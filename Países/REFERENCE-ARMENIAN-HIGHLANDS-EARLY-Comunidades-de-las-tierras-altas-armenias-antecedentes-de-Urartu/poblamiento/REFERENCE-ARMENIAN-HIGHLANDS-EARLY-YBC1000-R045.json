@@ -1,0 +1,78 @@
+{
+  "key": "REFERENCE-ARMENIAN-HIGHLANDS-EARLY-YBC1000-R045",
+  "contextKey": "REFERENCE-ARMENIAN-HIGHLANDS-EARLY",
+  "ownerKey": "REFERENCE-ARMENIAN-HIGHLANDS-EARLY",
+  "name": "Comunidades de las tierras altas armenias · antecedentes de Urartu",
+  "originalNames": [
+    "Urartu"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de1000a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -1000,
+    -601
+  ],
+  "interpretation": "El rótulo Urartu del mapa1000 no adelanta hasta entonces la monarquía urartia históricamente atestiguada.",
+  "spatialUncertainty": "Contorno íntegro de compilación mundial, resolución desigual y límites aproximados; no fronteras exclusivas de población.",
+  "temporalUncertainty": "Los mapas1000/700 son referencias de compilación, no cuatrocientas observaciones anuales. La ventana y el final de consulta no prueban permanencia ni desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps1000a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1000.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    44.01089,
+    39.26224
+  ],
+  "phases": [
+    {
+      "start": -1000,
+      "end": -701,
+      "label": "Comunidades de las tierras altas armenias · antecedentes de Urartu",
+      "dateBasis": "Referencia espacial de1000a.C.; sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -700,
+      "end": -601,
+      "label": "Comunidades de las tierras altas armenias · antecedentes de Urartu",
+      "dateBasis": "Contexto histórico anterior hasta la siguiente referencia; no nueva observación de población.",
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -1000,
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-ARMENIAN-HIGHLANDS-EARLY-YBC1000-R045.geojson",
+  "geometrySha256": "e23c2a1746df9a20c4f2c589cd808b86e2c672953ca78b1a6a55123b027a0249",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1000.geojson",
+    "year": -1000,
+    "featureIds": [
+      103
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ace64cae988ab72ab5536b76e052a9564eed81390404bccbc5e6a48ac646d7fc"
+  },
+  "review": "0.45.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Bibliografía regional, denominaciones y cronología de poblamiento por contrastar."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Urartu",
+      "ABBREVN": "Urartu",
+      "SUBJECTO": "Urartu",
+      "TYPE": null,
+      "BORDERPRECISION": 1,
+      "PARTOF": "Urartu"
+    }
+  ],
+  "sourceGrouping": [
+    "Urartu"
+  ]
+}

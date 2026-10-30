@@ -1,0 +1,70 @@
+{
+  "key": "HIST-Q770281",
+  "identity": {
+    "qid": "Q770281",
+    "name": "Estados sirio-anatolios"
+  },
+  "revision": "0.45.0",
+  "acquisition": "period-bc1000-0.45",
+  "coverageStart": -1000,
+  "coverageEnd": -601,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -1000,
+      "end": -601,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "sourceLabel": "Revisión1000–601a.C.",
+      "note": "Clasificación documental de los poderes representados, no prueba de estado unitario ni continuidad institucional durante cuatro siglos."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc1000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Neo-Hittite states"
+        ],
+        "start": -1000,
+        "end": -601,
+        "label": "Estados sirio-anatolios",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+        "note": "Contorno original de compilación; no observación anual ni control homogéneo."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc1000-bc0601.geojson",
+      "sha256": "d03db22102e3cf7165149b30be39b9bac77d31f078f4ca95832baa5135db9855",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        118,
+        132
+      ],
+      "note": "Propiedades, índices y coordenadas originales retenidos."
+    }
+  ],
+  "pending": [
+    "Bibliografía y cronología regional; no inferir gobernantes de fechas vitales ni del nombre del territorio."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Fechas convencionales y variantes explícitas. Identificación humana cotejada con metadatos y campos de reinado; la falta de retrato no se resuelve con un homónimo. No se infiere un mandato de fechas vitales.",
+  "coarseDateQualifications": [],
+  "mediaReview": []
+}

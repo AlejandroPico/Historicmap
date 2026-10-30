@@ -1,0 +1,95 @@
+{
+  "key": "HIST-Q128904",
+  "name": "Elam",
+  "qid": "Q128904",
+  "aliases": [
+    "Elam"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q128904"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-116",
+      "start": -1000,
+      "end": -901,
+      "name": "Elam",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-129",
+      "start": -900,
+      "end": -801,
+      "name": "Elam",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-146",
+      "start": -800,
+      "end": -701,
+      "name": "Elam",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-185",
+      "start": -700,
+      "end": -651,
+      "name": "Elam",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-206",
+      "start": -650,
+      "end": -631,
+      "name": "Elam",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-230",
+      "start": -615,
+      "end": -601,
+      "name": "Elam",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ELAM-74DE2F93-YBC0700-R045:0",
+      "contextKey": "REFERENCE-HIST-Q128904-WORLD",
+      "start": -700,
+      "end": -601,
+      "sourceYear": -700,
+      "canonicalFile": "Países/HIST-Q128904-Elam/poblamiento/CULTURE-ELAM-74DE2F93-YBC0700-R045.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-ELAM-74DE2F93-YBC1000-R045:0",
+      "contextKey": "REFERENCE-HIST-Q128904-WORLD",
+      "start": -1000,
+      "end": -701,
+      "sourceYear": -1000,
+      "canonicalFile": "Países/HIST-Q128904-Elam/poblamiento/CULTURE-ELAM-74DE2F93-YBC1000-R045.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

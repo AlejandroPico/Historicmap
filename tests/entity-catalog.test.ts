@@ -11,7 +11,7 @@ describe('entity folders and original media references',()=>{
   const save=(path:string,data:unknown)=>{mkdirSync(resolve(root,path,'..'),{recursive:true});writeFileSync(join(root,path),JSON.stringify(data,null,2)+'\n');};
   try{
    mkdirSync(join(root,'scripts'));
-   for(const name of ['register-entity-revisions.mjs','prepare-country-catalog.mjs'])copyFileSync(new URL('../scripts/'+name,import.meta.url),join(root,'scripts',name));
+   for(const name of ['register-entity-revisions.mjs','prepare-country-catalog.mjs','prepare-display-labels.mjs'])copyFileSync(new URL('../scripts/'+name,import.meta.url),join(root,'scripts',name));
    save('package.json',{version:'test'});
    const key='QIN-STATE-WARRING',folder='Qin-existing-folder';
    const leaders=[{person:'HUIWEN',role:'Señor',start:'-0337-01-01',end:'-0326-12-31'},{person:'HUIWEN',role:'Rey',start:'-0325-01-01',end:'-0311-12-31'}];

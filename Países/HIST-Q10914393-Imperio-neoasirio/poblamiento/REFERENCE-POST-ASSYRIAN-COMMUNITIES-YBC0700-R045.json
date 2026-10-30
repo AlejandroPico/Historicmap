@@ -1,0 +1,72 @@
+{
+  "key": "REFERENCE-POST-ASSYRIAN-COMMUNITIES-YBC0700-R045",
+  "contextKey": "REFERENCE-HIST-Q10914393-WORLD",
+  "ownerKey": "HIST-Q10914393",
+  "name": "Asiria · referencia territorial",
+  "originalNames": [
+    "Assyria"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional de la compilación de700a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -700,
+    -601
+  ],
+  "interpretation": "Referencia territorial de la compilación; no prueba de control uniforme ni de centralización. La entidad política tiene prioridad visual cuando dispone de contorno activo.",
+  "spatialUncertainty": "Contorno íntegro de compilación mundial, resolución desigual y límites aproximados; no fronteras exclusivas de población.",
+  "temporalUncertainty": "Los mapas1000/700 son referencias de compilación, no cuatrocientas observaciones anuales. La ventana y el final de consulta no prueban permanencia ni desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps700a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q41137",
+    "HIST-Q10914393"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    43.44846,
+    35.56873
+  ],
+  "phases": [
+    {
+      "start": -700,
+      "end": -601,
+      "label": "Asiria · referencia territorial",
+      "dateBasis": "Referencia de compilación; se oculta sólo cuando la misma entidad tiene una geometría política activa.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-POST-ASSYRIAN-COMMUNITIES-YBC0700-R045.geojson",
+  "geometrySha256": "320c25ca9010bf5409b85b3063f509cd3030e7977209a98dee8ec1ea2c23fa2d",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+    "year": -700,
+    "featureIds": [
+      19
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c"
+  },
+  "review": "0.45.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Bibliografía regional, denominaciones y cronología de poblamiento por contrastar."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Assyria",
+      "ABBREVN": "Assyria",
+      "SUBJECTO": "Assyria",
+      "TYPE": null,
+      "BORDERPRECISION": 1,
+      "PARTOF": "Assyria"
+    }
+  ],
+  "sourceGrouping": [
+    "Assyria"
+  ]
+}

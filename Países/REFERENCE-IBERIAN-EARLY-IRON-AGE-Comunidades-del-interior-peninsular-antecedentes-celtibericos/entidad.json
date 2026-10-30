@@ -1,0 +1,53 @@
+{
+  "key": "REFERENCE-IBERIAN-EARLY-IRON-AGE",
+  "name": "Comunidades del interior peninsular · antecedentes celtibéricos",
+  "qid": "",
+  "aliases": [
+    "Celtiberians",
+    "Comunidades del interior peninsular · antecedentes celtibéricos"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc1000.geojson",
+      "recordId": 80,
+      "start": null,
+      "end": null,
+      "name": "Celtiberians",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-IBERIAN-EARLY-IRON-AGE-YBC0700-R045:0",
+      "contextKey": "REFERENCE-IBERIAN-EARLY-IRON-AGE",
+      "start": -700,
+      "end": -601,
+      "sourceYear": -700,
+      "canonicalFile": "Países/REFERENCE-IBERIAN-EARLY-IRON-AGE-Comunidades-del-interior-peninsular-antecedentes-celtibericos/poblamiento/REFERENCE-IBERIAN-EARLY-IRON-AGE-YBC0700-R045.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-IBERIAN-EARLY-IRON-AGE-YBC1000-R045:0",
+      "contextKey": "REFERENCE-IBERIAN-EARLY-IRON-AGE",
+      "start": -1000,
+      "end": -701,
+      "sourceYear": -1000,
+      "canonicalFile": "Países/REFERENCE-IBERIAN-EARLY-IRON-AGE-Comunidades-del-interior-peninsular-antecedentes-celtibericos/poblamiento/REFERENCE-IBERIAN-EARLY-IRON-AGE-YBC1000-R045.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

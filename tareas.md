@@ -1,6 +1,27 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.44.1 · fallo de catálogo comunicado
+## Encargo vigente · 0.45.0 · 1000–601a.C., colores y rótulos
+
+- [x] Diagnosticar el gris inicial879a9a ydar colores culturales estables sin modificar evidencia original.
+- [x] Curar54 dossiers/301 ventanas,112 componentes,37 centros,20 contextos y11 puntos. Variantes yautoridades no identificadas documentadas.
+- [x] Integrar142 originales culturales/144 fases; conservar9.862 fases anteriores.
+- [x] Revisar98 candidatos visuales:50 aceptados/48 descartados, créditos ycaption; recuperar19 falsos rechazos por precisión de siglo.
+- [x] Rótulos españoles propios por entidad, títulos comunes ybúsqueda por originales.
+- [x] Cierre: compilación/registro final, batería general, Python, integridad, tipos ybuild.
+- [x] Navegador, conservación, idempotencia ydocumentación.
+- [x] Preparar entrega y envío a main; no esperar Actions/Pages.
+
+Base d8baefc85,0.44.1. Curación y validación completadas; entrega preparada en este commit. Al reanudar, cotejar HEAD y origin/main antes de repetir el envío. No repetir las curaciones de una sola ejecución enumeradas enagentes.md sección60, incluida zhou045.
+
+336 pruebas generales/71 suites correctas en dos hilos locales;25 comprobaciones Python correctas. Después del ajuste final de comparaciones,15 focales correctas, incluido catálogo ylos400 años nuevos. Tipos ycompilación de producción correctos; la última interfaz vuelve a comprobarse con tipos yVite sobre los datos de producción. Integridad142 recursos de datos/11 franjas tipográficas/9.106 medios porSHA-256.
+
+Ocho recorridos únicos de navegador correctos: tres nuevos ycinco regresiones (Brasil real tras facción española, fecha exacta117, continuidad1a.C./1d.C., comparación entre países/fechas ypaneles persistentes). Los nuevos se repiten; las capturas esperan al renderizado real al reactivar culturas. Tres capturas revisadas en escritorio yglobo móvil. No se ejecutan localmente los126 recorridos completos; se conservan cuatro grupos deCI.
+
+Conservación:1.531 identidades,19.961 cargos,1.040 símbolos y9.862 fases previas;142 originales culturales cotejados.135 recursos anteriores retenidos,127 idénticos ysiete nuevos. Tras normalizar el orden del manifiesto en la primera pasada, una regeneración completa sin red deja567 archivos comprobados sin diferencias. VéanseCONSERVATION-bc1000 eIDEMPOTENCE-bc1000.
+
+Pendientes reales: partición del contorno imperial asirio enEgipto650, remisión babilónica626/600, variantes deAlyattes, contornos urbanos/dinásticos, archivos visuales ybibliografía regional acreditados. Notas concretas dentro de las carpetas deAsiria yBabilonia; carencias nominales enREVIEW-bc1000-bc601 yRESEARCH-bc1000. No confundir consulta anual con400 mapas medidos independientemente. No iniciar otra tanda sin encargo.
+
+## Entrega anterior · 0.44.1 · fallo de catálogo comunicado
 
 - [x] Reproducir el fallo original y una regresión que fuerza una ficha desactualizada.
 - [x] Encadenar registro y actualización del catálogo; conservar el control que compara todas las fichas con sus identidades.
@@ -896,3 +917,4 @@ Cierre local0.12.1:147 pruebas/33 archivos, siete recorridos de navegador distin
 
 Corrección de publicación25/10/2026: Quality40208104708 pasó para33637c5; Publish40209978935 se omitió porque el cierre documental3f2c2f5 adelantómain y la condición comparaba ambosSHA. Se elimina esa igualdad y se conserva checkout delSHA validado, con éxito/push/main/mismo repositorio. Reejecutar un workflow_run conserva su evento antiguo; usar una ejecución manual nueva. No se cambian datos ni aplicación. No esperar despliegue.
 
+Cotejo final del índice Git: 1.067 archivos nuevos/modificados coinciden con sus bytes locales; 9.259 recursos de manifiestos verificados por SHA-256 y blob Git (9.198 blobs previos intactos); 1.292 originales canónicos propios comprobados directamente en el índice. Se retira una vista automática duplicada de Urartu; las fuentes originales se conservan. Dos pruebas finales del catálogo correctas después de la regeneración. Los cuatro documentos de cierre se cotejan otra vez tras incorporar estas cifras. No se espera ni se sondea Actions/Pages.

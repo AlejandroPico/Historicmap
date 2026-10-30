@@ -1,0 +1,89 @@
+{
+  "key": "HIST-Q128904",
+  "identity": {
+    "qid": "Q128904",
+    "name": "Elam"
+  },
+  "revision": "0.45.0",
+  "acquisition": "period-bc1000-0.45",
+  "coverageStart": -1000,
+  "coverageEnd": -601,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -1000,
+      "end": -601,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "sourceLabel": "Revisión1000–601a.C.",
+      "note": "Clasificación documental de los poderes representados, no prueba de estado unitario ni continuidad institucional durante cuatro siglos."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat045-15",
+      "name": "Susa",
+      "coordinates": [
+        48.257,
+        32.189
+      ],
+      "start": -1000,
+      "end": -601,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "note": "Ubicación aproximada; no perímetro urbano ni residencia regia continua."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc1000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Elam"
+        ],
+        "start": -1000,
+        "end": -601,
+        "label": "Elam",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+        "note": "Contorno original de compilación; no observación anual ni control homogéneo."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc1000-bc0601.geojson",
+      "sha256": "56def2089cc359f971fd11abbe6619075bbfa1b7bc51650329a2d5326d40b66c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        116,
+        129,
+        146,
+        185,
+        206,
+        230
+      ],
+      "note": "Propiedades, índices y coordenadas originales retenidos."
+    }
+  ],
+  "pending": [
+    "Bibliografía y cronología regional; no inferir gobernantes de fechas vitales ni del nombre del territorio."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Fechas convencionales y variantes explícitas. Identificación humana cotejada con metadatos y campos de reinado; la falta de retrato no se resuelve con un homónimo. No se infiere un mandato de fechas vitales.",
+  "coarseDateQualifications": [],
+  "mediaReview": []
+}

@@ -1,0 +1,85 @@
+{
+  "key": "SPRING-CHEN",
+  "identity": {
+    "qid": "",
+    "name": "Chen · estado de la época Zhou"
+  },
+  "revision": "0.45.0",
+  "acquisition": "period-bc1000-0.45",
+  "coverageStart": -1000,
+  "coverageEnd": -601,
+  "candidates": [],
+  "leaders": [
+    {
+      "person": "documented044-spring-chen-duke-ling-of-chen-613-7c5ae7d9",
+      "name": "Duke Ling of Chen",
+      "role": "Duque de Chen",
+      "start": "-0613-01-01",
+      "end": "-0601-12-31",
+      "precision": 9,
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc600.md",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -613,
+        -599
+      ],
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -1000,
+      "end": -601,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "sourceLabel": "Revisión1000–601a.C.",
+      "note": "Clasificación documental de los poderes representados, no prueba de estado unitario ni continuidad institucional durante cuatro siglos."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc1000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Chen"
+        ],
+        "start": -1000,
+        "end": -601,
+        "label": "Chen · estado de la época Zhou",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+        "note": "Contorno original de compilación; no observación anual ni control homogéneo."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc1000-bc0601.geojson",
+      "sha256": "9fe94bb8d2ad4b2dedaeae55d8aa8566e639fa9d1ac978850d373832acd3d75e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        167
+      ],
+      "note": "Propiedades, índices y coordenadas originales retenidos."
+    }
+  ],
+  "pending": [
+    "Bibliografía y cronología regional; no inferir gobernantes de fechas vitales ni del nombre del territorio."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Fechas convencionales y variantes explícitas. Identificación humana cotejada con metadatos y campos de reinado; la falta de retrato no se resuelve con un homónimo. No se infiere un mandato de fechas vitales.",
+  "coarseDateQualifications": [],
+  "mediaReview": []
+}

@@ -42,7 +42,7 @@ for (const entry of manifest.entries) {
   }
   else if(entry.format==='country-indicator-series'){if(!data.countries.USA?.series.population?.length)throw Error('Missing country indicators');}
   else if(entry.format==='dated-entity-resolution'){
-    if(data.format!==entry.format||data.records.length!==entry.records||!data.referenceDate||![[-600,-301],[-300,-201],[-200,-101],[-100,-1],[1,99],[100,199],[200,299],[300,399],[400,499],[500,599],[600,699],[700,799],[800,899],[900,999],[1000,1099],[1100,1199],[1200,1299],[1300,1399],[1400,1499],[1500,1599],[1600,1699],[1700,1799],[1800,1819],[1820,1839],[1840,1859],[1860,1879],[1880,1899]].some(([a,b])=>data.coverageStart===a&&data.coverageEnd===b))throw Error('Invalid dated entity resolution');
+    if(data.format!==entry.format||data.records.length!==entry.records||!data.referenceDate||![[-1000,-601],[-600,-301],[-300,-201],[-200,-101],[-100,-1],[1,99],[100,199],[200,299],[300,399],[400,499],[500,599],[600,699],[700,799],[800,899],[900,999],[1000,1099],[1100,1199],[1200,1299],[1300,1399],[1400,1499],[1500,1599],[1600,1699],[1700,1799],[1800,1819],[1820,1839],[1840,1859],[1860,1879],[1880,1899]].some(([a,b])=>data.coverageStart===a&&data.coverageEnd===b))throw Error('Invalid dated entity resolution');
     for(const r of data.records)if(!r.names.length||!r.key||!r.source||!r.label||r.start<data.coverageStart||r.end>data.coverageEnd||r.start>r.end)throw Error('Invalid dated identity rule');
   }
   else if(entry.format==='dated-portrait-series'){
@@ -90,6 +90,15 @@ for (const entry of manifest.entries) {
   else if(entry.format==='dated-historical-context'){
     if(data.events.length!==entry.records||!data.referenceDate)throw Error('Invalid historical contexts');
     for(const e of data.events)if(!e.id||!e.source||!e.text||!e.start||!e.countries.length||(e.end&&compareDates(e.end,e.start)<=0))throw Error(`Invalid event ${e.id}`);
+  }
+  else if(entry.format==='entity-display-labels'){
+    if(data.format!==entry.format||data.language!=='es'||Object.keys(data.labels??{}).length!==entry.records||Object.keys(data.owners??{}).length!==entry.records)throw Error('Invalid Spanish display label catalogue');
+    const sources=new Map();
+    for(const[from,to]of Object.entries(data.labels)){
+      const owner=data.owners[from];if(!from.trim()||typeof to!=='string'||!to.trim()||!/^Países\/[^/]+\/rotulos\.json$/.test(owner??''))throw Error(`Invalid label ownership ${from}`);
+      if(!sources.has(owner))sources.set(owner,JSON.parse(await readFile(new URL('../'+owner,import.meta.url),'utf8')));
+      const canonical=sources.get(owner);if(canonical.language!=='es'||!canonical.key||!canonical.source||canonical.labels[from]!==to)throw Error(`Stale entity-owned label ${from}`);
+    }
   }
   else if (data.type !== 'FeatureCollection' || data.features.length !== entry.features) throw new Error(`Invalid ${entry.file}`);
   if (!entry.license || !entry.url || !entry.version) throw new Error(`Missing provenance ${entry.file}`);

@@ -1,0 +1,314 @@
+{
+  "key": "WARRING-YAN",
+  "identity": {
+    "qid": "",
+    "name": "Yan · Estado Combatiente"
+  },
+  "revision": "0.45.0",
+  "acquisition": "period-bc1000-0.45",
+  "coverageStart": -1000,
+  "coverageEnd": -601,
+  "candidates": [
+    {
+      "role": "Marqués de Yan · genealogía tradicional",
+      "titles": [
+        "Marquis Huan of Yan"
+      ],
+      "documentedWindow": [
+        -697,
+        -691
+      ]
+    },
+    {
+      "role": "Marqués de Yan · genealogía tradicional",
+      "titles": [
+        "Marquis Zhuang of Yan"
+      ],
+      "documentedWindow": [
+        -690,
+        -658
+      ]
+    },
+    {
+      "role": "Marqués de Yan · genealogía tradicional",
+      "titles": [
+        "Marquis Xiang of Yan"
+      ],
+      "documentedWindow": [
+        -657,
+        -619
+      ]
+    },
+    {
+      "role": "Marqués de Yan · genealogía tradicional",
+      "titles": [
+        "Duke Huan I of Yan"
+      ],
+      "documentedWindow": [
+        -618,
+        -602
+      ]
+    },
+    {
+      "role": "Marqués de Yan · genealogía tradicional",
+      "titles": [
+        "Duke Xuan of Yan"
+      ],
+      "documentedWindow": [
+        -601,
+        -587
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented045-fbdae6f57cdd73308f",
+      "name": "Marquis Huan of Yan",
+      "role": "Marqués de Yan · genealogía tradicional",
+      "start": "-0697-01-01",
+      "end": "-0691-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Marquis_Huan_of_Yan",
+      "note": "Cronología convencional; las fechas anteriores a841a.C. en China y las tradiciones tempranas tienen especial incertidumbre.",
+      "documentedInterval": [
+        -697,
+        -691
+      ]
+    },
+    {
+      "person": "documented045-786dd81e4e76618e27",
+      "name": "Marquis Zhuang of Yan",
+      "role": "Marqués de Yan · genealogía tradicional",
+      "start": "-0690-01-01",
+      "end": "-0658-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Marquis_Zhuang_of_Yan",
+      "note": "Cronología convencional; las fechas anteriores a841a.C. en China y las tradiciones tempranas tienen especial incertidumbre.",
+      "documentedInterval": [
+        -690,
+        -658
+      ]
+    },
+    {
+      "person": "documented045-7b7f1dc65f6b261d08",
+      "name": "Marquis Xiang of Yan",
+      "role": "Marqués de Yan · genealogía tradicional",
+      "start": "-0657-01-01",
+      "end": "-0619-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Marquis_Xiang_of_Yan",
+      "note": "Cronología convencional; las fechas anteriores a841a.C. en China y las tradiciones tempranas tienen especial incertidumbre.",
+      "documentedInterval": [
+        -657,
+        -619
+      ]
+    },
+    {
+      "person": "documented045-ff3d89f30efe649da4",
+      "name": "Duke Huan I of Yan",
+      "role": "Marqués de Yan · genealogía tradicional",
+      "start": "-0618-01-01",
+      "end": "-0602-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Duke_Huan_I_of_Yan",
+      "note": "Cronología convencional; las fechas anteriores a841a.C. en China y las tradiciones tempranas tienen especial incertidumbre.",
+      "documentedInterval": [
+        -618,
+        -602
+      ]
+    },
+    {
+      "person": "documented045-1d016059cd15e3ab0c",
+      "name": "Duke Xuan of Yan",
+      "role": "Marqués de Yan · genealogía tradicional",
+      "start": "-0601-01-01",
+      "end": "-0601-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Duke_Xuan_of_Yan",
+      "note": "Cronología convencional; las fechas anteriores a841a.C. en China y las tradiciones tempranas tienen especial incertidumbre.",
+      "documentedInterval": [
+        -601,
+        -587
+      ],
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -1000,
+      "end": -601,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "sourceLabel": "Revisión1000–601a.C.",
+      "note": "Clasificación documental de los poderes representados, no prueba de estado unitario ni continuidad institucional durante cuatro siglos."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc1000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Yan"
+        ],
+        "start": -1000,
+        "end": -601,
+        "label": "Yan · estado de la época Zhou",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+        "note": "Contorno original de compilación; no observación anual ni control homogéneo."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc1000-bc0601.geojson",
+      "sha256": "028ad686fde6aa10b04b9686327e6e5a539a1838f671264de9fe306ff6348049",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        176
+      ],
+      "note": "Propiedades, índices y coordenadas originales retenidos."
+    }
+  ],
+  "pending": [
+    "Bibliografía y cronología regional; no inferir gobernantes de fechas vitales ni del nombre del territorio."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Duke Huan I of Yan",
+        "title": "Duke Huan I of Yan",
+        "person": "",
+        "name": "Duke Huan I of Yan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Duke_Huan_I_of_Yan",
+        "identityResolution": {
+          "requested": "Duke Huan I of Yan",
+          "canonical": "Duke Huan I of Yan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Duke Xuan of Yan",
+        "title": "Duke Xuan of Yan",
+        "person": "",
+        "name": "Duke Xuan of Yan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Duke_Xuan_of_Yan",
+        "identityResolution": {
+          "requested": "Duke Xuan of Yan",
+          "canonical": "Duke Xuan of Yan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Marquis Huan of Yan",
+        "title": "Marquis Huan of Yan",
+        "person": "",
+        "name": "Marquis Huan of Yan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Marquis_Huan_of_Yan",
+        "identityResolution": {
+          "requested": "Marquis Huan of Yan",
+          "canonical": "Marquis Huan of Yan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Marquis Xiang of Yan",
+        "title": "Marquis Xiang of Yan",
+        "person": "",
+        "name": "Marquis Xiang of Yan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Marquis_Xiang_of_Yan",
+        "identityResolution": {
+          "requested": "Marquis Xiang of Yan",
+          "canonical": "Marquis Xiang of Yan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Marquis Zhuang of Yan",
+        "title": "Marquis Zhuang of Yan",
+        "person": "",
+        "name": "Marquis Zhuang of Yan",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Marquis_Zhuang_of_Yan",
+        "identityResolution": {
+          "requested": "Marquis Zhuang of Yan",
+          "canonical": "Marquis Zhuang of Yan",
+          "qid": ""
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "key": "WARRING-YAN",
+      "title": "Marquis Huan of Yan",
+      "person": "",
+      "reason": "No se corroboró identidad humana individual; conservar nombre documental sin asignarle imagen de un homónimo."
+    },
+    {
+      "key": "WARRING-YAN",
+      "title": "Marquis Zhuang of Yan",
+      "person": "",
+      "reason": "No se corroboró identidad humana individual; conservar nombre documental sin asignarle imagen de un homónimo."
+    },
+    {
+      "key": "WARRING-YAN",
+      "title": "Marquis Xiang of Yan",
+      "person": "",
+      "reason": "No se corroboró identidad humana individual; conservar nombre documental sin asignarle imagen de un homónimo."
+    },
+    {
+      "key": "WARRING-YAN",
+      "title": "Duke Huan I of Yan",
+      "person": "",
+      "reason": "No se corroboró identidad humana individual; conservar nombre documental sin asignarle imagen de un homónimo."
+    },
+    {
+      "key": "WARRING-YAN",
+      "title": "Duke Xuan of Yan",
+      "person": "",
+      "reason": "No se corroboró identidad humana individual; conservar nombre documental sin asignarle imagen de un homónimo."
+    }
+  ],
+  "authorityReview": "Fechas convencionales y variantes explícitas. Identificación humana cotejada con metadatos y campos de reinado; la falta de retrato no se resuelve con un homónimo. No se infiere un mandato de fechas vitales.",
+  "coarseDateQualifications": [],
+  "mediaReview": []
+}

@@ -1,0 +1,44 @@
+{
+  "key": "HIST-Q97357417",
+  "name": "Egipto · ocupación asiria",
+  "qid": "Q97357417",
+  "aliases": [
+    "Assyrian Egypt",
+    "Egipto · ocupación asiria"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q97357417"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-214",
+      "start": -650,
+      "end": -631,
+      "name": "Assyrian Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-220",
+      "start": -630,
+      "end": -616,
+      "name": "Assyrian Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

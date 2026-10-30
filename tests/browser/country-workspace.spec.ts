@@ -29,7 +29,7 @@ test('extinct entity remains open and navigates explicitly to a successor',async
 test('date and country comparisons use dated data and support map navigation',async({page})=>{
  test.setTimeout(240000);
  await page.goto('/#year=2000&view=mercator');await ready(page,2000);await search(page,'Brasil');await page.getByRole('tab',{name:'Comparar',exact:true}).click();await page.locator('#pin-country').click();
- await expect(page.locator('#comparison-results')).toContainText('Brazil · 2000');
+ await expect(page.locator('#comparison-results')).toContainText('Brasil · 2000');
  await search(page,'Francia');await page.getByRole('tab',{name:'Comparar',exact:true}).click();await page.locator('#pin-country').click();await expect(page.locator('.pinned-countries>span')).toHaveCount(2);await expect(page.locator('#comparison-results')).toContainText('Francia · 2000');
  await page.locator('#comparison-metric').selectOption('gdpGrowth');await expect(page.locator('#comparison-results .trend-chart')).toContainText('Crecimiento');
  await page.locator('#comparison-results circle[data-jump-year="1990"]').first().focus();await page.keyboard.press('Enter');await ready(page,1990);await expect(page.locator('#tab-comparison')).toHaveAttribute('aria-selected','true');
@@ -41,7 +41,7 @@ test('date and country comparisons use dated data and support map navigation',as
 
 test('search, sources and layers stay open and update across time navigation',async({page})=>{
  await page.goto('/#year=2000&view=mercator');await ready(page,2000);await page.locator('#search-button').click();await page.locator('#search-input').fill('Brasil');
- await date(page,2001);await expect(page.locator('#search-panel')).toBeVisible();await expect(page.locator('#search-input')).toHaveValue('Brasil');await expect(page.locator('#search-scope')).toContainText('2001');await expect(page.locator('#search-results')).toContainText('Brazil');
+ await date(page,2001);await expect(page.locator('#search-panel')).toBeVisible();await expect(page.locator('#search-input')).toHaveValue('Brasil');await expect(page.locator('#search-scope')).toContainText('2001');await expect(page.locator('#search-results')).toContainText('Brasil');
  await page.locator('#close-search').click();await page.locator('#sources-button').click();await date(page,2002);await expect(page.locator('#sources-panel')).toBeVisible();await expect(page.locator('#source-reference')).toContainText('2002');
  await page.locator('#close-sources').click();await page.locator('#layers-button').click();await page.locator('#next').click();await ready(page,2003);await expect(page.locator('#layers-panel')).toBeVisible();
 });

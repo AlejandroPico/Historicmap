@@ -25,4 +25,5 @@ if(readFileSync('public/data/manifest.json','utf8')!==serializedManifest)writeFi
 console.log('Registered entity revisions:',changed.size,'data resources.');
 // Tests run before the production build: publish both views of every correction together.
 // Let a failed catalogue refresh fail this command instead of leaving a silent stale view.
+execFileSync(process.execPath,['scripts/prepare-display-labels.mjs'],{stdio:'inherit'});
 execFileSync(process.execPath,['scripts/prepare-country-catalog.mjs'],{stdio:'inherit'});

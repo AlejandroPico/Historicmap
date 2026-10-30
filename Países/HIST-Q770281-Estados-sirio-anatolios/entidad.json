@@ -1,0 +1,44 @@
+{
+  "key": "HIST-Q770281",
+  "name": "Estados sirio-anatolios",
+  "qid": "Q770281",
+  "aliases": [
+    "Estados sirio-anatolios",
+    "Neo-Hittite states"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q770281"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-118",
+      "start": -1000,
+      "end": -901,
+      "name": "Neo-Hittite states",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-132",
+      "start": -900,
+      "end": -801,
+      "name": "Neo-Hittite states",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,71 @@
+{
+  "key": "CULTURE-URARTU-0A55F267-YBC0700-R045",
+  "contextKey": "REFERENCE-HIST-Q185068-WORLD",
+  "ownerKey": "HIST-Q185068",
+  "name": "Urartu · referencia territorial",
+  "originalNames": [
+    "Urartu"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional de la compilación de700a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -700,
+    -601
+  ],
+  "interpretation": "Referencia territorial de la compilación; no prueba de control uniforme ni de centralización. La entidad política tiene prioridad visual cuando dispone de contorno activo.",
+  "spatialUncertainty": "Contorno íntegro de compilación mundial, resolución desigual y límites aproximados; no fronteras exclusivas de población.",
+  "temporalUncertainty": "Los mapas1000/700 son referencias de compilación, no cuatrocientas observaciones anuales. La ventana y el final de consulta no prueban permanencia ni desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps700a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q185068"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    44.01089,
+    39.26224
+  ],
+  "phases": [
+    {
+      "start": -700,
+      "end": -601,
+      "label": "Urartu · referencia territorial",
+      "dateBasis": "Referencia de compilación; se oculta sólo cuando la misma entidad tiene una geometría política activa.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-URARTU-0A55F267-YBC0700-R045.geojson",
+  "geometrySha256": "0e9efb4a44761bb43a6ada1b59c5910815da6bcb0db1fea1494e2788e5251587",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+    "year": -700,
+    "featureIds": [
+      102
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c"
+  },
+  "review": "0.45.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Bibliografía regional, denominaciones y cronología de poblamiento por contrastar."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Urartu",
+      "ABBREVN": "Urartu",
+      "SUBJECTO": "Urartu",
+      "TYPE": null,
+      "BORDERPRECISION": 1,
+      "PARTOF": "Urartu"
+    }
+  ],
+  "sourceGrouping": [
+    "Urartu"
+  ]
+}

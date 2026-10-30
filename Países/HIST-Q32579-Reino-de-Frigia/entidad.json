@@ -1,0 +1,69 @@
+{
+  "key": "HIST-Q32579",
+  "name": "Reino de Frigia",
+  "qid": "Q32579",
+  "aliases": [
+    "Phrygia",
+    "Reino de Frigia"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "HIST-Q32579"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "documented045-64c4cb26c80ba6b333",
+      "name": "Midas",
+      "role": "Rey de Frigia · identificación tradicional",
+      "start": "-0738-01-01",
+      "end": "-0696-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Midas",
+      "note": "Identificación tradicional con Mita de las inscripciones asirias, discutida; no un personaje ficticio convertido en certeza arqueológica.",
+      "documentedInterval": [
+        -738,
+        -696
+      ],
+      "curated": true,
+      "acquisition": "period-bc1000-0.45"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-134",
+      "start": -900,
+      "end": -751,
+      "name": "Phrygia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-159",
+      "start": -750,
+      "end": -701,
+      "name": "Phrygia",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-189",
+      "start": -700,
+      "end": -676,
+      "name": "Phrygia",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

@@ -1,0 +1,320 @@
+{
+  "key": "HIST-Q1183338",
+  "identity": {
+    "qid": "Q1183338",
+    "name": "Median Kingdom"
+  },
+  "revision": "0.45.0",
+  "acquisition": "period-bc1000-0.45",
+  "coverageStart": -1000,
+  "coverageEnd": -601,
+  "candidates": [
+    {
+      "role": "Rey medo · tradición historiográfica",
+      "titles": [
+        "Deioces"
+      ],
+      "documentedWindow": [
+        -700,
+        -647
+      ]
+    },
+    {
+      "role": "Rey medo · tradición historiográfica",
+      "titles": [
+        "Phraortes"
+      ],
+      "documentedWindow": [
+        -647,
+        -625
+      ]
+    },
+    {
+      "role": "Rey medo · tradición historiográfica",
+      "titles": [
+        "Cyaxares"
+      ],
+      "documentedWindow": [
+        -625,
+        -585
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q297855",
+      "name": "Ciáxares",
+      "role": "Rey medo · cronología convencional",
+      "start": "-0625-01-01",
+      "end": "-0601-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Cyaxares",
+      "note": "Fechas anuales convencionales; no se infieren mandatos de nacimiento o muerte. La ficha conserva todos los titulares del año de relevo.",
+      "documentedInterval": [
+        -625,
+        -585
+      ],
+      "endIsCoverageBoundary": true
+    },
+    {
+      "person": "Q332578",
+      "name": "Deyoces de Media",
+      "role": "Rey medo · tradición historiográfica",
+      "start": "-0700-01-01",
+      "end": "-0647-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Deioces",
+      "note": "Relatos de Heródoto y reconstrucciones cronológicas con variantes; la existencia y centralización del reino temprano son debatidas.",
+      "documentedInterval": [
+        -700,
+        -647
+      ]
+    },
+    {
+      "person": "Q332557",
+      "name": "Fraortes de Media",
+      "role": "Rey medo · tradición historiográfica",
+      "start": "-0647-01-01",
+      "end": "-0625-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Phraortes",
+      "note": "Relatos de Heródoto y reconstrucciones cronológicas con variantes; la existencia y centralización del reino temprano son debatidas.",
+      "documentedInterval": [
+        -647,
+        -625
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -1000,
+      "end": -601,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "sourceLabel": "Revisión1000–601a.C.",
+      "note": "Clasificación documental de los poderes representados, no prueba de estado unitario ni continuidad institucional durante cuatro siglos."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat045-16",
+      "name": "Ecbatana",
+      "coordinates": [
+        48.515,
+        34.8
+      ],
+      "start": -700,
+      "end": -601,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "note": "Ubicación aproximada; no perímetro urbano ni residencia regia continua."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc1000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Median Kingdom"
+        ],
+        "start": -1000,
+        "end": -601,
+        "label": "Reino de los medos",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+        "note": "Contorno original de compilación; no observación anual ni control homogéneo."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc1000-bc0601.geojson",
+      "sha256": "2c08858ab70d2dfcd2bfff1f0089226c6b6e3f0ee7102f3d53ecb8869da8b516",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        228
+      ],
+      "note": "Propiedades, índices y coordenadas originales retenidos."
+    }
+  ],
+  "pending": [
+    "Bibliografía y cronología regional; no inferir gobernantes de fechas vitales ni del nombre del territorio."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Cyaxares",
+        "title": "Cyaxares",
+        "person": "Q297855",
+        "name": "Ciáxares",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Cyaxares",
+        "identityResolution": {
+          "requested": "Cyaxares",
+          "canonical": "Cyaxares",
+          "qid": "Q297855"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q21011242",
+          "start": "-0625-01-01",
+          "end": "-0585-01-01",
+          "precision": 9,
+          "statement": "Q297855$4b089e17-44c8-b112-16c9-f1155b4ab81f",
+          "label": "rey de los medos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q297855",
+        "title": "Cyaxares",
+        "source": "https://en.wikipedia.org/wiki/Cyaxares",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Medes",
+            "raw": "625 – 585 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Deioces",
+        "title": "Deioces",
+        "person": "Q332578",
+        "name": "Deyoces de Media",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Deioces",
+        "identityResolution": {
+          "requested": "Deioces",
+          "canonical": "Deioces",
+          "qid": "Q332578"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q21011242",
+          "start": "-0700-01-01",
+          "end": "-0678-01-01",
+          "precision": 9,
+          "statement": "Q332578$f1532ca7-73e9-4fac-8a6f-cf6d21d9b54f",
+          "label": "rey de los medos"
+        },
+        {
+          "property": "P97",
+          "office": "Q21011242",
+          "start": "-0710-01-01",
+          "end": "-0665-01-01",
+          "precision": 9,
+          "statement": "Q332578$e3b82fa8-4a8d-1d10-0b53-97a963bb2613",
+          "label": "rey de los medos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q332578",
+        "title": "Deioces",
+        "source": "https://en.wikipedia.org/wiki/Deioces",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Medes",
+            "raw": "53 regnal years",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "reign",
+            "office": "King of the Medes",
+            "raw": "c. 727–674 BC<ref name=\":1\"/>",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Media",
+            "raw": "700–678 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Phraortes",
+        "title": "Phraortes",
+        "person": "Q332557",
+        "name": "Fraortes de Media",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Phraortes",
+        "identityResolution": {
+          "requested": "Phraortes",
+          "canonical": "Phraortes",
+          "qid": "Q332557"
+        }
+      },
+      "claims": [
+        {
+          "property": "P97",
+          "office": "Q21011242",
+          "start": "-0665-01-01",
+          "end": "-0633-01-01",
+          "precision": 9,
+          "statement": "Q332557$9475ffc1-4d3c-2302-d11f-5ef377f2d01b",
+          "label": "rey de los medos"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q332557",
+        "title": "Phraortes",
+        "source": "https://en.wikipedia.org/wiki/Phraortes",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of the Medes",
+            "raw": "675 – 653 BC<ref name=\"auto\"/><ref>{{cite web | url=https://www.iranicaonline.org/articles/phraortes/ | title=Phraortes|website=Iranicaonline.org }}</ref>",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Fechas convencionales y variantes explícitas. Identificación humana cotejada con metadatos y campos de reinado; la falta de retrato no se resuelve con un homónimo. No se infiere un mandato de fechas vitales.",
+  "coarseDateQualifications": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q297855",
+      "title": "Qyzqapan tomb relief 2.jpg",
+      "reason": "El relieve de la tumba deQyzqapan no es un retrato acreditado deCiaxares."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q297855",
+      "title": "Qyzqapan tomb relief 2.jpg",
+      "decision": "rejected",
+      "reason": "El relieve de la tumba deQyzqapan no es un retrato acreditado deCiaxares."
+    }
+  ]
+}

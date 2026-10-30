@@ -1,0 +1,44 @@
+{
+  "key": "REFERENCE-AEGEAN-EARLY-IRON-AGE",
+  "name": "Comunidades del Egeo · Primera Edad del Hierro",
+  "qid": "",
+  "aliases": [
+    "Comunidades del Egeo · Primera Edad del Hierro",
+    "Greek Dark Ages"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "REFERENCE-AEGEAN-EARLY-IRON-AGE"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-115",
+      "start": -1000,
+      "end": -901,
+      "name": "Greek Dark Ages",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-123",
+      "start": -900,
+      "end": -801,
+      "name": "Greek Dark Ages",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

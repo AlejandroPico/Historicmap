@@ -1,0 +1,138 @@
+{
+  "key": "HIST-Q32579",
+  "identity": {
+    "qid": "Q32579",
+    "name": "Reino de Frigia"
+  },
+  "revision": "0.45.0",
+  "acquisition": "period-bc1000-0.45",
+  "coverageStart": -1000,
+  "coverageEnd": -601,
+  "candidates": [
+    {
+      "role": "Rey de Frigia · identificación tradicional",
+      "titles": [
+        "Midas"
+      ],
+      "documentedWindow": [
+        -738,
+        -696
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented045-64c4cb26c80ba6b333",
+      "name": "Midas",
+      "role": "Rey de Frigia · identificación tradicional",
+      "start": "-0738-01-01",
+      "end": "-0696-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Midas",
+      "note": "Identificación tradicional con Mita de las inscripciones asirias, discutida; no un personaje ficticio convertido en certeza arqueológica.",
+      "documentedInterval": [
+        -738,
+        -696
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -1000,
+      "end": -601,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "sourceLabel": "Revisión1000–601a.C.",
+      "note": "Clasificación documental de los poderes representados, no prueba de estado unitario ni continuidad institucional durante cuatro siglos."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat045-17",
+      "name": "Gordio",
+      "coordinates": [
+        31.99,
+        39.65
+      ],
+      "start": -800,
+      "end": -696,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "note": "Ubicación aproximada; no perímetro urbano ni residencia regia continua."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc1000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Phrygia"
+        ],
+        "start": -1000,
+        "end": -601,
+        "label": "Reino de Frigia",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+        "note": "Contorno original de compilación; no observación anual ni control homogéneo."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc1000-bc0601.geojson",
+      "sha256": "5e923d6fb329fec30c02df44c79492887ee12dd8068e7ec8b7db81095d8a9dd9",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        134,
+        159,
+        189
+      ],
+      "note": "Propiedades, índices y coordenadas originales retenidos."
+    }
+  ],
+  "pending": [
+    "Bibliografía y cronología regional; no inferir gobernantes de fechas vitales ni del nombre del territorio."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Midas",
+        "title": "Midas",
+        "person": "Q308398",
+        "name": "Midas",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Midas",
+        "identityResolution": {
+          "requested": "Midas",
+          "canonical": "Midas",
+          "qid": "Q308398"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "key": "HIST-Q32579",
+      "title": "Midas",
+      "person": "Q308398",
+      "reason": "No se corroboró identidad humana individual; conservar nombre documental sin asignarle imagen de un homónimo."
+    }
+  ],
+  "authorityReview": "Fechas convencionales y variantes explícitas. Identificación humana cotejada con metadatos y campos de reinado; la falta de retrato no se resuelve con un homónimo. No se infiere un mandato de fechas vitales.",
+  "coarseDateQualifications": [],
+  "mediaReview": []
+}

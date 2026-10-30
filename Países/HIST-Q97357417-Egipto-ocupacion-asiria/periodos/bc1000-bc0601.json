@@ -1,0 +1,103 @@
+{
+  "key": "HIST-Q97357417",
+  "identity": {
+    "qid": "Q97357417",
+    "name": "Egipto · ocupación asiria"
+  },
+  "revision": "0.45.0",
+  "acquisition": "period-bc1000-0.45",
+  "coverageStart": -1000,
+  "coverageEnd": -601,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -1000,
+      "end": -601,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "sourceLabel": "Revisión1000–601a.C.",
+      "note": "Clasificación documental de los poderes representados, no prueba de estado unitario ni continuidad institucional durante cuatro siglos."
+    }
+  ],
+  "places": [],
+  "contexts": [
+    {
+      "id": "event045-7",
+      "kind": "conflict",
+      "title": "Intervenciones y control asirio en Egipto",
+      "start": "-0671-01-01",
+      "end": "-0662-01-01",
+      "text": "Ocupación e intervenciones parciales deEsarhaddon/Asurbanipal; no anexión homogénea de todos los territorios egipcios.",
+      "source": "https://www.metmuseum.org/pt/essays/egypt-in-the-third-intermediate-period-1070-712-b-c",
+      "sourceLabel": "Referencia1000–601a.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "conflict"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [
+    {
+      "file": "../geometrias/bc1000-bc0601.geojson",
+      "sha256": "11ade966fdec4ee0ffe3f43bbfbbde74bb0e189f99b6082feed67f652d95b3ed",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        214,
+        220
+      ],
+      "note": "Propiedades, índices y coordenadas originales retenidos."
+    }
+  ],
+  "pending": [
+    "Bibliografía y cronología regional; no inferir gobernantes de fechas vitales ni del nombre del territorio."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Fechas convencionales y variantes explícitas. Identificación humana cotejada con metadatos y campos de reinado; la falta de retrato no se resuelve con un homónimo. No se infiere un mandato de fechas vitales.",
+  "conflictPoints": [
+    {
+      "type": "Feature",
+      "id": "point045-7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          29.85
+        ]
+      },
+      "properties": {
+        "name": "Intervenciones y control asirio en Egipto",
+        "countries": [
+          "HIST-Q97357417"
+        ],
+        "kind": "regional-conflict",
+        "start": "-0671-01-01",
+        "end": "-0663-12-31",
+        "precision": 9,
+        "source": "https://www.metmuseum.org/pt/essays/egypt-in-the-third-intermediate-period-1070-712-b-c",
+        "sourceLabel": "Referencia documental",
+        "note": "Ocupación e intervenciones parciales deEsarhaddon/Asurbanipal; no anexión homogénea de todos los territorios egipcios. Punto aproximado, no frente militar."
+      }
+    }
+  ],
+  "coarseDateQualifications": [],
+  "mediaReview": [],
+  "sourceChronologyCorrection": {
+    "originalName": "Assyrian Egypt",
+    "sourceInterval": [
+      -650,
+      -616
+    ],
+    "correctedEntity": "HIST-Q662410",
+    "reason": "El rótulo AssyrianEgypt y las fechas650–616 de la compilación no acreditan ocupación asiria. Se atribuye esta referencia a la monarquía saíta dePsaméticoI; las campañas671/663 se documentan aparte, sin inventar frentes.",
+    "source": "https://www.metmuseum.org/zh/essays/egypt-in-the-late-period-ca-712-332-b-c"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "key": "HIST-Q662410",
+  "identity": {
+    "qid": "Q662410",
+    "name": "Twenty-sixth Dynasty of Egypt"
+  },
+  "revision": "0.45.0",
+  "acquisition": "period-bc1000-0.45",
+  "coverageStart": -1000,
+  "coverageEnd": -601,
+  "candidates": [
+    {
+      "role": "Faraón · dinastía saíta",
+      "titles": [
+        "Psamtik I"
+      ],
+      "documentedWindow": [
+        -664,
+        -610
+      ]
+    },
+    {
+      "role": "Faraón · dinastía saíta",
+      "titles": [
+        "Necho II"
+      ],
+      "documentedWindow": [
+        -610,
+        -595
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q328763",
+      "name": "Psamético I",
+      "role": "Faraón · dinastía saíta",
+      "start": "-0664-01-01",
+      "end": "-0610-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Psamtik_I",
+      "note": "Cronología convencional; las fechas anteriores a841a.C. en China y las tradiciones tempranas tienen especial incertidumbre.",
+      "documentedInterval": [
+        -664,
+        -610
+      ]
+    },
+    {
+      "person": "Q125102",
+      "name": "Necao II",
+      "role": "Faraón · dinastía saíta",
+      "start": "-0610-01-01",
+      "end": "-0601-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Necho_II",
+      "note": "Cronología convencional; las fechas anteriores a841a.C. en China y las tradiciones tempranas tienen especial incertidumbre.",
+      "documentedInterval": [
+        -610,
+        -595
+      ],
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-57d153354b1a6745afe9.png",
+        "title": "Necho-KnellingStatue BrooklynMuseum.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Necho-KnellingStatue_BrooklynMuseum.png",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Necho-KnellingStatue_BrooklynMuseum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "\nKeith Schengili-Roberts",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work (photo)",
+        "sha256": "5ee4a9d94d18a2a514fd25cd4d1fc00aabf975fd1bedf30ff8323eaacc5a465b",
+        "bytes": 899552,
+        "caption": "Estatuilla arrodillada identificada comoNecaoII, BrooklynMuseum; atribución de la pieza.",
+        "canonicalFile": "Países/HIST-Q662410-Twenty-sixth-Dynasty-of-Egypt/retratos/portrait-57d153354b1a6745afe9.png",
+        "focalPosition": "50% 12%"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -1000,
+      "end": -601,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "sourceLabel": "Revisión1000–601a.C.",
+      "note": "Clasificación documental de los poderes representados, no prueba de estado unitario ni continuidad institucional durante cuatro siglos."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat045-12",
+      "name": "Sais",
+      "coordinates": [
+        30.77,
+        30.96
+      ],
+      "start": -664,
+      "end": -601,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "note": "Ubicación aproximada; no perímetro urbano ni residencia regia continua."
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc1000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Twenty-sixth Dynasty of Egypt"
+        ],
+        "start": -1000,
+        "end": -601,
+        "label": "Egipto · dinastía saíta",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+        "note": "Contorno original de compilación; no observación anual ni control homogéneo."
+      }
+    },
+    {
+      "files": [
+        "historical-bc1000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Assyrian Egypt"
+        ],
+        "start": -650,
+        "end": -616,
+        "label": "Egipto · dinastía saíta",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://www.metmuseum.org/zh/essays/egypt-in-the-late-period-ca-712-332-b-c",
+        "note": "El rótulo AssyrianEgypt y las fechas650–616 de la compilación no acreditan ocupación asiria. Se atribuye esta referencia a la monarquía saíta dePsaméticoI; las campañas671/663 se documentan aparte, sin inventar frentes.",
+        "colorFamily": "HIST-Q662410"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc1000-bc0601.geojson",
+      "sha256": "5d32daf8cab541241a881be2a90058d3757d4c52e05e33582daec24114fd2110",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        225
+      ],
+      "note": "Propiedades, índices y coordenadas originales retenidos."
+    }
+  ],
+  "pending": [
+    "Bibliografía y cronología regional; no inferir gobernantes de fechas vitales ni del nombre del territorio."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Necho II",
+        "title": "Necho II",
+        "person": "Q125102",
+        "name": "Necao II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Necho_II",
+        "identityResolution": {
+          "requested": "Necho II",
+          "canonical": "Necho II",
+          "qid": "Q125102"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q37110",
+          "start": "-0610-01-01",
+          "end": "-0595-01-01",
+          "precision": 9,
+          "statement": "Q125102$8DB06EC6-76FF-4C76-ACFF-D5A7141BE71F",
+          "label": "faraón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q125102",
+        "title": "Necho II",
+        "source": "https://en.wikipedia.org/wiki/Necho_II",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Psamtik I",
+        "title": "Psamtik I",
+        "person": "Q328763",
+        "name": "Psamético I",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Psamtik_I",
+        "identityResolution": {
+          "requested": "Psamtik I",
+          "canonical": "Psamtik I",
+          "qid": "Q328763"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q37110",
+          "start": "-0664-01-01",
+          "end": "-0610-01-01",
+          "precision": 9,
+          "statement": "Q328763$8217AA4B-1B44-4D49-A230-60ACD0E91C56",
+          "label": "faraón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q328763",
+        "title": "Psamtik I",
+        "source": "https://en.wikipedia.org/wiki/Psamtik_I",
+        "reignFields": []
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Fechas convencionales y variantes explícitas. Identificación humana cotejada con metadatos y campos de reinado; la falta de retrato no se resuelve con un homónimo. No se infiere un mandato de fechas vitales.",
+  "coarseDateQualifications": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q328763",
+      "title": "Egypte louvre 038.jpg",
+      "reason": "La ficha del archivo identifica a un dignatario llamadoPsametik, sin atributos regios; no usarlo como PsaméticoI."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q328763",
+      "title": "Egypte louvre 038.jpg",
+      "decision": "rejected",
+      "reason": "La ficha del archivo identifica a un dignatario llamadoPsametik, sin atributos regios; no usarlo como PsaméticoI."
+    },
+    {
+      "person": "Q125102",
+      "title": "Necho-KnellingStatue BrooklynMuseum.png",
+      "decision": "accepted",
+      "reason": "Estatuilla arrodillada identificada comoNecaoII, BrooklynMuseum; atribución de la pieza."
+    }
+  ]
+}

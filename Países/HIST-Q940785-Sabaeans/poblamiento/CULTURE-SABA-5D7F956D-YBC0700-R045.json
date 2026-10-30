@@ -1,0 +1,71 @@
+{
+  "key": "CULTURE-SABA-5D7F956D-YBC0700-R045",
+  "contextKey": "REFERENCE-HIST-Q940785-WORLD",
+  "ownerKey": "HIST-Q940785",
+  "name": "Saba · referencia territorial",
+  "originalNames": [
+    "Saba"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional de la compilación de700a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -700,
+    -601
+  ],
+  "interpretation": "Referencia territorial de la compilación; no prueba de control uniforme ni de centralización. La entidad política tiene prioridad visual cuando dispone de contorno activo.",
+  "spatialUncertainty": "Contorno íntegro de compilación mundial, resolución desigual y límites aproximados; no fronteras exclusivas de población.",
+  "temporalUncertainty": "Los mapas1000/700 son referencias de compilación, no cuatrocientas observaciones anuales. La ventana y el final de consulta no prueban permanencia ni desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps700a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "HIST-Q940785"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    43.53071,
+    16.63315
+  ],
+  "phases": [
+    {
+      "start": -700,
+      "end": -601,
+      "label": "Saba · referencia territorial",
+      "dateBasis": "Referencia de compilación; se oculta sólo cuando la misma entidad tiene una geometría política activa.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-SABA-5D7F956D-YBC0700-R045.geojson",
+  "geometrySha256": "dee17d3486203c37a42b490378fb7d06b793b26c2711bc1ebd62837f9e3161f7",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+    "year": -700,
+    "featureIds": [
+      12
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c"
+  },
+  "review": "0.45.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Bibliografía regional, denominaciones y cronología de poblamiento por contrastar."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Saba",
+      "ABBREVN": "Saba",
+      "SUBJECTO": "Saba",
+      "TYPE": null,
+      "BORDERPRECISION": 1,
+      "PARTOF": "Saba"
+    }
+  ],
+  "sourceGrouping": [
+    "Saba"
+  ]
+}

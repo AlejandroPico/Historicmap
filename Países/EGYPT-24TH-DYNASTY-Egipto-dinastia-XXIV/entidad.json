@@ -1,0 +1,59 @@
+{
+  "key": "EGYPT-24TH-DYNASTY",
+  "name": "Egipto · dinastía XXIV",
+  "qid": "",
+  "aliases": [
+    "Egipto · dinastía XXIV"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "EGYPT-24TH-DYNASTY"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "Q459201",
+      "name": "Tafnajt",
+      "role": "Faraón de Sais · dinastía XXIV",
+      "start": "-0732-01-01",
+      "end": "-0725-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tefnakht",
+      "note": "Cronologías convencionales variables; autoridades locales del Delta, no control continuo sobre todo Egipto. Los metadatos vitales de precisión de siglo no se interpretan como un año exacto.",
+      "documentedInterval": [
+        -732,
+        -725
+      ],
+      "curated": true,
+      "acquisition": "period-bc1000-0.45"
+    },
+    {
+      "person": "Q510515",
+      "name": "Bakenrenef",
+      "role": "Faraón de Sais · dinastía XXIV",
+      "start": "-0725-01-01",
+      "end": "-0720-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bakenranef",
+      "note": "Cronologías convencionales variables; autoridades locales del Delta, no control continuo sobre todo Egipto. Los metadatos vitales de precisión de siglo no se interpretan como un año exacto.",
+      "documentedInterval": [
+        -725,
+        -720
+      ],
+      "curated": true,
+      "acquisition": "period-bc1000-0.45"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

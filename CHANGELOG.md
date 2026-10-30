@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## 0.45.0 · 30 de octubre de2026
+
+- Consulta anual1000–601a.C., autoridades ycentros documentales, contextos, culturas yreferencias de conflictos. Se conservan las fases posteriores.
+- Tonos culturales estables para áreas importadas con gris inicial; rótulos españoles yoriginales buscables, con traducciones enlas carpetas de entidades.
+- Revisión visual de98 candidatos,50 imágenes aceptadas y48 rechazadas con atribuciones explícitas.
+- Precisión documental de fechas vitales, corrección de atribución saíta ycatálogo sincronizado antes de comprobar. [Método ylímite](docs/RESEARCH-bc1000.md), [comprobaciones](docs/DELIVERY-0.45.0.md).
+
 ## 0.44.1 · 29 de octubre de 2026
 
 - Sincroniza la ficha generada de Qin y su índice con las dos etapas de Huiwen: señor antes de325a.C. y rey desde325. No se revierten los datos corregidos de0.44.0.

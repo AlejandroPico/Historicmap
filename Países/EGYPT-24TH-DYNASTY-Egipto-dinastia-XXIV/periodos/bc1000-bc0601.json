@@ -1,0 +1,223 @@
+{
+  "key": "EGYPT-24TH-DYNASTY",
+  "identity": {
+    "qid": "",
+    "name": "Egipto · dinastía XXIV"
+  },
+  "revision": "0.45.0",
+  "acquisition": "period-bc1000-0.45",
+  "coverageStart": -1000,
+  "coverageEnd": -601,
+  "candidates": [
+    {
+      "role": "Faraón de Sais · dinastía XXIV",
+      "titles": [
+        "Tefnakht"
+      ],
+      "documentedWindow": [
+        -732,
+        -725
+      ]
+    },
+    {
+      "role": "Faraón de Sais · dinastía XXIV",
+      "titles": [
+        "Bakenranef"
+      ],
+      "documentedWindow": [
+        -725,
+        -720
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q459201",
+      "name": "Tafnajt",
+      "role": "Faraón de Sais · dinastía XXIV",
+      "start": "-0732-01-01",
+      "end": "-0725-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Tefnakht",
+      "note": "Cronologías convencionales variables; autoridades locales del Delta, no control continuo sobre todo Egipto. Los metadatos vitales de precisión de siglo no se interpretan como un año exacto.",
+      "documentedInterval": [
+        -732,
+        -725
+      ]
+    },
+    {
+      "person": "Q510515",
+      "name": "Bakenrenef",
+      "role": "Faraón de Sais · dinastía XXIV",
+      "start": "-0725-01-01",
+      "end": "-0720-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/Bakenranef",
+      "note": "Cronologías convencionales variables; autoridades locales del Delta, no control continuo sobre todo Egipto. Los metadatos vitales de precisión de siglo no se interpretan como un año exacto.",
+      "documentedInterval": [
+        -725,
+        -720
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -1000,
+      "end": -601,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "sourceLabel": "Revisión1000–601a.C.",
+      "note": "Clasificación documental de los poderes representados, no prueba de estado unitario ni continuidad institucional durante cuatro siglos."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat045-10",
+      "name": "Sais",
+      "coordinates": [
+        30.77,
+        30.96
+      ],
+      "start": -732,
+      "end": -720,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "note": "Ubicación aproximada; no perímetro urbano ni residencia regia continua."
+    },
+    {
+      "id": "seat045-10-reference",
+      "name": "Sais",
+      "coordinates": [
+        30.77,
+        30.96
+      ],
+      "start": -732,
+      "end": -720,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "note": "Ubicación aproximada; no perímetro urbano ni residencia regia continua.",
+      "standaloneReference": true,
+      "entityName": "Egipto · dinastía XXIV"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Bibliografía y cronología regional; no inferir gobernantes de fechas vitales ni del nombre del territorio."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bakenranef",
+        "title": "Bakenranef",
+        "person": "Q510515",
+        "name": "Bakenrenef",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bakenranef",
+        "identityResolution": {
+          "requested": "Bakenranef",
+          "canonical": "Bakenranef",
+          "qid": "Q510515"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q37110",
+          "start": "-0718-01-01",
+          "end": "-0712-01-01",
+          "precision": 9,
+          "statement": "Q510515$316B0121-D0D5-470D-B19A-9189D5A5D374",
+          "label": "faraón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q510515",
+        "title": "Bakenranef",
+        "source": "https://en.wikipedia.org/wiki/Bakenranef",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Pharaoh of Egypt",
+            "raw": "[[24th Dynasty]]",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tefnakht",
+        "title": "Tefnakht",
+        "person": "Q459201",
+        "name": "Tafnajt",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tefnakht",
+        "identityResolution": {
+          "requested": "Tefnakht",
+          "canonical": "Tefnakht",
+          "qid": "Q459201"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q459201",
+        "title": "Tefnakht",
+        "source": "https://en.wikipedia.org/wiki/Tefnakht",
+        "reignFields": []
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Fechas convencionales y variantes explícitas. Identificación humana cotejada con metadatos y campos de reinado; la falta de retrato no se resuelve con un homónimo. No se infiere un mandato de fechas vitales.",
+  "coarseDateQualifications": [
+    {
+      "key": "EGYPT-24TH-DYNASTY",
+      "title": "Tefnakht",
+      "person": "Q459201",
+      "reason": "La fecha vital sólo tiene precisión de siglo/década o incertidumbre explícita; no descarta al soberano. No se usa para fechar el mandato."
+    },
+    {
+      "key": "EGYPT-24TH-DYNASTY",
+      "title": "Bakenranef",
+      "person": "Q510515",
+      "reason": "La fecha vital sólo tiene precisión de siglo/década o incertidumbre explícita; no descarta al soberano. No se usa para fechar el mandato."
+    }
+  ],
+  "rejectedPortraits": [
+    {
+      "person": "Q459201",
+      "title": "Tefnakht Athens stela (T. Efthimiadis).jpg",
+      "reason": "Inscripción, cartucho, escena colectiva, objeto sin rostro o encuadre que no permite un retrato individual legible."
+    },
+    {
+      "person": "Q510515",
+      "title": "Apis Bakenranef 6 Mariette.jpg",
+      "reason": "Inscripción, cartucho, escena colectiva, objeto sin rostro o encuadre que no permite un retrato individual legible."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q459201",
+      "title": "Tefnakht Athens stela (T. Efthimiadis).jpg",
+      "decision": "rejected",
+      "reason": "Inscripción, cartucho, escena colectiva, objeto sin rostro o encuadre que no permite un retrato individual legible."
+    },
+    {
+      "person": "Q510515",
+      "title": "Apis Bakenranef 6 Mariette.jpg",
+      "decision": "rejected",
+      "reason": "Inscripción, cartucho, escena colectiva, objeto sin rostro o encuadre que no permite un retrato individual legible."
+    }
+  ]
+}

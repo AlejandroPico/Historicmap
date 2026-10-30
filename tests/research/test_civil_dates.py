@@ -15,8 +15,8 @@ class CivilDates(unittest.TestCase):
  def test_explicit_era_filenames(self):
   self.assertEqual(period_name(-100,-1),'bc0100-bc0001');self.assertEqual(period_name(1,99),'0001-0099')
  def test_single_era_bounds(self):
-  check_window(-100,-1);check_window(1,99);check_window(-600,-301);check_window(1,300)
-  for start,end in [(-100,0),(-1,1),(0,99),(-100,-101),(-100,1),(1,301),(-600,-300)]:
+  check_window(-100,-1);check_window(1,99);check_window(-600,-301);check_window(1,300);check_window(-1000,-601);check_window(1,400)
+  for start,end in [(-100,0),(-1,1),(0,99),(-100,-101),(-100,1),(1,401),(-1000,-600)]:
    with self.assertRaises(ValueError):check_window(start,end)
 
 if __name__=='__main__':unittest.main()

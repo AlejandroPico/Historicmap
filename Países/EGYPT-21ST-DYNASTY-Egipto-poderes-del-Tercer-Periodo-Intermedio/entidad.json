@@ -1,0 +1,130 @@
+{
+  "key": "EGYPT-21ST-DYNASTY",
+  "name": "Egipto · poderes del Tercer Periodo Intermedio",
+  "qid": "",
+  "aliases": [
+    "Egipto · poderes del Tercer Periodo Intermedio",
+    "New Kingdom of Egypt"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "EGYPT-21ST-DYNASTY"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [
+    {
+      "person": "documented045-8f74dc8145d990c59b",
+      "name": "Amenemope",
+      "role": "Faraón de Tanis · dinastía XXI",
+      "start": "-1000-01-01",
+      "end": "-0992-12-31",
+      "precision": 9,
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html",
+      "note": "Tercer Periodo Intermedio: Tanis y los poderes de Tebas no forman una sucesión centralizada única. Cronologías alternativas UCL/Met; límites aproximados.",
+      "documentedInterval": [
+        -1001,
+        -992
+      ],
+      "startIsCoverageBoundary": true,
+      "curated": true,
+      "acquisition": "period-bc1000-0.45"
+    },
+    {
+      "person": "Q708389",
+      "name": "Osocor",
+      "role": "Faraón de Tanis · dinastía XXI",
+      "start": "-0992-01-01",
+      "end": "-0986-12-31",
+      "precision": 9,
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html",
+      "note": "Tercer Periodo Intermedio: Tanis y los poderes de Tebas no forman una sucesión centralizada única. Cronologías alternativas UCL/Met; límites aproximados.",
+      "documentedInterval": [
+        -992,
+        -986
+      ],
+      "curated": true,
+      "acquisition": "period-bc1000-0.45"
+    },
+    {
+      "person": "Q366097",
+      "name": "Siamón",
+      "role": "Faraón de Tanis · dinastía XXI",
+      "start": "-0986-01-01",
+      "end": "-0967-12-31",
+      "precision": 9,
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html",
+      "note": "Tercer Periodo Intermedio: Tanis y los poderes de Tebas no forman una sucesión centralizada única. Cronologías alternativas UCL/Met; límites aproximados.",
+      "documentedInterval": [
+        -986,
+        -967
+      ],
+      "curated": true,
+      "acquisition": "period-bc1000-0.45"
+    },
+    {
+      "person": "Q165989",
+      "name": "Psusenes II",
+      "role": "Faraón de Tanis · dinastía XXI",
+      "start": "-0967-01-01",
+      "end": "-0943-12-31",
+      "precision": 9,
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html",
+      "note": "Tercer Periodo Intermedio: Tanis y los poderes de Tebas no forman una sucesión centralizada única. Cronologías alternativas UCL/Met; límites aproximados.",
+      "documentedInterval": [
+        -967,
+        -943
+      ],
+      "curated": true,
+      "acquisition": "period-bc1000-0.45"
+    }
+  ],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-113",
+      "start": -1000,
+      "end": -901,
+      "name": "New Kingdom of Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc1000.geojson",
+      "recordId": "clio-124",
+      "start": -900,
+      "end": -801,
+      "name": "New Kingdom of Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-EGYPT-557C1599-YBC0700-R045:0",
+      "contextKey": "REFERENCE-EGYPT-21ST-DYNASTY-WORLD",
+      "start": -700,
+      "end": -601,
+      "sourceYear": -700,
+      "canonicalFile": "Países/EGYPT-21ST-DYNASTY-Egipto-poderes-del-Tercer-Periodo-Intermedio/poblamiento/CULTURE-EGYPT-557C1599-YBC0700-R045.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-EGYPT-557C1599-YBC1000-R045:0",
+      "contextKey": "REFERENCE-EGYPT-21ST-DYNASTY-WORLD",
+      "start": -1000,
+      "end": -701,
+      "sourceYear": -1000,
+      "canonicalFile": "Países/EGYPT-21ST-DYNASTY-Egipto-poderes-del-Tercer-Periodo-Intermedio/poblamiento/CULTURE-EGYPT-557C1599-YBC1000-R045.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

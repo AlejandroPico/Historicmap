@@ -1,0 +1,339 @@
+{
+  "key": "EGYPT-21ST-DYNASTY",
+  "identity": {
+    "qid": "",
+    "name": "Egipto · poderes del Tercer Periodo Intermedio"
+  },
+  "revision": "0.45.0",
+  "acquisition": "period-bc1000-0.45",
+  "coverageStart": -1000,
+  "coverageEnd": -601,
+  "candidates": [
+    {
+      "role": "Faraón de Tanis · dinastía XXI",
+      "titles": [
+        "Amenemope"
+      ],
+      "documentedWindow": [
+        -1001,
+        -992
+      ]
+    },
+    {
+      "role": "Faraón de Tanis · dinastía XXI",
+      "titles": [
+        "Osorkon the Elder"
+      ],
+      "documentedWindow": [
+        -992,
+        -986
+      ]
+    },
+    {
+      "role": "Faraón de Tanis · dinastía XXI",
+      "titles": [
+        "Siamun"
+      ],
+      "documentedWindow": [
+        -986,
+        -967
+      ]
+    },
+    {
+      "role": "Faraón de Tanis · dinastía XXI",
+      "titles": [
+        "Psusennes II"
+      ],
+      "documentedWindow": [
+        -967,
+        -943
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "documented045-8f74dc8145d990c59b",
+      "name": "Amenemope",
+      "role": "Faraón de Tanis · dinastía XXI",
+      "start": "-1000-01-01",
+      "end": "-0992-12-31",
+      "precision": 9,
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html",
+      "note": "Tercer Periodo Intermedio: Tanis y los poderes de Tebas no forman una sucesión centralizada única. Cronologías alternativas UCL/Met; límites aproximados.",
+      "documentedInterval": [
+        -1001,
+        -992
+      ],
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q708389",
+      "name": "Osocor",
+      "role": "Faraón de Tanis · dinastía XXI",
+      "start": "-0992-01-01",
+      "end": "-0986-12-31",
+      "precision": 9,
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html",
+      "note": "Tercer Periodo Intermedio: Tanis y los poderes de Tebas no forman una sucesión centralizada única. Cronologías alternativas UCL/Met; límites aproximados.",
+      "documentedInterval": [
+        -992,
+        -986
+      ]
+    },
+    {
+      "person": "Q366097",
+      "name": "Siamón",
+      "role": "Faraón de Tanis · dinastía XXI",
+      "start": "-0986-01-01",
+      "end": "-0967-12-31",
+      "precision": 9,
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html",
+      "note": "Tercer Periodo Intermedio: Tanis y los poderes de Tebas no forman una sucesión centralizada única. Cronologías alternativas UCL/Met; límites aproximados.",
+      "documentedInterval": [
+        -986,
+        -967
+      ]
+    },
+    {
+      "person": "Q165989",
+      "name": "Psusenes II",
+      "role": "Faraón de Tanis · dinastía XXI",
+      "start": "-0967-01-01",
+      "end": "-0943-12-31",
+      "precision": 9,
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html",
+      "note": "Tercer Periodo Intermedio: Tanis y los poderes de Tebas no forman una sucesión centralizada única. Cronologías alternativas UCL/Met; límites aproximados.",
+      "documentedInterval": [
+        -967,
+        -943
+      ]
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -1000,
+      "end": -601,
+      "tags": [
+        "monarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "sourceLabel": "Revisión1000–601a.C.",
+      "note": "Clasificación documental de los poderes representados, no prueba de estado unitario ni continuidad institucional durante cuatro siglos."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat045-7",
+      "name": "Tanis",
+      "coordinates": [
+        31.88,
+        30.98
+      ],
+      "start": -1000,
+      "end": -944,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "note": "Ubicación aproximada; no perímetro urbano ni residencia regia continua."
+    },
+    {
+      "id": "seat045-7-reference",
+      "name": "Tanis",
+      "coordinates": [
+        31.88,
+        30.98
+      ],
+      "start": -1000,
+      "end": -944,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "note": "Ubicación aproximada; no perímetro urbano ni residencia regia continua.",
+      "standaloneReference": true,
+      "entityName": "Egipto · poderes del Tercer Periodo Intermedio"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc1000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "New Kingdom of Egypt"
+        ],
+        "start": -1000,
+        "end": -601,
+        "label": "Egipto · poderes del Tercer Periodo Intermedio",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+        "note": "Contorno original de compilación; no observación anual ni control homogéneo."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc1000-bc0601.geojson",
+      "sha256": "56229763433e2299db94e6a7f469a7a098d8a43bda093a4f10bac8b66e11a2f6",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        113,
+        124
+      ],
+      "note": "Propiedades, índices y coordenadas originales retenidos."
+    }
+  ],
+  "pending": [
+    "Bibliografía y cronología regional; no inferir gobernantes de fechas vitales ni del nombre del territorio."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Amenemope",
+        "title": "Amenemope",
+        "person": "Q366232",
+        "name": "Amenemope",
+        "human": false,
+        "source": "https://en.wikipedia.org/wiki/Amenemope",
+        "identityResolution": {
+          "requested": "Amenemope",
+          "canonical": "Amenemope",
+          "qid": "Q366232"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": null
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Osorkon the Elder",
+        "title": "Osorkon the Elder",
+        "person": "Q708389",
+        "name": "Osocor",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Osorkon_the_Elder",
+        "identityResolution": {
+          "requested": "Osorkon the Elder",
+          "canonical": "Osorkon the Elder",
+          "qid": "Q708389"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q708389",
+        "title": "Osorkon the Elder",
+        "source": "https://en.wikipedia.org/wiki/Osorkon_the_Elder",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Psusennes II",
+        "title": "Psusennes II",
+        "person": "Q165989",
+        "name": "Psusenes II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Psusennes_II",
+        "identityResolution": {
+          "requested": "Psusennes II",
+          "canonical": "Psusennes II",
+          "qid": "Q165989"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q165989",
+        "title": "Psusennes II",
+        "source": "https://en.wikipedia.org/wiki/Psusennes_II",
+        "reignFields": []
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Siamun",
+        "title": "Siamun",
+        "person": "Q366097",
+        "name": "Siamón",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Siamun",
+        "identityResolution": {
+          "requested": "Siamun",
+          "canonical": "Siamun",
+          "qid": "Q366097"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q366097",
+        "title": "Siamun",
+        "source": "https://en.wikipedia.org/wiki/Siamun",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "985&ndash;966 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [
+    {
+      "key": "EGYPT-21ST-DYNASTY",
+      "title": "Amenemope",
+      "person": "Q366232",
+      "reason": "No se corroboró identidad humana individual; conservar nombre documental sin asignarle imagen de un homónimo."
+    }
+  ],
+  "authorityReview": "Fechas convencionales y variantes explícitas. Identificación humana cotejada con metadatos y campos de reinado; la falta de retrato no se resuelve con un homónimo. No se infiere un mandato de fechas vitales.",
+  "coarseDateQualifications": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q708389",
+      "title": "Block Aakheperre Osorkon by Khruner.jpg",
+      "reason": "Inscripción, cartucho, escena colectiva, objeto sin rostro o encuadre que no permite un retrato individual legible."
+    },
+    {
+      "person": "Q366097",
+      "title": "Siamun’s royal cartouche on a lintel.jpg",
+      "reason": "Inscripción, cartucho, escena colectiva, objeto sin rostro o encuadre que no permite un retrato individual legible."
+    },
+    {
+      "person": "Q165989",
+      "title": "Statue CG42192 legrain.jpg",
+      "reason": "La estatuaCG42192 contiene nombres e identificaciones discutidas; una inscripción con el nombre dePsusennesII no acredita que la figura sea su retrato."
+    }
+  ],
+  "mediaReview": [
+    {
+      "person": "Q708389",
+      "title": "Block Aakheperre Osorkon by Khruner.jpg",
+      "decision": "rejected",
+      "reason": "Inscripción, cartucho, escena colectiva, objeto sin rostro o encuadre que no permite un retrato individual legible."
+    },
+    {
+      "person": "Q366097",
+      "title": "Siamun’s royal cartouche on a lintel.jpg",
+      "decision": "rejected",
+      "reason": "Inscripción, cartucho, escena colectiva, objeto sin rostro o encuadre que no permite un retrato individual legible."
+    },
+    {
+      "person": "Q165989",
+      "title": "Statue CG42192 legrain.jpg",
+      "decision": "rejected",
+      "reason": "La estatuaCG42192 contiene nombres e identificaciones discutidas; una inscripción con el nombre dePsusennesII no acredita que la figura sea su retrato."
+    }
+  ]
+}

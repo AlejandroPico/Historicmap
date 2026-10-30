@@ -1,0 +1,71 @@
+{
+  "key": "CULTURE-BABYLONIA-8A8C76C9-YBC0700-R045",
+  "contextKey": "REFERENCE-BABYLONIA-FIRST-MILLENNIUM-WORLD",
+  "ownerKey": "BABYLONIA-FIRST-MILLENNIUM",
+  "name": "Babilonia · referencia territorial",
+  "originalNames": [
+    "Babylonia"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional de la compilación de700a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -700,
+    -601
+  ],
+  "interpretation": "Referencia territorial de la compilación; no prueba de control uniforme ni de centralización. La entidad política tiene prioridad visual cuando dispone de contorno activo.",
+  "spatialUncertainty": "Contorno íntegro de compilación mundial, resolución desigual y límites aproximados; no fronteras exclusivas de población.",
+  "temporalUncertainty": "Los mapas1000/700 son referencias de compilación, no cuatrocientas observaciones anuales. La ventana y el final de consulta no prueban permanencia ni desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps700a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "BABYLONIA-FIRST-MILLENNIUM"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    46.72577,
+    32.84223
+  ],
+  "phases": [
+    {
+      "start": -700,
+      "end": -601,
+      "label": "Babilonia · referencia territorial",
+      "dateBasis": "Referencia de compilación; se oculta sólo cuando la misma entidad tiene una geometría política activa.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-BABYLONIA-8A8C76C9-YBC0700-R045.geojson",
+  "geometrySha256": "786b4a2fcc88b17c20b5caee96946514df6a49d180d8859257fdecf25ac11d41",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+    "year": -700,
+    "featureIds": [
+      20
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c"
+  },
+  "review": "0.45.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Bibliografía regional, denominaciones y cronología de poblamiento por contrastar."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Babylonia",
+      "ABBREVN": "Babylonia",
+      "SUBJECTO": "Babylonia",
+      "TYPE": null,
+      "BORDERPRECISION": 1,
+      "PARTOF": "Babylonia"
+    }
+  ],
+  "sourceGrouping": [
+    "Babylonia"
+  ]
+}

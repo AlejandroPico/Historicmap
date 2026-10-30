@@ -1,0 +1,31 @@
+import{readFileSync,writeFileSync}from'node:fs';import{join,dirname}from'node:path';import{createHash}from'node:crypto';import{describe,it,expect,vi}from'vitest';import type{FeatureCollection}from'geojson';
+import{annualData}from'../src/data';import{politicalData}from'../src/political';import{identityFor,type IdentityData}from'../src/identities';import{snapshotFor,playbackYear,navigationYear}from'../src/time';import{regionsAt,regionalAsset}from'../src/cultural-regions';import{displayLabel,culturalColor}from'../src/map-presentation';import{withRenderIds}from'../src/render-feature-id';
+const read=(p:string)=>JSON.parse(readFileSync(p,'utf8')),ids=read('public/data/identities.json')as IdentityData,regions=read('public/data/cultural-regions.geojson'),inventory=read('docs/PERIOD-INVENTORY-bc1000.json');
+vi.stubGlobal('fetch',async(input:any)=>new Response(readFileSync('public/data/'+String(input).split('/').at(-1)!),{status:200}));
+const at=(key:string,y:number)=>identityFor({identityKey:key},y,ids),world=async(y:number)=>politicalData(await annualData(y),y);
+describe('1000–601BCE and Spanish cultural presentation',()=>{
+ it('renders all400 annual dates with cultural evidence, annual controls and the600 handover',async()=>{
+  const years=[];for(let y=-1000;y<=-601;y++){expect(snapshotFor(y).file).toBe('early-modern-bc1000.geojson');const p=await world(y),r=regionsAt(regions,y,p);expect(p.features.length,String(y)).toBeGreaterThan(3);expect(r.features.length,String(y)).toBeGreaterThan(30);expect(new Set(p.features.map(f=>f.id)).size).toBe(p.features.length);expect(r.features.every(f=>f.properties?.sourceYear<=y||f.properties?.temporalMode==='historical-area-context')).toBe(true);years.push({year:y,politicalComponents:p.features.length,culturalReferences:r.features.length,withoutAuthorities:p.features.filter(f=>!at(String(f.properties?.identityKey),y).leaders.length).map(f=>({key:f.properties?.identityKey,name:f.properties?.name}))});}
+  expect(playbackYear(-601)).toBe(-600);expect(navigationYear(-1000,1)).toBe(-999);expect(navigationYear(-1,1)).toBe(1);expect(regionalAsset(-1000)).toBe('cultural-regions-bc1000-bc0901.geojson');if(process.env.WRITE_REVIEW==='1')writeFileSync('docs/REVIEW-bc1000-bc601.json',JSON.stringify({scope:'Disponibilidad, no certificación historiográfica de400 mapas independientes.',years},null,2)+'\n');
+ },120000);
+ it('retains the Qin identity and actual ruler across601/600 and separates Zhou courts',async()=>{
+  for(const y of[-601,-600]){expect(at('QIN-STATE-WARRING',y).leaders.some(l=>/Huan/i.test(l.name))).toBe(true);expect((await world(y)).features.some(f=>f.properties?.identityKey==='QIN-STATE-WARRING')).toBe(true);}
+  expect(at('WESTERN-ZHOU-COURT',-1000).leaders.length).toBeGreaterThan(0);expect(at('EASTERN-ZHOU-COURT',-770).leaders.length).toBeGreaterThan(0);expect(at('ROMAN-KINGDOM-ARCHAIC',-700).leaders.some(l=>/Numa/.test(l.name))).toBe(true);
+  expect((await world(-770)).features.some(f=>f.properties?.identityKey==='EASTERN-ZHOU-COURT')).toBe(true);
+  const egypt=(await world(-650)).features.filter(f=>f.properties?.originalName==='Assyrian Egypt');expect(egypt.length).toBeGreaterThan(0);expect(egypt.every(f=>f.properties?.identityKey==='HIST-Q662410')).toBe(true);expect(at('WESTERN-ZHOU-COURT',-835).leaders.some(l=>l.name==='Regencia Gonghe')).toBe(true);
+ });
+ it('preserves every original political component and entity ownership',()=>{
+  const source=read('public/data/early-modern-bc1000.geojson');let total=0;for(const file of inventory.canonicalDossiers){const d=read(file);for(const ref of d.geography){const path=join(dirname(file),ref.file),raw=readFileSync(path);expect(createHash('sha256').update(raw).digest('hex')).toBe(ref.sha256);for(const f of JSON.parse(raw.toString()).features){const compiled=source.features.find((r:any)=>r.id==='clio-'+f.sourceIndex);expect(compiled.geometry).toEqual(f.geometry);expect(compiled.properties.identityKey).toBe(d.key);total++;}}}expect(total).toBe(112);
+ });
+ it('uses stable distinct cultural fallback tones while retaining authored colours',()=>{
+  const a={contextKey:'CULTURE-SAHARA',color:'#879a9a'},b={...a,sourceYear:-1000};expect(culturalColor(a)).toBe(culturalColor(b));expect(culturalColor(a)).not.toBe('#879a9a');expect(culturalColor(a)).not.toBe('#6c7776');expect(culturalColor({...a,color:'#a99772'})).toBe('#a99772');expect(new Set(Array.from({length:64},(_,i)=>culturalColor({...a,contextKey:'REGION-'+i}))).size).toBeGreaterThan(8);
+ });
+ it('presents Spanish names and preserves original aliases, colours, geometry and identifiers',()=>{
+  for(const[from,to]of[['Kingdom of Kush','Reino de Kush'],['Kingdom of Urartu','Reino de Urartu'],['Median Kingdom','Reino de los medos'],['Saharan pastoral nomads','Pastores nómadas del Sáhara'],['King Kang of Zhou','Rey Kang de Zhou']])expect(displayLabel(from)).toBe(to);
+  const raw:FeatureCollection={type:'FeatureCollection',features:[{type:'Feature',id:'source-1',geometry:{type:'Point',coordinates:[30,18]},properties:{name:'Kingdom of Kush',originalName:'Kingdom of Kush',identityKey:'KUSH',politicalColor:'#123456'}}]},saved=JSON.stringify(raw),shown=withRenderIds(raw,'test');expect(shown.features[0].properties).toMatchObject({name:'Reino de Kush',sourceDisplayName:'Kingdom of Kush',originalName:'Kingdom of Kush',identityKey:'KUSH',politicalColor:'#123456'});expect(shown.features[0].geometry).toBe(raw.features[0].geometry);expect(JSON.stringify(raw)).toBe(saved);
+ });
+ it('keeps prior portrait exclusions and rejects misleading divine or textual candidates',()=>{
+  const media=read('docs/MEDIA-REVIEW-bc1000.json');expect(media.accepted+media.rejected).toBe(media.candidates);const rejected=media.decisions.filter((r:any)=>r.decision==='rejected').map((r:any)=>r.title);for(const title of['Statue-of-the-phoenician-god-baal-arwad.jpg','Genie poppy Dur Sharrukin Louvre AO19869.jpg','Nebukadnessar II.jpg','Egypte louvre 038.jpg'])expect(rejected).toContain(title);
+  for(const file of inventory.canonicalDossiers)for(const l of read(file).leaders){if(!l.portrait)continue;expect(l.portrait.caption).toBeTruthy();const raw=readFileSync(l.portrait.canonicalFile);expect(createHash('sha256').update(raw).digest('hex')).toBe(l.portrait.sha256);}
+ });
+});

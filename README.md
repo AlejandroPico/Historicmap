@@ -2,17 +2,17 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.44.1** · 29 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.45.0** · 30 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
-Revisión vigente: **pueblos y regiones de600a.C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-bc600-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
+Revisión vigente: **pueblos y regiones de1000a.C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-bc1000-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
 
-Ampliación600–301a.C., manteniendo la continuidad1a.C./1d.C. sin año cero: [geografía, autoridades, culturas y límites de revisión](docs/RESEARCH-bc600.md). Las fases posteriores se conservan. Cartografía política y áreas culturales se activan por separado en Capas y Filtros, con ambos controles activados al iniciar. Las monedas tienen un encuadre revisado y las representaciones mantienen sus atribuciones y fechas.
+Ampliación1000–601a.C., conservando las fases posteriores yla continuidad1a.C./1d.C. sin cero: [fuentes, autoridades, culturas ylímites](docs/RESEARCH-bc1000.md). Las áreas culturales tienen tonos estables ylos rótulos revisados se presentan enespañol; se conservan nombres originales para búsqueda yfuentes. Cartografía política yáreas culturales se activan independientemente enCapas yFiltros, ambas al iniciar.
 
-[Validación y conservación de la entrega 0.44.0](docs/DELIVERY-0.44.0.md): ampliación de tres siglos, fuentes y límites documentados. La publicación en Pages queda pendiente de la comprobación del propietario.
+[Validación yconservación0.45.0](docs/DELIVERY-0.45.0.md). La publicación enPages queda pendiente de comprobación del propietario.
 
 ## Empezar
 
@@ -110,3 +110,5 @@ Cierre0.44.0. ÍndiceGit final: 1034 archivos nuevos/modificados cotejados con s
 Corrección0.44.1: sincronización de fichas e identidades tras revisar autoridades. Conserva toda la ampliación hasta600a.C. [Causa y comprobaciones](docs/DELIVERY-0.44.1.md).
 
 Cierre0.44.1:330 pruebas correctas antes del build, dos comprobaciones del catálogo repetidas después y compilación de producción correcta. Datos y medios anteriores conservados; publicación pendiente de comprobación del propietario.
+
+Cotejo final del índice Git: 1.067 archivos nuevos/modificados coinciden con sus bytes locales; 9.259 recursos de manifiestos verificados por SHA-256 y blob Git (9.198 blobs previos intactos); 1.292 originales canónicos propios comprobados directamente en el índice. Se retira una vista automática duplicada de Urartu; las fuentes originales se conservan. Dos pruebas finales del catálogo correctas después de la regeneración. Los cuatro documentos de cierre se cotejan otra vez tras incorporar estas cifras. No se espera ni se sondea Actions/Pages.

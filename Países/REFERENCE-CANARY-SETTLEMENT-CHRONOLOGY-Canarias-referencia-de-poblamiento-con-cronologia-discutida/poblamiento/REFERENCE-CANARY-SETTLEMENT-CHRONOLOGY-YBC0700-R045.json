@@ -1,0 +1,71 @@
+{
+  "key": "REFERENCE-CANARY-SETTLEMENT-CHRONOLOGY-YBC0700-R045",
+  "contextKey": "REFERENCE-CANARY-SETTLEMENT-CHRONOLOGY",
+  "ownerKey": "REFERENCE-CANARY-SETTLEMENT-CHRONOLOGY",
+  "name": "Canarias · referencia de poblamiento con cronología discutida",
+  "originalNames": [
+    "Guanches"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de700a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -700,
+    -601
+  ],
+  "interpretation": "La etiqueta de la compilación no demuestra poblamiento de todas las islas en1000. Dataciones arqueológicas y cronología de colonización por contrastar; referencia histórica, no ocupación afirmada.",
+  "spatialUncertainty": "Contorno íntegro de compilación mundial, resolución desigual y límites aproximados; no fronteras exclusivas de población.",
+  "temporalUncertainty": "Los mapas1000/700 son referencias de compilación, no cuatrocientas observaciones anuales. La ventana y el final de consulta no prueban permanencia ni desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps700a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -13.96562,
+    28.73927
+  ],
+  "phases": [
+    {
+      "start": -700,
+      "end": -601,
+      "label": "Canarias · referencia de poblamiento con cronología discutida",
+      "dateBasis": "Referencia espacial de700a.C.; sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -700
+    }
+  ],
+  "geometryFile": "REFERENCE-CANARY-SETTLEMENT-CHRONOLOGY-YBC0700-R045.geojson",
+  "geometrySha256": "a579adf34dd4f5f83aef2af13773e866ae3e7020f26f2423a94521557a62340d",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+    "year": -700,
+    "featureIds": [
+      23
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c"
+  },
+  "review": "0.45.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Bibliografía regional, denominaciones y cronología de poblamiento por contrastar."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Guanches",
+      "ABBREVN": "Guanches",
+      "SUBJECTO": "Guanches",
+      "TYPE": null,
+      "BORDERPRECISION": 1,
+      "PARTOF": "Guanches"
+    }
+  ],
+  "sourceGrouping": [
+    "Guanches"
+  ]
+}

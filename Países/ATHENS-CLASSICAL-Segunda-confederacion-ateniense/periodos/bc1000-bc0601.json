@@ -1,0 +1,176 @@
+{
+  "key": "ATHENS-CLASSICAL",
+  "identity": {
+    "qid": "",
+    "name": "Atenas · ciudad e instituciones cívicas"
+  },
+  "revision": "0.45.0",
+  "acquisition": "period-bc1000-0.45",
+  "coverageStart": -1000,
+  "coverageEnd": -601,
+  "candidates": [],
+  "leaders": [
+    {
+      "person": "documented045-creon-archon",
+      "name": "Creonte · arconte",
+      "role": "Arconte epónimo · primer mandato anual de la lista tradicional",
+      "start": "-0683-01-01",
+      "end": "-0682-12-31",
+      "precision": 9,
+      "source": "https://en.wikipedia.org/wiki/List_of_eponymous_archons_of_Athens",
+      "note": "Año ático683/682a.C.; no dos mandatos gregorianos completos. La cronología institucional temprana requiere contraste."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -1000,
+      "end": -601,
+      "tags": [
+        "city-state",
+        "oligarchy"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "sourceLabel": "Revisión1000–601a.C.",
+      "note": "Instituciones locales; no soberanía uniforme sobre toda Grecia."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat045-34",
+      "name": "Atenas",
+      "coordinates": [
+        23.727,
+        37.984
+      ],
+      "start": -1000,
+      "end": -601,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "note": "Ubicación aproximada; no perímetro urbano ni residencia regia continua."
+    },
+    {
+      "id": "seat045-34-reference",
+      "name": "Atenas",
+      "coordinates": [
+        23.727,
+        37.984
+      ],
+      "start": -1000,
+      "end": -601,
+      "capital": true,
+      "role": "Corte o centro documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc1000.md",
+      "note": "Ubicación aproximada; no perímetro urbano ni residencia regia continua.",
+      "standaloneReference": true,
+      "entityName": "Atenas · ciudad e instituciones cívicas"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event045-17",
+      "kind": "institution",
+      "title": "Arcontado anual en la tradición ateniense",
+      "start": "-0683-01-01",
+      "end": "-0681-01-01",
+      "text": "Año ático683/682; no dos gobiernos anuales gregorianos.",
+      "source": "https://en.wikipedia.org/wiki/List_of_eponymous_archons_of_Athens",
+      "sourceLabel": "Referencia1000–601a.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "event045-18",
+      "kind": "institution",
+      "title": "Tradición de la legislación de Dracón",
+      "start": "-0621-01-01",
+      "end": "-0619-01-01",
+      "text": "El legislador no se convierte en un monarca ni en presidente permanente deAtenas.",
+      "source": "https://en.wikipedia.org/wiki/Draco_(lawgiver)",
+      "sourceLabel": "Referencia1000–601a.C.",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Bibliografía y cronología regional; no inferir gobernantes de fechas vitales ni del nombre del territorio."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Bakenranef",
+        "title": "Bakenranef",
+        "person": "Q510515",
+        "name": "Bakenrenef",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Bakenranef",
+        "identityResolution": {
+          "requested": "Bakenranef",
+          "canonical": "Bakenranef",
+          "qid": "Q510515"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q37110",
+          "start": "-0718-01-01",
+          "end": "-0712-01-01",
+          "precision": 9,
+          "statement": "Q510515$316B0121-D0D5-470D-B19A-9189D5A5D374",
+          "label": "faraón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q510515",
+        "title": "Bakenranef",
+        "source": "https://en.wikipedia.org/wiki/Bakenranef",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "Pharaoh of Egypt",
+            "raw": "[[24th Dynasty]]",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Tefnakht",
+        "title": "Tefnakht",
+        "person": "Q459201",
+        "name": "Tafnajt",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Tefnakht",
+        "identityResolution": {
+          "requested": "Tefnakht",
+          "canonical": "Tefnakht",
+          "qid": "Q459201"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q459201",
+        "title": "Tefnakht",
+        "source": "https://en.wikipedia.org/wiki/Tefnakht",
+        "reignFields": []
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Fechas convencionales y variantes explícitas. Identificación humana cotejada con metadatos y campos de reinado; la falta de retrato no se resuelve con un homónimo. No se infiere un mandato de fechas vitales.",
+  "coarseDateQualifications": [],
+  "mediaReview": []
+}

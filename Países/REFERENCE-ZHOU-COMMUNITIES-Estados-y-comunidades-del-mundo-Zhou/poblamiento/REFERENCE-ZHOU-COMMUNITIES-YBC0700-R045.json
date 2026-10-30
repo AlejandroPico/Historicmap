@@ -1,0 +1,69 @@
+{
+  "key": "REFERENCE-ZHOU-COMMUNITIES-YBC0700-R045",
+  "contextKey": "REFERENCE-ZHOU-COMMUNITIES",
+  "ownerKey": "REFERENCE-ZHOU-COMMUNITIES",
+  "name": "Estados y comunidades del mundo Zhou",
+  "originalNames": [
+    "Zhoa"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de700a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -700,
+    -601
+  ],
+  "interpretation": "Grafía del original interpretada en el contexto Zhou; no confundir con Zhao posterior.",
+  "spatialUncertainty": "Contorno íntegro de compilación mundial, resolución desigual y límites aproximados; no fronteras exclusivas de población.",
+  "temporalUncertainty": "Los mapas1000/700 son referencias de compilación, no cuatrocientas observaciones anuales. La ventana y el final de consulta no prueban permanencia ni desaparición.",
+  "references": [
+    {
+      "title": "Historical Basemaps700a.C. · fuente fijada",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    113.35884,
+    33.75429
+  ],
+  "phases": [
+    {
+      "start": -700,
+      "end": -601,
+      "label": "Estados y comunidades del mundo Zhou",
+      "dateBasis": "Referencia espacial de700a.C.; sin observaciones anuales independientes.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-ZHOU-COMMUNITIES-YBC0700-R045.geojson",
+  "geometrySha256": "44d1e5d86329b172283a929800094f9760c95e604cd20d08d406af43e9595b53",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+    "year": -700,
+    "featureIds": [
+      15
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c"
+  },
+  "review": "0.45.0 · 2026-10-29",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Bibliografía regional, denominaciones y cronología de poblamiento por contrastar."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Zhoa",
+      "ABBREVN": "Zhoa",
+      "SUBJECTO": "Zhoa",
+      "TYPE": null,
+      "BORDERPRECISION": 1,
+      "PARTOF": "Zhoa"
+    }
+  ],
+  "sourceGrouping": [
+    "Zhoa"
+  ]
+}

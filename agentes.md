@@ -1,12 +1,12 @@
 # Historicmap · Manual de continuidad del proyecto
 
-Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **29 de octubre de 2026**. Versión del producto: **0.44.1**.
+Documento canónico para colaboradores humanos y asistentes de cualquier proveedor. Su propósito es permitir continuar el trabajo sin depender de una conversación previa. Fecha inicial: **21 de octubre de 2026**. Última actualización: **30 de octubre de 2026**. Versión del producto: **0.45.0**.
 
-**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección59; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
+**Continuidad operativa obligatoria:** leer y actualizar también [tareas.md](tareas.md). Contiene el encargo vigente, comprobaciones, tareas completadas, huecos concretos y siguiente paso. Una interrupción de sesión no convierte tareas pendientes en terminadas. Estado vigente en la sección60; las decisiones más recientes prevalecen sobre las descripciones históricas anteriores.
 
 ## 1. Identidad y visión
 
-**Encargo vigente0.44.1:** corregir el fallo de catálogo comunicado enCI para0.44.0 y enviar la reparación con toda la ampliación600–301a.C. conservada. No esperar Actions/Pages.
+**Encargo vigente0.45.0:** ampliar1000–601a.C., distinguir áreas culturales y presentar rótulos españoles conservando originales. No esperar Actions/Pages.
 
 Propietario y autor del proyecto: Alejandro Pico. Repositorio: https://github.com/AlejandroPico/Historicmap. Nombre del producto: Historicmap. Idioma inicial: español. Frase de identidad: «El tiempo tiene un lugar».
 
@@ -1295,3 +1295,31 @@ Comprobaciones y siguiente paso en tareas.md y DELIVERY-0.44.1. Mantener cuatro 
 Cierre local0.44.1:330 pruebas/70 suites correctas sobre los archivos sincronizados, antes de ejecutar el build de producción. npm run build completo (catálogo, tipos y Vite) correcto; otras dos pruebas del catálogo correctas después del build. Integridad135 recursos de datos/11 franjas tipográficas/9.060 medios correcta. Los135 recursos conservan sus SHA y metadatos anteriores salvo la versión; datos, geometrías y medios públicos no cambian. La ficha e índice deQin coinciden con sus22 registros y las dos etapas canónicas deHuiwen. Evidencia en CATALOG-FIX-0441.json. No se vuelven a adquirir datos ni se afirma haber ejecutado localmente los123 recorridos de navegador; se mantienen los cuatro grupos deCI.
 
 Al reanudar, comprobar HEAD/origin/main y tareas.md antes de repetir el envío. No esperar ni sondear Actions/Pages.
+
+## 60. 1000–601a.C., colores culturales y rótulos · 0.45.0
+
+54 dossiers canónicos,301 ventanas de autoridades,112 componentes originales,37 centros/43 registros,20 contextos y11 puntos de conflictos. Cuatro siglos de consulta anual; no400 reconstrucciones independientes.142 originales culturales fijados y144 fases nuevas;9.862 fases previas intactas. Fuentes, variantes y huecos concretos enRESEARCH-bc1000. Cronología civil sin cero y continuidad601/600. Los límites geológicos no se cambian. No asumir menos diversidad humana por menor documentación.
+
+El gris879a9a era color inicial de49 de69 áreas de600, no código histórico. map-presentation.ts deriva16 tonos editoriales estables porcontextKey para ese valor inicial o color ausente; respeta otros colores y el gris continental. withRenderIds aplica la presentación sin modificar originales, geometrías oidentidades. No convertir los tonos en ideologías o certeza. Política y culturas siguen activas por defecto e independientes.
+
+Rótulos propios enPaíses/*/rotulos.json; prepare-display-labels compila la vista española ydetecta conflictos. Fuente/originalName/sourceDisplayName permanecen consultables y buscables. Títulos políticos comunes se traducen; no declarar traducido exhaustivamente todo nombre propio del mundo. Registro ejecuta rótulos y catálogo, propagando errores. No depender del build para actualizar entidad.json antes de npm test.
+
+98 candidatos visuales inspeccionados:50 aceptados,48 descartados. Todos los nuevos aceptados tienen caption ycrédito; distinguir originales antiguos, atribuciones inciertas yrepresentaciones modernas. Rechazados Psamético dignatario, genio asirio atribuido aSarduri, diosBaal como rey, triada divina deOsorkon yel antiguo NebukadnessarII excluido. No repetiradopt045: restauraría candidatos descartados posteriormente.
+
+La precisión de siglo en nacimiento/muerte no identifica un año exacto: authority-identity-dates.py sólo usa precisión anual omayor sin before/after inciertos. No obtener reinados de fechas vitales. RegenciaGonghe es una administración discutida, no rey inventado. Egipto mantiene autoridades concurrentes ycronologías alternativas; AssyrianEgypt650–616 se atribuye aEgipto saíta mediante regla documentada, no ocupación tardía. Original intacto en su carpeta. Asiria/neoasiria comparten familia cromática sin ruptura arbitraria en la tanda.
+
+No repetir seed/curate/support/cultures/repair-life/adopt/finaldata/documents/last-authorities/correct-control045: son curaciones de una sola ejecución, no compiladores. Compilar desdePaíses, registrar yprobar después del último ajuste. Ventanas de adquisición admiten explícitamente400años dentro de una era, sin cero. No fabricar banderas antiguas, polígonos urbanos ofrentes a partir de nombres.
+
+Validación y cierre enDELIVERY-0.45.0 ytareas.md. No iniciar otro tramo sin encargo. Tras subir, no esperar ni sondearActions/Pages; el propietario confirma publicación.
+
+Cierre local0.45.0: 336 pruebas generales/71 suites correctas en dos hilos locales;25 comprobaciones Python correctas. Después del ajuste final de comparaciones,15 focales correctas, incluido catálogo ylos400 años nuevos. Tipos ycompilación de producción correctos; la última interfaz vuelve a comprobarse con tipos yVite sobre los datos de producción. Integridad142 recursos de datos/11 franjas tipográficas/9.106 medios porSHA-256.
+
+Ocho recorridos únicos de navegador correctos: tres nuevos ycinco regresiones (Brasil real tras facción española, fecha exacta117, continuidad1a.C./1d.C., comparación entre países/fechas ypaneles persistentes). Los nuevos se repiten; las capturas esperan al renderizado real al reactivar culturas. Tres capturas revisadas en escritorio yglobo móvil. No se ejecutan localmente los126 recorridos completos; se conservan cuatro grupos deCI.
+
+Conservación:1.531 identidades,19.961 cargos,1.040 símbolos y9.862 fases previas;142 originales culturales cotejados.135 recursos anteriores retenidos,127 idénticos ysiete nuevos. Tras normalizar el orden del manifiesto en la primera pasada, una regeneración completa sin red deja567 archivos comprobados sin diferencias. VéanseCONSERVATION-bc1000 eIDEMPOTENCE-bc1000.
+
+Comprobación de rótulos: verify-data reconoce entity-display-labels ycontrasta371 entradas con su rotulos.json propietario; no tratar ese catálogo comoGeoJSON. El comparador yla búsqueda usan presentación española sin cambiar los atributos internos de navegación. Las aserciones antiguas deBrazil se actualizan aBrasil conservando la búsqueda por el alias inglés yel clic real.
+
+Pendientes importantes deAsiria/Egipto650 yBabilonia626/600 en notas-de-revision.md de sus carpetas. La regla del componente separado no completa la partición del contorno imperial padre. No afirmar fronteras exactas o cobertura exhaustiva. No repetir zhou045 niotras curaciones. Entrega preparada para main. Al reanudar, cotejar HEAD y origin/main; no sondear Actions/Pages.
+
+Cotejo final del índice Git: 1.067 archivos nuevos/modificados coinciden con sus bytes locales; 9.259 recursos de manifiestos verificados por SHA-256 y blob Git (9.198 blobs previos intactos); 1.292 originales canónicos propios comprobados directamente en el índice. Se retira una vista automática duplicada de Urartu; las fuentes originales se conservan. Dos pruebas finales del catálogo correctas después de la regeneración. Los cuatro documentos de cierre se cotejan otra vez tras incorporar estas cifras. No se espera ni se sondea Actions/Pages.
