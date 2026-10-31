@@ -1,0 +1,99 @@
+{
+  "key": "HIST-Q128904",
+  "identity": {
+    "qid": "Q128904",
+    "name": "Elam"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc3000-0.47",
+  "coverageStart": -3000,
+  "coverageEnd": -2601,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -3000,
+      "end": -2601,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-0fa2c81a262533",
+      "name": "Susa · centro elamita",
+      "coordinates": [
+        48.26,
+        32.19
+      ],
+      "start": -3000,
+      "end": -2601,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.iranicaonline.org/articles/elam-i/",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-0fa2c81a262533-reference",
+      "name": "Susa · centro elamita",
+      "coordinates": [
+        48.26,
+        32.19
+      ],
+      "start": -3000,
+      "end": -2601,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.iranicaonline.org/articles/elam-i/",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Elam"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc3000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Elam"
+        ],
+        "start": -3000,
+        "end": -2601,
+        "label": "Elam · centros y poderes del tercer milenio",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc3000-bc2601.geojson",
+      "sha256": "8b34ea31ca035b9a60eff6bbf45ac1b4ec4b7b2179be85849725c15dfc621ae7",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        2
+      ],
+      "note": "Componentes, propiedades e índices originales intactos; sin incorporar geometrías culturales GPL a la política."
+    }
+  ],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

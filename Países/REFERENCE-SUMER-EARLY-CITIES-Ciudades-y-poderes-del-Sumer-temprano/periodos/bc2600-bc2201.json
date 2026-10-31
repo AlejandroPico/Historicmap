@@ -1,0 +1,70 @@
+{
+  "key": "REFERENCE-SUMER-EARLY-CITIES",
+  "identity": {
+    "qid": "",
+    "name": "Ciudades y poderes del Sumer temprano"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2600-0.47",
+  "coverageStart": -2600,
+  "coverageEnd": -2201,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2600,
+      "end": -2201,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2600-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Sumerian City-States"
+        ],
+        "start": -2600,
+        "end": -2335,
+        "label": "Ciudades y poderes del Sumer temprano",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc2600-bc2201.geojson",
+      "sha256": "4a7639ffd1b42b9c92b4056b242f7627922e8f0ff308f575eca13c39a5f80f94",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        8,
+        10,
+        13
+      ],
+      "note": "Componentes, propiedades e índices originales intactos; sin incorporar geometrías culturales GPL a la política."
+    }
+  ],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

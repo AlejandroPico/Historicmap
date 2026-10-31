@@ -1,0 +1,194 @@
+{
+  "key": "LARSA-KINGDOM",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Larsa"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [
+    {
+      "role": "Rey de Larsa · cronología media",
+      "titles": [
+        "Naplanum"
+      ],
+      "documentedWindow": [
+        -2025,
+        -2005
+      ]
+    },
+    {
+      "role": "Rey de Larsa · cronología media",
+      "titles": [
+        "Emisum"
+      ],
+      "documentedWindow": [
+        -2004,
+        -1977
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q1291348",
+      "name": "Naplanum",
+      "role": "Rey de Larsa · cronología media",
+      "start": "-2025-01-01",
+      "end": "-2005-12-31",
+      "precision": 9,
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "note": "Cronología convencional aproximada; no fechas vitales. No se infiere un poder uniforme de la extensión del contorno de compilación. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2025,
+        -2005
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    },
+    {
+      "person": "Q1559809",
+      "name": "Emisum",
+      "role": "Rey de Larsa · cronología media",
+      "start": "-2004-01-01",
+      "end": "-2001-12-31",
+      "precision": 9,
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "note": "Cronología convencional aproximada; no fechas vitales. No se infiere un poder uniforme de la extensión del contorno de compilación. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2004,
+        -1977
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "monarchy",
+        "city-state",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-4f6f23f2661377",
+      "name": "Larsa · Tell Senkereh",
+      "coordinates": [
+        45.85,
+        31.28
+      ],
+      "start": -2025,
+      "end": -2001,
+      "capital": true,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-4f6f23f2661377-reference",
+      "name": "Larsa · Tell Senkereh",
+      "coordinates": [
+        45.85,
+        31.28
+      ],
+      "start": -2025,
+      "end": -2001,
+      "capital": true,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Reino de Larsa"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Emisum",
+        "title": "Emisum",
+        "person": "Q1559809",
+        "name": "Emisum",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Emisum",
+        "identityResolution": {
+          "requested": "Emisum",
+          "canonical": "Emisum",
+          "qid": "Q1559809"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1559809",
+        "title": "Emisum",
+        "source": "https://en.wikipedia.org/wiki/Emisum",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Larsa",
+            "raw": "c. 2004-1977 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Naplanum",
+        "title": "Naplanum",
+        "person": "Q1291348",
+        "name": "Naplanum",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Naplanum",
+        "identityResolution": {
+          "requested": "Naplanum",
+          "canonical": "Naplanum",
+          "qid": "Q1291348"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1291348",
+        "title": "Naplanum",
+        "source": "https://en.wikipedia.org/wiki/Naplanum",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "Ruler of Larsa",
+            "raw": "c. 2025-2004 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q1291348",
+      "title": "Kings Larsa Louvre AO7025.jpg",
+      "reason": "Inscripción, objeto, mapa o escena sin una efigie individual verificada y legible del gobernante; no adoptarlo como retrato por mera asociación temática."
+    }
+  ]
+}

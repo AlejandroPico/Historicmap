@@ -1,0 +1,44 @@
+{
+  "key": "EGYPT-EARLY-THEBAN-COURT",
+  "name": "Egipto · corte tebana temprana",
+  "qid": "",
+  "aliases": [
+    "Egipto · corte tebana temprana",
+    "Upper Egypt"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "EGYPT-EARLY-THEBAN-COURT"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc2200.geojson",
+      "recordId": "clio-19",
+      "start": -2200,
+      "end": -2101,
+      "name": "Upper Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc2200.geojson",
+      "recordId": "clio-24",
+      "start": -2100,
+      "end": -2001,
+      "name": "Upper Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

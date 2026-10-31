@@ -4,7 +4,7 @@ import extension from '../public/data/historical-1880-administrations.json';
 export type Administration={id:string;names:string[];codes:string[];admin:string;localKey:string;start:string;end:string|null;label:string;note:string;source:string;headOfStateOnly:boolean};
 export function administrationFor(p:Record<string,any>,year:number):Administration|undefined{
  if(p.collectiveAdministration)return; // A grouped occupation is not a single national administrator.
- if(year<-2000||year>Number(catalogue.referenceDate.slice(0,4)))return;
+ if(year<-3000||year>Number(catalogue.referenceDate.slice(0,4)))return;
  const name=String(p.originalName??p.country_name??p.name??''),code=String(p.entityCode||p.code||'');
  const record=[...extension.records,...catalogue.records].find(r=>(r.names.includes(name)||(r.codes as string[]).includes(code))&&compareDates(r.start,`${isoYear(year)}-12-31`)<=0&&(!r.end||compareDates(r.end,`${isoYear(year)}-01-01`)>0));
  if(record)return record;

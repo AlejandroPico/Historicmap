@@ -1,0 +1,71 @@
+{
+  "key": "REFERENCE-POST-AKKADIC-POWERS",
+  "identity": {
+    "qid": "",
+    "name": "Mesopotamia · fragmentación posterior a Akkad"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [],
+  "contexts": [
+    {
+      "id": "event047-6-2200",
+      "kind": "transition",
+      "title": "Fragmentación posterior a Akkad",
+      "start": "-2153-01-01",
+      "end": "-2100-01-01",
+      "text": "El contorno deimperio que continúa en la compilación no demuestra supervivencia deun Estado acadio unificado. Se documentan poderes regionales y nuevas hegemonías.",
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "sourceLabel": "Testimonio y cronología convencional",
+      "confidence": "documentary-reference",
+      "tags": [
+        "transition"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Akkadian Empire"
+        ],
+        "start": -2153,
+        "end": -2101,
+        "label": "Mesopotamia · contorno heredado tras la fragmentación acadia",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado."
+      }
+    }
+  ],
+  "geography": [],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

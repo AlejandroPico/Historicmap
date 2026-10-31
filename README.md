@@ -2,17 +2,19 @@
 
 **El tiempo tiene un lugar.** Atlas interactivo de la evolución de la Tierra y de las sociedades humanas, con mapa 2D, globo 3D y navegación temporal.
 
-Versión actual: **0.46.0** · 30 de octubre de 2026. Autor del proyecto: Alejandro Pico.
+Versión actual: **0.47.0** · 31 de octubre de 2026. Autor del proyecto: Alejandro Pico.
 
 Catálogo organizado: **[Países y entidades históricas](Países/INDICE.md)**, con carpetas, resúmenes, banderas, mandatos y referencias a sus archivos. [Cómo añadir documentos o audio por entidad y fecha](Países/README.md).
 
 **[Abrir el atlas publicado](https://alejandropico.github.io/Historicmap/)**
 
-Revisión vigente: **pueblos y regiones de2000a.C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-bc2000-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
+Revisión vigente: **pueblos y regiones de 3000 a. C. al presente**, con consulta de referencias preparada hasta2027. [Método](docs/CULTURAL-COVERAGE.md), [revisión1900–presente y límites](docs/CULTURAL-MODERN-REVIEW.md), [inventario nominal](docs/CULTURAL-REVIEW-bc3000-2027.json) y [continuidad](tareas.md). Las áreas históricas/tradicionales no son una distribución actual de población ni fronteras anuales. El máximo sigue al reloj;2027 no añade observaciones futuras.
+
+Ampliación **3000–2001 a. C.**: [fuentes, poderes y culturas del tercer milenio](docs/RESEARCH-bc3000.md). Cronologías alternativas, testimonios regios sin reinados inventados y transición 2001/2000 conservada. Las imágenes son representaciones documentales con atribución, sin banderas nacionales supuestas.
 
 Ampliación **2000–1001 a. C.**, conservando las fases posteriores y la continuidad 1 a. C./1 d. C. sin cero: [fuentes, autoridades, culturas y límites](docs/RESEARCH-bc2000.md). Las áreas culturales tienen tonos estables ylos rótulos revisados se presentan enespañol; se conservan nombres originales para búsqueda yfuentes. Cartografía política yáreas culturales se activan independientemente enCapas yFiltros, ambas al iniciar.
 
-[Validación y conservación 0.46.0](docs/DELIVERY-0.46.0.md). La publicación enPages queda pendiente de comprobación del propietario.
+[Validación y conservación 0.47.0](docs/DELIVERY-0.47.0.md). La publicación enPages queda pendiente de comprobación del propietario.
 
 ## Empezar
 

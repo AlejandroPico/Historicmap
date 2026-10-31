@@ -1,0 +1,87 @@
+{
+  "key": "REFERENCE-SUMER-EARLY-CITIES",
+  "name": "Ciudades y poderes del Sumer temprano",
+  "qid": "",
+  "aliases": [
+    "Ciudades y poderes del Sumer temprano",
+    "Sumerian City-States"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "REFERENCE-SUMER-EARLY-CITIES"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc3000.geojson",
+      "recordId": "clio-3",
+      "start": -3000,
+      "end": -2701,
+      "name": "Sumerian City-States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc3000.geojson",
+      "recordId": "clio-8",
+      "start": -2700,
+      "end": -2601,
+      "name": "Sumerian City-States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc2600.geojson",
+      "recordId": "clio-8",
+      "start": -2600,
+      "end": -2501,
+      "name": "Sumerian City-States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc2600.geojson",
+      "recordId": "clio-10",
+      "start": -2500,
+      "end": -2301,
+      "name": "Sumerian City-States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc2600.geojson",
+      "recordId": "clio-13",
+      "start": -2300,
+      "end": -2251,
+      "name": "Sumerian City-States",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc2200.geojson",
+      "recordId": "clio-25",
+      "start": -2100,
+      "end": -2001,
+      "name": "Sumerian City-States",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-SUMER-COMMUNITIES-YBC3000-R047:0",
+      "contextKey": "REFERENCE-SUMER-COMMUNITIES",
+      "start": -3000,
+      "end": -2001,
+      "sourceYear": -3000,
+      "canonicalFile": "Países/REFERENCE-SUMER-EARLY-CITIES-Ciudades-y-poderes-del-Sumer-temprano/poblamiento/REFERENCE-SUMER-COMMUNITIES-YBC3000-R047.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

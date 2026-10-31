@@ -1,0 +1,207 @@
+{
+  "key": "UR-FIRST-DYNASTY",
+  "identity": {
+    "qid": "",
+    "name": "Ur · primera dinastía"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2600-0.47",
+  "coverageStart": -2600,
+  "coverageEnd": -2201,
+  "candidates": [
+    {
+      "role": "Rey de Ur · datación aproximada",
+      "titles": [
+        "Mesannepada"
+      ],
+      "documentedWindow": [
+        -2560,
+        -2525
+      ]
+    },
+    {
+      "role": "Rey de Ur · datación aproximada",
+      "titles": [
+        "Meskiagnun"
+      ],
+      "documentedWindow": [
+        -2525,
+        -2485
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q845747",
+      "name": "Mesanepada",
+      "role": "Rey de Ur · datación aproximada",
+      "start": "-2560-01-01",
+      "end": "-2525-12-31",
+      "precision": 9,
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "note": "Cronología convencional aproximada; no fechas vitales. No se infiere un poder uniforme de la extensión del contorno de compilación. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2560,
+        -2525
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    },
+    {
+      "person": "Q2393735",
+      "name": "Meskiangnana",
+      "role": "Rey de Ur · datación aproximada",
+      "start": "-2485-01-01",
+      "end": "-2450-12-31",
+      "precision": 9,
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "note": "Cronología convencional aproximada; no fechas vitales. No se infiere un poder uniforme de la extensión del contorno de compilación. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2485,
+        -2450
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2600,
+      "end": -2201,
+      "tags": [
+        "monarchy",
+        "city-state",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-d394459c15c25a",
+      "name": "Ur · centro dinástico temprano",
+      "coordinates": [
+        46.1,
+        30.96
+      ],
+      "start": -2600,
+      "end": -2335,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-d394459c15c25a-reference",
+      "name": "Ur · centro dinástico temprano",
+      "coordinates": [
+        46.1,
+        30.96
+      ],
+      "start": -2600,
+      "end": -2335,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Ur · primera dinastía"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Mesannepada",
+        "title": "Mesannepada",
+        "person": "Q845747",
+        "name": "Mesanepada",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mesannepada",
+        "identityResolution": {
+          "requested": "Mesannepada",
+          "canonical": "Mesannepada",
+          "qid": "Q845747"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q845747",
+        "title": "Mesannepada",
+        "source": "https://en.wikipedia.org/wiki/Mesannepada",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Ur",
+            "raw": "c. 2550 – c. 2525 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Sumer",
+            "raw": "ca. 26th century BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ensí of Ur",
+            "raw": "c. 2550 BC – c. 2525 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Meskiagnun",
+        "title": "Meskiagnun",
+        "person": "Q2393735",
+        "name": "Meskiangnana",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Meskiagnun",
+        "identityResolution": {
+          "requested": "Meskiagnun",
+          "canonical": "Meskiagnun",
+          "qid": "Q2393735"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q2393735",
+        "title": "Meskiagnun",
+        "source": "https://en.wikipedia.org/wiki/Meskiagnun",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Ur",
+            "raw": "c. 2485 - c. 2450 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "Ensí of Ur",
+            "raw": "c. 2485 - 2450 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

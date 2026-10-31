@@ -59,3 +59,10 @@ La ficha regional tiene estructura propia: tipo, interpretación, fechas, incert
 Entradas canónicas en `Países/<entidad>/poblamiento/*.json` y sus originales GeoJSON. `prepare-cultural-regions.py` compila los dos recursos públicos y la auditoría sin consultas remotas. El índice deriva sus ventanas de los dossiers; no se codifica un siglo fijo como cobertura general. Regenerar el catálogo de Países después de cambiar los datos, no editar sus vistas generadas.
 
 Pendientes: más bibliografía independiente, subdivisiones locales, culturas omitidas por las compilaciones, contornos de fecha propia y fases de contacto/expansión. Los espacios grises que siguen sin documentación no se atribuyen a un pueblo por suposición. La ampliación conjunta 1200–1700 ya tiene fases propias. Mantener las revisiones posteriores a 1700 como encargos separados y proteger los nombres ya incorporados al cambiar de fuente.
+
+
+## Extensión de 3000–2001 a. C. · 0.47.0
+
+Se conserva toda la cobertura anterior y se añaden 25 grupos originales nombrados de la referencia de 3000, distribuidos en 31 fases de consulta. La compilación fijada no contiene una referencia de 2500; no se proyecta el mapa de 2000 hacia atrás. Las denominaciones anacrónicas, fases de legado y cambios convencionales del Indo, Kerma y otras tradiciones se cualifican expresamente. Los 113 componentes sin nombre no se convierten en culturas supuestas ni su vacío implica despoblación.
+
+[Investigación y límites](RESEARCH-bc3000.md), [inventario global vigente](CULTURAL-REVIEW-bc3000-2027.json) y [originales del tramo](CULTURAL-EXTENSION-bc3000.json). Las áreas culturales y la cartografía política conservan sus interruptores independientes, ambos activos inicialmente. Persisten carencias importantes de cartografía arqueológica regional.

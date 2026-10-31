@@ -1,0 +1,167 @@
+{
+  "key": "HIST-Q128904",
+  "identity": {
+    "qid": "Q128904",
+    "name": "Elam"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [
+    {
+      "role": "Soberano de Awan y Susa · atribución cronológica aproximada",
+      "titles": [
+        "Puzur-Inshushinak"
+      ],
+      "documentedWindow": [
+        -2150,
+        -2100
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q878401",
+      "name": "Kutik-Inshushinnak",
+      "role": "Soberano de Awan y Susa · atribución cronológica aproximada",
+      "start": "-2125-01-01",
+      "end": "-2110-12-31",
+      "precision": 9,
+      "source": "https://www.iranicaonline.org/articles/elam-i/",
+      "note": "Ventana convencional aproximada 2125–2110 de Puzur/Kutik-Inshushinak. No inferida devida ni prueba de control uniforme; los sincronismos con Ur-Namma yGudea tienen alternativas. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2125,
+        -2110
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-b2d89e265630d0",
+      "name": "Susa · centro elamita",
+      "coordinates": [
+        48.26,
+        32.19
+      ],
+      "start": -2200,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.iranicaonline.org/articles/elam-i/",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-b2d89e265630d0-reference",
+      "name": "Susa · centro elamita",
+      "coordinates": [
+        48.26,
+        32.19
+      ],
+      "start": -2200,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.iranicaonline.org/articles/elam-i/",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Elam"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Elam"
+        ],
+        "start": -2200,
+        "end": -2001,
+        "label": "Elam · centros y poderes del tercer milenio",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc2200-bc2001.geojson",
+      "sha256": "16e0c68ef7d68ae3461560ba80a08c6969704b2fbf4276883145e80d5ea3cc86",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        20,
+        23
+      ],
+      "note": "Componentes, propiedades e índices originales intactos; sin incorporar geometrías culturales GPL a la política."
+    }
+  ],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Puzur-Inshushinak",
+        "title": "Puzur-Inshushinak",
+        "person": "Q878401",
+        "name": "Kutik-Inshushinnak",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Puzur-Inshushinak",
+        "identityResolution": {
+          "requested": "Puzur-Inshushinak",
+          "canonical": "Puzur-Inshushinak",
+          "qid": "Q878401"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q878401",
+        "title": "Puzur-Inshushinak",
+        "source": "https://en.wikipedia.org/wiki/Puzur-Inshushinak",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Elam",
+            "raw": "c. 2125 – c. 2110 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q878401",
+      "title": "Statue of Puzur-Inshushinak with inscription in his name (lower half).jpg",
+      "reason": "Inscripción, objeto, mapa o escena sin una efigie individual verificada y legible del gobernante; no adoptarlo como retrato por mera asociación temática."
+    }
+  ]
+}

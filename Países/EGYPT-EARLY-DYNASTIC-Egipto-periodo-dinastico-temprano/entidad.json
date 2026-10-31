@@ -1,0 +1,63 @@
+{
+  "key": "EGYPT-EARLY-DYNASTIC",
+  "name": "Egipto · periodo dinástico temprano",
+  "qid": "",
+  "aliases": [
+    "Early Dynastic Period of Egypt",
+    "Egipto · periodo dinástico temprano"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "EGYPT-EARLY-DYNASTIC"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc3000.geojson",
+      "recordId": "clio-4",
+      "start": -3000,
+      "end": -2701,
+      "name": "Early Dynastic Period of Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc3000.geojson",
+      "recordId": "clio-7",
+      "start": -2700,
+      "end": -2601,
+      "name": "Early Dynastic Period of Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc2600.geojson",
+      "recordId": "clio-7",
+      "start": -2600,
+      "end": -2501,
+      "name": "Early Dynastic Period of Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "REFERENCE-EGYPT-21ST-DYNASTY-WORLD-YBC3000-R047:0",
+      "contextKey": "REFERENCE-EGYPT-21ST-DYNASTY-WORLD",
+      "start": -3000,
+      "end": -2001,
+      "sourceYear": -3000,
+      "canonicalFile": "Países/EGYPT-EARLY-DYNASTIC-Egipto-periodo-dinastico-temprano/poblamiento/REFERENCE-EGYPT-21ST-DYNASTY-WORLD-YBC3000-R047.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

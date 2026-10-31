@@ -1,0 +1,124 @@
+{
+  "key": "EGYPT-HERACLEOPOLITAN-POWERS",
+  "identity": {
+    "qid": "",
+    "name": "Egipto · poderes de Heracleópolis y del norte",
+    "notes": [
+      {
+        "start": "-2181-01-01",
+        "end": "-2001-12-31",
+        "text": "La fragmentación no equivale a ausencia de autoridades. Se documentan poderes menfitas y heracleopolitanos (Khety y Merikare, con orden y fechas discutidos) y la corte tebana de Antef I, Antef II y Antef III. No se asignan fechas anuales falsas a una lista cuya cronología absoluta no se ha resuelto; la corte de Mentuhotep II se consulta aparte.",
+        "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/1stintermediateperkings.html"
+      }
+    ]
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-35384dca9e2def",
+      "name": "Heracleópolis · referencia de los poderes septentrionales",
+      "coordinates": [
+        30.93,
+        29.09
+      ],
+      "start": -2160,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-35384dca9e2def-reference",
+      "name": "Heracleópolis · referencia de los poderes septentrionales",
+      "coordinates": [
+        30.93,
+        29.09
+      ],
+      "start": -2160,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Egipto · poderes de Heracleópolis y del norte"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event047-2-2200",
+      "kind": "institution",
+      "title": "Primer Periodo Intermedio",
+      "start": "-2181-01-01",
+      "end": "-2000-01-01",
+      "text": "Poderes regionales y cortes; no vacío humano, caos uniforme demostrado ni una lista fiable de setenta reyes que gobernasen setenta días.",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/1stintermediateperkings.html",
+      "sourceLabel": "Testimonio y cronología convencional",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lower Egypt"
+        ],
+        "start": -2181,
+        "end": -2001,
+        "label": "Egipto · poderes de Heracleópolis y del norte",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Primer Periodo Intermedio: poderes menfitas y heracleopolitanos, no una dinastía IX homogénea desde 2181. La fuente no permite cartografiar cada corte ni la reunificación tebana con precisión anual.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc2200-bc2001.geojson",
+      "sha256": "5aa954be7186324a31d2df7dd7f5c688db534333d26ab489b706b04f85309b2e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        18,
+        26
+      ],
+      "note": "Componentes, propiedades e índices originales intactos; sin incorporar geometrías culturales GPL a la política."
+    }
+  ],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

@@ -3,6 +3,7 @@
   "name": "Coalición ateniense",
   "qid": "Q33745",
   "aliases": [
+    "Athenian Coalition",
     "Coalición ateniense"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
@@ -32,7 +33,16 @@
     }
   ],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc300.geojson",
+      "recordId": "clio-628",
+      "start": -264,
+      "end": -257,
+      "name": "Athenian Coalition",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
   "relatedData": [
     "../../public/data/country-history.json",
     "../../public/data/historical-context.json",

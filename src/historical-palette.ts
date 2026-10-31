@@ -23,6 +23,8 @@ export const historicalPalette=[
  {key:'MAURYA',color:'#c77e46',names:['Maurya Empire','Mauryan Empire']},
  {key:'GUPTA',color:'#c39f4c',names:['Gupta Empire']},
  {key:'MUGHAL',color:'#45845b',names:['Mughal Empire','Mughals']},
+ {key:'AKKADIAN-EMPIRE',color:'#b47759',names:['Akkadian Empire','Imperio acadio']},
+ {key:'UR-III',color:'#b79a68',names:['Third Dynasty of Ur','Ur III']},
  {key:'HITTITE',color:'#986657',names:['Hittites','Hittite Kingdom','Reino hitita']},
  {key:'SHANG',color:'#c6a04f',names:['Shang Dynasty','Shang dynasty','Dinastía Shang']},
  {key:'WESTERN-ZHOU-COURT',color:'#bba569',names:['Zhou Dynasty','Zhou occidental']},

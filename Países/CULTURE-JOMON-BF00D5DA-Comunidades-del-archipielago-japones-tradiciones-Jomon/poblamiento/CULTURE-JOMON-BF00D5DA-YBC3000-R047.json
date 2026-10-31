@@ -1,0 +1,70 @@
+{
+  "key": "CULTURE-JOMON-BF00D5DA-YBC3000-R047",
+  "contextKey": "CULTURE-JOMON-BF00D5DA",
+  "ownerKey": "CULTURE-JOMON-BF00D5DA",
+  "name": "Comunidades del archipiélago japonés · tradiciones Jōmon",
+  "originalNames": [
+    "Jōmon"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de3000a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -3000,
+    -2001
+  ],
+  "interpretation": "Área de compilación que permite consultar poblaciones y tradiciones, no un Estado unitario, frontera étnica exclusiva ni certeza de ocupación uniforme durante mil años.",
+  "spatialUncertainty": "Coordenadas y propiedades originales conservadas; resolución desigual, sin costas paleogeográficas ni cartas exhaustivas de yacimientos. No completar zonas sin nombre mediante etnias supuestas.",
+  "temporalUncertainty": "Una referencia de 3000 se consulta hasta 2001 con cambios de fase explícitos. No existe mapa 2500 en la revisión fijada; no se toma prestado el mapa 2000 para fechas anteriores.",
+  "references": [
+    {
+      "title": "Historical Basemaps 3000 a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc3000.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    135.15886,
+    35.38748
+  ],
+  "phases": [
+    {
+      "start": -3000,
+      "end": -2001,
+      "label": "Comunidades del archipiélago japonés · tradiciones Jōmon",
+      "dateBasis": "Referencia cartográfica de 3000 a.C.; ventana de consulta, no mil observaciones anuales de la población.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-JOMON-BF00D5DA-YBC3000-R047.geojson",
+  "geometrySha256": "67cf24163e1e59543a96063c984d143a16172ac7dc05753020fb877c744394ab",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc3000.geojson",
+    "year": -3000,
+    "featureIds": [
+      13
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "2cf107e2f0d4f9b5427b293f19b11fffe7c1134f52320df4f94b4889b978f033"
+  },
+  "review": "0.47.0 · 2026-10-31",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cartografía arqueológica y cronologías regionales; las áreas sin rótulo no demuestran despoblación."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Jōmon",
+      "ABBREVN": "Jōmon",
+      "type": "culture",
+      "weblnks": null,
+      "SUBJECTO": "Jōmon",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Jōmon"
+    }
+  ],
+  "sourceGrouping": [
+    "Jōmon"
+  ]
+}

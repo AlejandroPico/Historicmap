@@ -1,0 +1,109 @@
+{
+  "key": "EGYPT-EARLY-DYNASTIC",
+  "identity": {
+    "qid": "",
+    "name": "Egipto · periodo dinástico temprano",
+    "notes": [
+      {
+        "start": "-3000-01-01",
+        "end": "-2687-12-31",
+        "text": "Dinastías I–II: Aha, Djer, Djet, Merneith, Den, Anedjib, Semerkhet y Qaa; después Hotepsejemuy, Nebra, Nynetjer, Peribsen y Jasejemuy, entre otros. Es una secuencia documentada, no gobernantes simultáneos ni mandatos anuales de certeza suficiente. La posición de algunos reyes y el carácter de la regencia de Merneith requieren cautela.",
+        "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/archaic.egypt.kings.html"
+      }
+    ]
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc3000-0.47",
+  "coverageStart": -3000,
+  "coverageEnd": -2601,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -3000,
+      "end": -2601,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-61d38c8981036e",
+      "name": "Abidos · necrópolis y testimonios dinásticos",
+      "coordinates": [
+        31.91,
+        26.18
+      ],
+      "start": -3000,
+      "end": -2687,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/archaic.egypt.kings.html",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event047-0-3000",
+      "kind": "institution",
+      "title": "Dinastías tempranas: testimonios y listas",
+      "start": "-3000-01-01",
+      "end": "-2686-01-01",
+      "text": "Sellos, tumbas e inscripciones documentan la realeza. La lista de nombres no acredita un día de unificación ni una sucesión absoluta de precisión anual.",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/archaic.egypt.kings.html",
+      "sourceLabel": "Testimonio y cronología convencional",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc3000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Early Dynastic Period of Egypt"
+        ],
+        "start": -3000,
+        "end": -2687,
+        "label": "Egipto · periodo dinástico temprano",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc3000-bc2601.geojson",
+      "sha256": "9638cd05b3ec2e28e3fc0184717daf8be1ebf820c09eedf390c765990652e5ab",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        4,
+        7
+      ],
+      "note": "Componentes, propiedades e índices originales intactos; sin incorporar geometrías culturales GPL a la política."
+    }
+  ],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

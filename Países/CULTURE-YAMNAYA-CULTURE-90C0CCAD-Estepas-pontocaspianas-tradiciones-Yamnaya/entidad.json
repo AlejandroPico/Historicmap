@@ -1,0 +1,53 @@
+{
+  "key": "CULTURE-YAMNAYA-CULTURE-90C0CCAD",
+  "name": "Estepas pontocaspianas · tradiciones Yamnaya",
+  "qid": "",
+  "aliases": [
+    "Estepas pontocaspianas · tradiciones Yamnaya",
+    "Yamnaya culture"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": null,
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "world_bc3000.geojson",
+      "recordId": 135,
+      "start": null,
+      "end": null,
+      "name": "Yamnaya culture",
+      "status": null
+    }
+  ],
+  "culturalRecords": [
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-YAMNAYA-CULTURE-90C0CCAD-YBC3000-R047:0",
+      "contextKey": "CULTURE-YAMNAYA-CULTURE-90C0CCAD",
+      "start": -3000,
+      "end": -2600,
+      "sourceYear": -3000,
+      "canonicalFile": "Países/CULTURE-YAMNAYA-CULTURE-90C0CCAD-Estepas-pontocaspianas-tradiciones-Yamnaya/poblamiento/CULTURE-YAMNAYA-CULTURE-90C0CCAD-YBC3000-R047.json"
+    },
+    {
+      "file": "cultural-regions.geojson",
+      "recordId": "CULTURE-YAMNAYA-CULTURE-90C0CCAD-YBC3000-R047:1",
+      "contextKey": "CULTURE-YAMNAYA-CULTURE-90C0CCAD",
+      "start": -2599,
+      "end": -2001,
+      "sourceYear": -3000,
+      "canonicalFile": "Países/CULTURE-YAMNAYA-CULTURE-90C0CCAD-Estepas-pontocaspianas-tradiciones-Yamnaya/poblamiento/CULTURE-YAMNAYA-CULTURE-90C0CCAD-YBC3000-R047.json"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

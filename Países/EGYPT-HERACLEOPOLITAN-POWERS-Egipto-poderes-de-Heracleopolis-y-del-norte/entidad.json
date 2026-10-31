@@ -1,0 +1,44 @@
+{
+  "key": "EGYPT-HERACLEOPOLITAN-POWERS",
+  "name": "Egipto · poderes de Heracleópolis y del norte",
+  "qid": "",
+  "aliases": [
+    "Egipto · poderes de Heracleópolis y del norte",
+    "Lower Egypt"
+  ],
+  "generatedBy": "scripts/prepare-country-catalog.mjs",
+  "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
+  "sourceIdentity": {
+    "file": "../../public/data/identities.json",
+    "key": "EGYPT-HERACLEOPOLITAN-POWERS"
+  },
+  "flags": [],
+  "symbolReferences": [],
+  "leaders": [],
+  "portraitVariants": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc2200.geojson",
+      "recordId": "clio-18",
+      "start": -2200,
+      "end": -2101,
+      "name": "Lower Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc2200.geojson",
+      "recordId": "clio-26",
+      "start": -2100,
+      "end": -2001,
+      "name": "Lower Egypt",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
+  "relatedData": [
+    "../../public/data/country-history.json",
+    "../../public/data/historical-context.json",
+    "../../public/data/affiliations.json"
+  ],
+  "mediaRoot": "../../public/",
+  "extensionFile": "recursos.json"
+}

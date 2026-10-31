@@ -1,0 +1,80 @@
+{
+  "key": "REFERENCE-TAIWAN-NEOLITHIC-TRANSFORMATIONS-YBC3000-R047",
+  "contextKey": "REFERENCE-TAIWAN-NEOLITHIC-TRANSFORMATIONS",
+  "ownerKey": "REFERENCE-TAIWAN-NEOLITHIC-TRANSFORMATIONS",
+  "name": "Taiwán · tradiciones neolíticas de Dapenkeng",
+  "originalNames": [
+    "Dapenkeng culture",
+    "Dakapeng culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia regional de la compilación de3000a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -3000,
+    -2001
+  ],
+  "interpretation": "Área de compilación que permite consultar poblaciones y tradiciones, no un Estado unitario, frontera étnica exclusiva ni certeza de ocupación uniforme durante mil años. El final convencional tiene variantes regionales: la fase posterior está marcada como contexto histórico, no como cultura arqueológica persistente.",
+  "spatialUncertainty": "Coordenadas y propiedades originales conservadas; resolución desigual, sin costas paleogeográficas ni cartas exhaustivas de yacimientos. No completar zonas sin nombre mediante etnias supuestas.",
+  "temporalUncertainty": "Una referencia de 3000 se consulta hasta 2001 con cambios de fase explícitos. No existe mapa 2500 en la revisión fijada; no se toma prestado el mapa 2000 para fechas anteriores.",
+  "references": [
+    {
+      "title": "Historical Basemaps 3000 a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc3000.geojson"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    120.8654,
+    23.52978
+  ],
+  "phases": [
+    {
+      "start": -3000,
+      "end": -2500,
+      "label": "Taiwán · tradiciones neolíticas de Dapenkeng",
+      "dateBasis": "Referencia cartográfica de 3000 a.C.; ventana de consulta, no mil observaciones anuales de la población.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -2499,
+      "end": -2001,
+      "label": "Taiwán · tradiciones neolíticas de Dapenkeng · legado y transformaciones",
+      "dateBasis": "Contexto histórico regional tras la duración convencional aproximada de la tradición; no prueba de persistencia cultural ni nueva observación.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -2500
+    }
+  ],
+  "geometryFile": "REFERENCE-TAIWAN-NEOLITHIC-TRANSFORMATIONS-YBC3000-R047.geojson",
+  "geometrySha256": "e100f694ac5f5ebf5b147dba4e1e7430281c690fd5ac0aff63e0ffe84f2b92ef",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc3000.geojson",
+    "year": -3000,
+    "featureIds": [
+      0
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "2cf107e2f0d4f9b5427b293f19b11fffe7c1134f52320df4f94b4889b978f033"
+  },
+  "review": "0.47.0 · 2026-10-31",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cartografía arqueológica y cronologías regionales; las áreas sin rótulo no demuestran despoblación."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Dapenkeng culture",
+      "ABBREVN": "Dapenkeng",
+      "type": "culture",
+      "weblnks": "https://en.wikipedia.org/wiki/Dapenkeng_culture",
+      "SUBJECTO": "Dakapeng culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Dakapeng culture"
+    }
+  ],
+  "sourceGrouping": [
+    "Dakapeng culture"
+  ]
+}

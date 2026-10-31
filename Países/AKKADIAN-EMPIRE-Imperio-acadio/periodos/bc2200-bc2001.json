@@ -1,0 +1,292 @@
+{
+  "key": "AKKADIAN-EMPIRE",
+  "identity": {
+    "qid": "",
+    "name": "Imperio acadio"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [
+    {
+      "role": "Rey de Akkad · cronología media convencional",
+      "titles": [
+        "Shar-Kali-Sharri"
+      ],
+      "documentedWindow": [
+        -2217,
+        -2193
+      ]
+    },
+    {
+      "role": "Rey de Akkad · cronología media convencional",
+      "titles": [
+        "Dudu of Akkad"
+      ],
+      "documentedWindow": [
+        -2189,
+        -2169
+      ]
+    },
+    {
+      "role": "Rey de Akkad · cronología media convencional",
+      "titles": [
+        "Shu-turul"
+      ],
+      "documentedWindow": [
+        -2168,
+        -2154
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q349653",
+      "name": "Sharkalisharri",
+      "role": "Rey de Akkad · cronología media convencional",
+      "start": "-2200-01-01",
+      "end": "-2193-12-31",
+      "precision": 9,
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "note": "Cronología convencional aproximada; no fechas vitales. No se infiere un poder uniforme de la extensión del contorno de compilación. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2217,
+        -2193
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual.",
+      "startIsCoverageBoundary": true
+    },
+    {
+      "person": "Q560137",
+      "name": "Dudu de Acad",
+      "role": "Rey de Akkad · cronología media convencional",
+      "start": "-2189-01-01",
+      "end": "-2169-12-31",
+      "precision": 9,
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "note": "Cronología convencional aproximada; no fechas vitales. No se infiere un poder uniforme de la extensión del contorno de compilación. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2189,
+        -2169
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    },
+    {
+      "person": "Q627980",
+      "name": "Shu-turul",
+      "role": "Rey de Akkad · cronología media convencional",
+      "start": "-2168-01-01",
+      "end": "-2154-12-31",
+      "precision": 9,
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "note": "Cronología convencional aproximada; no fechas vitales. No se infiere un poder uniforme de la extensión del contorno de compilación. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2168,
+        -2154
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Akkadian Empire"
+        ],
+        "start": -2200,
+        "end": -2154,
+        "label": "Imperio acadio",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado.",
+        "colorFamily": "AKKADIAN-EMPIRE"
+      }
+    },
+    {
+      "files": [
+        "historical-bc2200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Sumerian City-States"
+        ],
+        "start": -2200,
+        "end": -2154,
+        "label": "Baja Mesopotamia · expansión acadia (control variable)",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado.",
+        "colorFamily": "AKKADIAN-EMPIRE"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc2200-bc2001.geojson",
+      "sha256": "164b43f81cc2350e0d90e2763ea9ca533c965352ba560f7a3edf36b963f0b078",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        21
+      ],
+      "note": "Componentes, propiedades e índices originales intactos; sin incorporar geometrías culturales GPL a la política."
+    }
+  ],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Dudu of Akkad",
+        "title": "Dudu of Akkad",
+        "person": "Q560137",
+        "name": "Dudu of Akkad",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Dudu_of_Akkad",
+        "identityResolution": {
+          "requested": "Dudu of Akkad",
+          "canonical": "Dudu of Akkad",
+          "qid": "Q560137"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "-2189-01-01",
+          "end": "-2168-01-01",
+          "precision": 9,
+          "statement": "Q560137$11b04699-487a-2a2c-4e1a-b02e17dd6d0b",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q560137",
+        "title": "Dudu of Akkad",
+        "source": "https://en.wikipedia.org/wiki/Dudu_of_Akkad",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Akkad",
+            "raw": "c. 2189 – c. 2168 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shar-Kali-Sharri",
+        "title": "Shar-Kali-Sharri",
+        "person": "Q349653",
+        "name": "Sharkalisharri",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shar-Kali-Sharri",
+        "identityResolution": {
+          "requested": "Shar-Kali-Sharri",
+          "canonical": "Shar-Kali-Sharri",
+          "qid": "Q349653"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q349653",
+        "title": "Shar-Kali-Sharri",
+        "source": "https://en.wikipedia.org/wiki/Shar-Kali-Sharri",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Akkad",
+            "raw": "c. 2218 – c. 2193 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Shu-turul",
+        "title": "Shu-turul",
+        "person": "Q627980",
+        "name": "Shu-turul",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Shu-turul",
+        "identityResolution": {
+          "requested": "Shu-turul",
+          "canonical": "Shu-turul",
+          "qid": "Q627980"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q12097",
+          "start": "-2168-01-01",
+          "end": "-2154-01-01",
+          "precision": 9,
+          "statement": "Q627980$8c4a35fe-45c6-2bdd-1d8d-1d90750488bd",
+          "label": "rey"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q627980",
+        "title": "Shu-turul",
+        "source": "https://en.wikipedia.org/wiki/Shu-turul",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Akkad",
+            "raw": "c. 2168 – c. 2154 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q560137",
+      "title": "Dudu the Great King of Akkad on an alabaster vase fragment Louvre Museum AO 6773.jpg",
+      "reason": "Inscripción, objeto, mapa o escena sin una efigie individual verificada y legible del gobernante; no adoptarlo como retrato por mera asociación temática."
+    },
+    {
+      "person": "Q627980",
+      "title": "Shuturul mace head 114703.jpg",
+      "reason": "Inscripción, objeto, mapa o escena sin una efigie individual verificada y legible del gobernante; no adoptarlo como retrato por mera asociación temática."
+    }
+  ]
+}

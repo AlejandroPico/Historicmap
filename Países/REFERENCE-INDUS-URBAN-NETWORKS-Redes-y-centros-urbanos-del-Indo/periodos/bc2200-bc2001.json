@@ -1,0 +1,144 @@
+{
+  "key": "REFERENCE-INDUS-URBAN-NETWORKS",
+  "identity": {
+    "qid": "",
+    "name": "Redes y centros urbanos del Indo"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-d5f3fc8abe346e",
+      "name": "Harappa · centro de la tradición del Indo",
+      "coordinates": [
+        72.87,
+        30.63
+      ],
+      "start": -2200,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.harappa.com/content/timeline",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-d5f3fc8abe346e-reference",
+      "name": "Harappa · centro de la tradición del Indo",
+      "coordinates": [
+        72.87,
+        30.63
+      ],
+      "start": -2200,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.harappa.com/content/timeline",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Redes y centros urbanos del Indo"
+    },
+    {
+      "id": "seat047-012348bd48b795",
+      "name": "Mohenjo-daro · centro urbano",
+      "coordinates": [
+        68.14,
+        27.33
+      ],
+      "start": -2200,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.harappa.com/content/timeline",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-012348bd48b795-reference",
+      "name": "Mohenjo-daro · centro urbano",
+      "coordinates": [
+        68.14,
+        27.33
+      ],
+      "start": -2200,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.harappa.com/content/timeline",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Redes y centros urbanos del Indo"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event047-12-2200",
+      "kind": "institution",
+      "title": "Redes urbanas harappenses maduras",
+      "start": "-2200-01-01",
+      "end": "-2000-01-01",
+      "text": "Harappa, Mohenjo-daro y otros centros; planificación y redes compartidas no demuestran aquí una monarquía única deautoridades conocidas.",
+      "source": "https://www.harappa.com/content/timeline",
+      "sourceLabel": "Testimonio y cronología convencional",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Indus Valley Civilization"
+        ],
+        "start": -2200,
+        "end": -2001,
+        "label": "Redes y centros urbanos del Indo · fase harappense madura",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc2200-bc2001.geojson",
+      "sha256": "4160b213335088aee6d78e9edb8b0f48f63ea62c27cc93283b4a5f7c9b8506d9",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        15
+      ],
+      "note": "Componentes, propiedades e índices originales intactos; sin incorporar geometrías culturales GPL a la política."
+    }
+  ],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

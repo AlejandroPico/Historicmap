@@ -1,0 +1,67 @@
+{
+  "key": "KERMA-KINGDOM",
+  "identity": {
+    "qid": "",
+    "name": "Reino de Kerma"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones y testimonios del tercer milenio",
+      "note": "La clasificación no presupone monarquía absoluta ni una constitución moderna. Los centros arqueológicos sin titular conocido conservan esa incertidumbre."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-fc66d17702d780",
+      "name": "Kerma · centro nubio",
+      "coordinates": [
+        30.41,
+        19.6
+      ],
+      "start": -2200,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.man.es/man/en/coleccion/catalogo-cronologico/egipto/ceramica.html",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-fc66d17702d780-reference",
+      "name": "Kerma · centro nubio",
+      "coordinates": [
+        30.41,
+        19.6
+      ],
+      "start": -2200,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.man.es/man/en/coleccion/catalogo-cronologico/egipto/ceramica.html",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Reino de Kerma"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Cronologías, autoridades y contornos por contrastar regionalmente; una sede no inventa una frontera territorial."
+  ],
+  "conflictPoints": []
+}

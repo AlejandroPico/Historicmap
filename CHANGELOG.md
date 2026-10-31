@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## 0.47.0 · 31 de octubre de 2026
+
+- Consulta anual de 3000–2001 a. C., en tres tramos acotados. Egipto temprano y Reino Antiguo, ciudades sumerias, Akkad, Ur III y transiciones posteriores, con 39 dossiers, 50 ventanas de autoridades, notas de secuencias sin fechas suficientes, centros y contexto.
+- 25 grupos culturales originales y 31 fases, conservando el contenido posterior. Referencia de 3000 identificada como tal; no se utiliza el mapa de 2000 para fechas anteriores.
+- 42 imágenes candidatas inspeccionadas: 23 representaciones adoptadas, 19 descartadas, 22 archivos nuevos. Figuras fundacionales de Ur-Nammu y Shulgi sustituyen inscripciones sin retrato. Originales y créditos por entidad.
+- Nombres dinásticos de la fuente corregidos por fases sin alterar sus geometrías; continuidad de autoridades 2001/2000 y ausencia de año cero. Colores editoriales diferenciados para Akkad y Ur III.
+- El catálogo incluye todos los recursos a. C. registrados, evitando omisiones por mantener una lista manual de nombres de archivos.
+
 ## 0.46.0 · 30 de octubre de 2026
 
 - Consulta anual de 2000–1001 a. C., con tres tramos internos, sucesiones y centros de la Edad del Bronce, contextos e imágenes atribuidas. Continuidad de las identidades al cruzar 1001/1000.

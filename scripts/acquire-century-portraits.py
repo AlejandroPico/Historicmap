@@ -3,6 +3,9 @@ from civil_dates import check_window,period_name,date_key,year_text
 from pathlib import Path
 import json,urllib.request,urllib.parse,hashlib,re,html,argparse,concurrent.futures,importlib.util,time
 ROOT=Path(__file__).resolve().parents[1];UA={'User-Agent':'Historicmap/0.32 (https://github.com/AlejandroPico/Historicmap; educational atlas)'};read=lambda f:json.loads(f.read_text(encoding='utf8'))
+def reusable_license(label,title,reviewed_free_use):
+ return any(t in label.lower()for t in['public domain','cc0','cc by','cc-by'])or(label=='Copyrighted free use'and title in reviewed_free_use)
+
 def main(century,review,selected_people=None,end_year=None):
  end_year=century+99 if end_year is None else end_year
  check_window(century,end_year)
@@ -16,6 +19,20 @@ def main(century,review,selected_people=None,end_year=None):
   e=read(f)['entities'][q];images=[c['mainsnak']['datavalue']['value']for c in e.get('claims',{}).get('P18',[])if c.get('rank')!='deprecated'and'datavalue'in c['mainsnak']]
   if images:titles[q]=images[0]
   else:missing.append(dict(person=q,name=name,reason='No image candidate in the resolved metadata.'))
+ # A reviewed entity-owned request may replace a thematic or misattributed P18.
+ # This still stages a candidate: licensing and visual adoption remain separate.
+ reviewed_free_use=set()
+ for path,d in docs:
+  for request in d.get('portraitCandidates',[]):
+   q=request.get('person')
+   if q not in people:continue
+   if not request.get('title')or not request.get('source')or not request.get('reason'):raise ValueError('Incomplete portrait request '+str(path))
+   titles[q]=request['title'];known.pop(q,None)
+   permission=request.get('licenseReview',{})
+   if permission.get('license')=='Copyrighted free use':
+    if not permission.get('source')or not permission.get('reason'):raise ValueError('Incomplete permission review '+str(path))
+    reviewed_free_use.add(request['title'])
+ missing=[r for r in missing if r['person']not in titles]
  previous=ROOT/'.cache'/('photo-review'+review+'.json')
  if previous.exists():
   for row in read(previous):
@@ -37,7 +54,7 @@ def main(century,review,selected_people=None,end_year=None):
  def get(title):
   if title in existing:return existing[title]
   info=infos.get(title);meta=info.get('extmetadata',{})if info else{};license=meta.get('LicenseShortName',{}).get('value','');clean=lambda k:html.unescape(re.sub('<[^>]*>','',meta.get(k,{}).get('value','')))
-  if not info or not any(t in license.lower()for t in['public domain','cc0','cc by','cc-by']):return None
+  if not info or not reusable_license(license,title,reviewed_free_use):return None
   url=info['url']if info.get('size',9999999)<1000000 else info.get('thumburl')or info['url'];digest=hashlib.sha256(title.encode()).hexdigest()[:20];target=stage/(digest+'.bin')
   try:
    if target.exists():raw=target.read_bytes()

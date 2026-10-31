@@ -1,0 +1,191 @@
+{
+  "key": "EGYPT-MIDDLE-KINGDOM",
+  "identity": {
+    "qid": "",
+    "name": "Egipto · Reino Medio"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [
+    {
+      "role": "Faraón de Tebas · cronología UCL · control variable",
+      "titles": [
+        "Mentuhotep II"
+      ],
+      "documentedWindow": [
+        -2046,
+        -1995
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q296439",
+      "name": "Mentuhotep II",
+      "role": "Faraón de Tebas · cronología UCL · control variable",
+      "start": "-2046-01-01",
+      "end": "-2001-12-31",
+      "precision": 9,
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/middlekingdom.html",
+      "note": "Se conserva la tablaUCL y la identidad 2046–1995 ya publicada. No se confunde acceso con reunificación ni se convierte el contorno en prueba de conquista ese año. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2046,
+        -1995
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual.",
+      "endIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-c80d78c08e9ed03cbee6.jpg",
+        "title": "Montouhotep II.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Montouhotep_II.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Montouhotep_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "IGallic",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "Own work",
+        "sha256": "65b3f1e905319f879806b0e1830db1a8f5fae71e7b9720fa2ee5391370ac9ff1",
+        "bytes": 16261,
+        "caption": "Estatua funeraria identificada como Mentuhotep II; efigie regia idealizada.",
+        "canonicalFile": "Países/EGYPT-MIDDLE-KINGDOM-Egipto-Reino-Medio/retratos/portrait-c80d78c08e9ed03cbee6.jpg",
+        "display": "full-frame"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-d530121d47037a",
+      "name": "Tebas · corte de Mentuhotep II",
+      "coordinates": [
+        32.6,
+        25.7
+      ],
+      "start": -2046,
+      "end": -2001,
+      "capital": true,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-d530121d47037a-reference",
+      "name": "Tebas · corte de Mentuhotep II",
+      "coordinates": [
+        32.6,
+        25.7
+      ],
+      "start": -2046,
+      "end": -2001,
+      "capital": true,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Egipto · Reino Medio"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event047-3-2200",
+      "kind": "institution",
+      "title": "Mentuhotep II y la reunificación",
+      "start": "-2046-01-01",
+      "end": "-2000-01-01",
+      "text": "Se conserva la cronologíaUCL deacceso 2046. La reunificación pertenece aotra fase del reinado: no se inventa el año absoluto a partir deun contorno decompilación.",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/middlekingdom.html",
+      "sourceLabel": "Testimonio y cronología convencional",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Upper Egypt"
+        ],
+        "start": -2046,
+        "end": -2001,
+        "label": "Egipto · corte de Mentuhotep II (control variable)",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Se enlaza la cronología UCL 2046–1995 ya publicada. Acceso al trono no equivale a reunificación: la extensión exacta del poder tebano y el año absoluto de la conquista se mantienen inciertos.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    }
+  ],
+  "geography": [],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Mentuhotep II",
+        "title": "Mentuhotep II",
+        "person": "Q296439",
+        "name": "Mentuhotep II",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Mentuhotep_II",
+        "identityResolution": {
+          "requested": "Mentuhotep II",
+          "canonical": "Mentuhotep II",
+          "qid": "Q296439"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q37110",
+          "start": "-2055-01-01",
+          "end": "-2004-01-01",
+          "precision": 9,
+          "statement": "Q296439$E3213F42-16C5-448F-B47B-A5C7CAE98A2F",
+          "label": "faraón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q296439",
+        "title": "Mentuhotep II",
+        "source": "https://en.wikipedia.org/wiki/Mentuhotep_II",
+        "reignFields": [
+          {
+            "field": "succession-template",
+            "office": "King of Egypt",
+            "raw": "c. 2040 - c. 2009 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

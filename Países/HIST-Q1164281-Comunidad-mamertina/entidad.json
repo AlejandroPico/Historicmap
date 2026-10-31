@@ -3,7 +3,8 @@
   "name": "Comunidad mamertina",
   "qid": "Q1164281",
   "aliases": [
-    "Comunidad mamertina"
+    "Comunidad mamertina",
+    "Mamertines"
   ],
   "generatedBy": "scripts/prepare-country-catalog.mjs",
   "scope": "Inventario de los registros disponibles; no certifica continuidad ni exactitud histórica exhaustiva.",
@@ -29,7 +30,24 @@
     }
   ],
   "portraitVariants": [],
-  "territorialRecords": [],
+  "territorialRecords": [
+    {
+      "file": "early-modern-bc300.geojson",
+      "recordId": "clio-617",
+      "start": -271,
+      "end": -265,
+      "name": "Mamertines",
+      "status": "Entidad histórica · reconstrucción anual"
+    },
+    {
+      "file": "early-modern-bc300.geojson",
+      "recordId": "clio-621",
+      "start": -264,
+      "end": -257,
+      "name": "Mamertines",
+      "status": "Entidad histórica · reconstrucción anual"
+    }
+  ],
   "relatedData": [
     "../../public/data/country-history.json",
     "../../public/data/historical-context.json",

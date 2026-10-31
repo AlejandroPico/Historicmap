@@ -1,0 +1,168 @@
+{
+  "key": "URUK-EARLY",
+  "identity": {
+    "qid": "",
+    "name": "Uruk · poderes dinásticos"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2600-0.47",
+  "coverageStart": -2600,
+  "coverageEnd": -2201,
+  "candidates": [
+    {
+      "role": "Rey de Uruk · cronología aproximada",
+      "titles": [
+        "Lugal-zage-si"
+      ],
+      "documentedWindow": [
+        -2358,
+        -2334
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q316241",
+      "name": "Lugalzagesi",
+      "role": "Rey de Uruk · cronología aproximada",
+      "start": "-2358-01-01",
+      "end": "-2334-12-31",
+      "precision": 9,
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "note": "Cronologías convencionales y variantes; no se asigna el Gilgamesh literario como gobernante anual documentado. La victoria de Utu-hengal y el acceso de Ur-Namma tienen alternativas. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2358,
+        -2334
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2600,
+      "end": -2201,
+      "tags": [
+        "monarchy",
+        "city-state",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-45edcf0a3f566f",
+      "name": "Uruk · Warka",
+      "coordinates": [
+        45.64,
+        31.32
+      ],
+      "start": -2600,
+      "end": -2201,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-45edcf0a3f566f-reference",
+      "name": "Uruk · Warka",
+      "coordinates": [
+        45.64,
+        31.32
+      ],
+      "start": -2600,
+      "end": -2201,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Uruk · poderes dinásticos"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Enshakushanna",
+        "title": "Enshakushanna",
+        "person": "Q1346234",
+        "name": "Enshakushanna",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Enshakushanna",
+        "identityResolution": {
+          "requested": "Enshakushanna",
+          "canonical": "Enshakushanna",
+          "qid": "Q1346234"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q1346234",
+        "title": "Enshakushanna",
+        "source": "https://en.wikipedia.org/wiki/Enshakushanna",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Uruk",
+            "raw": "c. 2350 BC<ref name=\"Frayne2008\">Frayne, Douglas, \"Uruk\", Presargonic Period: Early Periods, Volume 1 (2700-2350 BC), Toronto: University of Toronto Press, pp. 409-440, 2008</ref><ref>{{cite journal |last1=Tohru |first1=Maeda |title=\"KING OF KISH\" IN PRE-SAROGONIC SUMER |journal=Orient |date=1981 |volume=17 |page=5 |url=https://www.jstage.jst.go.jp/article/orient1960/17/0/17_0_1/_article/-char/en}}</ref>",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    },
+    {
+      "candidate": {
+        "requestedTitle": "Lugal-zage-si",
+        "title": "Lugal-zage-si",
+        "person": "Q316241",
+        "name": "Lugalzagesi",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Lugal-zage-si",
+        "identityResolution": {
+          "requested": "Lugal-zage-si",
+          "canonical": "Lugal-zage-si",
+          "qid": "Q316241"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q316241",
+        "title": "Lugal-zage-si",
+        "source": "https://en.wikipedia.org/wiki/Lugal-zage-si",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Umma",
+            "raw": "c. 2358 – c. 2334 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q316241",
+      "title": "Umma2350.PNG",
+      "reason": "Inscripción, objeto, mapa o escena sin una efigie individual verificada y legible del gobernante; no adoptarlo como retrato por mera asociación temática."
+    }
+  ]
+}

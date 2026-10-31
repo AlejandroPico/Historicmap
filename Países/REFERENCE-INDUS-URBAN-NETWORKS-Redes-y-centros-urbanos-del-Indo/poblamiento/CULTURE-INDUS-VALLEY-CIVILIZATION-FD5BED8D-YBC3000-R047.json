@@ -1,0 +1,79 @@
+{
+  "key": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D-YBC3000-R047",
+  "contextKey": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D",
+  "ownerKey": "REFERENCE-INDUS-URBAN-NETWORKS",
+  "name": "Comunidades y redes de la tradición harappense temprana",
+  "originalNames": [
+    "Indus valley civilization"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional de la compilación de3000a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -3000,
+    -2001
+  ],
+  "interpretation": "Área de compilación que permite consultar poblaciones y tradiciones, no un Estado unitario, frontera étnica exclusiva ni certeza de ocupación uniforme durante mil años. El rótulo civilización no demuestra una monarquía única ni identifica al llamado rey-sacerdote como gobernante.",
+  "spatialUncertainty": "Coordenadas y propiedades originales conservadas; resolución desigual, sin costas paleogeográficas ni cartas exhaustivas de yacimientos. No completar zonas sin nombre mediante etnias supuestas.",
+  "temporalUncertainty": "Una referencia de 3000 se consulta hasta 2001 con cambios de fase explícitos. No existe mapa 2500 en la revisión fijada; no se toma prestado el mapa 2000 para fechas anteriores.",
+  "references": [
+    {
+      "title": "Historical Basemaps 3000 a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc3000.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "REFERENCE-INDUS-URBAN-NETWORKS"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    65.04005,
+    26.39483
+  ],
+  "phases": [
+    {
+      "start": -3000,
+      "end": -2601,
+      "label": "Comunidades y redes de la tradición harappense temprana",
+      "dateBasis": "Referencia cartográfica de 3000 a.C.; ventana de consulta, no mil observaciones anuales de la población.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -2600,
+      "end": -2001,
+      "label": "Redes y centros urbanos del Indo · fase harappense madura",
+      "dateBasis": "Transición convencional hacia 2600 a.C., contrastada con Harappa/Kenoyer; contorno original de 3000, no expansión anual reconstruida.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D-YBC3000-R047.geojson",
+  "geometrySha256": "96ca276c4070cd23d2a3ba16b283a6fba9f4d271bc4c7e6557d5a02dfbb9bc05",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc3000.geojson",
+    "year": -3000,
+    "featureIds": [
+      20
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "2cf107e2f0d4f9b5427b293f19b11fffe7c1134f52320df4f94b4889b978f033"
+  },
+  "review": "0.47.0 · 2026-10-31",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cartografía arqueológica y cronologías regionales; las áreas sin rótulo no demuestran despoblación."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Indus valley civilization",
+      "ABBREVN": "Indus valley",
+      "type": "civilization",
+      "weblnks": null,
+      "SUBJECTO": "Indus valley civilization",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Indus valley civilization"
+    }
+  ],
+  "sourceGrouping": [
+    "Indus valley civilization"
+  ]
+}

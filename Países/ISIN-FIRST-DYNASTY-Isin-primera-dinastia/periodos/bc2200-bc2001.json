@@ -1,0 +1,146 @@
+{
+  "key": "ISIN-FIRST-DYNASTY",
+  "identity": {
+    "qid": "",
+    "name": "Isin · primera dinastía"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [
+    {
+      "role": "Rey de Isin · cronología media",
+      "titles": [
+        "Ishbi-Erra"
+      ],
+      "documentedWindow": [
+        -2017,
+        -1985
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q561153",
+      "name": "Ishbi-Erra",
+      "role": "Rey de Isin · cronología media",
+      "start": "-2017-01-01",
+      "end": "-2001-12-31",
+      "precision": 9,
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "note": "Cronología convencional aproximada; no fechas vitales. No se infiere un poder uniforme de la extensión del contorno de compilación. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2017,
+        -1985
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual.",
+      "endIsCoverageBoundary": true
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "monarchy",
+        "city-state",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-871891a3edabae",
+      "name": "Isin · Ishan Bahriyat",
+      "coordinates": [
+        45.28,
+        31.93
+      ],
+      "start": -2017,
+      "end": -2001,
+      "capital": true,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-871891a3edabae-reference",
+      "name": "Isin · Ishan Bahriyat",
+      "coordinates": [
+        45.28,
+        31.93
+      ],
+      "start": -2017,
+      "end": -2001,
+      "capital": true,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Isin · primera dinastía"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event047-10-2200",
+      "kind": "institution",
+      "title": "Isin durante la fragmentación de Ur III",
+      "start": "-2017-01-01",
+      "end": "-2000-01-01",
+      "text": "La realeza de Ishbi-Erra comienza antes del final convencional de Ur III. La coexistencia no se elimina para forzar una sucesión artificial de países.",
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "sourceLabel": "Testimonio y cronología convencional",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Ishbi-Erra",
+        "title": "Ishbi-Erra",
+        "person": "Q561153",
+        "name": "Ishbi-Erra",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Ishbi-Erra",
+        "identityResolution": {
+          "requested": "Ishbi-Erra",
+          "canonical": "Ishbi-Erra",
+          "qid": "Q561153"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q561153",
+        "title": "Ishbi-Erra",
+        "source": "https://en.wikipedia.org/wiki/Ishbi-Erra",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Isin",
+            "raw": "c. 2018 - c. 1985 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

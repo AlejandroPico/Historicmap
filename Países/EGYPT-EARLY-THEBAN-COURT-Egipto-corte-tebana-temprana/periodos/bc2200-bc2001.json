@@ -1,0 +1,109 @@
+{
+  "key": "EGYPT-EARLY-THEBAN-COURT",
+  "identity": {
+    "qid": "",
+    "name": "Egipto · corte tebana temprana",
+    "notes": [
+      {
+        "start": "-2181-01-01",
+        "end": "-2001-12-31",
+        "text": "La fragmentación no equivale a ausencia de autoridades. Se documentan poderes menfitas y heracleopolitanos (Khety y Merikare, con orden y fechas discutidos) y la corte tebana de Antef I, Antef II y Antef III. No se asignan fechas anuales falsas a una lista cuya cronología absoluta no se ha resuelto; la corte de Mentuhotep II se consulta aparte.",
+        "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/1stintermediateperkings.html"
+      }
+    ]
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-39abe3ccf1d53e",
+      "name": "Tebas · centro dinástico",
+      "coordinates": [
+        32.6,
+        25.7
+      ],
+      "start": -2160,
+      "end": -2047,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-39abe3ccf1d53e-reference",
+      "name": "Tebas · centro dinástico",
+      "coordinates": [
+        32.6,
+        25.7
+      ],
+      "start": -2160,
+      "end": -2047,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Egipto · corte tebana temprana"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Upper Egypt"
+        ],
+        "start": -2181,
+        "end": -2047,
+        "label": "Egipto meridional · poderes regionales y corte tebana temprana",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc2200-bc2001.geojson",
+      "sha256": "73f3e502dad47b5581ad78b4e165fe1bca8c0503339da3c7373bc3725e9a2f1c",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        19,
+        24
+      ],
+      "note": "Componentes, propiedades e índices originales intactos; sin incorporar geometrías culturales GPL a la política."
+    }
+  ],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

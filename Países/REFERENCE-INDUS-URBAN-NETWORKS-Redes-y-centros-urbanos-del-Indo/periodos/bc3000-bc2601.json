@@ -1,0 +1,115 @@
+{
+  "key": "REFERENCE-INDUS-URBAN-NETWORKS",
+  "identity": {
+    "qid": "",
+    "name": "Redes y centros urbanos del Indo"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc3000-0.47",
+  "coverageStart": -3000,
+  "coverageEnd": -2601,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -3000,
+      "end": -2601,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-9febfdb8c23afb",
+      "name": "Harappa · centro de la tradición del Indo",
+      "coordinates": [
+        72.87,
+        30.63
+      ],
+      "start": -3000,
+      "end": -2601,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.harappa.com/content/timeline",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-9febfdb8c23afb-reference",
+      "name": "Harappa · centro de la tradición del Indo",
+      "coordinates": [
+        72.87,
+        30.63
+      ],
+      "start": -3000,
+      "end": -2601,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://www.harappa.com/content/timeline",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Redes y centros urbanos del Indo"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event047-11-3000",
+      "kind": "institution",
+      "title": "Tradición harappense temprana",
+      "start": "-3000-01-01",
+      "end": "-2600-01-01",
+      "text": "FasesRavi yKot Diji, comunidades y centros anteriores ala integración urbana madura. No se adelanta una capital imperial ni un rey-sacerdote identificado.",
+      "source": "https://www.harappa.com/content/timeline",
+      "sourceLabel": "Testimonio y cronología convencional",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc3000-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Indus Valley Civilization"
+        ],
+        "start": -3000,
+        "end": -2601,
+        "label": "Tradición del Indo · comunidades harappenses tempranas",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc3000-bc2601.geojson",
+      "sha256": "7af0b6e50b04e1b9e6044b8ef1543e85a7084d16213a10950d1ebe504165184e",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        5,
+        6
+      ],
+      "note": "Componentes, propiedades e índices originales intactos; sin incorporar geometrías culturales GPL a la política."
+    }
+  ],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

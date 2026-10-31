@@ -1,6 +1,20 @@
 # Tareas y continuidad
 
-## Encargo vigente · 0.46.0 · 2000–1001 a. C.
+## Entrega · 0.47.0 · 3000–2001 a. C.
+
+- [x] Verificar base53431e088 y árbol limpio; congelar hechos/fases anteriores en .cache/baseline047.json.
+- [x] Inventariar nueve grupos políticos y25 componentes originales.
+- [x] Investigar reyes, instituciones y cronologías; distinguir tradición regia, ciudades y poderes documentados.
+- [x] Incorporar tres tramos acotados:3000–2601,2600–2201 y2200–2001a.C.; fuentes culturales propias y continuidad2001/2000.
+- [x] Revisar imágenes y atribuciones, originales y créditos por entidad.
+- [x] Integrar, compilar y sincronizar catálogo antes de comprobar; preservar todo lo anterior.
+- [x] Comprobar pruebas, integridad, tipos, producción y navegador:349 pruebas,27 Python,16 focales finales y cinco casos de navegador; los tres nuevos repetidos tras reconstruir.
+- [x] Cerrar regeneración:178 archivos comprobados;177 idénticos y manifiesto equivalente salvo orden.
+- [x] Verificar los archivos preparados:363 archivos y9.364 recursos coinciden con sus bytes/objetos Git; sin eliminaciones. Versión lista para enviar a main, sin esperar Actions/Pages.
+
+No repetir curaciones046 ni045. Los límites de consulta no son fechas de fundación o cese; tampoco son mil mapas observados independientemente.
+
+## Entrega anterior · 0.46.0 · 2000–1001 a. C.
 
 - [x] Comprobar base e42ebc88f, árbol limpio y coincidencia con origin/main. Congelar conservación en .cache/baseline046.json.
 - [x] Inventario político: 21 nombres y 80 componentes originales fijados.

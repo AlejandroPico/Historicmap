@@ -1,0 +1,76 @@
+{
+  "key": "REFERENCE-EGYPT-21ST-DYNASTY-WORLD-YBC3000-R047",
+  "contextKey": "REFERENCE-EGYPT-21ST-DYNASTY-WORLD",
+  "ownerKey": "EGYPT-EARLY-DYNASTIC",
+  "name": "Comunidades del valle del Nilo · redes y poderes regionales",
+  "originalNames": [
+    "Egypt"
+  ],
+  "kind": "polity-reference",
+  "region": "Referencia regional de la compilación de3000a.C.",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -3000,
+    -2001
+  ],
+  "interpretation": "Área de compilación que permite consultar poblaciones y tradiciones, no un Estado unitario, frontera étnica exclusiva ni certeza de ocupación uniforme durante mil años.",
+  "spatialUncertainty": "Coordenadas y propiedades originales conservadas; resolución desigual, sin costas paleogeográficas ni cartas exhaustivas de yacimientos. No completar zonas sin nombre mediante etnias supuestas.",
+  "temporalUncertainty": "Una referencia de 3000 se consulta hasta 2001 con cambios de fase explícitos. No existe mapa 2500 en la revisión fijada; no se toma prestado el mapa 2000 para fechas anteriores.",
+  "references": [
+    {
+      "title": "Historical Basemaps 3000 a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc3000.geojson"
+    }
+  ],
+  "politicalKeys": [
+    "EGYPT-EARLY-DYNASTIC",
+    "EGYPT-OLD-KINGDOM",
+    "EGYPT-EARLY-THEBAN-COURT",
+    "EGYPT-HERACLEOPOLITAN-POWERS",
+    "EGYPT-MIDDLE-KINGDOM"
+  ],
+  "color": "#879a9a",
+  "focus": [
+    31.54832,
+    25.6355
+  ],
+  "phases": [
+    {
+      "start": -3000,
+      "end": -2001,
+      "label": "Comunidades del valle del Nilo · redes y poderes regionales",
+      "dateBasis": "Referencia cartográfica de 3000 a.C.; ventana de consulta, no mil observaciones anuales de la población.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "REFERENCE-EGYPT-21ST-DYNASTY-WORLD-YBC3000-R047.geojson",
+  "geometrySha256": "83e2491e82c31333d60685c2c19dc297c883f7fc6b73f81d14b5ba264b58e874",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc3000.geojson",
+    "year": -3000,
+    "featureIds": [
+      19
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "2cf107e2f0d4f9b5427b293f19b11fffe7c1134f52320df4f94b4889b978f033"
+  },
+  "review": "0.47.0 · 2026-10-31",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar cartografía arqueológica y cronologías regionales; las áreas sin rótulo no demuestran despoblación."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Egypt",
+      "ABBREVN": "Egypt",
+      "type": null,
+      "weblnks": null,
+      "SUBJECTO": "Egypt",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Egypt"
+    }
+  ],
+  "sourceGrouping": [
+    "Egypt"
+  ]
+}

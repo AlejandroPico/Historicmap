@@ -1,0 +1,242 @@
+{
+  "key": "EGYPT-OLD-KINGDOM",
+  "identity": {
+    "qid": "",
+    "name": "Egipto · Reino Antiguo",
+    "notes": [
+      {
+        "start": "-2686-01-01",
+        "end": "-2182-12-31",
+        "text": "Cronología absoluta convencional, con propuestas alternativas. Jaba/Khaba está documentado pero la duración de su gobierno es desconocida: se conserva su nombre en esta nota, sin inventar un mandato de 23 años. También es discutida la posición de Sanajt; los vacíos no significan ausencia de realeza.",
+        "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/oldkingdomkings.html"
+      }
+    ]
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [
+    {
+      "role": "Faraón · Reino Antiguo · cronología convencional",
+      "titles": [
+        "Pepi II Neferkare"
+      ],
+      "documentedWindow": [
+        -2278,
+        -2184
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q6198",
+      "name": "Neferkara Pepy",
+      "role": "Faraón · Reino Antiguo · cronología convencional",
+      "start": "-2200-01-01",
+      "end": "-2184-12-31",
+      "precision": 9,
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/oldkingdomkings.html",
+      "note": "Secuencia UCL; extremos de una convención absoluta habitual, no unanimidad. UCL redondea las dinastías y Memphis usa otra cronología. Khaba/Huni, Shepseskare/Neferefre y el largo reinado de Pepi II tienen alternativas; los solapamientos no prueban corregencias. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2278,
+        -2184
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual.",
+      "startIsCoverageBoundary": true,
+      "portrait": {
+        "file": "media/portrait-b8f2aed8d76e39d24de4.jpg",
+        "title": "Royal head from a small statue.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Royal_head_from_a_small_statue.jpg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Royal_head_from_a_small_statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "artist": "Metropolitan Museum of Art, New York",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "",
+        "attributionRequired": true,
+        "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art. See the Image and Data Resources Open Access Policy",
+        "sha256": "3765e7bb9093b6a5fa08bb755440cc20f6dc79b9ed993fbeb707cea550c577c9",
+        "bytes": 168186,
+        "canonicalFile": "Países/EGYPT-OLD-KINGDOM-Egipto-Reino-Antiguo/retratos/portrait-b8f2aed8d76e39d24de4.jpg",
+        "caption": "Cabeza real de una pequeña estatua del reinado de Pepy II, Metropolitan Museum 66.99.152; atribución museográfica, no certeza fisonómica del natural.",
+        "display": "full-frame"
+      }
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "monarchy",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-cba1e51d3011a0",
+      "name": "Menfis · centro regio",
+      "coordinates": [
+        31.25,
+        29.85
+      ],
+      "start": -2200,
+      "end": -2182,
+      "capital": true,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-cba1e51d3011a0-reference",
+      "name": "Menfis · centro regio",
+      "coordinates": [
+        31.25,
+        29.85
+      ],
+      "start": -2200,
+      "end": -2182,
+      "capital": true,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Egipto · Reino Antiguo"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "event047-1-2200",
+      "kind": "institution",
+      "title": "Realeza y administración del Reino Antiguo",
+      "start": "-2200-01-01",
+      "end": "-2181-01-01",
+      "text": "Dinastías y redes del valle del Nilo; los límites absolutos son una convención de consulta y tienen alternativas. No una biografía ni un cambio de todas las fronteras en el primer año.",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/oldkingdomkings.html",
+      "sourceLabel": "Testimonio y cronología convencional",
+      "confidence": "documentary-reference",
+      "tags": [
+        "institution"
+      ]
+    }
+  ],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc2200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Lower Egypt"
+        ],
+        "start": -2200,
+        "end": -2182,
+        "label": "Egipto · final del Reino Antiguo (componente regional)",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    },
+    {
+      "files": [
+        "historical-bc2200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Old Kingdom of Egypt"
+        ],
+        "start": -2200,
+        "end": -2182,
+        "label": "Egipto · Reino Antiguo",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    },
+    {
+      "files": [
+        "historical-bc2200-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Upper Egypt"
+        ],
+        "start": -2200,
+        "end": -2182,
+        "label": "Egipto · final del Reino Antiguo (componente regional)",
+        "admin": "",
+        "status": "source-polity",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+        "note": "Contorno original de compilación, de resolución cronológica desigual. No observación anual, conquista instantánea ni control uniforme acreditado.",
+        "colorFamily": "EGYPT-ANCIENT"
+      }
+    }
+  ],
+  "geography": [],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Pepi II Neferkare",
+        "title": "Pepi II Neferkare",
+        "person": "Q6198",
+        "name": "Neferkara Pepy",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Pepi_II_Neferkare",
+        "identityResolution": {
+          "requested": "Pepi II Neferkare",
+          "canonical": "Pepi II Neferkare",
+          "qid": "Q6198"
+        }
+      },
+      "claims": [
+        {
+          "property": "P39",
+          "office": "Q37110",
+          "start": "-2245-01-01",
+          "end": "-2180-01-01",
+          "precision": 9,
+          "statement": "Q6198$44BCD60B-883F-48E0-93B3-3910B29F5E3A",
+          "label": "faraón"
+        }
+      ],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q6198",
+        "title": "Pepi II Neferkare",
+        "source": "https://en.wikipedia.org/wiki/Pepi_II_Neferkare",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "",
+            "raw": "2284–after 2247 BC, probably either {{circa}}&nbsp;2216 or {{circa}}&nbsp;2184 BC<ref>[[Peter A. Clayton|Clayton, Peter A.]] <cite>Chronicle of the Pharaohs: The Reign-by-Reign Record of the Rulers and Dynasties of Ancient Egypt</cite>. p. 64. Thames & Hudson. (2006). {{ISBN|0-500-28628-0}}.</ref><ref name=encyclo/>",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Egypt",
+            "raw": "{{circa|2284}} – c. 2214 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": []
+}

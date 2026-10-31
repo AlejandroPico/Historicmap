@@ -1,0 +1,144 @@
+{
+  "key": "URUK-EARLY",
+  "identity": {
+    "qid": "",
+    "name": "Uruk · poderes dinásticos"
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2200-0.47",
+  "coverageStart": -2200,
+  "coverageEnd": -2001,
+  "candidates": [
+    {
+      "role": "Rey de Uruk · cronología aproximada",
+      "titles": [
+        "Utu-hengal"
+      ],
+      "documentedWindow": [
+        -2119,
+        -2112
+      ]
+    }
+  ],
+  "leaders": [
+    {
+      "person": "Q379880",
+      "name": "Utu-hegal",
+      "role": "Rey de Uruk · cronología aproximada",
+      "start": "-2119-01-01",
+      "end": "-2112-12-31",
+      "precision": 9,
+      "source": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf",
+      "note": "Cronologías convencionales y variantes; no se asigna el Gilgamesh literario como gobernante anual documentado. La victoria de Utu-hengal y el acceso de Ur-Namma tienen alternativas. Enero/diciembre delimitan una consulta anual convencional, no días acreditados de acceso o cese.",
+      "documentedInterval": [
+        -2119,
+        -2112
+      ],
+      "dateUncertainty": "Cronología convencional o aproximada; consultar variantes y evidencia individual."
+    }
+  ],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2200,
+      "end": -2001,
+      "tags": [
+        "monarchy",
+        "city-state",
+        "kingdom"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones de la Edad del Bronce",
+      "note": "Clasificación de poderes documentados; no ideología moderna, monarquía absoluta por defecto ni prueba de una constitución uniforme en todo el contorno."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-f6a58cd9397553",
+      "name": "Uruk · Warka",
+      "coordinates": [
+        45.64,
+        31.32
+      ],
+      "start": -2200,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-f6a58cd9397553-reference",
+      "name": "Uruk · Warka",
+      "coordinates": [
+        45.64,
+        31.32
+      ],
+      "start": -2200,
+      "end": -2001,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Uruk · poderes dinásticos"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contraste regional de contornos y cronologías; no inferir reinados de fechas de vida ni transformar listas tradicionales en gobernantes anuales ciertos."
+  ],
+  "candidateEvidence": [
+    {
+      "candidate": {
+        "requestedTitle": "Utu-hengal",
+        "title": "Utu-hengal",
+        "person": "Q379880",
+        "name": "Utu-hegal",
+        "human": true,
+        "source": "https://en.wikipedia.org/wiki/Utu-hengal",
+        "identityResolution": {
+          "requested": "Utu-hengal",
+          "canonical": "Utu-hengal",
+          "qid": "Q379880"
+        }
+      },
+      "claims": [],
+      "fields": [],
+      "reignEvidence": {
+        "person": "Q379880",
+        "title": "Utu-hengal",
+        "source": "https://en.wikipedia.org/wiki/Utu-hengal",
+        "reignFields": [
+          {
+            "field": "reign",
+            "office": "King of Uruk",
+            "raw": "c. 2119 – c. 2112 BC",
+            "parsed": null,
+            "reignType": ""
+          },
+          {
+            "field": "succession-template",
+            "office": "King of Uruk",
+            "raw": "c. 2119 – c. 2112 BC",
+            "parsed": null,
+            "reignType": ""
+          }
+        ]
+      }
+    }
+  ],
+  "candidateIdentityCorrections": [],
+  "authorityReview": "Título de artículo, identidad individual y campos de reinado contrastados. Fechas vitales sólo como guardia de identidad cuando tienen precisión anual; nunca generan un mandato. Fechas aproximadas no son una cronología absoluta universal.",
+  "conflictPoints": [],
+  "rejectedPortraits": [
+    {
+      "person": "Q379880",
+      "title": "Part of a stone monument inscribed with the name of Utu-hegal, king of Uruk. Circa 2125 BCE. From Ur, Iraq. The British Museum, London.jpg",
+      "reason": "Inscripción, objeto, mapa o escena sin una efigie individual verificada y legible del gobernante; no adoptarlo como retrato por mera asociación temática."
+    }
+  ]
+}

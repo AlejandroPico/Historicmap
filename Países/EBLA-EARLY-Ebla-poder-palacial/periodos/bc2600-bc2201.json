@@ -1,0 +1,75 @@
+{
+  "key": "EBLA-EARLY",
+  "identity": {
+    "qid": "",
+    "name": "Ebla · poder palacial",
+    "notes": [
+      {
+        "start": "-2500-01-01",
+        "end": "-2001-12-31",
+        "text": "Los archivos de Ebla documentan un poder palacial y secuencias de reyes y altos funcionarios, entre ellosIgrish-Halam, Irkab-Damu eIshar-Damu. Las cronologías del palacioG y sus destrucciones tienen variantes: la ventana de consulta no prolonga a esos reyes durante siglos.",
+        "source": "https://www.metmuseum.org/essays/ebla-in-the-third-millennium-b-c"
+      }
+    ]
+  },
+  "revision": "0.47.0",
+  "acquisition": "period-bc2600-0.47",
+  "coverageStart": -2600,
+  "coverageEnd": -2201,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -2600,
+      "end": -2201,
+      "tags": [
+        "monarchy",
+        "city-state"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "sourceLabel": "Instituciones y testimonios del tercer milenio",
+      "note": "La clasificación no presupone monarquía absoluta ni una constitución moderna. Los centros arqueológicos sin titular conocido conservan esa incertidumbre."
+    }
+  ],
+  "places": [
+    {
+      "id": "seat047-6b3ca04b947e98",
+      "name": "Ebla · Tell Mardikh",
+      "coordinates": [
+        36.8,
+        35.8
+      ],
+      "start": -2500,
+      "end": -2201,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada."
+    },
+    {
+      "id": "seat047-6b3ca04b947e98-reference",
+      "name": "Ebla · Tell Mardikh",
+      "coordinates": [
+        36.8,
+        35.8
+      ],
+      "start": -2500,
+      "end": -2201,
+      "capital": false,
+      "role": "Centro y referencia documental",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc3000.md",
+      "note": "Localización aproximada del yacimiento; no frontera urbana, continuidad de un reinado ni capital única demostrada.",
+      "standaloneReference": true,
+      "entityName": "Ebla · poder palacial"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Cronologías, autoridades y contornos por contrastar regionalmente; una sede no inventa una frontera territorial."
+  ],
+  "conflictPoints": []
+}
