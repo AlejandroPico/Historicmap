@@ -1,0 +1,49 @@
+{
+  "format": "archaeological-evidence",
+  "key": "EGYPT-EARLY-DYNASTIC",
+  "identity": {
+    "qid": "",
+    "name": "Egipto · periodo dinástico temprano"
+  },
+  "revision": "0.48.0",
+  "acquisition": "archaeology-egypt-0.48",
+  "coverageStart": -3200,
+  "coverageEnd": -3001,
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [],
+  "places": [
+    {
+      "id": "arch048-abydos-reference",
+      "name": "Abidos · testimonios de realeza temprana",
+      "entityName": "Egipto · realeza temprana y testimonios predinásticos",
+      "coordinates": [
+        31.91,
+        26.18
+      ],
+      "start": -3200,
+      "end": -3001,
+      "capital": false,
+      "standaloneReference": true,
+      "referenceKind": "archaeological-site",
+      "role": "Centro documental de realeza temprana",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/archaic.egypt.kings.html",
+      "note": "Tradiciones dinásticas y testimonios, sin una fecha única de unificación ni una sucesión anual segura."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-3200-01-01",
+      "end": "-3001-12-31",
+      "text": "Se documentan nombres y testimonios comoIry-Hor, Ka, Escorpión yNarmer. Su posición, cronología absoluta y relación con la unificación tienen variantes. No son gobernantes simultáneos ni se convierten aquí en mandatos fechados por años. La serie posterior se conserva desde 3000.",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/archaic.egypt.kings.html"
+    }
+  ],
+  "contexts": [],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar cronologías y poderes regionales; los nombres de la tradición no prueban soberanía de un rey sobre todoEgipto."
+  ]
+}

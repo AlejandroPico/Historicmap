@@ -61,3 +61,10 @@ Las nuevas fases1906–2027 guardan `reviewedOn`, `evidenceThrough`, interpretac
 ## Correcciones de retratos0.31.1
 
 `portraitCorrections` en `revision-historica.json` puede corregir el retrato de una persona sin reemplazar sus mandatos. Original en `retratos/`, título, fecha de evidencia, motivo, fuente, licencia y huella dentro de la entidad. Ejecutar `python scripts/prepare-entity-revisions.py --portraits-only` y después `npm run entities:prepare`; no hay descarga remota. La compilación completa de revisiones aplica también estas correcciones al final. No editar la vista generada `entidad.json` ni reutilizar un cartel como retrato por contener la cara de la persona.
+
+
+## Referencias arqueológicas (desde0.48)
+
+Un yacimiento o red sin mandatos acreditados puede tener `arqueologia.json` en su carpeta propietaria. Contrato `archaeological-evidence`: rangos de consulta, fechas de evidencia, notas de autoridades, puntos con `referenceKind: archaeological-site`, fuentes y contexto. No admite líderes, símbolos nacionales o reglas de fronteras supuestos; la complejidad material no atribuye por defecto una constitución. Las fechas pueden abarcar milenios de consulta, sin ampliar el máximo de400 años de los lotes políticos. Un rango no prueba ocupación continua.
+
+Compilar con `prepare-entity-revisions.py` y registrar con `register-entity-revisions.mjs`. El catálogo conserva la ruta canónica indicada por `identity.canonicalFile` de las nuevas identidades, evitando crear otra carpeta para su vista generada. Los datos arqueológicos y los originales de `poblamiento/` son distintos; los públicos se derivan, no se editan a mano. [Fuentes y límites](../docs/RESEARCH-bc6000.md).

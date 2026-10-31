@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-REAL-ALTO",
+  "identity": {
+    "qid": "",
+    "name": "Real Alto · poblado precerámico y Valdivia",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.48.0",
+  "acquisition": "archaeology-0.48",
+  "coverageStart": -4000,
+  "coverageEnd": -3001,
+  "evidenceWindow": [
+    -4000,
+    -3001
+  ],
+  "dateBasis": "Inicio de consulta aproximado 4000 a.C. para la ocupación antigua, no datación exacta de todas las casas; Valdivia propiamente dicha se contextualiza desde aproximadamente 3300.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-4000-01-01",
+      "end": "-3001-12-31",
+      "text": "Las evidencias arqueológicas permiten consultar esta comunidad o centro, pero no acreditan aquí el nombre de un gobernante individual ni un sistema de jefaturas concreto. No se asignan retratos, banderas nacionales o mandatos supuestos. Inicio de consulta aproximado 4000 a.C. para la ocupación antigua, no datación exacta de todas las casas; Valdivia propiamente dicha se contextualiza desde aproximadamente 3300.",
+      "source": "https://www.metmuseum.org/essays/real-alto"
+    }
+  ],
+  "governance": [
+    {
+      "start": -4000,
+      "end": -3001,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://www.metmuseum.org/essays/real-alto",
+      "sourceLabel": "Evidencia de organización social sin constitución inferida",
+      "note": "Yacimiento o red arqueológica; no Estado, monarquía o democracia atribuidos por defecto."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch048-d755591743d3",
+      "name": "Real Alto · poblado precerámico y Valdivia",
+      "coordinates": [
+        -80.67,
+        -2.38
+      ],
+      "start": -4000,
+      "end": -3001,
+      "capital": false,
+      "role": "Yacimiento o centro documentado · referencia arqueológica",
+      "source": "https://www.metmuseum.org/essays/real-alto",
+      "note": "Poblado temprano de la costa ecuatoriana y transformaciones relacionadas con Valdivia. El Met distingue ocupación inicial de hace unos 6000 años y tradición Valdivia hacia 3300–1500 a.C.; no es una ciudad Valdivia desde 6000 a.C. Inicio de consulta aproximado 4000 a.C. para la ocupación antigua, no datación exacta de todas las casas; Valdivia propiamente dicha se contextualiza desde aproximadamente 3300.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch048-d755591743d3-reference",
+      "name": "Real Alto · poblado precerámico y Valdivia",
+      "coordinates": [
+        -80.67,
+        -2.38
+      ],
+      "start": -4000,
+      "end": -3001,
+      "capital": false,
+      "role": "Yacimiento o centro documentado · referencia arqueológica",
+      "source": "https://www.metmuseum.org/essays/real-alto",
+      "note": "Poblado temprano de la costa ecuatoriana y transformaciones relacionadas con Valdivia. El Met distingue ocupación inicial de hace unos 6000 años y tradición Valdivia hacia 3300–1500 a.C.; no es una ciudad Valdivia desde 6000 a.C. Inicio de consulta aproximado 4000 a.C. para la ocupación antigua, no datación exacta de todas las casas; Valdivia propiamente dicha se contextualiza desde aproximadamente 3300.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Real Alto · poblado precerámico y Valdivia"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context048-d755591743d3",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-4000-01-01",
+      "end": "-3000-01-01",
+      "text": "Poblado temprano de la costa ecuatoriana y transformaciones relacionadas con Valdivia. El Met distingue ocupación inicial de hace unos 6000 años y tradición Valdivia hacia 3300–1500 a.C.; no es una ciudad Valdivia desde 6000 a.C. Inicio de consulta aproximado 4000 a.C. para la ocupación antigua, no datación exacta de todas las casas; Valdivia propiamente dicha se contextualiza desde aproximadamente 3300.",
+      "source": "https://www.metmuseum.org/essays/real-alto",
+      "sourceLabel": "Referencia arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ],
+      "type": "transition"
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafías, cronologías y organización social; el intervalo no prueba ocupación uniforme de todos los años. No inferir nombres de jefes o fronteras de la existencia de construcciones."
+  ]
+}

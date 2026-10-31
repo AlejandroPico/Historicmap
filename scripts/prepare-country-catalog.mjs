@@ -22,6 +22,7 @@ function add(key,name,qid=''){
 }
 for(const [key,c] of Object.entries(identities.countries)){
  add(key,c.name,c.qid).identity=c;
+ if(c.canonicalFile)retainFolder(key,c.canonicalFile);
  if(c.qid&&!qids.has(c.qid))qids.set(c.qid,key);
  for(const name of [c.name,profiles.countries[key]?.englishName])if(name)names.set(norm(name),key);
 }

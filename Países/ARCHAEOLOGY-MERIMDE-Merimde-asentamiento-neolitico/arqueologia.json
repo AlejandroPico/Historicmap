@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-MERIMDE",
+  "identity": {
+    "qid": "",
+    "name": "Merimde · asentamiento neolítico",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.48.0",
+  "acquisition": "archaeology-0.48",
+  "coverageStart": -4800,
+  "coverageEnd": -4200,
+  "evidenceWindow": [
+    -4800,
+    -4200
+  ],
+  "dateBasis": "Convención UCL 4800–4200 a.C.; dataciones arqueológicas con variantes.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-4800-01-01",
+      "end": "-4200-12-31",
+      "text": "Las evidencias arqueológicas permiten consultar esta comunidad o centro, pero no acreditan aquí el nombre de un gobernante individual ni un sistema de jefaturas concreto. No se asignan retratos, banderas nacionales o mandatos supuestos. Convención UCL 4800–4200 a.C.; dataciones arqueológicas con variantes.",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+    }
+  ],
+  "governance": [
+    {
+      "start": -4800,
+      "end": -4200,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "sourceLabel": "Evidencia de organización social sin constitución inferida",
+      "note": "Yacimiento o red arqueológica; no Estado, monarquía o democracia atribuidos por defecto."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch048-76ff20baea55",
+      "name": "Merimde · asentamiento neolítico",
+      "coordinates": [
+        30.84,
+        30.34
+      ],
+      "start": -4800,
+      "end": -4200,
+      "capital": false,
+      "role": "Yacimiento o centro documentado · referencia arqueológica",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "note": "Yacimiento y comunidades neolíticas del Delta occidental. Su registro no identifica un faraón que gobernase el conjunto de Egipto. Convención UCL 4800–4200 a.C.; dataciones arqueológicas con variantes.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch048-76ff20baea55-reference",
+      "name": "Merimde · asentamiento neolítico",
+      "coordinates": [
+        30.84,
+        30.34
+      ],
+      "start": -4800,
+      "end": -4200,
+      "capital": false,
+      "role": "Yacimiento o centro documentado · referencia arqueológica",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "note": "Yacimiento y comunidades neolíticas del Delta occidental. Su registro no identifica un faraón que gobernase el conjunto de Egipto. Convención UCL 4800–4200 a.C.; dataciones arqueológicas con variantes.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Merimde · asentamiento neolítico"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context048-76ff20baea55",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-4800-01-01",
+      "end": "-4199-01-01",
+      "text": "Yacimiento y comunidades neolíticas del Delta occidental. Su registro no identifica un faraón que gobernase el conjunto de Egipto. Convención UCL 4800–4200 a.C.; dataciones arqueológicas con variantes.",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "sourceLabel": "Referencia arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ],
+      "type": "transition"
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafías, cronologías y organización social; el intervalo no prueba ocupación uniforme de todos los años. No inferir nombres de jefes o fronteras de la existencia de construcciones."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-TELL-HALAF",
+  "identity": {
+    "qid": "",
+    "name": "Tell Halaf · comunidad neolítica",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.48.0",
+  "acquisition": "archaeology-0.48",
+  "coverageStart": -6000,
+  "coverageEnd": -5300,
+  "evidenceWindow": [
+    -6000,
+    -5300
+  ],
+  "dateBasis": "Ventana convencional Halaf 6000–5300 a.C.; otras cronologías regionales difieren.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-6000-01-01",
+      "end": "-5300-12-31",
+      "text": "Las evidencias arqueológicas permiten consultar esta comunidad o centro, pero no acreditan aquí el nombre de un gobernante individual ni un sistema de jefaturas concreto. No se asignan retratos, banderas nacionales o mandatos supuestos. Ventana convencional Halaf 6000–5300 a.C.; otras cronologías regionales difieren.",
+      "source": "https://www.grabung-halaf.de/index.php?l=eng"
+    }
+  ],
+  "governance": [
+    {
+      "start": -6000,
+      "end": -5300,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://www.grabung-halaf.de/index.php?l=eng",
+      "sourceLabel": "Evidencia de organización social sin constitución inferida",
+      "note": "Yacimiento o red arqueológica; no Estado, monarquía o democracia atribuidos por defecto."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch048-88e7c69d2b30",
+      "name": "Tell Halaf · comunidad neolítica",
+      "coordinates": [
+        40.04,
+        36.825
+      ],
+      "start": -6000,
+      "end": -5300,
+      "capital": false,
+      "role": "Yacimiento o centro documentado · referencia arqueológica",
+      "source": "https://www.grabung-halaf.de/index.php?l=eng",
+      "note": "Asentamiento epónimo de tradiciones cerámicas y comunidades agrícolas Halaf. La existencia de redes culturales no demuestra un imperio Halaf. Ventana convencional Halaf 6000–5300 a.C.; otras cronologías regionales difieren.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch048-88e7c69d2b30-reference",
+      "name": "Tell Halaf · comunidad neolítica",
+      "coordinates": [
+        40.04,
+        36.825
+      ],
+      "start": -6000,
+      "end": -5300,
+      "capital": false,
+      "role": "Yacimiento o centro documentado · referencia arqueológica",
+      "source": "https://www.grabung-halaf.de/index.php?l=eng",
+      "note": "Asentamiento epónimo de tradiciones cerámicas y comunidades agrícolas Halaf. La existencia de redes culturales no demuestra un imperio Halaf. Ventana convencional Halaf 6000–5300 a.C.; otras cronologías regionales difieren.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Tell Halaf · comunidad neolítica"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context048-88e7c69d2b30",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-6000-01-01",
+      "end": "-5299-01-01",
+      "text": "Asentamiento epónimo de tradiciones cerámicas y comunidades agrícolas Halaf. La existencia de redes culturales no demuestra un imperio Halaf. Ventana convencional Halaf 6000–5300 a.C.; otras cronologías regionales difieren.",
+      "source": "https://www.grabung-halaf.de/index.php?l=eng",
+      "sourceLabel": "Referencia arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ],
+      "type": "transition"
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafías, cronologías y organización social; el intervalo no prueba ocupación uniforme de todos los años. No inferir nombres de jefes o fronteras de la existencia de construcciones."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-FAYUM-A",
+  "identity": {
+    "qid": "",
+    "name": "Fayum · comunidades neolíticas",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.48.0",
+  "acquisition": "archaeology-0.48",
+  "coverageStart": -5200,
+  "coverageEnd": -4000,
+  "evidenceWindow": [
+    -5200,
+    -4000
+  ],
+  "dateBasis": "Convención UCL 5200–4000 a.C.; no unificación del valle del Nilo ni monarquía egipcia ya constituida.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-5200-01-01",
+      "end": "-4000-12-31",
+      "text": "Las evidencias arqueológicas permiten consultar esta comunidad o centro, pero no acreditan aquí el nombre de un gobernante individual ni un sistema de jefaturas concreto. No se asignan retratos, banderas nacionales o mandatos supuestos. Convención UCL 5200–4000 a.C.; no unificación del valle del Nilo ni monarquía egipcia ya constituida.",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+    }
+  ],
+  "governance": [
+    {
+      "start": -5200,
+      "end": -4000,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "sourceLabel": "Evidencia de organización social sin constitución inferida",
+      "note": "Yacimiento o red arqueológica; no Estado, monarquía o democracia atribuidos por defecto."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch048-e1536d4e8f6e",
+      "name": "Fayum · comunidades neolíticas",
+      "coordinates": [
+        30.55,
+        29.55
+      ],
+      "start": -5200,
+      "end": -4000,
+      "capital": false,
+      "role": "Yacimiento o centro documentado · referencia arqueológica",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "note": "Comunidades del entorno del lago y evidencias de subsistencia y cultivo. No se confunde FayumA con las tradiciones epipaleolíticas anteriores de FayumB. Convención UCL 5200–4000 a.C.; no unificación del valle del Nilo ni monarquía egipcia ya constituida.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch048-e1536d4e8f6e-reference",
+      "name": "Fayum · comunidades neolíticas",
+      "coordinates": [
+        30.55,
+        29.55
+      ],
+      "start": -5200,
+      "end": -4000,
+      "capital": false,
+      "role": "Yacimiento o centro documentado · referencia arqueológica",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "note": "Comunidades del entorno del lago y evidencias de subsistencia y cultivo. No se confunde FayumA con las tradiciones epipaleolíticas anteriores de FayumB. Convención UCL 5200–4000 a.C.; no unificación del valle del Nilo ni monarquía egipcia ya constituida.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Fayum · comunidades neolíticas"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context048-e1536d4e8f6e",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-5200-01-01",
+      "end": "-3999-01-01",
+      "text": "Comunidades del entorno del lago y evidencias de subsistencia y cultivo. No se confunde FayumA con las tradiciones epipaleolíticas anteriores de FayumB. Convención UCL 5200–4000 a.C.; no unificación del valle del Nilo ni monarquía egipcia ya constituida.",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "sourceLabel": "Referencia arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ],
+      "type": "transition"
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafías, cronologías y organización social; el intervalo no prueba ocupación uniforme de todos los años. No inferir nombres de jefes o fronteras de la existencia de construcciones."
+  ]
+}

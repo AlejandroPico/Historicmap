@@ -19,6 +19,25 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Corona de Aragón](./ARAGON-Corona-de-Aragon/entidad.json) | ARAGON | 5 | 0 | 23 | 39 |
 | [Condado de Aragón](./ARAGON-COUNTY-Condado-de-Aragon/entidad.json) | ARAGON-COUNTY | 0 | 0 | 8 | 0 |
 | [Reino de Aragón](./ARAGON-KINGDOM-Reino-de-Aragon/entidad.json) | ARAGON-KINGDOM | 0 | 0 | 6 | 10 |
+| [Badari · comunidades y necrópolis](./ARCHAEOLOGY-BADARI-Badari-comunidades-y-necropolis/entidad.json) | ARCHAEOLOGY-BADARI | 0 | 0 | 0 | 0 |
+| [Budj Bim · paisaje cultural y acuicultura](./ARCHAEOLOGY-BUDJ-BIM-Budj-Bim-paisaje-cultural-y-acuicultura/entidad.json) | ARCHAEOLOGY-BUDJ-BIM | 0 | 0 | 0 | 0 |
+| [Çatalhöyük · asentamiento occidental](./ARCHAEOLOGY-CATALHOYUK-WEST-Catalhoyuk-asentamiento-occidental/entidad.json) | ARCHAEOLOGY-CATALHOYUK-WEST | 0 | 0 | 0 | 0 |
+| [Dimini · asentamiento neolítico](./ARCHAEOLOGY-DIMINI-Dimini-asentamiento-neolitico/entidad.json) | ARCHAEOLOGY-DIMINI | 0 | 0 | 0 | 0 |
+| [Fayum · comunidades neolíticas](./ARCHAEOLOGY-FAYUM-A-Fayum-comunidades-neoliticas/entidad.json) | ARCHAEOLOGY-FAYUM-A | 0 | 0 | 0 | 0 |
+| [Jiahu · comunidad neolítica](./ARCHAEOLOGY-JIAHU-Jiahu-comunidad-neolitica/entidad.json) | ARCHAEOLOGY-JIAHU | 0 | 0 | 0 | 0 |
+| [Kuk · paisaje de cultivo y subsistencia](./ARCHAEOLOGY-KUK-Kuk-paisaje-de-cultivo-y-subsistencia/entidad.json) | ARCHAEOLOGY-KUK | 0 | 0 | 0 | 0 |
+| [Mehrgarh · comunidad y cronologías discutidas](./ARCHAEOLOGY-MEHRGARH-Mehrgarh-comunidad-y-cronologias-discutidas/entidad.json) | ARCHAEOLOGY-MEHRGARH | 0 | 0 | 0 | 0 |
+| [Merimde · asentamiento neolítico](./ARCHAEOLOGY-MERIMDE-Merimde-asentamiento-neolitico/entidad.json) | ARCHAEOLOGY-MERIMDE | 0 | 0 | 0 | 0 |
+| [Naqada · comunidades predinásticas](./ARCHAEOLOGY-NAQADA-Naqada-comunidades-predinasticas/entidad.json) | ARCHAEOLOGY-NAQADA | 0 | 0 | 0 | 0 |
+| [Newgrange · monumento y comunidades](./ARCHAEOLOGY-NEWGRANGE-Newgrange-monumento-y-comunidades/entidad.json) | ARCHAEOLOGY-NEWGRANGE | 0 | 0 | 0 | 0 |
+| [Niuheliang · centro ritual de Hongshan](./ARCHAEOLOGY-NIUHELIANG-Niuheliang-centro-ritual-de-Hongshan/entidad.json) | ARCHAEOLOGY-NIUHELIANG | 0 | 0 | 0 | 0 |
+| [Peiligang · comunidades neolíticas](./ARCHAEOLOGY-PEILIGANG-Peiligang-comunidades-neoliticas/entidad.json) | ARCHAEOLOGY-PEILIGANG | 0 | 0 | 0 | 0 |
+| [Real Alto · poblado precerámico y Valdivia](./ARCHAEOLOGY-REAL-ALTO-Real-Alto-poblado-preceramico-y-Valdivia/entidad.json) | ARCHAEOLOGY-REAL-ALTO | 0 | 0 | 0 | 0 |
+| [Sesklo · asentamientos neolíticos](./ARCHAEOLOGY-SESKLO-Sesklo-asentamientos-neoliticos/entidad.json) | ARCHAEOLOGY-SESKLO | 0 | 0 | 0 | 0 |
+| [Skara Brae · poblado neolítico](./ARCHAEOLOGY-SKARA-BRAE-Skara-Brae-poblado-neolitico/entidad.json) | ARCHAEOLOGY-SKARA-BRAE | 0 | 0 | 0 | 0 |
+| [Susa · redes y asentamientos de Susiana](./ARCHAEOLOGY-SUSA-Susa-redes-y-asentamientos-de-Susiana/entidad.json) | ARCHAEOLOGY-SUSA | 0 | 0 | 0 | 0 |
+| [Tell es-Sultan · Jericó prehistórico](./ARCHAEOLOGY-TELL-ES-SULTAN-Tell-es-Sultan-Jerico-prehistorico/entidad.json) | ARCHAEOLOGY-TELL-ES-SULTAN | 0 | 0 | 0 | 0 |
+| [Tell Halaf · comunidad neolítica](./ARCHAEOLOGY-TELL-HALAF-Tell-Halaf-comunidad-neolitica/entidad.json) | ARCHAEOLOGY-TELL-HALAF | 0 | 0 | 0 | 0 |
 | [Emiratos Árabes Unidos](./ARE-Emiratos-Arabes-Unidos/entidad.json) | ARE | 1 | 0 | 8 | 7 |
 | [Argentina](./ARG-Argentina/entidad.json) | ARG | 6 | 0 | 121 | 8 |
 | [Armenia](./ARM-Armenia/entidad.json) | ARM | 1 | 0 | 33 | 0 |
@@ -144,7 +163,9 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Alans](./CULTURE-ALANS-A8A50B31-Alans/entidad.json) | CULTURE-ALANS-A8A50B31 | 0 | 0 | 0 | 0 |
 | [Comunidades del litoral de Alaska · referencia anterior a Thule](./CULTURE-ALASKA-Comunidades-del-litoral-de-Alaska/entidad.json) | CULTURE-ALASKA | 0 | 0 | 0 | 2 |
 | [Algonquin](./CULTURE-ALGONQUIN-945781D0-algonquin/entidad.json) | CULTURE-ALGONQUIN-945781D0 | 0 | 0 | 0 | 0 |
+| [Tierras bajas aluviales · comunidades mesolíticas](./CULTURE-ALLUVIAL-LOWLAND-MESOLITHIC-HUNTER-FORAGERS-2A45E738-Tierras-bajas-aluviales-comunidades-meso/entidad.json) | CULTURE-ALLUVIAL-LOWLAND-MESOLITHIC-HUNTER-FORAGERS-2A45E738 | 0 | 0 | 0 | 1 |
 | [Pueblos y sociedades amazónicas](./CULTURE-AMAZON-Pueblos-y-sociedades-amazonicas/entidad.json) | CULTURE-AMAZON | 0 | 0 | 0 | 5 |
+| [Valle del Amuq · tradiciones neolíticas y transformaciones](./CULTURE-AMUQ-D-41D3EAB2-Valle-del-Amuq-tradiciones-neoliticas-y-/entidad.json) | CULTURE-AMUQ-D-41D3EAB2 | 0 | 0 | 0 | 0 |
 | [Comunidades de Anatolia · Edad del Bronce](./CULTURE-ANATOLIAN-TRIBES-83E3F323-Comunidades-de-Anatolia-Edad-del-Bronce/entidad.json) | CULTURE-ANATOLIAN-TRIBES-83E3F323 | 0 | 0 | 0 | 0 |
 | [Andean states and chiefdoms](./CULTURE-ANDEAN-STATES-AND-CHIEFDOMS-36FFFF68-andean-states-and-chiefd/entidad.json) | CULTURE-ANDEAN-STATES-AND-CHIEFDOMS-36FFFF68 | 0 | 0 | 0 | 0 |
 | [Comunidades andinas · referencia regional](./CULTURE-ANDES-Comunidades-andinas-referencia-regional/entidad.json) | CULTURE-ANDES | 0 | 0 | 0 | 5 |
@@ -199,6 +220,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Cultura Caloosahatchee](./CULTURE-CALOOSAHATCHEE-Cultura-Caloosahatchee/entidad.json) | CULTURE-CALOOSAHATCHEE | 0 | 0 | 0 | 3 |
 | [Comunidades y ciudades de Canaán](./CULTURE-CANAAN-D0A1AE11-Comunidades-y-ciudades-de-Canaan/entidad.json) | CULTURE-CANAAN-D0A1AE11 | 0 | 0 | 0 | 0 |
 | [Comunidades indígenas de Canarias](./CULTURE-CANARIES-Comunidades-indigenas-de-Canarias/entidad.json) | CULTURE-CANARIES | 0 | 0 | 0 | 0 |
+| [Mediterráneo occidental · tradiciones de cerámica cardial](./CULTURE-CARDIAL-WARE-CULTURE-3F34C75B-Mediterraneo-occidental-tradiciones-de-c/entidad.json) | CULTURE-CARDIAL-WARE-CULTURE-3F34C75B | 0 | 0 | 0 | 0 |
 | [Comunidades del Caribe · referencia regional](./CULTURE-CARIBBEAN-Comunidades-del-Caribe-referencia-regional/entidad.json) | CULTURE-CARIBBEAN | 0 | 0 | 0 | 6 |
 | [Tradiciones arqueológicas de las catacumbas](./CULTURE-CATACOMB-CULTURE-C1FA7CFF-Tradiciones-arqueologicas-de-las-catacumbas/entidad.json) | CULTURE-CATACOMB-CULTURE-C1FA7CFF | 0 | 0 | 0 | 0 |
 | [Caucasian Alans](./CULTURE-CAUCASIAN-ALANS-DAC6F78D-Caucasian-Alans/entidad.json) | CULTURE-CAUCASIAN-ALANS-DAC6F78D | 0 | 0 | 0 | 0 |
@@ -227,6 +249,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Cimerians](./CULTURE-CIMERIANS-CE6E8EE4-Cimerians/entidad.json) | CULTURE-CIMERIANS-CE6E8EE4 | 0 | 0 | 0 | 0 |
 | [Ciudades y poderes del Levante septentrional](./CULTURE-CITY-STATES-4B78242B-Ciudades-y-poderes-del-Levante-septentrional/entidad.json) | CULTURE-CITY-STATES-4B78242B | 0 | 0 | 0 | 1 |
 | [Coahuiltec](./CULTURE-COAHUILTEC-6CFE74AF-coahuiltec/entidad.json) | CULTURE-COAHUILTEC-6CFE74AF | 0 | 0 | 0 | 0 |
+| [Costas y bosques · comunidades mesolíticas](./CULTURE-COASTAL-AND-WOODLAND-MESOLITHIC-HUNTER-FORAGERS-7959D44F-Costas-y-bosques-comunidades-mesoliticas/entidad.json) | CULTURE-COASTAL-AND-WOODLAND-MESOLITHIC-HUNTER-FORAGERS-7959D44F | 0 | 0 | 0 | 1 |
 | [Comanche](./CULTURE-COMANCHE-8FC84BD4-comanche/entidad.json) | CULTURE-COMANCHE-8FC84BD4 | 0 | 0 | 0 | 0 |
 | [Conoy](./CULTURE-CONOY-3336BE19-conoy/entidad.json) | CULTURE-CONOY-3336BE19 | 0 | 0 | 0 | 0 |
 | [Copena](./CULTURE-COPENA-F6616025-Copena/entidad.json) | CULTURE-COPENA-F6616025 | 0 | 0 | 0 | 2 |
@@ -244,11 +267,13 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Dardania](./CULTURE-DARDANIA-D2FC59ED-Dardania/entidad.json) | CULTURE-DARDANIA-D2FC59ED | 0 | 0 | 0 | 0 |
 | [Delaware](./CULTURE-DELAWARE-E9FB9AD9-delaware/entidad.json) | CULTURE-DELAWARE-E9FB9AD9 | 0 | 0 | 0 | 0 |
 | [Comunidades del desierto norteamericano](./CULTURE-DESERT-Comunidades-del-desierto-norteamericano/entidad.json) | CULTURE-DESERT | 0 | 0 | 0 | 5 |
+| [Tesalia · antecedentes de las comunidades de Dimini](./CULTURE-DIMINI-1A94E174-Tesalia-antecedentes-de-las-comunidades-/entidad.json) | CULTURE-DIMINI-1A94E174 | 0 | 0 | 0 | 0 |
 | [Donghu tribes](./CULTURE-DONGHU-TRIBES-BFF2ACA7-Donghu-tribes/entidad.json) | CULTURE-DONGHU-TRIBES-BFF2ACA7 | 0 | 0 | 0 | 0 |
 | [Tradiciones Dorset · Ártico oriental](./CULTURE-DORSET-Tradiciones-Dorset-Artico-oriental/entidad.json) | CULTURE-DORSET | 0 | 0 | 0 | 2 |
 | [Dorset](./CULTURE-DORSET-89B0FD60-Dorset/entidad.json) | CULTURE-DORSET-89B0FD60 | 0 | 0 | 0 | 0 |
 | [Dravidians](./CULTURE-DRAVIDIANS-2BE7EB3C-Dravidians/entidad.json) | CULTURE-DRAVIDIANS-2BE7EB3C | 0 | 0 | 0 | 2 |
 | [Dumonii](./CULTURE-DUMONII-C5C9499F-Dumonii/entidad.json) | CULTURE-DUMONII-C5C9499F | 0 | 0 | 0 | 1 |
+| [Noreste europeo · tradiciones de cerámica de peine](./CULTURE-EARLY-COMBWARE-BDBFBF63-Noreste-europeo-tradiciones-de-ceramica-/entidad.json) | CULTURE-EARLY-COMBWARE-BDBFBF63 | 0 | 0 | 0 | 0 |
 | [East Getaes](./CULTURE-EAST-GETAES-27189E2E-East-Getaes/entidad.json) | CULTURE-EAST-GETAES-27189E2E | 0 | 0 | 0 | 0 |
 | [Eastern Masurian culture](./CULTURE-EASTERN-MASURIAN-CULTURE-A989BDFB-Eastern-Masurian-culture/entidad.json) | CULTURE-EASTERN-MASURIAN-CULTURE-A989BDFB | 0 | 0 | 0 | 2 |
 | [Sociedades del este de Norteamérica](./CULTURE-EASTERN-NORTH-AMERICA-Sociedades-del-este-de-Norteamerica/entidad.json) | CULTURE-EASTERN-NORTH-AMERICA | 0 | 0 | 0 | 0 |
@@ -268,11 +293,13 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Fox](./CULTURE-FOX-776CB326-fox/entidad.json) | CULTURE-FOX-776CB326 | 0 | 0 | 0 | 0 |
 | [Frisians](./CULTURE-FRISIANS-F9A24983-Frisians/entidad.json) | CULTURE-FRISIANS-F9A24983 | 0 | 0 | 0 | 0 |
 | [Funan](./CULTURE-FUNAN-49B89F3C-Funan/entidad.json) | CULTURE-FUNAN-49B89F3C | 0 | 0 | 0 | 1 |
+| [Europa centroseptentrional · antecedentes de la tradición de vasos de embudo](./CULTURE-FUNNEL-BEAKER-0680C949-Europa-centroseptentrional-antecedentes-/entidad.json) | CULTURE-FUNNEL-BEAKER-0680C949 | 0 | 0 | 0 | 0 |
 | [Gandhara grave culture](./CULTURE-GANDHARA-GRAVE-CULTURE-6A41CC30-Gandhara-grave-culture/entidad.json) | CULTURE-GANDHARA-GRAVE-CULTURE-6A41CC30 | 0 | 0 | 0 | 1 |
 | [Gaya](./CULTURE-GAYA-0507E6C3-Gaya/entidad.json) | CULTURE-GAYA-0507E6C3 | 0 | 0 | 0 | 1 |
 | [Geats](./CULTURE-GEATS-AA88EB03-Geats/entidad.json) | CULTURE-GEATS-AA88EB03 | 0 | 0 | 0 | 0 |
 | [Gepids](./CULTURE-GEPIDS-937AFCC1-Gepids/entidad.json) | CULTURE-GEPIDS-937AFCC1 | 0 | 0 | 0 | 0 |
 | [Germanic tribes](./CULTURE-GERMANIC-TRIBES-3C733537-Germanic-tribes/entidad.json) | CULTURE-GERMANIC-TRIBES-3C733537 | 0 | 0 | 0 | 0 |
+| [Levante meridional · antecedentes de las comunidades calcolíticas](./CULTURE-GHASSUL-70C43376-Levante-meridional-antecedentes-de-las-c/entidad.json) | CULTURE-GHASSUL-70C43376 | 0 | 0 | 0 | 0 |
 | [Glades Culture](./CULTURE-GLADES-CULTURE-1818F700-Glades-Culture/entidad.json) | CULTURE-GLADES-CULTURE-1818F700 | 0 | 0 | 0 | 2 |
 | [Göktürks](./CULTURE-GOKTURKS-A4011000-Gokturks/entidad.json) | CULTURE-GOKTURKS-A4011000 | 0 | 0 | 0 | 0 |
 | [Goths](./CULTURE-GOTHS-77EFA7C2-Goths/entidad.json) | CULTURE-GOTHS-77EFA7C2 | 0 | 0 | 0 | 0 |
@@ -292,10 +319,11 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Comunidades de Hawái · poblamiento polinesio](./CULTURE-HAWAII-Poblamiento-polinesio-de-Hawai-referencia/entidad.json) | CULTURE-HAWAII | 0 | 0 | 0 | 0 |
 | [Hejaz](./CULTURE-HEJAZ-2B817935-Hejaz/entidad.json) | CULTURE-HEJAZ-2B817935 | 0 | 0 | 0 | 0 |
 | [Heruli](./CULTURE-HERULI-9A13A4F1-Heruli/entidad.json) | CULTURE-HERULI-9A13A4F1 | 0 | 0 | 0 | 0 |
+| [Tierras altas · comunidades mesolíticas cazadoras-recolectoras](./CULTURE-HIGHLAND-MESOLITHIC-HUNTER-FORAGERS-81537338-Tierras-altas-comunidades-mesoliticas-ca/entidad.json) | CULTURE-HIGHLAND-MESOLITHIC-HUNTER-FORAGERS-81537338 | 0 | 0 | 0 | 2 |
 | [Hindu kingdoms](./CULTURE-HINDU-KINGDOMS-ECD95A2C-Hindu-kingdoms/entidad.json) | CULTURE-HINDU-KINGDOMS-ECD95A2C | 0 | 0 | 0 | 0 |
 | [Hindu states](./CULTURE-HINDU-STATES-53B41025-Hindu-states/entidad.json) | CULTURE-HINDU-STATES-53B41025 | 0 | 0 | 0 | 0 |
 | [Hitchiti](./CULTURE-HITCHITI-910FDF90-hitchiti/entidad.json) | CULTURE-HITCHITI-910FDF90 | 0 | 0 | 0 | 0 |
-| [Comunidades de Hokkaidō · Epi-Jōmon](./CULTURE-HOKKAIDO-Comunidades-de-Hokkaido-Satsumon/entidad.json) | CULTURE-HOKKAIDO | 0 | 0 | 0 | 8 |
+| [Comunidades de Hokkaidō · Epi-Jōmon](./CULTURE-HOKKAIDO-Comunidades-de-Hokkaido-Satsumon/entidad.json) | CULTURE-HOKKAIDO | 0 | 0 | 0 | 9 |
 | [Hopi](./CULTURE-HOPI-ACCE411E-hopi/entidad.json) | CULTURE-HOPI-ACCE411E | 0 | 0 | 0 | 0 |
 | [Hopie](./CULTURE-HOPIE-F4E21E7E-hopie/entidad.json) | CULTURE-HOPIE-F4E21E7E | 0 | 0 | 0 | 0 |
 | [Hövsgöl Nuur](./CULTURE-HOVSGOL-NUUR-353A6F82-Hovsgol-Nuur/entidad.json) | CULTURE-HOVSGOL-NUUR-353A6F82 | 0 | 0 | 0 | 0 |
@@ -327,6 +355,8 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Karluks](./CULTURE-KARLUKS-8BDE1DCB-Karluks/entidad.json) | CULTURE-KARLUKS-8BDE1DCB | 0 | 0 | 0 | 0 |
 | [Kashmir and Ladakh](./CULTURE-KASHMIR-AND-LADAKH-63A26F42-kashmir-and-ladakh/entidad.json) | CULTURE-KASHMIR-AND-LADAKH-63A26F42 | 0 | 0 | 0 | 0 |
 | [Kawahsu](./CULTURE-KAWAHSU-CCB6380E-kawahsu/entidad.json) | CULTURE-KAWAHSU-CCB6380E | 0 | 0 | 0 | 0 |
+| [Asia Central · comunidades y tradiciones Kelteminar](./CULTURE-KELTEMINAR-08B80739-Asia-Central-comunidades-y-tradiciones-K/entidad.json) | CULTURE-KELTEMINAR-08B80739 | 0 | 0 | 0 | 0 |
+| [Asia Central · referencia regional Kelteminar de la fuente](./CULTURE-KELTEMINAR-CULTURE-9E3EF5ED-Asia-Central-referencia-regional-Keltemi/entidad.json) | CULTURE-KELTEMINAR-CULTURE-9E3EF5ED | 0 | 0 | 0 | 0 |
 | [Kent](./CULTURE-KENT-D96D14F5-Kent/entidad.json) | CULTURE-KENT-D96D14F5 | 0 | 0 | 0 | 0 |
 | [Khanty](./CULTURE-KHANTY-70E67D7A-khanty/entidad.json) | CULTURE-KHANTY-70E67D7A | 0 | 0 | 0 | 0 |
 | [Pueblos khoe y san · referencia general](./CULTURE-KHOE-SAN-Pueblos-khoe-y-san-referencia-general/entidad.json) | CULTURE-KHOE-SAN | 0 | 0 | 0 | 8 |
@@ -347,12 +377,14 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Comunidades nubias · referencia del antiguo ámbito kushita](./CULTURE-KUSHITES-A64DFD5C-Kushites/entidad.json) | CULTURE-KUSHITES-A64DFD5C | 0 | 0 | 0 | 0 |
 | [Kwakwaka'wakw](./CULTURE-KWAKWAKA-WAKW-46F7B1A6-kwakwaka-wakw/entidad.json) | CULTURE-KWAKWAKA-WAKW-46F7B1A6 | 0 | 0 | 0 | 0 |
 | [Kwarezm](./CULTURE-KWAREZM-40A8FA96-Kwarezm/entidad.json) | CULTURE-KWAREZM-40A8FA96 | 0 | 0 | 0 | 0 |
+| [Sur ibérico · tradiciones de cerámicas a la almagra](./CULTURE-LA-ALMAGRA-CULTURE-C48A6CFF-Sur-iberico-tradiciones-de-ceramicas-a-l/entidad.json) | CULTURE-LA-ALMAGRA-CULTURE-C48A6CFF | 0 | 0 | 0 | 0 |
 | [Lagunero](./CULTURE-LAGUNERO-1CB98D6C-lagunero/entidad.json) | CULTURE-LAGUNERO-1CB98D6C | 0 | 0 | 0 | 0 |
 | [Lake Segozerskoye](./CULTURE-LAKE-SEGOZERSKOYE-A51AC46A-Lake-Segozerskoye/entidad.json) | CULTURE-LAKE-SEGOZERSKOYE-A51AC46A | 0 | 0 | 0 | 0 |
 | [Lake Vygozero](./CULTURE-LAKE-VYGOZERO-A217DA89-Lake-Vygozero/entidad.json) | CULTURE-LAKE-VYGOZERO-A217DA89 | 0 | 0 | 0 | 0 |
 | [Late Jomon culture](./CULTURE-LATE-JOMON-CULTURE-C4FF7803-Late-Jomon-culture/entidad.json) | CULTURE-LATE-JOMON-CULTURE-C4FF7803 | 0 | 0 | 0 | 2 |
 | [Laurel complex](./CULTURE-LAUREL-COMPLEX-C12E67B8-Laurel-complex/entidad.json) | CULTURE-LAUREL-COMPLEX-C12E67B8 | 0 | 0 | 0 | 2 |
 | [Lavo](./CULTURE-LAVO-471A7F35-Lavo/entidad.json) | CULTURE-LAVO-471A7F35 | 0 | 0 | 0 | 1 |
+| [Corredor levantino · comunidades neolíticas agrícolas](./CULTURE-LEVANTINE-CORRIDOR-NEOLITHIC-FARMERS-8CA53156-Corredor-levantino-comunidades-neolitica/entidad.json) | CULTURE-LEVANTINE-CORRIDOR-NEOLITHIC-FARMERS-8CA53156 | 0 | 0 | 0 | 1 |
 | [Lipan](./CULTURE-LIPAN-D25EA6D2-lipan/entidad.json) | CULTURE-LIPAN-D25EA6D2 | 0 | 0 | 0 | 0 |
 | [Lombard duchies](./CULTURE-LOMBARD-DUCHIES-567826F2-Lombard-duchies/entidad.json) | CULTURE-LOMBARD-DUCHIES-567826F2 | 0 | 0 | 0 | 0 |
 | [Lombard principalities](./CULTURE-LOMBARD-PRINCIPALITIES-D57C5075-Lombard-principalities/entidad.json) | CULTURE-LOMBARD-PRINCIPALITIES-D57C5075 | 0 | 0 | 0 | 0 |
@@ -404,13 +436,17 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [N. European Bronze Age cultures](./CULTURE-N-EUROPEAN-BRONZE-AGE-CULTURES-6BC7FA3A-N-European-Bronze-Age-cultures/entidad.json) | CULTURE-N-EUROPEAN-BRONZE-AGE-CULTURES-6BC7FA3A | 0 | 0 | 0 | 1 |
 | [Sur de Asia Central · tradiciones de Namazga](./CULTURE-NAMAZGA-7BFE4D82-Sur-de-Asia-Central-tradiciones-de-Namazga/entidad.json) | CULTURE-NAMAZGA-7BFE4D82 | 0 | 0 | 0 | 1 |
 | [Naniaho](./CULTURE-NANIAHO-CA806C88-naniaho/entidad.json) | CULTURE-NANIAHO-CA806C88 | 0 | 0 | 0 | 0 |
+| [Valle del Nilo · comunidades anteriores a Naqada I](./CULTURE-NAQUADA-I-C5E0F8F0-Valle-del-Nilo-comunidades-anteriores-a-/entidad.json) | CULTURE-NAQUADA-I-C5E0F8F0 | 0 | 0 | 0 | 0 |
+| [Báltico oriental · comunidades y tradiciones Narva](./CULTURE-NARVA-A192A19C-Baltico-oriental-comunidades-y-tradicion/entidad.json) | CULTURE-NARVA-A192A19C | 0 | 0 | 0 | 0 |
 | [Naskapi Innu](./CULTURE-NASKAPI-INNU-2178621E-naskapi-innu/entidad.json) | CULTURE-NASKAPI-INNU-2178621E | 0 | 0 | 0 | 0 |
 | [Navaho](./CULTURE-NAVAHO-7D47BE85-navaho/entidad.json) | CULTURE-NAVAHO-7D47BE85 | 0 | 0 | 0 | 0 |
 | [Navajo](./CULTURE-NAVAJO-653E9207-navajo/entidad.json) | CULTURE-NAVAJO-653E9207 | 0 | 0 | 0 | 0 |
 | [Nayarit](./CULTURE-NAYARIT-90DA32A4-nayarit/entidad.json) | CULTURE-NAYARIT-90DA32A4 | 0 | 0 | 0 | 0 |
 | [Nazca](./CULTURE-NAZCA-8BBBBD64-Nazca/entidad.json) | CULTURE-NAZCA-8BBBBD64 | 0 | 0 | 0 | 2 |
 | [Ndebele · referencia regional](./CULTURE-NDEBELE-59F72508-Ndebele/entidad.json) | CULTURE-NDEBELE-59F72508 | 0 | 0 | 0 | 0 |
+| [Noreste europeo · referencia «Nemay» pendiente de identificación](./CULTURE-NEMAY-868821CD-Noreste-europeo-referencia-Nemay-pendien/entidad.json) | CULTURE-NEMAY-868821CD | 0 | 0 | 0 | 0 |
 | [Nenets](./CULTURE-NENETS-FD52A9FA-nenets/entidad.json) | CULTURE-NENETS-FD52A9FA | 0 | 0 | 0 | 0 |
+| [Comunidades neolíticas agrícolas · referencia regional](./CULTURE-NEOLITHIC-FARMERS-B1647A39-Comunidades-neoliticas-agricolas-referen/entidad.json) | CULTURE-NEOLITHIC-FARMERS-B1647A39 | 0 | 0 | 0 | 1 |
 | [Neustria](./CULTURE-NEUSTRIA-BB653447-Neustria/entidad.json) | CULTURE-NEUSTRIA-BB653447 | 0 | 0 | 0 | 0 |
 | [New Amsterdam](./CULTURE-NEW-AMSTERDAM-306E903C-new-amsterdam/entidad.json) | CULTURE-NEW-AMSTERDAM-306E903C | 0 | 0 | 0 | 0 |
 | [Nez Perce](./CULTURE-NEZ-PERCE-93E52032-nez-perce/entidad.json) | CULTURE-NEZ-PERCE-93E52032 | 0 | 0 | 0 | 0 |
@@ -514,6 +550,8 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Slavs](./CULTURE-SLAVS-A3E064A0-Slavs/entidad.json) | CULTURE-SLAVS-A3E064A0 | 0 | 0 | 0 | 0 |
 | [Southern Paiute](./CULTURE-SOUTHERN-PAIUTE-32AC70E0-southern-paiute/entidad.json) | CULTURE-SOUTHERN-PAIUTE-32AC70E0 | 0 | 0 | 0 | 0 |
 | [state societies and Aramaean kingdoms](./CULTURE-STATE-SOCIETIES-AND-ARAMAEAN-KINGDOMS-B8684B25-state-societies-and-Aramaean-kingdoms/entidad.json) | CULTURE-STATE-SOCIETIES-AND-ARAMAEAN-KINGDOMS-B8684B25 | 0 | 0 | 0 | 2 |
+| [Sicilia y sur de Italia · tradiciones de Stentinello](./CULTURE-STENTINELLO-CULTURE-B6C4D0A8-Sicilia-y-sur-de-Italia-tradiciones-de-S/entidad.json) | CULTURE-STENTINELLO-CULTURE-B6C4D0A8 | 0 | 0 | 0 | 0 |
+| [Estepas · comunidades mesolíticas cazadoras-recolectoras](./CULTURE-STEPPE-MESOLITHIC-HUNTER-FORAGERS-C4FDE833-Estepas-comunidades-mesoliticas-cazadora/entidad.json) | CULTURE-STEPPE-MESOLITHIC-HUNTER-FORAGERS-C4FDE833 | 0 | 0 | 0 | 3 |
 | [Comunidades de los bosques subárticos](./CULTURE-SUBARCTIC-Comunidades-de-los-bosques-subarticos/entidad.json) | CULTURE-SUBARCTIC | 0 | 0 | 0 | 5 |
 | [Comunidades de Finlandia · referencia Suomi](./CULTURE-SUOMI-Comunidades-de-Finlandia-referencia-Suomi/entidad.json) | CULTURE-SUOMI | 0 | 0 | 0 | 1 |
 | [Susquehanna](./CULTURE-SUSQUEHANNA-F787AEDC-susquehanna/entidad.json) | CULTURE-SUSQUEHANNA-F787AEDC | 0 | 0 | 0 | 0 |
@@ -547,6 +585,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Tupis](./CULTURE-TUPIS-2E77ED70-Tupis/entidad.json) | CULTURE-TUPIS-2E77ED70 | 0 | 0 | 0 | 0 |
 | [Turingians](./CULTURE-TURINGIANS-87163317-Turingians/entidad.json) | CULTURE-TURINGIANS-87163317 | 0 | 0 | 0 | 1 |
 | [Turks and Caicos Islands](./CULTURE-TURKS-AND-CAICOS-ISLANDS-1BF0283A-Turks-and-Caicos-Islan/entidad.json) | CULTURE-TURKS-AND-CAICOS-ISLANDS-1BF0283A | 0 | 0 | 0 | 4 |
+| [Sur mesopotámico · comunidades y redes Ubaid](./CULTURE-UBAID-1F5082EC-Sur-mesopotamico-comunidades-y-redes-Uba/entidad.json) | CULTURE-UBAID-1F5082EC | 0 | 0 | 0 | 0 |
 | [Umatilla](./CULTURE-UMATILLA-8066FA00-umatilla/entidad.json) | CULTURE-UMATILLA-8066FA00 | 0 | 0 | 0 | 0 |
 | [Complejo arqueológico de Únětice](./CULTURE-UNETICE-0D373FEE-Complejo-arqueologico-de-Unetice/entidad.json) | CULTURE-UNETICE-0D373FEE | 0 | 0 | 0 | 0 |
 | [Urnfield cultures](./CULTURE-URNFIELD-CULTURES-2F3EF157-Urnfield-cultures/entidad.json) | CULTURE-URNFIELD-CULTURES-2F3EF157 | 0 | 0 | 0 | 1 |
@@ -559,6 +598,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Veps](./CULTURE-VEPS-7CF8E98B-Veps/entidad.json) | CULTURE-VEPS-7CF8E98B | 0 | 0 | 0 | 0 |
 | [Veracruz civilization](./CULTURE-VERACRUZ-CIVILIZATION-70B82A40-Veracruz-civilization/entidad.json) | CULTURE-VERACRUZ-CIVILIZATION-70B82A40 | 0 | 0 | 0 | 1 |
 | [Vishnu-Kundins](./CULTURE-VISHNU-KUNDINS-B36C80EC-Vishnu-Kundins/entidad.json) | CULTURE-VISHNU-KUNDINS-B36C80EC | 0 | 0 | 0 | 1 |
+| [Volga-Kama · comunidades y tradiciones neolíticas](./CULTURE-VOLGA-KAMM-844C583A-Volga-Kama-comunidades-y-tradiciones-neo/entidad.json) | CULTURE-VOLGA-KAMM-844C583A | 0 | 0 | 0 | 0 |
 | [Walapai](./CULTURE-WALAPAI-9363D8FA-walapai/entidad.json) | CULTURE-WALAPAI-9363D8FA | 0 | 0 | 0 | 0 |
 | [Wankarani](./CULTURE-WANKARANI-5D2DE9BD-Wankarani/entidad.json) | CULTURE-WANKARANI-5D2DE9BD | 0 | 0 | 0 | 0 |
 | [Wappynger](./CULTURE-WAPPYNGER-BC967F08-wappynger/entidad.json) | CULTURE-WAPPYNGER-BC967F08 | 0 | 0 | 0 | 0 |
@@ -828,7 +868,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Khedivate of Egypt](./HIST-Q127861-Khedivate-of-Egypt/entidad.json) | HIST-Q127861 | 0 | 0 | 0 | 3 |
 | [Principality of Capua](./HIST-Q1280122-Principality-of-Capua/entidad.json) | HIST-Q1280122 | 0 | 0 | 0 | 8 |
 | [Ghaznavid Empire](./HIST-Q12844800-Ghaznavid-Empire/entidad.json) | HIST-Q12844800 | 0 | 0 | 12 | 19 |
-| [Elam](./HIST-Q128904-Elam/entidad.json) | HIST-Q128904 | 0 | 0 | 13 | 18 |
+| [Elam](./HIST-Q128904-Elam/entidad.json) | HIST-Q128904 | 0 | 0 | 13 | 19 |
 | [China · dinastía Shang](./HIST-Q128938-China-dinastia-Shang/entidad.json) | HIST-Q128938 | 0 | 0 | 9 | 4 |
 | [Yan Kingdom](./HIST-Q1291919-Yan-Kingdom/entidad.json) | HIST-Q1291919 | 0 | 0 | 0 | 1 |
 | [British Raj](./HIST-Q129286-British-Raj/entidad.json) | HIST-Q129286 | 0 | 0 | 0 | 6 |
@@ -2038,7 +2078,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Imerina](./REFERENCE-IMERINA-25DFBE32-Imerina/entidad.json) | REFERENCE-IMERINA-25DFBE32 | 0 | 0 | 0 | 0 |
 | [Imperial Japan](./REFERENCE-IMPERIAL-JAPAN-3E8E4154-Imperial-Japan/entidad.json) | REFERENCE-IMPERIAL-JAPAN-3E8E4154 | 0 | 0 | 0 | 0 |
 | [Inca Empire](./REFERENCE-INCA-EMPIRE-E1E4A22C-inca-empire/entidad.json) | REFERENCE-INCA-EMPIRE-E1E4A22C | 0 | 0 | 0 | 0 |
-| [Redes y centros urbanos del Indo](./REFERENCE-INDUS-URBAN-NETWORKS-Redes-y-centros-urbanos-del-Indo/entidad.json) | REFERENCE-INDUS-URBAN-NETWORKS | 0 | 0 | 0 | 10 |
+| [Redes y centros urbanos del Indo](./REFERENCE-INDUS-URBAN-NETWORKS-Redes-y-centros-urbanos-del-Indo/entidad.json) | REFERENCE-INDUS-URBAN-NETWORKS | 0 | 0 | 0 | 11 |
 | [Comunidades de estepa deAsia interior](./REFERENCE-INNER-ASIAN-STEPPE-Comunidades-de-estepa-deAsia-interior/entidad.json) | REFERENCE-INNER-ASIAN-STEPPE | 0 | 0 | 0 | 0 |
 | [Ámbitos iranios · comunidades tras el poder parto](./REFERENCE-IRANIAN-REGIONS-Ambitos-iranios-comunidades-tras-el-poder-parto/entidad.json) | REFERENCE-IRANIAN-REGIONS | 0 | 0 | 0 | 1 |
 | [Comunidades del Levante · tradiciones de Israel y Judá](./REFERENCE-IRON-AGE-LEVANT-COMMUNITIES-Comunidades-del-Levante-tradiciones-de-Israel-y-Juda/entidad.json) | REFERENCE-IRON-AGE-LEVANT-COMMUNITIES | 0 | 0 | 0 | 1 |
@@ -2227,6 +2267,7 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [United Provinces of the Río de la Plata](./REFERENCE-UNITED-PROVINCES-OF-THE-RIO-DE-LA--7BBC1983-United-Provinces-of-th/entidad.json) | REFERENCE-UNITED-PROVINCES-OF-THE-RIO-DE-LA--7BBC1983 | 0 | 0 | 0 | 0 |
 | [United States of America](./REFERENCE-UNITED-STATES-OF-AMERICA-F250504D-United-States-of-Ameri/entidad.json) | REFERENCE-UNITED-STATES-OF-AMERICA-F250504D | 0 | 0 | 0 | 0 |
 | [United States Virgin Islands](./REFERENCE-UNITED-STATES-VIRGIN-ISLANDS-61768A51-United-States-Virgin-I/entidad.json) | REFERENCE-UNITED-STATES-VIRGIN-ISLANDS-61768A51 | 0 | 0 | 0 | 0 |
+| [Uruk · redes urbanas tempranas](./REFERENCE-URUK-URBAN-NETWORKS-Uruk-redes-urbanas-tempranas/entidad.json) | REFERENCE-URUK-URBAN-NETWORKS | 0 | 0 | 0 | 2 |
 | [Ámbitos del reino vándalo · poblaciones diversas](./REFERENCE-VANDAL-AFRICA-Ambitos-del-reino-vandalo-poblaciones-diversas/entidad.json) | REFERENCE-VANDAL-AFRICA | 0 | 0 | 0 | 1 |
 | [Venice · referencia](./REFERENCE-VENICE-Venice-referencia/entidad.json) | REFERENCE-VENICE | 0 | 0 | 0 | 0 |
 | [Victoria (UK)](./REFERENCE-VICTORIA-UK-B5BB91B6-Victoria-UK/entidad.json) | REFERENCE-VICTORIA-UK-B5BB91B6 | 0 | 0 | 0 | 0 |
@@ -2414,12 +2455,10 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Ñuu Savi (Mixtecapan)](./territorio-08ec2e0a3082-Nuu-Savi-Mixtecapan/entidad.json) | territorio-08ec2e0a3082 | 0 | 0 | 0 | 1 |
 | [Ahé (Kawahib)](./territorio-091762af398c-Ahe-Kawahib/entidad.json) | territorio-091762af398c | 0 | 0 | 0 | 1 |
 | [Kluane](./territorio-091dfb26196c-Kluane/entidad.json) | territorio-091dfb26196c | 0 | 0 | 0 | 1 |
-| [Coastal and Woodland Mesolithic Hunter-Foragers](./territorio-0938c2d3dc71-Coastal-and-Woodland-Mesolithic-Hunter-Foragers/entidad.json) | territorio-0938c2d3dc71 | 0 | 0 | 0 | 1 |
 | [Yankuntjatjara](./territorio-0940c48a94d6-Yankuntjatjara/entidad.json) | territorio-0940c48a94d6 | 0 | 0 | 0 | 1 |
 | [Chochenyo](./territorio-096d7c7561e0-Chochenyo/entidad.json) | territorio-096d7c7561e0 | 0 | 0 | 0 | 1 |
 | [Mossi States](./territorio-09aa17bf39c4-Mossi-States/entidad.json) | territorio-09aa17bf39c4 | 0 | 0 | 0 | 2 |
 | [Kichwa del Río Napo](./territorio-09cd8ab95f1c-Kichwa-del-Rio-Napo/entidad.json) | territorio-09cd8ab95f1c | 0 | 0 | 0 | 1 |
-| [Neolithic Farmers](./territorio-09feddf37b66-Neolithic-Farmers/entidad.json) | territorio-09feddf37b66 | 0 | 0 | 0 | 1 |
 | [Akokisa](./territorio-0a30ffb834eb-Akokisa/entidad.json) | territorio-0a30ffb834eb | 0 | 0 | 0 | 1 |
 | [Gananggalinda](./territorio-0a47f2eb4609-Gananggalinda/entidad.json) | territorio-0a47f2eb4609 | 0 | 0 | 0 | 1 |
 | [Tsankupi](./territorio-0a81bf01f08d-Tsankupi/entidad.json) | territorio-0a81bf01f08d | 0 | 0 | 0 | 1 |
@@ -2640,13 +2679,11 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Kashmir (North, Azad)](./territorio-2864ef7b4582-Kashmir-North-Azad/entidad.json) | territorio-2864ef7b4582 | 0 | 0 | 0 | 1 |
 | [Trinidad](./territorio-287dc6923bef-Trinidad/entidad.json) | territorio-287dc6923bef | 0 | 0 | 0 | 3 |
 | [Wardaman](./territorio-28987ef52ea8-Wardaman/entidad.json) | territorio-28987ef52ea8 | 0 | 0 | 0 | 1 |
-| [Alluvial Lowland Mesolithic Hunter-Foragers](./territorio-28f1386fa4f6-Alluvial-Lowland-Mesolithic-Hunter-Foragers/entidad.json) | territorio-28f1386fa4f6 | 0 | 0 | 0 | 1 |
 | [Worimi](./territorio-290f73db1baa-Worimi/entidad.json) | territorio-290f73db1baa | 0 | 0 | 0 | 1 |
 | [Akimel O'odham (Upper Pima)](./territorio-2919e1556e18-Akimel-O-odham-Upper-Pima/entidad.json) | territorio-2919e1556e18 | 0 | 0 | 0 | 1 |
 | [Yoreme (Mayo)](./territorio-2941d0b1bc17-Yoreme-Mayo/entidad.json) | territorio-2941d0b1bc17 | 0 | 0 | 0 | 1 |
 | [Kichwa Santarrosino](./territorio-294d601ce3be-Kichwa-Santarrosino/entidad.json) | territorio-294d601ce3be | 0 | 0 | 0 | 1 |
 | [Circars](./territorio-295d638cba7b-Circars/entidad.json) | territorio-295d638cba7b | 0 | 0 | 0 | 1 |
-| [Levantine Corridor (Neolithic Farmers)](./territorio-299dfce52385-Levantine-Corridor-Neolithic-Farmers/entidad.json) | territorio-299dfce52385 | 0 | 0 | 0 | 1 |
 | [Mazahua](./territorio-29b09305c762-Mazahua/entidad.json) | territorio-29b09305c762 | 0 | 0 | 0 | 1 |
 | [Monqui](./territorio-29d0afb89398-Monqui/entidad.json) | territorio-29d0afb89398 | 0 | 0 | 0 | 1 |
 | [Dharawala](./territorio-29d9c4e57417-Dharawala/entidad.json) | territorio-29d9c4e57417 | 0 | 0 | 0 | 1 |
@@ -2665,7 +2702,6 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Gangulu](./territorio-2caf0881234c-Gangulu/entidad.json) | territorio-2caf0881234c | 0 | 0 | 0 | 1 |
 | [Mountain Maidu](./territorio-2cebc222176d-Mountain-Maidu/entidad.json) | territorio-2cebc222176d | 0 | 0 | 0 | 1 |
 | [Mehin](./territorio-2d0b4bdccd6d-Mehin/entidad.json) | territorio-2d0b4bdccd6d | 0 | 0 | 0 | 1 |
-| [Highland Mesolithic Hunter-Foragers](./territorio-2d19ff1665e2-Highland-Mesolithic-Hunter-Foragers/entidad.json) | territorio-2d19ff1665e2 | 0 | 0 | 0 | 2 |
 | [Baraba Baraba](./territorio-2d2cb2f39c34-Baraba-Baraba/entidad.json) | territorio-2d2cb2f39c34 | 0 | 0 | 0 | 1 |
 | [Kuungkari](./territorio-2d438c980ce1-Kuungkari/entidad.json) | territorio-2d438c980ce1 | 0 | 0 | 0 | 1 |
 | [Tutelo](./territorio-2d7211dfefdf-Tutelo/entidad.json) | territorio-2d7211dfefdf | 0 | 0 | 0 | 1 |
@@ -3421,7 +3457,6 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Patwin](./territorio-89d4577d0891-Patwin/entidad.json) | territorio-89d4577d0891 | 0 | 0 | 0 | 1 |
 | [Ndé Kónitsąąíí Gokíyaa (Lipan Apache)](./territorio-89f6e09c8283-Nde-Konitsaaii-Gokiyaa-Lipan-Apache/entidad.json) | territorio-89f6e09c8283 | 0 | 0 | 0 | 1 |
 | [Palyku](./territorio-8a03be91322e-Palyku/entidad.json) | territorio-8a03be91322e | 0 | 0 | 0 | 1 |
-| [Okhotsk culture](./territorio-8a070f45b3c1-Okhotsk-culture/entidad.json) | territorio-8a070f45b3c1 | 0 | 0 | 0 | 1 |
 | [Oro Win/Oro Towati’](./territorio-8a2de1eabbee-Oro-Win-Oro-Towati/entidad.json) | territorio-8a2de1eabbee | 0 | 0 | 0 | 1 |
 | [Tepehuán](./territorio-8a38862e96de-Tepehuan/entidad.json) | territorio-8a38862e96de | 0 | 0 | 0 | 1 |
 | [Guwinmal](./territorio-8a4e180a49eb-Guwinmal/entidad.json) | territorio-8a4e180a49eb | 0 | 0 | 0 | 1 |
@@ -3752,7 +3787,6 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Yamhill](./territorio-b2bb5026cb98-Yamhill/entidad.json) | territorio-b2bb5026cb98 | 0 | 0 | 0 | 1 |
 | [Mechoopda](./territorio-b30adffc9f10-Mechoopda/entidad.json) | territorio-b30adffc9f10 | 0 | 0 | 0 | 1 |
 | [Achuar](./territorio-b31d86bd7b28-Achuar/entidad.json) | territorio-b31d86bd7b28 | 0 | 0 | 0 | 1 |
-| [Indus valley civilization](./territorio-b3630c840dbc-Indus-valley-civilization/entidad.json) | territorio-b3630c840dbc | 0 | 0 | 0 | 1 |
 | [Otoe-Missouria (Oklahoma)](./territorio-b370c8da592e-Otoe-Missouria-Oklahoma/entidad.json) | territorio-b370c8da592e | 0 | 0 | 0 | 1 |
 | [Pit River](./territorio-b381a6f68f17-Pit-River/entidad.json) | territorio-b381a6f68f17 | 0 | 0 | 0 | 1 |
 | [pʌʌsíʌhʌ (Andoque/Paasiaja)](./territorio-b3828d1e777e-p-si-h-Andoque-Paasiaja/entidad.json) | territorio-b3828d1e777e | 0 | 0 | 0 | 1 |
@@ -4163,7 +4197,6 @@ Inventario generado de países, reinos, imperios y territorios presentes en los 
 | [Bidjara](./territorio-eaaa5afc0137-Bidjara/entidad.json) | territorio-eaaa5afc0137 | 0 | 0 | 0 | 1 |
 | [Bagirmi](./territorio-eab1e43885a6-Bagirmi/entidad.json) | territorio-eab1e43885a6 | 0 | 0 | 0 | 1 |
 | [Manteño-Huancavilca](./territorio-eae35391411c-Manteno-Huancavilca/entidad.json) | territorio-eae35391411c | 0 | 0 | 0 | 1 |
-| [Steppe Mesolithic Hunter-Foragers](./territorio-eb266346074c-Steppe-Mesolithic-Hunter-Foragers/entidad.json) | territorio-eb266346074c | 0 | 0 | 0 | 3 |
 | [Halalt](./territorio-eb3198455ec1-Halalt/entidad.json) | territorio-eb3198455ec1 | 0 | 0 | 0 | 1 |
 | [Karajarri](./territorio-eb38d53ca4b4-Karajarri/entidad.json) | territorio-eb38d53ca4b4 | 0 | 0 | 0 | 1 |
 | [Moneton](./territorio-eb4b47f9c484-Moneton/entidad.json) | territorio-eb4b47f9c484 | 0 | 0 | 0 | 1 |

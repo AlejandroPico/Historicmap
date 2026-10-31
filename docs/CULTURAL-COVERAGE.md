@@ -66,3 +66,8 @@ Pendientes: más bibliografía independiente, subdivisiones locales, culturas om
 Se conserva toda la cobertura anterior y se añaden 25 grupos originales nombrados de la referencia de 3000, distribuidos en 31 fases de consulta. La compilación fijada no contiene una referencia de 2500; no se proyecta el mapa de 2000 hacia atrás. Las denominaciones anacrónicas, fases de legado y cambios convencionales del Indo, Kerma y otras tradiciones se cualifican expresamente. Los 113 componentes sin nombre no se convierten en culturas supuestas ni su vacío implica despoblación.
 
 [Investigación y límites](RESEARCH-bc3000.md), [inventario global vigente](CULTURAL-REVIEW-bc3000-2027.json) y [originales del tramo](CULTURAL-EXTENSION-bc3000.json). Las áreas culturales y la cartografía política conservan sus interruptores independientes, ambos activos inicialmente. Persisten carencias importantes de cartografía arqueológica regional.
+
+
+## Extensión6000–3001a.C. · 0.48.0
+
+[Fuentes y límites](RESEARCH-bc6000.md):66 grupos de las referencias8000/5000/4000,94 fases. No existe un mapa6000 en la revisión fijada. La consulta en6000 usa explícitamente un contexto anterior; los contextos heredados no acreditan persistencia cultural o ocupación uniforme. Se conserva todo el inventario previo. Gris no significa ausencia humana. [Ruta de historia terrestre](ROADMAP-EARTH-HISTORY.md).

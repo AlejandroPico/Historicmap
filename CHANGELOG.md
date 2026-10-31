@@ -1,5 +1,14 @@
 # Historial de versiones
 
+## 0.48.0 · 31 de octubre de 2026
+
+- Consulta de 6000–3001 a.C. con 22 referencias arqueológicas y 66 grupos regionales originales/94 fases. Cronologías, fuentes y decisiones en las carpetas de cada entidad.
+- Contextos arqueológicos legibles en la ficha, validados al compilar y separados de la lista de episodios anuales. Vistas genéricas integradas en sus propietarios sin perder referencias.
+- Tres componentes políticos originales desde 3400; no polígonos estatales, gobernantes o símbolos nacionales ficticios antes de su evidencia.
+- Cerámica cardial recuperada de metadatos con nombre vacío; rótulos anacrónicos y antecedentes culturales cualificados. La referencia de 8000 se identifica como contexto anterior, sin presentar5000 como mapa de 6000.
+- Nuevo contrato de arqueología separado de los lotes políticos de 400 años. Yacimientos distinguidos de capitales; catálogo respeta la carpeta propietaria de los nuevos dossiers.
+- Ruta documentada para dispersión de homininos, paleoclima, tectónica, vida, extinciones y formación terrestre.10000 a.C. sigue como siguiente encargo.
+
 ## 0.47.0 · 31 de octubre de 2026
 
 - Consulta anual de 3000–2001 a. C., en tres tramos acotados. Egipto temprano y Reino Antiguo, ciudades sumerias, Akkad, Ur III y transiciones posteriores, con 39 dossiers, 50 ventanas de autoridades, notas de secuencias sin fechas suficientes, centros y contexto.

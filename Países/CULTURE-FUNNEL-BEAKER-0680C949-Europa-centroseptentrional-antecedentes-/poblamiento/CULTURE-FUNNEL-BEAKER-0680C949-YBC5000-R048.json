@@ -1,0 +1,90 @@
+{
+  "key": "CULTURE-FUNNEL-BEAKER-0680C949-YBC5000-R048",
+  "contextKey": "CULTURE-FUNNEL-BEAKER-0680C949",
+  "ownerKey": "CULTURE-FUNNEL-BEAKER-0680C949",
+  "name": "Europa centroseptentrional · antecedentes de la tradición de vasos de embudo",
+  "originalNames": [
+    "Funnel-Beaker"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia prehistórica regional de la compilación original",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -6000,
+    -3001
+  ],
+  "interpretation": "Área original de una compilación histórica, conservada como referencia regional documentada y pendiente de contraste arqueológico independiente. No es una frontera étnica exclusiva, Estado único ni evidencia de que toda la superficie estuviera ocupada simultáneamente.",
+  "spatialUncertainty": "Coordenadas originales conservadas; no son costas paleogeográficas, etnias cartografiadas exhaustivamente ni áreas estatales precisas. El fondo gris no demuestra ausencia de seres humanos.",
+  "temporalUncertainty": "Hay referencias 8000,5000 y 4000, pero no 6000. Cada selección muestra el año de evidencia y el carácter de contexto heredado cuando corresponde; los finales de ventana no son extinciones culturales.",
+  "references": [
+    {
+      "title": "Historical Basemaps5000a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc5000.geojson"
+    },
+    {
+      "title": "Investigación y límites de la revisión6000–3001a.C.",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc6000.md"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    15.81378,
+    52.24776
+  ],
+  "phases": [
+    {
+      "start": -5000,
+      "end": -4301,
+      "label": "Europa centroseptentrional · antecedentes de la tradición de vasos de embudo",
+      "dateBasis": "Referencia original de 5000 a.C.; ventana de consulta 5000–4001 a.C., no observaciones anuales ni certeza de ocupación uniforme.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -4300,
+      "end": -4001,
+      "label": "Europa centroseptentrional · tradiciones de vasos de embudo",
+      "dateBasis": "Transición convencional aproximada hacia 4300 a.C., con variantes regionales; el contorno de la fuente se conserva, no es una frontera anual reconstruida.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -4000,
+      "end": -3001,
+      "label": "Europa centroseptentrional · tradiciones de vasos de embudo",
+      "dateBasis": "Continuidad de consulta del contexto regional anterior ante ausencia de un nuevo rótulo equivalente. No acredita persistencia cultural, ocupación uniforme o un gobierno sin cambios.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -5000
+    }
+  ],
+  "geometryFile": "CULTURE-FUNNEL-BEAKER-0680C949-YBC5000-R048.geojson",
+  "geometrySha256": "37d6e1d7ea8a681987b51b27dbf729982e0a349c904ca4bce87732d5690ef2d9",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc5000.geojson",
+    "year": -5000,
+    "featureIds": [
+      277
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ba34b16d2a9d55d461a6b7f4fde2e29a8c1a6827a30817fdf46b18e94a06edba"
+  },
+  "review": "0.48.0 · 2026-10-31",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar estratigrafías, dataciones calibradas y extensión regional; no interpretar áreas sin nombre como espacios deshabitados."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Funnel-Beaker",
+      "ABBREVN": "Funnel-Beaker",
+      "type": null,
+      "weblnks": null,
+      "SUBJECTO": "Funnel-Beaker",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Funnel-Beaker"
+    }
+  ],
+  "sourceGrouping": [
+    "Funnel-Beaker"
+  ]
+}

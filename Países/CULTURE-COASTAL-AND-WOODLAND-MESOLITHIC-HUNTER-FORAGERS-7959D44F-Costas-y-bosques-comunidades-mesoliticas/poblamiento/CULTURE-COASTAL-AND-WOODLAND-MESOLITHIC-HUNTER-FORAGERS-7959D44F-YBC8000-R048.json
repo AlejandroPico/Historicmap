@@ -1,0 +1,85 @@
+{
+  "key": "CULTURE-COASTAL-AND-WOODLAND-MESOLITHIC-HUNTER-FORAGERS-7959D44F-YBC8000-R048",
+  "contextKey": "CULTURE-COASTAL-AND-WOODLAND-MESOLITHIC-HUNTER-FORAGERS-7959D44F",
+  "ownerKey": "CULTURE-COASTAL-AND-WOODLAND-MESOLITHIC-HUNTER-FORAGERS-7959D44F",
+  "name": "Costas y bosques · comunidades mesolíticas",
+  "originalNames": [
+    "Coastal and Woodland Mesolithic Hunter-Foragers"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia prehistórica regional de la compilación original",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -6000,
+    -3001
+  ],
+  "interpretation": "Área original de una compilación histórica, conservada como referencia regional documentada y pendiente de contraste arqueológico independiente. No es una frontera étnica exclusiva, Estado único ni evidencia de que toda la superficie estuviera ocupada simultáneamente.",
+  "spatialUncertainty": "Coordenadas originales conservadas; no son costas paleogeográficas, etnias cartografiadas exhaustivamente ni áreas estatales precisas. El fondo gris no demuestra ausencia de seres humanos.",
+  "temporalUncertainty": "Hay referencias 8000,5000 y 4000, pero no 6000. Cada selección muestra el año de evidencia y el carácter de contexto heredado cuando corresponde; los finales de ventana no son extinciones culturales.",
+  "references": [
+    {
+      "title": "Historical Basemaps8000a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc8000.geojson"
+    },
+    {
+      "title": "Investigación y límites de la revisión6000–3001a.C.",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc6000.md"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    28.83987,
+    36.87891
+  ],
+  "phases": [
+    {
+      "start": -6000,
+      "end": -5001,
+      "label": "Costas y bosques · comunidades mesolíticas",
+      "dateBasis": "Contexto regional de la referencia anterior de 8000 a.C.; no hay mapa 6000 fijado ni se toma un mapa 5000 prestado hacia atrás. No es una observación de 6000 ni prueba de persistencia étnica.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -8000
+    },
+    {
+      "start": -5000,
+      "end": -3001,
+      "label": "Costas y bosques · comunidades mesolíticas",
+      "dateBasis": "Continuidad de consulta del contexto regional anterior ante ausencia de un nuevo rótulo equivalente. No acredita persistencia cultural, ocupación uniforme o un gobierno sin cambios.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -8000
+    }
+  ],
+  "geometryFile": "CULTURE-COASTAL-AND-WOODLAND-MESOLITHIC-HUNTER-FORAGERS-7959D44F-YBC8000-R048.geojson",
+  "geometrySha256": "bc3b0b2bfcf67dc9d95890196d1d9acf9c85c84e15445486a44087e9725320da",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc8000.geojson",
+    "year": -8000,
+    "featureIds": [
+      129
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "13b5a58206c486c4a1c5a56c5d66f318ebc4e4fc0fda9ff4109469aa1a731f11"
+  },
+  "review": "0.48.0 · 2026-10-31",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar estratigrafías, dataciones calibradas y extensión regional; no interpretar áreas sin nombre como espacios deshabitados."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Coastal and Woodland Mesolithic Hunter-Foragers",
+      "ABBREVN": "Coastal and Woodland Mesolithic Hunter-Foragers",
+      "type": null,
+      "weblnks": null,
+      "SUBJECTO": "Coastal and Woodland Mesolithic Hunter-Foragers",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Coastal and Woodland Mesolithic Hunter-Foragers"
+    }
+  ],
+  "sourceGrouping": [
+    "Coastal and Woodland Mesolithic Hunter-Foragers"
+  ]
+}

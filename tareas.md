@@ -1,6 +1,19 @@
 # Tareas y continuidad
 
-## Entrega · 0.47.0 · 3000–2001 a. C.
+## Encargo vigente · 0.48.0 · 6000–3001 a. C. y ruta hasta la formación terrestre
+
+- [x] Comprobar base60649 ebde limpia y congelar conservación048. Tres componentes políticos originales sólo desde 3400; no inventar reinos en 6000.
+- [x] Documentar el objetivo Tierra–presente y fases posteriores; corregir escalas BP/a.C., dispersión humana y niveles de glaciación sin fijar trece por suposición.
+- [x] Investigar comunidades, asentamientos y transformación urbana de 6000–3001; fuentes, fechas y dudas por entidad, sin líderes ni banderas supuestos.
+- [x] Conservar fuentes culturales8000/5000/4000 con referencias explícitas; no adelantar la fuente5000 a 6000. Mantener todos los datos posteriores.
+- [x] Integrar consulta continua, áreas y yacimientos; cartografía política sólo donde hay evidencia. Fichas y controles independientes persistentes.
+- [x] Compilar con un único escritor, sincronizar, comprobar conservación, pruebas, tipos, producción y navegador. Documentar y subir sin esperar Actions/Pages.
+
+Resultado 0.48: datos y catálogo sincronizados,22 referencias arqueológicas,66 grupos/94 fases. Conservación correcta:20559 cargos y 10183 fases anteriores.356 comprobaciones generales durante el cierre;46 focales tras el último ajuste,31 Python y cuatro recorridos finales de navegador correctos. Tipos y producción correctos. Regeneración por etapas e integridad comprobadas. Ocho vistas genéricas reasignadas conservando once referencias. Entrega preparada en este commit; comparar HEAD yorigin/main al reanudar. Despliegue pendiente del propietario: no esperar Actions/Pages. Véase DELIVERY-0.48.0.
+
+10000 a.C. es el siguiente encargo previsto, aún no una ampliación ejecutada. Migraciones, especies humanas, glaciaciones, paleocostas, atmósfera, vida y Tierra temprana forman la ruta posterior; los esquemas actuales no se presentan como modelos físicos terminados.
+
+## Entrega anterior · 0.47.0 · 3000–2001 a. C.
 
 - [x] Verificar base53431e088 y árbol limpio; congelar hechos/fases anteriores en .cache/baseline047.json.
 - [x] Inventariar nueve grupos políticos y25 componentes originales.

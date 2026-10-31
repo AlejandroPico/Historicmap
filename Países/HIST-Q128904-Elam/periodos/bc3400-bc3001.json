@@ -1,0 +1,72 @@
+{
+  "key": "HIST-Q128904",
+  "identity": {
+    "qid": "Q128904",
+    "name": "Elam"
+  },
+  "revision": "0.48.0",
+  "acquisition": "period-bc3400-0.48",
+  "coverageStart": -3400,
+  "coverageEnd": -3001,
+  "candidates": [],
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "governance": [
+    {
+      "start": -3200,
+      "end": -3001,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc6000.md",
+      "sourceLabel": "Redes y poderes documentados, organización variable",
+      "note": "Síntesis original de centros y poderes de finales delcuarto milenio. No reinado conocido, imperio de 6000 a.C. ni observación anual de fronteras."
+    }
+  ],
+  "places": [],
+  "contexts": [],
+  "entityRules": [
+    {
+      "files": [
+        "historical-bc3400-entities.json"
+      ],
+      "record": {
+        "names": [
+          "Elam"
+        ],
+        "start": -3200,
+        "end": -3001,
+        "label": "Susiana · centros y poderes del final del cuarto milenio",
+        "admin": "",
+        "status": "source-reference",
+        "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc6000.md",
+        "note": "Síntesis original de centros y poderes de finales delcuarto milenio. No reinado conocido, imperio de 6000 a.C. ni observación anual de fronteras."
+      }
+    }
+  ],
+  "geography": [
+    {
+      "file": "../geometrias/bc3400-bc3001.geojson",
+      "sha256": "8b34ea31ca035b9a60eff6bbf45ac1b4ec4b7b2179be85849725c15dfc621ae7",
+      "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/tree/5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "sourceCommit": "5f433377139a6eeaeacbdc894b70f8805b72c8b5",
+      "license": "CC-BY-4.0",
+      "sourceIndices": [
+        2
+      ],
+      "note": "Coordenadas y propiedades originales intactas; sólo tres componentes. Sin polígonos antes de 3400."
+    }
+  ],
+  "authorityNotes": [
+    {
+      "start": "-3200-01-01",
+      "end": "-3001-12-31",
+      "text": "Centros, redes y administración documentados, sin una lista anual fiable de dirigentes individuales para este periodo. No asignar una bandera nacional moderna ni nombres dinásticos posteriores.",
+      "source": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc6000.md"
+    }
+  ],
+  "pending": [
+    "Cronología regional y organización política; contornos de compilación, no límites exactos de ciudades o reinos."
+  ]
+}

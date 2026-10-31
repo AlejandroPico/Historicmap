@@ -35,7 +35,7 @@ def apply_portrait_corrections(identities, media, inputs):
 
 def portraits_only():
     identities=read(ROOT/'public/data/identities.json');manifest=read(ROOT/'public/media/manifest.json');media={m['file']:m for m in manifest['entries']}
-    inputs=sorted([*(ROOT/'Países').glob('*/revision-historica.json'),*(ROOT/'Países').glob('*/periodos/*.json')])
+    inputs=sorted([*(ROOT/'Países').glob('*/revision-historica.json'),*(ROOT/'Países').glob('*/arqueologia.json'),*(ROOT/'Países').glob('*/periodos/*.json')])
     matched=apply_portrait_corrections(identities,media,inputs)
     save_data(ROOT/'public/data/identities.json',identities);manifest['entries']=sorted(media.values(),key=lambda m:m['file']);save_data(ROOT/'public/media/manifest.json',manifest)
     catalog=read(ROOT/'public/data/manifest.json');raw=(ROOT/'public/data/identities.json').read_bytes()
@@ -52,7 +52,7 @@ def main(acquire=False, portrait_only=False):
     by_title={m['title']:m for m in media.values()}
     portraits={l['person']:l['portrait'] for c in identities['countries'].values() for l in c['leaders'] if l.get('portrait')}
     history=read(ROOT/'public/data/country-history.json');governance=read(ROOT/'public/data/governance.json')
-    inputs=sorted([*(ROOT/'Países').glob('*/revision-historica.json'),*(ROOT/'Países').glob('*/periodos/*.json')])
+    inputs=sorted([*(ROOT/'Países').glob('*/revision-historica.json'),*(ROOT/'Países').glob('*/arqueologia.json'),*(ROOT/'Países').glob('*/periodos/*.json')])
     tags={read(p).get('acquisition',TAG) for p in inputs}
     history['records']=[r for r in history['records'] if r.get('acquisition') not in tags]
     governance['records']=[r for r in governance['records'] if r.get('acquisition') not in tags]
@@ -68,8 +68,13 @@ def main(acquire=False, portrait_only=False):
         entity_root=path.parent.parent if path.parent.name=='periodos' else path.parent
         country=identities['countries'].get(key)
         if not country and revision.get('identity'):
-            country=identities['countries'].setdefault(key,{**revision['identity'],'flags':[],'leaders':[]})
+            country=identities['countries'].setdefault(key,{**revision['identity'],'canonicalFile':path.relative_to(ROOT).as_posix(),'flags':[],'leaders':[]})
         if not country:raise ValueError('Unknown entity '+key)
+        if path.name=='arqueologia.json':
+            from archaeology_evidence import check_archaeology
+            check_archaeology(revision)
+        if 'authorityNotes'in revision:
+            country['notes']=[r for r in country.get('notes',[])if r.get('acquisition')!=tag]+[{**r,'acquisition':tag}for r in revision['authorityNotes']]
         correction=revision.get('identityNameCorrection')
         if correction:
             if not all(correction.get(field) for field in ['name','source','reason']):raise ValueError('Incomplete identity name correction '+str(path))

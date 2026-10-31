@@ -1,0 +1,83 @@
+{
+  "key": "CULTURE-CARDIAL-WARE-CULTURE-3F34C75B-YBC5000-R048",
+  "contextKey": "CULTURE-CARDIAL-WARE-CULTURE-3F34C75B",
+  "ownerKey": "CULTURE-CARDIAL-WARE-CULTURE-3F34C75B",
+  "name": "Mediterráneo occidental · tradiciones de cerámica cardial",
+  "originalNames": [
+    "Cardial Ware culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia prehistórica regional de la compilación original",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -6000,
+    -3001
+  ],
+  "interpretation": "Área original de una compilación histórica, conservada como referencia regional documentada y pendiente de contraste arqueológico independiente. No es una frontera étnica exclusiva, Estado único ni evidencia de que toda la superficie estuviera ocupada simultáneamente.",
+  "spatialUncertainty": "Coordenadas originales conservadas; no son costas paleogeográficas, etnias cartografiadas exhaustivamente ni áreas estatales precisas. El fondo gris no demuestra ausencia de seres humanos.",
+  "temporalUncertainty": "Hay referencias 8000,5000 y 4000, pero no 6000. Cada selección muestra el año de evidencia y el carácter de contexto heredado cuando corresponde; los finales de ventana no son extinciones culturales.",
+  "references": [
+    {
+      "title": "Historical Basemaps5000a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc5000.geojson"
+    },
+    {
+      "title": "Investigación y límites de la revisión6000–3001a.C.",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc6000.md"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    9.1471,
+    44.43945
+  ],
+  "phases": [
+    {
+      "start": -5000,
+      "end": -4001,
+      "label": "Mediterráneo occidental · tradiciones de cerámica cardial",
+      "dateBasis": "Referencia original de 5000 a.C.; ventana de consulta 5000–4001 a.C., no observaciones anuales ni certeza de ocupación uniforme.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -4000,
+      "end": -3001,
+      "label": "Mediterráneo occidental · tradiciones de cerámica cardial",
+      "dateBasis": "Continuidad de consulta del contexto regional anterior ante ausencia de un nuevo rótulo equivalente. No acredita persistencia cultural, ocupación uniforme o un gobierno sin cambios.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -5000
+    }
+  ],
+  "geometryFile": "CULTURE-CARDIAL-WARE-CULTURE-3F34C75B-YBC5000-R048.geojson",
+  "geometrySha256": "7db48cf504c708d95b75d2f9fada4137c9c52bc26d9df08ff43618942dbe6f9b",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc5000.geojson",
+    "year": -5000,
+    "featureIds": [
+      125
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ba34b16d2a9d55d461a6b7f4fde2e29a8c1a6827a30817fdf46b18e94a06edba"
+  },
+  "review": "0.48.0 · 2026-10-31",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar estratigrafías, dataciones calibradas y extensión regional; no interpretar áreas sin nombre como espacios deshabitados."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "      ",
+      "ABBREVN": "Cardial Ware culture",
+      "type": "culture",
+      "weblnks": null,
+      "SUBJECTO": "Cardial Ware culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Cardial Ware culture"
+    }
+  ],
+  "sourceGrouping": [
+    "Cardial Ware culture"
+  ]
+}

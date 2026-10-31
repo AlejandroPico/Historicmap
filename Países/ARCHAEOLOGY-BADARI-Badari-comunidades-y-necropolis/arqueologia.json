@@ -1,0 +1,96 @@
+{
+  "format": "archaeological-evidence",
+  "key": "ARCHAEOLOGY-BADARI",
+  "identity": {
+    "qid": "",
+    "name": "Badari · comunidades y necrópolis",
+    "recordType": "archaeological-reference"
+  },
+  "revision": "0.48.0",
+  "acquisition": "archaeology-0.48",
+  "coverageStart": -4400,
+  "coverageEnd": -4000,
+  "evidenceWindow": [
+    -4400,
+    -4000
+  ],
+  "dateBasis": "Ventana UCL 4400–4000 a.C.; otros autores proponen comienzos anteriores.",
+  "leaders": [],
+  "symbols": [],
+  "institutions": [],
+  "authorityNotes": [
+    {
+      "start": "-4400-01-01",
+      "end": "-4000-12-31",
+      "text": "Las evidencias arqueológicas permiten consultar esta comunidad o centro, pero no acreditan aquí el nombre de un gobernante individual ni un sistema de jefaturas concreto. No se asignan retratos, banderas nacionales o mandatos supuestos. Ventana UCL 4400–4000 a.C.; otros autores proponen comienzos anteriores.",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+    }
+  ],
+  "governance": [
+    {
+      "start": -4400,
+      "end": -4000,
+      "tags": [
+        "unclassified"
+      ],
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "sourceLabel": "Evidencia de organización social sin constitución inferida",
+      "note": "Yacimiento o red arqueológica; no Estado, monarquía o democracia atribuidos por defecto."
+    }
+  ],
+  "places": [
+    {
+      "id": "arch048-a2615c7ec0d0",
+      "name": "Badari · comunidades y necrópolis",
+      "coordinates": [
+        31.4,
+        26.99
+      ],
+      "start": -4400,
+      "end": -4000,
+      "capital": false,
+      "role": "Yacimiento o centro documentado · referencia arqueológica",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "note": "Registro arqueológico del Alto Egipto que da nombre a la tradición badariense. Las cronologías publicadas tienen extremos diferentes; no una monarquía de un dirigente conocido. Ventana UCL 4400–4000 a.C.; otros autores proponen comienzos anteriores.",
+      "referenceKind": "archaeological-site"
+    },
+    {
+      "id": "arch048-a2615c7ec0d0-reference",
+      "name": "Badari · comunidades y necrópolis",
+      "coordinates": [
+        31.4,
+        26.99
+      ],
+      "start": -4400,
+      "end": -4000,
+      "capital": false,
+      "role": "Yacimiento o centro documentado · referencia arqueológica",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "note": "Registro arqueológico del Alto Egipto que da nombre a la tradición badariense. Las cronologías publicadas tienen extremos diferentes; no una monarquía de un dirigente conocido. Ventana UCL 4400–4000 a.C.; otros autores proponen comienzos anteriores.",
+      "referenceKind": "archaeological-site",
+      "standaloneReference": true,
+      "entityName": "Badari · comunidades y necrópolis"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "arch-context048-a2615c7ec0d0",
+      "title": "Comunidades, evidencias y cronología",
+      "start": "-4400-01-01",
+      "end": "-3999-01-01",
+      "text": "Registro arqueológico del Alto Egipto que da nombre a la tradición badariense. Las cronologías publicadas tienen extremos diferentes; no una monarquía de un dirigente conocido. Ventana UCL 4400–4000 a.C.; otros autores proponen comienzos anteriores.",
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "sourceLabel": "Referencia arqueológica",
+      "confidence": "archaeological-reference",
+      "tags": [
+        "archaeology"
+      ],
+      "type": "transition"
+    }
+  ],
+  "entityRules": [],
+  "geography": [],
+  "pending": [
+    "Contrastar estratigrafías, cronologías y organización social; el intervalo no prueba ocupación uniforme de todos los años. No inferir nombres de jefes o fronteras de la existencia de construcciones."
+  ]
+}

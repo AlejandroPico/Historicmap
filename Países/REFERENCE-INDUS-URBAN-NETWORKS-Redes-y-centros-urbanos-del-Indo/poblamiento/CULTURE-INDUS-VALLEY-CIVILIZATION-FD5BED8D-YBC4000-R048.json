@@ -1,0 +1,81 @@
+{
+  "key": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D-YBC4000-R048",
+  "contextKey": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D",
+  "ownerKey": "REFERENCE-INDUS-URBAN-NETWORKS",
+  "name": "Cuenca del Indo · antecedentes de las redes harappenses",
+  "originalNames": [
+    "Indus valley civilization"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia prehistórica regional de la compilación original",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -6000,
+    -3001
+  ],
+  "interpretation": "Área original de una compilación histórica, conservada como referencia regional documentada y pendiente de contraste arqueológico independiente. No es una frontera étnica exclusiva, Estado único ni evidencia de que toda la superficie estuviera ocupada simultáneamente.",
+  "spatialUncertainty": "Coordenadas originales conservadas; no son costas paleogeográficas, etnias cartografiadas exhaustivamente ni áreas estatales precisas. El fondo gris no demuestra ausencia de seres humanos.",
+  "temporalUncertainty": "Hay referencias 8000,5000 y 4000, pero no 6000. Cada selección muestra el año de evidencia y el carácter de contexto heredado cuando corresponde; los finales de ventana no son extinciones culturales.",
+  "references": [
+    {
+      "title": "Historical Basemaps4000a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc4000.geojson"
+    },
+    {
+      "title": "Investigación y límites de la revisión6000–3001a.C.",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc6000.md"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    65.04005,
+    26.39483
+  ],
+  "phases": [
+    {
+      "start": -4000,
+      "end": -3301,
+      "label": "Cuenca del Indo · antecedentes de las redes harappenses",
+      "dateBasis": "Referencia original de 4000 a.C.; ventana de consulta 4000–3001 a.C., no observaciones anuales ni certeza de ocupación uniforme.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -3300,
+      "end": -3001,
+      "label": "Cuenca del Indo · redes harappenses tempranas",
+      "dateBasis": "Transición convencional aproximada hacia 3300 a.C., con variantes regionales; el contorno de la fuente se conserva, no es una frontera anual reconstruida.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-INDUS-VALLEY-CIVILIZATION-FD5BED8D-YBC4000-R048.geojson",
+  "geometrySha256": "9895465ab10835b59e418f123f67a65e1100db36a014ce37f22510c968cb12e1",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc4000.geojson",
+    "year": -4000,
+    "featureIds": [
+      20
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e3c4f1a6a255301e69edcb75b3e5fd8d0e52461967e54146bb9f1f57d4654173"
+  },
+  "review": "0.48.0 · 2026-10-31",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar estratigrafías, dataciones calibradas y extensión regional; no interpretar áreas sin nombre como espacios deshabitados."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Indus valley civilization",
+      "ABBREVN": "Indus valley",
+      "type": "civilization",
+      "weblnks": null,
+      "SUBJECTO": "Indus valley civilization",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Indus valley civilization"
+    }
+  ],
+  "sourceGrouping": [
+    "Indus valley civilization"
+  ]
+}

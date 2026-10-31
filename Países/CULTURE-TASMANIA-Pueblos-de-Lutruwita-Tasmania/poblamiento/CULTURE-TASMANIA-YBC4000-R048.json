@@ -1,0 +1,74 @@
+{
+  "key": "CULTURE-TASMANIA-YBC4000-R048",
+  "contextKey": "CULTURE-TASMANIA",
+  "ownerKey": "CULTURE-TASMANIA",
+  "name": "Comunidades aborígenes de Tasmania",
+  "originalNames": [
+    "Aboriginal Tasmanians"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia prehistórica regional de la compilación original",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -6000,
+    -3001
+  ],
+  "interpretation": "Área original de una compilación histórica, conservada como referencia regional documentada y pendiente de contraste arqueológico independiente. No es una frontera étnica exclusiva, Estado único ni evidencia de que toda la superficie estuviera ocupada simultáneamente.",
+  "spatialUncertainty": "Coordenadas originales conservadas; no son costas paleogeográficas, etnias cartografiadas exhaustivamente ni áreas estatales precisas. El fondo gris no demuestra ausencia de seres humanos.",
+  "temporalUncertainty": "Hay referencias 8000,5000 y 4000, pero no 6000. Cada selección muestra el año de evidencia y el carácter de contexto heredado cuando corresponde; los finales de ventana no son extinciones culturales.",
+  "references": [
+    {
+      "title": "Historical Basemaps4000a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc4000.geojson"
+    },
+    {
+      "title": "Investigación y límites de la revisión6000–3001a.C.",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc6000.md"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#a69b78",
+  "focus": [
+    146.50997,
+    -42.28229
+  ],
+  "phases": [
+    {
+      "start": -4000,
+      "end": -3001,
+      "label": "Comunidades aborígenes de Tasmania",
+      "dateBasis": "Referencia original de 4000 a.C.; ventana de consulta 4000–3001 a.C., no observaciones anuales ni certeza de ocupación uniforme.",
+      "endIsReviewBoundary": true
+    }
+  ],
+  "geometryFile": "CULTURE-TASMANIA-YBC4000-R048.geojson",
+  "geometrySha256": "9e79aaa846eb84d8228211a02d2933cf818f3c6be30a8c568909b4d763636ea7",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc4000.geojson",
+    "year": -4000,
+    "featureIds": [
+      4
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "e3c4f1a6a255301e69edcb75b3e5fd8d0e52461967e54146bb9f1f57d4654173"
+  },
+  "review": "0.48.0 · 2026-10-31",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar estratigrafías, dataciones calibradas y extensión regional; no interpretar áreas sin nombre como espacios deshabitados."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Aboriginal Tasmanians",
+      "ABBREVN": "From Indus Valley",
+      "type": "culture",
+      "weblnks": "http://www.nationalgeographic.com.au/australia/four-thousand-years-ago-indians-landed-in-australia.aspx",
+      "SUBJECTO": "Aboriginal Tasmanians",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Aboriginal Tasmanians"
+    }
+  ],
+  "sourceGrouping": [
+    "Aboriginal Tasmanians"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "key": "CULTURE-LA-ALMAGRA-CULTURE-C48A6CFF-YBC5000-R048",
+  "contextKey": "CULTURE-LA-ALMAGRA-CULTURE-C48A6CFF",
+  "ownerKey": "CULTURE-LA-ALMAGRA-CULTURE-C48A6CFF",
+  "name": "Sur ibérico · tradiciones de cerámicas a la almagra",
+  "originalNames": [
+    "La Almagra culture"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia prehistórica regional de la compilación original",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -6000,
+    -3001
+  ],
+  "interpretation": "Área original de una compilación histórica, conservada como referencia regional documentada y pendiente de contraste arqueológico independiente. No es una frontera étnica exclusiva, Estado único ni evidencia de que toda la superficie estuviera ocupada simultáneamente.",
+  "spatialUncertainty": "Coordenadas originales conservadas; no son costas paleogeográficas, etnias cartografiadas exhaustivamente ni áreas estatales precisas. El fondo gris no demuestra ausencia de seres humanos.",
+  "temporalUncertainty": "Hay referencias 8000,5000 y 4000, pero no 6000. Cada selección muestra el año de evidencia y el carácter de contexto heredado cuando corresponde; los finales de ventana no son extinciones culturales.",
+  "references": [
+    {
+      "title": "Historical Basemaps5000a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc5000.geojson"
+    },
+    {
+      "title": "Investigación y límites de la revisión6000–3001a.C.",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc6000.md"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    -4.26207,
+    37.10869
+  ],
+  "phases": [
+    {
+      "start": -5000,
+      "end": -4001,
+      "label": "Sur ibérico · tradiciones de cerámicas a la almagra",
+      "dateBasis": "Referencia original de 5000 a.C.; ventana de consulta 5000–4001 a.C., no observaciones anuales ni certeza de ocupación uniforme.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -4000,
+      "end": -3001,
+      "label": "Sur ibérico · tradiciones de cerámicas a la almagra",
+      "dateBasis": "Continuidad de consulta del contexto regional anterior ante ausencia de un nuevo rótulo equivalente. No acredita persistencia cultural, ocupación uniforme o un gobierno sin cambios.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -5000
+    }
+  ],
+  "geometryFile": "CULTURE-LA-ALMAGRA-CULTURE-C48A6CFF-YBC5000-R048.geojson",
+  "geometrySha256": "8f8e8b76f0b6eef5c9fd4c7635a6f099dc33fdff08ef3d5403df474c40915154",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc5000.geojson",
+    "year": -5000,
+    "featureIds": [
+      123
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ba34b16d2a9d55d461a6b7f4fde2e29a8c1a6827a30817fdf46b18e94a06edba"
+  },
+  "review": "0.48.0 · 2026-10-31",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar estratigrafías, dataciones calibradas y extensión regional; no interpretar áreas sin nombre como espacios deshabitados."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "La Almagra culture",
+      "ABBREVN": "La Almagra culture",
+      "type": "La Almagra",
+      "weblnks": null,
+      "SUBJECTO": "La Almagra culture",
+      "BORDERPRECISION": 1,
+      "PARTOF": "La Almagra culture"
+    }
+  ],
+  "sourceGrouping": [
+    "La Almagra culture"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "key": "CULTURE-EARLY-COMBWARE-BDBFBF63-YBC5000-R048",
+  "contextKey": "CULTURE-EARLY-COMBWARE-BDBFBF63",
+  "ownerKey": "CULTURE-EARLY-COMBWARE-BDBFBF63",
+  "name": "Noreste europeo · tradiciones de cerámica de peine",
+  "originalNames": [
+    "Early combware"
+  ],
+  "kind": "cultural-region",
+  "region": "Referencia prehistórica regional de la compilación original",
+  "decision": "adopted-reference",
+  "reviewedRange": [
+    -6000,
+    -3001
+  ],
+  "interpretation": "Área original de una compilación histórica, conservada como referencia regional documentada y pendiente de contraste arqueológico independiente. No es una frontera étnica exclusiva, Estado único ni evidencia de que toda la superficie estuviera ocupada simultáneamente.",
+  "spatialUncertainty": "Coordenadas originales conservadas; no son costas paleogeográficas, etnias cartografiadas exhaustivamente ni áreas estatales precisas. El fondo gris no demuestra ausencia de seres humanos.",
+  "temporalUncertainty": "Hay referencias 8000,5000 y 4000, pero no 6000. Cada selección muestra el año de evidencia y el carácter de contexto heredado cuando corresponde; los finales de ventana no son extinciones culturales.",
+  "references": [
+    {
+      "title": "Historical Basemaps5000a.C. · original fijado",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc5000.geojson"
+    },
+    {
+      "title": "Investigación y límites de la revisión6000–3001a.C.",
+      "url": "https://github.com/AlejandroPico/Historicmap/blob/main/docs/RESEARCH-bc6000.md"
+    }
+  ],
+  "politicalKeys": [],
+  "color": "#879a9a",
+  "focus": [
+    36.78203,
+    58.8968
+  ],
+  "phases": [
+    {
+      "start": -5000,
+      "end": -4001,
+      "label": "Noreste europeo · tradiciones de cerámica de peine",
+      "dateBasis": "Referencia original de 5000 a.C.; ventana de consulta 5000–4001 a.C., no observaciones anuales ni certeza de ocupación uniforme.",
+      "endIsReviewBoundary": true
+    },
+    {
+      "start": -4000,
+      "end": -3001,
+      "label": "Noreste europeo · tradiciones de cerámica de peine",
+      "dateBasis": "Continuidad de consulta del contexto regional anterior ante ausencia de un nuevo rótulo equivalente. No acredita persistencia cultural, ocupación uniforme o un gobierno sin cambios.",
+      "endIsReviewBoundary": true,
+      "temporalMode": "historical-area-context",
+      "evidenceThrough": -5000
+    }
+  ],
+  "geometryFile": "CULTURE-EARLY-COMBWARE-BDBFBF63-YBC5000-R048.geojson",
+  "geometrySha256": "ea7b73d249d362c95bc766a755bd4e32839524def7618112b38a48a31c75bd0d",
+  "geometryProvenance": {
+    "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc5000.geojson",
+    "year": -5000,
+    "featureIds": [
+      273
+    ],
+    "license": "GPL-3.0",
+    "upstreamSha256": "ba34b16d2a9d55d461a6b7f4fde2e29a8c1a6827a30817fdf46b18e94a06edba"
+  },
+  "review": "0.48.0 · 2026-10-31",
+  "reviewStatus": "source-reference-awaiting-independent-regional-validation",
+  "pending": [
+    "Contrastar estratigrafías, dataciones calibradas y extensión regional; no interpretar áreas sin nombre como espacios deshabitados."
+  ],
+  "originalSourceProperties": [
+    {
+      "NAME": "Early combware",
+      "ABBREVN": "Early combware",
+      "type": "culture",
+      "weblnks": null,
+      "SUBJECTO": "Early combware",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Early combware"
+    }
+  ],
+  "sourceGrouping": [
+    "Early combware"
+  ]
+}
